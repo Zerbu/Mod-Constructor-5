@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="Constructor5.Elements.Broadcasters.BroadcasterMiniEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:dd="urn:gong-wpf-dragdrop"
+             xmlns:local="clr-namespace:Constructor5.Elements.Broadcasters"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <d:UserControl.DataContext>
+        <local:Broadcaster />
+    </d:UserControl.DataContext>
+    <UserControl.Resources>
+        <shared:SimpleAddToListCommand x:Key="AddActionCommand" Type="{x:Type local:BroadcasterConditionGroupEffect}" />
+        <shared:SimpleAddToListCommand x:Key="AddConditionGroupCommand" Type="{x:Type local:BroadcasterConditionGroup}" />
+        <local:BroadcasterEditorTemplateSelector x:Key="TemplateSelector" />
+        <Style x:Key="ConditionGroupMouseOver" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+            <Setter Property="CornerRadius" Value="4" />
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="BorderBrush" Value="{StaticResource Constructor.FocusBackgroundHighlightTransparent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <DataTemplate x:Key="ConditionGroupTemplate">
+            <Border Style="{StaticResource ConditionGroupMouseOver}">
+                <Expander IsExpanded="{Binding IsExpanded, Mode=TwoWay}">
+                    <Expander.Header>
+                        <shared:SelectableObjectControl DeleteButtonClicked="TestConditionControl_DeleteButtonClicked"
+                                                        Object="{Binding Condition}"
+                                                        ShowDeleteButton="true"
+                                                        ShowSetLabelButton="True"
+                                                        Tag="{Binding}"
+                                                        TypeRegistryCategory="TestConditionTypes">
+                            <shared:SelectableObjectControl.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Click="MenuItem_Click"
+                                              Command="{StaticResource AddActionCommand}"
+                                              CommandParameter="{Binding Items}"
+                                              Header="Add Effect"
+                                              Tag="{Binding}" />
+                                    <MenuItem Click="MenuItem_Click"
+                                              Command="{StaticResource AddConditionGroupCommand}"
+                                              CommandParameter="{Binding Items}"
+                                              Header="Add Nested Condition Group"
+                                              Tag="{Binding}" />
+                                </ContextMenu>
+                            </shared:SelectableObjectControl.ContextMenu>
+                        </shared:SelectableObjectControl>
+                    </Expander.Header>
+                    <Expander.Content>
+                        <StackPanel Margin="10,0,0,0">
+                            <ItemsControl dd:DragDrop.IsDragSource="True"
+                                          dd:DragDrop.IsDropTarget="True"
+                                          ItemTemplateSelector="{StaticResource TemplateSelector}"
+                                          ItemsSource="{Binding Items}"
+                                          Tag="{Binding}" />
+                        </StackPanel>
+                    </Expander.Content>
+                </Expander>
+            </Border>
+        </DataTemplate>
+        <DataTemplate x:Key="ActionTemplate">
+            <shared:SelectableObjectControl DeleteButtonClicked="SelectableObjectControl_DeleteButtonClicked"
+                                            Object="{Binding Effect}"
+                                            ShowDeleteButton="true"
+                                            ShowSetLabelButton="True"
+                                            Tag="{Binding}"
+                                            TypeRegistryCategory="BroadcasterEffects" />
+        </DataTemplate>
+    </UserControl.Resources>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <ItemsControl dd:DragDrop.IsDragSource="True"
+                          dd:DragDrop.IsDropTarget="True"
+                          ItemTemplate="{StaticResource ConditionGroupTemplate}"
+                          ItemsSource="{Binding ConditionGroups}" />
+            <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" FontWeight="Bold">Right click a condition group to add an effect.</TextBlock>
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" Orientation="Horizontal">
+                <Button Margin="2"
+                        Command="{StaticResource AddConditionGroupCommand}"
+                        CommandParameter="{Binding ConditionGroups}"
+                        Content="Add Condition Group" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

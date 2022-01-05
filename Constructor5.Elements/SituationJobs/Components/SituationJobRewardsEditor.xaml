@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="Constructor5.Elements.SituationJobs.Components.SituationJobRewardsEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.SituationJobs.Components"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <TabControl>
+        <TabItem Header="No Medal Actions">
+            <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                         ElementReferenceList="{Binding NoMedalLoot}"
+                                         ElementTypeName="LootActionSet"
+                                         ShowCreateButton="True" />
+        </TabItem>
+        <TabItem Header="Bronze Actions">
+            <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                         ElementReferenceList="{Binding BronzeLoot}"
+                                         ElementTypeName="LootActionSet"
+                                         ShowCreateButton="True" />
+        </TabItem>
+        <TabItem Header="Silver Actions">
+            <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                         ElementReferenceList="{Binding SilverLoot}"
+                                         ElementTypeName="LootActionSet"
+                                         ShowCreateButton="True" />
+        </TabItem>
+        <TabItem Header="Gold Actions">
+            <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                         ElementReferenceList="{Binding GoldLoot}"
+                                         ElementTypeName="LootActionSet"
+                                         ShowCreateButton="True" />
+        </TabItem>
+    </TabControl>
+</UserControl>

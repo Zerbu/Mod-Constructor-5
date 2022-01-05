@@ -1,0 +1,118 @@
+﻿<Window x:Class="Constructor5.UI.Main.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:dockTheme1="clr-namespace:Constructor.Resources.DockTheme"
+        xmlns:local="clr-namespace:Constructor5.UI.Main"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:shared="clr-namespace:Constructor5.UI.Shared"
+        xmlns:xcad="http://schemas.xceed.com/wpf/xaml/avalondock"
+        x:Name="uc"
+        Title="The Sims 4 Mod Constructor (V5)"
+        Width="1000"
+        Height="800"
+        Closing="Window_Closing"
+        FontSize="{StaticResource Constructor.BigFontSize}"
+        Style="{StaticResource Constructor.WindowStyle}"
+        mc:Ignorable="d">
+    <Window.Resources>
+        <shared:SimpleOpenWindowCommand x:Key="ElementAddCommand"
+                                        IsDialog="true"
+                                        TypeName="AddElementWindow" />
+        <local:ElementDeleteCommand x:Key="ElementDeleteCommand" />
+        <local:SaveCommand x:Key="SaveCommand" />
+        <local:ExportCommand x:Key="ExportCommand" />
+    </Window.Resources>
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <ListView x:Name="ElementsControl"
+                          Padding="{StaticResource Constructor.BigPadding}"
+                          HorizontalContentAlignment="Stretch"
+                          ItemsSource="{Binding ElementsSource, ElementName=uc}"
+                          SelectionChanged="ElementsControl_SelectionChanged">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="{Binding Label}" ToolTip="{Binding UserFacingId}" />
+                                <Button Grid.Column="1"
+                                        Command="{StaticResource ElementDeleteCommand}"
+                                        CommandParameter="{Binding}"
+                                        Content="X"
+                                        Style="{StaticResource Constructor.DeleteButtonStyle}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <StackPanel Grid.Row="1" Margin="{StaticResource Constructor.BigPadding}">
+                    <Button HorizontalAlignment="Left"
+                            Command="{StaticResource ElementAddCommand}"
+                            Style="{StaticResource Constructor.PlainButtonStyle}"
+                            ToolTip="Add Element">
+                        <Button.Content>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Width="25"
+                                       Height="25"
+                                       Source="pack://siteoforigin:,,,/Images/AddIcon.png" />
+                                <TextBlock VerticalAlignment="Center" Text="Add Element" />
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+                    <Button HorizontalAlignment="Left"
+                            Command="{StaticResource ExportCommand}"
+                            Style="{StaticResource Constructor.PlainButtonStyle}"
+                            ToolTip="Export Package">
+                        <Button.Content>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Width="25"
+                                       Height="25"
+                                       Source="pack://siteoforigin:,,,/Images/PackageIcon.png" />
+                                <TextBlock VerticalAlignment="Center" Text="Export Package" />
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+                </StackPanel>
+            </Grid>
+            <GridSplitter Width="1"
+                          HorizontalAlignment="Right"
+                          Background="{StaticResource Constructor.Foreground}" />
+            <Grid Grid.Column="1">
+                <xcad:DockingManager x:Name="DockingManager"
+                                     Grid.Row="1"
+                                     AllowMixedOrientation="True"
+                                     Background="Transparent">
+                    <xcad:DockingManager.Theme>
+                        <dockTheme1:ConstructorTheme />
+                    </xcad:DockingManager.Theme>
+                    <xcad:DockingManager.LayoutItemContainerStyle>
+                        <Style TargetType="{x:Type xcad:LayoutItem}">
+                            <Setter Property="Title" Value="{Binding Model.Title}" />
+                            <Setter Property="CloseCommand" Value="{Binding Model.CloseCommand}" />
+                            <Setter Property="CanClose" Value="{Binding Model.CanClose}" />
+                            <Setter Property="IsSelected" Value="{Binding Model.IsSelected, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        </Style>
+                    </xcad:DockingManager.LayoutItemContainerStyle>
+                    <xcad:LayoutRoot x:Name="_layoutRoot">
+                        <xcad:LayoutPanel Orientation="Horizontal">
+                            <xcad:LayoutDocumentPaneGroup>
+                                <xcad:LayoutDocumentPane x:Name="LayoutDocumentPane" />
+                            </xcad:LayoutDocumentPaneGroup>
+                        </xcad:LayoutPanel>
+                    </xcad:LayoutRoot>
+                </xcad:DockingManager>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

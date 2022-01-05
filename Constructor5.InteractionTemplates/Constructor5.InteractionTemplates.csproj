@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props" Condition="Exists('..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{64663FBD-015C-49E6-A7B7-B0EACA5D5EC1}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>Constructor5.InteractionTemplates</RootNamespace>
+    <AssemblyName>Constructor5.InteractionTemplates</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PropertyChanged, Version=3.4.0.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
+      <HintPath>..\packages\PropertyChanged.Fody.3.4.0\lib\net40\PropertyChanged.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Friendly\FriendlySITemplateEditor.xaml.cs">
+      <DependentUpon>FriendlySITemplateEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Friendly\FriendlySITemplate.cs" />
+    <Compile Include="Friendly\FriendlySocialLootItem.cs" />
+    <Compile Include="Friendly\FriendlySocialLootItemEditor.xaml.cs">
+      <DependentUpon>FriendlySocialLootItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Funny\FunnySITemplate.cs" />
+    <Compile Include="Funny\FunnySITemplateEditor.xaml.cs">
+      <DependentUpon>FunnySITemplateEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Funny\FunnySocialLootItem.cs" />
+    <Compile Include="Funny\FunnySocialLootItemEditor.xaml.cs">
+      <DependentUpon>FunnySocialLootItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mean\MeanSITemplate.cs" />
+    <Compile Include="Mean\MeanSITemplateEditor.xaml.cs">
+      <DependentUpon>MeanSITemplateEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mean\MeanSocialLootItem.cs" />
+    <Compile Include="Mean\MeanSocialLootItemEditor.xaml.cs">
+      <DependentUpon>MeanSocialLootItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mischief\MischiefSITemplate.cs" />
+    <Compile Include="Mischief\MischiefSITemplateEditor.xaml.cs">
+      <DependentUpon>MischiefSITemplateEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mischief\MischiefSocialLootItem.cs" />
+    <Compile Include="Mischief\MischiefSocialLootItemEditor.xaml.cs">
+      <DependentUpon>MischiefSocialLootItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Romance\RomanceSITemplate.cs" />
+    <Compile Include="Romance\RomanceSITemplateEditor.xaml.cs">
+      <DependentUpon>RomanceSITemplateEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Romance\RomanceSocialLootItem.cs" />
+    <Compile Include="Romance\RomanceSocialLootItemEditor.xaml.cs">
+      <DependentUpon>RomanceSocialLootItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Single\SingleOutcomeEditor.xaml.cs">
+      <DependentUpon>SingleOutcomeEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Single\SingleOutcomeTemplate.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="FodyWeavers.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
+      <Project>{f6468a79-3da7-4f70-878b-d3c47e67294e}</Project>
+      <Name>Constructor5.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
+      <Project>{c0f0f8a5-0f1d-47ca-a3d9-a58042374574}</Project>
+      <Name>Constructor5.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Elements\Constructor5.Elements.csproj">
+      <Project>{8cdaf7b3-75c2-4365-a29e-ba5d85bc24eb}</Project>
+      <Name>Constructor5.Elements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.TestConditionTypes\Constructor5.TestConditionTypes.csproj">
+      <Project>{5a2fae23-9c84-408d-b637-42d843649929}</Project>
+      <Name>Constructor5.TestConditionTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.UI\Constructor5.UI.csproj">
+      <Project>{92267ec9-b06a-44ac-b383-f40c4d6a5755}</Project>
+      <Name>Constructor5.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Xml\Constructor5.Xml.csproj">
+      <Project>{bf050d2b-8934-4820-a298-749243cfb076}</Project>
+      <Name>Constructor5.Xml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Friendly\FriendlySITemplateEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Friendly\FriendlySocialLootItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Funny\FunnySITemplateEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Funny\FunnySocialLootItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Mean\MeanSITemplateEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Mean\MeanSocialLootItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Mischief\MischiefSITemplateEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Mischief\MischiefSocialLootItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Romance\RomanceSITemplateEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Romance\RomanceSocialLootItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Single\SingleOutcomeEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.6.6.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.0\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.6.6.0\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.6.0\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props'))" />
+  </Target>
+</Project>

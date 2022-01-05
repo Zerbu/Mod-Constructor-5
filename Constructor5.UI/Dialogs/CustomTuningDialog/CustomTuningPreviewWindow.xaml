@@ -1,0 +1,44 @@
+﻿<Window x:Class="Constructor5.UI.Dialogs.CustomTuningDialog.CustomTuningPreviewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Constructor5.UI.Dialogs.CustomTuningDialog"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="The Sims 4 Mod Constructor (V5)"
+        Width="800"
+        Height="600"
+        FontSize="{StaticResource Constructor.BigFontSize}"
+        Style="{StaticResource Constructor.WindowStyle}"
+        WindowStartupLocation="CenterOwner"
+        mc:Ignorable="d">
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <TextBlock Margin="{StaticResource Constructor.BigPadding}"
+                       Text="Note: STBL (text string) keys will always show as 0x0 in previews. When exporting, Mod Constructor automatically merges identical strings into a single key, which requires all elements to be exported."
+                       TextWrapping="Wrap" />
+            <avalonEdit:TextEditor xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+                                   Name="TextBox"
+                                   Grid.Row="1"
+                                   Background="{StaticResource Constructor.TextBoxBackground}"
+                                   BorderBrush="{StaticResource Constructor.TextBoxBorder}"
+                                   BorderThickness="2"
+                                   FontFamily="Consolas"
+                                   FontSize="13"
+                                   IsReadOnly="True"
+                                   SyntaxHighlighting="XML" />
+            <StackPanel Grid.Row="2"
+                        HorizontalAlignment="Right"
+                        Orientation="Horizontal">
+                <Button x:Name="CloseButton"
+                        Margin="2"
+                        Click="CloseButton_Click"
+                        Content="Close" />
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

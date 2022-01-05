@@ -1,0 +1,61 @@
+﻿<Window x:Class="Constructor5.UI.Dialogs.AddElement.AddElementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Constructor5.UI.Dialogs.AddElement"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:shared="clr-namespace:Constructor5.UI.Shared"
+        Title="The Sims 4 Mod Constructor (V5)"
+        Width="800"
+        Height="600"
+        FontSize="{StaticResource Constructor.BigFontSize}"
+        Style="{StaticResource Constructor.WindowStyle}"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="ToolWindow"
+        mc:Ignorable="d">
+    <Window.Resources>
+        <local:ElementAddCommand x:Key="ElementAddCommand" />
+    </Window.Resources>
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <ListView x:Name="ElementTypesControl"
+                      Padding="{StaticResource Constructor.BigPadding}"
+                      SelectedItem="{Binding Path=ElementTypeData, Source={StaticResource ElementAddCommand}, UpdateSourceTrigger=PropertyChanged}"
+                      SelectionChanged="ElementTypesControl_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Label}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <CheckBox x:Name="ShowAllCheckBox"
+                      Grid.Row="1"
+                      Margin="{StaticResource Constructor.BigPadding}"
+                      Checked="ShowAllCheckBox_Checked"
+                      Content="Show All"
+                      Unchecked="ShowAllCheckBox_Checked" />
+            <StackPanel Grid.Row="2" Margin="{StaticResource Constructor.BigPadding}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <shared:Field Label="Element Name">
+                        <TextBox x:Name="ElementNameTextBox"
+                                 Text="{Binding Path=ElementName, Source={StaticResource ElementAddCommand}, UpdateSourceTrigger=PropertyChanged}"
+                                 TextChanged="ElementNameTextBox_TextChanged" />
+                    </shared:Field>
+                    <Button Grid.Column="1"
+                            Margin="2"
+                            Command="{StaticResource ElementAddCommand}"
+                            Content="Create Element" />
+                </Grid>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props" Condition="Exists('..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A2FAE23-9C84-408D-B637-42D843649929}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>Constructor5.TestConditionTypes</RootNamespace>
+    <AssemblyName>Constructor5.TestConditionTypes</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PropertyChanged, Version=3.4.0.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
+      <HintPath>..\packages\PropertyChanged.Fody.3.4.0\lib\net40\PropertyChanged.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buffs\BuffCondition.cs" />
+    <Compile Include="Buffs\BuffConditionEditor.xaml.cs">
+      <DependentUpon>BuffConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\CareerAttendedFirstDayCondition.cs" />
+    <Compile Include="Careers\CareerAttendedFirstDayConditionEditor.xaml.cs">
+      <DependentUpon>CareerAttendedFirstDayConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\CareerCondition.cs" />
+    <Compile Include="Careers\CareerConditionBase.cs" />
+    <Compile Include="Careers\CareerConditionEditor.xaml.cs">
+      <DependentUpon>CareerConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\CareerDaysWorkedCondition.cs" />
+    <Compile Include="Careers\CareerDaysWorkedConditionEditor.xaml.cs">
+      <DependentUpon>CareerDaysWorkedConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\CareerHasAssignmentCondition.cs" />
+    <Compile Include="Careers\CareerHasAssignmentConditionEditor.xaml.cs">
+      <DependentUpon>CareerHasAssignmentConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\CareerLevelResourceCondition.cs" />
+    <Compile Include="Careers\CareerLevelResourceConditionEditor.xaml.cs">
+      <DependentUpon>CareerLevelResourceConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\CareerNoTimeOffCondition.cs" />
+    <Compile Include="Careers\CareerNoTimeOffConditionEditor.xaml.cs">
+      <DependentUpon>CareerNoTimeOffConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\CareerPTOAvailableCondition.cs" />
+    <Compile Include="Careers\CareerPTOAvailableConditionEditor.xaml.cs">
+      <DependentUpon>CareerPTOAvailableConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\CareerTimeUntilWorkCondition.cs" />
+    <Compile Include="Careers\CareerTimeUntilWorkConditionEditor.xaml.cs">
+      <DependentUpon>CareerTimeUntilWorkConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\CareerTrackCondition.cs" />
+    <Compile Include="Careers\CareerTrackConditionEditor.xaml.cs">
+      <DependentUpon>CareerTrackConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\HasAnyCareerCondition.cs" />
+    <Compile Include="Careers\HasAnyCareerConditionEditor.xaml.cs">
+      <DependentUpon>HasAnyCareerConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\HasCareerOutfitCondition.cs" />
+    <Compile Include="Careers\HasCareerOutfitConditionEditor.xaml.cs">
+      <DependentUpon>HasCareerOutfitConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\HasQuittableCareerCondition.cs" />
+    <Compile Include="Careers\HasQuittableCareerConditionEditor.xaml.cs">
+      <DependentUpon>HasQuittableCareerConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\CollectedSingleItemCondition.cs" />
+    <Compile Include="Collections\CollectedSingleItemConditionEditor.xaml.cs">
+      <DependentUpon>CollectedSingleItemConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\CollectionCondition.cs" />
+    <Compile Include="Collections\CollectionConditionEditor.xaml.cs">
+      <DependentUpon>CollectionConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\CollectionSituationGoalCondition.cs" />
+    <Compile Include="Compound\CompoundCondition.cs" />
+    <Compile Include="Compound\CompoundConditionEditor.xaml.cs">
+      <DependentUpon>CompoundConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Compound\CompoundConditionSelector.xaml.cs">
+      <DependentUpon>CompoundConditionSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Emotions\EmotionCondition.cs" />
+    <Compile Include="Emotions\EmotionConditionEditor.xaml.cs">
+      <DependentUpon>EmotionConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Emotions\EmotionObjectiveCondition.cs" />
+    <Compile Include="Interactions\InteractionRunningCondition.cs" />
+    <Compile Include="Interactions\InteractionRunningConditionEditor.xaml.cs">
+      <DependentUpon>InteractionRunningConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Locations\LocationCondition.cs" />
+    <Compile Include="Locations\LocationConditionEditor.xaml.cs">
+      <DependentUpon>LocationConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Locations\LocationIsOutside.cs" />
+    <Compile Include="Locations\LocationObjectiveCondition.cs" />
+    <Compile Include="Locations\LocationOnLot.cs" />
+    <Compile Include="Perks\ClubCondition.cs" />
+    <Compile Include="Perks\ClubConditionEditor.xaml.cs">
+      <DependentUpon>ClubConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Perks\ClubConditionYesNoAny.cs" />
+    <Compile Include="Perks\ClubInteractionRule.cs" />
+    <Compile Include="Perks\ClubStatus.cs" />
+    <Compile Include="PresetSelector\ConditionAgePreset.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Relationships\RelationshipCondition.cs" />
+    <Compile Include="Relationships\RelationshipConditionEditor.xaml.cs">
+      <DependentUpon>RelationshipConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Relationships\RelationshipConditionTarget.cs" />
+    <Compile Include="Relationships\RelationshipSituationGoalCondition.cs" />
+    <Compile Include="SimInfo\SimInfoCondition.cs" />
+    <Compile Include="SimInfo\SimInfoEditor.xaml.cs">
+      <DependentUpon>SimInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimInfo\SimInfoGenders.cs" />
+    <Compile Include="SimInfo\SimInfoYesNoAny.cs" />
+    <Compile Include="PresetSelector\TestConditionPresetSelector.xaml.cs">
+      <DependentUpon>TestConditionPresetSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Situations\SituationCondition.cs" />
+    <Compile Include="Situations\SituationConditionEditor.xaml.cs">
+      <DependentUpon>SituationConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Situations\SituationConditionForGoals.cs" />
+    <Compile Include="Statistics\SkillInUseCondition.cs" />
+    <Compile Include="Statistics\SkillInUseConditionEditor.xaml.cs">
+      <DependentUpon>SkillInUseConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\SkillTagCondition.cs" />
+    <Compile Include="Statistics\SkillTagConditionEditor.xaml.cs">
+      <DependentUpon>SkillTagConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\StatisticCondition.cs" />
+    <Compile Include="Statistics\StatisticConditionEditor.xaml.cs">
+      <DependentUpon>StatisticConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Traits\TraitCondition.cs" />
+    <Compile Include="Traits\TraitConditionEditor.xaml.cs">
+      <DependentUpon>TraitConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="FodyWeavers.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
+      <Project>{f6468a79-3da7-4f70-878b-d3c47e67294e}</Project>
+      <Name>Constructor5.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
+      <Project>{c0f0f8a5-0f1d-47ca-a3d9-a58042374574}</Project>
+      <Name>Constructor5.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Elements\Constructor5.Elements.csproj">
+      <Project>{8cdaf7b3-75c2-4365-a29e-ba5d85bc24eb}</Project>
+      <Name>Constructor5.Elements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.UI\Constructor5.UI.csproj">
+      <Project>{92267ec9-b06a-44ac-b383-f40c4d6a5755}</Project>
+      <Name>Constructor5.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Xml\Constructor5.Xml.csproj">
+      <Project>{BF050D2B-8934-4820-A298-749243CFB076}</Project>
+      <Name>Constructor5.Xml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Buffs\BuffConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\CareerAttendedFirstDayConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\CareerConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\CareerDaysWorkedConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\CareerHasAssignmentConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\CareerLevelResourceConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\CareerNoTimeOffConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\CareerPTOAvailableConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\CareerTimeUntilWorkConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\CareerTrackConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\HasAnyCareerConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\HasCareerOutfitConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\HasQuittableCareerConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Collections\CollectedSingleItemConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Collections\CollectionConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Compound\CompoundConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Compound\CompoundConditionSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Emotions\EmotionConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\InteractionRunningConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Locations\LocationConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Perks\ClubConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Relationships\RelationshipConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SimInfo\SimInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PresetSelector\TestConditionPresetSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Situations\SituationConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Statistics\SkillInUseConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Statistics\SkillTagConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Statistics\StatisticConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\TraitConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.6.6.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.0\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.6.6.0\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.6.0\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props'))" />
+  </Target>
+</Project>

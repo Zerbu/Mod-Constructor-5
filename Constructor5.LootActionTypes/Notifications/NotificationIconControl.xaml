@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Constructor5.LootActionTypes.Notifications.NotificationIconControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Constructor5.LootActionTypes.Notifications"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" x:Name="uc">
+    <UserControl.Resources>
+        <ObjectDataProvider x:Key="TypeDataProvider" MethodName="GetValues" ObjectType="{x:Type system:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:NotificationIconTypes"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+    <StackPanel>
+        <ComboBox IsEditable="False" ItemsSource="{Binding Source={StaticResource TypeDataProvider}}" SelectedItem="{Binding Icon.IconType, ElementName=uc}" />
+        <shared:IconControl Icon="{Binding Icon.SelectedStandardIcon, ElementName=uc}">
+            <shared:IconControl.Style>
+                <Style TargetType="{x:Type shared:IconControl}">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Icon.IconType, ElementName=uc}" Value="Standard">
+                            <Setter Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </shared:IconControl.Style>
+        </shared:IconControl>
+        <shared:ParticipantControl Text="{Binding Icon.SelectedParticipant, ElementName=uc}">
+            <shared:ParticipantControl.Style>
+                <Style TargetType="{x:Type shared:ParticipantControl}">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Icon.IconType, ElementName=uc}" Value="Participant">
+                            <Setter Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </shared:ParticipantControl.Style>
+        </shared:ParticipantControl>
+    </StackPanel>
+</UserControl>

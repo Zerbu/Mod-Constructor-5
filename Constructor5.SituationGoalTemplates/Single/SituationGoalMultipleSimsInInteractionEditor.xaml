@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Constructor5.Elements.SituationGoals.Templates.SituationGoalMultipleSimsInInteractionEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.SituationGoals.Templates"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <StackPanel>
+        <CheckBox Content="Only include Sims who are part of the same situation" IsChecked="{Binding InSituationOnly}" />
+        <shared:Field Label="Number of Sims" LabelWidth="150">
+            <xctk:IntegerUpDown Minimum="1" Text="{Binding NumberOfSims}" />
+        </shared:Field>
+        <TextBlock Text="Note: Because of how the game is programmed, you can have any number of tags, but only one specific interaction." TextWrapping="Wrap" />
+        <shared:Field Label="Specific Interaction" LabelWidth="150">
+            <shared:ReferenceControl ElementTypeName="AnyInteraction" Reference="{Binding SpecificInteraction}" />
+        </shared:Field>
+        <shared:Field Label="Interaction Tags" LabelWidth="150">
+            <shared:StringListControl PresetsFolder="InteractionTag" StringList="{Binding InteractionTags}" />
+        </shared:Field>
+    </StackPanel>
+</UserControl>

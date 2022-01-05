@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:converters="clr-namespace:Constructor5.UI.Converters"
+                    xmlns:shared="clr-namespace:Constructor5.UI.Shared">
+    <converters:BoolToVisibilityConverter x:Key="BoolToVis" />
+    <converters:BoolToVisibilityConverter x:Key="BoolToVisInverted" Inverted="True" />
+    <converters:EmptyToVisibilityConverter x:Key="EmptyToVis" />
+    <converters:EmptyToVisibilityConverter x:Key="NotEmptyToVis" Inverted="True" />
+    <converters:NullToVisibilityConverter x:Key="NullToVis" />
+    <converters:NullToVisibilityConverter x:Key="NotNullToVis" Inverted="True" />
+    <converters:StringValueToVisibilityConverter x:Key="NotZeroToVis"
+                                                 Inverted="True"
+                                                 Value="0" />
+    <converters:StringValueToVisibilityConverter x:Key="ZeroToVis" Value="0" />
+    <converters:PathToReadOnlySourceConverter x:Key="PathToReadOnlySourceConverter" />
+    <converters:EnumSelectorValueConverter x:Key="EnumSelectorValueConverter" />
+    <shared:MultiParamConverter x:Key="MultiParamConverter" />
+
+    <shared:OwnTypeDropHandler x:Key="OwnTypeDropHandler" />
+</ResourceDictionary>

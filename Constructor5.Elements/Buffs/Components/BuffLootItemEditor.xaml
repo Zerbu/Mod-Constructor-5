@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="Constructor5.Elements.Buffs.Components.BuffLootItemEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.Buffs.Components"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <Expander Header="Advanced Options">
+        <StackPanel>
+            <CheckBox Content="Run on an interval" IsChecked="{Binding RunOnInterval}" />
+            <!--<shared:Field IsEnabled="False"
+                          Label="Custom Interval (to be implemented)"
+                          LabelWidth="150">
+                <StackPanel>
+                    <shared:Field Label="Minimum Random Interval" LabelWidth="200">
+                        <xctk:IntegerUpDown Text="{Binding IntervalMin}" />
+                    </shared:Field>
+                    <shared:Field Label="Minimum Random Interval" LabelWidth="200">
+                        <xctk:IntegerUpDown Text="{Binding IntervalMax}" />
+                    </shared:Field>
+                </StackPanel>
+            </shared:Field>-->
+            <CheckBox Content="Run when the trait or buff is added" IsChecked="{Binding RunOnAddition}" />
+            <CheckBox Content="Run when a Sim with the trait or buff is loaded into the world" IsChecked="{Binding RunOnInstance}" />
+            <CheckBox Content="Run when the trait or buff is removed" IsChecked="{Binding RunOnRemoval}" />
+        </StackPanel>
+    </Expander>
+</UserControl>

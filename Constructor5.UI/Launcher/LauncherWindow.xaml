@@ -1,0 +1,52 @@
+﻿<Window x:Class="Constructor5.UI.Launcher.LauncherWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Constructor5.UI.Launcher" xmlns:shared="clr-namespace:Constructor5.UI.Shared"
+        mc:Ignorable="d"
+        Title="The Sims 4 Mod Constructor" Height="600" Width="800"
+        Style="{StaticResource Constructor.WindowStyle}"
+        FontSize="{StaticResource Constructor.BigFontSize}" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:ProjectCreateCommand x:Key="ProjectCreateCommand" />
+        <local:ProjectLoadCommand x:Key="ProjectLoadCommand" />
+    </Window.Resources>
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <ScrollViewer>
+                <ItemsControl x:Name="ProjectsControl" Margin="{StaticResource Constructor.BigPadding}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Command="{StaticResource ProjectLoadCommand}" CommandParameter="{Binding}" Content="{Binding Name}" Margin="2" HorizontalContentAlignment="Left" />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+            <StackPanel Grid.Row="1" Margin="{StaticResource Constructor.BigPadding}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel>
+                        <shared:Field Label="Creator Name" LabelWidth="125">
+                            <TextBox x:Name="CreatorName" Text="{Binding Path=CreatorName, Source={StaticResource ProjectCreateCommand}, UpdateSourceTrigger=PropertyChanged}" />
+                        </shared:Field>
+                        <shared:Field Label="Mod Name" LabelWidth="125">
+                            <TextBox x:Name="ModName" Text="{Binding Path=ModName, Source={StaticResource ProjectCreateCommand}, UpdateSourceTrigger=PropertyChanged}" />
+                        </shared:Field>
+                    </StackPanel>
+                    <Button Grid.Column="1" Command="{StaticResource ProjectCreateCommand}" Content="Create Mod" Width="125" Margin="1" />
+                </Grid>
+                <Border x:Name="ErrorMessage" Style="{StaticResource Constructor.ErrorStyle}" Visibility="Collapsed">
+                    <TextBlock x:Name="ErrorText" Text="Undefined Error Message" />
+                </Border>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

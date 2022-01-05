@@ -1,0 +1,66 @@
+﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.TuningActions;
+using Constructor5.Xml;
+
+namespace Constructor5.Elements.Traits.Components
+{
+    [XmlSerializerExtraType]
+    public class TraitSpecialCasesComponent : TraitComponent
+    {
+        public bool BlockAging => BlockAgingFromBaby
+            || BlockAgingFromToddler
+            || BlockAgingFromChild
+            || BlockAgingFromTeen
+            || BlockAgingFromYoungAdult
+            || BlockAgingFromAdult
+            || BlockAgingFromElder;
+
+        public bool BlockAgingFromAdult { get; set; }
+        public bool BlockAgingFromBaby { get; set; }
+        public bool BlockAgingFromChild { get; set; }
+        public bool BlockAgingFromElder { get; set; }
+        public bool BlockAgingFromTeen { get; set; }
+        public bool BlockAgingFromToddler { get; set; }
+        public bool BlockAgingFromYoungAdult { get; set; }
+
+        public bool BlockAllAging => BlockAgingFromBaby
+            && BlockAgingFromToddler
+            && BlockAgingFromChild
+            && BlockAgingFromTeen
+            && BlockAgingFromYoungAdult
+            && BlockAgingFromAdult
+            && BlockAgingFromElder;
+
+        [AutoTuneReferenceList("excluded_mood_types")]
+        public ReferenceList BlockedEmotions { get; } = new ReferenceList();
+
+        public override string ComponentLabel => "Special Cases";
+
+        [AutoTuneIfTrue("hide_relationships")]
+        public bool HideRelationships { get; set; }
+
+        [AutoTuneIfTrue("can_die", "False")]
+        public bool ImmuneToDeath { get; set; }
+
+        [AutoTuneIfTrue("persistable", "False")]
+        public bool IsNonPersisted { get; set; }
+
+        [AutoTuneIfTrue("npc_only")]
+        public bool IsNPCOnly { get; set; }
+
+        public string VoiceEffect { get; set; }
+
+        protected internal override void OnExport(TraitExportContext context)
+        {
+            AutoTunerInvoker.Invoke(this, context.Tuning);
+
+            TuningActionInvoker.InvokeFromFile("Trait Special Cases",
+                new TuningActionContext
+                {
+                    Tuning = context.Tuning,
+                    DataContext = this
+                });
+        }
+    }
+}

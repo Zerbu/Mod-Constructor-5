@@ -1,0 +1,194 @@
+﻿<UserControl x:Class="Constructor5.Elements.Buffs.Components.BuffModifiersEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.Buffs.Components"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:modifiers="clr-namespace:Constructor5.Elements.Buffs.Modifiers"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <d:UserControl.DataContext>
+        <local:BuffModifiersComponent />
+    </d:UserControl.DataContext>
+    <TabControl Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+        <TabItem Header="Skills">
+            <TabControl>
+                <TabItem Header="Skill Gain Multipliers">
+                    <TabControl>
+                        <TabItem Header="Skills">
+                            <ScrollViewer>
+                                <modifiers:BuffModifiersUI ElementTypeName="Skill" ItemsSource="{Binding SkillMultipliers}" />
+                            </ScrollViewer>
+                        </TabItem>
+                        <TabItem Header="Skill Tags">
+                            <ScrollViewer>
+                                <modifiers:BuffModifiersUI IsTag="True"
+                                                           ItemsSource="{Binding SkillTagMultipliers}"
+                                                           PresetsFolder="SkillTag" />
+                            </ScrollViewer>
+                        </TabItem>
+                    </TabControl>
+                </TabItem>
+                <TabItem Header="Effective Skill Modifiers">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Margin="{StaticResource Constructor.BigPadding}"
+                                   Text="These modifiers cause the game to treat the Sim as if their skill is higher or lower in certain contexts. For example, if a Sim is at level 3 of the Cooking skill, and has an effective Cooking skill modifier of 2, they'll cook at a quality as if they were at level 5. Not all parts of the game are effected by effective skill modifiers."
+                                   TextWrapping="WrapWithOverflow" />
+                        <TabControl Grid.Row="1">
+                            <TabItem Header="Skills">
+                                <ScrollViewer>
+                                    <modifiers:BuffModifiersUI DefaultValue="0"
+                                                               ElementTypeName="Skill"
+                                                               Increment="1"
+                                                               IsInt="True"
+                                                               ItemsSource="{Binding EffectiveSkillModifiers}"
+                                                               SliderMaximum="10"
+                                                               SliderMinimum="-10" />
+                                </ScrollViewer>
+                            </TabItem>
+                            <TabItem Header="Skill Tags">
+                                <ScrollViewer>
+                                    <modifiers:BuffModifiersUI DefaultValue="0"
+                                                               Increment="1"
+                                                               IsInt="True"
+                                                               IsTag="True"
+                                                               ItemsSource="{Binding EffectiveSkillTagModifiers}"
+                                                               PresetsFolder="SkillTag"
+                                                               SliderMaximum="10"
+                                                               SliderMinimum="-10" />
+                                </ScrollViewer>
+                            </TabItem>
+                        </TabControl>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </TabItem>
+        <TabItem Header="Needs">
+            <TabControl>
+                <TabItem Header="Need Decay">
+                    <ScrollViewer>
+                        <modifiers:BuffModifiersUI ItemsSource="{Binding NeedDecayMultipliers}" PresetsFolder="Need" />
+                    </ScrollViewer>
+                </TabItem>
+                <TabItem Header="Need Increase">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock Margin="{StaticResource Constructor.BigPadding}"
+                                       Text="These modifiers effect how quickly a need will increase while performing an interaction. For example, a Sim with a positive Energy multiplier will need less sleep before their Energy fills up."
+                                       TextWrapping="Wrap" />
+                            <modifiers:BuffModifiersUI ItemsSource="{Binding NeedIncreaseMultipliers}" PresetsFolder="Need" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+            </TabControl>
+        </TabItem>
+        <TabItem Header="Relationships">
+            <TabControl>
+                <TabItem Header="Relationship Track Increase Multipliers">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock Margin="{StaticResource Constructor.BigPadding}"
+                                       Text="These modifiers effect how quickly a Sim will build relationships."
+                                       TextWrapping="Wrap" />
+                            <modifiers:BuffModifiersUI ElementTypeName="RelationshipTrack" ItemsSource="{Binding RelationshipTrackIncreaseMultipliers}" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+                <TabItem Header="Relationship Track Decrease Multipliers">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock Margin="{StaticResource Constructor.BigPadding}"
+                                       Text="These modifiers effect how much a Sim's relationship score will go down when performing negative interactions. It has no effect on how much it will decay naturally."
+                                       TextWrapping="Wrap" />
+                            <modifiers:BuffModifiersUI ElementTypeName="RelationshipTrack" ItemsSource="{Binding RelationshipTrackDecreaseMultipliers}" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+            </TabControl>
+        </TabItem>
+        <TabItem Header="Emotions and Buffs">
+            <TabControl>
+                <TabItem Header="Emotion Weight Multipliers">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock Margin="{StaticResource Constructor.BigPadding}"
+                                       Text="These modifiers effect the strength of all buffs with a certain emotion. For example, a modifier of 2 for Angry will make it so that a single +1 Angry buff will be treated like two +1 Angry buffs."
+                                       TextWrapping="Wrap" />
+                            <modifiers:BuffModifiersUI ElementTypeName="Emotion" ItemsSource="{Binding EmotionWeightMultipliers}" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+                <TabItem Header="Buff Decay Multipliers">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock Margin="{StaticResource Constructor.BigPadding}"
+                                       Text="These modifiers will cause all buffs in a certain category (generally, buffs with a certain emotion) decay faster or slower."
+                                       TextWrapping="Wrap" />
+                            <modifiers:BuffModifiersUI IsTag="True"
+                                                       ItemsSource="{Binding BuffDecayMultipliers}"
+                                                       PresetsFolder="StatisticTag" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+            </TabControl>
+        </TabItem>
+        <TabItem Header="Simology">
+            <TabControl>
+                <TabItem Header="Increase Multipliers">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <modifiers:BuffModifiersUI ItemsSource="{Binding SimologyIncreaseMultipliers}" PresetsFolder="SimInfoStatistic" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+                <TabItem Header="Decrease Multipliers">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <modifiers:BuffModifiersUI ItemsSource="{Binding SimologyDecreaseMultipliers}" PresetsFolder="SimInfoStatistic" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+            </TabControl>
+        </TabItem>
+        <TabItem Header="Advanced">
+            <TabControl>
+                <TabItem Header="Statistic Increase Multipliers">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <modifiers:BuffModifiersUI ElementTypeName="Statistic" ItemsSource="{Binding StatisticIncreaseMultipliers}" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+                <TabItem Header="Statistic Decrease Multipliers">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <modifiers:BuffModifiersUI ElementTypeName="Statistic" ItemsSource="{Binding StatisticDecreaseMultipliers}" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+                <TabItem Header="Continuous Statistic Modifiers">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock Margin="{StaticResource Constructor.BigPadding}"
+                                       Text="These modifiers will cause a statistic to continuously increase or decrease over time."
+                                       TextWrapping="Wrap" />
+                            <modifiers:BuffModifiersUI DefaultValue="0"
+                                                       ElementTypeName="Statistic"
+                                                       Increment="1"
+                                                       ItemsSource="{Binding ContinuousStatisticModifiers}"
+                                                       SliderMaximum="10"
+                                                       SliderMinimum="-10" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+            </TabControl>
+        </TabItem>
+    </TabControl>
+</UserControl>

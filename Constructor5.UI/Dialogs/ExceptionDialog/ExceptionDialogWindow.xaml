@@ -1,0 +1,30 @@
+﻿<Window x:Class="Constructor5.UI.Dialogs.ExceptionDialog.ExceptionDialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Constructor5.UI.Dialogs.ExceptionDialog"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="The Sims 4 Mod Constructor (V5)"
+        Width="600"
+        Height="200"
+        FontSize="{StaticResource Constructor.BigFontSize}"
+        SizeToContent="Height"
+        Style="{StaticResource Constructor.WindowStyle}"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="ToolWindow"
+        mc:Ignorable="d">
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <StackPanel>
+            <TextBlock x:Name="TextBlock"
+                       Margin="{StaticResource Constructor.BigPadding}"
+                       Text="Mod Constructor has encountered a programming error."
+                       TextWrapping="Wrap" />
+            <TextBox x:Name="ErrorTextBox"
+                     MaxHeight="200"
+                     Margin="{StaticResource Constructor.BigPaddingMinusTop}"
+                     AcceptsTab="True"
+                     TextWrapping="Wrap"
+                     VerticalScrollBarVisibility="Auto" />
+        </StackPanel>
+    </Border>
+</Window>

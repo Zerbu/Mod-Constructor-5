@@ -1,0 +1,74 @@
+﻿<Window x:Class="Constructor5.UI.Dialogs.ElementSettings.ElementSettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Constructor5.UI.Dialogs.ElementSettings"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:shared="clr-namespace:Constructor5.UI.Shared"
+        Title="The Sims 4 Mod Constructor (V5)"
+        Width="500"
+        Height="250"
+        FontSize="{StaticResource Constructor.BigFontSize}"
+        SizeToContent="Height"
+        Style="{StaticResource Constructor.WindowStyle}"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="ToolWindow"
+        mc:Ignorable="d">
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <StackPanel Margin="{StaticResource Constructor.BigPadding}" VerticalAlignment="Center">
+                <shared:Field Label="Label Override" LabelWidth="100">
+                    <TextBox x:Name="LabelTextBox" />
+                </shared:Field>
+                <shared:Field Label="ID" LabelWidth="100">
+                    <StackPanel>
+                        <TextBox x:Name="IDTextBox" />
+                        <Button x:Name="GenerateIDButton"
+                                Margin="2"
+                                HorizontalAlignment="Left"
+                                Click="GenerateIDButton_Click">
+                            Generate ID from Label
+                        </Button>
+                    </StackPanel>
+                </shared:Field>
+                <CheckBox x:Name="ShowPresetCheckBox" Content="Show in Browse dialog" />
+                <StackPanel x:Name="ContextSpecificInfo" Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                    <TextBlock TextWrapping="Wrap">This element is context-specific. It does not show in the sidebar and will automatically be deleted on export if it is not reference anywhere.</TextBlock>
+                    <CheckBox x:Name="ConvertCheckBox" Content="Convert to root element" />
+                    <TextBlock x:Name="ContextModifierInfo"
+                               Text="This element has context modifiers and cannot be converted to a root element."
+                               TextWrapping="Wrap" />
+                </StackPanel>
+                <Expander x:Name="InstanceKeyOverrideExpander"
+                          Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                          Header="Instance Key Override">
+                    <StackPanel>
+                        <TextBlock Text="If not empty, the element will use the defined instance key instead of generating one from the ID. This can be used to create default replacements." TextWrapping="Wrap" />
+                        <TextBox x:Name="InstanceKeyOverrideTextBox" />
+                    </StackPanel>
+                </Expander>
+            </StackPanel>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="CancelButton"
+                        Margin="2"
+                        HorizontalAlignment="Left"
+                        Click="CancelButton_Click"
+                        Content="Cancel" />
+                <Button x:Name="UpdateButton"
+                        Grid.Column="1"
+                        Margin="2"
+                        HorizontalAlignment="Right"
+                        Click="UpdateButton_Click"
+                        Content="Update" />
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

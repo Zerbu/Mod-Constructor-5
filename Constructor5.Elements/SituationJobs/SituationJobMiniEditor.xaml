@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Constructor5.Elements.SituationJobs.SituationJobMiniEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:components="clr-namespace:Constructor5.Elements.SituationJobs.Components"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.SituationJobs"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             x:Name="uc"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <TabControl>
+        <TabItem Header="Settings">
+            <components:SituationJobInfoEditor x:Name="InfoEditor" Margin="0" />
+        </TabItem>
+        <TabItem Header="Filter">
+            <StackPanel>
+                <TextBlock Margin="{StaticResource Constructor.BigPaddingMinusTop}" Text="Only Sims that match this filter can be part of the situation." />
+                <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingMinusTop}"
+                                                             ElementTypeName="SimFilter"
+                                                             Reference="{Binding FilterComponent.Filter, ElementName=uc}" />
+            </StackPanel>
+        </TabItem>
+        <TabItem Header="Actions">
+            <components:SituationJobRewardsEditor x:Name="RewardsEditor" Margin="0" />
+        </TabItem>
+    </TabControl>
+</UserControl>

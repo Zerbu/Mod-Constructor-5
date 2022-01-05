@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props" Condition="Exists('..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6468A79-3DA7-4F70-878B-D3C47E67294E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Constructor5.Base</RootNamespace>
+    <AssemblyName>Constructor5.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DDSPanel">
+      <HintPath>..\..\..\Constructor5Proto\Constructor5Proto\bin\Debug\DDSPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PropertyChanged, Version=3.4.0.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
+      <HintPath>..\packages\PropertyChanged.Fody.3.4.0\lib\net40\PropertyChanged.dll</HintPath>
+    </Reference>
+    <Reference Include="s4pi.Extensions">
+      <HintPath>..\..\..\..\Programs\S4PE\s4pi.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="s4pi.ImageResource">
+      <HintPath>..\..\..\..\Programs\S4PE\s4pi.ImageResource.dll</HintPath>
+    </Reference>
+    <Reference Include="s4pi.Interfaces">
+      <HintPath>..\..\..\..\Programs\S4PE\s4pi.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="s4pi.Package">
+      <HintPath>..\..\..\..\Programs\S4PE\s4pi.Package.dll</HintPath>
+    </Reference>
+    <Reference Include="s4pi.Settings">
+      <HintPath>..\..\..\..\Programs\S4PE\s4pi.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="s4pi.StblResource">
+      <HintPath>..\..\..\..\Programs\S4PE\s4pi.StblResource.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Custom">
+      <HintPath>..\..\..\..\Programs\S4PE\System.Custom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Autosave\IAutosavableObject.cs" />
+    <Compile Include="ComponentSystem\ElementComponent.cs" />
+    <Compile Include="ComponentSystem\IComponentDisplayOrder.cs" />
+    <Compile Include="ComponentSystem\IElementComponent.cs" />
+    <Compile Include="ComponentSystem\IHasComponents.cs" />
+    <Compile Include="ComponentSystem\SimpleComponentElement.cs" />
+    <Compile Include="CustomImageSystem\CustomImageManager.cs" />
+    <Compile Include="CustomImageSystem\DDSHelper.cs" />
+    <Compile Include="CustomImageSystem\GeneralImageTools.cs" />
+    <Compile Include="CustomImageSystem\ImageEffect.cs" />
+    <Compile Include="CustomImageSystem\ImageExtensions.cs" />
+    <Compile Include="CustomTuning\CustomTuningElement.cs" />
+    <Compile Include="CustomTuning\CustomTuningExporter.cs" />
+    <Compile Include="CustomTuning\CustomTuningInfo.cs" />
+    <Compile Include="CustomTuning\ISupportsCustomTuning.cs" />
+    <Compile Include="ElementSystem\ContextModifier.cs" />
+    <Compile Include="ElementSystem\Element.cs" />
+    <Compile Include="ElementSystem\ElementManager.cs" />
+    <Compile Include="ElementSystem\ElementSaver.cs" />
+    <Compile Include="ElementSystem\ElementTypeData.cs" />
+    <Compile Include="ElementSystem\ElementTypeDataAttribute.cs" />
+    <Compile Include="ElementSystem\GuidUtility.cs" />
+    <Compile Include="ElementSystem\IAutosavableObject.cs" />
+    <Compile Include="ElementSystem\IMultiTuningElement.cs" />
+    <Compile Include="ElementSystem\IOnCallOpenElement.cs" />
+    <Compile Include="ElementSystem\IOnElementContextSpecificChanged.cs" />
+    <Compile Include="ElementSystem\IOnElementCreated.cs" />
+    <Compile Include="ElementSystem\IOnElementDeleted.cs" />
+    <Compile Include="ElementSystem\IOnProjectCreatedOrLoaded.cs" />
+    <Compile Include="ElementSystem\IOnProjectCreateError.cs" />
+    <Compile Include="ElementSystem\Preset.cs" />
+    <Compile Include="ElementSystem\PresetGroup.cs" />
+    <Compile Include="ElementSystem\Reference.cs" />
+    <Compile Include="ElementSystem\ReferenceList.cs" />
+    <Compile Include="ElementSystem\ReferenceListItem.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AddEnumToListIfTrue.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneBasicAttribute.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneComplexChanceAttribute.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneEnumAttribute.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneIfFalse.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneIfTrue.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneIntRangeAttribute.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTunerAttribute.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneReferenceListAttribute.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneReferenceListVariantAttribute.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTunerInvoker.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneThresholdTuple.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneThresholdVariant.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneTupleRangeAttribute.cs" />
+    <Compile Include="ExportSystem\AutoTuners\AutoTuneVariantRangeAttribute.cs" />
+    <Compile Include="ExportSystem\CommentUtility.cs" />
+    <Compile Include="ExportSystem\Exporter.cs" />
+    <Compile Include="ExportSystem\ExportResultsData.cs" />
+    <Compile Include="ExportSystem\IExportableElement.cs" />
+    <Compile Include="ExportSystem\IOnExportComplete.cs" />
+    <Compile Include="ExportSystem\STBLBuilder.cs" />
+    <Compile Include="ExportSystem\TuningActions\ForEachAction.cs" />
+    <Compile Include="ExportSystem\TuningActions\ForEachReference.cs" />
+    <Compile Include="ExportSystem\TuningActions\IfBase.cs" />
+    <Compile Include="ExportSystem\TuningActions\IfBool.cs" />
+    <Compile Include="ExportSystem\TuningActions\IfListNotEmpty.cs" />
+    <Compile Include="ExportSystem\TuningActions\IfNotEmpty.cs" />
+    <Compile Include="ExportSystem\TuningActions\IfString.cs" />
+    <Compile Include="ExportSystem\TuningActions\PropertyExport.cs" />
+    <Compile Include="ExportSystem\TuningActions\RegisterTuningActionAttribute.cs" />
+    <Compile Include="ExportSystem\TuningActions\SetDataContext.cs" />
+    <Compile Include="ExportSystem\TuningActions\SetTunableAction.cs" />
+    <Compile Include="ExportSystem\TuningActions\SetTunableEnum.cs" />
+    <Compile Include="ExportSystem\TuningActions\SetTunableList.cs" />
+    <Compile Include="ExportSystem\TuningActions\SetTunableTuple.cs" />
+    <Compile Include="ExportSystem\TuningActions\SetTunableVariant.cs" />
+    <Compile Include="ExportSystem\TuningActions\TuningAction.cs" />
+    <Compile Include="ExportSystem\TuningActions\TuningActionContext.cs" />
+    <Compile Include="ExportSystem\TuningActions\TuningActionInvoker.cs" />
+    <Compile Include="ExportSystem\TuningActions\TuningActionLoader.cs" />
+    <Compile Include="ExportSystem\TuningActions\TuningActionRegistry.cs" />
+    <Compile Include="ExportSystem\Tuning\FNVHasher.cs" />
+    <Compile Include="ExportSystem\Tuning\IIsFNV32Element.cs" />
+    <Compile Include="ExportSystem\Tuning\ITunableValueObject.cs" />
+    <Compile Include="ExportSystem\Tuning\SimData\SimDataBuilder.cs" />
+    <Compile Include="ExportSystem\Tuning\SimData\SimDataHandler.cs" />
+    <Compile Include="ExportSystem\Tuning\TunableBase.cs" />
+    <Compile Include="ExportSystem\Tuning\TunableBasic.cs" />
+    <Compile Include="ExportSystem\Tuning\TunableEnum.cs" />
+    <Compile Include="ExportSystem\Tuning\TunableList.cs" />
+    <Compile Include="ExportSystem\Tuning\TunableTuple.cs" />
+    <Compile Include="ExportSystem\Tuning\TunableVariant.cs" />
+    <Compile Include="ExportSystem\Tuning\TuningBase.cs" />
+    <Compile Include="ExportSystem\Tuning\TuningHeader.cs" />
+    <Compile Include="ExportSystem\Tuning\Utilities\ElementTuning.cs" />
+    <Compile Include="ExportSystem\Tuning\Utilities\TuningExport.cs" />
+    <Compile Include="FastObservableCollection.cs" />
+    <Compile Include="ProgramSettings.cs" />
+    <Compile Include="ProjectSystem\Project.cs" />
+    <Compile Include="ProjectSystem\ProjectCreateErrorType.cs" />
+    <Compile Include="ProjectSystem\ProjectInfo.cs" />
+    <Compile Include="ProjectSystem\ProjectManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyTypes\ComplexChance.cs" />
+    <Compile Include="PropertyTypes\DoubleBounds.cs" />
+    <Compile Include="PropertyTypes\ElementIcon.cs" />
+    <Compile Include="PropertyTypes\IHasSettableLabel.cs" />
+    <Compile Include="PropertyTypes\IntBounds.cs" />
+    <Compile Include="PropertyTypes\NotificationIcon.cs" />
+    <Compile Include="PropertyTypes\NotificationIconTypes.cs" />
+    <Compile Include="PropertyTypes\NotificationOrDialog.cs" />
+    <Compile Include="PropertyTypes\NotificationTypes.cs" />
+    <Compile Include="PropertyTypes\SelectableObjectType.cs" />
+    <Compile Include="PropertyTypes\SelectableObjectTypeAttribute.cs" />
+    <Compile Include="PropertyTypes\STBLString.cs" />
+    <Compile Include="PropertyTypes\Threshold.cs" />
+    <Compile Include="PropertyTypes\ThresholdComparison.cs" />
+    <Compile Include="Python\ImportTraitPickerPythonStep.cs" />
+    <Compile Include="Python\ObjectInteractionsPythonStep.cs" />
+    <Compile Include="Python\PythonBuilder.cs" />
+    <Compile Include="Python\PythonBuildStep.cs" />
+    <Compile Include="Python\PythonInstallationHelper.cs" />
+    <Compile Include="Python\SnippetInteractionsPythonStep.cs" />
+    <Compile Include="Startup\StartupEvents.cs" />
+    <Compile Include="Startup\StartupTypeAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
+      <Project>{c0f0f8a5-0f1d-47ca-a3d9-a58042374574}</Project>
+      <Name>Constructor5.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Xml\Constructor5.Xml.csproj">
+      <Project>{BF050D2B-8934-4820-A298-749243CFB076}</Project>
+      <Name>Constructor5.Xml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="FodyWeavers.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.6.6.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.0\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.6.6.0\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.6.0\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props'))" />
+  </Target>
+</Project>

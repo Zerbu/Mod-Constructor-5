@@ -1,0 +1,25 @@
+﻿<Window x:Class="Constructor5.UI.Dialogs.IconSelector.IconSelectorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Constructor5.UI.Dialogs.IconSelector"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="The Sims 4 Mod Constructor (V5)"
+        Width="800"
+        Height="600"
+        FontSize="{StaticResource Constructor.BigFontSize}"
+        Style="{StaticResource Constructor.WindowStyle}"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="ToolWindow"
+        mc:Ignorable="d">
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <TabControl>
+            <TabItem Header="Game Images">
+                <local:GameImageSelector ImageSelected="GameImageSelector_ImageSelected" />
+            </TabItem>
+            <TabItem Header="Custom Images">
+                <local:CustomImageSelector ImageSelected="CustomImageSelector_ImageSelected" />
+            </TabItem>
+        </TabControl>
+    </Border>
+</Window>

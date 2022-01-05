@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props" Condition="Exists('..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{92267EC9-B06A-44AC-B383-F40C4D6A5755}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>Constructor5.UI</RootNamespace>
+    <AssemblyName>Constructor5.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GongSolutions.WPF.DragDrop, Version=2.0.0.0, Culture=neutral, PublicKeyToken=91f1945125b7a587, processorArchitecture=MSIL">
+      <HintPath>..\packages\gong-wpf-dragdrop.2.4.3\lib\net47\GongSolutions.WPF.DragDrop.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.AvalonEdit, Version=6.1.3.50, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL">
+      <HintPath>..\packages\AvalonEdit.6.1.3.50\lib\net45\ICSharpCode.AvalonEdit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationFramework.Aero2" />
+    <Reference Include="PropertyChanged, Version=3.4.0.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
+      <HintPath>..\packages\PropertyChanged.Fody.3.4.0\lib\net40\PropertyChanged.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoGeneratedEditors\AutoEditorReference.cs" />
+    <Compile Include="AutoGeneratedEditors\HasAutoEditor.cs" />
+    <Compile Include="AutoGeneratedEditors\AutoGeneratedEditor.cs" />
+    <Compile Include="AutoGeneratedEditors\AutoEditorAttribute.cs" />
+    <Compile Include="AutoGeneratedEditors\AutoEditorReferenceWithEditorUnderneath.cs" />
+    <Compile Include="AutoGeneratedEditors\AutoEditorReferenceList.cs" />
+    <Compile Include="AutoGeneratedEditors\AutoEditorSelectableObject.cs" />
+    <Compile Include="Bases\CommandBase.cs" />
+    <Compile Include="Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="Converters\EmptyToVisibilityConverter.cs" />
+    <Compile Include="Converters\EnumSelectorValueConverter.cs" />
+    <Compile Include="Converters\PathToReadOnlySourceConverter.cs" />
+    <Compile Include="Converters\StringValueToVisibilityConverter.cs" />
+    <Compile Include="Converters\NullToVisibilityConverter.cs" />
+    <Compile Include="CustomTuningElementEditor.xaml.cs">
+      <DependentUpon>CustomTuningElementEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\AddElement\AddElementWindow.xaml.cs">
+      <DependentUpon>AddElementWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\AddElement\ElementAddCommand.cs" />
+    <Compile Include="Dialogs\CustomTuningDialog\CustomTuningPreviewWindow.xaml.cs">
+      <DependentUpon>CustomTuningPreviewWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\CustomTuningDialog\CustomTuningWindow.xaml.cs">
+      <DependentUpon>CustomTuningWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogUtility.cs" />
+    <Compile Include="Dialogs\ElementSettings\ElementSettingsWindow.xaml.cs">
+      <DependentUpon>ElementSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionDialogWindow.xaml.cs">
+      <DependentUpon>ExceptionDialogWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExportResults\ExportResultsWindow.xaml.cs">
+      <DependentUpon>ExportResultsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FancyInputBox.xaml.cs">
+      <DependentUpon>FancyInputBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FancyMessageBox.xaml.cs">
+      <DependentUpon>FancyMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\IconSelector\CustomImageSelector.xaml.cs">
+      <DependentUpon>CustomImageSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\IconSelector\GameImageSelector.xaml.cs">
+      <DependentUpon>GameImageSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\IconSelector\IconSelectorWindow.xaml.cs">
+      <DependentUpon>IconSelectorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\IconSelector\ImageSelectorItem.cs" />
+    <Compile Include="Dialogs\ObjectTypeSelector\IObjectTypeSelectorExtraTab.cs" />
+    <Compile Include="Dialogs\ObjectTypeSelector\ObjectTypeExtraTabAttribute.cs" />
+    <Compile Include="Dialogs\ObjectTypeSelector\ObjectTypeExtraTabManager.cs" />
+    <Compile Include="Main\DockTheme\ConstructorTheme.cs" />
+    <Compile Include="Main\ElementEditorPresenter.xaml.cs">
+      <DependentUpon>ElementEditorPresenter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Main\TaggedLayoutDocument.cs" />
+    <Compile Include="PythonInstaller\PythonInstallerWindow.xaml.cs">
+      <DependentUpon>PythonInstallerWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\ComplexChanceControl.xaml.cs">
+      <DependentUpon>ComplexChanceControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\ComponentViewer.xaml.cs">
+      <DependentUpon>ComponentViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\CustomTuningCommand.cs" />
+    <Compile Include="Shared\DoubleBoundsControl.xaml.cs">
+      <DependentUpon>DoubleBoundsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\ElementSettingsCommand.cs" />
+    <Compile Include="Shared\EnumDisplayTextAttribute.cs" />
+    <Compile Include="Shared\EnumSelectorReplaceDictionary.cs" />
+    <Compile Include="Shared\EnumSelectorValue.cs" />
+    <Compile Include="Shared\EnumToStringConverter.cs" />
+    <Compile Include="Shared\EnumSelectorValueGetter.cs" />
+    <Compile Include="Shared\IconControl.xaml.cs">
+      <DependentUpon>IconControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher\LauncherWindow.xaml.cs">
+      <DependentUpon>LauncherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher\ProjectCreateCommand.cs" />
+    <Compile Include="Launcher\ProjectLoadCommand.cs" />
+    <Compile Include="Main\ElementDeleteCommand.cs" />
+    <Compile Include="Main\ExportCommand.cs" />
+    <Compile Include="Main\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Main\SaveCommand.cs" />
+    <Compile Include="Shared\InlineObjectEditor.xaml.cs">
+      <DependentUpon>InlineObjectEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\IntBoundsControl.xaml.cs">
+      <DependentUpon>IntBoundsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\IntSlider.xaml.cs">
+      <DependentUpon>IntSlider.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\IObjectEditor.cs" />
+    <Compile Include="Shared\MultiParamConverter.cs" />
+    <Compile Include="Shared\NotificationIconControl.xaml.cs">
+      <DependentUpon>NotificationIconControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\NotificationOrDialogControl.xaml.cs">
+      <DependentUpon>NotificationOrDialogControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\ObjectEditorAttribute.cs" />
+    <Compile Include="Shared\ObjectEditorControl.xaml.cs">
+      <DependentUpon>ObjectEditorControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\ObjectEditorManager.cs" />
+    <Compile Include="Shared\ParticipantControl.xaml.cs">
+      <DependentUpon>ParticipantControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Shared\ReferenceControlWithEditorUnderneath.xaml.cs">
+      <DependentUpon>ReferenceControlWithEditorUnderneath.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\ReferenceLabel.xaml.cs">
+      <DependentUpon>ReferenceLabel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\ReferenceListControl.xaml.cs">
+      <DependentUpon>ReferenceListControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\PresetSelect\PresetSelectWindow.xaml.cs">
+      <DependentUpon>PresetSelectWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\ReferenceControl.xaml.cs">
+      <DependentUpon>ReferenceControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ObjectTypeSelector\ObjectTypeSelectorWindow.xaml.cs">
+      <DependentUpon>ObjectTypeSelectorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\SelectableObjectControl.xaml.cs">
+      <DependentUpon>SelectableObjectControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\Field.cs" />
+    <Compile Include="Shared\OwnTypeDropHandler.cs" />
+    <Compile Include="Shared\SimpleAddToListCommand.cs" />
+    <Compile Include="Shared\SimpleBrowsePresetsCommand.cs" />
+    <Compile Include="Shared\SimpleOpenWindowCommand.cs" />
+    <Compile Include="Shared\DoubleSlider.xaml.cs">
+      <DependentUpon>DoubleSlider.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\SimpleRemoveFromListCommand.cs" />
+    <Compile Include="Shared\STBLStringControl.xaml.cs">
+      <DependentUpon>STBLStringControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\StringListControl.xaml.cs">
+      <DependentUpon>StringListControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\ThresholdControl.xaml.cs">
+      <DependentUpon>ThresholdControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\VisualTreeUtility.cs" />
+    <Compile Include="Shared\TextBoxWithPresetsControl.xaml.cs">
+      <DependentUpon>TextBoxWithPresetsControl.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="FodyWeavers.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="CustomTuningElementEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\AddElement\AddElementWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\CustomTuningDialog\CustomTuningPreviewWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\CustomTuningDialog\CustomTuningWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\ElementSettings\ElementSettingsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\ExceptionDialog\ExceptionDialogWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\ExportResults\ExportResultsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\FancyInputBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\FancyMessageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\IconSelector\CustomImageSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\IconSelector\GameImageSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\IconSelector\IconSelectorWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Main\DockTheme\Brushes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Main\DockTheme\Theme.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Main\ElementEditorPresenter.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PythonInstaller\PythonInstallerWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\ComplexChanceControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\ComponentViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shared\DoubleBoundsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\IconControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Launcher\LauncherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Main\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\InlineObjectEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\IntBoundsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\IntSlider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\NotificationIconControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shared\NotificationOrDialogControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\ObjectEditorControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\ParticipantControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shared\ReferenceControlWithEditorUnderneath.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\ReferenceLabel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\ReferenceListControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\PresetSelect\PresetSelectWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shared\ReferenceControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\ObjectTypeSelector\ObjectTypeSelectorWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shared\SelectableObjectControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shared\Field.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\DoubleSlider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\STBLStringControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\StringListControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\ThresholdControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Border.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Button.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\CheckBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ComboBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ComboBoxItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Converters.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Expander.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Presets.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\TabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\TabItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\TextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\TextBoxWithPresetsControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
+      <Project>{F6468A79-3DA7-4F70-878B-D3C47E67294E}</Project>
+      <Name>Constructor5.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
+      <Project>{C0F0F8A5-0F1D-47CA-A3D9-A58042374574}</Project>
+      <Name>Constructor5.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Xml\Constructor5.Xml.csproj">
+      <Project>{BF050D2B-8934-4820-A298-749243CFB076}</Project>
+      <Name>Constructor5.Xml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.6.6.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.0\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.6.6.0\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.6.0\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props'))" />
+  </Target>
+</Project>

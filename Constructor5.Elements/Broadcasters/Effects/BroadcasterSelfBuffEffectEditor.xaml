@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Constructor5.Elements.Broadcasters.Effects.BroadcasterSelfBuffEffectEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.Broadcasters.Effects"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:references="clr-namespace:Constructor5.Elements.Buffs.References"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <StackPanel>
+        <references:BuffWithReasonControl BuffWithReason="{Binding Buff}" EditorTag="NoDuration" />
+        <shared:Field Label="Required Receivers Range" LabelWidth="200">
+            <StackPanel>
+                <shared:IntBoundsControl Bounds="{Binding RequiredReceiversRange}"
+                                         Maximum="20"
+                                         Minimum="1" />
+                <TextBlock FontStyle="Italic" TextWrapping="Wrap">If defined, the number of receivers must be in the given range.</TextBlock>
+            </StackPanel>
+        </shared:Field>
+    </StackPanel>
+</UserControl>

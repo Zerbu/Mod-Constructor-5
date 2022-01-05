@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="Constructor5.Elements.Traits.Components.TraitBuffReplacementsEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.Traits.Components"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <shared:SimpleAddToListCommand x:Key="AddCommand" TypeName="BuffReplacement" />
+        <shared:SimpleRemoveFromListCommand x:Key="RemoveCommand"
+                                            DeleteMessage="Are you sure you want to delete this replacement?"
+                                            TypeName="BuffReplacement" />
+    </UserControl.Resources>
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock Margin="{StaticResource Constructor.BigPaddingMinusTop}"
+                       Text="When Sims are meant to receive the original buff, Sims with the trait will receive a replacement instead. WARNING: This can prevent parts of the game that expect the original buff from working properly. Because of this, it is recommended you avoid replacing buffs that are tied to gameplay (for example: pregnancy buffs, buffs that appear when Sims have low Needs, role buffs, festival buffs, etc). In such cases, an alternative would be to use an action to have a buff spawn in addition to the original, not instead of."
+                       TextWrapping="Wrap" />
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                <ItemsControl ItemsSource="{Binding Replacements}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate DataType="BuffReplacement">
+                            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                                <shared:Field Label="Original" LabelWidth="100">
+                                    <shared:ReferenceControl ElementTypeName="Buff"
+                                                             Reference="{Binding OriginalBuff}"
+                                                             ShowResetButton="False" />
+                                </shared:Field>
+                                <shared:Field Label="Replacement" LabelWidth="100">
+                                    <shared:ReferenceControl ElementTypeName="Buff"
+                                                             Reference="{Binding ReplacementBuff}"
+                                                             ResetTo="26440"
+                                                             ResetToLabel="The default setting will block the buff altogether"
+                                                             ShowCreateButton="True" />
+                                </shared:Field>
+                                <Button Margin="2"
+                                        HorizontalAlignment="Left"
+                                        Command="{StaticResource RemoveCommand}"
+                                        Content="Remove Replacement">
+                                    <Button.CommandParameter>
+                                        <MultiBinding Converter="{StaticResource MultiParamConverter}">
+                                            <Binding Path="." />
+                                            <Binding Path="ItemsSource" RelativeSource="{RelativeSource AncestorType={x:Type ItemsControl}}" />
+                                        </MultiBinding>
+                                    </Button.CommandParameter>
+                                </Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <Button Margin="2"
+                        HorizontalAlignment="Left"
+                        Command="{StaticResource AddCommand}"
+                        CommandParameter="{Binding Replacements}"
+                        Content="Add Replacement" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props" Condition="Exists('..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Constructor5.Elements</RootNamespace>
+    <AssemblyName>Constructor5.Elements</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <ProjectGuid>{8CDAF7B3-75C2-4365-A29E-BA5D85BC24EB}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GongSolutions.WPF.DragDrop, Version=2.0.0.0, Culture=neutral, PublicKeyToken=91f1945125b7a587, processorArchitecture=MSIL">
+      <HintPath>..\packages\gong-wpf-dragdrop.2.4.3\lib\net47\GongSolutions.WPF.DragDrop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PropertyChanged, Version=3.4.0.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
+      <HintPath>..\packages\PropertyChanged.Fody.3.4.0\lib\net40\PropertyChanged.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.1.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animations\Animation.cs" />
+    <Compile Include="AspirationCategories\AspirationCategory.cs" />
+    <Compile Include="AspirationTracks\AspirationTrack.cs" />
+    <Compile Include="AspirationTracks\AspirationTrackComponent.cs" />
+    <Compile Include="AspirationTracks\AspirationTrackEditor.xaml.cs">
+      <DependentUpon>AspirationTrackEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AspirationTracks\AspirationTrackExportContext.cs" />
+    <Compile Include="AspirationTracks\AspirationTrackInfoComponent.cs" />
+    <Compile Include="AspirationTracks\AspirationTrackInfoEditor.xaml.cs">
+      <DependentUpon>AspirationTrackInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AspirationTracks\AspirationTrackMilestonesComponent.cs" />
+    <Compile Include="AspirationTracks\AspirationTrackMilestonesEditor.xaml.cs">
+      <DependentUpon>AspirationTrackMilestonesEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AspirationTracks\AspirationTrackWhimsComponent.cs" />
+    <Compile Include="AspirationTracks\AspirationTrackWhimsEditor.xaml.cs">
+      <DependentUpon>AspirationTrackWhimsEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BalloonSets\Balloon.cs" />
+    <Compile Include="BalloonSets\BalloonSet.cs" />
+    <Compile Include="BalloonSets\BalloonSetEditor.xaml.cs">
+      <DependentUpon>BalloonSetEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BalloonSets\BalloonSetMiniEditor.xaml.cs">
+      <DependentUpon>BalloonSetMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Broadcasters\Broadcaster.cs" />
+    <Compile Include="Broadcasters\BroadcasterConditionGroup.cs" />
+    <Compile Include="Broadcasters\BroadcasterConditionGroupItem.cs" />
+    <Compile Include="Broadcasters\BroadcasterEditor.xaml.cs">
+      <DependentUpon>BroadcasterEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Broadcasters\BroadcasterConditionGroupEffect.cs" />
+    <Compile Include="Broadcasters\BroadcasterEditorTemplateSelector.cs" />
+    <Compile Include="Broadcasters\BroadcasterEffect.cs" />
+    <Compile Include="Broadcasters\BroadcasterExportContext.cs" />
+    <Compile Include="Broadcasters\BroadcasterMiniEditor.xaml.cs">
+      <DependentUpon>BroadcasterMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Broadcasters\Effects\BroadcasterBuffEffect.cs" />
+    <Compile Include="Broadcasters\Effects\BroadcasterBuffEffectEditor.xaml.cs">
+      <DependentUpon>BroadcasterBuffEffectEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Broadcasters\Effects\BroadcasterLootEffect.cs" />
+    <Compile Include="Broadcasters\Effects\BroadcasterLootEffectEditor.xaml.cs">
+      <DependentUpon>BroadcasterLootEffectEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Broadcasters\Effects\BroadcasterSelfBuffEffect.cs" />
+    <Compile Include="Broadcasters\Effects\BroadcasterSelfBuffEffectEditor.xaml.cs">
+      <DependentUpon>BroadcasterSelfBuffEffectEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Broadcasters\Effects\BroadcasterSelfLootEffect.cs" />
+    <Compile Include="Broadcasters\Effects\BroadcasterSelfLootEffectEditor.xaml.cs">
+      <DependentUpon>BroadcasterSelfLootEffectEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Broadcasters\EmptyBroadcasterEffect.cs" />
+    <Compile Include="Buffs\BuffExportContext.cs" />
+    <Compile Include="Buffs\BuffComponent.cs" />
+    <Compile Include="Buffs\BuffEditor.xaml.cs">
+      <DependentUpon>BuffEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\BuffMiniEditor.xaml.cs">
+      <DependentUpon>BuffMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\Components\BuffBroadcastersComponent.cs" />
+    <Compile Include="Buffs\Components\BuffCommoditiesComponent.cs" />
+    <Compile Include="Buffs\Components\BuffCommoditiesEditor.xaml.cs">
+      <DependentUpon>BuffCommoditiesEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\Components\BuffInfoEditor.xaml.cs">
+      <DependentUpon>BuffInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\Components\BuffInfoComponent.cs" />
+    <Compile Include="Buffs\Components\BuffLootComponent.cs" />
+    <Compile Include="Buffs\Components\BuffLootItem.cs" />
+    <Compile Include="Buffs\Components\BuffLootItemEditor.xaml.cs">
+      <DependentUpon>BuffLootItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\Components\BuffLootOnIntervalBuilder.cs" />
+    <Compile Include="Buffs\Components\BuffMixerInteractionsComponent.cs" />
+    <Compile Include="Buffs\Components\BuffMixerInteractionsEditor.xaml.cs">
+      <DependentUpon>BuffMixerInteractionsEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\Components\BuffSpecialCasesComponent.cs" />
+    <Compile Include="Buffs\Components\BuffSpecialCasesEditor.xaml.cs">
+      <DependentUpon>BuffSpecialCasesEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\Modifiers\BuffModifierBase.cs" />
+    <Compile Include="Buffs\Modifiers\BuffModifierDirection.cs" />
+    <Compile Include="Buffs\Components\BuffModifiersComponent.cs" />
+    <Compile Include="Buffs\Components\BuffModifiersEditor.xaml.cs">
+      <DependentUpon>BuffModifiersEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\Modifiers\BuffTagModifier.cs" />
+    <Compile Include="Buffs\Modifiers\BuffModifiersUI.xaml.cs">
+      <DependentUpon>BuffModifiersUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\Modifiers\BuffReferenceModifier.cs" />
+    <Compile Include="Buffs\References\AutoTuneBuffWithReasonTupleAttribute.cs" />
+    <Compile Include="Buffs\References\BuffWithReason.cs" />
+    <Compile Include="Buffs\References\BuffWithReasonControl.xaml.cs">
+      <DependentUpon>BuffWithReasonControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\References\WeightedBuffReferenceListItem.cs" />
+    <Compile Include="Buffs\References\WeightedBuffReferenceListItemEditor.xaml.cs">
+      <DependentUpon>WeightedBuffReferenceListItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\SharedBuffTuner.cs" />
+    <Compile Include="CareerLevel\CareerLevel.cs" />
+    <Compile Include="CareerTrack\CareerTrack.cs" />
+    <Compile Include="Career\Career.cs" />
+    <Compile Include="Commodities\Commodity.cs" />
+    <Compile Include="CompoundConditionElements\CompoundAndCondition.cs" />
+    <Compile Include="CompoundConditionElements\CompoundConditionElement.cs" />
+    <Compile Include="CompoundConditionElements\CompoundConditionElementEditor.xaml.cs">
+      <DependentUpon>CompoundConditionElementEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CompoundConditionElements\CompoundConditionOrGroup.cs" />
+    <Compile Include="Emotions\Emotion.cs" />
+    <Compile Include="HolidayTraditions\Components\HolidayTraditionBuffsComponent.cs" />
+    <Compile Include="HolidayTraditions\Components\HolidayTraditionGoalEditor.xaml.cs">
+      <DependentUpon>HolidayTraditionGoalEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HolidayTraditions\Components\HolidayTraditionPreference.cs" />
+    <Compile Include="HolidayTraditions\Components\HolidayTraditionPreferencesComponent.cs" />
+    <Compile Include="HolidayTraditions\Components\HolidayTraditionPreferencesEditor.xaml.cs">
+      <DependentUpon>HolidayTraditionPreferencesEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HolidayTraditions\Components\HolidayTraditionPreferenceType.cs" />
+    <Compile Include="HolidayTraditions\HolidayTraditionComponent.cs" />
+    <Compile Include="HolidayTraditions\Components\HolidayTraditionGoalComponent.cs" />
+    <Compile Include="HolidayTraditions\HolidayTradition.cs" />
+    <Compile Include="HolidayTraditions\HolidayTraditionEditor.xaml.cs">
+      <DependentUpon>HolidayTraditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HolidayTraditions\HolidayTraditionExportContext.cs" />
+    <Compile Include="Interactions\AnyInteraction.cs" />
+    <Compile Include="Interactions\Mixer\MixerInteraction.cs" />
+    <Compile Include="Interactions\Mixer\MixerInteractionComponentAttribute.cs" />
+    <Compile Include="Interactions\Mixer\MixerInteractionEditor.xaml.cs">
+      <DependentUpon>MixerInteractionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\Mixer\MixerInteractionExportContext.cs" />
+    <Compile Include="Interactions\Mixer\MixerInteractionMiniEditor.xaml.cs">
+      <DependentUpon>MixerInteractionMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\Mixer\MixerInteractionSpecialCasesComponent.cs" />
+    <Compile Include="Interactions\Mixer\MixerInteractionSpecialCasesEditor.xaml.cs">
+      <DependentUpon>MixerInteractionSpecialCasesEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\PieMenuCategories\PieMenuCategory.cs" />
+    <Compile Include="Interactions\Shared\DefaultInteractionTemplate.cs" />
+    <Compile Include="Interactions\Shared\InteractionConditionsComponent.cs" />
+    <Compile Include="Interactions\Shared\InteractionConditionsEditor.xaml.cs">
+      <DependentUpon>InteractionConditionsEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\Shared\InteractionElement.cs" />
+    <Compile Include="Interactions\Shared\InteractionExportContext.cs" />
+    <Compile Include="Interactions\Shared\InteractionLockOutComponent.cs" />
+    <Compile Include="Interactions\Shared\InteractionLockOutEditor.xaml.cs">
+      <DependentUpon>InteractionLockOutEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\Shared\InteractionTemplate.cs" />
+    <Compile Include="Interactions\Shared\InteractionInfoComponent.cs" />
+    <Compile Include="Interactions\Shared\InteractionInfoEditor.xaml.cs">
+      <DependentUpon>InteractionInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\Social\SocialInteractionComponentAttribute.cs" />
+    <Compile Include="Interactions\Social\SocialInteractionEditor.xaml.cs">
+      <DependentUpon>SocialInteractionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\Social\SocialInteractionExportContext.cs" />
+    <Compile Include="Interactions\Social\SocialInteractionMiniEditor.xaml.cs">
+      <DependentUpon>SocialInteractionMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\Shared\InteractionTemplateEditor.xaml.cs">
+      <DependentUpon>InteractionTemplateEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LikesDislikes\LikeDislike.cs" />
+    <Compile Include="LikesDislikes\LikeDislikeEditor.xaml.cs">
+      <DependentUpon>LikeDislikeEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LootActionSets\EmptyLootAction.cs" />
+    <Compile Include="LootActionSets\LASConditionGroup.cs" />
+    <Compile Include="LootActionSets\LASConditionGroupAction.cs" />
+    <Compile Include="LootActionSets\LASConditionGroupItem.cs" />
+    <Compile Include="LootActionSets\LASEditorTemplateSelector.cs" />
+    <Compile Include="LootActionSets\LASExportContext.cs" />
+    <Compile Include="LootActionSets\LootAction.cs" />
+    <Compile Include="Buffs\Buff.cs" />
+    <Compile Include="LootActionSets\LootActionSet.cs" />
+    <Compile Include="LootActionSets\LootActionSetMiniEditor.xaml.cs">
+      <DependentUpon>LootActionSetMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LootActionSets\LootTuning.cs" />
+    <Compile Include="LootActionSets\LootActionType.cs" />
+    <Compile Include="LootActionSets\LootActionTypeAttribute.cs" />
+    <Compile Include="LootActionSets\LootActionSetEditor.xaml.cs">
+      <DependentUpon>LootActionSetEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LootActionSets\SetActionLabelCommand.cs" />
+    <Compile Include="LootActionSets\SetConditionGroupLabelCommand.cs" />
+    <Compile Include="ObjectiveSets\AssignedAspirationTrackContextModifier.cs" />
+    <Compile Include="ObjectiveSets\ObjectiveSet.cs" />
+    <Compile Include="ObjectiveSets\ObjectiveSetEditor.xaml.cs">
+      <DependentUpon>ObjectiveSetEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Objectives\Objective.cs" />
+    <Compile Include="Objectives\ObjectiveCompletionType.cs" />
+    <Compile Include="Objectives\ObjectiveEditor.xaml.cs">
+      <DependentUpon>ObjectiveEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RelationshipTracks\RelationshipTrack.cs" />
+    <Compile Include="RelBit\RelBit.cs" />
+    <Compile Include="Rewards\AddRewardCommand.cs" />
+    <Compile Include="Rewards\EmptyReward.cs" />
+    <Compile Include="Rewards\Reward.cs" />
+    <Compile Include="Rewards\RewardItem.cs" />
+    <Compile Include="Rewards\RewardSet.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interactions\Shared\InteractionTemplateComponent.cs" />
+    <Compile Include="Interactions\Social\SocialInteraction.cs" />
+    <Compile Include="Interactions\Shared\InteractionComponent.cs" />
+    <Compile Include="Rewards\RewardSetEditor.xaml.cs">
+      <DependentUpon>RewardSetEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rewards\RewardSetMiniEditor.xaml.cs">
+      <DependentUpon>RewardSetMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rewards\RewardTypes\RandomReward.cs" />
+    <Compile Include="Rewards\RewardTypes\RandomRewardEditor.xaml.cs">
+      <DependentUpon>RandomRewardEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rewards\RewardExportContext.cs" />
+    <Compile Include="Rewards\RewardTypes\TraitReward.cs" />
+    <Compile Include="Rewards\RewardTypes\TraitRewardEditor.xaml.cs">
+      <DependentUpon>TraitRewardEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RoleStates\RoleState.cs" />
+    <Compile Include="Shared\WhimSetBuilder.cs" />
+    <Compile Include="SimFilters\DefaultSimFilterTerm.cs" />
+    <Compile Include="SimFilters\SimFilter.cs" />
+    <Compile Include="SimFilters\SimFilterEditor.xaml.cs">
+      <DependentUpon>SimFilterEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimFilters\SimFilterTerm.cs" />
+    <Compile Include="SimFilters\SimFilterTermItem.cs" />
+    <Compile Include="SituationGoalSets\SituationGoalSet.cs" />
+    <Compile Include="SituationGoalSets\SituationGoalSetEditor.xaml.cs">
+      <DependentUpon>SituationGoalSetEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationGoalSets\SituationGoalSetMiniEditor.xaml.cs">
+      <DependentUpon>SituationGoalSetMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationGoals\Components\SituationGoalPreConditionsComponent.cs" />
+    <Compile Include="SituationGoals\Components\SituationGoalTemplateComponent.cs" />
+    <Compile Include="SituationGoals\Components\SituationGoalInfoComponent.cs" />
+    <Compile Include="SituationGoals\Components\SituationGoalInfoEditor.xaml.cs">
+      <DependentUpon>SituationGoalInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationGoals\Components\SituationGoalPostConditionsComponent.cs" />
+    <Compile Include="SituationGoals\Components\SituationGoalTemplateEditor.xaml.cs">
+      <DependentUpon>SituationGoalTemplateEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationGoals\HolidayTraditionContextModifier.cs" />
+    <Compile Include="SituationGoals\SituationGoal.cs" />
+    <Compile Include="SituationGoals\SituationGoalComponent.cs" />
+    <Compile Include="SituationGoals\SituationGoalEditor.xaml.cs">
+      <DependentUpon>SituationGoalEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationGoals\SituationGoalExportContext.cs" />
+    <Compile Include="SituationGoals\SituationGoalMiniEditor.xaml.cs">
+      <DependentUpon>SituationGoalMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationGoals\SituationGoalTuner.cs" />
+    <Compile Include="SituationGoals\Templates\SituationGoalDefaultTemplate.cs" />
+    <Compile Include="SituationGoals\Templates\SituationGoalMultiGenerator.cs" />
+    <Compile Include="SituationGoals\Templates\SituationGoalTemplate.cs" />
+    <Compile Include="SituationGoals\WeightedGoalReferenceListItem.cs" />
+    <Compile Include="SituationGoals\WeightedGoalReferenceListItemEditor.xaml.cs">
+      <DependentUpon>WeightedGoalReferenceListItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationJobs\Components\SituationJobInfoComponent.cs" />
+    <Compile Include="SituationJobs\Components\SituationJobInfoEditor.xaml.cs">
+      <DependentUpon>SituationJobInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationJobs\Components\SituationJobRewardsComponent.cs" />
+    <Compile Include="SituationJobs\Components\SituationJobRewardsEditor.xaml.cs">
+      <DependentUpon>SituationJobRewardsEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationJobs\Components\SituationJobSimFilterComponent.cs" />
+    <Compile Include="SituationJobs\SituationJob.cs" />
+    <Compile Include="SituationJobs\SituationJobComponent.cs" />
+    <Compile Include="SituationJobs\SituationJobEditor.xaml.cs">
+      <DependentUpon>SituationJobEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationJobs\SituationJobExportContext.cs" />
+    <Compile Include="SituationJobs\SituationJobMiniEditor.xaml.cs">
+      <DependentUpon>SituationJobMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Situations\Components\DefaultSituationTemplate.cs" />
+    <Compile Include="Situations\Components\SituationGoaledEventEditor.xaml.cs">
+      <DependentUpon>SituationGoaledEventEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Situations\Components\SituationInfoComponent.cs" />
+    <Compile Include="Situations\Components\SituationInfoEditor.xaml.cs">
+      <DependentUpon>SituationInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Situations\Components\SituationGoaledEventComponent.cs" />
+    <Compile Include="Situations\Components\SituationTemplateComponent.cs" />
+    <Compile Include="Situations\Components\SituationVenuesComponent.cs" />
+    <Compile Include="Situations\Components\SituationVenuesEditor.xaml.cs">
+      <DependentUpon>SituationVenuesEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Situations\Situation.cs" />
+    <Compile Include="Situations\SituationComponent.cs" />
+    <Compile Include="Situations\SituationEditor.xaml.cs">
+      <DependentUpon>SituationEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Situations\SituationExportContext.cs" />
+    <Compile Include="Situations\SituationTemplate.cs" />
+    <Compile Include="Skills\Skill.cs" />
+    <Compile Include="Statistics\Statistic.cs" />
+    <Compile Include="TestConditions\AlwaysRunCondition.cs" />
+    <Compile Include="TestConditions\AutoEditorConditionList.cs" />
+    <Compile Include="TestConditions\ConditionListControl.xaml.cs">
+      <DependentUpon>ConditionListControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestConditions\TestCondition.cs" />
+    <Compile Include="TestConditions\TestConditionListItem.cs" />
+    <Compile Include="TestConditions\TestConditionTuning.cs" />
+    <Compile Include="Interactions\Social\ContextModifiers\SIAssociatedTrait.cs" />
+    <Compile Include="Traits\Components\BuffReplacement.cs" />
+    <Compile Include="Traits\Components\TraitBuffReplacementsComponent.cs" />
+    <Compile Include="Traits\Components\TraitBuffReplacementsEditor.xaml.cs">
+      <DependentUpon>TraitBuffReplacementsEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Traits\Components\TraitCategories.cs" />
+    <Compile Include="Traits\Components\TraitInfoEditor.xaml.cs">
+      <DependentUpon>TraitInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Traits\Components\TraitSetupComponent.cs" />
+    <Compile Include="Traits\Components\TraitSetupEditor.xaml.cs">
+      <DependentUpon>TraitSetupEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Traits\Components\TraitSocialInteractionsComponent.cs" />
+    <Compile Include="Traits\Components\TraitSpecialCasesComponent.cs" />
+    <Compile Include="Traits\Components\TraitSpecialCasesEditor.xaml.cs">
+      <DependentUpon>TraitSpecialCasesEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Traits\Components\TraitTypes.cs" />
+    <Compile Include="Traits\Components\TraitWhimsComponent.cs" />
+    <Compile Include="Traits\Components\TraitWhimsEditor.xaml.cs">
+      <DependentUpon>TraitWhimsEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Traits\ITraitComponent.cs" />
+    <Compile Include="Traits\SharedWithTraitsAttribute.cs" />
+    <Compile Include="Traits\Trait.cs" />
+    <Compile Include="Traits\TraitComponent.cs" />
+    <Compile Include="Traits\TraitEditor.xaml.cs">
+      <DependentUpon>TraitEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Traits\TraitExportContext.cs" />
+    <Compile Include="Traits\Components\TraitInfoComponent.cs" />
+    <Compile Include="Venue\Venue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
+      <Project>{F6468A79-3DA7-4F70-878B-D3C47E67294E}</Project>
+      <Name>Constructor5.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
+      <Project>{C0F0F8A5-0F1D-47CA-A3D9-A58042374574}</Project>
+      <Name>Constructor5.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.UI\Constructor5.UI.csproj">
+      <Project>{92267ec9-b06a-44ac-b383-f40c4d6a5755}</Project>
+      <Name>Constructor5.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Xml\Constructor5.Xml.csproj">
+      <Project>{BF050D2B-8934-4820-A298-749243CFB076}</Project>
+      <Name>Constructor5.Xml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FodyWeavers.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="AspirationTracks\AspirationTrackEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AspirationTracks\AspirationTrackInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AspirationTracks\AspirationTrackMilestonesEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AspirationTracks\AspirationTrackWhimsEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BalloonSets\BalloonSetEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BalloonSets\BalloonSetMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Broadcasters\BroadcasterEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Broadcasters\BroadcasterMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Broadcasters\Effects\BroadcasterBuffEffectEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Broadcasters\Effects\BroadcasterLootEffectEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Broadcasters\Effects\BroadcasterSelfBuffEffectEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Broadcasters\Effects\BroadcasterSelfLootEffectEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Buffs\BuffEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Buffs\BuffMiniEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Buffs\Components\BuffCommoditiesEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Buffs\Components\BuffInfoEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Buffs\Components\BuffLootItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Buffs\Components\BuffMixerInteractionsEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Buffs\Components\BuffModifiersEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Buffs\Components\BuffSpecialCasesEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Buffs\Modifiers\BuffModifiersUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Buffs\References\BuffWithReasonControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Buffs\References\WeightedBuffReferenceListItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CompoundConditionElements\CompoundConditionElementEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HolidayTraditions\Components\HolidayTraditionGoalEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HolidayTraditions\Components\HolidayTraditionPreferencesEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HolidayTraditions\HolidayTraditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Mixer\MixerInteractionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Mixer\MixerInteractionMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Mixer\MixerInteractionSpecialCasesEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Shared\InteractionConditionsEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Shared\InteractionInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Shared\InteractionLockOutEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Social\SocialInteractionEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Interactions\Social\SocialInteractionMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Shared\InteractionTemplateEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LikesDislikes\LikeDislikeEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LootActionSets\LootActionSetEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LootActionSets\LootActionSetMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ObjectiveSets\ObjectiveSetEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Objectives\ObjectiveEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rewards\RewardSetEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Rewards\RewardSetMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rewards\RewardTypes\RandomRewardEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rewards\RewardTypes\TraitRewardEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SimFilters\SimFilterEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoalSets\SituationGoalSetEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoalSets\SituationGoalSetMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoals\Components\SituationGoalInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoals\Components\SituationGoalTemplateEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoals\SituationGoalEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoals\SituationGoalMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoals\WeightedGoalReferenceListItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationJobs\Components\SituationJobInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationJobs\Components\SituationJobRewardsEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationJobs\SituationJobEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationJobs\SituationJobMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Situations\Components\SituationGoaledEventEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Situations\Components\SituationInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Situations\Components\SituationVenuesEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Situations\SituationEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestConditions\ConditionListControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\Components\TraitBuffReplacementsEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\Components\TraitInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\Components\TraitSetupEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\Components\TraitSpecialCasesEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\Components\TraitWhimsEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\TraitEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.6.6.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.0\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.6.6.0\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.6.0\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PropertyChanged.Fody.3.4.0\build\PropertyChanged.Fody.props'))" />
+  </Target>
+</Project>

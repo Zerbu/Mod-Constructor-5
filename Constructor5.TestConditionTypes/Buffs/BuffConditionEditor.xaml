@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="Constructor5.TestConditionTypes.Buffs.BuffConditionEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Constructor5.TestConditionTypes.Buffs" xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <shared:Field Label="Whitelist" LabelWidth="100">
+            <StackPanel>
+                <TextBlock FontStyle="Italic" TextWrapping="Wrap">If not empty, the participant will need at least one buff from this list for the condition to pass.</TextBlock>
+                <shared:ReferenceListControl ElementReferenceList="{Binding Whitelist}" ElementTypeName="Trait" />
+            </StackPanel>
+        </shared:Field>
+        <shared:Field Label="Blacklist" LabelWidth="100">
+            <StackPanel>
+                <TextBlock FontStyle="Italic" TextWrapping="Wrap">The condition will fail if the participant has any buff in this list.</TextBlock>
+                <shared:ReferenceListControl ElementReferenceList="{Binding Blacklist}" ElementTypeName="Trait" />
+            </StackPanel>
+        </shared:Field>
+        <shared:Field Label="Participant" LabelWidth="100">
+            <shared:ParticipantControl Text="{Binding Participant}" />
+        </shared:Field>
+    </StackPanel>
+</UserControl>

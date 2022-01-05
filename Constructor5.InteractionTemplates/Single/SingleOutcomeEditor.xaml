@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="Constructor5.InteractionTemplates.Single.SingleOutcomeEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.InteractionTemplates.Single"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <d:UserControl.DataContext>
+        <local:SingleOutcomeTemplate />
+    </d:UserControl.DataContext>
+    <Grid>
+        <TabControl Background="Transparent" BorderThickness="0">
+            <TabItem Background="Transparent"
+                     FontSize="{StaticResource Constructor.BigFontSize}"
+                     Header="Actions">
+                <StackPanel>
+                    <shared:ReferenceListControl ElementReferenceList="{Binding LootActionSets}"
+                                                 ElementTypeName="LootActionSet"
+                                                 ShowCreateButton="True" />
+                </StackPanel>
+            </TabItem>
+            <TabItem Background="Transparent"
+                     FontSize="{StaticResource Constructor.BigFontSize}"
+                     Header="Settings">
+                <StackPanel>
+                    <shared:Field Label="Pie Menu Category" LabelWidth="150">
+                        <shared:ReferenceControl ElementTypeName="PieMenuCategory"
+                                                 Reference="{Binding PieMenuCategory}"
+                                                 ResetTo="15504"
+                                                 ResetToLabel="Friendly" />
+                    </shared:Field>
+                    <!--<CheckBox x:Name="GlobalInteractionCheckBox"
+                              Content="Always available even if not assigned to a trait or buff"
+                              IsChecked="{Binding IsGlobalInteraction}" />-->
+                </StackPanel>
+            </TabItem>
+            <!--<TabItem Background="Transparent"
+                     FontSize="{StaticResource Constructor.BigFontSize}"
+                     Header="Balloons">
+                <StackPanel>
+                    <shared:Field Label="Balloon Set" LabelWidth="150">
+                        <shared:ReferenceControl EditorCategory="Invalid"
+                                                 ElementTypeName="BalloonSet"
+                                                 Reference="{Binding BalloonSet}"
+                                                 ShowCreateButton="True" />
+                    </shared:Field>
+                    <shared:ObjectEditorControl EditorCategory="Default"
+                                                EditorTag="NoScrollbar"
+                                                Object="{Binding BalloonSet.Element}" />
+                </StackPanel>
+            </TabItem>-->
+            <!--<TabItem Header="Standard Content" Background="Transparent" FontSize="{StaticResource Constructor.BigFontSize}">
+                <StackPanel>
+
+                </StackPanel>
+            </TabItem>-->
+        </TabControl>
+    </Grid>
+</UserControl>

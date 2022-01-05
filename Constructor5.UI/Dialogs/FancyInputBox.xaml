@@ -1,0 +1,40 @@
+﻿<Window x:Class="Constructor5.UI.Dialogs.FancyInputBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Constructor5.UI.Dialogs"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="The Sims 4 Mod Constructor (V5)"
+        Width="400"
+        Height="200"
+        FocusManager.FocusedElement="{Binding ElementName=TextBox}"
+        FontSize="{StaticResource Constructor.BigFontSize}"
+        SizeToContent="Height"
+        Style="{StaticResource Constructor.WindowStyle}"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="ToolWindow"
+        mc:Ignorable="d">
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <StackPanel>
+            <TextBlock x:Name="TextBlock"
+                       Margin="{StaticResource Constructor.BigPadding}"
+                       TextWrapping="Wrap" />
+            <TextBox x:Name="TextBox" Margin="{StaticResource Constructor.BigPaddingMinusTop}" />
+            <StackPanel Margin="{StaticResource Constructor.BigPadding}"
+                        HorizontalAlignment="Center"
+                        Orientation="Horizontal">
+                <Button x:Name="OKButton"
+                        Margin="2"
+                        HorizontalAlignment="Right"
+                        Click="OKButton_Click"
+                        Content="OK"
+                        IsDefault="True" />
+                <Button x:Name="CloseButton"
+                        Margin="2"
+                        HorizontalAlignment="Right"
+                        Click="CloseButton_Click"
+                        Content="Cancel" />
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Window>

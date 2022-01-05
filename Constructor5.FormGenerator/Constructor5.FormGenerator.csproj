@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2B92541B-D976-417A-8B44-AD84FB775B54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Constructor5.FormGenerator</RootNamespace>
+    <AssemblyName>Constructor5.FormGenerator</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
+      <Project>{f6468a79-3da7-4f70-878b-d3c47e67294e}</Project>
+      <Name>Constructor5.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
+      <Project>{c0f0f8a5-0f1d-47ca-a3d9-a58042374574}</Project>
+      <Name>Constructor5.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Elements\Constructor5.Elements.csproj">
+      <Project>{8cdaf7b3-75c2-4365-a29e-ba5d85bc24eb}</Project>
+      <Name>Constructor5.Elements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.InteractionTemplates\Constructor5.InteractionTemplates.csproj">
+      <Project>{64663fbd-015c-49e6-a7b7-b0eaca5d5ec1}</Project>
+      <Name>Constructor5.InteractionTemplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.LootActionTypes\Constructor5.LootActionTypes.csproj">
+      <Project>{5d5c551a-f4d0-4965-894f-cdb404666d52}</Project>
+      <Name>Constructor5.LootActionTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.SimFilterTypes\Constructor5.SimFilterTypes.csproj">
+      <Project>{dcc506f4-8e58-4f58-8662-156f8f93e16f}</Project>
+      <Name>Constructor5.SimFilterTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.SituationGoalTemplates\Constructor5.SituationGoalTemplates.csproj">
+      <Project>{b0b3cc1f-0dbe-4a47-80a5-dd459193cec9}</Project>
+      <Name>Constructor5.SituationGoalTemplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.SituationTemplates\Constructor5.SituationTemplates.csproj">
+      <Project>{04fdf334-0873-4a4b-bacf-ee632e6b33c3}</Project>
+      <Name>Constructor5.SituationTemplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.TestConditionTypes\Constructor5.TestConditionTypes.csproj">
+      <Project>{5a2fae23-9c84-408d-b637-42d843649929}</Project>
+      <Name>Constructor5.TestConditionTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.UI\Constructor5.UI.csproj">
+      <Project>{92267ec9-b06a-44ac-b383-f40c4d6a5755}</Project>
+      <Name>Constructor5.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Xml\Constructor5.Xml.csproj">
+      <Project>{bf050d2b-8934-4820-a298-749243cfb076}</Project>
+      <Name>Constructor5.Xml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5\Constructor5.csproj">
+      <Project>{8afd4531-4b69-42a6-aa95-37e8e527b058}</Project>
+      <Name>Constructor5</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

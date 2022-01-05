@@ -1,0 +1,142 @@
+﻿<UserControl x:Class="Constructor5.TestConditionTypes.Relationships.RelationshipConditionEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.TestConditionTypes.Relationships"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <ObjectDataProvider x:Key="TargetTypeDataProvider"
+                            MethodName="GetValues"
+                            ObjectType="{x:Type shared:EnumSelectorValueGetter}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:RelationshipConditionTarget" />
+                <shared:EnumSelectorReplaceDictionary>
+                    <system:String x:Key="AllRelationships">All Relationships</system:String>
+                </shared:EnumSelectorReplaceDictionary>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+    <StackPanel>
+        <shared:Field Label="Primary Participant" LabelWidth="150">
+            <shared:ParticipantControl Text="{Binding PrimaryParticipant}" />
+        </shared:Field>
+        <shared:Field Label="Target Type" LabelWidth="100">
+            <ComboBox IsEditable="False"
+                      ItemsSource="{Binding Source={StaticResource TargetTypeDataProvider}}"
+                      SelectedItem="{Binding TargetType, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource TargetTypeDataProvider}}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <ContentPresenter Content="{Binding DisplayText}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </shared:Field>
+        <StackPanel>
+            <shared:Field Label="Target Participant" LabelWidth="150">
+                <shared:ParticipantControl Text="{Binding TargetParticipant}" />
+            </shared:Field>
+            <StackPanel.Style>
+                <Style TargetType="{x:Type StackPanel}">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding TargetType}" Value="Participant">
+                            <Setter Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </StackPanel.Style>
+        </StackPanel>
+        <StackPanel>
+            <shared:Field Label="Number of Relationships" LabelWidth="175">
+                <StackPanel>
+                    <xctk:IntegerUpDown Minimum="0" Text="{Binding NumRelationshipsAll, UpdateSourceTrigger=PropertyChanged}" />
+                    <TextBlock FontStyle="Italic"
+                               TextWrapping="Wrap"
+                               Visibility="{Binding NumRelationships, Converter={StaticResource ZeroToVis}}">
+                        Setting this to 0 will make it so every other Sim that the Sim knows will need to pass the condition without exceptions. This is useful if you want to prohibit a Sim from having a certain type of relationship (for example, checking if a Sim is single).
+                    </TextBlock>
+                </StackPanel>
+            </shared:Field>
+            <StackPanel.Style>
+                <Style TargetType="{x:Type StackPanel}">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding TargetType}" Value="AllRelationships">
+                            <Setter Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </StackPanel.Style>
+        </StackPanel>
+        <StackPanel>
+            <Expander Header="Advanced Options">
+                <shared:Field Label="Number of Relationships" LabelWidth="175">
+                    <StackPanel>
+                        <xctk:IntegerUpDown Minimum="0" Text="{Binding NumRelationshipsParticipant, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBlock FontStyle="Italic" TextWrapping="Wrap">Used for participant types that contain multiple Sims, such as ActiveHousehold. Set to 0 to require all participants to pass.</TextBlock>
+                    </StackPanel>
+                </shared:Field>
+            </Expander>
+            <StackPanel.Style>
+                <Style TargetType="{x:Type StackPanel}">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding TargetType}" Value="Participant">
+                            <Setter Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </StackPanel.Style>
+        </StackPanel>
+        <TabControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+            <TabItem Header="Track">
+                <StackPanel>
+                    <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">Note: Track conditions are optional. The game will still check bit conditions even if the track is left undefined.</TextBlock>
+                    <shared:ReferenceControl ElementTypeName="RelationshipTrack" Reference="{Binding Track}" />
+                    <shared:Field Label="Track Bounds" LabelWidth="100">
+                        <shared:IntBoundsControl Bounds="{Binding TrackBounds}"
+                                                 Maximum="100"
+                                                 Minimum="-100" />
+                    </shared:Field>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Bits">
+                <StackPanel>
+                    <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">Note: Bit conditions are optional. The game will still check track conditions even if no bits are specified.</TextBlock>
+                    <TabControl>
+                        <TabItem Header="Required (Any)">
+                            <StackPanel>
+                                <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The condition will pass if the target has any of these bits.</TextBlock>
+                                <shared:ReferenceListControl ElementReferenceList="{Binding RequiredBitsAny}" ElementTypeName="RelBit" />
+                            </StackPanel>
+                        </TabItem>
+                        <TabItem Header="Required (All)">
+                            <StackPanel>
+                                <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The target will need to have all of these bits for the test to pass.</TextBlock>
+                                <shared:ReferenceListControl ElementReferenceList="{Binding RequiredBitsAll}" ElementTypeName="RelBit" />
+                            </StackPanel>
+                        </TabItem>
+                        <TabItem Header="Prohibited (Any)">
+                            <StackPanel>
+                                <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The condition will fail if the target has any of these bits.</TextBlock>
+                                <shared:ReferenceListControl ElementReferenceList="{Binding ProhibitedBitsAny}" ElementTypeName="RelBit" />
+                            </StackPanel>
+                        </TabItem>
+                        <TabItem Header="Prohibited (All)">
+                            <StackPanel>
+                                <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The condition will fail if the target has all of these bits, but will still pass if they have only some of them.</TextBlock>
+                                <shared:ReferenceListControl ElementReferenceList="{Binding ProhibitedBitsAll}" ElementTypeName="RelBit" />
+                            </StackPanel>
+                        </TabItem>
+                    </TabControl>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </StackPanel>
+</UserControl>

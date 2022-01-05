@@ -1,0 +1,141 @@
+﻿<UserControl x:Class="Constructor5.Elements.Objectives.ObjectiveEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:conditions="clr-namespace:Constructor5.Elements.TestConditions"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.Objectives"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <shared:SimpleAddToListCommand x:Key="AddConditionCommand" TypeName="TestConditionListItem" />
+        <shared:SimpleRemoveFromListCommand x:Key="RemoveConditionCommand" TypeName="TestConditionListItem" />
+
+        <ObjectDataProvider x:Key="DataProvider"
+                            MethodName="GetValues"
+                            ObjectType="{x:Type shared:EnumSelectorValueGetter}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:ObjectiveCompletionType" />
+                <shared:EnumSelectorReplaceDictionary>
+                    <system:String x:Key="BasedOnObjectiveType">Based on objective type</system:String>
+                    <system:String x:Key="Iterations">Iterations</system:String>
+                    <system:String x:Key="IterationsInSingleSituation">Iterations in a single situation</system:String>
+                    <system:String x:Key="UniqueLots">Unique Lots</system:String>
+                    <system:String x:Key="UniqueTargets">Unique Sims or Objects (not applicable to objective types that are not targetted)</system:String>
+                    <system:String x:Key="UniqueAreas">Unique Areas (the individual parts of a world)</system:String>
+                </shared:EnumSelectorReplaceDictionary>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+    <TabControl>
+        <TabItem Header="Main Content">
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                <shared:Field Label="Name" LabelWidth="150">
+                    <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding}" />
+                </shared:Field>
+                <shared:Field Label="ToolTip" LabelWidth="150">
+                    <shared:STBLStringControl Text="{Binding ToolTip}" />
+                </shared:Field>
+                <shared:Field Label="Satisfaction Points" LabelWidth="150">
+                    <xctk:IntegerUpDown Increment="50"
+                                        Minimum="0"
+                                        Text="{Binding SatisfactionPoints}" />
+                </shared:Field>
+                <shared:Field Label="Completion Type" LabelWidth="150">
+                    <ComboBox x:Name="CompletionTypeComboBox"
+                              IsEditable="False"
+                              ItemsSource="{Binding Source={StaticResource DataProvider}}"
+                              SelectedItem="{Binding CompletionType, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <ContentPresenter Content="{Binding DisplayText}" />
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </shared:Field>
+                <StackPanel>
+                    <StackPanel.Style>
+                        <Style TargetType="StackPanel">
+                            <Setter Property="Visibility" Value="Collapsed" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SelectedItem.Value, ElementName=CompletionTypeComboBox}" Value="BasedOnObjectiveType">
+                                    <Setter Property="Visibility" Value="Visible" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <CheckBox IsChecked="{Binding HomeLotOnly}">
+                        <StackPanel>
+                            <TextBlock Text="Only track on the Sim's home lot" />
+                            <TextBlock FontStyle="Italic" TextWrapping="Wrap">This is useful for creating objectives that check the value of the current lot, where you only want it to effect the Sim's home lot.</TextBlock>
+                        </StackPanel>
+                    </CheckBox>
+                </StackPanel>
+                <StackPanel>
+                    <StackPanel.Style>
+                        <Style TargetType="StackPanel">
+                            <Setter Property="Visibility" Value="Visible" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SelectedItem.Value, ElementName=CompletionTypeComboBox}" Value="BasedOnObjectiveType">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <shared:Field Label="Completion Type Value" LabelWidth="150">
+                        <xctk:IntegerUpDown Minimum="1" Text="{Binding CompletionTypeValue}" />
+                    </shared:Field>
+                </StackPanel>
+                <shared:Field Label="Primary Condition" LabelWidth="150">
+                    <shared:SelectableObjectControl EditorCategory="Default"
+                                                    Object="{Binding PrimaryCondition}"
+                                                    TypeRegistryCategory="ObjectiveConditionTypes" />
+                </shared:Field>
+            </StackPanel>
+        </TabItem>
+        <TabItem Header="Post Conditions">
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                <TextBlock Text="In addition to the primary condition, these conditions must pass for the objective (or an iteration of it) to count as completed." />
+                <StackPanel>
+                    <ItemsControl ItemsSource="{Binding PostConditions}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate DataType="{x:Type conditions:TestConditionListItem}">
+                                <shared:SelectableObjectControl DeleteCommand="{StaticResource RemoveConditionCommand}"
+                                                                EditorCategory="Default"
+                                                                Object="{Binding Condition}"
+                                                                ShowDeleteButton="True"
+                                                                Tag="{Binding}"
+                                                                TypeRegistryCategory="TestConditionTypes">
+                                    <shared:SelectableObjectControl.DeleteCommandParameter>
+                                        <MultiBinding Converter="{StaticResource MultiParamConverter}">
+                                            <Binding Path="." />
+                                            <Binding Path="ItemsSource" RelativeSource="{RelativeSource AncestorType={x:Type ItemsControl}}" />
+                                        </MultiBinding>
+                                    </shared:SelectableObjectControl.DeleteCommandParameter>
+                                </shared:SelectableObjectControl>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    <Button HorizontalAlignment="Left"
+                            Command="{StaticResource AddConditionCommand}"
+                            CommandParameter="{Binding PostConditions}"
+                            Content="Add Condition" />
+                </StackPanel>
+            </StackPanel>
+        </TabItem>
+        <TabItem Header="Advanced">
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                <CheckBox IsChecked="{Binding AlwaysTrack}">
+                    <StackPanel>
+                        <TextBlock Text="Always Track" />
+                        <TextBlock FontStyle="Italic" TextWrapping="Wrap">If checked, the objective will always be tracked in the background, regardless of context. If unchecked, the objective will only be tracked when it is unlocked by an aspiration or career.</TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </StackPanel>
+        </TabItem>
+    </TabControl>
+</UserControl>
