@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>s4pi.Extensions</name>
+    </assembly>
+    <members>
+        <member name="T:s4pi.Extensions.TGIN">
+            <summary>
+            A structure to manage conversion from <see cref="T:s4pi.Interfaces.AResourceKey"/> to
+            the standardised Sims3 resource export file name format.
+            </summary>
+            <seealso cref="T:s4pi.Extensions.ExtList"/>
+        </member>
+        <member name="F:s4pi.Extensions.TGIN.ResType">
+            <summary>
+            The Resource Type represented by this instance.
+            </summary>
+        </member>
+        <member name="F:s4pi.Extensions.TGIN.ResGroup">
+            <summary>
+            The Resource Group represented by this instance.
+            </summary>
+        </member>
+        <member name="F:s4pi.Extensions.TGIN.ResInstance">
+            <summary>
+            The Resource Instance ID represented by this instance.
+            </summary>
+        </member>
+        <member name="F:s4pi.Extensions.TGIN.ResName">
+            <summary>
+            The Resource Name (from the package name map, based on the IID) represented by this instance.
+            </summary>
+        </member>
+        <member name="M:s4pi.Extensions.TGIN.#ctor(s4pi.Interfaces.IResourceKey,System.String)">
+            <summary>
+            Instantiate a new <see cref="T:s4pi.Extensions.TGIN"/> based on the <see cref="T:s4pi.Interfaces.IResourceKey"/> and <paramref name="name"/>.
+            </summary>
+            <param name="rk">An <see cref="T:s4pi.Interfaces.IResourceKey"/>.</param>
+            <param name="name">A <see cref="T:System.String"/>, the name of the resource.</param>
+        </member>
+        <member name="M:s4pi.Extensions.TGIN.op_Implicit(s4pi.Interfaces.AResourceKey)~s4pi.Extensions.TGIN">
+            <summary>
+            Cast an <see cref="T:s4pi.Interfaces.AResourceKey"/> value to a <see cref="T:s4pi.Extensions.TGIN"/>.
+            </summary>
+            <param name="value">An <see cref="T:s4pi.Interfaces.AResourceKey"/> value.</param>
+            <returns>The equivalent <see cref="T:s4pi.Extensions.TGIN"/> (with no <see cref="F:s4pi.Extensions.TGIN.ResName"/>).</returns>
+        </member>
+        <member name="M:s4pi.Extensions.TGIN.op_Implicit(s4pi.Extensions.TGIN)~s4pi.Interfaces.AResourceKey">
+            <summary>
+            Cast a <see cref="T:s4pi.Extensions.TGIN"/> to an <see cref="T:s4pi.Interfaces.AResourceKey"/> value.
+            </summary>
+            <param name="value">A <see cref="T:s4pi.Extensions.TGIN"/>.</param>
+            <returns>The equivalent <see cref="T:s4pi.Interfaces.AResourceKey"/> value.</returns>
+        </member>
+        <member name="M:s4pi.Extensions.TGIN.op_Implicit(System.String)~s4pi.Extensions.TGIN">
+            <summary>
+            Casts a <see cref="T:System.String"/> to a <see cref="T:s4pi.Extensions.TGIN"/>.
+            <para>The string value is presumed to be in the standardised
+            Sims3 resource export file name format.</para>
+            </summary>
+            <param name="value">A string value is presumed to be in the standardised
+            Sims3 resource export file name format.</param>
+            <returns>The equivalent <see cref="T:s4pi.Extensions.TGIN"/> value.</returns>
+        </member>
+        <member name="M:s4pi.Extensions.TGIN.op_Implicit(s4pi.Extensions.TGIN)~System.String">
+            <summary>
+            Casts a <see cref="T:s4pi.Extensions.TGIN"/> to a <see cref="T:System.String"/> 
+            in the standardised Sims3 resource export file name format.
+            </summary>
+            <param name="value">A <see cref="T:s4pi.Extensions.TGIN"/>.</param>
+            <returns>A <see cref="T:System.String"/> in the standardised Sims3 resource export file name format.</returns>
+        </member>
+        <member name="M:s4pi.Extensions.TGIN.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> in the standardised Sims3 resource export file name format
+            equivalent to this instance.
+            </summary>
+            <returns>A <see cref="T:System.String"/> in the standardised Sims3 resource export file name format.</returns>
+        </member>
+        <member name="T:s4pi.Extensions.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:s4pi.Extensions.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:s4pi.Extensions.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:s4pi.Extensions.Properties.Resources.Extensions">
+             <summary>
+               Looks up a localized string similar to 0x00AE6C67  BONE   .skcon
+            0x00B2D882  _IMG   .dds
+            0x00B552EA  _SPT   .tree
+            0x010077BB  _AUD   .mp3
+            0x010077C4  _AUD   .wav
+            0x010077CA  _AUD   .xa
+            0x015A1849  GEOM   .simgeom
+            0x0166038C  _KEY   .keyname
+            0x01661233  MODL   .model
+            0x0175E5CD  SCPT   .oldscript
+            0x0181B0D2  _AUD   .abk
+            0x01A527DB  _AUD   .snr
+            0x01D0E75D  MATD   .material
+            0x01D10F34  MLOD   .lod
+            0x01EEF63A  _AUD   .sns
+            0x02019972  MTST   .mtst
+            0x021D7E8C  SPT2   .speedtree
+            0x022B756C  WRDH   .wdescnamehash
+            0x024A0E52  CNFG   .cf [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="T:s4pi.Extensions.ExtList">
+            <summary>
+            Provides a look-up from resource type to resource "tag" and file extension.
+            The collection is read-only.
+            </summary>
+            <seealso cref="T:s4pi.Extensions.TGIN"/>
+        </member>
+        <member name="P:s4pi.Extensions.ExtList.Ext">
+            <summary>
+            A look-up from resource type to resource &quot;tag&quot; and file extension.
+            The collection is read-only.
+            </summary>
+        </member>
+        <member name="P:s4pi.Extensions.ExtList.Item(System.UInt32)">
+            <summary>
+            Gets or sets the value associated with the specified key.
+            </summary>
+            <param name="key">The key of the value to get or set.</param>
+            <returns>The value associated with the specified key.
+            If the specified key is not found, returns a default value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is null.</exception>
+        </member>
+        <member name="P:s4pi.Extensions.ExtList.Item(System.String)">
+            <summary>
+            Gets or sets the value associated with the specified key.
+            </summary>
+            <param name="key">The key of the value to get or set.</param>
+            <returns>The value associated with the specified key.
+            If the specified key is not found, returns a default value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is null.</exception>
+            <exception cref="T:System.InvalidOperationException">An attempt was made to set a value.</exception>
+        </member>
+        <member name="T:s4pi.Extensions.FileNameConverter">
+            <summary>
+            Utility class to convert file names or paths in the TS4 resource name
+            convention to the s4pe convention.
+            </summary>
+        </member>
+        <member name="M:s4pi.Extensions.FileNameConverter.IsValidFileName(System.String)">
+            <summary>
+            Returns a value indicating whether the given <paramref name="path"/> is
+            a valid TS4 resource file name.
+            </summary>
+        </member>
+        <member name="M:s4pi.Extensions.FileNameConverter.ConvertToPackageManagerConvention(System.String)">
+            <summary>
+            Converts the specified TS4 file name or path to its s4pe equivalent.
+            </summary>
+        </member>
+    </members>
+</doc>

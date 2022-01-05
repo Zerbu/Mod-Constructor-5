@@ -54,34 +54,34 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DDSPanel">
-      <HintPath>..\..\..\Constructor5Proto\Constructor5Proto\bin\Debug\DDSPanel.dll</HintPath>
+      <HintPath>..\References\DDSPanel.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PropertyChanged, Version=3.4.0.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
       <HintPath>..\packages\PropertyChanged.Fody.3.4.0\lib\net40\PropertyChanged.dll</HintPath>
     </Reference>
     <Reference Include="s4pi.Extensions">
-      <HintPath>..\..\..\..\Programs\S4PE\s4pi.Extensions.dll</HintPath>
+      <HintPath>..\References\s4pi.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="s4pi.ImageResource">
-      <HintPath>..\..\..\..\Programs\S4PE\s4pi.ImageResource.dll</HintPath>
+      <HintPath>..\References\s4pi.ImageResource.dll</HintPath>
     </Reference>
     <Reference Include="s4pi.Interfaces">
-      <HintPath>..\..\..\..\Programs\S4PE\s4pi.Interfaces.dll</HintPath>
+      <HintPath>..\References\s4pi.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="s4pi.Package">
-      <HintPath>..\..\..\..\Programs\S4PE\s4pi.Package.dll</HintPath>
+      <HintPath>..\References\s4pi.Package.dll</HintPath>
     </Reference>
     <Reference Include="s4pi.Settings">
-      <HintPath>..\..\..\..\Programs\S4PE\s4pi.Settings.dll</HintPath>
+      <HintPath>..\References\s4pi.Settings.dll</HintPath>
     </Reference>
     <Reference Include="s4pi.StblResource">
-      <HintPath>..\..\..\..\Programs\S4PE\s4pi.StblResource.dll</HintPath>
+      <HintPath>..\References\s4pi.StblResource.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Custom">
-      <HintPath>..\..\..\..\Programs\S4PE\System.Custom.dll</HintPath>
+      <HintPath>..\References\System.Custom.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.IO.Compression.FileSystem" />
