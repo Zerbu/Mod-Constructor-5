@@ -1,7 +1,7 @@
 ﻿using Constructor5.Elements.Interactions.Mixer;
 using Constructor5.Elements.Interactions.Social;
 using Constructor5.Elements.TestConditions;
-using Constructor5.Xml;
+using Constructor5.Core;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 

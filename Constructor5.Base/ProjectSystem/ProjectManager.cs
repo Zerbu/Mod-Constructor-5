@@ -1,6 +1,5 @@
 ﻿using Constructor5.Base.ElementSystem;
 using Constructor5.Core;
-using Constructor5.Xml;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;

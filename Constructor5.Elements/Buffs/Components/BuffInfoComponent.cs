@@ -4,7 +4,7 @@ using Constructor5.Base.Icons;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.ExportSystem.TuningActions;
-using Constructor5.Xml;
+using Constructor5.Core;
 using System;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.Export;

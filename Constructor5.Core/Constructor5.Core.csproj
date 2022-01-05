@@ -72,6 +72,9 @@
     <Compile Include="IHook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection.cs" />
+    <Compile Include="XmlLoader.cs" />
+    <Compile Include="XmlSaver.cs" />
+    <Compile Include="XmlSerializerExtraTypeAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="FodyWeavers.xsd">

@@ -2,7 +2,7 @@
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
-using Constructor5.Xml;
+using Constructor5.Core;
 using System;
 
 namespace Constructor5.Elements.SituationGoals.Components

@@ -1,6 +1,5 @@
 ﻿using Constructor5.Base.ProjectSystem;
 using Constructor5.Core;
-using Constructor5.Xml;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;

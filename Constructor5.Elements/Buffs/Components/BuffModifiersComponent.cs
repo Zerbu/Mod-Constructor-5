@@ -1,7 +1,7 @@
 ﻿using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Elements.Buffs.Modifiers;
 using Constructor5.Elements.Traits;
-using Constructor5.Xml;
+using Constructor5.Core;
 using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.Buffs.Components

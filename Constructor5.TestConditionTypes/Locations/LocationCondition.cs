@@ -5,7 +5,7 @@ using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.TestConditions;
-using Constructor5.Xml;
+using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Locations
 {

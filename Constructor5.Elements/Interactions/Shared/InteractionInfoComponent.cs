@@ -6,7 +6,7 @@ using Constructor5.Elements.Interactions.Mixer;
 using Constructor5.Elements.Interactions.Shared;
 using Constructor5.Elements.Interactions.Social.ContextModifiers;
 using Constructor5.Elements.Traits.Components;
-using Constructor5.Xml;
+using Constructor5.Core;
 
 namespace Constructor5.Elements.Interactions.Social
 {

@@ -4,7 +4,7 @@ using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.LootActionSets;
 using Constructor5.Elements.TestConditions;
-using Constructor5.Xml;
+using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Traits
 {

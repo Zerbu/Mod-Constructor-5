@@ -2,7 +2,7 @@
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Elements.Traits;
-using Constructor5.Xml;
+using Constructor5.Core;
 
 namespace Constructor5.Elements.Buffs.Components
 {

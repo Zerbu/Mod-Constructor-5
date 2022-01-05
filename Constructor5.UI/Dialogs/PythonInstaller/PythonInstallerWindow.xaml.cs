@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Windows;
 
-namespace Constructor5.UI.PythonInstaller
+namespace Constructor5.UI.Dialogs.PythonInstaller
 {
     /// <summary>
     /// Interaction logic for PythonInstallerWindow.xaml

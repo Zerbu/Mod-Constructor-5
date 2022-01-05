@@ -1,4 +1,4 @@
-﻿using Constructor5.Xml;
+﻿using Constructor5.Core;
 
 namespace Constructor5.Elements.SituationGoals.Templates
 {

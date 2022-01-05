@@ -3,9 +3,8 @@ using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ProjectSystem;
 using Constructor5.Base.Python;
 using Constructor5.Core;
+using Constructor5.UI.Dialogs.PythonInstaller;
 using Constructor5.UI.Main;
-using Constructor5.UI.PythonInstaller;
-using System.Diagnostics;
 using System.Windows;
 
 namespace Constructor5.UI.Launcher

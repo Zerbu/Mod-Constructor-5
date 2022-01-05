@@ -80,6 +80,10 @@
       <Project>{F6468A79-3DA7-4F70-878B-D3C47E67294E}</Project>
       <Name>Constructor5.Base</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
+      <Project>{c0f0f8a5-0f1d-47ca-a3d9-a58042374574}</Project>
+      <Name>Constructor5.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Constructor5.Elements\Constructor5.Elements.csproj">
       <Project>{8CDAF7B3-75C2-4365-A29E-BA5D85BC24EB}</Project>
       <Name>Constructor5.Elements</Name>
@@ -87,10 +91,6 @@
     <ProjectReference Include="..\Constructor5.UI\Constructor5.UI.csproj">
       <Project>{92267EC9-B06A-44AC-B383-F40C4D6A5755}</Project>
       <Name>Constructor5.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.Xml\Constructor5.Xml.csproj">
-      <Project>{BF050D2B-8934-4820-A298-749243CFB076}</Project>
-      <Name>Constructor5.Xml</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

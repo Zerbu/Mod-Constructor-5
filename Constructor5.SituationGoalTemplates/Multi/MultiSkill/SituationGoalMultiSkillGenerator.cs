@@ -3,7 +3,7 @@ using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.SituationGoals;
 using Constructor5.Elements.SituationGoals.Templates;
-using Constructor5.Xml;
+using Constructor5.Core;
 using System.Collections.Generic;
 
 namespace Constructor5.SituationGoalTemplates.Multi.MultiSkill

@@ -1,4 +1,4 @@
-﻿using Constructor5.Xml;
+﻿using Constructor5.Core;
 using System;
 
 namespace Constructor5.Elements.LootActionSets

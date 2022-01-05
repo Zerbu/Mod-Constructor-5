@@ -1,6 +1,6 @@
 ﻿using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Elements.Interactions.Shared;
-using Constructor5.Xml;
+using Constructor5.Core;
 
 namespace Constructor5.Elements.Interactions.Mixer
 {

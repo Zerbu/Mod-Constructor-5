@@ -95,7 +95,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Autosave\IAutosavableObject.cs" />
     <Compile Include="ComponentSystem\ElementComponent.cs" />
     <Compile Include="ComponentSystem\IComponentDisplayOrder.cs" />
     <Compile Include="ComponentSystem\IElementComponent.cs" />
@@ -225,10 +224,6 @@
     <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
       <Project>{c0f0f8a5-0f1d-47ca-a3d9-a58042374574}</Project>
       <Name>Constructor5.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.Xml\Constructor5.Xml.csproj">
-      <Project>{BF050D2B-8934-4820-A298-749243CFB076}</Project>
-      <Name>Constructor5.Xml</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

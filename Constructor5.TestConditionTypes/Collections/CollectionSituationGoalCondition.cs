@@ -1,6 +1,6 @@
 ﻿using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.TestConditions;
-using Constructor5.Xml;
+using Constructor5.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;

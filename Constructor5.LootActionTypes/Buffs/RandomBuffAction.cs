@@ -8,7 +8,7 @@ using Constructor5.Elements.Buffs.References;
 using Constructor5.Elements.LootActionSets;
 using Constructor5.Elements.TestConditions;
 using Constructor5.TestConditionTypes.Buffs;
-using Constructor5.Xml;
+using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Buffs
 {

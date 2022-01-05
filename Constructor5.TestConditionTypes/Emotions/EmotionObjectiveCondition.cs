@@ -1,5 +1,5 @@
 ﻿using Constructor5.Base.SelectableObjects;
-using Constructor5.Xml;
+using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Emotions
 {

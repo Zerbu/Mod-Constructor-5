@@ -1,7 +1,6 @@
 ﻿using Constructor5.Base.CustomTuning;
 using Constructor5.Base.Export;
-using Constructor5.Base.ExportSystem.Tuning;
-using Constructor5.Xml;
+using Constructor5.Core;
 using ICSharpCode.AvalonEdit.Folding;
 using System.IO;
 using System.Text;

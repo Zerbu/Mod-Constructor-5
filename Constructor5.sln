@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.Base", "Constr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.Core", "Constructor5.Core\Constructor5.Core.csproj", "{C0F0F8A5-0F1D-47CA-A3D9-A58042374574}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.Xml", "Constructor5.Xml\Constructor5.Xml.csproj", "{BF050D2B-8934-4820-A298-749243CFB076}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.Elements", "Constructor5.Elements\Constructor5.Elements.csproj", "{8CDAF7B3-75C2-4365-A29E-BA5D85BC24EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.TestConditionTypes", "Constructor5.TestConditionTypes\Constructor5.TestConditionTypes.csproj", "{5A2FAE23-9C84-408D-B637-42D843649929}"
@@ -21,9 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.InteractionTem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.LootActionTypes", "Constructor5.LootActionTypes\Constructor5.LootActionTypes.csproj", "{5D5C551A-F4D0-4965-894F-CDB404666D52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.TuningConverter", "Constructor5.TuningConverter\Constructor5.TuningConverter.csproj", "{972722FD-46AC-493E-BB29-9ED3F0858B30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.DebugTools.TuningConverter", "Constructor5.TuningConverter\Constructor5.DebugTools.TuningConverter.csproj", "{972722FD-46AC-493E-BB29-9ED3F0858B30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.FormGenerator", "Constructor5.FormGenerator\Constructor5.FormGenerator.csproj", "{2B92541B-D976-417A-8B44-AD84FB775B54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.DebugTools.FormGenerator", "Constructor5.FormGenerator\Constructor5.DebugTools.FormGenerator.csproj", "{2B92541B-D976-417A-8B44-AD84FB775B54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{EC3CAD67-CAC1-4BD0-8566-DF2492547CD3}"
 EndProject
@@ -33,7 +31,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{52B09123
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.SituationTemplates", "Constructor5.SituationTemplates\Constructor5.SituationTemplates.csproj", "{04FDF334-0873-4A4B-BACF-EE632E6B33C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.ObjectFromTDescConverter", "Constructor5.ObjectFromTDescConverter\Constructor5.ObjectFromTDescConverter.csproj", "{C83D9C73-B38A-469D-BC0C-F332C66B8BCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.DebugTools.ObjectFromTDescConverter", "Constructor5.ObjectFromTDescConverter\Constructor5.DebugTools.ObjectFromTDescConverter.csproj", "{C83D9C73-B38A-469D-BC0C-F332C66B8BCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.SimFilterTypes", "Constructor5.SimFilterTypes\Constructor5.SimFilterTypes.csproj", "{DCC506F4-8E58-4F58-8662-156F8F93E16F}"
 EndProject
@@ -79,14 +77,6 @@ Global
 		{C0F0F8A5-0F1D-47CA-A3D9-A58042374574}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C0F0F8A5-0F1D-47CA-A3D9-A58042374574}.Release|x64.ActiveCfg = Release|x64
 		{C0F0F8A5-0F1D-47CA-A3D9-A58042374574}.Release|x64.Build.0 = Release|x64
-		{BF050D2B-8934-4820-A298-749243CFB076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF050D2B-8934-4820-A298-749243CFB076}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF050D2B-8934-4820-A298-749243CFB076}.Debug|x64.ActiveCfg = Debug|x64
-		{BF050D2B-8934-4820-A298-749243CFB076}.Debug|x64.Build.0 = Debug|x64
-		{BF050D2B-8934-4820-A298-749243CFB076}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF050D2B-8934-4820-A298-749243CFB076}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF050D2B-8934-4820-A298-749243CFB076}.Release|x64.ActiveCfg = Release|x64
-		{BF050D2B-8934-4820-A298-749243CFB076}.Release|x64.Build.0 = Release|x64
 		{8CDAF7B3-75C2-4365-A29E-BA5D85BC24EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8CDAF7B3-75C2-4365-A29E-BA5D85BC24EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CDAF7B3-75C2-4365-A29E-BA5D85BC24EB}.Debug|x64.ActiveCfg = Debug|x64
@@ -176,7 +166,6 @@ Global
 		{92267EC9-B06A-44AC-B383-F40C4D6A5755} = {EC3CAD67-CAC1-4BD0-8566-DF2492547CD3}
 		{F6468A79-3DA7-4F70-878B-D3C47E67294E} = {EC3CAD67-CAC1-4BD0-8566-DF2492547CD3}
 		{C0F0F8A5-0F1D-47CA-A3D9-A58042374574} = {EC3CAD67-CAC1-4BD0-8566-DF2492547CD3}
-		{BF050D2B-8934-4820-A298-749243CFB076} = {EC3CAD67-CAC1-4BD0-8566-DF2492547CD3}
 		{8CDAF7B3-75C2-4365-A29E-BA5D85BC24EB} = {02BDAF7E-804E-4BFC-821D-C4DD63D84586}
 		{5A2FAE23-9C84-408D-B637-42D843649929} = {02BDAF7E-804E-4BFC-821D-C4DD63D84586}
 		{64663FBD-015C-49E6-A7B7-B0EACA5D5EC1} = {02BDAF7E-804E-4BFC-821D-C4DD63D84586}
