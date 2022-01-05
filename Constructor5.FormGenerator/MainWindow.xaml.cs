@@ -6,14 +6,11 @@ using System;
 using System.Text;
 using System.Windows;
 
-namespace Constructor5.FormGenerator
+namespace Constructor5.DebugTools.FormGenerator
 {
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        public MainWindow() => InitializeComponent();
 
         protected string GenerateType(Type type)
         {

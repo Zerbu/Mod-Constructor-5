@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows;
 
-namespace Constructor5.TuningConverter
+namespace Constructor5.DebugTools.TuningConverter
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

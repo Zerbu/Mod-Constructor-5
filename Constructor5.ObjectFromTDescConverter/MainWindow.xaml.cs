@@ -1,16 +1,13 @@
 ﻿using System.Windows;
 
-namespace Constructor5.ObjectFromTDescConverter
+namespace Constructor5.DebugTools.ObjectFromTDescConverter
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        public MainWindow() => InitializeComponent();
 
         private void ClipboardButton_Click(object sender, RoutedEventArgs e)
         {
