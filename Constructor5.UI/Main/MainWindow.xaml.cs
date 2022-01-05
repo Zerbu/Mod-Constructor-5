@@ -84,5 +84,8 @@ namespace Constructor5.UI.Main
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) => ElementSaver.SaveScheduled();
+
+        private void IssuesButton_Click(object sender, RoutedEventArgs e)
+            => System.Diagnostics.Process.Start("https://github.com/Zerbu/Mod-Constructor-5/issues");
     }
 }

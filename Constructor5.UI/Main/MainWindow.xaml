@@ -57,6 +57,20 @@
                     </ListView.ItemTemplate>
                 </ListView>
                 <StackPanel Grid.Row="1" Margin="{StaticResource Constructor.BigPadding}">
+                    <Button x:Name="IssuesButton"
+                            HorizontalAlignment="Left"
+                            Click="IssuesButton_Click"
+                            Style="{StaticResource Constructor.PlainButtonStyle}"
+                            ToolTip="Report a Bug">
+                        <Button.Content>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Width="25"
+                                       Height="25"
+                                       Source="pack://siteoforigin:,,,/Images/BugIcon.png" />
+                                <TextBlock VerticalAlignment="Center" Text="Report a Bug" />
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
                     <Button HorizontalAlignment="Left"
                             Command="{StaticResource ElementAddCommand}"
                             Style="{StaticResource Constructor.PlainButtonStyle}"

@@ -17,7 +17,7 @@
         <StackPanel>
             <TextBlock x:Name="TextBlock"
                        Margin="{StaticResource Constructor.BigPadding}"
-                       Text="Mod Constructor has encountered a programming error."
+                       Text="Mod Constructor has encountered an unexpected error."
                        TextWrapping="Wrap" />
             <TextBox x:Name="ErrorTextBox"
                      MaxHeight="200"
@@ -25,6 +25,13 @@
                      AcceptsTab="True"
                      TextWrapping="Wrap"
                      VerticalScrollBarVisibility="Auto" />
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                <TextBlock HorizontalAlignment="Left" Text="If you think this is a bug, please report it on GitHub." />
+                <Button x:Name="ReportButton"
+                        HorizontalAlignment="Left"
+                        Click="ReportButton_Click"
+                        Content="Report Bug" />
+            </StackPanel>
         </StackPanel>
     </Border>
 </Window>

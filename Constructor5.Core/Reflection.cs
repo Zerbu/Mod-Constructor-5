@@ -111,11 +111,11 @@ namespace Constructor5.Core
             {
                 result.AddRange(Directory.GetFiles("Plugins", "*.dll").Select(file => Assembly.LoadFrom(Path.GetFullPath(file))));
             }
-            else
+            /*else
             {
-                var mainAssemblyDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location.Replace("Constructor5.FormGenerator", "Constructor5"));
+                var mainAssemblyDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location.Replace("Constructor5.DebugTools.FormGenerator", "Constructor5"));
                 result.AddRange(Directory.GetFiles($"{mainAssemblyDirectory}/Plugins", "*.dll").Select(file => Assembly.LoadFrom(Path.GetFullPath(file))));
-            }
+            }*/
 
             return result;
         }

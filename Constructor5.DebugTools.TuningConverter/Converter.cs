@@ -3,7 +3,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml;
 
-namespace Constructor5.TuningConverter
+namespace Constructor5.DebugTools.TuningConverter
 {
     public class Converter
     {

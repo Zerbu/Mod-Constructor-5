@@ -20,5 +20,8 @@ namespace Constructor5.UI.Dialogs.ExceptionDialog
             }
             dialog.ShowDialog();
         }
+
+        private void ReportButton_Click(object sender, RoutedEventArgs e)
+        => System.Diagnostics.Process.Start("https://github.com/Zerbu/Mod-Constructor-5/issues");
     }
 }

@@ -3,7 +3,7 @@ using System.IO;
 using System.Text;
 using System.Xml;
 
-namespace Constructor5.ObjectFromTDescConverter
+namespace Constructor5.DebugTools.ObjectFromTDescConverter
 {
     public class Converter
     {
