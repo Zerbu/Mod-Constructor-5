@@ -1,4 +1,5 @@
 Download the latest version from Releases: https://github.com/Zerbu/Mod-Constructor-5/releases
+
 If you discover any bugs, please report them here: https://github.com/Zerbu/Mod-Constructor-5/issues
 
 # The Sims 4 Mod Constructor V5
