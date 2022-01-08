@@ -16,7 +16,7 @@ namespace Constructor5.Elements.Interactions.Mixer
             DependencyProperty.Register("LockOutComponent", typeof(InteractionLockOutComponent), typeof(MixerInteractionMiniEditor), new PropertyMetadata(null));
 
         public static readonly DependencyProperty TemplateComponentProperty =
-                    DependencyProperty.Register("TemplateComponent", typeof(InteractionTemplateComponent), typeof(MixerInteractionMiniEditor), new PropertyMetadata(null));
+                    DependencyProperty.Register("TemplateComponent", typeof(MixerInteractionTemplateComponent), typeof(MixerInteractionMiniEditor), new PropertyMetadata(null));
 
         public MixerInteractionMiniEditor() => InitializeComponent();
 
@@ -32,9 +32,9 @@ namespace Constructor5.Elements.Interactions.Mixer
             set { SetValue(LockOutComponentProperty, value); }
         }
 
-        public InteractionTemplateComponent TemplateComponent
+        public MixerInteractionTemplateComponent TemplateComponent
         {
-            get => (InteractionTemplateComponent)GetValue(TemplateComponentProperty);
+            get => (MixerInteractionTemplateComponent)GetValue(TemplateComponentProperty);
             set => SetValue(TemplateComponentProperty, value);
         }
 
@@ -43,7 +43,7 @@ namespace Constructor5.Elements.Interactions.Mixer
             DataContext = obj;
             var interaction = (MixerInteraction)obj;
             InfoComponent = interaction.GetComponent<InteractionInfoComponent>();
-            TemplateComponent = interaction.GetComponent<InteractionTemplateComponent>();
+            TemplateComponent = interaction.GetComponent<MixerInteractionTemplateComponent>();
             LockOutComponent = interaction.GetComponent<InteractionLockOutComponent>();
         }
 

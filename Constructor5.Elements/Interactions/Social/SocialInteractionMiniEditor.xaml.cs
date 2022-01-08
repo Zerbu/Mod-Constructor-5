@@ -11,7 +11,7 @@ namespace Constructor5.Elements.Interactions.Social
             DependencyProperty.Register("SIInfoComponent", typeof(InteractionInfoComponent), typeof(SocialInteractionMiniEditor), new PropertyMetadata(null));
 
         public static readonly DependencyProperty SITemplateComponentProperty =
-            DependencyProperty.Register("SITemplateComponent", typeof(InteractionTemplateComponent), typeof(SocialInteractionMiniEditor), new PropertyMetadata(null));
+            DependencyProperty.Register("SITemplateComponent", typeof(SocialInteractionTemplateComponent), typeof(SocialInteractionMiniEditor), new PropertyMetadata(null));
 
         public SocialInteractionMiniEditor() => InitializeComponent();
 
@@ -21,9 +21,9 @@ namespace Constructor5.Elements.Interactions.Social
             set => SetValue(SIInfoComponentProperty, value);
         }
 
-        public InteractionTemplateComponent SITemplateComponent
+        public SocialInteractionTemplateComponent SITemplateComponent
         {
-            get => (InteractionTemplateComponent)GetValue(SITemplateComponentProperty);
+            get => (SocialInteractionTemplateComponent)GetValue(SITemplateComponentProperty);
             set => SetValue(SITemplateComponentProperty, value);
         }
 
@@ -32,7 +32,7 @@ namespace Constructor5.Elements.Interactions.Social
             DataContext = obj;
             var interaction = (SocialInteraction)obj;
             SIInfoComponent = interaction.GetComponent<InteractionInfoComponent>();
-            SITemplateComponent = interaction.GetComponent<InteractionTemplateComponent>();
+            SITemplateComponent = interaction.GetComponent<SocialInteractionTemplateComponent>();
         }
     }
 }

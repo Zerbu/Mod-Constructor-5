@@ -8,7 +8,7 @@ namespace Constructor5.Elements.UI.Interactions.Social
     /// <summary>
     /// Interaction logic for SocialInteractionTemplateEditor.xaml
     /// </summary>
-    [ObjectEditor(typeof(InteractionTemplateComponent))]
+    [ObjectEditor(typeof(SocialInteractionTemplateComponent))]
     public partial class InteractionTemplateEditor : UserControl, IObjectEditor
     {
         public InteractionTemplateEditor() => InitializeComponent();
@@ -21,7 +21,7 @@ namespace Constructor5.Elements.UI.Interactions.Social
 
         private void SetRegistryType(object obj, SelectableObjectControl selectableObjectControl)
         {
-            var element = ((InteractionTemplateComponent)obj).Element;
+            var element = ((SocialInteractionTemplateComponent)obj).Element;
 
             if (element is MixerInteraction)
             {

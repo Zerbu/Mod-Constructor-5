@@ -242,12 +242,13 @@
     <Compile Include="Interactions\Mixer\MixerInteractionSpecialCasesEditor.xaml.cs">
       <DependentUpon>MixerInteractionSpecialCasesEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Interactions\Mixer\MixerInteractionTemplateComponent.cs" />
+    <Compile Include="Interactions\Mixer\MixerInteractionTemplateEditor.xaml.cs">
+      <DependentUpon>MixerInteractionTemplateEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Interactions\PieMenuCategories\PieMenuCategory.cs" />
     <Compile Include="Interactions\Shared\DefaultInteractionTemplate.cs" />
     <Compile Include="Interactions\Shared\InteractionConditionsComponent.cs" />
-    <Compile Include="Interactions\Shared\InteractionConditionsEditor.xaml.cs">
-      <DependentUpon>InteractionConditionsEditor.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Interactions\Shared\InteractionElement.cs" />
     <Compile Include="Interactions\Shared\InteractionExportContext.cs" />
     <Compile Include="Interactions\Shared\InteractionLockOutComponent.cs" />
@@ -259,6 +260,7 @@
     <Compile Include="Interactions\Shared\InteractionInfoEditor.xaml.cs">
       <DependentUpon>InteractionInfoEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Interactions\Shared\InteractionTemplateComponentBase.cs" />
     <Compile Include="Interactions\Social\SocialInteractionComponentAttribute.cs" />
     <Compile Include="Interactions\Social\SocialInteractionEditor.xaml.cs">
       <DependentUpon>SocialInteractionEditor.xaml</DependentUpon>
@@ -267,8 +269,8 @@
     <Compile Include="Interactions\Social\SocialInteractionMiniEditor.xaml.cs">
       <DependentUpon>SocialInteractionMiniEditor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Interactions\Shared\InteractionTemplateEditor.xaml.cs">
-      <DependentUpon>InteractionTemplateEditor.xaml</DependentUpon>
+    <Compile Include="Interactions\Social\SocialInteractionTemplateEditor.xaml.cs">
+      <DependentUpon>SocialInteractionTemplateEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="LikesDislikes\LikeDislike.cs" />
     <Compile Include="LikesDislikes\LikeDislikeEditor.xaml.cs">
@@ -312,7 +314,7 @@
     <Compile Include="Rewards\RewardItem.cs" />
     <Compile Include="Rewards\RewardSet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Interactions\Shared\InteractionTemplateComponent.cs" />
+    <Compile Include="Interactions\Social\SocialInteractionTemplateComponent.cs" />
     <Compile Include="Interactions\Social\SocialInteraction.cs" />
     <Compile Include="Interactions\Shared\InteractionComponent.cs" />
     <Compile Include="Rewards\RewardSetEditor.xaml.cs">
@@ -599,7 +601,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Interactions\Shared\InteractionConditionsEditor.xaml">
+    <Page Include="Interactions\Mixer\MixerInteractionTemplateEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -619,7 +621,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Interactions\Shared\InteractionTemplateEditor.xaml">
+    <Page Include="Interactions\Social\SocialInteractionTemplateEditor.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

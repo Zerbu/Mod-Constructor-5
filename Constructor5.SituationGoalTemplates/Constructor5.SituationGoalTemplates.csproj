@@ -86,10 +86,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Multi\MultiSkill\SituationGoalMultiSkillGenerator.cs" />
-    <Compile Include="Multi\MultiSkill\SituationGoalMultiSkillGeneratorEditor.xaml.cs">
-      <DependentUpon>SituationGoalMultiSkillGeneratorEditor.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -131,10 +127,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Multi\MultiSkill\SituationGoalMultiSkillGeneratorEditor.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Single\SituationGoalActorEditor.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

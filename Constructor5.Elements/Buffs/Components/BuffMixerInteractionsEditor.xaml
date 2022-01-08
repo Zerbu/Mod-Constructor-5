@@ -7,12 +7,14 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <StackPanel>
-        <TextBlock Margin="{StaticResource Constructor.BigPaddingMinusTop}" TextWrapping="Wrap">Mixer interactions are &quot;idles&quot; that can be performed while the Sim has the trait or buff. By default, these interactions are hidden from the player and can only be performed autonomously. A common use of these interactions is to use lock out times to run an action at a random interval (emotional buffs added by EA traits, like &quot;Feeling Sad&quot;, are added using Mixer Interactions).</TextBlock>
-        <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingMinusTop}"
-                                     CreateElementFunction="ReferenceListControl_CreateElementFunction"
-                                     ElementReferenceList="{Binding MixerInteractions}"
-                                     ElementTypeName="MixerInteraction"
-                                     ShowCreateButton="True" />
-    </StackPanel>
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock Margin="{StaticResource Constructor.BigPaddingMinusTop}" TextWrapping="Wrap">Mixer interactions are &quot;idles&quot; that can be performed while the Sim has the trait or buff. By default, these interactions are hidden from the player and can only be performed autonomously. A common use of these interactions is to use lock out times to run an action at a random interval (emotional buffs added by EA traits, like &quot;Feeling Sad&quot;, are added using Mixer Interactions). Warning: Setting the lock out time too low can cause simulation lag.</TextBlock>
+            <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingMinusTop}"
+                                         CreateElementFunction="ReferenceListControl_CreateElementFunction"
+                                         ElementReferenceList="{Binding MixerInteractions}"
+                                         ElementTypeName="MixerInteraction"
+                                         ShowCreateButton="True" />
+        </StackPanel>
+    </ScrollViewer>
 </UserControl>

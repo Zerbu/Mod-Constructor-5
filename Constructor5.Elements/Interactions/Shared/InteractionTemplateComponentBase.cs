@@ -1,16 +1,11 @@
 ﻿using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.ExportSystem.TuningActions;
-using Constructor5.Elements.Interactions.Mixer;
-using Constructor5.Elements.Interactions.Shared;
+using Constructor5.Elements.Interactions.Social;
 using Constructor5.Elements.Interactions.Social.ContextModifiers;
-using Constructor5.Core;
 
-namespace Constructor5.Elements.Interactions.Social
+namespace Constructor5.Elements.Interactions.Shared
 {
-    [XmlSerializerExtraType]
-    [SocialInteractionComponent]
-    [MixerInteractionComponent]
-    public class InteractionTemplateComponent : InteractionComponent
+    public abstract class InteractionTemplateComponentBase : InteractionComponent
     {
         public override int ComponentDisplayOrder => 2;
         public override string ComponentLabel => "Main Content";

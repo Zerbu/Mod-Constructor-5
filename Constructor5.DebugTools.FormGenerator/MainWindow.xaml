@@ -4,20 +4,25 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
-        mc:Ignorable="d"
-        Title="The Sims 4 Mod Constructor (V5)" Height="600" Width="800"
-        WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow">
+        Title="The Sims 4 Mod Constructor (V5)"
+        Width="800"
+        Height="600"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="ToolWindow"
+        mc:Ignorable="d">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <StackPanel>
-            <shared:Field LabelWidth="200" Label="Type Name">
+            <shared:Field Label="Type Name" LabelWidth="200">
                 <TextBox x:Name="TypeNameTextBox" />
             </shared:Field>
-            <Button x:Name="GenerateButton" Click="GenerateButton_Click" Content="Generate" />
+            <Button x:Name="GenerateButton"
+                    Click="GenerateButton_Click"
+                    Content="Generate" />
         </StackPanel>
-        <TextBox Grid.Row="1" x:Name="ResultTextBox" />
+        <TextBox x:Name="ResultTextBox" Grid.Row="1" />
     </Grid>
 </Window>
