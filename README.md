@@ -1,8 +1,13 @@
 Download the latest version from Releases: https://github.com/Zerbu/Mod-Constructor-5/releases
+
 If you discover any bugs, please report them here: https://github.com/Zerbu/Mod-Constructor-5/issues
 
 # The Sims 4 Mod Constructor V5
 The Sims 4 Mod Constructor is a downloadable program that allows users to create mods for The Sims 4 in a user-friendly environment. The current (alpha) release supports traits, social interactions and custom whims. Version 5 is easier to use than ever!
+
+![MC5-Screenshot1](https://user-images.githubusercontent.com/1247536/148651277-7400c0ce-49c3-4fae-bf8d-10748bab507c.png)
+![MC5-Screenshot2](https://user-images.githubusercontent.com/1247536/148651278-e22588c5-42c8-4b74-b8a8-535352b89709.png)
+![MC5-Screenshot4](https://user-images.githubusercontent.com/1247536/148651280-e3c2fe9f-7e6e-455f-b7fa-b95586d0f77f.png)
 
 ## Changes from Version 4
 * Every feature has its own UI! Features that were confusing in version 4 have been made to be more user friendly.
@@ -20,4 +25,4 @@ The Sims 4 Mod Constructor is a downloadable program that allows users to create
 **Download the latest version from Releases: https://github.com/Zerbu/Mod-Constructor-5/releases**
 
 ### Source Code
-You can download the source code from this page. Mod Constructor V5 was last updated and compiled using Visual Studio 2022, so it's recommended you use that. If you decide to use an older version, or another program, you do so at your own risk. **If you have trouble getting it to compile, try setting the platform from "Any CPU" to "x64".**
+You can download the source code from this page. Mod Constructor V5 was last updated and compiled using Visual Studio 2022, so it's recommended you use that. If you decide to use an older version, or another program, you do so at your own risk. **If you have trouble getting it to compile, try changing the platform from "Any CPU" to "x64".**
