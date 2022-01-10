@@ -9,6 +9,8 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <shared:ReferenceControl ElementTypeName="Trait" Reference="{Binding Trait}" />
+        <shared:ReferenceControl ElementTypeName="Trait"
+                                 Reference="{Binding Trait}"
+                                 ShowCreateButton="True" />
     </StackPanel>
 </UserControl>

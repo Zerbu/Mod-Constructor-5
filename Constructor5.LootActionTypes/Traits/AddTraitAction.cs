@@ -8,7 +8,7 @@ using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Traits
 {
-    //[SelectableObjectType("LootActionTypes", "Traits: Add Trait")]
+    [SelectableObjectType("LootActionTypes", "Traits: Add Trait")]
     [XmlSerializerExtraType]
     public class AddTraitAction : LootAction
     {

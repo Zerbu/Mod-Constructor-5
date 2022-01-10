@@ -44,7 +44,11 @@ namespace Constructor5.Elements
             tuning.InstanceType = "trait";
             tuning.Module = "traits.traits";
 
-            tuning.SimDataHandler = new SimDataHandler("SimData/Trait.data");
+            var infoComponent = GetTraitComponent<TraitInfoComponent>();
+
+            tuning.SimDataHandler = infoComponent.TraitType == TraitTypes.Personality
+                ? new SimDataHandler("SimData/Trait.data")
+                : new SimDataHandler("SimData/TraitGameplay.data");
 
             var context = new TraitExportContext()
             {

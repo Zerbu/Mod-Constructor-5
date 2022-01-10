@@ -10,83 +10,121 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <ScrollViewer>
-        <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <CheckBox Content="Is Goaled Event" IsChecked="{Binding IsGoaledEvent}" />
+        <StackPanel>
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                <TextBlock Text="Please note: if a goaled social event is started by a Sim with the Perfect Host aspiration reward trait, or a Sim with Great or Pristine reputation, the event will automatically skip to bronze. The game's code does not contain an option to disable this. Keep this in mind when creating the event." TextWrapping="Wrap" />
+            </StackPanel>
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                <CheckBox Content="Is Goaled Event" IsChecked="{Binding IsGoaledEvent}" />
 
-            <TabControl>
-                <TabItem Header="Goals">
-                    <TabControl>
-                        <TabItem Header="Goal Sets">
-                            <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                         ElementReferenceList="{Binding GoalSets}"
-                                                         ElementTypeName="SituationGoalSet"
-                                                         ShowCreateButton="True" />
-                        </TabItem>
-                        <TabItem Header="Main Goal">
-                            <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                                         EditorCategory="ElementMini"
-                                                                         ElementTypeName="SituationGoal"
-                                                                         Reference="{Binding MainGoal}" />
-                        </TabItem>
-                    </TabControl>
-                </TabItem>
-                <TabItem Header="Rewards">
-                    <TabControl>
-                        <TabItem Header="Bronze Reward">
-                            <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                                         EditorTag="NoUI"
-                                                                         ElementTypeName="RewardSet"
-                                                                         Reference="{Binding BronzeReward}" />
-                        </TabItem>
-                        <TabItem Header="Silver Reward">
-                            <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                                         EditorTag="NoUI"
-                                                                         ElementTypeName="RewardSet"
-                                                                         Reference="{Binding SilverReward}" />
-                        </TabItem>
-                        <TabItem Header="Gold Reward">
-                            <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                                         ElementTypeName="RewardSet"
-                                                                         Reference="{Binding GoldReward}" />
-                        </TabItem>
-                    </TabControl>
-                </TabItem>
-                <TabItem Header="Settings">
-                    <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                <TabControl Visibility="{Binding IsGoaledEvent, Converter={StaticResource BoolToVis}}">
+                    <TabItem Header="Goals">
+                        <TabControl>
+                            <TabItem Header="Goal Sets">
+                                <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                                             ElementReferenceList="{Binding GoalSets}"
+                                                             ElementTypeName="SituationGoalSet"
+                                                             ShowCreateButton="True" />
+                            </TabItem>
+                            <TabItem Header="Main Goal">
+                                <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                                                             EditorCategory="ElementMini"
+                                                                             ElementTypeName="SituationGoal"
+                                                                             Reference="{Binding MainGoal}" />
+                            </TabItem>
+                        </TabControl>
+                    </TabItem>
+                    <TabItem Header="Rewards">
+                        <StackPanel>
+                            <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                       Text="The description of the Gold reward will be shown as the &quot;Challenge Rewards&quot; in the Plan a Social Event UI. If this is a social event and &quot;Is Household Reward&quot; is unchecked, the reward will go to the Sim who planned the event, regardless of their situation job (even if they're not even part of the event)."
+                                       TextWrapping="Wrap" />
+                            <TabControl>
+                                <TabItem Header="Gold Reward">
+                                    <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                                                                 CreateElementFunction="CreateElementFunction"
+                                                                                 EditorTag="DescriptionAtTop"
+                                                                                 ElementTypeName="RewardSet"
+                                                                                 Reference="{Binding GoldReward}" />
+                                </TabItem>
+                                <TabItem Header="Silver Reward">
+                                    <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                                                                 CreateElementFunction="CreateElementFunction"
+                                                                                 EditorTag="NoUI"
+                                                                                 ElementTypeName="RewardSet"
+                                                                                 Reference="{Binding SilverReward}" />
+                                </TabItem>
+                                <TabItem Header="Bronze Reward">
+                                    <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                                                                 CreateElementFunction="CreateElementFunction"
+                                                                                 EditorTag="NoUI"
+                                                                                 ElementTypeName="RewardSet"
+                                                                                 Reference="{Binding BronzeReward}" />
+                                </TabItem>
+                            </TabControl>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Header="Settings">
+                        <StackPanel>
 
-                        <shared:Field Label="Score to reach bronze" LabelWidth="150">
-                            <xctk:IntegerUpDown Minimum="0" Text="{Binding ScoreToReachBronze}" />
-                        </shared:Field>
-                        <shared:Field Label="Score to reach silver" LabelWidth="150">
-                            <xctk:IntegerUpDown Minimum="0" Text="{Binding ScoreToReachSilver}" />
-                        </shared:Field>
-                        <shared:Field Label="Score to reach gold" LabelWidth="150">
-                            <xctk:IntegerUpDown Minimum="0" Text="{Binding ScoreToReachGold}" />
-                        </shared:Field>
+                            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                                <shared:Field Label="Score to reach bronze" LabelWidth="150">
+                                    <xctk:IntegerUpDown Minimum="0" Text="{Binding ScoreToReachBronze}" />
+                                </shared:Field>
+                                <shared:Field Label="Score to reach silver" LabelWidth="150">
+                                    <xctk:IntegerUpDown Minimum="0" Text="{Binding ScoreToReachSilver}" />
+                                </shared:Field>
+                                <shared:Field Label="Score to reach gold" LabelWidth="150">
+                                    <xctk:IntegerUpDown Minimum="0" Text="{Binding ScoreToReachGold}" />
+                                </shared:Field>
 
-                        <CheckBox IsChecked="{Binding IsHidden}">
-                            <CheckBox.Content>
-                                <StackPanel>
-                                    <TextBlock Text="Is Hidden" />
-                                    <TextBlock FontStyle="Italic" TextWrapping="Wrap">If checked, the goals will be hidden from the player and the UI will treat this as if it were a non-goaled event.</TextBlock>
+                                <!-- Doesn't work as intended, may be revisited in the future <CheckBox IsChecked="{Binding IsHidden}">
+                                    <CheckBox.Content>
+                                        <StackPanel>
+                                            <TextBlock Text="Is Hidden" />
+                                            <TextBlock FontStyle="Italic" TextWrapping="Wrap">If checked, the goals will be hidden from the player and the UI will treat this as if it were a non-goaled event.</TextBlock>
+                                        </StackPanel>
+                                    </CheckBox.Content>
+                                </CheckBox>-->
+
+                                <StackPanel Visibility="{Binding IsHidden, Converter={StaticResource BoolToVisInverted}}">
+                                    <CheckBox Content="Override Icons" IsChecked="{Binding OverrideIcons}" />
+                                    <shared:Field Label="Bronze Icon"
+                                                  LabelWidth="100"
+                                                  Visibility="{Binding OverrideIcons, Converter={StaticResource BoolToVis}}">
+                                        <shared:IconControl Icon="{Binding BronzeIcon}" />
+                                    </shared:Field>
+                                    <shared:Field Label="Silver Icon"
+                                                  LabelWidth="100"
+                                                  Visibility="{Binding OverrideIcons, Converter={StaticResource BoolToVis}}">
+                                        <shared:IconControl Icon="{Binding SilverIcon}" />
+                                    </shared:Field>
+                                    <shared:Field Label="Gold Icon"
+                                                  LabelWidth="100"
+                                                  Visibility="{Binding OverrideIcons, Converter={StaticResource BoolToVis}}">
+                                        <shared:IconControl Icon="{Binding GoldIcon}" />
+                                    </shared:Field>
                                 </StackPanel>
-                            </CheckBox.Content>
-                        </CheckBox>
 
-                        <CheckBox Content="Override Icons" IsChecked="{Binding OverrideIcons}" />
-                        <shared:Field Label="Bronze Icon" LabelWidth="100">
-                            <shared:IconControl Icon="{Binding BronzeIcon}" />
-                        </shared:Field>
-                        <shared:Field Label="Silver Icon" LabelWidth="100">
-                            <shared:IconControl Icon="{Binding SilverIcon}" />
-                        </shared:Field>
-                        <shared:Field Label="Gold Icon" LabelWidth="100">
-                            <shared:IconControl Icon="{Binding GoldIcon}" />
-                        </shared:Field>
-                    </StackPanel>
-                </TabItem>
-            </TabControl>
+                                <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" Visibility="{Binding IsHidden, Converter={StaticResource BoolToVisInverted}}">
+                                    <CheckBox IsChecked="{Binding IsForcedGoaledEvent}">
+                                        <StackPanel>
+                                            <TextBlock Text="Is Forced Goaled Event" />
+                                            <TextBlock Text="If checked, the &quot;Goaled Event&quot; checkbox in the Plan a Social Event will be greyed out and cannot be unchecked." TextWrapping="Wrap" />
+                                        </StackPanel>
+                                    </CheckBox>
+                                    <shared:Field Label="Forced Goaled Event Tooltip"
+                                                  LabelWidth="150"
+                                                  Visibility="{Binding IsForcedGoaledEvent, Converter={StaticResource BoolToVis}}">
+                                        <shared:STBLStringControl Text="{Binding ForcedGoaledEventToolTip}" />
+                                    </shared:Field>
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                    </TabItem>
+                </TabControl>
 
+            </StackPanel>
         </StackPanel>
     </ScrollViewer>
 </UserControl>

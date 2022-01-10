@@ -10,66 +10,77 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <StackPanel>
-        <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-            <shared:Field Label="Name" LabelWidth="100">
-                <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
-            </shared:Field>
-            <shared:Field Label="Description" LabelWidth="100">
-                <shared:STBLStringControl Text="{Binding Description}" />
-            </shared:Field>
-        </StackPanel>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                <shared:Field Label="Name" LabelWidth="100">
+                    <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
+                </shared:Field>
+                <shared:Field Label="Description" LabelWidth="100">
+                    <shared:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
+                </shared:Field>
+            </StackPanel>
 
-        <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-            <shared:Field Label="Sim Count: Player Invite" LabelWidth="150">
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                <shared:Field Label="Sim Count: Player Invite" LabelWidth="150">
+                    <StackPanel>
+                        <TextBlock FontStyle="Italic"
+                                   Text="This is the minimum and maximum number of Sims the player can invite through the social event UI."
+                                   TextWrapping="Wrap" />
+                        <shared:IntBoundsControl Bounds="{Binding PlayerInviteSimCount}" />
+                    </StackPanel>
+                </shared:Field>
+
+                <shared:Field Label="Sim Count: Auto Invite" LabelWidth="150">
+                    <StackPanel>
+                        <TextBlock FontStyle="Italic"
+                                   Text="Allows you to specify a minimum and maximum number of Sims that will automatically show up without needing to be invited through the UI."
+                                   TextWrapping="Wrap" />
+                        <shared:IntBoundsControl Bounds="{Binding AutoInviteSimCount}" />
+                    </StackPanel>
+                </shared:Field>
+            </StackPanel>
+
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                <CheckBox Content="Can be hired in the social event UI" IsChecked="{Binding CanBeHired}" />
+                <shared:Field Label="Hire Cost"
+                              LabelWidth="100"
+                              Visibility="{Binding CanBeHired, Converter={StaticResource BoolToVis}}">
+                    <xctk:IntegerUpDown Text="{Binding HireCost}" />
+                </shared:Field>
+            </StackPanel>
+
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                <CheckBox IsChecked="{Binding ElevatedImportance}">
+                    <StackPanel>
+                        <TextBlock Text="Elevated Importance" />
+                        <TextBlock FontStyle="Italic"
+                                   Text="If checked, Sims with this job will always show up before Sims in other jobs that don't have this option enabled. This is useful for large events, as it can ensure that if the maximum number of Sims on the lot is reached (20, unless changed by a mod), important jobs will be prioritized over unimportant ones."
+                                   TextWrapping="Wrap" />
+                    </StackPanel>
+                </CheckBox>
+            </StackPanel>
+
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+                <CheckBox Content="Confirm when leaving the situation for work" IsChecked="{Binding ConfirmLeaveForWork}" />
+
+                <CheckBox Content="Sims outside the active household should ignore work" IsChecked="{Binding NPCsShouldIgnoreWork}" />
+
+                <CheckBox Content="Replace Sims that leave" IsChecked="{Binding ReplaceOnLeave}" />
+                <CheckBox Content="Replace Sims that don't show up" IsChecked="{Binding ReplaceOnNoShow}" />
+
+                <CheckBox Content="Only show the tooltip if the active Sim is in the same situation" IsChecked="{Binding RestrictTooltip}" />
+            </StackPanel>
+
+            <Expander Margin="{StaticResource Constructor.BigPaddingMinusTop}" Header="Role Tags">
                 <StackPanel>
-                    <TextBlock FontStyle="Italic"
-                               Text="This is the minimum and maximum number of Sims the player can invite through the social event UI."
+                    <TextBlock Text="Role Tags can be used to restrict certain goals by or on certain jobs. For example, for a &quot;Hosts Socialize with Guests&quot;, you'd need to assign Role_Host to the host job, and Role_Guest to the guest job. Tags are optional and only necessary if you intend to use the functionality associated with them." TextWrapping="Wrap" />
+                    <TextBlock FontWeight="Bold"
+                               Text="Click &quot;Browse&quot; for a list of supported tags. You can only use tags that already exist, as the game's code does not support custom tags. "
                                TextWrapping="Wrap" />
-                    <shared:IntBoundsControl Bounds="{Binding PlayerInviteSimCount}" />
+                    <shared:StringListControl PresetsFolder="RoleTag" StringList="{Binding RoleTags}" />
                 </StackPanel>
-            </shared:Field>
-
-            <shared:Field Label="Sim Count: Auto Invite" LabelWidth="150">
-                <StackPanel>
-                    <TextBlock FontStyle="Italic"
-                               Text="Allows you to specify a minimum and maximum number of Sims that will automatically show up without needing to be invited through the UI."
-                               TextWrapping="Wrap" />
-                    <shared:IntBoundsControl Bounds="{Binding AutoInviteSimCount}" />
-                </StackPanel>
-            </shared:Field>
+            </Expander>
         </StackPanel>
-
-        <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <CheckBox Content="Can be hired in the social event UI" IsChecked="{Binding CanBeHired}" />
-            <shared:Field Label="Hire Cost"
-                          LabelWidth="100"
-                          Visibility="{Binding CanBeHired, Converter={StaticResource BoolToVis}}">
-                <xctk:IntegerUpDown Text="{Binding HireCost}" />
-            </shared:Field>
-        </StackPanel>
-
-        <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <CheckBox IsChecked="{Binding ElevatedImportance}">
-                <StackPanel>
-                    <TextBlock Text="Elevated Importance" />
-                    <TextBlock FontStyle="Italic"
-                               Text="If checked, Sims with this job will always show up before Sims in other jobs that don't have this option enabled. This is useful for large events, as it can ensure that if the maximum number of Sims on the lot is reached (20, unless changed by a mod), important jobs will be prioritized over unimportant ones."
-                               TextWrapping="Wrap" />
-                </StackPanel>
-            </CheckBox>
-        </StackPanel>
-
-        <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <CheckBox Content="Confirm when leaving the situation for work" IsChecked="{Binding ConfirmLeaveForWork}" />
-
-            <CheckBox Content="Sims outside the active household should ignore work" IsChecked="{Binding NPCsShouldIgnoreWork}" />
-
-            <CheckBox Content="Replace Sims that leave" IsChecked="{Binding ReplaceOnLeave}" />
-            <CheckBox Content="Replace Sims that don't show up" IsChecked="{Binding ReplaceOnNoShow}" />
-
-            <CheckBox Content="Only show the tooltip if the active Sim is in the same situation" IsChecked="{Binding RestrictTooltip}" />
-        </StackPanel>
-
-    </StackPanel>
+    </ScrollViewer>
 </UserControl>

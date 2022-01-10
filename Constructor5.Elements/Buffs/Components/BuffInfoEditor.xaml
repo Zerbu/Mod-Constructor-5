@@ -32,7 +32,10 @@
             <CheckBox Content="Has Emotion" IsChecked="{Binding HasEmotion}" />
             <StackPanel Visibility="{Binding HasEmotion, Converter={StaticResource BoolToVis}}">
                 <shared:Field Label="Emotion" LabelWidth="150">
-                    <shared:ReferenceControl ElementTypeName="Emotion" Reference="{Binding Emotion}" />
+                    <shared:ReferenceControl ElementTypeName="Emotion"
+                                             Reference="{Binding Emotion}"
+                                             ResetTo="14640"
+                                             ResetToLabel="Happy" />
                 </shared:Field>
                 <shared:Field Label="Emotion Weight" LabelWidth="150">
                     <xctk:IntegerUpDown Minimum="1" Text="{Binding EmotionWeight}" />

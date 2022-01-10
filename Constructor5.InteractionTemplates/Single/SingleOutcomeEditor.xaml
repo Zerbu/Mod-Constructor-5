@@ -32,6 +32,12 @@
                                                  ResetTo="15504"
                                                  ResetToLabel="Friendly" />
                     </shared:Field>
+                    <CheckBox Content="Has Animation" IsChecked="{Binding HasAnimation}" />
+                    <shared:Field Label="Animation"
+                                  LabelWidth="150"
+                                  Visibility="{Binding HasAnimation, Converter={StaticResource BoolToVis}}">
+                        <shared:ReferenceControl ElementTypeName="Animation" Reference="{Binding Animation}" />
+                    </shared:Field>
                     <!--<CheckBox x:Name="GlobalInteractionCheckBox"
                               Content="Always available even if not assigned to a trait or buff"
                               IsChecked="{Binding IsGlobalInteraction}" />-->

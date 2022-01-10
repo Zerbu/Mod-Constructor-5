@@ -190,10 +190,15 @@
       <DependentUpon>BuffModifiersUI.xaml</DependentUpon>
     </Compile>
     <Compile Include="Buffs\Modifiers\BuffReferenceModifier.cs" />
+    <Compile Include="Buffs\References\AutoTuneBuffWithReasonListAttribute.cs" />
     <Compile Include="Buffs\References\AutoTuneBuffWithReasonTupleAttribute.cs" />
     <Compile Include="Buffs\References\BuffWithReason.cs" />
     <Compile Include="Buffs\References\BuffWithReasonControl.xaml.cs">
       <DependentUpon>BuffWithReasonControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Buffs\References\BuffWithReasonReferenceListItem.cs" />
+    <Compile Include="Buffs\References\BuffWithReasonItemEditor.xaml.cs">
+      <DependentUpon>BuffWithReasonItemEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Buffs\References\WeightedBuffReferenceListItem.cs" />
     <Compile Include="Buffs\References\WeightedBuffReferenceListItemEditor.xaml.cs">
@@ -323,21 +328,54 @@
     <Compile Include="Rewards\RewardSetMiniEditor.xaml.cs">
       <DependentUpon>RewardSetMiniEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Rewards\RewardTypes\BuffReward.cs" />
+    <Compile Include="Rewards\RewardTypes\BuffRewardEditor.xaml.cs">
+      <DependentUpon>BuffRewardEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rewards\RewardTypes\MoneyFixedReward.cs" />
+    <Compile Include="Rewards\RewardTypes\MoneyFixedRewardEditor.xaml.cs">
+      <DependentUpon>MoneyFixedRewardEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rewards\RewardTypes\MoneyRandomAmount.cs" />
+    <Compile Include="Rewards\RewardTypes\MoneyRandomAmountEditor.xaml.cs">
+      <DependentUpon>MoneyRandomAmountEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rewards\RewardTypes\ObjectReward.cs" />
+    <Compile Include="Rewards\RewardTypes\ObjectRewardEditor.xaml.cs">
+      <DependentUpon>ObjectRewardEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rewards\RewardTypes\PerkPointsReward.cs" />
+    <Compile Include="Rewards\RewardTypes\PerkPointsRewardEditor.xaml.cs">
+      <DependentUpon>PerkPointsRewardEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Rewards\RewardTypes\RandomReward.cs" />
     <Compile Include="Rewards\RewardTypes\RandomRewardEditor.xaml.cs">
       <DependentUpon>RandomRewardEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Rewards\RewardExportContext.cs" />
+    <Compile Include="Rewards\RewardTypes\SatisfactionPointsReward.cs" />
+    <Compile Include="Rewards\RewardTypes\SatisfactionPointsRewardEditor.xaml.cs">
+      <DependentUpon>SatisfactionPointsRewardEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Rewards\RewardTypes\TraitReward.cs" />
     <Compile Include="Rewards\RewardTypes\TraitRewardEditor.xaml.cs">
       <DependentUpon>TraitRewardEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="RoleStates\RoleState.cs" />
+    <Compile Include="RoleStates\RoleStateEditor.xaml.cs">
+      <DependentUpon>RoleStateEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RoleStates\RoleStateMiniEditor.xaml.cs">
+      <DependentUpon>RoleStateMiniEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Shared\WhimSetBuilder.cs" />
     <Compile Include="SimFilters\DefaultSimFilterTerm.cs" />
     <Compile Include="SimFilters\SimFilter.cs" />
     <Compile Include="SimFilters\SimFilterEditor.xaml.cs">
       <DependentUpon>SimFilterEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimFilters\SimFilterMiniEditor.xaml.cs">
+      <DependentUpon>SimFilterMiniEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="SimFilters\SimFilterTerm.cs" />
     <Compile Include="SimFilters\SimFilterTermItem.cs" />
@@ -380,11 +418,19 @@
     <Compile Include="SituationJobs\Components\SituationJobInfoEditor.xaml.cs">
       <DependentUpon>SituationJobInfoEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SituationJobs\Components\SituationJobRewardLootItem.cs" />
+    <Compile Include="SituationJobs\Components\SituationJobRewardLootItemEditor.xaml.cs">
+      <DependentUpon>SituationJobRewardLootItemEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SituationJobs\Components\SituationJobRewardsComponent.cs" />
     <Compile Include="SituationJobs\Components\SituationJobRewardsEditor.xaml.cs">
       <DependentUpon>SituationJobRewardsEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="SituationJobs\Components\SituationJobSimFilterComponent.cs" />
+    <Compile Include="SituationJobs\Components\SituationJobUniformComponent.cs" />
+    <Compile Include="SituationJobs\Components\SituationJobUniformEditor.xaml.cs">
+      <DependentUpon>SituationJobUniformEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SituationJobs\SituationJob.cs" />
     <Compile Include="SituationJobs\SituationJobComponent.cs" />
     <Compile Include="SituationJobs\SituationJobEditor.xaml.cs">
@@ -569,6 +615,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Buffs\References\BuffWithReasonItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Buffs\References\WeightedBuffReferenceListItemEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -653,7 +703,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Rewards\RewardTypes\BuffRewardEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rewards\RewardTypes\MoneyFixedRewardEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rewards\RewardTypes\MoneyRandomAmountEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rewards\RewardTypes\ObjectRewardEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rewards\RewardTypes\PerkPointsRewardEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Rewards\RewardTypes\RandomRewardEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rewards\RewardTypes\SatisfactionPointsRewardEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -661,7 +735,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="RoleStates\RoleStateEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RoleStates\RoleStateMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SimFilters\SimFilterEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SimFilters\SimFilterMiniEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -697,7 +783,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SituationJobs\Components\SituationJobRewardLootItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SituationJobs\Components\SituationJobRewardsEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationJobs\Components\SituationJobUniformEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

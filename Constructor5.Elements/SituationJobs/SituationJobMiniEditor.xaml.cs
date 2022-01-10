@@ -27,6 +27,7 @@ namespace Constructor5.Elements.SituationJobs
             InfoEditor.DataContext = job.GetComponent<SituationJobInfoComponent>();
             FilterComponent = job.GetComponent<SituationJobSimFilterComponent>();
             RewardsEditor.DataContext = job.GetComponent<SituationJobRewardsComponent>();
+            OutfitEditor.DataContext = job.GetComponent<SituationJobUniformComponent>();
         }
     }
 }

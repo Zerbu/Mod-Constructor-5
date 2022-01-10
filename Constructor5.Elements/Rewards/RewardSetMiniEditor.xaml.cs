@@ -17,6 +17,12 @@ namespace Constructor5.Elements.Rewards
             {
                 UIInfoTab.Visibility = System.Windows.Visibility.Collapsed;
             }
+            if (tag == "DescriptionAtTop")
+            {
+                UIInfoTab.Visibility = System.Windows.Visibility.Collapsed;
+                UIInfoStackPanel.Children.Remove(DescriptionField);
+                DescriptionAtTopPresenter.Content = DescriptionField;
+            }
         }
 
         private void SelectableObjectControl_DeleteButtonClicked(SelectableObjectControl control)

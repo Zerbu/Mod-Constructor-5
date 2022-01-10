@@ -4,6 +4,7 @@ using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
 using System;
+using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.SituationGoals.Components
 {
@@ -22,6 +23,7 @@ namespace Constructor5.Elements.SituationGoals.Components
         public bool SetCooldown { get; set; }
         public bool SetIterations { get; set; }
         public bool SetScore { get; set; }
+        public ObservableCollection<string> RoleTags { get; } = new ObservableCollection<string>();
 
         protected internal override void OnExport(SituationGoalExportContext context)
         {
@@ -64,6 +66,33 @@ namespace Constructor5.Elements.SituationGoals.Components
             }
 
             context.Tuning.Set<TunableBasic>("audio_sting_on_complete", "39b2aa4a:00000000:ed52c39bcc2a7111");
+
+            if (RoleTags.Count > 0)
+            {
+                TuneRoleTags(context);
+            }
+        }
+
+        private void TuneRoleTags(SituationGoalExportContext context)
+        {
+            {
+                var tunableList2 = context.Tuning.Get<TunableList>("tags");
+                foreach (var tag in RoleTags)
+                {
+                    tunableList2.Set<TunableEnum>(null, tag);
+                }
+            }
+
+            {
+                var tunableList1 = context.Tuning.Get<TunableList>("_post_tests");
+                var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "situation_job");
+                var tunableTuple1 = tunableVariant1.Get<TunableTuple>("situation_job");
+                var tunableList2 = tunableTuple1.Get<TunableList>("role_tags");
+                foreach (var tag in RoleTags)
+                {
+                    tunableList2.Set<TunableEnum>(null, tag);
+                }
+            }
         }
 
         private void TuneHolidayTradition(SituationGoalExportContext context)

@@ -80,6 +80,13 @@
                     </shared:Field>
                     <TextBlock FontStyle="Italic" TextWrapping="Wrap">Use {0.SimName} in the goal name to display the name of the target.</TextBlock>
 
+                    <Expander Margin="{StaticResource Constructor.BigPaddingMinusTop}" Header="Role Tags">
+                        <StackPanel>
+                            <TextBlock Text="The target must be in a situation job with one of these tags for it to pass. This is normally used in conjunction with &quot;Require the target to be part of the same situation&quot;." TextWrapping="Wrap" />
+                            <shared:StringListControl PresetsFolder="RoleTag" StringList="{Binding RoleTags}" />
+                        </StackPanel>
+                    </Expander>
+
                 </StackPanel>
             </TabItem>
             <TabItem Header="Target Conditions">

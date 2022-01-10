@@ -23,6 +23,7 @@
                            TextWrapping="Wrap" />
             </StackPanel>
         </CheckBox>
+        <ContentPresenter x:Name="DescriptionAtTopPresenter" />
         <TabControl>
             <TabItem Header="Rewards">
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
@@ -58,11 +59,13 @@
                 </StackPanel>
             </TabItem>
             <TabItem x:Name="UIInfoTab" Header="UI Info">
-                <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                <StackPanel x:Name="UIInfoStackPanel" Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
                     <shared:Field Label="Name" LabelWidth="100">
                         <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding}" />
                     </shared:Field>
-                    <shared:Field Label="Description" LabelWidth="100">
+                    <shared:Field x:Name="DescriptionField"
+                                  Label="Description"
+                                  LabelWidth="100">
                         <shared:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
                     </shared:Field>
                 </StackPanel>

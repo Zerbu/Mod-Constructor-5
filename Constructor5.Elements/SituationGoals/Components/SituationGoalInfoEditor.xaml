@@ -15,7 +15,7 @@
             <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
         </shared:Field>
         <shared:Field Label="Description" LabelWidth="100">
-            <shared:STBLStringControl Text="{Binding Description}" />
+            <shared:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
         </shared:Field>
         <shared:Field Label="Icon" LabelWidth="100">
             <shared:IconControl Icon="{Binding Icon}" />
@@ -51,5 +51,11 @@
                       Visibility="{Binding SetScore, Converter={StaticResource BoolToVis}}">
             <xctk:IntegerUpDown Text="{Binding Score}" />
         </shared:Field>
+        <Expander Margin="{StaticResource Constructor.BigPaddingMinusTop}" Header="Role Tags">
+            <StackPanel>
+                <TextBlock Text="The goal will only be given to Sims in situation jobs with these tags." TextWrapping="Wrap" />
+                <shared:StringListControl PresetsFolder="RoleTag" StringList="{Binding RoleTags}" />
+            </StackPanel>
+        </Expander>
     </StackPanel>
 </UserControl>

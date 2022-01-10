@@ -60,7 +60,7 @@ namespace Constructor5.Elements.Rewards
             }
 
             tuning.Set<TunableBasic>("name", Name);
-            if (string.IsNullOrEmpty(Description.CustomText))
+            if (!string.IsNullOrEmpty(Description.CustomText))
             {
                 var tunableVariant1 = tuning.Set<TunableVariant>("reward_description", "enabled");
                 tunableVariant1.Set<TunableBasic>("enabled", Description);

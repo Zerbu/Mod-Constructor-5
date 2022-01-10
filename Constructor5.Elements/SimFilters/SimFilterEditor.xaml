@@ -8,35 +8,9 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <UserControl.Resources>
-        <shared:SimpleAddToListCommand x:Key="AddConditionCommand" TypeName="SimFilterTermItem" />
-        <shared:SimpleRemoveFromListCommand x:Key="RemoveConditionCommand" TypeName="SimFilterTermItem" />
-    </UserControl.Resources>
-    <ScrollViewer Margin="{StaticResource Constructor.BigPadding}" VerticalScrollBarVisibility="Auto">
-        <StackPanel>
-            <ItemsControl ItemsSource="{Binding Terms}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate DataType="{x:Type local:SimFilterTermItem}">
-                        <shared:SelectableObjectControl DeleteCommand="{StaticResource RemoveConditionCommand}"
-                                                        EditorCategory="Default"
-                                                        Object="{Binding Term}"
-                                                        ShowDeleteButton="True"
-                                                        Tag="{Binding}"
-                                                        TypeRegistryCategory="SimFilterTypes">
-                            <shared:SelectableObjectControl.DeleteCommandParameter>
-                                <MultiBinding Converter="{StaticResource MultiParamConverter}">
-                                    <Binding Path="." />
-                                    <Binding Path="ItemsSource" RelativeSource="{RelativeSource AncestorType={x:Type ItemsControl}}" />
-                                </MultiBinding>
-                            </shared:SelectableObjectControl.DeleteCommandParameter>
-                        </shared:SelectableObjectControl>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-            <Button HorizontalAlignment="Left"
-                    Command="{StaticResource AddConditionCommand}"
-                    CommandParameter="{Binding Terms}"
-                    Content="Add Condition" />
-        </StackPanel>
-    </ScrollViewer>
+    <StackPanel Margin="{StaticResource Constructor.BigPadding}">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <local:SimFilterMiniEditor />
+        </ScrollViewer>
+    </StackPanel>
 </UserControl>

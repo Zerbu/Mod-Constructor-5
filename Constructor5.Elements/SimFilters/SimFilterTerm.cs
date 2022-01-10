@@ -1,4 +1,5 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
 using System.ComponentModel;
 using System.Xml.Serialization;
@@ -8,6 +9,9 @@ namespace Constructor5.Elements.SimFilters
     public abstract class SimFilterTerm : INotifyPropertyChanged, IHasSettableLabel
     {
         public event PropertyChangedEventHandler PropertyChanged;
+
+        [AutoTuneIfTrue("invert_score")]
+        public bool InvertScore { get; set; }
 
         [XmlAttribute]
         public string CustomLabel { get; set; }

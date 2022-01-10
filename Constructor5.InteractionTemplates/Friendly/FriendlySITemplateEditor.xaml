@@ -50,15 +50,13 @@
                         <shared:ReferenceControl ElementTypeName="Animation"
                                                  Reference="{Binding AnimationOnFailure}"
                                                  ResetTo="11853"
-                                                 ResetToLabel="Ask Question Failure"
-                                                 ShowCreateButton="True" />
+                                                 ResetToLabel="Ask Question Failure" />
                     </shared:Field>
                     <shared:Field Label="Failure (Target)" LabelWidth="150">
                         <shared:ReferenceControl ElementTypeName="Animation"
                                                  Reference="{Binding AnimationOnFailureTarget}"
                                                  ResetTo="11878"
-                                                 ResetToLabel="Annoyed"
-                                                 ShowCreateButton="True" />
+                                                 ResetToLabel="Annoyed" />
                     </shared:Field>
                 </StackPanel>
             </TabItem>

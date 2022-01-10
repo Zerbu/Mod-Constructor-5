@@ -2,6 +2,7 @@
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
+using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.SituationJobs.Components
 {
@@ -40,7 +41,9 @@ namespace Constructor5.Elements.SituationJobs.Components
 
         public bool ReplaceOnLeave { get; set; }
         public bool ReplaceOnNoShow { get; set; }
-        public bool RestrictTooltip { get; set; }
+        public bool RestrictTooltip { get; set; } = true;
+
+        public ObservableCollection<string> RoleTags { get; } = new ObservableCollection<string>();
 
         protected internal override void OnExport(SituationJobExportContext context)
         {
@@ -63,6 +66,15 @@ namespace Constructor5.Elements.SituationJobs.Components
             var tunableTuple1 = context.Tuning.Get<TunableTuple>("tooltip_name_text_tokens");
             var tunableList1 = tunableTuple1.Get<TunableList>("tokens");
             var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "participant_type");
+
+            if (RoleTags.Count > 0)
+            {
+                var tunableList2 = context.Tuning.Get<TunableList>("tags");
+                foreach (var tag in RoleTags)
+                {
+                    tunableList2.Set<TunableEnum>(null, tag);
+                }
+            }
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
         }

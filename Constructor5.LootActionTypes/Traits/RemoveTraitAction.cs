@@ -5,10 +5,11 @@ using Constructor5.Base.PropertyTypes;
 using Constructor5.Elements.LootActionSets;
 using Constructor5.Elements.TestConditions;
 using Constructor5.Core;
+using Constructor5.Base.SelectableObjects;
 
 namespace Constructor5.LootActionTypes.Traits
 {
-    //[SelectableObjectType("LootActionTypes", "Traits: Remove Trait")]
+    [SelectableObjectType("LootActionTypes", "Traits: Remove Trait")]
     [XmlSerializerExtraType]
     public class RemoveTraitAction : LootAction
     {

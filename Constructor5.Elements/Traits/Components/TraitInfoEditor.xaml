@@ -47,9 +47,7 @@
         <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
             <shared:Field Label="Type" LabelWidth="100">
                 <StackPanel>
-                    <TextBlock Text="Only personality traits are supported in the current alpha." />
                     <ComboBox IsEditable="False"
-                              IsEnabled="False"
                               ItemsSource="{Binding Source={StaticResource TraitTypeDataProvider}}"
                               SelectedItem="{Binding TraitType}" />
                 </StackPanel>

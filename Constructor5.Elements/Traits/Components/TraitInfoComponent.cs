@@ -46,7 +46,7 @@ namespace Constructor5.Elements.Traits.Components
         public STBLString Name { get; set; }
 
         public TraitCategories TraitCategory { get; set; } = TraitCategories.Emotional;
-        public TraitTypes TraitType { get; set; } = TraitTypes.Personality;
+        public TraitTypes TraitType { get; set; } = TraitTypes.Gameplay;
 
         public string GetCategoryTag()
         {
@@ -155,29 +155,43 @@ namespace Constructor5.Elements.Traits.Components
                     var simDataTagList = new List<ulong> { 234, GetCategorySimDataTag() };
                     context.Tuning.SimDataHandler.WriteList(352, simDataTagList, 2, false);
                     break;
-                    /*case "GAMEPLAY":
-                        tuning.SimDataHandler = new SimDataHandler("SimData/TraitGameplay.data");
-                        tuning.SimDataHandler.Write(240, 1);
-                        break;
+                case TraitTypes.Gameplay:
+                    context.Tuning.SimDataHandler.Write(240, 1);
+                break;
+                case TraitTypes.Hidden:
+                    context.Tuning.SimDataHandler.Write(240, 4);
+                    break;
+                /*
+                    WALKSTYLE = 2
+                    GHOST = 5
+                    ASPIRATION = 6
+                    TAILSTYLE = 7
+                    GENDER_OPTIONS = 8
+                    SIM_PHONE = 9
+                    PHASE = 10
+                    AGENT = 11
+                    INFECTION = 12
+                    CURSE = 13
+                    ROOMMATE = 14
+                    ROBOT_MODULE = 15
+                    ROBOT = 16
+                    PROFESSOR = 17
+                    UNIVERSITY_DEGREE = 18
+                    ROBOT_MODULE_LOCKED = 19
+                 */
 
-                    case "LIKE":
-                        tuning.SimDataHandler = new SimDataHandler("SimData/TraitGameplay.data");
-                        tuning.SimDataHandler.Write(240, 22);
-                        break;
+                /*case "LIKE":
+                    tuning.SimDataHandler = new SimDataHandler("SimData/TraitGameplay.data");
+                    tuning.SimDataHandler.Write(240, 22);
+                    break;
 
-                    case "DISLIKE":
-                        tuning.SimDataHandler = new SimDataHandler("SimData/TraitGameplay.data");
-                        tuning.SimDataHandler.Write(240, 23);
-                        break;
+                case "DISLIKE":
+                    tuning.SimDataHandler = new SimDataHandler("SimData/TraitGameplay.data");
+                    tuning.SimDataHandler.Write(240, 23);
+                    break;*/
 
-                    case "AGENT":
-                        tuning.SimDataHandler = new SimDataHandler("SimData/TraitGameplay.data");
-                        tuning.SimDataHandler.Write(240, 11);
-                        break;
-
-                    default:
-                        tuning.SimDataHandler = new SimDataHandler("SimData/TraitGameplay.data");
-                        break;*/
+                default:
+                    break;
             }
         }
     }

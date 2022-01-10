@@ -8,6 +8,8 @@ namespace Constructor5.Elements.Traits.Components
 {
     public enum TraitTypes
     {
-        Personality
+        Personality,
+        Gameplay,
+        Hidden
     }
 }

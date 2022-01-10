@@ -5,7 +5,6 @@ using Constructor5.Core;
 namespace Constructor5.SituationTemplates.SimpleSituation
 {
     [XmlSerializerExtraType]
-    [HasAutoEditor(HasPadding = false)]
     public class SimpleSituationJobItem : ReferenceListItem
     {
         [AutoEditorReference("RoleState", ResetTo = 99710, ResetToLabel = "Generic", Label = "Role State", HasPadding = false)]

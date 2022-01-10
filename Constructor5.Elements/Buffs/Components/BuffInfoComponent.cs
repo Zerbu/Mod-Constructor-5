@@ -23,7 +23,7 @@ namespace Constructor5.Elements.Buffs.Components
         public STBLString Description { get; set; } = new STBLString();
 
         public int Duration { get; set; } = 240;
-        public Reference Emotion { get; set; } = new Reference();
+        public Reference Emotion { get; set; } = new Reference() { GameReference = 14640, GameReferenceLabel = "Happy" };
         public int EmotionWeight { get; set; } = 1;
         public bool HasFixedDuration { get; set; }
         public bool HasEmotion { get; set; }
@@ -34,7 +34,48 @@ namespace Constructor5.Elements.Buffs.Components
         [AutoTuneBasic("buff_name")]
         public STBLString Name { get; set; } = new STBLString();
 
-        public string GetEmotionCategory() => "TODO: EMOTION CATEGORY";
+        public string GetEmotionCategory()
+        {
+            var emotionInt = ElementTuning.GetSingleInstanceKey(Emotion);
+            switch (emotionInt)
+            {
+                case 14632:
+                    return "Angry_Buffs";
+                case 14633:
+                    return "Bored_Buffs";
+                case 14634:
+                    return "Confident_Buffs";
+                case 14635:
+                    return "Embarrassed_Buffs";
+                case 14636:
+                    return "Energized_Buffs";
+                case 14637:
+                    return "Fine_Buffs";
+                case 14638:
+                    return "Flirty_Buffs";
+                case 14639:
+                    return "Focused_Buffs";
+                case 14640:
+                    return "Happy_Buffs";
+                case 14641:
+                    return "Inspired_Buffs";
+                case 14642:
+                    return "Playful_Buffs";
+                case 14643:
+                    return "Sad_Buffs";
+                case 14644:
+                    return "Sloshed_Buffs";
+                case 14645:
+                    return "Stressed_Buffs";
+                case 14646:
+                    return "Uncomfortable_Buffs";
+                case 251719:
+                    return "Scared_Buffs";
+                default:
+                    Exporter.Current.AddError($"\"Add Emotion Category\" doesn't support {emotionInt}. No emotion category has been automatically added.");
+                    return null;
+            }
+        }
 
         protected internal override bool HasContent() => true;
 
@@ -48,6 +89,21 @@ namespace Constructor5.Elements.Buffs.Components
                     Tuning = context.Tuning,
                     DataContext = this
                 });
+
+            if (HasEmotion || HasFixedDuration)
+            {
+                var tunableVariant1 = context.Tuning.Set<TunableVariant>("_temporary_commodity_info", "enabled");
+                var tunableTuple1 = tunableVariant1.Get<TunableTuple>("enabled");
+                if (HasEmotion)
+                {
+                    var tunableList1 = tunableTuple1.Get<TunableList>("categories");
+                    tunableList1.Set<TunableEnum>(null, GetEmotionCategory());
+                }
+                if (HasFixedDuration)
+                {
+                    tunableTuple1.Set<TunableBasic>("max_duration", Duration);
+                }
+            }
 
             var header = (TuningHeader)context.Tuning;
             header.SimDataHandler.WriteText(164, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);

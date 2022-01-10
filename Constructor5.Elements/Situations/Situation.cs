@@ -11,7 +11,7 @@ using System.Linq;
 
 namespace Constructor5.Elements.Situations
 {
-    [ElementTypeData("Situation", false, ElementTypes = new[] { typeof(Situation) }, PresetFolders = new[] { "Situation" })]
+    [ElementTypeData("Situation", false, ElementTypes = new[] { typeof(Situation) }, PresetFolders = new[] { "Situation" }, IsRootType = true)]
     public class Situation : SimpleComponentElement<SituationComponent>, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
@@ -52,6 +52,9 @@ namespace Constructor5.Elements.Situations
             GeneratedLabel = label;
             var info = GetComponent<SituationInfoComponent>();
             info.Name = new Base.PropertyTypes.STBLString() { CustomText = label };
+            info.ImpliesGreetedStatus = true;
+            info.IsPlayerFacing = true;
+            info.IsSocialEvent = true;
         }
     }
 }

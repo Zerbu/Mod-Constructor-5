@@ -9,11 +9,15 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-        <shared:ReferenceListControl EditorCategory="ElementMini"
+    <StackPanel>
+        <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                   Text="Simple situations are made up of &quot;situation jobs&quot; with assigned &quot;role states&quot;. &quot;Host&quot; and &quot;Guest&quot; are two common examples of jobs. A job's Sims can be chosen by the player from the Plan a Social Event UI, auto invited by the game, or a combination of both. Role states are lists of buffs added to Sims, typically used to determine their autonomy."
+                   TextWrapping="Wrap" />
+        <shared:ReferenceListControl CreateElementFunction="ReferenceListControl_CreateElementFunction"
+                                     EditorCategory="ElementMini"
                                      ElementReferenceList="{Binding Jobs}"
                                      ElementTypeName="SituationJob"
                                      ItemTypeName="SimpleSituationJobItem"
-                                     ShowCreateButton="True" CreateElementFunction="ReferenceListControl_CreateElementFunction" />
+                                     ShowCreateButton="True" />
     </StackPanel>
 </UserControl>

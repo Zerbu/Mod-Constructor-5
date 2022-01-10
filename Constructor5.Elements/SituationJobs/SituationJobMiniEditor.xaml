@@ -15,15 +15,18 @@
             <components:SituationJobInfoEditor x:Name="InfoEditor" Margin="0" />
         </TabItem>
         <TabItem Header="Filter">
-            <StackPanel>
-                <TextBlock Margin="{StaticResource Constructor.BigPaddingMinusTop}" Text="Only Sims that match this filter can be part of the situation." />
-                <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingMinusTop}"
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                <TextBlock Text="Only Sims that match this filter can be part of the situation. If there aren't enough Sims to meet the auto invite count, the game will generate new Sims or conform existing ones." TextWrapping="Wrap" />
+                <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
                                                              ElementTypeName="SimFilter"
                                                              Reference="{Binding FilterComponent.Filter, ElementName=uc}" />
             </StackPanel>
         </TabItem>
         <TabItem Header="Actions">
-            <components:SituationJobRewardsEditor x:Name="RewardsEditor" Margin="0" />
+            <components:SituationJobRewardsEditor x:Name="RewardsEditor" Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" />
+        </TabItem>
+        <TabItem Header="Outfit">
+            <components:SituationJobUniformEditor x:Name="OutfitEditor" Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" />
         </TabItem>
     </TabControl>
 </UserControl>

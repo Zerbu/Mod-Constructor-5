@@ -20,16 +20,24 @@
             <shared:Field Label="Max Participants" LabelWidth="125">
                 <xctk:IntegerUpDown Minimum="0" Text="{Binding MaxParticipants}" />
             </shared:Field>
+            <CheckBox IsChecked="{Binding ImpliesGreetedStatus}">
+                <StackPanel>
+                    <TextBlock Text="Consider Sims as Greeted" />
+                    <TextBlock FontStyle="Italic"
+                               Text="If checked, Sims on residential lots they don't own will be considered greeted and allowed inside."
+                               TextWrapping="Wrap" />
+                </StackPanel>
+            </CheckBox>
 
         </StackPanel>
 
         <StackPanel Margin="{StaticResource Constructor.BigPadding}">
             <TextBlock Text="The following options are only needed for situations that will be displayed in the UI:" />
             <shared:Field Label="Name" LabelWidth="100">
-                <shared:STBLStringControl Text="{Binding Name}" />
+                <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
             </shared:Field>
             <shared:Field Label="Description" LabelWidth="100">
-                <shared:STBLStringControl Text="{Binding Description}" />
+                <shared:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
             </shared:Field>
             <shared:Field Label="Image" LabelWidth="100">
                 <shared:IconControl Icon="{Binding Icon}" />
@@ -40,7 +48,17 @@
         </StackPanel>
 
         <StackPanel Margin="{StaticResource Constructor.BigPadding}">
-            <CheckBox Content="Is Social Event" IsChecked="{Binding IsSocialEvent}" />
+            <CheckBox IsChecked="{Binding IsPlayerFacing}">
+                <StackPanel>
+                    <TextBlock Text="Is intended as a player facing situation" />
+                    <TextBlock FontStyle="Italic"
+                               Text="This should be checked if the situation is intended to be a social event or other form of non-background situation. This will prevent the player from traveling. It will also block super speed 3."
+                               TextWrapping="Wrap" />
+                </StackPanel>
+            </CheckBox>
+            <CheckBox Content="Is Social Event"
+                      IsChecked="{Binding IsSocialEvent}"
+                      Visibility="{Binding IsUserFacing, Converter={StaticResource BoolToVis}}" />
             <shared:Field Label="Cost" LabelWidth="125">
                 <xctk:IntegerUpDown Increment="10"
                                     Minimum="0"

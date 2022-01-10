@@ -40,8 +40,8 @@
                         Click="CreateButton_Click"
                         Content="Create"
                         Visibility="{Binding ShowCreateButton, ElementName=uc, Converter={StaticResource BoolToVis}}" />
-                <Button Margin="2"
-                        x:Name="BrowseButton"
+                <Button x:Name="BrowseButton"
+                        Margin="2"
                         Click="BrowseButton_Click"
                         Content="Browse"
                         Visibility="{Binding ShowBrowseButton, ElementName=uc, Converter={StaticResource BoolToVis}}" />

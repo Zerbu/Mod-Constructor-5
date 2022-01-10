@@ -9,30 +9,12 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <TabControl>
-        <TabItem Header="No Medal Actions">
-            <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                         ElementReferenceList="{Binding NoMedalLoot}"
-                                         ElementTypeName="LootActionSet"
-                                         ShowCreateButton="True" />
-        </TabItem>
-        <TabItem Header="Bronze Actions">
-            <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                         ElementReferenceList="{Binding BronzeLoot}"
-                                         ElementTypeName="LootActionSet"
-                                         ShowCreateButton="True" />
-        </TabItem>
-        <TabItem Header="Silver Actions">
-            <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                         ElementReferenceList="{Binding SilverLoot}"
-                                         ElementTypeName="LootActionSet"
-                                         ShowCreateButton="True" />
-        </TabItem>
-        <TabItem Header="Gold Actions">
-            <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                         ElementReferenceList="{Binding GoldLoot}"
-                                         ElementTypeName="LootActionSet"
-                                         ShowCreateButton="True" />
-        </TabItem>
-    </TabControl>
+    <StackPanel>
+        <TextBlock Text="These actions will run on all Sims with the job when a goaled event is over. They can be configured to only run at a certain level medal." TextWrapping="Wrap" />
+        <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                     ElementReferenceList="{Binding LootActionSets}"
+                                     ElementTypeName="LootActionSet"
+                                     ItemTypeName="SituationJobRewardLootItem"
+                                     ShowCreateButton="True" />
+    </StackPanel>
 </UserControl>

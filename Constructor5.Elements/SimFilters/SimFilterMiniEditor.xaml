@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="Constructor5.Elements.SimFilters.SimFilterMiniEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.SimFilters"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <shared:SimpleAddToListCommand x:Key="AddConditionCommand" TypeName="SimFilterTermItem" />
+        <shared:SimpleRemoveFromListCommand x:Key="RemoveConditionCommand"
+                                            DeleteMessage="Are you sure you want to delete this filter term?"
+                                            TypeName="SimFilterTermItem" />
+    </UserControl.Resources>
+
+    <StackPanel>
+        <TabControl>
+            <TabItem Header="Custom Terms">
+                <StackPanel>
+                    <ItemsControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" ItemsSource="{Binding Terms}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate DataType="{x:Type local:SimFilterTermItem}">
+                                <shared:SelectableObjectControl DeleteCommand="{StaticResource RemoveConditionCommand}"
+                                                                EditorCategory="Default"
+                                                                Object="{Binding Term}"
+                                                                ShowDeleteButton="True"
+                                                                Tag="{Binding}"
+                                                                TypeRegistryCategory="SimFilterTypes">
+                                    <shared:SelectableObjectControl.DeleteCommandParameter>
+                                        <MultiBinding Converter="{StaticResource MultiParamConverter}">
+                                            <Binding Path="." />
+                                            <Binding Path="ItemsSource" RelativeSource="{RelativeSource AncestorType={x:Type ItemsControl}}" />
+                                        </MultiBinding>
+                                    </shared:SelectableObjectControl.DeleteCommandParameter>
+                                </shared:SelectableObjectControl>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    <Button HorizontalAlignment="Left"
+                            Command="{StaticResource AddConditionCommand}"
+                            CommandParameter="{Binding Terms}"
+                            Content="Add Filter Term" />
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Standard Terms">
+                <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                    <CheckBox Content="Ban Grim Reaper" IsChecked="{Binding BanTraitGrimReaper}" />
+                    <CheckBox Content="Ban Event NPCs" IsChecked="{Binding BanTraitEventNPCs}" />
+                    <CheckBox Content="Ban Alien Pollinator" IsChecked="{Binding BanTraitAlienPollinator}" />
+                    <CheckBox Content="Ban Police Station Criminals" IsChecked="{Binding BanTraitPoliceStationCriminal}" />
+                    <CheckBox Content="Ban Skeletons" IsChecked="{Binding BanTraitSkeletons}" />
+                    <CheckBox Content="Ban Scarecrows" IsChecked="{Binding BanTraitScarecrow}" />
+                    <CheckBox Content="Ban Flower Bunny" IsChecked="{Binding BanTraitFlowerBunny}" />
+                    <CheckBox Content="Ban Baby Ariel" IsChecked="{Binding BanTraitBabyAriel}" />
+                    <CheckBox Content="Ban Night Stalker" IsChecked="{Binding BanTraitNightStalker}" />
+                    <CheckBox Content="Ban Magic Sages" IsChecked="{Binding BanTraitMagicSages}" />
+                    <CheckBox Content="Ban University Professor NPCs" IsChecked="{Binding BanTraitProfessors}" />
+                    <CheckBox Content="Ban Batuu NPCs" IsChecked="{Binding BanTraitBatuuNPCs}" />
+                    <CheckBox Content="Ban Town Mascot NPC" IsChecked="{Binding BanTraitTownMascot}" />
+                    <CheckBox Content="Ban Guidry" IsChecked="{Binding BanTraitGuidry}" />
+                    <CheckBox Content="Ban Bonehilda" IsChecked="{Binding BanTraitBonehilda}" />
+                    <CheckBox Content="Ban Temperance" IsChecked="{Binding BanTraitTemperance}" />
+                    <CheckBox Content="Ban Father Winter" IsChecked="{Binding BanTraitFatherWinter}" />
+                    <CheckBox Content="Ban Animals" IsChecked="{Binding BanAnimals}" />
+                    <CheckBox Content="Ban ghosts outside the active household" IsChecked="{Binding BanNonHouseholdGhosts}" />
+                    <CheckBox Content="Ban Sims who can't be outside (vampires during the day)" IsChecked="{Binding BanSimsWhoCantBeOutside}" />
+                    <CheckBox Content="Ban Sims in hidden households" IsChecked="{Binding BanHiddenSims}" />
+                    <CheckBox IsChecked="{Binding MustBeCompatibleRegion}">
+                        <StackPanel>
+                            <TextBlock Text="Ban Sims in incompatible worlds" />
+                            <TextBlock FontStyle="Italic"
+                                       Text="Sims in destination worlds won't pass in residential worlds or vice-versa."
+                                       TextWrapping="Wrap" />
+                        </StackPanel>
+                    </CheckBox>
+                    <!--<CheckBox Content="IncludeLod" IsChecked="{Binding IncludeLod}" />-->
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </StackPanel>
+</UserControl>

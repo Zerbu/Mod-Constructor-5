@@ -2,6 +2,7 @@
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.Icons;
+using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
 
 namespace Constructor5.Elements.Situations.Components
@@ -14,14 +15,19 @@ namespace Constructor5.Elements.Situations.Components
 
         public override string ComponentLabel => "Goaled Event";
 
+        public STBLString ForcedGoaledEventToolTip { get; set; } = new STBLString() { CustomText = "This is a forced goaled event." };
+
         [AutoTuneReferenceList("minor_goal_chains")]
         public ReferenceList GoalSets { get; set; } = new ReferenceList();
         public ElementIcon GoldIcon { get; set; } = new ElementIcon();
         public Reference GoldReward { get; set; } = new Reference();
+        public bool IsForcedGoaledEvent { get; set; }
         public bool IsGoaledEvent { get; set; }
         public bool IsHidden { get; set; }
+
         [AutoTuneBasic("main_goal")]
         public Reference MainGoal { get; set; } = new Reference();
+
         public bool OverrideIcons { get; set; }
         public int ScoreToReachBronze { get; set; } = 100;
         public int ScoreToReachGold { get; set; } = 30;
@@ -40,7 +46,7 @@ namespace Constructor5.Elements.Situations.Components
 
             var tunableTuple1 = context.Tuning.Get<TunableTuple>("_level_data");
             var tunableTuple2 = tunableTuple1.Get<TunableTuple>("bronze");
-            if (OverrideIcons)
+            if (!IsHidden && OverrideIcons)
             {
                 tunableTuple2.Set<TunableBasic>("icon", BronzeIcon);
             }
@@ -50,11 +56,11 @@ namespace Constructor5.Elements.Situations.Components
             {
                 tunableTuple2.Set<TunableBasic>("score_delta", ScoreToReachBronze);
             }
-            
+
             var tunableTuple3 = tunableTuple1.Get<TunableTuple>("gold");
-            if (OverrideIcons)
+            if (!IsHidden && OverrideIcons)
             {
-                tunableTuple2.Set<TunableBasic>("icon", GoldIcon);
+                tunableTuple3.Set<TunableBasic>("icon", GoldIcon);
             }
             tunableTuple3.Set<TunableBasic>("level_description", "0x82AD9EEA");
             tunableTuple3.Set<TunableBasic>("reward", GoldReward);
@@ -64,9 +70,9 @@ namespace Constructor5.Elements.Situations.Components
             }
 
             var tunableTuple4 = tunableTuple1.Get<TunableTuple>("silver");
-            if (OverrideIcons)
+            if (!IsHidden && OverrideIcons)
             {
-                tunableTuple2.Set<TunableBasic>("icon", SilverIcon);
+                tunableTuple4.Set<TunableBasic>("icon", SilverIcon);
             }
             tunableTuple4.Set<TunableBasic>("level_description", "0x20CAEAD3");
             tunableTuple4.Set<TunableBasic>("reward", SilverReward);
@@ -78,6 +84,11 @@ namespace Constructor5.Elements.Situations.Components
             if (IsHidden)
             {
                 context.Tuning.Set<TunableBasic>("_hidden_scoring_override", "True");
+            }
+            else if (IsForcedGoaledEvent)
+            {
+                var tunableVariant1 = context.Tuning.Set<TunableVariant>("scoring_lock_reason", "enabled");
+                tunableVariant1.Set<TunableBasic>("enabled", ForcedGoaledEventToolTip);
             }
 
             AutoTunerInvoker.Invoke(this, context.Tuning);

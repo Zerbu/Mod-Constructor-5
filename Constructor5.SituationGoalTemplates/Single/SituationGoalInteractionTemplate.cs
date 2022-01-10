@@ -19,6 +19,7 @@ namespace Constructor5.Elements.SituationGoals.Templates
         public ObservableCollection<string> InteractionTags { get; } = new ObservableCollection<string>();
         public override string Label => "Interaction Goal";
         public int MinimumRunningTime { get; set; }
+        public ObservableCollection<string> RoleTags { get; } = new ObservableCollection<string>();
         public SituationGoalInteractionTarget SpecificTarget { get; set; }
         public bool SuccessfulOnly { get; set; }
         public ObservableCollection<TestConditionListItem> TargetConditions { get; set; } = new ObservableCollection<TestConditionListItem>();
@@ -28,7 +29,7 @@ namespace Constructor5.Elements.SituationGoals.Templates
         {
             var tuningHeader = (TuningHeader)context.Tuning;
 
-            var isTargeted = InSituationOnly || SpecificTarget != SituationGoalInteractionTarget.Any || TargetConditions.Count > 0;
+            var isTargeted = InSituationOnly || SpecificTarget != SituationGoalInteractionTarget.Any || TargetConditions.Count > 0 || RoleTags.Count > 0;
 
             if (isTargeted)
             {
@@ -106,6 +107,23 @@ namespace Constructor5.Elements.SituationGoals.Templates
                 case SituationGoalInteractionTarget.RandomExcludingInherited:
                     context.Tuning.Set<TunableEnum>("_target_option", "GoalSystemChoiceExcludingInherited");
                     break;
+            }
+
+            if (RoleTags.Count > 0)
+            {
+                TuneRoleTags(context);
+            }
+        }
+
+        private void TuneRoleTags(SituationGoalExportContext context)
+        {
+            var tunableList1 = context.Tuning.Get<TunableList>("_target_tests");
+            var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "situation_job");
+            var tunableTuple1 = tunableVariant1.Get<TunableTuple>("situation_job");
+            var tunableList2 = tunableTuple1.Get<TunableList>("role_tags");
+            foreach (var tag in RoleTags)
+            {
+                tunableList2.Set<TunableEnum>(null, tag);
             }
         }
     }

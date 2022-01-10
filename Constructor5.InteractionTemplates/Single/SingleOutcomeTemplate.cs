@@ -2,8 +2,8 @@
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.SelectableObjects;
-using Constructor5.Elements.Interactions.Shared;
 using Constructor5.Core;
+using Constructor5.Elements.Interactions.Shared;
 
 namespace Constructor5.InteractionTemplates.Single
 {
@@ -12,10 +12,10 @@ namespace Constructor5.InteractionTemplates.Single
     [XmlSerializerExtraType]
     public class SingleOutcomeTemplate : InteractionTemplate
     {
-        public override string Label => "Single Outcome";
-
+        public bool HasAnimation { get; set; }
+        public Reference Animation { get; set; } = new Reference();
         public bool IsGlobalInteraction { get; set; }
-
+        public override string Label => "Single Outcome";
         public ReferenceList LootActionSets { get; set; } = new ReferenceList();
 
         //public Reference BalloonSet { get; set; } = new Reference();

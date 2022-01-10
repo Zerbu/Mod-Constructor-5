@@ -29,7 +29,10 @@
             <CheckBox Content="Has Emotion" IsChecked="{Binding BuffInfoComponent.HasEmotion, ElementName=uc}" />
             <StackPanel Visibility="{Binding BuffInfoComponent.HasEmotion, ElementName=uc, Converter={StaticResource BoolToVis}}">
                 <shared:Field Label="Emotion" LabelWidth="150">
-                    <shared:ReferenceControl ElementTypeName="Emotion" Reference="{Binding BuffInfoComponent.Emotion, ElementName=uc}" />
+                    <shared:ReferenceControl ElementTypeName="Emotion"
+                                             Reference="{Binding BuffInfoComponent.Emotion, ElementName=uc}"
+                                             ResetTo="14640"
+                                             ResetToLabel="Happy" />
                 </shared:Field>
                 <shared:Field Label="Emotion Weight" LabelWidth="150">
                     <xctk:IntegerUpDown Minimum="1" Text="{Binding BuffInfoComponent.EmotionWeight, ElementName=uc}" />

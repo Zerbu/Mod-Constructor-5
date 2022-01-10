@@ -1,4 +1,6 @@
-﻿using Constructor5.UI.Shared;
+﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Elements.Rewards;
+using Constructor5.UI.Shared;
 using System.Windows.Controls;
 
 namespace Constructor5.Elements.Situations.Components
@@ -9,5 +11,12 @@ namespace Constructor5.Elements.Situations.Components
         public SituationGoaledEventEditor() => InitializeComponent();
 
         void IObjectEditor.SetObject(object obj, string tag) => DataContext = obj;
+
+        private Element CreateElementFunction()
+        {
+            var result = (RewardSet)ElementManager.Create(typeof(RewardSet), null, true);
+            result.IsHouseholdReward = true;
+            return result;
+        }
     }
 }
