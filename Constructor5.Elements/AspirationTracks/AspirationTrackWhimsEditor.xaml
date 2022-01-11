@@ -8,12 +8,18 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-        <shared:Field Label="Whims" LabelWidth="100">
-            <shared:ReferenceListControl ElementReferenceList="{Binding Whims}" ElementTypeName="Whims" />
-        </shared:Field>
-        <shared:Field Label="Reason" LabelWidth="100">
-            <shared:STBLStringControl Text="{Binding Reason}" />
-        </shared:Field>
-    </StackPanel>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+            <shared:Field Label="Reason" LabelWidth="100">
+                <shared:STBLStringControl Text="{Binding Reason}" />
+            </shared:Field>
+            <shared:Field Label="Whims" LabelWidth="100">
+                <shared:ReferenceListControl CreateElementFunction="ReferenceListControl_CreateElementFunction"
+                                             EditorTag="Whim"
+                                             ElementReferenceList="{Binding Whims}"
+                                             ElementTypeName="SituationGoal"
+                                             ShowCreateButton="True" />
+            </shared:Field>
+        </StackPanel>
+    </ScrollViewer>
 </UserControl>

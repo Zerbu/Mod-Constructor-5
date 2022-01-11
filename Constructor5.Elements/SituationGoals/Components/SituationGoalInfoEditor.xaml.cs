@@ -22,6 +22,7 @@ namespace Constructor5.Elements.SituationGoals.Components
             SetCooldownCheckBox.Visibility = System.Windows.Visibility.Collapsed;
             SetScoreCheckBox.Visibility = System.Windows.Visibility.Collapsed;
             HolidayTraditionWarning.Visibility = System.Windows.Visibility.Visible;
+            RoleTagsExpander.Visibility = System.Windows.Visibility.Collapsed;
         }
     }
 }

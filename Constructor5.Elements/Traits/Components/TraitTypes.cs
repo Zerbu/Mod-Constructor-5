@@ -10,6 +10,8 @@ namespace Constructor5.Elements.Traits.Components
     {
         Personality,
         Gameplay,
-        Hidden
+        Hidden,
+        Aspiration,
+        Phase
     }
 }

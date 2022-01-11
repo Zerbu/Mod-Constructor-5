@@ -2,7 +2,6 @@
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
-using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
@@ -11,32 +10,31 @@ namespace Constructor5.Elements.SimFilters
     [ElementTypeData("Sim Filter", false, ElementTypes = new[] { typeof(SimFilter) }, PresetFolders = new[] { "SimFilter" })]
     public class SimFilter : Element, IExportableElement
     {
-        public ObservableCollection<SimFilterTermItem> Terms { get; } = new ObservableCollection<SimFilterTermItem>();
-
-        public bool BanTraitGrimReaper { get; set; } = true;
-        public bool BanTraitEventNPCs { get; set; } = true;
-        public bool BanTraitAlienPollinator { get; set; } = true;
-        public bool BanTraitPoliceStationCriminal { get; set; } = true;
-        public bool BanTraitSkeletons { get; set; } = true;
-        public bool BanTraitScarecrow { get; set; } = true;
-        public bool BanTraitFlowerBunny { get; set; } = true;
-        public bool BanTraitBabyAriel { get; set; } = true;
-        public bool BanTraitNightStalker { get; set; } = true;
-        public bool BanTraitMagicSages { get; set; } = true;
-        public bool BanTraitProfessors { get; set; } = true;
-        public bool BanTraitBatuuNPCs { get; set; } = true;
-        public bool BanTraitTownMascot { get; set; } = true;
-        public bool BanTraitGuidry { get; set; } = true;
-        public bool BanTraitBonehilda { get; set; } = true;
-        public bool BanTraitTemperance { get; set; } = true;
-        public bool BanTraitFatherWinter { get; set; } = true;
         public bool BanAnimals { get; set; } = true;
+        public bool BanHiddenSims { get; set; } = true;
         public bool BanNonHouseholdGhosts { get; set; } = true;
         public bool BanSimsWhoCantBeOutside { get; set; } = true;
-        public bool BanHiddenSims { get; set; } = true;
-        public bool MustBeCompatibleRegion { get; set; } = true;
+        public bool BanTraitAlienPollinator { get; set; } = true;
+        public bool BanTraitBabyAriel { get; set; } = true;
+        public bool BanTraitBatuuNPCs { get; set; } = true;
+        public bool BanTraitBonehilda { get; set; } = true;
+        public bool BanTraitEventNPCs { get; set; } = true;
+        public bool BanTraitFatherWinter { get; set; } = true;
+        public bool BanTraitFlowerBunny { get; set; } = true;
+        public bool BanTraitGrimReaper { get; set; } = true;
+        public bool BanTraitGuidry { get; set; } = true;
+        public bool BanTraitMagicSages { get; set; } = true;
+        public bool BanTraitNightStalker { get; set; } = true;
+        public bool BanTraitPoliceStationCriminal { get; set; } = true;
+        public bool BanTraitProfessors { get; set; } = true;
+        public bool BanTraitScarecrow { get; set; } = true;
+        public bool BanTraitSkeletons { get; set; } = true;
+        public bool BanTraitTemperance { get; set; } = true;
+        public bool BanTraitTownMascot { get; set; } = true;
         public bool IncludeLod { get; set; } = true;
+        public bool MustBeCompatibleRegion { get; set; } = true;
 
+        public ObservableCollection<SimFilterTermItem> Terms { get; } = new ObservableCollection<SimFilterTermItem>();
 
         void IExportableElement.OnExport()
         {
@@ -49,7 +47,7 @@ namespace Constructor5.Elements.SimFilters
 
             TuneStandard(filterTermsList);
 
-            foreach(var term in Terms)
+            foreach (var term in Terms)
             {
                 term.Term.OnExport(filterTermsList);
             }
@@ -151,7 +149,7 @@ namespace Constructor5.Elements.SimFilters
                 var blacklistTuple = blacklistVariant.Get<TunableTuple>("trait_blacklist");
                 var tunableList1 = blacklistTuple.Get<TunableList>("traits");
 
-                foreach(var key in traitBlacklistKeys)
+                foreach (var key in traitBlacklistKeys)
                 {
                     tunableList1.Set<TunableBasic>(null, key);
                 }

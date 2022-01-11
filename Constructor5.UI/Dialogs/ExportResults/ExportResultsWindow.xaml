@@ -29,6 +29,7 @@
                      Margin="{StaticResource Constructor.BigPaddingMinusTop}"
                      AcceptsReturn="True"
                      Text="{Binding ErrorMessage}"
+                     TextWrapping="Wrap"
                      VerticalScrollBarVisibility="Visible"
                      Visibility="{Binding ErrorMessage, Converter={StaticResource NotNullToVis}}" />
             <StackPanel Grid.Row="2" Margin="{StaticResource Constructor.BigPadding}">

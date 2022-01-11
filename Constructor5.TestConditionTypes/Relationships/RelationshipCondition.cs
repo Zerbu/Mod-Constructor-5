@@ -11,6 +11,7 @@ namespace Constructor5.TestConditionTypes.Relationships
 {
     [SelectableObjectType("TestConditionTypes", "Relationship Condition")]
     [SelectableObjectType("ObjectiveConditionTypes", "Relationship Condition")]
+    [SelectableObjectType("HolidayTraditionConditionTypes", "Relationship Condition")]
     [XmlSerializerExtraType]
     public class RelationshipCondition : TestCondition
     {

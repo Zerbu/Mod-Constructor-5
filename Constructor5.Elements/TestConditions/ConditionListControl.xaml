@@ -12,7 +12,9 @@
              mc:Ignorable="d">
     <UserControl.Resources>
         <local1:SimpleAddToListCommand x:Key="AddConditionCommand" TypeName="TestConditionListItem" />
-        <local1:SimpleRemoveFromListCommand x:Key="RemoveConditionCommand" TypeName="TestConditionListItem" />
+        <local1:SimpleRemoveFromListCommand x:Key="RemoveConditionCommand"
+                                            DeleteMessage="Are you sure you want to remove this condition?"
+                                            TypeName="TestConditionListItem" />
     </UserControl.Resources>
     <StackPanel>
         <ItemsControl ItemsSource="{Binding ConditionList, ElementName=uc}">

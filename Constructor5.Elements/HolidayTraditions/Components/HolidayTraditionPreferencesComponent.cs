@@ -23,6 +23,7 @@ namespace Constructor5.Elements.HolidayTraditions.Components
             {
                 var tunableTuple1 = listTunable.Get<TunableTuple>(null);
                 tunableTuple1.Set<TunableEnum>("preference", "DOES_NOT_CARE");
+
                 var tunableList1 = tunableTuple1.Get<TunableList>("tests");
                 var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "sim_info");
                 var tunableTuple2 = tunableVariant1.Get<TunableTuple>("sim_info");
@@ -45,7 +46,7 @@ namespace Constructor5.Elements.HolidayTraditions.Components
                 {
                     conditions.Add(condition.Condition);
                 }
-                TestConditionTuning.TuneTestConditions(context.Tuning, conditions, "tests");
+                TestConditionTuning.TuneTestConditions(tunableTuple1, conditions, "tests");
             }
 
             if (IgnoredByToddlers)

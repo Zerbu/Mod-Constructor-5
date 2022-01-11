@@ -9,7 +9,7 @@ using Constructor5.Elements.SituationGoals;
 
 namespace Constructor5.Elements.HolidayTraditions
 {
-    [ElementTypeData("Holiday Tradition", false, ElementTypes = new[] { typeof(HolidayTradition) }, PresetFolders = new[] { "HolidayTradition" })]
+    [ElementTypeData("Holiday Tradition", false, ElementTypes = new[] { typeof(HolidayTradition) }, PresetFolders = new[] { "HolidayTradition" }, IsRootType = true)]
     public class HolidayTradition : SimpleComponentElement<HolidayTraditionComponent>, IExportableElement
     {
         protected override void OnElementCreatedOrLoaded()

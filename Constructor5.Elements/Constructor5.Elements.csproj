@@ -106,6 +106,10 @@
     <Compile Include="AspirationTracks\AspirationTrackMilestonesEditor.xaml.cs">
       <DependentUpon>AspirationTrackMilestonesEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AspirationTracks\AspirationTrackReward.cs" />
+    <Compile Include="AspirationTracks\AspirationTrackRewardEditor.xaml.cs">
+      <DependentUpon>AspirationTrackRewardEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AspirationTracks\AspirationTrackWhimsComponent.cs" />
     <Compile Include="AspirationTracks\AspirationTrackWhimsEditor.xaml.cs">
       <DependentUpon>AspirationTrackWhimsEditor.xaml</DependentUpon>
@@ -217,6 +221,9 @@
     <Compile Include="CompoundConditionElements\CompoundConditionOrGroup.cs" />
     <Compile Include="Emotions\Emotion.cs" />
     <Compile Include="HolidayTraditions\Components\HolidayTraditionBuffsComponent.cs" />
+    <Compile Include="HolidayTraditions\Components\HolidayTraditionBuffsEditor.xaml.cs">
+      <DependentUpon>HolidayTraditionBuffsEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HolidayTraditions\Components\HolidayTraditionGoalEditor.xaml.cs">
       <DependentUpon>HolidayTraditionGoalEditor.xaml</DependentUpon>
     </Compile>
@@ -481,6 +488,12 @@
     <Compile Include="Traits\Components\TraitInfoEditor.xaml.cs">
       <DependentUpon>TraitInfoEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Traits\Components\TraitInfoNameDescriptionIcon.xaml.cs">
+      <DependentUpon>TraitInfoNameDescriptionIcon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Traits\Components\TraitInfoType.xaml.cs">
+      <DependentUpon>TraitInfoType.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Traits\Components\TraitSetupComponent.cs" />
     <Compile Include="Traits\Components\TraitSetupEditor.xaml.cs">
       <DependentUpon>TraitSetupEditor.xaml</DependentUpon>
@@ -504,6 +517,9 @@
     </Compile>
     <Compile Include="Traits\TraitExportContext.cs" />
     <Compile Include="Traits\Components\TraitInfoComponent.cs" />
+    <Compile Include="Traits\TraitMiniEditor.xaml.cs">
+      <DependentUpon>TraitMiniEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Venue\Venue.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -536,6 +552,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="AspirationTracks\AspirationTrackMilestonesEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AspirationTracks\AspirationTrackRewardEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -624,6 +644,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CompoundConditionElements\CompoundConditionElementEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HolidayTraditions\Components\HolidayTraditionBuffsEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -831,6 +855,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Traits\Components\TraitInfoNameDescriptionIcon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\Components\TraitInfoType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Traits\Components\TraitSetupEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -844,6 +876,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Traits\TraitEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\TraitMiniEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:testconditions="clr-namespace:Constructor5.Elements.TestConditions"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              x:Name="uc"
              d:DesignHeight="450"
@@ -12,11 +13,25 @@
              mc:Ignorable="d">
     <StackPanel>
         <components:SituationGoalInfoEditor x:Name="SituationGoalInfoEditor" Margin="0" />
-        <shared:Field Label="Goal Type" LabelWidth="100">
-            <shared:SelectableObjectControl EditorCategory="Invalid"
-                                            Object="{Binding SituationGoalTemplateComponent.Template, ElementName=uc}"
-                                            TypeRegistryCategory="SituationGoalTemplates" />
-        </shared:Field>
-        <shared:ObjectEditorControl EditorCategory="Default" Object="{Binding SituationGoalTemplateComponent.Template, ElementName=uc}" />
+        <TabControl>
+            <TabItem Header="Main Content">
+                <StackPanel>
+                    <shared:Field Label="Goal Type" LabelWidth="100">
+                        <shared:SelectableObjectControl EditorCategory="Invalid"
+                                                        Object="{Binding SituationGoalTemplateComponent.Template, ElementName=uc}"
+                                                        TypeRegistryCategory="SituationGoalTemplates" />
+                    </shared:Field>
+                    <shared:ObjectEditorControl EditorCategory="Default" Object="{Binding SituationGoalTemplateComponent.Template, ElementName=uc}" />
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Post Conditions">
+                <StackPanel>
+                    <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                               Text="These conditions must pass in addition to the goal for it to count."
+                               TextWrapping="Wrap" />
+                    <testconditions:ConditionListControl ConditionList="{Binding SituationGoalPostConditionsComponent.Conditions, ElementName=uc}" />
+                </StackPanel>
+            </TabItem>
+        </TabControl>
     </StackPanel>
 </UserControl>

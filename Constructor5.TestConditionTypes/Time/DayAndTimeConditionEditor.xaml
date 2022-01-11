@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="Constructor5.TestConditionTypes.Time.DayAndTimeConditionEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.TestConditionTypes.Time"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <ObjectDataProvider x:Key="DataProvider"
+                            MethodName="GetValues"
+                            ObjectType="{x:Type shared:EnumSelectorValueGetter}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:DayNightRestriction" />
+                <shared:EnumSelectorReplaceDictionary>
+                    <system:String x:Key="Any">No Restriction</system:String>
+                    <system:String x:Key="Day">Day Only</system:String>
+                    <system:String x:Key="Night">Night Only</system:String>
+                </shared:EnumSelectorReplaceDictionary>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+    <StackPanel>
+        <CheckBox Content="Sunday" IsChecked="{Binding Include0Sunday}" />
+        <CheckBox Content="Monday" IsChecked="{Binding Include1Monday}" />
+        <CheckBox Content="Tuesday" IsChecked="{Binding Include2Tuesday}" />
+        <CheckBox Content="Wednesday" IsChecked="{Binding Include3Wednesday}" />
+        <CheckBox Content="Thursday" IsChecked="{Binding Include4Thursday}" />
+        <CheckBox Content="Friday" IsChecked="{Binding Include5Friday}" />
+        <CheckBox Content="Saturday" IsChecked="{Binding Include6Saturday}" />
+
+        <CheckBox Content="Restrict Time Range" IsChecked="{Binding RestrictTimeRange}" />
+        <StackPanel Visibility="{Binding RestrictTimeRange, Converter={StaticResource BoolToVis}}">
+            <shared:Field Label="Begin Hour" LabelWidth="100">
+                <xctk:IntegerUpDown Maximum="23"
+                                    Minimum="0"
+                                    Text="{Binding TimeBeginHour}" />
+            </shared:Field>
+            <shared:Field Label="Begin Minute" LabelWidth="100">
+                <xctk:IntegerUpDown Maximum="59"
+                                    Minimum="0"
+                                    Text="{Binding TimeBeginMinute}" />
+            </shared:Field>
+            <shared:Field Label="Duration Hours" LabelWidth="100">
+                <xctk:IntegerUpDown Maximum="23"
+                                    Minimum="0"
+                                    Text="{Binding TimeDurationHour}" />
+            </shared:Field>
+            <shared:Field Label="Duration Extra Minutes (after hours have elapsed)" LabelWidth="100">
+                <xctk:IntegerUpDown Maximum="59"
+                                    Minimum="0"
+                                    Text="{Binding TimeDurationMinute}" />
+            </shared:Field>
+        </StackPanel>
+
+        <shared:Field Label="Day/Night Restriction" LabelWidth="100">
+            <ComboBox IsEditable="False"
+                      ItemsSource="{Binding Source={StaticResource DataProvider}}"
+                      SelectedItem="{Binding DayOrNight, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <ContentPresenter Content="{Binding DisplayText}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </shared:Field>
+    </StackPanel>
+</UserControl>

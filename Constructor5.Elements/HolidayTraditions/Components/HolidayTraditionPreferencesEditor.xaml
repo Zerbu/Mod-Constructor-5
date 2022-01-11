@@ -2,6 +2,7 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:dd="urn:gong-wpf-dragdrop"
              xmlns:local="clr-namespace:Constructor5.Elements.HolidayTraditions.Components"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
@@ -23,55 +24,75 @@
                 <x:Type TypeName="local:HolidayTraditionPreferenceType" />
                 <shared:EnumSelectorReplaceDictionary>
                     <system:String x:Key="DOES_NOT_CARE">Ignores</system:String>
-                    <system:String x:Key="LIKES">Likes</system:String>
+                    <system:String x:Key="LIKES">Likes (no preference, but can override lower preferences)</system:String>
                     <system:String x:Key="LOVES">Loves</system:String>
                 </shared:EnumSelectorReplaceDictionary>
             </ObjectDataProvider.MethodParameters>
         </ObjectDataProvider>
     </UserControl.Resources>
     <ScrollViewer>
-        <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <ItemsControl ItemsSource="{Binding Preferences}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-                            <shared:Field Label="Conditions" LabelWidth="100">
-                                <testconditions:ConditionListControl ConditionList="{Binding Conditions}" RegistryCategory="HolidayTraditionConditionTypes" />
-                            </shared:Field>
-                            <shared:Field Label="Preference" LabelWidth="100">
-                                <ComboBox IsEditable="False"
-                                          ItemsSource="{Binding Source={StaticResource DataProvider}}"
-                                          SelectedItem="{Binding Type, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
-                                    <ComboBox.ItemTemplate>
-                                        <DataTemplate>
-                                            <ContentPresenter Content="{Binding DisplayText}" />
-                                        </DataTemplate>
-                                    </ComboBox.ItemTemplate>
-                                </ComboBox>
-                            </shared:Field>
-                            <shared:Field Label="Reason" LabelWidth="100">
-                                <shared:STBLStringControl Text="{Binding Reason}" />
-                            </shared:Field>
-                            <Button Margin="2"
-                                    HorizontalAlignment="Left"
-                                    Command="{StaticResource RemoveCommand}"
-                                    Content="Remove Condition">
-                                <Button.CommandParameter>
-                                    <MultiBinding Converter="{StaticResource MultiParamConverter}">
-                                        <Binding Path="." />
-                                        <Binding Path="ItemsSource" RelativeSource="{RelativeSource AncestorType={x:Type ItemsControl}}" />
-                                    </MultiBinding>
-                                </Button.CommandParameter>
-                            </Button>
-                        </StackPanel>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-            <CheckBox Content="Ignored by toddlers (can be overriden by other preferences)" IsChecked="{Binding IgnoredByToddlers}" />
-            <Button HorizontalAlignment="Left"
-                    Command="{StaticResource AddCommand}"
-                    CommandParameter="{Binding Preferences}"
-                    Content="Add Preference" />
+        <StackPanel Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}">
+
+            <CheckBox Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
+                      Content="Ignored by toddlers (can be overriden by other preferences)"
+                      IsChecked="{Binding IgnoredByToddlers}" />
+
+            <TextBlock Text="Preferences that are higher up in the list will override ones that are lower down." TextWrapping="Wrap" />
+
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                <ListView x:Name="ListView"
+                          dd:DragDrop.IsDragSource="True"
+                          dd:DragDrop.IsDropTarget="True"
+                          ItemsSource="{Binding Preferences}"
+                          SelectionMode="Single">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Reason.CustomText}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Margin="2"
+                                Command="{StaticResource AddCommand}"
+                                CommandParameter="{Binding Preferences}"
+                                Content="Add Preference" />
+                        <Button Margin="2"
+                                Command="{StaticResource RemoveCommand}"
+                                Content="Remove Preference"
+                                Visibility="{Binding SelectedItem, ElementName=ListView, Converter={StaticResource NotNullToVis}}">
+                            <Button.CommandParameter>
+                                <MultiBinding Converter="{StaticResource MultiParamConverter}">
+                                    <Binding ElementName="ListView" Path="SelectedItem" />
+                                    <Binding Path="Preferences" />
+                                </MultiBinding>
+                            </Button.CommandParameter>
+                        </Button>
+                    </StackPanel>
+
+                    <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}" Visibility="{Binding SelectedItem, ElementName=ListView, Converter={StaticResource NotNullToVis}}">
+                        <shared:Field Label="Conditions" LabelWidth="100">
+                            <testconditions:ConditionListControl ConditionList="{Binding SelectedItem.Conditions, ElementName=ListView}" RegistryCategory="HolidayTraditionConditionTypes" />
+                        </shared:Field>
+                        <shared:Field Label="Preference" LabelWidth="100">
+                            <ComboBox IsEditable="False"
+                                      ItemsSource="{Binding Source={StaticResource DataProvider}}"
+                                      SelectedItem="{Binding SelectedItem.Type, ElementName=ListView, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <ContentPresenter Content="{Binding DisplayText}" />
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                        </shared:Field>
+                        <shared:Field Label="Reason" LabelWidth="100">
+                            <shared:STBLStringControl Text="{Binding SelectedItem.Reason, ElementName=ListView}" />
+                        </shared:Field>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
         </StackPanel>
     </ScrollViewer>
 </UserControl>

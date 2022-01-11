@@ -38,12 +38,9 @@
         <shared:Field Label="CAS Trait"
                       LabelWidth="100"
                       Visibility="{Binding HasCustomCASTrait, Converter={StaticResource BoolToVis}}">
-            <shared:ReferenceControl ElementTypeName="Trait" Reference="{Binding CASTrait}" />
-        </shared:Field>
-
-        <shared:Field Label="Reward" LabelWidth="100">
-            <shared:ReferenceControl ElementTypeName="RewardSet"
-                                     Reference="{Binding Reward}"
+            <shared:ReferenceControl CreateElementFunction="ReferenceControl_CreateElementFunction"
+                                     ElementTypeName="Trait"
+                                     Reference="{Binding CASTrait}"
                                      ShowCreateButton="True" />
         </shared:Field>
 

@@ -8,6 +8,7 @@ using Constructor5.Base.ExportSystem.AutoTuners;
 namespace Constructor5.TestConditionTypes.SimInfo
 {
     [SelectableObjectType("TestConditionTypes", "Sim Info Condition")]
+    [SelectableObjectType("HolidayTraditionConditionTypes", "Sim Info Condition")]
     [XmlSerializerExtraType]
     public class SimInfoCondition : TestCondition
     {

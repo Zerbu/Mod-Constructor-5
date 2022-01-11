@@ -33,9 +33,6 @@ namespace Constructor5.Elements.AspirationTracks
         [AutoTuneBasic("display_text")]
         public STBLString Name { get; set; } = new STBLString();
 
-        [AutoTuneBasic("reward")]
-        public Reference Reward { get; set; } = new Reference();
-
         protected internal override void OnExport(AspirationTrackExportContext context)
         {
             AutoTunerInvoker.Invoke(this, context.Tuning);
@@ -65,8 +62,6 @@ namespace Constructor5.Elements.AspirationTracks
 
             var casTraitKey = (ulong)ElementTuning.GetSingleInstanceKey(HasCustomCASTrait ? CASTrait : GetDefaultCASTrait());
             header.SimDataHandler.Write(200, casTraitKey);
-
-            header.SimDataHandler.Write(208, ElementTuning.GetSingleInstanceKey(Reward) ?? 0);
         }
 
         private Reference GetDefaultCASTrait()

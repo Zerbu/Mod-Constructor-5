@@ -115,8 +115,6 @@ namespace Constructor5.Base.Export
 
                 elements = ContextSpecificElementsToExport;
             } while (elements.Count() > 0);
-
-            // todo: option to delete context-specific elements
         }
 
         private void ExportImports()
@@ -264,6 +262,12 @@ namespace Constructor5.Base.Export
             }
 
             package.SaveAs(PackageFile);
+            package.Dispose();
+
+            foreach(var file in QueuedFiles)
+            {
+                file.Value.Close();
+            }
         }
     }
 }

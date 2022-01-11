@@ -12,63 +12,16 @@
     <d:UserControl.DataContext>
         <local:TraitInfoComponent />
     </d:UserControl.DataContext>
-    <UserControl.Resources>
-        <ObjectDataProvider x:Key="TraitTypeDataProvider"
-                            MethodName="GetValues"
-                            ObjectType="{x:Type system:Enum}">
-            <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="local:TraitTypes" />
-            </ObjectDataProvider.MethodParameters>
-        </ObjectDataProvider>
-        <ObjectDataProvider x:Key="TraitCategoryDataProvider"
-                            MethodName="GetValues"
-                            ObjectType="{x:Type system:Enum}">
-            <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="local:TraitCategories" />
-            </ObjectDataProvider.MethodParameters>
-        </ObjectDataProvider>
-    </UserControl.Resources>
 
     <StackPanel>
         <!--  Main Info  -->
         <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <shared:Field Label="Name" LabelWidth="100">
-                <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
-            </shared:Field>
-            <shared:Field Label="Description" LabelWidth="100">
-                <shared:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
-            </shared:Field>
-            <shared:Field Label="Icon" LabelWidth="100">
-                <shared:IconControl Icon="{Binding Icon}" />
-            </shared:Field>
+            <local:TraitInfoNameDescriptionIcon />
         </StackPanel>
 
         <!--  Type + Category  -->
         <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <shared:Field Label="Type" LabelWidth="100">
-                <StackPanel>
-                    <ComboBox IsEditable="False"
-                              ItemsSource="{Binding Source={StaticResource TraitTypeDataProvider}}"
-                              SelectedItem="{Binding TraitType}" />
-                </StackPanel>
-            </shared:Field>
-            <StackPanel>
-                <StackPanel.Style>
-                    <Style TargetType="{x:Type StackPanel}">
-                        <Setter Property="Visibility" Value="Collapsed" />
-                        <Style.Triggers>
-                            <DataTrigger Binding="{Binding TraitType}" Value="Personality">
-                                <Setter Property="Visibility" Value="Visible" />
-                            </DataTrigger>
-                        </Style.Triggers>
-                    </Style>
-                </StackPanel.Style>
-                <shared:Field Label="Category" LabelWidth="100">
-                    <ComboBox IsEditable="False"
-                              ItemsSource="{Binding Source={StaticResource TraitCategoryDataProvider}}"
-                              SelectedItem="{Binding TraitCategory}" />
-                </shared:Field>
-            </StackPanel>
+            <local:TraitInfoType />
         </StackPanel>
 
         <!--  Ages  -->

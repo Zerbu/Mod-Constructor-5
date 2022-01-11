@@ -23,6 +23,11 @@ namespace Constructor5.Elements.Rewards
                 UIInfoStackPanel.Children.Remove(DescriptionField);
                 DescriptionAtTopPresenter.Content = DescriptionField;
             }
+            if (tag == "Aspiration")
+            {
+                NotificationTab.Visibility = System.Windows.Visibility.Collapsed;
+                HouseholdRewardCheckBox.Visibility = System.Windows.Visibility.Collapsed;
+            }
         }
 
         private void SelectableObjectControl_DeleteButtonClicked(SelectableObjectControl control)

@@ -51,7 +51,9 @@
                       Visibility="{Binding SetScore, Converter={StaticResource BoolToVis}}">
             <xctk:IntegerUpDown Text="{Binding Score}" />
         </shared:Field>
-        <Expander Margin="{StaticResource Constructor.BigPaddingMinusTop}" Header="Role Tags">
+        <Expander x:Name="RoleTagsExpander"
+                  Margin="{StaticResource Constructor.BigPaddingMinusTop}"
+                  Header="Role Tags">
             <StackPanel>
                 <TextBlock Text="The goal will only be given to Sims in situation jobs with these tags." TextWrapping="Wrap" />
                 <shared:StringListControl PresetsFolder="RoleTag" StringList="{Binding RoleTags}" />

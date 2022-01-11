@@ -1,5 +1,6 @@
 ﻿using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
@@ -43,7 +44,7 @@ namespace Constructor5.Elements.Traits.Components
         public ElementIcon Icon { get; set; } = new ElementIcon();
 
         [AutoTuneBasic("display_name")]
-        public STBLString Name { get; set; }
+        public STBLString Name { get; set; } = new STBLString();
 
         public TraitCategories TraitCategory { get; set; } = TraitCategories.Emotional;
         public TraitTypes TraitType { get; set; } = TraitTypes.Gameplay;
@@ -84,13 +85,22 @@ namespace Constructor5.Elements.Traits.Components
                 return;
             }
 
+            var typeTunable = context.Tuning.Set<TunableEnum>("trait_type", "PERSONALITY");
+            if (TraitType == TraitTypes.Personality)
+            {
+                var tunableList1 = context.Tuning.Get<TunableList>("tags");
+                tunableList1.Set<TunableBasic>(null, "TraitPersonality");
+                tunableList1.Set<TunableBasic>(null, GetCategoryTag());
+                context.Tuning.Set<TunableVariant>("ui_category", "ui_trait_category_tag");
+            }
+
             var header = context.Tuning;
             header.SimDataHandler.WriteText(188, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
             header.SimDataHandler.WriteText(232, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
             header.SimDataHandler.WriteTGI(200, Icon.GetUncommentedText());
 
             SimDataTuneAges(context);
-            SimDataTuneType(context);
+            SimDataTuneType(context, (TunableEnum)typeTunable);
         }
 
         private ulong GetCategorySimDataTag()
@@ -147,7 +157,7 @@ namespace Constructor5.Elements.Traits.Components
             context.Tuning.SimDataHandler.WriteList(256, simDataList, 7, true);
         }
 
-        private void SimDataTuneType(TraitExportContext context)
+        private void SimDataTuneType(TraitExportContext context, TunableEnum typeTunable)
         {
             switch (TraitType)
             {
@@ -157,9 +167,19 @@ namespace Constructor5.Elements.Traits.Components
                     break;
                 case TraitTypes.Gameplay:
                     context.Tuning.SimDataHandler.Write(240, 1);
-                break;
+                    typeTunable.Set<TunableEnum>("trait_type", "GAMEPLAY");
+                    break;
                 case TraitTypes.Hidden:
                     context.Tuning.SimDataHandler.Write(240, 4);
+                    typeTunable.Set<TunableEnum>("trait_type", "HIDDEN");
+                    break;
+                case TraitTypes.Aspiration:
+                    context.Tuning.SimDataHandler.Write(240, 6);
+                    typeTunable.Set<TunableEnum>("trait_type", "ASPIRATION");
+                    break;
+                case TraitTypes.Phase:
+                    context.Tuning.SimDataHandler.Write(240, 10);
+                    typeTunable.Set<TunableEnum>("trait_type", "PHASE");
                     break;
                 /*
                     WALKSTYLE = 2

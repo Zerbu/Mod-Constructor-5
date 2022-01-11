@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{700DFCB4-4735-4094-B0BD-33752C946A11}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Constructor5.DebugTools.PresetExtractor</RootNamespace>
+    <AssemblyName>Constructor5.DebugTools.PresetExtractor</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="s4pi.Interfaces">
+      <HintPath>..\..\..\..\Programs\S4PE\s4pi.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="s4pi.Package">
+      <HintPath>..\References\s4pi.Package.dll</HintPath>
+    </Reference>
+    <Reference Include="s4pi.StblResource">
+      <HintPath>..\References\s4pi.StblResource.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Custom">
+      <HintPath>..\..\..\..\Programs\S4PE\System.Custom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PresetInstruction.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="InstructionBatches.cs" />
+    <Compile Include="STBLHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
+      <Project>{F6468A79-3DA7-4F70-878B-D3C47E67294E}</Project>
+      <Name>Constructor5.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
+      <Project>{C0F0F8A5-0F1D-47CA-A3D9-A58042374574}</Project>
+      <Name>Constructor5.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Elements\Constructor5.Elements.csproj">
+      <Project>{8cdaf7b3-75c2-4365-a29e-ba5d85bc24eb}</Project>
+      <Name>Constructor5.Elements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.InteractionTemplates\Constructor5.InteractionTemplates.csproj">
+      <Project>{64663fbd-015c-49e6-a7b7-b0eaca5d5ec1}</Project>
+      <Name>Constructor5.InteractionTemplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.LootActionTypes\Constructor5.LootActionTypes.csproj">
+      <Project>{5d5c551a-f4d0-4965-894f-cdb404666d52}</Project>
+      <Name>Constructor5.LootActionTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.SimFilterTypes\Constructor5.SimFilterTypes.csproj">
+      <Project>{dcc506f4-8e58-4f58-8662-156f8f93e16f}</Project>
+      <Name>Constructor5.SimFilterTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.SituationGoalTemplates\Constructor5.SituationGoalTemplates.csproj">
+      <Project>{b0b3cc1f-0dbe-4a47-80a5-dd459193cec9}</Project>
+      <Name>Constructor5.SituationGoalTemplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.SituationTemplates\Constructor5.SituationTemplates.csproj">
+      <Project>{04fdf334-0873-4a4b-bacf-ee632e6b33c3}</Project>
+      <Name>Constructor5.SituationTemplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.TestConditionTypes\Constructor5.TestConditionTypes.csproj">
+      <Project>{5a2fae23-9c84-408d-b637-42d843649929}</Project>
+      <Name>Constructor5.TestConditionTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.UI\Constructor5.UI.csproj">
+      <Project>{92267ec9-b06a-44ac-b383-f40c4d6a5755}</Project>
+      <Name>Constructor5.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

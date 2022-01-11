@@ -41,6 +41,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "~Main", "~Main", "{BD95E8D4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extra", "Extra", "{090CD6DE-565B-48D6-B61D-C708379C076A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5.DebugTools.PresetExtractor", "Constructor5.DebugTools.PresetExtractor\Constructor5.DebugTools.PresetExtractor.csproj", "{700DFCB4-4735-4094-B0BD-33752C946A11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,14 @@ Global
 		{B0B3CC1F-0DBE-4A47-80A5-DD459193CEC9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B0B3CC1F-0DBE-4A47-80A5-DD459193CEC9}.Release|x64.ActiveCfg = Release|x64
 		{B0B3CC1F-0DBE-4A47-80A5-DD459193CEC9}.Release|x64.Build.0 = Release|x64
+		{700DFCB4-4735-4094-B0BD-33752C946A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700DFCB4-4735-4094-B0BD-33752C946A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700DFCB4-4735-4094-B0BD-33752C946A11}.Debug|x64.ActiveCfg = Debug|x64
+		{700DFCB4-4735-4094-B0BD-33752C946A11}.Debug|x64.Build.0 = Debug|x64
+		{700DFCB4-4735-4094-B0BD-33752C946A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700DFCB4-4735-4094-B0BD-33752C946A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700DFCB4-4735-4094-B0BD-33752C946A11}.Release|x64.ActiveCfg = Release|Any CPU
+		{700DFCB4-4735-4094-B0BD-33752C946A11}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +192,7 @@ Global
 		{B0B3CC1F-0DBE-4A47-80A5-DD459193CEC9} = {090CD6DE-565B-48D6-B61D-C708379C076A}
 		{BD95E8D4-9BAB-418D-8182-77A90D4E4977} = {02BDAF7E-804E-4BFC-821D-C4DD63D84586}
 		{090CD6DE-565B-48D6-B61D-C708379C076A} = {02BDAF7E-804E-4BFC-821D-C4DD63D84586}
+		{700DFCB4-4735-4094-B0BD-33752C946A11} = {52B09123-8EC1-4E5A-A2F4-8DCDD656AC5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7BFE636-B571-4472-A775-50917DF7D61F}

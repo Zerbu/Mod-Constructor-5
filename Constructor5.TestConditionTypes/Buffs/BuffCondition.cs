@@ -9,7 +9,7 @@ namespace Constructor5.TestConditionTypes.Buffs
 {
     [SelectableObjectType("TestConditionTypes", "Buff Condition")]
     [SelectableObjectType("SituationGoalConditionTypes", "Buff Condition")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Buff Condition")]
+    //[SelectableObjectType("ObjectiveConditionTypes", "Buff Condition")]
     [XmlSerializerExtraType]
     public class BuffCondition : TestCondition
     {

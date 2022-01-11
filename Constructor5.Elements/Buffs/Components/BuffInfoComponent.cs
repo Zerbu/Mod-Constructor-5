@@ -103,6 +103,11 @@ namespace Constructor5.Elements.Buffs.Components
                 {
                     tunableTuple1.Set<TunableBasic>("max_duration", Duration);
                 }
+
+                if (ElementTuning.GetSingleInstanceKey(Emotion) == 14638)
+                {
+                    TuneFlirtyBlocker(context);
+                }
             }
 
             var header = (TuningHeader)context.Tuning;
@@ -115,6 +120,15 @@ namespace Constructor5.Elements.Buffs.Components
                 header.SimDataHandler.Write(184, Convert.ToUInt64(ElementTuning.GetInstanceKeys(Emotion)[0]));
                 header.SimDataHandler.Write(192, Convert.ToInt32(EmotionWeight));
             }
+        }
+
+        private void TuneFlirtyBlocker(BuffExportContext context)
+        {
+            var tunableVariant1 = context.Tuning.Set<TunableVariant>("_add_test_set", "tests_set");
+            var tunableList1 = tunableVariant1.Get<TunableList>("tests_set");
+            var tunableList2 = tunableList1.Get<TunableList>(null);
+            var tunableVariant2 = tunableList2.Set<TunableVariant>(null, "test_set_reference");
+            tunableVariant2.Set<TunableBasic>("test_set_reference", "34093");
         }
     }
 }

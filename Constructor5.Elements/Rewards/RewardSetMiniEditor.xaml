@@ -15,7 +15,7 @@
                                             Type="{x:Type local:RewardItem}" />
     </UserControl.Resources>
     <StackPanel>
-        <CheckBox IsChecked="{Binding IsHouseholdReward}">
+        <CheckBox x:Name="HouseholdRewardCheckBox" IsChecked="{Binding IsHouseholdReward}">
             <StackPanel>
                 <TextBlock Text="Is Household Reward" />
                 <TextBlock FontStyle="Italic"
@@ -50,7 +50,7 @@
                             Content="Add Reward" />
                 </StackPanel>
             </TabItem>
-            <TabItem Header="Notification">
+            <TabItem x:Name="NotificationTab" Header="Notification">
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
                     <CheckBox Content="Show Notification" IsChecked="{Binding ShowNotification}" />
                     <shared:NotificationOrDialogControl CanChangeType="False"
@@ -60,14 +60,27 @@
             </TabItem>
             <TabItem x:Name="UIInfoTab" Header="UI Info">
                 <StackPanel x:Name="UIInfoStackPanel" Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                    <shared:Field Label="Name" LabelWidth="100">
-                        <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding}" />
-                    </shared:Field>
-                    <shared:Field x:Name="DescriptionField"
-                                  Label="Description"
-                                  LabelWidth="100">
-                        <shared:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
-                    </shared:Field>
+                    <CheckBox IsChecked="{Binding GenerateUIInfo}">
+                        <StackPanel>
+                            <TextBlock Text="Get UI info from the first custom trait reward" TextWrapping="Wrap" />
+                            <TextBlock FontStyle="Italic"
+                                       Text="This only works with custom traits that are part of this mod. It does not work with EA traits or manually inputted keys."
+                                       TextWrapping="Wrap" />
+                        </StackPanel>
+                    </CheckBox>
+                    <StackPanel Visibility="{Binding GenerateUIInfo, Converter={StaticResource BoolToVisInverted}}">
+                        <shared:Field Label="Name" LabelWidth="100">
+                            <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding}" />
+                        </shared:Field>
+                        <shared:Field x:Name="DescriptionField"
+                                      Label="Description"
+                                      LabelWidth="100">
+                            <shared:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
+                        </shared:Field>
+                        <shared:Field Label="Icon" LabelWidth="100">
+                            <shared:IconControl Icon="{Binding Icon}" />
+                        </shared:Field>
+                    </StackPanel>
                 </StackPanel>
             </TabItem>
         </TabControl>

@@ -10,6 +10,7 @@
              mc:Ignorable="d">
     <ScrollViewer>
         <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+            <TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}" Text="Aspirations are made of milestones (objective sets) and objectives." />
             <shared:ReferenceListControl CreateElementFunction="ReferenceListControl_CreateElementFunction"
                                          EditorCategory="Default"
                                          ElementReferenceList="{Binding Milestones}"

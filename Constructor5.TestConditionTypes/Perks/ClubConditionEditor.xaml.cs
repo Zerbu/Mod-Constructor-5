@@ -4,6 +4,7 @@ using System.Windows.Controls;
 namespace Constructor5.TestConditionTypes.Perks
 {
     [ObjectEditor(typeof(ClubCondition))]
+    [ObjectEditor(typeof(ClubObjectiveCondition))]
     public partial class ClubConditionEditor : UserControl, IObjectEditor
     {
         public ClubConditionEditor() => InitializeComponent();

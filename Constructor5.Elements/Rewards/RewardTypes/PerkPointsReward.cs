@@ -12,7 +12,7 @@ namespace Constructor5.Elements.Rewards.RewardTypes
         public PerkPointsReward() => GeneratedLabel = "Perk Points Reward";
 
         public int Amount { get; set; } = 10;
-        public string PerkType { get; set; } = "InfluenceBuck";
+        public string PerkType { get; set; }
 
         protected internal override string GetVariantName() => "bucks";
 

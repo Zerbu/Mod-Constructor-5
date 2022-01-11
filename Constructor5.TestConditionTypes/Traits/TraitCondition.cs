@@ -9,6 +9,7 @@ namespace Constructor5.TestConditionTypes
 {
     [SelectableObjectType("TestConditionTypes", "Trait Condition")]
     [SelectableObjectType("ObjectiveConditionTypes", "Trait Condition")]
+    [SelectableObjectType("HolidayTraditionConditionTypes", "Trait Condition")]
     [XmlSerializerExtraType]
     public class TraitCondition : TestCondition
     {

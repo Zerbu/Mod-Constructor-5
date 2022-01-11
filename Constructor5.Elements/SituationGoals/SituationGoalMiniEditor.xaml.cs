@@ -43,6 +43,11 @@ namespace Constructor5.Elements.SituationGoals
             ((IObjectEditor)SituationGoalInfoEditor).SetObject(((SituationGoal)obj).GetComponent<SituationGoalInfoComponent>(), null);
             SituationGoalTemplateComponent = ((SituationGoal)obj).GetComponent<SituationGoalTemplateComponent>();
             SituationGoalPostConditionsComponent = ((SituationGoal)obj).GetComponent<SituationGoalPostConditionsComponent>();
+            if (tag == "Whim")
+            {
+                SituationGoalInfoEditor.RoleTagsExpander.Visibility = Visibility.Collapsed;
+                SituationGoalInfoEditor.SetScoreCheckBox.Visibility = Visibility.Collapsed;
+            }
         }
     }
 }

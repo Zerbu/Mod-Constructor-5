@@ -13,7 +13,7 @@ using System.Linq;
 
 namespace Constructor5.Elements.AspirationTracks
 {
-    [ElementTypeData("Aspiration Track", false, ElementTypes = new[] { typeof(AspirationTrack) }, PresetFolders = new[] { "AspirationTrack" })]
+    [ElementTypeData("Aspiration Track", false, ElementTypes = new[] { typeof(AspirationTrack) }, PresetFolders = new[] { "AspirationTrack" }, IsRootType = true)]
     public class AspirationTrack : SimpleComponentElement<AspirationTrackComponent>, IExportableElement
     {
         void IExportableElement.OnExport()

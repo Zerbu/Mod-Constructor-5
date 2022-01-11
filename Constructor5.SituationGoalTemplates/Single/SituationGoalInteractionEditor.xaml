@@ -51,7 +51,8 @@
                     <CheckBox Content="Wait Until Completion"
                               IsChecked="{Binding WaitUntilCompletion}"
                               Visibility="{Binding SuccessfulOnly, Converter={StaticResource BoolToVisInverted}}" />
-                    <CheckBox Content="Include Cancelled Interactions" IsChecked="{Binding IncludeCancelledInteractions}" />
+                    <CheckBox Content="Include interactions that were cancelled by the player" IsChecked="{Binding IncludeCancelledInteractions}" />
+                    <CheckBox Content="Include interactions that were cancelled by the game" IsChecked="{Binding IncludeGameCancelledInteractions}" />
                     <shared:Field Label="Minimum Running Time" LabelWidth="175">
                         <xctk:IntegerUpDown Text="{Binding MinimumRunningTime}" />
                     </shared:Field>

@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="Constructor5.TestConditionTypes.Interactions.ObjectiveInteractionConditionEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.TestConditionTypes.Interactions"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <StackPanel>
+        <shared:Field Label="Interactions" LabelWidth="150">
+            <shared:ReferenceListControl ElementReferenceList="{Binding Interactions}" ElementTypeName="AnyInteraction" />
+        </shared:Field>
+        <shared:Field Label="Interaction Tags" LabelWidth="150">
+            <shared:StringListControl PresetsFolder="InteractionTag" StringList="{Binding InteractionTags}" />
+        </shared:Field>
+        <CheckBox IsChecked="{Binding SuccessfulOnly}">
+            <StackPanel>
+                <TextBlock Text="Successful Only" />
+                <TextBlock FontStyle="Italic" TextWrapping="Wrap">The definition of success depends on how the game defines it. For positive social interactions, the interaction is successful if it leads to a positive relationship gain. For games, the interaction is successful if the Sim wins.</TextBlock>
+            </StackPanel>
+        </CheckBox>
+        <CheckBox Content="Include interactions that were cancelled by the player" IsChecked="{Binding IncludeCancelledInteractions}" />
+        <CheckBox Content="Include interactions that were cancelled by the game" IsChecked="{Binding IncludeGameCancelledInteractions}" />
+        <shared:Field Label="Minimum Running Time" LabelWidth="175">
+            <xctk:IntegerUpDown Text="{Binding MinimumRunningTime}" />
+        </shared:Field>
+    </StackPanel>
+</UserControl>

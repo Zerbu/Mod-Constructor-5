@@ -14,6 +14,7 @@ namespace Constructor5.Elements.SituationGoals.Templates
     public class SituationGoalInteractionTemplate : SituationGoalTemplate
     {
         public bool IncludeCancelledInteractions { get; set; }
+        public bool IncludeGameCancelledInteractions { get; set; } = true;
         public bool InSituationOnly { get; set; }
         public ReferenceList Interactions { get; set; } = new ReferenceList();
         public ObservableCollection<string> InteractionTags { get; } = new ObservableCollection<string>();
@@ -56,9 +57,14 @@ namespace Constructor5.Elements.SituationGoals.Templates
                 tunableList2.Set<TunableEnum>(null, tag);
             }
 
+            if (!IncludeGameCancelledInteractions)
+            {
+                tunableTuple1.Set<TunableBasic>("consider_all_cancelled_as_failure", "True");
+            }
+
             if (IncludeCancelledInteractions)
             {
-                tunableTuple1.Set<TunableBasic>("consider_all_cancelled_as_failure", "False");
+                tunableTuple1.Set<TunableBasic>("consider_user_cancelled_as_failure", "False");
             }
 
             if (SuccessfulOnly)

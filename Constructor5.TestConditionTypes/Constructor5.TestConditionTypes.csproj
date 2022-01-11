@@ -87,6 +87,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buffs\BuffAddedCondition.cs" />
+    <Compile Include="Buffs\BuffAddedConditionEditor.xaml.cs">
+      <DependentUpon>BuffAddedConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Buffs\BuffCondition.cs" />
     <Compile Include="Buffs\BuffConditionEditor.xaml.cs">
       <DependentUpon>BuffConditionEditor.xaml</DependentUpon>
@@ -165,6 +169,10 @@
     <Compile Include="Interactions\InteractionRunningConditionEditor.xaml.cs">
       <DependentUpon>InteractionRunningConditionEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Interactions\ObjectiveInteractionCondition.cs" />
+    <Compile Include="Interactions\ObjectiveInteractionConditionEditor.xaml.cs">
+      <DependentUpon>ObjectiveInteractionConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Locations\LocationCondition.cs" />
     <Compile Include="Locations\LocationConditionEditor.xaml.cs">
       <DependentUpon>LocationConditionEditor.xaml</DependentUpon>
@@ -172,13 +180,26 @@
     <Compile Include="Locations\LocationIsOutside.cs" />
     <Compile Include="Locations\LocationObjectiveCondition.cs" />
     <Compile Include="Locations\LocationOnLot.cs" />
+    <Compile Include="Outfits\OutfitCondition.cs" />
+    <Compile Include="Outfits\OutfitConditionEditor.xaml.cs">
+      <DependentUpon>OutfitConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Perks\ClubCondition.cs" />
     <Compile Include="Perks\ClubConditionEditor.xaml.cs">
       <DependentUpon>ClubConditionEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Perks\ClubConditionYesNoAny.cs" />
     <Compile Include="Perks\ClubInteractionRule.cs" />
+    <Compile Include="Perks\ClubObjectiveCondition.cs" />
+    <Compile Include="Perks\ClubPointsEarnedCondition.cs" />
+    <Compile Include="Perks\ClubPointsEarnedConditionEditor.xaml.cs">
+      <DependentUpon>ClubPointsEarnedConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Perks\ClubStatus.cs" />
+    <Compile Include="Perks\PerkAmountCondition.cs" />
+    <Compile Include="Perks\PerkAmountConditionEditor.xaml.cs">
+      <DependentUpon>PerkAmountConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PresetSelector\ConditionAgePreset.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -225,6 +246,11 @@
     <Compile Include="Statistics\StatisticConditionEditor.xaml.cs">
       <DependentUpon>StatisticConditionEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Time\DayAndTimeCondition.cs" />
+    <Compile Include="Time\DayAndTimeConditionEditor.xaml.cs">
+      <DependentUpon>DayAndTimeConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Time\DayNightRestriction.cs" />
     <Compile Include="Traits\TraitCondition.cs" />
     <Compile Include="Traits\TraitConditionEditor.xaml.cs">
       <DependentUpon>TraitConditionEditor.xaml</DependentUpon>
@@ -261,6 +287,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Buffs\BuffAddedConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Buffs\BuffConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -337,11 +367,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Interactions\ObjectiveInteractionConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Locations\LocationConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Outfits\OutfitConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Perks\ClubConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Perks\ClubPointsEarnedConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Perks\PerkAmountConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -370,6 +416,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Statistics\StatisticConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Time\DayAndTimeConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

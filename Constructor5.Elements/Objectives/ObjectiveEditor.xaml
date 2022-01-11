@@ -33,7 +33,7 @@
     </UserControl.Resources>
     <TabControl>
         <TabItem Header="Main Content">
-            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
                 <shared:Field Label="Name" LabelWidth="150">
                     <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding}" />
                 </shared:Field>
@@ -41,7 +41,7 @@
                     <shared:STBLStringControl Text="{Binding ToolTip}" />
                 </shared:Field>
                 <shared:Field Label="Satisfaction Points" LabelWidth="150">
-                    <xctk:IntegerUpDown Increment="50"
+                    <xctk:IntegerUpDown Increment="25"
                                         Minimum="0"
                                         Text="{Binding SatisfactionPoints}" />
                 </shared:Field>
@@ -98,37 +98,15 @@
             </StackPanel>
         </TabItem>
         <TabItem Header="Post Conditions">
-            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-                <TextBlock Text="In addition to the primary condition, these conditions must pass for the objective (or an iteration of it) to count as completed." />
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                <TextBlock Text="In addition to the primary condition, these conditions must pass for the objective (or an iteration of it) to count as completed." TextWrapping="Wrap" />
                 <StackPanel>
-                    <ItemsControl ItemsSource="{Binding PostConditions}">
-                        <ItemsControl.ItemTemplate>
-                            <DataTemplate DataType="{x:Type conditions:TestConditionListItem}">
-                                <shared:SelectableObjectControl DeleteCommand="{StaticResource RemoveConditionCommand}"
-                                                                EditorCategory="Default"
-                                                                Object="{Binding Condition}"
-                                                                ShowDeleteButton="True"
-                                                                Tag="{Binding}"
-                                                                TypeRegistryCategory="TestConditionTypes">
-                                    <shared:SelectableObjectControl.DeleteCommandParameter>
-                                        <MultiBinding Converter="{StaticResource MultiParamConverter}">
-                                            <Binding Path="." />
-                                            <Binding Path="ItemsSource" RelativeSource="{RelativeSource AncestorType={x:Type ItemsControl}}" />
-                                        </MultiBinding>
-                                    </shared:SelectableObjectControl.DeleteCommandParameter>
-                                </shared:SelectableObjectControl>
-                            </DataTemplate>
-                        </ItemsControl.ItemTemplate>
-                    </ItemsControl>
-                    <Button HorizontalAlignment="Left"
-                            Command="{StaticResource AddConditionCommand}"
-                            CommandParameter="{Binding PostConditions}"
-                            Content="Add Condition" />
+                    <conditions:ConditionListControl ConditionList="{Binding PostConditions}" />
                 </StackPanel>
             </StackPanel>
         </TabItem>
         <TabItem Header="Advanced">
-            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
                 <CheckBox IsChecked="{Binding AlwaysTrack}">
                     <StackPanel>
                         <TextBlock Text="Always Track" />
