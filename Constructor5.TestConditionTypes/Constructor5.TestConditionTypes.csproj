@@ -160,11 +160,18 @@
     <Compile Include="Compound\CompoundConditionSelector.xaml.cs">
       <DependentUpon>CompoundConditionSelector.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Crafting\ObjectCraftedCondition.cs" />
+    <Compile Include="Crafting\ObjectCraftedConditionEditor.xaml.cs">
+      <DependentUpon>ObjectCraftedConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Crafting\ObjectCraftedConditionTypes.cs" />
     <Compile Include="Emotions\EmotionCondition.cs" />
     <Compile Include="Emotions\EmotionConditionEditor.xaml.cs">
       <DependentUpon>EmotionConditionEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Emotions\EmotionObjectiveCondition.cs" />
+    <Compile Include="HolidayTraditionPresets.cs" />
+    <Compile Include="HolidayTraditionPresetsActionAttribute.cs" />
     <Compile Include="Interactions\InteractionRunningCondition.cs" />
     <Compile Include="Interactions\InteractionRunningConditionEditor.xaml.cs">
       <DependentUpon>InteractionRunningConditionEditor.xaml</DependentUpon>
@@ -356,6 +363,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Compound\CompoundConditionSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Crafting\ObjectCraftedConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -91,10 +91,11 @@
                     </shared:Field>
                 </StackPanel>
                 <shared:Field Label="Primary Condition" LabelWidth="150">
-                    <shared:SelectableObjectControl EditorCategory="Default"
+                    <shared:SelectableObjectControl EditorCategory="Invalid"
                                                     Object="{Binding PrimaryCondition}"
                                                     TypeRegistryCategory="ObjectiveConditionTypes" />
                 </shared:Field>
+                <shared:ObjectEditorControl EditorCategory="Default" Object="{Binding PrimaryCondition}" />
             </StackPanel>
         </TabItem>
         <TabItem Header="Post Conditions">

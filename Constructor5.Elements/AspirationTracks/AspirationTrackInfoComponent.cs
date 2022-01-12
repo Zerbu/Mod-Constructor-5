@@ -60,8 +60,8 @@ namespace Constructor5.Elements.AspirationTracks
 
             header.SimDataHandler.Write(136, ElementTuning.GetSingleInstanceKey(Category) ?? 0);
 
-            var casTraitKey = (ulong)ElementTuning.GetSingleInstanceKey(HasCustomCASTrait ? CASTrait : GetDefaultCASTrait());
-            header.SimDataHandler.Write(200, casTraitKey);
+            var casTraitKey = ElementTuning.GetSingleInstanceKey(HasCustomCASTrait ? CASTrait : GetDefaultCASTrait());
+            header.SimDataHandler.Write(200, casTraitKey ?? 0);
         }
 
         private Reference GetDefaultCASTrait()

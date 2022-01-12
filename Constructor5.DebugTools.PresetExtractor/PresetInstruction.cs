@@ -11,8 +11,10 @@ namespace Constructor5.DebugTools.PresetExtractor
         public string NameXMLTag { get; set; }
         public string SearchString { get; set; }
         public string XMLDirectory { get; set; }
+        public bool SplitByPack { get; set; }
+        public string SubType { get; set; }
 
-        public static PresetInstruction[] CreateBatch(string xmlDirectory, string exportDirectory, string allName, string nameTag, Dictionary<string, string> searchStrings)
+        public static PresetInstruction[] CreateBatch(string xmlDirectory, string exportDirectory, string allName, string nameTag, Dictionary<string, string> searchStrings, string subType = null)
         {
             var result = new List<PresetInstruction>();
 
@@ -21,7 +23,9 @@ namespace Constructor5.DebugTools.PresetExtractor
                 ExportDirectory = exportDirectory,
                 ExportFileName = allName,
                 NameXMLTag = nameTag,
-                XMLDirectory = xmlDirectory
+                XMLDirectory = xmlDirectory,
+                SplitByPack = true,
+                SubType = subType
             };
             result.Add(allInstruction);
 
@@ -33,7 +37,8 @@ namespace Constructor5.DebugTools.PresetExtractor
                     ExportFileName = searchString.Key,
                     NameXMLTag = nameTag,
                     SearchString = searchString.Value,
-                    XMLDirectory = xmlDirectory
+                    XMLDirectory = xmlDirectory,
+                    SubType = subType
                 });
             }
 

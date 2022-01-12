@@ -1,6 +1,6 @@
 ﻿using Constructor5.Base.ExportSystem.Tuning;
-using Constructor5.Elements.TestConditions;
 using Constructor5.Core;
+using Constructor5.Elements.TestConditions;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -10,11 +10,18 @@ namespace Constructor5.Elements.HolidayTraditions.Components
     [XmlSerializerExtraType]
     public class HolidayTraditionPreferencesComponent : HolidayTraditionComponent
     {
+        public static Action<HolidayTraditionPreference> AddToddlerPreference { get; set; }
+        public override int ComponentDisplayOrder => 2;
         public override string ComponentLabel => "Preferences";
 
-        public bool IgnoredByToddlers { get; set; } = true;
-
         public ObservableCollection<HolidayTraditionPreference> Preferences { get; } = new ObservableCollection<HolidayTraditionPreference>();
+
+        public void SetToddlerPreferencePreset(HolidayTraditionPreference preference)
+        {
+            preference.Reason.CustomText = "0x175B27F3 <<< (From Being a Toddler)";
+            preference.Conditions.Clear();
+            AddToddlerPreference.Invoke(preference);
+        }
 
         protected internal override void OnExport(HolidayTraditionExportContext context)
         {
@@ -33,7 +40,7 @@ namespace Constructor5.Elements.HolidayTraditions.Components
                 tunableTuple2.Set<TunableEnum>("who", "Actor");
             }
 
-            foreach(var preference in Preferences)
+            foreach (var preference in Preferences)
             {
                 var tunableTuple1 = listTunable.Get<TunableTuple>(null);
                 tunableTuple1.Set<TunableEnum>("preference", preference.Type);
@@ -49,7 +56,7 @@ namespace Constructor5.Elements.HolidayTraditions.Components
                 TestConditionTuning.TuneTestConditions(tunableTuple1, conditions, "tests");
             }
 
-            if (IgnoredByToddlers)
+            /*if (IgnoredByToddlers)
             {
                 var tunableTuple1 = listTunable.Get<TunableTuple>(null);
                 tunableTuple1.Set<TunableEnum>("preference", "DOES_NOT_CARE");
@@ -60,7 +67,7 @@ namespace Constructor5.Elements.HolidayTraditions.Components
                 var tunableTuple2 = tunableVariant2.Get<TunableTuple>("trait");
                 var tunableList2 = tunableTuple2.Get<TunableList>("whitelist_traits");
                 tunableList2.Set<TunableBasic>(null, "133125");
-            }
+            }*/
         }
     }
 }

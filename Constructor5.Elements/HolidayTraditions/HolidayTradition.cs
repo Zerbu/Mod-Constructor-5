@@ -9,7 +9,7 @@ using Constructor5.Elements.SituationGoals;
 
 namespace Constructor5.Elements.HolidayTraditions
 {
-    [ElementTypeData("Holiday Tradition", false, ElementTypes = new[] { typeof(HolidayTradition) }, PresetFolders = new[] { "HolidayTradition" }, IsRootType = true)]
+    [ElementTypeData("Holiday Tradition", true, ElementTypes = new[] { typeof(HolidayTradition) }, PresetFolders = new[] { "HolidayTradition" }, IsRootType = true)]
     public class HolidayTradition : SimpleComponentElement<HolidayTraditionComponent>, IExportableElement
     {
         protected override void OnElementCreatedOrLoaded()
@@ -29,6 +29,18 @@ namespace Constructor5.Elements.HolidayTraditions
             var newGoal = ElementManager.Create(typeof(SituationGoal), null, true);
             newGoal.AddContextModifier(new HolidayTraditionContextModifier() { HolidayTradition = new Reference(this) });
             goalComponent.Goal = new Reference(newGoal);
+        }
+
+        protected override void OnUserCreated(string label)
+        {
+            base.OnUserCreated(label);
+
+            var preferencesComponent = GetComponent<HolidayTraditionPreferencesComponent>();
+
+            var preference = new HolidayTraditionPreference();
+            preference.Type = HolidayTraditionPreferenceType.DOES_NOT_CARE;
+            preferencesComponent.SetToddlerPreferencePreset(preference);
+            preferencesComponent.Preferences.Add(preference);
         }
 
         void IExportableElement.OnExport()

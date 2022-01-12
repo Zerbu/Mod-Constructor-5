@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Reflection;
 
 namespace Constructor5.DebugTools.PresetExtractor
 {
@@ -31,7 +32,13 @@ namespace Constructor5.DebugTools.PresetExtractor
 
         public static void Main(string[] args)
         {
-            RunInstructions(InstructionBatches.Traits);
+            foreach(var batch in typeof(InstructionBatches).GetProperties())
+            {
+                var value = (PresetInstruction[])batch.GetValue(null);
+                RunInstructions(value);
+            }
+
+            /*RunInstructions(InstructionBatches.Traits);
             RunInstructions(InstructionBatches.Animation);
             RunInstructions(InstructionBatches.AspirationCategories);
             RunInstructions(InstructionBatches.AspirationTracks);
@@ -44,6 +51,16 @@ namespace Constructor5.DebugTools.PresetExtractor
             RunInstructions(InstructionBatches.Rewards);
             RunInstructions(InstructionBatches.SituationGoals);
             RunInstructions(InstructionBatches.SituationGoalSets);
+
+            RunInstructions(InstructionBatches.Commodities);
+            RunInstructions(InstructionBatches.SituationJobs);
+            RunInstructions(InstructionBatches.Situations);
+
+            RunInstructions(InstructionBatches.Interactions);
+
+            RunInstructions(InstructionBatches.Broadcasters);
+            RunInstructions(InstructionBatches.SimFilters);
+            RunInstructions(InstructionBatches.Skills);*/
         }
 
         private static readonly List<string> TestUnsafeTypes =
@@ -55,8 +72,33 @@ namespace Constructor5.DebugTools.PresetExtractor
 
             var presetGroup = new PresetGroup();
 
+            if (!instruction.SplitByPack)
+            {
+                var fullPath = $"Presets/{instruction.ExportDirectory}/{instruction.ExportFileName.Replace(" ", string.Empty)}.Presets.xml";
+                if (File.Exists(fullPath))
+                {
+                    return;
+                }
+            }
+
             foreach (var packDir in Directory.GetDirectories(PresetInstruction.MainPresetDirectory))
             {
+                if (instruction.SplitByPack)
+                {
+                    presetGroup = new PresetGroup();
+                }
+
+                var fullPath = $"Presets/{instruction.ExportDirectory}/{instruction.ExportFileName.Replace(" ", string.Empty)}{Path.GetFileNameWithoutExtension(packDir)}.Presets.xml";
+                if (File.Exists(fullPath))
+                {
+                    continue;
+                }
+
+                /*if (Path.GetFileName(packDir) != "EP11")
+                {
+                    continue;
+                }*/
+
                 var typeDir = $"{packDir}/{instruction.XMLDirectory}";
                 if (!Directory.Exists(typeDir))
                 {
@@ -72,6 +114,10 @@ namespace Constructor5.DebugTools.PresetExtractor
                     }
 
                     var tuning = XmlLoader.LoadFile<TuningHeader>(xmlFile);
+                    if (instruction.SubType != null && tuning.Class.ToLower() != instruction.SubType.ToLower())
+                    {
+                        continue;
+                    }
 
                     var stblValue = STBLHelper.TS4Handler.GetString(GetSTBLKey(tuning, instruction.NameXMLTag));
 
@@ -85,19 +131,35 @@ namespace Constructor5.DebugTools.PresetExtractor
                     }
 
                     presetGroup.Presets.Add(preset);
+
+                    presetGroup.Label = instruction.ExportFileName;
+
+                    if (instruction.SplitByPack)
+                    {
+                        presetGroup.Label = $"{instruction.ExportFileName} {Path.GetFileNameWithoutExtension(packDir)}";
+                    }
+                }
+
+                if (instruction.SplitByPack && presetGroup.Presets.Count > 0)
+                {
+                    Console.WriteLine(fullPath);
+
+                    Directory.CreateDirectory(Path.GetDirectoryName(fullPath) ?? throw new InvalidOperationException());
+
+                    XmlSaver.SaveFile(presetGroup, fullPath);
                 }
             }
 
-            presetGroup.Label = instruction.ExportFileName;
+            if (!instruction.SplitByPack)
+            {
+                var fullPath = $"Presets/{instruction.ExportDirectory}/{instruction.ExportFileName.Replace(" ", string.Empty)}.Presets.xml";
 
-            var fullPath =
-                $"Presets/{instruction.ExportDirectory}/{instruction.ExportFileName.Replace(" ", string.Empty)}.Presets.xml";
+                Console.WriteLine(fullPath);
 
-            Console.WriteLine(fullPath);
+                Directory.CreateDirectory(Path.GetDirectoryName(fullPath) ?? throw new InvalidOperationException());
 
-            Directory.CreateDirectory(Path.GetDirectoryName(fullPath) ?? throw new InvalidOperationException());
-
-            XmlSaver.SaveFile(presetGroup, fullPath);
+                XmlSaver.SaveFile(presetGroup, fullPath);
+            }
         }
 
         private static void RunInstructions(PresetInstruction[] instructions)

@@ -9,6 +9,9 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+        <TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
+                   Text="Note: The goal will not autocomplete it was already completed when the holiday begins. Because of this, it is recommended that the goal require performing an action rather than just checking the status of a Sim (for example, &quot;Socialize while Energized&quot; rather than &quot;Become Energized&quot;)."
+                   TextWrapping="Wrap" />
         <shared:ReferenceControlWithEditorUnderneath ElementTypeName="SituationGoal"
                                                      Reference="{Binding Goal}"
                                                      ShowBrowseButton="false"

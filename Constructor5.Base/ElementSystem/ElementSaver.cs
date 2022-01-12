@@ -24,7 +24,7 @@ namespace Constructor5.Base.ElementSystem
                 }
                 catch(Exception ex)
                 {
-                    MessageBox.Show($"An error occured while loading the following file: {file}\n\nThe file may be corrupted.\n\n{ex.Message}", "The Sims 4 Mod Constructor", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"An error occured while loading the following file: {file}\n\nThe file may be corrupted.\n\n{ex.Message}\n\nInner Exception: {ex.InnerException?.Message ?? "None"}", "The Sims 4 Mod Constructor", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

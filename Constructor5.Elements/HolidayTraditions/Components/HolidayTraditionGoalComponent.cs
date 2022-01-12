@@ -1,15 +1,16 @@
 ﻿using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Core;
 using Constructor5.Elements.SituationGoals;
 using Constructor5.Elements.SituationGoals.Components;
-using Constructor5.Core;
 
 namespace Constructor5.Elements.HolidayTraditions.Components
 {
     [XmlSerializerExtraType]
     public class HolidayTraditionGoalComponent : HolidayTraditionComponent
     {
+        public override int ComponentDisplayOrder => 1;
         public override string ComponentLabel => "Goal";
 
         public Reference Goal { get; set; } = new Reference();

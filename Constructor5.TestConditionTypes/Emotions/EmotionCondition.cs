@@ -2,12 +2,14 @@
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
+using Constructor5.Core;
 using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.TestConditionTypes.Emotions
 {
     [SelectableObjectType("TestConditionTypes", "Emotion Condition")]
     [SelectableObjectType("SituationGoalConditionTypes", "Emotion Condition")]
+    [XmlSerializerExtraType]
     public class EmotionCondition : TestCondition
     {
         public EmotionCondition() => GeneratedLabel = "Emotion Condition";

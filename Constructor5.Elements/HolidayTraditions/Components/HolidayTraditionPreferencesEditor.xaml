@@ -33,10 +33,6 @@
     <ScrollViewer>
         <StackPanel Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}">
 
-            <CheckBox Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
-                      Content="Ignored by toddlers (can be overriden by other preferences)"
-                      IsChecked="{Binding IgnoredByToddlers}" />
-
             <TextBlock Text="Preferences that are higher up in the list will override ones that are lower down." TextWrapping="Wrap" />
 
             <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
@@ -78,7 +74,7 @@
                         <shared:Field Label="Preference" LabelWidth="100">
                             <ComboBox IsEditable="False"
                                       ItemsSource="{Binding Source={StaticResource DataProvider}}"
-                                      SelectedItem="{Binding SelectedItem.Type, ElementName=ListView, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
+                                      SelectedItem="{Binding SelectedItem.Type, ElementName=ListView, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}, Mode=TwoWay}">
                                 <ComboBox.ItemTemplate>
                                     <DataTemplate>
                                         <ContentPresenter Content="{Binding DisplayText}" />
@@ -89,6 +85,20 @@
                         <shared:Field Label="Reason" LabelWidth="100">
                             <shared:STBLStringControl Text="{Binding SelectedItem.Reason, ElementName=ListView}" />
                         </shared:Field>
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding SelectedItem, ElementName=ListView, Converter={StaticResource NotNullToVis}}">
+                        <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}" Orientation="Horizontal">
+                            <Button x:Name="PresetToddlerButton"
+                                    Margin="2"
+                                    Click="PresetToddlerButton_Click"
+                                    Content="Preset: Toddler" />
+                            <Button x:Name="PresetChildButton"
+                                    Margin="2"
+                                    Click="PresetChildButton_Click"
+                                    Content="Preset: Child" />
+                        </StackPanel>
+                        <TextBlock Text="Note: To match how EA traditions are coded, presets use a trait condition instead of a Sim Info condition." TextWrapping="Wrap" />
                     </StackPanel>
                 </StackPanel>
             </StackPanel>
