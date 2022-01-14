@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:Constructor5.Elements.SituationGoals.Templates"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:single="clr-namespace:Constructor5.SituationGoalTemplates.Single"
              xmlns:system="clr-namespace:System;assembly=mscorlib"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              d:DesignHeight="450"
@@ -17,25 +18,11 @@
     <UserControl.Resources>
         <shared:SimpleAddToListCommand x:Key="AddConditionCommand" TypeName="TestConditionListItem" />
         <shared:SimpleRemoveFromListCommand x:Key="RemoveConditionCommand" TypeName="TestConditionListItem" />
-
-        <ObjectDataProvider x:Key="DataProvider"
-                            MethodName="GetValues"
-                            ObjectType="{x:Type shared:EnumSelectorValueGetter}">
-            <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="local:SituationGoalInteractionTarget" />
-                <shared:EnumSelectorReplaceDictionary>
-                    <system:String x:Key="Any">Any</system:String>
-                    <system:String x:Key="Random">Random</system:String>
-                    <system:String x:Key="Inherited">Inherited From Previous Goal Chain</system:String>
-                    <system:String x:Key="RandomExcludingInherited">Random, Never Inherited</system:String>
-                </shared:EnumSelectorReplaceDictionary>
-            </ObjectDataProvider.MethodParameters>
-        </ObjectDataProvider>
     </UserControl.Resources>
     <StackPanel>
         <TabControl>
             <TabItem Header="Interaction">
-                <StackPanel Margin="{StaticResource Constructor.BigPadding}">
+                <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
                     <shared:Field Label="Interactions" LabelWidth="150">
                         <shared:ReferenceListControl ElementReferenceList="{Binding Interactions}" ElementTypeName="AnyInteraction" />
                     </shared:Field>
@@ -59,63 +46,14 @@
                 </StackPanel>
             </TabItem>
             <TabItem Header="Target Settings">
-                <StackPanel Margin="{StaticResource Constructor.BigPadding}">
-
-                    <CheckBox IsChecked="{Binding InSituationOnly}">
-                        <StackPanel>
-                            <TextBlock Text="Require the target to be part of the same situation" />
-                            <TextBlock FontStyle="Italic" TextWrapping="Wrap">For example, if this goal is part of a social event, it will only count if the other Sim is also part of the event.</TextBlock>
-                        </StackPanel>
-                    </CheckBox>
-
-                    <shared:Field Label="Specific Target" LabelWidth="100">
-                        <ComboBox IsEditable="False"
-                                  ItemsSource="{Binding Source={StaticResource DataProvider}}"
-                                  SelectedItem="{Binding SpecificTarget, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
-                            <ComboBox.ItemTemplate>
-                                <DataTemplate>
-                                    <ContentPresenter Content="{Binding DisplayText}" />
-                                </DataTemplate>
-                            </ComboBox.ItemTemplate>
-                        </ComboBox>
-                    </shared:Field>
-                    <TextBlock FontStyle="Italic" TextWrapping="Wrap">Use {0.SimName} in the goal name to display the name of the target.</TextBlock>
-
-                    <Expander Margin="{StaticResource Constructor.BigPaddingMinusTop}" Header="Role Tags">
-                        <StackPanel>
-                            <TextBlock Text="The target must be in a situation job with one of these tags for it to pass. This is normally used in conjunction with &quot;Require the target to be part of the same situation&quot;." TextWrapping="Wrap" />
-                            <shared:StringListControl PresetsFolder="RoleTag" StringList="{Binding RoleTags}" />
-                        </StackPanel>
-                    </Expander>
-
+                <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                    <single:SituationGoalTargetSettingsUI />
                 </StackPanel>
             </TabItem>
             <TabItem Header="Target Conditions">
-                <StackPanel Margin="{StaticResource Constructor.BigPadding}">
+                <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
                     <TextBlock Text="If the interactions are social interactions, these conditions will be run on the target." />
-                    <ItemsControl ItemsSource="{Binding TargetConditions}">
-                        <ItemsControl.ItemTemplate>
-                            <DataTemplate DataType="{x:Type conditions:TestConditionListItem}">
-                                <shared:SelectableObjectControl DeleteCommand="{StaticResource RemoveConditionCommand}"
-                                                                EditorCategory="Default"
-                                                                Object="{Binding Condition}"
-                                                                ShowDeleteButton="True"
-                                                                Tag="{Binding}"
-                                                                TypeRegistryCategory="TestConditionTypes">
-                                    <shared:SelectableObjectControl.DeleteCommandParameter>
-                                        <MultiBinding Converter="{StaticResource MultiParamConverter}">
-                                            <Binding Path="." />
-                                            <Binding Path="ItemsSource" RelativeSource="{RelativeSource AncestorType={x:Type ItemsControl}}" />
-                                        </MultiBinding>
-                                    </shared:SelectableObjectControl.DeleteCommandParameter>
-                                </shared:SelectableObjectControl>
-                            </DataTemplate>
-                        </ItemsControl.ItemTemplate>
-                    </ItemsControl>
-                    <Button HorizontalAlignment="Left"
-                            Command="{StaticResource AddConditionCommand}"
-                            CommandParameter="{Binding TargetConditions}"
-                            Content="Add Condition" />
+                    <conditions:ConditionListControl ConditionList="{Binding TargetConditions}" />
                 </StackPanel>
             </TabItem>
         </TabControl>

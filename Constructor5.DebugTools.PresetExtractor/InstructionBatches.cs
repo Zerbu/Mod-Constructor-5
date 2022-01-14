@@ -24,6 +24,10 @@ namespace Constructor5.DebugTools.PresetExtractor
         {
         });
 
+        public static PresetInstruction[] BucksPerks { get; } = PresetInstruction.CreateBatch("Bucks_Perk", "BucksPerk", "All Perks", "display_name", new Dictionary<string, string>
+        {
+        });
+
         public static PresetInstruction[] Buffs { get; } = PresetInstruction.CreateBatch("Buff", "Buff", "All Buffs", "buff_name", new Dictionary<string, string>
         {
             { "Autonomy Buffs", "AutonomyMod_" },
@@ -114,6 +118,10 @@ namespace Constructor5.DebugTools.PresetExtractor
             { "Walk Styles", ">WALKSTYLE" },
             { "Likes", ">LIKE" },
             { "Dislikes", ">DISLIKE" },
+        });
+
+        public static PresetInstruction[] Venues { get; } = PresetInstruction.CreateBatch("Venue", "Venue", "All Venues", "display_name", new Dictionary<string, string>
+        {
         });
     }
 }

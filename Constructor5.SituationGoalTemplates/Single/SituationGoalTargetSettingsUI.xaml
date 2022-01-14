@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="Constructor5.SituationGoalTemplates.Single.SituationGoalTargetSettingsUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.SituationGoalTemplates.Single"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <StackPanel>
+        <CheckBox IsChecked="{Binding InSituationOnly}">
+            <StackPanel>
+                <TextBlock Text="Require the target to be part of the same situation" />
+                <TextBlock FontStyle="Italic" TextWrapping="Wrap">For example, if this goal is part of a social event, it will only count if the other Sim is also part of the event.</TextBlock>
+            </StackPanel>
+        </CheckBox>
+
+        <shared:Field Label="Specific Target" LabelWidth="100">
+            <shared:EnumSelectorControl SelectedItem="{Binding SpecificTarget}" TypeName="SituationGoalInteractionTarget">
+                <shared:EnumSelectorControl.Replacements>
+                    <shared:EnumSelectorReplaceDictionary>
+                        <system:String x:Key="Any">Any</system:String>
+                        <system:String x:Key="Random">Random</system:String>
+                        <system:String x:Key="Inherited">Inherited From Previous Goal Chain</system:String>
+                        <system:String x:Key="RandomExcludingInherited">Random, Never Inherited</system:String>
+                    </shared:EnumSelectorReplaceDictionary>
+                </shared:EnumSelectorControl.Replacements>
+            </shared:EnumSelectorControl>
+        </shared:Field>
+        <TextBlock TextWrapping="Wrap">Use {0.SimName} in the goal name to display the name of the target.</TextBlock>
+
+        <Expander Margin="{StaticResource Constructor.BigPaddingMinusTop}" Header="Role Tags">
+            <StackPanel>
+                <TextBlock Text="The target must be in a situation job with one of these tags for it to pass. This is normally used in conjunction with &quot;Require the target to be part of the same situation&quot;." TextWrapping="Wrap" />
+                <shared:StringListControl PresetsFolder="RoleTag" StringList="{Binding RoleTags}" />
+            </StackPanel>
+        </Expander>
+    </StackPanel>
+</UserControl>

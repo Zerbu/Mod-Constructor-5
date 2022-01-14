@@ -10,7 +10,15 @@
              mc:Ignorable="d">
     <TabControl>
         <TabItem Header="Goals">
-            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+            <StackPanel>
+                <Expander Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                          Header="Linear Mode"
+                          IsExpanded="False">
+                    <StackPanel>
+                        <CheckBox Content="Linear Mode Enabled" IsChecked="{Binding LinearModeEnabled}" />
+                        <TextBlock Text="Normally, the game would choose a random goal from the set. In Linear Mode, the player will be given all the goals, one after the other, in the order listed. This works by automatically generating a seperate goal set for each goal and chaining it to the previous. Any manually added chained goal sets will be added at the end of the generated chain." TextWrapping="Wrap" />
+                    </StackPanel>
+                </Expander>
                 <shared:ReferenceListControl ElementReferenceList="{Binding Goals}"
                                              ElementTypeName="SituationGoal"
                                              ItemTypeName="WeightedGoalReferenceListItem"
@@ -20,12 +28,12 @@
         <TabItem Header="Chained Goal Sets">
             <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
                 <TextBlock Text="A random chained goal set will be chosen when a goal in this set is completed." />
-                <shared:ReferenceListControl ElementReferenceList="{Binding ChainedGoalSets}"
-                                             ElementTypeName="SituationGoalSet"
-                                             ShowCreateButton="True" />
                 <CheckBox IsChecked="{Binding AddSelfAsChainedGoalSet}">
                     <TextBlock Text="Add self to the list of chained goal sets (this allows the set to repeat itself when a goal is completed)" TextWrapping="Wrap" />
                 </CheckBox>
+                <shared:ReferenceListControl ElementReferenceList="{Binding ChainedGoalSets}"
+                                             ElementTypeName="SituationGoalSet"
+                                             ShowCreateButton="True" />
             </StackPanel>
         </TabItem>
     </TabControl>

@@ -167,19 +167,19 @@ namespace Constructor5.Elements.Traits.Components
                     break;
                 case TraitTypes.Gameplay:
                     context.Tuning.SimDataHandler.Write(240, 1);
-                    typeTunable.Set<TunableEnum>("trait_type", "GAMEPLAY");
+                    context.Tuning.Set<TunableEnum>("trait_type", "GAMEPLAY");
                     break;
                 case TraitTypes.Hidden:
                     context.Tuning.SimDataHandler.Write(240, 4);
-                    typeTunable.Set<TunableEnum>("trait_type", "HIDDEN");
+                    context.Tuning.Set<TunableEnum>("trait_type", "HIDDEN");
                     break;
                 case TraitTypes.Aspiration:
                     context.Tuning.SimDataHandler.Write(240, 6);
-                    typeTunable.Set<TunableEnum>("trait_type", "ASPIRATION");
+                    context.Tuning.Set<TunableEnum>("trait_type", "ASPIRATION");
                     break;
                 case TraitTypes.Phase:
                     context.Tuning.SimDataHandler.Write(240, 10);
-                    typeTunable.Set<TunableEnum>("trait_type", "PHASE");
+                    context.Tuning.Set<TunableEnum>("trait_type", "PHASE");
                     break;
                 /*
                     WALKSTYLE = 2

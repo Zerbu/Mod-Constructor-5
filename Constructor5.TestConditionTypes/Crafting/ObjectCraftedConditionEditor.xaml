@@ -18,31 +18,17 @@
                 <x:Type TypeName="propertytypes:ThresholdComparison" />
             </ObjectDataProvider.MethodParameters>
         </ObjectDataProvider>
-
-        <ObjectDataProvider x:Key="CraftTypeDataProvider"
-                            MethodName="GetValues"
-                            ObjectType="{x:Type shared:EnumSelectorValueGetter}">
-            <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="local:ObjectCraftedConditionTypes" />
-                <shared:EnumSelectorReplaceDictionary>
-                    <system:String x:Key="WithTag">With Tag</system:String>
-                    <system:String x:Key="UsingSkill">Using Skill</system:String>
-                </shared:EnumSelectorReplaceDictionary>
-            </ObjectDataProvider.MethodParameters>
-        </ObjectDataProvider>
-
     </UserControl.Resources>
     <StackPanel>
         <shared:Field Label="Craft Type" LabelWidth="125">
-            <ComboBox IsEditable="False"
-                      ItemsSource="{Binding Source={StaticResource CraftTypeDataProvider}}"
-                      SelectedItem="{Binding CraftType, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource CraftTypeDataProvider}}">
-                <ComboBox.ItemTemplate>
-                    <DataTemplate>
-                        <ContentPresenter Content="{Binding DisplayText}" />
-                    </DataTemplate>
-                </ComboBox.ItemTemplate>
-            </ComboBox>
+            <shared:EnumSelectorControl SelectedItem="{Binding CraftType}" TypeName="ObjectCraftedConditionTypes">
+                <shared:EnumSelectorControl.Replacements>
+                    <shared:EnumSelectorReplaceDictionary>
+                        <system:String x:Key="WithTag">With Tag</system:String>
+                        <system:String x:Key="UsingSkill">Using Skill</system:String>
+                    </shared:EnumSelectorReplaceDictionary>
+                </shared:EnumSelectorControl.Replacements>
+            </shared:EnumSelectorControl>
         </shared:Field>
 
         <StackPanel>

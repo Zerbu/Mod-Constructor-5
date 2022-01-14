@@ -8,11 +8,22 @@ namespace Constructor5.Base.ExportSystem.Tuning.Utilities
 {
     public static class ElementTuning
     {
-        public static TuningHeader Create(Element element, string suffix = null) => new TuningHeader
+        public static TuningHeader Create(Element element, string suffix = null)
         {
-            Name = GetFullName(element, suffix),
-            InstanceKey = (ulong)GetSingleInstanceKey(element)
-        };
+            var result = new TuningHeader
+            {
+                Name = GetFullName(element, suffix)
+            };
+            if (string.IsNullOrEmpty(suffix))
+            {
+                result.InstanceKey = (ulong)GetSingleInstanceKey(element);
+            }
+            else
+            {
+                result.InstanceKey = GetInstanceKeyFromName(element, suffix);
+            }
+            return result;
+        }
 
         public static string GetFullName(Element element, string suffix = null)
         {

@@ -10,20 +10,6 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <UserControl.Resources>
-        <ObjectDataProvider x:Key="DataProvider"
-                            MethodName="GetValues"
-                            ObjectType="{x:Type shared:EnumSelectorValueGetter}">
-            <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="local:DayNightRestriction" />
-                <shared:EnumSelectorReplaceDictionary>
-                    <system:String x:Key="Any">No Restriction</system:String>
-                    <system:String x:Key="Day">Day Only</system:String>
-                    <system:String x:Key="Night">Night Only</system:String>
-                </shared:EnumSelectorReplaceDictionary>
-            </ObjectDataProvider.MethodParameters>
-        </ObjectDataProvider>
-    </UserControl.Resources>
     <StackPanel>
         <CheckBox Content="Sunday" IsChecked="{Binding Include0Sunday}" />
         <CheckBox Content="Monday" IsChecked="{Binding Include1Monday}" />
@@ -58,15 +44,15 @@
         </StackPanel>
 
         <shared:Field Label="Day/Night Restriction" LabelWidth="100">
-            <ComboBox IsEditable="False"
-                      ItemsSource="{Binding Source={StaticResource DataProvider}}"
-                      SelectedItem="{Binding DayOrNight, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
-                <ComboBox.ItemTemplate>
-                    <DataTemplate>
-                        <ContentPresenter Content="{Binding DisplayText}" />
-                    </DataTemplate>
-                </ComboBox.ItemTemplate>
-            </ComboBox>
+            <shared:EnumSelectorControl SelectedItem="{Binding DayOrNight}" TypeName="DayNightRestriction">
+                <shared:EnumSelectorControl.Replacements>
+                    <shared:EnumSelectorReplaceDictionary>
+                        <system:String x:Key="Any">No Restriction</system:String>
+                        <system:String x:Key="Day">Day Only</system:String>
+                        <system:String x:Key="Night">Night Only</system:String>
+                    </shared:EnumSelectorReplaceDictionary>
+                </shared:EnumSelectorControl.Replacements>
+            </shared:EnumSelectorControl>
         </shared:Field>
     </StackPanel>
 </UserControl>

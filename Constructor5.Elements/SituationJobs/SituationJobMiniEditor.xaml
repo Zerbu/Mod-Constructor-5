@@ -12,7 +12,7 @@
              mc:Ignorable="d">
     <TabControl>
         <TabItem Header="Settings">
-            <components:SituationJobInfoEditor x:Name="InfoEditor" Margin="0" />
+            <components:SituationJobInfoEditorContent x:Name="InfoEditor" Margin="0" />
         </TabItem>
         <TabItem Header="Filter">
             <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">

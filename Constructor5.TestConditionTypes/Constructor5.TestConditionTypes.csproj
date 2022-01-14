@@ -176,6 +176,10 @@
     <Compile Include="Interactions\InteractionRunningConditionEditor.xaml.cs">
       <DependentUpon>InteractionRunningConditionEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Interactions\InteractionTimeElapsedCondition.cs" />
+    <Compile Include="Interactions\InteractionTimeElapsedConditionEditor.xaml.cs">
+      <DependentUpon>InteractionTimeElapsedConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Interactions\ObjectiveInteractionCondition.cs" />
     <Compile Include="Interactions\ObjectiveInteractionConditionEditor.xaml.cs">
       <DependentUpon>ObjectiveInteractionConditionEditor.xaml</DependentUpon>
@@ -187,6 +191,20 @@
     <Compile Include="Locations\LocationIsOutside.cs" />
     <Compile Include="Locations\LocationObjectiveCondition.cs" />
     <Compile Include="Locations\LocationOnLot.cs" />
+    <Compile Include="Money\TotalSimoleonsEarnedCondition.cs" />
+    <Compile Include="Money\SimoleonValueCondition.cs" />
+    <Compile Include="Money\SimoleonValueConditionEditor.xaml.cs">
+      <DependentUpon>SimoleonValueConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Money\SimoleonValueContext.cs" />
+    <Compile Include="Money\TotalSimoleonsEarnedConditionEditor.xaml.cs">
+      <DependentUpon>TotalSimoleonsEarnedConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Money\TotalSimoleonsEarnedType.cs" />
+    <Compile Include="Objects\ObjectOnLotCondition.cs" />
+    <Compile Include="Objects\ObjectOnLotConditionEditor.xaml.cs">
+      <DependentUpon>ObjectOnLotConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Outfits\OutfitCondition.cs" />
     <Compile Include="Outfits\OutfitConditionEditor.xaml.cs">
       <DependentUpon>OutfitConditionEditor.xaml</DependentUpon>
@@ -203,6 +221,10 @@
       <DependentUpon>ClubPointsEarnedConditionEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Perks\ClubStatus.cs" />
+    <Compile Include="Perks\HasSpecificPerkCondition.cs" />
+    <Compile Include="Perks\HasSpecificPerkConditionEditor.xaml.cs">
+      <DependentUpon>HasSpecificPerkConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Perks\PerkAmountCondition.cs" />
     <Compile Include="Perks\PerkAmountConditionEditor.xaml.cs">
       <DependentUpon>PerkAmountConditionEditor.xaml</DependentUpon>
@@ -222,8 +244,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Relationships\RelationshipCondition.cs" />
+    <Compile Include="Relationships\RelationshipConditionBitsTuner.cs" />
     <Compile Include="Relationships\RelationshipConditionEditor.xaml.cs">
       <DependentUpon>RelationshipConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Relationships\RelationshipConditionEditorValues.xaml.cs">
+      <DependentUpon>RelationshipConditionEditorValues.xaml</DependentUpon>
     </Compile>
     <Compile Include="Relationships\RelationshipConditionTarget.cs" />
     <Compile Include="Relationships\RelationshipSituationGoalCondition.cs" />
@@ -378,11 +404,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Interactions\InteractionTimeElapsedConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Interactions\ObjectiveInteractionConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Locations\LocationConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Money\SimoleonValueConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Money\TotalSimoleonsEarnedConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Objects\ObjectOnLotConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -398,11 +440,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Perks\HasSpecificPerkConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Perks\PerkAmountConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Relationships\RelationshipConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Relationships\RelationshipConditionEditorValues.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -442,7 +492,9 @@
   <ItemGroup>
     <Resource Include="FodyWeavers.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Technical\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.6.6.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.0\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

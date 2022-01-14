@@ -7,12 +7,12 @@ using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.TestConditionTypes.Perks
 {
-    [SelectableObjectType("ObjectiveConditionTypes", "Perk Amount Condition")]
-    [SelectableObjectType("TestConditionTypes", "Perk Amount Condition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "Perks: Perk Points Amount Condition")]
+    [SelectableObjectType("TestConditionTypes", "Perks: Perk Points Amount Condition")]
     [XmlSerializerExtraType]
     public class PerkAmountCondition : TestCondition
     {
-        public PerkAmountCondition() => GeneratedLabel = "Perk Amount Condition";
+        public PerkAmountCondition() => GeneratedLabel = "Perk Points Amount Condition";
 
         [AutoTuneEnum("subject")]
         public string Participant { get; set; }

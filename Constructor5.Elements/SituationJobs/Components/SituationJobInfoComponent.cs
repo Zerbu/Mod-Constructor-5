@@ -9,7 +9,7 @@ namespace Constructor5.Elements.SituationJobs.Components
     [XmlSerializerExtraType]
     public class SituationJobInfoComponent : SituationJobComponent
     {
-        [AutoTuneTupleRange("auto_invite")]
+        [AutoTuneTupleRange("sim_auto_invite")]
         public IntBounds AutoInviteSimCount { get; set; } = new IntBounds();
 
         [AutoTuneIfFalse("can_be_hired")]
@@ -36,7 +36,7 @@ namespace Constructor5.Elements.SituationJobs.Components
         [AutoTuneIfTrue("participating_npcs_should_ignore_work")]
         public bool NPCsShouldIgnoreWork { get; set; } = true;
 
-        [AutoTuneTupleRange("sim_count")]
+        [AutoTuneTupleRange("sim_count", LowerDefaultOverride = 0)]
         public IntBounds PlayerInviteSimCount { get; set; } = new IntBounds();
 
         public bool ReplaceOnLeave { get; set; }

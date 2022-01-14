@@ -150,9 +150,14 @@ namespace Constructor5.UI.Dialogs.PresetSelect
             {
                 var preset = (Preset)obj;
 
+                if (preset == null)
+                {
+                    return true;
+                }
+
                 return (string.IsNullOrEmpty(SearchBox.Text)
-                || preset.Label.ToLower().Contains(SearchBox.Text)
-                || preset.Value.ToLower().Contains(SearchBox.Text))
+                || preset.Label != null && preset.Label.ToLower().Contains(SearchBox.Text)
+                || preset.Value != null && preset.Value.ToLower().Contains(SearchBox.Text))
                 && (string.IsNullOrEmpty(ExcludeTag) || preset.TagsString == null || !preset.TagsString.Contains(ExcludeTag));
             };
             PresetsListView.ItemsSource = CurrentView;

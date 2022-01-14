@@ -10,7 +10,9 @@
              mc:Ignorable="d">
     <StackPanel>
         <shared:Field Label="Trait" LabelWidth="100">
-            <shared:ReferenceControl ElementTypeName="Trait" Reference="{Binding Trait}" />
+            <shared:ReferenceControl ElementTypeName="Trait"
+                                     Reference="{Binding Trait}"
+                                     ShowCreateButton="True" />
         </shared:Field>
         <CheckBox IsChecked="{Binding IgnoreIfWrongPack}">
             <StackPanel>

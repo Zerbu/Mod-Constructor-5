@@ -4,8 +4,8 @@ using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.SelectableObjects;
-using Constructor5.Elements.TestConditions;
 using Constructor5.Core;
+using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.TestConditionTypes.Relationships
 {
@@ -16,6 +16,9 @@ namespace Constructor5.TestConditionTypes.Relationships
     public class RelationshipCondition : TestCondition
     {
         public RelationshipCondition() => GeneratedLabel = "Relationship Condition";
+
+        public bool InvertNumRelationshipsAll { get; set; }
+        public bool InvertNumRelationshipsParticipant { get; set; }
 
         public int NumRelationshipsAll { get; set; } = 0;
         public int NumRelationshipsParticipant { get; set; } = 1;
@@ -43,51 +46,7 @@ namespace Constructor5.TestConditionTypes.Relationships
             var tuning = variantTunable.Get<TunableTuple>(GetVariantTunableName());
             AutoTunerInvoker.Invoke(this, tuning);
 
-            if (RequiredBitsAll.HasItems() || RequiredBitsAny.HasItems())
-            {
-                var tunableTuple1 = tuning.Get<TunableTuple>("required_relationship_bits");
-
-                if (RequiredBitsAny.HasItems())
-                {
-                    var tunableList1 = tunableTuple1.Get<TunableList>("match_any");
-                    foreach (var key in ElementTuning.GetInstanceKeys(RequiredBitsAny))
-                    {
-                        tunableList1.Set<TunableBasic>(null, key);
-                    }
-                }
-
-                if (RequiredBitsAll.HasItems())
-                {
-                    var tunableList1 = tunableTuple1.Get<TunableList>("match_all");
-                    foreach (var key in ElementTuning.GetInstanceKeys(RequiredBitsAll))
-                    {
-                        tunableList1.Set<TunableBasic>(null, key);
-                    }
-                }
-            }
-
-            if (ProhibitedBitsAll.HasItems() || ProhibitedBitsAny.HasItems())
-            {
-                var tunableTuple1 = tuning.Get<TunableTuple>("prohibited_relationship_bits");
-
-                if (ProhibitedBitsAny.HasItems())
-                {
-                    var tunableList1 = tunableTuple1.Get<TunableList>("match_any");
-                    foreach (var key in ElementTuning.GetInstanceKeys(ProhibitedBitsAny))
-                    {
-                        tunableList1.Set<TunableBasic>(null, key);
-                    }
-                }
-
-                if (ProhibitedBitsAll.HasItems())
-                {
-                    var tunableList1 = tunableTuple1.Get<TunableList>("match_all");
-                    foreach (var key in ElementTuning.GetInstanceKeys(ProhibitedBitsAll))
-                    {
-                        tunableList1.Set<TunableBasic>(null, key);
-                    }
-                }
-            }
+            RelationshipConditionBitsTuner.TuneBits(variantTunable, RequiredBitsAll, RequiredBitsAny, ProhibitedBitsAll, ProhibitedBitsAny);
 
             if (!string.IsNullOrEmpty(PrimaryParticipant))
             {
@@ -99,11 +58,21 @@ namespace Constructor5.TestConditionTypes.Relationships
             {
                 var tunableList1 = tuning.Get<TunableList>("target_sim");
                 tunableList1.Set<TunableEnum>(null, TargetParticipant);
+
+                if (InvertNumRelationshipsParticipant)
+                {
+                    tuning.Set<TunableList>("invert_num_relations", "True");
+                }
             }
             else
             {
                 var tunableList1 = tuning.Get<TunableList>("target_sim");
                 tunableList1.Set<TunableEnum>(null, "AllRelationships");
+
+                if (InvertNumRelationshipsAll)
+                {
+                    tuning.Set<TunableList>("invert_num_relations", "True");
+                }
             }
 
             if (TargetType == RelationshipConditionTarget.AllRelationships && NumRelationshipsAll != 0)

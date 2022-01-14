@@ -10,18 +10,6 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <UserControl.Resources>
-        <ObjectDataProvider x:Key="TraitTypeDataProvider"
-                            MethodName="GetValues"
-                            ObjectType="{x:Type shared:EnumSelectorValueGetter}">
-            <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="local:TraitTypes" />
-                <shared:EnumSelectorReplaceDictionary>
-                    <system:String x:Key="Personality">Personality (CAS Selectable)</system:String>
-                    <system:String x:Key="Aspiration">Aspiration (CAS only, rewards should be set to Gameplay)</system:String>
-                    <system:String x:Key="Phase">Childhood Phase (behaves the same as Gameplay, but has its own UI effect)</system:String>
-                </shared:EnumSelectorReplaceDictionary>
-            </ObjectDataProvider.MethodParameters>
-        </ObjectDataProvider>
         <ObjectDataProvider x:Key="TraitCategoryDataProvider"
                             MethodName="GetValues"
                             ObjectType="{x:Type system:Enum}">
@@ -33,15 +21,15 @@
     <StackPanel>
         <shared:Field Label="Type" LabelWidth="100">
             <StackPanel>
-                <ComboBox IsEditable="False"
-                          ItemsSource="{Binding Source={StaticResource TraitTypeDataProvider}}"
-                          SelectedItem="{Binding TraitType, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource TraitTypeDataProvider}}">
-                    <ComboBox.ItemTemplate>
-                        <DataTemplate>
-                            <ContentPresenter Content="{Binding DisplayText}" />
-                        </DataTemplate>
-                    </ComboBox.ItemTemplate>
-                </ComboBox>
+                <shared:EnumSelectorControl SelectedItem="{Binding TraitType}" TypeName="TraitTypes">
+                    <shared:EnumSelectorControl.Replacements>
+                        <shared:EnumSelectorReplaceDictionary>
+                            <system:String x:Key="Personality">Personality (CAS Selectable)</system:String>
+                            <system:String x:Key="Aspiration">Aspiration (CAS only, rewards should be set to Gameplay)</system:String>
+                            <system:String x:Key="Phase">Childhood Phase (behaves the same as Gameplay, but has its own UI effect)</system:String>
+                        </shared:EnumSelectorReplaceDictionary>
+                    </shared:EnumSelectorControl.Replacements>
+                </shared:EnumSelectorControl>
             </StackPanel>
         </shared:Field>
         <StackPanel>

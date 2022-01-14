@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Timers;
 using System.Windows;
 using System.Windows.Data;
 
@@ -15,7 +16,7 @@ namespace Constructor5.UI.Main
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window, INotifyPropertyChanged, IOnCallOpenElement, IOnExportComplete
+    public partial class MainWindow : Window, INotifyPropertyChanged, IOnCallOpenElement, IOnExportComplete, IOnElementDeleted
     {
         public MainWindow()
         {
@@ -77,15 +78,30 @@ namespace Constructor5.UI.Main
 
         private void StartAutosaveTimer()
         {
-            var timer = new System.Threading.Timer((e) =>
+            var timer = new Timer(60000); // 1 minute
+            timer.Elapsed += (s, e) =>
             {
                 ElementSaver.SaveScheduled();
-            }, null, TimeSpan.Zero, TimeSpan.FromMinutes(1));
+            };
+
+            timer.Start();
         }
 
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) => ElementSaver.SaveScheduled();
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            ElementSaver.SaveScheduled();
+        }
 
         private void IssuesButton_Click(object sender, RoutedEventArgs e)
             => System.Diagnostics.Process.Start("https://github.com/Zerbu/Mod-Constructor-5/issues");
+
+        void IOnElementDeleted.OnElementDeleted(Element element)
+        {
+            var document = LayoutDocumentPane.Children.OfType<TaggedLayoutDocument>().FirstOrDefault(x=>x.Tag==element);
+            if (document != null)
+            {
+                LayoutDocumentPane.Children.Remove(document);
+            }
+        }
     }
 }

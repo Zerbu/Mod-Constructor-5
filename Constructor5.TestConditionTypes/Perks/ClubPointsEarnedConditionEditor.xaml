@@ -9,8 +9,6 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <shared:Field Label="Threshold" LabelWidth="100">
-            <shared:ThresholdControl Threshold="{Binding Threshold}" />
-        </shared:Field>
+        <shared:ThresholdControl Threshold="{Binding Threshold}" />
     </StackPanel>
 </UserControl>

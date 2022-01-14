@@ -116,6 +116,15 @@
       <DependentUpon>SituationGoalMultipleSimsInInteractionEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Single\SituationGoalMultipleSimsInInteractionTemplate.cs" />
+    <Compile Include="Single\SituationGoalRelationshipChangedEditor.xaml.cs">
+      <DependentUpon>SituationGoalRelationshipChangedEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Single\SituationGoalRelationshipChangedTemplate.cs" />
+    <Compile Include="Single\SituationGoalRelationshipSettings.cs" />
+    <Compile Include="Single\SituationGoalTargetedBase.cs" />
+    <Compile Include="Single\SituationGoalTargetSettingsUI.xaml.cs">
+      <DependentUpon>SituationGoalTargetSettingsUI.xaml</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -143,6 +152,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Single\SituationGoalRelationshipChangedEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Single\SituationGoalTargetSettingsUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
@@ -156,6 +173,10 @@
     <ProjectReference Include="..\Constructor5.Elements\Constructor5.Elements.csproj">
       <Project>{8cdaf7b3-75c2-4365-a29e-ba5d85bc24eb}</Project>
       <Name>Constructor5.Elements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.TestConditionTypes\Constructor5.TestConditionTypes.csproj">
+      <Project>{5a2fae23-9c84-408d-b637-42d843649929}</Project>
+      <Name>Constructor5.TestConditionTypes</Name>
     </ProjectReference>
     <ProjectReference Include="..\Constructor5.UI\Constructor5.UI.csproj">
       <Project>{92267ec9-b06a-44ac-b383-f40c4d6a5755}</Project>

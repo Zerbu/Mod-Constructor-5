@@ -9,57 +9,51 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <UserControl.Resources>
-        <ObjectDataProvider x:Key="DataProvider"
-                            MethodName="GetValues"
-                            ObjectType="{x:Type shared:EnumSelectorValueGetter}">
-            <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="local:AgeFilterAges" />
-                <shared:EnumSelectorReplaceDictionary>
-                    <system:String x:Key="BABY">Baby</system:String>
-                    <system:String x:Key="TODDLER">Toddler</system:String>
-                    <system:String x:Key="CHILD">Child</system:String>
-                    <system:String x:Key="TEEN">Teen</system:String>
-                    <system:String x:Key="YOUNGADULT">Young Adult</system:String>
-                    <system:String x:Key="ADULT">Adult</system:String>
-                    <system:String x:Key="ELDER">Elder</system:String>
-                </shared:EnumSelectorReplaceDictionary>
-            </ObjectDataProvider.MethodParameters>
-        </ObjectDataProvider>
-    </UserControl.Resources>
     <StackPanel>
         <shared:Field Label="Minimum Age" LabelWidth="150">
-            <ComboBox IsEditable="False"
-                      ItemsSource="{Binding Source={StaticResource DataProvider}}"
-                      SelectedItem="{Binding MinimumAge, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
-                <ComboBox.ItemTemplate>
-                    <DataTemplate>
-                        <ContentPresenter Content="{Binding DisplayText}" />
-                    </DataTemplate>
-                </ComboBox.ItemTemplate>
-            </ComboBox>
+            <shared:EnumSelectorControl SelectedItem="{Binding MinimumAge}" TypeName="AgeFilterAges">
+                <shared:EnumSelectorControl.Replacements>
+                    <shared:EnumSelectorReplaceDictionary>
+                        <system:String x:Key="BABY">Baby</system:String>
+                        <system:String x:Key="TODDLER">Toddler</system:String>
+                        <system:String x:Key="CHILD">Child</system:String>
+                        <system:String x:Key="TEEN">Teen</system:String>
+                        <system:String x:Key="YOUNGADULT">Young Adult</system:String>
+                        <system:String x:Key="ADULT">Adult</system:String>
+                        <system:String x:Key="ELDER">Elder</system:String>
+                    </shared:EnumSelectorReplaceDictionary>
+                </shared:EnumSelectorControl.Replacements>
+            </shared:EnumSelectorControl>
         </shared:Field>
         <shared:Field Label="Maximum Age" LabelWidth="150">
-            <ComboBox IsEditable="False"
-                      ItemsSource="{Binding Source={StaticResource DataProvider}}"
-                      SelectedItem="{Binding MaximumAge, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
-                <ComboBox.ItemTemplate>
-                    <DataTemplate>
-                        <ContentPresenter Content="{Binding DisplayText}" />
-                    </DataTemplate>
-                </ComboBox.ItemTemplate>
-            </ComboBox>
+            <shared:EnumSelectorControl SelectedItem="{Binding MaximumAge}" TypeName="AgeFilterAges">
+                <shared:EnumSelectorControl.Replacements>
+                    <shared:EnumSelectorReplaceDictionary>
+                        <system:String x:Key="BABY">Baby</system:String>
+                        <system:String x:Key="TODDLER">Toddler</system:String>
+                        <system:String x:Key="CHILD">Child</system:String>
+                        <system:String x:Key="TEEN">Teen</system:String>
+                        <system:String x:Key="YOUNGADULT">Young Adult</system:String>
+                        <system:String x:Key="ADULT">Adult</system:String>
+                        <system:String x:Key="ELDER">Elder</system:String>
+                    </shared:EnumSelectorReplaceDictionary>
+                </shared:EnumSelectorControl.Replacements>
+            </shared:EnumSelectorControl>
         </shared:Field>
         <shared:Field Label="Ideal Age" LabelWidth="150">
-            <ComboBox IsEditable="False"
-                      ItemsSource="{Binding Source={StaticResource DataProvider}}"
-                      SelectedItem="{Binding IdealAge, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
-                <ComboBox.ItemTemplate>
-                    <DataTemplate>
-                        <ContentPresenter Content="{Binding DisplayText}" />
-                    </DataTemplate>
-                </ComboBox.ItemTemplate>
-            </ComboBox>
+            <shared:EnumSelectorControl SelectedItem="{Binding IdealAge}" TypeName="AgeFilterAges">
+                <shared:EnumSelectorControl.Replacements>
+                    <shared:EnumSelectorReplaceDictionary>
+                        <system:String x:Key="BABY">Baby</system:String>
+                        <system:String x:Key="TODDLER">Toddler</system:String>
+                        <system:String x:Key="CHILD">Child</system:String>
+                        <system:String x:Key="TEEN">Teen</system:String>
+                        <system:String x:Key="YOUNGADULT">Young Adult</system:String>
+                        <system:String x:Key="ADULT">Adult</system:String>
+                        <system:String x:Key="ELDER">Elder</system:String>
+                    </shared:EnumSelectorReplaceDictionary>
+                </shared:EnumSelectorControl.Replacements>
+            </shared:EnumSelectorControl>
         </shared:Field>
     </StackPanel>
 </UserControl>

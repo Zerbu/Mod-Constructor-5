@@ -95,6 +95,11 @@
     <Compile Include="CareerFilterEditor.xaml.cs">
       <DependentUpon>CareerFilterEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GenderFilter.cs" />
+    <Compile Include="GenderFilterEditor.xaml.cs">
+      <DependentUpon>GenderFilterEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GenderFilterGenders.cs" />
     <Compile Include="InvertOnlyFilter.cs" />
     <Compile Include="InvertOnlyFilterEditor.xaml.cs">
       <DependentUpon>InvertOnlyFilterEditor.xaml</DependentUpon>
@@ -164,6 +169,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CareerFilterEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GenderFilterEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

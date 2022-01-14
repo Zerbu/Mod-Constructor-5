@@ -19,9 +19,9 @@ namespace Constructor5.SimFilterTypes
         {
             var tunableVariant1 = filterTermsTunable.Set<TunableVariant>(null, "age");
             var tunableTuple1 = tunableVariant1.Get<TunableTuple>("age");
-            tunableTuple1.Set<TunableEnum>("ideal_value", "ADULT");
-            tunableTuple1.Set<TunableEnum>("max_value", "ELDER");
-            tunableTuple1.Set<TunableEnum>("min_value", "CHILD");
+            tunableTuple1.Set<TunableEnum>("ideal_value", IdealAge.ToString());
+            tunableTuple1.Set<TunableEnum>("max_value", MaximumAge.ToString());
+            tunableTuple1.Set<TunableEnum>("min_value", MinimumAge.ToString());
         }
     }
 }

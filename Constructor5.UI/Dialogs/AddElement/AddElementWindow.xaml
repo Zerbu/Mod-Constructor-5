@@ -53,7 +53,8 @@
                     <Button Grid.Column="1"
                             Margin="2"
                             Command="{StaticResource ElementAddCommand}"
-                            Content="Create Element" />
+                            Content="Create Element"
+                            IsDefault="True" />
                 </Grid>
             </StackPanel>
         </Grid>

@@ -1,54 +1,81 @@
 ﻿using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
-using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Elements.SituationGoals;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Constructor5.Elements.SituationGoalSets
 {
     [ElementTypeData("Situation Goal Set", false, ElementTypes = new[] { typeof(SituationGoalSet) }, PresetFolders = new[] { "SituationGoalSet" })]
     public class SituationGoalSet : Element, IExportableElement
     {
-        public bool AddSelfAsChainedGoalSet { get; set; } = true;
+        public bool AddSelfAsChainedGoalSet { get; set; }
 
-        [AutoTuneReferenceList("chained_goal_sets")]
         public ReferenceList ChainedGoalSets { get; set; } = new ReferenceList();
+
+        public bool LinearModeEnabled { get; set; }
 
         public ReferenceList Goals { get; set; } = new ReferenceList();
 
         void IExportableElement.OnExport()
         {
-            var tuning = ElementTuning.Create(this);
-            tuning.Class = "SituationGoalSet";
-            tuning.InstanceType = "situation_goal_set";
-            tuning.Module = "situations.situation_goal_set";
+            var mainTuning = CreateTuning(null);
 
-            if (AddSelfAsChainedGoalSet)
+            var goals = Goals.GetOfType<WeightedGoalReferenceListItem>();
+            var currentTuning = mainTuning;
+            for (int i = 0; i < goals.Length; i++)
             {
-                var tunableList1 = tuning.Get<TunableList>("chained_goal_sets");
-                tunableList1.Set<TunableBasic>(null, new Reference(this));
-            }
+                var goal = goals[i];
 
-            AutoTunerInvoker.Invoke(this, tuning);
-
-            foreach(var goal in Goals.GetOfType<WeightedGoalReferenceListItem>())
-            {
-                var tunableList1 = tuning.Get<TunableList>("goals");
+                var tunableList1 = currentTuning.Get<TunableList>("goals");
                 var tunableTuple1 = tunableList1.Get<TunableTuple>(null);
                 tunableTuple1.Set<TunableBasic>("goal", goal.Reference);
                 if (goal.Weight != 1)
                 {
                     tunableTuple1.Set<TunableBasic>("weight", goal.Weight);
                 }
+
+                if (LinearModeEnabled && i < goals.Length - 1)
+                {
+                    var newTuning = CreateTuning($"Chained{i+1}");
+                    var chainedList = currentTuning.Get<TunableList>("chained_goal_sets");
+                    chainedList.Set<TunableBasic>(null, newTuning.InstanceKey);
+                    currentTuning = newTuning;
+                }
             }
 
-            TuningExport.AddToQueue(tuning);
+            if (AddSelfAsChainedGoalSet || ChainedGoalSets.HasItems())
+            {
+                var tunableList1 = currentTuning.Get<TunableList>("chained_goal_sets");
+                if (AddSelfAsChainedGoalSet)
+                {
+                    tunableList1.Set<TunableBasic>(null, new Reference(this));
+                }
+                foreach (var chainedGoalSet in ElementTuning.GetInstanceKeys(ChainedGoalSets))
+                {
+                    tunableList1.Set<TunableBasic>(null, chainedGoalSet);
+                }
+            }
+
+            foreach (var tuning in AllTuning)
+            {
+                TuningExport.AddToQueue(tuning);
+            }
+            AllTuning.Clear();
         }
+
+        private TuningHeader CreateTuning(string suffix)
+        {
+            var result = ElementTuning.Create(this, suffix);
+            result.Class = "SituationGoalSet";
+            result.InstanceType = "situation_goal_set";
+            result.Module = "situations.situation_goal_set";
+            AllTuning.Add(result);
+            return result;
+        }
+
+        private List<TuningHeader> AllTuning { get; } = new List<TuningHeader>();
     }
 }

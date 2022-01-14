@@ -7,8 +7,8 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Perks
 {
-    [SelectableObjectType("TestConditionTypes", "Club Status Condition")]
-    [SelectableObjectType("SituationGoalConditionTypes", "Club Status Condition")]
+    [SelectableObjectType("TestConditionTypes", "Perks: Club Status Condition")]
+    [SelectableObjectType("SituationGoalConditionTypes", "Perks: Club Status Condition")]
     [XmlSerializerExtraType]
     public class ClubCondition : TestCondition
     {

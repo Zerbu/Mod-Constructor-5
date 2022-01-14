@@ -7,8 +7,7 @@ using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.TestConditionTypes.Perks
 {
-    [SelectableObjectType("TestConditionTypes", "Club Status Condition")]
-    [SelectableObjectType("SituationGoalConditionTypes", "Club Status Condition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "Perks: Club Points Earned Condition", Description = "This checks the total amount of club points the Sim has ever earned across all clubs, regardless of how much they currently have.")]
     [XmlSerializerExtraType]
     public class ClubPointsEarnedCondition : TestCondition
     {

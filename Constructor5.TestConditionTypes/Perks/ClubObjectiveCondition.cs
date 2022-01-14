@@ -4,7 +4,7 @@ using Constructor5.TestConditionTypes.Collections;
 
 namespace Constructor5.TestConditionTypes.Perks
 {
-    [SelectableObjectType("ObjectiveConditionTypes", "Club Condition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "Perks: Club Status Condition")]
     [XmlSerializerExtraType]
     public class ClubObjectiveCondition : CollectionCondition
     {

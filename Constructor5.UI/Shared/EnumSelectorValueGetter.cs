@@ -9,6 +9,11 @@ namespace Constructor5.UI.Shared
         {
             var result = new List<EnumSelectorValue>();
 
+            if (type == null || displayText == null)
+            {
+                return result;
+            }
+
             foreach (var value in type.GetEnumValues())
             {
                 var valueString = value.ToString();

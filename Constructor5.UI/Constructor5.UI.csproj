@@ -173,6 +173,9 @@
     </Compile>
     <Compile Include="Shared\ElementSettingsCommand.cs" />
     <Compile Include="Shared\EnumDisplayTextAttribute.cs" />
+    <Compile Include="Shared\EnumSelectorControl.xaml.cs">
+      <DependentUpon>EnumSelectorControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Shared\EnumSelectorReplaceDictionary.cs" />
     <Compile Include="Shared\EnumSelectorValue.cs" />
     <Compile Include="Shared\EnumToStringConverter.cs" />
@@ -359,6 +362,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Shared\DoubleBoundsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\EnumSelectorControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -426,6 +426,9 @@
     <Compile Include="SituationJobs\Components\SituationJobInfoEditor.xaml.cs">
       <DependentUpon>SituationJobInfoEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SituationJobs\Components\SituationJobInfoEditorContent.xaml.cs">
+      <DependentUpon>SituationJobInfoEditorContent.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SituationJobs\Components\SituationJobRewardLootItem.cs" />
     <Compile Include="SituationJobs\Components\SituationJobRewardLootItemEditor.xaml.cs">
       <DependentUpon>SituationJobRewardLootItemEditor.xaml</DependentUpon>
@@ -805,6 +808,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SituationJobs\Components\SituationJobInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationJobs\Components\SituationJobInfoEditorContent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

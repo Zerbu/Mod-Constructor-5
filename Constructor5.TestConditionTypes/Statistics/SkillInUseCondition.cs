@@ -13,6 +13,8 @@ namespace Constructor5.TestConditionTypes.Statistics
     [XmlSerializerExtraType]
     public class SkillInUseCondition : TestCondition
     {
+        public SkillInUseCondition() => GeneratedLabel = "Skill In Use Condition";
+
         [AutoTuneEnum("who")]
         public string Participant { get; set; }
 

@@ -16,19 +16,6 @@
         <shared:SimpleRemoveFromListCommand x:Key="RemoveCommand"
                                             DeleteMessage="Are you sure you want to remove this preference?"
                                             Type="{x:Type local:HolidayTraditionPreference}" />
-
-        <ObjectDataProvider x:Key="DataProvider"
-                            MethodName="GetValues"
-                            ObjectType="{x:Type shared:EnumSelectorValueGetter}">
-            <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="local:HolidayTraditionPreferenceType" />
-                <shared:EnumSelectorReplaceDictionary>
-                    <system:String x:Key="DOES_NOT_CARE">Ignores</system:String>
-                    <system:String x:Key="LIKES">Likes (no preference, but can override lower preferences)</system:String>
-                    <system:String x:Key="LOVES">Loves</system:String>
-                </shared:EnumSelectorReplaceDictionary>
-            </ObjectDataProvider.MethodParameters>
-        </ObjectDataProvider>
     </UserControl.Resources>
     <ScrollViewer>
         <StackPanel Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}">
@@ -72,15 +59,15 @@
                             <testconditions:ConditionListControl ConditionList="{Binding SelectedItem.Conditions, ElementName=ListView}" RegistryCategory="HolidayTraditionConditionTypes" />
                         </shared:Field>
                         <shared:Field Label="Preference" LabelWidth="100">
-                            <ComboBox IsEditable="False"
-                                      ItemsSource="{Binding Source={StaticResource DataProvider}}"
-                                      SelectedItem="{Binding SelectedItem.Type, ElementName=ListView, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}, Mode=TwoWay}">
-                                <ComboBox.ItemTemplate>
-                                    <DataTemplate>
-                                        <ContentPresenter Content="{Binding DisplayText}" />
-                                    </DataTemplate>
-                                </ComboBox.ItemTemplate>
-                            </ComboBox>
+                            <shared:EnumSelectorControl SelectedItem="{Binding SelectedItem.Type, ElementName=ListView}" TypeName="HolidayTraditionPreferenceType">
+                                <shared:EnumSelectorControl.Replacements>
+                                    <shared:EnumSelectorReplaceDictionary>
+                                        <system:String x:Key="DOES_NOT_CARE">Ignores</system:String>
+                                        <system:String x:Key="LIKES">Likes (no preference, but can override lower preferences)</system:String>
+                                        <system:String x:Key="LOVES">Loves</system:String>
+                                    </shared:EnumSelectorReplaceDictionary>
+                                </shared:EnumSelectorControl.Replacements>
+                            </shared:EnumSelectorControl>
                         </shared:Field>
                         <shared:Field Label="Reason" LabelWidth="100">
                             <shared:STBLStringControl Text="{Binding SelectedItem.Reason, ElementName=ListView}" />

@@ -9,6 +9,7 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
+        <TextBlock Text="IMPORTANT: This checks the amount of PERKS a Sim has, not perk POINTS." TextWrapping="Wrap" />
         <shared:Field Label="Perk Type" LabelWidth="100">
             <shared:TextBoxWithPresetsControl PresetsFolder="PerkType" Text="{Binding PerkType}" />
         </shared:Field>

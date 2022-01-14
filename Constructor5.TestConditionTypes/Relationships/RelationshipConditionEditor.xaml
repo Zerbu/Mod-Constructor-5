@@ -10,32 +10,18 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <UserControl.Resources>
-        <ObjectDataProvider x:Key="TargetTypeDataProvider"
-                            MethodName="GetValues"
-                            ObjectType="{x:Type shared:EnumSelectorValueGetter}">
-            <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="local:RelationshipConditionTarget" />
-                <shared:EnumSelectorReplaceDictionary>
-                    <system:String x:Key="AllRelationships">All Relationships</system:String>
-                </shared:EnumSelectorReplaceDictionary>
-            </ObjectDataProvider.MethodParameters>
-        </ObjectDataProvider>
-    </UserControl.Resources>
     <StackPanel>
         <shared:Field Label="Primary Participant" LabelWidth="150">
             <shared:ParticipantControl Text="{Binding PrimaryParticipant}" />
         </shared:Field>
         <shared:Field Label="Target Type" LabelWidth="100">
-            <ComboBox IsEditable="False"
-                      ItemsSource="{Binding Source={StaticResource TargetTypeDataProvider}}"
-                      SelectedItem="{Binding TargetType, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource TargetTypeDataProvider}}">
-                <ComboBox.ItemTemplate>
-                    <DataTemplate>
-                        <ContentPresenter Content="{Binding DisplayText}" />
-                    </DataTemplate>
-                </ComboBox.ItemTemplate>
-            </ComboBox>
+            <shared:EnumSelectorControl SelectedItem="{Binding TargetType}" TypeName="RelationshipConditionTarget">
+                <shared:EnumSelectorControl.Replacements>
+                    <shared:EnumSelectorReplaceDictionary>
+                        <system:String x:Key="AllRelationships">All Relationships</system:String>
+                    </shared:EnumSelectorReplaceDictionary>
+                </shared:EnumSelectorControl.Replacements>
+            </shared:EnumSelectorControl>
         </shared:Field>
         <StackPanel>
             <shared:Field Label="Target Participant" LabelWidth="150">
@@ -63,6 +49,11 @@
                     </TextBlock>
                 </StackPanel>
             </shared:Field>
+            <CheckBox IsChecked="{Binding InvertNumRelationshipsAll}">
+                <StackPanel>
+                    <TextBlock Text="Check if number of relationships is less than or equal to the defined number rather than the other way around" TextWrapping="Wrap" />
+                </StackPanel>
+            </CheckBox>
             <StackPanel.Style>
                 <Style TargetType="{x:Type StackPanel}">
                     <Setter Property="Visibility" Value="Collapsed" />
@@ -76,12 +67,19 @@
         </StackPanel>
         <StackPanel>
             <Expander Header="Advanced Options">
-                <shared:Field Label="Number of Relationships" LabelWidth="175">
-                    <StackPanel>
-                        <xctk:IntegerUpDown Minimum="0" Text="{Binding NumRelationshipsParticipant, UpdateSourceTrigger=PropertyChanged}" />
-                        <TextBlock FontStyle="Italic" TextWrapping="Wrap">Used for participant types that contain multiple Sims, such as ActiveHousehold. Set to 0 to require all participants to pass.</TextBlock>
-                    </StackPanel>
-                </shared:Field>
+                <StackPanel>
+                    <shared:Field Label="Number of Relationships" LabelWidth="175">
+                        <StackPanel>
+                            <xctk:IntegerUpDown Minimum="0" Text="{Binding NumRelationshipsParticipant, UpdateSourceTrigger=PropertyChanged}" />
+                            <TextBlock FontStyle="Italic" TextWrapping="Wrap">Used for participant types that contain multiple Sims, such as ActiveHousehold. Set to 0 to require all participants to pass.</TextBlock>
+                        </StackPanel>
+                    </shared:Field>
+                    <CheckBox IsChecked="{Binding InvertNumRelationshipsParticipant}">
+                        <StackPanel>
+                            <TextBlock Text="Check if number of relationships is less than or equal to the defined number rather than the other way around" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </CheckBox>
+                </StackPanel>
             </Expander>
             <StackPanel.Style>
                 <Style TargetType="{x:Type StackPanel}">
@@ -94,49 +92,6 @@
                 </Style>
             </StackPanel.Style>
         </StackPanel>
-        <TabControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-            <TabItem Header="Track">
-                <StackPanel>
-                    <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">Note: Track conditions are optional. The game will still check bit conditions even if the track is left undefined.</TextBlock>
-                    <shared:ReferenceControl ElementTypeName="RelationshipTrack" Reference="{Binding Track}" />
-                    <shared:Field Label="Track Bounds" LabelWidth="100">
-                        <shared:IntBoundsControl Bounds="{Binding TrackBounds}"
-                                                 Maximum="100"
-                                                 Minimum="-100" />
-                    </shared:Field>
-                </StackPanel>
-            </TabItem>
-            <TabItem Header="Bits">
-                <StackPanel>
-                    <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">Note: Bit conditions are optional. The game will still check track conditions even if no bits are specified.</TextBlock>
-                    <TabControl>
-                        <TabItem Header="Required (Any)">
-                            <StackPanel>
-                                <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The condition will pass if the target has any of these bits.</TextBlock>
-                                <shared:ReferenceListControl ElementReferenceList="{Binding RequiredBitsAny}" ElementTypeName="RelBit" />
-                            </StackPanel>
-                        </TabItem>
-                        <TabItem Header="Required (All)">
-                            <StackPanel>
-                                <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The target will need to have all of these bits for the test to pass.</TextBlock>
-                                <shared:ReferenceListControl ElementReferenceList="{Binding RequiredBitsAll}" ElementTypeName="RelBit" />
-                            </StackPanel>
-                        </TabItem>
-                        <TabItem Header="Prohibited (Any)">
-                            <StackPanel>
-                                <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The condition will fail if the target has any of these bits.</TextBlock>
-                                <shared:ReferenceListControl ElementReferenceList="{Binding ProhibitedBitsAny}" ElementTypeName="RelBit" />
-                            </StackPanel>
-                        </TabItem>
-                        <TabItem Header="Prohibited (All)">
-                            <StackPanel>
-                                <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The condition will fail if the target has all of these bits, but will still pass if they have only some of them.</TextBlock>
-                                <shared:ReferenceListControl ElementReferenceList="{Binding ProhibitedBitsAll}" ElementTypeName="RelBit" />
-                            </StackPanel>
-                        </TabItem>
-                    </TabControl>
-                </StackPanel>
-            </TabItem>
-        </TabControl>
+        <local:RelationshipConditionEditorValues Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" />
     </StackPanel>
 </UserControl>
