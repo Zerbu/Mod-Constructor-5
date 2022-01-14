@@ -1,5 +1,5 @@
 ---
-name: 2. Exported Mod Bug Report
+name: Exported Mod Bug Report
 about: For errors in mods exported from Mod Constructor that are the result of bugs
   in the program
 title: ''
