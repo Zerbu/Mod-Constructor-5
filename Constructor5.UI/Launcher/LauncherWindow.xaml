@@ -23,17 +23,19 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
             <ScrollViewer>
-                <ItemsControl x:Name="ProjectsControl" Margin="{StaticResource Constructor.BigPadding}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <Button Margin="2"
-                                    HorizontalContentAlignment="Left"
-                                    Command="{StaticResource ProjectLoadCommand}"
-                                    CommandParameter="{Binding}"
-                                    Content="{Binding Name}" />
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
+                <StackPanel>
+                    <ItemsControl x:Name="ProjectsControl" Margin="{StaticResource Constructor.BigPadding}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Margin="2"
+                                        HorizontalContentAlignment="Left"
+                                        Command="{StaticResource ProjectLoadCommand}"
+                                        CommandParameter="{Binding}"
+                                        Content="{Binding Name}" />
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
             </ScrollViewer>
             <StackPanel Grid.Row="1" Margin="{StaticResource Constructor.BigPadding}">
                 <Grid>

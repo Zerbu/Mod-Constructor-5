@@ -7,7 +7,10 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Shared/Field.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Shared/ContentControls/Field.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Shared/ContentControls/SpacedStack.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Shared/ContentControls/LeftRightPadding.xaml" />
+
                 <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Styles/Presets.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Styles/Window.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Styles/Border.xaml" />

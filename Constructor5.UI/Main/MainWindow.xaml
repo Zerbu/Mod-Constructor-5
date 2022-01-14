@@ -57,11 +57,12 @@
                     </ListView.ItemTemplate>
                 </ListView>
                 <StackPanel Grid.Row="1" Margin="{StaticResource Constructor.BigPadding}">
+
                     <Button x:Name="IssuesButton"
                             HorizontalAlignment="Left"
                             Click="IssuesButton_Click"
                             Style="{StaticResource Constructor.PlainButtonStyle}"
-                            ToolTip="Report a Bug">
+                            ToolTip="Report Bug">
                         <Button.Content>
                             <StackPanel Orientation="Horizontal">
                                 <Image Width="25"

@@ -161,26 +161,30 @@
     <Compile Include="Dialogs\PythonInstaller\PythonInstallerWindow.xaml.cs">
       <DependentUpon>PythonInstallerWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\ComplexChanceControl.xaml.cs">
+    <Compile Include="Shared\ContentControls\LeftRightPadding.cs" />
+    <Compile Include="Shared\ContentControls\SpacedStack.cs" />
+    <Compile Include="Shared\ContentControls\SpacedStackStyleSelector.cs" />
+    <Compile Include="Shared\Overrides\TextBox.cs" />
+    <Compile Include="Shared\Properties\ComplexChanceControl.xaml.cs">
       <DependentUpon>ComplexChanceControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\ComponentViewer.xaml.cs">
+    <Compile Include="Shared\Elements\ComponentViewer.xaml.cs">
       <DependentUpon>ComponentViewer.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\CustomTuningCommand.cs" />
-    <Compile Include="Shared\DoubleBoundsControl.xaml.cs">
+    <Compile Include="Shared\Commands\CustomTuningCommand.cs" />
+    <Compile Include="Shared\Properties\DoubleBoundsControl.xaml.cs">
       <DependentUpon>DoubleBoundsControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\ElementSettingsCommand.cs" />
-    <Compile Include="Shared\EnumDisplayTextAttribute.cs" />
-    <Compile Include="Shared\EnumSelectorControl.xaml.cs">
+    <Compile Include="Shared\Commands\ElementSettingsCommand.cs" />
+    <Compile Include="Shared\Enums\EnumDisplayTextAttribute.cs" />
+    <Compile Include="Shared\Enums\EnumSelectorControl.xaml.cs">
       <DependentUpon>EnumSelectorControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\EnumSelectorReplaceDictionary.cs" />
-    <Compile Include="Shared\EnumSelectorValue.cs" />
-    <Compile Include="Shared\EnumToStringConverter.cs" />
-    <Compile Include="Shared\EnumSelectorValueGetter.cs" />
-    <Compile Include="Shared\IconControl.xaml.cs">
+    <Compile Include="Shared\Enums\EnumSelectorReplaceDictionary.cs" />
+    <Compile Include="Shared\Enums\EnumSelectorValue.cs" />
+    <Compile Include="Shared\Enums\EnumToStringConverter.cs" />
+    <Compile Include="Shared\Enums\EnumSelectorValueGetter.cs" />
+    <Compile Include="Shared\Properties\IconControl.xaml.cs">
       <DependentUpon>IconControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Launcher\LauncherWindow.xaml.cs">
@@ -194,29 +198,29 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Main\SaveCommand.cs" />
-    <Compile Include="Shared\InlineObjectEditor.xaml.cs">
+    <Compile Include="Shared\ObjectControls\InlineObjectEditor.xaml.cs">
       <DependentUpon>InlineObjectEditor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\IntBoundsControl.xaml.cs">
+    <Compile Include="Shared\Properties\IntBoundsControl.xaml.cs">
       <DependentUpon>IntBoundsControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\IntSlider.xaml.cs">
+    <Compile Include="Shared\Properties\IntSlider.xaml.cs">
       <DependentUpon>IntSlider.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\IObjectEditor.cs" />
-    <Compile Include="Shared\MultiParamConverter.cs" />
-    <Compile Include="Shared\NotificationIconControl.xaml.cs">
+    <Compile Include="Shared\ObjectControls\IObjectEditor.cs" />
+    <Compile Include="Shared\Converters\MultiParamConverter.cs" />
+    <Compile Include="Shared\Properties\NotificationIconControl.xaml.cs">
       <DependentUpon>NotificationIconControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\NotificationOrDialogControl.xaml.cs">
+    <Compile Include="Shared\Properties\NotificationOrDialogControl.xaml.cs">
       <DependentUpon>NotificationOrDialogControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\ObjectEditorAttribute.cs" />
-    <Compile Include="Shared\ObjectEditorControl.xaml.cs">
+    <Compile Include="Shared\ObjectControls\ObjectEditorAttribute.cs" />
+    <Compile Include="Shared\ObjectControls\ObjectEditorControl.xaml.cs">
       <DependentUpon>ObjectEditorControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\ObjectEditorManager.cs" />
-    <Compile Include="Shared\ParticipantControl.xaml.cs">
+    <Compile Include="Shared\ObjectControls\ObjectEditorManager.cs" />
+    <Compile Include="Shared\Properties\ParticipantControl.xaml.cs">
       <DependentUpon>ParticipantControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -232,47 +236,47 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Shared\ReferenceControlWithEditorUnderneath.xaml.cs">
+    <Compile Include="Shared\Elements\ReferenceControlWithEditorUnderneath.xaml.cs">
       <DependentUpon>ReferenceControlWithEditorUnderneath.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\ReferenceLabel.xaml.cs">
+    <Compile Include="Shared\Elements\ReferenceLabel.xaml.cs">
       <DependentUpon>ReferenceLabel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\ReferenceListControl.xaml.cs">
+    <Compile Include="Shared\Elements\ReferenceListControl.xaml.cs">
       <DependentUpon>ReferenceListControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Dialogs\PresetSelect\PresetSelectWindow.xaml.cs">
       <DependentUpon>PresetSelectWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\ReferenceControl.xaml.cs">
+    <Compile Include="Shared\Elements\ReferenceControl.xaml.cs">
       <DependentUpon>ReferenceControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Dialogs\ObjectTypeSelector\ObjectTypeSelectorWindow.xaml.cs">
       <DependentUpon>ObjectTypeSelectorWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\SelectableObjectControl.xaml.cs">
+    <Compile Include="Shared\ObjectControls\SelectableObjectControl.xaml.cs">
       <DependentUpon>SelectableObjectControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\Field.cs" />
+    <Compile Include="Shared\ContentControls\Field.cs" />
     <Compile Include="Shared\OwnTypeDropHandler.cs" />
-    <Compile Include="Shared\SimpleAddToListCommand.cs" />
-    <Compile Include="Shared\SimpleBrowsePresetsCommand.cs" />
-    <Compile Include="Shared\SimpleOpenWindowCommand.cs" />
-    <Compile Include="Shared\DoubleSlider.xaml.cs">
+    <Compile Include="Shared\Commands\SimpleAddToListCommand.cs" />
+    <Compile Include="Shared\Commands\SimpleBrowsePresetsCommand.cs" />
+    <Compile Include="Shared\Commands\SimpleOpenWindowCommand.cs" />
+    <Compile Include="Shared\Properties\DoubleSlider.xaml.cs">
       <DependentUpon>DoubleSlider.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\SimpleRemoveFromListCommand.cs" />
-    <Compile Include="Shared\STBLStringControl.xaml.cs">
+    <Compile Include="Shared\Commands\SimpleRemoveFromListCommand.cs" />
+    <Compile Include="Shared\Properties\STBLStringControl.xaml.cs">
       <DependentUpon>STBLStringControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\StringListControl.xaml.cs">
+    <Compile Include="Shared\Properties\StringListControl.xaml.cs">
       <DependentUpon>StringListControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\ThresholdControl.xaml.cs">
+    <Compile Include="Shared\Properties\ThresholdControl.xaml.cs">
       <DependentUpon>ThresholdControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Shared\VisualTreeUtility.cs" />
-    <Compile Include="Shared\TextBoxWithPresetsControl.xaml.cs">
+    <Compile Include="Shared\Properties\TextBoxWithPresetsControl.xaml.cs">
       <DependentUpon>TextBoxWithPresetsControl.xaml</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -353,23 +357,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\ComplexChanceControl.xaml">
+    <Page Include="Shared\ContentControls\LeftRightPadding.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\ComponentViewer.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Shared\DoubleBoundsControl.xaml">
+    <Page Include="Shared\Properties\ComplexChanceControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\EnumSelectorControl.xaml">
+    <Page Include="Shared\Elements\ComponentViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shared\Properties\DoubleBoundsControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\IconControl.xaml">
+    <Page Include="Shared\Enums\EnumSelectorControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\Properties\IconControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -381,43 +389,43 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\InlineObjectEditor.xaml">
+    <Page Include="Shared\ObjectControls\InlineObjectEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\IntBoundsControl.xaml">
+    <Page Include="Shared\Properties\IntBoundsControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\IntSlider.xaml">
+    <Page Include="Shared\Properties\IntSlider.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\NotificationIconControl.xaml">
+    <Page Include="Shared\Properties\NotificationIconControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Shared\NotificationOrDialogControl.xaml">
+    <Page Include="Shared\Properties\NotificationOrDialogControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\ObjectEditorControl.xaml">
+    <Page Include="Shared\ObjectControls\ObjectEditorControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\ParticipantControl.xaml">
+    <Page Include="Shared\Properties\ParticipantControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Shared\ReferenceControlWithEditorUnderneath.xaml">
+    <Page Include="Shared\Elements\ReferenceControlWithEditorUnderneath.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\ReferenceLabel.xaml">
+    <Page Include="Shared\Elements\ReferenceLabel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\ReferenceListControl.xaml">
+    <Page Include="Shared\Elements\ReferenceListControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -425,7 +433,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Shared\ReferenceControl.xaml">
+    <Page Include="Shared\Elements\ReferenceControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -433,27 +441,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Shared\SelectableObjectControl.xaml">
+    <Page Include="Shared\ObjectControls\SelectableObjectControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Shared\Field.xaml">
+    <Page Include="Shared\ContentControls\Field.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\DoubleSlider.xaml">
+    <Page Include="Shared\Properties\DoubleSlider.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\STBLStringControl.xaml">
+    <Page Include="Shared\ContentControls\SpacedStack.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\StringListControl.xaml">
+    <Page Include="Shared\Properties\STBLStringControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\ThresholdControl.xaml">
+    <Page Include="Shared\Properties\StringListControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shared\Properties\ThresholdControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -509,7 +521,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\TextBoxWithPresetsControl.xaml">
+    <Page Include="Shared\Properties\TextBoxWithPresetsControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -527,7 +539,10 @@
   <ItemGroup>
     <Resource Include="FodyWeavers.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Shared\~ USE SAME NAMESPACE\" />
+    <Folder Include="Shared\~~ FOR EVERY FOLDER\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.6.6.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.0\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
