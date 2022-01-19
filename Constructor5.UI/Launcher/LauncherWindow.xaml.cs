@@ -1,9 +1,10 @@
-﻿using Constructor5.Base;
+using Constructor5.Base;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ProjectSystem;
 using Constructor5.Base.Python;
 using Constructor5.Core;
 using Constructor5.UI.Dialogs.PythonInstaller;
+using Constructor5.UI.Dialogs.UnlocalizableStringFinder;
 using Constructor5.UI.Main;
 using System.Windows;
 
@@ -20,6 +21,9 @@ namespace Constructor5.UI.Launcher
             Hooks.RegisterClass(this);
             CreatorName.Text = ProgramSettings.CreatorName;
             ProjectsControl.ItemsSource = ProjectManager.LoadInfo();
+#if DEBUG
+            Hooks.RegisterClass(UnlocalizableStringFinderProcess.Current);
+#endif
         }
 
         void IOnProjectCreatedOrLoaded.OnProjectCreatedOrLoaded()

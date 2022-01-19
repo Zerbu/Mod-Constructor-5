@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.CustomTuning;
+using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
@@ -7,7 +7,7 @@ using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.LootActionSets
 {
-    [ElementTypeData("Loot Action Set", true,
+    [ElementTypeData("LootActionSet", true,
         ElementTypes = new[] { typeof(LootActionSet) },
         PresetFolders = new[] { "Loot" })]
     public class LootActionSet : Element, IExportableElement, ISupportsCustomTuning
@@ -32,7 +32,7 @@ namespace Constructor5.Elements.LootActionSets
                 ExportConditionGroup(group, context);
             }
 
-            CustomTuningExporter.Export(tuning, CustomTuning);
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

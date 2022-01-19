@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Export;
+using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.TuningActions;
@@ -35,7 +35,7 @@ namespace Constructor5.Elements.Traits.Components
         public bool AllowYoungAdult { get; set; } = true;
 
         public override int ComponentDisplayOrder => 1;
-        public override string ComponentLabel => "Trait Info";
+        public override string ComponentLabel => "TraitInfo";
 
         [AutoTuneBasic("trait_description")]
         public STBLString Description { get; set; } = new STBLString();
@@ -97,7 +97,7 @@ namespace Constructor5.Elements.Traits.Components
             var header = context.Tuning;
             header.SimDataHandler.WriteText(188, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
             header.SimDataHandler.WriteText(232, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
-            header.SimDataHandler.WriteTGI(200, Icon.GetUncommentedText());
+            header.SimDataHandler.WriteTGI(200, Icon.GetUncommentedText(), Element);
 
             SimDataTuneAges(context);
             SimDataTuneType(context, (TunableEnum)typeTunable);

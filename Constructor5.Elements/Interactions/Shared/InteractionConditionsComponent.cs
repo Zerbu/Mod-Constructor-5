@@ -1,4 +1,4 @@
-﻿using Constructor5.Elements.Interactions.Mixer;
+using Constructor5.Elements.Interactions.Mixer;
 using Constructor5.Elements.Interactions.Social;
 using Constructor5.Elements.TestConditions;
 using Constructor5.Core;

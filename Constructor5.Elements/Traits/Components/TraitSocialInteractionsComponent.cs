@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Elements.Interactions.Social;
@@ -10,10 +10,10 @@ using Constructor5.Core;
 namespace Constructor5.Elements.Traits.Components
 {
     [XmlSerializerExtraType]
-    [HasAutoEditor("These social interactions will be available to Sims who have the trait.")]
+    [HasAutoEditor("SocialInteractionsNotice")]
     public class TraitSocialInteractionsComponent : TraitComponent
     {
-        public override string ComponentLabel => "Social Interactions";
+        public override string ComponentLabel => "SocialInteractions";
 
         [AutoGenSocialInteraction(ElementTypeName = "SocialInteraction", ShowCreateButton = true)]
         public ReferenceList SocialInteractions { get; set; } = new ReferenceList();

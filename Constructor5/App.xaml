@@ -1,4 +1,4 @@
-﻿<Application x:Class="Constructor5.App"
+<Application x:Class="Constructor5.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Constructor5"
@@ -9,7 +9,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Shared/ContentControls/Field.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Shared/ContentControls/SpacedStack.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Shared/ContentControls/LeftRightPadding.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Shared/ContentControls/LeftRightMargin.xaml" />
 
                 <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Styles/Presets.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Styles/Window.xaml" />

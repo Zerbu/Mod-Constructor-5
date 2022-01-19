@@ -1,47 +1,47 @@
-﻿<UserControl x:Class="Constructor5.Elements.ObjectiveSets.ObjectiveSetEditor"
+<UserControl x:Class="Constructor5.Elements.ObjectiveSets.ObjectiveSetEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.ObjectiveSets"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <shared:Field Label="Display Name" LabelWidth="100">
-            <shared:STBLStringControl Text="{Binding DisplayName}" UpdateLabelForElement="{Binding}" />
-        </shared:Field>
-        <TabControl>
-            <TabItem Header="Objectives">
+        <c:Field Label="DisplayName" LabelWidth="100">
+            <c:STBLStringControl Text="{Binding DisplayName}" UpdateLabelForElement="{Binding}" />
+        </c:Field>
+        <c:TabControl>
+            <c:TabItem Header="Objectives">
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                    <shared:ReferenceListControl BrowseWarning="Note: If multiple sets share the same objective, completing it will count towards all of them, not just the one that is active. For example, if you add the &quot;Work out for 8 total hours&quot; from the Bodybuilder aspiration to a custom aspiration, and your Sim has already compeleted it as part of the Bodybuilder aspiration, it will already be completed in your custom aspiration even if it was never selected before. If you don't want this to happen, create a new objective instead."
-                                                 CreateElementFunction="ReferenceListControl_CreateElementFunction"
-                                                 EditorCategory="Default"
-                                                 ElementReferenceList="{Binding Objectives}"
-                                                 ElementTypeName="Objective"
-                                                 ShowCreateButton="True" />
+                    <c:ReferenceListControl BrowseWarning="Note: If multiple sets share the same objective, completing it will count towards all of them, not just the one that is active. For example, if you add the &quot;Work out for 8 total hours&quot; from the Bodybuilder aspiration to a custom aspiration, and your Sim has already compeleted it as part of the Bodybuilder aspiration, it will already be completed in your custom aspiration even if it was never selected before. If you don't want this to happen, create a new objective instead."
+                                            CreateElementFunction="ReferenceListControl_CreateElementFunction"
+                                            EditorCategory="Default"
+                                            ElementReferenceList="{Binding Objectives}"
+                                            ElementTypeName="Objective"
+                                            ShowCreateButton="True" />
                 </StackPanel>
-            </TabItem>
-            <TabItem Header="Settings">
+            </c:TabItem>
+            <c:TabItem Header="Settings">
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                    <CheckBox Content="Only require the Sim to complete some objectives" IsChecked="{Binding OnlyRequireSomeObjectives}" />
-                    <shared:Field Label="Number Required"
-                                  LabelWidth="100"
-                                  Visibility="{Binding OnlyRequireSomeObjectives, Converter={StaticResource BoolToVis}}">
+                    <c:CheckBox Content="OnlyRequireSomeObjectives" IsChecked="{Binding OnlyRequireSomeObjectives}" />
+                    <c:Field Label="Number Required"
+                             LabelWidth="100"
+                             Visibility="{Binding OnlyRequireSomeObjectives, Converter={StaticResource BoolToVis}}">
                         <xctk:IntegerUpDown Minimum="1" Text="{Binding NumberOfObjectivesRequired}" />
-                    </shared:Field>
-                    <CheckBox IsChecked="{Binding AlwaysTrack}">
+                    </c:Field>
+                    <c:CheckBox IsChecked="{Binding AlwaysTrack}">
                         <StackPanel>
-                            <TextBlock Text="Always Track" TextWrapping="Wrap" />
-                            <TextBlock FontStyle="Italic"
-                                       Text="If checked, the objective set will always be enabled and tracked through the Sim's entire life, without needing to be unlocked by an aspiration, career or other part of the game."
-                                       TextWrapping="Wrap" />
+                            <c:TextBlock Text="AlwaysTrack" />
+                            <c:TextBlock FontStyle="Italic"
+                                       Text="AlwaysTrackObjectiveSetHelp"
+                                       />
                         </StackPanel>
-                    </CheckBox>
+                    </c:CheckBox>
                 </StackPanel>
-            </TabItem>
-        </TabControl>
+            </c:TabItem>
+        </c:TabControl>
     </StackPanel>
 </UserControl>

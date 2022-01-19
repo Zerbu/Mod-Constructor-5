@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.SimData;
@@ -13,7 +13,7 @@ using System.Linq;
 
 namespace Constructor5.Elements.Rewards
 {
-    [ElementTypeData("Reward Set", false, PresetFolders = new[] { "Reward" })]
+    [ElementTypeData("RewardSet", false, PresetFolders = new[] { "Reward" })]
     public class RewardSet : Element, IExportableElement
     {
         public STBLString Description { get; set; } = new STBLString();
@@ -82,13 +82,13 @@ namespace Constructor5.Elements.Rewards
                     }
                     else
                     {
-                        Exporter.Current.AddError($"{UserFacingId} is set to automatically generate the UI info from a custom trait reward, but the trait is not a custom trait from the mod.");
+                        Exporter.Current.AddError(this, $"{UserFacingId} is set to automatically generate the UI info from a custom trait reward, but the trait is not a custom trait from the mod.");
                         return;
                     }
                 }
                 else
                 {
-                    Exporter.Current.AddError($"{UserFacingId} is set to automatically generate the UI info from a custom trait reward, but doesn't have one.");
+                    Exporter.Current.AddError(this, $"{UserFacingId} is set to automatically generate the UI info from a custom trait reward, but doesn't have one.");
                     return;
                 }
             }
@@ -103,7 +103,7 @@ namespace Constructor5.Elements.Rewards
 
             tuning.SimDataHandler.WriteText(112, Exporter.Current.STBLBuilder.GetKey(uiName) ?? 0);
             tuning.SimDataHandler.WriteText(128, Exporter.Current.STBLBuilder.GetKey(uiDescription) ?? 0);
-            tuning.SimDataHandler.WriteTGI(96, uiIcon.GetUncommentedText());
+            tuning.SimDataHandler.WriteTGI(96, uiIcon.GetUncommentedText(), this);
 
             TuningExport.AddToQueue(tuning);
         }

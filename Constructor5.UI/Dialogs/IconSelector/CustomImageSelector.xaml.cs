@@ -1,4 +1,4 @@
-﻿using Constructor5.Base;
+using Constructor5.Base;
 using Constructor5.Base.CustomImageSystem;
 using Constructor5.Base.Icons;
 using Constructor5.Base.ProjectSystem;

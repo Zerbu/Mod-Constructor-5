@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Elements.Traits;
@@ -10,7 +10,7 @@ namespace Constructor5.Elements.Buffs.Components
 {
     [XmlSerializerExtraType]
     [SharedWithTraits]
-    [HasAutoEditor("Broadcasters are used to add buffs or run actions when in the proximity of another Sim. For example, a Sim who is interested in vampires could get an Energized buff around vampires. Effects can also be applied to the receiver; for example, a bully Sim could cause all other Sims to get a Scared buff.")]
+    [HasAutoEditor("BroadcastersNotice")]
     public class BuffBroadcastersComponent : BuffComponent
     {
         [AutoEditorReferenceList("Broadcaster", ShowCreateButton = true)]

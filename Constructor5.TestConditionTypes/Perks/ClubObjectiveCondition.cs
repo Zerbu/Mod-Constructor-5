@@ -1,10 +1,10 @@
-﻿using Constructor5.Base.SelectableObjects;
+using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.TestConditionTypes.Collections;
 
 namespace Constructor5.TestConditionTypes.Perks
 {
-    [SelectableObjectType("ObjectiveConditionTypes", "Perks: Club Status Condition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "PerksClubStatusCondition")]
     [XmlSerializerExtraType]
     public class ClubObjectiveCondition : CollectionCondition
     {

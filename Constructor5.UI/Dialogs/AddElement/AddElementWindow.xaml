@@ -1,10 +1,10 @@
-﻿<Window x:Class="Constructor5.UI.Dialogs.AddElement.AddElementWindow"
+<Window x:Class="Constructor5.UI.Dialogs.AddElement.AddElementWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:Constructor5.UI.Shared"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:Constructor5.UI.Dialogs.AddElement"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:shared="clr-namespace:Constructor5.UI.Shared"
         Title="Add Element - The Sims 4 Mod Constructor (V5)"
         Width="800"
         Height="600"
@@ -29,31 +29,31 @@
                       SelectionChanged="ElementTypesControl_SelectionChanged">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextBlock Text="{Binding Label}" />
+                        <c:TextBlock Text="{Binding Label}" />
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <CheckBox x:Name="ShowAllCheckBox"
-                      Grid.Row="1"
-                      Margin="{StaticResource Constructor.BigPadding}"
-                      Checked="ShowAllCheckBox_Checked"
-                      Content="Show All"
-                      Unchecked="ShowAllCheckBox_Checked" />
+            <c:CheckBox x:Name="ShowAllCheckBox"
+                        Grid.Row="1"
+                        Margin="{StaticResource Constructor.BigPadding}"
+                        Checked="ShowAllCheckBox_Checked"
+                        Content="ShowAll"
+                        Unchecked="ShowAllCheckBox_Checked" />
             <StackPanel Grid.Row="2" Margin="{StaticResource Constructor.BigPadding}">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
-                    <shared:Field Label="Element Name">
+                    <c:Field Label="ElementName">
                         <TextBox x:Name="ElementNameTextBox"
                                  Text="{Binding Path=ElementName, Source={StaticResource ElementAddCommand}, UpdateSourceTrigger=PropertyChanged}"
                                  TextChanged="ElementNameTextBox_TextChanged" />
-                    </shared:Field>
-                    <Button Grid.Column="1"
+                    </c:Field>
+                    <c:Button Grid.Column="1"
                             Margin="2"
                             Command="{StaticResource ElementAddCommand}"
-                            Content="Create Element"
+                            Content="CreateElement"
                             IsDefault="True" />
                 </Grid>
             </StackPanel>

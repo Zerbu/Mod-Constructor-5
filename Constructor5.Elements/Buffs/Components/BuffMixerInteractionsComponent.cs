@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Elements.Traits;
@@ -10,7 +10,7 @@ namespace Constructor5.Elements.Buffs.Components
     [SharedWithTraits]
     public class BuffMixerInteractionsComponent : BuffComponent
     {
-        public override string ComponentLabel => "Mixer Interactions";
+        public override string ComponentLabel => "MixerInteractions";
 
         public ReferenceList MixerInteractions { get; set; } = new ReferenceList();
 

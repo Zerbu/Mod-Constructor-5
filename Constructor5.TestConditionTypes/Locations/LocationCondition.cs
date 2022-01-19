@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
@@ -9,8 +9,8 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Locations
 {
-    [SelectableObjectType("TestConditionTypes", "Location Condition")]
-    //[SelectableObjectType("SituationGoalConditionTypes", "Location Condition")]
+    [SelectableObjectType("TestConditionTypes", "LocationCondition")]
+    //[SelectableObjectType("SituationGoalConditionTypes", "LocationCondition")]
     [XmlSerializerExtraType]
     public class LocationCondition : TestCondition
     {

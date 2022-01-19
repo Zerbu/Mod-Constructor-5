@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.CustomTuning;
+using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
@@ -42,7 +42,7 @@ namespace Constructor5.Elements.Buffs
 
             if (element is Buff buff)
             {
-                CustomTuningExporter.Export(tuning, buff.CustomTuning);
+                CustomTuningExporter.Export(buff, tuning, buff.CustomTuning);
             }
 
             TuningExport.AddToQueue(tuning);

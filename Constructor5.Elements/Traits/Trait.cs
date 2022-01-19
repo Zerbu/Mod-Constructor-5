@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ComponentSystem;
+using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
@@ -79,7 +79,7 @@ namespace Constructor5.Elements
                 tunableTuple1.Set<TunableBasic>("buff_type", buffTuning.InstanceKey.ToString());
             }
 
-            CustomTuningExporter.Export(tuning, CustomTuning);
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

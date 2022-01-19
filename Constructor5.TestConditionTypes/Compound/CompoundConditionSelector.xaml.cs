@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Elements.CompoundConditionElements;
 using Constructor5.UI.Dialogs.ObjectTypeSelector;
 using System.Linq;
@@ -11,7 +11,7 @@ namespace Constructor5.TestConditionTypes.Compound
     {
         public CompoundConditionSelector() => InitializeComponent();
 
-        public string TabName => "Compound Condition Elements";
+        public string TabName => "CompoundConditionElements";
 
         public void Initialize(ObjectTypeSelectorWindow selectorWindow)
         {

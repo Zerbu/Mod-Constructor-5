@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.LootActionSets;
@@ -7,7 +7,7 @@ using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Statistic
 {
-    [SelectableObjectType("LootActionTypes", "Statistics: Set Statistic to Random Value In Range")]
+    [SelectableObjectType("LootActionTypes", "StatisticsSetStatistictoRandomValueInRange")]
     [XmlSerializerExtraType]
     public class SetStatisticToRandomValueInRangeAction : StatisticActionBase
     {

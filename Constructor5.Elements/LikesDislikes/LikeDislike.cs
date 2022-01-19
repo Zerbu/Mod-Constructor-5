@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Constructor5.Elements.LikesDislikes
 {
-    [ElementTypeData("Like/Dislike", false, ElementTypes = new[] { typeof(LikeDislike) })]
+    [ElementTypeData("LikeDislike", false, ElementTypes = new[] { typeof(LikeDislike) })]
     public class LikeDislike : Element
     {
         public Reference DislikeTrait { get; set; } = new Reference();

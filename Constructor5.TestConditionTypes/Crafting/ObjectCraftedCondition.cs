@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
@@ -9,7 +9,7 @@ using System.Collections.ObjectModel;
 
 namespace Constructor5.TestConditionTypes.Crafting
 {
-    [SelectableObjectType("ObjectiveConditionTypes", "Object Crafted Condition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "ObjectCraftedCondition")]
     [XmlSerializerExtraType]
     public class ObjectCraftedCondition : TestCondition
     {

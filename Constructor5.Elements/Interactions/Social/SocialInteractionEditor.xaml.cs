@@ -1,4 +1,4 @@
-﻿using Constructor5.Elements.Interactions.Social;
+using Constructor5.Elements.Interactions.Social;
 using Constructor5.UI.Shared;
 using System.Windows.Controls;
 

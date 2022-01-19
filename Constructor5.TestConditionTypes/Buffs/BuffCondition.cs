@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
@@ -7,9 +7,9 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Buffs
 {
-    [SelectableObjectType("TestConditionTypes", "Buff Condition")]
-    [SelectableObjectType("SituationGoalConditionTypes", "Buff Condition")]
-    //[SelectableObjectType("ObjectiveConditionTypes", "Buff Condition")]
+    [SelectableObjectType("TestConditionTypes", "BuffCondition")]
+    [SelectableObjectType("SituationGoalConditionTypes", "BuffCondition")]
+    //[SelectableObjectType("ObjectiveConditionTypes", "BuffCondition")]
     [XmlSerializerExtraType]
     public class BuffCondition : TestCondition
     {

@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.UI.Bases;
 using Constructor5.UI.Dialogs;
 using Constructor5.UI.Dialogs.ElementSettings;

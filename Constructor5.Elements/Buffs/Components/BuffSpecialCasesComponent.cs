@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
@@ -20,7 +20,7 @@ namespace Constructor5.Elements.Buffs.Components
         [AutoTuneBasic("timeout_string")]
         public STBLString TimeoutStringOverride { get; set; } = new STBLString();
 
-        public override string ComponentLabel => "Special Cases";
+        public override string ComponentLabel => "SpecialCases";
 
         protected internal override bool HasContent() => true;
 

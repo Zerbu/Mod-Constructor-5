@@ -1,4 +1,4 @@
-﻿using Constructor5.UI.Shared;
+using Constructor5.UI.Shared;
 using System.Windows.Controls;
 
 namespace Constructor5.Elements.BalloonSets
@@ -13,7 +13,7 @@ namespace Constructor5.Elements.BalloonSets
         private void DeleteButton_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             var element = (BalloonSet)DataContext;
-            element.Balloons.Remove((Balloon)((Button)sender).Tag);
+            element.Balloons.Remove((Balloon)((System.Windows.Controls.Button)sender).Tag);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Constructor5.Core;
+using Constructor5.Base.LocalizationSystem;
+using Constructor5.Core;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
@@ -100,7 +101,7 @@ namespace Constructor5.Base.ElementSystem
 
         public T GetContextModifier<T>() where T : ContextModifier => ContextModifiers.FirstOrDefault(x => x is T) as T;
 
-        public virtual string GetDefaultLabel() => $"New {ElementTypeData.Get(GetType()).Label}";
+        public virtual string GetDefaultLabel() => $"New {TextStringManager.Get(ElementTypeData.Get(GetType()).Label)}";
 
         void IAutosavableObject.OnAutosave()
         {

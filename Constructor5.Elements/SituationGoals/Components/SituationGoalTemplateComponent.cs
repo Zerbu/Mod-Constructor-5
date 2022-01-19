@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.SelectableObjects;
+using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.SituationGoals.Templates;
 using Constructor5.Core;
 
@@ -8,7 +8,7 @@ namespace Constructor5.Elements.SituationGoals.Components
     public class SituationGoalTemplateComponent : SituationGoalComponent
     {
         public override int ComponentDisplayOrder => 2;
-        public override string ComponentLabel => "Main Content";
+        public override string ComponentLabel => "MainContent";
 
         public SituationGoalTemplate Template { get; set; } = new SituationGoalDefaultTemplate();
 

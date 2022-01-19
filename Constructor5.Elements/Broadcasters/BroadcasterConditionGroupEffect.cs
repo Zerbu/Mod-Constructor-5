@@ -1,4 +1,4 @@
-﻿using Constructor5.Core;
+using Constructor5.Core;
 
 namespace Constructor5.Elements.Broadcasters
 {

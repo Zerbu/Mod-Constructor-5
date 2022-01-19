@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning.SimData;
+using Constructor5.Base.ExportSystem.Tuning.SimData;
 using System.Xml.Serialization;
 
 namespace Constructor5.Base.ExportSystem.Tuning

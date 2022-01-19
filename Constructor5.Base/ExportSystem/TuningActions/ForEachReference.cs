@@ -1,4 +1,4 @@
-﻿using Constructor5.ActionSystem.TuningActions;
+using Constructor5.ActionSystem.TuningActions;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using System;

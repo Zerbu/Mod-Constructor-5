@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 
 namespace Constructor5.Elements.SituationJobs
 {

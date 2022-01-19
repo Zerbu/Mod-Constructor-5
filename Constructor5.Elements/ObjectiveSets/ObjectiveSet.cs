@@ -1,4 +1,5 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.CustomTuning;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
@@ -12,8 +13,8 @@ using System.Linq;
 
 namespace Constructor5.Elements.ObjectiveSets
 {
-    [ElementTypeData("Objective Set", false, ElementTypes = new[] { typeof(ObjectiveSet) }, PresetFolders = new[] { "ObjectiveSet" })]
-    public class ObjectiveSet : Element, IExportableElement
+    [ElementTypeData("ObjectiveSet", false, ElementTypes = new[] { typeof(ObjectiveSet) }, PresetFolders = new[] { "ObjectiveSet" })]
+    public class ObjectiveSet : Element, IExportableElement, ISupportsCustomTuning
     {
         [AutoTuneIfFalse("do_not_register_events_on_load", "True")]
         public bool AlwaysTrack { get; set; } = true;
@@ -27,6 +28,7 @@ namespace Constructor5.Elements.ObjectiveSets
         public ReferenceList Objectives { get; set; } = new ReferenceList();
 
         public bool OnlyRequireSomeObjectives { get; set; }
+        public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
 
         void IExportableElement.OnExport()
         {
@@ -61,6 +63,8 @@ namespace Constructor5.Elements.ObjectiveSets
             }
 
             BuildSimData(tuning);
+
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

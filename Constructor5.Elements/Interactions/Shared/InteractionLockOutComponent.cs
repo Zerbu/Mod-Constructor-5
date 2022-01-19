@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Elements.Interactions.Mixer;
 using Constructor5.Core;
@@ -9,7 +9,7 @@ namespace Constructor5.Elements.Interactions.Shared
     [XmlSerializerExtraType]
     public class InteractionLockOutComponent : InteractionComponent
     {
-        public override string ComponentLabel => "Lock Out Time";
+        public override string ComponentLabel => "LockOutTime";
 
         public IntBounds InitialLockOutTime { get; set; } = new IntBounds();
         public IntBounds LockOutTime { get; set; } = new IntBounds();

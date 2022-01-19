@@ -1,4 +1,4 @@
-﻿namespace Constructor5.TestConditionTypes.Money
+namespace Constructor5.TestConditionTypes.Money
 {
     public enum SimoleonValueContext
     {

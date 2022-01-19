@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ProjectSystem;
+using Constructor5.Base.ProjectSystem;
 using Constructor5.Core;
 
 namespace Constructor5.Base.ElementSystem

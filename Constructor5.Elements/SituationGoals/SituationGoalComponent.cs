@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ComponentSystem;
+using Constructor5.Base.ComponentSystem;
 using System.Xml.Serialization;
 
 namespace Constructor5.Elements.SituationGoals

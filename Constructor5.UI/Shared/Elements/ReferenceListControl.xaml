@@ -1,19 +1,19 @@
-﻿<UserControl x:Class="Constructor5.UI.Shared.ReferenceListControl"
+<UserControl x:Class="Constructor5.UI.Shared.ReferenceListControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:dd="urn:gong-wpf-dragdrop"
-             xmlns:local="clr-namespace:Constructor5.UI.Shared"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              x:Name="uc"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <UserControl.Resources>
-        <local:SimpleBrowsePresetsCommand x:Key="AddReferenceCommand"
-                                          AllowMultiple="True"
-                                          PresetsSelectedCallback="SimpleBrowseElementsCommand_PresetsSelectedCallback" />
-        <local:ElementSettingsCommand x:Key="ElementSettingsCommand" />
+        <c:SimpleBrowsePresetsCommand x:Key="AddReferenceCommand"
+                                      AllowMultiple="True"
+                                      PresetsSelectedCallback="SimpleBrowseElementsCommand_PresetsSelectedCallback" />
+        <c:ElementSettingsCommand x:Key="ElementSettingsCommand" />
     </UserControl.Resources>
     <StackPanel>
         <Grid>
@@ -30,45 +30,45 @@
                       SelectionChanged="ReferencesListView_SelectionChanged">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <local:ReferenceLabel VerticalAlignment="Top" Reference="{Binding Reference}" />
+                        <c:ReferenceLabel VerticalAlignment="Top" Reference="{Binding Reference}" />
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
             <StackPanel Grid.Row="1" Orientation="Horizontal">
-                <Button x:Name="CreateButton"
-                        Margin="2"
-                        Click="CreateButton_Click"
-                        Content="Create"
-                        Visibility="{Binding ShowCreateButton, ElementName=uc, Converter={StaticResource BoolToVis}}" />
-                <Button x:Name="BrowseButton"
-                        Margin="2"
-                        Click="BrowseButton_Click"
-                        Content="Browse"
-                        Visibility="{Binding ShowBrowseButton, ElementName=uc, Converter={StaticResource BoolToVis}}" />
-                <Button x:Name="DeleteButton"
-                        Margin="2"
-                        Click="DeleteButton_Click"
-                        Content="Remove"
-                        Visibility="{Binding SelectedItem, ElementName=ReferencesListView, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}" />
-                <Button x:Name="OpenElementButton"
-                        Margin="2"
-                        Click="OpenElementButton_Click"
-                        CommandParameter="{Binding SelectedItem.Reference.Element, ElementName=ReferencesListView}"
-                        Content="Open Tab"
-                        Visibility="{Binding SelectedItem.Reference.Element, ElementName=ReferencesListView, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}" />
-                <Button Margin="2"
-                        Command="{StaticResource ElementSettingsCommand}"
-                        CommandParameter="{Binding SelectedItem.Reference.Element, ElementName=ReferencesListView}"
-                        Content="Settings"
-                        Visibility="{Binding SelectedItem.Reference.Element, ElementName=ReferencesListView, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}" />
+                <c:Button x:Name="CreateButton"
+                          Margin="2"
+                          Click="CreateButton_Click"
+                          Content="Create"
+                          Visibility="{Binding ShowCreateButton, ElementName=uc, Converter={StaticResource BoolToVis}}" />
+                <c:Button x:Name="BrowseButton"
+                          Margin="2"
+                          Click="BrowseButton_Click"
+                          Content="Browse"
+                          Visibility="{Binding ShowBrowseButton, ElementName=uc, Converter={StaticResource BoolToVis}}" />
+                <c:Button x:Name="DeleteButton"
+                          Margin="2"
+                          Click="DeleteButton_Click"
+                          Content="Remove"
+                          Visibility="{Binding SelectedItem, ElementName=ReferencesListView, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}" />
+                <c:Button x:Name="OpenElementButton"
+                          Margin="2"
+                          Click="OpenElementButton_Click"
+                          CommandParameter="{Binding SelectedItem.Reference.Element, ElementName=ReferencesListView}"
+                          Content="OpenTab"
+                          Visibility="{Binding SelectedItem.Reference.Element, ElementName=ReferencesListView, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}" />
+                <c:Button Margin="2"
+                          Command="{StaticResource ElementSettingsCommand}"
+                          CommandParameter="{Binding SelectedItem.Reference.Element, ElementName=ReferencesListView}"
+                          Content="Settings"
+                          Visibility="{Binding SelectedItem.Reference.Element, ElementName=ReferencesListView, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}" />
             </StackPanel>
         </Grid>
-        <local:ObjectEditorControl x:Name="ItemEditor"
-                                   Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
-                                   EditorCategory="Default"
-                                   EditorTag="{Binding EditorTag, ElementName=uc}" />
-        <local:ObjectEditorControl x:Name="ElementEditor"
-                                   EditorCategory="{Binding EditorCategory, ElementName=uc}"
-                                   EditorTag="{Binding EditorTag, ElementName=uc}" />
+        <c:ObjectEditorControl x:Name="ItemEditor"
+                               Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
+                               EditorCategory="Default"
+                               EditorTag="{Binding EditorTag, ElementName=uc}" />
+        <c:ObjectEditorControl x:Name="ElementEditor"
+                               EditorCategory="{Binding EditorCategory, ElementName=uc}"
+                               EditorTag="{Binding EditorTag, ElementName=uc}" />
     </StackPanel>
 </UserControl>

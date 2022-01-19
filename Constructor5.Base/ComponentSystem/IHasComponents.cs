@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Base.ComponentSystem
+namespace Constructor5.Base.ComponentSystem
 {
     public interface IHasComponents
     {

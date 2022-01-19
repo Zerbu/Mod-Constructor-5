@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.CustomTuning;
+using Constructor5.Base.CustomTuning;
 using Constructor5.UI.Shared;
 using System.Windows.Controls;
 

@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ComponentSystem;
+using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning.SimData;
@@ -9,7 +9,7 @@ using Constructor5.Elements.SituationGoals;
 
 namespace Constructor5.Elements.HolidayTraditions
 {
-    [ElementTypeData("Holiday Tradition", true, ElementTypes = new[] { typeof(HolidayTradition) }, PresetFolders = new[] { "HolidayTradition" }, IsRootType = true)]
+    [ElementTypeData("HolidayTradition", true, ElementTypes = new[] { typeof(HolidayTradition) }, PresetFolders = new[] { "HolidayTradition" }, IsRootType = true)]
     public class HolidayTradition : SimpleComponentElement<HolidayTraditionComponent>, IExportableElement
     {
         protected override void OnElementCreatedOrLoaded()

@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
@@ -13,9 +13,9 @@ using System.Threading.Tasks;
 
 namespace Constructor5.TestConditionTypes.Statistics
 {
-    [SelectableObjectType("TestConditionTypes", "Statistic Condition")]
-    [SelectableObjectType("SituationGoalConditionTypes", "Statistic Condition")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Statistic Condition")]
+    [SelectableObjectType("TestConditionTypes", "StatisticCondition")]
+    [SelectableObjectType("SituationGoalConditionTypes", "StatisticCondition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "StatisticCondition")]
     [XmlSerializerExtraType]
     public class StatisticCondition : TestCondition
     {

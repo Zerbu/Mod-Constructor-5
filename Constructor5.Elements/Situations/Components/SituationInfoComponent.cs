@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
@@ -14,7 +14,7 @@ namespace Constructor5.Elements.Situations.Components
 
         public override int ComponentDisplayOrder => 1;
 
-        public override string ComponentLabel => "Situation Info";
+        public override string ComponentLabel => "SituationInfo";
 
         [AutoTuneBasic("_cost")]
         public int Cost { get; set; } = 0;

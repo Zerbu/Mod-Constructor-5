@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.SelectableObjects;
@@ -7,7 +7,7 @@ using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.TestConditionTypes.Money
 {
-    [SelectableObjectType("ObjectiveConditionTypes", "Money Earned Condition", Description = "(Can optionally be limited to only money earned through a specific royalty tag)")]
+    [SelectableObjectType("ObjectiveConditionTypes", "MoneyEarnedCondition", Description = "MoneyEarnedConditionNotice")]
     [XmlSerializerExtraType]
     public class TotalSimoleonsEarnedCondition : TestCondition
     {

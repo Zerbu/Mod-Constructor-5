@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
 
 namespace Constructor5.Base.ExportSystem.AutoTuners

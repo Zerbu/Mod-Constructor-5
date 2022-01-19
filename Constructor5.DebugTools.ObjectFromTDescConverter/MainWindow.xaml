@@ -1,4 +1,4 @@
-﻿<Window x:Class="Constructor5.DebugTools.ObjectFromTDescConverter.MainWindow"
+<Window x:Class="Constructor5.DebugTools.ObjectFromTDescConverter.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -14,7 +14,7 @@
         </Grid.RowDefinitions>
         <TextBox x:Name="TextBox"
                  AcceptsReturn="True"
-                 TextWrapping="Wrap" />
+                 />
         <Button x:Name="ClipboardButton"
                 Grid.Row="1"
                 Click="ClipboardButton_Click"

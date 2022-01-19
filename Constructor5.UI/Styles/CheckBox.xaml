@@ -1,5 +1,5 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <Style TargetType="{x:Type CheckBox}">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="CheckBoxStyle" TargetType="{x:Type CheckBox}">
         <Setter Property="Background" Value="{StaticResource Constructor.CheckBoxBackground}" />
         <Setter Property="BorderBrush" Value="{StaticResource Constructor.CheckBoxBorder}" />
         <Setter Property="Template">

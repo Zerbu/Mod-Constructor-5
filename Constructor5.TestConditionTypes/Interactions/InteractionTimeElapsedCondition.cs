@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
@@ -6,7 +6,7 @@ using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.TestConditionTypes.Interactions
 {
-    [SelectableObjectType("ObjectiveConditionTypes", "Interaction Time Elapsed Condition", Description = "Checks the total amount of time a Sim has spent performing interactions with a tag. Because of how the game is programmed, this can only be used with tags, not individual interactions.")]
+    [SelectableObjectType("ObjectiveConditionTypes", "InteractionTimeElapsedCondition", Description = "InteractionTimeElapsedConditionNotice")]
     [XmlSerializerExtraType]
     public class InteractionTimeElapsedCondition : TestCondition
     {

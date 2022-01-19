@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.SelectableObjects;
@@ -7,8 +7,8 @@ using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.TestConditionTypes.Perks
 {
-    [SelectableObjectType("ObjectiveConditionTypes", "Perks: Perk Points Amount Condition")]
-    [SelectableObjectType("TestConditionTypes", "Perks: Perk Points Amount Condition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "PerksPerkPointsAmountCondition")]
+    [SelectableObjectType("TestConditionTypes", "PerksPerkPointsAmountCondition")]
     [XmlSerializerExtraType]
     public class PerkAmountCondition : TestCondition
     {

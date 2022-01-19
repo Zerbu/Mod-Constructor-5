@@ -1,8 +1,8 @@
-﻿<UserControl x:Class="Constructor5.UI.Shared.InlineObjectEditor"
+<UserControl x:Class="Constructor5.UI.Shared.InlineObjectEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.UI.Shared"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              x:Name="uc"
              d:DesignHeight="450"
@@ -16,20 +16,20 @@
             SnapsToDevicePixels="True"
             Visibility="Collapsed">
         <StackPanel>
-            <local:ObjectEditorControl x:Name="Editor"
-                                       Margin="{StaticResource Constructor.BigPadding}"
-                                       EditorCategory="{Binding EditorCategory, ElementName=uc}"
-                                       EditorTag="{Binding EditorTag, ElementName=uc}"
-                                       Object="{Binding Object, ElementName=uc}" />
+            <c:ObjectEditorControl x:Name="Editor"
+                                   Margin="{StaticResource Constructor.BigPadding}"
+                                   EditorCategory="{Binding EditorCategory, ElementName=uc}"
+                                   EditorTag="{Binding EditorTag, ElementName=uc}"
+                                   Object="{Binding Object, ElementName=uc}" />
             <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}" Orientation="Horizontal">
-                <Button x:Name="CloseButton"
-                        Margin="2"
-                        Click="CloseButton_Click"
-                        Content="Close" />
-                <Button x:Name="ReplaceButton"
-                        Margin="2"
-                        Click="ReplaceButton_Click"
-                        Content="Replace" />
+                <c:Button x:Name="CloseButton"
+                          Margin="2"
+                          Click="CloseButton_Click"
+                          Content="Close" />
+                <c:Button x:Name="ReplaceButton"
+                          Margin="2"
+                          Click="ReplaceButton_Click"
+                          Content="Replace" />
                 <ContentPresenter Content="{Binding ExtraButtons, ElementName=uc}" />
             </StackPanel>
         </StackPanel>

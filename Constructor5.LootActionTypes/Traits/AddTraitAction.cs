@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.SelectableObjects;
@@ -8,7 +8,7 @@ using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Traits
 {
-    [SelectableObjectType("LootActionTypes", "Traits: Add Trait")]
+    [SelectableObjectType("LootActionTypes", "TraitsAddTrait")]
     [XmlSerializerExtraType]
     public class AddTraitAction : LootAction
     {

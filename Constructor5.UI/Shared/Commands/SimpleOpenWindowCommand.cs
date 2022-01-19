@@ -1,5 +1,6 @@
-﻿using Constructor5.Core;
+using Constructor5.Core;
 using Constructor5.UI.Bases;
+using Constructor5.UI.Dialogs;
 using System;
 using System.Windows;
 
@@ -14,7 +15,7 @@ namespace Constructor5.UI.Shared
         public override void Execute(object parameter)
         {
             var window = (Window)Reflection.CreateObject(Reflection.GetTypeByName(TypeName));
-            window.Owner = OwnerWindow;
+            window.Owner = OwnerWindow ?? DialogUtility.GetOwner();
 
             if (IsDialog)
             {

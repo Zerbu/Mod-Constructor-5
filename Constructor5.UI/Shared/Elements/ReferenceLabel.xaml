@@ -1,8 +1,8 @@
-﻿<UserControl x:Class="Constructor5.UI.Shared.ReferenceLabel"
+<UserControl x:Class="Constructor5.UI.Shared.ReferenceLabel"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.UI.Shared"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              x:Name="uc"
              d:DesignHeight="450"
@@ -11,21 +11,21 @@
     <ContentControl x:Name="ContentControl" ToolTip="{Binding Reference.Label, ElementName=uc}">
         <Grid>
             <Border Visibility="{Binding Reference.Element, ElementName=uc, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}">
-                <TextBlock>
+                <c:TextBlock IsLocalizable="False">
                     <Run Text="{Binding Reference.Element.Label, ElementName=uc}" />
                     <Run Text="(Mod Reference)" />
-                </TextBlock>
+                </c:TextBlock>
             </Border>
             <Border Visibility="{Binding Reference.Element, ElementName=uc, Converter={StaticResource NullToVis}, FallbackValue=Collapsed}">
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Visibility="{Binding Reference.GameReference, ElementName=uc, Converter={StaticResource NotZeroToVis}}">
+                    <c:TextBlock IsLocalizable="False" Visibility="{Binding Reference.GameReference, ElementName=uc, Converter={StaticResource NotZeroToVis}}">
                         <Run Text="{Binding Reference.GameReference, ElementName=uc}" />
                         <Run Text="(" /><Run Text="{Binding Reference.GameReferenceLabel, ElementName=uc}" /><Run Text=")" />
                         <Run Text="(Game Reference)" />
-                    </TextBlock>
-                    <TextBlock Visibility="{Binding Reference.GameReference, ElementName=uc, Converter={StaticResource ZeroToVis}}">
+                    </c:TextBlock>
+                    <c:TextBlock IsLocalizable="False" Visibility="{Binding Reference.GameReference, ElementName=uc, Converter={StaticResource ZeroToVis}}">
                         <Run Text="Nothing Selected" />
-                    </TextBlock>
+                    </c:TextBlock>
                 </StackPanel>
             </Border>
         </Grid>

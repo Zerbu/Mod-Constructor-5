@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ComponentSystem;
+using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
@@ -8,7 +8,7 @@ using Constructor5.Elements.Interactions.Shared;
 
 namespace Constructor5.Elements.Interactions.Mixer
 {
-    [ElementTypeData("Mixer Interaction", true, ElementTypes = new[] { typeof(MixerInteraction) })]
+    [ElementTypeData("MixerInteraction", true, ElementTypes = new[] { typeof(MixerInteraction) })]
     public class MixerInteraction : InteractionElement, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
@@ -31,7 +31,7 @@ namespace Constructor5.Elements.Interactions.Mixer
                 component.OnExport(context);
             }
 
-            CustomTuningExporter.Export(tuning, CustomTuning);
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

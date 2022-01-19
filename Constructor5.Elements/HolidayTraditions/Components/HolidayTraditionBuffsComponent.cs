@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
@@ -14,7 +14,7 @@ namespace Constructor5.Elements.HolidayTraditions.Components
         [AutoTuneReferenceList("holiday_buffs")]
         public ReferenceList Buffs { get; set; } = new ReferenceList();
 
-        public override string ComponentLabel => "Holiday Buffs";
+        public override string ComponentLabel => "HolidayBuffs";
 
         public BuffWithReason LovesRewardBuff { get; set; } = new BuffWithReason();
 

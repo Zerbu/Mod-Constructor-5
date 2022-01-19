@@ -279,6 +279,10 @@
     <Compile Include="Statistics\StatisticConditionEditor.xaml.cs">
       <DependentUpon>StatisticConditionEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Technical\TechnicalEventRanCondition.cs" />
+    <Compile Include="Technical\TechnicalEventRanEditor.xaml.cs">
+      <DependentUpon>TechnicalEventRanEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Time\DayAndTimeCondition.cs" />
     <Compile Include="Time\DayAndTimeConditionEditor.xaml.cs">
       <DependentUpon>DayAndTimeConditionEditor.xaml</DependentUpon>
@@ -480,6 +484,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Technical\TechnicalEventRanEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Time\DayAndTimeConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -492,9 +500,7 @@
   <ItemGroup>
     <Resource Include="FodyWeavers.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Technical\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.6.6.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.0\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

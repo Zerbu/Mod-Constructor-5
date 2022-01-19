@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
@@ -8,8 +8,8 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Situations
 {
-    [SelectableObjectType("TestConditionTypes", "Situation Condition")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Situation Condition")]
+    [SelectableObjectType("TestConditionTypes", "SituationCondition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "SituationCondition")]
     [XmlSerializerExtraType]
     public class SituationCondition : TestCondition
     {

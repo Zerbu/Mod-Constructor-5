@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.TuningActions;
+using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Elements.Buffs.Modifiers;
 using Constructor5.Elements.Traits;
 using Constructor5.Core;

@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Icons;
+using Constructor5.Base.Icons;
 
 namespace Constructor5.Elements.BalloonSets
 {

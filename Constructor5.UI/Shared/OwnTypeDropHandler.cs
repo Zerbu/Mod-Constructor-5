@@ -1,4 +1,4 @@
-﻿using GongSolutions.Wpf.DragDrop;
+using GongSolutions.Wpf.DragDrop;
 using System.Linq;
 using System.Windows;
 

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Constructor5.Elements.LootActionSets
 {

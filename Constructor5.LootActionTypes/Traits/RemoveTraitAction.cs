@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
@@ -9,7 +9,7 @@ using Constructor5.Base.SelectableObjects;
 
 namespace Constructor5.LootActionTypes.Traits
 {
-    [SelectableObjectType("LootActionTypes", "Traits: Remove Trait")]
+    [SelectableObjectType("LootActionTypes", "TraitsRemoveTrait")]
     [XmlSerializerExtraType]
     public class RemoveTraitAction : LootAction
     {

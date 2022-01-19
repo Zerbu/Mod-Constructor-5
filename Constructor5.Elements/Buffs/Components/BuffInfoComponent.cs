@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.Icons;
 using Constructor5.Base.ExportSystem.Tuning;
@@ -15,7 +15,7 @@ namespace Constructor5.Elements.Buffs.Components
     public class BuffInfoComponent : BuffComponent
     {
         public override int ComponentDisplayOrder => 1;
-        public override string ComponentLabel => "Buff Info";
+        public override string ComponentLabel => "BuffInfo";
 
         public bool AddEmotionCategory { get; set; } = true;
 
@@ -27,6 +27,7 @@ namespace Constructor5.Elements.Buffs.Components
         public int EmotionWeight { get; set; } = 1;
         public bool HasFixedDuration { get; set; }
         public bool HasEmotion { get; set; }
+        public bool IsNonPersisted { get; set; }
 
         [AutoTuneBasic("icon")]
         public ElementIcon Icon { get; set; } = new ElementIcon();
@@ -72,7 +73,7 @@ namespace Constructor5.Elements.Buffs.Components
                 case 251719:
                     return "Scared_Buffs";
                 default:
-                    Exporter.Current.AddError($"\"Add Emotion Category\" doesn't support {emotionInt}. No emotion category has been automatically added.");
+                    Exporter.Current.AddError(Element, $"\"Add Emotion Category\" doesn't support {emotionInt}. No emotion category has been automatically added.");
                     return null;
             }
         }
@@ -102,6 +103,10 @@ namespace Constructor5.Elements.Buffs.Components
                 if (HasFixedDuration)
                 {
                     tunableTuple1.Set<TunableBasic>("max_duration", Duration);
+                    if (IsNonPersisted)
+                    {
+                        tunableTuple1.Set<TunableBasic>("persists", false);
+                    }
                 }
 
                 if (ElementTuning.GetSingleInstanceKey(Emotion) == 14638)
@@ -113,7 +118,7 @@ namespace Constructor5.Elements.Buffs.Components
             var header = (TuningHeader)context.Tuning;
             header.SimDataHandler.WriteText(164, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
             header.SimDataHandler.WriteText(160, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
-            header.SimDataHandler.WriteTGI(168, Icon.GetUncommentedText());
+            header.SimDataHandler.WriteTGI(168, Icon.GetUncommentedText(), Element);
 
             if (HasEmotion)
             {

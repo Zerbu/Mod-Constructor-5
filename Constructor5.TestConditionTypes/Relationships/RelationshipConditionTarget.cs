@@ -1,4 +1,4 @@
-﻿using Constructor5.UI.Shared;
+using Constructor5.UI.Shared;
 
 namespace Constructor5.TestConditionTypes.Relationships
 {

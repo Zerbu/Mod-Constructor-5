@@ -1,4 +1,6 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ElementSystem;
+using Constructor5.Base.Export;
+using Constructor5.Base.ExportSystem.Tuning;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -75,17 +77,17 @@ namespace Constructor5.Base.ExportSystem.Tuning.SimData
 
         public void WriteText(int position, uint key) => WriteBytes(position, BitConverter.GetBytes(key));
 
-        public void WriteTGI(int position, TunableBasic tunable)
+        public void WriteTGI(int position, TunableBasic tunable, Element elementForErrorMessage)
         {
             if (tunable.Value == null)
             {
                 return;
             }
 
-            WriteTGI(position, tunable.Value);
+            WriteTGI(position, tunable.Value, elementForErrorMessage);
         }
 
-        public void WriteTGI(int position, string str)
+        public void WriteTGI(int position, string str, Element elementForErrorMessage)
         {
             if (string.IsNullOrEmpty(str) || !str.Contains(":"))
             {
@@ -109,9 +111,19 @@ namespace Constructor5.Base.ExportSystem.Tuning.SimData
 
             var group = splitKey[1];
 
-            WriteBytes(position, BitConverter.GetBytes(ulong.Parse(instance, NumberStyles.HexNumber)));
-            WriteBytes(position + 8, BitConverter.GetBytes(uint.Parse(type, NumberStyles.HexNumber)));
-            WriteBytes(position + 12, BitConverter.GetBytes(uint.Parse(group, NumberStyles.HexNumber)));
+            var instanceKeyValid = ulong.TryParse(instance, NumberStyles.HexNumber, null, out var instanceKey);
+            var typeKeyValid = uint.TryParse(type, NumberStyles.HexNumber, null, out var typeKey);
+            var groupKeyValid = uint.TryParse(group, NumberStyles.HexNumber, null, out var groupKey);
+
+            if (!instanceKeyValid || !typeKeyValid || !groupKeyValid)
+            {
+                Exporter.Current.AddError(elementForErrorMessage, "UserErrorTGIFailed");
+                return;
+            }
+
+            WriteBytes(position, BitConverter.GetBytes(instanceKey));
+            WriteBytes(position + 8, BitConverter.GetBytes(typeKey));
+            WriteBytes(position + 12, BitConverter.GetBytes(groupKey));
         }
 
         public void WriteList(int startPosition, IEnumerable<ulong> items, int maxSize, bool zerofillExtra, int extraSpace = 0)

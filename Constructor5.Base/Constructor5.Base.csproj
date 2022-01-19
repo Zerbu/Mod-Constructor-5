@@ -186,6 +186,10 @@
     <Compile Include="ExportSystem\Tuning\Utilities\ElementTuning.cs" />
     <Compile Include="ExportSystem\Tuning\Utilities\TuningExport.cs" />
     <Compile Include="FastObservableCollection.cs" />
+    <Compile Include="LocalizationSystem\IOnUnlocalizableStringDetected.cs" />
+    <Compile Include="LocalizationSystem\LocalizableTextStrings.cs" />
+    <Compile Include="LocalizationSystem\LocalizableTextStringValue.cs" />
+    <Compile Include="LocalizationSystem\TextStringManager.cs" />
     <Compile Include="ProgramSettings.cs" />
     <Compile Include="ProjectSystem\Project.cs" />
     <Compile Include="ProjectSystem\ProjectCreateErrorType.cs" />
@@ -239,6 +243,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
+    <EmbeddedResource Include="LocalizationSystem\LocalizableTextStringsXML.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.6.6.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.0\build\Fody.targets')" />

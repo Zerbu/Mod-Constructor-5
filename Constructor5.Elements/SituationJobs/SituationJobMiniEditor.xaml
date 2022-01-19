@@ -1,32 +1,32 @@
-﻿<UserControl x:Class="Constructor5.Elements.SituationJobs.SituationJobMiniEditor"
+<UserControl x:Class="Constructor5.Elements.SituationJobs.SituationJobMiniEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:components="clr-namespace:Constructor5.Elements.SituationJobs.Components"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.SituationJobs"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              x:Name="uc"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <TabControl>
-        <TabItem Header="Settings">
+    <c:TabControl>
+        <c:TabItem Header="Settings">
             <components:SituationJobInfoEditorContent x:Name="InfoEditor" Margin="0" />
-        </TabItem>
-        <TabItem Header="Filter">
+        </c:TabItem>
+        <c:TabItem Header="Filter">
             <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                <TextBlock Text="Only Sims that match this filter can be part of the situation. If there aren't enough Sims to meet the auto invite count, the game will generate new Sims or conform existing ones." TextWrapping="Wrap" />
-                <shared:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                <c:TextBlock Text="SituationFilterNotice" />
+                <c:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
                                                              ElementTypeName="SimFilter"
                                                              Reference="{Binding FilterComponent.Filter, ElementName=uc}" />
             </StackPanel>
-        </TabItem>
-        <TabItem Header="Actions">
+        </c:TabItem>
+        <c:TabItem Header="Actions">
             <components:SituationJobRewardsEditor x:Name="RewardsEditor" Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" />
-        </TabItem>
-        <TabItem Header="Outfit">
+        </c:TabItem>
+        <c:TabItem Header="Outfit">
             <components:SituationJobUniformEditor x:Name="OutfitEditor" Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" />
-        </TabItem>
-    </TabControl>
+        </c:TabItem>
+    </c:TabControl>
 </UserControl>

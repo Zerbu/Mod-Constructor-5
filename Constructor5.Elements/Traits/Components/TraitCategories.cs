@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Elements.Traits.Components
+namespace Constructor5.Elements.Traits.Components
 {
     public enum TraitCategories
     {

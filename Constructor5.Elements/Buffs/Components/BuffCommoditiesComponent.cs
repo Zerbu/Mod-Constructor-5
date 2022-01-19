@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Elements.Buffs.Modifiers;
 using Constructor5.Elements.Traits;
@@ -13,7 +13,7 @@ namespace Constructor5.Elements.Buffs.Components
     public class BuffCommoditiesComponent : BuffComponent
     {
         public ObservableCollection<BuffReferenceModifier> Commodities { get; } = new ObservableCollection<BuffReferenceModifier>();
-        public override string ComponentLabel => "Autonomy/Commodities";
+        public override string ComponentLabel => "AutonomyCommodities";
 
         protected internal override bool HasContent() => Commodities.Count > 0;
 

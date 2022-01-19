@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
@@ -6,9 +6,9 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Careers
 {
-    [SelectableObjectType("TestConditionTypes", "Careers: Currently Has Semi-Active Assignment")]
-    [SelectableObjectType("SituationGoalConditionTypes", "Careers: Currently Has Semi-Active Assignment")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Careers: Currently Has Semi-Active Assignment")]
+    [SelectableObjectType("TestConditionTypes", "CareersCurrentlyHasSemi-ActiveAssignment")]
+    [SelectableObjectType("SituationGoalConditionTypes", "CareersCurrentlyHasSemi-ActiveAssignment")]
+    [SelectableObjectType("ObjectiveConditionTypes", "CareersCurrentlyHasSemi-ActiveAssignment")]
     [XmlSerializerExtraType]
     public class CareerHasAssignmentCondition : CareerConditionBase
     {

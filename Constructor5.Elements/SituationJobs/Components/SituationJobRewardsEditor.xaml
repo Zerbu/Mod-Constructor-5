@@ -1,17 +1,17 @@
-﻿<UserControl x:Class="Constructor5.Elements.SituationJobs.Components.SituationJobRewardsEditor"
+<UserControl x:Class="Constructor5.Elements.SituationJobs.Components.SituationJobRewardsEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.SituationJobs.Components"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <TextBlock Text="These actions will run on all Sims with the job when a goaled event is over. They can be configured to only run at a certain level medal." TextWrapping="Wrap" />
-        <shared:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+        <c:TextBlock Text="SituationActionsNotice" />
+        <c:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
                                      ElementReferenceList="{Binding LootActionSets}"
                                      ElementTypeName="LootActionSet"
                                      ItemTypeName="SituationJobRewardLootItem"

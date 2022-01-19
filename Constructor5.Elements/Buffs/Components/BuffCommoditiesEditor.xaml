@@ -1,15 +1,15 @@
-﻿<UserControl x:Class="Constructor5.Elements.Buffs.Components.BuffCommoditiesEditor"
+<UserControl x:Class="Constructor5.Elements.Buffs.Components.BuffCommoditiesEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Constructor5.Elements.Buffs.Components"
-             xmlns:modifiers="clr-namespace:Constructor5.Elements.Buffs.Modifiers"
+             xmlns:modifiers="clr-namespace:Constructor5.Elements.Buffs.Modifiers" xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <ScrollViewer>
         <StackPanel>
-            <TextBlock Margin="{StaticResource Constructor.BigPaddingMinusTop}" TextWrapping="Wrap">Commodities are used to make Sims autonomously desire to perform certain interactions. In this section, you can add commodities from existing traits, emotions and other EA resources. You can also set the score so that a Sim will desire interactions more or less than normal. Commodities can also do other things for more advanced modders.</TextBlock>
+            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingMinusTop}">CommoditiesNotice</c:TextBlock>
             <modifiers:BuffModifiersUI ElementTypeName="Commodity" ItemsSource="{Binding Commodities}" Margin="{StaticResource Constructor.BigPaddingMinusTop}" />
         </StackPanel>
     </ScrollViewer>

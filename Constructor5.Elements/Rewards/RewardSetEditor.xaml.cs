@@ -1,4 +1,4 @@
-﻿using Constructor5.UI.Shared;
+using Constructor5.UI.Shared;
 using System;
 using System.Linq;
 using System.Windows;

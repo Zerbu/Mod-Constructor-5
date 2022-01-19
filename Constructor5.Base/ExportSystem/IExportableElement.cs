@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Base.Export
+namespace Constructor5.Base.Export
 {
     public interface IExportableElement
     {

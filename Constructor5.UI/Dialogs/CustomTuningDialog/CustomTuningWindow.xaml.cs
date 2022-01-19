@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.CustomTuning;
+using Constructor5.Base.CustomTuning;
 using Constructor5.Base.Export;
 using Constructor5.Core;
 using ICSharpCode.AvalonEdit.Folding;
@@ -61,9 +61,6 @@ namespace Constructor5.UI.Dialogs.CustomTuningDialog
             }.ShowDialog();
         }
 
-        private void AboutButton_Click(object sender, RoutedEventArgs e)
-        {
-            FancyMessageBox.Show("Custom tuning allows you to define your own XML code that will be included in the exported file for an element.\n\nIf custom tuning is used to set a tunable that has already been set by Mod Constructor, it will be overridden instead of duplicated. If custom tuning is used to create a list (<L> tag) that already exists, the items will be added to the existing list rather than the list being completely replaced.\n\nIf the value of a simple tunable (<T> tag) is a hashtag (#) followed by the ID of an element in the mod, it will be replaced with the instance key of that element. For example, #MyCustomTrait will be replaced by the instance key of the element with the ID \"MyCustomTrait\".");
-        }
+        private void AboutButton_Click(object sender, RoutedEventArgs e) => FancyMessageBox.Show("AboutCustomTuningMessageBox");
     }
 }

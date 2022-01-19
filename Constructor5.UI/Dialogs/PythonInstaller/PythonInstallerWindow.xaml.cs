@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Python;
+using Constructor5.Base.Python;
 using System.Diagnostics;
 using System.IO;
 using System.Windows;

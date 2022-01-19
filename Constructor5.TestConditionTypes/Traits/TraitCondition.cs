@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
@@ -7,15 +7,15 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes
 {
-    [SelectableObjectType("TestConditionTypes", "Trait Condition")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Trait Condition")]
-    [SelectableObjectType("HolidayTraditionConditionTypes", "Trait Condition")]
+    [SelectableObjectType("TestConditionTypes", "TraitCondition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "TraitCondition")]
+    [SelectableObjectType("HolidayTraditionConditionTypes", "TraitCondition")]
     [XmlSerializerExtraType]
     public class TraitCondition : TestCondition
     {
         public TraitCondition() => GeneratedLabel = "Trait Condition";
 
-        [AutoTuneReferenceList("blacklist")]
+        [AutoTuneReferenceList("blacklist_traits")]
         public ReferenceList Blacklist { get; set; } = new ReferenceList();
 
         [AutoTuneBasic("num_blacklist_allowed", IgnoreIf = 0)]
@@ -27,7 +27,7 @@ namespace Constructor5.TestConditionTypes
         [AutoTuneEnum("subject")]
         public string Participant { get; set; }
 
-        [AutoTuneReferenceList("whitelist")]
+        [AutoTuneReferenceList("whitelist_traits")]
         public ReferenceList Whitelist { get; set; } = new ReferenceList();
 
         protected override string GetVariantTunableName() => "trait";

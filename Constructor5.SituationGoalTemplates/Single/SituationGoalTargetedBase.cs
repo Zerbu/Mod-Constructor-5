@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Elements.SituationGoals;
 using Constructor5.Elements.SituationGoals.Templates;
 using Constructor5.Elements.TestConditions;

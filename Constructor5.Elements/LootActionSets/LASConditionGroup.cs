@@ -1,4 +1,4 @@
-﻿using Constructor5.Elements.TestConditions;
+using Constructor5.Elements.TestConditions;
 using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.LootActionSets

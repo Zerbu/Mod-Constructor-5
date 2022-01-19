@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Export;
+using Constructor5.Base.Export;
 
 namespace Constructor5.Base.CustomTuning
 {

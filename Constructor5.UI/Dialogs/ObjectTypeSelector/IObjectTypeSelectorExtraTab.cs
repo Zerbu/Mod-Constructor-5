@@ -1,4 +1,4 @@
-﻿namespace Constructor5.UI.Dialogs.ObjectTypeSelector
+namespace Constructor5.UI.Dialogs.ObjectTypeSelector
 {
     public interface IObjectTypeSelectorExtraTab
     {

@@ -1,4 +1,4 @@
-﻿<Application x:Class="Constructor5.FormGenerator.App"
+<Application x:Class="Constructor5.FormGenerator.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Constructor5.FormGenerator"
@@ -6,7 +6,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Shared/Field.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Constructor5.UI;component/Shared/ContentControls/Field.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

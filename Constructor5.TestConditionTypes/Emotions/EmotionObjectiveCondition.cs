@@ -1,9 +1,9 @@
-﻿using Constructor5.Base.SelectableObjects;
+using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Emotions
 {
-    [SelectableObjectType("ObjectiveConditionTypes", "Emotion Condition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "EmotionCondition")]
     [XmlSerializerExtraType]
     public class EmotionObjectiveCondition : EmotionCondition
     {

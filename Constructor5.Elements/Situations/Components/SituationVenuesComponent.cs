@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Core;
@@ -8,7 +8,7 @@ namespace Constructor5.Elements.Situations.Components
     [XmlSerializerExtraType]
     public class SituationVenuesComponent : SituationComponent
     {
-        public override string ComponentLabel => "Lot Types";
+        public override string ComponentLabel => "LotTypes";
 
         public bool IncludeGuestLots { get; set; } = true;
         public bool IncludeGenericLots { get; set; } = true;

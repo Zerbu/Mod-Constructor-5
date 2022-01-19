@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Startup;
+using Constructor5.Base.Startup;
 using Constructor5.UI.Dialogs.ExceptionDialog;
 using System.Windows;
 using System.Windows.Threading;

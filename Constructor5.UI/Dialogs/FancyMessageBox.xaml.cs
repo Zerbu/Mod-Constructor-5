@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 
 namespace Constructor5.UI.Dialogs
 {
@@ -18,10 +18,14 @@ namespace Constructor5.UI.Dialogs
             dialog.ShowDialog();
         }
 
-        public static bool ShowOKCancel(string text)
+        public static bool ShowOKCancel(string text, bool disableLocalization = false)
         {
             var dialog = new FancyMessageBox() { Owner = DialogUtility.GetOwner() };
             dialog.TextBlock.Text = text;
+            if (disableLocalization)
+            {
+                dialog.TextBlock.IsLocalizable = false;
+            }
             dialog.CloseButton.Content = "Cancel";
             dialog.OKButton.IsDefault = true;
             dialog.ShowDialog();

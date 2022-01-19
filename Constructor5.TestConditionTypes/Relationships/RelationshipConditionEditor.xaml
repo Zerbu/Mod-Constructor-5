@@ -1,32 +1,32 @@
-﻿<UserControl x:Class="Constructor5.TestConditionTypes.Relationships.RelationshipConditionEditor"
+<UserControl x:Class="Constructor5.TestConditionTypes.Relationships.RelationshipConditionEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.TestConditionTypes.Relationships"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:system="clr-namespace:System;assembly=mscorlib"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <shared:Field Label="Primary Participant" LabelWidth="150">
-            <shared:ParticipantControl Text="{Binding PrimaryParticipant}" />
-        </shared:Field>
-        <shared:Field Label="Target Type" LabelWidth="100">
-            <shared:EnumSelectorControl SelectedItem="{Binding TargetType}" TypeName="RelationshipConditionTarget">
-                <shared:EnumSelectorControl.Replacements>
-                    <shared:EnumSelectorReplaceDictionary>
+        <c:Field Label="Primary Participant" LabelWidth="150">
+            <c:ParticipantControl Text="{Binding PrimaryParticipant}" />
+        </c:Field>
+        <c:Field Label="Target Type" LabelWidth="100">
+            <c:EnumSelectorControl SelectedItem="{Binding TargetType}" TypeName="RelationshipConditionTarget">
+                <c:EnumSelectorControl.Replacements>
+                    <c:EnumSelectorReplaceDictionary>
                         <system:String x:Key="AllRelationships">All Relationships</system:String>
-                    </shared:EnumSelectorReplaceDictionary>
-                </shared:EnumSelectorControl.Replacements>
-            </shared:EnumSelectorControl>
-        </shared:Field>
+                    </c:EnumSelectorReplaceDictionary>
+                </c:EnumSelectorControl.Replacements>
+            </c:EnumSelectorControl>
+        </c:Field>
         <StackPanel>
-            <shared:Field Label="Target Participant" LabelWidth="150">
-                <shared:ParticipantControl Text="{Binding TargetParticipant}" />
-            </shared:Field>
+            <c:Field Label="Target Participant" LabelWidth="150">
+                <c:ParticipantControl Text="{Binding TargetParticipant}" />
+            </c:Field>
             <StackPanel.Style>
                 <Style TargetType="{x:Type StackPanel}">
                     <Setter Property="Visibility" Value="Collapsed" />
@@ -39,21 +39,21 @@
             </StackPanel.Style>
         </StackPanel>
         <StackPanel>
-            <shared:Field Label="Number of Relationships" LabelWidth="175">
+            <c:Field Label="Number of Relationships" LabelWidth="175">
                 <StackPanel>
                     <xctk:IntegerUpDown Minimum="0" Text="{Binding NumRelationshipsAll, UpdateSourceTrigger=PropertyChanged}" />
-                    <TextBlock FontStyle="Italic"
-                               TextWrapping="Wrap"
+                    <c:TextBlock FontStyle="Italic"
+                              
                                Visibility="{Binding NumRelationships, Converter={StaticResource ZeroToVis}}">
                         Setting this to 0 will make it so every other Sim that the Sim knows will need to pass the condition without exceptions. This is useful if you want to prohibit a Sim from having a certain type of relationship (for example, checking if a Sim is single).
-                    </TextBlock>
+                    </c:TextBlock>
                 </StackPanel>
-            </shared:Field>
-            <CheckBox IsChecked="{Binding InvertNumRelationshipsAll}">
+            </c:Field>
+            <c:CheckBox IsChecked="{Binding InvertNumRelationshipsAll}">
                 <StackPanel>
-                    <TextBlock Text="Check if number of relationships is less than or equal to the defined number rather than the other way around" TextWrapping="Wrap" />
+                    <c:TextBlock Text="Check if number of relationships is less than or equal to the defined number rather than the other way around" />
                 </StackPanel>
-            </CheckBox>
+            </c:CheckBox>
             <StackPanel.Style>
                 <Style TargetType="{x:Type StackPanel}">
                     <Setter Property="Visibility" Value="Collapsed" />
@@ -66,21 +66,21 @@
             </StackPanel.Style>
         </StackPanel>
         <StackPanel>
-            <Expander Header="Advanced Options">
+            <c:Expander Header="AdvancedOptions">
                 <StackPanel>
-                    <shared:Field Label="Number of Relationships" LabelWidth="175">
+                    <c:Field Label="Number of Relationships" LabelWidth="175">
                         <StackPanel>
                             <xctk:IntegerUpDown Minimum="0" Text="{Binding NumRelationshipsParticipant, UpdateSourceTrigger=PropertyChanged}" />
-                            <TextBlock FontStyle="Italic" TextWrapping="Wrap">Used for participant types that contain multiple Sims, such as ActiveHousehold. Set to 0 to require all participants to pass.</TextBlock>
+                            <c:TextBlock FontStyle="Italic">Used for participant types that contain multiple Sims, such as ActiveHousehold. Set to 0 to require all participants to pass.</c:TextBlock>
                         </StackPanel>
-                    </shared:Field>
-                    <CheckBox IsChecked="{Binding InvertNumRelationshipsParticipant}">
+                    </c:Field>
+                    <c:CheckBox IsChecked="{Binding InvertNumRelationshipsParticipant}">
                         <StackPanel>
-                            <TextBlock Text="Check if number of relationships is less than or equal to the defined number rather than the other way around" TextWrapping="Wrap" />
+                            <c:TextBlock Text="Check if number of relationships is less than or equal to the defined number rather than the other way around" />
                         </StackPanel>
-                    </CheckBox>
+                    </c:CheckBox>
                 </StackPanel>
-            </Expander>
+            </c:Expander>
             <StackPanel.Style>
                 <Style TargetType="{x:Type StackPanel}">
                     <Setter Property="Visibility" Value="Collapsed" />

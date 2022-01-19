@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Elements.SimFilters
+namespace Constructor5.Elements.SimFilters
 {
     public class SimFilterTermItem
     {

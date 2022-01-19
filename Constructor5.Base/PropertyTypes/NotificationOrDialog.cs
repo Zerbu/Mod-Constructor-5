@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Base.PropertyTypes
+namespace Constructor5.Base.PropertyTypes
 {
     public class NotificationOrDialog
     {

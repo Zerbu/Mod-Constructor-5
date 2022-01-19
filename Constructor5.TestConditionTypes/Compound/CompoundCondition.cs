@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
@@ -11,7 +11,7 @@ using System.Linq;
 
 namespace Constructor5.TestConditionTypes.Compound
 {
-    [SelectableObjectType("TestConditionTypes", "Compound Condition")]
+    [SelectableObjectType("TestConditionTypes", "CompoundCondition")]
     [XmlSerializerExtraType]
     public class CompoundCondition : TestCondition
     {

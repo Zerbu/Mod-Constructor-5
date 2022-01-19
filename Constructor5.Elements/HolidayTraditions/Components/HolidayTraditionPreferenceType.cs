@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Elements.HolidayTraditions.Components
+namespace Constructor5.Elements.HolidayTraditions.Components
 {
     public enum HolidayTraditionPreferenceType
     {

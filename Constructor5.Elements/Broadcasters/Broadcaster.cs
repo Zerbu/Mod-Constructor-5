@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.CustomTuning;
+using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
@@ -46,7 +46,7 @@ namespace Constructor5.Elements.Broadcasters
                 ExportConditionGroup(group, context);
             }
 
-            CustomTuningExporter.Export(tuning, CustomTuning);
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

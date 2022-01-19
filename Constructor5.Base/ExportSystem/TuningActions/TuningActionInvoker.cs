@@ -1,4 +1,4 @@
-﻿using Constructor5.ActionSystem.TuningActions;
+using Constructor5.ActionSystem.TuningActions;
 using System;
 using System.Xml;
 using System.IO;

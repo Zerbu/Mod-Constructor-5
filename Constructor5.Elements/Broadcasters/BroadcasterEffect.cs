@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.PropertyTypes;
+using Constructor5.Base.PropertyTypes;
 using System.ComponentModel;
 using System.Xml.Serialization;
 

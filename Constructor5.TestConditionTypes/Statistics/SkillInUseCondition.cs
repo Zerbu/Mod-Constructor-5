@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
@@ -7,9 +7,9 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Statistics
 {
-    [SelectableObjectType("TestConditionTypes", "Skill In Use Condition")]
-    /*[SelectableObjectType("SituationGoalConditionTypes", "Skill Tag Condition")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Skill Tag Condition")]*/
+    [SelectableObjectType("TestConditionTypes", "SkillInUseCondition")]
+    /*[SelectableObjectType("SituationGoalConditionTypes", "SkillTagCondition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "SkillTagCondition")]*/
     [XmlSerializerExtraType]
     public class SkillInUseCondition : TestCondition
     {

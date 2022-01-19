@@ -1,6 +1,7 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem;
 using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.LocalizationSystem;
 using Constructor5.Base.ProjectSystem;
 using Constructor5.Base.Python;
 using Constructor5.Core;
@@ -42,7 +43,15 @@ namespace Constructor5.Base.Export
             ContextSpecificElementsToExport.Add(element);
         }
 
-        public void AddError(string message) => ErrorBuilder.AppendLine(message);
+        public void AddError(Element element, string message)
+        {
+            var fullMessage = new StringBuilder();
+            fullMessage.AppendLine(TextStringManager.Get(message));
+            fullMessage.AppendLine(TextStringManager.Get("UserErrorElement").Replace("{id}", element.UserFacingId).Replace("{label}", element.Label));
+            fullMessage.AppendLine("---");
+
+            ErrorBuilder.AppendLine(fullMessage.ToString());
+        }
 
         public void Export()
         {
@@ -201,7 +210,7 @@ namespace Constructor5.Base.Export
 
             if (exePath == null)
             {
-                AddError("This mod uses features that require Python (3.7.0), but it is not installed. The mod or certain parts may not work as expected, if at all.");
+                AddError(null, "PythonNotInstalled");
                 return;
             }
 

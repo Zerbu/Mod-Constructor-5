@@ -1,4 +1,4 @@
-﻿namespace Constructor5.LootActionTypes.Notifications
+namespace Constructor5.LootActionTypes.Notifications
 {
     public enum NotificationTypes
     {

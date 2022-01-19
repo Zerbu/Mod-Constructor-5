@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.SelectableObjects;
@@ -7,7 +7,7 @@ using Constructor5.Core;
 
 namespace Constructor5.SituationTemplates.SimpleSituation
 {
-    [SelectableObjectType("SituationTemplates", "*Simple Situation")]
+    [SelectableObjectType("SituationTemplates", "SimpleSituation")]
     [XmlSerializerExtraType]
     public class SimpleSituationTemplate : SituationTemplate
     {

@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ProjectSystem;
 using Constructor5.Core;
 using Constructor5.UI.Bases;

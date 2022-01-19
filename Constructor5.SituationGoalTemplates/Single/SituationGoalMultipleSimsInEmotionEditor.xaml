@@ -1,21 +1,21 @@
-﻿<UserControl x:Class="Constructor5.Elements.SituationGoals.Templates.SituationGoalMultipleSimsInEmotionEditor"
+<UserControl x:Class="Constructor5.Elements.SituationGoals.Templates.SituationGoalMultipleSimsInEmotionEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.SituationGoals.Templates"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <CheckBox Content="Only include Sims who are part of the same situation" IsChecked="{Binding InSituationOnly}" />
-        <shared:Field Label="Number of Sims" LabelWidth="150">
+        <c:CheckBox Content="Only include Sims who are part of the same situation" IsChecked="{Binding InSituationOnly}" />
+        <c:Field Label="Number of Sims" LabelWidth="150">
             <xctk:IntegerUpDown Text="{Binding NumberOfSims}" />
-        </shared:Field>
-        <shared:Field Label="Emotion" LabelWidth="150">
-            <shared:ReferenceControl ElementTypeName="Emotion" Reference="{Binding Emotion}" />
-        </shared:Field>
+        </c:Field>
+        <c:Field Label="Emotion" LabelWidth="150">
+            <c:ReferenceControl ElementTypeName="Emotion" Reference="{Binding Emotion}" />
+        </c:Field>
     </StackPanel>
 </UserControl>

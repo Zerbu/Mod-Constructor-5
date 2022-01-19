@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.Elements.TestConditions;
@@ -6,7 +6,7 @@ using System;
 
 namespace Constructor5.TestConditionTypes.Time
 {
-    [SelectableObjectType("TestConditionTypes", "Day and Time Condition")]
+    [SelectableObjectType("TestConditionTypes", "DayandTimeCondition")]
     [XmlSerializerExtraType]
     public class DayAndTimeCondition : TestCondition
     {

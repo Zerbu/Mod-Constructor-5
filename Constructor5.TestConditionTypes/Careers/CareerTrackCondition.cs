@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
@@ -12,9 +12,9 @@ using System.Threading.Tasks;
 
 namespace Constructor5.TestConditionTypes.Careers
 {
-    [SelectableObjectType("TestConditionTypes", "Careers: Career Track/Branch Condition")]
-    [SelectableObjectType("SituationGoalConditionTypes", "Careers: Career Track/Branch Condition")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Careers: Career Track/Branch Condition")]
+    [SelectableObjectType("TestConditionTypes", "CareersCareerTrackCondition")]
+    [SelectableObjectType("SituationGoalConditionTypes", "CareersCareerTrackCondition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "CareersCareerTrackCondition")]
     [XmlSerializerExtraType]
     public class CareerTrackCondition : CareerConditionBase
     {

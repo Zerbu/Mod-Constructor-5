@@ -1,23 +1,26 @@
-﻿<UserControl x:Class="Constructor5.UI.Shared.DoubleBoundsControl"
+<UserControl x:Class="Constructor5.UI.Shared.DoubleBoundsControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Constructor5.UI.Shared" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800" x:Name="uc">
+             xmlns:c="clr-namespace:Constructor5.UI.Shared"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             x:Name="uc"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
     <StackPanel>
-        <local:Field LabelWidth="100" Label="Lower Bound">
+        <c:Field Label="LowerBound" LabelWidth="100">
             <StackPanel Orientation="Horizontal">
-                <CheckBox IsChecked="{Binding Bounds.RestrictLowerBound, ElementName=uc}" VerticalAlignment="Center" />
+                <c:CheckBox VerticalAlignment="Center" IsChecked="{Binding Bounds.RestrictLowerBound, ElementName=uc}" />
                 <xctk:DoubleUpDown Text="{Binding Bounds.LowerBound, ElementName=uc}" Visibility="{Binding Bounds.RestrictLowerBound, ElementName=uc, Converter={StaticResource BoolToVis}}" />
             </StackPanel>
-        </local:Field>
-        <local:Field LabelWidth="100" Label="Upper Bound">
+        </c:Field>
+        <c:Field Label="UpperBound" LabelWidth="100">
             <StackPanel Orientation="Horizontal">
-                <CheckBox IsChecked="{Binding Bounds.RestrictUpperBound, ElementName=uc}" VerticalAlignment="Center" />
+                <c:CheckBox VerticalAlignment="Center" IsChecked="{Binding Bounds.RestrictUpperBound, ElementName=uc}" />
                 <xctk:DoubleUpDown Text="{Binding Bounds.UpperBound, ElementName=uc}" Visibility="{Binding Bounds.RestrictUpperBound, ElementName=uc, Converter={StaticResource BoolToVis}}" />
             </StackPanel>
-        </local:Field>
+        </c:Field>
     </StackPanel>
 </UserControl>

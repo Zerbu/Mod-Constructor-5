@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
@@ -9,9 +9,9 @@ using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.TestConditionTypes.Relationships
 {
-    [SelectableObjectType("TestConditionTypes", "Relationship Condition")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Relationship Condition")]
-    [SelectableObjectType("HolidayTraditionConditionTypes", "Relationship Condition")]
+    [SelectableObjectType("TestConditionTypes", "RelationshipCondition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "RelationshipCondition")]
+    [SelectableObjectType("HolidayTraditionConditionTypes", "RelationshipCondition")]
     [XmlSerializerExtraType]
     public class RelationshipCondition : TestCondition
     {

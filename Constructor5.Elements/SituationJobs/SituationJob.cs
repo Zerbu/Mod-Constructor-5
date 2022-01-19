@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ComponentSystem;
+using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
@@ -12,7 +12,7 @@ using System.Linq;
 
 namespace Constructor5.Elements.SituationJobs
 {
-    [ElementTypeData("Situation Job", false, ElementTypes = new[] { typeof(SituationJob) }, PresetFolders = new[] { "SituationJob" })]
+    [ElementTypeData("SituationJob", false, ElementTypes = new[] { typeof(SituationJob) }, PresetFolders = new[] { "SituationJob" })]
     public class SituationJob : SimpleComponentElement<SituationJobComponent>, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
@@ -78,7 +78,7 @@ namespace Constructor5.Elements.SituationJobs
                 component.OnExport(context);
             }
 
-            CustomTuningExporter.Export(tuning, CustomTuning);
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

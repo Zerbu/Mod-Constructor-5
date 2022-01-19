@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Core;
 using System.Collections.ObjectModel;
 
@@ -7,7 +7,7 @@ namespace Constructor5.Elements.Traits.Components
     [XmlSerializerExtraType]
     public class TraitBuffReplacementsComponent : TraitComponent
     {
-        public override string ComponentLabel => "Buff Replacements";
+        public override string ComponentLabel => "BuffReplacements";
 
         public ObservableCollection<BuffReplacement> Replacements { get; } = new ObservableCollection<BuffReplacement>();
 

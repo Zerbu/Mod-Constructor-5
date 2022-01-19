@@ -1,23 +1,21 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.CustomTuning;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Elements.SituationGoals;
-using System;
 using System.Collections.Generic;
 
 namespace Constructor5.Elements.SituationGoalSets
 {
-    [ElementTypeData("Situation Goal Set", false, ElementTypes = new[] { typeof(SituationGoalSet) }, PresetFolders = new[] { "SituationGoalSet" })]
-    public class SituationGoalSet : Element, IExportableElement
+    [ElementTypeData("SituationGoalSet", false, ElementTypes = new[] { typeof(SituationGoalSet) }, PresetFolders = new[] { "SituationGoalSet" })]
+    public class SituationGoalSet : Element, IExportableElement, ISupportsCustomTuning
     {
         public bool AddSelfAsChainedGoalSet { get; set; }
-
         public ReferenceList ChainedGoalSets { get; set; } = new ReferenceList();
-
-        public bool LinearModeEnabled { get; set; }
-
+        public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
         public ReferenceList Goals { get; set; } = new ReferenceList();
+        public bool LinearModeEnabled { get; set; }
 
         void IExportableElement.OnExport()
         {
@@ -39,7 +37,7 @@ namespace Constructor5.Elements.SituationGoalSets
 
                 if (LinearModeEnabled && i < goals.Length - 1)
                 {
-                    var newTuning = CreateTuning($"Chained{i+1}");
+                    var newTuning = CreateTuning($"Chained{i + 1}");
                     var chainedList = currentTuning.Get<TunableList>("chained_goal_sets");
                     chainedList.Set<TunableBasic>(null, newTuning.InstanceKey);
                     currentTuning = newTuning;
@@ -66,6 +64,8 @@ namespace Constructor5.Elements.SituationGoalSets
             AllTuning.Clear();
         }
 
+        private List<TuningHeader> AllTuning { get; } = new List<TuningHeader>();
+
         private TuningHeader CreateTuning(string suffix)
         {
             var result = ElementTuning.Create(this, suffix);
@@ -75,7 +75,5 @@ namespace Constructor5.Elements.SituationGoalSets
             AllTuning.Add(result);
             return result;
         }
-
-        private List<TuningHeader> AllTuning { get; } = new List<TuningHeader>();
     }
 }

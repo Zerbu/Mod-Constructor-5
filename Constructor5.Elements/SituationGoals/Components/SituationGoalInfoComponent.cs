@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Export;
+using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
@@ -12,7 +12,7 @@ namespace Constructor5.Elements.SituationGoals.Components
     public class SituationGoalInfoComponent : SituationGoalComponent
     {
         public override int ComponentDisplayOrder => 1;
-        public override string ComponentLabel => "Goal Info";
+        public override string ComponentLabel => "GoalInfo";
 
         public int Cooldown { get; set; }
         public STBLString Description { get; set; } = new STBLString();
@@ -101,7 +101,7 @@ namespace Constructor5.Elements.SituationGoals.Components
 
             if (iterations > 100)
             {
-                Exporter.Current.AddError("Holiday tradition goals cannot have more than 100 iterations.");
+                Exporter.Current.AddError(Element, "Holiday tradition goals cannot have more than 100 iterations.");
                 return;
             }
 

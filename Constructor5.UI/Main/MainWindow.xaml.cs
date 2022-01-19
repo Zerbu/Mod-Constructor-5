@@ -1,5 +1,6 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem;
+using Constructor5.Base.LocalizationSystem;
 using Constructor5.Core;
 using Constructor5.UI.Dialogs.ExportResults;
 using Constructor5.UI.Shared;
@@ -10,13 +11,14 @@ using System.Linq;
 using System.Timers;
 using System.Windows;
 using System.Windows.Data;
+using System.Windows.Media;
 
 namespace Constructor5.UI.Main
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window, INotifyPropertyChanged, IOnCallOpenElement, IOnExportComplete, IOnElementDeleted
+    public partial class MainWindow : Window, INotifyPropertyChanged, IOnCallOpenElement, IOnExportComplete, IOnElementDeleted, IOnUnlocalizableStringDetected
     {
         public MainWindow()
         {
@@ -32,6 +34,10 @@ namespace Constructor5.UI.Main
                 var element = (Element)obj;
                 return !element.IsContextSpecific;
             };
+
+#if DEBUG
+            UnlocalizableStringFinderButton.Visibility = Visibility.Visible;
+#endif
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -102,6 +108,11 @@ namespace Constructor5.UI.Main
             {
                 LayoutDocumentPane.Children.Remove(document);
             }
+        }
+
+        void IOnUnlocalizableStringDetected.OnUnlocalizableStringDetected(string text)
+        {
+            UnlocalizableStringsText.Foreground = new SolidColorBrush(Colors.Red);
         }
     }
 }

@@ -1,11 +1,11 @@
-﻿using Constructor5.Base.SelectableObjects;
+using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.LootActionSets;
 using Constructor5.Elements.TestConditions;
 using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Statistic
 {
-    [SelectableObjectType("LootActionTypes", "Statistics: Remove Statistic")]
+    [SelectableObjectType("LootActionTypes", "StatisticsRemoveStatistic")]
     [XmlSerializerExtraType]
     public class RemoveStatisticAction : StatisticActionBase
     {

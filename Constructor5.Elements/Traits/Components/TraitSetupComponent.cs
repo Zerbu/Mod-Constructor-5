@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Core;
@@ -8,7 +8,7 @@ namespace Constructor5.Elements.Traits.Components
     [XmlSerializerExtraType]
     public class TraitSetupComponent : TraitComponent
     {
-        public override string ComponentLabel => "Setup Actions";
+        public override string ComponentLabel => "SetupActions";
 
         public ReferenceList LootActionSets { get; set; } = new ReferenceList();
 

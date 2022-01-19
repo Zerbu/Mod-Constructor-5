@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Elements.Buffs.Modifiers
+namespace Constructor5.Elements.Buffs.Modifiers
 {
     public enum BuffModifierDirection
     {

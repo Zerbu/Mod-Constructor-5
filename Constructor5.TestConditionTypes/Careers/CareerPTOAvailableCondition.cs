@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
@@ -7,9 +7,9 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Careers
 {
-    [SelectableObjectType("TestConditionTypes", "Careers: PTO Available")]
-    [SelectableObjectType("SituationGoalConditionTypes", "Careers: PTO Available")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Careers: PTO Available")]
+    [SelectableObjectType("TestConditionTypes", "CareersPTOAvailable")]
+    [SelectableObjectType("SituationGoalConditionTypes", "CareersPTOAvailable")]
+    [SelectableObjectType("ObjectiveConditionTypes", "CareersPTOAvailable")]
     [XmlSerializerExtraType]
     public class CareerPTOAvailableCondition : CareerConditionBase
     {

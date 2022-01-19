@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ComponentSystem;
+using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
@@ -13,7 +13,7 @@ using System.Linq;
 
 namespace Constructor5.Elements.AspirationTracks
 {
-    [ElementTypeData("Aspiration Track", false, ElementTypes = new[] { typeof(AspirationTrack) }, PresetFolders = new[] { "AspirationTrack" }, IsRootType = true)]
+    [ElementTypeData("AspirationTrack", false, ElementTypes = new[] { typeof(AspirationTrack) }, PresetFolders = new[] { "AspirationTrack" }, IsRootType = true)]
     public class AspirationTrack : SimpleComponentElement<AspirationTrackComponent>, IExportableElement
     {
         void IExportableElement.OnExport()

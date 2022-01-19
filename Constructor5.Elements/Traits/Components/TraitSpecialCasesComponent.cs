@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Core;
@@ -35,7 +35,7 @@ namespace Constructor5.Elements.Traits.Components
         [AutoTuneReferenceList("excluded_mood_types")]
         public ReferenceList BlockedEmotions { get; } = new ReferenceList();
 
-        public override string ComponentLabel => "Special Cases";
+        public override string ComponentLabel => "SpecialCases";
 
         [AutoTuneIfTrue("hide_relationships")]
         public bool HideRelationships { get; set; }

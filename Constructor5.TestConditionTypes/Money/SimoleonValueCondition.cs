@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.SelectableObjects;
@@ -7,8 +7,8 @@ using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.TestConditionTypes.Money
 {
-    [SelectableObjectType("TestConditionTypes", "Money Condition", Description = "Can be used to check how much money a Sim has and/or how much the active lot is worth.")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Money Condition", Description = "Can be used to check how much money a Sim has and/or how much the active lot is worth.")]
+    [SelectableObjectType("TestConditionTypes", "MoneyCondition", Description = "MoneyConditionNotice")]
+    [SelectableObjectType("ObjectiveConditionTypes", "MoneyCondition", Description = "MoneyConditionNotice")]
     [XmlSerializerExtraType]
     public class SimoleonValueCondition : TestCondition
     {

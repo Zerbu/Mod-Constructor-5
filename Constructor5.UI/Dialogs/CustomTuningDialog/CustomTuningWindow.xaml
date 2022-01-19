@@ -1,9 +1,9 @@
-﻿<Window x:Class="Constructor5.UI.Dialogs.CustomTuningDialog.CustomTuningWindow"
+<Window x:Class="Constructor5.UI.Dialogs.CustomTuningDialog.CustomTuningWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:Constructor5.UI.Dialogs.CustomTuningDialog"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:c="clr-namespace:Constructor5.UI.Shared"
         Title="Custom Tuning - The Sims 4 Mod Constructor (V5)"
         Width="600"
         Height="400"
@@ -29,15 +29,15 @@
             <StackPanel Grid.Row="1"
                         HorizontalAlignment="Right"
                         Orientation="Horizontal">
-                <Button x:Name="AboutButton"
+                <c:Button x:Name="AboutButton"
                         Margin="2"
                         Click="AboutButton_Click"
-                        Content="About Custom Tuning" />
-                <Button x:Name="PreviewButton"
+                        Content="AboutCustomTuning" />
+                <c:Button x:Name="PreviewButton"
                         Margin="2"
                         Click="PreviewButton_Click"
                         Content="Preview" />
-                <Button x:Name="UpdateButton"
+                <c:Button x:Name="UpdateButton"
                         Margin="2"
                         Click="UpdateButton_Click"
                         Content="Update" />

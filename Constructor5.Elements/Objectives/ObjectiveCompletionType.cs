@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Elements.Objectives
+namespace Constructor5.Elements.Objectives
 {
     public enum ObjectiveCompletionType
     {

@@ -1,22 +1,22 @@
-﻿<UserControl x:Class="Constructor5.Elements.BalloonSets.BalloonSetMiniEditor"
+<UserControl x:Class="Constructor5.Elements.BalloonSets.BalloonSetMiniEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.BalloonSets"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <UserControl.Resources>
-        <shared:SimpleAddToListCommand x:Key="AddCommand" TypeName="Balloon" />
+        <c:SimpleAddToListCommand x:Key="AddCommand" TypeName="Balloon" />
     </UserControl.Resources>
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel>
-            <CheckBox Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
-                      Content="Speech"
-                      IsChecked="{Binding IsSpeech}" />
+            <c:CheckBox Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
+                        Content="Speech"
+                        IsChecked="{Binding IsSpeech}" />
             <StackPanel Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}">
                 <ItemsControl x:Name="BalloonsControl" ItemsSource="{Binding Balloons}">
                     <ItemsControl.ItemTemplate>
@@ -26,42 +26,41 @@
                                     <ColumnDefinition Width="*" />
                                     <ColumnDefinition Width="Auto" />
                                 </Grid.ColumnDefinitions>
-                                <shared:IconControl Icon="{Binding Icon}">
-                                    <shared:IconControl.ExtraContent>
-                                        <Expander Header="Options">
+                                <c:IconControl Icon="{Binding Icon}">
+                                    <c:IconControl.ExtraContent>
+                                        <c:Expander Header="Options">
                                             <StackPanel>
-                                                <CheckBox Content="Negative Overlay" IsChecked="{Binding HasOverlay}" />
-                                                <shared:Field Label="Weight" LabelWidth="100">
+                                                <c:CheckBox Content="NegativeOverlay" IsChecked="{Binding HasOverlay}" />
+                                                <c:Field Label="Weight" LabelWidth="100">
                                                     <xctk:IntegerUpDown Text="{Binding Weight}" />
-                                                </shared:Field>
+                                                </c:Field>
                                             </StackPanel>
-                                        </Expander>
-                                    </shared:IconControl.ExtraContent>
-                                </shared:IconControl>
-                                <Button x:Name="DeleteButton"
-                                        Grid.Column="1"
-                                        HorizontalAlignment="Left"
-                                        VerticalAlignment="Top"
-                                        Click="DeleteButton_Click"
-                                        Style="{StaticResource Constructor.PlainButtonStyle}"
-                                        Tag="{Binding}"
-                                        ToolTip="Delete">
-                                    <Button.Content>
+                                        </c:Expander>
+                                    </c:IconControl.ExtraContent>
+                                </c:IconControl>
+                                <c:PlainButton x:Name="DeleteButton"
+                                               Grid.Column="1"
+                                               HorizontalAlignment="Left"
+                                               VerticalAlignment="Top"
+                                               Click="DeleteButton_Click"
+                                               Tag="{Binding}"
+                                               ToolTip="Delete">
+                                    <c:PlainButton.Content>
                                         <Image Width="25"
                                                Height="25"
                                                Source="pack://siteoforigin:,,,/Images/DeleteIcon.png" />
-                                    </Button.Content>
-                                </Button>
+                                    </c:PlainButton.Content>
+                                </c:PlainButton>
                             </Grid>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
             </StackPanel>
-            <Button Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
-                    HorizontalAlignment="Left"
-                    Command="{StaticResource AddCommand}"
-                    CommandParameter="{Binding Balloons}"
-                    Content="Add Balloon" />
+            <c:Button Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
+                      HorizontalAlignment="Left"
+                      Command="{StaticResource AddCommand}"
+                      CommandParameter="{Binding Balloons}"
+                      Content="AddBalloon" />
         </StackPanel>
     </ScrollViewer>
 </UserControl>

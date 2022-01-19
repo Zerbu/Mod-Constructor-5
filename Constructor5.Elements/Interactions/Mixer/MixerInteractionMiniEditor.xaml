@@ -1,43 +1,43 @@
-﻿<UserControl x:Class="Constructor5.Elements.Interactions.Mixer.MixerInteractionMiniEditor"
+<UserControl x:Class="Constructor5.Elements.Interactions.Mixer.MixerInteractionMiniEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.Interactions.Mixer"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              x:Name="uc"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <shared:Field Label="Name" LabelWidth="150">
-            <shared:STBLStringControl Text="{Binding InfoComponent.Name, ElementName=uc}" UpdateLabelForElement="{Binding}" />
-        </shared:Field>
-        <Expander Header="Lock Out Time" IsExpanded="False">
+        <c:Field Label="Name" LabelWidth="150">
+            <c:STBLStringControl Text="{Binding InfoComponent.Name, ElementName=uc}" UpdateLabelForElement="{Binding}" />
+        </c:Field>
+        <c:Expander Header="LockOutTime" IsExpanded="False">
             <StackPanel>
-                <Button x:Name="EAPresetButton"
+                <c:Button x:Name="EAPresetButton"
                         Margin="2"
                         HorizontalAlignment="Left"
                         Click="EAPresetButton_Click"
-                        Content="Preset: Standard EA settings for adding a buff at a random interval" />
+                        Content="PresetRandomInterval" />
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-                    <TextBlock Text="Time until the interaction is available after loading:" />
-                    <shared:IntBoundsControl Bounds="{Binding LockOutComponent.InitialLockOutTime, ElementName=uc}" />
+                    <c:TextBlock Text="LockOutTimeInitialDetailed" />
+                    <c:IntBoundsControl Bounds="{Binding LockOutComponent.InitialLockOutTime, ElementName=uc}" />
                 </StackPanel>
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-                    <TextBlock Text="Time until the interaction is available again after performing:" />
-                    <shared:IntBoundsControl Bounds="{Binding LockOutComponent.LockOutTime, ElementName=uc}" />
+                    <c:TextBlock Text="LockOutTimeDetailed" />
+                    <c:IntBoundsControl Bounds="{Binding LockOutComponent.LockOutTime, ElementName=uc}" />
                 </StackPanel>
             </StackPanel>
-        </Expander>
-        <shared:Field Label="Interaction Type" LabelWidth="150">
+        </c:Expander>
+        <c:Field Label="InteractionType" LabelWidth="150">
             <StackPanel>
-                <shared:SelectableObjectControl EditorCategory="Invalid"
+                <c:SelectableObjectControl EditorCategory="Invalid"
                                                 Object="{Binding TemplateComponent.Template, ElementName=uc}"
                                                 TypeRegistryCategory="MixerInteractionTemplates" />
             </StackPanel>
-        </shared:Field>
-        <shared:ObjectEditorControl EditorCategory="Default"
+        </c:Field>
+        <c:ObjectEditorControl EditorCategory="Default"
                                     EditorTag="AssignedInteraction"
                                     Object="{Binding TemplateComponent.Template, ElementName=uc}" />
     </StackPanel>

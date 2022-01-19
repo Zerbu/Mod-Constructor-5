@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
@@ -7,7 +7,7 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Interactions
 {
-    [SelectableObjectType("TestConditionTypes", "Interaction Running Condition")]
+    [SelectableObjectType("TestConditionTypes", "InteractionRunningCondition")]
     [XmlSerializerExtraType]
     public class InteractionRunningCondition : TestCondition
     {

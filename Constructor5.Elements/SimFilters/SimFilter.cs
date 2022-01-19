@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
@@ -7,7 +7,7 @@ using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.SimFilters
 {
-    [ElementTypeData("Sim Filter", false, ElementTypes = new[] { typeof(SimFilter) }, PresetFolders = new[] { "SimFilter" })]
+    [ElementTypeData("SimFilter", false, ElementTypes = new[] { typeof(SimFilter) }, PresetFolders = new[] { "SimFilter" })]
     public class SimFilter : Element, IExportableElement
     {
         public bool BanAnimals { get; set; } = true;
