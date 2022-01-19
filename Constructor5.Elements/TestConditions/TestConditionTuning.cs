@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;

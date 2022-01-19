@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.SelectableObjects;
+using Constructor5.Base.SelectableObjects;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Elements.TestConditions;
@@ -7,8 +7,8 @@ using Constructor5.Base.ExportSystem.AutoTuners;
 
 namespace Constructor5.TestConditionTypes.SimInfo
 {
-    [SelectableObjectType("TestConditionTypes", "Sim Info Condition")]
-    [SelectableObjectType("HolidayTraditionConditionTypes", "Sim Info Condition")]
+    [SelectableObjectType("TestConditionTypes", "SimInfoCondition")]
+    [SelectableObjectType("HolidayTraditionConditionTypes", "SimInfoCondition")]
     [XmlSerializerExtraType]
     public class SimInfoCondition : TestCondition
     {

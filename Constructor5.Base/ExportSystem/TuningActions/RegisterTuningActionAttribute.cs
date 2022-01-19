@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Startup;
+using Constructor5.Base.Startup;
 using System;
 
 namespace Constructor5.Base.ExportSystem.TuningActions

@@ -1,80 +1,80 @@
-﻿<UserControl x:Class="Constructor5.InteractionTemplates.Friendly.FriendlySITemplateEditor"
+<UserControl x:Class="Constructor5.InteractionTemplates.Friendly.FriendlySITemplateEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.InteractionTemplates"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <Grid>
-        <TabControl Background="Transparent" BorderThickness="0">
-            <TabItem Background="Transparent"
+        <c:TabControl Background="Transparent" BorderThickness="0">
+            <c:TabItem Background="Transparent"
                      FontSize="{StaticResource Constructor.BigFontSize}"
                      Header="Settings">
                 <StackPanel>
-                    <shared:Field Label="Pie Menu Category" LabelWidth="150">
-                        <shared:ReferenceControl ElementTypeName="PieMenuCategory"
-                                                 Reference="{Binding PieMenuCategory}"
-                                                 ResetTo="15504"
-                                                 ResetToLabel="Friendly" />
-                    </shared:Field>
-                    <CheckBox x:Name="GlobalInteractionCheckBox"
-                              Content="Always available even if not assigned to a trait or buff"
-                              IsChecked="{Binding IsGlobalInteraction}" />
+                    <c:Field Label="Pie Menu Category" LabelWidth="150">
+                        <c:ReferenceControl ElementTypeName="PieMenuCategory"
+                                            Reference="{Binding PieMenuCategory}"
+                                            ResetTo="15504"
+                                            ResetToLabel="Friendly" />
+                    </c:Field>
+                    <c:CheckBox x:Name="GlobalInteractionCheckBox"
+                                Content="Always available even if not assigned to a trait or buff"
+                                IsChecked="{Binding IsGlobalInteraction}" />
                 </StackPanel>
-            </TabItem>
-            <TabItem Background="Transparent"
+            </c:TabItem>
+            <c:TabItem Background="Transparent"
                      FontSize="{StaticResource Constructor.BigFontSize}"
                      Header="Balloons">
-                <shared:ReferenceControlWithEditorUnderneath ElementTypeName="BalloonSet" Reference="{Binding BalloonSet}" />
-            </TabItem>
-            <TabItem Background="Transparent"
+                <c:ReferenceControlWithEditorUnderneath ElementTypeName="BalloonSet" Reference="{Binding BalloonSet}" />
+            </c:TabItem>
+            <c:TabItem Background="Transparent"
                      FontSize="{StaticResource Constructor.BigFontSize}"
                      Header="Animations">
                 <StackPanel>
-                    <shared:Field Label="Success" LabelWidth="150">
-                        <shared:ReferenceControl ElementTypeName="Animation"
-                                                 Reference="{Binding AnimationOnSuccess}"
-                                                 ResetTo="11854"
-                                                 ResetToLabel="Ask Question Success" />
-                    </shared:Field>
-                    <shared:Field Label="Success (Target)" LabelWidth="150">
-                        <shared:ReferenceControl ElementTypeName="Animation"
-                                                 Reference="{Binding AnimationOnSuccessTarget}"
-                                                 ResetTo="11881"
-                                                 ResetToLabel="Positive" />
-                    </shared:Field>
-                    <shared:Field Label="Failure" LabelWidth="150">
-                        <shared:ReferenceControl ElementTypeName="Animation"
-                                                 Reference="{Binding AnimationOnFailure}"
-                                                 ResetTo="11853"
-                                                 ResetToLabel="Ask Question Failure" />
-                    </shared:Field>
-                    <shared:Field Label="Failure (Target)" LabelWidth="150">
-                        <shared:ReferenceControl ElementTypeName="Animation"
-                                                 Reference="{Binding AnimationOnFailureTarget}"
-                                                 ResetTo="11878"
-                                                 ResetToLabel="Annoyed" />
-                    </shared:Field>
+                    <c:Field Label="Success" LabelWidth="150">
+                        <c:ReferenceControl ElementTypeName="Animation"
+                                            Reference="{Binding AnimationOnSuccess}"
+                                            ResetTo="11854"
+                                            ResetToLabel="Ask Question Success" />
+                    </c:Field>
+                    <c:Field Label="Success (Target)" LabelWidth="150">
+                        <c:ReferenceControl ElementTypeName="Animation"
+                                            Reference="{Binding AnimationOnSuccessTarget}"
+                                            ResetTo="11881"
+                                            ResetToLabel="Positive" />
+                    </c:Field>
+                    <c:Field Label="Failure" LabelWidth="150">
+                        <c:ReferenceControl ElementTypeName="Animation"
+                                            Reference="{Binding AnimationOnFailure}"
+                                            ResetTo="11853"
+                                            ResetToLabel="Ask Question Failure" />
+                    </c:Field>
+                    <c:Field Label="Failure (Target)" LabelWidth="150">
+                        <c:ReferenceControl ElementTypeName="Animation"
+                                            Reference="{Binding AnimationOnFailureTarget}"
+                                            ResetTo="11878"
+                                            ResetToLabel="Annoyed" />
+                    </c:Field>
                 </StackPanel>
-            </TabItem>
-            <!--<TabItem Header="Standard Content" Background="Transparent" FontSize="{StaticResource Constructor.BigFontSize}">
+            </c:TabItem>
+            <!--<c:TabItem Header="Standard Content" Background="Transparent" FontSize="{StaticResource Constructor.BigFontSize}">
                 <StackPanel>
 
                 </StackPanel>
-            </TabItem>-->
-            <TabItem Background="Transparent"
+            </c:TabItem>-->
+            <c:TabItem Background="Transparent"
                      FontSize="{StaticResource Constructor.BigFontSize}"
                      Header="Actions">
                 <StackPanel>
-                    <shared:ReferenceListControl ElementReferenceList="{Binding LootActionSets}"
-                                                 ElementTypeName="LootActionSet"
-                                                 ItemTypeName="FriendlySocialLootItem"
-                                                 ShowCreateButton="True" />
+                    <c:ReferenceListControl ElementReferenceList="{Binding LootActionSets}"
+                                            ElementTypeName="LootActionSet"
+                                            ItemTypeName="FriendlySocialLootItem"
+                                            ShowCreateButton="True" />
                 </StackPanel>
-            </TabItem>
-        </TabControl>
+            </c:TabItem>
+        </c:TabControl>
     </Grid>
 </UserControl>

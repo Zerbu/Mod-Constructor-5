@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Core;
@@ -35,7 +35,7 @@ namespace Constructor5.Elements.HolidayTraditions.Components
             var header = (TuningHeader)context.Tuning;
             header.SimDataHandler.WriteText(228, Exporter.Current.STBLBuilder.GetKey(goalInfo.Name) ?? 0);
             header.SimDataHandler.WriteText(224, Exporter.Current.STBLBuilder.GetKey(goalInfo.Description) ?? 0);
-            header.SimDataHandler.WriteTGI(240, goalInfo.Icon.GetUncommentedText());
+            header.SimDataHandler.WriteTGI(240, goalInfo.Icon.GetUncommentedText(), Element);
         }
     }
 }

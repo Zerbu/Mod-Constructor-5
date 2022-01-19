@@ -1,8 +1,8 @@
-﻿<UserControl x:Class="Constructor5.UI.Shared.ParticipantControl"
+<UserControl x:Class="Constructor5.UI.Shared.ParticipantControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.UI.Shared"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              x:Name="uc"
              d:DesignHeight="450"
@@ -13,8 +13,8 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
-        <local:TextBoxWithPresetsControl PresetsFolder="Participant" Text="{Binding Text, ElementName=uc}" />
-        <Button x:Name="HelpButton"
+        <c:TextBoxWithPresetsControl PresetsFolder="Participant" Text="{Binding Text, ElementName=uc}" />
+        <c:Button x:Name="HelpButton"
                 Grid.Column="1"
                 VerticalAlignment="Center"
                 Click="HelpButton_Click"

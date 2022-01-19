@@ -1,9 +1,9 @@
-﻿<Window x:Class="Constructor5.UI.Dialogs.PythonInstaller.PythonInstallerWindow"
+<Window x:Class="Constructor5.UI.Dialogs.PythonInstaller.PythonInstallerWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:Constructor5.UI.Dialogs.PythonInstaller"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:c="clr-namespace:Constructor5.UI.Shared"
         Title="The Sims 4 Mod Constructor"
         Width="500"
         Height="250"
@@ -18,18 +18,18 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
             <StackPanel>
-                <TextBlock x:Name="ErrorText"
+                <c:TextBlock x:Name="ErrorText"
                            Margin="{StaticResource Constructor.BigPadding}"
                            Text="It is recommended you install Python 3.7.0 on your computer. It is needed for certain mods, such as interactions, to export properly."
-                           TextWrapping="Wrap" />
+                           />
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}" Orientation="Horizontal">
-                    <Button x:Name="InstallButton"
+                    <c:Button x:Name="InstallButton"
                             HorizontalAlignment="Left"
                             Click="InstallButton_Click"
                             Content="Install Python" />
-                    <TextBlock VerticalAlignment="Center" Text=" (Installer may take a few seconds to load)" />
+                    <c:TextBlock VerticalAlignment="Center" Text=" (Installer may take a few seconds to load)" />
                 </StackPanel>
-                <Button x:Name="ContinueButton"
+                <c:Button x:Name="ContinueButton"
                         Margin="{StaticResource Constructor.BigPaddingMinusTop}"
                         HorizontalAlignment="Left"
                         Click="ContinueButton_Click"
@@ -37,7 +37,7 @@
                         IsEnabled="False" />
             </StackPanel>
 
-            <Button x:Name="CloseButton"
+            <c:Button x:Name="CloseButton"
                     Grid.Row="1"
                     Margin="{StaticResource Constructor.BigPaddingMinusTop}"
                     HorizontalAlignment="Right"

@@ -1,4 +1,4 @@
-﻿using Constructor5.Elements.TestConditions;
+using Constructor5.Elements.TestConditions;
 using Constructor5.UI.Shared;
 using Constructor5.Core;
 using System.Collections.ObjectModel;

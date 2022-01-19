@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Startup;
+using Constructor5.Base.Startup;
 using Constructor5.UI.Shared;
 using System;
 

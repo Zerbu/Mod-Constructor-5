@@ -1,6 +1,7 @@
-﻿<UserControl x:Class="Constructor5.TestConditionTypes.Compound.CompoundConditionSelector"
+<UserControl x:Class="Constructor5.TestConditionTypes.Compound.CompoundConditionSelector"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.TestConditionTypes.Compound"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -9,17 +10,15 @@
              mc:Ignorable="d">
     <ScrollViewer>
         <StackPanel>
-            <TextBlock Margin="{StaticResource Constructor.BigPadding}"
-                       Text="If the mod has any Compound Condition elements, they will show up here for quick selection. Compound Conditions can be used to group multiple conditions together or require only some conditions to pass."
-                       TextWrapping="Wrap" />
+            <c:TextBlock Margin="{StaticResource Constructor.BigPadding}" Text="CompoundConditionElementBrowseNotice" />
             <ItemsControl x:Name="ItemsControl" Margin="{StaticResource Constructor.BigPaddingMinusTop}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Button Margin="2"
-                                HorizontalContentAlignment="Left"
-                                Click="Button_Click"
-                                Content="{Binding Label, Mode=OneTime}"
-                                Tag="{Binding}" />
+                        <c:Button Margin="2"
+                                  HorizontalContentAlignment="Left"
+                                  Click="Button_Click"
+                                  Content="{Binding Label, Mode=OneTime}"
+                                  Tag="{Binding}" />
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>

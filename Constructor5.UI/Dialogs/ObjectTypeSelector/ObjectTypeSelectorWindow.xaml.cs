@@ -1,9 +1,9 @@
-﻿using Constructor5.Base.SelectableObjects;
+using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
+using Constructor5.UI.Shared;
 using System;
 using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
 
 namespace Constructor5.UI.Dialogs.ObjectTypeSelector
 {

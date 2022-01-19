@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Core
+namespace Constructor5.Core
 {
     public interface IHook
     {

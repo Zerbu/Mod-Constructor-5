@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
@@ -7,7 +7,7 @@ using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.TestConditionTypes.Perks
 {
-    [SelectableObjectType("ObjectiveConditionTypes", "Perks: Has Specific Perk Condition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "PerksHasSpecificPerkCondition")]
     [XmlSerializerExtraType]
     public class HasSpecificPerkCondition : TestCondition
     {

@@ -153,6 +153,10 @@
     <Compile Include="Dialogs\ObjectTypeSelector\IObjectTypeSelectorExtraTab.cs" />
     <Compile Include="Dialogs\ObjectTypeSelector\ObjectTypeExtraTabAttribute.cs" />
     <Compile Include="Dialogs\ObjectTypeSelector\ObjectTypeExtraTabManager.cs" />
+    <Compile Include="Dialogs\UnlocalizableStringFinder\UnlocalizableStringFinderProcess.cs" />
+    <Compile Include="Dialogs\UnlocalizableStringFinder\UnlocalizableStringFinderWindow.xaml.cs">
+      <DependentUpon>UnlocalizableStringFinderWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Main\DockTheme\ConstructorTheme.cs" />
     <Compile Include="Main\ElementEditorPresenter.xaml.cs">
       <DependentUpon>ElementEditorPresenter.xaml</DependentUpon>
@@ -161,9 +165,18 @@
     <Compile Include="Dialogs\PythonInstaller\PythonInstallerWindow.xaml.cs">
       <DependentUpon>PythonInstallerWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shared\ContentControls\LeftRightPadding.cs" />
+    <Compile Include="Shared\ContentControls\LeftRightMargin.cs" />
     <Compile Include="Shared\ContentControls\SpacedStack.cs" />
     <Compile Include="Shared\ContentControls\SpacedStackStyleSelector.cs" />
+    <Compile Include="Shared\Overrides\Button.cs" />
+    <Compile Include="Shared\Overrides\CanConvertContentToTextBlockExtensions.cs" />
+    <Compile Include="Shared\Overrides\CheckBox.cs" />
+    <Compile Include="Shared\Overrides\Expander.cs" />
+    <Compile Include="Shared\Overrides\ICanConvertContentToTextBlock.cs" />
+    <Compile Include="Shared\Overrides\MenuItem.cs" />
+    <Compile Include="Shared\Overrides\PlainButton.cs" />
+    <Compile Include="Shared\Overrides\TabControl.cs" />
+    <Compile Include="Shared\Overrides\TabItem.cs" />
     <Compile Include="Shared\Overrides\TextBox.cs" />
     <Compile Include="Shared\Properties\ComplexChanceControl.xaml.cs">
       <DependentUpon>ComplexChanceControl.xaml</DependentUpon>
@@ -275,6 +288,7 @@
     <Compile Include="Shared\Properties\ThresholdControl.xaml.cs">
       <DependentUpon>ThresholdControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Shared\Overrides\TextBlock.cs" />
     <Compile Include="Shared\VisualTreeUtility.cs" />
     <Compile Include="Shared\Properties\TextBoxWithPresetsControl.xaml.cs">
       <DependentUpon>TextBoxWithPresetsControl.xaml</DependentUpon>
@@ -341,6 +355,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Dialogs\UnlocalizableStringFinder\UnlocalizableStringFinderWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Main\DockTheme\Brushes.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -357,7 +375,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shared\ContentControls\LeftRightPadding.xaml">
+    <Page Include="Shared\ContentControls\LeftRightMargin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

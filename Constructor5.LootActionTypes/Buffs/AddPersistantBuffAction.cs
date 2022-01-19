@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.ExportSystem.TuningActions;
@@ -10,7 +10,7 @@ using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Buffs
 {
-    [SelectableObjectType("LootActionTypes", "Buffs: Add Buff (Persistant)", Description = "Adds a buff that will persist while the condition is met, and then be removed when it is no longer met. This is intended to be used with the \"Actions\" category on a trait or buff, and will not work properly if used anywhere else.")]
+    [SelectableObjectType("LootActionTypes", "BuffsAddBuffPersistant", Description = "BuffsAddBuffPersistantNotice")]
     [XmlSerializerExtraType]
     public class AddPersistantBuffAction : LootAction
     {

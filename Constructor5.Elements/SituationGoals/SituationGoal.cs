@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ComponentSystem;
+using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
@@ -9,7 +9,7 @@ using Constructor5.Elements.SituationGoals.Templates;
 
 namespace Constructor5.Elements.SituationGoals
 {
-    [ElementTypeData("Situation Goal", true, ElementTypes = new[] { typeof(SituationGoal) }, PresetFolders = new[] { "SituationGoal" })]
+    [ElementTypeData("SituationGoal", true, ElementTypes = new[] { typeof(SituationGoal) }, PresetFolders = new[] { "SituationGoal" })]
     public class SituationGoal : SimpleComponentElement<SituationGoalComponent>, IExportableElement, IMultiTuningElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
@@ -47,7 +47,7 @@ namespace Constructor5.Elements.SituationGoals
                 {
                     Element = this
                 });
-                CustomTuningExporter.Export(tuning, CustomTuning);
+                CustomTuningExporter.Export(this, tuning, CustomTuning);
                 TuningExport.AddToQueue(tuning);
             }
         }

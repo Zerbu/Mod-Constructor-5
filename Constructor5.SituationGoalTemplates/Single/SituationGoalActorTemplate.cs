@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.TestConditions;
 using Constructor5.Core;
@@ -6,7 +6,7 @@ using Constructor5.Core;
 namespace Constructor5.Elements.SituationGoals.Templates
 {
     [XmlSerializerExtraType]
-    [SelectableObjectType("SituationGoalTemplates", "Sim Condition Goal")]
+    [SelectableObjectType("SituationGoalTemplates", "SimConditionGoal")]
     public class SituationGoalActorTemplate : SituationGoalTemplate
     {
         public bool IgnoreIfAlreadyMet { get; set; }

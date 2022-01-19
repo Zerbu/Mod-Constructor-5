@@ -1,4 +1,5 @@
-﻿using System;
+using Constructor5.Base.LocalizationSystem;
+using System;
 using System.Collections.Generic;
 
 namespace Constructor5.UI.Shared

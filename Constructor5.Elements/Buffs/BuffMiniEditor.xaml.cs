@@ -1,4 +1,4 @@
-﻿using Constructor5.Elements.Buffs.Components;
+using Constructor5.Elements.Buffs.Components;
 using Constructor5.UI.Shared;
 using System.Windows;
 using System.Windows.Controls;
@@ -40,6 +40,10 @@ namespace Constructor5.Elements.Buffs
             if (tag == "PersistantBuff")
             {
                 DurationPanel.Visibility = Visibility.Collapsed;
+                HideTimeoutPanel.Visibility = Visibility.Visible;
+            }
+            if (tag == "ShowHideTimeout")
+            {
                 HideTimeoutPanel.Visibility = Visibility.Visible;
             }
         }

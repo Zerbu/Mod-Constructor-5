@@ -1,40 +1,40 @@
-﻿<UserControl x:Class="Constructor5.Elements.SituationGoalSets.SituationGoalSetMiniEditor"
+<UserControl x:Class="Constructor5.Elements.SituationGoalSets.SituationGoalSetMiniEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.SituationGoalSets"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <TabControl>
-        <TabItem Header="Goals">
+    <c:TabControl>
+        <c:TabItem Header="Goals">
             <StackPanel>
-                <Expander Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                          Header="Linear Mode"
+                <c:Expander Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                          Header="LinearMode"
                           IsExpanded="False">
                     <StackPanel>
-                        <CheckBox Content="Linear Mode Enabled" IsChecked="{Binding LinearModeEnabled}" />
-                        <TextBlock Text="Normally, the game would choose a random goal from the set. In Linear Mode, the player will be given all the goals, one after the other, in the order listed. This works by automatically generating a seperate goal set for each goal and chaining it to the previous. Any manually added chained goal sets will be added at the end of the generated chain." TextWrapping="Wrap" />
+                        <c:CheckBox Content="LinearModeEnabled" IsChecked="{Binding LinearModeEnabled}" />
+                        <c:TextBlock Text="LinearModeEnabledHelp" />
                     </StackPanel>
-                </Expander>
-                <shared:ReferenceListControl ElementReferenceList="{Binding Goals}"
-                                             ElementTypeName="SituationGoal"
-                                             ItemTypeName="WeightedGoalReferenceListItem"
-                                             ShowCreateButton="True" />
+                </c:Expander>
+                <c:ReferenceListControl ElementReferenceList="{Binding Goals}"
+                                        ElementTypeName="SituationGoal"
+                                        ItemTypeName="WeightedGoalReferenceListItem"
+                                        ShowCreateButton="True" />
             </StackPanel>
-        </TabItem>
-        <TabItem Header="Chained Goal Sets">
+        </c:TabItem>
+        <c:TabItem Header="ChainedGoalSets">
             <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                <TextBlock Text="A random chained goal set will be chosen when a goal in this set is completed." />
-                <CheckBox IsChecked="{Binding AddSelfAsChainedGoalSet}">
-                    <TextBlock Text="Add self to the list of chained goal sets (this allows the set to repeat itself when a goal is completed)" TextWrapping="Wrap" />
-                </CheckBox>
-                <shared:ReferenceListControl ElementReferenceList="{Binding ChainedGoalSets}"
-                                             ElementTypeName="SituationGoalSet"
-                                             ShowCreateButton="True" />
+                <c:TextBlock Text="ChainedGoalSetsHelp" />
+                <c:CheckBox IsChecked="{Binding AddSelfAsChainedGoalSet}">
+                    <c:TextBlock Text="AddSelfToChainedGoalSets" />
+                </c:CheckBox>
+                <c:ReferenceListControl ElementReferenceList="{Binding ChainedGoalSets}"
+                                        ElementTypeName="SituationGoalSet"
+                                        ShowCreateButton="True" />
             </StackPanel>
-        </TabItem>
-    </TabControl>
+        </c:TabItem>
+    </c:TabControl>
 </UserControl>

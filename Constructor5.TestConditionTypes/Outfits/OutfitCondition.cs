@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace Constructor5.TestConditionTypes.Outfits
 {
-    [SelectableObjectType("TestConditionTypes", "Outfit Condition")]
+    [SelectableObjectType("TestConditionTypes", "OutfitCondition")]
     [XmlSerializerExtraType]
     public class OutfitCondition : TestCondition
     {

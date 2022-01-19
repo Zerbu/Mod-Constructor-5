@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.PropertyTypes;
 using System.Collections.Generic;
 using System.ComponentModel;

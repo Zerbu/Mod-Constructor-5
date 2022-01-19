@@ -1,4 +1,4 @@
-﻿using Constructor5.UI.Bases;
+using Constructor5.UI.Bases;
 using Microsoft.VisualBasic;
 
 namespace Constructor5.Elements.LootActionSets

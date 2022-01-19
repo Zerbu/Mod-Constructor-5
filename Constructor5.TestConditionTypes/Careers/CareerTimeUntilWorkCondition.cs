@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
@@ -8,9 +8,9 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Careers
 {
-    [SelectableObjectType("TestConditionTypes", "Careers: Time Until Work")]
-    [SelectableObjectType("SituationGoalConditionTypes", "Careers: Time Until Work")]
-    [SelectableObjectType("ObjectiveConditionTypes", "Careers: Time Until Work")]
+    [SelectableObjectType("TestConditionTypes", "CareersTimeUntilWork")]
+    [SelectableObjectType("SituationGoalConditionTypes", "CareersTimeUntilWork")]
+    [SelectableObjectType("ObjectiveConditionTypes", "CareersTimeUntilWork")]
     [XmlSerializerExtraType]
     public class CareerTimeUntilWorkCondition : CareerConditionBase
     {

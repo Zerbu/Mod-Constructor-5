@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.SelectableObjects;
@@ -8,8 +8,8 @@ using System.Collections.ObjectModel;
 
 namespace Constructor5.TestConditionTypes.Objects
 {
-    [SelectableObjectType("ObjectiveConditionTypes", "Object On Lot Condition")]
-    [SelectableObjectType("TestConditionTypes", "Object On Lot Condition")]
+    [SelectableObjectType("ObjectiveConditionTypes", "ObjectOnLotCondition")]
+    [SelectableObjectType("TestConditionTypes", "ObjectOnLotCondition")]
     [XmlSerializerExtraType]
     public class ObjectOnLotCondition : TestCondition
     {

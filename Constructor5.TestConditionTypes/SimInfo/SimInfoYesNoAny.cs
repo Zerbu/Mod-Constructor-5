@@ -1,4 +1,4 @@
-﻿namespace Constructor5.TestConditionTypes.SimInfo
+namespace Constructor5.TestConditionTypes.SimInfo
 {
     public enum SimInfoYesNoAny
     {

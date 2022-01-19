@@ -1,7 +1,8 @@
-﻿using Constructor5.UI.Dialogs;
+using Constructor5.UI.Dialogs;
 using Constructor5.UI.Shared;
 using System.Windows;
 using System.Windows.Controls;
+using MenuItem = Constructor5.UI.Shared.MenuItem;
 
 namespace Constructor5.Elements.Broadcasters
 {

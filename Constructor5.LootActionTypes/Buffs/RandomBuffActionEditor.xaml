@@ -1,33 +1,33 @@
-﻿<UserControl x:Class="Constructor5.LootActionTypes.Buffs.RandomBuffActionEditor"
+<UserControl x:Class="Constructor5.LootActionTypes.Buffs.RandomBuffActionEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.LootActionTypes.Buffs"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <shared:Field Label="Buffs" LabelWidth="100">
-            <shared:ReferenceListControl EditorCategory="ElementMini"
-                                         ElementReferenceList="{Binding Buffs}"
-                                         ElementTypeName="Buff"
-                                         ItemTypeName="WeightedBuffReferenceListItem"
-                                         ShowCreateButton="True" />
-        </shared:Field>
-        <shared:Field Label="Reason" LabelWidth="100">
+        <c:Field Label="LotTraitBuffs" LabelWidth="100">
+            <c:ReferenceListControl EditorCategory="ElementMini"
+                                    ElementReferenceList="{Binding Buffs}"
+                                    ElementTypeName="Buff"
+                                    ItemTypeName="WeightedBuffReferenceListItem"
+                                    ShowCreateButton="True" />
+        </c:Field>
+        <c:Field Label="Reason" LabelWidth="100">
             <StackPanel>
-                <shared:STBLStringControl Text="{Binding Reason}" />
-                <TextBlock FontStyle="Italic" Text="This is the text that will appear below the name of the buff in the UI, indicating why it was added. For example: (From Custom Trait)" />
+                <c:STBLStringControl Text="{Binding Reason}" />
+                <c:TextBlock FontStyle="Italic" Text="BuffReasonHelp" />
             </StackPanel>
-        </shared:Field>
-        <CheckBox Content="Ignore if the Sim already has one of the buffs" IsChecked="{Binding IgnoreIfAlreadyHasBuff}" />
-        <shared:Field Label="Participant" LabelWidth="100">
-            <shared:ParticipantControl Text="{Binding Participant}" />
-        </shared:Field>
-        <shared:Field Label="Chance" LabelWidth="100">
-            <shared:ComplexChanceControl Chance="{Binding Chance}" />
-        </shared:Field>
+        </c:Field>
+        <c:CheckBox Content="Ignore if the Sim already has one of the buffs" IsChecked="{Binding IgnoreIfAlreadyHasBuff}" />
+        <c:Field Label="Participant" LabelWidth="100">
+            <c:ParticipantControl Text="{Binding Participant}" />
+        </c:Field>
+        <c:Field Label="Chance" LabelWidth="100">
+            <c:ComplexChanceControl Chance="{Binding Chance}" />
+        </c:Field>
     </StackPanel>
 </UserControl>

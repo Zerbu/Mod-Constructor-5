@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.CustomTuning;
+using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
@@ -7,7 +7,7 @@ using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.BalloonSets
 {
-    [ElementTypeData("Balloon Set", true, ElementTypes = new[] { typeof(BalloonSet) }, PresetFolders = new[] { "Balloon" })]
+    [ElementTypeData("BalloonSet", true, ElementTypes = new[] { typeof(BalloonSet) }, PresetFolders = new[] { "Balloon" })]
     public class BalloonSet : Element, IExportableElement, ISupportsCustomTuning
     {
         public ObservableCollection<Balloon> Balloons { get; } = new ObservableCollection<Balloon>();
@@ -53,7 +53,7 @@ namespace Constructor5.Elements.BalloonSets
                 tunableTuple3.Set<TunableBasic>("key", balloon.Icon);
             }
 
-            CustomTuningExporter.Export(tuning, CustomTuning);
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

@@ -1,10 +1,10 @@
-﻿<UserControl x:Class="Constructor5.Elements.SituationGoals.SituationGoalMiniEditor"
+<UserControl x:Class="Constructor5.Elements.SituationGoals.SituationGoalMiniEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:components="clr-namespace:Constructor5.Elements.SituationGoals.Components"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:testconditions="clr-namespace:Constructor5.Elements.TestConditions"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              x:Name="uc"
@@ -13,25 +13,25 @@
              mc:Ignorable="d">
     <StackPanel>
         <components:SituationGoalInfoEditor x:Name="SituationGoalInfoEditor" Margin="0" />
-        <TabControl>
-            <TabItem Header="Main Content">
+        <c:TabControl>
+            <c:TabItem Header="MainContent">
                 <StackPanel>
-                    <shared:Field Label="Goal Type" LabelWidth="100">
-                        <shared:SelectableObjectControl EditorCategory="Invalid"
+                    <c:Field Label="GoalType" LabelWidth="100">
+                        <c:SelectableObjectControl EditorCategory="Invalid"
                                                         Object="{Binding SituationGoalTemplateComponent.Template, ElementName=uc}"
                                                         TypeRegistryCategory="SituationGoalTemplates" />
-                    </shared:Field>
-                    <shared:ObjectEditorControl EditorCategory="Default" Object="{Binding SituationGoalTemplateComponent.Template, ElementName=uc}" />
+                    </c:Field>
+                    <c:ObjectEditorControl EditorCategory="Default" Object="{Binding SituationGoalTemplateComponent.Template, ElementName=uc}" />
                 </StackPanel>
-            </TabItem>
-            <TabItem Header="Post Conditions">
+            </c:TabItem>
+            <c:TabItem Header="PostConditions">
                 <StackPanel>
-                    <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                               Text="These conditions must pass in addition to the goal for it to count."
-                               TextWrapping="Wrap" />
+                    <c:TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                               Text="PostConditionsHelp"
+                               />
                     <testconditions:ConditionListControl ConditionList="{Binding SituationGoalPostConditionsComponent.Conditions, ElementName=uc}" />
                 </StackPanel>
-            </TabItem>
-        </TabControl>
+            </c:TabItem>
+        </c:TabControl>
     </StackPanel>
 </UserControl>

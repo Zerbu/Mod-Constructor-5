@@ -1,25 +1,25 @@
-﻿<UserControl x:Class="Constructor5.Elements.AspirationTracks.AspirationTrackWhimsEditor"
+<UserControl x:Class="Constructor5.Elements.AspirationTracks.AspirationTrackWhimsEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.AspirationTracks"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <shared:Field Label="Reason" LabelWidth="100">
-                <shared:STBLStringControl Text="{Binding Reason}" />
-            </shared:Field>
-            <shared:Field Label="Whims" LabelWidth="100">
-                <shared:ReferenceListControl CreateElementFunction="ReferenceListControl_CreateElementFunction"
+            <c:Field Label="Reason" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding Reason}" />
+            </c:Field>
+            <c:Field Label="Whims" LabelWidth="100">
+                <c:ReferenceListControl CreateElementFunction="ReferenceListControl_CreateElementFunction"
                                              EditorTag="Whim"
                                              ElementReferenceList="{Binding Whims}"
                                              ElementTypeName="SituationGoal"
                                              ShowCreateButton="True" />
-            </shared:Field>
+            </c:Field>
         </StackPanel>
     </ScrollViewer>
 </UserControl>

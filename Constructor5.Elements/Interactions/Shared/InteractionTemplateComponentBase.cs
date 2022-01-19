@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning.Utilities;
+using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Elements.Interactions.Social;
 using Constructor5.Elements.Interactions.Social.ContextModifiers;
@@ -8,7 +8,7 @@ namespace Constructor5.Elements.Interactions.Shared
     public abstract class InteractionTemplateComponentBase : InteractionComponent
     {
         public override int ComponentDisplayOrder => 2;
-        public override string ComponentLabel => "Main Content";
+        public override string ComponentLabel => "MainContent";
 
         public InteractionTemplate Template { get; set; } = new DefaultInteractionTemplate();
 

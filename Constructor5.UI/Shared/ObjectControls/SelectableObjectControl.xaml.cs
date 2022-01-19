@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.PropertyTypes;
+using Constructor5.Base.PropertyTypes;
 using Constructor5.UI.Dialogs;
 using Constructor5.UI.Dialogs.ObjectTypeSelector;
 using System;

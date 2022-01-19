@@ -1,4 +1,4 @@
-﻿namespace Constructor5.UI.Shared
+namespace Constructor5.UI.Shared
 {
     public interface IObjectEditor
     {

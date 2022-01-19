@@ -1,20 +1,20 @@
-﻿<UserControl x:Class="Constructor5.LootActionTypes.Statistic.SimpleStatisticEditor"
+<UserControl x:Class="Constructor5.LootActionTypes.Statistic.SimpleStatisticEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Constructor5.LootActionTypes.Statistic" xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:local="clr-namespace:Constructor5.LootActionTypes.Statistic" xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel>
-        <shared:Field Label="Statistic" LabelWidth="100">
-            <shared:ReferenceControl Reference="{Binding Statistic}" ElementTypeName="Statistic" />
-        </shared:Field>
-        <shared:Field Label="Participant" LabelWidth="100">
-            <shared:ParticipantControl Text="{Binding Participant}" />
-        </shared:Field>
-        <shared:Field Label="Chance" LabelWidth="100">
-            <shared:ComplexChanceControl Chance="{Binding Chance}" />
-        </shared:Field>
+        <c:Field Label="Statistic" LabelWidth="100">
+            <c:ReferenceControl Reference="{Binding Statistic}" ElementTypeName="Statistic" />
+        </c:Field>
+        <c:Field Label="Participant" LabelWidth="100">
+            <c:ParticipantControl Text="{Binding Participant}" />
+        </c:Field>
+        <c:Field Label="Chance" LabelWidth="100">
+            <c:ComplexChanceControl Chance="{Binding Chance}" />
+        </c:Field>
     </StackPanel>
 </UserControl>

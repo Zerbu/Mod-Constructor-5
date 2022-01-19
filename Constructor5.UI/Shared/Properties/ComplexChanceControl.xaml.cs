@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.PropertyTypes;
+using Constructor5.Base.PropertyTypes;
 using System.Windows;
 using System.Windows.Controls;
 

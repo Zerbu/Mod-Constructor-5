@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Startup;
+using Constructor5.Base.Startup;
 using Constructor5.Core;
 using System;
 using System.Linq;
@@ -35,11 +35,7 @@ namespace Constructor5.Base.ElementSystem
                 Type = type
             };
 #if DEBUG
-            if (!result.CanBeCreatedByUser)
-            {
-                result.CanBeCreatedByUser = true;
-                result.Label = $"DEBUG: {result.Label}";
-            }
+            result.CanBeCreatedByUser = true;
 #endif
             ContentRegistry.Register("ElementTypes", type.Name, result);
         }

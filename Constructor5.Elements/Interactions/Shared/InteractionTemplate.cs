@@ -1,4 +1,4 @@
-﻿using Constructor5.Elements.Interactions.Social;
+using Constructor5.Elements.Interactions.Social;
 using Constructor5.Core;
 using System.ComponentModel;
 using System.Xml.Serialization;

@@ -1,4 +1,4 @@
-﻿namespace Constructor5.SimFilterTypes
+namespace Constructor5.SimFilterTypes
 {
     public enum GenderFilterGenders
     {

@@ -1,4 +1,4 @@
-﻿using Constructor5.UI.Bases;
+using Constructor5.UI.Bases;
 using System.Collections.Generic;
 
 namespace Constructor5.Elements.Rewards

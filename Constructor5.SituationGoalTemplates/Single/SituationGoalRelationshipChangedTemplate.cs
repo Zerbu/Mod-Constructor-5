@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
@@ -8,7 +8,7 @@ using Constructor5.TestConditionTypes.Relationships;
 namespace Constructor5.SituationGoalTemplates.Single
 {
     [XmlSerializerExtraType]
-    [SelectableObjectType("SituationGoalTemplates", "Relationship Changed with Target Goal")]
+    [SelectableObjectType("SituationGoalTemplates", "RelationshipChangedwithTargetGoal")]
     public class SituationGoalRelationshipChangedTemplate : SituationGoalTargetedBase
     {
         public override string Label => "Relationship Changed with Target Goal";

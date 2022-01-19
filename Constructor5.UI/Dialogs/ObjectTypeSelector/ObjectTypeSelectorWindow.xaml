@@ -1,8 +1,8 @@
-﻿<Window x:Class="Constructor5.UI.Dialogs.ObjectTypeSelector.ObjectTypeSelectorWindow"
+<Window x:Class="Constructor5.UI.Dialogs.ObjectTypeSelector.ObjectTypeSelectorWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:c="clr-namespace:Constructor5.UI.Shared"
         Title="The Sims 4 Mod Constructor (V5)"
         Width="800"
         Height="600"
@@ -12,31 +12,31 @@
         WindowStyle="ToolWindow"
         mc:Ignorable="d">
     <Border Style="{StaticResource Constructor.OverlayStyle}">
-        <TabControl x:Name="TabControl">
-            <TabItem Header="Base Types">
+        <c:TabControl x:Name="TabControl">
+            <c:TabItem Header="BaseTypes">
                 <ScrollViewer>
                     <ItemsControl x:Name="TestConditionSelector" Margin="{StaticResource Constructor.BigPadding}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
-                                <Button Margin="2"
+                                <c:Button Margin="2"
                                         HorizontalContentAlignment="Left"
                                         Click="Button_Click"
                                         Tag="{Binding}">
-                                    <Button.Content>
+                                    <c:Button.Content>
                                         <StackPanel>
-                                            <TextBlock Text="{Binding DisplayName, Mode=OneTime}" />
-                                            <TextBlock FontSize="{StaticResource Constructor.SmallFontSize}"
+                                            <c:TextBlock Text="{Binding DisplayName, Mode=OneTime}" />
+                                            <c:TextBlock FontSize="{StaticResource Constructor.SmallFontSize}"
                                                        Text="{Binding Description, Mode=OneTime}"
-                                                       TextWrapping="Wrap"
+                                                      
                                                        Visibility="{Binding Description, Converter={StaticResource NotNullToVis}}" />
                                         </StackPanel>
-                                    </Button.Content>
-                                </Button>
+                                    </c:Button.Content>
+                                </c:Button>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
                 </ScrollViewer>
-            </TabItem>
-        </TabControl>
+            </c:TabItem>
+        </c:TabControl>
     </Border>
 </Window>

@@ -1,4 +1,5 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.CustomTuning;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
@@ -6,17 +7,20 @@ using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Elements.TestConditions;
-using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.Objectives
 {
     [ElementTypeData("Objective", false, ElementTypes = new[] { typeof(Objective) }, PresetFolders = new[] { "Objective" })]
-    public class Objective : Element, IExportableElement
+    public class Objective : Element, IExportableElement, ISupportsCustomTuning
     {
+        [AutoTuneIfFalse("relative_to_unlock_moment", "True")]
+        public bool AlwaysTrack { get; set; } = true;
+
         public ObjectiveCompletionType CompletionType { get; set; } = ObjectiveCompletionType.BasedOnObjectiveType;
         public int CompletionTypeValue { get; set; } = 1;
+        public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
         public bool HomeLotOnly { get; set; }
 
         [AutoTuneBasic("display_text")]
@@ -25,9 +29,6 @@ namespace Constructor5.Elements.Objectives
         public ObservableCollection<TestConditionListItem> PostConditions { get; set; } = new ObservableCollection<TestConditionListItem>();
 
         public TestCondition PrimaryCondition { get; set; } = new AlwaysRunCondition();
-
-        [AutoTuneIfFalse("relative_to_unlock_moment", "True")]
-        public bool AlwaysTrack { get; set; } = true;
 
         [AutoTuneBasic("satisfaction_points")]
         public int SatisfactionPoints { get; set; }
@@ -63,6 +64,8 @@ namespace Constructor5.Elements.Objectives
             AutoTunerInvoker.Invoke(this, tuning);
 
             BuildSimData(tuning);
+
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

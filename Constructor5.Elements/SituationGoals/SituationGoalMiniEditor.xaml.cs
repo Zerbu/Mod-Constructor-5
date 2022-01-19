@@ -1,4 +1,4 @@
-﻿using Constructor5.Elements.SituationGoals.Components;
+using Constructor5.Elements.SituationGoals.Components;
 using Constructor5.UI.Shared;
 using System.Windows;
 using System.Windows.Controls;

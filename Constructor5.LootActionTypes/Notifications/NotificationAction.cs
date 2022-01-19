@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.PropertyTypes;
@@ -10,7 +10,7 @@ using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Notifications
 {
-    [SelectableObjectType("LootActionTypes", "Notification or Dialog")]
+    [SelectableObjectType("LootActionTypes", "NotificationorDialog")]
     [XmlSerializerExtraType]
     public class NotificationAction : LootAction
     {

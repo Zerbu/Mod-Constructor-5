@@ -1,4 +1,4 @@
-﻿using System.Windows.Media.Imaging;
+using System.Windows.Media.Imaging;
 
 namespace Constructor5.UI.Dialogs.IconSelector
 {

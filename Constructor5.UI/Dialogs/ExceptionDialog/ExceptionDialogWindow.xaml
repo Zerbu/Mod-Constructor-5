@@ -1,6 +1,7 @@
-﻿<Window x:Class="Constructor5.UI.Dialogs.ExceptionDialog.ExceptionDialogWindow"
+<Window x:Class="Constructor5.UI.Dialogs.ExceptionDialog.ExceptionDialogWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:Constructor5.UI.Shared"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:Constructor5.UI.Dialogs.ExceptionDialog"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -15,22 +16,20 @@
         mc:Ignorable="d">
     <Border Style="{StaticResource Constructor.OverlayStyle}">
         <StackPanel>
-            <TextBlock x:Name="TextBlock"
-                       Margin="{StaticResource Constructor.BigPadding}"
-                       Text="Mod Constructor has encountered an unexpected error."
-                       TextWrapping="Wrap" />
+            <c:TextBlock x:Name="TextBlock"
+                         Margin="{StaticResource Constructor.BigPadding}"
+                         Text="Mod Constructor has encountered an unexpected error." />
             <TextBox x:Name="ErrorTextBox"
                      MaxHeight="200"
                      Margin="{StaticResource Constructor.BigPaddingMinusTop}"
                      AcceptsTab="True"
-                     TextWrapping="Wrap"
                      VerticalScrollBarVisibility="Auto" />
             <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-                <TextBlock HorizontalAlignment="Left" Text="If you think this is a bug, please report it on GitHub." />
-                <Button x:Name="ReportButton"
-                        HorizontalAlignment="Left"
-                        Click="ReportButton_Click"
-                        Content="Report Bug" />
+                <c:TextBlock HorizontalAlignment="Left" Text="If you think this is a bug, please report it on GitHub." />
+                <c:Button x:Name="ReportButton"
+                          HorizontalAlignment="Left"
+                          Click="ReportButton_Click"
+                          Content="ReportBug" />
             </StackPanel>
         </StackPanel>
     </Border>

@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Elements.TestConditions
+namespace Constructor5.Elements.TestConditions
 {
     public class TestConditionListItem
     {

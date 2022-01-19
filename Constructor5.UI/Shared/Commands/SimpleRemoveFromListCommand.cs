@@ -1,4 +1,4 @@
-﻿using Constructor5.Core;
+using Constructor5.Core;
 using Constructor5.UI.Bases;
 using Constructor5.UI.Dialogs;
 using System;

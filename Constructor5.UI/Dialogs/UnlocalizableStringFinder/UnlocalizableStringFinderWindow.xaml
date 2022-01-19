@@ -1,0 +1,32 @@
+<Window x:Class="Constructor5.UI.Dialogs.UnlocalizableStringFinder.UnlocalizableStringFinderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:Constructor5.UI.Shared"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Constructor5.UI.Dialogs.UnlocalizableStringFinder"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="Unlocalizable String Finder"
+        Width="600"
+        FontSize="{StaticResource Constructor.BigFontSize}"
+        SizeToContent="Height"
+        Style="{StaticResource Constructor.WindowStyle}"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="ToolWindow"
+        mc:Ignorable="d">
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <c:LeftRightMargin>
+            <c:SpacedStack>
+                <c:TextBox x:Name="TextBox"
+                           Height="400"
+                           AcceptsReturn="True"
+                           HorizontalScrollBarVisibility="Auto"
+                           IsReadOnly="True"
+                           VerticalScrollBarVisibility="Visible" />
+                <c:Button x:Name="XMLReplaceButton"
+                          Click="XMLReplaceButton_Click"
+                          Content="XAML Replace (!!!DANGEROUS!!!MAKE BACKUP!!!)"
+                          ShouldConvertStringToTextBlock="False" />
+            </c:SpacedStack>
+        </c:LeftRightMargin>
+    </Border>
+</Window>

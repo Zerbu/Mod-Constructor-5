@@ -1,9 +1,9 @@
-﻿<Window x:Class="Constructor5.DebugTools.FormGenerator.MainWindow"
+<Window x:Class="Constructor5.DebugTools.FormGenerator.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+        xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
         Title="The Sims 4 Mod Constructor (V5)"
         Width="800"
         Height="600"
@@ -16,10 +16,10 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <StackPanel>
-            <shared:Field Label="Type Name" LabelWidth="200">
+            <c:Field Label="Type Name" LabelWidth="200">
                 <TextBox x:Name="TypeNameTextBox" />
-            </shared:Field>
-            <Button x:Name="GenerateButton"
+            </c:Field>
+            <c:Button x:Name="GenerateButton"
                     Click="GenerateButton_Click"
                     Content="Generate" />
         </StackPanel>

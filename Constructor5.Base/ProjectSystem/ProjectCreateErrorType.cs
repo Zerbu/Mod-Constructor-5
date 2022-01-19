@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Base.ProjectSystem
+namespace Constructor5.Base.ProjectSystem
 {
     public enum ProjectCreateErrorType
     {

@@ -309,6 +309,22 @@
     </Compile>
     <Compile Include="LootActionSets\SetActionLabelCommand.cs" />
     <Compile Include="LootActionSets\SetConditionGroupLabelCommand.cs" />
+    <Compile Include="LotTraits\LotTraitBuffs.cs" />
+    <Compile Include="LotTraits\LotTraitBuffsEditor.xaml.cs">
+      <DependentUpon>LotTraitBuffsEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LotTraits\LotTraitEnterActions.cs" />
+    <Compile Include="LotTraits\LotTrait.cs" />
+    <Compile Include="LotTraits\LotTraitComponent.cs" />
+    <Compile Include="LotTraits\LotTraitEditor.xaml.cs">
+      <DependentUpon>LotTraitEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LotTraits\LotTraitExitActions.cs" />
+    <Compile Include="LotTraits\LotTraitExportContext.cs" />
+    <Compile Include="LotTraits\LotTraitInfoComponent.cs" />
+    <Compile Include="LotTraits\LotTraitInfoEditor.xaml.cs">
+      <DependentUpon>LotTraitInfoEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ObjectiveSets\AssignedAspirationTrackContextModifier.cs" />
     <Compile Include="ObjectiveSets\ObjectiveSet.cs" />
     <Compile Include="ObjectiveSets\ObjectiveSetEditor.xaml.cs">
@@ -712,6 +728,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="LootActionSets\LootActionSetMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LotTraits\LotTraitBuffsEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LotTraits\LotTraitEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LotTraits\LotTraitInfoEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

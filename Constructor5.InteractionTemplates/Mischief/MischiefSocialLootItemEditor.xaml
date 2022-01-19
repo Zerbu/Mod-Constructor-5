@@ -1,18 +1,18 @@
-﻿<UserControl x:Class="Constructor5.InteractionTemplates.Mischief.MischiefSocialLootItemEditor"
+<UserControl x:Class="Constructor5.InteractionTemplates.Mischief.MischiefSocialLootItemEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.InteractionTemplates.Mischief"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <CheckBox Content="Run when the interaction is successful" IsChecked="{Binding RunOnSuccess}" />
-        <CheckBox Content="Run when the interaction fails" IsChecked="{Binding RunOnFailure}" />
-        <CheckBox IsChecked="{Binding RunOnSocialContextFailure}">
-            <TextBlock Text="Run when the interaction fails due to social context (EA considers this the worst type of failure)" TextWrapping="Wrap" />
-        </CheckBox>
+        <c:CheckBox Content="Run when the interaction is successful" IsChecked="{Binding RunOnSuccess}" />
+        <c:CheckBox Content="Run when the interaction fails" IsChecked="{Binding RunOnFailure}" />
+        <c:CheckBox IsChecked="{Binding RunOnSocialContextFailure}">
+            <c:TextBlock Text="Run when the interaction fails due to social context (EA considers this the worst type of failure)" />
+        </c:CheckBox>
     </StackPanel>
 </UserControl>

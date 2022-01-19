@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.SelectableObjects;
@@ -11,7 +11,7 @@ using Constructor5.SituationGoalTemplates.Single;
 namespace Constructor5.Elements.SituationGoals.Templates
 {
     [XmlSerializerExtraType]
-    [SelectableObjectType("SituationGoalTemplates", "Interaction Goal")]
+    [SelectableObjectType("SituationGoalTemplates", "InteractionGoal")]
     public class SituationGoalInteractionTemplate : SituationGoalTargetedBase
     {
         public bool IncludeCancelledInteractions { get; set; }

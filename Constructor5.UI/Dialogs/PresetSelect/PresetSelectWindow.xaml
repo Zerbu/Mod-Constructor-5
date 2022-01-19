@@ -1,9 +1,9 @@
-﻿<Window x:Class="Constructor5.UI.Dialogs.PresetSelect.PresetSelectWindow"
+<Window x:Class="Constructor5.UI.Dialogs.PresetSelect.PresetSelectWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:Constructor5.UI.Shared"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:shared="clr-namespace:Constructor5.UI.Shared"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         Title="The Sims 4 Mod Constructor (V5)"
         Width="800"
@@ -30,7 +30,7 @@
                           SelectionMode="Single">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding Label}" />
+                            <c:TextBlock IsLocalizable="False" Text="{Binding Label}" />
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
@@ -40,19 +40,19 @@
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
                     <StackPanel Margin="{StaticResource Constructor.BigPadding}">
-                        <shared:Field Label="Search">
+                        <c:Field Label="Search">
                             <TextBox x:Name="SearchBox"
                                      Grid.Column="1"
                                      TextChanged="SearchBox_TextChanged" />
-                        </shared:Field>
+                        </c:Field>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock VerticalAlignment="Center" Text="Sort by " />
-                            <Button x:Name="SortByLabelButton"
-                                    Click="SortByLabelButton_Click"
-                                    Content="Label" />
-                            <Button x:Name="SortByValueButton"
-                                    Click="SortByValueButton_Click"
-                                    Content="Value" />
+                            <c:TextBlock VerticalAlignment="Center" Text="SortBy" />
+                            <c:Button x:Name="SortByLabelButton"
+                                      Click="SortByLabelButton_Click"
+                                      Content="Label" />
+                            <c:Button x:Name="SortByValueButton"
+                                      Click="SortByValueButton_Click"
+                                      Content="Value" />
                         </StackPanel>
                     </StackPanel>
                     <ListView x:Name="PresetsListView"
@@ -72,15 +72,15 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
-                <Expander Header="Manual Input (Advanced)">
+                <c:Expander Header="ManualInput">
                     <xctk:WatermarkTextBox x:Name="ManualInput" Watermark="Enter the instance key of a resource from the game" />
-                </Expander>
-                <Button x:Name="SetReferenceButton"
-                        Grid.Column="1"
-                        Margin="2"
-                        HorizontalAlignment="Right"
-                        Click="SetReferenceButton_Click"
-                        Content="Select" />
+                </c:Expander>
+                <c:Button x:Name="SetReferenceButton"
+                          Grid.Column="1"
+                          Margin="2"
+                          HorizontalAlignment="Right"
+                          Click="SetReferenceButton_Click"
+                          Content="Select" />
             </Grid>
         </Grid>
     </Border>

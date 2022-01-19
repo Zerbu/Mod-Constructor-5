@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem;
+using Constructor5.Base.ExportSystem;
 using System.Windows;
 
 namespace Constructor5.UI.Dialogs.ExportResults

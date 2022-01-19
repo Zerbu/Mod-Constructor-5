@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Elements.SituationJobs;
 using Constructor5.Elements.SituationJobs.Components;
 using Constructor5.UI.Shared;

@@ -1,4 +1,4 @@
-﻿using Constructor5.TestConditionTypes.SimInfo;
+using Constructor5.TestConditionTypes.SimInfo;
 using Constructor5.UI.Dialogs.ObjectTypeSelector;
 using System;
 using System.Collections.Generic;

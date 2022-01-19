@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ProjectSystem;
+using Constructor5.Base.ProjectSystem;
 using Constructor5.Core;
 using System;
 using System.Collections.Generic;

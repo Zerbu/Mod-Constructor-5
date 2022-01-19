@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Elements.Rewards;
 using Constructor5.UI.Shared;
 using System.Windows.Controls;

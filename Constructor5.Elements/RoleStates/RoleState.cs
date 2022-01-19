@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.CustomTuning;
+using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.AutoTuners;
@@ -29,7 +29,7 @@ namespace Constructor5.Elements.RoleStates
             var tunableTuple1 = tuning.Get<TunableTuple>("_off_lot_autonomy_buff");
             tunableTuple1.Set<TunableBasic>("buff_type", OffLotAutonomyBuff);
 
-            CustomTuningExporter.Export(tuning, CustomTuning);
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

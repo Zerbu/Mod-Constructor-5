@@ -1,6 +1,7 @@
-﻿<UserControl x:Class="Constructor5.SituationGoalTemplates.Single.SituationGoalRelationshipChangedEditor"
+<UserControl x:Class="Constructor5.SituationGoalTemplates.Single.SituationGoalRelationshipChangedEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:conditions="clr-namespace:Constructor5.Elements.TestConditions;assembly=Constructor5.Elements"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.SituationGoalTemplates.Single"
@@ -10,41 +11,41 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <TabControl>
-            <TabItem Header="Relationship Condition">
-                <TabControl>
-                    <TabItem Header="Completion Condition">
+        <c:TabControl>
+            <c:TabItem Header="RelationshipCondition">
+                <c:TabControl>
+                    <c:TabItem Header="Completion Condition">
                         <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                            <TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
+                            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
                                        Text="The goal will complete when the Sim's relationship with the target matches this condition."
-                                       TextWrapping="Wrap" />
+                                       />
                             <relationships:RelationshipConditionEditorValues DataContext="{Binding RelationshipConditions}" />
                         </StackPanel>
-                    </TabItem>
-                    <TabItem Header="Relationship-Based Availability Condition">
+                    </c:TabItem>
+                    <c:TabItem Header="Relationship-Based Availability Condition">
                         <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                            <TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
+                            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
                                        Text="This is only valid for goals where &quot;Specific Target&quot; (in &quot;Target Settings&quot;) is set to something other than &quot;Any&quot;. This condition must pass for the goal to be selected in a goal set or whim set. For example, a &quot;Become Friends with&quot; goal should check to make sure the Sims aren't already friends."
-                                       TextWrapping="Wrap" />
-                            <CheckBox Content="Has Relationship-Based Availability Condition" IsChecked="{Binding HasRelationshipPreConditions}" />
+                                       />
+                            <c:CheckBox Content="Has Relationship-Based Availability Condition" IsChecked="{Binding HasRelationshipPreConditions}" />
                             <StackPanel Visibility="{Binding HasRelationshipPreConditions, Converter={StaticResource BoolToVis}}">
                                 <relationships:RelationshipConditionEditorValues DataContext="{Binding RelationshipPreConditions}" />
                             </StackPanel>
                         </StackPanel>
-                    </TabItem>
-                </TabControl>
-            </TabItem>
-            <TabItem Header="Target Settings">
+                    </c:TabItem>
+                </c:TabControl>
+            </c:TabItem>
+            <c:TabItem Header="TargetSettings">
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
                     <local:SituationGoalTargetSettingsUI />
                 </StackPanel>
-            </TabItem>
-            <TabItem Header="Target Conditions">
+            </c:TabItem>
+            <c:TabItem Header="TargetConditions">
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                    <TextBlock Text="The target must meet these conditions for the goal to count." />
+                    <c:TextBlock Text="The target must meet these conditions for the goal to count." />
                     <conditions:ConditionListControl ConditionList="{Binding TargetConditions}" />
                 </StackPanel>
-            </TabItem>
-        </TabControl>
+            </c:TabItem>
+        </c:TabControl>
     </StackPanel>
 </UserControl>

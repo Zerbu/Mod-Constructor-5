@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Base.CustomTuning
+namespace Constructor5.Base.CustomTuning
 {
     public class CustomTuningInfo
     {

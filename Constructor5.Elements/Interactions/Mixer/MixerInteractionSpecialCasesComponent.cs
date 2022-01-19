@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Elements.Interactions.Shared;
 using Constructor5.Core;
 
@@ -8,7 +8,7 @@ namespace Constructor5.Elements.Interactions.Mixer
     [XmlSerializerExtraType]
     public class MixerInteractionSpecialCasesComponent : InteractionComponent
     {
-        public override string ComponentLabel => "Special Cases";
+        public override string ComponentLabel => "SpecialCases";
 
         public bool IsIdle { get; set; }
 

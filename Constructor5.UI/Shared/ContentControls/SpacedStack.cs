@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace Constructor5.UI.Shared
 {
     public class SpacedStack : ItemsControl
     {
+        public bool TopMargin
+        {
+            set => Margin = new Thickness(0, 15, 0, 0);
+        }
     }
 }

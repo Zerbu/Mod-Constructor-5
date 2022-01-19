@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using System.Xml.Serialization;
 
 namespace Constructor5.Base.ComponentSystem

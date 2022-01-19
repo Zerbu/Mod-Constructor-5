@@ -1,49 +1,49 @@
-﻿<UserControl x:Class="Constructor5.Elements.AspirationTracks.AspirationTrackInfoEditor"
+<UserControl x:Class="Constructor5.Elements.AspirationTracks.AspirationTrackInfoEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.AspirationTracks"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
 
-        <shared:Field Label="Name" LabelWidth="100">
-            <shared:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
-        </shared:Field>
-        <shared:Field Label="Description" LabelWidth="100">
-            <shared:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
-        </shared:Field>
-        <shared:Field Label="Icon" LabelWidth="100">
-            <shared:IconControl Icon="{Binding Icon}" />
-        </shared:Field>
-        <shared:Field Label="Category" LabelWidth="100">
-            <shared:ReferenceControl ElementTypeName="AspirationCategory" Reference="{Binding Category}" />
-        </shared:Field>
+        <c:Field Label="Name" LabelWidth="100">
+            <c:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
+        </c:Field>
+        <c:Field Label="Description" LabelWidth="100">
+            <c:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
+        </c:Field>
+        <c:Field Label="Icon" LabelWidth="100">
+            <c:IconControl Icon="{Binding Icon}" />
+        </c:Field>
+        <c:Field Label="Category" LabelWidth="100">
+            <c:ReferenceControl ElementTypeName="AspirationCategory" Reference="{Binding Category}" />
+        </c:Field>
 
-        <shared:Field Label="Aspiration Complete Notification" LabelWidth="100">
-            <shared:STBLStringControl IsMultiLine="True" Text="{Binding AspirationCompleteNotification}" />
-        </shared:Field>
+        <c:Field Label="AspirationCompleteNotification" LabelWidth="100">
+            <c:STBLStringControl IsMultiLine="True" Text="{Binding AspirationCompleteNotification}" />
+        </c:Field>
 
-        <CheckBox IsChecked="{Binding HasCustomCASTrait}">
+        <c:CheckBox IsChecked="{Binding HasCustomCASTrait}">
             <StackPanel>
-                <TextBlock Text="Has Custom CAS Trait" />
-                <TextBlock FontStyle="Italic"
-                           Text="If unchecked, the CAS trait will be determined automatically based on the category."
-                           TextWrapping="Wrap" />
+                <c:TextBlock Text="HasCustomCASTrait" />
+                <c:TextBlock FontStyle="Italic"
+                           Text="HasCustomCASTraitHelo"
+                           />
             </StackPanel>
-        </CheckBox>
-        <shared:Field Label="CAS Trait"
+        </c:CheckBox>
+        <c:Field Label="CAS Trait"
                       LabelWidth="100"
                       Visibility="{Binding HasCustomCASTrait, Converter={StaticResource BoolToVis}}">
-            <shared:ReferenceControl CreateElementFunction="ReferenceControl_CreateElementFunction"
+            <c:ReferenceControl CreateElementFunction="ReferenceControl_CreateElementFunction"
                                      ElementTypeName="Trait"
                                      Reference="{Binding CASTrait}"
                                      ShowCreateButton="True" />
-        </shared:Field>
+        </c:Field>
 
-        <CheckBox Content="Is Child Aspiration" IsChecked="{Binding IsChildAspiration}" />
+        <c:CheckBox Content="IsChildAspiration" IsChecked="{Binding IsChildAspiration}" />
     </StackPanel>
 </UserControl>

@@ -1,4 +1,4 @@
-﻿namespace Constructor5.TestConditionTypes.Locations
+namespace Constructor5.TestConditionTypes.Locations
 {
     public enum LocationIsOutside
     {

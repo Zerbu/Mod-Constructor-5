@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
@@ -12,11 +12,14 @@ namespace Constructor5.Base.CustomTuning
     {
         public static TuningHeader Header { get; set; }
 
-        public static void Export(TuningHeader header, CustomTuningInfo customTuning)
+        public static void Export(Element element, TuningHeader header, CustomTuningInfo customTuning)
         {
+            Element = element;
             Header = header;
             new CustomTuningExporter().Export(header, customTuning.Text);
         }
+
+        private static Element Element { get; set; }
 
         private void Export(TuningHeader header, string content) => Read(header, content);
 
@@ -28,7 +31,7 @@ namespace Constructor5.Base.CustomTuning
                 var element = ElementManager.GetAll(true).FirstOrDefault(x => x.UserFacingId == split[1]);
                 if (element == null)
                 {
-                    Exporter.Current.AddError($"Custom tuning error: Mod Constructor couldn't find an element with the ID: {split[1]}");
+                    Exporter.Current.AddError(Element, $"Custom tuning error: Mod Constructor couldn't find an element with the ID: {split[1]}");
                     return "ELEMENT NOT FOUND";
                 }
                 return ElementTuning.GetSingleInstanceKey(element).ToString();

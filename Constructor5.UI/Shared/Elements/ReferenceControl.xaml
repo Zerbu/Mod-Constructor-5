@@ -1,15 +1,15 @@
-﻿<UserControl x:Class="Constructor5.UI.Shared.ReferenceControl"
+<UserControl x:Class="Constructor5.UI.Shared.ReferenceControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared"
              x:Name="uc"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <UserControl.Resources>
-        <shared:SimpleBrowsePresetsCommand x:Key="BrowsePresetsCommand" PresetsSelectedCallback="SimpleBrowseElementsCommand_PresetsSelectedCallback" />
+        <c:SimpleBrowsePresetsCommand x:Key="BrowsePresetsCommand" PresetsSelectedCallback="SimpleBrowseElementsCommand_PresetsSelectedCallback" />
     </UserControl.Resources>
     <StackPanel>
         <Grid>
@@ -17,81 +17,81 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            <shared:ReferenceLabel VerticalAlignment="Center" Reference="{Binding Reference, ElementName=uc}" />
-            <!--<TextBlock Text="{Binding Reference.Label, ElementName=uc}" ToolTip="{Binding Reference.Label, ElementName=uc}" VerticalAlignment="Center" />-->
+            <c:ReferenceLabel VerticalAlignment="Center" Reference="{Binding Reference, ElementName=uc}" />
+            <!--<c:TextBlock Text="{Binding Reference.Label, ElementName=uc}" ToolTip="{Binding Reference.Label, ElementName=uc}" VerticalAlignment="Center" />-->
             <StackPanel Grid.Column="1" Orientation="Horizontal">
-                <Button x:Name="BrowseButton"
-                        HorizontalAlignment="Left"
-                        Click="BrowseButton_Click"
-                        Style="{StaticResource Constructor.PlainButtonStyle}"
-                        ToolTip="Browse"
-                        Visibility="{Binding ShowBrowseButton, ElementName=uc, Converter={StaticResource BoolToVis}}">
-                    <Button.Content>
+                <c:Button x:Name="BrowseButton"
+                          HorizontalAlignment="Left"
+                          Click="BrowseButton_Click"
+                          Style="{StaticResource Constructor.PlainButtonStyle}"
+                          ToolTip="Browse"
+                          Visibility="{Binding ShowBrowseButton, ElementName=uc, Converter={StaticResource BoolToVis}}">
+                    <c:Button.Content>
                         <Image Width="25"
                                Height="25"
                                Source="pack://siteoforigin:,,,/Images/ConfigIcon.png" />
-                    </Button.Content>
-                </Button>
-                <Button x:Name="ResetButton"
-                        HorizontalAlignment="Left"
-                        Click="ResetButton_Click"
-                        Style="{StaticResource Constructor.PlainButtonStyle}"
-                        ToolTip="Reset"
-                        Visibility="{Binding ShowResetButton, ElementName=uc, Converter={StaticResource BoolToVis}}">
-                    <Button.Content>
+                    </c:Button.Content>
+                </c:Button>
+                <c:Button x:Name="ResetButton"
+                          HorizontalAlignment="Left"
+                          Click="ResetButton_Click"
+                          Style="{StaticResource Constructor.PlainButtonStyle}"
+                          ToolTip="Reset"
+                          Visibility="{Binding ShowResetButton, ElementName=uc, Converter={StaticResource BoolToVis}}">
+                    <c:Button.Content>
                         <Image Width="25"
                                Height="25"
                                Source="pack://siteoforigin:,,,/Images/DeleteIcon.png" />
-                    </Button.Content>
-                </Button>
-                <Button x:Name="CreateButton"
-                        HorizontalAlignment="Left"
-                        Click="CreateButton_Click"
-                        Style="{StaticResource Constructor.PlainButtonStyle}"
-                        ToolTip="Create"
-                        Visibility="{Binding ShowCreateButton, ElementName=uc, Converter={StaticResource BoolToVis}}">
-                    <Button.Content>
+                    </c:Button.Content>
+                </c:Button>
+                <c:Button x:Name="CreateButton"
+                          HorizontalAlignment="Left"
+                          Click="CreateButton_Click"
+                          Style="{StaticResource Constructor.PlainButtonStyle}"
+                          ToolTip="Create"
+                          Visibility="{Binding ShowCreateButton, ElementName=uc, Converter={StaticResource BoolToVis}}">
+                    <c:Button.Content>
                         <Image Width="25"
                                Height="25"
                                Source="pack://siteoforigin:,,,/Images/AddIcon.png" />
-                    </Button.Content>
-                </Button>
-                <Button x:Name="OpenButton"
-                        HorizontalAlignment="Left"
-                        Click="OpenButton_Click"
-                        Style="{StaticResource Constructor.PlainButtonStyle}"
-                        ToolTip="Open Tab"
-                        Visibility="{Binding Reference.Element, ElementName=uc, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}">
-                    <Button.Content>
+                    </c:Button.Content>
+                </c:Button>
+                <c:Button x:Name="OpenButton"
+                          HorizontalAlignment="Left"
+                          Click="OpenButton_Click"
+                          Style="{StaticResource Constructor.PlainButtonStyle}"
+                          ToolTip="Open Tab"
+                          Visibility="{Binding Reference.Element, ElementName=uc, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}">
+                    <c:Button.Content>
                         <Image Width="25"
                                Height="25"
                                Source="pack://siteoforigin:,,,/Images/BoostXPIcon.png" />
-                    </Button.Content>
-                </Button>
+                    </c:Button.Content>
+                </c:Button>
             </StackPanel>
             <Grid.ContextMenu>
                 <ContextMenu>
                     <ContextMenu.Items>
-                        <MenuItem x:Name="OpenTabMenuItem"
+                        <c:MenuItem x:Name="OpenTabMenuItem"
                                   Click="OpenTabMenuItem_Click"
-                                  Header="Open Tab" />
-                        <MenuItem x:Name="ElementSettingsMenuItem"
+                                  Header="OpenTab" />
+                        <c:MenuItem x:Name="ElementSettingsMenuItem"
                                   Click="ElementSettingsMenuItem_Click"
                                   Header="Element Settings" />
                     </ContextMenu.Items>
                 </ContextMenu>
             </Grid.ContextMenu>
         </Grid>
-        <shared:InlineObjectEditor x:Name="InlineEditor"
-                                   EditorCategory="{Binding EditorCategory, ElementName=uc}"
-                                   EditorTag="{Binding EditorTag, ElementName=uc}"
-                                   Object="{Binding Reference.Element, ElementName=uc}"
-                                   ReplaceButtonClicked="InlineEditor_ReplaceButtonClicked">
-            <shared:InlineObjectEditor.ExtraButtons>
-                <Button Margin="2"
-                        Click="OpenElementButton_Click"
-                        Content="Open Element" />
-            </shared:InlineObjectEditor.ExtraButtons>
-        </shared:InlineObjectEditor>
+        <c:InlineObjectEditor x:Name="InlineEditor"
+                              EditorCategory="{Binding EditorCategory, ElementName=uc}"
+                              EditorTag="{Binding EditorTag, ElementName=uc}"
+                              Object="{Binding Reference.Element, ElementName=uc}"
+                              ReplaceButtonClicked="InlineEditor_ReplaceButtonClicked">
+            <c:InlineObjectEditor.ExtraButtons>
+                <c:Button Margin="2"
+                          Click="OpenElementButton_Click"
+                          Content="OpenElement" />
+            </c:InlineObjectEditor.ExtraButtons>
+        </c:InlineObjectEditor>
     </StackPanel>
 </UserControl>

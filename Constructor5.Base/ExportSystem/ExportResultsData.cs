@@ -1,4 +1,4 @@
-﻿namespace Constructor5.Base.ExportSystem
+namespace Constructor5.Base.ExportSystem
 {
     public class ExportResultsData
     {

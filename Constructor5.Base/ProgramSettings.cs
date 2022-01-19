@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Properties;
+using Constructor5.Base.Properties;
 
 namespace Constructor5.Base
 {

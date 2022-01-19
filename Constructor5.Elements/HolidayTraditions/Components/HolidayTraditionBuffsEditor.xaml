@@ -1,52 +1,48 @@
-﻿<UserControl x:Class="Constructor5.Elements.HolidayTraditions.Components.HolidayTraditionBuffsEditor"
+<UserControl x:Class="Constructor5.Elements.HolidayTraditions.Components.HolidayTraditionBuffsEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.HolidayTraditions.Components"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:references="clr-namespace:Constructor5.Elements.Buffs.References"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <TabControl Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-        <TabItem Header="During Holiday">
+    <c:TabControl Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+        <c:TabItem Header="DuringHoliday">
             <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                <TextBlock Text="These buffs will be applied to Sims during the holiday." />
+                <c:TextBlock Text="HolidayBuffsNotice" />
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                    <shared:ReferenceListControl ElementReferenceList="{Binding Buffs}" ElementTypeName="Buff" />
-                    <shared:Field Label="Reason" LabelWidth="100">
+                    <c:ReferenceListControl ElementReferenceList="{Binding Buffs}" ElementTypeName="Buff" />
+                    <c:Field Label="Reason" LabelWidth="100">
                         <StackPanel>
-                            <TextBlock FontStyle="Italic"
-                                       Text="This is the text shown below the buff name in the UI, for example: (From Custom Holiday Tradition). Because of how the game is programmed, the reason is applied to all of the above buffs."
-                                       TextWrapping="Wrap" />
-                            <shared:STBLStringControl Text="{Binding Reason}" />
+                            <c:TextBlock FontStyle="Italic" Text="HolidayBuffReasonNotice" />
+                            <c:STBLStringControl Text="{Binding Reason}" />
                         </StackPanel>
-                    </shared:Field>
+                    </c:Field>
                 </StackPanel>
             </StackPanel>
-        </TabItem>
-        <TabItem Header="Before Holiday">
+        </c:TabItem>
+        <c:TabItem Header="BeforeHoliday">
             <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                <TextBlock Text="These buffs will be applied to Sims the day before the holiday." />
+                <c:TextBlock Text="HolidayBuffsBeforeNotice" />
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                    <shared:ReferenceListControl ElementReferenceList="{Binding PreBuffs}" ElementTypeName="Buff" />
-                    <shared:Field Label="Reason" LabelWidth="100">
+                    <c:ReferenceListControl ElementReferenceList="{Binding PreBuffs}" ElementTypeName="Buff" />
+                    <c:Field Label="Reason" LabelWidth="100">
                         <StackPanel>
-                            <TextBlock FontStyle="Italic"
-                                       Text="This is the text shown below the buff name in the UI, for example: (From Custom Holiday Tradition). Because of how the game is programmed, the reason is applied to all of the above buffs."
-                                       TextWrapping="Wrap" />
-                            <shared:STBLStringControl Text="{Binding PreReason}" />
+                            <c:TextBlock FontStyle="Italic" Text="HolidayBuffReasonNotice" />
+                            <c:STBLStringControl Text="{Binding PreReason}" />
                         </StackPanel>
-                    </shared:Field>
+                    </c:Field>
                 </StackPanel>
             </StackPanel>
-        </TabItem>
-        <!-- Doesn't seem to work <TabItem Header="After Holiday">
+        </c:TabItem>
+        <!-- Doesn't seem to work <c:TabItem Header="After Holiday">
             <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                <TextBlock Text="This buff will be added to Sims who &quot;love&quot; the tradition after the holiday if they complete it. Note: The game's code only supports adding a buff to Sims who love the tradition." TextWrapping="Wrap" />
+                <c:TextBlock Text="This buff will be added to Sims who &quot;love&quot; the tradition after the holiday if they complete it. Note: The game's code only supports adding a buff to Sims who love the tradition." />
                 <references:BuffWithReasonControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" BuffWithReason="{Binding LovesRewardBuff}" />
             </StackPanel>
-        </TabItem>-->
-    </TabControl>
+        </c:TabItem>-->
+    </c:TabControl>
 </UserControl>

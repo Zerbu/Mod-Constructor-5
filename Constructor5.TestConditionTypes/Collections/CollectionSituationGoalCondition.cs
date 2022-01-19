@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.SelectableObjects;
+using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.TestConditions;
 using Constructor5.Core;
 using System;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Constructor5.TestConditionTypes.Collections
 {
-    [SelectableObjectType("SituationGoalConditionTypes", "Collection Condition")]
+    [SelectableObjectType("SituationGoalConditionTypes", "CollectionCondition")]
     [XmlSerializerExtraType]
     public class CollectionSituationGoalCondition : CollectionCondition
     {

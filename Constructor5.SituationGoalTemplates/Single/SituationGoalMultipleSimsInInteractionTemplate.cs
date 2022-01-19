@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
@@ -8,7 +8,7 @@ using System.Collections.ObjectModel;
 namespace Constructor5.Elements.SituationGoals.Templates
 {
     [XmlSerializerExtraType]
-    [SelectableObjectType("SituationGoalTemplates", "Multiple Sims In Interaction Goal")]
+    [SelectableObjectType("SituationGoalTemplates", "MultipleSimsInInteractionGoal")]
     public class SituationGoalMultipleSimsInInteractionTemplate : SituationGoalTemplate
     {
         public bool InSituationOnly { get; set; } = true;

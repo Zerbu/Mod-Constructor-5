@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Elements.Buffs.Components;
 using Constructor5.Elements.Buffs.Modifiers;
 using Constructor5.UI.Shared;

@@ -1,55 +1,55 @@
-﻿<UserControl x:Class="Constructor5.TestConditionTypes.Relationships.RelationshipConditionEditorValues"
+<UserControl x:Class="Constructor5.TestConditionTypes.Relationships.RelationshipConditionEditorValues"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.TestConditionTypes.Relationships"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <TabControl>
-        <TabItem Header="Track">
+    <c:TabControl>
+        <c:TabItem Header="Track">
             <StackPanel>
-                <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">Note: Track conditions are optional. The game will still check bit conditions even if the track is left undefined.</TextBlock>
-                <shared:ReferenceControl ElementTypeName="RelationshipTrack" Reference="{Binding Track}" />
-                <shared:Field Label="Track Bounds" LabelWidth="100">
-                    <shared:IntBoundsControl Bounds="{Binding TrackBounds}"
+                <c:TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">Note: Track conditions are optional. The game will still check bit conditions even if the track is left undefined.</c:TextBlock>
+                <c:ReferenceControl ElementTypeName="RelationshipTrack" Reference="{Binding Track}" />
+                <c:Field Label="Track Bounds" LabelWidth="100">
+                    <c:IntBoundsControl Bounds="{Binding TrackBounds}"
                                              Maximum="100"
                                              Minimum="-100" />
-                </shared:Field>
+                </c:Field>
             </StackPanel>
-        </TabItem>
-        <TabItem Header="Bits">
+        </c:TabItem>
+        <c:TabItem Header="Bits">
             <StackPanel>
-                <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">Note: Bit conditions are optional. The game will still check track conditions even if no bits are specified.</TextBlock>
-                <TabControl>
-                    <TabItem Header="Required (Any)">
+                <c:TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">Note: Bit conditions are optional. The game will still check track conditions even if no bits are specified.</c:TextBlock>
+                <c:TabControl>
+                    <c:TabItem Header="Required (Any)">
                         <StackPanel>
-                            <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The condition will pass if the target has any of these bits.</TextBlock>
-                            <shared:ReferenceListControl ElementReferenceList="{Binding RequiredBitsAny}" ElementTypeName="RelBit" />
+                            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">The condition will pass if the target has any of these bits.</c:TextBlock>
+                            <c:ReferenceListControl ElementReferenceList="{Binding RequiredBitsAny}" ElementTypeName="RelBit" />
                         </StackPanel>
-                    </TabItem>
-                    <TabItem Header="Required (All)">
+                    </c:TabItem>
+                    <c:TabItem Header="Required (All)">
                         <StackPanel>
-                            <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The target will need to have all of these bits for the test to pass.</TextBlock>
-                            <shared:ReferenceListControl ElementReferenceList="{Binding RequiredBitsAll}" ElementTypeName="RelBit" />
+                            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">The target will need to have all of these bits for the test to pass.</c:TextBlock>
+                            <c:ReferenceListControl ElementReferenceList="{Binding RequiredBitsAll}" ElementTypeName="RelBit" />
                         </StackPanel>
-                    </TabItem>
-                    <TabItem Header="Prohibited (Any)">
+                    </c:TabItem>
+                    <c:TabItem Header="Prohibited (Any)">
                         <StackPanel>
-                            <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The condition will fail if the target has any of these bits.</TextBlock>
-                            <shared:ReferenceListControl ElementReferenceList="{Binding ProhibitedBitsAny}" ElementTypeName="RelBit" />
+                            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">The condition will fail if the target has any of these bits.</c:TextBlock>
+                            <c:ReferenceListControl ElementReferenceList="{Binding ProhibitedBitsAny}" ElementTypeName="RelBit" />
                         </StackPanel>
-                    </TabItem>
-                    <TabItem Header="Prohibited (All)">
+                    </c:TabItem>
+                    <c:TabItem Header="Prohibited (All)">
                         <StackPanel>
-                            <TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" TextWrapping="Wrap">The condition will fail if the target has all of these bits, but will still pass if they have only some of them.</TextBlock>
-                            <shared:ReferenceListControl ElementReferenceList="{Binding ProhibitedBitsAll}" ElementTypeName="RelBit" />
+                            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">The condition will fail if the target has all of these bits, but will still pass if they have only some of them.</c:TextBlock>
+                            <c:ReferenceListControl ElementReferenceList="{Binding ProhibitedBitsAll}" ElementTypeName="RelBit" />
                         </StackPanel>
-                    </TabItem>
-                </TabControl>
+                    </c:TabItem>
+                </c:TabControl>
             </StackPanel>
-        </TabItem>
-    </TabControl>
+        </c:TabItem>
+    </c:TabControl>
 </UserControl>

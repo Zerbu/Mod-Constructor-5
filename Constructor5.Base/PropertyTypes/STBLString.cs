@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Export;
+using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using System;
 using System.Collections.Generic;

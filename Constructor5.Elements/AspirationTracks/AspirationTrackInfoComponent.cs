@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
@@ -18,7 +18,7 @@ namespace Constructor5.Elements.AspirationTracks
         [AutoTuneBasic("category")]
         public Reference Category { get; set; } = new Reference();
 
-        public override string ComponentLabel => "Aspiration Track Info";
+        public override string ComponentLabel => "AspirationTrackInfo";
 
         [AutoTuneBasic("description_text")]
         public STBLString Description { get; set; } = new STBLString();
@@ -56,7 +56,7 @@ namespace Constructor5.Elements.AspirationTracks
 
             header.SimDataHandler.WriteText(148, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
             header.SimDataHandler.WriteText(144, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
-            header.SimDataHandler.WriteTGI(152, Icon.GetUncommentedText());
+            header.SimDataHandler.WriteTGI(152, Icon.GetUncommentedText(), Element);
 
             header.SimDataHandler.Write(136, ElementTuning.GetSingleInstanceKey(Category) ?? 0);
 

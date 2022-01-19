@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.SelectableObjects;
@@ -10,7 +10,7 @@ using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Buffs
 {
-    [SelectableObjectType("LootActionTypes", "Buffs: Add Buff")]
+    [SelectableObjectType("LootActionTypes", "BuffsAddBuff")]
     [XmlSerializerExtraType]
     public class AddBuffAction : LootAction
     {

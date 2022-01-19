@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.Icons;
+using Constructor5.Base.Icons;
 using Constructor5.UI.Dialogs.IconSelector;
 using System.Windows;
 using System.Windows.Controls;

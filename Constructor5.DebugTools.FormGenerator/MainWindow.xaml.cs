@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
@@ -98,7 +98,7 @@ namespace Constructor5.DebugTools.FormGenerator
         {
             AddFieldStart(sb, prop);
 
-            WriteTagStart(sb, "shared:DoubleBoundsControl");
+            WriteTagStart(sb, "c:DoubleBoundsControl");
             WriteAttribute(sb, "Bounds", $"{{Binding {prop.Name}}}");
             WriteTagEnd(sb);
 
@@ -106,16 +106,16 @@ namespace Constructor5.DebugTools.FormGenerator
         }
 
         private void AddFieldEnd(StringBuilder sb, System.Reflection.PropertyInfo prop) =>
-            sb.AppendLine($"        </shared:Field>");
+            sb.AppendLine($"        </c:Field>");
 
         private void AddFieldStart(StringBuilder sb, System.Reflection.PropertyInfo prop) =>
-            sb.AppendLine($"        <shared:Field Label=\"{prop.Name}\" LabelWidth=\"100\">");
+            sb.AppendLine($"        <c:Field Label=\"{prop.Name}\" LabelWidth=\"100\">");
 
         private void AddIcon(StringBuilder sb, System.Reflection.PropertyInfo prop)
         {
             AddFieldStart(sb, prop);
 
-            WriteTagStart(sb, "shared:IconControl");
+            WriteTagStart(sb, "c:IconControl");
             WriteAttribute(sb, "Text", $"{{Binding {prop.Name}}}");
             WriteTagEnd(sb);
 
@@ -137,7 +137,7 @@ namespace Constructor5.DebugTools.FormGenerator
         {
             AddFieldStart(sb, prop);
 
-            WriteTagStart(sb, "shared:IntBoundsControl");
+            WriteTagStart(sb, "c:IntBoundsControl");
             WriteAttribute(sb, "Bounds", $"{{Binding {prop.Name}}}");
             WriteTagEnd(sb);
 
@@ -148,7 +148,7 @@ namespace Constructor5.DebugTools.FormGenerator
         {
             AddFieldStart(sb, prop);
 
-            WriteTagStart(sb, "shared:ParticipantControl");
+            WriteTagStart(sb, "c:ParticipantControl");
             WriteAttribute(sb, "Text", $"{{Binding {prop.Name}}}");
             WriteTagEnd(sb);
 
@@ -159,7 +159,7 @@ namespace Constructor5.DebugTools.FormGenerator
         {
             AddFieldStart(sb, prop);
 
-            WriteTagStart(sb, "shared:ReferenceControl");
+            WriteTagStart(sb, "c:ReferenceControl");
             WriteAttribute(sb, "Reference", $"{{Binding {prop.Name}}}");
             WriteAttribute(sb, "ElementTypeName", prop.Name);
             WriteTagEnd(sb);
@@ -171,7 +171,7 @@ namespace Constructor5.DebugTools.FormGenerator
         {
             AddFieldStart(sb, prop);
 
-            WriteTagStart(sb, "shared:ReferenceListControl");
+            WriteTagStart(sb, "c:ReferenceListControl");
             WriteAttribute(sb, "ElementReferenceList", $"{{Binding {prop.Name}}}");
             WriteAttribute(sb, "ElementTypeName", prop.Name);
             WriteTagEnd(sb);
@@ -183,7 +183,7 @@ namespace Constructor5.DebugTools.FormGenerator
         {
             AddFieldStart(sb, prop);
 
-            WriteTagStart(sb, "shared:STBLStringControl");
+            WriteTagStart(sb, "c:STBLStringControl");
             WriteAttribute(sb, "Text", $"{{Binding {prop.Name}}}");
             WriteTagEnd(sb);
 
@@ -194,7 +194,7 @@ namespace Constructor5.DebugTools.FormGenerator
         {
             AddFieldStart(sb, prop);
 
-            WriteTagStart(sb, "shared:TextBoxWithPresetsControl");
+            WriteTagStart(sb, "c:TextBoxWithPresetsControl");
             WriteAttribute(sb, "Text", $"{{Binding {prop.Name}}}");
             WriteAttribute(sb, "ElementTypeName", prop.Name);
             WriteTagEnd(sb);
@@ -206,7 +206,7 @@ namespace Constructor5.DebugTools.FormGenerator
         {
             AddFieldStart(sb, prop);
 
-            WriteTagStart(sb, "shared:ThresholdControl");
+            WriteTagStart(sb, "c:ThresholdControl");
             WriteAttribute(sb, "Threshold", $"{{Binding {prop.Name}}}");
             WriteTagEnd(sb);
 

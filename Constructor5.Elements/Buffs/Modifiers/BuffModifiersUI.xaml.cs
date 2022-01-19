@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Core;
 using Constructor5.Elements.Buffs.Components;
 using Constructor5.UI.Shared;
@@ -132,7 +132,7 @@ namespace Constructor5.Elements.Buffs.Modifiers
 
         private void RemoveButton_Click(object sender, RoutedEventArgs e)
         {
-            var tag = ((Button)sender).Tag;
+            var tag = ((System.Windows.Controls.Button)sender).Tag;
 
             var statisticMulitpliers = ItemsSource as IList<BuffReferenceModifier>;
             if (statisticMulitpliers != null)

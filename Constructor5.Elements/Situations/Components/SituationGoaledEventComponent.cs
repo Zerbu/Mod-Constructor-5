@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.Icons;
@@ -13,7 +13,7 @@ namespace Constructor5.Elements.Situations.Components
         public ElementIcon BronzeIcon { get; set; } = new ElementIcon();
         public Reference BronzeReward { get; set; } = new Reference();
 
-        public override string ComponentLabel => "Goaled Event";
+        public override string ComponentLabel => "GoaledEvent";
 
         public STBLString ForcedGoaledEventToolTip { get; set; } = new STBLString() { CustomText = "This is a forced goaled event." };
 

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Xceed.Wpf.AvalonDock.Themes;
 
 namespace Constructor.Resources.DockTheme

@@ -1,5 +1,6 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
+using Constructor5.Base.LocalizationSystem;
 using Constructor5.Core;
 using System;
 using System.Linq;
@@ -40,7 +41,7 @@ namespace Constructor5.UI.Dialogs.AddElement
                 return;
             }
 
-            ElementNameTextBox.Text = ((ElementTypeData)ElementTypesControl.SelectedItem)?.Label;
+            ElementNameTextBox.Text = TextStringManager.Get(((ElementTypeData)ElementTypesControl.SelectedItem)?.Label);
             UserHasChangedElementName = false;
         }
 

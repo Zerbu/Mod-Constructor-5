@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.CustomTuning;
+using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
@@ -8,7 +8,7 @@ using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.CompoundConditionElements
 {
-    [ElementTypeData("Compound Condition Element", true, ElementTypes = new[] { typeof(CompoundConditionElement) }, PresetFolders = new[] { "TestSetReference" })]
+    [ElementTypeData("CompoundConditionElement", true, ElementTypes = new[] { typeof(CompoundConditionElement) }, PresetFolders = new[] { "TestSetReference" })]
     public class CompoundConditionElement : Element, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
@@ -39,7 +39,7 @@ namespace Constructor5.Elements.CompoundConditionElements
                 TestConditionTuning.TuneTestList(tuning, conditions, "test");
             }
 
-            CustomTuningExporter.Export(tuning, CustomTuning);
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

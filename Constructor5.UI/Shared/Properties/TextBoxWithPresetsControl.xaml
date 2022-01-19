@@ -1,8 +1,8 @@
-﻿<UserControl x:Class="Constructor5.UI.Shared.TextBoxWithPresetsControl"
+<UserControl x:Class="Constructor5.UI.Shared.TextBoxWithPresetsControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.UI.Shared"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              x:Name="uc"
              d:DesignHeight="450"
@@ -16,16 +16,16 @@
         <TextBox x:Name="TextContent"
                  VerticalAlignment="Center"
                  Text="{Binding Text, ElementName=uc, UpdateSourceTrigger=PropertyChanged}" />
-        <Button x:Name="BrowseButton"
+        <c:Button x:Name="BrowseButton"
                 Grid.Column="1"
                 Click="BrowseButton_Click"
                 Style="{StaticResource Constructor.PlainButtonStyle}"
                 ToolTip="Browse">
-            <Button.Content>
+            <c:Button.Content>
                 <Image Width="25"
                        Height="25"
                        Source="pack://siteoforigin:,,,/Images/ConfigIcon.png" />
-            </Button.Content>
-        </Button>
+            </c:Button.Content>
+        </c:Button>
     </Grid>
 </UserControl>

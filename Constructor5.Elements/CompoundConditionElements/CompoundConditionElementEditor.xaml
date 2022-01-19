@@ -1,11 +1,11 @@
-﻿<UserControl x:Class="Constructor5.Elements.CompoundConditionElements.CompoundConditionElementEditor"
+<UserControl x:Class="Constructor5.Elements.CompoundConditionElements.CompoundConditionElementEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:dd="urn:gong-wpf-dragdrop"
              xmlns:local="clr-namespace:Constructor5.Elements.CompoundConditionElements"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:shared="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
@@ -13,12 +13,12 @@
         <local:CompoundConditionElement />
     </d:UserControl.DataContext>
     <UserControl.Resources>
-        <shared:SimpleAddToListCommand x:Key="AddOrGroupCommand" Type="{x:Type local:CompoundConditionOrGroup}" />
-        <shared:SimpleAddToListCommand x:Key="AddAndConditionCommand" Type="{x:Type local:CompoundAndCondition}" />
-        <shared:SimpleRemoveFromListCommand x:Key="RemoveOrGroupCommand"
+        <c:SimpleAddToListCommand x:Key="AddOrGroupCommand" Type="{x:Type local:CompoundConditionOrGroup}" />
+        <c:SimpleAddToListCommand x:Key="AddAndConditionCommand" Type="{x:Type local:CompoundAndCondition}" />
+        <c:SimpleRemoveFromListCommand x:Key="RemoveOrGroupCommand"
                                             DeleteMessage="Are you sure you want to delete this group of conditions?"
                                             Type="{x:Type local:CompoundConditionOrGroup}" />
-        <shared:SimpleRemoveFromListCommand x:Key="RemoveAndConditionCommand"
+        <c:SimpleRemoveFromListCommand x:Key="RemoveAndConditionCommand"
                                             DeleteMessage="Are you sure you want to remove this condition?"
                                             Type="{x:Type local:CompoundAndCondition}" />
         <Style x:Key="ConditionGroupMouseOver" TargetType="{x:Type Border}">
@@ -39,7 +39,7 @@
         <ScrollViewer x:Name="ScrollViewer">
             <StackPanel>
                 <StackPanel>
-                    <TextBlock Margin="{StaticResource Constructor.BigPaddingMinusTop}" Text="Compound Conditions can be used to group multiple conditions together or require only some conditions to pass." />
+                    <c:TextBlock Margin="{StaticResource Constructor.BigPaddingMinusTop}" Text="Compound Conditions can be used to group multiple conditions together or require only some conditions to pass." />
                     <ItemsControl Margin="{StaticResource Constructor.BigPaddingMinusTop}"
                                   dd:DragDrop.IsDragSource="True"
                                   dd:DragDrop.IsDropTarget="True"
@@ -48,7 +48,7 @@
                             <DataTemplate DataType="CompoundConditionOrGroup">
                                 <Border Style="{StaticResource ConditionGroupMouseOver}">
                                     <StackPanel>
-                                        <TextBlock Text="Or:" />
+                                        <c:TextBlock Text="Or:" />
                                         <ItemsControl Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
                                                       dd:DragDrop.IsDragSource="True"
                                                       dd:DragDrop.IsDropTarget="True"
@@ -61,19 +61,19 @@
                                                                 <ColumnDefinition Width="Auto" />
                                                                 <ColumnDefinition Width="*" />
                                                             </Grid.ColumnDefinitions>
-                                                            <shared:SelectableObjectControl Grid.Column="1"
+                                                            <c:SelectableObjectControl Grid.Column="1"
                                                                                             DeleteCommand="{StaticResource RemoveAndConditionCommand}"
                                                                                             Object="{Binding Condition}"
                                                                                             ShowDeleteButton="True"
                                                                                             ShowSetLabelButton="True"
                                                                                             TypeRegistryCategory="TestConditionTypes">
-                                                                <shared:SelectableObjectControl.DeleteCommandParameter>
+                                                                <c:SelectableObjectControl.DeleteCommandParameter>
                                                                     <MultiBinding Converter="{StaticResource MultiParamConverter}">
                                                                         <Binding Path="." />
                                                                         <Binding Path="ItemsSource" RelativeSource="{RelativeSource AncestorType={x:Type ItemsControl}}" />
                                                                     </MultiBinding>
-                                                                </shared:SelectableObjectControl.DeleteCommandParameter>
-                                                            </shared:SelectableObjectControl>
+                                                                </c:SelectableObjectControl.DeleteCommandParameter>
+                                                            </c:SelectableObjectControl>
                                                         </Grid>
                                                         <StackPanel Margin="10,0,0,0">
                                                             <ItemsControl dd:DragDrop.IsDragSource="True"
@@ -90,21 +90,21 @@
                                                 <ColumnDefinition Width="*" />
                                                 <ColumnDefinition Width="Auto" />
                                             </Grid.ColumnDefinitions>
-                                            <Button HorizontalAlignment="Left"
+                                            <c:Button HorizontalAlignment="Left"
                                                     Command="{StaticResource AddAndConditionCommand}"
                                                     CommandParameter="{Binding AndConditions}"
                                                     Content="And..." />
-                                            <Button Grid.Column="1"
+                                            <c:Button Grid.Column="1"
                                                     HorizontalAlignment="Right"
                                                     Command="{StaticResource RemoveOrGroupCommand}"
                                                     Content="Delete Group">
-                                                <Button.CommandParameter>
+                                                <c:Button.CommandParameter>
                                                     <MultiBinding Converter="{StaticResource MultiParamConverter}">
                                                         <Binding Path="." />
                                                         <Binding Path="ItemsSource" RelativeSource="{RelativeSource AncestorType={x:Type ItemsControl}}" />
                                                     </MultiBinding>
-                                                </Button.CommandParameter>
-                                            </Button>
+                                                </c:Button.CommandParameter>
+                                            </c:Button>
                                         </Grid>
                                     </StackPanel>
                                 </Border>
@@ -112,7 +112,7 @@
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
                     <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}" Orientation="Horizontal">
-                        <Button Margin="2"
+                        <c:Button Margin="2"
                                 Command="{StaticResource AddOrGroupCommand}"
                                 CommandParameter="{Binding OrGroups}"
                                 Content="Or..." />

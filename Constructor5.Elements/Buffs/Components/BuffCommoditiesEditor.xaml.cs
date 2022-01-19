@@ -1,4 +1,4 @@
-﻿using Constructor5.Elements.Buffs.Modifiers;
+using Constructor5.Elements.Buffs.Modifiers;
 using Constructor5.UI.Shared;
 using System.Collections.ObjectModel;
 using System.Windows.Controls;

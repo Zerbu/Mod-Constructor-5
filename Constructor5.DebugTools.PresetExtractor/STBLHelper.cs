@@ -1,4 +1,4 @@
-﻿using s4pi.Package;
+using s4pi.Package;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;

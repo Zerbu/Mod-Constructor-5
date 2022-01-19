@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.LootActionSets;
 using Constructor5.Elements.TestConditions;
@@ -6,7 +6,7 @@ using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Statistic
 {
-    [SelectableObjectType("LootActionTypes", "Statistics: Change Buff or Statistic by Category (Percentage)")]
+    [SelectableObjectType("LootActionTypes", "StatisticsChangeBufforStatisticbyCategoryPercentage")]
     [XmlSerializerExtraType]
     public class ChangeStatisticByCategoryPercentageAction : StatisticActionBase
     {

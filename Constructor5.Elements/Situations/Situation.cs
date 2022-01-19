@@ -1,17 +1,14 @@
-﻿using Constructor5.Base.ComponentSystem;
+using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Core;
 using Constructor5.Elements.Situations.Components;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Constructor5.Elements.Situations
 {
-    [ElementTypeData("Situation", false, ElementTypes = new[] { typeof(Situation) }, PresetFolders = new[] { "Situation" }, IsRootType = true)]
+    [ElementTypeData("SituationElement", false, ElementTypes = new[] { typeof(Situation) }, PresetFolders = new[] { "Situation" }, IsRootType = true)]
     public class Situation : SimpleComponentElement<SituationComponent>, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
@@ -33,7 +30,7 @@ namespace Constructor5.Elements.Situations
                 component.OnExport(context);
             }
 
-            CustomTuningExporter.Export(tuning, CustomTuning);
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

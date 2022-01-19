@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ComponentSystem;
+using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
@@ -11,7 +11,7 @@ using System.Linq;
 
 namespace Constructor5.Elements.Interactions.Social
 {
-    [ElementTypeData("Social Interaction", true, ElementTypes = new[] { typeof(SocialInteraction) }, IsRootType = true)]
+    [ElementTypeData("SocialInteraction", true, ElementTypes = new[] { typeof(SocialInteraction) }, IsRootType = true)]
     public class SocialInteraction : InteractionElement, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
@@ -34,7 +34,7 @@ namespace Constructor5.Elements.Interactions.Social
                 component.OnExport(context);
             }
 
-            CustomTuningExporter.Export(tuning, CustomTuning);
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }
