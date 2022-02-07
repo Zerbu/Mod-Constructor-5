@@ -57,6 +57,7 @@
       <HintPath>..\References\DDSPanel.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="PropertyChanged, Version=3.4.0.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
       <HintPath>..\packages\PropertyChanged.Fody.3.4.0\lib\net40\PropertyChanged.dll</HintPath>
     </Reference>
@@ -109,6 +110,17 @@
     <Compile Include="CustomTuning\CustomTuningExporter.cs" />
     <Compile Include="CustomTuning\CustomTuningInfo.cs" />
     <Compile Include="CustomTuning\ISupportsCustomTuning.cs" />
+    <Compile Include="DebugCommandSystem\DebugCommandAttribute.cs" />
+    <Compile Include="DebugCommandSystem\DebugCommandBase.cs" />
+    <Compile Include="DebugCommandSystem\DebugCommandFlags.cs" />
+    <Compile Include="DebugCommandSystem\DebugCommandManager.cs" />
+    <Compile Include="DebugCommandSystem\DebugFlagCommand.cs" />
+    <Compile Include="DebugCommandSystem\ElementCommand.cs" />
+    <Compile Include="DebugCommandSystem\OpenElementCommand.cs" />
+    <Compile Include="DebugCommandSystem\OpenFileCommand.cs" />
+    <Compile Include="DebugCommandSystem\ReloadCommand.cs" />
+    <Compile Include="DebugCommandSystem\RestartCommand.cs" />
+    <Compile Include="DebugCommandSystem\ToggleContextSpecificCommand.cs" />
     <Compile Include="ElementSystem\ContextModifier.cs" />
     <Compile Include="ElementSystem\Element.cs" />
     <Compile Include="ElementSystem\ElementManager.cs" />
@@ -191,10 +203,10 @@
     <Compile Include="LocalizationSystem\LocalizableTextStringValue.cs" />
     <Compile Include="LocalizationSystem\TextStringManager.cs" />
     <Compile Include="ProgramSettings.cs" />
-    <Compile Include="ProjectSystem\Project.cs" />
-    <Compile Include="ProjectSystem\ProjectCreateErrorType.cs" />
-    <Compile Include="ProjectSystem\ProjectInfo.cs" />
-    <Compile Include="ProjectSystem\ProjectManager.cs" />
+    <Compile Include="ExportSystem\ProjectSystem\Project.cs" />
+    <Compile Include="ExportSystem\ProjectSystem\ProjectCreateErrorType.cs" />
+    <Compile Include="ExportSystem\ProjectSystem\ProjectInfo.cs" />
+    <Compile Include="ExportSystem\ProjectSystem\ProjectManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -216,6 +228,7 @@
     <Compile Include="PropertyTypes\Threshold.cs" />
     <Compile Include="PropertyTypes\ThresholdComparison.cs" />
     <Compile Include="Python\ImportTraitPickerPythonStep.cs" />
+    <Compile Include="Python\MergeLootPythonStep.cs" />
     <Compile Include="Python\ObjectInteractionsPythonStep.cs" />
     <Compile Include="Python\PythonBuilder.cs" />
     <Compile Include="Python\PythonBuildStep.cs" />

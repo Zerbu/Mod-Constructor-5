@@ -9,10 +9,10 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:Field Label="Collection Type" LabelWidth="150">
+        <c:Field Label="CollectionType" LabelWidth="150">
             <c:TextBoxWithPresetsControl PresetsFolder="Collection" Text="{Binding CollectionType}" />
         </c:Field>
-        <c:CheckBox Content="Require the collection to be complete" IsChecked="{Binding RequireCollectionToBeComplete}" />
+        <c:CheckBox Content="RequireCollectionComplete" IsChecked="{Binding RequireCollectionToBeComplete}" />
         <c:Field Label="Threshold"
                  LabelWidth="150"
                  Visibility="{Binding RequireCollectionToBeComplete, Converter={StaticResource BoolToVisInverted}}">

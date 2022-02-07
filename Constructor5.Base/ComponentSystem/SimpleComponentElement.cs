@@ -27,5 +27,14 @@ namespace Constructor5.Base.ComponentSystem
 
             component.Element = this;
         }
+
+        protected internal override void OnElementCreatedOrLoaded()
+        {
+            base.OnElementCreatedOrLoaded();
+            foreach (var type in Reflection.GetSubtypes(typeof(T)))
+            {
+                AddComponent(type);
+            }
+        }
     }
 }

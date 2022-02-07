@@ -23,10 +23,18 @@ namespace Constructor5.Elements.Broadcasters
             tuning.InstanceType = "broadcaster";
             tuning.Module = "broadcasters.broadcaster";
 
-            var tunableList1 = tuning.Get<TunableList>("constraints");
-            var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "line_of_sight");
-            var tunableTuple1 = tunableVariant1.Get<TunableTuple>("line_of_sight");
-            var tunableVariant2 = tunableTuple1.Set<TunableVariant>("temporary_los", "enabled");
+            {
+                var tunableList1 = tuning.Get<TunableList>("constraints");
+                var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "line_of_sight");
+                var tunableTuple1 = tunableVariant1.Get<TunableTuple>("line_of_sight");
+                var tunableVariant2 = tunableTuple1.Set<TunableVariant>("temporary_los", "enabled");
+            }
+
+            /*{
+                var tunableVariant1 = tuning.Set<TunableVariant>("frequency", "on_pulse");
+                var tunableTuple1 = tunableVariant1.Get<TunableTuple>("on_pulse");
+                tunableTuple1.Set<TunableBasic>("cooldown_time", "10");
+            }*/
 
             /*var tunableList1 = tuning.Get<TunableList>("constraints");
             var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "circle");

@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="Constructor5.Elements.CareerTracks.CareerTrackEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.CareerTracks"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <c:SpacedStack>
+        <StackPanel x:Name="InfoStack">
+            <c:Field Label="Name" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding}" />
+            </c:Field>
+            <c:Field Label="Description" LabelWidth="100">
+                <c:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
+            </c:Field>
+            <c:Field Label="Icon" LabelWidth="100">
+                <c:IconControl Icon="{Binding Icon}" />
+            </c:Field>
+            <c:Field Label="Image" LabelWidth="100">
+                <c:IconControl Icon="{Binding Image}" />
+            </c:Field>
+        </StackPanel>
+        <c:TabControl>
+            <c:TabItem Header="Levels">
+                <c:SpacedStack TopMargin="True">
+                    <c:ReferenceListControl CreateElementFunction="CreateLevelFunction"
+                                            EditorCategory="Default"
+                                            ElementReferenceList="{Binding Levels}"
+                                            ElementTypeName="CareerLevel"
+                                            ShowBrowseButton="False"
+                                            ShowCreateButton="True" />
+                </c:SpacedStack>
+            </c:TabItem>
+            <c:TabItem Header="Branches">
+                <c:SpacedStack TopMargin="True">
+                    <c:TextBlock Text="CareerTrackBranchesNotice" />
+                    <c:ReferenceListControl CreateElementFunction="CreateBranchFunction"
+                                            EditorCategory="Default"
+                                            ElementReferenceList="{Binding Branches}"
+                                            ElementTypeName="CareerTrack"
+                                            ShowBrowseButton="False"
+                                            ShowCreateButton="True" />
+                </c:SpacedStack>
+            </c:TabItem>
+            <!--<c:TabItem Header="Overmax Settings">
+                <c:SpacedStack TopMargin="True">
+                    <StackPanel>
+                        <c:TextBlock Text="OvermaxSettingsNotice" />
+                        <c:CheckBox Content="OvermaxOverrideEnabled" IsChecked="{Binding OvermaxOverrideEnabled}" />
+                        <StackPanel Visibility="{Binding OvermaxOverrideEnabled, Converter={StaticResource BoolToVis}}">
+                            <c:Field Label="OvermaxSalaryIncreaseAmount" LabelWidth="175">
+                                <xctk:IntegerUpDown Text="{Binding OvermaxSalaryIncreaseAmount}" />
+                            </c:Field>
+                            <c:Field Label="OvermaxReward" LabelWidth="125">
+                                <c:ReferenceControl ElementTypeName="Reward" Reference="{Binding OvermaxReward}" />
+                            </c:Field>
+                        </StackPanel>
+                    </StackPanel>
+                </c:SpacedStack>
+            </c:TabItem>-->
+        </c:TabControl>
+    </c:SpacedStack>
+</UserControl>

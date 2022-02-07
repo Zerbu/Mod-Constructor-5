@@ -11,7 +11,7 @@
     <UserControl.Resources>
         <c:SimpleAddToListCommand x:Key="AddCommand" Type="{x:Type local:RewardItem}" />
         <c:SimpleRemoveFromListCommand x:Key="RemoveCommand"
-                                       DeleteMessage="Are you sure you want to remove this reward?"
+                                       DeleteMessage="AreYouSureReward"
                                        Type="{x:Type local:RewardItem}" />
     </UserControl.Resources>
     <StackPanel>

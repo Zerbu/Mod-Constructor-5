@@ -12,8 +12,10 @@
         <c:Field Label="Emotion" LabelWidth="100">
             <c:ReferenceControl ElementTypeName="Emotion" Reference="{Binding Emotion}" />
         </c:Field>
-        <c:CheckBox Content="Inverted (check if the participant does NOT have the emotion)" IsChecked="{Binding Inverted}" />
-        <c:Field Label="Participant" LabelWidth="100">
+        <c:CheckBox Content="InvertedEmotion" IsChecked="{Binding Inverted}" />
+        <c:Field x:Name="ParticipantField"
+                 Label="Participant"
+                 LabelWidth="100">
             <c:ParticipantControl Text="{Binding Participant}" />
         </c:Field>
     </StackPanel>

@@ -11,7 +11,7 @@ namespace Constructor5.Elements.Interactions.Shared
     [XmlSerializerExtraType]
     [SocialInteractionComponent]
     [MixerInteractionComponent]
-    [HasAutoEditor("These conditions must pass for the interaction to be available.")]
+    [HasAutoEditor("InteractionConditionsNotice")]
     public class InteractionConditionsComponent : InteractionComponent
     {
         public override string ComponentLabel => "Conditions";

@@ -7,6 +7,7 @@
         xmlns:local="clr-namespace:Constructor5.UI.Main"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:xcad="http://schemas.xceed.com/wpf/xaml/avalondock"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         x:Name="uc"
         Title="The Sims 4 Mod Constructor (V5) [ALPHA]"
         Width="1000"
@@ -22,10 +23,18 @@
         <c:SimpleOpenWindowCommand x:Key="UnlocalizableStringFinderCommand"
                                    IsDialog="true"
                                    TypeName="UnlocalizableStringFinderWindow" />
+        <c:SimpleOpenWindowCommand x:Key="OpenDebugCommandWindow"
+                                   IsDialog="true"
+                                   TypeName="DebugCommandWindow" />
         <local:ElementDeleteCommand x:Key="ElementDeleteCommand" />
         <local:SaveCommand x:Key="SaveCommand" />
         <local:ExportCommand x:Key="ExportCommand" />
     </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Key="C"
+                    Command="{StaticResource OpenDebugCommandWindow}"
+                    Modifiers="Ctrl+Shift" />
+    </Window.InputBindings>
     <Border Style="{StaticResource Constructor.OverlayStyle}">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -34,11 +43,16 @@
             </Grid.ColumnDefinitions>
             <Grid>
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
                     <RowDefinition Height="*" />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
+                <StackPanel Margin="{StaticResource Constructor.BigPadding}">
+                    <xctk:WatermarkTextBox Text="{Binding SearchBoxText, ElementName=uc, UpdateSourceTrigger=PropertyChanged}" Watermark="Search" />
+                </StackPanel>
                 <ListView x:Name="ElementsControl"
-                          Padding="{StaticResource Constructor.BigPadding}"
+                          Grid.Row="1"
+                          Padding="{StaticResource Constructor.BigPaddingMinusTop}"
                           HorizontalContentAlignment="Stretch"
                           ItemsSource="{Binding ElementsSource, ElementName=uc}"
                           SelectionChanged="ElementsControl_SelectionChanged">
@@ -61,8 +75,7 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <StackPanel Grid.Row="1" Margin="{StaticResource Constructor.BigPadding}">
-
+                <StackPanel Grid.Row="2" Margin="{StaticResource Constructor.BigPadding}">
                     <c:PlainButton x:Name="UnlocalizableStringFinderButton"
                                    HorizontalAlignment="Left"
                                    Command="{StaticResource UnlocalizableStringFinderCommand}"

@@ -6,5 +6,6 @@ namespace Constructor5.Base.Python
     {
         public abstract IEnumerable<string> GetHeaders();
         public abstract string GetContent();
+        protected internal abstract void Cleanup();
     }
 }

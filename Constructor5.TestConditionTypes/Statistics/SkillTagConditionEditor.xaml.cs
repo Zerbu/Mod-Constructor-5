@@ -8,6 +8,13 @@ namespace Constructor5.TestConditionTypes.Statistics
     {
         public SkillTagConditionEditor() => InitializeComponent();
 
-        void IObjectEditor.SetObject(object obj, string tag) => DataContext = obj;
+        void IObjectEditor.SetObject(object obj, string tag)
+        {
+            DataContext = obj;
+            if (tag == "NoParticipant")
+            {
+                ParticipantField.Visibility = System.Windows.Visibility.Collapsed;
+            }
+        }
     }
 }

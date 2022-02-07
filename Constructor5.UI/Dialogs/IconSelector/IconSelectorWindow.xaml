@@ -15,10 +15,10 @@
     <Border Style="{StaticResource Constructor.OverlayStyle}">
         <c:TabControl>
             <c:TabItem Header="GameImages">
-                <local:GameImageSelector ImageSelected="GameImageSelector_ImageSelected" />
+                <local:GameImageSelector ImageSelected="GameImageSelector_ImageSelected" ListViewItemChanged="GameImageSelector_ListViewItemChanged" />
             </c:TabItem>
             <c:TabItem Header="CustomImages">
-                <local:CustomImageSelector ImageSelected="CustomImageSelector_ImageSelected" />
+                <local:CustomImageSelector x:Name="CustomImageSelector" ImageSelected="CustomImageSelector_ImageSelected" />
             </c:TabItem>
         </c:TabControl>
     </Border>

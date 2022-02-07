@@ -92,6 +92,9 @@
   <ItemGroup>
     <Compile Include="Animations\Animation.cs" />
     <Compile Include="AspirationCategories\AspirationCategory.cs" />
+    <Compile Include="AspirationCategories\AspirationCategoryEditor.xaml.cs">
+      <DependentUpon>AspirationCategoryEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AspirationTracks\AspirationTrack.cs" />
     <Compile Include="AspirationTracks\AspirationTrackComponent.cs" />
     <Compile Include="AspirationTracks\AspirationTrackEditor.xaml.cs">
@@ -209,10 +212,55 @@
       <DependentUpon>WeightedBuffReferenceListItemEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Buffs\SharedBuffTuner.cs" />
-    <Compile Include="CareerLevel\CareerLevel.cs" />
-    <Compile Include="CareerTrack\CareerTrack.cs" />
-    <Compile Include="Career\Career.cs" />
+    <Compile Include="CareerLevels\AutomaticCareerPerformance.cs" />
+    <Compile Include="CareerLevels\CareerLevel.cs" />
+    <Compile Include="CareerLevels\CareerLevelContextModifier.cs" />
+    <Compile Include="CareerLevels\CareerLevelEditor.xaml.cs">
+      <DependentUpon>CareerLevelEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CareerTracks\CareerTrackContextModifier.cs" />
+    <Compile Include="Careers\Career.cs" />
+    <Compile Include="Careers\CareerComponent.cs" />
+    <Compile Include="Careers\CareerEditor.xaml.cs">
+      <DependentUpon>CareerEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\CareerExportContext.cs" />
+    <Compile Include="Careers\Components\CareerAvailabilityConditionsComponent.cs" />
+    <Compile Include="Careers\Components\CareerAvailabilityConditionsComponentEditor.xaml.cs">
+      <DependentUpon>CareerAvailabilityConditionsComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\Components\CareerCompanyName.cs" />
+    <Compile Include="Careers\Components\CareerInfoComponent.cs" />
+    <Compile Include="Careers\Components\CareerInfoComponentEditor.xaml.cs">
+      <DependentUpon>CareerInfoComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\Components\CareerLevelsComponent.cs" />
+    <Compile Include="Careers\Components\CareerLevelsComponentEditor.xaml.cs">
+      <DependentUpon>CareerLevelsComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CareerTracks\CareerTrack.cs" />
+    <Compile Include="CareerTracks\CareerTrackEditor.xaml.cs">
+      <DependentUpon>CareerTrackEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Commodities\Commodity.cs" />
+    <Compile Include="Commodities\CommodityComponent.cs" />
+    <Compile Include="Commodities\CommodityEditor.xaml.cs">
+      <DependentUpon>CommodityEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Commodities\CommodityExportContext.cs" />
+    <Compile Include="Commodities\CommoditySettingsComponent.cs" />
+    <Compile Include="Commodities\CommoditySettingsComponentEditor.xaml.cs">
+      <DependentUpon>CommoditySettingsComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Commodities\CommodityStatesComponent.cs" />
+    <Compile Include="Commodities\CommodityStatesComponentEditor.xaml.cs">
+      <DependentUpon>CommodityStatesComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Commodities\Generators\BuffBasedStateGenerator.cs" />
+    <Compile Include="Commodities\Generators\BuffBasedStateGeneratorEditor.xaml.cs">
+      <DependentUpon>BuffBasedStateGeneratorEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Commodities\Generators\CommodityStateGenerator.cs" />
     <Compile Include="CommodityBasedObjectStateValues\CommodityBasedObjectStateValue.cs" />
     <Compile Include="CompoundConditionElements\CompoundAndCondition.cs" />
     <Compile Include="CompoundConditionElements\CompoundConditionElement.cs" />
@@ -326,6 +374,7 @@
       <DependentUpon>LotTraitInfoEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="ObjectiveSets\AssignedAspirationTrackContextModifier.cs" />
+    <Compile Include="ObjectiveSets\CareerObjectiveSetContextModifier.cs" />
     <Compile Include="ObjectiveSets\ObjectiveSet.cs" />
     <Compile Include="ObjectiveSets\ObjectiveSetEditor.xaml.cs">
       <DependentUpon>ObjectiveSetEditor.xaml</DependentUpon>
@@ -336,7 +385,13 @@
       <DependentUpon>ObjectiveEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="RelationshipTracks\RelationshipTrack.cs" />
-    <Compile Include="RelBit\RelBit.cs" />
+    <Compile Include="RelBits\RelBit.cs" />
+    <Compile Include="RelBits\RelBitEditor.xaml.cs">
+      <DependentUpon>RelBitEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RelBits\RelBitMiniEditor.xaml.cs">
+      <DependentUpon>RelBitMiniEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Rewards\AddRewardCommand.cs" />
     <Compile Include="Rewards\EmptyReward.cs" />
     <Compile Include="Rewards\Reward.cs" />
@@ -410,7 +465,13 @@
     <Compile Include="SituationGoalSets\SituationGoalSetMiniEditor.xaml.cs">
       <DependentUpon>SituationGoalSetMiniEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SituationGoals\Components\SituationGoalPostConditionsComponentEditor.xaml.cs">
+      <DependentUpon>SituationGoalPostConditionsComponentEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SituationGoals\Components\SituationGoalPreConditionsComponent.cs" />
+    <Compile Include="SituationGoals\Components\SituationGoalPreConditionsComponentEditor.xaml.cs">
+      <DependentUpon>SituationGoalPreConditionsComponentEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SituationGoals\Components\SituationGoalTemplateComponent.cs" />
     <Compile Include="SituationGoals\Components\SituationGoalInfoComponent.cs" />
     <Compile Include="SituationGoals\Components\SituationGoalInfoEditor.xaml.cs">
@@ -514,6 +575,10 @@
     <Compile Include="Traits\Components\TraitInfoType.xaml.cs">
       <DependentUpon>TraitInfoType.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Traits\Components\TraitProximityBuffs.cs" />
+    <Compile Include="Traits\Components\TraitProximityBuffsEditor.xaml.cs">
+      <DependentUpon>TraitProximityBuffsEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Traits\Components\TraitSetupComponent.cs" />
     <Compile Include="Traits\Components\TraitSetupEditor.xaml.cs">
       <DependentUpon>TraitSetupEditor.xaml</DependentUpon>
@@ -563,6 +628,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="AspirationCategories\AspirationCategoryEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AspirationTracks\AspirationTrackEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -663,6 +732,46 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="CareerLevels\CareerLevelEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\CareerEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\Components\CareerAvailabilityConditionsComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\Components\CareerInfoComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\Components\CareerLevelsComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CareerTracks\CareerTrackEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Commodities\CommodityEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Commodities\CommoditySettingsComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Commodities\CommodityStatesComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Commodities\Generators\BuffBasedStateGeneratorEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CompoundConditionElements\CompoundConditionElementEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -751,6 +860,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="RelBits\RelBitEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RelBits\RelBitMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Rewards\RewardSetEditor.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -816,6 +933,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SituationGoals\Components\SituationGoalInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoals\Components\SituationGoalPostConditionsComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoals\Components\SituationGoalPreConditionsComponentEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -896,6 +1021,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Traits\Components\TraitInfoType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\Components\TraitProximityBuffsEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

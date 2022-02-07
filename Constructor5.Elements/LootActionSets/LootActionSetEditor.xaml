@@ -10,6 +10,17 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <ScrollViewer>
-        <local:LootActionSetMiniEditor Margin="{StaticResource Constructor.BigPadding}" />
+        <c:LeftRightMargin>
+            <c:SpacedStack>
+                <local:LootActionSetMiniEditor />
+                <c:Expander Header="MergeToLoots">
+                    <c:SpacedStack TopMargin="True">
+                        <c:TextBlock Text="MergeToLootsInfo" />
+                        <c:TextBlock FontWeight="Bold" Text="MergeToLootsInfoImportant" />
+                        <c:ReferenceListControl ElementReferenceList="{Binding MergeToLoots}" ElementTypeName="LootActionSet" />
+                    </c:SpacedStack>
+                </c:Expander>
+            </c:SpacedStack>
+        </c:LeftRightMargin>
     </ScrollViewer>
 </UserControl>

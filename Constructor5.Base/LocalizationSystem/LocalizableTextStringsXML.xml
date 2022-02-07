@@ -62,7 +62,9 @@
 	<String Key="MixerinteractionsNotice">Mixer interactions are "idles" that can be performed while the Sim has the trait or buff. By default, these interactions are hidden from the player and can only be performed autonomously. A common use of these interactions is to use lock out times to run an action at a random interval (emotional buffs added by EA traits, like "Feeling Sad", are added using Mixer Interactions). Warning: Setting the lock out time too low can cause simulation lag.</String>
 	<String Key="TraitBuffReplacementsNotice">When Sims are meant to receive the original buff, Sims with the trait will receive a replacement instead. WARNING: This can prevent parts of the game that expect the original buff from working properly. Because of this, it is recommended you avoid replacing buffs that are tied to gameplay (for example: pregnancy buffs, buffs that appear when Sims have low Needs, role buffs, festival buffs, etc). In such cases, an alternative would be to use an action to have a buff spawn in addition to the original, not instead of.</String>
 	<String Key="AddReplacement">Add Replacement</String>
-	<String Key="BroadcastersNotice">Broadcasters are used to add buffs or run actions when in the proximity of another Sim. For example, a Sim who is interested in vampires could get an Energized buff around vampires. Effects can also be applied to the receiver; for example, a bully Sim could cause all other Sims to get a Scared buff.</String>
+	<String Key="BroadcastersNotice">Broadcasters are used to add buffs or run actions when in the proximity of another Sim. For example, a Sim who is interested in vampires could get an Energized buff around vampires. Effects can also be applied to the receiver; for example, a bully Sim could cause all other Sims to get a Scared buff.
+
+Note: Conditions are applied to the receiver, not the sender.</String>
 	<String Key="CommoditiesNotice">Commodities are used to make Sims autonomously desire to perform certain interactions. In this section, you can add commodities from existing traits, emotions and other EA resources. You can also set the score so that a Sim will desire interactions more or less than normal. Commodities can also do other things for more advanced modders.</String>
 	<String Key="TraitActionsNotice">These actions will run every 10 Sim minutes (unless configured in Advanced Settings). A common use is to check the conditions of a Sim (such as which interaction they're currently performing or which venue they're in) and apply a buff based on those conditions.</String>
 	<String Key="EffectiveSkillModifiers">Effective Skill Modifiers</String>
@@ -241,14 +243,16 @@
 	<String Key="Reward">Reward</String>
 	<String Key="AspirationCompleteNotification">Aspiration Complete Notification</String>
 	<String Key="HasCustomCASTrait">Has Custom CAS Trait</String>
-	<String Key="HasCustomCASTraitHelo">If unchecked, the CAS trait will be determined automatically based on the category.</String>
+	<String Key="HasCustomCASTraitHelo">If unchecked, the CAS trait will be determined automatically based on the category. This should always be checked for custom categories, unless this is a child aspiration.</String>
 	<String Key="IsChildAspiration">Is Child Aspiration</String>
 	<String Key="AspirationMilestonesNotice">Aspirations are made of milestones (objective sets) and objectives.</String>
 	<String Key="AspirationRewardNotice">Although the reward doesn't have to be a trait, it will still be prefixed with "Reward Trait" in the UI.</String>
 	<String Key="DisplayName">Display Name</String>
 	<String Key="OnlyRequireSomeObjectives">Only require the Sim to complete some objectives</String>
 	<String Key="AlwaysTrack">Always Track</String>
-	<String Key="AlwaysTrackObjectiveSetHelp">If checked, the objective set will always be enabled and tracked through the Sim's entire life, without needing to be unlocked by an aspiration, career or other part of the game.</String>
+	<String Key="AlwaysTrackObjectiveSetHelp">If checked, the objective set will always be enabled and tracked through the Sim's entire life, without needing to be unlocked by an aspiration, career or other part of the game.
+
+You can still set "Always Track" on individual objectives without applying it to the whole set. If you do this, objectives will register as complete, but the set will only register as complete when activated.</String>
 	<String Key="Objectives">Objectives</String>
 	<String Key="ToolTip">ToolTip</String>
 	<String Key="SatisfactionPoints">Satisfaction Points</String>
@@ -256,7 +260,7 @@
 	<String Key="OnlyTrackOnHomeLot">Only track on the Sim's home lot</String>
 	<String Key="OnlyTrackOnHomeLotHelp">This is useful for creating objectives that check the value of the current lot, where you only want it to effect the Sim's home lot.</String>
 	<String Key="PrimaryCondition">Primary Condition</String>
-	<String Key="ObjectiveAdditionalConditionsHelp">In addition to the primary condition, these conditions must pass for the objective (or an iteration of it) to count as completed.</String>
+	<String Key="ObjectiveAdditionalConditionsHelp">In addition to the primary condition, these conditions must pass for the objective (or an iteration of it) to count as completed. Unlike with situation goals, these can use participants (for example, setting the participant to TargetSim for an interaction objective will have it so that the condition is run on the recipient of the interaction).</String>
 	<String Key="AlwaysTrackObjectiveHelp">If checked, the objective will always be tracked in the background, regardless of context. If unchecked, the objective will only be tracked when it is unlocked by an aspiration or career.</String>
 
 	<String Key="LotTraitInfo">Lot Trait Info</String>
@@ -373,8 +377,8 @@ It is recommended you keep these settings at their default values, unless you kn
 	<String Key="AutoRewardTraitHelp">This only works with custom traits that are part of this mod. It does not work with EA traits or manually inputted keys.</String>
 	<String Key="AddReward">Add Reward</String>
 	<String Key="BuffReward">Buff Reward</String>
-	<String Key="MoneyReward(FixedAmount)">Money Reward (Fixed Amount)</String>
-	<String Key="MoneyReward(RandomInRange)">Money Reward (Random In Range)</String>
+	<String Key="MoneyRewardFixedAmount">Money Reward (Fixed Amount)</String>
+	<String Key="MoneyRewardRandomInRange">Money Reward (Random In Range)</String>
 	<String Key="NoReward">No Reward</String>
 	<String Key="ObjectReward">Object Reward</String>
 	<String Key="PerkPointsReward">Perk Points Reward</String>
@@ -465,7 +469,11 @@ It is recommended you keep these settings at their default values, unless you kn
 	<String Key="PresetRandomInterval">Preset: Standard EA settings for adding a buff at a random interval</String>
 	<String Key="SingleOutcome">Single Outcome</String>
 	<String Key="HasAnimation">Has Animation</String>
-	<String Key="AboutCustomTuningMessageBox">Custom tuning allows you to define your own XML code that will be included in the exported file for an element.</String>
+	<String Key="AboutCustomTuningMessageBox">Custom tuning allows you to define your own XML code that will be included in the exported file for an element.
+
+Tunables that were already set by Mod Constructor will be replaced, rather than duplicated. If a list that already exists is defined, its items will be merged with the existing list.
+
+If you include an element ID after a hashtag (for example: #MyCustomTrait), it will be replaced with the instance key of that element.</String>
 	<String Key="AreYouSureReferences">Are you sure you want to remove the selected references?</String>
 
 	<String Key="UserErrorElement">Element ID: {id}
@@ -516,5 +524,249 @@ Element Name: {label}</String>
 	<String Key="AddAction">Add Action</String>
 
 	<String Key="CompoundConditionElements">Compound Condition Elements</String>
+
+	<String Key="InvertedGeneric)">Inverted (pass if conditions are not met)</String>
+	<String Key="SpecificCareer">Specific Career</String>
+	<String Key="CareerConditionUserLevelNotice">Career level applies regardless of branch. To test for a specific branch, use a Career Level Resource Condition.</String>
+	<String Key="IncludeInvisibleCareers">Include Invisible Careers</String>
+	<String Key="ActiveOnly">Active Only</String>
+	<String Key="RequireParticipantCareer">Require participant to have a career (if unchecked, participant will be required NOT to have a career)</String>
+	<String Key="RequiredPTOAvailable">Required PTO Available</String>
+	<String Key="HoursUntilWork">HoursUntilWork</String>
+	<String Key="CollectionType">Collection Type</String>
+	<String Key="RequireCollectionComplete">Require the collection to be complete</String>
+	<String Key="InvertedEmotion">Inverted (check if the participant does NOT have the emotion)</String>
+	<String Key="SimMinutes">Sim Minutes</String>
+	<String Key="Tag">Tag</String>
+	<String Key="LotType">Lot Type</String>
+	<String Key="InvertLotTypeRestriction">Invert Lot Type Restriction</String>
+	<String Key="IsOnLot">Is On Lot</String>
+	<String Key="Any">Any</String>
+	<String Key="IsOutside">Is Outside</String>
+	<String Key="Context">Context</String>
+	<String Key="NetWorth">Net Worth</String>
+	<String Key="TotalMoneyEarned">Total Money Earned</String>
+	<String Key="CraftType">Craft Type</String>
+	<String Key="WithTag">With Tag</String>
+	<String Key="Tags">Tags</String>
+	<String Key="RestrictQuality">Restrict Quality</String>
+	<String Key="ObjectTags">Object Tags</String>
+	<String Key="MustBeOwnedByActiveHousehold">Must be owned by the active household</String>
+	<String Key="AllowObjectsOffLot">Allow objects in the public area around the lot</String>
+	<String Key="AllowObjectsOffLotHelp">This does not negate "Must be owned by the active household". Check this if you want to include portable objects.</String>
+	<String Key="IsCraftable">Is Craftable</String>
+	<String Key="IsCraftableHelp">This should be checked if the object is created by a Sim (such as a painting or meal) rather than placed in Build Mode or from the inventory.</String>
+	<String Key="Quantity">Quantity</String>
+	<String Key="RestrictSimoleonValue">Restrict Simoleon Value</String>
+	<String Key="IsInviteOnly">Is Invite Only</String>
+	<String Key="ParticipantClubStatus">Participant Club Status</String>
+	<String Key="InteractionRule">Interaction Rule</String>
+	<String Key="OnlyAppliesIfForInteraction">Only applies if the condition is for an interaction.</String>
+	<String Key="ParticipantJoinedRecently">Participant Joined Recently</String>
+	<String Key="RequireAllSimsInClubToPass">Require all the Sim's clubs to pass (otherwise, require only one)</String>
+	<String Key="RestrictClubNumberOfSims">Restrict the number of Sims in the club</String>
+	<String Key="NumberOfSims">Number of Sims</String>
+	<String Key="RequireAnotherParticipantInClub">Require another participant to be part of the club</String>
+	<String Key="OtherParticipant">Other Participant</String>
+	<String Key="Perk">Perk</String>
+	<String Key="Inverted">Inverted</String>
+	<String Key="PerkType">Perk Type</String>
+	<String Key="PrimaryParticipant">Primary Participant</String>
+	<String Key="TargetType">Target Type</String>
+	<String Key="AllRelationships">All Relationships</String>
+	<String Key="NumberOfRelationships">Number of Relationships</String>
+	<String Key="NumberOfRelationshipsHelp">Setting this to 0 will make it so every other Sim that the Sim knows will need to pass the condition without exceptions. This is useful if you want to prohibit a Sim from having a certain type of relationship (for example, checking if a Sim is single).</String>
+	<String Key="NumberOfRelationshipsInverted">Check if number of relationships is less than or equal to the defined number rather than the other way around</String>
+	<String Key="RelationshipConditionMultipleSims">Used for participant types that contain multiple Sims, such as ActiveHousehold. Set to 0 to require all participants to pass.</String>
+	<String Key="RelationshipTrackConditionNotice">Note: Track conditions are optional. The game will still check bit conditions even if the track is left undefined.</String>
+	<String Key="TrackBounds">Track Bounds</String>
+	<String Key="Bits">Bits</String>
+	<String Key="RelationshipBitsConditionNotice">Note: Bit conditions are optional. The game will still check track conditions even if no bits are specified.</String>
+	<String Key="RequiredAny">Required (Any)</String>
+	<String Key="RelationshipRequiredAnyNotice">The condition will pass if the target has any of these bits.</String>
+	<String Key="RequiredAll">Required (All)</String>
+	<String Key="RelationshipRequiredAllNotice">The target will need to have all of these bits for the test to pass.</String>
+	<String Key="ProhibitedAny">Prohibited (Any)</String>
+	<String Key="RelationshipProhibitedAnyNotice">The condition will fail if the target has any of these bits.</String>
+	<String Key="ProhibitedAll">Prohibited (All)</String>
+	<String Key="RelationshipProhibitedAllNotice">The condition will fail if the target has all of these bits, but will still pass if they have only some of them.</String>
+	<String Key="Track">Track</String>
+	<String Key="Whitelist">Whitelist</String>
+	<String Key="Blacklist">Blacklist</String>
+	<String Key="RestrictCurrentMedalLevel">Restrict Current Medal Level</String>
+	<String Key="RestrictCurrentMedalLevelHelp">1 = Bronze, 2 = Silver, 3 = Gold</String>
+	<String Key="MustBeInitiatedByParticipant">Must be initiated by the participant</String>
+	<String Key="SkillTag">Skill Tag</String>
+	<String Key="SkillTagHelp">This can be used to require a Sim reach a level in multiple skills.</String>
+	<String Key="TraitWhitelistHelp">If not empty, the participant will need at least one trait from this list for the condition to pass.</String>
+	<String Key="TraitBlacklistHelp">The condition will fail if the participant has any trait in this list.</String>
+	<String Key="AmountRequiredinWhitelist">Amount Required in Whitelist</String>
+	<String Key="AmountAllowedinBlacklist">Amount Allowed in Blacklist</String>
+	<String Key="AreYouSureCondition">Are you sure you want to remove this condition?</String>
+
+	<String Key="AreYouSureReward">Are you sure you want to remove this reward?</String>
+	<String Key="ObjectInstanceKeyHex">Object Instance Key (Hex)</String>
+	<String Key="UnlockInBuildMode">Unlock In Build Mode (for locked objects)</String>
+
+	<String Key="RequireSameSituation">Only include Sims who are part of the same situation</String>
+	<String Key="OnlyOneSpecificInteraction">Note: Because of how the game is programmed, you can have any number of tags, but only one specific interaction.</String>
+	<String Key="SpecificInteraction">Specific Interaction</String>
+	<String Key="SituationGoalRelationshipNotice">The goal will complete when the Sim's relationship with the target matches this condition.</String>
+	<String Key="RelationshipBasedAvailabilityCondition">Relationship-Based Availability Condition</String>
+	<String Key="RelationshipBasedAvailabilityConditionNotice">This is only valid for goals where "Specific Target" (in "Target Settings") is set to something other than "Any". This condition must pass for the goal to be selected in a goal set or whim set. For example, a "Become Friends with" goal should check to make sure the Sims aren't already friends.</String>
+	<String Key="HasRelationshipBasedAvailabilityCondition">Has Relationship-Based Availability Condition</String>
+	<String Key="CompletionCondition">Completion Condition</String>
+	<String Key="SituationGoalTargetConditionsNotice">The target must meet these conditions for the goal to count.</String>
+	<String Key="DontSelectIfConditionsAlreadyMet">Don't select the goal if the conditions are already met</String>
+
+	<String Key="CollectedSingleItemCondition">Collected Single Item Condition</String>
+	<String Key="CollectionTypes">Collection Types</String>
+	<String Key="BuffWhitelistHelp">If not empty, the participant will need at least one buff from this list for the condition to pass.</String>
+	<String Key="BuffBlacklistHelp">The condition will fail if the participant has any buff in this list.</String>
+	<String Key="CareerInfo">Career Info</String>
+	<String Key="Levels">Levels</String>
+	<String Key="CompanyNamesNotice">All careers must have at least one company or else the UI in game will glitch out.</String>
+	<String Key="CompanyNames">Company Names</String>
+	<String Key="EnablePaidTimeOff">Enable Paid Time Off</String>
+	<String Key="AddCompanyName">Add Company Name</String>
+	<String Key="Branches">Branches</String>
+	<String Key="CareerTrackBranchesNotice">When a Sim gets promoted in the last level of this track, they'll have these branches to choose from.</String>
+	<!--<String Key="OvermaxSettings">Overmax Settings</String>
+<String Key="OvermaxSettingsNotice">This defines what happens when a Sim has max performance when they're already at the top of the career. By default, this is based on the career type. </String>
+<String Key="OvermaxSalaryIncreaseAmount">OvermaxSalaryIncreaseAmount</String>
+<String Key="OvermaxReward">OvermaxReward</String>-->
+	<String Key="SimoleonsPerHour">Simoleons Per Hour</String>
+	<String Key="Sunday">Sunday</String>
+	<String Key="Monday">Monday</String>
+	<String Key="Tuesday">Tuesday</String>
+	<String Key="Wednesday">Wednesday</String>
+	<String Key="Thursday">Thursday</String>
+	<String Key="Friday">Friday</String>
+	<String Key="Saturday">Saturday</String>
+	<String Key="BeginHour">Begin Hour</String>
+	<String Key="BeginMinute">Begin Minute</String>
+	<String Key="DurationHours">Duration Hours</String>
+	<String Key="DurationExtraMinutes">Duration Extra Minutes (after hours have elapsed)</String>
+	<String Key="PromotionObjectiveSet">Promotion Objective Set</String>
+	<String Key="PromotionObjectiveSetNotice">These are the objectives a Sim must complete in order to get promoted.</String>
+	<String Key="PromotedToReward">Promoted To Reward</String>
+	<String Key="PromotedToRewardNotice">The Sim will receive this reward when being promoted to, NOT from, this career level. The extra money a Sim receives when being promoted is part of the reward. Normally, this should be set for all levels except the first.</String>
+	<String Key="InitialPaidTimeOff">Initial Paid Time Off</String>
+	<String Key="CareerAvailabilityConditionsNotice">These conditions must pass for any Sim to be in this career. This should be something that will apply permanently, such as a reward trait. If a Sim who is already in the career stops meeting the conditions, it will be removed when traveling or saving and reloading.</String>
+
+	<String Key="InvertedEmotionAngry">Count Angry as positive emotion</String>
+	<String Key="InvertedEmotionEmbarrassed">Count Embarrassed as positive emotion</String>
+	<String Key="InvertedEmotionSad">Count Sad as positive emotion</String>
+	<String Key="InvertedEmotionTense">Count Tense as positive emotion</String>
+	<String Key="InvertedEmotionUncomfortable">Count Uncomfortable as positive emotion</String>
+	<String Key="InvertedEmotionBored">Count Bored as positive emotion</String>
+	<String Key="InvertedEmotionDazed">Count Dazed as positive emotion</String>
+	<String Key="NegativeEmotions">Negative Emotion Performance</String>
+
+	<String Key="CustomTuningElementNotice">This is a custom tuning element and consists entirely of custom tuning. The instance type, class and module is determined by the content in the &lt;I&gt; tag, while the name and key is determined by Mod Constructor, like any other element.</String>
+	<String Key="OpenCustomTuning">Open Custom Tuning</String>
+	<String Key="CustomTuningCannotFindElement">Custom tuning error: Mod Constructor couldn't find an element with the ID: {id}</String>
+	<String Key="CompoundConditionElementsAbout">Compound Conditions can be used to group multiple conditions together or require only some conditions to pass.</String>
+	<String Key="Or...">Or...</String>
+	<String Key="Or:">Or:</String>
+	<String Key="DeleteGroup">Delete Group</String>
+	<String Key="And...">And...</String>
+	<String Key="Gender">Gender</String>
+	<String Key="HasEverBeenPlayed">Has Ever Been Played</String>
+	<String Key="EligibleToAgeUp">Eligible To Age Up</String>
+	<String Key="AreYouSureConditionGroup">Are you sure you want to delete this group of conditions?</String>
+	<String Key="AddBufftoReceiver">Add Buff to Receiver</String>
+	<String Key="AddBufftoSender">Add Buff to Sender</String>
+	<String Key="RunLootActionSetsonReceiver">Run Loot Action Sets on Receiver</String>
+	<String Key="RunLootActionSetsonSender">Run Loot Action Sets on Sender</String>
+	<String Key="RequiredReceiversRange">Required Receivers Range</String>
+	<String Key="BroadcasterNumberOfReceiversHelp">If defined, the number of receivers must be in the given range.</String>
+	<String Key="EnterLabelForObject">Enter a new label for this object, or leave the box empty to reset.</String>
+	<String Key="TargetParticipant">Target Participant</String>
+
+	<String Key="CommoditySettings">Commodity Settings</String>
+	<String Key="States">States</String>
+	<String Key="AddIfNotInTracker">Add if not in tracker</String>
+	<String Key="AddIfNotInTrackerHelp">If the game tries to change the commodity while the Sim doesn't have it, it will automatically be added.</String>
+	<String Key="DecayRate">Decay Rate</String>
+	<String Key="DecayOffLot">Decay Off Lot</String>
+	<String Key="RemoveCommodityOnZero">Remove the commodity when it decays to the lowest value (usually 0)</String>
+	<String Key="DurationPerLevelIncreaseHelp">This amount will be added to all levels starting from the second. For example, if set to 240, the second buff will require an additional 240 points, the third will require 480, the fourth will require 720, and so on.</String>
+	<String Key="DurationBeforeFirstLevel">Duration Before First Buff</String>
+	<String Key="DurationPerLevelMinimum">Duration Per Level (Minimum)</String>
+	<String Key="DurationPerLevelIncrease">Duration Per Level (Multiplied)</String>
+	<String Key="DurationOfLastLevel">Duration Of Last Level</String>
+
+	<String Key="BuffBasedStateGenerator">Buff Based State Generator</String>
+
+	<String Key="ProximityBuffs">Proximity Buffs</String>
+	<String Key="BitsToAdd">Bits to Add</String>
+	<String Key="BitsToRemove">Bits to Remove</String>
+	<String Key="RelationshipBitAddRemove">Relationship Bits: Add/Remove Relationship Bits</String>
+	<String Key="IsVisibleInUI">Is visible in the UI</String>
+	<String Key="IsOneSided">Is One Sided</String>
+	<String Key="IsOneSidedHelp">If this is left unchecked, attempting to add this bit will always add it to both Sims. If checked, it will only be added to one Sim.</String>
+	<String Key="ProximityBuffsNotice">These buffs will be added to a Sim with the trait while another Sim who meets a certain condition is in the proximity. For example, a Sim can become Scared around Angry Sims.</String>
+
+	<String Key="ProximityBuffConditionsNotice">These conditions must pass for the proximity buff to be applied.</String>
+	<String Key="ProximityBuffConditionsNoticeTargetSim">Remember to set the participant to TargetSim to have it apply to the Sim in the proximity, rather than the Sim with the trait.</String>
+
+	<String Key="MergeToLoots">Merge To</String>
+	<String Key="MergeToLootsInfo">Using a Python script, this action set can be merged to other action sets. For example, merging onto the \"loot_Commodity_CareerBenefit_Agent_Main_Level\" loot (109228, intended for the \"Perform Friendly Interactions\" daily task) will cause the loot to run every time the Sim performs a friendly social interaction. Participants will work the same as the loot it's merged to.</String>
+	<String Key="MergeToLootsInfoImportant">Loot merges are global and apply regardless of the context the original set. For example, including an action set in the "Actions" section of a custom trait will NOT automatically make it so the actions will only be run on Sims with the trait. Generally, this feature should only be used on root elements created directly from the "Add Element" dialog.</String>
+
+	<String Key="Info">Info</String>
+	<String Key="NameOnTarget">Name On Target</String>
+	<String Key="HasPieMenuIcon">Has Pie Menu Icon</String>
+	<String Key="AllowAutonomous">Allow Autonomous</String>
+	<String Key="AllowUserDirected">Allow User Directed</String>
+	<String Key="IsHiddenInQueue">Is Hidden In Queue</String>
+	<String Key="InteractionConditionsNotice">These conditions must pass for the interaction to be available.</String>
+	<String Key="IsIdle">Is Idle</String>
+	<String Key="IsIdleHelp">The game will treat this as an "idle" interaction. This is typically used for interactions attached to traits or buffs.</String>
+	<String Key="FriendlyInteraction">Friendly Interaction</String>
+	<String Key="FunnyInteraction">Funny Interaction</String>
+	<String Key="MeanInteraction">Mean Interaction</String>
+	<String Key="MischiefInteraction">Mischief Interaction</String>
+	<String Key="RomanceInteraction">Romance Interaction</String>
+	<String Key="IsGlobalInteraction">Always available even if not assigned to a trait or buff</String>
+	<String Key="MinimumScoreForAvailability">Minimum Score For Availability</String>
+	<String Key="MinimumScoreForAvailabilityHelp">The interaction must meet a certain "score" - determined by various factors such as relationship with the target and current emotion - to be available. 15 and 17 are common values used in EA interactions.</String>
+	<String Key="Balloons">Balloons</String>
+	<String Key="Animations">Animations</String>
+
+	<String Key="Success">Success</String>
+	<String Key="SuccessTarget">Success (Target)</String>
+	<String Key="Failure">Failure</String>
+	<String Key="FailureTarget">Failure (Target)</String>
+
+	<String Key="ChangeStatisticByFixedAmount">Statistics: Change Statistic by Fixed Amount</String>
+
+	<String Key="Original">Original</String>
+	<String Key="Replacement">Replacement</String>
+	<String Key="RemoveReplacement">Remove Replacement</String>
+	<String Key="AreYouSureReplacement">Are you sure you want to delete this replacement?</String>
+
+	<String Key="Path">Path</String>
+	<String Key="Effect">Effect</String>
+	<String Key="ImportImage">Import Image</String>
+	<String Key="DeleteSelected">Delete Selected</String>
+
+	<String Key="CurrentValue">CurrentValue</String>
+	<String Key="LotValue">Lot Value</String>
+	<String Key="MoneyInHand">Money In Hand</String>
+	<String Key="BusinessFunds">Business Funds</String>
+	<String Key="OnLotOnly">On Lot Only</String>
+	<String Key="PublicSpaceOnly">Public Space Only</String>
+	<String Key="OutsideOnly">Outside Only</String>
+	<String Key="InsideOnly">Inside Only</String>
+
+	<String Key="Random">Random</String>
+	<String Key="InheritedFromPreviousGoalChain">Inherited From Previous Goal Chain</String>
+	<String Key="RandomNeverInherited">Random, Never Inherited</String>
+
+	<String Key="AddPossibleReward">Add Possible Reward</String>
+
+	<String Key="CASTrait">CAS Trait</String>
 
 </LocalizableTextStrings>

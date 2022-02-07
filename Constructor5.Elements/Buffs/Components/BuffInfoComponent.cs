@@ -8,6 +8,7 @@ using Constructor5.Core;
 using System;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.Export;
+using Constructor5.Base.DebugCommandSystem;
 
 namespace Constructor5.Elements.Buffs.Components
 {
@@ -84,14 +85,28 @@ namespace Constructor5.Elements.Buffs.Components
         {
             AutoTunerInvoker.Invoke(this, context.Tuning);
 
-            TuningActionInvoker.InvokeFromFile("Buff Info",
-                new TuningActionContext
-                {
-                    Tuning = context.Tuning,
-                    DataContext = this
-                });
+            var emotionToUse = Emotion;
+            var emotionWeightToUse = EmotionWeight;
+            var hasEmotionToUse = HasEmotion;
 
-            if (HasEmotion || HasFixedDuration)
+            if (!hasEmotionToUse && DebugCommandFlags.Values.Contains("visible_buffs"))
+            {
+                emotionToUse = new Reference(14637);
+                emotionWeightToUse = 0;
+                hasEmotionToUse = true;
+            }
+
+            if (hasEmotionToUse)
+            {
+                context.Tuning.Set<TunableBasic>("mood_type", emotionToUse);
+                context.Tuning.Set<TunableBasic>("mood_weight", emotionWeightToUse);
+            }
+            else
+            {
+                context.Tuning.Set<TunableBasic>("visible", "False");
+            }
+
+            if (hasEmotionToUse || HasFixedDuration)
             {
                 var tunableVariant1 = context.Tuning.Set<TunableVariant>("_temporary_commodity_info", "enabled");
                 var tunableTuple1 = tunableVariant1.Get<TunableTuple>("enabled");
@@ -109,7 +124,7 @@ namespace Constructor5.Elements.Buffs.Components
                     }
                 }
 
-                if (ElementTuning.GetSingleInstanceKey(Emotion) == 14638)
+                if (ElementTuning.GetSingleInstanceKey(emotionToUse) == 14638)
                 {
                     TuneFlirtyBlocker(context);
                 }
@@ -120,10 +135,10 @@ namespace Constructor5.Elements.Buffs.Components
             header.SimDataHandler.WriteText(160, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
             header.SimDataHandler.WriteTGI(168, Icon.GetUncommentedText(), Element);
 
-            if (HasEmotion)
+            if (hasEmotionToUse)
             {
-                header.SimDataHandler.Write(184, Convert.ToUInt64(ElementTuning.GetInstanceKeys(Emotion)[0]));
-                header.SimDataHandler.Write(192, Convert.ToInt32(EmotionWeight));
+                header.SimDataHandler.Write(184, Convert.ToUInt64(ElementTuning.GetInstanceKeys(emotionToUse)[0]));
+                header.SimDataHandler.Write(192, Convert.ToInt32(emotionWeightToUse));
             }
         }
 

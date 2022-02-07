@@ -17,11 +17,11 @@
                 <c:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
             </c:Field>
             <c:Field x:Name="TargetNameControl"
-                     Label="Name On Target"
+                     Label="NameOnTarget"
                      LabelWidth="150">
                 <c:STBLStringControl Text="{Binding NameOnTarget}" />
             </c:Field>
-            <c:CheckBox Content="Has Pie Menu Icon" IsChecked="{Binding SetPieMenuIcon}" />
+            <c:CheckBox Content="HasPieMenuIcon" IsChecked="{Binding SetPieMenuIcon}" />
             <c:Field Label="Pie Menu Icon"
                      LabelWidth="150"
                      Visibility="{Binding SetPieMenuIcon, Converter={StaticResource BoolToVis}}">
@@ -29,9 +29,9 @@
             </c:Field>
         </StackPanel>
         <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <c:CheckBox Content="Allow Autonomous" IsChecked="{Binding AllowAutonomous}" />
-            <c:CheckBox Content="Allow User Directed" IsChecked="{Binding AllowUserDirected}" />
-            <c:CheckBox Content="Is Hidden In Queue" IsChecked="{Binding IsHiddenInQueue}" />
+            <c:CheckBox Content="AllowAutonomous" IsChecked="{Binding AllowAutonomous}" />
+            <c:CheckBox Content="AllowUserDirected" IsChecked="{Binding AllowUserDirected}" />
+            <c:CheckBox Content="IsHiddenInQueue" IsChecked="{Binding IsHiddenInQueue}" />
         </StackPanel>
     </StackPanel>
 </UserControl>

@@ -61,6 +61,7 @@ namespace Constructor5.Elements.SituationGoalSets
             {
                 TuningExport.AddToQueue(tuning);
             }
+
             AllTuning.Clear();
         }
 

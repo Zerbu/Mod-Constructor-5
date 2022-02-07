@@ -4,7 +4,6 @@ using Constructor5.Base.LocalizationSystem;
 using Constructor5.Core;
 using Constructor5.UI.Dialogs.ExportResults;
 using Constructor5.UI.Shared;
-using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -18,7 +17,7 @@ namespace Constructor5.UI.Main
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window, INotifyPropertyChanged, IOnCallOpenElement, IOnExportComplete, IOnElementDeleted, IOnUnlocalizableStringDetected
+    public partial class MainWindow : Window, INotifyPropertyChanged, IOnCallOpenElement, IOnExportComplete, IOnElementDeleted, IOnUnlocalizableStringDetected, IOnElementContextSpecificChanged, IOnShowContextSpecificElementsChanged
     {
         public MainWindow()
         {
@@ -32,7 +31,24 @@ namespace Constructor5.UI.Main
             ElementsSource.Filter += (obj) =>
             {
                 var element = (Element)obj;
-                return !element.IsContextSpecific;
+
+                if (!string.IsNullOrEmpty(SearchBoxText))
+                {
+                    if (!element.Label.ToLower().Contains(SearchBoxText.ToLower())
+                        && !element.UserFacingId.ToLower().Contains(SearchBoxText.ToLower())
+                        && !element.GetType().Name.ToLower().Contains(SearchBoxText.ToLower())
+                        )
+                    {
+                        return false;
+                    }
+                }
+
+                if (!ShowContextSpecificElements && element.IsContextSpecific)
+                {
+                    return false;
+                }
+
+                return true;
             };
 
 #if DEBUG
@@ -42,12 +58,52 @@ namespace Constructor5.UI.Main
 
         public event PropertyChangedEventHandler PropertyChanged;
 
+        public static bool ShowContextSpecificElements
+        {
+            get => _showContextSpecificElements;
+            set
+            {
+                _showContextSpecificElements = value;
+                Hooks.Location<IOnShowContextSpecificElementsChanged>(x => x.OnShowContextSpecificElementsChanged());
+            }
+        }
+
         public ICollectionView ElementsSource { get; private set; }
         public List<TaggedLayoutDocument> OpenDocuments { get; } = new List<TaggedLayoutDocument>();
+        public string SearchBoxText { get; set; }
 
         void IOnCallOpenElement.OnCallOpenElement(Element element) => OpenElement(element);
 
+        void IOnElementContextSpecificChanged.OnElementContextSpecificChanged(Element element)
+            => ElementsSource.Refresh();
+
+        void IOnElementDeleted.OnElementDeleted(Element element)
+        {
+            var document = LayoutDocumentPane.Children.OfType<TaggedLayoutDocument>().FirstOrDefault(x => x.Tag == element);
+            if (document != null)
+            {
+                LayoutDocumentPane.Children.Remove(document);
+            }
+        }
+
         void IOnExportComplete.OnExportComplete(ExportResultsData results) => new ExportResultsWindow(results) { Owner = this }.ShowDialog();
+
+        void IOnShowContextSpecificElementsChanged.OnShowContextSpecificElementsChanged()
+            => ElementsSource.Refresh();
+
+        void IOnUnlocalizableStringDetected.OnUnlocalizableStringDetected(string text)
+            => UnlocalizableStringsText.Foreground = new SolidColorBrush(Colors.Red);
+
+        protected void OnPropertyChanged(PropertyChangedEventArgs e)
+        {
+            PropertyChanged?.Invoke(this, e);
+            if (e.PropertyName == nameof(SearchBoxText))
+            {
+                ElementsSource.Refresh();
+            }
+        }
+
+        private static bool _showContextSpecificElements;
 
         private void ElementsControl_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
         {
@@ -57,8 +113,13 @@ namespace Constructor5.UI.Main
                 return;
             }
 
+            ElementManager.FocusedElement = element;
+
             OpenElement(element);
         }
+
+        private void IssuesButton_Click(object sender, RoutedEventArgs e)
+            => System.Diagnostics.Process.Start("https://github.com/Zerbu/Mod-Constructor-5/issues");
 
         private void OpenElement(Element element)
         {
@@ -96,23 +157,6 @@ namespace Constructor5.UI.Main
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             ElementSaver.SaveScheduled();
-        }
-
-        private void IssuesButton_Click(object sender, RoutedEventArgs e)
-            => System.Diagnostics.Process.Start("https://github.com/Zerbu/Mod-Constructor-5/issues");
-
-        void IOnElementDeleted.OnElementDeleted(Element element)
-        {
-            var document = LayoutDocumentPane.Children.OfType<TaggedLayoutDocument>().FirstOrDefault(x=>x.Tag==element);
-            if (document != null)
-            {
-                LayoutDocumentPane.Children.Remove(document);
-            }
-        }
-
-        void IOnUnlocalizableStringDetected.OnUnlocalizableStringDetected(string text)
-        {
-            UnlocalizableStringsText.Foreground = new SolidColorBrush(Colors.Red);
         }
     }
 }

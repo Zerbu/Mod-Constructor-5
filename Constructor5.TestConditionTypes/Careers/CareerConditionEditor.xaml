@@ -9,18 +9,20 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:Field Label="Specific Career" LabelWidth="100">
+        <c:Field Label="SpecificCareer" LabelWidth="100">
             <c:ReferenceControl ElementTypeName="Career" Reference="{Binding SpecificCareer}" />
         </c:Field>
         <c:Field Label="CareerLevel" LabelWidth="100">
             <StackPanel>
-                <c:TextBlock FontStyle="Italic">Career level applies regardless of branch. To test for a specific branch, use a Career Level Resource Condition.</c:TextBlock>
+                <c:TextBlock FontStyle="Italic">CareerConditionUserLevelNotice</c:TextBlock>
                 <c:IntBoundsControl Bounds="{Binding CareerLevel}" />
             </StackPanel>
         </c:Field>
-        <c:CheckBox Content="Include Invisible Careers" IsChecked="{Binding IncludeInvisibleCareers}" />
-        <c:CheckBox Content="Inverted (pass if conditions are not met)" IsChecked="{Binding Inverted}" />
-        <c:Field Label="Participant" LabelWidth="100">
+        <c:CheckBox Content="IncludeInvisibleCareers" IsChecked="{Binding IncludeInvisibleCareers}" />
+        <c:CheckBox Content="InvertedGeneric)" IsChecked="{Binding Inverted}" />
+        <c:Field x:Name="ParticipantField"
+                 Label="Participant"
+                 LabelWidth="100">
             <c:ParticipantControl Text="{Binding Participant}" />
         </c:Field>
 

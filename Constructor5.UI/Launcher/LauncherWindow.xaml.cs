@@ -21,9 +21,6 @@ namespace Constructor5.UI.Launcher
             Hooks.RegisterClass(this);
             CreatorName.Text = ProgramSettings.CreatorName;
             ProjectsControl.ItemsSource = ProjectManager.LoadInfo();
-#if DEBUG
-            Hooks.RegisterClass(UnlocalizableStringFinderProcess.Current);
-#endif
         }
 
         void IOnProjectCreatedOrLoaded.OnProjectCreatedOrLoaded()

@@ -6,7 +6,7 @@ namespace Constructor5.TestConditionTypes.Perks
 {
     [SelectableObjectType("ObjectiveConditionTypes", "PerksClubStatusCondition")]
     [XmlSerializerExtraType]
-    public class ClubObjectiveCondition : CollectionCondition
+    public class ClubObjectiveCondition : ClubCondition
     {
         protected override string GetVariantTunableName() => "club_tests";
     }

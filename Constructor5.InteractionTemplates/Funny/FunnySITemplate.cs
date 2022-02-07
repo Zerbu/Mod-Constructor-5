@@ -4,8 +4,8 @@ using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.Python;
 using Constructor5.Base.SelectableObjects;
-using Constructor5.Elements.Interactions.Shared;
 using Constructor5.Core;
+using Constructor5.Elements.Interactions.Shared;
 
 namespace Constructor5.InteractionTemplates.Funny
 {
@@ -20,6 +20,8 @@ namespace Constructor5.InteractionTemplates.Funny
         public bool IsJoke { get; set; }
         public override string Label => "Funny Interaction";
         public ReferenceList LootActionSets { get; set; } = new ReferenceList();
+
+        public int MinimumScoreForAvailability { get; set; }
 
         [AutoTuneBasic("_category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15508, "Funny");

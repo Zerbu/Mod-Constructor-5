@@ -114,6 +114,7 @@
     <Compile Include="CustomTuningElementEditor.xaml.cs">
       <DependentUpon>CustomTuningElementEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DebugCommands\ToggleShowContextSpecificCommand.cs" />
     <Compile Include="Dialogs\AddElement\AddElementWindow.xaml.cs">
       <DependentUpon>AddElementWindow.xaml</DependentUpon>
     </Compile>
@@ -123,6 +124,9 @@
     </Compile>
     <Compile Include="Dialogs\CustomTuningDialog\CustomTuningWindow.xaml.cs">
       <DependentUpon>CustomTuningWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DebugCommands\DebugCommandWindow.xaml.cs">
+      <DependentUpon>DebugCommandWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Dialogs\DialogUtility.cs" />
     <Compile Include="Dialogs\ElementSettings\ElementSettingsWindow.xaml.cs">
@@ -161,6 +165,7 @@
     <Compile Include="Main\ElementEditorPresenter.xaml.cs">
       <DependentUpon>ElementEditorPresenter.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Main\IOnShowContextSpecificElementsChanged.cs" />
     <Compile Include="Main\TaggedLayoutDocument.cs" />
     <Compile Include="Dialogs\PythonInstaller\PythonInstallerWindow.xaml.cs">
       <DependentUpon>PythonInstallerWindow.xaml</DependentUpon>
@@ -320,6 +325,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Dialogs\CustomTuningDialog\CustomTuningWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\DebugCommands\DebugCommandWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -10,7 +10,7 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:Field Label="Skill Tag" LabelWidth="100">
+        <c:Field Label="SkillTag" LabelWidth="100">
             <c:TextBoxWithPresetsControl PresetsFolder="SkillTag" Text="{Binding SkillTag}" />
         </c:Field>
         <c:Field Label="Threshold" LabelWidth="100">
@@ -20,11 +20,11 @@
             <StackPanel>
                 <xctk:IntegerUpDown Text="{Binding Quantity}" />
                 <c:TextBlock FontStyle="Italic"
-                           Text="This can be used to require a Sim reach a level in multiple skills."
+                           Text="SkillTagHelp"
                            />
             </StackPanel>
         </c:Field>
-        <c:Field Label="Participant" LabelWidth="100">
+        <c:Field Label="Participant" LabelWidth="100" x:Name="ParticipantField">
             <c:ParticipantControl Text="{Binding Participant}" />
         </c:Field>
     </StackPanel>

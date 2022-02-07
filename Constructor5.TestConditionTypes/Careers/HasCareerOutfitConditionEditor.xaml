@@ -9,8 +9,10 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:CheckBox Content="Inverted (pass if conditions are not met)" IsChecked="{Binding Inverted}" />
-        <c:Field Label="Participant" LabelWidth="100">
+        <c:CheckBox Content="InvertedGeneric)" IsChecked="{Binding Inverted}" />
+        <c:Field x:Name="ParticipantField"
+                 Label="Participant"
+                 LabelWidth="100">
             <c:ParticipantControl Text="{Binding Participant}" />
         </c:Field>
     </StackPanel>

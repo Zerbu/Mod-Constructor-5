@@ -32,7 +32,7 @@ namespace Constructor5.Elements.Interactions.Social
         public STBLString Name { get; set; } = new STBLString() { CustomText = "Custom Interaction" };
 
         [AutoTuneBasic("display_name_target")]
-        public STBLString NameOnTarget { get; set; } = new STBLString() { CustomText = "Listen to Custom Interaction" };
+        public STBLString NameOnTarget { get; set; } = new STBLString() { CustomText = "Listen to {1.SimFirstName}'s Custom Interaction" };
 
         public ElementIcon PieMenuIcon { get; set; } = new ElementIcon();
         public bool SetPieMenuIcon { get; set; }

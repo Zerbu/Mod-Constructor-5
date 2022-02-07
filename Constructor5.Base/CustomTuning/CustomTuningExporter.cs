@@ -2,6 +2,7 @@ using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
+using Constructor5.Base.LocalizationSystem;
 using System.IO;
 using System.Linq;
 using System.Xml;
@@ -21,6 +22,8 @@ namespace Constructor5.Base.CustomTuning
 
         private static Element Element { get; set; }
 
+        private int NumberOfCustomTextStrings { get; set; }
+
         private void Export(TuningHeader header, string content) => Read(header, content);
 
         private string Parse(string content)
@@ -31,10 +34,23 @@ namespace Constructor5.Base.CustomTuning
                 var element = ElementManager.GetAll(true).FirstOrDefault(x => x.UserFacingId == split[1]);
                 if (element == null)
                 {
-                    Exporter.Current.AddError(Element, $"Custom tuning error: Mod Constructor couldn't find an element with the ID: {split[1]}");
+                    Exporter.Current.AddError(Element, TextStringManager.Get("CustomTuningCannotFindElement").Replace("{id}", split[1]));
                     return "ELEMENT NOT FOUND";
                 }
                 return ElementTuning.GetSingleInstanceKey(element).ToString();
+            }
+
+            if (content.StartsWith("$"))
+            {
+                var split = content.Split('$');
+
+                if (Exporter.Current.STBLBuilder == null)
+                {
+                    return "0x0";
+                }
+                NumberOfCustomTextStrings++;
+                var key = Exporter.Current.STBLBuilder.GetKey(split[1], $"_Auto_{NumberOfCustomTextStrings}");
+                return $"0x{key:X}";
             }
 
             return content;

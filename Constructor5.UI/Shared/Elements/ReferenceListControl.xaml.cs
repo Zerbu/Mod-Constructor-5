@@ -136,7 +136,7 @@ namespace Constructor5.UI.Shared
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
-            if (!FancyMessageBox.ShowOKCancel($"Are you sure you want to remove the selected references?"))
+            if (!FancyMessageBox.ShowOKCancel($"Are you sure you want to remove the selected references?", true))
             {
                 return;
             }

@@ -8,10 +8,12 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:CheckBox Content="Don't select the goal if the conditions are already met" IsChecked="{Binding IgnoreIfAlreadyMet}" />
+        <c:CheckBox Content="DontSelectIfConditionsAlreadyMet" IsChecked="{Binding IgnoreIfAlreadyMet}" />
         <c:SelectableObjectControl EditorCategory="Invalid"
                                    Object="{Binding PrimaryCondition}"
                                    TypeRegistryCategory="SituationGoalConditionTypes" />
-        <c:ObjectEditorControl EditorCategory="Default" Object="{Binding PrimaryCondition}" />
+        <c:ObjectEditorControl EditorCategory="Default"
+                               EditorTag="NoParticipant"
+                               Object="{Binding PrimaryCondition}" />
     </StackPanel>
 </UserControl>

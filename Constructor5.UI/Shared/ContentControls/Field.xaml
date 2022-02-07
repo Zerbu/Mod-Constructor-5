@@ -1,7 +1,7 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:c="clr-namespace:Constructor5.UI.Shared">
-    <Style TargetType="{x:Type c:Field}">
+    <Style x:Key="FieldStyle" TargetType="{x:Type c:Field}">
         <Setter Property="HorizontalContentAlignment" Value="Stretch" />
         <Setter Property="VerticalContentAlignment" Value="Center" />
         <Setter Property="IsTabStop" Value="False" />
@@ -36,4 +36,5 @@
             </Setter.Value>
         </Setter>
     </Style>
+    <Style BasedOn="{StaticResource FieldStyle}" TargetType="{x:Type c:Field}" />
 </ResourceDictionary>

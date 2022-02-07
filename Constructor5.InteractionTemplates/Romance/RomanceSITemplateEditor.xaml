@@ -5,14 +5,15 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.InteractionTemplates"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <Grid>
         <c:TabControl Background="Transparent" BorderThickness="0">
             <c:TabItem Background="Transparent"
-                     FontSize="{StaticResource Constructor.BigFontSize}"
-                     Header="Settings">
+                       FontSize="{StaticResource Constructor.BigFontSize}"
+                       Header="Settings">
                 <StackPanel>
                     <c:Field Label="Pie Menu Category" LabelWidth="150">
                         <c:ReferenceControl ElementTypeName="PieMenuCategory"
@@ -21,18 +22,24 @@
                                             ResetToLabel="Friendly" />
                     </c:Field>
                     <c:CheckBox x:Name="GlobalInteractionCheckBox"
-                                Content="Always available even if not assigned to a trait or buff"
+                                Content="IsGlobalInteraction"
                                 IsChecked="{Binding IsGlobalInteraction}" />
+                    <c:Field Label="MinimumScoreForAvailability" LabelWidth="200">
+                        <StackPanel>
+                            <xctk:IntegerUpDown Text="{Binding MinimumScoreForAvailability}" />
+                            <c:TextBlock FontStyle="Italic" Text="MinimumScoreForAvailabilityHelp" />
+                        </StackPanel>
+                    </c:Field>
                 </StackPanel>
             </c:TabItem>
             <c:TabItem Background="Transparent"
-                     FontSize="{StaticResource Constructor.BigFontSize}"
-                     Header="Balloons">
+                       FontSize="{StaticResource Constructor.BigFontSize}"
+                       Header="Balloons">
                 <c:ReferenceControlWithEditorUnderneath ElementTypeName="BalloonSet" Reference="{Binding BalloonSet}" />
             </c:TabItem>
             <c:TabItem Background="Transparent"
-                     FontSize="{StaticResource Constructor.BigFontSize}"
-                     Header="Animations">
+                       FontSize="{StaticResource Constructor.BigFontSize}"
+                       Header="Animations">
                 <StackPanel>
                     <c:Field Label="Success" LabelWidth="150">
                         <c:ReferenceControl ElementTypeName="Animation"
@@ -49,8 +56,8 @@
                 </StackPanel>
             </c:TabItem>
             <c:TabItem Background="Transparent"
-                     FontSize="{StaticResource Constructor.BigFontSize}"
-                     Header="Actions">
+                       FontSize="{StaticResource Constructor.BigFontSize}"
+                       Header="Actions">
                 <StackPanel>
                     <c:ReferenceListControl ElementReferenceList="{Binding LootActionSets}"
                                             ElementTypeName="LootActionSet"

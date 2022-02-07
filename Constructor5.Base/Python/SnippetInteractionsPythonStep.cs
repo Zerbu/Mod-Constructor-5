@@ -58,10 +58,9 @@ namespace Constructor5.Base.Python
             return result.ToString();
         }
 
-        public override IEnumerable<string> GetHeaders() => new[] {"import sims4.resources",
-                "from sims4.tuning.instance_manager import InstanceManager",
-                "from sims4.resources import Types",
-                "import services"};
+        public override IEnumerable<string> GetHeaders() => new[] { "import services", "import sims4.resources", "from sims4.tuning.instance_manager import InstanceManager", "from sims4.resources import Types" };
+
+        protected internal override void Cleanup() { }
 
         protected Dictionary<ulong, List<ulong>> SnippetToMixer { get; } = new Dictionary<ulong, List<ulong>>();
     }

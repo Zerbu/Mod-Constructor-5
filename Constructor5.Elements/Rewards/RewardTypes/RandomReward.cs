@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.Rewards.RewardTypes
 {
-    [SelectableObjectType("RewardTypes", "Random Reward")]
+    [SelectableObjectType("RewardTypes", "RandomReward")]
     [XmlSerializerExtraType]
     public class RandomReward : Reward
     {

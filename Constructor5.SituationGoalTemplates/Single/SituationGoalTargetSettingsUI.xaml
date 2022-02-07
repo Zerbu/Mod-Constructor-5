@@ -23,8 +23,8 @@
                     <c:EnumSelectorReplaceDictionary>
                         <system:String x:Key="Any">Any</system:String>
                         <system:String x:Key="Random">Random</system:String>
-                        <system:String x:Key="Inherited">Inherited From Previous Goal Chain</system:String>
-                        <system:String x:Key="RandomExcludingInherited">Random, Never Inherited</system:String>
+                        <system:String x:Key="Inherited">InheritedFromPreviousGoalChain</system:String>
+                        <system:String x:Key="RandomExcludingInherited">RandomNeverInherited</system:String>
                     </c:EnumSelectorReplaceDictionary>
                 </c:EnumSelectorControl.Replacements>
             </c:EnumSelectorControl>

@@ -73,11 +73,11 @@
                 <ContextMenu>
                     <ContextMenu.Items>
                         <c:MenuItem x:Name="OpenTabMenuItem"
-                                  Click="OpenTabMenuItem_Click"
-                                  Header="OpenTab" />
+                                    Click="OpenTabMenuItem_Click"
+                                    Header="OpenTab" />
                         <c:MenuItem x:Name="ElementSettingsMenuItem"
-                                  Click="ElementSettingsMenuItem_Click"
-                                  Header="Element Settings" />
+                                    Click="ElementSettingsMenuItem_Click"
+                                    Header="Element Settings" />
                     </ContextMenu.Items>
                 </ContextMenu>
             </Grid.ContextMenu>

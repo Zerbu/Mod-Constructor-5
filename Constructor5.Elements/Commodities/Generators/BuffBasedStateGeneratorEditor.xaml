@@ -1,0 +1,51 @@
+<UserControl x:Class="Constructor5.Elements.Commodities.Generators.BuffBasedStateGeneratorEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.Commodities.Generators"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <c:TabControl>
+        <c:TabItem Header="LotTraitBuffs">
+            <c:SpacedStack TopMargin="True">
+                <c:ReferenceListControl ElementReferenceList="{Binding Buffs}"
+                                        ElementTypeName="Buff"
+                                        ItemTypeName="BuffWithReasonReferenceListItem"
+                                        ShowCreateButton="True" />
+            </c:SpacedStack>
+        </c:TabItem>
+        <c:TabItem Header="Settings">
+            <c:SpacedStack TopMargin="True">
+                <StackPanel>
+                    <c:Field Label="DurationBeforeFirstLevel" LabelWidth="200">
+                        <xctk:IntegerUpDown Increment="60"
+                                            Minimum="0"
+                                            Text="{Binding DurationBeforeFirstLevel}" />
+                    </c:Field>
+                    <c:Field Label="DurationPerLevelMinimum" LabelWidth="200">
+                        <xctk:IntegerUpDown Increment="60"
+                                            Minimum="0"
+                                            Text="{Binding DurationPerLevelMinimum}" />
+                    </c:Field>
+                    <c:Field Label="DurationPerLevelIncrease" LabelWidth="200">
+                        <StackPanel>
+                            <c:TextBlock FontStyle="Italic" Text="DurationPerLevelIncreaseHelp" />
+                            <xctk:IntegerUpDown Increment="60"
+                                                Minimum="0"
+                                                Text="{Binding DurationPerLevelIncrease}" />
+                        </StackPanel>
+                    </c:Field>
+                    <c:Field Label="DurationOfLastLevel" LabelWidth="200">
+                        <xctk:IntegerUpDown Increment="60"
+                                            Minimum="0"
+                                            Text="{Binding DurationOfLastLevel}" />
+                    </c:Field>
+                </StackPanel>
+            </c:SpacedStack>
+        </c:TabItem>
+    </c:TabControl>
+</UserControl>

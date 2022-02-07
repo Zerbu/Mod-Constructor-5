@@ -72,6 +72,8 @@ namespace Constructor5.Base.Python
         public override IEnumerable<string> GetHeaders() =>
             new[] { "import services", "import sims4.resources", "from traits.trait_tracker import TraitPickerSuperInteraction", "from sims4.tuning.tunable import Tunable, TunableList, TunablePackSafeReference" };
 
+        protected internal override void Cleanup() => ObjectToInteraction.Clear();
+
         protected Dictionary<string, List<ulong>> ObjectToInteraction { get; } = new Dictionary<string, List<ulong>>();
 
         private ObjectInteractionsPythonStep()

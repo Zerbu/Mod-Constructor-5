@@ -12,8 +12,11 @@ namespace Constructor5.Elements.TestConditions
         public static readonly DependencyProperty ConditionListProperty =
             DependencyProperty.Register("ConditionList", typeof(IEnumerable<TestConditionListItem>), typeof(ConditionListControl), new PropertyMetadata(null));
 
+        public static readonly DependencyProperty EditorTagProperty =
+            DependencyProperty.Register("EditorTag", typeof(string), typeof(ConditionListControl), new PropertyMetadata(null));
+
         public static readonly DependencyProperty RegistryCategoryProperty =
-            DependencyProperty.Register("RegistryCategory", typeof(string), typeof(ConditionListControl), new PropertyMetadata("TestConditionTypes"));
+                    DependencyProperty.Register("RegistryCategory", typeof(string), typeof(ConditionListControl), new PropertyMetadata("TestConditionTypes"));
 
         public ConditionListControl() => InitializeComponent();
 
@@ -21,6 +24,12 @@ namespace Constructor5.Elements.TestConditions
         {
             get => (IEnumerable<TestConditionListItem>)GetValue(ConditionListProperty);
             set => SetValue(ConditionListProperty, value);
+        }
+
+        public string EditorTag
+        {
+            get => (string)GetValue(EditorTagProperty);
+            set => SetValue(EditorTagProperty, value);
         }
 
         public string RegistryCategory

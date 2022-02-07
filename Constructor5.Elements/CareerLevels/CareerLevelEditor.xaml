@@ -1,0 +1,90 @@
+<UserControl x:Class="Constructor5.Elements.CareerLevels.CareerLevelEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.CareerLevels"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <c:TabControl>
+        <c:TabItem Header="Settings">
+            <c:SpacedStack TopMargin="True">
+                <StackPanel>
+                    <c:Field Label="Name" LabelWidth="100">
+                        <c:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding}" />
+                    </c:Field>
+                    <c:Field Label="Description" LabelWidth="100">
+                        <c:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
+                    </c:Field>
+                </StackPanel>
+                <StackPanel>
+                    <c:Field Label="SimoleonsPerHour" LabelWidth="150">
+                        <xctk:IntegerUpDown Minimum="0" Text="{Binding SimoleonsPerHour}" />
+                    </c:Field>
+                </StackPanel>
+                <StackPanel>
+                    <c:CheckBox Content="Sunday" IsChecked="{Binding Include0Sunday}" />
+                    <c:CheckBox Content="Monday" IsChecked="{Binding Include1Monday}" />
+                    <c:CheckBox Content="Tuesday" IsChecked="{Binding Include2Tuesday}" />
+                    <c:CheckBox Content="Wednesday" IsChecked="{Binding Include3Wednesday}" />
+                    <c:CheckBox Content="Thursday" IsChecked="{Binding Include4Thursday}" />
+                    <c:CheckBox Content="Friday" IsChecked="{Binding Include5Friday}" />
+                    <c:CheckBox Content="Saturday" IsChecked="{Binding Include6Saturday}" />
+
+                    <StackPanel Visibility="{Binding RestrictTimeRange, Converter={StaticResource BoolToVis}}">
+                        <c:Field Label="BeginHour" LabelWidth="100">
+                            <xctk:IntegerUpDown Maximum="23"
+                                                Minimum="0"
+                                                Text="{Binding TimeBeginHour}" />
+                        </c:Field>
+                        <c:Field Label="BeginMinute" LabelWidth="100">
+                            <xctk:IntegerUpDown Maximum="59"
+                                                Minimum="0"
+                                                Text="{Binding TimeBeginMinute}" />
+                        </c:Field>
+                        <c:Field Label="DurationHours" LabelWidth="100">
+                            <xctk:IntegerUpDown Maximum="23"
+                                                Minimum="0"
+                                                Text="{Binding TimeDurationHour}" />
+                        </c:Field>
+                    </StackPanel>
+
+                    <c:Expander Header="NegativeEmotions">
+                        <StackPanel>
+                            <c:CheckBox Content="InvertedEmotionAngry" IsChecked="{Binding InvertedEmotionAngry}" />
+                            <c:CheckBox Content="InvertedEmotionEmbarrassed" IsChecked="{Binding InvertedEmotionEmbarrassed}" />
+                            <c:CheckBox Content="InvertedEmotionSad" IsChecked="{Binding InvertedEmotionSad}" />
+                            <c:CheckBox Content="InvertedEmotionTense" IsChecked="{Binding InvertedEmotionTense}" />
+                            <c:CheckBox Content="InvertedEmotionUncomfortable" IsChecked="{Binding InvertedEmotionUncomfortable}" />
+                            <c:CheckBox Content="InvertedEmotionBored" IsChecked="{Binding InvertedEmotionBored}" />
+                            <c:CheckBox Content="InvertedEmotionDazed" IsChecked="{Binding InvertedEmotionDazed}" />
+                        </StackPanel>
+                    </c:Expander>
+                </StackPanel>
+            </c:SpacedStack>
+        </c:TabItem>
+        <c:TabItem Header="PromotionObjectiveSet">
+            <c:SpacedStack TopMargin="True">
+                <c:TextBlock Text="PromotionObjectiveSetNotice" />
+                <c:ReferenceControlWithEditorUnderneath CreateElementFunction="CreateObjectiveSetFunction"
+                                                        EditorCategory="Default"
+                                                        ElementTypeName="ObjectiveSet"
+                                                        Reference="{Binding ObjectiveSet}"
+                                                        ShowBrowseButton="False"
+                                                        ShowCreateButton="True" />
+            </c:SpacedStack>
+        </c:TabItem>
+        <c:TabItem Header="PromotedToReward">
+            <c:SpacedStack TopMargin="True">
+                <c:TextBlock Text="PromotedToRewardNotice" />
+                <c:ReferenceControlWithEditorUnderneath ElementTypeName="RewardSet"
+                                                        Reference="{Binding PromotedToReward}"
+                                                        ShowBrowseButton="False"
+                                                        ShowCreateButton="True" />
+            </c:SpacedStack>
+        </c:TabItem>
+    </c:TabControl>
+</UserControl>

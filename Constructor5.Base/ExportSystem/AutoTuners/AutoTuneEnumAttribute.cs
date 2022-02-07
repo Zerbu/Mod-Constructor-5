@@ -10,7 +10,7 @@ namespace Constructor5.Base.ExportSystem.AutoTuners
 
         public override void AutoTune(TuningBase tuning, object value)
         {
-            if (value == null)
+            if (string.IsNullOrEmpty(value?.ToString()))
             {
                 return;
             }

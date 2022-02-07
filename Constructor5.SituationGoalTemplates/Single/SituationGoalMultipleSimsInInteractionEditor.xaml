@@ -10,12 +10,12 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:CheckBox Content="Only include Sims who are part of the same situation" IsChecked="{Binding InSituationOnly}" />
-        <c:Field Label="Number of Sims" LabelWidth="150">
+        <c:CheckBox Content="RequireSameSituation" IsChecked="{Binding InSituationOnly}" />
+        <c:Field Label="NumberOfSims" LabelWidth="150">
             <xctk:IntegerUpDown Minimum="1" Text="{Binding NumberOfSims}" />
         </c:Field>
-        <c:TextBlock Text="Note: Because of how the game is programmed, you can have any number of tags, but only one specific interaction." />
-        <c:Field Label="Specific Interaction" LabelWidth="150">
+        <c:TextBlock Text="OnlyOneSpecificInteraction" />
+        <c:Field Label="SpecificInteraction" LabelWidth="150">
             <c:ReferenceControl ElementTypeName="AnyInteraction" Reference="{Binding SpecificInteraction}" />
         </c:Field>
         <c:Field Label="InteractionTags" LabelWidth="150">

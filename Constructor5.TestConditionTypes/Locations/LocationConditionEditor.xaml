@@ -10,31 +10,33 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:Field Label="Lot Type" LabelWidth="100">
+        <c:Field Label="LotType" LabelWidth="100">
             <c:ReferenceControl ElementTypeName="Venue" Reference="{Binding LotType}" />
         </c:Field>
-        <c:CheckBox Content="Invert Lot Type Restriction" IsChecked="{Binding LotTypeRestrictionInverted}" />
-        <c:Field Label="Is On Lot" LabelWidth="100">
+        <c:CheckBox Content="InvertLotTypeRestriction" IsChecked="{Binding LotTypeRestrictionInverted}" />
+        <c:Field Label="IsOnLot" LabelWidth="100">
             <c:EnumSelectorControl SelectedItem="{Binding IsOnLot}" TypeName="LocationOnLot">
                 <c:EnumSelectorControl.Replacements>
                     <c:EnumSelectorReplaceDictionary>
-                        <system:String x:Key="OnLotOnly">On Lot Only</system:String>
-                        <system:String x:Key="PublicSpaceOnly">Public Space Only</system:String>
+                        <system:String x:Key="OnLotOnly">OnLotOnly</system:String>
+                        <system:String x:Key="PublicSpaceOnly">PublicSpaceOnly</system:String>
                     </c:EnumSelectorReplaceDictionary>
                 </c:EnumSelectorControl.Replacements>
             </c:EnumSelectorControl>
         </c:Field>
-        <c:Field Label="Is Outside" LabelWidth="100">
+        <c:Field Label="IsOutside" LabelWidth="100">
             <c:EnumSelectorControl SelectedItem="{Binding IsOutside}" TypeName="LocationIsOutside">
                 <c:EnumSelectorControl.Replacements>
                     <c:EnumSelectorReplaceDictionary>
-                        <system:String x:Key="OutsideOnly">Outside Only</system:String>
-                        <system:String x:Key="InsideOnly">Inside Only</system:String>
+                        <system:String x:Key="OutsideOnly">OutsideOnly</system:String>
+                        <system:String x:Key="InsideOnly">InsideOnly</system:String>
                     </c:EnumSelectorReplaceDictionary>
                 </c:EnumSelectorControl.Replacements>
             </c:EnumSelectorControl>
         </c:Field>
-        <c:Field Label="Participant" LabelWidth="100">
+        <c:Field x:Name="ParticipantField"
+                 Label="Participant"
+                 LabelWidth="100">
             <c:ParticipantControl Text="{Binding Participant}" />
         </c:Field>
     </StackPanel>

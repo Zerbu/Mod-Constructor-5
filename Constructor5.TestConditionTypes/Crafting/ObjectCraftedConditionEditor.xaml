@@ -20,11 +20,11 @@
         </ObjectDataProvider>
     </UserControl.Resources>
     <StackPanel>
-        <c:Field Label="Craft Type" LabelWidth="125">
+        <c:Field Label="CraftType" LabelWidth="125">
             <c:EnumSelectorControl SelectedItem="{Binding CraftType}" TypeName="ObjectCraftedConditionTypes">
                 <c:EnumSelectorControl.Replacements>
                     <c:EnumSelectorReplaceDictionary>
-                        <system:String x:Key="WithTag">With Tag</system:String>
+                        <system:String x:Key="WithTag">WithTag</system:String>
                         <system:String x:Key="UsingSkill">Using Skill</system:String>
                     </c:EnumSelectorReplaceDictionary>
                 </c:EnumSelectorControl.Replacements>
@@ -63,7 +63,7 @@
             </c:Field>
         </StackPanel>
 
-        <c:CheckBox Content="Restrict Quality" IsChecked="{Binding RestrictQuality}" />
+        <c:CheckBox Content="RestrictQuality" IsChecked="{Binding RestrictQuality}" />
         <StackPanel Visibility="{Binding RestrictQuality, Converter={StaticResource BoolToVis}}">
             <c:Field Label="Quality Comparison" LabelWidth="125">
                 <StackPanel Orientation="Horizontal">

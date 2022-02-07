@@ -6,7 +6,7 @@ using System.Collections.ObjectModel;
 
 namespace Constructor5.TestConditionTypes.Collections
 {
-    [SelectableObjectType("SituationGoalConditionTypes", "Collected Single Item Condition")]
+    [SelectableObjectType("SituationGoalConditionTypes", "CollectedSingleItemCondition")]
     [XmlSerializerExtraType]
     public class CollectedSingleItemCondition : TestCondition
     {

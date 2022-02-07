@@ -38,6 +38,8 @@ namespace Constructor5.Base.Python
 
         public override IEnumerable<string> GetHeaders() => new[] { "import services", "import sims4.resources", "from sims4.tuning.instance_manager import InstanceManager", "from sims4.resources import Types" };
 
+        protected internal override void Cleanup() { }
+
         private ImportTraitPickerPythonStep()
         {
         }

@@ -25,7 +25,7 @@
                       ItemsSource="{Binding StringList, ElementName=uc}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <c:TextBlock Text="{Binding}" />
+                        <c:TextBlock IsLocalizable="False" Text="{Binding}" />
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

@@ -14,11 +14,11 @@
             <ItemsControl x:Name="ItemsControl" Margin="{StaticResource Constructor.BigPaddingMinusTop}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <c:Button Margin="2"
-                                  HorizontalContentAlignment="Left"
-                                  Click="Button_Click"
-                                  Content="{Binding Label, Mode=OneTime}"
-                                  Tag="{Binding}" />
+                        <Button Margin="2"
+                                HorizontalContentAlignment="Left"
+                                Click="Button_Click"
+                                Content="{Binding Label, Mode=OneTime}"
+                                Tag="{Binding}" />
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>

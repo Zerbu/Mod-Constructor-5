@@ -9,30 +9,30 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:Field Label="Object Tags" LabelWidth="100">
+        <c:Field Label="ObjectTags" LabelWidth="100">
             <c:StringListControl PresetsFolder="ObjectTag" StringList="{Binding Tags}" />
         </c:Field>
-        <c:CheckBox Content="Must be owned by the active household" IsChecked="{Binding MustBeOwnedByActiveHousehold}" />
+        <c:CheckBox Content="MustBeOwnedByActiveHousehold" IsChecked="{Binding MustBeOwnedByActiveHousehold}" />
         <c:CheckBox IsChecked="{Binding AllowPublicSpace}">
             <StackPanel>
-                <c:TextBlock Text="Allow objects in the public area around the lot" />
+                <c:TextBlock Text="AllowObjectsOffLot" />
                 <c:TextBlock FontStyle="Italic"
-                           Text="This does not negate &quot;Must be owned by the active household&quot;. Check this if you want to include portable objects."
+                           Text="AllowObjectsOffLotHelp"
                            />
             </StackPanel>
         </c:CheckBox>
         <c:CheckBox IsChecked="{Binding IsCraftable}">
             <StackPanel>
-                <c:TextBlock Text="Is Craftable" />
+                <c:TextBlock Text="IsCraftable" />
                 <c:TextBlock FontStyle="Italic"
-                           Text="This should be checked if the object is created by a Sim (such as a painting or meal) rather than placed in Build Mode or from the inventory."
+                           Text="IsCraftableHelp"
                            />
             </StackPanel>
         </c:CheckBox>
         <c:Field Label="Quantity" LabelWidth="100">
             <c:ThresholdControl Threshold="{Binding Quantity}" />
         </c:Field>
-        <c:CheckBox Content="Restrict Simoleon Value" IsChecked="{Binding RestrictSimoleonValue}" />
+        <c:CheckBox Content="RestrictSimoleonValue" IsChecked="{Binding RestrictSimoleonValue}" />
         <c:Field Label="Simoleon Value"
                  LabelWidth="100"
                  Visibility="{Binding RestrictSimoleonValue, Converter={StaticResource BoolToVis}}">

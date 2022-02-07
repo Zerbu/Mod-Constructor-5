@@ -5,6 +5,7 @@ using Constructor5.Core;
 using System;
 using System.Linq;
 using System.Windows;
+using System.Windows.Input;
 
 namespace Constructor5.UI.Dialogs.AddElement
 {
@@ -27,6 +28,10 @@ namespace Constructor5.UI.Dialogs.AddElement
 
         void IOnElementCreated.OnElementCreated(Element element)
         {
+            if (Keyboard.IsKeyDown(Key.LeftCtrl) || Keyboard.IsKeyDown(Key.RightCtrl))
+            {
+                return;
+            }
             Close();
         }
 

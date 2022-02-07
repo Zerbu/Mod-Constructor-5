@@ -10,8 +10,8 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:CheckBox Content="Only include Sims who are part of the same situation" IsChecked="{Binding InSituationOnly}" />
-        <c:Field Label="Number of Sims" LabelWidth="150">
+        <c:CheckBox Content="RequireSameSituation" IsChecked="{Binding InSituationOnly}" />
+        <c:Field Label="NumberOfSims" LabelWidth="150">
             <xctk:IntegerUpDown Text="{Binding NumberOfSims}" />
         </c:Field>
         <c:Field Label="Emotion" LabelWidth="150">

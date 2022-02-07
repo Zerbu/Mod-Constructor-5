@@ -9,9 +9,9 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:Field Label="Object Instance Key (Hex)" LabelWidth="150">
+        <c:Field Label="ObjectInstanceKeyHex" LabelWidth="150">
             <TextBox Text="{Binding ObjectHex, UpdateSourceTrigger=PropertyChanged}" />
         </c:Field>
-        <c:CheckBox Content="Unlock In Build Mode (for locked objects)" IsChecked="{Binding UnlockInBuildMode}" />
+        <c:CheckBox Content="UnlockInBuildMode" IsChecked="{Binding UnlockInBuildMode}" />
     </StackPanel>
 </UserControl>

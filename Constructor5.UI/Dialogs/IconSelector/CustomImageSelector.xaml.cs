@@ -20,7 +20,7 @@ namespace Constructor5.UI.Dialogs.IconSelector
         {
             InitializeComponent();
 
-            foreach(var effect in Effects)
+            foreach (var effect in Effects)
             {
                 EffectsComboBox.Items.Add(effect);
             }
@@ -29,6 +29,8 @@ namespace Constructor5.UI.Dialogs.IconSelector
         }
 
         public event Action<ElementIcon> ImageSelected;
+
+        public void SetPath(string path) => ImportPathTextBox.Text = path;
 
         private ImageEffect[] Effects { get; } =
         {

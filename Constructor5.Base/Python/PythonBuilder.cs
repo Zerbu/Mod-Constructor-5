@@ -17,7 +17,14 @@ namespace Constructor5.Base.Python
             Current.Steps.Add(step);
         }
 
-        public static void Clear() => Current = null;
+        public static void Clear()
+        {
+            foreach(var step in Current.Steps)
+            {
+                step.Cleanup();
+            }
+            Current = null;
+        }
 
         public static PythonBuilder GetPythonBuilder()
         {

@@ -12,7 +12,7 @@
         <c:Field Label="Name" LabelWidth="150">
             <c:STBLStringControl Text="{Binding SIInfoComponent.Name, ElementName=uc}" UpdateLabelForElement="{Binding}" />
         </c:Field>
-        <c:Field Label="Name On Target" LabelWidth="150">
+        <c:Field Label="NameOnTarget" LabelWidth="150">
             <c:STBLStringControl Text="{Binding SIInfoComponent.NameOnTarget, ElementName=uc}" />
         </c:Field>
         <c:Field Label="InteractionType" LabelWidth="150">

@@ -15,6 +15,9 @@ namespace Constructor5.Base.ExportSystem.Tuning
         [XmlAttribute("i")]
         public string InstanceType { get; set; }
 
+        [XmlIgnore]
+        public string InstanceTypeKeyOverride { get; set; }
+
         [XmlAttribute("m")]
         public string Module { get; set; }
 
@@ -31,6 +34,6 @@ namespace Constructor5.Base.ExportSystem.Tuning
 
         public string GetHexInstanceKey() => InstanceKey.ToString("X");
 
-        public string GetHexTypeKey() => FNVHasher.FNV32(InstanceType, false).ToString("X");
+        public string GetHexTypeKey() => InstanceTypeKeyOverride ?? FNVHasher.FNV32(InstanceType, false).ToString("X");
     }
 }

@@ -124,7 +124,7 @@ namespace Constructor5.UI.Shared
         {
             var settableObject = (IHasSettableLabel)Object;
 
-            var input = FancyInputBox.Show("Enter a new label for this object, or leave the box empty to reset.", settableObject.SettableLabel);
+            var input = FancyInputBox.Show("EnterLabelForObject", settableObject.SettableLabel);
             if (input == null)
             {
                 return;

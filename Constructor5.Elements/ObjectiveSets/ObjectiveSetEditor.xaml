@@ -15,17 +15,17 @@
         </c:Field>
         <c:TabControl>
             <c:TabItem Header="Objectives">
-                <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                <c:SpacedStack TopMargin="True">
                     <c:ReferenceListControl BrowseWarning="Note: If multiple sets share the same objective, completing it will count towards all of them, not just the one that is active. For example, if you add the &quot;Work out for 8 total hours&quot; from the Bodybuilder aspiration to a custom aspiration, and your Sim has already compeleted it as part of the Bodybuilder aspiration, it will already be completed in your custom aspiration even if it was never selected before. If you don't want this to happen, create a new objective instead."
                                             CreateElementFunction="ReferenceListControl_CreateElementFunction"
                                             EditorCategory="Default"
                                             ElementReferenceList="{Binding Objectives}"
                                             ElementTypeName="Objective"
                                             ShowCreateButton="True" />
-                </StackPanel>
+                </c:SpacedStack>
             </c:TabItem>
             <c:TabItem Header="Settings">
-                <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                <c:SpacedStack TopMargin="True">
                     <c:CheckBox Content="OnlyRequireSomeObjectives" IsChecked="{Binding OnlyRequireSomeObjectives}" />
                     <c:Field Label="Number Required"
                              LabelWidth="100"
@@ -35,12 +35,10 @@
                     <c:CheckBox IsChecked="{Binding AlwaysTrack}">
                         <StackPanel>
                             <c:TextBlock Text="AlwaysTrack" />
-                            <c:TextBlock FontStyle="Italic"
-                                       Text="AlwaysTrackObjectiveSetHelp"
-                                       />
+                            <c:TextBlock FontStyle="Italic" Text="AlwaysTrackObjectiveSetHelp" />
                         </StackPanel>
                     </c:CheckBox>
-                </StackPanel>
+                </c:SpacedStack>
             </c:TabItem>
         </c:TabControl>
     </StackPanel>
