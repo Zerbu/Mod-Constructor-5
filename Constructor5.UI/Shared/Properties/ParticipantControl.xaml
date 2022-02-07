@@ -15,9 +15,9 @@
         </Grid.ColumnDefinitions>
         <c:TextBoxWithPresetsControl PresetsFolder="Participant" Text="{Binding Text, ElementName=uc}" />
         <c:Button x:Name="HelpButton"
-                Grid.Column="1"
-                VerticalAlignment="Center"
-                Click="HelpButton_Click"
-                Content="?" />
+                  Grid.Column="1"
+                  VerticalAlignment="Center"
+                  Click="HelpButton_Click"
+                  Content="?" />
     </Grid>
 </UserControl>

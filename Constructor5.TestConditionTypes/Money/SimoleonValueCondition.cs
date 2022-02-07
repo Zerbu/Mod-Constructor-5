@@ -15,6 +15,7 @@ namespace Constructor5.TestConditionTypes.Money
         public SimoleonValueCondition() => GeneratedLabel = "Money Condition";
 
         public SimoleonValueContext Context { get; set; } = SimoleonValueContext.NetWorth;
+
         [AutoTuneThresholdTuple("value_threshold")]
         public Threshold Threshold { get; set; } = new Threshold();
 

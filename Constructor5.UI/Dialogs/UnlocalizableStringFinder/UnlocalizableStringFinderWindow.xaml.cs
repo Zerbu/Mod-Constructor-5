@@ -31,26 +31,28 @@ namespace Constructor5.UI.Dialogs.UnlocalizableStringFinder
 
         private void XMLReplaceButton_Click(object sender, RoutedEventArgs e)
         {
-            if (!FancyMessageBox.ShowOKCancel("THIS IS DANGEROUS! CONTINUE???"))
-            {
-                return;
-            }
-
             var strings = TextStringManager.GetAll();
             foreach (var xamlFile in Directory.GetFiles("D:\\Program Sources\\Constructor5\\Constructor5", "*.xaml", SearchOption.AllDirectories))
             {
-                var text = File.ReadAllText(xamlFile);
+                var originalText = File.ReadAllText(xamlFile);
+                var text = originalText;
+
                 foreach (var str in strings)
                 {
                     var valueToUse = str.Value.Replace("\"", "&quot;");
                     text = text.Replace($"Content=\"{valueToUse}\"", $"Content=\"{str.Key}\"");
+                    text = text.Replace($"DeleteMessage=\"{valueToUse}\"", $"DeleteMessage=\"{str.Key}\"");
                     text = text.Replace($"Header=\"{valueToUse}\"", $"Header=\"{str.Key}\"");
                     text = text.Replace($"Label=\"{valueToUse}\"", $"Label=\"{str.Key}\"");
                     text = text.Replace($"Text=\"{valueToUse}\"", $"Text=\"{str.Key}\"");
                     text = text.Replace($">{valueToUse}<", $">{str.Key}<");
                     text = text.Replace($">{valueToUse}</system:String>", $">{str.Key}</system:String>");
                 }
-                File.WriteAllText(xamlFile, text);
+
+                if (!text.Equals(originalText))
+                {
+                    File.WriteAllText(xamlFile, text);
+                }
             }
 
             string ReplaceSelectableObject(string text, string registryCategory, KeyValuePair<string, string> keyValuePair)
@@ -60,7 +62,8 @@ namespace Constructor5.UI.Dialogs.UnlocalizableStringFinder
 
             foreach (var csFile in Directory.GetFiles("D:\\Program Sources\\Constructor5\\Constructor5", "*.cs", SearchOption.AllDirectories))
             {
-                var text = File.ReadAllText(csFile);
+                var originalText = File.ReadAllText(csFile);
+                var text = originalText;
                 foreach (var str in strings)
                 {
                     var valueToUse = str.Value.Replace("\"", "\\" + "\"");
@@ -80,10 +83,18 @@ namespace Constructor5.UI.Dialogs.UnlocalizableStringFinder
                     text = ReplaceSelectableObject(text, "ObjectiveConditionTypes", str);
                     text = ReplaceSelectableObject(text, "HolidayTraditionConditionTypes", str);
                     text = ReplaceSelectableObject(text, "SituationGoalConditionTypes", str);
+
+                    text = ReplaceSelectableObject(text, "RewardTypes", str);
+                    text = ReplaceSelectableObject(text, "RandomRewardTypes", str);
+
                     text = text.Replace($"Description = \"{str.Value}\"", $"Description = \"{str.Key}\"");
                     //[SelectableObjectType("SituationGoalTemplates", "SimConditionGoal")]
                 }
-                File.WriteAllText(csFile, text);
+
+                if (!text.Equals(originalText))
+                {
+                    File.WriteAllText(csFile, text);
+                }
             }
         }
     }

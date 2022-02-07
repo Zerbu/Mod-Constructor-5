@@ -51,6 +51,10 @@ namespace Constructor5.DebugTools.PresetExtractor
 
         public static PresetInstruction[] Loot { get; } = PresetInstruction.CreateBatch("Action", "Loot", "All Loot Actions", "", new Dictionary<string, string>
         {
+            { "Career Daily Tasks", "CareerBenefit_" },
+            { "Character Values", "LifeSkill_" },
+            { "Reputation", "Reputation_" },
+            { "Relationship Gain", "relationship_change" },
         });
 
         public static PresetInstruction[] MixerInteractions { get; } = PresetInstruction.CreateBatch("Interaction", "MixerInteraction", "All Mixer Interactions", "display_name", new Dictionary<string, string>

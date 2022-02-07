@@ -21,22 +21,22 @@
 
         <c:CheckBox Content="Restrict Time Range" IsChecked="{Binding RestrictTimeRange}" />
         <StackPanel Visibility="{Binding RestrictTimeRange, Converter={StaticResource BoolToVis}}">
-            <c:Field Label="Begin Hour" LabelWidth="100">
+            <c:Field Label="BeginHour" LabelWidth="100">
                 <xctk:IntegerUpDown Maximum="23"
                                     Minimum="0"
                                     Text="{Binding TimeBeginHour}" />
             </c:Field>
-            <c:Field Label="Begin Minute" LabelWidth="100">
+            <c:Field Label="BeginMinute" LabelWidth="100">
                 <xctk:IntegerUpDown Maximum="59"
                                     Minimum="0"
                                     Text="{Binding TimeBeginMinute}" />
             </c:Field>
-            <c:Field Label="Duration Hours" LabelWidth="100">
+            <c:Field Label="DurationHours" LabelWidth="100">
                 <xctk:IntegerUpDown Maximum="23"
                                     Minimum="0"
                                     Text="{Binding TimeDurationHour}" />
             </c:Field>
-            <c:Field Label="Duration Extra Minutes (after hours have elapsed)" LabelWidth="100">
+            <c:Field Label="DurationExtraMinutes" LabelWidth="100">
                 <xctk:IntegerUpDown Maximum="59"
                                     Minimum="0"
                                     Text="{Binding TimeDurationMinute}" />

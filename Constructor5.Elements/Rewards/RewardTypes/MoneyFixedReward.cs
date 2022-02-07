@@ -4,8 +4,8 @@ using Constructor5.Core;
 
 namespace Constructor5.Elements.Rewards.RewardTypes
 {
-    [SelectableObjectType("RewardTypes", "Money Reward (Fixed Amount)")]
-    [SelectableObjectType("RandomRewardTypes", "Money Reward (Fixed Amount)")]
+    [SelectableObjectType("RewardTypes", "MoneyRewardFixedAmount")]
+    [SelectableObjectType("RandomRewardTypes", "MoneyRewardFixedAmount")]
     [XmlSerializerExtraType]
     public class MoneyFixedReward : Reward
     {

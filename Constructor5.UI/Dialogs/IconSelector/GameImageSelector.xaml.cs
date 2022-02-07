@@ -27,9 +27,16 @@ namespace Constructor5.UI.Dialogs.IconSelector
 
         public event Action<ElementIcon> ImageSelected;
 
+        public event Action<ImageSelectorItem> ListViewItemChanged;
+
         private ICollectionView CurrentView { get; set; }
 
+        private void Button_Click(object sender, RoutedEventArgs e) => RefreshImages();
+
         private void DirectoriesListView_SelectionChanged(object sender, SelectionChangedEventArgs e) => RefreshImages();
+
+        private void ImagesListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+            => ListViewItemChanged.Invoke((ImageSelectorItem)ImagesListView.SelectedItem);
 
         private void RefreshImages()
         {
@@ -55,7 +62,5 @@ namespace Constructor5.UI.Dialogs.IconSelector
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e) => RefreshImages();
-
-        private void Button_Click(object sender, RoutedEventArgs e) => RefreshImages();
     }
 }

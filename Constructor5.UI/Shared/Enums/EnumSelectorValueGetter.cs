@@ -4,11 +4,17 @@ using System.Collections.Generic;
 
 namespace Constructor5.UI.Shared
 {
+    [Obsolete]
     public static class EnumSelectorValueGetter
     {
         public static IEnumerable<EnumSelectorValue> GetValues(Type type, EnumSelectorReplaceDictionary displayText)
         {
             var result = new List<EnumSelectorValue>();
+
+            if (displayText == null)
+            {
+                displayText = new EnumSelectorReplaceDictionary();
+            }
 
             if (type == null || displayText == null)
             {

@@ -8,13 +8,13 @@ namespace Constructor5.Core
 {
     public static class XmlSaver
     {
-        public static void SaveFile(object obj, string fileName)
+        public static void SaveFile(object obj, string fileName, bool hasNamespace = true)
         {
             AutoCreateDirectory(fileName);
 
             // save to a memory stream first to prevent the file from becoming corrupted if there is an error
             var memoryStream = new MemoryStream();
-            SaveStream(obj, memoryStream);
+            SaveStream(obj, memoryStream, hasNamespace);
 
             using (var fileStream = File.Open(fileName, FileMode.OpenOrCreate))
             {
@@ -23,7 +23,19 @@ namespace Constructor5.Core
             }
         }
 
-        public static void SaveStream(object obj, Stream stream) => GetSerializer(obj.GetType()).Serialize(stream, obj);
+        public static void SaveStream(object obj, Stream stream, bool hasNamespace = true)
+        {
+            if (!hasNamespace)
+            {
+                var ns = new XmlSerializerNamespaces();
+                ns.Add("", "");
+                GetSerializer(obj.GetType()).Serialize(stream, obj, ns);
+            }
+            else
+            {
+                GetSerializer(obj.GetType()).Serialize(stream, obj);
+            }
+        }
 
         private static Dictionary<Type, XmlSerializer> Serializers { get; } = new Dictionary<Type, XmlSerializer>();
 

@@ -54,8 +54,8 @@ namespace Constructor5.Elements.AspirationTracks
 
             var header = (TuningHeader)context.Tuning;
 
-            header.SimDataHandler.WriteText(148, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
-            header.SimDataHandler.WriteText(144, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
+            header.SimDataHandler.WriteText(148, Exporter.Current.STBLBuilder?.GetKey(Name) ?? 0);
+            header.SimDataHandler.WriteText(144, Exporter.Current.STBLBuilder?.GetKey(Description) ?? 0);
             header.SimDataHandler.WriteTGI(152, Icon.GetUncommentedText(), Element);
 
             header.SimDataHandler.Write(136, ElementTuning.GetSingleInstanceKey(Category) ?? 0);

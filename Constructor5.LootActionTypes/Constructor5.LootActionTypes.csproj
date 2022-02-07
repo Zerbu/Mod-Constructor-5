@@ -101,6 +101,10 @@
     <Compile Include="Buffs\RemoveBuffsActionEditor.xaml.cs">
       <DependentUpon>RemoveBuffsActionEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RelBits\RelBitAction.cs" />
+    <Compile Include="RelBits\RelBitActionBaseEditor.xaml.cs">
+      <DependentUpon>RelBitActionBaseEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Statistic\AddStatisticAction.cs" />
     <Compile Include="Statistic\ChangeStatisticByCategoryFixedAction.cs" />
     <Compile Include="Statistic\ChangeStatisticByCategoryFixedActionEditor.xaml.cs">
@@ -217,6 +221,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Notifications\NotificationActionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RelBits\RelBitActionBaseEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -14,7 +14,7 @@
     <UserControl.Resources>
         <c:SimpleAddToListCommand x:Key="AddCommand" Type="{x:Type local:HolidayTraditionPreference}" />
         <c:SimpleRemoveFromListCommand x:Key="RemoveCommand"
-                                       DeleteMessage="Are you sure you want to remove this preference?"
+                                       DeleteMessage="AreYouSurePreference"
                                        Type="{x:Type local:HolidayTraditionPreference}" />
     </UserControl.Resources>
     <ScrollViewer>

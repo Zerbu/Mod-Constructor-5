@@ -43,7 +43,7 @@
             <ListView x:Name="ImagesListView"
                       Grid.Row="1"
                       ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                      SelectionMode="Single">
+                      SelectionMode="Single" SelectionChanged="ImagesListView_SelectionChanged">
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel Orientation="Horizontal" />

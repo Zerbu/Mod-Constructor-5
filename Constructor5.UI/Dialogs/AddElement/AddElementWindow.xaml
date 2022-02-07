@@ -51,10 +51,10 @@
                                  TextChanged="ElementNameTextBox_TextChanged" />
                     </c:Field>
                     <c:Button Grid.Column="1"
-                            Margin="2"
-                            Command="{StaticResource ElementAddCommand}"
-                            Content="CreateElement"
-                            IsDefault="True" />
+                              Margin="2"
+                              Command="{StaticResource ElementAddCommand}"
+                              Content="CreateElement"
+                              IsDefault="True" />
                 </Grid>
             </StackPanel>
         </Grid>

@@ -15,6 +15,8 @@ namespace Constructor5.Base.ElementSystem
 
         public static ReadOnlyObservableCollection<Element> AllElements { get; }
 
+        public static Element FocusedElement { get; set; }
+
         public static Element Create(Type type, string label, bool isContextSpecific = false)
         {
             var result = (Element)Reflection.CreateObject(type);

@@ -15,9 +15,11 @@
         <c:Field Label="Threshold" LabelWidth="100">
             <c:ThresholdControl Threshold="{Binding Threshold}" />
         </c:Field>
-        <c:CheckBox Content="Active Only" IsChecked="{Binding ActiveOnly}" />
-        <c:CheckBox Content="Inverted (pass if conditions are not met)" IsChecked="{Binding Inverted}" />
-        <c:Field Label="Participant" LabelWidth="100">
+        <c:CheckBox Content="ActiveOnly" IsChecked="{Binding ActiveOnly}" />
+        <c:CheckBox Content="InvertedGeneric)" IsChecked="{Binding Inverted}" />
+        <c:Field x:Name="ParticipantField"
+                 Label="Participant"
+                 LabelWidth="100">
             <c:ParticipantControl Text="{Binding Participant}" />
         </c:Field>
 

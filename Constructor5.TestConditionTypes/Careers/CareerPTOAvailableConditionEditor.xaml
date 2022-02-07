@@ -12,11 +12,13 @@
         <c:Field Label="Career" LabelWidth="100">
             <c:ReferenceControl ElementTypeName="Career" Reference="{Binding Career}" />
         </c:Field>
-        <c:Field Label="Required PTO Available" LabelWidth="100">
+        <c:Field Label="RequiredPTOAvailable" LabelWidth="100">
             <c:ThresholdControl Threshold="{Binding RequiredPtoAvailable}" />
         </c:Field>
-        <c:CheckBox Content="Inverted (pass if conditions are not met)" IsChecked="{Binding Inverted}" />
-        <c:Field Label="Participant" LabelWidth="100">
+        <c:CheckBox Content="InvertedGeneric)" IsChecked="{Binding Inverted}" />
+        <c:Field x:Name="ParticipantField"
+                 Label="Participant"
+                 LabelWidth="100">
             <c:ParticipantControl Text="{Binding Participant}" />
         </c:Field>
     </StackPanel>

@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.Buffs"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:testconditions="clr-namespace:Constructor5.Elements.TestConditions"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              x:Name="uc"
              d:DesignHeight="450"
@@ -12,6 +13,22 @@
              mc:Ignorable="d">
 
     <c:SpacedStack>
+        <StackPanel x:Name="ProximityStack" Visibility="Collapsed">
+            <c:Field Label="Reason" LabelWidth="100">
+                <StackPanel>
+                    <c:TextBlock Text="BuffReasonHelp" />
+                    <c:STBLStringControl Text="{Binding BuffSpecialCasesComponent.ProximityReason, ElementName=uc}" />
+                </StackPanel>
+            </c:Field>
+            <c:Field Label="Conditions" LabelWidth="100">
+                <StackPanel>
+                    <c:TextBlock Text="ProximityBuffConditionsNotice" />
+                    <c:TextBlock FontWeight="Bold" Text="ProximityBuffConditionsNoticeTargetSim" />
+                    <testconditions:ConditionListControl ConditionList="{Binding BuffSpecialCasesComponent.ProximityConditions, ElementName=uc}" />
+                </StackPanel>
+            </c:Field>
+        </StackPanel>
+
         <StackPanel>
             <c:Field Label="Name" LabelWidth="100">
                 <c:STBLStringControl Text="{Binding BuffInfoComponent.Name, ElementName=uc}" UpdateLabelForElement="{Binding}" />
@@ -35,7 +52,7 @@
                                         ResetToLabel="Happy" />
                 </c:Field>
                 <c:Field Label="EmotionWeight" LabelWidth="150">
-                    <xctk:IntegerUpDown Minimum="1" Text="{Binding BuffInfoComponent.EmotionWeight, ElementName=uc}" />
+                    <xctk:IntegerUpDown Minimum="0" Text="{Binding BuffInfoComponent.EmotionWeight, ElementName=uc}" />
                 </c:Field>
             </StackPanel>
         </StackPanel>

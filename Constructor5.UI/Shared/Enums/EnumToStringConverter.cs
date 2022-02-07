@@ -3,6 +3,7 @@ using System.ComponentModel;
 
 namespace Constructor5.UI.Shared
 {
+    [Obsolete]
     public class EnumToStringConverter : TypeConverter
     {
         public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType) => (sourceType.Equals(typeof(Enum)));

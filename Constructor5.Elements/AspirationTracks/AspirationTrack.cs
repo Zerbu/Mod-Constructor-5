@@ -1,21 +1,20 @@
 using Constructor5.Base.ComponentSystem;
+using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
-using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
-using Constructor5.Elements.Shared;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace Constructor5.Elements.AspirationTracks
 {
-    [ElementTypeData("AspirationTrack", false, ElementTypes = new[] { typeof(AspirationTrack) }, PresetFolders = new[] { "AspirationTrack" }, IsRootType = true)]
-    public class AspirationTrack : SimpleComponentElement<AspirationTrackComponent>, IExportableElement
+    [ElementTypeData("AspirationTrack", true, ElementTypes = new[] { typeof(AspirationTrack) }, PresetFolders = new[] { "AspirationTrack" }, IsRootType = true)]
+    public class AspirationTrack : SimpleComponentElement<AspirationTrackComponent>, IExportableElement, ISupportsCustomTuning
     {
+        public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
+
         void IExportableElement.OnExport()
         {
             var tuning = ElementTuning.Create(this);
@@ -35,6 +34,8 @@ namespace Constructor5.Elements.AspirationTracks
             {
                 component.OnExport(context);
             }
+
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

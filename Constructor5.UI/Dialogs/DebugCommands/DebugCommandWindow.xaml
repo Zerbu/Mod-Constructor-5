@@ -1,0 +1,28 @@
+﻿<Window x:Class="Constructor5.UI.Dialogs.DebugCommands.DebugCommandWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Constructor5.UI.Dialogs.DebugCommands"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="The Sims 4 Mod Constructor (V5)"
+        Width="400"
+        Height="200"
+        FocusManager.FocusedElement="{Binding ElementName=TextBox}"
+        FontSize="{StaticResource Constructor.BigFontSize}"
+        SizeToContent="Height"
+        Style="{StaticResource Constructor.WindowStyle}"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="ToolWindow"
+        mc:Ignorable="d">
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <StackPanel>
+            <TextBox x:Name="TextBox" VerticalAlignment="Center" />
+            <Button x:Name="InvokeButton"
+                    Margin="2"
+                    HorizontalAlignment="Left"
+                    Click="InvokeButton_Click"
+                    Content="Invoke"
+                    IsDefault="True" />
+        </StackPanel>
+    </Border>
+</Window>

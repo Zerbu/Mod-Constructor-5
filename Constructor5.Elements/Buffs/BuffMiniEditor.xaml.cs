@@ -33,7 +33,11 @@ namespace Constructor5.Elements.Buffs
             DataContext = obj;
             BuffInfoComponent = ((Buff)obj).GetComponent<BuffInfoComponent>();
             BuffSpecialCasesComponent = ((Buff)obj).GetComponent<BuffSpecialCasesComponent>();
-            if (tag == "NoDuration")
+            if (tag == "ProximityBuff")
+            {
+                ProximityStack.Visibility = Visibility.Visible;
+            }
+            if (tag == "NoDuration" || tag == "ProximityBuff")
             {
                 DurationPanel.Visibility = Visibility.Collapsed;
             }

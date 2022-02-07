@@ -30,9 +30,8 @@
                         <c:Button x:Name="GenerateIDButton"
                                   Margin="2"
                                   HorizontalAlignment="Left"
-                                  Click="GenerateIDButton_Click">
-                            Generate ID from Label
-                        </c:Button>
+                                  Click="GenerateIDButton_Click"
+                                  Content="GenerateIDFromLabel" />
                     </StackPanel>
                 </c:Field>
                 <c:CheckBox x:Name="ShowPresetCheckBox" Content="ShowInBrowsedialog" />

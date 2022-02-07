@@ -6,8 +6,8 @@ using Constructor5.Elements.Buffs.References;
 
 namespace Constructor5.Elements.Rewards.RewardTypes
 {
-    [SelectableObjectType("RewardTypes", "Buff Reward")]
-    [SelectableObjectType("RandomRewardTypes", "Buff Reward")]
+    [SelectableObjectType("RewardTypes", "BuffReward")]
+    [SelectableObjectType("RandomRewardTypes", "BuffReward")]
     [XmlSerializerExtraType]
     public class BuffReward : Reward
     {

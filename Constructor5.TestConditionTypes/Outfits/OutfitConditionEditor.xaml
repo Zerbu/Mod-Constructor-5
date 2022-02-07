@@ -23,7 +23,9 @@
         <c:CheckBox Content="Situation" IsChecked="{Binding IncludeSituation}" />
         <c:CheckBox Content="Special" IsChecked="{Binding IncludeSpecial}" />
         <c:CheckBox Content="Inverted (disallow the selected outfit types)" IsChecked="{Binding Inverted}" />
-        <c:Field Label="Participant" LabelWidth="100">
+        <c:Field x:Name="ParticipantField"
+                 Label="Participant"
+                 LabelWidth="100">
             <c:ParticipantControl Text="{Binding Participant}" />
         </c:Field>
     </StackPanel>

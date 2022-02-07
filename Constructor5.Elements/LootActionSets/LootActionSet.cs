@@ -3,6 +3,7 @@ using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
+using Constructor5.Base.Python;
 using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.LootActionSets
@@ -14,6 +15,7 @@ namespace Constructor5.Elements.LootActionSets
     {
         public ObservableCollection<LASConditionGroup> ConditionGroups { get; } = new ObservableCollection<LASConditionGroup>();
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
+        public ReferenceList MergeToLoots { get; set; } = new ReferenceList();
 
         void IExportableElement.OnExport()
         {
@@ -56,8 +58,13 @@ namespace Constructor5.Elements.LootActionSets
                 if (item is LASConditionGroupAction action)
                 {
                     action.Action.OnExport(newContext);
-                    // export action
                 }
+            }
+
+            foreach(var loot in ElementTuning.GetInstanceKeys(MergeToLoots))
+            {
+                PythonBuilder.AddStep(MergeLootPythonStep.Current);
+                MergeLootPythonStep.Current.AddLootActionSet(loot, ElementTuning.GetSingleInstanceKey(this).Value);
             }
         }
     }

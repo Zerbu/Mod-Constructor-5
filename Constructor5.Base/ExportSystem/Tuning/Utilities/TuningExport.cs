@@ -9,7 +9,7 @@ namespace Constructor5.Base.ExportSystem.Tuning.Utilities
         public static void AddToQueue(TuningHeader tuning)
         {
             var memoryStream = new MemoryStream();
-            XmlSaver.SaveStream(tuning, memoryStream);
+            XmlSaver.SaveStream(tuning, memoryStream, false);
             Exporter.Current.QueueFile(tuning.GetHexTypeKey(), tuning.GetHexGroupKey(), tuning.GetHexInstanceKey(), memoryStream);
 
             if (tuning.SimDataHandler != null)

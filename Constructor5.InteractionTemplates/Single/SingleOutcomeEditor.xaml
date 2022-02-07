@@ -39,7 +39,7 @@
                         <c:ReferenceControl ElementTypeName="Animation" Reference="{Binding Animation}" />
                     </c:Field>
                     <!--<c:CheckBox x:Name="GlobalInteractionCheckBox"
-                              Content="Always available even if not assigned to a trait or buff"
+                              Content="IsGlobalInteraction"
                               IsChecked="{Binding IsGlobalInteraction}" />-->
                 </StackPanel>
             </c:TabItem>

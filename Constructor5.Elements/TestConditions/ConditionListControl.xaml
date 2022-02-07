@@ -13,7 +13,7 @@
     <UserControl.Resources>
         <c:SimpleAddToListCommand x:Key="AddConditionCommand" TypeName="TestConditionListItem" />
         <c:SimpleRemoveFromListCommand x:Key="RemoveConditionCommand"
-                                       DeleteMessage="Are you sure you want to remove this condition?"
+                                       DeleteMessage="AreYouSureCondition"
                                        TypeName="TestConditionListItem" />
     </UserControl.Resources>
     <StackPanel>
@@ -23,6 +23,7 @@
                     <StackPanel>
                         <c:SelectableObjectControl DeleteCommand="{StaticResource RemoveConditionCommand}"
                                                    EditorCategory="Default"
+                                                   EditorTag="{Binding EditorTag, ElementName=uc}"
                                                    Object="{Binding Condition}"
                                                    ShowDeleteButton="True"
                                                    Tag="{Binding}"

@@ -5,7 +5,5 @@ namespace Constructor5.Elements.Interactions.Social
 {
     public class SocialInteractionExportContext : InteractionExportContext
     {
-        public ulong? LearnTraitLootKey { get; set; }
-        public ulong TraitKey { get; set; }
     }
 }

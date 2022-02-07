@@ -31,7 +31,7 @@
                 <ControlTemplate TargetType="{x:Type TextBox}">
                     <ScrollViewer x:Name="PART_ContentHost"
                                   Background="Transparent"
-                                  Focusable="false"
+                                  Focusable="False"
                                   HorizontalScrollBarVisibility="Hidden"
                                   VerticalScrollBarVisibility="Hidden" />
                 </ControlTemplate>

@@ -14,6 +14,50 @@ namespace Constructor5.Base.ExportSystem
     {
         public List<StringValue> Strings { get; } = new List<StringValue>();
 
+        public uint? GetKey(string text, string guid, STBLString property = null)
+        {
+            if (text.StartsWith("0x"))
+            {
+                var result = CommentUtility.StripComment(text).Replace("0x", string.Empty);
+                return uint.TryParse(result, NumberStyles.HexNumber, null, out var outputInt) ? outputInt : 0;
+            }
+
+            if (property != null)
+            {
+                var existing = Strings.FirstOrDefault(x => x.UsedByStrings.Contains(property));
+                if (existing != null)
+                {
+                    return existing.Key;
+                }
+            }
+
+            var existingValue = Strings.FirstOrDefault(x => x.Value == text);
+            if (existingValue != null)
+            {
+                if (property != null)
+                {
+                    existingValue.UsedByStrings.Add(property);
+                }
+                
+                return existingValue.Key;
+            }
+
+            var newKey = FNVHasher.FNV32($"{Project.Id}:{guid}", true);
+            var newString = new StringValue()
+            {
+                Key = newKey,
+                Value = text
+            };
+            if (property != null)
+            {
+                newString.UsedByStrings.Add(property);
+            }
+            
+            Strings.Add(newString);
+
+            return newKey;
+        }
+
         public uint? GetKey(STBLString property)
         {
             if (string.IsNullOrEmpty(property.CustomText))
@@ -21,35 +65,7 @@ namespace Constructor5.Base.ExportSystem
                 return null;
             }
 
-            if (property.CustomText.StartsWith("0x"))
-            {
-                var result = CommentUtility.StripComment(property.CustomText).Replace("0x", string.Empty);
-                return uint.TryParse(result, NumberStyles.HexNumber, null, out var outputInt) ? outputInt : 0;
-            }
-
-            var existing = Strings.FirstOrDefault(x => x.UsedByStrings.Contains(property));
-            if (existing != null)
-            {
-                return existing.Key;
-            }
-
-            var existingValue = Strings.FirstOrDefault(x => x.Value == property.CustomText);
-            if (existingValue != null)
-            {
-                existingValue.UsedByStrings.Add(property);
-                return existingValue.Key;
-            }
-
-            var newKey = FNVHasher.FNV32($"{Project.Id}:{property.Guid}", true);
-            var newString = new StringValue()
-            {
-                Key = newKey,
-                Value = property.CustomText
-            };
-            newString.UsedByStrings.Add(property);
-            Strings.Add(newString);
-
-            return newKey;
+            return GetKey(property.CustomText, property.Guid, property);
         }
 
         public class StringValue

@@ -8,10 +8,10 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel>
         <c:ReferenceListControl ElementReferenceList="{Binding LootActionSets}" ElementTypeName="LootActionSet" ShowCreateButton="True" EditorCategory="Default" EditorTag="NoScrollbar" />
-        <c:Field Label="Required Receivers Range" LabelWidth="200">
+        <c:Field Label="RequiredReceiversRange" LabelWidth="200">
             <StackPanel>
                 <c:IntBoundsControl Bounds="{Binding RequiredReceiversRange}" Minimum="1" Maximum="20" />
-                <c:TextBlock FontStyle="Italic">If defined, the number of receivers must be in the given range.</c:TextBlock>
+                <c:TextBlock FontStyle="Italic">BroadcasterNumberOfReceiversHelp</c:TextBlock>
             </StackPanel>
         </c:Field>
     </StackPanel>

@@ -7,12 +7,10 @@ using System.Collections.ObjectModel;
 namespace Constructor5.Elements.SituationGoals.Components
 {
     [XmlSerializerExtraType]
-    [HasAutoEditor("PostConditionsHelp")]
     public class SituationGoalPostConditionsComponent : SituationGoalComponent
     {
         public override string ComponentLabel => "PostConditions";
 
-        [AutoEditorConditionList]
         public ObservableCollection<TestConditionListItem> Conditions { get; set; } = new ObservableCollection<TestConditionListItem>();
 
         protected internal override void OnExport(SituationGoalExportContext context)

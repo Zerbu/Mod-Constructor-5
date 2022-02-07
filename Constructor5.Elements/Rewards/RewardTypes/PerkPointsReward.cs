@@ -4,8 +4,8 @@ using Constructor5.Core;
 
 namespace Constructor5.Elements.Rewards.RewardTypes
 {
-    [SelectableObjectType("RewardTypes", "Perk Points Reward")]
-    [SelectableObjectType("RandomRewardTypes", "Perk Points Reward")]
+    [SelectableObjectType("RewardTypes", "PerkPointsReward")]
+    [SelectableObjectType("RandomRewardTypes", "PerkPointsReward")]
     [XmlSerializerExtraType]
     public class PerkPointsReward : Reward
     {

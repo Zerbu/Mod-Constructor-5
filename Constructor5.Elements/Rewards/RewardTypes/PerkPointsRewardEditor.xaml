@@ -10,7 +10,7 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:Field Label="Perk Type" LabelWidth="100">
+        <c:Field Label="PerkType" LabelWidth="100">
             <c:TextBoxWithPresetsControl PresetsFolder="PerkType" Text="{Binding PerkType}" />
         </c:Field>
         <c:Field Label="Amount" LabelWidth="100">

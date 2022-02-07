@@ -33,85 +33,95 @@
     </UserControl.Resources>
     <c:TabControl>
         <c:TabItem Header="MainContent">
-            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                <c:Field Label="Name" LabelWidth="150">
-                    <c:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding}" />
-                </c:Field>
-                <c:Field Label="ToolTip" LabelWidth="150">
-                    <c:STBLStringControl Text="{Binding ToolTip}" />
-                </c:Field>
-                <c:Field Label="SatisfactionPoints" LabelWidth="150">
-                    <xctk:IntegerUpDown Increment="25"
-                                        Minimum="0"
-                                        Text="{Binding SatisfactionPoints}" />
-                </c:Field>
-                <c:Field Label="CompletionType" LabelWidth="150">
-                    <ComboBox x:Name="CompletionTypeComboBox"
-                              IsEditable="False"
-                              ItemsSource="{Binding Source={StaticResource DataProvider}}"
-                              SelectedItem="{Binding CompletionType, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
-                        <ComboBox.ItemTemplate>
-                            <DataTemplate>
-                                <ContentPresenter Content="{Binding DisplayText}" />
-                            </DataTemplate>
-                        </ComboBox.ItemTemplate>
-                    </ComboBox>
-                </c:Field>
+            <c:SpacedStack>
                 <StackPanel>
-                    <StackPanel.Style>
-                        <Style TargetType="StackPanel">
-                            <Setter Property="Visibility" Value="Collapsed" />
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding SelectedItem.Value, ElementName=CompletionTypeComboBox}" Value="BasedOnObjectiveType">
-                                    <Setter Property="Visibility" Value="Visible" />
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </StackPanel.Style>
-                    <c:CheckBox IsChecked="{Binding HomeLotOnly}">
-                        <StackPanel>
-                            <c:TextBlock Text="OnlyTrackOnHomeLot" />
-                            <c:TextBlock FontStyle="Italic">OnlyTrackOnHomeLotHelp</c:TextBlock>
-                        </StackPanel>
-                    </c:CheckBox>
-                </StackPanel>
-                <StackPanel>
-                    <StackPanel.Style>
-                        <Style TargetType="StackPanel">
-                            <Setter Property="Visibility" Value="Visible" />
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding SelectedItem.Value, ElementName=CompletionTypeComboBox}" Value="BasedOnObjectiveType">
-                                    <Setter Property="Visibility" Value="Collapsed" />
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </StackPanel.Style>
-                    <c:Field Label="Completion Type Value" LabelWidth="150">
-                        <xctk:IntegerUpDown Minimum="1" Text="{Binding CompletionTypeValue}" />
+                    <c:Field Label="Name" LabelWidth="150">
+                        <c:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding}" />
                     </c:Field>
+                    <c:Field Label="ToolTip" LabelWidth="150">
+                        <c:STBLStringControl IsMultiLine="True" Text="{Binding ToolTip}" />
+                    </c:Field>
+                    <c:Field Label="SatisfactionPoints" LabelWidth="150">
+                        <xctk:IntegerUpDown Increment="25"
+                                            Minimum="0"
+                                            Text="{Binding SatisfactionPoints}" />
+                    </c:Field>
+                    <StackPanel>
+                        <c:Field Label="CompletionType" LabelWidth="150">
+                            <ComboBox x:Name="CompletionTypeComboBox"
+                                      IsEditable="False"
+                                      ItemsSource="{Binding Source={StaticResource DataProvider}}"
+                                      SelectedItem="{Binding CompletionType, Converter={StaticResource EnumSelectorValueConverter}, ConverterParameter={StaticResource DataProvider}}">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <ContentPresenter Content="{Binding DisplayText}" />
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                        </c:Field>
+                        <StackPanel>
+                            <StackPanel.Style>
+                                <Style TargetType="StackPanel">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedItem.Value, ElementName=CompletionTypeComboBox}" Value="BasedOnObjectiveType">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </StackPanel.Style>
+                            <c:CheckBox IsChecked="{Binding HomeLotOnly}">
+                                <StackPanel>
+                                    <c:TextBlock Text="OnlyTrackOnHomeLot" />
+                                    <c:TextBlock FontStyle="Italic">OnlyTrackOnHomeLotHelp</c:TextBlock>
+                                </StackPanel>
+                            </c:CheckBox>
+                        </StackPanel>
+                        <StackPanel>
+                            <StackPanel.Style>
+                                <Style TargetType="StackPanel">
+                                    <Setter Property="Visibility" Value="Visible" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedItem.Value, ElementName=CompletionTypeComboBox}" Value="BasedOnObjectiveType">
+                                            <Setter Property="Visibility" Value="Collapsed" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </StackPanel.Style>
+                            <c:Field Label="Completion Type Value" LabelWidth="150">
+                                <xctk:IntegerUpDown Minimum="1" Text="{Binding CompletionTypeValue}" />
+                            </c:Field>
+                        </StackPanel>
+                    </StackPanel>
                 </StackPanel>
-                <c:Field Label="PrimaryCondition" LabelWidth="150">
-                    <c:SelectableObjectControl EditorCategory="Invalid"
-                                               Object="{Binding PrimaryCondition}"
-                                               TypeRegistryCategory="ObjectiveConditionTypes" />
-                </c:Field>
-                <c:ObjectEditorControl EditorCategory="Default" Object="{Binding PrimaryCondition}" />
-            </StackPanel>
-        </c:TabItem>
-        <c:TabItem Header="PostConditions">
-            <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                <c:TextBlock Text="ObjectiveAdditionalConditionsHelp" />
-                <StackPanel>
-                    <conditions:ConditionListControl ConditionList="{Binding PostConditions}" />
-                </StackPanel>
-            </StackPanel>
+                <c:TabControl>
+                    <c:TabItem Header="PrimaryCondition">
+                        <StackPanel>
+                            <c:SelectableObjectControl EditorCategory="Invalid"
+                                                       Object="{Binding PrimaryCondition}"
+                                                       TypeRegistryCategory="ObjectiveConditionTypes" />
+                            <c:ObjectEditorControl EditorCategory="Default"
+                                                   EditorTag="NoParticipant"
+                                                   Object="{Binding PrimaryCondition}" />
+                        </StackPanel>
+                    </c:TabItem>
+                    <c:TabItem Header="PostConditions">
+                        <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
+                            <c:TextBlock Text="ObjectiveAdditionalConditionsHelp" />
+                            <StackPanel>
+                                <conditions:ConditionListControl ConditionList="{Binding PostConditions}" />
+                            </StackPanel>
+                        </StackPanel>
+                    </c:TabItem>
+                </c:TabControl>
+            </c:SpacedStack>
         </c:TabItem>
         <c:TabItem Header="Advanced">
             <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
                 <c:CheckBox IsChecked="{Binding AlwaysTrack}">
                     <StackPanel>
                         <c:TextBlock Text="AlwaysTrack" />
-                        <c:TextBlock FontStyle="Italic">AlwaysTrackObjectiveHelp</c:TextBlock>
+                        <c:TextBlock FontStyle="Italic" Text="AlwaysTrackObjectiveHelp" />
                     </StackPanel>
                 </c:CheckBox>
             </StackPanel>

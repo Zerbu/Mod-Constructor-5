@@ -11,12 +11,12 @@
              mc:Ignorable="d">
     <StackPanel>
         <references:BuffWithReasonControl BuffWithReason="{Binding Buff}" EditorTag="NoDuration" />
-        <c:Field Label="Required Receivers Range" LabelWidth="200">
+        <c:Field Label="RequiredReceiversRange" LabelWidth="200">
             <StackPanel>
                 <c:IntBoundsControl Bounds="{Binding RequiredReceiversRange}"
                                          Maximum="20"
                                          Minimum="1" />
-                <c:TextBlock FontStyle="Italic">If defined, the number of receivers must be in the given range.</c:TextBlock>
+                <c:TextBlock FontStyle="Italic">BroadcasterNumberOfReceiversHelp</c:TextBlock>
             </StackPanel>
         </c:Field>
     </StackPanel>

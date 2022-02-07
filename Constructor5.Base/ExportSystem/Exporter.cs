@@ -47,7 +47,7 @@ namespace Constructor5.Base.Export
         {
             var fullMessage = new StringBuilder();
             fullMessage.AppendLine(TextStringManager.Get(message));
-            fullMessage.AppendLine(TextStringManager.Get("UserErrorElement").Replace("{id}", element.UserFacingId).Replace("{label}", element.Label));
+            fullMessage.AppendLine(TextStringManager.Get("UserErrorElement").Replace("{id}", element?.UserFacingId ?? "(No Element)").Replace("{label}", element?.Label ?? "(No Element)"));
             fullMessage.AppendLine("---");
 
             ErrorBuilder.AppendLine(fullMessage.ToString());

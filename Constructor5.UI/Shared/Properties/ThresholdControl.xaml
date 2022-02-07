@@ -11,21 +11,20 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <UserControl.Resources>
-        <ObjectDataProvider x:Key="DataProvider"
-                            MethodName="GetValues"
-                            ObjectType="{x:Type system:Enum}">
-            <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="propertytypes:ThresholdComparison" />
-            </ObjectDataProvider.MethodParameters>
-        </ObjectDataProvider>
-    </UserControl.Resources>
     <StackPanel>
         <c:Field Label="Comparison" LabelWidth="100">
             <StackPanel Orientation="Horizontal">
-                <ComboBox IsEditable="False"
-                          ItemsSource="{Binding Source={StaticResource DataProvider}}"
-                          SelectedItem="{Binding Threshold.Comparison, ElementName=uc}" />
+
+                <c:EnumSelectorControl IsLocalizable="False"
+                                       SelectedItem="{Binding Threshold.Comparison, ElementName=uc}"
+                                       TypeName="ThresholdComparison">
+                    <c:EnumSelectorControl.Replacements>
+                        <c:EnumSelectorReplaceDictionary>
+                            <system:String x:Key="Yes">Yes</system:String>
+                        </c:EnumSelectorReplaceDictionary>
+                    </c:EnumSelectorControl.Replacements>
+                </c:EnumSelectorControl>
+
             </StackPanel>
         </c:Field>
         <c:Field Label="Amount" LabelWidth="100">

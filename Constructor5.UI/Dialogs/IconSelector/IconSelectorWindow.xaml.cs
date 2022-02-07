@@ -24,5 +24,15 @@ namespace Constructor5.UI.Dialogs.IconSelector
             ImageSelected.Invoke(icon);
             Close();
         }
+
+        private void GameImageSelector_ListViewItemChanged(ImageSelectorItem obj)
+        {
+            if (obj == null)
+            {
+                return;
+            }
+
+            CustomImageSelector.SetPath(obj.Path);
+        }
     }
 }

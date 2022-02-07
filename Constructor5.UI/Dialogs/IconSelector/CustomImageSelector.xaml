@@ -17,8 +17,8 @@
 
         <StackPanel>
             <Border>
-                <StackPanel>
-                    <c:Field Label="Path">
+                <StackPanel Margin="{StaticResource Constructor.BigPadding}">
+                    <c:Field Label="Path" LabelWidth="100">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
@@ -32,7 +32,7 @@
                                       Content="Browse" />
                         </Grid>
                     </c:Field>
-                    <c:Field Label="Effect">
+                    <c:Field Label="Effect" LabelWidth="100">
                         <ComboBox x:Name="EffectsComboBox">
                             <ComboBox.ItemTemplate>
                                 <DataTemplate DataType="viewModels:ImageEffect">
@@ -42,8 +42,9 @@
                         </ComboBox>
                     </c:Field>
                     <c:Button x:Name="ImportButton"
+                              HorizontalAlignment="Right"
                               Click="ImportButton_Click"
-                              Content="Import Image" />
+                              Content="ImportImage" />
                 </StackPanel>
             </Border>
             <!--<Border Margin="0,0,0,1" Style="{StaticResource Constructor.Styles.BorderBox}">
@@ -88,7 +89,7 @@
                       Margin="2"
                       HorizontalAlignment="Right"
                       Click="DeleteImageButton_Click"
-                      Content="Delete Selected" />
+                      Content="DeleteSelected" />
         </Grid>
 
     </Grid>

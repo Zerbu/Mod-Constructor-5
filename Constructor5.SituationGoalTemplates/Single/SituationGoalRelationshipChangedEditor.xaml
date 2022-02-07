@@ -14,20 +14,16 @@
         <c:TabControl>
             <c:TabItem Header="RelationshipCondition">
                 <c:TabControl>
-                    <c:TabItem Header="Completion Condition">
+                    <c:TabItem Header="CompletionCondition">
                         <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
-                                       Text="The goal will complete when the Sim's relationship with the target matches this condition."
-                                       />
+                            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}" Text="SituationGoalRelationshipNotice" />
                             <relationships:RelationshipConditionEditorValues DataContext="{Binding RelationshipConditions}" />
                         </StackPanel>
                     </c:TabItem>
-                    <c:TabItem Header="Relationship-Based Availability Condition">
+                    <c:TabItem Header="RelationshipBasedAvailabilityCondition">
                         <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
-                                       Text="This is only valid for goals where &quot;Specific Target&quot; (in &quot;Target Settings&quot;) is set to something other than &quot;Any&quot;. This condition must pass for the goal to be selected in a goal set or whim set. For example, a &quot;Become Friends with&quot; goal should check to make sure the Sims aren't already friends."
-                                       />
-                            <c:CheckBox Content="Has Relationship-Based Availability Condition" IsChecked="{Binding HasRelationshipPreConditions}" />
+                            <c:TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}" Text="RelationshipBasedAvailabilityConditionNotice" />
+                            <c:CheckBox Content="HasRelationshipBasedAvailabilityCondition" IsChecked="{Binding HasRelationshipPreConditions}" />
                             <StackPanel Visibility="{Binding HasRelationshipPreConditions, Converter={StaticResource BoolToVis}}">
                                 <relationships:RelationshipConditionEditorValues DataContext="{Binding RelationshipPreConditions}" />
                             </StackPanel>
@@ -42,7 +38,7 @@
             </c:TabItem>
             <c:TabItem Header="TargetConditions">
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
-                    <c:TextBlock Text="The target must meet these conditions for the goal to count." />
+                    <c:TextBlock Text="SituationGoalTargetConditionsNotice" />
                     <conditions:ConditionListControl ConditionList="{Binding TargetConditions}" />
                 </StackPanel>
             </c:TabItem>

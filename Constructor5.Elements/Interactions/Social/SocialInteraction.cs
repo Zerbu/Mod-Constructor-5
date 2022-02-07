@@ -4,6 +4,7 @@ using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Core;
+using Constructor5.Elements.Interactions.Mixer;
 using Constructor5.Elements.Interactions.Shared;
 using System;
 using System.Collections.Generic;
@@ -45,6 +46,13 @@ namespace Constructor5.Elements.Interactions.Social
             foreach (var type in Reflection.GetTypesWithAttribute<SocialInteractionComponentAttribute>(false))
             {
                 AddComponent(type);
+            }
+
+            // remove mixer outcome component that was added to earlier versions due to a bug
+            var mixerComponent = GetComponent<MixerInteractionTemplateComponent>();
+            if (mixerComponent != null)
+            {
+                Components.Remove(mixerComponent);
             }
         }
     }

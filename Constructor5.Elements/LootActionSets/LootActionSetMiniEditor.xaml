@@ -41,15 +41,15 @@
                             <c:SelectableObjectControl.ContextMenu>
                                 <ContextMenu>
                                     <c:MenuItem Click="MenuItem_Click"
-                                              Command="{StaticResource AddActionCommand}"
-                                              CommandParameter="{Binding Items}"
-                                              Header="AddAction"
-                                              Tag="{Binding}" />
+                                                Command="{StaticResource AddActionCommand}"
+                                                CommandParameter="{Binding Items}"
+                                                Header="AddAction"
+                                                Tag="{Binding}" />
                                     <c:MenuItem Click="MenuItem_Click"
-                                              Command="{StaticResource AddConditionGroupCommand}"
-                                              CommandParameter="{Binding Items}"
-                                              Header="AddNestedConditionGroup"
-                                              Tag="{Binding}" />
+                                                Command="{StaticResource AddConditionGroupCommand}"
+                                                CommandParameter="{Binding Items}"
+                                                Header="AddNestedConditionGroup"
+                                                Tag="{Binding}" />
                                 </ContextMenu>
                             </c:SelectableObjectControl.ContextMenu>
                         </c:SelectableObjectControl>
@@ -75,18 +75,17 @@
                                        TypeRegistryCategory="LootActionTypes" />
         </DataTemplate>
     </UserControl.Resources>
-    <StackPanel>
-        <ItemsControl Margin="{StaticResource Constructor.BigPaddingBottomOnly}"
-                      dd:DragDrop.IsDragSource="True"
+    <c:SpacedStack>
+        <ItemsControl dd:DragDrop.IsDragSource="True"
                       dd:DragDrop.IsDropTarget="True"
                       ItemTemplate="{StaticResource ConditionGroupTemplate}"
                       ItemsSource="{Binding ConditionGroups}" />
-        <c:TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" FontWeight="Bold">RightClickConditionGroup</c:TextBlock>
-        <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" Orientation="Horizontal">
+        <c:TextBlock FontWeight="Bold">RightClickConditionGroup</c:TextBlock>
+        <StackPanel Orientation="Horizontal">
             <c:Button Margin="2"
                       Command="{StaticResource AddConditionGroupCommand}"
                       CommandParameter="{Binding ConditionGroups}"
                       Content="AddConditionGroup" />
         </StackPanel>
-    </StackPanel>
+    </c:SpacedStack>
 </UserControl>

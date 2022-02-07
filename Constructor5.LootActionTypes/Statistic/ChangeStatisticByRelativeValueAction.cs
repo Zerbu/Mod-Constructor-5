@@ -6,11 +6,11 @@ using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Statistic
 {
-    [SelectableObjectType("LootActionTypes", "StatisticsSetStatistictoExactValue")]
+    [SelectableObjectType("LootActionTypes", "ChangeStatisticByFixedAmount")]
     [XmlSerializerExtraType]
     public class ChangeStatisticByRelativeValueAction : StatisticActionBase
     {
-        public ChangeStatisticByRelativeValueAction() => GeneratedLabel = "Set Statistic to Exact Value";
+        public ChangeStatisticByRelativeValueAction() => GeneratedLabel = "Change Statistic By Fixed Amount";
 
         [AutoTuneBasic("amount")]
         public double Value { get; set; }

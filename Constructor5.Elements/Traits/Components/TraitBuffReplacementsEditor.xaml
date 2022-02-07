@@ -11,7 +11,7 @@
     <UserControl.Resources>
         <c:SimpleAddToListCommand x:Key="AddCommand" TypeName="BuffReplacement" />
         <c:SimpleRemoveFromListCommand x:Key="RemoveCommand"
-                                            DeleteMessage="Are you sure you want to delete this replacement?"
+                                            DeleteMessage="AreYouSureReplacement"
                                             TypeName="BuffReplacement" />
     </UserControl.Resources>
     <ScrollViewer>
@@ -39,7 +39,7 @@
                                 <c:Button Margin="2"
                                         HorizontalAlignment="Left"
                                         Command="{StaticResource RemoveCommand}"
-                                        Content="Remove Replacement">
+                                        Content="RemoveReplacement">
                                     <c:Button.CommandParameter>
                                         <MultiBinding Converter="{StaticResource MultiParamConverter}">
                                             <Binding Path="." />

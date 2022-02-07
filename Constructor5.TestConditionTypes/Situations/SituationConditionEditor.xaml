@@ -16,21 +16,21 @@
             <c:ReferenceListControl ElementReferenceList="{Binding Blacklist}" ElementTypeName="Situation" />
         </c:Field>
 
-        <c:CheckBox Content="Restrict Current Medal Level" IsChecked="{Binding RestrictLevel}" />
+        <c:CheckBox Content="RestrictCurrentMedalLevel" IsChecked="{Binding RestrictLevel}" />
         <c:Field Label="Level"
                  LabelWidth="100"
                  Visibility="{Binding RestrictLevel, Converter={StaticResource BoolToVis}}">
             <StackPanel>
-                <c:TextBlock FontStyle="Italic"
-                           Text="1 = Bronze, 2 = Silver, 3 = Gold"
-                           />
+                <c:TextBlock FontStyle="Italic" Text="RestrictCurrentMedalLevelHelp" />
                 <c:ThresholdControl Threshold="{Binding Level}" />
             </StackPanel>
         </c:Field>
 
-        <c:Field Label="Participant" LabelWidth="100">
+        <c:Field x:Name="ParticipantField"
+                 Label="Participant"
+                 LabelWidth="100">
             <c:ParticipantControl Text="{Binding Participant}" />
         </c:Field>
-        <c:CheckBox Content="Must be initiated by the participant" IsChecked="{Binding MustBeInitiatedByParticipant}" />
+        <c:CheckBox Content="MustBeInitiatedByParticipant" IsChecked="{Binding MustBeInitiatedByParticipant}" />
     </StackPanel>
 </UserControl>

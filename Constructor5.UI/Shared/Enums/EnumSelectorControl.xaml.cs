@@ -1,10 +1,10 @@
+using Constructor5.Base.LocalizationSystem;
 using Constructor5.Core;
 using System;
-using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
 
 namespace Constructor5.UI.Shared
 {
@@ -13,42 +13,36 @@ namespace Constructor5.UI.Shared
     /// </summary>
     public partial class EnumSelectorControl : UserControl
     {
+        public static readonly DependencyProperty IsLocalizableProperty =
+            DependencyProperty.Register("IsLocalizable", typeof(bool), typeof(EnumSelectorControl), new PropertyMetadata(true));
+
         public static readonly DependencyProperty ReplacementsProperty =
-            DependencyProperty.Register("Replacements", typeof(EnumSelectorReplaceDictionary), typeof(EnumSelectorControl), new PropertyMetadata(null, (dp, e) =>
+                    DependencyProperty.Register("Replacements", typeof(EnumSelectorReplaceDictionary), typeof(EnumSelectorControl), new PropertyMetadata(null, (dp, e) =>
             {
                 var control = (EnumSelectorControl)dp;
-                ((ObjectDataProvider)control.Resources["DataProvider"]).MethodParameters[1] = e.NewValue;
+                control.RefreshContent();
             }));
 
         public static readonly DependencyProperty SelectedItemProperty =
                     DependencyProperty.Register("SelectedItem", typeof(object), typeof(EnumSelectorControl), new FrameworkPropertyMetadata(null, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault, (dp, e) =>
                     {
                         var control = (EnumSelectorControl)dp;
-                        var dataProvider = ((ObjectDataProvider)control.Resources["DataProvider"]);
-                        var list = (IList)control.ComboBox.ItemsSource;
-
-                        var value = list.OfType<EnumSelectorValue>().FirstOrDefault(x => x.Value.Equals(e.NewValue));
-
-                        var index = list.IndexOf(value);
-                        if (control.ComboBox.SelectedIndex != index)
-                        {
-                            control.ComboBox.SelectedIndex = index;
-                        }
+                        control.ComboBox.SelectedItem = control.EnumSelectorValues.First(x => x.Value.Equals(e.NewValue)).DisplayText;
                     }));
 
         public static readonly DependencyProperty TypeProperty =
                     DependencyProperty.Register("Type", typeof(Type), typeof(EnumSelectorControl), new PropertyMetadata(null, (dp, e) =>
                     {
                         var control = (EnumSelectorControl)dp;
-                        ((ObjectDataProvider)control.Resources["DataProvider"]).MethodParameters[0] = e.NewValue;
+                        //control.RefreshContent();
                     }));
 
-        public EnumSelectorControl()
+        public EnumSelectorControl() => InitializeComponent();
+
+        public bool IsLocalizable
         {
-            InitializeComponent();
-            var dataProvider = (ObjectDataProvider)Resources["DataProvider"];
-            dataProvider.MethodParameters.Add(null);
-            dataProvider.MethodParameters.Add(null);
+            get => (bool)GetValue(IsLocalizableProperty);
+            set => SetValue(IsLocalizableProperty, value);
         }
 
         public EnumSelectorReplaceDictionary Replacements
@@ -59,7 +53,7 @@ namespace Constructor5.UI.Shared
 
         public object SelectedItem
         {
-            get => (object)GetValue(SelectedItemProperty);
+            get => GetValue(SelectedItemProperty);
             set => SetValue(SelectedItemProperty, value);
         }
 
@@ -75,10 +69,29 @@ namespace Constructor5.UI.Shared
             set => Type = Reflection.GetTypeByName(value);
         }
 
+        private List<EnumSelectorValue> EnumSelectorValues { get; } = new List<EnumSelectorValue>();
+
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+            => SelectedItem = EnumSelectorValues.FirstOrDefault(x => x.DisplayText.Equals(ComboBox.SelectedItem)).Value;
+
+        private void RefreshContent()
         {
-            var selectedItem = (EnumSelectorValue)ComboBox.SelectedItem;
-            SelectedItem = selectedItem?.Value;
+            EnumSelectorValues.Clear();
+            ComboBox.Items.Clear();
+            foreach (var value in Type.GetEnumValues())
+            {
+                var valueString = value.ToString();
+
+                var replacement = Replacements?.ContainsKey(value.ToString()) == true ? Replacements[value.ToString()] : null;
+                var displayText = IsLocalizable ? TextStringManager.Get(replacement ?? valueString) : replacement ?? valueString;
+                var result = new EnumSelectorValue
+                {
+                    Value = value,
+                    DisplayText = displayText
+                };
+                EnumSelectorValues.Add(result);
+                ComboBox.Items.Add(displayText);
+            }
         }
     }
 }

@@ -137,6 +137,10 @@
       <Project>{F6468A79-3DA7-4F70-878B-D3C47E67294E}</Project>
       <Name>Constructor5.Base</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
+      <Project>{C0F0F8A5-0F1D-47CA-A3D9-A58042374574}</Project>
+      <Name>Constructor5.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Constructor5.Elements\Constructor5.Elements.csproj">
       <Project>{8CDAF7B3-75C2-4365-A29E-BA5D85BC24EB}</Project>
       <Name>Constructor5.Elements</Name>

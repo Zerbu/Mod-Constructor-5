@@ -59,7 +59,7 @@ namespace Constructor5.Elements.Objectives
                 postConditions.Add(condition.Condition);
             }
 
-            TestConditionTuning.TuneTestConditions(tuning, postConditions, "additional_tests");
+            TestConditionTuning.TuneTestList(tuning, postConditions, "additional_tests");
 
             AutoTunerInvoker.Invoke(this, tuning);
 

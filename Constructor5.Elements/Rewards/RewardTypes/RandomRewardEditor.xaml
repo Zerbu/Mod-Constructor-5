@@ -1,28 +1,28 @@
 <UserControl x:Class="Constructor5.Elements.Rewards.RewardTypes.RandomRewardEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Constructor5.Elements.Rewards.RewardTypes"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:rewards="clr-namespace:Constructor5.Elements.Rewards"
-             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
     <UserControl.Resources>
         <c:SimpleAddToListCommand x:Key="AddCommand" Type="{x:Type rewards:RewardItem}" />
         <c:SimpleRemoveFromListCommand x:Key="RemoveCommand"
-                                            DeleteMessage="Are you sure you want to remove this reward?"
-                                            Type="{x:Type rewards:RewardItem}" />
+                                       DeleteMessage="AreYouSureReward"
+                                       Type="{x:Type rewards:RewardItem}" />
     </UserControl.Resources>
     <StackPanel>
         <ItemsControl ItemsSource="{Binding PossibleRewards}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <c:SelectableObjectControl DeleteCommand="{StaticResource RemoveCommand}"
-                                                    Object="{Binding Reward}"
-                                                    ShowDeleteButton="True"
-                                                    TypeRegistryCategory="RewardTypes">
+                                               Object="{Binding Reward}"
+                                               ShowDeleteButton="True"
+                                               TypeRegistryCategory="RewardTypes">
                         <c:SelectableObjectControl.DeleteCommandParameter>
                             <MultiBinding Converter="{StaticResource MultiParamConverter}">
                                 <Binding Path="." />
@@ -34,8 +34,8 @@
             </ItemsControl.ItemTemplate>
         </ItemsControl>
         <c:Button HorizontalAlignment="Left"
-                Command="{StaticResource AddCommand}"
-                CommandParameter="{Binding PossibleRewards}"
-                Content="Add Possible Reward" />
+                  Command="{StaticResource AddCommand}"
+                  CommandParameter="{Binding PossibleRewards}"
+                  Content="AddPossibleReward" />
     </StackPanel>
 </UserControl>

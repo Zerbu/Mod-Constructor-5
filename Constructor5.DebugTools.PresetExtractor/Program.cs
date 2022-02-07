@@ -38,6 +38,8 @@ namespace Constructor5.DebugTools.PresetExtractor
                 RunInstructions(value);
             }
 
+            Console.ReadKey();
+
             /*RunInstructions(InstructionBatches.Traits);
             RunInstructions(InstructionBatches.Animation);
             RunInstructions(InstructionBatches.AspirationCategories);
@@ -104,6 +106,11 @@ namespace Constructor5.DebugTools.PresetExtractor
                 {
                     continue;
                 }
+                /*var typeDirName = Path.GetFileName(typeDir).ToLower();
+                if (typeDirName != "action")
+                {
+                    continue;
+                }*/
                 Console.WriteLine($"Checking directory: {typeDir}");
                 foreach (var xmlFile in Directory.GetFiles(typeDir, "*.xml"))
                 {

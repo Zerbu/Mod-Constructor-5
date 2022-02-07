@@ -38,7 +38,7 @@
                                         ResetToLabel="Happy" />
                 </c:Field>
                 <c:Field Label="EmotionWeight" LabelWidth="150">
-                    <xctk:IntegerUpDown Minimum="1" Text="{Binding EmotionWeight}" />
+                    <xctk:IntegerUpDown Minimum="0" Text="{Binding EmotionWeight}" />
                 </c:Field>
             </StackPanel>
         </StackPanel>

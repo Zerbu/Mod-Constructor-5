@@ -17,10 +17,10 @@
                  VerticalAlignment="Center"
                  Text="{Binding Text, ElementName=uc, UpdateSourceTrigger=PropertyChanged}" />
         <c:Button x:Name="BrowseButton"
-                Grid.Column="1"
-                Click="BrowseButton_Click"
-                Style="{StaticResource Constructor.PlainButtonStyle}"
-                ToolTip="Browse">
+                  Grid.Column="1"
+                  Click="BrowseButton_Click"
+                  Style="{StaticResource Constructor.PlainButtonStyle}"
+                  ToolTip="Browse">
             <c:Button.Content>
                 <Image Width="25"
                        Height="25"

@@ -13,7 +13,7 @@ namespace Constructor5.Elements.HolidayTraditions.Components
         public override int ComponentDisplayOrder => 1;
         public override string ComponentLabel => "Goal";
 
-        public Reference Goal { get; set; } = new Reference();
+        public Reference Goal { get; set; } // do not add = new Reference();
 
         protected internal override void OnExport(HolidayTraditionExportContext context)
         {

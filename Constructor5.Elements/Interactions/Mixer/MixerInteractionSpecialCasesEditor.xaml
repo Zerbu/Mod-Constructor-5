@@ -10,8 +10,8 @@
     <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
         <c:CheckBox IsChecked="{Binding IsIdle}">
             <StackPanel>
-                <c:TextBlock Text="Is Idle" />
-                <c:TextBlock FontStyle="Italic">The game will treat this as an &quot;idle&quot; interaction. This is typically used for interactions attached to traits or buffs.</c:TextBlock>
+                <c:TextBlock Text="IsIdle" />
+                <c:TextBlock FontStyle="Italic">IsIdleHelp</c:TextBlock>
             </StackPanel>
         </c:CheckBox>
     </StackPanel>

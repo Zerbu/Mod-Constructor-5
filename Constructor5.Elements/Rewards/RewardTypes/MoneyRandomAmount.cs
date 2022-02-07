@@ -4,8 +4,8 @@ using Constructor5.Core;
 
 namespace Constructor5.Elements.Rewards.RewardTypes
 {
-    [SelectableObjectType("RewardTypes", "Money Reward (Random In Range)")]
-    [SelectableObjectType("RandomRewardTypes", "Money Reward (Random In Range)")]
+    [SelectableObjectType("RewardTypes", "MoneyRewardRandomInRange")]
+    [SelectableObjectType("RandomRewardTypes", "MoneyRewardRandomInRange")]
     [XmlSerializerExtraType]
     public class MoneyRandomAmount : Reward
     {

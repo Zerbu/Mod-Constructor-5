@@ -37,10 +37,9 @@
             <StackPanel>
                 <xctk:IntegerUpDown Minimum="1" Text="{Binding Iterations}" />
                 <c:TextBlock x:Name="HolidayTraditionWarning"
-                           FontStyle="Italic"
-                           Text="HolidayTraditionsIterationsNotice"
-                          
-                           Visibility="Collapsed" />
+                             FontStyle="Italic"
+                             Text="HolidayTraditionsIterationsNotice"
+                             Visibility="Collapsed" />
             </StackPanel>
         </c:Field>
         <c:CheckBox x:Name="SetScoreCheckBox"
@@ -52,8 +51,8 @@
             <xctk:IntegerUpDown Text="{Binding Score}" />
         </c:Field>
         <c:Expander x:Name="RoleTagsExpander"
-                  Margin="{StaticResource Constructor.BigPaddingMinusTop}"
-                  Header="RoleTags">
+                    Margin="{StaticResource Constructor.BigPaddingMinusTop}"
+                    Header="RoleTags">
             <StackPanel>
                 <c:TextBlock Text="SituationGoalRoleTagsDescription" />
                 <c:StringListControl PresetsFolder="RoleTag" StringList="{Binding RoleTags}" />

@@ -17,7 +17,7 @@
             <c:ReferenceControl ElementTypeName="Buff"
                                      Reference="{Binding OffLotAutonomyBuff}"
                                      ResetTo="38292"
-                                     ResetToLabel="On Lot Only" />
+                                     ResetToLabel="OnLotOnly" />
         </c:Expander>
     </StackPanel>
 </UserControl>

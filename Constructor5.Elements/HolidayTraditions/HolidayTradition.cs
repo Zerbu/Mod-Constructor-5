@@ -21,7 +21,7 @@ namespace Constructor5.Elements.HolidayTraditions
             }
 
             var goalComponent = GetComponent<HolidayTraditionGoalComponent>();
-            if (goalComponent.Goal.Element != null)
+            if (goalComponent.Goal != null)
             {
                 return;
             }
@@ -37,8 +37,10 @@ namespace Constructor5.Elements.HolidayTraditions
 
             var preferencesComponent = GetComponent<HolidayTraditionPreferencesComponent>();
 
-            var preference = new HolidayTraditionPreference();
-            preference.Type = HolidayTraditionPreferenceType.DOES_NOT_CARE;
+            var preference = new HolidayTraditionPreference
+            {
+                Type = HolidayTraditionPreferenceType.DOES_NOT_CARE
+            };
             preferencesComponent.SetToddlerPreferencePreset(preference);
             preferencesComponent.Preferences.Add(preference);
         }

@@ -21,7 +21,7 @@ namespace Constructor5.TestConditionTypes.Relationships
         public bool InvertNumRelationshipsParticipant { get; set; }
 
         public int NumRelationshipsAll { get; set; } = 0;
-        public int NumRelationshipsParticipant { get; set; } = 1;
+        public int NumRelationshipsParticipant { get; set; } = 0;
 
         public string PrimaryParticipant { get; set; }
 
@@ -30,7 +30,7 @@ namespace Constructor5.TestConditionTypes.Relationships
         public ReferenceList RequiredBitsAll { get; set; } = new ReferenceList();
         public ReferenceList RequiredBitsAny { get; set; } = new ReferenceList();
 
-        public string TargetParticipant { get; set; } = "TargetSim";
+        public string TargetParticipant { get; set; }
         public RelationshipConditionTarget TargetType { get; set; } = RelationshipConditionTarget.AllRelationships;
 
         [AutoTuneBasic("track")]
@@ -46,7 +46,7 @@ namespace Constructor5.TestConditionTypes.Relationships
             var tuning = variantTunable.Get<TunableTuple>(GetVariantTunableName());
             AutoTunerInvoker.Invoke(this, tuning);
 
-            RelationshipConditionBitsTuner.TuneBits(variantTunable, RequiredBitsAll, RequiredBitsAny, ProhibitedBitsAll, ProhibitedBitsAny);
+            RelationshipConditionBitsTuner.TuneBits(tuning, RequiredBitsAll, RequiredBitsAny, ProhibitedBitsAll, ProhibitedBitsAny);
 
             if (!string.IsNullOrEmpty(PrimaryParticipant))
             {
@@ -56,8 +56,11 @@ namespace Constructor5.TestConditionTypes.Relationships
 
             if (TargetType == RelationshipConditionTarget.Participant)
             {
-                var tunableList1 = tuning.Get<TunableList>("target_sim");
-                tunableList1.Set<TunableEnum>(null, TargetParticipant);
+                if (!string.IsNullOrEmpty(TargetParticipant))
+                {
+                    var tunableList1 = tuning.Get<TunableList>("target_sim");
+                    tunableList1.Set<TunableEnum>(null, TargetParticipant);
+                }
 
                 if (InvertNumRelationshipsParticipant)
                 {

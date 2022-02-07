@@ -65,8 +65,11 @@ namespace Constructor5.Base.ProjectSystem
         }
 
         public static void LoadProject(ProjectInfo info)
+            => LoadProject(info.Id);
+
+        public static void LoadProject(string id)
         {
-            Project.Id = info.Id;
+            Project.Id = id;
             ElementSaver.LoadAll();
             Hooks.Location<IOnProjectCreatedOrLoaded>(x => x.OnProjectCreatedOrLoaded());
         }
