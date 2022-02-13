@@ -36,7 +36,12 @@ namespace Constructor5.Base.ElementSystem
         {
             foreach (var obj in ScheduledElements.ToArray())
             {
-                ((IAutosavableObject)obj).OnAutosave();
+                if (obj.IsDeleted)
+                {
+                    continue;
+                }
+
+                Save(obj);
                 if (!MarkedElements.ContainsKey(obj) || MarkedElements[obj].Count == 0)
                 {
                     ScheduledElements.Remove(obj);

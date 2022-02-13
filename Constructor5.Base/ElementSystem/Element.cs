@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 namespace Constructor5.Base.ElementSystem
 {
-    public abstract class Element : INotifyPropertyChanged, IAutosavableObject
+    public abstract class Element : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -97,21 +97,12 @@ namespace Constructor5.Base.ElementSystem
         {
             IsContextSpecific = true;
             ContextModifiers.Add(modifier);
+            ElementSaver.ScheduleOneTime(this);
         }
 
         public T GetContextModifier<T>() where T : ContextModifier => ContextModifiers.FirstOrDefault(x => x is T) as T;
 
         public virtual string GetDefaultLabel() => $"New {TextStringManager.Get(ElementTypeData.Get(GetType()).Label)}";
-
-        void IAutosavableObject.OnAutosave()
-        {
-            if (IsDeleted)
-            {
-                return;
-            }
-
-            ElementSaver.Save(this);
-        }
 
         protected internal virtual void OnElementCreatedOrLoaded()
         { }

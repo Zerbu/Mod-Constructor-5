@@ -13,10 +13,10 @@
         <c:Field Label="Skill" LabelWidth="100">
             <c:ReferenceControl ElementTypeName="Skill" Reference="{Binding Skill}" />
         </c:Field>
-        <c:Field Label="Min Value" LabelWidth="100">
+        <c:Field Label="MinValue" LabelWidth="100">
             <xctk:IntegerUpDown Minimum="0" Text="{Binding MinValue}" />
         </c:Field>
-        <c:Field Label="Max Value" LabelWidth="100">
+        <c:Field Label="MaxValue" LabelWidth="100">
             <xctk:IntegerUpDown Minimum="0" Text="{Binding MaxValue}" />
         </c:Field>
         <c:Field Label="Ideal Value" LabelWidth="100">

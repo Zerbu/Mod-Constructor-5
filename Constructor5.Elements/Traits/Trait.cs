@@ -46,7 +46,9 @@ namespace Constructor5.Elements
 
             var infoComponent = GetTraitComponent<TraitInfoComponent>();
 
+            var contextModifier = GetContextModifier<CASPreferenceContextModifier>();
             tuning.SimDataHandler = infoComponent.TraitType == TraitTypes.Personality
+                && contextModifier == null
                 ? new SimDataHandler("SimData/Trait.data")
                 : new SimDataHandler("SimData/TraitGameplay.data");
 

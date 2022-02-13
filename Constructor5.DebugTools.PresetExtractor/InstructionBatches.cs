@@ -69,6 +69,8 @@ namespace Constructor5.DebugTools.PresetExtractor
         {
         });
 
+        public static PresetInstruction[] Outfits { get; } = PresetInstruction.CreateBatch("Snippet", "Outfit", "All Outfits", "display_text", new Dictionary<string, string> { }, "Outfit");
+
         public static PresetInstruction[] PieMenuCategories { get; } = PresetInstruction.CreateBatch("Pie_Menu_Category", "PieMenuCategory", "All Pie Menu Categories", "_display_name", new Dictionary<string, string>
         {
         });

@@ -1,5 +1,6 @@
 ﻿using Constructor5.Base.ElementSystem;
 using Constructor5.Elements.CareerLevels;
+using Constructor5.Elements.ObjectiveSets;
 using Constructor5.UI.Shared;
 using System.Windows.Controls;
 
@@ -46,6 +47,19 @@ namespace Constructor5.Elements.CareerTracks
                 Career = element.GetContextModifier<CareerTrackContextModifier>().Career,
                 Track = new Reference(element)
             });
+            return result;
+        }
+
+        private Element CreateAssignmentFunction()
+        {
+            var element = (CareerTrack)DataContext;
+
+            var result = (ObjectiveSet)ElementManager.Create(typeof(ObjectiveSet), null, true);
+            result.AddContextModifier(new CareerAssignmentObjectiveSetContextModifier
+            {
+                CareerTrack = new Reference(element),
+            });
+            result.AlwaysTrack = false;
             return result;
         }
     }

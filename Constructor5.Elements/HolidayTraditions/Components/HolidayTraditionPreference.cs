@@ -8,7 +8,7 @@ namespace Constructor5.Elements.HolidayTraditions.Components
     {
         public HolidayTraditionPreferenceType Type { get; set; }
 
-        public ObservableCollection<TestConditionListItem> Conditions { get; set; } = new ObservableCollection<TestConditionListItem>();
+        public TestConditionList Conditions { get; set; } = new TestConditionList();
 
         public STBLString Reason { get; set; } = new STBLString() { CustomText = "(From Custom Condition)" };
     }

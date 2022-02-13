@@ -6,6 +6,7 @@ using Constructor5.UI.Dialogs.ExportResults;
 using Constructor5.UI.Shared;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Timers;
 using System.Windows;
@@ -50,6 +51,9 @@ namespace Constructor5.UI.Main
 
                 return true;
             };
+
+            var version = File.ReadAllText("Version.txt");
+            Title = $"The Sims 4 Mod Constructor ({version})";
 
 #if DEBUG
             UnlocalizableStringFinderButton.Visibility = Visibility.Visible;

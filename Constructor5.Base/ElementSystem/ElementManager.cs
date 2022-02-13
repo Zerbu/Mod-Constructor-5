@@ -34,7 +34,7 @@ namespace Constructor5.Base.ElementSystem
             }
             Hooks.Location<IOnElementCreated>(x => x.OnElementCreated(result));
             ElementSaver.ScheduleOneTime(result);
-            ElementSaver.SaveScheduled();
+            //ElementSaver.SaveScheduled();
             return result;
         }
 

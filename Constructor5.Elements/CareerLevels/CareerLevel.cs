@@ -1,10 +1,14 @@
-﻿using Constructor5.Base.ElementSystem;
+﻿using Constructor5.Base.CustomTuning;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.PropertyTypes;
+using Constructor5.Elements.Careers;
+using Constructor5.Elements.Careers.Components;
 using Constructor5.Elements.CareerTracks;
 using System;
 using System.Collections.Generic;
@@ -13,8 +17,11 @@ using System.Linq;
 namespace Constructor5.Elements.CareerLevels
 {
     [ElementTypeData("CareerLevel", false, ElementTypes = new[] { typeof(CareerLevel) }, PresetFolders = new[] { "CareerLevel" })]
-    public class CareerLevel : Element, IExportableElement
+    public class CareerLevel : Element, IExportableElement, ISupportsCustomTuning
     {
+        public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
+
+        [AutoTuneBasic("title_description")]
         public STBLString Description { get; set; } = new STBLString();
 
         public bool Include0Sunday { get; set; } = false;
@@ -26,22 +33,29 @@ namespace Constructor5.Elements.CareerLevels
         public bool Include6Saturday { get; set; } = false;
 
         public bool InvertedEmotionAngry { get; set; } = false;
+        public bool InvertedEmotionBored { get; set; } = false;
+        public bool InvertedEmotionDazed { get; set; } = false;
         public bool InvertedEmotionEmbarrassed { get; set; } = false;
         public bool InvertedEmotionSad { get; set; } = false;
         public bool InvertedEmotionTense { get; set; } = false;
         public bool InvertedEmotionUncomfortable { get; set; } = false;
-        public bool InvertedEmotionBored { get; set; } = false;
-        public bool InvertedEmotionDazed { get; set; } = false;
 
+        [AutoTuneBasic("title")]
         public STBLString Name { get; set; } = new STBLString();
 
+        [AutoTuneBasic("aspiration")]
         public Reference ObjectiveSet { get; set; } = new Reference();
+
+        [AutoTuneBasic("promotion_reward")]
         public Reference PromotedToReward { get; set; } = new Reference();
+
+        public Reference Uniform { get; set; } = new Reference();
+
         public int SimoleonsPerHour { get; set; }
 
         public int TimeBeginHour { get; set; } = 9;
         public int TimeBeginMinute { get; set; }
-        public int TimeDurationHour { get; set; } = 8;
+        public float TimeDurationHour { get; set; } = 8;
 
         void IExportableElement.OnExport()
         {
@@ -49,6 +63,18 @@ namespace Constructor5.Elements.CareerLevels
             tuning.Class = "CareerLevel";
             tuning.InstanceType = "career_level";
             tuning.Module = "careers.career_tuning";
+            tuning.SimDataHandler = new SimDataHandler("SimData/CareerLevel.data");
+
+            var career = (Career)GetContextModifier<CareerLevelContextModifier>().Career.Element;
+            var stat = career.GetComponent<CareerInfoComponent>().PerformanceStatistic;
+            tuning.Set<TunableBasic>("performance_stat", stat);
+            tuning.SimDataHandler.Write(288, (ulong)ElementTuning.GetSingleInstanceKey(stat));
+
+            {
+                var tunableVariant1 = tuning.Set<TunableVariant>("pay_type", "simoleons_per_hour");
+                tunableVariant1.Set<TunableBasic>("simoleons_per_hour", SimoleonsPerHour);
+                tuning.SimDataHandler.Write(384, SimoleonsPerHour);
+            }
 
             TunePerformance(tuning);
             TuneTime(tuning);
@@ -61,11 +87,74 @@ namespace Constructor5.Elements.CareerLevels
 
             AutoTunerInvoker.Invoke(this, tuning);
 
+            if (Uniform.GameReference != 0 || Uniform.Element != null)
+            {
+                var tunableTuple1 = tuning.Get<TunableTuple>("work_outfit");
+                var tunableVariant1 = tunableTuple1.Set<TunableVariant>("outfit_generator", "enabled");
+                tunableVariant1.Set<TunableBasic>("enabled", Uniform);
+            }
+
+            TuneSimData(tuning);
+
+            TuneScreenSlam(tuning);
+            
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
+
             TuningExport.AddToQueue(tuning);
+        }
+
+        private void TuneScreenSlam(TuningHeader tuning)
+        {
+            var career = (Career)GetContextModifier<CareerLevelContextModifier>().Career.Element;
+            var track = (CareerTrack)GetContextModifier<CareerLevelContextModifier>().Track.Element;
+
+            var isBaseTrack = false;
+            if (career.GetComponent<CareerLevelsComponent>().BaseTrack.Element == track)
+            {
+                isBaseTrack = true;
+            }
+
+            var isMax = false;
+            if (track.Levels.Items.Last().Reference.Element == this && !track.Branches.HasItems())
+            {
+                isMax = true;
+            }
+
+            var screenSlamVariant = tuning.Set<TunableVariant>("screen_slam", "enabled");
+            var literalVariant = screenSlamVariant.Set<TunableVariant>("enabled", "literal");
+            var literalTuple = literalVariant.Get<TunableTuple>("literal");
+
+            if (isMax)
+            {
+                var tunableVariant1 = literalTuple.Set<TunableVariant>("display_type", "size_based");
+                var tunableTuple1 = tunableVariant1.Get<TunableTuple>("size_based");
+                tunableTuple1.Set<TunableEnum>("screen_slam_size", "EXTRA_LARGE");
+                var tunableVariant2 = literalTuple.Set<TunableVariant>("icon", "enabled");
+                tunableVariant2.Set<TunableBasic>("enabled", isBaseTrack ? career.GetComponent<CareerInfoComponent>().Icon : track.Icon);
+                var tunableVariant3 = literalTuple.Set<TunableVariant>("text", "enabled");
+                tunableVariant3.Set<TunableBasic>("enabled", "0xF385AB5C");
+                var tunableVariant4 = literalTuple.Set<TunableVariant>("title", "enabled");
+                tunableVariant4.Set<TunableBasic>("enabled", "0x49C064A6");
+            }
+            else
+            {
+                var tunableVariant1 = literalTuple.Set<TunableVariant>("display_type", "size_based");
+                var tunableTuple1 = tunableVariant1.Get<TunableTuple>("size_based");
+                tunableTuple1.Set<TunableEnum>("screen_slam_size", "SMALL");
+                var tunableVariant2 = literalTuple.Set<TunableVariant>("icon", "enabled");
+                tunableVariant2.Set<TunableBasic>("enabled", isBaseTrack ? career.GetComponent<CareerInfoComponent>().Icon : track.Icon);
+                var tunableVariant3 = literalTuple.Set<TunableVariant>("text", "enabled");
+                tunableVariant3.Set<TunableBasic>("enabled", "0xF385AB5C");
+                var tunableVariant4 = literalTuple.Set<TunableVariant>("title", "enabled");
+                tunableVariant4.Set<TunableBasic>("enabled", "0x570B11A0");
+            }
         }
 
         private void TunePerformance(TuningHeader tuning)
         {
+            var career = (Career)GetContextModifier<CareerLevelContextModifier>().Career.Element;
+            var template = career.GetComponent<CareerTemplateComponent>().Template;
+
             var modifier = GetContextModifier<CareerLevelContextModifier>();
 
             var levels = ((CareerTrack)modifier.Track.Element).GetAllLevelsInTree();
@@ -73,7 +162,7 @@ namespace Constructor5.Elements.CareerLevels
             var levelIndex = Array.IndexOf(levels, levels.FirstOrDefault(x => x.Element == this));
 
             var tunableTuple1 = tuning.Get<TunableTuple>("performance_metrics");
-            tunableTuple1.Set<TunableBasic>("base_performance", AutomaticCareerPerformance.GetBasePerformance(levelIndex));
+            tunableTuple1.Set<TunableBasic>("base_performance", template.GetBasePerformance(levelIndex));
 
             var positiveBuffs = new List<uint>() { 12830, 12836, 12838, 12839, 12841, 12845, 12851, 27107, 12839 };
             var veryPositiveBuffs = new List<uint>() { 12814, 12852, 12850, 12846, 12834, 12844, 12854, 12843, 37939, 12846 };
@@ -149,7 +238,7 @@ namespace Constructor5.Elements.CareerLevels
             if (extremelyNegativeBuffs.Count > 0)
             {
                 var tunableTuple2 = tunableList1.Get<TunableTuple>(null);
-                tunableTuple2.Set<TunableBasic>("performance_mod", "-12");
+                tunableTuple2.Set<TunableBasic>("performance_mod", template.GetNegativeEmotionModifier(levelIndex) * 3);
                 var tunableList2 = tunableTuple2.Get<TunableList>("tests");
                 var tunableList3 = tunableList2.Get<TunableList>(null);
                 var tunableVariant1 = tunableList3.Set<TunableVariant>(null, "buff");
@@ -165,7 +254,7 @@ namespace Constructor5.Elements.CareerLevels
             if (veryNegativeBuffs.Count > 0)
             {
                 var tunableTuple4 = tunableList1.Get<TunableTuple>(null);
-                tunableTuple4.Set<TunableBasic>("performance_mod", "-8");
+                tunableTuple4.Set<TunableBasic>("performance_mod", template.GetNegativeEmotionModifier(levelIndex) * 2);
                 var tunableList5 = tunableTuple4.Get<TunableList>("tests");
                 var tunableList6 = tunableList5.Get<TunableList>(null);
                 var tunableVariant3 = tunableList6.Set<TunableVariant>(null, "buff");
@@ -181,7 +270,7 @@ namespace Constructor5.Elements.CareerLevels
             if (negativeBuffs.Count > 0)
             {
                 var tunableTuple6 = tunableList1.Get<TunableTuple>(null);
-                tunableTuple6.Set<TunableBasic>("performance_mod", "-4");
+                tunableTuple6.Set<TunableBasic>("performance_mod", template.GetNegativeEmotionModifier(levelIndex));
                 var tunableList8 = tunableTuple6.Get<TunableList>("tests");
                 var tunableList9 = tunableList8.Get<TunableList>(null);
                 var tunableVariant5 = tunableList9.Set<TunableVariant>(null, "buff");
@@ -195,7 +284,7 @@ namespace Constructor5.Elements.CareerLevels
             }
 
             var tunableTuple8 = tunableList1.Get<TunableTuple>(null);
-            tunableTuple8.Set<TunableBasic>("performance_mod", AutomaticCareerPerformance.GetStandardEmotionModifier(levelIndex));
+            tunableTuple8.Set<TunableBasic>("performance_mod", template.GetStandardEmotionModifier(levelIndex));
             var tunableList11 = tunableTuple8.Get<TunableList>("tests");
             var tunableList12 = tunableList11.Get<TunableList>(null);
             var tunableVariant7 = tunableList12.Set<TunableVariant>(null, "buff");
@@ -207,7 +296,7 @@ namespace Constructor5.Elements.CareerLevels
                 tunableList13.Set<TunableBasic>(null, buff);
             }
             var tunableTuple10 = tunableList1.Get<TunableTuple>(null);
-            tunableTuple10.Set<TunableBasic>("performance_mod", AutomaticCareerPerformance.GetStandardEmotionModifier(levelIndex)*2);
+            tunableTuple10.Set<TunableBasic>("performance_mod", template.GetStandardEmotionModifier(levelIndex) * 2);
             var tunableList14 = tunableTuple10.Get<TunableList>("tests");
             var tunableList15 = tunableList14.Get<TunableList>(null);
             var tunableVariant9 = tunableList15.Set<TunableVariant>(null, "buff");
@@ -218,6 +307,32 @@ namespace Constructor5.Elements.CareerLevels
             {
                 tunableList16.Set<TunableBasic>(null, buff);
             }
+        }
+
+        private void TuneSimData(TuningHeader tuning)
+        {
+            // objective set
+            tuning.SimDataHandler.Write(264, ElementTuning.GetSingleInstanceKey(ObjectiveSet) ?? 0);
+
+            // ideal emotion: 272
+
+            // performance statistic: 288
+
+            //day+time
+            tuning.SimDataHandler.Write(340, TimeDurationHour);
+            tuning.SimDataHandler.Write(368, TimeBeginHour);
+            tuning.SimDataHandler.Write(372, TimeBeginMinute);
+            tuning.SimDataHandler.Write(352, Include0Sunday);
+            tuning.SimDataHandler.Write(353, Include1Monday);
+            tuning.SimDataHandler.Write(354, Include2Tuesday);
+            tuning.SimDataHandler.Write(355, Include3Wednesday);
+            tuning.SimDataHandler.Write(356, Include4Thursday);
+            tuning.SimDataHandler.Write(357, Include5Friday);
+            tuning.SimDataHandler.Write(358, Include6Saturday);
+
+            //level info
+            tuning.SimDataHandler.WriteText(300, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
+            tuning.SimDataHandler.WriteText(304, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
         }
 
         private void TuneTime(TuningHeader tuning)

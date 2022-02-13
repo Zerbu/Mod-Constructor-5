@@ -52,6 +52,10 @@
                         </c:Field>
                     </StackPanel>
 
+                    <c:Field Label="Uniform" LabelWidth="100">
+                        <c:ReferenceControl ElementTypeName="Outfit" Reference="{Binding Uniform}" />
+                    </c:Field>
+
                     <c:Expander Header="NegativeEmotions">
                         <StackPanel>
                             <c:CheckBox Content="InvertedEmotionAngry" IsChecked="{Binding InvertedEmotionAngry}" />
@@ -80,7 +84,9 @@
         <c:TabItem Header="PromotedToReward">
             <c:SpacedStack TopMargin="True">
                 <c:TextBlock Text="PromotedToRewardNotice" />
-                <c:ReferenceControlWithEditorUnderneath ElementTypeName="RewardSet"
+                <c:ReferenceControlWithEditorUnderneath CreateElementFunction="CreateRewardFunction"
+                                                        EditorTag="NoUI"
+                                                        ElementTypeName="RewardSet"
                                                         Reference="{Binding PromotedToReward}"
                                                         ShowBrowseButton="False"
                                                         ShowCreateButton="True" />

@@ -37,7 +37,23 @@ namespace Constructor5.Elements.ObjectiveSets
             tuning.InstanceType = "aspiration";
             tuning.Module = "aspirations.aspiration_tuning";
 
-            tuning.SimDataHandler = new SimDataHandler($"SimData/ObjectiveSet.data");
+            var simDataFile = "SimData/ObjectiveSet.data";
+
+            var careerModifier = GetContextModifier<CareerObjectiveSetContextModifier>();
+            if (careerModifier != null)
+            {
+                tuning.Class = "AspirationCareer";
+                simDataFile = "SimData/ObjectiveSetCareer.data";
+            }
+
+            var assignmentModifier = GetContextModifier<CareerAssignmentObjectiveSetContextModifier>();
+            if (assignmentModifier != null)
+            {
+                tuning.Class = "AspirationAssignment";
+                simDataFile = "SimData/ObjectiveSetAssignment.data";
+            }
+
+            tuning.SimDataHandler = new SimDataHandler(simDataFile);
 
             AutoTunerInvoker.Invoke(this, tuning);
 
@@ -62,11 +78,28 @@ namespace Constructor5.Elements.ObjectiveSets
                 }
             }
 
-            BuildSimData(tuning);
+            if (careerModifier != null || assignmentModifier != null)
+            {
+                BuildSimDataCareer(tuning);
+            }
+            else
+            {
+                BuildSimData(tuning);
+            }
 
             CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
+        }
+
+        private void BuildSimDataCareer(TuningHeader tuning)
+        {
+            var list = new List<ulong>();
+            foreach (var key in ElementTuning.GetInstanceKeys(Objectives))
+            {
+                list.Add(key);
+            }
+            tuning.SimDataHandler.WriteList(112, list, 4, true);
         }
 
         private void BuildSimData(TuningHeader tuning)

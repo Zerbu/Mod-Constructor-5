@@ -22,7 +22,7 @@ namespace Constructor5.Elements.Buffs.Components
         [AutoTuneIfTrue("refresh_on_add", "False")]
         public bool NoRefreshOnAdd { get; set; }
 
-        public ObservableCollection<TestConditionListItem> ProximityConditions { get; set; } = new ObservableCollection<TestConditionListItem>();
+        public TestConditionList ProximityConditions { get; set; } = new TestConditionList();
         public STBLString ProximityReason { get; set; } = new STBLString();
 
         [AutoTuneBasic("timeout_string")]

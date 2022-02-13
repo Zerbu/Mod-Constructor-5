@@ -17,17 +17,11 @@ namespace Constructor5.Elements.Interactions.Shared
         public override string ComponentLabel => "Conditions";
 
         [AutoEditorConditionList]
-        public ObservableCollection<TestConditionListItem> Conditions { get; set; } = new ObservableCollection<TestConditionListItem>();
+        public TestConditionList Conditions { get; set; } = new TestConditionList();
 
         protected internal override void OnExport(InteractionExportContext context)
         {
-            var conditions = new List<TestCondition>();
-            foreach(var condition in Conditions)
-            {
-                conditions.Add(condition.Condition);
-            }
-
-            TestConditionTuning.TuneTestConditions(context.Tuning, conditions, "test_globals");
+            TestConditionTuning.TuneTestConditions(context.Tuning, Conditions.ToConditionList(), "test_globals");
         }
     }
 }

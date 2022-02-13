@@ -12,16 +12,11 @@ namespace Constructor5.SituationGoalTemplates.Single
         public bool InSituationOnly { get; set; }
         public ObservableCollection<string> RoleTags { get; } = new ObservableCollection<string>();
         public SituationGoalInteractionTarget SpecificTarget { get; set; }
-        public ObservableCollection<TestConditionListItem> TargetConditions { get; set; } = new ObservableCollection<TestConditionListItem>();
+        public TestConditionList TargetConditions { get; set; } = new TestConditionList();
 
         protected void TuneTarget(SituationGoalExportContext context)
         {
-            var conditions = new List<TestCondition>();
-            foreach (var condition in TargetConditions)
-            {
-                conditions.Add(condition.Condition);
-            }
-            TestConditionTuning.TuneTestConditions(context.Tuning, conditions, "_target_tests");
+            TestConditionTuning.TuneTestConditions(context.Tuning, TargetConditions.ToConditionList(), "_target_tests");
 
             context.Tuning.Set<TunableBasic>("_select_all_instantiated_sims", "True");
 

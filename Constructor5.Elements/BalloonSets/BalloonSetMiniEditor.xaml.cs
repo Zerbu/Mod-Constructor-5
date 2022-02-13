@@ -8,7 +8,14 @@ namespace Constructor5.Elements.BalloonSets
     {
         public BalloonSetMiniEditor() => InitializeComponent();
 
-        void IObjectEditor.SetObject(object obj, string tag) => DataContext = obj;
+        void IObjectEditor.SetObject(object obj, string tag)
+        {
+            DataContext = obj;
+            if (tag == "NoSpeech")
+            {
+                SpeechCheckBox.Visibility = System.Windows.Visibility.Collapsed;
+            }
+        }
 
         private void DeleteButton_Click(object sender, System.Windows.RoutedEventArgs e)
         {

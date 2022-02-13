@@ -8,12 +8,12 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-        <c:TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}" Text="HolidayTraditionGoalNotice" />
+    <c:SpacedStack>
+        <c:TextBlock Text="HolidayTraditionGoalNotice" />
         <c:ReferenceControlWithEditorUnderneath ElementTypeName="SituationGoal"
                                                 Reference="{Binding Goal}"
                                                 ShowBrowseButton="false"
                                                 ShowCreateButton="false"
                                                 ShowResetButton="false" />
-    </StackPanel>
+    </c:SpacedStack>
 </UserControl>

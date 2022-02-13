@@ -10,6 +10,7 @@ namespace Constructor5.Base.ExportSystem.TuningActions
         public override void Invoke(TuningActionContext context)
         {
             var name = context.XmlReader.GetAttribute("n");
+            var fallback = context.XmlReader.GetAttribute("fallback");
             context.XmlReader.Read();
             var value = context.XmlReader.Value;
 
@@ -33,6 +34,11 @@ namespace Constructor5.Base.ExportSystem.TuningActions
                         value = PropertyExport.GetString(context.DataContext, varName);
                     }
                 }
+            }
+
+            if (string.IsNullOrEmpty(value))
+            {
+                value = fallback;
             }
 
             SetTunable(context, name, value);

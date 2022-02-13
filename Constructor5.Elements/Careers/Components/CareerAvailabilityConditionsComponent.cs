@@ -9,7 +9,7 @@ namespace Constructor5.Elements.Careers.Components
     {
         public override string ComponentLabel => "AvailabilityConditions";
 
-        public ObservableCollection<TestConditionListItem> Conditions { get; set; } = new ObservableCollection<TestConditionListItem>();
+        public TestConditionList Conditions { get; set; } = new TestConditionList();
 
         protected internal override void OnExport(CareerExportContext context)
         {

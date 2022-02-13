@@ -1,5 +1,7 @@
 ﻿using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Core;
 
 namespace Constructor5.Elements.Careers.Components
@@ -15,6 +17,11 @@ namespace Constructor5.Elements.Careers.Components
         public override string ComponentLabel => "Levels";
 
         protected internal override void OnExport(CareerExportContext context)
-            => AutoTunerInvoker.Invoke(this, context.Tuning);
+        {
+            AutoTunerInvoker.Invoke(this, context.Tuning);
+
+            var header = (TuningHeader)context.Tuning;
+            header.SimDataHandler.Write(80, ElementTuning.GetSingleInstanceKey(BaseTrack) ?? 0);
+        }
     }
 }

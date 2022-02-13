@@ -14,7 +14,8 @@
     </UserControl.Resources>
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel>
-            <c:CheckBox Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
+            <c:CheckBox x:Name="SpeechCheckBox"
+                        Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
                         Content="Speech"
                         IsChecked="{Binding IsSpeech}" />
             <StackPanel Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}">

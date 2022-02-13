@@ -11,17 +11,11 @@ namespace Constructor5.Elements.SituationGoals.Components
     {
         public override string ComponentLabel => "PostConditions";
 
-        public ObservableCollection<TestConditionListItem> Conditions { get; set; } = new ObservableCollection<TestConditionListItem>();
+        public TestConditionList Conditions { get; set; } = new TestConditionList();
 
         protected internal override void OnExport(SituationGoalExportContext context)
         {
-            var conditions = new List<TestCondition>();
-            foreach (var condition in Conditions)
-            {
-                conditions.Add(condition.Condition);
-            }
-
-            TestConditionTuning.TuneTestConditions(context.Tuning, conditions, "_post_tests");
+            TestConditionTuning.TuneTestConditions(context.Tuning, Conditions.ToConditionList(), "_post_tests");
         }
     }
 }

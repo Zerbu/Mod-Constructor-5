@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Constructor5.Elements.Careers.Components.CareerInfoComponentEditor"
+<UserControl x:Class="Constructor5.Elements.Careers.Components.CareerInfoComponentEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
@@ -13,7 +13,7 @@
     <UserControl.Resources>
         <c:SimpleAddToListCommand x:Key="AddCompanyNameCommand" TypeName="CareerCompanyName" />
         <c:SimpleRemoveFromListCommand x:Key="RemoveCompanyNameCommand"
-                                       DeleteMessage="Are you sure you want to remove the selected company name?"
+                                       DeleteMessage="AreYouSureCompanyNames"
                                        TypeName="CareerCompanyName" />
     </UserControl.Resources>
     <c:LeftRightMargin>
@@ -79,6 +79,11 @@
                          Visibility="{Binding EnablePaidTimeOff, Converter={StaticResource BoolToVis}}">
                     <xctk:IntegerUpDown Minimum="0" Text="{Binding InitialPaidTimeOff}" />
                 </c:Field>
+                <c:Field Label="PTOInteractionName"
+                         LabelWidth="150"
+                         Visibility="{Binding EnablePaidTimeOff, Converter={StaticResource BoolToVis}}">
+                    <c:STBLStringControl Text="{Binding PTOInteractionName}" />
+                </c:Field>
             </StackPanel>
             <StackPanel>
                 <c:CheckBox Content="AllowChild" IsChecked="{Binding AllowChild}" />
@@ -86,6 +91,15 @@
                 <c:CheckBox Content="AllowYoungAdult" IsChecked="{Binding AllowYoungAdult}" />
                 <c:CheckBox Content="AllowAdult" IsChecked="{Binding AllowAdult}" />
                 <c:CheckBox Content="AllowElder" IsChecked="{Binding AllowElder}" />
+            </StackPanel>
+            <StackPanel>
+                <c:Field Label="PerformanceStatistic" LabelWidth="100">
+                    <c:ReferenceControl ElementTypeName="Statistic"
+                                        Reference="{Binding PerformanceStatistic}"
+                                        ShowBrowseButton="False"
+                                        ShowCreateButton="False"
+                                        ShowResetButton="False" />
+                </c:Field>
             </StackPanel>
         </c:SpacedStack>
     </c:LeftRightMargin>

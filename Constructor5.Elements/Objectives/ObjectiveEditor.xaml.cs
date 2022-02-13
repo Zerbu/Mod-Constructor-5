@@ -8,6 +8,13 @@ namespace Constructor5.Elements.Objectives
     {
         public ObjectiveEditor() => InitializeComponent();
 
-        void IObjectEditor.SetObject(object obj, string tag) => DataContext = obj;
+        void IObjectEditor.SetObject(object obj, string tag)
+        {
+            DataContext = obj;
+            if (tag == "NoSatisfactionPoints")
+            {
+                SatisfactionPointsField.Visibility = System.Windows.Visibility.Collapsed;
+            }
+        }
     }
 }

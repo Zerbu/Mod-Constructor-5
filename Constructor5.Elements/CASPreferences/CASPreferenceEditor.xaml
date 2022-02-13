@@ -1,0 +1,80 @@
+<UserControl x:Class="Constructor5.Elements.CASPreferences.CASPreferenceEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Constructor5.Elements.CASPreferences"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <d:UserControl.DataContext>
+        <local:CASPreference />
+    </d:UserControl.DataContext>
+    <c:TabControl>
+        <c:TabItem Header="Info">
+            <c:LeftRightMargin>
+                <c:SpacedStack TopMargin="True">
+                    <StackPanel>
+                        <c:Field Label="PreferenceName" LabelWidth="150">
+                            <c:STBLStringControl Text="{Binding PreferenceName}" UpdateLabelForElement="{Binding}" />
+                        </c:Field>
+                        <c:Field Label="LikeTraitName" LabelWidth="150">
+                            <c:STBLStringControl Text="{Binding LikeTraitName}" />
+                        </c:Field>
+                        <c:Field Label="DislikeTraitName" LabelWidth="150">
+                            <c:STBLStringControl Text="{Binding DislikeTraitName}" />
+                        </c:Field>
+                        <c:Field Label="Icon" LabelWidth="100">
+                            <c:IconControl Icon="{Binding Icon}" />
+                        </c:Field>
+                        <c:Field Label="Category" LabelWidth="100">
+                            <c:ReferenceControl ElementTypeName="CASPreferenceCategory" Reference="{Binding Category}" />
+                        </c:Field>
+                    </StackPanel>
+                    <StackPanel>
+                        <!--<c:CheckBox Content="AllowBaby" IsChecked="{Binding AllowBaby}" />
+                        <c:CheckBox Content="AllowToddler" IsChecked="{Binding AllowToddler}" />-->
+                        <c:CheckBox Content="AllowChild" IsChecked="{Binding AllowChild}" />
+                        <c:CheckBox Content="AllowTeen" IsChecked="{Binding AllowTeen}" />
+                        <c:CheckBox Content="AllowYoungAdult" IsChecked="{Binding AllowYoungAdult}" />
+                        <c:CheckBox Content="AllowAdult" IsChecked="{Binding AllowAdult}" />
+                        <c:CheckBox Content="AllowElder" IsChecked="{Binding AllowElder}" />
+                    </StackPanel>
+                </c:SpacedStack>
+            </c:LeftRightMargin>
+        </c:TabItem>
+        <c:TabItem Header="Like">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <c:ReferenceControl ElementTypeName="Trait"
+                                    Reference="{Binding LikeTrait}"
+                                    ShowBrowseButton="False"
+                                    ShowCreateButton="False"
+                                    ShowResetButton="False" />
+                <c:ObjectEditorControl Grid.Row="1"
+                                       EditorCategory="Default"
+                                       Object="{Binding LikeTrait.Element}" />
+            </Grid>
+        </c:TabItem>
+        <c:TabItem Header="Dislike">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <c:ReferenceControl ElementTypeName="Trait"
+                                    Reference="{Binding DislikeTrait}"
+                                    ShowBrowseButton="False"
+                                    ShowCreateButton="False"
+                                    ShowResetButton="False" />
+                <c:ObjectEditorControl Grid.Row="1"
+                                       EditorCategory="Default"
+                                       Object="{Binding DislikeTrait.Element}" />
+            </Grid>
+        </c:TabItem>
+    </c:TabControl>
+</UserControl>

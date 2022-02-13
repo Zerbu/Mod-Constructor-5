@@ -1,10 +1,12 @@
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
+using Constructor5.Elements.CASPreferences;
 using System;
 using System.Collections.Generic;
 
@@ -71,6 +73,39 @@ namespace Constructor5.Elements.Traits.Components
 
         protected internal override void OnExport(TraitExportContext context)
         {
+            var nameToUse = Name;
+            var descriptionToUse = Description;
+            var iconToUse = Icon;
+
+            var preferenceModifier = Element.GetContextModifier<CASPreferenceContextModifier>();
+            if (preferenceModifier != null)
+            {
+                var preference = (CASPreference)preferenceModifier.CASPreference.Element;
+
+                AllowBaby = preference.AllowBaby;
+                AllowToddler = preference.AllowToddler;
+                AllowChild = preference.AllowChild;
+                AllowTeen = preference.AllowTeen;
+                AllowYoungAdult = preference.AllowYoungAdult;
+                AllowAdult = preference.AllowAdult;
+                AllowElder = preference.AllowElder;
+
+                if (!preferenceModifier.IsDislike)
+                {
+                    nameToUse = new STBLString() { CustomText = preference.LikeTraitName.CustomText };
+                    descriptionToUse = new STBLString() { CustomText = preference.PreferenceName.CustomText };
+                    iconToUse = preference.Icon;
+                }
+                else
+                {
+                    nameToUse = new STBLString() { CustomText = preference.DislikeTraitName.CustomText };
+                    descriptionToUse = new STBLString() { CustomText = preference.PreferenceName.CustomText };
+                    iconToUse = preference.Icon;
+                }
+
+                context.Tuning.Set<TunableBasic>("preference_item", preferenceModifier.CASPreference);
+            }
+
             AutoTunerInvoker.Invoke(this, context.Tuning);
 
             TuningActionInvoker.InvokeFromFile("Trait Info",
@@ -86,7 +121,7 @@ namespace Constructor5.Elements.Traits.Components
             }
 
             var typeTunable = context.Tuning.Set<TunableEnum>("trait_type", "PERSONALITY");
-            if (TraitType == TraitTypes.Personality)
+            if (preferenceModifier != null && TraitType == TraitTypes.Personality)
             {
                 var tunableList1 = context.Tuning.Get<TunableList>("tags");
                 tunableList1.Set<TunableBasic>(null, "TraitPersonality");
@@ -95,9 +130,10 @@ namespace Constructor5.Elements.Traits.Components
             }
 
             var header = context.Tuning;
-            header.SimDataHandler.WriteText(188, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
-            header.SimDataHandler.WriteText(232, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
-            header.SimDataHandler.WriteTGI(200, Icon.GetUncommentedText(), Element);
+            var nameKey = Exporter.Current.STBLBuilder.GetKey(nameToUse);
+            header.SimDataHandler.WriteText(188, nameKey ?? 0);
+            header.SimDataHandler.WriteText(232, Exporter.Current.STBLBuilder.GetKey(descriptionToUse) ?? 0);
+            header.SimDataHandler.WriteTGI(200, iconToUse.GetUncommentedText(), Element);
 
             SimDataTuneAges(context);
             SimDataTuneType(context, (TunableEnum)typeTunable);
@@ -159,6 +195,22 @@ namespace Constructor5.Elements.Traits.Components
 
         private void SimDataTuneType(TraitExportContext context, TunableEnum typeTunable)
         {
+            var preferenceModifier = Element.GetContextModifier<CASPreferenceContextModifier>();
+            if (preferenceModifier != null)
+            {
+                if (!preferenceModifier.IsDislike)
+                {
+                    context.Tuning.SimDataHandler.Write(240, 22);
+                    context.Tuning.Set<TunableEnum>("trait_type", "LIKE");
+                }
+                else
+                {
+                    context.Tuning.SimDataHandler.Write(240, 23);
+                    context.Tuning.Set<TunableEnum>("trait_type", "DISLIKE");
+                }
+                return;
+            }
+
             switch (TraitType)
             {
                 case TraitTypes.Personality:
@@ -199,16 +251,6 @@ namespace Constructor5.Elements.Traits.Components
                     UNIVERSITY_DEGREE = 18
                     ROBOT_MODULE_LOCKED = 19
                  */
-
-                /*case "LIKE":
-                    tuning.SimDataHandler = new SimDataHandler("SimData/TraitGameplay.data");
-                    tuning.SimDataHandler.Write(240, 22);
-                    break;
-
-                case "DISLIKE":
-                    tuning.SimDataHandler = new SimDataHandler("SimData/TraitGameplay.data");
-                    tuning.SimDataHandler.Write(240, 23);
-                    break;*/
 
                 default:
                     break;

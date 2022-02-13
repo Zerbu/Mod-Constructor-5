@@ -26,7 +26,7 @@ namespace Constructor5.Elements.Objectives
         [AutoTuneBasic("display_text")]
         public STBLString Name { get; set; } = new STBLString();
 
-        public ObservableCollection<TestConditionListItem> PostConditions { get; set; } = new ObservableCollection<TestConditionListItem>();
+        public TestConditionList PostConditions { get; set; } = new TestConditionList();
 
         public TestCondition PrimaryCondition { get; set; } = new AlwaysRunCondition();
 

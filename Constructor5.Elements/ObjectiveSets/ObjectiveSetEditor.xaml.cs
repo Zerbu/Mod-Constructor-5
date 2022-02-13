@@ -16,8 +16,19 @@ namespace Constructor5.Elements.ObjectiveSets
         {
             var component = (ObjectiveSet)DataContext;
 
+            var isCareerOrAssignment = component.GetContextModifier<CareerObjectiveSetContextModifier>() != null
+                || component.GetContextModifier<CareerAssignmentObjectiveSetContextModifier>() != null;
+
             var element = (Objective)ElementManager.Create(typeof(Objective), null, true);
-            element.AlwaysTrack = component.GetContextModifier<AssignedAspirationTrackContextModifier>() == null;
+            element.AlwaysTrack =
+                component.GetContextModifier<AssignedAspirationTrackContextModifier>() == null
+                && !isCareerOrAssignment;
+
+            if (isCareerOrAssignment)
+            {
+                ObjectivesListControl.EditorTag = "NoSatisfactionPoints";
+            }
+
             return element;
         }
     }

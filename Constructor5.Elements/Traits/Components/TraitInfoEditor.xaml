@@ -13,29 +13,37 @@
         <local:TraitInfoComponent />
     </d:UserControl.DataContext>
 
-    <c:LeftRightMargin>
-        <c:SpacedStack>
-            <!--  Main Info  -->
-            <StackPanel>
-                <local:TraitInfoNameDescriptionIcon />
-            </StackPanel>
+    <StackPanel>
+        <c:LeftRightMargin x:Name="Info">
+            <c:SpacedStack>
+                <!--  Main Info  -->
+                <StackPanel>
+                    <local:TraitInfoNameDescriptionIcon />
+                </StackPanel>
 
-            <!--  Type + Category  -->
-            <StackPanel>
-                <local:TraitInfoType />
-            </StackPanel>
+                <!--  Type + Category  -->
+                <StackPanel>
+                    <local:TraitInfoType />
+                </StackPanel>
 
-            <!--  Ages  -->
-            <StackPanel>
-                <c:CheckBox Content="AllowBaby" IsChecked="{Binding AllowBaby}" />
-                <c:CheckBox Content="AllowToddler" IsChecked="{Binding AllowToddler}" />
-                <c:CheckBox Content="AllowChild" IsChecked="{Binding AllowChild}" />
-                <c:CheckBox Content="AllowTeen" IsChecked="{Binding AllowTeen}" />
-                <c:CheckBox Content="AllowYoungAdult" IsChecked="{Binding AllowYoungAdult}" />
-                <c:CheckBox Content="AllowAdult" IsChecked="{Binding AllowAdult}" />
-                <c:CheckBox Content="AllowElder" IsChecked="{Binding AllowElder}" />
-            </StackPanel>
-        </c:SpacedStack>
-    </c:LeftRightMargin>
+                <!--  Ages  -->
+                <StackPanel>
+                    <c:CheckBox Content="AllowBaby" IsChecked="{Binding AllowBaby}" />
+                    <c:CheckBox Content="AllowToddler" IsChecked="{Binding AllowToddler}" />
+                    <c:CheckBox Content="AllowChild" IsChecked="{Binding AllowChild}" />
+                    <c:CheckBox Content="AllowTeen" IsChecked="{Binding AllowTeen}" />
+                    <c:CheckBox Content="AllowYoungAdult" IsChecked="{Binding AllowYoungAdult}" />
+                    <c:CheckBox Content="AllowAdult" IsChecked="{Binding AllowAdult}" />
+                    <c:CheckBox Content="AllowElder" IsChecked="{Binding AllowElder}" />
+                </StackPanel>
+
+
+            </c:SpacedStack>
+        </c:LeftRightMargin>
+
+        <c:LeftRightMargin x:Name="InheritedNotice" Visibility="Collapsed">
+            <TextBlock Text="Trait Info is inherited from the preference Element." />
+        </c:LeftRightMargin>
+    </StackPanel>
 
 </UserControl>

@@ -106,11 +106,11 @@ namespace Constructor5.DebugTools.PresetExtractor
                 {
                     continue;
                 }
-                /*var typeDirName = Path.GetFileName(typeDir).ToLower();
-                if (typeDirName != "action")
+                var typeDirName = Path.GetFileName(typeDir).ToLower();
+                if (typeDirName != "snippet")
                 {
                     continue;
-                }*/
+                }
                 Console.WriteLine($"Checking directory: {typeDir}");
                 foreach (var xmlFile in Directory.GetFiles(typeDir, "*.xml"))
                 {

@@ -48,12 +48,7 @@ namespace Constructor5.Elements.HolidayTraditions.Components
                 var tunableVariant1 = tunableTuple1.Set<TunableVariant>("reason", "enabled");
                 tunableVariant1.Set<TunableBasic>("enabled", preference.Reason);
 
-                var conditions = new List<TestCondition>();
-                foreach (var condition in preference.Conditions)
-                {
-                    conditions.Add(condition.Condition);
-                }
-                TestConditionTuning.TuneTestConditions(tunableTuple1, conditions, "tests");
+                TestConditionTuning.TuneTestConditions(tunableTuple1, preference.Conditions.ToConditionList(), "tests");
             }
 
             /*if (IgnoredByToddlers)

@@ -212,11 +212,38 @@
       <DependentUpon>WeightedBuffReferenceListItemEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Buffs\SharedBuffTuner.cs" />
-    <Compile Include="CareerLevels\AutomaticCareerPerformance.cs" />
     <Compile Include="CareerLevels\CareerLevel.cs" />
     <Compile Include="CareerLevels\CareerLevelContextModifier.cs" />
     <Compile Include="CareerLevels\CareerLevelEditor.xaml.cs">
       <DependentUpon>CareerLevelEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\Components\CareerInteractionComponent.cs" />
+    <Compile Include="Careers\Components\CareerInteractionComponentEditor.xaml.cs">
+      <DependentUpon>CareerInteractionComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\Components\CareerTemplateComponent.cs" />
+    <Compile Include="Careers\Components\CareerTemplateComponentEditor.xaml.cs">
+      <DependentUpon>CareerTemplateComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\Templates\CareerTemplateBase.cs" />
+    <Compile Include="Careers\Templates\CareerTemplateFullTime.cs" />
+    <Compile Include="Careers\Templates\CareerTemplateFullTimeEditor.xaml.cs">
+      <DependentUpon>CareerTemplateFullTimeEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\Templates\CareerTemplateMessageOverride.cs" />
+    <Compile Include="Careers\Templates\CareerTemplateMessageOverrideControl.xaml.cs">
+      <DependentUpon>CareerTemplateMessageOverrideControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\Templates\CareerTemplateMessageOverrides.xaml.cs">
+      <DependentUpon>CareerTemplateMessageOverrides.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\Templates\CareerTemplatePartTime.cs" />
+    <Compile Include="Careers\Templates\CareerTemplatePartTimeEditor.xaml.cs">
+      <DependentUpon>CareerTemplatePartTimeEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CareerTracks\CareerTrackAssignment.cs" />
+    <Compile Include="CareerTracks\CareerTrackAssignmentEditor.xaml.cs">
+      <DependentUpon>CareerTrackAssignmentEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="CareerTracks\CareerTrackContextModifier.cs" />
     <Compile Include="Careers\Career.cs" />
@@ -241,6 +268,10 @@
     <Compile Include="CareerTracks\CareerTrack.cs" />
     <Compile Include="CareerTracks\CareerTrackEditor.xaml.cs">
       <DependentUpon>CareerTrackEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CASPreferenceCategories\CASPreferenceCategory.cs" />
+    <Compile Include="CASPreferenceCategories\CASPreferenceCategoryEditor.xaml.cs">
+      <DependentUpon>CASPreferenceCategoryEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Commodities\Commodity.cs" />
     <Compile Include="Commodities\CommodityComponent.cs" />
@@ -290,6 +321,11 @@
     </Compile>
     <Compile Include="HolidayTraditions\HolidayTraditionExportContext.cs" />
     <Compile Include="Interactions\AnyInteraction.cs" />
+    <Compile Include="Interactions\Career\CareerInteraction.cs" />
+    <Compile Include="Interactions\Career\CareerInteractionContextModifier.cs" />
+    <Compile Include="Interactions\Career\CareerInteractionEditor.xaml.cs">
+      <DependentUpon>CareerInteractionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Interactions\Mixer\MixerInteraction.cs" />
     <Compile Include="Interactions\Mixer\MixerInteractionComponentAttribute.cs" />
     <Compile Include="Interactions\Mixer\MixerInteractionEditor.xaml.cs">
@@ -333,9 +369,9 @@
     <Compile Include="Interactions\Social\SocialInteractionTemplateEditor.xaml.cs">
       <DependentUpon>SocialInteractionTemplateEditor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LikesDislikes\LikeDislike.cs" />
-    <Compile Include="LikesDislikes\LikeDislikeEditor.xaml.cs">
-      <DependentUpon>LikeDislikeEditor.xaml</DependentUpon>
+    <Compile Include="CASPreferences\CASPreference.cs" />
+    <Compile Include="CASPreferences\CASPreferenceEditor.xaml.cs">
+      <DependentUpon>CASPreferenceEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="LootActionSets\EmptyLootAction.cs" />
     <Compile Include="LootActionSets\LASConditionGroup.cs" />
@@ -374,6 +410,7 @@
       <DependentUpon>LotTraitInfoEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="ObjectiveSets\AssignedAspirationTrackContextModifier.cs" />
+    <Compile Include="ObjectiveSets\CareerAssignmentObjectiveSetContextModifier.cs" />
     <Compile Include="ObjectiveSets\CareerObjectiveSetContextModifier.cs" />
     <Compile Include="ObjectiveSets\ObjectiveSet.cs" />
     <Compile Include="ObjectiveSets\ObjectiveSetEditor.xaml.cs">
@@ -384,6 +421,7 @@
     <Compile Include="Objectives\ObjectiveEditor.xaml.cs">
       <DependentUpon>ObjectiveEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Outfits\Outfit.cs" />
     <Compile Include="RelationshipTracks\RelationshipTrack.cs" />
     <Compile Include="RelBits\RelBit.cs" />
     <Compile Include="RelBits\RelBitEditor.xaml.cs">
@@ -550,13 +588,18 @@
     <Compile Include="Situations\SituationExportContext.cs" />
     <Compile Include="Situations\SituationTemplate.cs" />
     <Compile Include="Skills\Skill.cs" />
+    <Compile Include="Statistics\CareerPerformanceStatisticContextModifier.cs" />
     <Compile Include="Statistics\Statistic.cs" />
+    <Compile Include="Statistics\StatisticEditor.xaml.cs">
+      <DependentUpon>StatisticEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TestConditions\AlwaysRunCondition.cs" />
     <Compile Include="TestConditions\AutoEditorConditionList.cs" />
     <Compile Include="TestConditions\ConditionListControl.xaml.cs">
       <DependentUpon>ConditionListControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="TestConditions\TestCondition.cs" />
+    <Compile Include="TestConditions\TestConditionList.cs" />
     <Compile Include="TestConditions\TestConditionListItem.cs" />
     <Compile Include="TestConditions\TestConditionTuning.cs" />
     <Compile Include="Interactions\Social\ContextModifiers\SIAssociatedTrait.cs" />
@@ -594,6 +637,7 @@
       <DependentUpon>TraitWhimsEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Traits\ITraitComponent.cs" />
+    <Compile Include="Traits\CASPreferenceContextModifier.cs" />
     <Compile Include="Traits\SharedWithTraitsAttribute.cs" />
     <Compile Include="Traits\Trait.cs" />
     <Compile Include="Traits\TraitComponent.cs" />
@@ -748,11 +792,43 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Careers\Components\CareerInteractionComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Careers\Components\CareerLevelsComponentEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Careers\Components\CareerTemplateComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\Templates\CareerTemplateFullTimeEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\Templates\CareerTemplateMessageOverrideControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\Templates\CareerTemplateMessageOverrides.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\Templates\CareerTemplatePartTimeEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CareerTracks\CareerTrackAssignmentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CareerTracks\CareerTrackEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CASPreferenceCategories\CASPreferenceCategoryEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -792,6 +868,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Interactions\Career\CareerInteractionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Interactions\Mixer\MixerInteractionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -828,7 +908,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="LikesDislikes\LikeDislikeEditor.xaml">
+    <Page Include="CASPreferences\CASPreferenceEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1001,6 +1081,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Situations\SituationEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Statistics\StatisticEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

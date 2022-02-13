@@ -4,6 +4,8 @@ using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.Situations;
 using Constructor5.Core;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Constructor5.SituationTemplates.SimpleSituation
 {
@@ -18,10 +20,53 @@ namespace Constructor5.SituationTemplates.SimpleSituation
         {
             var phaseList = context.Tuning.Get<TunableList>("_phases");
 
+            var roleChangeEndPoints = new HashSet<int>();
+
+            var currentStates = new Dictionary<SimpleSituationJobItem, ulong>();
+
+            foreach (var job in Jobs.GetOfType<SimpleSituationJobItem>())
+            {
+                var firstState = job.RoleStateChanges.OrderByDescending(x=>x.DurationToEndAt).FirstOrDefault()?.RoleStateToChangeTo;
+                if (firstState == null)
+                {
+                    firstState = job.RoleState;
+                }
+
+                currentStates.Add(job, (ulong)ElementTuning.GetSingleInstanceKey(firstState));
+
+                foreach(var stateChange in job.RoleStateChanges)
+                {
+                    roleChangeEndPoints.Add(stateChange.DurationToEndAt);
+                }
+            }
+
+            foreach (var endPoint in roleChangeEndPoints.OrderByDescending(x=>x))
+            {
+                var tuple = phaseList.Get<TunableTuple>(null);
+                tuple.Set<TunableBasic>("duration", endPoint);
+                var tunableList1 = tuple.Get<TunableList>("job_list");
+
+                foreach (var job in Jobs.GetOfType<SimpleSituationJobItem>())
+                {
+                    var newCurrentState = job.RoleStateChanges.FirstOrDefault(x=>x.DurationToEndAt==endPoint);
+                    if (newCurrentState != null)
+                    {
+                        currentStates[job] = (ulong)ElementTuning.GetSingleInstanceKey(newCurrentState.RoleStateToChangeTo);
+                    }
+
+                    foreach (var key in ElementTuning.GetInstanceKeys(job.Reference))
+                    {
+                        var tunableTuple1 = tunableList1.Get<TunableTuple>(null);
+                        tunableTuple1.Set<TunableBasic>("job", key);
+                        tunableTuple1.Set<TunableBasic>("role", currentStates[job]);
+                    }
+                }
+            }
+
             var zeroTuple = phaseList.Get<TunableTuple>(null);
-            var zeroDuration = zeroTuple.Set<TunableBasic>("duration", 0);
-            
-            foreach(var job in Jobs.GetOfType<SimpleSituationJobItem>())
+            zeroTuple.Set<TunableBasic>("duration", 0);
+
+            foreach (var job in Jobs.GetOfType<SimpleSituationJobItem>())
             {
                 foreach(var key in ElementTuning.GetInstanceKeys(job.Reference))
                 {
@@ -37,6 +82,7 @@ namespace Constructor5.SituationTemplates.SimpleSituation
                         tunableList1.Set<TunableBasic>(null, key);
                     }
                 }
+
             }
         }
     }

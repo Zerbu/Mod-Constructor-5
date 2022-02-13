@@ -41,7 +41,9 @@
                     <c:Field Label="ToolTip" LabelWidth="150">
                         <c:STBLStringControl IsMultiLine="True" Text="{Binding ToolTip}" />
                     </c:Field>
-                    <c:Field Label="SatisfactionPoints" LabelWidth="150">
+                    <c:Field x:Name="SatisfactionPointsField"
+                             Label="SatisfactionPoints"
+                             LabelWidth="150">
                         <xctk:IntegerUpDown Increment="25"
                                             Minimum="0"
                                             Text="{Binding SatisfactionPoints}" />

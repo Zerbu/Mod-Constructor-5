@@ -8,6 +8,17 @@ namespace Constructor5.Elements.Traits.Components
     {
         public TraitInfoEditor() => InitializeComponent();
 
-        void IObjectEditor.SetObject(object obj, string tag) => DataContext = obj;
+        void IObjectEditor.SetObject(object obj, string tag)
+        {
+            DataContext = obj;
+
+            var component = (TraitInfoComponent)obj;
+            var trait = (Trait)component.Element;
+            if (trait.GetContextModifier<CASPreferenceContextModifier>() != null)
+            {
+                Info.Visibility = System.Windows.Visibility.Collapsed;
+                InheritedNotice.Visibility = System.Windows.Visibility.Visible;
+            }
+        }
     }
 }

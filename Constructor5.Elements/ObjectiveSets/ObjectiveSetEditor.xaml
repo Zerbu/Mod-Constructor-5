@@ -16,7 +16,8 @@
         <c:TabControl>
             <c:TabItem Header="Objectives">
                 <c:SpacedStack TopMargin="True">
-                    <c:ReferenceListControl BrowseWarning="Note: If multiple sets share the same objective, completing it will count towards all of them, not just the one that is active. For example, if you add the &quot;Work out for 8 total hours&quot; from the Bodybuilder aspiration to a custom aspiration, and your Sim has already compeleted it as part of the Bodybuilder aspiration, it will already be completed in your custom aspiration even if it was never selected before. If you don't want this to happen, create a new objective instead."
+                    <c:ReferenceListControl x:Name="ObjectivesListControl"
+                                            BrowseWarning="Note: If multiple sets share the same objective, completing it will count towards all of them, not just the one that is active. For example, if you add the &quot;Work out for 8 total hours&quot; from the Bodybuilder aspiration to a custom aspiration, and your Sim has already compeleted it as part of the Bodybuilder aspiration, it will already be completed in your custom aspiration even if it was never selected before. If you don't want this to happen, create a new objective instead."
                                             CreateElementFunction="ReferenceListControl_CreateElementFunction"
                                             EditorCategory="Default"
                                             ElementReferenceList="{Binding Objectives}"

@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Constructor5.Elements.CareerTracks.CareerTrackEditor"
+<UserControl x:Class="Constructor5.Elements.CareerTracks.CareerTrackEditor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
@@ -42,6 +42,17 @@
                                             EditorCategory="Default"
                                             ElementReferenceList="{Binding Branches}"
                                             ElementTypeName="CareerTrack"
+                                            ShowBrowseButton="False"
+                                            ShowCreateButton="True" />
+                </c:SpacedStack>
+            </c:TabItem>
+            <c:TabItem Header="WorkFromHomeAssignments">
+                <c:SpacedStack TopMargin="True">
+                    <c:ReferenceListControl CreateElementFunction="CreateAssignmentFunction"
+                                            EditorCategory="Default"
+                                            ElementReferenceList="{Binding Assignments}"
+                                            ElementTypeName="CareerTrack"
+                                            ItemTypeName="CareerTrackAssignment"
                                             ShowBrowseButton="False"
                                             ShowCreateButton="True" />
                 </c:SpacedStack>
