@@ -11,5 +11,6 @@
     <StackPanel>
         <components:TraitInfoNameDescriptionIcon x:Name="NameDescriptionIcon" />
         <components:TraitInfoType x:Name="Type" />
+        <components:TraitOriginControl x:Name="TraitOrigin" Visibility="Collapsed" />
     </StackPanel>
 </UserControl>

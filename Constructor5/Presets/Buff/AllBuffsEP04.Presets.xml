@@ -1,0 +1,696 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Buffs EP04">
+  <Preset Label="buff_Trait_Species_Dog" Value="131197" />
+  <Preset Label="buff_Trait_Species_Cat" Value="144675" />
+  <Preset Label="buff_DogConditioning_ShortTerm_Bark" Value="148253" />
+  <Preset Label="buff_DogConditioning_ShortTerm_BegForFood" Value="148254" />
+  <Preset Label="Pent Up (buff_Motives_Pet_Cat_PlayDistress)" Value="157738" />
+  <Preset Label="moodBuff_Pets_Hidden_Hyper" Value="157880" />
+  <Preset Label="Hyper (CheatingBuff_Pets_Hyper)" Value="157910" />
+  <Preset Label="buff_Trait_CatLover" Value="157980" />
+  <Preset Label="buff_Trait_DogLover" Value="157981" />
+  <Preset Label="Doggie! (buff_Trait_DogLover_MetNewDog)" Value="158023" />
+  <Preset Label="Kitty! (buff_Trait_CatLover_MetNewCat)" Value="158024" />
+  <Preset Label="Laser Silliness (buff_Object_LaserPointer_Playful)" Value="158125" />
+  <Preset Label="moodBuffs_Pets_Cat_Hidden_Drowsy" Value="158140" />
+  <Preset Label="Drowsy (CheatingBuff_Pets_Cat_Drowsy)" Value="158149" />
+  <Preset Label="moodBuffs_Pets_Cats_Hidden_Anxious" Value="158194" />
+  <Preset Label="Anxious (CheatingBuff_Pets_Cat_Anxious)" Value="158195" />
+  <Preset Label="Buff_Trait_Pet_Active" Value="158205" />
+  <Preset Label="buff_Trait_Pet_Lazy" Value="158206" />
+  <Preset Label="buff_Trait_Pet_Curious" Value="158214" />
+  <Preset Label="buff_Trait_Pet_Stubborn" Value="158215" />
+  <Preset Label="Angry (CheatingIntensityBuff_Pets_Dog_Angry)" Value="158257" />
+  <Preset Label="Excited (CheatingIntensityBuff_Pets_Dog_Excited)" Value="158258" />
+  <Preset Label="Sad (CheatingIntensityBuff_Pets_Dog_Sad)" Value="158259" />
+  <Preset Label="Ashamed (CheatingIntensityBuff_Pets_Dog_Ashamed)" Value="158260" />
+  <Preset Label="Mopey (CheatingIntensityBuff_Pets_Dog_Mopey)" Value="158261" />
+  <Preset Label="Anxious (CheatingIntensityBuff_Pets_Dog_Anxious)" Value="158262" />
+  <Preset Label="Flirty (CheatingIntensityBuff_Pets_Dog_Flirty)" Value="158263" />
+  <Preset Label="Scared (CheatingIntensityBuff_Pets_Dog_Scared)" Value="158264" />
+  <Preset Label="Happy (CheatingIntensityBuff_Pets_Dog_Happy)" Value="158265" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Excited" Value="158276" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Sad" Value="158277" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Mopey" Value="158278" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Anxious" Value="158279" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Angry" Value="158280" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Flirty" Value="158281" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Scared" Value="158282" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Happy" Value="158283" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Fine" Value="158284" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Asleep" Value="158285" />
+  <Preset Label="moodBuffs_Pets_Dog_Hidden_Ashamed" Value="158286" />
+  <Preset Label="Angry (emotionalBuffs_General_Pets_Dog_Angry_Level1)" Value="158289" />
+  <Preset Label="Anxious (emotionalBuffs_General_Pets_Dog_Anxious_Level1)" Value="158290" />
+  <Preset Label="Ashamed (emotionalBuffs_General_Pets_Dog_Ashamed_Level1)" Value="158291" />
+  <Preset Label="Flirty (emotionalBuffs_General_Pets_Dog_Flirty_Level1)" Value="158292" />
+  <Preset Label="Excited (emotionalBuffs_General_Pets_Dog_Excited_Level1)" Value="158293" />
+  <Preset Label="Sad (emotionalBuffs_General_Pets_Dog_Sad_Level1)" Value="158294" />
+  <Preset Label="Mopey (emotionalBuffs_General_Pets_Dog_Mopey_Level1)" Value="158295" />
+  <Preset Label="Scared (emotionalBuffs_General_Pets_Dog_Scared_Level1)" Value="158296" />
+  <Preset Label="Happy (emotionalBuffs_General_Pets_Dog_Happy_Level1)" Value="158297" />
+  <Preset Label="Angry (emotionalBuffs_General_Pets_Dog_Angry_Level2)" Value="158311" />
+  <Preset Label="Anxious (emotionalBuffs_General_Pets_Dog_Anxious_Level2)" Value="158312" />
+  <Preset Label="Ashamed (emotionalBuffs_General_Pets_Dog_Ashamed_Level2)" Value="158313" />
+  <Preset Label="Excited (emotionalBuffs_General_Pets_Dog_Excited_Level2)" Value="158314" />
+  <Preset Label="Flirty (emotionalBuffs_General_Pets_Dog_Flirty_Level2)" Value="158315" />
+  <Preset Label="Happy (emotionalBuffs_General_Pets_Dog_Happy_Level2)" Value="158316" />
+  <Preset Label="Mopey (emotionalBuffs_General_Pets_Dog_Mopey_Level2)" Value="158317" />
+  <Preset Label="Sad (emotionalBuffs_General_Pets_Dog_Sad_Level2)" Value="158318" />
+  <Preset Label="Scared (emotionalBuffs_General_Pets_Dog_Scared_Level2)" Value="158319" />
+  <Preset Label="buff_Motives_Pet_Cat_Complain" Value="158396" />
+  <Preset Label="moodBuffs_Pets_Cat_Hidden_Angry" Value="158401" />
+  <Preset Label="moodBuffs_Pets_Cat_Hidden_Fine" Value="158402" />
+  <Preset Label="moodBuffs_Pets_Cat_Hidden_Flirty" Value="158403" />
+  <Preset Label="moodBuffs_Pets_Cat_Hidden_Scared" Value="158404" />
+  <Preset Label="moodBuffs_Pets_Cat_Hidden_Happy" Value="158405" />
+  <Preset Label="Angry (CheatingBuff_Pets_Cat_Angry)" Value="158444" />
+  <Preset Label="Flirty (CheatingBuff_Pets_Cat_Flirty)" Value="158446" />
+  <Preset Label="Scared (CheatingBuff_Pets_Cat_Scared)" Value="158447" />
+  <Preset Label="Happy (CheatingBuff_Pets_Cat_Happy)" Value="158448" />
+  <Preset Label="Angry (emotionalBuffs_General_Pets_Cat_Angry_Level1)" Value="158476" />
+  <Preset Label="Angry (emotionalBuffs_General_Pets_Cat_Angry_Level2)" Value="158477" />
+  <Preset Label="Anxious (emotionalBuffs_General_Pets_Cat_Anxious_Level1)" Value="158478" />
+  <Preset Label="Anxious (emotionalBuffs_General_Pets_Cat_Anxious_Level2)" Value="158479" />
+  <Preset Label="Drowsy (emotionalBuffs_General_Pets_Cat_Drowsy_Level1)" Value="158480" />
+  <Preset Label="Drowsy (emotionalBuffs_General_Pets_Cat_Drowsy_Level2)" Value="158481" />
+  <Preset Label="Flirty (emotionalBuffs_General_Pets_Cat_Flirty_Level1)" Value="158482" />
+  <Preset Label="Flirty (emotionalBuffs_General_Pets_Cat_Flirty_Level2)" Value="158483" />
+  <Preset Label="Happy (emotionalBuffs_General_Pets_Cat_Happy_Level1)" Value="158484" />
+  <Preset Label="Happy (emotionalBuffs_General_Pets_Cat_Happy_Level2)" Value="158485" />
+  <Preset Label="Hyper (emotionalBuffs_General_Pets_Cat_Hyper_Level1)" Value="158486" />
+  <Preset Label="Hyper (emotionalBuffs_General_Pets_Cat_Hyper_Level2)" Value="158487" />
+  <Preset Label="Scared (emotionalBuffs_General_Pets_Cat_Scared_Level1)" Value="158488" />
+  <Preset Label="Scared (emotionalBuffs_General_Pets_Cat_Scared_Level2)" Value="158489" />
+  <Preset Label="Asleep (buff_Pet_Dog_IsSleeping)" Value="158528" />
+  <Preset Label="moodBuffs_Pets_Cat_Hidden_Asleep" Value="158559" />
+  <Preset Label="Asleep (buff_Pet_Cat_IsSleeping)" Value="158606" />
+  <Preset Label="buff_Sim_Pets_BeWokenUp_Hidden" Value="158663" />
+  <Preset Label="buff_Motives_Pet_Cat_Hungry" Value="158695" />
+  <Preset Label="buff_Trait_Pet_Wanderlust" Value="158707" />
+  <Preset Label="buff_Motives_Pet_Cat_Starving" Value="158720" />
+  <Preset Label="buff_Motives_Pet_Dog_Starving" Value="158736" />
+  <Preset Label="Pent Up (buff_Motives_Pet_Dog_PlayDistress)" Value="158752" />
+  <Preset Label="buff_Trait_Pet_Friendly" Value="158786" />
+  <Preset Label="buff_Trait_Pet_Skittish" Value="158787" />
+  <Preset Label="buff_Trait_Pet_Vocal" Value="158788" />
+  <Preset Label="buff_Trait_Pet_Aggressive" Value="158789" />
+  <Preset Label="buff_Trait_Pet_Smart" Value="158790" />
+  <Preset Label="buff_Trait_Pet_Independent" Value="158791" />
+  <Preset Label="buff_Trait_Pet_Protective" Value="158792" />
+  <Preset Label="buff_Trait_Pet_Hairy" Value="158793" />
+  <Preset Label="buff_Sim_InVet" Value="158852" />
+  <Preset Label="buff_Sickness_Pet_AteSpoiledFood" Value="158936" />
+  <Preset Label="buff_PetCat_Wanderlust" Value="159114" />
+  <Preset Label="buff_Pet_Preference_Set_Inside" Value="159270" />
+  <Preset Label="buff_Pet_Preference_Set_Outside" Value="159271" />
+  <Preset Label="buff_Pet_LitterBox_LitterBreath_Hidden" Value="159273" />
+  <Preset Label="Smelly Pet Kiss (buff_Pet_LitterBox_KissedByLitterBreath)" Value="159314" />
+  <Preset Label="Affection Distress (buff_Motives_Pet_Cat_AffectionDistress)" Value="159597" />
+  <Preset Label="buff_Motives_Pet_Dog_MopeyEnergy" Value="159911" />
+  <Preset Label="buff_Reaction_BreakInvestigation" Value="159914" />
+  <Preset Label="buff_Trait_Pet_Glutton" Value="159983" />
+  <Preset Label="buff_Trait_Pet_Naughty" Value="159984" />
+  <Preset Label="buff_Trait_Pet_Hunter" Value="159985" />
+  <Preset Label="buff_Motives_Pet_Dog_Hungry" Value="160302" />
+  <Preset Label="Fuzzy Feelings (buff_SimToPet_Hug_Happy)" Value="160353" />
+  <Preset Label="Pet Smooches (buff_SimToPet_Kiss_Happy)" Value="160354" />
+  <Preset Label="buff_Motives_Pet_Dog_InHeat" Value="160627" />
+  <Preset Label="buff_Motives_Pet_Cat_InHeat" Value="160629" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_TV" Value="160784" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Brewer" Value="160804" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Computer" Value="160805" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_FishTank" Value="160806" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_FitnessEquipment" Value="160807" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Fridge" Value="160808" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Gaming" Value="160809" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Instrument" Value="160810" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Microwave" Value="160811" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Shower" Value="160812" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Stereo" Value="160813" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Cooking" Value="160814" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Dishwasher" Value="160815" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Doorbell" Value="160816" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Fire" Value="160817" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Toilet" Value="160818" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Brewer" Value="160874" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Computer" Value="160875" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Gaming" Value="160876" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Instrument" Value="160877" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Microwave" Value="160878" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Shower" Value="160879" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Stereo" Value="160880" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Toilet" Value="160882" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_TV" Value="160883" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Dishwasher" Value="160885" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Fire" Value="160886" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_FitnessEquipment" Value="160887" />
+  <Preset Label="buff_Motives_Pet_Dog_Drowsy_Elder" Value="161086" />
+  <Preset Label="Cleaned Up Pet Poop (buff_PetPoop_CleanUp)" Value="161118" />
+  <Preset Label="buff_Motives_Pet_Cat_DrowsyEnergy" Value="161155" />
+  <Preset Label="buff_Motives_Pet_Cat_Play_Cooldown" Value="161291" />
+  <Preset Label="buff_Pet_RecentlyScolded" Value="161684" />
+  <Preset Label="Stepped In Pet Poop (buff_PetPoop_SteppedOn)" Value="162023" />
+  <Preset Label="buff_PetPoop_InteractingWith" Value="162510" />
+  <Preset Label="buff_DogTraining_TrickLearnedExitCondition_Hidden" Value="162553" />
+  <Preset Label="buff_Motives_Pet_Dog_AffectionDistress" Value="163242" />
+  <Preset Label="Shredded and Torn (buff_Pets_Cat_ScratchFurniture_Sim)" Value="163376" />
+  <Preset Label="buff_Pets_Dog_ToiletDrink_Hidden" Value="163381" />
+  <Preset Label="Potty Mouth (buff_Pets_Dog_ToiletDrink_Sim)" Value="163382" />
+  <Preset Label="Icy Fur (buff_Pet_Sickness_IceyFur)" Value="163801" />
+  <Preset Label="Hot Feet (buff_Pet_Sickness_HotFeet)" Value="163802" />
+  <Preset Label="Rainbow Poop (buff_Pet_Sickness_RainbowPoop)" Value="163803" />
+  <Preset Label="Uncontrollable Drooling (buff_Pet_Sickness_UncontrollableDrooling)" Value="163804" />
+  <Preset Label="Mouth Moths (buff_Pet_Sickness_MouthMoths)" Value="163805" />
+  <Preset Label="Fleas (buff_Pet_Sickness_Fleas)" Value="163806" />
+  <Preset Label="Barfing (buff_Pet_Sickness_Barfing)" Value="163807" />
+  <Preset Label="Extreme Lethargy (buff_Pet_Sickness_ExtremeLethargy)" Value="163808" />
+  <Preset Label="Stinky Fur (buff_Pet_Sickness_StinkyFur)" Value="163809" />
+  <Preset Label="Glowing Nose (buff_Pet_Sickness_GlowingNose)" Value="163810" />
+  <Preset Label="Golden Poop (buff_Pet_Sickness_GoldenPoop)" Value="163811" />
+  <Preset Label="Splashed! (buff_Pets_Dog_Splashed_Sim)" Value="163813" />
+  <Preset Label="buff_Object_Pet_BreakHiding" Value="163827" />
+  <Preset Label="buff_Pet_DoNotDisturb" Value="163908" />
+  <Preset Label="debug_buff_Pet_Wanderlust_Sick" Value="163955" />
+  <Preset Label="debug_buff_Pet_Wanderlust_Carry" Value="163956" />
+  <Preset Label="debug_buff_Pet_Wanderlust_Pregnant" Value="163957" />
+  <Preset Label="debug_buff_Pet_Wanderlust_Nothing" Value="163958" />
+  <Preset Label="buff_Trait_Pet_Playful" Value="164047" />
+  <Preset Label="buff_Pet_Social_ParentToChild_Cooldown" Value="164115" />
+  <Preset Label="buff_Role_ServiceNPC_PetCareWorker_Arrival" Value="164148" />
+  <Preset Label="buff_Role_ServiceNPC_PetCareWorker_Leave" Value="164149" />
+  <Preset Label="Slobber Ball (buff_ToyBallPet_HandledChewedBall)" Value="164347" />
+  <Preset Label="Quality Time (buff_Dog_Training_QualityTime)" Value="164372" />
+  <Preset Label="Stressed from Training (buff_Dog_Training_Tense)" Value="164386" />
+  <Preset Label="Cool Trick (buff_Dog_Training_CoolTrick)" Value="164387" />
+  <Preset Label="buff_AutonomyMod_PetWorld_Dog_Wanderer" Value="164392" />
+  <Preset Label="buff_AutonomyMod_PetWorld_Cat_InHeat" Value="164393" />
+  <Preset Label="buff_AutonomyMod_PetWorld_Dog_InHeat" Value="164411" />
+  <Preset Label="buff_AutonomyMod_PetWorld_Cat_Wanderer" Value="164412" />
+  <Preset Label="buff_AutonomyMod_PetWorld_Cat_Fisher" Value="164413" />
+  <Preset Label="buff_AutonomyMod_PetWorld_Cat_Ghost" Value="164414" />
+  <Preset Label="buff_AutonomyMod_PetWorld_Dog_Ghost" Value="164415" />
+  <Preset Label="buff_Object_ToyBallPet_PetPlaying" Value="164418" />
+  <Preset Label="Excited Puppy (buff_Motives_Pet_Dog_PuppyExcitement)" Value="164476" />
+  <Preset Label="Hyper Kitten (buff_Motives_Pet_Cat_KittenHyper)" Value="164491" />
+  <Preset Label="buff_Role_ServiceNPC_PetCareWorker_RouteToCrate" Value="164684" />
+  <Preset Label="buff_Role_ServiceNPC_Pet_Arrival" Value="164880" />
+  <Preset Label="buff_Role_ServiceNPC_Pet_RouteToCrate" Value="164881" />
+  <Preset Label="buff_Dog_OnLeash_Hidden" Value="164919" />
+  <Preset Label="buff_Pet_IsDying" Value="164921" />
+  <Preset Label="buff_Sim_LeashedToDog" Value="165193" />
+  <Preset Label="buff_GoForWalk_Dog_IdleBehavior" Value="165199" />
+  <Preset Label="Good Walk (buff_DogWalking_Sim_GoodWalk)" Value="165223" />
+  <Preset Label="Neglected Pet (Buff_WitnessedRescuedPet)" Value="165472" />
+  <Preset Label="emotionalBuffs_General_Pets_Cat_Vengeful" Value="165613" />
+  <Preset Label="emotionalBuffs_General_Pets_Dog_Vengeful" Value="165615" />
+  <Preset Label="buff_Dog_Training_ShowOff_Human" Value="165750" />
+  <Preset Label="buff_Dog_Training_ShowOff_Dog" Value="165920" />
+  <Preset Label="buff_Pet_Sickness_FailureController_Barfing" Value="166022" />
+  <Preset Label="buff_Pet_Sickness_FailureController_ExtremeLethargy" Value="166023" />
+  <Preset Label="buff_Pet_Sickness_FailureController_Fleas" Value="166024" />
+  <Preset Label="buff_Pet_Sickness_FailureController_GlowingNose" Value="166025" />
+  <Preset Label="buff_Pet_Sickness_FailureController_GoldenPoop" Value="166026" />
+  <Preset Label="buff_Pet_Sickness_FailureController_IceyFur" Value="166027" />
+  <Preset Label="buff_Pet_Sickness_FailureController_MouthMoths" Value="166028" />
+  <Preset Label="buff_Pet_Sickness_FailureController_RainbowPoop" Value="166029" />
+  <Preset Label="buff_Pet_Sickness_FailureController_StinkyFur" Value="166030" />
+  <Preset Label="buff_Pet_Sickness_FailureController_UncontrollableDrooling" Value="166031" />
+  <Preset Label="buff_Pet_Sickness_FailureController_HotFeet" Value="166032" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_Barfing" Value="166037" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_ExtremeLethargy" Value="166038" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_Fleas" Value="166039" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_GlowingNose" Value="166040" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_GoldenPoop" Value="166041" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_IceyFur" Value="166042" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_MouthMoths" Value="166043" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_RainbowPoop" Value="166044" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_StinkyFur" Value="166045" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_UncontrollableDrooling" Value="166046" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_HotFeet" Value="166047" />
+  <Preset Label="buff_GoForWalk_Sim_WalkBehavior" Value="166114" />
+  <Preset Label="buff_GoForWalk_Sim_IdleBehavior" Value="166239" />
+  <Preset Label="buff_GoForWalk_Dog_WalkBehavior" Value="166305" />
+  <Preset Label="hidden_buff_Pet_Stubborn_Scolded" Value="166494" />
+  <Preset Label="buff_Walkby_PetWorld_Jogger" Value="166527" />
+  <Preset Label="buff_BeGhost_OldAge_Pet_idleYowl" Value="166676" />
+  <Preset Label="buff_Role_Vet_CustomerArrival" Value="166919" />
+  <Preset Label="buff_Sim_Pets_PetBed_KickOut_Hidden" Value="166971" />
+  <Preset Label="buff_Dog_Heel" Value="167006" />
+  <Preset Label="Pet Pee'ved (buff_Pets_SimPeedOn)" Value="167007" />
+  <Preset Label="buff_Role_Vet_Employee_ExamPet" Value="167023" />
+  <Preset Label="buff_Motives_Pet_Cat_InSS3Mode" Value="167047" />
+  <Preset Label="buff_Motives_Pet_Dog_InSS3Mode" Value="167048" />
+  <Preset Label="buff_Role_Vet_SuppressSocialAutonomy" Value="167085" />
+  <Preset Label="Buff_trait_Pet_age_Child" Value="167108" />
+  <Preset Label="Buff_trait_Pet_age_Elder" Value="167109" />
+  <Preset Label="Buff_trait_Pet_age_Adult" Value="167110" />
+  <Preset Label="Fuzzy Feelings (buff_SimToPet_Hug_Happy_Dog)" Value="167115" />
+  <Preset Label="Pet Smooches (buff_SimToPet_Kiss_Happy_Dog)" Value="167116" />
+  <Preset Label="buff_Motives_Pet_Dog_LowBladder" Value="167202" />
+  <Preset Label="buff_Role_Vet_NeedToGreet" Value="167207" />
+  <Preset Label="buff_Role_Vet_Greeted" Value="167208" />
+  <Preset Label="buff_Dog_Training_BoredProtection" Value="167211" />
+  <Preset Label="buff_Motives_Pet_Dog_LowBowel" Value="167215" />
+  <Preset Label="buff_Motives_Pet_Cat_LowBladder" Value="167242" />
+  <Preset Label="buff_Motives_Pet_Cat_LowBowel" Value="167243" />
+  <Preset Label="buff_Pets_TreatCooldown" Value="167244" />
+  <Preset Label="buff_Walkby_PetWorld_NoHunger" Value="167531" />
+  <Preset Label="buff_Sim_Pets_Attacking_Hidden" Value="167556" />
+  <Preset Label="buff_Pet_VFX_GlowingNose_Cat" Value="167626" />
+  <Preset Label="buff_Pet_VFX_GlowingNose_Cat_Critical" Value="167627" />
+  <Preset Label="buff_Pet_VFX_GlowingNose_SmallDog" Value="167629" />
+  <Preset Label="buff_Pet_VFX_GlowingNose_SmallDog_Critical" Value="167630" />
+  <Preset Label="buff_Pet_VFX_GlowingNose_LargeDog" Value="167631" />
+  <Preset Label="buff_Pet_VFX_GlowingNose_LargeDog_Critical" Value="167632" />
+  <Preset Label="buff_Pet_VFX_UncontrollableDrool_Cat_SmallDog" Value="167667" />
+  <Preset Label="buff_Pet_VFX_UncontrollableDrool_LargeDog" Value="167668" />
+  <Preset Label="buff_Pet_VFX_StinkyFur_Cat_SmallDog" Value="167674" />
+  <Preset Label="buff_Pet_VFX_StinkyFur_Cat_SmallDog_Critical" Value="167675" />
+  <Preset Label="buff_Pet_VFX_StinkyFur_LargeDog" Value="167676" />
+  <Preset Label="buff_Pet_VFX_StinkyFur_LargeDog_Critical" Value="167677" />
+  <Preset Label="buff_Role_Vet_SuppressTraining" Value="167679" />
+  <Preset Label="buff_DogTraining_TrickLearnedExitCondition_Fetch" Value="167731" />
+  <Preset Label="buff_Pet_BeExamined" Value="167756" />
+  <Preset Label="buff_Pets_Misbehaviors_RecentlyDisciplined" Value="167845" />
+  <Preset Label="buff_OwnableVetClinic_Perk_LongerWaitTime" Value="167883" />
+  <Preset Label="buff_OwnableVetClinic_WaitTime_Bad" Value="167891" />
+  <Preset Label="buff_OwnableVetClinic_WaitTime_Disgruntled" Value="167892" />
+  <Preset Label="buff_OwnableVetClinic_WaitTime_Good" Value="167897" />
+  <Preset Label="buff_OwnableVetClinic_WaitTime_Start" Value="167898" />
+  <Preset Label="buff_OwnableVetClinic_WaitTime_Stop" Value="167899" />
+  <Preset Label="buff_OwnableVetClinic_Employee_Training_Brief" Value="168005" />
+  <Preset Label="buff_OwnableVetClinic_Employee_Training_Extensive" Value="168006" />
+  <Preset Label="buff_OwnableVetClinic_Employee_Training_Standard" Value="168007" />
+  <Preset Label="buff_OwnableVetClinic_Employee_Training_Suppress_Backup" Value="168008" />
+  <Preset Label="buff_AutonomyMod_Pet_Walk" Value="168030" />
+  <Preset Label="buff_Pets_CancelLaydown" Value="168048" />
+  <Preset Label="buff_NPC_Pet_Suppress_All_Motive_Decay" Value="168168" />
+  <Preset Label="buff_Sickness_IsSick" Value="168173" />
+  <Preset Label="buff_AutonomyMod_PetWorld_Sim_DogWalker" Value="168182" />
+  <Preset Label="buff_Role_Vet_Pet" Value="168209" />
+  <Preset Label="buff_OwnableVetClinic_PetStress_05_Terrible" Value="168217" />
+  <Preset Label="buff_OwnableVetClinic_PetStress_04_Bad" Value="168218" />
+  <Preset Label="buff_AutonomyMod_PetWorld_Dog_DogWalker" Value="168314" />
+  <Preset Label="buff_Pet_Hairy_CleanedHairPile" Value="168317" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_CoffeeMaker" Value="168373" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Computer" Value="168375" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Dishwasher" Value="168376" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Fire" Value="168377" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_FitnessEquipment" Value="168378" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Gaming" Value="168379" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Instrument" Value="168380" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Microwave" Value="168381" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Shower" Value="168382" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Stereo" Value="168383" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Stove" Value="168384" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Swimming" Value="168385" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Toilet" Value="168386" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_TV" Value="168387" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Doorbell" Value="168400" />
+  <Preset Label="buff_OwnableVetClinic_BedsideManner_FriendlyGreeting" Value="168405" />
+  <Preset Label="buff_OwnableVetClinic_BedsideManner_MeanGreeting" Value="168406" />
+  <Preset Label="buff_OwnableVetClinic_BedsideManner_FriendlyPetSocial" Value="168407" />
+  <Preset Label="buff_OwnableVetClinic_BedsideManner_FriendlyOwnerSocial" Value="168408" />
+  <Preset Label="buff_OwnableVetClinic_BedsideManner_MeanPetSocial" Value="168409" />
+  <Preset Label="buff_OwnableVetClinic_BedsideManner_MeanOwnerSocial" Value="168410" />
+  <Preset Label="buff_Role_Pet_Prevent_CriticalDecay" Value="168445" />
+  <Preset Label="buff_OwnableVetClinic_ValueOfService_Amazing" Value="168496" />
+  <Preset Label="buff_OwnableVetClinic_ValueOfService_Good" Value="168497" />
+  <Preset Label="buff_OwnableVetClinic_ValueOfService_Great" Value="168498" />
+  <Preset Label="buff_OwnableVetClinic_ValueOfService_Neutral" Value="168499" />
+  <Preset Label="buff_OwnableVetClinic_ValueOfService_Poor" Value="168500" />
+  <Preset Label="buff_OwnableVetClinic_ValueOfService_Terrible" Value="168501" />
+  <Preset Label="buff_Role_Vet_BillOwner" Value="168504" />
+  <Preset Label="buff_Sim_Pets_FearQuirk_RunAway_ThoughtBalloon" Value="168530" />
+  <Preset Label="buff_OwnableVetClinic_QualityOfService_IncorrectTreatment" Value="168552" />
+  <Preset Label="buff_Dog_Training_Fetch_BoredProtection" Value="168613" />
+  <Preset Label="Angry (emotionalBuffs_General_Pets_Cat_Angry_Level1_NotTimed)" Value="168659" />
+  <Preset Label="Scared (emotionalBuffs_General_Pets_Dog_Scared_Level1_NotTimed)" Value="168660" />
+  <Preset Label="Angry (emotionalBuffs_General_Pets_Dog_Angry_Level1_NotTimed)" Value="168661" />
+  <Preset Label="Scared (emotionalBuffs_General_Pets_Cat_Scared_Level1_NotTimed)" Value="168662" />
+  <Preset Label="buff_Pet_Hunter_OpenStreet" Value="168780" />
+  <Preset Label="buff_Role_Vet_OwnerSocials" Value="168788" />
+  <Preset Label="buff_OwnableVetClinic_QualityOfService_ConeOfShame" Value="168804" />
+  <Preset Label="buff_OwnableVetClinic_QualityOfService_GreatService" Value="168805" />
+  <Preset Label="Litter Loathing (buff_Pet_LitterBox_SqueamishTense)" Value="168955" />
+  <Preset Label="buff_Role_Vet_Suppress_GetComfortable" Value="168956" />
+  <Preset Label="buff_Pregnancy_InHeat_Attractor" Value="169035" />
+  <Preset Label="buff_Pregnancy_InHeat_Cooldown" Value="169036" />
+  <Preset Label="buff_Role_Vet_PetOwnerStayNearPet" Value="169044" />
+  <Preset Label="Smelly Pet (buff_Pets_Sim_DirtyPet)" Value="169046" />
+  <Preset Label="buff_Role_ServiceNPC_AdoptionOfficer_Arrival" Value="169077" />
+  <Preset Label="Pet Birth (buff_Sim_ReactToPetBirth)" Value="169087" />
+  <Preset Label="New Baby! (buff_HadBaby_Pet)" Value="169228" />
+  <Preset Label="Pregnant: In Labor (buff_Pregnancy_InLabor_PetCat)" Value="169229" />
+  <Preset Label="buff_Pregnancy_NotShowing_PetCat" Value="169230" />
+  <Preset Label="Eating for Two! (buff_Pregnancy_Trimester1_PetCat)" Value="169232" />
+  <Preset Label="Pregnant: 2nd Trimester (buff_Pregnancy_Trimester2_PetCat)" Value="169233" />
+  <Preset Label="Pregnant: 3rd Trimester (buff_Pregnancy_Trimester3_PetCat)" Value="169234" />
+  <Preset Label="Pregnant: 3rd Trimester (buff_Pregnancy_Trimester3_PetDog)" Value="169247" />
+  <Preset Label="Pregnant: 2nd Trimester (buff_Pregnancy_Trimester2_PetDog)" Value="169248" />
+  <Preset Label="Eating for Two! (buff_Pregnancy_Trimester1_PetDog)" Value="169249" />
+  <Preset Label="buff_Pregnancy_NotShowing_PetDog" Value="169250" />
+  <Preset Label="Pregnant: In Labor (buff_Pregnancy_InLabor_PetDog)" Value="169251" />
+  <Preset Label="buff_Pet_Hunter_GoOutside_Cooldown_Sniff" Value="169322" />
+  <Preset Label="buff_Role_ServiceNPC_AdoptionOfficerAndPets_NoFailures" Value="169336" />
+  <Preset Label="buff_Pet_Hunter_GoOutside_Cooldown_FishingLocation" Value="169344" />
+  <Preset Label="buff_Pet_VFX_IceyFur_LargeDog_Critical" Value="169436" />
+  <Preset Label="buff_Pet_VFX_IceyFur_Cat_SmallDog_Critical" Value="169437" />
+  <Preset Label="buff_Pet_VFX_ExtremeLethargy_All" Value="169440" />
+  <Preset Label="buff_Pet_VFX_ExtremeLethargy_All_Critical" Value="169441" />
+  <Preset Label="buff_Pet_VFX_MothMouth_All" Value="169447" />
+  <Preset Label="buff_Pet_VFX_MothMouth_All_Critical" Value="169448" />
+  <Preset Label="buff_Podium_StandNearby_Cooldown" Value="169459" />
+  <Preset Label="buff_Role_Vet_StayNearPodium" Value="169462" />
+  <Preset Label="buff_Pet_VFX_UncontrollableDrool_Cat_SmallDog_Level2" Value="169500" />
+  <Preset Label="buff_Pet_VFX_UncontrollableDrool_LargeDog_Level2" Value="169501" />
+  <Preset Label="buff_AutonomyMod_PetAdoption_Pets_Despawn" Value="169557" />
+  <Preset Label="buff_Pet_AutonomyMod_NeedToDisciplinePet" Value="169565" />
+  <Preset Label="Minty Pet Kisses (buff_Object_PetRecipe_KissedByMintyBreath)" Value="169580" />
+  <Preset Label="buff_Object_PetRecipe_MintyBreath" Value="169581" />
+  <Preset Label="Ate Pet Food! (buff_Object_PetRecipe_AtePetFood)" Value="169582" />
+  <Preset Label="Just Like Real Food (buff_Object_PetRecipe_Glutton)" Value="169583" />
+  <Preset Label="buff_AutonomyMod_PetAdoption_Officer_DestroyCrate" Value="169596" />
+  <Preset Label="buff_Pet_VFX_HotFeet_All" Value="169618" />
+  <Preset Label="buff_Pet_VFX_HotFeet_All_Critical" Value="169619" />
+  <Preset Label="buff_Pet_Sickness_CriticalFailure_TemporaryBlockCriticalFailure" Value="169620" />
+  <Preset Label="buff_Pet_Sickness_TemporaryBlockSickness" Value="169691" />
+  <Preset Label="emotionalBuffs_Sickness_Pets_Dog_Anxious" Value="169695" />
+  <Preset Label="emotionalBuffs_Sickness_Pets_Dog_Drowsy" Value="169696" />
+  <Preset Label="emotionalBuffs_Sickness_Pets_Cat_Drowsy" Value="169697" />
+  <Preset Label="emotionalBuffs_Sickness_Pets_Cat_Anxious" Value="169698" />
+  <Preset Label="buff_Sickness_Exercised" Value="169739" />
+  <Preset Label="buff_Sickness_AteHumanFood" Value="169740" />
+  <Preset Label="buff_Role_ServiceNPC_PetCareWorker_Pet_RouteToCrate_Sell" Value="169825" />
+  <Preset Label="Pet Taken Away (Buff_WitnessedSoldAdoptedPet)" Value="169860" />
+  <Preset Label="buff_Role_Vet_CheckUp" Value="169865" />
+  <Preset Label="buff_Pets_Waypoint_RouteEvents_Cat_Litterbox" Value="169985" />
+  <Preset Label="buff_Pets_Waypoint_RouteEvents_Dog_Hunger" Value="169987" />
+  <Preset Label="Cup of Cozy (buff_CupofCozy)" Value="170014" />
+  <Preset Label="buff_Dog_Training_ShowOffTricks" Value="170017" />
+  <Preset Label="buff_Role_Vet_Employee_Resposibilities" Value="170055" />
+  <Preset Label="buff_Vet_BadBreath" Value="170079" />
+  <Preset Label="buff_Dog_Training_Participant" Value="170274" />
+  <Preset Label="buff_AutonomyMod_PetAdoption_Arrival" Value="170282" />
+  <Preset Label="buff_Pets_Waypoint_RouteEvents_Chase_Cat" Value="170326" />
+  <Preset Label="buff_Pets_Waypoint_RouteEvents_Chase_Dog" Value="170327" />
+  <Preset Label="buff_Pets_EatPreparedPetRecipeFood_Hidden" Value="170454" />
+  <Preset Label="buff_Pets_Obsess_MixerCooldown" Value="170537" />
+  <Preset Label="buff_Sim_Pets_SoldForAdoption" Value="170541" />
+  <Preset Label="buff_Pet_PlasmaExtracted" Value="170695" />
+  <Preset Label="buff_Pets_FeelTheLove_TargetPet_Cooldown" Value="170839" />
+  <Preset Label="Feeling the Love (buff_Pets_FeelTheLove_ActorSim)" Value="170841" />
+  <Preset Label="buff_Hidden_PetOwner_ExitWatch" Value="170875" />
+  <Preset Label="buff_ClubPerks_SkillBoost_AdultMajor_Veterinarian" Value="170915" />
+  <Preset Label="buff_ClubPerks_SkillBoost_AdultMajor_DogTraining" Value="170916" />
+  <Preset Label="Champion Pet! (buff_PetObstacleCourse_PetOwner_Happy)" Value="170922" />
+  <Preset Label="Sigh, They Can't All Be Winners (buff_PetObstacleCourse_PetOwner_Tense)" Value="170923" />
+  <Preset Label="buff_PetObstacleCourse_Role_PetOwner_Watching" Value="170994" />
+  <Preset Label="buff_PetObstacleCourse_Role_Pet_RunCourse" Value="171028" />
+  <Preset Label="buff_Motives_Pet_Dog_Spin_Bowel" Value="171055" />
+  <Preset Label="buff_Pets_OwnerReturns_Pet_Hidden" Value="171078" />
+  <Preset Label="buff_Motives_Pet_Dog_Spin_Bladder" Value="171081" />
+  <Preset Label="Angry (emotionalBuffs_General_Pets_Cat_Angry_Catnip)" Value="171119" />
+  <Preset Label="Drowsy (emotionalBuffs_General_Pets_Cat_Drowsy_Catnip)" Value="171120" />
+  <Preset Label="Flirty (emotionalBuffs_General_Pets_Cat_Flirty_Catnip)" Value="171121" />
+  <Preset Label="Hyper (emotionalBuffs_General_Pets_Cat_Hyper_Catnip)" Value="171122" />
+  <Preset Label="buff_Pets_OwnerReturns_Sim_Hidden" Value="171148" />
+  <Preset Label="buff_Role_ServiceNPC_AdoptionOfficer_Arrival_FindPet" Value="171190" />
+  <Preset Label="buff_Role_ServiceNPC_Pet_Arrival_SellAdopt" Value="171268" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_RobotVacuum" Value="171325" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_RobotVacuum" Value="171326" />
+  <Preset Label="buff_OwnableVetClinic_States_Clean" Value="171547" />
+  <Preset Label="buff_OwnableVetClinic_States_DontClean" Value="171548" />
+  <Preset Label="buff_OwnableVetClinic_States_Treat" Value="171549" />
+  <Preset Label="buff_OwnableVetClinic_States_DontTreat" Value="171550" />
+  <Preset Label="buff_Pounce_Stalk" Value="171570" />
+  <Preset Label="buff_Object_VetMedicineStation_RelaxationSerum" Value="171575" />
+  <Preset Label="buff_Role_Vet_Employee" Value="171651" />
+  <Preset Label="Angry (emotionalBuffs_General_Pets_Cat_Angry_walkby)" Value="171702" />
+  <Preset Label="Happy (emotionalBuffs_General_Pets_Cat_Happy_walkby)" Value="171703" />
+  <Preset Label="Angry (emotionalBuffs_General_Pets_Dog_Angry_walkby)" Value="171704" />
+  <Preset Label="Happy (emotionalBuffs_General_Pets_Dog_Happy_walkby)" Value="171705" />
+  <Preset Label="Fine (emotionalBuffs_General_Pets_Dog_Fine_walkby)" Value="171706" />
+  <Preset Label="buff_Vet_ConeOfShame" Value="171707" />
+  <Preset Label="Fine (emotionalBuffs_General_Pets_Cat_Fine_walkby)" Value="171708" />
+  <Preset Label="buff_Object_VetMedicineStation_CalmingAgent" Value="171734" />
+  <Preset Label="buff_Vet_ConeOfShame_OwnerRemoval" Value="171742" />
+  <Preset Label="buff_Vet_ConeOfShame_SelfRemoval" Value="171743" />
+  <Preset Label="buff_Vet_ConeOfShame_Duration" Value="171744" />
+  <Preset Label="buff_Object_VetMedicineStation_SimulationGel" Value="171749" />
+  <Preset Label="Fire! (Buff_Fire_Stressed_petCat)" Value="171899" />
+  <Preset Label="Fire! (Buff_Fire_Stressed_petDog)" Value="171900" />
+  <Preset Label="buff_Bush_Pet_Skunked" Value="171906" />
+  <Preset Label="buff_Bush_Pet_Squirrel_Success" Value="171910" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Swimming" Value="171911" />
+  <Preset Label="buff_Cat_onRoutableSurface_Misbehavior" Value="171915" />
+  <Preset Label="buff_Bush_Pet_Squirrel_Fail" Value="171929" />
+  <Preset Label="buff_Bush_Pet_Bird" Value="171930" />
+  <Preset Label="buff_Bush_Pet_FindItem" Value="171931" />
+  <Preset Label="buff_Bush_Pet_Play" Value="171932" />
+  <Preset Label="Skunky Scent (buff_NearbyPet_Skunk)" Value="171963" />
+  <Preset Label="buff_Cat_blockRoutableSurface_Misbehavior" Value="171975" />
+  <Preset Label="buff_Pet_Sickness_WellnessTreatBlockSickness" Value="171998" />
+  <Preset Label="I'm On Fire! (Buff_Fire_OnFire_petCat)" Value="172014" />
+  <Preset Label="I'm On Fire! (Buff_Fire_OnFire_petDog)" Value="172015" />
+  <Preset Label="Singed! (Buff_Fire_Sim_Singed_petCat)" Value="172020" />
+  <Preset Label="Singed! (Buff_Fire_Sim_Singed_petDog)" Value="172021" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_RobotVacuum" Value="172030" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_RelaxationSerum" Value="172136" />
+  <Preset Label="buff_Pet_Curious_Searching" Value="172164" />
+  <Preset Label="buff_Sim_Pet_Dog_NoShakeOff_Cooldown" Value="172179" />
+  <Preset Label="Buff_Trait_Animal_Whisperer" Value="172194" />
+  <Preset Label="buff_Vet_SymptomDiscovery" Value="172256" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_SimulationGel" Value="172303" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_CalmingAgent" Value="172304" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_WellnessTreat" Value="172305" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_SicknessTreat_1" Value="172306" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_SicknessTreat_2" Value="172307" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_SicknessTreat_3" Value="172308" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_SicknessTreat_4" Value="172309" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_SicknessTreat_5" Value="172310" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_AgeDownTreat" Value="172311" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_AgeUpTreat" Value="172312" />
+  <Preset Label="buff_Object_VetMedicineStation_RequestCrafting_AmbrosiaTreat" Value="172350" />
+  <Preset Label="Feeling the Love (buff_Pets_FeelTheLove_ActorSim_Cat)" Value="172393" />
+  <Preset Label="buff_Pet_Smart_TellStory" Value="172406" />
+  <Preset Label="Oddly Reminiscent (buff_Lighthouse_ConceivedHere_Happy)" Value="172432" />
+  <Preset Label="buff_Vet_ConeOfShame_Appearance_Cat" Value="172531" />
+  <Preset Label="buff_Vet_ConeOfShame_Appearance_Dog" Value="172532" />
+  <Preset Label="buff_Vet_ConeOfShame_Appearance_SmallDog" Value="172533" />
+  <Preset Label="buff_PetObstacleCourse_Hidden_PassedObstacle" Value="172551" />
+  <Preset Label="buff_PetObstacleCourse_Hidden_FailedObstacle" Value="172552" />
+  <Preset Label="buff_PetObstacleCourse_Hidden_FailedJump_FireTail" Value="172563" />
+  <Preset Label="buff_Pets_TriedToBreed" Value="172584" />
+  <Preset Label="buff_PetObstacleCourse_Hidden_PracticedHoop" Value="172594" />
+  <Preset Label="buff_PetObstacleCourse_Hidden_PracticedTunnel" Value="172595" />
+  <Preset Label="buff_PetObstacleCourse_Hidden_PracticedRamp" Value="172596" />
+  <Preset Label="buff_PetObstacleCourse_Hidden_PracticedWeavingFlags" Value="172597" />
+  <Preset Label="buff_PetObstacleCourse_Hidden_PracticedPlatform" Value="172598" />
+  <Preset Label="buff_Pet_Active_GoForWalk_PlayDecay" Value="172769" />
+  <Preset Label="Breathtaking Meowsma (buff_Environment_Negative_LitterBox)" Value="172775" />
+  <Preset Label="buff_Sim_Pets_AllowedToEatHumanFood" Value="172797" />
+  <Preset Label="buff_Sim_Pets_Misbehavior_BegForFood" Value="172827" />
+  <Preset Label="buff_Pet_Hairy_Brushed" Value="172878" />
+  <Preset Label="buff_ZoneMods_Pets_BreedingGround_VFX_Hidden" Value="172935" />
+  <Preset Label="Chance of Larger Litter (buff_ZoneMods_Pets_BreedingGround_Energized)" Value="172937" />
+  <Preset Label="buff_ZoneMods_Pets_TrainingGround_VFX_Hidden" Value="172967" />
+  <Preset Label="buff_Pet_VFX_IceyFur_SmallDogOnly_Critical" Value="172976" />
+  <Preset Label="buff_Pet_VFX_IceyFur_Cat" Value="172982" />
+  <Preset Label="buff_Pet_VFX_IceyFur_LargeDog" Value="172983" />
+  <Preset Label="buff_AutonomyMod_NoCleanFloor_basic" Value="172992" />
+  <Preset Label="buff_AutonomyMod_NoCleanFloor_extensive" Value="172998" />
+  <Preset Label="buff_Pet_VFX_IceyFur_SmallDog" Value="173093" />
+  <Preset Label="buff_Pet_Aggressive_CalmDown" Value="173138" />
+  <Preset Label="buff_Pet_Aggressive_Strangers" Value="173147" />
+  <Preset Label="buff_Vet_symptomDiscovery_Large" Value="173175" />
+  <Preset Label="buff_Pets_ImitatePet_Failure_Hidden" Value="173301" />
+  <Preset Label="Imitation Is A Form Of Art (buff_Pets_ImitatePet_Success)" Value="173312" />
+  <Preset Label="buff_Role_Vet_Use_Vending_Machine_Only" Value="173387" />
+  <Preset Label="buff_Cat_Active_Roughhouse_PlayDecay" Value="173488" />
+  <Preset Label="buff_Dog_Active_Roughhouse_PlayDecay" Value="173490" />
+  <Preset Label="buff_Role_Vet_Use_Vending_Machine" Value="173500" />
+  <Preset Label="buff_Pet_Wanderlust_GoOnAdventure" Value="173514" />
+  <Preset Label="Missing My Furry Friend (buff_Missing_Pets_MissingMyFurryFriend)" Value="173548" />
+  <Preset Label="Wouldn't Say I'm Missing It (buff_Missing_Pets_WouldntSayImMissingIt)" Value="173560" />
+  <Preset Label="buff_Cat_MadnipAttack_Cooldown" Value="173594" />
+  <Preset Label="debug_buff_Pet_Wanderlust_Missing" Value="173608" />
+  <Preset Label="buff_Pet_VFX_Fleas_Cat_SmallDog" Value="173617" />
+  <Preset Label="buff_Pet_VFX_Fleas_LargeDog" Value="173618" />
+  <Preset Label="buff_Pet_VFX_Fleas_Cat_SmallDog_Critical" Value="173619" />
+  <Preset Label="buff_Pet_VFX_Fleas_LargeDog_Critical" Value="173620" />
+  <Preset Label="buff_Missing_Pets_comforted" Value="173655" />
+  <Preset Label="buff_Pet_LecturedOrScolded" Value="173671" />
+  <Preset Label="Puppy Powered (buff_Pets_PlayWrestle_ActorSim_Success)" Value="173698" />
+  <Preset Label="Pulled Muscle (buff_Pets_PlayWrestle_ActorSim_Fail)" Value="173700" />
+  <Preset Label="Warm Fuzzies (buff_Pets_PamperPet_Cat)" Value="173702" />
+  <Preset Label="Warm Fuzzies (buff_Pets_PamperPet_Dog)" Value="173703" />
+  <Preset Label="buff_Trait_SpeciesExtended_LargeDog" Value="173770" />
+  <Preset Label="buff_Trait_SpeciesExtended_SmallDog" Value="173771" />
+  <Preset Label="Reunited! (buff_Missing_Pets_WelcomeBack)" Value="173838" />
+  <Preset Label="PetsFindingThings_Reaction_Buff" Value="173842" />
+  <Preset Label="buff_Motives_Pet_Dog_Dirty" Value="173851" />
+  <Preset Label="Pet Rejection (buff_PetWoohooFailure_Sad_Dogs)" Value="174252" />
+  <Preset Label="Pet Rejection (buff_PetWoohooFailure_Sad_Cats)" Value="174258" />
+  <Preset Label="Pet Connection (buff_PetWoohooOutcome_Happy_Cats)" Value="174260" />
+  <Preset Label="Pet Connection (buff_PetWoohooOutcome_Happy_Dogs)" Value="174261" />
+  <Preset Label="Buff_Pet_EncouragedToWoohoo" Value="174515" />
+  <Preset Label="buff_Missing_Pets_WelcomeBackAutonomy" Value="174547" />
+  <Preset Label="Ghostly Meows (buff_Tense_GhostlyYowl_Cat)" Value="174603" />
+  <Preset Label="Ghostly Howls (buff_Tense_GhostlyYowl_Dog)" Value="174604" />
+  <Preset Label="buff_Motives_Pet_Dog_PlayLow" Value="174625" />
+  <Preset Label="buff_Pet_Overlay_Plaid" Value="174660" />
+  <Preset Label="buff_Pet_Overlay_PolkaDots" Value="174661" />
+  <Preset Label="buff_Pet_Overlay_Rainbow" Value="174662" />
+  <Preset Label="buff_Pet_Overlay_Plaid_Cat" Value="174676" />
+  <Preset Label="buff_Pet_Overlay_Plaid_SmallDog" Value="174677" />
+  <Preset Label="buff_Pet_Overlay_PolkaDots_Cat" Value="174678" />
+  <Preset Label="buff_Pet_Overlay_PolkaDots_SmallDog" Value="174679" />
+  <Preset Label="buff_Pet_Overlay_Rainbow_Cat" Value="174680" />
+  <Preset Label="buff_Pet_Overlay_Rainbow_SmallDog" Value="174681" />
+  <Preset Label="buff_Pet_StopEating_PetNearby" Value="174684" />
+  <Preset Label="buff_Vet_GreetPatientCooldown" Value="174800" />
+  <Preset Label="A Cat to Call My Own! (buff_Trait_CatLover_Adoption)" Value="174829" />
+  <Preset Label="A Fuzzy Goodbye (buff_Trait_CatLover_Taken)" Value="174830" />
+  <Preset Label="Purr No More (buff_Trait_CatLover_Death)" Value="174831" />
+  <Preset Label="A Dog to Call My Own! (buff_Trait_DogLover_Adoption)" Value="174832" />
+  <Preset Label="A Furry Goodbye (buff_Trait_DogLover_Taken)" Value="174833" />
+  <Preset Label="Bark No More (buff_Trait_DogLover_Death)" Value="174834" />
+  <Preset Label="Ate Pet Food! (buff_Object_PetRecipe_AtePetFood_Toddler)" Value="174911" />
+  <Preset Label="A Friend Has Passed (buff_Object_urnstone_MournFriend_dog)" Value="174950" />
+  <Preset Label="buff_Motives_Pet_Cat_DrowsyEnergy_Lazy" Value="174965" />
+  <Preset Label="buff_Motives_Pet_Dog_MopeyEnergy_Lazy" Value="174966" />
+  <Preset Label="Buff_WitnessedDeathFriend_Dog" Value="174973" />
+  <Preset Label="Bursting with Life! (buff_Food_Ambrosia_Happy_petCat)" Value="175236" />
+  <Preset Label="Bursting with Life! (buff_Food_Ambrosia_Happy_petDog)" Value="175237" />
+  <Preset Label="Dirty (buff_Motives_Pet_Cat_Filthy)" Value="175246" />
+  <Preset Label="Dirty (buff_Motives_Pet_Kitten_Filthy)" Value="175247" />
+  <Preset Label="buff_Motives_Pet_SmallDog_Filthy" Value="175249" />
+  <Preset Label="buff_Motives_Pet_Dog_Filthy" Value="175250" />
+  <Preset Label="buff_Motives_Pet_Puppy_Filthy" Value="175251" />
+  <Preset Label="buff_Strays_HasExplored_Bush" Value="175441" />
+  <Preset Label="buff_Strays_HasExplored_FishPile" Value="175442" />
+  <Preset Label="buff_Strays_HasExplored_SeaweedPile" Value="175443" />
+  <Preset Label="buff_Strays_HasExplored_DirtMound" Value="175444" />
+  <Preset Label="Mourning Pet (buff_WitnessedPetDeath_Friend)" Value="175450" />
+  <Preset Label="In the Presence of Death (buff_WitnessedPetDeath_Neutral)" Value="175451" />
+  <Preset Label="buff_Vet_SurgerySuccessfulOutcome" Value="175630" />
+  <Preset Label="A G-g-g-ghost?! (buff_GoOnAdventure_Lighthouse_SawGhost)" Value="175671" />
+  <Preset Label="Something Strange (buff_GoOnAdventure_Lighthouse_Suspicious)" Value="175673" />
+  <Preset Label="Case Closed? (buff_GoOnAdventure_Lighthouse_CaseClosed)" Value="175674" />
+  <Preset Label="Ghostly Fun (buff_GoOnAdventure_Lighthouse_GhostDog_Happy)" Value="175675" />
+  <Preset Label="Ghosted (buff_GoOnAdventure_Lighthouse_GhostDog_Sad)" Value="175676" />
+  <Preset Label="buff_Pets_WayPoint_RouteEvents_Cat_LowAffection" Value="175869" />
+  <Preset Label="buff_Role_Vet_NoPhone" Value="175870" />
+  <Preset Label="Dirty but Happy (buff_GoOnAdventure_TownSquare_DirtyAndHappy)" Value="175955" />
+  <Preset Label="Dog Savior (buff_GoOnAdventure_WhiskermansWharf_SavedDog)" Value="175956" />
+  <Preset Label="buff_Role_Owner_BillOwner" Value="176024" />
+  <Preset Label="Cleaned Up Pet Poop (buff_PetPoop_CleanUp_Squeamish)" Value="176096" />
+  <Preset Label="buff_Trait_Pet_Active_cat" Value="176165" />
+  <Preset Label="View from the Light (buff_Lighthouse_Happy)" Value="176176" />
+  <Preset Label="buff_Missing_Pets_Provide_Welcome_Back" Value="176246" />
+  <Preset Label="buff_Bush_Pet_Dirty" Value="176262" />
+  <Preset Label="buff_Motives_Pet_Dog_SuppressAll" Value="176464" />
+  <Preset Label="buff_Motives_Pet_Cat_SuppressAll" Value="176465" />
+  <Preset Label="buff_CarriedPet" Value="176876" />
+  <Preset Label="Anxious (buff_zoneMod_Trait_QuakeZone_Scared_active_petDog)" Value="176919" />
+  <Preset Label="Anxious (buff_zoneMod_Trait_QuakeZone_Scared_active_petCat)" Value="176922" />
+  <Preset Label="buff_DogToDog_PlaySocial" Value="176980" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Cat_JumpOnCounters" Value="177179" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Cat_Scratching" Value="177180" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Dog_Bark" Value="177181" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Dog_EatPoop" Value="177184" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Dog_JumpOnCounters" Value="177185" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Dog_PuddlesPlay" Value="177186" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Dog_Toilet" Value="177187" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Pet_Attack" Value="177188" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Pet_BatKnockTrash" Value="177189" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Pet_BegEating" Value="177190" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Pet_EatPeopleFood" Value="177191" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Pet_PottyTraining" Value="177192" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Pet_PuddlesDrink" Value="177193" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Pet_TrashEat" Value="177194" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Pet_TrashPlay" Value="177195" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Pet_TrashRummage" Value="177196" />
+  <Preset Label="buff_Pet_Discipline_Frequency_Medium_Pet_WakeUpSims" Value="177197" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Cat_JumpOnCounters" Value="177200" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Cat_Scratching" Value="177201" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Dog_Bark" Value="177202" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Dog_EatPoop" Value="177205" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Dog_JumpOnCounters" Value="177206" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Dog_PuddlesPlay" Value="177207" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Dog_Toilet" Value="177208" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Pet_Attack" Value="177209" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Pet_BatKnockTrash" Value="177210" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Pet_BegEating" Value="177211" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Pet_EatPeopleFood" Value="177212" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Pet_PottyTraining" Value="177213" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Pet_PuddlesDrink" Value="177214" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Pet_TrashEat" Value="177215" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Pet_TrashPlay" Value="177216" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Pet_TrashRummage" Value="177217" />
+  <Preset Label="buff_Pet_Discipline_Frequency_High_Pet_WakeUpSims" Value="177218" />
+  <Preset Label="buff_Pet_Hunter_GoOutside_Cooldown_Bush" Value="177356" />
+  <Preset Label="buff_Pet_Hunter_GoOutside_Cooldown_Dig" Value="177357" />
+  <Preset Label="buff_Pet_Independent_LetOut" Value="177470" />
+  <Preset Label="buff_DogWalking_GoForJog_Dog_JogBehavior" Value="177662" />
+  <Preset Label="buff_Motives_Pet_Cat_Hunger_Cooldown" Value="177668" />
+  <Preset Label="Perfect Pitch (buff_PetOwner_Vocal_RequestSong_Happy)" Value="177691" />
+  <Preset Label="Singing might not be for Pets (buff_PetOwner_Vocal_RequestSong_Tense)" Value="177692" />
+  <Preset Label="buff_Pet_Lazy_Relax_Cooldown" Value="177736" />
+  <Preset Label="buff_Pets_AggressiveTrait_Hidden" Value="177754" />
+  <Preset Label="buff_Pet_Hunter_GoOutside_Cooldown_RummagePile" Value="177823" />
+  <Preset Label="buff_Role_ServiceNPC_PetCareWorker_PetInaccessible" Value="177870" />
+  <Preset Label="buff_Role_Owner_BillOwner_VFX" Value="177919" />
+  <Preset Label="Buff_Pet_Laze_Cooldown" Value="178001" />
+  <Preset Label="Remembering a Pet that Passed Away (buff_Object_Urnstone_MournNeutral_pet)" Value="178053" />
+  <Preset Label="buff_Vet_Soothe_Cooldown" Value="178064" />
+  <Preset Label="buff_FearfulPet_RunAway" Value="178105" />
+  <Preset Label="Relaxed with Pet (buff_Sim_Pets_Relax_LargeDog)" Value="178109" />
+  <Preset Label="Plopped with Pet (buff_Sim_Pets_Relax_SmallPet)" Value="178110" />
+  <Preset Label="buff_GoOnAdventure_TownSquare_AB1" Value="178248" />
+  <Preset Label="buff_OwnableVetClinic_BedsideManner_DismissPatient" Value="178333" />
+  <Preset Label="buff_Pets_PlayedWith" Value="178350" />
+  <Preset Label="buff_Role_Vet_PetOwner_SuppressInteractions" Value="178404" />
+  <Preset Label="buff_Sim_Pets_Misbehavior_Barking" Value="178426" />
+  <Preset Label="buff_Unleash" Value="178466" />
+  <Preset Label="buff_Sim_Pets_Misbehavior_JumpOnCounters_Dogs" Value="178490" />
+  <Preset Label="Excited (emotionalBuffs_General_Pets_Dog_Excited_Walkby)" Value="178591" />
+  <Preset Label="Mopey (emotionalBuffs_General_Pets_Dog_Mopey_Walkby)" Value="178592" />
+  <Preset Label="Hyper (emotionalBuffs_General_Pets_Cat_Hyper_Walkby)" Value="178593" />
+  <Preset Label="Drowsy (emotionalBuffs_General_Pets_Cat_Drowsy_Walkby)" Value="178595" />
+  <Preset Label="Pets_SleepFX_LargeDog_Zzzz" Value="178600" />
+  <Preset Label="buff_Role_Vet_petOwner_DuringService" Value="178604" />
+  <Preset Label="pets_SleepFX_SmallPet_Zzzz" Value="178605" />
+  <Preset Label="buff_Role_Vet_Employee_SuppressInteractions" Value="178611" />
+  <Preset Label="buff_Role_Vet_BillOwner_Pet" Value="178622" />
+  <Preset Label="buff_OwnableVetClinic_QualityOfService_CorrectTreatment_0_Worst" Value="178633" />
+  <Preset Label="buff_OwnableVetClinic_QualityOfService_CorrectTreatment_1_2ndWorst" Value="178634" />
+  <Preset Label="buff_OwnableVetClinic_QualityOfService_CorrectTreatment_2_3rdWorst" Value="178635" />
+  <Preset Label="buff_OwnableVetClinic_QualityOfService_CorrectTreatment_3_4thBest" Value="178636" />
+  <Preset Label="buff_OwnableVetClinic_QualityOfService_CorrectTreatment_4_3rdBest" Value="178637" />
+  <Preset Label="buff_OwnableVetClinic_QualityOfService_CorrectTreatment_5_2ndBest" Value="178638" />
+  <Preset Label="buff_OwnableVetClinic_QualityOfService_CorrectTreatment_6_Best" Value="178639" />
+  <Preset Label="buff_OwnableVetClinic_PetStress_01_Amazing" Value="178678" />
+  <Preset Label="buff_OwnableVetClinic_PetStress_02_Great" Value="178679" />
+  <Preset Label="buff_OwnableVetClinic_PetStress_03_Good" Value="178683" />
+  <Preset Label="buff_OwnableVetClinic_RatingTimers_WaitTime_Good" Value="178764" />
+  <Preset Label="buff_OwnableVetClinic_RatingTimers_PetStress_Amazing" Value="178769" />
+  <Preset Label="buff_OwnableVetClinic_RatingTimers_PetStress_Great" Value="178770" />
+  <Preset Label="buff_OwnableVetClinic_RatingTimers_PetStress_Good" Value="178771" />
+  <Preset Label="Oh...No...Nope! (buff_Object_PetRecipe_DrankPetFood)" Value="179771" />
+  <Preset Label="buff_OwnableVetClinic_BedsideManner_NeutralGreeting" Value="179802" />
+  <Preset Label="Um...Hmmm...Ok (buff_Object_PetRecipe_DrankPetFood_Glutton)" Value="179833" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Pet_Minor_Cage" Value="184411" />
+  <Preset Label="Mourning Pet (buff_DeathOfSim_Pet_Friend)" Value="190774" />
+  <Preset Label="In the Presence of Death (buff_DeathOfSim_Pet_Neutral)" Value="190775" />
+  <Preset Label="Anxious (emotionalBuffs_General_Pets_Cat_Anxious_EP05_Thermostat)" Value="190956" />
+  <Preset Label="Anxious (emotionalBuffs_General_Pets_Dog_Anxious_EP05_Thermostat)" Value="190957" />
+  <Preset Label="buff_Trait_Pet_Playful_TraitInteraction" Value="190999" />
+  <Preset Label="Buff_Pets_Initiated_PetPet_CoolDown" Value="205707" />
+  <Preset Label="buff_IsOwnedPet" Value="221056" />
+  <Preset Label="buff_Quirk_Cooldowns_Fear_Vacuum" Value="257145" />
+  <Preset Label="buff_Trait_PetQuirk_Fear_Vacuum" Value="257146" />
+  <Preset Label="buff_Trait_PetQuirk_Obsess_Vacuum" Value="257150" />
+</PresetGroup>

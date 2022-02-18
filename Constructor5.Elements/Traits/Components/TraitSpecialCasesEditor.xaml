@@ -8,29 +8,55 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-        <StackPanel>
-            <c:CheckBox Content="HideRelationships" IsChecked="{Binding HideRelationships}" />
-            <c:CheckBox Content="IsNonPersistedWithDescription" IsChecked="{Binding IsNonPersisted}" />
-            <c:CheckBox Content="ImmunetoDeath" IsChecked="{Binding ImmuneToDeath}" />
-            <c:CheckBox Content="NPCOnly" IsChecked="{Binding IsNPCOnly}" />
+    <c:LeftRightMargin>
+        <c:SpacedStack>
+            <StackPanel>
+                <local:TraitOriginControl />
+            </StackPanel>
 
-            <c:CheckBox Content="BlockAgingFromBaby" IsChecked="{Binding BlockAgingFromBaby}" />
-            <c:CheckBox Content="BlockAgingFromToddler" IsChecked="{Binding BlockAgingFromToddler}" />
-            <c:CheckBox Content="BlockAgingFromChild" IsChecked="{Binding BlockAgingFromChild}" />
-            <c:CheckBox Content="BlockAgingFromTeen" IsChecked="{Binding BlockAgingFromTeen}" />
-            <c:CheckBox Content="BlockAgingFromYoungAdult" IsChecked="{Binding BlockAgingFromYoungAdult}" />
-            <c:CheckBox Content="BlockAgingFromAdult" IsChecked="{Binding BlockAgingFromAdult}" />
-            <c:CheckBox Content="BlockAgingFromElder" IsChecked="{Binding BlockAgingFromElder}" />
-            <c:Field Label="VoiceEffect" LabelWidth="100">
-                <c:TextBoxWithPresetsControl PresetsFolder="VoiceEffect" Text="{Binding VoiceEffect}" />
-            </c:Field>
-            <c:Field Label="BlockedEmotions" LabelWidth="150">
-                <StackPanel>
-                    <c:TextBlock>BlockedEmotionsNotice</c:TextBlock>
-                    <c:ReferenceListControl ElementReferenceList="{Binding BlockedEmotions}" ElementTypeName="Emotion" />
-                </StackPanel>
-            </c:Field>
-        </StackPanel>
-    </StackPanel>
+            <StackPanel>
+                <c:CheckBox Content="HideRelationships" IsChecked="{Binding HideRelationships}" />
+                <c:CheckBox Content="IsNonPersistedWithDescription" IsChecked="{Binding IsNonPersisted}" />
+                <c:CheckBox Content="ImmunetoDeath" IsChecked="{Binding ImmuneToDeath}" />
+                <c:CheckBox Content="NPCOnly" IsChecked="{Binding IsNPCOnly}" />
+            </StackPanel>
+
+            <StackPanel>
+                <c:CheckBox Content="BlockAgingFromBaby" IsChecked="{Binding BlockAgingFromBaby}" />
+                <c:CheckBox Content="BlockAgingFromToddler" IsChecked="{Binding BlockAgingFromToddler}" />
+                <c:CheckBox Content="BlockAgingFromChild" IsChecked="{Binding BlockAgingFromChild}" />
+                <c:CheckBox Content="BlockAgingFromTeen" IsChecked="{Binding BlockAgingFromTeen}" />
+                <c:CheckBox Content="BlockAgingFromYoungAdult" IsChecked="{Binding BlockAgingFromYoungAdult}" />
+                <c:CheckBox Content="BlockAgingFromAdult" IsChecked="{Binding BlockAgingFromAdult}" />
+                <c:CheckBox Content="BlockAgingFromElder" IsChecked="{Binding BlockAgingFromElder}" />
+            </StackPanel>
+
+            <StackPanel>
+                <c:Field Label="VoiceEffect" LabelWidth="100">
+                    <c:TextBoxWithPresetsControl PresetsFolder="VoiceEffect" Text="{Binding VoiceEffect}" />
+                </c:Field>
+            </StackPanel>
+
+            <StackPanel>
+                <c:Field Label="BlockedEmotions" LabelWidth="150">
+                    <StackPanel>
+                        <c:TextBlock Text="BlockedEmotionsNotice" />
+                        <c:ReferenceListControl ElementReferenceList="{Binding BlockedEmotions}" ElementTypeName="Emotion" />
+                    </StackPanel>
+                </c:Field>
+            </StackPanel>
+
+            <StackPanel>
+                <c:Field Label="Buffs" LabelWidth="100">
+                    <StackPanel>
+                        <c:TextBlock Text="TraitBuffsNotice" />
+                        <c:ReferenceListControl ElementReferenceList="{Binding TraitBuffs}"
+                                                ElementTypeName="Buff"
+                                                ItemTypeName="BuffWithReasonReferenceListItem"
+                                                ShowCreateButton="True" />
+                    </StackPanel>
+                </c:Field>
+            </StackPanel>
+        </c:SpacedStack>
+    </c:LeftRightMargin>
 </UserControl>

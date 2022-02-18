@@ -1,0 +1,818 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP10">
+  <Preset Label="generic_SnowSportsSlope_Ski" Value="237668" />
+  <Preset Label="generic_SnowSportsSlope_SledTogether" Value="238051" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Member)" Value="240490" />
+  <Preset Label="Consult Trail Map Marker  (excursion_ClimbingMap_View)" Value="241362" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Member)" Value="241600" />
+  <Preset Label="Inspect Climbing Wall Conditions (climbingRoute_Inspect)" Value="241601" />
+  <Preset Label="autonomousSimPicker_Excursion_Mountain_Fight" Tags="TestUnsafe" Value="241749" />
+  <Preset Label="reaction_Mixers_Excursion_Mountain_Cheer" Value="241981" />
+  <Preset Label="Climb Cautiously (climbingRoute_Average_ClimbCautiously)" Value="245273" />
+  <Preset Label="Breaking Point Climbing Session (climbingRoute_Novice_HitBreakingPoint)" Value="245275" />
+  <Preset Label="Climb Normally (climbingRoute_Average_ClimbNormally)" Value="245288" />
+  <Preset Label="Climb Courageously (climbingRoute_Average_ClimbCourageously)" Value="245289" />
+  <Preset Label="Attempt Climb (climbingRoute_Average_ClimbAttempt)" Value="245290" />
+  <Preset Label="Climb Cautiously (climbingRoute_Master_ClimbCautiously)" Value="245291" />
+  <Preset Label="Climb Courageously (climbingRoute_Master_ClimbCourageously)" Value="245292" />
+  <Preset Label="Climb Normally (climbingRoute_Master_ClimbNormally)" Value="245293" />
+  <Preset Label="Attempt Climb (climbingRoute_Master_ClimbAttempt)" Value="245294" />
+  <Preset Label="Climb Cautiously (climbingRoute_Novice_ClimbCautiously)" Value="245295" />
+  <Preset Label="Climb Normally (climbingRoute_Novice_ClimbNormally)" Value="245296" />
+  <Preset Label="Climb Courageously (climbingRoute_Novice_ClimbCourageously)" Value="245299" />
+  <Preset Label="Practice Climbing Session (climbingRoute_Novice_Practice)" Value="245373" />
+  <Preset Label="Meticulous Climbing Session (climbingRoute_Novice_MeticulousSession)" Value="245374" />
+  <Preset Label="Breaking Point Climbing Session (climbingRoute_Average_HitBreakingPoint)" Value="245425" />
+  <Preset Label="Practice Climbing Session (climbingRoute_Average_Practice)" Value="245427" />
+  <Preset Label="Meticulous Climbing Session (climbingRoute_Average_MeticulousSession)" Value="245428" />
+  <Preset Label="Breaking Point Climbing Session (climbingRoute_Master_HitBreakingPoint)" Value="245429" />
+  <Preset Label="Meticulous Climbing Session (climbingRoute_Master_MeticulousSession)" Value="245430" />
+  <Preset Label="Practice Climbing Session (climbingRoute_Master_Practice)" Value="245431" />
+  <Preset Label="Mindful Walk (waypoint_SlowExperiences_MindfulWalk)" Value="245460" />
+  <Preset Label="Emotionally Mindful (debugEmotionIntensity_SlowExperiences_SlowedDown)" Value="245466" />
+  <Preset Label="Controlled Emotions (debugEmotionIntensity_SlowExperiences_EmotionalControl)" Value="245467" />
+  <Preset Label="End the Climb (climbingRoute_Chooser_Supplemental_RepeatSelector)" Value="245489" />
+  <Preset Label="Ride to Top (gondola_Ride_ToTop)" Value="245535" />
+  <Preset Label="Ride to Bottom (gondola_Ride_ToBottom)" Value="245536" />
+  <Preset Label="Ride to Bottom with (gondola_RideWith_ToBottom)" Tags="TestUnsafe" Value="245537" />
+  <Preset Label="Ride to Top with (gondola_RideWith_ToTop)" Tags="TestUnsafe" Value="245538" />
+  <Preset Label="Dance to Company Anthem (si_CorporateWorker_DanceToCompanyAnthem)" Value="245574" />
+  <Preset Label="Inquire about Powder Conditions (mixer_Social_Skiing_InquireAboutPowderConditions_Friendly_NT)" Tags="TestUnsafe" Value="245610" />
+  <Preset Label="Research The Art Of Skiing (computer_Browse_ResearchTheArtOfSkiing)" Value="245663" />
+  <Preset Label="Blog about Skiing (computer_BlogAboutSkiing)" Value="245665" />
+  <Preset Label="Fury (si_SlowExperiences_SurgeEmotion_Angry)" Value="245724" />
+  <Preset Label="Apathy (si_SlowExperiences_SurgeEmotion_Bored)" Value="245725" />
+  <Preset Label="Passion (si_SlowExperiences_SurgeEmotion_Flirty)" Value="245726" />
+  <Preset Label="Centered (si_SlowExperiences_SurgeEmotion_Focused)" Value="245727" />
+  <Preset Label="Ecstatic (si_SlowExperiences_SurgeEmotion_Happy)" Value="245728" />
+  <Preset Label="Ingenuity (si_SlowExperiences_SurgeEmotion_Inspired)" Value="245729" />
+  <Preset Label="Time for Fun (si_SlowExperiences_SurgeEmotion_Playful)" Value="245730" />
+  <Preset Label="Depressed (si_SlowExperiences_SurgeEmotion_Sad)" Value="245731" />
+  <Preset Label="On Edge (si_SlowExperiences_SurgeEmotion_Stressed)" Value="245732" />
+  <Preset Label="Can't Focus (si_SlowExperiences_SurgeEmotion_Uncomfortable)" Value="245733" />
+  <Preset Label="Bold (si_SlowExperiences_SurgeEmotion_Confident)" Value="245734" />
+  <Preset Label="Confusion (si_SlowExperiences_SurgeEmotion_Dazed)" Value="245735" />
+  <Preset Label="Shameful (si_SlowExperiences_SurgeEmotion_Embarrassed)" Value="245736" />
+  <Preset Label="Ready for Action (si_SlowExperiences_SurgeEmotion_Energized)" Value="245737" />
+  <Preset Label="Contemplate (si_SlowExperiences_Contemplate)" Value="245743" />
+  <Preset Label="Deliberate Ski Style (mixer_Social_Skiing_DeliberateSkiStyle_Friendly_NT)" Tags="TestUnsafe" Value="245758" />
+  <Preset Label="Give Advice on Avoiding Wipeouts (mixer_Social_Skiing_GiveAdviceOnAvoidingWipeouts_Friendly_NT)" Tags="TestUnsafe" Value="245824" />
+  <Preset Label="Research Handhold Techniques (computer_RockClimbing_ResearchHandholdTechniques)" Value="245967" />
+  <Preset Label="Chalk Hands (skill_RockClimbing_ChalkHands)" Value="245971" />
+  <Preset Label="Do Pre-Climb Stretching (skill_RockClimbing_DoPreClimbStretching)" Value="245987" />
+  <Preset Label="Go to Work on Off Hours (super_Lifestyles_Workaholic_WorkOffHours)" Value="246018" />
+  <Preset Label="Demand Promotion from Boss (phone_Picker_Lifestyles_Workaholic_DemandPromotion)" Tags="TestUnsafe" Value="246044" />
+  <Preset Label="Demand Promotion from Boss (phone_Lifestyles_Workaholic_DemandPromotion)" Value="246045" />
+  <Preset Label="Revoke Snow Bro (mixer_Socials_RevokeSnowBro_Targeted_Friendly_Snowboarding)" Tags="TestUnsafe" Value="246067" />
+  <Preset Label="idle_Lifestyles_Workaholic_LostJob" Value="246084" />
+  <Preset Label="Research Snowboarding Techniques (computer_Browse_ResearchSnowboarding)" Value="246085" />
+  <Preset Label="Get Hyped (Snowboarding_GetHype)" Value="246087" />
+  <Preset Label="Mock Skiing (socials_Targeted_Mean_MockSkiing_Snowboarding)" Tags="TestUnsafe" Value="246090" />
+  <Preset Label="Endure the Burn (mixer_socials_EndureTheBurn_Targeted_Friendly_Snowboarding)" Tags="TestUnsafe" Value="246091" />
+  <Preset Label="Brag about Shredding (mixer_socials_BragAboutShredding_Targeted_Friendly_Snowboarding)" Tags="TestUnsafe" Value="246093" />
+  <Preset Label="Stretch It Out (Snowboarding_StretchItOut)" Value="246095" />
+  <Preset Label="Dare {1.SimFirstName} to Attempt Risky Slope (mixer_socials_DareToAttemptRiskySlope_Targeted_Mischief_Snowboarding)" Tags="TestUnsafe" Value="246098" />
+  <Preset Label="Chat about Rad Slope (mixer_socials_ChatAboutRadSlope_Targeted_Friendly_Snowboarding)" Tags="TestUnsafe" Value="246100" />
+  <Preset Label="Coach {1.SimFirstName} in Snowboarding (mixer_socials_Coach_Targeted_Friendly_Snowboarding)" Tags="TestUnsafe" Value="246101" />
+  <Preset Label="Provide Snowboarding Tips (mixer_socials_ProvideTips_Targeted_Friendly_Snowboarding)" Tags="TestUnsafe" Value="246102" />
+  <Preset Label="Upload Snowboarding Video (computer_SocialNetwork_UploadSnowboardingVideo)" Value="246103" />
+  <Preset Label="Climb Down (climbingRoute_ClimbDown_Large)" Value="246116" />
+  <Preset Label="Climb Down (climbingRoute_ClimbDown_Small)" Value="246139" />
+  <Preset Label="Coach {1.SimFirstName} in Skiing (mixer_Social_Skiing_CoachSimNameInSkiing_Friendly_NT)" Tags="TestUnsafe" Value="246141" />
+  <Preset Label="Climb Down (climbingRoute_ClimbDown_Medium)" Value="246142" />
+  <Preset Label="Nap (kotatsu_Nap)" Value="246194" />
+  <Preset Label="Add Improved Insulation (kotatsu_Upgrade_ImprovedInsulation)" Value="246198" />
+  <Preset Label="Resume Adding Improved Insulation (kotatsu_Upgrade_ImprovedInsulation_Resume)" Value="246199" />
+  <Preset Label="Install Temperature Controls (kotatsu_Upgrade_TemperatureControls)" Value="246200" />
+  <Preset Label="Resume Installing Temperature Controls (kotatsu_Upgrade_TemperatureControls_Resume)" Value="246201" />
+  <Preset Label="super_HotPot_StartCooking" Value="246267" />
+  <Preset Label="super_HotPot_StartCrafting_Autonomously_Oden" Value="246269" />
+  <Preset Label="super_HotPot_StartCrafting_Autonomously_Sukiyaki" Value="246270" />
+  <Preset Label="super_HotPot_StartCrafting_Autonomously_Yosenabe" Value="246271" />
+  <Preset Label="Oden (super_HotPot_EatAlone_SelectType_Oden)" Value="246282" />
+  <Preset Label="Sukiyaki (super_HotPot_EatAlone_SelectType_Sukiyaki)" Value="246283" />
+  <Preset Label="Yosenabe (super_HotPot_EatAlone_SelectType_Yosenabe)" Value="246284" />
+  <Preset Label="Empty Hot Pot (super_HotPot_CleanUp)" Value="246286" />
+  <Preset Label="Teach Ski Class (teachSkiClass_Skiing_Phone)" Value="246293" />
+  <Preset Label="Tell a Story about Hiking (hikingTrail_StopPoint_Leader_TellStory)" Value="246295" />
+  <Preset Label="Tell Joke (hikingTrail_StopPoint_Leader_TellJoke)" Value="246296" />
+  <Preset Label="Point at Excitedly (hikingTrail_StopPoint_PointAt)" Value="246297" />
+  <Preset Label="Eat Snack (hikingTrail_StopPoint_Snack)" Value="246298" />
+  <Preset Label="Inspect Footprints (hikingTrail_StopPoint_InspectFootprints)" Value="246299" />
+  <Preset Label="Stretch (hikingTrail_StopPoint_Stretch)" Value="246300" />
+  <Preset Label="Deep Breath (hikingTrail_StopPoint_DeepBreath)" Value="246301" />
+  <Preset Label="Stomp Around Angrily (hikingTrail_StopPoint_AngryStomp)" Value="246302" />
+  <Preset Label="Look Around Scared (hikingTrail_StopPoint_LookScared)" Value="246303" />
+  <Preset Label="Yawn (hikingTrail_StopPoint_Yawn)" Value="246304" />
+  <Preset Label="Listen to Leader (hikingTrail_StopPoint_GroupMembers_Listen)" Value="246305" />
+  <Preset Label="Make Energy Bar (skill_RockClimbing_CreateBar_Energy)" Value="246308" />
+  <Preset Label="Make Protein Bar (skill_RockClimbing_CreateBar_Protein)" Value="246309" />
+  <Preset Label="Consult the Map (hikingTrail_StopPoint_PocketMap)" Value="246310" />
+  <Preset Label="Take Picture (hikingTrail_StopPoint_POI_TakePicture)" Value="246311" />
+  <Preset Label="Take Selfie (hikingTrail_StopPoint_POI_TakeSelfie)" Value="246312" />
+  <Preset Label="Shout and Listen for Echo (hikingTrail_StopPoint_POI_CaveEcho)" Value="246314" />
+  <Preset Label="Place Gift (hikingTrail_StopPoint_POI_PlaceGift)" Value="246315" />
+  <Preset Label="Make an Offering of Good Fortune (hikingTrail_StopPoint_POI_MakeOffering)" Value="246316" />
+  <Preset Label="Mourn (hikingTrail_StopPoint_POI_Mourn)" Value="246317" />
+  <Preset Label="Write Wish (hikingTrail_StopPoint_POI_WriteWish)" Value="246318" />
+  <Preset Label="View (hikingTrail_StopPoint_POI_View)" Value="246319" />
+  <Preset Label="Chat about Favorite Holds (socials_Friendly_Skill_RockClimbing_ChatAboutFavoriteHolds)" Tags="TestUnsafe" Value="246323" />
+  <Preset Label="Teach Ski Class (teachSkiClass_Skiing_Computer_Immediate)" Value="246325" />
+  <Preset Label="Show Off Hand Calluses (socialSI_Skill_RockClimbing_ShowOffCalluses_Start)" Value="246333" />
+  <Preset Label="Show Off Hand Calluses (socialSI_Skill_RockClimbing_ShowOffCalluses_Success)" Value="246338" />
+  <Preset Label="Show Off Hand Calluses (socialSI_Skill_RockClimbing_ShowOffCalluses_Failure)" Value="246340" />
+  <Preset Label="Offer Rock Climbing Tips (socials_Friendly_Skill_RockClimbing_OfferTips_NPC)" Tags="TestUnsafe" Value="246367" />
+  <Preset Label="Provide Rock Climbing Tips (socials_Friendly_Skill_RockClimbing_OfferTips_HH)" Tags="TestUnsafe" Value="246368" />
+  <Preset Label="Provide Rock Climbing Tips (socials_Friendly_Skill_RockClimbing_OfferTips_Continuation)" Tags="TestUnsafe" Value="246370" />
+  <Preset Label="hikingTrail_StopPoint_Chooser_GroupWait" Value="246373" />
+  <Preset Label="Ask about the Beta of a Route (socials_Friendly_Skill_RockClimbing_AskAboutBetaOfRoute)" Tags="TestUnsafe" Value="246381" />
+  <Preset Label="skill_RockClimbing_ShowCallusesFailure_Target" Value="246434" />
+  <Preset Label="skill_RockClimbing_ShowCallusesSuccess_Target" Value="246435" />
+  <Preset Label="hikingTrail_StopPoint_Chooser_Solo" Value="246438" />
+  <Preset Label="Brag about High Altitude Views (socials_Friendly_Skill_RockClimbing_BragAboutHighAltitudeViews)" Tags="TestUnsafe" Value="246471" />
+  <Preset Label="Coach Rock Climbing (socials_Friendly_Skill_RockClimbing_Coach)" Tags="TestUnsafe" Value="246473" />
+  <Preset Label="Equip Climbing Gear (skill_RockClimbing_Gear_Equip)" Value="246475" />
+  <Preset Label="Remove Climbing Gear (skill_RockClimbing_Gear_Remove)" Value="246476" />
+  <Preset Label="Offer Ski Expertise (mixer_Social_Skiing_OfferSkiExpertise_NPCSims_Friendly_NT)" Tags="TestUnsafe" Value="246553" />
+  <Preset Label="Offer Ski Expertise For Free (mixer_Social_Skiing_OfferSkiExpertise_HHSims_Friendly_NT)" Tags="TestUnsafe" Value="246554" />
+  <Preset Label="mixer_Lifestyles_FrequentTraveler_ShareTravelStories_Share" Tags="TestUnsafe" Value="246573" />
+  <Preset Label="mixer_Lifestyles_FrequentTraveler_ShareTravelStories_Wait" Tags="TestUnsafe" Value="246574" />
+  <Preset Label="Careers (mixer_Lifestyles_FrequentTraveler_ShareTravelStories_Listening)" Tags="TestUnsafe" Value="246577" />
+  <Preset Label="Share Travel Stories (simPicker_Lifestyles_FrequentTraveler_ShareTravelStories)" Tags="TestUnsafe" Value="246578" />
+  <Preset Label="Share Travel Stories (super_Lifestyles_FrequentTraveler_ShareTravelStories_Share)" Value="246579" />
+  <Preset Label="Share Travel Stories (super_Lifestyles_FrequentTraveler_ShareTravelStories_Listen)" Value="246580" />
+  <Preset Label="Equip Climbing Gear (skill_RockClimbing_Gear_Equip_Start)" Value="246590" />
+  <Preset Label="Providing Ski Expertise (mixer_Social_Skiing_OfferSkiExpertise_Continued_Friendly_NT)" Tags="TestUnsafe" Value="246596" />
+  <Preset Label="Listen to Japanese Folk (stereoWall_Listen_JFolk)" Value="246600" />
+  <Preset Label="Ask about Home Region (mixer_Lifestyles_FrequentTraveler_AskAboutHomeRegion)" Tags="TestUnsafe" Value="246601" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_JFolk)" Value="246605" />
+  <Preset Label="Listen to Music (stereo_listen_JFolk)" Value="246616" />
+  <Preset Label="Repair Climbing Gear (skill_RockClimbing_Gear_Repair)" Value="246649" />
+  <Preset Label="Throw Away Climbing Gear (skill_RockClimbing_Gear_ThrowAway)" Value="246650" />
+  <Preset Label="autonomousPicker_RockClimbingGear_Find_StandardSuccess" Tags="TestUnsafe" Value="246658" />
+  <Preset Label="autonomousPicker_RockClimbingGear_Find_Supplemental" Tags="TestUnsafe" Value="246660" />
+  <Preset Label="Climb Cautiously (climbingRoute_DegradeGear_Supplemental)" Value="246662" />
+  <Preset Label="Climb Cautiously (climbingRoute_DegradeGear_StandardSuccess)" Value="246663" />
+  <Preset Label="autonomousPicker_RockClimbingGear_Find_StandardFailure" Tags="TestUnsafe" Value="246665" />
+  <Preset Label="Climb Cautiously (climbingRoute_DegradeGear_StandardFailure)" Value="246666" />
+  <Preset Label="Climb Cautiously (climbingRoute_GearCheck_StandardFailure)" Value="246683" />
+  <Preset Label="Climb Cautiously (climbingRoute_GearCheck_StandardSuccess)" Value="246684" />
+  <Preset Label="Climb Cautiously (climbingRoute_GearCheck_Supplemental)" Value="246685" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_BambooStart_CaveEnd)" Value="246690" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World3Return_FromNatureCove)" Value="246691" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World3CenterStart_NatureCoveEnd)" Value="246692" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World2Return_FromTemple)" Value="246693" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World2CenterStart_CaveEnd)" Value="246694" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World2CenterStart_TempleEnd)" Value="246695" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World2CenterStart_BambooEnd)" Value="246696" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_CaveShrineStart_TempleEnd)" Value="246697" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_CaveShrineStart_BambooEnd)" Value="246698" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_BambooStart_TempleEnd)" Value="246699" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World3Return_FromShrine)" Value="246700" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World3CenterStart_ShrineEnd)" Value="246701" />
+  <Preset Label="Discuss Past Ski Experiences (mixer_Social_Skiing_DiscussPastSkiExperiences_Friendly_NT)" Tags="TestUnsafe" Value="246736" />
+  <Preset Label="Listen to Music (stereo_listen_JFolk_Bot)" Value="246742" />
+  <Preset Label="Listen to Music (stereo_listen_JFolk_SkatingRink)" Value="246743" />
+  <Preset Label="Listen to Music (stereo_listen_JFolk_Smart_Hub)" Value="246744" />
+  <Preset Label="Listen to Music (stereo_listen_JFolk_WaterScooter)" Value="246745" />
+  <Preset Label="Listen to Music (stereo_earbuds_Listen_JFolk)" Value="246746" />
+  <Preset Label="Listen to Music (stereo_Listen_JFolk_HotTub)" Value="246748" />
+  <Preset Label="Listen to Music (stereo_Listen_JFolk_HotTub_NotInHotTub)" Value="246749" />
+  <Preset Label="Prepare For The Moment (prepareForTheMoment_Skiing_Self)" Value="246750" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_BambooStart_CaveEnd)" Value="246752" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_BambooStart_TempleEnd)" Value="246753" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World2CenterStart_BambooEnd)" Value="246754" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World2CenterStart_CaveEnd)" Value="246755" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World2CenterStart_TempleEnd)" Value="246756" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World2Return_FromTemple)" Value="246757" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World3CenterStart_NatureCoveEnd)" Value="246758" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World3CenterStart_ShrineEnd)" Value="246759" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World3Return_FromShrine)" Value="246760" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World3Return_FromNatureCove)" Value="246761" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_CaveShrineStart_BambooEnd)" Value="246762" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_CaveShrineStart_TempleEnd)" Value="246763" />
+  <Preset Label="Go Skiing on {1.ObjectName} (snowSportsSlope_GoDownhill_Skis)" Value="246790" />
+  <Preset Label="generic_SnowSportsSlope_Snowboard" Value="246793" />
+  <Preset Label="generic_SnowSportsSlope_Sled" Value="246807" />
+  <Preset Label="Go Sledding with {1.SimFirstName} on {2.ObjectName} (snowSportsSlope_SledTogether_GoDownhill_Driver)" Value="246813" />
+  <Preset Label="Go Sledding with {1.SimFirstName} on {2.ObjectName} (snowSportsSlope_SledTogether_GoDownhill_Passenger)" Value="246814" />
+  <Preset Label="Go Skiing on {1.ObjectName} (aggregate_SnowSportsSlope_Ski_Start)" Value="246818" />
+  <Preset Label="Go Snowboarding on {1.ObjectName} (aggregate_SnowSportsSlope_Snowboard_Start)" Value="246820" />
+  <Preset Label="Hike to Mountain Shrine with (hikingTrail_HikeAroundWith_Picker_BambooStart_CaveEnd)" Tags="TestUnsafe" Value="246841" />
+  <Preset Label="Hike to Temple with (hikingTrail_HikeAroundWith_Picker_BambooStart_TempleEnd)" Tags="TestUnsafe" Value="246842" />
+  <Preset Label="Hike to Bamboo Forest with (hikingTrail_HikeAroundWith_Picker_World2CenterStart_BambooEnd)" Tags="TestUnsafe" Value="246843" />
+  <Preset Label="Hike to Mountain Shrine with (hikingTrail_HikeAroundWith_Picker_World2CenterStart_CaveEnd)" Tags="TestUnsafe" Value="246844" />
+  <Preset Label="Hike to Temple with (hikingTrail_HikeAroundWith_Picker_World2CenterStart_TempleEnd)" Tags="TestUnsafe" Value="246845" />
+  <Preset Label="Hike Back to Town with (hikingTrail_HikeAroundWith_Picker_World2Return_FromTemple)" Tags="TestUnsafe" Value="246846" />
+  <Preset Label="Hike to Natural Cove with (hikingTrail_HikeAroundWith_Picker_World3CenterStart_NatureCoveEnd)" Tags="TestUnsafe" Value="246847" />
+  <Preset Label="Hike to Historic Shrine with (hikingTrail_HikeAroundWith_Picker_World3CenterStart_ShrineEnd)" Tags="TestUnsafe" Value="246848" />
+  <Preset Label="Hike Back to Slope Base with (hikingTrail_HikeAroundWith_Picker_World3Return_FromShrine)" Tags="TestUnsafe" Value="246849" />
+  <Preset Label="Hike Back to Slope Base with (hikingTrail_HikeAroundWith_Picker_World3Return_FromNatureCove)" Tags="TestUnsafe" Value="246850" />
+  <Preset Label="Hike to Bamboo Forest with (hikingTrail_HikeAroundWith_Picker_CaveShrineStart_BambooEnd)" Tags="TestUnsafe" Value="246851" />
+  <Preset Label="Hike to Temple with (hikingTrail_HikeAroundWith_Picker_CaveShrineStart_TempleEnd)" Tags="TestUnsafe" Value="246852" />
+  <Preset Label="Make a Wish (tanabateWishes_MakeAWish)" Value="246856" />
+  <Preset Label="Make a Wish with (simPicker_EP10Festivals_MakeAWishTogether)" Tags="TestUnsafe" Value="246884" />
+  <Preset Label="Talk about Benefits of Coffee (mixer_Social_Lifestyles_CoffeeFanatic_TalkAboutCoffee_Positive)" Tags="TestUnsafe" Value="246885" />
+  <Preset Label="Hike to Mountain Shrine (hikingTrail_HeadToSign_Solo_BambooStart_CaveEnd)" Value="246934" />
+  <Preset Label="Hike to Temple (hikingTrail_HeadToSign_Solo_BambooStart_TempleEnd)" Value="246935" />
+  <Preset Label="Hike to Bamboo Forest (hikingTrail_HeadToSign_Solo_CaveShrineStart_BambooEnd)" Value="246936" />
+  <Preset Label="Hike to Temple (hikingTrail_HeadToSign_Solo_CaveShrineStart_TempleEnd)" Value="246937" />
+  <Preset Label="Hike to Bamboo Forest (hikingTrail_HeadToSign_Solo_World2CenterStart_BambooEnd)" Value="246938" />
+  <Preset Label="Hike to Mountain Shrine (hikingTrail_HeadToSign_Solo_World2CenterStart_CaveEnd)" Value="246939" />
+  <Preset Label="Hike to Temple (hikingTrail_HeadToSign_Solo_World2CenterStart_TempleEnd)" Value="246940" />
+  <Preset Label="Hike Back to Town (hikingTrail_HeadToSign_Solo_World2Return_FromTemple)" Value="246941" />
+  <Preset Label="Hike to Natural Cove (hikingTrail_HeadToSign_Solo_World3CenterStart_NatureCoveEnd)" Value="246942" />
+  <Preset Label="Hike to Historic Shrine (hikingTrail_HeadToSign_Solo_World3CenterStart_ShrineEnd)" Value="246943" />
+  <Preset Label="Hike Back to Slope Base (hikingTrail_HeadToSign_Solo_World3Return_FromNatureCove)" Value="246944" />
+  <Preset Label="Hike Back to Slope Base (hikingTrail_HeadToSign_Solo_World3Return_FromShrine)" Value="246945" />
+  <Preset Label="Notice Broken Electronic Object (super_Lifestyles_Tech_ReactToBrokenElectronics)" Value="246950" />
+  <Preset Label="Place Down Skis on {1.ObjectName} (snowSportsSlope_PlaceFromInventory_Skis)" Value="246960" />
+  <Preset Label="Watch Climber (climbingRoute_WatchClimber)" Value="246965" />
+  <Preset Label="Go Skiing on {1.ObjectName} (snowSportsSlope_Picker_Random_Skis)" Tags="TestUnsafe" Value="246966" />
+  <Preset Label="Go Skiing on {1.ObjectName} (snowSportsSlope_Picker_Favorite_Skis)" Tags="TestUnsafe" Value="246969" />
+  <Preset Label="Lament the Detriments of Coffee (mixer_Social_Lifestyles_CoffeeFanatic_TalkAboutCoffee_Negative)" Tags="TestUnsafe" Value="246970" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World3CenterStart_Random)" Value="247003" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World3CenterStart_Exercise)" Value="247004" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World2CenterStart_Random)" Value="247005" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World2CenterStart_Exercise)" Value="247006" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_CaveShrineStart_Random)" Value="247007" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_CaveShrineStart_Exercise)" Value="247008" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_BambooStart_Random)" Value="247009" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_BambooStart_Exercise)" Value="247010" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_BambooStart_Exercise)" Value="247011" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_BambooStart_Random)" Value="247012" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_CaveShrineStart_Exercise)" Value="247013" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_CaveShrineStart_Random)" Value="247014" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World2CenterStart_Random)" Value="247015" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World2CenterStart_Exercise)" Value="247016" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World3CenterStart_Exercise)" Value="247017" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World3CenterStart_Random)" Value="247018" />
+  <Preset Label="Meditative Walk (hikingTrail_HeadToSign_Solo_BambooStart_Meditative)" Value="247019" />
+  <Preset Label="Hike Around (hikingTrail_HeadToSign_Solo_BambooStart_Random)" Value="247020" />
+  <Preset Label="Jog the Exercise Trail (hikingTrail_HeadToSign_Solo_CaveShrineStart_Exercise)" Value="247021" />
+  <Preset Label="Meditative Walk (hikingTrail_HeadToSign_Solo_CaveShrineStart_Meditative)" Value="247022" />
+  <Preset Label="Jog the Exercise Trail (hikingTrail_HeadToSign_Solo_World2CenterStart_Exercise)" Value="247023" />
+  <Preset Label="Hike Around (hikingTrail_HeadToSign_Solo_World2CenterStart_Random)" Value="247024" />
+  <Preset Label="Meditative Walk (hikingTrail_HeadToSign_Solo_World2CenterStart_Meditative)" Value="247025" />
+  <Preset Label="Jog the Exercise Trail (hikingTrail_HeadToSign_Solo_World3CenterStart_Exercise)" Value="247026" />
+  <Preset Label="Hike Around (hikingTrail_HeadToSign_Solo_World3CenterStart_Random)" Value="247027" />
+  <Preset Label="Meditative Walk (hikingTrail_HeadToSign_Solo_World3CenterStart_Meditative)" Value="247028" />
+  <Preset Label="Jog the Exercise Trail (hikingTrail_HeadToSign_Solo_BambooStart_Exercise)" Value="247029" />
+  <Preset Label="Hike Around (hikingTrail_HeadToSign_Solo_CaveShrineStart_Random)" Value="247030" />
+  <Preset Label="Jog the Exercise Trail with (hikingTrail_HikeAroundWith_Picker_BambooStart_Exercise)" Tags="TestUnsafe" Value="247031" />
+  <Preset Label="Hike Around with (hikingTrail_HikeAroundWith_Picker_BambooStart_Random)" Tags="TestUnsafe" Value="247032" />
+  <Preset Label="Jog the Exercise Trail with (hikingTrail_HikeAroundWith_Picker_CaveShrineStart_Exercise)" Tags="TestUnsafe" Value="247033" />
+  <Preset Label="Hike Around with (hikingTrail_HikeAroundWith_Picker_CaveShrineStart_Random)" Tags="TestUnsafe" Value="247034" />
+  <Preset Label="Jog the Exercise Trail with (hikingTrail_HikeAroundWith_Picker_World2CenterStart_Exercise)" Tags="TestUnsafe" Value="247035" />
+  <Preset Label="Hike Around with (hikingTrail_HikeAroundWith_Picker_World2CenterStart_Random)" Tags="TestUnsafe" Value="247036" />
+  <Preset Label="Jog the Exercise Trail with (hikingTrail_HikeAroundWith_Picker_World3CenterStart_Exercise)" Tags="TestUnsafe" Value="247037" />
+  <Preset Label="Hike Around with (hikingTrail_HikeAroundWith_Picker_World3CenterStart_Random)" Tags="TestUnsafe" Value="247038" />
+  <Preset Label="Hike Scenic Loop (hikingTrail_HeadToSign_Solo_World3CenterStart_ScenicLoop)" Value="247045" />
+  <Preset Label="Hike Scenic Loop (hikingTrail_HeadToSign_Solo_World2CenterStart_ScenicLoop)" Value="247046" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World2CenterStart_ScenicLoop)" Value="247047" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World3CenterStart_ScenicLoop)" Value="247048" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World2CenterStart_ScenicLoop)" Value="247049" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World3CenterStart_ScenicLoop)" Value="247050" />
+  <Preset Label="Hike Scenic Loop with (hikingTrail_HikeAroundWith_Picker_World2CenterStart_ScenicLoop)" Tags="TestUnsafe" Value="247051" />
+  <Preset Label="Hike Scenic Loop with (hikingTrail_HikeAroundWith_Picker_World3CenterStart_ScenicLoop)" Tags="TestUnsafe" Value="247052" />
+  <Preset Label="Set as Preferred Skis (SnowSportsSlope_ToggleFavorite_Skis)" Value="247080" />
+  <Preset Label="Set as Preferred Snowboard (snowSportsSlope_ToggleFavorite_Snowboard)" Value="247083" />
+  <Preset Label="Go Snowboarding on {1.ObjectName} (snowSportsSlope_Picker_Random_Snowboard)" Tags="TestUnsafe" Value="247090" />
+  <Preset Label="Go Snowboarding on {1.ObjectName} (snowSportsSlope_Picker_Favorite_Snowboard)" Tags="TestUnsafe" Value="247091" />
+  <Preset Label="Go Snowboarding on {1.ObjectName} (snowSportsSlope_GoDownhill_Snowboard)" Value="247095" />
+  <Preset Label="Place Down the Snowboard on {1.ObjectName} (snowSportsSlope_PlaceFromInventory_Snowboard)" Value="247100" />
+  <Preset Label="Go Sledding on {1.ObjectName} (snowSportsSlope_GoDownhill_Sled)" Value="247102" />
+  <Preset Label="End the Climb (climbingRoute_Chooser_Standard_RepeatSelector)" Value="247162" />
+  <Preset Label="Go Skiing (snowSportsSlope_PickupToUse_Skis)" Value="247209" />
+  <Preset Label="Go Snowboarding (snowSportsSlope_PickupToUse_Snowboard)" Value="247210" />
+  <Preset Label="Go Skiing (autonomous_ObjectPicker_SnowSportsSlope_Skiing_BunnySlope)" Tags="TestUnsafe" Value="247222" />
+  <Preset Label="Go Snowboarding (autonomous_ObjectPicker_SnowSportsSlope_Snowboarding_BunnySlope)" Tags="TestUnsafe" Value="247223" />
+  <Preset Label="Go Snowboarding (autonomous_ObjectPicker_SnowSportsSlope_Snowboarding_EasySlope)" Tags="TestUnsafe" Value="247244" />
+  <Preset Label="Go Snowboarding (autonomous_ObjectPicker_SnowSportsSlope_Snowboarding_IntermediateSlope)" Tags="TestUnsafe" Value="247245" />
+  <Preset Label="Go Snowboarding (autonomous_ObjectPicker_SnowSportsSlope_Snowboarding_ExtremeSlope)" Tags="TestUnsafe" Value="247246" />
+  <Preset Label="Go Snowboarding (autonomous_ObjectPicker_SnowSportsSlope_Snowboarding_ExpertSlope)" Tags="TestUnsafe" Value="247247" />
+  <Preset Label="Go Skiing (autonomous_ObjectPicker_SnowSportsSlope_Skiing_EasySlope)" Tags="TestUnsafe" Value="247248" />
+  <Preset Label="Go Skiing (autonomous_ObjectPicker_SnowSportsSlope_Skiing_IntermediateSlope)" Tags="TestUnsafe" Value="247249" />
+  <Preset Label="Go Skiing (autonomous_ObjectPicker_SnowSportsSlope_Skiing_ExpertSlope)" Tags="TestUnsafe" Value="247250" />
+  <Preset Label="Go Skiing (autonomous_ObjectPicker_SnowSportsSlope_Skiing_ExtremeSlope)" Tags="TestUnsafe" Value="247251" />
+  <Preset Label="Give Blessing of Youth (social_EP10_Festivals_GiveBlessing)" Value="247367" />
+  <Preset Label="Relax in Hot Springs (si_HotSprings_GetIn)" Value="247428" />
+  <Preset Label="Relax in Hot Springs (generic_HotSprings_Sit)" Value="247430" />
+  <Preset Label="generic_HotSprings_Woohoo" Value="247432" />
+  <Preset Label="idle_Lifestyles_CoffeeFanatic_Neglect" Value="247438" />
+  <Preset Label="generic_HotSprings_Stand" Value="247489" />
+  <Preset Label="Check Conditions on Mt. Komorebi (infoBoard_CheckConditions)" Value="247549" />
+  <Preset Label="Change Outfit (changeOutfitPicker_Actor_OnsenLocker)" Tags="TestUnsafe" Value="247562" />
+  <Preset Label="Try On Outfits (onsenLocker_TryOnOutfits_End)" Value="247566" />
+  <Preset Label="Try On Outfits (onsenLocker_TryOnOutfits_Start)" Value="247567" />
+  <Preset Label="onsenLocker_DoorClose" Value="247576" />
+  <Preset Label="Change Outfit (onsenLocker_ChangeOutfit_FromPicker)" Value="247604" />
+  <Preset Label="Evangelize Benefits of Health Food (socials_Targeted_Friendly_LifeStyles_Enthuse_HealthFoods)" Tags="TestUnsafe" Value="247609" />
+  <Preset Label="Evangelize Benefits of Junk Food (socials_Targeted_Friendly_LifeStyles_Enthuse_JunkFoods)" Tags="TestUnsafe" Value="247610" />
+  <Preset Label="Add Some Sugar (food_LifeStyles_Add_Sugar)" Value="247620" />
+  <Preset Label="Add Some Bacon (food_LifeStyles_Add_Bacon)" Value="247621" />
+  <Preset Label="wildlifeEncounter_AttackOutcome_Denkimushi" Value="247623" />
+  <Preset Label="snowPal_Mixers_BreakIce" Value="247627" />
+  <Preset Label="Cook Healthy Meal (fridge_Cook_LifeStyles_HealthyFood)" Value="247628" />
+  <Preset Label="Change Into Swimwear (onsenLocker_ChangeOutfit_Swimwear)" Value="247629" />
+  <Preset Label="onsenLocker_ChangeOutfit_Hidden_Swimwear" Value="247631" />
+  <Preset Label="onsenLocker_ChangeOutfit_Hidden_Everyday" Value="247632" />
+  <Preset Label="wildlifeEncounter_AttackDecision_Denkimushi" Value="247634" />
+  <Preset Label="Attacked by Denkimushi (wildlifeEncounter_Attack_Denkimushi)" Value="247638" />
+  <Preset Label="wildlifeEncounter_AttackRepel_Denkimushi" Value="247675" />
+  <Preset Label="Witnessed an Attack! (wildlifeEncounter_AttackReaction_Scared)" Value="247739" />
+  <Preset Label="Witnessed an Attack! (wildlifeEncounter_AttackReaction_Relieved)" Value="247741" />
+  <Preset Label="Sit (generic_Kotatsu)" Value="247765" />
+  <Preset Label="Sit (seating_Sit_Kotatsu)" Value="247780" />
+  <Preset Label="Make Unbreakable (kotatsu_Upgrades_Unbreakable)" Value="247866" />
+  <Preset Label="Continue Making Unbreakable (kotatsu_Upgrades_Unbreakable_Resume)" Value="247867" />
+  <Preset Label="Attacked by Giant Centipedes (waypoint_WildlifeEncounter_Centipede)" Value="247880" />
+  <Preset Label="Surprised by Kodama (wildlifeEncounter_EncounterOutcome_Kodama)" Value="247883" />
+  <Preset Label="Prefer Lacquered Wood Chopsticks (ChopsticksOptional_PreferChopsticks_Wood)" Value="247887" />
+  <Preset Label="Prefer Forks (chopsticksOptional_PreferForks)" Value="247889" />
+  <Preset Label="Attacked by Giant Centipedes (wildlifeEncounter_Attack_Centipede)" Value="247913" />
+  <Preset Label="wildlifeEncounter_AttackDecision_Centipede" Value="247914" />
+  <Preset Label="wildlifeEncounter_AttackRepel_Centipede" Value="247922" />
+  <Preset Label="wildlifeEncounter_AttackOutcome_Centipede" Value="247923" />
+  <Preset Label="Attacked by Bat (wildlifeEncounter_Attack_Bat)" Value="247929" />
+  <Preset Label="wildlifeEncounter_AttackDecision_Bat" Value="247930" />
+  <Preset Label="wildlifeEncounter_AttackOutcome_Bat" Value="247937" />
+  <Preset Label="wildlifeEncounter_AttackOutcome_Hornet" Value="247939" />
+  <Preset Label="Attacked by Giant Hornets (wildlifeEncounter_Attack_Hornet)" Value="247940" />
+  <Preset Label="wildlifeEncounter_AttackDecision_Hornet" Value="247942" />
+  <Preset Label="wildlifeEncounter_AttackRepel_Bat" Value="247943" />
+  <Preset Label="wildlifeEncounter_AttackRepel_Hornet" Value="247944" />
+  <Preset Label="Cold (kotatsu_SetTemperature_Cold)" Value="247986" />
+  <Preset Label="Cool (kotatsu_SetTemperature_Cool)" Value="247987" />
+  <Preset Label="Warm (kotatsu_SetTemperature_Warm)" Value="247988" />
+  <Preset Label="Hot (kotatsu_SetTemperature_Hot)" Value="247989" />
+  <Preset Label="Surprised by Fireflies (wildlifeEncounter_EncounterOutcome_Firefly)" Value="248041" />
+  <Preset Label="Drink {1.ObjectName} (wildlifeEncounter_Remedy_Drink)" Value="248047" />
+  <Preset Label="Apply {1.ObjectName} (wildlifeEncounter_Remedy_Apply)" Value="248048" />
+  <Preset Label="Build Snowpal with (simPickerInteraction_SnowPal_MountainSnow_Build)" Tags="TestUnsafe" Value="248113" />
+  <Preset Label="Build Snowpal (snowpal_MountainSnow_StartBuild_Group)" Value="248114" />
+  <Preset Label="snowPal_MountainSnow_CreateObject_FromCont" Value="248115" />
+  <Preset Label="Build Snowpal (snowpal_MountainSnow_StartBuild)" Value="248118" />
+  <Preset Label="snowPal_MountainSnow_CreateObject_FromCont_Group" Value="248121" />
+  <Preset Label="Allow Shoes Indoors (shoeRemovalSign_NoRules)" Value="248257" />
+  <Preset Label="Remove Shoes Indoors (shoeRemovalSign_NoShoes)" Value="248262" />
+  <Preset Label="Wear Slippers Indoors (shoeRemovalSign_RequireSlippers)" Value="248263" />
+  <Preset Label="Go to Work (si_Career_CorporateWorker)" Value="248316" />
+  <Preset Label="Make Unbreakable (kotatsu_Upgrades_Complete_Unbreakable)" Value="248359" />
+  <Preset Label="Add Improved Insulation (kotatsu_Upgrades_Complete_ImprovedInsulation)" Value="248360" />
+  <Preset Label="Install Temperature Controls (kotatsu_Upgrades_Complete_TemperatureControls)" Value="248361" />
+  <Preset Label="Purchase Item (vendingMachine_PurchaseConsumableHunger_HotFoodAndDrink)" Value="248495" />
+  <Preset Label="autonomous_ObjectPicker_HotSprings_GoNear" Tags="TestUnsafe" Value="248496" />
+  <Preset Label="Prefer Steel Chopsticks (chopsticksOptional_PreferChopsticks_Steel)" Value="248497" />
+  <Preset Label="Prefer Plastic Chopsticks (chopsticksOptional_PreferChopsticks_Plastic)" Value="248498" />
+  <Preset Label="Repair (object_Repair_Kotatsu)" Value="248507" />
+  <Preset Label="Clean (tableDining_Low_Clean)" Value="248525" />
+  <Preset Label="Browse Vending Machine (vendingMachine_Interactions_BrowseConsumableHunger_HotFoodAndDrink)" Value="248551" />
+  <Preset Label="Cook (fridge_CookAutonomously_JunkFood)" Value="248563" />
+  <Preset Label="Cook (fridge_CookAutonomously_HealthNut)" Value="248564" />
+  <Preset Label="Cook (fridge_CookGroupMeal_Autonomously_JunkFood)" Value="248570" />
+  <Preset Label="Cook (fridge_CookGroupMeal_Autonomously_HealthNut)" Value="248571" />
+  <Preset Label="Rehearse Company Values (mirror_CorporateWorker_RehearseCompanyValues)" Value="248593" />
+  <Preset Label="Exercise to Decompress (treadmill_CorporateWorker_Workout)" Value="248640" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_Kotatsu)" Value="248642" />
+  <Preset Label="Prepare Semi-Important Reports (computer_Career_CorporateWorker_PrepareReports)" Value="248644" />
+  <Preset Label="Optimize Spreadsheet Formulas (computer_Career_CorporateWorker_OptimizeFormulas)" Value="248645" />
+  <Preset Label="Sabotage! (object_Bane_Sabotage_Kotatsu)" Value="248646" />
+  <Preset Label="Host Phone Conference (phone_CorporateWorker_HostConference)" Value="248649" />
+  <Preset Label="Ask to Be Confidant (mixer_Social_AskToBeConfidant)" Tags="TestUnsafe" Value="248681" />
+  <Preset Label="Apologize for Long Hours (socials_Targeted_Friendly_CorporateWorker_ApologizeForLongHours)" Tags="TestUnsafe" Value="248688" />
+  <Preset Label="Enthuse about Farseer Data Corporation (socials_Targeted_Friendly_CorporateWorker_EnthuseAboutCompany)" Tags="TestUnsafe" Value="248689" />
+  <Preset Label="Browse Vending Machine (vendingMachine_Interactions_BrowseConsumableEnergy_HotFoodAndDrink)" Value="248711" />
+  <Preset Label="Purchase Item (vendingMachine_Interactions_PurchaseConsumableCoffee_HotFoodAndDrink)" Value="248712" />
+  <Preset Label="Purchase Item (vendingMachine_Interactions_PurchaseConsumableTea_HotFoodAndDrink)" Value="248713" />
+  <Preset Label="Browse Vending Machine (vendingMachine_Interactions_BrowseConsumableHunger_ColdDrinkAndSnack)" Value="248714" />
+  <Preset Label="Purchase Item (vendingMachine_Interactions_PurchaseConsumableHungerFood_ColdDrinkAndSnack)" Value="248715" />
+  <Preset Label="Purchase Item (vendingMachine_Interactions_PurchaseConsumableCoffee_ColdDrinkAndSnack)" Value="248716" />
+  <Preset Label="Purchase Item (vendingMachine_Interactions_PurchaseConsumableTea_ColdDrinkAndSnack)" Value="248717" />
+  <Preset Label="Browse Vending Machine (vendingMachine_Interactions_BrowseConsumableEnergy_ColdDrinkAndSnack)" Value="248718" />
+  <Preset Label="Purchase Item (vendingMachine_Interactions_PurchaseConsumableHungerFruit_ColdDrinkAndSnack)" Value="248719" />
+  <Preset Label="Woohoo in Hot Springs (mixer_social_WooHooInHotSprings_targeted_romance_transition)" Tags="TestUnsafe" Value="248726" />
+  <Preset Label="Try for Baby in the Hot Springs (mixer_social_TryForBabyInHotSprings_targeted_romance_transition)" Tags="TestUnsafe" Value="248738" />
+  <Preset Label="WooHoo (hotSprings_WooHoo)" Value="248740" />
+  <Preset Label="Try for Baby (hotSprings_TryForBaby)" Value="248741" />
+  <Preset Label="Work Overtime (corporateCareer_WorkOvertime)" Value="248795" />
+  <Preset Label="autonomousSimPicker_CorporateWorker_FindSpouse" Tags="TestUnsafe" Value="248813" />
+  <Preset Label="onsenLocker_ChangeOutfit_Hidden_Nude" Value="248823" />
+  <Preset Label="Give Apology Gift (si_Touching_CorporateWorker_GiveApologyGift)" Value="248832" />
+  <Preset Label="One-Time (snowSportsSlope_Start_Skiing_OneTime)" Value="248840" />
+  <Preset Label="Enthuse about Thrill-Seeking (socials_Targeted_Friendly_Lifestyles_AdrenalineSeeker_Enthuse_ThrillSeeking)" Tags="TestUnsafe" Value="248852" />
+  <Preset Label="Low Intensity (snowSportsSlope_Start_Skiing_OneTime_Low)" Value="248934" />
+  <Preset Label="Medium Intensity (snowSportsSlope_Start_Skiing_OneTime_Med)" Value="248935" />
+  <Preset Label="High Intensity (snowSportsSlope_Start_Skiing_OneTime_High)" Value="248936" />
+  <Preset Label="Go Snowboarding on {1.ObjectName} (snowSportsSlope_Picker_Favorite_Snowboard_Child)" Tags="TestUnsafe" Value="248942" />
+  <Preset Label="Go Skiing on {1.ObjectName} (snowSportsSlope_Picker_Favorite_Skis_Child)" Tags="TestUnsafe" Value="248943" />
+  <Preset Label="Go Skiing on {1.ObjectName} (snowSportsSlope_Picker_Random_Skis_Child)" Tags="TestUnsafe" Value="248946" />
+  <Preset Label="Go Snowboarding on {1.ObjectName} (snowSportsSlope_Picker_Random_Snowboard_Child)" Tags="TestUnsafe" Value="248947" />
+  <Preset Label="Continuously (snowSportsSlope_Start_Skiing_Looping)" Value="248961" />
+  <Preset Label="High Intensity (snowSportsSlope_Start_Skiing_Looping_High)" Value="248962" />
+  <Preset Label="Low Intensity (snowSportsSlope_Start_Skiing_Looping_Low)" Value="248963" />
+  <Preset Label="Medium Intensity (snowSportsSlope_Start_Skiing_Looping_Med)" Value="248964" />
+  <Preset Label="Continuously (snowSportsSlope_Start_Snowboarding_Looping)" Value="248967" />
+  <Preset Label="High Intensity (snowSportsSlope_Start_Snowboarding_Looping_High)" Value="248968" />
+  <Preset Label="Low Intensity (snowSportsSlope_Start_Snowboarding_Looping_Low)" Value="248969" />
+  <Preset Label="Medium Intensity (snowSportsSlope_Start_Snowboarding_Looping_Med)" Value="248970" />
+  <Preset Label="One-Time (snowSportsSlope_Start_Snowboarding_OneTime)" Value="248972" />
+  <Preset Label="High Intensity (snowSportsSlope_Start_Snowboarding_OneTime_High)" Value="248973" />
+  <Preset Label="Low Intensity (snowSportsSlope_Start_Snowboarding_OneTime_Low)" Value="248974" />
+  <Preset Label="Medium Intensity (snowSportsSlope_Start_Snowboarding_OneTime_Med)" Value="248975" />
+  <Preset Label="One-Time (snowSportsSlope_Start_Sledding_OneTime)" Value="248977" />
+  <Preset Label="Continuously (snowSportsSlope_Start_Sledding_Looping)" Value="248978" />
+  <Preset Label="Go Skiing on {1.ObjectName} (snowSportsSlope_Start_Skiing_Disabled)" Value="248979" />
+  <Preset Label="Go Snowboarding on {1.ObjectName} (snowSportsSlope_Start_Snowboarding_Disabled)" Value="248980" />
+  <Preset Label="Go Snowboarding on {1.ObjectName} (snowSportsSlope_Start_Snowboarding)" Value="248986" />
+  <Preset Label="Go Skiing on {1.ObjectName} (snowSportsSlope_Start_Skiing)" Value="248991" />
+  <Preset Label="Go Sledding (Autonomous_ObjectPicker_SnowSportsSlope_Sledding)" Tags="TestUnsafe" Value="248992" />
+  <Preset Label="Go Sledding on {1.ObjectName} (snowSportsSlope_Start_Sledding)" Value="248993" />
+  <Preset Label="Purchase and Wear Festival Kimono (vendingMachine_Interactions_PurchaseAndWearCAS_Yukata)" Value="249093" />
+  <Preset Label="Wear Festival Kimono (vendingMachine_Interactions_ChangeOutfit_Yukata)" Value="249102" />
+  <Preset Label="Purchase Festival Kimono (vendingMachine_Interactions_PurchaseCAS_Yukata)" Value="249124" />
+  <Preset Label="Share Techie Tips (mixer_Social_Lifestyles_ShareLifestyleTips_Techie)" Tags="TestUnsafe" Value="249132" />
+  <Preset Label="Share Technophobe Tips (mixer_Social_Lifestyles_ShareLifestyleTips_Technophobe)" Tags="TestUnsafe" Value="249133" />
+  <Preset Label="Share Workaholic Tips (mixer_Social_Lifestyles_ShareLifestyleTips_Workaholic)" Tags="TestUnsafe" Value="249134" />
+  <Preset Label="Share Frequent Traveler Tips (mixer_Social_Lifestyles_ShareLifestyleTips_FrequentTravleer)" Tags="TestUnsafe" Value="249135" />
+  <Preset Label="Mess Around With (hotSprings_messAround_Picker)" Tags="TestUnsafe" Value="249150" />
+  <Preset Label="Try for Baby With (hotSprings_TryForBaby_Male_Picker)" Tags="TestUnsafe" Value="249153" />
+  <Preset Label="Try for Baby With (hotSprings_TryForBaby_Female_Picker)" Tags="TestUnsafe" Value="249154" />
+  <Preset Label="WooHoo With (hotSprings_WooHoo_Picker)" Tags="TestUnsafe" Value="249155" />
+  <Preset Label="Clean (si_HotSprings_Clean)" Value="249172" />
+  <Preset Label="Share Sedentary Tips (mixer_Social_Lifestyles_ShareLifestyleTips_Sedentary)" Tags="TestUnsafe" Value="249180" />
+  <Preset Label="Share Energetic Tips (mixer_Social_Lifestyles_ShareLifestyleTips_Energetic)" Tags="TestUnsafe" Value="249181" />
+  <Preset Label="Share Indoorsy Tips (mixer_Social_Lifestyles_ShareLifestyleTips_Indoorsy)" Tags="TestUnsafe" Value="249182" />
+  <Preset Label="Share Outdoorsy Tips (mixer_Social_Lifestyles_ShareLifestyleTips_Outdoorsy)" Tags="TestUnsafe" Value="249183" />
+  <Preset Label="Share Close-Knit Tips (mixer_Social_Lifestyles_ShareLifestyleTips_CloseKnit)" Tags="TestUnsafe" Value="249184" />
+  <Preset Label="Share People Person Tips (mixer_Social_Lifestyles_ShareLifestyleTips_Networker)" Tags="TestUnsafe" Value="249185" />
+  <Preset Label="Share Junk Food Fiend Tips (mixer_Social_Lifestyles_ShareLifestyleTips_JunkFood)" Tags="TestUnsafe" Value="249186" />
+  <Preset Label="Share Health Food Nut Tips (mixer_Social_Lifestyles_ShareLifestyleTips_HealthNut)" Tags="TestUnsafe" Value="249187" />
+  <Preset Label="Share Single and Lovin' It Tips (mixer_Social_Lifestyles_ShareLifestyleTips_NoRomance)" Tags="TestUnsafe" Value="249188" />
+  <Preset Label="Share Hungry for Love Tips (mixer_Social_Lifestyles_ShareLifestyleTips_HungryLove)" Tags="TestUnsafe" Value="249189" />
+  <Preset Label="Share Adrenaline Seeker Tips (mixer_Social_Lifestyles_ShareLifestyleTips_AdrenalineJunkie)" Tags="TestUnsafe" Value="249190" />
+  <Preset Label="Share Coffee Fanatic Tips (mixer_Social_Lifestyles_ShareLifestyleTips_CoffeeFanatic)" Tags="TestUnsafe" Value="249191" />
+  <Preset Label="Continuously with (AutonomousSimPicker_SnowSportsSlope_SledTogether)" Tags="TestUnsafe" Value="249197" />
+  <Preset Label="Go Sledding (autonomous_ObjectPicker_SnowSportsSlope_Sledding_SledTogether)" Tags="TestUnsafe" Value="249201" />
+  <Preset Label="Search For Signs Of Past Climbers (interactableCave_Explore_Climbers)" Value="249222" />
+  <Preset Label="Investigate Main Tunnel (interactableCave_Explore_Main)" Value="249223" />
+  <Preset Label="Explore Side Tunnels (interactableCave_Explore_Side)" Value="249224" />
+  <Preset Label="Follow Unfamiliar Smell  (interactableCave_Peak_Smell)" Value="249225" />
+  <Preset Label="Look Inside Cave Entrance (interactableCave_Peak_Entrance)" Value="249226" />
+  <Preset Label="Follow Trail Of Footprints (interactableCave_Peak_Shoeprints)" Value="249227" />
+  <Preset Label="Learn about Hiking (infoBoard_LearnAbout_Hiking)" Value="249229" />
+  <Preset Label="Learn about Skiing and Snowboarding (infoBoard_LearnAbout_SkiingAndSnowboarding)" Value="249230" />
+  <Preset Label="Learn about Sledding (infoBoard_LearnAbout_Sledding)" Value="249231" />
+  <Preset Label="Learn about Rock Climbing (infoBoard_LearnAbout_RockClimbing)" Value="249232" />
+  <Preset Label="Learn about the Onsen Bathhouse (infoBoard_LearnAbout_OnsenVenue)" Value="249233" />
+  <Preset Label="Block Entrance (DEBUG) (debug_InteractableCave_SetState_Blocked)" Value="249243" />
+  <Preset Label="Unblock Entrance (DEBUG) (debug_InteractableCave_SetState_Unblocked)" Value="249244" />
+  <Preset Label="Unexhaust All Peak Interactions (DEBUG) (debug_InteractableCave_SetState_Unexhausted)" Value="249245" />
+  <Preset Label="See Festival Schedule (infoBoard_SeeFestivalSchedule)" Value="249251" />
+  <Preset Label="Get Information on the Next Festival (infoBoard_SeeNextFestivalInfo)" Value="249252" />
+  <Preset Label="Learn about Mountain Excursions (infoBoard_LearnAbout_Excursion)" Value="249253" />
+  <Preset Label="infoBoard_Festival_Light" Value="249299" />
+  <Preset Label="infoBoard_Festival_Youth" Value="249300" />
+  <Preset Label="infoBoard_Festival_Snow" Value="249302" />
+  <Preset Label="Check Daily Wildlife Report (infoBoard_CheckWildlifeReport)" Value="249335" />
+  <Preset Label="si_HotSprings_Unclean_Reaction" Value="249336" />
+  <Preset Label="Check Information (infoBoard_Check_Autonomous)" Value="249337" />
+  <Preset Label="Make Dirty (cheat_HotSprings_MakeDirty)" Value="249387" />
+  <Preset Label="Make Clean (cheat_HotSprings_MakeClean)" Value="249389" />
+  <Preset Label="Purchase Cold Food and Drinks (vendingMachine_Interactions_Browse_PurchaseItem_ColdDrinkAndSnack)" Value="249393" />
+  <Preset Label="Purchase Hot Food and Drinks (vendingMachine_Interactions_Browse_PurchaseItem_HotFoodAndDrink)" Value="249394" />
+  <Preset Label="Make Purchase (vendingMachine_PurchaseItem_ColdDrinkAndSnack)" Tags="TestUnsafe" Value="249396" />
+  <Preset Label="Make Purchase (vendingMachine_PurchaseItem_HotFoodAndDrink)" Tags="TestUnsafe" Value="249397" />
+  <Preset Label="idle_Lifestyles_Tech" Value="249416" />
+  <Preset Label="Throw Tantrum at Electronics (super_Lifestyles_Technophobe_ThrowTantrumAtTech)" Value="249432" />
+  <Preset Label="Pick Up Skis (snowSportsSlope_Pickup_Skis)" Value="249436" />
+  <Preset Label="Pick Up Snowboard (snowSportsSlope_Pickup_Snowboard)" Value="249437" />
+  <Preset Label="Enthuse about Processing Power (mixer_Social_Lifestyles_Techie_EnthuseAboutProcessingPower)" Tags="TestUnsafe" Value="249438" />
+  <Preset Label="wildlifeEncounter_AttackOutcome_MountainTownHikingTrail" Value="249463" />
+  <Preset Label="wildlifeEncounter_AttackOutcome_SnowyMountainHikingTrail" Value="249479" />
+  <Preset Label="Purchase Paper Kabuto (vendingMachine_Interactions_PurchaseCAS_PaperHat)" Value="249484" />
+  <Preset Label="Purchase and Wear Paper Kabuto (vendingMachine_Interactions_PurchaseAndWearCAS_PaperHat)" Value="249486" />
+  <Preset Label="Wear Paper Kabuto (vendingMachine_Interactions_ChangeOutfit_PaperHat)" Value="249487" />
+  <Preset Label="Complain about Technological Apocalypse (mixer_Social_Lifestyles_Technophobe_ComplainAboutTechnology)" Tags="TestUnsafe" Value="249531" />
+  <Preset Label="Insult Mechanical Existence (mixer_Social_Lifestyles_Technophobe_InsultRoboticExistence)" Tags="TestUnsafe" Value="249532" />
+  <Preset Label="Threaten Robot Uprising (mixer_Social_Lifestyles_Technophobe_ThreatenRobotUprising)" Tags="TestUnsafe" Value="249533" />
+  <Preset Label="Talk about New Adventure (mixer_social_Targeted_TalkAboutNewAdventure_Lifestyles_AdrenalineSeeker)" Tags="TestUnsafe" Value="249556" />
+  <Preset Label="Upload Snowboarding Video (computer_Snowboarding_UploadVideo)" Value="249565" />
+  <Preset Label="Fight for the Rush! (mixer_social_Fight_targeted_mean_Lifestyles_AdrenalineSeeker)" Tags="TestUnsafe" Value="249578" />
+  <Preset Label="Upload Snowboarding Video (snowboarding_UploadVideo)" Tags="TestUnsafe" Value="249605" />
+  <Preset Label="Oden (simPicker_HotPot_SelectGroup)" Tags="TestUnsafe" Value="249685" />
+  <Preset Label="Eat Hot Pot (super_HotPot_Eat)" Value="249686" />
+  <Preset Label="Oden (super_HotPot_EatTogether_SelectType_Oden)" Value="249693" />
+  <Preset Label="Sukiyaki (super_HotPot_EatTogether_SelectType_Sukiyaki)" Value="249694" />
+  <Preset Label="Yosenabe (super_HotPot_EatTogether_SelectType_Yosenabe)" Value="249695" />
+  <Preset Label="super_HotPot_StartSituation" Value="249718" />
+  <Preset Label="super_HotPot_CreateServing" Value="249741" />
+  <Preset Label="Grab a Serving (super_HotPot_GrabServing)" Value="249755" />
+  <Preset Label="Hike to Mountain Shrine (hikingTrail_HikeSolo_BambooStart_CaveEnd)" Value="249798" />
+  <Preset Label="Jog the Exercise Trail (hikingTrail_HikeSolo_BambooStart_Exercise)" Value="249799" />
+  <Preset Label="Meditative Walk (hikingTrail_HikeSolo_BambooStart_Meditative)" Value="249800" />
+  <Preset Label="Hike Around (hikingTrail_HikeSolo_BambooStart_Random)" Value="249801" />
+  <Preset Label="Hike to Temple (hikingTrail_HikeSolo_BambooStart_TempleEnd)" Value="249802" />
+  <Preset Label="Hike to Bamboo Forest (hikingTrail_HikeSolo_CaveShrineStart_BambooEnd)" Value="249803" />
+  <Preset Label="Jog the Exercise Trail (hikingTrail_HikeSolo_CaveShrineStart_Exercise)" Value="249804" />
+  <Preset Label="Meditative Walk (hikingTrail_HikeSolo_CaveShrineStart_Meditative)" Value="249805" />
+  <Preset Label="Hike Around (hikingTrail_HikeSolo_CaveShrineStart_Random)" Value="249806" />
+  <Preset Label="Hike to Temple (hikingTrail_HikeSolo_CaveShrineStart_TempleEnd)" Value="249807" />
+  <Preset Label="Hike to Bamboo Forest (hikingTrail_HikeSolo_World2CenterStart_BambooEnd)" Value="249808" />
+  <Preset Label="Hike to Mountain Shrine (hikingTrail_HikeSolo_World2CenterStart_CaveEnd)" Value="249809" />
+  <Preset Label="Jog the Exercise Trail (hikingTrail_HikeSolo_World2CenterStart_Exercise)" Value="249810" />
+  <Preset Label="Meditative Walk (hikingTrail_HikeSolo_World2CenterStart_Meditative)" Value="249811" />
+  <Preset Label="Hike Around (hikingTrail_HikeSolo_World2CenterStart_Random)" Value="249812" />
+  <Preset Label="Hike Scenic Loop (hikingTrail_HikeSolo_World2CenterStart_ScenicLoop)" Value="249813" />
+  <Preset Label="Hike to Temple (hikingTrail_HikeSolo_World2CenterStart_TempleEnd)" Value="249814" />
+  <Preset Label="Hike Back to Town (hikingTrail_HikeSolo_World2Return_FromTemple)" Value="249815" />
+  <Preset Label="Jog the Exercise Trail (hikingTrail_HikeSolo_World3CenterStart_Exercise)" Value="249816" />
+  <Preset Label="Meditative Walk (hikingTrail_HikeSolo_World3CenterStart_Meditative)" Value="249817" />
+  <Preset Label="Hike to Natural Cove (hikingTrail_HikeSolo_World3CenterStart_NatureCoveEnd)" Value="249818" />
+  <Preset Label="Hike Around (hikingTrail_HikeSolo_World3CenterStart_Random)" Value="249819" />
+  <Preset Label="Hike Scenic Loop (hikingTrail_HikeSolo_World3CenterStart_ScenicLoop)" Value="249820" />
+  <Preset Label="Hike to Historic Shrine (hikingTrail_HikeSolo_World3CenterStart_ShrineEnd)" Value="249821" />
+  <Preset Label="Hike Back to Slope Base (hikingTrail_HikeSolo_World3Return_FromNatureCove)" Value="249822" />
+  <Preset Label="Hike Back to Slope Base (hikingTrail_HikeSolo_World3Return_FromShrine)" Value="249823" />
+  <Preset Label="Negotiate a Discount (social_NegotiateDiscount_WorldlyKnowledge_MarketStall)" Value="249834" />
+  <Preset Label="Negotiate a Discount (social_NegotiateDiscount_WorldlyKnowledge_Other)" Value="249835" />
+  <Preset Label="food_Eat_HotPot_Refill" Value="249870" />
+  <Preset Label="Purchase Simmi Capsule (vendingMachine_Interactions_Browse_PurchaseCapsule)" Value="249871" />
+  <Preset Label="Purchase Simmi Capsule (vendingMachine_Interactions_PurchaseCapsule)" Value="249872" />
+  <Preset Label="IcyConditions_Clumsy_Slip" Value="249926" />
+  <Preset Label="Join Hot Pot (super_HotPot_JoinSituation)" Value="249934" />
+  <Preset Label="Grab a Serving (super_HotPot_GrabServing_HighChair)" Value="249938" />
+  <Preset Label="Go Hiking (waypoint_SoloHike_SoloWaypoint)" Value="249992" />
+  <Preset Label="idle_Lifestyles_Workaholic_Neglect" Value="250067" />
+  <Preset Label="Go to Work (super_Lifestyles_Workaholic_WorkOffHours_Rabbithole)" Value="250071" />
+  <Preset Label="Record POV Snowboarding Video (snowSportsSlope_Start_Snowboarding_Looping_Video)" Value="250096" />
+  <Preset Label="Remember the View (si_excursion_MountainClimb_PlaqueView_Rank01)" Value="250113" />
+  <Preset Label="Remember the View (si_excursion_MountainClimb_PlaqueView_Rank02)" Value="250114" />
+  <Preset Label="Remember the View (si_excursion_MountainClimb_PlaqueView_Rank03)" Value="250115" />
+  <Preset Label="Enable Yamachan Visits (townMascotStatue_EnableVisits)" Value="250131" />
+  <Preset Label="Disable Yamachan Visits (townMascotStatue_DisableVisits)" Value="250132" />
+  <Preset Label="Create Snowboarding Video (cheat_CreateSnowboardingVideo)" Value="250155" />
+  <Preset Label="hikingTrail_StopPoint_Chooser_POI_EmaBoard" Value="250158" />
+  <Preset Label="hikingTrail_StopPoint_Chooser_POI_Shrine" Value="250159" />
+  <Preset Label="hikingTrail_StopPoint_Chooser_POI_Cemetery" Value="250161" />
+  <Preset Label="hikingTrail_StopPoint_Chooser_POI_Cave" Value="250162" />
+  <Preset Label="Place Gift (hikingTrail_InventoryPicker_PlaceGift)" Tags="TestUnsafe" Value="250178" />
+  <Preset Label="Make an Offering of Good Fortune (hikingTrail_InventoryPicker_MakeOffering)" Tags="TestUnsafe" Value="250179" />
+  <Preset Label="Death by Falling (death_ClimbingRoute)" Value="250185" />
+  <Preset Label="Repair (object_Repair_ClimbingMap)" Value="250260" />
+  <Preset Label="Ask For Capsule (townMascot_AskForCapsule)" Value="250273" />
+  <Preset Label="Take A Selfie with Yamachan (townMascot_takeSelfie)" Value="250275" />
+  <Preset Label="Purchase and Wear Festival Snow Outfit (vendingMachine_Interactions_PurchaseAndWearCAS_SnowOutfit)" Value="250298" />
+  <Preset Label="Purchase Festival Snow Outfit (vendingMachine_Interactions_PurchaseCAS_SnowOutfit)" Value="250299" />
+  <Preset Label="Wear Festival Snow Outfit (vendingMachine_Interactions_ChangeOutfit_SnowOutfit)" Value="250300" />
+  <Preset Label="Ask to Sled Together with {1.SimFirstName} (SSI_SnowSportsSlope_AskToSledTogether)" Value="250303" />
+  <Preset Label="si_TownMascot_HangAroundStatue" Value="250307" />
+  <Preset Label="Ask to Sled Together with {1.SimFirstName} (autonomousSimPicker_SnowSportsSlope_SledTogether_PickPassenger)" Tags="TestUnsafe" Value="250309" />
+  <Preset Label="idle_Lifestyles_FrequentTraveler_Neglect" Value="250358" />
+  <Preset Label="idle_LifeStyles_AdrenalineSeeker_Confident" Value="250388" />
+  <Preset Label="idle_LifeStyles_AdrenalineSeeker_Bored" Value="250390" />
+  <Preset Label="Do The Mountain Move (townMascot_danceWIthMascot)" Value="250414" />
+  <Preset Label="Get Some Hot Pot (super_HotPot_GoToPot)" Value="250456" />
+  <Preset Label="Inspect Climbing Wall Conditions (climbingRoute_Inspect_Medium)" Value="250465" />
+  <Preset Label="Inspect Climbing Wall Conditions (climbingRoute_Inspect_Large)" Value="250467" />
+  <Preset Label="autonomousSimPickerSuperInteraction_HotPot_Chat" Tags="TestUnsafe" Value="250490" />
+  <Preset Label="climbingRoute_Reactions_Success" Value="250497" />
+  <Preset Label="climbingRoute_Reactions_LargeSuccess" Value="250498" />
+  <Preset Label="climbingRoute_Mixers_InspectUp" Value="250501" />
+  <Preset Label="climbingRoute_Mixers_InspectStraight" Value="250502" />
+  <Preset Label="Go Sledding on {1.ObjectName} (snowSportsSlope_Start_SledTogether)" Value="250505" />
+  <Preset Label="idle_Lifestyles_Friends_Neglect" Value="250556" />
+  <Preset Label="idle_Lifestyles_Tech_Neglect" Value="250567" />
+  <Preset Label="One Time with (snowSportsSlope_SledTogether_Picker_OneTime)" Tags="TestUnsafe" Value="250636" />
+  <Preset Label="Continuously with (snowSportsSlope_SledTogether_Picker_Looping)" Tags="TestUnsafe" Value="250637" />
+  <Preset Label="Build Snowpal with (simPickerInteraction_SnowPal_MountainSnow_SnowDrift_Build)" Tags="TestUnsafe" Value="250672" />
+  <Preset Label="Build Snowpal (snowPal_SnowDrift_MountainSnow_StartBuild)" Value="250674" />
+  <Preset Label="Build Snowpal (snowPal_SnowDrift_MountainSnow_StartBuild_FromCont)" Value="250675" />
+  <Preset Label="Drink (traitPicker_Lifestyles_LifestyleRemovalPotion)" Tags="TestUnsafe" Value="250692" />
+  <Preset Label="Remove Lifestyle (traitPicker_Lifestyles_Cheat_Remove)" Tags="TestUnsafe" Value="250698" />
+  <Preset Label="Add Lifestyle (traitPicker_Lifestyles_Cheat_Add)" Tags="TestUnsafe" Value="250699" />
+  <Preset Label="Take Vacation Day (Salaryperson) (phone_TakePTO_CorporateWorker)" Value="250723" />
+  <Preset Label="Check Climber Readiness (autonomousSimPicker_Excursion_Mountain_CheckClimberReadiness)" Tags="TestUnsafe" Value="250724" />
+  <Preset Label="si_HotSprings_Unclean_Reaction_Cont" Value="250736" />
+  <Preset Label="Tend Stall (marketStalls_Tend_TraditionalMountain)" Value="250745" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Traditional)" Value="250749" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_Traditional)" Value="250750" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_review_CriticCareer_Traditional)" Value="250751" />
+  <Preset Label="nonTouching_Unpaired_Greeting_Bow" Value="250754" />
+  <Preset Label="Skinny Dip in Hot Springs (si_HotSprings_SkinnyDip)" Value="250767" />
+  <Preset Label="Tend Stall (marketStalls_Tend_HotMountainFood)" Value="250768" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_review_CriticCareer_HotMountainFood)" Value="250770" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_HotMountainFood)" Value="250771" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_HotMountainFood)" Value="250772" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_FestivalLight)" Value="250774" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_FestivalYouth)" Value="250775" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_FestivalSnow)" Value="250780" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_FestivalLight)" Value="250781" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_FestivalYouth)" Value="250782" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_FestivalSnow)" Value="250783" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_review_CriticCareer_FestivalLight)" Value="250784" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_review_CriticCareer_FestivalSnow)" Value="250785" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_review_CriticCareer_FestivalYouth)" Value="250786" />
+  <Preset Label="Tend Stall (marketStalls_Tend_FestivalSnow)" Value="250787" />
+  <Preset Label="Tend Stall (marketStalls_Tend_FestivalLight)" Value="250788" />
+  <Preset Label="Tend Stall (marketStalls_Tend_FestivalYouth)" Value="250789" />
+  <Preset Label="idle_Lifestyles_AdrenalineSeeker_Neglect" Value="250857" />
+  <Preset Label="super_HotPot_StartCooking_Start" Value="250864" />
+  <Preset Label="super_HotPot_GrabServing_Start" Value="250883" />
+  <Preset Label="super_HotPot_WaitToEat_Start" Value="250884" />
+  <Preset Label="superInteraction_excursion_mountainclimb_takeselfie" Value="250888" />
+  <Preset Label="food_Eat_HotPot_Hot" Value="250892" />
+  <Preset Label="Make a Wish (tanabateWishes_MakeAWishTogether)" Value="250933" />
+  <Preset Label="superInteraction_excursion_mountainclimb_takephoto" Value="250972" />
+  <Preset Label="React to Romantic Media (react_Lifestyles_Romance_RomanticMedia)" Value="250986" />
+  <Preset Label="Dig (dirtMound_Dig_Human_Mountain)" Value="251003" />
+  <Preset Label="Skinny Dip in Hot Springs (si_HotSprings_SkinnyDip_Unclean)" Value="251014" />
+  <Preset Label="Relax in Hot Springs (si_HotSprings_GetIn_Unclean)" Value="251019" />
+  <Preset Label="Check Excursion Leader's Climbing Readiness (excursion_MountainClimb_checkreadiness_Leader)" Value="251108" />
+  <Preset Label="Make a Wish (collection_Onibi_MakeAWish)" Value="251115" />
+  <Preset Label="Collect (collection_Onibi_Collect)" Value="251116" />
+  <Preset Label="idle_Lifestyles_Romance_Neglect" Value="251176" />
+  <Preset Label="Climb Cautiously (climbingRoute_Novice_Excursion_Bypass)" Value="251183" />
+  <Preset Label="Climb Cautiously (climbingRoute_Master_Excursion_Bypass)" Value="251189" />
+  <Preset Label="Climb Cautiously (climbingRoute_Average_Excursion_Bypass)" Value="251193" />
+  <Preset Label="nonTouching_Unpaired_Greetings_Bow_ReactionTarget" Value="251212" />
+  <Preset Label="reaction_Mixer_SlowExperience_BuffGained" Value="251253" />
+  <Preset Label="idle_Lifestyles_Indoorsy_Happy" Value="251348" />
+  <Preset Label="idle_Lifestyles_Indoorsy_Bored" Value="251349" />
+  <Preset Label="idle_Lifestyles_Outdoorsy_Happy" Value="251358" />
+  <Preset Label="idle_Lifestyles_Outdoorsy_Bored" Value="251360" />
+  <Preset Label="Open Simmi Capsule (collection_Gachapon_Open_Common)" Value="251407" />
+  <Preset Label="Open Simmi Capsule (collection_Gachapon_Open_Uncommon)" Value="251408" />
+  <Preset Label="Open Simmi Capsule (collection_Gachapon_Open_Rare)" Value="251409" />
+  <Preset Label="Open Simmi Capsule (collection_Gachapon_Open_UltraRare)" Value="251410" />
+  <Preset Label="Respectful Introduction (mixer_social_RespectfulIntroduction_greetings)" Tags="TestUnsafe" Value="251461" />
+  <Preset Label="idle_Lifestyles_NoNeedForRomance_TooMuchFlirting" Value="251471" />
+  <Preset Label="Continuously with (autonomousSimPicker_SnowSportsSlope_SledTogether_Situation)" Tags="TestUnsafe" Value="251476" />
+  <Preset Label="Take Selfie (si_TownMascot_TakeStatueSelfie)" Value="251481" />
+  <Preset Label="(Debug) Get Simmi Capsules (collection_Gachapon_GetCapsules_Debug)" Value="251504" />
+  <Preset Label="Prefer Plastic Chopsticks (chopsticksOptional_PreferChopsticks_Plastic_self)" Value="251592" />
+  <Preset Label="Prefer Steel Chopsticks (chopsticksOptional_PreferChopsticks_Steel_self)" Value="251593" />
+  <Preset Label="Prefer Lacquered Wood Chopsticks (chopsticksOptional_PreferChopsticks_Wood_self)" Value="251594" />
+  <Preset Label="Prefer Forks (chopsticksOptional_PreferForks_self)" Value="251595" />
+  <Preset Label="idleBuff_WildlifeEncounter_Pain" Value="251689" />
+  <Preset Label="idle_trait_TownMascot" Value="251699" />
+  <Preset Label="food_Eat_Active_ChopsticksOptional_HotPot" Value="251827" />
+  <Preset Label="food_HotPot_ReactHot" Value="251828" />
+  <Preset Label="Offer to Join Hot Pot (super_HotPot_JoinSituation_Offer)" Value="251832" />
+  <Preset Label="Surprised by Kodama (wildlifeEncounter_EncounterOutcome_Kodama_HikingTrail)" Value="251837" />
+  <Preset Label="Surprised by Fireflies (wildlifeEncounter_EncounterOutcome_Firefly_HikingTrail)" Value="251838" />
+  <Preset Label="Take Picture of the Sights (hikingTrail_StopPoint_POI_TakePicture_Distant)" Value="251841" />
+  <Preset Label="Take Selfie (hikingTrail_StopPoint_POI_TakeSelfie_Distant)" Value="251843" />
+  <Preset Label="Cheer (reaction_Mixer_Aggregate_TownMascotDance)" Value="251854" />
+  <Preset Label="wildlifeEncounter_EncounterOutcome_MountainTownHikingTrail" Value="251855" />
+  <Preset Label="wildlifeEncounter_EncounterOutcome_SnowyMountainHikingTrail" Value="251856" />
+  <Preset Label="wildlifeEncounter_EncounterOutcome_Watcher" Value="251857" />
+  <Preset Label="Follow Household Shoe Rules (si_shoeRemovalSign_ConformToRules)" Value="251883" />
+  <Preset Label="si_CorporateWorker_PreGiveApologyGift" Value="251936" />
+  <Preset Label="Share body heat with... (wooHoo_Picker_InteractableCave)" Tags="TestUnsafe" Value="251983" />
+  <Preset Label="Play In Tent (tent_Playing_Summit)" Value="251984" />
+  <Preset Label="WooHoo in the cave (mixer_social_WooHoo_targeted_romance_transition_InteractableCave)" Tags="TestUnsafe" Value="252013" />
+  <Preset Label="WooHoo (InteractableCave_WooHoo)" Value="252015" />
+  <Preset Label="Waiting in Line at {1.ObjectName} (SnowSportsSlope_WaitInLine)" Value="252063" />
+  <Preset Label="Surprised by Forest Spirit (wildlifeEncounter_EncounterOutcome_Onibi)" Value="252068" />
+  <Preset Label="Surprised by Forest Spirit (wildlifeEncounter_EncounterOutcome_Onibi_HikingTrail)" Value="252069" />
+  <Preset Label="Drink from Mountain Spring (interactableCave_Drink)" Value="252103" />
+  <Preset Label="Change to Regular Stance (snowSportsSlope_Immediate_Snowboard_Walkstyle_Regular)" Value="252119" />
+  <Preset Label="Change to Goofy Stance (snowSportsSlope_Immediate_Snowboard_Walkstyle_Goofy)" Value="252120" />
+  <Preset Label="Force Run Failure (immediate_SnowSportsSlope_Debug_ForceRunFailure)" Value="252125" />
+  <Preset Label="Force Trick Success (immediate_SnowSportsSlope_Debug_ForceTrickSuccess)" Value="252126" />
+  <Preset Label="Force Trick Failure (immediate_SnowSportsSlope_Debug_ForceTrickFailure)" Value="252127" />
+  <Preset Label="Force Run Success (immediate_SnowSportsSlope_Debug_ForceRunSuccess)" Value="252128" />
+  <Preset Label="Clear Debug Status (immediate_SnowSportsSlope_Debug_ClearDebugStates)" Value="252141" />
+  <Preset Label="idle_Buff_MajorInjury" Value="252195" />
+  <Preset Label="idle_Buff_MinorInjury" Value="252196" />
+  <Preset Label="Unlock All Slopes (immediate_SnowSportsSlope_Debug_UnlockAllSlopes)" Value="252246" />
+  <Preset Label="Witness Improper Behavior (reaction_Proper_WitnessedBehavior)" Value="252300" />
+  <Preset Label="Show Appreciation to Host (socials_Targeted_Proper_ShowAppreciation)" Tags="TestUnsafe" Value="252307" />
+  <Preset Label="Sleep (interactableCave_Sleep)" Value="252339" />
+  <Preset Label="dresser_Onsen_Hidden_Nude" Value="252354" />
+  <Preset Label="dresser_Onsen_Hidden_Everyday" Value="252355" />
+  <Preset Label="dresser_Onsen_Hidden_Swimwear" Value="252356" />
+  <Preset Label="Change Into Swimwear (dresser_Onsen_Swimwear)" Value="252357" />
+  <Preset Label="Purchase Adventure Gear (purchase_WildlifeEncounter_AdventureGear)" Tags="TestUnsafe" Value="252361" />
+  <Preset Label="Witness Improper Behavior (reaction_AdultFight_Proper)" Value="252398" />
+  <Preset Label="Purchase Climbing Gear (computer_RockClimbingGear_Purchase)" Value="252402" />
+  <Preset Label="Skinny Dip in Hot Springs (si_HotSprings_SkinnyDip_Proper)" Value="252410" />
+  <Preset Label="Relax in Hot Springs (si_HotSprings_GetIn_Proper)" Value="252413" />
+  <Preset Label="Change into Nude (changeOutfit_Nude_Proper)" Value="252415" />
+  <Preset Label="super_Adventurous_DoLowSkillInteraction" Value="252433" />
+  <Preset Label="View the Sights (hikingTrail_StopPoint_POI_View_Distant)" Value="252456" />
+  <Preset Label="Go Hiking (waypoint_SoloHike_SoloWaypoint_Exercise)" Value="252476" />
+  <Preset Label="generic_Cave_Woohoo" Value="252477" />
+  <Preset Label="Try for Baby (InteractableCave_TryForBaby)" Value="252581" />
+  <Preset Label="Try for Baby in Cave (mixer_social_TryForBabyInCave_targeted_romance_transition)" Tags="TestUnsafe" Value="252587" />
+  <Preset Label="Try for Baby With (interactableCave_tryForBaby_Female_Picker)" Tags="TestUnsafe" Value="252588" />
+  <Preset Label="Try for Baby With (interactableCave_tryForBaby_Male_Picker)" Tags="TestUnsafe" Value="252589" />
+  <Preset Label="Getting in Line (RouteToWaitingInLine_NoVehicles)" Value="252628" />
+  <Preset Label="idle_Trait_Adventurous" Value="252654" />
+  <Preset Label="Ask about Voidcritter Hunt (social_EP10_Festivals_AskAboutVoidCritterHunt)" Value="252718" />
+  <Preset Label="Claim Prize (social_EP10_Festivals_ClaimPrize)" Value="252719" />
+  <Preset Label="Check For Virtual Voidcritter (eP10_Festivals_Interactions_CheckVoidCritter)" Value="252720" />
+  <Preset Label="Skinny Dip (hotTub_Get_In_Nude_Proper)" Value="252822" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Member_Jog)" Value="252827" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Member_Jog)" Value="252829" />
+  <Preset Label="Enable Icy Conditions (cheat_IcyConditions_enable)" Value="252887" />
+  <Preset Label="idle_Lifestyles_CoffeeFanatic_Coffee" Value="252910" />
+  <Preset Label="idle_Lifestyles_Food_Neglect" Value="252918" />
+  <Preset Label="idle_Lifestyles_Activity_Neglect" Value="252919" />
+  <Preset Label="idle_Lifestyles_Shelter_Neglect" Value="252920" />
+  <Preset Label="Turn Off Auto Thermostat (spaceHeater_Auto_Off)" Value="252939" />
+  <Preset Label="Turn On Auto Thermostat (spaceHeater_Auto_On)" Value="252940" />
+  <Preset Label="Warm Self (spaceHeater_WarmSelf)" Value="252948" />
+  <Preset Label="idle_Lifestyles_Activity_HighEnergy" Value="252960" />
+  <Preset Label="idle_Lifestyles_Energetic_LowEnergy" Value="252961" />
+  <Preset Label="idle_Lifestyles_Sedentary_Seated" Value="252964" />
+  <Preset Label="idle_Lifestyles_HungryForLove_InRelationship" Value="252975" />
+  <Preset Label="idle_Lifestyles_NoNeedForRomance_NoRelationship" Value="252976" />
+  <Preset Label="Ask to Be Snow Bro (social_Snowboarding_AskToBeSnowBro)" Value="253101" />
+  <Preset Label="Check For Virtual Voidcritter (eP10_Festivals_Interactions_CheckVoidCritter_NPC)" Value="253123" />
+  <Preset Label="Pick Up (snowSportsSlope_Pickup_Sled)" Value="253136" />
+  <Preset Label="FIRE! (fire_Excited_AdrenalineSeeker)" Value="253279" />
+  <Preset Label="Nap (si_HotSprings_Nap)" Value="253314" />
+  <Preset Label="Fight for the Rush! (social_Lifestyles_AdrenalineSeeker_GetIntoFightForRush)" Value="253492" />
+  <Preset Label="Pick Up (socialSuperInteraction_CarryPickUp_ToSnowSportsSlope)" Value="253589" />
+  <Preset Label="Go Hiking (si_HikingTrail_HikeSolo_Situation)" Value="253648" />
+  <Preset Label="Name (rename_Snowboarding_Video)" Value="253683" />
+  <Preset Label="Go Hiking (si_HikingTrail_HikeSolo_Situation_Meditative)" Value="253697" />
+  <Preset Label="immediate_Festivals_EP10_AddSentiment_Unblessed" Value="253701" />
+  <Preset Label="(Debug) Find 10 Virtual Voidcritters (debug_Festivals_EP10_VoidCritterHunt_Add)" Value="253703" />
+  <Preset Label="Create Hornet Encounter (debug_WildlifeEncounter_CreateHornet)" Value="253807" />
+  <Preset Label="Create Bat Encounter (debug_WildlifeEncounter_CreateBat)" Value="253808" />
+  <Preset Label="Create Denkimushi Encounter (debug_WildlifeEncounter_CreateDenkimushi)" Value="253809" />
+  <Preset Label="Create Centipede Encounter (debug_WildlifeEncounter_CreateCentipede)" Value="253810" />
+  <Preset Label="Create Forest Spirit Encounter (debug_WildlifeEncounter_CreateOnibi)" Value="253811" />
+  <Preset Label="Create Kodama Encounter (debug_WildlifeEncounter_CreateKodama)" Value="253812" />
+  <Preset Label="Create Firefly Encounter (debug_WildlifeEncounter_CreateFirefly)" Value="253814" />
+  <Preset Label="Yosenabe (simPicker_HotPot_SelectGroup_Yosenabe)" Tags="TestUnsafe" Value="253817" />
+  <Preset Label="Sukiyaki (simPicker_HotPot_SelectGroup_Sukiyaki)" Tags="TestUnsafe" Value="253818" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_SnowSportsSlope)" Value="253878" />
+  <Preset Label="Clean (si_HotSprings_Clean_Employee)" Value="254006" />
+  <Preset Label="Hive Five Snow Bro (social_Snowboarding_HighFive)" Value="254062" />
+  <Preset Label="Prefer Plain Wood Chopsticks (chopsticksOptional_PreferChopsticks_ClassicWood)" Value="254086" />
+  <Preset Label="Prefer Plain Wood Chopsticks (chopsticksOptional_PreferChopsticks_ClassicWood_self)" Value="254087" />
+  <Preset Label="Move Away (snowSportsSlope_MoveAway)" Value="254172" />
+  <Preset Label="Hip Bump (sim_HipBump_TownMascot)" Value="254211" />
+  <Preset Label="Do The Mountain Move (townMascot_danceWithMascot_p)" Value="254220" />
+  <Preset Label="mixer_HotPot_Idle" Value="254229" />
+  <Preset Label="Go Hiking (si_HikingTrail_HikeSolo_Situation_Jog)" Value="254234" />
+  <Preset Label="Go Skiing on {1.ObjectName} (snowSportsSlope_Rally_Ski)" Value="254298" />
+  <Preset Label="Go Snowboarding on {1.ObjectName} (snowSportsSlope_Rally_Snowboard)" Value="254300" />
+  <Preset Label="Go Skiing on {1.ObjectName} (snowSportsSlope_Rally_Ski_Loop)" Value="254303" />
+  <Preset Label="Go Snowboarding on {1.ObjectName} (snowSportsSlope_Rally_Snowboard_Loop)" Value="254304" />
+  <Preset Label="Go Skiing (autonomous_ObjectPicker_SnowSportsSlope_Skiing_Loop_EasySlope)" Tags="TestUnsafe" Value="254311" />
+  <Preset Label="Go Skiing (autonomous_ObjectPicker_SnowSportsSlope_Skiing_Loop_ExpertSlope)" Tags="TestUnsafe" Value="254312" />
+  <Preset Label="Go Skiing (autonomous_ObjectPicker_SnowSportsSlope_Skiing_Loop_IntermediateSlope)" Tags="TestUnsafe" Value="254314" />
+  <Preset Label="Go Snowboarding (autonomous_ObjectPicker_SnowSportsSlope_Snowboarding_Loop_EasySlope)" Tags="TestUnsafe" Value="254318" />
+  <Preset Label="Go Snowboarding (autonomous_ObjectPicker_SnowSportsSlope_Snowboarding_Loop_ExpertSlope)" Tags="TestUnsafe" Value="254319" />
+  <Preset Label="Go Snowboarding (autonomous_ObjectPicker_SnowSportsSlope_Snowboarding_Loop_IntermediateSlope)" Tags="TestUnsafe" Value="254321" />
+  <Preset Label="Wear Festival Snow Outfit (vendingMachine_Interactions_OutfitChangeDelay_SnowOutfit)" Value="254331" />
+  <Preset Label="Wear Paper Kabuto (vendingMachine_Interactions_OutfitChangeDelay_PaperHat)" Value="254333" />
+  <Preset Label="Wear Festival Kimono (vendingMachine_Interactions_OutfitChangeDelay_Yukata)" Value="254334" />
+  <Preset Label="mixer_Lifestyles_FrequentTraveler_ShareTravelStories_Share_5" Tags="TestUnsafe" Value="254358" />
+  <Preset Label="mixer_Lifestyles_FrequentTraveler_ShareTravelStories_Share_6" Tags="TestUnsafe" Value="254359" />
+  <Preset Label="mixer_Lifestyles_FrequentTraveler_ShareTravelStories_Share_2" Tags="TestUnsafe" Value="254360" />
+  <Preset Label="mixer_Lifestyles_FrequentTraveler_ShareTravelStories_Share_3" Tags="TestUnsafe" Value="254361" />
+  <Preset Label="mixer_Lifestyles_FrequentTraveler_ShareTravelStories_Share_4" Tags="TestUnsafe" Value="254362" />
+  <Preset Label="Have a Snowball Fight with (seasonal_SimPicker_MountainSnow_Throwing_Snowball)" Tags="TestUnsafe" Value="254449" />
+  <Preset Label="super_HungryForLove_WatchRomanceOnTV" Value="254458" />
+  <Preset Label="Read Something (autonomous_bookshelf_read_picker_HungryForLove)" Tags="TestUnsafe" Value="254487" />
+  <Preset Label="autonomous_Generic_Book_Read_TYAE_HungryForLove" Tags="TestUnsafe" Value="254506" />
+  <Preset Label="hikingTrail_StopPoint_Chooser_Meditative" Value="254508" />
+  <Preset Label="civicPolicy_NPCPush_CreateAndUse_CreativeArts_ClayBlob" Value="254509" />
+  <Preset Label="Drink (drink_Consume_LifestyleRemovalPotion)" Value="254535" />
+  <Preset Label="Add Bacon Substitute (food_LifeStyles_Add_FakeBacon)" Value="254542" />
+  <Preset Label="civicPolicy_NPCPush_CreateAndUse_TechnologicalProgress_Cube" Value="254550" />
+  <Preset Label="autonomous_ObjectPicker_FindBookshelf_Child" Tags="TestUnsafe" Value="254575" />
+  <Preset Label="Insta-Repair! (object_Knack_FixIt_Electronic_Kotatsu)" Value="254586" />
+  <Preset Label="Go Skiing on {1.ObjectName} (aggregate_SnowSportsSlope_Ski_Rally)" Value="254618" />
+  <Preset Label="Go Skiing on {1.ObjectName} (aggregate_SnowSportsSlope_Snowboard_Rally)" Value="254619" />
+  <Preset Label="socialMixer_Greetings_BowGreeting" Tags="TestUnsafe" Value="254626" />
+  <Preset Label="hikingTrail_StopPoint_Chooser_Exercise" Value="254715" />
+  <Preset Label="Relax in Hot Springs (hotSprings_GetIn_Rallyable)" Value="254796" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Dog)" Value="254805" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Dog_Jog)" Value="254823" />
+  <Preset Label="si_TownMascot_HangAroundFestival" Value="254840" />
+  <Preset Label="Go Skiing (aggregate_SnowSportsSlope_Ski_Autonomy)" Value="254940" />
+  <Preset Label="Go Snowboarding (aggregate_SnowSportsSlope_Snowboard_Autonomy)" Value="254941" />
+  <Preset Label="Hike to Cave Statue (hikingTrail_HeadToSign_Solo_World3CenterStart_CaveEnd)" Value="254985" />
+  <Preset Label="Hike to Cave Statue with (hikingTrail_HikeAroundWith_Picker_World3CenterStart_CaveEnd)" Tags="TestUnsafe" Value="254986" />
+  <Preset Label="Hike to Cave Statue (hikingTrail_HikeSolo_World3CenterStart_CaveEnd)" Value="254987" />
+  <Preset Label="Go Skiing (aggregate_SnowSportsSlope_ContinueRun_Ski)" Value="255003" />
+  <Preset Label="Go Snowboarding (aggregate_SnowSportsSlope_ContinueRun_Snowboard)" Value="255004" />
+  <Preset Label="Go Sledding (aggregate_SnowSportsSlope_ContinueRun_Sled)" Value="255005" />
+  <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World3CenterStart_CaveEnd)" Value="255018" />
+  <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_World3CenterStart_CaveEnd)" Value="255019" />
+  <Preset Label="picker_HotPot_Chat_Toddler" Tags="TestUnsafe" Value="255053" />
+  <Preset Label="Take A Selfie with Yamachan (townMascot_takeSelfie_p)" Value="255070" />
+  <Preset Label="View the Sights (hikingTrail_StopPoint_Meditative)" Value="255248" />
+  <Preset Label="wildlifeEncounter_AttackDecision_Centipede_HikingTrail" Value="255296" />
+  <Preset Label="Check Excursion Member's Climbing Readiness (excursion_MountainCheckReadiness_Climber)" Value="256562" />
+  <Preset Label="Cook Healthy Meal (fridge_Cook_LifeStyles_HealthyFood_RequiredIngredients)" Value="261844" />
+  <Preset Label="Cook (fridge_CookAutonomously_JunkFood_RequiredIngredients)" Value="269881" />
+  <Preset Label="Cook (fridge_CookAutonomously_HealthNut_RequiredIngredients)" Value="269882" />
+</PresetGroup>

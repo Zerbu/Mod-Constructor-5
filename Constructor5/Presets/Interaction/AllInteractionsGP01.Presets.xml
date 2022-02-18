@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions GP01">
+  <Preset Label="Light (campire_Light)" Value="101940" />
+  <Preset Label="Talk about Herbalism (mixer_social_TalkAboutHerbalism_targeted_Friendly_alwaysOn_skills)" Tags="TestUnsafe" Value="101961" />
+  <Preset Label="Read Camping Information (RangerStation_ReadCampingInformation)" Value="101975" />
+  <Preset Label="Enthuse about Herbalism (mixer_social_EnthuseAboutHerbalism_targeted_Friendly_alwaysOn_trait)" Tags="TestUnsafe" Value="102093" />
+  <Preset Label="Idle_Buff_ToxicFireleaf" Value="102104" />
+  <Preset Label="Learn Herbalism Recipe (mixer_social_LearnHerbalismRecipe_targeted_Friendly_alwaysOn_skills)" Tags="TestUnsafe" Value="102331" />
+  <Preset Label="Idle_Trait_Squeamish" Value="102340" />
+  <Preset Label="Take Deep Breaths (sim_TakeDeepBreaths)" Value="102343" />
+  <Preset Label="Add Log (campfire_AddLog)" Value="102352" />
+  <Preset Label="Extinguish (campfire_Extinguish)" Value="102353" />
+  <Preset Label="Play (campfire_Play)" Value="102416" />
+  <Preset Label="Idle_Buff_FranksAndBeans" Value="102559" />
+  <Preset Label="generic_RabbitHole_Bramble" Value="102999" />
+  <Preset Label="Travel Into The Bramble Patch (RabbitHole_Bramble_Travel_DeepWoods)" Value="103003" />
+  <Preset Label="go_To_Specific_Lot_DeepWoods" Value="103011" />
+  <Preset Label="go_To_Specific_Lot_Forest_From_Bramble" Value="103013" />
+  <Preset Label="Explore (RabbitHole_Bramble_Explore)" Value="103038" />
+  <Preset Label="A Fairy Tale (tellGroupStory_Picker_Fairy)" Tags="TestUnsafe" Value="103108" />
+  <Preset Label="An Adventure Story (tellGroupStory_Picker_Adventure)" Tags="TestUnsafe" Value="103109" />
+  <Preset Label="A Ghost Story (tellGroupStory_Picker_Ghost)" Tags="TestUnsafe" Value="103110" />
+  <Preset Label="Listen to Story (Listen_Group_Story_social)" Value="103161" />
+  <Preset Label="Listen to Story (GroupStory_Listen)" Tags="TestUnsafe" Value="103162" />
+  <Preset Label="Tell a Ghost Story (GroupStory_PerformGhostStory)" Value="103163" />
+  <Preset Label="Tell a Group Story (GroupStory_GhostStoryLoop)" Tags="TestUnsafe" Value="103167" />
+  <Preset Label="Tell a Fairy Tale (GroupStory_PerformFairyTale)" Value="103180" />
+  <Preset Label="Tell an Adventure Story (GroupStory_PerformAdventureStory)" Value="103181" />
+  <Preset Label="Tell a Group Story (GroupStory_AdventureTaleLoop)" Tags="TestUnsafe" Value="103182" />
+  <Preset Label="Tell a Group Story (GroupStory_FairyTaleLoop)" Tags="TestUnsafe" Value="103183" />
+  <Preset Label="Tell Story to Self (sim_TellStoryToSelf)" Value="103293" />
+  <Preset Label="Buy Supplies (RangerStation_BuyFromWindow)" Value="103424" />
+  <Preset Label="Buy Camping Supplies (Purchase_RangerStation)" Tags="TestUnsafe" Value="103427" />
+  <Preset Label="Attempt to Identify (herbalism_Harvestable_Identify)" Value="103517" />
+  <Preset Label="Chug (herbalism_Potion_Chug)" Value="103518" />
+  <Preset Label="Apply {1.ObjectName} (herbalism_Potion_Apply)" Value="103519" />
+  <Preset Label="Pour Fungal Infusion Fertilizer on {1.ObjectName} (herbalism_Potion_Pour)" Value="103520" />
+  <Preset Label="Discuss Adding a Log (mixer_social_DiscussAddingLog_targeted_friendly_situation_GP01)" Tags="TestUnsafe" Value="103836" />
+  <Preset Label="Complain about Mosquitoes (mixer_social_ComplainAboutMosquitoes_targeted_Friendly_situation_GP01)" Tags="TestUnsafe" Value="103866" />
+  <Preset Label="Enthuse about Wildlife Encounter (mixer_social_EnthuseAboutWildlifeEncounter_targeted_Friendly_situation_GP01)" Tags="TestUnsafe" Value="103870" />
+  <Preset Label="Philosophize about Life (mixer_social_PhilosophizeAboutLife_targeted_Friendly_situation_GP01)" Tags="TestUnsafe" Value="103873" />
+  <Preset Label="Brew Herbal Remedy (herbalism_BrewPotion_Grill)" Value="103875" />
+  <Preset Label="Brew Herbal Remedy (herbalism_BrewPotion_Stove)" Value="103876" />
+  <Preset Label="Insult Fire Building Skills (mixer_social_InsultFireBuildingSkills_targeted_mean_situation_GP01)" Tags="TestUnsafe" Value="103880" />
+  <Preset Label="Practice (Horseshoes_Social_Practice)" Value="103934" />
+  <Preset Label="Setup Horseshoes (horseshoes_setup)" Tags="TestUnsafe" Value="103936" />
+  <Preset Label="Toss Horseshoe (horseshoe_toss)" Tags="TestUnsafe" Value="103944" />
+  <Preset Label="Take Turn (horseshoes_taketurn)" Value="104024" />
+  <Preset Label="Watch Game (horseshoes_listen)" Tags="TestUnsafe" Value="104027" />
+  <Preset Label="Sabotage with Fireleaf Extract (Tent_Sabotage)" Value="104169" />
+  <Preset Label="generic_Stargaze" Value="104177" />
+  <Preset Label="Ask to Stargaze (mixer_social_AskToStargaze_targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="104180" />
+  <Preset Label="Stargaze (Solo_Stargazing)" Value="104215" />
+  <Preset Label="Spray (herbalism_Potion_Spray)" Value="104364" />
+  <Preset Label="Drink_ChugPotion" Value="104521" />
+  <Preset Label="Drink {1.ObjectName} (generic_consume_drink_nonbar_HerbalismPotion)" Value="104522" />
+  <Preset Label="Play With (HorseShoes_PlayWithPicker)" Tags="TestUnsafe" Value="104566" />
+  <Preset Label="HorseShoe's Winner (horseShoes_Win)" Tags="TestUnsafe" Value="104647" />
+  <Preset Label="HerbalistMixer_Apply" Value="104686" />
+  <Preset Label="Pour Natural Herbicide Oil on {1.ObjectName} (Herbalism_Potion_Pour_Herbicide)" Value="104689" />
+  <Preset Label="Play Guitar (campfire_PlayGuitar)" Value="104865" />
+  <Preset Label="HorseShoes Loser (horseShoes_Lose)" Tags="TestUnsafe" Value="104948" />
+  <Preset Label="Hang Out (campfire_GatherAround)" Value="104950" />
+  <Preset Label="Warm Self (mixer_Campfire_WarmSelf)" Value="104956" />
+  <Preset Label="Watch Game (horseshoes_Social_WatchGame)" Value="105064" />
+  <Preset Label="Warm Self (mixer_Campfire_PlayWith)" Value="105066" />
+  <Preset Label="Warm Self (mixer_Campfire_StareIntoFlames)" Value="105081" />
+  <Preset Label="Roast (campfire_startCrafting)" Value="105165" />
+  <Preset Label="campfire_CreateFood" Value="105179" />
+  <Preset Label="campfire_MakeRecipe_Staging" Value="105181" />
+  <Preset Label="campfire_RoastStick" Value="105183" />
+  <Preset Label="Invite to Hang Out (campfire_InviteToGatherAround)" Tags="TestUnsafe" Value="105186" />
+  <Preset Label="Marshmallows (campfire_RoastMarshmallows)" Value="105231" />
+  <Preset Label="Warm Self (mixer_Campfire_RoastMarshmallows)" Value="105235" />
+  <Preset Label="Tell Ghost Story (tent_TellGhostStory_Leader)" Value="105325" />
+  <Preset Label="Listen to Ghost Story (tent_TellGhostStory_Listener)" Value="105326" />
+  <Preset Label="tell_GhostStory_Active" Value="105331" />
+  <Preset Label="Waiting for Listeners (GroupStory_Waiting)" Tags="TestUnsafe" Value="105476" />
+  <Preset Label="Tell an Adventure Story (groupStory_PerformAdventureStory_Campfire)" Value="105490" />
+  <Preset Label="Tell a Fairy Tale (groupStory_PerformFairyTale_Campfire)" Value="105492" />
+  <Preset Label="Tell a Ghost Story (groupStory_PerformGhostStory_Campfire)" Value="105494" />
+  <Preset Label="An Adventure Story (tellGroupStory_Picker_Adventure_Campfire)" Tags="TestUnsafe" Value="105496" />
+  <Preset Label="A Fairy Tale (tellGroupStory_Picker_Fairy_Campfire)" Tags="TestUnsafe" Value="105498" />
+  <Preset Label="A Ghost Story (tellGroupStory_Picker_Ghost_Campfire)" Tags="TestUnsafe" Value="105500" />
+  <Preset Label="Tell Ghost Story (tellGroupStory_Picker_Autonomous_GhostStory_Campfire)" Tags="TestUnsafe" Value="105513" />
+  <Preset Label="Tell Adventure Story (tellGroupStory_Picker_Autonomous_Adventure_Campfire)" Tags="TestUnsafe" Value="105514" />
+  <Preset Label="Tell Fairy Tale (tellGroupStory_Picker_Autonomous_FairyTale_Campfire)" Tags="TestUnsafe" Value="105515" />
+  <Preset Label="campfire_CreateTool" Value="105569" />
+  <Preset Label="Explore (rabbitHole_Bramble_Explore_Herbicide)" Value="105599" />
+  <Preset Label="Sing Songs (campfire_SingSongGuitar)" Value="105668" />
+  <Preset Label="Play Violin (campfire_PlayViolin)" Value="105669" />
+  <Preset Label="campfire_DestroyCookingTool" Value="105674" />
+  <Preset Label="campfire_CreateTool_HotDog" Value="105706" />
+  <Preset Label="campfire_CreateTool_VeggieDog" Value="105707" />
+  <Preset Label="campfire_CreateTool_Beetle" Value="105708" />
+  <Preset Label="campfire_CreateTool_Fish" Value="105709" />
+  <Preset Label="Roasting (campfire_StartCraftingAutonomously)" Value="105902" />
+  <Preset Label="Jam (guitar_Jam_Indirect)" Value="105988" />
+  <Preset Label="Sing Songs (guitar_SingSongs_Indirect)" Value="106032" />
+  <Preset Label="Play Violin (violin_Concerto_Indirect)" Value="106042" />
+  <Preset Label="Discuss Game (mixer_horseShoes_Discuss_Game)" Tags="TestUnsafe" Value="106150" />
+  <Preset Label="Stargaze Together (si_Social_Stargaze)" Value="106456" />
+  <Preset Label="mixer_socials_Idles_Stargaze" Tags="TestUnsafe" Value="106895" />
+  <Preset Label="Pour (herbalism_Potion_Pour_Dummy)" Value="107052" />
+  <Preset Label="Spray (herbalism_Potion_Spray_Dummy)" Value="107054" />
+  <Preset Label="Share Astronomy Knowledge (mixer_social_ShareAstronomyKnowledge_targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="107372" />
+  <Preset Label="Stargaze Together (si_Social_ShareAstronomyKnowledge)" Value="107378" />
+  <Preset Label="Drink {1.ObjectName} (generic_consume_drink_nonbar_HerbalismPotion_YAE)" Value="107579" />
+  <Preset Label="Go Hiking (sim_goHiking)" Value="107897" />
+  <Preset Label="Wrestle (mixer_social_Fight_targeted_mean_bear)" Tags="TestUnsafe" Value="108106" />
+  <Preset Label="Scoff At (si_Mascot_ScoffAt)" Value="108130" />
+  <Preset Label="Appreciate (si_Mascot_Appreciate)" Value="108131" />
+  <Preset Label="Yell At (si_Mascot_YellAt)" Value="108132" />
+  <Preset Label="Talk To (si_Mascot_TalkTo)" Value="108133" />
+  <Preset Label="Learn Woodworking Schematic (si_Mascot_LearnWoodworkingSchematic)" Value="108134" />
+  <Preset Label="Return to Granite Falls Forest (RabbitHole_Bramble_Travel_Forest)" Value="108166" />
+  <Preset Label="Gossip about Bear (mixer_social_GossipAboutBear)" Tags="TestUnsafe" Value="108232" />
+  <Preset Label="Heckle (mixer_social_horseshoe_mean_heckle)" Tags="TestUnsafe" Value="108246" />
+  <Preset Label="Cheer (mixer_social_horseshoe_friendly_cheer)" Tags="TestUnsafe" Value="108247" />
+  <Preset Label="Rant about Obnoxious Bear (mixer_social_RantAboutBear)" Tags="TestUnsafe" Value="108422" />
+  <Preset Label="Roar (mixer_social_BearRoar)" Tags="TestUnsafe" Value="108438" />
+  <Preset Label="Imitate Bear Roar (mixer_social_BearRoar_Imitate)" Tags="TestUnsafe" Value="108605" />
+  <Preset Label="Listen to Ghost Story (tent_TellGhostStory_SummonedGhost)" Value="108722" />
+  <Preset Label="Play Violin (campfire_PlayViolin_Child)" Value="108850" />
+  <Preset Label="Ask for Camping Info (mixer_social_AskAboutCamping_targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="108900" />
+  <Preset Label="stove_SaucePot_Stir_Herbalism" Value="109020" />
+  <Preset Label="cooking_Shared_AddHerb_Elderberry" Value="109024" />
+  <Preset Label="forestRanger_GreetLot" Value="109027" />
+  <Preset Label="Listen to Story (listen_Group_Story_social_campfire)" Value="109587" />
+  <Preset Label="View (art_View_CampingSign)" Value="109935" />
+  <Preset Label="Play (horseshoes_Social_PlayGame)" Value="109945" />
+  <Preset Label="Take Me to Bathroom (campgroundHelpers_Bathroom)" Value="109978" />
+  <Preset Label="Take Me to Lodging (campgroundHelpers_Lodging)" Value="109979" />
+  <Preset Label="Explore Woods (campgroundHelpers_MapView)" Value="109980" />
+  <Preset Label="Read Camping Information (RangerStation_ReadCampingInformation_CampgroundHelper)" Value="110155" />
+  <Preset Label="Take Me to Bathroom (campgroundHelpers_Bathroom_RangerStation)" Value="110168" />
+  <Preset Label="Take Me to Lodging (campgroundHelpers_Lodging_RangerStation)" Value="110169" />
+  <Preset Label="Explore Woods (campgroundHelpers_MapView_RangerStation)" Value="110170" />
+  <Preset Label="Explore (RabbitHole_Bramble_Explore_FailureExit)" Value="110196" />
+  <Preset Label="Light (campfire_Light_Succeed)" Value="110289" />
+  <Preset Label="Apply {1.ObjectName} (herbalism_Potion_Apply_NotConsume)" Value="110300" />
+  <Preset Label="Stargaze (Solo_Stargazing_Join)" Value="110303" />
+  <Preset Label="mixer_solo_stargaze" Value="110354" />
+  <Preset Label="grill_Ico_Transition" Value="110419" />
+  <Preset Label="Give Herbalism Tips (mixer_social_GiveHerbalismAdvice_Targeted_Friendly_AlwaysOn_skills)" Tags="TestUnsafe" Value="110463" />
+  <Preset Label="cooking_Shared_AddHerb_Elderberry_Toxic" Value="110495" />
+  <Preset Label="cooking_Shared_AddHerb_Huckleberry" Value="110496" />
+  <Preset Label="cooking_Shared_AddHerb_Huckleberry_Toxic" Value="110497" />
+  <Preset Label="cooking_Shared_AddHerb_Morel" Value="110498" />
+  <Preset Label="cooking_Shared_AddHerb_Morel_Toxic" Value="110499" />
+  <Preset Label="cooking_Shared_AddHerb_Chamomile" Value="110500" />
+  <Preset Label="cooking_Shared_AddHerb_Chamomile_Toxic" Value="110501" />
+  <Preset Label="cooking_Shared_AddHerb_Fireleaf" Value="110502" />
+  <Preset Label="cooking_Shared_AddHerb_Fireleaf_Toxic" Value="110503" />
+  <Preset Label="Travel to Deep Woods (rabbitHole_Bramble_Picker_TravelWith_DeepWoods)" Tags="TestUnsafe" Value="110534" />
+  <Preset Label="Return to Granite Falls Forest (rabbitHole_Bramble_Picker_TravelWith_Forest)" Tags="TestUnsafe" Value="110540" />
+  <Preset Label="stove_CreateFood" Value="110543" />
+  <Preset Label="Stove_CreateFinalFood" Value="110545" />
+  <Preset Label="Take Turn (horseshoes_taketurn_two)" Value="110672" />
+  <Preset Label="Join Game (horseshoes_play_join)" Value="110795" />
+  <Preset Label="mixer_horseshoes_watch_passive" Value="110850" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_Table)" Value="110920" />
+  <Preset Label="Watch Game (horseshoes_listen_passive)" Tags="TestUnsafe" Value="110990" />
+  <Preset Label="Pour (herbalism_Potion_Pour_Autonomous)" Value="111004" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_Campfire)" Value="111165" />
+  <Preset Label="cooking_Shared_AddHerb_Basil" Value="111168" />
+  <Preset Label="cooking_Shared_AddHerb_Parsley" Value="111169" />
+  <Preset Label="cooking_Shared_AddHerb_Sage" Value="111170" />
+  <Preset Label="Squeamish Reaction DNT (reactions_Squeamish)" Value="111323" />
+  <Preset Label="Brew Herbal Remedy (herbalism_BrewPotion_Autonomous)" Value="111460" />
+  <Preset Label="stove_Ico_Transition_Herb" Value="111526" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_Loveseat)" Value="111544" />
+  <Preset Label="Cliffs Waterfalls Reaction DNT (reactions_Cliffs)" Value="111582" />
+  <Preset Label="Cliffs Waterfalls Reaction DNT (reactions_Waterfall)" Value="111583" />
+  <Preset Label="Cheer (horseshoes_Clap_Approval)" Value="111655" />
+  <Preset Label="Spray (herbalism_ElixirOfBurning_picker)" Tags="TestUnsafe" Value="111810" />
+  <Preset Label="Pour Fungal Infusion Fertilizer on {1.ObjectName} (herbalism_SuperFertilizer_picker)" Tags="TestUnsafe" Value="111855" />
+  <Preset Label="Pour Natural Herbicide Oil on {1.ObjectName} (herbalism_Herbicide_picker)" Tags="TestUnsafe" Value="111856" />
+  <Preset Label="Read Camping Information (rangerStation_ReadCampingInformation_RouteNearStation)" Value="111923" />
+  <Preset Label="Sabotage with Fireleaf Extract (herbalism_ElixirOfBurning_picker_tent)" Tags="TestUnsafe" Value="111935" />
+  <Preset Label="An Adventure Story (tellGroupStory_Picker_Adventure_Holiday)" Tags="TestUnsafe" Value="190896" />
+  <Preset Label="An Adventure Story (tellGroupStory_Picker_Adventure_HolidayCampfire)" Tags="TestUnsafe" Value="190897" />
+  <Preset Label="A Fairy Tale (tellGroupStory_Picker_Fairy_Holiday)" Tags="TestUnsafe" Value="190898" />
+  <Preset Label="A Fairy Tale (tellGroupStory_Picker_Fairy_HolidayCampfire)" Tags="TestUnsafe" Value="190899" />
+  <Preset Label="A Ghost Story (tellGroupStory_Picker_Ghost_Holiday)" Tags="TestUnsafe" Value="190900" />
+  <Preset Label="A Ghost Story (tellGroupStory_Picker_Ghost_HolidayCampfire)" Tags="TestUnsafe" Value="190901" />
+  <Preset Label="Brew Herbal Remedy (herbalism_BrewPotion_Autonomous_CivicPolicy)" Value="234367" />
+  <Preset Label="Brew Herbal Remedy (herbalism_BrewPotion_Stove_Offthegrid)" Value="241823" />
+  <Preset Label="Roast (campfire_startCrafting_RequiredIngredients)" Value="262116" />
+  <Preset Label="Give Wild Insects (critterGifting_GiveGift_ToBird_Picker_InsectWild)" Tags="TestUnsafe" Value="267168" />
+  <Preset Label="Give Wild Insects (critterGifting_GiveGift_ToFox_Picker_InsectWild)" Tags="TestUnsafe" Value="267169" />
+  <Preset Label="Give Wild Insects (critterGifting_GiveGift_ToRabbit_Picker_InsectWild)" Tags="TestUnsafe" Value="267170" />
+</PresetGroup>

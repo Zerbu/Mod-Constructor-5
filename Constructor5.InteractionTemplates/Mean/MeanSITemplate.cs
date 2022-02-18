@@ -9,7 +9,7 @@ using Constructor5.Elements.Interactions.Shared;
 
 namespace Constructor5.InteractionTemplates.Mean
 {
-    [SelectableObjectType("SocialInteractionTemplates", "Mean Interaction")]
+    [SelectableObjectType("SocialInteractionTemplates", "MeanInteraction")]
     [XmlSerializerExtraType]
     public class MeanSITemplate : InteractionTemplate
     {

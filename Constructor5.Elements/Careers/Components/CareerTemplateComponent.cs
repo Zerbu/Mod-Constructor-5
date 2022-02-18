@@ -6,6 +6,8 @@ namespace Constructor5.Elements.Careers.Components
     [XmlSerializerExtraType]
     public class CareerTemplateComponent : CareerComponent
     {
+        public override int ComponentDisplayOrder => 2;
+
         public override string ComponentLabel => "CareerType";
 
         public CareerTemplateBase Template { get; set; } = new CareerTemplateFullTime();

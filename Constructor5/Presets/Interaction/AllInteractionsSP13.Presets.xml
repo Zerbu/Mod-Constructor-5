@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions SP13">
+  <Preset Label="Take to Hamper (collect_Laundry_Aggregate)" Value="175354" />
+  <Preset Label="Take to Hamper (Collect_Laundry)" Value="175356" />
+  <Preset Label="Take to Hamper (Collect_Laundry_Continuation)" Value="175360" />
+  <Preset Label="Drop Clothing in Hamper (laundry_Hamper_Drop_In)" Value="175391" />
+  <Preset Label="Cheat Cleanliness: 1 - Filthy (laundry_Cheat_Make_Filthy)" Value="175437" />
+  <Preset Label="Pick Up Clothing Piles (laundry_Hamper_PickUp_Clothes)" Value="175525" />
+  <Preset Label="Load Laundry (laundry_WashingMachine_Load)" Value="175596" />
+  <Preset Label="Load Laundry (laundry_WashingMachine_PutIn)" Value="175599" />
+  <Preset Label="Add to Washing Machine (Collect_Laundry_PlaceIn_WashingMachine)" Value="175604" />
+  <Preset Label="Add to Washing Machine (laundry_Hamper_Empty_MoveTo_WashingMachine)" Value="175698" />
+  <Preset Label="Wash Laundry (laundry_WashingMachine_Wash_Clothes)" Value="175875" />
+  <Preset Label="Unload &amp; Set Laundry Down (Collect_Laundry_Unload_WashingMachine)" Value="175932" />
+  <Preset Label="Load Laundry (laundry_Dryer_Load)" Value="175998" />
+  <Preset Label="Load Laundry (laundry_Dryer_PutIn)" Value="176011" />
+  <Preset Label="Add to Dryer (Collect_Laundry_WashingMachine_Unload_MoveTo_Dryer)" Value="176032" />
+  <Preset Label="Dry Laundry (laundry_Dryer_Dry_Clothes)" Value="176049" />
+  <Preset Label="Unload &amp; Set Laundry Down (Collect_Laundry_Unload_Dryer)" Value="176057" />
+  <Preset Label="Add to Dryer (collect_Laundry_PlaceIn_Dryer)" Value="176071" />
+  <Preset Label="Put Laundry Away (laundry_PutAway)" Value="176200" />
+  <Preset Label="Add Flowers (laundry_Add_Optional_Ingredients_Flowers)" Tags="TestUnsafe" Value="176317" />
+  <Preset Label="Add Flowers (laundry_WashingMachine_Add_Ingredients_Flowers)" Value="176318" />
+  <Preset Label="Laundry Additive Tray (laundry_WashingMachine_Upgrades_IngredientTray)" Value="176332" />
+  <Preset Label="Resume Laundry Additive Tray (laundry_WashingMachine_Upgrades_IngredientTray_Resume)" Value="176333" />
+  <Preset Label="Add Food (laundry_Add_Optional_Ingredients_Rubbish)" Tags="TestUnsafe" Value="176377" />
+  <Preset Label="Add Food (laundry_WashingMachine_Add_Ingredients_Rubbish)" Value="176378" />
+  <Preset Label="Add Extra Soap (laundry_WashingMachine_Add_Ingredients_Soap)" Value="176402" />
+  <Preset Label="Clean Lint Tray (laundry_Dryer_ClearLint_Tray)" Value="176417" />
+  <Preset Label="Unload &amp; Put Laundry Away (collect_Laundry_Unload_PutAway_Dryer)" Value="176427" />
+  <Preset Label="Hang Clothes to Dry (laundry_ClothesLine_HangClothes)" Value="176485" />
+  <Preset Label="Hang Clothes to Dry (laundry_ClothesLine_PutIn)" Value="176492" />
+  <Preset Label="Hang on Clothesline (collect_Laundry_PlaceIn_ClothesLine)" Value="176494" />
+  <Preset Label="Hang on Clothesline (collect_Laundry_WashingMachine_Unload_MoveTo_ClothesLine)" Value="176498" />
+  <Preset Label="Unload &amp; Set Laundry Down (collect_Laundry_Unload_ClothesLine)" Value="176518" />
+  <Preset Label="Unload &amp; Put Laundry Away (collect_Laundry_Unload_ClothesLine_PutAway)" Value="176530" />
+  <Preset Label="Search Pockets (laundry_Rummage)" Value="176753" />
+  <Preset Label="Search Pockets (laundry_Hamper_Rummage)" Value="176755" />
+  <Preset Label="Replace Water (laundry_WashTub_Change_Water)" Value="176807" />
+  <Preset Label="Wash Laundry (laundry_WashTub_WashClothes)" Value="176808" />
+  <Preset Label="Wash Laundry (laundry_WashTub_PutIn)" Value="176811" />
+  <Preset Label="Wash Laundry (laundry_WashTub_WashClothes_Staging)" Value="176812" />
+  <Preset Label="laundry_WashTub_Mixer_Squeeze" Value="176822" />
+  <Preset Label="laundry_WashTub_Mixer_Wash_Loop" Value="176823" />
+  <Preset Label="laundry_WashTub_Mixer_New_Piece" Value="176824" />
+  <Preset Label="laundry_WashTub_Mixer_Pause" Value="176825" />
+  <Preset Label="Wash in Wash Tub (collect_Laundry_PlaceIn_WashTub)" Value="176827" />
+  <Preset Label="Add to Dryer (collect_Laundry_WashTub_Unload_MoveTo_Dryer)" Value="176835" />
+  <Preset Label="Hang on Clothesline (collect_Laundry_WashTub_Unload_MoveTo_ClothesLine)" Value="176836" />
+  <Preset Label="Sniff Fresh Clothing (mixer_social_Laundry_Targeted_EmotionSpecific_SmellGood)" Tags="TestUnsafe" Value="176885" />
+  <Preset Label="Sniff Foul Clothing (mixer_social_Laundry_Targeted_EmotionSpecific_SmellFoul)" Tags="TestUnsafe" Value="176886" />
+  <Preset Label="Speed Cycle (laundry_WashingMachine_Upgrades_SpeedCycle)" Value="176963" />
+  <Preset Label="Resume Speed Cycle (laundry_WashingMachine_Upgrades_SpeedCycle_Resume)" Value="176964" />
+  <Preset Label="Whisper Quiet (laundry_WashingMachine_Upgrades_Noiseless)" Value="176997" />
+  <Preset Label="Resume Whisper Quiet (laundry_WashingMachine_Upgrades_Noiseless_Resume)" Value="176998" />
+  <Preset Label="Presoak (laundry_WashingMachine_Upgrades_PreSoak)" Value="177000" />
+  <Preset Label="Resume Presoak (laundry_WashingMachine_Upgrades_PreSoak_Resume)" Value="177001" />
+  <Preset Label="Clean Out Additives (laundry_WashingMachine_CleanWasher)" Value="177004" />
+  <Preset Label="Repair Plumbing (laundry_WashingMachine_Repair_Plumbing)" Value="177092" />
+  <Preset Label="Break Plumbing (DEBUG) (laundry_WashingMachine_Cheat_Break_Plumbing)" Value="177093" />
+  <Preset Label="Replace (object_replaceBrokenObject_Laundry_WashingMachine)" Value="177115" />
+  <Preset Label="laundry_SoloIdles_Brush_Off" Value="177168" />
+  <Preset Label="laundry_SoloIdles_Straighten" Value="177173" />
+  <Preset Label="Tungsten Drum (laundry_WashingMachine_Upgrades_NeverBreaks)" Value="177245" />
+  <Preset Label="Resume Tungsten Drum (laundry_WashingMachine_Upgrades_NeverBreaks_Resume)" Value="177246" />
+  <Preset Label="Sabotage (laundry_WashingMachine_Sabotage)" Value="177271" />
+  <Preset Label="Splash In (laundry_WashTub_Toddler_Splash)" Value="177283" />
+  <Preset Label="Add Flowers (laundry_Add_Optional_Ingredients_Flowers_WashTub)" Tags="TestUnsafe" Value="177288" />
+  <Preset Label="Add Food (laundry_Add_Optional_Ingredients_Rubbish_WashTub)" Tags="TestUnsafe" Value="177289" />
+  <Preset Label="Add Flowers (laundry_WashTub_Add_Ingredients_Flowers)" Value="177291" />
+  <Preset Label="Add Food (laundry_WashTub_Add_Ingredients_Rubbish)" Value="177292" />
+  <Preset Label="Add Extra Soap (laundry_WashTub_Add_Ingredients_Soap)" Value="177293" />
+  <Preset Label="Speed Cycle (laundry_Dryer_Upgrades_SpeedCycle)" Value="177328" />
+  <Preset Label="Resume Speed Cycle (laundry_Dryer_Upgrades_SpeedCycle_Resume)" Value="177330" />
+  <Preset Label="Tungsten Drum (laundry_Dryer_Upgrades_NeverBreaks)" Value="177332" />
+  <Preset Label="Resume Tungsten Drum (laundry_Dryer_Upgrades_NeverBreaks_Resume)" Value="177333" />
+  <Preset Label="Lint-Less (laundry_Dryer_Upgrades_LintLess)" Value="177336" />
+  <Preset Label="Resume Lint-Less (laundry_Dryer_Upgrades_LintLess_Resume)" Value="177337" />
+  <Preset Label="Whisper Quiet (laundry_Dryer_Upgrades_Quiet)" Value="177339" />
+  <Preset Label="Resume Whisper Quiet (laundry_Dryer_Upgrades_Quiet_Resume)" Value="177340" />
+  <Preset Label="Sabotage (laundry_Dryer_Sabotage)" Value="177391" />
+  <Preset Label="Iron Line (laundry_ClothesLine_Upgrades_IronLine)" Value="177429" />
+  <Preset Label="Resume Iron Line (laundry_ClothesLine_Upgrades_IronLine_Resume)" Value="177430" />
+  <Preset Label="Repair (laundry_ClothesLine_Repair)" Value="177438" />
+  <Preset Label="What's that Spot? (mixer_social_Targeted_Friendly_MiddleScore_STC_WhatsThatSpot_Child)" Tags="TestUnsafe" Value="177494" />
+  <Preset Label="Add to Dryer (laundry_Hamper_Empty_MoveTo_Dryer)" Value="177497" />
+  <Preset Label="Wash in Wash Tub (laundry_Hamper_Empty_MoveTo_WashTub)" Value="177498" />
+  <Preset Label="Hang on Clothesline (laundry_Hamper_Empty_MoveTo_ClothesLine)" Value="177499" />
+  <Preset Label="Unload &amp; Set Laundry Down (collect_Laundry_Unload_Dryer_Clothespile)" Value="178046" />
+  <Preset Label="Watch Laundry (laundry_WashingMachine_Watch)" Value="178210" />
+  <Preset Label="Watch Laundry (laundry_Dryer_Watch)" Value="178211" />
+  <Preset Label="Unload &amp; Set Laundry Down (collect_Laundry_Unload_ClothesLine_ClothesPile)" Value="178425" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_Laundry_Washer)" Value="178446" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_Laundry_Dryer)" Value="178447" />
+  <Preset Label="Insta-Repair Plumbing! (object_Knack_FixIt_WashingMachine_Plumbing)" Value="178456" />
+  <Preset Label="Watch Laundry (laundry_Dryer_Watch_Toddler)" Value="178513" />
+  <Preset Label="Watch Laundry (laundry_WashingMachine_Watch_Toddler)" Value="178515" />
+  <Preset Label="Cheat Cleanliness: 2 - Dirty (laundry_Cheat_Make_Grungy)" Value="178613" />
+  <Preset Label="Cheat Cleanliness: 5 - Pristine (laundry_Cheat_Make_Pristine)" Value="178614" />
+  <Preset Label="Cheat Cleanliness: 3 - Used (laundry_Cheat_Make_Used)" Value="178615" />
+  <Preset Label="Cheat Dryness: 1 - Soaked (laundry_Cheat_Make_Soaked)" Value="178616" />
+  <Preset Label="Cheat Dryness: 2- Damp (laundry_Cheat_Make_Damp)" Value="178617" />
+  <Preset Label="Cheat Dryness: 4 - Warm (laundry_Cheat_Make_Warm)" Value="178618" />
+  <Preset Label="Cheat Scent: Fragrant (laundry_Cheat_Make_Fragrant)" Value="178619" />
+  <Preset Label="Cheat Scent: Foul (laundry_Cheat_Make_Rank)" Value="178620" />
+  <Preset Label="Wash Laundry (laundry_WashTub_WashClothes_Resume)" Value="178682" />
+  <Preset Label="Add to Washing Machine (collect_Laundry_Aggregate_WashingMachine_Load)" Value="178692" />
+  <Preset Label="Add to Washing Machine (collect_Laundry_Continuation_PlaceIn_WashingMachine)" Value="178699" />
+  <Preset Label="Add to Dryer (collect_Laundry_Aggregate_Dryer_Load)" Value="178719" />
+  <Preset Label="Add to Dryer (collect_Laundry_Continuation_PlaceIn_Dryer)" Value="178720" />
+  <Preset Label="Load Laundry (laundry_Broken_Dryer_PutIn)" Value="178826" />
+  <Preset Label="Repair Electronics (object_Repair_Electronic_WashingMachine)" Value="179111" />
+  <Preset Label="Unload &amp; Set Laundry Down (collect_Laundry_WashTub_Unload_ClothesPile)" Value="179121" />
+  <Preset Label="Cheat Dryness: 3 - Dry (laundry_Cheat_Make_Dry)" Value="179126" />
+  <Preset Label="Cheat Cleanliness: 4 - Clean (laundry_Cheat_Make_Clean)" Value="179127" />
+  <Preset Label="Wash in Wash Tub (collect_Laundry_Aggregate_WashTub_Load)" Value="179199" />
+  <Preset Label="Wash in Wash Tub (collect_Laundry_Continuation_PlaceIn_WashTub)" Value="179200" />
+  <Preset Label="Load Laundry (laundry_Broken_WashingMachine_PutIn)" Value="179367" />
+  <Preset Label="Hang on Clothesline (collect_Laundry_Continuation_PlaceIn_ClothesLine)" Value="179655" />
+  <Preset Label="Hang on Clothesline (collect_Laundry_Aggregate_ClothesLine_Load)" Value="179656" />
+  <Preset Label="Hang on Clothesline (laundry_Hamper_Empty_Left_MoveTo_ClothesLine)" Value="271196" />
+  <Preset Label="Add to Dryer (laundry_Hamper_Empty_Left_MoveTo_Dryer)" Value="271197" />
+  <Preset Label="Add to Washing Machine (laundry_Hamper_Empty_Left_MoveTo_WashingMachine)" Value="271198" />
+  <Preset Label="Wash in Wash Tub (laundry_Hamper_Empty_Left_MoveTo_WashTub)" Value="271199" />
+  <Preset Label="Drop Clothing in Hamper (laundry_Hamper_Drop_In_Left)" Value="271208" />
+</PresetGroup>

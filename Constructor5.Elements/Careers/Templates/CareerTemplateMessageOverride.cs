@@ -15,7 +15,9 @@ namespace Constructor5.Elements.Careers.Templates
             Override.CustomText = defaultText;
         }
 
+#pragma warning disable CS0067
         public event PropertyChangedEventHandler PropertyChanged;
+#pragma warning restore CS0067
 
         public bool IsMessageEnabled { get; set; }
         public STBLString Override { get; set; } = new STBLString();

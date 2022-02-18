@@ -182,6 +182,10 @@
     <Compile Include="Buffs\Components\BuffMixerInteractionsEditor.xaml.cs">
       <DependentUpon>BuffMixerInteractionsEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Buffs\Components\BuffSocialInteractionsComponent.cs" />
+    <Compile Include="Buffs\Components\BuffSocialInteractionsComponentEditor.xaml.cs">
+      <DependentUpon>BuffSocialInteractionsComponentEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Buffs\Components\BuffSpecialCasesComponent.cs" />
     <Compile Include="Buffs\Components\BuffSpecialCasesEditor.xaml.cs">
       <DependentUpon>BuffSpecialCasesEditor.xaml</DependentUpon>
@@ -240,6 +244,10 @@
     <Compile Include="Careers\Templates\CareerTemplatePartTime.cs" />
     <Compile Include="Careers\Templates\CareerTemplatePartTimeEditor.xaml.cs">
       <DependentUpon>CareerTemplatePartTimeEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\Templates\CareerTemplateVolunteer.cs" />
+    <Compile Include="Careers\Templates\CareerTemplateVolunteerEditor.xaml.cs">
+      <DependentUpon>CareerTemplateVolunteerEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="CareerTracks\CareerTrackAssignment.cs" />
     <Compile Include="CareerTracks\CareerTrackAssignmentEditor.xaml.cs">
@@ -358,6 +366,7 @@
       <DependentUpon>InteractionInfoEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Interactions\Shared\InteractionTemplateComponentBase.cs" />
+    <Compile Include="Interactions\Social\ContextModifiers\SIAssociatedBuff.cs" />
     <Compile Include="Interactions\Social\SocialInteractionComponentAttribute.cs" />
     <Compile Include="Interactions\Social\SocialInteractionEditor.xaml.cs">
       <DependentUpon>SocialInteractionEditor.xaml</DependentUpon>
@@ -496,6 +505,13 @@
     </Compile>
     <Compile Include="SimFilters\SimFilterTerm.cs" />
     <Compile Include="SimFilters\SimFilterTermItem.cs" />
+    <Compile Include="SituationActivities\SituationActivity.cs" />
+    <Compile Include="SituationActivities\SituationActivityEditor.xaml.cs">
+      <DependentUpon>SituationActivityEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationActivities\SituationActivityMiniEditor.xaml.cs">
+      <DependentUpon>SituationActivityMiniEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SituationGoalSets\SituationGoalSet.cs" />
     <Compile Include="SituationGoalSets\SituationGoalSetEditor.xaml.cs">
       <DependentUpon>SituationGoalSetEditor.xaml</DependentUpon>
@@ -618,6 +634,9 @@
     <Compile Include="Traits\Components\TraitInfoType.xaml.cs">
       <DependentUpon>TraitInfoType.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Traits\Components\TraitOriginControl.xaml.cs">
+      <DependentUpon>TraitOriginControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Traits\Components\TraitProximityBuffs.cs" />
     <Compile Include="Traits\Components\TraitProximityBuffsEditor.xaml.cs">
       <DependentUpon>TraitProximityBuffsEditor.xaml</DependentUpon>
@@ -627,6 +646,9 @@
       <DependentUpon>TraitSetupEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Traits\Components\TraitSocialInteractionsComponent.cs" />
+    <Compile Include="Traits\Components\TraitSocialInteractionsComponentEditor.xaml.cs">
+      <DependentUpon>TraitSocialInteractionsComponentEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Traits\Components\TraitSpecialCasesComponent.cs" />
     <Compile Include="Traits\Components\TraitSpecialCasesEditor.xaml.cs">
       <DependentUpon>TraitSpecialCasesEditor.xaml</DependentUpon>
@@ -756,6 +778,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Buffs\Components\BuffSocialInteractionsComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Buffs\Components\BuffSpecialCasesEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -817,6 +843,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Careers\Templates\CareerTemplatePartTimeEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\Templates\CareerTemplateVolunteerEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1004,6 +1034,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SituationActivities\SituationActivityEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationActivities\SituationActivityMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SituationGoalSets\SituationGoalSetEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -1108,11 +1146,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Traits\Components\TraitOriginControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Traits\Components\TraitProximityBuffsEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Traits\Components\TraitSetupEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Traits\Components\TraitSocialInteractionsComponentEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

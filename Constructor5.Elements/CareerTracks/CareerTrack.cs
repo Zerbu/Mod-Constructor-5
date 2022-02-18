@@ -22,6 +22,9 @@ namespace Constructor5.Elements.CareerTracks
     {
         public ReferenceList Assignments { get; set; } = new ReferenceList();
 
+        [AutoTuneBasic("active_assignment_amount", IgnoreIf = 2)]
+        public int AssignmentsAmount { get; set; } = 2;
+
         [AutoTuneReferenceList("branches")]
         public ReferenceList Branches { get; set; } = new ReferenceList();
 

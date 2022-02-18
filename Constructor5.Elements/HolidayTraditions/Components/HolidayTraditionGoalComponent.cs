@@ -32,10 +32,13 @@ namespace Constructor5.Elements.HolidayTraditions.Components
             context.Tuning.Set<TunableBasic>("selectable", "True");
             context.Tuning.Set<TunableBasic>("situation_goal", Goal);
 
-            var header = (TuningHeader)context.Tuning;
-            header.SimDataHandler.WriteText(228, Exporter.Current.STBLBuilder.GetKey(goalInfo.Name) ?? 0);
-            header.SimDataHandler.WriteText(224, Exporter.Current.STBLBuilder.GetKey(goalInfo.Description) ?? 0);
-            header.SimDataHandler.WriteTGI(240, goalInfo.Icon.GetUncommentedText(), Element);
+            if (Exporter.Current.STBLBuilder != null)
+            {
+                var header = (TuningHeader)context.Tuning;
+                header.SimDataHandler.WriteText(228, Exporter.Current.STBLBuilder.GetKey(goalInfo.Name) ?? 0);
+                header.SimDataHandler.WriteText(224, Exporter.Current.STBLBuilder.GetKey(goalInfo.Description) ?? 0);
+                header.SimDataHandler.WriteTGI(240, goalInfo.Icon.GetUncommentedText(), Element);
+            }
         }
     }
 }

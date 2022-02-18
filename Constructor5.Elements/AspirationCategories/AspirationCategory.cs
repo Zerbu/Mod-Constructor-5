@@ -1,3 +1,4 @@
+using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
@@ -9,10 +10,11 @@ using Constructor5.Base.PropertyTypes;
 namespace Constructor5.Elements.AspirationCategories
 {
     [ElementTypeData("AspirationCategory", true, ElementTypes = new[] { typeof(AspirationCategory) }, PresetFolders = new[] { "AspirationCategory" }, IsRootType = true)]
-    public class AspirationCategory : Element, IExportableElement
+    public class AspirationCategory : Element, IExportableElement, ISupportsCustomTuning
     {
-        public STBLString Name { get; set; } = new STBLString();
+        public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
         public ElementIcon Icon { get; set; } = new ElementIcon();
+        public STBLString Name { get; set; } = new STBLString();
 
         void IExportableElement.OnExport()
         {
@@ -28,6 +30,8 @@ namespace Constructor5.Elements.AspirationCategories
 
             tuning.SimDataHandler.WriteText(64, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
             tuning.SimDataHandler.WriteTGI(72, Icon.GetUncommentedText(), this);
+
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }

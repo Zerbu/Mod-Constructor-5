@@ -38,8 +38,5 @@ namespace Constructor5.Elements.TestConditions
         }
 
         protected void InvokePropertyChanged(PropertyChangedEventArgs eventArgs) => PropertyChanged?.Invoke(this, eventArgs);
-
-        protected virtual void OnPropertyChanged()
-        { }
     }
 }

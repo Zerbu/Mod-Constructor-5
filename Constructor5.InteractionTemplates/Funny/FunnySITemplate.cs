@@ -9,7 +9,7 @@ using Constructor5.Elements.Interactions.Shared;
 
 namespace Constructor5.InteractionTemplates.Funny
 {
-    [SelectableObjectType("SocialInteractionTemplates", "Funny Interaction")]
+    [SelectableObjectType("SocialInteractionTemplates", "FunnyInteraction")]
     [XmlSerializerExtraType]
     public class FunnySITemplate : InteractionTemplate
     {

@@ -267,6 +267,10 @@
       <DependentUpon>SituationConditionEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Situations\SituationConditionForGoals.cs" />
+    <Compile Include="Statistics\SkillCondition.cs" />
+    <Compile Include="Statistics\SkillConditionEditor.xaml.cs">
+      <DependentUpon>SkillConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Statistics\SkillInUseCondition.cs" />
     <Compile Include="Statistics\SkillInUseConditionEditor.xaml.cs">
       <DependentUpon>SkillInUseConditionEditor.xaml</DependentUpon>
@@ -469,6 +473,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Situations\SituationConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Statistics\SkillConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

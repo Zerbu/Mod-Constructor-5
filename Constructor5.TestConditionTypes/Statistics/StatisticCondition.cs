@@ -21,7 +21,7 @@ namespace Constructor5.TestConditionTypes.Statistics
     {
         public StatisticCondition() => GeneratedLabel = "Statistic Condition";
 
-        [AutoTuneBasic("must_have_stat")]
+        [AutoTuneIfTrue("must_have_stat")]
         public bool MustHaveStatistic { get; set; }
 
         [AutoTuneEnum("who")]

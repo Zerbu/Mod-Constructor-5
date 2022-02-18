@@ -10,8 +10,16 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:Field Label="DisplayName" LabelWidth="100">
+        <c:Field x:Name="DisplayNameField"
+                 Label="DisplayName"
+                 LabelWidth="100">
             <c:STBLStringControl Text="{Binding DisplayName}" UpdateLabelForElement="{Binding}" />
+        </c:Field>
+        <c:Field x:Name="LabelField"
+                 Label="LabelOverride"
+                 LabelWidth="150"
+                 Visibility="Collapsed">
+            <c:TextBox Text="{Binding CustomLabel, UpdateSourceTrigger=PropertyChanged}" />
         </c:Field>
         <c:TabControl>
             <c:TabItem Header="Objectives">
@@ -39,6 +47,14 @@
                             <c:TextBlock FontStyle="Italic" Text="AlwaysTrackObjectiveSetHelp" />
                         </StackPanel>
                     </c:CheckBox>
+                </c:SpacedStack>
+            </c:TabItem>
+            <c:TabItem Header="Reward">
+                <c:SpacedStack TopMargin="True">
+                    <TextBlock Text="ObjectiveSetRewardNotice" />
+                    <c:ReferenceControl ElementTypeName="Reward"
+                                        Reference="{Binding Reward}"
+                                        ShowCreateButton="True" />
                 </c:SpacedStack>
             </c:TabItem>
         </c:TabControl>

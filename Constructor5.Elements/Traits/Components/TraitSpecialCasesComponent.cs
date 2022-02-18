@@ -1,7 +1,9 @@
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.TuningActions;
+using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
+using Constructor5.Elements.Buffs.References;
 
 namespace Constructor5.Elements.Traits.Components
 {
@@ -9,7 +11,7 @@ namespace Constructor5.Elements.Traits.Components
     public class TraitSpecialCasesComponent : TraitComponent
     {
         public bool BlockAging => BlockAgingFromBaby
-            || BlockAgingFromToddler
+                    || BlockAgingFromToddler
             || BlockAgingFromChild
             || BlockAgingFromTeen
             || BlockAgingFromYoungAdult
@@ -48,6 +50,11 @@ namespace Constructor5.Elements.Traits.Components
 
         [AutoTuneIfTrue("npc_only")]
         public bool IsNPCOnly { get; set; }
+
+        [AutoTuneBuffWithReasonList("buffs")]
+        public ReferenceList TraitBuffs { get; set; } = new ReferenceList();
+
+        public STBLString TraitOrigin { get; set; } = new STBLString();
 
         public string VoiceEffect { get; set; }
 

@@ -1,0 +1,1360 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP08">
+  <Preset Label="Guitar (roommateNPC_PlayGuitar)" Value="208360" />
+  <Preset Label="Tap Juice Keg (SI_JuiceKeg_Tap_DragonFruit)" Value="208450" />
+  <Preset Label="Grab Cup of Juice (SI_JuiceKeg_GrabCup_Dragonfruit)" Value="208451" />
+  <Preset Label="Fill Cups with Juice (SI_JuiceKeg_FillCups_SlotsEmpty_DragonFruit)" Value="208452" />
+  <Preset Label="Pineapple-Lime (SI_JuiceKeg_ReplaceKeg_Pineapple)" Value="208453" />
+  <Preset Label="Passion Fruit (SI_JuiceKeg_ReplaceKeg_Passionfruit)" Value="208460" />
+  <Preset Label="Dragonfruit (SI_JuiceKeg_ReplaceKeg_Dragonfruit)" Value="208461" />
+  <Preset Label="Blue Raspberry (SI_JuiceKeg_ReplaceKeg_BlueRaspberry)" Value="208462" />
+  <Preset Label="generic_juicekeg_kegstand" Value="208468" />
+  <Preset Label="Energy Failure (sim_EnergyFailure_JuiceKeg)" Value="208599" />
+  <Preset Label="Grab Cup of Juice (sI_JuiceKeg_GrabCup_BlueRaspberry)" Value="208676" />
+  <Preset Label="Grab Cup of Juice (sI_JuiceKeg_GrabCup_PineappleLime)" Value="208677" />
+  <Preset Label="Grab Cup of Juice (sI_JuiceKeg_GrabCup_PassionFruit)" Value="208678" />
+  <Preset Label="Fill Cups with Juice (sI_JuiceKeg_FillCups_SlotsFull_DragonFruit)" Value="208680" />
+  <Preset Label="Tend Stall (marketStalls_Tend_University)" Value="209263" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_University)" Value="209264" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_University)" Value="209270" />
+  <Preset Label="Start School Cheer (CollegeOrganization_StartSchoolCheer)" Value="209292" />
+  <Preset Label="collegeOrganization_SetupTables" Value="209353" />
+  <Preset Label="Do Keg Stand With (simPicker_JuiceKeg_KegStand)" Tags="TestUnsafe" Value="209650" />
+  <Preset Label="Keg Stand! (social_JuiceKeg_KegStand)" Value="209651" />
+  <Preset Label="Keg Stand? (mixer_social_JuiceKeg_AskToDoKegStand_Friendly_alwaysOn)" Tags="TestUnsafe" Value="209652" />
+  <Preset Label="Go to University Class (si_University_Class)" Value="209981" />
+  <Preset Label="Enroll in University (University_Debug_Enroll)" Value="210009" />
+  <Preset Label="Tapped! (Reaction_JuiceKeg_Success)" Value="210275" />
+  <Preset Label="Heckle (Reaction_JuiceKeg_Failure)" Value="210283" />
+  <Preset Label="Failed Tapper (reaction_JuiceKeg_Failure_Embarrassed)" Value="210299" />
+  <Preset Label="I'm the Best!!!! (mixer_social_JuiceKeg_ImTheBest_Friendly_alwaysOn)" Tags="TestUnsafe" Value="210300" />
+  <Preset Label="Let's Be Friends!? (mixer_social_JuiceKeg_LetsBeFriends_Friendly_alwaysOn)" Tags="TestUnsafe" Value="210302" />
+  <Preset Label="Wanna Make Out? (mixer_social_JuiceKeg_WantToMakeOut_Flirty_alwaysOn)" Tags="TestUnsafe" Value="210303" />
+  <Preset Label="Check This Noise!!!! (mixer_social_JuiceKeg_CheckThisNoise_Mischief_alwaysOn)" Tags="TestUnsafe" Value="210304" />
+  <Preset Label="Cheer (reactions_JuiceKeg_ImTheBest_Cheer)" Value="210370" />
+  <Preset Label="Kiss (mixer_social_JuiceKeg_MakeOut_Flirty_AlwaysOn)" Tags="TestUnsafe" Value="210379" />
+  <Preset Label="Assign Bed (roommateNPC_PrerollToBed)" Value="210624" />
+  <Preset Label="Go to Rabbithole (Debug) (roommateNPC_Rabbithole)" Value="210637" />
+  <Preset Label="Clean (roommateNPC_RandomClean)" Value="210707" />
+  <Preset Label="Violin (roommateNPC_PlayViolin)" Value="210781" />
+  <Preset Label="Ask to Join College Organization (mixer_CollegeOrganizations_AskToJoinOrQuit)" Tags="TestUnsafe" Value="210822" />
+  <Preset Label="Do Homework for {2.String} (Book_Homework_University_ClassA)" Value="210985" />
+  <Preset Label="Do Homework for {2.String} (book_Homework_University_ClassD)" Value="210991" />
+  <Preset Label="Do Homework for {2.String} (book_Homework_University_ClassC)" Value="210992" />
+  <Preset Label="Do Homework for {2.String} (book_Homework_University_ClassB)" Value="210993" />
+  <Preset Label="Visit Office Hours (si_University_VisitOfficeHours_A)" Value="211403" />
+  <Preset Label="roommateNPC_SS3_Offlot" Value="211606" />
+  <Preset Label="Upgrade (roommateNPC_RandomUpgrade)" Value="211861" />
+  <Preset Label="Invite to Hangout at Current Lot (roommateNPC_StartParty)" Value="211868" />
+  <Preset Label="roommateNPC_ChangeOutfit" Value="211875" />
+  <Preset Label="Go to Rabbithole (Debug) (roommateNPC_Rabbithole_Absent)" Value="211911" />
+  <Preset Label="Release Notes (roommateNPC_LeaveNote)" Value="211916" />
+  <Preset Label="Create Sketches (roommateNPC_UseSketchpad)" Value="211921" />
+  <Preset Label="Play Ping Pong Against (simPicker_PingPongTable_PlayPingPongAgainst)" Tags="TestUnsafe" Value="212511" />
+  <Preset Label="Play Juice Pong Against (simPicker_PingPongTable_PlayJuicePongAgainst)" Tags="TestUnsafe" Value="212512" />
+  <Preset Label="Play Juice Pong with Teammate (simPicker_PingPongTable_PlayJuicePongTeammate)" Tags="TestUnsafe" Value="212513" />
+  <Preset Label="Play Ping Pong (PingPong_Play)" Value="212518" />
+  <Preset Label="Play Ping Pong (PingPong_PlayTarget)" Value="212519" />
+  <Preset Label="Play Juice Pong (pingPong_JuicePong_StartPlaying_TeamA)" Value="212523" />
+  <Preset Label="Play Juice Pong (pingPong_JuicePong_StartPlaying_TeamB)" Value="212524" />
+  <Preset Label="Play Juice Pong (pingPong_JuicePong_Shoot)" Value="212525" />
+  <Preset Label="Play Juice Pong (pingPong_JuicePong_Drink)" Value="212526" />
+  <Preset Label="Wait (pingPong_JuicePong_Wait)" Value="212542" />
+  <Preset Label="Ping Pong (pingPong_Mixers_ServeFronthand)" Tags="TestUnsafe" Value="212545" />
+  <Preset Label="Ping Pong (pingPong_Mixers_ServeBackhand)" Tags="TestUnsafe" Value="212546" />
+  <Preset Label="Ping Pong (pingPong_Mixers_Loops_BackhandXBackhandY)" Tags="TestUnsafe" Value="212548" />
+  <Preset Label="Ping Pong (pingPong_Mixers_Loops_FronthandXFronthandY)" Tags="TestUnsafe" Value="212549" />
+  <Preset Label="Ping Pong (pingPong_Mixers_Loops_BackhandXFronthandY)" Tags="TestUnsafe" Value="212550" />
+  <Preset Label="Ping Pong (pingPong_Mixers_Loops_FronthandXBackhandY)" Tags="TestUnsafe" Value="212551" />
+  <Preset Label="generic_PingPong_ReadyStance" Value="212552" />
+  <Preset Label="Ping Pong (pingPong_Mixers_idle)" Tags="TestUnsafe" Value="212582" />
+  <Preset Label="Wait (pingPong_JuicePong_Wait_TeamB)" Value="212891" />
+  <Preset Label="Play Juice Pong (pingPong_JuicePong_Drink_TeamB)" Value="212893" />
+  <Preset Label="Play Juice Pong (pingPong_JuicePong_Shoot_TeamB)" Value="212895" />
+  <Preset Label="immediate_PingPongTable_JuicePongPrep" Value="212910" />
+  <Preset Label="Play Juice Pong Against (autonomousSimPicker_PingPong_JuicePong)" Tags="TestUnsafe" Value="214041" />
+  <Preset Label="Play Ping Pong Against (autonomousSimPicker_PingPong_Game)" Tags="TestUnsafe" Value="214345" />
+  <Preset Label="Create Diploma (diploma_Create)" Value="216984" />
+  <Preset Label="View Diploma (diploma_View_Owner)" Value="217025" />
+  <Preset Label="diploma_Idle" Value="217033" />
+  <Preset Label="diploma_Reaction_Contented" Value="217034" />
+  <Preset Label="diploma_Reaction_Disappointed" Value="217035" />
+  <Preset Label="diploma_Reaction_Angry" Value="217036" />
+  <Preset Label="View Diploma (diploma_View_Owner_Gloomy)" Value="217065" />
+  <Preset Label="View Diploma (diploma_View_Owner_Ambitious)" Value="217066" />
+  <Preset Label="Talk About Achievement (simPicker_Diploma_TalkAboutAchievement)" Tags="TestUnsafe" Value="217070" />
+  <Preset Label="Talk About Achievement (diploma_TalkAboutAchievement)" Value="217089" />
+  <Preset Label="Watch (diploma_Watch)" Value="217109" />
+  <Preset Label="Off to E-Sports Meeting (si_Career_E-Sports)" Value="217127" />
+  <Preset Label="diploma_Reaction_Positive" Value="217179" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Mon)" Value="217464" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Tue)" Value="217573" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Wed)" Value="217574" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Thu)" Value="217575" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Fri)" Value="217576" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Sat)" Value="217577" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Sun)" Value="217578" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Holiday)" Value="217584" />
+  <Preset Label="Spice of Life Menu (cafeteriaStation_Immediate_ChangeMenu_Mon)" Value="217850" />
+  <Preset Label="Taco Day Menu (cafeteriaStation_Immediate_ChangeMenu_Tue)" Value="217853" />
+  <Preset Label="Pizza and Pasta Menu (cafeteriaStation_Immediate_ChangeMenu_Wed)" Value="217854" />
+  <Preset Label="Fast Foods Menu (cafeteriaStation_Immediate_ChangeMenu_Thu)" Value="217855" />
+  <Preset Label="Home Cooking Menu (cafeteriaStation_Immediate_ChangeMenu_Fri)" Value="217856" />
+  <Preset Label="Power Foods Menu (cafeteriaStation_Immediate_ChangeMenu_Sat)" Value="217857" />
+  <Preset Label="Upscale Meals Menu (cafeteriaStation_Immediate_ChangeMenu_Sun)" Value="217858" />
+  <Preset Label="Tend Stall (marketStalls_Tend_CafeteriaStation)" Value="217884" />
+  <Preset Label="Hire Vendor (si_marketStalls_CafeteriaStation_HireNPC)" Value="217902" />
+  <Preset Label="Go to Work (si_Career_Engineer)" Value="217918" />
+  <Preset Label="Activate Servo (Humanoid_robots_Creation_ActivateRobot_CreateMale)" Value="218334" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Autonomous_Mon)" Value="218393" />
+  <Preset Label="Broken Down (Humanoid_robots_motive_Durability_Broken)" Value="218468" />
+  <Preset Label="Change Name (Humanoid_robots_Creation_ChangeName_Step2)" Value="218603" />
+  <Preset Label="Get (cafeteriaStation_startCrafting_water)" Value="218615" />
+  <Preset Label="Ask about Degree (UniversityStudents_Mixers_AskAboutMajor)" Tags="TestUnsafe" Value="218617" />
+  <Preset Label="cafeteriaStation_createDrink" Value="218655" />
+  <Preset Label="Repair {1.SimFirstName} (humanoid_Robots_Durability_RepairRobot)" Value="218703" />
+  <Preset Label="Complain about Classes (universityStudents_Mixers_ComplainAboutClasses)" Tags="TestUnsafe" Value="218712" />
+  <Preset Label="Complain about Professor (universityStudents_Mixers_ComplainAboutProfessor)" Tags="TestUnsafe" Value="218713" />
+  <Preset Label="Complain about Textbook Costs (universityStudents_Mixers_ComplainAboutTextbooks)" Tags="TestUnsafe" Value="218715" />
+  <Preset Label="Brag about Grades (universityStudents_Mixers_BragAboutGrades)" Tags="TestUnsafe" Value="218718" />
+  <Preset Label="roboticsTable_CraftingPhase_Craftables" Value="218736" />
+  <Preset Label="roboticsTable_CreateInProgress_Craftable" Value="218746" />
+  <Preset Label="Apply to Universities (computer_UniversityEnrollment_Apply)" Value="218773" />
+  <Preset Label="Boost Admission Chances (computer_UniversityEnrollment_Influence_Donate)" Value="218775" />
+  <Preset Label="Cleaner-Bot (roboticsTable_CraftingPicker_Bots_Cleaner)" Value="218779" />
+  <Preset Label="Check Application Status (computer_UniversityEnrollment_Check)" Value="218781" />
+  <Preset Label="Enroll in a University (computer_UniversityEnrollment_Enroll)" Value="218782" />
+  <Preset Label="Add a 'Little' Spice (cafeteriaStation_Socials_SpicePrank)" Value="218796" />
+  <Preset Label="Deploy Experimental Party Motivator (si_BehaviorBomb_Deploy_Party)" Value="218808" />
+  <Preset Label="Dance (si_BehaviorBomb_Reactions_SoloDance)" Value="218814" />
+  <Preset Label="&quot;Are Cowplants Cows or Plants?&quot; with (simPicker_PodiumPair_Debate_Television)" Tags="TestUnsafe" Value="218826" />
+  <Preset Label="Have a Professional Debate about A.I. with (simPicker_PodiumPair_ProfessionalDebate)" Tags="TestUnsafe" Value="218828" />
+  <Preset Label="Practice Debating (podiumPair_Solo_Practice)" Value="218837" />
+  <Preset Label="Give Professional Commentary (podiumPair_Solo_Commentary)" Value="218838" />
+  <Preset Label="Watch Debate (podiumPair_Watch)" Value="218839" />
+  <Preset Label="Make Offering for Academic Success (interactableStatue_PickOffering)" Tags="TestUnsafe" Value="218870" />
+  <Preset Label="&quot;Is a College Education Worth It?&quot; with (simPicker_PodiumPair_Debate_College)" Tags="TestUnsafe" Value="218882" />
+  <Preset Label="&quot;Is Homework Beneficial?&quot; with (simPicker_PodiumPair_Debate_Homework)" Tags="TestUnsafe" Value="218883" />
+  <Preset Label="&quot;Are Gnomes Cute or Creepy?&quot; with (simPicker_PodiumPair_Debate_Internet)" Tags="TestUnsafe" Value="218884" />
+  <Preset Label="&quot;Are Swimming Pools Inherently Deadly?&quot; with (simPicker_PodiumPair_Debate_Teachers)" Tags="TestUnsafe" Value="218885" />
+  <Preset Label="&quot;What if Sims are All Just Fleshy Robots?&quot; with (simPicker_PodiumPair_Debate_Skill_Robotics)" Tags="TestUnsafe" Value="218895" />
+  <Preset Label="&quot;Which is More Valuable: Logic or Instinct?&quot; with (simPicker_PodiumPair_Debate_Skill_Logic)" Tags="TestUnsafe" Value="218896" />
+  <Preset Label="&quot;Should the Disappointing Finale of that TV Series be Rewritten?&quot; with (simPicker_PodiumPair_Debate_Skill_Writing)" Tags="TestUnsafe" Value="218897" />
+  <Preset Label="&quot;Are Tabs or Spaces Better when Coding?&quot; with (simPicker_PodiumPair_Debate_Skill_Programming)" Tags="TestUnsafe" Value="218898" />
+  <Preset Label="&quot;Is Space the Final Frontier?&quot; with (simPicker_PodiumPair_Debate_Skill_RocketScience)" Tags="TestUnsafe" Value="218899" />
+  <Preset Label="&quot;Should Painting Prices Scale with Skill?&quot; with (simPicker_PodiumPair_Debate_Skill_Painting)" Tags="TestUnsafe" Value="218900" />
+  <Preset Label="&quot;Should a Sim Ever Skip Leg Day?&quot; with (simPicker_PodiumPair_Debate_Skill_Fitness)" Tags="TestUnsafe" Value="218902" />
+  <Preset Label="&quot;How Many Sims Does it Take to Screw in a Light Bulb?&quot; with (simPicker_PodiumPair_Debate_Skill_Handiness)" Tags="TestUnsafe" Value="218903" />
+  <Preset Label="&quot;Is Research Necessary for Debate?&quot; with (simPicker_PodiumPair_Debate_Skill_Debate)" Tags="TestUnsafe" Value="218904" />
+  <Preset Label="&quot;Could Everything Be a Simulation?&quot; with (simPicker_PodiumPair_Debate_Skill_Videogaming)" Tags="TestUnsafe" Value="218906" />
+  <Preset Label="&quot;Who is the Best Actor/Actress of All Time?&quot; with (simPicker_PodiumPair_Debate_Skill_Acting)" Tags="TestUnsafe" Value="218907" />
+  <Preset Label="&quot;Is Utilizing Charisma Manipulative?&quot; with (simPicker_PodiumPair_Debate_Skill_Charisma)" Tags="TestUnsafe" Value="218908" />
+  <Preset Label="&quot;Hand Buzzers: Funny or Annoying?&quot; with (simPicker_PodiumPair_Debate_Skill_Comedy)" Tags="TestUnsafe" Value="218909" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Acting)" Value="218922" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Charisma)" Value="218925" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Comedy)" Value="218926" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Debate)" Value="218927" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Fitness)" Value="218928" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Handiness)" Value="218929" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Logic)" Value="218930" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Painting)" Value="218934" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Programming)" Value="218935" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Robotics)" Value="218936" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_RocketScience)" Value="218937" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Videogaming)" Value="218938" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Writing)" Value="218939" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_College)" Value="218941" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Homework)" Value="218942" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Internet)" Value="218943" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Teachers)" Value="218944" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Television)" Value="218945" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Professional)" Value="218948" />
+  <Preset Label="Ask How to Make the Sprites Happy (collegeOrganization_SecretSociety_Social_AskDeeds)" Value="219059" />
+  <Preset Label="Ask about The Order of Enchantment's Mission (collegeOrganization_SecretSociety_Social_AskMission)" Value="219061" />
+  <Preset Label="Ask About Strange Gathering (collegeOrganization_SecretSociety_Social_AskGathering)" Value="219063" />
+  <Preset Label="Give Final Presentation (univeristy_TermPresentation_GivePresentation_ClassA)" Value="219086" />
+  <Preset Label="Deploy Experimental Tidy Motivator (si_BehaviorBomb_Deploy_Tidy)" Value="219108" />
+  <Preset Label="Buy University Items (universityKiosk_BuyFromWindow)" Value="219159" />
+  <Preset Label="Organization Events (universityKiosk_GetUniversityInfo_OrganizationEvents)" Value="219160" />
+  <Preset Label="Buy University Items (purchase_UniversityKiosk)" Tags="TestUnsafe" Value="219162" />
+  <Preset Label="Enrollment (universityKiosk_GetUniversityInfo_Enrollment)" Value="219165" />
+  <Preset Label="Debate a Topic (podiumPair_Mixers_GiveSpeech)" Tags="TestUnsafe" Value="219242" />
+  <Preset Label="Rename &quot;{1.ObjectName}&quot; (humanoid_Robots_WorkOnRobot_ChangeName_Part2)" Value="219251" />
+  <Preset Label="Reprogram Traits (humanoid_Robots_WorkOnRobot_ChangeTraits-Part2)" Value="219257" />
+  <Preset Label="Deploy Experimental Study Motivator (sI_BehaviorBomb_Deploy_Study)" Value="219272" />
+  <Preset Label="Deploy Experimental Energy Motivator (si_BehaviorBomb_Deploy_Energy)" Value="219282" />
+  <Preset Label="Reprogram Traits (humanoid_Robots_WorkOnRobot_ChangeTraits-Part1)" Value="219287" />
+  <Preset Label="Make Offering to Sprites (collegeOrganization_SecretSociety_StoneAltar_MakeOffering)" Value="219571" />
+  <Preset Label="Check In with Sprites (collegeOrganization_SecretSociety_StoneAltar_AskForBlessing)" Value="219572" />
+  <Preset Label="Make Offering to Sprites (CollegeOrganization_SecretSociety_Offering_InventoryPicker)" Tags="TestUnsafe" Value="219579" />
+  <Preset Label="Make Offering to Sprites (collegeOrganization_SecretSociety_StoneAltar_PlaceOffering)" Value="219581" />
+  <Preset Label="Go to Work (si_Career_Education)" Value="219639" />
+  <Preset Label="Give University &quot;Donation&quot; to Boost Chances for (simPicker_UniversityEnrollment_Influence_Donate)" Tags="TestUnsafe" Value="219673" />
+  <Preset Label="Wait (collegeOrganization_SecretSociety_Social_JoinVisit_Invite)" Value="219839" />
+  <Preset Label="Wait (collegeOrganization_SecretSociety_Social_JoinVisit_Declined)" Value="219847" />
+  <Preset Label="Research Universities (computer_UniversityEnrollment_Research)" Value="219863" />
+  <Preset Label="Focus Sprites (collegeOrganization_SecretSociety_Solo_SummonSprite_Focused)" Value="219867" />
+  <Preset Label="Inspiration Sprites (collegeOrganization_SecretSociety_Solo_SummonSprite_Inspired)" Value="219868" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Autonomous_Tue)" Value="219872" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Autonomous_Wed)" Value="219873" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Autonomous_Thu)" Value="219874" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Autonomous_Fri)" Value="219875" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Autonomous_Sat)" Value="219876" />
+  <Preset Label="Order Food (cafeteriaStation_PushOrder_Autonomous_Sun)" Value="219877" />
+  <Preset Label="Listen to Alternative (stereo_listen_alt_HumanoidRobot)" Value="219886" />
+  <Preset Label="Create Lesson Plan (computer_Career_Education_CreateLesson)" Value="219891" />
+  <Preset Label="Write Letter of Recommendation (computer_Career_Education_WriteLetter)" Value="219892" />
+  <Preset Label="Write Scholarly Paper (computer_Career_Education_WritePaper)" Value="219893" />
+  <Preset Label="Write Grants (computer_Career_Education_WriteGrants)" Value="219894" />
+  <Preset Label="Plan Agenda for Faculty Meeting (computer_Career_Education_PlanAgenda)" Value="219895" />
+  <Preset Label="Review Budget Proposals (computer_Career_Education_ReviewBudget)" Value="219896" />
+  <Preset Label="Teach about Fitness (mixer_Social_Education_Teach_Fitness)" Tags="TestUnsafe" Value="219904" />
+  <Preset Label="Ask for Donation to University (mixer_Social_Education_AskDonation)" Tags="TestUnsafe" Value="219905" />
+  <Preset Label="Ask to Volunteer Time (mixer_Social_Education_AskVolunteer)" Tags="TestUnsafe" Value="219906" />
+  <Preset Label="Teach about Handiness (mixer_Social_Education_Teach_Handiness)" Tags="TestUnsafe" Value="219920" />
+  <Preset Label="Teach about Research &amp; Debate (mixer_Social_Education_Teach_Research)" Tags="TestUnsafe" Value="219922" />
+  <Preset Label="Teach about Writing (mixer_Social_Education_Teach_Writing)" Tags="TestUnsafe" Value="219933" />
+  <Preset Label="Teach about Programming (mixer_Social_Education_Teach_Programming)" Tags="TestUnsafe" Value="219934" />
+  <Preset Label="Teach about Robotics (mixer_Social_Education_Teach_Robotics)" Tags="TestUnsafe" Value="219935" />
+  <Preset Label="Teach about Rocket Science (mixer_Social_Education_Teach_RocketScience)" Tags="TestUnsafe" Value="219936" />
+  <Preset Label="Teach about Videogaming (mixer_Social_Education_Teach_Videogaming)" Tags="TestUnsafe" Value="219937" />
+  <Preset Label="Teach about Acting (mixer_Social_Education_Teach_Acting)" Tags="TestUnsafe" Value="219938" />
+  <Preset Label="Teach about Charisma (mixer_Social_Education_Teach_Charisma)" Tags="TestUnsafe" Value="219939" />
+  <Preset Label="Teach about Comedy (mixer_Social_Education_Teach_Comedy)" Tags="TestUnsafe" Value="219940" />
+  <Preset Label="Teach about Painting (mixer_Social_Education_Teach_Painting)" Tags="TestUnsafe" Value="219941" />
+  <Preset Label="Teach about Cooking (mixer_Social_Education_Teach_Cooking)" Tags="TestUnsafe" Value="219942" />
+  <Preset Label="Teach about Gardening (mixer_Social_Education_Teach_Gardening)" Tags="TestUnsafe" Value="219943" />
+  <Preset Label="Teach about Logic (mixer_Social_Education_Teach_Logic)" Tags="TestUnsafe" Value="219944" />
+  <Preset Label="Teach about Photography (mixer_Social_Education_Teach_Photography)" Tags="TestUnsafe" Value="219946" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level1)" Value="219966" />
+  <Preset Label="Tutor Student Online about Arts (computer_Career_Education_Tutor_Arts)" Value="219968" />
+  <Preset Label="Tutor Student Online about Technology (computer_Career_Education_Tutor_Technology)" Value="219969" />
+  <Preset Label="Tutor Student Online about Health (computer_Career_Education_Tutor_Health)" Value="219970" />
+  <Preset Label="Tutor Student Online about Communication (computer_Career_Education_Tutor_Communications)" Value="219971" />
+  <Preset Label="Tutor Student Online about Entertainment (computer_Career_Education_Tutor_Entertainment)" Value="219972" />
+  <Preset Label="food_Eat_Active_Spicy_Prank" Value="220044" />
+  <Preset Label="Listen to Blues (stereo_listen_blues_HumanoidRobot)" Value="220096" />
+  <Preset Label="Listen to Classical (stereo_listen_classical_HumanoidRobot)" Value="220097" />
+  <Preset Label="Listen to Electronica (stereo_listen_electro_HumanoidRobot)" Value="220151" />
+  <Preset Label="Listen to Kids Radio (stereo_listen_kidsRadio_HumanoidRobot)" Value="220152" />
+  <Preset Label="Listen to Lullabies (stereo_listen_Lullabies_HumanoidRobot)" Value="220153" />
+  <Preset Label="Listen to Pop (stereo_listen_pop_HumanoidRobot)" Value="220154" />
+  <Preset Label="Listen to Retro (stereo_listen_retro_HumanoidRobot)" Value="220155" />
+  <Preset Label="Listen to Romantic Music (stereo_listen_romance_HumanoidRobot)" Value="220156" />
+  <Preset Label="Listen to Spooky (stereo_listen_spooky_HumanoidRobot)" Value="220157" />
+  <Preset Label="Listen to Winter Holiday (stereo_listen_WinterHoliday_HumanoidRobot)" Value="220158" />
+  <Preset Label="Change Station (stereo_PickChannel_HumanoidRobot)" Value="220191" />
+  <Preset Label="Listen To (stereo_TurnOnAndListen_HumanoidRobot)" Value="220193" />
+  <Preset Label="Scholarships (universityKiosk_GetUniversityInfo_Scholarships)" Value="220320" />
+  <Preset Label="Terms (universityKiosk_GetUniversityInfo_Term)" Value="220321" />
+  <Preset Label="Class Grades (universityKiosk_GetUniversityInfo_Grades)" Value="220322" />
+  <Preset Label="Set Label (rename_Storage_Chest_Dorm)" Value="220326" />
+  <Preset Label="Stop That! (roommateNPC_Socials_Stop)" Value="220361" />
+  <Preset Label="Complain about Problems (roommateNPC_Socials_ComplainAbout)" Value="220365" />
+  <Preset Label="Thanks! (roommateNPC_Socials_ThankFor)" Value="220366" />
+  <Preset Label="Break Up Party (roommateNPC_Socials_BreakUpParty)" Value="220367" />
+  <Preset Label="Catastrophic Meltdown (death_Solo_HumanoidRobot)" Value="220401" />
+  <Preset Label="roommateNPC_SS3_WatchTV" Value="220430" />
+  <Preset Label="Attend Guest Lecture (university_ClassroomShell_GuestLectures_A)" Value="220431" />
+  <Preset Label="Laptop (roommateNPC_SS3_UseComputer)" Value="220432" />
+  <Preset Label="roommateNPC_SS3_Sit" Value="220433" />
+  <Preset Label="Sleep (roommateNPC_SS3_Sleep)" Value="220435" />
+  <Preset Label="autonomous_ObjectPicker_RoommateNPC_SS3_TV" Tags="TestUnsafe" Value="220440" />
+  <Preset Label="autonomous_ObjectPicker_RoommateNPC_SS3_Bed" Tags="TestUnsafe" Value="220441" />
+  <Preset Label="autonomous_ObjectPicker_RoommateNPC_SS3_Computer" Tags="TestUnsafe" Value="220442" />
+  <Preset Label="autonomous_ObjectPicker_RoommateNPC_SS3_Couch" Tags="TestUnsafe" Value="220443" />
+  <Preset Label="si_JuiceKeg_Create" Value="220448" />
+  <Preset Label="Place Advertisement for Roommates (computer_RoommateNPC_AdvertiseForRoommates)" Value="220451" />
+  <Preset Label="Attend Guest Lecture (si_University_ClassroomShell_GuestLectures)" Value="220457" />
+  <Preset Label="Place Advertisement For Roommates (phone_RoommateNPC_AdvertiseForRoommates)" Value="220466" />
+  <Preset Label="Attend Guest Lecture With (simPicker_University_ClassroomShell_GuestLecturesWith_A)" Tags="TestUnsafe" Value="220500" />
+  <Preset Label="si_JuiceKeg_Destroy" Value="220510" />
+  <Preset Label="roommateNPC_StopAndMove" Value="220518" />
+  <Preset Label="Accept as New Roommate (roommateNPC_Socials_AcceptAsRoommate)" Value="220598" />
+  <Preset Label="Kick Out Roommate (roommateNPC_Socials_KickoutRoommate)" Value="220602" />
+  <Preset Label="Ask to be New Roommate (roommateNPC_Socials_AskToBeRoommate)" Value="220642" />
+  <Preset Label="Resume {0.String} (craftingResume_Robotics)" Value="220652" />
+  <Preset Label="mural_mixer_EP08_Floor_ScootC" Value="220712" />
+  <Preset Label="mural_mixer_EP08_Floor_ScootL" Value="220713" />
+  <Preset Label="mural_mixer_EP08_Floor_ScootR" Value="220714" />
+  <Preset Label="mural_mixer_EP08_Floor_Fail" Value="220715" />
+  <Preset Label="mural_mixer_EP08_Floor_Fail_Primer" Value="220716" />
+  <Preset Label="mural_mixer_EP08_Floor_PaintActive" Value="220717" />
+  <Preset Label="mural_mixer_EP08_Floor_PaintActive_Primer" Value="220718" />
+  <Preset Label="mural_mixer_EP08_Floor_PaintPassive" Value="220719" />
+  <Preset Label="Paint Mural (mural_EP08_Floor_StartPaint_Arts1)" Value="220723" />
+  <Preset Label="Paint Mural (mural_EP08_Floor_Paint_Staging)" Value="220724" />
+  <Preset Label="Kick Soccer Ball with {1.SimFirstName} (touching_SoccerBall_Play)" Value="220725" />
+  <Preset Label="Continue Mural (mural_EP08_Floor_ResumePaint)" Value="220756" />
+  <Preset Label="soccerBallMixers_Juggle_Y" Tags="TestUnsafe" Value="220759" />
+  <Preset Label="soccerBallMixers_Juggle_X" Tags="TestUnsafe" Value="220760" />
+  <Preset Label="Paint (mural_EP08_Floor_Scoot_L)" Value="220769" />
+  <Preset Label="Paint (mural_EP08_Floor_Scoot_R)" Value="220770" />
+  <Preset Label="Paint (mural_EP08_Floor_Scoot_C)" Value="220771" />
+  <Preset Label="Kick Soccer Ball with {1.SimFirstName} (touching_SoccerBall_Play_Listen)" Value="220776" />
+  <Preset Label="roboticsTable_CreateObject_InSimInventory" Value="220791" />
+  <Preset Label="Call for Repair (humanoid_Robots_Immediate_CallForRepair)" Value="220835" />
+  <Preset Label="Practice Welding Techniques (robotics_Table_Step_Soldering)" Value="220912" />
+  <Preset Label="Teach about Acting (education_Socials_Teach_Acting)" Value="220919" />
+  <Preset Label="Teach about Charisma (education_Socials_Teach_Charisma)" Value="220920" />
+  <Preset Label="Teach about Comedy (education_Socials_Teach_Comedy)" Value="220921" />
+  <Preset Label="Teach about Cooking (education_Socials_Teach_Cooking)" Value="220922" />
+  <Preset Label="Teach about Fitness (education_Socials_Teach_Fitness)" Value="220923" />
+  <Preset Label="Teach about Gardening (education_Socials_Teach_Gardening)" Value="220925" />
+  <Preset Label="Teach about Handiness (education_Socials_Teach_Handiness)" Value="220926" />
+  <Preset Label="Teach about Logic (education_Socials_Teach_Logic)" Value="220928" />
+  <Preset Label="Teach about Painting (education_Socials_Teach_Painting)" Value="220929" />
+  <Preset Label="Teach about Photography (education_Socials_Teach_Photography)" Value="220931" />
+  <Preset Label="Teach about Programming (education_Socials_Teach_Programming)" Value="220933" />
+  <Preset Label="Teach about Research &amp; Debate (education_Socials_Teach_Research)" Value="220934" />
+  <Preset Label="Teach about Robotics (education_Socials_Teach_Robotics)" Value="220935" />
+  <Preset Label="Teach about Rocket Science (education_Socials_Teach_RocketScience)" Value="220936" />
+  <Preset Label="Teach about Videogaming (education_Socials_Teach_Videogames)" Value="220937" />
+  <Preset Label="Teach about Writing (education_Socials_Teach_Writing)" Value="220938" />
+  <Preset Label="Practice Lecture (education_Socials_PracticeLecture)" Value="220939" />
+  <Preset Label="Paint Mural (mural_EP08_Floor_StartPaint_Arts2)" Value="220946" />
+  <Preset Label="Listen to Lesson (education_Socials_Listen)" Value="220949" />
+  <Preset Label="Going to Soccer Practice (aggregateSuperInteraction_Carrer_SoccerTeam)" Value="220952" />
+  <Preset Label="Going to Soccer Practice (volunteerCareerSuperInteraction_SoccerTeam_Practice)" Value="220954" />
+  <Preset Label="Go to Soccer Game (volunteerCareerSuperInteraction_SoccerTeam_Game)" Value="220955" />
+  <Preset Label="View (mural_EP08_Floor_View)" Value="220957" />
+  <Preset Label="Trash (roommateNPC_RandomMess)" Value="220989" />
+  <Preset Label="University_ClassroomShell_GuestLecturesWith_Prep" Value="221130" />
+  <Preset Label="University_ClassroomShell_GuestLecturesWith_Done" Value="221135" />
+  <Preset Label="Attend Guest Lecture (si_University_ClassroomShell_GuestLecturesWith)" Value="221142" />
+  <Preset Label="Conduct Product Survey (socials_Targeted_Friendly_Engineer_ConductProductSurvey)" Tags="TestUnsafe" Value="221145" />
+  <Preset Label="Study Soccer Strategies (computer_Browse_SoccerTeam_StudyStrategy)" Value="221146" />
+  <Preset Label="Recruit Product Tester (socials_Targeted_Friendly_Engineer_RecruitProductTester)" Tags="TestUnsafe" Value="221162" />
+  <Preset Label="Collect Qualitative Feedback (socials_Targeted_Friendly_Engineer_CollectQualitativeFeedback)" Tags="TestUnsafe" Value="221168" />
+  <Preset Label="Attend Guest Lecture (university_ClassroomShell_GuestLectures_B)" Value="221174" />
+  <Preset Label="Practice Lecture (career_Education_PracticeLecture)" Value="221183" />
+  <Preset Label="Write Product Report (computer_Career_Engineer_WriteProductReport)" Value="221187" />
+  <Preset Label="Review Diagnostics (computer_Career_Engineer_ReviewDiagnostics)" Value="221189" />
+  <Preset Label="Optimize Equipment Design (computer_Career_Engineer_OptimizeEquipmentDesign)" Value="221192" />
+  <Preset Label="Design New Computer Hardware (computer_Career_Engineer_DesignNewComputerHardware)" Value="221193" />
+  <Preset Label="Review Product Specifications (computer_Career_Engineer_ReviewProductSpecifications)" Value="221194" />
+  <Preset Label="podiumPair_Mixers_Watch_Cheer" Value="221207" />
+  <Preset Label="podiumPair_Mixers_Watch_Idle" Value="221209" />
+  <Preset Label="podiumPair_Mixers_Watch_Disagree" Value="221210" />
+  <Preset Label="Discuss Soccer Strategies (mixer_Social_DiscussStrategy_Targeted_Friendly_AlwaysOn_SoccerTeam)" Tags="TestUnsafe" Value="221211" />
+  <Preset Label="Attend Guest Lecture With (simPicker_University_ClassroomShell_GuestLecturesWith_B)" Tags="TestUnsafe" Value="221213" />
+  <Preset Label="Attend Guest Lecture With (simPicker_University_ClassroomShell_GuestLecturesWith_C)" Tags="TestUnsafe" Value="221214" />
+  <Preset Label="Scrap Craft (roboticsTable_Scrap_InProgress_Craftable)" Value="221226" />
+  <Preset Label="Practice Welding Techniques (robotics_Table_Step_Hammer_Succeed)" Value="221242" />
+  <Preset Label="Practice Welding Techniques (robotics_Table_Step_Hammer_Fail)" Value="221243" />
+  <Preset Label="Practice Welding Techniques (robotics_Table_Step_Paint)" Value="221244" />
+  <Preset Label="Practice Welding Techniques (robotics_Table_Step_Passive)" Value="221245" />
+  <Preset Label="Practice Welding Techniques (robotics_Table_Step_Repair)" Value="221246" />
+  <Preset Label="Practice Welding Techniques (robotics_Table_Step_Torch_Succeed)" Value="221247" />
+  <Preset Label="Attend Guest Lecture (university_ClassroomShell_GuestLectures_C)" Value="221262" />
+  <Preset Label="generic_PodiumPair_Debate" Value="221263" />
+  <Preset Label="Craft Experimental Motivators (roboticsTable_CraftingPicker_BehaviorBombs)" Value="221264" />
+  <Preset Label="Craft Chatter Bot (roboticsTable_CraftingPicker_ToyRobot)" Value="221265" />
+  <Preset Label="Toggle Behavior Modules (picker_HumanoidRobot_BehaviorModule_Add_Limited_2)" Tags="TestUnsafe" Value="221273" />
+  <Preset Label="Toggle Behavior Modules (picker_HumanoidRobot_BehaviorModule_Add_Limited_3)" Tags="TestUnsafe" Value="221274" />
+  <Preset Label="Tutor (si_University_ClassroomShell_Tutor)" Value="221276" />
+  <Preset Label="Hold (RoommateNPC_CarryFoodHome)" Value="221354" />
+  <Preset Label="Sit in on Skill Class (si_University_ClassroomShell_SkillClass)" Value="221362" />
+  <Preset Label="Destroy All (si_RoboticsTable_CraftingIngredients_DestroyAll_Mechanism)" Value="221367" />
+  <Preset Label="Destroy (si_RoboticsTable_CraftingIngredients_DestroySingle)" Value="221369" />
+  <Preset Label="Repair (roommateNPC_RandomFix)" Value="221371" />
+  <Preset Label="Destroy All (sI_RoboticsTable_CraftingIngredients_DestroyAll_ComputerChip)" Value="221373" />
+  <Preset Label="Join Art Society (debug_Organizations_Join_ArtSociety)" Value="221386" />
+  <Preset Label="Join Debate Organization (debug_Organizations_Join_Debate)" Value="221387" />
+  <Preset Label="Join Foxbury Spirit Squad (debug_Organizations_Join_Party)" Value="221388" />
+  <Preset Label="Join School Britechester Spirit Squad (debug_Organizations_Join_Prank)" Value="221389" />
+  <Preset Label="Join Robotics Club (debug_Organizations_Join_Robotics)" Value="221390" />
+  <Preset Label="Join Honor Society (debug_Organizations_Join_HonorSociety)" Value="221391" />
+  <Preset Label="Join Secret Society (debug_Organizations_Join_SecretSociety)" Value="221392" />
+  <Preset Label="Leave Art Society (debug_Organizations_Leave_ArtSociety)" Value="221393" />
+  <Preset Label="Leave Debate Squad (debug_Organizations_Leave_Debate)" Value="221394" />
+  <Preset Label="Leave Honor Society (debug_Organizations_Leave_HonorSociety)" Value="221395" />
+  <Preset Label="Leave Foxbury Spirit Squad (debug_Organizations_Leave_Party)" Value="221396" />
+  <Preset Label="Leave Britechester Spirit Squad (debug_Organizations_Leave_Prank)" Value="221397" />
+  <Preset Label="Leave Robotics Club (debug_Organizations_Leave_Robotics)" Value="221398" />
+  <Preset Label="Leave Secret Society (debug_Organizations_Leave_SecretSociety)" Value="221399" />
+  <Preset Label="Make Offering to Sprites (collegeOrganization_SecretSociety_StoneAltar_MakeOffering_NPC)" Value="221555" />
+  <Preset Label="Love Sprites (collegeOrganization_SecretSociety_Solo_SummonSprite_Flirty)" Value="221559" />
+  <Preset Label="roommateNPC_Watch_TakeNotes" Value="221562" />
+  <Preset Label="roommateNPC_Watch_Crazy" Value="221563" />
+  <Preset Label="roommateNPC_Watch_Flirt" Value="221564" />
+  <Preset Label="Ask to Join Art Society (mixer_CollegeOrganizations_AskToJoinOrQuit_Art)" Tags="TestUnsafe" Value="221581" />
+  <Preset Label="Ask to Join Debate Guild (mixer_CollegeOrganizations_AskToJoinOrQuit_Debate)" Tags="TestUnsafe" Value="221582" />
+  <Preset Label="Ask to Join The Brainiacs (mixer_CollegeOrganizations_AskToJoinOrQuit_Honor)" Tags="TestUnsafe" Value="221583" />
+  <Preset Label="Ask to Join Britechester Spirit Corps (mixer_CollegeOrganizations_AskToJoinOrQuit_Prank)" Tags="TestUnsafe" Value="221584" />
+  <Preset Label="Ask to Join Bot Savants (mixer_CollegeOrganizations_AskToJoinOrQuit_Robotics)" Tags="TestUnsafe" Value="221586" />
+  <Preset Label="Discuss Favorite Art Pieces (mixer_social_DiscussFavoriteArtPieces_targeted_Friendly_alwaysOn_STC)" Tags="TestUnsafe" Value="221627" />
+  <Preset Label="roboticsTable_CreateinProgress_DeactivatedHumanoidRobot" Value="221693" />
+  <Preset Label="roboticsTable_CreateCompletedObject_DeactivatedHumanoidRobot" Value="221694" />
+  <Preset Label="roboticsTable_CraftingPhase_HumanoidRobot" Value="221698" />
+  <Preset Label="Craft Servo (roboticsTable_CraftingPicker_HumanoidRobot)" Value="221699" />
+  <Preset Label="Scrap Servo (roboticsTable_Scrap_InProgress_HumanoidRobot)" Value="221701" />
+  <Preset Label="roboticsTable_HumanoidRobot_Crafting_Complete" Value="221712" />
+  <Preset Label="Sell Deactivated Servo (roboticsTable_HumanoidRobot_SellDeactivated)" Value="221728" />
+  <Preset Label="In an Argument (roommateNPC_Socials_Events_Argument)" Value="221733" />
+  <Preset Label="Whispers (roommateNPC_Socials_Events_Whispers)" Value="221734" />
+  <Preset Label="Getting Hyped (roommateNPC_Socials_Events_GetHype)" Value="221735" />
+  <Preset Label="Wooing (roommateNPC_Socials_Events_Wooing)" Value="221736" />
+  <Preset Label="Locked Out (roommateNPC_LockedOut)" Value="221753" />
+  <Preset Label="Activate {1.ObjectName} (bots_Launch_Activate)" Value="221759" />
+  <Preset Label="De-Activate Utili-Bot (bots_Land_Deactivate)" Value="221760" />
+  <Preset Label="Dramatic Poetry Reading (microphone_StudentCommons_Arts_Poetry_ReadPoetry)" Value="221770" />
+  <Preset Label="Practice Welding Techniques (roboticsTable_EngineeringCareer_PracticeWelding)" Value="221806" />
+  <Preset Label="Dabble With Circuit Boards (roboticsTable_EngineeringCareer_DabbleWithCircuitBoard)" Value="221807" />
+  <Preset Label="Test Experimental Components (roboticsTable_EngineeringCareer_TestExperimentalComponents)" Value="221808" />
+  <Preset Label="Investigate Equipment Failures (roboticsTable_EngineeringCareer_InvestigateEquipmentFailures)" Value="221809" />
+  <Preset Label="reaction_StudentCommons_Arts_Poetry_Cheer" Value="221827" />
+  <Preset Label="reaction_StudentCommons_Arts_Poetry_Heckle" Value="221828" />
+  <Preset Label="Sit in on Skill Class (phone_University_ClassroomShell_SkillClass)" Value="221850" />
+  <Preset Label="humanoid_Robots_Creation_ChangeAspiration_Step3" Value="221855" />
+  <Preset Label="Place Tea Serving (si_StudentCommons_Arts_Poetry_CreateTeaServing)" Value="221859" />
+  <Preset Label="Be Greeted (humanoid_Robots_Creation_StepOut&amp;Greet_Step4)" Value="221902" />
+  <Preset Label="autonomousSimPicker_HumanoidRobots_FindCreator" Tags="TestUnsafe" Value="221903" />
+  <Preset Label="Praise Poetry (socials_Targeted_Friendly_StudentCommons_Arts_Poetry_Praise)" Tags="TestUnsafe" Value="221918" />
+  <Preset Label="Debate Motifs and Symbolism (socials_Targeted_Friendly_StudentCommons_Arts_Poetry_DebateMotifs)" Tags="TestUnsafe" Value="221919" />
+  <Preset Label="Ridicule Poetry (socials_Targeted_Mean_StudentCommons_Arts_Poetry_RidiculePoetry)" Tags="TestUnsafe" Value="221927" />
+  <Preset Label="Turn Off (stereo_turnoff_HumanoidRobot_Party)" Value="221963" />
+  <Preset Label="roboticsTable_CreateCompletedObject_GenericCraftable" Value="222034" />
+  <Preset Label="Watch (computer_StudentCommons_Science_ESports_Watch)" Value="222035" />
+  <Preset Label="Put {1.ObjectName} on WorkStation (roboticsTable_Interactions_Continuation_PlaceBot)" Value="222041" />
+  <Preset Label="{2.String} (university_ClassroomShell_VisitOfficeHours_A)" Value="222073" />
+  <Preset Label="{2.String} (university_ClassroomShell_VisitOfficeHours_B)" Value="222074" />
+  <Preset Label="{2.String} (university_ClassroomShell_VisitOfficeHours_C)" Value="222075" />
+  <Preset Label="{2.String} (university_ClassroomShell_VisitOfficeHours_D)" Value="222076" />
+  <Preset Label="Tinker at Robotics Workstation (roboticsTable_EngineeringCareer_Tinker)" Value="222082" />
+  <Preset Label="roboticsTable_Mixers_Soldering" Value="222084" />
+  <Preset Label="roboticsTable_Mixers_Torch" Value="222085" />
+  <Preset Label="roboticsTable_Mixers_Passive" Value="222086" />
+  <Preset Label="roboticsTable_Mixers_Hammer_Succeed" Value="222088" />
+  <Preset Label="roboticsTable_Mixers_Hammer_Fail" Value="222089" />
+  <Preset Label="Visit Office Hours (si_University_VisitOfficeHours_B)" Value="222090" />
+  <Preset Label="Visit Office Hours (si_University_VisitOfficeHours_C)" Value="222091" />
+  <Preset Label="Visit Office Hours (si_University_VisitOfficeHours_D)" Value="222092" />
+  <Preset Label="Put {1.ObjectName} on WorkStation (roboticsTable_Interactions_FromInventory_Bots_WorkOn)" Value="222100" />
+  <Preset Label="Put {1.ObjectName} on WorkStation (roboticsTable_Interactions_FromWorld_Bots_WorkOn)" Value="222132" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_1_to_2)" Value="222133" />
+  <Preset Label="Equip Robo-Arm (roboticsArm_Interactions_Equip)" Value="222149" />
+  <Preset Label="Remove Robo-Arm (roboticsArm_Interactions_Remove)" Value="222150" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_RoboticArm)" Value="222152" />
+  <Preset Label="Spawn Crafting Supplies (roboticsTable_Cheats_GiveCraftingSupplies)" Value="222160" />
+  <Preset Label="Destroy Crafting Materials (roboticsTable_Cheats_DestroyCraftingSupplies)" Value="222168" />
+  <Preset Label="{2.String} (university_ClassroomShell_VisitOfficeHours_Self_A)" Value="222170" />
+  <Preset Label="{2.String} (university_ClassroomShell_VisitOfficeHours_Self_B)" Value="222171" />
+  <Preset Label="{2.String} (university_ClassroomShell_VisitOfficeHours_Self_C)" Value="222172" />
+  <Preset Label="{2.String} (university_ClassroomShell_VisitOfficeHours_Self_D)" Value="222173" />
+  <Preset Label="Apply to Universities (mailbox_UniversityEnrollment_Apply)" Value="222243" />
+  <Preset Label="Enroll in a University (mailbox_UniversityEnrollment_Enroll)" Value="222244" />
+  <Preset Label="reactions_UniversityEnrollment_Acceptance_Low" Value="222250" />
+  <Preset Label="reactions_UniversityEnrollment_Acceptance_Medium" Value="222251" />
+  <Preset Label="reactions_UniversityEnrollment_Acceptance_High" Value="222252" />
+  <Preset Label="reaction_UniversityEnrollment_AcceptanceAggregate" Value="222255" />
+  <Preset Label="Grab a Drink (ESports_CreatePowersip)" Value="222267" />
+  <Preset Label="Make Offering to Sprites (collegeOrganization_SecretSociety_StoneAltar_PlaceOffering_Crystal)" Value="222283" />
+  <Preset Label="Make Offering to Sprites (collegeOrganization_SecretSociety_StoneAltar_PlaceOffering_Harvestable)" Value="222284" />
+  <Preset Label="Make Offering to Sprites (collegeOrganization_SecretSociety_StoneAltar_PlaceOffering_Metal)" Value="222285" />
+  <Preset Label="Make Offering to Sprites (collegeOrganization_SecretSociety_StoneAltar_PlaceOffering_Food)" Value="222286" />
+  <Preset Label="Write Term Paper for {2.String} (computer_University_TermPaper_Write_CourseA)" Value="222308" />
+  <Preset Label="Write Term Paper for {2.String} (computer_University_TermPaper_Write_CourseB)" Value="222309" />
+  <Preset Label="Write Term Paper for {2.String} (computer_University_TermPaper_Write_CourseC)" Value="222310" />
+  <Preset Label="Write Term Paper for {2.String} (computer_University_TermPaper_Write_CourseD)" Value="222311" />
+  <Preset Label="si_JuiceKeg_ConstrainForCreate" Value="222313" />
+  <Preset Label="Boost Admission Chances (phone_UniversityEnrollment_Donate)" Value="222321" />
+  <Preset Label="Boost Admission Chances (phone_UniversityEnrollment_FlauntFame)" Value="222322" />
+  <Preset Label="Boost Admission Chances (phone_UniversityEnrollment_Connections)" Value="222323" />
+  <Preset Label="Exploit Alumni Connection to Boost Chances for (simPicker_UniversityEnrollment_Influence_Phone_Connections)" Tags="TestUnsafe" Value="222333" />
+  <Preset Label="Give University &quot;Donation&quot; to Boost Chances for (simPicker_UniversityEnrollment_Influence_Phone_Donate)" Tags="TestUnsafe" Value="222334" />
+  <Preset Label="Flaunt Fame to Boost Admission Chances for (simPicker_UniversityEnrollment_Influence_Phone_FlauntFame)" Tags="TestUnsafe" Value="222335" />
+  <Preset Label="Drink (consumable_Drink_Nonbar_Powersip)" Value="222340" />
+  <Preset Label="Yell At (mixer_social_YellAT_targeted_mean_StudentCommons_GrumpyProfessor)" Tags="TestUnsafe" Value="222377" />
+  <Preset Label="Put Out Snacks (solo_UniversityHousing_KegParty_SummonSnacks)" Value="222498" />
+  <Preset Label="Drop Out of University (phone_UniversityEnrollment_Dropout)" Value="222575" />
+  <Preset Label="Withdraw from Term (phone_UniversityEnrollment_Withdraw)" Value="222580" />
+  <Preset Label="Collect (humanoid_Robots_ScrapPile_Collect)" Value="222685" />
+  <Preset Label="Craft RC Quadcopter (roboticsTable_CraftingPicker_QuadCopter)" Value="222709" />
+  <Preset Label="Activate Servo (social_HumanoidRobot_Activate)" Value="222755" />
+  <Preset Label="Dismantle {1.ObjectName} (roboticsTable_Interactions_Dismantle)" Value="222773" />
+  <Preset Label="Scan for Mood (social_HumanoidRobot_ScanForMood)" Value="222817" />
+  <Preset Label="Scan for Traits (social_HumanoidRobot_ScanForTraits)" Value="222819" />
+  <Preset Label="Wait (collegeOrganization_SecretSociety_Social_JoinVisit_Greet)" Value="222838" />
+  <Preset Label="attractorPointInteraction_UniversityWorld_Constrain" Value="222907" />
+  <Preset Label="attractorPointInteraction_UniversityWorld_TakePhoto" Value="222908" />
+  <Preset Label="attractorPointInteraction_UniversityWorld_PlayGuitar" Value="222909" />
+  <Preset Label="Chat with {1.ObjectName} (humanoid_Robots_TalkToObjects)" Value="222922" />
+  <Preset Label="Flirt with {1.ObjectName} (humanoid_Robots_FlirtWithObjects)" Value="222923" />
+  <Preset Label="universityKiosk_GetUniversityInfo_OpenStreetStudent" Value="222934" />
+  <Preset Label="attractorPoint_Interaction_ConstrainToAttractor" Value="222936" />
+  <Preset Label="Unlock (collegeOrganization_SecretSociety_JoinVisit_UnlockDoor)" Value="222938" />
+  <Preset Label="Careers (debug_collegeOrganization_SecretSociety_StoneAltar_JoinVisit)" Value="222959" />
+  <Preset Label="Submit Term Paper for {2.String} (computer_University_TermPaper_Submit_CourseB)" Value="223068" />
+  <Preset Label="Submit Term Paper for {2.String} (computer_University_TermPaper_Submit_CourseA)" Value="223069" />
+  <Preset Label="Submit Term Paper for {2.String} (computer_University_TermPaper_Submit_CourseC)" Value="223070" />
+  <Preset Label="Submit Term Paper for {2.String} (computer_University_TermPaper_Submit_CourseD)" Value="223071" />
+  <Preset Label="Submit Plagiarized Term Paper for {2.String} (computer_University_TermPaper_Cheat_CourseA)" Value="223101" />
+  <Preset Label="Submit Plagiarized Term Paper for {2.String} (computer_University_TermPaper_Cheat_CourseB)" Value="223102" />
+  <Preset Label="Submit Plagiarized Term Paper for {2.String} (computer_University_TermPaper_Cheat_CourseC)" Value="223103" />
+  <Preset Label="Submit Plagiarized Term Paper for {2.String} (computer_University_TermPaper_Cheat_CourseD)" Value="223104" />
+  <Preset Label="Turn On Party Mode (bots_Party_PartyMode_On)" Value="223183" />
+  <Preset Label="Turn Off Party Mode (bots_Party_PartyMode_Off)" Value="223184" />
+  <Preset Label="Clean (researchDebate_Convince_Clean)" Value="223189" />
+  <Preset Label="In an Argument (social_Interactions_RoommateNPC_Events_Argument)" Tags="TestUnsafe" Value="223196" />
+  <Preset Label="roommateNPC_GoHome" Value="223197" />
+  <Preset Label="Wake Up (collegeOrganization_SecretSociety_JoinVisit_WakeUp)" Value="223204" />
+  <Preset Label="Encourage to Paint Murals (mixer_social_CollegeOrganizations_SchoolSpirit_Prank_AskToPaint)" Tags="TestUnsafe" Value="223220" />
+  <Preset Label="Getting Hyped (social_Interactions_RoommateNPC_Events_GetHype)" Tags="TestUnsafe" Value="223265" />
+  <Preset Label="Getting Hyped (reactions_Generic_GetHypedCheer_RoommateNPC)" Value="223267" />
+  <Preset Label="Loud Noises (reaction_LoudNoises_RoommateNPC)" Value="223269" />
+  <Preset Label="Whispers (social_Interactions_RoommateNPC_Events_Whispers)" Tags="TestUnsafe" Value="223283" />
+  <Preset Label="roommateNPC_LockedOut_Distress" Value="223284" />
+  <Preset Label="Go to Work (si_Career_Law)" Value="223303" />
+  <Preset Label="Help Out (roommateNPC_Socials_LockedOutHelp)" Value="223323" />
+  <Preset Label="Complain About Mess (roommateNPC_Socials_ComplainAbout_Mess)" Value="223327" />
+  <Preset Label="Complain About Notes (roommateNPC_Socials_ComplainAbout_Notes)" Value="223328" />
+  <Preset Label="Complain About Public Affection (roommateNPC_Socials_ComplainAbout_PDA)" Value="223329" />
+  <Preset Label="Thank For Cleaning (roommateNPC_Socials_ThankFor_Cleaning)" Value="223330" />
+  <Preset Label="Thank for Compliment (roommateNPC_Socials_ThankFor_Compliments)" Value="223331" />
+  <Preset Label="Thank for Fixing Things (roommateNPC_Socials_ThankFor_Fixing)" Value="223332" />
+  <Preset Label="Thank for Food (roommateNPC_Socials_ThankFor_Food)" Value="223333" />
+  <Preset Label="Ask About Rent (roommateNPC_Socials_AskAboutRent)" Value="223344" />
+  <Preset Label="Ask to Stay (roommateNPC_Socials_AskToStay)" Value="223346" />
+  <Preset Label="Demand Rent (roommateNPC_Socials_DemandRent)" Value="223352" />
+  <Preset Label="University of Britechester Sweatshirt (universityKiosk_BuyAndWearCAS_Top_AH)" Value="223368" />
+  <Preset Label="University of Britechester Sweatpants (universityKiosk_BuyAndWearCAS_Bottom_AH)" Value="223369" />
+  <Preset Label="Foxbury Institute Sweatpants (universityKiosk_BuyAndWearCAS_Bottom_ST)" Value="223374" />
+  <Preset Label="Foxbury Institute Sweatshirt (universityKiosk_BuyAndWearCAS_Top_ST)" Value="223387" />
+  <Preset Label="Party-Bot (roboticsTable_CraftingPicker_Bots_Party)" Value="223404" />
+  <Preset Label="Gardener-Bot (roboticsTable_CraftingPicker_Bots_Gardening)" Value="223405" />
+  <Preset Label="Fixer-Bot (roboticsTable_CraftingPicker_Bots_Repair)" Value="223406" />
+  <Preset Label="Wooing (roommateNPC_Socials_Events_Wooing_Serenade)" Value="223407" />
+  <Preset Label="Wooing (social_Interactions_RoommateNPC_Events_Wooing)" Tags="TestUnsafe" Value="223411" />
+  <Preset Label="Serenade (guitar_Social_Serenade_RoommateNPC)" Value="223415" />
+  <Preset Label="Critique Painting (art_ViewTested_PaintinInThePark_Critique)" Value="223437" />
+  <Preset Label="Discuss Painting Style (mixer_social_DiscussPaintingStyle_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="223452" />
+  <Preset Label="Craft Robo-Arm (roboticsTable_CraftingPicker_RoboticArm)" Value="223462" />
+  <Preset Label="Ask to Be Boyfriend (mixer_social_AskToBeBoyfriend_targeted_romance_relationship_RoommateNPC)" Tags="TestUnsafe" Value="223464" />
+  <Preset Label="Ask to Be Girlfriend (mixer_social_AskToBeGirlfriend_targeted_romance_relationship_RoommateNPC)" Tags="TestUnsafe" Value="223467" />
+  <Preset Label="University of Britechester Hat (universityKiosk_BuyAndWearCAS_Hat_AH)" Value="223468" />
+  <Preset Label="Foxbury Institute Hat (universityKiosk_BuyAndWearCAS_Hat_ST)" Value="223470" />
+  <Preset Label="University of Britechester Sweatpants (universityKiosk_BuyCAS_Bottom_AH)" Value="223481" />
+  <Preset Label="Foxbury Institute Sweatpants (universityKiosk_BuyCAS_Bottom_ST)" Value="223482" />
+  <Preset Label="University of Britechester Sweatshirt (universityKiosk_BuyCAS_Top_AH)" Value="223483" />
+  <Preset Label="Foxbury Institute Sweatshirt (universityKiosk_BuyCAS_Top_ST)" Value="223484" />
+  <Preset Label="University of Britechester Hat (universityKiosk_BuyCAS_Hat_AH)" Value="223485" />
+  <Preset Label="Foxbury Institute Hat (universityKiosk_BuyCAS_Hat_ST)" Value="223486" />
+  <Preset Label="Change Station (stereo_PickChannel_Bot)" Value="223533" />
+  <Preset Label="Listen To (stereo_TurnOnAndListen_Bot)" Value="223534" />
+  <Preset Label="Heckle Mascot (mixer_social_CollegeOrganizations_SchoolSpirit_Prank_HeckleArtsMascot)" Tags="TestUnsafe" Value="223535" />
+  <Preset Label="Heckle Mascot (mixer_social_CollegeOrganizations_SchoolSpirit_Prank_HeckleScienceMascot)" Tags="TestUnsafe" Value="223550" />
+  <Preset Label="Tell Joke About Foxbury Institute (mixer_social_CollegeOrganizations_SchoolSpirit_Prank_TellJokeAboutScienceUniversity)" Tags="TestUnsafe" Value="223554" />
+  <Preset Label="Ask About Inspiration (mixer_social_AskAboutInspiration_Friendly)" Tags="TestUnsafe" Value="223567" />
+  <Preset Label="Study for {2.String} (book_Read_University_Text_CourseA)" Value="223571" />
+  <Preset Label="Study for {2.String} (book_Read_University_Text_CourseB)" Value="223572" />
+  <Preset Label="Craft Materials (roboticsTable_CraftingPicker_Materials)" Value="223573" />
+  <Preset Label="Craft ExoMech Suit (roboticsTable_CraftingPicker_MechanicalSuit)" Value="223584" />
+  <Preset Label="Craft Computer Glasses (roboticsTable_CraftingPicker_ComputerGlasses)" Value="223586" />
+  <Preset Label="Listen to Winter Holiday (stereo_listen_WinterHoliday_Bot)" Value="223598" />
+  <Preset Label="Craft ExoMech Helmet (roboticsTable_CraftingPicker_MechanicalHelmet)" Value="223599" />
+  <Preset Label="Listen to Spooky (stereo_listen_spooky_Bot)" Value="223600" />
+  <Preset Label="Listen to Romantic Music (stereo_listen_romance_Bot)" Value="223601" />
+  <Preset Label="Listen to Retro (stereo_listen_retro_Bot)" Value="223602" />
+  <Preset Label="Listen to Pop (stereo_listen_pop_Bot)" Value="223603" />
+  <Preset Label="Listen to Lullabies (stereo_listen_Lullabies_Bot)" Value="223604" />
+  <Preset Label="Listen to Kids Radio (stereo_listen_kidsRadio_Bot)" Value="223605" />
+  <Preset Label="Listen to Electronica (stereo_listen_electro_Bot)" Value="223606" />
+  <Preset Label="Listen to Classical (stereo_listen_classical_Bot)" Value="223607" />
+  <Preset Label="Listen to Blues (stereo_listen_blues_Bot)" Value="223608" />
+  <Preset Label="Listen to Alternative (stereo_listen_alt_Bot)" Value="223609" />
+  <Preset Label="Study for {2.String} (book_Read_University_Text_CourseC)" Value="223667" />
+  <Preset Label="Study for {2.String} (book_Read_University_Text_CourseD)" Value="223668" />
+  <Preset Label="Turn Off (stereo_turnoff_Bot)" Value="223674" />
+  <Preset Label="Bathe (researchDebate_Convince_Bathe)" Value="223687" />
+  <Preset Label="Cook (researchDebate_Convince_Cook)" Value="223688" />
+  <Preset Label="Do a Keg Stand (researchDebate_Convince_KegStand)" Value="223689" />
+  <Preset Label="Do My Homework for {2.String} (researchDebate_Convince_DoHomework_ClassA)" Value="223690" />
+  <Preset Label="Go Streaking (researchDebate_Convince_Streak)" Value="223691" />
+  <Preset Label="Work On Utili-Bot (RoboticsTable_MiniBots_ObjectPicker)" Tags="TestUnsafe" Value="223721" />
+  <Preset Label="Activate Servo (humanoid_robots_Creation_ActivateRobot_CreateFemale)" Value="223727" />
+  <Preset Label="Activate Servo (humanoid_Robots_Creation_ActivateRobot_GenderSelector)" Value="223728" />
+  <Preset Label="Activate Servo (humanoid_Robots_Creation_ActivateRobot_ConfirmationPrompt)" Value="223732" />
+  <Preset Label="HumanoidRobot_Idle" Value="223734" />
+  <Preset Label="Engage Hover Mode (humanoid_Robots_Immediate_ToggleWalkstyle)" Value="223737" />
+  <Preset Label="Enhance {1.ObjectName} (autonomous_ObjectPicker_Bots_FindTable&amp;Slot)" Tags="TestUnsafe" Value="223740" />
+  <Preset Label="Recharge (humanoid_Robots_Motive_Recharge)" Value="223741" />
+  <Preset Label="Dismantle {1.ObjectName} (roboticsTable_Interactions_Dismantle_HumanoidRobot)" Value="223823" />
+  <Preset Label="Meet Prospective Client (socials_Targeted_Friendly_AlwaysOn_STC_Law_MeetProspectiveClient)" Tags="TestUnsafe" Value="223912" />
+  <Preset Label="Discuss Complex Case Law (socials_Targeted_Friendly_AlwaysOn_STC_Law_DiscussCaseLaw)" Tags="TestUnsafe" Value="223913" />
+  <Preset Label="File a Legal Motion (computer_Career_Law_FileMotion)" Value="223915" />
+  <Preset Label="Make Rulings (computer_Career_Law_MakeRulings)" Value="223918" />
+  <Preset Label="Write Opinion (computer_Career_Law_WriteOpinion)" Value="223919" />
+  <Preset Label="Craft Legal Argument (computer_Career_Law_CraftLegalArgument)" Value="223920" />
+  <Preset Label="Research Current Case (researchMachine_Career_Law_ResearchCase)" Value="223923" />
+  <Preset Label="Research Legal Issues (researchMachine_Career_Law_ResearchLegalIssues)" Value="223924" />
+  <Preset Label="Research Case Law (researchMachine_Career_Law_ResearchCaseLaw)" Value="223925" />
+  <Preset Label="Visit University Law Class (university_ClassroomShell_Career_Law_ClassVisit_LawLecture)" Value="223928" />
+  <Preset Label="Attend Deposition (si_RabbitHole_Career_Law_AttendDeposition)" Value="223931" />
+  <Preset Label="Do My Homework for {2.String} (researchDebate_Convince_DoHomework_ClassB)" Value="223932" />
+  <Preset Label="Do My Homework for {2.String} (researchDebate_Convince_DoHomework_ClassC)" Value="223933" />
+  <Preset Label="Do My Homework for {2.String} (researchDebate_Convince_DoHomework_ClassD)" Value="223935" />
+  <Preset Label="Guest Speak at University about Law (si_Career_Law_GuestSpeak_University)" Value="223977" />
+  <Preset Label="Professor of {2.String} (computer_University_EmailProfessor_A)" Value="224030" />
+  <Preset Label="Professor of {2.String} (computer_University_EmailProfessor_B)" Value="224031" />
+  <Preset Label="Professor of {2.String} (computer_University_EmailProfessor_C)" Value="224032" />
+  <Preset Label="Professor of {2.String} (computer_University_EmailProfessor_D)" Value="224033" />
+  <Preset Label="Email Professors about Progress (phone_University_EmailProfessors)" Value="224036" />
+  <Preset Label="Everyone but Roommates (door_Padlock_ImmediateInteraction_Locks_RoommateNPCs)" Value="224052" />
+  <Preset Label="Study for {2.String} (computer_University_Studying_CourseA)" Value="224060" />
+  <Preset Label="Study for {2.String} (computer_University_Studying_CourseB)" Value="224061" />
+  <Preset Label="Study for {2.String} (computer_University_Studying_CourseC)" Value="224062" />
+  <Preset Label="Study for {2.String} (computer_University_Studying_CourseD)" Value="224063" />
+  <Preset Label="Roommates (door_Padlock_ImmediateInteractions_Unlocks_RoommateNPCs)" Value="224069" />
+  <Preset Label="Order Drink (humanoidRobot_Party_MakeDrink)" Value="224073" />
+  <Preset Label="Order Food (humanoidRobot_Party_MakeFood)" Value="224074" />
+  <Preset Label="Cheat on Homework for {2.String} (computer_University_Homework_Cheat_CourseA)" Value="224089" />
+  <Preset Label="Cheat on Homework for {2.String} (computer_University_Homework_Cheat_CourseB)" Value="224090" />
+  <Preset Label="Cheat on Homework for {2.String} (computer_University_Homework_Cheat_CourseC)" Value="224091" />
+  <Preset Label="Cheat on Homework for {2.String} (computer_University_Homework_Cheat_CourseD)" Value="224092" />
+  <Preset Label="Participate in Debate Showdown (autonomousSimPicker_PodiumPair_DebateShowdown)" Tags="TestUnsafe" Value="224094" />
+  <Preset Label="HumanoidRobot_party_CreateInHand" Value="224095" />
+  <Preset Label="Discuss Scrap Collection Strategy (mixer_social_DiscussScrapCollectionStrategy_targeted_friendly)" Tags="TestUnsafe" Value="224100" />
+  <Preset Label="Enthuse About Robotics (mixer_social_EnthuseAboutRobotics_targeted_friendly)" Tags="TestUnsafe" Value="224106" />
+  <Preset Label="Discuss Favorite Utili-Bots (mixer_social_DiscussFavoriteBots_targeted_friendly)" Tags="TestUnsafe" Value="224107" />
+  <Preset Label="Discuss Debate (mixer_social_Friendly_CollegeOrganizations_Debate_DiscussDebate)" Tags="TestUnsafe" Value="224115" />
+  <Preset Label="Inquire about Debate Strategy (mixer_social_Friendly_CollegeOrganizations_Debate_Inquire)" Tags="TestUnsafe" Value="224116" />
+  <Preset Label="Offer Debate Feedback (mixer_social_Friendly_CollegeOrganizations_Debate_OfferFeedback)" Tags="TestUnsafe" Value="224117" />
+  <Preset Label="Do Homework for {2.String} (book_Homework_University_ClassA_ForOther)" Value="224118" />
+  <Preset Label="collegeOrganization_Debate_Judge" Value="224120" />
+  <Preset Label="collegeOrganization_Debate_Sit" Value="224121" />
+  <Preset Label="Do Homework for {2.String} (book_Homework_University_ClassB_ForOther)" Value="224139" />
+  <Preset Label="Zap (social_HumanoidRobot_Security_Zap)" Value="224141" />
+  <Preset Label="Help with Homework (mentor_University_Homework_CourseA)" Value="224147" />
+  <Preset Label="Help with Homework (mentor_University_Homework_CourseB)" Value="224148" />
+  <Preset Label="Help with Homework (mentor_University_Homework_CourseC)" Value="224149" />
+  <Preset Label="Help with Homework (mentor_University_Homework_CourseD)" Value="224150" />
+  <Preset Label="Do Homework for {2.String} (book_Homework_University_ClassC_ForOther)" Value="224151" />
+  <Preset Label="Do Homework for {2.String} (book_Homework_University_ClassD_ForOther)" Value="224152" />
+  <Preset Label="Zap Target... (simPicker_HumanoidRobots_ZapTarget)" Tags="TestUnsafe" Value="224193" />
+  <Preset Label="Order To Fight... (simPicker_HumanoidRobots_FIghtTarget)" Tags="TestUnsafe" Value="224211" />
+  <Preset Label="Fight! (social_HumanoidRobot_Security_Fight)" Value="224234" />
+  <Preset Label="Sit in on Skill Class (skillPicker_University_ClassroomShell_SkillClass)" Tags="TestUnsafe" Value="224252" />
+  <Preset Label="Kick Soccer Ball with (SimPicker_SoccerBall_PlayWith)" Tags="TestUnsafe" Value="224269" />
+  <Preset Label="Kick Soccer Ball with (SI_SoccerBall_Pickup)" Value="224273" />
+  <Preset Label="marketStalls_ChooseFoodDelivery_CoffeeCart_ToGo" Value="224274" />
+  <Preset Label="Put Away (marketStalls_CoffeeCart_Put_In_Inventory_ToGo)" Value="224275" />
+  <Preset Label="View (diploma_View_NonOwner_CT)" Value="224287" />
+  <Preset Label="Order Food (bot_StartCrafting_Food)" Value="224305" />
+  <Preset Label="Order Drink (bot_StartCrafting_Drink)" Value="224306" />
+  <Preset Label="Practice Juggling (SI_SoccerBall_Juggle_Solo)" Value="224308" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_CoffeeCart_ForHere)" Value="224320" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_CoffeeCart_ToGo)" Value="224321" />
+  <Preset Label="diploma_Reaction_Disrespectful" Value="224326" />
+  <Preset Label="diploma_Reaction_Thoughtful" Value="224329" />
+  <Preset Label="View (diploma_View_NonOwner_SameUniversity)" Value="224331" />
+  <Preset Label="Practice Juggling (sI_SoccerBall_Pickup_Juggle)" Value="224333" />
+  <Preset Label="View (diploma_View_NonOwner_DifferentUniversity)" Value="224341" />
+  <Preset Label="View (diploma_View_NonOwner_NoUniversity)" Value="224342" />
+  <Preset Label="Order Drink (marketStalls_PushOrderDrink_CoffeeCart_ForHere)" Value="224343" />
+  <Preset Label="Order Drink (marketStalls_PushOrderDrink_CoffeeCart_ToGo)" Value="224344" />
+  <Preset Label="Tend Stall (marketStalls_Tend_CoffeeCart)" Value="224345" />
+  <Preset Label="Tutor (skillPicker_University_ClassroomShell_Tutor)" Tags="TestUnsafe" Value="224346" />
+  <Preset Label="soccerBallMixers_Juggle_Solo" Value="224359" />
+  <Preset Label="View {1.ObjectName} (bots_View_Bot)" Value="224367" />
+  <Preset Label="Judge Bot (bots_View_Judging)" Value="224381" />
+  <Preset Label="Make Offering for Academic Success (interactableStatue_MakeOffering)" Value="224387" />
+  <Preset Label="collegeOrganization_SecretSociety_StoneAltar_GoToRitual" Value="224419" />
+  <Preset Label="Play with RC Quadcopter (quadcopter_Play)" Value="224432" />
+  <Preset Label="Deface Statue (interactableStatue_Deface)" Value="224468" />
+  <Preset Label="Deface Statue (interactableStatue_Start_Deface)" Value="224469" />
+  <Preset Label="Yarnbomb Statue (interactableStatue_Start_YarnBomb)" Value="224471" />
+  <Preset Label="Order Drink (marketStalls_PushOrder_Autonomous_CoffeeCart)" Value="224482" />
+  <Preset Label="Yarnbomb Statue (interactableStatue_YarnBomb)" Value="224490" />
+  <Preset Label="interactableStatue_Deface_Idle" Value="224505" />
+  <Preset Label="interactableStatue_Deface_Loop" Value="224506" />
+  <Preset Label="soccerBallMixers_Juggle_Y_0" Tags="TestUnsafe" Value="224507" />
+  <Preset Label="soccerBallMixers_Juggle_Y_1" Tags="TestUnsafe" Value="224508" />
+  <Preset Label="soccerBallMixers_Juggle_Y_2" Tags="TestUnsafe" Value="224509" />
+  <Preset Label="soccerBallMixers_Juggle_X_0" Tags="TestUnsafe" Value="224510" />
+  <Preset Label="soccerBallMixers_Juggle_X_1" Tags="TestUnsafe" Value="224511" />
+  <Preset Label="soccerBallMixers_Juggle_X_2" Tags="TestUnsafe" Value="224512" />
+  <Preset Label="soccerBallMixers_Juggle_Solo_0" Value="224514" />
+  <Preset Label="soccerBallMixers_Juggle_Solo_1" Value="224515" />
+  <Preset Label="soccerBallMixers_Juggle_Solo_2" Value="224516" />
+  <Preset Label="Run Away! (Terrain_HumanoidRobot_Zap)" Value="224518" />
+  <Preset Label="Play with RC Quadcopter (quadcopter_Start)" Value="224534" />
+  <Preset Label="Kick Soccer Ball with (AutonomousSimPicker_SoccerBall_PlayWith)" Tags="TestUnsafe" Value="224545" />
+  <Preset Label="Kick Soccer Ball with {1.SimFirstName} (objectInInventory_SoccerBall_PlayWith)" Tags="TestUnsafe" Value="224547" />
+  <Preset Label="Practice Juggling (objectInInventory_SoccerBall_Juggle)" Tags="TestUnsafe" Value="224548" />
+  <Preset Label="Kick Soccer Ball with (autonomousObjectPicker_SoccerBall_PlayWith)" Tags="TestUnsafe" Value="224549" />
+  <Preset Label="Kick Soccer Ball with (autonomousObjectPicker_SoccerBall_Juggle)" Tags="TestUnsafe" Value="224551" />
+  <Preset Label="Grade Homework (book_Homework_Education_Grade)" Value="224561" />
+  <Preset Label="Kick Soccer Ball with {1.SimFirstName} (autonomousObjectInInventory_SoccerBall_PlayWith)" Tags="TestUnsafe" Value="224568" />
+  <Preset Label="Practice Juggling (autonomousObjectInInventory_SoccerBall_Juggle)" Tags="TestUnsafe" Value="224569" />
+  <Preset Label="Book_Homework_Education_Active" Value="224582" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Kebab)" Value="224588" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Pizza)" Value="224589" />
+  <Preset Label="book_Homework_Education_Passive" Value="224598" />
+  <Preset Label="UBrite Greeting (mixer_social_SchoolSpirit_Prank_greetings)" Tags="TestUnsafe" Value="224607" />
+  <Preset Label="Tend Stall (marketStalls_Tend_University_Kebab)" Value="224609" />
+  <Preset Label="Tend Stall (marketStalls_Tend_University_Pizza)" Value="224610" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_University_Kebab)" Value="224613" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_University_Pizza)" Value="224615" />
+  <Preset Label="Watch Juggling (sI_SoccerBall_Watch)" Value="224630" />
+  <Preset Label="Make Offering for Academic Success (interactableStatue_MakeOffering_NPC)" Value="224634" />
+  <Preset Label="Clean Up Statue (interactableStatue_Clean)" Value="224666" />
+  <Preset Label="Toilet Paper Statue (interactableStatue_Start_ToiletPaper)" Value="224669" />
+  <Preset Label="Toilet Paper Statue (interactableStatue_ToiletPaper)" Value="224670" />
+  <Preset Label="Take Selfie with Mascot (mascot_Socials_Selfie_Ask)" Value="224768" />
+  <Preset Label="Take Selfie with Mascot (mascot_Socials_Selfie_TakePicture)" Value="224769" />
+  <Preset Label="High Five (mascot_Socials_HighFive_Ask)" Value="224776" />
+  <Preset Label="Fight! (mixer_social_Fight_targeted_mean_Mascot)" Tags="TestUnsafe" Value="224783" />
+  <Preset Label="Study With (simPickerInteraction_StudyWith)" Tags="TestUnsafe" Value="224799" />
+  <Preset Label="High Five (mascot_Socials_HighFive_Success)" Value="224878" />
+  <Preset Label="mascot_StinkReaction" Value="224885" />
+  <Preset Label="mascot_PumpUpReaction" Value="224887" />
+  <Preset Label="mascot_TauntBoo" Value="224889" />
+  <Preset Label="mascot_Mixers_FistPump" Value="224924" />
+  <Preset Label="mascot_Mixers_PointAtCrowd" Value="224925" />
+  <Preset Label="mascot_Mixers_TwoHandHype" Value="224926" />
+  <Preset Label="mascot_TauntCheer" Value="224938" />
+  <Preset Label="mascot_Mixers_Self_FistPump" Value="224952" />
+  <Preset Label="mascot_Mixers_Self_PointAtCrowd" Value="224958" />
+  <Preset Label="mascot_Mixers_Self_TwoHandHype" Value="224960" />
+  <Preset Label="Pump It Up (mascot_PumpUp_Self)" Value="224968" />
+  <Preset Label="Pump It Up (mascot_PumpUp_Auto)" Value="224969" />
+  <Preset Label="Put on Computer Glasses (computerGlasses_PutOn)" Value="225015" />
+  <Preset Label="Take off Computer Glasses (computerGlasses_TakeOff)" Value="225019" />
+  <Preset Label="Put on Computer Glasses (computerGlasses_PutOn_Inventory)" Value="225021" />
+  <Preset Label="Practice Debate (mirror_ResearchDebateSkill_Practice)" Value="225045" />
+  <Preset Label="Submit Utili-Bot into Contest (social_RoboticsExhibition_SubmitBot)" Value="225071" />
+  <Preset Label="Study (studying_CreateBook)" Value="225072" />
+  <Preset Label="Study for {2.String} (book_Read_University_Text_CourseA_StudyWith)" Value="225092" />
+  <Preset Label="Enter Utili-Bot Into Contest (events_RoboticsExhibition_ChooseBot)" Tags="TestUnsafe" Value="225093" />
+  <Preset Label="Study for {2.String} (book_Read_University_Text_CourseB_StudyWith)" Value="225147" />
+  <Preset Label="Study for {2.String} (book_Read_University_Text_CourseC_StudyWith)" Value="225165" />
+  <Preset Label="Study for {2.String} (book_Read_University_Text_CourseD_StudyWith)" Value="225167" />
+  <Preset Label="Everyone but Roommates (computer_Locking_LockForEveryone_ButRoommateNPCs)" Value="225187" />
+  <Preset Label="Roommates (computer_Unlocking_UnlockFor_RoommateNPCs)" Value="225189" />
+  <Preset Label="computerGlasses_Use" Value="225197" />
+  <Preset Label="Scan for Traits (computerGlasses_ScanForTraits)" Value="225198" />
+  <Preset Label="Submit Utili-Bot into Contest (si_RoboticsExhibition_SubmitBot)" Value="225199" />
+  <Preset Label="Boo (mascot_Boo)" Value="225201" />
+  <Preset Label="Taunt (mascot_Taunt)" Value="225202" />
+  <Preset Label="Ask about Grade in &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskAboutGrades_A)" Tags="TestUnsafe" Value="225204" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_AndActivate_Minibot)" Value="225207" />
+  <Preset Label="Ask about Grade in &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskAboutGrades_B)" Tags="TestUnsafe" Value="225243" />
+  <Preset Label="Ask about Grade in &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskAboutGrades_C)" Tags="TestUnsafe" Value="225244" />
+  <Preset Label="Ask about Grade in &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskAboutGrades_D)" Tags="TestUnsafe" Value="225245" />
+  <Preset Label="Add 10000 to Debt (debug_Debt_Add10000)" Value="225248" />
+  <Preset Label="Clear Debt (debug_Debt_Clear)" Value="225249" />
+  <Preset Label="Ask Homework Questions for &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskHomeworkQuestions_A)" Tags="TestUnsafe" Value="225259" />
+  <Preset Label="Scan for Mood (computerGlasses_ScanForMood)" Value="225269" />
+  <Preset Label="Ask Homework Questions for &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskHomeworkQuestions_B)" Tags="TestUnsafe" Value="225276" />
+  <Preset Label="Ask Homework Questions for &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskHomeworkQuestions_C)" Tags="TestUnsafe" Value="225277" />
+  <Preset Label="Ask Homework Questions for &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskHomeworkQuestions_D)" Tags="TestUnsafe" Value="225278" />
+  <Preset Label="Encourage to Dance (stereo_EncourageToDance)" Value="225282" />
+  <Preset Label="Make Loan Payment (computer_MakePayment_Loans)" Value="225298" />
+  <Preset Label="University Urban Legends (researchMachine_collegeOrganization_SecretSociety_ReadHistory)" Value="225301" />
+  <Preset Label="Foxbury Greeting (mixer_social_SchoolSpirit_Party_greetings)" Tags="TestUnsafe" Value="225315" />
+  <Preset Label="Show High Chance Scholarships (debug_Scholarships_ShowHighChanceScholarships)" Value="225351" />
+  <Preset Label="Get Scholarship Status Loot (debug_Scholarships_GetScholarshipStatusLoot)" Value="225352" />
+  <Preset Label="The Great Outdoors (debug_Scholarships_Skill_Apply_TheGreatOutdoors)" Value="225354" />
+  <Preset Label="Alley Cat (debug_Scholarships_Skill_Apply_AlleyCat)" Value="225373" />
+  <Preset Label="Craft (autonomous_RoboticBuildingSession_BuildBots)" Value="225386" />
+  <Preset Label="Ask for Higher Grade in &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskForHigherGrade_A)" Tags="TestUnsafe" Value="225395" />
+  <Preset Label="+10 (debug_Organizations_Progress_ArtSociety_10)" Value="225401" />
+  <Preset Label="+5 (debug_Organizations_Progress_ArtSociety_5)" Value="225402" />
+  <Preset Label="+50 (debug_Organizations_Progress_ArtSociety_50)" Value="225403" />
+  <Preset Label="+100 (debug_Organizations_Progress_ArtSociety_100)" Value="225404" />
+  <Preset Label="+1 (debug_Organizations_Progress_ArtSociety_1)" Value="225405" />
+  <Preset Label="Set Rank 1 (debug_Organizations_SetLevel_ArtOrganization_1)" Value="225406" />
+  <Preset Label="Set Rank 2 (debug_Organizations_SetLevel_ArtOrganization_2)" Value="225407" />
+  <Preset Label="Set Rank 3 (debug_Organizations_SetLevel_ArtOrganization_3)" Value="225408" />
+  <Preset Label="+1 (debug_Organizations_Progress_Debate_1)" Value="225484" />
+  <Preset Label="+10 (debug_Organizations_Progress_Debate_10)" Value="225485" />
+  <Preset Label="+100 (debug_Organizations_Progress_Debate_100)" Value="225486" />
+  <Preset Label="+5 (debug_Organizations_Progress_Debate_5)" Value="225487" />
+  <Preset Label="+50 (debug_Organizations_Progress_Debate_50)" Value="225488" />
+  <Preset Label="+1 (debug_Organizations_Progress_Honor_1)" Value="225490" />
+  <Preset Label="+10 (debug_Organizations_Progress_Honor_10)" Value="225491" />
+  <Preset Label="+100 (debug_Organizations_Progress_Honor_100)" Value="225492" />
+  <Preset Label="+5 (debug_Organizations_Progress_Honor_5)" Value="225493" />
+  <Preset Label="+50 (debug_Organizations_Progress_Honor_50)" Value="225494" />
+  <Preset Label="+1 (debug_Organizations_Progress_Prank_1)" Value="225496" />
+  <Preset Label="+10 (debug_Organizations_Progress_Prank_10)" Value="225497" />
+  <Preset Label="+100 (debug_Organizations_Progress_Prank_100)" Value="225498" />
+  <Preset Label="+5 (debug_Organizations_Progress_Prank_5)" Value="225499" />
+  <Preset Label="+50 (debug_Organizations_Progress_Prank_50)" Value="225500" />
+  <Preset Label="+1 (debug_Organizations_Progress_Party_1)" Value="225502" />
+  <Preset Label="+10 (debug_Organizations_Progress_Party_10)" Value="225503" />
+  <Preset Label="+100 (debug_Organizations_Progress_Party_100)" Value="225504" />
+  <Preset Label="+5 (debug_Organizations_Progress_Party_5)" Value="225505" />
+  <Preset Label="+50 (debug_Organizations_Progress_Party_50)" Value="225506" />
+  <Preset Label="+1 (debug_Organizations_Progress_Robotics_1)" Value="225508" />
+  <Preset Label="+10 (debug_Organizations_Progress_Robotics_10)" Value="225509" />
+  <Preset Label="+100 (debug_Organizations_Progress_Robotics_100)" Value="225510" />
+  <Preset Label="+5 (debug_Organizations_Progress_Robotics_5)" Value="225511" />
+  <Preset Label="+50 (debug_Organizations_Progress_Robotics_50)" Value="225512" />
+  <Preset Label="+1 (debug_Organizations_Progress_Secret_1)" Value="225514" />
+  <Preset Label="+10 (debug_Organizations_Progress_Secret_10)" Value="225515" />
+  <Preset Label="+100 (debug_Organizations_Progress_Secret_100)" Value="225516" />
+  <Preset Label="+5 (debug_Organizations_Progress_Secret_5)" Value="225517" />
+  <Preset Label="+50 (debug_Organizations_Progress_Secret_50)" Value="225518" />
+  <Preset Label="Turn On University Organization Cheats (debug_Organizations_ActivateCheats)" Value="225556" />
+  <Preset Label="Set Rank 1 (debug_Organizations_SetLevel_Debate_1)" Value="225604" />
+  <Preset Label="Set Rank 2 (debug_Organizations_SetLevel_Debate_2)" Value="225605" />
+  <Preset Label="Set Rank 3 (debug_Organizations_SetLevel_Debate_3)" Value="225606" />
+  <Preset Label="Set Rank 1 (debug_Organizations_SetLevel_Prank_1)" Value="225608" />
+  <Preset Label="Set Rank 2 (debug_Organizations_SetLevel_Prank_2)" Value="225609" />
+  <Preset Label="Set Rank 3 (debug_Organizations_SetLevel_Prank_3)" Value="225610" />
+  <Preset Label="Set Rank 1 (debug_Organizations_SetLevel_Party_1)" Value="225612" />
+  <Preset Label="Set Rank 2 (debug_Organizations_SetLevel_Party_2)" Value="225613" />
+  <Preset Label="Set Rank 3 (debug_Organizations_SetLevel_Party_3)" Value="225614" />
+  <Preset Label="Set Rank 1 (debug_Organizations_SetLevel_Honor_1)" Value="225616" />
+  <Preset Label="Set Rank 2 (debug_Organizations_SetLevel_Honor_2)" Value="225617" />
+  <Preset Label="Set Rank 3 (debug_Organizations_SetLevel_Honor_3)" Value="225618" />
+  <Preset Label="Set Rank 1 (debug_Organizations_SetLevel_Robotics_1)" Value="225620" />
+  <Preset Label="Set Rank 2 (debug_Organizations_SetLevel_Robotics_2)" Value="225621" />
+  <Preset Label="Set Rank 3 (debug_Organizations_SetLevel_Robotics_3)" Value="225622" />
+  <Preset Label="Set Rank 1 (debug_Organizations_SetLevel_Secret_1)" Value="225624" />
+  <Preset Label="Set Rank 2 (debug_Organizations_SetLevel_Secret_2)" Value="225625" />
+  <Preset Label="Set Rank 3 (debug_Organizations_SetLevel_Secret_3)" Value="225626" />
+  <Preset Label="Watch Debate (podiumPair_Watch_DebateShowdown)" Value="225628" />
+  <Preset Label="collegeOrganization_Debate_DeclareWinner" Value="225666" />
+  <Preset Label="Ask for Higher Grade in &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskForHigherGrade_D)" Tags="TestUnsafe" Value="225668" />
+  <Preset Label="Ask for Higher Grade in &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskForHigherGrade_C)" Tags="TestUnsafe" Value="225669" />
+  <Preset Label="Ask for Higher Grade in &lt;i&gt;{2.String}&lt;/i&gt; Course (socials_Targeted_Friendly_AlwaysOn_STC_ProfessorNPC_AskForHigherGrade_B)" Tags="TestUnsafe" Value="225670" />
+  <Preset Label="Convince (phone_Picker_ConvincePromotion)" Tags="TestUnsafe" Value="225703" />
+  <Preset Label="Convince Boss to Give Bonus (phone_ConvincePromotion)" Value="225704" />
+  <Preset Label="Look at Robotics Workstation (roboticsTable_LookAt)" Value="225715" />
+  <Preset Label="roboticsTable_Interaction_BuildBotComplete_PickUp" Value="225720" />
+  <Preset Label="roboticsTable_CreateCompletedObject_GenericCraftable_PickUp" Value="225722" />
+  <Preset Label="Capture Information (univeristy_TermPresentation_CaptureInformation)" Value="225843" />
+  <Preset Label="Refine and Organize (univeristy_TermPresentation_RefineAndOrganize)" Value="225844" />
+  <Preset Label="Throw Confetti (mixer_social_CollegeOrganizations_SchoolSpirit_Prank_ThrowConfetti)" Tags="TestUnsafe" Value="225865" />
+  <Preset Label="on Acting (computer_ResearchPaper_Acting)" Value="225917" />
+  <Preset Label="on Charisma (computer_ResearchPaper_Charisma)" Value="225918" />
+  <Preset Label="on Painting (computer_ResearchPaper_Painting)" Value="225919" />
+  <Preset Label="on Photography (computer_ResearchPaper_Photography)" Value="225920" />
+  <Preset Label="on Programming (computer_ResearchPaper_Programming)" Value="225921" />
+  <Preset Label="on Research &amp; Debate (computer_ResearchPaper_ResearchDebate)" Value="225922" />
+  <Preset Label="on Robotics (computer_ResearchPaper_Robotics)" Value="225923" />
+  <Preset Label="on Rocket Science (computer_ResearchPaper_RocketScience)" Value="225924" />
+  <Preset Label="on Video Gaming (computer_ResearchPaper_VideoGaming)" Value="225925" />
+  <Preset Label="on Writing (computer_ResearchPaper_Writing)" Value="225926" />
+  <Preset Label="on Comedy (computer_ResearchPaper_Comedy)" Value="225927" />
+  <Preset Label="on Cooking (computer_ResearchPaper_Cooking)" Value="225928" />
+  <Preset Label="on Fitness (computer_ResearchPaper_Fitness)" Value="225929" />
+  <Preset Label="on Gardening (computer_ResearchPaper_Gardening)" Value="225930" />
+  <Preset Label="on Handiness (computer_ResearchPaper_Handiness)" Value="225931" />
+  <Preset Label="on Logic (computer_ResearchPaper_Logic)" Value="225932" />
+  <Preset Label="marketStalls_ChooseDrinkDelivery_CoffeeCart_ToGo" Value="225933" />
+  <Preset Label="Ask for Feedback (TermPresentation_AskForFeedback)" Value="225969" />
+  <Preset Label="Practice Presenting (univeristy_TermPresentation_PracticePresenting)" Value="225970" />
+  <Preset Label="Study for {2.String} (studying_CreateBook_Join_CourseA)" Value="225980" />
+  <Preset Label="Study for {2.String} (studying_CreateBook_Join_CourseB)" Value="225981" />
+  <Preset Label="Study for {2.String} (studying_CreateBook_Join_CourseC)" Value="225982" />
+  <Preset Label="Study for {2.String} (studying_CreateBook_Join_CourseD)" Value="225983" />
+  <Preset Label="termPresentation_Mixer_AddPin" Value="226021" />
+  <Preset Label="termPresentation_Mixer_AddSticky" Value="226022" />
+  <Preset Label="termPresentation_Mixer_Erase" Value="226023" />
+  <Preset Label="termPresentation_Mixer_TakeNotes" Value="226024" />
+  <Preset Label="termPresentation_Mixer_ThinkAndPoint" Value="226025" />
+  <Preset Label="termPresentation_Mixer_WriteOnBoard" Value="226026" />
+  <Preset Label="Study (studying_CreateBook_Invite)" Value="226035" />
+  <Preset Label="Play with RC Quadcopter (si_SwipeAddToWorld_Quadcopter)" Value="226045" />
+  <Preset Label="Hire Vendor (si_marketStalls_CoffeeCart_HireNPC)" Value="226050" />
+  <Preset Label="Start Britechester Cheer! (sI_UniversityRivalry_SchoolCheer_Arts)" Value="226052" />
+  <Preset Label="Start Foxbury Cheer! (sI_UniversityRivalry_SchoolCheer_Science)" Value="226053" />
+  <Preset Label="Listen to Presentation  (univeristy_TermPresentation_ListenToPresentation)" Value="226067" />
+  <Preset Label="Tend Stall (marketStalls_Open_CoffeeCart)" Value="226072" />
+  <Preset Label="universityRivalry_Mixers_Chant_Arts" Value="226107" />
+  <Preset Label="universityRivalry_Mixers_Idle_Arts" Value="226108" />
+  <Preset Label="universityRivalry_Mixers_CallOut_Arts" Value="226109" />
+  <Preset Label="Start Foxbury Cheer! (sI_UniversityRivalry_SchoolCheer_Science_Listen)" Value="226117" />
+  <Preset Label="Start Britechester Cheer! (sI_UniversityRivalry_SchoolCheer_Arts_Listen)" Value="226118" />
+  <Preset Label="Livestream SimScuffle (computer_Livestream_SimScuffle_E-Sports)" Value="226200" />
+  <Preset Label="Force Self to Play SimScuffle (computer_PlayGame_GamedOut_SimScuffle_E-Sports)" Value="226201" />
+  <Preset Label="Play SimScuffle (computer_PlayGame_SimScuffle_E-Sports)" Value="226202" />
+  <Preset Label="Pro SimScuffle Tournament (computer_PlayGameTournament_Pro_SimScuffle_E-Sports)" Value="226203" />
+  <Preset Label="Novice SimScuffle Tournament (computer_PlayGameTournament_SimScuffle_E-Sports)" Value="226204" />
+  <Preset Label="Mod SimScuffle (computer_Programming_ModGame_SimScuffle_E-Sports)" Value="226205" />
+  <Preset Label="Apply for Scholarships (computer_University_Scholarships_Apply)" Value="226213" />
+  <Preset Label="Review Guidance Counselor’s Info Packet (computer_University_Scholarships_ReviewInfoPacket_GuidanceCounselor)" Value="226214" />
+  <Preset Label="Review Scholarship Info Packet (computer_University_Scholarships_ReviewInfoPacket_University)" Value="226215" />
+  <Preset Label="Email Former Guidance Counselor for Advice (computer_University_Scholarships_EmailForAdvice_FormerGuidanceCounselor)" Value="226216" />
+  <Preset Label="Email Guidance Counselor for Advice (computer_University_Scholarships_EmailForAdvice_GuidanceCounselor)" Value="226217" />
+  <Preset Label="Apply for Scholarships (displaySnippetPicker_UniversityScholarships_Apply_Computer)" Tags="TestUnsafe" Value="226218" />
+  <Preset Label="Apply for Scholarships (displaySnippetPicker_UniversityScholarships_Apply_Mailbox)" Tags="TestUnsafe" Value="226223" />
+  <Preset Label="Check Scholarship Applications (computer_University_Scholarships_CheckApplications)" Value="226228" />
+  <Preset Label="universityRivalry_Mixers_ChantBack_Arts" Value="226231" />
+  <Preset Label="universityRivalry_Mixers_CallOut_Science" Value="226251" />
+  <Preset Label="universityRivalry_Mixers_Chant_Science" Value="226253" />
+  <Preset Label="universityRivalry_Mixers_ChantBack_Science" Value="226255" />
+  <Preset Label="universityRivalry_Mixers_Idle_Science" Value="226258" />
+  <Preset Label="Apply for Scholarships (mailbox_UniversityScholarships_Apply)" Value="226272" />
+  <Preset Label="Equip ExoMech Suit (mechanicalSuit_Body_PutOn_FromInventory)" Value="226287" />
+  <Preset Label="Remove ExoMech Suit (mechanicalSuit_Body_Remove)" Value="226288" />
+  <Preset Label="Equip ExoMech Helmet (mechanicalSuit_Helmet_PutOn_FromInventory)" Value="226289" />
+  <Preset Label="Remove ExoMech Helmet (mechanicalSuit_Helmet_Remove)" Value="226290" />
+  <Preset Label="Study Plays (book_Homework_SoccerTeam_StudyPlays)" Value="226300" />
+  <Preset Label="Take off Computer Glasses (computerGlasses_TakeOff_Picker)" Tags="TestUnsafe" Value="226312" />
+  <Preset Label="Check Scholarship Applications (phone_University_Scholarships_CheckApplications)" Value="226342" />
+  <Preset Label="Ask for Feedback (simPicker_University_TermPresentation_AskForFeedback)" Tags="TestUnsafe" Value="226438" />
+  <Preset Label="Study Plays with (simPicker_book_SoccerTeam_StudyPlaysWith)" Tags="TestUnsafe" Value="226458" />
+  <Preset Label="Study Plays with (book_social_read_to_sims_SoccerTeam_StudyPlaysWith)" Value="226470" />
+  <Preset Label="Heckle Mascot (socialSI_SchoolSpirit_Prank_HeckleArtsMascot)" Value="226473" />
+  <Preset Label="Heckle Mascot (socialSI_SchoolSpirit_Prank_HeckleScienceMascot)" Value="226475" />
+  <Preset Label="Study Plays (book_social_listen_to_reader_SoccerTeam_StudyPlaysWith)" Value="226477" />
+  <Preset Label="book_Listen_To_Reader_SoccerTeam_StudyPlaysWith" Value="226512" />
+  <Preset Label="book_SoccerTeam_StudyPlaysWith_Active" Value="226514" />
+  <Preset Label="Open (UniversityScholarships_MailEnvelope_OpenFromInventory)" Value="226528" />
+  <Preset Label="Open Scholarship Letter (UniversityScholarships_MailEnvelope_OpenFromWorld)" Value="226529" />
+  <Preset Label="university_Scholarships_Reaction_Rejected" Value="226555" />
+  <Preset Label="university_Scholarships_Reaction_Accepted" Value="226556" />
+  <Preset Label="Heckle (sI_UniversityRivalry_PrankReaction)" Value="226562" />
+  <Preset Label="universityRivalry_Mixers_PrankReaction_Cheer" Value="226563" />
+  <Preset Label="universityRivalry_Mixers_PrankReaction_YellAt" Value="226564" />
+  <Preset Label="Check Social Media Timeline (computerGlasses_CheckSocialMediaTimeline)" Value="226566" />
+  <Preset Label="Browse Art (computerGlasses_Browse_Art)" Value="226569" />
+  <Preset Label="Watch Funny Videos on Sim.tv (computerGlasses_WatchSimTube)" Value="226570" />
+  <Preset Label="Browse Simpedia (computerGlasses_Browse_Simpedia_TYAE)" Value="226573" />
+  <Preset Label="Browse Web (computerGlasses_Browse_Web)" Value="226576" />
+  <Preset Label="Research Pick-up Lines (computerGlasses_Browse_PickUpLines)" Value="226578" />
+  <Preset Label="Discuss SimScuffle Strategies (mixer_Social_E-Sports_DiscussStrategies)" Tags="TestUnsafe" Value="226579" />
+  <Preset Label="Compliment SimScuffle Skills (mixer_Social_E-Sports_ComplimentSkills)" Tags="TestUnsafe" Value="226580" />
+  <Preset Label="Research Gardening (computerGlasses_Browse_GardeningTips)" Value="226581" />
+  <Preset Label="Chat (computerGlasses_Chat)" Value="226582" />
+  <Preset Label="universityRivalry_Mixers_PrankReaction_Idle" Value="226588" />
+  <Preset Label="Put Up Foxbury Institute Banners (sportsArena_PutUpBanner_ScienceUni)" Value="226609" />
+  <Preset Label="Put up UBrite Banners (sportsArena_PutUpBanner_ArtUni)" Value="226611" />
+  <Preset Label="Prank With Foxbury Institute Banners (sportsArena_PutUpBanner_ArtUni_Rival)" Value="226612" />
+  <Preset Label="Prank With UBrite Banners (sportsArena_PutUpBanner_ScienceUni_Rival)" Value="226613" />
+  <Preset Label="Chat with E-Sports Teammates (computer_E-Sports_ChatWithTeammates)" Value="226631" />
+  <Preset Label="Research SimScuffle Strategies (computer_E-Sports_ResearchStrategies)" Value="226632" />
+  <Preset Label="Engage Hover Mode (mechanicalSuit_Body_HoverMode_Engage)" Value="226633" />
+  <Preset Label="Disengage Hover Mode (mechanicalSuit_Body_HoverMode_Disengage)" Value="226636" />
+  <Preset Label="Taunt About University Superiority (mixer_Social_UniversityRivalry_TauntAboutUniversitySuperiority)" Tags="TestUnsafe" Value="226662" />
+  <Preset Label="Sit (seating_Sit_E-Sports)" Value="226679" />
+  <Preset Label="Give Final Presentation (univeristy_TermPresentation_GivePresentation_PickupIntoInventory)" Value="226711" />
+  <Preset Label="Give Final Presentation (univeristy_TermPresentation_GivePresentation_ClassB)" Value="226738" />
+  <Preset Label="Give Final Presentation (univeristy_TermPresentation_GivePresentation_ClassC)" Value="226745" />
+  <Preset Label="Give Final Presentation (univeristy_TermPresentation_GivePresentation_ClassD)" Value="226746" />
+  <Preset Label="sI_UniversityRivalry_GoToStatue" Value="226751" />
+  <Preset Label="sI_UniversityRivalry_GoToArena" Value="226752" />
+  <Preset Label="Attend Soccer Game (sportsArena_GameDay_Football_AttendGame_NoTicket)" Value="226816" />
+  <Preset Label="Attend E-Sports Game (sportsArena_GameDay_Esports_AttendGame_NoTicket)" Value="226817" />
+  <Preset Label="Ask to Join Foxbury Spirit Squad (mixer_CollegeOrganizations_AskToJoinOrQuit_Party)" Tags="TestUnsafe" Value="226820" />
+  <Preset Label="toilet_Prank_Reaction" Value="226831" />
+  <Preset Label="Repay Loan (Loans_MakePayment)" Value="226854" />
+  <Preset Label="Ask Reason for Joining The Order of Enchantment (collegeOrganization_SecretSociety_Social_AskJoinReason)" Value="226860" />
+  <Preset Label="Discuss Upcoming Test (socials_Targeted_Friendly_HonorSociety_DiscussUpcomingTest)" Tags="TestUnsafe" Value="226894" />
+  <Preset Label="Discuss Project Ideas (socials_Targeted_Friendly_HonorSociety_DiscussProjectIdeas)" Tags="TestUnsafe" Value="226895" />
+  <Preset Label="Play SimScuffle With Team (computer_PlayGame_SimScuffle_E-Sports_WithTeam)" Value="226923" />
+  <Preset Label="Prank Toilet (toilet_Prank)" Value="226929" />
+  <Preset Label="The Local Secret Society (researchMachine_collegeOrganization_SecretSociety_ReadSecretHistory)" Value="226983" />
+  <Preset Label="Prep for Debate (computer_ResearchMachine_PrepForDebate)" Value="227014" />
+  <Preset Label="Fitness: High Weight or High Reps (computer_ResearchMachine_Research_Fitness)" Value="227021" />
+  <Preset Label="Professional vs. DIY Handiwork (computer_ResearchMachine_Research_Handiness)" Value="227022" />
+  <Preset Label="Research Methodologies (computer_ResearchMachine_Research_ResearchDebate)" Value="227023" />
+  <Preset Label="Good Writing Through Feedback (computer_ResearchMachine_Research_Writing)" Value="227024" />
+  <Preset Label="Video Games vs. Reality (computer_ResearchMachine_Research_VideoGaming)" Value="227025" />
+  <Preset Label="Programming Standards (computer_ResearchMachine_Research_Programming)" Value="227026" />
+  <Preset Label="A.I. in Robotics (computer_ResearchMachine_Research_Robotics)" Value="227028" />
+  <Preset Label="Acting Techniques (computer_ResearchMachine_Research_Acting)" Value="227029" />
+  <Preset Label="Rocket Discoveries (computer_ResearchMachine_Research_RocketScience)" Value="227030" />
+  <Preset Label="The Power of Charisma (computer_ResearchMachine_Research_Charisma)" Value="227031" />
+  <Preset Label="Comedy in Culture (computer_ResearchMachine_Research_Comedy)" Value="227032" />
+  <Preset Label="The Value of Painting (computer_ResearchMachine_Research_Painting)" Value="227033" />
+  <Preset Label="Cooking for Nutrition vs. Pleasure (computer_ResearchMachine_Research_Cooking)" Value="227034" />
+  <Preset Label="Gardening Innovations (computer_ResearchMachine_Research_Gardening)" Value="227035" />
+  <Preset Label="Logic vs. Instinct (computer_ResearchMachine_Research_Logic)" Value="227036" />
+  <Preset Label="Results of Photo Editing (computer_ResearchMachine_Research_Photography)" Value="227037" />
+  <Preset Label="Acting (computer_ResearchMachine_ContributeKnowledge_Acting)" Value="227039" />
+  <Preset Label="Charisma (computer_ResearchMachine_ContributeKnowledge_Charisma)" Value="227040" />
+  <Preset Label="Comedy (computer_ResearchMachine_ContributeKnowledge_Comedy)" Value="227041" />
+  <Preset Label="Cooking (computer_ResearchMachine_ContributeKnowledge_Cooking)" Value="227042" />
+  <Preset Label="Fitness (computer_ResearchMachine_ContributeKnowledge_Fitness)" Value="227043" />
+  <Preset Label="Gardening (computer_ResearchMachine_ContributeKnowledge_Gardening)" Value="227044" />
+  <Preset Label="Handiness (computer_ResearchMachine_ContributeKnowledge_Handiness)" Value="227045" />
+  <Preset Label="Logic (computer_ResearchMachine_ContributeKnowledge_Logic)" Value="227046" />
+  <Preset Label="Painting (computer_ResearchMachine_ContributeKnowledge_Painting)" Value="227047" />
+  <Preset Label="Photography (computer_ResearchMachine_ContributeKnowledge_Photography)" Value="227048" />
+  <Preset Label="Programming (computer_ResearchMachine_ContributeKnowledge_Programming)" Value="227049" />
+  <Preset Label="Research &amp; Debate (computer_ResearchMachine_ContributeKnowledge_ResearchDebate)" Value="227050" />
+  <Preset Label="Robotics (computer_ResearchMachine_ContributeKnowledge_Robotics)" Value="227051" />
+  <Preset Label="Rocket Science (computer_ResearchMachine_ContributeKnowledge_RocketScience)" Value="227052" />
+  <Preset Label="Video Gaming (computer_ResearchMachine_ContributeKnowledge_VideoGaming)" Value="227053" />
+  <Preset Label="Writing (computer_ResearchMachine_ContributeKnowledge_Writing)" Value="227054" />
+  <Preset Label="Ask About The Sprites (futureCube_AskQuestion_CollegeOrganization_SecretSociety)" Value="227078" />
+  <Preset Label="Sprite Attack! (collegeOrganization_SecretSociety_SpriteAttack)" Value="227079" />
+  <Preset Label="Drink (consumable_Drink_Nonbar_Powersip_Inferno)" Value="227091" />
+  <Preset Label="Attend Graduation (sportsArena_Graduation_Ceremony)" Value="227098" />
+  <Preset Label="Discuss Important Robot Things (humanoid_Robots_Social_MiniBots)" Value="227127" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level3)" Value="227163" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level4)" Value="227164" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level5)" Value="227165" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level6)" Value="227166" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level7)" Value="227167" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level8)" Value="227168" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level9)" Value="227169" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level10)" Value="227170" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level2)" Value="227232" />
+  <Preset Label="Idle_Buff_CollegeOrganization_SecretSociety_PesteringSprites" Value="227246" />
+  <Preset Label="collegeOrganization_SecretSociety_AskGathering_Panic" Value="227302" />
+  <Preset Label="Try for Baby In Shower (mixer_social_TryForBabyInShower_targeted_romance_transition)" Tags="TestUnsafe" Value="227340" />
+  <Preset Label="WooHoo in Shower (mixer_social_WooHooInShower_targeted_romance_transition)" Tags="TestUnsafe" Value="227341" />
+  <Preset Label="Mess Around With (shower_messAround_Picker)" Tags="TestUnsafe" Value="227342" />
+  <Preset Label="Try for Baby With (shower_TryForBaby_Female_Picker)" Tags="TestUnsafe" Value="227343" />
+  <Preset Label="Try for Baby With (shower_TryForBaby_Male_Picker)" Tags="TestUnsafe" Value="227344" />
+  <Preset Label="WooHoo With (shower_WooHoo_Picker)" Tags="TestUnsafe" Value="227345" />
+  <Preset Label="Try for Baby (shower_TryForBaby)" Value="227346" />
+  <Preset Label="WooHoo (shower_WooHoo)" Value="227347" />
+  <Preset Label="nonTouching_Unpaired_Greetings_CollegeOrganization_SecretSociety" Value="227352" />
+  <Preset Label="greetingReactionMixer_CollegeOrganization_SecretSociety" Value="227354" />
+  <Preset Label="generic_Shower_Woohoo" Value="227358" />
+  <Preset Label="Check Application Status (phone_UniversityEnrollment_CheckApplicationStatus)" Value="227372" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level1_RoboticsRank3)" Value="227374" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level10_RoboticsRank3)" Value="227375" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level2_RoboticsRank3)" Value="227376" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level3_RoboticsRank3)" Value="227377" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level4_RoboticsRank3)" Value="227378" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level5_RoboticsRank3)" Value="227379" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level6_RoboticsRank3)" Value="227380" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level7_RoboticsRank3)" Value="227381" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level8_RoboticsRank3)" Value="227382" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level9_RoboticsRank3)" Value="227383" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_2_to_3)" Value="227425" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_3_to_4)" Value="227426" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_4_to_5)" Value="227427" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_5_to_6)" Value="227428" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_6_to_7)" Value="227429" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_7_to_8)" Value="227430" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_8_to_9)" Value="227431" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_9_to_10)" Value="227432" />
+  <Preset Label="Skip Application Wait Time (DEBUG) (University_Debug_GetAcceptance)" Value="227441" />
+  <Preset Label="Activate {1.ObjectName} (bots_Launch_Activate_FromTable_GrabBot)" Value="227445" />
+  <Preset Label="University of Britechester (computer_University_Research_Arts)" Value="227466" />
+  <Preset Label="Foxbury Institute (computer_University_Research_Science)" Value="227467" />
+  <Preset Label="Buy University Items (purchase_UniversityKiosk_ST)" Tags="TestUnsafe" Value="227471" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_1_to_2_RoboticsRank3)" Value="227473" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_2_to_3_RoboticsRank3)" Value="227474" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_3_to_4_RoboticsRank3)" Value="227475" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_4_to_5_RoboticsRank3)" Value="227476" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_5_to_6_RoboticsRank3)" Value="227477" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_6_to_7_RoboticsRank3)" Value="227478" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_7_to_8_RoboticsRank3)" Value="227479" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_8_to_9_RoboticsRank3)" Value="227480" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_9_to_10_RoboticsRank3)" Value="227481" />
+  <Preset Label="collegeOrganization_SecretSociety_Offering_Reaction_Bad" Value="227521" />
+  <Preset Label="collegeOrganization_SecretSociety_Offering_Reaction_Good" Value="227522" />
+  <Preset Label="collegeOrganization_SecretSociety_Offering_Reaction_Great" Value="227523" />
+  <Preset Label="Read (si_SwipeIntoSimInventory_UniversityEnrollment_AcceptanceLetter_Read)" Value="227538" />
+  <Preset Label="View (art_View_Sculpture_UniversityEnrollment_AcceptanceLetter)" Value="227542" />
+  <Preset Label="Assemble The E-Sports Team! (run_E-Sports_AssembleTheTeam_situation)" Value="227575" />
+  <Preset Label="Craft (easel_Craft_Autonomously_FigurePainting)" Value="227598" />
+  <Preset Label="File Court Documents (computer_Career_Law_FileCourtDocuments)" Value="227623" />
+  <Preset Label="Pose (collegeOrganizationInteractions_PaintinInThePark_Pose)" Value="227631" />
+  <Preset Label="collegeOrganizations_PaintinInThePark_Pose_1" Value="227641" />
+  <Preset Label="collegeOrganizations_PaintinInThePark_Pose_2" Value="227642" />
+  <Preset Label="collegeOrganizations_PaintinInThePark_Pose_3" Value="227643" />
+  <Preset Label="Convince to Increase Grade (researchDebate_Convince_IncreaseGrade_ClassA)" Value="227694" />
+  <Preset Label="Give Study Tips (researchDebate_Convince_GiveStudyTips)" Value="227695" />
+  <Preset Label="Convince to Give Homework Help for {2.String} (researchDebate_Convince_GiveHomeworkHelp_ClassA)" Value="227696" />
+  <Preset Label="immediate_Activate_All_Bots" Value="227716" />
+  <Preset Label="Convince to Increase Grade (researchDebate_Convince_IncreaseGrade_ClassB)" Value="227720" />
+  <Preset Label="Convince to Increase Grade (researchDebate_Convince_IncreaseGrade_ClassC)" Value="227721" />
+  <Preset Label="Convince to Increase Grade (researchDebate_Convince_IncreaseGrade_ClassD)" Value="227722" />
+  <Preset Label="Convince to Give Homework Help for {2.String} (researchDebate_Convince_GiveHomeworkHelp_ClassB)" Value="227736" />
+  <Preset Label="Convince to Give Homework Help for {2.String} (researchDebate_Convince_GiveHomeworkHelp_ClassC)" Value="227737" />
+  <Preset Label="Convince to Give Homework Help for {2.String} (researchDebate_Convince_GiveHomeworkHelp_ClassD)" Value="227738" />
+  <Preset Label="Put {1.ObjectName} on WorkStation (roboticsTable_Interactions_FromWorld_Bots_WorkOn_DeactivateFirst)" Value="227776" />
+  <Preset Label="White and Beige (humanoid_Robots_ChangeAppearance_BeigeWhite)" Value="227841" />
+  <Preset Label="Black and Blue (humanoid_Robots_ChangeAppearance_BlackBlue)" Value="227842" />
+  <Preset Label="Gray and Brown (humanoid_Robots_ChangeAppearance_GrayBrown)" Value="227843" />
+  <Preset Label="Gold and Brown (humanoid_Robots_ChangeAppearance_GreenBrown)" Value="227844" />
+  <Preset Label="Red and Green (humanoid_Robots_ChangeAppearance_RedGreen)" Value="227845" />
+  <Preset Label="Silver and Gray (humanoid_Robots_ChangeAppearance_WhiteCopper)" Value="227846" />
+  <Preset Label="Blue and Red (humanoid_Robots_ChangeAppearance_BlueRed)" Value="227847" />
+  <Preset Label="Tap Juice Keg (debug_JuiceKeg_Tap)" Value="227868" />
+  <Preset Label="Watch Debate (podiumPair_Watch_Object)" Value="227877" />
+  <Preset Label="Discuss Important Robot Things (humanoid_Robots_TalkToObjects_Socials_MiniBot_STOP)" Value="227884" />
+  <Preset Label="Mentor (mentor_Robotics)" Value="227891" />
+  <Preset Label="Scholarships_Apply_Computer_PickerResultCheck" Value="227903" />
+  <Preset Label="Scholarships_Apply_Mailbox_PickerResultCheck" Value="227904" />
+  <Preset Label="Dance (stereo_Dance_Bot)" Value="227905" />
+  <Preset Label="Flat Juice (debug_JuiceKeg_Flat)" Value="227906" />
+  <Preset Label="si_JuiceKeg_GrabCup_MoveAway" Value="227907" />
+  <Preset Label="Attend Graduation (sportsArena_Graduation_Gather)" Value="227921" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_CoffeeCart_Food)" Value="227925" />
+  <Preset Label="Celebrate (solo_University_Graduation_Celebrate)" Value="227937" />
+  <Preset Label="Order Food (cafeteriaStation_Immediate_OrderFood_Fake_PreBreakfast)" Value="227958" />
+  <Preset Label="Order Food (cafeteriaStation_Immediate_OrderFood_Fake_PreLunch)" Value="227959" />
+  <Preset Label="Order Food (cafeteriaStation_Immediate_OrderFood_Fake_PreDinner)" Value="227960" />
+  <Preset Label="Class Presentation (univeristy_TermPresentation_AskForFeedback_RouteToObject)" Value="227985" />
+  <Preset Label="Tune Up (roboticsTable_Interactions_Bots_WorkOn_TuneUp)" Value="228003" />
+  <Preset Label="Remove Banners (sportsArena_RemoveBanner)" Value="228004" />
+  <Preset Label="marketStalls_ChooseFoodDelivery_PizzaBox" Value="228035" />
+  <Preset Label="Put Down (marketStalls_PizzaBox_Put_In_Inventory)" Value="228043" />
+  <Preset Label="Declare Winner (collegeOrganization_RoboticsExhibition_Judge_DeclareWinner)" Value="228075" />
+  <Preset Label="Join a Sports Team (sportsArena_JoinSportsTeam)" Value="228095" />
+  <Preset Label="collegeOrganization_RoboticsExhibition_NPC_GoToEvent" Value="228103" />
+  <Preset Label="Attend E-Sports Game With (sportsArena_SimPicker_GoToGame_Esports_ArtUni)" Tags="TestUnsafe" Value="228105" />
+  <Preset Label="Attend E-Sports Game With (sportsArena_SimPicker_GoToGame_Esports_ScienceUni)" Tags="TestUnsafe" Value="228106" />
+  <Preset Label="Attend Soccer Game With (SportsArena_SimPicker_GoToGame_Football_ArtUni)" Tags="TestUnsafe" Value="228107" />
+  <Preset Label="Attend Soccer Game With (sportsArena_SimPicker_GoToGame_Football_ScienceUni)" Tags="TestUnsafe" Value="228108" />
+  <Preset Label="Equip ExoMech Suit (mechanicalSuit_Body_PutOn)" Value="228124" />
+  <Preset Label="Equip ExoMech Suit (mechanicalSuit_Body_PutOn_Cont)" Value="228138" />
+  <Preset Label="Equip ExoMech Helmet (mechanicalSuit_Helmet_PutOn_Cont)" Value="228140" />
+  <Preset Label="Equip ExoMech Helmet (mechanicalSuit_Helmet_PutOn)" Value="228141" />
+  <Preset Label="Offer Legal Representation (socials_Targeted_Friendly_AlwaysOn_STC_Law_OfferLegalRepresentation)" Tags="TestUnsafe" Value="228165" />
+  <Preset Label="Take The Lawyer's Exam (si_Career_Law_TakeLawyerExam)" Value="228190" />
+  <Preset Label="Chat about Scandalous Lawsuit (socials_Targeted_Friendly_AlwaysOn_STC_Law_ChatAboutScandalousLawsuit)" Tags="TestUnsafe" Value="228193" />
+  <Preset Label="Self-Repair (humanoid_Robots_SelfInteraction_TuneUp)" Value="228195" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance)" Value="228196" />
+  <Preset Label="Download Enhancement Data (humanoid_Robots_SelfInteractions_DownloadEnhancementData)" Value="228218" />
+  <Preset Label="Electric Overload (humanoid_Robots_ElectricOverload_Death)" Value="228257" />
+  <Preset Label="Water (Gardening_Water_Org_SecretSociety_SpriteGarden)" Value="228286" />
+  <Preset Label="Say Uplifting Things (Gardening_Talk_Org_SecretSociety_SpriteGarden)" Value="228294" />
+  <Preset Label="Make Loan Payment (phone_MakeLoanPayment)" Value="228342" />
+  <Preset Label="Make Loan Payment (mailbox_PayLoans)" Value="228343" />
+  <Preset Label="Guest Speak at University about Law (university_ClassroomShell_Career_Law_ClassVisit_GuestSpeak)" Value="228344" />
+  <Preset Label="Visit University Law Class (university_ClassroomShell_Career_Law_ClassVisit_LawLecture_Phone)" Value="228350" />
+  <Preset Label="Guest Speak at University about Law (university_ClassroomShell_Career_Law_ClassVisit_GuestSpeak_Phone)" Value="228351" />
+  <Preset Label="Sell (generic_SellObject_Bot)" Value="228352" />
+  <Preset Label="Express Disappointment (social_University_Cheating_ExpressDisappointment)" Value="228387" />
+  <Preset Label="Fill Cups with Juice (sI_JuiceKeg_FillCups_SlotsEmpty_BlueRaspberry)" Value="228391" />
+  <Preset Label="Fill Cups with Juice (sI_JuiceKeg_FillCups_SlotsEmpty_PassionFruit)" Value="228392" />
+  <Preset Label="Fill Cups with Juice (sI_JuiceKeg_FillCups_SlotsEmpty_PineappleLime)" Value="228393" />
+  <Preset Label="Fill Cups with Juice (SI_JuiceKeg_FillCups_SlotsFull_BlueRaspberry)" Value="228395" />
+  <Preset Label="Fill Cups with Juice (SI_JuiceKeg_FillCups_SlotsFull_PassionFruit)" Value="228396" />
+  <Preset Label="Fill Cups with Juice (SI_JuiceKeg_FillCups_SlotsFull_PineappleLime)" Value="228397" />
+  <Preset Label="Tap Juice Keg (SI_JuiceKeg_Tap_BlueRaspberry)" Value="228401" />
+  <Preset Label="Tap Juice Keg (SI_JuiceKeg_Tap_PassionFruit)" Value="228402" />
+  <Preset Label="Tap Juice Keg (SI_JuiceKeg_Tap_PineappleLime)" Value="228403" />
+  <Preset Label="Be Scolded For Cheating (social_University_Cheating_ExpressDisappointment_Target)" Value="228404" />
+  <Preset Label="Repair Utili-Bot (roboticsTable_Interactions_Bots_WorkOn_Repair)" Value="228405" />
+  <Preset Label="Set Bot to Very Low Battery (debug_BotBattery_NearDead)" Value="228414" />
+  <Preset Label="Taunt About University Superiority (sI_UniversityRivalry_Autonomous_Taunt)" Value="228418" />
+  <Preset Label="socialMixer_Greetings_CollegeOrganization_SecretSociety" Tags="TestUnsafe" Value="228424" />
+  <Preset Label="Fatal Overexertion (death_ElderExhaustion_ResearchMachine_Seated)" Value="228451" />
+  <Preset Label="termPresentation_Mixer_AskQuestions_Friendly" Value="228460" />
+  <Preset Label="termPresentation_Mixer_AskQuestions_Confused" Value="228461" />
+  <Preset Label="debate_Convince_CreateHomework_ClassA" Value="228515" />
+  <Preset Label="debate_Convince_CreateHomework_ClassB" Value="228516" />
+  <Preset Label="debate_Convince_CreateHomework_ClassC" Value="228517" />
+  <Preset Label="debate_Convince_CreateHomework_ClassD" Value="228518" />
+  <Preset Label="podiumPair_Judge_Mixers_TakeNotes" Value="228556" />
+  <Preset Label="podiumPair_Judge_Mixers_AnnounceWinner" Value="228557" />
+  <Preset Label="roommateNPC_TakePhoto" Value="228599" />
+  <Preset Label="Take Selfie with Mascot (mascot_Socials_Selfie_TakePictureFromAsk)" Value="228600" />
+  <Preset Label="Read (si_SwipeIntoSimInventory_UniversityEnrollment_AcceptanceLetter_ReadInInventory)" Value="228662" />
+  <Preset Label="Cheer (soccerBall_Watch_Mixer_Cheer)" Value="228665" />
+  <Preset Label="Enroll in a University (phone_UniversityEnrollment_Enroll)" Value="228670" />
+  <Preset Label="Spray With Stink Spray (mascot_Socials_StinkSpray)" Value="228675" />
+  <Preset Label="touching_Greetings_Handshake_PingPong" Value="228676" />
+  <Preset Label="generic_HumanoidRobot_Posture_Broken" Value="228710" />
+  <Preset Label="Apply for Scholarships (computer_University_Scholarships_Apply_Init)" Value="228779" />
+  <Preset Label="Apply for Scholarships (mailbox_UniversityScholarships_Apply_Init)" Value="228782" />
+  <Preset Label="stereo_Humanoid_Robots_Dance" Value="228789" />
+  <Preset Label="Participate in Debate Showdown (podiumPair_DebateShowdown)" Value="228794" />
+  <Preset Label="soccerBallMixers_Juggle_X_3" Tags="TestUnsafe" Value="228803" />
+  <Preset Label="soccerBallMixers_Juggle_Y_3" Tags="TestUnsafe" Value="228804" />
+  <Preset Label="soccerBallMixers_Juggle_Solo_3" Value="228805" />
+  <Preset Label="generic_HumanoidRobot_Posture_Stasis_Stand" Value="228806" />
+  <Preset Label="generic_HumanoidRobot_Posture_Stasis_Sit" Value="228809" />
+  <Preset Label="Hold (UniversityHousing_KegParty_SummonSnacks_Carry)" Value="228814" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_SoccerBall)" Value="228818" />
+  <Preset Label="&quot;Healthy vs. Comfort Food&quot; with (simPicker_PodiumPair_Debate_Skill_Cooking)" Tags="TestUnsafe" Value="228835" />
+  <Preset Label="&quot;Organic vs. Conventional Gardening&quot; with (simPicker_PodiumPair_Debate_Skill_Gardening)" Tags="TestUnsafe" Value="228836" />
+  <Preset Label="“Editing Photos: Is it Cheating?” with (simPicker_PodiumPair_Debate_Skill_Photography)" Tags="TestUnsafe" Value="228837" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Cooking)" Value="228838" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Gardening)" Value="228839" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Photography)" Value="228840" />
+  <Preset Label="roommateNPC_GoNearCommunityObject" Value="228853" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_RoboticsTable)" Value="228914" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_Deactivate_Bot)" Value="228929" />
+  <Preset Label="Get (cafeteriaStation_GetDrink_Autonomous)" Value="228931" />
+  <Preset Label="termPresentation_Mixer_PracticeLow" Value="228932" />
+  <Preset Label="termPresentation_Mixer_PracticeMedium" Value="228933" />
+  <Preset Label="termPresentation_Mixer_PracticeHigh" Value="228934" />
+  <Preset Label="Read Pleadings (computer_Career_Law_Judge_ReadPleadings)" Value="228939" />
+  <Preset Label="Be Checked In (door_PlayerRingDoorbell_Penthouse_UniversityHousing)" Value="228948" />
+  <Preset Label="Play Juice Pong (PingPong_JuicePong_Holder)" Value="228996" />
+  <Preset Label="termPresentation_Mixer_Listen" Value="229020" />
+  <Preset Label="termPresentation_Mixer_ListenSurprised" Value="229021" />
+  <Preset Label="termPresentation_Mixer_ListenHeckle" Value="229022" />
+  <Preset Label="Practice Juggling (aggregateSuperInteraction_SoccerBall_Juggle_Rallyable)" Value="229051" />
+  <Preset Label="Play Soccer Together (aggregateSuperInteraction_SoccerBall_PlayWith_Rallyable)" Value="229053" />
+  <Preset Label="podiumPair_Mixers_Commentary" Value="229132" />
+  <Preset Label="Study for {2.String} (computer_University_Studying_CourseA_ResearchMachine)" Value="229152" />
+  <Preset Label="Study for {2.String} (computer_University_Studying_CourseB_ResearchMachine)" Value="229153" />
+  <Preset Label="Study for {2.String} (computer_University_Studying_CourseC_ResearchMachine)" Value="229154" />
+  <Preset Label="Study for {2.String} (computer_University_Studying_CourseD_ResearchMachine)" Value="229155" />
+  <Preset Label="Check Enhancement Progress (humanoid_Robots_Immediate_CheckEnhancementProgress)" Value="229177" />
+  <Preset Label="Participate in Debate Showdown (podiumPair_DebateShowdown_NotInUse)" Value="229179" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_PickedSim)" Value="229196" />
+  <Preset Label="Get to Class Early (university_ClassroomShell_GoToClass_Arts_A)" Value="229265" />
+  <Preset Label="generic_HumanoidRobot_Posture_Activate_Social" Value="229275" />
+  <Preset Label="Go to Class (autonomous_ObjectPicker_University_ClassroomPicker_Science_A)" Tags="TestUnsafe" Value="229283" />
+  <Preset Label="Go to Class (autonomous_ObjectPicker_University_ClassroomPicker_Arts_A)" Tags="TestUnsafe" Value="229285" />
+  <Preset Label="Get to Class Early (university_ClassroomShell_GoToClass_Science_A)" Value="229287" />
+  <Preset Label="solo_University_Graduation_Pusher_Gather" Value="229291" />
+  <Preset Label="Get to Class Early (university_ClassroomShell_GoToClass_Arts_B)" Value="229293" />
+  <Preset Label="Get to Class Early (university_ClassroomShell_GoToClass_Arts_C)" Value="229294" />
+  <Preset Label="Get to Class Early (university_ClassroomShell_GoToClass_Arts_D)" Value="229295" />
+  <Preset Label="Get to Class Early (university_ClassroomShell_GoToClass_Science_C)" Value="229299" />
+  <Preset Label="Get to Class Early (university_ClassroomShell_GoToClass_Science_D)" Value="229300" />
+  <Preset Label="Get to Class Early (university_ClassroomShell_GoToClass_Science_B)" Value="229301" />
+  <Preset Label="solo_University_Graduation_Pusher_Ceremony" Value="229303" />
+  <Preset Label="Go to Class (autonomous_ObjectPicker_University_ClassroomPicker_Arts_B)" Tags="TestUnsafe" Value="229304" />
+  <Preset Label="Go to Class (autonomous_ObjectPicker_University_ClassroomPicker_Arts_C)" Tags="TestUnsafe" Value="229305" />
+  <Preset Label="Go to Class (autonomous_ObjectPicker_University_ClassroomPicker_Arts_D)" Tags="TestUnsafe" Value="229306" />
+  <Preset Label="Go to Class (autonomous_ObjectPicker_University_ClassroomPicker_Science_B)" Tags="TestUnsafe" Value="229308" />
+  <Preset Label="Go to Class (autonomous_ObjectPicker_University_ClassroomPicker_Science_C)" Tags="TestUnsafe" Value="229309" />
+  <Preset Label="Go to Class (autonomous_ObjectPicker_University_ClassroomPicker_Science_D)" Tags="TestUnsafe" Value="229310" />
+  <Preset Label="attractorPoint_Interaction_PlayGuitar" Value="229320" />
+  <Preset Label="Guitar (guitar_NPC_CreateAndPlayGuitar)" Value="229329" />
+  <Preset Label="Hold (University_CreateAndCarryNotebook)" Value="229331" />
+  <Preset Label="Pick Up (sim_University_CarryNotebook)" Value="229333" />
+  <Preset Label="termPresentation_Mixer_Reaction_High" Value="229335" />
+  <Preset Label="termPresentation_Mixer_Reaction_Low" Value="229338" />
+  <Preset Label="Eat Cake (death_Cowplant_HumanoidRobot)" Value="229340" />
+  <Preset Label="Sit in on Skill Class (University_ClassroomShell_SkillClass_Prep)" Value="229388" />
+  <Preset Label="Enthuse About Graduation with {1.SimFirstName} (nonTouching_SocialSuperInteractions_EnthuseAboutGraduation)" Value="229398" />
+  <Preset Label="Activate Servo (humanoid_Robots_Creation_ActivateRobot_FindParent)" Value="229399" />
+  <Preset Label="University of Britechester Sweatpants (universityKiosk_ChangeOutfit_Bottom_AH)" Value="229407" />
+  <Preset Label="Foxbury Institute Sweatpants (universityKiosk_ChangeOutfit_Bottom_ST)" Value="229409" />
+  <Preset Label="University of Britechester Hat (universityKiosk_ChangeOutfit_Hat_AH)" Value="229410" />
+  <Preset Label="Foxbury Institute Hat (universityKiosk_ChangeOutfit_Hat_ST)" Value="229411" />
+  <Preset Label="University of Britechester Sweatshirt (universityKiosk_ChangeOutfit_Top_AH)" Value="229412" />
+  <Preset Label="Foxbury Institute Sweatshirt (universityKiosk_ChangeOutfit_Top_ST)" Value="229413" />
+  <Preset Label="Give Professional Commentary (podiumPair_Solo_Commentary_Start)" Value="229418" />
+  <Preset Label="Go Home (universityWorld_GoHome_ClothingOptional)" Value="229423" />
+  <Preset Label="Flush (toilet-flush_prank)" Value="229455" />
+  <Preset Label="Kick Soccer Ball with (autonomousSimPicker_SoccerBall_PlayWith_Rally)" Tags="TestUnsafe" Value="229490" />
+  <Preset Label="Kick Soccer Ball with (autonomousObjectInInventory_SoccerBall_PlayWith_Rally)" Tags="TestUnsafe" Value="229491" />
+  <Preset Label="Activate Servo (social_HumanoidRobot_Activate_Target)" Value="229492" />
+  <Preset Label="Repair {1.SimFirstName} (social_HumanoidRobot_Repair)" Value="229494" />
+  <Preset Label="humanoid_Robots_GettingRepaired_Stasis" Value="229507" />
+  <Preset Label="Toggle Behavior Modules (picker_HumanoidRobot_BehaviorModule_Add_Limited_4)" Tags="TestUnsafe" Value="229511" />
+  <Preset Label="Make Offering for Academic Success (interactableStatue_MakeOffering_DestroyObject)" Value="229532" />
+  <Preset Label="Play Soccer Together (sI_SoccerBall_PlayWithRally)" Value="229557" />
+  <Preset Label="Craft (roboticsTable_Craft_Autonomously_NPC)" Value="229577" />
+  <Preset Label="Press to Talk (toy_Press_To_Talk_Robotics)" Value="229616" />
+  <Preset Label="Performance Chat (phone_Chat_SportsTeam_Performance)" Value="229617" />
+  <Preset Label="Knock On Door (door_PlayerRingDoorbell_Sliding_UniversityHousing)" Value="229628" />
+  <Preset Label="Knock On Door (door_PlayerRingDoorbell_UniversityHousing)" Value="229629" />
+  <Preset Label="RoboNanny (humanoid_Robots_Immediate_UnlockNewModule_Childcare)" Value="229641" />
+  <Preset Label="Parameterize and Sanitize (humanoid_Robots_Immediate_UnlockNewModule_Cleaning)" Value="229642" />
+  <Preset Label="Eco-Friendly Tech (humanoid_Robots_Immediate_UnlockNewModule_Gardening)" Value="229643" />
+  <Preset Label="Party Machine (humanoid_Robots_Immediate_UnlockNewModule_Party)" Value="229644" />
+  <Preset Label="Fix-O-Matic (humanoid_Robots_Immediate_UnlockNewModule_Repair)" Value="229645" />
+  <Preset Label="Sim Defense Matrix (humanoid_Robots_Immediate_UnlockNewModule_Security)" Value="229646" />
+  <Preset Label="mixer_Repair_HumanoidRobot" Value="229652" />
+  <Preset Label="Assemble The E-Sports Team! (e-Sports_AssembleTheTeam)" Value="229675" />
+  <Preset Label="Assemble The E-Sports Team! (run_E-Sports_AssembleTheTeam_situation_Arts)" Value="229677" />
+  <Preset Label="generic_HumanoidRobot_Posture_Activation_PoweredDown" Value="229684" />
+  <Preset Label="Pick Up (sim_University_CarryNotebook_Player)" Value="229687" />
+  <Preset Label="Contribute Knowledge Failure (computer_ResearchMachine_ContributeKnowledge_Failure)" Value="229704" />
+  <Preset Label="Kick Soccer Ball with (autonomousObjectPicker_SoccerBall_PlayWith_Rally)" Tags="TestUnsafe" Value="229765" />
+  <Preset Label="Kick Soccer Ball with (autonomousObjectPicker_SoccerBall_Juggle_Rally)" Tags="TestUnsafe" Value="229772" />
+  <Preset Label="Practice Juggling (autonomousObjectInInventory_SoccerBall_Juggle_Rally)" Tags="TestUnsafe" Value="229773" />
+  <Preset Label="humanoidRobot_party_CreateInHand_Drink" Value="229777" />
+  <Preset Label="idle_Buff_InDebt" Value="229778" />
+  <Preset Label="Practice Juggling (sI_SoccerBall_Juggle_Solo_NPC)" Value="229781" />
+  <Preset Label="loan_Immediate_Payment_Continuation" Value="229783" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_E-Sports_GamingChair)" Value="229784" />
+  <Preset Label="Kick Soccer Ball with {1.SimFirstName} (touching_SoccerBall_Play_NPC)" Value="229790" />
+  <Preset Label="aggregateSI_RoommateNPC_SS3" Value="229806" />
+  <Preset Label="Off to E-Sports Meeting (si_Career_E-Sports_Arena)" Value="229811" />
+  <Preset Label="soccerBallMixers_Juggle_Solo_npc" Value="229813" />
+  <Preset Label="Kick Soccer Ball with (autonomousSimPicker_SoccerBall_PlayWith_Rally_NPC)" Tags="TestUnsafe" Value="229814" />
+  <Preset Label="Practice Juggling (sI_SoccerBall_Juggle_Solo_NPC_NearBall)" Value="229815" />
+  <Preset Label="Make Offering for Academic Success (interactableStatue_MakeOffering_DestroyObject_NPC)" Value="229825" />
+  <Preset Label="roommateNPC_SS3_SitSocialize" Value="229834" />
+  <Preset Label="roommateNPC_SS3_SitPhone" Value="229835" />
+  <Preset Label="Locked Out (roommateNPC_LockedOut_Preroll)" Value="229869" />
+  <Preset Label="UniversityMaid_LeaveLotNow" Value="229882" />
+  <Preset Label="Debate a Topic (podiumPair_Debate_Professional_Wave)" Value="229916" />
+  <Preset Label="Fight! (mascot_Socials_FightRival)" Value="229926" />
+  <Preset Label="Fight! (mascot_Socials_FightRival_Target)" Value="229927" />
+  <Preset Label="High (stereo_changevolume_high_Bots)" Value="229941" />
+  <Preset Label="High (stereo_changevolume_high_HumanoidRobot)" Value="229942" />
+  <Preset Label="Low (stereo_changevolume_low_Bots)" Value="229943" />
+  <Preset Label="Low (stereo_changevolume_low_HumanoidRobot)" Value="229944" />
+  <Preset Label="Medium (stereo_changevolume_medium_Bots)" Value="229945" />
+  <Preset Label="Medium (stereo_changevolume_medium_HumanoidRobot)" Value="229946" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_9)" Value="229958" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_10)" Value="229959" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_2)" Value="229960" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_3)" Value="229961" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_4)" Value="229962" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_5)" Value="229963" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_6)" Value="229964" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_7)" Value="229965" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_8)" Value="229966" />
+  <Preset Label="Do Homework (roommateNPC_DoHomework)" Value="229974" />
+  <Preset Label="Roommate_DoHomework" Value="229975" />
+  <Preset Label="Do Homework for {2.String} (book_Homework_University_Roommate)" Value="229985" />
+  <Preset Label="roboticsTable_Mixers_Hammer_Fail_Minibots" Value="230006" />
+  <Preset Label="roboticsTable_Mixers_Hammer_Succeed_Minibots" Value="230007" />
+  <Preset Label="roboticsTable_Mixers_Passive_Minibots" Value="230008" />
+  <Preset Label="roboticsTable_Mixers_Torch_Minibots" Value="230010" />
+  <Preset Label="roboticsTable_Mixers_Repair_Minibots" Value="230026" />
+  <Preset Label="Going to Soccer Practice (volunteerCareerSuperInteraction_SoccerTeam_Practice_Arena)" Value="230028" />
+  <Preset Label="Go Home (universityWorld_GoHome)" Value="230029" />
+  <Preset Label="Go to Soccer Game (volunteerCareerSuperInteraction_SoccerTeam_Game_Arena)" Value="230044" />
+  <Preset Label="Attend Deposition (si_RabbitHole_Career_Law_AttendDeposition_Phone)" Value="230110" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_1_to_2)" Value="230136" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_2_to_3)" Value="230137" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_3_to_4)" Value="230138" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_4_to_5)" Value="230139" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_5_to_6)" Value="230140" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_6_to_7)" Value="230141" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_7_to_8)" Value="230142" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_8_to_9)" Value="230143" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_9_to_10)" Value="230144" />
+  <Preset Label="Repair Utili-Bot (roboticsTable_Interactions_Bots_WorkOn_Repair_Forward)" Value="230150" />
+  <Preset Label="Tune Up (roboticsTable_Interactions_Bots_WorkOn_TuneUp_Forward)" Value="230151" />
+  <Preset Label="Have a Professional Debate about A.I. with (simPicker_PodiumPair_ProfessionalDebate_Situation)" Tags="TestUnsafe" Value="230155" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_1_to_2_RoboticsRank3)" Value="230164" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_2_to_3_RoboticsRank3)" Value="230165" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_3_to_4_RoboticsRank3)" Value="230166" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_4_to_5_RoboticsRank3)" Value="230167" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_5_to_6_RoboticsRank3)" Value="230168" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_6_to_7_RoboticsRank3)" Value="230169" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_7_to_8_RoboticsRank3)" Value="230170" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_8_to_9_RoboticsRank3)" Value="230171" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_Forward_9_to_10_RoboticsRank3)" Value="230172" />
+  <Preset Label="humanoid_Robots_Immediate_WaterThoughtBalloon" Value="230214" />
+  <Preset Label="Rename &quot;{1.ObjectName}&quot; (humanoid_Robots_WorkOnRobot_ChangeName_Part1)" Value="230243" />
+  <Preset Label="humanoid_Robots_Immediate_RainThoughtBalloon" Value="230285" />
+  <Preset Label="Keg Stand! (social_JuiceKeg_KegStand_Autonomous)" Value="230401" />
+  <Preset Label="Watch (microphone_StudentCommons_Arts_Poetry_WatchReading)" Value="230403" />
+  <Preset Label="sim_CheerUp_QuickSocial_UniversityAcceptance" Value="230405" />
+  <Preset Label="Go to University Class (goHomeAndAttendUniversity)" Value="230430" />
+  <Preset Label="Go to Rabbithole (Debug) (roommateNPC_Rabbithole_GoEat)" Value="230509" />
+  <Preset Label="podiumPair_StepBack" Value="230580" />
+  <Preset Label="aggregate_PodiumPair_DebateShowdown" Value="230590" />
+  <Preset Label="Participate in Debate Showdown (autonomousSimPicker_PodiumPair_DebateShowdown_Player)" Tags="TestUnsafe" Value="230592" />
+  <Preset Label="Laptop (autonomous_ObjectPicker_Computer_RoommateUse)" Tags="TestUnsafe" Value="230595" />
+  <Preset Label="Crash Engineering Course (career_Engineering_VisitUniversity_Science_Shell2_CrashCourse)" Value="230632" />
+  <Preset Label="Guest Speak at Computer Engineering Class (career_Engineering_VisitUniversity_Arts_Shell1_GuestLecture)" Value="230633" />
+  <Preset Label="Crash Engineering Course (career_Engineering_VisitUniversity_Arts_Shell1_CrashCourse)" Value="230634" />
+  <Preset Label="Crash Engineering Course (career_Engineering_VisitUniversity_Arts_Shell2_CrashCourse)" Value="230635" />
+  <Preset Label="Guest Speak at Computer Engineering Class (career_Engineering_VisitUniversity_Arts_Shell2_GuestLecture)" Value="230636" />
+  <Preset Label="Crash Engineering Course (career_Engineering_VisitUniversity_Science_Shell1_CrashCourse)" Value="230637" />
+  <Preset Label="Guest Speak at Computer Engineering Class (career_Engineering_VisitUniversity_Science_Shell1_GuestLecture)" Value="230638" />
+  <Preset Label="Guest Speak at Computer Engineering Class (career_Engineering_VisitUniversity_Science_Shell2_GuestLecture)" Value="230640" />
+  <Preset Label="Tune Up (roboticsTable_Interactions_Bots_WorkOn_TuneUp_Forward_RoboticsRank3)" Value="230648" />
+  <Preset Label="Repair Utili-Bot (roboticsTable_Interactions_Bots_WorkOn_Repair_Forward_RoboticsRank3)" Value="230650" />
+  <Preset Label="Take off Computer Glasses (computerGlasses_TakeOff_Fixup)" Value="231045" />
+  <Preset Label="Remove Robo-Arm (RoboticArn_TakeOff_Picker)" Tags="TestUnsafe" Value="231393" />
+  <Preset Label="Attend Deposition (si_RabbitHole_Career_Law_AttendDeposition_Computer)" Value="240254" />
+  <Preset Label="Repair (ShellActions_SolveRobots)" Value="245180" />
+  <Preset Label="Male (humanoid_Robots_Immediate_CreateRobot_Male_Debug)" Value="245270" />
+  <Preset Label="Female (humanoid_Robots_Immediate_CreateRobot_Female_Debug)" Value="245278" />
+  <Preset Label="Repair (ShellActions_SolveRobots_UserDirected)" Value="249932" />
+  <Preset Label="Remove Offering (collegeOrganization_SecretSociety_StoneAltar_RemoveOffering)" Value="256471" />
+  <Preset Label="Take Vacation Day (Law) (phone_TakePTO_Law)" Value="256650" />
+  <Preset Label="Take Vacation Day (Education) (phone_TakePTO_Education)" Value="256651" />
+  <Preset Label="Take Vacation Day (Engineer) (phone_TakePTO_Engineer)" Value="256652" />
+</PresetGroup>

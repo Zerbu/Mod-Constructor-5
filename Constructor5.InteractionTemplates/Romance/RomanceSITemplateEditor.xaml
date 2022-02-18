@@ -15,7 +15,7 @@
                        FontSize="{StaticResource Constructor.BigFontSize}"
                        Header="Settings">
                 <StackPanel>
-                    <c:Field Label="Pie Menu Category" LabelWidth="150">
+                    <c:Field Label="PieMenuCategory" LabelWidth="150">
                         <c:ReferenceControl ElementTypeName="PieMenuCategory"
                                             Reference="{Binding PieMenuCategory}"
                                             ResetTo="15504"

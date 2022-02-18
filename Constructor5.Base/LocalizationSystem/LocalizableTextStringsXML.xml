@@ -57,7 +57,7 @@
 	<String Key="VoiceEffect">Voice Effect</String>
 	<String Key="BlockedEmotions">Blocked Emotions</String>
 	<String Key="BlockedEmotionsNotice">Sims with the trait will not be able to receive buffs with these emotions. Please beware that this can interfere with gameplay. Goals that require Sims to be in a specific emotion will be impossible to complete, and buffs that have gameplay modifying effects will not work.</String>
-	<String Key="SocialInteractionsNotice">These social interactions will be available to Sims who have the trait.</String>
+	<String Key="SocialInteractionsNotice">These social interactions will be available to Sims who have the trait or buff.</String>
 	<String Key="TraitSetupActionsNotice">These actions are applied when a Sim is first placed in the world or when a trait is added through gameplay. This is intended for giving Sims a "head start" on life, for example setting Character Values from Parenthood. These actions are not always guaranteed to run and will not be undone when a trait is removed (such as through the Re-Traiting Potion or cheats).</String>
 	<String Key="MixerinteractionsNotice">Mixer interactions are "idles" that can be performed while the Sim has the trait or buff. By default, these interactions are hidden from the player and can only be performed autonomously. A common use of these interactions is to use lock out times to run an action at a random interval (emotional buffs added by EA traits, like "Feeling Sad", are added using Mixer Interactions). Warning: Setting the lock out time too low can cause simulation lag.</String>
 	<String Key="TraitBuffReplacementsNotice">When Sims are meant to receive the original buff, Sims with the trait will receive a replacement instead. WARNING: This can prevent parts of the game that expect the original buff from working properly. Because of this, it is recommended you avoid replacing buffs that are tied to gameplay (for example: pregnancy buffs, buffs that appear when Sims have low Needs, role buffs, festival buffs, etc). In such cases, an alternative would be to use an action to have a buff spawn in addition to the original, not instead of.</String>
@@ -108,7 +108,7 @@ Note: Conditions are applied to the receiver, not the sender.</String>
 	<String Key="Options">Options</String>
 	<String Key="SituationInfo">Situation Info</String>
 	<String Key="Content">Content</String>
-	<String Key="GoaledEvent">Goaled Event</String>
+	<String Key="GoaledEvent">Goals and Activities</String>
 	<String Key="LotTypes">Lot Types</String>
 	<String Key="Duration">Duration</String>
 	<String Key="MaxParticipants">Max Participants</String>
@@ -149,7 +149,7 @@ Note: Conditions are applied to the receiver, not the sender.</String>
 	<String Key="GenerateIDFromLabel">Generate ID from Label</String>
 
 	<String Key="GoaledEventNotice">Please note: If a goaled social event is started by a Sim with the Perfect Host aspiration reward trait, or a Sim with Great or Pristine reputation, the event will automatically skip to bronze. The game's code does not contain an option to disable this. Keep this in mind when creating the event.</String>
-	<String Key="IsGoaledEvent">Is Goaled Event</String>
+	<String Key="IsGoaledEvent">Is Goaled or Activity Event</String>
 	<String Key="MainGoal">Main Goal</String>
 	<String Key="GoalSets">Goal Sets</String>
 	<String Key="Rewards">Rewards</String>
@@ -405,8 +405,8 @@ It is recommended you keep these settings at their default values, unless you kn
 	<String Key="LikeDislike">Like/Dislike</String>
 	<String Key="Objective">Objective</String>
 	<String Key="ObjectiveSet">Objective Set</String>
-	<String Key="PieMenuCategory">PieMenuCategory</String>
-	<String Key="RelationshipTrack">RelationshipTrack</String>
+	<String Key="PieMenuCategory">Pie Menu Category</String>
+	<String Key="RelationshipTrack">Relationship Track</String>
 	<String Key="RelBit">RelBit</String>
 	<String Key="RewardSet">Reward Set</String>
 	<String Key="RoleState">Role State</String>
@@ -801,14 +801,68 @@ Element Name: {label}</String>
 	<String Key="Yes">Yes</String>
 	<String Key="No">No</String>
 
-	<String Key="InitialValue">Initia lValue</String>
+	<String Key="InitialValue">Initial Value</String>
 
 	<String Key="CASPreferenceNameNotice">Normally, the Name should be plural while the CAS Name should be singular.</String>
-	<String Key="CASName">CASName</String>
+	<String Key="CASName">CAS Name</String>
 
 	<String Key="CASPreferenceCategory">Preference Category</String>
 	<String Key="CASPreference">Preference</String>
 
+	<String Key="SkillCondition">Skill Condition</String>
+	<String Key="CustomTuningInstanceTypeNotSet">Instance type is not set for Custom Tuning Element: {id}</String>
+	<String Key="CustomTuningModuleNotSet">Module is not set for Custom Tuning Element: {id}</String>
+	<String Key="CustomTuningClassNotSet">Class is not set for Custom Tuning Element: {id}</String>
+	<String Key="EndRoleState">End Role State</String>
+	<String Key="ChangingRoleStates">Changing Role States</String>
+	<String Key="AddRoleStateChange">Add Role State Change</String>
+	<String Key="CountTowardsTellJoke">Count towards "Tell Joke" goals</String>
+	<String Key="Level1Success">Level 1 Success</String>
+	<String Key="Level2and3Success">Level 2 and 3 Success</String>
 
+	<String Key="RunWhenInteractionGreatlySucceeds">Run when the interaction greatly succeeds</String>
+	<String Key="RunWhenInteractionSuccessNormally">Run when the interaction succeeds normally</String>
+	<String Key="RunWhenInteractionFailsNormally">Run when the interaction fails normally</String>
+	<String Key="RunWhenInteractionFailsHorribly">Run when the interaction fails horribly</String>
+	<String Key="RunOnSocialContextFailure">Run when the interaction fails due to social context (EA considers this the worst type of failure)</String>
+	<String Key="Bounds">Bounds</String>
+	<String Key="Runonlevel1success">Run on level 1 success</String>
+	<String Key="Runonlevel2success">Run on level 2 success</String>
+	<String Key="Runonlevel3success">Run on level 3 success</String>
+	<String Key="Runwhentheinteractionissuccessful">Run when the interaction is successful</String>
+	<String Key="Runwhentheinteractionfails">Run when the interaction fails</String>
+	
+	<String Key="PieMenuIcon">Pie Menu Icon</String>
 
+	<String Key="Activities">Activities</String>
+	<String Key="OptionalActivities">Optional Activities</String>
+	<String Key="RequiredActivities">Required Activities</String>
+	<String Key="SituationJobInfo">Situation Job Info</String>
+
+	<String Key="SituationActivity">Situation Activity</String>
+	
+	<String Key="ActivitiesNotice">This will turn the event into an Activity Event.
+
+IMPORTANT: This will alter how the UI works. The amount of time remaining will not be shown to the player. The game's code does not allow this to be changed. The medal level also won't be shown, although the medal system is still used in the background, and activity goals can have scores that will contribute to the outcome.</String>
+
+	<String Key="AreYouSureReplaceElement">This reference is already set to a custom element. Do you want to create a new one and change it?</String>
+
+	<String Key="NumberOfAssignments">Number of Objective Sets</String>
+	
+	<String Key="NumberOfAssignmentsHelp">This is the number of objective SETS the Sim will be assigned, NOT individual objectives. The sets will be chosen at random from those that pass the condition.</String>
+
+	<String Key="UntilThereAre">Until there are</String>
+<String Key="SimMinutesLeft">Sim minutes left</String>
+<String Key="AreYouSureRoleStateChange">Are you sure you want to delete the selected role state change?</String>
+
+	<String Key="TraitBuffsNotice">These buffs will be added to Sims that have the trait, and will be permanent unless the trait is removed.</String>
+
+	<String Key="TraitOrigin">Trait Origin</String>
+	<String Key="TraitOriginNotice">The text displayed below the trait in the UI, indicating why it was added. For example: (From Completing a Custom Aspiration)</String>
+
+	<String Key="ObjectiveSetRewardNotice">The Sim will receive this reward after completing the Objective Set. This should only be used in special cases.</String>
+
+	<String Key="RoleStateChangesHelp">This option allows a Sim's role state to change over time during the situation.</String>
+
+	<String Key="CareerTemplateVolunteer">Volunteer/Afterschool Activity</String>
 </LocalizableTextStrings>

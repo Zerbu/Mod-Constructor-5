@@ -1,3 +1,4 @@
+using PropertyChanged;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
@@ -102,6 +103,7 @@ namespace Constructor5.Base
         ///     This collection changed event performs thread safe event raising.
         /// </summary>
         /// <param name="e">The event argument.</param>
+        [SuppressPropertyChangedWarnings]
         protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
         {
             // Recommended is to avoid reentry 
@@ -123,9 +125,8 @@ namespace Constructor5.Base
                     foreach (NotifyCollectionChangedEventHandler handler in delegates)
                     {
                         // If the subscriber is a DispatcherObject and different thread.
-                        var dispatcherObject = handler.Target as DispatcherObject;
 
-                        if (dispatcherObject != null && !dispatcherObject.CheckAccess())
+                        if (handler.Target is DispatcherObject dispatcherObject && !dispatcherObject.CheckAccess())
                         {
                             // Invoke handler in the target dispatcher's thread... 
                             // asynchronously for better responsiveness.

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions SP16">
+  <Preset Label="Put Bed Down (murphyBed_PutDown)" Value="228121" />
+  <Preset Label="Put Bed Up (murphyBed_PutUp)" Value="228225" />
+  <Preset Label="Be Crushed to Death by Murphy Bed (death_MurphyBed)" Value="228326" />
+  <Preset Label="Sleep (bed_Sleep_Swallow)" Value="229162" />
+  <Preset Label="Spring Loaded (murphyBed_Upgrade_BreakLess)" Value="229968" />
+  <Preset Label="Continue Upgrading Spring Loaded (murphyBed_Upgrade_BreakLess_Resume)" Value="229969" />
+  <Preset Label="Reinforced Spring Wiring (murphyBed_Upgrade_NeverBreak)" Value="229972" />
+  <Preset Label="Continue Reinforced Spring Wiring (murphyBed_Upgrade_NeverBreak_Resume)" Value="229973" />
+  <Preset Label="Possess For Energy (si_Touching_Ghost_Possess_For_Energy)" Value="230131" />
+  <Preset Label="Wake Up and Warn! (sim_WakeUp_Warn)" Value="230198" />
+  <Preset Label="Warn about Bed Safety (socials_Targeted_Friendly_AlwaysOn_STC_MurphyBed_Ghost_Warn_About_Safety_Beds)" Tags="TestUnsafe" Value="230229" />
+  <Preset Label="Disturbed Sleep (si_Touching_MurphyBed_Sleep_Swallow_Two_Sims)" Value="230271" />
+  <Preset Label="zoneModifier_TraitIdles_TinyHome_Comfort_Sigh" Value="230466" />
+  <Preset Label="zoneModifier_TraitIdles_TinyHome_Uncomfortable_Idle" Value="230502" />
+  <Preset Label="zoneModifier_TraitIdles_TinyHome_Idle_Chooser" Value="230508" />
+  <Preset Label="Brag About Small Home (mixer_social_BragAboutTinyHome)" Tags="TestUnsafe" Value="230755" />
+  <Preset Label="Massage Controls (Bed_Upgrades_Massage_Controls_Energy_Gain_MurphyBed)" Value="230767" />
+  <Preset Label="Resume Massage Controls (Bed_Upgrades_Massage_Controls_Energy_Gain_Resume_MurphyBed)" Value="230768" />
+  <Preset Label="Mattress Firmness (Bed_Upgrades_Mattress_Firmness_MurphyBed)" Value="230769" />
+  <Preset Label="Resume Mattress Firmness (Bed_Upgrades_Mattress_Firmness_Resume_MurphyBed)" Value="230770" />
+  <Preset Label="Be Crushed to Death by Murphy Bed (death_MurphyBed_debug)" Value="230792" />
+  <Preset Label="Repair (object_Repair_MurphyBed)" Value="230826" />
+  <Preset Label="Put Bed Down (murphyBed_PutDownFail)" Value="230863" />
+  <Preset Label="Reinforced Spring Wiring (upgrades_CompletedDisplay_MurphyBed_NeverBreak)" Value="230952" />
+  <Preset Label="Spring Loaded (upgrades_CompletedDisplay_MurphyBed_BreakLess)" Value="230953" />
+  <Preset Label="Ask to Be Put Here (simPickerInteraction_ToddlerPutDown_Sofa_MurphyBed)" Tags="TestUnsafe" Value="231070" />
+  <Preset Label="Put Here (simPickerInteraction_ToddlerPutDown_Sofa_MurphyBed_Adult)" Tags="TestUnsafe" Value="231071" />
+  <Preset Label="Put Bed Down (murphyBed_PutDown_NoLoveseat)" Value="231076" />
+  <Preset Label="Put Bed Down (murphyBed_PutDownFail_NoLoveseat)" Value="231078" />
+  <Preset Label="Be Crushed to Death by Murphy Bed (death_MurphyBed_NoLoveseat)" Value="231080" />
+  <Preset Label="Sit (seating_Sit_MurphyBed)" Value="231114" />
+  <Preset Label="Put {2.SimFirstName} Down Here (putDown_CarriedSim_Sofa_MurphyBed)" Value="231461" />
+</PresetGroup>

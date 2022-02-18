@@ -10,6 +10,8 @@ namespace Constructor5.Base.PropertyTypes
         public string SelectedParticipant { get; set; } = "Actor";
         public ElementIcon SelectedStandardIcon { get; set; } = new ElementIcon();
 
+#pragma warning disable CS0067
         public event PropertyChangedEventHandler PropertyChanged;
+#pragma warning restore CS0067
     }
 }

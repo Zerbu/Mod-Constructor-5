@@ -40,12 +40,8 @@ namespace Constructor5.UI.Converters
                     }
                 }
             }
-            catch (Exception e)
+            catch
             {
-                try
-                {
-                }
-                catch { }
             }
 
             return null;

@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions GP05">
+  <Preset Label="Argue (Argument)" Value="159284" />
+  <Preset Label="argument_Mixers_Chat" Tags="TestUnsafe" Value="159286" />
+  <Preset Label="argument_Mixers_FrustYellFail" Tags="TestUnsafe" Value="159287" />
+  <Preset Label="argument_Mixers_FrustYellSucceed" Tags="TestUnsafe" Value="159288" />
+  <Preset Label="argument_Mixers_AngryYell" Tags="TestUnsafe" Value="159289" />
+  <Preset Label="argument_Mixers_AngryYell_Swapped" Tags="TestUnsafe" Value="159290" />
+  <Preset Label="Argue about Politics (mixer_Argument_Start_Politics)" Tags="TestUnsafe" Value="159361" />
+  <Preset Label="Reconcile Argument (Argument_Reconcile)" Tags="TestUnsafe" Value="159387" />
+  <Preset Label="Argue (Argument_Target)" Value="159399" />
+  <Preset Label="Shove (mixer_social_Families_Shove)" Tags="TestUnsafe" Value="159475" />
+  <Preset Label="Cry (emotionalMeltdowns_Cry)" Value="159489" />
+  <Preset Label="Throw Tantrum (emotionalMeltdowns_Tantrum)" Value="159490" />
+  <Preset Label="Add Inventory Drawing (familyBulletinBoard_PutUpDrawing_SelectDrawing)" Tags="TestUnsafe" Value="159547" />
+  <Preset Label="Write Note For (FamilyBulletinBoard_WriteNoteFor)" Tags="TestUnsafe" Value="159580" />
+  <Preset Label="Pack into Sack Lunch (food_packIntoSackLunch)" Value="160003" />
+  <Preset Label="Unpack Sack Lunch (sackLunch_Unpack)" Tags="TestUnsafe" Value="160004" />
+  <Preset Label="Unpack to Eat (SackLunch_UnpackToEat)" Value="160005" />
+  <Preset Label="Argue about Career (mixer_Argument_Start_Careers)" Tags="TestUnsafe" Value="160006" />
+  <Preset Label="Argue about Outlook on Life (mixer_Argument_Start_LifeOutlook)" Tags="TestUnsafe" Value="160008" />
+  <Preset Label="Argue about Morals (mixer_Argument_Start_Morals)" Tags="TestUnsafe" Value="160009" />
+  <Preset Label="Argue about Kindness (mixer_Argument_Start_Kindness)" Tags="TestUnsafe" Value="160010" />
+  <Preset Label="Argue about Humor (mixer_Argument_Start_Humor)" Tags="TestUnsafe" Value="160011" />
+  <Preset Label="Argue about Social Anxiety (mixer_Argument_Start_SocialAnxiety)" Tags="TestUnsafe" Value="160012" />
+  <Preset Label="Argue about the Wonders of Nature (mixer_Argument_Start_NatureWonders)" Tags="TestUnsafe" Value="160013" />
+  <Preset Label="Argue about Cleanliness (mixer_Argument_Start_Cleanliness)" Tags="TestUnsafe" Value="160014" />
+  <Preset Label="Argue about Romance (mixer_Argument_Start_Romance)" Tags="TestUnsafe" Value="160015" />
+  <Preset Label="Argue about Music (mixer_Argument_Start_Music)" Tags="TestUnsafe" Value="160016" />
+  <Preset Label="Argue about Sharing (mixer_Argument_Start_Sharing)" Tags="TestUnsafe" Value="160017" />
+  <Preset Label="Argue about Arguing (mixer_Argument_Start_Arguments)" Tags="TestUnsafe" Value="160018" />
+  <Preset Label="Argue about School (mixer_Argument_Start_School)" Tags="TestUnsafe" Value="160019" />
+  <Preset Label="Argue about Job (mixer_Argument_Start_Job)" Tags="TestUnsafe" Value="160020" />
+  <Preset Label="Argue about Parenting (mixer_Argument_Start_Parenting)" Tags="TestUnsafe" Value="160021" />
+  <Preset Label="Argue about House Rules (mixer_Argument_Start_HouseRules)" Tags="TestUnsafe" Value="160022" />
+  <Preset Label="Argue about Who's Better (mixer_Argument_Start_WhosBetter)" Tags="TestUnsafe" Value="160023" />
+  <Preset Label="Argue about Exercising (mixer_Argument_Start_Exercising)" Tags="TestUnsafe" Value="160024" />
+  <Preset Label="Argue about Life Goals (mixer_Argument_Start_LifeGoals)" Tags="TestUnsafe" Value="160025" />
+  <Preset Label="Argue about Children (mixer_Argument_Start_Children)" Tags="TestUnsafe" Value="160026" />
+  <Preset Label="Argue about Food (mixer_Argument_Start_Food)" Tags="TestUnsafe" Value="160027" />
+  <Preset Label="Relive Memories (book_Journal_Read)" Value="160097" />
+  <Preset Label="Write in Journal (book_Journal_Write)" Value="160098" />
+  <Preset Label="Snoop in Journal (book_Journal_Snoop)" Value="160100" />
+  <Preset Label="Shove (mixer_social_Families_Shove_Cont)" Tags="TestUnsafe" Value="160180" />
+  <Preset Label="Journal_Write_Active" Value="160182" />
+  <Preset Label="Journal_Write_Passive" Value="160183" />
+  <Preset Label="Play Doctor (DoctorPlayset_Play)" Value="160200" />
+  <Preset Label="doctorPlayset_Mixers_Stethoscope" Value="160202" />
+  <Preset Label="doctorPlayset_Mixers_EyeExam" Value="160203" />
+  <Preset Label="doctorPlayset_Mixers_Syringe" Value="160204" />
+  <Preset Label="doctorPlayset_Mixers_Talk" Value="160205" />
+  <Preset Label="Hide Journal (Bed_Journal_Hide)" Value="160220" />
+  <Preset Label="Hide Journal (Bed_Journal_Hide_Picker)" Tags="TestUnsafe" Value="160221" />
+  <Preset Label="Locate Journal (Bed_Journal_Locate)" Value="160222" />
+  <Preset Label="Locate Journal (Bed_Journal_Locate_Picker)" Tags="TestUnsafe" Value="160227" />
+  <Preset Label="Catch {1.SimFirstName} Snooping Journal! (book_Journal_Snoop_View)" Value="160254" />
+  <Preset Label="Talk about Journal Entries (mixer_social_TalkAboutJournal_targeted_Friendly_HighScore)" Tags="TestUnsafe" Value="160260" />
+  <Preset Label="Make Fun of Journal Entries (mixer_social_MakeFunOfJournal_targeted_mean_highScore)" Tags="TestUnsafe" Value="160261" />
+  <Preset Label="Nursing Home (SI_VolunteerEvents_NursingHome)" Value="160346" />
+  <Preset Label="Walk for Disease (SI_VolunteerEvents_Walk)" Value="160347" />
+  <Preset Label="Beach Clean Up (SI_VolunteerEvents_Beach)" Value="160348" />
+  <Preset Label="Charity Bake Sale (SI_VolunteerEvents_BakeSale)" Value="160349" />
+  <Preset Label="Soup Kitchen (SI_VolunteerEvents_SoupKitchen)" Value="160350" />
+  <Preset Label="Volunteer (phone_simPicker_GoToVolunteerEvent)" Tags="TestUnsafe" Value="160371" />
+  <Preset Label="Volunteer Activities (computer_Picker_GoToVolunteerEvent)" Tags="TestUnsafe" Value="160372" />
+  <Preset Label="Make a Fun Face (parentingSkill_SolveFun)" Value="160549" />
+  <Preset Label="Encourage Holding Bladder (parentingSkill_SolveBladder)" Value="160550" />
+  <Preset Label="Ask to Clean Self Off (parentingSkill_SolveHygiene)" Value="160551" />
+  <Preset Label="Give a Second Wind (parentingSkill_SolveEnergy)" Value="160552" />
+  <Preset Label="Satisfying Chat (parentingSkill_SolveSocial)" Value="160553" />
+  <Preset Label="Tell to Eat Something (parentingSkill_SolveHunger)" Value="160554" />
+  <Preset Label="You'll Be Okay (parentingSkill_YoullBeOkay)" Value="160588" />
+  <Preset Label="Give Parenting Tips (socials_Targeted_Friendly_ParentingSkill_GiveParentingTips)" Tags="TestUnsafe" Value="160593" />
+  <Preset Label="Cheer Up Parent (socials_Targeted_Friendly_ParentingSkill_CheerUpParent)" Tags="TestUnsafe" Value="160594" />
+  <Preset Label="Super Efficient Baby Care (baby_ParentingSkill_SuperSolve)" Value="160602" />
+  <Preset Label="Be Instructed (parentingSkill_Target_Solve)" Value="160624" />
+  <Preset Label="Browse Parenting Forums (computer_Browse_ParentingSkill_BrowseForums)" Value="160647" />
+  <Preset Label="Research Parenting Methods (computer_Browse_ParentingSkill_ResearchParenting)" Value="160648" />
+  <Preset Label="si_backFromVolunteer" Value="160678" />
+  <Preset Label="Influence to Sleep (parentingSkill_InfluenceTo_Energy)" Value="160693" />
+  <Preset Label="VolunteerEvents_Prep" Value="160733" />
+  <Preset Label="Influence to Eat (parentingSkill_InfluenceTo_Hunger_Child)" Value="160734" />
+  <Preset Label="Influence to Shower (parentingSkill_InfluenceTo_Hygiene)" Value="160737" />
+  <Preset Label="Influence to Pee (parentingSkill_InfluenceTo_Bladder)" Value="160738" />
+  <Preset Label="Influence to Play (parentingSkill_InfluenceTo_Fun)" Value="160739" />
+  <Preset Label="Be Influenced (parentingSkill_Target_InfluenceTo)" Value="160742" />
+  <Preset Label="Influence to Clean Up Toys (parentingSkill_InfluenceTo_CleanUpToys)" Value="160749" />
+  <Preset Label="Polite Introduction (mixer_social_PoliteIntroduction_greetings_skills)" Tags="TestUnsafe" Value="160860" />
+  <Preset Label="Calm Emotions (socials_Targeted_Friendly_Compassionate_CalmEmotions)" Tags="TestUnsafe" Value="160867" />
+  <Preset Label="Share Emotional Burden (socials_Targeted_Friendly_Compassionate_ShareEmotionalBurden)" Tags="TestUnsafe" Value="160868" />
+  <Preset Label="Offer Gratitude to {1.SimFirstName} (mixer_social_OfferGratitude_Targeted_Friendly_AlwaysOn_invited)" Tags="TestUnsafe" Value="160888" />
+  <Preset Label="Point Out Flaws (mixer_social_PointOutFlaws_targeted_friendly_alwaysFail)" Tags="TestUnsafe" Value="160934" />
+  <Preset Label="Comment on Appearance (mixer_social_CommentOnAppearance_targeted_Friendly_alwaysFail)" Tags="TestUnsafe" Value="160936" />
+  <Preset Label="Unintentionally Crush Dreams (mixer_social_UnintentionallyCrushDreams_targeted_friendly_alwaysFail)" Tags="TestUnsafe" Value="160937" />
+  <Preset Label="Unintentionally Insult Interests (mixer_social_AccidentlyInsultInterests_targeted_friendly_alwaysFail)" Tags="TestUnsafe" Value="160938" />
+  <Preset Label="Question Emotion (socials_Targeted_Mean_Unfeeling_QuestionEmotion)" Tags="TestUnsafe" Value="160961" />
+  <Preset Label="Instigate (socials_Targeted_Mean_Unfeeling_RileUp)" Tags="TestUnsafe" Value="160962" />
+  <Preset Label="Whisper about Crush (mixer_social_WhisperAboutCrush_Targeted_Friendly_alwaysOn_Teen)" Tags="TestUnsafe" Value="160977" />
+  <Preset Label="Boast about Messing Around (mixer_social_BoastAboutMessingAround_Targeted_Friendly_AlwaysOn_teen)" Tags="TestUnsafe" Value="160978" />
+  <Preset Label="Whine about Unfair Life (mixer_social_WhineAboutUnfairLife_Targeted_friendly_AlwaysOn_teen)" Tags="TestUnsafe" Value="160979" />
+  <Preset Label="Obsess about Favorite Show (mixer_social_ObsessAboutFavorite_Targeted_Friendly_AlwaysOn_Teen)" Tags="TestUnsafe" Value="160980" />
+  <Preset Label="Show Off Selfies (mixer_social_ShowOffApp_Targeted_Friendly_AlwaysOn_Teen)" Tags="TestUnsafe" Value="160981" />
+  <Preset Label="Rave about Growing Up (mixer_social_RaveAboutGrowingUp_targeted_Friendly_AlwaysOn_Teen)" Tags="TestUnsafe" Value="160982" />
+  <Preset Label="Pressure to Conform (mixer_social_PressureToConform_Mean_AlwaysOn_TEen)" Tags="TestUnsafe" Value="160983" />
+  <Preset Label="Mock Uncool Adult (mixer_social_MockUncoolAdult_Mean_AlwaysOn_Teen)" Tags="TestUnsafe" Value="160984" />
+  <Preset Label="Throw Shade (mixer_social_ThrowShade_Mean_AlwaysOn_Teen)" Tags="TestUnsafe" Value="160985" />
+  <Preset Label="Act Tough (mixer_social_ActTough_Mean_AlwaysOn_Teen)" Tags="TestUnsafe" Value="160986" />
+  <Preset Label="Tell Urban Legend (mixer_social_TellUrbanLegend_Mischief_AlwaysOn_Teen)" Tags="TestUnsafe" Value="160987" />
+  <Preset Label="Spread Rumors about Woohoo (mixer_social_SpreadRumorsAboutWoohoo_Mischief_AlwaysOn_Teen)" Tags="TestUnsafe" Value="160988" />
+  <Preset Label="Set Curfew for 7 PM (familyBulletinBoard_SetCurfew_Early)" Value="161020" />
+  <Preset Label="Set Curfew for 9 PM (familyBulletinBoard_SetCurfew_Medium)" Value="161021" />
+  <Preset Label="Set Curfew for 11 PM (familyBulletinBoard_SetCurfew_Late)" Value="161022" />
+  <Preset Label="Remove Curfew (familyBulletinBoard_SetCurfew_Off)" Value="161023" />
+  <Preset Label="Write Angry Note (familyBulletinBoard_AddNote_Angry)" Value="161030" />
+  <Preset Label="Write Note (familyBulletinBoard_AddNote)" Value="161031" />
+  <Preset Label="Write Angry Note For (familyBulletinBoard_WriteNoteFor_Angry)" Tags="TestUnsafe" Value="161041" />
+  <Preset Label="Add Inventory Drawing (familyBulletinBoard_PutUpDrawing_FromInventory)" Value="161084" />
+  <Preset Label="Pack into Sack Lunch (generic_food_Grab_to_SackLunch)" Value="161085" />
+  <Preset Label="Add Inventory Drawing (FamilyBulletinBoard_PutUpDrawing_SelectTarget)" Tags="TestUnsafe" Value="161087" />
+  <Preset Label="Create Drawing (familyBulletinBoard_CreateDrawing)" Value="161100" />
+  <Preset Label="Create Drawing (familyBulletinBoard_CreateDrawingFor)" Tags="TestUnsafe" Value="161102" />
+  <Preset Label="Write Note For (FamilyBulletinBoard_WriteNoteFor_auto)" Tags="TestUnsafe" Value="161119" />
+  <Preset Label="Write Angry Note For (FamilyBulletinBoard_WriteNoteFor_Angry_auto)" Tags="TestUnsafe" Value="161121" />
+  <Preset Label="Teach to Say Please and Thank You (sim_TeachTo_SayPleaseAndThankYou_Actor_ToToddler)" Value="161137" />
+  <Preset Label="Learn to Say Please and Thank You (sim_TeachTo_SayPleaseAndThankYou_Target)" Value="161138" />
+  <Preset Label="Learn to Say Please and Thank You (sim_TeachTo_SayPleaseAndThankYou_ToddlerListen)" Value="161139" />
+  <Preset Label="Teach to Say Please and Thank You (sim_TeachTo_SayPleaseAndThankYou_Actor)" Value="161142" />
+  <Preset Label="Say Please (teachTo_SayPlease_Mixers_P_Story_Response)" Tags="TestUnsafe" Value="161201" />
+  <Preset Label="Say Please (teachTo_SayPlease_Mixers_TYAE_Story)" Tags="TestUnsafe" Value="161202" />
+  <Preset Label="Say Please (teachTo_SayPlease_Mixers_C_Story_Response)" Tags="TestUnsafe" Value="161203" />
+  <Preset Label="Hide Journal (put_item_in_hiding_spot)" Value="161257" />
+  <Preset Label="Hide Journal (Bed_Journal_Hide_AutoPicker)" Tags="TestUnsafe" Value="161260" />
+  <Preset Label="Locate Journal (Bed_Journal_Locate_AutoPicker)" Tags="TestUnsafe" Value="161261" />
+  <Preset Label="Locate Journal (bed_Journal_Locate_ToWrite)" Value="161263" />
+  <Preset Label="Clear Bulletin Board (familyBulletinBoard_ClearBoard)" Value="161317" />
+  <Preset Label="familyBulletinBoard_CreateDrawingFor_auto" Tags="TestUnsafe" Value="161363" />
+  <Preset Label="Journal_Snoop_Active" Value="161402" />
+  <Preset Label="Journal_Snoop_Passive" Value="161403" />
+  <Preset Label="Journal_Read_Active" Value="161404" />
+  <Preset Label="Journal_Read_Passive" Value="161405" />
+  <Preset Label="Volunteer Activities (BuffPicker_VolunteerEvents)" Tags="TestUnsafe" Value="161446" />
+  <Preset Label="Jog to Clear Mind (terrain_JogOffFeelings)" Value="161482" />
+  <Preset Label="Influence to Make Group Meal (parentingSkill_InfluenceTo_Hunger_Teen)" Value="161551" />
+  <Preset Label="Influence to Wash Dishes (parentingSkill_InfluenceTo_WashDishes)" Value="161571" />
+  <Preset Label="Influence to Mop Puddles (parentingSkill_InfluenceTo_MopPuddles)" Value="161572" />
+  <Preset Label="Influence to Pick Up Trash (parentingSkill_InfluenceTo_CleanUpTrash)" Value="161573" />
+  <Preset Label="Accuse of Touching Possessions (mixer_Social_AccuseOfTouchingPossessions_SiblingRivalry_AlwaysOn)" Tags="TestUnsafe" Value="161658" />
+  <Preset Label="Blame For Bad Mood (mixer_Social_BlameForBadMood_SiblingRivalry_AlwaysOn)" Tags="TestUnsafe" Value="161659" />
+  <Preset Label="Trick into Believing in Vampires (mixer_Social_TrickIntoBelieving_SiblingRivalry_AlwaysOn)" Tags="TestUnsafe" Value="161660" />
+  <Preset Label="Insult Existence (mixer_Social_InsultExistence_SiblingRivalry_AlwaysOn)" Tags="TestUnsafe" Value="161661" />
+  <Preset Label="Convince Monsters are Real (mixer_Social_ConvinceMonsterAreReal_SiblingRivalry_AlwaysOn)" Tags="TestUnsafe" Value="161662" />
+  <Preset Label="Tease about Face (mixer_Social_Tease_SiblingRivalry_AlwaysOn)" Tags="TestUnsafe" Value="161663" />
+  <Preset Label="Flick Nose (mixer_Social_FlickNose_SiblingRivalry_AlwaysOn)" Tags="TestUnsafe" Value="161664" />
+  <Preset Label="Ground (picker_Grounding)" Tags="TestUnsafe" Value="161677" />
+  <Preset Label="Belch (grossManners_Belch)" Value="161704" />
+  <Preset Label="Fart (grossManners_Fart)" Value="161705" />
+  <Preset Label="React to Gross Behavior (reactions_GrossManners_Belch)" Value="161723" />
+  <Preset Label="React to Gross Behavior (reactions_GrossManners_Fart)" Value="161744" />
+  <Preset Label="Wind Down with Classical (stereo_listen_classical_CalmEmotions)" Value="161787" />
+  <Preset Label="Influence to Take Out Trash (parentingSkill_InfluenceTo_TakeOutTrash)" Value="161792" />
+  <Preset Label="Influence to Do Homework (parentingSkill_InfluenceTo_DoHomework)" Value="161822" />
+  <Preset Label="Work Carefully (object_SchoolProjectBox_WorkCarefully)" Value="161823" />
+  <Preset Label="Work Sloppily (object_SchoolProjectBox_WorkSloppily)" Value="161824" />
+  <Preset Label="Work Carefully (object_SchoolProjectBox_WorkCarefully_Helper)" Value="161825" />
+  <Preset Label="Play with Emotion (guitar_Jam_PlayAwayFeelings)" Value="161826" />
+  <Preset Label="Play with Emotion (guitar_Jam_PlayAwayFeelings_Inventory)" Value="161829" />
+  <Preset Label="Set The Table (superInteraction_SetTheTable)" Value="161837" />
+  <Preset Label="Play with Emotion (piano_Concerto_PlayAwayFeelings)" Value="161870" />
+  <Preset Label="Play with Emotion (violin_Concerto_PlayAwayFeelings_Inventory)" Value="161877" />
+  <Preset Label="Play with Emotion (violin_Concerto_PlayAwayFeelings_Inventory_Child)" Value="161878" />
+  <Preset Label="Play with Emotion (violin_Concerto_PlayAwayFeelings)" Value="161880" />
+  <Preset Label="Play with Emotion (violin_Concerto_PlayAwayFeelings_Child)" Value="161881" />
+  <Preset Label="Play with Emotion (toy_PlayAwayFeelings)" Value="161894" />
+  <Preset Label="Force to Mop Puddles (parentingSkill_ForceTo_MopPuddles)" Value="162124" />
+  <Preset Label="object_SchoolProjectBox_AddChemical_Carefully" Value="162127" />
+  <Preset Label="object_SchoolProjectBox_AddChemical_Sloppily" Value="162128" />
+  <Preset Label="object_SchoolProjectBox_Read_Carefully" Value="162129" />
+  <Preset Label="object_SchoolProjectBox_Screwdriver_Carefully" Value="162131" />
+  <Preset Label="object_SchoolProjectBox_Screwdriver_Sloppily" Value="162132" />
+  <Preset Label="object_SchoolProjectBox_TestTubeSwirl_Carefully" Value="162133" />
+  <Preset Label="object_SchoolProjectBox_TestTubeSwirl_Sloppily" Value="162134" />
+  <Preset Label="object_SchoolProjectBox_Wrench_Carefully" Value="162135" />
+  <Preset Label="object_SchoolProjectBox_Wrench_Sloppily" Value="162136" />
+  <Preset Label="object_SchoolProjectBox_ClayIdle_Carefully" Value="162137" />
+  <Preset Label="object_SchoolProjectBox_ClayIdle_Sloppily" Value="162138" />
+  <Preset Label="object_SchoolProjectBox_ClayThump_Carefully" Value="162139" />
+  <Preset Label="object_SchoolProjectBox_ClayThump_Sloppily" Value="162140" />
+  <Preset Label="object_SchoolProjectBox_Idea_Carefully" Value="162141" />
+  <Preset Label="object_SchoolProjectBox_Idle" Value="162143" />
+  <Preset Label="object_SchoolProjectBox_Measure_Carefully" Value="162144" />
+  <Preset Label="object_SchoolProjectBox_Measure_Sloppily" Value="162145" />
+  <Preset Label="Force to Clean Up Toys (parentingSkill_ForceTo_CleanUpToys)" Value="162146" />
+  <Preset Label="Force to Wash Dishes (parentingSkill_ForceTo_WashDishes)" Value="162147" />
+  <Preset Label="Force to Do Homework (parentingSkill_ForceTo_DoHomework)" Value="162148" />
+  <Preset Label="Force to Take Out Trash (parentingSkill_ForceTo_TakeOutTrash)" Value="162149" />
+  <Preset Label="Force to Clean Up Trash (parentingSkill_ForceTo_CleanUpTrash)" Value="162150" />
+  <Preset Label="Force to Pee (parentingSkill_ForceTo_Bladder)" Value="162175" />
+  <Preset Label="Force to Sleep (parentingSkill_ForceTo_Energy)" Value="162176" />
+  <Preset Label="Force to Play (parentingSkill_ForceTo_Fun)" Value="162177" />
+  <Preset Label="Force to Eat (parentingSkill_ForceTo_Hunger_Child)" Value="162178" />
+  <Preset Label="Force to Make Group Meal (parentingSkill_ForceTo_Hunger_Teen)" Value="162179" />
+  <Preset Label="Force to Shower (parentingSkill_ForceTo_Hygiene)" Value="162180" />
+  <Preset Label="Work Sloppily (object_SchoolProjectBox_WorkSloppily_Helper)" Value="162220" />
+  <Preset Label="Work Carefully (object_SchoolProjectBox_WorkCarefully_Helper_NoTouching)" Value="162221" />
+  <Preset Label="Work Sloppily (object_SchoolProjectBox_WorkSloppily_Helper_NoTouching)" Value="162222" />
+  <Preset Label="Assist with Project (object_SchoolProjectBox_Helper_AssistChooser)" Value="162223" />
+  <Preset Label="Mood Swing (si_TeenMoodSwing)" Value="162329" />
+  <Preset Label="idle_TeenMoodSwing" Value="162372" />
+  <Preset Label="Discuss Stressed Mood (mixer_social_AskAboutNegativeMood_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="162394" />
+  <Preset Label="Talk Through Mood Swing (mixer_social_TalkAboutMoodiness_TeenMoodSwing)" Tags="TestUnsafe" Value="162424" />
+  <Preset Label="Read Note (familyBulletinBoard_Read_Positive)" Value="162455" />
+  <Preset Label="Read Note (familyBulletinBoard_ReactNote_Positive)" Value="162459" />
+  <Preset Label="Tuck In (bed_Sleep_TuckIn)" Value="162472" />
+  <Preset Label="Criticize Mood Swing (mixer_social_CriticizeMoodSwing_TeenMoodSwing)" Tags="TestUnsafe" Value="162481" />
+  <Preset Label="Put to Bed (Bed_SimPicker_PutToBed_TYAE)" Tags="TestUnsafe" Value="162491" />
+  <Preset Label="Encourage {1.SimFirstName} to Redirect Mood (mixer_social_EncourageRedirect_TeenMoodSwing)" Tags="TestUnsafe" Value="162496" />
+  <Preset Label="Put {2.SimFirstName} to Sleep (bed_GetNear_FromPicker)" Value="162500" />
+  <Preset Label="Put to Bed (socials_Targeted_Friendly_AlwaysOn_STC_PutToBed_TYAE)" Tags="TestUnsafe" Value="162509" />
+  <Preset Label="Bite (mixer_Social_Toddler_Bite)" Tags="TestUnsafe" Value="162512" />
+  <Preset Label="Discipline - Ask Not To Do (disciplineTemplate_AskNotToDo_Reject)" Value="162517" />
+  <Preset Label="Ask about Future Plans (mixer_social_AskAboutFuturePlans_targeted_friendly_alwayson)" Tags="TestUnsafe" Value="162525" />
+  <Preset Label="Give Family Advice (mixer_social_GiveFamilyAdvice_targeted_friendly_alwayson)" Tags="TestUnsafe" Value="162527" />
+  <Preset Label="Bring Up Embarrassing Childhood Moment (mixer_social_BringUpChildhoodMoment_targeted_friendly_alwayson)" Tags="TestUnsafe" Value="162528" />
+  <Preset Label="Secret Handshake (mixer_social_SecretHandshake_targeted_friendly_alwaysOn)" Tags="TestUnsafe" Value="162529" />
+  <Preset Label="Deep Personal Conversation (mixer_social_DeepPersonalConversation_targeted_friendly_alwaysOn)" Tags="TestUnsafe" Value="162531" />
+  <Preset Label="Back in My Day (mixer_social_BackInMyDay_targeted_friendly_alwaysOn)" Tags="TestUnsafe" Value="162532" />
+  <Preset Label="Put {2.SimFirstName} to Sleep (bed_GetNear_FromSocial)" Value="162556" />
+  <Preset Label="Ask to Put to Bed (bed_SimPicker_PutToBed_C)" Tags="TestUnsafe" Value="162586" />
+  <Preset Label="Ask to Be Put to Bed (socials_Targeted_Friendly_AlwaysOn_STC_PutToBed_C)" Tags="TestUnsafe" Value="162605" />
+  <Preset Label="Ask to Be Put to Bed (socials_Targeted_Friendly_AlwaysOn_STC_PutToBed_C_FromPicker)" Tags="TestUnsafe" Value="162606" />
+  <Preset Label="Put to Bed (socials_Targeted_Friendly_AlwaysOn_STC_PutToBed_TYAE_FromPicker)" Tags="TestUnsafe" Value="162607" />
+  <Preset Label="Think about Family Member (si_thinkAboutFamilyMember)" Value="162629" />
+  <Preset Label="Tuck In (bed_SimPicker_TuckIn_InBed_TYAE)" Tags="TestUnsafe" Value="162630" />
+  <Preset Label="Think about Family Member (autonomousSimPicker_ThinkAboutFamilyMember)" Tags="TestUnsafe" Value="162633" />
+  <Preset Label="Hug Lovingly (mixer_social_LovingHug)" Tags="TestUnsafe" Value="162655" />
+  <Preset Label="Read Note (familyBulletinBoard_ReactNote_Negative)" Value="162712" />
+  <Preset Label="Read Note (familyBulletinBoard_Read_Negative)" Value="162714" />
+  <Preset Label="Look At Drawing (familyBulletinBoard_LookAtDrawing)" Value="162722" />
+  <Preset Label="Look At Drawing (familyBulletinBoard_LookAtDrawing_React)" Value="162723" />
+  <Preset Label="Continue Making a Mess (superInteraction_MakeAMess_VariantA)" Value="162782" />
+  <Preset Label="Discipline - Tell Not To Do (disciplineTemplate_TellNotToDo_Reject)" Value="162822" />
+  <Preset Label="Discipline - Express Disappointment (disciplineTemplate_ExpressDisappointment_Reject)" Value="162832" />
+  <Preset Label="Find Out What's Wrong (baby_ParentingSkill_WhatsWrong)" Value="162974" />
+  <Preset Label="Shout Forbidden Words (solo_Swear)" Value="162994" />
+  <Preset Label="Discipline - Encourage (disciplineTemplate_Encourage)" Value="163026" />
+  <Preset Label="Continue Making a Mess (superInteraction_MakeAMess_VariantB)" Value="163032" />
+  <Preset Label="Continue Making a Mess (superInteraction_MakeAMess_VariantC)" Value="163033" />
+  <Preset Label="Discipline - Hug It Out (disciplineTemplate_HugItOut_Reject)" Value="163073" />
+  <Preset Label="Time Out (solo_Discipline_TimeOut)" Value="163091" />
+  <Preset Label="Mediate the Forums (computer_MediateForum)" Value="163093" />
+  <Preset Label="Assert Correctness (mixer_social_AssertCorrectness_targeted_friendly_alwaysOn)" Tags="TestUnsafe" Value="163094" />
+  <Preset Label="Mend Differences (mixer_social_MendDifferences_targeted_friendly_alwaysOn)" Tags="TestUnsafe" Value="163095" />
+  <Preset Label="Launch (immediate_Object_SchoolProjectBox_Activate_Rocket)" Value="163216" />
+  <Preset Label="Activate (immediate_Object_SchoolProjectBox_Activate_SimBot)" Value="163217" />
+  <Preset Label="Activate (immediate_Object_SchoolProjectBox_Activate_TeslaCoil)" Value="163218" />
+  <Preset Label="Start Chemical Reaction (immediate_Object_SchoolProjectBox_Activate_Volcano)" Value="163219" />
+  <Preset Label="Deactivate (immediate_Object_SchoolProjectBox_Deactivate_TeslaCoil)" Value="163243" />
+  <Preset Label="Discipline - Ask Not To Do (disciplineTemplateSocial_AskNotToDo_Accept_Major)" Value="163246" />
+  <Preset Label="Discipline - Ask Not To Do (disciplineTemplateSocial_AskNotToDo_Accept_Minor)" Value="163247" />
+  <Preset Label="Clean Up (superInteraction_MakeAMess_Cleanup)" Value="163254" />
+  <Preset Label="Discipline - Tell Not To Do (disciplineTemplateSocial_TellNotToDo_Accept_Major)" Value="163258" />
+  <Preset Label="Discipline - Tell Not To Do (disciplineTemplateSocial_TellNotToDo_Accept_Minor)" Value="163259" />
+  <Preset Label="Discipline - Express Disappointment (disciplineTemplateSocial_ExpressDisappointment_Accept_Major)" Value="163261" />
+  <Preset Label="Discipline - Express Disappointment (disciplineTemplateSocial_ExpressDisappointment_Accept_Minor)" Value="163262" />
+  <Preset Label="Discipline - Hug It Out (disciplineTemplateSocial_HugItOut_Accept_Major)" Value="163264" />
+  <Preset Label="Discipline - Hug It Out (disciplineTemplateSocial_HugItOut_Accept_Minor)" Value="163265" />
+  <Preset Label="Discipline - Give Time Out For (disciplineTemplateSocial_GiveTimeOut)" Value="163266" />
+  <Preset Label="Discipline - Ground For (disciplineTemplateSocial_Ground)" Value="163267" />
+  <Preset Label="TeenMoodSwings_ObjectPicker_Violin" Tags="TestUnsafe" Value="163277" />
+  <Preset Label="Discipline - Yell At about (disciplineTemplateSocial_YellAtAbout_Accept_Major)" Value="163280" />
+  <Preset Label="Discipline - Yell At about (disciplineTemplateSocial_YellAtAbout_Accept_Minor)" Value="163281" />
+  <Preset Label="Encourage {1.SimFirstName} to Redirect Mood (TeenMoodSwing_EncourageRedirect)" Value="163286" />
+  <Preset Label="teenMoodSwings_ObjectPicker_Piano" Tags="TestUnsafe" Value="163290" />
+  <Preset Label="teenMoodSwings_ObjectPicker_Guitar" Tags="TestUnsafe" Value="163291" />
+  <Preset Label="teenMoodSwings_ObjectPicker_Computer" Tags="TestUnsafe" Value="163292" />
+  <Preset Label="teenMoodSwings_ObjectPicker_Stereo" Tags="TestUnsafe" Value="163303" />
+  <Preset Label="Listen to Loud Music (stereo_listen_alt_TeenMoodSwing)" Value="163310" />
+  <Preset Label="Continue Making a Mess (superInteraction_MakeAMess_VariantA_Continue)" Value="163326" />
+  <Preset Label="Continue Making a Mess (superInteraction_MakeAMess_VariantB_Continue)" Value="163332" />
+  <Preset Label="Continue Making a Mess (superInteraction_MakeAMess_VariantC_Continue)" Value="163334" />
+  <Preset Label="Loud Music (reactions_TeenMoodSwing_LoudMusic)" Value="163398" />
+  <Preset Label="Be Disciplined (social_Discipline_Target)" Value="163448" />
+  <Preset Label="superInteraction_ParentingAdventure" Value="163482" />
+  <Preset Label="Not Used (loopingObjectSituationStartImmediateInteraction_SetTheTable)" Value="163545" />
+  <Preset Label="Reprimand for Breaking Grounding (social_ReprimandBreakGrounding)" Value="163581" />
+  <Preset Label="Teach about Responsibility (mixer_social_TeachAboutResponsibility_Targeted_Friendly_AlwaysOn_Responsible)" Tags="TestUnsafe" Value="163582" />
+  <Preset Label="Be Reprimanded (social_GetReprimandedBreakGrounding)" Value="163591" />
+  <Preset Label="Whine about Grounding (mixer_social_WhineAboutGrounding_targeted_friendly_alwaysOn)" Tags="TestUnsafe" Value="163643" />
+  <Preset Label="Ignore Bills (mailbox_IgnoreBills)" Value="163658" />
+  <Preset Label="superInteraction_SetTheTable_Autonomous_Sim" Value="163842" />
+  <Preset Label="NOT USED (superInteraction_SetTheTable_Autonomous_Table)" Value="163844" />
+  <Preset Label="Set The Table (superInteraction_SetTheTable_AutonomousVariant)" Value="163852" />
+  <Preset Label="Make a Mess (superInteraction_MakeAMess_Start_Sim)" Value="163871" />
+  <Preset Label="Clear (object_placematFormal_Clear)" Value="163975" />
+  <Preset Label="Sincere Apology (mixer_social_SincereApology_targeted_friendly_lowScore)" Tags="TestUnsafe" Value="164000" />
+  <Preset Label="Influence to Build Skill (parentingSkill_InfluenceTo_Skills)" Value="164045" />
+  <Preset Label="Force to Build Skill (parentingSkill_ForceTo_Skills)" Value="164079" />
+  <Preset Label="Ignore Bills (computer_IgnoreBills)" Value="164087" />
+  <Preset Label="Ignore Bills (phone_IgnoreBills)" Value="164088" />
+  <Preset Label="Ignore Bills (tablet_IgnoreBills)" Value="164090" />
+  <Preset Label="Ask for Advice (social_AskForAdvice)" Value="164113" />
+  <Preset Label="superInteraction_AskForAdviceAdventure" Value="164119" />
+  <Preset Label="Be Asked Advice (social_AskForAdvice_Target)" Value="164120" />
+  <Preset Label="Put Down (sackLunch_GrabFromMultiserve_pack)" Value="164433" />
+  <Preset Label="Make Sack Lunch (fridge_GrabSackLunch)" Value="164448" />
+  <Preset Label="Whine about Curfew (mixer_social_FamilyBulletinBoard_WhineAboutCurfew)" Tags="TestUnsafe" Value="164522" />
+  <Preset Label="Laugh at Embarrassment (mixer_UnempatheticSocials_MockMood)" Tags="TestUnsafe" Value="164603" />
+  <Preset Label="Belittle Anger (mixer_UnempatheticSocials_ScoffMood)" Tags="TestUnsafe" Value="164604" />
+  <Preset Label="Chat (phone_NPC_Call_PC_AcquiredFamilyRelBit)" Value="164731" />
+  <Preset Label="Chat (phone_NPC_Call_PC_AcquiredFamilyRelBit_Gossip_Continuation)" Value="164734" />
+  <Preset Label="Chat (autonomousSimPickerSuperInteraction_phone_NPC_CallPC_AcquiredFamilyRelBit_GossipContinuation)" Tags="TestUnsafe" Value="164739" />
+  <Preset Label="Teach to Say Sorry (sim_TeachTo_SaySorry_Actor)" Value="164863" />
+  <Preset Label="Teach to Say Sorry (sim_TeachTo_SaySorry_ToToddler)" Value="164865" />
+  <Preset Label="Learn to Say Sorry (sim_TeachTo_SaySorry_Target)" Value="164868" />
+  <Preset Label="Learn to Say Sorry (sim_TeachTo_SaySorry_ToddlerListen)" Value="164870" />
+  <Preset Label="Help Fix Bad Relationship (simPicker_OtherSims_FixBadRelationship)" Tags="TestUnsafe" Value="164939" />
+  <Preset Label="Help Fix Bad Relationship (mixer_social_OtherSims_FixBadRelationship)" Tags="TestUnsafe" Value="164944" />
+  <Preset Label="Help Fix Bad Relationship (OtherSims_PushedInteractions_FixBadRelationship)" Value="164960" />
+  <Preset Label="SackLunch_Eat" Value="164968" />
+  <Preset Label="Play Dolls With (autonomousSimPicker_dollhouse_PlayWith)" Tags="TestUnsafe" Value="165004" />
+  <Preset Label="Continue Making a Mess (superInteraction_MakeAMess_FlourVariantD)" Value="165015" />
+  <Preset Label="Continue Making a Mess (superInteraction_MakeAMess_FlourVariantD_Continue)" Value="165016" />
+  <Preset Label="Entering a Phase (solo_ChildhoodPhase_Response)" Value="165018" />
+  <Preset Label="Watch TV with (autonomousSimPicker_watchTvWith)" Tags="TestUnsafe" Value="165037" />
+  <Preset Label="Dance with (autonomousSimPicker_DanceWith)" Tags="TestUnsafe" Value="165071" />
+  <Preset Label="Play Dolls (dollHouse_Play_Join_FromAutoPicker)" Value="165100" />
+  <Preset Label="Continue Making a Mess (superInteraction_MakeAMess_FlourVariantE)" Value="165142" />
+  <Preset Label="Continue Making a Mess (superInteraction_MakeAMess_FlourVariantF)" Value="165144" />
+  <Preset Label="autonomous_Generic_Book_Read_To_Child" Tags="TestUnsafe" Value="165147" />
+  <Preset Label="Read to Child (book_social_read_to_children_fromAutoPicker)" Value="165149" />
+  <Preset Label="autonomous_Generic_Book_Read_To_Toddler" Tags="TestUnsafe" Value="165151" />
+  <Preset Label="mixer_AtWork_EatSackLunch" Value="165275" />
+  <Preset Label="Build (blockConstructionTable_Build)" Value="165322" />
+  <Preset Label="Discuss Better Eating Habits (mixer_social_ChildhoodPhases_EncourageEating_targeted_Friendly)" Tags="TestUnsafe" Value="165341" />
+  <Preset Label="blockConstructionTable_BuildMixers_Build1" Value="165386" />
+  <Preset Label="blockConstructionTable_BuildMixers_Build2" Value="165387" />
+  <Preset Label="blockConstructionTable_BuildMixers_Build3" Value="165388" />
+  <Preset Label="blockConstructionTable_BuildMixers_Read" Value="165389" />
+  <Preset Label="blockConstructionTable_BuildMixers_Ponder" Value="165390" />
+  <Preset Label="This Light (toyNightLight_TurnOn)" Value="165407" />
+  <Preset Label="This Light (toyNightLight_TurnOff)" Value="165408" />
+  <Preset Label="Destroy School Project (object_SchoolProjectBox_Smash)" Value="165411" />
+  <Preset Label="Clean Up (blockConstructionTable_Clear)" Value="165419" />
+  <Preset Label="React to Smashed Project (object_SchoolProjectBox_Smash_React)" Value="165452" />
+  <Preset Label="Blame for Destroyed School Project (mixer_social_BlameForSchoolProjectDestruction_Targeted_Mean_AlwaysOn)" Tags="TestUnsafe" Value="165471" />
+  <Preset Label="View Project (object_SchoolProjectBox_Finished_View)" Value="165503" />
+  <Preset Label="blockConstructionTable_PlayMixers_Car" Value="165514" />
+  <Preset Label="blockConstructionTable_PlayMixers_Alien" Value="165515" />
+  <Preset Label="Play (blockConstructionTable_Play_Animal)" Value="165517" />
+  <Preset Label="Start Over (object_SchoolProjectBox_StartOver)" Value="165519" />
+  <Preset Label="Make Funny Faces (mixer_social_MakeFunnyFaces)" Tags="TestUnsafe" Value="165558" />
+  <Preset Label="Play (blockConstructionTable_Play_Vehicle)" Value="165591" />
+  <Preset Label="Play (blockConstructionTable_Play_Doll)" Value="165592" />
+  <Preset Label="mixer_ChildhoodPhase_Loud_Idle" Value="165681" />
+  <Preset Label="Share Secret (mixer_social_ShareSecret_targeted_Friendly_HighScore_ChildhoodPhase_Clingy)" Tags="TestUnsafe" Value="165690" />
+  <Preset Label="Build (rallyables_GoThenBuildBlocks)" Value="165693" />
+  <Preset Label="Take Picture Together (mixer_social_TakePictureTogether_targeted_Friendly_alwaysOn_ChildhoodPhase_Clingy)" Tags="TestUnsafe" Value="165705" />
+  <Preset Label="Hug Lovingly (mixer_social_LovingHug_ChildhoodPhase_Clingy)" Tags="TestUnsafe" Value="165707" />
+  <Preset Label="Hug (mixer_social_Hug_targeted_Friendly_MiddleScore_ChildhoodPhase_Clingy)" Tags="TestUnsafe" Value="165709" />
+  <Preset Label="blockConstructionTable_PlayMixers_Horse" Value="165744" />
+  <Preset Label="blockConstructionTable_PlayMixers_Cat" Value="165745" />
+  <Preset Label="blockConstructionTable_PlayMixers_Helicopter" Value="165748" />
+  <Preset Label="blockConstructionTable_PlayMixers_Robot" Value="165749" />
+  <Preset Label="blockConstructionTable_PlayMixers_SuperHero" Value="165753" />
+  <Preset Label="blockConstructionTable_PlayMixers_SuperHeroine" Value="165754" />
+  <Preset Label="Change into Bear (solo_ChildhoodPhase_Bear_ChangeIntoBear)" Value="165761" />
+  <Preset Label="Play (blockConstructionTable_StartPlay)" Value="165775" />
+  <Preset Label="Wear Bear Costume With {1.SimFirstName} (childhoodPhase_Bear_WearCostumeWith)" Value="165793" />
+  <Preset Label="Talk about Bear Costume (socials_Targeted_ChildhoodPhase_Bear_TalkAbout)" Tags="TestUnsafe" Value="165796" />
+  <Preset Label="Force to Set the Table (parentingSkill_ForceTo_SetTheTable)" Value="166001" />
+  <Preset Label="Influence to Set the Table (parentingSkill_InfluenceTo_SetTheTable)" Value="166009" />
+  <Preset Label="Set School Project Almost Done (DEBUG) (debug_SchoolProjectBox_SetAlmostDone)" Value="166020" />
+  <Preset Label="Ask about Phase (socials_Targeted_ChildhoodPhase_AskAboutPhase)" Tags="TestUnsafe" Value="166058" />
+  <Preset Label="View Project (object_SchoolProjectBox_Finished_ReactNegative)" Value="166071" />
+  <Preset Label="makeAMess_Animate" Value="166136" />
+  <Preset Label="makeAMess_Animate_Flour" Value="166144" />
+  <Preset Label="Discipline - Encourage (disciplineTemplate_Encourage_BadManners)" Value="166301" />
+  <Preset Label="Discipline - Encourage (disciplineTemplate_Encourage_Irresponsible)" Value="166302" />
+  <Preset Label="Discipline - Encourage (disciplineTemplate_Encourage_UncontrolledEmotions)" Value="166303" />
+  <Preset Label="Discipline - Encourage (disciplineTemplate_Encourage_Unfeeling)" Value="166304" />
+  <Preset Label="Discipline - Encourage (disciplineTemplate_Encourage_Argumentative)" Value="166306" />
+  <Preset Label="Be Forced To (parentingSkill_Target_ForceTo)" Value="166352" />
+  <Preset Label="blockConstructionTable_PlayMixers_Knight" Value="166381" />
+  <Preset Label="blockConstructionTable_PlayMixers_Princess" Value="166382" />
+  <Preset Label="blockConstructionTable_PlayMixers_Dragon" Value="166383" />
+  <Preset Label="Back in My Day (mixer_social_BackInMyDay_targeted_friendly_alwaysOn_ParentOnly)" Tags="TestUnsafe" Value="166478" />
+  <Preset Label="Pack into Sack Lunch (baking_grab_Decorate_1Var_toSackLunch)" Value="166523" />
+  <Preset Label="Pack into Sack Lunch (baking_grab_Decorate_3Var_toSackLunch)" Value="166524" />
+  <Preset Label="Pack into Sack Lunch (baking_grab_Decorate_2Var_toSackLunch)" Value="166525" />
+  <Preset Label="Pack into Sack Lunch (generic_iceCream_Grab_to_sackLunch)" Value="166560" />
+  <Preset Label="Pack into Sack Lunch (popcorn_grab_popcorn_toSackLunch)" Value="166562" />
+  <Preset Label="Blame for Destroyed School Project (mixer_social_BlameForSchoolProjectDestruction_Targeted_Mean_AlwaysOn_toddler)" Tags="TestUnsafe" Value="166661" />
+  <Preset Label="Fart (grossManners_Fart_toddlers)" Value="166667" />
+  <Preset Label="Read Board (familyBulletinBoard_View_auto)" Value="166714" />
+  <Preset Label="Bed_HideJournal_FindBed" Tags="TestUnsafe" Value="166732" />
+  <Preset Label="Hide Journal (bed_Journal_Hide_SavedActor)" Value="166734" />
+  <Preset Label="Shout Forbidden Words at {1.SimFirstName} (socials_Targeted_Mean_AlwaysOn_STC_SwearAt)" Tags="TestUnsafe" Value="166742" />
+  <Preset Label="Learn about Sorry (teachTo_SaySorry_Mixers_C_Story_Response)" Tags="TestUnsafe" Value="166788" />
+  <Preset Label="Learn about Sorry (teachTo_SaySorry_Mixers_P_Story_Response)" Tags="TestUnsafe" Value="166790" />
+  <Preset Label="Learn about Sorry (teachTo_SaySorry_Mixers_TYAE_Story)" Tags="TestUnsafe" Value="166792" />
+  <Preset Label="Write in Journal (book_Journal_noSurfaceFail)" Value="166864" />
+  <Preset Label="Force to Work on School Project (parentingSkill_ForceTo_SchoolProjectBox)" Value="166873" />
+  <Preset Label="Influence to Work on School Project (parentingSkill_InfluenceTo_SchoolProjectBox)" Value="166874" />
+  <Preset Label="Make a Mess (terrain_MakeAMess_Start)" Value="166974" />
+  <Preset Label="blockConstructionTable_PlayMixers_Tentacle" Value="167026" />
+  <Preset Label="blockConstructionTable_PlayMixers_ModernDoll" Value="167027" />
+  <Preset Label="Give a Second Wind (parentingSkill_Solve_Toddler_SolveEnergy)" Value="167035" />
+  <Preset Label="Ask to Clean Self Off (parentingSkill_Solve_Toddler_SolveHygiene)" Value="167036" />
+  <Preset Label="Make a Fun Face (parentingSkill_Solve_Toddler_SolveFun)" Value="167037" />
+  <Preset Label="Satisfying Chat (parentingSkill_Solve_Toddler_SolveSocial)" Value="167039" />
+  <Preset Label="immediateSuperInteraction_MakeAMess_AutoRemove" Value="167042" />
+  <Preset Label="Be Instructed (parentingSkill_Target_Solve_Toddler)" Value="167102" />
+  <Preset Label="object_SchoolProjectBox_Start" Value="167124" />
+  <Preset Label="mixer_Discipline_TimeOut_Groan" Value="167314" />
+  <Preset Label="mixer_Discipline_TimeOut_ShakeHead" Value="167315" />
+  <Preset Label="mixer_Discipline_TimeOut_FistPump" Value="167316" />
+  <Preset Label="mixer_Discipline_TimeOut_FistShake" Value="167317" />
+  <Preset Label="See What's Happening (reactions_Generic_Shocked_Strong_Swear)" Value="167447" />
+  <Preset Label="reactions_Shocked_Fallback_Swear" Value="167448" />
+  <Preset Label="reaction_Aggregate_ShockedAggregate_Swear" Value="167449" />
+  <Preset Label="object_SchoolProjectBox_IdleReact_Carefully" Value="167496" />
+  <Preset Label="object_SchoolProjectBox_IdleReact_Sloppily" Value="167497" />
+  <Preset Label="Argue about Curfew (mixer_Argument_Start_Curfew)" Tags="TestUnsafe" Value="168130" />
+  <Preset Label="Give Fake Bad News (parentingSkill_BuildMischief_GiveFakeBadNews)" Value="168176" />
+  <Preset Label="Check Up On (solo_GreetParentGiddy)" Value="168220" />
+  <Preset Label="blockConstructionTable_BuildMixers_Idle" Value="168368" />
+  <Preset Label="Watch Kids Network (tv_WatchKids_withPickedSims)" Value="168401" />
+  <Preset Label="Watch TV with (aggregate_WatchTVWith)" Value="168402" />
+  <Preset Label="Put Away (Put_Away_NightLightToy)" Value="168535" />
+  <Preset Label="Read to Child (book_social_read_to_toddlerOnly_fromAutoPicker)" Value="168537" />
+  <Preset Label="Build (blockConstructionTable_Build_Join)" Value="168571" />
+  <Preset Label="Force to Clean Up Mess (parentingSkill_ForceTo_CleanUpMess)" Value="168583" />
+  <Preset Label="Influence to Clean Up Mess (parentingSkill_InfluenceTo_CleanUpMess)" Value="168584" />
+  <Preset Label="Assist with Project (object_schoolProjectBox_Helper_AssistChooser_userDirected)" Value="168652" />
+  <Preset Label="Play (blockConstructionTable_StartPlay_Join)" Value="168700" />
+  <Preset Label="Make Funny Faces (mixer_social_MakeFunnyFaces_Toddler)" Tags="TestUnsafe" Value="168758" />
+  <Preset Label="View Project (object_SchoolProjectBox_Finished_ReactPositive_Good)" Value="169001" />
+  <Preset Label="View Project (object_SchoolProjectBox_Finished_ReactPositive_Excellent)" Value="169002" />
+  <Preset Label="Adopt as Care Dependent (sim_Add_CTCaregiver)" Value="169368" />
+  <Preset Label="Remove as Care Dependent (sim_Remove_CTCaregiver)" Value="169370" />
+  <Preset Label="Entering a Phase (solo_ChildhoodPhase_Response_Teen)" Value="178552" />
+  <Preset Label="Browse Parenting Forums (computerGlasses_ParentingSkill_BrowseForums)" Value="226712" />
+  <Preset Label="Research Parenting Methods (computerGlasses_ParentingSkill_ResearchParenting)" Value="226713" />
+  <Preset Label="Make Sack Lunch (fridge_GrabSackLunch_RequiredIngredients)" Value="270682" />
+</PresetGroup>

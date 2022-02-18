@@ -75,6 +75,7 @@
                 <c:TextBlock Text="PromotionObjectiveSetNotice" />
                 <c:ReferenceControlWithEditorUnderneath CreateElementFunction="CreateObjectiveSetFunction"
                                                         EditorCategory="Default"
+                                                        EditorTag="Career"
                                                         ElementTypeName="ObjectiveSet"
                                                         Reference="{Binding ObjectiveSet}"
                                                         ShowBrowseButton="False"

@@ -1,6 +1,7 @@
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
@@ -10,6 +11,9 @@ namespace Constructor5.Elements.Situations.Components
     [XmlSerializerExtraType]
     public class SituationGoaledEventComponent : SituationComponent
     {
+        public ReferenceList ActivitiesOptional { get; set; } = new ReferenceList();
+        public ReferenceList ActivitiesRequired { get; set; } = new ReferenceList();
+
         public ElementIcon BronzeIcon { get; set; } = new ElementIcon();
         public Reference BronzeReward { get; set; } = new Reference();
 
@@ -19,6 +23,7 @@ namespace Constructor5.Elements.Situations.Components
 
         [AutoTuneReferenceList("minor_goal_chains")]
         public ReferenceList GoalSets { get; set; } = new ReferenceList();
+
         public ElementIcon GoldIcon { get; set; } = new ElementIcon();
         public Reference GoldReward { get; set; } = new Reference();
         public bool IsForcedGoaledEvent { get; set; }
@@ -89,6 +94,32 @@ namespace Constructor5.Elements.Situations.Components
             {
                 var tunableVariant1 = context.Tuning.Set<TunableVariant>("scoring_lock_reason", "enabled");
                 tunableVariant1.Set<TunableBasic>("enabled", ForcedGoaledEventToolTip);
+            }
+
+            if (ActivitiesOptional.HasItems() || ActivitiesRequired.HasItems())
+            {
+                var tunableVariant1 = context.Tuning.Set<TunableVariant>("goal_tracker_type", "simple_situation_goal_tracker");
+                tunableVariant1.Get<TunableTuple>("simple_situation_goal_tracker");
+                var tunableVariant2 = context.Tuning.Set<TunableVariant>("situation_display_type_override", "enabled");
+                tunableVariant2.Set<TunableEnum>("enabled", "ACTIVITY");
+
+                var tuple = context.Tuning.GetVariant<TunableTuple>("activity_selection", "enabled");
+                if (ActivitiesOptional.HasItems())
+                {
+                    var list = tuple.Get<TunableList>("available_activities");
+                    foreach(var activity in ElementTuning.GetInstanceKeys(ActivitiesOptional))
+                    {
+                        list.Set<TunableBasic>(null, activity.ToString());
+                    }
+                }
+                if (ActivitiesRequired.HasItems())
+                {
+                    var list = tuple.GetVariant<TunableList>("required_activities", "enabled");
+                    foreach (var activity in ElementTuning.GetInstanceKeys(ActivitiesRequired))
+                    {
+                        list.Set<TunableBasic>(null, activity.ToString());
+                    }
+                }
             }
 
             AutoTunerInvoker.Invoke(this, context.Tuning);

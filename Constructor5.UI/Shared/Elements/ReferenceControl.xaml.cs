@@ -159,6 +159,14 @@ namespace Constructor5.UI.Shared
         {
             var element = (Element)null;
 
+            if (Reference.Element != null)
+            {
+                if (!FancyMessageBox.ShowOKCancel("AreYouSureReplaceElement"))
+                {
+                    return;
+                }
+            }
+
             if (CreateElementFunction != null && CreateElementFunction.GetInvocationList().Length > 0)
             {
                 element = CreateElementFunction.Invoke();

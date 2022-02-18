@@ -10,6 +10,12 @@ namespace Constructor5.Base
             set => Settings.Default.CreatorName = value;
         }
 
+        public static bool ShowAllSettingEnabled
+        {
+            get => Settings.Default.ShowAllSettingEnabled;
+            set => Settings.Default.ShowAllSettingEnabled = value;
+        }
+
         public static void Save() => Settings.Default.Save();
     }
 }

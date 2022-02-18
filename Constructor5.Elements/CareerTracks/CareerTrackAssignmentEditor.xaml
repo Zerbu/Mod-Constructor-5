@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:Constructor5.Elements.CareerTracks"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:testconditions="clr-namespace:Constructor5.Elements.TestConditions"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
@@ -15,5 +16,8 @@
             <c:IntBoundsControl Bounds="{Binding LevelRestriction}" />
         </c:Field>
         <c:CheckBox Content="CanBeSelectedAsFirstAssignment" IsChecked="{Binding IsFirstAssignment}" />
+        <c:Field Label="Weight" LabelWidth="100">
+            <xctk:IntegerUpDown Text="{Binding Weight}" />
+        </c:Field>
     </StackPanel>
 </UserControl>

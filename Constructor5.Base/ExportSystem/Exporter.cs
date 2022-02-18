@@ -75,6 +75,8 @@ namespace Constructor5.Base.Export
             Hooks.Location<IOnExportComplete>(x => x.OnExportComplete(Results));
         }
 
+        public void ForceExportContextSpecific(Element element) => ContextSpecificElementsToExport.Add(element);
+
         public void QueueFile(string fileName, Stream stream) => QueuedFiles.Add(fileName, stream);
 
         public void QueueFile(string hexType, string hexGroup, string hexInstance, Stream stream)
@@ -97,9 +99,12 @@ namespace Constructor5.Base.Export
         {
             foreach (var element in ElementManager.GetAll())
             {
-                if (!element.IsContextSpecific || ExportedElements.Contains(element))
+                if (!element.IsTemporary)
                 {
-                    continue;
+                    if (!element.IsContextSpecific || ExportedElements.Contains(element))
+                    {
+                        continue;
+                    }
                 }
 
                 ElementManager.Delete(element);
@@ -226,13 +231,12 @@ namespace Constructor5.Base.Export
                 WorkingDirectory = directory
             };
 
-            string result = PythonBuilder.Current.GetContent();
+            //var result = PythonBuilder.Current.GetContent();
             using (var process = Process.Start(start))
             {
                 using (var reader = process.StandardOutput)
                 {
-                    result = reader.ReadToEnd();
-                    Console.Write(result);
+                    Console.Write(reader.ReadToEnd());
                 }
             }
 

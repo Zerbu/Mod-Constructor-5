@@ -12,56 +12,54 @@
     <UserControl.Resources>
         <c:SimpleAddToListCommand x:Key="AddCommand" TypeName="Balloon" />
     </UserControl.Resources>
-    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+    <StackPanel>
+        <c:CheckBox x:Name="SpeechCheckBox"
+                    Content="Speech"
+                    IsChecked="{Binding IsSpeech}" />
         <StackPanel>
-            <c:CheckBox x:Name="SpeechCheckBox"
-                        Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
-                        Content="Speech"
-                        IsChecked="{Binding IsSpeech}" />
-            <StackPanel Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}">
-                <ItemsControl x:Name="BalloonsControl" ItemsSource="{Binding Balloons}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate DataType="{x:Type local:Balloon}">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <c:IconControl Icon="{Binding Icon}">
-                                    <c:IconControl.ExtraContent>
-                                        <c:Expander Header="Options">
-                                            <StackPanel>
-                                                <c:CheckBox Content="NegativeOverlay" IsChecked="{Binding HasOverlay}" />
-                                                <c:Field Label="Weight" LabelWidth="100">
-                                                    <xctk:IntegerUpDown Text="{Binding Weight}" />
-                                                </c:Field>
-                                            </StackPanel>
-                                        </c:Expander>
-                                    </c:IconControl.ExtraContent>
-                                </c:IconControl>
-                                <c:PlainButton x:Name="DeleteButton"
-                                               Grid.Column="1"
-                                               HorizontalAlignment="Left"
-                                               VerticalAlignment="Top"
-                                               Click="DeleteButton_Click"
-                                               Tag="{Binding}"
-                                               ToolTip="Delete">
-                                    <c:PlainButton.Content>
-                                        <Image Width="25"
-                                               Height="25"
-                                               Source="pack://siteoforigin:,,,/Images/DeleteIcon.png" />
-                                    </c:PlainButton.Content>
-                                </c:PlainButton>
-                            </Grid>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
-            </StackPanel>
-            <c:Button Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
-                      HorizontalAlignment="Left"
-                      Command="{StaticResource AddCommand}"
-                      CommandParameter="{Binding Balloons}"
-                      Content="AddBalloon" />
+            <ItemsControl x:Name="BalloonsControl" ItemsSource="{Binding Balloons}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate DataType="{x:Type local:Balloon}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <c:IconControl Icon="{Binding Icon}">
+                                <c:IconControl.ExtraContent>
+                                    <c:Expander Header="Options">
+                                        <StackPanel>
+                                            <c:CheckBox Content="NegativeOverlay" IsChecked="{Binding HasOverlay}" />
+                                            <c:Field Label="Weight" LabelWidth="100">
+                                                <xctk:IntegerUpDown Text="{Binding Weight}" />
+                                            </c:Field>
+                                        </StackPanel>
+                                    </c:Expander>
+                                </c:IconControl.ExtraContent>
+                            </c:IconControl>
+                            <c:PlainButton x:Name="DeleteButton"
+                                           Grid.Column="1"
+                                           HorizontalAlignment="Left"
+                                           VerticalAlignment="Top"
+                                           Click="DeleteButton_Click"
+                                           Tag="{Binding}"
+                                           ToolTip="Delete">
+                                <c:PlainButton.Content>
+                                    <Image Width="25"
+                                           Height="25"
+                                           Source="pack://siteoforigin:,,,/Images/DeleteIcon.png" />
+                                </c:PlainButton.Content>
+                            </c:PlainButton>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
         </StackPanel>
-    </ScrollViewer>
+        <c:Button Margin="{StaticResource Constructor.BigPaddingLeftRightOnly}"
+                  HorizontalAlignment="Left"
+                  Command="{StaticResource AddCommand}"
+                  CommandParameter="{Binding Balloons}"
+                  Content="AddBalloon" />
+    </StackPanel>
 </UserControl>

@@ -7,7 +7,6 @@ using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Elements.AspirationTracks;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -19,6 +18,8 @@ namespace Constructor5.Elements.ObjectiveSets
         [AutoTuneIfFalse("do_not_register_events_on_load", "True")]
         public bool AlwaysTrack { get; set; } = true;
 
+        public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
+
         [AutoTuneBasic("display_name")]
         public STBLString DisplayName { get; set; } = new STBLString();
 
@@ -28,7 +29,9 @@ namespace Constructor5.Elements.ObjectiveSets
         public ReferenceList Objectives { get; set; } = new ReferenceList();
 
         public bool OnlyRequireSomeObjectives { get; set; }
-        public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
+
+        [AutoTuneBasic("reward")]
+        public Reference Reward { get; set; } = new Reference();
 
         void IExportableElement.OnExport()
         {
@@ -92,16 +95,6 @@ namespace Constructor5.Elements.ObjectiveSets
             TuningExport.AddToQueue(tuning);
         }
 
-        private void BuildSimDataCareer(TuningHeader tuning)
-        {
-            var list = new List<ulong>();
-            foreach (var key in ElementTuning.GetInstanceKeys(Objectives))
-            {
-                list.Add(key);
-            }
-            tuning.SimDataHandler.WriteList(112, list, 4, true);
-        }
-
         private void BuildSimData(TuningHeader tuning)
         {
             tuning.SimDataHandler.WriteText(100, Exporter.Current.STBLBuilder.GetKey(DisplayName) ?? 0);
@@ -113,6 +106,16 @@ namespace Constructor5.Elements.ObjectiveSets
                 list.Add(key);
             }
             tuning.SimDataHandler.WriteList(128, list, 4, true);
+        }
+
+        private void BuildSimDataCareer(TuningHeader tuning)
+        {
+            var list = new List<ulong>();
+            foreach (var key in ElementTuning.GetInstanceKeys(Objectives))
+            {
+                list.Add(key);
+            }
+            tuning.SimDataHandler.WriteList(112, list, 4, true);
         }
 
         private void TuneScreenSlam(TuningHeader tuning, AssignedAspirationTrackContextModifier aspirationTrackModifier)

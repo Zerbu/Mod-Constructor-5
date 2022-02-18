@@ -22,7 +22,7 @@
                 <c:STBLStringControl Text="{Binding NameOnTarget}" />
             </c:Field>
             <c:CheckBox Content="HasPieMenuIcon" IsChecked="{Binding SetPieMenuIcon}" />
-            <c:Field Label="Pie Menu Icon"
+            <c:Field Label="PieMenuIcon"
                      LabelWidth="150"
                      Visibility="{Binding SetPieMenuIcon, Converter={StaticResource BoolToVis}}">
                 <c:IconControl Icon="{Binding PieMenuIcon}" />

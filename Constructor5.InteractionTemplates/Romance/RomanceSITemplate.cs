@@ -9,7 +9,7 @@ using Constructor5.Elements.Interactions.Shared;
 
 namespace Constructor5.InteractionTemplates.Romance
 {
-    [SelectableObjectType("SocialInteractionTemplates", "Romance Interaction")]
+    [SelectableObjectType("SocialInteractionTemplates", "RomanceInteraction")]
     [XmlSerializerExtraType]
     public class RomanceSITemplate : InteractionTemplate
     {

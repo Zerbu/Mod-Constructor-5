@@ -34,6 +34,25 @@
                             </c:TabItem>
                         </c:TabControl>
                     </c:TabItem>
+                    <c:TabItem Header="Activities">
+                        <c:SpacedStack TopMargin="True">
+                            <c:TextBlock Text="ActivitiesNotice" />
+                            <c:TabControl>
+                                <c:TabItem Header="OptionalActivities">
+                                    <c:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                                            ElementReferenceList="{Binding ActivitiesOptional}"
+                                                            ElementTypeName="SituationActivity"
+                                                            ShowCreateButton="True" />
+                                </c:TabItem>
+                                <c:TabItem Header="RequiredActivities">
+                                    <c:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                                            ElementReferenceList="{Binding ActivitiesRequired}"
+                                                            ElementTypeName="SituationActivity"
+                                                            ShowCreateButton="True" />
+                                </c:TabItem>
+                            </c:TabControl>
+                        </c:SpacedStack>
+                    </c:TabItem>
                     <c:TabItem Header="Rewards">
                         <StackPanel>
                             <c:TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" Text="SituationRewardsNotice" />

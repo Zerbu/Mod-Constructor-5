@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions SP18">
+  <Preset Label="Perform Ceremony with (simPickerInteraction_SeanceTable_PerformCeremony)" Tags="TestUnsafe" Value="251602" />
+  <Preset Label="Commune With The Dead with (simPickerInteraction_SeanceTable_Commune)" Tags="TestUnsafe" Value="251603" />
+  <Preset Label="Commune With The Departed (superInteraction_SeanceTable_Commune)" Value="251604" />
+  <Preset Label="Perform Ceremony (superInteraction_SeanceTable_PerformCeremony)" Value="251606" />
+  <Preset Label="Sense Spiritual Volatility (superInteraction_SeanceTable_SenseVolatility)" Value="251607" />
+  <Preset Label="Summon Guidry (superInteraction_SeanceTable_SummonGuidry)" Value="251608" />
+  <Preset Label="Commune With The Departed (superInteraction_SeanceTable_PickedSim_Commune)" Value="251671" />
+  <Preset Label="Perform Ceremony (superInteraction_SeanceTable_PickedSim_PerformCeremony)" Value="251673" />
+  <Preset Label="Commune With The Departed (superInteraction_SeanceTable_PickedActor_Commune)" Value="251975" />
+  <Preset Label="Perform Ceremony (superInteraction_SeanceTable_PickedActor_PerformCeremony)" Value="251976" />
+  <Preset Label="Cancel Gig (freelancer_Career_PhoneInteraction_CancelGig_ParanormalInvestigator)" Value="252595" />
+  <Preset Label="Select a Gig (freelancer_DramaNodePicker_ParanormalInvestigator)" Tags="TestUnsafe" Value="252596" />
+  <Preset Label="Create Séance Circle (terrain_SeanceTable_Create)" Value="252825" />
+  <Preset Label="run_SeanceTable_SummonGuidry" Value="252857" />
+  <Preset Label="Commune With The Departed (superInteraction_SeanceTable_Commune_Kneel)" Value="252891" />
+  <Preset Label="Perform Ceremony (superInteraction_SeanceTable_PerformCeremony_Kneel)" Value="252898" />
+  <Preset Label="Sense Spiritual Volatility (superInteraction_SeanceTable_SenseVolatility_Kneel)" Value="252900" />
+  <Preset Label="Summon Guidry (superInteraction_SeanceTable_SummonGuidry_Kneel)" Value="252902" />
+  <Preset Label="Show Guidry Chance Card 1 (immediate_Guidry_ChanceCard_1)" Value="252925" />
+  <Preset Label="Invoke the Dead (superInteraction_SeanceTable_SummonGhost)" Value="253221" />
+  <Preset Label="Invoke the Dead (superInteraction_SeanceTable_SummonGhost_Kneel)" Value="253222" />
+  <Preset Label="run_SeanceTable_SummonBonehilda" Value="253229" />
+  <Preset Label="PANIC! (HauntedHouse_Panic)" Value="253313" />
+  <Preset Label="hauntedHouse_NPCArrival" Value="253372" />
+  <Preset Label="Show Guidry Chance Card 2 (immediate_Guidry_ChanceCard_2)" Value="253456" />
+  <Preset Label="Show Guidry Chance Card 5 (immediate_Guidry_ChanceCard_5)" Value="253459" />
+  <Preset Label="Remove Twisted Tendril (hauntedHouse_Remove_Tendril)" Value="253541" />
+  <Preset Label="Remove Creepy Doll (hauntedHouse_Remove_Doll)" Value="253543" />
+  <Preset Label="Mop Mysterious Symbols (hauntedHouse_Remove_Rune)" Value="253544" />
+  <Preset Label="hauntedHouse_ParanormalReaction" Value="253557" />
+  <Preset Label="Light Sacred Candle (hauntedHouse_SacredCandle_TurnOn)" Value="253580" />
+  <Preset Label="Extinguish Sacred Candle (hauntedHouse_SacredCandle_TurnOff)" Value="253581" />
+  <Preset Label="Haunted Objects (setupLot_HauntedObjects)" Value="253597" />
+  <Preset Label="Eat Forbidden Candy (hauntedHouse_SpecterLoot_EatForbiddenCandy)" Value="253674" />
+  <Preset Label="Absorb Soul Scrap (hauntedHouse_SpecterLoot_SoulScrap)" Value="253680" />
+  <Preset Label="Drink (generic_consume_SpecterSip)" Value="253681" />
+  <Preset Label="Create Sacred Candles (hauntedHouse_SpecterLoot_WraithWax)" Value="253686" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_HauntedHouse_Ectocake)" Value="253688" />
+  <Preset Label="Attempt Communication (hauntedHouse_Specter_AttemptCommunication)" Value="253769" />
+  <Preset Label="Watch Specter (hauntedHouse_Specter_Watch)" Value="253770" />
+  <Preset Label="Present Offering (hauntedHouse_Specter_PresentOffering)" Value="253771" />
+  <Preset Label="Present Offering (HauntedHouse_PresentOffering_picker)" Tags="TestUnsafe" Value="253772" />
+  <Preset Label="Reassure {1.SimFirstName} (social_ParanormalInvestigator_Boast)" Value="253831" />
+  <Preset Label="Create Séance Circle (seanceTable_Create)" Value="253910" />
+  <Preset Label="Set Routing State: Wander (immediate_Specter_Debug_Routing_SetWander)" Value="253919" />
+  <Preset Label="Set Routing State: None (immediate_Specter_Debug_Routing_SetNone)" Value="253920" />
+  <Preset Label="hauntedHouse_SpecterReaction_Playful" Value="253944" />
+  <Preset Label="hauntedHouse_SpecterReaction_Mysterious" Value="253946" />
+  <Preset Label="hauntedHouse_SpecterReaction_Terrifying" Value="253947" />
+  <Preset Label="Attempt Communication (hauntedHouse_Specter_AttemptCommunication_Start)" Value="254076" />
+  <Preset Label="Present Offering (hauntedHouse_Specter_PresentOffering_Start)" Value="254078" />
+  <Preset Label="Talk to {1.ObjectName} (hauntedHouse_TalktoDoll)" Value="254169" />
+  <Preset Label="Talk to Cute Dolly! (hauntedHouse_TalktoDoll_Toddler)" Value="254171" />
+  <Preset Label="Offer Soul (hauntedHouse_Specter_OfferSoul)" Value="254225" />
+  <Preset Label="Offer Soul (hauntedHouse_Specter_OfferSoul_Start)" Value="254226" />
+  <Preset Label="hauntedHouse_ParanormalReaction_CandleSnuff" Value="254258" />
+  <Preset Label="Ask to Join the Soul Reaper Society (social_ParanormalInvestigator_AskGrim)" Value="254372" />
+  <Preset Label="run_SeanceTable_SummonGhost" Value="254514" />
+  <Preset Label="Invoke the Dead with (simPickerInteraction_SeanceTable_Summon)" Tags="TestUnsafe" Value="254517" />
+  <Preset Label="Invoke the Dead (superInteraction_SeanceTable_PickedActor_Summon)" Value="254518" />
+  <Preset Label="Invoke the Dead (superInteraction_SeanceTable_PickedSim_Summon)" Value="254519" />
+  <Preset Label="Set Serenity to 25 (superInteraction_SeanceTable_SetSerenity_25)" Value="254564" />
+  <Preset Label="Set Serenity to 50 (superInteraction_SeanceTable_SetSerenity_50)" Value="254565" />
+  <Preset Label="Set Serenity to 75 (superInteraction_SeanceTable_SetSerenity_75)" Value="254566" />
+  <Preset Label="Set Serenity to 100 (superInteraction_SeanceTable_SetSerenity_100)" Value="254567" />
+  <Preset Label="Night 1 (superInteraction_SeanceTable_SetNight_1)" Value="254633" />
+  <Preset Label="Night 2 (superInteraction_SeanceTable_SetNight_2)" Value="254634" />
+  <Preset Label="Night 3 (superInteraction_SeanceTable_SetNight_3)" Value="254635" />
+  <Preset Label="Night 4 (superInteraction_SeanceTable_SetNight_4)" Value="254636" />
+  <Preset Label="Night 5 (superInteraction_SeanceTable_SetNight_5)" Value="254637" />
+  <Preset Label="Night 6 (superInteraction_SeanceTable_SetNight_6)" Value="254638" />
+  <Preset Label="Night 7 (superInteraction_SeanceTable_SetNight_7)" Value="254639" />
+  <Preset Label="immediate_HauntedHouse_ParanormalReaction" Value="254783" />
+  <Preset Label="Be Checked In (door_PlayerRingDoorbell_Penthouse_ParanormalInvestigation)" Value="255022" />
+  <Preset Label="Knock On Door (door_PlayerRingDoorbell_Sliding_ParanormalInvestigation)" Value="255023" />
+  <Preset Label="Knock On Door (door_PlayerRingDoorbell_ParanormalInvestigation)" Value="255024" />
+  <Preset Label="hauntedHouse_ParanormalReaction_AccursedObject" Value="255059" />
+  <Preset Label="Show Off Paranormal License (social_ParanormalInvestigator_Boast_Child)" Value="255264" />
+  <Preset Label="Reassure {1.SimFirstName} (social_ParanormalInvestigator_Boast_Empty)" Value="255266" />
+  <Preset Label="Ghastly Ritual (superInteraction_SeanceTable_GhostForm)" Value="255356" />
+  <Preset Label="Ghastly Ritual (superInteraction_SeanceTable_GhostForm_Kneel)" Value="255357" />
+  <Preset Label="Ghastly Ritual (superInteraction_SeanceTable_PickedActor_GhostForm)" Value="255366" />
+  <Preset Label="Ghastly Ritual (superInteraction_SeanceTable_PickedSim_GhostForm)" Value="255367" />
+  <Preset Label="Ghastly Ritual with (simPickerInteraction_SeanceTable_GhostForm)" Tags="TestUnsafe" Value="255368" />
+  <Preset Label="&quot;Who are you?&quot; (social_HauntedHouse_AskGuidry_WhoAreYou)" Value="255383" />
+  <Preset Label="&quot;Can I make this place less... Spooky?&quot; (social_HauntedHouse_AskGuidry_LessSpooky)" Value="255386" />
+  <Preset Label="&quot;What's the deal with Specters?&quot; (social_HauntedHouse_AskGuidry_Specters)" Value="255387" />
+  <Preset Label="&quot;What's up with those creepy objects?&quot; (social_HauntedHouse_AskGuidry_AccursedObjects)" Value="255388" />
+  <Preset Label="&quot;How do I become less scared?&quot; (social_HauntedHouse_AskGuidry_Scared)" Value="255389" />
+  <Preset Label="&quot;Any advice living here?&quot; (social_HauntedHouse_AskGuidry_Advice)" Value="255390" />
+  <Preset Label="Mop Slime Creature (hauntedHouse_Remove_Goo)" Value="256314" />
+  <Preset Label="Remove Eerie Hands (hauntedHouse_Remove_Hand)" Value="256315" />
+  <Preset Label="Enable Heroic Mode (immediate_HauntedHouse_Heroic)" Value="256326" />
+  <Preset Label="Disable Guidry Visits (immediate_HauntedHouse_NoGuidry)" Value="256327" />
+  <Preset Label="Summon Bonehilda (SuperInteraction_SeanceTable_SummonBonehilda)" Value="256333" />
+  <Preset Label="Summon Bonehilda (superInteraction_SeanceTable_SummonBonehilda_Kneel)" Value="256335" />
+  <Preset Label="hauntedHouse_BonehildaDance" Value="256336" />
+  <Preset Label="Freshen Up (mirror_GussyUp_Bonehilda)" Value="256337" />
+  <Preset Label="&quot;What's a Paranormal Investigator?&quot; (social_HauntedHouse_AskGuidry_ParanormalInvestigator)" Value="256339" />
+  <Preset Label="&quot;I'm terrified! Help me!&quot; (social_HauntedHouse_RequestGuidry_TooScared)" Value="256340" />
+  <Preset Label="&quot;I can't get a good night's sleep!&quot; (social_HauntedHouse_RequestGuidry_Sleep)" Value="256341" />
+  <Preset Label="&quot;Wanna... Have a drink?&quot; (social_HauntedHouse_RequestGuidry_Drink)" Value="256342" />
+  <Preset Label="&quot;Someone terrible appeared! Help!&quot; (social_HauntedHouse_RequestGuidry_Help)" Value="256343" />
+  <Preset Label="Summon Guidry (superInteraction_SeanceTable_SummonGuidry_Debug)" Value="256346" />
+  <Preset Label="&quot;I can't get a chance to eat!&quot; (social_HauntedHouse_RequestGuidry_Hungry)" Value="256347" />
+  <Preset Label="&quot;Why are you here?&quot; (social_HauntedHouse_AskGuidry_Why)" Value="256348" />
+  <Preset Label="hauntedHouse_ParanormalInvestigator_Reaction" Value="256362" />
+  <Preset Label="run_SeanceTable_Temperance" Value="256367" />
+  <Preset Label="hauntedHouse_Ghost_CreateAccursed" Value="256371" />
+  <Preset Label="Ghost Scare (social_HauntedHouse_Scare)" Value="256372" />
+  <Preset Label="Watch Specter (hauntedHouse_Specter_Watch_Toddler)" Value="256455" />
+  <Preset Label="social_HauntedHouse_Empty" Value="256469" />
+  <Preset Label="hauntedHouse_ParanormalReaction_Idol" Value="256473" />
+  <Preset Label="teleportToActiveSimInteraction_Guidry" Value="256475" />
+  <Preset Label="social_HauntedHouse_BonehildaFight" Value="256477" />
+  <Preset Label="immediate_Guidry_ChanceCard_Trait" Value="256483" />
+  <Preset Label="social_HauntedHouse_Scream" Value="256488" />
+  <Preset Label="social_HauntedHouse_Flirt" Value="256489" />
+  <Preset Label="Add Investigation Progress (immediate_HauntedHouse_Investigation)" Value="256517" />
+  <Preset Label="hauntedHouse_TemperanceLeave" Value="256519" />
+  <Preset Label="Show Guidry Chance Card 7 (immediate_Guidry_ChanceCard_7)" Value="256543" />
+  <Preset Label="Extinguish (fire_Extinguish_NPC_Bonehilda)" Value="256544" />
+  <Preset Label="&quot;I may have sold my Soul.&quot; (social_HauntedHouse_RequestGuidry_Soul)" Value="256581" />
+  <Preset Label="immediate_Guidry_ChanceCard_Trait_CT" Value="256586" />
+  <Preset Label="Hold (HauntedHouse_BonehildaSnackCarry)" Value="256588" />
+  <Preset Label="hauntedHouse_BonehildaSnacks" Value="256589" />
+  <Preset Label="Invoke the Dead (superInteraction_SeanceTable_SummonGhost_Temperance)" Value="256645" />
+  <Preset Label="Sell to Oddity Collector (hauntedHouse_SpecterLoot_Sell)" Value="256670" />
+  <Preset Label="hauntedHouse_Ghost_Idle" Value="256707" />
+  <Preset Label="PANIC! (hauntedHouse_SoloPanic_Big)" Value="256759" />
+  <Preset Label="PANIC! (hauntedHouse_SoloPanic_Small)" Value="256760" />
+  <Preset Label="Paranormal Investigation (si_Career_ParanormalInvestigator)" Value="256772" />
+  <Preset Label="hauntedHouse_GuidryLeave" Value="256911" />
+  <Preset Label="hauntedHouse_SeanceTableReaction_Negative" Value="257088" />
+  <Preset Label="hauntedHouse_SeanceTableReaction_Positive" Value="257090" />
+  <Preset Label="immediate_HauntedHouse_ParanormalReaction_Flicker" Value="257121" />
+  <Preset Label="immediate_HauntedHouse_ParanormalReaction_PowerOut" Value="257122" />
+  <Preset Label="immediate_HauntedHouse_ParanormalReaction_StrangeNoise" Value="257123" />
+  <Preset Label="immediate_HauntedHouse_ParanormalReaction_Windblow" Value="257124" />
+  <Preset Label="hauntedHouse_ParanormalReaction_Flicker" Value="257136" />
+  <Preset Label="hauntedHouse_ParanormalReaction_PowerOut" Value="257137" />
+  <Preset Label="hauntedHouse_ParanormalReaction_StrangeNoise" Value="257138" />
+  <Preset Label="Remove Accursed Object (hauntedHouse_Remove_Cont)" Value="257307" />
+  <Preset Label="View {1.ObjectName} (art_View_HauntedHouse_Runes)" Value="257329" />
+  <Preset Label="Something something Bonehilda (social_HauntedHouse_BonehildaChat)" Value="257349" />
+</PresetGroup>

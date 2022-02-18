@@ -1,0 +1,646 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Situation Goals EP01">
+  <Preset Label="Analyze a Plant Sample with the Microscope (situationGoalObjectInteraction_CareerScientist_ViewPlantSample)" Value="107296" />
+  <Preset Label="Analyze a Crystal Sample with the Microscope (situationGoalObjectInteraction_CareerScientist_ViewCrystalSample)" Value="107299" />
+  <Preset Label="Work on Rocket for 10 Minutes (situationGoalObjectInteraction_CareerScientist_WorkOnRocket_Timed)" Value="107300" />
+  <Preset Label="Mind Control a Sim to Sleep (situationGoalInteractionSim_Career_Scientist_MindControl_Sleep)" Value="107360" />
+  <Preset Label="Mind Control a Sim to Sit (situationGoalInteractionSim_Career_Scientist_MindControl_Sit)" Value="107362" />
+  <Preset Label="Mind Control a Sim to Eat (situationGoalInteractionSim_Career_Scientist_MindControl_Eat)" Value="107364" />
+  <Preset Label="Freeze a Co-worker (situationGoalInteractionSim_Career_Scientist_Freeze_Coworker)" Value="107365" />
+  <Preset Label="Mind Control a Sim to Clean (situationGoalInteractionSim_Career_Scientist_MindControl_Clean)" Value="107368" />
+  <Preset Label="Transform a Co-worker's Appearance (situationGoalInteractionSim_Career_Scientist_Transform_Coworker)" Value="107374" />
+  <Preset Label="Transform a Desk. (situationGoalObjectInteraction_CareerScientist_Transform_Desk_Surprise)" Value="107375" />
+  <Preset Label="Use the SimRay on a Co-worker (situationGoalInteractionSim_Career_Scientist_SimRayUse_Coworker)" Value="107382" />
+  <Preset Label="Use the SimRay on a Tourist (situationGoalInteractionSim_Career_Scientist_SimRayUse_Civilian)" Value="107383" />
+  <Preset Label="Find a Crystal (whimActor_CareerScientist_CollectACrystal)" Value="107583" />
+  <Preset Label="Find a Metal (whimActor_CareerScientist_CollectAMetal)" Value="107585" />
+  <Preset Label="Use the SimRay on a Co-worker (whimRanInteraction_CareerScientist_SimRayUse_Coworker)" Value="107593" />
+  <Preset Label="Use the SimRay on a Tourist (whimRanInteraction_CareerScientist_SimRayUse_Civilian)" Value="107595" />
+  <Preset Label="Give a Serum to a Tourist (whimRanInteraction_CareerScientist_GiveSerum_Civilian)" Value="107599" />
+  <Preset Label="Give a Serum to a Co-worker (whimRanInteraction_CareerScientist_GiveSerum_Coworker)" Value="107605" />
+  <Preset Label="Drink a Serum (whimGoal_CareerScientist_DrinkSerum)" Value="107617" />
+  <Preset Label="Become Focused at Work (whimActor_CareerScientist_BecomeFocusedAtWork)" Value="107622" />
+  <Preset Label="Take a Bubble Bath (whimGoal_CareerScientist_BubbleBath)" Value="107623" />
+  <Preset Label="Take a Thoughtful Shower (whimGoal_CareerScientist_ThoughtfulShower)" Value="107624" />
+  <Preset Label="Browse the Web (whimGoal_CareerScientist_BrowseWeb)" Value="107625" />
+  <Preset Label="Browse Simipedia for ideas (whimGoal_CareerScientist_BrowseSimipedia)" Value="107627" />
+  <Preset Label="Tinker with Something (whimGoal_CareerScientist_Tinker)" Value="107628" />
+  <Preset Label="Practice Analysis (SituationGoalObjectInteraction_CareerScientist_PracticeAnalysis)" Value="107953" />
+  <Preset Label="Arrest A Suspect (situationGoalInteractionSim_Career_Detective_APBArrest)" Value="108701" />
+  <Preset Label="Take Crime Scene Pictures (careerDetective_TakeCrimeScenePictures)" Value="109613" />
+  <Preset Label="Get a Report from a Witness (careerDetective_TakeWitnessReports)" Value="109614" />
+  <Preset Label="Successfully Analyze Evidence (careerDetective_AnalyzeEvidence)" Value="109624" />
+  <Preset Label="Issue an All Points Bulletin (APB) (careerDetective_IssueAPB)" Value="109766" />
+  <Preset Label="Question Citizens to Find the Suspect (careerDetective_QuestionSuspects)" Value="109767" />
+  <Preset Label="Collect Clues at the Crime Scene (careerDetective_CollectClues)" Value="109768" />
+  <Preset Label="Travel to Crime Scene (eventGoal_ZoneLoaded_Detective_GoToCrimeScene)" Value="109772" />
+  <Preset Label="Return to Police Station (eventGoal_ZoneLoaded_Detective_LeaveCrimeScene)" Value="109773" />
+  <Preset Label="Add Clues to the Crime Map (careerDetective_AddCluesToMap)" Value="109788" />
+  <Preset Label="Arrest A Suspect (careerDetective_Arrest)" Value="110153" />
+  <Preset Label="Get a Case Assignment (careerDetective_GetCaseAssignment)" Value="110325" />
+  <Preset Label="Lock Up the Suspect (careerDetective_LockUpSuspect)" Value="110329" />
+  <Preset Label="Browse the Police Database (careerDetective_BrowseDatabase)" Value="110334" />
+  <Preset Label="Cross Reference the Police Database (careerDetective_FileWitnessReports)" Value="110335" />
+  <Preset Label="Discuss Case Theories with Co-workers (careerDetective_DiscussCaseTheories)" Value="110336" />
+  <Preset Label="LOCKED (eventGoal_ZoneLoaded_Detective_GoToCrimeSceneHIDDEN)" Value="110351" />
+  <Preset Label="LOCKED (eventGoal_ZoneLoaded_Detective_LeaveCrimeSceneHIDDEN)" Value="110355" />
+  <Preset Label="LOCKED (eventGoal_ZoneLoaded_Detective_GoToCrimeSceneHIDDEN2)" Value="110527" />
+  <Preset Label="LOCKED (eventGoal_ZoneLoaded_Detective_LeaveCrimeSceneHIDDEN2)" Value="110528" />
+  <Preset Label="Successfully Calibrate an X-Ray Machine (careerDoctor_XrayMachine_Calibrate)" Value="110834" />
+  <Preset Label="Take a DNA Sample from a Sim (situationGoalInteractionSim_Career_Scientist_TakeSample)" Value="111034" />
+  <Preset Label="Analyze a Metal (situationGoalObjectInteraction_CareerScientist_AnalyzeMetal)" Value="111038" />
+  <Preset Label="Mix a Serum (situationGoalObjectInteraction_CareerScientist_MixSerum)" Value="111056" />
+  <Preset Label="Have Fourth Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_4)" Value="111057" />
+  <Preset Label="Have Third Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_3)" Value="111059" />
+  <Preset Label="Have First Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_1)" Value="111060" />
+  <Preset Label="Have Second Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_2)" Value="111061" />
+  <Preset Label="Invent the SimRay (situationGoalCraftObject_Career_Scientist_Invent_SimRay)" Value="111140" />
+  <Preset Label="Invent the Hover Lamp (situationGoalCraftObject_Career_Scientist_Invent_HoverLamp)" Value="111141" />
+  <Preset Label="Invent the Satellite Dish (situationGoalCraftObject_Career_Scientist_Invent_SatelliteDish)" Value="111142" />
+  <Preset Label="Invent the Electroflux Wormhole Generator (situationGoalCraftObject_Career_Scientist_Invent_AlienPortal)" Value="111143" />
+  <Preset Label="Invent the Momentum Conserver (situationGoalCraftObject_Career_Scientist_Invent_MomentumConserver)" Value="111144" />
+  <Preset Label="Invent the Cloning Machine (situationGoalCraftObject_Career_Scientist_Invent_CloningMachine)" Value="111145" />
+  <Preset Label="Give a Tourist a Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_Civilian)" Value="111149" />
+  <Preset Label="Analyze a DNA Sample (situationGoalObjectInteraction_CareerScientist_AnalyzeDNASample)" Value="111157" />
+  <Preset Label="Analyze a Fruit or Flower (situationGoalObjectInteraction_CareerScientist_AnalyzePlant)" Value="111159" />
+  <Preset Label="Analyze an Element (situationGoalObjectInteraction_CareerScientist_AnalyzeElement)" Value="111160" />
+  <Preset Label="Analyze a Crystal (situationGoalObjectInteraction_CareerScientist_AnalyzeCrystal)" Value="111161" />
+  <Preset Label="Clone a Plant (situationGoalObjectInteraction_CareerScientist_ClonePlant)" Value="111164" />
+  <Preset Label="Clone a Metal (situationGoalObjectInteraction_CareerScientist_CloneMetal)" Value="111172" />
+  <Preset Label="Clone a Plate of Food (situationGoalObjectInteraction_CareerScientist_CloneFood)" Value="111175" />
+  <Preset Label="Clone a Crystal (situationGoalObjectInteraction_CareerScientist_CloneCrystal)" Value="111176" />
+  <Preset Label="Have Fifth Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_5)" Value="111177" />
+  <Preset Label="Have Sixth Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_6)" Value="111178" />
+  <Preset Label="Have Seventh Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_7)" Value="111179" />
+  <Preset Label="Have Eighth Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_8)" Value="111180" />
+  <Preset Label="Have Ninth Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_9)" Value="111181" />
+  <Preset Label="Have Tenth Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_10)" Value="111182" />
+  <Preset Label="Have Eleventh Breakthrough (situationGoalActor_CareerScientist_Breakthrough_Level_11)" Value="111183" />
+  <Preset Label="Upgrade SimRay with Transform Object (situationGoalObjectInteraction_CareerScientist_Upgrade_TransformObject)" Value="111194" />
+  <Preset Label="Upgrade the SimRay with Mind Control: Change Outfit (situationGoalObjectInteraction_CareerScientist_Upgrade_MindControl_ChangeClothes)" Value="111195" />
+  <Preset Label="Upgrade the SimRay with Mind Control: Clean (situationGoalObjectInteraction_CareerScientist_Upgrade_MindControl_Clean)" Value="111196" />
+  <Preset Label="Upgrade the SimRay with Mind Control: Eat (situationGoalObjectInteraction_CareerScientist_Upgrade_MindControl_Eat)" Value="111197" />
+  <Preset Label="Upgrade the SimRay with Mind Control: Panic (situationGoalObjectInteraction_CareerScientist_Upgrade_MindControl_Panic)" Value="111198" />
+  <Preset Label="Upgrade SimRay with Mind Control: Sit (situationGoalObjectInteraction_CareerScientist_Upgrade_MindControl_Sit)" Value="111199" />
+  <Preset Label="Upgrade the SimRay with Mind Control: Sleep (situationGoalObjectInteraction_CareerScientist_Upgrade_MindControl_Sleep)" Value="111200" />
+  <Preset Label="Upgrade SimRay with Transform Sim (situationGoalObjectInteraction_CareerScientist_Upgrade_TransformSim)" Value="111201" />
+  <Preset Label="Have a Breakthrough (whimActor_CareerScientist_Breakthrough)" Value="111202" />
+  <Preset Label="Give {2.SimFirstName} a Tainted Serum (WhimRanInteractionTargeted_CareerScientist_GiveTaintedSerum)" Value="111203" />
+  <Preset Label="Give {2.SimFirstName} a Serum (WhimRanInteractionTargeted_CareerScientist_GiveSerum)" Value="111205" />
+  <Preset Label="Contact Aliens with a Satellite Dish (whimGoal_CareerScientist_SatelliteDish_ContactAliens)" Value="111207" />
+  <Preset Label="Detect Aliens with a Satellite Dish (whimGoal_CareerScientist_SatelliteDish_DetectAliens)" Value="111208" />
+  <Preset Label="Brainstorm on an Invention Constructor (whimGoal_CareerScientist_InventionConstructor_Brainstorm)" Value="111209" />
+  <Preset Label="Experiment with a Chemistry Lab (whimGoal_CareerScientist_ChemistryLab_Experiment)" Value="111210" />
+  <Preset Label="Prevent Abductions (whimGoal_CareerScientist_SatelliteDish_PreventAbductions)" Value="111217" />
+  <Preset Label="Hivemind the Neighborhood (whimGoal_CareerScientist_SatelliteDish_NeighborhoodHivemind)" Value="111218" />
+  <Preset Label="Watch a Momentum Conserver (whimGoal_CareerScientist_Orrery_View)" Value="111219" />
+  <Preset Label="Test Alien Environment (whimGoal_CareerScientist_AlienPortal_Test)" Value="111220" />
+  <Preset Label="Travel through the Electroflux Wormhole Generator (whimGoal_CareerScientist_AlienPortal_Travel)" Value="111221" />
+  <Preset Label="Contact an Alien thru the Electroflux Wormhole Generator (whimGoal_CareerScientist_AlienPortal_Contact)" Value="111222" />
+  <Preset Label="Calibrate the Electroflux Wormhole Generator (whimGoal_CareerScientist_AlienPortal_Calibrate)" Value="111223" />
+  <Preset Label="Clone a Sim (whimGoal_CareerScientist_CloningMachine_CloneSim)" Value="111224" />
+  <Preset Label="Clone Food (whimGoal_CareerScientist_CloningMachine_CloneFood)" Value="111225" />
+  <Preset Label="Clone Something (whimGoal_CareerScientist_CloningMachine_CloneSomething)" Value="111226" />
+  <Preset Label="Clone a Fruit or Flower (whimGoal_CareerScientist_CloningMachine_ClonePlant)" Value="111227" />
+  <Preset Label="Diagnose a Patient (careerDoctor_DiagnosePatient)" Value="111253" />
+  <Preset Label="Discuss General Health with Admited Patient (careerDoctor_DiscussHealth)" Value="111255" />
+  <Preset Label="Scan a Patient in the X-Ray Machine (careerDoctor_XrayScan)" Value="111256" />
+  <Preset Label="Treat a Patient's Illness (careerDoctor_TreatPatient)" Value="111259" />
+  <Preset Label="Analyze the Patient's Sample (careerDoctor_AnalyzeSample)" Value="111269" />
+  <Preset Label="Swab a Patient for Sample  (careerDoctor_TakeSample)" Value="111272" />
+  <Preset Label="Treat Sickness Symptoms with Rest (whim_Sickness_Cure_HomeRemedy_Nap)" Value="111511" />
+  <Preset Label="Cure Illness with Medicine (Whim_Sickness_Cure_TakeMedicine)" Value="111512" />
+  <Preset Label="Cure sickness with a Cup of Tea (whim_Sickness_Cure_HomeRemedy_Tea)" Value="111513" />
+  <Preset Label="Make Bed (careerDoctor_ExamBed_Clean)" Value="111971" />
+  <Preset Label="Admit a Patient (careerDoctor_AdmitPatient)" Value="111975" />
+  <Preset Label="Give Birth (Goal_BabyBirth_Hospital)" Value="112167" />
+  <Preset Label="Discuss Pregnancy With Doctor (situation_goal_BabyBirth_Hospital_DiscussPregnancy)" Value="112188" />
+  <Preset Label="Determine Baby Gender (situation_goal_BabyBirth_Hospital_FindOut_BabyGender)" Value="112189" />
+  <Preset Label="Have a Cup of Coffee (careerDoctor_GetCaffinated)" Value="112251" />
+  <Preset Label="Grab a Snack between seeing patients (careerDoctor_GrabSnack)" Value="112264" />
+  <Preset Label="Introduce yourself to a Co-worker (situationGoalRelationship_Career_Scientist_CoworkerMeet)" Value="112277" />
+  <Preset Label="Deep Conversation with {2.SimName} (situationGoalInteractionSim_Coworkers_DeepConversation)" Value="112307" />
+  <Preset Label="Share Ideas with {2.SimName} (situationGoalInteractionSim_Coworkers_ShareBrilliantIdeas)" Value="112308" />
+  <Preset Label="Discuss Work with {2.SimName} (situationGoalInteractionSim_Coworkers_DiscussWork)" Value="112309" />
+  <Preset Label="Propose a Crazy Scheme to a Co-worker (situationGoalInteractionSim_Coworkers_ProposeCrazyScheme)" Value="112310" />
+  <Preset Label="Share Ideas with {2.SimName} (situationGoalInteractionSim_Coworkers_ShareCreativeIdeas)" Value="112321" />
+  <Preset Label="Gossip about Co-workers with {2.SimName} (situationGoalInteractionSim_Coworkers_GossipAboutCoworkers)" Value="112369" />
+  <Preset Label="Mix Synthetic Food Serum (situationGoalCraftObject_Career_Scientist_Serum_SyntheticFood)" Value="112379" />
+  <Preset Label="Mix Red Hot Serum (situationGoalCraftObject_Career_Scientist_Serum_RedHot)" Value="112380" />
+  <Preset Label="Ask a Co-worker for a Crystal (situationGoalInteractionSim_Coworkers_AskForCrystal)" Value="112463" />
+  <Preset Label="Ask a Co-worker for a Metal (situationGoalInteractionSim_Coworkers_AskForMetal)" Value="112464" />
+  <Preset Label="Deliver Food to a Patient on the Exam Bed (careerDoctor_ExamBed_DeliverFood)" Value="112498" />
+  <Preset Label="Give a Patient a Shot (careerDoctor_ExamBed_GiveShots)" Value="112499" />
+  <Preset Label="Deliver Medication to a Patient (careerDoctor_ExamBed_DeliverMeds)" Value="112500" />
+  <Preset Label="Take the Patient's Temperature (careerDoctor_ExamBed_TakeTemp)" Value="112502" />
+  <Preset Label="Check a Patient's Ears (careerDoctor_ExamBed_CheckEars)" Value="112503" />
+  <Preset Label="Scan a Patient's Body (careerDoctor_ExamBed_Probe)" Value="112504" />
+  <Preset Label="Check a Patient's Eyes (careerDoctor_ExamBed_CheckEyes)" Value="112505" />
+  <Preset Label="Wash hands to sterilize germs (careerDoctor_WashHands)" Value="112507" />
+  <Preset Label="Staff the Reception Desk (careerDoctor_FrontDesk_Staff_start)" Value="112510" />
+  <Preset Label="Deliver Baby at Surgery Table (careerDoctor_DeliverBaby)" Value="112533" />
+  <Preset Label="Get a Case Assignment (careerDetective_Day01_GetAssignment)" Value="112544" />
+  <Preset Label="Successfully Use The Chemical Analyzer (careerDetective_Day01_ChemAnalyzer_Generic)" Value="112566" />
+  <Preset Label="Get Criminals' Fingerprints at Booking Station (careerDetective_BookingStation_Fingerprint)" Value="112571" />
+  <Preset Label="Search Criminals at the Booking Station (careerDetective_BookingStation_Search)" Value="112572" />
+  <Preset Label="Take Mugshots at the Booking Station (careerDetective_BookingStation_Mugshot)" Value="112573" />
+  <Preset Label="File Crime Scene Evidence at a Computer (careerDetective_Day01_TurnInClues)" Value="112580" />
+  <Preset Label="careerDetective_Day01_TurnInCluesHIDDEN01" Value="112585" />
+  <Preset Label="careerDetective_Day01_TurnInCluesHIDDEN02" Value="112586" />
+  <Preset Label="Mop Up Puddle (careerDoctor_Clean_MopPuddle)" Value="112600" />
+  <Preset Label="Repair the broken X-Ray Machine (careerDoctor_XRayMachine_Repair)" Value="112601" />
+  <Preset Label="Log the Sample Analysis Results (careerDoctor_Computer_EnterLabResults)" Value="112647" />
+  <Preset Label="Research Health Reports Online (careerDoctor_Computer_ResearchHealthInfo)" Value="112648" />
+  <Preset Label="Update Patient Medical Records (careerDoctor_Computer_UpdateMedicalRecord)" Value="112649" />
+  <Preset Label="Chat with a Patient (situationGoalInteractionSim_Career_Doctor_ChatWithPatients)" Value="112657" />
+  <Preset Label="Greet 3 Patients (situationGoalInteractionSim_Career_Doctor_GreetPatients_3)" Value="112660" />
+  <Preset Label="Greet 2 Co-workers (situationGoalInteractionSim_Career_Doctor_GreetCoworkers_2)" Value="112661" />
+  <Preset Label="Chat with Co-workers (situationGoalInteractionSim_Career_Doctor_ChatWithCoWorkers)" Value="112662" />
+  <Preset Label="Check-In 5 Patients (situationGoalInteractionSim_Career_Doctor_FrontDesk_CheckInSim_5)" Value="112672" />
+  <Preset Label="Check-In 3 Patients (situationGoalInteractionSim_Career_Doctor_FrontDesk_CheckInSim_3)" Value="112673" />
+  <Preset Label="Run Tests to Find Diagnosis (situationGoalInteractionSim_Career_Doctor_RanTests)" Value="112696" />
+  <Preset Label="Turn on Momentum Conserver (situationGoalObjectInteration_CareerScientist_TurnOnMomentumConsever)" Value="112725" />
+  <Preset Label="View Momentum Conserver (situationGoalObjectInteraction_CareerScientist_ViewMomentumConserver)" Value="112733" />
+  <Preset Label="Dig Up Materials (SituationGoalObjectInteraction_CareerScientist_DigUpSomething)" Value="112753" />
+  <Preset Label="Drink or Give Away Synthetic Food Serum (situationGoalObjectInteraction_CareerScientist_Drink_SyntheticFoodSerum)" Value="112820" />
+  <Preset Label="Dig Up 3 Materials (situationGoalObjectInteraction_CareerScientist_DigUp_3)" Value="112831" />
+  <Preset Label="Freeze {0.Number} Sims (situationGoalInteractionSim_Career_Scientist_Freeze_Sims)" Value="112838" />
+  <Preset Label="Drink or Give Away Age Away Serum (situationGoalObjectInteraction_CareerScientist_Drink_AgeAway)" Value="112839" />
+  <Preset Label="Drink Alien Aura Serum (situationGoalObjectInteraction_CareerScientist_Drink_AlienAura)" Value="112840" />
+  <Preset Label="Drink Reaper's Friend Serum (situationGoalObjectInteraction_CareerScientist_Drink_ReapersFriend)" Value="112841" />
+  <Preset Label="Drink Red Hot Serum (situationGoalObjectInteraction_CareerScientist_Drink_RedHot)" Value="112842" />
+  <Preset Label="Drink Rose Perfume Serum (situationGoalObjectInteraction_CareerScientist_Drink_RosePerfume)" Value="112843" />
+  <Preset Label="Drink or Give Away Slimify Serum Goal (situationGoalObjectInteraction_CareerScientist_Drink_Slimify)" Value="112844" />
+  <Preset Label="Drink Smart Serum (situationGoalObjectInteraction_CareerScientist_Drink_Smart)" Value="112845" />
+  <Preset Label="Drink or Give Away Snake Oil Serum (situationGoalObjectInteraction_CareerScientist_Drink_SnakeOil)" Value="112846" />
+  <Preset Label="Drink Spark Drive Serum (situationGoalObjectInteraction_CareerScientist_Drink_SparkDrive)" Value="112847" />
+  <Preset Label="Drink or Give Away Embiggen Serum (situationGoalObjectInteraction_CareerScientist_Drink_Embiggen)" Value="112849" />
+  <Preset Label="Drink Fixer's Luck Serum (situationGoalObjectInteraction_CareerScientist_Drink_FixersLuck)" Value="112850" />
+  <Preset Label="Drink Ghost Goo Serum (situationGoalObjectInteraction_CareerScientist_Drink_GhostGoo)" Value="112851" />
+  <Preset Label="Drink or Give Away Need Fixer Serum (situationGoalObjectInteraction_CareerScientist_Drink_NeedFixer)" Value="112852" />
+  <Preset Label="Drink or Give Away Ox Strength Serum (situationGoalObjectInteraction_CareerScientist_Drink_OxStrength)" Value="112853" />
+  <Preset Label="Harvest a Plant (situationGoalObjectInteraction_CareerScientist_HarvestPlant)" Value="112865" />
+  <Preset Label="Start a Case Map (careerDetective_StartCase)" Value="112866" />
+  <Preset Label="Name SimRay (situationGoalObjectInteraction_CareerScientist_NameSimRay)" Value="112867" />
+  <Preset Label="Troll Forums on a Computer (situationGoalObjectInteraction_CareerScientist_TrollForums)" Value="112870" />
+  <Preset Label="Take an Angry Poop (situationGoalObjectInteraction_CareerScientist_TakeAngryPoop)" Value="112871" />
+  <Preset Label="Calm Self Down (situationGoalObjectInteraction_CareerScientist_CalmSelfDown)" Value="112872" />
+  <Preset Label="Turn on Hover Lamp (situationGoalObjectInteration_CareerScientist_TurnOnHoverLamp)" Value="112877" />
+  <Preset Label="View Hover Lamp (situationGoalObjectInteraction_CareerScientist_ViewHoverLamp)" Value="112880" />
+  <Preset Label="Search Alien Crater (situationGoalObjectInteraction_CareerScientist_DigAlienCrater)" Value="112881" />
+  <Preset Label="Ask a Co-worker about their Love Life (situationGoalInteractionSim_Coworkers_AskAboutLoveLife)" Value="112883" />
+  <Preset Label="Practice Pick-up Lines (situationGoalObjectInteraction_CareerScientist_PracticeRomance)" Value="112884" />
+  <Preset Label="Take a Cold Shower (situationGoalObjectInteraction_CareerScientist_TakeColdShower)" Value="112885" />
+  <Preset Label="Interrogate a Suspect (careerDetective_InterrogateSuspect)" Value="112892" />
+  <Preset Label="Freeze an Enemy (situationGoalInteractionSim_Career_Scientist_Freeze_Enemy)" Value="112893" />
+  <Preset Label="Mind Control an Enemy to Panic (situationGoalInteractionSim_Career_Scientist_MindControl_Panic_Enemy)" Value="112896" />
+  <Preset Label="Clone a Serum (situationGoalObjectInteraction_CareerScientist_Clone_Serum)" Value="112903" />
+  <Preset Label="Contact Aliens (situationGoalObjectInteraction_CareerScientist_ContactAliens)" Value="112909" />
+  <Preset Label="Start Neighborhood Hive Mind (situationGoalObjectInteraction_CareerScientist_NeighborhoodHivemind)" Value="112910" />
+  <Preset Label="Calibrate an Electroflux Wormhole Generator (situationGoalObjectInteraction_CareerScientist_CalibrateAlienPortal)" Value="112911" />
+  <Preset Label="Attempt Alien Contact (situationGoalObjectInteraction_CareerScientist_AttemptAlienContact)" Value="112912" />
+  <Preset Label="Possess a Computer (situationGoalObjectInteraction_CareerScientist_PossessAComputer)" Value="112913" />
+  <Preset Label="Scare a Co-worker (situationGoalInteractionSim_Coworkers_Scare)" Value="112916" />
+  <Preset Label="Give Co-worker a Pep Talk (situationGoalInteractionSim_Coworkers_GivePepTalk)" Value="112918" />
+  <Preset Label="Do Sit Ups (situationGoalObjectInteraction_CareerScientist_DoSitUps)" Value="112922" />
+  <Preset Label="Take Energized Jog (situationGoalObjectInteraction_CareerScientist_EnergizedJog)" Value="112924" />
+  <Preset Label="Take a Speedy Shower (situationGoalObjectInteraction_CareerScientist_TakeSpeedyShower)" Value="112925" />
+  <Preset Label="Describe New Idea to Co-worker (situationGoalInteractionSim_Coworkers_DescribeNewIdea)" Value="112926" />
+  <Preset Label="Analyze a Co-worker's Personality (situationGoalInteractionSim_Coworkers_AnalyzePersonality)" Value="112927" />
+  <Preset Label="Salvage a Computer into Parts (situationGoalObjectInteraction_CareerScientist_SalvageAComputer)" Value="112930" />
+  <Preset Label="Admire Self in a Mirror (situationGoalObjectInteraction_CareerScientist_AdmireSelf)" Value="112933" />
+  <Preset Label="Hit the Red Button and be saved by Reaper. (situationGoalObjectInteraction_CareerScientist_HitBigRedButton)" Value="112934" />
+  <Preset Label="Empathize With a Co-worker (situationGoalInteractionSim_Coworkers_Empathize)" Value="112935" />
+  <Preset Label="Perform a Transmutation (situationGoalObjectInteraction_CareerScientist_Transmute)" Value="112938" />
+  <Preset Label="Add Clues to the Crime Map (careerDetective_AddCluesToMap_HIDDEN)" Value="112946" />
+  <Preset Label="Give a Sim Synthetic Food (situationGoalInteractionSim_Career_Scientist_GiveSerum_SyntheticFood)" Value="112967" />
+  <Preset Label="Give a Sim a Rose Perfume Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_RosePerfume)" Value="112968" />
+  <Preset Label="Give a Sim a Snake Oil Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_SnakeOil)" Value="112969" />
+  <Preset Label="Give a Sim a Need Fixer Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_NeedFixer)" Value="112970" />
+  <Preset Label="Give a Sim a Spark Drive Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_SparkDrive)" Value="112971" />
+  <Preset Label="Give a Sim a Smart Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_SmartSerum)" Value="112973" />
+  <Preset Label="Get to Know Co-worker (situationGoalInteractionSim_Coworkers_GetToKnow)" Value="112974" />
+  <Preset Label="eventGoal_ZoneLoaded_Detective_LeaveAPB_HIDDEN" Value="112978" />
+  <Preset Label="Work on Rocket for 10 Minutes (situationGoalObjectInteraction_CareerScientist_WorkOnRocket_Timed_10Mins)" Value="112979" />
+  <Preset Label="Clone a Crystal (situationGoalObjectInteraction_CareerScientist_CloneCrystal_Collect)" Value="112981" />
+  <Preset Label="Write Up Research on the Computer (situationGoalObjectInteraction_CareerScientist_WriteUpResearch)" Value="112982" />
+  <Preset Label="Clone a Plate of Food (situationGoalObjectInteraction_CareerScientist_CloneFood_Collect)" Value="112984" />
+  <Preset Label="Clone a Metal (situationGoalObjectInteraction_CareerScientist_CloneMetal_Collect)" Value="112986" />
+  <Preset Label="Clone a Plant (situationGoalObjectInteraction_CareerScientist_ClonePlant_Collect)" Value="112989" />
+  <Preset Label="Analyze a Crystal (situationGoalObjectInteraction_CareerScientist_AnalyzeCrystal_Collect)" Value="112991" />
+  <Preset Label="Analyze a Metal (situationGoalObjectInteraction_CareerScientist_AnalyzeMetal_Collect)" Value="112993" />
+  <Preset Label="Prevent Abductions (situationGoalObjectInteraction_CareerScientist_Satellite_PreventAbductions)" Value="112994" />
+  <Preset Label="Analyze a Fruit or Flower (situationGoalObjectInteraction_CareerScientist_AnalyzePlant_Collect)" Value="112996" />
+  <Preset Label="Ask a Co-worker for a Crystal (situationGoalInteractionSim_Coworkers_AskForCrystal_Collect)" Value="112999" />
+  <Preset Label="Ask a Co-worker for a Metal (situationGoalInteractionSim_Coworkers_AskForMetal_Collect)" Value="113001" />
+  <Preset Label="Calibrate the Electroflux Wormhole Generator (situationGoalObjectInteraction_CareerScientist_AlienPortal_Calibrate)" Value="113002" />
+  <Preset Label="Find Collectibles (situationGoalActor_CareerScientist_CollectAll_Main)" Value="113003" />
+  <Preset Label="Ask About {2.SimName}'s Day (situationGoalInteractionSim_Coworkers_AskAboutDay)" Value="113007" />
+  <Preset Label="Collect Clues Or Witness Reports (careerDetective_CollectCluesOrWitnessReports)" Value="113008" />
+  <Preset Label="Mix Age Away Serum (situationGoalCraftObject_Career_Scientist_Serum_AgeAway)" Value="113024" />
+  <Preset Label="Mix Alien Aura Serum (situationGoalCraftObject_Career_Scientist_Serum_AlienAura)" Value="113025" />
+  <Preset Label="Mix Need Fixer Serum (situationGoalCraftObject_Career_Scientist_Serum_NeedFixer)" Value="113026" />
+  <Preset Label="Mix Ox Strength Serum (situationGoalCraftObject_Career_Scientist_Serum_OxStrength)" Value="113027" />
+  <Preset Label="Mix Reaper's Friend Serum (situationGoalCraftObject_Career_Scientist_Serum_ReapersFriend)" Value="113028" />
+  <Preset Label="Mix Rose Perfume Serum (situationGoalCraftObject_Career_Scientist_Serum_RosePerfume)" Value="113029" />
+  <Preset Label="Mix Slimify Serum (situationGoalCraftObject_Career_Scientist_Serum_Slimify)" Value="113030" />
+  <Preset Label="Mix Smart Serum (situationGoalCraftObject_Career_Scientist_Serum_Smart)" Value="113031" />
+  <Preset Label="Mix Snake Oil Serum (situationGoalCraftObject_Career_Scientist_Serum_SnakeOil)" Value="113032" />
+  <Preset Label="Mix Spark Drive Serum (situationGoalCraftObject_Career_Scientist_Serum_SparkDrive)" Value="113033" />
+  <Preset Label="Mix Embiggen Serum (situationGoalCraftObject_Career_Scientist_Serum_Embiggen)" Value="113034" />
+  <Preset Label="Mix Fixer's Luck Serum (situationGoalCraftObject_Career_Scientist_Serum_FixersLuck)" Value="113035" />
+  <Preset Label="Mix Ghost Goo Serum (situationGoalCraftObject_Career_Scientist_Serum_GhostGoo)" Value="113036" />
+  <Preset Label="Transform a Sim (situationGoalObjectInteraction_CareerScientist_Transform_Sim)" Value="113059" />
+  <Preset Label="Get a Case Assignment (careerDetective_GetCaseAssignment_FirstCase)" Value="113062" />
+  <Preset Label="Start a Case Map (careerDetective_StartCase_FirstCase)" Value="113064" />
+  <Preset Label="Make Sims Ravenous Using Mind Control (situationGoalInteractionSim_Career_Scientist_MindControl_Eat_3)" Value="113065" />
+  <Preset Label="Mind Control a Sim to Sleep (situationGoalInteractionSim_Career_Scientist_MindControl_Sleep_3)" Value="113069" />
+  <Preset Label="Mind Control a Co-worker to Clean (situationGoalInteractionSim_Career_Scientist_MindControl_Clean_Coworker)" Value="113070" />
+  <Preset Label="Mind Control a Sim to Panic (situationGoalInteractionSim_Career_Scientist_MindControl_Panic)" Value="113072" />
+  <Preset Label="Collect Clues at the Crime Scene (careerDetective_CollectClues_FirstCase)" Value="113076" />
+  <Preset Label="Analyze Evidence (careerDetective_AnalyzeEvidence_FirstCase)" Value="113078" />
+  <Preset Label="Add Clues to the Crime Map (careerDetective_AddCluesToMap_FirstCase)" Value="113079" />
+  <Preset Label="Give a Sim a Tainted Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_Tainted)" Value="113081" />
+  <Preset Label="Get a Report from a Witness (careerDetective_TakeWitnessReports_FirstCase)" Value="113082" />
+  <Preset Label="Cross Reference the Police Database (careerDetective_FileWitnessReports_FirstCase)" Value="113084" />
+  <Preset Label="Give a Sim Tainted Synthetic Food (situationGoalInteractionSim_Career_Scientist_GiveSerum_Tainted_SyntheticFood)" Value="113099" />
+  <Preset Label="Give a Sim Tainted Red Hot Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_Tainted_RedHot)" Value="113107" />
+  <Preset Label="Give a Sim Tainted Rose Perfume Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_Tainted_RosePerfume)" Value="113113" />
+  <Preset Label="Give a Sim Tainted Ghost Goo Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_Tainted_GhostGoo)" Value="113115" />
+  <Preset Label="Give a Sim Tainted Need Fixer Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_Tainted_NeedFixer)" Value="113117" />
+  <Preset Label="Chat With Civilians For 30 Minutes (careerDetective_SocializeWithCivilians)" Value="113123" />
+  <Preset Label="Issue A Citation (careerDetective_IssueCitations)" Value="113126" />
+  <Preset Label="Scare a Sim after drinking Ghost Goo Serum (situationGoalObjectInteraction_CareerScientist_GhostGoo_ScareSim)" Value="113129" />
+  <Preset Label="Clone Yourself (situationGoalObjectInteraction_CareerScientist_Clone_Self)" Value="113179" />
+  <Preset Label="Go on Patrol (eventGoal_ZoneLoaded_Detective_GoOnPatrol)" Value="113181" />
+  <Preset Label="Lie About Career to {2.SimName} (situationGoalInteractionSim_Coworkers_LieAboutCareer)" Value="113182" />
+  <Preset Label="Brainstorm on Invention Constructor (situationGoalObjectInteraction_CareerScientist_Brainstorm)" Value="113185" />
+  <Preset Label="Experiment on the Chemistry Lab (situationGoalObjectInteraction_CareerScientist_Experiment)" Value="113186" />
+  <Preset Label="Give Fake Bad News to {2.SimName} (situationGoalInteractionSim_Coworkers_GiveFakeBadNews)" Value="113187" />
+  <Preset Label="Chew Out a Sim after drinking Red Hot Serum (situationGoalObjectInteraction_CareerScientist_RedHot_ChewOut)" Value="113189" />
+  <Preset Label="Clone a Plant (situationGoalObjectInteraction_CareerScientist_ClonePlant_Chain)" Value="113191" />
+  <Preset Label="Hivemind the Neighborhood (situationGoalObjectInteraction_CareerScientist_Satellite_HiveMind)" Value="113192" />
+  <Preset Label="Complain About Work to {2.SimName} (situationGoalInteractionSim_Coworkers_ComplainAboutWork)" Value="113193" />
+  <Preset Label="Gossip about Office Romances with {2.SimName} (situationGoalInteractionSim_Coworkers_GossipAbout_OfficeRomances)" Value="113194" />
+  <Preset Label="Sabotage a Computer (situationGoalObjectInteraction_CareerScientist_Sabotage_Computer)" Value="113196" />
+  <Preset Label="Run your suspect through the booking process. (situationGoalInteractionSim_Career_Detective_BookingProcess)" Value="113197" />
+  <Preset Label="Sabotage a Coffee Maker (situationGoalObjectInteraction_CareerScientist_Sabotage_CoffeeMaker)" Value="113198" />
+  <Preset Label="Sabotage the Toilet (situationGoalObjectInteraction_CareerScientist_Sabotage_Toilet)" Value="113199" />
+  <Preset Label="Sabotage the Rocket Ship (situationGoalObjectInteraction_CareerScientist_Sabotage_RocketShip)" Value="113200" />
+  <Preset Label="Successfully Analyze Evidence (careerDetective_AnalyzeEvidence_2Iterations)" Value="113201" />
+  <Preset Label="LOCKED (eventGoal_ZoneLoaded_Detective_GoOnPatrolHIDDEN)" Value="113202" />
+  <Preset Label="Issue a Citation (careerDetective_Day02_IssueCitation)" Value="113234" />
+  <Preset Label="Lock Up your suspect (situationGoalInteractionSim_Career_Detective_GuiltyLockUp)" Value="113238" />
+  <Preset Label="Chat with Civilians (careerDetective_Day02_SocializeWithCivilians)" Value="113252" />
+  <Preset Label="Return to Police Station (eventGoal_ZoneLoaded_Detective_ReturnToStation)" Value="113269" />
+  <Preset Label="Assess Collapsed Sim (situationGoalInteractionSim_Career_Doctor_CollapsedPatient_ReferToSurgery)" Value="113271" />
+  <Preset Label="LOCKED (eventGoal_ZoneLoaded_Detective_ReturnToStationHIDDEN)" Value="113281" />
+  <Preset Label="Go On Patrol (eventGoal_ZoneLoaded_Detective_GoToPatrol)" Value="113322" />
+  <Preset Label="eventGoal_ZoneLoaded_Detective_GoToPatrolHIDDEN" Value="113323" />
+  <Preset Label="Add More Clues To The Crime Map (careerDetective_AddCluesToMap_AddMoreClues)" Value="113356" />
+  <Preset Label="Mind Control Co-workers to change Outfits (situationGoalInteractionSim_Career_Scientist_MindControl_ChangeOutfit_CasualCoworker_3)" Value="113367" />
+  <Preset Label="Mind Control a Sim to Clean (situationGoalInteractionSim_Career_Scientist_MindControl_Clean_Coworker_chained)" Value="113368" />
+  <Preset Label="Make Sims Ravenous Using Mind Control (situationGoalInteractionSim_Career_Scientist_MindControl_Eat_3_chained)" Value="113369" />
+  <Preset Label="Mind control a Sim to panic (situationGoalInteractionSim_Career_Scientist_MindControl_Panic_3_chained)" Value="113370" />
+  <Preset Label="Mind control a Sim to sit (situationGoalInteractionSim_Career_Scientist_MindControl_Sit_3_chained)" Value="113371" />
+  <Preset Label="Mind Control a Sim to Sleep (situationGoalInteractionSim_Career_Scientist_MindControl_Sleep_3_chained)" Value="113372" />
+  <Preset Label="Freeze a Sim (situationGoalInteractionSim_Career_Scientist_Freeze_Sim_Surprise)" Value="113383" />
+  <Preset Label="Freeze a Co-worker (situationGoalInteractionSim_Career_Scientist_Freeze_Coworker_Surprise)" Value="113388" />
+  <Preset Label="Mind Control a Sim to Change into a Party Outfit (situationGoalInteractionSim_Career_Scientist_MindControl_ChangeOutfit_Party_Surprise)" Value="113389" />
+  <Preset Label="Mind Control a Sim to Change into a Formal Outfit (situationGoalInteractionSim_Career_Scientist_MindControl_ChangeOutfit_Formal_Surprise)" Value="113392" />
+  <Preset Label="Mind Control a Sim to Change into an Athletic Outfit (situationGoalInteractionSim_Career_Scientist_MindControl_ChangeOutfit_Athletic_Surprise)" Value="113393" />
+  <Preset Label="Mind Control a Sim to Change into a Sleep Outfit (situationGoalInteractionSim_Career_Scientist_MindControl_ChangeOutfit_Sleep_Surprise)" Value="113394" />
+  <Preset Label="Mind Control a Sim to Change into an Everyday Outfit (situationGoalInteractionSim_Career_Scientist_MindControl_ChangeOutfit_Everyday_Surprise)" Value="113397" />
+  <Preset Label="Mind Control a Sim to Change into a Swim Outfit (situationGoalInteractionSim_Career_Scientist_MindControl_ChangeOutfit_Swim_Surprise)" Value="113398" />
+  <Preset Label="Make {0.Number} Co-workers Ravenous Using Mind Control (situationGoalInteractionSim_Career_Scientist_MindControl_Eat_3_Coworker_Surprise)" Value="113402" />
+  <Preset Label="Issue an All Points Bulletin (APB) (eventGoal_ZoneLoaded_Detective_GoToAPB)" Value="113403" />
+  <Preset Label="Mind Control {0.Number} Co-workers to Sleep (situationGoalInteractionSim_Career_Scientist_MindControl_Sleep_3_Coworker_Surprise)" Value="113405" />
+  <Preset Label="Mind Control a Co-worker to Clean (situationGoalInteractionSim_Career_Scientist_MindControl_Clean_Coworker_Surprise)" Value="113412" />
+  <Preset Label="Mind Control a Sim to Panic (situationGoalInteractionSim_Career_Scientist_MindControl_Panic_Surprise)" Value="113414" />
+  <Preset Label="Freeze {0.Number} Sims (situationGoalInteractionSim_Career_Scientist_Freeze_Sims_Surprise)" Value="113418" />
+  <Preset Label="Use the SimRay {0.Number} Times on Tourists (situationGoalInteractionSim_Career_Scientist_SimRayUse_Civilian_3_Surprise)" Value="113420" />
+  <Preset Label="Use the SimRay {0.Number} Times on Co-workers (situationGoalInteractionSim_Career_Scientist_SimRayUse_Coworker_3_Surprise)" Value="113422" />
+  <Preset Label="Discuss Work with {2.SimName} (situationGoalInteractionSim_Coworkers_DiscussWork_Breakthrough)" Value="113424" />
+  <Preset Label="Deep Conversation with {2.SimName} (situationGoalInteractionSim_Coworkers_DeepConversation_Breakthrough)" Value="113427" />
+  <Preset Label="Use a Microscope for Research (situationGoalObjectInteraction_CareerScientist_ResearchMicroscope_Breakthrough)" Value="113429" />
+  <Preset Label="Observe the Skies (situationGoalObjectInteraction_CareerScientist_ObserveTheSkies_Breakthrough)" Value="113431" />
+  <Preset Label="Experiment on the Chemistry Lab for an  Hour (situationGoalInteractionTime_ChemistryLab_Experiment_Breakthrough)" Value="113438" />
+  <Preset Label="Upgrade satellite dish (situationGoalObjectInteraction_CareerScientist_Upgrade_Satellite_DetectAliens)" Value="113440" />
+  <Preset Label="Upgrade Cloning Machine to clone Sims (situationGoalObjectInteraction_CareerScientist_Upgrade_CloningMachine_CloneSim)" Value="113442" />
+  <Preset Label="Upgrade the Electroflux Wormhole Generator to travel to alien world (situationGoalObjectInteraction_CareerScientist_Upgrade_AlienPortal_TravelAlienWorld)" Value="113443" />
+  <Preset Label="Share Ideas with {2.SimName} (situationGoalInteractionSim_Coworkers_ShareBrilliantIdeas_Breakthrough)" Value="113445" />
+  <Preset Label="Share Creative Ideas with {2.SimName} (situationGoalInteractionSim_Coworkers_ShareCreativeIdeas_Breakthrough)" Value="113446" />
+  <Preset Label="Propose a Crazy Scheme to a Co-worker (situationGoalInteractionSim_Coworkers_ProposeCrazyScheme_Breakthrough)" Value="113448" />
+  <Preset Label="Transform a Barrel (situationGoalObjectInteraction_CareerScientist_Transform_Barrel)" Value="113457" />
+  <Preset Label="Transform a Serum. (situationGoalObjectInteraction_CareerScientist_Transform_Serum_Surprise)" Value="113458" />
+  <Preset Label="Go Fishing for 20 Minutes (situationGoalObjectInteraction_CareerScientist_GoFishing)" Value="113459" />
+  <Preset Label="Take a Thoughtful Shower (situationGoalObjectInteraction_CareerScientist_TakeThoughtfulShower)" Value="113464" />
+  <Preset Label="Work out on a Treadmill for 30 Minutes (situationGoalObjectInteraction_CareerScientist_TreadmillWorkout)" Value="113467" />
+  <Preset Label="View a Piece of Art (situationGoalObjectInteraction_CareerScientist_ViewArt)" Value="113472" />
+  <Preset Label="Work on Bonsai Tree (situationGoalObjectInteraction_CareerScientist_MaintainBonsai)" Value="113474" />
+  <Preset Label="Examine Bonsai (situationGoalObjectInteraction_CareerScientist_ViewBonsai)" Value="113475" />
+  <Preset Label="Read a Book (situationGoalObjectInteraction_CareerScientist_ReadABook)" Value="113476" />
+  <Preset Label="Tinker (situationGoalObjectInteraction_CareerScientist_Tinker)" Value="113477" />
+  <Preset Label="Transform a Light. (situationGoalObjectInteraction_CareerScientist_Transform_Light_Surprise)" Value="113478" />
+  <Preset Label="Browse Web on a Computer (situationGoalObjectInteraction_CareerScientist_BrowseWeb)" Value="113479" />
+  <Preset Label="Transform a Chair (situationGoalObjectInteraction_CareerScientist_Transform_Chair_Surprise)" Value="113480" />
+  <Preset Label="Transform some Grass (situationGoalObjectInteraction_CareerScientist_Transform_Grass_Surprise)" Value="113483" />
+  <Preset Label="Detect Aliens (situationGoalObjectInteraction_CareerScientist_DetectAliens)" Value="113488" />
+  <Preset Label="Travel to an alien world (situationGoalObjectInteraction_CareerScientist_TravelAlienWorld)" Value="113490" />
+  <Preset Label="Clone Yourself (situationGoalObjectInteraction_CareerScientist_CloneSim_chain)" Value="113491" />
+  <Preset Label="Transform a Desk Lamp (situationGoalObjectInteraction_CareerScientist_Transform_DeskLamp_Surprise)" Value="113492" />
+  <Preset Label="Transform a Pile of Crates (situationGoalObjectInteraction_CareerScientist_Transform_Crates)" Value="113494" />
+  <Preset Label="Transform a Towel Rack (situationGoalObjectInteraction_CareerScientist_Transform_Towel_Surprise)" Value="113497" />
+  <Preset Label="Transform a Co-worker's Appearance (situationGoalInteractionSim_Career_Scientist_Transform_Coworker_Surprise)" Value="113512" />
+  <Preset Label="Transform a Sim's Appearance (situationGoalInteractionSim_Career_Scientist_Transform_Sim_Surprise)" Value="113513" />
+  <Preset Label="Transform a Sink (situationGoalObjectInteraction_CareerScientist_Transform_Sink_Surprise)" Value="113515" />
+  <Preset Label="Perform a Treadmill Test on a Patient (careerDoctor_HospitalTreadmill_Test)" Value="113542" />
+  <Preset Label="Mind Control a Sim (situationGoalInteractionSim_Career_Scientist_MindControl_Surprise)" Value="113545" />
+  <Preset Label="Use the SimRay {0.Number} Times (situationGoalInteractionSim_Career_Scientist_SimRay_Use_SurpriseMain)" Value="113547" />
+  <Preset Label="Chat with {2.SimName} (situationGoalInteractionSim_Coworkers_Chat)" Value="113610" />
+  <Preset Label="Do an Earth Impression to an Alien (situationGoalInteractionSim_Career_Scientist_WorldEvent_EarthImpression_Alien)" Value="113617" />
+  <Preset Label="Chat with Invention Constructor for 10 Minutes (situationGoalObjectInteraction_CareerScientist_ChatConstructionRobot_10)" Value="113618" />
+  <Preset Label="Transform some Shelves (situationGoalObjectInteraction_CareerScientist_Transform_Shelves)" Value="113622" />
+  <Preset Label="Dance with Aliens (situationGoalInteractionSim_Career_Scientist_WorldEvent_DanceAliens)" Value="113623" />
+  <Preset Label="Mind Control Co-workers to change Outfits (situationGoalInteractionSim_Career_Scientist_MindControl_ChangeOutfit_Primary)" Value="113634" />
+  <Preset Label="Make it Lunch hour for 3 Co-workers using Mind Control (situationGoalInteractionSim_Career_Scientist_MindControl_Eat_Coworker_3)" Value="113653" />
+  <Preset Label="Mind Control a Co-worker to Sleep (situationGoalInteractionSim_Career_Scientist_MindControl_Sleep_3_Coworker)" Value="113665" />
+  <Preset Label="Transform an Alien (situationGoalInteractionSim_Career_Scientist_WorldEvent_SimRay_TransformAlien)" Value="113666" />
+  <Preset Label="Mind Control a Co-worker to Sit (situationGoalInteractionSim_Career_Scientist_MindControl_Sit_3_Coworker)" Value="113667" />
+  <Preset Label="Introduce yourself to {2.SimName} (situationGoalInteractionSim_Career_Scientist_WorldEvent_Introduce_X)" Value="113677" />
+  <Preset Label="Use SimRay on a Tourist (situationGoalInteractionSim_Career_Scientist_SimRayUse_Civilian_3)" Value="113678" />
+  <Preset Label="Use the SimRay on a Co-worker (situationGoalInteractionSim_Career_Scientist_SimRayUse_Coworker_3)" Value="113679" />
+  <Preset Label="Compliment {2.SimName} (situationGoalInteractionSim_Career_Scientist_WorldEvent_Compliment_X)" Value="113681" />
+  <Preset Label="Craft an Earth Drink (situationGoalCraftObject_Career_Scientist_WorldEvent_CraftDrink)" Value="113687" />
+  <Preset Label="Craft a Juice on the Rocks (situationGoalCraftObject_Career_Scientist_WorldEvent_CraftDrink_JuiceRocks)" Value="113688" />
+  <Preset Label="Brighten {2.SimName}'s Day (situationGoalInteractionSim_Career_Scientist_WorldEvent_Brighten_X)" Value="113689" />
+  <Preset Label="Get to Know {2.SimName} (situationGoalInteractionSim_Career_Scientist_WorldEvent_GetToKnow_X)" Value="113692" />
+  <Preset Label="Deep Conversation with {2.SimName} (situationGoalInteractionSim_Career_Scientist_WorldEvent_DeepConvo_X)" Value="113694" />
+  <Preset Label="Hug an Alien (situationGoalInteractionSim_Career_Scientist_WorldEvent_Hug_Alien)" Value="113695" />
+  <Preset Label="Tell a Dramatic Earth Story to an Alien (situationGoalInteractionSim_Career_Scientist_WorldEvent_TellDramaticStory)" Value="113697" />
+  <Preset Label="Compliment an Alien's Appearance (situationGoalInteractionSim_Career_Scientist_WorldEvent_Compliment_Alien)" Value="113698" />
+  <Preset Label="Perform a Comedy Routine (situationGoalObjectInteraction_CareerScientist_WorldEvent_PerformStandup)" Value="113701" />
+  <Preset Label="Play Guitar for 10 Minutes (situationGoalObjectInteraction_CareerScientist_WorldEvent_PlayGuitar)" Value="113702" />
+  <Preset Label="Play Violin for 10 Minutes (situationGoalObjectInteraction_CareerScientist_WorldEvent_PlayViolin)" Value="113703" />
+  <Preset Label="Play Piano for 10 Minutes (situationGoalObjectInteraction_CareerScientist_WorldEvent_PlayPiano)" Value="113704" />
+  <Preset Label="Drink or Give Away an Untested Serum (situationGoalObjectInteraction_CareerScientist_DrinkSerum_Untested)" Value="113707" />
+  <Preset Label="Drink the Alien version of an Earth Drink (situationGoalObjectInteraction_CareerScientist_WorldEvent_DrinkAlienEarthDrink)" Value="113708" />
+  <Preset Label="Tend bar for 10 Minutes (situationGoalObjectInteraction_CareerScientist_WorldEvent_TendBar)" Value="113709" />
+  <Preset Label="Give an Untested Serum to a Co-worker (situationGoalInteractionSim_Career_Scientist_GiveSerum_Coworker_Untested)" Value="113732" />
+  <Preset Label="Mix a Tainted Serum (situationGoalObjectInteraction_CareerScientist_MixSerum_Tainted)" Value="113737" />
+  <Preset Label="Drink or Give Away a Tainted Serum (situationGoalObjectInteraction_CareerScientist_DrinkSerum_Tainted)" Value="113738" />
+  <Preset Label="Freeze a Tourist (situationGoalInteractionSim_Career_Scientist_SimRay_Freeze_Civilian_AlienVisit)" Value="113753" />
+  <Preset Label="Eat Synthetic Food (situationGoalObjectInteraction_CareerScientist_Drink_SyntheticFoodSerum_requiredInventory)" Value="113755" />
+  <Preset Label="Eat Synthetic Food (situationGoalObjectInteraction_CareerScientist_Drink_SyntheticFoodSerum_notRequiredInventory)" Value="113756" />
+  <Preset Label="Mind Control a Tourist to Change Outfit (situationGoalInteractionSim_Career_Scientist_MindControl_ChangeOutfit_Civilian_AlienVisit)" Value="113759" />
+  <Preset Label="Insult a Tourist (situationGoalInteractionSim_Career_Scientist_Insult_Civilian_AlienVisit)" Value="113760" />
+  <Preset Label="Give a Sim Synthetic Food (situationGoalInteractionSim_Career_Scientist_GiveSerum_SyntheticFood_notRequiredInventory)" Value="113762" />
+  <Preset Label="Drink or Give Away Snake Oil Serum (situationGoalObjectInteraction_CareerScientist_Drink_SnakeOil_requiredSick)" Value="113764" />
+  <Preset Label="Freeze an Alien (situationGoalInteractionSim_Career_Scientist_WorldEvent_SimRay_Freeze_Alien)" Value="113765" />
+  <Preset Label="Get Angry by drinking a Red Hot Serum (situationGoalObjectInteraction_CareerScientist_Drink_RedHot_requiredInventory)" Value="113767" />
+  <Preset Label="Yell at a Tourist (situationGoalInteractionSim_Career_Scientist_YellAt_Civilian_AlienVisit)" Value="113768" />
+  <Preset Label="Imply an Alien's Mother is a Llama (situationGoalInteractionSim_Career_Scientist_WorldEvent_ImplyMotherLlama_Alien)" Value="113769" />
+  <Preset Label="Invite an Alien to a Fake Party (situationGoalInteractionSim_Career_Scientist_WorldEvent_InviteToFakeParty_Alien)" Value="113771" />
+  <Preset Label="Trick an Alien with a Hand Buzzer (situationGoalInteractionSim_Career_Scientist_WorldEvent_TrickHandBuzzer_Alien)" Value="113774" />
+  <Preset Label="Scare an Alien (situationGoalInteractionSim_Career_Scientist_WorldEvent_Scare_Alien)" Value="113775" />
+  <Preset Label="Throw Drink at an Alien (situationGoalInteractionSim_Career_Scientist_WorldEvent_ThrowDrink_Alien)" Value="113776" />
+  <Preset Label="Lie about Career to an Alien (situationGoalInteractionSim_Career_Scientist_WorldEvent_LieAboutCareer_Alien)" Value="113777" />
+  <Preset Label="Mind Control an Alien to Panic (situationGoalInteractionSim_Career_Scientist_WorldEvent_SimRay_MindControlPanic_Alien)" Value="113778" />
+  <Preset Label="Put an Alien to Sleep with Mind Control (situationGoalInteractionSim_Career_Scientist_WorldEvent_SimRay_MindControlSleep_Alien)" Value="113780" />
+  <Preset Label="Mind Control Aliens to Wear Sleepwear (situationGoalInteractionSim_Career_Scientist_WorldEvent_SimRay_MindControlWearSleepwear_Alien)" Value="113782" />
+  <Preset Label="Enrage 2 Sims by giving them Red Hot Serums (situationGoalInteractionSim_Career_Scientist_GiveSerum_RedHot_2)" Value="113784" />
+  <Preset Label="Use SimRay on Aliens (situationGoalInteractionSim_Career_Scientist_WorldEvent_SimRay_UseSimeRay_Alien)" Value="113785" />
+  <Preset Label="Sabotage the Motion Game Rig (situationGoalObjectInteraction_CareerScientist_WorldEvent_SabotageMotionGameController)" Value="113786" />
+  <Preset Label="Discuss Interests with {2.SimName}. (situationGoalInteractionSim_Career_Scientist_WorldEvent_DiscussInterests_X)" Value="113790" />
+  <Preset Label="Gossip About Aliens with {2.SimName} (situationGoalInteractionSim_Career_Scientist_WorldEvent_Gossip_X)" Value="113791" />
+  <Preset Label="Start a Preposterous Rumor with a Civlian (situationGoalInteractionSim_Career_Scientist_Civilian_PreposterousRumor_AlienVisit)" Value="113793" />
+  <Preset Label="Ask {2.SimName} About Party (situationGoalInteractionSim_Career_Scientist_WorldEvent_AskAboutParty_X)" Value="113794" />
+  <Preset Label="Lie About Career to a Tourist (situationGoalInteractionSim_Career_Scientist_Civilian_LieCareer_AlienVisit)" Value="113795" />
+  <Preset Label="Ask an Alien for DNA Sample (situationGoalInteractionSim_Career_Scientist_WorldEvent_AskDNA_Alien)" Value="113796" />
+  <Preset Label="Scare a Tourist (situationGoalInteractionSim_Career_Scientist_Civilian_Scare_AlienVisit)" Value="113797" />
+  <Preset Label="Harvest an Alien Plant (situationGoalObjectInteraction_CareerScientist_WorldEvent_HarvestAlienPlant)" Value="113798" />
+  <Preset Label="Give {2.SimName} A Tainted Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_Tainted_Targeted_AlienVisit)" Value="113800" />
+  <Preset Label="Investigate Alien Geode (situationGoalObjectInteraction_CareerScientist_WorldEvent_InvestigateAlienGeode)" Value="113801" />
+  <Preset Label="Dig Alien Crater (situationGoalObjectInteraction_CareerScientist_WorldEvent_DigAlienCrater)" Value="113802" />
+  <Preset Label="Flirt with someone after drinking a Rose Perfume Serum (goal_Flirt_RosePerfumeSerum)" Value="113804" />
+  <Preset Label="Do Alien Secret Handshake (situationGoalInteractionSim_Career_Scientist_WorldEvent_AlienSecretHandShake)" Value="113805" />
+  <Preset Label="Give a Sim a Rose Perfume Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_RosePerfume_notRequiredInventory)" Value="113807" />
+  <Preset Label="Use the SimRay on a Tourist (situationGoalInteractionSim_Career_Scientist_SimRayUse_Civilian_AlienVisit)" Value="113814" />
+  <Preset Label="Mind Control a Tourist to Sleep (situationGoalInteractionSim_Career_Scientist_MindControl_Sleep_Civilian_AlienVisit)" Value="113816" />
+  <Preset Label="Ask the Future Cube about Scientific Mysteries (situationGoalObjectInteraction_CareerScientist_WorldEvent_AskFutureCube_ScientificMysteries)" Value="113817" />
+  <Preset Label="Mind Control a Tourist to Panic (situationGoalInteractionSim_Career_Scientist_MindControl_Panic_Civilian_AlienVisit)" Value="113819" />
+  <Preset Label="Drink or Give Away Slimify Serum Goal (situationGoalObjectInteraction_CareerScientist_Drink_Slimify_requiredInventory)" Value="113821" />
+  <Preset Label="Play a Game on the Motion Game Rig (situationGoalObjectInteraction_CareerScientist_WorldEvent_PlayGameMotionController)" Value="113822" />
+  <Preset Label="Mind Control a Tourist to Eat (situationGoalInteractionSim_Career_Scientist_MindControl_Eat_Civilian_AlienVisit)" Value="113824" />
+  <Preset Label="View a Gnome (situationGoalObjectInteraction_CareerScientist_WorldEvent_ViewGnome)" Value="113826" />
+  <Preset Label="Drink or Give Away Ghost Goo Serum (situationGoalObjectInteraction_CareerScientist_Drink_GhostGoo_requiredInventory)" Value="113827" />
+  <Preset Label="Crack Open {2.SimName} (situationGoalInteractionSim_Career_Scientist_CrackOpen_AlienVisit)" Value="113842" />
+  <Preset Label="Start Neighborhood Hive Mind (situationGoalObjectInteraction_CareerScientist_NeighborhoodHivemind_AlienVisit)" Value="113846" />
+  <Preset Label="Drink or Give Away an Ox Strength Serum. (situationGoalObjectInteraction_CareerScientist_Drink_OxStrength_notRequiredInventory)" Value="113852" />
+  <Preset Label="Drink or Give Away Spark Drive Serum (situationGoalObjectInteraction_CareerScientist_Drink_SparkDrive_notRequiredInventory)" Value="113859" />
+  <Preset Label="Do Sit Ups after drinking a Spark Drive Serum (situationGoalObjectInteraction_CareerScientist_DoSitUps_SparkDriveSerum)" Value="113861" />
+  <Preset Label="Give a Co-worker a Tainted Reaper's Friend Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_Tainted_ReapersFriend)" Value="113862" />
+  <Preset Label="Empathize with a Co-worker after drinking an Alien Aura Serum (situationGoalInteractionSim_Coworkers_Empathize_AlienAura)" Value="113864" />
+  <Preset Label="Experiment on the Chemistry Lab after drinking the Smart Serum (situationGoalInteractionTime_ChemistryLab_Experiment_SmartSerum)" Value="113867" />
+  <Preset Label="Tinker after drinking a Fixer's Luck Serum (situationGoalObjectInteraction_CareerScientist_Tinker_FixerLuck)" Value="113875" />
+  <Preset Label="Propose a Crazy Scheme to a Co-worker with Fixer's Luck Serum (situationGoalInteractionSim_Coworkers_ProposeCrazyScheme_FixerLuck)" Value="113877" />
+  <Preset Label="Release Innocent Suspect (careerDetective_ReleaseInnocentSuspect)" Value="113878" />
+  <Preset Label="Drink or Give Away Need Fixer Serum (situationGoalObjectInteraction_CareerScientist_Drink_NeedFixer_noUncomfortable)" Value="113880" />
+  <Preset Label="Get to Know {2.SimName} (situationGoalInteractionSim_Career_Scientist_Socials_Targeted_Alien_GetToKnow_AlienVisit)" Value="113918" />
+  <Preset Label="Get big or slim by drinking serums (situationGoalObjectInteraction_CareerScientist_Drink_SlimifyEmbiggen)" Value="113919" />
+  <Preset Label="Drink or Give Away Need Fixer Serum (situationGoalObjectInteraction_CareerScientist_Drink_NeedFixer_uncomfortable)" Value="113920" />
+  <Preset Label="Introduce Yourself to {2.SimName} (situationGoalRelationship_Career_Scientist_Greet_Targeted_Alien)" Value="113922" />
+  <Preset Label="Treat Sick Sims (situationGoalInteractionSim_Career_Doctor_AwayEvents_OutbreakMainGoal)" Value="114023" />
+  <Preset Label="Order Co-worker to Garden (situationGoalInteractionSim_Coworkers_Scientist_Orders_Garden)" Value="114035" />
+  <Preset Label="Order Co-worker to Analyze Metals (situationGoalInteractionSim_Coworkers_Scientist_Orders_Metals)" Value="114036" />
+  <Preset Label="Order Co-worker to Analyze Crystals (situationGoalInteractionSim_Coworkers_Scientist_Orders_Crystals)" Value="114037" />
+  <Preset Label="Order Co-worker to Analyze Flora (situationGoalInteractionSim_Coworkers_Scientist_Orders_Flora)" Value="114038" />
+  <Preset Label="Order Co-worker to Experiment (situationGoalInteractionSim_Coworkers_Scientist_Orders_Experiment)" Value="114039" />
+  <Preset Label="Order Co-worker to Invent (situationGoalInteractionSim_Coworkers_Scientist_Orders_Invent)" Value="114040" />
+  <Preset Label="Order Co-worker to Visit Aliens (situationGoalInteractionSim_Coworkers_Scientist_Orders_Aliens)" Value="114042" />
+  <Preset Label="Converse about Aliens (situationGoalInteractionSim_Career_Scientist_ConverseAboutAliens)" Value="114047" />
+  <Preset Label="Repair the Computer (situationGoalObjectInteraction_CareerScientist_Repair_Computer_AlienVisit)" Value="114054" />
+  <Preset Label="Repair the Microwave (situationGoalObjectInteraction_CareerScientist_Repair_Microwave_AlienVisit)" Value="114055" />
+  <Preset Label="Repair the Invention Constructor (situationGoalObjectInteraction_CareerScientist_Repair_InventorConstructor_AlienVisit)" Value="114059" />
+  <Preset Label="Examine and Give Medicine (situationGoalInteractionSim_Career_Doctor_HouseCall_Examine)" Value="114061" />
+  <Preset Label="Repair the Chemistry Lab (situationGoalObjectInteraction_CareerScientist_Repair_ChemLab_AlienVisit)" Value="114062" />
+  <Preset Label="Repair the Chemical Analyzer (situationGoalObjectInteraction_CareerScientist_Repair_ChemAnalyzer_AlienVisit)" Value="114063" />
+  <Preset Label="Repair Coffee Maker (situationGoalObjectInteraction_CareerScientist_Repair_CoffeeMaker_AlienVisit)" Value="114066" />
+  <Preset Label="Hug a Tourist (situationGoalInteractionSim_Career_Scientist_Civilian_GiveHug_AlienVisit)" Value="114074" />
+  <Preset Label="Tell a Tourist a Funny Story (situationGoalInteractionSim_Career_Scientist_Civilian_FunnyStory_AlienVisit)" Value="114075" />
+  <Preset Label="Ask a Tourist About Their Day (situationGoalInteractionSim_Career_Scientist_Civilian_AskAboutDay_AlienVisit)" Value="114076" />
+  <Preset Label="Have a Deep Conversation with {2.SimName} (situationGoalInteractionSim_Career_Scientist_Socials_Targeted_Alien_DeepConversation_AlienVisit)" Value="114083" />
+  <Preset Label="Give {2.SimName} a Serum (situationGoalInteractionSim_Career_Scientist_GiveSerum_Targeted_AlienVisit)" Value="114085" />
+  <Preset Label="Give {2.SimName} Synthetic Food (situationGoalInteractionSim_Career_Scientist_GiveSerum_SyntheticFood_Targeted_AlienVisit)" Value="114086" />
+  <Preset Label="Dig Up Materials (situationGoalObjectInteraction_CareerScientist_DigUpSomething_invent)" Value="114094" />
+  <Preset Label="Tinker with a Computer (situationGoalObjectInteraction_CareerScientist_Tinker_Computer_10)" Value="114095" />
+  <Preset Label="Tinker with the Coffee Maker (situationGoalObjectInteraction_CareerScientist_Tinker_Cofee_10)" Value="114097" />
+  <Preset Label="Explore in the Rocket Ship (situationGoalObjectInteraction_CareerScientist_ExploreRocket)" Value="114107" />
+  <Preset Label="Clone a Serum (situationGoalObjectInteraction_CareerScientist_Clone_Serum_invent)" Value="114109" />
+  <Preset Label="Clone Yourself (situationGoalObjectInteraction_CareerScientist_Clone_Self_invent)" Value="114117" />
+  <Preset Label="Clone an Object (situationGoalObjectInteraction_CareerScientist_CloneSomething_invent)" Value="114120" />
+  <Preset Label="Prevent Abductions (situationGoalObjectInteraction_CareerScientist_Satellite_PreventAbductions_invent)" Value="114126" />
+  <Preset Label="Contact Aliens (situationGoalObjectInteraction_CareerScientist_ContactAliens_invent)" Value="114128" />
+  <Preset Label="Hivemind the Neighborhood (situationGoalObjectInteraction_CareerScientist_Satellite_HiveMind_invent)" Value="114130" />
+  <Preset Label="Detect Aliens (situationGoalObjectInteraction_CareerScientist_DetectAliens_invent)" Value="114132" />
+  <Preset Label="Calibrate the Electroflux Wormhole Generator (situationGoalObjectInteraction_CareerScientist_AlienPortal_Calibrate_invent)" Value="114134" />
+  <Preset Label="Chat with {2.SimName} (situationGoalInteractionSim_Career_Scientist_Chat_Targeted_AlienVisit)" Value="114135" />
+  <Preset Label="Test Alien Environment (situationGoalObjectInteraction_CareerScientist_AlienPortal_TestEnvironment)" Value="114136" />
+  <Preset Label="Attempt Alien Contact (situationGoalObjectInteraction_CareerScientist_AttemptAlienContact_invent)" Value="114148" />
+  <Preset Label="Ask {2.SimName} to Go Away (situationGoalInteractionSim_Career_Scientist_GoAway_Targeted_AlienVisit)" Value="114150" />
+  <Preset Label="Mix a Serum (situationGoalObjectInteraction_CareerScientist_MixSerum_AlienVisit)" Value="114151" />
+  <Preset Label="Practice Analysis (situationGoalObjectInteraction_CareerScientist_PracticeAnalysis_AlienVisit)" Value="114153" />
+  <Preset Label="Experiment on the Chemistry Lab (situationGoalObjectInteraction_CareerScientist_Experiment_AlienVisit)" Value="114156" />
+  <Preset Label="Brainstorm on Invention Constructor (situationGoalObjectInteraction_CareerScientist_Brainstorm_AlienVisit)" Value="114158" />
+  <Preset Label="Tinker (situationGoalObjectInteraction_CareerScientist_Tinker_AlienVisit)" Value="114159" />
+  <Preset Label="Write Up Research on the Computer (situationGoalObjectInteraction_CareerScientist_WriteUpResearch_AlienVisit)" Value="114161" />
+  <Preset Label="Order Co-worker to Garden (situationGoalInteractionSim_Coworkers_Scientist_Orders_Garden_AlienVisit)" Value="114164" />
+  <Preset Label="Order Co-worker to Analyze Metals (situationGoalInteractionSim_Coworkers_Scientist_Orders_Metals_AlienVisit)" Value="114166" />
+  <Preset Label="Order Co-worker to Analyze Crystals (situationGoalInteractionSim_Coworkers_Scientist_Orders_Crystals_AlienVisit)" Value="114168" />
+  <Preset Label="Order Co-worker to Analyze Flora (situationGoalInteractionSim_Coworkers_Scientist_Orders_Flora_AlienVisit)" Value="114170" />
+  <Preset Label="Test a Red Hot Serum on a Tourist (situationGoalInteractionSim_Career_Scientist_GiveSerum_RedHot_AlienVisit)" Value="114179" />
+  <Preset Label="Discuss Aliens with {2.SimName} (situationGoalInteractionSim_Career_Scientist_DiscussAlien_Targeted_AlienVisit)" Value="114181" />
+  <Preset Label="Travel to Alien World (situationGoalZoneLoaded_Scientist_VisitAlienWorld)" Value="114295" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Detective)" Value="114618" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Doctor)" Value="114619" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Scientist)" Value="114620" />
+  <Preset Label="Transform a Chair (situationGoalObjectInteraction_CareerScientist_Transform_Chair_Upgrade)" Value="115134" />
+  <Preset Label="Transform a Chemical Hood (situationGoalObjectInteraction_CareerScientist_Transform_Hood_Surprise)" Value="115137" />
+  <Preset Label="Level up in Baking Skill (Whim_SkillUpBaking)" Value="115147" />
+  <Preset Label="Bake Something (Whim_BakeSomething)" Value="115149" />
+  <Preset Label="Bake Something on the Stove (Whim_BakeSomethingStove)" Value="115152" />
+  <Preset Label="Buy a Warming Rack (Whim_BuyWarmingRack)" Value="115174" />
+  <Preset Label="Decorate Pastries (whimGoal_DecoratePastry)" Value="115177" />
+  <Preset Label="Bake Something in the Cupcake Factory (Whim_BakeSomethingCupcakeMachine)" Value="115178" />
+  <Preset Label="Return to Police Station (eventGoal_ZoneLoaded_Detective_LeaveCrimeScene_Day01)" Value="115307" />
+  <Preset Label="Greet Co-worker (situationGoalInteractionSim_Career_Doctor_GreetCoWorker)" Value="115344" />
+  <Preset Label="View Momentum Conserver (situationGoalObjectInteraction_CareerScientist_ViewMomentumConserver_Primary)" Value="115448" />
+  <Preset Label="Invent the Momentum Conserver (situationGoalCraftObject_Career_Scientist_Invent_MomentumConserver_Primary)" Value="115453" />
+  <Preset Label="Invent the Hover Lamp (situationGoalCraftObject_Career_Scientist_Invent_HoverLamp_Primary)" Value="115455" />
+  <Preset Label="View Hover Lamp (situationGoalObjectInteraction_CareerScientist_ViewHoverLamp_Primary)" Value="115460" />
+  <Preset Label="Mix Age Away Serum (situationGoalCraftObject_Career_Scientist_Serum_AgeAway_Backup)" Value="115485" />
+  <Preset Label="Mix Alien Aura Serum (situationGoalCraftObject_Career_Scientist_Serum_AlienAura_Backup)" Value="115488" />
+  <Preset Label="Mix Embiggen Serum (situationGoalCraftObject_Career_Scientist_Serum_Embiggen_Backup)" Value="115489" />
+  <Preset Label="Mix Fixer's Luck Serum (situationGoalCraftObject_Career_Scientist_Serum_FixersLuck_Backup)" Value="115490" />
+  <Preset Label="Mix Ghost Goo Serum (situationGoalCraftObject_Career_Scientist_Serum_GhostGoo_Backup)" Value="115491" />
+  <Preset Label="Mix Need Fixer Serum (situationGoalCraftObject_Career_Scientist_Serum_NeedFixer_Backup)" Value="115492" />
+  <Preset Label="Mix Ox Strength Serum (situationGoalCraftObject_Career_Scientist_Serum_OxStrength_Backup)" Value="115493" />
+  <Preset Label="Mix Reaper's Friend Serum (situationGoalCraftObject_Career_Scientist_Serum_ReapersFriend_Backup)" Value="115494" />
+  <Preset Label="Mix Red Hot Serum (situationGoalCraftObject_Career_Scientist_Serum_RedHot_Backup)" Value="115495" />
+  <Preset Label="Mix Rose Perfume Serum (situationGoalCraftObject_Career_Scientist_Serum_RosePerfume_Backup)" Value="115496" />
+  <Preset Label="Mix Slimify Serum (situationGoalCraftObject_Career_Scientist_Serum_Slimify_Backup)" Value="115497" />
+  <Preset Label="Mix Smart Serum (situationGoalCraftObject_Career_Scientist_Serum_Smart_Backup)" Value="115498" />
+  <Preset Label="Mix Snake Oil Serum (situationGoalCraftObject_Career_Scientist_Serum_SnakeOil_Backup)" Value="115499" />
+  <Preset Label="Mix Spark Drive Serum (situationGoalCraftObject_Career_Scientist_Serum_SparkDrive_Backup)" Value="115500" />
+  <Preset Label="Mix Synthetic Food Serum (situationGoalCraftObject_Career_Scientist_Serum_SyntheticFood_Backup)" Value="115501" />
+  <Preset Label="Transform a Chair (situationGoalObjectInteraction_CareerScientist_Transform_Chair_Backup)" Value="115503" />
+  <Preset Label="Transform a Light. (situationGoalObjectInteraction_CareerScientist_Transform_Light_Backup)" Value="115505" />
+  <Preset Label="Transform some Grass (situationGoalObjectInteraction_CareerScientist_Transform_Grass_Backup)" Value="115507" />
+  <Preset Label="Transform a Barrel (situationGoalObjectInteraction_CareerScientist_Transform_Barrel_Backup)" Value="115509" />
+  <Preset Label="Transform a Pile of Crates (situationGoalObjectInteraction_CareerScientist_Transform_Crates_Backup)" Value="115512" />
+  <Preset Label="Experiment on the Chemistry Lab for an  Hour (situationGoalInteractionTime_ChemistryLab_Experiment_PostBreakthroughGoals)" Value="115576" />
+  <Preset Label="Brainstorm on the Invention Constructor for an Hour (situationGoalInteractionTime_InventionConstructor_Brainstorm_PostBreakthroughGoals)" Value="115577" />
+  <Preset Label="Observe the Skies (situationGoalObjectInteraction_CareerScientist_ObserveTheSkies_PostBreakthroughGoals)" Value="115591" />
+  <Preset Label="Use a Microscope for Research (situationGoalObjectInteraction_CareerScientist_ResearchMicroscope_PostBreakthroughGoals)" Value="115592" />
+  <Preset Label="Tinker (situationGoalObjectInteraction_CareerScientist_Tinker_PostBreakthroughGoals)" Value="115593" />
+  <Preset Label="Browse Web on a Computer (situationGoalObjectInteraction_CareerScientist_BrowseWeb_PostBreakthroughGoals)" Value="115595" />
+  <Preset Label="Work on Bonsai Tree (situationGoalObjectInteraction_CareerScientist_MaintainBonsai_PostBreakthroughGoals)" Value="115608" />
+  <Preset Label="Read a Book (situationGoalObjectInteraction_CareerScientist_ReadABook_PostBreakthroughGoals)" Value="115613" />
+  <Preset Label="Work out on a Treadmill for 30 Minutes (situationGoalObjectInteraction_CareerScientist_TreadmillWorkout_PostBreakthroughGoals)" Value="115620" />
+  <Preset Label="View a Piece of Art (situationGoalObjectInteraction_CareerScientist_ViewArt_PostBreakthroughGoals)" Value="115622" />
+  <Preset Label="Examine Bonsai (situationGoalObjectInteraction_CareerScientist_ViewBonsai_PostBreakthroughGoals)" Value="115624" />
+  <Preset Label="Deep Conversation with {2.SimName} (situationGoalInteractionSim_Coworkers_DeepConversation_PostBreakthroughGoals)" Value="115625" />
+  <Preset Label="Discuss Work with {2.SimName} (situationGoalInteractionSim_Coworkers_DiscussWork_PostBreakthroughGoals)" Value="115626" />
+  <Preset Label="Propose a Crazy Scheme to a Co-worker (situationGoalInteractionSim_Coworkers_ProposeCrazyScheme_PostBreakthroughGoals)" Value="115627" />
+  <Preset Label="Share Ideas with {2.SimName} (situationGoalInteractionSim_Coworkers_ShareBrilliantIdeas_Breakthrough_PostBreakthroughGoals)" Value="115630" />
+  <Preset Label="Share Creative Ideas with {2.SimName} (situationGoalInteractionSim_Coworkers_ShareCreativeIdeas_Breakthrough_PostBreakthroughGoals)" Value="115631" />
+  <Preset Label="Practice Bio Analysis (careerDoctor_ChemicalAnalyzer_practice)" Value="115792" />
+  <Preset Label="Repair broken Medical Equipment (careerDoctor_BrokenObjects_repair)" Value="115793" />
+  <Preset Label="Clean a Chemical Analyzer (careerDoctor_ChemicalAnalyzer_clean)" Value="115794" />
+  <Preset Label="Chat with an Alien 10 Times (situationGoalInteractionSim_Career_Scientist_WorldEvent_Chat_Alien)" Value="115884" />
+  <Preset Label="Complain about Work to Co-worker (situationGoalInteractionSim_Coworkers_ComplainAboutWork_doctor)" Value="115914" />
+  <Preset Label="Get to Know Co-worker (situationGoalInteractionSim_Coworkers_GetToKnow_doctor)" Value="115917" />
+  <Preset Label="Ask about Co-worker's Day (situationGoalInteractionSim_Coworkers_AskAboutDay_doctor)" Value="115919" />
+  <Preset Label="Discuss Work with Co-worker (situationGoalInteractionSim_Coworkers_DiscussWork_doctor)" Value="115920" />
+  <Preset Label="Water a Plant (situationGoalObjectInteraction_CareerScientist_WaterPlant)" Value="115992" />
+  <Preset Label="Weed a Plant (situationGoalObjectInteraction_CareerScientist_WeedPlant)" Value="115994" />
+  <Preset Label="Go Fishing for 20 Minutes (situationGoalObjectInteraction_CareerScientist_GoFishing_Collect)" Value="115995" />
+  <Preset Label="Call Geo Council about a Metal or Crystal (situationGoalObjectInteraction_CareerScientist_CallGeoCouncil)" Value="115996" />
+  <Preset Label="Chat with Co-workers (situationGoalInteractionSim_Career_Scientist_ChatWithCoWorkers)" Value="115998" />
+  <Preset Label="Transform a Collectable (situationGoalObjectInteraction_CareerScientist_Transform_Collectable)" Value="115999" />
+  <Preset Label="Analyze Something (whimGoal_CareerScientist_ChemicalAnalyzer_AnalyzeSomething)" Value="116007" />
+  <Preset Label="Analyze a Plant (whimGoal_CareerScientist_ChemicalAnalyzer_AnalyzePlant)" Value="116008" />
+  <Preset Label="Practice Analysis (whimGoal_CareerScientist_ChemicalAnalyzer_PracticeAnalysis)" Value="116009" />
+  <Preset Label="Analyze DNA (whimGoal_CareerScientist_ChemicalAnalyzer_AnalyzeDNA)" Value="116010" />
+  <Preset Label="Ask for a DNA Sample (whimRanInteraction_CareerScientist_GetDNA)" Value="116018" />
+  <Preset Label="Collect Clues at the Crime Scene (careerDetective_Goals_CrimeScene_GetEvidence1)" Value="116030" />
+  <Preset Label="Collect More Clues at the Crime Scene (careerDetective_Goals_CrimeScene_GetEvidence2)" Value="116034" />
+  <Preset Label="Collect More Clues at the Crime Scene (careerDetective_Goals_CrimeScene_GetEvidence3)" Value="116035" />
+  <Preset Label="Get a Report from a Witness (careerDetective_Goals_CrimeScene_WitnessReport1)" Value="116036" />
+  <Preset Label="Get another Witness Report (careerDetective_Goals_CrimeScene_WitnessReport2)" Value="116037" />
+  <Preset Label="Get another Witness Report (careerDetective_Goals_CrimeScene_WitnessReport3)" Value="116038" />
+  <Preset Label="Take Crime Scene Pictures (careerDetective_Goals_CrimeScene_Picture1)" Value="116039" />
+  <Preset Label="Take More Crime Scene Pictures (careerDetective_Goals_CrimeScene_Picture2)" Value="116040" />
+  <Preset Label="Take More Crime Scene Pictures (careerDetective_Goals_CrimeScene_Picture3)" Value="116041" />
+  <Preset Label="Return to Police Station (eventGoal_ZoneLoaded_Detective_LeaveCrime_A)" Value="116044" />
+  <Preset Label="Leave Crime A Hidden 1 (eventGoal_ZoneLoaded_Detective_LeaveCrime_A_Hidden1)" Value="116045" />
+  <Preset Label="Leave Crime A Hidden 2 (eventGoal_ZoneLoaded_Detective_LeaveCrime_A_Hidden2)" Value="116046" />
+  <Preset Label="Return to Police Station (eventGoal_ZoneLoaded_Detective_LeaveCrime_A2)" Value="116047" />
+  <Preset Label="Return to Police Station (eventGoal_ZoneLoaded_Detective_LeaveCrime_B)" Value="116048" />
+  <Preset Label="Leave Crime B Hidden 1 (eventGoal_ZoneLoaded_Detective_LeaveCrime_B_Hidden1)" Value="116049" />
+  <Preset Label="Leave Crime B Hidden 2 (eventGoal_ZoneLoaded_Detective_LeaveCrime_B_Hidden2)" Value="116050" />
+  <Preset Label="Leave Crime B Hidden 3 (eventGoal_ZoneLoaded_Detective_LeaveCrime_B_Hidden3)" Value="116051" />
+  <Preset Label="Return to Police Station (eventGoal_ZoneLoaded_Detective_LeaveCrime_C)" Value="116052" />
+  <Preset Label="Leave Crime C Hidden 1 (eventGoal_ZoneLoaded_Detective_LeaveCrime_C_Hidden1)" Value="116053" />
+  <Preset Label="Leave Crime C Hidden 2 (eventGoal_ZoneLoaded_Detective_LeaveCrime_C_Hidden2)" Value="116054" />
+  <Preset Label="Leave Crime C Hidden 3 (eventGoal_ZoneLoaded_Detective_LeaveCrime_C_Hidden3)" Value="116055" />
+  <Preset Label="Return to Police Station (eventGoal_ZoneLoaded_Detective_LeaveAPB_HaveSuspect)" Value="116059" />
+  <Preset Label="Leave APB Hidden 1 (eventGoal_ZoneLoaded_Detective_LeaveAPB_Hidden1)" Value="116060" />
+  <Preset Label="Leave APB Hidden 2 (eventGoal_ZoneLoaded_Detective_LeaveAPB_Hidden2)" Value="116062" />
+  <Preset Label="Leave Patrol Hidden 1 (eventGoal_ZoneLoaded_Detective_LeavePatrol_Hidden1)" Value="116090" />
+  <Preset Label="Leave Patrol Hidden 2 (eventGoal_ZoneLoaded_Detective_LeavePatrol_Hidden2)" Value="116091" />
+  <Preset Label="Return to Police Station (eventGoal_ZoneLoaded_Detective_LeavePatrol_2)" Value="116093" />
+  <Preset Label="Issue a Citation (careerDetective_Patrol_Citation1)" Value="116095" />
+  <Preset Label="Issue more Citations (careerDetective_Patrol_Citation2)" Value="116096" />
+  <Preset Label="Issue more Citations (careerDetective_Patrol_Citation3)" Value="116097" />
+  <Preset Label="Chat with Civilians (careerDetective_Patrol_Social1)" Value="116098" />
+  <Preset Label="Chat with More Civilians (careerDetective_Patrol_Social2)" Value="116099" />
+  <Preset Label="Chat with More Civilians (careerDetective_Patrol_Social3)" Value="116100" />
+  <Preset Label="Arrest A Suspect (careerDetective_Goals_APB_Arrest)" Value="116102" />
+  <Preset Label="Analyze Evidence (careerDetective_Goals_Station_AnalyzeEvidence)" Value="116114" />
+  <Preset Label="Cross Reference the Police Database (careerDetective_Goals_Station_ReferenceDatabase)" Value="116115" />
+  <Preset Label="Add Clues to the Crime Map (careerDetective_Goals_Station_AddToMap)" Value="116116" />
+  <Preset Label="Issue an All Points Bulletin (APB) (careerDetective_Goals_Station_IssueAPB)" Value="116117" />
+  <Preset Label="Interrogate the Suspect (careerDetective_Goals_Station_InterrogationStart)" Value="116118" />
+  <Preset Label="Lock Up Guilty Suspect (careerDetective_Goals_Station_SuspectIsGuilty)" Value="116121" />
+  <Preset Label="Discuss Case Theories with Co-workers (careerDetective_Goals_Station_DiscussCaseTheories)" Value="116136" />
+  <Preset Label="Search Criminals at the Booking Station (careerDetective_Goals_Station_Booking_Search)" Value="116137" />
+  <Preset Label="Take Mugshots at the Booking Station (careerDetective_Goals_Station_Booking_Mugshot)" Value="116138" />
+  <Preset Label="Get Criminals' Fingerprints at Booking Station (careerDetective_Goals_Station_Booking_Fingerprint)" Value="116139" />
+  <Preset Label="Take a Police Report from a Civilian (careerDetective_Goals_Station_CivilianCrimeReport)" Value="116141" />
+  <Preset Label="Browse the Police Database (careerDetective_Goals_Station_BrowseDatabase)" Value="116142" />
+  <Preset Label="Go On Patrol (careerDetective_Goals_Station_GoOnPatrol)" Value="116143" />
+  <Preset Label="Exercise for 1 Hour (careerDetective_Goals_Station_Workout)" Value="116144" />
+  <Preset Label="Travel to Crime Scene (eventGoal_ZoneLoaded_Detective_GoToCrimeScene_StationOnly)" Value="116196" />
+  <Preset Label="Chat with Co-workers (situationGoalInteractionSim_Career_Doctor_ChatWithCoWorkers_greeted)" Value="116223" />
+  <Preset Label="Transfer Patient Case (situationGoalInteractionSim_Career_Doctor_TransferPatientCase)" Value="116273" />
+  <Preset Label="Prank Someone with a Hand Buzzer (situationGoalInteractionSim_Career_Scientist_Trick_HandBuzzzer)" Value="116339" />
+  <Preset Label="Get into a Fight (situationGoalInteractionSim_Career_Scientist_StartFight)" Value="116340" />
+  <Preset Label="Pretend to Fire a Co-Worker (situationGoalInteractionSim_Coworkers_PretendToFire)" Value="116341" />
+  <Preset Label="Spoil Latest Episode for a Co-Worker (situationGoalInteractionSim_Coworkers_Spoil_LatestEpisode)" Value="116343" />
+  <Preset Label="Claim to be a Criminal Mastermind to a Co-worker (situationGoalInteractionSim_Coworkers_ClaimToBe_CriminalMastermind)" Value="116344" />
+  <Preset Label="Insult a Co-workers work ethics. (situationGoalInteractionSim_Coworkers_InsultWorkEthic)" Value="116346" />
+  <Preset Label="Clog a Sink or Shower drain (situationGoalObjectInteraction_CareerScientist_ClogDrain)" Value="116348" />
+  <Preset Label="Interrogation: Determine Guilt or Innocence (career_Detective_Station_FinishInterrogation_FullCase)" Value="116422" />
+  <Preset Label="Get a Case Assignment (careerDetective_Goals_Station_GetNewCase)" Value="116425" />
+  <Preset Label="careerDetective_Goals_Station_Hidden1" Value="116435" />
+  <Preset Label="careerDetective_Goals_Station_Hidden2" Value="116436" />
+  <Preset Label="Record Emergency Analysis Data (careerDoctor_Computer_EnterLabResults_emergency)" Value="116444" />
+  <Preset Label="Add New Studies Info to Medical Journal (careerDoctor_Computer_ResearchHealthInfo_highLevel)" Value="116701" />
+  <Preset Label="Arrest A Suspect (careerDetective_Goals_APB_ArrestDay02)" Value="116729" />
+  <Preset Label="careerDetective_Goals_APB_ArrestDay02HIDDEN01" Value="116730" />
+  <Preset Label="careerDetective_Goals_APB_ArrestDay02HIDDEN02" Value="116732" />
+  <Preset Label="Spend 2 Hours on Patrol (career_Detective_PatrolTimerGoal)" Value="116749" />
+  <Preset Label="Freeze a Co-worker (situationGoalInteractionSim_Career_Scientist_Freeze_Coworker_miniChain)" Value="116750" />
+  <Preset Label="Talk to the Chief (careerDetective_Goals_Station_ChiefChat)" Value="116778" />
+</PresetGroup>

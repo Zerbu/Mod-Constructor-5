@@ -8,7 +8,7 @@ using Constructor5.Elements.Interactions.Shared;
 namespace Constructor5.InteractionTemplates.Single
 {
     // [SelectableObjectType("SocialInteractionTemplates", "Single Outcome")]
-    [SelectableObjectType("MixerInteractionTemplates", "Single Outcome")]
+    [SelectableObjectType("MixerInteractionTemplates", "SingleOutcome")]
     [XmlSerializerExtraType]
     public class SingleOutcomeTemplate : InteractionTemplate
     {

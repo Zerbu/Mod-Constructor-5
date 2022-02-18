@@ -19,7 +19,7 @@
         <c:Expander Header="ChangingRoleStates" IsExpanded="False">
             <StackPanel>
                 <c:SpacedStack>
-                    <c:TextBlock Text="RoleStatesChangesHelp" />
+                    <c:TextBlock Text="RoleStateChangesHelp" />
                     <ItemsControl ItemsSource="{Binding RoleStateChanges}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
@@ -32,7 +32,7 @@
                                     <StackPanel Orientation="Horizontal">
                                         <c:TextBlock Margin="0,0,5,0"
                                                      VerticalAlignment="Center"
-                                                     Text="Until there are" />
+                                                     Text="UntilThereAre" />
                                         <xctk:IntegerUpDown Margin="0,0,5,0"
                                                             VerticalAlignment="Center"
                                                             Increment="60"
@@ -40,7 +40,7 @@
                                                             Text="{Binding DurationToEndAt}" />
                                         <c:TextBlock Margin="0,0,5,0"
                                                      VerticalAlignment="Center"
-                                                     Text="Sim minutes left" />
+                                                     Text="SimMinutesLeft" />
                                         <c:Button Grid.Column="1"
                                                   Command="{StaticResource RemoveRoleStateCommand}"
                                                   Content="Remove">

@@ -1,0 +1,1373 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Label="All Whims">
+  <Preset Label="Become Confident (Whim_GetConfident)" Value="16025" />
+  <Preset Label="Become Flirty (Whim_GetFlirty)" Value="16026" />
+  <Preset Label="Become Focused (Whim_GetFocused)" Value="16027" />
+  <Preset Label="Become Inspired (Whim_GetInspired)" Value="16031" />
+  <Preset Label="Become Playful (Whim_GetPlayful)" Value="16045" />
+  <Preset Label="Buy a Couch or Chair (Whim_BuyChair)" Value="25486" />
+  <Preset Label="Buy a TV (Whim_BuyTV)" Value="25632" />
+  <Preset Label="Buy a Shower or Bathtub (Whim_BuyTub)" Value="25636" />
+  <Preset Label="Buy a Toilet (Whim_BuyToilet)" Value="25637" />
+  <Preset Label="Buy a Bed (Whim_BuyBed)" Value="25638" />
+  <Preset Label="Buy a Fridge (Whim_BuyFridge)" Value="25639" />
+  <Preset Label="Become Energized (Whim_GetEnergized)" Value="25651" />
+  <Preset Label="Become Happy (Whim_GetHappy)" Value="25656" />
+  <Preset Label="Run on a Treadmill (Whim_UseTreadmill)" Value="25918" />
+  <Preset Label="Play an Instrument (Whim_PlayInstrument)" Value="25919" />
+  <Preset Label="Work Out on a Workout Machine (Whim_UseWorkoutMachine)" Value="25920" />
+  <Preset Label="Watch TV (Whim_WatchTV)" Value="25921" />
+  <Preset Label="Use a Punching Bag (Whim_UsePunchingBag)" Value="25927" />
+  <Preset Label="Make a Drink (Whim_CraftDrink)" Value="25931" />
+  <Preset Label="Make a Group Meal (Whim_CookGroupMeal)" Value="25932" />
+  <Preset Label="Clean Something (Whim_CleanSomething)" Value="25933" />
+  <Preset Label="Flirt with Someone (Whim_FlirtSim)" Value="25938" />
+  <Preset Label="Tell a Joke (Whim_TellJoke)" Value="25939" />
+  <Preset Label="WooHoo with Someone (Whim_WoohooSim)" Value="25941" />
+  <Preset Label="Ask Someone to Go Steady (Whim_AskOut)" Value="26066" />
+  <Preset Label="Level up in Fitness Skill (Whim_SkillUpFitness)" Value="26093" />
+  <Preset Label="Finish Writing a Book (Whim_WriteSomething)" Value="26097" />
+  <Preset Label="Finish a Painting (Whim_Paint)" Value="26098" />
+  <Preset Label="Level up in Painting Skill (Whim_SkillUpPainting)" Value="26106" />
+  <Preset Label="Level up in Mixology Skill (Whim_SkillUpBartending)" Value="26107" />
+  <Preset Label="Level up in Cooking Skill (Whim_SkillUpCooking)" Value="26108" />
+  <Preset Label="Level up in Writing Skill (Whim_SkillUpWriting)" Value="26110" />
+  <Preset Label="Make a Friend (Whim_Make_Friend)" Value="26111" />
+  <Preset Label="Kick a Trash Can (Whim_KickTrashcan)" Value="26112" />
+  <Preset Label="Start a New Career (Whim_JoinCareer)" Value="26114" />
+  <Preset Label="Buy an Object Worth {0.Money} (Whim_Buy500)" Value="26117" />
+  <Preset Label="Flirt with {2.SimFirstName} (Whim_MeetNew_FlirtWith_Teen)" Value="27768" />
+  <Preset Label="Flirt with {2.SimFirstName} (Whim_Meetnew_FlirtWith)" Value="27778" />
+  <Preset Label="Kiss {2.SimFirstName} (Whim_Friendship_KissWith)" Value="27785" />
+  <Preset Label="Kiss {2.SimFirstName} (Whim_NewRomance_KissWith_Teen)" Value="27787" />
+  <Preset Label="Embrace {2.SimFirstName} (Whim_NewRomance_HugWith)" Value="27788" />
+  <Preset Label="Embrace {2.SimFirstName} (Whim_NewRomance_HugWith_Teen)" Value="27790" />
+  <Preset Label="Make Out with {2.SimFirstName} (Whim_NewRomance_MakeOutWith)" Value="27791" />
+  <Preset Label="Make Out with {2.SimFirstName} (Whim_NewRomance_MakeOutWith_Teen)" Value="27793" />
+  <Preset Label="WooHoo with {2.SimFirstName} (Whim_NewRomance_WoohooWith)" Value="27813" />
+  <Preset Label="Become Friends with {2.SimFirstName} (Whim_BecomeFriendsWith)" Value="27824" />
+  <Preset Label="Become Good Friends with {2.SimFirstName} (Whim_BecomeGoodFriendsWith)" Value="27825" />
+  <Preset Label="Become Best Friends with {2.SimFirstName} (Whim_BecomeBestFRiendsWith)" Value="27826" />
+  <Preset Label="Become Disliked by {2.SimFirstName} (Whim_BecomeDisliked)" Value="27834" />
+  <Preset Label="Ask {2.SimFirstName} to Be {M2.Boy}{F2.Girl}friend (Whim_GoSteadyWith)" Value="27844" />
+  <Preset Label="Ask {2.SimFirstName} to Be {M2.Boy}{F2.Girl}friend (Whim_GoSteadyWith_Teen)" Value="27849" />
+  <Preset Label="Get Engaged to {2.SimFirstName} (Whim_ProposeWith)" Value="27852" />
+  <Preset Label="Get Married to {2.SimFirstName} (Whim_GetMarriedWith)" Value="27866" />
+  <Preset Label="Try for Baby with {2.SimFirstName} (Whim_Partner_TryforBabyWith_MaleTarget)" Value="27874" />
+  <Preset Label="Level up in Charisma Skill (Whim_SkillUpCharisma)" Value="27881" />
+  <Preset Label="Meet Someone New (Whim_MeetSomeoneNew)" Value="27902" />
+  <Preset Label="Chat with Someone (Whim_ChatSim)" Value="28010" />
+  <Preset Label="Be Mean to Someone (Whim_MeanSim)" Value="28011" />
+  <Preset Label="Chat with {2.SimFirstName} (Whim_Meetnew_ChatWith)" Value="28045" />
+  <Preset Label="Hug Someone (Whim_HugSim)" Value="28091" />
+  <Preset Label="Kiss Someone (Whim_KissSim)" Value="28095" />
+  <Preset Label="Compliment {2.SimFirstName} (Whim_NewRomance_ComplimentWith)" Value="28097" />
+  <Preset Label="Get to Know {2.SimFirstName} (Whim_NewRomance_GettoKnowWith)" Value="28098" />
+  <Preset Label="Be Funny with {2.SimFirstName} (Whim_BeFunnyWith)" Value="28101" />
+  <Preset Label="Cook a Meal (Whim_CookMeal)" Value="28145" />
+  <Preset Label="Cook an Excellent Meal (Whim_CookOutstandingMeal)" Value="28146" />
+  <Preset Label="Make an Excellent Drink (Whim_CraftDrinkOutstanding)" Value="28147" />
+  <Preset Label="Watch Cooking Show (Whim_WatchTV_Cooking)" Value="28149" />
+  <Preset Label="Buy an Oven (Whim_BuyOven)" Value="28167" />
+  <Preset Label="Watch Romantic TV Show (Whim_WatchTV_Romance)" Value="28170" />
+  <Preset Label="Bake Apple Pie (Whim_CookApplePie)" Value="31427" />
+  <Preset Label="Prepare Baked Alaska (Whim_CookBakedAlaska)" Value="31430" />
+  <Preset Label="Prepare Butternut Gnocchi (Whim_CookButternutGnocchi)" Value="31432" />
+  <Preset Label="Prepare a Caprese Salad (Whim_CookCapreseSalad)" Value="31445" />
+  <Preset Label="Prepare Chicken Saltimbocca (Whim_CookChickenSaltimbocca)" Value="31446" />
+  <Preset Label="Prepare SimCity Cheesecake (Whim_CookCheesecake)" Value="31447" />
+  <Preset Label="Prepare Chili (Whim_CookChili)" Value="31449" />
+  <Preset Label="Bake Chocolate Chip Cookies (Whim_CookCookies)" Value="31462" />
+  <Preset Label="Prepare French Toast (Whim_CookFrenchToast)" Value="31474" />
+  <Preset Label="Prepare Garlic Noodles (Whim_CookGarlicNoodles)" Value="31478" />
+  <Preset Label="Prepare Herb Crusted Salmon (Whim_CookHerbCrustedSalmon)" Value="31513" />
+  <Preset Label="Prepare Lobster Thermidor (Whim_CookLobsterThermidor)" Value="31527" />
+  <Preset Label="Prepare Lobster Tortellini (Whim_CookLobsterTortellini)" Value="31540" />
+  <Preset Label="Prepare a Monte Cristo Sandwich (Whim_CookMonteCristo)" Value="31542" />
+  <Preset Label="Prepare an Omelet (Whim_CookOmelet)" Value="31551" />
+  <Preset Label="Prepare Pancakes (Whim_CookPancakes)" Value="31558" />
+  <Preset Label="Prepare Pasta Primavera (Whim_CookPastaPrimavera)" Value="31559" />
+  <Preset Label="Prepare Prosciutto-wrapped Asparagus (Whim_CookProscuittoAsperagus)" Value="31560" />
+  <Preset Label="Prepare Rack of Lamb (Whim_CookRackofLamb)" Value="31561" />
+  <Preset Label="Prepare Roast Chicken (Whim_CookRoastChicken)" Value="31563" />
+  <Preset Label="Prepare Spaghetti (Whim_CookSpaghetti)" Value="31565" />
+  <Preset Label="Prepare Spinach Frittata (Whim_CookSpinachFrittata)" Value="31567" />
+  <Preset Label="Prepare Stirfry (Whim_CookStirfry)" Value="31569" />
+  <Preset Label="Prepare Trout Meunière (Whim_CookTroutMeuniere)" Value="31570" />
+  <Preset Label="Prepare Tuna Casserole (Whim_CookTunaCasserole)" Value="31571" />
+  <Preset Label="Cook a Gourmet Meal (Whim_CookGourmetMeal)" Value="31572" />
+  <Preset Label="Cook a Gourmet Meal (Whim_CookOutstandingGourmetMeal)" Value="31573" />
+  <Preset Label="Give Someone Cooking Tips (Whim_GiveCookingTips)" Value="31584" />
+  <Preset Label="Talk about Cooking (Whim_TalkAboutCooking)" Value="31588" />
+  <Preset Label="Be Mean to {2.SimFirstName} (Whim_Meetnew_BeMean)" Value="32225" />
+  <Preset Label="Chat with {2.SimFirstName} (Whim_Friendship_ChatWith)" Value="32336" />
+  <Preset Label="Get to Know {2.SimFirstName} (Whim_Friendship_GettoKnow)" Value="32338" />
+  <Preset Label="Be Friendly with {2.SimFirstName} (Whim_Friendship_BeFriendly)" Value="32340" />
+  <Preset Label="Be Funny with {2.SimFirstName} (Whim_Friendship_BeFunny)" Value="32341" />
+  <Preset Label="Be Mischievous to {2.SimFirstName} (Whim_Friendship_BeMischievous)" Value="32342" />
+  <Preset Label="Flirt with {2.SimFirstName} (Whim_Friendship_FlirtWith)" Value="32343" />
+  <Preset Label="Flirt with {2.SimFirstName} (Whim_Friendship_FlirtWith_Teen)" Value="32344" />
+  <Preset Label="Be Mean to {2.SimFirstName} (Whim_Friendship_BeMean)" Value="32346" />
+  <Preset Label="Have First Kiss with {2.SimFirstName} (Whim_Friendship_FirstKiss_Teen)" Value="32348" />
+  <Preset Label="Have First Kiss with {2.SimFirstName} (Whim_Friendship_FirstKiss)" Value="32349" />
+  <Preset Label="Kiss {2.SimFirstName} (Whim_NewRomance_KissWith)" Value="32468" />
+  <Preset Label="Flirt with {2.SimFirstName} (Whim_NewRomance_FlirtWith)" Value="32481" />
+  <Preset Label="Flirt with {2.SimFirstName} (Whim_NewRomance_FlirtWith_Teen)" Value="32482" />
+  <Preset Label="Be Friendly with {2.SimFirstName} (Whim_NewRomance_BeFriendly)" Value="32513" />
+  <Preset Label="Be Mean to {2.SimFirstName} (Whim_NewRomance_BeMean)" Value="32514" />
+  <Preset Label="Be Mean to {2.SimFirstName} (Whim_Enemies_BeMean)" Value="32603" />
+  <Preset Label="Fight with {2.SimFirstName} (Whim_Enemies_FightWith)" Value="32614" />
+  <Preset Label="Fight with {2.SimFirstName} (Whim_Enemies_FightWith_Teen)" Value="32625" />
+  <Preset Label="Yell at {2.SimFirstName} (Whim_Enemies_YellAt)" Value="32626" />
+  <Preset Label="Insult {2.SimFirstName} (Whim_Enemies_Insult)" Value="32628" />
+  <Preset Label="Be Mischievous to {2.SimFirstName} (Whim_Enemies_BeMischievous)" Value="32630" />
+  <Preset Label="Be Friendly with {2.SimFirstName} (Whim_Enemies_BeFriendly)" Value="32636" />
+  <Preset Label="Apologize to {2.SimFirstName} (Whim_Enemies_Apologize)" Value="32638" />
+  <Preset Label="Become Enemies with {2.SimFirstName} (Whim_BecomeEnemiesWith)" Value="32642" />
+  <Preset Label="Flirt with {2.SimFirstName} (Whim_Partner_FlirtWith)" Value="32762" />
+  <Preset Label="Make Out with {2.SimFirstName} (Whim_Partner_MakeOutWith)" Value="32763" />
+  <Preset Label="WooHoo with {2.SimFirstName} (Whim_Partner_WoohooWith)" Value="32764" />
+  <Preset Label="Kiss {2.SimFirstName} (Whim_Partner_KissWith)" Value="32765" />
+  <Preset Label="Kiss {2.SimFirstName} (Whim_Partner_KissWith_Teen)" Value="32766" />
+  <Preset Label="Make Out with {2.SimFirstName} (Whim_Partner_MakeOutWith_Teen)" Value="32767" />
+  <Preset Label="Embrace {2.SimFirstName} (Whim_Partner_HugWith)" Value="32768" />
+  <Preset Label="Embrace {2.SimFirstName} (Whim_Partner_HugWith_Teen)" Value="32769" />
+  <Preset Label="Make a Ridgeport (Whim_MixBridgeport)" Value="32876" />
+  <Preset Label="Make a Dim and Gusty (Whim_MixDimandGusty)" Value="32877" />
+  <Preset Label="Make a Granny Smash (Whim_MixGrannySmash)" Value="32878" />
+  <Preset Label="Make a Simsmapolitan (Whim_MixMetropolitan)" Value="32879" />
+  <Preset Label="Make a Sour Punch (Whim_MixPuckerPunch)" Value="32880" />
+  <Preset Label="Make a Salty Llama (Whim_MixSaltyLlama)" Value="32881" />
+  <Preset Label="Make a Sea Splash (Whim_MixSeaSplash)" Value="32882" />
+  <Preset Label="Make a Silent Film (Whim_MixSilentFilm)" Value="32883" />
+  <Preset Label="Make a Sunset Valley (Whim_MixSunsetValley)" Value="32884" />
+  <Preset Label="Make a Tang and Zing (Whim_MixTartAndTonic)" Value="32885" />
+  <Preset Label="Make a Wrench (Whim_MixWrench)" Value="32886" />
+  <Preset Label="Mix 3 Drinks (Whim_CraftDrink_3)" Value="32887" />
+  <Preset Label="Practice Bar Tricks (Whim_PracticeBarTricks)" Value="32896" />
+  <Preset Label="Donate to a Charity (Whim_DonateToCharity)" Value="32905" />
+  <Preset Label="Be Mean to {2.SimFirstName} (Whim_Partner_BeMean)" Value="32906" />
+  <Preset Label="Practice Speaking in the Mirror (Whim_PracticeSpeaking)" Value="32907" />
+  <Preset Label="Gain 10 New Online Followers (Whim_MakeOnlineFollowers_10)" Value="32909" />
+  <Preset Label="Break up with {2.SimFirstName} (Whim_BreakUpWith)" Value="32910" />
+  <Preset Label="Practice Speaking in the Mirror for an Hour (Whim_PracticeSpeaking_AnHour)" Value="32911" />
+  <Preset Label="Divorce {2.SimFirstName} (Whim_DivorceWith)" Value="32912" />
+  <Preset Label="Perform a Social Media Activity (Whim_UseSocialNetwork)" Value="32913" />
+  <Preset Label="Compliment Someone (Whim_ComplimentSomeone)" Value="32915" />
+  <Preset Label="Be Friendly with {2.SimFirstName} (Whim_Partner_BeFriendly)" Value="32923" />
+  <Preset Label="Flatter Someone (Whim_FlatterSomeone)" Value="32924" />
+  <Preset Label="Ask {2.SimFirstName} about {M2.his}{F2.her} day (Whim_Partner_AskAboutDay)" Value="32925" />
+  <Preset Label="Use the Treadmill for an Hour (Whim_UseTreadmill_AnHour)" Value="32942" />
+  <Preset Label="Use the Punching Bag for an Hour (Whim_UsePunchingBag_AnHour)" Value="33028" />
+  <Preset Label="Use the Workout Machine for an Hour (Whim_UseWorkoutMachine_AnHour)" Value="33057" />
+  <Preset Label="Be Friendly with {2.SimFirstName} (Whim_Child_BeFriendly)" Value="33059" />
+  <Preset Label="Research Workout Tips (Whim_ResearchWorkoutTips)" Value="33061" />
+  <Preset Label="Chat with {2.SimFirstName} (Whim_Child_ChatWith)" Value="33062" />
+  <Preset Label="Prank {2.SimFirstName} (Whim_Child_Prank)" Value="33064" />
+  <Preset Label="Help {2.SimFirstName} with Homework (Whim_Child_HelpWithHomework)" Value="33068" />
+  <Preset Label="Buy a Treadmill (Whim_BuyTreadmill)" Value="33069" />
+  <Preset Label="Buy a Punching Bag (Whim_BuyPunchingBag)" Value="33075" />
+  <Preset Label="Buy a Workout Machine (Whim_BuyWorkoutMachine)" Value="33076" />
+  <Preset Label="Discuss Fitness Techniques (Whim_DiscussFitnessTechniques)" Value="33084" />
+  <Preset Label="Mentor Someone in Fitness (Whim_MentorSomeoneInFitness)" Value="33086" />
+  <Preset Label="Make a Protein Shake (Whim_MakeProteinShake)" Value="33112" />
+  <Preset Label="Fertilize a Plant (Whim_FertilizePlant)" Value="33118" />
+  <Preset Label="Harvest a Plant (Whim_Harvest)" Value="33119" />
+  <Preset Label="Spray a Plant (Whim_SprayPlant)" Value="33120" />
+  <Preset Label="Water a Plant (Whim_WaterPlant)" Value="33121" />
+  <Preset Label="Talk to a Plant (Whim_TalkToPlant)" Value="33122" />
+  <Preset Label="Weed a Plant (Whim_WeedPlant)" Value="33124" />
+  <Preset Label="Revive a Dead Plant (Whim_RevivePlant)" Value="33125" />
+  <Preset Label="Feed a Cowplant (Whim_FeedCowplant)" Value="33126" />
+  <Preset Label="Buy a Bonsai Tree (Whim_BuyBonsai)" Value="33127" />
+  <Preset Label="Trim a Bonsai Tree (Whim_TrimBonsai)" Value="33130" />
+  <Preset Label="Graft a Plant (Whim_GraftPlant)" Value="33140" />
+  <Preset Label="License a Guitar Song (Whim_LicenseGuitarSong)" Value="33215" />
+  <Preset Label="Play the Guitar (Whim_PlayTheGuitar)" Value="34274" />
+  <Preset Label="Jam on the Guitar (Whim_JamOnTheGuitar)" Value="34276" />
+  <Preset Label="Serenade Someone with a Guitar (Whim_SeranadeOnGuitar)" Value="34284" />
+  <Preset Label="Enthuse about Guitar Solos (Whim_DiscussGuitar)" Value="34285" />
+  <Preset Label="Mentor Someone on the Guitar (Whim_MentorOnTheGuitar)" Value="34286" />
+  <Preset Label="Rhapsodize about Piano Sonatas (Whim_DiscussPiano)" Value="34288" />
+  <Preset Label="Play a Piano Concerto (Whim_PlayPianoConcerto)" Value="34289" />
+  <Preset Label="License a Piano Song (Whim_LicensePianoSong)" Value="34290" />
+  <Preset Label="Mentor Someone on the Piano (Whim_MentorOnThePiano)" Value="34291" />
+  <Preset Label="Play the Piano (Whim_PlayThePiano)" Value="34292" />
+  <Preset Label="Serenade Someone with a Piano (Whim_SeranadeOnPiano)" Value="34296" />
+  <Preset Label="Discuss the Best Violinist (Whim_DiscussViolin)" Value="34298" />
+  <Preset Label="License a Violin Song (Whim_LicenseViolinSong)" Value="34299" />
+  <Preset Label="Mentor Someone on the Violin (Whim_MentorOnTheViolin)" Value="34300" />
+  <Preset Label="Play a Violin Concerto (Whim_PlayViolinConcerto)" Value="34301" />
+  <Preset Label="Play the Violin (Whim_PlayTheViolin)" Value="34302" />
+  <Preset Label="Serenade Someone with a Violin (Whim_SeranadeOnViolin)" Value="34306" />
+  <Preset Label="Bring Someone to Tears with the Violin (Whim_BringToTearsOnViolin)" Value="34309" />
+  <Preset Label="Buy a Violin (Whim_BuyViolin)" Value="34310" />
+  <Preset Label="Buy a Piano (Whim_BuyPiano)" Value="34311" />
+  <Preset Label="Buy a Guitar (Whim_BuyGuitar)" Value="34312" />
+  <Preset Label="Analyze a Microscope Sample (Whim_AnalyzeMicroscopeSample)" Value="34350" />
+  <Preset Label="Play a Card Game (Whim_PlayCardGame)" Value="34351" />
+  <Preset Label="Play Cards for an Hour (Whim_PlayCardGame_AnHour)" Value="34352" />
+  <Preset Label="Play Chess (Whim_PlayChess)" Value="34353" />
+  <Preset Label="Play Chess for an Hour (Whim_PlayChess_AnHour)" Value="34354" />
+  <Preset Label="Observe a Chess Game (Whim_ObserveChess)" Value="34356" />
+  <Preset Label="Win a Game of Chess (Whim_WinChess)" Value="34357" />
+  <Preset Label="Win a Card Game (Whim_WinCardGame)" Value="34358" />
+  <Preset Label="Discuss Logic Puzzles (Whim_DiscussLogic)" Value="34359" />
+  <Preset Label="Search for the Truth (Whim_SearchForTheTruth)" Value="34360" />
+  <Preset Label="Stargaze (Whim_Stargaze)" Value="34363" />
+  <Preset Label="Collect a Microscope Sample (Whim_TakeSamplesFromMicroscope)" Value="34364" />
+  <Preset Label="Buy a Card Table (Whim_BuyCardTable)" Value="34365" />
+  <Preset Label="Buy a Chess Table (Whim_BuyChessBoard)" Value="34366" />
+  <Preset Label="Buy a Microscope (Whim_BuyMicroscope)" Value="34370" />
+  <Preset Label="Buy an Observatory (Whim_BuyObservatory)" Value="34371" />
+  <Preset Label="Enter a Gaming Tournament (Whim_EnterGameTournament)" Value="34374" />
+  <Preset Label="Play a Computer Game (Whim_PlayComputerGame)" Value="34376" />
+  <Preset Label="Play Hillock II (Whim_PlayGameHillock)" Value="34379" />
+  <Preset Label="Play MySims Go! (Whim_PlayGameMariaSisters)" Value="34380" />
+  <Preset Label="Play The R.E.F.U.G.E. (Whim_PlayGameRefuge)" Value="34381" />
+  <Preset Label="Play Road Rival Alpha (Whim_PlayGameRoadRival)" Value="34382" />
+  <Preset Label="Play Blicblock (Whim_PlayGameBlicblock)" Value="34383" />
+  <Preset Label="Play a Motion Game (Whim_PlayMotionGame)" Value="34391" />
+  <Preset Label="Play a Tablet Game (Whim_PlayTabletGame)" Value="34392" />
+  <Preset Label="Research Video Games (Whim_ResearchGamingStrategy)" Value="34393" />
+  <Preset Label="Watch a Gaming Livestream (Whim_WatchGamingLivestream)" Value="34394" />
+  <Preset Label="Play Video Games for an Hour (Whim_PlayVideoGames_AnHour)" Value="34395" />
+  <Preset Label="Play Video Games (Whim_PlayVideoGames)" Value="34396" />
+  <Preset Label="Buy a Motion Gaming Rig (Whim_BuyMotionGamingRig)" Value="34398" />
+  <Preset Label="Buy a New Computer (Whim_BuyNewPC)" Value="34399" />
+  <Preset Label="Use a Voodoo Doll (Whim_UseVoodooDoll)" Value="34401" />
+  <Preset Label="Troll Web Forums (Whim_TrollWebForums)" Value="34402" />
+  <Preset Label="Spy on Neighbors (Whim_SpyOnNeighbors)" Value="34403" />
+  <Preset Label="Make a Prank Call (Whim_PrankCall)" Value="34404" />
+  <Preset Label="Send a Chain Letter (Whim_SendAChainLetter)" Value="34405" />
+  <Preset Label="Scare Someone (Whim_ScareSomeone)" Value="34406" />
+  <Preset Label="Prank Someone with a Hand Buzzer (Whim_PrankHandBuzzer)" Value="34407" />
+  <Preset Label="Draw Something (Whim_Child_DrawSomething)" Value="34458" />
+  <Preset Label="Play Pirate (Whim_Child_PlayPirate)" Value="34465" />
+  <Preset Label="Play with the Dollhouse (Whim_Child_PlaywithDollHouse)" Value="34467" />
+  <Preset Label="Paint a Masterpiece (Whim_PaintMasterpiece)" Value="34471" />
+  <Preset Label="Tell a Make Believe Story (Whim_Child_TellMakeBelieveStory)" Value="34474" />
+  <Preset Label="Paint an Abstract Painting (Whim_PaintAbstract)" Value="34478" />
+  <Preset Label="Play with Toybox Toys (Whim_PlaywithToys)" Value="34479" />
+  <Preset Label="Level up in Creativity Skill (Whim_Child_SkillupCreativity)" Value="34482" />
+  <Preset Label="Level up in Mental Skill (Whim_Child_SkillupMental)" Value="34483" />
+  <Preset Label="Level up in Social Skill (Whim_Child_SkillupSocial)" Value="34484" />
+  <Preset Label="Level up in Motor Skill (Whim_Child_SkillupMotor)" Value="34485" />
+  <Preset Label="Go on a Rocketship Mission (Whim_GoOnRocketMission)" Value="34487" />
+  <Preset Label="End a Rocket Mission Safely (Whim_EndMissionSafely)" Value="34508" />
+  <Preset Label="Upgrade Rocket Defense System (Whim_UpgradeRocketDefenseSystem)" Value="34509" />
+  <Preset Label="Upgrade Rocket Fuel Tank (Whim_UpgradeRocketFuelTank)" Value="34510" />
+  <Preset Label="Upgrade Rocket with a Landing Computer (Whim_UpgradeRocketLandingComputer)" Value="34511" />
+  <Preset Label="Upgrade Rocket with More Cargo Space (Whim_UpgradeRocketCargoSpace)" Value="34512" />
+  <Preset Label="Upgrade Rocket with Stabilizers (Whim_UpgradeRocketStabilizers)" Value="34513" />
+  <Preset Label="Upgrade Rocket with Thrusters (Whim_UpgradeRocketThrusters)" Value="34514" />
+  <Preset Label="Zero-G WooHoo (Whim_ZeroGWoohoo)" Value="34515" />
+  <Preset Label="Work out in Space (Whim_WorkoutInSpace)" Value="34516" />
+  <Preset Label="Create a Excellent Painting (Whim_PaintOutstanding)" Value="34560" />
+  <Preset Label="Paint on an Easel (Whim_PaintOnEasel)" Value="34563" />
+  <Preset Label="Sell a Painting (Whim_SellPainting)" Value="34564" />
+  <Preset Label="Discuss Color Theory (Whim_DiscussColorTheory)" Value="34566" />
+  <Preset Label="Sell 3 Paintings (Whim_SellPaintings_3)" Value="34572" />
+  <Preset Label="Earn {0.Money} from Selling Paintings (Whim_SellPainting_100)" Value="34575" />
+  <Preset Label="Play Arithmetic Game (Whim_Child_PlayComputerMath)" Value="34576" />
+  <Preset Label="Mentor Someone in Painting (Whim_MentorSomeonePainting)" Value="34577" />
+  <Preset Label="Play on the Spaceship (Whim_Child_PlaySpaceJungleGym)" Value="34578" />
+  <Preset Label="Attempt Mental Telepathy (Whim_Child_AttemptTElepathy)" Value="34579" />
+  <Preset Label="Discuss Fractions (Whim_Child_DiscussFractions)" Value="34580" />
+  <Preset Label="Work on a Rocket for an hour (Whim_WorkOnRocket_AnHour)" Value="34581" />
+  <Preset Label="Hang Out on the Monkey Bars (Whim_Child_HangonMonkeyBars)" Value="34586" />
+  <Preset Label="Create a Plugin (Whim_CreatePlugin)" Value="34589" />
+  <Preset Label="Play on the Monkey Bars (Whim_Child_PlayonMonkeyBars)" Value="34590" />
+  <Preset Label="Create a Game Mod (Whim_CreateGameMod)" Value="34591" />
+  <Preset Label="Play a Typing Game (Whim_Child_PlayComputerTyping)" Value="34592" />
+  <Preset Label="Practice Typing (Whim_Child_PracticeTyping)" Value="34593" />
+  <Preset Label="Create a Computer Virus (Whim_CreateComputerVirus)" Value="34594" />
+  <Preset Label="Create a Mobile App (Whim_CreateMobileApp)" Value="34596" />
+  <Preset Label="Hack Something Successfully (Whim_Hack_Successful)" Value="34597" />
+  <Preset Label="Complete a Side Job on the Computer (Whim_CompleteFreelanceJob)" Value="34598" />
+  <Preset Label="Try to Hack Something (Whim_Hack_Attempt)" Value="34599" />
+  <Preset Label="Ask for Typing Tips (Whim_Child_AskforTypingTips)" Value="34601" />
+  <Preset Label="Practice Programming (Whim_PracticeCoding)" Value="34609" />
+  <Preset Label="Sell 3 Mobile Apps (Whim_SellMobileApps_3)" Value="34610" />
+  <Preset Label="Practice Programming for an Hour (Whim_PracticeCoding_AnHour)" Value="34611" />
+  <Preset Label="Play with Giant Stuffed Animal (Whim_Child_PlaywithStuffedAnimal)" Value="34613" />
+  <Preset Label="Play a Modded Computer Game (Whim_PlayModdedGame)" Value="34617" />
+  <Preset Label="Start Making a New Mobile App (Whim_StartNewMobileApp)" Value="34622" />
+  <Preset Label="Hack School Grades (Whim_HackSchoolGrades)" Value="34623" />
+  <Preset Label="Talk with Giant Stuffed Animal (Whim_Child_TalkwithStuffedAnimal)" Value="34638" />
+  <Preset Label="Play Hooky (Whim_PlayHooky)" Value="34639" />
+  <Preset Label="Reference Pop Culture (Whim_Child_ReferencePopCulture)" Value="34641" />
+  <Preset Label="Prank Someone with an Air Horn (Whim_PrankAirHorn)" Value="34642" />
+  <Preset Label="Be Mischievous (Whim_BeMischievous)" Value="34643" />
+  <Preset Label="Prank Someone with a Noxious Cloud (Whim_PrankNoxiousCloud)" Value="34644" />
+  <Preset Label="Talk about School Day (Whim_Child_RecapSchoolDay)" Value="34645" />
+  <Preset Label="Level up in Guitar Skill (Whim_SkillUpGuitar)" Value="34663" />
+  <Preset Label="Level up in Piano Skill (Whim_SkillUpPiano)" Value="34664" />
+  <Preset Label="Level up in Violin Skill (Whim_SkillUpViolin)" Value="34665" />
+  <Preset Label="Level up in Rocket Science Skill (Whim_SkillUpRocketScience)" Value="34667" />
+  <Preset Label="Level up in Comedy Skill (Whim_SkillUpComedy)" Value="34668" />
+  <Preset Label="Level up in Logic Skill (Whim_SkillUpLogic)" Value="34669" />
+  <Preset Label="Track a Satellite (Whim_Astronaut_TrackSatellite)" Value="34692" />
+  <Preset Label="Point Out a Constellation (Whim_Astronaut_IdentifyConstellation)" Value="34698" />
+  <Preset Label="Enthuse about Space (Whim_Astronaut_TalkAboutSpace)" Value="34699" />
+  <Preset Label="Pickpocket Someone (Whim_Criminal_PickpocketSim)" Value="34700" />
+  <Preset Label="Threaten Someone (Whim_Criminal_ThreatenSomeone)" Value="34701" />
+  <Preset Label="Watch a Culinary Training Video (Whim_Culinary_WatchCulinaryTrainingVideo)" Value="34702" />
+  <Preset Label="Write a Bar Guide (Whim_Culinary_WriteBarGuide)" Value="34703" />
+  <Preset Label="Write a Jingle (Whim_Entertainer_WriteJingle)" Value="34704" />
+  <Preset Label="Write a Cookbook (Whim_Culinary_Cookbook)" Value="34705" />
+  <Preset Label="Do an Impression (Whim_Entertainer_PerformImitation)" Value="34708" />
+  <Preset Label="Try out Comedy Material (Whim_Entertainer_TryOutComedyMaterial)" Value="34709" />
+  <Preset Label="Browse the Intelligence Database (Whim_SecretAgent_BrowseIntelligence)" Value="34711" />
+  <Preset Label="Do Intelligence Research (Whim_SecretAgent_DoIntelligenceResearch)" Value="34713" />
+  <Preset Label="Perform the Secret Handshake (Whim_SecretAgent_PerformSecretHandshake)" Value="34714" />
+  <Preset Label="Livestream a Game (Whim_TechGuru_Livestream)" Value="34715" />
+  <Preset Label="Investigate Someone (Whim_SecretAgent_InvestigateSim)" Value="34716" />
+  <Preset Label="Interview Someone (Whim_Writer_InterviewSim)" Value="34728" />
+  <Preset Label="Rummage for Information (Whim_Writer_RummageForInformation)" Value="34775" />
+  <Preset Label="Write an Article about Someone (Whim_Writer_WriteArticleSim)" Value="34776" />
+  <Preset Label="Admire Art (Whim_artLover_AdmireArt)" Value="34825" />
+  <Preset Label="Talk about Art (Whim_artLover_TalkAboutArt)" Value="34827" />
+  <Preset Label="Analyze a Book (Whim_bookworm_AnalyzeBook)" Value="34828" />
+  <Preset Label="Watch Sports on TV (Whim_bro_WatchTVsports)" Value="34829" />
+  <Preset Label="Bro Hug Someone (Whim_bro_BroHugSim)" Value="34830" />
+  <Preset Label="Break Off Current Relationship (Whim_CommitmentPhobe_BreakitOff)" Value="34831" />
+  <Preset Label="Eat an Excellent Meal (Whim_Foodie_EatOutstandingMeal)" Value="34834" />
+  <Preset Label="Take a Nap (Whim_Lazy_TakeNap)" Value="34836" />
+  <Preset Label="Enthuse about the Outdoors (Whim_LovesOutdoors_EnthuseaboutNature)" Value="34837" />
+  <Preset Label="Discuss Favorite Band (Whim_MusicLover_DiscussFavoriteBand)" Value="34847" />
+  <Preset Label="Make Something of Excellent Quality (Whim_Perfectionist_CreateOutstanding)" Value="34853" />
+  <Preset Label="Critique Something (Whim_Snob_CritiqueSomething)" Value="34854" />
+  <Preset Label="Brag about Possessions (Whim_Materialistic_BragAboutPossessions)" Value="34855" />
+  <Preset Label="Publish a Book (Whim_PublishBook)" Value="34911" />
+  <Preset Label="Publish 3 Books (Whim_PublishBooks_3)" Value="34912" />
+  <Preset Label="Start Writing a New Book (Whim_StartWritingBook)" Value="34913" />
+  <Preset Label="Practice Writing (Whim_PracticeWriting)" Value="34914" />
+  <Preset Label="Discuss Favorite Authors (Whim_DiscussWriting)" Value="34915" />
+  <Preset Label="Mentor Someone in Writing (Whim_MentorWriting)" Value="34916" />
+  <Preset Label="Write an Excellent Book (Whim_WriteOutstandingBook)" Value="34919" />
+  <Preset Label="Earn {0.Money} from Publishing Books (Whim_PublishBooks_100)" Value="34929" />
+  <Preset Label="Upgrade an Object (Whim_UpgradeObject)" Value="34952" />
+  <Preset Label="Repair an Object (Whim_RepairObject)" Value="34953" />
+  <Preset Label="Salvage Parts (Whim_SalvageParts)" Value="34956" />
+  <Preset Label="Give Repair Tips to Someone (Whim_MentorHandiness)" Value="34967" />
+  <Preset Label="Level up in Gardening Skill (Whim_SkillUpGardening)" Value="34968" />
+  <Preset Label="Level up in Video Gaming Skill (Whim_SkillUpVideoGaming)" Value="34969" />
+  <Preset Label="Level up in Programming Skill (Whim_SkillUpProgramming)" Value="34970" />
+  <Preset Label="Level up in Mischief Skill (Whim_SkillUpMischief)" Value="34971" />
+  <Preset Label="Level up in Handiness Skill (Whim_SkillUpHandiness)" Value="34972" />
+  <Preset Label="Buy a Computer (Whim_BuyComputer)" Value="34973" />
+  <Preset Label="Craft a Chair (Whim_CraftChair)" Value="34975" />
+  <Preset Label="Craft an End Table (Whim_CraftEndTable)" Value="35031" />
+  <Preset Label="Craft a Piece of Furniture (Whim_CraftFurniture)" Value="35032" />
+  <Preset Label="Craft an Instrument (Whim_CraftInstrument)" Value="35035" />
+  <Preset Label="Craft a Sculpture (Whim_CraftSculpture)" Value="35043" />
+  <Preset Label="Craft a Toilet (Whim_CraftToilet)" Value="35045" />
+  <Preset Label="Craft a Tub (Whim_CraftTub)" Value="35053" />
+  <Preset Label="Buy a Woodworking Table (Whim_BuyWoodworkTable)" Value="35055" />
+  <Preset Label="Compose a Comedy Routine (Whim_ComposeRoutine)" Value="35301" />
+  <Preset Label="Compose a Medium Comedy Routine (Whim_ComposeRoutineMedium)" Value="35302" />
+  <Preset Label="Compose a Long Comedy Routine (Whim_ComposeRoutineLong)" Value="35303" />
+  <Preset Label="Improvise a Comedy Routine (Whim_ImproviseRoutine)" Value="35305" />
+  <Preset Label="Perform a Comedy Routine (Whim_PerformROutine)" Value="35306" />
+  <Preset Label="Practice a Comedy Routine (Whim_PracticeRoutine)" Value="35307" />
+  <Preset Label="Refine a Comedy Routine (Whim_RefineRoutine)" Value="35308" />
+  <Preset Label="Tell a Joke on a Microphone (Whim_TellJokeMicrophone)" Value="35309" />
+  <Preset Label="Watch Comedy on TV (Whim_WatchTV_Comedy)" Value="35310" />
+  <Preset Label="Write Jokes (Whim_WriteJokes)" Value="35311" />
+  <Preset Label="Write Jokes for an Hour (Whim_WriteJokes_AnHour)" Value="35312" />
+  <Preset Label="Tell a Successful Joke (Whim_TellSucessfulJoke)" Value="35313" />
+  <Preset Label="Buy a Microphone Stand (Whim_BuyMicrophone)" Value="35316" />
+  <Preset Label="Earn {0.Money} Performing Comedy (Whim_PerformComedy_100)" Value="35317" />
+  <Preset Label="Read Something (Whim_ReadSomething)" Value="35448" />
+  <Preset Label="Paint a Classical Painting (Whim_PaintClassical)" Value="35519" />
+  <Preset Label="Paint an Impressionist Painting (Whim_PaintImpressionist)" Value="35520" />
+  <Preset Label="Paint a Pop Art Painting (Whim_PaintPopArt)" Value="35521" />
+  <Preset Label="Paint a Realistic Painting (Whim_PaintRealistic)" Value="35522" />
+  <Preset Label="Paint a Surrealistic Painting (Whim_PaintSurreal)" Value="35523" />
+  <Preset Label="Earn {0.Money} from Programming (Whim_DoProgramming_100)" Value="35525" />
+  <Preset Label="Gain 50 New Online Followers (Whim_MakeOnlineFollowers_50)" Value="35532" />
+  <Preset Label="Earn {0.Money} from Livestreaming (Whim_Livestream_100)" Value="35535" />
+  <Preset Label="Perform a Background Check on Someone (Whim_SecretAgent_BackgroundCheck)" Value="35538" />
+  <Preset Label="Earn {0.Money} from Gaming Tournaments (Whim_WinGameTournament_100)" Value="35578" />
+  <Preset Label="Gain 50 Livestream Fans (Whim_MakeLivestreamFans_50)" Value="35701" />
+  <Preset Label="Make an Enemy (Whim_Make_Enemy)" Value="35722" />
+  <Preset Label="Get into a Fight (Whim_FightSim)" Value="35724" />
+  <Preset Label="Call Someone on the Phone (Whim_CallSim)" Value="35727" />
+  <Preset Label="Mentor someone in Fitness at the Gym (Whim_MentorSomeoneInFitness_AtGym_Travel)" Value="38168" />
+  <Preset Label="Discuss Fitness Techniques at the Gym (Whim_DiscussFitnessTechniques_AtGym_Travel)" Value="38169" />
+  <Preset Label="Use a Punching Bag at the Gym (Whim_UsePunchingBag_AtGym_Travel)" Value="38170" />
+  <Preset Label="Use a Treadmill at the Gym (Whim_UseTreadmill_AtGym_Travel)" Value="38171" />
+  <Preset Label="Use a Workout Machine at the Gym (Whim_UseWorkoutMachine_AtGym_Travel)" Value="38172" />
+  <Preset Label="Travel to the Gym (Whim_TravelToGym)" Value="38288" />
+  <Preset Label="Collect a New Crystal (Whim_CollectNew_Crystal)" Value="38301" />
+  <Preset Label="Collect a New Space Rock (Whim_CollectNew_SpaceRock)" Value="38308" />
+  <Preset Label="Collect a New Frog (Whim_CollectNew_Frog)" Value="38315" />
+  <Preset Label="Collect a New Metal (Whim_CollectNew_Metal)" Value="38317" />
+  <Preset Label="Collect a New Space Print (Whim_CollectNew_SpacePrint)" Value="38320" />
+  <Preset Label="Collect a New Microscope Print (Whim_CollectNew_MicroPrint)" Value="38321" />
+  <Preset Label="Collect a New Fossil (Whim_CollectNew_Fossil)" Value="38322" />
+  <Preset Label="Collect a New Post Card (Whim_CollectNew_Postcard)" Value="38323" />
+  <Preset Label="Travel to the Library (Whim_TravelToLibrary)" Value="38353" />
+  <Preset Label="Travel to the Museum (Whim_TravelToMuseum)" Value="38354" />
+  <Preset Label="Travel to the Club (Whim_TravelToClub)" Value="38355" />
+  <Preset Label="Travel to the Park (Whim_TravelToPark)" Value="38357" />
+  <Preset Label="Travel to the Bar (Whim_TravelToBar)" Value="38366" />
+  <Preset Label="Play Chess at the Library (Whim_PlayChess_AtLibrary_Travel)" Value="38369" />
+  <Preset Label="Read a Book at the Library (Whim_ReadSomething_AtLibrary_Travel)" Value="38380" />
+  <Preset Label="Research on a Computer at the Library (Whim_ComputerResearch_AtLibrary_Travel)" Value="38381" />
+  <Preset Label="Paint on an Easel at the Museum (Whim_PaintOnEasel_AtMuseum_Travel)" Value="38382" />
+  <Preset Label="Discuss Color Theory at the Museum (Whim_DiscussColorTheory_AtMuseum_Travel)" Value="38383" />
+  <Preset Label="View a Piece of Art at the Museum (Whim_ViewArt_AtMuseum_Travel)" Value="38384" />
+  <Preset Label="Play the Guitar at the Lounge (Whim_PlayTheGuitar_AtLounge_Travel)" Value="38385" />
+  <Preset Label="Perform Comedy at the Lounge (Whim_PerformRoutine_AtLounge_Travel)" Value="38391" />
+  <Preset Label="Make a Drink at the Bar Venue (Whim_CraftDrink_AtBar)" Value="38392" />
+  <Preset Label="Make a Drink at the Lounge (Whim_CraftDrink_AtLounge)" Value="38393" />
+  <Preset Label="Make a Drink at the Club (Whim_CraftDrink_AtClub)" Value="38394" />
+  <Preset Label="Have a Drink at the Bar Venue (Whim_HaveDrink_AtBar)" Value="38395" />
+  <Preset Label="Have a Drink at the Bar Venue (Whim_HaveDrink_AtBar_Travel)" Value="38396" />
+  <Preset Label="Have a Drink at the Club (Whim_HaveDrink_AtClub)" Value="38397" />
+  <Preset Label="Have a Drink at the Lounge (Whim_HaveDrink_AtLounge)" Value="38398" />
+  <Preset Label="Have a Drink at the Lounge (Whim_HaveDrink_AtLounge_Travel)" Value="38399" />
+  <Preset Label="Have a Drink at the Club (Whim_HaveDrink_AtClub_Travel)" Value="38400" />
+  <Preset Label="Meet Someone New at the Bar Venue (Whim_MeetSomeoneNew_AtBar_Travel)" Value="38402" />
+  <Preset Label="Meet Someone New at the Club (Whim_MeetSomeoneNew_AtClub_Travel)" Value="38404" />
+  <Preset Label="Meet Someone New at the Lounge (Whim_MeetSomeoneNew_AtLounge_Travel)" Value="38406" />
+  <Preset Label="View or Admire a Piece of Art at the Museum (Whim_AdmireArt_AtMuseum)" Value="38417" />
+  <Preset Label="View or Admire a Piece of Art at the Museum (Whim_AdmireArt_AtMuseum_Travel)" Value="38418" />
+  <Preset Label="Create a Computer Game (Whim_StartNewComputerGame)" Value="39151" />
+  <Preset Label="Write a Biography (Whim_WriteBiography)" Value="39155" />
+  <Preset Label="Write a Children's Book (Whim_WriteChildrens)" Value="39179" />
+  <Preset Label="Write a Fantasy Novel (Whim_WriteFantasy)" Value="39180" />
+  <Preset Label="Write a Non-Fiction Book (Whim_WriteNonFiction)" Value="39181" />
+  <Preset Label="Write a Poetry Book (Whim_WritePoems)" Value="39182" />
+  <Preset Label="Write a Mystery Novel (Whim_WriteMystery)" Value="39194" />
+  <Preset Label="Write a Sci-Fi Novel (Whim_WriteSciFi)" Value="39195" />
+  <Preset Label="Write a Screenplay (Whim_WriteScreenPlay)" Value="39196" />
+  <Preset Label="Write Short Stories (Whim_WriteShortStories)" Value="39197" />
+  <Preset Label="Write a Bestselling Book (Whim_WriteBestSeller)" Value="39201" />
+  <Preset Label="Admire Possessions (Whim_Materialistic_AdmirePossessions)" Value="39206" />
+  <Preset Label="Clean the House (Whim_Neat_CleanHouse)" Value="39212" />
+  <Preset Label="Buy an Oven while Inspired (Whim_BuyOven_Inspired)" Value="39273" />
+  <Preset Label="Cry it Out (Whim_CryUndercovers_Bed)" Value="39364" />
+  <Preset Label="Blog about Feelings (Whim_BlogFeelings)" Value="39365" />
+  <Preset Label="Give Pep Talk in the Mirror (Whim_PepTalk_Sad)" Value="39372" />
+  <Preset Label="Call Sadness Hotline (Whim_CallSadnessHotline_Sad)" Value="39373" />
+  <Preset Label="Water Plants with Tears (Whim_WaterPlantsWithTears_Sad)" Value="39375" />
+  <Preset Label="Complain about Problems (Whim_ComplainAboutProblems_Sad)" Value="39376" />
+  <Preset Label="Insult Someone's Face (Whim_InsultFace_Angry)" Value="39414" />
+  <Preset Label="Mock Someone (Whim_MockSomeone_Angry)" Value="39415" />
+  <Preset Label="Try to Calm Self Down in the Mirror (Whim_CalmSelf_Angry)" Value="39426" />
+  <Preset Label="Make Silly Faces in the Mirror (Whim_SillyFace)" Value="39428" />
+  <Preset Label="Practice Pick-up Lines in the Mirror (Whim_RomanceMoves_Flirty)" Value="39429" />
+  <Preset Label="Give Pep Talk in the Mirror (Whim_PepTalk_Embarrased)" Value="39430" />
+  <Preset Label="Admire Yourself in the Mirror (Whim_AdmireSelf_Confident)" Value="39438" />
+  <Preset Label="Practice Pick-up Lines in the Mirror (Whim_RomanceMoves_Confident)" Value="39440" />
+  <Preset Label="Try to Calm Self Down in the Mirror (Whim_CalmSelf_Tense)" Value="39441" />
+  <Preset Label="Take a Cold Shower (Whim_TakeShower_Angry)" Value="39444" />
+  <Preset Label="Rage Run on the Treadmill (Whim_RageRun_Angry)" Value="39447" />
+  <Preset Label="Use the Workout Machine (Whim_WorkoutMachine_Angry)" Value="39450" />
+  <Preset Label="Smash the Dollhouse (Whim_SmashDollhouse_Angry)" Value="39453" />
+  <Preset Label="Stomp in a Puddle (Whim_StompPuddle_Angry)" Value="39456" />
+  <Preset Label="Rant and Rave to Someone (Whim_RantRave_Angry)" Value="39457" />
+  <Preset Label="Goof Around with Someone (Whim_GoofAround_Playful)" Value="39509" />
+  <Preset Label="Do an Impression for Someone (Whim_DoImpression_Playful)" Value="39510" />
+  <Preset Label="Play a Social Prank (Whim_PlayPrank)" Value="39511" />
+  <Preset Label="Play in a Puddle (Whim_PlayInPuddle_Playful)" Value="39518" />
+  <Preset Label="Play in Trash (Whim_PlayInTrash_Playful)" Value="39520" />
+  <Preset Label="Stomp Trash (Whim_StompTrash_Angry)" Value="39529" />
+  <Preset Label="Pester Someone (Whim_PesterSomeone_Playful)" Value="39536" />
+  <Preset Label="Flash Crazy Eyes at Someone (Whim_FlashCrazyEyes_Playful)" Value="39539" />
+  <Preset Label="Buy a Bar (Whim_BuyBar)" Value="39585" />
+  <Preset Label="Buy an Easel (Whim_BuyEasel)" Value="39586" />
+  <Preset Label="Buy an Instrument (Whim_BuyInstrument)" Value="39588" />
+  <Preset Label="Pitch Story Idea to Someone (Whim_PitchIdea_Inspired)" Value="39596" />
+  <Preset Label="Propose Crazy Scheme to Someone (Whim_ProposeScheme_Inspired)" Value="39599" />
+  <Preset Label="Talk about Dreams with Someone (Whim_TalkAboutDreams_Inspired)" Value="39604" />
+  <Preset Label="Research on the Computer (Whim_ComputerResearch)" Value="39607" />
+  <Preset Label="Finish Reading a Book (Whim_FinishedBook)" Value="39613" />
+  <Preset Label="Buy a Bookshelf (Whim_BuyBookcase)" Value="39615" />
+  <Preset Label="Observe the Skies with the Telescope (Whim_ObserveSkies)" Value="39616" />
+  <Preset Label="Create Mathematical Diagrams on the Easel (Whim_PaintMathematics)" Value="39618" />
+  <Preset Label="Take a Cold Shower (Whim_TakeShower_Flirty)" Value="39620" />
+  <Preset Label="Tell a Dirty Joke to Someone (Whim_TellDirtyJoke_Flirty)" Value="39623" />
+  <Preset Label="Suggest Fun Activities to Someone (Whim_SuggestFun_Bored)" Value="39624" />
+  <Preset Label="Find a Collectible (Whim_CollectAnything)" Value="39626" />
+  <Preset Label="Share Insecurities with Someone (Whim_ShareInsecurities_Embarrassed)" Value="39627" />
+  <Preset Label="Tell a Self-Deprecating Joke (Whim_TellSelfJoke_Embarrassed)" Value="39628" />
+  <Preset Label="Ask for Reassurance from Someone (Whim_AskReassurance_Embarrassed)" Value="39629" />
+  <Preset Label="Hide From Everyone (Whim_HideUndercovers_Embarrassed)" Value="39630" />
+  <Preset Label="Propose Crazy Scheme to Someone (Whim_ProposeScheme_Confident)" Value="39631" />
+  <Preset Label="Compliment Someone (Whim_ComplimentSomeone_Confident)" Value="39632" />
+  <Preset Label="Show Off Muscles to Someone (Whim_ShowOffMuscles_Confident)" Value="39633" />
+  <Preset Label="Tell an Unbelievable Story (Whim_TellEpicStory_Confident)" Value="39634" />
+  <Preset Label="Use a Bold Pick-up Line on Someone (Whim_BoldPickupLine_Confident)" Value="39636" />
+  <Preset Label="Take a Speedy Shower (Whim_TakeShower_Energized)" Value="39638" />
+  <Preset Label="Do Push-Ups! (Whim_DoPushups_Energized)" Value="39639" />
+  <Preset Label="Do Sit-Ups! (Whim_DoSitUps_Energized)" Value="39640" />
+  <Preset Label="Hip Bump Someone! (Whim_HipBump_Energized)" Value="39641" />
+  <Preset Label="Enthuse about Interests with Someone (Whim_EnthuseInterests_Energized)" Value="39642" />
+  <Preset Label="Take a Shower (Whim_TakeShower_Tense)" Value="39643" />
+  <Preset Label="Watch the Fireplace Channel (Whim_WatchTV_Fireplace)" Value="39644" />
+  <Preset Label="Take a Bath (Whim_TakeBath)" Value="39645" />
+  <Preset Label="Vent to Someone (Whim_Vent_Stressed)" Value="39647" />
+  <Preset Label="Go to Work Feeling Energized (Whim_GoToWork_Criminal_Energized)" Value="40643" />
+  <Preset Label="Go to Work Feeling Focused (Whim_GoToWork_Criminal_Focused)" Value="40645" />
+  <Preset Label="Go to Work Feeling Confident (Whim_GoToWork_Astronaut_Confident)" Value="40809" />
+  <Preset Label="Go to Work Feeling Inspired (Whim_GoToWork_Culinary_Inspired)" Value="40821" />
+  <Preset Label="Go to Work Feeling Playful (Whim_GoToWork_Entertainer_Playful)" Value="40831" />
+  <Preset Label="Go to Work Feeling Inspired (Whim_GoToWork_Entertainer_Inspired)" Value="40832" />
+  <Preset Label="Go to Work Feeling Confident (Whim_GoToWork_SecretAgent_Confident)" Value="40833" />
+  <Preset Label="Go to Work Feeling Focused (Whim_GoToWork_TechGuru_Focused)" Value="40835" />
+  <Preset Label="Go to Work Feeling Inspired (Whim_GoToWork_Writer_Inspired)" Value="40836" />
+  <Preset Label="Try for Baby with {2.SimFirstName} (Whim_Partner_TryforBabyWith_FemaleTarget)" Value="75244" />
+  <Preset Label="Finish Homework (Whim_Homework_Child)" Value="75525" />
+  <Preset Label="Finish Make Up Homework (Whim_Homework_Child_MakeUp)" Value="75526" />
+  <Preset Label="Finish Homework (Whim_Homework_Teen)" Value="75535" />
+  <Preset Label="Finish Extra Credit (Whim_Homework_Teen_ExtraCredit)" Value="75536" />
+  <Preset Label="Finish Extra Credit (Whim_Homework_Teen_Makeup)" Value="75537" />
+  <Preset Label="Finish Extra Credit (Whim_Homework_Child_ExtraCredit)" Value="75538" />
+  <Preset Label="Do Something Romantic (Whim_RomanceSim)" Value="77315" />
+  <Preset Label="Go for a Jog (Whim_GoForJog)" Value="77341" />
+  <Preset Label="Play with the Dollhouse (Whim_PlaywithDollhouse)" Value="77343" />
+  <Preset Label="Watch the Kids Network on TV (Whim_WatchTV_Kids)" Value="77344" />
+  <Preset Label="Buy a Toy (Whim_BuyToy)" Value="77345" />
+  <Preset Label="Watch the Cooking Channel for Ideas (Whim_WatchTV_Cooking_Foodie)" Value="77346" />
+  <Preset Label="Discuss Fine Cuisine (Whim_DiscussCuisine_Foodie)" Value="77348" />
+  <Preset Label="Discuss Favorite Recipes (Whim_DiscussRecipes_Foodie)" Value="77349" />
+  <Preset Label="Research Cooking Techniques (Whim_ResearchCooking_Foodie)" Value="77350" />
+  <Preset Label="Browse Simpedia (Whim_ResearchSimpedia_Geek)" Value="77351" />
+  <Preset Label="Debate Captains (Whim_DebateBestCaptain_Geek)" Value="77352" />
+  <Preset Label="Enthuse about a New Show (Whim_EnthuseAboutShow_Geek)" Value="77353" />
+  <Preset Label="Share Ideas (Whim_ShareIdeas)" Value="77354" />
+  <Preset Label="Use the Microscope (Whim_UseMicroscope)" Value="77355" />
+  <Preset Label="Use the Observatory (Whim_UseObservatory)" Value="77356" />
+  <Preset Label="Be Mischievous (Whim_MischiefSim)" Value="77357" />
+  <Preset Label="Listen Deeply to Music (Whim_ListenDeeply_MusicLover)" Value="77359" />
+  <Preset Label="Buy a Stereo (Whim_BuyStereo)" Value="77360" />
+  <Preset Label="Freshen Up in the Mirror (Whim_GussyUp)" Value="77362" />
+  <Preset Label="Catch a Fish (Whim_CatchFish)" Value="77376" />
+  <Preset Label="Catch {0.Number} Fish (Whim_CatchFish_3)" Value="77377" />
+  <Preset Label="Make a Great Catch (Whim_CatchFish_Large)" Value="77378" />
+  <Preset Label="Make an Amazing Catch (Whim_CatchFish_VeryLarge)" Value="77379" />
+  <Preset Label="Catch a Fish Using Bait (Whim_CatchFish_WithBait)" Value="77380" />
+  <Preset Label="Mount a Fish (Whim_MountFish)" Value="77382" />
+  <Preset Label="Purchase a Fish (Whim_PurchaseFish)" Value="77384" />
+  <Preset Label="Fish for an Hour (Whim_Fish_AnHour)" Value="77385" />
+  <Preset Label="Bait Hook while Fishing (Whim_BaitHook)" Value="77386" />
+  <Preset Label="Write a Guitar Song (Whim_WriteGuitarSong)" Value="77497" />
+  <Preset Label="Write a Piano Song (Whim_WritePianoSong)" Value="77498" />
+  <Preset Label="Write a Violin Song (Whim_WriteViolinSong)" Value="77500" />
+  <Preset Label="Work on Writing a Song (Whim_WriteSong)" Value="77502" />
+  <Preset Label="Create Potion (Whim_Child_SciencePotionCraft)" Value="96805" />
+  <Preset Label="Talk to {2.SimFirstName} (Whim_Baby_Talk)" Value="97015" />
+  <Preset Label="View a Piece of Art (Whim_ViewArt)" Value="97900" />
+  <Preset Label="Become Angry (Whim_GetAngry)" Value="97905" />
+  <Preset Label="Buy an Object Worth {0.Money} (Whim_Buy100)" Value="97913" />
+  <Preset Label="Buy an Object Worth {0.Money} (Whim_Buy1000)" Value="97914" />
+  <Preset Label="Plant Something (Whim_PlantSomething)" Value="97938" />
+  <Preset Label="Dance to Stereo Music (Whim_DanceStereo)" Value="97953" />
+  <Preset Label="Befriend a Child (Whim_Make_Friend_Child)" Value="97954" />
+  <Preset Label="Get a Promotion (Whim_GetPromoted)" Value="97969" />
+  <Preset Label="Earn {0.Money} (Whim_Earn_100)" Value="97974" />
+  <Preset Label="Earn {0.Money} (Whim_Earn_500)" Value="97975" />
+  <Preset Label="Earn {0.Money} (Whim_Earn_1000)" Value="97976" />
+  <Preset Label="Schedule a Date (Whim_AskonDate)" Value="97984" />
+  <Preset Label="Be Mean to a Child (Whim_MeanSim_ToKid)" Value="98032" />
+  <Preset Label="Talk to Self (WhimTalkToSelf)" Value="98033" />
+  <Preset Label="Be Alone (Whim_BeAlone)" Value="98034" />
+  <Preset Label="Rummage in Trash (Whim_RummageTrash)" Value="98037" />
+  <Preset Label="Sleep it Off (Whim_Sleep_Dazed)" Value="98053" />
+  <Preset Label="Buy a Wedding Arch (Whim_BuyWeddingArch)" Value="98159" />
+  <Preset Label="Level Up in Fishing Skill (Whim_SkillUpFishing)" Value="98212" />
+  <Preset Label="Cuddle {2.SimFirstName} (Whim_Baby_Cuddle)" Value="99090" />
+  <Preset Label="Feed {2.SimFirstName} (Whim_Baby_Feed)" Value="99091" />
+  <Preset Label="Bounce {2.SimFirstName} (Whim_Baby_Bounce)" Value="99092" />
+  <Preset Label="Coo at {2.SimFirstName} (Whim_Baby_Coo)" Value="99093" />
+  <Preset Label="Make Silly Faces at {2.SimFirstName} (Whim_Baby_MakeFaces)" Value="99094" />
+  <Preset Label="Earn {0.Money} in Tips (Whim_PlayForTips_Earn_50)" Value="99142" />
+  <Preset Label="Buy a Postcard Corkboard (Whim_BuyPostcardDisplay)" Value="100078" />
+  <Preset Label="Purchase an Element Display Rack (Whim_BuyElementDisplay)" Value="100092" />
+  <Preset Label="Start a Confident Painting (Whim_Paint_Emo_Confident)" Value="100172" />
+  <Preset Label="Start a Flirty Painting (Whim_Paint_Emo_Flirty)" Value="100174" />
+  <Preset Label="Start a Playful Painting (Whim_Paint_Emo_Playful)" Value="100175" />
+  <Preset Label="Start a Sad Painting (Whim_Paint_Emo_Sad)" Value="100176" />
+  <Preset Label="Start an Angry Painting (Whim_Paint_Emo_Angry)" Value="100177" />
+  <Preset Label="Earn {0.Money} in Royalties Licensing Songs (Whim_SellorLicence_Earn500)" Value="100563" />
+  <Preset Label="Go to Work Feeling Focused (Whim_GoToWork_Astronaut_Focused)" Value="101222" />
+  <Preset Label="Go to Work Feeling Energized (Whim_GoToWork_Astronaut_Energized)" Value="101224" />
+  <Preset Label="Go to Work Feeling Confident (Whim_GoToWork_SecretAgent_Confident_DiamondAgent)" Value="101255" />
+  <Preset Label="Go to Work Feeling Inspired (Whim_GoToWork_Entertainer_Inspired_Music)" Value="101256" />
+  <Preset Label="Go to Work Feeling Focused (Whim_GoToWork_SecretAgent_Focused)" Value="101257" />
+  <Preset Label="Go to Work Feeling Confident (Whim_GoToWork_Criminal_Confident)" Value="101258" />
+  <Preset Label="Grill Hot Dogs (Whim_GrillHotDogs)" Value="102415" />
+  <Preset Label="Grill Hamburgers (Whim_GrillHamburgers)" Value="102417" />
+  <Preset Label="Grill Salmon (Whim_GrillSalmon)" Value="102419" />
+  <Preset Label="Grill Steak (Whim_GrillSteak)" Value="102420" />
+  <Preset Label="Grill Chicken (Whim_GrillChicken)" Value="102423" />
+  <Preset Label="Grill Tofu Dogs (Whim_GrillTofuDogs)" Value="102426" />
+  <Preset Label="Grill Veggie Burgers (Whim_GrillVeggieBurgers)" Value="102427" />
+  <Preset Label="Possess an Object (Whim_Ghosts_Possess_an_Object)" Value="102669" />
+  <Preset Label="Start a Fire (Whim_Ghosts_Start_a_fire)" Value="102679" />
+  <Preset Label="Scare a Sim (Whim_Ghosts_Scare_a_Sim)" Value="102681" />
+  <Preset Label="Break an Object (Whim_Ghosts_Break_Object)" Value="102682" />
+  <Preset Label="Buy a Pool at Least 1x1 (Whim_BuyPool)" Value="103904" />
+  <Preset Label="Buy a Pool Light (Whim_BuyPoolLight)" Value="103907" />
+  <Preset Label="Buy Pool Ladder (Whim_BuyPoolLadder)" Value="103908" />
+  <Preset Label="Go Swimming (Whim_Pool_GoSwimming)" Value="103909" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Astronaut)" Value="105870" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Criminal)" Value="105872" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Culinary)" Value="105873" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Entertainer)" Value="105874" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Painter)" Value="105875" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_SecretAgent)" Value="105876" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_TechGuru)" Value="105877" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Writer)" Value="105878" />
+  <Preset Label="Splash Someone (Whim_Pool_Splash_Someone)" Value="106954" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Athletic)" Value="110183" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Business)" Value="110184" />
+  <Preset Label="Take A Photo (whimGoal_Photography_TakePhoto)" Value="111901" />
+  <Preset Label="Take A Selfie (whimGoal_Photography_TakeSelfie)" Value="111905" />
+  <Preset Label="Take A Photo Of {2.SimFirstName} (WhimRanInteractionTargeted_Photography_PhotoOf)" Value="111907" />
+  <Preset Label="Take A Photo with {2.SimFirstName} (WhimRanInteractionTargeted_Photography_PhotoWith)" Value="112204" />
+  <Preset Label="Make Money from A Photo Studio (whimGoal_SimoleonsEarned_PhotoStudio_EarnMoney)" Value="112205" />
+  <Preset Label="Buy a Cupcake Factory (Whim_BuyCupcakeMachine)" Value="115156" />
+  <Preset Label="Lock a Door (WhimGoal_Teen_LockDoor)" Value="117894" />
+  <Preset Label="Upgrade a Hot Tub with a Stereo (Whim_HotTub_UpgradeStereo)" Value="119756" />
+  <Preset Label="Upgrade a Hot Tub to have Aromatherapy (Whim_HotTub_UpgradeAromatherapy)" Value="119757" />
+  <Preset Label="Upgrade a Hot Tub to be Unbreakable (Whim_HotTub_UpgradeUnbreakable)" Value="119758" />
+  <Preset Label="Hot Tub WooHoo (Whim_WooHooHotTub)" Value="120052" />
+  <Preset Label="Eat FruitCake (Whim_EatFruitCake)" Value="120197" />
+  <Preset Label="Buy a Dishwasher (Whim_BuyDishwasher)" Value="122299" />
+  <Preset Label="Light a Bonfire (whim_LightBonfire)" Value="125662" />
+  <Preset Label="Play with Bonfire (whim_PlayWithBonfire)" Value="125663" />
+  <Preset Label="Dance at Bonfire (whim_DanceWithBonfire)" Value="125669" />
+  <Preset Label="Hang out at a Bonfire (whim_HangOutAtBonfire)" Value="125674" />
+  <Preset Label="Change a Bonfire Color (whim_ChangeColor)" Value="125682" />
+  <Preset Label="Complain about Love Life (Whim_ComplainAbout_lackOf_LoveLife_Jealous)" Value="127093" />
+  <Preset Label="Share Insecurities (Whim_ShareInsecurities_Jealous)" Value="127096" />
+  <Preset Label="Upgrade a Warming Lamp to be Fire Safe (Whim_HeatLamp_UpgradeFireSafe)" Value="131802" />
+  <Preset Label="Enthuse about Thrill of the Steal (Whim_EnthuseAboutStealing_Kleptomaniac)" Value="131921" />
+  <Preset Label="Swipe an Item (Whim_SwipeAnItem_Kleptomaniac)" Value="131922" />
+  <Preset Label="Eat Another Grilled Cheese Sandwich (Whim_MeltMaster_EatGrilledCheese)" Value="132362" />
+  <Preset Label="Evangelize Grilled Cheese (Whim_EvangelizeGrilledCheese_MeltMaster)" Value="132363" />
+  <Preset Label="Cook Grilled Cheese (Whime_MeltMaster_CookGrilledCheese)" Value="132364" />
+  <Preset Label="Summon Grilled Cheese (Whim_SummonGrilledCheese_MeltMaster)" Value="132365" />
+  <Preset Label="Paint Grilled Cheese (Whim_Paint_MeltMaster_GrilledCheese)" Value="132366" />
+  <Preset Label="Harvest a Growfruit (Whim_Harvest_Growfruit)" Value="134535" />
+  <Preset Label="Talk to Monster Under The Bed (Whim_Child_TalkTo_MonsterUnderBed)" Value="136486" />
+  <Preset Label="Play With Monster Under the Bed (Whim_Child_PlayWith_MonsterUnderBed)" Value="136488" />
+  <Preset Label="Complain About Flavorless Meat Substitutes with another Sim (whim_RanInteractionTargeted_Vegetarian_FlavorlessMeatSubstitutes)" Value="146216" />
+  <Preset Label="Enthuse About Vegetarianism with another Sim (whim_RanInteractionTargeted_Vegetarian_EnthuseAboutVegetarianism)" Value="146217" />
+  <Preset Label="Evangelize Vegetarian Benefits with another Sim (whim_RanInteractionTargeted_Vegetarian_EvangelizeVegetarianBenefits)" Value="146218" />
+  <Preset Label="Cook a Vegetarian Meal (whim_CookVegetarianMeal)" Value="146219" />
+  <Preset Label="Listen to Any Radio Station (whim_stereo_ListenToRadioStationChannel_Any)" Value="146306" />
+  <Preset Label="Grill Tofu Dogs or Veggie Burgers (whim_GrillTofuDogOrVeggieBurger)" Value="147982" />
+  <Preset Label="Throw a Tantrum (Whim_Toddlers_ThrowTantrum)" Value="154931" />
+  <Preset Label="Throw a Fit (Whim_Toddlers_ThrowFit)" Value="154932" />
+  <Preset Label="Look at a Book (Whim_Toddlers_ReadBook)" Value="154933" />
+  <Preset Label="Play with Nesting Blocks (Whim_Toddlers_PlayWithBlocks)" Value="154934" />
+  <Preset Label="Play With Toy (Whim_Toddlers_PlayWithToy)" Value="154935" />
+  <Preset Label="Play with Dolls (Whim_Toddlers_PlayWithDolls)" Value="154936" />
+  <Preset Label="Listen to Music (Whim_Toddlers_ListenToMusic)" Value="154937" />
+  <Preset Label="Dance to Music (Whim_Toddlers_DanceToMusic)" Value="154938" />
+  <Preset Label="Smash the Dollhouse (Whim_Toddlers_SmashDollhouse)" Value="154939" />
+  <Preset Label="Go Potty (Whim_Toddlers_UsePotty)" Value="154940" />
+  <Preset Label="Watch TV  (Whim_Toddlers_WatchTV)" Value="154941" />
+  <Preset Label="Take Clothes Off! (Whim_Toddlers_TakeOffClothes)" Value="154942" />
+  <Preset Label="Change Clothes (Whim_Toddlers_ChangeClothes)" Value="154943" />
+  <Preset Label="Talk to a Stuffed Animal (Whim_Toddlers_TalkToStuffedAnimal)" Value="154944" />
+  <Preset Label="Hug Stuffed Animal (Whim_Toddlers_HugStuffedAnimal)" Value="154945" />
+  <Preset Label="Hit Stuffed Animal (Whim_Toddlers_HitStuffedAnimal)" Value="154946" />
+  <Preset Label="Talk to the Mirror (Whim_Toddlers_TalkToMirror)" Value="154947" />
+  <Preset Label="Sleep in a Toddler Bed (Whim_Toddlers_SleepInToddlerBed)" Value="154950" />
+  <Preset Label="Hug {2.SimFirstName} (Whim_Toddlers_Hug)" Value="154958" />
+  <Preset Label="Cry (Whim_Toddlers_Cry)" Value="154959" />
+  <Preset Label="Ask {2.SimFirstName} for Food (Whim_Toddlers_AskForFood)" Value="154960" />
+  <Preset Label="Talk to {2.SimFirstName} (Whim_Toddlers_TalkToParent)" Value="154961" />
+  <Preset Label="Ask to Be Read a Book (Whim_Toddlers_AskToRead)" Value="154962" />
+  <Preset Label="Say Nonsense to {2.SimFirstName} (Whim_Toddlers_SayNonsense)" Value="154963" />
+  <Preset Label="Tell Knock Knock Joke to {2.SimFirstName} (Whim_Toddlers_TellKnockKnockJoke)" Value="154964" />
+  <Preset Label="Ask {2.SimFirstName} for Dessert (Whim_Toddlers_AskForDessert)" Value="154965" />
+  <Preset Label="Tell a Story to {2.SimFirstName} (Whim_Toddlers_TellStory)" Value="154966" />
+  <Preset Label="Ask {2.SimFirstName} for Comfort (Whim_Toddlers_AskForComfort)" Value="154967" />
+  <Preset Label="Yell At {2.SimFirstName} (Whim_Toddlers_YellAt)" Value="154968" />
+  <Preset Label="Ask {2.SimFirstName} for Diaper (Whim_Toddlers_AskForDiaper)" Value="154971" />
+  <Preset Label="Babble to {2.SimFirstName} (Whim_Toddlers_Babble)" Value="154975" />
+  <Preset Label="Talk to a Stranger (Whim_Toddlers_TalkToStranger)" Value="154976" />
+  <Preset Label="Ask {2.SimFirstName} for Help Dancing (Whim_Toddlers_AskForDancing)" Value="154977" />
+  <Preset Label="Talk about Toys with {2.SimFirstName} (Whim_Toddlers_TalkAboutToys)" Value="154984" />
+  <Preset Label="Talk about Favorite Color with {2.SimFirstName} (Whim_Toddlers_TalkAboutColor)" Value="154985" />
+  <Preset Label="Talk about Favorite Animal with {2.SimFirstName} (Whim_Toddlers_TalkAboutAnimal)" Value="154986" />
+  <Preset Label="Talk about Party with {2.SimFirstName} (Whim_Toddlers_TalkAboutParty)" Value="154987" />
+  <Preset Label="Talk about Art with {2.SimFirstName} (Whim_Toddlers_TalkAboutArt)" Value="154989" />
+  <Preset Label="Talk about Day with {2.SimFirstName} (Whim_Toddlers_TalkAboutDay)" Value="154990" />
+  <Preset Label="Talk about Superheroes with {2.SimFirstName} (Whim_Toddlers_TalkAboutSuperheroes)" Value="154991" />
+  <Preset Label="Talk about Dinosaurs with {2.SimFirstName} (Whim_Toddlers_TalkAboutDinos)" Value="154992" />
+  <Preset Label="Talk about Princesses with {2.SimFirstName} (Whim_Toddlers_TalkAboutPrincesses)" Value="154993" />
+  <Preset Label="Watch {2.SimFirstName} (Whim_Toddlers_WatchParent)" Value="155154" />
+  <Preset Label="Ask {2.SimFirstName} to Play (Whim_Toddlers_AskForRoughhousing)" Value="155155" />
+  <Preset Label="Wake Up {2.SimFirstName} (Whim_Toddlers_WakeUpParent)" Value="155157" />
+  <Preset Label="Hit {2.SimFirstName} (Whim_Toddlers_Hit)" Value="155158" />
+  <Preset Label="Run! (Whim_Toddlers_Run)" Value="155159" />
+  <Preset Label="Talk about Day with {2.SimFirstName} (Whim_Toddlers_Caregivers_AskAboutDay)" Value="155163" />
+  <Preset Label="Give {2.SimFirstName} a Bath (Whim_Toddlers_Caregivers_GiveBath)" Value="155164" />
+  <Preset Label="Give {2.SimFirstName} a Bubble Bath (Whim_Toddlers_Caregivers_GiveBubbleBath)" Value="155165" />
+  <Preset Label="Change {2.SimFirstName}'s Diaper (Whim_Toddlers_Caregivers_ChangeDiaper)" Value="155170" />
+  <Preset Label="Read a Toddler Book to {2.SimFirstName} (Whim_Toddlers_Caregivers_ReadBook)" Value="155171" />
+  <Preset Label="Check on {2.SimFirstName} (Whim_Toddlers_Caregivers_CheckOn)" Value="155172" />
+  <Preset Label="Give {2.SimFirstName} a Hug (Whim_Toddlers_Caregivers_Hug)" Value="155173" />
+  <Preset Label="Comfort {2.SimFirstName} (Whim_Toddlers_Caregivers_Comfort)" Value="155174" />
+  <Preset Label="Play with {2.SimFirstName} (Whim_Toddlers_Caregivers_Roughhouse)" Value="155175" />
+  <Preset Label="Show Flash Cards to {2.SimFirstName} (Whim_Toddlers_Caregivers_ShowFlashCards)" Value="155176" />
+  <Preset Label="Talk with {2.SimFirstName} (Whim_Toddlers_Caregivers_Talk)" Value="155177" />
+  <Preset Label="Tell Story to {2.SimFirstName} (Whim_Toddlers_Caregivers_TellStory)" Value="155178" />
+  <Preset Label="Tell Funny Story to {2.SimFirstName} (Whim_Toddlers_Caregivers_TellFunnyStory)" Value="155179" />
+  <Preset Label="Buy a Toddler Bookcase (Whim_BuyToddlerBookcase)" Value="155181" />
+  <Preset Label="Buy a High Chair (Whim_BuyToddlerHighChair)" Value="155182" />
+  <Preset Label="Buy a Potty Chair (Whim_BuyToddlerPottyChair)" Value="155183" />
+  <Preset Label="Buy a Toddler Bed (Whim_BuyToddlerBed)" Value="155184" />
+  <Preset Label="Buy Nesting Blocks (Whim_BuyToddlerNestingBlocks)" Value="155185" />
+  <Preset Label="Buy a Toy Box (Whim_BuyToddlerToybox)" Value="155186" />
+  <Preset Label="Play with Toys with {2.SimFirstName} (Whim_Toddlers_Caregivers_PlayToysWith)" Value="155187" />
+  <Preset Label="Clean High Chair (Whim_Toddlers_Caregivers_CleanHighChair)" Value="155189" />
+  <Preset Label="Clean Potty Chair (Whim_Toddlers_Caregivers_CleanPottyChair)" Value="155190" />
+  <Preset Label="Share the Love with {2.SimFirstName} (Whim_Toddlers_ShareTheLove)" Value="155389" />
+  <Preset Label="Be Friendly with {2.SimFirstName} (Whim_BeFriendlyWith)" Value="155391" />
+  <Preset Label="Tell a Goofy Story to {2.SimFirstName} (Whim_Toddlers_TellGoofyStory)" Value="155392" />
+  <Preset Label="Tell Joke About Chicken Butt to {2.SimFirstName} (Whim_Toddlers_JokeAboutChickenButt)" Value="155393" />
+  <Preset Label="Sit on a Chair (Whim_Toddlers_SitOnChair)" Value="155394" />
+  <Preset Label="Talk to {2.SimFirstName} (whim_Toddlers_TalkToSim)" Value="156333" />
+  <Preset Label="Ask {2.SimFirstName} to Play (whim_Toddlers_AskParentForRoughhousing)" Value="156335" />
+  <Preset Label="Babble to {2.SimFirstName} (whim_Toddlers_BabbleToParent)" Value="156339" />
+  <Preset Label="Talk to {2.SimFirstName} (whim_Toddlers_TalkToHighRelSim)" Value="156340" />
+  <Preset Label="Hug {2.SimFirstName} (whim_Toddlers_HugParent)" Value="156342" />
+  <Preset Label="Hug {2.SimFirstName} (whim_Toddlers_HugHighRelSim)" Value="156344" />
+  <Preset Label="Tell Knock Knock Joke to {2.SimFirstName} (whim_Toddlers_TellKnockKnockJokeToParent)" Value="156356" />
+  <Preset Label="Talk about Favorite Animal with {2.SimFirstName} (whim_Toddlers_TalkAboutAnimalToParent)" Value="156366" />
+  <Preset Label="Talk about Art with {2.SimFirstName} (whim_Toddlers_TalkAboutArtToParent)" Value="156367" />
+  <Preset Label="Talk about Favorite Color with {2.SimFirstName} (whim_Toddlers_TalkAboutColorToParent)" Value="156368" />
+  <Preset Label="Talk about Dinosaurs with {2.SimFirstName} (whim_Toddlers_TalkAboutDinosToParent)" Value="156369" />
+  <Preset Label="Talk about Party with {2.SimFirstName} (whim_Toddlers_TalkAboutPartyToParent)" Value="156371" />
+  <Preset Label="Talk about Princesses with {2.SimFirstName} (whim_Toddlers_TalkAboutPrincessesToParent)" Value="156372" />
+  <Preset Label="Tell a Story to {2.SimFirstName} (whim_Toddlers_TellStoryToParent)" Value="156373" />
+  <Preset Label="Talk about Superheroes with {2.SimFirstName} (whim_Toddlers_TalkAboutSuperheroesToParent)" Value="156374" />
+  <Preset Label="Talk about Toys with {2.SimFirstName} (whim_Toddlers_TalkAboutToysToParent)" Value="156375" />
+  <Preset Label="Ask {2.SimFirstName} Why (whim_Toddlers_AskWhyToParent)" Value="156377" />
+  <Preset Label="Ask {2.SimFirstName} to Show Flash Cards (whim_Toddlers_AskForFlashcardsToParent)" Value="156379" />
+  <Preset Label="Be Friendly with {2.SimFirstName} (whim_BeFriendlyWithCaregiver)" Value="156382" />
+  <Preset Label="Be Funny with {2.SimFirstName} (whim_BeFunnyWithCaregiver)" Value="156383" />
+  <Preset Label="Ask {2.SimFirstName} For Drink (Whim_Toddlers_AskforDrink)" Value="156390" />
+  <Preset Label="Give Food to a Toddler (Whim_Toddlers_Caregivers_GiveFoodToToddler)" Value="156443" />
+  <Preset Label="Give a Drink to a Toddler (Whim_Toddlers_Caregivers_GiveDrinkToToddler)" Value="156444" />
+  <Preset Label="Teach a Toddler to Dance (Whim_Toddlers_Caregivers_TeachToddlerToDance)" Value="156453" />
+  <Preset Label="Read a Toddler to Sleep (Whim_Toddlers_Caregivers_ReadToddlerToSleep)" Value="156454" />
+  <Preset Label="Teach the Nesting Blocks to Toddler (Whim_Toddlers_Caregivers_TeachNestingBlocks)" Value="156455" />
+  <Preset Label="Potty Train a Toddler (Whim_Toddlers_Caregivers_PottyTrainToddler)" Value="156456" />
+  <Preset Label="Play Dolls with a Toddler (Whim_Toddlers_Caregivers_PlayDollsWithToddler)" Value="156457" />
+  <Preset Label="Watch TV with a Toddler (Whim_Toddlers_Caregivers_WatchTVWithToddler)" Value="156458" />
+  <Preset Label="Ask {2.SimFirstName} to Wrestle (whim_Toddlers_AskForWrestle)" Value="156631" />
+  <Preset Label="Ask {2.SimFirstName} to Play (whim_Toddlers_AskParentsForWrestle)" Value="156632" />
+  <Preset Label="Crush Dreams of Toddler (Whim_CrushDreams)" Value="156645" />
+  <Preset Label="Buy a Tablet (Whim_BuyATablet)" Value="156787" />
+  <Preset Label="Teach {2.SimFirstName} to Talk (Whim_Toddlers_Caregivers_TeachToTalk)" Value="156789" />
+  <Preset Label="Snuggle {2.SimFirstName} (Whim_Toddlers_Caregivers_Snuggle)" Value="156790" />
+  <Preset Label="Splash In Toilet (whim_Toddler_PlayInToilet)" Value="156914" />
+  <Preset Label="Play a Tablet Game (Whim_Toddlers_PlayTabletGame)" Value="157517" />
+  <Preset Label="Talk with {2.SimFirstName} (Whim_Toddlers_Talk)" Value="157565" />
+  <Preset Label="Shop at a Cart (foodStall_IntObject_ShopAtStall)" Value="175053" />
+  <Preset Label="Chase a Bird Flock (Whim_ChaseBirdFlock)" Value="177812" />
+  <Preset Label="Scare a Bird Flock (whim_AttackBirdFlock)" Value="178451" />
+  <Preset Label="Buy an Activity Table (whim_BuyActivityTable)" Value="184757" />
+  <Preset Label="Add Impression (Whim_StyleInfluencer_Styleboard_AddImpression)" Value="198565" />
+  <Preset Label="Complete a Style Board with Impressions (whim_StyleInfluencer_Styleboard_CompleteImpression)" Value="198567" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_StyleInfluencer)" Value="199110" />
+  <Preset Label="Interview Sim (whims_Careers_StyleInfluencer_InterviewSim)" Value="199117" />
+  <Preset Label="Write Article or Style Column (whims_Careers_StyleInfluencer_WriteArticle)" Value="199118" />
+  <Preset Label="Submit Article or Publish Column (whims_Careers_StyleInfluencer_SubmitArticle)" Value="199119" />
+  <Preset Label="Fashion Blog (whims_Careers_StyleInfluencer_FashionBlog)" Value="199120" />
+  <Preset Label="Go to Work Inspired (goToWork_StyleInfluencer_Inspired)" Value="199122" />
+  <Preset Label="Gather an Impression (Whim_Career_StyleInfluencer_GatherImpression)" Value="199123" />
+  <Preset Label="Record Style Guide (whims_Careers_StyleInfluencer_RecordStyleGuide)" Value="199124" />
+  <Preset Label="Update Social Media Status (whims_Careers_StyleInfluencer_UpdateSocialMediaStatus)" Value="199125" />
+  <Preset Label="Promote Brand (Whim_Career_StyleInfluencer_PromoteBrand)" Value="199265" />
+  <Preset Label="Find a Crystal (whimActor_CareerScientist_CollectACrystal)" Value="107583" />
+  <Preset Label="Find a Metal (whimActor_CareerScientist_CollectAMetal)" Value="107585" />
+  <Preset Label="Use the SimRay on a Co-worker (whimRanInteraction_CareerScientist_SimRayUse_Coworker)" Value="107593" />
+  <Preset Label="Use the SimRay on a Tourist (whimRanInteraction_CareerScientist_SimRayUse_Civilian)" Value="107595" />
+  <Preset Label="Give a Serum to a Tourist (whimRanInteraction_CareerScientist_GiveSerum_Civilian)" Value="107599" />
+  <Preset Label="Give a Serum to a Co-worker (whimRanInteraction_CareerScientist_GiveSerum_Coworker)" Value="107605" />
+  <Preset Label="Drink a Serum (whimGoal_CareerScientist_DrinkSerum)" Value="107617" />
+  <Preset Label="Become Focused at Work (whimActor_CareerScientist_BecomeFocusedAtWork)" Value="107622" />
+  <Preset Label="Take a Bubble Bath (whimGoal_CareerScientist_BubbleBath)" Value="107623" />
+  <Preset Label="Take a Thoughtful Shower (whimGoal_CareerScientist_ThoughtfulShower)" Value="107624" />
+  <Preset Label="Browse the Web (whimGoal_CareerScientist_BrowseWeb)" Value="107625" />
+  <Preset Label="Browse Simipedia for ideas (whimGoal_CareerScientist_BrowseSimipedia)" Value="107627" />
+  <Preset Label="Tinker with Something (whimGoal_CareerScientist_Tinker)" Value="107628" />
+  <Preset Label="Have a Breakthrough (whimActor_CareerScientist_Breakthrough)" Value="111202" />
+  <Preset Label="Give {2.SimFirstName} a Tainted Serum (WhimRanInteractionTargeted_CareerScientist_GiveTaintedSerum)" Value="111203" />
+  <Preset Label="Give {2.SimFirstName} a Serum (WhimRanInteractionTargeted_CareerScientist_GiveSerum)" Value="111205" />
+  <Preset Label="Contact Aliens with a Satellite Dish (whimGoal_CareerScientist_SatelliteDish_ContactAliens)" Value="111207" />
+  <Preset Label="Detect Aliens with a Satellite Dish (whimGoal_CareerScientist_SatelliteDish_DetectAliens)" Value="111208" />
+  <Preset Label="Brainstorm on an Invention Constructor (whimGoal_CareerScientist_InventionConstructor_Brainstorm)" Value="111209" />
+  <Preset Label="Experiment with a Chemistry Lab (whimGoal_CareerScientist_ChemistryLab_Experiment)" Value="111210" />
+  <Preset Label="Prevent Abductions (whimGoal_CareerScientist_SatelliteDish_PreventAbductions)" Value="111217" />
+  <Preset Label="Hivemind the Neighborhood (whimGoal_CareerScientist_SatelliteDish_NeighborhoodHivemind)" Value="111218" />
+  <Preset Label="Watch a Momentum Conserver (whimGoal_CareerScientist_Orrery_View)" Value="111219" />
+  <Preset Label="Test Alien Environment (whimGoal_CareerScientist_AlienPortal_Test)" Value="111220" />
+  <Preset Label="Travel through the Electroflux Wormhole Generator (whimGoal_CareerScientist_AlienPortal_Travel)" Value="111221" />
+  <Preset Label="Contact an Alien thru the Electroflux Wormhole Generator (whimGoal_CareerScientist_AlienPortal_Contact)" Value="111222" />
+  <Preset Label="Calibrate the Electroflux Wormhole Generator (whimGoal_CareerScientist_AlienPortal_Calibrate)" Value="111223" />
+  <Preset Label="Clone a Sim (whimGoal_CareerScientist_CloningMachine_CloneSim)" Value="111224" />
+  <Preset Label="Clone Food (whimGoal_CareerScientist_CloningMachine_CloneFood)" Value="111225" />
+  <Preset Label="Clone Something (whimGoal_CareerScientist_CloningMachine_CloneSomething)" Value="111226" />
+  <Preset Label="Clone a Fruit or Flower (whimGoal_CareerScientist_CloningMachine_ClonePlant)" Value="111227" />
+  <Preset Label="Treat Sickness Symptoms with Rest (whim_Sickness_Cure_HomeRemedy_Nap)" Value="111511" />
+  <Preset Label="Cure Illness with Medicine (Whim_Sickness_Cure_TakeMedicine)" Value="111512" />
+  <Preset Label="Cure sickness with a Cup of Tea (whim_Sickness_Cure_HomeRemedy_Tea)" Value="111513" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Detective)" Value="114618" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Doctor)" Value="114619" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Scientist)" Value="114620" />
+  <Preset Label="Level up in Baking Skill (Whim_SkillUpBaking)" Value="115147" />
+  <Preset Label="Bake Something (Whim_BakeSomething)" Value="115149" />
+  <Preset Label="Bake Something on the Stove (Whim_BakeSomethingStove)" Value="115152" />
+  <Preset Label="Buy a Warming Rack (Whim_BuyWarmingRack)" Value="115174" />
+  <Preset Label="Decorate Pastries (whimGoal_DecoratePastry)" Value="115177" />
+  <Preset Label="Bake Something in the Cupcake Factory (Whim_BakeSomethingCupcakeMachine)" Value="115178" />
+  <Preset Label="Analyze Something (whimGoal_CareerScientist_ChemicalAnalyzer_AnalyzeSomething)" Value="116007" />
+  <Preset Label="Analyze a Plant (whimGoal_CareerScientist_ChemicalAnalyzer_AnalyzePlant)" Value="116008" />
+  <Preset Label="Practice Analysis (whimGoal_CareerScientist_ChemicalAnalyzer_PracticeAnalysis)" Value="116009" />
+  <Preset Label="Analyze DNA (whimGoal_CareerScientist_ChemicalAnalyzer_AnalyzeDNA)" Value="116010" />
+  <Preset Label="Ask for a DNA Sample (whimRanInteraction_CareerScientist_GetDNA)" Value="116018" />
+  <Preset Label="Practice Mixing (Whim_DJBooth_Practice)" Value="124358" />
+  <Preset Label="Repair broken DJ Booth (Whim_DJBooth_Repair)" Value="124359" />
+  <Preset Label="Upgrade DJ Booth (Whim_DJBooth_Upgrade_Neverbreak)" Value="124360" />
+  <Preset Label="Feel the Crowd (Whim_DJBooth_FeelTheCrowd)" Value="124361" />
+  <Preset Label="Play DJ Music (Whim_DJBooth_PlayGenre)" Value="124362" />
+  <Preset Label="Get Hyped (Whim_DJBooth_GetHyped)" Value="124363" />
+  <Preset Label="Order Food at the Espresso Bar (Whim_EspressoBar_OrderFood)" Value="124382" />
+  <Preset Label="Order a Drink at the Espresso Bar (Whim_EspressoBar_OrderDrink)" Value="124383" />
+  <Preset Label="Watch a DJ performance (Whim_DJBooth_Watch)" Value="124402" />
+  <Preset Label="Dance to DJ Performance (Whim_DJBooth_Dance)" Value="124403" />
+  <Preset Label="Upgrade DJ Booth (whim_DJBooth_Upgrades_Fireproof)" Value="124405" />
+  <Preset Label="Upgrade DJ Booth (whim_DJBooth_Upgrades_VideoScreen)" Value="124406" />
+  <Preset Label="Upgrade DJ Booth (whim_DJBooth_Upgrades_VFXEmitter)" Value="124407" />
+  <Preset Label="Chat with {2.SimFirstName} (Whim_TalkToClubMember)" Value="125296" />
+  <Preset Label="Woohoo in Bush (whim_WoohooInBush)" Value="125366" />
+  <Preset Label="Fertilize a Bush (whim_FertilizeBush)" Value="125367" />
+  <Preset Label="Tell Insider Story (whim_Insider_TellInsiderStory)" Value="125453" />
+  <Preset Label="Woohoo in the Closet (whimGoal_IntObject_Closet_Woohoo)" Value="125507" />
+  <Preset Label="Make out in the Closet (whimGoal_IntObject_Closet_MakeOut)" Value="125508" />
+  <Preset Label="Try New Outfits using the Closet (whimGoal_IntObject_Closet_TryNewOutfit)" Value="125509" />
+  <Preset Label="Cry in Closet (whimGoal_IntObject_Closet_Cry)" Value="125510" />
+  <Preset Label="Play in Closet (whimGoal_IntObject_Closet_Play)" Value="125511" />
+  <Preset Label="Play Foosball (whim_PlayFoosball)" Value="125718" />
+  <Preset Label="Watch a Foosball Game (whim_WatchFoosball)" Value="125719" />
+  <Preset Label="Challenge a Sim to Foosball (whim_ChallengeFoosball)" Value="125732" />
+  <Preset Label="Start a Club Gathering (Whim_StartGathering)" Value="125939" />
+  <Preset Label="Dance to Music at the Club (whim_DanceStereo_AtClub_Travel_DanceMachine)" Value="126246" />
+  <Preset Label="Dance For An Hour (Whim_Trait_DanceMachine_DanceAnHour)" Value="126247" />
+  <Preset Label="Create Custom Mix (Whim_DJBooth_CreateCustomMix)" Value="126423" />
+  <Preset Label="Level up in DJ Mixing (Whim_SkillUpDJMixing)" Value="126448" />
+  <Preset Label="Join a New Club (whim_Insider_JoinNewClub)" Value="126587" />
+  <Preset Label="Join a Club Gathering (whim_Insider_JoinClubGathering)" Value="126589" />
+  <Preset Label="Send a Flirty Text (whimGoal_phone_FlirtyText)" Value="127163" />
+  <Preset Label="Send a Sad Text (whimGoal_phone_SadText)" Value="127164" />
+  <Preset Label="Send a Playful Text (whimGoal_phone_PlayfulText)" Value="127165" />
+  <Preset Label="Send a Happy Text (whimGoal_phone_HappyText)" Value="127166" />
+  <Preset Label="Send an Energized Text (whimGoal_phone_EnergizedText)" Value="127167" />
+  <Preset Label="Send an Angry Text (whimGoal_phone_AngryText)" Value="127168" />
+  <Preset Label="Play an Arcade Game (whim_PlayArcadeGame)" Value="127559" />
+  <Preset Label="Level up in Dancing Skill (Whim_SkillUpDancing)" Value="128194" />
+  <Preset Label="Practice Dancing in a Floor Mirror (Whim_PracticeDancing_floorMirror)" Value="128195" />
+  <Preset Label="Swan Dive Into Pool (whim_JumpStand_SwanDive)" Value="129488" />
+  <Preset Label="Backflip Into Pool (whim_JumpStand_Backflip)" Value="129489" />
+  <Preset Label="Cannonball Into Pool (whim_JumpStand_Cannonball)" Value="129490" />
+  <Preset Label="Set Don't Wake the Llama on Fire (whim_DontWakeLlama_SetOnFire)" Value="129496" />
+  <Preset Label="Challenge Someone to Play Don't Wake the Llama (whim_DontWakeLlama_Challenge)" Value="129497" />
+  <Preset Label="Play Don't Wake the Llama (whim_DontWakeLlama_Play)" Value="129498" />
+  <Preset Label="Dance on a Dance Floor (whim_Dancefloor_Dance)" Value="129751" />
+  <Preset Label="Show-Off Moves on a Dance Floor (whim_Dancefloor_ShowOffMoves)" Value="129752" />
+  <Preset Label="Perform a Group Dance (whim_Dancefloor_GroupDance)" Value="129753" />
+  <Preset Label="Show-Off a successful Back Flip move (whim_Dancefloor_ShowOffMoves_BackflipSuccess)" Value="129754" />
+  <Preset Label="Complete a Dance Battle (whim_Dancefloor_DanceChallenge)" Value="129764" />
+  <Preset Label="Practice Darts (whim_Dartboard_Practice)" Value="129766" />
+  <Preset Label="Play Darts (whim_Dartboard_PlayDarts)" Value="129767" />
+  <Preset Label="Win a Game of Darts (whim_Dartboard_WinGame)" Value="129768" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_SocialMedia)" Value="135654" />
+  <Preset Label="Pick Cause (whimGoal_IntObj_Career_Activist_PickCause)" Value="136432" />
+  <Preset Label="Promote Cause (whimGoal_IntObj_Career_Activist_PromoteCause)" Value="136436" />
+  <Preset Label="Donate to Online Charity (whimGoal_IntObj_Career_Activist_DonateToCause)" Value="136441" />
+  <Preset Label="Check Cause Progress (whimGoal_IntObj_Career_Activist_CheckCauseProgress)" Value="136467" />
+  <Preset Label="Go to Work Feeling Energized (Whim_GoToWork_Activist_Energized)" Value="136482" />
+  <Preset Label="Go to Work Feeling Confident (Whim_GoToWork_Activist_Confident)" Value="136483" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Activist)" Value="136489" />
+  <Preset Label="Collect Donations (whimGoal_IntObj_Career_Activist_CollectDonations)" Value="136495" />
+  <Preset Label="Convince Protesters to Leave (whimGoal_IntObj_Career_Activist_ConvinceProtestersToLeave)" Value="136498" />
+  <Preset Label="Secure Vote (whimGoal_IntObj_Career_Activist_SecureVotes)" Value="136502" />
+  <Preset Label="Ask for Bribe (whimGoal_IntObj_Career_Activist_AskForBribe)" Value="136514" />
+  <Preset Label="Create Social Media Profile (whim_Careers_SocialMedia_StartSocialNetwork)" Value="137182" />
+  <Preset Label="Check-in at Current Venue (whim_Careers_SocialMedia_CheckInAtVenue)" Value="137183" />
+  <Preset Label="Prank Streamers (whim_Careers_SocialMedia_InternetPersonality_PrankStreamers)" Value="137184" />
+  <Preset Label="Start a Funny Meme (whim_Careers_SocialMedia_InternetPersonality_StartFunnyMeme)" Value="137185" />
+  <Preset Label="Livestream a Game (whim_Careers_SocialMedia_InternetPersonality_LivestreamAGame)" Value="137186" />
+  <Preset Label="Advertise (whim_Careers_SocialMedia_InternetPersonality_Advertise)" Value="137187" />
+  <Preset Label="Share Joke with Followers (whim_Careers_SocialMedia_InternetPersonality_ShareJokeWithFollowers)" Value="137188" />
+  <Preset Label="Share Image (whim_Careers_SocialMedia_UploadImage_ShareImage)" Value="137190" />
+  <Preset Label="Respond to Mail (whim_Careers_SocialMedia_RespondToMail)" Value="137191" />
+  <Preset Label="Update Social Network Status (whim_Careers_SocialMedia_UpdateSocialNetwork_UpdateStatus)" Value="137192" />
+  <Preset Label="Check Total Followers (whim_Careers_SocialMedia_CheckTotalFollowers)" Value="137193" />
+  <Preset Label="Network with Journalists Online (whim_Careers_SocialMedia_PublicRelations_NetworkWithJournalists_Online)" Value="137195" />
+  <Preset Label="Blog for Followers (whim_Careers_SocialMedia_PublicRelations_BlogForFollowers)" Value="137196" />
+  <Preset Label="Record Rant (whim_Careers_SocialMedia_InternetPersonality_RecordRant)" Value="137198" />
+  <Preset Label="Upload a Viral Video (whim_Careers_SocialMedia_InternetPersonality_UploadViralVideo)" Value="137199" />
+  <Preset Label="Promote Image (whim_Careers_SocialMedia_PromoteImage)" Value="137200" />
+  <Preset Label="Broadcast Status (whim_Careers_SocialMedia_BroadcastStatus)" Value="137201" />
+  <Preset Label="Go to Work Feeling Playful (whim_Careers_SocialMedia_GoToWork_Playful_Main)" Value="137235" />
+  <Preset Label="Go to Work Feeling Focused (whim_Careers_SocialMedia_GoToWork_Focused_PR)" Value="137236" />
+  <Preset Label="Earn 100 Online Followers (whim_Careers_SocialMedia_InternetPersonality_EarnFollowers_100)" Value="137250" />
+  <Preset Label="Earn 1,000 Online Followers (whim_Careers_SocialMedia_InternetPersonality_EarnFollowers_1000)" Value="137251" />
+  <Preset Label="Represent a Friend (whim_Careers_SocialMedia_PublicRelations_RepresentFriend)" Value="137254" />
+  <Preset Label="Make Friends with a Journalist (whim_Careers_SocialMedia_PublicRelations_MakeFriendWithJournalist)" Value="137292" />
+  <Preset Label="Be Friendly with a Journalist (whim_Careers_SocialMedia_PublicRelations_BeFriendlyWithJournalist)" Value="137301" />
+  <Preset Label="Network with a Journalist (whim_Careers_SocialMedia_PublicRelations_NetworkWithJournalist_Sim)" Value="137315" />
+  <Preset Label="Persuade a Sim to Sing (whim_Careers_SocialMedia_PublicRelations_PersuadeToSing)" Value="137316" />
+  <Preset Label="Persuade a Sim to Smile (whim_Careers_SocialMedia_PublicRelations_PersuadeToSmile)" Value="137317" />
+  <Preset Label="Give Speech At Podium (whim_Podium_GiveSpeechAtPodium_PublicRelations)" Value="137321" />
+  <Preset Label="Stream a Let's Play (whim_Careers_SocialMedia_InternetPersonality_StreamLetsPlay)" Value="137342" />
+  <Preset Label="Live Stream for Charity (whim_Careers_SocialMedia_InternetPersonality_CharityStream)" Value="137355" />
+  <Preset Label="Earn 100 Online Followers (whim_Careers_SocialMedia_PublicRelations_EarnFollowers_100)" Value="137413" />
+  <Preset Label="Write Column (whim_Careers_Critic_Main_WriteColumn)" Value="138252" />
+  <Preset Label="Write Column about Festival (whim_Careers_Critic_Main_WriteColumn_Festival)" Value="138253" />
+  <Preset Label="Respond to Mail (whim_Careers_Critic_Main_RespondToMail)" Value="138254" />
+  <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_Critic)" Value="138260" />
+  <Preset Label="Review Food (whim_Careers_Critic_Food_ReviewFood)" Value="138279" />
+  <Preset Label="Review Drink (whim_Careers_Critic_Food_ReviewDrink)" Value="138280" />
+  <Preset Label="Review a Performance (whim_Careers_Critic_Arts_ReviewPerformance)" Value="138286" />
+  <Preset Label="Study Art (whim_Careers_Critic_Arts_StudyArt)" Value="138287" />
+  <Preset Label="Level up in Gourmet Cooking Skill  (Whim_SkillUpGourmetCooking)" Value="138466" />
+  <Preset Label="Skill up in Music or Comedy (Whim_SkillUpMusicOrComedy)" Value="138541" />
+  <Preset Label="Collect a New Poster (whim_CollectNew_CityLife_Poster)" Value="138585" />
+  <Preset Label="Collect a New Snow Globe (whim_CollectNew_CityLife_SnowGlobe)" Value="138586" />
+  <Preset Label="Recommend a Local Hangout (whim_Careers_Critic_RecommendLocalHangout)" Value="139200" />
+  <Preset Label="Go To Work Feeling Inspired (whim_Careers_Critic_GoToWork_Inspired)" Value="139202" />
+  <Preset Label="Travel to Spice Market (Whim_TravelToFoodDistrict)" Value="139209" />
+  <Preset Label="Travel to the Arts Quarter (Whim_TravelToArtsQuarter)" Value="139210" />
+  <Preset Label="Play Guitar and Sing (Whim_SingPlayGuitar)" Value="140107" />
+  <Preset Label="Play Piano and Sing (Whim_SingPlayPiano)" Value="140108" />
+  <Preset Label="Sing Karaoke (Whim_SingKaraoke)" Value="140109" />
+  <Preset Label="Sing in the Shower (Whim_SingInShower)" Value="140110" />
+  <Preset Label="Serenade another Sim (Whim_SingSerenade)" Value="140111" />
+  <Preset Label="Become Friend with Apartment Neighbor (Whim_Rel_ApartmentNeighbor_makeFriend)" Value="140907" />
+  <Preset Label="Become Enemies with an Apartment Neighbor (Whim_Rel_ApartmentNeighbor_makeEnemy)" Value="140908" />
+  <Preset Label="Give Apartment Key (Whim_Rel_ApartmentNeighbor_giveKey)" Value="140917" />
+  <Preset Label="Make Friends With The Landlord (whim_ApartmentProblems_MakeFriendsWithLandlord)" Value="142031" />
+  <Preset Label="Complain About Apartment Problem (Whim_ApartmentProblems_ComplainAboutProblem)" Value="142033" />
+  <Preset Label="Do Some Cooking (Whim_CookingSomething_LotTrait_ChefsKitchen)" Value="142089" />
+  <Preset Label="Get Creative (Whim_CreativeSI_LotTrait_HomeStudio)" Value="142090" />
+  <Preset Label="Enjoy the Apartment's View (Whim_WindowLook_LotTrait_GreatView)" Value="142091" />
+  <Preset Label="Try for a Baby (Whim_TryForBaby_LotTrait_OnLeyLine)" Value="142092" />
+  <Preset Label="Throw a Party (Whim_ThrowParty_LotTraits_GreatAtmopshere)" Value="142093" />
+  <Preset Label="Protest for Cause in Spice Market (whimGoal_IntObj_Career_Activist_ProtestInDistrict_SpiceMarket)" Value="142211" />
+  <Preset Label="Protest for Cause in Fashion District (whimGoal_IntObj_Career_Activist_ProtestInDistrict_FashionDistrict)" Value="142212" />
+  <Preset Label="Protest for Cause in Arts Quarter (whimGoal_IntObj_Career_Activist_ProtestInDistrict_ArtsQuarter)" Value="142213" />
+  <Preset Label="Protest for Cause at Myshuno Meadows (whimGoal_IntObj_Career_Activist_ProtestInDistrict_CentralPark)" Value="142214" />
+  <Preset Label="Protest for Cause in Uptown (whimGoal_IntObj_Career_Activist_ProtestInDistrict_Uptown)" Value="142215" />
+  <Preset Label="Buy Podium (whimGoal_BuildBuy_Career_Activist_BuyPodium)" Value="142231" />
+  <Preset Label="Practice Speech (whim_Podium_PracticeSpeechAtPodium)" Value="142233" />
+  <Preset Label="Debate Politics (whimGoal_IntObj_Career_Activist_EndorsePolitics)" Value="142234" />
+  <Preset Label="Listen to S-Pop Radio Station (Whim_stereo_ListenToRadioStationChannel_SPop)" Value="142258" />
+  <Preset Label="Listen to World Radio Station (Whim_stereo_ListenToRadioStationChannel_CulturalWorld)" Value="142259" />
+  <Preset Label="Listen to Talk Radio Station (Whim_stereo_ListenToRadioStationChannel_TalkRadio)" Value="142260" />
+  <Preset Label="Watch Civic Public Access (Whim_tv_ListenToTelevisionStationChannel_PublicAccess)" Value="142261" />
+  <Preset Label="Watch World Culture Network (Whim_tv_ListenToTelevisionStationChannel_WorldCulture)" Value="142262" />
+  <Preset Label="Get out in the City (Whim_Elevator_GoDownstairs)" Value="142730" />
+  <Preset Label="Drink Sakura Tea (Whim_Festival_Blossom_DrinkSakuraTea)" Value="142974" />
+  <Preset Label="Throw Petals (Whim_Festival_Blossom_ThrowPetals)" Value="142975" />
+  <Preset Label="View Flowers (Whim_Festival_Blossom_ViewFlowers)" Value="142976" />
+  <Preset Label="Buy and Wear Romance Festival T-Shirt (Whim_Festival_Blossom_WearBlossomTShirt)" Value="142977" />
+  <Preset Label="Paint a Painting (Whim_Festival_BlossomPaint)" Value="142996" />
+  <Preset Label="Buy Flea Market Object (Whim_Festival_FleaMarket_BuyObject)" Value="142998" />
+  <Preset Label="Haggle with Flea Market Vendors (Whim_Festival_FleaMarket_Haggle)" Value="142999" />
+  <Preset Label="Sample Some Food (Whim_Festival_Food_Sample)" Value="143000" />
+  <Preset Label="Harvest produce (Whim_Festival_Food_Harvest)" Value="143001" />
+  <Preset Label="Grill Food (Whim_Festival_Food_Grill)" Value="143002" />
+  <Preset Label="Blow Bubbles (Whim_Festival_Food_BlowBubbles)" Value="143003" />
+  <Preset Label="Ask about local cuisine (Whim_Festival_Food_AskAboutLocalCuisine)" Value="143005" />
+  <Preset Label="Order a Drink (Whim_Festival_Food_OrderDrink)" Value="143006" />
+  <Preset Label="Light a Firework (Whim_Festival_Lamp_LightFirework)" Value="143007" />
+  <Preset Label="Drink Dark Tea (Whim_Festival_Lamp_DrinkDarkTea)" Value="143008" />
+  <Preset Label="Drink Light Tea (Whim_Festival_Lamp_DrinkLightTea)" Value="143009" />
+  <Preset Label="Buy a Voodoo Doll (Whim_Festival_Lamp_BuyVoodooDoll)" Value="143010" />
+  <Preset Label="Program on a Computer (Whim_Festival_Logic_Program)" Value="143011" />
+  <Preset Label="Play Games on a Computer (Whim_Festival_Logic_PlayGames_Computer)" Value="143012" />
+  <Preset Label="Play Games on a Motion Gaming Mat (Whim_Festival_Logic_PlayGames_MotionGaming)" Value="143013" />
+  <Preset Label="Work on a Rocketship (Whim_Festival_Logic_RocketshipBuild)" Value="143014" />
+  <Preset Label="Use the Bubble Blower (Whim_BubbleBlower_Use)" Value="143226" />
+  <Preset Label="Change the Bubble Blower Flavor (Whim_BubbleBlower_changeCartridge)" Value="143228" />
+  <Preset Label="Get Familiar with the Bubble Blower (Whim_BubbleBlower_objectFamiliarity_Med)" Value="143229" />
+  <Preset Label="Buy a Bubble Blower (Whim_Apartment_buildBuy_purchaseBubbleBlower)" Value="144966" />
+  <Preset Label="Buy a Talking Toilet (Whim_Apartment_buildBuy_purchaseTalkingToilet)" Value="144967" />
+  <Preset Label="Enter a Game Tournament on the Video Game Console (Whim_VideoGameConsole_EnterGameTournament)" Value="145479" />
+  <Preset Label="Play Video Games on a Gaming Console (Whim_videoGameConsole_PlayConsoleVideoGames)" Value="145480" />
+  <Preset Label="Play Density Effect (Whim_videoGameConsole_PlayRPG)" Value="145481" />
+  <Preset Label="Play Video Games on a Gaming Console (Whim_videoGameConsole_PlayPlatformer)" Value="145482" />
+  <Preset Label="Play MySims Racing Game (Whim_videoGameConsole_PlayRacing)" Value="145483" />
+  <Preset Label="Play Party Frenzy (Whim_videoGameConsole_PlayParty)" Value="145484" />
+  <Preset Label="Give a Flirty Sim the Cold Shoulder (whim_RanInteractionTargeted_Unflirty_GiveColdShoulder)" Value="146212" />
+  <Preset Label="Reprimand Public Intimacy (whim_RanInteractionTargeted_Unflirty_ReprimandPublicIntimacy)" Value="146213" />
+  <Preset Label="Buy a Basketball Hoop (whim_BuyBasketballHoop)" Value="147667" />
+  <Preset Label="Start a Dunk Challenge (whim_Basketball_ChallengeDunks)" Value="147675" />
+  <Preset Label="Play Basketball (whim_Basketball_Play)" Value="147676" />
+  <Preset Label="Start A Hoops Challenge (whim_Basketball_ChallengeHoops)" Value="147677" />
+  <Preset Label="Paint a Mural (Whim_Paint_Mural)" Value="148028" />
+  <Preset Label="Sing a Karaoke Solo Song (whim_KaraokeMachine_SingSolo)" Value="148674" />
+  <Preset Label="Sing a Karaoke Duet (whim_KaraokeMachine_SingDuet)" Value="148675" />
+  <Preset Label="Watch a Karaoke Performance (whim_KaraokeMachine_Watch)" Value="148677" />
+  <Preset Label="Attempt Spicy Curry Challenge (Whim_Festival_Food_CurryContest)" Value="148679" />
+  <Preset Label="Promote Cause to 2 Sims (whimGoal_IntObj_Career_Activist_PromoteCause2)" Value="148959" />
+  <Preset Label="Buy a Video Game Console (Whim_BuyVideoGameConsole)" Value="149533" />
+  <Preset Label="Go to Work Feeling Playful (whim_Careers_SocialMedia_GoToWork_Playful_IP)" Value="151026" />
+  <Preset Label="Make a Friend (whim_Careers_SocialMedia_PublicRelations_MakeFriend)" Value="151070" />
+  <Preset Label="Ask a Sim About Day (whim_RanInteractionTargeted_Unflirty_AskAboutDay)" Value="151212" />
+  <Preset Label="Restore a Mural (Whim_Restore_Mural)" Value="154314" />
+  <Preset Label="View a Mural (Whim_artLover_ViewMural)" Value="154624" />
+  <Preset Label="Win a Multiplayer Game on the Video Game Console (Whim_videoGameConsole_WinMultiplayerGameBuff)" Value="155874" />
+  <Preset Label="Give Speech At Podium (whim_Podium_GiveSpeechAtPodium_Activist)" Value="156305" />
+  <Preset Label="Buy a Litter Box (Whim_BuyLitterBox)" Value="159322" />
+  <Preset Label="Buy a High-Tech Litter Box (Whim_BuyLitterBox_HighEnd)" Value="159323" />
+  <Preset Label="Meet a Cat (whim_Pets_MeetACat)" Value="159945" />
+  <Preset Label="Meet a Dog (whim_Pets_MeetADog)" Value="159946" />
+  <Preset Label="Adopt a Cat (whim_Pets_Computer_AdoptACat)" Value="159947" />
+  <Preset Label="Adopt a Dog (whim_Pets_Computer_AdoptADog)" Value="159948" />
+  <Preset Label="Pet a Cat (whim_RanInteractionTargeted_CatLover_PetACat)" Value="159949" />
+  <Preset Label="Play With a Cat (whim_RanInteractionTargeted_CatLover_PlayWithACat)" Value="159950" />
+  <Preset Label="Pet a Dog (whim_RanInteractionTargeted_DogLover_PetADog)" Value="159951" />
+  <Preset Label="Play with a Dog (whim_RanInteractionTargeted_DogLover_PlayWithADog)" Value="159952" />
+  <Preset Label="Buy a Pet Toy Box (Whim_BuyPetToyBox)" Value="163447" />
+  <Preset Label="Use your Laser Pointer with {2.SimFirstName} (whim_Pets_Cat_Laserpointer)" Value="164016" />
+  <Preset Label="Buy a Cat Condo (Whim_BuyCatCondo)" Value="164321" />
+  <Preset Label="Buy a Scratching Post (Whim_ScratchingPost)" Value="164338" />
+  <Preset Label="Buy a Pet Bed (Whim_BuyPetBed)" Value="166890" />
+  <Preset Label="Buy an Automatic Pet Feeder (whim_BuyAutoPetFeeder)" Value="166891" />
+  <Preset Label="Buy a Pet Food Bowl (whimGoal_BuyPetBowl)" Value="168031" />
+  <Preset Label="Clean up a Hair Pile! (Whim_Pets_HairPile_CleanUp)" Value="168821" />
+  <Preset Label="Buy Surgery Station (Whim_BuySurgeryStation)" Value="170154" />
+  <Preset Label="Treat Pet (Whim_TreatPet)" Value="170170" />
+  <Preset Label="Buy a Pet Ball (Whim_BuyToyBallPet_Ball)" Value="170291" />
+  <Preset Label="Buy Squeaky Toy (whim_BuyToyBallPet_Squeaky)" Value="170444" />
+  <Preset Label="Play Fetch (whim_ToyBallPet_Fetch)" Value="170445" />
+  <Preset Label="Use your Cat Wand with {2.SimFirstName} (whim_Pets_Cat_PlayCatWand)" Value="173330" />
+  <Preset Label="Buy a Cat Wand (Whim_BuyCatWand)" Value="173331" />
+  <Preset Label="Browse the Vending Machine (Whim_browse_VetVendingMachine)" Value="176358" />
+  <Preset Label="Cook Pet Food (whimGoal_PetRecipes_Homestyle)" Value="178346" />
+  <Preset Label="Cook Gourmet Pet Food (whimGoal_PetRecipes_Gourmet)" Value="178347" />
+  <Preset Label="Take Dog on a Walk (whim_Dog_TakeForWalk)" Value="178494" />
+  <Preset Label="Go Ice Skating (whim_skatingRink_GoSkating_Ice)" Value="180150" />
+  <Preset Label="Go Roller Skating (whim_skatingRink_GoSkating_Roller)" Value="180151" />
+  <Preset Label="Perform a Successful Skating Routine (whim_skatingRink_PerformSkatingRoutine)" Value="180152" />
+  <Preset Label="Have a Snowball Fight (whimGoal_IntObject_Seasonal_Throwing_Snowball)" Value="181554" />
+  <Preset Label="Have a Mud Fight (whimGoal_IntObject_Seasonal_Throwing_Mud)" Value="181838" />
+  <Preset Label="Have a Water Balloon Fight (whimGoal_IntObject_Seasonal_Throwing_WaterBalloon)" Value="181839" />
+  <Preset Label="Open a Present (whim_PresentPile_OpenPresent)" Value="182034" />
+  <Preset Label="Sneak a Present (whim_PresentPile_SneakPresent)" Value="182035" />
+  <Preset Label="Prank a Present (whim_PresentPile_PrankPresent)" Value="182036" />
+  <Preset Label="Build a Snowpal (whim_Snow_BuildSnowPal)" Value="182978" />
+  <Preset Label="Make a Snow Angel (whim_Snow_BuildSnowAngel)" Value="182979" />
+  <Preset Label="Give a Gift (whim_GiveGift_Friendly)" Value="183152" />
+  <Preset Label="Give Bro Gift (whim_GiveGift_Bro)" Value="183153" />
+  <Preset Label="Give Funny Gift (whim_GiveGift_Funny)" Value="183154" />
+  <Preset Label="Give Mean Gift (whim_GiveGift_Mean)" Value="183155" />
+  <Preset Label="Give Romantic Gift (whim_GiveGift_RomanceGift)" Value="183156" />
+  <Preset Label="Build a Snowpal with Another Sim (whim_BuildSnowPal_Group)" Value="185581" />
+  <Preset Label="Make Holiday Crafts (Whim_Child_Draw_Holiday)" Value="185724" />
+  <Preset Label="Make Seasonal Craft (Whim_Child_Draw_Season)" Value="185725" />
+  <Preset Label="Buy a Sprinkler (whim_BuySprinkler)" Value="185999" />
+  <Preset Label="Rake Leaves (Whim_LeafPile_Rake)" Value="186302" />
+  <Preset Label="Play in Leaf Pile (Whim_LeafPile_PlayIn)" Value="186303" />
+  <Preset Label="Weed 3 Plants (Whim_Gardener_WeedXPlants)" Value="186434" />
+  <Preset Label="Blog about Gardening Tips  (Whim_Gardener_Blog)" Value="186436" />
+  <Preset Label="Evolve a Plant (Whim_Botanist_Plant_Evolve)" Value="186437" />
+  <Preset Label="Milk a Cowplant (Whim_Botanist_Cowplant_Milk)" Value="186438" />
+  <Preset Label="Post Phytological Breakthrough (Whim_Botanist_Post_Breathkthrough)" Value="186439" />
+  <Preset Label="Enthuse about Flora Design  (Whim_Florist_Enthuse)" Value="186440" />
+  <Preset Label="Find Flora Design Clientele (Whim_Florist_FindClients)" Value="186441" />
+  <Preset Label="Buy a Bee Box (whim_BuyBeeBox)" Value="186492" />
+  <Preset Label="Bond with Bees (Whim_BeeBox_Bond)" Value="186494" />
+  <Preset Label="Collect Honey (Whim_BeeBox_CollectHoney)" Value="186495" />
+  <Preset Label="Make a Flower Arrangement (whim_flowerArrangingSkill_MakeFlowerArrangement)" Value="186739" />
+  <Preset Label="Gift Flower Arrangement (whim_flowerArrangingSkill_GiftFlowerArrangement)" Value="186740" />
+  <Preset Label="Gift a Masterpiece Flower Arrangement (whim_flowerArrangingSkill_GiftMasterpieceArrangement)" Value="186741" />
+  <Preset Label="Scent a Masterpiece Flower Arrangement (whim_flowerArrangingSkill_ScentMasterpieceFlowerArrangement)" Value="186742" />
+  <Preset Label="Buy a Thermostat (Whim_BuyThermostat)" Value="187686" />
+  <Preset Label="Enthuse About Gardening with Others (Whim_Gardener_EnthuseAboutGardening)" Value="188220" />
+  <Preset Label="Enthuse About Flora Design With Others (Whim_Florist_EnthuseAboutFloraDesign)" Value="188228" />
+  <Preset Label="Go On Nature Walk (Whim_Gardener_GoOnNatureWalk)" Value="188421" />
+  <Preset Label="Prank a Present (whim_PresentPile_PrankPresent_Playful)" Value="189469" />
+  <Preset Label="Buy a Scarecrow (Whim_BuyScarecrow)" Value="190201" />
+  <Preset Label="Befriend Scarecrow (Whim_BefriendScarecrow)" Value="190202" />
+  <Preset Label="Buy an Umbrella Stand (whimGoal_BuildBuy_Umbrella)" Value="190625" />
+  <Preset Label="Buy a Kiddie Pool (whimGoal_BuildBuy_KiddiePool)" Value="190626" />
+  <Preset Label="Play in the Rain (whimGoal_PlayinRain)" Value="190627" />
+  <Preset Label="Lounge in a Kiddie Pool (whimGoal_KiddiePool_Lounge)" Value="190634" />
+  <Preset Label="Play in a Kiddie Pool (whimGoal_KiddiePool_Play)" Value="190635" />
+  <Preset Label="Get Struck by Lightning (whimGoal_StruckByLightning)" Value="190636" />
+  <Preset Label="Play in Mud Puddle (whimGoal_PlayInMudPuddle)" Value="190750" />
+  <Preset Label="Decorate Home With a Flower Arrangement (Whim_Florist_PlaceFlowerArrangement_X1)" Value="191255" />
+  <Preset Label="Decorate Home with 2 Flower Arrangements (Whim_Florist_PlaceFlowerArrangement_X2)" Value="191256" />
+  <Preset Label="Decorate Home With 3 Flower Arrangements (Whim_Florist_PlaceFlowerArrangement_X3)" Value="191257" />
+  <Preset Label="Try to introduce yourself to {2.SimFirstName} (celebrityFan_TrytoGreet)" Value="193478" />
+  <Preset Label="Try to get a Selfie with {2.SimFirstName} (celebrityFan_Selfie)" Value="193479" />
+  <Preset Label="Try to get {2.SimFirstName}'s Autograph (celebrityFan_Autograph)" Value="193480" />
+  <Preset Label="Produce New Track (whimGoal_MusicProductionStation_ProduceNewTrack)" Value="195614" />
+  <Preset Label="Release a Track (whimGoal_MusicProductionStation_ReleaseTrack)" Value="195615" />
+  <Preset Label="Buy Luminary's Exotic Water Garden (whimGoal_BuyDenizenPond)" Value="197540" />
+  <Preset Label="Play with a Water Garden Denizen (whimGoal_DenizenPond_PlayWith)" Value="197544" />
+  <Preset Label="Perform any Acting Scene (whim_ActingSkill_PerformScene)" Value="197818" />
+  <Preset Label="Practice Acting (whim_ActingSkill_PracticeActing)" Value="197830" />
+  <Preset Label="Travel to a Public Venue (Whim_MakeAnAppearance)" Value="198062" />
+  <Preset Label="Stream with the Drone (whim_StreamingDrone_StreamWithDrone)" Value="198627" />
+  <Preset Label="Record a Video with the Drone (whim_StreamingDrone_RecordVideoWithDrone)" Value="198628" />
+  <Preset Label="Fish for Compliments (whim_SelfAbsorbed_FishForCompliments)" Value="199995" />
+  <Preset Label="Incite Cheers (whim_SelfAbsorbed_InciteACheer)" Value="199999" />
+  <Preset Label="Learn New Lines (whimGoal_DramaClub_LearnNewLines)" Value="200541" />
+  <Preset Label="Practice Acting (whimGoal_DramaClub_PracticeActing)" Value="200542" />
+  <Preset Label="Walk Starlight Boulevard (Whim_WalkCelebrityTiles)" Value="201025" />
+  <Preset Label="#TakeASelfie (whim_SelfAbsorbed_Selfie)" Value="201044" />
+  <Preset Label="Sign an Autograph (whim_SelfAbsorbed_Autograph)" Value="201045" />
+  <Preset Label="Record a New Video (whimGoal_IntObject_VideoStation_RecordNewVideo)" Value="201159" />
+  <Preset Label="Edit a Video (whimGoal_IntObject_VideoStation_EditVideo)" Value="201160" />
+  <Preset Label="Upload a Video (whimGoal_IntObject_VideoStation_UploadVideo)" Value="201161" />
+  <Preset Label="Make a Group Meal (goal_KavaParty_CookGroupMeal)" Value="211582" />
+  <Preset Label="Grill Baked Potatoes (Whim_GrillBakedPotatoes)" Value="102474" />
+  <Preset Label="Prepare Grilled Fruit (Whim_GrillFruit)" Value="102475" />
+  <Preset Label="Grill Shish Kebabs (Whim_GrillShishKebabs)" Value="102476" />
+  <Preset Label="Prepare Breakfast Scramble (Whim_PrepareBreakfastScramble)" Value="102477" />
+  <Preset Label="Prepare Camper's Stew (Whim_PrepareCampersStew)" Value="102478" />
+  <Preset Label="Prepare Fried Fish (Whim_PrepareFriedFish)" Value="102479" />
+  <Preset Label="Prepare Gumbo (Whim_PrepareGumbo)" Value="102480" />
+  <Preset Label="Prepare Walleye Surprise (Whim_PrepareWalleyeSurprise)" Value="102482" />
+  <Preset Label="Prepare Franks and Beans (Whim_PrepareFranksAndBeans)" Value="102483" />
+  <Preset Label="Prepare Fruit Cobbler (Whim_PrepareFruitCobbler)" Value="102484" />
+  <Preset Label="Take Deep Breaths (Whim_TakeDeepBreaths)" Value="102731" />
+  <Preset Label="Collect a New Insect (Whim_CollectNew_Insect)" Value="102956" />
+  <Preset Label="Tell Story to Self (WhimTellStoryToSelf)" Value="103298" />
+  <Preset Label="Light a Campfire (Whim_LightACampfire)" Value="104508" />
+  <Preset Label="Play with Campfire (Whim_PlayWithCampfire)" Value="104512" />
+  <Preset Label="Play Guitar around the Campfire (Whim_PlayGuitarCampfire)" Value="104513" />
+  <Preset Label="Play Violin around the Campfire (Whim_PlayViolinCampfire)" Value="104514" />
+  <Preset Label="Harvest Unidentified Plant (Whim_Herbalist_HarvestWildPlant)" Value="105171" />
+  <Preset Label="Identify Wild Plant (Whim_Herbalist_IdentifyWildPlant)" Value="105172" />
+  <Preset Label="Use an Herbal Remedy (Whim_Herbalist_UseHerbalismPotion)" Value="105175" />
+  <Preset Label="Eat a Wild Plant (Whim_Herbalist_EatWildPlant)" Value="105176" />
+  <Preset Label="Level up in Herbalism Skill (Whim_SkillUpHerbalism)" Value="105177" />
+  <Preset Label="Perform WooHoo in a Tent (Whim_Tent_WooHoo)" Value="105266" />
+  <Preset Label="Play in the Tent (Whim_Tent_Play)" Value="105267" />
+  <Preset Label="Use Fireleaf Extract (Whim_Herbalist_UseExilirOfBurning)" Value="105328" />
+  <Preset Label="Roast Marshmallows (Whim_RoastMarshmallows)" Value="105521" />
+  <Preset Label="Roast Hot Dogs over a Campfire (Whim_RoastHotDogs)" Value="105525" />
+  <Preset Label="Tell a Group Story (Whim_TellGroupStory)" Value="105572" />
+  <Preset Label="Roast Fish over a Campfire (Whim_RoastFish)" Value="105664" />
+  <Preset Label="Roast Beetles over a Campfire (Whim_RoastBeetles)" Value="105665" />
+  <Preset Label="Brew an Herbal Remedy (Whim_Herbalism_BrewPotion)" Value="105944" />
+  <Preset Label="Play a Game of Horseshoes (Whim_PlayHorseShoes)" Value="106046" />
+  <Preset Label="Practice HorseShoes (Whim_PracticeHorseShoes)" Value="106050" />
+  <Preset Label="Win a Game of Horseshoes (Whim_WinHorseShoes)" Value="106053" />
+  <Preset Label="Stargaze with {2.SimName} (Whim_Friendship_AskToStargaze)" Value="107708" />
+  <Preset Label="Cloudgaze with {2.SimName} (Whim_Friendship_AskToCloudgaze)" Value="107709" />
+  <Preset Label="Share Astronomy Knowledge with {2.SimName} (Whim_Friendship_ShareAstronomyKnowledge)" Value="107710" />
+  <Preset Label="Craft a Camping Mascot (Whim_CraftCampingMascot)" Value="107909" />
+  <Preset Label="Craft a Garden Pot (Whim_CraftGardenPot)" Value="107910" />
+  <Preset Label="Craft a Garden Planter (Whim_GardenPlanter)" Value="107911" />
+  <Preset Label="Craft a Wall Shelf (Whim_CraftWallShelf)" Value="107912" />
+  <Preset Label="Craft a Mirror (Whim_CraftMirror)" Value="107913" />
+  <Preset Label="Craft a Wall Hanging (Whim_CraftWallHanging)" Value="107914" />
+  <Preset Label="Paint a Landscape Painting (Whim_PaintLandscape)" Value="108359" />
+  <Preset Label="Go on Vacation to Granite Falls (Whim_GoOnVacation_GraniteFalls)" Value="110481" />
+  <Preset Label="Buy a Yoga Mat (whim_BuyYogaMat)" Value="117452" />
+  <Preset Label="Do a Yoga Routine (Whim_DoYogaRoutine)" Value="117472" />
+  <Preset Label="Buy a Massage Table (whim_BuyMassageTable)" Value="117708" />
+  <Preset Label="Level Up in Wellness Skill (Whim_SkillUpWellness)" Value="118648" />
+  <Preset Label="Prepare Superfood Salad (Whim_PrepareQuinoaSalad)" Value="118789" />
+  <Preset Label="Prepare Sugar-free Carob Coconut Cake (Whim_PrepareCarobCake)" Value="118790" />
+  <Preset Label="Share Detox Secrets with {2.SimFirstName} (Whim_ShareDetoxSecretsWith)" Value="118791" />
+  <Preset Label="Offer Mental Relaxation Tips to {2.SimFirstName} (Whim_OfferMentalRelaxationTipsWith)" Value="118792" />
+  <Preset Label="Discuss Cognitive Focusing Methods with {2.SimFirstName} (Whim_DiscussCognitiveFocusingMethodsWith)" Value="118794" />
+  <Preset Label="Suggest Visualization Techniques to {2.SimFirstName} (Whim_SuggestVisualizationTechniquesWith)" Value="118795" />
+  <Preset Label="Recommend Self Esteem Exercises to {2.SimFirstName} (Whim_RecommendSelfEsteemExercisesWith)" Value="118798" />
+  <Preset Label="Hire a Massage Therapist (Whim_HireMassageTherapist)" Value="119082" />
+  <Preset Label="Give a Massage (Whim_GiveAMassage)" Value="119084" />
+  <Preset Label="Ask for a Massage (Whim_AskForAMassage)" Value="119085" />
+  <Preset Label="Get a Massage from a Massage Therapist (Whim_GetAMassage)" Value="119194" />
+  <Preset Label="Buy some Incense (Whim_BuyIncense)" Value="119377" />
+  <Preset Label="Light some Incense (Whim_LightIncense)" Value="119379" />
+  <Preset Label="Buy a Meditation Stool (Whim_BuyMeditationStool)" Value="119399" />
+  <Preset Label="Meditate on the Meditation Stool (Whim_Meditate)" Value="119400" />
+  <Preset Label="Get a Hand Massage (Whim_GetHandMassage)" Value="120006" />
+  <Preset Label="Get a Foot Massage (Whim_GetFootMassage)" Value="120007" />
+  <Preset Label="Relax in a Sauna (Whim_SteamRoom_Relax)" Value="120203" />
+  <Preset Label="Take a Mud Bath (Whim_TakeMudBath)" Value="120513" />
+  <Preset Label="Take a Bath with a Soak (Whim_TakeBathWithSoak)" Value="120514" />
+  <Preset Label="Drink Lemon Honey Ginger Detox Tea (Whim_DrinkLemonHoneyGingerTea)" Value="120537" />
+  <Preset Label="Sauna WooHoo (Whim_SteamRoom_WooHoo)" Value="120550" />
+  <Preset Label="Have a Fizzy Fruity Drink (whim_HaveFizzyDrink)" Value="121109" />
+  <Preset Label="Whim_ComplimentChef" Value="131259" />
+  <Preset Label="Whim_InsultChef" Value="131260" />
+  <Preset Label="Whim_PlaceOrderWithChef" Value="131261" />
+  <Preset Label="Drink a Glass of Nectar (whim_DrinkGlassOfNectar)" Value="132159" />
+  <Preset Label="Prepare Butternut Squash Soup (cooking_PrepareButternutSquashSoup)" Value="133075" />
+  <Preset Label="Prepare Fruit Salad (cooking_PrepareFruitSalad)" Value="133076" />
+  <Preset Label="Prepare Eggs Benedict (cooking_PrepareEggsBenedict)" Value="133077" />
+  <Preset Label="Prepare Tiramisu (cooking_PrepareTiramisu)" Value="133078" />
+  <Preset Label="Prepare Minestrone (cooking_PrepareMinestrone)" Value="133079" />
+  <Preset Label="Prepare Italian Meatballs (cooking_PrepareItalianMeatballs)" Value="133080" />
+  <Preset Label="Prepare Caesar Salad (cooking_PrepareCaesarSalad)" Value="133081" />
+  <Preset Label="Prepare Clam Chowder (cooking_PrepareClamChowder)" Value="133082" />
+  <Preset Label="Take a Photo of Experimental Food (whim_TakePhotoOfExperimentalFood)" Value="133372" />
+  <Preset Label="Buy a Chef Station (whim_BuyChefStation)" Value="135251" />
+  <Preset Label="Cook an Experimental Meal (Whim_CookExperimentalMeal)" Value="135252" />
+  <Preset Label="Eat and Learn an Experimental Meal (Whim_EatAndLearnExperimentalFood)" Value="135253" />
+  <Preset Label="Draw on Placemat (whim_DrawPlacemat)" Value="140093" />
+  <Preset Label="Draw on Placemat (whim_DrawPlacemat_Child)" Value="140102" />
+  <Preset Label="License Pipe Organ Song (Whim_LicensePipeOrganSong)" Value="151443" />
+  <Preset Label="Play the Pipe Organ (Whim_PlayPipeOrgan)" Value="151444" />
+  <Preset Label="Write Pipe Organ Song (Whim_WritePipeOrganSong)" Value="151445" />
+  <Preset Label="Play the Pipe Organ while Inspired (pipeOrgan_PlayPipeOrgan_Inspired)" Value="151446" />
+  <Preset Label="Pipe Organ Skill Up (Whim_SkillUpPipeOrgan)" Value="151447" />
+  <Preset Label="Play Haunting Music (pipeOrgan_PlayHauntingMusic)" Value="151760" />
+  <Preset Label="Try Plasma Fruit (Whim_PlasmaFruit_Drink)" Value="153499" />
+  <Preset Label="Drink Plasma Pack (Whim_PlasmaPack_Drink)" Value="153500" />
+  <Preset Label="Search For Vampire Information on a Computer (Whim_Vampires_SearchForInformationOnVampires)" Value="154169" />
+  <Preset Label="Find A Vampire Mentor (Whim_Vampires_FindMentor)" Value="154174" />
+  <Preset Label="Plant a Plasma Fruit (Whim_Vampires_PlantPlasmaFruit)" Value="154178" />
+  <Preset Label="Meet Another Vampire (Whim_Vampires_MeetVampire)" Value="154180" />
+  <Preset Label="Turn {2.SimName} Into a Vampire (Whim_Vampires_TurnTargetSim)" Value="154182" />
+  <Preset Label="Drink From {2.SimName} (Whim_Vampires_DrinkFromTargetSim)" Value="154184" />
+  <Preset Label="Ask To Drink From {2.SimName} (Whim_Vampires_AskToDrinkFromTargetSim)" Value="154185" />
+  <Preset Label="Go For a Flight (Whim_Vampires_GoForFlight)" Value="154188" />
+  <Preset Label="Gain Vampire Rank (Whim_Vampires_RankUp)" Value="154195" />
+  <Preset Label="Read Vampire Book (Whim_Vampires_ReadBook_VampireLore)" Value="154196" />
+  <Preset Label="Discover a Vampire Cure (Whim_Vampires_DiscoverVampireCure)" Value="154197" />
+  <Preset Label="Create Garlic Braid (Whim_Vampires_CreateGarlicBraid)" Value="154198" />
+  <Preset Label="Ask {2.SimName} To Turn You Into a Vampire (Whim_Vampires_AskTargetToTurn)" Value="154202" />
+  <Preset Label="Have a Cry (whim_EmotionalMeltdowns_Cry)" Value="160249" />
+  <Preset Label="Throw Tantrum (whim_EmotionalMeltdowns_Tantrum)" Value="160250" />
+  <Preset Label="Offer Gratitude to the Host (Whim_OfferGratitudeToHost)" Value="160895" />
+  <Preset Label="Share a Sim's Emotional Burden (Whim_Compassionate_ShareEmotionalBurden)" Value="160926" />
+  <Preset Label="Calm a Sim's Emotions (Whim_Compassionate_CalmEmotions)" Value="160927" />
+  <Preset Label="Instigate a Sim (Whim_Unfeeling_RileUp)" Value="160973" />
+  <Preset Label="Question a Sim's Emotions (Whim_Unfeeling_QuestionEmotion)" Value="160974" />
+  <Preset Label="Write in a Journal (Whim_WriteInJournal)" Value="161406" />
+  <Preset Label="Volunteer with Family (Whim_VolunteerWithFamily)" Value="161635" />
+  <Preset Label="Shout Forbidden Words (Whim_BadManners_Swear)" Value="161790" />
+  <Preset Label="Be Gross (Whim_BadManners_BeGross)" Value="161791" />
+  <Preset Label="Tease {2.SimFirstName} (Whim_SiblingRivalry_Tease)" Value="161801" />
+  <Preset Label="Flick {2.SimFirstName}'s Nose (Whim_SiblingRivalry_FlickNose)" Value="161802" />
+  <Preset Label="Play with the Doctor Playset (Whim_DoctorPlayset_Play)" Value="162317" />
+  <Preset Label="Mediate the Forums (Whim_MediateForums)" Value="163146" />
+  <Preset Label="Start Argument (Whim_StartArgument)" Value="163147" />
+  <Preset Label="Assert Correctness (Whim_AssertCorrectness)" Value="163148" />
+  <Preset Label="Sincere Apology (Whim_SincereApology)" Value="163149" />
+  <Preset Label="Mend Differences (Whim_MendDifferences)" Value="163150" />
+  <Preset Label="Leave a Note for Someone (Whim_FamilyBulletinBoard_AddNote)" Value="163167" />
+  <Preset Label="Leave a Drawing for Someone (Whim_FamilyBulletinBoard_MakeDrawing)" Value="163168" />
+  <Preset Label="Troll Web Forums (Whim_TrollWebForums_Argumentative)" Value="163268" />
+  <Preset Label="Teach Responsibility (whim_Responsible_TeachAboutResponsibility)" Value="163586" />
+  <Preset Label="Ignore Bills (whim_Irresponsible_IgnoreBills)" Value="163676" />
+  <Preset Label="Have a Cry (whim_EmotionalMeltdowns_Cry_Adult)" Value="163991" />
+  <Preset Label="Throw Tantrum (whim_EmotionalMeltdowns_Tantrum_Adult)" Value="163993" />
+  <Preset Label="Listen to Loud Music (whim_Stereo_TeenMoodSwing_LoudMusic)" Value="163997" />
+  <Preset Label="Influence {2.SimFirstName} (Whim_ParentingSkill_InfluenceTo)" Value="164170" />
+  <Preset Label="Encourage {2.SimFirstName} (Whim_ParentingSkill_Encourage)" Value="164171" />
+  <Preset Label="Gain Parenting Skill (Whim_SkillUpParenting)" Value="164172" />
+  <Preset Label="Mock {2.SimFirstName}'s Mood (Whim_Unfeeling_MockMood)" Value="164774" />
+  <Preset Label="Scoff at {2.SimFirstName}'s Mood (Whim_Unfeeling_ScoffMood)" Value="164775" />
+  <Preset Label="Make a Sack Lunch (whim_MakeSackLunch)" Value="165123" />
+  <Preset Label="Buy a Night Light (whim_BuyNightlight)" Value="165429" />
+  <Preset Label="Build with Buildems Blocks (Whim_BlockConstructionTable_Build)" Value="165790" />
+  <Preset Label="Buy a Buildems Blocks Play Table (Whim_BlockConstructionTable_BuyTable)" Value="165791" />
+  <Preset Label="Fuse together a Mystical Relic (whim_MysticalRelic_Fuse)" Value="176202" />
+  <Preset Label="Activate a Mystical Relic (whim_MysticalRelic_Activate)" Value="176203" />
+  <Preset Label="Authenticate an Artifact (whim_ArchaeologySkill_AuthenticateArtifact)" Value="176279" />
+  <Preset Label="Uncover an Artifact (whim_ArchaeologySkill_UncoverArtifact)" Value="176280" />
+  <Preset Label="Extract an Element (whim_ArchaeologySkill_ExtractElement)" Value="176281" />
+  <Preset Label="Analyze a Collectible (whim_ArchaeologySkill_AnalyzeCollectible)" Value="176284" />
+  <Preset Label="Write an Archaeology Book (whim_ArchaeologySkill_WriteArchaeologyBook)" Value="176288" />
+  <Preset Label="Refine a Crystal (whim_ArchaeologySkill_RefineCrystal)" Value="176294" />
+  <Preset Label="Study an Object for Historical Insights (whim_ArchaeologySkill_StudyForHistoricalInsight)" Value="176304" />
+  <Preset Label="Give an Archaeology Lecture at the Museum (whim_ArchaeologySkill_GiveLectureAtMuseum)" Value="176305" />
+  <Preset Label="Excavate in the Jungle (whim_ArchaeologySkill_DigExcavationPile)" Value="178014" />
+  <Preset Label="Find a Dig Pile (whim_ArchaeologySkill_SurveyExcavationPile)" Value="178015" />
+  <Preset Label="Establish an Excavation Site (whim_ArchaeologySkill_EstablishExcavationSite)" Value="178016" />
+  <Preset Label="Dispel Curse of the Food Mirage (whim_DispelCurse_SeeingThings)" Value="178032" />
+  <Preset Label="Dispel Curse of the Personal Rain Cloud (whim_DispelCurse_PersonalRainCloud)" Value="178034" />
+  <Preset Label="Dispel Curse of the Ancients (whim_DispelCurse_AncientSickness)" Value="178035" />
+  <Preset Label="Dispel a Curse of Greedy Needs (whim_DispelCurse_GreedyNeeds)" Value="178036" />
+  <Preset Label="Dispel Marked For Death (whim_DispelCurse_MarkedForDeath)" Value="178037" />
+  <Preset Label="Acquire a Machete (whim_AcquireAdventureGear_Machete)" Value="178241" />
+  <Preset Label="Acquire Fire Foam (whim_AcquireAdventureGear_FireFoam)" Value="178274" />
+  <Preset Label="Acquire Waterfall in a Bottle (whim_AcquireAdventureGear_SanitationSpary)" Value="178275" />
+  <Preset Label="Acquire Plasma Bat Bait (whim_AcquireAdventureGear_FlyBag)" Value="178276" />
+  <Preset Label="Acquire a Guzmania Pollenis Flower (whim_AcquireAdventureGear_JungleFlower)" Value="178277" />
+  <Preset Label="Acquire Drake's Fire Quencher (whim_AcquireAdventureGear_FireFlyMister)" Value="178278" />
+  <Preset Label="Acquire Lightning Insulation Powder (whim_AcquireAdventureGear_SafetyPowder)" Value="178279" />
+  <Preset Label="Acquire Dr. Parker's Spider Repellent (whim_AcquireAdventureGear_SpiderSpray)" Value="178280" />
+  <Preset Label="Ask about the Jungle (whims_LocalCultureSkill_AskAboutJungle)" Value="178362" />
+  <Preset Label="Ask about the Omiscan Ruins (whims_LocalCultureSkill_AskAboutRuins)" Value="178363" />
+  <Preset Label="Chat about Selvadoradian Culture (whims_LocalCultureSkill_ChatAboutCulture)" Value="178364" />
+  <Preset Label="Show Pictures of Jungle  (whims_LocalCultureSkill_ShowPictures)" Value="178365" />
+  <Preset Label="Tell an Omiscan Folk Tale (whims_LocalCultureSkill_TellFolkTale)" Value="178366" />
+  <Preset Label="Dance the Rumbasim (whims_LocalCultureSkill_SoloLatinDance)" Value="178367" />
+  <Preset Label="Acquire a Grilled Cheese Ready to Eat (whim_AcquireAdventureGear_FoodPacket)" Value="183003" />
+  <Preset Label="Acquire a Liquid Rush (whim_AcquireAdventureGear_LiquidRush)" Value="183004" />
+  <Preset Label="Acquire a Faraday Fizz (whim_AcquireAdventureGear_ZapAway)" Value="183005" />
+  <Preset Label="Eat a Selvadoradian Meal (whim_EatLocalFood)" Value="183251" />
+  <Preset Label="Buy a Banquet Table (whimGoal_BuyBanquetTable)" Value="117077" />
+  <Preset Label="Buy a Drink Fountain (whimGoal_BuyBanquetFountain)" Value="117078" />
+  <Preset Label="Buy a Hot Tub (Whim_BuyHotTub)" Value="120074" />
+  <Preset Label="Buy an Ice Cream Machine (Whim_BuyIceCreamMachine)" Value="121341" />
+  <Preset Label="Craft an Ice Cream (Whim_CookIceCream)" Value="121347" />
+  <Preset Label="Buy a Pumpkin Carving Station (whimGoal_BuyCarvingStation)" Value="126544" />
+  <Preset Label="Carve a Pumpkin (Whim_CraftPumpkin)" Value="126545" />
+  <Preset Label="Buy Popcorn Popper (whimGoal_BuyPopcornPopper)" Value="129144" />
+  <Preset Label="Eat Popcorn (whimGoal_EatPopcorn)" Value="129149" />
+  <Preset Label="Watch a Movie (whimGoal_WatchMovie)" Value="129150" />
+  <Preset Label="Make a Wish (whimGoal_MakeAWish)" Value="132251" />
+  <Preset Label="Play In Park Fountain (Whim_PlayInFountain)" Value="132260" />
+  <Preset Label="Add Soap to Park Fountain (Whim_AddSoapToFountain)" Value="132261" />
+  <Preset Label="Buy a Puppet Theater (Whim_BuyPuppetTheater)" Value="134036" />
+  <Preset Label="Perform a Puppet Show (Whim_PerformPuppetShow)" Value="134039" />
+  <Preset Label="Buy a Voidcritter Booster Pack (Whim_BuyBattleMonster)" Value="134449" />
+  <Preset Label="Battle a Friend (Whim_BattelStation_BattleAFriend)" Value="136869" />
+  <Preset Label="Find a Voidcritter (Whim_FindAMonster)" Value="136872" />
+  <Preset Label="Watch Puppet Show (Whim_WatchPuppetShow)" Value="156903" />
+  <Preset Label="Perform Trick Slides (slippySlide_performTricks)" Value="140824" />
+  <Preset Label="Pour a Drink from the Globe Bar (Whim_PourSelfDrink)" Value="145082" />
+  <Preset Label="Study Globe (Whim_StudyGlobe)" Value="145083" />
+  <Preset Label="Ponder World Domination (Whim_PonderWorldDomination)" Value="145084" />
+  <Preset Label="Play With Makeup (Whim_PlayWithMakeUp)" Value="145497" />
+  <Preset Label="Give Butler An Order (Whim_Butler_GiveOrder)" Value="150150" />
+  <Preset Label="Reprimand Butler (Whim_Butler_Reprimand)" Value="150151" />
+  <Preset Label="Praise Butler (Whim_Butler_Praise)" Value="150152" />
+  <Preset Label="Go Bowling (Whim_bowlingLane_GoBowling)" Value="161274" />
+  <Preset Label="Buy a Ball Pit (whim_BuyBallPit)" Value="170869" />
+  <Preset Label="Help a Toddler Climb (toddler_JungleGym_intObj_SlideClimber_HelpClimb)" Value="172800" />
+  <Preset Label="Help a Toddler Slide (toddler_JungleGym_intObj_SlideClimber_SlideCatch)" Value="172801" />
+  <Preset Label="Buy a Toddler Slide (whim_Buy_SlideClimber)" Value="173003" />
+  <Preset Label="Buy a Toddler Tunnel (whim_Buy_Tunnel)" Value="173004" />
+  <Preset Label="Buy a Toddler Jungle Gym (whim_Buy_JungleGymFull)" Value="173005" />
+  <Preset Label="Take Clothing to Hamper (Whim_Laundry_Hamper_FillHamper)" Value="177505" />
+  <Preset Label="Upgrade a Washing Machine (Whim_laundry_intobj_Upgrade_WashingMachine)" Value="177509" />
+  <Preset Label="Upgrade a Dryer (Whim_laundry_intobj_Upgrade_Dryer)" Value="177510" />
+  <Preset Label="Wash Laundry in the Washing Machine (Whim_Laundry_WashingMachine_DoLaundry)" Value="177511" />
+  <Preset Label="Buy a Washing Machine (Whim_Laundry_Buy_WashingMachine)" Value="177521" />
+  <Preset Label="Buy a Dryer (Whim_Laundry_Buy_Dryer)" Value="177522" />
+  <Preset Label="Wash Laundry in a Wash Tub (Whim_Laundry_WashTub_WashClothes)" Value="177523" />
+  <Preset Label="Buy a Wash Tub (Whim_Laundry_Buy_WashTub)" Value="177524" />
+  <Preset Label="Hang Laundry on the Clothesline (Whim_Laundry_ClothesLine_Use_X_Amount)" Value="177525" />
+  <Preset Label="Dry Laundry in the Dryer (Whim_Laundry_Dryer_DryClothes)" Value="177528" />
+  <Preset Label="Take Clothing Pile to Hamper (Whim_Laundry_ClothesPile_PutIn_Hamper)" Value="177530" />
+  <Preset Label="Feed a Rodent (petMinorCage_IntObject_Feed_Rodent)" Value="184206" />
+  <Preset Label="Clean a Rodent Cage (petMinorCage_IntObject_Clean_Cage)" Value="184207" />
+  <Preset Label="Play With a Rodent (petMinorCage_IntObject_Play_WIth)" Value="184208" />
+</PresetGroup>

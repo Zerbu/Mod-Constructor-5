@@ -42,6 +42,10 @@ namespace Constructor5.TestConditionTypes.Situations
                 var tunableVariant1 = tupleTunable.Set<TunableVariant>("level", "enabled");
                 AutoTuneThresholdTuple.TuneThresholdTuple(tunableVariant1, Level, "enabled");
             }
+            else
+            {
+                tupleTunable.Set<TunableEnum>("test_event", "SituationStarted");
+            }
         }
     }
 }

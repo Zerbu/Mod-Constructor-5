@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions SP08">
+  <Preset Label="Pour Drinks (object_BackyardDrinkTray_Restock)" Value="140060" />
+  <Preset Label="Empty Tray (object_BackyardDrinkTray_Empty)" Value="140061" />
+  <Preset Label="Mix Citrus Swig (object_BackyardDrinkTray_Mix_CitrusFizz)" Value="140062" />
+  <Preset Label="Mix Iced Tea (object_BackyardDrinkTray_Mix_IceTea)" Value="140063" />
+  <Preset Label="Mix Lemonade (object_BackyardDrinkTray_Mix_Lemonade)" Value="140064" />
+  <Preset Label="Add Bird Seed (object_BirdFeeder_Fill)" Value="140071" />
+  <Preset Label="Watch Birds (object_BirdFeeder_View)" Value="140072" />
+  <Preset Label="Watch Sliders (object_SlippySlide_Watch)" Value="140322" />
+  <Preset Label="Slide (object_SlippySlide_Slide)" Value="140329" />
+  <Preset Label="Trick Slide (object_SlippySlide_TrickSlide)" Value="140330" />
+  <Preset Label="object_SlippySlide_Immediate_SlideContinuation" Value="140335" />
+  <Preset Label="object_SlippySlide_Immediate_TrickSlideContinuation" Value="140336" />
+  <Preset Label="High Pitch (object_WindChime_Immediate_ChangeOctave_High)" Value="140480" />
+  <Preset Label="Low Pitch (object_WindChime_Immediate_ChangeOctave_Low)" Value="140481" />
+  <Preset Label="Medium Pitch (object_WindChime_Immediate_ChangeOctave_Natural)" Value="140482" />
+  <Preset Label="Add Soap (object_SlippySlide_AddSoap)" Value="140518" />
+  <Preset Label="Grab Drink (object_BackyardDrinkTray_TakeDrink)" Value="140774" />
+  <Preset Label="React to Slide (reaction_Mixers_SlippySlide_Cheer)" Value="141098" />
+  <Preset Label="React to Slide (reaction_Mixers_SlippySlide_Shocked)" Value="141100" />
+  <Preset Label="Set to Empty (BirdFeeder_SetToEmpty)" Value="141917" />
+  <Preset Label="Set to Spoiled (backyardDrinkTray_Cheats_SetToSpoil)" Value="141921" />
+  <Preset Label="Slide (object_SlippySlide_Immediate_BeginSlide)" Value="141953" />
+  <Preset Label="Trick Slide (object_SlippySlide_Immediate_BeginTrickSlide)" Value="141954" />
+  <Preset Label="Waiting to Slide (si_WaitInLine_SlippySlide)" Value="142591" />
+  <Preset Label="Slide With (slippySlide_InviteToSlide)" Tags="TestUnsafe" Value="142749" />
+  <Preset Label="Trick Slide With (slippySlide_InvitetoTrickSlide)" Tags="TestUnsafe" Value="142750" />
+  <Preset Label="Trick Slide (object_slippySlide_TrickSlide_Child)" Value="143395" />
+  <Preset Label="Turn On (object_WindChime_Immediate_Active_On)" Value="143750" />
+  <Preset Label="Turn Off (object_WindChime_Immediate_Active_Off)" Value="143751" />
+  <Preset Label="Force Bird Attack (Debug) (object_BirdFeeder_FillFail_Cheat)" Value="143782" />
+  <Preset Label="object_SlippySlide_EndingWatch" Value="143963" />
+</PresetGroup>

@@ -1,3 +1,4 @@
+using Constructor5.Base;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.LocalizationSystem;
@@ -19,6 +20,7 @@ namespace Constructor5.UI.Dialogs.AddElement
             InitializeComponent();
             Hooks.RegisterClass(this);
             RefreshElements();
+            ShowAllCheckBox.IsChecked = ProgramSettings.ShowAllSettingEnabled;
         }
 
         private void RefreshElements()
@@ -50,6 +52,10 @@ namespace Constructor5.UI.Dialogs.AddElement
             UserHasChangedElementName = false;
         }
 
-        private void ShowAllCheckBox_Checked(object sender, RoutedEventArgs e) => RefreshElements();
+        private void ShowAllCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            RefreshElements();
+            ProgramSettings.ShowAllSettingEnabled = ShowAllCheckBox.IsChecked == true;
+        }
     }
 }

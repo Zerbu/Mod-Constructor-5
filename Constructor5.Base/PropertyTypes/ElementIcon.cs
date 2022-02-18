@@ -26,7 +26,9 @@ namespace Constructor5.Base.Icons
 
         public string GetUncommentedText() => CommentUtility.StripComment(Text);
 
+#pragma warning disable CS0067
         public event PropertyChangedEventHandler PropertyChanged;
+#pragma warning restore CS0067
 
         string ITunableValueObject.GetTunableValue() => GetUncommentedText();
     }

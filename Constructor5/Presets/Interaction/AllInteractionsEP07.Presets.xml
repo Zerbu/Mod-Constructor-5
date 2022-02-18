@@ -1,0 +1,634 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP07">
+  <Preset Label="Call Over Dolphin (si_DolphinPod_CallOver)" Value="198794" />
+  <Preset Label="Play with {1.ObjectName} (si_Dolphin_Interact)" Value="198795" />
+  <Preset Label="Pet (mixer_Dolphin_Pet_autonmous)" Value="198797" />
+  <Preset Label="Create Dolphin Spawner (debug_Dolphin_CreateDolphin)" Value="198809" />
+  <Preset Label="mixer_Dolphin_Idle" Value="199515" />
+  <Preset Label="Ride (generic_WaterScooter)" Value="199823" />
+  <Preset Label="Ride Around on {1.ObjectName} (waypoint_WaterScooter_RideAround)" Value="200016" />
+  <Preset Label="Ride Here (terrain-WaterScooter)" Value="201294" />
+  <Preset Label="Feed {1.ObjectName} (mixer_Dolphin_Feed)" Value="202219" />
+  <Preset Label="Comb Beach for Seashells (terrain-gohere_Beachcombing_Seashells)" Value="203869" />
+  <Preset Label="Dig (si_Beachcombing_Dig_Human_Seashells)" Value="203882" />
+  <Preset Label="Dismiss (mixer_Dolphin_Dismiss)" Value="204032" />
+  <Preset Label="Prepare Kava (kavaBowl_StartCrafting)" Value="204720" />
+  <Preset Label="Starting Stage (islandConservation_Immediate_Cheats_Stage_Starting)" Value="204783" />
+  <Preset Label="Intermediate Stage (islandConservation_Immediate_Cheats_Stage_Intermediate)" Value="204789" />
+  <Preset Label="Final Stage (islandConservation_Immediate_Cheats_Stage_Final)" Value="204790" />
+  <Preset Label="kavaBowl_DumpIntoBowl" Value="204862" />
+  <Preset Label="Snorkel (waypoint_Snorkeling)" Value="204868" />
+  <Preset Label="Search (si_Beachcombing_ConstrainToNewLocation)" Value="204880" />
+  <Preset Label="Exit {1.ObjectName} (waterScooter_Exit)" Value="204897" />
+  <Preset Label="Snorkel Together (simPicker_Diving_SnorkelTogether)" Tags="TestUnsafe" Value="204898" />
+  <Preset Label="Free Dive Around Here (OceanDiving_Freediving)" Value="204909" />
+  <Preset Label="kavaBowl_CreateKava" Value="204922" />
+  <Preset Label="Grab a Drink (kavaBowl_GrabKava)" Value="204947" />
+  <Preset Label="Go to Work (si_Career_Conservationist)" Value="204961" />
+  <Preset Label="Cook Feast (pitBBQ_StartCrafting)" Value="204971" />
+  <Preset Label="pitBBQ_StartCooking" Value="204977" />
+  <Preset Label="pitBBQ_CreateFood" Value="204978" />
+  <Preset Label="Grab Meal (pitBBQ_GrabFood)" Value="204980" />
+  <Preset Label="Ride Around on {1.ObjectName} (waypoint_WaterScooter_RideAroundFromObject)" Value="205038" />
+  <Preset Label="Change Station (stereo_PickChannel_WaterScooter)" Value="205058" />
+  <Preset Label="Turn Off (stereo_turnoff_WaterScooter)" Value="205111" />
+  <Preset Label="Listen to Alternative (stereo_listen_alt_WaterScooter)" Value="205121" />
+  <Preset Label="Spread Conservation Awareness (socials_Targeted_Friendly_Conservationist_SpreadConservationAwareness)" Tags="TestUnsafe" Value="205138" />
+  <Preset Label="Research Conservation (computer_Career_Conservationist_ResearchConservation)" Value="205170" />
+  <Preset Label="Listen to Blues (stereo_listen_blues_WaterScooter)" Value="205184" />
+  <Preset Label="Listen to Classical (stereo_listen_classical_WaterScooter)" Value="205185" />
+  <Preset Label="Listen to Electronica (stereo_listen_electro_WaterScooter)" Value="205186" />
+  <Preset Label="Listen to Kids Radio (stereo_listen_kidsRadio_WaterScooter)" Value="205187" />
+  <Preset Label="Listen to Lullabies (stereo_listen_Lullabies_WaterScooter)" Value="205188" />
+  <Preset Label="Listen to Pop (stereo_listen_pop_WaterScooter)" Value="205189" />
+  <Preset Label="Listen to Retro (stereo_listen_retro_WaterScooter)" Value="205190" />
+  <Preset Label="Listen to Romantic Music (stereo_listen_romanc_WaterScooter)" Value="205191" />
+  <Preset Label="Listen to Spooky (stereo_listen_spooky_WaterScooter)" Value="205192" />
+  <Preset Label="Listen to Winter Holiday (stereo_listen_WinterHoliday_WaterScooter)" Value="205193" />
+  <Preset Label="Take Sample (si_Career_Conservationist_TakeSample_FromObject)" Value="205255" />
+  <Preset Label="Take Sample from Ocean (terrain-gohere_TakeSample)" Value="205262" />
+  <Preset Label="Take Sample (si_Career_Conservationist_TakeSample_FromTerrain)" Value="205267" />
+  <Preset Label="Enthuse about Conservation (socials_Targeted_Friendly_Conservationist_EnthuseAboutConservation)" Tags="TestUnsafe" Value="205277" />
+  <Preset Label="Spray Invasive Species (si_Career_Conservationist_SprayInvasiveSpecies)" Value="205280" />
+  <Preset Label="Turn into Mermaid (occultDebugInteractions_Mermaid)" Value="205395" />
+  <Preset Label="idle_buff_Conservationist_MakingADifference" Value="205450" />
+  <Preset Label="View Baby Turtles (islandConservation_TurtleHatching_WatchBabyTurtles)" Value="205459" />
+  <Preset Label="Cheer On Baby Turtles (islandConservation_TurtleHatching_CheerForBabyTurtles)" Value="205460" />
+  <Preset Label="idle_buff_IslandEvents_CheerForBabyTurtles_React" Value="205474" />
+  <Preset Label="Write Conservation Article (computer_Career_Conservationist_WriteConservationArticle)" Value="205703" />
+  <Preset Label="Submit Grant Application (immediate_Career_Conservationist_SubmitGrantApplication)" Value="205719" />
+  <Preset Label="Incorporate Research Data (immediate_Career_Conservationist_IncorporateResearchData)" Value="205743" />
+  <Preset Label="Shoot Nature Documentary (ConservationistCareer_RabbitHole_ShootNatureDocumentary)" Value="205745" />
+  <Preset Label="Inspiring Berceuse (mermaid_Socials_Lullaby_Inspiring)" Value="205806" />
+  <Preset Label="Charmer's Lullaby (mermaid_Socials_Lullaby_Charmer)" Value="205807" />
+  <Preset Label="Aegean's Question (mermaid_Socials_Lullaby_Question)" Value="205808" />
+  <Preset Label="Night's Requiem (mermaid_Socials_Lullaby_Requiem)" Value="205809" />
+  <Preset Label="Siren's Call (mermaid_SirensCall)" Value="205811" />
+  <Preset Label="Call Rainstorm (mermaid_CallStorm_Rain)" Value="205812" />
+  <Preset Label="Summon Ocean Threat (mermaid_SummonOceanThreat)" Value="205813" />
+  <Preset Label="Aquatic Lure (mermaid_AquaticLure)" Value="205818" />
+  <Preset Label="Ask if Mermaid (mixer_social_Mermaid_AskIfMerfolk_Friendly)" Tags="TestUnsafe" Value="205833" />
+  <Preset Label="Ask About Strange Reaction (mixer_social_Mermaid_AskAboutReaction_Friendly)" Tags="TestUnsafe" Value="205836" />
+  <Preset Label="Mermaid's Kiss (mixer_social_Mermaid_MerfolkKiss_targeted_alwaysOn)" Tags="TestUnsafe" Value="205837" />
+  <Preset Label="License to National Nature Channel (immediate_Career_Conservationist_LicenseNatureDocumentary)" Value="205881" />
+  <Preset Label="License to National Nature Channel (si_Career_Conservationist_LicenseDocumentary_Continuation)" Value="205883" />
+  <Preset Label="Sell to National Nature Channel (immediate_Career_Conservationist_ResearchData_Sell)" Value="205886" />
+  <Preset Label="Send to Research Center (immediate_Career_Conservationist_ResearchData_Send)" Value="205887" />
+  <Preset Label="Analyze Sample (si_Career_Conservationist_TakeSample_Analyse)" Value="205910" />
+  <Preset Label="Survey (si_Career_Conservationist_SurveyReserve)" Value="205915" />
+  <Preset Label="Idle_Trait_Mermaid" Value="205937" />
+  <Preset Label="No Tan (debug_SuntanInteractions_NoTan)" Value="205942" />
+  <Preset Label="Tanned (debug_SuntanInteractions_Tan)" Value="205943" />
+  <Preset Label="Burnt (debug_SuntanInteractions_Burnt)" Value="205944" />
+  <Preset Label="Lock Tan/Burn (debug_SuntanInteractions_LockTan)" Value="205945" />
+  <Preset Label="Unlock Tan/Burn (debug_SuntanInteractions_UnlockTan)" Value="205946" />
+  <Preset Label="Diving Knife (oceanDiving_purchasegear_DiveKnife)" Value="206060" />
+  <Preset Label="Rebreather (oceanDiving_purchasegear_Rebreather)" Value="206061" />
+  <Preset Label="Spearfishing Gun (oceanDiving_purchasegear_SpearFishingGun)" Value="206062" />
+  <Preset Label="Treasure Tool (oceanDiving_purchasegear_TreasureTool)" Value="206063" />
+  <Preset Label="Underwater Camera (oceanDiving_purchasegear_UnderwaterCamera)" Value="206064" />
+  <Preset Label="Impersonate Mermaids (mixer_social_Mermaid_ImpersonateMerfolk_Mischief_alwaysOn)" Tags="TestUnsafe" Value="206075" />
+  <Preset Label="Scuba Dive (oceanDiving_ScubaDiving)" Value="206083" />
+  <Preset Label="Free Dive for Seashells (oceanDiving_Freediving_Seashells)" Value="206085" />
+  <Preset Label="Free Dive for Treasure (oceanDiving_Freediving_TreasureHunt)" Value="206086" />
+  <Preset Label="Scuba Dive for Seashells (oceanDiving_ScubaDiving_Seashells)" Value="206088" />
+  <Preset Label="Scuba Dive for Treasure (oceanDiving_ScubaDiving_TreasureHunt)" Value="206089" />
+  <Preset Label="Spearfish (oceanDiving_Freediving_SpearFish)" Value="206090" />
+  <Preset Label="Take Underwater Photos (oceanDiving_ScubaDiving_TakePhotos)" Value="206091" />
+  <Preset Label="Kava Toast (kavaBowl_Toast_React)" Value="206111" />
+  <Preset Label="Drink (drink_Kava)" Value="206132" />
+  <Preset Label="Snorkel (waypoint_Snorkeling_child)" Value="206154" />
+  <Preset Label="Blow Conch (mermaid_Conch_BlowHorn)" Value="206173" />
+  <Preset Label="mermaid_Conch_Respond" Value="206175" />
+  <Preset Label="Consult on Global Policy (phone_ConservationistCareer_ConsultOnRegulation)" Value="206219" />
+  <Preset Label="Eat {1.ObjectName} (food_Consume_MermaidKelp)" Value="206220" />
+  <Preset Label="Repeal A Global Policy (phone_ConservationistCareer_RepealRegulation)" Value="206228" />
+  <Preset Label="mixer_KavaBowl_AddLiquid" Value="206235" />
+  <Preset Label="mixer_KavaBowl_MixKava" Value="206257" />
+  <Preset Label="Clean Up (islandConservation_CleanUp_Trashpile)" Value="206259" />
+  <Preset Label="Clean Up (islandConservation_CleanUp_Ashpile)" Value="206261" />
+  <Preset Label="Clean Up (islandConservation_CleanUp_Sulfurpile)" Value="206262" />
+  <Preset Label="Clean Up (islandConservation_CleanUp_FloatingPile)" Value="206263" />
+  <Preset Label="Reprimand for Fishing (si_Career_Conservationist_ConsultRegulation_OverFishing_TellToStopFishing)" Value="206313" />
+  <Preset Label="reactions_ConservationistCareer_AngryFromStopFishing" Value="206315" />
+  <Preset Label="reactions_ConservationistCareer_EmbarrassedFromStopFishing" Value="206316" />
+  <Preset Label="Sail Here (terrain-IslandCanoe)" Value="206336" />
+  <Preset Label="Sit on {1.ObjectName} (generic_IslandCanoe_Loco)" Value="206343" />
+  <Preset Label="Sail Around (waypoint_IslandCanoe_RideAround)" Value="206353" />
+  <Preset Label="Enthuse about Eating Organic (socials_Targeted_Friendly_Conservationist_EnthuseAboutEatingOrganic)" Tags="TestUnsafe" Value="206356" />
+  <Preset Label="Lounge on {1.ObjectName} (islandCanoe_Lounge)" Value="206358" />
+  <Preset Label="Activate Flower Sail (islandCanoe_FlowerSail)" Value="206359" />
+  <Preset Label="Rename {1.ObjectName} (rename_IslandCanoe)" Value="206360" />
+  <Preset Label="Accuse of Littering (socials_Targeted_Friendly_Conservationist_AccuseOfLittering)" Tags="TestUnsafe" Value="206365" />
+  <Preset Label="Belly Rub (mixer_Dolphin_TrickRequest_RubBelly)" Value="206410" />
+  <Preset Label="Belly Rub (mixer_Dolphin_Trick_RubBelly)" Value="206411" />
+  <Preset Label="Dance (mixer_Dolphin_TrickRequest_Dance)" Value="206425" />
+  <Preset Label="Dance (mixer_Dolphin_Trick_Dance)" Value="206435" />
+  <Preset Label="Fetch (mixer_Dolphin_TrickRequest_Fetch)" Value="206444" />
+  <Preset Label="Fetch (mixer_Dolphin_Trick_Fetch)" Value="206445" />
+  <Preset Label="Kiss (mixer_Dolphin_TrickRequest_Kiss)" Value="206446" />
+  <Preset Label="Kiss (mixer_Dolphin_Trick_Kiss)" Value="206447" />
+  <Preset Label="Talk to {1.ObjectName} (mixer_Dolphin_Talk)" Value="206497" />
+  <Preset Label="mixer_Dolphin_Squirt" Value="206541" />
+  <Preset Label="Ask To Be Squirted (mixer_Dolphin_AskForSquirt)" Value="206542" />
+  <Preset Label="Comb Beach for Seashells (si_Beachcombing_Start_Seashells_Autonomous)" Value="206606" />
+  <Preset Label="Dig (si_Beachcombing_Dig_Dog)" Value="206608" />
+  <Preset Label="Call to Grab Drink (kavaBowl_CallToGetDrinks)" Value="206650" />
+  <Preset Label="Open Box (si_Beachcombing_OpenMysteryBox)" Value="206651" />
+  <Preset Label="Comb Beach for Trash (si_Beachcombing_Start_Trash_Autonomous)" Value="206670" />
+  <Preset Label="Comb Beach for Trash (terrain-gohere_Beachcombing_Trash)" Value="206673" />
+  <Preset Label="displaySnippetPicker_Conservationist_ConsultOnRegulations" Tags="TestUnsafe" Value="206800" />
+  <Preset Label="Sunbathe in Current Outfit (suntan_LoungeChair)" Value="206834" />
+  <Preset Label="mixer_Dolphin_Wave" Value="207022" />
+  <Preset Label="Island Objects (setupLot_IslandObjects)" Value="207124" />
+  <Preset Label="Play In (si_IslandWaterfall_PlaySolo)" Value="207126" />
+  <Preset Label="Play in With (simPicker_IslandWaterFall_PlayInWith)" Tags="TestUnsafe" Value="207163" />
+  <Preset Label="Ask to Play In Waterfall (mixer_social_AskToPlayInIslandWaterfall_Friendly_alwaysOn)" Tags="TestUnsafe" Value="207170" />
+  <Preset Label="Play Together in Waterfall (social_IslandWaterfall_PlayTogether)" Value="207175" />
+  <Preset Label="Shower (si_IslandWaterfall_Shower)" Value="207208" />
+  <Preset Label="Shower Nude (si_IslandWaterfall_Shower_Nude)" Value="207231" />
+  <Preset Label="Call Thunderstorm (mermaid_CallStorm_Thunder)" Value="207232" />
+  <Preset Label="Try for Baby (mixer_social_TryForBabyInIslandWaterfall_targeted_romance_transition)" Tags="TestUnsafe" Value="207255" />
+  <Preset Label="WooHoo in Waterfall (mixer_social_WooHooInIslandWaterfall_targeted_romance_transition)" Tags="TestUnsafe" Value="207256" />
+  <Preset Label="WooHoo (IslandWaterfall_Woohoo)" Value="207257" />
+  <Preset Label="Try for Baby (IslandWaterfall_TryForBaby)" Value="207263" />
+  <Preset Label="Mess Around With (IslandWaterfall_messAround_Picker)" Tags="TestUnsafe" Value="207286" />
+  <Preset Label="Try for Baby With (IslandWaterfall_tryForBaby_Female_Picker)" Tags="TestUnsafe" Value="207287" />
+  <Preset Label="Try for Baby With (IslandWaterfall_tryForBaby_Male_Picker)" Tags="TestUnsafe" Value="207288" />
+  <Preset Label="WooHoo With (wooHoo_Picker_IslandWaterfall)" Tags="TestUnsafe" Value="207289" />
+  <Preset Label="generic_IslandWaterfallWoohoo" Value="207290" />
+  <Preset Label="Attract Frogs (si_IslandWaterfall_AttractFrogs)" Value="207307" />
+  <Preset Label="Empty Kava Bowl (kavaBowl_CleanUp)" Value="207309" />
+  <Preset Label="Kava Toast (kavaBowl_MakeToast)" Value="207310" />
+  <Preset Label="Stand In Waterfall (generic_IslandWaterfall_PlayTogether)" Value="207352" />
+  <Preset Label="Free Dive Around Here (OceanDiving_ClothesSpin_Freediving)" Value="207359" />
+  <Preset Label="Free Dive for Seashells (oceanDiving_ClothesSpin_Freediving_Seashells)" Value="207367" />
+  <Preset Label="Free Dive for Treasure (oceanDiving_ClothesSpin_Freediving_TreasureHunt)" Value="207368" />
+  <Preset Label="Scuba Dive (oceanDiving_ClothesSpin_ScubaDiving)" Value="207370" />
+  <Preset Label="Scuba Dive for Seashells (oceanDiving_ClothesSpin_ScubaDiving_Seashells)" Value="207371" />
+  <Preset Label="Take Underwater Photos (oceanDiving_ClothesSpin_ScubaDiving_TakePhotos)" Value="207372" />
+  <Preset Label="Scuba Dive for Treasure (oceanDiving_ClothesSpin_ScubaDiving_TreasureHunt)" Value="207373" />
+  <Preset Label="Spearfish (oceanDiving_ClothesSpin_ScubaDiving_Spearfish)" Value="207374" />
+  <Preset Label="Free Dive Around Here (oceanDiving_ClothesSpin_Exit)" Value="207375" />
+  <Preset Label="Sunbathe (pool-swim_Mermaid_Sunbathe)" Value="207378" />
+  <Preset Label="Sleep (pool-swim_Mermaid_Sleep)" Value="207379" />
+  <Preset Label="Snorkel (oceanDiving_ClothesSpin_Snorkeling)" Value="207385" />
+  <Preset Label="Catch Frogs (si_IslandWaterfall_CatchFrogs)" Value="207428" />
+  <Preset Label="displaySnippetPicker_Conservationist_RepealRegulation" Tags="TestUnsafe" Value="207665" />
+  <Preset Label="dolphin_Investigate_CreateDolphin" Value="207671" />
+  <Preset Label="Be Investigated By Dolphin (si_Dolphin_Investigate)" Value="207672" />
+  <Preset Label="Check Progress on Global Policy (phone_ConservationistCareer_CheckRegulationProgress_ControlnvasiveSpecies)" Value="207682" />
+  <Preset Label="Check Progress on Global Policy (phone_ConservationistCareer_CheckRegulationProgress_CoconutRebate)" Value="207683" />
+  <Preset Label="Check Progress on Global Policy (phone_ConservationistCareer_CheckRegulationProgress_SupportOrganicProduce)" Value="207684" />
+  <Preset Label="Check Progress on Global Policy (phone_ConservationistCareer_CheckRegulationProgress_ExperimentalPollutionCleaner)" Value="207685" />
+  <Preset Label="Check Progress on Global Policy (phone_ConservationistCareer_CheckRegulationProgress_LitteringFines)" Value="207686" />
+  <Preset Label="Check Progress on Global Policy (phone_ConservationistCareer_CheckRegulationProgress_ControlOverfishing)" Value="207687" />
+  <Preset Label="Pulled Underwater (oceanSwimming_Reactions_Swim_PulledUnder)" Value="208111" />
+  <Preset Label="Call Over Albino Dolphin (si_Dolphin_CallOver_Albino)" Value="208115" />
+  <Preset Label="Go Here (terrain-gonear_Mermaid_SirenCall)" Value="208181" />
+  <Preset Label="Place on Table (si_IslandEvents_IslandCelebration_NPC_CreateObjectOnTable)" Value="208210" />
+  <Preset Label="idle_Trait_Mermaid_Swim" Value="208223" />
+  <Preset Label="Fire Dance (si_IslandEvents_IslandCelebration_NPC_BonfireFireDance)" Value="208225" />
+  <Preset Label="Sit on {1.ObjectName} (generic_IslandCanoe_Sit)" Value="208301" />
+  <Preset Label="Sit on {1.ObjectName} (generic_IslandCanoe_Stand)" Value="208302" />
+  <Preset Label="Ride Here (waterScooter_Picker_RideHere_Terrain)" Tags="TestUnsafe" Value="208307" />
+  <Preset Label="Select Fish to Submit (si_IslandEvents_FishingCompetition_NPC_SubmitFish)" Value="208340" />
+  <Preset Label="Submit Fish (si_IslandEvents_FishingCompetition_SubmitFish)" Value="208346" />
+  <Preset Label="Buy Bait (purchase_IslandEvents_FishingCompetition_Bait)" Tags="TestUnsafe" Value="208347" />
+  <Preset Label="Carry (Dog_CreateAndCarryObject_FromBeachcombing)" Value="208399" />
+  <Preset Label="Dig (si_Beachcombing_Dig_Human_Trash)" Value="208400" />
+  <Preset Label="oceanswimming_mixers_Dive" Value="208530" />
+  <Preset Label="Commune with Spirits (si_IslandSpirits_CommuneWithSpirit)" Value="208562" />
+  <Preset Label="Banish Spirits (si_IslandSpirits_ShooSpirit)" Value="208565" />
+  <Preset Label="Release Spirits (si_IslandSpirits_AskSpiritToLeave)" Value="208567" />
+  <Preset Label="si_IslandSpirits_Continuation" Value="208603" />
+  <Preset Label="Blow Conch (mermaid_Conch_BlowHornfromWorld)" Value="208624" />
+  <Preset Label="Blow Conch (mermaid_Conch_BlowHornfromWorldCont)" Value="208625" />
+  <Preset Label="Ride Here (terrain-WaterScooter_Deploy)" Value="208639" />
+  <Preset Label="Ride Here (terrain-WaterScooter_Continuation)" Value="208699" />
+  <Preset Label="serviceNpc_noMoreWork_IslanderCulture" Value="208865" />
+  <Preset Label="Go to Work (si_Career_Lifeguard)" Value="208882" />
+  <Preset Label="islandConservation_NPCSpecific_Interactions_SpawnTrash" Value="208909" />
+  <Preset Label="generic_BeachTowel" Value="208939" />
+  <Preset Label="Nap (beachTowel_Nap)" Value="208941" />
+  <Preset Label="Comforting Hug (social_IslanderCulture_ComfortingHug)" Value="208964" />
+  <Preset Label="suntanMixers_Sunbathe_LoungeChair" Value="208975" />
+  <Preset Label="si_Beachcombing_FailReactions_Angry" Value="208978" />
+  <Preset Label="si_Beachcombing_FailReactions_Happy" Value="208980" />
+  <Preset Label="si_Beachcombing_FailReactions_Uncomfortable" Value="208981" />
+  <Preset Label="si_Beachcombing_FailReactions_Tense" Value="208982" />
+  <Preset Label="Call Over Azure Dolphin (mermaid_Terrain_Dolphin)" Value="209007" />
+  <Preset Label="Apply Sunburn Protection (suntanMixers_ApplySunblock_LoungeChair)" Value="209030" />
+  <Preset Label="Call Over Dolphin (dolphin_NameOverride_Spawner)" Value="209052" />
+  <Preset Label="Search For Wildlife (beachCave_Content_SearchForWildlife)" Value="209073" />
+  <Preset Label="Discover Natural Wonder (beachCave_Content_DiscoverNaturalWonder)" Value="209077" />
+  <Preset Label="Travel Cave Waters (beachCave_Content_TravelCaveWaters)" Value="209081" />
+  <Preset Label="Explore (beachCave_Content_Explore)" Value="209126" />
+  <Preset Label="Sail Here (IslandCanoe_Picker_RideHere_Terrain)" Tags="TestUnsafe" Value="209179" />
+  <Preset Label="Sail Here (terrain-IslandCanoe_Deploy)" Value="209180" />
+  <Preset Label="Sail Here (terrain-IslandCanoe_Continuation)" Value="209181" />
+  <Preset Label="Sail Here (IslandCanoe_Picker_RideHere_Terrain_Auto)" Tags="TestUnsafe" Value="209196" />
+  <Preset Label="Ride Here (waterScooter_Picker_RideHere_Terrain_Auto)" Tags="TestUnsafe" Value="209197" />
+  <Preset Label="idle_buff_IslandConservation_NPC_EvilLaugh" Value="209202" />
+  <Preset Label="idle_buff_IslandConservation_NPC_Thoughtbubbles" Value="209207" />
+  <Preset Label="Select Fish to Submit (islandEvents_FishingCompetition_ChooseFish)" Tags="TestUnsafe" Value="209209" />
+  <Preset Label="Listen to Island Radio (stereowall_listen_Island)" Value="209216" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_IslandRadio)" Value="209217" />
+  <Preset Label="Argue With Someone (social_IslandConservation_Argue_LowCharisma)" Tags="TestUnsafe" Value="209278" />
+  <Preset Label="Argue With Someone (social_IslandConservation_YellAt_LowCharisma)" Tags="TestUnsafe" Value="209279" />
+  <Preset Label="Confront About Wrongdoing (social_IslandConservation_Confront_AskQuestion_MidCharisma)" Tags="TestUnsafe" Value="209280" />
+  <Preset Label="Confront About Wrongdoing (social_IslandConservation_Confront_DiscussTopic_HighCharisma)" Tags="TestUnsafe" Value="209281" />
+  <Preset Label="Confront About Wrongdoing (socialSuper_IslandConservation_Confront)" Value="209293" />
+  <Preset Label="Argue With Someone (social_IslandConservation_NPCSpecific_RantAboutConservation)" Tags="TestUnsafe" Value="209317" />
+  <Preset Label="Listen to Island Radio (stereo_Listen_Island_HotTub)" Value="209329" />
+  <Preset Label="Listen to Island Radio (stereo_Listen_Island_HotTub_NotInHotTub)" Value="209330" />
+  <Preset Label="Listen to Island Radio (stereo_earbuds_Listen_Island)" Value="209331" />
+  <Preset Label="Listen to Island Radio (stereo_Listen_Island)" Value="209332" />
+  <Preset Label="Listen to Island Radio (stereo_Listen_Island_Smart_Hub)" Value="209334" />
+  <Preset Label="Argue With Someone (socialSuper_IslandConservation_NPC_RantAboutConservation)" Value="209406" />
+  <Preset Label="Ask Nicely to Leave (socialSuper_IslandConservation_AskNicelyToLeave)" Value="209407" />
+  <Preset Label="Ask Nicely to Leave (social_IslandConservation_AskToLeave_Story_MidRel)" Tags="TestUnsafe" Value="209413" />
+  <Preset Label="Ask Nicely to Leave (social_IslandConservation_AsktoLeave_UseHumor_HighRel)" Tags="TestUnsafe" Value="209414" />
+  <Preset Label="Ask Nicely to Leave (social_IslandConservation_AskToLeave_AskAwkwardly_LowRel)" Tags="TestUnsafe" Value="209415" />
+  <Preset Label="Sunbathe in Swimwear (suntan_LoungeChair_Swimwear)" Value="209423" />
+  <Preset Label="Name (rename_Dolphin)" Value="209424" />
+  <Preset Label="Deploy Water Vehicle in Ocean (deployWaterScooterInOcean)" Value="209476" />
+  <Preset Label="Make Decorative (lavaRock_makeDeco_large)" Value="209516" />
+  <Preset Label="turtle_Watching_Focus_A" Value="209530" />
+  <Preset Label="turtle_Watching_Focus_B" Value="209531" />
+  <Preset Label="Make Decorative (lavaRock_makeDeco_small)" Value="209533" />
+  <Preset Label="autonomous_Venue_Beach_BeachTowel_Picker" Tags="TestUnsafe" Value="209608" />
+  <Preset Label="Hang Out (pitBBQ_HangOut)" Value="209623" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_BeachTowel)" Value="209625" />
+  <Preset Label="beachTowel_Nap_PutInInventory_BeachTowel" Value="209641" />
+  <Preset Label="beachTowel_PutAway" Value="209644" />
+  <Preset Label="Exit {1.ObjectName} (islandCanoe_Exit)" Value="209654" />
+  <Preset Label="attractorPointInteraction_Beach" Value="209657" />
+  <Preset Label="si_Beach_Wait" Value="209660" />
+  <Preset Label="Try to Touch (lavaRock_tryToTouch_large_adult)" Value="209672" />
+  <Preset Label="Go Fishing (fishingLocationGoFishing_IslandCanoe)" Value="209680" />
+  <Preset Label="Angle For Big Catch (fishingLocationGoFishing_IslandCanoe_AngleForBigCatch)" Value="209682" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_FishingTrap)" Value="209713" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_FishingTrap_Swim)" Value="209731" />
+  <Preset Label="Mail Crafted Item to Customer (objectInInventoryPicker_OddJob_Woodworking)" Tags="TestUnsafe" Value="209747" />
+  <Preset Label="Mail Crafted Item to Customer (mailbox_OddJob_Mail_Woodworking)" Value="209752" />
+  <Preset Label="Prank Sunbather (suntan_PrankSunbather)" Value="209754" />
+  <Preset Label="Try to Touch (lavaRock_tryToTouch_small_adult)" Value="209760" />
+  <Preset Label="Try to Touch (lavaRock_tryToTouch_large_child)" Value="209761" />
+  <Preset Label="Try to Touch (lavaRock_tryToTouch_small_child)" Value="209762" />
+  <Preset Label="Odd Jobs Picker (Debug) (oddJobPickerInteraction_debug)" Tags="TestUnsafe" Value="209764" />
+  <Preset Label="Odd Jobs (oddJob_Picker)" Tags="TestUnsafe" Value="209781" />
+  <Preset Label="Break Open (lavaRock_breakOpen_large)" Value="209800" />
+  <Preset Label="Break Open (lavaRock_breakOpen_small)" Value="209802" />
+  <Preset Label="Break Open (lavaRock_breakOpen_large_deco)" Value="209819" />
+  <Preset Label="Break Open (lavaRock_breakOpen_small_deco)" Value="209820" />
+  <Preset Label="Try to Touch (lavaRock_TryToTouch_Start_Large_Adult)" Value="209834" />
+  <Preset Label="Try to Touch (lavaRock_TryToTouch_Start_Large_Child)" Value="209835" />
+  <Preset Label="Try to Touch (lavaRock_TryToTouch_Start_Small_Adult)" Value="209836" />
+  <Preset Label="Try to Touch (lavaRock_TryToTouch_Start_Small_Child)" Value="209837" />
+  <Preset Label="Try to Touch (lavaRock_TryToTouch_Large_Adult_Fire)" Value="209838" />
+  <Preset Label="Try to Touch (lavaRock_TryToTouch_Large_Child_Fire)" Value="209839" />
+  <Preset Label="Try to Touch (lavaRock_TryToTouch_Small_Adult_Fire)" Value="209840" />
+  <Preset Label="Try to Touch (lavaRock_TryToTouch_Small_Child_Fire)" Value="209841" />
+  <Preset Label="FishingLocation_Catch_IslandCanoe" Value="209940" />
+  <Preset Label="fishingLocation_Cast_IslandCanoe" Value="209941" />
+  <Preset Label="fishingLocation_AngleForBigCatch_IslandCanoe" Value="209942" />
+  <Preset Label="fishingLocation_AngleForBigCatch_IslandCanoe_Idle" Value="209944" />
+  <Preset Label="Mail Kava to Customer (objectInInventoryPicker_OddJob_Kava)" Tags="TestUnsafe" Value="209964" />
+  <Preset Label="Mail Kalua Pork to Customer (objectInInventoryPicker_OddJob_KaluaPork)" Tags="TestUnsafe" Value="209965" />
+  <Preset Label="Mail Kava to Customer (mailbox_OddJob_Mail_Kava)" Value="209966" />
+  <Preset Label="Mail Kalua Pork to Customer (mailbox_OddJob_Mail_KaluaPork)" Value="209967" />
+  <Preset Label="Mail Coconut to Customer (objectInInventoryPicker_OddJob_Coconut)" Tags="TestUnsafe" Value="209968" />
+  <Preset Label="Mail Mahi Mahi to Customer (objectInInventoryPicker_OddJob_MahiMahi)" Tags="TestUnsafe" Value="209969" />
+  <Preset Label="Mail Treasure to Customer (objectInInventoryPicker_OddJob_Treasure)" Tags="TestUnsafe" Value="209971" />
+  <Preset Label="Mail Coconut to Customer (mailbox_OddJob_Mail_Coconut)" Value="209973" />
+  <Preset Label="Mail Mahi Mahi to Customer (mailbox_OddJob_Mail_MahiMahi)" Value="209975" />
+  <Preset Label="Mail Treasure to Customer (mailbox_OddJob_Mail_Treasure)" Value="209976" />
+  <Preset Label="Call Over Dolphin (dolphin_NameOverride_Ocean)" Value="210063" />
+  <Preset Label="Call Over Dolphin (lotTrait_OceanicParadise_SummonDolphin)" Value="210086" />
+  <Preset Label="venue_Beach_NPCBeachTowel_FindLoungeChair" Value="210119" />
+  <Preset Label="attractorPointInteraction_Beach_Tanner" Value="210133" />
+  <Preset Label="attractorPoint_Interaction_Beach_Tanner_Towel" Value="210134" />
+  <Preset Label="Find Odd Jobs (phone_BrowseWebsites_OddJob_Find)" Value="210156" />
+  <Preset Label="Find Odd Jobs (computer_Browse_OddJob_Find)" Value="210160" />
+  <Preset Label="Max Rel with Dolphin (debug_Dolphin_MaxRel)" Value="210169" />
+  <Preset Label="Cancel Active Odd Job (computer_Browse_OddJob_Cancel)" Value="210183" />
+  <Preset Label="Cancel Active Odd Job (phone_BrowseWebsites_OddJob_Cancel)" Value="210184" />
+  <Preset Label="Play In Sand (sandActivities_PlayInSand_Toddler)" Value="210186" />
+  <Preset Label="Play In Sand (sandActivities_PlayInSand_Child)" Value="210194" />
+  <Preset Label="Summon Island Elementals (run_IslandAncestor_visit_situation)" Value="210205" />
+  <Preset Label="sandActivities_Mixers_Idle_Child" Value="210207" />
+  <Preset Label="sandActivities_Mixers_Play_Child" Value="210208" />
+  <Preset Label="sandActivities_Mixers_Idle_Toddler" Value="210210" />
+  <Preset Label="sandActivities_Mixers_Play_Toddler" Value="210212" />
+  <Preset Label="Clean Up (islandConservation_CleanUp_FloatingPile_Seaweed)" Value="210231" />
+  <Preset Label="Play In Sand (terrain-gohere_SandActivities_PlayInSand)" Value="210235" />
+  <Preset Label="Set Invasive Species (immediate_Career_Conservationist_SetInvasiveSpecies_Debug)" Value="210272" />
+  <Preset Label="Build Sand Sculpture (terrain-gohere_SandActivities_SandSculpture_Start)" Value="210330" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_CreateObject)" Value="210332" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_Build)" Value="210334" />
+  <Preset Label="sandActivities_Mixers_SandSculpture_Idle" Value="210385" />
+  <Preset Label="sandActivities_Mixers_SandSculpture_BuildStage1" Value="210388" />
+  <Preset Label="sandActivities_Mixers_SandSculpture_BuildStage2" Value="210389" />
+  <Preset Label="sandActivities_Mixers_SandSculpture_BuildStage1Toddler" Value="210391" />
+  <Preset Label="sandActivities_Mixers_SandSculpture_BuildStage2Toddler" Value="210392" />
+  <Preset Label="sandActivities_Mixers_SandSculpture_IdleToddler" Value="210393" />
+  <Preset Label="Sunbathe in Current Outfit (suntan_BeachTowel)" Value="210399" />
+  <Preset Label="Sunbathe in Swimwear (suntan_BeachTowel_Swimwear)" Value="210400" />
+  <Preset Label="Apply Sunburn Protection (suntanMixers_ApplySunblock_BeachTowel)" Value="210408" />
+  <Preset Label="suntanMixers_Sunbathe_BeachTowel" Value="210409" />
+  <Preset Label="generic_BeachCave" Value="210421" />
+  <Preset Label="suntanMixers_SunbatheOnStomach_BeachTowel" Value="210433" />
+  <Preset Label="beachCave_Exit" Value="210447" />
+  <Preset Label="beachCave_Exit_Failure" Value="210449" />
+  <Preset Label="Build Sand Sculpture With (simPickerInteraction_SandActivities_SandSculpture)" Tags="TestUnsafe" Value="210496" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_PickedSim)" Value="210500" />
+  <Preset Label="Build Sand Sculpture (terrain-gohere_SandActivities_SandSculpture_StartGroup)" Value="210503" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_BuildGroup)" Value="210504" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_CreateObjectGroup)" Value="210515" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_BuildPickedSim)" Value="210516" />
+  <Preset Label="turtle_Watching_TakePhoto" Value="210532" />
+  <Preset Label="Destroy Sand Sculpture (sandActivities_SandSculpture_Destroy)" Value="210533" />
+  <Preset Label="Set Mapping State - None (debug_BeachCave_SetMappingState_None)" Value="210535" />
+  <Preset Label="Set Mapping State - Partial (debug_BeachCave_SetMappingState_Partial)" Value="210536" />
+  <Preset Label="Set Mapping State - Near Complete (debug_BeachCave_SetMappingState_NearComplete)" Value="210537" />
+  <Preset Label="Set Mapping State - Mapped (debug_BeachCave_SetMappingState_Mapped)" Value="210538" />
+  <Preset Label="Monster Stomp Sand Sculpture (sandActivities_SandSculpture_Stomp)" Value="210562" />
+  <Preset Label="Caught in Current (waypoint_Ocean_Swimming_Reaction_CaughtInCurrent)" Value="210577" />
+  <Preset Label="Rename {1.ObjectName} (rename_Waterscooter)" Value="210601" />
+  <Preset Label="Check Progress on Global Policy (phone_ConservationistCareer_CheckRegulationProgress_EnergyCurfew)" Value="210615" />
+  <Preset Label="Check Progress on Global Policy (phone_ConservationistCareer_CheckRegulationProgress_GreenEnergy)" Value="210616" />
+  <Preset Label="Play in Open Water (Toddler_PlayInOcean)" Value="210656" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_Build_Toddler)" Value="210678" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_Build_ToddlerGroup)" Value="210680" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_Build_ToddlerPickedSim)" Value="210681" />
+  <Preset Label="Apply Sunburn Protection (suntanMixers_ApplySunblock_SitLoungeFloat)" Value="210702" />
+  <Preset Label="suntanMixers_Sunbathe_SitLoungeFloat" Value="210703" />
+  <Preset Label="Sunbathe (suntan_SitLoungeFloat)" Value="210704" />
+  <Preset Label="sandActivities_Mixers_SandSculpture_Start" Value="210705" />
+  <Preset Label="sandActivities_Mixers_SandSculpture_StartToddler" Value="210706" />
+  <Preset Label="Buy Beach Supplies (purchase_BeachProvisionShack)" Tags="TestUnsafe" Value="210739" />
+  <Preset Label="Buy Beach Supplies (beachProvisionsShack_BuyFromWindow)" Value="210743" />
+  <Preset Label="Play in Open Water (terrain-gohere_Toddler_PlayInOcean)" Value="210761" />
+  <Preset Label="toddler_PlayInOcean_Mixers_PlayInWater" Value="210806" />
+  <Preset Label="toddler_PlayInOcean_Mixers_PlayWithToy" Value="210807" />
+  <Preset Label="toddler_PlayInOcean_Mixers_Splash" Value="210808" />
+  <Preset Label="Mail Seashells to Customer (mailbox_OddJob_Mail_Seashells)" Value="210809" />
+  <Preset Label="Mail Seashells to Customer (objectInInventoryPicker_OddJob_Seashells)" Tags="TestUnsafe" Value="210810" />
+  <Preset Label="Search Debris (collection_Seashell_Debris_Search)" Value="210811" />
+  <Preset Label="Call Over Dolphin (dolphin_NameOverride_Spawner_debug)" Value="210818" />
+  <Preset Label="Climb Up (dockAndLadder_ClimbUp_A)" Value="210848" />
+  <Preset Label="Climb Up (dockAndLadder_ClimbUp_B)" Value="210849" />
+  <Preset Label="Jump Down (dockAndLadder_JumpDown_A)" Value="210850" />
+  <Preset Label="Jump Down (dockAndLadder_JumpDown_B)" Value="210851" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_Boat)" Value="210869" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vegetarian_IslandBBQ)" Value="210951" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_IslandBBQ)" Value="210952" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_FreshCatch)" Value="210953" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_IslandBBQ)" Value="210954" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_FreshCatch)" Value="210955" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_IslandBBQ)" Value="210956" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_FreshCatch)" Value="210957" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_review_CriticCareer_IslandBBQ)" Value="210958" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_review_CriticCareer_FreshCatch)" Value="210959" />
+  <Preset Label="Create Vehicle (debug_Create_WaterVehicle)" Tags="TestUnsafe" Value="211021" />
+  <Preset Label="si_IslandWaterfall_ConstrainToNewLocation" Value="211036" />
+  <Preset Label="suntan_PrankReaction" Value="211048" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_CreateObjectSelf)" Value="211059" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_CreateObject_Rally)" Value="211086" />
+  <Preset Label="Build Sand Sculpture (terrain-gohere_SandActivities_SandSculpture_Rally)" Value="211087" />
+  <Preset Label="Min Rel with Dolphin (debug_Dolphin_MinRel)" Value="211109" />
+  <Preset Label="Pet {1.ObjectName} (mixer_Dolphin_Pat_userDirected)" Value="211147" />
+  <Preset Label="Tend Stall (marketStalls_Tend_FishingCompetition)" Value="211189" />
+  <Preset Label="Sleep (mermaid_EnergyFailure)" Value="211222" />
+  <Preset Label="IslandAncestors_Blessing" Value="211234" />
+  <Preset Label="swimmingReactions_Mixers_StungBySomething" Value="211281" />
+  <Preset Label="Scared of Monster (swimmingReactions_Mixers_SharkSighting)" Value="211283" />
+  <Preset Label="swimmingReactions_Mixers_StunningView" Value="211285" />
+  <Preset Label="swimmingReactions_Mixers_Tickled" Value="211287" />
+  <Preset Label="swimmingReactions_Mixers_Slimed" Value="211290" />
+  <Preset Label="swimmingReactions_Mixers_Wading_Tickled" Value="211291" />
+  <Preset Label="swimmingReactions_Mixers_Wading_StungBySomething" Value="211292" />
+  <Preset Label="Set Trap (fishTrap_Set)" Value="211300" />
+  <Preset Label="Set With Bait (fishTrap_SetWithBait)" Value="211301" />
+  <Preset Label="Check Trap (fishTrap_CheckTrap)" Value="211302" />
+  <Preset Label="Empty Trap (fishTrap_EmptyTrap)" Value="211303" />
+  <Preset Label="Release Fish (fishTrap_ReleaseFish)" Value="211304" />
+  <Preset Label="swimmingReactions_Mixers_SwallowedWater" Value="211361" />
+  <Preset Label="fishingTrapCatchMixerInteraction" Value="211474" />
+  <Preset Label="Deploy Water Vehicle in Ocean (deployWaterScooterInOcean_Walkby)" Value="211515" />
+  <Preset Label="(Debug) Advance Trap State (fishTrap_Debug_AdvanceTrapState)" Value="211548" />
+  <Preset Label="Jump (mixer_Dolphin_TrickRequest_Jump)" Value="211607" />
+  <Preset Label="Jump (mixer_Dolphin_Trick_Jump)" Value="211608" />
+  <Preset Label="Playfully Splash {1.ObjectName} (mixer_Dolphin_SimSplash_Playful)" Value="211612" />
+  <Preset Label="Spitefully Splash {1.ObjectName} (mixer_Dolphin_SimSplash_Mean)" Value="211613" />
+  <Preset Label="Dig (sI_Beachcombing_Dig_Human_Seashells_Rally)" Value="211616" />
+  <Preset Label="Dig (sI_Beachcombing_Dig_Human_Trash_Rally)" Value="211617" />
+  <Preset Label="Comb Beach for Seashells (terrain-gohere_Beachcombing_Seashells_Rally)" Value="211618" />
+  <Preset Label="Comb Beach for Trash (terrain-gohere_Beachcombing_Trash_Rally)" Value="211619" />
+  <Preset Label="Gift of Sulani (IslandAncestors_Bless)" Value="211647" />
+  <Preset Label="pitBBQ_StartCooking_KaluaPork" Value="211651" />
+  <Preset Label="Summon Volcanic Bomb (islandAncestors_Meteor)" Value="211669" />
+  <Preset Label="Give Child of the Island Commodity (islandAncestors_CommodityDebug)" Value="211675" />
+  <Preset Label="Survey Ocean Floor (oceanDiving_ClothesSpin_ScubaDiving_Survey)" Value="211695" />
+  <Preset Label="pitBBQ_PickUp_ReplaceConsume" Value="211723" />
+  <Preset Label="Tend Stall (marketStalls_Open_FishingCompetition)" Value="211724" />
+  <Preset Label="Mourn Fish Friend (childoftheocean_FishSadness)" Value="211733" />
+  <Preset Label="Call Clear Skies (mermaid_CallStorm_Sunny)" Value="211735" />
+  <Preset Label="Talk To Fish (mermaid_TalkToFish_Aquarium)" Value="211736" />
+  <Preset Label="mixer_mermaid_TalktoFish" Value="211749" />
+  <Preset Label="Activate Flower Sail (islandCanoe_FlowerSail_Toggle)" Value="211758" />
+  <Preset Label="Talk To Fish (mermaid_TalkToFish_CoffeeTable)" Value="211778" />
+  <Preset Label="Laugh at Pranked Sim (reactions_Suntan_LaughAtPrankedSim)" Value="211811" />
+  <Preset Label="Intermediate Stage (islandConservation_Immediate_Cheats_SetBeforeStage_Intermediate)" Value="211830" />
+  <Preset Label="Final Stage (islandConservation_Immediate_Cheats_SetBeforeStage_Final)" Value="211831" />
+  <Preset Label="+5 (islandConservation_Immediate_Cheats_IncrementProgression_5)" Value="211832" />
+  <Preset Label="+10 (islandConservation_Immediate_Cheats_IncrementProgression_10)" Value="211833" />
+  <Preset Label="+20 (islandConservation_Immediate_Cheats_IncrementProgression_20)" Value="211834" />
+  <Preset Label="+50 (islandConservation_Immediate_Cheats_IncrementProgression_50)" Value="211835" />
+  <Preset Label="+100 (islandConservation_Immediate_Cheats_IncrementProgression_100)" Value="211836" />
+  <Preset Label="+1 (islandConservation_Immediate_Cheats_IncrementProgression_1)" Value="211837" />
+  <Preset Label="Kiss In Water (mixer_social_Mermaid_KissinWater)" Tags="TestUnsafe" Value="211844" />
+  <Preset Label="Kiss In Water (Pool_Mermaid_KissinWater)" Value="211850" />
+  <Preset Label="Anti-Environmentalist (islandConservation_Immediate_Cheats_SpawnNPC_AntiConservationist)" Value="211853" />
+  <Preset Label="Fish Poacher (islandConservation_Immediate_Cheats_SpawnNPC_Poacher)" Value="211854" />
+  <Preset Label="Litterbug (islandConservation_Immediate_Cheats_SpawnNPC_LitterBug)" Value="211855" />
+  <Preset Label="Sit on {1.ObjectName} (islandCanoe_GetIn)" Value="211858" />
+  <Preset Label="sandActivities_PlayInSand_Auto" Value="211903" />
+  <Preset Label="Close Cover (pitBBQ_CloseCover)" Value="211912" />
+  <Preset Label="Sleep (pool-swim_Mermaid_Sleep_Autonomous)" Value="211923" />
+  <Preset Label="Cannonball (dockAndLadder_JumpDown_CannonBall)" Value="211988" />
+  <Preset Label="Swan Dive (dockAndLadder_JumpDown_SwanDive)" Value="211989" />
+  <Preset Label="Place in World (swipeAddToWorld_IslandCanoe)" Value="211997" />
+  <Preset Label="Place in World (swipeAddToWorld_IslandCanoe_Swim)" Value="211998" />
+  <Preset Label="Patrol for Danger (lifeguard_StandWatch)" Value="212034" />
+  <Preset Label="Which way is the way to the beach? (Lifeguard_AskToFlex_Social)" Value="212039" />
+  <Preset Label="Cook Feast (pitBBQ_StartCrafting_Autonomously)" Value="212046" />
+  <Preset Label="Sail Around on {1.ObjectName} (islandCanoe_RideAroundFromObject)" Value="212058" />
+  <Preset Label="Prepare Kava (kavaBowl_StartCrafting_Autonomously)" Value="212073" />
+  <Preset Label="idle_Buff_Suntan_Burnt" Value="212105" />
+  <Preset Label="suntanMixers_Sunbathe_LegUp_BeachTowel" Value="212142" />
+  <Preset Label="suntanMixers_Sunbathe_LegUp_LoungeChair" Value="212143" />
+  <Preset Label="suntanMixers_Sunbathe_LegUp_SitLoungeFloat" Value="212144" />
+  <Preset Label="Build Sand Sculpture Together (social_SandActivities_SandSculpture)" Value="212149" />
+  <Preset Label="Dock Here (dockAndLadder_Dock)" Value="212155" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_CreateObjectGroup_Ask)" Value="212192" />
+  <Preset Label="mixers_Lifeguard_StandWatch_Randomized" Value="212212" />
+  <Preset Label="mixers_Lifeguard_StandWatch_ToughPose" Value="212213" />
+  <Preset Label="Bring Your Own Fish... (marketStalls_PushOrderFood_BYOFish)" Value="212228" />
+  <Preset Label="Watch Toddler In Water (CTYAE_Watch_Toddler_Ocean)" Value="212243" />
+  <Preset Label="islandAncestors_Puddle" Value="212253" />
+  <Preset Label="Enthuse About Baby Turtles (nonTouching_SocialSuperInteractions_EnthuseAboutBabyTurtles)" Value="212264" />
+  <Preset Label="Enthuse About Baby Turtles with {1.SimFirstName} (nonTouching_SocialSuperInteractions_EnthuseAboutBabyTurtles_Target)" Value="212267" />
+  <Preset Label="Ask to Move In (islandAncestors_Social_AsktoMoveIn)" Value="212277" />
+  <Preset Label="sandActivities_SandSculpture_Auto" Value="212312" />
+  <Preset Label="Beach Flex (Lifeguard_FlexOnEm_Social)" Value="212318" />
+  <Preset Label="Survey (si_Career_Conservationist_SurveyReserve_TurtleHatching)" Value="212324" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_Cheer)" Value="212332" />
+  <Preset Label="Beach Flex (Lifeguard_BeachFlex_Idle)" Value="212336" />
+  <Preset Label="swimmingReactions_Mixers_SuddenChill_wadingToddler" Value="212350" />
+  <Preset Label="Bring Your Own Fish (MarketStall_BYOFish_Picker)" Tags="TestUnsafe" Value="212358" />
+  <Preset Label="si_IslandEvents_IslandCelebration_NPC_ConstrainToArea" Value="212363" />
+  <Preset Label="Ask for Judgement (islandAncestors_Social_AsktobeJudged)" Value="212399" />
+  <Preset Label="Survey Ocean Wildlife (oceanDiving_ClothesSpin_Snorkeling_Survey)" Value="212407" />
+  <Preset Label="Survey (waypoint_Snorkeling_Survey)" Value="212417" />
+  <Preset Label="Survey Ocean Wildlife (oceanDiving_ClothesSpin_Snorkeling_Survey_Coral)" Value="212418" />
+  <Preset Label="Climb Down (dockAndLadder_ClimbDown_A)" Value="212469" />
+  <Preset Label="Climb Down (dockAndLadder_ClimbDown_B)" Value="212470" />
+  <Preset Label="Grab a Drink (kavaBowl_StartCrafting_Venue)" Value="212476" />
+  <Preset Label="mixer_Dolphin_Squirt_NoTest" Value="212509" />
+  <Preset Label="Release Fish (Fishing_ReleaseFish)" Value="212516" />
+  <Preset Label="Ask About Fishing Tournament (islandEvents_Socials_FishingCompetition_AskAboutTournament)" Value="212594" />
+  <Preset Label="Find out Tournament Results (islandEvents_Socials_FishingCompetition_FindOutResults)" Value="212595" />
+  <Preset Label="Submit Fish (islandEvents_Socials_FishingCompetition_SubmitFish)" Value="212596" />
+  <Preset Label="Enthuse about Green Energy (socials_Targeted_Friendly_Conservationist_EnthuseAboutGreenEnergy)" Tags="TestUnsafe" Value="212644" />
+  <Preset Label="Play with {1.ObjectName} (si_Dolphin_PlayWith_Dummy)" Value="212648" />
+  <Preset Label="Set With Bait (fishing_BaitTrap)" Tags="TestUnsafe" Value="212651" />
+  <Preset Label="Watch Dolphin (si_Dolphin_Watch)" Value="212652" />
+  <Preset Label="Pay Endangered Species Conservation Fine (immediate_ConservationFine)" Value="212667" />
+  <Preset Label="Relax (beachTowel_Relax)" Value="212677" />
+  <Preset Label="Build Sand Sculpture (sandActivities_SandSculpture_JoinBuild)" Value="212679" />
+  <Preset Label="React Negatively to Poaching (reactions_Generic_Disgusted_EndangeredFish)" Value="212682" />
+  <Preset Label="Add on Fireworks Pod (waterScooter_Immediate_Upgrades_Fireworks)" Value="212775" />
+  <Preset Label="Add on Flame Vents (waterScooter_Immediate_Upgrades_Flames)" Value="212776" />
+  <Preset Label="Add on Lights (waterScooter_Immediate_Upgrades_Lights)" Value="212777" />
+  <Preset Label="Add on Music Player (waterScooter_Immediate_Upgrades_Music)" Value="212778" />
+  <Preset Label="Add on Streamers (waterScooter_Immediate_Upgrades_Streamers)" Value="212779" />
+  <Preset Label="Enable Fireworks (waterScooter_Immediate_Settings_Fireworks)" Value="212781" />
+  <Preset Label="Enable Flames (waterScooter_Immediate_Settings_Flames)" Value="212782" />
+  <Preset Label="Enable Lights (waterScooter_Immediate_Settings_Lights)" Value="212783" />
+  <Preset Label="Enable Streamers (waterScooter_Immediate_Settings_Streamers)" Value="212785" />
+  <Preset Label="Set &quot;Blue&quot; pattern (waterScooter_Immediate_Upgrades_Pattern_1)" Value="212786" />
+  <Preset Label="Set &quot;Red&quot; pattern (waterScooter_Immediate_Upgrades_Pattern_2)" Value="212787" />
+  <Preset Label="Set &quot;Lime-Green&quot; pattern (waterScooter_Immediate_Upgrades_Pattern_3)" Value="212788" />
+  <Preset Label="Set &quot;Yellow&quot; pattern (waterScooter_Immediate_Upgrades_Pattern_4)" Value="212789" />
+  <Preset Label="Set &quot;Clownfish&quot; pattern (waterScooter_Immediate_Upgrades_Pattern_5)" Value="212790" />
+  <Preset Label="Set &quot;Pastel&quot; pattern (waterScooter_Immediate_Upgrades_Pattern_6)" Value="212792" />
+  <Preset Label="Set &quot;Racing&quot; pattern (waterScooter_Immediate_Upgrades_Pattern_7)" Value="212793" />
+  <Preset Label="Set &quot;Tribal&quot; pattern (waterScooter_Immediate_Upgrades_Pattern_8)" Value="212794" />
+  <Preset Label="Doing Odd Job (si_Career_OddJob)" Value="212799" />
+  <Preset Label="Ride Here (waterScooter_Dummy)" Value="212902" />
+  <Preset Label="Open (immediateSI_lockedChest_Open_display)" Value="212913" />
+  <Preset Label="Patrol for Danger (terrain-Lifeguard_StandWatch)" Value="212931" />
+  <Preset Label="Sunbathe in Nude (suntan_BeachTowel_Nude)" Value="212947" />
+  <Preset Label="Sunbathe in Nude (suntan_LoungeChair_Nude)" Value="212949" />
+  <Preset Label="Sunbathe in Nude (suntan_SitLoungeFloat_Nude)" Value="212951" />
+  <Preset Label="Fish From Inventory (Dolphin_feedFish_fromInventory_Picker)" Tags="TestUnsafe" Value="212955" />
+  <Preset Label="Survey Ocean Floor (oceanDiving_Mermaid_ScubaDiving_Survey)" Value="212989" />
+  <Preset Label="Take Underwater Photos (oceanDiving_Mermaid_ScubaDiving_TakePhotos)" Value="212990" />
+  <Preset Label="High (stereo_WaterScooter_changevolume_high)" Value="212996" />
+  <Preset Label="Low (stereo_WaterScooter_changevolume_low)" Value="212997" />
+  <Preset Label="Medium (stereo_WaterScooter_changevolume_medium)" Value="212998" />
+  <Preset Label="phone_ConservationistCareer_ConsultOnRegulation_TNS" Value="213049" />
+  <Preset Label="Aquatic Lure (mermaid_AquaticLure_IslandCanoe)" Value="213082" />
+  <Preset Label="Set &quot;Polka Dot&quot; Pattern (waterScooter_Immediate_Upgrades_Pattern_9)" Value="213151" />
+  <Preset Label="Set &quot;Shark&quot; Pattern (waterScooter_Immediate_Upgrades_Pattern_10)" Value="213158" />
+  <Preset Label="Set &quot;Abstract&quot; Pattern (waterScooter_Immediate_Upgrades_Pattern_11)" Value="213160" />
+  <Preset Label="Set &quot;Black&quot; Pattern (waterScooter_Immediate_Upgrades_Pattern_12)" Value="213161" />
+  <Preset Label="Set &quot;White&quot; Pattern (waterScooter_Immediate_Upgrades_Pattern_13)" Value="213162" />
+  <Preset Label="Set &quot;Pink&quot; Pattern (waterScooter_Immediate_Upgrades_Pattern_14)" Value="213163" />
+  <Preset Label="oceanSwimming_Reactions_Wade_Slimed" Value="213399" />
+  <Preset Label="Energy Failure (sim_EnergyFailure_Wading)" Value="213429" />
+  <Preset Label="Siren's Call (mermaid_SirensCall_Cont)" Value="213443" />
+  <Preset Label="Siren's Call (mermaid_Socials_Pull)" Value="213453" />
+  <Preset Label="React Negatively to Poaching (reaction_Inappropriate_Fishing_CaughtEndangeredFish)" Value="213458" />
+  <Preset Label="Go Fishing (fishingLocation_GoFishing_Spot_Child_Ocean)" Value="213460" />
+  <Preset Label="Go Fishing (fishingLocation_GoFishing_Spot_Ocean)" Value="213462" />
+  <Preset Label="Pulled Underwater (oceanSwimming_Reactions_Swim_PulledUnder_Mermaid)" Value="213507" />
+  <Preset Label="fishingLocation_Cast_Ocean" Value="213516" />
+  <Preset Label="Angle For Big Catch (fishingLocation_GoFishing_Spot_AngleForBigCatch_Ocean)" Value="213519" />
+  <Preset Label="fishingLocation_AngleForBigCatch_Ocean" Value="213520" />
+  <Preset Label="Fish with Bait (fishing_BaitHook_IslandCanoe)" Tags="TestUnsafe" Value="213584" />
+  <Preset Label="computer_WriteBook_Staging_Conservationist_GrantApplication" Value="213594" />
+  <Preset Label="Free Dive Around Here (oceanDiving_Mermaid_Freediving)" Value="213663" />
+  <Preset Label="Free Dive for Seashells (oceanDiving_Mermaid_Freediving_Seashells)" Value="213664" />
+  <Preset Label="Free Dive for Treasure (oceanDiving_Mermaid_Freediving_TreasureHunt)" Value="213675" />
+  <Preset Label="Spearfish (oceanDiving_Mermaid_Freediving_Spearfish)" Value="213684" />
+  <Preset Label="Spearfishing Gun (oceanDiving_purchasegear_SpearfishingGun_Mermaid)" Value="213838" />
+  <Preset Label="Call Over Dolphin (dolphin_NameOverride_Merfolk_Ocean)" Value="213855" />
+  <Preset Label="mermaid_Mixers_Sing" Value="213891" />
+  <Preset Label="Take Bath (bathtub_TakeBath_Mermaid)" Value="213938" />
+  <Preset Label="Take Bubble Bath (bathtub_TakeBubbleBath_Mermaid)" Value="213939" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_Boat_Swim)" Value="213983" />
+  <Preset Label="Deploy Water Vehicle in Ocean (deployWaterScooterInOcean_Walkby_IslandCanoe)" Value="214036" />
+  <Preset Label="Mermaid's Kiss (mixer_social_Mermaid_KissinWater_Mermaid)" Tags="TestUnsafe" Value="214084" />
+  <Preset Label="Mermaid's Kiss (pool_Mermaid_KissinWater_MermaidPower)" Value="214085" />
+  <Preset Label="Aquatic Lure (mermaid_AquaticLure_FishingHole)" Value="214163" />
+  <Preset Label="Mermaid_HungerFailure_Death" Value="214192" />
+  <Preset Label="fishingLocation_Cast_Bay" Value="214267" />
+  <Preset Label="Go Fishing (fishingLocation_GoFishing_Spot_Bay)" Value="214268" />
+  <Preset Label="Go Fishing (fishingLocation_GoFishing_Spot_Child_Bay)" Value="214269" />
+  <Preset Label="Angle For Big Catch (fishingLocation_GoFishing_Spot_AngleForBigCatch_Bay)" Value="214270" />
+  <Preset Label="immediate_Career_Conservationist_PayFineFishing" Value="214354" />
+  <Preset Label="immediate_Career_Conservationist_PayFineLittering" Value="214368" />
+  <Preset Label="Feed {1.ObjectName} (si_Dolphin_Feed_InventoryFish)" Value="214373" />
+  <Preset Label="Call Rainstorm (islandCanoe_Mermaid_CallStorm)" Value="214395" />
+  <Preset Label="Kava (kavaBowl_StopCrafting)" Value="214396" />
+  <Preset Label="Snorkel (oceanDiving_Dummy_Snorkel)" Value="214416" />
+  <Preset Label="Scuba Dive (oceanDiving_Dummy_Dive)" Value="214418" />
+  <Preset Label="Buy Beach Supplies (purchase_BeachProvisionShack_Child)" Tags="TestUnsafe" Value="214436" />
+  <Preset Label="Swim Laps (swim-laps_slow_mermaid)" Value="214573" />
+  <Preset Label="Place on Table (si_IslandEvents_TownPotluck_NPC_CreateObjectOnTable_Food)" Value="214584" />
+  <Preset Label="Place on Table (si_IslandEvents_TownPotluck_NPC_CreateObjectOnTable_Food_Veggie)" Value="214642" />
+  <Preset Label="Call Over Albino Dolphin (lotTrait_OceanicParadise_SummonDolphin_Albino)" Value="214699" />
+  <Preset Label="Survey (si_Career_Conservationist_SurveyReserve_BeachCave)" Value="214761" />
+  <Preset Label="Spray Invasive Species (si_Career_Conservationist_SprayInvasiveSpecies_BeachCave)" Value="214771" />
+  <Preset Label="oceanSwimming_Reactions_Wade_Slimed_Trash" Value="214775" />
+  <Preset Label="autonomous_ObjectPicker_IslandConservation_litteringsim_FindTrashcan" Tags="TestUnsafe" Value="214781" />
+  <Preset Label="Take Vacation Day (Fisherman) (phone_TakePTO_PartTime_Fisherman)" Value="214785" />
+  <Preset Label="Take Photo (si_Career_Conservationist_TakePhoto_Standard)" Value="214805" />
+  <Preset Label="Take Photo (sI_Career_Conservationist_TakePhoto_Reward)" Value="214841" />
+  <Preset Label="Take Vacation Day (Diver) (phone_TakePTO_PartTime_Diver)" Value="214854" />
+  <Preset Label="Take Vacation Day (Lifeguard) (phone_TakePTO_PartTime_Lifeguard)" Value="214855" />
+  <Preset Label="Call Rainstorm (mermaid_CallStorm_IslandCanoe_Rain)" Value="214884" />
+  <Preset Label="Call Clear Skies (mermaid_CallStorm_IslandCanoe_Sunny)" Value="214885" />
+  <Preset Label="Call Thunderstorm (mermaid_CallStorm_IslandCanoe_Thunder)" Value="214887" />
+  <Preset Label="swimmingReactions_Mixers_Slimed_Trash" Value="215094" />
+  <Preset Label="reaction_Mixer_Scared_VolcanicActivity" Value="215150" />
+  <Preset Label="Panic (reactions_Scared_VolcanicActivity_lotTrait)" Value="215151" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_Swim_FishTrap)" Value="215387" />
+  <Preset Label="fishingLocation_AngleForBigCatch_Bay" Value="215403" />
+  <Preset Label="Share Mermaid Discovery (mixer_social_ShareMerfolkLore_target_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="215486" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_WaterScooter_Swim)" Value="215624" />
+  <Preset Label="Complain about Being Dirty (sim_HygieneDistress_Mermaid)" Value="215650" />
+  <Preset Label="Complain about Being Dirty (sim_HygieneFailure_Mermaid)" Value="215652" />
+  <Preset Label="computer_CreateGrantApplication" Value="215656" />
+  <Preset Label="idle_Hygiene_Mermaid" Value="215764" />
+  <Preset Label="Siren's Lullaby (mermaid_Socials_Lullaby_Listen)" Value="215832" />
+  <Preset Label="Play in the Bath (bathtub_Play_Mermaid)" Value="215876" />
+  <Preset Label="Nap in Bath (bathtub_Nap_Mermaid)" Value="215915" />
+  <Preset Label="Place in World (swipeAddToWorld_Waterscooter)" Value="216303" />
+  <Preset Label="Sleep (mermaid_EnergyFailure_SleepAuto)" Value="216543" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_FishTrap)" Value="216552" />
+  <Preset Label="Listen to Island Radio (stereo_Listen_Island_Bot)" Value="223579" />
+  <Preset Label="Ride Here (AggregateSI_Vehicle_WaterScooter_RideHere)" Value="229820" />
+  <Preset Label="Sail Here (AggregateSI_Vehicle_IslandCanoe_RideHere)" Value="229821" />
+  <Preset Label="Ride Here (waterScooter_Picker_RideHere_Terrain_Favorite)" Tags="TestUnsafe" Value="229864" />
+  <Preset Label="Sail Here (islandCanoe_Picker_RideHere_Terrain_Favorite)" Tags="TestUnsafe" Value="229865" />
+  <Preset Label="Go to Work (si_Career_AdultLifeguard)" Value="251986" />
+  <Preset Label="Go to Work (si_Career_Diver)" Value="252404" />
+  <Preset Label="Go to Work (si_Career_Fisherman)" Value="253034" />
+  <Preset Label="Take Vacation Day (Lifeguard) (phone_TakePTO_PartTime_Lifeguard_Teen)" Value="256626" />
+  <Preset Label="Take Vacation Day (Conservationist) (phone_TakePTO_Conservationist)" Value="256657" />
+  <Preset Label="Cook Feast (pitBBQ_StartCrafting_RequiredIngredients)" Value="261966" />
+</PresetGroup>

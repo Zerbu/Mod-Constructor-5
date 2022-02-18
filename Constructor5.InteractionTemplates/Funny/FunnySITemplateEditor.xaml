@@ -14,13 +14,13 @@
                      FontSize="{StaticResource Constructor.BigFontSize}"
                      Header="Settings">
                 <StackPanel>
-                    <c:Field Label="Pie Menu Category" LabelWidth="150">
+                    <c:Field Label="PieMenuCategory" LabelWidth="150">
                         <c:ReferenceControl ElementTypeName="PieMenuCategory"
                                             Reference="{Binding PieMenuCategory}"
                                             ResetTo="15504"
                                             ResetToLabel="Friendly" />
                     </c:Field>
-                    <c:CheckBox Content="Count towards &quot;Tell Joke&quot; goals" IsChecked="{Binding IsJoke}" />
+                    <c:CheckBox Content="CountTowardsTellJoke" IsChecked="{Binding IsJoke}" />
                     <c:CheckBox x:Name="GlobalInteractionCheckBox"
                                 Content="IsGlobalInteraction"
                                 IsChecked="{Binding IsGlobalInteraction}" />

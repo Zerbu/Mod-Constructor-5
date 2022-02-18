@@ -9,12 +9,20 @@ namespace Constructor5.Base.ElementSystem
 {
     public abstract class Element : INotifyPropertyChanged
     {
+#pragma warning disable CS0067
+
         public event PropertyChangedEventHandler PropertyChanged;
+
+#pragma warning restore CS0067
 
         public ObservableCollection<ContextModifier> ContextModifiers { get; } = new ObservableCollection<ContextModifier>();
 
         [XmlAttribute]
-        public string CustomLabel { get; set; }
+        public string CustomLabel
+        {
+            get => _customLabel;
+            set => _customLabel = !string.IsNullOrEmpty(value) ? value : null;
+        }
 
         public string GeneratedLabel
         {
@@ -109,6 +117,7 @@ namespace Constructor5.Base.ElementSystem
 
         protected internal virtual void OnUserCreated(string label) => CustomLabel = label;
 
+        private string _customLabel;
         private string _generatedLabel;
         private string _guid;
         private bool _isContextSpecific;

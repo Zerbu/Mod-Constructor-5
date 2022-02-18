@@ -8,7 +8,7 @@ using Constructor5.Elements.Situations.Components;
 
 namespace Constructor5.Elements.Situations
 {
-    [ElementTypeData("SituationElement", false, ElementTypes = new[] { typeof(Situation) }, PresetFolders = new[] { "Situation" }, IsRootType = true)]
+    [ElementTypeData("SituationElement", true, ElementTypes = new[] { typeof(Situation) }, PresetFolders = new[] { "Situation" }, IsRootType = true)]
     public class Situation : SimpleComponentElement<SituationComponent>, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();

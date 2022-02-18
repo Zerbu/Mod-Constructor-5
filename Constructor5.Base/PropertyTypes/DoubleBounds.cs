@@ -15,7 +15,9 @@ namespace Constructor5.Base.PropertyTypes
             UpperBound = upper;
         }
 
+#pragma warning disable CS0067
         public event PropertyChangedEventHandler PropertyChanged;
+#pragma warning restore CS0067
 
         public double LowerBound { get; set; } = 0;
         public bool RestrictLowerBound { get; set; }

@@ -8,9 +8,6 @@ namespace Constructor5.Elements.Traits
     {
         public virtual int ComponentDisplayOrder => 10;
 
-        [XmlIgnore]
-        public Element Element { get; set; }
-
         protected internal abstract void OnExport(TraitExportContext context);
     }
 }

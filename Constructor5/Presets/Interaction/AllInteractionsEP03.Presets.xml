@@ -1,0 +1,1395 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP03">
+  <Preset Label="From eating Pufferfish (death_Pufferfish)" Value="132534" />
+  <Preset Label="From eating Pufferfish (death_Pufferfish_SeatedAtSurface)" Value="132535" />
+  <Preset Label="idle_Trait_Unflirty" Value="132591" />
+  <Preset Label="From eating Pufferfish (Death_Pufferfish_Seated)" Value="132609" />
+  <Preset Label="Give the Cold Shoulder (mixer_social_UnflirtyTrait_GiveColdShoulder_Targeted_Mean_AlwaysOn)" Tags="TestUnsafe" Value="132632" />
+  <Preset Label="Reprimand Public Intimacy (mixer_social_UnflirtyTrait_ReprimandPublicIntimacy_Targeted_Mean_AlwaysOn)" Tags="TestUnsafe" Value="132633" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food)" Value="132722" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood)" Value="132723" />
+  <Preset Label="Swag (purchase_MarketStalls_LampFestival)" Tags="TestUnsafe" Value="132794" />
+  <Preset Label="Buy Swag (marketStalls_ShopFor_Festival)" Value="132796" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft)" Value="132798" />
+  <Preset Label="Buy Festival T-Shirt (marketStalls_BuyCASasset_FoodShirt)" Value="132818" />
+  <Preset Label="Buy and Wear Spice Festival T-Shirt (marketStalls_BuyCASassetAndWear_FoodShirt)" Value="132822" />
+  <Preset Label="Produce (purchase_MarketStalls_Grocery)" Tags="TestUnsafe" Value="132853" />
+  <Preset Label="Order Drink (marketStalls_pushOrderDrink)" Value="132940" />
+  <Preset Label="Make Small Talk (mixer_social_MakeSmallTalk_targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="133183" />
+  <Preset Label="ERADICATE! (object_Repair_ApartmentProblem_RoachHole)" Value="133236" />
+  <Preset Label="Attempt To Repair (object_Repair_ApartmentProblem_RandomSmell)" Value="133237" />
+  <Preset Label="Attempt To Repair (object_Repair_ApartmentProblem_GooPuddle)" Value="133238" />
+  <Preset Label="Attempt To Repair (object_Repair_ApartmentProblem_LeakyPipe)" Value="133239" />
+  <Preset Label="Attempt To Repair (object_Repair_ApartmentProblem_ElectricalProblem)" Value="133240" />
+  <Preset Label="Read Sign (dynamicSign_Read)" Value="133323" />
+  <Preset Label="View Sign (si_DynamicSign_View)" Value="133335" />
+  <Preset Label="Reset Flavor Cartridge (BubbleBlower_ChangeCartridge_1_Default)" Value="133544" />
+  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio)" Value="133549" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld)" Value="133552" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld_HotTub)" Value="133553" />
+  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio_HotTub)" Value="133556" />
+  <Preset Label="Watch World Culture Network (tv_watch_CulturalWorld)" Value="133557" />
+  <Preset Label="Watch Civic Public Access (tv_watch_PublicAccess)" Value="133558" />
+  <Preset Label="Fairy Fizz (BubbleBlower_ChangeCartridge_2)" Value="133561" />
+  <Preset Label="Turn On (Stereo_communityWallSpeaker_turnOn_CulturalWorld)" Value="133618" />
+  <Preset Label="Jam (guitar_Jam_PerformanceSpace)" Value="133619" />
+  <Preset Label="Play Concerto (violin_Concerto_PerformanceSpace)" Value="133665" />
+  <Preset Label="Blow Bubbles (BubbleBlower_Use_mixer)" Value="133671" />
+  <Preset Label="Tip (performanceSpace_Tip_5)" Value="133692" />
+  <Preset Label="Tip (performanceSpace_Tip_10)" Value="133693" />
+  <Preset Label="Tip (performanceSpace_Tip_1)" Value="133694" />
+  <Preset Label="Tip (performanceSpace_Tip_20)" Value="133695" />
+  <Preset Label="Tip (performanceSpace_Tip_100)" Value="133696" />
+  <Preset Label="Busk with Guitar (performanceSpace_PickInstrument_Guitar)" Tags="TestUnsafe" Value="133716" />
+  <Preset Label="Busk with Violin (performanceSpace_PickInstrument_Violin)" Tags="TestUnsafe" Value="133717" />
+  <Preset Label="Watch Performance (performanceSpace_Watch)" Value="133741" />
+  <Preset Label="Unwind (BubbleBlower_Use_SI)" Value="134002" />
+  <Preset Label="Attempt To Repair (object_Repair_ApartmentProblem_Landlord_ElectricalProblem_Landlord)" Value="134140" />
+  <Preset Label="Attempt To Repair (object_Repair_ApartmentProblem_Landlord_GooPuddle)" Value="134141" />
+  <Preset Label="Attempt To Repair (object_Repair_ApartmentProblem_Landlord_LeakyPipe)" Value="134142" />
+  <Preset Label="Attempt To Repair (object_Repair_ApartmentProblem_Landlord_RandomSmell)" Value="134143" />
+  <Preset Label="OBLITERATE! (object_Repair_ApartmentProblem_Landlord_RoachHole)" Value="134144" />
+  <Preset Label="Converse (TalkingToilet_Socialize_staging)" Value="134160" />
+  <Preset Label="Use &amp; Massage (TalkingToilet_UseMassage_sitOnly)" Value="134165" />
+  <Preset Label="Amiable Inquiry (Toilet_Talking_soc_mixer_Friendly_askQuestion)" Value="134178" />
+  <Preset Label="Friendly Chit-Chat (TalkingToilet_Social_friendly_Chitchat_start)" Value="134202" />
+  <Preset Label="Use (TalkingToilet_UseBasic_standing)" Value="134250" />
+  <Preset Label="Use (TalkingToilet_UseBasic_sitting)" Value="134251" />
+  <Preset Label="Use &amp; Sanitize (TalkingToilet_UseSanitize)" Value="134534" />
+  <Preset Label="Use &amp; Watch (TalkingToilet_UseWatch)" Value="134609" />
+  <Preset Label="Set Upgrade: Room Drying (TalkingToilet_setUpgrade_RoomDrying_debug)" Value="134669" />
+  <Preset Label="Thermo-Evaporator (Completed) (TalkingToilet_Upgrade_RoomDrying_display)" Value="134672" />
+  <Preset Label="Add Thermo-Evaporator (TalkingToilet_Upgrade_RoomDrying)" Value="134763" />
+  <Preset Label="Resume Thermo-Evaporator Upgrade (TalkingToilet_Upgrade_RoomDrying_resume)" Value="134764" />
+  <Preset Label="Rude Remark (Toilet_Talking_soc_mixer_Mean_thumbsDown)" Value="134800" />
+  <Preset Label="Rude Remark (TalkingToilet_Social_mean_thumbsDown_start)" Value="134801" />
+  <Preset Label="Install Photon-Projector (TalkingToilet_Upgrade_VFXEmitter)" Value="134803" />
+  <Preset Label="Resume installing Photon-Projector (TalkingToilet_Upgrade_VFXEmitter_resume)" Value="134804" />
+  <Preset Label="Photon-Projector (Completed) (TalkingToilet_Upgrade_VFXEmiter_display)" Value="134805" />
+  <Preset Label="Set Upgrade: VFX Emitter (TalkingToilet_setUpgrade_VFXEmitter_debug)" Value="134806" />
+  <Preset Label="Add Mail (Mailbox_modifyInventory_add1)" Value="134814" />
+  <Preset Label="Clear Mail (mailbox_modifyInventory_clearAll)" Value="134817" />
+  <Preset Label="What IS it?! (reaction_objectFamiliarity_Low_talkingToilet_mixer)" Value="134866" />
+  <Preset Label="What IS it?! (reaction_objectFamiliarity_Low_bubbleBlower_mixer)" Value="134894" />
+  <Preset Label="Cool thing is cool (reaction_objectFamiliarity_High_bubbleBlower_mixer)" Value="134899" />
+  <Preset Label="Cool thing is cool (reaction_objectFamiliarity_High_talkingToilet_mixer)" Value="134900" />
+  <Preset Label="What IS it?! (reaction_ObjectFamiliarity_low_BubbleBlower_Horrified_si)" Value="134904" />
+  <Preset Label="What IS it?! (reaction_ObjectFamiliarity_low_TalkingToilet_Horrified_si)" Value="134908" />
+  <Preset Label="Purchase Fireworks (purchase_FestivalFireworks_computer)" Tags="TestUnsafe" Value="134937" />
+  <Preset Label="Cool thing is cool (reaction_ObjectFamiliarity_high_TalkingToilet_Inspired_si)" Value="134939" />
+  <Preset Label="What IS it?! (reaction_ObjectFamiliarity_low_TalkingToilet_Scared_si)" Value="134943" />
+  <Preset Label="What IS it?! (reaction_ObjectFamiliarity_low_TalkingToilet_Annoyed_si)" Value="134944" />
+  <Preset Label="Cool thing is cool (reaction_ObjectFamiliarity_high_TalkingToilet_Happy_si)" Value="134945" />
+  <Preset Label="reaction_ObjectFamiliarity_TalkingToilet_LowAggregate" Value="134947" />
+  <Preset Label="reaction_ObjectFamiliarity_TalkingToilet_HighAggregate" Value="134948" />
+  <Preset Label="One of these... (reaction_ObjectFamiliarity_med_TalkingToilet_Inspired_si)" Value="134958" />
+  <Preset Label="One of these... (reaction_ObjectFamiliarity_med_TalkingToilet_Bored_si)" Value="134959" />
+  <Preset Label="Cool thing is cool (reaction_ObjectFamiliarity_high_TalkingToilet_Bored_si)" Value="134960" />
+  <Preset Label="reaction_ObjectFamiliarity_TalkingToilet_MedAggregate" Value="134962" />
+  <Preset Label="Light {1.ObjectName} (festivalFireworks_LightFuseOnGround)" Value="134975" />
+  <Preset Label="Watch Fireworks (festivalFireworks_WatchFireworks)" Value="134976" />
+  <Preset Label="Extinguish Firework (festivalFireworks_ExtinguishFirework)" Value="134977" />
+  <Preset Label="Give Sparkler to {2.SimFirstName} (festivalFireworks_HandSparkler_GiveSparkler)" Value="134992" />
+  <Preset Label="Cheering (reaction_Mixers_Fireworks_Cheer)" Value="135016" />
+  <Preset Label="In Awe (reaction_Mixers_Fireworks_Awe)" Value="135017" />
+  <Preset Label="Disappointed (reaction_Mixers_Fireworks_Disappointed)" Value="135018" />
+  <Preset Label="Give Apartment Key (si_touching_ApartmentKey_GiveKey)" Value="135057" />
+  <Preset Label="Revoke Apartment Key (si_touching_ApartmentKey_RevokeKey_continuation)" Value="135058" />
+  <Preset Label="Scare Living Statue (livingStatueBusker_SocialSuperInteractions_Scare)" Value="135069" />
+  <Preset Label="Flash Crazy Eyes (livingStatueBusker_SocialSuperInteractions_CrazyEyes)" Value="135070" />
+  <Preset Label="Tease Living Statue (livingStatueBusker_SocialSuperInteractions_Impression)" Value="135071" />
+  <Preset Label="Wave at Living Statue (livingStatueBusker_SocialSuperInteractions_Wave)" Value="135072" />
+  <Preset Label="Flirt With Living Statue (livingStatueBusker_SocialSuperInteractions_FlirtyWith)" Value="135073" />
+  <Preset Label="Tip Living Statue (livingStatueBusker_SocialSuperInteractions_Tip)" Value="135074" />
+  <Preset Label="Goofball Greet (social_ApartmentNeighbor_greet_GoofyWave_si)" Value="135101" />
+  <Preset Label="Ask to Chat (door_ApartmentAskToChatPicker)" Tags="TestUnsafe" Value="135105" />
+  <Preset Label="Watch Living Statue (livingStatueBusker_SuperInteraction_ViewWatch)" Value="135119" />
+  <Preset Label="Solicit Tips (mixer_PerformanceSpace_solicitTip)" Value="135125" />
+  <Preset Label="cityLifeBusker_Mixer_WatchIdle" Value="135138" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous)" Value="135144" />
+  <Preset Label="Revoke Apartment Key (SI_ApartmentNeighbor_RevokeKey_start)" Value="135185" />
+  <Preset Label="Go to Work (si_Career_Activist)" Value="135206" />
+  <Preset Label="cityLife_Walkbys_PhoneChatter_SuperInteraction_ChatOnPhone" Value="135228" />
+  <Preset Label="cityLife_Walkbys_LivingStatueBusker_SuperInteraction_Pose_Autonomous" Value="135232" />
+  <Preset Label="cityLife_Walkbys_Tourist_SuperInteraction_TakePhoto" Value="135233" />
+  <Preset Label="Choose Speak for the Trees (si_Career_Activist_ChooseCause_Environment)" Value="135250" />
+  <Preset Label="Choose No Sim Left Behind (si_Career_Activist_ChooseCause_Tax)" Value="135289" />
+  <Preset Label="Choose Simoleons for Everyone (si_Career_Activist_ChooseCause_Economy)" Value="135290" />
+  <Preset Label="Choose World United (si_Career_Activist_ChooseCause_Peace)" Value="135295" />
+  <Preset Label="Choose Foundation for Less Mischief (si_Career_Activist_ChooseCause_Justice)" Value="135296" />
+  <Preset Label="Scatter Petals (si_BlossomFestival_ScatterPetals)" Value="135337" />
+  <Preset Label="Xanadu Sunset (BubbleBlower_ChangeCartridge_7)" Value="135355" />
+  <Preset Label="Deepest Plum (BubbleBlower_ChangeCartridge_6)" Value="135356" />
+  <Preset Label="Jade Dragon (BubbleBlower_ChangeCartridge_5)" Value="135357" />
+  <Preset Label="Passionfruit Potion (BubbleBlower_ChangeCartridge_4)" Value="135358" />
+  <Preset Label="Snow Flurry (BubbleBlower_ChangeCartridge_3)" Value="135359" />
+  <Preset Label="reaction_Mixers_BlossomFestival_Scatter" Value="135360" />
+  <Preset Label="Grab a Poster (collection_Posters_PowerBox_Collect)" Value="135390" />
+  <Preset Label="Look for Snow Globes (collection_SnowGlobes_JunkBox_Collect)" Value="135391" />
+  <Preset Label="Go to Work (si_Career_SocialMedia)" Value="135395" />
+  <Preset Label="Cosmic Encounter (BubbleBlower_ChangeCartridge_8)" Value="135413" />
+  <Preset Label="What IS it?! (reaction_ObjectFamiliarity_low_BubbleBlower_Annoyed_si)" Value="135443" />
+  <Preset Label="What IS it?! (reaction_ObjectFamiliarity_low_BubbleBlower_Sad_si)" Value="135444" />
+  <Preset Label="reaction_ObjectFamiliarity_BubbleBlower_HighAggregate" Value="135445" />
+  <Preset Label="reaction_ObjectFamiliarity_BubbleBlower_LowAggregate" Value="135446" />
+  <Preset Label="reaction_ObjectFamiliarity_BubbleBlower_MedAggregate" Value="135447" />
+  <Preset Label="Promote Cause (socials_Targeted_Friendly_AlwaysOn_Career_Activist_PromoteCause)" Tags="TestUnsafe" Value="135455" />
+  <Preset Label="Collect Donation (§25) (socials_Targeted_Friendly_AlwaysOn_Career_Activist_CollectDonations10)" Tags="TestUnsafe" Value="135461" />
+  <Preset Label="Cool thing is cool (reaction_objectFamiliarity_high_BubbleBlower_Bored_si)" Value="135501" />
+  <Preset Label="Cool thing is cool (reaction_objectFamiliarity_high_BubbleBlower_Inspired_si)" Value="135502" />
+  <Preset Label="Cool thing is cool (reaction_objectFamiliarity_high_BubbleBlower_Excited_si)" Value="135503" />
+  <Preset Label="Cool thing is cool (reaction_objectFamiliarity_high_BubbleBlower_Happy_si)" Value="135504" />
+  <Preset Label="One of these... (reaction_objectFamiliarity_med_BubbleBlower_Bored_si)" Value="135505" />
+  <Preset Label="One of these... (reaction_objectFamiliarity_med_BubbleBlower_Annoyed_si)" Value="135506" />
+  <Preset Label="One of these... (reaction_objectFamiliarity_med_BubbleBlower_Happy_si)" Value="135507" />
+  <Preset Label="Collect Donation (§100) (socials_Targeted_Friendly_AlwaysOn_Career_Activist_CollectDonations100)" Tags="TestUnsafe" Value="135509" />
+  <Preset Label="Collect Donation (§250) (socials_Targeted_Friendly_AlwaysOn_Career_Activist_CollectDonations1000)" Tags="TestUnsafe" Value="135513" />
+  <Preset Label="Collect Donation (§1000) (socials_Targeted_Friendly_AlwaysOn_Career_Activist_CollectDonations10000)" Tags="TestUnsafe" Value="135514" />
+  <Preset Label="Promote Policies (socials_Targeted_Friendly_AlwaysOn_Career_Activist_PromotePolicies)" Tags="TestUnsafe" Value="135521" />
+  <Preset Label="Order Drink (marketStalls_PushOrder_Drink_Autonomous_DarkTea)" Value="135524" />
+  <Preset Label="Order Drink (marketStalls_PushOrder_Drink_Autonomous_LightTea)" Value="135525" />
+  <Preset Label="A.I. Matrix (Completed) (TalkingToilet_Upgrade_CustomPersona_display)" Value="135638" />
+  <Preset Label="Program A.I. Matrix (TalkingToilet_Upgrade_CustomPersona)" Value="135639" />
+  <Preset Label="Resuming Programming of A.I. Matrix (TalkingToilet_Upgrade_CustomPersona_resume)" Value="135640" />
+  <Preset Label="Set Upgrade: Custom Personas (TalkingToilet_setUpgrade_CustomPersona_debug)" Value="135641" />
+  <Preset Label="Take Vacation Day (Social Media) (phone_TakePTO_SocialMedia)" Value="135655" />
+  <Preset Label="Secure Vote (socials_Targeted_Friendly_AlwaysOn_Career_Activist_SecureVotes)" Tags="TestUnsafe" Value="135682" />
+  <Preset Label="livingStatueBusker_CityLife_Pose_3" Value="135685" />
+  <Preset Label="livingStatueBusker_CityLife_Pose_1" Value="135686" />
+  <Preset Label="livingStatueBusker_CityLife_Pose_2" Value="135687" />
+  <Preset Label="weirdo_CityLife_TalkToSelf" Value="135720" />
+  <Preset Label="Throw Petals (si_BlossomFestival_ThrowPetals_Autonomous)" Value="135727" />
+  <Preset Label="Nap (chair_BubbleBlower_Nap)" Value="135737" />
+  <Preset Label="fireworks_Mixer_WatchIdle" Value="135741" />
+  <Preset Label="Look Out Window (LotMods_ApartmentWindow_View_si)" Value="135744" />
+  <Preset Label="Check Cause Progress (computer_Career_Activist_CheckCauseProgress)" Value="135746" />
+  <Preset Label="Read Plaque (LotMods_HistoricPlaque_View_si)" Value="135752" />
+  <Preset Label="Protest for Cause (si_career_Activist_ProtestCause_Chosen)" Value="135755" />
+  <Preset Label="Speak for the Trees (computer_DonateOnline_10_Environment)" Value="135756" />
+  <Preset Label="No Sim Left Behind (computer_DonateOnline_10_Tax)" Value="135757" />
+  <Preset Label="Simoleons for Everyone (computer_DonateOnline_10_Economy)" Value="135758" />
+  <Preset Label="World United (computer_DonateOnline_10_Peace)" Value="135759" />
+  <Preset Label="Foundation for Less Mischief (computer_DonateOnline_10_Justice)" Value="135760" />
+  <Preset Label="Speak for the Trees (computer_DonateOnline_100_Environment)" Value="135761" />
+  <Preset Label="No Sim Left Behind (computer_DonateOnline_100_Tax)" Value="135785" />
+  <Preset Label="Simoleons for Everyone (computer_DonateOnline_100_Economy)" Value="135786" />
+  <Preset Label="Set Voice: Male (TalkingToilet_ControlPanel_SetPersona_Male)" Value="135787" />
+  <Preset Label="Set Voice: Female (TalkingToilet_ControlPanel_SetPersona_Female)" Value="135788" />
+  <Preset Label="World United (computer_DonateOnline_100_Peace)" Value="135789" />
+  <Preset Label="Foundation for Less Mischief (computer_DonateOnline_100_Justice)" Value="135790" />
+  <Preset Label="Speak for the Trees (computer_DonateOnline_1000_Environment)" Value="135791" />
+  <Preset Label="No Sim Left Behind (computer_DonateOnline_1000_Tax)" Value="135792" />
+  <Preset Label="Simoleons for Everyone (computer_DonateOnline_1000_Economy)" Value="135794" />
+  <Preset Label="World United (computer_DonateOnline_1000_Peace)" Value="135795" />
+  <Preset Label="Foundation for Less Mischief (computer_DonateOnline_1000_Justice)" Value="135796" />
+  <Preset Label="Kiss Baby (baby_Cuddle_Career_Activist_KissBaby)" Value="135822" />
+  <Preset Label="Ask for Small Bribe (socials_Targeted_Friendly_AlwaysOn_Career_Activist_AskForSmallBribe)" Tags="TestUnsafe" Value="135865" />
+  <Preset Label="Ask for Large Bribe (socials_Targeted_Friendly_AlwaysOn_Career_Activist_AskForLargeBribe)" Tags="TestUnsafe" Value="135875" />
+  <Preset Label="Join Protest (si_career_Activist_JoinProtest)" Value="135899" />
+  <Preset Label="Golden Rush (BubbleBlower_ChangeCartridge_9)" Value="135905" />
+  <Preset Label="Go to Work (si_Career_Critic)" Value="136120" />
+  <Preset Label="Watch Protest (si_career_Activist_WatchProtest)" Value="136143" />
+  <Preset Label="mixerInteraction_Career_Activist_CheerProtest" Value="136145" />
+  <Preset Label="Heckle Protest (mixerInteraction_Career_Activist_HeckleProtest)" Value="136146" />
+  <Preset Label="Watch Protest (mixerInteraction_Career_Activist_WatchProtestIdle)" Value="136147" />
+  <Preset Label="Talk To Protester (socials_Targeted_Friendly_AlwaysOn_Career_Activist_TalkToProtester)" Tags="TestUnsafe" Value="136150" />
+  <Preset Label="Give Donation To Protester (socials_Targeted_Friendly_AlwaysOn_Career_Activist_GiveDonationToProtester)" Tags="TestUnsafe" Value="136151" />
+  <Preset Label="Take Vacation Day (Critic) (phone_TakePTO_Critic)" Value="136175" />
+  <Preset Label="Put in Inventory (canvas_MoveToInventory_Festival)" Value="136197" />
+  <Preset Label="Sample (generic_Consume_Sample)" Value="136354" />
+  <Preset Label="Sample Food (generic_food_GrabSample)" Value="136365" />
+  <Preset Label="Discuss Local Cuisine (mixer_social_AskAboutCulturalFoods_targeted_Friendly)" Tags="TestUnsafe" Value="136400" />
+  <Preset Label="Convince Protesters To Leave (socials_Targeted_Friendly_AlwaysOn_Career_Activist_ConvinceProtestersToLeave)" Tags="TestUnsafe" Value="136454" />
+  <Preset Label="Take Vacation Day (Political Career) (phone_TakePTO_Activist)" Value="136494" />
+  <Preset Label="Check-In at {2.String} (phone_SocialMedia_CheckInAtVenue)" Value="136521" />
+  <Preset Label="Respond to Mail (computer_RespondToMail)" Value="136522" />
+  <Preset Label="Share Jokes With Followers (computer_SocialNetwork_SocialMediaCareer_InternetPersonality_ShareJokesWithFollowers)" Value="136526" />
+  <Preset Label="Advertise Minor Product (computer_SocialNetwork_SocialMediaCareer_InternetPersonality_AdvertiseMinorProduct)" Value="136527" />
+  <Preset Label="Prank Streamers (computer_SocialNetwork_SocialMediaCareer_InternetPersonality_PrankStreamers)" Value="136528" />
+  <Preset Label="Start Funny Meme (computer_SocialNetwork_SocialMediaCareer_InternetPersonality_StartFunnyMeme)" Value="136529" />
+  <Preset Label="Network With Journalists (computer_SocialNetwork_SocialMediaCareer_PublicRelations_NetworkWithJournalists)" Value="136530" />
+  <Preset Label="Blog for Followers (computer_SocialNetwork_SocialMediaCareer_PublicRelations_PostNewBlogForFollowers)" Value="136531" />
+  <Preset Label="Represent Friend (computer_Picker_SocialNetwork_SocialMediaCareer_PublicRelations_RepresentFriend)" Tags="TestUnsafe" Value="136532" />
+  <Preset Label="Advertise Major Product (computer_SocialNetwork_SocialMediaCareer_InternetPersonality_AdvertiseMajorProduct)" Value="136572" />
+  <Preset Label="Advertise Massive Sponsorship (computer_SocialNetwork_SocialMediaCareer_InternetPersonality_AdvertiseMassiveSponsorship)" Value="136573" />
+  <Preset Label="Flirt (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToFlirt)" Tags="TestUnsafe" Value="136594" />
+  <Preset Label="Smile (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToSmile)" Tags="TestUnsafe" Value="136603" />
+  <Preset Label="Rant (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToRant)" Tags="TestUnsafe" Value="136604" />
+  <Preset Label="Goof Off (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToGoofOff)" Tags="TestUnsafe" Value="136605" />
+  <Preset Label="Debate Politics from the Left (socials_Targeted_Friendly_AlwaysOn_Career_Activist_EndorsePolitics_Left)" Tags="TestUnsafe" Value="136606" />
+  <Preset Label="Debate Politics from the Right (socials_Targeted_Friendly_AlwaysOn_Career_Activist_EndorsePolitics_Right)" Tags="TestUnsafe" Value="136616" />
+  <Preset Label="Debate Politics (socials_Targeted_Friendly_AlwaysOn_Career_Activist_EndorsePolitics_Alignment)" Tags="TestUnsafe" Value="136617" />
+  <Preset Label="Respond to Mail (phone_RespondToMail)" Value="136658" />
+  <Preset Label="Use &amp; Sanitize (TalkingToilet_UseSanitize_sit)" Value="136684" />
+  <Preset Label="Toilet_Talking_UseWatch_mixer" Value="136701" />
+  <Preset Label="Toilet_Talking_UseSanitize_useLoop_mixer" Value="136702" />
+  <Preset Label="Toilet_Talking_UseMassage_mixer" Value="136703" />
+  <Preset Label="Use &amp; Watch (TalkingToilet_UseWatch_sit)" Value="136718" />
+  <Preset Label="Share Bad News (Toilet_Talking_soc_mixer_Sad_shareBadNews)" Value="136720" />
+  <Preset Label="Apologize (Toilet_Talking_soc_mixer_Sad_apologizePlead)" Value="136721" />
+  <Preset Label="Mock Artificial Intelligence (Toilet_Talking_soc_mixer_Mean_imitateMock)" Value="136722" />
+  <Preset Label="Criticize Technology (Toilet_Talking_soc_mixer_Mean_genericInsult)" Value="136723" />
+  <Preset Label="Blah Blah Blah (Toilet_Talking_soc_mixer_Mean_blahBlah)" Value="136724" />
+  <Preset Label="Tell Joke (Toilet_Talking_soc_mixer_Friendly_tellJoke)" Value="136725" />
+  <Preset Label="Gush (Toilet_Talking_soc_mixer_Friendly_enthuseAbout)" Value="136726" />
+  <Preset Label="Cordial Dialogue (Toilet_Talking_soc_mixer_Friendly_discussTopic)" Value="136727" />
+  <Preset Label="Compliment (Toilet_Talking_soc_mixer_Friendly_compliment)" Value="136728" />
+  <Preset Label="Beg Forgiveness (Toilet_Talking_soc_mixer_Friendly_begForgiveness)" Value="136729" />
+  <Preset Label="Represent Anyone (computer_Picker_SocialNetwork_SocialMediaCareer_PublicRelations_RepresentClient)" Tags="TestUnsafe" Value="136735" />
+  <Preset Label="Practice Speech (Podium_PracticeSpeech)" Value="136753" />
+  <Preset Label="Record Rant (computer_SocialNetwork_SocialMediaCareer_InternetPersonalityRecordRant)" Value="136772" />
+  <Preset Label="Network With {2.SimName} (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_NetworkWithJournalist)" Tags="TestUnsafe" Value="136775" />
+  <Preset Label="Podium_Mixer_PracticeSpeech1" Value="136777" />
+  <Preset Label="Podium_Mixer_PracticeSpeech2" Value="136778" />
+  <Preset Label="Podium_Mixer_PracticeSpeech3" Value="136779" />
+  <Preset Label="Podium_Mixer_PracticeSpeech4" Value="136780" />
+  <Preset Label="Play Music (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToPlayMusic)" Tags="TestUnsafe" Value="136786" />
+  <Preset Label="Cook (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToCook)" Tags="TestUnsafe" Value="136787" />
+  <Preset Label="Do Comedy (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToDoComedy)" Tags="TestUnsafe" Value="136788" />
+  <Preset Label="Work Out (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToWorkOut)" Tags="TestUnsafe" Value="136789" />
+  <Preset Label="Play Games (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToPlayGames)" Tags="TestUnsafe" Value="136790" />
+  <Preset Label="Sing (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToSing)" Tags="TestUnsafe" Value="136791" />
+  <Preset Label="Broadcast Status (computer_SocialNetwork_SocialMediaCareer_InternetPersonality_BroadcastStatus)" Value="136798" />
+  <Preset Label="Promote Image (computer_SocialNetwork_SocialMediaCareer_InternetPersonality_PromoteImage)" Value="136800" />
+  <Preset Label="Stream Let's Play Blicblock (computer_StreamLetsPlay_Blicblock)" Value="136803" />
+  <Preset Label="Stream Let's Play Hillock II (computer_StreamLetsPlay_Hillock)" Value="136804" />
+  <Preset Label="Stream Let's Play Incredible Sports (computer_StreamLetsPlay_IncredibleSports)" Value="136805" />
+  <Preset Label="Stream Let's Play MySims Go! (computer_StreamLetsPlay_MariaSisters)" Value="136806" />
+  <Preset Label="Stream Let's Play Sims Forever (computer_StreamLetsPlay_SimsForever)" Value="136807" />
+  <Preset Label="Stream Let's Play The R.E.F.U.G.E. (computer_StreamLetsPlay_REFUGE)" Value="136808" />
+  <Preset Label="Stream Let's Play Road Rival Alpha (computer_StreamLetsPlay_RoadRival)" Value="136809" />
+  <Preset Label="Give Speech (Podium_GiveSpeech)" Value="136817" />
+  <Preset Label="Break Electronics (DEBUG) (TalkingToilet_setState_electronics_Broken_debug)" Value="136830" />
+  <Preset Label="Repair Electronics (DEBUG) (TalkingToilet_setState_electronics_Repaired_debug)" Value="136831" />
+  <Preset Label="Repair Electronics (object_Repair_Electronic_ToiletTalking)" Value="136837" />
+  <Preset Label="Watch: News Feed (TalkingToilet_ControlPanel_setHologram_2)" Value="136851" />
+  <Preset Label="Watch: Waterfall (TalkingToilet_ControlPanel_setHologram_1)" Value="136852" />
+  <Preset Label="Watch: Disco (TalkingToilet_ControlPanel_setHologram_3)" Value="136853" />
+  <Preset Label="Write Column (computer_WriteColumn)" Value="136856" />
+  <Preset Label="Give Angry Speech (podium_GiveSpeech_Angry)" Value="136921" />
+  <Preset Label="Give Confident Speech (podium_GiveSpeech_Confident)" Value="136922" />
+  <Preset Label="Give Energized Speech (podium_GiveSpeech_Energized)" Value="136923" />
+  <Preset Label="Give Inspired Speech (podium_GiveSpeech_Inspired)" Value="136924" />
+  <Preset Label="Write Column about Festival (computer_WriteColumnAboutFestival)" Value="136961" />
+  <Preset Label="Laud Meal (Food_LaudMeal)" Value="136976" />
+  <Preset Label="Get Lauded Meal (Food_GetLaudedMeal)" Value="136977" />
+  <Preset Label="Buy {1.ObjectName} (si_BuyObject_FleaMarket)" Value="137060" />
+  <Preset Label="Chat With {1.SimFirstName} (door_ApartmentAskToChat)" Value="137118" />
+  <Preset Label="Watch {1.SimName} Give Speech (podium_SocialWatchSpeech)" Value="137131" />
+  <Preset Label="mixer_Podium_WatchSpeech_Clap" Tags="TestUnsafe" Value="137137" />
+  <Preset Label="mixer_Podium_WatchSpeech_Idle" Tags="TestUnsafe" Value="137140" />
+  <Preset Label="DEBUG - Unlock All City Living Recipes (culturalFood_Immediate_UnlockAllRecipes_Debug)" Value="137144" />
+  <Preset Label="Give Speech (podium_SocialGiveSpeech)" Value="137147" />
+  <Preset Label="Give Speech (podium_SocialGiveSpeech_Angry)" Value="137206" />
+  <Preset Label="Give Speech (podium_SocialGiveSpeech_Confident)" Value="137211" />
+  <Preset Label="Give Speech (podium_SocialGiveSpeech_Energized)" Value="137212" />
+  <Preset Label="Give Speech (podium_SocialGiveSpeech_Inspired)" Value="137213" />
+  <Preset Label="Improve (Cooking_ImproveDish)" Value="137255" />
+  <Preset Label="Cheer Speech (Podium_WatchSpeech_Cheer)" Value="137261" />
+  <Preset Label="Heckle Speech (Podium_WatchSpeech_Heckle)" Value="137262" />
+  <Preset Label="Rebuild (rocketShip_Build_Festival_LogicFair)" Value="137306" />
+  <Preset Label="Stop Protesting (socials_Targeted_Friendly_AlwaysOn_Career_Activist_ConvincedToLeave)" Tags="TestUnsafe" Value="137327" />
+  <Preset Label="Rename {1.ObjectName} (rename_TalkingToilet)" Value="137348" />
+  <Preset Label="generic_KaraokeMachine" Value="137353" />
+  <Preset Label="mixer_Karaoke_Solo_Accent_1" Value="137386" />
+  <Preset Label="mixer_Karaoke_Solo_Accent_2" Value="137387" />
+  <Preset Label="mixer_Karaoke_Solo_Accent_3" Value="137396" />
+  <Preset Label="mixer_Karaoke_Solo_Accent_4" Value="137397" />
+  <Preset Label="mixer_Karaoke_Solo_High_1" Value="137398" />
+  <Preset Label="mixer_Karaoke_Solo_High_2" Value="137399" />
+  <Preset Label="mixer_Karaoke_Solo_High_3" Value="137400" />
+  <Preset Label="mixer_Karaoke_Solo_High_4" Value="137401" />
+  <Preset Label="mixer_Karaoke_Solo_Low_1" Value="137402" />
+  <Preset Label="mixer_Karaoke_Solo_Low_2" Value="137403" />
+  <Preset Label="mixer_Karaoke_Solo_Low_3" Value="137404" />
+  <Preset Label="mixer_Karaoke_Solo_Low_4" Value="137405" />
+  <Preset Label="Throw Away (Collect_Trash_fromInventory)" Value="137443" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_Pop_1)" Value="137460" />
+  <Preset Label="Get Lauded Meal (food_GetLaudedMeal_Start)" Value="137467" />
+  <Preset Label="Snub Art (art_Critic_SnubArt)" Value="137527" />
+  <Preset Label="Belittle (Cooking_Critic_BelittleMeal)" Value="137539" />
+  <Preset Label="Write Column (tablet_CriticCareer_WriteColumn)" Value="137543" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_Pop_2)" Value="137580" />
+  <Preset Label="View {1.ObjectName} (collection_Posters_View)" Value="137598" />
+  <Preset Label="Have Art Snubbed (criticCareer_snubbedArtist)" Value="137644" />
+  <Preset Label="Watch Karaoke (si_karaokeMachine_Watch)" Value="137663" />
+  <Preset Label="mixer_Karaoke_Reaction_Cheer" Value="137700" />
+  <Preset Label="mixer_Karaoke_Reaction_Boo" Value="137701" />
+  <Preset Label="mixer_Karaoke_Watch_Passive" Value="137704" />
+  <Preset Label="mixer_Karaoke_Watch_Think" Value="137706" />
+  <Preset Label="mixer_Karaoke_Reaction_SnootyChance" Value="137709" />
+  <Preset Label="Study Art (art_View_CriticCareer_StudyArt)" Value="137712" />
+  <Preset Label="Study Art (art_View_Sculpture_CriticCareer_StudyArt)" Value="137713" />
+  <Preset Label="Protest for Cause (protester_CreateProtestSign)" Value="137726" />
+  <Preset Label="Sing Ballad Duet (karaoke_Social_Duet_Romance)" Value="137745" />
+  <Preset Label="Protest (mixerInteraction_Career_Activist_Protest)" Value="137757" />
+  <Preset Label="Point and Laugh (performanceSpace_DrivenAway)" Value="137761" />
+  <Preset Label="karaoke_Mixers_Duet_1" Tags="TestUnsafe" Value="137780" />
+  <Preset Label="Review Food (bar_ReviewFood_CriticCareer)" Value="137783" />
+  <Preset Label="Review Drink (bar_ReviewDrink_CriticCareer)" Value="137784" />
+  <Preset Label="Review Drink (bar_PushOrderDrink_review_CriticCareer)" Value="137785" />
+  <Preset Label="Review Drink (marketStalls_pushOrderDrink_review_CriticCareer)" Value="137786" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_review_CriticCareer)" Value="137787" />
+  <Preset Label="Review Food (bar_PushOrderFood_review_CriticCareer)" Value="137789" />
+  <Preset Label="Wait For Food (bar_WaitForFood_CriticCareer)" Value="137790" />
+  <Preset Label="Take Notes (criticCareer_Review_TakeNotes)" Value="137802" />
+  <Preset Label="Review Performance (piano_review_CriticCareer)" Value="137804" />
+  <Preset Label="Review Performance (microphone_criticCareer_ReviewPerformance)" Value="137805" />
+  <Preset Label="Review Performance (violin_review_CriticCareer)" Value="137806" />
+  <Preset Label="Review Performance (guitar_review_CriticCareer)" Value="137807" />
+  <Preset Label="Take Notes (watch_Mixer_TakeNotes_CriticCareer)" Value="137808" />
+  <Preset Label="Ballad (karaoke_Picker_Duet_Romance)" Tags="TestUnsafe" Value="137835" />
+  <Preset Label="Bar (mixer_social_RecommendLocalBar_friendly_NT)" Tags="TestUnsafe" Value="137843" />
+  <Preset Label="Go To Apartment Door (door_Apartment_RouteTo_thenEmptyTrash)" Value="138018" />
+  <Preset Label="Go To Apartment Door (door_Apartment_RouteTo_thenCheckMail)" Value="138019" />
+  <Preset Label="Complain To Landlord (si_ApartmentProblems_CallLandlord)" Value="138036" />
+  <Preset Label="View Monument to 'Emperor' Horton (statues_CityLife_CenterPark_ViewSculpture_01)" Value="138039" />
+  <Preset Label="Visitor at the Door (door_Apartment_RouteTo_AnswerComplaint_loudNeighborNPC)" Value="138068" />
+  <Preset Label="View Disaster Memorial (statues_CityLife_CenterPark_ViewSculpture_05)" Value="138101" />
+  <Preset Label="View Park History (statues_CityLife_CenterPark_ViewSculpture_02)" Value="138102" />
+  <Preset Label="View Herring Monument (statues_CityLife_CenterPark_ViewSculpture_04)" Value="138103" />
+  <Preset Label="View DynaSign Co. Plaque (statues_CityLife_CenterPark_ViewSculpture_03)" Value="138104" />
+  <Preset Label="karaoke_Mixers_Duet_Accent_Together" Tags="TestUnsafe" Value="138225" />
+  <Preset Label="karaoke_Mixers_Duet_Accent_X_to_Y" Tags="TestUnsafe" Value="138226" />
+  <Preset Label="karaoke_Mixers_Duet_2" Tags="TestUnsafe" Value="138227" />
+  <Preset Label="karaoke_Mixers_Duet_High_Together" Tags="TestUnsafe" Value="138229" />
+  <Preset Label="karaoke_Mixers_Duet_High_X_to_Y" Tags="TestUnsafe" Value="138230" />
+  <Preset Label="karaoke_Mixers_Duet_High_Y_to_X" Tags="TestUnsafe" Value="138231" />
+  <Preset Label="karaoke_Mixers_Duet_Low_Together" Tags="TestUnsafe" Value="138232" />
+  <Preset Label="karaoke_Mixers_Duet_Low_Idle" Tags="TestUnsafe" Value="138241" />
+  <Preset Label="karaoke_Mixers_Solo_Idle" Value="138242" />
+  <Preset Label="Sing Duet (Karaoke_Duet_Listen)" Value="138262" />
+  <Preset Label="Write Column About Festival (tablet_CriticCareer_WriteColumnAboutFestival)" Value="138310" />
+  <Preset Label="Show as Noble Gases (BubbleBlower_debug_changeCartType_2_noble)" Value="138317" />
+  <Preset Label="Show as Juice Flavors (BubbleBlower_debug_changeCartType_1_juice)" Value="138318" />
+  <Preset Label="Sing Songs (piano_Sing_Song)" Value="138595" />
+  <Preset Label="Pound on Door (door_Apartment_AngryKnock)" Value="138615" />
+  <Preset Label="Review Restaurant (si_waitStaff_CriticCareer_Review_OrderForTable)" Value="138625" />
+  <Preset Label="Review Restaurant (si_waitStaff_CriticCareer_Review_OrderForTable_FromTable)" Value="138627" />
+  <Preset Label="Pop (karaoke_Picker_Duet_Pop)" Tags="TestUnsafe" Value="138737" />
+  <Preset Label="Jazz (karaoke_Picker_Duet_Jazz)" Tags="TestUnsafe" Value="138738" />
+  <Preset Label="Country (karaoke_Picker_Duet_Country)" Tags="TestUnsafe" Value="138739" />
+  <Preset Label="Sing Country Duet (karaoke_Social_Duet_Country)" Value="138740" />
+  <Preset Label="Sing Pop Duet&#xA; (karaoke_Social_Duet_Pop)" Value="138741" />
+  <Preset Label="Sing Jazz Duet&#xA; (karaoke_Social_Duet_Jazz)" Value="138742" />
+  <Preset Label="Complain about Loud Noises (mixer_social_ComplainAboutLoudNoises_targeted_Mean_alwaysOn_apartmentNeighbor)" Tags="TestUnsafe" Value="138776" />
+  <Preset Label="Attending The Opera (si_CityInvites_GoToTheOpera)" Value="138806" />
+  <Preset Label="Museum (mixer_social_RecommendLocalMuseum_friendly_NT)" Tags="TestUnsafe" Value="138889" />
+  <Preset Label="Nightclub (mixer_social_RecommendLocalClub_friendly_NT)" Tags="TestUnsafe" Value="138890" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Folk_Song1)" Value="138919" />
+  <Preset Label="mixer_SingingSkill_Microphone_Low_Sing_1" Value="139020" />
+  <Preset Label="mixer_SingingSkill_Microphone_Low_Sing_2" Value="139021" />
+  <Preset Label="mixer_SingingSkill_Microphone_Low_Sing_3" Value="139022" />
+  <Preset Label="mixer_SingingSkill_Microphone_Low_Sing_4" Value="139023" />
+  <Preset Label="mixer_SingingSkill_Microphone_MediumSkill_Accent_1" Value="139024" />
+  <Preset Label="mixer_SingingSkill_Microphone_MediumSkill_Accent_2" Value="139025" />
+  <Preset Label="mixer_SingingSkill_Microphone_Idle" Value="139029" />
+  <Preset Label="mixer_SingingSkill_Self_Accent_2" Value="139033" />
+  <Preset Label="mixer_SingingSkill_Self_Low_1" Value="139040" />
+  <Preset Label="mixer_SingingSkill_Self_Low_2" Value="139041" />
+  <Preset Label="mixer_SingingSkill_Self_Low_3" Value="139042" />
+  <Preset Label="mixer_SingingSkill_Self_Low_4" Value="139043" />
+  <Preset Label="mixer_SingingSkill_Self_MediumSkill_Accent_1" Value="139044" />
+  <Preset Label="mixer_SingingSkill_Self_MediumSkill_Accent_2" Value="139045" />
+  <Preset Label="mixer_SingingSkill_Self_Idle" Value="139048" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Folk_Song2)" Value="139061" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Folk_Song3)" Value="139129" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Jazz_Song1)" Value="139137" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Jazz_Song2)" Value="139138" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Jazz_Song3)" Value="139140" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Pop_Song1)" Value="139141" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Pop_Song2)" Value="139142" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Pop_Song3)" Value="139143" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_TheaterDrama_Song1)" Value="139144" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_TheaterDrama_Song2)" Value="139145" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_TheaterDrama_Song3)" Value="139146" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Folk_Song1)" Value="139153" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Folk_Song2)" Value="139173" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Folk_Song3)" Value="139174" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Jazz_Song1)" Value="139175" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Jazz_Song2)" Value="139176" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Jazz_Song3)" Value="139177" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Pop_Song1)" Value="139178" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Pop_Song2)" Value="139179" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Pop_Song3)" Value="139180" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_TheaterDrama_Song1)" Value="139181" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_TheaterDrama_Song2)" Value="139182" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_TheaterDrama_Song3)" Value="139183" />
+  <Preset Label="protester_CreateProtestSign_Situation" Value="139211" />
+  <Preset Label="Set VFX: Off (Door_debug_setVFX_0_Off)" Value="139222" />
+  <Preset Label="Set VFX: Music (Ext.) (Door_debug_setVFX_1_loudMusic)" Value="139223" />
+  <Preset Label="Set VFX: Woohoo (Ext.) (Door_debug_setVFX_2_loudWoohoo)" Value="139224" />
+  <Preset Label="Practice Singing (singingSkill_TieredMenu_Microphone_Practice)" Value="139249" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_Japanese)" Value="139281" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_Tea)" Value="139282" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_Indian)" Value="139283" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_Morrocan)" Value="139284" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_Mexican)" Value="139285" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_Filipino)" Value="139286" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_Japanese)" Value="139291" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_Indian)" Value="139292" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_Moroccan)" Value="139293" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_Mexican)" Value="139294" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_Filipino)" Value="139295" />
+  <Preset Label="Write Lyrics (singingSkill_StartWriting_Microphone)" Value="139301" />
+  <Preset Label="Knock On Door (door_Apartment_NPCRingDoorbell)" Value="139307" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_Filipino_review_CriticCareer)" Value="139326" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_Indian_review_CriticCareer)" Value="139327" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_Japanese_review_CriticCareer)" Value="139328" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_Mexican_review_CriticCareer)" Value="139329" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_Moroccan_review_CriticCareer)" Value="139330" />
+  <Preset Label="Light Sparkler (festivalFireworks_HandSparkler_LightSparkler)" Value="139342" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Mexican)" Value="139367" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Filipino)" Value="139368" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Indian)" Value="139369" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Japanese)" Value="139370" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Morrocan)" Value="139371" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vietnamese)" Value="139385" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Chinese)" Value="139386" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_Chinese)" Value="139447" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_Vietnamese)" Value="139448" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_Vietnamese_review_CriticCareer)" Value="139449" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_Chinese_review_CriticCareer)" Value="139450" />
+  <Preset Label="Wait (door_Apartment_WaitOutside)" Value="139453" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_Chinese)" Value="139454" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_Vietnamese)" Value="139455" />
+  <Preset Label="Order Drink (marketStalls_PushOrder_Drink_Autonomous_HotTea)" Value="139457" />
+  <Preset Label="microphone_WriteLyrics_Staging" Value="139496" />
+  <Preset Label="Order Drink (marketStalls_pushOrderDrink_BlossomFestival)" Value="139521" />
+  <Preset Label="Order Drink (marketStalls_pushOrderDrink_LampFestival)" Value="139522" />
+  <Preset Label="Review Drink (marketStalls_pushOrderDrink_LampFestival_review_CriticCareer)" Value="139531" />
+  <Preset Label="Review Drink (marketStalls_pushOrderDrink_BlossomFestival_review_CriticCareer)" Value="139532" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_BlossomTea)" Value="139537" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_LampTea)" Value="139538" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Jazz_Written_Song1)" Value="139554" />
+  <Preset Label="Order Drink (marketStalls_PushOrder_Drink_Autonomous_SakuraTea)" Value="139555" />
+  <Preset Label="Produce (purchase_MarketStalls_VeggiesCurryChili)" Tags="TestUnsafe" Value="139564" />
+  <Preset Label="Produce (purchase_MarketStalls_VeggiesWasabi)" Tags="TestUnsafe" Value="139568" />
+  <Preset Label="Produce (purchase_MarketStalls_VeggiesSaffron)" Tags="TestUnsafe" Value="139569" />
+  <Preset Label="Swag (purchase_MarketStalls_BlossomFestival)" Tags="TestUnsafe" Value="139570" />
+  <Preset Label="Swag (purchase_MarketStalls_LogicFestival)" Tags="TestUnsafe" Value="139571" />
+  <Preset Label="Swag (purchase_MarketStalls_FoodFestival)" Tags="TestUnsafe" Value="139572" />
+  <Preset Label="Swag (purchase_MarketStalls_FleaMarket)" Tags="TestUnsafe" Value="139573" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_LampFestival)" Value="139574" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_BlossomFestival)" Value="139575" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_LogicFair)" Value="139576" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_FleaMarket)" Value="139577" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_FoodFestival)" Value="139578" />
+  <Preset Label="Buy GeekCon Shirt (marketStalls_BuyCASasset_LogicFair)" Value="139585" />
+  <Preset Label="Buy Humor and Hijinks Festival T-Shirt (marketStalls_BuyCASasset_LampFestival)" Value="139586" />
+  <Preset Label="Buy Romance Festival T-Shirt (marketStalls_BuyCASasset_BlossomFestival)" Value="139587" />
+  <Preset Label="Buy and Wear GeekCon Shirt (marketStalls_BuyCASassetAndWear_LogicFair)" Value="139591" />
+  <Preset Label="Buy and Wear Romance Festival T-Shirt (marketStalls_BuyCASassetAndWear_BlossomFestival)" Value="139592" />
+  <Preset Label="Buy and Wear Humor and Hijinks Festival T-Shirt (marketStalls_BuyCASassetAndWear_LampFestival)" Value="139593" />
+  <Preset Label="self_CreateLyrics" Value="139724" />
+  <Preset Label="guitar_WriteLyrics" Value="139734" />
+  <Preset Label="piano_WriteLyrics" Value="139748" />
+  <Preset Label="guitar_WriteLyrics_Staging" Value="139749" />
+  <Preset Label="piano_WriteLyrics_Staging" Value="139762" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_Jazz_Written_Song2)" Value="139763" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_TheaterDrama_Written_Song1)" Value="139764" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Microphone_TheaterDrama_Written_Song2)" Value="139765" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Jazz_Written_Song1)" Value="139766" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_Jazz_Written_Song2)" Value="139767" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_TheaterDrama_Written_Song1)" Value="139768" />
+  <Preset Label="Sing Songs (singingSkill_TieredMenu_Self_TheaterDrama_Written_Song2)" Value="139769" />
+  <Preset Label="Write Lyrics (singingSkill_StartWriting_Self)" Value="139794" />
+  <Preset Label="Write Lyrics (singingSkill_StartWriting_Guitar)" Value="139795" />
+  <Preset Label="Write Lyrics (singingSkill_StartWriting_Piano)" Value="139819" />
+  <Preset Label="Serenade (self_Social_Serenade)" Value="139900" />
+  <Preset Label="Praise Art (art_Critic_PraiseArt)" Value="139902" />
+  <Preset Label="Have Art Praised (criticCareer_praisedArtist)" Value="139906" />
+  <Preset Label="Play with Sparkler (festivalFireworks_HandSparkler_PlayWithSparkler)" Value="139907" />
+  <Preset Label="Listen (self_Serenade_Listen)" Value="139913" />
+  <Preset Label="Rave about Favorite Singers (mixer_social_RaveAboutFamousSingers_targeted_Friendly_alwaysOn_skills)" Tags="TestUnsafe" Value="139962" />
+  <Preset Label="Restaurant (mixer_social_RecommendLocalRestaurant_friendly_NT)" Tags="TestUnsafe" Value="140027" />
+  <Preset Label="Travel (Elevator_SimPicker_TravelWith_toMap)" Tags="TestUnsafe" Value="140054" />
+  <Preset Label="Apologize (TalkingToilet_Social_sad_Aplogize_start)" Value="140371" />
+  <Preset Label="Toilet_Talking_soc_mixer_Idle" Value="140496" />
+  <Preset Label="Listen to {1.SimFirstName}'s Complaint (social_ApartmentNeighbor_ListenToComplaint_si)" Value="140705" />
+  <Preset Label="Complain Angrily about Noise (social_ApartmentNeighbor_ComplainAboutLoudNoises_si)" Value="140779" />
+  <Preset Label="Country (karaoke_Picker_Duet_Autonomous_Country)" Tags="TestUnsafe" Value="140803" />
+  <Preset Label="Jazz (karaoke_Picker_Duet_Autonomous_Jazz)" Tags="TestUnsafe" Value="140805" />
+  <Preset Label="Pop (karaoke_Picker_Duet_Autonomous_Pop)" Tags="TestUnsafe" Value="140806" />
+  <Preset Label="Ballad (karaoke_Picker_Duet_Autonomous_Romance)" Tags="TestUnsafe" Value="140807" />
+  <Preset Label="Go To Apartment Door (door_Apartment_RouteTo_insideHomeLot_endSituationLoudNoises)" Value="140819" />
+  <Preset Label="Fight! (mixer_social_Fight_targeted_ApartmentNeighborSituation_LoudNoises)" Tags="TestUnsafe" Value="140820" />
+  <Preset Label="Explore Space (rocketShip_Explore_Festival_LogicFair_Autonomous)" Value="140943" />
+  <Preset Label="WooHoo (woohoo_Autonomous_RocketShip_Festival_LogicFair)" Value="140975" />
+  <Preset Label="Buy Produce... (marketStalls_ShopFor_Grocery)" Value="140990" />
+  <Preset Label="Buy Produce... (marketStalls_ShopFor_GroceryWasabi)" Value="140991" />
+  <Preset Label="Buy Produce... (marketStalls_ShopFor_GrocerySaffron)" Value="140992" />
+  <Preset Label="Buy Produce... (marketStalls_ShopFor_GroceryCurryChili)" Value="140993" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_GrocerySaffron)" Value="140994" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_GroceryCurryChili)" Value="140995" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_GroceryWasabi)" Value="140996" />
+  <Preset Label="Buy Swag (marketStalls_ShopFor_Festival_Lamp)" Value="140998" />
+  <Preset Label="Buy Swag (marketStalls_ShopFor_Festival_Food)" Value="140999" />
+  <Preset Label="Buy Swag (marketStalls_ShopFor_Festival_FleaMarket)" Value="141000" />
+  <Preset Label="Buy Swag (marketStalls_ShopFor_Festival_Logic)" Value="141001" />
+  <Preset Label="Ultimate Gaming Test (motionBasedGaming_UGT)" Value="141005" />
+  <Preset Label="motionGameRigActions_Mixers_UGT_REFUGE" Value="141007" />
+  <Preset Label="motionGameRigActions_Mixers_UGT_Blicblock" Value="141008" />
+  <Preset Label="motionGameRigActions_Mixers_UGT_ManiacMatchums" Value="141009" />
+  <Preset Label="motionGameRigActions_Mixers_UGT_Sports" Value="141010" />
+  <Preset Label="attractorPoints_CityLife_Walkbys_Tourist_TakePhoto" Value="141039" />
+  <Preset Label="attractorPoints_CityLife_Walkbys_LivingStatueBusker_Pose" Value="141040" />
+  <Preset Label="Participate in Hackathon (computer_Programming_Festival_LogicFair_HackthePlanet)" Value="141082" />
+  <Preset Label="Go Upstairs (Elevator_GoUpstairs_si)" Value="141108" />
+  <Preset Label="Go Downstairs (Elevator_GoDownstairs_si)" Value="141109" />
+  <Preset Label="Visit Apartment (si_SimPicker_TravelWith_VisitApartment)" Tags="TestUnsafe" Value="141210" />
+  <Preset Label="Sing in Shower (mixer_Shower_SingInShower)" Value="141216" />
+  <Preset Label="Blah Blah Blah (Toilet_Talking_soc_mixer_Mean_blahBlah_autonomous)" Value="141562" />
+  <Preset Label="Cordial Dialogue (Toilet_Talking_soc_mixer_Friendly_discussTopic_chitChat_autonomous)" Value="141563" />
+  <Preset Label="Enthuse about (Toilet_Talking_soc_mixer_Friendly_enthuseAbout_autonomous)" Value="141564" />
+  <Preset Label="Invite {1.SimFirstName} In (sim_InviteIn_ApartmentNeighborSituations)" Value="141604" />
+  <Preset Label="Continue Current Representation (computer_SocialNetwork_SocialMediaCareer_PublicRelations_RepresentContinue)" Value="141661" />
+  <Preset Label="Represent {2.SimName} (computer_SocialNetwork_SocialMediaCareer_PublicRelations_RepresentStart)" Value="141715" />
+  <Preset Label="Compliment (Toilet_Talking_soc_mixer_Friendly_compliment_autonomous)" Value="141727" />
+  <Preset Label="Ask Question (Toilet_Talking_soc_mixer_Friendly_askQuestion_autonomous)" Value="141728" />
+  <Preset Label="Tell Joke (toilet_Talking_soc_mixer_Friendly_tellJoke_autonomous)" Value="141737" />
+  <Preset Label="Insult (Toilet_Talking_soc_mixer_Mean_genericInsult_autonomous)" Value="141739" />
+  <Preset Label="Rude Remark (Toilet_Talking_soc_mixer_Mean_thumbsDown_autonomous)" Value="141740" />
+  <Preset Label="Imitate (Toilet_Talking_soc_mixer_Mean_imitateMock_autonomous)" Value="141742" />
+  <Preset Label="Share Bad News (Toilet_Talking_soc_mixer_Sad_shareBadNews_autonomous)" Value="141815" />
+  <Preset Label="Add Deuce Core Processor (TalkingToilet_Upgrade_LowerBrokenness_Electronic)" Value="141819" />
+  <Preset Label="Resume adding Deuce Core Processor (TalkingToilet_Upgrade_LowerBrokenness_Electronic_resume)" Value="141820" />
+  <Preset Label="Install Titanium Pipes (TalkingToilet_Upgrade_LockBrokenness_Plumbing)" Value="141821" />
+  <Preset Label="Resume installing Titanium Pipes (TalkingToilet_Upgrade_LockBrokenness_Plumbing_resume)" Value="141822" />
+  <Preset Label="Optimize Advanced Operating Software (TalkingToilet_Upgrade_LockBrokenness_Electronic)" Value="141823" />
+  <Preset Label="Continue optimizing Advanced Operating Software (TalkingToilet_Upgrade_LockBrokenness_Electronic_resume)" Value="141824" />
+  <Preset Label="Practice Singing (singingSkill_TieredMenu_Self_Practice)" Value="141825" />
+  <Preset Label="Add Pitch Enhancer (si_KaraokeMachine_Upgrade_AutoTune_Start)" Value="141836" />
+  <Preset Label="Resume adding Pitch Enhancer (si_KaraokeMachine_Upgrade_AutoTune_Resume)" Value="141837" />
+  <Preset Label="Titanium Pipes (Completed) (TalkingToilet_Upgrade_LockBrokenness_Plumbing_display)" Value="141838" />
+  <Preset Label="Deuce Core Processor (Completed) (TalkingToilet_Upgrade_LowerBrokenness_Electronic_display)" Value="141839" />
+  <Preset Label="Advanced Operating Software (Completed) (TalkingToilet_Upgrade_LockBrokenness_Electronic_display)" Value="141840" />
+  <Preset Label="Set Upgrade: Lock Plumbing Breakage (TalkingToilet_setUpgrade_LockBrokenness_Plumbing_debug)" Value="141843" />
+  <Preset Label="Set Upgrade: Lower Electronic Breakage (TalkingToilet_setUpgrade_LowerBrokenness_Electronic_debug)" Value="141844" />
+  <Preset Label="Set Upgrade: Lock Electronic Breakage (TalkingToilet_setUpgrade_LockBrokenness_Electronic_debug)" Value="141845" />
+  <Preset Label="Resume equipping Iron Microphone (si_KaraokeMachine_Upgrade_LockBroken_Resume)" Value="141847" />
+  <Preset Label="Equip Iron Microphone (si_KaraokeMachine_Upgrade_LockBroken_Start)" Value="141848" />
+  <Preset Label="Install Wireless Display Override (si_KaraokeMachine_Upgrade_Telesplosion_Start)" Value="141849" />
+  <Preset Label="Resume Installing Wireless Display Override (si_KaraokeMachine_Upgrade_Telesplosion_Resume)" Value="141850" />
+  <Preset Label="Equip Iron Microphone (karaokeMachine_Immediates_DEBUGUpgrade_LockBroken)" Value="141860" />
+  <Preset Label="Add Pitch Enhancer (karaokeMachine_Immediates_DEBUGUpgrade_AutoTune)" Value="141861" />
+  <Preset Label="Install Wireless Display Override (karaokeMachine_Immediates_DEBUGUpgrade_Telesplosion)" Value="141862" />
+  <Preset Label="Enable Wireless Display Override (karaokeMachine_Immediates_Telesplosion_On)" Value="141885" />
+  <Preset Label="Disable Wireless Display Override (karaokeMachine_Immediates_Telesplosion_Off)" Value="141886" />
+  <Preset Label="Normal Pitch (karaokeMachine_Immediates_SetVoice_Normal)" Value="141897" />
+  <Preset Label="Enhance Pitch (karaokeMachine_Immediates_SetVoice_AutoTune)" Value="141898" />
+  <Preset Label="Pitch Enhancer (Completed) (karaokeMachine_Upgrade_AutoTune_Completed)" Value="141905" />
+  <Preset Label="Iron Microphone (Completed) (karaokeMachine_Upgrade_LockBroken_Completed)" Value="141906" />
+  <Preset Label="Wireless Display Override (Completed) (karaokeMachine_Upgrade_Telesplosion_Completed)" Value="141908" />
+  <Preset Label="Sing in Shower (shower_TakeShower_SingInShower)" Value="141926" />
+  <Preset Label="mixer_Shower_SingInShower_Autonomous" Value="141928" />
+  <Preset Label="Go To Apartment Door (door_Apartment_RouteTo_goInside_ActiveLot)" Value="141939" />
+  <Preset Label="Read about GeekCon (dynamicSign_Festival_Logic)" Value="141979" />
+  <Preset Label="Read about Romance Festival (dynamicSign_Festival_Blossom)" Value="141980" />
+  <Preset Label="Read about Flea Market (dynamicSign_Festival_FleaMarket)" Value="141981" />
+  <Preset Label="Read about Spice Festival (dynamicSign_Festival_Food)" Value="141982" />
+  <Preset Label="Read about Humor and Hijinks Festival (dynamicSign_Festival_Lamp)" Value="141983" />
+  <Preset Label="Busk with Guitar (autonomous_PerformanceSpace_Busk_Guitar_Picker)" Tags="TestUnsafe" Value="142050" />
+  <Preset Label="Busk with Violin (autonomous_PerformanceSpace_Busk_Violin_Picker)" Tags="TestUnsafe" Value="142051" />
+  <Preset Label="Go Home (si_SimPicker_TravelWith_GoHome)" Tags="TestUnsafe" Value="142061" />
+  <Preset Label="Hire Violin Busker (hireNPC_PerformanceSpace_Busker_Violin)" Value="142067" />
+  <Preset Label="Hire Guitar Busker (hireNPC_PerformanceSpace_Busker_Guitar)" Value="142068" />
+  <Preset Label="Complain about Child (social_ApartmentNeighbor_ComplainAboutChildren_si)" Value="142187" />
+  <Preset Label="si_WaitAround_Vendor_FleaMarket" Value="142203" />
+  <Preset Label="attractorPoints_Festivals_FleaMarket_Vendor" Value="142204" />
+  <Preset Label="Haggle (social_Festival_Haggle_FleaMarket)" Value="142217" />
+  <Preset Label="Browse (si_Browse_FleaMarket)" Value="142225" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_Jazz_2)" Value="142280" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_Jazz_1)" Value="142281" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_House_2)" Value="142282" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_House_1)" Value="142283" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_Disco_2)" Value="142284" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_Disco_1)" Value="142285" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_Country_2)" Value="142286" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_Country_1)" Value="142287" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_Rock_2)" Value="142288" />
+  <Preset Label="Sing Karaoke (si_KaraokeMachine_Solo_Rock_1)" Value="142289" />
+  <Preset Label="mixer_Karaoke_Solo_High_5" Value="142516" />
+  <Preset Label="mixer_Karaoke_Solo_MicAccent_1" Value="142517" />
+  <Preset Label="mixer_Karaoke_Solo_MicAccent_2" Value="142518" />
+  <Preset Label="View Llama Freedom Movement (statues_CityLife_CenterPark_ViewSculpture_06)" Value="142533" />
+  <Preset Label="karaoke_Mixers_Duet_Accent_Snap" Tags="TestUnsafe" Value="142552" />
+  <Preset Label="karaoke_Mixers_Duet_Accent_Spin" Tags="TestUnsafe" Value="142553" />
+  <Preset Label="karaoke_Mixers_Duet_Romance_AtoA" Tags="TestUnsafe" Value="142555" />
+  <Preset Label="karaoke_Mixers_Duet_Romance_LowTogether" Tags="TestUnsafe" Value="142556" />
+  <Preset Label="cityLifeBusker_Mixer_WatchHeckle" Value="142583" />
+  <Preset Label="cityLifeBusker_Mixer_WatchClap" Value="142584" />
+  <Preset Label="cityLifeBusker_Mixer_WatchTakePhoto" Value="142589" />
+  <Preset Label="food_Eat_Active_Spicy" Value="142594" />
+  <Preset Label="Watch: Splash (TalkingToilet_ControlPanel_setHologram_4)" Value="142615" />
+  <Preset Label="Protest for Cause (attractorPoints_CityLife_Walkbys_Protester_GetToProtest)" Value="142644" />
+  <Preset Label="Add Bio-Disintegrator (TalkingToilet_Upgrade_SelfCleaning)" Value="142667" />
+  <Preset Label="Resume adding Bio-Disintegrator (TalkingToilet_Upgrade_SelfCleaning_resume)" Value="142668" />
+  <Preset Label="Bio-Disintegrator (Completed) (TalkingToilet_Upgrade_SelfCleaning_display)" Value="142670" />
+  <Preset Label="Attending The Circus (si_CityInvites_GoToACircus)" Value="142862" />
+  <Preset Label="Attending A Concert (si_CityInvites_GoToAConcert)" Value="142863" />
+  <Preset Label="Attending A Musical (si_CityInvites_GoToTheTheater)" Value="142864" />
+  <Preset Label="Invite to Unwind (BubbleBlower_simPicker_InviteToJoin_si)" Tags="TestUnsafe" Value="142951" />
+  <Preset Label="BubbleBlower_Buff_breathStink_idle" Value="143064" />
+  <Preset Label="BubbleBlower_Buff_breathFrost_idle" Value="143065" />
+  <Preset Label="BubbleBlower_Buff_breathFire_idle" Value="143066" />
+  <Preset Label="mixer_performanceSpace_cheer" Value="143069" />
+  <Preset Label="mixer_performanceSpace_heckle" Value="143070" />
+  <Preset Label="mixer_performanceSpace_DJPhone" Value="143071" />
+  <Preset Label="mixer_performanceSpace_listen" Value="143072" />
+  <Preset Label="Sparkler (festivalFireworks_HandSparkler_HoldSparkler)" Value="143238" />
+  <Preset Label="Watch Living Statue Together (rallyables_GoToWatchTogether_LivingStatueBusker)" Value="143283" />
+  <Preset Label="cityLife_Walkbys_LivingStatueBusker_SuperInteraction_Goodbye" Value="143297" />
+  <Preset Label="DEBUG - Start Problem (debug_ApartmentProblems_SetToActive)" Value="143326" />
+  <Preset Label="DEBUG - Set To Maximum Severity (debug_ApartmentProblems_SetToFailure)" Value="143327" />
+  <Preset Label="Set Upgrade: Self-Cleaning (TalkingToilet_setUpgrade_SelfCleaning_debug)" Value="143339" />
+  <Preset Label="Listen to Talk Radio (stereoWall_listen_TalkRadio)" Value="143367" />
+  <Preset Label="Listen to World Music (stereoWall_listen_CulturalWorld)" Value="143368" />
+  <Preset Label="death_Initiator_Pufferfish" Value="143418" />
+  <Preset Label="Place in World and Light (si_SwipeAddToWorld_AndLightFireworks)" Value="143434" />
+  <Preset Label="Fairy Fizz (BubbleBlower_ChangeCartridge_2_venue)" Value="143465" />
+  <Preset Label="Deepest Plum (BubbleBlower_ChangeCartridge_6_venue)" Value="143466" />
+  <Preset Label="Cosmic Encounter (BubbleBlower_ChangeCartridge_8_venue)" Value="143467" />
+  <Preset Label="Golden Rush (BubbleBlower_ChangeCartridge_9_venue)" Value="143468" />
+  <Preset Label="Solicit Tips (performanceSpace_SolicitTip)" Value="143473" />
+  <Preset Label="protester_CreateProtestSign_FromJoin" Value="143499" />
+  <Preset Label="si_career_Activist_JoinProtest_Autonomous" Value="143500" />
+  <Preset Label="Repair Plumbing (object_Repair_Plumbing_ToiletTalking)" Value="143551" />
+  <Preset Label="Replace (object_ReplaceBrokenObject_TalkingToilet)" Value="143552" />
+  <Preset Label="Write Letter (Computer_Career_Activist_WriteLetter)" Value="143567" />
+  <Preset Label="Buy Shirt (marketStalls_BuyCASassetAndWear_Blossom_Autonomous)" Value="143630" />
+  <Preset Label="Buy Shirt (marketStalls_BuyCASassetAndWear_Food_Autonomous)" Value="143631" />
+  <Preset Label="Buy Shirt (marketStalls_BuyCASassetAndWear_Lamp_Autonomous)" Value="143632" />
+  <Preset Label="Buy Shirt (marketStalls_BuyCASassetAndWear_Logic_Autonomous)" Value="143633" />
+  <Preset Label="Ask to Join Protest (socials_Targeted_Friendly_AlwaysOn_Career_Activist_AskToJoinProtest)" Tags="TestUnsafe" Value="143654" />
+  <Preset Label="Clear Easel (canvas_BlossomFestival_ClearEasel)" Value="143668" />
+  <Preset Label="Play with Sparkler (Firework_Sparkler_Mixer_PlayWith)" Value="143670" />
+  <Preset Label="Read Sign (si_DynamicSign_Read)" Value="143676" />
+  <Preset Label="Pound on Door (door_AngryKnock_ApartmentLandlord)" Value="143700" />
+  <Preset Label="View {1.ObjectName} (gardenPlant_View_Festivals)" Value="143706" />
+  <Preset Label="Tell {1.SimFirstName} that the rent check is in the mail (sim_PromiseRent_ApartmentLandlord)" Value="143734" />
+  <Preset Label="Watch Fireworks Together (rallyables_GoToWatchTogether_Fireworks)" Value="143824" />
+  <Preset Label="Swag (purchase_MarketStalls_BlossomFestival_Child)" Tags="TestUnsafe" Value="143892" />
+  <Preset Label="Swag (purchase_MarketStalls_FoodFestival_Child)" Tags="TestUnsafe" Value="143893" />
+  <Preset Label="Swag (purchase_MarketStalls_LampFestival_Child)" Tags="TestUnsafe" Value="143894" />
+  <Preset Label="Swag (purchase_MarketStalls_LogicFestival_Child)" Tags="TestUnsafe" Value="143895" />
+  <Preset Label="Repair (object_Repair_Electronic_KaraokeMachine)" Value="143924" />
+  <Preset Label="Possess (Ghost_Possess_BubbleBlower)" Value="143965" />
+  <Preset Label="Free Throws (si_Basketball_FreeThrow)" Value="144034" />
+  <Preset Label="Taunt (si_Basketball_Taunt)" Value="144044" />
+  <Preset Label="mixer_SocialMediaCareer_PrankStreamers_Laugh" Value="144103" />
+  <Preset Label="mixer_SocialMediaCareer_PrankStreamers_Type" Value="144109" />
+  <Preset Label="mixer_SocialMediaCareer_PrankStreamers_Idle" Value="144110" />
+  <Preset Label="computerUse_SocialMediaCareer_RecordRant" Value="144111" />
+  <Preset Label="Busk for Tips (si_LivingStatueBusker_CityLife_Pose_Player)" Value="144130" />
+  <Preset Label="Friendly Chit-Chat (TalkingToilet_Social_friendly_Chitchat_autonomous)" Value="144191" />
+  <Preset Label="Spy On Apartments (Telescope_SpyOnApartments)" Value="144277" />
+  <Preset Label="Repair (object_Repair_CityLife_PowerBox)" Value="144329" />
+  <Preset Label="Listen to Blues (portableKeyboard_Listen_Blues)" Value="144357" />
+  <Preset Label="Trade Frogs (festival_FleaMarket_CollectibleTrading_Frog)" Tags="TestUnsafe" Value="144385" />
+  <Preset Label="Play (portableKeyboard_Play_Song)" Value="144449" />
+  <Preset Label="Trade Frogs (social_Festival_FleaMarket_TradeCollectible_Start_Frog)" Value="144450" />
+  <Preset Label="Trade Frogs (social_Festivals_FleaMarket_TradeCollectible_End_Frog)" Value="144452" />
+  <Preset Label="Serenade (portableKeyboard_Social_Serenade)" Value="144729" />
+  <Preset Label="Jazz Up the Place (portableKeyboard_JazzUpCrowd)" Value="144730" />
+  <Preset Label="Play Concerto (portableKeyboard_Concerto)" Value="144732" />
+  <Preset Label="Write Jingle (portableKeyboard_WriteJingle)" Value="144733" />
+  <Preset Label="Practice (portableKeyboard_Practice)" Value="144737" />
+  <Preset Label="Practice (portableKeyboard_Practice_Child)" Value="144738" />
+  <Preset Label="Practice (portableKeyboard_Practice_Scales)" Value="144739" />
+  <Preset Label="Practice (portableKeyboard_Practice_Scales_Child)" Value="144740" />
+  <Preset Label="Tickle the Ivories (portableKeyboard_Practice_TickleTheIvories)" Value="144741" />
+  <Preset Label="Tickle the Ivories (portableKeyboard_Practice_TickleTheIvories_Scales)" Value="144742" />
+  <Preset Label="Plunk for Inspiration (portableKeyboard_Practice_PlunkForInspiration)" Value="144743" />
+  <Preset Label="Serenade (portableKeyboard_Picker_Serenade)" Tags="TestUnsafe" Value="144744" />
+  <Preset Label="Carol of Cleaning (portableKeyboard_CarolOfCleaning)" Value="144746" />
+  <Preset Label="Ditty of Drowsiness (portableKeyboard_DittyOfDrowsiness)" Value="144747" />
+  <Preset Label="Etude of Egress (portableKeyboard_EtudeOfEgress)" Value="144748" />
+  <Preset Label="Melody of Mealtime (portableKeyboard_MelodyOfMealtime)" Value="144749" />
+  <Preset Label="Song of Sophistication (portableKeyboard_SongOfSophistication)" Value="144750" />
+  <Preset Label="Practice (portableKeyboard_Practice_Chooser)" Value="144752" />
+  <Preset Label="Practice (portableKeyboard_Practice_Chooser_Child)" Value="144753" />
+  <Preset Label="Tickle the Ivories (portableKeyboard_Practice_Chooser_TickleTheIvories)" Value="144754" />
+  <Preset Label="woodworkingTable_Craft_Autonomously_ArtsCenterVenue" Value="144764" />
+  <Preset Label="Write Song (portableKeyboard_StartWriting)" Value="144787" />
+  <Preset Label="Listen to Avant-garde	 (portableKeyboard_Listen_Avantgarde)" Value="144797" />
+  <Preset Label="Listen to Classical (portableKeyboard_Listen_Classical)" Value="144798" />
+  <Preset Label="Listen to Jazz (portableKeyboard_Listen_Jazz)" Value="144799" />
+  <Preset Label="Listen to Rock (portableKeyboard_Listen_Rock)" Value="144800" />
+  <Preset Label="Listen to Ragtime (portableKeyboard_Listen_Ragtime)" Value="144801" />
+  <Preset Label="Listen to Romantic (portableKeyboard_Listen_Romantic)" Value="144802" />
+  <Preset Label="Listen to Traditional (portableKeyboard_Listen_Traditional)" Value="144803" />
+  <Preset Label="Practice Dribbling (si_Basketball_PracticeDribbling)" Value="144911" />
+  <Preset Label="Invite to Hangout (door_Apartment_InviteToHangout_simPicker)" Tags="TestUnsafe" Value="144929" />
+  <Preset Label="Clean Up (activityTable_ScrapDrawing_Autonomous_ArtsCenterVenue)" Value="144972" />
+  <Preset Label="Clear Easel (canvas_ClearEasel_ArtsCenterVenue)" Value="145060" />
+  <Preset Label="Scrap Woodwork (si_WoodworkingTable_ScrapWoodwork_ArtsCenterVenue)" Value="145086" />
+  <Preset Label="View {1.ObjectName} (cityLife_Walkbys_Tourist_SuperInteraction_ViewObject_Poster)" Value="145172" />
+  <Preset Label="View {1.ObjectName} (cityLife_Walkbys_Tourist_SuperInteraction_ViewObject_Reverse)" Value="145201" />
+  <Preset Label="Read About Festival (ApartmentBulletinBoard_ReadAboutFestival)" Value="145224" />
+  <Preset Label="Knock Politely (door_Apartment_PoliteKnock)" Value="145249" />
+  <Preset Label="Browse Table (si_CraftSalesTable_BrowseTable)" Value="145250" />
+  <Preset Label="Play Density Effect (videoGameConsole_PlayGame_RPG)" Value="145260" />
+  <Preset Label="Play Party Frenzy (videoGameConsole_PlayGame_Party)" Value="145303" />
+  <Preset Label="Play MySims Racing (videoGameConsole_PlayGame_Racing)" Value="145304" />
+  <Preset Label="Play Genie's Curse (videoGameConsole_PlayGame_Platformer)" Value="145305" />
+  <Preset Label="videoGameConsole_Mixer_Play_Idle" Value="145353" />
+  <Preset Label="Turn Off {1.ObjectName} (videoGameConsole_TurnOff_Immediate)" Value="145398" />
+  <Preset Label="Read about Romance Festival (apartmentBulletinBoard_Festival_Blossom)" Value="145413" />
+  <Preset Label="Read about Flea Market (apartmentBulletinBoard_Festival_FleaMarket)" Value="145416" />
+  <Preset Label="Read about Spice Festival (apartmentBulletinBoard_Festival_Food)" Value="145417" />
+  <Preset Label="Read about Humor and Hijinks Festival (apartmentBulletinBoard_Festival_Lamp)" Value="145418" />
+  <Preset Label="Read about GeekCon (apartmentBulletinBoard_Festival_Logic)" Value="145419" />
+  <Preset Label="Watch Game (videoGameConsole_WatchGame)" Value="145423" />
+  <Preset Label="Join Game (videoGameConsole_JoinGame_Waiting)" Value="145429" />
+  <Preset Label="Force Self to Play Genie's Curse (videoGameConsole_PlayGame_GamedOut_Platformer)" Value="145431" />
+  <Preset Label="Force Self to Play Party Frenzy (videoGameConsole_PlayGame_GamedOut_Party)" Value="145432" />
+  <Preset Label="Force Self to Play Density Effect (videoGameConsole_PlayGame_GamedOut_RPG)" Value="145433" />
+  <Preset Label="Force Self to Play MySims Racing (videoGameConsole_PlayGame_GamedOut_Racing)" Value="145434" />
+  <Preset Label="Play MySims Racing With (videoGameConsole_PlayWith_Multiplayer_Racing)" Tags="TestUnsafe" Value="145439" />
+  <Preset Label="Play Party Frenzy With (videoGameConsole_PlayWith_Multiplayer_Party)" Tags="TestUnsafe" Value="145441" />
+  <Preset Label="Play MySims Racing Online With (videoGameConsole_PlayWith_Online_Racing)" Tags="TestUnsafe" Value="145442" />
+  <Preset Label="Play Party Frenzy Online With (videoGameConsole_PlayWith_Online_Party)" Tags="TestUnsafe" Value="145444" />
+  <Preset Label="Livestream Density Effect (videoGameConsole_Livestream_RPG)" Value="145461" />
+  <Preset Label="Livestream MySims Racing (videoGameConsole_Livestream_Racing)" Value="145462" />
+  <Preset Label="Livestream Genie's Curse (videoGameConsole_Livestream_Platformer)" Value="145463" />
+  <Preset Label="Livestream Party Frenzy (videoGameConsole_Livestream_Party)" Value="145464" />
+  <Preset Label="Stream Let's Play Density Effect (videoGameConsole_StreamLetsPlay_RPG)" Value="145465" />
+  <Preset Label="Stream Let's Play MySims Racing (videoGameConsole_StreamLetsPlay_Racing)" Value="145466" />
+  <Preset Label="Stream Let's Play Genie's Curse (videoGameConsole_StreamLetsPlay_Platformer)" Value="145467" />
+  <Preset Label="Stream Let's Play Party Frenzy (videoGameConsole_StreamLetsPlay_Party)" Value="145468" />
+  <Preset Label="Novice MySims Racing Tournament (videoGameConsole_PlayGameTournament_Racing)" Value="145469" />
+  <Preset Label="Novice Density Effect Tournament (videoGameConsole_PlayGameTournament_RPG)" Value="145470" />
+  <Preset Label="Novice Genie's Curse Tournament (videoGameConsole_PlayGameTournament_Platformer)" Value="145471" />
+  <Preset Label="Novice Party Frenzy Tournament (videoGameConsole_PlayGameTournament_Party)" Value="145472" />
+  <Preset Label="Pro MySims Racing Tournament (videoGameConsole_PlayGameTournament_Pro_Racing)" Value="145473" />
+  <Preset Label="Pro Density Effect Tournament (videoGameConsole_PlayGameTournament_Pro_RPG)" Value="145474" />
+  <Preset Label="Pro Genie's Curse Tournament (videoGameConsole_PlayGameTournament_Pro_Platformer)" Value="145475" />
+  <Preset Label="Pro Party Frenzy Tournament (videoGameConsole_PlayGameTournament_Pro_Party)" Value="145476" />
+  <Preset Label="Read Note (apartmentBulletinBoard_ReadNote)" Value="145559" />
+  <Preset Label="Tighten Up Graphics (videoGameConsole_Upgrade_TightenUpGraphics_Start)" Value="145561" />
+  <Preset Label="Unbreakable Upgrade (videoGameConsole_Upgrade_Unbreakable_Start)" Value="145562" />
+  <Preset Label="Install Wireless Display Override (videoGameConsole_Upgrade_Telesplosion_Start)" Value="145563" />
+  <Preset Label="Resume Tightening Up Graphics (videoGameConsole_Upgrade_TightenUpGraphics_Resume)" Value="145564" />
+  <Preset Label="Resume Unbreakable Upgrade (videoGameConsole_Upgrade_Unbreakable_Resume)" Value="145565" />
+  <Preset Label="Resume Installing Wireless Display Override (videoGameConsole_Upgrade_Telesplosion_Resume)" Value="145566" />
+  <Preset Label="Wireless Display Override (Completed) (videoGameConsole_Upgrade_Telesplosion_CompletedDisplay)" Value="145567" />
+  <Preset Label="Unbreakable (Completed) (videoGameConsole_Upgrade_Unbreakable_CompletedDisplay)" Value="145568" />
+  <Preset Label="Tighten Up Graphics (Completed) (videoGameConsole_Upgrade_TightenUpGraphics_CompletedDisplay)" Value="145569" />
+  <Preset Label="Stomp On (object_Repair_ApartmentProblem_RoachHole_Stomp)" Value="145570" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_VideoGameConsole)" Value="145576" />
+  <Preset Label="Enthuse About Winning Game (mixer_Social_Friendly_VideoGameConsole_Win2Win)" Tags="TestUnsafe" Value="145602" />
+  <Preset Label="Brag About Winning Game (mixer_Social_Friendly_VideoGameConsole_Win2Lose)" Tags="TestUnsafe" Value="145603" />
+  <Preset Label="Commiserate About Losing (mixer_Social_Friendly_VideoGameConsole_Lose2Lose)" Tags="TestUnsafe" Value="145604" />
+  <Preset Label="Congratulate on Winning Game (mixer_Social_Friendly_VideoGameConsole_Lose2Win)" Tags="TestUnsafe" Value="145605" />
+  <Preset Label="Leave Passive-Aggressive Note (apartmentBulletinBoard_LeavePassiveAggressiveNote)" Value="145606" />
+  <Preset Label="Leave Affirming Note (apartmentBulletinBoard_LeaveAffirmingNote)" Value="145607" />
+  <Preset Label="Heat of the Moment Proposal (mixer_social_Propose_targeted_romance_relationship_BlossomFestival)" Tags="TestUnsafe" Value="145628" />
+  <Preset Label="Play Genie's Curse (videoGameConsole_PlayGame_Platformer_Start)" Value="145673" />
+  <Preset Label="Play Party Frenzy (videoGameConsole_PlayGame_Party_Start)" Value="145681" />
+  <Preset Label="Play Density Effect (videoGameConsole_PlayGame_RPG_Start)" Value="145682" />
+  <Preset Label="Play MySims Racing (videoGameConsole_PlayGame_Racing_Start)" Value="145683" />
+  <Preset Label="What's That? (reaction_Generic_Scared_FromObject_Mixer)" Value="145705" />
+  <Preset Label="reaction_Generic_Scared_FromObject_Mixer_Aggregate" Value="145707" />
+  <Preset Label="reaction_Generic_Scared_FromObject_Aggregate" Value="145715" />
+  <Preset Label="What's That? (reactions_Generic_Scared_FromObject_Strong)" Value="145722" />
+  <Preset Label="Force Self to Play Genie's Curse (videoGameConsole_GamedOut_Platformer_Start)" Value="145725" />
+  <Preset Label="Force Self to Play MySims Racing (videoGameConsole_GamedOut_Racing_Start)" Value="145726" />
+  <Preset Label="Force Self to Play Density Effect (videoGameConsole_GamedOut_RPG_Start)" Value="145727" />
+  <Preset Label="Force Self to Play Party Frenzy (videoGameConsole_GamedOut_Party_Start)" Value="145728" />
+  <Preset Label="Trade Snow Globes (social_Festival_FleaMarket_TradeCollectible_Start_Snowglobe)" Value="145734" />
+  <Preset Label="Trade Fossil (social_Festival_FleaMarket_TradeCollectible_Start_Fossil)" Value="145735" />
+  <Preset Label="Trade My Sim Trophies (social_Festival_FleaMarket_TradeCollectible_Start_MySim)" Value="145736" />
+  <Preset Label="Trade Metal (social_Festival_FleaMarket_TradeCollectible_Start_Metal)" Value="145737" />
+  <Preset Label="Trade Crystal (social_Festival_FleaMarket_TradeCollectible_Start_Crystal)" Value="145738" />
+  <Preset Label="Trade Posters (social_Festival_FleaMarket_TradeCollectible_Start_Poster)" Value="145739" />
+  <Preset Label="Livestream Party Frenzy (videoGameConsole_Livestream_Party_Start)" Value="145740" />
+  <Preset Label="Livestream MySims Racing (videoGameConsole_Livestream_Racing_Start)" Value="145741" />
+  <Preset Label="Livestream Density Effect (videoGameConsole_Livestream_RPG_Start)" Value="145742" />
+  <Preset Label="Livestream Genie's Curse (videoGameConsole_Livestream_Platformer_Start)" Value="145743" />
+  <Preset Label="Stream Let's Play Genie's Curse (videoGameConsole_StreamLetsPlay_Platformer_Start)" Value="145744" />
+  <Preset Label="Stream Let's Play Party Frenzy (videoGameConsole_StreamLetsPlay_Party_Start)" Value="145745" />
+  <Preset Label="Stream Let's Play MySims Racing (videoGameConsole_StreamLetsPlay_Racing_Start)" Value="145746" />
+  <Preset Label="Stream Let's Play Density Effect (videoGameConsole_StreamLetsPlay_RPG_Start)" Value="145747" />
+  <Preset Label="Novice Genie's Curse Tournament (videoGameConsole_PlayGameTournament_Platformer_Start)" Value="145748" />
+  <Preset Label="Novice Party Frenzy Tournament (videoGameConsole_PlayGameTournament_Party_Start)" Value="145749" />
+  <Preset Label="Novice MySims Racing Tournament (videoGameConsole_PlayGameTournament_Racing_Start)" Value="145750" />
+  <Preset Label="Novice Density Effect Tournament (videoGameConsole_PlayGameTournament_RPG_Start)" Value="145751" />
+  <Preset Label="Pro Genie's Curse Tournament (videoGameConsole_PlayGameTournamentPro_Platformer_Start)" Value="145752" />
+  <Preset Label="Pro MySims Racing Tournament (videoGameConsole_PlayGameTournamentPro_Racing_Start)" Value="145753" />
+  <Preset Label="Pro Party Frenzy Tournament (videoGameConsole_PlayGameTournamentPro_Party_Start)" Value="145754" />
+  <Preset Label="Pro Density Effect Tournament (videoGameConsole_PlayGameTournamentPro_RPG_Start)" Value="145755" />
+  <Preset Label="Trade Crystal (social_Festivals_FleaMarket_TradeCollectible_End_Crystal)" Value="145756" />
+  <Preset Label="Trade Fossil (social_Festivals_FleaMarket_TradeCollectible_End_Fossil)" Value="145757" />
+  <Preset Label="Trade Snow Globes (social_Festivals_FleaMarket_TradeCollectible_End_SnowGlobe)" Value="145758" />
+  <Preset Label="Trade Posters (social_Festivals_FleaMarket_TradeCollectible_End_Poster)" Value="145759" />
+  <Preset Label="Trade My Sim Trophies (social_Festivals_FleaMarket_TradeCollectible_End_MySim)" Value="145760" />
+  <Preset Label="Trade Metal (social_Festivals_FleaMarket_TradeCollectible_End_Metal)" Value="145761" />
+  <Preset Label="Trade Crystal (festival_FleaMarket_CollectibleTrading_Crystal)" Tags="TestUnsafe" Value="145762" />
+  <Preset Label="Trade Fossil (festival_FleaMarket_CollectibleTrading_Fossil)" Tags="TestUnsafe" Value="145763" />
+  <Preset Label="Trade Snow Globes (festival_FleaMarket_CollectibleTrading_SnowGlobe)" Tags="TestUnsafe" Value="145764" />
+  <Preset Label="Trade Posters (festival_FleaMarket_CollectibleTrading_Poster)" Tags="TestUnsafe" Value="145765" />
+  <Preset Label="Trade My Sim Trophies (festival_FleaMarket_CollectibleTrading_MySim)" Tags="TestUnsafe" Value="145766" />
+  <Preset Label="Trade Metal (festival_FleaMarket_CollectibleTrading_Metal)" Tags="TestUnsafe" Value="145767" />
+  <Preset Label="Mention Flirty Festival Vibe (mixer_social_MentionFlirtyVibe_Festival_Blossom_targeted_romance)" Tags="TestUnsafe" Value="145776" />
+  <Preset Label="&quot;Joke&quot; about Getting Together (mixer_social_JokeGettingTogether_Festival_Blossom_targeted_romance)" Tags="TestUnsafe" Value="145777" />
+  <Preset Label="Describe Flirty Dream about {1.SimFirstName} (mixer_social_FlirtyDream_Festival_Blossom_targeted_romance)" Tags="TestUnsafe" Value="145779" />
+  <Preset Label="Declare Heat of the Moment Passion (mixer_social_HeatofMomentPassion_Festival_Blossom_targeted_romance)" Tags="TestUnsafe" Value="145780" />
+  <Preset Label="Play Density Effect Together (rallyables_GoToVideoGameConsole_RPG)" Value="145853" />
+  <Preset Label="Play Party Frenzy Together (rallyables_GoToVideoGameConsole_Party)" Value="145854" />
+  <Preset Label="Play MySims Racing Together (rallyables_GoToVideoGameConsole_Racing)" Value="145855" />
+  <Preset Label="Watch Game Together (rallyables_GoToVideoGameConsole_Watch)" Value="145857" />
+  <Preset Label="Cancel Current Representation (computer_SocialMediaCareer_PublicRelations_RepresentCancel)" Value="145870" />
+  <Preset Label="Leave Neutral Note (apartmentBulletinBoard_LeaveNeutralNote_Autonomous)" Value="145913" />
+  <Preset Label="Pour Sakura Tea (festivalTeaFountain_GrabServing_Fumble_Sakura_Centerpiece)" Value="145972" />
+  <Preset Label="Wait for Occupant (door_Apartment_Knock_wait)" Value="145988" />
+  <Preset Label="Wait for Occupant (door_Apartment_politeKnock_fail)" Value="145989" />
+  <Preset Label="View (apartmentBulletinBoard_View_Autonomous)" Value="145997" />
+  <Preset Label="reaction_BubbleBottle_Positive" Value="146009" />
+  <Preset Label="reaction_BubbleBottle_Negative" Value="146010" />
+  <Preset Label="Close Shots (basketball_TakeShots_Close)" Value="146013" />
+  <Preset Label="2 Pointers (basketball_TakeShots_2Point)" Value="146015" />
+  <Preset Label="3 Pointer (basketball_TakeShots_3Point)" Value="146016" />
+  <Preset Label="Shoot Around (basketball_TakeShots_Any)" Value="146037" />
+  <Preset Label="Blow Bubbles (mixer_bubbleBottle_BlowBubbles)" Value="146098" />
+  <Preset Label="Attempt the Spicy Curry Challenge (FoodFestival_SpicyCurry_StartContest)" Value="146143" />
+  <Preset Label="food_Eat_Active_CurryContest" Value="146149" />
+  <Preset Label="cancelReplacements_Basketball_NoShot" Value="146164" />
+  <Preset Label="basketball_Shot_Mixers_Idle" Value="146175" />
+  <Preset Label="basketball_Shot_Mixers_Dribble" Value="146176" />
+  <Preset Label="food_Eat_Passive_CurryContest" Value="146187" />
+  <Preset Label="Suffer Through The Curry Challenge (food_Consume_CurryContest)" Value="146214" />
+  <Preset Label="Equip Illuminated Hydro-Jets (TalkingToilet_upgrade_BidetShow)" Value="146246" />
+  <Preset Label="Resume equipping Illuminated Hydro-Jets (TalkingToilet_upgrade_BidetShow_resume)" Value="146247" />
+  <Preset Label="Illuminated Hydro-Jets (Completed) (TalkingToilet_upgrade_BidetShow_display)" Value="146251" />
+  <Preset Label="Set Upgrade: Bidet Show (TalkingToilet_setUpgrade_BidetShow_debug)" Value="146252" />
+  <Preset Label="Paint Mural (mural_wallBrush_Paint_Center)" Value="146266" />
+  <Preset Label="Bidet Show: Off (TalkingToilet_controlPanel_BidetShow_0_Off)" Value="146271" />
+  <Preset Label="Bidet Show: On (TalkingToilet_controlPanel_BidetShow_1_On)" Value="146272" />
+  <Preset Label="mural_WallBrush_PaintActive" Value="146323" />
+  <Preset Label="mural_WallBrush_PaintPassive" Value="146324" />
+  <Preset Label="Watch Shot (si_Basketball_WatchShot)" Value="146386" />
+  <Preset Label="si_cityLife_Walkbys_ReadGuide_Autonomous" Value="146422" />
+  <Preset Label="Paint Nature Mural (mural_Wall_StartPaint)" Value="146495" />
+  <Preset Label="Brag About Being Curry Champion (mixer_social_BragCurryContest_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="146516" />
+  <Preset Label="Look Out Window (LotMods_ApartmentWindow_View_si_Autonomous)" Value="146548" />
+  <Preset Label="Invite to Hangout (door_Apartment_InviteOver_createSituation)" Value="146553" />
+  <Preset Label="Continue Mural (mural_Wall_ResumePaint)" Value="146620" />
+  <Preset Label="Ask about Your Romantic Destiny (mixer_social_AskAboutRomanticDestiny_targeted_Friendly_AlwaysOn_LoveGuru)" Tags="TestUnsafe" Value="146650" />
+  <Preset Label="Request Romance Guru's Wisdom (mixer_social_RequestGuruLoveWisdom_targeted_Friendly_AlwaysOn_LoveGuru)" Tags="TestUnsafe" Value="146651" />
+  <Preset Label="Ask Guru About Current Relationship (mixer_social_AskGuruAboutCurrentRelationship_targeted_Friendly_AlwaysOn_LoveGuru)" Tags="TestUnsafe" Value="146652" />
+  <Preset Label="Ask about Your Romantic Destiny (mixer_social_AskAboutRomanticDestiny_Targeted_Friendly_AlwaysOn_LoveGuru_Initiate)" Tags="TestUnsafe" Value="146670" />
+  <Preset Label="Request Romance Guru's Wisdom (mixer_social_RequestGuruLoveWisdom_Targeted_Friendly_AlwaysOn_STC_LoveGuru_Initiate)" Tags="TestUnsafe" Value="146676" />
+  <Preset Label="Ask Guru about Current Relationship (mixer_social_AskGuruAboutCurrentRelationship_Targeted_Friendly_AlwaysOn_STC_LoveGuru_Initiate)" Tags="TestUnsafe" Value="146688" />
+  <Preset Label="Double Clutch (si_Basketball_Dunks_DoubleClutch)" Value="146776" />
+  <Preset Label="360 Monster Jam (si_Basketball_Dunks_Flying)" Value="146777" />
+  <Preset Label="Layup (si_Basketball_Dunks_AlleyOop)" Value="146778" />
+  <Preset Label="Paint (mural_WallBrush_ScootL)" Value="146850" />
+  <Preset Label="Paint (mural_WallBrush_ScootR)" Value="146851" />
+  <Preset Label="Paint (mural_WallBrush_ScootC)" Value="146852" />
+  <Preset Label="mural_mixer_ScootL" Value="146854" />
+  <Preset Label="mural_mixer_ScootR" Value="146855" />
+  <Preset Label="mural_mixer_ScootC" Value="146856" />
+  <Preset Label="Heat of the Moment Marriage To {2.SimName} (wedding_Picker_Female_BlossomFestival)" Tags="TestUnsafe" Value="146858" />
+  <Preset Label="Heat of the Moment Marriage To {2.SimName} (wedding_Picker_Male_BlossomFestival)" Tags="TestUnsafe" Value="146859" />
+  <Preset Label="Blow Bubbles (si_BubbleBottle_blow_bubbles)" Value="146905" />
+  <Preset Label="Choose A Shot (si_Basketball_Challenge_HoopsCompetition)" Value="147074" />
+  <Preset Label="Dunk (si_Basketball_Challenge_DunkCompetition)" Value="147075" />
+  <Preset Label="Challenge To Dunk Competition (simPicker_Basketball_Competition_DunkCompetition)" Tags="TestUnsafe" Value="147077" />
+  <Preset Label="Challenge To Hoops Competition (simPicker_Basketball_Competition_HoopsCompetition)" Tags="TestUnsafe" Value="147078" />
+  <Preset Label="{1.ObjectName} is Disconnected! (videoGameConsole_Discconnted_ToolTip)" Value="147110" />
+  <Preset Label="Busk for Tips (portableKeyboard_PlayBuskForTips)" Value="147193" />
+  <Preset Label="OBLITERATE! (object_Repair_ApartmentProblem_Landlord_Mice)" Value="147229" />
+  <Preset Label="OBLITERATE! (object_Repair_ApartmentProblem_Mice)" Value="147230" />
+  <Preset Label="Watch Performance (portableKeyboard_ViewerInteraction_Watch)" Value="147238" />
+  <Preset Label="Tip {1.SimFirstName} (portableKeyboard_ViewerInteraction_Tip)" Value="147239" />
+  <Preset Label="Watch Performance Together (rallyables_GoToWatchTogether_PortableKeyboardBusker)" Value="147240" />
+  <Preset Label="Wait To Dunk (si_Basketball_Challenge_WaitForTurn_DunkCompetition)" Value="147244" />
+  <Preset Label="Wait To Shoot (si_Basketball_Challenge_WaitForTurn_HoopsCompetition)" Value="147245" />
+  <Preset Label="mixer_Basketball_CheckForTurn" Value="147247" />
+  <Preset Label="Deface (mural_Wall_Deface)" Value="147261" />
+  <Preset Label="Convince Tea is Poisonous (socials_Targeted_Mischief_AlwaysOn_STC_LampFestival_DescribeTea)" Tags="TestUnsafe" Value="147268" />
+  <Preset Label="Sing The Prankster Theme Song (socials_Targeted_Mischief_AlwaysOn_STC_LampFestival_SingNaughtySong)" Tags="TestUnsafe" Value="147269" />
+  <Preset Label="Imply Jokester Sabotage (socials_Targeted_Mischief_AlwaysOn_STC_LampFestival_ImplySabotage)" Tags="TestUnsafe" Value="147270" />
+  <Preset Label="Imply Tea Sabotage (socials_Targeted_Mischief_AlwaysOn_STC_LampFestival_ConvinceLifeHack)" Tags="TestUnsafe" Value="147271" />
+  <Preset Label="Poke Fun at Pranksters (socials_Targeted_Funny_AlwaysOn_STC_LampFestival_JokeAboutDarkTeam)" Tags="TestUnsafe" Value="147292" />
+  <Preset Label="Impersonate Pranksters (socials_Targeted_Funny_AlwaysOn_STC_LampFestival_ImpressionOfTourist)" Tags="TestUnsafe" Value="147293" />
+  <Preset Label="Be Sarcastic about Voodoo (socials_Targeted_Funny_AlwaysOn_STC_LampFestival_SarcasticVoodoo)" Tags="TestUnsafe" Value="147294" />
+  <Preset Label="Impossible Sausage Mime (socials_Targeted_Funny_AlwaysOn_STC_LampFestival_SausageMime)" Tags="TestUnsafe" Value="147295" />
+  <Preset Label="Restore (mural_Wall_Restore)" Value="147297" />
+  <Preset Label="mural_Wall_mixer_Clean" Value="147300" />
+  <Preset Label="Watch Competition (si_Basketball_WatchCompetition)" Value="147352" />
+  <Preset Label="Remove (mural_Wall_Remove)" Value="147375" />
+  <Preset Label="Dream Big (si_Basketball_DreamBig)" Value="147392" />
+  <Preset Label="Layup (si_Basketball_Dunks_AlleyOop_Competition)" Value="147445" />
+  <Preset Label="Double Clutch (si_Basketball_Dunks_DoubleClutch_Competition)" Value="147446" />
+  <Preset Label="360 Monster Jam (si_Basketball_Dunks_Flying_Competition)" Value="147447" />
+  <Preset Label="Rant About TV Show Cancellation (mixer_Social_RantAboutShow_Targeted_Friendly_AlwaysOn_STC_LogicFestival)" Tags="TestUnsafe" Value="147448" />
+  <Preset Label="Talk Lovingly About Cosplayers (mixer_Social_TalkAboutCosplayers_Targeted_Friendly_AlwaysOn_STC_LogicFestival)" Tags="TestUnsafe" Value="147449" />
+  <Preset Label="Argue About Gif Pronunciation (mixer_Social_ArgueGif_Targeted_Friendly_AlwaysOn_STC_LogicFestival)" Tags="TestUnsafe" Value="147450" />
+  <Preset Label="Debate 1000 Ant Sized Bears vs. 1 Bear Sized Ant (mixer_Social_DebateAntBears_Targeted_Friendly_AlwaysOn_STC_LogicFestival)" Tags="TestUnsafe" Value="147451" />
+  <Preset Label="Join Hoops Competition (si_Basketball_Challenge_Hoops_JoinGame)" Value="147452" />
+  <Preset Label="Join Dunk Competition (si_Basketball_Challenge_Dunk_JoinGame)" Value="147455" />
+  <Preset Label="Turn Off Auto Play (stereo_PortableKeyboard_turnoff)" Value="147459" />
+  <Preset Label="Make a Joke About Pi (mixer_Socials_JokeAboutPi_Targeted_Funny_AlwaysOn_STC_LogicFestival)" Tags="TestUnsafe" Value="147465" />
+  <Preset Label="Joke About Rocket Ship Woohoo (mixer_Socials_JokeAboutRocketWoohoo_Targeted_Funny_AlwaysOn_STC_LogicFestival)" Tags="TestUnsafe" Value="147466" />
+  <Preset Label="Kick Off Mural (si_mural_KickOff)" Value="147472" />
+  <Preset Label="Join Game (videoGameConsole_JoinGame_TV)" Value="147546" />
+  <Preset Label="Watch Game (videoGameConsole_WatchGame_TV)" Value="147547" />
+  <Preset Label="Paint Mural (mural_RollUp_Paint_Staging)" Value="147629" />
+  <Preset Label="Livestream Party Frenzy (videoGameConsole_Livestream_Start_Party_TV)" Value="147637" />
+  <Preset Label="Livestream Genie's Curse (videoGameConsole_Livestream_Start_Platformer_TV)" Value="147638" />
+  <Preset Label="Livestream MySims Racing (videoGameConsole_Livestream_Start_Racing_TV)" Value="147639" />
+  <Preset Label="Livestream Density Effect (videoGameConsole_Livestream_Start_RPG_TV)" Value="147640" />
+  <Preset Label="Novice Party Frenzy Tournament (videoGameConsole_PlayGameTournament_Start_Party_TV)" Value="147641" />
+  <Preset Label="Novice Genie's Curse Tournament (videoGameConsole_PlayGameTournament_Start_Platformer_TV)" Value="147642" />
+  <Preset Label="Novice MySims Racing Tournament (videoGameConsole_PlayGameTournament_Start_Racing_TV)" Value="147643" />
+  <Preset Label="Novice Density Effect Tournament (videoGameConsole_PlayGameTournament_Start_RPG_TV)" Value="147644" />
+  <Preset Label="Play Party Frenzy (videoGameConsole_PlayGame_Start_Party_TV)" Value="147645" />
+  <Preset Label="Play Genie's Curse (videoGameConsole_PlayGame_Start_Platformer_TV)" Value="147646" />
+  <Preset Label="Play MySims Racing (videoGameConsole_PlayGame_Start_Racing_TV)" Value="147647" />
+  <Preset Label="Play Density Effect (videoGameConsole_PlayGame_Start_RPG_TV)" Value="147648" />
+  <Preset Label="Force Self to Play Party Frenzy (videoGameConsole_GamedOut_Start_Party_TV)" Value="147654" />
+  <Preset Label="Force Self to Play Genie's Curse (videoGameConsole_GamedOut_Start_Platformer_TV)" Value="147655" />
+  <Preset Label="Force Self to Play MySims Racing (videoGameConsole_GamedOut_Start_Racing_TV)" Value="147656" />
+  <Preset Label="Force Self to Play Density Effect (videoGameConsole_GamedOut_Start_RPG_TV)" Value="147657" />
+  <Preset Label="Pro Party Frenzy Tournament (videoGameConsole_PlayGameTournamentPro_Start_Party_TV)" Value="147658" />
+  <Preset Label="Pro Genie's Curse Tournament (videoGameConsole_PlayGameTournamentPro_Start_Platformer_TV)" Value="147659" />
+  <Preset Label="Pro MySims Racing Tournament (videoGameConsole_PlayGameTournamentPro_Start_Racing_TV)" Value="147660" />
+  <Preset Label="Pro Density Effect Tournament (videoGameConsole_PlayGameTournamentPro_Start_RPG_TV)" Value="147661" />
+  <Preset Label="Stream Let's Play Party Frenzy (videoGameConsole_StreamLetsPlay_Start_Party_TV)" Value="147662" />
+  <Preset Label="Stream Let's Play Genie's Curse (videoGameConsole_StreamLetsPlay_Start_Platformer_TV)" Value="147663" />
+  <Preset Label="Stream Let's Play MySims Racing (videoGameConsole_StreamLetsPlay_Start_Racing_TV)" Value="147664" />
+  <Preset Label="Stream Let's Play Density Effect (videoGameConsole_StreamLetsPlay_Start_RPG_TV)" Value="147665" />
+  <Preset Label="Debug - Shot (Swish) (basketball_TakeShots_Debug_Shot_Swish)" Value="147722" />
+  <Preset Label="Debug - Shot (Bank) (basketball_TakeShots_Debug_Shot_Bank)" Value="147723" />
+  <Preset Label="Debug - Shot (Miss) (basketball_TakeShots_Debug_Shot_Miss)" Value="147724" />
+  <Preset Label="Play Party Frenzy Online With (videoGameConsole_PlayWith_Online_Party_TV)" Tags="TestUnsafe" Value="147738" />
+  <Preset Label="Play MySims Racing Online With (videoGameConsole_PlayWith_Online_Racing_TV)" Tags="TestUnsafe" Value="147740" />
+  <Preset Label="Play Party Frenzy With (videoGameConsole_PlayWith_Multiplayer_Party_TV)" Tags="TestUnsafe" Value="147741" />
+  <Preset Label="Play MySims Racing With (videoGameConsole_PlayWith_Multiplayer_Racing_TV)" Tags="TestUnsafe" Value="147742" />
+  <Preset Label="Protest for Cause Here (terrain-gohere_ProtestForCause)" Value="147774" />
+  <Preset Label="Go To Apartment Door (door_Apartment_RouteTo_insideActiveLot_invitedNPC)" Value="147862" />
+  <Preset Label="Coach (mentor_Basketball)" Value="147877" />
+  <Preset Label="Paint Mural (mural_Floor_Paint_Staging)" Value="147899" />
+  <Preset Label="Continue Mural (mural_Floor_ResumePaint)" Value="147900" />
+  <Preset Label="Paint City Mural (mural_Floor_StartPaint)" Value="147901" />
+  <Preset Label="mural_FloorSpray_PaintActive" Value="147904" />
+  <Preset Label="mural_FloorSpray_PaintPassive" Value="147905" />
+  <Preset Label="Deface (mural_Floor_Deface)" Value="147907" />
+  <Preset Label="Remove (mural_Floor_Remove)" Value="147908" />
+  <Preset Label="Restore (mural_Floor_Restore)" Value="147909" />
+  <Preset Label="Paint (mural_Floor_Scoot_C)" Value="147911" />
+  <Preset Label="Paint (mural_Floor_Scoot_L)" Value="147912" />
+  <Preset Label="Paint (mural_Floor_Scoot_R)" Value="147913" />
+  <Preset Label="si_CraftSalesTable_CreateCraftables_NPC" Value="147958" />
+  <Preset Label="Spray Graffiti (mural_Wall_StartGraffiti)" Value="148019" />
+  <Preset Label="Spray Graffiti (mural_wallBrush_Graffiti_Staging)" Value="148021" />
+  <Preset Label="mural_Wall_SprayActive" Value="148022" />
+  <Preset Label="mural_Wall_SprayPassive" Value="148023" />
+  <Preset Label="Continue Graffiti (mural_Wall_ResumeGraffiti)" Value="148025" />
+  <Preset Label="View (mural_Wall_View)" Value="148027" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_UptownCupcake)" Value="148143" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_UptownGourmet)" Value="148144" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_UptownCupcake)" Value="148146" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_UptownGourmet)" Value="148147" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_UptownCupcake_review_CriticCareer)" Value="148164" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_UptownGourmet_review_CriticCareer)" Value="148165" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_UptownGourmet)" Value="148166" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_UptownCupcake)" Value="148167" />
+  <Preset Label="Spray Graffiti (mural_RollUp_Graffiti_Staging)" Value="148171" />
+  <Preset Label="Paint Mural (mural_Garage_Paint_Staging)" Value="148232" />
+  <Preset Label="Spray Graffiti (mural_Garage_Graffiti_Staging)" Value="148233" />
+  <Preset Label="Paint City Mural (mural_Wall_StartPaint_City)" Value="148277" />
+  <Preset Label="Paint Political Mural (mural_Wall_StartPaint_Political)" Value="148278" />
+  <Preset Label="Paint Figure Mural (mural_Wall_StartPaint_Figures)" Value="148279" />
+  <Preset Label="Paint Cultural Mural (mural_Wall_StartPaint_Cultural)" Value="148280" />
+  <Preset Label="Paint Optical Illusion (mural_Wall_StartPaint_Illusion)" Value="148281" />
+  <Preset Label="Paint Optical Illusion (mural_Floor_StartIllusion)" Value="148690" />
+  <Preset Label="Read Note (apartmentBulletinBoard_ReadNoteOutcome)" Value="148961" />
+  <Preset Label="Complain To Landlord (ApartmentProblems_ComplainToLandlord_Picker)" Tags="TestUnsafe" Value="149286" />
+  <Preset Label="Work From Home (Critic) (phone_WorkFromHome_Critic)" Value="149483" />
+  <Preset Label="Pound on Door (door_Apartment_AngryKnock_Neighbor_Complain_Noise)" Value="149553" />
+  <Preset Label="Chat with {1.SimFirstName} (sim_ProtestChat)" Value="149558" />
+  <Preset Label="Spray Graffiti (mural_Floor_Graffiti_Staging)" Value="149561" />
+  <Preset Label="Listen to Keyboard Music (portableKeyboard_ListenToMusicPlaying)" Value="149562" />
+  <Preset Label="Dance (portableKeyboard_Dance)" Value="149578" />
+  <Preset Label="Coach (Basketball_Coach_Picker)" Tags="TestUnsafe" Value="149584" />
+  <Preset Label="In Awe (reaction_Mixers_Fireworks_Ground_Awe)" Value="149619" />
+  <Preset Label="Cheering (reaction_Mixers_Fireworks_Ground_Cheer)" Value="149620" />
+  <Preset Label="Disappointed (reaction_Mixers_Fireworks_Ground_Disappointed)" Value="149621" />
+  <Preset Label="Knock Politely (door_Apartment_PoliteKnock_Neighbor_Intrigued_Noise)" Value="149818" />
+  <Preset Label="Scold (mural_ScoldDefacer)" Value="149959" />
+  <Preset Label="View {1.ObjectName} (cityLife_Walkbys_Tourist_ViewObject_Signs)" Value="149988" />
+  <Preset Label="Knock Politely (door_Apartment_PoliteKnock_Neighbor_Intrigued_Smell)" Value="150225" />
+  <Preset Label="Ask to Leave (ask_toLeaveLot_RejectHangout)" Value="150258" />
+  <Preset Label="Sing Songs (portableKeyboard_Sing_Song)" Value="150267" />
+  <Preset Label="License Song (licenseSong_PortableKeyboard)" Value="150331" />
+  <Preset Label="portableKeyboard_WriteLyrics_Staging" Value="150334" />
+  <Preset Label="portableKeyboard_WriteSong_Staging" Value="150335" />
+  <Preset Label="Write Lyrics (singingSkill_StartWriting_PortableKeyboard)" Value="150336" />
+  <Preset Label="Serenade (self_Social_SingingSerenade_PortableKeyboard)" Value="150393" />
+  <Preset Label="Sing Serenade (portableKeyboard_Picker_SingingSerenade)" Tags="TestUnsafe" Value="150394" />
+  <Preset Label="Paint Mural Together (rallyables_GoThenPaintMural_Floor)" Value="150395" />
+  <Preset Label="Paint Mural Together (rallyables_GoThenPaintMurals_Wall)" Value="150403" />
+  <Preset Label="Sing Serenade (guitar_Picker_SingingSerenade)" Tags="TestUnsafe" Value="150432" />
+  <Preset Label="Serenade (self_Social_SingingSerenade_Guitar)" Value="150433" />
+  <Preset Label="fireworks_Mixer_WatchIdle_Ground" Value="150444" />
+  <Preset Label="Sing Serenade (piano_Picker_SingingSerenade)" Tags="TestUnsafe" Value="150449" />
+  <Preset Label="Serenade (self_Social_SingingSerenade_Piano)" Value="150455" />
+  <Preset Label="Sing Serenade (microphone_Picker_SingingSerenade)" Tags="TestUnsafe" Value="150456" />
+  <Preset Label="Activist (rallyables_GoStartMurals_Activist)" Value="150467" />
+  <Preset Label="Cultural (rallyables_GoStartMurals_Cultural)" Value="150468" />
+  <Preset Label="City (rallyables_GoStartMurals_City)" Value="150469" />
+  <Preset Label="Nature (rallyables_GoStartMurals_Nature)" Value="150470" />
+  <Preset Label="Figures (rallyables_GoStartMurals_Figures)" Value="150471" />
+  <Preset Label="Optical Illusion (rallyables_GoStartMurals_OpticalIllusion)" Value="150472" />
+  <Preset Label="Graffiti (rallyables_GoStartMurals_Graffiti)" Value="150474" />
+  <Preset Label="Hire Vegetarian Caterer (object_hireNPC_Caterer_Vegetarian)" Value="150479" />
+  <Preset Label="Serenade (self_Social_SingingSerenade_Microphone)" Value="150509" />
+  <Preset Label="{1.ObjectName} is Broken! (videoGameConsole_Broken_ToolTip_TV)" Value="150513" />
+  <Preset Label="Watch Fireworks (festivalFireworks_WatchFireworks_Bystander)" Value="150533" />
+  <Preset Label="Turn Off {1.ObjectName} (videoGameConsole_TurnOff_Immediate_TV)" Value="150661" />
+  <Preset Label="Playing Online MySims Racing (videoGameConsole_PlayGame_Online_Racing)" Value="150739" />
+  <Preset Label="Playing Online Party Frenzy (videoGameConsole_PlayGame_Online_Party)" Value="150740" />
+  <Preset Label="Playing Multiplayer MySims Racing (videoGameConsole_PlayGame_Multiplayer_Racing)" Value="150742" />
+  <Preset Label="Playing Multiplayer Party Frenzy (videoGameConsole_PlayGame_Multiplayer_Party)" Value="150743" />
+  <Preset Label="Make Empty Promises (mixer_social_Career_Activist_MakeEmptyPromises_alwaysOn)" Tags="TestUnsafe" Value="150760" />
+  <Preset Label="{1.ObjectName} is Burnt! (videoGameConsole_Burnt_ToolTip_TV)" Value="150763" />
+  <Preset Label="attractorPoints_Festivals_Blossom_Guru" Value="150890" />
+  <Preset Label="si_WaitAround_Guru_Blossom" Value="150892" />
+  <Preset Label="Wear Raccoon Outfit (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToRaccoon)" Tags="TestUnsafe" Value="150988" />
+  <Preset Label="Listen to {1.SimFirstName}'s Complaint (social_ApartmentNeighbor_TargetComplainsAboutLoudNoises_si)" Value="151023" />
+  <Preset Label="Status Update at {2.String} (phone_SocialMedia_CheckInAtVenue_StatusUpdate)" Value="151183" />
+  <Preset Label="Shout Out from {2.String} (phone_SocialMedia_CheckInAtVenue_ShoutOut_IP)" Value="151184" />
+  <Preset Label="Announce Appearance at {2.String} (phone_SocialMedia_CheckInAtVenue_AnnounceAppearance)" Value="151185" />
+  <Preset Label="Shout Out from {2.String} (phone_SocialMedia_CheckInAtVenue_ShoutOut_PR)" Value="151186" />
+  <Preset Label="Watch Game Together (rallyables_GoToVideoGameConsole_Watch_TV)" Value="151214" />
+  <Preset Label="Charity Stream (computer_SocialNetwork_SocialMediaCareer_InternetPersonality_CharityStream)" Value="151260" />
+  <Preset Label="Shoot Around (basketball_TakeShots_Rallyables_Any)" Value="151279" />
+  <Preset Label="Paint Cultural Mural (mural_Floor_StartCultural)" Value="151319" />
+  <Preset Label="Paint Nature Mural (mural_Floor_StartNature)" Value="151351" />
+  <Preset Label="Paint Figure Mural (mural_Floor_StartFigure)" Value="151352" />
+  <Preset Label="Paint Political Mural (mural_Floor_StartActivist)" Value="151353" />
+  <Preset Label="Spray (mural_WallSpray_ScootC)" Value="151377" />
+  <Preset Label="Spray (mural_WallSpray_ScootL)" Value="151378" />
+  <Preset Label="Spray (mural_WallSpray_ScootR)" Value="151380" />
+  <Preset Label="mural_mixer_ScootC_graf" Value="151385" />
+  <Preset Label="mural_mixer_ScootL_graf" Value="151386" />
+  <Preset Label="mural_mixer_ScootR_graf" Value="151387" />
+  <Preset Label="This is IT! (reaction_lotTrait_quakeZone_Panic_si)" Value="151401" />
+  <Preset Label="reaction_generic_Scared_quakeEvent_mixer" Value="151404" />
+  <Preset Label="Take Selfie with Cosplayer (mixer_Social_SelfieWithCosplayer_Targeted_Friendly_AlwaysOn_STC_LogicFestival)" Tags="TestUnsafe" Value="151426" />
+  <Preset Label="Play MySims Racing (videoGameConsole_JoinGame_Playing_Racing)" Value="151453" />
+  <Preset Label="Disable Wireless Display Override (videoGameConsole_Telesplosion_Off)" Value="151475" />
+  <Preset Label="Enable Wireless Display Override (videoGameConsole_Telesplosion_On)" Value="151476" />
+  <Preset Label="videoGameConsole_Mixer_Watch_Idle" Value="151507" />
+  <Preset Label="videoGameConsole_Mixer_Watch_Cheer" Value="151508" />
+  <Preset Label="videoGameConsole_Mixer_Watch_Heckle" Value="151509" />
+  <Preset Label="Play Party Frenzy (videoGameConsole_JoinGame_Playing_Party)" Value="151556" />
+  <Preset Label="cityLifeBusker_Mixer_WatchTip" Value="151718" />
+  <Preset Label="2 Pointers (si_Basketball_Shots_2Point_NoBank)" Value="151811" />
+  <Preset Label="2 Pointers (si_Basketball_Shots_2Point_Sides)" Value="151812" />
+  <Preset Label="festivalFireworks_QuickFuseExplosion" Value="151848" />
+  <Preset Label="bubbleBlower_Buff_breathFire_idle_major" Value="151863" />
+  <Preset Label="bubbleBlower_Buff_breathFrost_idle_major" Value="151867" />
+  <Preset Label="bubbleBlower_Buff_breathStink_idle_major" Value="151869" />
+  <Preset Label="2 Pointers (si_Basketball_Shots_2Point_Center)" Value="151883" />
+  <Preset Label="Close Shot (si_Basketball_Shots_CloseShot_NoBank)" Value="151887" />
+  <Preset Label="Close Shot (si_Basketball_Shots_CloseShot_Center)" Value="151888" />
+  <Preset Label="Close Shot (si_Basketball_Shots_CloseShot_Sides)" Value="151889" />
+  <Preset Label="3 Pointer (si_Basketball_Shots_ThreePointer_NoBank)" Value="151890" />
+  <Preset Label="3 Pointer (si_Basketball_Shots_ThreePointer_Center)" Value="151891" />
+  <Preset Label="3 Pointer (si_Basketball_Shots_ThreePointer_Sides)" Value="151892" />
+  <Preset Label="Half Court (si_Basketball_Shots_LongThree_Center)" Value="151893" />
+  <Preset Label="Half Court (si_Basketball_Shots_LongThree_Sides)" Value="151894" />
+  <Preset Label="Critically Assess (art_CriticallyAssess_NoReserve)" Value="151938" />
+  <Preset Label="Gather Inspiration (art_GatherInspiration_NoReserve)" Value="151939" />
+  <Preset Label="Critique Work (art_Trait_Snob_SnobbilyAssess_NoReserve)" Value="151940" />
+  <Preset Label="Study Art (art_View_CriticCareer_StudyArt_NoReserve)" Value="151951" />
+  <Preset Label="Browse Table (si_CraftSalesTable_BrowseTable_Paintings)" Value="152183" />
+  <Preset Label="Use Megaphone (mixerInteraction_Career_Activist_useMegaphone)" Value="152193" />
+  <Preset Label="videoGameConsole_Mixer_React_Negative" Value="152209" />
+  <Preset Label="videoGameConsole_Mixer_React_Positive" Value="152210" />
+  <Preset Label="Get Sprayed (Toilet_Talking_soc_mixers_Mean_spray)" Value="152359" />
+  <Preset Label="Fail (si_Basketball_Dunks_Fail)" Value="152363" />
+  <Preset Label="Fail (si_Basketball_Dunks_Fail_Competition)" Value="152364" />
+  <Preset Label="Layup (basketball_Dunks_Layup)" Value="152365" />
+  <Preset Label="Double Clutch (basketball_Dunks_DoubleClutch)" Value="152366" />
+  <Preset Label="360 Monster Jam (basketball_Dunks_Flying)" Value="152367" />
+  <Preset Label="portableKeyboard_CraftingMixer_WriteLyrics" Value="152368" />
+  <Preset Label="portableKeyboard_CreateSheetMusic" Value="152369" />
+  <Preset Label="mural_mixer_floor_ScootR" Value="152396" />
+  <Preset Label="mural_mixer_Floor_ScootL" Value="152397" />
+  <Preset Label="mural_mixer_Floor_ScootC" Value="152398" />
+  <Preset Label="si_ApartmentProblems_LandLord_FindWork" Value="152401" />
+  <Preset Label="Watch Karaoke (si_KaraokeMachine_Watch_YSim)" Value="152418" />
+  <Preset Label="mural_mixer_Floor_ScootC_graf" Value="152423" />
+  <Preset Label="mural_mixer_Floor_ScootL_graf" Value="152424" />
+  <Preset Label="mural_mixer_floor_ScootR_graf" Value="152425" />
+  <Preset Label="Spray Graffiti (mural_Floor_Scoot_C_graf)" Value="152426" />
+  <Preset Label="Spray Graffiti (mural_Floor_Scoot_L_graf)" Value="152427" />
+  <Preset Label="Spray Graffiti (mural_Floor_Scoot_R_graf)" Value="152428" />
+  <Preset Label="Mentor (mentor_Mural)" Value="152532" />
+  <Preset Label="Watch Living Statue (livingStatueBusker_SuperInteraction_ViewWatch_Autonomous)" Value="152570" />
+  <Preset Label="cityLifeBusker_CityLife_Mixer_WatchCrazyEyes" Value="152572" />
+  <Preset Label="cityLifeBusker_CityLife_Mixer_WatchWave" Value="152573" />
+  <Preset Label="cityLifeBusker_CityLife_Mixer_WatchFlirtWith" Value="152574" />
+  <Preset Label="cityLifeBusker_CityLife_Mixer_WatchScare" Value="152575" />
+  <Preset Label="cityLifeBusker_CityLife_Mixer_WatchImpression" Value="152576" />
+  <Preset Label="Activist (rallyables_GoStartMurals_Activist_Floor)" Value="152587" />
+  <Preset Label="City (rallyables_GoStartMurals_City_Floor)" Value="152588" />
+  <Preset Label="Cultural (rallyables_GoStartMurals_Cultural_Floor)" Value="152589" />
+  <Preset Label="Figures (rallyables_GoStartMurals_Figures_Floor)" Value="152590" />
+  <Preset Label="Graffiti (rallyables_GoStartMurals_Graffiti_Floor)" Value="152591" />
+  <Preset Label="Nature (rallyables_GoStartMurals_Nature_Floor)" Value="152592" />
+  <Preset Label="Optical Illusion (rallyables_GoStartMurals_OpticalIllusion_Floor)" Value="152593" />
+  <Preset Label="Drink (drink_Tea_Festival_Consume)" Value="152595" />
+  <Preset Label="Play Genie's Curse Together (rallyables_GoToVideoGameConsole_Platformer)" Value="152646" />
+  <Preset Label="Mood Lighting: Off (TalkingToilet_ControlPanel_setLighting_0_Off)" Value="152702" />
+  <Preset Label="Lights: Aqua (TalkingToilet_setState_Lighting_Aqua_debug)" Value="152703" />
+  <Preset Label="Lights: Navy (TalkingToilet_setState_Lighting_Navy_debug)" Value="152704" />
+  <Preset Label="Lights: Green (TalkingToilet_setState_Lighting_Green_debug)" Value="152705" />
+  <Preset Label="Lights: Red (TalkingToilet_setState_Lighting_Red_debug)" Value="152706" />
+  <Preset Label="Join Game (videoGameConsole_JoinGame_Picked)" Value="152709" />
+  <Preset Label="Mood Lighting: On (TalkingToilet_ControlPanel_setLighting_1_On)" Value="152717" />
+  <Preset Label="Give Eulogy (urnstone_Eulogize)" Value="152727" />
+  <Preset Label="Give Eulogy (podium_GiveSpeech_Eulogy)" Value="152728" />
+  <Preset Label="Join the Pranksters (festivalTeaFountain_GrabServing_Child_FumbleChooser_Dark_Centerpiece)" Value="152737" />
+  <Preset Label="Join the Jokesters (festivalTeaFountain_GrabServing_Child_FumbleChooser_Light_Centerpiece)" Value="152742" />
+  <Preset Label="Pour Sakura Tea (festivalTeaFountain_GrabServing_Child_FumbleChooser_Sakura_Centerpiece)" Value="152743" />
+  <Preset Label="Give Eulogy (podium_GiveSpeech_GiveEulogy)" Value="152744" />
+  <Preset Label="festivalTeaFountain_GrabServing_RallyChooser_Dark_Centerpiece" Value="152752" />
+  <Preset Label="festivalTeaFountain_GrabServing_RallyChooser_Light_Centerpiece" Value="152753" />
+  <Preset Label="festivalTeaFountain_GrabServing_RallyChooser_Sakura_Centerpiece" Value="152754" />
+  <Preset Label="Light {1.ObjectName} (festivalFireworks_LightFuseOnGround_Dud)" Value="152758" />
+  <Preset Label="Light {1.ObjectName} (festivalFireworks_LightFuseOnGround_Normal)" Value="152761" />
+  <Preset Label="Light {1.ObjectName} (festivalFireworks_LightFuseOnGround_QuickFuseFire)" Value="152763" />
+  <Preset Label="Light {1.ObjectName} (festivalFireworks_LightFuseOnGround_QuickFuse)" Value="152764" />
+  <Preset Label="Light {1.ObjectName} (festivalFireworks_LightFuseOnGround_IndoorExplosion)" Value="152765" />
+  <Preset Label="attractorPoints_Festivals_Lamp_FireworkLighter" Value="152788" />
+  <Preset Label="si_Festival_CreateFirework_Lamp" Value="152790" />
+  <Preset Label="Resume {0.String} (writeSong_Resume_PortableKeyboard)" Value="152843" />
+  <Preset Label="Exchange Briefcase (socials_Targeted_ExchangeBriefcase)" Tags="TestUnsafe" Value="152905" />
+  <Preset Label="Gossip about Sakura Tea effects (mixer_social_GossipSakuraTea_Festival_Blossom_targeted_friendly)" Tags="TestUnsafe" Value="152919" />
+  <Preset Label="counter_CuttingBoard_Chop_Potato" Value="152925" />
+  <Preset Label="Indignant (CreateLyrics_Aggregate)" Value="152995" />
+  <Preset Label="Flush (toilet_TalkingToilet_santizeFlush)" Value="153037" />
+  <Preset Label="{1.ObjectName} is Burnt! (videoGameConsole_TVBurnt_ToolTip)" Value="153102" />
+  <Preset Label="{1.ObjectName} is Broken! (videoGameConsole_TVBroken_ToolTip)" Value="153104" />
+  <Preset Label="mural_Wall_SprayFail" Value="153106" />
+  <Preset Label="mural_FloorSpray_Fail" Value="153107" />
+  <Preset Label="Sample Food (generic_food_GrabSample_Vegetarian)" Value="153148" />
+  <Preset Label="mural_FloorSpray_PaintActive_Primer" Value="153175" />
+  <Preset Label="mural_Wall_SprayActive_Primer" Value="153179" />
+  <Preset Label="mixer_Basketball_Competition_WaitForTurn_Watch" Value="153244" />
+  <Preset Label="Already Playing {1.ObjectName} (videoGameConsole_InUse_ToolTip)" Value="153352" />
+  <Preset Label="Dream Big (si_Basketball_DreamBig_3Pointer)" Value="153378" />
+  <Preset Label="Dream Big (si_Basketball_DreamBig_DunkDoubleClutch)" Value="153379" />
+  <Preset Label="Dream Big (si_Basketball_DreamBig_DunkFlying)" Value="153380" />
+  <Preset Label="Dream Big (si_Basketball_DreamBig_DunkMiss)" Value="153381" />
+  <Preset Label="Practice Dribbling (si_Basketball_PracticeDribbling_OnFire)" Value="153383" />
+  <Preset Label="Double Clutch (si_Basketball_Dunks_DoubleClutch_OnFire)" Value="153386" />
+  <Preset Label="Fail (si_Basketball_Dunks_Fail_OnFire)" Value="153387" />
+  <Preset Label="360 Monster Jam (si_Basketball_Dunks_Flying_OnFire)" Value="153388" />
+  <Preset Label="Layup (si_Basketball_Dunks_Layup_OnFire)" Value="153389" />
+  <Preset Label="360 Monster Jam (basketball_Dunks_Flying_Competition_OnFire)" Value="153390" />
+  <Preset Label="Double Clutch (basketball_Dunks_DoubleClutch_Competition_OnFire)" Value="153391" />
+  <Preset Label="Fail (basketball_Dunks_Fail_Competition_OnFire)" Value="153392" />
+  <Preset Label="Do Voodoo (voodooDoll_LampFestival_CreateAndUse)" Value="153412" />
+  <Preset Label="cityLife_Walkbys_SuperInteraction_SurveySurroundings" Value="153419" />
+  <Preset Label="Watch PolitiSim (tv_watch_Politics)" Value="153443" />
+  <Preset Label="Sing Serenade (guitar_Picker_SingingSerenade_World)" Tags="TestUnsafe" Value="153459" />
+  <Preset Label="Listen (microphone_Serenade_Listen)" Value="153475" />
+  <Preset Label="Turn Off Auto Play (portableKeyboard_TurnOffAutoplay_AutonomousHireOnly)" Value="153490" />
+  <Preset Label="foodActions_Critic_takePhotoOfFood" Value="153504" />
+  <Preset Label="Read Guide Book (si_cityLife_ReadGuide_UserDirected)" Value="153528" />
+  <Preset Label="si_Festival_Food_CurryContest_WinShirt" Value="153575" />
+  <Preset Label="si_CraftSalesTable_CreateObjects_NPC_Paintings" Value="153583" />
+  <Preset Label="cityLifeBusker_Mixer_StatueBusker_Tip" Value="153587" />
+  <Preset Label="Sing in Karaoke Contest (si_KaraokeMachine_TieredMenu_Contest_Country)" Value="153635" />
+  <Preset Label="Sing in Karaoke Contest (si_KaraokeMachine_TieredMenu_Contest_Disco)" Value="153636" />
+  <Preset Label="Sing in Karaoke Contest (si_KaraokeMachine_TieredMenu_Contest_House)" Value="153637" />
+  <Preset Label="Sing in Karaoke Contest (si_KaraokeMachine_TieredMenu_Contest_Jazz)" Value="153638" />
+  <Preset Label="Sing in Karaoke Contest (si_KaraokeMachine_TieredMenu_Contest_Pop)" Value="153639" />
+  <Preset Label="Sing in Karaoke Contest (si_KaraokeMachine_TieredMenu_Contest_Rock)" Value="153640" />
+  <Preset Label="Playing Multiplayer Party Frenzy (videoGameConsole_StartGames_Multiplayer_Party)" Value="153683" />
+  <Preset Label="Playing Multiplayer MySims Racing (videoGameConsole_StartGames_Multiplayer_Racing)" Value="153684" />
+  <Preset Label="Order Happy Hour Drink (bar_PushOrderDrink_HappyHour_KaraokeBar)" Value="153688" />
+  <Preset Label="Sabotage! (object_Bane_Sabotage_talkingToilet)" Value="153712" />
+  <Preset Label="Join the Jokesters (festival_StartCrafting_Tea_Light)" Value="153734" />
+  <Preset Label="festival_CraftingPhase_CreateObject" Value="153738" />
+  <Preset Label="Join the Pranksters (festival_StartCrafting_Tea_Dark)" Value="153749" />
+  <Preset Label="Pour Sakura Tea (festival_StartCrafting_Tea_Sakura)" Value="153750" />
+  <Preset Label="festival_CraftingPhase_CreateObject_SakuraTea" Value="153753" />
+  <Preset Label="festival_CraftingPhase_CreateObject_Child_Light_Tea" Value="153760" />
+  <Preset Label="festival_CraftingPhase_CreateObject_Child_Dark_Tea" Value="153763" />
+  <Preset Label="festival_CraftingPhase_CreateObject_Child_Sakura_Tea" Value="153769" />
+  <Preset Label="Join the Jokesters (festival_StartCrafting_Tea_Light_Fumble)" Value="153781" />
+  <Preset Label="Join the Pranksters (festival_StartCrafting_Tea_Dark_Fumble)" Value="153782" />
+  <Preset Label="Pour Sakura Tea (festival_StartCrafting_Tea_Sakura_Fumble)" Value="153783" />
+  <Preset Label="festival_CraftingPhase_CreateObject_Fumble_Light" Value="153789" />
+  <Preset Label="festival_CraftingPhase_CreateObject_Fumble_Dark" Value="153790" />
+  <Preset Label="festival_CraftingPhase_CreateObject_Fumble_Sakura" Value="153791" />
+  <Preset Label="Join the Pranksters (festival_TeaFountain_StartCraftingAutonomously_Child_Fumble_Light)" Value="153798" />
+  <Preset Label="Join the Pranksters (festival_TeaFountain_StartCraftingAutonomously_Child_Light)" Value="153801" />
+  <Preset Label="Join the Pranksters (festival_TeaFountain_StartCraftingAutonomously_Child_Dark)" Value="153802" />
+  <Preset Label="Festival Sakura Tea (festival_TeaFountain_StartCraftingAutonomously_Child_Sakura)" Value="153803" />
+  <Preset Label="Join the Pranksters (festival_TeaFountain_StartCraftingAutonomously_Child_Fumble_Dark)" Value="153809" />
+  <Preset Label="Festival Sakura Tea (festival_TeaFountain_StartCraftingAutonomously_Child_Fumble_Sakura)" Value="153810" />
+  <Preset Label="festival_CraftingPhase_CreateObject_Child_Fumble_Dark_Tea" Value="153814" />
+  <Preset Label="festival_CraftingPhase_CreateObject_Child_Fumble_Light_Tea" Value="153815" />
+  <Preset Label="festival_CraftingPhase_CreateObject_Child_Fumble_Sakura_Tea" Value="153816" />
+  <Preset Label="Half Court (basketball_TakeShots_LongThree)" Value="153821" />
+  <Preset Label="Salvage into Parts (si_object_electronics_salvage_KaraokeMachine)" Value="153849" />
+  <Preset Label="Wave Greeting (social_ApartmentNeighbor_penthouseHangout_greet_Wave)" Value="153850" />
+  <Preset Label="Join the Pranksters (festival_TeaFountain_StartCraftingAutonomously_Light)" Value="153851" />
+  <Preset Label="Join the Pranksters (festival_TeaFountain_StartCraftingAutonomously_Dark)" Value="153852" />
+  <Preset Label="Festival Sakura Tea (festival_TeaFountain_StartCraftingAutonomously_Sakura)" Value="153853" />
+  <Preset Label="License Lyrics (licenseLyrics_mailbox)" Value="153886" />
+  <Preset Label="Exchange Rings (wedding_BrideGroom_ExchangeRing_RenewVows_Auto)" Tags="TestUnsafe" Value="153889" />
+  <Preset Label="Exchange Rings (wedding_BrideGroom_ExchangeRing_RenewVows_User)" Tags="TestUnsafe" Value="153890" />
+  <Preset Label="Kiss (wedding_BrideGroom_Kiss_RenewVows)" Tags="TestUnsafe" Value="153891" />
+  <Preset Label="Secure Vote (socials_Targeted_Friendly_AlwaysOn_Career_Activist_SecureVotes_ProtestChat)" Tags="TestUnsafe" Value="153904" />
+  <Preset Label="Promote Policies (socials_Targeted_Friendly_AlwaysOn_Career_Activist_PromotePolicies_ProtestChat)" Tags="TestUnsafe" Value="153906" />
+  <Preset Label="Promote Cause (socials_Targeted_Friendly_AlwaysOn_Career_Activist_PromoteCause_ProtestChat)" Tags="TestUnsafe" Value="153908" />
+  <Preset Label="Collect Donation (§25) (socials_Targeted_Friendly_AlwaysOn_Career_Activist_CollectDonations_ProtestChat_10)" Tags="TestUnsafe" Value="153912" />
+  <Preset Label="Collect Donation (§100) (socials_Targeted_Friendly_AlwaysOn_Career_Activist_CollectDonations_ProtestChat_100)" Tags="TestUnsafe" Value="153913" />
+  <Preset Label="Collect Donation (§250) (socials_Targeted_Friendly_AlwaysOn_Career_Activist_CollectDonations_ProtestChat_1000)" Tags="TestUnsafe" Value="153914" />
+  <Preset Label="Collect Donation (§1000) (socials_Targeted_Friendly_AlwaysOn_Career_Activist_CollectDonations_ProtestChat_10000)" Tags="TestUnsafe" Value="153915" />
+  <Preset Label="Wait (Elevator_object_Wait_keyHolder_si)" Value="153922" />
+  <Preset Label="Wait (Elevator_object_Wait_nonKeyHolder_si)" Value="153923" />
+  <Preset Label="Busk with Violin (performanceSpace_PickInstrument_ChildViolin)" Tags="TestUnsafe" Value="153934" />
+  <Preset Label="Repair {1.ObjectName} (object_Repair_PortableKeyboard)" Value="153967" />
+  <Preset Label="socials_Targeted_Mischief_TransitionToTouching_LampFestival_HandBuzzer" Tags="TestUnsafe" Value="154189" />
+  <Preset Label="Dream Big (si_Basketball_DreamBig_2Pointer)" Value="154205" />
+  <Preset Label="mixer_Karaoke_Watch_Phone" Value="154220" />
+  <Preset Label="socials_Targeted_Mischief_TransitionToTouching_LampFestival_SlapSilly" Tags="TestUnsafe" Value="154226" />
+  <Preset Label="Dream Big (si_Basketball_DreamBig_DunkDoubleClutch_OnFire)" Value="154261" />
+  <Preset Label="Dream Big (si_Basketball_DreamBig_DunkFlying_OnFire)" Value="154262" />
+  <Preset Label="Dream Big (si_Basketball_DreamBig_DunkMiss_OnFire)" Value="154263" />
+  <Preset Label="Resume {0.String} (writeLyrics_Resume)" Value="154332" />
+  <Preset Label="Deface (mural_Floor_Deface_Autonomous)" Value="154335" />
+  <Preset Label="Deface (mural_Wall_Deface_Autonomous)" Value="154342" />
+  <Preset Label="Play with Sparkler (firework_Sparkler_Mixer_PlayWithAutonomous)" Value="154383" />
+  <Preset Label="Take Shower (shower_TakeShower_apartmentNeighbor_flirty)" Value="154397" />
+  <Preset Label="Take Bubble Bath (bathtub_TakeBubbleBath_apartmentNeighbor_flirty)" Value="154400" />
+  <Preset Label="Join the Pranksters (festivalTeaFountain_GrabServing_Rallyable_Centerpiece_Dark)" Value="154419" />
+  <Preset Label="Join the Jokesters (festivalTeaFountain_GrabServing_Rallyable_Centerpiece_Light)" Value="154422" />
+  <Preset Label="Pour Sakura Tea (festivalTeaFountain_GrabServing_Rallyable_Centerpiece_Sakura)" Value="154423" />
+  <Preset Label="Throw Petals (mix_social_ThrowPeddle_Festival_Blossom_targeted_friendly)" Tags="TestUnsafe" Value="154553" />
+  <Preset Label="Be Buzzed In (door_PlayerRingDoorbell_Penthouse)" Value="154572" />
+  <Preset Label="Buy Romance Festival T-Shirt (marketStalls_Social_BuyCASAsset_Blossom)" Value="154581" />
+  <Preset Label="Buy Festival T-Shirt (marketStalls_Social_BuyCASAsset_Food)" Value="154582" />
+  <Preset Label="Buy GeekCon Shirt (marketStalls_Social_BuyCASAsset_Logic)" Value="154583" />
+  <Preset Label="Buy Humor and Hijinks Festival T-Shirt (marketStalls_Social_BuyCASAsset_Lamp)" Value="154584" />
+  <Preset Label="Buy and Wear Romance Festival T-Shirt (marketStalls_Social_BuyCASAssetAndWear_Blossom)" Value="154585" />
+  <Preset Label="Buy and Wear Spice Festival T-Shirt (marketStalls_Social_BuyCASAssetAndWear_Food)" Value="154586" />
+  <Preset Label="Buy and Wear Humor and Hijinks Festival T-Shirt (marketStalls_Social_BuyCASAssetAndWear_Lamp)" Value="154587" />
+  <Preset Label="Buy and Wear GeekCon Shirt (marketStalls_Social_BuyCASAssetAndWear_Logic)" Value="154588" />
+  <Preset Label="Buy Shirt (marketStalls_Social_BuyCASAssetAndWear_Autonomous_Blossom)" Value="154589" />
+  <Preset Label="Buy Shirt (marketStalls_Social_BuyCASAssetAndWear_Autonomous_Food)" Value="154590" />
+  <Preset Label="Buy Shirt (marketStalls_Social_BuyCASAssetAndWear_Autonomous_Lamp)" Value="154591" />
+  <Preset Label="Buy Shirt (marketStalls_Social_BuyCASAssetAndWear_Autonomous_Logic)" Value="154592" />
+  <Preset Label="food_Eat_Active_Chopsticks_Tofu" Value="154649" />
+  <Preset Label="food_Eat_Active_Chopsticks_Nigiri" Value="154650" />
+  <Preset Label="food_Eat_Active_Chopsticks_SourPork" Value="154651" />
+  <Preset Label="food_Eat_Active_Chopsticks_Pho" Value="154652" />
+  <Preset Label="food_Eat_Active_Chopsticks_Ramen" Value="154653" />
+  <Preset Label="food_Eat_Active_Chopsticks_Eggplant" Value="154657" />
+  <Preset Label="food_Eat_Active_Chopsticks_PufferfishNigiri" Value="154800" />
+  <Preset Label="Visit Apartment (gtslti_InactiveApartmentDoor)" Value="154835" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vegetarian_Generic)" Value="154873" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vegetarian_Chinese)" Value="154874" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vegetarian_American)" Value="154875" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vegetarian_Indian)" Value="154876" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vegetarian_Japanese)" Value="154877" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vegetarian_Mexican)" Value="154878" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vegetarian_Vietnamese)" Value="154880" />
+  <Preset Label="Purchase Fireworks (purchase_FestivalFireworks_computer_child)" Tags="TestUnsafe" Value="154889" />
+  <Preset Label="Continue Current Representation (computer_Picker_SocialNetwork_SocialMediaCareer_PublicRelations_RepresentContinue)" Tags="TestUnsafe" Value="154924" />
+  <Preset Label="switch_outfit_SocialMedia_PersuadeToRaccoon" Value="155029" />
+  <Preset Label="Protest for Cause (si_career_Activist_ProtestCause_Chosen_EconomicGrowth)" Value="155048" />
+  <Preset Label="Protest for Cause (si_career_Activist_ProtestCause_Chosen_Environment)" Value="155049" />
+  <Preset Label="Protest for Cause (si_career_Activist_ProtestCause_Chosen_GlobalPeace)" Value="155050" />
+  <Preset Label="Protest for Cause (si_career_Activist_ProtestCause_Chosen_TaxReform)" Value="155051" />
+  <Preset Label="Listen to {1.SimFirstName}'s Complaint (social_ApartmentNeighbor_ListenToNPCComplaint_si)" Value="155069" />
+  <Preset Label="Listen to {1.SimFirstName}'s Complaint (social_ApartmentNeighbor_NPCComplainsAboutLoudNoises_si)" Value="155071" />
+  <Preset Label="singingSkill_Mixers_Microphone_NoPhaseAffordance_4" Value="155076" />
+  <Preset Label="singingSkill_Mixers_Microphone_NoPhaseAffordance_1" Value="155077" />
+  <Preset Label="singingSkill_Mixers_Microphone_NoPhaseAffordance_2" Value="155078" />
+  <Preset Label="singingSkill_Mixers_Microphone_NoPhaseAffordance_3" Value="155079" />
+  <Preset Label="singingSkill_Mixers_Self_NoPhaseAffordance_4" Value="155081" />
+  <Preset Label="singingSkill_Mixers_Self_NoPhaseAffordance_1" Value="155082" />
+  <Preset Label="singingSkill_Mixers_Self_NoPhaseAffordance_2" Value="155083" />
+  <Preset Label="singingSkill_Mixers_Self_NoPhaseAffordance_3" Value="155084" />
+  <Preset Label="Kiss Cheek (mixer_social_Festival_Blossom_TransitionToIntimate_Sleaze_KissCheek)" Tags="TestUnsafe" Value="155108" />
+  <Preset Label="Kiss (mixer_social_Festival_Blossom_TransitionToIntimate_Sleaze_DipKiss)" Tags="TestUnsafe" Value="155109" />
+  <Preset Label="Whisper Sweet Nothings (mixer_social_Festival_Blossom_TransitionToIntimate_Sleaze_Whisper)" Tags="TestUnsafe" Value="155110" />
+  <Preset Label="Flirt (mixer_social_Festival_Blossom_TransitionToIntimate_Sleaze_ShowGuns)" Tags="TestUnsafe" Value="155111" />
+  <Preset Label="si_Festival_Blossom_Sleaze_InteractionChooser" Value="155123" />
+  <Preset Label="si_Festival_Blossom_RomanticCouples_InteractionChooser" Value="155134" />
+  <Preset Label="Wait for Occupant (door_Apartment_NPC_Knock_wait)" Value="155148" />
+  <Preset Label="karaokeMachine_Autonomous_SongSelector_Solo" Value="155149" />
+  <Preset Label="karaokeMachine_Autonomous_SongSelector_Duet" Value="155150" />
+  <Preset Label="karaokeMachine_Autonomous_SongSelector_Contest" Value="155151" />
+  <Preset Label="Sing Karaoke (karaoke_NonTieredMenu_AutonomousSongs_Country)" Value="155206" />
+  <Preset Label="Sing Karaoke (karaoke_NonTieredMenu_AutonomousSongs_House)" Value="155207" />
+  <Preset Label="Sing Karaoke (karaoke_NonTieredMenu_AutonomousSongs_Jazz)" Value="155208" />
+  <Preset Label="Sing Karaoke (karaoke_NonTieredMenu_AutonomousSongs_Rock)" Value="155209" />
+  <Preset Label="Sing Karaoke (karaoke_NonTieredMenu_AutonomousSongs_Pop)" Value="155210" />
+  <Preset Label="Sing Karaoke (karaoke_NonTieredMenu_AutonomousSongs_Disco)" Value="155211" />
+  <Preset Label="Sing in Karaoke Contest (karaoke_NonTieredMenu_AutonomousContestSongs_Country)" Value="155234" />
+  <Preset Label="Sing in Karaoke Contest (karaoke_NonTieredMenu_AutonomousContestSongs_Disco)" Value="155235" />
+  <Preset Label="Sing in Karaoke Contest (karaoke_NonTieredMenu_AutonomousContestSongs_House)" Value="155236" />
+  <Preset Label="Sing in Karaoke Contest (karaoke_NonTieredMenu_AutonomousContestSongs_Jazz)" Value="155237" />
+  <Preset Label="Sing in Karaoke Contest (karaoke_NonTieredMenu_AutonomousContestSongs_Pop)" Value="155238" />
+  <Preset Label="Sing in Karaoke Contest (karaoke_NonTieredMenu_AutonomousContestSongs_Rock)" Value="155239" />
+  <Preset Label="Protest for Cause (si_career_Activist_ProtestCause_Chosen_FromJoin)" Value="155254" />
+  <Preset Label="karaoke_Mixers_Solo_Idles_4min" Value="155263" />
+  <Preset Label="karaoke_Mixers_Solo_Idles_3min" Value="155264" />
+  <Preset Label="karaoke_Mixers_Solo_Idles_2min" Value="155265" />
+  <Preset Label="si_KaraokeMachine_MoveAway" Value="155390" />
+  <Preset Label="Ask to Leave (ask_toLeaveLot_IntriguedNoise)" Value="155559" />
+  <Preset Label="Ask to Leave (ask_toLeaveLot_IntriguedSmell)" Value="155560" />
+  <Preset Label="Wear Festival T-Shirt (marketStalls_JustWearCASAsset_LogicFair)" Value="155570" />
+  <Preset Label="Wear Festival T-Shirt (marketStalls_JustWearCASAsset_LampFestival)" Value="155571" />
+  <Preset Label="Wear Festival T-Shirt (marketStalls_JustWearCASAsset_BlossomFestival)" Value="155572" />
+  <Preset Label="Wear Festival T-Shirt (marketStalls_JustWearCASAsset_FoodFestival)" Value="155573" />
+  <Preset Label="Wear Festival T-Shirt (marketStalls_Social_JustWearCASAsset_BlossomFestival)" Value="155574" />
+  <Preset Label="Wear Festival T-Shirt (marketStalls_Social_JustWearCASAsset_FoodFestival)" Value="155575" />
+  <Preset Label="Wear Festival T-Shirt (marketStalls_Social_JustWearCASAsset_LampFestival)" Value="155576" />
+  <Preset Label="Wear Festival T-Shirt (marketStalls_Social_JustWearCASAsset_LogicFair)" Value="155577" />
+  <Preset Label="singingSkill_Microphone_Serenade_Accent_1" Tags="TestUnsafe" Value="155623" />
+  <Preset Label="singingSkill_Microphone_Serenade_Low_Sing_2" Tags="TestUnsafe" Value="155625" />
+  <Preset Label="singingSkill_Microphone_Serenade_Low_Sing_3" Tags="TestUnsafe" Value="155626" />
+  <Preset Label="singingSkill_Microphone_Serenade_Low_Sing_4" Tags="TestUnsafe" Value="155627" />
+  <Preset Label="singingSkill_Microphone_Serenade_Low_Sing_Idle" Tags="TestUnsafe" Value="155629" />
+  <Preset Label="mural_FloorSpray_Fail_primer" Value="155746" />
+  <Preset Label="mural_Wall_SprayFail_primer" Value="155749" />
+  <Preset Label="Listen to {1.SimFirstName}'s Complaint (social_ApartmentNeighbor_ListenToNPC_childComplaint_si)" Value="155809" />
+  <Preset Label="Go To Apartment Door (door_Apartment_endSituationNeighborReactsToYou_LoudNoises)" Value="155836" />
+  <Preset Label="karaoke_Mixers_Duet_Low_Idle_2sec" Tags="TestUnsafe" Value="155930" />
+  <Preset Label="Knock On Door (door_Apartment_NPC_angryKnock_childComplaint)" Value="156619" />
+  <Preset Label="Listen to World Music (stereo_earbuds_listen_CulturalWorld)" Value="167581" />
+  <Preset Label="Listen to Talk Radio (stereo_earbuds_listen_TalkRadio)" Value="167587" />
+  <Preset Label="Quick Snack (si_VenueFridge_BuySnackAutonomously_Vegetarian)" Value="168526" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld_HotTub_NotInHotTub)" Value="179363" />
+  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio_HotTub_NotInHotTub)" Value="179365" />
+  <Preset Label="Tip (singing_Tip)" Value="191198" />
+  <Preset Label="Attending The Circus (rabbitHoleStartInteraction_CityInvites_GoToACircus)" Value="197838" />
+  <Preset Label="Attending A Concert (rabbitHoleStartInteraction_CityInvites_GoToAConcert)" Value="197839" />
+  <Preset Label="Attending The Opera (rabbitHoleStartInteraction_CityInvites_GoToTheOpera)" Value="197841" />
+  <Preset Label="Attending A Musical (rabbitHoleStartInteraction_CityInvites_GoToTheTheater)" Value="197842" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld_Smart_Hub)" Value="203846" />
+  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio_Smart_Hub)" Value="203848" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld_WaterScooter)" Value="205203" />
+  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio_WaterScooter)" Value="205205" />
+  <Preset Label="Practice Singing (singingSkill_TieredMenu_Self_Practice_Autonomous)" Value="215971" />
+  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio_Bot)" Value="223583" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld_Bot)" Value="223587" />
+  <Preset Label="Spray Graffiti (mural_Floor_StartGraffiti)" Value="231046" />
+  <Preset Label="Play Song (AnimalEnthusiast_PlayTo_PortableKeyboard)" Value="261889" />
+  <Preset Label="GroupCooking_Counter_CuttingBoard_Chop_Potato" Value="264022" />
+  <Preset Label="Play Song (AnimalEnthusiast_PlayTo_PortableKeyboard_Child)" Value="265701" />
+</PresetGroup>

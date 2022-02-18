@@ -48,8 +48,15 @@
             </c:TabItem>
             <c:TabItem Header="WorkFromHomeAssignments">
                 <c:SpacedStack TopMargin="True">
+                    <c:Field Label="NumberOfAssignments" LabelWidth="150">
+                        <StackPanel>
+                            <xctk:IntegerUpDown Text="{Binding AssignmentsAmount}" />
+                            <c:TextBlock FontStyle="Italic" Text="NumberOfAssignmentsHelp" />
+                        </StackPanel>
+                    </c:Field>
                     <c:ReferenceListControl CreateElementFunction="CreateAssignmentFunction"
                                             EditorCategory="Default"
+                                            EditorTag="Career"
                                             ElementReferenceList="{Binding Assignments}"
                                             ElementTypeName="CareerTrack"
                                             ItemTypeName="CareerTrackAssignment"

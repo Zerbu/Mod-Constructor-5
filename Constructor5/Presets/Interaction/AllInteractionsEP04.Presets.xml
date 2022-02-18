@@ -1,0 +1,2117 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP04">
+  <Preset Label="stand_Cat_Passive" Value="120558" />
+  <Preset Label="stand_Dog_Passive" Value="120561" />
+  <Preset Label="cat_Stand" Value="120562" />
+  <Preset Label="dog_Stand" Value="120569" />
+  <Preset Label="Adult (terrain-createdog_female-adult)" Value="120960" />
+  <Preset Label="Adult (terrain-createcat_female-adult)" Value="120961" />
+  <Preset Label="Adult (terrain-createcat_male_adult)" Value="120966" />
+  <Preset Label="Adult (terrain-createdog_male-adult)" Value="120968" />
+  <Preset Label="Leash (walk_Dog)" Value="121789" />
+  <Preset Label="Sit (seating_Sit_Dog)" Value="122770" />
+  <Preset Label="generic_Cat_SitOnGround" Value="122789" />
+  <Preset Label="sitOnGround_Passive_Cat" Value="122793" />
+  <Preset Label="Sit Here (sitOnGround_Cat)" Value="122796" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_cat)" Value="124157" />
+  <Preset Label="sitOnGround_Passive_Dog" Value="124491" />
+  <Preset Label="generic_Dog_SitOnGround" Value="124492" />
+  <Preset Label="Lie Down Here (LayDown)" Value="124536" />
+  <Preset Label="generic_Dog_layDown" Value="124546" />
+  <Preset Label="Kitten (terrain-createcat_female-child)" Value="124609" />
+  <Preset Label="Puppy (terrain-createdog_female-child)" Value="124610" />
+  <Preset Label="Kitten (terrain-createcat_male_child)" Value="124612" />
+  <Preset Label="Puppy (terrain-createdog_male-child)" Value="124613" />
+  <Preset Label="Sit Here (sitOnGround_Dog)" Value="124632" />
+  <Preset Label="layDown_Passive_Cat" Value="124915" />
+  <Preset Label="Lie Down Here (layDown_Cat)" Value="124920" />
+  <Preset Label="generic_Cat_layDown" Value="124923" />
+  <Preset Label="Dog Talk to {1.SimFirstName} (petSocial_DogToDog_SocialGroup)" Value="130037" />
+  <Preset Label="Bark (socials_PetToPet_Dog_Bark)" Tags="TestUnsafe" Value="130296" />
+  <Preset Label="Pick Up (socialSuperInteraction_CarryPickUp_Pet)" Value="132162" />
+  <Preset Label="Be Held (generic_BeCarried_Dog)" Value="132265" />
+  <Preset Label="Put {2.SimFirstName} Down Here (putDown_CarriedSim_Sofa_Dog)" Value="132588" />
+  <Preset Label="Encourage {1.SimFirstName} to Do Business (pet_PeePooInteraction_SimInitiated_Dog)" Value="134148" />
+  <Preset Label="Leash (aggregateSuperInteraction_WalkDog)" Value="134533" />
+  <Preset Label="Elder (terrain-createcat_male_elder)" Value="141553" />
+  <Preset Label="Elder (terrain-createdog_male-elder)" Value="141554" />
+  <Preset Label="Elder (terrain-createcat_female-elder)" Value="141555" />
+  <Preset Label="Elder (terrain-createdog_female-elder)" Value="141556" />
+  <Preset Label="reaction_Cat_Mixer_Aggregate" Value="142247" />
+  <Preset Label="reaction_Generic_Cat_Hiss" Value="142251" />
+  <Preset Label="Groom Self (pet_GroomInteraction_Cat)" Value="142691" />
+  <Preset Label="pet_GroomInteraction_Mixer_CatLick" Value="142697" />
+  <Preset Label="Chew On (toy_ChewOn)" Value="143783" />
+  <Preset Label="Chase Across (Cat_ChaseAcrossObject)" Value="143959" />
+  <Preset Label="Bark (dog_Bark_Self)" Value="144237" />
+  <Preset Label="Yowl (cat_Yowl_Self)" Value="144243" />
+  <Preset Label="Call Over (dog_Command_CallOver)" Value="145410" />
+  <Preset Label="Sit (dog_Command_Trained_Sit)" Value="145411" />
+  <Preset Label="Lie Down (dog_Command_Trained_LieDown)" Value="145412" />
+  <Preset Label="Play Fetch (dog_Command_Trained_Fetch)" Value="145414" />
+  <Preset Label="Drop It (dog_Command_DropIt)" Value="145626" />
+  <Preset Label="Command to Follow (social_Walk_Dog_Follow_Left)" Value="145719" />
+  <Preset Label="Command to Follow (social_Walk_Dog_Follow_Right)" Value="145720" />
+  <Preset Label="Command to Follow (aggregateSuperInteraction_WalkDog_Follow)" Value="145721" />
+  <Preset Label="Heel (dog_Command_Trained_Heel)" Value="145723" />
+  <Preset Label="Run Around (waypoint_RunAround_Cat)" Value="146693" />
+  <Preset Label="Be Scolded (reaction_DogBeScolded)" Value="148247" />
+  <Preset Label="Fill and Call Pet (petBowl_RefillFromPicker_Dog)" Value="148908" />
+  <Preset Label="Pet Objects (setupLot_PetObjects)" Value="148915" />
+  <Preset Label="Eat (consumable_PetBowl_CatEat)" Value="148920" />
+  <Preset Label="Eat (consumable_PetBowl_DogEat)" Value="148921" />
+  <Preset Label="Sleep Here (sleepOnGround_Cat)" Value="151068" />
+  <Preset Label="Sleep Here (sleepOnGround_Dog)" Value="151069" />
+  <Preset Label="Chase (waypoint_Chase_Cat)" Value="155369" />
+  <Preset Label="Fill and Call Pet (petBowl_RefillFromPicker_Cat)" Value="157008" />
+  <Preset Label="Fill Bowl (petBowl_FillBowl_CallPets)" Value="157013" />
+  <Preset Label="Complain about Bladder (sim_Cat_BladderDistress)" Value="157038" />
+  <Preset Label="Complain about Bladder (sim_Dog_BladderDistress)" Value="157039" />
+  <Preset Label="Bladder Failure (sim_Cat_BladderFailure)" Value="157050" />
+  <Preset Label="Bladder Failure (sim_Dog_BladderFailure)" Value="157051" />
+  <Preset Label="Wait Near Food Bowl (petBowl_WaitNearby_Cat)" Value="157070" />
+  <Preset Label="Bladder-Distress (debug_sim_Cat_BladderDistress)" Value="157073" />
+  <Preset Label="Bladder-Failure (debug_sim_Cat_BladderFailure)" Value="157075" />
+  <Preset Label="Wait Near Food Bowl (petBowl_WaitNearby_Dog)" Value="157079" />
+  <Preset Label="Beg for Food (fridge_Pets_WaitNearby_Cat)" Value="157088" />
+  <Preset Label="Beg for Food (fridge_Pets_WaitNearby_Dog)" Value="157091" />
+  <Preset Label="food_Eat_Active_Pets_PetBowl" Value="157109" />
+  <Preset Label="Use Litter Box (Pet_Litterbox_Use_Cat)" Value="157119" />
+  <Preset Label="Clean Litter Box (Pet_Litterbox_Clean)" Value="157120" />
+  <Preset Label="Yowl (pet_Litterbox_WaitNearby_Cat)" Value="157147" />
+  <Preset Label="Player Feats (superInteraction_PetFetch)" Value="157155" />
+  <Preset Label="Wander Around Litter Box (waypoint_MoveAround_Cat_LitterBox)" Value="157165" />
+  <Preset Label="Bladder Failure (debug_sim_Cat_BladderFailure_AutonomyReq)" Value="157191" />
+  <Preset Label="Bladder Failure (sim_Cat_BladderFailure_AutonomyReq)" Value="157192" />
+  <Preset Label="Prowl Around (waypoint_MoveAround_Cat_PetBowl)" Value="157263" />
+  <Preset Label="Hunger Failure (debug_sim_Cat_HungerFailure)" Value="157628" />
+  <Preset Label="Hunger Failure (sim_Cat_HungerFailure)" Value="157629" />
+  <Preset Label="Complain about Hunger (debug_sim_Cat_HungerDistress)" Value="157634" />
+  <Preset Label="Complain about Hunger (sim_Cat_HungerDistress)" Value="157635" />
+  <Preset Label="Prowl Around (waypoint_MoveAround_Cat_Owner_Hungry)" Value="157644" />
+  <Preset Label="Complain about Being Tired (debug_sim_Cat_EnergyDistress)" Value="157683" />
+  <Preset Label="simPicker_WanderNearOwner_NoLitterbox" Tags="TestUnsafe" Value="157699" />
+  <Preset Label="Prowl Around (waypoint_MoveAround_Cat_Owner_Bladder)" Value="157701" />
+  <Preset Label="Complain about Boredom (debug_sim_Cat_PlayDistress)" Value="157724" />
+  <Preset Label="Complain about Boredom (sim_Cat_PlayDistress)" Value="157725" />
+  <Preset Label="Taste of Failure (cat-route-fail)" Value="157728" />
+  <Preset Label="Taste of Failure (dog-route-fail)" Value="157729" />
+  <Preset Label="Complain about Hunger (debug_sim_Dog_HungerDistress)" Value="157733" />
+  <Preset Label="Complain about Hunger (sim_Dog_HungerDistress)" Value="157734" />
+  <Preset Label="Whine About (waypoint_MoveAround_Dog_Object_PetBowl)" Value="157741" />
+  <Preset Label="Complain about Being Tired (debug_sim_Dog_EnergyDistress)" Value="157753" />
+  <Preset Label="mixer_PetBowl_WaitAround_Cat_Active" Value="157779" />
+  <Preset Label="mixer_PetBowl_WaitAround_Cat_Passive" Value="157782" />
+  <Preset Label="Sit Nearby (petOwner_WaitNearby_Cat_NoLitterbox)" Value="157796" />
+  <Preset Label="simPicker_SitNearOwner_NoLitterbox" Tags="TestUnsafe" Value="157803" />
+  <Preset Label="mixer_PetBowl_WaitAround_Dog_Active" Value="157805" />
+  <Preset Label="mixer_PetBowl_WaitAround_Dog_Passive" Value="157807" />
+  <Preset Label="Yowl (petOwner_WaitNearby_Cat_NoPetBowl)" Value="157813" />
+  <Preset Label="simPicker_Owner_MoveAround_NoPetBowl" Tags="TestUnsafe" Value="157817" />
+  <Preset Label="simPicker_Owner_WaitNearby_NoPetBowl" Tags="TestUnsafe" Value="157818" />
+  <Preset Label="mixer_LitterBox_WaitAround_Cat_Active" Value="157855" />
+  <Preset Label="mixer_LitterBox_WaitAround_Cat_Passive" Value="157856" />
+  <Preset Label="Fetch Ball (toyBallPet_Dog_Fetch)" Value="157896" />
+  <Preset Label="Hyper (DebugEmotionIntensity_Pets_Hyper)" Value="157917" />
+  <Preset Label="Fetch Ball (toyBallPet_WaitForThrow)" Value="157941" />
+  <Preset Label="Complain about Bowel (debug_sim_Cat_BowelDistress)" Value="157953" />
+  <Preset Label="Complain about Bowel (sim_Cat_BowelDistress)" Value="157954" />
+  <Preset Label="Bowel Failure (sim_Cat_BowelFailure)" Value="157966" />
+  <Preset Label="Bowel Failure (debug_sim_Cat_BowelFailure)" Value="157967" />
+  <Preset Label="Call Over (cat_Command_CallOver)" Value="157970" />
+  <Preset Label="idle_Trait_DogLover" Value="157998" />
+  <Preset Label="idle_Trait_CatLover" Value="157999" />
+  <Preset Label="petCat_WaitNearbyOwner_Mixer_Active" Value="158007" />
+  <Preset Label="petCat_WaitNearbyOwner_Mixer_Passive" Value="158008" />
+  <Preset Label="Enthuse about Dogs (mixer_DogLoverTrait_EnthuseAboutDogs)" Tags="TestUnsafe" Value="158009" />
+  <Preset Label="Enthuse about Cats (mixer_CatLoverTrait_EnthuseAboutCats)" Tags="TestUnsafe" Value="158010" />
+  <Preset Label="Share Love of Dogs (mixer_DogLoverTrait_ShareLoveOfDogs)" Tags="TestUnsafe" Value="158011" />
+  <Preset Label="Share Love of Cats (mixer_CatLoverTrait_ShareLoveOfCats)" Tags="TestUnsafe" Value="158012" />
+  <Preset Label="Stand On (generic_Cat_standOnObject)" Value="158069" />
+  <Preset Label="Stand On (generic_Dog_standOnObject)" Value="158070" />
+  <Preset Label="reaction_Mixer_Giddiness_Dog" Value="158073" />
+  <Preset Label="reaction_si_Giddiness_DogLover" Value="158075" />
+  <Preset Label="reaction_si_Aggregate_Species_Cat" Value="158082" />
+  <Preset Label="reaction_si_Aggregate_Species_Dog" Value="158083" />
+  <Preset Label="reaction_si_Giddiness_CatLover" Value="158085" />
+  <Preset Label="reaction_Mixer_Aggregate_Cat" Value="158087" />
+  <Preset Label="reaction_Mixer_Aggregate_Dog" Value="158088" />
+  <Preset Label="reaction_Mixer_Giddiness_Cat" Value="158089" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear)" Value="158094" />
+  <Preset Label="React to Fear (reactions_Pet_Fearful_VariedOutcome)" Value="158099" />
+  <Preset Label="Play with Laser Pointer (petSocial_SimToPet_Cat_LaserPointer_Tease_SI)" Value="158103" />
+  <Preset Label="social_Cat_LaserPointer_Interested_Playful" Tags="TestUnsafe" Value="158119" />
+  <Preset Label="social_Cat_LaserPointer_Unimpressed_Playful" Tags="TestUnsafe" Value="158120" />
+  <Preset Label="Drowsy (debugEmotionIntensity_Pets_Cats_Drowsy)" Value="158145" />
+  <Preset Label="Clean Up Toys (pet_toybox_CleanUp_Autonomous)" Value="158163" />
+  <Preset Label="Give Quirk - Fear TV (Cheat_AddQuirk_FearTV)" Value="158186" />
+  <Preset Label="Anxious (debugEmotionIntensity_Pets_Cats_Anxious)" Value="158192" />
+  <Preset Label="Put Away Pet Toy (Put_Away_PetToy)" Value="158197" />
+  <Preset Label="Clean Up Toys (pet_toybox_CleanUp)" Value="158209" />
+  <Preset Label="Excited (debugEmotionIntensity_Pets_Dog_Excited)" Value="158244" />
+  <Preset Label="Sad (debugEmotionIntensity_Pets_Dog_Sad)" Value="158245" />
+  <Preset Label="Mopey (debugEmotionIntensity_Pets_Dog_Mopey)" Value="158246" />
+  <Preset Label="Anxious (debugEmotionIntensity_Pets_Dog_Anxious)" Value="158247" />
+  <Preset Label="Angry (debugEmotionIntensity_Pets_Dog_Angry)" Value="158248" />
+  <Preset Label="Flirty (debugEmotionIntensity_Pets_Dog_Flirty)" Value="158249" />
+  <Preset Label="Scared (debugEmotionIntensity_Pets_Dog_Scared)" Value="158250" />
+  <Preset Label="Happy (debugEmotionIntensity_Pets_Dog_Happy)" Value="158251" />
+  <Preset Label="Ashamed (debugEmotionIntensity_Pets_Dog_Ashamed)" Value="158254" />
+  <Preset Label="Fear - Wary Watch (TV_Cat_WatchWary)" Value="158379" />
+  <Preset Label="social_Cat_LaserPointer_Interested_Happy" Tags="TestUnsafe" Value="158423" />
+  <Preset Label="social_Cat_LaserPointer_Interested_Focused" Tags="TestUnsafe" Value="158424" />
+  <Preset Label="social_Cat_LaserPointer_Interested_Energized" Tags="TestUnsafe" Value="158425" />
+  <Preset Label="social_Cat_LaserPointer_Interested_Fine" Tags="TestUnsafe" Value="158426" />
+  <Preset Label="social_Cat_LaserPointer_Interested_Confident" Tags="TestUnsafe" Value="158427" />
+  <Preset Label="social_Cat_LaserPointer_Interested_Inspired" Tags="TestUnsafe" Value="158428" />
+  <Preset Label="social_Cat_LaserPointer_Interested_Flirty" Tags="TestUnsafe" Value="158429" />
+  <Preset Label="social_Cat_LaserPointer_Unimpressed_Happy" Tags="TestUnsafe" Value="158430" />
+  <Preset Label="social_Cat_LaserPointer_Unimpressed_Energized" Tags="TestUnsafe" Value="158431" />
+  <Preset Label="social_Cat_LaserPointer_Unimpressed_Focused" Tags="TestUnsafe" Value="158432" />
+  <Preset Label="social_Cat_LaserPointer_Unimpressed_Dot" Tags="TestUnsafe" Value="158433" />
+  <Preset Label="social_Cat_LaserPointer_Unimpressed_Confident" Tags="TestUnsafe" Value="158434" />
+  <Preset Label="social_Cat_LaserPointer_Unimpressed_Inspired" Tags="TestUnsafe" Value="158435" />
+  <Preset Label="social_Cat_LaserPointer_Unimpressed_Flirty" Tags="TestUnsafe" Value="158436" />
+  <Preset Label="Scared (debugEmotionIntensity_Pets_Cats_Scared)" Value="158499" />
+  <Preset Label="Happy (debugEmotionIntensity_Pets_Cats_Happy)" Value="158501" />
+  <Preset Label="Flirty (debugEmotionIntensity_Pets_Cats_Flirty)" Value="158502" />
+  <Preset Label="Angry (debugEmotionIntensity_Pets_Cats_Angry)" Value="158503" />
+  <Preset Label="Make Dirty (Debug) (debug_Litterbox_MakeDirty)" Value="158572" />
+  <Preset Label="Make Filthy (Debug) (debug_Litterbox_MakeFilthy)" Value="158573" />
+  <Preset Label="Make Clean (Debug) (debug_Litterbox_MakeClean)" Value="158574" />
+  <Preset Label="Move Away (generic_RunAway_Pet)" Value="158604" />
+  <Preset Label="Prowl Around (waypoint_MoveAround_Cat_Object)" Value="158609" />
+  <Preset Label="Empty Bowl (Pet_PetBowl_EmptyBowl)" Value="158615" />
+  <Preset Label="Fill and Call Pet (petBowl_CallPet_Dog)" Value="158617" />
+  <Preset Label="Fill and Call Pet (petBowl_CallPet_Cat)" Value="158618" />
+  <Preset Label="Training (petSocial_Dog_TrainingTricks_SI)" Value="158625" />
+  <Preset Label="Wake Up {2.SimFirstName} (cat_Command_WakeUp)" Value="158664" />
+  <Preset Label="Wake Up {2.SimFirstName} (dog_Command_WakeUp)" Value="158665" />
+  <Preset Label="Shoo (petSocial_NonTouching_Shoo)" Value="158675" />
+  <Preset Label="Talk to {1.SimFirstName} (petSocial_SimToPet_NonTouching_Sim)" Value="158677" />
+  <Preset Label="Eat (consumable_PetBowl_PuppyEat)" Value="158679" />
+  <Preset Label="Sniff (pet_Litterbox_Dog_Sniff)" Value="158681" />
+  <Preset Label="Snack (pet_Litterbox_Dog_Snack)" Value="158682" />
+  <Preset Label="Wander (rabbitHole_PetCat_Wanderlust)" Value="158710" />
+  <Preset Label="Feed by Hand (petSocial_SimToPet_GiveTreat_FailedMotives)" Value="158716" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsessed_Watch_TV)" Value="158738" />
+  <Preset Label="Give Quirk- Obsess Over TV (Cheat_AddQuirk_ObsessedTV)" Value="158742" />
+  <Preset Label="Go Here (terrain-MoveAway_Pet)" Value="158764" />
+  <Preset Label="Sit (seating_Sit_Cat)" Value="158785" />
+  <Preset Label="Be Mean To (simPicker_DogSocial_BeMeanTo)" Tags="TestUnsafe" Value="158845" />
+  <Preset Label="Be Nice To (simPicker_DogSocial_BeNiceTo)" Tags="TestUnsafe" Value="158846" />
+  <Preset Label="ownableVet_Immediate_BuyFromUI" Value="158854" />
+  <Preset Label="Buy a Vet Clinic (map_Picker_BuyOwnableVetLot)" Tags="TestUnsafe" Value="158855" />
+  <Preset Label="ownableVet_Immediate_SetLotOwner" Value="158856" />
+  <Preset Label="Talk To (mixerSocial_NT_Pets_Friendly_TalkTo)" Tags="TestUnsafe" Value="158871" />
+  <Preset Label="Tell Story (mixerSocial_NT_Pets_Friendly_TellStory)" Tags="TestUnsafe" Value="158873" />
+  <Preset Label="Get to Know (mixerSocial_NT_Pets_Friendly_LearnAboutGetToKnow)" Tags="TestUnsafe" Value="158875" />
+  <Preset Label="Talk To (mixerSocial_NT_Pets_Friendly_TalkTo_Emotional_Dog)" Tags="TestUnsafe" Value="158876" />
+  <Preset Label="Yell At (mixerSocial_NT_Pets_Mean_YellAt_Dog)" Tags="TestUnsafe" Value="158925" />
+  <Preset Label="Provoke (mixerSocial_NT_Pets_Mean_Provoke_Dog)" Tags="TestUnsafe" Value="158929" />
+  <Preset Label="Examine {1.SimFirstName} (Vet_Treatment_Examine)" Value="158943" />
+  <Preset Label="Take Temperature (vet_Examine_Exam_TakeTemperature)" Tags="TestUnsafe" Value="158948" />
+  <Preset Label="Listen to Heart (vet_Examine_Exam_ListenToHeart)" Tags="TestUnsafe" Value="158949" />
+  <Preset Label="Listen to Breathing (vet_Examine_Exam_ListenToBreathing)" Tags="TestUnsafe" Value="158950" />
+  <Preset Label="Skin/Fur Inspection (vet_Examine_Exam_SkinFurInspection)" Tags="TestUnsafe" Value="158951" />
+  <Preset Label="Examine Mouth (vet_Examine_Exam_ExamineMouth)" Tags="TestUnsafe" Value="158952" />
+  <Preset Label="Calm Pet (vet_Examine_CalmPet)" Tags="TestUnsafe" Value="158958" />
+  <Preset Label="Administer Shot - Antiviral Payload (vet_Examine_Treatment_Shot_AntiviralPayload)" Tags="TestUnsafe" Value="158959" />
+  <Preset Label="Antifungal Spray (vet_Examine_Treatment_Spray_Antifungal)" Tags="TestUnsafe" Value="158960" />
+  <Preset Label="Fixitol Treat (vet_Examine_Treatment_Pill_FixitolTreat)" Tags="TestUnsafe" Value="158961" />
+  <Preset Label="Encourage to Mate With (simPicker_DogSocial_EncourageToMateBreed)" Tags="TestUnsafe" Value="158981" />
+  <Preset Label="Encourage to Mate With (simPicker_CatSocial_EncourageToMateBreed)" Tags="TestUnsafe" Value="158983" />
+  <Preset Label="Make Pet Drink (bar_StartCrafting_PetRecipe_Drink)" Value="158987" />
+  <Preset Label="vet_Examine_Idle" Tags="TestUnsafe" Value="159001" />
+  <Preset Label="Hug (mixerSocial_T_Pets_Friendly_Hug_Carrying)" Value="159103" />
+  <Preset Label="Kiss (mixerSocial_T_Pets_Friendly_Kiss_Carrying)" Value="159106" />
+  <Preset Label="What's Wrong? (mixerSocial_NT_Pets_Friendly_WhatsWrong)" Tags="TestUnsafe" Value="159125" />
+  <Preset Label="Watch (pet_Watch)" Value="159163" />
+  <Preset Label="Eat (pet_Poop_Eat)" Value="159184" />
+  <Preset Label="Sniff (pet_Poop_Sniff)" Value="159185" />
+  <Preset Label="mixer_LitterBox_Snack_PetDog_Active" Value="159201" />
+  <Preset Label="All Dogs (door_Padlock_ImmediateInteraction_Lock_Pet_Dog)" Value="159331" />
+  <Preset Label="All Cats (door_Padlock_ImmediateInteraction_Lock_Pet_Cat)" Value="159332" />
+  <Preset Label="Complain about Boredom (sim_Dog_PlayDistress)" Value="159400" />
+  <Preset Label="Complain about Loneliness (sim_Dog_AffectionDistress)" Value="159401" />
+  <Preset Label="Complain about Bowel (sim_Dog_BowelDistress)" Value="159402" />
+  <Preset Label="Bowel Failure (sim_Dog_BowelFailure)" Value="159404" />
+  <Preset Label="Energy Failure (sim_Dog_EnergyFailure)" Value="159406" />
+  <Preset Label="Pick Up (putInInventoryInteraction_Petpoop)" Value="159407" />
+  <Preset Label="Go Potty (pet_PoopInteraction_Dog_Outside)" Value="159417" />
+  <Preset Label="Go Potty (pet_PoopInteraction_Dog_Inside)" Value="159498" />
+  <Preset Label="Go PeePee (pet_PeeInteraction_Dog_Inside)" Value="159541" />
+  <Preset Label="Go PeePee (pet_PeeInteraction_Dog_Outside)" Value="159542" />
+  <Preset Label="Wander Pitifully (waypoint_affectionDistress_Cat)" Value="159583" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Brewer)" Value="159661" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Toilet)" Value="159688" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Stereo)" Value="159689" />
+  <Preset Label="Affection Distress (debug_sim_Cat_AffectionDistress)" Value="159725" />
+  <Preset Label="Affection Distress (sim_Cat_AffectionDistress)" Value="159726" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Fridge)" Value="159739" />
+  <Preset Label="Whine at Door (si_Pet_Dog_WhineAtDoor)" Value="159740" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_FishTank)" Value="159741" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Shower)" Value="159743" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Microwave)" Value="159744" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Instrument)" Value="159745" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_FitnessEquipment)" Value="159746" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Cooking)" Value="159747" />
+  <Preset Label="Call Pet to Eat (simPickerInteraction_PetFoodFor_Pet)" Tags="TestUnsafe" Value="159765" />
+  <Preset Label="Cook Homestyle Pet Recipe (fridge_Cook_PetRecipe_Homestyle)" Value="159768" />
+  <Preset Label="Cook Gourmet Pet Recipe (fridge_Cook_PetRecipe_Gourmet)" Value="159769" />
+  <Preset Label="Age Up! (ageUp_Dog)" Value="159777" />
+  <Preset Label="Age Up! (ageUp_Cat)" Value="159778" />
+  <Preset Label="Go Here (terrain-gohere_Dog_PeeAfter)" Value="159791" />
+  <Preset Label="Friendly (petSocial_PetToPet_Greeting_Friendly_SI)" Value="159812" />
+  <Preset Label="Mean (petSocial_PetToPet_Greeting_Hostile_SI)" Value="159813" />
+  <Preset Label="Neutral (petSocial_PetToPet_Greeting_Neutral_SI)" Value="159814" />
+  <Preset Label="Throw Away (Collect_Trash_PetPoop_OnLot)" Value="159833" />
+  <Preset Label="Old Age (death_OldAge_Cat)" Value="159835" />
+  <Preset Label="Pet_ChooseDelivery_Food" Value="159838" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Computer)" Value="159861" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Dishwasher)" Value="159862" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Fire)" Value="159863" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Gaming)" Value="159864" />
+  <Preset Label="Old Age (death_OldAge_Dog)" Value="159868" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Brewer)" Value="159872" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Computer)" Value="159873" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Gaming)" Value="159875" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Instrument)" Value="159876" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Microwave)" Value="159877" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Shower)" Value="159878" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Stereo)" Value="159879" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Toilet)" Value="159880" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Cooking)" Value="159882" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Dishwasher)" Value="159883" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_Fire)" Value="159884" />
+  <Preset Label="Fear - Investigate (PetInvestigate_Fear_FitnessEquipment)" Value="159885" />
+  <Preset Label="Serve {1.ObjectName} (petRecipe_PickupFood)" Value="159886" />
+  <Preset Label="Call {1.SimFirstName} (petRecipe_CallPet)" Value="159887" />
+  <Preset Label="Give Birth (deliverBaby_Cat)" Value="159901" />
+  <Preset Label="Give Birth (deliverBaby_Dog)" Value="159902" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_dog)" Value="159979" />
+  <Preset Label="Whine About (waypoint_MoveAround_Dog_Owner_Hunger)" Value="160001" />
+  <Preset Label="24 Hours (si_AutoPetFeeder_SetSchedule_Level1)" Value="160137" />
+  <Preset Label="1 Hour (si_AutoPetFeeder_SetSchedule_Level5)" Value="160138" />
+  <Preset Label="3 Hours (si_AutoPetFeeder_SetSchedule_Level4)" Value="160139" />
+  <Preset Label="6 Hours (si_AutoPetFeeder_SetSchedule_Level3)" Value="160140" />
+  <Preset Label="12 Hours (si_AutoPetFeeder_SetSchedule_Level2)" Value="160141" />
+  <Preset Label="Fill (si_AutoPetFeeder_Fill)" Value="160147" />
+  <Preset Label="Eat (aggreateSI_Petbowl_Cat)" Value="160187" />
+  <Preset Label="Eat (aggreateSI_Petbowl_Dog)" Value="160188" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Doorbell_Cat)" Value="160193" />
+  <Preset Label="petRecipe_ServeToSlot" Value="160225" />
+  <Preset Label="petInvestigate_Cat_Obsessed_Yowl" Value="160247" />
+  <Preset Label="petBowl_SimPicker_Owner_Dog_Wander_NoPetBowl" Tags="TestUnsafe" Value="160283" />
+  <Preset Label="Mean (mixer_Social_Targeted_PetToPet_Greeting_Hostile)" Tags="TestUnsafe" Value="160287" />
+  <Preset Label="petBowl_SimPicker_Owner_Dog_Wait_NoPetBowl" Tags="TestUnsafe" Value="160295" />
+  <Preset Label="Play With Pet Toy (autonomous_pet_toybox_play_picker)" Tags="TestUnsafe" Value="160297" />
+  <Preset Label="Bark (petOwner_WaitNearby_Dog_NoPetBowl)" Value="160299" />
+  <Preset Label="Essence of Placebo Treat (vet_Examine_Treatment_Pill_EssenseOfPlacebo)" Tags="TestUnsafe" Value="160322" />
+  <Preset Label="Biscuit with Medicine X (vet_Examine_Treatment_Pill_MedicineX)" Tags="TestUnsafe" Value="160323" />
+  <Preset Label="Parasite Killer Spray (vet_Examine_Treatment_Spray_ParasiteKiller)" Tags="TestUnsafe" Value="160324" />
+  <Preset Label="Organic Disinfectant Spray (vet_Examine_Treatment_Spray_OrganicDisinfectant)" Tags="TestUnsafe" Value="160325" />
+  <Preset Label="Administer Shot - Eudemonia Concentrate (vet_Examine_Treatment_Shot_EudemoniaConcentrate)" Tags="TestUnsafe" Value="160326" />
+  <Preset Label="Administer Shot - Feelgood Serum (vet_Examine_Treatment_Shot_FeelgoodSerum)" Tags="TestUnsafe" Value="160327" />
+  <Preset Label="Check Chart (vet_Examine_Exam_MarkChart)" Tags="TestUnsafe" Value="160366" />
+  <Preset Label="Test Ears (vet_Examine_Exam_TestEars)" Tags="TestUnsafe" Value="160367" />
+  <Preset Label="Eye Exam (vet_Examine_Exam_EyeExam)" Tags="TestUnsafe" Value="160368" />
+  <Preset Label="Pick Up (mixerSocial_NT_Pets_Friendly_CarryPickUp)" Tags="TestUnsafe" Value="160585" />
+  <Preset Label="Call Over (petRecipe_callOver)" Value="160599" />
+  <Preset Label="Call Pet to Drink (simPickerInteraction_PetDrinkFor_Pet)" Tags="TestUnsafe" Value="160679" />
+  <Preset Label="autonomous_Generic_Obsession_Brewer" Tags="TestUnsafe" Value="160713" />
+  <Preset Label="autonomous_Generic_Obsession_Computer" Tags="TestUnsafe" Value="160714" />
+  <Preset Label="autonomous_Generic_Obsession_Gaming" Tags="TestUnsafe" Value="160715" />
+  <Preset Label="autonomous_Generic_Obsession_Instrument" Tags="TestUnsafe" Value="160716" />
+  <Preset Label="autonomous_Generic_Obsession_Microwave" Tags="TestUnsafe" Value="160717" />
+  <Preset Label="autonomous_Generic_Obsession_Shower" Tags="TestUnsafe" Value="160718" />
+  <Preset Label="autonomous_Generic_Obsession_Stereo" Tags="TestUnsafe" Value="160719" />
+  <Preset Label="autonomous_Generic_Obsession_Toilet" Tags="TestUnsafe" Value="160720" />
+  <Preset Label="autonomous_Generic_Obsession_TV" Tags="TestUnsafe" Value="160721" />
+  <Preset Label="autonomous_Generic_Obsession_Doorbell" Tags="TestUnsafe" Value="160722" />
+  <Preset Label="autonomous_Generic_Obsession_Cooking" Tags="TestUnsafe" Value="160723" />
+  <Preset Label="autonomous_Generic_Obsession_Dishwasher" Tags="TestUnsafe" Value="160724" />
+  <Preset Label="autonomous_Generic_Obsession_Fire" Tags="TestUnsafe" Value="160725" />
+  <Preset Label="autonomous_Generic_Obsession_FishTank" Tags="TestUnsafe" Value="160726" />
+  <Preset Label="autonomous_Generic_Obsession_FitnessEquipment" Tags="TestUnsafe" Value="160727" />
+  <Preset Label="autonomous_Generic_Obsession_Fridge" Tags="TestUnsafe" Value="160728" />
+  <Preset Label="Beg with bowl (petbowl_PushWhine_CarryBowl)" Value="160750" />
+  <Preset Label="Sit Nearby (petOwner_WaitNearby_Dog_WithPetBowl)" Value="160751" />
+  <Preset Label="petBowl_SimPicker_Owner_Dog_GrabPetBowl" Tags="TestUnsafe" Value="160752" />
+  <Preset Label="bar_ChooseDelivery_PetRecipe" Value="160819" />
+  <Preset Label="Initiate Pet from {1.SimFirstName} (petSocials_PetToSim_Initiate_PetPet)" Value="160856" />
+  <Preset Label="Attack {1.SimFirstName} (petSocials_PetToSim_Attack)" Value="160857" />
+  <Preset Label="Get Attention from {1.SimFirstName} (petSocials_PetToSim_Initiate_GetAttention_Cat)" Value="160859" />
+  <Preset Label="Get Attention from {1.SimFirstName} (petSocials_PetToSim_Initiate_GetAttention_Dog)" Value="160861" />
+  <Preset Label="Throw Away (Collect_Trash_PetPoop_FromInventory)" Value="160911" />
+  <Preset Label="Drink (generic_consume_drink_bar_cat)" Value="160924" />
+  <Preset Label="Drink (generic_consume_drink_bar_kitten)" Value="160925" />
+  <Preset Label="Sleep Here (sleepOnGround_Dog_EnergyFailure)" Value="160971" />
+  <Preset Label="Adult Female Dog (terrain-createdog_female-adult_toppiemenu)" Value="160991" />
+  <Preset Label="Adult Female Cat (terrain-createcat_female-adult_toppiemenu)" Value="160992" />
+  <Preset Label="Annoyed (reactions_Pets_SimAwareness_CuteMoment_Annoyed)" Value="161046" />
+  <Preset Label="Annoyed (reactions_AnnoyedByPet)" Value="161054" />
+  <Preset Label="mixer_LitterBox_Cat_Use" Value="161062" />
+  <Preset Label="Chew Toy (toyBallPet_Dog_ChewToy)" Value="161089" />
+  <Preset Label="Claw Toy (toyBallPet_Cat_ClawToy)" Value="161090" />
+  <Preset Label="Energy Failure (sim_Cat_EnergyFailure)" Value="161151" />
+  <Preset Label="Sleep Here (sleepOnGround_Cat_EnergyFailure)" Value="161153" />
+  <Preset Label="Give Ball To (petPickerInteraction_ToyBallPet_OfferToPlay)" Tags="TestUnsafe" Value="161178" />
+  <Preset Label="Sit Here (sitOnGround_Dog_Command)" Value="161181" />
+  <Preset Label="Give Ball To (toyBallPet_OfferBall)" Value="161186" />
+  <Preset Label="Throw Away (collect_Trash_PetPoop_OnLot_Aggregate)" Value="161204" />
+  <Preset Label="Give Ball To (toyBallPet_OfferBall_DecideToPlay_Cat)" Value="161212" />
+  <Preset Label="Give Ball To (toyBallPet_OfferBall_DecideToPlay_Dog)" Value="161214" />
+  <Preset Label="Speak (dog_Command_Trained_Speak)" Value="161267" />
+  <Preset Label="Roll Over (dog_Command_Trained_RollOver)" Value="161268" />
+  <Preset Label="Lie Down Here (layDown_Dog_Command)" Value="161269" />
+  <Preset Label="Bark (dog_Command_Speak)" Value="161271" />
+  <Preset Label="Roll Over (dog_Command_RollOver)" Value="161272" />
+  <Preset Label="Play Dead (dog_Command_Trained_PlayDead)" Value="161279" />
+  <Preset Label="Play Dead (dog_Command_PlayDead)" Value="161281" />
+  <Preset Label="React to Something (reactions_Pet_General_Excited)" Value="161330" />
+  <Preset Label="React to Something (reactions_Pet_General_Drowsy)" Value="161331" />
+  <Preset Label="React to Something (reactions_Pet_General_Anxious)" Value="161332" />
+  <Preset Label="React to Something (reactions_Pet_General_Angry)" Value="161333" />
+  <Preset Label="React to Something (reactions_Pet_General_Fine)" Value="161334" />
+  <Preset Label="React to Something (reactions_Pet_General_Flirty)" Value="161335" />
+  <Preset Label="React to Something (reactions_Pet_General_Happy)" Value="161336" />
+  <Preset Label="React to Something (reactions_Pet_General_Curious)" Value="161337" />
+  <Preset Label="React to Something (reactions_Pet_General_Ashamed)" Value="161349" />
+  <Preset Label="React to Something (reactions_Pet_General_Sad)" Value="161350" />
+  <Preset Label="Heel (mixer_Dog_Training_Human_Heel)" Tags="TestUnsafe" Value="161387" />
+  <Preset Label="Sit (mixer_Dog_Training_Human_Sit)" Tags="TestUnsafe" Value="161388" />
+  <Preset Label="Speak (mixer_Dog_Training_Human_Speak)" Tags="TestUnsafe" Value="161389" />
+  <Preset Label="Lie Down (mixer_Dog_Training_Human_LieDown)" Tags="TestUnsafe" Value="161390" />
+  <Preset Label="Roll Over (mixer_Dog_Training_Human_RollOver)" Tags="TestUnsafe" Value="161391" />
+  <Preset Label="Fetch (mixer_Dog_Training_Human_Fetch)" Tags="TestUnsafe" Value="161392" />
+  <Preset Label="Play Dead (mixer_Dog_Training_Human_PlayDead)" Tags="TestUnsafe" Value="161393" />
+  <Preset Label="Shake (mixer_Dog_Training_Human_Shake)" Tags="TestUnsafe" Value="161394" />
+  <Preset Label="Emotion_Idle_Pet_Cat" Value="161397" />
+  <Preset Label="emotion_Idle_Pet_Dog" Value="161401" />
+  <Preset Label="Training (petSocial_Dog_TrainingTricks_Dog_SI)" Value="161472" />
+  <Preset Label="Use Litter Box (pet_Litterbox_MidTier_Use_Cat)" Value="161485" />
+  <Preset Label="Use Litter Box (pet_Litterbox_HighTier_Use_Cat)" Value="161486" />
+  <Preset Label="mixer_Dog_Training_Dog_Speak" Tags="TestUnsafe" Value="161487" />
+  <Preset Label="mixer_Dog_Training_Dog_LieDown" Tags="TestUnsafe" Value="161488" />
+  <Preset Label="mixer_Dog_Training_Dog_PlayDead" Tags="TestUnsafe" Value="161489" />
+  <Preset Label="mixer_Dog_Training_Dog_Sit" Tags="TestUnsafe" Value="161492" />
+  <Preset Label="mixer_Dog_Training_Dog_RollOver" Tags="TestUnsafe" Value="161494" />
+  <Preset Label="Excited Reaction (debug_PetReactions_PlayBroadcaster_Excited)" Value="161519" />
+  <Preset Label="Flirty Reaction (debug_PetReactions_PlayBroadcaster_Flirty)" Value="161524" />
+  <Preset Label="Fine Reaction? (debug_PetReactions_PlayBroadcaster_Fine)" Value="161525" />
+  <Preset Label="Curious Reaction (debug_PetReactions_PlayBroadcaster_Curious)" Value="161526" />
+  <Preset Label="Angry Reaction (debug_PetReactions_PlayBroadcaster_Angry)" Value="161527" />
+  <Preset Label="Ashamed Reaction (debug_PetReactions_PlayBroadcaster_Ashamed)" Value="161528" />
+  <Preset Label="Anxious Reaction (debug_PetReactions_PlayBroadcaster_Anxious)" Value="161529" />
+  <Preset Label="Drowsy Reaction (debug_PetReactions_PlayBroadcaster_Drowsy)" Value="161530" />
+  <Preset Label="Happy Reaction (debug_PetReactions_PlayBroadcaster_Happy)" Value="161531" />
+  <Preset Label="Sad Reaction (debug_PetReactions_PlayBroadcaster_Sad)" Value="161532" />
+  <Preset Label="Use Litter Box (aggregateSI_LitterBox_Cat)" Value="161544" />
+  <Preset Label="picker_CreateBreed" Tags="TestUnsafe" Value="161556" />
+  <Preset Label="Give All Training Commands (debug_Dog_Training_GiveCommands)" Value="161636" />
+  <Preset Label="Scared Reaction (debug_PetReactions_PlayBroadcaster_Scared)" Value="161721" />
+  <Preset Label="Fill (autoPetFeeder_Debug_Fill_Immediate)" Value="161916" />
+  <Preset Label="Yowl (cat_Yowl_Targeted)" Value="161918" />
+  <Preset Label="Bark At (dog_Bark_Targeted)" Value="161919" />
+  <Preset Label="Empty (autoPetFeeder_Debug_Empty_Immediate)" Value="161943" />
+  <Preset Label="Bark (dog_Bark_FrontDoor)" Value="162019" />
+  <Preset Label="Lay On (generic_Cat_layDownOnObject)" Value="162029" />
+  <Preset Label="Lay On (generic_Dog_layDownOnObject)" Value="162032" />
+  <Preset Label="pet_GroomInteraction_Mixer_CatGroom" Value="162227" />
+  <Preset Label="Scold (MixerSocial_NT_Pets_Mean_Generic_Scold_Dog)" Tags="TestUnsafe" Value="162295" />
+  <Preset Label="autonomous_Surface_Cat_Sit" Tags="TestUnsafe" Value="162320" />
+  <Preset Label="Sit Here (pet_Cat_Sit_OnObject)" Value="162322" />
+  <Preset Label="Step On Pet Poop (pet_Poop_StepOn)" Value="162328" />
+  <Preset Label="Complain about Pet Poop (petPoop_Socials_Complain)" Value="162339" />
+  <Preset Label="FIRE! (fire_Panic_Pet)" Value="162340" />
+  <Preset Label="Groom Self (pet_Cat_Groom_OnObjects)" Value="162350" />
+  <Preset Label="autonomous_Surface_Cat_Groom" Tags="TestUnsafe" Value="162351" />
+  <Preset Label="pet_GroomInteraction_Mixer_Hack" Value="162411" />
+  <Preset Label="Hack Furball (pet_GroomInteraction_Cat_HackFurball)" Value="162413" />
+  <Preset Label="Find Objects (si_Pet_Immediate_FindObject)" Value="162423" />
+  <Preset Label="autonomous_Pet_Hide_Object" Tags="TestUnsafe" Value="162443" />
+  <Preset Label="Hide (pet_Hide_UnderObject)" Value="162452" />
+  <Preset Label="autonomous_Surface_Cat_RunAround" Tags="TestUnsafe" Value="162526" />
+  <Preset Label="Bring to Me (dogPickerInteraction_ToyBallPet_Command_BringBall)" Tags="TestUnsafe" Value="162590" />
+  <Preset Label="simPicker_Owner_Dog_ToyBallPet_Wait" Tags="TestUnsafe" Value="162624" />
+  <Preset Label="Whine With Ball (toyBallPet_Dog_SitNearWithBall)" Value="162625" />
+  <Preset Label="Whine With Ball (toyBallPet_RunAutoFindOwner_WithBall)" Value="162628" />
+  <Preset Label="Practice Tricks (petSocials_Dog_TrainingTricks_Practice)" Value="162681" />
+  <Preset Label="Leash (walk_Dog_Leash)" Value="162746" />
+  <Preset Label="Pine for Adventure (pet_Wanderlust_Cat_WhineNearHuman)" Value="162788" />
+  <Preset Label="mixer_Wanderlust_Whine_Cat_Passive" Value="162813" />
+  <Preset Label="mixer_Wanderlust_Whine_Cat_Active" Value="162816" />
+  <Preset Label="Ghost_LeaveUrnstone_Pet_si" Value="162862" />
+  <Preset Label="wanderlust_SimPicker_Owner_Cat" Tags="TestUnsafe" Value="162880" />
+  <Preset Label="NPCLeaveLot_ghost_EnterUrnstone_Pet" Value="162902" />
+  <Preset Label="emotion_Idle_Pet_Cat_Lay" Value="162926" />
+  <Preset Label="emotion_Idle_Pet_Cat_Sit" Value="162927" />
+  <Preset Label="emotion_Idle_Pet_Dog_Sit" Value="162929" />
+  <Preset Label="emotion_Idle_Pet_Dog_Lay" Value="162930" />
+  <Preset Label="Play in Trash (pet_Misbehavior_TrashPilePlay)" Value="162966" />
+  <Preset Label="Sneak a Snack (pet_Misbehavior_TrashPileEat)" Value="162967" />
+  <Preset Label="Knock, Knock... (dog_Misbehavior_TrashCanKnock_Play)" Value="162973" />
+  <Preset Label="Bat At (cat_Misbehavior_TrashCanBatAt_Play)" Value="163018" />
+  <Preset Label="Rummage in Trash (pet_Misbehavior_TrashPileRummage)" Value="163019" />
+  <Preset Label="Drink (pet_Misbehavior_PuddlesDrink_Dog)" Value="163020" />
+  <Preset Label="Play in a Puddle (dog_Misbehavior_PuddlesPlay)" Value="163021" />
+  <Preset Label="Scratch {1.ObjectName} (cat_Misbehavior_FurnitureScratch)" Value="163022" />
+  <Preset Label="Drink (dog_Misbehavior_ToiletDrink)" Value="163023" />
+  <Preset Label="Get Toy (petToyBox_GetRandomToy_picker)" Tags="TestUnsafe" Value="163170" />
+  <Preset Label="Beg for Food (cat_Misbehavior_BegForFood)" Value="163220" />
+  <Preset Label="Beg for Food (dog_Misbehavior_BegForFood)" Value="163221" />
+  <Preset Label="Friendly Chase (waypoint_RunAround_Chase_PetToPet_Friendly)" Value="163248" />
+  <Preset Label="Hostile Chase (waypoint_RunAround_Chase_PetToPet_Hostile)" Value="163251" />
+  <Preset Label="simPicker_Owner_Dog_Whine_LowAffection" Tags="TestUnsafe" Value="163309" />
+  <Preset Label="emotion_Idle_Pet_Looping_HyperExcited_ChaseTail" Value="163316" />
+  <Preset Label="emotion_Idle_Pet_Dog_Looping_Sad_Breath" Value="163319" />
+  <Preset Label="Investigate (socials_PetToPet_Investigate)" Tags="TestUnsafe" Value="163323" />
+  <Preset Label="Sit Nearby (petOwner_WaitNearby_Dog_LowAffection)" Value="163335" />
+  <Preset Label="Pine for Adventure (pet_Wanderlust_Start)" Value="163346" />
+  <Preset Label="Watch Mice (pet_Cat_ApartmentProblem_Mice_Watch)" Value="163348" />
+  <Preset Label="Watch Birds (object_BirdFeeder_Pet_Watch)" Value="163400" />
+  <Preset Label="Watch (object_SlippySlide_Pet_Watch)" Value="163411" />
+  <Preset Label="React to Fear (reactions_Pet_Fear)" Value="163493" />
+  <Preset Label="Play with Toy (petToyBox_PlayWithToy_pickerACAD)" Tags="TestUnsafe" Value="163494" />
+  <Preset Label="Nuzzle (petSocials_PetToSim_Nuzzle)" Value="163514" />
+  <Preset Label="Let Lick Face (petSocials_PetToSim_Initiate_LickFace)" Value="163516" />
+  <Preset Label="React To Ghost (reactions_Pet_Ghost_Angry)" Value="163532" />
+  <Preset Label="React To Ghost (reactions_Pet_Ghost)" Value="163533" />
+  <Preset Label="React To Ghost (reactions_Pet_Ghost_Playful)" Value="163534" />
+  <Preset Label="Witness Death (reactions_Death_Dog_LovedOne)" Value="163654" />
+  <Preset Label="Friendly (petSocial_PetToSim_Greeting_Friendly_SI)" Value="163734" />
+  <Preset Label="Mean (petSocial_PetToSim_Greeting_Hostile_SI)" Value="163744" />
+  <Preset Label="Neutral (petSocial_PetToSim_Greeting_Neutral_SI)" Value="163746" />
+  <Preset Label="Call {1.SimFirstName} Out of Hiding (pet_CallOutOfHiding)" Value="163816" />
+  <Preset Label="Barf (idle_Buff_PetSickness_Symptom_Barfing)" Value="163818" />
+  <Preset Label="Scratch Fleas (idle_Buff_PetSickness_Symptom_Fleas)" Value="163819" />
+  <Preset Label="idle_Buff_PetSickness_Symptom_UncontrollableDrooling" Value="163820" />
+  <Preset Label="idle_Buff_PetSickness_Symptom_IceyFur" Value="163821" />
+  <Preset Label="idle_Buff_PetSickness_Symptom_MouthMoths" Value="163822" />
+  <Preset Label="idle_Buff_PetSickness_Symptom_HotFeet" Value="163829" />
+  <Preset Label="Pet Talk to {1.SimFirstName} (petSocial_PetToPet_SocialGroup)" Value="163845" />
+  <Preset Label="Nuzzle (petSocial_PetToPet_Nuzzle)" Value="163854" />
+  <Preset Label="Play (petSocial_PetToPet_Play)" Value="163855" />
+  <Preset Label="Fire! (sim_Fire_RouteToSafety_ReactToFire_petDog)" Value="163865" />
+  <Preset Label="React to Fear (reactions_Pet_Doorbell_Fear)" Value="163876" />
+  <Preset Label="Carry (wanderlustPet_CreatePetBall)" Value="163895" />
+  <Preset Label="Fire! (sim_Fire_RouteToSafety_ReactToFire_petCat)" Value="163898" />
+  <Preset Label="Carry (wanderlust_CarryGift)" Value="163902" />
+  <Preset Label="Hide (si_Pet_Immediate_Hide)" Value="163913" />
+  <Preset Label="Carry (debug_wanderlustPet_CreatePetBall)" Value="163932" />
+  <Preset Label="Wander (debug_rabbitHole_PetCat_Wanderlust)" Value="163935" />
+  <Preset Label="Carry Outcome (debug_PetTraits_Wanderlust_CarryBuff)" Value="163961" />
+  <Preset Label="Collectible Outcome (debug_PetTraits_Wanderlust_SickBuff)" Value="163962" />
+  <Preset Label="Nothing Outcome (debug_PetTraits_Wanderlust_NothingBuff)" Value="163963" />
+  <Preset Label="Pregnant Outcome (debug_PetTraits_Wanderlust_PregnantBuff)" Value="163964" />
+  <Preset Label="Be Held (generic_BeCarried_Cat)" Value="163970" />
+  <Preset Label="Go PeePee (pet_PeeInteraction_Dog_Gnome)" Value="164001" />
+  <Preset Label="Investigate (socials_DogToDog_Investigate)" Tags="TestUnsafe" Value="164031" />
+  <Preset Label="Play Fetch (fetchObject_Dog_FakeThrow_RunsAfter)" Value="164056" />
+  <Preset Label="Fetch Ball (toyBallPet_Dog_Fetch_NoPickUp)" Value="164057" />
+  <Preset Label="Play Fetch (fetchObject_Dog_FakeThrow_NoRun)" Value="164059" />
+  <Preset Label="Play Fetch (fetchObject_dog_Play_Fetch_NoRun)" Value="164063" />
+  <Preset Label="Play Fetch (social_Pet_Play_Fetch_FakeThrow)" Value="164068" />
+  <Preset Label="Fake Throw Ball (dogPickerInteraction_PetBall_Fetch_FakeThrow)" Tags="TestUnsafe" Value="164070" />
+  <Preset Label="Fake Throw Ball (dog_PlayFetch_FakeThrow_picker)" Tags="TestUnsafe" Value="164074" />
+  <Preset Label="Friendly (mixer_Social_Targeted_PetToPet_Greeting_Friendly)" Tags="TestUnsafe" Value="164158" />
+  <Preset Label="Neutral (mixer_Social_Targeted_PetToPet_Greeting_Neutral)" Tags="TestUnsafe" Value="164159" />
+  <Preset Label="Scratch Post (object_catCondo_Scratch_ScratchingPost)" Value="164167" />
+  <Preset Label="Play With Dangle Toy (object_catCondo_playWith_dangleToy)" Value="164168" />
+  <Preset Label="Friendly Introduction (petSocials_SimToPet_Greeting_Friendly_SI)" Value="164214" />
+  <Preset Label="Rude Introduction (petSocials_SimToPet_Greeting_Mean_SI)" Value="164215" />
+  <Preset Label="Rude Introduction (social_SimToPet_Introduction_Mean)" Tags="TestUnsafe" Value="164225" />
+  <Preset Label="Scratch Post (stratchingPost_scratch)" Value="164262" />
+  <Preset Label="Attack (simPicker_DogSocial_Training_AttackPickedSim)" Tags="TestUnsafe" Value="164275" />
+  <Preset Label="Attack {1.SimFirstName} (petSocials_PetToSim_Attack_Pushed)" Value="164277" />
+  <Preset Label="Show Off Pet (simPicker_DogSocial_Training_ShowOffPet)" Tags="TestUnsafe" Value="164279" />
+  <Preset Label="Show Off Pet Tricks (simPicker_DogSocial_Training_ShowOffPetTricks)" Tags="TestUnsafe" Value="164283" />
+  <Preset Label="Tip (watchForMotive_DogTricks_Target)" Value="164309" />
+  <Preset Label="Introduction (socials_Targeted_Pets_Greetings_PetToPet_Introduction)" Value="164324" />
+  <Preset Label="generic_PetIntimate" Value="164335" />
+  <Preset Label="generic_PetIntimate_PetDog" Value="164336" />
+  <Preset Label="generic_PetIntimate_PetCat" Value="164337" />
+  <Preset Label="Hug (petSocials_SimToPet_PetIntimate_Hug)" Value="164344" />
+  <Preset Label="Set Chewed (immediateSI_ToyBallPet_SetChewed)" Value="164356" />
+  <Preset Label="Watch Pet (toyBallPet_Watch)" Value="164369" />
+  <Preset Label="Give Treat (petSocial_SimToPet_GiveTreat)" Value="164385" />
+  <Preset Label="Put Down (toyBallPet_PutDownHere_Sim)" Value="164406" />
+  <Preset Label="Hug (petSocial_SimToPet_Hug_LargePet)" Value="164439" />
+  <Preset Label="Kiss (petSocial_SimToPet_Kiss_LargePet)" Value="164440" />
+  <Preset Label="Pet (petSocial_SimToPet_PetPet)" Value="164441" />
+  <Preset Label="Comfort {1.SimFirstName} (petSocial_SimToPet_PetCalmDown_Sick)" Value="164445" />
+  <Preset Label="Become Companions (petSocial_SimToPet_PetCompanion)" Value="164446" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_TV)" Value="164478" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Brewer)" Value="164479" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Computer)" Value="164480" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Cooking)" Value="164481" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Dishwasher)" Value="164482" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Fire)" Value="164483" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_FitnessEquipment)" Value="164484" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Gaming)" Value="164485" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Instrument)" Value="164486" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Microwave)" Value="164487" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Shower)" Value="164488" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Stereo)" Value="164489" />
+  <Preset Label="Fear - Investigate (PetInvestigate_LazyTrait_Fear_Toilet)" Value="164490" />
+  <Preset Label="Walk around object (waypoint_MultpleObjectPoints_Crates)" Value="164493" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsessed_Watch_TV)" Value="164498" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Brewer)" Value="164499" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Computer)" Value="164500" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Cooking)" Value="164501" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Dishwasher)" Value="164502" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Doorbell)" Value="164503" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Fire)" Value="164504" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_FishTank)" Value="164505" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_FitnessEquipment)" Value="164506" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Fridge)" Value="164507" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Gaming)" Value="164508" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Instrument)" Value="164509" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Microwave)" Value="164510" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Shower)" Value="164511" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Stereo)" Value="164512" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Toilet)" Value="164513" />
+  <Preset Label="Watch Dog Tricks (watchForMotive_DogTricks_CoolTricks)" Value="164521" />
+  <Preset Label="Kiss (petSocials_SimToPet_PetIntimate_Kiss)" Value="164523" />
+  <Preset Label="Fear - Wary Watch (PetQuirks_Lazy_WatchWary)" Value="164546" />
+  <Preset Label="Offer Friendship (petSocial_SimToPet_MakeNice)" Value="164568" />
+  <Preset Label="Groom Self (pet_Cat_Groom_OnObjectPart)" Value="164580" />
+  <Preset Label="Sit Here (pet_Sit_OnObjectPart)" Value="164581" />
+  <Preset Label="Shake (petSocials_SimToPet_Shake)" Value="164619" />
+  <Preset Label="Skittish Idle Trigger (debug_PetTraits_Skittish_IdleTrigger)" Value="164623" />
+  <Preset Label="Carry Crate to Front Door (petCare_CreateCrate)" Value="164673" />
+  <Preset Label="Vocal Greet (PetToPet_Greetings_Vocal_SI_Dog_Friendly)" Value="164708" />
+  <Preset Label="Vocal Greet (PetToPet_Greetings_Vocal_SI_Cat_Friendly)" Value="164714" />
+  <Preset Label="Vocal Greet (PetToPet_Greetings_Vocal_SI_Cat_Neutral)" Value="164717" />
+  <Preset Label="Vocal Greet (PetToPet_Greetings_Vocal_SI_Cat_Hostile)" Value="164718" />
+  <Preset Label="Vocal Greet (PetToPet_Greetings_Vocal_SI_Dog_Hostile)" Value="164720" />
+  <Preset Label="Vocal Greet (PetToPet_Greetings_Vocal_SI_Dog_Neutral)" Value="164721" />
+  <Preset Label="Training (petSocials_SimToPet_Shake_Dog)" Value="164779" />
+  <Preset Label="Lie Down Here (layDown_Idle)" Value="164804" />
+  <Preset Label="Lie Down Here (layDown_Idle_Cat)" Value="164805" />
+  <Preset Label="Carry Crate to Front Door (debug_petCare_CreateCrate)" Value="164809" />
+  <Preset Label="Go to Pet Care Worker (petCare_Pet_RouteToCrate_Cats)" Value="164842" />
+  <Preset Label="Wait (petCare_PetCareWorker_Wait)" Value="164878" />
+  <Preset Label="Go to Pet Care Worker (petCare_Pet_wait)" Value="164884" />
+  <Preset Label="Be Taken Away (death_Pet_AnimalCareWorker_Neglected)" Value="164885" />
+  <Preset Label="Wait (petCare_PetCareWorker_DestroyCrate)" Value="164902" />
+  <Preset Label="Investigate (pet_Investigate_SniffNewObjects)" Value="164920" />
+  <Preset Label="Laser Silliness (petSocials_PetToSim_Cat_LaserPointer_SI)" Value="164926" />
+  <Preset Label="Play (petSocial_PetToPet_Continuation_ChasePlay)" Value="164987" />
+  <Preset Label="Play (petSocial_DogToDog_Continuation_ChasePlay)" Value="164989" />
+  <Preset Label="Medium Walk (dogWalking_Situation_GoForWalk)" Value="165043" />
+  <Preset Label="Heel (aggregateSuperInteraction_HeelTraining)" Value="165044" />
+  <Preset Label="Peeved! (petSocials_PetToSim_Greeting_Hostile_PeeOn_SI)" Value="165048" />
+  <Preset Label="Jump Playfully (petSocials_PetToSim_Greeting_Friendly_DogJumpOn_SI)" Value="165049" />
+  <Preset Label="Leash (walk_Dog_Leash_WithSituation_GoForWalk)" Value="165074" />
+  <Preset Label="reaction_Socials_PeedOn" Value="165079" />
+  <Preset Label="Greet a Guest (petSocials_PetToSim_Greetings)" Value="165101" />
+  <Preset Label="Medium Walk (aggregateSuperInteraction_WalkDog_GoForWalkSituation)" Value="165155" />
+  <Preset Label="Shoo (petSocial_NonTouching_ShooNotMet)" Value="165157" />
+  <Preset Label="Introduction (socials_PetToSim_Introduction_Friendly_Continuation)" Value="165164" />
+  <Preset Label="Go For Jog (dogWalking_Situation_GoForJog)" Value="165202" />
+  <Preset Label="Leash (walk_Dog_Leash_WithSituation_GoForJog)" Value="165209" />
+  <Preset Label="Yell At (mixerSocial_NT_Pets_Mean_YellAt_Toddler_Dog)" Tags="TestUnsafe" Value="165225" />
+  <Preset Label="Friendly Introduction (social_SimToPet_Introduction_Friendly_Toddler)" Tags="TestUnsafe" Value="165234" />
+  <Preset Label="Rude Introduction (social_SimToPet_Introduction_Mean_Toddler)" Tags="TestUnsafe" Value="165235" />
+  <Preset Label="Go Potty (pet_PeePoopInteraction_Dog_Leashed)" Value="165315" />
+  <Preset Label="Stand at Exam Table (generic_ExamTable_VetStand)" Value="165327" />
+  <Preset Label="Sit on Exam Table (generic_ExamTable_PetSit_LargeDog)" Value="165328" />
+  <Preset Label="Begin Exam (simPickerInteraction_ExamTable_BeginExam)" Tags="TestUnsafe" Value="165360" />
+  <Preset Label="Run Around (waypoint_RunAround_Dog)" Value="165409" />
+  <Preset Label="Pet (mixerSocial_T_Pets_Friendly_Pet_Carrying)" Value="165446" />
+  <Preset Label="Beg for Food (dog_DisciplineBehavior_BegForFood_Walkby)" Value="165448" />
+  <Preset Label="DEBUG - Max Rel (debug_SimToPet_Rel_Max)" Value="165456" />
+  <Preset Label="DEBUG - Min Rel (debug_SimToPet_Rel_Min)" Value="165457" />
+  <Preset Label="Begin Exam (vet_ExamObjects_StartExam)" Value="165474" />
+  <Preset Label="DEBUG - Make {0.SimFirstName} Hostile Towards {1.SimFirstName} (debug_PetToPet_Rel_MakeHostile)" Value="165486" />
+  <Preset Label="DEBUG - Make {0.SimFirstName} Friendly Towards {1.SimFirstName} (debug_PetToPet_Rel_MakeFriendly)" Value="165487" />
+  <Preset Label="Introduction (socials_Targeted_Pets_Greetings_PetToPet_IntroductionContinuation)" Value="165488" />
+  <Preset Label="Hunger Failure (sim_Dog_HungerFailure)" Value="165504" />
+  <Preset Label="DEBUG - Make {0.SimFirstName} Neutral Towards {1.SimFirstName} (debug_PetToPet_Rel_MakeNeutral)" Value="165505" />
+  <Preset Label="Beg for Food (cat_DisciplineBehavior_BegForFood_Walkby)" Value="165508" />
+  <Preset Label="Bathe {1.SimFirstName} (bathtub_PetBath_Take)" Value="165535" />
+  <Preset Label="Bathe {1.SimFirstName} (bathtub_PetBath_LargeDog_Give)" Value="165536" />
+  <Preset Label="Give Bath (simPickerInteraction_PetBath)" Tags="TestUnsafe" Value="165553" />
+  <Preset Label="Call Forth Ghost (urnstone_Pet_CallForth_Debug_run_Ghost_situation)" Value="165584" />
+  <Preset Label="urnstonePicker_JumpOut_Pets" Tags="TestUnsafe" Value="165596" />
+  <Preset Label="Return to Netherworld (death_Netherworld_Pets)" Value="165599" />
+  <Preset Label="generic_Bathtub_PetBath" Value="165601" />
+  <Preset Label="Vocal Greet (debug_PetToPet_Greetings_Vocal_SI_Cat)" Value="165605" />
+  <Preset Label="Vocal Greet (debug_PetToPet_Greetings_Vocal_SI_Dog)" Value="165606" />
+  <Preset Label="Covert to Pet Treat (si_SwipeToSimInventory_Ambrosia_toPetTreat)" Value="165622" />
+  <Preset Label="Shake (mixer_Dog_Training_Human_Shake_Command)" Tags="TestUnsafe" Value="165633" />
+  <Preset Label="Laze (pet_Laze)" Value="165641" />
+  <Preset Label="mixerInteraction_Pets_Laze" Value="165645" />
+  <Preset Label="Bathe {1.SimFirstName} (bathtub_PetBath_FromCarry_Give)" Value="165646" />
+  <Preset Label="Pick Up (socialSuperInteraction_CarryPickUp_Pet_ToBathe)" Value="165647" />
+  <Preset Label="Give Bath (mixerSocial_NT_Pets_Friendly_AskToBathe_ToCarry)" Tags="TestUnsafe" Value="165658" />
+  <Preset Label="Give Bath (mixerSocial_NT_Pets_Friendly_AskToBathe_LargeDog)" Tags="TestUnsafe" Value="165661" />
+  <Preset Label="generic_Bathtub_PetBath_Dog" Value="165664" />
+  <Preset Label="Nap (pet_Nap)" Value="165671" />
+  <Preset Label="Show Off Pet (petSocials_SimToPet_ShowOff_Picked)" Value="165713" />
+  <Preset Label="Show Off Pet (petSocials_SimToPet_ShowOff_Actor)" Value="165714" />
+  <Preset Label="Give Ambrosia Treat (petSocial_SimToPet_GiveTreat_Ambrosia)" Value="165715" />
+  <Preset Label="Sleep (pet_Sleep)" Value="165728" />
+  <Preset Label="Watch (pet_Watch_fisherman)" Value="165758" />
+  <Preset Label="Vocal Greet (PetToSim_Greetings_Vocal_SI_Cat_Friendly)" Value="165773" />
+  <Preset Label="Vocal Greet (debug_PetToSim_Greetings_Vocal_SI_Cat)" Value="165774" />
+  <Preset Label="Vocal Greet (PetToSim_Greetings_Vocal_SI_Cat_Hostile)" Value="165776" />
+  <Preset Label="Vocal Greet (PetToSim_Greetings_Vocal_SI_Cat_Neutral)" Value="165777" />
+  <Preset Label="Vocal Greet (debug_PetToSim_Greetings_Vocal_SI_Dog)" Value="165778" />
+  <Preset Label="Vocal Greet (PetToSim_Greetings_Vocal_SI_Dog_Friendly)" Value="165779" />
+  <Preset Label="Vocal Greet (PetToSim_Greetings_Vocal_SI_Dog_Hostile)" Value="165780" />
+  <Preset Label="Vocal Greet (PetToSim_Greetings_Vocal_SI_Dog_Neutral)" Value="165781" />
+  <Preset Label="Show Off Pet (petSocials_SimToPet_ShowOff_Target)" Value="165782" />
+  <Preset Label="Hostile Chase (petSocials_PetToPet_InitializeChase_Hostile)" Value="165784" />
+  <Preset Label="Friendly Chase (petSocials_PetToPet_InitializeChase_Friendly)" Value="165785" />
+  <Preset Label="Resurrect (Ghost_Resurrect_Pet_si)" Value="165807" />
+  <Preset Label="Be Mean To (mixerSocial_NT_Dog_TalkTo_BeMeanTo)" Tags="TestUnsafe" Value="165844" />
+  <Preset Label="Be Nice To (mixerSocial_NT_Dog_TalkTo_BeNiceTo)" Tags="TestUnsafe" Value="165845" />
+  <Preset Label="Groom Self (pet_GroomInteraction_Cat_VictoryGroom)" Value="165858" />
+  <Preset Label="mixerInteraction_Pets_Sleep_Back" Value="165879" />
+  <Preset Label="mixerInteraction_Pets_Sleep_BackQuirk" Value="165880" />
+  <Preset Label="mixerInteraction_Pets_Sleep_Stomach" Value="165881" />
+  <Preset Label="mixerInteraction_Pets_Sleep_StomachQuirk" Value="165882" />
+  <Preset Label="mixerInteraction_Pets_Sleep_Curl" Value="165883" />
+  <Preset Label="mixerInteraction_Pets_Sleep_CurlQuirk" Value="165884" />
+  <Preset Label="Bark At (dog_Bark_Targeted_FacingOnly)" Value="165887" />
+  <Preset Label="Yowl (cat_Yowl_Targeted_FacingOnly)" Value="165888" />
+  <Preset Label="Nap (Pet_Nap_Aggregate)" Value="165898" />
+  <Preset Label="Laze (Pet_Laze_Aggregate)" Value="165899" />
+  <Preset Label="Bat At (cat_Misbehavior_TrashCanBatAt_Eat)" Value="165944" />
+  <Preset Label="Knock, Knock... (dog_Misbehavior_TrashCanKnock_Eat)" Value="165947" />
+  <Preset Label="Nuzzle (petSocials_PetToSim_Nuzzle_Pushed)" Value="165957" />
+  <Preset Label="Aggressive Bark (dog_Bark_DisciplineBehavior_Aggressive)" Value="165958" />
+  <Preset Label="Nap (petLarge_Nap_OnObject)" Value="165965" />
+  <Preset Label="Nap (pet_Nap_Near)" Value="165966" />
+  <Preset Label="Laze (petSmall_Laze_OnObject)" Value="165967" />
+  <Preset Label="Laze (pet_Laze_Near)" Value="165968" />
+  <Preset Label="autonomous_ObjectPicker_PetCat_Nap_OnObject" Tags="TestUnsafe" Value="165978" />
+  <Preset Label="autonomous_ObjectPicker_PetCat_Laze_OnObject" Tags="TestUnsafe" Value="165979" />
+  <Preset Label="autonomous_ObjectPicker_PetDog_Nap_OnObject" Tags="TestUnsafe" Value="165980" />
+  <Preset Label="autonomous_ObjectPicker_PetDog_Laze_OnObject" Tags="TestUnsafe" Value="165981" />
+  <Preset Label="autonomous_ObjectPicker_PetCat_Laze_NearObject" Tags="TestUnsafe" Value="165982" />
+  <Preset Label="autonomous_ObjectPicker_Pet_Nap_NearObject" Tags="TestUnsafe" Value="165983" />
+  <Preset Label="simPicker_Pet_Nap_NearOwner_Cat" Tags="TestUnsafe" Value="165984" />
+  <Preset Label="simPicker_Pet_Laze_NearOwner_Cat" Tags="TestUnsafe" Value="165985" />
+  <Preset Label="simPicker_Pet_Watch" Tags="TestUnsafe" Value="165986" />
+  <Preset Label="Play Fetch (toyBallPet_Dog_Fetch_FromWhine)" Value="166011" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_Counters)" Value="166085" />
+  <Preset Label="Shake (petSocials_SimToPet_Shake_Command)" Value="166101" />
+  <Preset Label="Laze (debug_Laze_Aggregate)" Value="166119" />
+  <Preset Label="Nap (debug_Nap_Aggregate)" Value="166121" />
+  <Preset Label="urnStone_Mourn_mixer_Pets" Value="166145" />
+  <Preset Label="Show Off Pet Tricks (petSocials_SimToPet_ShowOffTricks_Actor)" Value="166151" />
+  <Preset Label="Show Off Pet Tricks (petSocials_SimToPet_ShowOffTricks_Picked)" Value="166152" />
+  <Preset Label="Show Off Pet Tricks (petSocials_SimToPet_ShowOffTricks_Target)" Value="166153" />
+  <Preset Label="reaction_Death_mixers_Pets_Mourn_Sad" Value="166154" />
+  <Preset Label="Nap (petSmall_Nap_OnObject)" Value="166211" />
+  <Preset Label="Nap (petChild_Nap_OnObject)" Value="166212" />
+  <Preset Label="Laze (petChild_Laze_OnObject)" Value="166214" />
+  <Preset Label="Laze (petLarge_Laze_OnObject)" Value="166221" />
+  <Preset Label="mixer_ToyBallPet_Cat_Claw_Looping" Value="166243" />
+  <Preset Label="mixer_ToyBallPet_Cat_Claw_JumpBall" Value="166247" />
+  <Preset Label="mixer_ToyBallPet_Cat_Claw_PatBall" Value="166248" />
+  <Preset Label="Get Exam (vet_Treatment_Patient)" Value="166253" />
+  <Preset Label="Ghostly Yowling (idle_Ghost_pet_Cat_YowlFromBeyond)" Value="166275" />
+  <Preset Label="Ghostly Yowling (idle_Ghost_pet_Dog_HowlFromBeyond)" Value="166280" />
+  <Preset Label="Talk To (mixerSocial_NT_Pets_Friendly_TalkTo_Emotional_Cat)" Tags="TestUnsafe" Value="166334" />
+  <Preset Label="Sit on Exam Table (generic_ExamTable_PetSit_Cat)" Value="166353" />
+  <Preset Label="Begin Examining (mixerSocial_NT_Pets_Friendly_BeginExam)" Tags="TestUnsafe" Value="166357" />
+  <Preset Label="npcLeaveLot_Pet" Value="166360" />
+  <Preset Label="autonomous_WalkingDog_GoForWalk_SniffObject" Tags="TestUnsafe" Value="166372" />
+  <Preset Label="autonomous_WalkingDog_GoForWalk_PeePoopObject" Tags="TestUnsafe" Value="166373" />
+  <Preset Label="Yell At (mixerSocial_NT_Pets_Mean_YellAt_Toddler_Cat)" Tags="TestUnsafe" Value="166378" />
+  <Preset Label="Yell At (mixerSocial_NT_Pets_Mean_YellAt_Cat)" Tags="TestUnsafe" Value="166379" />
+  <Preset Label="Begin Exam (vet_ExamObjects_StartExam_Autonomous)" Value="166380" />
+  <Preset Label="Scold (mixerSocial_NT_Pets_Mean_Generic_Scold_Cat)" Tags="TestUnsafe" Value="166392" />
+  <Preset Label="Provoke (mixerSocial_NT_Pets_Mean_Provoke_Cat)" Tags="TestUnsafe" Value="166400" />
+  <Preset Label="Examine {1.SimFirstName} (vet_Treatment_Examine_Employee)" Value="166411" />
+  <Preset Label="Examine (vet_Examine_Mixers_Autonomous_ExamineMouth)" Tags="TestUnsafe" Value="166415" />
+  <Preset Label="Examine (vet_Examine_Mixers_Autonomous_EyeExam)" Tags="TestUnsafe" Value="166416" />
+  <Preset Label="Examine (vet_Examine_Mixers_Autonomous_ListenToBreathing)" Tags="TestUnsafe" Value="166417" />
+  <Preset Label="Examine (vet_Examine_Mixers_Autonomous_ListenToHeart)" Tags="TestUnsafe" Value="166418" />
+  <Preset Label="Examine (vet_Examine_Mixers_Autonomous_MarkChart)" Tags="TestUnsafe" Value="166419" />
+  <Preset Label="Examine (vet_Examine_Mixers_Autonomous_SkinFurInspection)" Tags="TestUnsafe" Value="166420" />
+  <Preset Label="Examine (vet_Examine_Mixers_Autonomous_TestEars)" Tags="TestUnsafe" Value="166421" />
+  <Preset Label="Examine (vet_Examine_Mixers_Autonomous_TakeTemperature)" Tags="TestUnsafe" Value="166426" />
+  <Preset Label="Pet (petSocial_PetToSim_PetPet)" Value="166469" />
+  <Preset Label="Kiss (petSocial_PetToSim_Kiss_LargePet)" Value="166472" />
+  <Preset Label="Kiss (petSocial_PetToSim_Kiss_SmallPet)" Value="166473" />
+  <Preset Label="Kiss (petSocial_SimToPet_Kiss_SmallPet)" Value="166474" />
+  <Preset Label="Calm Pet (vet_Examine_CalmPet_Employee)" Tags="TestUnsafe" Value="166476" />
+  <Preset Label="Sniff (pet_Sniff_Dog_GoForWalk)" Value="166483" />
+  <Preset Label="Go Potty (pet_PeePoop_Dog_Autonomous_GoForWalk)" Value="166487" />
+  <Preset Label="Calm Pet (vet_Treatment_CalmPet)" Value="166528" />
+  <Preset Label="Initiate Hug from {1.SimFirstName} (petSocials_PetToSim_Initiate_HugPet)" Value="166535" />
+  <Preset Label="Short Walk (dogWalking_Situation_GoForWalk_Short)" Value="166536" />
+  <Preset Label="Long Walk (dogWalking_Situation_GoForWalk_Long)" Value="166537" />
+  <Preset Label="Investigate (pet_Investigate_SniffObjects_Curious)" Value="166550" />
+  <Preset Label="autonomous_CuriousTrait_WhatsThat" Tags="TestUnsafe" Value="166552" />
+  <Preset Label="Hug (petSocial_PetToSim_Hug_SmallPet)" Value="166554" />
+  <Preset Label="Hug (petSocial_PetToSim_Hug_LargePet)" Value="166555" />
+  <Preset Label="Hug (petSocial_SimToPet_Hug_SmallPet)" Value="166556" />
+  <Preset Label="Practice Tricks (mixer_Dog_Training_Human_Practice)" Tags="TestUnsafe" Value="166567" />
+  <Preset Label="mixer_Dog_Training_Dog_Practice_LieDown" Tags="TestUnsafe" Value="166579" />
+  <Preset Label="mixer_Dog_Training_Dog_Practice_PlayDead" Tags="TestUnsafe" Value="166580" />
+  <Preset Label="mixer_Dog_Training_Dog_Practice_Sit" Tags="TestUnsafe" Value="166581" />
+  <Preset Label="mixer_Dog_Training_Dog_Practice_Speak" Tags="TestUnsafe" Value="166582" />
+  <Preset Label="mixer_Dog_Training_Dog_Practice_RollOver" Tags="TestUnsafe" Value="166583" />
+  <Preset Label="Examine {1.SimFirstName} (vet_Surgery_Examine)" Value="166589" />
+  <Preset Label="Examine {1.SimFirstName} (vet_Surgery_Examine_Employee)" Value="166590" />
+  <Preset Label="Start Procedures (vet_Surgery_StartExam)" Value="166617" />
+  <Preset Label="Begin Exam (vet_Surgery_StartExam_Autonomous)" Value="166618" />
+  <Preset Label="Nap (Pet_Nap_Aggregate_Loyal)" Value="166629" />
+  <Preset Label="Laze (Pet_Laze_Aggregate_Loyal)" Value="166630" />
+  <Preset Label="simPicker_Owner_Dog_WalkingDog" Tags="TestUnsafe" Value="166651" />
+  <Preset Label="Sit Nearby (petOwner_WaitNearby_Dog_WalkDog)" Value="166653" />
+  <Preset Label="Whine at Door (si_Pet_Dog_WhineAtDoor_WalkDog)" Value="166689" />
+  <Preset Label="Vascular Scan (vet_Surgery_Exams_VascularScan)" Tags="TestUnsafe" Value="166693" />
+  <Preset Label="Intestinal Scan (vet_Surgery_Exams_IntestinalScan)" Tags="TestUnsafe" Value="166694" />
+  <Preset Label="Brain Scan (vet_Surgery_Exams_BrainScan)" Tags="TestUnsafe" Value="166695" />
+  <Preset Label="Tum Tum Tickletangle Readjustment Surgery (vet_Surgery_Treatments_ReadjustmentSurgery)" Tags="TestUnsafe" Value="166696" />
+  <Preset Label="Lubricate Tailwagger Joint (vet_Surgery_Treatments_LubricateJoint)" Tags="TestUnsafe" Value="166697" />
+  <Preset Label="Refill Nose Hydration Reservoir (vet_Surgery_Treatments_RefillNose)" Tags="TestUnsafe" Value="166698" />
+  <Preset Label="Unblock Kibble Chute Blockage (vet_Surgery_Treatments_UnblockChute)" Tags="TestUnsafe" Value="166699" />
+  <Preset Label="Extract Excess Cuteness (vet_Surgery_Treatments_ExtractCuteness)" Tags="TestUnsafe" Value="166700" />
+  <Preset Label="End Exam (vet_ExamTable_EndExam)" Tags="TestUnsafe" Value="166724" />
+  <Preset Label="idle_Buff_Pet_Pregnant_InLabor" Value="166766" />
+  <Preset Label="WooHoo (petSocial_PetToPet_TryForBaby)" Value="166770" />
+  <Preset Label="Adopt Cat (adopt_Picker_Cat)" Tags="TestUnsafe" Value="166800" />
+  <Preset Label="WooHoo (debug_petSocial_PetToPet_TryForBaby)" Value="166804" />
+  <Preset Label="Adopt Dog (adopt_Picker_Dog)" Tags="TestUnsafe" Value="166824" />
+  <Preset Label="Pet (petSocials_SimToPet_PetIntimate_Pet)" Value="166831" />
+  <Preset Label="Watch (watchForMotive_DogTricks_Clap)" Value="166834" />
+  <Preset Label="Mourn {2.SimFirstName} (urnstone_MournFriend_pets)" Value="166842" />
+  <Preset Label="Encourage to Mate (mixerSocial_NT_Pets_Friendly_EncourageMateBreed)" Tags="TestUnsafe" Value="166847" />
+  <Preset Label="reaction_Death_mixers_Pets_Scared_GrimReaping" Value="166851" />
+  <Preset Label="Ask to Lie Down (simPickerInteraction_PetBed_OrderLieDown)" Tags="TestUnsafe" Value="166856" />
+  <Preset Label="Go Lie Down (petSocial_SimtoPet_GoLieDown_OnPetBed)" Value="166862" />
+  <Preset Label="reaction_Death_mixers_Pets_Anxious_deadBody" Value="166865" />
+  <Preset Label="vetPodium_CustomerConstraint" Value="166879" />
+  <Preset Label="Lie In (Pet_LayDown_PetBed_Aggregate)" Value="166881" />
+  <Preset Label="Initiate Exam (debug) (petSocials_PetToSim_Initiate_Exam)" Value="166882" />
+  <Preset Label="Command to Follow (social_Dog_Training_Heel_Follow_Left)" Value="166926" />
+  <Preset Label="Command to Follow (social_Dog_Training_Heel_Follow_Right)" Value="166927" />
+  <Preset Label="Heel (training_Heel_Walk_Dog)" Value="166929" />
+  <Preset Label="Kick Out (si_PetBed_KickOut_Cat)" Value="166936" />
+  <Preset Label="Clean Up Hair Pile (pet_HairPile_CleanUp)" Value="166940" />
+  <Preset Label="Kick Out (si_PetBed_KickOut_Dog)" Value="166942" />
+  <Preset Label="Celebrate! (reactions_Pet_AgeUp_Happy_targetedSI)" Value="166962" />
+  <Preset Label="reaction_Mixer_Pet_AgeUp_targeted_thought" Value="166964" />
+  <Preset Label="Watch (pet_Watch_Provided)" Value="166986" />
+  <Preset Label="Watch (pets_Watch_Investigate)" Value="166992" />
+  <Preset Label="Friendly (petSocial_PetToSim_Greeting_Friendly_Social)" Value="167011" />
+  <Preset Label="Mean (petSocial_PetToSim_Greeting_Hostile_Social)" Value="167012" />
+  <Preset Label="Neutral (petSocial_PetToSim_Greeting_Neutral_Social)" Value="167013" />
+  <Preset Label="Jump Playfully (petSocials_PetToSim_Greeting_Friendly_DogJumpOn_Social)" Value="167017" />
+  <Preset Label="Peeved! (petSocials_PetToSim_Greeting_Hostile_PeeOn_Social)" Value="167018" />
+  <Preset Label="Sleep (pet_Sleep_Aggregate_LeftAtHome)" Value="167046" />
+  <Preset Label="React to Fear (reactions_Pet_Fearful_VariedOutcome_Swimming)" Value="167050" />
+  <Preset Label="Change Outfit (changeOutfitPicker_TargetSim_Pet)" Tags="TestUnsafe" Value="167090" />
+  <Preset Label="vet_social_Employee_BeginExam" Value="167091" />
+  <Preset Label="Invite to Household (mixerSocial_Targeted_SimToPet_Friendly_NT_InviteToHousehold_Ghost)" Tags="TestUnsafe" Value="167117" />
+  <Preset Label="Begin Procedures (simPickerInteraction_SurgeryStation_BeginExam)" Tags="TestUnsafe" Value="167181" />
+  <Preset Label="Give Treat (petSocials_SimToPet_GiveTreat_Training)" Value="167182" />
+  <Preset Label="Call Pet to Eat (petBowl_PetPicker_Call)" Tags="TestUnsafe" Value="167188" />
+  <Preset Label="Fill and Call Pet (petBowl_PetPicker_FillnCall)" Tags="TestUnsafe" Value="167189" />
+  <Preset Label="generic_SurgeryStation_VetStand" Value="167190" />
+  <Preset Label="Greet Patient Warmly (vet_Patient_Greetings_Warmly)" Value="167193" />
+  <Preset Label="Greet Patient (vet_Patient_Greetings_Neutral)" Value="167194" />
+  <Preset Label="Greet Patient Impatiently (vet_Patient_Greetings_Impatiently)" Value="167195" />
+  <Preset Label="Begin Procedure (mixerSocial_NT_Pets_Friendly_BeginProcedure)" Tags="TestUnsafe" Value="167198" />
+  <Preset Label="Get Procedure (vet_Surgery_Patient)" Value="167206" />
+  <Preset Label="Procedure (vet_Surgery_Exams_Autonomous_BrainScan)" Tags="TestUnsafe" Value="167255" />
+  <Preset Label="Lock for Specific Sim (lockHouseholdSimsPickerInteraction_Lock_PetDoor)" Tags="TestUnsafe" Value="167280" />
+  <Preset Label="Procedure (vet_Surgery_Exams_Autonomous_IntestinalScan)" Tags="TestUnsafe" Value="167282" />
+  <Preset Label="Procedure (vet_Surgery_Exams_Autonomous_VascularScan)" Tags="TestUnsafe" Value="167283" />
+  <Preset Label="All Pets (door_Padlock_ImmediateInteraction_Lock_AllPets)" Value="167285" />
+  <Preset Label="Leash (walk_Dog_Leash_WithSituation_GoForWalk_Short)" Value="167370" />
+  <Preset Label="Leash (walk_Dog_Leash_WithSituation_GoForWalk_Long)" Value="167371" />
+  <Preset Label="Go For Jog (aggregateSuperInteraction_WalkDog_GoForJog)" Value="167377" />
+  <Preset Label="Long Walk (aggregateSuperInteraction_WalkDog_GoForWalk_Long)" Value="167378" />
+  <Preset Label="Short Walk (aggregateSuperInteraction_WalkDog_GoForWalk_Short)" Value="167379" />
+  <Preset Label="Dismiss Patient (Vet_DismissPatient)" Value="167443" />
+  <Preset Label="Give Inspirational Speech (vet_Employee_Socials_Inspire)" Value="167463" />
+  <Preset Label="Sniff (pet_Sniff_Dog_GoForWalk_Self)" Value="167489" />
+  <Preset Label="Introduce to {2.SimFirstName} (mixer_social_IntroDog_greetings)" Tags="TestUnsafe" Value="167492" />
+  <Preset Label="Attack {1.SimFirstName} (petSocials_PetToPet_Attack)" Value="167493" />
+  <Preset Label="Fetch Ball (toyBallPet_PickUp)" Value="167523" />
+  <Preset Label="Go Potty (pet_PeePoopInteraction_Dog_Command)" Value="167524" />
+  <Preset Label="autonomous_ObjectPicker_PetToy_SmartTrait" Tags="TestUnsafe" Value="167525" />
+  <Preset Label="Play Fetch (dog_PlayFetch_picker_Training)" Tags="TestUnsafe" Value="167532" />
+  <Preset Label="Play Fetch (social_Pet_Play_Fetch_Training)" Value="167533" />
+  <Preset Label="Play Fetch (fetchObject_dog_Play_Fetch_Training)" Value="167535" />
+  <Preset Label="Fetch Ball (toyBallPet_Dog_Fetch_Training)" Value="167536" />
+  <Preset Label="Excited Reaction (si_Dog_GoForWalk_Excited)" Value="167541" />
+  <Preset Label="Stop Fight! (petSocials_SimToPet_PetAttack_StopFight)" Value="167598" />
+  <Preset Label="Put Away Pet Toy (Put_Away_PetToy_SmartTrait)" Value="167604" />
+  <Preset Label="Fetch Ball (toyBallPet_Dog_Fetch_NoPickUp_Training)" Value="167661" />
+  <Preset Label="Fetch Ball (toyBallPet_WaitForThrow_Training)" Value="167672" />
+  <Preset Label="Leash (walk_Dog_Leash_WithSituation_GoForJog_LeftHand)" Value="167701" />
+  <Preset Label="Leash (walk_Dog_Leash_WithSituation_GoForWalk_LeftHand)" Value="167702" />
+  <Preset Label="Leash (walk_Dog_Leash_WithSituation_GoForWalk_Long_LeftHand)" Value="167703" />
+  <Preset Label="Leash (walk_Dog_Leash_WithSituation_GoForWalk_Short_LeftHand)" Value="167704" />
+  <Preset Label="Leash (walk_Dog_Leash_LeftHand)" Value="167713" />
+  <Preset Label="Brief Training (vet_Employee_Socials_Training_Brief)" Value="167726" />
+  <Preset Label="Extensive Training (vet_Employee_Socials_Training_Extensive)" Value="167743" />
+  <Preset Label="Standard Training (vet_Employee_Socials_Training_Standard)" Value="167744" />
+  <Preset Label="Play Fetch (dog_PlayFetch_picker_Command)" Tags="TestUnsafe" Value="167747" />
+  <Preset Label="Play Fetch (fetchObject_dog_Play_Fetch_Command)" Value="167748" />
+  <Preset Label="Fetch Ball (toyBallPet_Dog_Fetch_Command)" Value="167749" />
+  <Preset Label="Play Fetch (social_Pet_Play_Fetch_Command)" Value="167750" />
+  <Preset Label="Travel to The Lighthouse (rabbitHole_HarborBoat_TravelTo_Lighthouse)" Value="167790" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_Annoyed)" Value="167796" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_Gleeful)" Value="167797" />
+  <Preset Label="Praise (vet_Employee_Socials_Praise)" Value="167798" />
+  <Preset Label="Criticize (vet_Employee_Socials_Criticize)" Value="167801" />
+  <Preset Label="Travel to The Lighthouse With (rabbitHole_harborBoat_Picker_TravelWith_Lighthouse)" Tags="TestUnsafe" Value="167808" />
+  <Preset Label="Travel to The Lighthouse (go_To_Specific_Lot_HarborBoat_ToLightHouse)" Value="167836" />
+  <Preset Label="Naughty (pet_NaughtyTrait_Behavior)" Value="167853" />
+  <Preset Label="Skittish (pet_SkittishTrait_Behavior)" Value="167854" />
+  <Preset Label="Hairy (pet_HairyTrait_Behavior)" Value="167855" />
+  <Preset Label="Lecture about Attacking (discipline_Pets_Attack_Lecture)" Value="167973" />
+  <Preset Label="Scold for Attacking (discipline_Pets_Attack_Scold)" Value="167974" />
+  <Preset Label="Lecture about Barking (discipline_Pets_Barking_Lecture)" Value="167975" />
+  <Preset Label="Scold for Barking (discipline_Pets_Barking_Scold)" Value="167976" />
+  <Preset Label="Lecture about Playing in Trash (discipline_Pets_TrashPlay_Lecture)" Value="167977" />
+  <Preset Label="Scold for Playing in Trash (discipline_Pets_TrashPlay_Scold)" Value="167978" />
+  <Preset Label="Lecture about Eating Trash (discipline_Pets_TrashEat_Lecture)" Value="167979" />
+  <Preset Label="Scold for Eating Trash (discipline_Pets_TrashEat_Scold)" Value="167980" />
+  <Preset Label="Lecture about Drinking from Toilet (discipline_Pets_Toilet_Lecture)" Value="167981" />
+  <Preset Label="Scold for Drinking from Toilet (discipline_Pets_Toilet_Scold)" Value="167982" />
+  <Preset Label="Lecture about Scratching (discipline_Pets_Scratching_Lecture)" Value="167983" />
+  <Preset Label="Scold for Scratching (discipline_Pets_Scratching_Scold)" Value="167984" />
+  <Preset Label="Lecture about Playing in Puddles (discipline_Pets_PuddlesPlay_Lecture)" Value="167985" />
+  <Preset Label="Scold for Playing in Puddles (discipline_Pets_PuddlesPlay_Scold)" Value="167986" />
+  <Preset Label="Lecture about Drinking from Puddle (discipline_Pets_PuddlesDrink_Lecture)" Value="167987" />
+  <Preset Label="Scold for Drinking from Puddle (discipline_Pets_PuddlesDrink_Scold)" Value="167988" />
+  <Preset Label="Lecture about Indoor Potty (discipline_Pets_PottyTraining_Lecture)" Value="167989" />
+  <Preset Label="Scold for Indoor Potty (discipline_Pets_PottyTraining_Scold)" Value="167990" />
+  <Preset Label="Lecture about Begging for Food (discipline_Pets_BegEating_Lecture)" Value="167995" />
+  <Preset Label="Scold for Begging for Food (discipline_Pets_BegEating_Scold)" Value="167996" />
+  <Preset Label="Heel (command_Heel_Walk_Dog)" Value="168025" />
+  <Preset Label="Heel (training_Heel_Walk_Dog_Fail)" Value="168027" />
+  <Preset Label="Make Sick (debug_makePetSick)" Value="168046" />
+  <Preset Label="Reset Diagnosis (debug_resetDiagnosisProgress)" Value="168047" />
+  <Preset Label="Debug - Diagnose (debug_PetDiagnosis)" Value="168049" />
+  <Preset Label="Fetch Toy (pet_Laze_CancelandForward_Training_Fetch)" Value="168054" />
+  <Preset Label="Speak (pet_Laze_CancelandForward_Training_Speak)" Value="168055" />
+  <Preset Label="Sit (pet_Laze_CancelandForward_Training_Sit)" Value="168056" />
+  <Preset Label="Practice Tricks (pet_Laze_CancelandForward_Training_PracticeTricks)" Value="168057" />
+  <Preset Label="Shake (pet_Laze_CancelandForward_Training_Shake)" Value="168058" />
+  <Preset Label="Follow (pet_Laze_CancelandForward_Training_Heel)" Value="168059" />
+  <Preset Label="Lie Down (pet_Laze_CancelandForward_Training_LieDown)" Value="168060" />
+  <Preset Label="Play Dead (pet_Laze_CancelandForward_Training_PlayDead)" Value="168061" />
+  <Preset Label="Roll Over (pet_Laze_CancelandForward_Training_RollOver)" Value="168062" />
+  <Preset Label="Add Stress (debug_addSickPetStress)" Value="168068" />
+  <Preset Label="Add Discovery Progress (debug_addSickPetDiscovery)" Value="168069" />
+  <Preset Label="Vet_Stand_NearObject" Value="168087" />
+  <Preset Label="Reduce Stress (debug_reduceSickPetStress)" Value="168105" />
+  <Preset Label="autonomousSimPicker_Vet_ExamineFirstWaitingPatient" Tags="TestUnsafe" Value="168144" />
+  <Preset Label="Change Outfit (changeOutfit_FromPicker_Pet)" Value="168148" />
+  <Preset Label="Go Over There (si_GoNearAttractorPoint_GoForJog)" Value="168155" />
+  <Preset Label="idle_Trait_pet_Child_excited" Value="168177" />
+  <Preset Label="Preventative Shot (vet_Examine_Treatment_PreventativeShot)" Tags="TestUnsafe" Value="168208" />
+  <Preset Label="Send Home (pet_Commands_GoHome)" Value="168215" />
+  <Preset Label="Hold Up Cuteness (mixerSocial_T_Pets_Friendly_HoldUp_Carrying_Child)" Value="168236" />
+  <Preset Label="Banter about Pet (vet_Greetings_Owner_Socials_Friendly_Banter)" Tags="TestUnsafe" Value="168251" />
+  <Preset Label="Express Love of Animals (vet_Greetings_Owner_Socials_Friendly_LoveOfAnimals)" Tags="TestUnsafe" Value="168252" />
+  <Preset Label="Criticize Pet (vet_Greetings_Owner_Socials_Mean_CriticizePet)" Tags="TestUnsafe" Value="168253" />
+  <Preset Label="Pet (vet_Greetings_Patient_Socials_Friendly_Pet)" Value="168254" />
+  <Preset Label="Call a Good Pet (vet_Greetings_Patient_Socials_Friendly_CallGood)" Value="168255" />
+  <Preset Label="Be Mean (vet_Greetings_Patient_Socials_Mean)" Value="168256" />
+  <Preset Label="Give All Misbehaviors (debug_Pets_Misbehaviors_GiveAll)" Value="168257" />
+  <Preset Label="Leash (walk_Dog_Leashed)" Value="168304" />
+  <Preset Label="simPicker_Owner_Sim_PickDogToWalk" Tags="TestUnsafe" Value="168318" />
+  <Preset Label="Pet (petSocials_SimToPet_Pet_Continuation_Vet)" Value="168374" />
+  <Preset Label="petInvestigate_Pet_Obsessed_Vocal" Value="168474" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Instrument_Vocal)" Value="168475" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Stereo_Vocal)" Value="168476" />
+  <Preset Label="Lecture about Eating Poop (discipline_Pets_EatPoop_Lecture)" Value="168480" />
+  <Preset Label="Scold for Eating Poop (discipline_Pets_EatPoop_Scold)" Value="168481" />
+  <Preset Label="Possess (Ghost_Pet_Possess)" Value="168502" />
+  <Preset Label="Bill Owner (Vet_Service_BillOwner)" Value="168503" />
+  <Preset Label="Vocal (pet_VocalTrait_Behavior)" Value="168509" />
+  <Preset Label="Hairy Idle Trigger (debug_PetTraits_Hairy_IdleTrigger)" Value="168511" />
+  <Preset Label="Vocal Idle (debug_PetTraits_Vocal_IdleTrigger)" Value="168513" />
+  <Preset Label="vetPodium_PetConstraint" Value="168538" />
+  <Preset Label="Train to Fetch (petPickerInteraction_ToyBallPet_OfferToTrain)" Tags="TestUnsafe" Value="168542" />
+  <Preset Label="Chat with Owner (debug_VetGoToOwner)" Value="168561" />
+  <Preset Label="Go to Pet (debug_VetGoToPet)" Value="168562" />
+  <Preset Label="Play Fetch With (petPickerInteraction_ToyBallPet_FetchBall)" Tags="TestUnsafe" Value="168577" />
+  <Preset Label="Hire Vet (ownableBusiness_Immediate_HireEmployee_Vet)" Value="168582" />
+  <Preset Label="mixerInteraction_Pets_Laze_Watch" Value="168597" />
+  <Preset Label="mixerInteraction_Pets_Laze_Groom_Dog" Value="168598" />
+  <Preset Label="mixerInteraction_Pets_Laze_Groom_Cat" Value="168599" />
+  <Preset Label="Watch (pet_Watch_Laze)" Value="168600" />
+  <Preset Label="Watch (pets_Watch_LazeOnObject)" Value="168601" />
+  <Preset Label="mixerInteraction_Pets_LazeOnObject_Watch" Value="168602" />
+  <Preset Label="simPicker_Pet_Watch_OnObject" Tags="TestUnsafe" Value="168603" />
+  <Preset Label="Play Fetch (social_Pet_Play_Fetch_BoredProtection_Setup)" Value="168618" />
+  <Preset Label="Demote Employee (ownableVetClinic_Employee_Career_Demote_Phone_Vet)" Value="168646" />
+  <Preset Label="Demote Employee (ownableVetClinic_Employee_Career_Demote_UI_Vet)" Value="168647" />
+  <Preset Label="Promote Employee (ownableVetClinic_Employee_Career_Promote_UI_Vet)" Value="168648" />
+  <Preset Label="Promote Employee (ownableVetClinic_Employee_Career_Promote_Phone_Vet)" Value="168649" />
+  <Preset Label="Demote to {2.String} ({3.Money}/hr) (vet_Employee_Socials_Demote)" Value="168656" />
+  <Preset Label="Promote to {2.String} ({3.Money}/hr) (vet_Employee_Socials_Promote)" Value="168674" />
+  <Preset Label="Fire (vet_Employee_Socials_Fire)" Value="168683" />
+  <Preset Label="Fire Employee (ownableVetClinic_Employee_Career_Fire_UI_Vet)" Value="168684" />
+  <Preset Label="Fire Employee (ownableVetClinic_Employee_Career_Fire_Phone_Vet)" Value="168689" />
+  <Preset Label="Get Comfortable (si_GetComfortable_DogLieDown)" Value="168727" />
+  <Preset Label="Get Comfortable (si_GetComfortable_CatLieDown)" Value="168729" />
+  <Preset Label="Get Comfortable (si_GetComfortable_CatSitDown)" Value="168746" />
+  <Preset Label="Wander (waypoint_Pets_Wander_Walkby)" Value="168753" />
+  <Preset Label="Check Up On (vet_Employee_Socials_CheckUpOn)" Value="168760" />
+  <Preset Label="autonomous_HunterTrait_SniffObject" Tags="TestUnsafe" Value="168782" />
+  <Preset Label="Investigate (pet_Investigate_Hunter_Objects_Dog)" Value="168783" />
+  <Preset Label="Investigate (pet_Investigate_Hunter_Objects_Cat)" Value="168785" />
+  <Preset Label="Fire_OnFire_passiveMixer_pet" Value="168792" />
+  <Preset Label="Administer Shot - Antiviral Payload (vet_Examine_Mixers_Treatment_Autonomous_Pill)" Tags="TestUnsafe" Value="168801" />
+  <Preset Label="Administer Shot - Antiviral Payload (vet_Examine_Mixers_Treatment_Autonomous_Shot)" Tags="TestUnsafe" Value="168802" />
+  <Preset Label="Administer Shot - Antiviral Payload (vet_Examine_Mixers_Treatment_Autonomous_Spray)" Tags="TestUnsafe" Value="168803" />
+  <Preset Label="Lay Here (petChild_LayDown_OnObjectPart)" Value="168817" />
+  <Preset Label="Go Downstairs (lighthouse_GoDownstairs_si)" Value="168824" />
+  <Preset Label="Go Upstairs (lighthouse_GoUpstairs_si)" Value="168825" />
+  <Preset Label="Lay Here (petLargeDog_LayDown_OnObjectPart)" Value="168882" />
+  <Preset Label="Lay Here (petSmall_LayDown_OnObjectPart)" Value="168883" />
+  <Preset Label="Hunter (pet_HunterTrait_Behavior)" Value="168963" />
+  <Preset Label="vetExamSummary_treatmentPicker" Tags="TestUnsafe" Value="169018" />
+  <Preset Label="emotion_Idle_Pet_Looping_InHeat_Whine" Value="169021" />
+  <Preset Label="emotion_Idle_Pet_InHeat_Howl" Value="169022" />
+  <Preset Label="Feed (petBowl_FeedPet_Target)" Value="169040" />
+  <Preset Label="petOwner_stayNearPet" Value="169042" />
+  <Preset Label="Preventative Shot (vet_Surgery_Treatments_CompleteScans)" Tags="TestUnsafe" Value="169082" />
+  <Preset Label="End Scans (vet_Surgery_EndScans)" Tags="TestUnsafe" Value="169083" />
+  <Preset Label="Fill and Call Pet (petBowl_CallPet_Dog_FromFeedPet)" Value="169095" />
+  <Preset Label="Fill and Call Pet (petBowl_CallPet_Cat_FromFeedPet)" Value="169096" />
+  <Preset Label="Fill and Call Pet (petBowl_RefillFromPicker_Cat_FromFeedPet)" Value="169097" />
+  <Preset Label="Fill and Call Pet (petBowl_RefillFromPicker_Dog_FromFeedPet)" Value="169099" />
+  <Preset Label="Greet Patient Impatiently (vet_Patient_Greetings_Owner_Impatiently)" Value="169104" />
+  <Preset Label="Greet Patient (vet_Patient_Greetings_Owner_Neutral)" Value="169105" />
+  <Preset Label="Greet Patient Warmly (vet_Patient_Greetings_Owner_Warmly)" Value="169106" />
+  <Preset Label="Carry Crate to Front Door (petCare_CreateCrate_InsideFrontDoor)" Value="169115" />
+  <Preset Label="Eat (consumable_PetBowl_KittenEat)" Value="169117" />
+  <Preset Label="React to Exam (reaction_Mixer_Vet_PetOwner_ExamFailure)" Value="169137" />
+  <Preset Label="React to Exam (reaction_Mixer_Vet_PetOwner_ExamSuccess)" Value="169138" />
+  <Preset Label="React to Exam (reaction_Mixer_Vet_PetOwner_ExamShocked)" Value="169139" />
+  <Preset Label="Fill Bowl (petBowl_FeedPet_FindBowl)" Value="169140" />
+  <Preset Label="Soothe Pet (vet_Examine_SoothePet)" Tags="TestUnsafe" Value="169145" />
+  <Preset Label="Adopt (petSocial_SimToPet_Hug_Adopt_LargePet)" Value="169149" />
+  <Preset Label="Sign in for a Checkup (simPickerInteraction_Podium_Player_PetOwner_CheckUpPet)" Tags="TestUnsafe" Value="169175" />
+  <Preset Label="Adopt (petSocials_SimToPet_Hug_Adopt_SmallPet)" Value="169182" />
+  <Preset Label="Eat (consumable_PetBowl_SmallDogEat)" Value="169185" />
+  <Preset Label="Careers (vetPodium_DebugCreateArrivalSituation_Continuation)" Value="169188" />
+  <Preset Label="Sign In (vetPodium_Player_PetOwner_CheckUpPet_Continuation)" Value="169189" />
+  <Preset Label="Barfing (pet_Sickness_CriticalFail_Barf)" Value="169192" />
+  <Preset Label="Watch (petOwner_WatchPet)" Value="169235" />
+  <Preset Label="pregnancy_petCat_startshowing" Value="169236" />
+  <Preset Label="pregnancy_petDog_startshowing" Value="169240" />
+  <Preset Label="Introduction (socials_PetToSim_Introduction_Mean_Continuation)" Value="169269" />
+  <Preset Label="Hunter Trait Idle (debug_PetTraits_Hunter_IdleTrigger)" Value="169277" />
+  <Preset Label="Nuzzle (petSocial_PetToPet_Nuzzle_Pushed)" Value="169283" />
+  <Preset Label="Attack {1.SimFirstName} (petSocials_PetToPet_Attack_Pushed)" Value="169285" />
+  <Preset Label="Growl At (petSocials_Dog_GrowlAt_Pushed)" Value="169287" />
+  <Preset Label="idle_Pet_genericMotiveDistress_anxious" Value="169290" />
+  <Preset Label="Bill Owner (Vet_Pet_BillOwner)" Value="169291" />
+  <Preset Label="Return to Lot (pet_HunterTrait_OpenStreet_Return)" Value="169312" />
+  <Preset Label="End Adoption Evaluation (adoption_officer_End_Evaluation)" Value="169317" />
+  <Preset Label="Setup Exam (debug_setupExam)" Value="169331" />
+  <Preset Label="Investigate (pet_Investigate_Hunter_FishingLocation_Pet)" Value="169347" />
+  <Preset Label="autonomous_HunterTrait_InvestigateFishingLocation" Tags="TestUnsafe" Value="169348" />
+  <Preset Label="End Adoption Evaluation (ask_toLeaveLot_HiredNPC_AdoptionOfficer)" Value="169371" />
+  <Preset Label="idle_Buff_PetSickness_Whine_Cat" Value="169372" />
+  <Preset Label="Drool (pet_Sickness_CriticalFail_DroolingGreenGoo)" Value="169376" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_EatPoop)" Value="169423" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_PottyTraining)" Value="169424" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_PuddlesDrink)" Value="169425" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_Attack)" Value="169426" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_BegForFood)" Value="169429" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_TrashPilePlay)" Value="169430" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_TrashPileEat)" Value="169431" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_Scratching)" Value="169432" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_PuddlesPlay)" Value="169433" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_ToiletDrink)" Value="169434" />
+  <Preset Label="pets_encourageMate_continuation" Value="169457" />
+  <Preset Label="Stay Near Podium (vetPodium_Customer_StandNearPodium_Autonomous)" Value="169458" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_Barking)" Value="169463" />
+  <Preset Label="Go to Adoption Officer (petCare_Pet_RouteToCrate_SpawnPoint)" Value="169467" />
+  <Preset Label="idle_Buff_Pet_Pregnant_Vomit_Cat" Value="169470" />
+  <Preset Label="idle_Buff_Pet_Pregnant_Vomit_Dog" Value="169472" />
+  <Preset Label="In Labor Pacing (waypoint_MoveAround_Pregnancy_Pacing)" Value="169473" />
+  <Preset Label="Sit on Exam Table (generic_ExamTable_PetSit_SmallDog)" Value="169485" />
+  <Preset Label="idle_Buff_PetSickness_Symptom_DroolNoPuddle" Value="169509" />
+  <Preset Label="Get Toy For... (petToyBox_GetRandomToy_picker_OfferBall)" Tags="TestUnsafe" Value="169511" />
+  <Preset Label="Give Ball To (petPickerInteraction_ToyBallPet_OfferToPlay_toybox)" Tags="TestUnsafe" Value="169534" />
+  <Preset Label="Complain about Being Dirty (sim_Dog_HygieneDistress)" Value="169544" />
+  <Preset Label="idle_Buff_PetSickness_Symptom_StinkyItchyFur" Value="169560" />
+  <Preset Label="Drink_Active_Pet" Value="169567" />
+  <Preset Label="food_Eat_Active_Pets_Plate" Value="169572" />
+  <Preset Label="Pass Out (pet_Sickness_PassOut)" Value="169598" />
+  <Preset Label="Chase Tail (pet_Sickness_ChaseTail)" Value="169599" />
+  <Preset Label="idle_Buff_PetSickness_Symptom_CriticalFleas" Value="169600" />
+  <Preset Label="Basic Treatment (vet_Player_PetOwner_TreatmentSelections_DeductCheapPayment)" Value="169603" />
+  <Preset Label="Procedure (vet_Surgery_Mixers_Surgery_Cuteness)" Tags="TestUnsafe" Value="169608" />
+  <Preset Label="Procedure (vet_Surgery_Mixers_Surgery_Mouth)" Tags="TestUnsafe" Value="169609" />
+  <Preset Label="Procedure (vet_Surgery_Mixers_Surgery_Nose)" Tags="TestUnsafe" Value="169610" />
+  <Preset Label="Procedure (vet_Surgery_Mixers_Surgery_Stomach)" Tags="TestUnsafe" Value="169611" />
+  <Preset Label="Procedure (vet_Surgery_Mixers_Surgery_Tail)" Tags="TestUnsafe" Value="169612" />
+  <Preset Label="Expensive Treatment (vet_Player_PetOwner_TreatmentSelections_DeductExpensivePayment)" Value="169615" />
+  <Preset Label="vetExamSummary_CheckUp" Tags="TestUnsafe" Value="169629" />
+  <Preset Label="Run Around (waypoint_RunAround_Sickness_HotFeet)" Value="169644" />
+  <Preset Label="idle_Buff_PetSickness_Symptom_ExtremeLethargy" Value="169649" />
+  <Preset Label="Spay (vet_Surgery_Spay)" Tags="TestUnsafe" Value="169670" />
+  <Preset Label="Unspay (vet_Surgery_UnSpay)" Tags="TestUnsafe" Value="169671" />
+  <Preset Label="Preventative Shot (vet_Player_PetOwner_TreatmentSelections_DeductPreventativeShotPayment)" Value="169676" />
+  <Preset Label="Administer Shot - Antiviral Payload (vet_Examine_Mixers_Treatment_Autonomous_CureSicknessPicker)" Tags="TestUnsafe" Value="169680" />
+  <Preset Label="Administer Shot - Antiviral Payload (vet_Examine_Mixers_Treatment_Autonomous_CheckUpPicker)" Tags="TestUnsafe" Value="169682" />
+  <Preset Label="Administer Shot - Antiviral Payload (vet_Examine_Mixers_Treatment_Autonomous_ApplyPreventativeShot)" Tags="TestUnsafe" Value="169683" />
+  <Preset Label="Administer Shot - Antiviral Payload (vet_Examine_Mixers_Treatment_Autonomous_ApplyCureSickness)" Tags="TestUnsafe" Value="169687" />
+  <Preset Label="Administer Shot - Antiviral Payload (vet_Examine_Mixers_Treatment_Autonomous_ApplyCheapTreatment)" Tags="TestUnsafe" Value="169688" />
+  <Preset Label="Sign In (vetPodium_Player_PetOwner_CureSickness_Continuation)" Value="169707" />
+  <Preset Label="Sign in to Cure Sickness (simPickerInteraction_Podium_Player_PetOwner_CureSickness)" Tags="TestUnsafe" Value="169726" />
+  <Preset Label="Put Pet Up For Adoption (phone_Picker_Pet_PutUpForAdoption)" Tags="TestUnsafe" Value="169729" />
+  <Preset Label="Sell Pet (phone_Picker_Pet_SellPet)" Tags="TestUnsafe" Value="169730" />
+  <Preset Label="vetExamSummary_Surgery_CheckUp" Tags="TestUnsafe" Value="169786" />
+  <Preset Label="vetExamSummary_Surgery_CureSickness" Tags="TestUnsafe" Value="169787" />
+  <Preset Label="Procedure (vet_Surgery_Mixers_Surgery_Autonomous_CheckUpPicker)" Tags="TestUnsafe" Value="169794" />
+  <Preset Label="Sell Pet (sell_GiveUp_Pet_Sale_Continuation_child)" Value="169796" />
+  <Preset Label="Procedure (vet_Surgery_Mixers_Surgery_Autonomous_CureSicknessPicker)" Tags="TestUnsafe" Value="169797" />
+  <Preset Label="Procedure (vet_Surgery_Mixers_Surgery_Autonomous_ApplyCheapTreatment)" Tags="TestUnsafe" Value="169798" />
+  <Preset Label="Procedure (vet_Surgery_Mixers_Surgery_Autonomous_ApplyCureSickness)" Tags="TestUnsafe" Value="169799" />
+  <Preset Label="Procedure (vet_Surgery_Mixers_Surgery_Autonomous_ApplyPreventativeShot)" Tags="TestUnsafe" Value="169802" />
+  <Preset Label="Bladder Failure (sim_Dog_BladderFailure_Outside)" Value="169809" />
+  <Preset Label="Bowel Failure (sim_Dog_BowelFailure_Outside)" Value="169811" />
+  <Preset Label="Be Sold (death_Pet_AnimalCareWorker_AdoptedOrSold)" Value="169818" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_Dockyard)" Value="169831" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_Dockyard_review_CriticCareer)" Value="169832" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_DailyCatch)" Value="169833" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_SquareSnacks)" Value="169834" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_SquareSnacks)" Value="169835" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Dockyard)" Value="169836" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_SquareSnacks)" Value="169837" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_SquareSnacks_review_CriticCareer)" Value="169841" />
+  <Preset Label="Sign in for Spay/Neuter (simPickerInteraction_Podium_Player_PetOwner_SpayPet)" Tags="TestUnsafe" Value="169868" />
+  <Preset Label="Sign in for Unspay/Unneuter (simPickerInteraction_Podium_Player_PetOwner_UnSpayPet)" Tags="TestUnsafe" Value="169869" />
+  <Preset Label="Put Pet Up For Adoption (sell_GiveUp_Pet_Adopt_Continuation)" Value="169889" />
+  <Preset Label="Sign In (vetPodium_Player_PetOwner_Spay_Continuation)" Value="169895" />
+  <Preset Label="Bladder Failure (sim_Cat_BladderFailure_Outside)" Value="169902" />
+  <Preset Label="Bowel Failure (sim_Cat_BowelFailure_Outside)" Value="169903" />
+  <Preset Label="Procedure (vet_Surgery_SpayUnSpay_Autonomous_Spay)" Tags="TestUnsafe" Value="169910" />
+  <Preset Label="Sign In (vetPodium_Player_PetOwner_UnSpay_Continuation)" Value="169911" />
+  <Preset Label="Procedure (vet_Surgery_SpayUnSpay_Autonomous_UnSpay)" Tags="TestUnsafe" Value="169912" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_Dockyard)" Value="169918" />
+  <Preset Label="Stressed (idle_Buff_Stress_Low)" Value="169929" />
+  <Preset Label="Stressed (idle_Buff_Stress_Mid)" Value="169930" />
+  <Preset Label="Stressed (idle_Buff_Stress_High)" Value="169931" />
+  <Preset Label="Buy Daily Catch... (marketStalls_ShopFor_DailyCatch)" Value="169936" />
+  <Preset Label="Daily Catch (purchase_MarketStalls_DailyCatch)" Tags="TestUnsafe" Value="169941" />
+  <Preset Label="Wait Near Food Bowl (petBowl_WaitNearby_Cat_Reserve)" Value="169944" />
+  <Preset Label="Wait Near Food Bowl (petBowl_WaitNearby_Dog_Reserve)" Value="169946" />
+  <Preset Label="Adopt (petSocial_SimToPet_Hug_Adopt_LargePet_Stray)" Value="169949" />
+  <Preset Label="Adopt (petSocials_SimToPet_Hug_Adopt_SmallPet_Stray)" Value="169950" />
+  <Preset Label="Pet Supplies (purchase_MarketStalls_Dockyard)" Tags="TestUnsafe" Value="169953" />
+  <Preset Label="Buy Pet Supplies... (marketStalls_ShopFor_SquareSnacks)" Value="169954" />
+  <Preset Label="Review Drink (marketStalls_pushOrderDrink_SquareSnacks_review_CriticCareer)" Value="169955" />
+  <Preset Label="Order Drink (marketStalls_pushOrderDrink_SquareSnacks)" Value="169961" />
+  <Preset Label="Play (toyboxPet_RouteAway)" Value="169980" />
+  <Preset Label="Buy Pet Supplies... (marketStalls_ShopFor_Dockyard)" Value="169990" />
+  <Preset Label="Pet Supplies (purchase_MarketStalls_SquareSnacks)" Tags="TestUnsafe" Value="169994" />
+  <Preset Label="Change into Vet Uniform (changeOutfit_Vet_Owner)" Value="170008" />
+  <Preset Label="Drink (drink_Cider_Generic_Consume)" Value="170012" />
+  <Preset Label="debugInteractionPicker" Tags="TestUnsafe" Value="170016" />
+  <Preset Label="Training (petSocials_Dog_TrainingTricks_ShowOffTricks)" Value="170023" />
+  <Preset Label="mixer_Dog_Training_Human_ShowOffTricks" Tags="TestUnsafe" Value="170024" />
+  <Preset Label="mixers_Dog_Training_Dog_ShowOffTricks_Speak" Tags="TestUnsafe" Value="170026" />
+  <Preset Label="mixers_Dog_Training_Dog_ShowOffTricks_Sit" Tags="TestUnsafe" Value="170027" />
+  <Preset Label="mixers_Dog_Training_Dog_ShowOffTricks_LieDown" Tags="TestUnsafe" Value="170028" />
+  <Preset Label="mixers_Dog_Training_Dog_ShowOffTricks_RollOver" Tags="TestUnsafe" Value="170029" />
+  <Preset Label="mixers_Dog_Training_Dog_ShowOffTricks_PlayDead" Tags="TestUnsafe" Value="170030" />
+  <Preset Label="Teleport to Active Sim (debug_Pets_TeleportToActiveSim)" Value="170032" />
+  <Preset Label="Order Drink (marketStalls_PushOrderDrink_Autonomous_SquareSnacks)" Value="170033" />
+  <Preset Label="Make Spoiled (cheat_MakeSpoiled_PetBowl)" Value="170063" />
+  <Preset Label="Make Fresh (cheat_MakeFresh_PetBowl)" Value="170064" />
+  <Preset Label="Initiate Hug from {1.SimFirstName} (petSocials_PetToSim_Initiate_HugPet_PetIntimate)" Value="170087" />
+  <Preset Label="Let Lick Face (petSocials_PetToSim_Initiate_LickFace_PetIntimate)" Value="170088" />
+  <Preset Label="Initiate Pet from {1.SimFirstName} (petSocials_PetToSim_Initiate_PetPet_PetIntimate)" Value="170089" />
+  <Preset Label="Play With Pet Toy (autonomous_petOwner_toybox_play_picker)" Tags="TestUnsafe" Value="170096" />
+  <Preset Label="Put Toys Out (toyboxPet_PetOwner_RouteAway)" Value="170097" />
+  <Preset Label="idle_Buff_PetSickness_Whine_Dog" Value="170123" />
+  <Preset Label="Put Down {1.SimFirstName} (mixerSocial_Carry_Pets_PutDown)" Value="170153" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_dog_puppy)" Value="170182" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_smalldog)" Value="170183" />
+  <Preset Label="aggregateSI_Generic_Consume_Dog" Value="170187" />
+  <Preset Label="Take to Vet Clinic (mixerSocial_NT_Pets_Friendly_TakeToVetClinic)" Tags="TestUnsafe" Value="170195" />
+  <Preset Label="Babble (socials_Toddler_BabbleToPet)" Tags="TestUnsafe" Value="170238" />
+  <Preset Label="Run Obstacle Course with (petPickerInteraction_PetObstacleCourse)" Tags="TestUnsafe" Value="170240" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_kitten)" Value="170264" />
+  <Preset Label="aggregateSI_Generic_Consume_Cat" Value="170265" />
+  <Preset Label="Go Potty (pet_PeePoopInteraction_Dog_Command_TargetDog)" Value="170270" />
+  <Preset Label="Fetch Ball (toyBallPet_WaitForThrow_Training_AngryReaction)" Value="170293" />
+  <Preset Label="Train Fetch (toyBallPet_Dog_Fetch_Train_FromWhine)" Value="170296" />
+  <Preset Label="Call Over (petObstacleCourse_PetOwner_CallPet)" Value="170298" />
+  <Preset Label="Finished (petObstacleCourse_Pet_FinishCourse)" Value="170299" />
+  <Preset Label="Guide Through Obstacle Course (petObstacleCourse_PetOwner_WatchPet)" Value="170301" />
+  <Preset Label="Perform Routine (petObstacleCourse_Hoop_Jump)" Value="170303" />
+  <Preset Label="Perform Routine (petObstacleCourse_WeavingFlags_Slalom)" Value="170304" />
+  <Preset Label="Perform Routine (petObstacleCourse_Tunnel_GoThrough)" Value="170305" />
+  <Preset Label="Perform Routine (petObstacleCourse_Ramp_GoOver)" Value="170306" />
+  <Preset Label="Perform Routine (petObstacleCourse_Platform_JumpTo)" Value="170307" />
+  <Preset Label="Call to Drink (petRecipe_CallPet_CatToDrink)" Value="170320" />
+  <Preset Label="Give Ball To (toyBallPet_OfferBall_toddler)" Value="170324" />
+  <Preset Label="Play with Cat Wand (petSocials_SimToPet_CatsOnly_CatWand_Success)" Value="170362" />
+  <Preset Label="Play with Cat Wand (petSocials_SimToPet_CatsOnly_CatWand_Failure)" Value="170365" />
+  <Preset Label="Hug (petSocials_SimToPet_PetIntimate_Hug_Pushed)" Value="170366" />
+  <Preset Label="Kiss (petSocials_SimToPet_PetIntimate_Kiss_Pushed)" Value="170367" />
+  <Preset Label="Pet (petSocials_SimToPet_PetIntimate_PetPet_Pushed)" Value="170368" />
+  <Preset Label="Play with Cat Wand (cat_CatWand_picker)" Tags="TestUnsafe" Value="170373" />
+  <Preset Label="petBowl_DropBowl" Value="170389" />
+  <Preset Label="Repair Cat Wand (pet_CatWand_Human_Repair_Regular)" Value="170399" />
+  <Preset Label="Repair Cat Wand (pet_CatWand_Human_Repair_Rainbow)" Value="170400" />
+  <Preset Label="Fill Bowl (petBowl_TellToDrop)" Value="170402" />
+  <Preset Label="Simstagram Pet (simPicker_Photography_SimstagramPet_CellPhone)" Tags="TestUnsafe" Value="170411" />
+  <Preset Label="Simstagram Pet (simPicker_Photography_SimstagramPet_Cheap)" Tags="TestUnsafe" Value="170412" />
+  <Preset Label="Simstagram Pet (simPicker_Photography_SimstagramPet_Expensive)" Tags="TestUnsafe" Value="170413" />
+  <Preset Label="Simstagram Pet (simPicker_Photography_SimstagramPet_Moderate)" Tags="TestUnsafe" Value="170414" />
+  <Preset Label="Simstagram Pet (SI_Photography_SimstagramPet_CellPhone)" Value="170421" />
+  <Preset Label="Simstagram Pet (SI_Photography_SimstagramPet_Cheap)" Value="170422" />
+  <Preset Label="Simstagram Pet (SI_Photography_SimstagramPet_Expensive)" Value="170423" />
+  <Preset Label="Simstagram Pet (SI_Photography_SimstagramPet_Moderate)" Value="170424" />
+  <Preset Label="Cook Homestyle Pet Recipe For (simPicker_MakeFoodForPet_HomeStyle)" Tags="TestUnsafe" Value="170427" />
+  <Preset Label="Cook Gourmet Pet Recipe For (simPicker_MakeFoodForPet_Gourmet)" Tags="TestUnsafe" Value="170429" />
+  <Preset Label="Watch (watchForMotive_Laserpointer)" Value="170436" />
+  <Preset Label="Cook Homestyle Pet Recipe For (petRecipes_StartCrafting_ForPickedPet_HomeStyle)" Value="170438" />
+  <Preset Label="Cook Gourmet Pet Recipe For (petRecipes_StartCrafting_ForPickedPet_Gourmet)" Value="170439" />
+  <Preset Label="Waiting in Line (pets_Social_MakeForPet_WaitForPetRecipeFood)" Value="170452" />
+  <Preset Label="Buy a Vet Clinic (phone_BuyVetLot)" Value="170461" />
+  <Preset Label="Buy a Vet Clinic (vet_BuyVetClinic)" Tags="TestUnsafe" Value="170462" />
+  <Preset Label="Vet_SetClinicLotOwner" Value="170463" />
+  <Preset Label="Buy a Vet Clinic (computer_BuyOwnableVetClinic)" Value="170464" />
+  <Preset Label="Buy a Vet Clinic (map_Picker_BuyOwnableVetClinic)" Tags="TestUnsafe" Value="170465" />
+  <Preset Label="Waiting in Line (pets_Social_MakeForPet_WaitForPetRecipeFoodNearCook)" Value="170470" />
+  <Preset Label="Put Pet Up For Adoption (computer_Picker_PutPetUpForAdoption)" Tags="TestUnsafe" Value="170471" />
+  <Preset Label="Check Simstagram Followers (computer_CheckSimstagramAccount)" Value="170485" />
+  <Preset Label="Check Simstagram Followers (computer_Picker_Pet_CheckSimstagramAccount)" Tags="TestUnsafe" Value="170486" />
+  <Preset Label="reaction_Obsess_Cat_Hyper" Value="170504" />
+  <Preset Label="reaction_Obsess_Cat_Happy" Value="170505" />
+  <Preset Label="reaction_Obsess_Cat_Curious" Value="170506" />
+  <Preset Label="reaction_Obsess_Dog_Happy" Value="170507" />
+  <Preset Label="reaction_Obsess_Dog_Excited" Value="170508" />
+  <Preset Label="Extract Plasma Pack (vet_Surgery_ExtractPlasmaPack)" Tags="TestUnsafe" Value="170511" />
+  <Preset Label="Sell Pet (computer_Picker_SellPet)" Tags="TestUnsafe" Value="170513" />
+  <Preset Label="Put Pet Up For Adoption (computer_Pets_Adoption_PutPetUpForAdoption)" Value="170520" />
+  <Preset Label="Sell Pet (computer_Pets_Adoption_SellPet)" Value="170521" />
+  <Preset Label="Fill and Call Pet (petBowl_CallPet_Cat_FromFillnCall)" Value="170527" />
+  <Preset Label="Fill and Call Pet (petBowl_CallPet_Dog_FromFillnCall)" Value="170529" />
+  <Preset Label="death_Pet_AnimalCareWorker_NotAdopted" Value="170553" />
+  <Preset Label="Empty Bowl (Pet_PetBowl_EmptyBowl_Continuation)" Value="170557" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Relax_Generic)" Value="170611" />
+  <Preset Label="Give Treat (dog_GiveTreat_picker)" Tags="TestUnsafe" Value="170613" />
+  <Preset Label="Give Treat (petSocials_SimToPet_GiveTreat_PetTreat)" Value="170628" />
+  <Preset Label="Eat Something (food_Consume_Pet_EatTreat)" Value="170671" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Relax_Stereo)" Value="170675" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Relax_InUse)" Value="170676" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Relax_TV)" Value="170677" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Relax)" Value="170678" />
+  <Preset Label="Swim (dog_swim)" Value="170682" />
+  <Preset Label="Lecture about Eating People Food (discipline_SSI_Pets_EatPeopleFood_Lecture)" Value="170701" />
+  <Preset Label="Scold for Eating People Food (discipline_SSI_Pets_EatPeopleFood_Scold)" Value="170702" />
+  <Preset Label="Lecture about Jumping Up on Counters (Lecturediscipline_SSI_Pets_JumpOnCountersCat_Lecture)" Value="170703" />
+  <Preset Label="Scold for Jumping Up on Counters (discipline_SSI_Pets_JumpOnCountersCat_Scold)" Value="170704" />
+  <Preset Label="Lecture about Jumping On Counters (discipline_SSI_Pets_JumpOnCountersDog_Lecture)" Value="170705" />
+  <Preset Label="Scold for Jumping on Counters (discipline_SSI_Pets_JumpOnCountersDog_Scold)" Value="170706" />
+  <Preset Label="Lecture about Waking Up Sims (discipline_SSI_Pets_WakeUpSims_Lecture)" Value="170707" />
+  <Preset Label="Scold for Waking Up Sims (discipline_SSI_Pets_WakeUpSims_Scold)" Value="170708" />
+  <Preset Label="Sit (seating_Sit_Cat_RobotVacuum)" Value="170754" />
+  <Preset Label="Perform Routine (petObstacleCourse_Pet_RunObstacle)" Value="170767" />
+  <Preset Label="Feel The Love (+100 ◊) (petSocial_SimToPet_Kiss_FeelTheLove_LargePet)" Value="170789" />
+  <Preset Label="Feel The Love (+100 ◊) (petSocial_SimToPet_Kiss_FeelTheLove_SmallPet)" Value="170790" />
+  <Preset Label="Light on Fire (PetObstacleCourse_Hoop_FireToggle)" Value="170811" />
+  <Preset Label="Fill All Pet Bowls (petBowl_FillAll_Ground)" Value="170840" />
+  <Preset Label="Feel The Love (+100 ◊) (petSocials_SimToPet_PetIntimate_Kiss_FeelTheLove)" Value="170857" />
+  <Preset Label="Come Sit (pet_Command_CallToSit)" Value="170873" />
+  <Preset Label="Potty Dance (dog_Spin_BowelDistress)" Value="170900" />
+  <Preset Label="petSocials_PetToPet_Pounce_Friendly" Value="170907" />
+  <Preset Label="Potty Dance (dog_Spin_BladderDistress)" Value="170911" />
+  <Preset Label="petSocials_PetToPet_Pounce_Hostile" Value="170924" />
+  <Preset Label="Go to Pet Care Worker (petCare_Pet_RouteToCrate_Dogs)" Value="170952" />
+  <Preset Label="Laze (pet_Laze_Near_Dog)" Value="170957" />
+  <Preset Label="Sleep (pet_Sleep_LeftAtHome_Near_Cat)" Value="170960" />
+  <Preset Label="Sleep (pet_Sleep_LeftAtHome_Cat)" Value="170962" />
+  <Preset Label="Sleep (pet_Sleep_LeftAtHome_Dog)" Value="170963" />
+  <Preset Label="Sleep (petChild_Sleep_LeftAtHome_OnObject)" Value="170965" />
+  <Preset Label="Sleep (petLarge_Sleep_LeftAtHome_OnObject)" Value="170966" />
+  <Preset Label="Sleep (petSmall_Sleep_LeftAtHome_OnObject)" Value="170967" />
+  <Preset Label="Sleep (petChild_Sleep_LeftAtHome_OnObject_Preferred)" Value="170969" />
+  <Preset Label="Sleep (petLarge_Sleep_LeftAtHome_OnObject_Preferred)" Value="170970" />
+  <Preset Label="Sleep (petSmall_Sleep_LeftAtHome_OnObject_Preferred)" Value="170971" />
+  <Preset Label="autonomous_ObjectPicker_PetCat_Sleep_LeftAtHome_NearObject" Tags="TestUnsafe" Value="170976" />
+  <Preset Label="autonomous_ObjectPicker_PetCat_Sleep_LeftAtHome_OnObject" Tags="TestUnsafe" Value="170977" />
+  <Preset Label="autonomous_ObjectPicker_PetDog_Sleep_LeftAtHome_OnObject" Tags="TestUnsafe" Value="170978" />
+  <Preset Label="autonomous_ObjectPicker_Pet_Sleep_LeftAtHome_Preferred" Tags="TestUnsafe" Value="170979" />
+  <Preset Label="simPicker_Pet_Laze_NearOwner_Dog" Tags="TestUnsafe" Value="170980" />
+  <Preset Label="Nap (pet_Nap_Near_Dog)" Value="171004" />
+  <Preset Label="simPicker_Pet_Nap_NearOwner_Dog" Tags="TestUnsafe" Value="171005" />
+  <Preset Label="Hunt Mice (pet_Cat_MouseHole_Hunt)" Value="171009" />
+  <Preset Label="Place Trap (object_Repair_Buy_Mousehole)" Value="171012" />
+  <Preset Label="Craft (VetMedicineStation_StartCrafting_ExamTable)" Value="171031" />
+  <Preset Label="Stop (robotVacuum_RoutingBehavior_Stop)" Value="171043" />
+  <Preset Label="Scan (robotVacuum_RoutingBehavior_Scan)" Value="171044" />
+  <Preset Label="vetMedicineStation_CreateItem" Value="171052" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient" Value="171054" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical" Value="171060" />
+  <Preset Label="food_Eat_Active_Pets_Bowl" Value="171063" />
+  <Preset Label="food_Eat_Active_Pets_Plate_Multi" Value="171064" />
+  <Preset Label="vetMedicineStation_Staging_Item" Value="171065" />
+  <Preset Label="food_Eat_Active_Pets_Bowl_Multi" Value="171066" />
+  <Preset Label="food_Eat_Active_Pets_Ico_Small" Value="171069" />
+  <Preset Label="Open Seed Packet (gardening_OpenSeedPacket_StarterPacked_Catnip)" Value="171073" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_cat_multi)" Value="171093" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_dog_multi)" Value="171113" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_smalldog_multi)" Value="171115" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase" Value="171117" />
+  <Preset Label="Give Catnip Treat (cat_GiveCatnip_picker)" Tags="TestUnsafe" Value="171123" />
+  <Preset Label="Give Catnip Treat (petSocial_SimToPet_Cat_GiveCatnip)" Value="171125" />
+  <Preset Label="Welcome Wagon  (PetSocials_PetToSim_Greetings_PetOwnerReturns)" Value="171133" />
+  <Preset Label="Repair (object_Repair_SurgeryStation)" Value="171134" />
+  <Preset Label="vetMedicineStation_Crafting_CreateItem" Value="171143" />
+  <Preset Label="Carry Crate to Front Door (petCare_CreateCrate_NearPet)" Value="171149" />
+  <Preset Label="autonomousSimPicker_FindCrateTarget" Tags="TestUnsafe" Value="171162" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_cat_ico)" Value="171163" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_smalldog_ico)" Value="171165" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_dog_ico)" Value="171167" />
+  <Preset Label="Pounce (petSocials_PetToPet_Pounce_Stalker)" Value="171191" />
+  <Preset Label="Pounce (petSocials_PetToPet_Pounce_Prey)" Value="171192" />
+  <Preset Label="food_Eat_Active_Pets_Ico_Large" Value="171272" />
+  <Preset Label="Pamper on Couch (petSocials_SimToPet_PetIntimate_Pamper_SmallPet)" Value="171276" />
+  <Preset Label="Play (petSocial_SimToPet_PlayWrestle_Loop)" Value="171279" />
+  <Preset Label="Hide (pet_Cower_LargeDog_Self)" Value="171281" />
+  <Preset Label="Sniff Butts (petSocial_DogToDog_ButtSniff)" Value="171285" />
+  <Preset Label="Sleep (pet_Sleep_Aggregate_LeftAtHome_Loyal)" Value="171287" />
+  <Preset Label="pet_Sleep_Aggregate_LeftAtHome_Selection" Value="171288" />
+  <Preset Label="simPicker_Pet_Sleep_NearOwner_LeftAtHome" Tags="TestUnsafe" Value="171290" />
+  <Preset Label="Equip Turbo-Charge (robotVacuum_Upgrade_Faster)" Value="171298" />
+  <Preset Label="Resume equipping Turbo-Charge (robotVacuum_Upgrade_Faster_resume)" Value="171299" />
+  <Preset Label="Employ Nanotech Diagnostics (robotVacuum_Upgrade_LockBrokenness)" Value="171300" />
+  <Preset Label="Resume employing Nanotech Diagnostics (robotVacuum_Upgrade_LockBrokenness_resume)" Value="171301" />
+  <Preset Label="Add Gizmo Redundancy (robotVacuum_Upgrade_LowerBrokenness)" Value="171302" />
+  <Preset Label="Resume adding Gizmo Redundancy (robotVacuum_Upgrade_LowerBrokenness_resume)" Value="171303" />
+  <Preset Label="Add Gyro-Compactor (robotVacuum_Upgrade_MoreStorage)" Value="171304" />
+  <Preset Label="Resume adding Gyro-Compactor (robotVacuum_Upgrade_MoreStorage_resume)" Value="171305" />
+  <Preset Label="Install Sonic Dampeners (robotVacuum_Upgrade_Quiet)" Value="171306" />
+  <Preset Label="Resume installing Sonic Dampeners (robotVacuum_Upgrade_Quiet_resume)" Value="171307" />
+  <Preset Label="Waterproof Mechanisms (robotVacuum_Upgrade_WetVac)" Value="171310" />
+  <Preset Label="Resume Waterproofing Mechanisms (robotVacuum_Upgrade_WetVac_resume)" Value="171311" />
+  <Preset Label="Turbo-Charge (Completed) (RobotVacuum_Upgrade_Faster_display)" Value="171312" />
+  <Preset Label="Waterproof Mechanisms (Completed) (RobotVacuum_Upgrade_WetVac_display)" Value="171313" />
+  <Preset Label="Sonic Dampeners (Completed) (RobotVacuum_Upgrade_Quiet_display)" Value="171315" />
+  <Preset Label="Nanotech Diagnostics (RobotVacuum_Upgrade_LockBrokenness_display)" Value="171316" />
+  <Preset Label="Gizmo Redundancy (Completed) (RobotVacuum_Upgrade_LowerBrokenness_display)" Value="171317" />
+  <Preset Label="Gyro-Compactor (Completed) (RobotVacuum_Upgrade_MoreStorage_display)" Value="171318" />
+  <Preset Label="autonomous_Generic_Obsession_RobotVacuum" Tags="TestUnsafe" Value="171330" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_RobotVacuum)" Value="171331" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_RobotVacuum)" Value="171333" />
+  <Preset Label="Treat Patients (vet_Employee_Behavior_TreatPatients)" Value="171335" />
+  <Preset Label="Don't Treat Patients (vet_Employee_Behavior_DontTreatPatients)" Value="171336" />
+  <Preset Label="Clean (vet_Employee_Behavior_Clean)" Value="171337" />
+  <Preset Label="Don't Clean (vet_Employee_Behavior_DontClean)" Value="171338" />
+  <Preset Label="Sleep (pet_Sleep_LeftAtHome_Near_Dog)" Value="171340" />
+  <Preset Label="Groom (petSocial_CatToCat_Groom)" Value="171345" />
+  <Preset Label="Jump On Counters (dog_Misbehavior_JumpOnCounters)" Value="171347" />
+  <Preset Label="Imitate (petSocial_SimToPet_ImitatePet_Sim)" Value="171357" />
+  <Preset Label="Pamper on Couch (mixerSocial_T_Pets_Friendly_Pamper)" Tags="TestUnsafe" Value="171390" />
+  <Preset Label="Jump On Counters (cat_Misbehavior_JumpOnCounter)" Value="171391" />
+  <Preset Label="Pamper on Couch (mixerSocial_T_Pets_Friendly_Pamper_Idle)" Tags="TestUnsafe" Value="171392" />
+  <Preset Label="Guard {1.SimFirstName} (baby_PetToSim_Guard)" Value="171420" />
+  <Preset Label="Investigate {1.SimFirstName} (baby_PetToSim_Investigate_Sniff)" Value="171421" />
+  <Preset Label="Play Fetch (poolEdge_social_play_fetch)" Value="171423" />
+  <Preset Label="vetPodium_CustomerConstraint_Player" Value="171432" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_cat_humanFood)" Value="171440" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_dog_humanFood)" Value="171441" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_food_smalldog_humanFood)" Value="171442" />
+  <Preset Label="Do Lab Work (vetMedicineStation_LabWork)" Value="171452" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddIngredient" Value="171454" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Boil" Value="171455" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Electrify" Value="171456" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Explosions" Value="171457" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle" Value="171461" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Shake" Value="171462" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Taste" Value="171463" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Zap" Value="171465" />
+  <Preset Label="mixer_VetMedicineStation_AddChemical" Value="171475" />
+  <Preset Label="mixer_VetMedicineStation_AddIngredient" Value="171476" />
+  <Preset Label="mixer_VetMedicineStation_Boil" Value="171477" />
+  <Preset Label="mixer_VetMedicineStation_Electrify" Value="171478" />
+  <Preset Label="Cautious Introduction (petSocial_SimToPet_Introduction_SniffHand_Cautious)" Value="171479" />
+  <Preset Label="Friendly Introduction (petSocial_SimToPet_Introduction_SniffHand_Friendly)" Value="171481" />
+  <Preset Label="mixer_VetMedicineStation_FizzyExplosion" Value="171494" />
+  <Preset Label="mixer_VetMedicineStation_Idle" Value="171495" />
+  <Preset Label="mixer_VetMedicineStation_Shake" Value="171499" />
+  <Preset Label="mixer_VetMedicineStation_Stop" Value="171501" />
+  <Preset Label="mixer_VetMedicineStation_Taste" Value="171502" />
+  <Preset Label="mixer_VetMedicineStation_Zap" Value="171503" />
+  <Preset Label="Return to Dock (robotVacuum_RoutingBehavior_Dock)" Value="171506" />
+  <Preset Label="Idle_Pet_Catnip_Drowsy" Value="171509" />
+  <Preset Label="Idle_Pet_Catnip_Hyper" Value="171510" />
+  <Preset Label="Explore Bush (bushPet_Interactions_Explore)" Value="171516" />
+  <Preset Label="Give Industrial Strength Relaxation Serum Shot (vet_Examine_GiveRelaxationSerum)" Tags="TestUnsafe" Value="171556" />
+  <Preset Label="Play Fetch (fetchObject_dog_Play_Fetch_Pool)" Value="171557" />
+  <Preset Label="Pounce (PetSocials_PetToPet_Pounce_Start)" Value="171567" />
+  <Preset Label="Cone of Shame (vet_Examine_Treatment_ConeOfShame)" Tags="TestUnsafe" Value="171701" />
+  <Preset Label="reaction_Mixers_Dog_Splashed" Value="171711" />
+  <Preset Label="Give Catnip-Based Calming Agent (vet_Surgery_MedicineStationEnabled_GiveCalmingAgent)" Tags="TestUnsafe" Value="171719" />
+  <Preset Label="Remove Cone (petSocials_SimToPet_RemoveConeOfShame)" Value="171750" />
+  <Preset Label="Remove Cone (Pet_ConeOfShame_Remove)" Value="171751" />
+  <Preset Label="reaction_Mixers_Dog_Splashed_InWater" Value="171770" />
+  <Preset Label="Give Belly Rub Simulation Gel (vet_Surgery_MedicineStationEnabled_GiveSimulationGel)" Tags="TestUnsafe" Value="171774" />
+  <Preset Label="Shake Off (si_Dog_ShakeOff_OutofPool)" Value="171778" />
+  <Preset Label="Craft (vetMedicineStation_StartCrafting_SurgeryStation)" Value="171823" />
+  <Preset Label="Craft (vetMedicineStation_StartCrafting_Treat)" Value="171838" />
+  <Preset Label="pet_CatWand_Human_Repair_Continuation_OneFuzzy" Value="171845" />
+  <Preset Label="pet_CatWand_Human_Repair_Continuation_NoFuzzy" Value="171846" />
+  <Preset Label="pet_CatWand_Human_Repair_Continuation_TwoFuzzy" Value="171847" />
+  <Preset Label="Dog_JumpOnCounter_Look" Value="171849" />
+  <Preset Label="dog_JumpOnCounter_GrabAt" Value="171850" />
+  <Preset Label="dog_JumpOnCounter_GrabFood" Value="171851" />
+  <Preset Label="Throw Ball For (petPickerInteraction_ToyBallPet_PlayFetch_Pool)" Tags="TestUnsafe" Value="171852" />
+  <Preset Label="Play with Cat Wand (pet_CatWand_CallOver)" Value="171860" />
+  <Preset Label="Reacting to Cute Moment (reactions_Pets_SimAwareness_CuteMoment)" Value="171863" />
+  <Preset Label="Swim Laps (pool-swim_Dog)" Value="171865" />
+  <Preset Label="Swim Laps (pool-swim_Dog_Autonomous)" Value="171868" />
+  <Preset Label="dog_RunAway" Value="171872" />
+  <Preset Label="Give Vet Treat (objectPicker_VetMedicineStation_Treats)" Tags="TestUnsafe" Value="171897" />
+  <Preset Label="Give Treat (petSocial_SimToPet_GiveSpecialTreat)" Value="171901" />
+  <Preset Label="Give Cone of Shame (cheat_ConeOfShame_GiveCone)" Value="171902" />
+  <Preset Label="vet_Examine_Reaction" Tags="TestUnsafe" Value="171934" />
+  <Preset Label="pet_CatWand_Human_Repair_Continuation_Rainbow_NoFuzzy" Value="171942" />
+  <Preset Label="pet_CatWand_Human_Repair_Continuation_Rainbow_OneFuzzy" Value="171943" />
+  <Preset Label="pet_CatWand_Human_Repair_Continuation_Rainbow_TwoFuzzy" Value="171944" />
+  <Preset Label="bushPet_Interactions_Continuation_SquirrelSuccess" Value="171946" />
+  <Preset Label="bushPet_Interactions_Continuation_SquirrelFail" Value="171954" />
+  <Preset Label="bushPet_Interactions_Continuation_Play" Value="171955" />
+  <Preset Label="bushPet_Interactions_Continuation_Bird" Value="171956" />
+  <Preset Label="bushPet_Interactions_Continuation_FindItem" Value="171957" />
+  <Preset Label="bushPet_Interactions_Continuation_Skunk" Value="171959" />
+  <Preset Label="generic_SurgeryStation_PetSit_Cat" Value="171968" />
+  <Preset Label="generic_SurgeryStation_PetSit_Dog" Value="171973" />
+  <Preset Label="cat_GetOffCounter_DisciplinedOut" Value="171979" />
+  <Preset Label="Apply: Nanotech Diagnostics (RobotVacuum_Immediate_debugSI_setUpgrade_LockBrokenness)" Value="171981" />
+  <Preset Label="Apply: Waterproof Mechanisms (RobotVacuum_Immediate_debugSI_setUpgrade_WetVac)" Value="171983" />
+  <Preset Label="Apply: Gyro-Compactor (RobotVacuum_Immediate_debugSI_setUpgrade_MoreStorage)" Value="171984" />
+  <Preset Label="Apply: Sonic Dampeners (RobotVacuum_Immediate_debugSI_setUpgrade_Quiet)" Value="171985" />
+  <Preset Label="Apply: Turbo-Charge (RobotVacuum_Immediate_debugSI_setUpgrade_Faster)" Value="171986" />
+  <Preset Label="Apply: Gizmo Redundancy (RobotVacuum_Immediate_debugSI_setUpgrade_LowerBrokenness)" Value="171987" />
+  <Preset Label="Make Empty (RobotVacuum_immediate_debugSI_setTrash_Empty)" Value="171993" />
+  <Preset Label="Make Overflow (RobotVacuum_immediate_debugSI_setTrash_Overflow)" Value="171994" />
+  <Preset Label="Make Full (RobotVacuum_immediate_debugSI_setTrash_Full)" Value="171995" />
+  <Preset Label="reactions_Pets_SimAwareness_Concerned" Value="171999" />
+  <Preset Label="ageDown_Cat" Value="172061" />
+  <Preset Label="ageDown_Dog" Value="172070" />
+  <Preset Label="Empty Trash (Empty_Trash_RobotVacuum)" Value="172071" />
+  <Preset Label="Lament Cone (Pet_ConeOfShame_LookingSad)" Value="172079" />
+  <Preset Label="Run Around (waypoint_WalkAround)" Value="172080" />
+  <Preset Label="Eat Something (food_Consume_Pet_EatSpecialTreat)" Value="172082" />
+  <Preset Label="Play Fetch (fetchObject_dog_Play_Fetch_Pool_NoRun)" Value="172102" />
+  <Preset Label="Fetch Ball (toyBallPet_Dog_Fetch_NoPickUp_Pool)" Value="172103" />
+  <Preset Label="Wake Up (dog_Misbehavior_WakeUpSim)" Value="172104" />
+  <Preset Label="Wake Up (cat_Misbehavior_WakeUpSim)" Value="172105" />
+  <Preset Label="Ask to make Industrial Strength Relaxation Serum (vet_Employee_Socials_RequestMedicineStationCrafting_RelaxationSerum)" Value="172133" />
+  <Preset Label="Dig (dirtMound_Explore)" Value="172141" />
+  <Preset Label="Send Pet to Explore (sendPet_Explore_DirtMound)" Tags="TestUnsafe" Value="172142" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_RelaxationSerum" Value="172143" />
+  <Preset Label="Dig (dirtMound_Dig_Walkby)" Value="172145" />
+  <Preset Label="Carry (Pile_CreateAndCarry_Dog)" Value="172149" />
+  <Preset Label="Curious Search (pet_CuriousTrait_Search)" Value="172151" />
+  <Preset Label="Carry (Carry_Continuation_CatDog)" Value="172154" />
+  <Preset Label="autonomous_CuriousTrait_Search" Tags="TestUnsafe" Value="172159" />
+  <Preset Label="Investigate (pet_Investigate_SniffObjects_Curious_Search)" Value="172161" />
+  <Preset Label="Curious Search (debug_pet_CuriousTrait_Search)" Value="172166" />
+  <Preset Label="simPicker_Pet_Sleep_NearOwner_WakeUpSim" Tags="TestUnsafe" Value="172178" />
+  <Preset Label="Play with Cat Wand (autonomous_ObjectPicker_CatWand)" Tags="TestUnsafe" Value="172184" />
+  <Preset Label="Return to Dock (RobotVacuum_ReturnToDock_si)" Value="172185" />
+  <Preset Label="Start Cleaning Routine (RobotVacuum_AreaClean_si)" Value="172191" />
+  <Preset Label="Replace (immediateSuperInteraction_CatWand_Replace)" Value="172196" />
+  <Preset Label="Converse with {1.SimFirstName} (simToPet_Socials_Converse)" Value="172203" />
+  <Preset Label="socials_Targeted_SimtoPet_Converse_Human_Neutral" Tags="TestUnsafe" Value="172205" />
+  <Preset Label="socials_Targeted_SimtoPet_Converse_Human_Angry" Tags="TestUnsafe" Value="172207" />
+  <Preset Label="socials_Targeted_SimtoPet_Converse_Human_Embarassed" Tags="TestUnsafe" Value="172208" />
+  <Preset Label="socials_Targeted_SimtoPet_Converse_Human_Sad" Tags="TestUnsafe" Value="172209" />
+  <Preset Label="socials_Targeted_SimtoPet_Converse_Dog_Neutral" Tags="TestUnsafe" Value="172211" />
+  <Preset Label="socials_Targeted_SimtoPet_Converse_Dog_Noisy" Tags="TestUnsafe" Value="172212" />
+  <Preset Label="socials_Targeted_SimtoPet_Converse_Dog_Angry" Tags="TestUnsafe" Value="172213" />
+  <Preset Label="socials_Targeted_SimtoPet_Converse_Cat_Neutral" Tags="TestUnsafe" Value="172215" />
+  <Preset Label="socials_Targeted_SimtoPet_Converse_Cat_Noisy" Tags="TestUnsafe" Value="172216" />
+  <Preset Label="socials_Targeted_SimtoPet_Converse_Cat_Yowl" Tags="TestUnsafe" Value="172217" />
+  <Preset Label="WooHoo (generic_LighthouseWoohoo)" Value="172250" />
+  <Preset Label="Converse with {1.SimFirstName} (mixersocials_NT_Pets_Friendly_Converse)" Tags="TestUnsafe" Value="172251" />
+  <Preset Label="WooHoo in Lighthouse (mixer_social_WooHooLighthouse_targeted_romance_transition)" Tags="TestUnsafe" Value="172271" />
+  <Preset Label="si_SwipeIntoObjectInventory" Value="172273" />
+  <Preset Label="WooHoo (lighthouse_WooHoo)" Value="172276" />
+  <Preset Label="Try For Baby in Lighthouse (mixer_social_TryForBabyLighthouse_targeted_romance_transition)" Tags="TestUnsafe" Value="172277" />
+  <Preset Label="Try for Baby (lighthouse_TryForBaby)" Value="172278" />
+  <Preset Label="Mess Around With (lighthouse_MessAround_Picker)" Tags="TestUnsafe" Value="172279" />
+  <Preset Label="WooHoo With (lighthouse_WooHoo_Picker)" Tags="TestUnsafe" Value="172280" />
+  <Preset Label="Try for Baby With (lighthouse_TryForBaby_Male_Picker)" Tags="TestUnsafe" Value="172281" />
+  <Preset Label="Try for Baby With (lighthouse_TryForBaby_Female_Picker)" Tags="TestUnsafe" Value="172282" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_SimulationGel" Value="172333" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_CalmingAgent" Value="172334" />
+  <Preset Label="Initiate Introduction (petSocials_PetToSim_Initiate_Introduction)" Value="172335" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_WellnessTreat" Value="172336" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_SicknessTreat_1" Value="172339" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_SicknessTreat_2" Value="172340" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_SicknessTreat_3" Value="172341" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_SicknessTreat_4" Value="172342" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_SicknessTreat_5" Value="172343" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_AgeUpTreat" Value="172344" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_AgeDownTreat" Value="172345" />
+  <Preset Label="vetMedicineStation_Craft_Autonomously_AmbrosiaTreat" Value="172352" />
+  <Preset Label="Glutton (debug_GluttonTrait_Behavior)" Value="172359" />
+  <Preset Label="Glutton (pet_GluttonTrait_Behavior)" Value="172360" />
+  <Preset Label="Ask to make Belly Rub Simulation Gel (vet_Employee_Socials_RequestMedicineStationCrafting_SimulationGel)" Value="172365" />
+  <Preset Label="Ask to make Catnip-Based Calming Agent (vet_Employee_Socials_RequestMedicineStationCrafting_CalmingAgent)" Value="172367" />
+  <Preset Label="Ask to make Wellness Treat (vet_Employee_Socials_RequestMedicineStationCrafting_WellnessTreat)" Value="172368" />
+  <Preset Label="Ask to make Swampwater Taffy (vet_Employee_Socials_RequestMedicineStationCrafting_SicknessTreat_5)" Value="172369" />
+  <Preset Label="Ask to make Poop Randomizer (vet_Employee_Socials_RequestMedicineStationCrafting_SicknessTreat_1)" Value="172370" />
+  <Preset Label="Ask to make Cooler than Liquid Nitrogen Nutrition Bar (vet_Employee_Socials_RequestMedicineStationCrafting_SicknessTreat_2)" Value="172371" />
+  <Preset Label="Ask to make Scorching Cinnamon Chew (vet_Employee_Socials_RequestMedicineStationCrafting_SicknessTreat_3)" Value="172372" />
+  <Preset Label="Ask to make The Stinkinator (vet_Employee_Socials_RequestMedicineStationCrafting_SicknessTreat_4)" Value="172373" />
+  <Preset Label="Ask to make Ambrosia Treat (vet_Employee_Socials_RequestMedicineStationCrafting_AmbrosiaTreat)" Value="172374" />
+  <Preset Label="Ask to make Age-Up Treat (vet_Employee_Socials_RequestMedicineStationCrafting_AgeUpTreat)" Value="172375" />
+  <Preset Label="Ask to make Age-Down Treat (vet_Employee_Socials_RequestMedicineStationCrafting_AgeDownTreat)" Value="172377" />
+  <Preset Label="Scrap (vetMedicineStation_ScrapItem)" Value="172381" />
+  <Preset Label="Sleep (pet_Sleep_Ground_ConeOfShame)" Value="172398" />
+  <Preset Label="mixerInteraction_Pets_Sleep_ConeOfShame" Value="172404" />
+  <Preset Label="Nap (pet_Nap_ConeOfShame)" Value="172413" />
+  <Preset Label="Let Out (mixerSocial_NT_Pets_Friendly_LetOut_IndependentTrait_Cat)" Tags="TestUnsafe" Value="172414" />
+  <Preset Label="Let Out (mixerSocial_NT_Pets_Friendly_LetOut_IndependentTrait_Dog)" Tags="TestUnsafe" Value="172416" />
+  <Preset Label="Send Hunting (mixerSocial_NT_Pets_Friendly_Send_HunterTrait)" Tags="TestUnsafe" Value="172428" />
+  <Preset Label="waypoint_Pets_IndependentTrait_LetOut" Value="172429" />
+  <Preset Label="Return to Lot (pet_IndependentTrait_LetOut_Return)" Value="172438" />
+  <Preset Label="pet_Quirks_Responses_Excited" Value="172448" />
+  <Preset Label="pet_Quirks_Responses_Aggressive" Value="172449" />
+  <Preset Label="pet_Quirks_Responses_Disappointed" Value="172450" />
+  <Preset Label="pet_Quirks_Responses_Investigate" Value="172451" />
+  <Preset Label="pet_Quirks_Responses_Playful" Value="172452" />
+  <Preset Label="pet_Quirks_Responses_Scared" Value="172453" />
+  <Preset Label="pet_Quirks_Responses_Suspicious" Value="172454" />
+  <Preset Label="pet_Quirks_Responses_Excited_IndependentTrait" Value="172456" />
+  <Preset Label="pet_Quirks_Responses_Playful_IndependentTrait" Value="172458" />
+  <Preset Label="What's That (debug_CuriousTrait_WhatsThat)" Value="172463" />
+  <Preset Label="Sleep (petConeOfShame_Sleep_OnObject)" Value="172467" />
+  <Preset Label="Nap (petConeOfShame_Nap_OnObject)" Value="172471" />
+  <Preset Label="Whine at Door (si_Dog_WhineAtDoor_Independent_LetOut)" Value="172479" />
+  <Preset Label="Whine at Door (si_Cat_WhineAtDoor_Independent_LetOut)" Value="172481" />
+  <Preset Label="Whine at Door (si_Pet_WhineAtDoor_Independent_LetOut)" Value="172482" />
+  <Preset Label="Investigate (pet_Investigate_SniffObjects_Curious_Search_Counter)" Value="172484" />
+  <Preset Label="autonomous_ObjectPicker_Pet_Nap_ConeOfShame" Tags="TestUnsafe" Value="172487" />
+  <Preset Label="autonomous_ObjectPicker_Pet_Sleep_ConeOfShame" Tags="TestUnsafe" Value="172488" />
+  <Preset Label="Nap (pet_Nap_ConeOfShame_Near)" Value="172493" />
+  <Preset Label="Whine at Door (si_Cat_Whine_Independent_LetOut)" Value="172498" />
+  <Preset Label="Whine at Door (si_Dog_Whine_Independent_LetOut)" Value="172500" />
+  <Preset Label="Command Pet to Use (petPickerInteraction_PetObstacleCourse_Practice)" Tags="TestUnsafe" Value="172512" />
+  <Preset Label="Adopt Cat (adopt_Picker_Cat_Phone)" Tags="TestUnsafe" Value="172588" />
+  <Preset Label="Adopt Dog (adopt_Picker_Dog_Phone)" Tags="TestUnsafe" Value="172590" />
+  <Preset Label="Adopt (adoption_Picker_Phone)" Tags="TestUnsafe" Value="172592" />
+  <Preset Label="Throw Away (collect_Trash_Featherpiles)" Value="172613" />
+  <Preset Label="Give Treat (petSocials_SimToPet_GiveTreat_PetObstacleCourse)" Value="172623" />
+  <Preset Label="Chase (si_Birdflock_Dog_Chase)" Value="172628" />
+  <Preset Label="Initiate Hug from {1.SimFirstName} (petSocials_PetToSim_Initiate_HugPet_PetObstacleCourse)" Value="172629" />
+  <Preset Label="Attack Flock (si_Birdflock_Cat_Attack)" Value="172650" />
+  <Preset Label="Open (featherCollection_Featherpile_Open)" Value="172682" />
+  <Preset Label="food_Eat_Active_Dogs_BegForFood_SmallDogStand" Value="172720" />
+  <Preset Label="food_Eat_Active_Dogs_BegForFood_Whine" Value="172721" />
+  <Preset Label="Allow {1.SimFirstName} to Eat Food (food_BegForFood_GiveFoodToPet)" Value="172730" />
+  <Preset Label="vet_Pet_Owner_StressMixers_Low" Value="172743" />
+  <Preset Label="vet_Pet_Owner_StressMixers_Moderate" Value="172744" />
+  <Preset Label="vet_Pet_Owner_StressMixers_High" Value="172745" />
+  <Preset Label="Give to {2.SimFirstName} (pet_PutDownHere_Food)" Value="172761" />
+  <Preset Label="Wait for Pet (si_CallToSitNearSim)" Value="172765" />
+  <Preset Label="Play with Cat Wand (cat_CatWand_picker_auto)" Tags="TestUnsafe" Value="172767" />
+  <Preset Label="Active Spin (debug_pet_ChaseTail)" Value="172773" />
+  <Preset Label="Active Spin (pet_ActiveTrait_ChaseTail)" Value="172774" />
+  <Preset Label="Autonomy Filler Aggregate (aggregateSuperInteraction_AutonomyFiller_Dog)" Value="172777" />
+  <Preset Label="Autonomy Filler Aggregate (aggregateSuperInteraction_AutonomyFiller_Cat)" Value="172779" />
+  <Preset Label="Beg for Food (dog_Misbehavior_BegForFood_Surface)" Value="172811" />
+  <Preset Label="Give Plate to {1.SimFirstName} (food_BegForFood_GiveFoodToPet_Surface)" Value="172813" />
+  <Preset Label="Give Some Food to {1.SimFirstName} (food_BegForFood_GiveFoodToPet_WhileActorEats)" Value="172814" />
+  <Preset Label="Beg for Food (dog_Misbehavior_BegForFood_OnSim)" Value="172816" />
+  <Preset Label="Beg for Food (cat_Misbehavior_BegForFood_Surface)" Value="172819" />
+  <Preset Label="Beg for Food (cat_Misbehavior_BegForFood_OnSim)" Value="172820" />
+  <Preset Label="Purchase Pet Items (vetVendingMachine_puchase_Player_NPC_owned)" Value="172834" />
+  <Preset Label="Purchase Pet Items (purchase_VetVendingMachine_generic)" Tags="TestUnsafe" Value="172838" />
+  <Preset Label="Purchase Pet Items (purchase_VetVendingMachine_owned)" Tags="TestUnsafe" Value="172839" />
+  <Preset Label="Purchase Pet Items (vetVendingMachine_puchase_Player_Player_owned)" Value="172841" />
+  <Preset Label="Relax and Unwind on Couch (petSocials_SimToPet_PetIntimate_Relax_LargeDog)" Value="172852" />
+  <Preset Label="Brush (petSocial_SimToPet_Brush_HairyPet)" Value="172861" />
+  <Preset Label="Assemble Into Bird Sculpture (featherCollection_Feather_Combine)" Value="172862" />
+  <Preset Label="Begin Exam (vet_Surgery_StartExam_SpayNeuter)" Value="172865" />
+  <Preset Label="Begin Exam (vet_Surgery_StartExam_UnspayNeuter)" Value="172866" />
+  <Preset Label="Examine {1.SimFirstName} (vet_Surgery_Examine_SpayNeuter)" Value="172867" />
+  <Preset Label="Examine {1.SimFirstName} (vet_Surgery_Examine_UpspayNeuter)" Value="172868" />
+  <Preset Label="Giddy (interactionTrait_CatLover_GiddyNearCats)" Value="172870" />
+  <Preset Label="Begin Spaying / Neutering (simPickerInteraction_SurgeryStation_BeginSpayNeuter)" Tags="TestUnsafe" Value="172871" />
+  <Preset Label="Begin Unspaying / Unneutering (simPickerInteraction_SurgeryStation_BeginUnspayneuter)" Tags="TestUnsafe" Value="172872" />
+  <Preset Label="Hairy (pet_HairyTrait_Behavior_Brushed_Cat)" Value="172880" />
+  <Preset Label="Hairy (pet_HairyTrait_Behavior_Cat)" Value="172881" />
+  <Preset Label="Hairy (pet_HairyTrait_Behavior_Brushed_Dog)" Value="172883" />
+  <Preset Label="Giddy (interactionTrait_DogLover_GiddyNearDogs)" Value="172917" />
+  <Preset Label="Scare (petSocial_SimtoPet_Scare_Dog)" Value="172932" />
+  <Preset Label="Scare (petSocial_SimtoPet_Scare_Cat)" Value="172934" />
+  <Preset Label="Give Big Treat (petSocial_SimToPet_GiveBigTreat)" Value="172955" />
+  <Preset Label="Open (mysteryBox_Open)" Value="172971" />
+  <Preset Label="Being Pampered by {1.SimFirstName} (petSocials_PetToSim_BePampered)" Value="172974" />
+  <Preset Label="Play with Cat Wand (simPickerInteraction_CatWand)" Tags="TestUnsafe" Value="172978" />
+  <Preset Label="Play with Cat Wand (pet_CatWand_CallOver_FromInventory)" Value="172980" />
+  <Preset Label="Go on Adventure Together (debug_rabbitHole_Pet_GoOnAdventure)" Value="172989" />
+  <Preset Label="Go on Adventure Together (rabbitHole_Pet_GoOnAdventure)" Value="172990" />
+  <Preset Label="Go on Adventure Together (petSocials_SimToPet_GoOnAdventure)" Value="173006" />
+  <Preset Label="Drop Off Fuzzy (pet_CatWand_Cat_Fuzzy_DropOff)" Value="173112" />
+  <Preset Label="Drop Off Fuzzy (pet_CatWand_Cat_Fuzzy_DropOff_Cont)" Value="173113" />
+  <Preset Label="Beg for Toy (pet_PlayfulTrait_BegForToy)" Value="173121" />
+  <Preset Label="Beg for Toy (debug_PlayfulTrait_BegForToy)" Value="173122" />
+  <Preset Label="Playful Trait Idle (pet_PlayfulTrait_Behavior)" Value="173126" />
+  <Preset Label="Playful Trait Idle (debug_PlayfulTrait_Behavior)" Value="173127" />
+  <Preset Label="playful_SimPicker_Owner_BegForToy" Tags="TestUnsafe" Value="173129" />
+  <Preset Label="Sit Nearby (petOwner_WaitNearby_Cat_NoPetToy)" Value="173130" />
+  <Preset Label="Sit Nearby (petOwner_WaitNearby_Dog_NoPetToy)" Value="173131" />
+  <Preset Label="Encourage Misbehavior (mixerSocial_NT_Pets_Friendly_EncourageMisbehavior_Naughty_Cat)" Tags="TestUnsafe" Value="173132" />
+  <Preset Label="Request Song (mixerSocial_NT_Pets_Friendly_RequestSong_VocalTrait_Cat)" Tags="TestUnsafe" Value="173134" />
+  <Preset Label="Aggressive Trait Behavior (pet_AggressiveTrait_Behavior_Strangers)" Value="173149" />
+  <Preset Label="Request Song (mixerSocial_NT_Pets_Friendly_RequestSong_VocalTrait_Dog)" Tags="TestUnsafe" Value="173159" />
+  <Preset Label="reaction_Obsess_Pets_Playful" Value="173160" />
+  <Preset Label="Encourage Misbehavior (mixerSocial_NT_Pets_Friendly_EncourageMisbehavior_Naughty_Dog)" Tags="TestUnsafe" Value="173173" />
+  <Preset Label="mixerInteraction_Pets_GuardIdle" Value="173265" />
+  <Preset Label="mixer_LitterBox_Snack_Puppy_Active" Value="173294" />
+  <Preset Label="Snack (pet_Litterbox_Puppy_Snack)" Value="173302" />
+  <Preset Label="Make Overflow (RobotVacuum_Overflow_immediateSI)" Value="173316" />
+  <Preset Label="Carry Fuzzy (pet_CatWand_Cat_Fuzzy_Carry)" Value="173317" />
+  <Preset Label="Carry Fuzzy (pet_CatWand_Cat_Fuzzy_Carry_Cont)" Value="173319" />
+  <Preset Label="Install Micro-Incinerator (RobotVacuumDock_upgrade_ClearTrash)" Value="173326" />
+  <Preset Label="Resume installing Micro-Incinerator (RobotVacuumDock_upgrade_ClearTrash_resume)" Value="173327" />
+  <Preset Label="Micro-Incinerator (Completed) (RobotVacuumDock_upgrade_ClearTrash_display)" Value="173328" />
+  <Preset Label="Apply: Micro-Incinerator (RobotVacuumDock_Immediate_debugSI_setUpgrade_ClearTrash)" Value="173329" />
+  <Preset Label="Synchronize Core Chronometer (RobotVacuumDock_Upgrade_MoreAutoClean)" Value="173358" />
+  <Preset Label="Re-synchronize Core Chronometer (RobotVacuumDock_Upgrade_MoreAutoClean_resume)" Value="173359" />
+  <Preset Label="Throw Away Fuzzy (collect_Trash_CatWand)" Value="173361" />
+  <Preset Label="Core Chronometer (Synchronized) (RobotVacuumDock_upgrade_MoreAutoClean_display)" Value="173362" />
+  <Preset Label="Apply: Core Chronometer (RobotVacuumDock_Immediate_debugSI_setUpgrades_MoreAutoClean)" Value="173363" />
+  <Preset Label="Auto-Clean: On (RobotVacuumDock_Setting_AutoClean_On)" Value="173365" />
+  <Preset Label="Auto-Clean every: 3 hours (RobotVacuumDock_Setting_AutoCleanRate_3_3h)" Value="173366" />
+  <Preset Label="Auto-Clean every: 6 hours (RobotVacuumDock_Setting_AutoCleanRate_2_6h)" Value="173367" />
+  <Preset Label="Auto-Clean every: 12 hours (RobotVacuumDock_Setting_AutoCleanRate_1_12h)" Value="173368" />
+  <Preset Label="Auto-Clean every: 24 hours (RobotVacuumDock_Setting_AutoCleanRate_0_24h)" Value="173369" />
+  <Preset Label="Auto-Clean: Off (RobotVacuumDock_Setting_AutoClean_Off)" Value="173370" />
+  <Preset Label="autonomous_VetVendingMachine_picker" Tags="TestUnsafe" Value="173384" />
+  <Preset Label="vetVendingMachine_purchase_NPC_purchase_item" Value="173391" />
+  <Preset Label="Auto-Clean: Off (RobotVacuumDock_Setting_AutoClean_Off_display)" Value="173406" />
+  <Preset Label="Auto-Clean: On (RobotVacuumDock_Setting_AutoClean_On_display)" Value="173407" />
+  <Preset Label="Auto-Clean: Trigger (RobotVacuumDock_immediate_debugSIs_AutoCleanTimer_trigger)" Value="173408" />
+  <Preset Label="Auto-Clean: Reset timer (RobotVacuumDock_immediate_debugSIs_AutoCleanTimer_reset)" Value="173409" />
+  <Preset Label="Imitate (socials_Pets_SimtoPet_Imitate_Dog_Bark)" Tags="TestUnsafe" Value="173417" />
+  <Preset Label="Imitate (socials_Pets_SimtoPet_Imitate_Dog_Jump)" Tags="TestUnsafe" Value="173418" />
+  <Preset Label="Imitate (socials_Pets_SimtoPet_Imitate_Cat_Meow)" Tags="TestUnsafe" Value="173420" />
+  <Preset Label="Imitate (socials_Pets_SimtoPet_Imitate_Cat_Clean)" Tags="TestUnsafe" Value="173422" />
+  <Preset Label="Auto-Clean every: 24 hours (RobotVacuumDock_Setting_AutoCleanRate_0_24h_display)" Value="173442" />
+  <Preset Label="Auto-Clean every: 12 hours (RobotVacuumDock_Setting_AutoCleanRate_1_12h_display)" Value="173443" />
+  <Preset Label="Auto-Clean every: 6 hours (RobotVacuumDock_Setting_AutoCleanRate_2_6h_display)" Value="173444" />
+  <Preset Label="Auto-Clean every: 3 hours (RobotVacuumDock_Setting_AutoCleanRate_3_3h_display)" Value="173445" />
+  <Preset Label="Change Outfit (changeOutfitPicker_TargetSim_Pet_Cat)" Tags="TestUnsafe" Value="173476" />
+  <Preset Label="reaction_Obsess_Pet_Excited_Active" Value="173479" />
+  <Preset Label="Being Imitated by {1.SimFirstName} (petSocial_SimToPet_ImitatePet_Pet)" Value="173482" />
+  <Preset Label="vetVendingMachine_no_items" Value="173497" />
+  <Preset Label="Carry (debug_wanderlustPet_CreateCollectible)" Value="173533" />
+  <Preset Label="Carry (wanderlustPet_CreateCollectible)" Value="173534" />
+  <Preset Label="Drink (pet_Misbehavior_PuddlesDrink_Cat)" Value="173539" />
+  <Preset Label="Wanderlust Return Pregnant (wanderlust_ReturnPregnant)" Value="173540" />
+  <Preset Label="Stand and Watch (autonomous_Surface_Cat_StandWatch)" Tags="TestUnsafe" Value="173576" />
+  <Preset Label="Buy Pet Food (marketStalls_pushOrderFood_SquareSnacks_PetFood)" Value="173586" />
+  <Preset Label="Attack {1.SimFirstName} (petSocials_PetToPet_Attack_Madnip)" Value="173588" />
+  <Preset Label="Attack {1.SimFirstName} (petSocials_PetToSim_Attack_Madnip)" Value="173589" />
+  <Preset Label="Call into Arms (pet_Command_CallOver_CallIntoArms)" Value="173597" />
+  <Preset Label="Go Here (terrain-gonear-CatchToCarry)" Value="173598" />
+  <Preset Label="Stand and Watch (pet_Cat_StandWatch_OnObjects)" Value="173600" />
+  <Preset Label="Stand and Watch (pet_StandWatch_Cat)" Value="173601" />
+  <Preset Label="Missing Pet Outcome (debug_PetTraits_Wanderlust_MissingBuff)" Value="173607" />
+  <Preset Label="Stand and Watch (debug_autonomous_Surface_Cat_StandWatch)" Tags="TestUnsafe" Value="173611" />
+  <Preset Label="Stand and Watch (debug_StandWatch_Cat)" Value="173613" />
+  <Preset Label="vetPodium_CustomerConstraint_UsePodium" Value="173615" />
+  <Preset Label="Fetch Ball (toyBallPet_Dog_Fetch_Pool)" Value="173631" />
+  <Preset Label="aggregateSI_CustomerConstraint" Value="173640" />
+  <Preset Label="Post Alert About Missing Pet (computer_Missing_Pet_PostAlert)" Value="173641" />
+  <Preset Label="Send Pet to Explore (sendPet_Explore_Picker_PetBush)" Tags="TestUnsafe" Value="173644" />
+  <Preset Label="Comfort About Missing Pet (socials_Targeted_missing_pet_comfort)" Tags="TestUnsafe" Value="173645" />
+  <Preset Label="Set to Active (pet_Cat_Mousehole_debug_active)" Value="173659" />
+  <Preset Label="Set to Advanced (pet_Cat_Mousehole_debug_failure)" Value="173660" />
+  <Preset Label="What's That? (mixerSocial_NT_Pets_Friendly_WhatsThat_CuriousTrait_Cat)" Tags="TestUnsafe" Value="173663" />
+  <Preset Label="What's That? (mixerSocial_NT_Pets_Friendly_WhatsThat_CuriousTrait_Dog)" Tags="TestUnsafe" Value="173664" />
+  <Preset Label="Ask if {2.SimFirstName} is Ever Coming Home (socials_Targeted_missing_pet_child_sad)" Tags="TestUnsafe" Value="173667" />
+  <Preset Label="Call into Arms (petSocials_SimToPet_CallIntoArms_CarryPickUp)" Value="173668" />
+  <Preset Label="Ask if {2.SimFirstName} is Ever Coming Home (socials_Targeted_missing_pet_toddler_sad)" Tags="TestUnsafe" Value="173672" />
+  <Preset Label="Return Home (si_GoForWalk_ReturnHome)" Value="173673" />
+  <Preset Label="Comfort About Missing Pet (socials_Targeted_missing_pet_toddler_comfort)" Tags="TestUnsafe" Value="173677" />
+  <Preset Label="wanderlust_missing_pet" Value="173678" />
+  <Preset Label="Beg to Stop Attacking (discipline_Pets_Attack_BegToStop)" Value="173682" />
+  <Preset Label="Beg to Stop Barking (discipline_Pets_Barking_BegToStop)" Value="173683" />
+  <Preset Label="Beg to Stop Begging for Food (discipline_Pets_BegEating_BegToStop)" Value="173684" />
+  <Preset Label="Beg to Stop Eating Poop (discipline_Pets_EatPoop_BegToStop)" Value="173687" />
+  <Preset Label="Beg to Stop Indoor Potty (discipline_Pets_PottyTraining_BegToStop)" Value="173688" />
+  <Preset Label="Beg to Stop Drinking from Puddles (discipline_Pets_PuddlesDrink_BegToStop)" Value="173689" />
+  <Preset Label="Beg to Stop Playing in Puddles (discipline_Pets_PuddlesPlay_BegToStop)" Value="173690" />
+  <Preset Label="Beg to Stop Scratching (discipline_Pets_Scratching_BegToStop)" Value="173691" />
+  <Preset Label="Beg to Stop Drinking from Toilet (discipline_Pets_Toilet_BegToStop)" Value="173693" />
+  <Preset Label="Beg to Stop Eating Trash (discipline_Pets_TrashEat_BegToStop)" Value="173694" />
+  <Preset Label="Beg to Stop Playing in Trash (discipline_Pets_TrashPlay_BegToStop)" Value="173695" />
+  <Preset Label="Beg to Stop Waking Up Sims (discipline_Pets_WakeUpSims_BegToStop)" Value="173696" />
+  <Preset Label="Beg to Stop Eating Human Food (discipline_SSI_Pets_EatPeopleFood_BegToStop)" Value="173710" />
+  <Preset Label="Beg To Stop Jumping Up on Counters (discipline_SSI_Pets_JumpOnCountersCat_BegToStop)" Value="173711" />
+  <Preset Label="Beg to Stop Jumping Up on Counters (discipline_SSI_Pets_JumpOnCountersDog_BegToStop)" Value="173712" />
+  <Preset Label="Carry (Bird_CreateAndCarry)" Value="173721" />
+  <Preset Label="Route to Safety (Sim_Fire_RouteToSafety_Pets)" Value="173763" />
+  <Preset Label="Bark at Stranger (dog_Bark_Strangers)" Value="173773" />
+  <Preset Label="Attack {1.SimFirstName} (petSocials_PetToSim_Attack_Strangers)" Value="173774" />
+  <Preset Label="Run Away (Pet_ConeOfShame_RunAway)" Value="173917" />
+  <Preset Label="Wanderlust_SimPicker_OwnerRel_Gift" Tags="TestUnsafe" Value="173918" />
+  <Preset Label="reaction_Obsess_Cat_Aggressive" Value="173921" />
+  <Preset Label="Mop (puddle_Mop_Small_Vomit)" Value="173924" />
+  <Preset Label="Mop Like Mad! (puddle_Mop_Energized_Small_Vomit)" Value="173925" />
+  <Preset Label="Sneak a Snack (dog_Misbehavior_TrashPileEat)" Value="173954" />
+  <Preset Label="Post Alert About Missing Pet (phone_missing_pets_post_alert)" Value="173955" />
+  <Preset Label="Summon {2.SimFirstName} (book_Of_Life_Summons_Ghost_Pet)" Value="173972" />
+  <Preset Label="Call Forth Ghost (run_ghost_pet_situation)" Value="173985" />
+  <Preset Label="React to Dog Birth (PetBirth_Reaction_DogBirth)" Value="174114" />
+  <Preset Label="React to Cat Birth (petBirth_Reaction_CatBirth)" Value="174116" />
+  <Preset Label="WooHoo (petSocial_PetToPet_TryForBaby_NuzzleNip)" Value="174123" />
+  <Preset Label="Upgrade to Never Break (surgeryStation_Upgrade_NeverBreak)" Value="174133" />
+  <Preset Label="Resume Never Break Upgrade (surgeryStation_Upgrade_NeverBreak_Resume)" Value="174134" />
+  <Preset Label="generic_Cat_Hide" Value="174206" />
+  <Preset Label="generic_Dog_Hide" Value="174207" />
+  <Preset Label="Go Home (missing_pet_go_home)" Value="174267" />
+  <Preset Label="Fetch Ball (toyBallPet_Dog_GoToBall_Pool)" Value="174321" />
+  <Preset Label="Play in Trash (dog_Misbehavior_TrashPilePlay)" Value="174342" />
+  <Preset Label="Rummage in Trash (dog_Misbehavior_TrashPileRummage)" Value="174344" />
+  <Preset Label="Call Over (petObstacleCourse_PetOwner_CallPet_Practice)" Value="174372" />
+  <Preset Label="idle_Buff_Pet_Pregnant_Vomit_Cat_Loop" Value="174476" />
+  <Preset Label="Sit Nearby (petOwner_WaitNearby_Dog_LowPlay)" Value="174535" />
+  <Preset Label="simPicker_Owner_Dog_LowPlay" Tags="TestUnsafe" Value="174537" />
+  <Preset Label="DEBUG - Unlock Rel Bit Between {0.SimFirstName} and {1.SimFirstName} (debug_PetToPet_Rel_UnlockRel)" Value="174542" />
+  <Preset Label="dog_swim_Passive" Value="174558" />
+  <Preset Label="Welcome Back (petSocials_SimToPet_missing_pet_welcome)" Value="174587" />
+  <Preset Label="React to Pet Gift (petGift_Inspect)" Value="174594" />
+  <Preset Label="WooHoo (petSocial_PetToPet_TryForBaby_NuzzleNip_FemaleActor)" Value="174607" />
+  <Preset Label="Wait Near Food Bowl (Eat_WaitNearby_React)" Value="174682" />
+  <Preset Label="Move Away (generic_RunAway_Eat_React)" Value="174683" />
+  <Preset Label="Use Litter Box (debug_Litterbox_Use)" Value="174703" />
+  <Preset Label="pet_Wary_Watch_active" Value="174712" />
+  <Preset Label="pet_Wary_Stand_passive" Value="174715" />
+  <Preset Label="Rummage in Seaweed Pile (seaweedPile_Rummage)" Value="174746" />
+  <Preset Label="Play in Seaweed Pile (seaweedPile_Play)" Value="174747" />
+  <Preset Label="Rummage in Fish Pile (fishPile_Rummage)" Value="174749" />
+  <Preset Label="Play in Fish Pile (fishPile_Play)" Value="174750" />
+  <Preset Label="Eat Fish (fishPile_Eat)" Value="174751" />
+  <Preset Label="Attack {1.SimFirstName} (petSocials_PetToPet_Attack_Pushed_Eating)" Value="174752" />
+  <Preset Label="food_Eat_Active_Pets_Tall_Multi" Value="174779" />
+  <Preset Label="food_Eat_Active_Pets_Short_Multi" Value="174795" />
+  <Preset Label="vet_Patient_Greetings_Owner_Choose" Value="174797" />
+  <Preset Label="Send Pet to Explore (sendPet_Explore_Picker_FishPile)" Tags="TestUnsafe" Value="174801" />
+  <Preset Label="Send Pet to Explore (sendPet_Explore_Picker_SeaweedPile)" Tags="TestUnsafe" Value="174802" />
+  <Preset Label="Shake (mixer_Dog_Training_Human_Shake_Demo)" Tags="TestUnsafe" Value="174803" />
+  <Preset Label="Move Away (Cat_Fearful_RunAway)" Value="174851" />
+  <Preset Label="MouseHole_Investigate_mixer" Value="174859" />
+  <Preset Label="vet_Patient_Greetings_Chooser" Value="174888" />
+  <Preset Label="Try for baby response (pet_response_TryForBaby)" Value="174890" />
+  <Preset Label="Pet Pregnancy Vomit (debug_pet_pregnancyVomit)" Value="174955" />
+  <Preset Label="Pet Food Recipe (debugCreateCraftable_PetFood)" Value="174971" />
+  <Preset Label="Sneak a Snack (pet_Misbehavior_FoodPileEat)" Value="175000" />
+  <Preset Label="Snack (pet_Litterbox_SmallDog_Snack)" Value="175007" />
+  <Preset Label="Sniff (pet_Litterbox_SmallDog_Sniff)" Value="175011" />
+  <Preset Label="Fear - Wary Watch (petQuirks_WatchWary_farAway)" Value="175066" />
+  <Preset Label="Autonomy Filler Aggregate (debug_AutonomyFiller_Dog)" Value="175094" />
+  <Preset Label="Autonomy Filler Aggregate (debug_AutonomyFiller_Cat)" Value="175096" />
+  <Preset Label="Wet Pants (si_Dog_Pant)" Value="175100" />
+  <Preset Label="Groom Self (pet_GroomInteraction_Cat_Laydown)" Value="175101" />
+  <Preset Label="pet_GroomInteraction_Mixer_CatGroom_Laydown" Value="175102" />
+  <Preset Label="pet_GroomInteraction_Mixer_Idle" Value="175106" />
+  <Preset Label="Pick Up (si_SwipeIntoSimInventory_PetPoop)" Value="175151" />
+  <Preset Label="Rude Introduction (petSocials_SimToPet_Greeting_Mean_Toddler_SI)" Value="175228" />
+  <Preset Label="Praise (mixerSocial_NT_Pets_Friendly_TalkTo_Praise)" Tags="TestUnsafe" Value="175241" />
+  <Preset Label="Sleep Here (sleepOnGround_Dog_ConeOfShame)" Value="175300" />
+  <Preset Label="Sleep Here (sleepOnGround_Dog_EnergyFailure_ConeOfShame)" Value="175302" />
+  <Preset Label="React to Something (reactions_Dog_Excited_Obsess_Swimming)" Value="175304" />
+  <Preset Label="immediateSI_DogSwim_ChooseToSwim" Value="175305" />
+  <Preset Label="Finished (petObstacleCourse_Pet_CancelCourse)" Value="175311" />
+  <Preset Label="Fetch Ball (toyBallPet_Owner_FakeThrow_Wait)" Value="175329" />
+  <Preset Label="Move to Surgery Station (vet_Examine_MoveToSurgery)" Tags="TestUnsafe" Value="175336" />
+  <Preset Label="Move To Surgery Station (vet_social_MoveToSurgery)" Value="175350" />
+  <Preset Label="Wait For Pet (petObstacleCourse_PetOwner_WaitForPet)" Value="175352" />
+  <Preset Label="Move to Exam Table (vet_social_MoveToExam)" Value="175359" />
+  <Preset Label="Move to Exam Table (vet_Surgery_MoveToExam)" Tags="TestUnsafe" Value="175361" />
+  <Preset Label="Sleep Here (sleepOnGround_Cat_EnergyFailure_ConeOfShame)" Value="175421" />
+  <Preset Label="Rename {1.ObjectName} (rename_RobotVacuum)" Value="175511" />
+  <Preset Label="Disallow New Customers (vet_Podium_Immediate_Customers_Disallow)" Value="175567" />
+  <Preset Label="Allow New Customers (vet_Podium_Immediate_Customers_Allow)" Value="175568" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_RobotVacuumDock)" Value="175588" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_RobotVacuum)" Value="175589" />
+  <Preset Label="Hug (petSocial_SimToPet_Hug_Toddler)" Value="175606" />
+  <Preset Label="Go Missing (Debug) (debug_PetGoMissing)" Value="175631" />
+  <Preset Label="Play (petSocial_SimToPet_PlayWrestle_Ask)" Value="175632" />
+  <Preset Label="autonomousSimPicker_PickLighthouseGhostDog" Tags="TestUnsafe" Value="175661" />
+  <Preset Label="si_Immediate_GiveLighthouseGhostDogLoot" Value="175663" />
+  <Preset Label="Put Down (toyBallPet_PutDownHere_Toybox)" Value="175726" />
+  <Preset Label="idle_Pet_genericMotiveDistress_anxious_Dog" Value="175743" />
+  <Preset Label="Give Special Smooches (petSocials_SimToPet_PetIntimate_Kiss_Companion)" Value="175758" />
+  <Preset Label="Give Special Smooches (petSocial_SimToPet_Kiss_LargePet_Companion)" Value="175764" />
+  <Preset Label="Give Special Smooches (petSocial_SimToPet_Kiss_SmallPet_Companion)" Value="175766" />
+  <Preset Label="petRecipe_MakeRecipe_Whim_Homestyle" Value="175779" />
+  <Preset Label="petRecipe_MakeRecipe_Whim_Gourmet" Value="175780" />
+  <Preset Label="Scratch Favorite Spot (petSocials_SimToPet_PetIntimate_PetPet_Companions)" Value="175814" />
+  <Preset Label="Scratch Favorite Spot (petSocial_SimToPet_PetPet_Companions)" Value="175828" />
+  <Preset Label="Jump On Counters (dog_Misbehavior_JumpOnCoffeeTables)" Value="176018" />
+  <Preset Label="Go to Pet Care Worker (petCare_Pet_RouteToCrate_NearCrate)" Value="176036" />
+  <Preset Label="Give Vet Treat (objectPicker_VetMedicineStation_Treats_Child)" Tags="TestUnsafe" Value="176037" />
+  <Preset Label="Give Vet Treat (objectPicker_VetMedicineStation_Treats_Elder)" Tags="TestUnsafe" Value="176046" />
+  <Preset Label="Fire_OnFire_passiveMixer_petChild" Value="176074" />
+  <Preset Label="Clean Up Hair Pile (pet_HairPile_CleanUp_Continuation)" Value="176119" />
+  <Preset Label="simPicker_Vet_CustomerRequestingService" Tags="TestUnsafe" Value="176126" />
+  <Preset Label="Vet_Customer_TryGrabEmployee_Immediate" Value="176127" />
+  <Preset Label="Clean Up Hair Pile (collect_HairPile_Aggregate)" Value="176128" />
+  <Preset Label="marketStalls_ChooseFoodDelivery_PetFood" Value="176129" />
+  <Preset Label="Throw Away (collect_Trash_Continuation_Small)" Value="176149" />
+  <Preset Label="Go Missing (Debug) (rabbitHole_Pet_Missing)" Value="176180" />
+  <Preset Label="Command to Chase Birds (petPickerInteraction_Command_ChaseAttack_Birdflock)" Tags="TestUnsafe" Value="176193" />
+  <Preset Label="Plop Down on Couch (petSocials_SimToPet_PetIntimate_Relax_SmallPet)" Value="176205" />
+  <Preset Label="Pet (mixerSocial_Pets_Friendly_PetIntimate_Pet)" Tags="TestUnsafe" Value="176248" />
+  <Preset Label="Pet (mixerSocial_Pets_Friendly_PetIntimate_Kiss)" Tags="TestUnsafe" Value="176249" />
+  <Preset Label="Pet (mixerSocial_Pets_Friendly_PetIntimate_Hug)" Tags="TestUnsafe" Value="176250" />
+  <Preset Label="aggregateSuperInteraction_PetCare_RouteToCrate" Value="176272" />
+  <Preset Label="Carry to Front Door (wanderlust_CarryGift_FrontDoor)" Value="176300" />
+  <Preset Label="aggregateSuperInteraction_PetCareWorker_WaitNearby" Value="176301" />
+  <Preset Label="petsFindingThings_Aggregate" Value="176309" />
+  <Preset Label="Buy Toys (Purchase_PetToy)" Tags="TestUnsafe" Value="176320" />
+  <Preset Label="Buy Pet Food (marketStalls_pushOrder_Dockyard_PetFood)" Value="176346" />
+  <Preset Label="Pamper on Couch (petSocials_SimToPet_PetIntimate_Pamper_LargeDog)" Value="176351" />
+  <Preset Label="Sleep (petConeOfShame_petSmall_Sleep_OnObject)" Value="176354" />
+  <Preset Label="Being Pampered by {1.SimFirstName} (petSocials_PetToSim_BePampered_LargeDog)" Value="176362" />
+  <Preset Label="Resume {0.String} (crafting_Resume_VetMedicineStationItems)" Value="176364" />
+  <Preset Label="Kick Out (si_PetBed_Watch)" Value="176380" />
+  <Preset Label="Hug (mixerSocial_T_Pets_Friendly_Hug_Carrying_Autonomous)" Value="176414" />
+  <Preset Label="Kiss (mixerSocial_T_Pets_Friendly_Kiss_Carrying_Autonomous)" Value="176415" />
+  <Preset Label="Pet (mixerSocial_T_Pets_Friendly_Pet_Carrying_Autonomous)" Value="176416" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_Attack)" Value="176446" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_Scratching)" Value="176447" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_PuddlesPlay)" Value="176448" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_PudlesDrink)" Value="176449" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_PottyTraining)" Value="176450" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_EatPoop)" Value="176451" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_EatPeopleFood)" Value="176453" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_Barking)" Value="176454" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_BegEating)" Value="176455" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_WakeUpSims)" Value="176456" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_TrashEat)" Value="176457" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_TrashPlay)" Value="176458" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_Toilet)" Value="176459" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_NoOwnership)" Value="176463" />
+  <Preset Label="Relaxing with {1.SimFirstName} (petSocials_PetToSim_Relax_SmallPet)" Value="176525" />
+  <Preset Label="Relaxing with {1.SimFirstName} (petSocials_PetToSim_Relax_LargeDog)" Value="176526" />
+  <Preset Label="Be Asked To Move In (Ghost_Pet_BeAddedToHousehold)" Value="176533" />
+  <Preset Label="Refill (petBowl_FillBowl_FromDropBowl)" Value="176578" />
+  <Preset Label="petbowl_WaitToEat" Value="176580" />
+  <Preset Label="React to Fear (reactions_Pet_Fearful_VariedOutcome_Laydown)" Value="176584" />
+  <Preset Label="Wait for Pet (social_Pet_Play_Fetch_Wait)" Value="176592" />
+  <Preset Label="Sabotage! (object_Bane_Sabotage_SurgeryStation)" Value="176614" />
+  <Preset Label="autonomous_ObjectPicker_PetDog_Laze_NearObject" Tags="TestUnsafe" Value="176624" />
+  <Preset Label="autonomous_ObjectPicker_Pet_Nap_NearObject_Dog" Tags="TestUnsafe" Value="176626" />
+  <Preset Label="Become Companions (mixerSocial_NT_Pets_Friendly_BecomeCompanion_Toddler)" Tags="TestUnsafe" Value="176631" />
+  <Preset Label="pet-laydownOnObject" Value="176642" />
+  <Preset Label="Put Down (putInInventoryInteraction_CatWand)" Value="176683" />
+  <Preset Label="Initiate Greeting (petSocials_PetToSim_Initiate_Greeting)" Value="176760" />
+  <Preset Label="automomousPetPicker_PutFoodDown" Tags="TestUnsafe" Value="176784" />
+  <Preset Label="Administer Shot - Antiviral Payload (vet_Examine_Mixers_Treatment_Autonomous_EndExam)" Tags="TestUnsafe" Value="176786" />
+  <Preset Label="Talk to {1.SimFirstName} (petSocial_SimToPet_NonTouching_Pet)" Value="176847" />
+  <Preset Label="Nap (petLargeConeOfShame_Nap_OnObject)" Value="176851" />
+  <Preset Label="No Search Items (pet_CuriousTrait_NoSearchItems)" Value="176855" />
+  <Preset Label="Sniff (pet_Poop_Sniff_Cat)" Value="176856" />
+  <Preset Label="Sit (seating_Sit_Dog_Small)" Value="176859" />
+  <Preset Label="Sit (seating_Sit_Dog_Large)" Value="176860" />
+  <Preset Label="Sniff (pet_Poop_Sniff_LargeDog)" Value="176865" />
+  <Preset Label="Jumpy Play Idle (socials_Dogs_ActiveIdle_PlayGroup)" Tags="TestUnsafe" Value="176871" />
+  <Preset Label="Eat (pet_Poop_Eat_SmallDog)" Value="176894" />
+  <Preset Label="Stand and Watch (autonomous_Surface_Cat_StandWatch_CraneOnly)" Tags="TestUnsafe" Value="176897" />
+  <Preset Label="Listen to Singer-Songwriter (stereo_wall_listen_SingerSongWriter)" Value="176924" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_SingerSongWriter)" Value="176925" />
+  <Preset Label="Lie In (pet_LayDown_PetBed_Aggregate_Lay)" Value="176928" />
+  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter)" Value="176941" />
+  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter_HotTub)" Value="176942" />
+  <Preset Label="Get Comfortable (si_GetComfortable_DogSitDown)" Value="176989" />
+  <Preset Label="autonomous_ObjectPicker_PetOwner_Sleep_LeftAtHome_OnObject" Tags="TestUnsafe" Value="176993" />
+  <Preset Label="Sleep (pet_Sleep_Aggregate_LeftAtHome_Independent)" Value="176994" />
+  <Preset Label="Listen to Singer-Songwriter (stereo_earbuds_listen_SingerSongWriter)" Value="177005" />
+  <Preset Label="Begin Exam (vet_ExamObjects_StartExam_SmallPets)" Value="177018" />
+  <Preset Label="Begin Exam (vet_ExamObjects_StartExam_Autonomous_SmallPets)" Value="177020" />
+  <Preset Label="Idle Pass Turn (socials_Dogs_Idle_PassTurn)" Tags="TestUnsafe" Value="177031" />
+  <Preset Label="reaction_Mixers_Cat_Splashed" Value="177091" />
+  <Preset Label="Send Pet to Explore (si_GoNearObject_Leashed_SendPet_Bush)" Value="177109" />
+  <Preset Label="Sleep (petChild_Sleep_LeftAtHome_OnClosestObject)" Value="177278" />
+  <Preset Label="Sleep (petLarge_Sleep_LeftAtHome_OnClosestObject)" Value="177279" />
+  <Preset Label="Sleep (petSmall_Sleep_LeftAtHome_OnClosestObject)" Value="177280" />
+  <Preset Label="Send Pet to Explore (si_GoNearObject_Leashed_SendPet_DirtMound)" Value="177348" />
+  <Preset Label="Send Pet to Explore (si_GoNearObject_Leashed_SendPet_FishPile)" Value="177349" />
+  <Preset Label="Send Pet to Explore (si_GoNearObject_Leashed_SendPet_SeaweedPile)" Value="177350" />
+  <Preset Label="autonomous_OpenStreetInteractions_PeePoopObject" Tags="TestUnsafe" Value="177371" />
+  <Preset Label="Go Potty (pet_PeePoopInteraction_Dog_OpenStreet)" Value="177372" />
+  <Preset Label="aggregateSuperInteraction_Pet_SentOutside_Return" Value="177384" />
+  <Preset Label="Return to Lot (pet_HunterTrait_OpenStreet_Return_Owner)" Value="177389" />
+  <Preset Label="simPicker_Owner_ReturnHome" Tags="TestUnsafe" Value="177390" />
+  <Preset Label="Independent (pet_IndependentTrait_Behavior)" Value="177450" />
+  <Preset Label="Whine at Door (Pet_WhineAtDoor_Cat)" Value="177451" />
+  <Preset Label="Whine at Door (pet_WhineAtDoor_Dog)" Value="177453" />
+  <Preset Label="vet_social_Employee_BeginSpayNeuter" Value="177460" />
+  <Preset Label="vet_social_Employee_BeginUnSpayUnneuter" Value="177461" />
+  <Preset Label="Dog Play With {1.SimFirstName} (petSocial_DogToDog_SocialGroup_Play)" Value="177483" />
+  <Preset Label="aggregateSuperInteraction_Pet_WhineAtDoor" Value="177491" />
+  <Preset Label="autonomous_IndependentTrait_RunToObject" Tags="TestUnsafe" Value="177492" />
+  <Preset Label="Run Near (pet_IndependentTrait_Behavior_LetOut_RunNear_Dog)" Value="177496" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Doorbell_NoBark)" Value="177527" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Doorbell_Dog)" Value="177529" />
+  <Preset Label="Bark (socials_PetToPet_Dog_Bark_PlayGroup)" Tags="TestUnsafe" Value="177533" />
+  <Preset Label="Investigate (socials_PetToPet_Investigate_PlayGroup)" Tags="TestUnsafe" Value="177534" />
+  <Preset Label="Yowl (debug_cat_Yowl_Self)" Value="177536" />
+  <Preset Label="cat_GetOffCounter_Disciplined" Value="177540" />
+  <Preset Label="Introduction (socials_PetToSim_Introduction_Trait_Aggressive)" Value="177556" />
+  <Preset Label="Introduction (socials_PetToSim_Introduction_Trait_Friendly)" Value="177557" />
+  <Preset Label="Hug (petSocials_SimToPet_Hug_WelcomeBack_LargePet)" Value="177570" />
+  <Preset Label="Hug (petSocials_SimToPet_Hug_WelcomeBack_SmallPet)" Value="177571" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set12" Value="177589" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set1" Value="177590" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set2" Value="177591" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set3" Value="177592" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set4" Value="177593" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set5" Value="177594" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set6" Value="177595" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set7" Value="177596" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set8" Value="177597" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set9" Value="177598" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set10" Value="177599" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_AddChemical_set11" Value="177600" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set12" Value="177604" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set1" Value="177605" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set2" Value="177606" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set3" Value="177607" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set4" Value="177608" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set5" Value="177609" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set6" Value="177610" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set7" Value="177611" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set8" Value="177612" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set9" Value="177613" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set10" Value="177614" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set12" Value="177615" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set1" Value="177616" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set2" Value="177617" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set3" Value="177618" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set4" Value="177619" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set5" Value="177620" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set6" Value="177621" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set7" Value="177622" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set8" Value="177623" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set9" Value="177624" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set10" Value="177625" />
+  <Preset Label="Put_Away_Hidden" Value="177637" />
+  <Preset Label="vetMedicineStation_CraftItem_AddFirstIngredient_set11" Value="177638" />
+  <Preset Label="vetMedicineStation_CraftingItem_FinalPhase_set11" Value="177639" />
+  <Preset Label="Lie Down Here (layDown_Dog_Command_Forward)" Value="177676" />
+  <Preset Label="Sit Here (sitOnGround_Dog_Command_Forward)" Value="177677" />
+  <Preset Label="Vocal (pet_VocalTrait_SingRequestedSong)" Value="177686" />
+  <Preset Label="vetMedicineStation_Staging_Item_set12" Value="177724" />
+  <Preset Label="vetMedicineStation_Staging_Item_set1" Value="177725" />
+  <Preset Label="vetMedicineStation_Staging_Item_set2" Value="177726" />
+  <Preset Label="vetMedicineStation_Staging_Item_set3" Value="177727" />
+  <Preset Label="vetMedicineStation_Staging_Item_set4" Value="177728" />
+  <Preset Label="vetMedicineStation_Staging_Item_set5" Value="177729" />
+  <Preset Label="vetMedicineStation_Staging_Item_set6" Value="177730" />
+  <Preset Label="vetMedicineStation_Staging_Item_set7" Value="177731" />
+  <Preset Label="vetMedicineStation_Staging_Item_set8" Value="177732" />
+  <Preset Label="vetMedicineStation_Staging_Item_set9" Value="177733" />
+  <Preset Label="vetMedicineStation_Staging_Item_set10" Value="177734" />
+  <Preset Label="vetMedicineStation_Staging_Item_set11" Value="177735" />
+  <Preset Label="Listen to {1.SimFirstName} (petSocials_SimToPet_Listen)" Value="177751" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set12" Value="177779" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set1" Value="177780" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set2" Value="177781" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set3" Value="177782" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set4" Value="177783" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set5" Value="177784" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set6" Value="177785" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set7" Value="177786" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set8" Value="177787" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set9" Value="177788" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set10" Value="177789" />
+  <Preset Label="craftingStepInteraction_VetMedicineStation_CreateItem_Idle_set11" Value="177790" />
+  <Preset Label="Carry Crate to Front Door (petCare_CreateCrate_NearPetCareWorker)" Value="177838" />
+  <Preset Label="mixerInteraction_Pets_SleepOnGround_Back" Value="177849" />
+  <Preset Label="mixerInteraction_Pets_SleepOnGround_BackQuirk" Value="177850" />
+  <Preset Label="mixerInteraction_Pets_SleepOnGround_ConeOfShame" Value="177851" />
+  <Preset Label="mixerInteraction_Pets_SleepOnGround_Curl" Value="177852" />
+  <Preset Label="mixerInteraction_Pets_SleepOnGround_CurlQuirk" Value="177853" />
+  <Preset Label="mixerInteraction_Pets_SleepOnGround_Stomach" Value="177854" />
+  <Preset Label="mixerInteraction_Pets_SleepOnGround_StomachQuirk" Value="177855" />
+  <Preset Label="mixerInteraction_Pets_LazeOnGround" Value="177874" />
+  <Preset Label="mixerInteraction_Pets_LazeOnGroundOnObject_Watch" Value="177875" />
+  <Preset Label="mixerInteraction_Pets_LazeOnGround_Groom_Cat" Value="177880" />
+  <Preset Label="mixerInteraction_Pets_LazeOnGround_Groom_Dog" Value="177881" />
+  <Preset Label="mixerInteraction_Pets_LazeOnGround_Watch" Value="177884" />
+  <Preset Label="Begin Exam (vet_StartExam_Chooser_Player)" Value="177896" />
+  <Preset Label="Begin Exam (vet_StartExam_Chooser_Employee)" Value="177897" />
+  <Preset Label="Return to Lot (pet_HunterTrait_OpenStreet_Return_OutsideFrontDoor)" Value="177931" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_PetGift)" Value="177933" />
+  <Preset Label="Sign In (vetPodium_Player_PetOwner_CheckUpPet_Continuation_Phone)" Value="177937" />
+  <Preset Label="Sign In (vetPodium_Player_PetOwner_CureSickness_Continuation_Phone)" Value="177938" />
+  <Preset Label="Sign In (vetPodium_Player_PetOwner_Spay_Continuation_Phone)" Value="177939" />
+  <Preset Label="Sign In (vetPodium_Player_PetOwner_UnSpay_Continuation_Phone)" Value="177940" />
+  <Preset Label="Sign In (vetPodium_PetOwner_Continuations_CheckUpPet)" Value="177974" />
+  <Preset Label="Sign In (vetPodium_PetOwner_Continuations_CureSickness)" Value="177975" />
+  <Preset Label="Sign In (vetPodium_PetOwner_Continuations_Spay)" Value="177976" />
+  <Preset Label="Sign In (vetPodium_PetOwner_Continuations_Unspay)" Value="177977" />
+  <Preset Label="Free Period (debug_bushPet_Interactions_MakeAvailable)" Value="178009" />
+  <Preset Label="autonomousSimPicker_PickNeighbor" Tags="TestUnsafe" Value="178022" />
+  <Preset Label="si_Missing_Pets_Sad_Autonomous" Value="178025" />
+  <Preset Label="si_Immediate_GiveTrainingLoot" Value="178045" />
+  <Preset Label="layDownOnObject_Passive_Cat" Value="178049" />
+  <Preset Label="layDownOnObject_Passive_Dog" Value="178050" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_JumpOnCounters)" Value="178052" />
+  <Preset Label="Hairy (pet_HairyTrait_Behavior_AndStop)" Value="178055" />
+  <Preset Label="Hairy (pet_HairyTrait_Behavior_Cat_AndStop)" Value="178056" />
+  <Preset Label="si_GiveTownSquareNeighborLoot" Value="178060" />
+  <Preset Label="vet_Player_PetOwner_TreatmentSelections_DeductSpayNeuterPayment" Value="178063" />
+  <Preset Label="petRecipe_StorePickedPet" Value="178126" />
+  <Preset Label="go_to_leave_spawnPoint" Value="178138" />
+  <Preset Label="autonomous_ObjectPicker_Cat_LitterBox" Tags="TestUnsafe" Value="178146" />
+  <Preset Label="Go Home (missing_pet_returnChooser)" Value="178156" />
+  <Preset Label="Travel to the Docks (rabbitHole_HarborBoat_TravelTo_Harbor)" Value="178164" />
+  <Preset Label="Travel to the Coast (rabbitHole_BeachBoat_TravelTo_Beach)" Value="178165" />
+  <Preset Label="Travel to the Docks (go_To_Specific_Lot_HarborBoat_ToHarbor)" Value="178169" />
+  <Preset Label="Travel to the Coast (go_To_Specific_Lot_BeachBoat_ToBeach)" Value="178170" />
+  <Preset Label="mixerInteraction_Pets_SleepNear_Back" Value="178199" />
+  <Preset Label="mixerInteraction_Pets_SleepNear_BackQuirk" Value="178200" />
+  <Preset Label="mixerInteraction_Pets_SleepNear_ConeOfShame" Value="178201" />
+  <Preset Label="mixerInteraction_Pets_SleepNear_Curl" Value="178202" />
+  <Preset Label="mixerInteraction_Pets_SleepNear_CurlQuirk" Value="178203" />
+  <Preset Label="mixerInteraction_Pets_SleepNear_Stomach" Value="178204" />
+  <Preset Label="mixerInteraction_Pets_SleepNear_StomachQuirk" Value="178205" />
+  <Preset Label="Play with Cat Wand (petSocials_SimToPet_CatsOnly_CatWand_Success_Rainbow)" Value="178218" />
+  <Preset Label="Play with Cat Wand (petSocials_SimToPet_CatsOnly_CatWand_Failure_Rainbow)" Value="178220" />
+  <Preset Label="Laze (pet_Laze_UnderSurface_Cat)" Value="178231" />
+  <Preset Label="autonomous_ObjectPicker_PetCat_Laze_UnderTable" Tags="TestUnsafe" Value="178233" />
+  <Preset Label="Return Home (petSocials_SimToPet_ReturnFromAdventure)" Value="178257" />
+  <Preset Label="Return Home (pet_Adventure_ReturnHome)" Value="178259" />
+  <Preset Label="Eat (consumable_PetBowl_DogEat_Slotted)" Value="178264" />
+  <Preset Label="Hostile Chase (petSocials_PetToPet_InitializeChase_Aggressive)" Value="178267" />
+  <Preset Label="Fill and Call Pet (petBowl_Prep_RefillAndCall)" Value="178268" />
+  <Preset Label="Fill and Call Pet (petBowl_Prep_CallPet)" Value="178269" />
+  <Preset Label="Return Home (pet_Adventure_ReturnHome_Solo)" Value="178271" />
+  <Preset Label="React to Fear (debug_reactions_Pet_Fearful_VariedOutcome)" Value="178336" />
+  <Preset Label="Serve {1.ObjectName} (petRecipe_PickupFood_Homestyle)" Value="178344" />
+  <Preset Label="Serve {1.ObjectName} (petRecipe_PickupFood_Gourmet)" Value="178345" />
+  <Preset Label="mixer_Dog_Training_Human_Practice_NewTrick_Speak" Tags="TestUnsafe" Value="178373" />
+  <Preset Label="mixer_Dog_Training_Human_Practice_NewTrick_Sit" Tags="TestUnsafe" Value="178374" />
+  <Preset Label="mixer_Dog_Training_Human_Practice_NewTrick_LieDown" Tags="TestUnsafe" Value="178375" />
+  <Preset Label="mixer_Dog_Training_Human_Practice_NewTrick_PlayDead" Tags="TestUnsafe" Value="178376" />
+  <Preset Label="mixer_Dog_Training_Human_Practice_NewTrick_RollOver" Tags="TestUnsafe" Value="178377" />
+  <Preset Label="emotion_Idle_Pet_Cat_LayOn" Value="178395" />
+  <Preset Label="emotion_Idle_Pet_Dog_LayOn" Value="178396" />
+  <Preset Label="Groom (petSocial_CatToCat_Groom_Target)" Value="178419" />
+  <Preset Label="Move Away (SmallDog_FearfulRunaway)" Value="178424" />
+  <Preset Label="Unleash (immediateSI_Unleash)" Value="178460" />
+  <Preset Label="autonomous_ObjectPicker_Misbehaviors_ScratchFurniture" Tags="TestUnsafe" Value="178480" />
+  <Preset Label="autonomous_ObjectPicker_Misbehaviors_JumpOnCounters_Dog" Tags="TestUnsafe" Value="178481" />
+  <Preset Label="autonomous_ObjectPicker_Misbehaviors_BegForFood_Dog" Tags="TestUnsafe" Value="178483" />
+  <Preset Label="autonomous_ObjectPicker_Misbehaviors_JumpOnCoffeeTables" Tags="TestUnsafe" Value="178484" />
+  <Preset Label="autonomous_ObjectPicker_Misbehaviors_JumpOnCounters_Cat" Tags="TestUnsafe" Value="178486" />
+  <Preset Label="autonomous_ObjectPicker_Misbehaviors_BegForFood_Cat" Tags="TestUnsafe" Value="178488" />
+  <Preset Label="autonomousSimPicker_Bark_Misbehavior" Tags="TestUnsafe" Value="178489" />
+  <Preset Label="Bat At (laundry_Pet_ClothesLine_Cat_BatAt)" Value="178498" />
+  <Preset Label="Rummage in Laundry (laundry_Pet_Rummage_Dog)" Value="178499" />
+  <Preset Label="Rummage in Laundry (laundry_Pet_Rummage)" Value="178500" />
+  <Preset Label="Watch Laundry (laundry_Pet_Watch_Dryer)" Value="178502" />
+  <Preset Label="Watch Laundry (laundry_Pet_Watch_WashingMachine)" Value="178503" />
+  <Preset Label="Calm Down {1.SimFirstName} (petSocial_SimToPet_PetCalmDown_Cat)" Value="178505" />
+  <Preset Label="Calm Down {1.SimFirstName} (petSocial_SimToPet_PetCalmDown_Dog)" Value="178506" />
+  <Preset Label="Calm Down {1.SimFirstName} (petSocial_SimToPet_PetCalmDown_Aggressive_Dog)" Value="178509" />
+  <Preset Label="Calm Down {1.SimFirstName} (petSocial_SimToPet_PetCalmDown_Aggressive_Cat)" Value="178511" />
+  <Preset Label="dog_JumpOnCoffeeTable_GrabAt" Value="178545" />
+  <Preset Label="dog_JumpOnCoffeeTable_GrabFood" Value="178546" />
+  <Preset Label="dog_JumpOnCoffeeTable_Look" Value="178547" />
+  <Preset Label="Ask to Go Potty (mixerSocial_Targeted_SimToPet_Friendly_AskToPotty)" Tags="TestUnsafe" Value="178553" />
+  <Preset Label="Drink (drink_Coffee_Generic_Consume_MarketStall)" Value="178571" />
+  <Preset Label="Get Toy For... (petToyBox_GetRandomToy_picker_OfferCatWand)" Tags="TestUnsafe" Value="178579" />
+  <Preset Label="vet_Situation_AcceptedPatient" Value="178644" />
+  <Preset Label="pet_LotTrait_RoutetoDoor" Value="178654" />
+  <Preset Label="React to Fear (reactions_Pet_Fearful_VariedOutcome_FireObject)" Value="178657" />
+  <Preset Label="Initiate Pet from {1.SimFirstName} (petSocials_PetToSim_Initiate_PetPet_FriendlyTrait)" Value="178671" />
+  <Preset Label="Heel (walk_Dog_HeelCommand)" Value="178697" />
+  <Preset Label="Heel (walk_Dog_HeelCommand_LeftHand)" Value="178707" />
+  <Preset Label="Play in a Puddle (dog_Picked_PuddlesPlay)" Value="178709" />
+  <Preset Label="Heel (walk_Dog_Heel_Command)" Value="178718" />
+  <Preset Label="Heel (aggregateSuperInteraction_HeelCommand)" Value="178725" />
+  <Preset Label="Play in Puddle With (simPickerInteraction_PlayInPuddle)" Tags="TestUnsafe" Value="178729" />
+  <Preset Label="Play In (puddle_Play_ChildWithDog)" Value="178730" />
+  <Preset Label="Nuzzle (petSocials_PetToSim_Greeting_Nuzzle_SI)" Value="178775" />
+  <Preset Label="autonomous_ObjectPicker_Pet_Nap_NearObject_Walkbys" Tags="TestUnsafe" Value="178785" />
+  <Preset Label="autonomous_Birdflock_Picker_Dog" Tags="TestUnsafe" Value="178791" />
+  <Preset Label="autonomous_Birdflock_Picker_Cat" Tags="TestUnsafe" Value="178792" />
+  <Preset Label="Eat (autonomous_ObjectPicker_Dog_ConsumePetBowl)" Tags="TestUnsafe" Value="178962" />
+  <Preset Label="Eat (autonomous_ObjectPicker_Cat_ConsumePetBowl)" Tags="TestUnsafe" Value="178964" />
+  <Preset Label="mixerInteraction_Pets_LazeNear" Value="178981" />
+  <Preset Label="mixerInteraction_Pets_LazeNearOnObject_Watch" Value="178982" />
+  <Preset Label="mixerInteraction_Pets_LazeNear_Groom_Cat" Value="178987" />
+  <Preset Label="mixerInteraction_Pets_LazeNear_Groom_Dog" Value="178988" />
+  <Preset Label="mixerInteraction_Pets_LazeNear_Watch" Value="178991" />
+  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter_HotTub_NotInHotTub)" Value="179366" />
+  <Preset Label="si_GoNearObject_Cat_Tombstone" Value="179557" />
+  <Preset Label="Sit (seating_Sit_Cat_NoKitten)" Value="179943" />
+  <Preset Label="Lay On (generic_Cat_layDownOnObject_NoKitten)" Value="180333" />
+  <Preset Label="Bark At (dog_Bark_Targeted_Skeleton)" Value="180827" />
+  <Preset Label="React to Something (reactions_Pet_Minor_Cage_View)" Value="183876" />
+  <Preset Label="React to Something (reactions_Pet_Minor_Cage_Cat_Paw_At)" Value="183877" />
+  <Preset Label="React to Something (reactions_Pet_Minor_Cage_Cat_Meow_at)" Value="183878" />
+  <Preset Label="React to Something (reactions_Pet_Minor_Cage_Dog_Bark_At)" Value="183879" />
+  <Preset Label="React to Something (reactions_Pet_Minor_Cage_Dog_Sniff)" Value="183880" />
+  <Preset Label="React to Something (reactions_Pet_Minor_Cage_Cat_Paw_At_Low)" Value="183882" />
+  <Preset Label="autonomous_Generic_Obsession_Pet_Minor_Cage" Tags="TestUnsafe" Value="184413" />
+  <Preset Label="Talk to {1.SimFirstName} (petSocials_SimToPet_NonTouching_Pickup)" Value="186124" />
+  <Preset Label="Autonomous_ObjectPicker_Dog_ToyBall" Tags="TestUnsafe" Value="191482" />
+  <Preset Label="Adopt Dog (adopt_Picker_Dog_Free)" Tags="TestUnsafe" Value="199514" />
+  <Preset Label="Adopt Dog (adopt_Picker_Dog_Phone_Free)" Tags="TestUnsafe" Value="199517" />
+  <Preset Label="Adopt Cat (adopt_Picker_Cat_Service_Free)" Tags="TestUnsafe" Value="199519" />
+  <Preset Label="Adopt Cat (adopt_Picker_Cat_Phone_Free)" Tags="TestUnsafe" Value="199521" />
+  <Preset Label="Adopt (petSocials_SimToPet_Hug_Adopt_SmallPet_Service_Free)" Value="200941" />
+  <Preset Label="Adopt (petSocial_SimToPet_Hug_Adopt_LargePet_Service_Free)" Value="200943" />
+  <Preset Label="Investigate (pet_Investigate_Hunter_DenzienPond_Cat)" Value="201519" />
+  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter_Smart_Hub)" Value="203849" />
+  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter_WaterScooter)" Value="205206" />
+  <Preset Label="Investigate (pet_Investigate_Mermaid)" Value="212925" />
+  <Preset Label="Energy Failure (sim_Dog_EnergyFailure_Wading)" Value="214240" />
+  <Preset Label="rabbitHole_Pet_Familiar" Value="215521" />
+  <Preset Label="rabbitHole_Pet_Familiar_Forage" Value="215522" />
+  <Preset Label="Carry (Familiar_Forage)" Value="215523" />
+  <Preset Label="Old Age (Death_OldAge_RoutetoShore_Dog)" Value="215567" />
+  <Preset Label="Old Age (Death_OldAge_TestLocation_Dog)" Value="215568" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_SurgeryStation)" Value="216932" />
+  <Preset Label="Travel to the Docks With (rabbitHole_harborBoat_Picker_TravelWith_Harbor)" Tags="TestUnsafe" Value="216960" />
+  <Preset Label="Travel to the Coast With (rabbitHole_harberBoat_Picker_TravelWith_Beach)" Tags="TestUnsafe" Value="216962" />
+  <Preset Label="Simstagram Pet (simPicker_Photography_SimstagramPet_Pro)" Tags="TestUnsafe" Value="217157" />
+  <Preset Label="Simstagram Pet (sI_Photography_SimstagramPet_Pro)" Value="217158" />
+  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter_Bot)" Value="223582" />
+  <Preset Label="Drink (dog_Misbehaviors_ToiletDrink_Stall)" Value="229259" />
+  <Preset Label="React To Ghost (reactions_Pet_Ghost_HauntedHouse)" Value="255174" />
+  <Preset Label="Pet (petSocial_SimToPet_PetPet_Bonehilda)" Value="256927" />
+  <Preset Label="autonomous_Generic_Obsession_Vacuum" Tags="TestUnsafe" Value="257151" />
+  <Preset Label="Obsess - Investigate (petInvestigate_LazyTrait_Obsess_Watch_Vacuum)" Value="257152" />
+  <Preset Label="Obsess - Investigate (petInvestigate_Obsess_Watch_Vacuum)" Value="257153" />
+  <Preset Label="Play in Water (super_Ponds_PlayIn_Pet)" Value="260732" />
+  <Preset Label="Bark At (SI_AnimalObjects_SimAnimals_Dog_BarkAt)" Value="264989" />
+  <Preset Label="Meow At (SI_AnimalObjects_SimAnimals_Cat_MeowAt)" Value="264990" />
+  <Preset Label="Fear - Wary Watch (SI_AnimalObjects_SimAnimals_Cat_Watch)" Value="264994" />
+  <Preset Label="Fear - Wary Watch (SI_AnimalObjects_SimAnimals_Dog_Watch)" Value="264995" />
+  <Preset Label="Shoo {1.SimFirstName} Away (foxSocial_Dog_ScareOff)" Value="265036" />
+</PresetGroup>

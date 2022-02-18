@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions GP03">
+  <Preset Label="Enthuse about Meal (mixer_socials_EnthuseAboutMeal_Targeted_Friendly_AlwaysOn_DiningSocials)" Tags="TestUnsafe" Value="130268" />
+  <Preset Label="Complain about Dish (mixer_socials_ComplainAboutDish_Targeted_Friendly_AlwaysOn_DiningSocials)" Tags="TestUnsafe" Value="130274" />
+  <Preset Label="Discuss Food Flavors (mixer_socials_DiscussFoodFlavors_Targeted_Friendly_AlwaysOn_DiningSocials)" Tags="TestUnsafe" Value="130275" />
+  <Preset Label="Chef Station Prep (test) (chefStation_CuttingBoard_Active)" Value="130444" />
+  <Preset Label="Chef Station Pot (test) (chefStation_Pot_Idle)" Value="130445" />
+  <Preset Label="Chef Station Pan (test) (chefStation_Pan_Idle)" Value="130446" />
+  <Preset Label="food_eat_active_experimental" Value="130618" />
+  <Preset Label="Listen to Jazz (stereo_Listen_DinnerJazz)" Value="130741" />
+  <Preset Label="Listen to Jazz (stereo_Listen_DinnerJazz_HotTub)" Value="130742" />
+  <Preset Label="Listen to Jazz (stereoWall_Listen_DinnerJazz)" Value="130760" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_DinnerJazz)" Value="130761" />
+  <Preset Label="Dump Dishes (si_waiterStation_dumpDishes)" Value="130773" />
+  <Preset Label="Compliment Cooking (chefStation_Compliment)" Value="131062" />
+  <Preset Label="chefStation_ChefReplies" Value="131063" />
+  <Preset Label="Insult Cooking (chefStation_Insult)" Value="131067" />
+  <Preset Label="Feed a Bite (mixer_social_SitIntimate_FeedABite_targeted_romance_alwaysOn)" Tags="TestUnsafe" Value="131172" />
+  <Preset Label="Begin (test) (chefStation_Begin)" Value="131298" />
+  <Preset Label="Take Reservation (hostStation_HostIdle_Phone)" Value="131310" />
+  <Preset Label="Browse Reservations (hostStation_HostIdle_TouchScreen)" Value="131311" />
+  <Preset Label="Hire Chef (object_HireNPC_Chef)" Value="131318" />
+  <Preset Label="Hire Specific Chef (chefStation_HireSpecificNPC_Picker)" Tags="TestUnsafe" Value="131340" />
+  <Preset Label="Enthuse about Meal (mixer_socials_EnthuseAboutExperimentalFood_Targeted_Friendly_AlwaysOn_DiningSocials)" Tags="TestUnsafe" Value="131559" />
+  <Preset Label="Complain about Dish (mixer_socials_ComplainAboutExperimentalFood_Targeted_Friendly_AlwaysOn_DiningSocials)" Tags="TestUnsafe" Value="131561" />
+  <Preset Label="Discuss Food Flavors (mixer_socials_DiscussExperimentalFood_Targeted_Friendly_AlwaysOn_DiningSocials)" Tags="TestUnsafe" Value="131580" />
+  <Preset Label="Chef Station Pot (test) (chefStation_Pot_Active)" Value="131594" />
+  <Preset Label="Chef Station Pan (test) (chefStation_Pan_Active)" Value="131596" />
+  <Preset Label="Serve (test) (chefStation_Serve)" Value="131738" />
+  <Preset Label="Add Order (chefStation_AddOrder)" Value="131743" />
+  <Preset Label="chefStation_PrepCuttingBoard_Mixer" Value="131798" />
+  <Preset Label="chefStation_PanCook_Mixer" Value="131799" />
+  <Preset Label="chefStation_PotCook_Mixer" Value="131800" />
+  <Preset Label="chefStation_PotCook_Active_Mixer" Value="131811" />
+  <Preset Label="chefStation_PanCook_Active_Mixer" Value="131812" />
+  <Preset Label="Cook at Pot (test) (chefStation_Pot_Aggregate)" Value="131816" />
+  <Preset Label="Cook at Pan (test) (chefStation_Pan_Aggergate)" Value="131817" />
+  <Preset Label="Post Photo on Simstagram (phone_PostPhotoOnSimstigram_InventoryOnly)" Value="131875" />
+  <Preset Label="Report Food Poisoning (phone_ReportFoodPoisoning)" Value="131915" />
+  <Preset Label="Complain about Food Poisoning (mixer_social_ComplainAboutFoodPoisoning_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="131924" />
+  <Preset Label="Brag about Surviving Food Poisoning (mixer_social_BragAboutFoodPoisoning_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="132018" />
+  <Preset Label="Waiter Idle (si_waiterStation_Idle)" Value="132223" />
+  <Preset Label="mixer_WaitStaff_LookAround" Value="132226" />
+  <Preset Label="mixer_WaitStaff_NotePadFlip" Value="132227" />
+  <Preset Label="mixer_WaitStaff_WaitLoop1" Value="132228" />
+  <Preset Label="mixer_WaitStaff_WaitLoop2" Value="132229" />
+  <Preset Label="Serve Food (si_waitStaff_ServeFood)" Value="132233" />
+  <Preset Label="Pick Up Food Platter (si_waitStaff_PickupFoodPlatter)" Value="132238" />
+  <Preset Label="Ask to Deliver Compliment to Chef (si_simPicker_ComplimentChef)" Tags="TestUnsafe" Value="132342" />
+  <Preset Label="Ask to Deliver Insult to Chef (si_simPicker_InsultChef)" Tags="TestUnsafe" Value="132343" />
+  <Preset Label="Ask to Deliver Compliment (mixer_social_AskToDeliverCompliment_Targeted_Friendly_AlwaysOn_WaitStaff)" Tags="TestUnsafe" Value="132345" />
+  <Preset Label="Ask To Deliver Insult (mixer_social_AskToDeliverInsult_Targeted_Friendly_AlwaysOn_WaitStaf)" Tags="TestUnsafe" Value="132346" />
+  <Preset Label="Add Order (Debug) (chefStation_AddOrder_Debug)" Value="132386" />
+  <Preset Label="Pickup Food Platter (Debug) (si_waitStaff_PickupFoodPlatter_Debug)" Value="132388" />
+  <Preset Label="Serve Food (Debug) (si_waitStaff_ServeFood_Debug)" Value="132393" />
+  <Preset Label="Add Food Poisoning (debug_Food_ToggleFoodPoisoning)" Value="132402" />
+  <Preset Label="Debug: Route to Host Station (hostStation_DinerArrival_RouteInFrontOf)" Value="132487" />
+  <Preset Label="Request Table (hostStation_RequestTable)" Value="132499" />
+  <Preset Label="Reserve Table (hostStation_RequestTable_Host)" Value="132539" />
+  <Preset Label="Serve Food (si_waitStaff_DeliverFood)" Value="132598" />
+  <Preset Label="Order for Table (si_waitStaff_Customer_OrderForTable)" Value="132599" />
+  <Preset Label="Order for Table (si_waitStaff_Customer_OrderForTable_NPCOnly)" Value="132600" />
+  <Preset Label="End Meal and Pay Bill (si_waitStaff_Customer_PayBill_FromTable)" Value="132601" />
+  <Preset Label="React to Food (si_waitStaff_Customer_FoodServeReactions)" Value="132605" />
+  <Preset Label="Claim Table (restaurantTable_Claim)" Value="132607" />
+  <Preset Label="Debug: Route to Chef Station (chefStation_DinerArrival_RouteInFrontOf)" Value="132650" />
+  <Preset Label="Claim Table (restaurantTable_Claim_Diner_NPC)" Value="132662" />
+  <Preset Label="React to Spill (si_waitStaff_Customer_SpillReaction)" Value="132665" />
+  <Preset Label="hostStation_Host_Arrival" Value="132745" />
+  <Preset Label="Request Table (hostStation_RequestTable_Start)" Value="132763" />
+  <Preset Label="Order for Table (si_waitStaff_Customer_OrderForTable_FromTable)" Value="132765" />
+  <Preset Label="idle_Buff_FoodPoisoning" Value="132968" />
+  <Preset Label="Sit (chair_Restaurant_ClaimSeat)" Value="132978" />
+  <Preset Label="chefStation_WaitForFood_StandInFront" Value="133113" />
+  <Preset Label="Serve Food (si_waitStaff_DeliverFood_Debug)" Value="133142" />
+  <Preset Label="Request Table (simPicker_HostStation_RequestTable)" Tags="TestUnsafe" Value="133148" />
+  <Preset Label="Place Order (chefStation_PlaceOrderAtChefStation)" Value="133165" />
+  <Preset Label="idle_Buff_Restaurant_BrowseMenu" Value="133174" />
+  <Preset Label="Wait for Order (chefStation_Wait)" Value="133230" />
+  <Preset Label="Take Photo of Experimental Food (si_TakePhoto_ExperimentalFood)" Value="133275" />
+  <Preset Label="Take Order (waitstaff_TakeOrder)" Value="133562" />
+  <Preset Label="Order for Table (waitStaff_TakeOrder_Customer)" Value="133621" />
+  <Preset Label="Draw on Placemat (placemat_Craft_Autonomously)" Value="133638" />
+  <Preset Label="Be Seated (hostStation_Host_HeresYourTable)" Value="133640" />
+  <Preset Label="Compliment the Chef (chefStation_Talk_Compliment)" Value="133651" />
+  <Preset Label="Insult the Chef (chefStation_Talk_Insult)" Value="133652" />
+  <Preset Label="placemat_Draw" Value="133685" />
+  <Preset Label="placemat_Idle" Value="133686" />
+  <Preset Label="placemat_CreatePicture" Value="133689" />
+  <Preset Label="placemat_ColorPicture_Staging" Value="133690" />
+  <Preset Label="placemat_ColorPicture_Staging_Adult" Value="133710" />
+  <Preset Label="Compliment Chef (chef_Talk_Compliment)" Value="133718" />
+  <Preset Label="Insult Chef (chef_Talk_Insult)" Value="133719" />
+  <Preset Label="Place Order (chef_PlaceOrderAtChefStation)" Value="133720" />
+  <Preset Label="Compliment the Chef (chefStation_Talk_Compliment_Waiter)" Value="133737" />
+  <Preset Label="Insult the Chef (chefStation_Talk_Insult_Waiter)" Value="133739" />
+  <Preset Label="Resume {0.String} (crafting_Resume_Placemat)" Value="133744" />
+  <Preset Label="Clean Up (placemat_ScrapDrawing)" Value="133910" />
+  <Preset Label="Put in Inventory (placemat_MoveToInventory)" Value="133911" />
+  <Preset Label="Draw on Placemat (Placemat_StartDrawing_Seated)" Value="134034" />
+  <Preset Label="placemat_StartCraftPicture" Value="134099" />
+  <Preset Label="Wait for Order to be Delivered (si_waitStaff_Customer_WaitForFood)" Value="134538" />
+  <Preset Label="Request Table (simPicker_Host_RequestTable)" Tags="TestUnsafe" Value="134602" />
+  <Preset Label="Request Table (hostStation_RequestTable_SpecificTable)" Value="134607" />
+  <Preset Label="Request Table (hostStation_RequestTable_Start_NPC)" Value="134868" />
+  <Preset Label="Sit (seating_Sit_restaurant_rally_only)" Value="134949" />
+  <Preset Label="Check Up on Table (waitStaff_CheckOnTable)" Value="134954" />
+  <Preset Label="Be Checked Up on by Waiter (waitStaff_Customer_CheckOnTable)" Value="134957" />
+  <Preset Label="Go to Table (restuarants_Host_ShowToTable_Host)" Value="135088" />
+  <Preset Label="Go to Table (restuarants_Host_ShowToTable_Diner)" Value="135089" />
+  <Preset Label="Clean Up (placemat_ScrapDrawing_Standing)" Value="135158" />
+  <Preset Label="Put in Inventory (placemat_MoveToInventory_Standing)" Value="135160" />
+  <Preset Label="Cook an Experimental Meal (stove_CookExperimental)" Value="135398" />
+  <Preset Label="Request Table (simPicker_HostStation_PayBillAndLeave)" Tags="TestUnsafe" Value="135456" />
+  <Preset Label="Chocolate Cake (si_Restaurant_Customer_CreateCake_Chocolate)" Value="135550" />
+  <Preset Label="White Cake (si_Restaurant_Customer_CreateCake_White)" Value="135624" />
+  <Preset Label="Strawberry Cake (si_Restaurant_Customer_CreateCake_Strawberry)" Value="135625" />
+  <Preset Label="Blue Confetti Cake (si_Restaurant_Customer_CreateCake_Blue)" Value="135626" />
+  <Preset Label="Right This Way (hostStation_SocialSuperInteraction_RightThisWay)" Value="136024" />
+  <Preset Label="Post Photo on Simstagram (phone_PostPhotoOnSimstigram_Continuation)" Value="136079" />
+  <Preset Label="Post Photo on Simstagram (photography_PostPhotoToSimstigram_FromWorld)" Value="136084" />
+  <Preset Label="End Meal and Pay Bill (si_waitStaff_Customer_PayBill_FromWaiter)" Value="136620" />
+  <Preset Label="placemat_Idle_Negative" Value="136623" />
+  <Preset Label="placemat_Idle_Positive" Value="136624" />
+  <Preset Label="SimCity Cheesecake (si_Restaurant_Customer_CreateCake_Cheesecake)" Value="136792" />
+  <Preset Label="Tiered Cake (si_Restaurant_Customer_CreateCake_Tiered)" Value="136793" />
+  <Preset Label="Request Table (simPicker_HostStation_GiveUpTable)" Tags="TestUnsafe" Value="137225" />
+  <Preset Label="Take Photo of Experimental Food (si_TakePhoto_ExperimentalFood_PlayerSim_CurrentlyEating)" Value="137545" />
+  <Preset Label="Take Photo of Experimental Food (si_TakePhoto_ExperimentalFood_CurrentlyEating_Continuation)" Value="137548" />
+  <Preset Label="Praise (ownableRestaurant_Employee_Chef_Praise)" Value="137817" />
+  <Preset Label="Give Inspirational Speech (ownableRestaurant_Employee_Chef_Inspire)" Value="137818" />
+  <Preset Label="Criticize (ownableRestaurant_Employee_Chef_Criticize)" Value="137819" />
+  <Preset Label="Check Up On (ownableRestaurant_Employee_Chef_CheckUpOn)" Value="137823" />
+  <Preset Label="Normally (ownableRestaurant_Employee_Chef_AskToCook_Normally)" Value="137883" />
+  <Preset Label="Quickly (ownableRestaurant_Employee_Chef_AskToCook_Quickly)" Value="137884" />
+  <Preset Label="Carefully (ownableRestaurant_Employee_Chef_AskToCook_Carefully)" Value="137885" />
+  <Preset Label="Brief Training (ownableRestaurant_Employee_Chef_Training_Brief)" Value="138032" />
+  <Preset Label="Standard Training (ownableRestaurant_Employee_Chef_Training_Standard)" Value="138033" />
+  <Preset Label="Extensive Training (ownableRestaurant_Employee_Chef_Training_Extensive)" Value="138034" />
+  <Preset Label="Demote to {2.String} ({3.Money}/hr) (ownableBusiness_Employee_Socials_Career_Demote_Waiter)" Value="138161" />
+  <Preset Label="Demote to {2.String} ({3.Money}/hr) (ownableBusiness_Employee_Socials_Career_Demote_Host)" Value="138162" />
+  <Preset Label="Promote to {2.String} ({3.Money}/hr) (ownableBusiness_Employee_Socials_Career_Promote_Host)" Value="138168" />
+  <Preset Label="Promote to {2.String} ({3.Money}/hr) (ownableBusiness_Employee_Socials_Career_Promote_Waiter)" Value="138169" />
+  <Preset Label="Promote to {2.String} ({3.Money}/hr) (ownableRestaurant_Employee_Chef_Career_Promote)" Value="138185" />
+  <Preset Label="Demote to {2.String} ({3.Money}/hr) (ownableRestaurant_Employee_Chef_Career_Demote)" Value="138186" />
+  <Preset Label="Waiter Idle (si_chefStation_Idle)" Value="138209" />
+  <Preset Label="Demote Employee (ownableBusiness_Employee_Career_Demote_Phone_Waiter)" Value="138213" />
+  <Preset Label="Demote Employee (ownableBusiness_Employee_Career_Demote_Phone_Chef)" Value="138214" />
+  <Preset Label="Demote Employee (ownableBusiness_Employee_Career_Demote_Phone_Host)" Value="138215" />
+  <Preset Label="Demote Employee (ownableBusiness_Employee_Career_Demote_UI_Chef)" Value="138216" />
+  <Preset Label="Demote Employee (ownableBusiness_Employee_Career_Demote_UI_Host)" Value="138217" />
+  <Preset Label="Demote Employee (ownableBusiness_Employee_Career_Demote_UI_Waiter)" Value="138218" />
+  <Preset Label="Promote Employee (ownableBusiness_Employee_Career_Promote_Phone_Chef)" Value="138219" />
+  <Preset Label="Promote Employee (ownableBusiness_Employee_Career_Promote_Phone_Host)" Value="138220" />
+  <Preset Label="Promote Employee (ownableBusiness_Employee_Career_Promote_Phone_Waiter)" Value="138221" />
+  <Preset Label="Promote Employee (ownableBusiness_Employee_Career_Promote_UI_Chef)" Value="138222" />
+  <Preset Label="Promote Employee (ownableBusiness_Employee_Career_Promote_UI_Host)" Value="138223" />
+  <Preset Label="Promote Employee (ownableBusiness_Employee_Career_Promote_UI_Waiter)" Value="138224" />
+  <Preset Label="Request Table (hostStation_RequestTable_Start_SpecificTable)" Value="138330" />
+  <Preset Label="Buy a Restaurant (map_Picker_BuyOwnableRestaurantLot)" Tags="TestUnsafe" Value="138331" />
+  <Preset Label="ownableRestaurant_Immediate_SetLotOwner" Value="138332" />
+  <Preset Label="Buy a Restaurant (phone_BuyOwnableRestaurant)" Value="138401" />
+  <Preset Label="Request Table (hostStation_RequestTable_Rude)" Value="138501" />
+  <Preset Label="Request Table (hostStation_RequestTable_Pleasant)" Value="138502" />
+  <Preset Label="Request Table (hostStation_RequestTable_Delightful)" Value="138503" />
+  <Preset Label="chefStation_Feedback_Aggregate" Value="138537" />
+  <Preset Label="hostStation_RequestTableChooser" Value="138562" />
+  <Preset Label="Check On Table (ownableRestaurant_Owner_CheckOnTable)" Value="138914" />
+  <Preset Label="ownableRestaurant_Customer" Value="138918" />
+  <Preset Label="Recommend Dish (ownableRestaurant_Owner_RecommendDish)" Value="138922" />
+  <Preset Label="Comp Food (ownableRestaurant_Owner_FoodMatters_CompFood)" Value="139001" />
+  <Preset Label="Give Table Free Dessert (ownableRestaurant_Owner_FoodMatters_FreeDessert)" Value="139002" />
+  <Preset Label="Give Table Free Drinks (ownableRestaurant_Owner_FoodMatters_FreeDrinks)" Value="139003" />
+  <Preset Label="Prioritize Food (ownableRestaurant_Owner_FoodMatters_PrioritizeOrder)" Value="139004" />
+  <Preset Label="Wait to be Seated (restaurants_Customer_WaitForTable)" Value="139103" />
+  <Preset Label="food_Eat_Active_TakePhotoExperimental" Value="139116" />
+  <Preset Label="Serve Food (si_waitStaff_ServeFood_Spill)" Value="139216" />
+  <Preset Label="Sit (chair_Restaurant_ClaimSeat_barstool)" Value="139416" />
+  <Preset Label="Talk To Chef (chefStation_OrderFood)" Value="139458" />
+  <Preset Label="Clean Up (placemat_ScrapDrawing_Waitstaff)" Value="139510" />
+  <Preset Label="Hire Chef (ownableRestaurant_Immediate_HireEmployee_Chef)" Value="139897" />
+  <Preset Label="Hire Host (ownableRestaurant_Immediate_HireEmployee_Host)" Value="139898" />
+  <Preset Label="Hire Waiter (ownableRestaurant_Immediate_HireEmployee_Waiter)" Value="139899" />
+  <Preset Label="Buy a Restaurant (computer_BuyOwnableRestaurant)" Value="140368" />
+  <Preset Label="Send Chef Home (chefStation_SendHome)" Value="140388" />
+  <Preset Label="Send Chef Home (chef_SendHome)" Value="140399" />
+  <Preset Label="chefStation_Begin_HomeChef" Value="140476" />
+  <Preset Label="Hire Personal Chef (object_HireSpecificNPC_Chef)" Value="140718" />
+  <Preset Label="Throw Away (collect_ChefStationObject_As_Trash)" Value="140813" />
+  <Preset Label="Cook Experimental Food (fridge_CookExperimentalFoodAutonomously)" Value="140852" />
+  <Preset Label="Send Chef Home (chefStation_GetOut)" Value="141301" />
+  <Preset Label="idle_Buff_Restaurant_Critic_TakeNotes" Value="141392" />
+  <Preset Label="place order NPC (debug) (chefStation_PlaceOrderAtChefStation_NPC)" Value="141612" />
+  <Preset Label="ownableRestaurant_Immediate_WaitTime_Leaving" Value="142014" />
+  <Preset Label="Recommend Dish (ownableRestaurant_Immediate_RecommendDish)" Value="142544" />
+  <Preset Label="Fire (ownableRestaurant_Employee_Chef_Career_Fire)" Value="142601" />
+  <Preset Label="ownableRestaurant_Immediate_BuyFromUI" Value="143380" />
+  <Preset Label="Welcome (ownableRestaurant_Owner_Welcome)" Value="143485" />
+  <Preset Label="Hire Mixologist (object_HireNPC_Bartender_Restaurant)" Value="146861" />
+  <Preset Label="Listen to Jazz (stereo_earbuds_Listen_DinnerJazz)" Value="167566" />
+  <Preset Label="Listen to Jazz (stereo_Listen_DinnerJazz_HotTub_NotInHotTub)" Value="179359" />
+  <Preset Label="Listen to Jazz (stereo_Listen_DinnerJazz_SkatingRink)" Value="180029" />
+  <Preset Label="Listen to Jazz (stereo_Listen_DinnerJazz_Smart_Hub)" Value="203840" />
+  <Preset Label="Listen to Jazz (stereo_Listen_DinnerJazz_WaterScooter)" Value="205197" />
+  <Preset Label="Listen to Jazz (stereo_Listen_DinnerJazz_Bot)" Value="223594" />
+  <Preset Label="Cook an Experimental Meal (stove_CookExperimental_RequiredIngredients)" Value="261880" />
+</PresetGroup>

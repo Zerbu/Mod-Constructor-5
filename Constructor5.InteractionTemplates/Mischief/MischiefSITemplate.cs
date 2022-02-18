@@ -10,7 +10,7 @@ using Constructor5.Core;
 
 namespace Constructor5.InteractionTemplates.Mischief
 {
-    [SelectableObjectType("SocialInteractionTemplates", "Mischief Interaction")]
+    [SelectableObjectType("SocialInteractionTemplates", "MischiefInteraction")]
     [XmlSerializerExtraType]
     public class MischiefSITemplate : InteractionTemplate
     {

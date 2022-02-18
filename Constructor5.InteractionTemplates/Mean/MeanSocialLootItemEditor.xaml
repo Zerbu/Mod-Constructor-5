@@ -9,8 +9,8 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:CheckBox Content="Run on level 1 success" IsChecked="{Binding RunOnLevel1Success}" />
-        <c:CheckBox Content="Run on level 2 success" IsChecked="{Binding RunOnLevel2Success}" />
-        <c:CheckBox Content="Run on level 3 success" IsChecked="{Binding RunOnLevel3Success}" />
+        <c:CheckBox Content="Runonlevel1success" IsChecked="{Binding RunOnLevel1Success}" />
+        <c:CheckBox Content="Runonlevel2success" IsChecked="{Binding RunOnLevel2Success}" />
+        <c:CheckBox Content="Runonlevel3success" IsChecked="{Binding RunOnLevel3Success}" />
     </StackPanel>
 </UserControl>

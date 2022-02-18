@@ -58,7 +58,7 @@
                         <c:Field Label="Conditions" LabelWidth="100">
                             <testconditions:ConditionListControl ConditionList="{Binding SelectedItem.Conditions, ElementName=ListView}" RegistryCategory="HolidayTraditionConditionTypes" />
                         </c:Field>
-                        <c:Field Label="Preference" LabelWidth="100">
+                        <c:Field Label="CASPreference" LabelWidth="100">
                             <c:EnumSelectorControl SelectedItem="{Binding SelectedItem.Type, ElementName=ListView}" TypeName="HolidayTraditionPreferenceType">
                                 <c:EnumSelectorControl.Replacements>
                                     <c:EnumSelectorReplaceDictionary>

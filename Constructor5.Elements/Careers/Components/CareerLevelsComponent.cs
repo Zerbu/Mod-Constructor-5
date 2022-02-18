@@ -12,7 +12,7 @@ namespace Constructor5.Elements.Careers.Components
         [AutoTuneBasic("start_track")]
         public Reference BaseTrack { get; set; } // do not add = new Reference();
 
-        public override int ComponentDisplayOrder => 2;
+        public override int ComponentDisplayOrder => 3;
 
         public override string ComponentLabel => "Levels";
 

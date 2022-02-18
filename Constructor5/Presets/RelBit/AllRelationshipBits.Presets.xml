@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Label="All Relationship Bits">
+  <Preset Label="{M1.Brother}{F1.Sister} (family_brother_sister)" Value="8802" />
+  <Preset Label="{M1.Son}{F1.Daughter} (family_son_daughter)" Value="8805" />
+  <Preset Label="{M1.Grandson}{F1.Granddaughter} (family_grandchild)" Value="8807" />
+  <Preset Label="{M1.Grandfather}{F1.Grandmother} (family_grandparent)" Value="8808" />
+  <Preset Label="{M1.Father}{F1.Mother} (family_parent)" Value="8809" />
+  <Preset Label="Roommate (living_roommate)" Value="8812" />
+  <Preset Label="{M1.Stepbrother}{F1.Stepsister} (family_stepsibling)" Value="8824" />
+  <Preset Label="Cousin (family_cousin)" Value="8826" />
+  <Preset Label="{M1.Uncle}{F1.Aunt} (family_aunt_uncle)" Value="8829" />
+  <Preset Label="{M1.Nephew}{F1.Niece} (family_niece_nephew)" Value="9989" />
+  <Preset Label="romantic_FirstKiss" Value="10150" />
+  <Preset Label="Acquaintances (friendship-acquaintances)" Value="15792" />
+  <Preset Label="Best Friends (friendship-bff)" Value="15794" />
+  <Preset Label="Henchman (friendship-bff_Evil)" Value="15795" />
+  <Preset Label="Despised (friendship-despised)" Value="15796" />
+  <Preset Label="Friend (friendship-friend)" Value="15797" />
+  <Preset Label="Frenemies (friendship-friend_Evil)" Value="15798" />
+  <Preset Label="Good Friends (friendship-good_friends)" Value="15799" />
+  <Preset Label="Good Friends (friendship-good_friends_Evil)" Value="15800" />
+  <Preset Label="Nemesis (friendship-nemesis)" Value="15801" />
+  <Preset Label="Disliked (friendship-disliked)" Value="15802" />
+  <Preset Label="Has Met (should not be seen) (has_met)" Value="15803" />
+  <Preset Label="rbc_Family" Value="15806" />
+  <Preset Label="rbc_Friend_Track" Value="15807" />
+  <Preset Label="Impartial (relationshipBits_Friendship_NeutralBit)" Value="15809" />
+  <Preset Label="relationshipBits_Romance_NeutralBit" Value="15810" />
+  <Preset Label="Broken Up (romantic-Broken_Up)" Value="15811" />
+  <Preset Label="Broken Engagement (romantic-Broken_Up_Engaged)" Value="15812" />
+  <Preset Label="Despised Ex (romantic-Despised_Ex)" Value="15814" />
+  <Preset Label="Divorced (romantic-Divorced)" Value="15815" />
+  <Preset Label="Engaged (romantic-Engaged)" Value="15816" />
+  <Preset Label="Frustrated Ex (romantic-Frustrated_Ex)" Value="15817" />
+  <Preset Label="romantic-GettingMarried" Value="15818" />
+  <Preset Label="romantic-GotColdFeet" Value="15819" />
+  <Preset Label="Left at the Altar (romantic-LeftAtTheAltar)" Value="15821" />
+  <Preset Label="Spouse (romantic-Married)" Value="15822" />
+  <Preset Label="{M1.Boyfriend}{F1.Girlfriend} (romantic-Significant_Other)" Value="15825" />
+  <Preset Label="Awkward Friends (RomanticCombo_AwkwardFriends)" Value="15826" />
+  <Preset Label="RomanticCombo_AwkwardLovers" Value="15827" />
+  <Preset Label="Bad Match (RomanticCombo_BadMatch)" Value="15828" />
+  <Preset Label="Lovebirds (RomanticCombo_Lovebirds)" Value="15829" />
+  <Preset Label="Enemies with Benefits (RomanticCombo_EnemiesWithBenefits)" Value="15830" />
+  <Preset Label="RomanticCombo_Frenemies" Value="15831" />
+  <Preset Label="Hot and Cold (RomanticCombo_HotAndCold)" Value="15832" />
+  <Preset Label="&quot;It's Awkward&quot; (RomanticCombo_ItsAwkward)" Value="15833" />
+  <Preset Label="It's Complicated (RomanticCombo_ItsComplicated)" Value="15834" />
+  <Preset Label="It's Very Awkward (RomanticCombo_ItsVeryAwkward)" Value="15835" />
+  <Preset Label="It's Very Complicated (RomanticCombo_ItsVeryComplicated)" Value="15836" />
+  <Preset Label="Lovers (RomanticCombo_Lovers)" Value="15837" />
+  <Preset Label="Romantic Interest (RomanticCombo_RomanticInterest)" Value="15838" />
+  <Preset Label="Soulmates (RomanticCombo_Soulmates)" Value="15839" />
+  <Preset Label="Sweethearts (RomanticCombo_Sweethearts)" Value="15840" />
+  <Preset Label="Terrible Match (RomanticCombo_TerribleMatch)" Value="15841" />
+  <Preset Label="Total Opposites (RomanticCombo_TotalOpposites)" Value="15842" />
+  <Preset Label="Bad Romance (RomanticCombo_BadRomance)" Value="15843" />
+  <Preset Label="ShortTerm_InFightWith" Value="15845" />
+  <Preset Label="ShortTerm_InQuarrelWith" Value="15846" />
+  <Preset Label="Casual Discussion (relbit_SocialContext_Casual)" Value="24032" />
+  <Preset Label="Amorous Exchange (relbit_SocialContext_Romance_Amorous)" Value="24076" />
+  <Preset Label="Funny Conversation (relbit_SocialContext_Fun_Funny)" Value="24077" />
+  <Preset Label="Suggestive Conversation (relbit_SocialContext_Romance_Suggestive)" Value="24078" />
+  <Preset Label="Hilarious Repartee (relbit_SocialContext_Fun_Hilarious)" Value="24079" />
+  <Preset Label="Steamy Exchange (relbit_SocialContext_Romance_Steamy)" Value="24080" />
+  <Preset Label="Boring Conversation (relbit_SocialContext_Fun_Boring)" Value="24081" />
+  <Preset Label="Tedious Conversation (relbit_SocialContext_Fun_Tedious)" Value="24082" />
+  <Preset Label="Insufferably Tedious Conversation (relbit_SocialContext_Fun_InsufferablyTedious)" Value="24083" />
+  <Preset Label="Pleasant Conversation (relbit_SocialContext_Friendship_Friendly)" Value="24085" />
+  <Preset Label="Unpleasant Conversation (relbit_SocialContext_Friendship_Distasteful)" Value="24086" />
+  <Preset Label="Offensive Conversation (relbit_SocialContext_Friendship_Offensive)" Value="24087" />
+  <Preset Label="Abhorrent Confrontation (relbit_SocialContext_Friendship_Abhorrent)" Value="24088" />
+  <Preset Label="Awkward Encounter (relbit_SocialContext_Awkwardness_Awkward)" Value="24089" />
+  <Preset Label="Very Awkward Encounter (relbit_SocialContext_Awkwardness_VeryAwkward)" Value="24090" />
+  <Preset Label="{M1.Husband}{F1.Wife} (family_husband_wife)" Value="24490" />
+  <Preset Label="Enemies (SpecialBits_Enemy)" Value="26560" />
+  <Preset Label="Archenemies (SpecialBits_ArchEnemies)" Value="26561" />
+  <Preset Label="SpecialBits_DeclaredArchEnemy" Value="26566" />
+  <Preset Label="relationshipBits_Mischief_NeutralBit" Value="26922" />
+  <Preset Label="relationshipBits_Mischief_PartnersInCrime" Value="26923" />
+  <Preset Label="LoanRelationshipBits_Small" Value="28911" />
+  <Preset Label="LoanRelationshipBits_Large" Value="28912" />
+  <Preset Label="Bromantic Partner (friendship-bff_BromanticPartner)" Value="31211" />
+  <Preset Label="relbit_WritingJournalism_ArticleInterview" Value="33719" />
+  <Preset Label="relbit_WritingJournalism_ArticleInterviewNegative" Value="33720" />
+  <Preset Label="relbit_WritingJournalism_ArticleInterviewPositive" Value="33721" />
+  <Preset Label="romantic-HaveDoneWooHoo" Value="34619" />
+  <Preset Label="romantic-HasBeenUnfaithful" Value="36957" />
+  <Preset Label="SecretAgent_Investigated" Value="37066" />
+  <Preset Label="romantic_CheatedWith" Value="37265" />
+  <Preset Label="Dating (date_situation_bit)" Value="37762" />
+  <Preset Label="Debug Situation (debug_situation_bit)" Value="37769" />
+  <Preset Label="situation_bit_BirthdayGuest" Value="38420" />
+  <Preset Label="situation_bit_WeddingGuest" Value="38421" />
+  <Preset Label="situation_bit_WeddingCouple" Value="38422" />
+  <Preset Label="SecretAgent_ExposedAsSuperVillain" Value="38788" />
+  <Preset Label="SecretAgent_KnownSuperVillain" Value="38790" />
+  <Preset Label="romantic-LeaveAtTheAltar" Value="39356" />
+  <Preset Label="Neighbor (neighbor)" Value="75294" />
+  <Preset Label="ShortTermBits_QuickSocial_Hug_NotVisible" Value="77250" />
+  <Preset Label="ShortTermBits_QuickSocial_Kiss_NotVisible" Value="77251" />
+  <Preset Label="ShortTermBits_QuickSocial_ShowFunnyVideo_NotVisible" Value="77252" />
+  <Preset Label="ShortTerm_RecentFirstKiss" Value="77371" />
+  <Preset Label="Acquaintances (RomanticCombo_Acquaintances)" Value="77585" />
+  <Preset Label="Just Friends (RomanticCombo_JustFriends)" Value="77633" />
+  <Preset Label="Just Good Friends (RomanticCombo_JustGoodFriends)" Value="77634" />
+  <Preset Label="Disliked (RomanticCombo_Disliked)" Value="77647" />
+  <Preset Label="Despised (RomanticCombo_Despised)" Value="77648" />
+  <Preset Label="romantic-HaveDoneWooHoo_Recently" Value="97154" />
+  <Preset Label="ShortTerm_JustBrokeUpOrDivorced" Value="97332" />
+  <Preset Label="Romance Unlocked (Should not be seen, DNT) (HaveBeenRomantic)" Value="98756" />
+  <Preset Label="Promised (romantic-Promised)" Value="99429" />
+  <Preset Label="SecretAgent_DefeatedSuperVillain" Value="99522" />
+  <Preset Label="romantic-RenewingVows" Value="99616" />
+  <Preset Label="ShortTerm_RecentNegativeSocial" Value="99712" />
+  <Preset Label="relbit_Pregnancy_Birthparent" Value="100705" />
+  <Preset Label="Widow (romantic-Widow)" Value="102081" />
+  <Preset Label="Widower (romantic-Widower)" Value="102911" />
+  <Preset Label="Deceased Spouse (romantic_DeadSpouse)" Value="104161" />
+  <Preset Label="Co-Workers (relationshipbit_CoWorkers)" Value="107373" />
+  <Preset Label="Casual Discussion (relbit_SocialContext_Awkwardness_Casual)" Value="115902" />
+  <Preset Label="Casual Discussion (relbit_SocialContext_Fun_Casual)" Value="115903" />
+  <Preset Label="Casual Discussion (relbit_SocialContext_Romance_Casual)" Value="115904" />
+  <Preset Label="Play Friend (playdate_situation_bit)" Value="117189" />
+  <Preset Label="situation_bit_WelcomeWagonGuest" Value="120016" />
+  <Preset Label="SpecialBits_Greeted" Value="122768" />
+  <Preset Label="HasBeenFriends" Value="129295" />
+  <Preset Label="shortTermBits_KickedOut_InappropriateBehavior" Value="129869" />
+  <Preset Label="shortTermBits_Restuarants_Dining" Value="132610" />
+  <Preset Label="Stranger (toddler_stranger)" Value="141125" />
+  <Preset Label="Caregiver (toddler_notParent_CareGiver)" Value="146488" />
+  <Preset Label="Dependent (toddler_notParent_CareDependent)" Value="152851" />
+  <Preset Label="relationshipBit_Toddler_CareGiverEffective" Value="155918" />
+  <Preset Label="relationshipBit_Toddler_CareDependentEffective" Value="155923" />
+  <Preset Label="Indifferent (simToPet_RelationshipBit_Indifferent_NeutralBit)" Value="159230" />
+  <Preset Label="Despised (simToPet_RelationshipBit_00_Despised)" Value="159231" />
+  <Preset Label="Disliked (simToPet_RelationshipBit_01_Disliked)" Value="159232" />
+  <Preset Label="Acquaintance (simToPet_RelationshipBit_02_Acquaintance)" Value="159233" />
+  <Preset Label="Good Friend (simToPet_RelationshipBit_04_GoodFriend)" Value="159234" />
+  <Preset Label="Companion (simToPet_RelationshipBit_05_Companion)" Value="159235" />
+  <Preset Label="Friend (simToPet_RelationshipBit_03_Friend)" Value="159236" />
+  <Preset Label="Key Holder (relBit_Neighbor_hasKey)" Value="195367" />
+  <Preset Label="rbc_Child" Value="195565" />
+  <Preset Label="Acquaintances (object-friendship-acquaintances)" Value="204519" />
+  <Preset Label="Despised (object-friendship-despised)" Value="204523" />
+  <Preset Label="Disliked (object-friendship-disliked)" Value="204524" />
+  <Preset Label="Friend (object-friendship-friend)" Value="204525" />
+  <Preset Label="Good Friends (object-friendship-good_friends)" Value="204527" />
+  <Preset Label="Nemesis (object-friendship-nemesis)" Value="204529" />
+  <Preset Label="Furious (sentimentBit_Furious_ST_generic)" Value="239980" />
+  <Preset Label="Festering Grudge (sentimentBit_Bitter_LT_grudge)" Value="239982" />
+  <Preset Label="Deeply Connected (sentimentBit_Close_LT_generic)" Value="239984" />
+  <Preset Label="Smitten (sentimentBit_Enamored_ST_generic)" Value="239988" />
+  <Preset Label="rbc_Sentiment_Close" Value="240103" />
+  <Preset Label="rbc_Sentiment_Bitter" Value="240104" />
+  <Preset Label="rbc_Sentiment_Furious" Value="240105" />
+  <Preset Label="rbc_Sentiment_Enamored" Value="240107" />
+  <Preset Label="rbc_Sentiment_Positive" Value="240109" />
+  <Preset Label="rbc_Sentiment_Negative" Value="240110" />
+  <Preset Label="rbc_Sentiment_ShortTerm" Value="240113" />
+  <Preset Label="rbc_Sentiment_LongTerm" Value="240114" />
+  <Preset Label="rbc_Romantic" Value="240628" />
+  <Preset Label="rbc_Sentiment_Hurt" Value="246490" />
+  <Preset Label="rbc_Sentiment_Guilty" Value="246491" />
+  <Preset Label="rbc_Sentiment_Adoring" Value="246492" />
+  <Preset Label="Adoring (sentimentBit_Adoring_ST_generic)" Value="246530" />
+  <Preset Label="Impressed (sentimentBit_Adoring_ST_impressed)" Value="246535" />
+  <Preset Label="Betrayed by Cheating (sentimentBit_Bitter_LT_cheating)" Value="246536" />
+  <Preset Label="Bitter about Breakup (sentimentBit_Bitter_ST_breakup)" Value="246538" />
+  <Preset Label="Resentful about Divorce (sentimentBit_Bitter_ST_divorce)" Value="246539" />
+  <Preset Label="Grudging after a Fight (sentimentBit_Bitter_ST_fight)" Value="246597" />
+  <Preset Label="Growing Closer from Quality Time (sentimentBit_Close_ST_qualityTime)" Value="246603" />
+  <Preset Label="Closer from Happy Memories (sentimentBit_Close_ST_generic)" Value="246604" />
+  <Preset Label="Closer after a Fun Party (sentimentBit_Close_ST_party)" Value="246606" />
+  <Preset Label="Open-Hearted (sentimentBit_Close_ST_adoption)" Value="246610" />
+  <Preset Label="Deeply in Love (sentimentBit_Enamored_LT_generic)" Value="246613" />
+  <Preset Label="Furious about Cheating (sentimentBit_Furious_ST_cheating)" Value="246622" />
+  <Preset Label="Infuriated about Cancelled Wedding (sentimentBit_Furious_ST_wedding)" Value="246623" />
+  <Preset Label="Guilty (sentimentBit_Guilty_ST_generic)" Value="246630" />
+  <Preset Label="Awkward after a Bad Date (sentimentBit_Guilty_ST_awkwardDate)" Value="246631" />
+  <Preset Label="Ashamed of a Terrible Party (sentimentBit_Guilty_ST_badParty)" Value="246633" />
+  <Preset Label="Deeply Wounded (sentimentBit_Hurt_LT_generic)" Value="246637" />
+  <Preset Label="Heartbroken (sentimentBit_Hurt_ST_romantic)" Value="246638" />
+  <Preset Label="Dejected about Rejection (sentimentBit_Hurt_ST_rejection)" Value="246640" />
+  <Preset Label="Saddened (sentimentBit_Hurt_ST_saddened)" Value="246642" />
+  <Preset Label="Hurt (sentimentBit_Hurt_ST_generic)" Value="246644" />
+  <Preset Label="Awed by Lifesaving Hero (sentimentBit_Adoring_LT_lifesaver)" Value="246646" />
+  <Preset Label="Close after a Close Call (sentimentBit_Close_ST_nearDeath)" Value="246647" />
+  <Preset Label="shortTermBits_askedAboutSentiment_cooldown" Value="250188" />
+  <Preset Label="shortTermBits_healedNegativeSentiment" Value="250815" />
+  <Preset Label="rbc_Sentiment_Motivating" Value="252843" />
+  <Preset Label="Cooking Together (sentimentBit_Close_ST_GroupCooking_CookingTogether)" Value="262317" />
+  <Preset Label="shortTermBits_OrderingSim" Value="265566" />
+  <Preset Label="Friend (SimToAnimalObject_RelationshipBits_Friend)" Value="271026" />
+  <Preset Label="Good Friends (simToAnimalObject_RelationshipBits_GoodFriend)" Value="271027" />
+  <Preset Label="Acquaintances (simToAnimalObject_RelationshipBits_Acquaintances)" Value="271028" />
+  <Preset Label="Disliked (simToAnimalObject_RelationshipBits_Disliked)" Value="271029" />
+  <Preset Label="Despised (simToAnimalObject_RelationshipBits_Despised)" Value="271030" />
+  <Preset Label="rbc_Friend_AtLeastFriend" Value="273773" />
+  <Preset Label="Friendly Advice (sentimentBit_Motivating_ST_FriendlyAdvice)" Value="273845" />
+  <Preset Label="Friends In A Time Of Loss (sentimentBit_Adoring_ST_consoleDeath)" Value="273923" />
+  <Preset Label="HaveBeenExes" Value="274289" />
+  <Preset Label="rbc_Romantic_HaveBeenExes" Value="274292" />
+  <Preset Label="Known Alien (relationshipbit_KnowsIsAlien)" Value="103299" />
+  <Preset Label="{1.SimFirstName} looks Terrified! (socialContextBit_InterrogationTable_Terrified)" Value="103636" />
+  <Preset Label="{1.SimFirstName} seems Worried (socialContextBit_InterrogationTable_Worried)" Value="103953" />
+  <Preset Label="{1.SimFirstName} looks Very Worried! (socialContextBit_InterrogationTable_VeryWorried)" Value="103955" />
+  <Preset Label="{1.SimFirstName} seems Tense (socialContextBit_InterrogationTable_Tense)" Value="103956" />
+  <Preset Label="{1.SimFirstName} seems Suspicious (socialContextBit_InterrogationTable_Suspicious)" Value="103957" />
+  <Preset Label="{1.SimFirstName} seems Shy (socialContextBit_InterrogationTable_Shy)" Value="103958" />
+  <Preset Label="{1.SimFirstName} looks Furious! (socialContextBit_InterrogationTable_Furious)" Value="103959" />
+  <Preset Label="{1.SimFirstName} appears Friendly (socialContextBit_InterrogationTable_Friendly)" Value="103960" />
+  <Preset Label="{1.SimFirstName} seems Defensive (socialContextBit_InterrogationTable_Defensive)" Value="103961" />
+  <Preset Label="{1.SimFirstName} appears Calm (socialContextBit_InterrogationTable_Calm)" Value="103962" />
+  <Preset Label="{1.SimFirstName} appears Smug (socialContextBit_InterrogationTable_Smug)" Value="104781" />
+  <Preset Label="{1.SimFirstName} seems Tense (socialContextBit_InterrogationTable_TenseDefault)" Value="105228" />
+  <Preset Label="relationshipBit_PersonalityAnalyzed" Value="107716" />
+  <Preset Label="Clone (relationshipBit_IsClone)" Value="109549" />
+  <Preset Label="relationshipBit_interrogationFinished" Value="109991" />
+  <Preset Label="Just Window Shopping (relationshipBit_SocialContext_Retail_Uninterested)" Value="111600" />
+  <Preset Label="Interested In Purchasing (relationshipBit_SocialContext_Retail_VeryInterested)" Value="111601" />
+  <Preset Label="Receptive To Sales Pitch (relationshipBit_SocialContext_Retail_MildlyInterested)" Value="111602" />
+  <Preset Label="Arrested (relationshipBit_DetectiveCareer_Arrested)" Value="113055" />
+  <Preset Label="Criminal (relationshipBit_DetectiveCareer_Criminal)" Value="113060" />
+  <Preset Label="relationshipBit_Detective_FoundGuilty" Value="116146" />
+  <Preset Label="Known Alien (relationshipbit_KnowsIsAlien_BothSimsAreAliens)" Value="116465" />
+  <Preset Label="relationshipBit_Retail_EmployeesWontTalkToLotOwners" Value="117017" />
+  <Preset Label="relationshipBit_MetDisguisedAlien" Value="185854" />
+  <Preset Label="relationshipBit_Dared" Value="121352" />
+  <Preset Label="relationshipBit_Clubs_Gamescom_SecretCrush" Value="122859" />
+  <Preset Label="romantic-ExchangedNumbers" Value="127076" />
+  <Preset Label="shortTermBits_Clubs_NewMember_Greeted" Value="130611" />
+  <Preset Label="Key Holder (relBit_ApartmentNeighbor_hasKey)" Value="135106" />
+  <Preset Label="Landlord (relationshipBit_Landlord)" Value="135305" />
+  <Preset Label="shortTermBit_SocialMediaCareer_Represent" Value="145918" />
+  <Preset Label="Tenant (relationshipBit_Tenant)" Value="148657" />
+  <Preset Label="Owner (relationshipBit_DogOwner)" Value="148060" />
+  <Preset Label="Pet (relationshipBit_DogOwned)" Value="148061" />
+  <Preset Label="Owner (relationshipBit_CatOwner)" Value="148062" />
+  <Preset Label="Pet (relationshipBit_CatOwned)" Value="148063" />
+  <Preset Label="Indifferent (petToPet_RelationshipBit_Neutral)" Value="159634" />
+  <Preset Label="Despised (petToPet_RelationshipBit_Hostile)" Value="159635" />
+  <Preset Label="Friend (petToPet_RelationshipBit_Friendly)" Value="159636" />
+  <Preset Label="romance-Faithful" Value="187709" />
+  <Preset Label="Celebrity Acquaintance (relationshipBit_CelebrityAcquaintance)" Value="192631" />
+  <Preset Label="relationshipBits_Feud_Neutral" Value="193903" />
+  <Preset Label="Celebrity Feud Target (relationshipBit_Feud_Target)" Value="193944" />
+  <Preset Label="Commercial Director (actorCareer_Coworker_Relbits_Commercial_Director)" Value="194371" />
+  <Preset Label="Daytime TV Director (actorCareer_Coworker_Relbits_LowBudgetTV_Director)" Value="194372" />
+  <Preset Label="Prime Time TV Director (actorCareer_Coworker_Relbits_HighBudgetTV_Director)" Value="194373" />
+  <Preset Label="relationshipBit_FanStan_Stan" Value="194374" />
+  <Preset Label="relationshipBit_FanStan_StanCooldown" Value="194411" />
+  <Preset Label="Film Director (actorCareer_Coworker_Relbits_Film_Director)" Value="194696" />
+  <Preset Label="relationshipBit_TryToGreet" Value="194904" />
+  <Preset Label="Celebrity Shunned (relationshipBit_CelebrityShunned)" Value="194919" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_Interests" Value="195073" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_Compare" Value="195075" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_Imply" Value="195076" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_Naughty" Value="195077" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_KissHand" Value="195078" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_PersonalStory" Value="195079" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_DipKiss" Value="195080" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_TenderKiss" Value="195081" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_Ask" Value="195082" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_Woohoo" Value="195083" />
+  <Preset Label="relationshipBit_Celebrity_SocialTimeout_FirstKiss" Value="195096" />
+  <Preset Label="relationshipBit_Squad_Member" Value="196234" />
+  <Preset Label="Co-Star (actorCareer_Coworker_Relbits_Costar1)" Value="196312" />
+  <Preset Label="Co-Star (actorCareer_Coworker_Relbits_Costar2)" Value="197701" />
+  <Preset Label="Dating (date_situation_bit_BlindDate)" Value="201485" />
+  <Preset Label="Feared (bit_Dolphin_Feared)" Value="207276" />
+  <Preset Label="Disliked (bit_Dolphin_Disliked)" Value="207277" />
+  <Preset Label="Wary (bit_Dolphin_Wary)" Value="207278" />
+  <Preset Label="Indifferent (bit_Dolphin_Indifferent)" Value="207279" />
+  <Preset Label="Curious (bit_Dolphin_Curious)" Value="207280" />
+  <Preset Label="Chums (bit_Dolphin_Chum)" Value="207281" />
+  <Preset Label="Friend (bit_Dolphin_Friend)" Value="207282" />
+  <Preset Label="Best Friends (bit_Dolphin_BestFriend)" Value="207283" />
+  <Preset Label="Soulmates (bit_Dolphin_Soulmate)" Value="207284" />
+  <Preset Label="relationshipBit_Mermaid_MerfolkWoke" Value="208278" />
+  <Preset Label="Roommate (bit_RoommateNPC)" Value="209563" />
+  <Preset Label="Robot Creation (relationshipBit_Robot_Creation)" Value="218722" />
+  <Preset Label="Creator (relationshipBit_Robot_Creator)" Value="218723" />
+  <Preset Label="Teammates (relationshipBit_SoccerTeam_Teammates)" Value="221133" />
+  <Preset Label="Teammates (relationshipBit_E-Sports_Teammates)" Value="226586" />
+  <Preset Label="Professor (relationshipBit_ProfessorNPC)" Value="227706" />
+  <Preset Label="Legal Client (relBit_LegalClient)" Value="228184" />
+  <Preset Label="relationshipBit_Robot_ActivationMarker" Value="230574" />
+  <Preset Label="relationshipBit_CommunityCloseness_BorrowedSimoleons" Value="232917" />
+  <Preset Label="relationshipBit_AskedforSignature" Value="234697" />
+  <Preset Label="relationshipBit_CommunityCloseness_WrongNumber_Debt" Value="239192" />
+  <Preset Label="Snow Bro (relbit_SnowBro)" Value="246797" />
+  <Preset Label="Confidants (friendship-Confidant)" Value="248676" />
+  <Preset Label="Resentful about a Failed Mountain Climb (sentimentBit_Bitter_ST_Excursion_Cancel_Act1)" Value="249751" />
+  <Preset Label="Bitter about a Terrible Mountain Climb (sentimentBit_Bitter_LT_MountainClimb_Act2_Cancellation)" Value="249892" />
+  <Preset Label="Ashamed about a Terrible Mountain Climb (sentimentBit_Guilty_LT_MountainClimb_Act2_Cancellation)" Value="249896" />
+  <Preset Label="Bonded During Epic Mountain Climb (sentimentBit_Close_LT_MountainClimb_Act3_Gold)" Value="249898" />
+  <Preset Label="Bitter about Hiking (sentimentBit_Bitter_ST_HikingTrail_GroupHike_TinReward)" Value="250363" />
+  <Preset Label="Unity in Hiking (sentimentBit_Close_ST_HikingTrail_GroupHike_GoldReward)" Value="250366" />
+  <Preset Label="relbit_tandemSledders" Value="251537" />
+  <Preset Label="Opposite Attracted (SentimentBit_Enamored_ST_opposites)" Value="252422" />
+  <Preset Label="Comfortably Compatible Lifestyles (SentimentBit_Enamored_ST_lifestylesShared)" Value="252423" />
+  <Preset Label="Snowy Vacation Memories (SentimentBit_Close_ST_vacationSnowy)" Value="252426" />
+  <Preset Label="Fun in the Snow (sentimentBit_Close_ST_snow)" Value="252567" />
+  <Preset Label="Warmhearted from Relaxing Together (sentimentBit_Close_ST_onsen)" Value="252680" />
+  <Preset Label="Brought Together by Hot Pot Meal (sentimentBit_Close_ST_hotpot)" Value="252685" />
+  <Preset Label="Close to a Confidant (sentimentBit_Close_ST_lifestyleCloseKnit)" Value="252687" />
+  <Preset Label="Enchanted from a Moment in the Mountains (sentimentBit_Enamored_ST_mountain)" Value="252688" />
+  <Preset Label="Deeply Enamored in a Winter Wonderland (sentimentBit_Enamored_LT_mountainNeighborhood)" Value="252689" />
+  <Preset Label="No Mountain High Enough for This Love (sentimentBit_Enamored_LT_mountainClimb)" Value="252690" />
+  <Preset Label="Failed at Friendship (sentimentBit_Guilty_ST_lifestyleCloseKnit)" Value="252691" />
+  <Preset Label="Personal Rift (sentimentBit_Hurt_ST_lifestyleNetworker)" Value="252692" />
+  <Preset Label="Neglected by a Workaholic (sentimentBit_Bitter_ST_lifestyleWorkaholic)" Value="252693" />
+  <Preset Label="Mountain Mastery Inspiration (SentimentBit_Motivating_ST_extremeSports)" Value="252845" />
+  <Preset Label="First Kiss at the Festival of Light (sentimentBit_Enamored_LT_lightFestivalKiss)" Value="253185" />
+  <Preset Label="Played Together at the Festival of Snow (sentimentBit_Close_ST_snowFestivalPlay)" Value="253194" />
+  <Preset Label="Celebrated Together at the Festival of Snow (sentimentBit_Close_ST_snowFestivalParty)" Value="253207" />
+  <Preset Label="Disrespected at the Festival of Light (sentimentBit_Furious_ST_lightFestivalJealous)" Value="253211" />
+  <Preset Label="Didn’t Receive Blessing at Festival of Youth (sentimentBit_Hurt_ST_youthFestivalUnblessed)" Value="253227" />
+  <Preset Label="Made a Wish Together at the Festival of Light (sentimentBit_Close_ST_lightFestivalWish)" Value="253253" />
+  <Preset Label="Fun at the Festival of Youth (sentimentBit_Close_ST_youthFestivalBlessed)" Value="253254" />
+  <Preset Label="Bitter About Yoga  (sentimentBit_Bitter_ST_YogaClass)" Value="271953" />
+  <Preset Label="relationshipBit_Wellness_RepeatCustomer" Value="276949" />
+  <Preset Label="Master (relationshipBit_Vampire_Master)" Value="149548" />
+  <Preset Label="Offspring (relationshipBit_Vampire_Offspring)" Value="149549" />
+  <Preset Label="shorTermBits_MindPowers_AlluringVisage_SocialEncourage" Value="150062" />
+  <Preset Label="ShortTerm_SnoopedInJournal" Value="160252" />
+  <Preset Label="World's Best {M1.Grandpa}{F1.Grandma} (familyRelationshipBitsAcquired_Grandparent_HighRel)" Value="161909" />
+  <Preset Label="The Best Lil' Boo (familyRelationshipBitsAcquired_Grandchild_HighRel)" Value="161910" />
+  <Preset Label="Plain Ol' {M1.Gramps}{F1.Gran} (familyRelationshipBitsAcquired_Grandparent_NeutralRel)" Value="161911" />
+  <Preset Label="Grandkiddy (familyRelationshipBitsAcquired_Grandchild_NeutralRel)" Value="161922" />
+  <Preset Label="The Grumps (familyRelationshipBitsAcquired_Grandparent_PoorRel)" Value="161923" />
+  <Preset Label="Grumpchild (familyRelationshipBitsAcquired_GrandChild_PoorRel)" Value="161924" />
+  <Preset Label="Super Siblings (familyRelationshipBitsAcquired_Sibling_HighRel_LowRival)" Value="161930" />
+  <Preset Label="Thick as Thieves (familyRelationshipBitsAcquired_Sibling_HighRel_HighRival)" Value="161931" />
+  <Preset Label="Family Frenemy (familyRelationshipBitsAcquired_Sibling_NeutralRel_HighRival)" Value="161932" />
+  <Preset Label="Childhood Buds (familyRelationshipBitsAcquired_Sibling_NeutralRel_LowRival)" Value="161933" />
+  <Preset Label="Childhood Tormentor (familyRelationshipBitsAcquired_Sibling_PoorRel_HighRival)" Value="161934" />
+  <Preset Label="Childhood Enemies (familyRelationshipBitsAcquired_Sibling_PoorRel_LowRival)" Value="161935" />
+  <Preset Label="Grateful Guide (familyRelationshipBitsAcquired_Parent_HighRel_HighAuth)" Value="161968" />
+  <Preset Label="Guided Child (familyRelationshipBitsAcquired_Child_HighRel_HighAuth)" Value="161969" />
+  <Preset Label="Happy Childhood (familyRelationshipBitsAcquired_Parent_HighRel_LowAuth)" Value="161970" />
+  <Preset Label="Provided Happy Childhood (familyRelationshipBitsAcquired_Child_HighRel_LowAuth)" Value="161971" />
+  <Preset Label="Oh Captain, My Captain (familyRelationshipBitsAcquired_Parent_MaxRel_HighAuth)" Value="161972" />
+  <Preset Label="Respected Heir (familyRelationshipBitsAcquired_Child_MaxRel_HighAuth)" Value="161973" />
+  <Preset Label="{M1.Daddy}{F1.Mommy} Dearest (familyRelationshipBitsAcquired_Parent_MaxRel_LowAuth)" Value="161974" />
+  <Preset Label="{M0.Daddy's}{F0.Mommy's} {M1.Boy}{F1.Girl} (familyRelationshipBitsAcquired_Child_MaxRel_LowAuth)" Value="161975" />
+  <Preset Label="Commanding Presence (familyRelationshipBitsAcquired_Parent_NeutralRel_HighAuth)" Value="161976" />
+  <Preset Label="Obedient Child (familyRelationshipBitsAcquired_Child_NeutralRel_HighAuth)" Value="161977" />
+  <Preset Label="Passive Parent (familyRelationshipBitsAcquired_Parent_NeutralRel_LowAuth)" Value="161978" />
+  <Preset Label="Parented Passively (familyRelationshipBitsAcquired_Child_NeutralRel_LowAuth)" Value="161979" />
+  <Preset Label="Punishing Parent (familyRelationshipBitsAcquired_Parent_PoorRel_HighAuth)" Value="161980" />
+  <Preset Label="Repressed Child (familyRelationshipBitsAcquired_Child_PoorRel_HighAuth)" Value="161981" />
+  <Preset Label="Unhelpful Parent (familyRelationshipBitsAcquired_Parent_PoorRel_LowAuth)" Value="161982" />
+  <Preset Label="Unhappy Child (familyRelationshipBitsAcquired_Child_PoorRel_LowAuth)" Value="161983" />
+  <Preset Label="Authority_Default" Value="161996" />
+  <Preset Label="Rivalry_Default" Value="161997" />
+  <Preset Label="rbc_FamilyAcquired_Negative" Value="162462" />
+  <Preset Label="Caregiver (CT_notParent_CareGiver)" Value="162482" />
+  <Preset Label="Dependent (CT_notParent_CareDependent)" Value="162483" />
+  <Preset Label="ShortTermBits_Arguments_HadArgument" Value="162652" />
+  <Preset Label="rbc_FamilyAcquired_Positive" Value="164128" />
+  <Preset Label="rbc_FamilyAcquired_Neutral" Value="164649" />
+  <Preset Label="relationshipBit_ListeningDevice_Bugged_Bugger" Value="201980" />
+  <Preset Label="relationshipBit_ListeningDevice_Bugged_Buggee" Value="202324" />
+  <Preset Label="relationshipBit_InvestigationSystem_DiscussedSpores" Value="203603" />
+  <Preset Label="relationshipBit_InvestigationSystem_Recruited" Value="203604" />
+  <Preset Label="relationshipBit_InvestigationSystem_RequestedKeycard" Value="204495" />
+  <Preset Label="relationshipBit_Possessed_AllowWakeUp" Value="204754" />
+  <Preset Label="investigationSystem_Relbits_FailedToRecruit" Value="205562" />
+  <Preset Label="relationshipBit_InvestigationSystem_VaccineTestSubject" Value="206182" />
+  <Preset Label="relationshipBit_Familiar" Value="215119" />
+  <Preset Label="relationshipBit_SummonGhost_Fail" Value="215677" />
+  <Preset Label="relationshipBit_Spells_MindControlled" Value="216188" />
+  <Preset Label="relationshipBit_Clone" Value="216270" />
+  <Preset Label="help_Batuuans_RelationshipBits_PlaySabacc" Value="243893" />
+  <Preset Label="help_Batuuans_RelationshipBits_PlaySabacc_Finished" Value="243920" />
+  <Preset Label="help_Batuuans_RelationshipBits_GiveFood" Value="243995" />
+  <Preset Label="help_Batuuans_RelationshipBits_GiveFood_Finished" Value="243996" />
+  <Preset Label="help_Batuuans_RelationshipBits_GiveDroidParts" Value="244000" />
+  <Preset Label="help_Batuuans_RelationshipBits_GiveDroidParts_Finished" Value="244001" />
+  <Preset Label="help_Batuuans_RelationshipBits_GiveCredits" Value="244005" />
+  <Preset Label="help_Batuuans_RelationshipBits_GiveCredits_Finished" Value="244006" />
+  <Preset Label="help_Batuuans_RelationshipBits_CheerUp" Value="244327" />
+  <Preset Label="help_Batuuans_RelationshipBits_CheerUp_Finished" Value="244328" />
+  <Preset Label="batuu_FS7_Spy_SpecialBits_SharedFakeInfo_Spy_3" Value="248892" />
+  <Preset Label="batuu_FS7_Spy_SpecialBits_SharedFakeInfo_Spy_1" Value="248893" />
+  <Preset Label="batuu_FS7_Spy_SpecialBits_SharedFakeInfo_Spy_2" Value="248894" />
+  <Preset Label="batuu_FS7_Spy_SpecialBits_SharedFakeInfo_NotSpy_3" Value="248906" />
+  <Preset Label="batuu_FS7_Spy_SpecialBits_SharedFakeInfo_NotSpy_1" Value="248907" />
+  <Preset Label="batuu_FS7_Spy_SpecialBits_SharedFakeInfo_NotSpy_2" Value="248908" />
+  <Preset Label="Client  (relbit_InteriorDecorator_Client)" Value="259991" />
+  <Preset Label="Client  (relbit_InteriorDecorator_Client_Followup_OfferedGig_Referred)" Value="260531" />
+  <Preset Label="Client  (relbit_InteriorDecorator_Client_Followup_OfferedGig_Returning_Negative)" Value="260532" />
+  <Preset Label="Client  (relbit_InteriorDecorator_Client_Followup_OfferedGig_Returning_Positive)" Value="260533" />
+  <Preset Label="Client  (relbit_InteriorDecorator_Client_Followup_ClientCall_NPCInvite_PostSituation)" Value="260877" />
+  <Preset Label="Client  (relbit_InteriorDecorator_Client_Followup_ReturningGigCooldown)" Value="261233" />
+  <Preset Label="Client  (relbit_InteriorDecorator_Client_Cooldown_Normal)" Value="264537" />
+  <Preset Label="Client  (relbit_InteriorDecorator_Client_Cooldown_Fired)" Value="264540" />
+  <Preset Label="Furious over a Interior Decoration Gig gone bad (sentimentBit_Furious_ST_Decorator_Bad_Build)" Value="268257" />
+  <Preset Label="Happy with Decorator Home (sentimentBit_Adoring_ST_Decorator_Good_Build)" Value="268267" />
+</PresetGroup>

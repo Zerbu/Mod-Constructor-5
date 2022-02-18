@@ -24,6 +24,11 @@ namespace Constructor5.Base.LocalizationSystem
                 return null;
             }
 
+            if (key.StartsWith("{nl}"))
+            {
+                return key.Split(new[] { "{nl}" }, StringSplitOptions.None)[1];
+            }
+
             if (Cache.ContainsKey(key))
             {
                 return Cache[key];
@@ -35,7 +40,9 @@ namespace Constructor5.Base.LocalizationSystem
             return $"*{key}*";
 #endif
 
+#pragma warning disable CS0162 // Unreachable code detected
             return key;
+#pragma warning restore CS0162 // Unreachable code detected
         }
 
         public static bool HasKey(string newKey) => Cache.ContainsKey(newKey);

@@ -5,10 +5,11 @@ namespace Constructor5.Base.ExportSystem.AutoTuners
 {
     public class AutoTuneVariantRangeAttribute : AutoTunerAttribute
     {
-        public AutoTuneVariantRangeAttribute(string tunableName, string variantName = "enabled")
+        public AutoTuneVariantRangeAttribute(string tunableName, string variantName = "enabled", string secondTuple = null)
         {
             TunableName = tunableName;
             VariantName = variantName;
+            SecondTuple = secondTuple;
         }
 
         public int LowerDefaultOverride
@@ -22,7 +23,8 @@ namespace Constructor5.Base.ExportSystem.AutoTuners
         }
 
         public string TunableName { get; }
-        public string VariantName { get; private set; }
+        public string VariantName { get; }
+        public string SecondTuple { get; }
 
         public int UpperDefaultOverride
         {
@@ -51,6 +53,10 @@ namespace Constructor5.Base.ExportSystem.AutoTuners
             }
 
             var tunableTuple1 = tuning.GetVariant<TunableTuple>(TunableName, VariantName);
+            if (SecondTuple != null)
+            {
+                tunableTuple1 = tunableTuple1.Get<TunableTuple>(SecondTuple);
+            }
 
             if (boundsValue.RestrictLowerBound)
             {

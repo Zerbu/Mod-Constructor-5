@@ -1,0 +1,941 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP01">
+  <Preset Label="Investigate Weird Light (alienAbduction_BeAbducted)" Value="102862" />
+  <Preset Label="alienAbduction_TrackerIdle_High" Value="102870" />
+  <Preset Label="Send to Homeworld (baby_ReturnToAlienWorld)" Value="102953" />
+  <Preset Label="Add Alien Form (occult_DebugAlienAdd)" Value="103259" />
+  <Preset Label="Remove Alien Form (occult_DebugAlienRemove)" Value="103260" />
+  <Preset Label="Switch to Alien Form (occult_DebugAlienSwitch)" Value="103261" />
+  <Preset Label="Disguise Self (si_Occult_Alien_Disguise_Self)" Value="103335" />
+  <Preset Label="Remove Disguise (si_Occult_Alien_Disguise_Remove)" Value="103336" />
+  <Preset Label="Alter Disguise (si_Occult_Alien_Disguise_Change)" Value="103337" />
+  <Preset Label="Revive (si_Occult_Alien_ReviveDeadMiniAlien)" Value="103343" />
+  <Preset Label="Analyze Space Rock (si_Occult_Alien_Analyze_SpaceRock)" Value="103345" />
+  <Preset Label="Transmute (si_Occult_Alien_Transmute)" Value="103346" />
+  <Preset Label="Make Small Talk (mixer_social_MakeSmallTalk_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103469" />
+  <Preset Label="Ask Politely For Information (mixer_social_AskPolitelyForInformation_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103470" />
+  <Preset Label="Discuss Victim (mixer_social_DiscussVictim_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103497" />
+  <Preset Label="Discuss Plea Deal (mixer_social_DiscussPleaDeal_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103499" />
+  <Preset Label="Ask about Crime (mixer_social_AskAboutCrime_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103500" />
+  <Preset Label="Tell Personal Story (mixer_social_TellPersonalStory_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103504" />
+  <Preset Label="Pretend To Be Friends (mixer_social_PretendToBeFriends_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103505" />
+  <Preset Label="Describe Prison Horrors (mixer_social_DescribePrisonHorrors_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103506" />
+  <Preset Label="Make False Promises (mixer_social_MakeFalsePromises_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103507" />
+  <Preset Label="Offer Candy Bar (mixer_social_OfferCandyBar_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103508" />
+  <Preset Label="Promise Tasty Meal (mixer_social_PromiseTastyMeal_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103509" />
+  <Preset Label="Pretend To Check Phone (mixer_social_PretendToCheckPhone_InterrogationTable_GoodCop)" Tags="TestUnsafe" Value="103510" />
+  <Preset Label="Slam Case File (mixer_social_SlamCaseFile_InterrogationTable_BadCop_Emotion)" Tags="TestUnsafe" Value="103511" />
+  <Preset Label="Ask Stressful Riddles (mixer_social_AskStressfulRiddles_InterrogationTable_BadCop_Emotion)" Tags="TestUnsafe" Value="103512" />
+  <Preset Label="Intimidate (mixer_social_Intimidate_InterrogationTable_BadCop_)" Tags="TestUnsafe" Value="103513" />
+  <Preset Label="Ask Trick Question (mixer_social_AskTrickQuestion_InterrogationTable_BadCop_Emotion)" Tags="TestUnsafe" Value="103514" />
+  <Preset Label="Threaten With Spiders (mixer_social_ThreatenWithSpiders_InterrogationTable_BadCop)" Tags="TestUnsafe" Value="103515" />
+  <Preset Label="Threaten With Tickle Torture (mixer_social_ThreatenWithTickleTorture_InterrogationTable_BadCop)" Tags="TestUnsafe" Value="103516" />
+  <Preset Label="Tell Story about Prison (mixer_social_TellStoryAboutPrison_InterrogationTable_BadCop)" Tags="TestUnsafe" Value="103522" />
+  <Preset Label="Go On Tirade (mixer_social_GoOnTirade_InterrogationTable_BadCop)" Tags="TestUnsafe" Value="103524" />
+  <Preset Label="Play Crazy Cop (mixer_social_PlayCrazyCop_InterrogationTable_BadCop)" Tags="TestUnsafe" Value="103529" />
+  <Preset Label="Demand Answers (mixer_social_DemandAnswers_InterrogationTable_BadCop_Emotion)" Tags="TestUnsafe" Value="103530" />
+  <Preset Label="Glare Coldly (mixer_social_GlareColdly_InterrogationTable_BadCop)" Tags="TestUnsafe" Value="103531" />
+  <Preset Label="Ignore (mixer_social_Ignore_InterrogationTable_BadCop)" Tags="TestUnsafe" Value="103533" />
+  <Preset Label="Dangle Handcuffs (mixer_social_DangleHandcuffs_InterrogationTable_BadCop)" Tags="TestUnsafe" Value="103535" />
+  <Preset Label="Ask for Bribe (mixer_social_AskForBribe_InterrogationTable_BadCop)" Tags="TestUnsafe" Value="103536" />
+  <Preset Label="Show Crime Pictures (mixer_social_ShowCrimePictures_InterrogationTable_Evidence)" Tags="TestUnsafe" Value="103537" />
+  <Preset Label="Review Case File (mixer_social_ReviewCaseFile_InterrogationTable_Evidence)" Tags="TestUnsafe" Value="103539" />
+  <Preset Label="Show Witness Statement (mixer_social_ShowWitnessStatement_InterrogationTable_Evidence)" Tags="TestUnsafe" Value="103540" />
+  <Preset Label="Bluff Evidence (mixer_social_BluffEvidence_InterrogationTable_Evidence)" Tags="TestUnsafe" Value="103541" />
+  <Preset Label="Reveal Calling Card (mixer_social_RevealCallingCard_InterrogationTable_Evidence)" Tags="TestUnsafe" Value="103542" />
+  <Preset Label="Show Fingerprint Evidence (mixer_social_ShowFingerprintEvidence_InterrogationTable_Evidence)" Tags="TestUnsafe" Value="103545" />
+  <Preset Label="Release Innocent Suspect (mixer_social_ReleaseInnocentSuspect_InterrogationTable_Special)" Tags="TestUnsafe" Value="103553" />
+  <Preset Label="Get Confession (mixer_social_GetConfession_InterrogationTable_Special)" Tags="TestUnsafe" Value="103554" />
+  <Preset Label="Crack Open (SimRay_CrackOpen_FrozenSim)" Value="104122" />
+  <Preset Label="Frozen! (SimRay_Frozen)" Value="104125" />
+  <Preset Label="Staff Front Desk (FrontDesk_Staff)" Value="104626" />
+  <Preset Label="Show ID Badge (FrontDesk_FlashIDBadge)" Value="104661" />
+  <Preset Label="End Interrogation (mixer_social_EndInterrogation_InterrogationTable_Special)" Tags="TestUnsafe" Value="104662" />
+  <Preset Label="Analyzing {1.ObjectName} (chemicalAnalyzer_Analyze_Flora)" Value="104724" />
+  <Preset Label="Practice Analysis (chemicalAnalyzer_PracticeAnalysis)" Value="104725" />
+  <Preset Label="Lock In Cell (holdingcell_LockInCellOfficer)" Value="104827" />
+  <Preset Label="Release From Cell (holdingcell_ReleaseFromCellOfficer)" Value="104828" />
+  <Preset Label="Quiet Down! (holdingcell_QuietDown)" Value="104829" />
+  <Preset Label="Make A Ruckus! (holdingcell_MakeARuckus)" Value="104830" />
+  <Preset Label="Create Outfit in Create A Sim (mannequin_ModifyInCas)" Value="104867" />
+  <Preset Label="Synthesize Serum (scsi_ChemistryTable_Serum_Standard)" Value="104954" />
+  <Preset Label="Synthesize Tainted Serum (scsi_ChemistryTable_Serum_Tainted)" Value="104955" />
+  <Preset Label="Idle_Buff_InHoldingCell" Value="105126" />
+  <Preset Label="Lock In Cell (holdingCell_Picker_LockInCell)" Tags="TestUnsafe" Value="105198" />
+  <Preset Label="Repair (object_Repair_Electronic_ChemistryLab)" Value="105204" />
+  <Preset Label="Add Safety Protocols (si_ChemistryLab_Upgrade_NeverBreaks)" Value="105213" />
+  <Preset Label="Add Safety Protocols (si_ChemistryLab_Upgrade_NeverBreaks_Resume)" Value="105214" />
+  <Preset Label="Experiment (si_ChemistryLab_Experiment)" Value="105215" />
+  <Preset Label="Resume {0.String} (craftingResumeInteraction_Serum)" Value="105217" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_Staging_Serum" Value="105225" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_Staging_TaintedSerum" Value="105226" />
+  <Preset Label="Release From Cell (holdingCell_Picker_ReleaseFromCell)" Tags="TestUnsafe" Value="105229" />
+  <Preset Label="craftingStepInteraction_CreateSerum_Serum_AddChemical" Value="105241" />
+  <Preset Label="craftingStepInteraction_CreateSerum_Serum_AddIngredient" Value="105290" />
+  <Preset Label="craftingStepInteraction_CreateSerum_Serum_Boil" Value="105291" />
+  <Preset Label="craftingStepInteraction_CreateSerum_Serum_Electrify" Value="105292" />
+  <Preset Label="craftingStepInteraction_CreateSerum_Serum_Taste" Value="105293" />
+  <Preset Label="craftingStepInteraction_CreateSerum_Serum_Shake" Value="105294" />
+  <Preset Label="craftingStepInteraction_CreateSerum_Serum_Idle" Value="105295" />
+  <Preset Label="craftingStepInteraction_CreateSerum_Serum_Zap" Value="105296" />
+  <Preset Label="Buy a Retail Store (retail_BuyRetailLot)" Tags="TestUnsafe" Value="105311" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Itchy_mild" Value="105364" />
+  <Preset Label="mixer_ChemistryLab_AddChemical" Value="105399" />
+  <Preset Label="mixer_ChemistryLab_AddIngredient" Value="105400" />
+  <Preset Label="mixer_ChemistryLab_Boil" Value="105401" />
+  <Preset Label="mixer_ChemistryLab_Electrify" Value="105402" />
+  <Preset Label="mixer_ChemistryLab_Explosions" Value="105403" />
+  <Preset Label="mixer_ChemistryLab_Zap" Value="105404" />
+  <Preset Label="mixer_ChemistryLab_Shake" Value="105405" />
+  <Preset Label="mixer_ChemistryLab_Taste" Value="105406" />
+  <Preset Label="mixer_social_InterrogationTable_Idles_Interrogator" Tags="TestUnsafe" Value="105409" />
+  <Preset Label="mixer_social_InterrogationTable_Idles_Suspect" Tags="TestUnsafe" Value="105410" />
+  <Preset Label="si_ChemistryLab_CreateSerum" Value="105411" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Giggly_mild" Value="105447" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Headache_mild" Value="105448" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Nausea_mild" Value="105449" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_SeeingThings_mild" Value="105450" />
+  <Preset Label="Take Mugshot (bookingStation_Picker_TakeMugshot)" Tags="TestUnsafe" Value="105455" />
+  <Preset Label="Fingerprint (bookingStation_Picker_Fingerprint)" Tags="TestUnsafe" Value="105456" />
+  <Preset Label="Search Suspect (bookingStation_Picker_SearchSuspect)" Tags="TestUnsafe" Value="105457" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_CoughSneeze_mild" Value="105468" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_SteamyEars_mild" Value="105470" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Dizzy_mild" Value="105472" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Fever_mild" Value="105475" />
+  <Preset Label="retail_SetRetailLotOwner" Value="105504" />
+  <Preset Label="Endorse Products (mixer_social_Retail_Upsell_Targeted_Retail_HighScore)" Tags="TestUnsafe" Value="105624" />
+  <Preset Label="Answer Questions (mixer_social_Retail_Targeted_AnswerQuestions_Retail_MiddleScore)" Tags="TestUnsafe" Value="105625" />
+  <Preset Label="Offer Information (mixer_social_Retail_Targeted_PushCheaperItems_Retail_HighScore)" Tags="TestUnsafe" Value="105626" />
+  <Preset Label="Close the Deal (mixer_social_Retail_CloseTheDeal_Targeted_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="105627" />
+  <Preset Label="Beg For Sale (mixer_social_Retail_BegForSale_Targeted_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="105628" />
+  <Preset Label="Pressure Into Purchase (mixer_social_Retail_PressureIntoSale_Targeted_Mean_EmotionSpecific)" Tags="TestUnsafe" Value="105629" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_CoughSneeze_severe" Value="105651" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_CoughSneeze_ambient" Value="105652" />
+  <Preset Label="Take Medicine (sickness_Medicine_Drink)" Value="105659" />
+  <Preset Label="Purchase Medicine (purchase_Medicine)" Tags="TestUnsafe" Value="105670" />
+  <Preset Label="Best Way To Recover (si_Sim_EnergyFailure_Serum)" Value="105671" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Dizzy_ambient" Value="105680" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Fever_ambient" Value="105681" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Giggly_ambient" Value="105682" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Headache_ambient" Value="105683" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Itchy_ambient" Value="105685" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Nausea_ambient" Value="105686" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_SeeingThings_ambient" Value="105688" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_SteamyEars_severe" Value="105804" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Dizzy_severe" Value="105806" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Fever_severe" Value="105807" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Giggly_severe" Value="105808" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Headache_severe" Value="105809" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Itchy_severe" Value="105810" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_Nausea_severe" Value="105811" />
+  <Preset Label="idle_Buff_SickessSystem_Symptom_SeeingThings_severe" Value="105813" />
+  <Preset Label="Calibrate (xrayMachine_Calibrate)" Value="105841" />
+  <Preset Label="Buy Item (retail_BuyItem)" Value="105847" />
+  <Preset Label="Repair (object_Repair_Electronic_XrayMachine)" Value="105938" />
+  <Preset Label="Scanning {1.SimFirstName} (xrayMachine_ScanTarget_doctor)" Value="105942" />
+  <Preset Label="Being Scanned (xrayMachine_ScanTarget_patient)" Value="105966" />
+  <Preset Label="View (simRay_Frozen_View)" Value="105971" />
+  <Preset Label="holdingCell_LockInCellSuspect" Value="106002" />
+  <Preset Label="Release From Cell (holdingCell_ReleaseFromCellSuspect)" Value="106020" />
+  <Preset Label="xrayMachine_Scan_Patient" Value="106069" />
+  <Preset Label="xrayMachine_Scan_Patient_Idle" Value="106072" />
+  <Preset Label="Panic (simRay_MindControlReaction_Panicked)" Value="106094" />
+  <Preset Label="Escape (simRay_MindControlReaction_Escape)" Value="106095" />
+  <Preset Label="Order X-Ray Scan for (XrayMachine_ScanTarget_simPicker)" Tags="TestUnsafe" Value="106133" />
+  <Preset Label="Active (mannequin_ApplyPose_Active)" Value="106169" />
+  <Preset Label="Business (mannequin_ApplyPose_Business)" Value="106170" />
+  <Preset Label="Confident (mannequin_ApplyPose_Confident)" Value="106171" />
+  <Preset Label="Flirty (mannequin_ApplyPose_Flirty)" Value="106172" />
+  <Preset Label="Playful (mannequin_ApplyPose_Playful)" Value="106173" />
+  <Preset Label="Neutral (mannequin_ApplyPose_Standard)" Value="106174" />
+  <Preset Label="Cook (fridge_CookGroupMeal_MindControlled)" Value="106195" />
+  <Preset Label="Analyze Flora (chemicalAnalyzer_Analyze_Flora_Picker)" Tags="TestUnsafe" Value="106203" />
+  <Preset Label="Test Serum (objectPicker_Serum_TestSerum)" Tags="TestUnsafe" Value="106207" />
+  <Preset Label="Interrogate Suspect (interrogate_Interrogate)" Value="106223" />
+  <Preset Label="Clean (simRay_MindControlReaction_CounterClean)" Value="106489" />
+  <Preset Label="Be interrogated (interrogate_BeInterrogated)" Value="106520" />
+  <Preset Label="si_Serum_Outcome_AlienAura" Value="106538" />
+  <Preset Label="si_Serum_Outcome_SyntheticFood" Value="106539" />
+  <Preset Label="si_Serum_Outcome_AgeAway" Value="106586" />
+  <Preset Label="si_Serum_Outcome_GhostGoo" Value="106587" />
+  <Preset Label="si_Serum_Outcome_Embiggen" Value="106588" />
+  <Preset Label="si_Serum_Outcome_Slimify" Value="106589" />
+  <Preset Label="si_Serum_Outcome_OxStrength" Value="106590" />
+  <Preset Label="si_Serum_Outcome_Smart" Value="106591" />
+  <Preset Label="si_Serum_Outcome_NeedFixer" Value="106592" />
+  <Preset Label="si_Serum_Outcome_SparkDrive" Value="106593" />
+  <Preset Label="si_Serum_Outcome_ReapersFriend" Value="106594" />
+  <Preset Label="si_Serum_Outcome_SnakeOil" Value="106595" />
+  <Preset Label="si_Serum_Outcome_RedHot" Value="106596" />
+  <Preset Label="si_Serum_Outcome_RosePerfume" Value="106597" />
+  <Preset Label="si_Serum_Outcome_FixersLuck" Value="106598" />
+  <Preset Label="Determine Baby's Gender (mixer_social_DetermineBabyGender_targeted_Friendly_alwaysOn_ActiveCareer_Doctor)" Tags="TestUnsafe" Value="106730" />
+  <Preset Label="Check Hotness (mixer_social_CheckForFever_targeted_romance_alwaysOn_ActiveCareer_Doctor)" Tags="TestUnsafe" Value="106740" />
+  <Preset Label="Change Outfit (simRay_MindControlReaction_ChangeOutfit_Formal)" Value="106791" />
+  <Preset Label="Give Medical Advice (mixer_social_GiveMedicalAdvice_targeted_Friendly_alwaysOn_ActiveCareer_Doctor)" Tags="TestUnsafe" Value="106812" />
+  <Preset Label="Change Outfit (simRay_MindControlReaction_ChangeOutfit_Athletic)" Value="106815" />
+  <Preset Label="Change Outfit (simRay_MindControlReaction_ChangeOutfit_Everyday)" Value="106816" />
+  <Preset Label="Change Outfit (simRay_MindControlReaction_ChangeOutfit_Sleep)" Value="106817" />
+  <Preset Label="Change Outfit (simRay_MindControlReaction_ChangeOutfit_Party)" Value="106818" />
+  <Preset Label="Change Outfit (simRay_MindControlReaction_ChangeOutfit_Swimwear)" Value="106819" />
+  <Preset Label="Give Bad Medical Advice (mixer_social_GiveBadMedicalAdvice_targeted_Mischief_alwaysOn_ActiveCareer_Doctor)" Tags="TestUnsafe" Value="106825" />
+  <Preset Label="Sleep (simRay_MindControlReaction_Sleep_Failure)" Value="106848" />
+  <Preset Label="Drink (si_consumable_Drink_Nonbar_Serum)" Value="106852" />
+  <Preset Label="Transform (simRay_Transform_Object)" Value="106859" />
+  <Preset Label="Drink (si_consumable_Drink_Nonbar_TestSerum_Success)" Value="106916" />
+  <Preset Label="Set Illness state: Mild (debug_MakeSick_Mild)" Value="107034" />
+  <Preset Label="Fear the Reaper (si_GrimReaper_FearTheReaperSummon)" Value="107038" />
+  <Preset Label="Dress Mannequin (mannequin_ApplyOutfit_Picker)" Tags="TestUnsafe" Value="107051" />
+  <Preset Label="Add Clues (crimeMap_AddClues_Stage01)" Value="107061" />
+  <Preset Label="Add Clues (crimeMap_AddClues_Stage02)" Value="107063" />
+  <Preset Label="Add Clues (crimeMap_AddClues_Stage03)" Value="107065" />
+  <Preset Label="Add Clues (crimeMap_AddClues_Stage04)" Value="107066" />
+  <Preset Label="Add Clues (crimeMap_AddClues_Stage05)" Value="107067" />
+  <Preset Label="Add Clues (crimeMap_AddClues_Stage06)" Value="107069" />
+  <Preset Label="Issue APB (crimeMap_IssueAPB)" Value="107070" />
+  <Preset Label="Deduce New Clue (crimeMap_AnalyzeMap)" Value="107071" />
+  <Preset Label="frontDesk_Phone_TakeCall" Value="107083" />
+  <Preset Label="frontDesk_Phone_MakeCall" Value="107084" />
+  <Preset Label="Paging Sim (frontDesk_Page_Continuation_target)" Value="107093" />
+  <Preset Label="Watch !#*%&amp;$@% (tv_WatchAlien)" Value="107149" />
+  <Preset Label="Prevent Abductions (si_Object_SatelliteDish_PreventAbduction)" Value="107157" />
+  <Preset Label="Contact Aliens (si_Object_SatelliteDish_ContactAliens)" Value="107161" />
+  <Preset Label="Talk to Alien (si_Phone_ContactedByAlienFromSatellite)" Value="107165" />
+  <Preset Label="Try On Outfit (mannequin_OutfitChange_TryOnOutfit)" Value="107193" />
+  <Preset Label="Purchase Outfit (mannequin_OutfitChange_BuyOutfit)" Value="107194" />
+  <Preset Label="Clone Sim (CloningMachine_CloneSim_simPicker)" Tags="TestUnsafe" Value="107341" />
+  <Preset Label="Cloning (cloningMachine_CloneSim_Picked_continuation)" Value="107344" />
+  <Preset Label="Clone Sim (cloningMachine_CloneSim_Actor_RemoteTurnOn)" Value="107351" />
+  <Preset Label="Repair (object_Repair_Electronic_CloningMachine)" Value="107367" />
+  <Preset Label="Make Bed (hospitalExamBed_CleanBed)" Value="107425" />
+  <Preset Label="siCrafting_Serum_CreateSerum" Value="107472" />
+  <Preset Label="Analyze Personality (mixer_social_Targeted_AnalyzePersonality_Friendly_AlwaysOn_Alien)" Tags="TestUnsafe" Value="107495" />
+  <Preset Label="Secret Handshake (mixer_social_SecretHandshake_Targeted_Friendly_AlwaysOn_Alien)" Tags="TestUnsafe" Value="107496" />
+  <Preset Label="Empathize (mixer_social_Targeted_Empathize_Friendly_AlwaysOn_Alien)" Tags="TestUnsafe" Value="107497" />
+  <Preset Label="Talk about Home (mixer_social_Targeted_TalkAboutHome_Friendly_AlwaysOn_Alien)" Tags="TestUnsafe" Value="107498" />
+  <Preset Label="Knocked Out (si_Solo_SatelliteDishHivemind_KnockedOut)" Value="107535" />
+  <Preset Label="Set Illness state: Max Immune (debug_SicknessSystem_MakeSick_Immune)" Value="107541" />
+  <Preset Label="Remove Symptom (debug_SicknessSystem_CureSymptoms)" Value="107542" />
+  <Preset Label="Set Illness state: Severe (debug_SicknessSystem_MakeSick_Severe)" Value="107543" />
+  <Preset Label="Trigger new Symptom (debug_SicknessSystem_TriggerSymptom)" Value="107544" />
+  <Preset Label="Remove Illness (debug_SicknessSystem_RemoveIllness)" Value="107545" />
+  <Preset Label="Scrap Serum (collect_Trash_ScrapSerum)" Value="107558" />
+  <Preset Label="Restock Outfit (mannequin_OutfitChange_RestockOutfit)" Value="107570" />
+  <Preset Label="Collect (collection_Harvestables_Crystals_Collect)" Value="107587" />
+  <Preset Label="Collect (collection_Harvestables_Geode_Collect)" Value="107591" />
+  <Preset Label="Collect (collection_Harvestables_Crater_Collect)" Value="107594" />
+  <Preset Label="Discuss Work (mixer_social_DiscussWork_Targeted_Friendly_AlwaysOn_coworkers)" Tags="TestUnsafe" Value="107596" />
+  <Preset Label="Gossip about Co-workers (mixer_social_GossipAboutCoworkers_Targeted_Friendly_AlwaysOn_coworkers)" Tags="TestUnsafe" Value="107597" />
+  <Preset Label="Complain about Work (mixer_social_ComplainAboutWork_Targeted_Friendly_AlwaysOn_coworkers)" Tags="TestUnsafe" Value="107598" />
+  <Preset Label="Dress Mannequin (mannequin_OutfitChange_ApplyOutfit)" Value="107613" />
+  <Preset Label="Purchase Outfit (mannequin_RemoveOutfit_Picker_Everyday)" Tags="TestUnsafe" Value="107702" />
+  <Preset Label="Purchase Outfit (mannequin_RemoveOutfit_Picker_Formal)" Tags="TestUnsafe" Value="107703" />
+  <Preset Label="Purchase Outfit (mannequin_RemoveOutfit_Picker_Athletic)" Tags="TestUnsafe" Value="107704" />
+  <Preset Label="Purchase Outfit (mannequin_RemoveOutfit_Picker_Sleep)" Tags="TestUnsafe" Value="107705" />
+  <Preset Label="Purchase Outfit (mannequin_RemoveOutfit_Picker_Party)" Tags="TestUnsafe" Value="107706" />
+  <Preset Label="Purchase Outfit (mannequin_RemoveOutfit_Picker_Swimwear)" Tags="TestUnsafe" Value="107707" />
+  <Preset Label="Polish (collection_Geodes_Polish)" Value="107728" />
+  <Preset Label="Tinker (si_CareerScientist_Tinker_StereoTV)" Value="107739" />
+  <Preset Label="Purchase Outfit (mannequin_OutfitChange_BuyOutfit_AllowClobber)" Value="107746" />
+  <Preset Label="Accuse of Being an Alien (mixer_social_Scientist_AccuseAlien)" Tags="TestUnsafe" Value="107766" />
+  <Preset Label="generic_XrayMachine_Patient" Value="107796" />
+  <Preset Label="generic_HospitalExamBed_Patient_Recline" Value="107797" />
+  <Preset Label="Clean (chemicalAnalyzer_Clean)" Value="107798" />
+  <Preset Label="Admit Patient (HospitalExamBed_AdmitPatient_simPicker)" Tags="TestUnsafe" Value="107799" />
+  <Preset Label="Sit on Exam Bed (hospitalExamBed_Patient_Sit_Idle)" Value="107801" />
+  <Preset Label="Tinker (si_CareerScientist_Tinker_Computer)" Value="107832" />
+  <Preset Label="Tinker (si_CareerScientist_Tinker_MotionGame)" Value="107833" />
+  <Preset Label="Tinker (si_CareerScientist_Tinker_Observatory)" Value="107834" />
+  <Preset Label="Scare With Probe (mixer_social_ScareWithProbe_Targeted_Mischief_AlwaysOn_Alien)" Tags="TestUnsafe" Value="107840" />
+  <Preset Label="Analyze Collection (chemicalAnalyzer_Analyze_Collectible_Picker)" Tags="TestUnsafe" Value="107905" />
+  <Preset Label="Analyzing {1.ObjectName} (chemicalAnalyzer_Analyze_Collectible)" Value="107906" />
+  <Preset Label="Dance With Mannequin (si_Mannequin_DanceWithMannequin)" Value="107929" />
+  <Preset Label="mixer_DanceWithMannequin_Active" Value="107935" />
+  <Preset Label="mixer_DanceWithMannequin_Passive" Value="107936" />
+  <Preset Label="Take Temperature (mixer_hospitalExamBed_Exam_TakeTemp)" Value="107981" />
+  <Preset Label="Check Eyes (mixer_hospitalExamBed_Exam_CheckEyes)" Value="107982" />
+  <Preset Label="Check Ears (mixer_hospitalExamBed_Exam_CheckEar)" Value="107983" />
+  <Preset Label="Scan Body (mixer_hospitalExamBed_Exam_ProbeChest)" Value="107984" />
+  <Preset Label="Memory Erase (mixer_social_MemoryErase_Targeted_Mischief_AlwaysOn_Alien)" Tags="TestUnsafe" Value="108039" />
+  <Preset Label="Open Store (retail_OpenStore)" Value="108051" />
+  <Preset Label="detectiveCareer_ApbTurnToPoint_Criminal" Value="108052" />
+  <Preset Label="Close Store (retail_CloseStore)" Value="108055" />
+  <Preset Label="Ask about Suspect (detectiveCareer_ApbAskAboutSuspect)" Value="108068" />
+  <Preset Label="Arrest (detectiveCareer_ApbArrest_travel)" Value="108069" />
+  <Preset Label="Ask for DNA Sample (mixer_socials_AskForDNA_targeted_Friendly_alwaysOn_career)" Tags="TestUnsafe" Value="108150" />
+  <Preset Label="Issue APB (crimeMap_Detective_StartApb)" Value="108203" />
+  <Preset Label="Go on Patrol (crimeMap_Detective_StartPatrol)" Value="108204" />
+  <Preset Label="Bake (stove_Bake_StartCrafting)" Value="108243" />
+  <Preset Label="Detect Local Aliens (si_object_SatelliteDish_DetectAliens)" Value="108245" />
+  <Preset Label="Add Steel Centrifuge (chemicalAnalyzer_NeverBreaks)" Value="108306" />
+  <Preset Label="Resume Steel Centrifuge (chemicalAnalyzer_NeverBreaks_Resume)" Value="108307" />
+  <Preset Label="Repair (object_Repair_Electronic_ChemicalAnalyzer)" Value="108310" />
+  <Preset Label="Analyzing {1.ObjectName} (chemicalAnalyzer_Analyze_Clue)" Value="108325" />
+  <Preset Label="Analyze Sample (chemicalAnalyzer_Analyze_Clue_Picker)" Tags="TestUnsafe" Value="108327" />
+  <Preset Label="mixer_Idle_Buff_Scientist_BreakthroughEarned" Value="108413" />
+  <Preset Label="Yell At Angrily (mixer_social_YellAtAngrily_InterrogationTable_SuspectActions)" Tags="TestUnsafe" Value="108623" />
+  <Preset Label="Scientist Breakthrough (si_cheat_CareerScientist_Breakthrough_Level)" Value="108652" />
+  <Preset Label="Scientist Almost Breakthrough (si_cheat_CareerScientist_Breakthrough_Almost)" Value="108654" />
+  <Preset Label="Scientist Breakthrough Add Almost 25% (si_cheat_CareerScientist_Breakthrough_25)" Value="108655" />
+  <Preset Label="Bake (fridge_Bake_StartCrafting)" Value="108665" />
+  <Preset Label="Restock Item (retail_RestockItem)" Value="108686" />
+  <Preset Label="Arrest (nonTouching_Detective_ApbArrest)" Value="108694" />
+  <Preset Label="Travel to Crime Scene (crimeMap_StartCrimeScene)" Value="108752" />
+  <Preset Label="Set For Sale (retail_SetItemForSale)" Value="108755" />
+  <Preset Label="Set Not For Sale (retail_SetItemNotForSale)" Value="108756" />
+  <Preset Label="Take Evidence Picture (crimeScene_TakePicture)" Value="108779" />
+  <Preset Label="Dust For Fingerprints (crimeScene_DustForPrints)" Value="108780" />
+  <Preset Label="Collect Evidence Sample (crimeScene_CollectSample)" Value="108781" />
+  <Preset Label="Share Memory (mixer_social_ShareMemory_InterrogationTable_SuspectActions)" Tags="TestUnsafe" Value="108808" />
+  <Preset Label="Decline (mixer_social_Decline_InterrogationTable_SuspectActions)" Tags="TestUnsafe" Value="108833" />
+  <Preset Label="Interrogate Suspect (interrogation_InterrogateSit)" Value="108855" />
+  <Preset Label="Be interrogated (interrogation_BeInterrogatedSit)" Value="108869" />
+  <Preset Label="Interrogate Suspect (interrogation_StartInterrogation)" Value="108870" />
+  <Preset Label="Browse Merchandise (si_Retail_Browse)" Value="108962" />
+  <Preset Label="Have Bag Lunch (fridge_GrabLunchAutonomously)" Value="108974" />
+  <Preset Label="si_InventionConstructor_CreateDevice_MomentumConserver" Value="109080" />
+  <Preset Label="Return to Police Station (crimeScene_LeaveScene)" Value="109090" />
+  <Preset Label="Resume {0.String} (craftingResumeInteraction_Device)" Value="109102" />
+  <Preset Label="Invent Device (scsi_InventionConstructor_Device)" Value="109143" />
+  <Preset Label="View Financial Report (si_Register_ViewFinances)" Value="109234" />
+  <Preset Label="Hire Employee (si_Retail_HireWorker)" Value="109235" />
+  <Preset Label="Fire Employee (retail_FireWorker_Phone)" Value="109249" />
+  <Preset Label="csi_Baking_MeasureCup" Value="109254" />
+  <Preset Label="csi_Baking_CrackEgg" Value="109255" />
+  <Preset Label="csi_Baking_Taste" Value="109256" />
+  <Preset Label="Convert to Frictionless Scanner Rig (xrayMachine_Upgrade_NeverBreaks_SI)" Value="109277" />
+  <Preset Label="Add Corrective Laser Lens (xrayMachine_Upgrade_AutoCalibrate_SI)" Value="109278" />
+  <Preset Label="Continue Converting to Frictionless Scanner Rig (xrayMachine_Upgrade_NeverBreaks_resume)" Value="109279" />
+  <Preset Label="Resume Adding Corrective Laser Lens (xrayMachine_Upgrade_AutoCalibrate_resume)" Value="109280" />
+  <Preset Label="Anticipating Clone (cloningMachine_View)" Value="109298" />
+  <Preset Label="Extinguish with Freeze Ray (fire_Extinguish_SimRay)" Value="109420" />
+  <Preset Label="Fingerprint Evidence (bookingStation_Fingerprint_Cop)" Value="109467" />
+  <Preset Label="Fingerprint Evidence (bookingStation_Fingerprint_Suspect)" Value="109469" />
+  <Preset Label="Issue Citation (socialSuperInteraction_DetectiveIssueCitation)" Value="109486" />
+  <Preset Label="Decorate (si_BakingSkill_DecorateCake)" Value="109489" />
+  <Preset Label="Decorate (si_BakingSkill_DecorateCupCake)" Value="109490" />
+  <Preset Label="Decorate (si_BakingSkill_DecorateCookie)" Value="109491" />
+  <Preset Label="generic_BookingStation" Value="109503" />
+  <Preset Label="Fingerprint (bookingStation_Fingerprint_start)" Value="109519" />
+  <Preset Label="Play Mirror Game (mixer_social_PlayMirrorGame_Targeted_Funny_AlwaysOn_clone)" Tags="TestUnsafe" Value="109554" />
+  <Preset Label="Taking Fingerprints (bookingStation_BookingFingerprint)" Value="109569" />
+  <Preset Label="Take Witness Report (socialSuperInteraction_TakeWitnessReport)" Value="109576" />
+  <Preset Label="Discuss Similarities (mixer_social_DiscussSimilarities_Targeted_Friendly_AlwaysOn_clone)" Tags="TestUnsafe" Value="109583" />
+  <Preset Label="Scientist Breakthrough (All) (si_cheat_CareerScientist_Breakthrough_All)" Value="109595" />
+  <Preset Label="Purchase From Display (retail_BuyItemFromInventory)" Value="109634" />
+  <Preset Label="Purchase (purchase_Retail_FromInventory)" Tags="TestUnsafe" Value="109637" />
+  <Preset Label="Call Inferior Version (mixer_social_CallInferiorVersion_Targeted_Mean_AlwaysOn_clone)" Tags="TestUnsafe" Value="109663" />
+  <Preset Label="Clock In (si_Retail_ClockIn)" Value="109691" />
+  <Preset Label="Clearance - 5% Markup (retail_Register_SetPrices_VeryLow)" Value="109707" />
+  <Preset Label="Sale - 15% Markup (retail_Register_SetPrices_Low)" Value="109708" />
+  <Preset Label="Normal - 25% Markup (retail_Register_SetPrices_Medium)" Value="109709" />
+  <Preset Label="Pricey - 50% Markup (retail_Register_SetPrices_High)" Value="109710" />
+  <Preset Label="Exorbitant - 100% Markup (retail_Register_SetPrices_VeryHigh)" Value="109711" />
+  <Preset Label="Travel to Crime Scene (crimeMap_FindCrimeScene)" Value="109714" />
+  <Preset Label="Scrap Device (si_InventionConstructor_ScrapDevice)" Value="109720" />
+  <Preset Label="Brainstorm (si_InventionConstructor_Brainstorm)" Value="109721" />
+  <Preset Label="Chat with Robot (si_InventionConstructor_Chat)" Value="109722" />
+  <Preset Label="Add Reinforced Panels (si_InventionConstructor_NeverBreaks)" Value="109724" />
+  <Preset Label="Resume Reinforced Panels (si_InventionConstructor_NeverBreaks_Resume)" Value="109725" />
+  <Preset Label="Put Device In Inventory (si_InventionConstructor_PutDeviceInInventory)" Value="109726" />
+  <Preset Label="Repair (object_Repair_Electronic_InventionConstructor)" Value="109727" />
+  <Preset Label="Go to Police Station (detective_APB_ReturnToPoliceStation)" Value="109794" />
+  <Preset Label="Lock In Cell (cellDoor_Socials_LockUp)" Value="109810" />
+  <Preset Label="Release From Cell (cellDoor_Socials_Release)" Value="109811" />
+  <Preset Label="Lock In Cell (cellDoor_Socials_LockUp_start)" Value="109812" />
+  <Preset Label="Clean (si_Retail_Clean_Pedestal)" Value="109817" />
+  <Preset Label="Clean (si_Retail_Clean_DisplayObject)" Value="109818" />
+  <Preset Label="mi_InventionConstructor_SimChat" Value="109827" />
+  <Preset Label="mi_InventionConstructor_RobotChat" Value="109828" />
+  <Preset Label="View (hoverLamp_View)" Value="109846" />
+  <Preset Label="View (orrery_View)" Value="109847" />
+  <Preset Label="Turn On (immediateSI_Orrery_TurnOn)" Value="109904" />
+  <Preset Label="Turn Off (immediateSI_Orrery_TurnOff)" Value="109905" />
+  <Preset Label="Turn Hover On (immediateSI_HoverLamp_TurnOn)" Value="109906" />
+  <Preset Label="Turn Hover Off (immediateSI_HoverLamp_TurnOff)" Value="109907" />
+  <Preset Label="mi_InventionConstructor_Invent_AnalyzePass" Value="109926" />
+  <Preset Label="mi_InventionConstructor_Invent_Analyze" Value="109928" />
+  <Preset Label="mi_InventionConstructor_Invent_Scrap" Value="109929" />
+  <Preset Label="mi_InventionConstructor_Invent_Print" Value="109930" />
+  <Preset Label="generic_XrayMachine_Doctor" Value="109937" />
+  <Preset Label="cPSSI_MakeRecipe_InventionConstructor_Staging_Invent" Value="109953" />
+  <Preset Label="Interrogation Finish (should not be seen) (mixer_social_InterrogationFinish_InterrogationTable_Special_hidden)" Tags="TestUnsafe" Value="109990" />
+  <Preset Label="generic_SurgeryTable_Doctor_Stand" Value="110018" />
+  <Preset Label="generic_SurgeryTable_Patiet_Recline" Value="110019" />
+  <Preset Label="Order Surgery for (SurgeryTable_PerformSurgery_simPicker)" Tags="TestUnsafe" Value="110023" />
+  <Preset Label="Performing Surgery (surgeryTable_Doctor_PerformSurgery)" Value="110024" />
+  <Preset Label="Having Surgery (surgeryTable_Patient_HaveSurgery_Idle)" Value="110025" />
+  <Preset Label="Having Surgery (surgeryTable_Patient_HaveSurgery_outcome)" Value="110026" />
+  <Preset Label="crimeScene_LeaveActivate" Value="110074" />
+  <Preset Label="Alien Abduction (Debug) (occult_DebugAlienAbduction)" Value="110077" />
+  <Preset Label="Upgrade: Transform Object (si_SimRay_UpgradeSimRay_TransformObject)" Value="110252" />
+  <Preset Label="Crime Scene Arson (careerDebug_CrimeScene_Arson)" Value="110253" />
+  <Preset Label="Crime Scene Theft (careerDebug_CrimeScenes_Theft)" Value="110264" />
+  <Preset Label="Crime Scene Vandalism (careerDebug_CrimeScenes_Vandalism)" Value="110265" />
+  <Preset Label="Freakout Hidden (mixer_social_Freakout_InterrogationTable_SuspectActions)" Tags="TestUnsafe" Value="110292" />
+  <Preset Label="Get Case Assignment (computer_Detective_GetCaseAssignment)" Value="110295" />
+  <Preset Label="superInteraction_InterrogationFinish" Value="110296" />
+  <Preset Label="Being Paged (frontDesk_Page_continuation_picked)" Value="110311" />
+  <Preset Label="Browse Police Database (computer_Detective_BrowsePoliceDatabase)" Value="110312" />
+  <Preset Label="Cross Reference Police Database (computer_Detective_CRossReferencePoliceDatabase)" Value="110313" />
+  <Preset Label="Cross Reference Police Database (objectPicker_Detective_ReferencePoliceDatabase)" Tags="TestUnsafe" Value="110316" />
+  <Preset Label="Take Police Report (socialSuperInteraction_Detective_TakePoliceReport)" Value="110379" />
+  <Preset Label="mixer_surgeryTable_Laser" Value="110389" />
+  <Preset Label="mixer_surgeryTable_Glue" Value="110396" />
+  <Preset Label="mixer_surgeryTable_EggBeater" Value="110397" />
+  <Preset Label="mixer_surgeryTable_Grabber" Value="110398" />
+  <Preset Label="Ask Customer To Leave (si_Retail_ShooCustomer)" Value="110413" />
+  <Preset Label="Discuss Case Theories (nonTouching_Detective_DiscussCaseTheories)" Value="110494" />
+  <Preset Label="Calibrate (si_Object_AlienPortal_Calibrate)" Value="110505" />
+  <Preset Label="Take Mugshot (bookingStation_TakeMugShot_Officer)" Value="110546" />
+  <Preset Label="Take Mugshot (bookingStation_TakeMugShot_Suspect)" Value="110547" />
+  <Preset Label="Take Mugshot (bookingStation_TakeMugShot_start)" Value="110548" />
+  <Preset Label="Take Mugshot (bookingStation_TakeMugShot_Actual)" Value="110549" />
+  <Preset Label="Clone Object (cloningMachine_CloneObject)" Value="110558" />
+  <Preset Label="Search Suspect (bookingStation_Search_start)" Value="110589" />
+  <Preset Label="Search Suspect (bookingStation_Search_actual)" Value="110590" />
+  <Preset Label="Search Suspect (bookingStation_Search_Officer)" Value="110591" />
+  <Preset Label="Get Searched (bookingStation_Search_Suspect)" Value="110593" />
+  <Preset Label="Attempt Alien Contact (si_Object_AlienPortal_ContactAliens)" Value="110653" />
+  <Preset Label="Phone Call (frontDesk_Use_DeskPhone)" Value="110674" />
+  <Preset Label="Check-In at Front Desk (frontDesk_CheckInAt_social)" Value="110688" />
+  <Preset Label="Check-In {1.SimName} (frontDesk_CheckInSim_social)" Value="110696" />
+  <Preset Label="Attend Patient on Exam Bed (hospitalExamBed_Doctor_Stand_Idle)" Value="110735" />
+  <Preset Label="Recline on Exam Bed (hospitalExamBed_Patient_Recline_Idle)" Value="110736" />
+  <Preset Label="mixer_hospitalExamBed_Patient_Recline_Sleep_idle" Value="110737" />
+  <Preset Label="mixer_hospitalExamBed_Patient_Recline_idle" Value="110738" />
+  <Preset Label="mixer_hospitalExamBed_Doctor_Stand_idle" Value="110739" />
+  <Preset Label="mixer_hospitalExamBed_Patient_Sit_idle" Value="110744" />
+  <Preset Label="Upgrade Mind Control: Clean (si_SimRay_UpgradeSimRay_MindControl_Clean)" Value="110779" />
+  <Preset Label="Upgrade Mind Control: Eat (si_SimRay_UpgradeSimRay_MindControl_Eat)" Value="110780" />
+  <Preset Label="Upgrade Mind Control: Panic (si_SimRay_UpgradeSimRay_MindControl_Panic)" Value="110781" />
+  <Preset Label="Upgrade Mind Control: Sit (si_SimRay_UpgradeSimRay_MindControl_Sit)" Value="110782" />
+  <Preset Label="Upgrade Mind Control: Sleep (si_SimRay_UpgradeSimRay_MindControl_Sleep)" Value="110783" />
+  <Preset Label="Upgrade Mind Control: Change Outfit (si_SimRay_UpgradeSimRay_MindControl_ChangeClothes)" Value="110784" />
+  <Preset Label="Upgrade: Transform Sim (si_SimRay_UpgradeSimRay_TransformSim)" Value="110785" />
+  <Preset Label="socialSuperInteraction_Detective_PatrolFight" Value="110786" />
+  <Preset Label="gtslti_AlienWorld" Value="110801" />
+  <Preset Label="Travel to Alien World... (sI_Object_AlienPortal_Travel)" Value="110809" />
+  <Preset Label="Test Alien Environment (sI_Object_AlienPortal_TestEnvironment)" Value="110812" />
+  <Preset Label="Travel to Alien World (si_SimPicker_AlienPortal_TravelWith)" Tags="TestUnsafe" Value="110814" />
+  <Preset Label="sI_Object_AlienPortal_WalkOut_SummonedAlien" Value="110815" />
+  <Preset Label="Thorough Examination (hospitalExamBed_Seated_social_Examine_Thorough)" Value="110842" />
+  <Preset Label="Quick Examination (hospitalExamBed_Seated_social_Examine_Quick)" Value="110843" />
+  <Preset Label="Athletic (mannequin_OutfitChange_Generate_Athletic)" Value="110855" />
+  <Preset Label="Everyday (mannequin_OutfitChange_Generate_Everyday)" Value="110856" />
+  <Preset Label="Formal (mannequin_OutfitChange_Generate_Formal)" Value="110857" />
+  <Preset Label="Party (mannequin_OutfitChange_Generate_Party)" Value="110858" />
+  <Preset Label="Sleepwear (mannequin_OutfitChange_Generate_Sleep)" Value="110859" />
+  <Preset Label="Swimwear (mannequin_OutfitChange_Generate_Swimwear)" Value="110860" />
+  <Preset Label="generic_AlienPortal" Value="110869" />
+  <Preset Label="Sit on Exam Bed (hospitalExamBed_Seated_social_patient)" Value="110945" />
+  <Preset Label="Attend Patient on Exam Bed (hospitalExamBed_Seated_social_doctor)" Value="110949" />
+  <Preset Label="Discuss General Health (mixer_hospitalExamBed_Seated_social_DiscussHealth)" Value="110950" />
+  <Preset Label="Attend Patient on Exam Bed (hospitalExamBed_Reclined_social_doctor)" Value="110952" />
+  <Preset Label="Recline on Exam Bed (hospitalExamBed_Reclined_social_patient)" Value="110953" />
+  <Preset Label="Install Surge Protector (si_NeonSign_Upgrade_BreakLess)" Value="110958" />
+  <Preset Label="Continue Installing Surge Protector (si_NeonSign_Upgrade_BreakLess_Resume)" Value="110959" />
+  <Preset Label="Reinforce Electrical Contacts (si_NeonSign_Upgrade_NeverBreak)" Value="110960" />
+  <Preset Label="Continue Reinforcing Electrical Contacts (si_NeonSign_Upgrade_NeverBreak_Resume)" Value="110961" />
+  <Preset Label="Add Animations (si_NeonSign_Upgrade_AddAnimations)" Value="110962" />
+  <Preset Label="Continue Adding Animations (si_NeonSign_Upgrade_AddAnimations_Resume)" Value="110963" />
+  <Preset Label="Repair (si_NeonSign_Repair)" Value="110964" />
+  <Preset Label="Laugh At Broken Sign (si_NeonSign_LaughAtBrokenSign)" Value="110965" />
+  <Preset Label="React To Broken Sign (si_NeonSign_ReactToBrokenSign)" Value="110974" />
+  <Preset Label="Swab for Sample (mixer_hospitalExamBed_Seated_social_TakeSample)" Value="110976" />
+  <Preset Label="Diagnose Illness (mixer_hospitalExamBed_Seated_Social_Diagnosis_0_displayOnly)" Value="110979" />
+  <Preset Label="Bloaty Head (mixer_hospitalExamBed_Seated_social_Diagnosis_BloatyHead)" Value="110980" />
+  <Preset Label="Burnin' Belly (mixer_hospitalExamBed_Seated_social_Diagnosis_BurningTummy)" Value="110981" />
+  <Preset Label="Gas-and-Giggles (mixer_hospitalExamBed_Seated_social_Diagnosis_GasAndGiggles)" Value="110982" />
+  <Preset Label="Itchy Plumbob (mixer_hospitalExamBed_Seated_social_Diagnosis_ItchyPlumbob)" Value="110983" />
+  <Preset Label="Llama Flu (mixer_hospitalExamBed_Seated_social_Diagnosis_LlamaFlu)" Value="110984" />
+  <Preset Label="Starry Eyes (mixer_hospitalExamBed_Seated_social_Diagnosis_StarryEyes)" Value="110985" />
+  <Preset Label="Sweaty Shivers (mixer_hospitalExamBed_Seated_social_Diagnosis_SweatyShivers)" Value="110986" />
+  <Preset Label="The Triple Threat (mixer_hospitalExamBed_Seated_social_Diagnosis_TripleThreat)" Value="110987" />
+  <Preset Label="No Illness (mixer_hospitalExamBed_Seated_social_Diagnosis_X_None)" Value="110988" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_FizzyExplosion" Value="111014" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_CriticalFail" Value="111015" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_ControlledExplosion" Value="111016" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_AddFirstIngredient" Value="111026" />
+  <Preset Label="Give Thorough Exam (mixer_hospitalExamBed_Seated_social_StartGiveExam_thorough)" Value="111125" />
+  <Preset Label="Give Quick Exam (mixer_hospitalExamBed_Seated_social_StartGiveExam_quick)" Value="111126" />
+  <Preset Label="Discuss General Health (mixer_hospitalExamBed_Reclined_social_DiscussHealth)" Value="111128" />
+  <Preset Label="Treat With Shot (mixer_hospitalExamBed_Reclined_social_GiveShot)" Value="111129" />
+  <Preset Label="Treat With Medication (mixer_hospitalExamBed_Reclined_social_DeliverTakeMeds)" Value="111130" />
+  <Preset Label="Deliver Food (mixer_hospitalExamBed_Reclined_social_DeliverEatFood)" Value="111131" />
+  <Preset Label="Analyzing {1.ObjectName} (chemicalAnalyzer_Analyze_PatientSample)" Value="111260" />
+  <Preset Label="Analyze Patient Sample (chemicalAnalyzer_Analyze_PatientSample_Picker)" Tags="TestUnsafe" Value="111261" />
+  <Preset Label="Analyze Patient Sample (chemicalAnalyzer_Analyze_PatientSample_X_display)" Value="111288" />
+  <Preset Label="Check Ears (mixer_hospitalExamBed_Exam_CheckEar_hidden)" Value="111293" />
+  <Preset Label="Check Eyes (mixer_hospitalExamBed_Exam_CheckEyes_hidden)" Value="111296" />
+  <Preset Label="Scan Body (mixer_hospitalExamBed_Exam_ProbeChest_hidden)" Value="111298" />
+  <Preset Label="Take Temperature (mixer_hospitalExamBed_Exam_TakeTemp_hidden)" Value="111301" />
+  <Preset Label="Upgrade Object: Clone Sim (debugObjectUpgrade_CloningMachine_CloneSim)" Value="111319" />
+  <Preset Label="Object Upgrade: Auto-Calibrate (debugObjectUpgrades_XrayMachine_AutoCalibrate)" Value="111320" />
+  <Preset Label="Object Upgrade: Never Break (debugObjectUpgrades_XrayMachine_NeverBreak)" Value="111321" />
+  <Preset Label="Take Group Photo of Adults (simPicker_Photostudio_TakeGroupPhotoOf_Adult)" Tags="TestUnsafe" Value="111441" />
+  <Preset Label="generic_HospitalTreadmill_Doctor" Value="111472" />
+  <Preset Label="Create Outfit in Create A Sim (mannequin_ModifyInCasAndApplyOutfit)" Value="111500" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_FinalPhase" Value="111532" />
+  <Preset Label="Design Male Uniform in Create A Sim (retail_UniformCreate_Male)" Value="111567" />
+  <Preset Label="Design Female Uniform in Create A Sim (retail_UniformCreate_Female)" Value="111568" />
+  <Preset Label="Take Group Photo Of Children (simPicker_Photostudio_TakeGroupPhotoOf_Child)" Tags="TestUnsafe" Value="111604" />
+  <Preset Label="Assign Male Uniform (retail_UniformAssign_Male)" Tags="TestUnsafe" Value="111608" />
+  <Preset Label="Assign Female Uniform (retail_UniformAssign_Female)" Tags="TestUnsafe" Value="111609" />
+  <Preset Label="Monitor Treadmill Test (hospitalTreadmill_social_doctor)" Value="111623" />
+  <Preset Label="Perform Treadmill Test (hospitalTreadmill_social_patient)" Value="111624" />
+  <Preset Label="Analyzing {1.ObjectName} (chemicalAnalyzer_AnalyzeSample)" Value="111681" />
+  <Preset Label="Analyze Sample (chemicalAnalyzer_Analyze_Sample_Picker)" Tags="TestUnsafe" Value="111682" />
+  <Preset Label="Design Uniform for {1.SimFirstName} in Create A Sim (retail_UniformModify)" Value="111684" />
+  <Preset Label="Monitor Patient (hospitalTreadmill_doctor_idle_mixer)" Value="111708" />
+  <Preset Label="Test the Limits of the Heart (hospitalTreadmill_patient_idle_mixer)" Value="111709" />
+  <Preset Label="Treadmill Accident (hospitalTreadmill_patient_failure_mixer)" Value="111715" />
+  <Preset Label="Upgrade the Electroflux Wormhole Generator (si_Object_AlienPortal_Upgrade)" Value="111763" />
+  <Preset Label="Delivering Baby (surgeryTable_Doctor_DeliverBaby)" Value="111767" />
+  <Preset Label="Having Baby Delivered (surgeryTable_Patient_HaveBaby_idle)" Value="111768" />
+  <Preset Label="Having Baby Delivered (surgeryTable_Patient_HaveBaby_outcome)" Value="111769" />
+  <Preset Label="mixer_surgeryTable_Laser_deliverBaby" Value="111772" />
+  <Preset Label="mixer_surgeryTable_Glue_deliverBaby" Value="111773" />
+  <Preset Label="mixer_surgeryTable_Grabber_deliverBaby" Value="111777" />
+  <Preset Label="Itchy Plumbob (Severe) (debug_SicknessSystem_SetIllness_ItchyPlumbob)" Value="111794" />
+  <Preset Label="Triple Threat (Severe) (debug_SicknessSystem_SetIllness_TripleThreat)" Value="111795" />
+  <Preset Label="Take Photo (photoStudio_GroupPhoto_WaitForOthers_Photographer)" Value="111808" />
+  <Preset Label="Take Photo (photoStudio_TakePhotoOf_GetInPlace_Photographer)" Value="111831" />
+  <Preset Label="Have Photo Taken (photoStudio_GroupPhoto_GetInPlace_Subject01)" Value="111832" />
+  <Preset Label="Have Photo Taken (photoStudio_GroupPhoto_GetInPlace_Subject02)" Value="111833" />
+  <Preset Label="Take Photo (photoStudio_TakePhotoOf_WaitForOthers_Photographer)" Value="111834" />
+  <Preset Label="Have Photo Taken (photoStudio_GroupPhoto_WaitForOthers_Subject01)" Value="111837" />
+  <Preset Label="Have Photo Taken (photoStudio_GroupPhoto_WaitForOthers_Subject02)" Value="111838" />
+  <Preset Label="Take Photo of (simPicker_Photostudio_TakePhotoOf_Single)" Tags="TestUnsafe" Value="111848" />
+  <Preset Label="Remove Sign (si_Retail_ClearSign)" Value="111859" />
+  <Preset Label="Have Photo Taken (photoStudio_TakePhotoOf_GetInPlace_Subject)" Value="111860" />
+  <Preset Label="idle_Buff_APB_Suspect" Value="111873" />
+  <Preset Label="Have Photo Taken (photoStudio_TakePhotoOf_WaitForOther_Subject)" Value="111876" />
+  <Preset Label="Allow to Clock Out Early (si_Retail_Employee_Socials_SendHomeEarly)" Value="111889" />
+  <Preset Label="Promote to {2.String} ({3.Money}/hr) (si_Retail_Employee_Socials_PromoteEmployee)" Value="111890" />
+  <Preset Label="Praise (si_Retail_Employee_Socials_PraiseEmployee)" Value="111891" />
+  <Preset Label="Demote to {2.String} ({3.Money}/hr) (si_Retail_Employee_Socials_DemoteEmployee)" Value="111892" />
+  <Preset Label="Criticize (si_Retail_Employee_Socials_BerateEmployee)" Value="111893" />
+  <Preset Label="Berate For Slacking (si_Retail_Employee_Socials_BerateForSlacking)" Value="111897" />
+  <Preset Label="Wait to Check-In (frontDesk_WaitToCheckIn)" Value="111912" />
+  <Preset Label="Check-In {1.SimName} (frontDesk_CheckIn_cancelWaiting)" Value="111927" />
+  <Preset Label="cpcoisi_inventionConstructor_CreateMemoryStick" Value="111939" />
+  <Preset Label="Resume Inventing (objectInInventoryPicker_InventionConstructor_Resume)" Tags="TestUnsafe" Value="111955" />
+  <Preset Label="Sell Store (retail_SellStore)" Value="111956" />
+  <Preset Label="generic_HospitalTreadmill_Patient_Wait" Value="111960" />
+  <Preset Label="Take Photo (photoStudio_GroupPhoto_GetInPlace_Photographer)" Value="111962" />
+  <Preset Label="Upgrade Cloning Machine (cloningMachine_Upgrade)" Value="111970" />
+  <Preset Label="Greet Customer (mixer_social_CustomerIntroduction_greetings)" Tags="TestUnsafe" Value="111990" />
+  <Preset Label="Upgrade Satellite Dish (si_Object_SatelliteDish_Upgrade)" Value="112002" />
+  <Preset Label="Have Baby at Hospital (create_situation_BabyBirth_Hospital)" Value="112074" />
+  <Preset Label="gtslti_Hospital" Value="112082" />
+  <Preset Label="Ready To Buy (si_Retail_WaitToPurchase)" Value="112106" />
+  <Preset Label="Ring Up Customer (si_Retail_RingUpCustomer)" Value="112108" />
+  <Preset Label="Call in Sick to Work (phone_CallSick)" Value="112150" />
+  <Preset Label="Call in Fake Sick to Work (phone_CallSick_Fake)" Value="112151" />
+  <Preset Label="Tend Photo Studio (photoStudio_TendPhotoStudio)" Value="112154" />
+  <Preset Label="Check-In at Front Desk (frontDesk_CheckInAt_BabyLabor)" Value="112190" />
+  <Preset Label="mixer_Retail_WaitToPurchase_WaveOver" Value="112192" />
+  <Preset Label="Buy Snack (si_VenueFridge_BuySnack_PieMenu)" Value="112201" />
+  <Preset Label="Bake Pastries (cupcakemaker_StartBaking)" Value="112202" />
+  <Preset Label="Search For Clues (crimeScene_SearchForClues)" Value="112225" />
+  <Preset Label="cupcakeFactory_MakeBakingRecipe_Staging_Basic" Value="112288" />
+  <Preset Label="Manage Employees (retail_ManageEmployees)" Value="112305" />
+  <Preset Label="Wait To Be Admitted (superInteraction_Hospital_BabyBirth_WaitToBe_Seated)" Value="112349" />
+  <Preset Label="Cheat Upgrade (si_Object_AlienPortal_UpgradeCheat)" Value="112360" />
+  <Preset Label="Sure Sale (mixer_social_Retail_SureSale_Targeted_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="112365" />
+  <Preset Label="si_Retail_Employee_SlackOff" Value="112366" />
+  <Preset Label="Ask about Price Range (mixer_social_AskAboutPriceRange_Targeted_Retail_AlwaysOn)" Tags="TestUnsafe" Value="112375" />
+  <Preset Label="Enthuse about Store (mixer_social_EnthuseAboutStore_Targeted_Retail_AlwaysOn)" Tags="TestUnsafe" Value="112383" />
+  <Preset Label="Discuss Shopping Preferences (mixer_social_DiscussShoppingPreferences_Targeted_Retail_AlwaysOn)" Tags="TestUnsafe" Value="112387" />
+  <Preset Label="Enthuse about Prices (mixer_social_EnthuseAboutPrices_Targeted_Retail_MiddleScore)" Tags="TestUnsafe" Value="112388" />
+  <Preset Label="Suggest Options (mixer_social_SuggestOptions_Targeted_Retail_MiddleScore)" Tags="TestUnsafe" Value="112389" />
+  <Preset Label="si_Retail_Employee_QuitAutonomous" Value="112396" />
+  <Preset Label="csi_VenueFridge_CreateObject" Value="112402" />
+  <Preset Label="Restock Outfit (mannequin_OutfitChange_RestockOutfit_Duration)" Value="112431" />
+  <Preset Label="Ask for a Metal (socials_Targeted_Friendly_AlwaysOn_STC_ScientistCollect_AskForMetal)" Tags="TestUnsafe" Value="112454" />
+  <Preset Label="Ask for a Crystal (socials_Targeted_Friendly_AlwaysOn_STC_ScientistCollect_AskForCrystal)" Tags="TestUnsafe" Value="112455" />
+  <Preset Label="Toggle &quot;For Sale&quot; Tag (retail_Immediate_ToggleVFX)" Value="112466" />
+  <Preset Label="Bake (fridge_StartBakingAutonomously)" Value="112476" />
+  <Preset Label="Bake (cupcakeMachine_StartBakingAutonomously)" Value="112479" />
+  <Preset Label="Contact Aliens (computer_ContactAliens)" Value="112489" />
+  <Preset Label="File Crime Scene Evidence (computer_Detective_TurnInClues_Day01)" Value="112546" />
+  <Preset Label="Buy Snack (si_VenueFridge_BuySnackAutonomously)" Value="112550" />
+  <Preset Label="Test Analyzer (chemicalAnalyzer_Analyze_DetectiveTestAnalyzer)" Value="112569" />
+  <Preset Label="Start Case Map (crimeMap_StartCase)" Value="112581" />
+  <Preset Label="Write Research (computer_WriteResearch)" Value="112604" />
+  <Preset Label="Theorize about Aliens (socials_Targeted_Friendly_AlwaysOn_STC_Scientist_DiscussAliens)" Tags="TestUnsafe" Value="112611" />
+  <Preset Label="Research Health Reports on Medical Journal (computer_DoctorCareer_ResearchHealthInfo)" Value="112631" />
+  <Preset Label="Log Sample Analysis Results (computer_DoctorCareer_EnterLabResults)" Value="112632" />
+  <Preset Label="Update Patient Medical Records (computer_DoctorCareer_UpdateMedicalRecords)" Value="112633" />
+  <Preset Label="Go Here (si_moveAwayCircle_2Units)" Value="112652" />
+  <Preset Label="Ask to Leave (hospitalExamBed_Doctor_DischargePatient)" Value="112675" />
+  <Preset Label="DEBUG: Detective Day 2 (careerDebug_DetectiveDayEvents_Day02)" Value="112726" />
+  <Preset Label="DEBUG: Get First Case Event (careerDebug_DetectiveDayEvents_GetFirstCase)" Value="112727" />
+  <Preset Label="DEBUG: Get New Case Event (careerDebug_DetectiveDayEvents_GetNewCase)" Value="112728" />
+  <Preset Label="DEBUG: Crime Scene Clues Event (careerDebug_DetectiveDayEvents_GetClues)" Value="112729" />
+  <Preset Label="DEBUG: Suspect Clues Event (careerDebug_DetectiveDayEvents_GetSuspectClues)" Value="112730" />
+  <Preset Label="DEBUG: Apprehend Suspect Event (careerDebug_DetectiveDayEvents_ApprehendSuspect)" Value="112731" />
+  <Preset Label="DEBUG: Interrogate Suspect Event (careerDebug_DetectiveDayEvents_InterrogateSuspect)" Value="112732" />
+  <Preset Label="Interrogate Suspect (simPickerInteraction_Detective_Interrogate)" Tags="TestUnsafe" Value="112950" />
+  <Preset Label="Add Icing (bakingMixers_Decorate_AddIcing)" Value="113087" />
+  <Preset Label="Add Piping (bakingMixers_Decorate_AddPiping)" Value="113088" />
+  <Preset Label="Add Sprinkles (bakingMixers_Decorate_AddSprinkles)" Value="113089" />
+  <Preset Label="Unlock All Upgrades (Debug) (immediateSI_Scientist_SimRay_UnlockAll)" Value="113228" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_slottedItem)" Value="113255" />
+  <Preset Label="Upgrade: Transform Object (si_SimRay_UpgradeSimRay_TransformObject_cont)" Value="113257" />
+  <Preset Label="Treat with Surgery (collapsedSim_ReferToSurgery)" Value="113288" />
+  <Preset Label="collapsedSim_Collapse" Value="113296" />
+  <Preset Label="Upgrade: Transform Sim (si_SimRay_UpgradeSimRay_TransformSim_cont)" Value="113318" />
+  <Preset Label="collapsedSim_WalkInside" Value="113324" />
+  <Preset Label="React to Collapsed Sim (collapsedSim_ReactToCollapsedSim_Panic)" Value="113352" />
+  <Preset Label="Gossip About Office Romances (mixer_social_GossipAboutOfficeRomance_Targeted_Friendly_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113359" />
+  <Preset Label="Praise Work Ethic (mixer_social_PraiseWorkEthic_Targeted_Friendly_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113360" />
+  <Preset Label="Upgrade Mind Control: Change Outfit (si_SimRay_UpgradeSimRay_MindControl_ChangeClothes_cont)" Value="113361" />
+  <Preset Label="Upgrade Mind Control: Clean (si_SimRay_UpgradeSimRay_MindControl_Clean_cont)" Value="113362" />
+  <Preset Label="Upgrade Mind Control: Eat (si_SimRay_UpgradeSimRay_MindControl_Eat_cont)" Value="113363" />
+  <Preset Label="Upgrade Mind Control: Panic (si_SimRay_UpgradeSimRay_MindControl_Panic_cont)" Value="113364" />
+  <Preset Label="Upgrade Mind Control: Sit (si_SimRay_UpgradeSimRay_MindControl_Sit_cont)" Value="113365" />
+  <Preset Label="Upgrade Mind Control: Sleep (si_SimRay_UpgradeSimRay_MindControl_Sleep_cont)" Value="113366" />
+  <Preset Label="Complain about Workload (mixer_social_ComplainAboutWorkload_Targeted_Friendly_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113373" />
+  <Preset Label="Brag about Promotion (mixer_social_BragAboutPromotion_Targeted_Friendly_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113374" />
+  <Preset Label="Congratulate on Promotion (mixer_social_CongratulateOnPromotion_Targeted_Friendly_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113375" />
+  <Preset Label="Ask about Salary (mixer_social_AskAboutSalary_Targeted_Friendly_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113376" />
+  <Preset Label="Discuss Case (mixer_social_DiscussCase_Targeted_Friendly_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113377" />
+  <Preset Label="React to Collapsed Sim (collapsedSim_ReactToCollapsedSim_Evil)" Value="113396" />
+  <Preset Label="Idle_Buff_Pregnant_Male" Value="113406" />
+  <Preset Label="Order to Garden (socials_Target_Friendly_AlwaysOn_STC_Scientist_OrderCoworkers_Garden)" Tags="TestUnsafe" Value="113444" />
+  <Preset Label="Enthuse about Solving Case (mixer_Social_EnthuseAboutSolvingCase_targeted_Friendly_alwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113460" />
+  <Preset Label="Enthuse about Inventions (mixer_Social_EnthuseAboutInventions_targeted_Friendly_alwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113461" />
+  <Preset Label="Enthuse about Delivering Baby (mixer_Social_EnthuseAboutDeliveringBaby_targeted_Friendly_alwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113462" />
+  <Preset Label="Upgrade the Electroflux Wormhole Generator (sI_Object_AlienPortal_Upgrade_ParentCont)" Value="113470" />
+  <Preset Label="Upgrade Cloning Machine (cloningMachine_Upgrade_ParentCont)" Value="113471" />
+  <Preset Label="Upgrade Satellite Dish (si_Object_SatelliteDish_Upgrade_ParentCont)" Value="113473" />
+  <Preset Label="Insult Work Ethic (mixer_social_InsultWorkEthic_Targeted_Mean_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113519" />
+  <Preset Label="Spoil Latest Episode (mixer_social_SpoilLatestEpisode_Targeted_Mean_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113520" />
+  <Preset Label="Pretend to Fire (mixer_social_PretendToFire_Targeted_Mean_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113523" />
+  <Preset Label="Order to Analyze Metals (socials_Target_Friendly_AlwaysOn_STC_Scientist_OrderCoworkers_Metals)" Tags="TestUnsafe" Value="113569" />
+  <Preset Label="Order to Analyze Crystals (socials_Target_Friendly_AlwaysOn_STC_Scientist_OrderCoworkers_Crystals)" Tags="TestUnsafe" Value="113570" />
+  <Preset Label="Order to Analyze Flora (socials_Target_Friendly_AlwaysOn_STC_Scientist_OrderCoworkers_Flora)" Tags="TestUnsafe" Value="113571" />
+  <Preset Label="Order to Experiment (socials_Target_Friendly_AlwaysOn_STC_Scientist_OrderCoworkers_Experiment)" Tags="TestUnsafe" Value="113572" />
+  <Preset Label="Order to Invent (socials_Target_Friendly_AlwaysOn_STC_Scientist_OrderCoworkers_Invent)" Tags="TestUnsafe" Value="113573" />
+  <Preset Label="Order to Work on Rocket (socials_Target_Friendly_AlwaysOn_STC_Scientist_OrderCoworkers_Rocket)" Tags="TestUnsafe" Value="113574" />
+  <Preset Label="Order to Visit Aliens (socials_Target_Friendly_AlwaysOn_STC_Scientist_OrderCoworkers_Aliens)" Tags="TestUnsafe" Value="113575" />
+  <Preset Label="{M1.He}{F1.She}'s so... cute? (baby_LookAtAlienBaby)" Value="113578" />
+  <Preset Label="Flirt Covertly (mixer_social_FlirtCovertly_Targeted_Romance_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113593" />
+  <Preset Label="Push Big Red Button (sI_ChemistryLab_ElectrocutePlayer)" Value="113595" />
+  <Preset Label="Analyze Metals (chemicalAnalyzer_OrderedToAnalyze_Metals)" Value="113597" />
+  <Preset Label="Joke about Co-workers (mixer_social_JokeAboutCoworkers_Targeted_Funny_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113599" />
+  <Preset Label="Tell NSFW Joke (mixer_social_TellNSFWJoke_Targeted_Funny_AlwaysOn_ActiveCareer)" Tags="TestUnsafe" Value="113600" />
+  <Preset Label="Stand Up (collapsedSim_GetUp)" Value="113631" />
+  <Preset Label="Get Samples for Analysis (frontDesk_GetSamples)" Value="113664" />
+  <Preset Label="Analyze Crystals (chemicalAnalyzer_OrderedToAnalyze_Crystals)" Value="113683" />
+  <Preset Label="Analyze Flora (chemicalAnalyzer_OrderedToAnalyze_Flora)" Value="113699" />
+  <Preset Label="Experiment (sI_ChemistryLab_OrderedToExperiment)" Value="113715" />
+  <Preset Label="(Debug) Buy Item (si_retail_SellItem_DEBUG)" Value="113716" />
+  <Preset Label="Travel to Alien World... (sI_Object_AlienPortal_Travel_WorldEvent)" Value="113730" />
+  <Preset Label="Treat Patient (mixer_hospitalExamBed_Seated_social_TreatPatient_display)" Value="113746" />
+  <Preset Label="Invent (si_InventionConstructor_OrderedToInvent)" Value="113750" />
+  <Preset Label="Visit Aliens (sI_Object_AlienPortal_OrderedToVisitAliens)" Value="113770" />
+  <Preset Label="Go to House Call (frontDesk_GoToHouseCall)" Value="113831" />
+  <Preset Label="Repair (object_Repair_Electronic_RetailNeonSign)" Value="113833" />
+  <Preset Label="Return to Hospital (doctor_ReturntoHospital)" Value="113841" />
+  <Preset Label="Give Medicine (doctor_AwayEvents_GiveMedicine_socialSI)" Value="113894" />
+  <Preset Label="Treat With Shot (doctor_AwayEvents_TreatOutbreak_socialSI)" Value="113895" />
+  <Preset Label="Examine Patient (doctor_AwayEvents_Examine)" Value="113897" />
+  <Preset Label="Go to Outbreak (frontDesk_GoToOutbreak)" Value="113925" />
+  <Preset Label="Return Home... (sI_Object_AlienPortal_Travel_Return)" Value="113926" />
+  <Preset Label="Ask to Leave (immediateSI_Doctor_ExamBed_AskToStand)" Value="114081" />
+  <Preset Label="hospitalExamBed_Patient_StandUp" Value="114087" />
+  <Preset Label="View (art_View_BirthCertificate)" Value="114114" />
+  <Preset Label="Sit on Exam Bed (hospitalExamBed_Patient_Sit_Idle_autonomous)" Value="114146" />
+  <Preset Label="Short Term Television Ad (Retail_Advertise_TV_Short)" Value="114172" />
+  <Preset Label="Procure SimRay (alienVisit_CreateSimRay)" Value="114177" />
+  <Preset Label="View Notebook (tablet_ViewCraftingNotebook)" Value="114261" />
+  <Preset Label="Trigger House Call DNT (frontDesk_Trigger_HouseCall)" Value="114265" />
+  <Preset Label="Trigger Outbreak DNT (frontDesk_Trigger_Outbreak)" Value="114267" />
+  <Preset Label="doctorCareer_PatientEmergency_deliverBaby_WalkIn" Value="114316" />
+  <Preset Label="Push to Buy (DEBUG) (retail_Immediate_ReadyToBuy_DEBUG)" Value="114317" />
+  <Preset Label="doctorCareer_PatientEmergency_deliveryBaby_WaitingIdle" Value="114323" />
+  <Preset Label="collapsedSim_AwayEvent_Collapse" Value="114325" />
+  <Preset Label="Stand Up (collapsedSim_AwayEvent_GetUp)" Value="114326" />
+  <Preset Label="Treat {1.SimName} (collapsedSim_AwayEvent_TreatOutbreak)" Value="114330" />
+  <Preset Label="mixer_DoctorCareer_PatientEmgerency_PregnantWaiting_Idle" Value="114359" />
+  <Preset Label="Install Wormhole Generator (si_RocketShip_Upgrade_WormholeGenerator)" Value="114454" />
+  <Preset Label="Short Term Web Campaign (Retail_Advertise_OnTheWeb_Short)" Value="114455" />
+  <Preset Label="Clean The Store (si_Retail_Employee_Instruct_ToClean_Social)" Value="114460" />
+  <Preset Label="Restock Sold Items (si_Retail_Employee_Instruct_ToRestock_Super)" Value="114462" />
+  <Preset Label="Answer Customers' Questions (si_Retail_Employee_Instruct_ToSocialize_Social)" Value="114463" />
+  <Preset Label="Ring Up Customers (si_Retail_Employee_Instruct_ToCheckOutCustomers_Social)" Value="114465" />
+  <Preset Label="Refer for X-Ray Scan (Socials_Doctor_Refer_Xray)" Tags="TestUnsafe" Value="114473" />
+  <Preset Label="Refer for Treadmill Test (socials_Doctor_Refer_Treadmill)" Tags="TestUnsafe" Value="114494" />
+  <Preset Label="Refer for Surgical Treatment (socials_Doctor_Refer_Surgery)" Tags="TestUnsafe" Value="114495" />
+  <Preset Label="Admit Patient to Exam Bed (socials_Doctor_Refer_ExamTable)" Tags="TestUnsafe" Value="114496" />
+  <Preset Label="File Paperwork (computer_Detective_FilePaperwork)" Value="114567" />
+  <Preset Label="mixer_ChemistryLab_Idle" Value="114578" />
+  <Preset Label="Take Vacation Day (Doctor) (phone_TakePTO_Doctor)" Value="114589" />
+  <Preset Label="Take Vacation Day (Detective) (phone_TakePTO_Detective)" Value="114593" />
+  <Preset Label="Take Vacation Day (Scientist) (phone_TakePTO_Scientist)" Value="114595" />
+  <Preset Label="counter_MakeRecipe_Staging_Baking" Value="114609" />
+  <Preset Label="View (art_View_Sculpture_DoctorCareer)" Value="114742" />
+  <Preset Label="Travel Through Wormhole (rocketShip_TravelToAlienPlanet)" Value="114744" />
+  <Preset Label="Buy Drink (si_VenueFridge_BuyDrinkAutonomously)" Value="114746" />
+  <Preset Label="Fire (si_Retail_Employee_Socials_FireEmployee)" Value="114750" />
+  <Preset Label="Continue Installing Wormhole Generator (si_RocketShip_UpgradeContinue_WormholeGenerator)" Value="114752" />
+  <Preset Label="gtslti_AlienWorld_Rocket" Value="114759" />
+  <Preset Label="Baking_Shared_Passive_FireChance" Value="114768" />
+  <Preset Label="Buy a Retail Store (computer_BuyRetailLot)" Value="114769" />
+  <Preset Label="Dance Party (object_SatelliteDish_Hivemind_DanceParty)" Value="114860" />
+  <Preset Label="Angry Town (object_SatelliteDish_Hivemind_Angrytown)" Value="114862" />
+  <Preset Label="Happy Town (object_SatelliteDish_Hivemind_Happytown)" Value="114863" />
+  <Preset Label="Bladder Epidemic (object_SatelliteDish_Hivemind_BladderEpidemic)" Value="114864" />
+  <Preset Label="Knockout (object_SatelliteDish_Hivemind_Knockout)" Value="114865" />
+  <Preset Label="Go On Patrol (detective_PatrolTravelStreet)" Value="114898" />
+  <Preset Label="Go On Patrol (detective_PatrolTravelComputer)" Value="114899" />
+  <Preset Label="Travel to Crime Scene (detective_CrimeSceneTravelComputer)" Value="114917" />
+  <Preset Label="Travel to Crime Scene (detective_CrimeSceneTravelStreet)" Value="114918" />
+  <Preset Label="Demote Employee (retail_Employee_Demote_Phone)" Value="114931" />
+  <Preset Label="Promote Employee (retail_Employee_Promote_Phone)" Value="114932" />
+  <Preset Label="Demote Employee (retail_Employee_Demote_FromUI)" Value="114933" />
+  <Preset Label="Fire Employee (retail_Employee_Fire_FromUI)" Value="114934" />
+  <Preset Label="Promote Employee (retail_Employee_Promote_FromUI)" Value="114935" />
+  <Preset Label="Black (immediateSI_PhotoStudio_SetBackDrop_Black)" Value="114936" />
+  <Preset Label="White (immediateSI_PhotoStudio_SetBackDrop_White)" Value="114949" />
+  <Preset Label="Grey (immediateSI_PhotoStudio_SetBackDrop_Grey)" Value="114950" />
+  <Preset Label="Brick wall (immediateSI_PhotoStudio_SetBackDrop_BrickWall)" Value="114951" />
+  <Preset Label="Sky (immediateSI_PhotoStudio_SetBackDrop_Sky)" Value="114952" />
+  <Preset Label="Outdoor (immediateSI_PhotoStudio_SetBackDrop_OutDoor)" Value="114953" />
+  <Preset Label="Water (immediateSI_PhotoStudio_SetBackDrop_Water)" Value="114954" />
+  <Preset Label="Party (immediateSI_PhotoStudio_SetBackDrop_8)" Value="114955" />
+  <Preset Label="Scrap Device (objectInInventoryPicker_InventionConstructor_Scrap)" Tags="TestUnsafe" Value="114972" />
+  <Preset Label="gtslti_AlienPortal_ToCurrentResidence" Value="114974" />
+  <Preset Label="gtslti_AlienPortal_ToScienceLab" Value="114975" />
+  <Preset Label="sI_Object_AlienPortal_Travel_WorldEvent_Continuation" Value="114985" />
+  <Preset Label="Add Clues (crimeMap_AddClues_StageTester)" Value="115005" />
+  <Preset Label="Test Serum (si_Touching_Serums_TestSerum)" Value="115030" />
+  <Preset Label="Travel to House Call (frontDesk_GoToHouseCall_Continuation)" Value="115055" />
+  <Preset Label="Travel to Outbreak (frontDesk_GoToOutbreakContinuation)" Value="115056" />
+  <Preset Label="si_InventionConstructor_CreateDevice_SimRay" Value="115062" />
+  <Preset Label="si_InventionConstructor_CreateDevice_SatelliteDish" Value="115063" />
+  <Preset Label="si_InventionConstructor_CreateDevice_CloningMachine" Value="115064" />
+  <Preset Label="si_InventionConstructor_CreateDevice_HoverLamp" Value="115065" />
+  <Preset Label="si_InventionConstructor_CreateDevice_AlienPortal" Value="115066" />
+  <Preset Label="chemicalAnalyzer_Mixers_Practice_Analyze" Value="115115" />
+  <Preset Label="chemicalAnalyzer_Mixers_Practice_Breakdown" Value="115116" />
+  <Preset Label="Return Home (si_SimPicker_AlienPortal_TravelWith_Return)" Tags="TestUnsafe" Value="115131" />
+  <Preset Label="si_Serums_Outcomes_AgeAway" Value="115158" />
+  <Preset Label="si_Serums_Outcomes_AlienAura" Value="115159" />
+  <Preset Label="si_Serums_Outcomes_ReapersFriend" Value="115160" />
+  <Preset Label="si_Serums_Outcomes_RedHot" Value="115161" />
+  <Preset Label="si_Serums_Outcomes_RosePerfume" Value="115162" />
+  <Preset Label="si_Serums_Outcomes_Slimify" Value="115163" />
+  <Preset Label="si_Serums_Outcomes_Smart" Value="115164" />
+  <Preset Label="si_Serums_Outcomes_SnakeOil" Value="115165" />
+  <Preset Label="si_Serums_Outcomes_SparkDrive" Value="115166" />
+  <Preset Label="si_Serums_Outcomes_SyntheticFood" Value="115167" />
+  <Preset Label="si_Serums_Outcomes_Embiggen" Value="115168" />
+  <Preset Label="si_Serums_Outcomes_FixersLuck" Value="115169" />
+  <Preset Label="si_Serums_Outcomes_GhostGoo" Value="115170" />
+  <Preset Label="si_Serums_Outcomes_NeedFixer" Value="115171" />
+  <Preset Label="si_Serums_Outcomes_OxStrength" Value="115172" />
+  <Preset Label="Sit (sit-Autonomous)" Value="115176" />
+  <Preset Label="mixer_AlienAbduction_TrackerIdle_VeryLow" Value="115183" />
+  <Preset Label="mixer_AlienAbduction_TrackerIdle_Low" Value="115184" />
+  <Preset Label="mixer_AlienAbduction_TrackerIdle_Medium" Value="115185" />
+  <Preset Label="mixer_AlienAbduction_TrackerIdle_VeryHigh" Value="115186" />
+  <Preset Label="Listen to Easy Listening (stereo_wall_listen_HospitalMusic)" Value="115197" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_hospitalmusic)" Value="115199" />
+  <Preset Label="mi_InventionConstructor_Invent_Concept_MomentumConserver" Value="115237" />
+  <Preset Label="mi_InventionConstructor_Invent_Concept_SimRay" Value="115238" />
+  <Preset Label="mi_InventionConstructor_Invent_Concept_HoverLamp" Value="115239" />
+  <Preset Label="mi_InventionConstructor_Invent_Concept_SatelliteDish" Value="115240" />
+  <Preset Label="mi_InventionConstructor_Invent_Concept_CloningMachine" Value="115241" />
+  <Preset Label="mi_InventionConstructor_Invent_Concept_AlienPortal" Value="115242" />
+  <Preset Label="Treat Patient (surgeryTable_Doctor_Treat_display)" Value="115249" />
+  <Preset Label="X-Ray Scan (xrayMachine_Doctor_Exam_display)" Value="115250" />
+  <Preset Label="Perform Treadmill Test (hospitalTreadmill_Doctor_Test_display)" Value="115255" />
+  <Preset Label="Recline on Exam Bed (hospitalExamBed_Patient_Recline_Idle_autonomous)" Value="115266" />
+  <Preset Label="Athletic (Scientist_MindControl_ChangeOutfit_Athletic)" Value="115316" />
+  <Preset Label="Everyday (Scientist_MindControl_ChangeOutfit_Everyday)" Value="115317" />
+  <Preset Label="Formal (Scientist_MindControl_ChangeOutfit_Formal)" Value="115318" />
+  <Preset Label="Party (Scientist_MindControl_ChangeOutfit_Party)" Value="115319" />
+  <Preset Label="Sleepwear (Scientist_MindControl_ChangeOutfit_Sleep)" Value="115320" />
+  <Preset Label="Swimwear (Scientist_MindControl_ChangeOutfit_Swimwear)" Value="115321" />
+  <Preset Label="Check Up On {1.SimFirstName} (si_Retail_Employee_Socials_CheckUpOnEmployee)" Value="115341" />
+  <Preset Label="Transfer Retail Funds (si_Register_TransferRetailFunds)" Value="115347" />
+  <Preset Label="Cloning (cloningMachine_OnSpawn_Failure)" Value="115349" />
+  <Preset Label="si_Retail_Employee_AboutToQuit" Value="115350" />
+  <Preset Label="Cloning (cloningMachine_PostSpawn_Failure)" Value="115353" />
+  <Preset Label="Cloning (cloningMachine_OnSpawn_Success)" Value="115356" />
+  <Preset Label="Cloning (cloningMachine_PostSpawn_Success)" Value="115357" />
+  <Preset Label="Travel to Alien World... (si_Object_AlienPortal_Travel_Continuation)" Value="115371" />
+  <Preset Label="Return Home... (si_Object_AlienPortal_Travel_Return_Continuation)" Value="115372" />
+  <Preset Label="Give Tainted Serum (objectPicker_Serum_GiveTaintedSerum)" Tags="TestUnsafe" Value="115374" />
+  <Preset Label="Go to Work (si_Career_active_Doctor)" Value="115377" />
+  <Preset Label="Clean (scientist_MindControl_Clean)" Value="115378" />
+  <Preset Label="Eat (scientist_MindControl_Eat)" Value="115379" />
+  <Preset Label="Panic (scientist_MindControl_Panic)" Value="115380" />
+  <Preset Label="Sit (scientist_MindControl_Sit)" Value="115381" />
+  <Preset Label="Sleep (scientist_MindControl_Sleep)" Value="115382" />
+  <Preset Label="simRay_MindControlReaction_laughManiacal" Value="115417" />
+  <Preset Label="Freeze Ray (social_SimRay_FreezeRay)" Value="115420" />
+  <Preset Label="Salvage into Parts (si_object_electronics_salvage_NeonSign)" Value="115421" />
+  <Preset Label="Sleep (hospitalExamBed_Patient_Recline_Sleep)" Value="115430" />
+  <Preset Label="Mannequin_TryOnOutfit_00" Value="115440" />
+  <Preset Label="Mannequin_TryOnOutfit_02" Value="115442" />
+  <Preset Label="Mannequin_TryOnOutfit_03" Value="115443" />
+  <Preset Label="immediate_BabyBirth_Partner" Value="115461" />
+  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic)" Value="115529" />
+  <Preset Label="Ask about Party (mixer_social_Targeted_AskAboutParty_Friendly_AlwaysOn_Alien)" Tags="TestUnsafe" Value="115530" />
+  <Preset Label="Grim Hug (si_Touching_Reaper_BroHug)" Value="115575" />
+  <Preset Label="Return to Hospital (doctor_ReturntoHospital_Street)" Value="115584" />
+  <Preset Label="Chat with {1.SimFirstName} (social_Clone_Greeting)" Value="115636" />
+  <Preset Label="Browse Merchandise (si_Retail_Browse_Freezer)" Value="115644" />
+  <Preset Label="Greet Clone Self (mixer_social_Clone_Greeting)" Tags="TestUnsafe" Value="115650" />
+  <Preset Label="Perform Treadmill Test (hospitalTreadmill_social_patient_wait)" Value="115663" />
+  <Preset Label="hospitalTreadmill_patient_actionSuccess_warmUp" Value="115670" />
+  <Preset Label="Treadmill Accident (hospitalTreadmill_patient_actionFailure_focus)" Value="115681" />
+  <Preset Label="Treadmill Accident (hospitalTreadmill_patient_actionFailure_intense)" Value="115682" />
+  <Preset Label="Treadmill Accident (hospitalTreadmill_patient_actionFailure_strenuous)" Value="115685" />
+  <Preset Label="Restock Item (retail_RestockItem_Instant)" Value="115687" />
+  <Preset Label="hospitalTreadmill_patient_actionSuccess_focus" Value="115697" />
+  <Preset Label="hospitalTreadmill_patient_actionSuccess_strenuous" Value="115698" />
+  <Preset Label="hospitalTreadmill_patient_actionSuccess_intense" Value="115699" />
+  <Preset Label="hospitalTreadmill_patient_actionSuccess_moderate" Value="115700" />
+  <Preset Label="Delivering Baby (surgeryTable_Doctor_NPC_DeliverBaby)" Value="115743" />
+  <Preset Label="Having Baby Delivered (surgeryTable_Patient_Player_HaveBaby_idle)" Value="115746" />
+  <Preset Label="Having Baby Delivered (surgeryTable_Player_HaveBaby_outcome)" Value="115754" />
+  <Preset Label="routeNearObjectInteraction_collapsedSim_AwayEvent" Value="115763" />
+  <Preset Label="Deliver Baby at Surgery Table (socials_Doctor_Refer_Surgery_deliverBaby)" Tags="TestUnsafe" Value="115774" />
+  <Preset Label="Practice Analysis (chemicalAnalyzer_PracticeAnalysis_doctor)" Value="115784" />
+  <Preset Label="crimeScene_TakeNotes" Value="115812" />
+  <Preset Label="Dance (si_solo_SatelliteDishHiveMind_Dance)" Value="115844" />
+  <Preset Label="detective_CiminalTeleportIntoCell" Value="115887" />
+  <Preset Label="Angry Slap (si_Touching_ReaperSlap)" Value="115892" />
+  <Preset Label="Fingerprint (bookingStation_Fingerprint_CellTest_PreStart)" Value="115894" />
+  <Preset Label="Browse Merchandise (si_Retail_Browse_Wall)" Value="115925" />
+  <Preset Label="Search Suspect (bookingStation_Search_CellTest_PreStart)" Value="115939" />
+  <Preset Label="Take Mugshot (bookingStation_TakeMugShot_CellTest_PreStart)" Value="115940" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_FinalPhase_RedHot" Value="115943" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_FinalPhase_RosePerfume" Value="115944" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_FinalPhase_GhostGoo" Value="115945" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_FinalPhase_SparkDrive" Value="115946" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_FinalPhase_SmartSerum" Value="115947" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_FinalPhase_FixersLuck" Value="115948" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_FinalPhase_ReapersFriend" Value="115949" />
+  <Preset Label="cpssi_MakeRecipe_ChemistryLab_CraftSerum_FinalPhase_AlienAura" Value="115950" />
+  <Preset Label="mixer_Retail_Employee_ChanceToStartSlacking" Value="115967" />
+  <Preset Label="Long Term Web Campaign (Retail_Advertise_OnTheWeb_Long)" Value="116025" />
+  <Preset Label="Long Term Television Ad (Retail_Advertise_TV_Long)" Value="116026" />
+  <Preset Label="Travel Through Wormhole (rocketShip_TravelToAlienPlanet_WorldEvent)" Value="116057" />
+  <Preset Label="Travel Through Wormhole (rocketShip_TravelToAlienPlanet_WorldEvent_Continuation)" Value="116061" />
+  <Preset Label="Empty Trash (empty_Trash_career)" Value="116071" />
+  <Preset Label="Transform (social_SimRay_Transform_Sim)" Value="116074" />
+  <Preset Label="Alter Disguise (si_Occult_Alien_Disguise_Change_Self)" Value="116078" />
+  <Preset Label="Grab a Serving (baking_grab_Decorate_3Var)" Value="116079" />
+  <Preset Label="Grab a Serving (baking_grab_Decorate_2Var)" Value="116084" />
+  <Preset Label="Grab a Serving (baking_grab_Decorate_1Var)" Value="116085" />
+  <Preset Label="Have Baby at Hospital (simPicker_BabyBirth_Hospital)" Tags="TestUnsafe" Value="116170" />
+  <Preset Label="Tinker (si_CareerScientist_Tinker_InventionConstructor)" Value="116180" />
+  <Preset Label="Buy a Retail Store (phone_BuyRetailLot)" Value="116184" />
+  <Preset Label="sI_Object_AlienPortal_Travel_WorldEvent_NoZoneDirector_Continuation" Value="116200" />
+  <Preset Label="Return to Science Lab (si_Object_AlienPortal_Travel_Return_ScienceLab_Continuation)" Value="116219" />
+  <Preset Label="sI_Object_AlienPortal_GoHome" Value="116241" />
+  <Preset Label="Admit Patient to Exam Bed (doctor_Refer_SI_ExamBed)" Value="116244" />
+  <Preset Label="Diagnose (hospitalExamBed_Doctor_DiagnosePatient_autonomous)" Value="116247" />
+  <Preset Label="Deliberate Medical Theory (mixer_social_DebateMedicalTheory_targeted_Friendly_alwaysOn_activeCareer_doctor)" Tags="TestUnsafe" Value="116269" />
+  <Preset Label="si_Retail_CustomerCheckOut" Value="116285" />
+  <Preset Label="Refer for Treadmill Test (doctor_Refer_SI_Treadmill)" Value="116356" />
+  <Preset Label="Ready To Buy (si_Retail_WaitToPurchase_ObjectInWorld)" Value="116359" />
+  <Preset Label="Refer for Surgical Treatment (doctor_Refer_SI_SurgeryTable)" Value="116360" />
+  <Preset Label="Refer for X-Ray Scan (doctor_Refer_SI_XrayMachine)" Value="116361" />
+  <Preset Label="Deliver Baby (doctor_Refer_SI_Pregnant_Player)" Value="116364" />
+  <Preset Label="Deliver Baby (doctor_Refer_SI_Pregnant_NPC)" Value="116366" />
+  <Preset Label="Travel Through Wormhole (rocketShip_TravelToAlienPlanet_WorldEvent_NoZoneDirector_Continuation)" Value="116396" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_InventionConstructor)" Value="116403" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_ChemistryLab)" Value="116409" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_ChemicalAnalyzer)" Value="116410" />
+  <Preset Label="Talk about Health-Care (mixer_hospitalExamBed_Seated_social_TalkAboutHealthcare)" Value="116412" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_slottedItem_InventionConstructor)" Value="116433" />
+  <Preset Label="Record Emergency Analysis Data (computer_DoctorCareer_EnterLabResults_emergency)" Value="116439" />
+  <Preset Label="Destroy (patientSample_destroy)" Value="116447" />
+  <Preset Label="Dig (collection_DigSite_AlienWorld_Dig)" Value="116456" />
+  <Preset Label="Clone Self (debug_cloningMachine_CloneSelf)" Value="116484" />
+  <Preset Label="Cloning (debug_cloningMachine_CloneSelf_continuation)" Value="116486" />
+  <Preset Label="detective_ArrestedTeleportIntoCell" Value="116521" />
+  <Preset Label="mixer_ChemistryLab_FizzyExplosion" Value="116601" />
+  <Preset Label="Purchase From Display (si_Retail_BuyItemFromInventory_Autonomous)" Value="116619" />
+  <Preset Label="Talk about Health-Care (mixer_hospitalExamBed_Reclined_social_TalkAboutHealthcare)" Value="116631" />
+  <Preset Label="Go to Work (si_Career_active_Detective)" Value="116658" />
+  <Preset Label="Go to Work (si_Career_active_Scientist)" Value="116659" />
+  <Preset Label="Cuddle (baby_Cuddle_postHospitalDelivery)" Value="116663" />
+  <Preset Label="Sleep (hospitalExamBed_Patient_Recline_Sleep_noTrans)" Value="116675" />
+  <Preset Label="Wait to Check-In (frontDesk_WaitToCheckIn_start)" Value="116680" />
+  <Preset Label="Talk to the Chief (socials_Targeted_Friendly_AlwaysOn_STC_Detective_TalkToChief)" Tags="TestUnsafe" Value="116714" />
+  <Preset Label="Transform (simRay_Transform_Object_WallObject)" Value="116720" />
+  <Preset Label="Clean (si_Retail_Clean_DisplayObject_Superficial)" Value="116776" />
+  <Preset Label="Clean (si_Retail_Clean_Pedestal_Superficial)" Value="116777" />
+  <Preset Label="doctor_AwayEvents_TreatOutbreak_BeTreated" Value="116891" />
+  <Preset Label="Interrogate Suspect (interrogation_Interactions_InCellPreTest)" Value="117027" />
+  <Preset Label="Return to Police Station (detective_ReturnToPoliceStationStreet)" Value="117033" />
+  <Preset Label="retail_FinalizeBuy" Value="117034" />
+  <Preset Label="si_Register_StandNearRegister" Value="118357" />
+  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic_HotTub)" Value="122070" />
+  <Preset Label="si_touching_Greeting_Alien_SecretHandshake" Value="123350" />
+  <Preset Label="retail_Immediate_BuyFromUI" Value="143392" />
+  <Preset Label="Add Safety Protocols (chemistryLab_Upgrade_NeverBreaks_CompletedDisplay)" Value="156557" />
+  <Preset Label="Add Corrective Laser Lens (xrayMachine_Upgrade_AutoCalibrate_CompletedDisplay)" Value="156559" />
+  <Preset Label="Convert to Frictionless Scanner Rig (xrayMachine_Upgrade_NeverBreaks_CompletedDisplay)" Value="156560" />
+  <Preset Label="Add Animations (neonSign_Upgrade_AddAnimations_CompletedDisplay)" Value="156562" />
+  <Preset Label="Install Surge Protector (neonSign_Upgrade_BreakLess_CompletedDisplay)" Value="156563" />
+  <Preset Label="Reinforce Electrical Contacts (neonSign_Upgrade_NeverBreak_CompletedDisplay)" Value="156564" />
+  <Preset Label="Add Steel Centrifuge (chemicalAnalyzer_Upgrade_NeverBreaks_CompletedDisplay)" Value="156577" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_NeonSign)" Value="156583" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_XRayMachine)" Value="156587" />
+  <Preset Label="Add Reinforced Panels (inventionConstructor_Upgrade_NeverBreaks_CompletedDisplay)" Value="156592" />
+  <Preset Label="Grab a Serving (baking_grab_Decorate_1Var_ForToddlers)" Value="157360" />
+  <Preset Label="Grab a Serving (baking_grab_Decorate_3Var_ForToddlers)" Value="157364" />
+  <Preset Label="Grab a Serving (baking_grab_Decorate_1Var_ForToddlers_SimPicker)" Value="157366" />
+  <Preset Label="Grab a Serving (baking_grab_Decorate_2Var_ForToddlers_SimPicker)" Value="157368" />
+  <Preset Label="Grab a Serving (baking_grab_Decorate_3Var_ForToddlers_SimPicker)" Value="157370" />
+  <Preset Label="Grab a Serving (baking_grab_Decorate_2Var_ForToddlers)" Value="157373" />
+  <Preset Label="Pick Up Serving (baking_grab_Decorate_3Var_toInventory)" Value="157374" />
+  <Preset Label="Pick Up Serving (baking_grab_Decorate_2Var_toInventory)" Value="157375" />
+  <Preset Label="Pick Up Serving (baking_grab_Decorate_1Var_toInventory)" Value="157376" />
+  <Preset Label="Alter Disguise (si_Occult_Alien_Disguise_Change_Toddler)" Value="157440" />
+  <Preset Label="Alter Disguise (si_Occult_Alien_Disguise_Change_Self_Toddler)" Value="157442" />
+  <Preset Label="Set For Sale (retail_SetItemForSale_PetBowl)" Value="168108" />
+  <Preset Label="Upgrade Cloning Machine (cloningMachine_Upgrade_CompletedDisplay)" Value="168614" />
+  <Preset Label="Upgrade Satellite Dish (satelliteDish_Upgrade_CompletedDisplay)" Value="168615" />
+  <Preset Label="Upgrade the Electroflux Wormhole Generator (alienPortal_Upgrade_CompletedDisplay)" Value="168616" />
+  <Preset Label="Upgrade Mind Control: Change Outfit (simRay_ChangeClothes_Upgrade_CompletedDisplay)" Value="168664" />
+  <Preset Label="Upgrade Mind Control: Clean (simRay_Clean_Upgrade_CompletedDisplay)" Value="168665" />
+  <Preset Label="Upgrade Mind Control: Eat (simRay_Eat_Upgrade_CompletedDisplay)" Value="168666" />
+  <Preset Label="Upgrade Mind Control: Panic (simRay_Panic_Upgrade_CompletedDisplay)" Value="168667" />
+  <Preset Label="Upgrade Mind Control: Sit (simRay_Sit_Upgrade_CompletedDisplay)" Value="168668" />
+  <Preset Label="Upgrade Mind Control: Sleep (simRay_Sleep_Upgrade_CompletedDisplay)" Value="168669" />
+  <Preset Label="Upgrade: Transform Object (simRay_TransformObject_Upgrade_CompletedDisplay)" Value="168670" />
+  <Preset Label="Upgrade: Transform Sim (simRay_TransformSim_Upgrade_CompletedDisplay)" Value="168671" />
+  <Preset Label="Listen to Easy Listening (stereo_earbuds_listen_HospitalMusic)" Value="177383" />
+  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic_HotTub_NotInHotTub)" Value="179356" />
+  <Preset Label="Diagnose (hospitalExamBed_Doctor_DiagnosePatient_Pushed)" Value="179422" />
+  <Preset Label="Transfer Patient Case (mixer_hospitalExamBed_Doctor_TransferPatientCase)" Value="179432" />
+  <Preset Label="HospitalExamBed_TransferPatientCase_SimPicker" Tags="TestUnsafe" Value="179433" />
+  <Preset Label="Go Here (si_moveAwayCircle_2Units_Doctor)" Value="179944" />
+  <Preset Label="Lock In Cell (cellDoor_Socials_LockUp_Tooltip)" Value="183345" />
+  <Preset Label="Cold Weather (mannequin_OutfitChange_Generate_ColdWeather)" Value="192551" />
+  <Preset Label="Hot Weather (mannequin_OutfitChange_Generate_HotWeather)" Value="192552" />
+  <Preset Label="Event_NPC_Idles_MBB_Positivity_Challenge_Think_Hard" Value="199082" />
+  <Preset Label="Set For Sale (retail_SetWalkInSafeForSale)" Value="200872" />
+  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic_Smart_Hub)" Value="203837" />
+  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic_WaterScooter)" Value="205194" />
+  <Preset Label="Scientist Career (phone_Notebook_View_ScientistCareer)" Value="205517" />
+  <Preset Label="Detective Career (phone_Notebook_View_DetectiveCareer)" Value="205519" />
+  <Preset Label="sI_Object_AlienPortal_GoHome_ClothingOptional" Value="210513" />
+  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic_Bot)" Value="223597" />
+  <Preset Label="Refer for Surgical Treatment (doctor_Refer_SI_SurgeryTable_DebugPush)" Value="229695" />
+  <Preset Label="Transform (simRay_Transform_Object_ScientistVenueGrassOnly)" Value="260638" />
+  <Preset Label="Bake (stove_Bake_StartCrafting_RequiredIngredients)" Value="261956" />
+  <Preset Label="Bake Pastries (cupcakemaker_StartBaking_RequiredIngredients)" Value="261964" />
+  <Preset Label="Bake (fridge_Bake_StartCrafting_RequiredIngredients)" Value="262028" />
+</PresetGroup>

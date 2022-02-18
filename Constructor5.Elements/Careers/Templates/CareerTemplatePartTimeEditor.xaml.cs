@@ -3,7 +3,7 @@ using System.Windows.Controls;
 
 namespace Constructor5.Elements.Careers.Templates
 {
-    [ObjectEditor(typeof(CareerTemplatePartTimeEditor))]
+    [ObjectEditor(typeof(CareerTemplatePartTime))]
     public partial class CareerTemplatePartTimeEditor : UserControl, IObjectEditor
     {
         public CareerTemplatePartTimeEditor() => InitializeComponent();

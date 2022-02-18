@@ -1,0 +1,1096 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP06">
+  <Preset Label="Operate (dollyCamera_Operate)" Value="188525" />
+  <Preset Label="dollyCamera_Operate_Idle" Value="188674" />
+  <Preset Label="dollyCamera_Operate_Mixer1" Value="188675" />
+  <Preset Label="dollyCamera_Operate_Mixer2" Value="188676" />
+  <Preset Label="dollyCamera_Operate_Mixer3" Value="188677" />
+  <Preset Label="dollyCamera_Operate_Mixer4" Value="188678" />
+  <Preset Label="Risky Hug (stage_Socials_Picker_Risky_Hug)" Tags="TestUnsafe" Value="188881" />
+  <Preset Label="Risky Kiss (stage_Socials_Picker_Risky_Kiss)" Tags="TestUnsafe" Value="188882" />
+  <Preset Label="Safe Hug (stage_Socials_Picker_Safe_Hug)" Tags="TestUnsafe" Value="188883" />
+  <Preset Label="Safe Kiss (stage_Socials_Picker_Safe_Kiss)" Tags="TestUnsafe" Value="188884" />
+  <Preset Label="Risky Flirt (stage_Socials_Picker_Risky_Flirt)" Tags="TestUnsafe" Value="188938" />
+  <Preset Label="Safe Flirt (stage_Socials_Picker_Safe_Flirt)" Tags="TestUnsafe" Value="188939" />
+  <Preset Label="Wealth &amp; Collecting (solo_ActorCareer_GoToMark_CoStar1)" Value="189011" />
+  <Preset Label="Tell Director Ready To Perform (actorCareer_Socials_ReadyToPerform)" Value="189230" />
+  <Preset Label="Wealth &amp; Collecting (actorCareer_Wait)" Value="189276" />
+  <Preset Label="Rehearse Scene (actorCareer_Socials_PracticeScene)" Value="189332" />
+  <Preset Label="HairMakeUpChair_WaitNearChair" Value="189528" />
+  <Preset Label="cameraFilm_Stationary_Preperformance_Pan" Value="189598" />
+  <Preset Label="cameraFilm_Stationary_Performance_Pan" Value="189601" />
+  <Preset Label="Operate (cameraFilm_Stationary_Operate)" Value="189607" />
+  <Preset Label="Get Hair and Makeup For Gig (simPicker_HairMakeUpChair_Style)" Tags="TestUnsafe" Value="189731" />
+  <Preset Label="Offer Makeup (simPicker_HairMakeUpChair_OfferMakeUp)" Tags="TestUnsafe" Value="189732" />
+  <Preset Label="Offer Hair Style (simPicker_HairMakeUpChair_OfferHairStyle)" Tags="TestUnsafe" Value="189733" />
+  <Preset Label="Ask For Makeup (simPicker_HairMakeUpChair_AskForMakeUp)" Tags="TestUnsafe" Value="189736" />
+  <Preset Label="Ask For Hair Style (simPicker_HairMakeUpChair_AskForHairStyle)" Tags="TestUnsafe" Value="189737" />
+  <Preset Label="Ask For Makeup (social_HairMakeUpChair_AskForMakeUp)" Value="189744" />
+  <Preset Label="Ask For Hair Style (social_HairMakeUpChair_AskForHairStyle)" Value="189745" />
+  <Preset Label="Offer Hair Style (social_HairMakeUpChair_OfferHairStyle)" Value="189746" />
+  <Preset Label="Offer Makeup (social_HairMakeUpChair_OfferMakeUp)" Value="189747" />
+  <Preset Label="cameraFilm_Stationary_Performance_Idle" Value="189752" />
+  <Preset Label="cameraFilm_Stationary_Performance_Zoom" Value="189753" />
+  <Preset Label="cameraFilm_Stationary_Preperformance_Idle" Value="189754" />
+  <Preset Label="cameraFilm_Stationary_Preperformance_Zoom" Value="189755" />
+  <Preset Label="Operate (cameraFilm_Stationary_Operate_Home)" Value="189757" />
+  <Preset Label="Adjust (cameraFilm_Stationary_Adjust)" Value="189763" />
+  <Preset Label="Adjust (cameraFilm_Stationary_Adjust_Home)" Value="189764" />
+  <Preset Label="generic_HairMakeUpChair_Hair" Value="189787" />
+  <Preset Label="generic_HairMakeUpChair_MakeUp" Value="189788" />
+  <Preset Label="Be Styled (social_HairMakeUpChair_StyleHair)" Value="189793" />
+  <Preset Label="Be Styled (social_HairMakeUpChair_StyleMakeUp)" Value="189794" />
+  <Preset Label="mixer_HairMakeUpChair_Hair_Scissors" Tags="TestUnsafe" Value="189803" />
+  <Preset Label="mixer_HairMakeUpChair_Hair_FixHair" Tags="TestUnsafe" Value="189804" />
+  <Preset Label="mixer_HairMakeUpChair_Hair_BlowDryer" Tags="TestUnsafe" Value="189805" />
+  <Preset Label="Style Hair (social_HairMakeUpChair_StyleHair_Target)" Value="189809" />
+  <Preset Label="Style Makeup (social_HairMakeUpChair_StyleMakeUp_Target)" Value="189810" />
+  <Preset Label="Discuss Hair (socials_HairMakeUpChair_DiscussHair)" Value="189914" />
+  <Preset Label="Discuss Makeup (socials_HairMakeUpChair_DiscussMakeUp)" Value="189915" />
+  <Preset Label="Discuss Hair (social_HairMakeUpChair_DiscussHair_Target)" Value="189920" />
+  <Preset Label="mixer_HairMakeUpChair_MakeUp_Brush" Tags="TestUnsafe" Value="189928" />
+  <Preset Label="mixer_HairMakeUpChair_MakeUp_Puff" Tags="TestUnsafe" Value="189929" />
+  <Preset Label="mixer_HairMakeUpChair_MakeUp_Check" Tags="TestUnsafe" Value="189930" />
+  <Preset Label="Discuss Makeup (social_HairMakeUpChair_DiscussMakeUp_Target)" Value="189932" />
+  <Preset Label="Keep Style (hairMakeUpChair_KeepStyle)" Value="189984" />
+  <Preset Label="Be Styled for Gig (socials_HairMakeUpChair_Gig_Hair)" Value="189989" />
+  <Preset Label="Be Styled for Gig (socials_HairMakeUpChair_Gig_MakeUp)" Value="189990" />
+  <Preset Label="Be Styled for Gig (socials_HairMakeUpChair_GigFail_Hair)" Value="189994" />
+  <Preset Label="Be Styled for Gig (socials_HairMakeUpChair_GigFail_MakeUp)" Value="189995" />
+  <Preset Label="Offer Appearance Styling (simPicker_HairMakeUpChair_OfferAppearanceStyle)" Tags="TestUnsafe" Value="190262" />
+  <Preset Label="Offer Appearance Styling (social_HairMakeUpChair_OfferAppearanceStyle)" Value="190264" />
+  <Preset Label="Be Appearance Styled (social_HairMakeUpChair_StyleAppearance_MakeUp)" Value="190265" />
+  <Preset Label="solo_ActorCareer_GoToMark" Value="191061" />
+  <Preset Label="solo_ActorCareer_DirectorWait" Value="191105" />
+  <Preset Label="Sit (seating_Sit_DirectorChair)" Value="191162" />
+  <Preset Label="solo_ActorCareer_WatchPerformance" Value="191195" />
+  <Preset Label="actorCareer_React_SafeSuccess" Value="191215" />
+  <Preset Label="actorCareer_React_RiskyFail" Value="191220" />
+  <Preset Label="actorCareer_React_RiskySuccess" Value="191221" />
+  <Preset Label="generic_WardrobePedestal" Value="191329" />
+  <Preset Label="Get Into Costume for Gig (simPicker_WardrobePedestal_Gig_Outfit)" Tags="TestUnsafe" Value="191363" />
+  <Preset Label="Ask For Everyday Outfit (simPicker_WardrobePedestal_AskForOutfit_Everyday)" Tags="TestUnsafe" Value="191364" />
+  <Preset Label="Offer Everyday Outfit (simPicker_WardrobePedestal_OfferOutfit_Everyday)" Tags="TestUnsafe" Value="191365" />
+  <Preset Label="Ask to Be Outfitted (social_WardrobePedestal_AskForOutfit_Athletic)" Value="191368" />
+  <Preset Label="Offer to Outfit (social_WardrobePedestal_OfferOutfit_Swim)" Value="191369" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_Outfit_Athletic)" Value="191370" />
+  <Preset Label="Outfit (social_WardrobePedestal_Outfit_Target)" Value="191371" />
+  <Preset Label="mixer_WardrobePedestal_Outfit_Think" Tags="TestUnsafe" Value="191393" />
+  <Preset Label="mixer_WardrobePedestal_Outfit_Measure" Tags="TestUnsafe" Value="191394" />
+  <Preset Label="mixer_WardrobePedestal_Outfit_ColorSwatch" Tags="TestUnsafe" Value="191395" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_Gig_OutfitFail)" Value="191396" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_NewOutfit_Athletic)" Value="191397" />
+  <Preset Label="Outfit (social_WardrobePedestal_ClothesSpin_Target)" Value="191398" />
+  <Preset Label="Be Outfitted for Gig (social_WardrobePedestal_Gig_Outfit)" Value="191400" />
+  <Preset Label="Ask For Formal Outfit (simPicker_WardrobePedestal_AskForOutfit_Formal)" Tags="TestUnsafe" Value="191410" />
+  <Preset Label="Ask For Sleep Outfit (simPicker_WardrobePedestal_AskForOutfit_Sleep)" Tags="TestUnsafe" Value="191411" />
+  <Preset Label="Ask For Party Outfit (simPicker_WardrobePedestal_AskForOutfit_Party)" Tags="TestUnsafe" Value="191412" />
+  <Preset Label="Ask For Athletic Outfit (simPicker_WardrobePedestal_AskForOutfit_Athletic)" Tags="TestUnsafe" Value="191413" />
+  <Preset Label="Ask For Swim Outfit (simPicker_WardrobePedestal_AskForOutfit_Swim)" Tags="TestUnsafe" Value="191414" />
+  <Preset Label="Ask For Hot Weather Outfit (simPicker_WardrobePedestal_AskForOutfit_HotWeather)" Tags="TestUnsafe" Value="191415" />
+  <Preset Label="Ask For Cold Weather Outfit (simPicker_WardrobePedestal_AskForOutfit_ColdWeather)" Tags="TestUnsafe" Value="191416" />
+  <Preset Label="Offer Athletic Outfit (simPicker_WardrobePedestal_OfferOutfit_Athletic)" Tags="TestUnsafe" Value="191418" />
+  <Preset Label="Offer Cold Weather Outfit (simPicker_WardrobePedestal_OfferOutfit_ColdWeather)" Tags="TestUnsafe" Value="191419" />
+  <Preset Label="Offer Formal Outfit (simPicker_WardrobePedestal_OfferOutfit_Formal)" Tags="TestUnsafe" Value="191420" />
+  <Preset Label="Offer Hot Weather Outfit (simPicker_WardrobePedestal_OfferOutfit_HotWeather)" Tags="TestUnsafe" Value="191421" />
+  <Preset Label="Offer Party Outfit (simPicker_WardrobePedestal_OfferOutfit_Party)" Tags="TestUnsafe" Value="191422" />
+  <Preset Label="Offer Swim Outfit (simPicker_WardrobePedestal_OfferOutfit_Swim)" Tags="TestUnsafe" Value="191423" />
+  <Preset Label="Offer Sleep Outfit (simPicker_WardrobePedestal_OfferOutfit_Sleep)" Tags="TestUnsafe" Value="191424" />
+  <Preset Label="Ask to Be Outfitted (social_WardrobePedestal_AskForOutfit_ColdWeather)" Value="191484" />
+  <Preset Label="Ask to Be Outfitted (social_WardrobePedestal_AskForOutfit_Everyday)" Value="191485" />
+  <Preset Label="Ask to Be Outfitted (social_WardrobePedestal_AskForOutfit_Formal)" Value="191486" />
+  <Preset Label="Ask to Be Outfitted (social_WardrobePedestal_AskForOutfit_HotWeather)" Value="191487" />
+  <Preset Label="Ask to Be Outfitted (social_WardrobePedestal_AskForOutfit_Party)" Value="191488" />
+  <Preset Label="Ask to Be Outfitted (social_WardrobePedestal_AskForOutfit_Sleep)" Value="191489" />
+  <Preset Label="Ask to Be Outfitted (social_WardrobePedestal_AskForOutfit_Swim)" Value="191490" />
+  <Preset Label="Offer to Outfit (social_WardrobePedestal_OfferOutfit_Sleep)" Value="191492" />
+  <Preset Label="Offer to Outfit (social_WardrobePedestal_OfferOutfit_Party)" Value="191493" />
+  <Preset Label="Offer to Outfit (social_WardrobePedestal_OfferOutfit_HotWeather)" Value="191494" />
+  <Preset Label="Offer to Outfit (social_WardrobePedestal_OfferOutfit_Formal)" Value="191495" />
+  <Preset Label="Offer to Outfit (social_WardrobePedestal_OfferOutfit_Everyday)" Value="191496" />
+  <Preset Label="Offer to Outfit (social_WardrobePedestal_OfferOutfit_ColdWeather)" Value="191497" />
+  <Preset Label="Offer to Outfit (social_WardrobePedestal_OfferOutfit_Athletic)" Value="191498" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_Outfit_ColdWeather)" Value="191500" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_Outfit_Everyday)" Value="191501" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_Outfit_Formal)" Value="191502" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_Outfit_HotWeather)" Value="191503" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_Outfit_Party)" Value="191504" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_Outfit_Sleep)" Value="191505" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_Outfit_Swim)" Value="191506" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_NewOutfit_Formal)" Value="191509" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_NewOutfit_ColdWeather)" Value="191510" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_NewOutfit_HotWeather)" Value="191511" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_NewOutfit_Everyday)" Value="191512" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_NewOutfit_Party)" Value="191513" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_NewOutfit_Sleep)" Value="191514" />
+  <Preset Label="Be Outfitted (social_WardrobePedestal_NewOutfit_Swim)" Value="191515" />
+  <Preset Label="mixer_WardrobePedestal_Outfit_NewOutfit" Tags="TestUnsafe" Value="191593" />
+  <Preset Label="Browse Web (actorCareer_Stylist_BrowsePhone)" Value="191631" />
+  <Preset Label="Offer to Update Apperance (social_WardrobePedestal_OfferEditInCAS)" Value="191632" />
+  <Preset Label="Offer to Update Apperance (simPicker_WardrobePedestal_OfferEditInCAS)" Tags="TestUnsafe" Value="191633" />
+  <Preset Label="Offer to Update Apperance (social_WardrobePedestal_EditInCAS)" Value="191634" />
+  <Preset Label="fame_Idles_Quirks_PhoneFanatic_Browse" Value="191670" />
+  <Preset Label="fame_Idles_Quirks_PhoneFanatic_Text" Value="191672" />
+  <Preset Label="fame_Idles_Quirks_PhoneFanatic_Play" Value="191673" />
+  <Preset Label="mixer_HairMakeUpChair_Hair_Discuss" Tags="TestUnsafe" Value="191701" />
+  <Preset Label="mixer_HairMakeUpChair_MakeUp_Discuss" Tags="TestUnsafe" Value="191702" />
+  <Preset Label="5 Star Celebrity (door_VIPRope_SetFame_Level5)" Value="191759" />
+  <Preset Label="1 Star Celebrity (door_VIPRope_SetFame_Level1)" Value="191760" />
+  <Preset Label="2 Star Celebrity (door_VIPRope_SetFame_Level2)" Value="191761" />
+  <Preset Label="3 Star Celebrity (door_VIPRope_SetFame_Level3)" Value="191762" />
+  <Preset Label="4 Star Celebrity (door_VIPRope_SetFame_Level4)" Value="191763" />
+  <Preset Label="paparazzi_Photo_Regular" Value="191787" />
+  <Preset Label="Increase Celebrity Level (fame_Cheat_RankUp)" Value="191789" />
+  <Preset Label="paparazzi_Reaction_Negative" Value="191867" />
+  <Preset Label="Fight to Get Inside (social_VIPRope_Bouncer_Fight)" Value="191891" />
+  <Preset Label="Set Green Screen (GreenScreen_Picker_Generic)" Tags="TestUnsafe" Value="191892" />
+  <Preset Label="paparazzi_Reaction_Positive" Value="191897" />
+  <Preset Label="Convince to Let Inside (socials_Targeted_VIPRope_Bouncer_ConvinceToLetIn)" Tags="TestUnsafe" Value="191910" />
+  <Preset Label="Bribe (socials_Targeted_VIPRope_Bouncer_Bribe_5)" Tags="TestUnsafe" Value="191911" />
+  <Preset Label="Bribe (socials_Targeted_VIPRope_Bouncer_Bribe_1)" Tags="TestUnsafe" Value="191913" />
+  <Preset Label="Bribe (socials_Targeted_VIPRope_Bouncer_Bribe_3)" Tags="TestUnsafe" Value="191914" />
+  <Preset Label="Bribe (socials_Targeted_VIPRope_Bouncer_Bribe_2)" Tags="TestUnsafe" Value="191915" />
+  <Preset Label="Bribe (socials_Targeted_VIPRope_Bouncer_Bribe_4)" Tags="TestUnsafe" Value="191916" />
+  <Preset Label="Decrease Celebrity Level (fame_Cheat_RankDown)" Value="191924" />
+  <Preset Label="si_VIPRope_Bouncer_StandatDoor" Value="191998" />
+  <Preset Label="Off (VFXMachine_Emitter_Toggle_Off)" Value="192061" />
+  <Preset Label="Rain (VFXMachine_Emitter_Toggle_Rain)" Value="192063" />
+  <Preset Label="Snow (VFXMachine_Emitter_Toggle_Snow)" Value="192064" />
+  <Preset Label="Bubbles (VFXMachine_Emitter_Toggle_Bubbles)" Value="192065" />
+  <Preset Label="Confetti (VFXMachine_Emitter_Toggle_Confetti)" Value="192066" />
+  <Preset Label="Sparkles (VFXMachine_Emitter_Toggle_Sparkles)" Value="192067" />
+  <Preset Label="Ash (VFXMachine_Emitter_Toggle_Ash)" Value="192068" />
+  <Preset Label="Bubbles (VFXMachine_ControlUnit_Toggle_Bubbles)" Value="192075" />
+  <Preset Label="Confetti (VFXMachine_ControlUnit_Toggle_Confetti)" Value="192076" />
+  <Preset Label="Ash (VFXMachine_ControlUnit_Toggle_Ash)" Value="192077" />
+  <Preset Label="Off (VFXMachine_ControlUnit_Toggle_Off)" Value="192078" />
+  <Preset Label="Rain (VFXMachine_ControlUnit_Toggle_Rain)" Value="192079" />
+  <Preset Label="Snow (VFXMachine_ControlUnit_Toggle_Snow)" Value="192080" />
+  <Preset Label="Sparkles (VFXMachine_ControlUnit_Toggle_Sparkles)" Value="192081" />
+  <Preset Label="Use Special Effects Control Desk (autonomousObjectPicker_specialEffectsOperator_Operate_ControlUnit)" Tags="TestUnsafe" Value="192122" />
+  <Preset Label="Use Special Effects Control Desk (specialEffectsOperator_UseControlUnit)" Value="192127" />
+  <Preset Label="Feed (denizenPond_Feed)" Value="192181" />
+  <Preset Label="Koi (denizenPond_Purchase_Koi)" Value="192183" />
+  <Preset Label="Piranha (denizenPond_Purchase_Piranha)" Value="192184" />
+  <Preset Label="Sharks (denizenPond_Purchase_Sharks)" Value="192185" />
+  <Preset Label="Sprites (denizenPond_Purchase_Sprites)" Value="192186" />
+  <Preset Label="Koi (denizenPond_Purchase_Koi_CollectionCost)" Value="192188" />
+  <Preset Label="Piranha (denizenPond_Purchase_Piranha_CollectionCost)" Value="192190" />
+  <Preset Label="Play (denizenPond_Play)" Value="192191" />
+  <Preset Label="Clean Water Garden (denizenPond_Clean)" Value="192192" />
+  <Preset Label="Add Natural Cleaner (denizenPond_AddNaturalCleaner)" Value="192193" />
+  <Preset Label="Ring Light (videoStation_Immediate_BuyAddOn_Lights)" Value="192276" />
+  <Preset Label="HD Camera (videoStation_Immediate_BuyAddOn_Camera)" Value="192277" />
+  <Preset Label="Studio Box Lights (videoStation_Immediate_BuyAddOn_LightsUpgrade)" Value="192281" />
+  <Preset Label="Admire (denizenPond_Admire)" Value="192308" />
+  <Preset Label="Bright White (changeLightColorIntensity_VideoStation_Bright)" Value="192366" />
+  <Preset Label="Hazy Nightlife (changeLightColorIntensity_VideoStation_Hazy)" Value="192368" />
+  <Preset Label="Cool and Cloudy (changeLightColorIntensity_VideoStation_Cool)" Value="192369" />
+  <Preset Label="Warm Sunrise (changeLightColorIntensity_VideoStation_Warm)" Value="192370" />
+  <Preset Label="Edit Video (si_VideoStation_Editing_EditVideo)" Value="192377" />
+  <Preset Label="mixer_VideoStation_Edit_Type" Value="192384" />
+  <Preset Label="mixer_VideoStation_Edit_Idle" Value="192387" />
+  <Preset Label="Save Awkward Conversation (socials_Targeted_Friendly_AlwaysOn_STC_ActingSkill_SaveAwkwardConversation)" Tags="TestUnsafe" Value="192397" />
+  <Preset Label="Perform Romance Scene (si_Touching_ActingSkill_RomanceRoutine_1)" Value="192398" />
+  <Preset Label="Perform Romance Scene (si_Touching_ActingSkill_RomanceRoutine_2)" Value="192400" />
+  <Preset Label="Add Effects (si_VideoStation_Editing_AddEffects)" Value="192403" />
+  <Preset Label="Perform Romance Scene (si_Touching_ActingSkill_RomanceRoutine_Choose)" Value="192417" />
+  <Preset Label="Add Transitions (si_VideoStation_Editing_AddTransitions)" Value="192435" />
+  <Preset Label="Combine Videos (objectInInventoryPicker_VideoStation_CombineVideos)" Tags="TestUnsafe" Value="192451" />
+  <Preset Label="Combine Videos (si_VideoStation_Editing_CombineVideos)" Value="192453" />
+  <Preset Label="Delete Video (si_VideoStation_Editing_DeleteVideo)" Value="192455" />
+  <Preset Label="Upload Video (si_VideoStation_Editing_Upload)" Value="192459" />
+  <Preset Label="7) Set Reputation to Atrocious (reputation_Cheat_SetLevel_1_Terrible)" Value="192470" />
+  <Preset Label="6) Set Reputation to Awful (reputation_Cheat_SetLevel_2_ReallyBad)" Value="192471" />
+  <Preset Label="5) Set Reputation to Bad (reputation_Cheat_SetLevel_3_Bad)" Value="192472" />
+  <Preset Label="4) Set Reputation to Neutral (reputation_Cheat_SetLevel_4_Neutral)" Value="192473" />
+  <Preset Label="3) Set Reputation to Good (reputation_Cheat_SetLevel_5_Good)" Value="192474" />
+  <Preset Label="2) Set Reputation to Great (reputation_Cheat_SetLevel_6_ReallyGood)" Value="192475" />
+  <Preset Label="1) Set Reputation to Pristine (reputation_Cheat_SetLevel_7_Pristine)" Value="192478" />
+  <Preset Label="Exclaim Adoration (celebrity_Socials_Acquaintance_Low_ExclaimAdoration)" Value="192508" />
+  <Preset Label="Compliment Appearance (celebrity_Socials_Acquaintance_Low_ComplimentAppearance)" Value="192509" />
+  <Preset Label="Create Light Controller (videoStation_Upgrade_Lights_Start)" Value="192510" />
+  <Preset Label="Continue Upgrading Light Controller (videoStation_Upgrade_Lights_Resume)" Value="192511" />
+  <Preset Label="Ask About Interests (celebrity_Socials_Acquaintance_Mid_AskAboutInterests)" Value="192513" />
+  <Preset Label="Imply Attraction (celebrity_Socials_Acquaintance_Mid_ImplyAttraction)" Value="192514" />
+  <Preset Label="Continue Upgrading Increased Memory (videoStation_Upgrade_Storage_Resume)" Value="192515" />
+  <Preset Label="Compare Self to {1.SimFirstName} (celebrity_Socials_Acquaintance_High_CompareSelf)" Value="192518" />
+  <Preset Label="Make Naughty Suggestion (celebrity_Socials_Acquaintance_High_NaughtySuggestion)" Value="192519" />
+  <Preset Label="Kiss Hands (celebrity_Socials_Acquaintance_High_KissHand)" Value="192520" />
+  <Preset Label="Tender Kiss (celebrity_Socials_Acquaintance_SuperHigh_TenderKiss)" Value="192521" />
+  <Preset Label="Showbiz Kiss (celebrity_Socials_Acquaintance_SuperHigh_MakeOut)" Value="192523" />
+  <Preset Label="Ask to Be Girlfriend (celebrity_Socials_Acquaintance_Relationship_Ask)" Value="192525" />
+  <Preset Label="WooHoo (celebrity_Socials_Acquaintance_Relationship_Woohoo)" Value="192526" />
+  <Preset Label="Continue Upgrading Auto Updater (videoStation_Upgrade_Unbreakable_Resume)" Value="192527" />
+  <Preset Label="Yell At (celebrity_Socials_Acquaintance_Mean_YellAt)" Value="192530" />
+  <Preset Label="Imply {1.SimFirstName} is Overrated (celebrity_Socials_Acquaintance_Mean_ImplyOverrated)" Value="192531" />
+  <Preset Label="Light Controller (Completed) (videoStation_Upgrade_Lights_Complete)" Value="192537" />
+  <Preset Label="Auto Updater (Complete) (videoStation_Upgrade_Unbreakable_Complete)" Value="192538" />
+  <Preset Label="Increased Memory Slots (Complete) (videoStation_Upgrade_Storage_Complete)" Value="192539" />
+  <Preset Label="Add Increased Memory (videoStation_Upgrade_Storage_Start)" Value="192540" />
+  <Preset Label="Install Auto Updater (videoStation_Upgrade_Unbreakable_Start)" Value="192541" />
+  <Preset Label="Study Trends (si_VideoStation_Editing_StudyTrends)" Value="192546" />
+  <Preset Label="Ask to Take Picture of {1.SimFirstName} (celebrity_Socials_Fan_TakePicture)" Value="192559" />
+  <Preset Label="Ask for Autograph (celebrity_Socials_Fan_AskforAutograph)" Value="192560" />
+  <Preset Label="Ask for Selfie (celebrity_Socials_Fan_AskforSelfie)" Value="192561" />
+  <Preset Label="Ask for Hug (celebrity_Socials_Fan_AskforHug)" Value="192562" />
+  <Preset Label="Hype Next Video (videoStation_Editing_PostUpdate_Hype)" Value="192567" />
+  <Preset Label="Reply to Comments (videoStation_Editing_PostUpdate_ReplyComments)" Value="192568" />
+  <Preset Label="Promote Old Videos (videoStation_Editing_PostUpdate_Promote)" Value="192569" />
+  <Preset Label="Share Excitement (simPickerInteraction_Celebrity_ShareExcitement)" Tags="TestUnsafe" Value="192578" />
+  <Preset Label="Whisper About Celebrity (simPickerInteraction_Celebrity_WhisperAboutCelebrity)" Tags="TestUnsafe" Value="192579" />
+  <Preset Label="Fainting! (celebrity_Fan_Faint)" Value="192581" />
+  <Preset Label="Excitement! (celebrity_Fan_Excitement)" Value="192582" />
+  <Preset Label="Repair (object_RepairElectrical_VideoStation)" Value="192583" />
+  <Preset Label="Record Video (si_VideoStation_RecordVideo_EmotionVlog)" Value="192584" />
+  <Preset Label="Beauty Tips (si_VideoStation_RecordVideo_BeautyTips)" Value="192590" />
+  <Preset Label="Toys (si_VideoStation_RecordVideo_ProductReview_Toys)" Value="192591" />
+  <Preset Label="Fashion Tips (si_VideoStation_RecordVideo_FashionTips)" Value="192592" />
+  <Preset Label="mixer_VideoStation_Video_Idle" Value="192593" />
+  <Preset Label="mixer_VideoStation_Video_Beauty" Value="192594" />
+  <Preset Label="mixer_VideoStation_Video_Product" Value="192595" />
+  <Preset Label="mixer_VideoStation_Video_Fashion_Outfit" Value="192596" />
+  <Preset Label="Beauty Products (si_VideoStation_RecordVideo_ProductReview_Beauty)" Value="192604" />
+  <Preset Label="Gadgets (si_VideoStation_RecordVideo_ProductReview_Gadgets)" Value="192605" />
+  <Preset Label="Sign Autograph (celebrity_Socials_Celebrity_SignAutograph)" Value="192611" />
+  <Preset Label="Hug Fan (celebrity_Socials_Celebrity_Hug)" Value="192612" />
+  <Preset Label="Take Selfie With Fan (celebrity_Socials_Celebrity_TakeSelfieWithFan)" Value="192613" />
+  <Preset Label="Pose For Pictures (celebrity_Self_PoseforPicture)" Value="192617" />
+  <Preset Label="Incite Cheers (celebrity_Self_InciteCheers)" Value="192618" />
+  <Preset Label="Attempt Introduction (mixer_social_AttemptIntroduction_greetings)" Tags="TestUnsafe" Value="192622" />
+  <Preset Label="Name (rename_VideoRecording)" Value="192637" />
+  <Preset Label="mixer_VideoStation_Video_EmotionVlog_Angry" Value="192640" />
+  <Preset Label="mixer_VideoStation_Video_EmotionVlog_Happy" Value="192644" />
+  <Preset Label="mixer_VideoStation_Video_EmotionVlog_Playful" Value="192645" />
+  <Preset Label="mixer_VideoStation_Video_EmotionVlog_EmotionIdle" Value="192646" />
+  <Preset Label="mixer_VideoStation_Video_EmotionVlog_Energized" Value="192647" />
+  <Preset Label="mixer_VideoStation_Video_EmotionVlog_Dazed" Value="192648" />
+  <Preset Label="Risky Sing (stage_Solos_PreActing_Risky_Sing)" Value="192657" />
+  <Preset Label="Safe Sing (stage_Solos_PreActing_Safe_Sing)" Value="192658" />
+  <Preset Label="paparazzi_Photo_Covert" Value="192664" />
+  <Preset Label="Read Excerpt from Written Book (microphone_ReadWrittenBook_NPC)" Value="192706" />
+  <Preset Label="Announce Award (microphone_LoungeEvent_AnnounceAward)" Value="192709" />
+  <Preset Label="Accept Award (microphone_LoungeEvent_AcceptAward)" Value="192710" />
+  <Preset Label="Risky Turn Wheel (stage_Solos_PreActing_Risky_TurnWheel)" Value="192712" />
+  <Preset Label="Safe Turn Wheel (stage_Solos_PreActing_Safe_TurnWheel)" Value="192713" />
+  <Preset Label="Safe Turn Wheel (stage_Solos_Safe_TurnWheel_Success)" Value="192717" />
+  <Preset Label="Risky Turn Wheel (stage_Solos_Risky_TurnWheel)" Value="192719" />
+  <Preset Label="Risky Show Product (stage_Solos_PreActing_Risky_ShowProduct)" Value="192724" />
+  <Preset Label="Safe Show Product (stage_Solos_PreActing_Safe_ShowProduct)" Value="192725" />
+  <Preset Label="Risky Show Product (stage_Solos_Risky_ShowProduct_Success)" Value="192734" />
+  <Preset Label="Risky Show Product (stage_Solos_Risky_ShowProduct_Fail)" Value="192735" />
+  <Preset Label="Safe Show Product (stage_Solos_Safe_ShowProduct_Success)" Value="192736" />
+  <Preset Label="Safe Show Product (stage_Solos_Safe_ShowProduct_Fail)" Value="192737" />
+  <Preset Label="Wear Crown (CrystalHelmet_Wear)" Value="192748" />
+  <Preset Label="Mount Crystal (CrystalHelmet_MountCrystal_Sim)" Value="192787" />
+  <Preset Label="Mount Crystal (CrystalHelmet_Crystal_Picker_Sim)" Tags="TestUnsafe" Value="192789" />
+  <Preset Label="Mount Crystal (CrystalHelmet_Crystal_Picker_Object)" Tags="TestUnsafe" Value="192790" />
+  <Preset Label="reaction_LoungeEvent_AnnounceAward_Cheer" Value="192793" />
+  <Preset Label="microphone_LoungeEvent_HostWait" Value="192795" />
+  <Preset Label="Chat (actorCareer_Producer_Socials_YellAt)" Value="192800" />
+  <Preset Label="actorCareer_ProducerDirector_CheckPhone" Value="192801" />
+  <Preset Label="actorCareer_Producer_UseTablet" Value="192816" />
+  <Preset Label="actorCareer_Producer_Notepad" Value="192817" />
+  <Preset Label="Chat (actorCareer_ProducerDirector_Socials_Chat)" Value="192819" />
+  <Preset Label="Pose for Paparazzi (paparazzi_Socials_Pose)" Value="192864" />
+  <Preset Label="Gesture Wildly at Paparazzi (paparazzi_Socials_Gesture)" Value="192865" />
+  <Preset Label="Ask Paparazzi to Leave (paparazzi_Socials_AsktoLeave)" Value="192866" />
+  <Preset Label="Threaten Paparazzi (paparazzi_Socials_Threaten)" Value="192867" />
+  <Preset Label="Bribe to Leave (paparazzi_Socials_BribetoLeave)" Value="192869" />
+  <Preset Label="Mount Crystal (CrystalHelmet_MountCrystal_Object)" Value="192989" />
+  <Preset Label="Remove Crown (CrystalHelmet_Helmet_Picker_RemoveHelmet)" Tags="TestUnsafe" Value="192995" />
+  <Preset Label="Cancel Audition (actorCareer_PhoneInteractions_CancelAudition)" Value="193016" />
+  <Preset Label="Check for Gigs (actorCareer_PhoneInteractions_CheckForGigs)" Value="193018" />
+  <Preset Label="Cancel Gig (actorCareer_PhoneInteractions_CancelGig)" Value="193024" />
+  <Preset Label="Remove Crown (CrystalHelmet_Remove)" Value="193032" />
+  <Preset Label="Set Green Screen (GreenScreen_Picker_Custom)" Tags="TestUnsafe" Value="193078" />
+  <Preset Label="Invite Over Director &amp; Co-Stars (actorCareer_PhoneInteractions_InviteDirector)" Value="193086" />
+  <Preset Label="Turn Off (GreenScreen_StateChange_TurnOnOrOff)" Value="193091" />
+  <Preset Label="reaction_LoungeEvent_OpenMic_Cheer" Value="193093" />
+  <Preset Label="reaction_LoungeEvent_OpenMic_Heckle" Value="193094" />
+  <Preset Label="Remove Crystal (CrystalHelmet_RemoveCrystal_Object)" Value="193109" />
+  <Preset Label="Remove Crystal (CrystalHelmet_RemoveCrystal_Sim)" Value="193121" />
+  <Preset Label="celebrity_CrowdReaction" Value="193164" />
+  <Preset Label="Risky Repair Fridge (stage_Solos_PreActing_Risky_RepairFridge)" Value="193193" />
+  <Preset Label="Safe Repair Fridge (stage_Solos_PreActing_Safe_RepairFridge)" Value="193194" />
+  <Preset Label="Risky Repair Fridge (stage_Solos_Risky_RepairFridge)" Value="193195" />
+  <Preset Label="Safe Repair Fridge (stage_Solos_Safe_RepairFridge_Success)" Value="193197" />
+  <Preset Label="Risky Bite (stage_Socials_Picker_Risky_Bite)" Tags="TestUnsafe" Value="193243" />
+  <Preset Label="Safe Bite (stage_Socials_Picker_Safe_Bite)" Tags="TestUnsafe" Value="193244" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_CrystalHelmet)" Value="193290" />
+  <Preset Label="Streaming (streamingDrone_Streaming)" Value="193294" />
+  <Preset Label="Add Effects (si_VideoStation_VideoRecording_AddEffects)" Value="193311" />
+  <Preset Label="Add Transitions (si_VideoStation_VideoRecording_AddTransitions)" Value="193358" />
+  <Preset Label="Delete Video (si_VideoStation_VideoRecording_DeleteVideo)" Value="193359" />
+  <Preset Label="Upload Video (si_VideoStation_VideoRecording_Upload)" Value="193360" />
+  <Preset Label="Edit Video (si_VideoStation_VideoRecording_EditVideo)" Value="193361" />
+  <Preset Label="Unlock and Open (Vault_VaultDoor_Open)" Value="193404" />
+  <Preset Label="Close and Lock (Vault_VaultDoor_Close)" Value="193405" />
+  <Preset Label="Break Into (Vault_VaultDoor_BreakIn)" Value="193406" />
+  <Preset Label="Play with Money (vault_WalkInSafe_Play)" Value="193409" />
+  <Preset Label="Add Money to Vault (vault_WalkInSafe_Add)" Value="193410" />
+  <Preset Label="Take Money from Vault (vault_WalkInSafe_Take)" Value="193411" />
+  <Preset Label="Nap in Money (vault_WalkInSafe_Nap)" Value="193412" />
+  <Preset Label="Make It Rain (vault_MakeItRain)" Value="193413" />
+  <Preset Label="WooHoo (WalkInSafe_Woohoo)" Value="193414" />
+  <Preset Label="Try for Baby (WalkInSafe_tryForBaby)" Value="193415" />
+  <Preset Label="Burn Money (vault_BurnMoney)" Value="193443" />
+  <Preset Label="Update Inscription (rename_CelebrityTile)" Value="193494" />
+  <Preset Label="Risky Have Drink With (stage_Socials_Picker_Risky_HaveDrinkWith)" Tags="TestUnsafe" Value="193522" />
+  <Preset Label="Safe Have Drink With (stage_Socials_Picker_Safe_HaveDrinkWith)" Tags="TestUnsafe" Value="193523" />
+  <Preset Label="Risky Shout Forbidden Words (stage_Socials_Picker_Risky_ShoutForbiddenWords)" Tags="TestUnsafe" Value="193562" />
+  <Preset Label="Safe Shout Forbidden Words (stage_Socials_Picker_Safe_ShoutForbiddenWords)" Tags="TestUnsafe" Value="193563" />
+  <Preset Label="Risky Fight (stage_Socials_Picker_Risky_Fight)" Tags="TestUnsafe" Value="193573" />
+  <Preset Label="Safe Fight (stage_Socials_Picker_Safe_Fight)" Tags="TestUnsafe" Value="193574" />
+  <Preset Label="Risky Fire Sim Ray (stage_Socials_Picker_Risky_FireSimRay)" Tags="TestUnsafe" Value="193583" />
+  <Preset Label="Safe Fire Sim Ray (stage_Socials_Picker_Safe_FireSimRay)" Tags="TestUnsafe" Value="193584" />
+  <Preset Label="Sit (solo_ActorCareer_HospitalExamBed_Sit)" Value="193698" />
+  <Preset Label="Book Celebrity Cleanse (phone_Fame_CelebrityCleanse)" Value="193705" />
+  <Preset Label="Start a Celebrity Feud With {1.SimFirstName} (mixer_social_FeudBringer_BeginFued_targered_mean_alwaysOn)" Tags="TestUnsafe" Value="193725" />
+  <Preset Label="Blame Feud on {1.SimFirstName} (mixer_social_FeudBringer_BlameForFeud_targered_mean_alwaysOn)" Tags="TestUnsafe" Value="193730" />
+  <Preset Label="Risky Treat Patient (stage_Socials_Picker_Risky_TreatPatient)" Tags="TestUnsafe" Value="193752" />
+  <Preset Label="Celebrity_Mixers_Pose_Generic" Value="193753" />
+  <Preset Label="celebrity_Mixers_Pose_Male1" Value="193756" />
+  <Preset Label="celebrity_Mixers_Pose_Male2" Value="193757" />
+  <Preset Label="celebrity_Mixers_Pose_Female1" Value="193758" />
+  <Preset Label="celebrity_Mixers_Pose_Female2" Value="193759" />
+  <Preset Label="celebrity_Fan_Reaction_Pose" Value="193773" />
+  <Preset Label="Safe Treat Patient (stage_Socials_Picker_Safe_TreatPatient)" Tags="TestUnsafe" Value="193779" />
+  <Preset Label="Bad-Mouth {2.SimFirstName} For Feud (phone_FeudBringer_Badmouth)" Value="193795" />
+  <Preset Label="Bad-Mouth {2.SimFirstName} For Feud (computer_FeudBringer_Badmouth)" Value="193796" />
+  <Preset Label="Declare End to Feud With {1.SimFirstName} (mixer_social_FeudBringer_EndFeud_targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="193802" />
+  <Preset Label="celebrity_Fan_Reaction_Phone" Value="193809" />
+  <Preset Label="celebrity_Mixers_Pose_PhoneChat" Value="193810" />
+  <Preset Label="celebrity_Mixers_Pose_PhoneBrowse" Value="193811" />
+  <Preset Label="Grab Money (vault_MakeItRain_GrabMoney)" Value="193815" />
+  <Preset Label="See What's Happening (vault_BurnMoney_Horrified)" Value="193821" />
+  <Preset Label="See What's Happening (vault_BreakIn_Catch)" Value="193822" />
+  <Preset Label="generic_WalkInSafeWoohoo" Value="193823" />
+  <Preset Label="Try for Baby With (WalkInSafe_tryForBaby_Female_Picker)" Tags="TestUnsafe" Value="193824" />
+  <Preset Label="Try for Baby With (WalkInSafe_tryForBaby_Male_Picker)" Tags="TestUnsafe" Value="193825" />
+  <Preset Label="WooHoo With (wooHoo_Picker_WalkInSafe)" Tags="TestUnsafe" Value="193826" />
+  <Preset Label="WooHoo in Money Pile (mixer_social_WooHooInWalkInSafe_targeted_romance_transition)" Tags="TestUnsafe" Value="193827" />
+  <Preset Label="Try for Baby in Money Pile (mixer_social_TryForBabyInWalkInSafe_targeted_romance_transition)" Tags="TestUnsafe" Value="193828" />
+  <Preset Label="Mess Around With (WalkInSafe_messAround_Picker)" Tags="TestUnsafe" Value="193832" />
+  <Preset Label="Risky Sing (stage_Solos_Risky_Sing_Success)" Value="193862" />
+  <Preset Label="Safe Sing (stage_Solos_Safe_Sing_Success)" Value="193863" />
+  <Preset Label="Risky Sing (stage_Solos_Risky_Sing_Fail)" Value="193865" />
+  <Preset Label="Safe Sing (stage_Solos_Safe_Sing_Fail)" Value="193866" />
+  <Preset Label="Chat (phone_NPC_Call_PC_DiscussFeud)" Value="193954" />
+  <Preset Label="Select an Agency (agentPickerSuperInteraction_Add)" Tags="TestUnsafe" Value="193981" />
+  <Preset Label="&quot;Besties&quot; Friendly Introduction (mixer_social_FamePerk_InstantBesties_FriendlyIntroduction_greetings)" Tags="TestUnsafe" Value="194021" />
+  <Preset Label="&quot;Besties&quot; Romantic Introduction (mixer_social_FamePerk_InstantBesties_RomanceIntroduction_greetings)" Tags="TestUnsafe" Value="194022" />
+  <Preset Label="Release Track (Picker_MusicProductionStation_ReleaseTrack)" Tags="TestUnsafe" Value="194049" />
+  <Preset Label="Play Track (picker_MusicProductionStation_PlayTrack)" Tags="TestUnsafe" Value="194052" />
+  <Preset Label="Release Track (musicProductionStation_ReleaseTrack)" Value="194075" />
+  <Preset Label="Play Track (musicProductionStation_PlayTrack)" Value="194076" />
+  <Preset Label="Gom Gabrow  (MusicProductionStation_ProduceNewTrack_Song1)" Value="194102" />
+  <Preset Label="Combine Videos (si_VideoStation_VideoRecording_CombineVideo)" Value="194104" />
+  <Preset Label="Remix Track (mixer_MusicProductionStation_Remix)" Value="194106" />
+  <Preset Label="Relationships (mixer_MusicProductionStation_Idle)" Value="194110" />
+  <Preset Label="Relationships (mixer_MusicProductionStation_HeadphoneIdles)" Value="194118" />
+  <Preset Label="Burn Track (mixer_MusicProductionStation_BurnTrack)" Value="194119" />
+  <Preset Label="Ree Bines (musicProductionStation_ProduceNewTrack_Song2)" Value="194121" />
+  <Preset Label="Rooba Vay (musicProductionStation_ProduceNewTrack_Song3)" Value="194122" />
+  <Preset Label="Plonky Zombray (musicProductionStation_ProduceNewTrack_Song8)" Value="194123" />
+  <Preset Label="Arribay (musicProductionStation_ProduceNewTrack_Song7)" Value="194124" />
+  <Preset Label="Oopella (musicProductionStation_ProduceNewTrack_Song6)" Value="194125" />
+  <Preset Label="Looling (musicProductionStation_ProduceNewTrack_Song5)" Value="194126" />
+  <Preset Label="Yome (musicProductionStation_ProduceNewTrack_Song4)" Value="194127" />
+  <Preset Label="Recording (streamingDrone_RecordingSim)" Value="194229" />
+  <Preset Label="Record Neighborhood Footage (streamingDrone_RecordNeighborhood)" Value="194230" />
+  <Preset Label="End Recording (streamingDrone_StopRecording)" Value="194232" />
+  <Preset Label="Ask for a Joke (mixer_social_Squad_SaySomethingFunny_targered_Friendly_alwaysOn)" Tags="TestUnsafe" Value="194241" />
+  <Preset Label="Talk Me Down (mixer_social_Squad_TalkMeDown_targered_Friendly_alwaysOn)" Tags="TestUnsafe" Value="194242" />
+  <Preset Label="Ask for Compliment (mixer_social_Squad_AskForCompliment_targered_Friendly_alwaysOn)" Tags="TestUnsafe" Value="194243" />
+  <Preset Label="Open Fan Mail (famePerks_Influencer_OpenEnvelope)" Value="194245" />
+  <Preset Label="Open Fan Mail (famePerks_Influencer_OpenPackage)" Value="194246" />
+  <Preset Label="Hype Up Celebrity (famePerks_Squad_Hype)" Value="194258" />
+  <Preset Label="streamingDrone_Launch_Stream" Value="194291" />
+  <Preset Label="streamingDrone_Launch_RecordSim" Value="194292" />
+  <Preset Label="Record Neighborhood Footage (streamingDrone_Launch_RecordNeighborhood)" Value="194293" />
+  <Preset Label="Begin Stream (si_swipeAddToWorld_StreamingDrone_Stream)" Value="194297" />
+  <Preset Label="Place in World (si_swipeAddToWorld_StreamingDrone_RecordSim)" Value="194298" />
+  <Preset Label="Record Neighborhood Footage (si_swipeAddToWorld_StreamingDrone_RecordNeighborhood)" Value="194299" />
+  <Preset Label="Begin Recording of (simPicker_StreamingDrone_RecordSim)" Tags="TestUnsafe" Value="194301" />
+  <Preset Label="Name (rename_MusicProductionStation_MusicDisc)" Value="194328" />
+  <Preset Label="denizenPond_View_Mixers_Ponder" Value="194396" />
+  <Preset Label="denizenPond_View_Mixers_Happy" Value="194397" />
+  <Preset Label="denizenPond_View_Mixers_Scared" Value="194398" />
+  <Preset Label="denizenPond_View_Mixers_Awe" Value="194399" />
+  <Preset Label="celebrity_Mixers_InciteCheers_Point" Value="194548" />
+  <Preset Label="celebrity_Mixers_InciteCheers_FistPump" Value="194549" />
+  <Preset Label="celebrity_Mixers_InciteCheers_Hype" Value="194550" />
+  <Preset Label="celebrity_Fan_Reaction_InciteCheers" Value="194555" />
+  <Preset Label="Lithium Battery (Completed) (streamingDrone_Upgrade_Battery_Complete)" Value="194558" />
+  <Preset Label="Reliable Components (Completed) (streamingDrone_Upgrade_BreaksLess_Complete)" Value="194559" />
+  <Preset Label="HD Camera (Completed) (streamingDrone_Upgrade_VideoQuality_Complete)" Value="194560" />
+  <Preset Label="Insert Lithium Battery (streamingDrone_Upgrade_Battery_Start)" Value="194561" />
+  <Preset Label="Resume Lithium Battery (streamingDrone_Upgrade_Battery_Resume)" Value="194562" />
+  <Preset Label="Swap in Reliable Components (streamingDrone_Upgrade_BreaksLess_Start)" Value="194563" />
+  <Preset Label="Resume Reliable Components (streamingDrone_Upgrade_BreaksLess_Resume)" Value="194564" />
+  <Preset Label="Install HD Camera (streamingDrone_Upgrade_VideoQuality_Start)" Value="194565" />
+  <Preset Label="Resume HD Camera Installation (streamingDrone_Upgrade_VideoQuality_Resume)" Value="194567" />
+  <Preset Label="fame_Quirk_NoTouching_Reaction_Mixer" Value="194568" />
+  <Preset Label="Repair (object_RepairElectrical_StreamingDrone)" Value="194583" />
+  <Preset Label="Rename {1.ObjectName} (rename_StreamingDrone)" Value="194584" />
+  <Preset Label="Dinky Beats (musicProductionStation_CD_SendToLabel_DinkyBeats)" Value="194605" />
+  <Preset Label="Create Video (videoStation_Debug_CreateVideo)" Value="194608" />
+  <Preset Label="Light Controller (Completed) (videoStation_Debug_Upgrade_Lights)" Value="194609" />
+  <Preset Label="Increased Memory Slots (Complete) (videoStation_Debug_Upgrade_Memory)" Value="194612" />
+  <Preset Label="Auto Updater (Complete) (videoStation_Debug_Upgrade_Unbreakable)" Value="194613" />
+  <Preset Label="New Tastemakers (musicProductionStation_CD_SendToLabel_NewTastemakers)" Value="194615" />
+  <Preset Label="Maxis Music Machine (musicProductionStation_CD_SendToLabel_MaxisMusicMachine)" Value="194616" />
+  <Preset Label="Purchase Crystals (purchase_Crystals_All)" Tags="TestUnsafe" Value="194620" />
+  <Preset Label="denizenPond_Play_Mixers_Play" Value="194648" />
+  <Preset Label="What the What? (autoPicker_MusicProductionStation_PlayTrack)" Tags="TestUnsafe" Value="194659" />
+  <Preset Label="Begin Recording (si_swipeAddToWorld_StreamingDrone_RecordSelf)" Value="194745" />
+  <Preset Label="Begin Stream (streamingDrone_Start_Stream)" Value="194752" />
+  <Preset Label="Begin Recording (streamingDrone_Start_Recording)" Value="194753" />
+  <Preset Label="Begin Recording of (simPicker_StreamingDrone_RecordSim_FromInventory)" Tags="TestUnsafe" Value="194777" />
+  <Preset Label="celebrity_Mixers_Excitement_Excited" Value="194813" />
+  <Preset Label="celebrity_Mixers_Excitement_WatchCeleb" Value="194814" />
+  <Preset Label="Discuss Healing Energies of Crystals (socials_Targeted_Friendly_AlwaysOn_STC_CrystalHelmet_ConverseAboutCrystals)" Tags="TestUnsafe" Value="194856" />
+  <Preset Label="Mock Ridiculous Helmet (Reactions_CrystalHelmet_LaughAtWearer)" Value="194862" />
+  <Preset Label="Drink (generic_Consumable_Drink_Nonbar_CelebuSerum)" Value="194886" />
+  <Preset Label="Perform Romance Scene (si_Touching_ActingSkill_RomanceRoutine_Start_NoTips)" Value="194902" />
+  <Preset Label="Launch Lifestyle Brand (computer_LifestyleBrand_Start)" Value="194934" />
+  <Preset Label="Close Down Lifestyle Brand (computer_LifestyleBrand_Stop)" Value="194935" />
+  <Preset Label="Update Lifestyle Brand (computer_LifestyleBrand_Update)" Value="194936" />
+  <Preset Label="autonomousSimPicker_ActingSkill_ChooseWatcher" Tags="TestUnsafe" Value="194968" />
+  <Preset Label="Bow (actingSkill_BowAfterRoutine)" Value="194984" />
+  <Preset Label="Share Excitement (celebrity_Socials_Fan_ShareExcitement)" Value="195011" />
+  <Preset Label="Whisper About Celebrity (celebrity_Socials_Fan_WhisperAboutCelebrity)" Value="195012" />
+  <Preset Label="Enthuse about {2.String} (mixer_Social_LifestyleBrand_Enthuse)" Tags="TestUnsafe" Value="195048" />
+  <Preset Label="Chat about Lifestyle Brand (mixer_Social_LifestyleBrand_Chat)" Tags="TestUnsafe" Value="195049" />
+  <Preset Label="Watch (actingSkill_WatchRoutine)" Value="195072" />
+  <Preset Label="First Kiss (celebrity_Socials_Acquaintance_SuperHigh_FirstKiss)" Value="195095" />
+  <Preset Label="Check In with Dinky Beats (phone_MusicProductionStation_CheckWithDinkyBeats)" Value="195101" />
+  <Preset Label="Check In With Maxis Music Machine (phone_MusicProductionStation_CheckWithMaxisMusicMachine)" Value="195103" />
+  <Preset Label="Check In With New Tastemakers (phone_MusicProductionStation_CheckWithNewTastemakers)" Value="195104" />
+  <Preset Label="Request a Good Story (computer_Browse_Perk_RelationshipGame_PRPerson_Reputation_Gain)" Value="195130" />
+  <Preset Label="Contact PR Agency (interactionPicker_Fame_Perk_RelationshipGame_PRPerson)" Tags="TestUnsafe" Value="195162" />
+  <Preset Label="Taking a Celebrity Cleanse (si_celebrityCleanse_RabbitHole)" Value="195178" />
+  <Preset Label="Book Celebrity Cleanse (computer_CelebrityCleanse)" Value="195179" />
+  <Preset Label="Remix Track (mixer_MusicProductionStation_RemixIdle)" Value="195195" />
+  <Preset Label="Contact PR Agency (phone_PRPerson)" Value="195202" />
+  <Preset Label="Perform Musical Scene (actingSkill_Solo_MusicalRoutine_Start_NoTips)" Value="195203" />
+  <Preset Label="Perform Musical Scene (actingSkill_Solo_MusicalRoutine_Choose)" Value="195225" />
+  <Preset Label="Request a Bad Story (fame_Perk_RelationshipGame_PRPerson_Reputation_Loss)" Value="195227" />
+  <Preset Label="Request a Good Story (fame_Perk_RelationshipGame_PRPerson_Reputation_Gain)" Value="195228" />
+  <Preset Label="Perform Musical Scene (actingSkill_NonTieredMenu_MusicalRoutine_1)" Value="195236" />
+  <Preset Label="Share Excitement (autonomousSimPicker_Celebrity_ShareExcitement)" Tags="TestUnsafe" Value="195269" />
+  <Preset Label="Whisper About Celebrity (autonomousSimPicker_Celebrity_WhisperAboutCelebrity)" Tags="TestUnsafe" Value="195270" />
+  <Preset Label="Hire a New Acting Agency (actorCareer_PhoneInteractions_ChangeAgency)" Value="195273" />
+  <Preset Label="actorCareer_LaunchAgencyPickerScreen" Value="195277" />
+  <Preset Label="Party with Celebrities (solo_Fame_Perk_RelationshipGame_PRPerson_GoToParty)" Value="195279" />
+  <Preset Label="actingSkill_Solo_Mixer_Sing_Risky" Value="195324" />
+  <Preset Label="actingSkill_Solo_Mixer_Dance1_Risky" Value="195325" />
+  <Preset Label="Party with Celebrities (fame_Perk_RelationshipGame_PRPerson_PreParty)" Value="195334" />
+  <Preset Label="Repair (object_Repair_MusicProductionStation)" Value="195342" />
+  <Preset Label="Request a Bad Story (computer_Browse_Perk_RelationshipGame_PRPerson_Reputation_Loss)" Value="195365" />
+  <Preset Label="Get on a Celebrity's Guest List (computer_Browse_Perk_RelationshipGame_PRPerson_Party)" Value="195366" />
+  <Preset Label="actorCareer_Launch_GigPicker" Tags="TestUnsafe" Value="195384" />
+  <Preset Label="Listen to Track (musicProductionStation_ListenToTrack)" Value="195393" />
+  <Preset Label="si_VIPRope_Bouncer_Idle" Value="195402" />
+  <Preset Label="VIPRope_Bouncer_Mixers_Stand" Value="195414" />
+  <Preset Label="VIPRope_Bouncer_Mixers_TalkOnEarpiece" Value="195415" />
+  <Preset Label="VIPRope_Bouncer_Mixers_ToughPose" Value="195416" />
+  <Preset Label="actingSkill_Social_Mixer_Bite_Risky" Tags="TestUnsafe" Value="195431" />
+  <Preset Label="actingSkill_Social_Mixer_Bite_RiskySuccess" Tags="TestUnsafe" Value="195447" />
+  <Preset Label="actingSkill_Social_Mixer_Bite_RiskyFail" Tags="TestUnsafe" Value="195448" />
+  <Preset Label="actingSkill_Social_Mixer_Flirt_RiskySuccess" Tags="TestUnsafe" Value="195451" />
+  <Preset Label="Perform Horror Scene (si_Touching_ActingSkill_HorrorRoutine_Start_NoTips)" Value="195452" />
+  <Preset Label="Perform Horror Scene (si_Touching_ActingSkill_HorrorRoutine_Choose)" Value="195453" />
+  <Preset Label="Perform Horror Scene (si_Touching_ActingSkill_HorrorRoutine_1)" Value="195454" />
+  <Preset Label="Perform Horror Scene (si_Touching_ActingSkill_HorrorRoutine_2)" Value="195455" />
+  <Preset Label="actingSkill_Social_Mixer_Kiss_RiskySuccess" Tags="TestUnsafe" Value="195456" />
+  <Preset Label="actingSkill_Social_Mixer_Kiss_Risky" Tags="TestUnsafe" Value="195460" />
+  <Preset Label="actingSkill_Social_Mixer_Kiss_RiskyFail" Tags="TestUnsafe" Value="195461" />
+  <Preset Label="actingSkill_Social_Mixer_FireSimRay_RiskySuccess" Tags="TestUnsafe" Value="195462" />
+  <Preset Label="actingSkill_Social_Mixer_FireSimRay_RiskyFail" Tags="TestUnsafe" Value="195463" />
+  <Preset Label="actingSkill_Social_Mixer_FireSimRay_Risky" Tags="TestUnsafe" Value="195464" />
+  <Preset Label="actingSkill_Social_Mixer_Fight_Risky" Tags="TestUnsafe" Value="195465" />
+  <Preset Label="actingSkill_Social_Mixer_Fight_RiskySuccess" Tags="TestUnsafe" Value="195466" />
+  <Preset Label="Remix Track (musicProductionStation_BurnTrack_Disabled)" Value="195467" />
+  <Preset Label="actingSkill_Social_Mixer_Fight_RiskyFail" Tags="TestUnsafe" Value="195468" />
+  <Preset Label="Check In with Dinky Beats (computer_MusicProductionStation_CheckInWithDinkyBeats)" Value="195469" />
+  <Preset Label="Check In With Maxis Music Machine (computer_MusicProductionStation_CheckInWithMaxisMusicMachine)" Value="195471" />
+  <Preset Label="Check In With New Tastemakers (computer_MusicProductionStation_CheckInWithNewTastemakers)" Value="195472" />
+  <Preset Label="actingSkill_Solo_Mixer_TellStory_Risky" Value="195473" />
+  <Preset Label="actingSkill_Solo_Mixer_TellJoke_Risky" Value="195478" />
+  <Preset Label="Perform Drama Scene (si_Touching_ActingSkill_DramaRoutine_Start_NoTips)" Value="195483" />
+  <Preset Label="Perform Action Scene (si_Touching_ActingSkill_ActionRoutine_Start_NoTips)" Value="195484" />
+  <Preset Label="Perform Drama Scene (si_Touching_ActingSkill_DramaRoutine_Choose)" Value="195485" />
+  <Preset Label="Perform Action Scene (si_Touching_ActingSkill_ActionRoutine_Choose)" Value="195486" />
+  <Preset Label="Perform Drama Scene (si_Touching_ActingSkill_DramaRoutine_1)" Value="195487" />
+  <Preset Label="Perform Drama Scene (si_Touching_ActingSkill_DramaRoutine_2)" Value="195488" />
+  <Preset Label="Perform Action Scene (si_Touching_ActingSkill_ActionRoutine_1)" Value="195489" />
+  <Preset Label="Perform Action Scene (si_Touching_ActingSkill_ActionRoutine_2)" Value="195490" />
+  <Preset Label="Perform Comedy Scene (actingSkill_Solo_ComedyRoutine_Start_NoTips)" Value="195498" />
+  <Preset Label="Turn Off (stereo_turnoff_musicproductionstation)" Value="195500" />
+  <Preset Label="Dance (stereo_Dance_musicProductionStation)" Value="195501" />
+  <Preset Label="{1.ObjectName} is on the Radio! (musicProductionStation_PlayTrack_Auto)" Value="195503" />
+  <Preset Label="Placement Ceremony (CelebrityTile_PlacementCeremony_Honoree_Begin)" Value="195532" />
+  <Preset Label="Place Celebrity Tile (CelebrityTile_PlaceTile)" Value="195533" />
+  <Preset Label="Pick Up Celebrity Tile (CelebrityTile_PickUpTile)" Value="195534" />
+  <Preset Label="Deface (CelebrityTile_Deface)" Value="195535" />
+  <Preset Label="Clean (CelebrityTile_Clean)" Value="195536" />
+  <Preset Label="Place Celebrity Tile (CelebrityTile_PlaceTile_Picker)" Tags="TestUnsafe" Value="195543" />
+  <Preset Label="Give Tip (actingSkill_GiveTip_Fail)" Value="195544" />
+  <Preset Label="Place Celebrity Tile (CelebrityTile_PlacementCeremony_PlaceTile_Picker)" Tags="TestUnsafe" Value="195557" />
+  <Preset Label="Place Celebrity Tile (CelebrityTile_PlacementCeremony_Honoree_PlaceTile)" Value="195560" />
+  <Preset Label="Perform Sci-Fi Scene (si_Touching_ActingSkill_SciFiRoutine_Start_NoTips)" Value="195582" />
+  <Preset Label="Perform Sci-Fi Scene (si_Touching_ActingSkill_SciFiRoutine_Choose)" Value="195584" />
+  <Preset Label="Perform Sci-Fi Scene (si_Touching_ActingSkill_SciFiRoutine_1)" Value="195585" />
+  <Preset Label="Perform Sci-Fi Scene (si_Touching_ActingSkill_SciFiRoutine_2)" Value="195587" />
+  <Preset Label="Placement Ceremony (CelebrityTile_PlacementCeremony_Crowd_Gather)" Value="195590" />
+  <Preset Label="Placement Ceremony (CelebrityTile_PlacementCeremony_Crowd_React)" Value="195591" />
+  <Preset Label="Placement Ceremony (CelebrityTile_PlacementCeremony_Honoree_FistPump)" Value="195592" />
+  <Preset Label="Perform Sci-Fi Scene for Tips (si_Touching_ActingSkill_SciFiRoutine_Start_ForTips)" Value="195593" />
+  <Preset Label="Perform Romance Scene for Tips (si_Touching_ActingSkill_RomanceRoutine_Start_ForTips)" Value="195594" />
+  <Preset Label="Perform Horror Scene for Tips (si_Touching_ActingSkill_HorrorRoutine_Start_ForTips)" Value="195595" />
+  <Preset Label="Perform Drama Scene for Tips (si_Touching_ActingSkill_DramaRoutine_Start_ForTips)" Value="195596" />
+  <Preset Label="Perform Action Scene for Tips (si_Touching_ActingSkill_ActionRoutine_Start_ForTips)" Value="195597" />
+  <Preset Label="Perform Musical Scene for Tips (actingSkill_Solo_MusicalRoutine_Start_ForTips)" Value="195598" />
+  <Preset Label="Perform Comedy Scene for Tips (actingSkill_Solo_ComedyRoutine_Start_ForTips)" Value="195605" />
+  <Preset Label="Perform Comedy Scene (actingSkill_Solo_ComedyRoutine_Choose)" Value="195610" />
+  <Preset Label="Perform Comedy Scene (actingSkill_Solo_ComedyRoutine_1)" Value="195612" />
+  <Preset Label="Perform Comedy Scene (actingSkill_Solo_ComedyRoutine_2)" Value="195613" />
+  <Preset Label="Release Track (musicProductionStation_ReleaseTrack_CD)" Value="195625" />
+  <Preset Label="autonomous_ObjectPicker_MusicProductionStation_ReleaseTrack" Tags="TestUnsafe" Value="195628" />
+  <Preset Label="Release Track (musicProductionStation_ReleaseTrack_FromCD)" Value="195630" />
+  <Preset Label="Drink Quirk-B-Gone (fameQuirks_QuirkBeGone_Picker)" Tags="TestUnsafe" Value="195722" />
+  <Preset Label="Drink (consumable_Drink_Nonbar_QuirkBeGone)" Value="195730" />
+  <Preset Label="Give Tip (actingSkill_GiveTip_Success)" Value="195734" />
+  <Preset Label="Open &quot;Fan&quot; Mail (fameQuirks_FanMail_OpenPackage)" Value="195753" />
+  <Preset Label="Practice Acting (mirror_ActingSkill_Practice)" Value="195755" />
+  <Preset Label="actingSkill_Solo_Mixer_Sing_Risky_Comedy" Value="195868" />
+  <Preset Label="actingSkill_Social_Mixer_FireSimRay_RiskySuccess_SciFi" Tags="TestUnsafe" Value="195869" />
+  <Preset Label="actingSkill_Social_Mixer_ShoutForbiddenWords_RiskySuccess" Tags="TestUnsafe" Value="195870" />
+  <Preset Label="Idle_CelebrityTile_PlacementCeremony_Crowd_RespondTo_Excited" Value="195882" />
+  <Preset Label="Idle_CelebrityTile_PlacementCeremony_Crowd_RespondTo_Excited_HeelClick" Value="195883" />
+  <Preset Label="Idle_CelebrityTile_PlacementCeremony_Crowd_RespondTo_Excited_Giddy" Value="195884" />
+  <Preset Label="Save Unpleasant Conversation (socials_Targeted_Friendly_AlwaysOn_STC_ActingSkill_SaveConversation_Unpleasant)" Tags="TestUnsafe" Value="195936" />
+  <Preset Label="Save Boring Conversation (socials_Targeted_Friendly_AlwaysOn_STC_ActingSkill_SaveConversation_Boring)" Tags="TestUnsafe" Value="195937" />
+  <Preset Label="Pull an All-Nighter (solo_Fame_Perk_Brand_AllNighter)" Value="195944" />
+  <Preset Label="Burn Track (musicProductionStation_RemixTrack_Disabled)" Value="195954" />
+  <Preset Label="Practice Acting (microphone_ActingSkill_Practice)" Value="195994" />
+  <Preset Label="Hold an Inspirational Rally (famePerks_Rally_RallyOthers)" Value="196000" />
+  <Preset Label="Admire &lt;I&gt;Fine&lt;/I&gt; Self (mirror_AdmireSelf_VainStreet)" Value="196001" />
+  <Preset Label="Admire &lt;I&gt;Fine&lt;/I&gt; Self (mirror_AdmireSelf_VainStreet_Autonomous)" Value="196004" />
+  <Preset Label="Celebrate (CelebrityTile_PlacementCeremony_Honoree_CelebrateWait)" Value="196006" />
+  <Preset Label="Practice Acting (si_Touching_ActingSkill_Routines_Practice)" Value="196037" />
+  <Preset Label="Rant About Professionalism (mixer_social_Fame_Quirk_ASeriousActor_Targeted_Mean_EmotionSpecific_Rant)" Tags="TestUnsafe" Value="196038" />
+  <Preset Label="actingSkill_Social_Mixer_Hug_Risky" Tags="TestUnsafe" Value="196044" />
+  <Preset Label="actingSkill_Social_Mixer_Hug_RiskySuccess" Tags="TestUnsafe" Value="196045" />
+  <Preset Label="actingSkill_Social_Mixer_Hug_RiskyFail" Tags="TestUnsafe" Value="196046" />
+  <Preset Label="Listen to Rally (famePerks_Rally_AutonomousWatch)" Value="196051" />
+  <Preset Label="Start 24-Hour Charity Stream (si_VideoStation_CharityStream)" Value="196082" />
+  <Preset Label="Summon Squad (famePerks_Squad_CallSquad)" Value="196101" />
+  <Preset Label="Add to Squad (famePerk_Squad_AskToJoinSquad)" Value="196105" />
+  <Preset Label="Remove From Squad (famePerk_Squad_AskToLeaveSquad)" Value="196106" />
+  <Preset Label="Steal Money from Vault (vault_WalkInSafe_Steal)" Value="196114" />
+  <Preset Label="Bribe Boss for Job Performance (reputation_Interactions_Bad_BribeBoss)" Value="196121" />
+  <Preset Label="Summon Squad (FamePerk_Squad_FormSquad)" Tags="TestUnsafe" Value="196130" />
+  <Preset Label="autonomousSimPicker_ActorCareer_InviteCostar1" Tags="TestUnsafe" Value="196186" />
+  <Preset Label="Risky Lock Up (stage_Socials_Picker_Risky_LockUp)" Tags="TestUnsafe" Value="196192" />
+  <Preset Label="famePerks_Squad_PickerContinuation_AddToSquad" Value="196207" />
+  <Preset Label="Ask to Hype... (simPicker_FamePerks_FanFavorite_AskToHype)" Tags="TestUnsafe" Value="196208" />
+  <Preset Label="Ask to Hype... (nonTouching_FamePerk_FanFavorite_AskToHype)" Value="196216" />
+  <Preset Label="Hyping a Sim (famePerks_FanFavorite_AskedToHype)" Value="196218" />
+  <Preset Label="Safe Lock Up (stage_Socials_Picker_Safe_LockUp)" Tags="TestUnsafe" Value="196219" />
+  <Preset Label="Safe Lock Up (stage_Social_LockUp_PreActing_Safe)" Value="196225" />
+  <Preset Label="Risky Lock Up (stage_Social_LockUp_PreActing_Risky)" Value="196226" />
+  <Preset Label="Risky Lock Up (stage_Social_LockUp_Risky)" Value="196227" />
+  <Preset Label="Safe Lock Up (stage_Social_LockUp_Safe)" Value="196228" />
+  <Preset Label="Ask to Praise... (nonTouching_FamePerk_FanFavorite_AskToPraise)" Value="196236" />
+  <Preset Label="Make {1.SimFirstName} Swoon (nonTouching_FamePerk_FanFavorite_SocialMakeSwoon)" Value="196237" />
+  <Preset Label="Ask to Praise... (simPicker_FamePerks_FanFavorite_AskToPraise)" Tags="TestUnsafe" Value="196243" />
+  <Preset Label="Praising a Sim (famePerks_FanFavorite_AskedToPraise)" Value="196244" />
+  <Preset Label="stage_Solos_PostActing" Value="196245" />
+  <Preset Label="Make Fans Swoon (famePerks_FanFavorite_SoloMakeSwoon)" Value="196250" />
+  <Preset Label="Fainting! (famePerks_FanFavorite_Swoon)" Value="196255" />
+  <Preset Label="Add to Squad (famePerks_Squad_RelationshipPanel_AskToJoin)" Value="196271" />
+  <Preset Label="Remove From Squad (famePerks_Squad_RelationshipPanel_AskToLeave)" Value="196272" />
+  <Preset Label="Ask to Badmouth... (nonTouching_FamePerk_FanFavorite_AskToBadmouth)" Value="196280" />
+  <Preset Label="Ask to Badmouth... (simPicker_FamePerks_FanFavorite_AskToBadmouth)" Tags="TestUnsafe" Value="196281" />
+  <Preset Label="Badmouthing a Sim (famePerks_FanFavorite_AskedToBadmouth)" Value="196282" />
+  <Preset Label="Go to Work (si_ActorCareer_Rabbithole)" Value="196294" />
+  <Preset Label="autonomousSimPicker_ActorCareer_InviteDirector_Commercial" Tags="TestUnsafe" Value="196331" />
+  <Preset Label="autonomousSimPicker_ActorCareer_InviteDirector_LowBudgetTV" Tags="TestUnsafe" Value="196332" />
+  <Preset Label="autonomousSimPicker_ActorCareer_InviteDirector_HighBudgetTV" Tags="TestUnsafe" Value="196333" />
+  <Preset Label="autonomousSimPicker_ActorCareer_InviteDirector_Film" Tags="TestUnsafe" Value="196334" />
+  <Preset Label="Create &quot;Fan&quot; Mail in Sim Inventory (Debug) (debug_Mailbox_FameQuirks_FanMail_DeliverPackage)" Value="196340" />
+  <Preset Label="Create Influencer Mail in Sim Inventory (Debug) (debug_Mailbox_FamePerks_Influencer_DeliverGift)" Value="196341" />
+  <Preset Label="famePerks_Squad_Hype_Mixers_Hype" Value="196348" />
+  <Preset Label="famePerks_Squad_Hype_Mixers_Cheer" Value="196349" />
+  <Preset Label="Pose for Paparazzi (celebrity_Self_PoseforPaparazzi)" Value="196373" />
+  <Preset Label="paparazzi_Photo_Pose" Value="196375" />
+  <Preset Label="Bow (actingSkill_BowAfterRoutine_TargetSim)" Value="196380" />
+  <Preset Label="autonomousSimPicker_ActingSkill_ChooseWatcher_TargetSim" Tags="TestUnsafe" Value="196390" />
+  <Preset Label="Fight Paparazzi! (mixer_social_Fight_targeted_mean_Paparazzi)" Tags="TestUnsafe" Value="196391" />
+  <Preset Label="Celebrate Celebrity (famePerks_StarTreatment_Confetti_React)" Value="196398" />
+  <Preset Label="Add Fame Quirk (fameQuirks_Debug_Add)" Tags="TestUnsafe" Value="196416" />
+  <Preset Label="Emotional Meltdown! (reactions_FameQuirk_Meltdown_Anger_Self)" Value="196443" />
+  <Preset Label="Emotional Meltdown! (reactions_FameQuirk_Meltdown_Sadness)" Value="196446" />
+  <Preset Label="Remove Fame Quirk (fameQuirks_ShippingCheat_Remove)" Tags="TestUnsafe" Value="196454" />
+  <Preset Label="Emotional Meltdown! (autonomousSimPicker_FameQuirk_EmotionBomb_AngerMeltdown)" Tags="TestUnsafe" Value="196481" />
+  <Preset Label="Emotional Meltdown! (reactions_FameQuirk_Meltdown_Anger_Targeted)" Value="196483" />
+  <Preset Label="View (WFS_View)" Value="196484" />
+  <Preset Label="Hosting a 24-Hour Charity Stream (streamingDrone_CharityStream)" Value="196495" />
+  <Preset Label="streamingDrone_Launch_CharityStream" Value="196496" />
+  <Preset Label="Start 24-Hour Charity Stream (streamingDrone_Start_CharityStream)" Value="196497" />
+  <Preset Label="Start 24-Hour Charity Stream (si_swipeAddToWorld_StreamingDrone_CharityStream)" Value="196513" />
+  <Preset Label="Finish Scene (stage_Socials_PostAct)" Value="196538" />
+  <Preset Label="Emotional Meltdown! (aggregateSI_FameQuirk_EmotionBomb_AngerMeltdown)" Value="196539" />
+  <Preset Label="Risky Bite (stage_Socials_Bite_PreActing_Risky)" Value="196550" />
+  <Preset Label="Safe Bite (stage_Socials_Bite_PreActing_Safe)" Value="196551" />
+  <Preset Label="Safe Bite (stage_Socials_Bite_Content_SafeSuccess)" Value="196553" />
+  <Preset Label="Risky Bite (stage_Socials_Bite_Content_RiskySuccess)" Value="196554" />
+  <Preset Label="Safe Fight (stage_Socials_Fight_PreActing_Safe)" Value="196621" />
+  <Preset Label="Safe Fight (stage_Socials_Fight_Content_Safe)" Value="196622" />
+  <Preset Label="Risky Fight (stage_Socials_Fight_PreActing_Risky)" Value="196629" />
+  <Preset Label="Risky Fight (stage_Socials_Fight_Content_RiskySuccess)" Value="196631" />
+  <Preset Label="Risky Fire Sim Ray (stage_Socials_FireSimRay_PreActing_Risky)" Value="196632" />
+  <Preset Label="Safe Fire Sim Ray (stage_Socials_FireSimRay_PreActing_Safe)" Value="196633" />
+  <Preset Label="Risky Fire Sim Ray (stage_Socials_FireSimRay_Content_Risky)" Value="196634" />
+  <Preset Label="Safe Fire Sim Ray (stage_Socials_FireSimRay_Content_Safe)" Value="196635" />
+  <Preset Label="Risky Flirt (stage_Socials_Flirt_PreActing_Risky)" Value="196638" />
+  <Preset Label="Safe Flirt (stage_Socials_Flirt_PreActing_Safe)" Value="196639" />
+  <Preset Label="Risky Flirt (stage_Socials_Flirt_Content_Risky)" Value="196640" />
+  <Preset Label="Safe Flirt (stage_Socials_Flirt_Content_Safe)" Value="196641" />
+  <Preset Label="Act Like a Pirate (solo_PirateWheel_ActLikeAPirate)" Value="196651" />
+  <Preset Label="Recharge (Cheat) (debug_StreamingDrone_Recharge)" Value="196675" />
+  <Preset Label="paparazzi_Cheer" Value="196704" />
+  <Preset Label="Remove Crystal (CrystalHelmet_Helmet_Picker_RemoveCrystal)" Tags="TestUnsafe" Value="196734" />
+  <Preset Label="Donate {1.ObjectName} to a Fan (famePerks_GoodReputation_GivingBack_DonateObject)" Value="196759" />
+  <Preset Label="Safe Have Drink With (stage_Socials_HaveDrinkWith_PreActing_Safe)" Value="196783" />
+  <Preset Label="Risky Have Drink With (stage_Socials_HaveDrinkWith_PreActing_Risky)" Value="196784" />
+  <Preset Label="Risky Have Drink With (stage_Socials_HaveDrinkWith_Content_Risky)" Value="196785" />
+  <Preset Label="Safe Have Drink With (stage_Socials_HaveDrinkWith_Content_Safe)" Value="196786" />
+  <Preset Label="Risky Hug (stage_Socials_Hug_PreActing_Risky)" Value="196787" />
+  <Preset Label="Safe Hug (stage_Socials_Hug_PreActing_Safe)" Value="196788" />
+  <Preset Label="Risky Hug (stage_Socials_Hug_Content_Risky)" Value="196790" />
+  <Preset Label="Safe Hug (stage_Socials_Hug_Content_Safe)" Value="196791" />
+  <Preset Label="Risky Kiss (stage_Socials_Kiss_PreActing_Risky)" Value="196792" />
+  <Preset Label="Safe Kiss (stage_Socials_Kiss_PreActing_Safe)" Value="196793" />
+  <Preset Label="Risky Kiss (stage_Socials_Kiss_Content_Risky)" Value="196794" />
+  <Preset Label="Safe Kiss (stage_Socials_Kiss_Content_Safe)" Value="196795" />
+  <Preset Label="Risky Shout Forbidden Words (stage_Socials_ShoutForbiddenWords_PreActing_Risky)" Value="196796" />
+  <Preset Label="Safe Shout Forbidden Words (stage_Socials_ShoutForbiddenWords_PreActing_Safe)" Value="196797" />
+  <Preset Label="Risky Shout Forbidden Words (stage_Socials_ShoutForbiddenWords_Content_Risky)" Value="196798" />
+  <Preset Label="Safe Shout Forbidden Words (stage_Socials_ShoutForbiddenWords_Content_Safe)" Value="196799" />
+  <Preset Label="Risky Treat Patient (stage_Socials_TreatPatient_PreActing_Risky)" Value="196800" />
+  <Preset Label="Safe Treat Patient (stage_Socials_TreatPatient_PreActing_Safe)" Value="196801" />
+  <Preset Label="Risky Treat Patient (stage_Socials_TreatPatient_Content_Risky)" Value="196802" />
+  <Preset Label="Safe Treat Patient (stage_Socials_TreatPatient_Content_Safe)" Value="196803" />
+  <Preset Label="Change Into Costume (wardrobePedestal_ChangeIntoCostume)" Value="196805" />
+  <Preset Label="actorCareer_MoveToNextMark" Value="196848" />
+  <Preset Label="Open Fan Mail (famePerks_Influencer_OpenEnvelope_FromWorld)" Value="196854" />
+  <Preset Label="Open Fan Mail (famePerks_Influencer_OpenPackage_FromWorld)" Value="196855" />
+  <Preset Label="Open &quot;Fan&quot; Mail (fameQuirks_FanMail_OpenPackage_FromWorld)" Value="196856" />
+  <Preset Label="Chase Away (celebrity_Socials_Fan_ChaseAway)" Value="196861" />
+  <Preset Label="Summon Squad (famePerk_Squad_FormSquad_Self)" Tags="TestUnsafe" Value="196874" />
+  <Preset Label="paparazzi_Idle" Value="196884" />
+  <Preset Label="celebrity_Fan_StanIdle" Value="196964" />
+  <Preset Label="Risky Dance Act 1 (stage_Solos_Dance1_PreActing_Risky)" Value="196977" />
+  <Preset Label="Safe Dance Act 1 (stage_Solos_Dance1_PreActing_Safe)" Value="196978" />
+  <Preset Label="Risky Dance Act 2 (stage_Solos_Dance2_PreActing_Risky)" Value="196979" />
+  <Preset Label="Safe Dance Act 2 (stage_Solos_Dance2_PreActing_Safe)" Value="196980" />
+  <Preset Label="Risky Dance Act 1 (stage_Solos_Dance1_Content_Risky)" Value="196983" />
+  <Preset Label="Risky Dance Act 2 (stage_Solos_Dance2_Content_Risky)" Value="196984" />
+  <Preset Label="Safe Dance Act 1 (stage_Solos_Dance1_Content_Safe)" Value="196985" />
+  <Preset Label="Safe Dance Act 2 (stage_Solos_Dance2_Content_Safe)" Value="196986" />
+  <Preset Label="View (art_View_Tourist_CelebrityTile)" Value="196993" />
+  <Preset Label="Risky Mop (stage_Solos_Mop_PreActing_Risky)" Value="196994" />
+  <Preset Label="Safe Mop (stage_Solos_Mop_PreActing_Safe)" Value="196995" />
+  <Preset Label="Risky Mop (stage_Solos_Mop_Content_RiskySuccess)" Value="196997" />
+  <Preset Label="Safe Mop (stage_Solos_Mop_Content_SafeSuccess)" Value="196998" />
+  <Preset Label="Risky Tell Joke (stage_Solos_TellJoke_PreActing_Risky)" Value="197007" />
+  <Preset Label="Safe Tell Joke (stage_Solos_TellJoke_PreActing_Safe)" Value="197008" />
+  <Preset Label="Risky Tell Joke (stage_Solos_TellJoke_Content_Risky)" Value="197009" />
+  <Preset Label="Safe Tell Joke (stage_Solos_TellJoke_Content_Safe)" Value="197010" />
+  <Preset Label="Risky Tell Story (stage_Solos_TellStory_PreActing_Risky)" Value="197013" />
+  <Preset Label="Safe Tell Story (stage_Solos_TellStory_PreActing_Safe)" Value="197014" />
+  <Preset Label="actorCareer_React_SafeFail" Value="197016" />
+  <Preset Label="Risky Tell Story (stage_Solos_TellStory_Content_RiskyFail)" Value="197017" />
+  <Preset Label="Risky Tell Story (stage_Solos_TellStory_Content_RiskySuccess)" Value="197018" />
+  <Preset Label="Safe Tell Story (stage_Solos_TellStory_Content_SafeFail)" Value="197019" />
+  <Preset Label="Safe Tell Story (stage_Solos_TellStory_Content_SafeSuccess)" Value="197020" />
+  <Preset Label="attractorPoint_Interaction_Tourist_View" Value="197021" />
+  <Preset Label="Cheering Bad Behavior (reactions_FamePerk_PlayTheVillain_Cheer_HighIntensity)" Value="197114" />
+  <Preset Label="Remove Quirk (fameQuirks_CrystalHelmet_Picker)" Tags="TestUnsafe" Value="197119" />
+  <Preset Label="Summon Squad (famePerks_Squad_CallSquad_Self)" Value="197121" />
+  <Preset Label="Listen to Fan (celebrity_Socials_Celebrity_Listen)" Value="197128" />
+  <Preset Label="CrystalHelmet_RemoveQuirk" Value="197129" />
+  <Preset Label="Give Residence Keys (touching_RoommateKey_Socials_GiveKey)" Value="197208" />
+  <Preset Label="Take Residence Key Back (touching_RoommateKey_Socials_RevokeKey)" Value="197209" />
+  <Preset Label="Take Residence Key Back (SI_Roommate_RevokeKey_Start)" Value="197217" />
+  <Preset Label="Order Drink (bar_PushOrderDrink_Autonomous_Celebrity)" Value="197330" />
+  <Preset Label="Transfer Videos to The More Views Video Station (streamingDrone_TransferVideos)" Value="197338" />
+  <Preset Label="Attempt Introduction (celebrity_Socials_StanAttemptIntroduction)" Value="197537" />
+  <Preset Label="Wealth &amp; Collecting (solo_ActorCareer_GoToMark_StageObject)" Value="197590" />
+  <Preset Label="At Audition (ActorCareer_RabbitHoleInteraction_Auditions)" Value="197611" />
+  <Preset Label="CrystalHelmet_DestroyCrystal" Value="197613" />
+  <Preset Label="Launch {0.SimFirstName}'s Lifestyle Brand (multiPicker_LifestyleBrand)" Tags="TestUnsafe" Value="197614" />
+  <Preset Label="Select a Logo (lifestyleBrand_Picker_Logo)" Tags="TestUnsafe" Value="197615" />
+  <Preset Label="Select a Product Category (lifestyleBrand_Picker_Products)" Tags="TestUnsafe" Value="197616" />
+  <Preset Label="lifestyleBrand_Picker_TargetMarket" Tags="TestUnsafe" Value="197617" />
+  <Preset Label="reactions_FameQuirks_JuiceEnthusiast_Excited" Value="197748" />
+  <Preset Label="Request a Large Donation (nonTouching_SocialSuperInteractions_DonateToCharity_AskLarge)" Value="197761" />
+  <Preset Label="Request a Small Donation (nonTouching_SocialSuperInteractions_DonateToCharity_AskSmall)" Value="197762" />
+  <Preset Label="Offer a Donation (nonTouching_SocialSuperInteractions_DonateToCharity_Offer)" Value="197763" />
+  <Preset Label="Transfer Videos to The More Views Video Station (streamingDrone_TransferVideos_SimInventory)" Value="197795" />
+  <Preset Label="Keep Style (hairMakeUpChair_KeepMakeUp)" Value="197798" />
+  <Preset Label="Hire a New Acting Agency (computer_Career_Actor_ChangeAgency)" Value="197800" />
+  <Preset Label="Invite Over Director &amp; Co-Stars (computer_Career_Actor_InviteCostars)" Value="197801" />
+  <Preset Label="Check for Gigs (computer_Career_Actor_CheckForGigs)" Value="197802" />
+  <Preset Label="autonomousSimPicker_GiveAward" Tags="TestUnsafe" Value="197845" />
+  <Preset Label="Lampoon the Guest of Honor (microphone_PerformComedyRoutine_SocialGroup_Short_Lampoon)" Value="197896" />
+  <Preset Label="Join Open Mic (bar_OpenMic_SignUp)" Value="197899" />
+  <Preset Label="Lampoon the Guest of Honor (microphone_StartLampoonRoutine)" Value="197900" />
+  <Preset Label="Tell Joke (mixer_socials_TellJoke_group_Funny_alwaysOn_WittyTakedown)" Tags="TestUnsafe" Value="197912" />
+  <Preset Label="Make It Pour (vault_MakeItPour)" Value="197942" />
+  <Preset Label="Make It Trickle (vault_MakeItTrickle)" Value="197943" />
+  <Preset Label="autonomousSimPicker_ActorCareer_BackgroundNPC_ProducerChat" Tags="TestUnsafe" Value="197962" />
+  <Preset Label="autonomousSimPicker_ActorCareer_BackgroundNPC_ProducerActor" Tags="TestUnsafe" Value="197963" />
+  <Preset Label="autonomousSimPicker_ActorCareer_BackgroundNPC_ActorPractice" Tags="TestUnsafe" Value="197964" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_VideoStation)" Value="197987" />
+  <Preset Label="autonomousSimPicker_ActorCareer_InviteCostar2" Tags="TestUnsafe" Value="198051" />
+  <Preset Label="Act not Bored (actingSkill_ActNotBored)" Value="198141" />
+  <Preset Label="Act not Embarrassed (actingSkill_ActNotEmbarrassed)" Value="198237" />
+  <Preset Label="Autumn Leaves (VFXMachine_Emitter_Toggle_Leaves)" Value="198271" />
+  <Preset Label="Cherry Blossoms (VFXMachine_Emitter_Toggle_Blossom)" Value="198272" />
+  <Preset Label="Money (VFXMachine_Emitter_Toggle_Money)" Value="198273" />
+  <Preset Label="Autumn Leaves (VFXMachine_ControlUnit_Toggle_Leaves)" Value="198274" />
+  <Preset Label="Cherry Blossoms (VFXMachine_ControlUnit_Toggle_Blossom)" Value="198275" />
+  <Preset Label="Money (VFXMachine_ControlUnit_Toggle_Money)" Value="198276" />
+  <Preset Label="actingSkill_Social_Mixer_Kiss_RiskySuccess_Drama" Tags="TestUnsafe" Value="198411" />
+  <Preset Label="actingSkill_Social_Mixer_Kiss_Risky_Drama" Tags="TestUnsafe" Value="198412" />
+  <Preset Label="Convince to Let Group Inside (socials_Targeted_VIPRope_Bouncer_ConvinceToLetFriendIn)" Tags="TestUnsafe" Value="198415" />
+  <Preset Label="actingSkill_Social_Mixer_Kiss_RiskySuccess_NoBuff" Tags="TestUnsafe" Value="198416" />
+  <Preset Label="Keep Style (wardrobePedestal_RemoveOutfit_Picker_Athletic)" Tags="TestUnsafe" Value="198427" />
+  <Preset Label="Keep Style (wardrobePedestal_RemoveOutfit_Picker_Everyday)" Tags="TestUnsafe" Value="198428" />
+  <Preset Label="Keep Style (wardrobePedestal_RemoveOutfit_Picker_Formal)" Tags="TestUnsafe" Value="198429" />
+  <Preset Label="Keep Style (wardrobePedestal_RemoveOutfit_Picker_Party)" Tags="TestUnsafe" Value="198430" />
+  <Preset Label="Keep Style (wardrobePedestal_RemoveOutfit_Picker_Sleep)" Tags="TestUnsafe" Value="198431" />
+  <Preset Label="Keep Style (wardrobePedestal_RemoveOutfit_Picker_Swimwear)" Tags="TestUnsafe" Value="198432" />
+  <Preset Label="Keep Style (wardrobePedestal_RemoveOutfit_Picker_HotWeather)" Tags="TestUnsafe" Value="198433" />
+  <Preset Label="Keep Style (wardrobePedestal_RemoveOutfit_Picker_ColdWeather)" Tags="TestUnsafe" Value="198434" />
+  <Preset Label="Keep Style (wardrobePedestal_KeepStyle_Athletic)" Value="198457" />
+  <Preset Label="Keep Style (wardrobePedestal_KeepStyle_Everyday)" Value="198458" />
+  <Preset Label="Keep Style (wardrobePedestal_KeepStyle_Formal)" Value="198459" />
+  <Preset Label="Keep Style (wardrobePedestal_KeepStyle_Party)" Value="198460" />
+  <Preset Label="Keep Style (wardrobePedestal_KeepStyle_Sleep)" Value="198461" />
+  <Preset Label="Keep Style (wardrobePedestal_KeepStyle_Swimwear)" Value="198462" />
+  <Preset Label="Keep Style (wardrobePedestal_KeepStyle_HotWeather)" Value="198463" />
+  <Preset Label="Keep Style (wardrobePedestal_KeepStyle_ColdWeather)" Value="198464" />
+  <Preset Label="mixer_VideoStation_Video_EmotionVlog_Focused" Value="198552" />
+  <Preset Label="Kill Denizen (denizenPond_Cheats_KillDenizen)" Value="198608" />
+  <Preset Label="Make Hungry (denizenPond_Cheats_MakeHungry)" Value="198609" />
+  <Preset Label="Sabotage! (object_Bane_Sabotage_Videostation)" Value="198618" />
+  <Preset Label="Insta-Repair! (object_Knack_FixIt_VideoStation)" Value="198619" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_StreamingDrone)" Value="198645" />
+  <Preset Label="Cancel Gig (computer_Career_Actor_CancelGig)" Value="198649" />
+  <Preset Label="Cancel Audition (computer_Career_Actor_CancelAudition)" Value="198650" />
+  <Preset Label="mixer_VideoStation_Video_Vlog_Idle" Value="198671" />
+  <Preset Label="Insta-Repair! (object_Knack_FixIt_StreamingDrone)" Value="198681" />
+  <Preset Label="Attempt to Swipe (swipe_CelebrityStan)" Value="198934" />
+  <Preset Label="Perform Dramatic Monologue (actingSkill_Solo_DramaticMonologueRoutine_1)" Value="198936" />
+  <Preset Label="Order Caviar Crackers (bar_OrderCelebrityFood_CaviarCrackers)" Value="198941" />
+  <Preset Label="actingSkill_Solo_Mixer_TellStory_Risky_DramaticMonologue" Value="198942" />
+  <Preset Label="Get Caviar Crackers (bar_CreateFoodForOrder_CaviarCrackers)" Value="198944" />
+  <Preset Label="actingSkill_Solo_Mixer_AngryRant_Risky" Value="198945" />
+  <Preset Label="mixer_Paparazzi_TakePhoto_GetAttention" Value="199097" />
+  <Preset Label="mixer_Paparazzi_TakePhoto_UpHigh" Value="199098" />
+  <Preset Label="mixer_Paparazzi_TakePhoto_Regular" Value="199099" />
+  <Preset Label="Lifestyle Brand (computer_LifestyleBrand_ConfirmationPayout)" Value="199109" />
+  <Preset Label="Perform Dramatic Monologue for Tips (actingSkill_Solo_DramaticMonologueRoutine_Start_ForTips)" Value="199222" />
+  <Preset Label="Perform Dramatic Monologue (actingSkill_Solo_DramaticMonologueRoutine_Start_NoTips)" Value="199251" />
+  <Preset Label="Perform Dramatic Monologue (actingSkill_Solo_DramaticMonologueRoutine_Choose)" Value="199256" />
+  <Preset Label="Perform Dramatic Monologue (actingSkill_Solo_DramaticMonologueRoutine_2)" Value="199258" />
+  <Preset Label="Jump In (denizenPond_JumpIn)" Value="199275" />
+  <Preset Label="Drown (death_DenizenDrown)" Value="199283" />
+  <Preset Label="Use Special Effects Control Desk (specialEffectsOperator_WaitNearby)" Value="199286" />
+  <Preset Label="Off to Drama Club (si_Career_DramaClub)" Value="199289" />
+  <Preset Label="actorCareer_Producer_PrerollStart" Value="199295" />
+  <Preset Label="Get Out (denizenPond_GetOut)" Value="199312" />
+  <Preset Label="Mentor Acting (si_Touching_ActingSkill_Mentor)" Value="199341" />
+  <Preset Label="Practice Dramatics (dramaClub_Mirror_PracticeActing)" Value="199399" />
+  <Preset Label="Learn New Lines (dramaClub_Mirror_LearnNewLines)" Value="199400" />
+  <Preset Label="Practice Dramatics (dramaClub_Self_PracticeActing)" Value="199401" />
+  <Preset Label="Learn New Lines (dramaClub_Self_LearnNewLines)" Value="199402" />
+  <Preset Label="Cry On Demand (dramaClub_Self_CryOnDemand)" Value="199403" />
+  <Preset Label="Attend Drama Club Show With (simPickerInteraction_DramaClub_Attend)" Tags="TestUnsafe" Value="199406" />
+  <Preset Label="Fall In (denizenPond_FallIn)" Value="199411" />
+  <Preset Label="Hire Bouncer (si_VIPRope_Hire_BouncerNPC)" Value="199477" />
+  <Preset Label="Fire Bouncer (sim_Fire_VIPRope_Door_BouncerNPC)" Value="199553" />
+  <Preset Label="Nap (sleepingPod_Interactions_Nap)" Value="199610" />
+  <Preset Label="Sleep (sleepingPod_Interactions_Sleep)" Value="199611" />
+  <Preset Label="Risky Sword Fight (stage_Socials_SwordFight_PreActing_Risky)" Value="199612" />
+  <Preset Label="Safe Sword Fight (stage_Socials_SwordFight_PreActing_Safe)" Value="199613" />
+  <Preset Label="Subliminal Slumber (sleepingPod_Interactions_SubliminalSlumber)" Value="199614" />
+  <Preset Label="Risky Sword Fight (stage_Socials_SwordFight_Content_Risky)" Value="199617" />
+  <Preset Label="Safe Sword Fight (stage_Socials_SwordFight_Content_Safe)" Value="199619" />
+  <Preset Label="Claim (sleepingPod_Interactions_Claim)" Value="199620" />
+  <Preset Label="Repair (sleepingPod_Interactions_Repair)" Value="199621" />
+  <Preset Label="Risky Sword Fight (stage_Socials_Picker_Risky_SwordFight)" Tags="TestUnsafe" Value="199626" />
+  <Preset Label="Safe Sword Fight (stage_Socials_Picker_Safe_SwordFight)" Tags="TestUnsafe" Value="199627" />
+  <Preset Label="Sabotage! (object_Bane_Sabotage_StreamingDrone)" Value="199636" />
+  <Preset Label="Admire (AutographedObjects_Admire)" Value="199638" />
+  <Preset Label="Appraise (AutographedObjects_Appraise)" Value="199639" />
+  <Preset Label="Sell to Collector (AutographedObjects_SellToCollector)" Value="199640" />
+  <Preset Label="Fire Bouncer (si_VIPRope_Fire_BouncerNPC)" Value="199644" />
+  <Preset Label="Circadian Tweaker (sleepingPod_Interactions_Upgrade_Handiness_CircadianTweaker)" Value="199647" />
+  <Preset Label="Enhanced Emotion Deprivation Chamber (sleepingPod_Interactions_Upgrade_Handiness_EmotionDeprivation)" Value="199648" />
+  <Preset Label="Floor Lighting (sleepingPod_Interactions_Upgrade_Handiness_FloorLighting)" Value="199649" />
+  <Preset Label="Subliminal Transmitter (sleepingPod_Interactions_Upgrade_Handiness_SubliminalTransmitter)" Value="199650" />
+  <Preset Label="Unbreakable (sleepingPod_Interactions_Upgrade_Handiness_Unbreakable)" Value="199651" />
+  <Preset Label="Up-N-At-Em Atomizer (sleepingPod_Interactions_Upgrade_Handiness_Up-N-Atomizer)" Value="199652" />
+  <Preset Label="Bribe (socials_Targeted_VIPRope_Bouncer_Bribe_6)" Tags="TestUnsafe" Value="199808" />
+  <Preset Label="Fish for Compliments (socials_Targeted_Friendly_AlwaysOn_STC_SelfAbsorbed_FishForCompliments)" Tags="TestUnsafe" Value="199859" />
+  <Preset Label="si_VIPRope_AttemptToEnter" Value="199885" />
+  <Preset Label="si_VIPRope_WaitOutside" Value="199887" />
+  <Preset Label="mixer_DramaClub_PracticeActing" Value="199897" />
+  <Preset Label="Risky Death Scene (stage_Solos_DeathScene_PreActing_Risky)" Value="199914" />
+  <Preset Label="Safe Death Scene (stage_Solos_DeathScene_PreActing_Safe)" Value="199915" />
+  <Preset Label="Safe Death Scene (stage_Solos_DeathScene_Content_Safe)" Value="199917" />
+  <Preset Label="vault_WalkInSafe_Play_RandomPlay" Value="199988" />
+  <Preset Label="vault_WalkInSafe_Play_MoneyPhone" Value="199989" />
+  <Preset Label="vault_WalkInSafe_MakeItRain_Rain" Value="199991" />
+  <Preset Label="vault_WalkInSafe_BurnMoney_Throw" Value="199992" />
+  <Preset Label="generic_SleepingPod_Sleep_Posture" Value="200062" />
+  <Preset Label="Aqua (ChangeLightColor_Spotlight_Red)" Value="200074" />
+  <Preset Label="Blue (changeLightColor_Spotlight_blue)" Value="200076" />
+  <Preset Label="White (changeLightColor_Spotlight_white)" Value="200085" />
+  <Preset Label="Green (changeLightColor_Spotlight_green)" Value="200086" />
+  <Preset Label="Pink (changeLightColor_Spotlight_pink)" Value="200087" />
+  <Preset Label="Yellow (changeLightColor_Spotlight_yellow)" Value="200088" />
+  <Preset Label="generic_SleepingPod_Woohoo_Posture" Value="200093" />
+  <Preset Label="Gold (changeLightColor_Spotlight_orange)" Value="200094" />
+  <Preset Label="Purple (changeLightColor_Spotlight_violet)" Value="200095" />
+  <Preset Label="Subliminal Transmitter (sleepingPod_ImmediateUpgrade_Purchase_SubliminalTransmitter)" Value="200166" />
+  <Preset Label="Circadian Tweaker (sleepingPod_ImmediateUpgrade_Purchase_CircadianTweaker)" Value="200167" />
+  <Preset Label="Floor Lighting (sleepingPod_ImmediateUpgrade_Purchase_FloorLighting)" Value="200168" />
+  <Preset Label="Up-N-At-Em Atomizer (sleepingPod_ImmediateUpgrade_Purchase_Up-N-Atomizer)" Value="200171" />
+  <Preset Label="Enhanced Emotion Deprivation Chamber (sleepingPod_ImmediateUpgrade_Purchase_EmotionDeprivation)" Value="200172" />
+  <Preset Label="Lock Inside of Pod (sleepingPod_Interactions_Mischief_JamPod)" Value="200270" />
+  <Preset Label="Hack Dreams  (sleepingPod_Interactions_Mischief_HackDreams)" Value="200281" />
+  <Preset Label="Sabotage! (sleepingPod_Interactions_Mischief_Sabotage)" Value="200282" />
+  <Preset Label="WooHoo With (wooHoo_Picker_SleepingPod)" Tags="TestUnsafe" Value="200296" />
+  <Preset Label="WooHoo (mixer_social_WooHooInSleepingPod_targeted_romance_transition)" Tags="TestUnsafe" Value="200298" />
+  <Preset Label="WooHoo (SleepingPod_Woohoo)" Value="200300" />
+  <Preset Label="Try for Baby (mixer_social_TryForBabyInSleepingPod_targeted_romance_transition)" Tags="TestUnsafe" Value="200302" />
+  <Preset Label="Try for Baby (SleepingPod_tryForBaby)" Value="200309" />
+  <Preset Label="Try for Baby With (SleepingPod_tryForBaby_Female_Picker)" Tags="TestUnsafe" Value="200310" />
+  <Preset Label="Try for Baby With (SleepingPod_tryForBaby_Male_Picker)" Tags="TestUnsafe" Value="200312" />
+  <Preset Label="Bribe Boss for Job Performance (reputation_Interactions_Bad_BribeBoss_Phone)" Value="200324" />
+  <Preset Label="Inspired Dreams  (sleepingPod_SubliminalTransmitter_SetDream_Inspired)" Value="200388" />
+  <Preset Label="Restful Dreams  (sleepingPod_SubliminalTransmitter_SetDream_Restful)" Value="200390" />
+  <Preset Label="Focused Dreams (sleepingPod_SubliminalTransmitter_SetDream_Focused)" Value="200391" />
+  <Preset Label="Energized Dreams (sleepingPod_SubliminalTransmitter_SetDream_Energized)" Value="200392" />
+  <Preset Label="Social Dreams (sleepingPod_SubliminalTransmitter_SetDream_Social)" Value="200393" />
+  <Preset Label="Fun Dreams (sleepingPod_SubliminalTransmitter_SetDream_Fun)" Value="200394" />
+  <Preset Label="Educational Dreams  (sleepingPod_SubliminalTransmitter_SetDream_Educational)" Value="200395" />
+  <Preset Label="Confident Dreams  (sleepingPod_SubliminalTransmitter_SetDream_Confident)" Value="200396" />
+  <Preset Label="Turn Off  (sleepingPod_SubliminalTransmitter_SetDream_Off)" Value="200397" />
+  <Preset Label="Trapped (sleepingPod_Interactions_Mischief_TrappedInPod)" Value="200430" />
+  <Preset Label="Celebrity_Mixers_WatchPerformance_Clap" Value="200435" />
+  <Preset Label="celebrity_Mixers_WatchPerformance_Excitement" Value="200436" />
+  <Preset Label="Gold (sleepingPod_ImmediateInteractions_FloorLights_Gold)" Value="200469" />
+  <Preset Label="Blue (sleepingPod_ImmediateInteractions_FloorLights_Blue)" Value="200470" />
+  <Preset Label="Red (sleepingPod_ImmediateInteractions_FloorLights_Red)" Value="200471" />
+  <Preset Label="Purple (sleepingPod_ImmediateInteractions_FloorLights_Purple)" Value="200472" />
+  <Preset Label="Green (sleepingPod_ImmediateInteractions_FloorLights_Green)" Value="200473" />
+  <Preset Label="White (sleepingPod_ImmediateInteractions_FloorLights_White)" Value="200474" />
+  <Preset Label="Pink (sleepingPod_ImmediateInteractions_FloorLights_Pink)" Value="200475" />
+  <Preset Label="Orange (sleepingPod_ImmediateInteractions_FloorLights_Orange)" Value="200476" />
+  <Preset Label="Off (sleepingPod_ImmediateInteractions_FloorLights_Off)" Value="200480" />
+  <Preset Label="dollyCamera_Operate_ReviewScript" Value="200481" />
+  <Preset Label="cameraFilm_Stationary_Preperformance_ReviewScript" Value="200484" />
+  <Preset Label="backgroundActor_ReviewScript_readLines" Value="200491" />
+  <Preset Label="backgroundActor_ReviewScript_readLinesSlowly" Value="200492" />
+  <Preset Label="backgroundActor_ReviewScript_readWeightShift" Value="200493" />
+  <Preset Label="backgroundActor_ReviewScript_readScratchCheek" Value="200494" />
+  <Preset Label="Read (solo_backgroundActor_reviewScript)" Value="200495" />
+  <Preset Label="Watch (microphone_LoungeEvent_WatchAwards)" Value="200496" />
+  <Preset Label="Rage into the Machine (sleepingPod_NegativeMood_Solve)" Value="200497" />
+  <Preset Label="Attend Drama Club Show (RabbitHoleInteractions_AttendDramaClub)" Value="200506" />
+  <Preset Label="Wear Celebrity Disguise (change_CelebrityDisguise_Disguise)" Value="200513" />
+  <Preset Label="Remove Celebrity Disguise (change_CelebrityDisguise_Undisguise)" Value="200514" />
+  <Preset Label="Remove Celebrity Disguise (change_CelebrityDisguise_Undisguise_Actor)" Value="200518" />
+  <Preset Label="actingSkill_Social_Mixer_FireSimRay_Risky_SciFi" Tags="TestUnsafe" Value="200544" />
+  <Preset Label="Doing Acting Routine (si_Touching_ActingSkill_TargetSimRoutine)" Value="200562" />
+  <Preset Label="actingSkill_Social_Mixer_Fight_RiskySuccess_SciFi" Tags="TestUnsafe" Value="200570" />
+  <Preset Label="Mess Around With (SleepingPod_messAround_Picker)" Tags="TestUnsafe" Value="200575" />
+  <Preset Label="generic_Denizen_Swims" Value="200576" />
+  <Preset Label="Recording (streamingDrone_Launch_RecordSim_FromPicker)" Value="200588" />
+  <Preset Label="Place in World (swipeAddToWorld_StreamingDrone_RecordSim_FromPicker)" Value="200589" />
+  <Preset Label="Insert Lithium Battery (debug_StreamingDrone_Upgrade_Battery)" Value="200613" />
+  <Preset Label="Swap in Reliable Components (debug_StreamingDrone_Upgrade_BreaksLess)" Value="200614" />
+  <Preset Label="Install HD Camera (debug_StreamingDrone_Upgrade_VideoQuality)" Value="200615" />
+  <Preset Label="End Squad Gathering (famePerks_Squad_DisbandSquad)" Value="200631" />
+  <Preset Label="Name (rename_VideoRecording_FromStreamingDrone)" Value="200643" />
+  <Preset Label="Participate in Scene (stage_Socials_Target)" Value="200645" />
+  <Preset Label="Nap (sleepingPod_Interactions_Nap_Upgraded)" Value="200698" />
+  <Preset Label="Sleep (sleepingPod_Interactions_Sleep_Upgraded)" Value="200699" />
+  <Preset Label="Subliminal Slumber (sleepingPod_Interactions_SubliminalSlumber_Upgraded)" Value="200700" />
+  <Preset Label="Freeze Fame (fame_Cheat_Freeze)" Value="200708" />
+  <Preset Label="Research Flirty Emotion (actorCareer_PrepTasks_ResearchMood)" Value="200797" />
+  <Preset Label="Risky Play Guitar (stage_Solos_Music_PlayGuitar_Risky)" Value="200848" />
+  <Preset Label="Create Autographed Picture (Debug) (debug_GiveAutograph_Picture)" Value="200864" />
+  <Preset Label="Create Autographed Paper (Debug) (debug_GiveAutograph_Paper)" Value="200870" />
+  <Preset Label="Create Autographed Card (Debug) (debug_GiveAutograph_Card)" Value="200871" />
+  <Preset Label="NPCLeaveLotNow_VIPRope_Denied" Value="200918" />
+  <Preset Label="Adopt (adoptPickedChild_StarTreatment_Free)" Value="200924" />
+  <Preset Label="Adopt (adoption_Picker_StarTreatment_Free)" Tags="TestUnsafe" Value="200927" />
+  <Preset Label="Adopt (adoption_Picker_Phone_StarTreatment_Free)" Tags="TestUnsafe" Value="200936" />
+  <Preset Label="Appraise (autographedObjects_Appraise_InInventory)" Value="200956" />
+  <Preset Label="Sell to Collector (autographedObjects_SellToCollector_InInventory)" Value="200958" />
+  <Preset Label="Money Phone (Vault_MoneyPhone)" Value="200959" />
+  <Preset Label="Rage into the Machine (sleepingPod_NegativeMood_Solve_Upgraded)" Value="200962" />
+  <Preset Label="Remove Inhabitant (denizenPond_RemoveDenizen)" Value="200967" />
+  <Preset Label="Watch (microphone_LoungeEvent_WatchBookReading)" Value="200974" />
+  <Preset Label="Make Dirty (denizenPond_Cheats_MakeDirty)" Value="200977" />
+  <Preset Label="Enable Cause Failure (denizenPond_Cheats_AlwaysCauseFailure)" Value="201020" />
+  <Preset Label="Disable Cause Failure (denizenPond_Cheats_DisableFailureIncrease)" Value="201021" />
+  <Preset Label="denizenPond_View_Mixers_Toddler_Ponder" Value="201047" />
+  <Preset Label="denizenPond_View_Mixers_Toddler_Happy" Value="201048" />
+  <Preset Label="denizenPond_View_Mixers_Toddler_Awe" Value="201049" />
+  <Preset Label="fameWorld_OpenStreets_TakePhotoNoAttractor" Value="201130" />
+  <Preset Label="This Light (changeLightColorIntensity_VideoStation)" Value="201133" />
+  <Preset Label="Perform a Witty Takedown (nonTouching_SocialSuperInteractions_WittyTakedown)" Value="201152" />
+  <Preset Label="Clean (CelebrityTile_Clean_TileCleanAdvertisement)" Value="201154" />
+  <Preset Label="Transfer Videos to The More Views Video Station (streamingDrone_TransferVideos_VideoRecording)" Value="201157" />
+  <Preset Label="actingSkill_Social_Mixer_Hug_RiskySuccess_NoBuff" Tags="TestUnsafe" Value="201224" />
+  <Preset Label="Circadian Tweaker (sleepingPod_Interactions_Upgrade_Handiness_CircadianTweaker_CompletedDisplay)" Value="201276" />
+  <Preset Label="Enhanced Emotion Deprivation Chamber (sleepingPod_Interactions_Upgrade_Handiness_EmotionDeprivation_CompletedDisplay)" Value="201277" />
+  <Preset Label="Floor Lighting (sleepingPod_Interactions_Upgrade_Handiness_FloorLighting_CompletedDisplay)" Value="201278" />
+  <Preset Label="Subliminal Transmitter (sleepingPod_Interactions_Upgrade_Handiness_SubliminalTransmitter_CompletedDisplay)" Value="201279" />
+  <Preset Label="Unbreakable (sleepingPod_Interactions_Upgrade_Handiness_Unbreakable_CompletedDisplay)" Value="201280" />
+  <Preset Label="Up-N-At-Em Atomizer (sleepingPod_Interactions_Upgrade_Handiness_Up-N-Atomizer_CompletedDisplay)" Value="201281" />
+  <Preset Label="Safe Lock Up (stage_Socials_FightWithExplosion_Content_RiskySuccess)" Value="201305" />
+  <Preset Label="Bribe with (touching_SocialSuperInteractions_Reputation_Bribe_Large)" Value="201313" />
+  <Preset Label="Bribe with (touching_SocialSuperInteractions_Reputation_Bribe_Medium)" Value="201314" />
+  <Preset Label="Bribe with (touching_SocialSuperInteractions_Reputation_Bribe_Small)" Value="201316" />
+  <Preset Label="touching_Greetings_CelebrityWave" Value="201317" />
+  <Preset Label="Leave Squad (famePerks_Squad_LeaveSquad)" Value="201323" />
+  <Preset Label="See What's Happening (reactions_Jealousy_MoneyPhone)" Value="201326" />
+  <Preset Label="See What's Happening (reactions_Generic_Cheer_Money)" Value="201348" />
+  <Preset Label="Incite Cheers (celebrity_InciteCheers_Autonomous)" Value="201377" />
+  <Preset Label="Be Styled for Gig (social_HairMakeUpChair_AskFor_GigStyle)" Value="201379" />
+  <Preset Label="Be Outfitted for Gig (social_WardrobePedestal_AskForOutfit_Gig)" Value="201380" />
+  <Preset Label="Watch (microphone_LoungeEvent_OpenMic_Watch)" Value="201424" />
+  <Preset Label="Review Script (solo_ActorCareer_Player_ReviewScript)" Value="201434" />
+  <Preset Label="Remove Crown (CrystalHelmet_Remove_Sim)" Value="201440" />
+  <Preset Label="Calculator Rock (musicProductionStation_ProduceNewTrack_Song9)" Value="201453" />
+  <Preset Label="actorCareer_React_Director_RiskyFail" Value="201460" />
+  <Preset Label="actorCareer_React_Director_RiskySuccess" Value="201461" />
+  <Preset Label="actorCareer_React_Director_SafeSuccess" Value="201462" />
+  <Preset Label="actorCareer_React_Director_SafeFail" Value="201463" />
+  <Preset Label="Add Money to Vault (vault_WalkInSafe_Input_Add)" Value="201498" />
+  <Preset Label="Take Money from Vault (vault_WalkInSafe_Input_Take)" Value="201499" />
+  <Preset Label="Sit (seating_Sit_HairMakeUpChair)" Value="201508" />
+  <Preset Label="Ask for Autograph (celebrity_Socials_Fan_Ask_Cont_AskforAutograph)" Value="201522" />
+  <Preset Label="Ask for Hug (celebrity_Socials_Fan_Ask_Cont_AskforHug)" Value="201523" />
+  <Preset Label="Ask for Selfie (celebrity_Socials_Fan_Ask_Cont_AskforSelfie)" Value="201524" />
+  <Preset Label="Get Mail (mailbox_GetMail_Influencer_Child)" Value="201528" />
+  <Preset Label="Take Selfie With Fan (celebrity_Socials_Celebrity_Offer_Cont_TakeSelfieWithFan)" Value="201538" />
+  <Preset Label="mixer_DramaClub_PracticeSpeech" Value="201543" />
+  <Preset Label="Spaghetti &amp; Meatballs (VFXMachine_ControlUnit_Toggle_Meatball)" Value="201561" />
+  <Preset Label="Spaghetti &amp; Meatballs (VFXMachine_Emitter_Toggle_Meatball)" Value="201562" />
+  <Preset Label="Hearts (VFXMachine_Emitter_Toggle_Hearts)" Value="201570" />
+  <Preset Label="Hearts (VFXMachine_ControlUnit_Toggle_Hearts)" Value="201573" />
+  <Preset Label="mixer_VideoStation_Video_Product_Toys_Vehicle" Value="201578" />
+  <Preset Label="mixer_VideoStation_Video_Product_Toys_Doll" Value="201579" />
+  <Preset Label="mixer_VideoStation_Video_Product_Toys_Animal" Value="201580" />
+  <Preset Label="Turn On Fame Shine (immediate_Fame_ShineToggle)" Value="201583" />
+  <Preset Label="Sleep (sleepingPod_Interactions_Mischief_DreamsHacked_Sleep)" Value="201591" />
+  <Preset Label="Delete Video (streamingDrone_VideoDelete)" Value="201592" />
+  <Preset Label="Safe Play Guitar (stage_Solos_Music_PlayGuitar_Safe)" Value="201626" />
+  <Preset Label="Donate to Charity (immediate_Charity_Donation)" Value="201629" />
+  <Preset Label="wardrobePedestal_WaitNear" Value="201633" />
+  <Preset Label="Browse Web (wardrobePedestal_BrowsePhone)" Value="201634" />
+  <Preset Label="Burn Money (vault_BurnMoney_Fireplace)" Value="201641" />
+  <Preset Label="Burn Money (vault_BurnMoney_Leafpile)" Value="201642" />
+  <Preset Label="Burn Money (vault_BurnMoney_Campfire)" Value="201643" />
+  <Preset Label="Burn Money (vault_BurnMoney_Bonfire)" Value="201644" />
+  <Preset Label="Continue Upgrading Circadian Tweaker (sleepingPod_Interactions_Upgrade_Handiness_CircadianTweaker_Continue)" Value="201649" />
+  <Preset Label="Continue Upgrading Enhanced Emotion Deprivation Chamber (sleepingPod_Interactions_Upgrade_Handiness_EmotionDeprivation_Continue)" Value="201650" />
+  <Preset Label="Continue Upgrading Floor Lighting (sleepingPod_Interactions_Upgrade_Handiness_FloorLighting_Continue)" Value="201651" />
+  <Preset Label="Continue Upgrading Subliminal Transmitter (sleepingPod_Interactions_Upgrade_Handiness_SubliminalTransmitter_Continue)" Value="201652" />
+  <Preset Label="Continue Unbreakable Upgrade (sleepingPod_Interactions_Upgrade_Handiness_Unbreakable_Continue)" Value="201653" />
+  <Preset Label="Continue Upgrading Up-N-At-Em Atomizer (sleepingPod_Interactions_Upgrade_Handiness_Up-N-Atomizer_Continue)" Value="201654" />
+  <Preset Label="Risky Play Guitar (stage_Solos_Music_PlayGuitar_Home_Risky)" Value="201690" />
+  <Preset Label="Safe Play Guitar (stage_Solos_Music_PlayGuitar_Home_Safe)" Value="201691" />
+  <Preset Label="Be Appearance Styled (social_HairMakeUpChair_StyleAppearance_Hair)" Value="201734" />
+  <Preset Label="Salvage into Parts (si_object_electronics_salvage_SleepingPod)" Value="201761" />
+  <Preset Label="Risky Mop (stage_Solos_PirateMop_Content_RiskySuccess)" Value="201911" />
+  <Preset Label="Safe Mop (stage_Solos_PirateMop_Content_SafeSuccess)" Value="201912" />
+  <Preset Label="Get Mail (mailboxWall_GetMail_Influencer_Child)" Value="201923" />
+  <Preset Label="See What's Happening (reactions_Generic_Heckle_MakeItTrickle)" Value="201926" />
+  <Preset Label="Finish Scene (stage_Socials_PostAct_TreatPatient)" Value="202036" />
+  <Preset Label="Add to Squad (famePerks_Squad_RelationshipPanel_AskToJoin_OnLot)" Value="202050" />
+  <Preset Label="Remove From Squad (famePerks_Squad_RelationshipPanel_AskToLeave_OnLot)" Value="202051" />
+  <Preset Label="Take a Nap (sleepingPod_Interactions_Mischief_DreamsHacked_Nap)" Value="202053" />
+  <Preset Label="Steal Money from Vault (vault_WalkInSafe_Input_Steal)" Value="202056" />
+  <Preset Label="Steal Money from Vault (vault_WalkInSafe_Steal_Autonomous)" Value="202078" />
+  <Preset Label="Mount Crystal (CrystalHelmet_Crystal_Picker_Crystal)" Tags="TestUnsafe" Value="202082" />
+  <Preset Label="Mount Crystal (CrystalHelmet_MountCrystal_Crystal)" Value="202087" />
+  <Preset Label="Mount Crystal (CrystalHelmet_MountCrystal_MountAnimation_FromCrystal)" Value="202089" />
+  <Preset Label="Mount Crystal (CrystalHelmet_MountCrystal_MountAnimation_FromObject)" Value="202091" />
+  <Preset Label="Insta-Repair! (object_Knack_FixIt_SleepingPod)" Value="202111" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_SleepingPod)" Value="202112" />
+  <Preset Label="Demand Face-to-Face Meeting (relationshipPanel_Invite_Over_Feud)" Value="202123" />
+  <Preset Label="Risky Sword Fight (stage_Social_SwordFight_Home_Risky)" Value="202127" />
+  <Preset Label="Safe Sword Fight (stage_Social_SwordFight_Home_Safe)" Value="202128" />
+  <Preset Label="Admire &lt;I&gt;Fine&lt;/I&gt; Self (mirror_AdmireSelf_VainStreet_Vanity)" Value="202132" />
+  <Preset Label="Safe Sword Fight (stage_Socials_Picker_SwordFight_Home_Laser_Safe)" Tags="TestUnsafe" Value="202143" />
+  <Preset Label="Risky Sword Fight (stage_Socials_Picker_SwordFight_Home_Laser_Risky)" Tags="TestUnsafe" Value="202144" />
+  <Preset Label="Safe Sword Fight (stage_Socials_Picker_SwordFight_Home_Cutlass_Safe)" Tags="TestUnsafe" Value="202145" />
+  <Preset Label="Risky Sword Fight (stage_Socials_Picker_SwordFight_Home_Cutlass_Risky)" Tags="TestUnsafe" Value="202146" />
+  <Preset Label="Safe Sword Fight (stage_Socials_Picker_SwordFight_Home_Rapier_Safe)" Tags="TestUnsafe" Value="202147" />
+  <Preset Label="Risky Sword Fight (stage_Socials_Picker_SwordFight_Home_Rapier_Risky)" Tags="TestUnsafe" Value="202148" />
+  <Preset Label="Safe Sword Fight (stage_Socials_Picker_SwordFight_Home_Safe)" Tags="TestUnsafe" Value="202149" />
+  <Preset Label="Risky Sword Fight (stage_Socials_Picker_SwordFight_Home_Risky)" Tags="TestUnsafe" Value="202150" />
+  <Preset Label="React to Unfamous Sims (reactions_Generic_Disgusted_Celebrity_NearbySims)" Value="202162" />
+  <Preset Label="Break Out (vault_VaultDoor_BreakOut)" Value="202167" />
+  <Preset Label="Participate in Scene (actorCareer_LockUp_Suspect)" Value="202206" />
+  <Preset Label="Risky Lock Up (actorCareer_LockUp_Officer_Risky)" Value="202208" />
+  <Preset Label="Safe Lock Up (actorCareer_LockUp_Officer_Safe)" Value="202209" />
+  <Preset Label="Listen to Fan (celebrity_Socials_Celebrity_Ask)" Value="202240" />
+  <Preset Label="Transfer Videos to The More Views Video Station (videoStation_Editing_TransferFromStreamingDrone)" Value="202256" />
+  <Preset Label="autonomous_ObjectPicker_VideoStation_TransferFromStreamingDrone" Tags="TestUnsafe" Value="202257" />
+  <Preset Label="Reacting Negatively to Sim's Presence (reactions_Generic_Disgusted_FromObject_TerribleReputation)" Value="202277" />
+  <Preset Label="Reacting Positively to Sim's Presence (reactions_Generic_Cheer_Reputation_Pristine)" Value="202279" />
+  <Preset Label="Jam on the Guitar (attractorPointInteraction_Celebrity_PlayGuitar)" Value="202297" />
+  <Preset Label="Uh Oh... (Reactions_Scared_Vault_WalkInSafe_Trapped)" Value="202370" />
+  <Preset Label="Break Object (DEBUG) (sleepingPod_ImmediateInteractions_Debug_BreakObject)" Value="202406" />
+  <Preset Label="Off (sleepingPod_ImmediateInteractions_FloorLights_Off_display)" Value="202407" />
+  <Preset Label="denizenPond_Play_Mixers_Tricks_3" Value="202560" />
+  <Preset Label="denizenPond_Play_Mixers_Tricks_1" Value="202561" />
+  <Preset Label="denizenPond_Play_Mixers_Tricks_2" Value="202562" />
+  <Preset Label="Blue (immediateSI_Spotlight_lightColorSetting_display)" Value="202601" />
+  <Preset Label="attractorPoint_Interaction_Celebrity_Guitar" Value="202657" />
+  <Preset Label="autonomous_Celebrity_Guitar_Picker" Tags="TestUnsafe" Value="202659" />
+  <Preset Label="Recorded Videos (purchasePickerInteraction_debug_videoRecording)" Tags="TestUnsafe" Value="202762" />
+  <Preset Label="Listen (celebrity_Socials_Fan_Listen)" Value="202786" />
+  <Preset Label="Risky Death Scene (stage_Solos_DeathScene_Content_RiskyFail)" Value="202878" />
+  <Preset Label="Risky Death Scene (stage_Solos_DeathScene_Content_RiskySuccess)" Value="202879" />
+  <Preset Label="Share Personal Story (socials_Targeted_Celebrity_SharePersonalStory)" Tags="TestUnsafe" Value="202892" />
+  <Preset Label="See What's Happening (reactions_Generic_Excited_MusicProductionStation_ListenToTrack)" Value="203032" />
+  <Preset Label="Listen (social_HairMakeUpChair_Target)" Value="203083" />
+  <Preset Label="Listen (social_WardrobePedestal_Request_Target)" Value="203084" />
+  <Preset Label="actingSkill_Sing_Risky_Success" Value="203208" />
+  <Preset Label="actingSkill_Sing_Risky_Fail" Value="203209" />
+  <Preset Label="WFS Interaction (CelebrityTile_Deface_Cheer)" Value="203226" />
+  <Preset Label="Attempt Introduction (celebrity_AttemptIntroduction_Fail)" Value="203474" />
+  <Preset Label="Perform Comedy Scene (microphone_LoungeEvent_ActingRoutine_Comedy)" Value="203475" />
+  <Preset Label="Perform Musical Scene (microphone_LoungeEvent_ActingRoutine_Musical)" Value="203497" />
+  <Preset Label="Perform Dramatic Monologue (microphone_LoungeEvent_ActingRoutine_Dramatic)" Value="203498" />
+  <Preset Label="Use Celebrity Walkstyle (immediate_Fame_CelebrityWalkstyleToggle)" Value="204553" />
+  <Preset Label="immediate_ActorCareer_ReadyToPerform" Value="216553" />
+  <Preset Label="Record Video (videoStation_RecordVideo_CivicPolicy_Autonomous)" Value="234686" />
+  <Preset Label="celebrity_CheckNearbySimFame" Value="261750" />
+</PresetGroup>

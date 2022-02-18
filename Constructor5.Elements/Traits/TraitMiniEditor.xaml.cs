@@ -16,6 +16,11 @@ namespace Constructor5.Elements.Traits
             var info = trait.GetTraitComponent<TraitInfoComponent>();
             NameDescriptionIcon.DataContext = info;
             Type.DataContext = info;
+
+            if (tag == "ShowOrigin")
+            {
+                TraitOrigin.Visibility = System.Windows.Visibility.Visible;
+            }
         }
     }
 }

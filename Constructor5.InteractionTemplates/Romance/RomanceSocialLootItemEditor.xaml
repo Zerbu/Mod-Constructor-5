@@ -9,12 +9,12 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:CheckBox Content="Run when the interaction greatly succeeds" IsChecked="{Binding RunOnGreatSuccess}" />
-        <c:CheckBox Content="Run when the interaction succeeds normally" IsChecked="{Binding RunOnSuccess}" />
-        <c:CheckBox Content="Run when the interaction fails normally" IsChecked="{Binding RunOnFailure}" />
-        <c:CheckBox Content="Run when the interaction fails horribly" IsChecked="{Binding RunOnHorribleFailure}" />
+        <c:CheckBox Content="RunWhenInteractionGreatlySucceeds" IsChecked="{Binding RunOnGreatSuccess}" />
+        <c:CheckBox Content="RunWhenInteractionSuccessNormally" IsChecked="{Binding RunOnSuccess}" />
+        <c:CheckBox Content="RunWhenInteractionFailsNormally" IsChecked="{Binding RunOnFailure}" />
+        <c:CheckBox Content="RunWhenInteractionFailsHorribly" IsChecked="{Binding RunOnHorribleFailure}" />
         <c:CheckBox IsChecked="{Binding RunOnSocialContextFailure}">
-            <c:TextBlock Text="Run when the interaction fails due to social context (EA considers this the worst type of failure)" />
+            <c:TextBlock Text="RunOnSocialContextFailure" />
         </c:CheckBox>
     </StackPanel>
 </UserControl>

@@ -10,7 +10,15 @@ namespace Constructor5.Elements.ObjectiveSets
     {
         public ObjectiveSetEditor() => InitializeComponent();
 
-        void IObjectEditor.SetObject(object obj, string tag) => DataContext = obj;
+        void IObjectEditor.SetObject(object obj, string tag)
+        {
+            DataContext = obj;
+            if (tag == "Career")
+            {
+                DisplayNameField.Visibility = System.Windows.Visibility.Collapsed;
+                LabelField.Visibility = System.Windows.Visibility.Visible;
+            }
+        }
 
         private Element ReferenceListControl_CreateElementFunction()
         {

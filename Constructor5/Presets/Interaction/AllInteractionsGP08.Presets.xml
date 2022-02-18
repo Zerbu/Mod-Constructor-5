@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions GP08">
+  <Preset Label="superInteraction_MagicSage_GoToArea_Mischief" Value="212930" />
+  <Preset Label="superInteraction_MagicSage_GoToArea_Practical" Value="213137" />
+  <Preset Label="superInteraction_MagicSage_GoToArea_Untamed" Value="213138" />
+  <Preset Label="Deliriate (spells_Sim_Confuse)" Value="213255" />
+  <Preset Label="spells_StopTarget" Value="213311" />
+  <Preset Label="Deliriate (spells_Sim_Pusher_Confuse)" Value="213312" />
+  <Preset Label="Wander Aimlessly (waypoint_Spells_Sim_Confuse_BeConfused)" Value="213315" />
+  <Preset Label="Despairio (spells_Sim_Sadness)" Value="213351" />
+  <Preset Label="Search For Tomes (spells_SearchForTomes)" Value="213387" />
+  <Preset Label="Despairio (spells_Sim_Pusher_Sadness)" Value="213406" />
+  <Preset Label="Drink (drink_Cauldron_Potion)" Value="213432" />
+  <Preset Label="cauldron_Potion_CreatePotion" Value="213437" />
+  <Preset Label="Brew Potion (cauldron_Potion_StartCrafting)" Value="213438" />
+  <Preset Label="Burgliate (spells_Object_Steal)" Value="213485" />
+  <Preset Label="Copypasto (spells_Object_Duplicate)" Value="213491" />
+  <Preset Label="Study Magical Tome (spells_MagicTome_Read)" Value="213494" />
+  <Preset Label="mixer_Spells_MagicTome_Read_Active" Value="213521" />
+  <Preset Label="Dedeathify (spells_Sim_Pusher_Resurrect)" Value="213525" />
+  <Preset Label="Dedeathify (spells_Sim_Resurrect)" Value="213527" />
+  <Preset Label="Morphiate (spells_Sim_Pusher_Transformation)" Value="213538" />
+  <Preset Label="Morphiate (spells_Sim_Transform)" Value="213546" />
+  <Preset Label="mixer_Spells_MagicTome_Read_Passive" Value="213555" />
+  <Preset Label="Deliriate (spells_Sim_Confuse_SpectralReach)" Value="213585" />
+  <Preset Label="Add Dragon Familiar (debug_Familiars_Bind_Dragon)" Value="213601" />
+  <Preset Label="Magic Objects (setupLot_MagicObjects)" Value="213614" />
+  <Preset Label="Cauldron Potion (debugCreateCraftable_Cauldron_Potion)" Value="213616" />
+  <Preset Label="Summon Familiar (familiarPickerInteraction)" Tags="TestUnsafe" Value="213717" />
+  <Preset Label="Ask To Teach Mischief Magic (social_Spells_TeachSpell_Category)" Value="213830" />
+  <Preset Label="Ask To Teach Ultimate Mischief Spell (social_Spells_TeachSpell_UltimateSpell)" Value="213831" />
+  <Preset Label="cauldron_Brew_FastProgress" Value="213837" />
+  <Preset Label="Discard Content (cauldron_DiscardContents)" Value="213844" />
+  <Preset Label="idle_Buff_Cauldron_Potion_Vomit" Value="213894" />
+  <Preset Label="mixer_Cauldron_Brew" Value="213947" />
+  <Preset Label="cauldron_Done_Potion" Value="213968" />
+  <Preset Label="familiar_follow_dragon" Value="213971" />
+  <Preset Label="mixer_Cauldron_Stir" Value="213987" />
+  <Preset Label="Inferniate (spells_Sim_Pusher_Fire)" Value="213989" />
+  <Preset Label="Inferniate (spells_Sim_Fire)" Value="213991" />
+  <Preset Label="Inferniate (spells_Object_Fire)" Value="213994" />
+  <Preset Label="mixer_Cauldron_Idles" Value="214004" />
+  <Preset Label="Bottle Up (cauldron_BottleUp)" Value="214005" />
+  <Preset Label="Help with Potion Brew (cauldron_HelpBrew)" Value="214018" />
+  <Preset Label="Transportalate (spells_Terrain_Teleport)" Value="214026" />
+  <Preset Label="Delicioso (spells_Terrain_ConjureFood)" Value="214030" />
+  <Preset Label="Resume {0.String} (craftingResume_Cauldron)" Value="214044" />
+  <Preset Label="Put Down (Cauldron_Put_In_Inventory)" Value="214066" />
+  <Preset Label="Delicioso (spells_Object_Unspoil_Food)" Value="214072" />
+  <Preset Label="Grand Delicioso (spells_Terrain_ConjureFood_Grand)" Value="214089" />
+  <Preset Label="cauldron_Brew_MediumProgress" Value="214101" />
+  <Preset Label="cauldron_Brew_SlowProgress" Value="214102" />
+  <Preset Label="cauldron_Brew_SlowestProgress" Value="214103" />
+  <Preset Label="mixer_Cauldron_NonCrafting_Brew" Value="214116" />
+  <Preset Label="mixer_Cauldron_NonCrafting_Idles" Value="214117" />
+  <Preset Label="mixer_Cauldron_NonCrafting_Stir" Value="214118" />
+  <Preset Label="Invite to Brew Potions (cauldron_InviteToHelpBrew)" Tags="TestUnsafe" Value="214191" />
+  <Preset Label="familiar_follow_skull" Value="214278" />
+  <Preset Label="familiar_follow_voidcritter" Value="214279" />
+  <Preset Label="familiar_follow_voodooDoll" Value="214280" />
+  <Preset Label="familiar_follow_fairy" Value="214281" />
+  <Preset Label="familiar_follow_frog" Value="214282" />
+  <Preset Label="familiar_follow_bunnerfly" Value="214283" />
+  <Preset Label="familiar_follow_phoenix" Value="214284" />
+  <Preset Label="familiar_follow_owl" Value="214285" />
+  <Preset Label="Floralorial (spells_Object_Gardening)" Value="214305" />
+  <Preset Label="Use the Power of Forced Friendships (socials_Cauldron_Potion_Effect_UseBFFPower)" Tags="TestUnsafe" Value="214310" />
+  <Preset Label="Use the Power of Transcendent Charmer (socials_Cauldron_Potion_Effect_UseLovePower)" Tags="TestUnsafe" Value="214311" />
+  <Preset Label="Use the Power of Masterful Insults  (socials_Cauldron_Potion_Effect_UseHatePower)" Tags="TestUnsafe" Value="214313" />
+  <Preset Label="Add Skull Familiar (debug_Familiars_Bind_Skull)" Value="214334" />
+  <Preset Label="Add Voidcritter Familiar (debug_Familiars_Bind_Voidcritter)" Value="214335" />
+  <Preset Label="Add Phoenix Familiar (debug_Familiars_Bind_Phoenix)" Value="214336" />
+  <Preset Label="Add Voodoo Doll Familiar (debug_Familiars_Bind_VoodooDoll)" Value="214337" />
+  <Preset Label="Add Fairy Familiar (debug_Familiars_Bind_Fairy)" Value="214338" />
+  <Preset Label="Add Frog Familiar (debug_Familiars_Bind_Frog)" Value="214339" />
+  <Preset Label="Add Bunnerfly Familiar (debug_Familiars_Bind_Bunnerfly)" Value="214340" />
+  <Preset Label="Add Owl Familiar (debug_Familiars_Bind_Owl)" Value="214341" />
+  <Preset Label="Experiment (cauldron_Experiment)" Value="214381" />
+  <Preset Label="mixer_Cauldron_NonCrafting_Eureka" Value="214388" />
+  <Preset Label="Herbio (spells_Object_Revive_Plant)" Value="214421" />
+  <Preset Label="Give Potion (sim_GivePotion_Picker)" Tags="TestUnsafe" Value="214452" />
+  <Preset Label="Give Potion (si_Touching_GivePotion)" Value="214453" />
+  <Preset Label="Herbio (spells_Terrain_Spawn_Plant)" Value="214455" />
+  <Preset Label="Bottle Up All (cauldron_BottleUpAll)" Value="214461" />
+  <Preset Label="Drink From (cauldron_DrinkFrom)" Value="214505" />
+  <Preset Label="Drink (drink_Cauldron_Potion_FromCauldron)" Value="214561" />
+  <Preset Label="Bind Raven Familiar (debug_Familiars_Bind_Raven)" Value="214697" />
+  <Preset Label="familiar_follow_raven" Value="214698" />
+  <Preset Label="Dismiss Familiar (immediate_Familiars_Dismiss)" Value="214778" />
+  <Preset Label="Dismiss Familiar (immediate_Familiars_Dismiss_OnFamiliar)" Value="214780" />
+  <Preset Label="Always Transportalate (spells_Self_Teleport_Toggle)" Value="214833" />
+  <Preset Label="Is this...MAGIC?! (spells_Reaction_SeeMagic)" Value="214901" />
+  <Preset Label="mixer_Spells_MagicTome_Read_Active_UseMagic" Value="214913" />
+  <Preset Label="mixer_Spells_MagicTome_Read_Passive_UseMagic" Value="214914" />
+  <Preset Label="Study Magical Tome (spells_MagicTome_Read_UseMagic)" Value="214919" />
+  <Preset Label="cauldron_Potion_Immortality_Success_MakeImmortal" Value="214928" />
+  <Preset Label="cauldron_Potion_Immortality_Failure_BecomeGhost" Value="214932" />
+  <Preset Label="cauldron_Potion_Immortality_Failure_Resurrect" Value="214933" />
+  <Preset Label="Transportalate to The Magic Realm (spells_Self_Travel_To_Magic_HQ)" Value="214935" />
+  <Preset Label="Transportalate to The Magic Realm (goToSpecificLotTravelInteraction_Magic_HQ_Fail)" Value="214937" />
+  <Preset Label="Transportalate to The Magic Realm (goToSpecificLotTravelInteraction_Magic_HQ)" Value="214966" />
+  <Preset Label="On Fire (spells_Effects_Sim_Fire)" Value="214973" />
+  <Preset Label="Practice Mischief Magic (spells_PracticeSpellcasting_Mischief)" Value="214975" />
+  <Preset Label="Practice Untamed Magic (spells_PracticeSpellcasting_Untamed)" Value="214976" />
+  <Preset Label="Practice Practical Magic (spells_PracticeSpellcasting_Practical)" Value="214977" />
+  <Preset Label="mixer_Spells_PracticeSpellcasting_Idle" Value="214982" />
+  <Preset Label="mixer_Spells_PracticeSpellcasting_Practice" Value="214983" />
+  <Preset Label="Zipzap (spells_Sim_Lightning)" Value="215005" />
+  <Preset Label="Electrocuted (spells_Effects_Lightning)" Value="215006" />
+  <Preset Label="Zipzap (spells_Sim_Pusher_Lightning)" Value="215016" />
+  <Preset Label="Zipzap (spells_Object_Lightning)" Value="215025" />
+  <Preset Label="Turn Into Spellcaster (debug_WitchOccult_AddOccult)" Value="215077" />
+  <Preset Label="Fawn (reaction_Mixers_Cauldron_Potion_Effect_Pheromone_Fawn)" Value="215092" />
+  <Preset Label="Be Disgusted (reaction_Mixers_Cauldron_Potion_Effect_Pheromone_Disgusted)" Value="215097" />
+  <Preset Label="Fawn (reactions_Cauldron_Potion_Effect_Pheromone_Fawn)" Value="215103" />
+  <Preset Label="Be Disgusted (reactions_Cauldron_Potion_Effect_Pheromone_Disgusted)" Value="215104" />
+  <Preset Label="Spawn Clone (spawnClone_Debug)" Value="215112" />
+  <Preset Label="run_clone_situation" Value="215114" />
+  <Preset Label="Bind as Familiar (Debug_Familiars_Bind_Pet)" Value="215117" />
+  <Preset Label="Unlock All Spells (debug_WitchOccult_UnlockAllSpells)" Value="215128" />
+  <Preset Label="Ask How to Use Magic (social_WitchOccult_AskHowToUseMagic)" Value="215147" />
+  <Preset Label="reactions_Curses_Repulsiveness_Disgust" Value="215154" />
+  <Preset Label="solo_TemporaryClone_Leave" Value="215161" />
+  <Preset Label="Inferniate (spells_Terrain_Fire)" Value="215178" />
+  <Preset Label="Exist in Object Form (spells_Effects_GetTransformedIntoObject_SpellTarget)" Value="215182" />
+  <Preset Label="Exist in Object Form (spells_Effects_GetTransformedIntoObject_SpellTarget_Long)" Value="215183" />
+  <Preset Label="Exist in Object Form (spells_Effects_GetTransformedIntoObject_Self)" Value="215184" />
+  <Preset Label="Ask For Mote Sight (social_WitchOccult_AskForMoteSight)" Value="215185" />
+  <Preset Label="reactions_Curses_Repulsiveness_Vomit" Value="215189" />
+  <Preset Label="Collect Mote (witchOccult_MagicMote_Collect)" Value="215204" />
+  <Preset Label="Perform Rite of Ascension (social_WitchOccult_RiteOfAscension)" Value="215205" />
+  <Preset Label="Be Transformed Into Spellcaster (social_WitchOccult_RiteOfAscension_Target)" Value="215206" />
+  <Preset Label="Destroy Mote (witchOccult_MagicMote_Destroy)" Value="215211" />
+  <Preset Label="Turn In Motes (social_WitchOccult_TurnInMotes)" Value="215220" />
+  <Preset Label="Furio (spells_Sim_Fight)" Value="215260" />
+  <Preset Label="Ask For Rite Of Dissolution (social_WitchOccult_RiteOfDissolution)" Value="215270" />
+  <Preset Label="Furio (simPicker_Spells_Fight)" Tags="TestUnsafe" Value="215283" />
+  <Preset Label="Fight! (mixer_social_Fight_targeted_mean_PunchableFace)" Tags="TestUnsafe" Value="215293" />
+  <Preset Label="Fight! (spells_Effects_Sim_Fight)" Value="215297" />
+  <Preset Label="Controlled to Fight (socialSuperInteraction_Magic_Fight_Spell)" Value="215318" />
+  <Preset Label="Be Trained (witchOccult_MagicTraining_Train)" Value="215364" />
+  <Preset Label="Train {1.SimFirstName} (witchOccult_MagicTraining_Mentor)" Value="215365" />
+  <Preset Label="Infatuate (simPicker_Spells_Love)" Tags="TestUnsafe" Value="215394" />
+  <Preset Label="Infatuate (spells_Sim_Love)" Value="215398" />
+  <Preset Label="Infatuate (socialSuperInteraction_Magic_Love_Spell)" Value="215402" />
+  <Preset Label="Build Charge (witchOccult_BuildCharge)" Value="215418" />
+  <Preset Label="Discharge (witchOccult_Discharge)" Value="215419" />
+  <Preset Label="Touchy Feely (autonomousSimPicker_Curses_TouchyFeely)" Tags="TestUnsafe" Value="215438" />
+  <Preset Label="Send to Forage (immediate_Familiars_SendToForage_OnSim)" Value="215440" />
+  <Preset Label="Send to Forage (immediate_Familiars_SendToForage_OnFamiliar)" Value="215442" />
+  <Preset Label="Bind Familiar (familiar_bind_bunnerfly)" Value="215445" />
+  <Preset Label="Bind Familiar (familiar_bind_dragon)" Value="215446" />
+  <Preset Label="Bind Familiar (familiar_bind_fairy)" Value="215447" />
+  <Preset Label="Bind Familiar (familiar_bind_frog)" Value="215448" />
+  <Preset Label="Bind Familiar (familiar_bind_owl)" Value="215449" />
+  <Preset Label="Bind Familiar (familiar_bind_phoenix)" Value="215450" />
+  <Preset Label="Bind Familiar (familiar_bind_raven)" Value="215451" />
+  <Preset Label="Bind Familiar (familiar_bind_skull)" Value="215452" />
+  <Preset Label="Bind Familiar (familiar_bind_voidcritter)" Value="215453" />
+  <Preset Label="Bind Familiar (familiar_bind_voodooDoll)" Value="215454" />
+  <Preset Label="Bind Pet as Familiar (spells_Sim_FamiliarBind)" Value="215469" />
+  <Preset Label="Bind Pet as Familiar (spells_Sim_Pusher_BindFamiliar)" Value="215471" />
+  <Preset Label="immediate_Curses_Pusher_TouchyFeely" Value="215472" />
+  <Preset Label="See Overcharged Sim (witchOccult_Charge_Reaction)" Value="215474" />
+  <Preset Label="Chillio (spells_Sim_Pusher_Freeze)" Value="215475" />
+  <Preset Label="Chillio (spells_Sim_Freeze)" Value="215477" />
+  <Preset Label="Chillio-ed (spells_Effects_Sim_Freeze)" Value="215479" />
+  <Preset Label="Terrified by Overcharged Sim (witchOccult_Charge_Reaction_RunAway)" Value="215484" />
+  <Preset Label="Repairio (spells_Object_Repair_Fix)" Value="215504" />
+  <Preset Label="idle_Buff_Curses_SweatyStench" Value="215515" />
+  <Preset Label="Repairio (spells_Object_Repair_Craftable)" Value="215545" />
+  <Preset Label="Receive Potion (si_Touching_ReceivePotion)" Value="215563" />
+  <Preset Label="Rename Familiar (nameFamiliarInteraction)" Value="215564" />
+  <Preset Label="Rename Familiar (nameFamiliarInteraction_onFamiliar)" Value="215566" />
+  <Preset Label="Chillio-ed (spells_Effects_Sim_Freeze_Charged)" Value="215593" />
+  <Preset Label="Scruberoo (spells_Object_Clean_DestroyObject)" Value="215596" />
+  <Preset Label="Scruberoo (spells_Object_Clean_DirtyObject)" Value="215597" />
+  <Preset Label="Scruberoo (spells_Sim_Clean)" Value="215599" />
+  <Preset Label="Scruberoo (spells_Self_Clean)" Value="215601" />
+  <Preset Label="Chillio (spells_Object_Freeze)" Value="215616" />
+  <Preset Label="Chillio (fire_Extinguish_freeze_spell)" Value="215653" />
+  <Preset Label="Necrocall (spells_Object_SummonGhost)" Value="215667" />
+  <Preset Label="Call Forth Ghost (urnstone_Spell_SummonGhost_Fail)" Value="215670" />
+  <Preset Label="ghost_Spell_SummonGhost_Fail_PushFight" Value="215675" />
+  <Preset Label="Fight! (mixer_social_Fight_targeted_SummonGhost_Fail)" Tags="TestUnsafe" Value="215676" />
+  <Preset Label="mixer_WitchOccult_Charge_ApplyFX" Value="215734" />
+  <Preset Label="reaction_Curses_CurseAdded" Value="215785" />
+  <Preset Label="cauldron_Brew_Collapse" Value="215818" />
+  <Preset Label="cauldron_Cook" Value="215868" />
+  <Preset Label="mixer_Cauldron_Cook" Value="215875" />
+  <Preset Label="mixer_Cauldron_Cook_Idles" Value="215877" />
+  <Preset Label="mixer_Cauldron_Cook_Stir" Value="215878" />
+  <Preset Label="cauldron_Done_Food" Value="215879" />
+  <Preset Label="Grab a Serving (cauldron_GrabServing)" Value="215883" />
+  <Preset Label="Cook (cauldron_Food_StartCrafting)" Value="215889" />
+  <Preset Label="Duplicato (spells_Self_Clone)" Value="215912" />
+  <Preset Label="Command to Clean (spells_Effects_Control_Clone_Clean)" Value="215929" />
+  <Preset Label="cauldron_Start_Potion" Value="215930" />
+  <Preset Label="cauldron_Start_Food" Value="215933" />
+  <Preset Label="Break into Uncontrollable Laughter (curses_InfectiousLaughter_StartLaughing)" Value="215935" />
+  <Preset Label="immediate_Curses_InfectiousLaughter_SpreadChance" Value="215960" />
+  <Preset Label="Command to Cook (spells_Effects_Control_Clone_Cook)" Value="215968" />
+  <Preset Label="Command to Fight (spells_Effects_Control_Clone_Fight)" Value="215969" />
+  <Preset Label="Decursify (picker_Trait_Spells_Decurse)" Tags="TestUnsafe" Value="215983" />
+  <Preset Label="Decursify (spells_Self_RemoveCurse)" Value="215985" />
+  <Preset Label="Cast...Something? (spells_WildMagic_ChooseSpell_Sim)" Value="216049" />
+  <Preset Label="Cast...Something? (spells_WildMagic_ChooseSpell_Object)" Value="216051" />
+  <Preset Label="Command to Fight (simPicker_Magic_Clone_Fight)" Tags="TestUnsafe" Value="216064" />
+  <Preset Label="Browse Books (superInteraction_MagicHQ_BrowseBooks_Autonomous)" Value="216125" />
+  <Preset Label="run_clone_situation_fail" Value="216127" />
+  <Preset Label="Minionize (spells_Sim_MindControl)" Value="216132" />
+  <Preset Label="Discuss Casting Techniques (social_MagicHQ_Lecture_Autonomous)" Value="216150" />
+  <Preset Label="Snap Out of It (touching_Social_Spells_MindControl_SlapOut)" Value="216161" />
+  <Preset Label="Snap Out of It (touching_Social_Spells_MindControl_SlapOut_Listen)" Value="216162" />
+  <Preset Label="Ask to Teach a Potion Recipe (social_Potions_AskToTeachPotionRecipe)" Value="216166" />
+  <Preset Label="Experiment (cauldron_Experiment_Autonomous)" Value="216189" />
+  <Preset Label="superInteraction_MagicHQ_BeAmazed_Autonomous" Value="216194" />
+  <Preset Label="Cast...Something? (spells_WildMagic_ChooseSpell_Self)" Value="216242" />
+  <Preset Label="Cast...Something? (spells_WildMagic_ChooseSpell_Terrain)" Value="216255" />
+  <Preset Label="Learn all Cauldron Potions (debug_WitchOccult_UnlockAllPotions)" Value="216257" />
+  <Preset Label="Magic Duel (social_MagicDuel)" Value="216271" />
+  <Preset Label="Magic Duel (social_MagicDuel_Listen)" Value="216272" />
+  <Preset Label="Disobedient Clone (socialSuperInteraction_Magic_Clone_Fail_NoTouching)" Value="216274" />
+  <Preset Label="Discuss New Potion (social_Potions_AskToTeachPotionRecipe_DiscussNewPotion)" Value="216306" />
+  <Preset Label="idle_Buff_Curses_NightStalker_Stalker" Value="216311" />
+  <Preset Label="si_Curses_NightStalker_Summon" Value="216320" />
+  <Preset Label="Rebellious Clone Fight (socialSuperInteraction_Magic_Fight_Clone_Autonomous)" Value="216323" />
+  <Preset Label="spells_Effects_Control_Clone_Fail_Break_Objects" Value="216324" />
+  <Preset Label="run_situation_clone_charged" Value="216361" />
+  <Preset Label="nightStalker_Scream" Value="216365" />
+  <Preset Label="Clean (spells_Effects_MindControl_Command_Clean)" Value="216401" />
+  <Preset Label="Make Food (spells_Effects_MindControl_Command_Cook)" Value="216403" />
+  <Preset Label="Go to Sleep (spells_Effects_MindControl_Command_Sleep)" Value="216405" />
+  <Preset Label="Be Fought (socialSuperInteraction_Magic_Spell_Be_Fought)" Value="216410" />
+  <Preset Label="Disobedient Clone (socialSuperInteraction_Magic_Clone_Fail_Touching)" Value="216414" />
+  <Preset Label="Being Chased By Wraith (generic_RunAway_Sim_ChasedByNightStalker)" Value="216418" />
+  <Preset Label="si_Curses_NightStalker_Stalker_FloatAround" Value="216506" />
+  <Preset Label="Strangeify (spells_Sim_Change_Appearance)" Value="216511" />
+  <Preset Label="Strangeify (spells_Sim_Pusher_Change_Appearance)" Value="216512" />
+  <Preset Label="Unbind Familiar (familiarPickerInteraction_unbind)" Tags="TestUnsafe" Value="216515" />
+  <Preset Label="npc_Leave_Lot_NightStalker" Value="216545" />
+  <Preset Label="Dedeathify (spells_Effects_Resurrect)" Value="216565" />
+  <Preset Label="Give Curse (picker_Trait_Debug_GiveCurse)" Tags="TestUnsafe" Value="216574" />
+  <Preset Label="Travel to The Magic Realm (rabbitHole_MagicPortal_Travel_ToMagicRealm)" Value="216596" />
+  <Preset Label="go_To_Specific_Lot_MagicPortal_ToMagicRealm" Value="216598" />
+  <Preset Label="go_To_Specific_Lot_MagicPortal_FromMagicRealm" Value="216599" />
+  <Preset Label="Return to Glimmerbrook (rabbitHole_MagicPortal_FromMagicRealm)" Value="216600" />
+  <Preset Label="Electrocuted (spells_Effects_Lightning_Charged)" Value="216602" />
+  <Preset Label="Strangeify (spells_Sim_Change_Appearance_SpectralReach)" Value="216614" />
+  <Preset Label="Scruberoo (spells_Sim_Clean_SpectralReach)" Value="216615" />
+  <Preset Label="Furio (spells_Sim_Fight_SpectralReach)" Value="216616" />
+  <Preset Label="reactions_Curses_NightStalker_Scared" Value="216617" />
+  <Preset Label="Controlled to Fight (socialSuperInteraction_Magic_Fight_Spell_Charged)" Value="216619" />
+  <Preset Label="Infatuate (socialSuperInteraction_Magic_Love_Spell_Charged)" Value="216622" />
+  <Preset Label="Sim Spells/Potions Temporarily (Almost) Always Fails (immediate_Spells_Debug_OutcomeChance_Fail)" Value="216658" />
+  <Preset Label="Sim Spells/Potions Temporarily Always Succeed (immediate_Spells_Debug_OutcomeChance_Succeed)" Value="216659" />
+  <Preset Label="Luck Potion - Interactions Give Money (spells_Debug_OutcomeChance_LuckPotion_RandomBenefit_AlwaysMoney)" Value="216801" />
+  <Preset Label="Luck Potion - Interactions Give Objects (spells_Debug_OutcomeChance_LuckPotion_RandomBenefit_AlwaysObjects)" Value="216802" />
+  <Preset Label="attractorPoint_Magic_DuelistMeetUp" Value="216834" />
+  <Preset Label="Inferniate (spells_Sim_Fire_SpectralReach)" Value="216897" />
+  <Preset Label="Chillio (spells_Sim_Freeze_SpectralReach)" Value="216898" />
+  <Preset Label="Bind Pet as Familiar (spells_Sim_FamiliarBind_SpectralReach)" Value="216900" />
+  <Preset Label="Zipzap (spells_Sim_Lightning_SpectralReach)" Value="216901" />
+  <Preset Label="Infatuate (spells_Sim_Love_SpectralReach)" Value="216902" />
+  <Preset Label="Minionize (spells_Sim_MindControl_SpectralReach)" Value="216903" />
+  <Preset Label="Dedeathify (spells_Sim_Resurrect_SpectralReach)" Value="216904" />
+  <Preset Label="Despairio (spells_Sim_Sadness_SpectralReach)" Value="216905" />
+  <Preset Label="Morphiate (spells_Sim_Transform_SpectralReach)" Value="216906" />
+  <Preset Label="Delicioso (spells_Terrain_ConjureFood_SpectralReach)" Value="216908" />
+  <Preset Label="Grand Delicioso (spells_Terrain_ConjureFood_Grand_SpectralReach)" Value="216910" />
+  <Preset Label="Inferniate (spells_Terrain_Fire_SpectralReach)" Value="216911" />
+  <Preset Label="Herbio (spells_Terrain_Spawn_Plant_SpectralReach)" Value="216912" />
+  <Preset Label="Scruberoo (spells_Object_Clean_DestroyObject_SpectralReach)" Value="216915" />
+  <Preset Label="Scruberoo (spells_Object_Clean_DirtyObject_SpectralReach)" Value="216917" />
+  <Preset Label="Copypasto (spells_Object_Duplicate_SpectralReach)" Value="216918" />
+  <Preset Label="Inferniate (spells_Object_Fire_SpectralReach)" Value="216919" />
+  <Preset Label="Floralorial (spells_Object_Gardening_SpectralReach)" Value="216921" />
+  <Preset Label="Zipzap (spells_Object_Lightning_SpectralReach)" Value="216922" />
+  <Preset Label="Repairio (spells_Object_Repair_Craftable_SpectralReach)" Value="216924" />
+  <Preset Label="Repairio (spells_Object_Repair_Fix_SpectralReach)" Value="216926" />
+  <Preset Label="Herbio (spells_Object_Revive_Plant_SpectralReach)" Value="216927" />
+  <Preset Label="Burgliate (spells_Object_Steal_SpectralReach)" Value="216928" />
+  <Preset Label="Necrocall (spells_Object_SummonGhost_SpectralReach)" Value="216929" />
+  <Preset Label="Delicioso (spells_Object_Unspoil_Food_SpectralReach)" Value="216930" />
+  <Preset Label="Burgliate (spells_Effects_Steal_Success)" Value="216934" />
+  <Preset Label="Burgliate (spells_Effects_Steal_Charged)" Value="216935" />
+  <Preset Label="Burgliate (spells_Effects_Steal_Fail)" Value="216936" />
+  <Preset Label="Return to Glimmerbrook With (rabbitHole_MagicPortal_Picker_FromMagicRealm)" Tags="TestUnsafe" Value="216938" />
+  <Preset Label="Travel to The Magic Realm With (rabbitHole_MagicPortal_Picker_ToMagicRealm)" Tags="TestUnsafe" Value="216939" />
+  <Preset Label="reactions_Curses_Repulsiveness_GetBuff" Value="216941" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_Magic_Wand)" Value="216943" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_Magic_Broom)" Value="216944" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Craft_Magic_Reagent)" Value="216945" />
+  <Preset Label="Buy Wands, Tomes, &amp; Familiars (marketStalls_ShopFor_Magic_Wand)" Value="216946" />
+  <Preset Label="Buy Brooms &amp; Crystals (marketStalls_ShopFor_Magic_Broom)" Value="216947" />
+  <Preset Label="Buy Potion Ingredients (marketStalls_ShopFor_Magic_Reagent)" Value="216948" />
+  <Preset Label="Wands, Tomes, &amp; Familiars (purchase_MarketStalls_Magic_Wand)" Tags="TestUnsafe" Value="216950" />
+  <Preset Label="Brooms &amp; Crystals (purchase_MarketStalls_Magic_Broom)" Tags="TestUnsafe" Value="216951" />
+  <Preset Label="Potion Ingredients (purchase_MarketStalls_Magic_Reagent)" Tags="TestUnsafe" Value="216952" />
+  <Preset Label="Spellcaster Overload (witchOverload_Overload)" Value="216956" />
+  <Preset Label="Death By Spellcaster Overload (death_WitchOverload)" Value="216969" />
+  <Preset Label="familiar_PetTeleport" Value="216972" />
+  <Preset Label="Evolve (spells_Effects_Revive_Plant_Charged)" Value="216978" />
+  <Preset Label="autonomousSimPicker_FamiliarMaster_TeleportToMaster" Tags="TestUnsafe" Value="216986" />
+  <Preset Label="familiar_resurrect" Value="216987" />
+  <Preset Label="Inferniate (spells_Sim_Fire_Unfreeze)" Value="216991" />
+  <Preset Label="Inferniate (spells_Sim_Fire_Unfreeze_SpectralReach)" Value="216992" />
+  <Preset Label="autonomousSimPicker_MagicVenueNPC_Duel" Tags="TestUnsafe" Value="217037" />
+  <Preset Label="Go to Dueling Grounds (magicPortal_Teleport_HQtoDueling)" Value="217039" />
+  <Preset Label="React to Overload (witchOverload_Reaction)" Value="217056" />
+  <Preset Label="Give Potion Ingredients (debugImmediate_GiveCauldronPotionIngredientsActor)" Value="217091" />
+  <Preset Label="Return to HQ (magicPortal_Teleport_VistatoHQ)" Value="217096" />
+  <Preset Label="Return to HQ (magicPortal_Teleport_DuelingtoHQ)" Value="217097" />
+  <Preset Label="Return to HQ (magicPortal_Teleport_MarkettoHQ)" Value="217098" />
+  <Preset Label="Go to Gardens (magicPortal_Teleport_HQtoVista)" Value="217100" />
+  <Preset Label="Go to Casters Alley (magicPortal_Teleport_HQtoMarket)" Value="217101" />
+  <Preset Label="teleportStyleSuperInteraction_WitchBroom_Automatic" Value="217152" />
+  <Preset Label="Fly Here (teleportStyleSuperInteraction_WitchBroom_UserDirected)" Value="217153" />
+  <Preset Label="Herbio (spells_Object_Spawn_Plant)" Value="217163" />
+  <Preset Label="mixer_WitchOverload_Idle" Value="217175" />
+  <Preset Label="Absorb Mote (witchOccult_MoteHound_Eat)" Value="217180" />
+  <Preset Label="Herbio (spells_Object_Spawn_Plant_SpectralReach)" Value="217191" />
+  <Preset Label="Heated Duel (socials_Targeted_MagicDuel_Start_Heated)" Tags="TestUnsafe" Value="217282" />
+  <Preset Label="autonomousSimPicker_MagicDuel_Ghost_WitchOverload" Tags="TestUnsafe" Value="217288" />
+  <Preset Label="Challenge to Heated Duel (socials_Targeted_MagicDuel_Start_Heated_Challenge)" Tags="TestUnsafe" Value="217294" />
+  <Preset Label="Friendly Duel (socials_Targeted_MagicDuel_Start_Friendly)" Tags="TestUnsafe" Value="217306" />
+  <Preset Label="Challenge to Friendly Duel (socials_Targeted_MagicDuel_Start_Friendly_Challenge)" Tags="TestUnsafe" Value="217307" />
+  <Preset Label="Duel for Artifacts (socials_Targeted_MagicDuel_Start_Artifacts)" Tags="TestUnsafe" Value="217308" />
+  <Preset Label="Challenge to Duel for Artifacts (socials_Targeted_MagicDuel_Start_Artifacts_Challenge)" Tags="TestUnsafe" Value="217309" />
+  <Preset Label="Duel for Ingredients (socials_Targeted_MagicDuel_Start_Items)" Tags="TestUnsafe" Value="217310" />
+  <Preset Label="Challenge to Duel for Ingredients (socials_Targeted_MagicDuel_Start_Items_Challenge)" Tags="TestUnsafe" Value="217311" />
+  <Preset Label="Duel for Knowledge (socials_Targeted_MagicDuel_Start_Knowledge)" Tags="TestUnsafe" Value="217312" />
+  <Preset Label="Challenge to Duel for Knowledge (socials_Targeted_MagicDuel_Start_Knowledge_Challenge)" Tags="TestUnsafe" Value="217313" />
+  <Preset Label="Scruberoo (spells_Sim_Pusher_Clean)" Value="217437" />
+  <Preset Label="Minionize (spells_Sim_Pusher_MindControl)" Value="217438" />
+  <Preset Label="Always Use Brooms (witchOccult_Toggle_BroomTeleport)" Value="217457" />
+  <Preset Label="Cook (fridge_Cook_MindControl_Autonomously)" Value="217536" />
+  <Preset Label="Hire Vendor (si_MarketStalls_Magic_HireNPC_Broom)" Value="217635" />
+  <Preset Label="autonomous_ObjectPicker_Spells_SearchForTomes_FindShelf" Tags="TestUnsafe" Value="217681" />
+  <Preset Label="Dig (collection_DigSite_Dig_Magic)" Value="217696" />
+  <Preset Label="Set {1.ObjectName} as Preferred Wand (wands_ToggleFavorite)" Value="217841" />
+  <Preset Label="Hire Vendor (si_MarketStalls_Magic_HireNPC_Potion)" Value="217851" />
+  <Preset Label="Hire Vendor (si_MarketStalls_Magic_HireNPC_Wand)" Value="217852" />
+  <Preset Label="Open Seed Packet (gardening_OpenSeedPacket_StarterPacket_MagicPlants)" Value="217880" />
+  <Preset Label="Hex Potion (cauldron_PotentPotables_HexContents)" Value="217898" />
+  <Preset Label="reaction_Curses_CurseAdded_HexOfDuelist" Value="218044" />
+  <Preset Label="reaction_Curses_CurseAdded_InfectiousLaughter" Value="218045" />
+  <Preset Label="reaction_Curses_CurseAdded_NightStalker" Value="218046" />
+  <Preset Label="reaction_Curses_CurseAdded_PunchableFace" Value="218047" />
+  <Preset Label="reaction_Curses_CurseAdded_Repulsiveness" Value="218048" />
+  <Preset Label="reaction_Curses_CurseAdded_SweatyStench" Value="218049" />
+  <Preset Label="reaction_Curses_CurseAdded_TouchyFeely" Value="218050" />
+  <Preset Label="reaction_Curses_CurseAdded_WildMagic" Value="218051" />
+  <Preset Label="reaction_Mixers_Curses_WildMagic" Value="218063" />
+  <Preset Label="reaction_Mixers_Curses_FountainOfMagic" Value="218065" />
+  <Preset Label="reaction_Mixers_Curses_HexOfDuelist" Value="218066" />
+  <Preset Label="reaction_Mixers_Curses_InfectiousLaughter" Value="218067" />
+  <Preset Label="reaction_Mixers_Curses_NightStalker" Value="218068" />
+  <Preset Label="reaction_Mixers_Curses_PunchableFace" Value="218069" />
+  <Preset Label="reaction_Mixers_Curses_Repulsiveness" Value="218070" />
+  <Preset Label="reaction_Mixers_Curses_SweatyStench" Value="218071" />
+  <Preset Label="reaction_Mixers_Curses_TouchyFeely" Value="218072" />
+  <Preset Label="Open Spellbook (immediate_openSpellbook)" Value="218073" />
+  <Preset Label="autonomousSimPicker_Magic_Duel_Walkby" Tags="TestUnsafe" Value="218093" />
+  <Preset Label="Set {1.ObjectName} as Preferred Broom (broom_SetFavorite)" Value="218294" />
+  <Preset Label="Transportalate (teleportStyleSuperInteraction_WitchSpell)" Value="218319" />
+  <Preset Label="Transportalate (teleportStyleSuperInteraction_WitchSpell_Fail)" Value="218320" />
+  <Preset Label="Transportalate (teleportStyleSuperInteraction_WitchSpell_Automatic)" Value="218321" />
+  <Preset Label="Watch Magic Duel (si_MagicDuel_Watch)" Value="218347" />
+  <Preset Label="autonomousSimPicker_Magic_Duel_Challenge" Tags="TestUnsafe" Value="218408" />
+  <Preset Label="teleportStyleSuperInteraction_WitchBroom_Walkby" Value="218417" />
+  <Preset Label="Burgliate (spells_Effects_Steal_Household_Success)" Value="218497" />
+  <Preset Label="Burgliate (spells_Effects_Steal_Household_Charged)" Value="218499" />
+  <Preset Label="Burgliate (spells_Object_Steal_Household)" Value="218541" />
+  <Preset Label="Burgliate (spells_Object_Steal_Household_SpectralReach)" Value="218542" />
+  <Preset Label="autonomousSimPicker_SummonGhost_Fail" Tags="TestUnsafe" Value="218616" />
+  <Preset Label="Study Magical Tome (bookshelf_Spells_MagicTome_Read_Picker)" Tags="TestUnsafe" Value="218752" />
+  <Preset Label="Drink Potion (Self_Drink_Cauldron_Potion_Picker)" Tags="TestUnsafe" Value="219034" />
+  <Preset Label="mixer_WitchPerks_MagicalResonance_ApplyFX" Value="219101" />
+  <Preset Label="Set Brewing Visual State (Cauldron_VFXState_Picker)" Tags="TestUnsafe" Value="219583" />
+  <Preset Label="Set Potion VFX (Cauldron_PotionColorVFX_Picker)" Tags="TestUnsafe" Value="219589" />
+  <Preset Label="Magic Duel (social_MagicDuel_Heated)" Value="219664" />
+  <Preset Label="fire_reacting_to_fire_noLoS" Value="219684" />
+  <Preset Label="FIRE! (fire_Panic_NoLoS)" Value="219687" />
+  <Preset Label="Enthuse About Magic (mixer_Socials_WitchPerks_Socialite_EnthuseAboutMagic)" Tags="TestUnsafe" Value="219689" />
+  <Preset Label="Discuss Overcharge Risks (mixer_Socials_WitchPerks_Socialite_DiscussOverchargeRisks)" Tags="TestUnsafe" Value="219690" />
+  <Preset Label="Talk About Potion Mishaps (mixer_Socials_WitchPerks_Socialite_TalkAboutPotionMishaps)" Tags="TestUnsafe" Value="219691" />
+  <Preset Label="Travel to The Magic Realm (glimmerstone_Transport)" Value="219709" />
+  <Preset Label="Transportalate to The Magic Realm (simPicker_TravelWith_Spells_TransportToMagicRealm)" Tags="TestUnsafe" Value="219733" />
+  <Preset Label="Request Glimmerstone (social_WitchOccult_RequestGlimmerstone)" Value="219827" />
+  <Preset Label="idle_Buff_Cauldron_Potion_Immortality_ApplyVFX" Value="219897" />
+  <Preset Label="cauldron_CookAutonomously" Value="219898" />
+  <Preset Label="spells_PracticeSpellcasting_Object_Autonomous" Value="219984" />
+  <Preset Label="spells_PracticeSpellcasting_Autonomous" Value="220136" />
+  <Preset Label="Grab All Servings (cauldron_GrabAllServings)" Value="220187" />
+  <Preset Label="autonomousSimPicker_Magic_Duel_Challenge_Heated" Tags="TestUnsafe" Value="220225" />
+  <Preset Label="Magic Duel (social_MagicDuel_Artifact)" Value="220233" />
+  <Preset Label="Magic Duel (social_MagicDuel_Knowledge)" Value="220234" />
+  <Preset Label="Magic Duel (social_MagicDuel_Items)" Value="220235" />
+  <Preset Label="autonomousSimPicker_Magic_Duel_Challenge_Items" Tags="TestUnsafe" Value="220263" />
+  <Preset Label="autonomousSimPicker_Magic_Duel_Challenge_Knowledge" Tags="TestUnsafe" Value="220264" />
+  <Preset Label="autonomousSimPicker_Magic_Duel_Challenge_Artifact" Tags="TestUnsafe" Value="220265" />
+  <Preset Label="autonomous_ObjectPicker_Cauldron_Experiment" Tags="TestUnsafe" Value="220273" />
+  <Preset Label="React to Inappropriate Behavior (spells_Effects_Inappropriate_Shock_RelLoss)" Value="220374" />
+  <Preset Label="Go To Duel (si_GoNearObject_MagicDuel)" Value="220706" />
+  <Preset Label="Taste of Failure (spells_Effects_MindControl_RouteFail_Clean)" Value="220708" />
+  <Preset Label="Taste of Failure (spells_Effects_MindControl_RouteFail_Cook)" Value="220709" />
+  <Preset Label="mixer_MagicDuel_Watch_Passive" Value="220877" />
+  <Preset Label="mixer_MagicDuel_Watch_Scared" Value="220884" />
+  <Preset Label="mixer_MagicDuel_Watch_Awe" Value="220885" />
+  <Preset Label="Bind Bat Familiar (debug_Familiars_Bind_Bat)" Value="220911" />
+  <Preset Label="Bind Familiar (familiar_bind_bat)" Value="220914" />
+  <Preset Label="familiar_follow_bat" Value="220915" />
+  <Preset Label="Summon Familiar (familiar_BeginSummon)" Value="221006" />
+  <Preset Label="Ask How to Use Magic (social_WitchOccult_AskHowToUseMagic_GiveMoteSight)" Value="221136" />
+  <Preset Label="Transportalate to The Magic Realm (spells_Effects_TeleportToMagicHQ_Fail)" Value="221338" />
+  <Preset Label="Chillio-ed (spells_Effects_Sim_Freeze_Fail)" Value="221345" />
+  <Preset Label="Resume {0.String} (craftingResume_Cauldron_Food)" Value="221350" />
+  <Preset Label="mixer_MagicDuel_Watch_Excited" Value="221546" />
+  <Preset Label="stand_Passive_MindControlled" Value="221548" />
+  <Preset Label="Always Use Wands (witchOccult_Toggle_UseWand_FromSelf)" Value="221683" />
+  <Preset Label="Always Use Wands (witchOccult_Toggle_UseWand_FromObject)" Value="221684" />
+  <Preset Label="Always Use Brooms (witchOccult_Toggle_BroomTeleport_FromObject)" Value="221690" />
+  <Preset Label="Transportalate (teleportStyleSuperInteraction_WitchSpell_WildMagic)" Value="221940" />
+  <Preset Label="spells_Effects_MindControl_React" Value="221966" />
+  <Preset Label="Scruberoo (spells_Terrain_Clean_DirtyFloor)" Value="222119" />
+  <Preset Label="Scruberoo (spells_Terrain_Clean_DirtyFloor_SpectralReach)" Value="222120" />
+  <Preset Label="mixer_MagicPortal" Value="222440" />
+  <Preset Label="spells_Effects_Fire_State_Change" Value="222592" />
+  <Preset Label="Destroy Glimmerstone (glimmerStone_DestroyObject)" Value="222688" />
+  <Preset Label="Open (familiar_mysteryBox_Open)" Value="222699" />
+  <Preset Label="Extinguish (fire_Extinguish_spell_fire)" Value="222703" />
+  <Preset Label="Be De-Spellcastered (social_WitchOccult_RiteOfDissolution_Target)" Value="222833" />
+  <Preset Label="Terrified by Overcharged Sim (witchOccult_Reaction_RunAway_WitchOverload)" Value="222898" />
+  <Preset Label="Awkward Hug (touching_Greetings_Curses_TouchyFeel_Hug)" Value="222927" />
+  <Preset Label="Offer Magical Training (mixer_Social_WitchOccult_MagicTraining_Offer)" Tags="TestUnsafe" Value="223010" />
+  <Preset Label="Ask For Magical Training (mixer_Social_WitchOccult_MagicTraining_Request)" Tags="TestUnsafe" Value="223011" />
+  <Preset Label="aggregate_Familiar_SetActive" Value="223123" />
+  <Preset Label="familiar_PlayTeleportVFX" Value="223124" />
+  <Preset Label="Ask For Rite Of Dissolution (mixer_Social_WitchOccult_RiteOfDissolution_Request)" Tags="TestUnsafe" Value="223400" />
+  <Preset Label="Ask For Rite of Ascension (mixer_Social_WitchOccult_RiteOfAscension_Request)" Tags="TestUnsafe" Value="223424" />
+  <Preset Label="Offer Rite of Ascension (mixer_Social_WitchOccult_RiteOfAscension_Offer)" Tags="TestUnsafe" Value="223426" />
+  <Preset Label="Chillio (spells_Sim_Extinguish_Sim)" Value="224047" />
+  <Preset Label="Chillio (fire_ExtinguishSim_Spell)" Value="224048" />
+  <Preset Label="Infatuate (socialSuperInteraction_Magic_Love_Spell_Fail)" Value="230982" />
+  <Preset Label="Scruberoo (spells_Object_Clean_LitterBox)" Value="231008" />
+  <Preset Label="Scruberoo (spells_Object_Clean_LitterBox_SpectralReach)" Value="231009" />
+  <Preset Label="Cook (cauldron_Food_StartCrafting_RequiredIngredients)" Value="261958" />
+</PresetGroup>

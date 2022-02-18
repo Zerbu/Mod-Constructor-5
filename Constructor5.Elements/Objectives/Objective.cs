@@ -63,7 +63,10 @@ namespace Constructor5.Elements.Objectives
 
             AutoTunerInvoker.Invoke(this, tuning);
 
-            BuildSimData(tuning);
+            if (Exporter.Current.STBLBuilder != null)
+            {
+                BuildSimData(tuning);
+            }
 
             CustomTuningExporter.Export(this, tuning, CustomTuning);
 

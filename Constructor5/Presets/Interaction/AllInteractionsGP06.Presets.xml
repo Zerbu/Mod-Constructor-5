@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions GP06">
+  <Preset Label="Fuse (mysticalRelic_Fuse)" Value="173873" />
+  <Preset Label="Fuse With (mysticalRelic_Fuse_BottomPicker_World)" Tags="TestUnsafe" Value="173881" />
+  <Preset Label="Fuse With (mysticalRelic_Fuse_TopPicker_World)" Tags="TestUnsafe" Value="173886" />
+  <Preset Label="Fuse With (mysticalRelic_Fuse_TopPicker_Inventory)" Tags="TestUnsafe" Value="173888" />
+  <Preset Label="Fuse With (mysticalRelic_Fuse_BottomPicker_Inventory)" Tags="TestUnsafe" Value="173890" />
+  <Preset Label="Put in Inventory (mysticalRelic_PickUpRelic)" Value="173891" />
+  <Preset Label="Insert Crystal (mysticalRelic_Insert)" Value="174060" />
+  <Preset Label="Insert Crystal (mysticalRelic_Insert_CrystalPicker_Inventory)" Tags="TestUnsafe" Value="174062" />
+  <Preset Label="Insert Crystal (mysticalRelic_Insert_CrystalPicker_World)" Tags="TestUnsafe" Value="174063" />
+  <Preset Label="Activate on Self (mysticalRelic_Activate_OnSelf)" Value="174147" />
+  <Preset Label="Activate (mysticalRelic_Activate_OnPicked)" Value="174148" />
+  <Preset Label="mysticalRelic_StopTarget" Value="174153" />
+  <Preset Label="Activate On (mysticalRelic_Activate_OnPicked_SimPicker)" Tags="TestUnsafe" Value="174155" />
+  <Preset Label="Make Offering to Sun Glyph (temple_Trap_Activate_Glyph_0)" Value="174168" />
+  <Preset Label="Make Offering to Leaves Glyph (temple_Trap_Activate_Glyph_1)" Value="174169" />
+  <Preset Label="Make Offering to Arrowhead Glyph (temple_Trap_Activate_Glyph_2)" Value="174170" />
+  <Preset Label="Make Offering to Tree Glyph (temple_Trap_Activate_Glyph_3)" Value="174171" />
+  <Preset Label="Activate (mysticalRelic_Activate_OnPicked_Pusher)" Value="174189" />
+  <Preset Label="Pull Left Warrior's Weapon (temple_Trap_Activate_Skeletons_Left)" Value="174254" />
+  <Preset Label="Pull Middle Warrior's Weapon (temple_Trap_Activate_Skeletons_Middle)" Value="174255" />
+  <Preset Label="Pull Right Warrior's Weapon (temple_Trap_Activate_Skeletons_Right)" Value="174256" />
+  <Preset Label="Study for Historical Insights (archaeologySkill_StudyForHistoricalInsights)" Value="174284" />
+  <Preset Label="archaeologySkill_Mixers_BreathIdle" Value="174293" />
+  <Preset Label="archaeologySkill_Mixers_Sketch" Value="174294" />
+  <Preset Label="archaeologySkill_Mixers_Contemplate" Value="174295" />
+  <Preset Label="archaeologySkill_Mixers_TakeNotes" Value="174296" />
+  <Preset Label="archaeologySkill_Mixers_TakePictures" Value="174297" />
+  <Preset Label="Step onto Plate with Flirtiness (temple_Trap_Activate_EmotionalPlate_Flirty)" Value="174312" />
+  <Preset Label="Step onto Plate with Energy (temple_Trap_Activate_EmotionalPlate_Energized)" Value="174313" />
+  <Preset Label="Step onto Plate with Inspiration (temple_Trap_Activate_EmotionalPlate_Inspired)" Value="174314" />
+  <Preset Label="Step onto Plate with Confidence (temple_Trap_Activate_EmotionalPlate_Confident)" Value="174315" />
+  <Preset Label="Discuss Ancient History (mixer_social_DiscussAncientHistory_targeted_Friendly_ArchaeologySkill)" Tags="TestUnsafe" Value="174317" />
+  <Preset Label="Blame For Temple Dangers (temple_Trap_Activate_MoodySculpture_Blame)" Value="174323" />
+  <Preset Label="Compliment Carvings (temple_Trap_Activate_MoodySculpture_Compliment)" Value="174324" />
+  <Preset Label="Insult Crumbling Stone (temple_Trap_Activate_MoodySculpture_Insult)" Value="174325" />
+  <Preset Label="Tell Skeleton Pun (temple_Trap_Activate_MoodySculpture_SkeletonPun)" Value="174326" />
+  <Preset Label="Reach Into Sun Glyph Hole (temple_Trap_Activate_Pillar_0)" Value="174330" />
+  <Preset Label="Reach Into Leaves Glyph Hole (temple_Trap_Activate_Pillar_1)" Value="174331" />
+  <Preset Label="Reach Into Arrowhead Glyph Hole (temple_Trap_Activate_Pillar_2)" Value="174332" />
+  <Preset Label="Reach Into Tree Glyph Hole (temple_Trap_Activate_Pillar_3)" Value="174333" />
+  <Preset Label="Assemble Tree Glyphs (temple_Trap_Activate_RotatingSculpture_3)" Value="174336" />
+  <Preset Label="Assemble Sun Glyphs (temple_Trap_Activate_RotatingSculpture_0)" Value="174337" />
+  <Preset Label="Assemble Leaves Glyphs (temple_Trap_Activate_RotatingSculpture_1)" Value="174338" />
+  <Preset Label="Assemble Arrowhead Glyphs (temple_Trap_Activate_RotatingSculpture_2)" Value="174339" />
+  <Preset Label="temple_Trap_Punishment_BladderScare" Value="174403" />
+  <Preset Label="temple_Trap_Punishment_RestlessHorror" Value="174404" />
+  <Preset Label="temple_Trap_Punishment_MysticalHunger" Value="174405" />
+  <Preset Label="temple_Trap_Punishment_PoinsonDart" Value="174406" />
+  <Preset Label="temple_Trap_Punishment_BoneDust" Value="174407" />
+  <Preset Label="temple_Trap_Punishment_SoAlone" Value="174408" />
+  <Preset Label="temple_Trap_Punishment_MiserableVacation" Value="174409" />
+  <Preset Label="Give Archaeology Lecture (archaeologySkill_GiveArchaeologyLecture_Picker)" Tags="TestUnsafe" Value="174491" />
+  <Preset Label="Give Archaeology Lecture (archaeologySkill_GiveArchaeologyLecture_Perform)" Value="174493" />
+  <Preset Label="Listen to Lecture (archaeologySkill_GiveArchaeologyLecture_Listen)" Value="174496" />
+  <Preset Label="Ask about the Jungle (socials_Targeted_Friendly_AlwaysOn_STC_LocalCulture_AskAboutJungle)" Tags="TestUnsafe" Value="174735" />
+  <Preset Label="Ask about the Omiscan Ruins (socials_Targeted_Friendly_AlwaysOn_STC_LocalCulture_AskAboutRuins)" Tags="TestUnsafe" Value="174736" />
+  <Preset Label="Chat about Local Sights (socials_Targeted_Friendly_AlwaysOn_STC_LocalCulture_ChatAboutSights)" Tags="TestUnsafe" Value="174737" />
+  <Preset Label="Discuss Local Heritage (socials_Targeted_Friendly_AlwaysOn_STC_LocalCulture_DiscussHeritage)" Tags="TestUnsafe" Value="174738" />
+  <Preset Label="Inquire about Local Myths (socials_Targeted_Friendly_AlwaysOn_STC_LocalCulture_InquireAboutMyths)" Tags="TestUnsafe" Value="174739" />
+  <Preset Label="Learn about History of Local Goods (socials_Targeted_Friendly_AlwaysOn_STC_LocalCulture_LearnAboutGoods)" Tags="TestUnsafe" Value="174740" />
+  <Preset Label="Local Salutation (socials_Targeted_Friendly_AlwaysOn_STC_LocalCulture_Salutation)" Tags="TestUnsafe" Value="174741" />
+  <Preset Label="Clear Path with Hands (pathObstacles_Clear_staging)" Value="174766" />
+  <Preset Label="pathObstacles_mixer_machete_idle" Value="174768" />
+  <Preset Label="pathObstacles_mixer_machete_loop_1" Value="174769" />
+  <Preset Label="pathObstacles_mixer_machete_loop_2" Value="174770" />
+  <Preset Label="pathObstacles_mixer_machete_loop_3" Value="174771" />
+  <Preset Label="pathObstacles_mixer_hand_loop_3" Value="174774" />
+  <Preset Label="pathObstacles_mixer_hand_loop_1" Value="174775" />
+  <Preset Label="pathObstacles_mixer_hand_loop_2" Value="174776" />
+  <Preset Label="pathObstacles_mixer_hand_loop_fail" Value="174777" />
+  <Preset Label="pathObstacles_mixer_hand_idle" Value="174778" />
+  <Preset Label="Show Pictures of Selvadorada (socials_Targeted_Friendly_AlwaysOn_STC_LocalCulture_SharePhoto)" Tags="TestUnsafe" Value="174810" />
+  <Preset Label="Tell a Omiscan Folk Tale (mixer_TellFolkTale_Loop)" Tags="TestUnsafe" Value="174835" />
+  <Preset Label="Listen to Omiscan Folk Tale (mixer_TellFolkTale_Listen)" Tags="TestUnsafe" Value="174837" />
+  <Preset Label="Waiting for Listeners (mixer_TellFolkTale_Waiting)" Tags="TestUnsafe" Value="174838" />
+  <Preset Label="Listen to Omiscan Folk Tale (socialSuperInteraction_TellFolkTale_Listen)" Value="174870" />
+  <Preset Label="Tell a Omiscan Folk Tale (socialSuperInteraction_TellFolkTale)" Value="174875" />
+  <Preset Label="Tell a Omiscan Folk Tale (simPicker_TellFolkTale)" Tags="TestUnsafe" Value="174877" />
+  <Preset Label="archaeologySkill_GiveArchaeologyLecture_Lecture" Tags="TestUnsafe" Value="174879" />
+  <Preset Label="archaeologySkill_GiveArchaeologyLecture_Listening" Tags="TestUnsafe" Value="174881" />
+  <Preset Label="archaeologySkill_GiveArchaeologyLecture_Wait" Tags="TestUnsafe" Value="174882" />
+  <Preset Label="Be Cursed (curses_BeCursed)" Value="174914" />
+  <Preset Label="curses_PersonalRainCloud_StruckByLightning_Uncommon" Value="174925" />
+  <Preset Label="curses_PersonalRainCloud_StruckByLightning_Rare" Value="174929" />
+  <Preset Label="Use Fire Foam (fire_AdventureGear_FireFoam_Use)" Value="174960" />
+  <Preset Label="Use Waterfall in a Bottle (adventureGear_SanitaryKit_Use)" Value="174978" />
+  <Preset Label="View (si_townSculpture_View)" Value="175001" />
+  <Preset Label="Show Respect (si_townSculpture_ShowRespect)" Value="175002" />
+  <Preset Label="Donate to Dispel Curse (si_townSculpture_DonateForCleansing)" Value="175003" />
+  <Preset Label="Be Blessed (blessings_BeBlessed)" Value="175012" />
+  <Preset Label="curses_AncientSickness_Sneeze" Value="175019" />
+  <Preset Label="curses_AncientSickness_Scream" Value="175020" />
+  <Preset Label="curses_AncientSickness_PushPassOut" Value="175049" />
+  <Preset Label="Be Dispelled (curses_BeDispelled_PersonalRainCloud)" Value="175079" />
+  <Preset Label="Drink (consumable_Drink_Nonbar_AdventureGear)" Value="175143" />
+  <Preset Label="curses_GreedyNeeds_MotiveLoss" Value="175194" />
+  <Preset Label="Curse-lectrocuted (curses_MarkedForDeath_Electrocute)" Value="175231" />
+  <Preset Label="Be Dispelled (curses_BeDispelled_AncientSickness)" Value="175288" />
+  <Preset Label="Be Dispelled (curses_BeDispelled_GreedyNeeds)" Value="175289" />
+  <Preset Label="Be Dispelled (curses_BeDispelled_SeeingThings)" Value="175290" />
+  <Preset Label="Travel Through (superInteraction_PortalTravel_PartA)" Value="175296" />
+  <Preset Label="Travel Through (superInteraction_PortalTravel_PartB)" Value="175297" />
+  <Preset Label="dance_LocalCultureSkill_PassiveActions" Value="175378" />
+  <Preset Label="dance_LocalCultureSkill_Action_3" Value="175412" />
+  <Preset Label="dance_LocalCultureSkill_Action_1" Value="175413" />
+  <Preset Label="dance_LocalCultureSkill_Action_2" Value="175414" />
+  <Preset Label="Dance the Rumbasim (stereo_Dance_LocalCultureSkill)" Value="175415" />
+  <Preset Label="Refine Crystal (archaeologyTable_GoToTable_RefineCrystal)" Value="175418" />
+  <Preset Label="archaeologyTable_FindTable_RefineCrystal" Tags="TestUnsafe" Value="175419" />
+  <Preset Label="Listen to Latin Music (stereo_Listen_Latin)" Value="175457" />
+  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_HotTub)" Value="175458" />
+  <Preset Label="Listen to Latin Music (stereo_earbuds_Listen_Latin)" Value="175459" />
+  <Preset Label="Refine Crystal (archaeologyTable_FromTable_RefineCrystal)" Tags="TestUnsafe" Value="175464" />
+  <Preset Label="Refine Crystal (archaeologyTable_RefineCrystal)" Value="175475" />
+  <Preset Label="Extract Element (archaeologyTable_ExtractElement)" Value="175638" />
+  <Preset Label="Extract Element (archaeologyTable_FromTable_ExtractElement)" Tags="TestUnsafe" Value="175639" />
+  <Preset Label="archaeologyTable_FindTable_ExtractElement" Tags="TestUnsafe" Value="175641" />
+  <Preset Label="Extract Element (archaeologyTable_GoToTable_ExtractElement)" Value="175642" />
+  <Preset Label="archaeologyTable_ExtractElement_Breathe" Value="175643" />
+  <Preset Label="archaeologyTable_ExtractElement_Brush" Value="175644" />
+  <Preset Label="archaeologyTable_ExtractElement_Chisel" Value="175645" />
+  <Preset Label="archaeologyTable_ExtractElement_Hammer" Value="175646" />
+  <Preset Label="archaeologyTable_ExtractElement_MangifyingGlass" Value="175647" />
+  <Preset Label="Practice Archaeological Analysis (archaeologyTable_FromTable_AnalyzeCollectible)" Tags="TestUnsafe" Value="175701" />
+  <Preset Label="Practice Archaeological Analysis (archaeologyTable_AnalyzeCollectible)" Value="175702" />
+  <Preset Label="Practice Archaeological Analysis (archaeologyTable_GoToTable_AnalyzeCollectible)" Value="175703" />
+  <Preset Label="archaeologyTable_FindTable_AnalyzeCollectible" Tags="TestUnsafe" Value="175704" />
+  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop)" Value="175718" />
+  <Preset Label="Listen to Latin Pop (stereo_earbuds_Listen_LatinPop)" Value="175730" />
+  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop_HotTub)" Value="175731" />
+  <Preset Label="archaeologyTable_AnalyzeCollectible_Sketch" Value="175733" />
+  <Preset Label="archaeologyTable_AnalyzeCollectible_Contemplate" Value="175734" />
+  <Preset Label="archaeologyTable_AnalyzeCollectible_TakeNotes" Value="175735" />
+  <Preset Label="archaeologyTable_AnalyzeCollectible_TakePicture" Value="175736" />
+  <Preset Label="Dig (collection_DigSite_Dig_GP06_Common)" Value="175744" />
+  <Preset Label="Dig (collection_DigSite_Dig_GP06_Rare)" Value="175745" />
+  <Preset Label="Travel Through (superInteraction_TravelThrough_JungleAdventure)" Value="175755" />
+  <Preset Label="archaeologyTable_ReceiveReward_ExtractElement" Value="175782" />
+  <Preset Label="Listen to Latin Music (stereoWall_listen_Latin)" Value="175850" />
+  <Preset Label="Listen to Latin Pop (stereoWall_listen_LatinPop)" Value="175851" />
+  <Preset Label="Extract Fossil (collection_Fossils_Rock_Excavate_GP06)" Value="175861" />
+  <Preset Label="Extract Fossil (collection_Fossils_Rock_Excavate_Inventory_GP06)" Value="175862" />
+  <Preset Label="Uncover Artifact (archaeologyTable_UncoverArtifact)" Value="175887" />
+  <Preset Label="Uncover Artifact (archaeologyTable_FromTable_UncoverArtifact)" Tags="TestUnsafe" Value="175892" />
+  <Preset Label="archaeologyTable_FindTable_UncoverArtifact" Tags="TestUnsafe" Value="175895" />
+  <Preset Label="Uncover Artifact (archaeologyTable_GoToTable_UncoverArtifact)" Value="175897" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_Latin)" Value="175905" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_LatinPop)" Value="175906" />
+  <Preset Label="Turn Into Skeleton (solo_Skeleton_Add)" Value="175967" />
+  <Preset Label="Restore Humanity (solo_Skeleton_Remove)" Value="175974" />
+  <Preset Label="Pick Up (archaeologyTable_PickUpObject)" Value="175988" />
+  <Preset Label="archaeologyTable_FindTable_AuthenticateArtifact" Tags="TestUnsafe" Value="175990" />
+  <Preset Label="Authenticate Artifact (archaeologyTable_FromTable_AuthenticateArtifact)" Tags="TestUnsafe" Value="175991" />
+  <Preset Label="Authenticate Artifact (archaeologyTable_AuthenticateArtifact)" Value="175993" />
+  <Preset Label="Authenticate Artifact (archaeologyTable_GoToTable_AuthenticateArtifact)" Value="175994" />
+  <Preset Label="archaeologyTable_AuthenticateArtifact_Breathe" Value="176005" />
+  <Preset Label="archaeologyTable_AuthenticateArtifact_Brush" Value="176006" />
+  <Preset Label="archaeologyTable_AuthenticateArtifact_MagnifyingGlass" Value="176007" />
+  <Preset Label="archaeologyTable_AuthenticateArtifact_Measure" Value="176008" />
+  <Preset Label="archaeologyTable_AuthenticateArtifact_TakeNotes" Value="176009" />
+  <Preset Label="skeleton_Idles_3" Value="176028" />
+  <Preset Label="skeleton_Idles_1" Value="176029" />
+  <Preset Label="skeleton_Idles_2" Value="176030" />
+  <Preset Label="Skeleton?!?! (reactions_Generic_Shocked_Strong_Skeleton)" Value="176047" />
+  <Preset Label="reactions_Shocked_Fallback_Skeleton" Value="176048" />
+  <Preset Label="Allow Authentication Mail for {0.SimFirstName} (archaeologySkill_GiveAuthenticationMail_Allow)" Value="176121" />
+  <Preset Label="Prohibit Authentication Mail for {0.SimFirstName} (archaeologySkill_GiveAuthenticationMail_Prohibit)" Value="176122" />
+  <Preset Label="Mail Back Artifact (archaeologySkill_GiveAuthenticationMail_MailBackArtifact)" Value="176134" />
+  <Preset Label="Swarmed By Bees! (waypoint_Bees_Attack)" Value="176162" />
+  <Preset Label="Skeleton Scare (socials_Targeted_Skeleton_Scare)" Tags="TestUnsafe" Value="176163" />
+  <Preset Label="Authenticate Artifact (archaeologyTable_FromTable_AuthenticateArtifact_AllowMail)" Tags="TestUnsafe" Value="176167" />
+  <Preset Label="Death By Poison (death_Poison)" Value="176190" />
+  <Preset Label="Tell Joke about Skeletons (socials_Targeted_Skeleton_TellJokeAboutSkeletons)" Tags="TestUnsafe" Value="176219" />
+  <Preset Label="poisoned_Idles_Belch" Value="176299" />
+  <Preset Label="Chug Antidote (poisonAntidote_chug)" Value="176422" />
+  <Preset Label="Swarmed By Bees! (superInteraction_NaturalDangers_SuccessOnly_BeeAttack)" Value="176503" />
+  <Preset Label="Attacked By Spiders (superInteraction_NaturalDangers_SuccessOnly_SpiderAttack)" Value="176505" />
+  <Preset Label="Attacked By Fire Flies (superInteraction_NaturalDangers_SuccessOnly_FireFlies)" Value="176511" />
+  <Preset Label="Attacked By Lightning Bugs (superInteraction_NaturalDangers_SuccessOnly_LightningBugs)" Value="176513" />
+  <Preset Label="Try to Pass (temple_Gate_TryToPass)" Value="176515" />
+  <Preset Label="Attacked By Plasma Bats (superInteraction_NaturalDangers_BloodBats)" Value="176517" />
+  <Preset Label="immediateSuperInteraction_NaturalDangers_OutcomeChooser_Bees" Value="176520" />
+  <Preset Label="Set Electrical Field (DEBUG) (temple_Gate_SetState_ElectricalField)" Value="176541" />
+  <Preset Label="Set Mystical Field (DEBUG) (temple_Gate_SetState_MysticalField)" Value="176542" />
+  <Preset Label="Set Fire (DEBUG) (temple_Gate_SetState_Fire)" Value="176543" />
+  <Preset Label="Set Poison (DEBUG) (temple_Gate_SetState_Poison)" Value="176544" />
+  <Preset Label="Set Unlocked (DEBUG) (temple_Gate_SetState_Unlocked)" Value="176545" />
+  <Preset Label="solo_Skeleton_TurnIntoBonePile" Value="176577" />
+  <Preset Label="DEBUG - Unlock All GP06 Recipes (jungleFood_Immediate_UnlockAllRecipes_Debug)" Value="176582" />
+  <Preset Label="immediateSuperInteraction_NaturalDangers_OutcomeChooser_FireFlies" Value="176615" />
+  <Preset Label="immediateSuperInteraction_NaturalDangers_OutcomeChooser_LightningBugs" Value="176616" />
+  <Preset Label="immediateSuperInteraction_NaturalDangers_OutcomeChooser_SpiderAttack" Value="176617" />
+  <Preset Label="Open Treasure Chest (treasureChest_Open)" Value="176639" />
+  <Preset Label="Attacked By Fire Flies (waypoint_NaturalDangers_FireFlies_Attack)" Value="176873" />
+  <Preset Label="Attacked By Lightning Bugs (waypoint_NaturalDangers_LightningBugs_Attack)" Value="176874" />
+  <Preset Label="Attacked By Spiders (waypoint_NaturalDangers_Spider_Attack)" Value="176875" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_Jungle)" Value="177017" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_Jungle)" Value="177024" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Jungle)" Value="177028" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vegetarian_Jungle)" Value="177029" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_Jungle_review_CriticCareer)" Value="177030" />
+  <Preset Label="excavationPile_Dig_Brush" Value="177065" />
+  <Preset Label="excavationPile_Dig_Chisel" Value="177066" />
+  <Preset Label="excavationPile_Dig_Hammer" Value="177067" />
+  <Preset Label="excavationPile_Dig_TakeNotes" Value="177068" />
+  <Preset Label="excavationPile_Dig_TakePicture" Value="177069" />
+  <Preset Label="excavationPile_Dig_Trowel" Value="177070" />
+  <Preset Label="excavationPile_Dig_WipeSweat" Value="177072" />
+  <Preset Label="excavationPile_Dig_Idle" Value="177075" />
+  <Preset Label="Excavate (excavationPile_Dig_Group)" Value="177077" />
+  <Preset Label="Be Dispelled (curses_BeDispelled_MarkedForDeath)" Value="177095" />
+  <Preset Label="Establish Excavation Site (excavationPile_EstablishSite)" Value="177119" />
+  <Preset Label="Learn Skeleton Joke (socials_Targeted_Skeleton_LearnSkeletonJoke)" Tags="TestUnsafe" Value="177221" />
+  <Preset Label="Excavate (excavationPile_Dig_Single)" Value="177269" />
+  <Preset Label="si_touching_Greetings_LocalCultureSkill_AirKissCheek" Value="177345" />
+  <Preset Label="Order Food from the Secret Menu (marketStalls_pushOrderFood_Jungle_SecretMenu)" Value="177369" />
+  <Preset Label="Review Food from the Secret Menu (marketStalls_pushOrderFood_Jungle_SecretMenu_review_CriticCareer)" Value="177370" />
+  <Preset Label="Survey for Dig Pile (terrain-SurveyDigSite)" Value="177374" />
+  <Preset Label="Survey for Dig Pile (surveyDigSite_Success)" Value="177457" />
+  <Preset Label="Survey for Dig Pile (surveyDigSite_Create)" Value="177462" />
+  <Preset Label="Survey for Dig Pile (surveyDigSite_Failure)" Value="177547" />
+  <Preset Label="craftSalesTable_CreateObjects_NPC_Jungle" Value="177659" />
+  <Preset Label="Careers (hireNPC_ServiceSkeleton_Common)" Value="177660" />
+  <Preset Label="Journey to the Temple (go_To_Specific_Lot_JunglePathObstacles_Temple)" Value="177675" />
+  <Preset Label="Travel to the Omiscan Royal Baths (go_To_Specific_Lot_JunglePathObstacles_NaturalPool)" Value="177752" />
+  <Preset Label="poisoned_Idles_GhostBelch" Value="177760" />
+  <Preset Label="Passed Out (passOut_Basic)" Value="177765" />
+  <Preset Label="Passed Out (passOut_Poisoned)" Value="177766" />
+  <Preset Label="Careers (hireNPC_ServiceSkeleton_Uncommon)" Value="177863" />
+  <Preset Label="Careers (hireNPC_ServiceSkeleton_Rare)" Value="177864" />
+  <Preset Label="Ask for Antidote (socials_Targeted_Friendly_AlwaysOn_STC_LocalCulture_AskAboutAntidote)" Tags="TestUnsafe" Value="177866" />
+  <Preset Label="Purchase Antidote (computer_PurchaseAntidote)" Value="177899" />
+  <Preset Label="excavationPile_Dig_FindSomething" Value="178008" />
+  <Preset Label="Purchase Archaeology Table (mixer_social_CraftSalesTable_Purchase_ArchaeologyTable)" Tags="TestUnsafe" Value="178019" />
+  <Preset Label="Buy Supplies and Secret Wares (mixers_social_CraftSalesTable_Purchase_SecretItems)" Tags="TestUnsafe" Value="178042" />
+  <Preset Label="Clear Path with Machete (pathObstacles_Clear_staging_Machete)" Value="178186" />
+  <Preset Label="Order Drink (bar_PushOrderDrink_Jungle)" Value="178189" />
+  <Preset Label="Order Food (bar_PushOrderFood_Jungle)" Value="178196" />
+  <Preset Label="Send Away for Authentication (ancientArtifact_SendAwayForAuthentication_PickUpArtifact)" Value="178442" />
+  <Preset Label="Travel Through (superInteraction_PortalTravel_PartA_TempleEntrance)" Value="178561" />
+  <Preset Label="Travel Through (superInteraction_PortalTravel_PartA_NaturalPoolEntrance)" Value="178562" />
+  <Preset Label="Travel Through (superInteraction_TravelThrough_JungleAdventure_TempleEntrance)" Value="178569" />
+  <Preset Label="Travel Through (superInteraction_TravelThrough_JungleAdventure_NaturalPools)" Value="178570" />
+  <Preset Label="Clear Path with Hands (pathObstacles_Clear_staging_TempleEntrance)" Value="178573" />
+  <Preset Label="Clear Path with Hands (pathObstacles_Clear_staging_NaturalPools)" Value="178574" />
+  <Preset Label="Clear Path with Machete (pathObstacles_Clear_staging_Machete_TempleEntrance)" Value="178575" />
+  <Preset Label="Clear Path with Machete (pathObstacles_Clear_staging_Machete_NaturalPools)" Value="178576" />
+  <Preset Label="Travel Through With (simPickerInteraction_PathObstacle_TravelThroughPicker)" Tags="TestUnsafe" Value="178623" />
+  <Preset Label="Travel Through With (simPickerInteraction_PathObstacle_TravelThroughPicker_Temple)" Tags="TestUnsafe" Value="178625" />
+  <Preset Label="Travel Through With (simPickerInteraction_PathObstacle_TravelThroughPicker_NaturalPools)" Tags="TestUnsafe" Value="178626" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_ArchaeologyTable)" Value="178670" />
+  <Preset Label="Activate On (mysticalRelic_Activate_OnPicked_SimPicker_ImASkeleton)" Tags="TestUnsafe" Value="178694" />
+  <Preset Label="immediateSuperInteraction_NaturalDangers_Launcher_BloodBats" Value="178755" />
+  <Preset Label="Drink (consumable_Drink_Nonbar_AdventureGear_LiquidRush)" Value="178757" />
+  <Preset Label="Use Waterfall in a Bottle (adventureGear_SanitaryKit_Use_FromWorld)" Value="178774" />
+  <Preset Label="Selvadoradian Introduction (mixer_social_AirKissCheekIntroduction)" Tags="TestUnsafe" Value="178782" />
+  <Preset Label="computer_WriteBook_Staging_ArchaeologyManual" Value="178856" />
+  <Preset Label="Be Cursed (curses_Blessings_ContagiousReaction)" Value="178956" />
+  <Preset Label="Examine (temple_Trap_Examine_Skeletons)" Value="179054" />
+  <Preset Label="Donate to Museum (ancientArtifact_MuseumPatron_DonateToMuseum)" Value="179093" />
+  <Preset Label="Engrave Plaque (name_CollectionCase)" Value="179116" />
+  <Preset Label="Read Plaque (collectionCase_ReadPlaque)" Value="179118" />
+  <Preset Label="Ask about New Stock (mixer_social_CraftSalesTable_AskAboutNewStock)" Tags="TestUnsafe" Value="179183" />
+  <Preset Label="Examine (temple_Trap_Examine_RotatingSculpture)" Value="179224" />
+  <Preset Label="Examine (temple_Trap_Examine_Pillar)" Value="179265" />
+  <Preset Label="Try to Pass (temple_Gate_TryToPass_WithRelic_RelicQuery_Fire)" Value="179297" />
+  <Preset Label="Try to Pass (temple_Gate_TryToPass_WithRelic_RelicQuery_MysticalField)" Value="179298" />
+  <Preset Label="Try to Pass (temple_Gate_TryToPass_WithRelic_RelicQuery_Poison)" Value="179299" />
+  <Preset Label="Try to Pass (temple_Gate_TryToPass_WithRelic_RelicQuery_Electric)" Value="179300" />
+  <Preset Label="Examine (temple_Trap_Examine_Glyph)" Value="179310" />
+  <Preset Label="Offer Relic For Passage (temple_Gate_TryToPass_WithRelic_ApproachGate)" Value="179312" />
+  <Preset Label="Offer Relic For Passage (temple_Gate_TryToPass_WithRelic_Picker_Electric)" Tags="TestUnsafe" Value="179314" />
+  <Preset Label="Offer Relic For Passage (temple_Gate_TryToPass_WithRelic_Picker_Fire)" Tags="TestUnsafe" Value="179315" />
+  <Preset Label="Offer Relic For Passage (temple_Gate_TryToPass_WithRelic_Picker_MysticalField)" Tags="TestUnsafe" Value="179316" />
+  <Preset Label="Offer Relic For Passage (temple_Gate_TryToPass_WithRelic_Picker_Poison)" Tags="TestUnsafe" Value="179317" />
+  <Preset Label="Offer Relic For Passage (temple_Gate_TryToPass_WithRelic_ConsumeRelic)" Value="179318" />
+  <Preset Label="immediateSuperInteraction_NaturalDangers_TimeDelay" Value="179378" />
+  <Preset Label="Examine (temple_Trap_Examine_MoodySculpture)" Value="179389" />
+  <Preset Label="Examine (temple_Trap_Examine_EmotionalPlate)" Value="179398" />
+  <Preset Label="immediateSuperInteraction_NaturalDangers_OutcomeChooser_Random" Value="179484" />
+  <Preset Label="View Collection (art_View_CollectionCase)" Value="179501" />
+  <Preset Label="Offer Relic For Passage (temple_Gate_TryToPass_WithRelic_AutoPicker_Electric)" Tags="TestUnsafe" Value="179564" />
+  <Preset Label="Offer Relic For Passage (temple_Gate_TryToPass_WithRelic_AutoPicker_Fire)" Tags="TestUnsafe" Value="179566" />
+  <Preset Label="Offer Relic For Passage (temple_Gate_TryToPass_WithRelic_AutoPicker_MysticalField)" Tags="TestUnsafe" Value="179568" />
+  <Preset Label="Offer Relic For Passage (temple_Gate_TryToPass_WithRelic_AutoPicker_Poison)" Tags="TestUnsafe" Value="179570" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_Skeletons" Value="179599" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_MoodySculpture" Value="179600" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_Glyph" Value="179601" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_Pillar" Value="179602" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_RotatingSculpture" Value="179603" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_EmotionalPlate" Value="179609" />
+  <Preset Label="dance_LocalCultureSkill_Action_5" Value="179623" />
+  <Preset Label="dance_LocalCultureSkill_Action_4" Value="179624" />
+  <Preset Label="Travel (adventureBoard_SimPicker_TravelWith)" Tags="TestUnsafe" Value="179630" />
+  <Preset Label="Read Preparation Checklist (AdventureBoard_ReadPreparationChecklist)" Value="179631" />
+  <Preset Label="Read Poison Awareness Posting (adventureBoard_ReadPoisonPosting)" Value="179633" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_PoisonDart_Glyph" Value="179638" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_PoisonDart_Pillar" Value="179640" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_PoisonDart_RotatingSculpture" Value="179641" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_PoisonDart_Skeletons" Value="179642" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_BoneDust_Glyph" Value="179647" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_BoneDust_Pillar" Value="179649" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_BoneDust_RotatingSculpture" Value="179650" />
+  <Preset Label="temple_Trap_Punishment_NothingBad_BoneDust_Skeletons" Value="179651" />
+  <Preset Label="Travel To Temple (go_To_Specific_Lot_Jungle_Temple_DEBUG)" Value="180012" />
+  <Preset Label="Listen to Latin Pop (stereo_Listen_Reggaeton_SkatingRink)" Value="180024" />
+  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_SkatingRink)" Value="180025" />
+  <Preset Label="mixer_NaturalDangers_PainIdle" Value="180046" />
+  <Preset Label="Travel To Lodging (go_To_Specific_Lot_Jungle_Lodging_DEBUG)" Value="180119" />
+  <Preset Label="Open Treasure Chest (treasureChest_Open_Rare)" Value="180178" />
+  <Preset Label="View (art_View_PathObstacle)" Value="180337" />
+  <Preset Label="solo_Skeleton_ServiceSkeleton_Collapse" Value="180338" />
+  <Preset Label="Practice Archaeological Analysis (archaeologyTable_FromObjects_AnalyzeCollectible)" Value="180529" />
+  <Preset Label="Authenticate Artifact (archaeologyTable_FromObjects_AuthenticateArtifact)" Value="180530" />
+  <Preset Label="Extract Element (archaeologyTable_FromObjects_ExtractElement)" Value="180531" />
+  <Preset Label="Refine Crystal (archaeologyTable_FromObjects_RefineCrystal)" Value="180532" />
+  <Preset Label="Uncover Artifact (archaeologyTable_FromObjects_UncoverArtifact)" Value="180533" />
+  <Preset Label="Excavate (excavationPile_Dig_Child)" Value="180772" />
+  <Preset Label="idle_curses_MarkedForDeath_OnFire" Value="180776" />
+  <Preset Label="Review Drink (marketStalls_pushOrderDrink_Jungle_review_CriticCareer)" Value="180787" />
+  <Preset Label="Order Drink (marketStalls_pushOrderDrink_Jungle)" Value="180788" />
+  <Preset Label="Passed Out (passOut_GhostBelch)" Value="180799" />
+  <Preset Label="View (art_View_ExcavationPile_InWorld)" Value="181032" />
+  <Preset Label="Order Drinks For Group (bar_PushOrderDrink_for_party_jungle)" Value="181067" />
+  <Preset Label="blessings_AncientJoy_Clap" Value="181230" />
+  <Preset Label="Dance the Rumbasim (stereo_EarBuds_Dance_LocalCultureSkill)" Value="181327" />
+  <Preset Label="Travel to the Omiscan Royal Baths (simPickerInteraction_PathObstacle_TravelThroughPicker_NaturalPoolsTravel)" Tags="TestUnsafe" Value="181597" />
+  <Preset Label="Journey to the Temple (simPickerInteraction_PathObstacle_TravelThroughPicker_TempleTravel)" Tags="TestUnsafe" Value="181601" />
+  <Preset Label="Order Drink (bar_PushOrderDrink_Autonomous_Jungle)" Value="181629" />
+  <Preset Label="immediateSuperInteraction_NaturalDangers_OutcomeChooser_Temple_Spider" Value="181884" />
+  <Preset Label="immediateSuperInteraction_NaturalDangers_OutcomeChooser_Temple_Firefly" Value="181894" />
+  <Preset Label="Send to Jeweler for Refinement (collection_Crystal_SendForRefinement)" Value="181952" />
+  <Preset Label="Travel to the Omiscan Royal Baths (superInteraction_TravelThrough_TravelPrompt_NaturalPool)" Value="182209" />
+  <Preset Label="Journey to the Temple (superInteraction_TravelThrough_TravelPrompt_Temple)" Value="182210" />
+  <Preset Label="Travel Through (superInteraction_PortalTravel_PartA_NoCarriedAllowed)" Value="182219" />
+  <Preset Label="Travel Through (superInteraction_PortalTravel_PartB_With_Reaction)" Value="182430" />
+  <Preset Label="si_reactions_JustGotPoison" Value="182661" />
+  <Preset Label="Electrocuted (death_Electrocution_Jungle)" Value="182673" />
+  <Preset Label="&quot;Fertilize&quot; (interactiveBush_FertilizeBush_Aggregate_Temple)" Value="182801" />
+  <Preset Label="pathObstacles_Reappear" Value="182929" />
+  <Preset Label="Order Happy Hour Drink (bar_PushOrderHappyHourDrink_Jungle)" Value="182952" />
+  <Preset Label="Buy Exploration Supplies (mixer_social_CraftSalesTable_Purchase_JungleSupplies)" Tags="TestUnsafe" Value="182990" />
+  <Preset Label="Quietly Look Around (solo_Temple_LookAround)" Value="183010" />
+  <Preset Label="View (temple_Trap_View)" Value="183150" />
+  <Preset Label="Eat {1.ObjectName} (generic_consume_AdventureGear_FoodPacket)" Value="183217" />
+  <Preset Label="Give Antidote to Cure Poison (socials_Targeted_Friendly_AlwaysOn_STC_GiveAntidote)" Tags="TestUnsafe" Value="183792" />
+  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop_HotTub_NotInHotTub)" Value="183906" />
+  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_HotTub_NotInHotTub)" Value="183910" />
+  <Preset Label="Step onto Plate with Confidence (temple_Trap_Activate_DEBUG_EmotionalPlate_Confident)" Value="184049" />
+  <Preset Label="Step onto Plate with Energy (temple_Trap_Activate_DEBUG_EmotionalPlate_Energized)" Value="184050" />
+  <Preset Label="Step onto Plate with Flirtiness (temple_Trap_Activate_DEBUG_EmotionalPlate_Flirty)" Value="184051" />
+  <Preset Label="Step onto Plate with Inspiration (temple_Trap_Activate_DEBUG_EmotionalPlate_Inspired)" Value="184052" />
+  <Preset Label="Make Offering to Sun Glyph (temple_Trap_Activate_DEBUG_Glyph_0)" Value="184054" />
+  <Preset Label="Make Offering to Leaves Glyph (temple_Trap_Activate_DEBUG_Glyph_1)" Value="184055" />
+  <Preset Label="Make Offering to Arrowhead Glyph (temple_Trap_Activate_DEBUG_Glyph_2)" Value="184056" />
+  <Preset Label="Make Offering to Tree Glyph (temple_Trap_Activate_DEBUG_Glyph_3)" Value="184057" />
+  <Preset Label="Blame For Temple Dangers (temple_Trap_Activate_DEBUG_MoodySculpture_Blame)" Value="184059" />
+  <Preset Label="Compliment Carvings (temple_Trap_Activate_DEBUG_MoodySculpture_Compliment)" Value="184060" />
+  <Preset Label="Insult Crumbling Stone (temple_Trap_Activate_DEBUG_MoodySculpture_Insult)" Value="184061" />
+  <Preset Label="Tell Skeleton Pun (temple_Trap_Activate_DEBUG_MoodySculpture_SkeletonPun)" Value="184062" />
+  <Preset Label="Reach Into Sun Glyph Hole (temple_Trap_Activate_DEBUG_Pillar_0)" Value="184064" />
+  <Preset Label="Reach Into Leaves Glyph Hole (temple_Trap_Activate_DEBUG_Pillar_1)" Value="184065" />
+  <Preset Label="Reach Into Arrowhead Glyph Hole (temple_Trap_Activate_DEBUG_Pillar_2)" Value="184066" />
+  <Preset Label="Reach Into Tree Glyph Hole (temple_Trap_Activate_DEBUG_Pillar_3)" Value="184067" />
+  <Preset Label="Assemble Sun Glyphs (temple_Trap_Activate_DEBUG_RotatingSculpture_0)" Value="184069" />
+  <Preset Label="Assemble Leaves Glyphs (temple_Trap_Activate_DEBUG_RotatingSculpture_1)" Value="184070" />
+  <Preset Label="Assemble Arrowhead Glyphs (temple_Trap_Activate_DEBUG_RotatingSculpture_2)" Value="184071" />
+  <Preset Label="Assemble Tree Glyphs (temple_Trap_Activate_DEBUG_RotatingSculpture_3)" Value="184072" />
+  <Preset Label="Pull Left Warrior's Weapon (temple_Trap_Activate_DEBUG_Skeletons_Left)" Value="184074" />
+  <Preset Label="Pull Middle Warrior's Weapon (temple_Trap_Activate_DEBUG_Skeletons_Middle)" Value="184075" />
+  <Preset Label="Pull Right Warrior's Weapon (temple_Trap_Activate_DEBUG_Skeletons_Right)" Value="184076" />
+  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_Smart_Hub)" Value="203844" />
+  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop_Smart_Hub)" Value="203845" />
+  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_WaterScooter)" Value="205201" />
+  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop_WaterScooter)" Value="205202" />
+  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop_Bot)" Value="223589" />
+  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_Bot)" Value="223590" />
+</PresetGroup>

@@ -8,7 +8,9 @@ namespace Constructor5.Elements.LootActionSets
 {
     public abstract class LootAction : INotifyPropertyChanged, IHasSettableLabel
     {
+#pragma warning disable CS0067
         public event PropertyChangedEventHandler PropertyChanged;
+#pragma warning restore CS0067
 
         public string ActionGuid
         {

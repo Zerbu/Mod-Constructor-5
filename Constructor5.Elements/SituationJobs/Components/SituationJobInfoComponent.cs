@@ -16,7 +16,7 @@ namespace Constructor5.Elements.SituationJobs.Components
         public bool CanBeHired { get; set; }
 
         public override int ComponentDisplayOrder => 1;
-        public override string ComponentLabel => "Situation Job Info";
+        public override string ComponentLabel => "SituationJobInfo";
 
         [AutoTuneIfTrue("confirm_leave_situation_for_work")]
         public bool ConfirmLeaveForWork { get; set; } = true;

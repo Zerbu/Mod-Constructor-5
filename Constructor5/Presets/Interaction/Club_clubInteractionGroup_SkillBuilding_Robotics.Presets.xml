@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Label="Build Robots">
+  <Preset Label="Craft (roboticsTable_Craft_Autonomously_NPC)" Value="229577" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_10)" Value="229959" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_2)" Value="229960" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_3)" Value="229961" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_4)" Value="229962" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_5)" Value="229963" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_6)" Value="229964" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_7)" Value="229965" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_8)" Value="229966" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance_Level_9)" Value="229958" />
+  <Preset Label="Resume {0.String} (craftingResume_Robotics)" Value="220652" />
+  <Preset Label="roboticsTable_CraftingPhase_Craftables" Value="218736" />
+  <Preset Label="roboticsTable_CraftingPhase_HumanoidRobot" Value="221698" />
+  <Preset Label="Craft Servo (roboticsTable_CraftingPicker_HumanoidRobot)" Value="221699" />
+  <Preset Label="Craft RC Quadcopter (roboticsTable_CraftingPicker_QuadCopter)" Value="222709" />
+  <Preset Label="Craft Chatter Bot (roboticsTable_CraftingPicker_ToyRobot)" Value="221265" />
+  <Preset Label="Cleaner-Bot (roboticsTable_CraftingPicker_Bots_Cleaner)" Value="218779" />
+  <Preset Label="Gardener-Bot (roboticsTable_CraftingPicker_Bots_Gardening)" Value="223405" />
+  <Preset Label="Party-Bot (roboticsTable_CraftingPicker_Bots_Party)" Value="223404" />
+  <Preset Label="Fixer-Bot (roboticsTable_CraftingPicker_Bots_Repair)" Value="223406" />
+  <Preset Label="Craft Robo-Arm (roboticsTable_CraftingPicker_RoboticArm)" Value="223462" />
+  <Preset Label="Craft Experimental Motivators (roboticsTable_CraftingPicker_BehaviorBombs)" Value="221264" />
+  <Preset Label="Craft Computer Glasses (roboticsTable_CraftingPicker_ComputerGlasses)" Value="223586" />
+  <Preset Label="Craft Materials (roboticsTable_CraftingPicker_Materials)" Value="223573" />
+  <Preset Label="Craft ExoMech Helmet (roboticsTable_CraftingPicker_MechanicalHelmet)" Value="223599" />
+  <Preset Label="Craft ExoMech Suit (roboticsTable_CraftingPicker_MechanicalSuit)" Value="223584" />
+  <Preset Label="Repair Utili-Bot (roboticsTable_Interactions_Bots_WorkOn_Repair)" Value="228405" />
+  <Preset Label="Tune Up (roboticsTable_Interactions_Bots_WorkOn_TuneUp)" Value="228003" />
+  <Preset Label="Put {1.ObjectName} on WorkStation (roboticsTable_Interactions_FromInventory_Bots_WorkOn)" Value="222100" />
+  <Preset Label="Put {1.ObjectName} on WorkStation (roboticsTable_Interactions_FromWorld_Bots_WorkOn)" Value="222132" />
+  <Preset Label="Put {1.ObjectName} on WorkStation (roboticsTable_Interactions_FromWorld_Bots_WorkOn_DeactivateFirst)" Value="227776" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_5_to_6)" Value="227428" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_1_to_2)" Value="222133" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_2_to_3)" Value="227425" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_3_to_4)" Value="227426" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_4_to_5)" Value="227427" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_6_to_7)" Value="227429" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_7_to_8)" Value="227430" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_8_to_9)" Value="227431" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_9_to_10)" Value="227432" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_1_to_2_RoboticsRank3)" Value="227473" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_2_to_3_RoboticsRank3)" Value="227474" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_3_to_4_RoboticsRank3)" Value="227475" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_4_to_5_RoboticsRank3)" Value="227476" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_5_to_6_RoboticsRank3)" Value="227477" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_6_to_7_RoboticsRank3)" Value="227478" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_7_to_8_RoboticsRank3)" Value="227479" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_8_to_9_RoboticsRank3)" Value="227480" />
+  <Preset Label="Enhance {1.ObjectName} (roboticsTable_Interactions_Bots_OnTable_Enhance_9_to_10_RoboticsRank3)" Value="227481" />
+  <Preset Label="Craft (autonomous_RoboticBuildingSession_BuildBots)" Value="225386" />
+  <Preset Label="Dabble With Circuit Boards (roboticsTable_EngineeringCareer_DabbleWithCircuitBoard)" Value="221807" />
+  <Preset Label="Investigate Equipment Failures (roboticsTable_EngineeringCareer_InvestigateEquipmentFailures)" Value="221809" />
+  <Preset Label="Practice Welding Techniques (roboticsTable_EngineeringCareer_PracticeWelding)" Value="221806" />
+  <Preset Label="Test Experimental Components (roboticsTable_EngineeringCareer_TestExperimentalComponents)" Value="221808" />
+  <Preset Label="Tinker at Robotics Workstation (roboticsTable_EngineeringCareer_Tinker)" Value="222082" />
+  <Preset Label="Self Enhance (humanoid_Robots_SelfInteraction_Enhance)" Value="228196" />
+  <Preset Label="Self-Repair (humanoid_Robots_SelfInteraction_TuneUp)" Value="228195" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level10)" Value="227170" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level1)" Value="219966" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level2)" Value="227232" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level3)" Value="227163" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level4)" Value="227164" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level5)" Value="227165" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level6)" Value="227166" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level7)" Value="227167" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level8)" Value="227168" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level9)" Value="227169" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level10_RoboticsRank3)" Value="227375" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level1_RoboticsRank3)" Value="227374" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level2_RoboticsRank3)" Value="227376" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level3_RoboticsRank3)" Value="227377" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level4_RoboticsRank3)" Value="227378" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level5_RoboticsRank3)" Value="227379" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level6_RoboticsRank3)" Value="227380" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level7_RoboticsRank3)" Value="227381" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level8_RoboticsRank3)" Value="227382" />
+  <Preset Label="Enhance {1.ObjectName} (humanoid_Robots_WorkOnRobot_Enhance_Level9_RoboticsRank3)" Value="227383" />
+</PresetGroup>

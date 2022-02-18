@@ -1,0 +1,620 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP02">
+  <Preset Label="Everyday (closet_TryNewOutfit_Everyday)" Value="121077" />
+  <Preset Label="Formal (closet_TryNewOutfit_Formal)" Value="121078" />
+  <Preset Label="Athletic (closet_TryNewOutfit_Athletic)" Value="121079" />
+  <Preset Label="Sleepwear (closet_TryNewOutfit_Sleep)" Value="121080" />
+  <Preset Label="Party (closet_TryNewOutfit_Party)" Value="121081" />
+  <Preset Label="Swimwear (closet_TryNewOutfit_Swimwear)" Value="121082" />
+  <Preset Label="Keep Outfit (closet_KeepOutfit_Everyday)" Value="121094" />
+  <Preset Label="Keep Outfit (closet_KeepOutfit_Formal)" Value="121095" />
+  <Preset Label="Keep Outfit (closet_KeepOutfit_Athletic)" Value="121096" />
+  <Preset Label="Keep Outfit (closet_KeepOutfit_Sleep)" Value="121097" />
+  <Preset Label="Keep Outfit (closet_KeepOutfit_Party)" Value="121098" />
+  <Preset Label="Keep Outfit (closet_KeepOutfit_Swimwear)" Value="121099" />
+  <Preset Label="Keep Outfit (closet_RemoveOutfit_Picker_Athletic)" Tags="TestUnsafe" Value="121229" />
+  <Preset Label="Keep Outfit (closet_RemoveOutfit_Picker_Everyday)" Tags="TestUnsafe" Value="121230" />
+  <Preset Label="Keep Outfit (closet_RemoveOutfit_Picker_Formal)" Tags="TestUnsafe" Value="121231" />
+  <Preset Label="Keep Outfit (closet_RemoveOutfit_Picker_Party)" Tags="TestUnsafe" Value="121232" />
+  <Preset Label="Keep Outfit (closet_RemoveOutfit_Picker_Sleep)" Tags="TestUnsafe" Value="121233" />
+  <Preset Label="Keep Outfit (closet_RemoveOutfit_Picker_Swimwear)" Tags="TestUnsafe" Value="121234" />
+  <Preset Label="Show Off Outfit (closet_TryNewOutfit_Poses_SI)" Value="121402" />
+  <Preset Label="closet_TryNewOutfit_Poses_Mixers_Normal" Value="121405" />
+  <Preset Label="DJ Spinning (DJBooth_Play)" Value="121412" />
+  <Preset Label="generic_DJBooth" Value="121423" />
+  <Preset Label="Chat (clubSocialSuperInteraction_clubChat)" Value="121511" />
+  <Preset Label="Practice (foosballTable_Play)" Value="121528" />
+  <Preset Label="foosballTable_SocialMixer_PlaySideA_0" Tags="TestUnsafe" Value="121539" />
+  <Preset Label="Enable Telesplosion! (DJBooth_Telesplosion_On)" Value="121626" />
+  <Preset Label="Disable Telesplosion (DJBooth_Telesplosion_Off)" Value="121633" />
+  <Preset Label="closet_TryNewOutfit_Poses_Mixers_Funny" Value="121782" />
+  <Preset Label="closet_TryNewOutfit_Poses_Mixers_Selfie" Value="121783" />
+  <Preset Label="closet_TryNewOutfit_Poses_Mixers_Uncomfortable" Value="121784" />
+  <Preset Label="closet_TryNewOutfit_Poses_Mixers_Flirty" Value="121785" />
+  <Preset Label="closet_TryNewOutfit_Poses_Mixers_Confident" Value="121786" />
+  <Preset Label="closet_TryNewOutfit_Poses_Mixers_Fail" Value="121787" />
+  <Preset Label="generic_standIntimate" Value="121809" />
+  <Preset Label="generic_Closet" Value="122060" />
+  <Preset Label="Tend (espressoBar_Tend)" Value="122156" />
+  <Preset Label="espressoMachine_create_espressoCup" Value="122161" />
+  <Preset Label="espressoMachine_craftingPhase_brew" Value="122166" />
+  <Preset Label="Order Food (bar_pushOrderFood)" Value="122205" />
+  <Preset Label="Watch Clothes Being Tried On (closet_Watch)" Value="122207" />
+  <Preset Label="For Here (espressoMachine_makeDrink_StartCrafting)" Value="122230" />
+  <Preset Label="Clean (espressoBar_Clean)" Value="122249" />
+  <Preset Label="Athletic (closet_TryNewOutfit_Gather_Athletic)" Value="122331" />
+  <Preset Label="Everyday (closet_TryNewOutfit_Gather_Everyday)" Value="122332" />
+  <Preset Label="Formal (closet_TryNewOutfit_Gather_Formal)" Value="122333" />
+  <Preset Label="Party (closet_TryNewOutfit_Gather_Party)" Value="122334" />
+  <Preset Label="Sleepwear (closet_TryNewOutfit_Gather_Sleep)" Value="122335" />
+  <Preset Label="Swimwear (closet_TryNewOutfit_Gather_Swimwear)" Value="122336" />
+  <Preset Label="espressoMachine_craftingPhase_filterAttach" Value="122342" />
+  <Preset Label="espressoGrinder_craftingPhase_Grind" Value="122344" />
+  <Preset Label="Dance (DJBooth_Dance)" Value="122399" />
+  <Preset Label="espressoMachine_craftingPhase_frothPour" Value="122510" />
+  <Preset Label="Clean (espressoMachine_Clean)" Value="122525" />
+  <Preset Label="Clean (espressoGrinder_Clean)" Value="122528" />
+  <Preset Label="EspressoMachine_craftingPhase_RemoveFilter_CreateCarriedObject" Value="122550" />
+  <Preset Label="espressoMachine_craftingPhase_cancelCarry_destoryFilter" Value="122576" />
+  <Preset Label="For Here (espressoMachine_PushOrderDrink)" Value="122606" />
+  <Preset Label="For Here (espressoBar_PushOrderDrink_Autonomous)" Value="122621" />
+  <Preset Label="Watch (DJBooth_Watch)" Value="122659" />
+  <Preset Label="DJBooth_Play_DJActions" Value="122679" />
+  <Preset Label="Hyped! (dJBooth_GetHyped_crowdReact)" Value="122683" />
+  <Preset Label="generic_FoosballTableSideA" Value="122704" />
+  <Preset Label="foosballTable_SocialMixer_ScoreSideA" Tags="TestUnsafe" Value="122718" />
+  <Preset Label="foosballTable_SocialMixer_DropBall" Tags="TestUnsafe" Value="122727" />
+  <Preset Label="Play With (foosballTable_PlayWith)" Tags="TestUnsafe" Value="122731" />
+  <Preset Label="foosballTable_SocialMixer_ScoreSideB" Tags="TestUnsafe" Value="122795" />
+  <Preset Label="Watch Foosball (foosballTable_WatchGame)" Value="122797" />
+  <Preset Label="foosballTable_SocialMixer_HighFiveSideA" Tags="TestUnsafe" Value="122887" />
+  <Preset Label="foosballTable_SocialMixer_HighFiveSideB" Tags="TestUnsafe" Value="122888" />
+  <Preset Label="Discuss Foosball Game (mixer_foosball_DiscussGame)" Tags="TestUnsafe" Value="122889" />
+  <Preset Label="mixer_foosball_watch_passive" Value="122909" />
+  <Preset Label="espressoBar_CreateFood" Value="122930" />
+  <Preset Label="Point And Laugh (reactions_Club_LaughAt_Gamescom)" Value="122958" />
+  <Preset Label="DJBooth_crowdReact_GetHyped_mixer" Value="122967" />
+  <Preset Label="Invite To {0.String} (mixer_Social_Clubs_NT_InviteToClub)" Tags="TestUnsafe" Value="123127" />
+  <Preset Label="generic_FoosballTableSideB" Value="123135" />
+  <Preset Label="Dance (danceFloor_Dance)" Value="123173" />
+  <Preset Label="Consistently Perfect Pulls (si_espressoMachine_Upgrade)" Value="123194" />
+  <Preset Label="Continue Upgrading Consistently Perfect Pulls (si_espressoMachine_Upgrade_Resume)" Value="123195" />
+  <Preset Label="Apply To {0.String} (mixer_Social_Clubs_NT_AskToJoin)" Tags="TestUnsafe" Value="123241" />
+  <Preset Label="Talk about {0.String} (mixer_Social_Clubs_NT_TalkAbout)" Tags="TestUnsafe" Value="123243" />
+  <Preset Label="Praise {0.String}'s Leader (mixer_Social_Clubs_NT_PraiseClubLeader)" Tags="TestUnsafe" Value="123244" />
+  <Preset Label="Complain about {0.String}'s Leader (mixer_Social_Clubs_NT_ComplainAboutClubLeader)" Tags="TestUnsafe" Value="123245" />
+  <Preset Label="Overthrow {0.String}'s Leader (mixer_Social_Clubs_NT_OverthrowClubLeader)" Tags="TestUnsafe" Value="123246" />
+  <Preset Label="Convince to Step Down as {0.String}'s Leader (mixer_Social_Clubs_NT_ConvinceLeaderToStepDown)" Tags="TestUnsafe" Value="123247" />
+  <Preset Label="Repair (object_Repair_EspressoMachine)" Value="123257" />
+  <Preset Label="Practice (foosballTable_Social_ScootSideA_0)" Value="123258" />
+  <Preset Label="Practice (foosballTable_Social_ScootSideB_1)" Value="123259" />
+  <Preset Label="Practice (foosballTable_Social_ScootSideA_2)" Value="123260" />
+  <Preset Label="Practice (foosballTable_Social_ScootSideB_3)" Value="123261" />
+  <Preset Label="foosballTable_SocialMixer_ScootSideA_0" Tags="TestUnsafe" Value="123266" />
+  <Preset Label="foosballTable_SocialMixer_ScootSideA_2" Tags="TestUnsafe" Value="123267" />
+  <Preset Label="foosballTable_SocialMixer_ScootSideB_3" Tags="TestUnsafe" Value="123268" />
+  <Preset Label="foosballTable_SocialMixer_ScootSideB_1" Tags="TestUnsafe" Value="123269" />
+  <Preset Label="Order Food (espressoBar_PushOrderFood_ForHere_StartCrafting)" Value="123311" />
+  <Preset Label="Cheer (reaction_Mixer_Foosball_Cheer)" Value="123313" />
+  <Preset Label="foosballTable_SocialMixer_Win" Tags="TestUnsafe" Value="123351" />
+  <Preset Label="Make Drink For (bar_SimPicker_MakeDrinkFor)" Tags="TestUnsafe" Value="123354" />
+  <Preset Label="foosballTable_SocialMixer_Lose" Tags="TestUnsafe" Value="123358" />
+  <Preset Label="si_touching_Greeting_FistBump" Value="123361" />
+  <Preset Label="si_touching_Greeting_EuroKiss" Value="123362" />
+  <Preset Label="si_nonTouching_Greeting_TeenGirlGiggle" Value="123383" />
+  <Preset Label="WooHoo With (wooHoo_Picker_Closet)" Tags="TestUnsafe" Value="123396" />
+  <Preset Label="WooHoo (WooHoo_Closet)" Value="123397" />
+  <Preset Label="generic_Closet_Woohoo" Value="123398" />
+  <Preset Label="espressoBar_serveDrinkToSlot_fromPickup" Value="123401" />
+  <Preset Label="espressoBar_serveDrinkToSlot_fromCarry" Value="123402" />
+  <Preset Label="espressoBar_chooseDelivery_fromCarry_Drink" Value="123407" />
+  <Preset Label="espressoBar_serveDrinkToSitSlot_fromCarry" Value="123409" />
+  <Preset Label="espressoBar_serveDrinkToSitSlot_fromPickup" Value="123410" />
+  <Preset Label="si_touching_Greeting_Club_SecretHandshake1" Value="123433" />
+  <Preset Label="WooHoo in Closet (mixer_social_WooHoo_targeted_romance_transition_Closet)" Tags="TestUnsafe" Value="123438" />
+  <Preset Label="si_nonTouching_Unpaired_Greeting_ScreamAndWave" Value="123479" />
+  <Preset Label="greetingReactionMixer_ScreamAndWave" Value="123486" />
+  <Preset Label="Order Food (espressoBar_PushOrderFood_Autonomous)" Value="123488" />
+  <Preset Label="foosballTable_SocialMixer_PlaySideA_2" Tags="TestUnsafe" Value="123528" />
+  <Preset Label="foosballTable_SocialMixer_PlaySideB_1" Tags="TestUnsafe" Value="123529" />
+  <Preset Label="foosballTable_SocialMixer_PlaySideB_3" Tags="TestUnsafe" Value="123530" />
+  <Preset Label="Brawl (si_Touching_Brawl)" Value="123542" />
+  <Preset Label="Make Favorite Drink (bar_StartCrafting_FavoriteDrink)" Value="123626" />
+  <Preset Label="Order Favorite Drink (bar_PushOrderDrink_FavoriteDrink)" Value="123642" />
+  <Preset Label="Try for Baby (TryForBaby_Closet)" Value="123645" />
+  <Preset Label="Try for Baby in Closet (mixer_social_TryForBaby_targeted_romance_transition_Closet)" Tags="TestUnsafe" Value="123648" />
+  <Preset Label="Try for Baby With (tryForBaby_Female_Picker_Closet)" Tags="TestUnsafe" Value="123651" />
+  <Preset Label="Try for Baby With (tryForBaby_Male_Picker_Closet)" Tags="TestUnsafe" Value="123652" />
+  <Preset Label="Hire Professional DJ (object_HireNPC_DJ)" Value="123729" />
+  <Preset Label="Hire Professional DJ (object_HireSpecificNPC_DJ)" Value="123730" />
+  <Preset Label="Request Specific Professional DJ (djbooth_HireSpecificNPC_Picker)" Tags="TestUnsafe" Value="123731" />
+  <Preset Label="Hire Barista (object_HireNPC_Barista)" Value="123736" />
+  <Preset Label="Hire Barista (object_HireSpecificNPC_Barista)" Value="123737" />
+  <Preset Label="Request Specific Barista (espressobar_HireSpecificNPC_Picker)" Tags="TestUnsafe" Value="123738" />
+  <Preset Label="Groovin' (DJBooth_PlayMusic_genre_01_Groovin_lowSkill)" Value="123750" />
+  <Preset Label="Machine (DJBooth_PlayMusic_genre_02_Machine_lowSkill)" Value="123758" />
+  <Preset Label="Chip-Tune (DJBooth_PlayMusic_genre_03_ChipTune_lowSkill)" Value="123766" />
+  <Preset Label="Make Drink For (bar_Social_MakeDrinkFor)" Value="123767" />
+  <Preset Label="Chill-Out (DJBooth_PlayMusic_genre_04_ChillOut)" Value="123768" />
+  <Preset Label="Breakbeats (DJBooth_PlayMusic_genre_05_Breakbeats)" Value="123769" />
+  <Preset Label="Remixes (DJBooth_PlayMusic_genre_06_Remix)" Value="123770" />
+  <Preset Label="House (DJBooth_PlayMusic_genre_07_House)" Value="123771" />
+  <Preset Label="Hip-Hop (DJBooth_PlayMusic_genre_08_HipHop)" Value="123772" />
+  <Preset Label="Drum &amp; Bass (DJBooth_PlayMusic_genre_09_DrumAndBass)" Value="123773" />
+  <Preset Label="Noise (DJBooth_PlayMusic_genre_10_Noise)" Value="123774" />
+  <Preset Label="Scold Rule Breaker (mixer_social_ScoldClubMember_Targeted_Mean_AlwaysOn)" Tags="TestUnsafe" Value="123783" />
+  <Preset Label="Groovin' (DJBooth_PlayMusic_genre_01_Groovin_hiSkill)" Value="123784" />
+  <Preset Label="Machine (DJBooth_PlayMusic_genre_02_Machine_hiSkill)" Value="123786" />
+  <Preset Label="Chip-Tune (DJBooth_PlayMusic_genre_03_ChipTune_hiSkill)" Value="123788" />
+  <Preset Label="Order Drink For (bar_SimPicker_OrderDrinkFor)" Tags="TestUnsafe" Value="123811" />
+  <Preset Label="Install Plasma Display (DJBooth_Upgrade_VideoScreen_SI)" Value="123813" />
+  <Preset Label="Resume installing Plasma Display (DJBooth_Upgrade_VideoScreen_resume)" Value="123814" />
+  <Preset Label="Order Drink For (bar_Social_OrderDrinkFor)" Value="123827" />
+  <Preset Label="Resume adding Dynamic Surge Protection (DJBooth_Upgrade_Neverbreak_resume)" Value="123891" />
+  <Preset Label="Add Dynamic Surge Protection (DJBooth_Upgrade_Neverbreak_SI)" Value="123892" />
+  <Preset Label="Resume installing Wireless Display Override (DJBooth_Upgrade_Telesplosion_resume)" Value="123896" />
+  <Preset Label="Install Wireless Display Override (DJBooth_Upgrade_Telesplosion_SI)" Value="123897" />
+  <Preset Label="Equip Advanced Heat-Sink (DJBooth_Upgrade_Fireproof_SI)" Value="123937" />
+  <Preset Label="Resume equipping Advanced Heat-Sink (DJBooth_Upgrade_FireProof_resume)" Value="123938" />
+  <Preset Label="Equip Particle-Generators (DJBooth_Upgrade_VFXEmitter_SI)" Value="123939" />
+  <Preset Label="Resume equipping Particle-Generators (DJBooth_Upgrade_VFXEmitter_resume)" Value="123940" />
+  <Preset Label="Order Drink To Go (espressoBar_PushOrderDrinkToGo_Autonomous)" Value="123942" />
+  <Preset Label="To Go (espressoMachine_MakeDrinkToGo_StartCrafting)" Value="123943" />
+  <Preset Label="To Go (espressoMachine_PushOrderDrink_ToGo)" Value="123944" />
+  <Preset Label="Challenge Club (clubPickerSuperInteraction_FoosballTable_Challenge)" Tags="TestUnsafe" Value="123961" />
+  <Preset Label="Giggle (reactions_Woohoo_Closet_Giggle)" Value="123971" />
+  <Preset Label="DJBooth_GetHyped_autonomous_mixer" Value="123982" />
+  <Preset Label="Order Drink (bar_PushOrderDrink_FavoriteDrink_for_party)" Value="123983" />
+  <Preset Label="Advanced Heat-Sink (Completed) (DJBooth_Upgrade_Fireproof_completedDisplay)" Value="124001" />
+  <Preset Label="Plasma Display (Completed) (DJBooth_Upgrade_VideoScreen_completedDisplay)" Value="124002" />
+  <Preset Label="Dynamic Surge Protection (Completed) (DJBooth_Upgrade_Neverbreak_completedDisplay)" Value="124003" />
+  <Preset Label="Wireless Display Override (Completed) (DJBooth_Upgrade_Telesplosion_completedDisplay)" Value="124004" />
+  <Preset Label="Particle-Generators (Completed) (DJBooth_Upgrade_VFXEmitter_completedDisplay)" Value="124005" />
+  <Preset Label="si_touching_Greeting_Club_SecretHandShake2" Value="124006" />
+  <Preset Label="Make Drink (bar_StartCrafting_FavoriteDrink_for_party)" Value="124007" />
+  <Preset Label="Challenge to Foosball (foosballTable_Social_Challenge)" Value="124008" />
+  <Preset Label="Clean (espressoBarCompoundObject_Clean)" Value="124011" />
+  <Preset Label="Cheer (reaction_Mixer_Closet_TryOnOutfit_Cheer)" Value="124163" />
+  <Preset Label="Cheer (reactions_Closet_TryOnOutfit_Cheer)" Value="124186" />
+  <Preset Label="Order Food To Go (espressoBar_PushOrderFoodToGo_Autonomous)" Value="124242" />
+  <Preset Label="Order Food (espressoBar_PushOrderFood_ToGo_StartCrafting)" Value="124243" />
+  <Preset Label="Order Happy Hour Drink (bar_PushOrderHappyHourDrink)" Value="124245" />
+  <Preset Label="Order Promo Night Drink (bar_PushOrderPromotionDrink)" Value="124246" />
+  <Preset Label="Hire DJ Headliner (object_HireNPC_DJ_level10)" Value="124277" />
+  <Preset Label="espressoBar_chooseDelivery_fromCarry_BaristasChoice" Value="124287" />
+  <Preset Label="Travel Here with {0.String} Gathering (clubTravelHereWithGatheringSuperInteraction)" Value="124288" />
+  <Preset Label="Low (DJBooth_SetVolume_1_Low)" Value="124292" />
+  <Preset Label="High (DJBooth_SetVolume_3_High)" Value="124293" />
+  <Preset Label="Medium (DJBooth_SetVolume_2_Medium)" Value="124294" />
+  <Preset Label="espressoMachine_CraftingPhase_GrabCup" Value="124389" />
+  <Preset Label="espressoMachine_craftingPhase_filterAttach_Upgraded" Value="124419" />
+  <Preset Label="espressoMachine_create_espressoCup_Upgraded" Value="124440" />
+  <Preset Label="espressoMachine_CraftingPhase_GrabCup_Upgraded" Value="124445" />
+  <Preset Label="Make Unbreakable (DJBooth_Debug_Upgrade_Neverbreak)" Value="124448" />
+  <Preset Label="Enable Telesplosion (DJBooth_Debug_Upgrade_Telesplosion)" Value="124449" />
+  <Preset Label="Add Video Screen (DJBooth_Debug_Upgrade_VideoScreen)" Value="124451" />
+  <Preset Label="Add Special FX Machine (DJBooth_Debug_Upgrade_VFXEmitter)" Value="124452" />
+  <Preset Label="Make Fireproof (DJBooth_Debug_Upgrade_Fireproof)" Value="124453" />
+  <Preset Label="espressoMachine_craftingPhase_RemoveFilter_CreateCarriedObject_Upgraded" Value="124454" />
+  <Preset Label="Dancefloor_Idle" Value="124462" />
+  <Preset Label="Arm-Charm (Dancefloor_move_1_Charm)" Value="124463" />
+  <Preset Label="Jimmy Leg (Dancefloor_move_3_Step)" Value="124464" />
+  <Preset Label="Light Spin (Dancefloor_move_4_Spin)" Value="124465" />
+  <Preset Label="Back Flip (Dancefloor_move_5_Backflip)" Value="124466" />
+  <Preset Label="Show Off Move (Dancefloor_ShowOffMoves)" Value="124478" />
+  <Preset Label="espressoMachine_craftingPhase_brew_Upgraded" Value="124488" />
+  <Preset Label="generic_Dancefloor_ShowOffMoves" Value="124489" />
+  <Preset Label="Wait for Barista (espressoBar_WaitForBarista)" Value="124686" />
+  <Preset Label="Play Groovin' (DJBooth_RequestGenre_01_Groovin_lowSKill)" Value="124748" />
+  <Preset Label="Play Machine (DJBooth_RequestGenre_02_Machine_lowSkill)" Value="124749" />
+  <Preset Label="Play Chip-Tune (DJBooth_RequestGenre_03_ChipTune_lowSkill)" Value="124750" />
+  <Preset Label="Play Chill-Out (DJBooth_RequestGenre_04_ChillOut)" Value="124751" />
+  <Preset Label="Play Breakbeats (DJBooth_RequestGenre_05_Breakbeats)" Value="124752" />
+  <Preset Label="Play Remixes (DJBooth_RequestGenre_06_Remix)" Value="124753" />
+  <Preset Label="Play House (DJBooth_RequestGenre_07_House)" Value="124754" />
+  <Preset Label="Play Hip-Hop (DJBooth_RequestGenre_08_HipHop)" Value="124755" />
+  <Preset Label="Play Drum &amp; Bass (DJBooth_RequestGenre_09_DrumAndBass)" Value="124756" />
+  <Preset Label="Play Noise (DJBooth_RequestGenre_10_Noise)" Value="124757" />
+  <Preset Label="Play Groovin' (DJBooth_RequestGenre_01_Groovin_hiSkill)" Value="124761" />
+  <Preset Label="Play Machine (DJBooth_RequestGenre_02_Machine_hiSkill)" Value="124762" />
+  <Preset Label="Play Chip-Tune (DJBooth_RequestGenre_03_ChipTune_hiSkill)" Value="124763" />
+  <Preset Label="Play In Closet (closet_Play)" Value="124801" />
+  <Preset Label="Plan Outfit (closet_ChangeOutfit)" Value="124803" />
+  <Preset Label="Change Outfit Of (closet_Picker_ChangeOutfit)" Tags="TestUnsafe" Value="124811" />
+  <Preset Label="Challenge Sim (foosballTable_ChallengeSim)" Tags="TestUnsafe" Value="124819" />
+  <Preset Label="Challenge to Foosball (foosballTable_Social_Challenge_Solo)" Value="124821" />
+  <Preset Label="Cry In Closet (closet_Cry)" Value="124824" />
+  <Preset Label="Console {2.SimName} (closet_console)" Value="124830" />
+  <Preset Label="Ask about Another Sim (simPicker_GoingOutSocials_AskAboutAnotherSim)" Tags="TestUnsafe" Value="124875" />
+  <Preset Label="Ask about Other Sim (mixer_social_GoingOutSocials_AskAboutAnotherSim)" Tags="TestUnsafe" Value="124958" />
+  <Preset Label="npc_Leave_Lot_Now_Must_Run_Klobber_Everything" Value="124972" />
+  <Preset Label="Laugh At (reaction_Mixer_Foosball_Laugh)" Value="125054" />
+  <Preset Label="espressoMachine_destroyCup" Value="125066" />
+  <Preset Label="Travel to The Bluffs... (go_To_Specific_Lot_EuroBramble_ToOceanBluff)" Value="125078" />
+  <Preset Label="Travel to The Bluffs (rabbitHole_EuroBramble_Travelto_OceanBluff)" Value="125090" />
+  <Preset Label="Travel to Ancient Ruins (rabbitHole_EuroBramble_Travelto_Ruins)" Value="125096" />
+  <Preset Label="Travel to Ancient Ruins... (go_To_Specific_Lot_EuroBramble_ToRuins)" Value="125097" />
+  <Preset Label="Travel Home (rabbitHole_EuroBramble_TravelFrom_OceanBluff)" Value="125104" />
+  <Preset Label="Travel Home (rabbitHole_EuroBramble_TravelFrom_Ruins)" Value="125105" />
+  <Preset Label="Travel Back Home... (go_To_Specific_Lot_EuroBramble_ReturnHome)" Value="125107" />
+  <Preset Label="Watch Dancer (Dancefloor_Watch)" Value="125204" />
+  <Preset Label="Mess Around With (closet_messAround_Picker)" Tags="TestUnsafe" Value="125263" />
+  <Preset Label="Arm-Charm (Dancefloor_ShowOffMoves_Charm)" Value="125271" />
+  <Preset Label="Light Spin (Dancefloor_ShowOffMoves_Spin)" Value="125272" />
+  <Preset Label="Jimmy Leg (Dancefloor_ShowOffMoves_Step)" Value="125273" />
+  <Preset Label="Back Flip (Dancefloor_ShowOffMoves_Backflip)" Value="125274" />
+  <Preset Label="Make Out With (closet_Picker_MakeOut)" Tags="TestUnsafe" Value="125275" />
+  <Preset Label="Make Out in Closet (mixer_social_Closet_MakeOut_targeted_romance_highScore)" Tags="TestUnsafe" Value="125281" />
+  <Preset Label="Make Out in Closet (socialSI_Closet_MakeOut)" Value="125292" />
+  <Preset Label="privacy_Dancefloor_violation_reaction" Value="125299" />
+  <Preset Label="Cheer (Dancefloor_Watch_reaction_cheer)" Value="125344" />
+  <Preset Label="Heckle (Dancefloor_Watch_reaction_heckle)" Value="125345" />
+  <Preset Label="Everyday (mixer_social_targeted_friendly_MiddleScore_SeeOutfit_Everyday)" Tags="TestUnsafe" Value="125431" />
+  <Preset Label="Formal (mixer_social_targeted_friendly_MiddleScore_SeeOutfit_Formal)" Tags="TestUnsafe" Value="125432" />
+  <Preset Label="Athletic (mixer_social_targeted_friendly_MiddleScore_SeeOutfit_Athletic)" Tags="TestUnsafe" Value="125433" />
+  <Preset Label="Swimwear (mixer_social_targeted_friendly_MiddleScore_SeeOutfit_Swim)" Tags="TestUnsafe" Value="125434" />
+  <Preset Label="Sleepwear (mixer_social_targeted_friendly_MiddleScore_SeeOutfit_Sleep)" Tags="TestUnsafe" Value="125435" />
+  <Preset Label="Party (mixer_social_targeted_friendly_MiddleScore_SeeOutfit_Party)" Tags="TestUnsafe" Value="125436" />
+  <Preset Label="espressoBar_ChooseFoodDelivery" Value="125456" />
+  <Preset Label="espressoBar_ServeFoodToSlot" Value="125459" />
+  <Preset Label="espressoBar_ServeFoodToSitSlot" Value="125460" />
+  <Preset Label="Put Away To Go Food (espressoBarFood_Put_In_Inventory_ToGo)" Value="125479" />
+  <Preset Label="espressoBar_ChooseFoodDelivery_ToGo" Value="125484" />
+  <Preset Label="Order Drink (espressoBar_OrderDrink)" Value="125486" />
+  <Preset Label="Order Food (espressoBar_OrderFood)" Value="125487" />
+  <Preset Label="Discuss DJ Techniques (mixer_social_DiscussDJMusic_targeted_Friendly_alwaysOn_STC)" Tags="TestUnsafe" Value="125528" />
+  <Preset Label="Ask to Start {0.String} Gathering (mixer_Social_Clubs_NT_AskToStartClubGathering)" Tags="TestUnsafe" Value="125584" />
+  <Preset Label="Discuss Feelings about {0.String} (mixer_Social_Clubs_NT_DiscussLeadersFeelings)" Tags="TestUnsafe" Value="125590" />
+  <Preset Label="Exchange Numbers (mixer_social_GoingOutSocials_ExchangeNumbers)" Tags="TestUnsafe" Value="125637" />
+  <Preset Label="Share Photos (mixer_social_GoingOutSocials_SharePhoto)" Tags="TestUnsafe" Value="125675" />
+  <Preset Label="Quit {0.String} (mixer_Social_Clubs_NT_QuitClub)" Tags="TestUnsafe" Value="125760" />
+  <Preset Label="Kick Out of {0.String} (mixer_Social_Clubs_NT_KickOut)" Tags="TestUnsafe" Value="125762" />
+  <Preset Label="View Clubs... (mixer_social_AskAboutClubs_Targeted_Friendly_AlwaysOn_Clubs)" Tags="TestUnsafe" Value="125774" />
+  <Preset Label="Create Custom Mix (DJBooth_StartWriting)" Value="125854" />
+  <Preset Label="DJBooth_WriteSong_Staging" Value="125855" />
+  <Preset Label="DJBooth_CreateMixTape" Value="125866" />
+  <Preset Label="reaction_Club_Mixer_Aggregate_MemberQuitClub" Value="125918" />
+  <Preset Label="React To Member Quitting (reaction_Mixer_Clubs_MemberQuit_LowRel)" Value="125922" />
+  <Preset Label="React To Member Quitting (reaction_Mixer_Clubs_MemberQuit_NeutralRel)" Value="125923" />
+  <Preset Label="React To Member Quitting (reaction_Mixer_Clubs_MemberQuit_HighRel)" Value="125924" />
+  <Preset Label="Scrap Painting (canvas_ScrapPainting_ChaletGhostOnly)" Value="126022" />
+  <Preset Label="DJBooth_CraftSong_DJPassive" Value="126036" />
+  <Preset Label="generic_RabbitHole_EuroBrambles" Value="126038" />
+  <Preset Label="Party Time! (solo_Trait_DanceMachine_PartyTime)" Value="126105" />
+  <Preset Label="Play Custom Mix (DJBooth_Play_Song_Written)" Value="126111" />
+  <Preset Label="Talk about Latest Party (mixer_social_targeted_TalkAboutParty_Trait_DanceMachine)" Tags="TestUnsafe" Value="126117" />
+  <Preset Label="License Song (licenseSong_DJMix)" Value="126119" />
+  <Preset Label="Idle_Trait_DanceMachine" Value="126212" />
+  <Preset Label="Wander Maze (si_ChaletGardens_WanderMaze)" Value="126223" />
+  <Preset Label="Wander Maze (si_ChaletGardens_WanderToObjectAndReact)" Value="126224" />
+  <Preset Label="reaction_Mixer_ClubPerks_SetVibe_Angry" Value="126227" />
+  <Preset Label="reaction_Mixer_ClubPerks_SetVibe_Confident" Value="126228" />
+  <Preset Label="reaction_Mixer_ClubPerks_SetVibe_Energized" Value="126229" />
+  <Preset Label="reaction_Mixer_ClubPerks_SetVibe_Flirty" Value="126230" />
+  <Preset Label="reaction_Mixer_ClubPerks_SetVibe_Focused" Value="126231" />
+  <Preset Label="reaction_Mixer_ClubPerks_SetVibe_Inspired" Value="126232" />
+  <Preset Label="reaction_Mixer_ClubPerks_SetVibe_Playful" Value="126233" />
+  <Preset Label="reaction_Mixer_ClubPerks_SetVibe_Sad" Value="126234" />
+  <Preset Label="DJBooth_FeelTheCrowd_reaction_Flirty" Value="126256" />
+  <Preset Label="DJBooth_FeelTheCrowd_reaction_Confident" Value="126257" />
+  <Preset Label="DJBooth_FeelTheCrowd_reaction_Dazed" Value="126258" />
+  <Preset Label="DJBooth_FeelTheCrowd_reaction_Energized" Value="126259" />
+  <Preset Label="Set Angry Vibe (clubSocialSuperInteraction_SetVibe_Angry)" Value="126292" />
+  <Preset Label="Set Confident Vibe (clubSocialSuperInteraction_SetVibe_Confident)" Value="126293" />
+  <Preset Label="Set Energized Vibe (clubSocialSuperInteraction_SetVibe_Energized)" Value="126294" />
+  <Preset Label="Set Flirty Vibe (clubSocialSuperInteraction_SetVibe_Flirty)" Value="126295" />
+  <Preset Label="Set Focused Vibe (clubSocialSuperInteraction_SetVibe_Focused)" Value="126296" />
+  <Preset Label="Set Inspired Vibe (clubSocialSuperInteraction_SetVibe_Inspired)" Value="126297" />
+  <Preset Label="Set Playful Vibe (clubSocialSuperInteraction_SetVibe_Playful)" Value="126298" />
+  <Preset Label="Set Sad Vibe (clubSocialSuperInteraction_SetVibe_Sad)" Value="126299" />
+  <Preset Label="Cheer (DJBooth_crowdReact_Watch_cheer)" Value="126407" />
+  <Preset Label="Heckle (DJBooth_crowdReact_Watch_heckle)" Value="126408" />
+  <Preset Label="idle_Trait_Insider" Value="126413" />
+  <Preset Label="Rally The Troops (clubSocialSuperInteraction_RallyTheTroops)" Value="126434" />
+  <Preset Label="reaction_Mixer_ClubPerks_RallyTheTroops" Value="126438" />
+  <Preset Label="{0.String} Handshake (clubSocial_ClubPerk_SecretHandshake_1)" Value="126460" />
+  <Preset Label="{0.String} Handshake (clubSocial_ClubPerk_SecretHandshake_2)" Value="126461" />
+  <Preset Label="Convince To Quit {0.String} (mixer_Social_Clubs_NT_ConviceToLeaveClub)" Tags="TestUnsafe" Value="126553" />
+  <Preset Label="Resign From {0.String} (mixer_Social_Clubs_NT_ResignFromClub)" Tags="TestUnsafe" Value="126554" />
+  <Preset Label="All Off (DJBooth_VFXSettings_0_Off)" Value="126669" />
+  <Preset Label="Fog Only (DJBooth_VFXSettings_1_Fog)" Value="126670" />
+  <Preset Label="Lasers Only (DJBooth_VFXSettings_2_Lasers)" Value="126671" />
+  <Preset Label="All On (DJBooth_VFXSettings_3_AllOn)" Value="126672" />
+  <Preset Label="DJBooth_crowdReact_GetHyped_child" Value="126735" />
+  <Preset Label="nonTouching_Unpaired_Greeting_Insider" Value="126868" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_EspressoMachine)" Value="126874" />
+  <Preset Label="greetingReactionMixer_Insider" Value="126875" />
+  <Preset Label="Travel to The Bluffs (rabbitHole_EuroBramble_Picker_TravelWith_OceanBluff)" Tags="TestUnsafe" Value="126908" />
+  <Preset Label="Travel to Ancient Ruins (rabbitHole_EuroBramble_Picker_TravelWith_Ruins)" Tags="TestUnsafe" Value="126910" />
+  <Preset Label="Travel Back Home (rabbitHole_EuroBramble_Picker_TravelWith_BackHomeOceanBluff)" Tags="TestUnsafe" Value="126911" />
+  <Preset Label="Travel Back Home (rabbitHole_EuroBramble_Picker_TravelWith_BackHomeRuins)" Tags="TestUnsafe" Value="126912" />
+  <Preset Label="Request Specific Headliner DJ (djbooth_HireSpecificHeadlinerNPC_Picker)" Tags="TestUnsafe" Value="127025" />
+  <Preset Label="Hire Headliner DJ (object_HireSpecificNPC_HeadlinerDJ)" Value="127026" />
+  <Preset Label="Tell Insider Story (mixer_social_InsiderTrait_TellInsiderStory_Friendly_MiddleScore)" Tags="TestUnsafe" Value="127029" />
+  <Preset Label="si_Social_ChaletGardensGhost_Argue" Value="127046" />
+  <Preset Label="Play With (foosballTable_PlayWithWhilePlaying)" Tags="TestUnsafe" Value="127051" />
+  <Preset Label="bar_ChooseMultiFoodDelivery" Value="127073" />
+  <Preset Label="Ask to Change Outfit (socialSI_Closet_ChangeOutfitAsk)" Value="127099" />
+  <Preset Label="Pump-Pop (Dancefloor_move_2_Pump)" Value="127120" />
+  <Preset Label="Pump-Pop (Dancefloor_ShowOffMoves_Pump)" Value="127121" />
+  <Preset Label="{0.String} Handshake (clubSocial_ClubPerk_SecretHandshake_3)" Value="127131" />
+  <Preset Label="si_touching_Greeting_Club_SecretHandshake3" Value="127134" />
+  <Preset Label="Send Flirty Text (phone_Text_Flirty)" Value="127146" />
+  <Preset Label="Send Sad Text (phone_Text_Sad)" Value="127147" />
+  <Preset Label="Send Playful Text (phone_Text_Playful)" Value="127148" />
+  <Preset Label="Send Happy Text (phone_Text_Happy)" Value="127149" />
+  <Preset Label="Send Energized Text (phone_Text_Energized)" Value="127150" />
+  <Preset Label="Send Angry Text (phone_Text_Angry)" Value="127151" />
+  <Preset Label="Don't Wake the Llama (gameTable_ChangeGame_DontWakeLlama_Kid)" Value="127239" />
+  <Preset Label="Travel to Chalet Gardens (si_RabbitHole_OrnateGate_TravelTo_ChaletGardens)" Value="127261" />
+  <Preset Label="gtslti_ChaletGardens" Value="127262" />
+  <Preset Label="Invite Club to Hang Out (clubPickerSuperInteraction_InviteToHangout)" Tags="TestUnsafe" Value="127287" />
+  <Preset Label="Welcome Member to {0.String} (clubSocialSuperInteraction_WelcomeNewMember)" Value="127292" />
+  <Preset Label="Practice (DontWakeLlamaGame_Play)" Value="127342" />
+  <Preset Label="Play With (DontWakeLlama_PlayWith)" Tags="TestUnsafe" Value="127355" />
+  <Preset Label="dontWakeLlamaGame_TakeTurn" Tags="TestUnsafe" Value="127357" />
+  <Preset Label="dontWakeLlamaGame_Idle" Tags="TestUnsafe" Value="127358" />
+  <Preset Label="dontWakeLlamaGame_SetUp" Tags="TestUnsafe" Value="127359" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Low_Player_1" Value="127400" />
+  <Preset Label="arcadeMachine_Mixer_Playing_Player_4" Value="127401" />
+  <Preset Label="arcadeMachine_Mixer_WinLevel_Player_4" Value="127402" />
+  <Preset Label="Repair Arcade Machine (ArcadeMachine_RepairArcadeMachine)" Value="127415" />
+  <Preset Label="Watch Arcade Game (ArcadeMachine_WatchArcadeGame)" Value="127417" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Med_Player_4" Value="127419" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_High_Player_3" Value="127420" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Star_Player_4" Value="127421" />
+  <Preset Label="Play Darts (si_Dartboard_ThrowDarts)" Value="127473" />
+  <Preset Label="mixer_Dartboard_ThrowDart1" Value="127474" />
+  <Preset Label="{0.String} Handshake (clubSocial_ClubPerk_SecretHandshake_FistBump)" Value="127613" />
+  <Preset Label="mixer_Dartboard_ThrowDart2" Value="127617" />
+  <Preset Label="mixer_Dartboard_ThrowDart3" Value="127618" />
+  <Preset Label="Clean Up Game (si_DontWakeLlamaGame_Reset)" Value="127697" />
+  <Preset Label="Practice (DJBooth_PlayMusic_genre_00_Practice_level01)" Value="127738" />
+  <Preset Label="Practice (DJBooth_PlayMusic_genre_00_Practice_level09)" Value="127739" />
+  <Preset Label="Practice (DJBooth_PlayMusic_genre_00_Practice_level08)" Value="127740" />
+  <Preset Label="Practice (DJBooth_PlayMusic_genre_00_Practice_level07)" Value="127741" />
+  <Preset Label="Practice (DJBooth_PlayMusic_genre_00_Practice_level06)" Value="127742" />
+  <Preset Label="Practice (DJBooth_PlayMusic_genre_00_Practice_level05)" Value="127743" />
+  <Preset Label="Practice (DJBooth_PlayMusic_genre_00_Practice_level04)" Value="127744" />
+  <Preset Label="Practice (DJBooth_PlayMusic_genre_00_Practice_level03)" Value="127745" />
+  <Preset Label="Practice (DJBooth_PlayMusic_genre_00_Practice_level02)" Value="127746" />
+  <Preset Label="dontWakeLlamaGame_TakeTurn_KidGame" Tags="TestUnsafe" Value="127748" />
+  <Preset Label="Set On Fire (si_DontWakeLlamaGame_SetOnFire)" Value="127761" />
+  <Preset Label="Get Hyped (DJBooth_GetHyped_mixer)" Value="127794" />
+  <Preset Label="Watch (si_dontWakeLlamaGame_WatchGame)" Value="127798" />
+  <Preset Label="mixer_DontWakeLlama_watch_passive" Value="127803" />
+  <Preset Label="Get Confident (DJBooth_FeelTheCrowd_Confident_mixer)" Value="127845" />
+  <Preset Label="Get Dazed (DJBooth_FeelTheCrowd_Dazed_mixer)" Value="127846" />
+  <Preset Label="Get Energized (DJBooth_FeelTheCrowd_Energized_mixer)" Value="127847" />
+  <Preset Label="Get Flirty (DJBooth_FeelTheCrowd_Flirty_mixer)" Value="127848" />
+  <Preset Label="generic_Dartboard" Value="127855" />
+  <Preset Label="Play Darts (si_Dartboard_WaitForTurn)" Value="127869" />
+  <Preset Label="Watch Game (si_Dartboard_WatchGame)" Value="127871" />
+  <Preset Label="Travel to Chalet Gardens (si_SimPicker_ChaletGardensGate_TravelWith)" Tags="TestUnsafe" Value="127874" />
+  <Preset Label="Tip DJ (mixer_DJBooth_GiveTipToPlayer)" Value="127875" />
+  <Preset Label="Challenge (game_Social_Challenge_DontWakeLlama)" Value="127885" />
+  <Preset Label="Challenge Sim (si_Game_ChallengeSim_DontWakeLlamaGame)" Tags="TestUnsafe" Value="127887" />
+  <Preset Label="Read (si_ChaletGardens_Plaque_Read)" Value="127909" />
+  <Preset Label="Play With (simPicker_Dartboard_PlayWith)" Tags="TestUnsafe" Value="127910" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Low_Player_3" Value="127987" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Low_Player_2" Value="127988" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Low_Player_4" Value="127989" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Med_Player_3" Value="127990" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Med_Player_1" Value="127991" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Med_Player_2" Value="127992" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_High_Player_4" Value="127993" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_High_Player_1" Value="127994" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_High_Player_2" Value="127995" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Star_Player_3" Value="127996" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Star_Player_1" Value="127997" />
+  <Preset Label="arcadeMachine_Mixer_PlayerLoseLife_Star_Player_2" Value="127998" />
+  <Preset Label="arcadeMachine_Mixer_Playing_Player_3" Value="127999" />
+  <Preset Label="arcadeMachine_Mixer_Playing_Player_1" Value="128000" />
+  <Preset Label="arcadeMachine_Mixer_Playing_Player_2" Value="128001" />
+  <Preset Label="arcadeMachine_Mixer_WinLevel_Player_3" Value="128002" />
+  <Preset Label="arcadeMachine_Mixer_WinLevel_Player_1" Value="128003" />
+  <Preset Label="arcadeMachine_Mixer_WinLevel_Player_2" Value="128004" />
+  <Preset Label="Send Angry Text (phone_Picker_Text_Angry)" Tags="TestUnsafe" Value="128045" />
+  <Preset Label="Send Energized Text (phone_Picker_Text_Energized)" Tags="TestUnsafe" Value="128046" />
+  <Preset Label="Send Flirty Text (phone_Picker_Text_Flirty)" Tags="TestUnsafe" Value="128047" />
+  <Preset Label="Send Happy Text (phone_Picker_Text_Happy)" Tags="TestUnsafe" Value="128048" />
+  <Preset Label="Send Playful Text (phone_Picker_Text_Playful)" Tags="TestUnsafe" Value="128049" />
+  <Preset Label="Send Sad Text (phone_Picker_Text_Sad)" Tags="TestUnsafe" Value="128050" />
+  <Preset Label="Send Angry Text (phone_Text_Angry_FromPhonePicker)" Value="128064" />
+  <Preset Label="Send Energized Text (phone_Text_Energized_FromPhonePicker)" Value="128066" />
+  <Preset Label="Send Flirty Text (phone_Text_Flirty_FromPhonePicker)" Value="128068" />
+  <Preset Label="Send Happy Text (phone_Text_Happy_FromPhonePicker)" Value="128076" />
+  <Preset Label="immediateSI_ArcadeMachine_PlayerStartGame" Value="128080" />
+  <Preset Label="Send Playful Text (phone_Text_Playful_FromPhonePicker)" Value="128082" />
+  <Preset Label="Send Sad Text (phone_Text_Sad_FromPhonePicker)" Value="128084" />
+  <Preset Label="dance_skill_Passive_1_Low" Value="128141" />
+  <Preset Label="dance_skill_Passive_3_High" Value="128142" />
+  <Preset Label="mixer_Dartboard_ThrowIdle" Value="128159" />
+  <Preset Label="dance_skill_action_5_legSwerve" Value="128161" />
+  <Preset Label="dance_skill_action_2_stepSpin" Value="128162" />
+  <Preset Label="dance_skill_action_3_skipStep" Value="128163" />
+  <Preset Label="dance_skill_action_4_groovySnap" Value="128164" />
+  <Preset Label="dance_skill_action_1_seeSaw" Value="128165" />
+  <Preset Label="dance_skill_action_6_toeSpin" Value="128166" />
+  <Preset Label="dance_skill_action_7_armSwing" Value="128167" />
+  <Preset Label="dance_skill_action_8_twitchLean" Value="128168" />
+  <Preset Label="mixer_Dartboard_CheckForTurn" Value="128171" />
+  <Preset Label="dance_skill_Passive_2_Medium" Value="128189" />
+  <Preset Label="Discuss Dance Techniques (mixer_social_DiscussDanceTechnique_targeted_Friendly_alwaysOn_STC)" Tags="TestUnsafe" Value="128191" />
+  <Preset Label="Practice Dancing (mirrorFloor_PracticeDancing)" Value="128199" />
+  <Preset Label="Replace Don't Wake the Llama (gameTable_Replace_DontWakeLlama_Kid)" Value="128216" />
+  <Preset Label="Replace Don't Wake the Llama (gameTable_Replace_DontWakeLlama_Pub)" Value="128218" />
+  <Preset Label="Don't Wake the Llama (gameTable_ChangeGame_DontWakeLlama_Pub)" Value="128221" />
+  <Preset Label="Resume {0.String} (writeSong_Resume_mixtape)" Value="128229" />
+  <Preset Label="Play Darts (si_Dartboard_StartPlaying)" Value="128280" />
+  <Preset Label="Wait For Work (espressoBar_WaitForWork)" Value="128283" />
+  <Preset Label="Group Dance (danceTogether_JigPartConstraintInteraction)" Value="128413" />
+  <Preset Label="Discuss Game (mixer_Social_Dartboard_DiscussGame_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="128417" />
+  <Preset Label="Change Station (stereo_PickChannel_dJBooth)" Value="128427" />
+  <Preset Label="Turn Off (stereo_DJBooth_turnOff)" Value="128432" />
+  <Preset Label="Next Song (stereo_skipToNextSong_DJBooth)" Value="128433" />
+  <Preset Label="Play Darts (si_Dartboard_ReactToRoundScore)" Value="128440" />
+  <Preset Label="Dancefloor_GroupDance_move_1_Charm" Value="128462" />
+  <Preset Label="Dancefloor_GroupDance_move_2_Pump" Value="128463" />
+  <Preset Label="Dancefloor_GroupDance_move_3_Step" Value="128464" />
+  <Preset Label="Dancefloor_GroupDance_move_5_Backflip" Value="128466" />
+  <Preset Label="mixer_Dartboard_WinGame" Value="128473" />
+  <Preset Label="mixer_Dartboard_LoseGame" Value="128474" />
+  <Preset Label="specificLotTravel_AncientRuins" Value="128484" />
+  <Preset Label="Travel to Ancient Ruins (si_RabbitHole_OrnateGate_TravelTo_AncientRuins)" Value="128485" />
+  <Preset Label="Travel to Ancient Ruins (simPickerInteraction_AncientRuins_TravelWith)" Tags="TestUnsafe" Value="128487" />
+  <Preset Label="Dancefloor_GroupDance_stereoMixer_groovySnap" Value="128493" />
+  <Preset Label="Dancefloor_GroupDance_stereoMixer_toeSpin" Value="128494" />
+  <Preset Label="Dancefloor_GroupDance_stereoMixer_twitchLean" Value="128495" />
+  <Preset Label="Dancefloor_GroupDance_stereoMixer_armSwing" Value="128496" />
+  <Preset Label="Dancefloor_GroupDance_stereoMixer_legSwerve" Value="128497" />
+  <Preset Label="Play Arcade Game (arcadeMachine_Outcome_WinGameContinuation)" Value="128508" />
+  <Preset Label="Play Arcade Game (arcadeMachine_Outcome_LoseGameContinuation)" Value="128509" />
+  <Preset Label="generic_ArcadeMachine_Player_4" Value="128526" />
+  <Preset Label="generic_ArcadeMachine_Player_1" Value="128527" />
+  <Preset Label="generic_ArcadeMachine_Player_2" Value="128528" />
+  <Preset Label="generic_ArcadeMachine_Player_3" Value="128529" />
+  <Preset Label="Play Arcade Game (arcadeMachine_PlayArcadeGame)" Value="128530" />
+  <Preset Label="Dance Battle (danceBattle_StartSituation)" Value="128539" />
+  <Preset Label="Dance Battle (danceBattle_SimPickerInteraction)" Tags="TestUnsafe" Value="128540" />
+  <Preset Label="Listen to Electronica (stereo_listen_electro_DJBooth)" Value="128552" />
+  <Preset Label="Listen to Retro (stereo_listen_retro_DJBooth)" Value="128553" />
+  <Preset Label="Listen to Pop (stereo_listen_pop_DJBooth)" Value="128554" />
+  <Preset Label="Club (clubPickerSuperInteraction_Padlock_Lock_Everyone_Allow_Club)" Tags="TestUnsafe" Value="128564" />
+  <Preset Label="Club (clubPickerSuperInteraction_Padlock_Unlock_Club)" Tags="TestUnsafe" Value="128565" />
+  <Preset Label="Dance (DJBooth_stereo_Dance)" Value="128572" />
+  <Preset Label="One, Two,  Steppin' (Dancefloor_DanceTogether_startSituation_set_01)" Value="128587" />
+  <Preset Label="Dance Off (danceBattle_Dance)" Value="128609" />
+  <Preset Label="Dance Battle (danceBattle_JigPartConstraintInteraction)" Value="128610" />
+  <Preset Label="Cheer Dart Player (si_Dartboard_Cheer)" Value="128613" />
+  <Preset Label="Heckle Dart Player (si_Dartboard_Heckle)" Value="128614" />
+  <Preset Label="Skinny Dip (terrain-Swim_Skinnydip)" Value="128625" />
+  <Preset Label="Play Darts Together (rallyables_GoThenPlayDarts)" Value="128627" />
+  <Preset Label="Splashed (reactions_JumpStand_Splashed)" Value="128669" />
+  <Preset Label="Splashed (reaction_JumpStand_Mixer_Splashed)" Value="128670" />
+  <Preset Label="Go Watch Jump (rallyables_JumpStand_MoveNearby)" Value="128671" />
+  <Preset Label="Watch Dance Battle (danceBattle_Watch)" Value="128685" />
+  <Preset Label="generic_JumpStand" Value="128687" />
+  <Preset Label="Jump (si_JumpStand_Jump_Easy)" Value="128702" />
+  <Preset Label="Swan Dive (si_JumpStand_Jump_Med_SwanDive)" Value="128703" />
+  <Preset Label="Cannonball (si_JumpStand_Jump_Med_Cannonball)" Value="128704" />
+  <Preset Label="Backflip (si_JumpStand_Jump_Hard_Backflip)" Value="128705" />
+  <Preset Label="Jump (si_JumpStand_Showboat_EasyJump)" Value="128709" />
+  <Preset Label="Swan Dive (si_JumpStand_Showboat_SwanDive)" Value="128710" />
+  <Preset Label="Cannonball (si_JumpStand_Showboat_Cannonball)" Value="128711" />
+  <Preset Label="Backflip (si_JumpStand_Showboat_Backflip)" Value="128712" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_DJBooth)" Value="128743" />
+  <Preset Label="Dancefloor_GroupDance_stereoMixer_stepSpin" Value="128779" />
+  <Preset Label="Dancefloor_GroupDance_stereoMixer_seeSaw" Value="128780" />
+  <Preset Label="Challenge to Dance Battle (si_nonTouching_DanceBattle_Challenge)" Value="128800" />
+  <Preset Label="Attempt Secret Knock (si_door_Club_AttemptSecretKnock)" Value="128802" />
+  <Preset Label="Secret Knock (si_door_Club_SecretKnock)" Value="128803" />
+  <Preset Label="Secret Knock (si_door_Club_SecretKnock_Continuation)" Value="128810" />
+  <Preset Label="Clean Up Game (si_DontWakeLlamaGame_Reset_Kids)" Value="128827" />
+  <Preset Label="Set On Fire (si_DontWakeLlamaGame_SetOnFire_Kids)" Value="128868" />
+  <Preset Label="Arm-Charm (Dancefloor_DanceBattle_move_1_Charm)" Value="128883" />
+  <Preset Label="Pump-Pop (Dancefloor_DanceBattle_move_2_Pump)" Value="128884" />
+  <Preset Label="Jimmy Leg (Dancefloor_DanceBattle_move_3_Step)" Value="128887" />
+  <Preset Label="Light Spin (Dancefloor_DanceBattle_move_4_Spin)" Value="128888" />
+  <Preset Label="Back Flip (Dancefloor_DanceBattle_move_5_Backflip)" Value="128890" />
+  <Preset Label="danceBattle_PostDanceReaction" Value="129067" />
+  <Preset Label="Invite to Club Gathering (clubSuperInteraction_InviteToClubGathering)" Value="129135" />
+  <Preset Label="Cheer (foosball_cheer)" Value="129146" />
+  <Preset Label="Heckle (foosball_heckle)" Value="129147" />
+  <Preset Label="Leave Club Gathering (clubSuperInteraction_LeaveClubGathering)" Value="129157" />
+  <Preset Label="Play Don't Wake The Llama Together (rallyables_GoThenDontWakeLlama)" Value="129158" />
+  <Preset Label="Wait (rallyables_WaitToWatch_DontWakeLlama)" Value="129160" />
+  <Preset Label="Wait (rallyables_WaitToWatch_DartBoard)" Value="129161" />
+  <Preset Label="Skinny Dip With (simpicker_SkinnyDip)" Tags="TestUnsafe" Value="129163" />
+  <Preset Label="Play Arcade Game With (arcadeMachine_PlayGameWith_Picker_Slots_3)" Tags="TestUnsafe" Value="129170" />
+  <Preset Label="Play Arcade Game With (arcadeMachine_PlayGameWith_Picker_Slots_4)" Tags="TestUnsafe" Value="129171" />
+  <Preset Label="Play Arcade Game With (arcadeMachine_PlayGameWith_Picker_Slots_2)" Tags="TestUnsafe" Value="129172" />
+  <Preset Label="Club (clubPickerSuperInteraction_Padlock_Lock_Everyone_Allow_Club_FrontSide)" Tags="TestUnsafe" Value="129190" />
+  <Preset Label="Club (clubPickerSuperInteraction_Padlock_Unlock_Club_FrontSide)" Tags="TestUnsafe" Value="129191" />
+  <Preset Label="Flip n' Dip (Dancefloor_DanceTogether_startSituation_set_06)" Value="129200" />
+  <Preset Label="Lean Back (Dancefloor_DanceTogether_startSituation_set_05)" Value="129201" />
+  <Preset Label="Spin, Snap, Swag (Dancefloor_DanceTogether_startSituation_set_04)" Value="129202" />
+  <Preset Label="Break it Down (Dancefloor_DanceTogether_startSituation_set_03)" Value="129203" />
+  <Preset Label="Boogie Down Woogie (Dancefloor_DanceTogether_startSituation_set_02)" Value="129204" />
+  <Preset Label="Dare to Jump (social_JumpStand_Dare)" Value="129292" />
+  <Preset Label="Cheering (reaction_Mixers_ArcadeMachine_Cheer_Med)" Value="129312" />
+  <Preset Label="Cheering (reaction_Mixers_ArcadeMachine_Cheer_High)" Value="129313" />
+  <Preset Label="Disappointed (Reaction_Mixers_ArcadeMachine_Heckle_Low)" Value="129314" />
+  <Preset Label="Cheering (reaction_Mixers_ArcadeMachine_Cheer_Low)" Value="129322" />
+  <Preset Label="Disappointed (reaction_Mixers_ArcadeMachine_Heckle_High)" Value="129323" />
+  <Preset Label="One, Two,  Steppin' (danceTogether_Sequence_1)" Value="129338" />
+  <Preset Label="generic_GroupDance" Value="129342" />
+  <Preset Label="mixer_TransitionToIntimate_BeAffectionate" Tags="TestUnsafe" Value="129376" />
+  <Preset Label="mixer_TransitionToIntimate_Sofa_BeIntimate" Tags="TestUnsafe" Value="129377" />
+  <Preset Label="mixer_TransitionToIntimate_EmptyIntimateMixer" Tags="TestUnsafe" Value="129423" />
+  <Preset Label="NPC_go_to_EuroBramble" Value="129428" />
+  <Preset Label="Flip n' Dip (danceTogether_Sequence_6)" Value="129441" />
+  <Preset Label="Lean Back (danceTogether_Sequence_5)" Value="129442" />
+  <Preset Label="Spin, Snap, Swag (danceTogether_Sequence_4)" Value="129443" />
+  <Preset Label="Break it Down (danceTogether_Sequence_3)" Value="129444" />
+  <Preset Label="Boogie Down Woogie (danceTogether_Sequence_2)" Value="129445" />
+  <Preset Label="Watch Arcade Game With (arcadeMachine_WatchGameWith_Picker)" Tags="TestUnsafe" Value="129494" />
+  <Preset Label="Watch Dancer (Dancefloor_Watch_DanceBattle)" Value="129516" />
+  <Preset Label="reaction_Club_Mixer_Aggregate_Woohoo" Value="129521" />
+  <Preset Label="Rally The Troops (clubSocialSuperInteraction_RallyTheTroops_NoPerkTest)" Value="129530" />
+  <Preset Label="arcadeMachine_Mixer_WatcherIdle" Value="129537" />
+  <Preset Label="dontWakeLlamaGame_SetUp_Kids" Tags="TestUnsafe" Value="129552" />
+  <Preset Label="Invite {0.String} to Hang Out (clubSuperInteraction_InviteClubToHangout)" Value="129616" />
+  <Preset Label="reaction_Mixers_DontWakeLlama_CheerEnd" Value="129641" />
+  <Preset Label="reaction_Mixers_DontWakeLlama_CheerTurn" Value="129642" />
+  <Preset Label="reaction_Mixers_DontWakeLlama_GaspTurn" Value="129643" />
+  <Preset Label="reaction_Mixers_DontWakeLlama_NervousTurn" Value="129644" />
+  <Preset Label="reaction_Mixer_Aggregate_DontWakeLlama" Value="129645" />
+  <Preset Label="Jump (si_JumpStand_AutonomousJumpChooser)" Value="129824" />
+  <Preset Label="Kick Out of {0.String} (clubSocialSuperInteraction_Autonomous_KickOutOfClub)" Value="129835" />
+  <Preset Label="Overthrow {0.String}'s Leader (clubSocialSuperInteraction_Autonomous_OverthrowClubLeader)" Value="129836" />
+  <Preset Label="si_jumpStand_swimsuitSwitchback" Value="129916" />
+  <Preset Label="foosballTable_SocialMixer_SideAScoredReact" Tags="TestUnsafe" Value="129917" />
+  <Preset Label="foosballTable_SocialMixer_SideBScoredReact" Tags="TestUnsafe" Value="129933" />
+  <Preset Label="Scold Rule Breaker (si_NonTouching_Club_ScoldClubMember)" Value="129997" />
+  <Preset Label="Set Happy Vibe (clubSocialSuperInteraction_SetVibe_Happy)" Value="130057" />
+  <Preset Label="reaction_Mixer_ClubPerks_SetVibe_Happy" Value="130058" />
+  <Preset Label="Scold Rule Breaker (si_NonTouching_Club_ScoldClubMember_AfterTimeout)" Value="130135" />
+  <Preset Label="si_Dartboard_WaitOrThrow" Value="130170" />
+  <Preset Label="Alter Disguise (closet_Occult_Alien_Disguise_Change)" Value="130171" />
+  <Preset Label="reaction_Mixer_Dancefloor_Battle_2_Good" Value="130190" />
+  <Preset Label="reaction_Mixer_Dancefloor_Battle_0_Bad" Value="130191" />
+  <Preset Label="reaction_Mixer_Dancefloor_Battle_1_Mediocre" Value="130192" />
+  <Preset Label="reaction_Mixer_Dancefloor_Battle_watchSuccess" Value="130193" />
+  <Preset Label="reaction_Mixer_Dancefloor_Battle_watchFail" Value="130194" />
+  <Preset Label="reaction_Mixers_DontWakeLlama_Explosion" Value="130197" />
+  <Preset Label="Play With (simPicker_Dartboard_PlayWith_4_Selectable)" Tags="TestUnsafe" Value="130214" />
+  <Preset Label="Play With (simPicker_Dartboard_PlayWith_3_Selectable)" Tags="TestUnsafe" Value="130215" />
+  <Preset Label="Play With (simPicker_Dartboard_PlayWith_2_Selectable)" Tags="TestUnsafe" Value="130216" />
+  <Preset Label="Play With (simPicker_Dartboard_PlayWith_1_Selectable)" Tags="TestUnsafe" Value="130217" />
+  <Preset Label="Order Drink (bar_PushOrderDrink_FavoriteDrink_for_picked_sim)" Value="130246" />
+  <Preset Label="mixer_Dartboard_WatchGame_WatchPassive" Value="130271" />
+  <Preset Label="Dancefloor_DanceTogether_outcomeReaction" Value="130281" />
+  <Preset Label="Order Knight Night Drink (bar_PushOrderKnightDrink)" Value="130316" />
+  <Preset Label="NPC_LeaveCafe" Value="130347" />
+  <Preset Label="Make Drink (bar_StartCrafting_FavoriteDrink_for_picked_sim)" Value="130362" />
+  <Preset Label="mixer_Dartboard_Reaction_Throw_Miss" Value="130385" />
+  <Preset Label="mixer_Dartboard_Reaction_Throw_Bullseye" Value="130386" />
+  <Preset Label="Listen To Music (DJBooth_Stereo_ListenAggregate)" Value="130404" />
+  <Preset Label="Listen To Music (DJBooth_AutonomousPickStation)" Value="130406" />
+  <Preset Label="mixer_Dartboard_Reaction_Throw_General" Value="130511" />
+  <Preset Label="Make Espresso (espressoMachine_MakeDrink_Autonomous)" Value="130609" />
+  <Preset Label="Group Dance (Dancefloor_DanceTogether_Rally_RouteTo)" Value="130619" />
+  <Preset Label="Cheer (reactions_JumpStand_Cheer)" Value="130621" />
+  <Preset Label="reaction_JumpStand_Mixer_Cheer" Value="130622" />
+  <Preset Label="reaction_JumpStand_Mixer_Boo" Value="130624" />
+  <Preset Label="Heckle (reactions_JumpStand_Boo)" Value="130625" />
+  <Preset Label="stereo_listenPassive_mixer_DJBooth" Value="130635" />
+  <Preset Label="Dance (danceFloor_Dance_Butler)" Value="151560" />
+  <Preset Label="Consistently Perfect Pulls (espressoMachine_Upgrade_CompletedDisplay)" Value="156574" />
+  <Preset Label="Ask about Another Sim (simPicker_GoingOutSocials_AskAboutAnotherSim_Toddler)" Tags="TestUnsafe" Value="156875" />
+  <Preset Label="Clean (espressoBarCompoundObject_Clean_FromSlottedObject)" Value="178330" />
+  <Preset Label="Listen To (stereo_TurnOnAndListen_dJBooth)" Value="179145" />
+  <Preset Label="Cold Weather (mixer_social_targeted_friendly_MiddleScore_SeeOutfit_ColdOutfit)" Tags="TestUnsafe" Value="186275" />
+  <Preset Label="Hot Weather (mixer_social_targeted_friendly_MiddleScore_SeeOutfit_HotOutfit)" Tags="TestUnsafe" Value="186276" />
+  <Preset Label="Hot Weather (closet_TryNewOutfit_Gather_HotWeather)" Value="192465" />
+  <Preset Label="Cold Weather (closet_TryNewOutfit_Gather_ColdWeather)" Value="192466" />
+  <Preset Label="Hot Weather (closet_TryNewOutfit_HotWeather)" Value="192480" />
+  <Preset Label="Cold Weather (closet_TryNewOutfit_ColdWeather)" Value="192481" />
+  <Preset Label="Skinny Dip (terrain-Swim_Skinnydip_Proper)" Value="252412" />
+</PresetGroup>

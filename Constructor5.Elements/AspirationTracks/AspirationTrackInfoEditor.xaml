@@ -37,6 +37,7 @@
                  LabelWidth="100"
                  Visibility="{Binding HasCustomCASTrait, Converter={StaticResource BoolToVis}}">
             <c:ReferenceControl CreateElementFunction="ReferenceControl_CreateElementFunction"
+                                EditorTag="ShowOrigin"
                                 ElementTypeName="Trait"
                                 Reference="{Binding CASTrait}"
                                 ShowCreateButton="True" />

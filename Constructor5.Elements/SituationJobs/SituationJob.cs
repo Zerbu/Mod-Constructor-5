@@ -12,7 +12,7 @@ using System.Linq;
 
 namespace Constructor5.Elements.SituationJobs
 {
-    [ElementTypeData("SituationJob", false, ElementTypes = new[] { typeof(SituationJob) }, PresetFolders = new[] { "SituationJob" })]
+    [ElementTypeData("SituationJob", true, ElementTypes = new[] { typeof(SituationJob) }, PresetFolders = new[] { "SituationJob" })]
     public class SituationJob : SimpleComponentElement<SituationJobComponent>, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();

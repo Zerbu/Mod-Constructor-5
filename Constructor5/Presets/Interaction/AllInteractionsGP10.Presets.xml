@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions GP10">
+  <Preset Label="Play as Monster (kidsTent_PlayAsMonster)" Value="257409" />
+  <Preset Label="Play Inside (kidsTent_Play)" Value="257410" />
+  <Preset Label="Sleep (kidsTent_Sleep)" Value="257412" />
+  <Preset Label="Inspect {1.ObjectName} (career_InteriorDecorator_Interview_InspectObject)" Value="257418" />
+  <Preset Label="Chat (social_Career_InteriorDecorator_Interview_FireDecorator)" Value="257422" />
+  <Preset Label="Leave (career_InteriorDecorator_HideClients_StayHidden)" Value="257470" />
+  <Preset Label="Nap (kidsTent_Nap)" Value="257477" />
+  <Preset Label="Guide Client (social_Career_InteriorDecorator_Reveal_Group_Host)" Value="257571" />
+  <Preset Label="Guide Client (social_Career_InteriorDecorator_Reveal_Group_Client)" Value="257577" />
+  <Preset Label="Show Portfolio (social_Career_InteriorDecorator_Interview_ShowPortfolio)" Value="257639" />
+  <Preset Label="Thank for Opportunity  (socials_Targeted_Friendly_AlwaysOn_STC_InteriorDecorator_Interview_ThankForOpportunity)" Tags="TestUnsafe" Value="257642" />
+  <Preset Label="Promise Successful Renovation  (socials_Targeted_Friendly_AlwaysOn_STC_InteriorDecorator_Interview_PromiseSuccess)" Tags="TestUnsafe" Value="257643" />
+  <Preset Label="Enthuse about Design Vision (socials_Targeted_Friendly_AlwaysOn_STC_InteriorDecorator_Interview_EnthuseAboutVision)" Tags="TestUnsafe" Value="257644" />
+  <Preset Label="Complain about Restrictive Budget (socials_Targeted_Mean_AlwaysOn_STC_InteriorDecorator_Interview_ComplainAboutBudget)" Tags="TestUnsafe" Value="257660" />
+  <Preset Label="Insult Taste in Décor (socials_Targeted_Mean_AlwaysOn_STC_InteriorDecorator_Interview_InsultHome)" Tags="TestUnsafe" Value="257661" />
+  <Preset Label="Play With (simPicker_KidsTent_PlayWith)" Tags="TestUnsafe" Value="257673" />
+  <Preset Label="Discuss Designs (social_Career_InteriorDecorator_Interview_DiscussDesignStyles)" Value="257701" />
+  <Preset Label="Ask to See Inspirations (social_Career_InteriorDecorator_Interview_AskToSeeInspirations)" Value="257702" />
+  <Preset Label="career_InteriorDecorator_Interview_GoToArrivalSpawn" Value="257715" />
+  <Preset Label="Add 1 Unprofessional Action (Debug) (immediate_Career_InteriorDecorator_BadBehavior_Add_Debug)" Value="257791" />
+  <Preset Label="Careers (immediate_Career_InteriorDecorator_Interview_LearnInfo1)" Value="257792" />
+  <Preset Label="Careers (immediate_Career_InteriorDecorator_Interview_LearnInfo2)" Value="257793" />
+  <Preset Label="Listen to {1.SimFirstName}'s Complaint (social_Career_InteriorDecorator_Interview_FireDecorator_Target)" Value="257796" />
+  <Preset Label="mixer_Career_InteriorDecorator_Interview_InspectObject_TakeNotes" Value="257823" />
+  <Preset Label="mixer_Career_InteriorDecorator_Interview_InspectObject_Think" Value="257824" />
+  <Preset Label="mixer_Career_InteriorDecorator_Interview_InspectObject_View" Value="257825" />
+  <Preset Label="mixer_Career_InteriorDecorator_Interview_InspectObject_Critique" Value="257826" />
+  <Preset Label="career_InteriorDecorator_Interview_Idle_Misc" Value="257828" />
+  <Preset Label="watch-HomeDecorating" Value="257830" />
+  <Preset Label="Watch Dream Home Decorator Network (tV_Watch_HomeDecorating)" Value="257831" />
+  <Preset Label="career_InteriorDecorator_Interview_Idle_Sketch" Value="257835" />
+  <Preset Label="career_InteriorDecorator_Interview_HostAutonomy" Value="257837" />
+  <Preset Label="career_InteriorDecorator_Interview_GoToHost" Value="257840" />
+  <Preset Label="career_InteriorDecorator_Interview_ClientFindHost" Value="257842" />
+  <Preset Label="Write Interior Decorator Article (computer_Write_Career_InteriorDecorator_Article)" Value="257924" />
+  <Preset Label="Select Gig (dramaNodePicker_InteriorDecorator_FindGig_Interaction)" Tags="TestUnsafe" Value="257949" />
+  <Preset Label="Check for Gigs (Career_interior_Decorator_Phone_Interaction_CheckFor_Gig)" Value="257952" />
+  <Preset Label="Open Letter (career_InteriorDecorator_Followup_ClientCall_OpenLetter_World)" Value="257996" />
+  <Preset Label="Open Letter (career_InteriorDecorator_Followup_ClientCall_OpenLetter_Inventory)" Value="258002" />
+  <Preset Label="Open Package (career_InteriorDecorator_Followup_Sponsorship_OpenPackage_Inventory)" Value="258003" />
+  <Preset Label="Open Package (career_InteriorDecorator_Followup_Sponsorship_OpenPackage_World)" Value="258009" />
+  <Preset Label="Ask about Taste in Décor (socials_Targeted_Friendly_SimPreference_Decor)" Tags="TestUnsafe" Value="258389" />
+  <Preset Label="Create Client Letter in Inventory (Debug) (immediate_Career_InteriorDecorator_Followup_GetLetter_Debug)" Value="258419" />
+  <Preset Label="Create Sponsor Package in Inventory (Debug) (immediate_Career_InteriorDecorator_Followup_GetPackage_Debug)" Value="258420" />
+  <Preset Label="Recount {2.String|xxUpper} Renovation (socials_Targeted_Friendly_AlwaysOn_STC_InteriorDecorator_Followup_RecountRenovation)" Tags="TestUnsafe" Value="258469" />
+  <Preset Label="Take Before Photo (photography_TakePhoto_InteriorDecorator_Montage_Before)" Value="258522" />
+  <Preset Label="Take After Photo (photography_TakePhoto_InteriorDecorator_Montage_After)" Value="258532" />
+  <Preset Label="Throw Away (immediate_Career_InteriorDecorator_Montage_TrashFlashDrive)" Value="258539" />
+  <Preset Label="Ask for Final Verdict (social_Career_InteriorDecorator_Reveal_AskForFinalVerdict)" Value="258586" />
+  <Preset Label="Careers (social_Career_InteriorDecorator_Reveal_Client_KickOutDecorator)" Value="258587" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_InitialReaction)" Value="258589" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_FinalReaction)" Value="258592" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_CheckItOut)" Value="258600" />
+  <Preset Label="Try to Cheer Up (socials_Targeted_Friendly_AlwaysOn_STC_InteriorDecorator_Reveal_Console)" Tags="TestUnsafe" Value="258602" />
+  <Preset Label="Try to Calm Down (socials_Targeted_Friendly_AlwaysOn_STC_InteriorDecorator_Reveal_CalmDown)" Tags="TestUnsafe" Value="258603" />
+  <Preset Label="Hug (socials_Targeted_Friendly_AlwaysOn_STC_InteriorDecorator_Reveal_Hug)" Tags="TestUnsafe" Value="258604" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_Wait)" Value="258612" />
+  <Preset Label="Check This Out (career_InteriorDecorator_Reveal_CheckThisOut)" Value="258614" />
+  <Preset Label="Reveal Renovations to Client (career_InteriorDecorator_Reveal_KickOff)" Value="258615" />
+  <Preset Label="Take After Photo (photography_TakePhoto_InteriorDecorator_Montage_After_CellPhone)" Value="258728" />
+  <Preset Label="Take Before Photo (photography_TakePhoto_InteriorDecorator_Montage_Before_CellPhone)" Value="258729" />
+  <Preset Label="Ask for Final Verdict (immediate_Career_InteriorDecorator_Reveal_AskForFinalVerdict_Start)" Value="258872" />
+  <Preset Label="Listen to {1.SimFirstName}'s Complaint (social_Career_InteriorDecorator_Reveal_Client_KickOutDecorator_Target)" Value="258879" />
+  <Preset Label="Chat (socials_Targeted_Friendly_AlwaysOn_STC_InteriorDecorator_Reveal_Enthuse)" Tags="TestUnsafe" Value="258937" />
+  <Preset Label="Yell At (socials_Targeted_Mean_AlwaysOn_STC_InteriorDecorator_Reveal_Yell)" Tags="TestUnsafe" Value="258939" />
+  <Preset Label="photoPicker_InteriorDecorator_Montage_ActiveGig_Delete_Before" Tags="TestUnsafe" Value="258943" />
+  <Preset Label="photoPicker_InteriorDecorator_Montage_ActiveGig_Delete_After" Tags="TestUnsafe" Value="258950" />
+  <Preset Label="Go to Work (si_Career_InteriorDecorator)" Value="259238" />
+  <Preset Label="Watch &lt;i&gt;Ace of Space&lt;/i&gt; on Dream Home Decorator  (TV_Watch_HomeDecorating_InteriorDecorator_Followup)" Value="259418" />
+  <Preset Label="mixer_TV_HomeDecorating_InteriorDecorator_Followup_Negative" Value="259473" />
+  <Preset Label="mixer_TV_HomeDecorating_InteriorDecorator_Followup_Positive" Value="259476" />
+  <Preset Label="Schedule Positive TV Show Call (Debug) (immediate_Career_InteriorDecorator_Followup_TVPositive_Debug)" Value="259634" />
+  <Preset Label="Schedule Negative TV Show Call (Debug) (immediate_Career_InteriorDecorator_Followup_TVNegative_Debug)" Value="259640" />
+  <Preset Label="Generic_KidsTent" Value="259641" />
+  <Preset Label="Scared By Monster (kidsTent_ScaredByMonster)" Value="259652" />
+  <Preset Label="mixer_Career_InteriorDecorator_Reveal_FinalReaction_Angry" Value="259763" />
+  <Preset Label="mixer_Career_InteriorDecorator_Reveal_FinalReaction_Bored" Value="259764" />
+  <Preset Label="mixer_Career_InteriorDecorator_Reveal_FinalReaction_Daydreaming" Value="259765" />
+  <Preset Label="mixer_Career_InteriorDecorator_Reveal_FinalReaction_Excited" Value="259766" />
+  <Preset Label="mixer_Career_InteriorDecorator_Reveal_FinalReaction_Fuming" Value="259767" />
+  <Preset Label="mixer_Career_InteriorDecorator_Reveal_FinalReaction_Happy" Value="259768" />
+  <Preset Label="mixer_Career_InteriorDecorator_Reveal_FinalReaction_Indifferent" Value="259769" />
+  <Preset Label="mixer_Career_InteriorDecorator_Reveal_FinalReaction_OverwhelmedWithJoy" Value="259770" />
+  <Preset Label="mixer_Career_InteriorDecorator_Reveal_FinalReaction_Sad" Value="259771" />
+  <Preset Label="mixer_Career_InteriorDecorator_Reveal_FinalReaction_TryingToStayPositive" Value="259772" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_FinalReaction_GoOutside)" Value="259814" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_FinalReaction_MoveAway)" Value="259815" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_FinalReaction_Start)" Value="259817" />
+  <Preset Label="Check on Client (career_InteriorDecorator_Reveal_GoNearClient)" Value="259839" />
+  <Preset Label="Cancel Gig (career_Interior_Decorator_PhoneInteraction_CancelGig)" Value="259856" />
+  <Preset Label="Travel to Client's Lot (career_InteriorDecorator_GoToClients_Lot)" Value="259876" />
+  <Preset Label="Make Believe (kidsTent_MakeBelieve)" Value="259964" />
+  <Preset Label="immediate_Career_InteriorDecorator_Interview_InspectObject_Reaction" Value="260058" />
+  <Preset Label="Suggest Different Color (social_Career_InteriorDecorator_Interview_SuggestDifferentPreference_Color)" Value="260063" />
+  <Preset Label="Suggest Different Décor Style (social_Career_InteriorDecorator_Interview_SuggestDifferentPreference_Decor)" Value="260065" />
+  <Preset Label="Repair (object_Repair_KidsTent)" Value="260639" />
+  <Preset Label="Schedule any positive client call (Debug) (immediate_Career_InteriorDecorator_Followup_ClientCall_Positive_Debug)" Value="261297" />
+  <Preset Label="Schedule any negative client call (Debug) (immediate_Career_InteriorDecorator_Followup_ClientCall_Negative_Debug)" Value="261299" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Boho" Tags="TestUnsafe" Value="262146" />
+  <Preset Label="Learn All Gig Preferences (Debug) (immediate_Career_InteriorDecorator_LearnAllGigPreferences_Debug)" Value="262184" />
+  <Preset Label="kidsTent_Mixers_PlayInside_Idle" Value="262193" />
+  <Preset Label="kidsTent_Mixers_PlayInside_Actions" Value="262195" />
+  <Preset Label="Select Gig (decoratorGigPickerInteraction_InteriorDecorator_FindGig)" Tags="TestUnsafe" Value="262250" />
+  <Preset Label="Call Clients to Lot  (career_Interior_Decorator_PhoneInteraction_Call_Clients_To_Lot)" Value="262429" />
+  <Preset Label="immediate_Career_InteriorDecorator_RevealFinished" Value="262478" />
+  <Preset Label="Reveal: It's Ok (Debug) (immediate_Career_InteriorDecorator_Reveal_ClientScore_Ok_Debug)" Value="262508" />
+  <Preset Label="Reveal: It's Bad (Debug) (immediate_Career_InteriorDecorator_Reveal_ClientScore_Bad_Debug)" Value="262510" />
+  <Preset Label="Reveal: It's Good (Debug) (immediate_Career_InteriorDecorator_Reveal_ClientScore_Good_Debug)" Value="262511" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_DoSomething)" Value="262744" />
+  <Preset Label="autonomousSimPicker_InteriorDecorator_Reveal_KickOff_FindClient" Tags="TestUnsafe" Value="262776" />
+  <Preset Label="Reveal Renovations to Client (career_InteriorDecorator_Reveal_KickOff_FromSelf)" Value="262777" />
+  <Preset Label="Reveal Renovations to Client (career_InteriorDecorator_Reveal_Flourish)" Value="263162" />
+  <Preset Label="Wait for Pet (si_InteriorDecorator_GoNearObject_Reveal_Client)" Value="263192" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Basics" Value="263730" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Basics" Tags="TestUnsafe" Value="263731" />
+  <Preset Label="simPreference_DecorReaction_Basics" Value="263734" />
+  <Preset Label="simPreference_DecorReaction_Boho" Value="263768" />
+  <Preset Label="simPreference_DecorReaction_Contemporary" Value="263769" />
+  <Preset Label="simPreference_DecorReaction_Cosmolux" Value="263770" />
+  <Preset Label="simPreference_DecorReaction_FrenchCountry" Value="263772" />
+  <Preset Label="simPreference_DecorReaction_Garden" Value="263773" />
+  <Preset Label="simPreference_DecorReaction_GothicFarmhouse" Value="263774" />
+  <Preset Label="simPreference_DecorReaction_Island" Value="263775" />
+  <Preset Label="simPreference_DecorReaction_Mission" Value="263776" />
+  <Preset Label="simPreference_DecorReaction_Modern" Value="263777" />
+  <Preset Label="simPreference_DecorReaction_Patio" Value="263778" />
+  <Preset Label="simPreference_DecorReaction_QueenAnne" Value="263779" />
+  <Preset Label="simPreference_DecorReaction_ScandinavianContemporary" Value="263780" />
+  <Preset Label="simPreference_DecorReaction_Tudor" Value="263782" />
+  <Preset Label="simPreference_DecorReaction_SuburbanContempo" Value="263783" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_InitialReaction_Delay)" Value="263817" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Contemporary" Tags="TestUnsafe" Value="263925" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Cosmolux" Tags="TestUnsafe" Value="263926" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_FrenchCountry" Tags="TestUnsafe" Value="263928" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Garden" Tags="TestUnsafe" Value="263929" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_GothicFarmhouse" Tags="TestUnsafe" Value="263930" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Island" Tags="TestUnsafe" Value="263931" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Mission" Tags="TestUnsafe" Value="263932" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Modern" Tags="TestUnsafe" Value="263933" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Patio" Tags="TestUnsafe" Value="263934" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_QueenAnne" Tags="TestUnsafe" Value="263935" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_ScandinavianContemporary" Tags="TestUnsafe" Value="263936" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_SuburbanContempo" Tags="TestUnsafe" Value="263938" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Tudor" Tags="TestUnsafe" Value="263939" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Boho" Value="263940" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Contemporary" Value="263941" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Cosmolux" Value="263942" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_FrenchCountry" Value="263944" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Garden" Value="263945" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_GothicFarmhouse" Value="263947" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Island" Value="263948" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Mission" Value="263949" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Modern" Value="263950" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Patio" Value="263951" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_QueenAnne" Value="263952" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_ScandinavianContemporary" Value="263953" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_SuburbanContemporary" Value="263955" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Tutor" Value="263956" />
+  <Preset Label="Call Clients to Lot  (career_Interior_Decorator_PhoneInteraction_Call_Clients_To_Lot_Rel_Panel)" Value="264533" />
+  <Preset Label="Call Clients to Lot  (career_InteriorDecorator_Self_Interaction_Call_Clients_To_Lot)" Value="264539" />
+  <Preset Label="Take Before Photo (photography_TakePhoto_InteriorDecorator_Montage_Before_CellPhone_Entertainment)" Value="264561" />
+  <Preset Label="Take After Photo (photography_TakePhoto_InteriorDecorator_Montage_After_CellPhone_Entertainment)" Value="264567" />
+  <Preset Label="Take Before Photo (terrain-gohere_InteriorDecorator_Montage_TakePhoto_Before)" Value="264695" />
+  <Preset Label="Take After Photo (terrain-gohere_InteriorDecorator_Montage_TakePhoto_After)" Value="264696" />
+  <Preset Label="Wander (waypoint_InteriorDecorator_Reveal_Client_FinalReaction_Wander)" Value="264808" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_FinalReaction_GoOnLot)" Value="265072" />
+  <Preset Label="Send Client Away (career_InteriorDecorator_Interview_SendClientAway)" Value="265674" />
+  <Preset Label="Ask to See Simterest Board  (social_Career_InteriorDecorator_Interview_AskQuestion)" Value="265681" />
+  <Preset Label="Knock On Door (door_PlayerRingDoorbell_InteriorDecorator)" Value="265702" />
+  <Preset Label="Be Checked In (door_PlayerRingDoorbell_Penthouse_InteriorDecorator)" Value="265703" />
+  <Preset Label="Knock On Door (door_PlayerRingDoorbell_Sliding_InteriorDecorator)" Value="265704" />
+  <Preset Label="Go to Front Door (career_InteriorDecorator_Interview_GoToFrontDoor_Outside)" Value="265749" />
+  <Preset Label="Suggest Bold Home Makeover Ideas (mixer_social_SuggestBoldHomeMakeoverIdeas_targeted_Friendly_alwaysOn_career_InteriorDecorator)" Tags="TestUnsafe" Value="266244" />
+  <Preset Label="photoPicker_InteriorDecorator_Montage_ActiveGig_Select_After" Tags="TestUnsafe" Value="266264" />
+  <Preset Label="photoPicker_InteriorDecorator_Montage_ActiveGig_Select_Before" Tags="TestUnsafe" Value="266265" />
+  <Preset Label="Discuss Latest Trends (mixer_social_DiscussLatestTrends_targeted_Friendly_alwaysOn_career_InteriorDecorator)" Tags="TestUnsafe" Value="266287" />
+  <Preset Label="Manage Current Gig Photos (multiPicker_InteriorDecorator_Montage_Delete_ActiveGig)" Tags="TestUnsafe" Value="266497" />
+  <Preset Label="multiPicker_InteriorDecorator_Montage_SelectPairs_ActiveGig" Tags="TestUnsafe" Value="266498" />
+  <Preset Label="Preview Montage with Current Gig Photos (Debug) (multiPicker_InteriorDecorator_Montage_SelectPairs_ActiveGig_Preview)" Tags="TestUnsafe" Value="266505" />
+  <Preset Label="immediate_Career_InteriorDecorator_Reveal_PromptCancel" Value="266521" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Prompt)" Value="266523" />
+  <Preset Label="Manage Current Gig Photos (multiPicker_InteriorDecorator_Montage_Delete_ActiveGig_Computer)" Tags="TestUnsafe" Value="266614" />
+  <Preset Label="immediate_Career_InteriorDecorator_Reveal_Montage" Value="266698" />
+  <Preset Label="go_To_Specific_Lot_Career_InteriorDecorator" Value="266973" />
+  <Preset Label="Reveal: Do Final Reaction (Debug) (immediate_Career_InteriorDecorator_Reveal_DoFinalReaction_Debug)" Value="267210" />
+  <Preset Label="Heat Sensor (stove_Upgrade_HeatSensor_CounterOven)" Value="267465" />
+  <Preset Label="Continue Upgrading Heat Sensor (stove_UpgradeContinue_HeatSensor_CounterOven)" Value="267466" />
+  <Preset Label="Self-Cleaning (stove_Upgrade_SelfCleaning_CounterOven)" Value="267467" />
+  <Preset Label="Continue Upgrading Self-Cleaning (stove_UpgradeContinue_SelfCleaning_CounterOven)" Value="267468" />
+  <Preset Label="Call Clients to Lot  (career_InteriorDecorator_Call_Clients_To_Lot_Finish)" Value="267523" />
+  <Preset Label="autonomousGigObjectPicker_InteriorDecorator_Reveal_CheckThisOut" Tags="TestUnsafe" Value="267652" />
+  <Preset Label="Meet up with Client (si_InteriorDecorator_GoNearObject_Reveal_Host)" Value="267656" />
+  <Preset Label="autonomousGigObjectPicker_InteriorDecorator_Reveal_Client_CheckItOut" Tags="TestUnsafe" Value="267671" />
+  <Preset Label="immediate_Career_InteriorDecorator_Reveal_Montage_History" Value="268254" />
+  <Preset Label="Play as Monster (kidsTent_PlayAsMonster_Starter)" Value="268410" />
+  <Preset Label="immediate_Career_InteriorDecorator_Interview_CommercialTNS" Value="268619" />
+  <Preset Label="immediate_Career_InteriorDecorator_Interview_PhotoLessonTNS" Value="268636" />
+  <Preset Label="Ask for Final Verdict (social_Career_InteriorDecorator_Reveal_AskForFinalVerdict_Backup)" Value="269006" />
+  <Preset Label="immediate_Career_InteriorDecorator_Montage_Delete_ActiveGig" Value="269096" />
+  <Preset Label="immediate_Career_InteriorDecorator_Montage_Delete_Confirm_ActiveGig" Value="269098" />
+  <Preset Label="Check This Out (terrain-gohere_InteriorDecorator_Reveal_CheckThisOut)" Value="269122" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_CheckItOut_Terrain)" Value="269124" />
+  <Preset Label="autonomous_ObjectPicker_Career_InteriorDecorator_Find_Babies_Hide" Tags="TestUnsafe" Value="269215" />
+  <Preset Label="immediate_Career_InteriorDecorator_Set_Baby_Motives_FIll" Value="269216" />
+  <Preset Label="immediate_Career_InteriorDecorator_Set_Baby_Visible" Value="269217" />
+  <Preset Label="autonomous_ObjectPicker_Career_InteriorDecorator_Find_Babies_Visible" Tags="TestUnsafe" Value="269218" />
+  <Preset Label="aggregateSI_InteriorDecorator_Reveal_Client_CheckItOut" Value="269272" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_CheckItOut_Weird)" Value="269273" />
+  <Preset Label="Discuss Latest Trends (mixer_social_DiscussLatestTrends_targeted_Friendly_alwaysOn_career_InteriorDecorator_Interview)" Tags="TestUnsafe" Value="269297" />
+  <Preset Label="Suggest Bold Home Makeover Ideas (mixer_social_SuggestBoldHomeMakeoverIdeas_targeted_Friendly_alwaysOn_career_InteriorDecorator_Interview)" Tags="TestUnsafe" Value="269298" />
+  <Preset Label="Ask for Final Verdict (social_Career_InteriorDecorator_Reveal_AskForFinalVerdict_Commercial)" Value="269388" />
+  <Preset Label="Ask for Final Verdict (social_Career_InteriorDecorator_Reveal_AskForFinalVerdict_Target)" Value="269399" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_CheckItOut_Commercial)" Value="269401" />
+  <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_DoSocial)" Value="269426" />
+  <Preset Label="Send Client Away (career_InteriorDecorator_Interview_SendClientAway_FromSelf)" Value="269830" />
+</PresetGroup>

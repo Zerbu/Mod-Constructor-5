@@ -1,0 +1,605 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Buffs EP06">
+  <Preset Label="buff_ActorCareer_Role_GoToMark_CoStar1" Value="189282" />
+  <Preset Label="buff_ActorCareer_PracticedScene" Value="189338" />
+  <Preset Label="buff_ActorCareer_GotIntoHairMakeUp" Value="189354" />
+  <Preset Label="buff_ActorCareer_GotIntoCostume" Value="189356" />
+  <Preset Label="Global Superstar (buff_Fame_Progression_RankUp_5)" Value="189442" />
+  <Preset Label="Notable Newcomer (buff_Fame_Progression_RankUp_1)" Value="189443" />
+  <Preset Label="Rising Star (buff_Fame_Progression_RankUp_2)" Value="189444" />
+  <Preset Label="B-Lister (buff_Fame_Progression_RankUp_3)" Value="189445" />
+  <Preset Label="Proper Celebrity (buff_Fame_Progression_RankUp_4)" Value="189446" />
+  <Preset Label="Notable Old-timer (buff_Fame_Progression_RankDown_1)" Value="189448" />
+  <Preset Label="Falling Star (buff_Fame_Progression_RankDown_2)" Value="189449" />
+  <Preset Label="C-Lister (buff_Fame_Progression_RankDown_3)" Value="189450" />
+  <Preset Label="Improper Celebrity (buff_Fame_Progression_RankDown_4)" Value="189451" />
+  <Preset Label="Unknown Again (buff_Fame_Progression_RankDown_0)" Value="189452" />
+  <Preset Label="Unknown Again (buff_Fame_Progression_RankDown_Ambitious_0)" Value="189458" />
+  <Preset Label="Notable Old-timer (buff_Fame_Progression_RankDown_Ambitious_1)" Value="189459" />
+  <Preset Label="Falling Star (buff_Fame_Progression_RankDown_Ambitious_2)" Value="189460" />
+  <Preset Label="C-Lister (buff_Fame_Progression_RankDown_Ambitious_3)" Value="189461" />
+  <Preset Label="Improper Celebrity (buff_Fame_Progression_RankDown_Ambitious_4)" Value="189462" />
+  <Preset Label="Global Superstar (buff_Fame_Progression_RankUp_Ambitious_5)" Value="189464" />
+  <Preset Label="Notable Newcomer (buff_Fame_Progression_RankUp_Ambitious_1)" Value="189465" />
+  <Preset Label="Rising Star (buff_Fame_Progression_RankUp_Ambitious_2)" Value="189466" />
+  <Preset Label="B-Lister (buff_Fame_Progression_RankUp_Ambitious_3)" Value="189467" />
+  <Preset Label="Proper Celebrity (buff_Fame_Progression_RankUp_Ambitious_4)" Value="189468" />
+  <Preset Label="buff_HairMakeUpChair_Stylist_Working" Value="189722" />
+  <Preset Label="buff_HairMakeUpChair_Stylist_Bored" Value="189723" />
+  <Preset Label="buff_HairMakeUpChair_Stylist_Arrival" Value="189724" />
+  <Preset Label="buff_HairMakeUpChair_WardrobePedestal_KeepStyle" Value="189987" />
+  <Preset Label="buff_HairMakeUpChair_WardrobePedestal_GigFailed" Value="189996" />
+  <Preset Label="buff_ActorCareer_Role_GoToMark_Costar2" Value="190125" />
+  <Preset Label="buff_ActorCareer_Role_GoToMark_Director" Value="190126" />
+  <Preset Label="buff_ActorCareer_Role_GoToMark_DollyCameraOperator" Value="190530" />
+  <Preset Label="buff_ActorCareer_Role_PrePerformance_DollyCameraOperator" Value="191075" />
+  <Preset Label="buff_ActorCareer_Role_PrePerformance_Director" Value="191096" />
+  <Preset Label="buff_ActorCareer_Role_GoToMark_BackgroundProducer" Value="191196" />
+  <Preset Label="buff_ActorCareer_Role_GoToMark_StationaryCameraOperator" Value="191276" />
+  <Preset Label="buff_ActorCareer_Role_PrePerformance_StationaryCameraOperator" Value="191279" />
+  <Preset Label="buff_ActorCareer_ReadyToPerform" Value="191351" />
+  <Preset Label="buff_WardrobePedestal_Stylist_Arrival" Value="191621" />
+  <Preset Label="buff_WardrobePedestal_Stylist_Bored" Value="191622" />
+  <Preset Label="buff_WardrobePedestal_Stylist_Working" Value="191623" />
+  <Preset Label="buff_Fame_Quirk_PhoneFanatic" Value="191666" />
+  <Preset Label="Separation Anxiety (buff_Fame_Quirk_PhoneFanatic_Stressed)" Value="191707" />
+  <Preset Label="buff_AutonomyMod_CelebrityHangOut_Museum" Value="191727" />
+  <Preset Label="buff_AutonomyMod_CelebrityHangOut_Pool" Value="191728" />
+  <Preset Label="buff_AutonomyMod_CelebrityHangOut_Library" Value="191729" />
+  <Preset Label="buff_AutonomyMod_CelebrityHangOut_Park" Value="191730" />
+  <Preset Label="buff_AutonomyMod_CelebrityHangOut_Bar" Value="191731" />
+  <Preset Label="buff_AutonomyMod_CelebrityHangOut_Gym" Value="191732" />
+  <Preset Label="buff_ZoneMod_CelebrityHangOut_LowFame" Value="191748" />
+  <Preset Label="buff_Paparazzi_Trait" Value="191785" />
+  <Preset Label="buff_FameLevel_1" Value="191809" />
+  <Preset Label="buff_FameLevel_4" Value="191811" />
+  <Preset Label="buff_FameLevel_5" Value="191812" />
+  <Preset Label="buff_FameLevel_2" Value="191813" />
+  <Preset Label="buff_FameLevel_3" Value="191814" />
+  <Preset Label="buff_HairMakeUpChair_WardrobePedestal_AllowSit" Value="191942" />
+  <Preset Label="buff_Paparazzi_ReactionCooldown" Value="191955" />
+  <Preset Label="Photograph Fatigue (buff_Paparazzi_Meltdown_1)" Value="191958" />
+  <Preset Label="Paparazzi Problems (buff_Paparazzi_Meltdown_2)" Value="191974" />
+  <Preset Label="Media Meltdown (buff_Paparazzi_Meltdown_3)" Value="191975" />
+  <Preset Label="buff_AutonomyMod_VIPRope_Bouncer_Arrival" Value="191978" />
+  <Preset Label="buff_ActorCareer_Role_GoToMark_SpecialEffectsOperator" Value="192119" />
+  <Preset Label="Finding Zen (buff_DenizenPond_CalmingDenizens)" Value="192257" />
+  <Preset Label="Eager Predators (buff_DenizenPond_FerventPredators)" Value="192258" />
+  <Preset Label="Playful Denizens (buff_DenizenPond_PlayfulDenizens)" Value="192259" />
+  <Preset Label="Frenzied Escape (buff_DenizenPond_AgitatedBites)" Value="192260" />
+  <Preset Label="Mischievous Sprites (buff_DenizenPond_MischievousSprites)" Value="192261" />
+  <Preset Label="Knowing the Trends (buff_Object_VideoStation_StudyTrends)" Value="192549" />
+  <Preset Label="buff_Object_VideoStation_PostUpdate_Cooldown" Value="192565" />
+  <Preset Label="buff_Object_VideoStation_PostUpdate_Hype" Value="192571" />
+  <Preset Label="buff_Celebrity_Acquaintance" Value="192633" />
+  <Preset Label="buff_AutonomyMod_LoungeEvent_AwardHost" Value="192696" />
+  <Preset Label="buff_AutonomyMod_LoungeEvent_OpenMic" Value="192697" />
+  <Preset Label="buff_AutonomyMod_LoungeEvent_AcceptAward" Value="192739" />
+  <Preset Label="buff_AutonomyMod_LoungeEvent_NoMoreAward" Value="192746" />
+  <Preset Label="buff_Object_CrystalHelmet_Wearing" Value="192776" />
+  <Preset Label="buff_ActorCareer_Role_PrePerformance_BackgroundProducer" Value="192799" />
+  <Preset Label="buff_Fame_Quirk_Stan" Value="192850" />
+  <Preset Label="buff_Fame_Quirk_FanMail" Value="192851" />
+  <Preset Label="buff_Fame_Quirk_BrushesWithFame" Value="192852" />
+  <Preset Label="buff_Fame_Quirk_ASeriousActor" Value="192853" />
+  <Preset Label="buff_Fame_Quirk_EmotionBomb" Value="192854" />
+  <Preset Label="buff_Fame_Quirk_VainStreet" Value="192855" />
+  <Preset Label="buff_Fame_Quirk_NoTouching" Value="192856" />
+  <Preset Label="buff_Fame_Quirk_RefinedPalate" Value="192857" />
+  <Preset Label="buff_Fame_Quirk_PublicNumber" Value="192858" />
+  <Preset Label="buff_Fame_Quirk_PaparazziDarling" Value="192859" />
+  <Preset Label="buff_Fame_Quirk_JuiceEnthusiast" Value="192860" />
+  <Preset Label="Llama Letdown (buff_Fame_FameOpportunity_Activist_Base)" Value="192882" />
+  <Preset Label="A Sudden Spotlight (buff_Fame_FameOpportunity_Activist_Politician)" Value="192917" />
+  <Preset Label="buff_Fame_LockStat" Value="192950" />
+  <Preset Label="They Like {0.SimFirstName}; They Really Like {M0.Him}{F0.Her}! (buff_Fame_FameOpportunity_Entertainer_Music)" Value="192961" />
+  <Preset Label="Stuck In The Middle (buff_Fame_FameOpportunity_Gardener_Florist)" Value="192962" />
+  <Preset Label="A Brush in Time (buff_Fame_FameOpportunity_Painter_Base)" Value="192963" />
+  <Preset Label="Gave a Llama His Licks (buff_Fame_FameOpportunity_SecretAgent_Villain)" Value="192965" />
+  <Preset Label="The Internet Never Forgets (buff_Fame_FameOpportunity_SocialMedia_Base)" Value="192966" />
+  <Preset Label="Under the Thumb (buff_Fame_FameOpportunity_TechGuru_Base)" Value="192967" />
+  <Preset Label="Respect My Authority (buff_Fame_FameOpportunity_Writer_Base)" Value="192968" />
+  <Preset Label="buff_Celebrity_NearCelebrity" Value="192980" />
+  <Preset Label="buff_AutonomyMod_LoungeEvent_AwardDrinks" Value="193066" />
+  <Preset Label="buff_AutonomyMod_LoungeEvent_OpenMicTurn" Value="193096" />
+  <Preset Label="buff_ActorCareer_Role_PrePerformance_BackgroundActor" Value="193211" />
+  <Preset Label="buff_StreamingDrone_Streaming" Value="193298" />
+  <Preset Label="buff_Object_CrystalHelmet_DestroyCrystal" Value="193352" />
+  <Preset Label="buff_Celebrity_FanWhims" Value="193469" />
+  <Preset Label="Mo' Money Mo' Fun (VaultBuffs_WalkInSafe_Playful_FunMoney)" Value="193475" />
+  <Preset Label="Money WooHoo  (vaultBuffs_WalkInSafe_Flirty_MoneyLove)" Value="193482" />
+  <Preset Label="Vault Burglar (vaultBuffs_WalkInSafe_Excited_ImRich)" Value="193483" />
+  <Preset Label="Simoleon Slumber (vaultBuffs_WalkInSafe_Focused_MoneyDreams)" Value="193484" />
+  <Preset Label="My Money! (vaultBuffs_VaultDoor_Angry_ThiefRage)" Value="193486" />
+  <Preset Label="Awful Thief (vaultBuffs_VaultDoor_Sad_AwfulThief)" Value="193487" />
+  <Preset Label="Master Thief (vaultBuffs_VaultDoor_Confident_MasterThief)" Value="193488" />
+  <Preset Label="Made It Rain (vaultBuffs_MadeItRain_Playful)" Value="193489" />
+  <Preset Label="Money Mourning (vaultBuffs_Sad_WatchTheWorldBurn)" Value="193490" />
+  <Preset Label="Money to Burn (vaultBuffs_Focused_EverythingBurns)" Value="193491" />
+  <Preset Label="Absolutely &quot;Excellent!&quot; Meal (buff_Food_Fame_Quirks_RefinedPalate_Happy)" Value="193505" />
+  <Preset Label="Mildly Unpleasant Meal (buff_Food_Fame_Quirks_RefinedPalate_Uncomfortable)" Value="193506" />
+  <Preset Label="Offensive Meal (buff_Food_Fame_Quirks_RefinedPalate_HeavyUncomfortable)" Value="193507" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Amethyst" Value="193553" />
+  <Preset Label="buff_Object_CrystalHelmet_MotiveTank_Hunger" Value="193558" />
+  <Preset Label="buff_Fame_Perk_RelationshipGame_Networking" Value="193581" />
+  <Preset Label="buff_Fame_Perk_CorporatePartnership_RoyaltyBonus" Value="193596" />
+  <Preset Label="buff_Fame_Perk_BadReputation_PlayTheVillain" Value="193788" />
+  <Preset Label="buff_Fame_Perk_GoodReputation_GivingBack" Value="193789" />
+  <Preset Label="buff_Fame_Perk_GoodReputation_StarTreatment" Value="193791" />
+  <Preset Label="Ego Boost (buff_Celebrity_PoseCelebrity)" Value="193799" />
+  <Preset Label="Celebrity Sighting! (buff_Celebrity_PoseFan)" Value="193800" />
+  <Preset Label="buff_FamePerk_FeudBringer_Hidden_FeudCheck" Value="193851" />
+  <Preset Label="buff_FamePerk_FeudBringer_Hidden_EndFeud" Value="193874" />
+  <Preset Label="Feud Fury (buff_FamePerk_FeudBringer_DiscussedFeud)" Value="193882" />
+  <Preset Label="Feud Backlash (buff_FamePerk_FeudBringer_CommentBacklash)" Value="193883" />
+  <Preset Label="Ranting &amp; Raving (buff_FamePerk_FeudBringer_InfuriatingComments)" Value="193884" />
+  <Preset Label="Invigorating Chirps (buff_FamePerk_FeudBringer_EncouragingChirps)" Value="193885" />
+  <Preset Label="Losing the Feud (buff_FamePerk_FeudBringer_LosingFeud)" Value="193886" />
+  <Preset Label="Winning the Feud (buff_FamePerk_FeudBringer_WinningFeud)" Value="193887" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Alabaster" Value="193945" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Alexandrite_EP" Value="193955" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Amazonite_EP" Value="193956" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Citrine" Value="193957" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Crandestine_EP" Value="193958" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Diamond" Value="193959" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Emerald" Value="193960" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_FireOpal" Value="193961" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Hematite" Value="193962" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Jet" Value="193963" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Jonquilyst" Value="193964" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Nitelite_EP" Value="193965" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_OrangeTopaz" Value="193966" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Peach" Value="193967" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Plumbite" Value="193968" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Quartz" Value="193969" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Rainborz" Value="193970" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Rose" Value="193971" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Ruby" Value="193972" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Sapphire" Value="193973" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Shinalite" Value="193974" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Simanite" Value="193975" />
+  <Preset Label="buff_Object_CrystalHelmet_Traits_Turquoise" Value="193976" />
+  <Preset Label="buff_FamePerk_FeudBringer_Hidden_PerkBuff" Value="193978" />
+  <Preset Label="buff_Fame_Perk_CorporatePartnership_DialogCooldown" Value="194046" />
+  <Preset Label="buff_Fame_Perk_CorporatePartnership_RoyaltyBonus_Trend1" Value="194059" />
+  <Preset Label="buff_Fame_Perk_CorporatePartnership_RoyaltyBonus_Trend5" Value="194060" />
+  <Preset Label="buff_Fame_Perk_CorporatePartnership_RoyaltyBonus_Trend4" Value="194061" />
+  <Preset Label="buff_Fame_Perk_CorporatePartnership_RoyaltyBonus_Trend3" Value="194062" />
+  <Preset Label="buff_Fame_Perk_CorporatePartnership_RoyaltyBonus_Trend2" Value="194063" />
+  <Preset Label="Crawling In My Skin (buff_Fame_Quirk_NoTouching_Stressed)" Value="194078" />
+  <Preset Label="Fan Free (buff_Fame_Quirk_NoTouching_Confident)" Value="194079" />
+  <Preset Label="Far From Greatness (buff_Fame_Quirk_BrushesWithFame_Sad)" Value="194082" />
+  <Preset Label="In the Presence of Greatness (buff_Fame_Quirk_BrushesWithFame_Energized)" Value="194083" />
+  <Preset Label="Oooh, a Package! (buff_FamePerk_Influencer_GiftRecipient)" Value="194097" />
+  <Preset Label="Mail Gnome (buff_FamePerk_Influencer_NotGiftRecipient)" Value="194098" />
+  <Preset Label="buff_FamePerk_Squad_Role" Value="194255" />
+  <Preset Label="buff_FamePerk_Squad_Owner" Value="194260" />
+  <Preset Label="Anxious Energies (buff_Object_CrystalHelmet_Debuffs_Stressed)" Value="194304" />
+  <Preset Label="Tiresome Energies (buff_Object_CrystalHelmet_Debuffs_Bored)" Value="194305" />
+  <Preset Label="Crystal Accident (buff_Object_CrystalHelmet_Debuffs_Embarrassed)" Value="194306" />
+  <Preset Label="Sorrowful Energies (buff_Object_CrystalHelmet_Debuffs_Sad)" Value="194307" />
+  <Preset Label="Skin-Crawling Energies (buff_Object_CrystalHelmet_Debuffs_Uncomfortable)" Value="194308" />
+  <Preset Label="The Styling Shakes (buff_Fame_FameOpportunity_StyleInfluencer_Stylist)" Value="194321" />
+  <Preset Label="Junky Bogus Crown (buff_Object_CrystalHelmet_Debuffs_Angry)" Value="194329" />
+  <Preset Label="buff_AutonomyMod_FanStan_CanTargetCelebrities" Value="194436" />
+  <Preset Label="buff_Celebrity_TakePictureSuccess" Value="194509" />
+  <Preset Label="Embracing Celebrity (buff_Celebrity_Socials_HugSuccess)" Value="194589" />
+  <Preset Label="Hug Rejected (buff_Celebrity_Socials_HugFailure)" Value="194594" />
+  <Preset Label="Brush with Fame (buff_Celebrity_Socials_SelfieSuccess)" Value="194595" />
+  <Preset Label="Selfie Shunned (buff_Celebrity_Socials_SelfieFailure)" Value="194597" />
+  <Preset Label="Celebrity Autograph! (buff_Celebrity_Socials_AutographSuccess)" Value="194598" />
+  <Preset Label="Autograph Denied (buff_Celebrity_Socials_AutographFailure)" Value="194599" />
+  <Preset Label="buff_Fame_Perk_CelebuSerum_MailboxTimer" Value="194603" />
+  <Preset Label="Endearing Fan Mail (buff_FamePerk_Influencer_LetterBuffs_Happy)" Value="194848" />
+  <Preset Label="Inspirational Fan Mail (buff_FamePerk_Influencer_LetterBuffs_Inspired)" Value="194849" />
+  <Preset Label="Silly Fan Mail (buff_FamePerk_Influencer_LetterBuffs_Playful)" Value="194850" />
+  <Preset Label="Invigorating Fan Mail (buff_FamePerk_Influencer_LetterBuffs_Energized)" Value="194851" />
+  <Preset Label="Reaffirming Fan Mail (buff_FamePerk_Influencer_LetterBuffs_Confident)" Value="194852" />
+  <Preset Label="Feelin' the Energy (buff_Object_CrystalHelmet_HappyFromProximityRainborz)" Value="194859" />
+  <Preset Label="CelebuSerum Boost! (buff_Fame_Perk_CelebuSerum_DrankFun)" Value="194889" />
+  <Preset Label="CelebuSerum Boost! (buff_Fame_Perk_CelebuSerum_DrankHygiene)" Value="194890" />
+  <Preset Label="CelebuSerum Boost! (buff_Fame_Perk_CelebuSerum_DrankConfident)" Value="194891" />
+  <Preset Label="CelebuSerum Boost! (buff_Fame_Perk_CelebuSerum_DrankEnergy)" Value="194892" />
+  <Preset Label="CelebuSerum Boost! (buff_Fame_Perk_CelebuSerum_DrankFlirty)" Value="194893" />
+  <Preset Label="CelebuSerum Boost! (buff_Fame_Perk_CelebuSerum_DrankFocus)" Value="194894" />
+  <Preset Label="CelebuSerum Boost! (buff_Fame_Perk_CelebuSerum_DrankHappy)" Value="194895" />
+  <Preset Label="CelebuSerum Boost! (buff_Fame_Perk_CelebuSerum_DrankInspired)" Value="194896" />
+  <Preset Label="CelebuSerum Boost! (buff_Fame_Perk_CelebuSerum_DrankSleep)" Value="194920" />
+  <Preset Label="Tunes for the World (buff_MusicProductionStation_ReleasedTrack)" Value="194956" />
+  <Preset Label="CelebuSerum Buzz Killed (buff_Fame_Perk_CelebuSerum_WithdrawalTimer)" Value="194990" />
+  <Preset Label="buff_Fame_Perk_RelationshipGame_PRPerson" Value="195109" />
+  <Preset Label="buff_ActingSkill_PerformingRoutine" Value="195118" />
+  <Preset Label="buff_Fame_Perk_InstantBesties" Value="195135" />
+  <Preset Label="buff_AutonomyMod_VIPRope_Bouncer_Idle" Value="195307" />
+  <Preset Label="buff_Fame_Perk_RelationshipGame_PRPerson_Cooldown" Value="195315" />
+  <Preset Label="Partied Hard (buff_Fame_Perk_RelationshipGame_PRPerson_Dazed)" Value="195319" />
+  <Preset Label="That's My Song! (buff_MusicProductionStation_ListenBuffs_ThatsMySong)" Value="195370" />
+  <Preset Label="Awesome New Tunes (buff_MusicProductionStation_ListenBuffs_ListenSad)" Value="195372" />
+  <Preset Label="Awesome New Tunes (buff_MusicProductionStation_ListenBuffs_ListenHappy)" Value="195373" />
+  <Preset Label="Awesome New Tunes (buff_MusicProductionStation_ListenBuffs_ListenFlirty)" Value="195374" />
+  <Preset Label="Awesome New Tunes (buff_MusicProductionStation_ListenBuffs_ListenFocused)" Value="195375" />
+  <Preset Label="Awesome New Tunes (buff_MusicProductionStation_ListenBuffs_ListenPlayful)" Value="195376" />
+  <Preset Label="Awesome New Tunes (buff_MusicProductionStation_ListenBuffs_ListenConfident)" Value="195377" />
+  <Preset Label="Awesome New Tunes (buff_MusicProductionStation_ListenBuffs_ListenAnger)" Value="195378" />
+  <Preset Label="Made a Fan's Day (buff_Fame_Quirk_PublicNumber_Happy)" Value="195403" />
+  <Preset Label="Cruel &quot;Fan&quot; (buff_Fame_Quirk_PublicNumber_Sad)" Value="195404" />
+  <Preset Label="Condescending &quot;Fan&quot; (buff_Fame_Quirk_PublicNumber_Embarrassed)" Value="195405" />
+  <Preset Label="Envious &quot;Fan&quot; (buff_Fame_Quirk_PublicNumber_Angry)" Value="195406" />
+  <Preset Label="Fan Flattery (buff_Fame_Quirk_PublicNumber_Flirty)" Value="195407" />
+  <Preset Label="Obsessed Fan (buff_Fame_Quirk_PublicNumber_Stressed)" Value="195408" />
+  <Preset Label="Inspired Fan (buff_Fame_Quirk_PublicNumber_Inspired)" Value="195409" />
+  <Preset Label="Brought the Bantz (buff_Fame_Perk_RelationshipGame_PRPerson_Playful)" Value="195482" />
+  <Preset Label="buff_ActingSkill_PerformingRoutineForTips" Value="195550" />
+  <Preset Label="buff_ActingSkill_SuccessfulRoutine_Inspired" Value="195551" />
+  <Preset Label="Shall Not Pass (buff_VIPRope_Fight_Embarrassed)" Value="195631" />
+  <Preset Label="Hurt and Healing (buff_Fame_FameOpportunity_Gardener_Base)" Value="195695" />
+  <Preset Label="Smooth Delivery (buff_ActingSkill_Mood_Flirty)" Value="195811" />
+  <Preset Label="The Giggles (buff_ActingSkill_Mood_Playful)" Value="195822" />
+  <Preset Label="Dramatic Motivation (buff_ActingSkill_Mood_Inspired)" Value="195823" />
+  <Preset Label="Happy Earworm (buff_ActingSkill_Mood_Happy)" Value="195824" />
+  <Preset Label="Pulse Pounding Performance (buff_ActingSkill_Mood_Energized_Action)" Value="195825" />
+  <Preset Label="1.21 Jigawatts (buff_ActingSkill_Mood_Energized_SciFi)" Value="195826" />
+  <Preset Label="Horrortastic Adrenaline Rush (buff_ActingSkill_Mood_Energized_Horror)" Value="195827" />
+  <Preset Label="buff_CelebrityTile_PlacementCeremony_Honoree_Gather" Value="195846" />
+  <Preset Label="buff_CelebrityTile_PlacementCeremony_Honoree_GatherImpatient" Value="195848" />
+  <Preset Label="buff_CelebrityTile_PlacementCeremony_Honoree_StartCeremony" Value="195850" />
+  <Preset Label="buff_CelebrityTile_PlacementCeremony_CrowdMember_Gather" Value="195851" />
+  <Preset Label="buff_CelebrityTile_PlacementCeremony_CrowdMember_GatherImpatient" Value="195852" />
+  <Preset Label="buff_CelebrityTile_PlacementCeremony_CrowdMember_StartCeremony" Value="195853" />
+  <Preset Label="buff_ActingSkill_SuccessfulRoutine_Energized_Action" Value="195855" />
+  <Preset Label="buff_ActingSkill_SuccessfulRoutine_Energized_Horror" Value="195856" />
+  <Preset Label="buff_ActingSkill_SuccessfulRoutine_Energized_SciFi" Value="195857" />
+  <Preset Label="buff_ActingSkill_SuccessfulRoutine_Flirty" Value="195858" />
+  <Preset Label="buff_ActingSkill_SuccessfulRoutine_Happy" Value="195859" />
+  <Preset Label="buff_ActingSkill_SuccessfulRoutine_Playful" Value="195860" />
+  <Preset Label="buff_Fame_QuirkBeGoneCooldown" Value="195873" />
+  <Preset Label="Utmost Professional (buff_Fame_Quirk_ASeriousActor_Angry)" Value="195908" />
+  <Preset Label="Seriously Peaceful (buff_Fame_Quirk_ASeriousActor_Inspired)" Value="195909" />
+  <Preset Label="buff_Fame_Perk_Brand_AllNighter" Value="195943" />
+  <Preset Label="buff_Fame_Perk_Brand_AllNighter_Active" Value="195945" />
+  <Preset Label="Energy Crash (buff_Fame_Perk_Brand_AllNighter_EnergyDrain)" Value="195949" />
+  <Preset Label="Where's a Mirror!? (buff_Fame_Quirk_VainStreet_Stressed)" Value="195991" />
+  <Preset Label="Really, Really, Ridiculously Good Looking (buff_Fame_Quirk_VainStreet_Confident)" Value="195992" />
+  <Preset Label="buff_FamePerk_CareerHopper_PerkBuff" Value="196005" />
+  <Preset Label="buff_FamePerk_Rally_AutonomousWatch" Value="196030" />
+  <Preset Label="Juiced! (buff_Fame_Quirk_JuiceEnthusiast_Energized_TYAE)" Value="196048" />
+  <Preset Label="Wanting Juice (buff_Fame_Quirk_JuiceEnthusiast_Sad_TYAE)" Value="196049" />
+  <Preset Label="Craving Juice (buff_Fame_Quirk_JuiceEnthusiast_Angry_TYAE)" Value="196050" />
+  <Preset Label="24-Hour Charity Stream Host (buff_Fame_Perk_Brand_AllNighter_CharityStream)" Value="196061" />
+  <Preset Label="buff_FamePerk_Rally_Rallying" Value="196064" />
+  <Preset Label="buff_FamePerk_HasPerkRally" Value="196071" />
+  <Preset Label="Craving Fruit Juice (buff_Fame_Quirk_JuiceEnthusiast_Angry_Child)" Value="196077" />
+  <Preset Label="Fruit Juiced! (buff_Fame_Quirk_JuiceEnthusiast_Energized_Child)" Value="196079" />
+  <Preset Label="Wanting Fruit Juice (buff_Fame_Quirk_JuiceEnthusiast_Sad_Child)" Value="196081" />
+  <Preset Label="buff_Celebrity_Fans" Value="196088" />
+  <Preset Label="buff_HairMakeUpChair_StyleHair" Value="196092" />
+  <Preset Label="buff_Reputation_Pristine_Friendship" Value="196112" />
+  <Preset Label="buff_FamePerk_Squad_PerkBuff" Value="196113" />
+  <Preset Label="Shutter Love (buff_Fame_Quirk_PaparazziDarling_ShutterLove)" Value="196144" />
+  <Preset Label="buff_FamePerk_FanFavorite_HasPerk" Value="196153" />
+  <Preset Label="buff_Fame_Perk_WhosBad_HasPerk_ReputationDecrease" Value="196175" />
+  <Preset Label="JUST DO IT! (buff_FamePerk_Rally_AudienceEffects)" Value="196223" />
+  <Preset Label="buff_Fame_Perk_Influencer" Value="196259" />
+  <Preset Label="Shocked by Stardom (buff_FamePerk_FanFavorite_Dazed)" Value="196263" />
+  <Preset Label="Stunning Looks (buff_FamePerk_FanFavorite_Confident)" Value="196264" />
+  <Preset Label="buff_FamePerk_Squad_Cooldown" Value="196267" />
+  <Preset Label="buff_Fame_Quirk_JuiceEnthusiast_Child" Value="196276" />
+  <Preset Label="Best Rally Ever! (buff_FamePerk_Rally_RallyerEffects)" Value="196326" />
+  <Preset Label="Anger Bomb (buff_Fame_Quirk_EmotionBomb_ExtraAnger)" Value="196436" />
+  <Preset Label="Sad Bomb (buff_Fame_Quirk_EmotionBomb_ExtraSadness)" Value="196438" />
+  <Preset Label="buff_AutonomyMod_Celebrity_AtVenue" Value="196537" />
+  <Preset Label="Walking Among The Stars (Buff_CelebrityTile_View_CelebrityPositive)" Value="196542" />
+  <Preset Label="Walking In the Dumps (Buff_CelebrityTile_View_CelebrityNegative)" Value="196543" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Alexandrite_EP" Value="196566" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Crandestine_EP" Value="196567" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Jet" Value="196568" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Jonquilyst" Value="196569" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Nitelite_EP" Value="196570" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Plumbite" Value="196571" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Rainborz" Value="196572" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Alabaster" Value="196573" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Citrine" Value="196574" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Emerald" Value="196575" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_OrangeTopaz" Value="196576" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Quartz" Value="196577" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Rose" Value="196578" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Turquoise" Value="196579" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Amazonite_EP" Value="196580" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Amethyst" Value="196581" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Diamond" Value="196582" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_FireOpal" Value="196583" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Hematite" Value="196584" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Peach" Value="196585" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Ruby" Value="196586" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Sapphire" Value="196587" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Shinalite" Value="196588" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Adult_Simanite" Value="196589" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Alabaster" Value="196590" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Alexandrite_EP" Value="196591" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Amazonite_EP" Value="196592" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Amethyst" Value="196593" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Citrine" Value="196594" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Crandestine_EP" Value="196595" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Diamond" Value="196596" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Emerald" Value="196597" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_FireOpal" Value="196598" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Hematite" Value="196599" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Jet" Value="196600" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Jonquilyst" Value="196601" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Nitelite_EP" Value="196602" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_OrangeTopaz" Value="196603" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Peach" Value="196604" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Plumbite" Value="196605" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Quartz" Value="196606" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Rainborz" Value="196607" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Rose" Value="196608" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Ruby" Value="196609" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Sapphire" Value="196610" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Shinalite" Value="196611" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Simanite" Value="196612" />
+  <Preset Label="buff_Object_CrystalHelmet_VFX_Child_Turquoise" Value="196613" />
+  <Preset Label="buff_AutonomyMod_Celebrity_NearbySims" Value="196650" />
+  <Preset Label="buff_Object_CrystalHelmet_MotiveTank_Bladder" Value="196663" />
+  <Preset Label="buff_Object_CrystalHelmet_MotiveTank_Fun" Value="196664" />
+  <Preset Label="buff_Object_CrystalHelmet_MotiveTank_Hygiene" Value="196665" />
+  <Preset Label="buff_Object_CrystalHelmet_MotiveTank_PlantSim_Water" Value="196666" />
+  <Preset Label="buff_Object_CrystalHelmet_MotiveTank_Social" Value="196667" />
+  <Preset Label="buff_Object_CrystalHelmet_MotiveTank_Vampire_Power" Value="196668" />
+  <Preset Label="buff_Object_CrystalHelmet_MotiveTank_Vampire_Thirst" Value="196669" />
+  <Preset Label="buff_Fame_Perk_EasyStreet_Career" Value="196719" />
+  <Preset Label="buff_Royalty_TrendingVideo" Value="196736" />
+  <Preset Label="Cruisin' to Confidence (buff_Fame_Perk_EasyStreet_LeaveWork_Confident)" Value="196740" />
+  <Preset Label="A Blast of Fame! (buff_Fame_Perk_EasyStreet_LeaveWork_Energized)" Value="196741" />
+  <Preset Label="Flirty Flames of Fame (buff_Fame_Perk_EasyStreet_LeaveWork_Flirty)" Value="196742" />
+  <Preset Label="Laser-Focused Limelight (buff_Fame_Perk_EasyStreet_LeaveWork_Focused)" Value="196743" />
+  <Preset Label="Fame, Fortune, &amp; Feelin' Fine (buff_Fame_Perk_EasyStreet_LeaveWork_Happy)" Value="196744" />
+  <Preset Label="Fame-spirational Fans! (buff_Fame_Perk_EasyStreet_LeaveWork_Inspired)" Value="196745" />
+  <Preset Label="Celebrity Comedy (buff_Fame_Perk_EasyStreet_LeaveWork_Playful)" Value="196746" />
+  <Preset Label="Publicly Humiliated (buff_Paparazzi_Embarrassed)" Value="196748" />
+  <Preset Label="buff_Role_Appropriateness_Celebrity" Value="196754" />
+  <Preset Label="buff_Trait_Walkstyle_Celebrity" Value="196761" />
+  <Preset Label="buff_Celebrity_Stans" Value="196846" />
+  <Preset Label="buff_Fame_Perk_GoodReputation_StarTreatment_BroadcasterDelay" Value="196894" />
+  <Preset Label="buff_Celebrity_Fans_FanTraits_Nervous" Value="196909" />
+  <Preset Label="buff_Celebrity_Fans_FanTraits_Touchy" Value="196910" />
+  <Preset Label="buff_Celebrity_Fans_FanTraits_Social" Value="196911" />
+  <Preset Label="buff_Role_Tourist_View_CelebrityTile" Value="197029" />
+  <Preset Label="buff_Role_Tourist_View_AttractorPoint" Value="197031" />
+  <Preset Label="buff_Paparazzi_PhotoOpportunity" Value="197103" />
+  <Preset Label="buff_Reputation_Seen" Value="197339" />
+  <Preset Label="buff_ActorCareer_Role_Player" Value="197344" />
+  <Preset Label="buff_LoungeEvent_AwardCeremony_Book" Value="197459" />
+  <Preset Label="buff_LoungeEvent_AwardCeremony_CareerGig" Value="197460" />
+  <Preset Label="buff_LoungeEvent_AwardCeremony_Painting" Value="197461" />
+  <Preset Label="buff_LoungeEvent_AwardCeremony_Video" Value="197462" />
+  <Preset Label="buff_LoungeEvent_AwardCeremony_Song" Value="197463" />
+  <Preset Label="buff_ActorCareer_Makeup_Commercial_Pirate" Value="197482" />
+  <Preset Label="buff_ActorCareer_Makeup_TVLow_Pirate" Value="197483" />
+  <Preset Label="buff_ActorCareer_Makeup_Commercial_HouseNice" Value="197484" />
+  <Preset Label="buff_ActorCareer_Makeup_TVHigh_Victorian" Value="197485" />
+  <Preset Label="buff_ActorCareer_Makeup_Movie_Victorian" Value="197486" />
+  <Preset Label="buff_ActorCareer_Makeup_Commercial_Kids" Value="197487" />
+  <Preset Label="buff_ActorCareer_Makeup_TVLow_Kids" Value="197488" />
+  <Preset Label="buff_ActorCareer_Makeup_Movie_City" Value="197489" />
+  <Preset Label="buff_ActorCareer_Makeup_Movie_Superhero" Value="197490" />
+  <Preset Label="buff_ActorCareer_Makeup_TVHigh_Police" Value="197491" />
+  <Preset Label="buff_ActorCareer_Makeup_TVHigh_Apocalypse" Value="197492" />
+  <Preset Label="buff_ActorCareer_Makeup_Movie_Pirate" Value="197493" />
+  <Preset Label="buff_ActorCareer_Makeup_Commercial_Hospital" Value="197494" />
+  <Preset Label="buff_ActorCareer_Makeup_TVLow_HouseNice" Value="197495" />
+  <Preset Label="buff_ActorCareer_Makeup_TVHigh_Hospital" Value="197496" />
+  <Preset Label="buff_ActorCareer_Makeup_Movie_Medieval" Value="197497" />
+  <Preset Label="buff_ActorCareer_Makeup_Commercial_Western" Value="197498" />
+  <Preset Label="buff_ActorCareer_Makeup_TVLow_Western" Value="197499" />
+  <Preset Label="buff_ActorCareer_Makeup_TVHigh_Western" Value="197500" />
+  <Preset Label="buff_ActorCareer_Makeup_Movie_Western" Value="197501" />
+  <Preset Label="buff_ActorCareer_Makeup_TVLow_HouseLow" Value="197502" />
+  <Preset Label="buff_ActorCareer_Hair_Commercial_Pirate" Value="197514" />
+  <Preset Label="buff_ActorCareer_Hair_TVLow_Pirate" Value="197515" />
+  <Preset Label="buff_ActorCareer_Hair_Commercial_HouseNice" Value="197516" />
+  <Preset Label="buff_ActorCareer_Hair_TVHigh_Victorian" Value="197517" />
+  <Preset Label="buff_ActorCareer_Hair_Movie_Victorian" Value="197518" />
+  <Preset Label="buff_ActorCareer_Hair_Commercial_Kids" Value="197519" />
+  <Preset Label="buff_ActorCareer_Hair_TVLow_Kids" Value="197520" />
+  <Preset Label="buff_ActorCareer_Hair_TVHigh_Police" Value="197521" />
+  <Preset Label="buff_ActorCareer_Hair_Movie_Superhero" Value="197522" />
+  <Preset Label="buff_ActorCareer_Hair_Movie_City" Value="197523" />
+  <Preset Label="buff_ActorCareer_Hair_TVHigh_Apocalypse" Value="197524" />
+  <Preset Label="buff_ActorCareer_Hair_Movie_Pirate" Value="197525" />
+  <Preset Label="buff_ActorCareer_Hair_Commercial_Hospital" Value="197526" />
+  <Preset Label="buff_ActorCareer_Hair_TVLow_HouseNice" Value="197527" />
+  <Preset Label="buff_ActorCareer_Hair_TVHigh_Hospital" Value="197528" />
+  <Preset Label="buff_ActorCareer_Hair_Movie_Medieval" Value="197529" />
+  <Preset Label="buff_ActorCareer_Hair_Commercial_Western" Value="197530" />
+  <Preset Label="buff_ActorCareer_Hair_TVLow_Western" Value="197531" />
+  <Preset Label="buff_ActorCareer_Hair_TVHigh_Western" Value="197532" />
+  <Preset Label="buff_ActorCareer_Hair_Movie_Western" Value="197533" />
+  <Preset Label="buff_ActorCareer_Hair_TVLow_HouseLow" Value="197534" />
+  <Preset Label="A Free Mind (buff_Fame_Perk_CelebrityCleanse_Focused)" Value="197596" />
+  <Preset Label="buff_Fame_Perk_SkillCareer_CelebuSerum" Value="197597" />
+  <Preset Label="buff_Fame_Perk_SkillCareer_Noticeable" Value="197598" />
+  <Preset Label="buff_Fame_Perk_SkillCareer_EstablishedName" Value="197599" />
+  <Preset Label="buff_Fame_Perk_Brand_Trailblazer" Value="197600" />
+  <Preset Label="buff_Fame_Perk_Brand_LifestyleBrand" Value="197601" />
+  <Preset Label="buff_Fame_Perk_Brand_CorporatePartnership" Value="197602" />
+  <Preset Label="buff_CharityBenefitParty_Silver" Value="197820" />
+  <Preset Label="buff_CharityBenefitParty_Gold" Value="197821" />
+  <Preset Label="Sparkling Style (buff_ActingSkill_SkillFromCASReward)" Value="197822" />
+  <Preset Label="buff_ActorCareer_HairFail" Value="197855" />
+  <Preset Label="Styling Up (buff_WardrobePedestal_StyledPlayful)" Value="197876" />
+  <Preset Label="Styling For Inspiration (buff_HairMakeUpChair_Stylist_NewHair_Inspired)" Value="197882" />
+  <Preset Label="Stylish New Hair (buff_HairMakeUpChair_NewHair_Confident)" Value="197883" />
+  <Preset Label="All Done Up (buff_HairMakeUpChair_NewMakeUp_Confident)" Value="197884" />
+  <Preset Label="Beauty Makeup Expert (buff_HairMakeUpChair_Stylist_NewMakeUp_Inspired)" Value="197888" />
+  <Preset Label="buff_AutonomyMod_LoungeEvent_OpenMic_Player" Value="197905" />
+  <Preset Label="buff_AutonomyMod_LoungeEvent_OpenMic_PlayerEvent" Value="197909" />
+  <Preset Label="buff_ActorCareer_MainGoal" Value="197926" />
+  <Preset Label="Made It Trickle (vaultBuffs_MadeItTrickle_Playful)" Value="197949" />
+  <Preset Label="Made It Pour (vaultBuffs_MadeItPour_Confident)" Value="197950" />
+  <Preset Label="buff_Loot_CharityDramaNode" Value="198064" />
+  <Preset Label="Fashion Faux Pas (buff_Object_CrystalHelmet_EmbarrassedByViewer)" Value="198603" />
+  <Preset Label="Hug Rejected (buff_Celebrity_Socials_CelebHugFailure)" Value="198636" />
+  <Preset Label="buff_Role_Celebrity_WearCrystalHelmet" Value="198657" />
+  <Preset Label="buff_Role_Celebrity_ChanceWearCrystalHelmet" Value="198661" />
+  <Preset Label="Selfie Shunned (buff_Celebrity_Socials_CelebSelfieFailure)" Value="198684" />
+  <Preset Label="buff_Fame_Quirk_PublicNumber_Hidden_Cooldown" Value="198690" />
+  <Preset Label="Stardom! (Buff_CelebrityTile_PlaceTile_Confident)" Value="198691" />
+  <Preset Label="A Star is Born (Buff_CelebrityTile_TileEarned_Happy)" Value="198692" />
+  <Preset Label="buff_Celebrity_FanSocialCooldown" Value="198717" />
+  <Preset Label="buff_Celebrity_FaintCooldown" Value="198718" />
+  <Preset Label="Celebrity Tile Defacer (Buff_CelebrityTile_Mood_Deface_Playful)" Value="198719" />
+  <Preset Label="buff_FamePerk_Rally_Cooldown" Value="198882" />
+  <Preset Label="buff_Stage_Sound_TurnOff" Value="198940" />
+  <Preset Label="buff_Object_VideoStation_StudyTrends_Cooldown" Value="199057" />
+  <Preset Label="buff_Fame_Shine_Rank4" Value="199150" />
+  <Preset Label="buff_Fame_Shine_Rank5" Value="199151" />
+  <Preset Label="buff_ActorCareer_Role_PrePerformance_SpecialEffects" Value="199288" />
+  <Preset Label="Amateurish Fail (buff_ActorCareer_Agency_WellSuited_AmateurFail)" Value="199369" />
+  <Preset Label="buff_ActingSkill_SuccessfulRoutine_Inspired_DramaticMonologue" Value="199383" />
+  <Preset Label="Drama {M0.King}{F0.Queen} (buff_ActingSkill_Mood_Inspired_DramaticMonologue)" Value="199388" />
+  <Preset Label="Sopping (buff_DenizenPond_Sopping)" Value="199407" />
+  <Preset Label="Denizens Denied! (buff_DenizenPond_DenizensDenied)" Value="199409" />
+  <Preset Label="Thespian Training (buff_ActingSkill_ThespianTraining)" Value="199560" />
+  <Preset Label="Out of the Spotlight (buff_Trait_SelfAbsorbed_OutOfSpotlight)" Value="199587" />
+  <Preset Label="buff_Celebrity_MeetAndGreet_Celebrity" Value="199597" />
+  <Preset Label="buff_Celebrity_MeetAndGreet_Fan" Value="199598" />
+  <Preset Label="Prestigious Living (buff_ZoneModifiers_CelebrityHomeLotTrait_Happy)" Value="199707" />
+  <Preset Label="Poser! (buff_ZoneModifiers_CelebrityHomeLotTrait_Embarrassed)" Value="199708" />
+  <Preset Label="Recognized Icon (buff_Trait_SelfAbsorbed_RecognizedIcon)" Value="199710" />
+  <Preset Label="The Camera Loves Me! (buff_Trait_SelfAbsorbed_PictureWorthy)" Value="199714" />
+  <Preset Label="Exclusive Access (buff_ZoneModifiers_CelebrityHomeLotTrait_Invited)" Value="199715" />
+  <Preset Label="Born for This (buff_Trait_SelfAbsorbed_SpotlightReady)" Value="199729" />
+  <Preset Label="Flattered (buff_Trait_SelfAbsorbed_Flattered)" Value="199776" />
+  <Preset Label="Hungry for Attention (buff_Trait_SelfAbsorbed_HungryForAttention)" Value="199777" />
+  <Preset Label="Great Friends I Have! (buff_Trait_SelfAbsorbed_GreatFriendsIHave)" Value="199778" />
+  <Preset Label="For Me?! (buff_Trait_SelfAbsorbed_ForMe)" Value="199779" />
+  <Preset Label="Lacking Anonymous Attention (buff_Trait_SelfAbsorbed_LackingAnonymousAttention)" Value="199781" />
+  <Preset Label="So Popular (buff_Trait_SelfAbsorbed_Popular)" Value="199782" />
+  <Preset Label="Simsta-Famous (buff_Trait_SelfAbsorbed_SimstaFamous)" Value="199783" />
+  <Preset Label="buff_Celebrity_MeetAndGreet_FameAndRep_Bronze" Value="199827" />
+  <Preset Label="buff_Celebrity_MeetAndGreet_FameAndRep_Gold" Value="199828" />
+  <Preset Label="buff_Celebrity_MeetAndGreet_FameAndRep_Silver" Value="199829" />
+  <Preset Label="buff_AutonomyMod_VIPRope_AttemptToEnter" Value="199880" />
+  <Preset Label="buff_VIPRope_hidden_maxBribe" Value="199882" />
+  <Preset Label="buff_VIPRope_NPCSuccess" Value="199888" />
+  <Preset Label="Acting Assured (buff_DramaClub_PracticeActingConfident)" Value="199901" />
+  <Preset Label="Cry On Demand (buff_DramaClub_CryOnDemand)" Value="199902" />
+  <Preset Label="buff_Trait_SelfAbsorbed_AttendingActingGig" Value="200009" />
+  <Preset Label="buff_HairMakeUpChair_RemoveHat" Value="200039" />
+  <Preset Label="Gadget Friends (buff_StreamingDrone_HappyStreaming)" Value="200190" />
+  <Preset Label="Crashed Gadget Friend (buff_StreamingDrone_SadBroken)" Value="200192" />
+  <Preset Label="Feud Lost (buff_FamePerk_FeudBringer_LostFeud)" Value="200325" />
+  <Preset Label="buff_DramaClub_FridayShow" Value="200344" />
+  <Preset Label="Vivid Inspiration (buff_SleepingPod_SubliminalTransmitter_Dreams_Inspired)" Value="200400" />
+  <Preset Label="Energy Tank's Full!  (buff_SleepingPod_SubliminalTransmitter_Dreams_Restful)" Value="200401" />
+  <Preset Label="Anything's Possible (buff_SleepingPod_SubliminalTransmitter_Dreams_Confident)" Value="200402" />
+  <Preset Label="A Well Rested Mind (buff_SleepingPod_SubliminalTransmitter_Dreams_Focused)" Value="200403" />
+  <Preset Label="Unlimited Power! (buff_SleepingPod_SubliminalTransmitter_Dreams_Energized)" Value="200404" />
+  <Preset Label="See You In Dreamland (buff_SleepingPod_SubliminalTransmitter_Dreams_Social)" Value="200405" />
+  <Preset Label="Eat, Sleep, Play (buff_SleepingPod_SubliminalTransmitter_Dreams_Fun)" Value="200406" />
+  <Preset Label="Early to Bed, Early to Rise! (buff_SleepingPod_SubliminalTransmitter_Dreams_Educational)" Value="200407" />
+  <Preset Label="Tragic Dreams (buff_SleepingPod_Mischief_Sad)" Value="200410" />
+  <Preset Label="Frustrating Dreams (buff_SleepingPod_Mischief_Angry)" Value="200411" />
+  <Preset Label="Humiliating Dreams (buff_SleepingPod_Mischief_Embarrassed)" Value="200412" />
+  <Preset Label="Mundane Dreams (buff_SleepingPod_Mischief_Bored)" Value="200413" />
+  <Preset Label="Claustrophobic (buff_SleepingPod_Mischief_Trapped)" Value="200425" />
+  <Preset Label="Drama Club Support! (buff_DramaClub_Happy)" Value="200498" />
+  <Preset Label="Show Snubbed (buff_DramaClub_Sad)" Value="200499" />
+  <Preset Label="Delightful Performance (buff_DramaClub_Inspired)" Value="200500" />
+  <Preset Label="buff_DramaClub_HouseholdAttending" Value="200520" />
+  <Preset Label="buff_DramaClub_Arrival" Value="200523" />
+  <Preset Label="Two Peas in a Pod (buff_Woohoo_SleepingPod)" Value="200578" />
+  <Preset Label="Futuristic Fooling Around (buff_Woohoo_SleepingPod_Teen)" Value="200579" />
+  <Preset Label="buff_Hidden_SleepingPod_Woohooing" Value="200583" />
+  <Preset Label="buff_SleepingPod_CircadianTweaker" Value="200636" />
+  <Preset Label="My Tender Heart (buff_ActorCareer_PrepTasks_ResearchMood_Flirty)" Value="200800" />
+  <Preset Label="The Rage Within (buff_ActorCareer_PrepTasks_ResearchMood_Angry)" Value="200801" />
+  <Preset Label="Inner Child Found (buff_ActorCareer_PrepTasks_ResearchMood_PlayFul)" Value="200802" />
+  <Preset Label="buff_AutonomyMod_LampoonParty_GuestOfHonor" Value="200817" />
+  <Preset Label="buff_Object_CrystalHelmet_RemoveQuirk" Value="200842" />
+  <Preset Label="buff_VIPRope_hidden_AttemptToEnter_Cooldown" Value="200878" />
+  <Preset Label="vaultBuffs_hidden_breakingIntoUnownedSafe" Value="200889" />
+  <Preset Label="The Slumber Saboteur (buff_SleepingPod_Mischief_NotCaught_Positive)" Value="200894" />
+  <Preset Label="Not So Slick  (buff_SleepingPod_Mischief_Caught_Negative)" Value="200895" />
+  <Preset Label="buff_SleepingPod_Mischief_WitnessSabotage" Value="200947" />
+  <Preset Label="buff_SleepingPod_Up-N-Atomizer" Value="200960" />
+  <Preset Label="buff_AutonomyMod_LoungeEvent_AwardAttendee_Watch" Value="200984" />
+  <Preset Label="buff_HairMakeUpChair_RemoveHat_Gig" Value="200999" />
+  <Preset Label="Hello? Money? (vaultBuffs_Playful_MoneyPhone)" Value="201006" />
+  <Preset Label="buff_DramaClub_Promotion" Value="201014" />
+  <Preset Label="buff_ClubPerks_SkillBoost_AdultMinor_MediaProduction" Value="201031" />
+  <Preset Label="buff_ClubPerks_SkillBoost_AdultMajor_Acting" Value="201034" />
+  <Preset Label="Dreams Interrupted (buff_SleepingPod_SubliminalTransmitter_InterruptedDreams)" Value="201035" />
+  <Preset Label="buff_Sim_CelebrityDisguise" Value="201066" />
+  <Preset Label="buff_CelebrityTile_Hidden_TileAchieved_DefacedTile" Value="201078" />
+  <Preset Label="buff_Role_Tourist_TakePhotoNoAttractor" Value="201137" />
+  <Preset Label="buff_FamePerk_FanFavorite_FanCooldown" Value="201204" />
+  <Preset Label="buff_SleepingPod_Sleep_MotiveDecay_Suppression" Value="201367" />
+  <Preset Label="They Got Me Good (buff_Sim_Lampoon)" Value="201402" />
+  <Preset Label="buff_AutonomyMod_LoungeEvent_OpenMic_Watch" Value="201425" />
+  <Preset Label="buff_Celebrity_MeetAndGreet_PoseForPictures" Value="201444" />
+  <Preset Label="buff_Paparazzi_Idle" Value="201576" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_Commercial_Hospital" Value="201797" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_Commercial_HouseNice" Value="201798" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_TVLow_Pirate" Value="201799" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_TVLow_HouseNice" Value="201800" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_TVLow_Western" Value="201801" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_TVLow_HouseLow" Value="201802" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_TVLow_Pirate" Value="201803" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_TVHigh_Apocalypse" Value="201804" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_TVHigh_Hospital" Value="201805" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_TVHigh_Western" Value="201806" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_TVHigh_Victorian" Value="201807" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_TVHigh_Police" Value="201808" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_TVHigh_Apocalypse" Value="201809" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_TVHigh_Victorian" Value="201810" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_TVHigh_Hospital" Value="201811" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_TVHigh_Police" Value="201812" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_Movie_Pirate" Value="201816" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_Movie_Medieval" Value="201817" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_Movie_Western" Value="201818" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_Movie_Victorian" Value="201819" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_Movie_Superhero" Value="201820" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar1_Movie_City" Value="201821" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_Movie_Pirate" Value="201827" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_Movie_Medieval" Value="201828" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_Movie_Western" Value="201829" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_Movie_Victorian" Value="201830" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_Movie_Superhero" Value="201831" />
+  <Preset Label="buff_ActorCareer_HairMakeUp_CoStar2_Movie_City" Value="201832" />
+  <Preset Label="vaultBuffs_hidden_IsMakingItRain" Value="201908" />
+  <Preset Label="buff_Cooldown_Reputation_Donation" Value="201973" />
+  <Preset Label="Moneypot Trapped! (vaultBuffs_WalkInSafe_Stressed_TrappedInSafe)" Value="202080" />
+  <Preset Label="Master Escape Artist (vaultBuffs_WalkInSafe_Confident_MasterEscapeArtist)" Value="202081" />
+  <Preset Label="buff_Paparazzi_LockedOut" Value="202199" />
+  <Preset Label="buff_Fame_Perk_GoodReputation_StarTreatment_Hidden_ReactCooldown" Value="202214" />
+  <Preset Label="buff_Fame_FameOpportunity_Quit" Value="202220" />
+  <Preset Label="buff_Role_Celebrity_PlayGuitar" Value="202301" />
+  <Preset Label="buff_ActorCareer_Makeup_Gender_Fail_0" Value="202357" />
+  <Preset Label="buff_ActorCareer_Makeup_Gender_Fail_1" Value="202358" />
+  <Preset Label="buff_ActorCareer_Makeup_Gender_Fail_2" Value="202359" />
+  <Preset Label="buff_ActorCareer_Makeup_Gender_Fail_3" Value="202360" />
+  <Preset Label="buff_ActorCareer_Makeup_Gender_Fail_4" Value="202361" />
+  <Preset Label="buff_ActorCareer_Makeup_Unisex_Fail_0" Value="202363" />
+  <Preset Label="buff_ActorCareer_Makeup_Unisex_Fail_1" Value="202364" />
+  <Preset Label="buff_ActorCareer_Makeup_Unisex_Fail_2" Value="202365" />
+  <Preset Label="vaultBuffs_hidden_MoneyPhone_cooldown" Value="202366" />
+  <Preset Label="buff_AutonomyMod_LampoonHost" Value="202599" />
+  <Preset Label="buff_Reputation_HasBeenRank_0" Value="202632" />
+  <Preset Label="buff_Reputation_HasBeenRank_1" Value="202680" />
+  <Preset Label="buff_Reputation_HasBeenRank_2" Value="202681" />
+  <Preset Label="buff_Reputation_HasBeenRank_3" Value="202682" />
+  <Preset Label="buff_Reputation_HasBeenRank_4" Value="202683" />
+  <Preset Label="buff_Reputation_HasBeenRank_5" Value="202684" />
+  <Preset Label="buff_Reputation_HasBeenRank_6" Value="202685" />
+  <Preset Label="buff_NewFriend_DramaNode_Cooldown" Value="202751" />
+  <Preset Label="buff_Reputation_Terrible_Friendship" Value="202783" />
+  <Preset Label="buff_Celebrity_MeetAndGreet_FameAndRep_Bronze_BadRep" Value="202817" />
+  <Preset Label="buff_Celebrity_MeetAndGreet_FameAndRep_Gold_BadRep" Value="202818" />
+  <Preset Label="buff_Celebrity_MeetAndGreet_FameAndRep_Silver_BadRep" Value="202819" />
+  <Preset Label="buff_LampoonParty_Gold" Value="202959" />
+  <Preset Label="buff_Trait_SelfAbsorbed_ResetTimerNoDebuff" Value="203081" />
+  <Preset Label="buff_MusicProductionStation_RejectionLetterOfflot" Value="203301" />
+  <Preset Label="buff_Role_Celebrity_Walkstyle_Apply" Value="204573" />
+  <Preset Label="buff_AutonomyMod_Celebrity_NearbySims_ArriveAtVenue" Value="262049" />
+</PresetGroup>

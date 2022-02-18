@@ -14,7 +14,7 @@
                      FontSize="{StaticResource Constructor.BigFontSize}"
                      Header="Settings">
                 <StackPanel>
-                    <c:Field Label="Pie Menu Category" LabelWidth="150">
+                    <c:Field Label="PieMenuCategory" LabelWidth="150">
                         <c:ReferenceControl ElementTypeName="PieMenuCategory"
                                             Reference="{Binding PieMenuCategory}"
                                             ResetTo="15504"
@@ -40,13 +40,13 @@
                      FontSize="{StaticResource Constructor.BigFontSize}"
                      Header="Animations">
                 <StackPanel>
-                    <c:Field Label="Level 1 Success" LabelWidth="150">
+                    <c:Field Label="Level1Success" LabelWidth="150">
                         <c:ReferenceControl ElementTypeName="Animation"
                                             Reference="{Binding AnimationOnSuccess}"
                                             ResetTo="11939"
                                             ResetToLabel="Insult Failure" />
                     </c:Field>
-                    <c:Field Label="Level 2 and 3 Success" LabelWidth="150">
+                    <c:Field Label="Level2and3Success" LabelWidth="150">
                         <c:ReferenceControl ElementTypeName="Animation"
                                             Reference="{Binding AnimationOnFailure}"
                                             ResetTo="11947"
