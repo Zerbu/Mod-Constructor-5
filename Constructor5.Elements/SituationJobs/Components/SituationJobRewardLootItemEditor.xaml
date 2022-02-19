@@ -8,9 +8,9 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <StackPanel>
-        <c:CheckBox Content="Run when the situation ends at gold" IsChecked="{Binding RunOnGold}" />
-        <c:CheckBox Content="Run when the situation ends at silver" IsChecked="{Binding RunOnSilver}" />
-        <c:CheckBox Content="Run when the situation ends at bronze " IsChecked="{Binding RunOnBronze}" />
-        <c:CheckBox Content="Run when the situation ends with no medal" IsChecked="{Binding RunOnNoMedal}" />
+        <c:CheckBox Content="RunWhenSituationEndsAtGold" IsChecked="{Binding RunOnGold}" />
+        <c:CheckBox Content="RunWhenSituationEndsAtSilver" IsChecked="{Binding RunOnSilver}" />
+        <c:CheckBox Content="RunWhenSituationEndsAtBronze" IsChecked="{Binding RunOnBronze}" />
+        <c:CheckBox Content="RunWhenSituationEndsWithNoMedal" IsChecked="{Binding RunOnNoMedal}" />
     </StackPanel>
 </UserControl>

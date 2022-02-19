@@ -1,0 +1,130 @@
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0x7202605D">$MessageEndIndoorsSuperb<!--{0.SimFirstName} brought home {4.Money} today. Working indoors is a drag for {M0.he}{F0.her} as {M0.he}{F0.she} lives an Outdoorsy Lifestyle, but {M0.he}{F0.she} did some superb work anyways! {5.String}--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <T n="value">60</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>248831<!--trait_Lifestyles_Outdoorsy--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0x9C6ADB36">$MessageEndIndoorsGreat<!--{0.SimFirstName} brought home {4.Money} today. Working indoors is a drag for {M0.him}{F0.her} as {M0.he}{F0.she} lives an Outdoorsy Lifestyle, but {M0.he}{F0.she} did some great work anyways! {5.String}--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <T n="value">20</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>248831<!--trait_Lifestyles_Outdoorsy--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0x2EFFA8FE">$MessageEndIndoorsNeutral<!--What a day of work! {0.SimFirstName} is back home and {M0.he}{F0.she} has earned {4.Money}. Despite working inside and going against {M0.his}{F0.her} Outdoorsy Lifestyle, {M0.he}{F0.she} still managed to make ends meet.--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <T n="value">-20</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>248831<!--trait_Lifestyles_Outdoorsy--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0x5DC99B8A">$MessageEndIndoorsPoor<!--{0.SimFirstName} earned {4.Money} but performed poorly at work today, because of {M0.his}{F0.her} distaste from working indoors thanks to the Outdoorsy Lifestyle. {5.String}--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <T n="value">-60</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>248831<!--trait_Lifestyles_Outdoorsy--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0x4DA72DA9">$MessageEndIndoorsTerrible<!--{0.SimFirstName} earned {4.Money} but performed terribly at work today, because of {M0.his}{F0.her} distaste from working indoors thanks to the Outdoorsy Lifestyle. {5.String}--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>248831<!--trait_Lifestyles_Outdoorsy--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>

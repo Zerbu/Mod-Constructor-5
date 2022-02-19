@@ -30,6 +30,7 @@
                             <c:TextBlock FontStyle="Italic" Text="MinimumScoreForAvailabilityHelp" />
                         </StackPanel>
                     </c:Field>
+                    <local:SharedTuningActionsFileControl />
                 </StackPanel>
             </c:TabItem>
             <c:TabItem Background="Transparent"

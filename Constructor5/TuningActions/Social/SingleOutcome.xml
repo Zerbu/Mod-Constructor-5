@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SocialMixerInteraction" i="interaction" m="interactions.social.social_mixer_interaction">
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <IfBool p="HasAnimation">
+          <V n="animation_ref" t="enabled">
+            <U n="enabled">
+              <T n="factory">$Animation</T>
+            </U>
+          </V>
+        </IfBool>
+        <L n="loot_list">
+          <ForEachReference p="LootActionSets">
+            <T>$v</T>
+          </ForEachReference>
+          <T>$LearnTraitLootKey</T>
+        </L>
+      </U>
+    </U>
+  </V>
+</I>

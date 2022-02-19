@@ -1,0 +1,56 @@
+<TuningActions>
+  <L n="loot_actions">
+    <V t="know_other_sims_trait">
+      <U n="know_other_sims_trait">
+        <V n="notification" t="enabled">
+          <U n="enabled">
+            <V n="dialog" t="single">
+              <V n="single" t="literal">
+                <U n="literal">
+                  <V n="text" t="single">
+                    <T n="single">0x1883D451</T>
+                  </V>
+                  <V n="text_tokens" t="enabled" />
+                </U>
+              </V>
+            </V>
+          </U>
+        </V>
+        <V n="traits" t="specified">
+          <U n="specified">
+            <L n="potential_traits">
+              <T>$TraitKey</T>
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="know_other_sims_trait">
+      <U n="know_other_sims_trait">
+        <V n="notification" t="enabled">
+          <U n="enabled">
+            <V n="dialog" t="single">
+              <V n="single" t="literal">
+                <U n="literal">
+                  <V n="text" t="single">
+                    <T n="single">0x1883D451</T>
+                  </V>
+                  <V n="text_tokens" t="enabled" />
+                </U>
+              </V>
+            </V>
+          </U>
+        </V>
+        <V n="traits" t="specified">
+          <U n="specified">
+            <L n="potential_traits">
+              <T>$TraitKey</T>
+            </L>
+          </U>
+        </V>
+        <E n="subject">TargetSim</E>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+  </L>
+</TuningActions>

@@ -834,7 +834,7 @@ Element Name: {label}</String>
 	
 	<String Key="PieMenuIcon">Pie Menu Icon</String>
 
-	<String Key="Activities">Activities</String>
+	<String Key="Activities">Activities (EXPERIMENTAL)</String>
 	<String Key="OptionalActivities">Optional Activities</String>
 	<String Key="RequiredActivities">Required Activities</String>
 	<String Key="SituationJobInfo">Situation Job Info</String>
@@ -865,4 +865,20 @@ IMPORTANT: This will alter how the UI works. The amount of time remaining will n
 	<String Key="RoleStateChangesHelp">This option allows a Sim's role state to change over time during the situation.</String>
 
 	<String Key="CareerTemplateVolunteer">Volunteer/Afterschool Activity</String>
+
+	<String Key="PythonRecommended">It is recommended you install Python 3.7.0 on your computer. It is needed for certain mods, such as interactions, to export properly.</String>
+	<String Key="PythonInstallerMayTakeFewSeconds"> (Installer may take a few seconds to load)</String>
+	<String Key="ContinueWithoutPython">Continue without Python (not recommended)</String>
+	<String Key="Continue">Continue</String>
+	<String Key="InstallPython">Install Python</String>
+
+	<String Key="RunWhenSituationEndsAtGold">Run when the situation ends at gold</String>
+	<String Key="RunWhenSituationEndsAtSilver">Run when the situation ends at silver</String>
+	<String Key="RunWhenSituationEndsAtBronze">Run when the situation ends at bronze </String>
+	<String Key="RunWhenSituationEndsWithNoMedal">Run when the situation ends with no medal</String>
+
+	<String Key="ShowScreenSlamEffects">Show Screen Slam Effects</String>
+
+	<String Key="TuningActionsFile">Tuning Actions File</String>
+
 </LocalizableTextStrings>

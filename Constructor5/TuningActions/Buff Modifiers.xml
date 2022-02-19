@@ -1,0 +1,226 @@
+<TuningActions>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <IfListNotEmpty p="BuffDecayMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="decay_modifier_by_category">
+              <ForEach p="BuffDecayMultipliers">
+                <U>
+                  <E n="key">$Tag</E>
+                  <T n="value">$Value</T>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <ForEach p="EffectiveSkillModifiers">
+        <V t="effective_skill_modifier">
+          <U n="effective_skill_modifier">
+            <V n="modifier_key" t="skill_type">
+              <T n="skill_type">$Reference</T>
+            </V>
+            <T n="modifier_value">$Value</T>
+          </U>
+        </V>
+      </ForEach>
+      <ForEach p="EffectiveSkillTagModifiers">
+        <V t="effective_skill_modifier">
+          <U n="effective_skill_modifier">
+            <V n="modifier_key" t="skill_tag">
+              <E n="skill_tag">$Tag</E>
+            </V>
+            <T n="modifier_value">$Value</T>
+          </U>
+        </V>
+      </ForEach>
+      <IfListNotEmpty p="BuffDecayMultipliers">
+        <V t="mood_effect_modifier">
+          <U n="mood_effect_modifier">
+            <L n="mood_effect_mapping">
+              <ForEach p="BuffDecayMultipliers">
+                <U>
+                  <T n="key">$Tag</T>
+                  <T n="value">$Value</T>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <IfListNotEmpty p="NeedDecayMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="decay_modifiers">
+              <ForEach p="NeedDecayMultipliers">
+                <U>
+                  <T n="key">$Reference</T>
+                  <T n="value">$Value</T>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <IfListNotEmpty p="RelationshipTrackIncreaseMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="relationship_multipliers">
+              <ForEach p="RelationshipTrackIncreaseMultipliers">
+                <U>
+                  <T n="key">$Reference</T>
+                  <U n="value">
+                    <E n="apply_direction">INCREASE</E>
+                    <T n="multiplier">$Value</T>
+                  </U>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <IfListNotEmpty p="RelationshipTrackDecreaseMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="relationship_multipliers">
+              <ForEach p="RelationshipTrackDecreaseMultipliers">
+                <U>
+                  <T n="key">$Reference</T>
+                  <U n="value">
+                    <E n="apply_direction">DECREASE</E>
+                    <T n="multiplier">$Value</T>
+                  </U>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <IfListNotEmpty p="SkillTagMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="skill_tag_modifiers">
+              <ForEach p="SkillTagMultipliers">
+                <U>
+                  <E n="key">$Tag</E>
+                  <T n="value">$Value</T>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <IfListNotEmpty p="NeedIncreaseMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="stat_use_multiplier">
+              <ForEach p="NeedIncreaseMultipliers">
+                <U>
+                  <T n="key">$Reference</T>
+                  <U n="value">
+                    <E n="apply_direction">INCREASE</E>
+                    <T n="multiplier">$Value</T>
+                  </U>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <IfListNotEmpty p="SkillMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="stat_use_multiplier">
+              <ForEach p="SkillMultipliers">
+                <U>
+                  <T n="key">$Reference</T>
+                  <U n="value">
+                    <E n="apply_direction">INCREASE</E>
+                    <T n="multiplier">$Value</T>
+                  </U>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <IfListNotEmpty p="StatisticIncreaseMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="stat_use_multiplier">
+              <ForEach p="StatisticIncreaseMultipliers">
+                <U>
+                  <T n="key">$Reference</T>
+                  <U n="value">
+                    <E n="apply_direction">INCREASE</E>
+                    <T n="multiplier">$Value</T>
+                  </U>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <IfListNotEmpty p="StatisticDecreaseMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="stat_use_multiplier">
+              <ForEach p="StatisticDecreaseMultipliers">
+                <U>
+                  <T n="key">$Reference</T>
+                  <U n="value">
+                    <E n="apply_direction">DECREASE</E>
+                    <T n="multiplier">$Value</T>
+                  </U>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <IfListNotEmpty p="SimologyIncreaseMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="stat_use_multiplier">
+              <ForEach p="SimologyIncreaseMultipliers">
+                <U>
+                  <T n="key">$Reference</T>
+                  <U n="value">
+                    <E n="apply_direction">INCREASE</E>
+                    <T n="multiplier">$Value</T>
+                  </U>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <IfListNotEmpty p="SimologyDecreaseMultipliers">
+        <V t="autonomy_modifier">
+          <U n="autonomy_modifier">
+            <L n="stat_use_multiplier">
+              <ForEach p="SimologyDecreaseMultipliers">
+                <U>
+                  <T n="key">$Reference</T>
+                  <U n="value">
+                    <E n="apply_direction">DECREASE</E>
+                    <T n="multiplier">$Value</T>
+                  </U>
+                </U>
+              </ForEach>
+            </L>
+          </U>
+        </V>
+      </IfListNotEmpty>
+      <ForEach p="ContinuousStatisticModifiers">
+        <V t="continuous_statistic_modifier">
+          <U n="continuous_statistic_modifier">
+            <T n="statistic">$Reference</T>
+            <T n="modifier_value">$Value</T>
+          </U>
+        </V>
+      </ForEach>
+    </L>
+  </U>
+</TuningActions>

@@ -24,6 +24,8 @@ namespace Constructor5.InteractionTemplates.Romance
         [AutoTuneBasic("_category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15510, "Romance");
 
+        public string TuningActionsFile { get; set; } = "Romance";
+
         protected override void OnExport(InteractionExportContext context)
         {
             PythonBuilder.AddStep(SnippetInteractionsPythonStep.Current);
@@ -34,13 +36,7 @@ namespace Constructor5.InteractionTemplates.Romance
             }
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
-            var tuningContext = new TuningActionContext
-            {
-                Tuning = context.Tuning,
-                DataContext = this
-            };
-            tuningContext.Variables.Add("LearnTraitLootKey", context.LearnTraitLootKey?.ToString());
-            TuningActionInvoker.InvokeFromFile("Romance Social Interaction Template", tuningContext);
+            RunTuningActions(context, TuningActionsFile);
         }
     }
 }

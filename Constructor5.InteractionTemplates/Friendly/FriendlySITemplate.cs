@@ -6,6 +6,7 @@ using Constructor5.Base.Python;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Shared;
+using System;
 
 namespace Constructor5.InteractionTemplates.Friendly
 {
@@ -25,6 +26,7 @@ namespace Constructor5.InteractionTemplates.Friendly
 
         [AutoTuneBasic("_category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15504, "Friendly");
+        public string TuningActionsFile { get; set; } = "Friendly";
 
         protected override void OnExport(InteractionExportContext context)
         {
@@ -36,13 +38,8 @@ namespace Constructor5.InteractionTemplates.Friendly
             }
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
-            var tuningContext = new TuningActionContext
-            {
-                Tuning = context.Tuning,
-                DataContext = this
-            };
-            tuningContext.Variables.Add("LearnTraitLootKey", context.LearnTraitLootKey?.ToString());
-            TuningActionInvoker.InvokeFromFile("Friendly Social Interaction Template", tuningContext);
+
+            RunTuningActions(context, TuningActionsFile);
         }
     }
 }

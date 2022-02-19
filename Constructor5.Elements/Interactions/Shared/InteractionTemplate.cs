@@ -2,6 +2,7 @@ using Constructor5.Elements.Interactions.Social;
 using Constructor5.Core;
 using System.ComponentModel;
 using System.Xml.Serialization;
+using Constructor5.Base.ExportSystem.TuningActions;
 
 namespace Constructor5.Elements.Interactions.Shared
 {
@@ -16,5 +17,16 @@ namespace Constructor5.Elements.Interactions.Shared
         public abstract string Label { get; }
 
         protected internal abstract void OnExport(InteractionExportContext context);
+
+        protected void RunTuningActions(InteractionExportContext context, string actionsFile)
+        {
+            var tuningContext = new TuningActionContext
+            {
+                Tuning = context.Tuning,
+                DataContext = this
+            };
+            tuningContext.Variables.Add("LearnTraitLootKey", context.LearnTraitLootKey?.ToString());
+            TuningActionInvoker.InvokeFromFile($"Social/{actionsFile}", tuningContext);
+        }
     }
 }

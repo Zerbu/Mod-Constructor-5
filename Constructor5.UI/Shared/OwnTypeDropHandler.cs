@@ -27,5 +27,13 @@ namespace Constructor5.UI.Shared
             /*var collection = sourceItem?.GetParent();
             collection?.Move(collection.IndexOf(sourceItem), collection.IndexOf(targetItem));*/
         }
+
+        void IDropTarget.DragEnter(IDropInfo dropInfo)
+        {
+        }
+
+        void IDropTarget.DragLeave(IDropInfo dropInfo)
+        {
+        }
     }
 }

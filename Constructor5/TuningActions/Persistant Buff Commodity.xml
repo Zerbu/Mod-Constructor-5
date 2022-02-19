@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<I xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" c="Commodity" i="statistic" m="statistics.commodity">
+  <T n="_default_convergence_value">0</T>
+  <L n="arrow_data">
+    <T n="negative_double_arrow">-20</T>
+    <T n="negative_single_arrow">-1</T>
+    <T n="negative_triple_arrow">-30</T>
+    <T n="positive_double_arrow">20</T>
+    <T n="positive_single_arrow">1</T>
+    <T n="positive_triple_arrow">30</T>
+  </L>
+  <T n="auto_satisfy_curve_random_time_offset">120</T>
+  <T n="decay_rate">1</T>
+  <U n="initial_tuning">
+    <T n="_use_auto_satisfy_curve_as_initial_value">False</T>
+    <T n="_value">0</T>
+  </U>
+  <T n="min_value_tuning">0</T>
+  <T n="ui_sort_order">0</T>
+  <T n="ui_visible_distress_threshold">0</T>
+  <T n="weight">1</T>
+  <L n="states">
+    <U>
+      <T n="value">0</T>
+      <U n="buff">
+        <SetDataContext p="Buff">
+          <T n="buff_type">$Buff</T>
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">$Reason</T>
+          </V>
+        </SetDataContext>
+      </U>
+    </U>
+  </L>
+  <T n="max_value_tuning">10</T>
+  <T n="maximum_auto_satisfy_time">10</T>
+</I>

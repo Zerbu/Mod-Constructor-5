@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="CareerLevel" i="career_level" m="careers.career_tuning" n="career_Painter_Level1" s="29824">
+  <L n="end_of_day_loot">
+    <T>163484<!--loot_Career_Statistic_Responsible--></T>
+  </L>
+  <L n="loot_on_join">
+    <T>99354<!--Loot_Buff_Trait_NewJob_TraitActions--></T>
+  </L>
+  <L n="loot_on_quit">
+    <T>250232<!--loot_Lifestyles_Workaholic_QuitCareer--></T>
+    <T>245770<!--Loot_Lifestyles_Progress_Lock_Workaholic--></T>
+    <T>254109<!--loot_Trait_Proper_QuitJob--></T>
+  </L>
+  <U n="performance_metrics">
+    <T n="daily_assignment_performance">30</T>
+    <T n="missed_work_penalty">15</T>
+    <L n="mood_metrics" />
+    <T n="performance_per_completed_goal">0</T>
+    <L n="tested_metrics">
+      <U>
+        <T n="performance_mod">30</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>219082<!--buff_CollegeOrganization_SecretSociety_Sprite_Focused--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">3</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>122957<!--buff_Object_Espresso_BrightEyed--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">5</T>
+        <L n="tests">
+          <L>
+            <V t="bucks_perks_test">
+              <U n="bucks_perks_test">
+                <T n="bucks_perk">124106<!--clubPerks_General_NetworkedClub--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">60</T>
+        <L n="tests">
+          <L>
+            <V t="bucks_perks_test">
+              <U n="bucks_perks_test">
+                <T n="bucks_perk">193735<!--famePerks_SkillCareer_CareerHopper--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">60</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>196719<!--buff_Fame_Perk_EasyStreet_Career--></T>
+                    <T>196740<!--buff_Fame_Perk_EasyStreet_LeaveWork_Confident--></T>
+                    <T>196741<!--buff_Fame_Perk_EasyStreet_LeaveWork_Energized--></T>
+                    <T>196742<!--buff_Fame_Perk_EasyStreet_LeaveWork_Flirty--></T>
+                    <T>196743<!--buff_Fame_Perk_EasyStreet_LeaveWork_Focused--></T>
+                    <T>196744<!--buff_Fame_Perk_EasyStreet_LeaveWork_Happy--></T>
+                    <T>196745<!--buff_Fame_Perk_EasyStreet_LeaveWork_Inspired--></T>
+                    <T>196746<!--buff_Fame_Perk_EasyStreet_LeaveWork_Playful--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">10</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>205007<!--buff_MotherPlant_success--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">8</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>251970<!--trait_Proper--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">3</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>246571<!--buff_Lifestyles_CoffeeFanatic_DrankCoffee--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">-3</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>246521<!--buff_Lifestyles_CoffeeFanatic_NeedMoreCoffee--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">6</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>245828<!--trait_Lifestyles_Workaholic--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">3</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>246393<!--buff_Lifestyles_FrequentTraveler_PostVacation_Confident--></T>
+                    <T>246398<!--buff_Lifestyles_FrequentTraveler_PostVacation_Energized--></T>
+                    <T>246397<!--buff_Lifestyles_FrequentTraveler_PostVacation_Happy--></T>
+                    <T>246396<!--buff_Lifestyles_FrequentTraveler_PostVacation_Inspired--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">3</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>250757<!--buff_Lifestyles_HungryForLove_InARelationship--></T>
+                    <T>251258<!--buff_Lifestyles_NoNeedForRomance_NoRelationship--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <!--<U>
+        <T n="performance_mod">3</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>248830 trait_Lifestyles_Indoorsy</T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">-3</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>248831 trait_Lifestyles_Outdoorsy</T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>-->
+    </L>
+  </U>
+  <V n="promotion_audio_sting" t="enabled">
+    <U n="enabled">
+      <T n="audio" p="InGame\Audio\Stings\sting_career_progess.propx">39b2aa4a:00000000:c16f7f8c8e553337</T>
+    </U>
+  </V>
+  <T n="pto_per_day">0.2</T>
+  <L n="simolean_trait_bonus">
+    <U>
+      <T n="bonus">10</T>
+      <T n="trait">27082<!--trait_Business_Savvy--></T>
+    </U>
+    <U>
+      <T n="bonus">100</T>
+      <T n="trait">196731<!--trait_Hidden_CareerPayBoosts_2x--></T>
+    </U>
+    <U>
+      <T n="bonus">40</T>
+      <T n="trait">234944<!--trait_CivicPolicy_ModernPolicy--></T>
+    </U>
+  </L>
+  <V n="tones" t="enabled">
+    <U n="enabled">
+      <L n="default_action_list">
+        <U>
+          <T n="default_action">76717<!--CareerTone_WorkHard--></T>
+          <V n="default_action_test" t="enabled">
+            <L n="enabled">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>161625<!--trait_LifeSkills_Responsible--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </V>
+        </U>
+        <U>
+          <T n="default_action">76759<!--CareerTone_TakeItEasy--></T>
+          <V n="default_action_test" t="enabled">
+            <L n="enabled">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>161626<!--trait_LifeSkills_Irresponsible--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </V>
+        </U>
+        <U>
+          <T n="default_action">75577<!--Career_Tone_Normal--></T>
+        </U>
+      </L>
+      <T n="leave_work_early">100837<!--CareerLeaveWorkEarly--></T>
+      <L n="optional_actions">
+        <T>75577<!--Career_Tone_Normal--></T>
+        <T>99731<!--CareerTone_Angry--></T>
+        <T>99743<!--CareerTone_Bored--></T>
+        <T>99724<!--CareerTone_Confident--></T>
+        <T>99720<!--CareerTone_Embarrassed--></T>
+        <T>99739<!--CareerTone_Flirty--></T>
+        <T>99725<!--CareerTone_Playful--></T>
+        <T>99746<!--CareerTone_Sad--></T>
+        <T>76717<!--CareerTone_WorkHard--></T>
+        <T>76759<!--CareerTone_TakeItEasy--></T>
+        <T>76762<!--CareerTone_Social_SocializeWithCoworkers--></T>
+        <T>247613<!--careerTone_CoffeeFanatic_CaffeinatedShift--></T>
+      </L>
+    </U>
+  </V>
+</I>

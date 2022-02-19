@@ -1,0 +1,749 @@
+<TuningAction>
+  <T n="available_for_club_criteria">True</T>
+  <E n="career_category">Work</E>
+  <U n="career_messages">
+    <V n="career_assignment_summary_notification" t="tested">
+      <U n="tested">
+        <L n="records">
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0x208838E0">$MessageWorkFromHomePositive<!--{0.SimFirstName}'s boss was happy with the work {M0.he}{F0.she} did from home, and {M0.he}{F0.she} made {4.Money}.--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">60</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0x1A4CAF4A">$MessageWorkFromHomePositive<!--{0.SimFirstName}'s boss was happy with the work {M0.he}{F0.she} did from home, and {M0.he}{F0.she} made {4.Money}.--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">20</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0x47F9AD68">$MessageWorkFromHomeNegative<!--{0.SimFirstName}'s boss was disappointed with the work {M0.he}{F0.she} did from home and {M0.he}{F0.she} made {4.Money}.--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">-20</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0xD46FA622">$MessageWorkFromHomeNegative<!--{0.SimFirstName}'s boss was disappointed with the work {M0.he}{F0.she} did from home and {M0.he}{F0.she} made {4.Money}.--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">-60</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0xEC8B05D7">$MessageWorkFromHomeNegative<!--{0.SimFirstName}'s boss was disappointed with the work {M0.he}{F0.she} did from home and {M0.he}{F0.she} made {4.Money}.--></T>
+              </V>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="career_daily_end_notification" t="tested">
+      <U n="tested">
+        <L n="records">
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0x57D2BC57">$MessageEndSuperb<!--{0.SimFirstName} brought home {4.Money} today. {M0.He}{F0.She} did some superb work too! {5.String}--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">60</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+                <!--<V t="trait">
+                  <U n="trait">
+                    <L n="blacklist_traits">
+                      <T>248831</T>
+                    </L>
+                  </U>
+                </V>-->
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0xC721F09A">$MessageEndGreat<!--{0.SimFirstName} brought home {4.Money} today. {M0.He}{F0.She} did some great work, too! {5.String}--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">20</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+                <!--<V t="trait">
+                  <U n="trait">
+                    <L n="blacklist_traits">
+                      <T>248831</T>
+                    </L>
+                  </U>
+                </V>-->
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0xB93A4CD6">$MessageEndNeutral<!--What a day of work! {0.SimFirstName} is back home and {M0.he}{F0.she} has earned {4.Money}!--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">-20</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+                <!--<V t="trait">
+                  <U n="trait">
+                    <L n="blacklist_traits">
+                      <T>248831</T>
+                    </L>
+                  </U>
+                </V>-->
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0xF308EF2B">$MessageEndPoor<!--{0.SimFirstName} earned {4.Money} but performed poorly at work today. {5.String}--></T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">-60</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+                <!--<V t="trait">
+                  <U n="trait">
+                    <L n="blacklist_traits">
+                      <T>248831</T>
+                    </L>
+                  </U>
+                </V>-->
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single" fallback="0x84DB7BA6">$MessageEndTerrible<!--{0.SimFirstName} earned {4.Money} but performed terribly at work today. {5.String}--></T>
+              </V>
+            </U>
+            <!--<L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="blacklist_traits">
+                      <T>248831 trait_Lifestyles_Outdoorsy</T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>-->
+          </U>
+        </L>
+      </U>
+    </V>
+    <U n="career_daily_start_notification">
+      <V n="text" t="single">
+        <T n="single" fallback="0x71EB46BD">$MessageOffToWork<!--{0.SimFirstName} is off to work!--></T>
+      </V>
+    </U>
+    <V n="career_early_warning_alarm" t="enabled">
+      <U n="enabled">
+        <T n="call_in_sick_text" fallback="0x9291A330">$MessageCallInSick<!--Call in sick--></T>
+        <U n="dialog">
+          <V n="text" t="single">
+            <T n="single" fallback="0xCF6C9354">$MessageHourToWorkOptions<!--Work for {0.SimFirstName} starts in about one hour. What would you like to do?--></T>
+          </V>
+          <V n="timeout_duration" t="enabled">
+            <T n="enabled">55</T>
+          </V>
+        </U>
+        <T n="go_to_work_text" fallback="0x55B02A1F">$MessageGoToWork<!--Go to work--></T>
+        <T n="take_pto_text" fallback="0x17539AB0">$MessageTakePTO<!--Take PTO--></T>
+        <T n="work_from_home_text" fallback="0x72F88945">$MessageWorkFromHome<!--Work from home--></T>
+      </U>
+    </V>
+    <U n="career_early_warning_notification">
+      <V n="text" t="single">
+        <T n="single" fallback="0xD1C5E030">$MessageHourToWork<!--Work for {0.SimFirstName} starts in about one hour.--></T>
+      </V>
+    </U>
+    <U n="career_event_confirmation_dialog">
+      <V n="text" t="single">
+        <T n="single" fallback="0xE0D6C9">$MessageActiveCareerStart<!--It's time for {0.SimFirstName} to head off to work. Would you care to follow?--></T>
+      </V>
+    </U>
+    <V n="career_event_end_warning" t="enabled">
+      <U n="enabled">
+        <U n="notification">
+          <V n="text" t="single">
+            <T n="single" fallback="0xB7AEF346">$MessageActiveCareerEnd<!--{0.SimFirstName}'s work day will end in one hour. {M0.He}{F0.She} should wrap up what {M0.he}{F0.she} is doing. Each work day can be extended once by clicking on the Event Timer.--></T>
+          </V>
+          <E n="urgency">URGENT</E>
+        </U>
+      </U>
+    </V>
+    <V n="career_missing_work" t="enabled">
+      <U n="enabled">
+        <T n="affordance">77302<!--phone_Chat_Work_Missing--></T>
+        <U n="dialog">
+          <V n="icon" t="enabled">
+            <V n="enabled" t="resource_key">
+              <U n="resource_key">
+                <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_careersimoleons.png">2f7d0004:00000000:617140672fa22f7b</T>
+              </U>
+            </V>
+          </V>
+          <E n="phone_ring_type">RING</E>
+          <V n="text" t="single">
+            <T n="single" fallback="0xA9E4B757">$MessageBossCalling<!--My boss is calling. Should I pick it up?--></T>
+          </V>
+          <V n="title" t="enabled">
+            <T n="enabled" fallback="0x36795024">$MessagePhoneCall<!--Incoming Phone Call--></T>
+          </V>
+        </U>
+      </U>
+    </V>
+    <U n="career_performance_warning">
+      <T n="affordance">77301<!--phone_Chat_Work_Performance--></T>
+      <U n="dialog">
+        <V n="icon" t="enabled">
+          <V n="enabled" t="resource_key">
+            <U n="resource_key">
+              <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_careersimoleons.png">2f7d0004:00000000:617140672fa22f7b</T>
+            </U>
+          </V>
+        </V>
+        <E n="phone_ring_type">RING</E>
+        <V n="text" t="single">
+          <T n="single" fallback="0xA9E4B757">$MessageBossCalling<!--My boss is calling. Should I pick it up?--></T>
+        </V>
+        <V n="title" t="enabled">
+          <T n="enabled" fallback="0x36795024">$MessagePhoneCall<!--Incoming Phone Call--></T>
+        </V>
+      </U>
+      <U n="threshold">
+        <E n="comparison">LESS_OR_EQUAL</E>
+        <T n="value">-50</T>
+      </U>
+    </U>
+    <L n="career_time_off_messages">
+      <U>
+        <E n="key">FAKE_SICK</E>
+        <U n="value">
+          <V n="day_end_notification" t="enabled">
+            <V n="enabled" t="single">
+              <U n="single">
+                <V n="text" t="single">
+                  <T n="single" fallback="0x3AFB8BE9">$MessageEndFakeSick<!--{0.SimFirstName} earned {4.Money} while home "sick."{5.String}--></T>
+                </V>
+              </U>
+            </V>
+          </V>
+          <T n="text">$MessageTakingSickDay<!--Taking Sick Day--></T>
+          <T n="tooltip">$MessageTakingSickDay<!--Taking Sick Day--></T>
+        </U>
+      </U>
+      <U>
+        <E n="key">FAMILY_LEAVE</E>
+        <U n="value">
+          <V n="day_end_notification" t="enabled">
+            <V n="enabled" t="single">
+              <U n="single">
+                <V n="text" t="single">
+                  <T n="single" fallback="0xE5C6E75">$MessageEndFamilyLeave<!--{0.SimFirstName} has earned {4.Money} today.{5.String}--></T>
+                </V>
+              </U>
+            </V>
+          </V>
+          <T n="text" fallback="0x9C5E2B38">$MessageOnFamilyLeave<!--<font color='#03ADEE'>On Family Leave</font>--></T>
+          <T n="tooltip" fallback="0xD23FD32A">$MessageOnFamilyLeave<!--<font color='#03ADEE'>On Family Leave</font>--></T>
+        </U>
+      </U>
+      <U>
+        <E n="key">HOLIDAY</E>
+        <U n="value">
+          <V n="day_end_notification" t="enabled">
+            <V n="enabled" t="single">
+              <U n="single">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="text" t="single">
+                  <T n="single" fallback="0x69DC6A39">$MessageEndHoliday<!--{0.SimFirstName} has earned {4.Money} on {M0.his}{F0.her} holiday.--></T>
+                </V>
+              </U>
+            </V>
+          </V>
+          <T n="text" fallback="0x99DDA42A">$MessageHoliday<!--<font color='#03ADEE'>Holiday</font>--></T>
+          <T n="tooltip" fallback="0xD48E9BB0">$MessageHolidayDaysEarned<!--<font color='#03ADEE'>Holiday - {1.Number} {S1.day}{P1.days} earned. </font>--></T>
+        </U>
+      </U>
+      <U>
+        <E n="key">MISSING_WORK</E>
+        <U n="value">
+          <V n="day_end_notification" t="disabled" />
+          <T n="text" fallback="0x6FC9D196">$MessageMissingWork<!--Missing Work--></T>
+          <T n="tooltip" fallback="0x11C913F4">$MessageMissingWork<!--Missing Work--></T>
+        </U>
+      </U>
+      <U>
+        <E n="key">PTO</E>
+        <U n="value">
+          <V n="day_end_notification" t="enabled">
+            <V n="enabled" t="single">
+              <U n="single">
+                <V n="text" t="single">
+                  <T n="single" fallback="0xA4361A49">$MessageEndPTO<!--{0.SimFirstName} has earned {4.Money} on {M0.his}{F0.her} day off.{5.String}--></T>
+                </V>
+              </U>
+            </V>
+          </V>
+          <T n="text" fallback="0x256650E9">$MessageOnVacation<!--<font color='#03ADEE'>On Vacation</font>--></T>
+          <T n="tooltip" fallback="0xC7BF8E69">$MessageOnVacationDaysEarned<!--<font color='#03ADEE'>On Vacation - {1.Number} {S1.day}{P1.days} earned. </font>--></T>
+        </U>
+      </U>
+      <U>
+        <E n="key">SICK</E>
+        <U n="value">
+          <T n="text" fallback="0xE2103E00">$MessageTakingSickDay<!--Taking Sick Day--></T>
+          <T n="tooltip" fallback="0xE2103E00">$MessageTakingSickDay<!--Taking Sick Day--></T>
+        </U>
+      </U>
+      <U>
+        <E n="key">WORK_FROM_HOME</E>
+      </U>
+    </L>
+    <U n="demote_career_notification">
+      <V n="text" t="single">
+        <T n="single" fallback="0x89568E38">$MessageEndDemoted<!--Oh no! {0.SimFirstName} has been demoted. {M0.He}{F0.She} is back to being {1.String|enAn}.--></T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled" fallback="0xA13D761D">$MessageEndTitle<!--Demoted to {1.String}--></T>
+      </V>
+    </U>
+    <U n="fire_career_notification">
+      <V n="text" t="single">
+        <T n="single" fallback="0xE0880E5D">$MessageEndFired<!--Bad news! {0.SimFirstName} was fired from {M0.his}{F0.her} job at {3.String}.--></T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled" fallback="0x1FD4456D">$MessageEndFiredTitle<!--Fired--></T>
+      </V>
+    </U>
+    <V n="join_career_notification" t="enabled">
+      <U n="enabled">
+        <V n="text" t="single">
+          <T n="single" fallback="0xCC4DF263">$MessageJoinedCareer<!--{0.SimFirstName} is now {1.String|enAn} at {3.String}. {M0.He}{F0.She} starts {4.DayOfWeekLong} at {4.TimeShort}!--></T>
+        </V>
+        <V n="title" t="enabled">
+          <T n="enabled" fallback="0xF72C1089">$MessageJoinedCareerTitle<!--Entered the {2.String} Career--></T>
+        </V>
+      </U>
+    </V>
+    <U n="overmax_notification">
+      <V n="text" t="single">
+        <T n="single" fallback="0xDD2A8D4A">$MessageEndRaiseBonus<!--{0.SimFirstName} has been given a raise as {1.String} for superior work performance!\n\n{M0.He}{F0.She} will now make an additional {6.Money} per hour, for a grand total of {5.Money} per hour.\n\n{M0.He}{F0.She} has also received the following bonus:\n{7.String}--></T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled" fallback="0xD50C3F93">$MessageEndRaiseTitle<!--Earned a Raise--></T>
+      </V>
+    </U>
+    <U n="overmax_rewardless_notification">
+      <V n="text" t="single">
+        <T n="single" fallback="0xBA6D0721">$MessageEndRaise<!--{0.SimFirstName} has been given a raise as {1.String} for superior work performance!\n\n{M0.He}{F0.She} will now make an additional {6.Money} per hour, for a grand total of {5.Money} per hour.--></T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled" fallback="0xD50C3F93">$MessageEndRaiseTitle<!--Earned a Raise--></T>
+      </V>
+    </U>
+    <U n="promote_career_notification">
+      <V n="text" t="single">
+        <T n="single" fallback="0xD3C01ACE">$MessageEndPromotedBonus<!--{0.SimFirstName} has been promoted to {1.String}!\n\n{M0.He}{F0.She} will now make an additional {6.Money} per hour, for a grand total of {5.Money} per hour.\n\n{M0.He}{F0.She} has also received the following bonus:\n{8.String}\n\n{M0.His}{F0.Her} next shift is {4.DayOfWeekLong} at {4.TimeShort}.\n\n--></T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled" fallback="0x54E0293D">$MessageEndPromotedTitle<!--Promoted to {1.String}--></T>
+      </V>
+    </U>
+    <U n="promote_career_rewardless_notification">
+      <V n="text" t="single">
+        <T n="single" fallback="0x6565040">$MessageEndPromoted<!--{0.SimFirstName} has been promoted to {1.String}!\n\n{M0.He}{F0.She} will now make an additional {6.Money} per hour, for a grand total of {5.Money} per hour.\n\n{M0.His}{F0.Her} next shift is {4.DayOfWeekLong} at {4.TimeShort}.\n\n--></T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled" fallback="0x54E0293D">$MessageEndPromotedTitle<!--Promoted to {1.String}--></T>
+      </V>
+    </U>
+    <T n="pto_gained_text" fallback="0xC7D41BCE">$MessageEndEarnedVacationDay<!--\n\n{0.SimFirstName} has earned a Vacation Day!--></T>
+    <U n="quit_career_notification">
+      <V n="audio_sting" t="enabled">
+        <U n="enabled">
+          <T n="audio" p="InGame\Audio\Bumper\bumper_career_quit.propx">39b2aa4a:00000000:949d002e3e205221</T>
+        </U>
+      </V>
+      <V n="text" t="single">
+        <T n="single" fallback="0xC55953D2">$MessageQuit<!--{0.SimFirstName} has quit {M0.his}{F0.her} job at {3.String}. {M0.He}{F0.She} decided it was time for a new direction, career-wise.--></T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled" fallback="0xAE185370">$MessageQuitTitle<!--Quit the {2.String} Career--></T>
+      </V>
+    </U>
+    <U n="situation_leave_confirmation">
+      <U n="dialog">
+        <V n="text" t="single">
+          <T n="single" fallback="0xF29F397C">$MessageSituationLeaveConfirmation<!--{0.SimFirstName} is a bit occupied right now. Should {M0.he}{F0.she} still go to work?--></T>
+        </V>
+        <T n="text_cancel" fallback="0xD8F1DC84">$MessageMissWork<!--Miss Work--></T>
+        <T n="text_ok" fallback="0x5C71E97E">$MessageGoToWork<!--Go to Work--></T>
+      </U>
+      <T n="take_pto_button_text" fallback="0xA0C11A0D">$MessageTakePTO<!--Take PTO--></T>
+    </U>
+  </U>
+  <T n="career_rabbit_hole">234354<!--careerRabbitHole--></T>
+  <U n="career_story_progression">
+    <V n="joining" t="enabled">
+      <U n="enabled">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">1.5</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>16823<!--trait_Ambitious--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.5</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>9599<!--trait_Lazy--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="quitting" t="enabled">
+      <U n="enabled">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.5</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>16823<!--trait_Ambitious--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.5</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>9599<!--trait_Lazy--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="retiring" t="enabled">
+      <U n="enabled">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="sim_info">
+                  <U n="sim_info">
+                    <V n="ages" t="specified">
+                      <L n="specified">
+                        <E>TEEN</E>
+                        <E>YOUNGADULT</E>
+                        <E>ADULT</E>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <T n="days_to_level_loss">2</T>
+  <V n="demotion_buff" t="enabled">
+    <U n="enabled">
+      <V n="buff_reason" t="enabled">
+        <T n="enabled">0x72708373<!--(From Demotion)--></T>
+      </V>
+      <T n="buff_type">36046<!--buff_Career_RethinkingOptions--></T>
+    </U>
+  </V>
+  <U n="demotion_chance_modifiers">
+    <L n="multipliers">
+      <U>
+        <T n="multiplier">0</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>32442<!--trait_ProfessionalSlacker--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <U n="early_promotion_chance">
+    <T n="base_value">0.01</T>
+    <L n="multipliers">
+      <U>
+        <T n="multiplier">10</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>32444<!--trait_Entrepreneurial--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <U n="early_promotion_modifiers">
+    <T n="base_value">0.01</T>
+    <L n="multipliers">
+      <U>
+        <T n="multiplier">20</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>32444<!--trait_Entrepreneurial--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <V n="fired_buff" t="enabled">
+    <U n="enabled">
+      <V n="buff_reason" t="enabled">
+        <T n="enabled">0x9399F200<!--(From Getting Fired)--></T>
+      </V>
+      <T n="buff_type">97449<!--buff_Career_Fired--></T>
+    </U>
+  </V>
+  <T n="go_home_to_work_affordance">98770<!--GoHomeAndAttendWork--></T>
+  <T n="initial_delay">600</T>
+  <T n="initial_pto">3</T>
+  <V n="promotion_buff" t="enabled">
+    <U n="enabled">
+      <V n="buff_reason" t="enabled">
+        <T n="enabled">0x64105273<!--(From Promotion)--></T>
+      </V>
+      <T n="buff_type">36045<!--buff_Career_MovingUp--></T>
+    </U>
+  </V>
+  <V n="quittable_data" t="Can_Quit">
+    <U n="Can_Quit">
+      <U n="quit_dialog">
+        <V n="icon" t="enabled">
+          <V n="enabled" t="participant" />
+        </V>
+        <V n="text" t="single">
+          <T n="single">0x6A9E0D87<!--Are you sure {0.SimFirstName} should quit {M0.his}{F0.her} job as a {2.String}?--></T>
+        </V>
+        <T n="text_ok">0x140935F4<!--Quit--></T>
+        <V n="title" t="enabled">
+          <T n="enabled">0x36E52F06<!--Quit Job--></T>
+        </V>
+      </U>
+    </U>
+  </V>
+  <U n="start_level_modifiers">
+    <L n="modifiers">
+      <U>
+        <T n="modifier">3</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>32431<!--trait_Connections--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="modifier">2</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>98707<!--trait_HighSchool_A--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="bucks_perks_test">
+              <U n="bucks_perks_test">
+                <T n="bucks_perk">193735<!--famePerks_SkillCareer_CareerHopper--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="modifier">1</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>98706<!--trait_HighSchool_B--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+</TuningAction>

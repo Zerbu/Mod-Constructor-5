@@ -18,7 +18,7 @@ namespace Constructor5.TestConditionTypes.Statistics
         [AutoTuneEnum("who")]
         public string Participant { get; set; }
 
-        [AutoTuneBasic("quantity", IgnoreIf = "1")]
+        [AutoTuneBasic("skill_quantity", IgnoreIf = "1")]
         public int Quantity { get; set; }
 
         [AutoTuneEnum("skill_tag")]

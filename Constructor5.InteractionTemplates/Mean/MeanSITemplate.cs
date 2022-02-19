@@ -24,6 +24,8 @@ namespace Constructor5.InteractionTemplates.Mean
         [AutoTuneBasic("_category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15509, "Mean");
 
+        public string TuningActionsFile { get; set; } = "Mean";
+
         protected override void OnExport(InteractionExportContext context)
         {
             PythonBuilder.AddStep(SnippetInteractionsPythonStep.Current);
@@ -34,13 +36,7 @@ namespace Constructor5.InteractionTemplates.Mean
             }
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
-            var tuningContext = new TuningActionContext
-            {
-                Tuning = context.Tuning,
-                DataContext = this
-            };
-            tuningContext.Variables.Add("LearnTraitLootKey", context.LearnTraitLootKey?.ToString());
-            TuningActionInvoker.InvokeFromFile("Mean Social Interaction Template", tuningContext);
+            RunTuningActions(context, TuningActionsFile);
         }
     }
 }

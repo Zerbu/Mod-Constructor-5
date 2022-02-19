@@ -123,7 +123,11 @@
                                     </c:Field>
                                 </StackPanel>
 
-                                <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" Visibility="{Binding IsHidden, Converter={StaticResource BoolToVisInverted}}">
+                                <StackPanel>
+                                    <c:CheckBox IsChecked="{Binding ShowScreenSlamEffects}" Content="ShowScreenSlamEffects" />
+                                </StackPanel>
+
+                                <StackPanel Visibility="{Binding IsHidden, Converter={StaticResource BoolToVisInverted}}">
                                     <c:CheckBox IsChecked="{Binding IsForcedGoaledEvent}">
                                         <StackPanel>
                                             <c:TextBlock Text="IsForcedGoaledEvent" />

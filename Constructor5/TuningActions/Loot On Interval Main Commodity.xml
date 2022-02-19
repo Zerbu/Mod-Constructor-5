@@ -1,0 +1,38 @@
+<TuningActions>
+  <T n="_default_convergence_value">0</T>
+  <L n="arrow_data">
+    <T n="negative_double_arrow">-20</T>
+    <T n="negative_single_arrow">-1</T>
+    <T n="negative_triple_arrow">-30</T>
+    <T n="positive_double_arrow">20</T>
+    <T n="positive_single_arrow">1</T>
+    <T n="positive_triple_arrow">30</T>
+  </L>
+  <T n="auto_satisfy_curve_random_time_offset">120</T>
+  <T n="decay_rate">1</T>
+  <U n="initial_tuning">
+    <T n="_use_auto_satisfy_curve_as_initial_value">False</T>
+    <T n="_value">2</T>
+    <T n="_use_stat_value_on_init">True</T>
+  </U>
+  <T n="min_value_tuning">0</T>
+  <T n="ui_sort_order">0</T>
+  <T n="ui_visible_distress_threshold">0</T>
+  <T n="weight">1</T>
+  <T n="max_value_tuning">10</T>
+  <T n="persisted_tuning">False</T>
+  <T n="remove_on_convergence">False</T>
+  <T n="_add_if_not_in_tracker">False</T>
+  <L n="states">
+    <U>
+      <T n="value">0</T>
+      <L n="loot_list_on_enter_always">
+        <T>$RefreshLoot</T>
+      </L>
+    </U>
+    <U>
+      <T n="value">2</T>
+    </U>
+  </L>
+  <T n="maximum_auto_satisfy_time">10</T>
+</TuningActions>

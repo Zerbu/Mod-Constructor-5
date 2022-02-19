@@ -26,6 +26,8 @@ namespace Constructor5.InteractionTemplates.Funny
         [AutoTuneBasic("_category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15508, "Funny");
 
+        public string TuningActionsFile { get; set; } = "Funny";
+
         protected override void OnExport(InteractionExportContext context)
         {
             PythonBuilder.AddStep(SnippetInteractionsPythonStep.Current);
@@ -36,13 +38,7 @@ namespace Constructor5.InteractionTemplates.Funny
             }
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
-            var tuningContext = new TuningActionContext
-            {
-                Tuning = context.Tuning,
-                DataContext = this
-            };
-            tuningContext.Variables.Add("LearnTraitLootKey", context.LearnTraitLootKey?.ToString());
-            TuningActionInvoker.InvokeFromFile("Funny Social Interaction Template", tuningContext);
+            RunTuningActions(context, TuningActionsFile);
         }
     }
 }

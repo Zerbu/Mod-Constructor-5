@@ -1,4 +1,5 @@
 using Constructor5.Base.Export;
+using Constructor5.Base.ProjectSystem;
 using Constructor5.UI.Bases;
 using Microsoft.Win32;
 
@@ -24,6 +25,7 @@ namespace Constructor5.UI.Main
             {
                 Filter = "Package Files|*.package"
             };
+            saveFileDialog.FileName = Project.Id;
 
             if (saveFileDialog.ShowDialog() == true)
             {

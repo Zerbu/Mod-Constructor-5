@@ -1,0 +1,65 @@
+<TuningActions>
+  <IfNotEmpty p="AudioSting">
+    <V n="audio_sting" t="enabled">
+      <U n="enabled">
+        <T n="audio">$AudioSting</T>
+      </U>
+    </V>
+  </IfNotEmpty>
+  <IfString p="NotificationType" v="Notification">
+    <SetDataContext p="PrimaryIcon">
+      <IfString p="IconType" v="None" Inverted="true">
+        <V t="enabled" n="icon">
+          <IfString p="IconType" v="Standard">
+            <V t="resource_key" n="enabled">
+              <U n="resource_key">
+                <T n="key">$SelectedStandardIcon</T>
+              </U>
+            </V>
+          </IfString>
+          <IfString p="IconType" v="Participant">
+            <V t="participant" n="enabled">
+              <U n="participant">
+                <L n="participant_type">
+                  <E>$SelectedParticipant</E>
+                </L>
+              </U>
+            </V>
+          </IfString>
+        </V>
+      </IfString>
+    </SetDataContext>
+    <SetDataContext p="SecondaryIcon">
+      <IfString p="IconType" v="None" Inverted="true">
+        <V t="enabled" n="secondary_icon">
+          <IfString p="IconType" v="Standard">
+            <V t="resource_key" n="enabled">
+              <U n="resource_key">
+                <T n="key">$SelectedStandardIcon</T>
+              </U>
+            </V>
+          </IfString>
+          <IfString p="IconType" v="Participant">
+            <V t="participant" n="enabled">
+              <U n="participant">
+                <L n="participant_type">
+                  <E>$SelectedParticipant</E>
+                </L>
+              </U>
+            </V>
+          </IfString>
+        </V>
+      </IfString>
+    </SetDataContext>
+  </IfString>
+  <IfNotEmpty p="Text">
+    <V n="text" t="single">
+      <T n="single">$Text</T>
+    </V>
+  </IfNotEmpty>
+  <IfNotEmpty p="Title">
+    <V n="title" t="enabled">
+      <T n="enabled">$Title</T>
+    </V>
+  </IfNotEmpty>
+</TuningActions>

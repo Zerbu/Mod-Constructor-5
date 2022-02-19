@@ -20,14 +20,14 @@
             <StackPanel>
                 <c:TextBlock x:Name="ErrorText"
                            Margin="{StaticResource Constructor.BigPadding}"
-                           Text="It is recommended you install Python 3.7.0 on your computer. It is needed for certain mods, such as interactions, to export properly."
+                           Text="PythonRecommended"
                            />
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}" Orientation="Horizontal">
                     <c:Button x:Name="InstallButton"
                             HorizontalAlignment="Left"
                             Click="InstallButton_Click"
-                            Content="Install Python" />
-                    <c:TextBlock VerticalAlignment="Center" Text=" (Installer may take a few seconds to load)" />
+                            Content="InstallPython" />
+                    <c:TextBlock VerticalAlignment="Center" Text="PythonInstallerMayTakeFewSeconds" />
                 </StackPanel>
                 <c:Button x:Name="ContinueButton"
                         Margin="{StaticResource Constructor.BigPaddingMinusTop}"
@@ -42,7 +42,7 @@
                     Margin="{StaticResource Constructor.BigPaddingMinusTop}"
                     HorizontalAlignment="Right"
                     Click="CloseButton_Click"
-                    Content="Continue without Python (not recommended)" />
+                    Content="ContinueWithoutPython" />
         </Grid>
     </Border>
 </Window>

@@ -1,0 +1,39 @@
+<TuningActions>
+  <IfBool p="RestrictAge">
+    <V t="specified" n="ages">
+      <L n="specified">
+        <IfBool p="AllowBaby"><E>BABY</E></IfBool>
+        <IfBool p="AllowToddler"><E>TODDLER</E></IfBool>
+        <IfBool p="AllowChild"><E>CHILD</E></IfBool>
+        <IfBool p="AllowTeen"><E>TEEN</E></IfBool>
+        <IfBool p="AllowYoungAdult"><E>YOUNGADULT</E></IfBool>
+        <IfBool p="AllowAdult"><E>ADULT</E></IfBool>
+        <IfBool p="AllowElder"><E>ELDER</E></IfBool>
+      </L>
+    </V>
+  </IfBool>
+  <IfString p="Gender" v="Any" Inverted="True">
+    <V n="gender" t="specified">
+      <IfString p="Gender" v="Male"><E n="specified">MALE</E></IfString>
+      <IfString p="Gender" v="Female"><E n="specified">FEMALE</E></IfString>
+    </V>
+  </IfString>
+  <IfString p="CanAgeUp" v="Any" Inverted="True">
+    <V n="can_age_up" t="specified">
+      <IfString p="CanAgeUp" v="Yes"><T n="specified">True</T></IfString>
+      <IfString p="CanAgeUp" v="No"><T n="specified">False</T></IfString>
+    </V>
+  </IfString>
+  <IfString p="HasEverBeenPlayed" v="Any" Inverted="True">
+    <V n="has_been_played" t="enabled">
+      <IfString p="HasEverBeenPlayed" v="Yes"><T n="enabled">True</T></IfString>
+      <IfString p="HasEverBeenPlayed" v="No"><T n="enabled">False</T></IfString>
+    </V>
+  </IfString>
+  <IfString p="IsNPC" v="Any" Inverted="True">
+    <V n="npc" t="enabled">
+      <IfString p="IsNPC" v="Yes"><T n="enabled">True</T></IfString>
+      <IfString p="IsNPC" v="No"><T n="enabled">False</T></IfString>
+    </V>
+  </IfString>
+</TuningActions>

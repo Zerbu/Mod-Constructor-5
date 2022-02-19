@@ -1,0 +1,9 @@
+<TuningAction>
+  <IfBool p="HasEmotion">
+    <T n="mood_type">$Emotion</T>
+    <T n="mood_weight">$EmotionWeight</T>
+  </IfBool>
+  <IfBool p="HasEmotion" Inverted="True">
+    <T n="visible">False</T>
+  </IfBool>
+</TuningAction>

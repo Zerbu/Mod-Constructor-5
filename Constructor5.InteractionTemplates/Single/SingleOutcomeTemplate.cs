@@ -23,6 +23,8 @@ namespace Constructor5.InteractionTemplates.Single
         [AutoTuneBasic("_category")]
         public Reference PieMenuCategory { get; set; } = new Reference();
 
+        public string TuningActionsFile { get; set; } = "SingleOutcome";
+
         protected override void OnExport(InteractionExportContext context)
         {
             /*PythonBuilder.AddStep(SnippetInteractionsPythonStep.Current);
@@ -33,13 +35,7 @@ namespace Constructor5.InteractionTemplates.Single
             }*/
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
-            var tuningContext = new TuningActionContext
-            {
-                Tuning = context.Tuning,
-                DataContext = this
-            };
-            tuningContext.Variables.Add("LearnTraitLootKey", context.LearnTraitLootKey?.ToString());
-            TuningActionInvoker.InvokeFromFile("Single Outcome Template", tuningContext);
+            RunTuningActions(context, TuningActionsFile);
         }
     }
 }

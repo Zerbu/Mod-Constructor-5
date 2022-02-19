@@ -54,7 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="s4pi.Interfaces">
-      <HintPath>..\..\..\..\Programs\S4PE\s4pi.Interfaces.dll</HintPath>
+      <HintPath>..\References\s4pi.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="s4pi.Package">
       <HintPath>..\References\s4pi.Package.dll</HintPath>
@@ -65,7 +65,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Custom">
-      <HintPath>..\..\..\..\Programs\S4PE\System.Custom.dll</HintPath>
+      <HintPath>..\References\System.Custom.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />

@@ -1,0 +1,1351 @@
+<TuningActions>
+  <V n="_cancelable_by_user" t="require_confirmation">
+    <U n="require_confirmation">
+      <V n="icon" t="enabled">
+        <V n="enabled" t="participant" />
+      </V>
+      <V n="text" t="single">
+        <T n="single">0xC22ECEB<!--{0.SimFirstName} is currently at work. {M0.His}{F0.Her} boss may not think well of {M0.him}{F0.her} skipping work.\n\nAre you sure {M0.he}{F0.she} should?--></T>
+      </V>
+      <T n="text_cancel">0xD877B6E9<!--No--></T>
+      <T n="text_ok">0xB7A2CBCD<!--Yes--></T>
+      <V n="title" t="enabled">
+        <T n="enabled">0xD88F1131<!--Miss Work?--></T>
+      </V>
+    </U>
+  </V>
+  <L n="_constraints">
+    <U>
+      <L n="constraints">
+        <U>
+          <V n="value" t="posture">
+            <U n="posture">
+              <L n="posture_manifest_tuning">
+                <U>
+                  <V n="carry_left" t="None" />
+                  <V n="carry_right" t="None" />
+                  <V n="posture_type" t="enabled">
+                    <T n="enabled">23832<!--posture_StandExclusive--></T>
+                  </V>
+                  <V n="surface" t="None" />
+                </U>
+              </L>
+            </U>
+          </V>
+        </U>
+      </L>
+    </U>
+    <U>
+      <L n="constraints">
+        <U>
+          <V n="value" t="spawn_points">
+            <U n="spawn_points">
+              <V n="tags" t="Spawn_Point_Tags">
+                <L n="Spawn_Point_Tags">
+                  <E>Spawn_Arrival</E>
+                </L>
+              </V>
+            </U>
+          </V>
+        </U>
+      </L>
+    </U>
+  </L>
+  <V n="_icon" t="participant">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Actor</E>
+      </L>
+    </U>
+  </V>
+  <V n="_saveable" t="enabled" />
+  <T n="allow_autonomous">False</T>
+  <T n="attention_cost">0.5</T>
+  <V n="basic_content" t="flexible_length">
+    <U n="flexible_length">
+      <L n="conditional_actions">
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="career_based" />
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="buff_based">
+                <U n="buff_based">
+                  <T n="buff">75271<!--buff_Pregnancy_InLabor--></T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="buff_based">
+                <U n="buff_based">
+                  <T n="buff">97449<!--buff_Career_Fired--></T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_CANCEL</E>
+          </U>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="buff_based">
+                <U n="buff_based">
+                  <T n="buff">97450<!--buff_Career_Fired_Ambitious--></T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_CANCEL</E>
+          </U>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="buff_based">
+                <U n="buff_based">
+                  <T n="buff">202220<!--buff_Fame_FameOpportunity_Quit--></T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_CANCEL</E>
+          </U>
+        </V>
+      </L>
+      <V n="content" t="staging_content">
+        <U n="staging_content">
+          <U n="content_set">
+            <L n="affordance_links">
+              <T>23936<!--mixer_AtWork_EatMeal--></T>
+              <T>36034<!--mixer_AtWork_FakeAlienContact--></T>
+              <T>23930<!--mixer_AtWork_SolveBladder--></T>
+              <T>36035<!--mixer_AtWork_FillBosssOfficeWithBalloons--></T>
+              <T>26990<!--mixer_AtWork_PullMischievousPrank_Generic--></T>
+              <T>35728<!--mixer_AtWork_WrapEverythingInBacon_Prank--></T>
+              <T>36036<!--mixer_AtWork_FreeTheFrogs--></T>
+              <T>36037<!--mixer_AtWork_HackIntoCoworkersEmail--></T>
+              <T>36038<!--mixer_AtWork_LureLlamaIntoOffice--></T>
+              <T>36039<!--mixer_AtWork_MakeAllInvisibleInkVisible--></T>
+              <T>36040<!--mixer_AtWork_MustachesForArt--></T>
+              <T>36041<!--mixer_AtWork_RearrangeKeysOnTheKeyboard--></T>
+              <T>36042<!--mixer_AtWork_SillyPuddyInTheMic--></T>
+              <T>165275<!--mixer_AtWork_EatSackLunch--></T>
+              <T>97665<!--mixer_AtWork_SocializeWithCoworkers--></T>
+              <T>98790<!--mixer_AtWork_Default--></T>
+            </L>
+          </U>
+        </U>
+      </V>
+      <V n="periodic_stat_change" t="enabled">
+        <U n="enabled">
+          <L n="operations">
+            <V t="statistic_change">
+              <U n="statistic_change">
+                <T n="advertise">False</T>
+                <T n="amount">-1.66667</T>
+                <T n="stat">29122<!--Commodity_Trait_Loner_Solitude--></T>
+                <L n="tests">
+                  <L>
+                    <V t="buff">
+                      <U n="buff">
+                        <V n="whitelist" t="enabled">
+                          <L n="enabled">
+                            <T>38731<!--Buff_Trait_Loner_IsAlone--></T>
+                          </L>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+                <V n="text" t="use_default" />
+              </U>
+            </V>
+            <V t="reference">
+              <T n="reference">250166<!--periodicStatChangeOperation_Lifestyles_Progress_Energetic_FromCareer--></T>
+            </V>
+            <V t="reference">
+              <T n="reference">251307<!--periodicStatChangeOperation_Lifestyles_Progress_Outdoorsy_FromCareer--></T>
+            </V>
+            <V t="reference">
+              <T n="reference">252957<!--periodicStatChangeOperation_Lifestyles_Progress_AdrenalineSeeker_FromCareer--></T>
+            </V>
+          </L>
+        </U>
+      </V>
+      <T n="start_autonomous_inertial">False</T>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="audio_sting">
+      <U n="audio_sting">
+        <U n="audio_sting">
+          <T n="audio" p="InGame\Audio\Stings\sting_work_return.propx">39b2aa4a:00000000:7229428af3b8e78d</T>
+        </U>
+      </U>
+    </V>
+    <V t="audio_sting">
+      <U n="audio_sting">
+        <U n="audio_sting">
+          <T n="audio" p="InGame\Audio\Stings\sting_work_go.propx">39b2aa4a:00000000:ec3c578eda473ff1</T>
+        </U>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
+    <V t="remove_from_ensemble">
+      <U n="remove_from_ensemble">
+        <T n="ensemble_type">127285<!--ensemble_Generic--></T>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
+    <V t="leave_situation" />
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>156924<!--loot_Buff_Toddler_LeftBehind--></T>
+          <T>164420<!--loot_Career_Buff_Irresponsible--></T>
+        </L>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>162331<!--loot_TeenMoodSwing_Buffs--></T>
+        </L>
+        <U n="success_chance">
+          <T n="base_chance">15</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">0</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>162334<!--buff_TeenMoodSwing_Angry--></T>
+                          <T>162337<!--buff_TeenMoodSwing_Embarrassed--></T>
+                          <T>162336<!--buff_TeenMoodSwing_Sad--></T>
+                          <T>162335<!--buff_TeenMoodSwing_Stressed--></T>
+                          <T>162346<!--buff_TeenMoodSwing_PushMoodSwing_Cooldown--></T>
+                          <T>164632<!--buff_AdultMoodSwing_Angry--></T>
+                          <T>164634<!--buff_AdultMoodSwing_Embarrassed--></T>
+                          <T>164636<!--buff_AdultMoodSwing_Sad--></T>
+                          <T>164638<!--buff_AdultMoodSwing_Stressed--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <L>
+                  <V t="sim_info">
+                    <U n="sim_info">
+                      <V n="npc" t="enabled">
+                        <T n="enabled">True</T>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <L>
+                  <V t="trait">
+                    <U n="trait">
+                      <L n="blacklist_traits">
+                        <T>160265<!--trait_LifeSkills_UncontrolledEmotion--></T>
+                      </L>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">3</T>
+              <L n="tests">
+                <L>
+                  <V t="statistic">
+                    <U n="statistic">
+                      <T n="stat">16654<!--motive_Energy--></T>
+                      <V n="threshold" t="value_threshold">
+                        <U n="value_threshold">
+                          <E n="comparison">LESS</E>
+                          <T n="value">-75</T>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <L>
+                  <V t="statistic">
+                    <U n="statistic">
+                      <T n="stat">16656<!--motive_Hunger--></T>
+                      <V n="threshold" t="value_threshold">
+                        <U n="value_threshold">
+                          <E n="comparison">LESS</E>
+                          <T n="value">-75</T>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff_type">
+          <T n="buff_type">185938<!--buff_Object_Pet_Minor_Cage_Freeze_Rodent_Disease--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="statistic">
+              <U n="statistic">
+                <T n="must_have_stat">True</T>
+                <T n="stat">185283<!--commodity_Object_Minor_Pet_Cage_Rodent_Disease--></T>
+                <V n="threshold" t="value_threshold">
+                  <U n="value_threshold">
+                    <T n="value">-100</T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>259655<!--loot_Trait_Jealous_ResetMissingSOTimer--></T>
+        </L>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff_type">
+          <T n="buff_type">259618<!--Buff_Jealousy_FreezeMissingSOTimer--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>124879<!--trait_Jealous--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>234634<!--loot_Freegan_CorporateSellout--></T>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff_type">
+          <T n="buff_type">185065<!--buff_Temperature_Immune_To_Temperature--></T>
+        </U>
+      </U>
+    </V>
+  </L>
+  <L n="basic_liabilities">
+    <V t="game_speed">
+      <U n="game_speed">
+        <E n="game_speed">SUPER_SPEED3</E>
+        <U n="species_interaction_speed_requirements">
+          <L n="exempt_sim_buffs">
+            <T>167047<!--buff_Motives_Pet_Cat_InSS3Mode--></T>
+            <T>167048<!--buff_Motives_Pet_Dog_InSS3Mode--></T>
+          </L>
+          <L n="species_affordance_mapping">
+            <U>
+              <E n="key">CAT</E>
+              <T n="value">171288<!--pet_Sleep_Aggregate_LeftAtHome_Selection--></T>
+            </U>
+            <U>
+              <E n="key">DOG</E>
+              <T n="value">171288<!--pet_Sleep_Aggregate_LeftAtHome_Selection--></T>
+            </U>
+          </L>
+          <L n="speed_affordance_tags">
+            <E>Interaction_Sleep</E>
+            <E>Interaction_Pets_SS3Allowed</E>
+          </L>
+        </U>
+      </U>
+    </V>
+    <V t="hide_whims">
+      <U n="hide_whims">
+        <V n="_reset_time" t="enabled">
+          <T n="enabled">240</T>
+        </V>
+      </U>
+    </V>
+  </L>
+  <V n="basic_reserve_object" t="enabled" />
+  <T n="can_shoo">False</T>
+  <V n="canonical_animation" t="disabled" />
+  <T n="collapsible">True</T>
+  <V n="content_score" t="disabled" />
+  <T n="counts_as_inside">True</T>
+  <T n="disable_autonomous_multitasking_if_user_directed">True</T>
+  <T n="display_name">0xBEA3F010<!--Go to Work--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="fade_sim_out">True</T>
+  <T n="force_exit_on_inertia">False</T>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+    <E>Interaction_Career_Work_RabbitHole</E>
+    <E>Interaction_IgnoreGrounding</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <L n="loot_list">
+              <T>23925<!--loot_Buff_LeaveWork_NoTrait--></T>
+              <T>27270<!--loot_Buff_LeaveWork_Creative--></T>
+              <T>27252<!--loot_Buff_LeaveWork_Cheerful--></T>
+              <T>28740<!--loot_Buff_LeaveWork_Genius--></T>
+              <T>28742<!--loot_Buff_LeaveWork_SelfAssured--></T>
+              <T>27421<!--loot_Buff_LeaveWork_Active--></T>
+              <T>28741<!--loot_Buff_LeaveWork_Goofball--></T>
+              <T>27439<!--loot_Buff_LeaveWork_Romantic--></T>
+              <T>27271<!--loot_Buff_LeaveWork_Gloomy--></T>
+              <T>27272<!--loot_Buff_LeaveWork_Hotheaded--></T>
+              <T>105742<!--loot_Buff_SicknessSystem_ContractIllness_Work_exit--></T>
+              <T>111107<!--loot_Career_PTO--></T>
+              <T>126197<!--loot_Buff_LeaveWork_DanceMachine--></T>
+              <T>154979<!--loot_Buff_LeaveWork_Toddler_Moment--></T>
+              <T>196737<!--loot_Buff_LeaveWork_EasyStreet--></T>
+              <T>170993<!--loot_Buff_Pets_PetOwnerReturns_GiveBuffs--></T>
+              <T>215757<!--loot_Cauldron_Potion_Effect_Luck_Promote--></T>
+            </L>
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="create_object">
+                    <U n="create_object">
+                      <V n="creation_data" t="definition_tested">
+                        <U n="definition_tested">
+                          <L n="definitions">
+                            <U>
+                              <T n="definition">63476<!--dirtyDishesGEN_01 ({S.Dirty Dish}{P.Dirty Dishes})--></T>
+                              <U n="weight">
+                                <T n="base_value">5</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">18172<!--cleanDishesGEN_01 (Stack Of Dirty Dishes)--></T>
+                              <U n="weight">
+                                <T n="base_value">5</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">63045<!--bookGENEmotionalFocused_02 (Honing Your Mind's Eye)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32544<!--bookGENInspired_03 (How I Dumped Your Father)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32513<!--bookGENAngry_03 (How to Seriously Injure Someone with this Book)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32517<!--bookGENBoring_04 (The Frequently Ending Story)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32567<!--bookGENConfident_04 (Tickle Your Own Ivories)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">18572<!--bookGENFlirty_01 (Seduction by the Sea)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32569<!--bookGENFocus_04 (The Little Train that Couldn’t)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32540<!--bookGENHappy_03 (Chasing the Quadruple Rainbow)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">18620<!--bookGENPlayful_02 (Playing With Your Food)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32511<!--bookGENSad_02 (The 50 Shades on My Windows)--></T>
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                      <L n="initial_states">
+                        <U>
+                          <T n="state">131794<!--Kelpto_Stolen_Object--></T>
+                        </U>
+                      </L>
+                      <V n="location" t="inventory">
+                        <U n="inventory">
+                          <T n="mark_object_as_stolen_from_career">True</T>
+                        </U>
+                      </V>
+                      <V n="timing" t="at_beginning" />
+                    </U>
+                  </V>
+                  <V t="notification">
+                    <U n="notification">
+                      <V n="dialog" t="single">
+                        <V n="single" t="literal">
+                          <U n="literal">
+                            <V n="icon" t="enabled">
+                              <V n="enabled" t="participant">
+                                <U n="participant">
+                                  <L n="participant_type">
+                                    <E>CreatedObject</E>
+                                  </L>
+                                </U>
+                              </V>
+                            </V>
+                            <V n="secondary_icon" t="enabled">
+                              <V n="enabled" t="participant" />
+                            </V>
+                            <V n="text" t="single">
+                              <T n="single">0xC5EBAE91<!--{0.SimFirstName} Swiped an object while {F0.she}{M0.he} was at work.--></T>
+                            </V>
+                          </U>
+                        </V>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <L n="loot_list">
+                  <T>23925<!--loot_Buff_LeaveWork_NoTrait--></T>
+                  <T>27270<!--loot_Buff_LeaveWork_Creative--></T>
+                  <T>27252<!--loot_Buff_LeaveWork_Cheerful--></T>
+                  <T>28740<!--loot_Buff_LeaveWork_Genius--></T>
+                  <T>28742<!--loot_Buff_LeaveWork_SelfAssured--></T>
+                  <T>27421<!--loot_Buff_LeaveWork_Active--></T>
+                  <T>28741<!--loot_Buff_LeaveWork_Goofball--></T>
+                  <T>27439<!--loot_Buff_LeaveWork_Romantic--></T>
+                  <T>27271<!--loot_Buff_LeaveWork_Gloomy--></T>
+                  <T>27272<!--loot_Buff_LeaveWork_Hotheaded--></T>
+                  <T>105742<!--loot_Buff_SicknessSystem_ContractIllness_Work_exit--></T>
+                  <T>111107<!--loot_Career_PTO--></T>
+                  <T>126197<!--loot_Buff_LeaveWork_DanceMachine--></T>
+                  <T>154979<!--loot_Buff_LeaveWork_Toddler_Moment--></T>
+                  <T>196737<!--loot_Buff_LeaveWork_EasyStreet--></T>
+                  <T>170993<!--loot_Buff_Pets_PetOwnerReturns_GiveBuffs--></T>
+                  <T>215757<!--loot_Cauldron_Potion_Effect_Luck_Promote--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="trait">
+                <U n="trait">
+                  <L n="whitelist_traits">
+                    <T>131783<!--trait_Kleptomaniac--></T>
+                  </L>
+                </U>
+              </V>
+              <V t="skill_test">
+                <U n="skill_test">
+                  <T n="skill">16707<!--statistic_Skill_AdultMajor_Mischief--></T>
+                  <V n="skill_range" t="interval">
+                    <U n="interval">
+                      <U n="skill_interval">
+                        <T n="upper_bound">5</T>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="create_object">
+                    <U n="create_object">
+                      <V n="creation_data" t="definition_tested">
+                        <U n="definition_tested">
+                          <L n="definitions">
+                            <U>
+                              <T n="definition">63476<!--dirtyDishesGEN_01 ({S.Dirty Dish}{P.Dirty Dishes})--></T>
+                              <U n="weight">
+                                <T n="base_value">5</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">18172<!--cleanDishesGEN_01 (Stack Of Dirty Dishes)--></T>
+                              <U n="weight">
+                                <T n="base_value">5</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">63045<!--bookGENEmotionalFocused_02 (Honing Your Mind's Eye)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32544<!--bookGENInspired_03 (How I Dumped Your Father)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32513<!--bookGENAngry_03 (How to Seriously Injure Someone with this Book)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32517<!--bookGENBoring_04 (The Frequently Ending Story)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32567<!--bookGENConfident_04 (Tickle Your Own Ivories)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">18572<!--bookGENFlirty_01 (Seduction by the Sea)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32569<!--bookGENFocus_04 (The Little Train that Couldn’t)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32540<!--bookGENHappy_03 (Chasing the Quadruple Rainbow)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">18620<!--bookGENPlayful_02 (Playing With Your Food)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32511<!--bookGENSad_02 (The 50 Shades on My Windows)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">22321<!--toyHandSmallGENCar_01 (Speedy Sportscar Toy)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">24541<!--tvSurfaceLOW1x1_01_set1 (Been There, Watched That TV)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">12071<!--sculptTableFCRabbitCeramic_01_set1 (Garden Friend)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">25043<!--sculptTableFCRoosterCeramic_01_set1 (Cock’s Crow Table Accent)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">29594<!--sculptTableFCPigCeramic_01_set1 (Porkelain Pal)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">23440<!--gardenFruitGENDragon_01 ({S.Dragon Fruit}{P.Dragon Fruits})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+                            </U>
+                            <U>
+                              <T n="definition">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                      <L n="initial_states">
+                        <U>
+                          <T n="state">131794<!--Kelpto_Stolen_Object--></T>
+                        </U>
+                      </L>
+                      <V n="location" t="inventory">
+                        <U n="inventory">
+                          <T n="mark_object_as_stolen_from_career">True</T>
+                        </U>
+                      </V>
+                      <V n="timing" t="at_beginning" />
+                    </U>
+                  </V>
+                  <V t="notification">
+                    <U n="notification">
+                      <V n="dialog" t="single">
+                        <V n="single" t="literal">
+                          <U n="literal">
+                            <V n="icon" t="enabled">
+                              <V n="enabled" t="participant">
+                                <U n="participant">
+                                  <L n="participant_type">
+                                    <E>CreatedObject</E>
+                                  </L>
+                                </U>
+                              </V>
+                            </V>
+                            <V n="secondary_icon" t="enabled">
+                              <V n="enabled" t="participant" />
+                            </V>
+                            <V n="text" t="single">
+                              <T n="single">0xC5EBAE91<!--{0.SimFirstName} Swiped an object while {F0.she}{M0.he} was at work.--></T>
+                            </V>
+                          </U>
+                        </V>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <L n="loot_list">
+                  <T>23925<!--loot_Buff_LeaveWork_NoTrait--></T>
+                  <T>27270<!--loot_Buff_LeaveWork_Creative--></T>
+                  <T>27252<!--loot_Buff_LeaveWork_Cheerful--></T>
+                  <T>28740<!--loot_Buff_LeaveWork_Genius--></T>
+                  <T>28742<!--loot_Buff_LeaveWork_SelfAssured--></T>
+                  <T>27421<!--loot_Buff_LeaveWork_Active--></T>
+                  <T>28741<!--loot_Buff_LeaveWork_Goofball--></T>
+                  <T>27439<!--loot_Buff_LeaveWork_Romantic--></T>
+                  <T>27271<!--loot_Buff_LeaveWork_Gloomy--></T>
+                  <T>27272<!--loot_Buff_LeaveWork_Hotheaded--></T>
+                  <T>105742<!--loot_Buff_SicknessSystem_ContractIllness_Work_exit--></T>
+                  <T>111107<!--loot_Career_PTO--></T>
+                  <T>126197<!--loot_Buff_LeaveWork_DanceMachine--></T>
+                  <T>154979<!--loot_Buff_LeaveWork_Toddler_Moment--></T>
+                  <T>196737<!--loot_Buff_LeaveWork_EasyStreet--></T>
+                  <T>170993<!--loot_Buff_Pets_PetOwnerReturns_GiveBuffs--></T>
+                  <T>215757<!--loot_Cauldron_Potion_Effect_Luck_Promote--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="trait">
+                <U n="trait">
+                  <L n="whitelist_traits">
+                    <T>131783<!--trait_Kleptomaniac--></T>
+                  </L>
+                </U>
+              </V>
+              <V t="skill_test">
+                <U n="skill_test">
+                  <T n="skill">16707<!--statistic_Skill_AdultMajor_Mischief--></T>
+                  <V n="skill_range" t="interval">
+                    <U n="interval">
+                      <U n="skill_interval">
+                        <T n="lower_bound">5</T>
+                        <T n="upper_bound">8</T>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="create_object">
+                    <U n="create_object">
+                      <V n="creation_data" t="definition_tested">
+                        <U n="definition_tested">
+                          <L n="definitions">
+                            <U>
+                              <T n="definition">63476<!--dirtyDishesGEN_01 ({S.Dirty Dish}{P.Dirty Dishes})--></T>
+                              <U n="weight">
+                                <T n="base_value">5</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">18172<!--cleanDishesGEN_01 (Stack Of Dirty Dishes)--></T>
+                              <U n="weight">
+                                <T n="base_value">5</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">63045<!--bookGENEmotionalFocused_02 (Honing Your Mind's Eye)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32544<!--bookGENInspired_03 (How I Dumped Your Father)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32513<!--bookGENAngry_03 (How to Seriously Injure Someone with this Book)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32517<!--bookGENBoring_04 (The Frequently Ending Story)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32567<!--bookGENConfident_04 (Tickle Your Own Ivories)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">18572<!--bookGENFlirty_01 (Seduction by the Sea)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32569<!--bookGENFocus_04 (The Little Train that Couldn’t)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32540<!--bookGENHappy_03 (Chasing the Quadruple Rainbow)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">18620<!--bookGENPlayful_02 (Playing With Your Food)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">32511<!--bookGENSad_02 (The 50 Shades on My Windows)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">22321<!--toyHandSmallGENCar_01 (Speedy Sportscar Toy)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">24541<!--tvSurfaceLOW1x1_01_set1 (Been There, Watched That TV)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">12071<!--sculptTableFCRabbitCeramic_01_set1 (Garden Friend)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">25043<!--sculptTableFCRoosterCeramic_01_set1 (Cock’s Crow Table Accent)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">29594<!--sculptTableFCPigCeramic_01_set1 (Porkelain Pal)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">36919<!--sculptTableGENFlowerWaterCan_01_set1 (Florist’s Dream Watering Can)--></T>
+                              <U n="weight">
+                                <T n="base_value">5</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">31060<!--sculptTableQAShip_01_set1 (Captain Chaz MacFreeling’s Galleon)--></T>
+                              <U n="weight">
+                                <T n="base_value">5</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">38293<!--sculptTableTUDWateringCanFlowers_01_set1 (Florist's Dream Potted Lily)--></T>
+                              <U n="weight">
+                                <T n="base_value">5</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28741<!--collectCrystalMedGEN_01_jet (Jet)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28743<!--collectCrystalMedGEN_01_plumbite (Plumbite)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28925<!--collectElementGEN_01_alcineat (Alcineat)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28928<!--collectElementGEN_01_goobleck (Goobleck)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28927<!--collectElementGEN_01_hodorium (Wolfium)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28921<!--collectElementGEN_01_ozinate (Ozinate)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28919<!--collectElementGEN_01_peryllium (Peryllium)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28390<!--collectElementGEN_01_sydrolin (Sydrolin)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28926<!--collectElementGEN_01_crytacoo (Crytacoo)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28924<!--collectElementGEN_01_firaxium (Firaxium)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28920<!--collectElementGEN_01_melacoo (Melacoo)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28923<!--collectElementGEN_01_oxylin (Oxypin)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28918<!--collectElementGEN_01_phozone (Phozone)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28916<!--collectElementGEN_01_plathium (Plathium)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28917<!--collectElementGEN_01_plumbobus (Plumbobus)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28423<!--collectElementGEN_01_sealium (Selium)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28922<!--collectElementGEN_01_volenton (Volenton)--></T>
+                              <U n="weight">
+                                <T n="base_value">2</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28777<!--collectMetalSmGEN_01_alcron (Alcron)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28778<!--collectMetalSmGEN_01_baconite (Baconite)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28779<!--collectMetalSmGEN_01_deathMetal (Death Metal)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28780<!--collectMetalSmGEN_01_flamingonium (Flamingonium)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28781<!--collectMetalSmGEN_01_literalite (Literalite)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28782<!--collectMetalSmGEN_01_obtainium (Obtainium)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28783<!--collectMetalSmGEN_01_phozonite (Phozonite)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28784<!--collectMetalSmGEN_01_punium (Punium)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28785<!--collectMetalSmGEN_01_pyrite (Pyrite)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28786<!--collectMetalSmGEN_01_socialite (Socialite)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28759<!--collectMetalMedGEN_01_crytunium (Crytunium)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28760<!--collectMetalMedGEN_01_furium (Furium)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28761<!--collectMetalMedGEN_01_heavyMetal (Heavy Metal)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28764<!--collectMetalMedGEN_01_ironyum (Ironyum)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28771<!--collectMetalMedGEN_01_ozinold (Ozinold)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28772<!--collectMetalMedGEN_01_plathinum (Plathinum)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28773<!--collectMetalMedGEN_01_romantium (Romantium)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28774<!--collectMetalMedGEN_01_sadnum (Sadnum)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28775<!--collectMetalMedGEN_01_simtanium (Simtanium)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28776<!--collectMetalMedGEN_01_utranium (Utranium)--></T>
+                              <U n="weight">
+                                <T n="base_value">3</T>
+                              </U>
+                            </U>
+                            <U>
+                              <T n="definition">28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28731<!--collectCrystalSmGEN_01_jonquilyst (Jonquilyst)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28732<!--collectCrystalSmGEN_01_orangeTopaz (Orange Topaz)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28733<!--collectCrystalSmGEN_01_peach (Peach)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+                            </U>
+                            <U>
+                              <T n="definition">28736<!--collectCrystalSmGEN_01_simanite (Simanite)--></T>
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                      <L n="initial_states">
+                        <U>
+                          <T n="state">131794<!--Kelpto_Stolen_Object--></T>
+                        </U>
+                      </L>
+                      <V n="location" t="inventory">
+                        <U n="inventory">
+                          <T n="mark_object_as_stolen_from_career">True</T>
+                        </U>
+                      </V>
+                      <V n="timing" t="at_beginning" />
+                    </U>
+                  </V>
+                  <V t="notification">
+                    <U n="notification">
+                      <V n="dialog" t="single">
+                        <V n="single" t="literal">
+                          <U n="literal">
+                            <V n="icon" t="enabled">
+                              <V n="enabled" t="participant">
+                                <U n="participant">
+                                  <L n="participant_type">
+                                    <E>CreatedObject</E>
+                                  </L>
+                                </U>
+                              </V>
+                            </V>
+                            <V n="secondary_icon" t="enabled">
+                              <V n="enabled" t="participant" />
+                            </V>
+                            <V n="text" t="single">
+                              <T n="single">0xC5EBAE91<!--{0.SimFirstName} Swiped an object while {F0.she}{M0.he} was at work.--></T>
+                            </V>
+                          </U>
+                        </V>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <L n="loot_list">
+                  <T>23925<!--loot_Buff_LeaveWork_NoTrait--></T>
+                  <T>27270<!--loot_Buff_LeaveWork_Creative--></T>
+                  <T>27252<!--loot_Buff_LeaveWork_Cheerful--></T>
+                  <T>28740<!--loot_Buff_LeaveWork_Genius--></T>
+                  <T>28742<!--loot_Buff_LeaveWork_SelfAssured--></T>
+                  <T>27421<!--loot_Buff_LeaveWork_Active--></T>
+                  <T>28741<!--loot_Buff_LeaveWork_Goofball--></T>
+                  <T>27439<!--loot_Buff_LeaveWork_Romantic--></T>
+                  <T>27271<!--loot_Buff_LeaveWork_Gloomy--></T>
+                  <T>27272<!--loot_Buff_LeaveWork_Hotheaded--></T>
+                  <T>105742<!--loot_Buff_SicknessSystem_ContractIllness_Work_exit--></T>
+                  <T>111107<!--loot_Career_PTO--></T>
+                  <T>126197<!--loot_Buff_LeaveWork_DanceMachine--></T>
+                  <T>154979<!--loot_Buff_LeaveWork_Toddler_Moment--></T>
+                  <T>196737<!--loot_Buff_LeaveWork_EasyStreet--></T>
+                  <T>170993<!--loot_Buff_Pets_PetOwnerReturns_GiveBuffs--></T>
+                  <T>215757<!--loot_Cauldron_Potion_Effect_Luck_Promote--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="trait">
+                <U n="trait">
+                  <L n="whitelist_traits">
+                    <T>131783<!--trait_Kleptomaniac--></T>
+                  </L>
+                </U>
+              </V>
+              <V t="skill_test">
+                <U n="skill_test">
+                  <T n="skill">16707<!--statistic_Skill_AdultMajor_Mischief--></T>
+                  <V n="skill_range" t="interval">
+                    <U n="interval">
+                      <U n="skill_interval">
+                        <T n="lower_bound">8</T>
+                        <T n="upper_bound">10</T>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="outfit_change">
+    <V n="on_route_change" t="for_reason">
+      <U n="for_reason">
+        <E n="on_entry">GoToWork</E>
+      </U>
+    </V>
+  </U>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Careers\Career_Astronaut_Main_piemenu.png">2f7d0004:00000000:b2c60d6fcfefe08f</T>
+      </U>
+    </V>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="remember_progress">True</T>
+  </U>
+  <V n="route_start_balloon" t="enabled">
+    <U n="enabled">
+      <U n="balloon">
+        <L n="balloon_choices">
+          <U>
+            <V n="item" t="balloon_category">
+              <T n="balloon_category">$BalloonSet</T>
+            </V>
+          </U>
+        </L>
+        <L n="balloon_target">
+          <E>Actor</E>
+        </L>
+      </U>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <V n="super_affordance_compatibility" t="literal">
+    <U n="literal">
+      <V n="default_inclusion" t="exclude_all" />
+    </U>
+  </V>
+  <E n="target_type">ACTOR</E>
+  <V n="test_disallow_while_running" t="enabled">
+    <U n="enabled">
+      <T n="test_self">True</T>
+    </U>
+  </V>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="identity">
+      <U n="identity">
+        <T n="subjects_match">True</T>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>98878<!--buff_Pregnancy_Labor_react--></T>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>75271<!--buff_Pregnancy_InLabor--></T>
+        </L>
+        <V n="tooltip" t="enabled">
+          <T n="enabled">0x894E151E<!--{0.SimFirstName} can't travel because {M0.he}{F0.she} is in labor!--></T>
+        </V>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="during_work_hours">
+        <U n="during_work_hours">
+          <T n="fail_if_taking_day_off_during_work">False</T>
+          <T n="is_during_work">True</T>
+        </U>
+      </V>
+    </L>
+  </L>
+  <T n="time_overhead">30</T>
+  <U n="visual_type_override_data">
+    <T n="tooltip_text">0xCA90B728<!--At Work--></T>
+  </U>
+</TuningActions>

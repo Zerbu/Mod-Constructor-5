@@ -4,7 +4,6 @@ using Constructor5.Base.ProjectSystem;
 using Constructor5.Base.Python;
 using Constructor5.Core;
 using Constructor5.UI.Dialogs.PythonInstaller;
-using Constructor5.UI.Dialogs.UnlocalizableStringFinder;
 using Constructor5.UI.Main;
 using System.Windows;
 

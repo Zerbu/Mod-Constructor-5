@@ -28,6 +28,8 @@ namespace Constructor5.InteractionTemplates.Mischief
         [AutoTuneBasic("_category")]
         public Reference PieMenuCategory { get; set; } = new Reference(8990, "Mischief");
 
+        public string TuningActionsFile { get; set; } = "Mischief";
+
         protected override void OnExport(InteractionExportContext context)
         {
             PythonBuilder.AddStep(SnippetInteractionsPythonStep.Current);
@@ -38,13 +40,7 @@ namespace Constructor5.InteractionTemplates.Mischief
             }
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
-            var tuningContext = new TuningActionContext
-            {
-                Tuning = context.Tuning,
-                DataContext = this
-            };
-            tuningContext.Variables.Add("LearnTraitLootKey", context.LearnTraitLootKey?.ToString());
-            TuningActionInvoker.InvokeFromFile("Mischief Social Interaction Template", tuningContext);
+            RunTuningActions(context, TuningActionsFile);
         }
     }
 }

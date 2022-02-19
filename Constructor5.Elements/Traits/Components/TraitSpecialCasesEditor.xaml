@@ -47,7 +47,7 @@
             </StackPanel>
 
             <StackPanel>
-                <c:Field Label="Buffs" LabelWidth="100">
+                <c:Field Label="LotTraitBuffs" LabelWidth="100">
                     <StackPanel>
                         <c:TextBlock Text="TraitBuffsNotice" />
                         <c:ReferenceListControl ElementReferenceList="{Binding TraitBuffs}"

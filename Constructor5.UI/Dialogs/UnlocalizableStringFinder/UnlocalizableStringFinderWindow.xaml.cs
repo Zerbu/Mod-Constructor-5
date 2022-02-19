@@ -32,7 +32,7 @@ namespace Constructor5.UI.Dialogs.UnlocalizableStringFinder
         private void XMLReplaceButton_Click(object sender, RoutedEventArgs e)
         {
             var strings = TextStringManager.GetAll();
-            foreach (var xamlFile in Directory.GetFiles("D:\\Program Sources\\Constructor5\\Constructor5", "*.xaml", SearchOption.AllDirectories))
+            foreach (var xamlFile in Directory.GetFiles("..\\..\\..\\..", "*.xaml", SearchOption.AllDirectories))
             {
                 var originalText = File.ReadAllText(xamlFile);
                 var text = originalText;
@@ -60,7 +60,7 @@ namespace Constructor5.UI.Dialogs.UnlocalizableStringFinder
                 return text.Replace($"SelectableObjectType(\"{registryCategory}\", \"{keyValuePair.Value}\"", $"SelectableObjectType(\"{registryCategory}\", \"{keyValuePair.Key}\"");
             }
 
-            foreach (var csFile in Directory.GetFiles("D:\\Program Sources\\Constructor5\\Constructor5", "*.cs", SearchOption.AllDirectories))
+            foreach (var csFile in Directory.GetFiles("..\\..\\..\\..", "*.cs", SearchOption.AllDirectories))
             {
                 var originalText = File.ReadAllText(csFile);
                 var text = originalText;

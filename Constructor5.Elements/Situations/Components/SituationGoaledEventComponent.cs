@@ -40,6 +40,8 @@ namespace Constructor5.Elements.Situations.Components
         public ElementIcon SilverIcon { get; set; } = new ElementIcon();
         public Reference SilverReward { get; set; } = new Reference();
 
+        public bool ShowScreenSlamEffects { get; set; } = true;
+
         protected internal override void OnExport(SituationExportContext context)
         {
             if (!IsGoaledEvent)
@@ -47,7 +49,10 @@ namespace Constructor5.Elements.Situations.Components
                 return;
             }
 
-            TuneScreenSlam(context);
+            if (ShowScreenSlamEffects)
+            {
+                TuneScreenSlam(context);
+            }
 
             var tunableTuple1 = context.Tuning.Get<TunableTuple>("_level_data");
             var tunableTuple2 = tunableTuple1.Get<TunableTuple>("bronze");
