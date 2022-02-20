@@ -115,11 +115,12 @@
 
     <ControlTemplate x:Key="ExpanderToggleButton" TargetType="ToggleButton">
         <Border Name="Border" Background="Transparent">
-            <Path Name="Arrow"
-                  HorizontalAlignment="Center"
-                  VerticalAlignment="Center"
-                  Data="M 0 0 L 4 4 L 8 0 Z"
-                  Fill="{StaticResource GlyphBrush}" />
+            <Path
+                Name="Arrow"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Data="M 0 0 L 4 4 L 8 0 Z"
+                Fill="{StaticResource GlyphBrush}" />
         </Border>
         <ControlTemplate.Triggers>
             <Trigger Property="ToggleButton.IsMouseOver" Value="true">
@@ -157,13 +158,15 @@
                                     <ColumnDefinition Width="20" />
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
-                                <ToggleButton IsChecked="{Binding Path=IsExpanded, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
-                                              OverridesDefaultStyle="True"
-                                              Template="{StaticResource ExpanderToggleButton}" />
-                                <ContentPresenter Grid.Column="1"
-                                                  Margin="0"
-                                                  ContentSource="Header"
-                                                  RecognizesAccessKey="True" />
+                                <ToggleButton
+                                    IsChecked="{Binding Path=IsExpanded, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
+                                    OverridesDefaultStyle="True"
+                                    Template="{StaticResource ExpanderToggleButton}" />
+                                <ContentPresenter
+                                    Grid.Column="1"
+                                    Margin="0"
+                                    ContentSource="Header"
+                                    RecognizesAccessKey="True" />
                             </Grid>
                         </Border>
                         <Border Name="Content" Grid.Row="1">

@@ -7,11 +7,13 @@ using Constructor5.Elements.Interactions.Shared;
 using Constructor5.Elements.Interactions.Social.ContextModifiers;
 using Constructor5.Elements.Traits.Components;
 using Constructor5.Core;
+using Constructor5.Elements.Interactions.Super;
 
 namespace Constructor5.Elements.Interactions.Social
 {
     [SocialInteractionComponent]
     [MixerInteractionComponent]
+    [SuperInteractionComponent]
     [XmlSerializerExtraType]
     public class InteractionInfoComponent : InteractionComponent
     {
@@ -24,6 +26,9 @@ namespace Constructor5.Elements.Interactions.Social
         public override int ComponentDisplayOrder => 1;
 
         public override string ComponentLabel => "Info";
+
+        [AutoTuneIfTrue("cheat")]
+        public bool IsCheat { get; set; }
 
         [AutoTuneIfTrue("visible", "False")]
         public bool IsHiddenInQueue { get; set; }
@@ -61,6 +66,8 @@ namespace Constructor5.Elements.Interactions.Social
                 var tunableTuple1 = tunableVariant2.Get<TunableTuple>("resource_key");
                 tunableTuple1.Set<TunableBasic>("key", icon);
             }
+
+            ((InteractionElement)Element).TuneTags(context);
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
         }

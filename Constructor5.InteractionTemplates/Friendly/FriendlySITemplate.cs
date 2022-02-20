@@ -24,8 +24,8 @@ namespace Constructor5.InteractionTemplates.Friendly
         public ReferenceList LootActionSets { get; set; } = new ReferenceList();
         public int MinimumScoreForAvailability { get; set; }
 
-        [AutoTuneBasic("_category")]
-        public Reference PieMenuCategory { get; set; } = new Reference(15504, "Friendly");
+        [AutoTuneBasic("category")]
+        public Reference PieMenuCategory { get; set; } = new Reference(15507, "Friendly");
         public string TuningActionsFile { get; set; } = "Friendly";
 
         protected override void OnExport(InteractionExportContext context)
@@ -40,6 +40,14 @@ namespace Constructor5.InteractionTemplates.Friendly
             AutoTunerInvoker.Invoke(this, context.Tuning);
 
             RunTuningActions(context, TuningActionsFile);
+        }
+
+        protected override void OnSaveUpgrade(int oldVersion, int newVersion)
+        {
+            if (PieMenuCategory.GameReference == 15504)
+            {
+                PieMenuCategory.GameReference = 15507;
+            }
         }
     }
 }

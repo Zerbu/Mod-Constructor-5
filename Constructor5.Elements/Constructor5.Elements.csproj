@@ -353,6 +353,10 @@
     </Compile>
     <Compile Include="Interactions\PieMenuCategories\PieMenuCategory.cs" />
     <Compile Include="Interactions\Shared\DefaultInteractionTemplate.cs" />
+    <Compile Include="Interactions\Shared\InteractionAddToObjectComponent.cs" />
+    <Compile Include="Interactions\Shared\InteractionAddToObjectComponentEditor.xaml.cs">
+      <DependentUpon>InteractionAddToObjectComponentEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Interactions\Shared\InteractionConditionsComponent.cs" />
     <Compile Include="Interactions\Shared\InteractionElement.cs" />
     <Compile Include="Interactions\Shared\InteractionExportContext.cs" />
@@ -381,6 +385,17 @@
     <Compile Include="CASPreferences\CASPreference.cs" />
     <Compile Include="CASPreferences\CASPreferenceEditor.xaml.cs">
       <DependentUpon>CASPreferenceEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\Super\IIsImmediateInteraction.cs" />
+    <Compile Include="Interactions\Super\SuperInteractionComponentAttribute.cs" />
+    <Compile Include="Interactions\Super\SuperInteractionEditor.xaml.cs">
+      <DependentUpon>SuperInteractionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\Super\SuperInteractionExportContext.cs" />
+    <Compile Include="Interactions\Super\SuperInteraction.cs" />
+    <Compile Include="Interactions\Super\SuperInteractionTemplateComponent.cs" />
+    <Compile Include="Interactions\Super\SuperInteractionTemplateComponentEditor.xaml.cs">
+      <DependentUpon>SuperInteractionTemplateComponentEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="LootActionSets\EmptyLootAction.cs" />
     <Compile Include="LootActionSets\LASConditionGroup.cs" />
@@ -918,6 +933,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Interactions\Shared\InteractionAddToObjectComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Interactions\Shared\InteractionInfoEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -939,6 +958,14 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="CASPreferences\CASPreferenceEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Super\SuperInteractionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Super\SuperInteractionTemplateComponentEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

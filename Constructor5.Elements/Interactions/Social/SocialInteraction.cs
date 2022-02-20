@@ -2,6 +2,7 @@ using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Mixer;
@@ -15,6 +16,8 @@ namespace Constructor5.Elements.Interactions.Social
     [ElementTypeData("SocialInteraction", true, ElementTypes = new[] { typeof(SocialInteraction) }, IsRootType = true)]
     public class SocialInteraction : InteractionElement, IExportableElement, ISupportsCustomTuning
     {
+        public SocialInteraction() => SaveVersion = 2;
+
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
 
         void IExportableElement.OnExport()
@@ -54,6 +57,22 @@ namespace Constructor5.Elements.Interactions.Social
             {
                 Components.Remove(mixerComponent);
             }
+
+            if (SaveVersion == 1)
+            {
+                var templateComponent = GetComponent<SocialInteractionTemplateComponent>();
+                templateComponent.Template.OnSaveUpgrade(SaveVersion, 2);
+                SaveVersion = 2;
+            }
+        }
+
+        protected internal override void TuneTags(InteractionExportContext context)
+        {
+            var tunableList1 = context.Tuning.Get<TunableList>("interaction_category_tags");
+            tunableList1.Set<TunableEnum>(null, "Interaction_Mixer");
+            tunableList1.Set<TunableEnum>(null, "Interaction_All");
+            tunableList1.Set<TunableEnum>(null, "Interaction_SocialAll");
+            tunableList1.Set<TunableEnum>(null, "Interaction_SocialMixer");
         }
     }
 }

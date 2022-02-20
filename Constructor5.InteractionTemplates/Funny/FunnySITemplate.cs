@@ -23,7 +23,7 @@ namespace Constructor5.InteractionTemplates.Funny
 
         public int MinimumScoreForAvailability { get; set; }
 
-        [AutoTuneBasic("_category")]
+        [AutoTuneBasic("category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15508, "Funny");
 
         public string TuningActionsFile { get; set; } = "Funny";

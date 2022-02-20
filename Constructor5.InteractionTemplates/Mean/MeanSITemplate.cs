@@ -21,7 +21,7 @@ namespace Constructor5.InteractionTemplates.Mean
         public ReferenceList LootActionSets { get; set; } = new ReferenceList();
         public int MinimumScoreForAvailability { get; set; }
 
-        [AutoTuneBasic("_category")]
+        [AutoTuneBasic("category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15509, "Mean");
 
         public string TuningActionsFile { get; set; } = "Mean";

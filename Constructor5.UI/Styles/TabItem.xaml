@@ -4,11 +4,12 @@
         <Setter Property="Control.Template">
             <Setter.Value>
                 <ControlTemplate>
-                    <Rectangle Margin="2"
-                               SnapsToDevicePixels="true"
-                               Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"
-                               StrokeDashArray="1 2"
-                               StrokeThickness="1" />
+                    <Rectangle
+                        Margin="2"
+                        SnapsToDevicePixels="true"
+                        Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"
+                        StrokeDashArray="1 2"
+                        StrokeThickness="1" />
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
@@ -37,27 +38,30 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type TabItem}">
                     <Grid x:Name="templateRoot" SnapsToDevicePixels="true">
-                        <Border x:Name="mainBorder"
-                                Margin="0"
-                                Background="{StaticResource Constructor.TabItemBackground}"
-                                BorderBrush="{TemplateBinding BorderBrush}"
+                        <Border
+                            x:Name="mainBorder"
+                            Margin="0"
+                            Background="{StaticResource Constructor.TabItemBackground}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1,1,1,1"
+                            SnapsToDevicePixels="True">
+                            <Border
+                                x:Name="innerBorder"
+                                Margin="-1"
+                                Background="{StaticResource Constructor.TabItemSelectedBackground}"
+                                BorderBrush="{StaticResource Constructor.TabItemSelectedBorder}"
                                 BorderThickness="1,1,1,1"
-                                SnapsToDevicePixels="True">
-                            <Border x:Name="innerBorder"
-                                    Margin="-1"
-                                    Background="{StaticResource Constructor.TabItemSelectedBackground}"
-                                    BorderBrush="{StaticResource Constructor.TabItemSelectedBorder}"
-                                    BorderThickness="1,1,1,1"
-                                    Opacity="0" />
+                                Opacity="0" />
                         </Border>
-                        <ContentPresenter x:Name="contentPresenter"
-                                          Margin="{TemplateBinding Padding}"
-                                          HorizontalAlignment="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"
-                                          VerticalAlignment="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"
-                                          ContentSource="Header"
-                                          Focusable="False"
-                                          RecognizesAccessKey="True"
-                                          SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                        <ContentPresenter
+                            x:Name="contentPresenter"
+                            Margin="{TemplateBinding Padding}"
+                            HorizontalAlignment="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"
+                            VerticalAlignment="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"
+                            ContentSource="Header"
+                            Focusable="False"
+                            RecognizesAccessKey="True"
+                            SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
                     </Grid>
                     <ControlTemplate.Triggers>
                         <MultiDataTrigger>

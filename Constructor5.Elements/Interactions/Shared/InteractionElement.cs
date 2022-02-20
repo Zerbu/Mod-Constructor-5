@@ -16,6 +16,8 @@ namespace Constructor5.Elements.Interactions.Shared
         ElementComponent[] IHasComponents.GetSortedUserFacingComponents()
                     => Components.OrderBy(x => ((IComponentDisplayOrder)x).ComponentDisplayOrder).ThenBy(x => x.ComponentLabel).ToArray();
 
+        protected internal abstract void TuneTags(InteractionExportContext context);
+
         protected void AddComponent(Type type)
         {
             var component = Components.FirstOrDefault(x => x.GetType() == type);

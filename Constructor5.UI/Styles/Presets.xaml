@@ -1,11 +1,13 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:s="clr-namespace:System;assembly=mscorlib">
-    <ImageBrush x:Key="Constructor.WindowBackground"
-                ImageSource="pack://siteoforigin:,,,/Images/Background.png"
-                TileMode="Tile"
-                Viewport="0,0,125,100"
-                ViewportUnits="Absolute" />
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <ImageBrush
+        x:Key="Constructor.WindowBackground"
+        ImageSource="pack://siteoforigin:,,,/Images/Background.png"
+        TileMode="Tile"
+        Viewport="0,0,125,100"
+        ViewportUnits="Absolute" />
     <SolidColorBrush x:Key="Constructor.Foreground" Color="#1c1e1f" />
     <s:Double x:Key="Constructor.NormalFontSize">13</s:Double>
     <s:Double x:Key="Constructor.SmallFontSize">11</s:Double>

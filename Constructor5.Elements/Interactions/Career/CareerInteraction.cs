@@ -28,6 +28,10 @@ namespace Constructor5.Elements.Interactions.Career
             TuningExport.AddToQueue(tuning);
         }
 
+        protected internal override void TuneTags(InteractionExportContext context)
+        {
+        }
+
         private void Tune(TuningHeader tuning)
         {
             TuningActionInvoker.InvokeFromFile("Career Interaction", new TuningActionContext

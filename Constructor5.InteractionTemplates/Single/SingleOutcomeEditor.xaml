@@ -11,7 +11,7 @@
     <d:UserControl.DataContext>
         <local:SingleOutcomeTemplate />
     </d:UserControl.DataContext>
-    <Grid>
+    <StackPanel>
         <c:TabControl Background="Transparent" BorderThickness="0">
             <c:TabItem Background="Transparent"
                      FontSize="{StaticResource Constructor.BigFontSize}"
@@ -64,5 +64,5 @@
                 </StackPanel>
             </c:TabItem>-->
         </c:TabControl>
-    </Grid>
+    </StackPanel>
 </UserControl>

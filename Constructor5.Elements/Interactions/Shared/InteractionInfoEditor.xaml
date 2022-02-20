@@ -11,27 +11,32 @@
     <d:UserControl.DataContext>
         <social:InteractionInfoComponent />
     </d:UserControl.DataContext>
-    <StackPanel>
-        <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <c:Field Label="Name" LabelWidth="150">
-                <c:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
-            </c:Field>
-            <c:Field x:Name="TargetNameControl"
+    <c:LeftRightMargin>
+        <c:SpacedStack>
+            <StackPanel>
+                <c:Field Label="Name" LabelWidth="150">
+                    <c:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
+                </c:Field>
+                <c:Field x:Name="TargetNameControl"
                      Label="NameOnTarget"
                      LabelWidth="150">
-                <c:STBLStringControl Text="{Binding NameOnTarget}" />
-            </c:Field>
-            <c:CheckBox Content="HasPieMenuIcon" IsChecked="{Binding SetPieMenuIcon}" />
-            <c:Field Label="PieMenuIcon"
+                    <c:STBLStringControl Text="{Binding NameOnTarget}" />
+                </c:Field>
+                <c:CheckBox Content="HasPieMenuIcon" IsChecked="{Binding SetPieMenuIcon}" />
+                <c:Field Label="PieMenuIcon"
                      LabelWidth="150"
                      Visibility="{Binding SetPieMenuIcon, Converter={StaticResource BoolToVis}}">
-                <c:IconControl Icon="{Binding PieMenuIcon}" />
-            </c:Field>
-        </StackPanel>
-        <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-            <c:CheckBox Content="AllowAutonomous" IsChecked="{Binding AllowAutonomous}" />
-            <c:CheckBox Content="AllowUserDirected" IsChecked="{Binding AllowUserDirected}" />
-            <c:CheckBox Content="IsHiddenInQueue" IsChecked="{Binding IsHiddenInQueue}" />
-        </StackPanel>
-    </StackPanel>
+                    <c:IconControl Icon="{Binding PieMenuIcon}" />
+                </c:Field>
+            </StackPanel>
+            <StackPanel>
+                <c:CheckBox Content="AllowAutonomous" IsChecked="{Binding AllowAutonomous}" />
+                <c:CheckBox Content="AllowUserDirected" IsChecked="{Binding AllowUserDirected}" />
+                <c:CheckBox Content="IsHiddenInQueue" IsChecked="{Binding IsHiddenInQueue}" />
+            </StackPanel>
+            <StackPanel>
+                <c:CheckBox Content="IsCheat" IsChecked="{Binding IsCheat}" />
+            </StackPanel>
+        </c:SpacedStack>
+    </c:LeftRightMargin>
 </UserControl>

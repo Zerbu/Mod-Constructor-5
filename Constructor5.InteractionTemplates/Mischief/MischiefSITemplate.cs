@@ -25,7 +25,7 @@ namespace Constructor5.InteractionTemplates.Mischief
 
         public Reference BalloonSet { get; set; } = new Reference();
 
-        [AutoTuneBasic("_category")]
+        [AutoTuneBasic("category")]
         public Reference PieMenuCategory { get; set; } = new Reference(8990, "Mischief");
 
         public string TuningActionsFile { get; set; } = "Mischief";

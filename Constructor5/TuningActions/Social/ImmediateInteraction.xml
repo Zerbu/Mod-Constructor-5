@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TuningActions>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <L n="loot_list">
+          <ForEachReference p="LootActionSets">
+            <T>$v</T>
+          </ForEachReference>
+          <T>$LearnTraitLootKey</T>
+        </L>
+      </U>
+    </U>
+  </V>
+</TuningActions>

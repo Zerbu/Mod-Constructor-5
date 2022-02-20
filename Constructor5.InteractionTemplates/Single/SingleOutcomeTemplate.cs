@@ -1,14 +1,17 @@
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Shared;
+using Constructor5.Elements.Interactions.Super;
 
 namespace Constructor5.InteractionTemplates.Single
 {
     // [SelectableObjectType("SocialInteractionTemplates", "Single Outcome")]
     [SelectableObjectType("MixerInteractionTemplates", "SingleOutcome")]
+    //[SelectableObjectType("SuperInteractionTemplates", "SingleOutcome")]
     [XmlSerializerExtraType]
     public class SingleOutcomeTemplate : InteractionTemplate
     {
@@ -20,7 +23,7 @@ namespace Constructor5.InteractionTemplates.Single
 
         //public Reference BalloonSet { get; set; } = new Reference();
 
-        [AutoTuneBasic("_category")]
+        [AutoTuneBasic("category")]
         public Reference PieMenuCategory { get; set; } = new Reference();
 
         public string TuningActionsFile { get; set; } = "SingleOutcome";
@@ -35,6 +38,7 @@ namespace Constructor5.InteractionTemplates.Single
             }*/
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
+
             RunTuningActions(context, TuningActionsFile);
         }
     }

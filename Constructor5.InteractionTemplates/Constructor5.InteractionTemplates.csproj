@@ -103,6 +103,10 @@
     <Compile Include="Funny\FunnySocialLootItemEditor.xaml.cs">
       <DependentUpon>FunnySocialLootItemEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Immediate\ImmediateInteractionTemplate.cs" />
+    <Compile Include="Immediate\ImmediateInteractionTemplateEditor.xaml.cs">
+      <DependentUpon>ImmediateInteractionTemplateEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Mean\MeanSITemplate.cs" />
     <Compile Include="Mean\MeanSITemplateEditor.xaml.cs">
       <DependentUpon>MeanSITemplateEditor.xaml</DependentUpon>
@@ -119,6 +123,7 @@
     <Compile Include="Mischief\MischiefSocialLootItemEditor.xaml.cs">
       <DependentUpon>MischiefSocialLootItemEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="OneShot\OneShotTemplate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -196,6 +201,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Funny\FunnySocialLootItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Immediate\ImmediateInteractionTemplateEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,6 +1,7 @@
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Shared;
@@ -42,6 +43,13 @@ namespace Constructor5.Elements.Interactions.Mixer
             {
                 AddComponent(type);
             }
+        }
+
+        protected internal override void TuneTags(InteractionExportContext context)
+        {
+            var tunableList1 = context.Tuning.Get<TunableList>("interaction_category_tags");
+            tunableList1.Set<TunableEnum>(null, "Interaction_Mixer");
+            tunableList1.Set<TunableEnum>(null, "Interaction_All");
         }
     }
 }
