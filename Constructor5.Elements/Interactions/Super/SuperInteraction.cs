@@ -8,7 +8,7 @@ using Constructor5.Elements.Interactions.Shared;
 
 namespace Constructor5.Elements.Interactions.Super
 {
-    [ElementTypeData("SuperInteraction", false, ElementTypes = new[] { typeof(SuperInteraction) }, IsRootType = true)]
+    [ElementTypeData("SuperInteraction", true, ElementTypes = new[] { typeof(SuperInteraction) }, IsRootType = true)]
     public class SuperInteraction : InteractionElement, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();

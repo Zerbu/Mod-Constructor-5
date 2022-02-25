@@ -1,10 +1,11 @@
+using System;
 using System.Collections.Generic;
 
 namespace Constructor5.DebugTools.PresetExtractor
 {
     public class PresetInstruction
     {
-        public static string MainPresetDirectory { get; } = @"D:\Game Resources\The Sims\XML";
+        public static string MainPresetDirectory { get; } = $@"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}\Mod Development\XML";
 
         public string ExportDirectory { get; set; }
         public string ExportFileName { get; set; }

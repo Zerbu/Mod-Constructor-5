@@ -54,10 +54,6 @@ namespace Constructor5.UI.Main
 
             var version = File.ReadAllText("Version.txt");
             Title = $"The Sims 4 Mod Constructor ({version})";
-
-#if DEBUG
-            UnlocalizableStringFinderButton.Visibility = Visibility.Visible;
-#endif
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -96,7 +92,12 @@ namespace Constructor5.UI.Main
             => ElementsSource.Refresh();
 
         void IOnUnlocalizableStringDetected.OnUnlocalizableStringDetected(string text)
-            => UnlocalizableStringsText.Foreground = new SolidColorBrush(Colors.Red);
+        {
+#if DEBUG
+            UnlocalizableStringFinderButton.Visibility = Visibility.Visible;
+            UnlocalizableStringsText.Foreground = new SolidColorBrush(Colors.Red);
+#endif
+        }
 
         protected void OnPropertyChanged(PropertyChangedEventArgs e)
         {

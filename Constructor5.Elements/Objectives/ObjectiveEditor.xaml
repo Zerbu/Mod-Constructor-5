@@ -90,7 +90,7 @@
                                     </Style.Triggers>
                                 </Style>
                             </StackPanel.Style>
-                            <c:Field Label="Completion Type Value" LabelWidth="150">
+                            <c:Field Label="CompletionTypeValue" LabelWidth="150">
                                 <xctk:IntegerUpDown Minimum="1" Text="{Binding CompletionTypeValue}" />
                             </c:Field>
                         </StackPanel>

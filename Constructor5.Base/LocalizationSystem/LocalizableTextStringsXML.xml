@@ -834,7 +834,7 @@ Element Name: {label}</String>
 	
 	<String Key="PieMenuIcon">Pie Menu Icon</String>
 
-	<String Key="Activities">Activities (EXPERIMENTAL)</String>
+	<String Key="Activities">Activities</String>
 	<String Key="OptionalActivities">Optional Activities</String>
 	<String Key="RequiredActivities">Required Activities</String>
 	<String Key="SituationJobInfo">Situation Job Info</String>
@@ -843,7 +843,7 @@ Element Name: {label}</String>
 	
 	<String Key="ActivitiesNotice">This will turn the event into an Activity Event.
 
-IMPORTANT: This will alter how the UI works. The amount of time remaining will not be shown to the player. The game's code does not allow this to be changed. The medal level also won't be shown, although the medal system is still used in the background, and activity goals can have scores that will contribute to the outcome.</String>
+IMPORTANT: This will alter how the UI works. The amount of time remaining will not be shown to the player, and the game's code does not allow this to be changed. The medal level also won't be shown, although the medal system is still used in the background, and activity goals can have scores that will contribute to the outcome.</String>
 
 	<String Key="AreYouSureReplaceElement">This reference is already set to a custom element. Do you want to create a new one and change it?</String>
 
@@ -852,8 +852,8 @@ IMPORTANT: This will alter how the UI works. The amount of time remaining will n
 	<String Key="NumberOfAssignmentsHelp">This is the number of objective SETS the Sim will be assigned, NOT individual objectives. The sets will be chosen at random from those that pass the condition.</String>
 
 	<String Key="UntilThereAre">Until there are</String>
-<String Key="SimMinutesLeft">Sim minutes left</String>
-<String Key="AreYouSureRoleStateChange">Are you sure you want to delete the selected role state change?</String>
+	<String Key="SimMinutesLeft">Sim minutes left</String>
+	<String Key="AreYouSureRoleStateChange">Are you sure you want to delete the selected role state change?</String>
 
 	<String Key="TraitBuffsNotice">These buffs will be added to Sims that have the trait, and will be permanent unless the trait is removed.</String>
 
@@ -883,4 +883,81 @@ IMPORTANT: This will alter how the UI works. The amount of time remaining will n
 
 	<String Key="IsCheat">Is Cheat (requires TestingCheats, hidden behind shift+click)</String>
 
+	<String Key="TraitPickerOnlyOneAllowed">Only Ony Allowed (when selecting a new trait, any trait in the list the Sim already has will be removed)</String>
+
+	<String Key="AddToSimsOrObjects">Add to Sims or Objects</String>
+	<String Key="AddToSims">Add to Sims</String>
+	<String Key="AddToSimsActiveOnly">Only allow on the active (selected) Sim</String>
+	<String Key="AddToObjects">Add to Objects</String>
+	<String Key="IsPlayerFacing">Is Player Facing</String>
+	<String Key="IsPlayerFacingLootHelp">The situation will show in the UI and, if this is a goaled event, have goals. PLEASE NOTE: This action will be skipped altogether if there is already a player facing situation running.</String>
+	<String Key="StartSituationPrimaryParticipantHelp">The primary participant is used for parts of the event that are relevant to a specific Sim, like availability conditions, relationship filters and non-household rewards.</String>
+	<String Key="SituationJobActor">Actor Job</String>
+	<String Key="SituationJobTarget">TargetSim Job</String>
+	<String Key="OtherParticipantsToInvite">Other Participants to Invite</String>
+	<String Key="IsInvertedCanCreatePlayerFacingSituation">Is Inverted (pass if a player facing situation CAN'T be created)</String>
+	<String Key="SuperInteraction">Super Interaction</String>
+	<String Key="Object">Object</String>
+	<String Key="HasIcon">Has Icon</String>
+	<String Key="Parent">Parent</String>
+
+	<String Key="AreYouSureGeneric">Are you sure you want to remove the selected item?</String>
+
+	<String Key="Undefined">Undefined</String>
+	<String Key="ElementSettings">Element Settings</String>
+
+	<String Key="ActivatedPriority">Activated Priority</String>
+	<String Key="ChainedPriority">Chained Priority</String>
+	<String Key="CooldownTimer">Cooldown Timer</String>
+	<String Key="PriorityDecayRate">Priority Decay Rate</String>
+	<String Key="RecheckOnTimeout">Refresh on timeout if the condition of the first objective is still met</String>
+	<String Key="RecheckOnTimeoutNotice">This only checks the first objective, not the entire set.</String>
+	<String Key="ActivationObjectives">Activation Objectives</String>
+	<String Key="ActivationObjectivesNotice">The whim set will activate when a Sim completes these objectives.</String>
+	<String Key="PresetSocial">Preset: Social</String>
+	<String Key="PresetCareer">Preset: Career</String>
+	<String Key="PresetChildSkill">Preset: Child Skill</String>
+	<String Key="PresetSkill">Preset: Skill</String>
+	<String Key="PresetDefault">Preset: Default</String>
+	<String Key="CompletionTypeValue">Completion Type Value</String>
+
+	<String Key="Traits">Traits</String>
+
+	<String Key="OddJobBucketNotice">The "level" is the star rating shown in the Find Odd Jobs UI plus one (level 1 is zero stars). The values commonly used in EA odd jobs are 1 for Low bucket jobs, 4-5 for High bucket jobs, and 6 for Very High bucket jobs. There are no EA odd jobs that have values of 2 or 3.</String>
+
+	<String Key="OddJobInfo">Odd Job Info</String>
+	<String Key="Low">Low</String>
+	<String Key="High">High</String>
+	<String Key="VeryHigh">Very High</String>
+	<String Key="PayAmount">Pay Amount</String>
+	<String Key="OddJobNotificationTextTokensNotice">Use the number 6 to display the text tokens of the Sim giving the job (for example: {6.SimFirstName})</String>
+	<String Key="NotificationFailure">Failure Notification</String>
+	<String Key="NotificationFailureCritical">Critical Failure Notification</String>
+	<String Key="NotificationSuccess">Success Notification</String>
+	<String Key="NotificationSuccessGreat">Great Success Notification</String>
+	<String Key="OddJobRecommendedSkillNotice">The recommended skill has no effect on odd jobs that have assignments, although the icon and text will still be shown.</String>
+	<String Key="RecommendedSkill">Recommended Skill</String>
+	<String Key="RecommendedSkillLevel">Recommended Skill Level</String>
+	<String Key="RecommendedSkillLevelTolerance">Recommended Skill Level Tolerance</String>
+	<String Key="RecommendedSkillLevelToleranceHelp">If the Sim is more than this many levels below the recommended skill level, the job will always result in a critical failure.</String>
+	<String Key="RecommendedSkillIcon">Recommended Skill Icon</String>
+	<String Key="RecommendedSkillText">Recommended Skill Text</String>
+	<String Key="MinimumLevelRequired">Minimum Level Required</String>
+	<String Key="Bucket">Bucket</String>
+	<String Key="ComplexWhimSet">Complex Whim Set</String>
+	<String Key="OddJob">Odd Job</String>
+  
+  <String Key="Assignments">Assignments</String>
+	<String Key="OddJobAssignmentsNotice">By default, odd jobs are rabbithole jobs, meaning Sims will go off the lot for a few hours. Checking "Is Assignment Job" will turn this into the type of job with active objectives. The "Duration" defined in "Situation Info" determines how much time a Sim has to complete the objective set.</String>
+	<String Key="IsAssignmentJob">Is Assignment Job</String>
+  
+  <String Key="SituationsCanCreatePlayerFacingSituationCondition">Situations: Can Create Player Facing Situation</String>
+	<String Key="SituationsCanCreatePlayerFacingSituationConditionNotice">Checks if the game is in a state where a player-facing situation can be started (for example, one is not already running). This is automatically applied to "Start Situation" loot actions, but in some cases, you may want to apply it manually, like restricting an interaction to start a situation, or when running multiple actions along with the start situation action.</String>
+	
+  <String Key="ImmediateInteraction">Immediate Interaction</String>
+	<String Key="ImmediateInteractionNotice">Runs actions immediately when clicking the interaction in the pie menu, without it needing to be added to the queue.</String>
+	<String Key="OneShot">One Shot (Add to Queue then Run on Spot)</String>
+	<String Key="TraitPickerInteraction">Trait Picker Interaction</String>
+	<String Key="SituationsStartSituation">Situations: Start Situation</String>
+  
 </LocalizableTextStrings>

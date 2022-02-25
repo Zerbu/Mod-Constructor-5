@@ -372,6 +372,11 @@
   <Preset Label="sim_Frozen_Frozen_Child" Value="115715" />
   <Preset Label="jig_AlienOrbVFX_On" Value="116354" />
   <Preset Label="jig_AlienOrbVFX_Off" Value="116355" />
+  <Preset Label="banquetTable_FoodSpawned_Spawned" Value="116826" />
+  <Preset Label="fruitPunchFountain_ServingAmount_Empty" Value="116836" />
+  <Preset Label="fruitPunchFountain_ServingAmount_NearEmpty" Value="116837" />
+  <Preset Label="fruitPunchFountain_ServingAmount_Full" Value="116838" />
+  <Preset Label="fruitPunchFountain_ServingAmount_HalfFull" Value="116839" />
   <Preset Label="upgrade_HotTub_Stereo_Completed" Value="118535" />
   <Preset Label="upgrade_HotTub_Unbreakable_Completed" Value="118536" />
   <Preset Label="upgrade_HotTub_Aromatherapy_Completed" Value="118537" />
@@ -524,6 +529,22 @@
   <Preset Label="upgrade_WindTurbine_LightningRod_Completed" Value="238820" />
   <Preset Label="windTurbine_StruckByLightning_Struck" Value="240933" />
   <Preset Label="windTurbine_StruckByLightning_Unstruck" Value="240934" />
+  <Preset Label="dustPile_Size_Values_Small" Value="254697" />
+  <Preset Label="dustPile_Size_Values_Medium" Value="254698" />
+  <Preset Label="dustFriend_Bunny_Happiness_Values_Low" Value="254731" />
+  <Preset Label="dustFriend_Bunny_Happiness_Values_Medium" Value="254733" />
+  <Preset Label="dustFriend_Bunny_Happiness_Values_VeryLow" Value="254734" />
+  <Preset Label="dustFriend_Bunny_Happiness_Values_High" Value="254736" />
+  <Preset Label="dustFriend_Bunny_Happiness_Values_VeryHigh" Value="254737" />
+  <Preset Label="dustFriend_Fiend_Mischief_Values_Low" Value="254739" />
+  <Preset Label="dustFriend_Fiend_Mischief_Values_Medium" Value="254740" />
+  <Preset Label="dustFriend_Fiend_Mischief_Values_VeryLow" Value="254741" />
+  <Preset Label="dustFriend_Fiend_Mischief_Values_High" Value="254743" />
+  <Preset Label="dustFriend_Fiend_Mischief_Values_VeryHigh" Value="254744" />
+  <Preset Label="vacuumCleaner_Values_BagFill_Empty" Value="254911" />
+  <Preset Label="vacuumCleaner_Values_BagFill_Low" Value="254912" />
+  <Preset Label="vacuumCleaner_Values_BagFill_High" Value="254913" />
+  <Preset Label="vacuumCleaner_Values_BagFill_Full" Value="254914" />
   <Preset Label="animalObjects_CommodityStateValues_Hunger_Low" Value="256976" />
   <Preset Label="animalObjects_CommodityStateValues_Hunger_Max" Value="256979" />
   <Preset Label="animalObjects_CommodityStateValues_Hygiene_Low" Value="256980" />
@@ -534,23 +555,59 @@
   <Preset Label="animalObjects_CommodityStateValues_Age_YoungAdult" Value="256998" />
   <Preset Label="animalObjects_CommodityStateValues_Age_Adult" Value="256999" />
   <Preset Label="animalObjects_CommodityStateValues_Age_Elder" Value="257001" />
+  <Preset Label="upgrade_Vacuum_Completed_BottomlessBag" Value="257260" />
+  <Preset Label="upgrade_Vacuum_Completed_SelfCharging" Value="257261" />
+  <Preset Label="upgrade_Vacuum_Completed_VaporizingPulse" Value="257262" />
+  <Preset Label="upgrade_Vacuum_NotStarted_BottomlessBag" Value="257266" />
+  <Preset Label="upgrade_Vacuum_NotStarted_SelfCharging" Value="257267" />
+  <Preset Label="upgrade_Vacuum_NotStarted_VaporizingPulse" Value="257268" />
+  <Preset Label="upgrade_Vacuum_NotStarted_Unbreakable" Value="257269" />
+  <Preset Label="upgrade_Vacuum_Partial_BottomlessBag" Value="257270" />
+  <Preset Label="upgrade_Vacuum_Partial_SelfCharging" Value="257271" />
+  <Preset Label="upgrade_Vacuum_Partial_VaporizingPulse" Value="257272" />
+  <Preset Label="upgrade_Vacuum_Partial_Unbreakable" Value="257273" />
+  <Preset Label="upgrade_Vacuum_Completed_Unbreakable" Value="257280" />
+  <Preset Label="upgrade_AnimalObjects_ChickenCoop_NotStarted_FoxBeGone" Value="258011" />
+  <Preset Label="upgrade_AnimalObjects_ChickenCoop_Completed_FoxBeGone" Value="258016" />
+  <Preset Label="upgrade_AnimalObjects_ChickenCoop_Partial_FoxBeGone" Value="258021" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_NotStarted_Autofeed" Value="258176" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_NotStarted_LifeExtend" Value="258177" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Partial_Autofeed" Value="258178" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Partial_LifeExtend" Value="258179" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Completed_Autofeed" Value="258180" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Completed_LifeExtend" Value="258181" />
+  <Preset Label="picnicBasket_Empty" Value="258484" />
+  <Preset Label="picnicBasket_HasFood" Value="258487" />
+  <Preset Label="vacuumCleaner_Values_BagFill_Prop_Empty" Value="258621" />
+  <Preset Label="vacuumCleaner_Values_BagFill_Prop_Full" Value="258622" />
+  <Preset Label="vacuumCleaner_Values_BagFill_Prop_High" Value="258623" />
+  <Preset Label="vacuumCleaner_Values_BagFill_Prop_Low" Value="258624" />
+  <Preset Label="vacuumCleaner_Values_BagFill_Prop_Null" Value="258627" />
   <Preset Label="animalObjects_LivestockFeed_Healthy_On" Value="258745" />
   <Preset Label="animalObjects_LivestockFeed_Healthy_Off" Value="258746" />
+  <Preset Label="state_GiantCrops_Plant_Yield_Small" Value="259228" />
+  <Preset Label="state_GiantCrops_Plant_Yield_Medium" Value="259229" />
+  <Preset Label="state_GiantCrops_Plant_Yield_Large" Value="259230" />
+  <Preset Label="giantCrops_Plant_Growth_Planted" Value="259264" />
+  <Preset Label="giantCrops_Plant_Growth_Sprout" Value="259265" />
+  <Preset Label="giantCrops_Plant_Growth_Maturing1" Value="259266" />
+  <Preset Label="giantCrops_Plant_Growth_Maturing2" Value="259267" />
+  <Preset Label="giantCrops_Plant_Growth_Blossoming" Value="259268" />
   <Preset Label="animalObjects_LivestockPen_FeedLevel_0" Value="259554" />
   <Preset Label="animalObjects_LivestockPen_FeedLevel_1" Value="259555" />
   <Preset Label="animalObjects_LivestockPen_FeedLevel_2" Value="259556" />
+  <Preset Label="state_GiantCrops_Plant_Prune_CanPrune" Value="259975" />
+  <Preset Label="state_GiantCrops_Plant_Prune_OnCooldown" Value="259976" />
   <Preset Label="animalObjects_CommodityStateValues_VeryHappyTimer_Off" Value="260083" />
   <Preset Label="animalObjects_CommodityStateValues_VeryHappyTimer_On" Value="260084" />
   <Preset Label="AnimalObjectIngredients_Egg_HatchTimer_Untouched" Value="260357" />
   <Preset Label="animalObjectIngredients_Egg_HatchTimer_NotHatched" Value="260359" />
   <Preset Label="animalObjectIngredients_Egg_HatchTimer_Hatching" Value="260360" />
   <Preset Label="animalObjectIngredients_Egg_HatchTimer_Hatched" Value="260361" />
+  <Preset Label="state_GiantCrops_Plant_Status_Sickly" Value="260591" />
+  <Preset Label="state_GiantCrops_Plant_Status_Fine" Value="260592" />
+  <Preset Label="state_GiantCrops_Plant_Status_Healthy" Value="260593" />
+  <Preset Label="state_GiantCrops_Plant_Status_Withered" Value="260954" />
   <Preset Label="animalObjects_CommodityStateValues_Age_ReadyToDie" Value="261266" />
   <Preset Label="animalObjects_CommodityStateValues_ReturnHomeTimer_GoHome" Value="261355" />
   <Preset Label="animalObjects_CommodityStateValues_ReturnHomeTimer_Stay" Value="261356" />
@@ -560,6 +617,28 @@
   <Preset Label="animalObjects_Generic_GoMissing_Missing" Value="261594" />
   <Preset Label="animalObjects_Generic_GoMissing_Home" Value="261595" />
   <Preset Label="animalObjects_Generic_GoMissing_Back" Value="261599" />
+  <Preset Label="state_GiantCrops_Fruit_Quality_Low" Value="261644" />
+  <Preset Label="state_GiantCrops_Fruit_Quality_Lowest" Value="261645" />
+  <Preset Label="state_GiantCrops_Fruit_Quality_Medium" Value="261646" />
+  <Preset Label="state_GiantCrops_Fruit_Quality_High" Value="261647" />
+  <Preset Label="state_GiantCrops_Fruit_Quality_Highest" Value="261648" />
+  <Preset Label="critterGifting_TakeGift_Available" Value="262290" />
+  <Preset Label="critterGifting_TakeGift_Unavailable" Value="262291" />
+  <Preset Label="crossStitchProgress_Blank" Value="263153" />
+  <Preset Label="crossStitchProgress_Values_25_Percent" Value="263154" />
+  <Preset Label="crossStitchProgress_Values_50_Percent" Value="263155" />
+  <Preset Label="crossStitchProgress_Values_75_Percent" Value="263156" />
+  <Preset Label="crossStitchProgress_Values_80_Percent" Value="263157" />
+  <Preset Label="crossStitchProgress_Values_Complete" Value="263158" />
+  <Preset Label="critterGifting_DiscoverGift_Available" Value="264687" />
+  <Preset Label="critterGifting_DiscoverGift_Unavailable" Value="264688" />
+  <Preset Label="animalObjects_CountryCaretaker_LifeExtensionValues_On" Value="265335" />
+  <Preset Label="animalObjects_CountryCaretaker_LifeExtensionValues_Off" Value="265336" />
+  <Preset Label="groceryDeliveryCoupon_Expire_0" Value="267625" />
+  <Preset Label="groceryDeliveryCoupon_Expire_1_6Hours" Value="267626" />
+  <Preset Label="groceryDeliveryCoupon_Expire_2_24Hours" Value="267627" />
+  <Preset Label="groceryDeliveryCoupon_Expire_3_48Hours" Value="267628" />
+  <Preset Label="groceryDeliveryCoupon_Expire_4_72Hours" Value="267629" />
   <Preset Label="animalObjects_LivestockPen_GoMissing_Warn" Value="267872" />
   <Preset Label="animalObjects_LivestockPen_GoMissing_Leave" Value="267873" />
   <Preset Label="animalObjects_LivestockPen_GoMissing_Unhappy" Value="267874" />

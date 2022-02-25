@@ -1,33 +1,36 @@
-<UserControl x:Class="Constructor5.Elements.TestConditions.ConditionListControl"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
-             xmlns:conditions="clr-namespace:Constructor5.Elements.TestConditions"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.Elements.TestConditions"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             x:Name="uc"
-             d:DesignHeight="450"
-             d:DesignWidth="800"
-             mc:Ignorable="d">
+<UserControl
+    x:Class="Constructor5.Elements.TestConditions.ConditionListControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:conditions="clr-namespace:Constructor5.Elements.TestConditions"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.TestConditions"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="uc"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
     <UserControl.Resources>
         <c:SimpleAddToListCommand x:Key="AddConditionCommand" TypeName="TestConditionListItem" />
-        <c:SimpleRemoveFromListCommand x:Key="RemoveConditionCommand"
-                                       DeleteMessage="AreYouSureCondition"
-                                       TypeName="TestConditionListItem" />
+        <c:SimpleRemoveFromListCommand
+            x:Key="RemoveConditionCommand"
+            DeleteMessage="AreYouSureCondition"
+            TypeName="TestConditionListItem" />
     </UserControl.Resources>
     <StackPanel>
         <ItemsControl ItemsSource="{Binding ConditionList, ElementName=uc}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate DataType="{x:Type conditions:TestConditionListItem}">
                     <StackPanel>
-                        <c:SelectableObjectControl DeleteCommand="{StaticResource RemoveConditionCommand}"
-                                                   EditorCategory="Default"
-                                                   EditorTag="{Binding EditorTag, ElementName=uc}"
-                                                   Object="{Binding Condition}"
-                                                   ShowDeleteButton="True"
-                                                   Tag="{Binding}"
-                                                   TypeRegistryCategory="{Binding RegistryCategory, ElementName=uc}">
+                        <c:SelectableObjectControl
+                            DeleteCommand="{StaticResource RemoveConditionCommand}"
+                            EditorCategory="Default"
+                            EditorTag="{Binding EditorTag, ElementName=uc}"
+                            Object="{Binding Condition}"
+                            ShowDeleteButton="True"
+                            Tag="{Binding}"
+                            TypeRegistryCategory="{Binding RegistryCategory, ElementName=uc}">
                             <c:SelectableObjectControl.DeleteCommandParameter>
                                 <MultiBinding Converter="{StaticResource MultiParamConverter}">
                                     <Binding Path="." />
@@ -39,9 +42,10 @@
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>
-        <c:Button HorizontalAlignment="Left"
-                  Command="{StaticResource AddConditionCommand}"
-                  CommandParameter="{Binding ConditionList, ElementName=uc}"
-                  Content="AddCondition" />
+        <c:Button
+            HorizontalAlignment="Left"
+            Command="{StaticResource AddConditionCommand}"
+            CommandParameter="{Binding ConditionList, ElementName=uc}"
+            Content="AddCondition" />
     </StackPanel>
 </UserControl>

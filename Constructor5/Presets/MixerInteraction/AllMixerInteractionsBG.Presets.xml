@@ -543,6 +543,10 @@
   <Preset Label="fishingLocation_AngleForBigCatch_Dock" Value="208746" />
   <Preset Label="fishingLocation_AngleForBigCatch_Hole" Value="208748" />
   <Preset Label="fishingLocation_AngleForBigCatch_Idle" Value="208926" />
+  <Preset Label="sandActivities_Mixers_Idle_Child" Value="210207" />
+  <Preset Label="sandActivities_Mixers_Play_Child" Value="210208" />
+  <Preset Label="sandActivities_Mixers_Idle_Toddler" Value="210210" />
+  <Preset Label="sandActivities_Mixers_Play_Toddler" Value="210212" />
   <Preset Label="swimmingReactions_Mixers_Splashed" Value="211356" />
   <Preset Label="swimmingReactions_Mixers_SuddenChill" Value="211357" />
   <Preset Label="swimmingReactions_Mixers_SwimmingCramp" Value="211359" />
@@ -588,13 +592,27 @@
   <Preset Label="idle_Buff_Fatigue" Value="252183" />
   <Preset Label="Emotion_Idle_Scared" Value="252517" />
   <Preset Label="relax_Passive" Value="256648" />
+  <Preset Label="stand_Fox_Passive" Value="257160" />
   <Preset Label="idle_Buff_SimPreference_Likes_Music_Pop" Value="258709" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Kids" Value="258741" />
+  <Preset Label="fox_Watch_Idle" Value="260050" />
   <Preset Label="sit_Chaise_Mixers_Idle" Value="260061" />
   <Preset Label="sit_Chaise_Mixers_Nap" Value="260132" />
+  <Preset Label="fox_Sleep_Mixers_Back" Value="260288" />
+  <Preset Label="fox_Sleep_Mixers_BackQuirk" Value="260289" />
+  <Preset Label="fox_Sleep_Mixers_Curl" Value="260290" />
+  <Preset Label="fox_Sleep_Mixers_CurlQuirk" Value="260291" />
+  <Preset Label="fox_Sleep_Mixers_Stomach" Value="260292" />
+  <Preset Label="fox_Sleep_Mixers_StomachQuirk" Value="260293" />
+  <Preset Label="Fox_LayDown_Passive" Value="260336" />
+  <Preset Label="Fire_OnFire_passiveMixer_Fox" Value="260595" />
+  <Preset Label="fox_Watch_Curious" Value="260868" />
   <Preset Label="mixer_Ponds_Fishing_Cast" Value="262443" />
   <Preset Label="mixer_Ponds_Fishing_AngleForBigCatch_Idle" Value="262447" />
   <Preset Label="mixer_Ponds_Fishing_AngleForBigCatch_Cast" Value="262448" />
+  <Preset Label="idle_Buff_Canning_Cowberry" Value="263005" />
+  <Preset Label="idle_firebreathe" Value="263572" />
+  <Preset Label="idle_Buff_LactoseIntolerant_Uncomfortable" Value="263727" />
   <Preset Label="GroupCooking_Counter_CuttingBoard_Chop_Apple" Value="264007" />
   <Preset Label="GroupCooking_Counter_CuttingBoard_Chop_Asparagus" Value="264008" />
   <Preset Label="GroupCooking_Counter_CuttingBoard_Chop_Beans" Value="264009" />
@@ -626,6 +644,9 @@
   <Preset Label="GroupCooking_Counter_MixingBowl_Mix_Basic" Value="264046" />
   <Preset Label="GroupCooking_Counter_MixingBowl_Toss_Basic" Value="264048" />
   <Preset Label="mentor_Mixer_Food_Child" Value="264064" />
+  <Preset Label="Fox_Stalk_Watch" Value="264534" />
+  <Preset Label="mixer_OpenStreet_CottageWorld_Gossiper_Stitch_Active" Value="264564" />
+  <Preset Label="mixer_OpenStreet_CottageWorld_Gossiper_Stitch_Passive" Value="264565" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Alternative" Value="265139" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Blues" Value="265140" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Classical" Value="265141" />
@@ -751,8 +772,15 @@
   <Preset Label="idle_Buff_SimPreference_Likes_Activities_Robotics" Value="265497" />
   <Preset Label="food_Spicy_React" Value="266701" />
   <Preset Label="food_Eat_SpicyMushroomSoup" Value="266970" />
+  <Preset Label="reaction_LactoseIntolerant_Disgusted_Mixer_Milk" Value="267031" />
+  <Preset Label="stand_Fox_Passive_Steal" Value="267047" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_DJ" Value="267536" />
   <Preset Label="idle_Buff_SimPreference_Likes_Music_DJ" Value="267537" />
+  <Preset Label="mixerInteraction_CollectEgg" Value="268894" />
+  <Preset Label="reaction_Death_Mixers_Fox_Sad" Value="269500" />
+  <Preset Label="See What's Happening (reaction_Mixers_OnSim_FromFox_StealEgg)" Value="269519" />
+  <Preset Label="See What's Happening (reaction_Mixers_OnSim_FromFox_StealHarvestable)" Value="269520" />
+  <Preset Label="Fox_LayDown_Idle" Value="269798" />
   <Preset Label="groupCooking_Counter_MixingBowl_Mix_Bake_CrackEgg" Value="269860" />
   <Preset Label="groupCooking_Counter_MixingBowl_Mix_Bake_MeasureCup" Value="269861" />
   <Preset Label="groupCooking_Counter_MixingBowl_Mix_Bake_Taste" Value="269862" />
@@ -768,10 +796,21 @@
   <Preset Label="Clap (musicFestival_Mixers_Watch_Clap_End)" Value="270349" />
   <Preset Label="Cheer (musicFestival_Mixers_Watch_Cheer_Start)" Value="270350" />
   <Preset Label="musicFestival_Mixers_Watch_React" Value="270355" />
+  <Preset Label="Cheer (reaction_Mixers_VillageFair_High)" Value="270454" />
+  <Preset Label="Cheer (reaction_Mixers_VillageFair_Low)" Value="270455" />
+  <Preset Label="Cheer (reaction_Mixers_VillageFair_Medium)" Value="270456" />
+  <Preset Label="fox_WatchMixers_Idle_Sim" Value="271182" />
+  <Preset Label="fox_WatchMixers_Curious_Sim" Value="271183" />
+  <Preset Label="fox_WatchMixers_Wary" Value="271323" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Activities_CrossStitch" Value="274564" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Activities_Knitting" Value="274565" />
   <Preset Label="idle_Buff_SimPreference_Likes_Activities_CrossStitch" Value="274566" />
   <Preset Label="idle_Buff_SimPreference_Likes_Activities_Knitting" Value="274567" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_CottageCore" Value="274588" />
   <Preset Label="idle_Buff_SimPreference_Likes_Music_CottageCore" Value="274589" />
+  <Preset Label="mixer_Custom_State_Wedding_TakeSeats_Watch" Value="277125" />
+  <Preset Label="mixer_WeddingVenue_TakeNotes" Value="283747" />
+  <Preset Label="mixer_WeddingVenue_Critique" Value="283748" />
+  <Preset Label="mixer_WeddingVenue_Think" Value="283749" />
+  <Preset Label="mixer_WeddingVenue_View" Value="283750" />
 </PresetGroup>

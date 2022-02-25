@@ -16,10 +16,10 @@
                 Content="AddToSimsActiveOnly"
                 IsChecked="{Binding AddToSimsActiveOnly}"
                 Visibility="{Binding AddToSims, Converter={StaticResource BoolToVis}}" />
-            <!--<c:Field Label="AddToObjects" LabelWidth="200">
-                <c:ReferenceListControl ElementReferenceList="{Binding AddToObjects}" ElementTypeName="AddToObjects" />
+            <c:Field Label="AddToObjects" LabelWidth="100">
+                <c:ReferenceListControl ElementReferenceList="{Binding AddToObjects}" ElementTypeName="Object" />
             </c:Field>
-            <c:Field Label="AddToObjectsWithInteraction" LabelWidth="200">
+            <!--<c:Field Label="AddToObjectsWithInteraction" LabelWidth="200">
                 <c:ReferenceListControl ElementReferenceList="{Binding AddToObjectsWithInteraction}" ElementTypeName="AddToObjectsWithInteraction" />
             </c:Field>-->
         </StackPanel>

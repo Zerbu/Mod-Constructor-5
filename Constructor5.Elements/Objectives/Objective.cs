@@ -8,7 +8,6 @@ using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Elements.TestConditions;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.Objectives
 {
@@ -67,6 +66,8 @@ namespace Constructor5.Elements.Objectives
             {
                 BuildSimData(tuning);
             }
+
+            tuning.Set<TunableBasic>("resettable", true);
 
             CustomTuningExporter.Export(this, tuning, CustomTuning);
 

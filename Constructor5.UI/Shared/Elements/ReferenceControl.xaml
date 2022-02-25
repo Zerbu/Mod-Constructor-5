@@ -11,6 +11,7 @@
     mc:Ignorable="d">
     <UserControl.Resources>
         <c:SimpleBrowsePresetsCommand x:Key="BrowsePresetsCommand" PresetsSelectedCallback="SimpleBrowseElementsCommand_PresetsSelectedCallback" />
+        <c:ElementSettingsCommand x:Key="ElementSettingsCommand" />
     </UserControl.Resources>
     <StackPanel>
         <Grid>
@@ -21,11 +22,10 @@
             <c:ReferenceLabel VerticalAlignment="Center" Reference="{Binding Reference, ElementName=uc}" />
             <!--<c:TextBlock Text="{Binding Reference.Label, ElementName=uc}" ToolTip="{Binding Reference.Label, ElementName=uc}" VerticalAlignment="Center" />-->
             <StackPanel Grid.Column="1" Orientation="Horizontal">
-                <c:Button
+                <c:PlainButton
                     x:Name="BrowseButton"
                     HorizontalAlignment="Left"
                     Click="BrowseButton_Click"
-                    Style="{StaticResource Constructor.PlainButtonStyle}"
                     ToolTip="Browse"
                     Visibility="{Binding ShowBrowseButton, ElementName=uc, Converter={StaticResource BoolToVis}}">
                     <c:Button.Content>
@@ -34,12 +34,11 @@
                             Height="25"
                             Source="pack://siteoforigin:,,,/Images/ConfigIcon.png" />
                     </c:Button.Content>
-                </c:Button>
-                <c:Button
+                </c:PlainButton>
+                <c:PlainButton
                     x:Name="ResetButton"
                     HorizontalAlignment="Left"
                     Click="ResetButton_Click"
-                    Style="{StaticResource Constructor.PlainButtonStyle}"
                     ToolTip="Reset"
                     Visibility="{Binding ShowResetButton, ElementName=uc, Converter={StaticResource BoolToVis}}">
                     <c:Button.Content>
@@ -48,8 +47,8 @@
                             Height="25"
                             Source="pack://siteoforigin:,,,/Images/DeleteIcon.png" />
                     </c:Button.Content>
-                </c:Button>
-                <c:Button
+                </c:PlainButton>
+                <c:PlainButton
                     x:Name="CreateButton"
                     HorizontalAlignment="Left"
                     Click="CreateButton_Click"
@@ -62,12 +61,11 @@
                             Height="25"
                             Source="pack://siteoforigin:,,,/Images/AddIcon.png" />
                     </c:Button.Content>
-                </c:Button>
-                <c:Button
+                </c:PlainButton>
+                <c:PlainButton
                     x:Name="OpenButton"
                     HorizontalAlignment="Left"
                     Click="OpenButton_Click"
-                    Style="{StaticResource Constructor.PlainButtonStyle}"
                     ToolTip="Open Tab"
                     Visibility="{Binding Reference.Element, ElementName=uc, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}">
                     <c:Button.Content>
@@ -76,7 +74,21 @@
                             Height="25"
                             Source="pack://siteoforigin:,,,/Images/BoostXPIcon.png" />
                     </c:Button.Content>
-                </c:Button>
+                </c:PlainButton>
+                <c:PlainButton
+                    x:Name="ElementSettingsButton"
+                    HorizontalAlignment="Left"
+                    Command="{StaticResource ElementSettingsCommand}"
+                    CommandParameter="{Binding Reference.Element, ElementName=uc}"
+                    ToolTip="Element Settings"
+                    Visibility="{Binding Reference.Element, ElementName=uc, Converter={StaticResource NotNullToVis}, FallbackValue=Collapsed}">
+                    <c:Button.Content>
+                        <Image
+                            Width="25"
+                            Height="25"
+                            Source="pack://siteoforigin:,,,/Images/ElementIcon.png" />
+                    </c:Button.Content>
+                </c:PlainButton>
             </StackPanel>
             <Grid.ContextMenu>
                 <ContextMenu>
@@ -88,7 +100,7 @@
                         <c:MenuItem
                             x:Name="ElementSettingsMenuItem"
                             Click="ElementSettingsMenuItem_Click"
-                            Header="Element Settings" />
+                            Header="ElementSettings" />
                     </ContextMenu.Items>
                 </ContextMenu>
             </Grid.ContextMenu>

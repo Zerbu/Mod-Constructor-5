@@ -2,6 +2,7 @@ using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
+using Constructor5.Base.LocalizationSystem;
 
 namespace Constructor5.Base.CustomTuning
 {
@@ -18,17 +19,17 @@ namespace Constructor5.Base.CustomTuning
 
             if (string.IsNullOrEmpty(tuning.InstanceType))
             {
-                Exporter.Current.AddError(this, $"Instance type is not set for Custom Tuning Element: {UserFacingId}.");
+                Exporter.Current.AddError(this, $"{{nl}}{TextStringManager.Get("CustomTuningInstanceTypeNotSet").Replace("{id}", UserFacingId)}");
             }
 
             if (string.IsNullOrEmpty(tuning.Module))
             {
-                Exporter.Current.AddError(this, $"Module is not set for Custom Tuning Element: {UserFacingId}.");
+                Exporter.Current.AddError(this, $"{{nl}}{TextStringManager.Get("CustomTuningModuleNotSet").Replace("{id}", UserFacingId)}");
             }
 
             if (string.IsNullOrEmpty(tuning.Class))
             {
-                Exporter.Current.AddError(this, $"Class is not set for Custom Tuning Element: {UserFacingId}.");
+                Exporter.Current.AddError(this, $"{{nl}}{TextStringManager.Get("CustomTuningClassNotSet").Replace("{id}", UserFacingId)}");
             }
 
             if (tuning.InstanceType == null)

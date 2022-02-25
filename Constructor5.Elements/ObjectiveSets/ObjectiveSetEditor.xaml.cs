@@ -6,6 +6,7 @@ using System.Windows.Controls;
 namespace Constructor5.Elements.ObjectiveSets
 {
     [ObjectEditor(typeof(ObjectiveSet))]
+    [ObjectEditor(typeof(ObjectiveSet), "ElementMini")]
     public partial class ObjectiveSetEditor : UserControl, IObjectEditor
     {
         public ObjectiveSetEditor() => InitializeComponent();

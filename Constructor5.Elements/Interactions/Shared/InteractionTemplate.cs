@@ -26,7 +26,7 @@ namespace Constructor5.Elements.Interactions.Shared
                 DataContext = this
             };
             tuningContext.Variables.Add("LearnTraitLootKey", context.LearnTraitLootKey?.ToString());
-            TuningActionInvoker.InvokeFromFile($"Social/{actionsFile}", tuningContext);
+            TuningActionInvoker.InvokeFromFile($"Interactions/{actionsFile}", tuningContext);
         }
 
         protected internal virtual void OnSaveUpgrade(int oldVersion, int newVersion) { }

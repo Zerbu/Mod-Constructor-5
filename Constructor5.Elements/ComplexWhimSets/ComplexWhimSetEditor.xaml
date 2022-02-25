@@ -1,0 +1,98 @@
+﻿<UserControl
+    x:Class="Constructor5.Elements.ComplexWhimSets.ComplexWhimSetEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.ComplexWhimSets"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <ScrollViewer>
+        <c:LeftRightMargin>
+            <c:TabControl>
+                <c:TabItem Header="Settings">
+                    <c:SpacedStack TopMargin="True">
+                        <StackPanel>
+                            <c:Field Label="Reason" LabelWidth="150">
+                                <c:STBLStringControl Text="{Binding Reason}" />
+                            </c:Field>
+                            <StackPanel Orientation="Horizontal">
+                                <c:Button
+                                    x:Name="PresetDefaultButton"
+                                    Margin="2"
+                                    HorizontalAlignment="Left"
+                                    Click="PresetDefaultButton_Click"
+                                    Content="PresetDefault" />
+                                <c:Button
+                                    x:Name="PresetSkillButton"
+                                    Margin="2"
+                                    HorizontalAlignment="Left"
+                                    Click="PresetSkillButton_Click"
+                                    Content="PresetSkill" />
+                                <c:Button
+                                    x:Name="PresetChildSkillButton"
+                                    Margin="2"
+                                    HorizontalAlignment="Left"
+                                    Click="PresetChildSkillButton_Click"
+                                    Content="PresetChildSkill" />
+                                <c:Button
+                                    x:Name="PresetCareerButton"
+                                    Margin="2"
+                                    HorizontalAlignment="Left"
+                                    Click="PresetCareerButton_Click"
+                                    Content="PresetCareer" />
+                                <c:Button
+                                    x:Name="PresetSocialButton"
+                                    Margin="2"
+                                    HorizontalAlignment="Left"
+                                    Click="PresetSocialButton_Click"
+                                    Content="PresetSocial" />
+                            </StackPanel>
+                            <c:Field Label="ActivatedPriority" LabelWidth="150">
+                                <xctk:DoubleUpDown Text="{Binding ActivatedPriority}" />
+                            </c:Field>
+                            <c:Field Label="ChainedPriority" LabelWidth="150">
+                                <xctk:DoubleUpDown Text="{Binding ChainedPriority}" />
+                            </c:Field>
+                            <c:Field Label="CooldownTimer" LabelWidth="150">
+                                <xctk:DoubleUpDown Text="{Binding CooldownTimer}" />
+                            </c:Field>
+                            <c:Field Label="PriorityDecayRate" LabelWidth="150">
+                                <xctk:DoubleUpDown Text="{Binding PriorityDecayRate}" />
+                            </c:Field>
+                            <c:CheckBox IsChecked="{Binding RecheckOnTimeout}">
+                                <StackPanel>
+                                    <c:TextBlock Text="RecheckOnTimeout" />
+                                    <c:TextBlock FontWeight="Bold" Text="RecheckOnTimeoutNotice" />
+                                </StackPanel>
+                            </c:CheckBox>
+                        </StackPanel>
+                    </c:SpacedStack>
+                </c:TabItem>
+                <c:TabItem Header="Whims">
+                    <c:SpacedStack TopMargin="True">
+                        <c:ReferenceListControl
+                            ElementReferenceList="{Binding Whims}"
+                            ElementTypeName="SituationGoal"
+                            ShowCreateButton="True" />
+                    </c:SpacedStack>
+                </c:TabItem>
+                <c:TabItem Header="ActivationObjectives">
+                    <c:SpacedStack TopMargin="True">
+                        <StackPanel>
+                            <c:TextBlock Text="ActivationObjectivesNotice" />
+                            <c:ReferenceListControl
+                                CreateElementFunction="ReferenceListControl_CreateElementFunction"
+                                ElementReferenceList="{Binding ActivationObjectives}"
+                                ElementTypeName="Objective"
+                                ShowCreateButton="True" />
+                        </StackPanel>
+                    </c:SpacedStack>
+                </c:TabItem>
+            </c:TabControl>
+        </c:LeftRightMargin>
+    </ScrollViewer>
+</UserControl>

@@ -96,7 +96,7 @@ namespace Constructor5.DebugTools.PresetExtractor
                     continue;
                 }
 
-                /*if (Path.GetFileName(packDir) != "EP11")
+                /*if (Path.GetFileName(packDir) != "BG")
                 {
                     continue;
                 }*/
@@ -107,10 +107,10 @@ namespace Constructor5.DebugTools.PresetExtractor
                     continue;
                 }
                 var typeDirName = Path.GetFileName(typeDir).ToLower();
-                if (typeDirName != "snippet")
+                /*if (typeDirName != "object")
                 {
                     continue;
-                }
+                }*/
                 Console.WriteLine($"Checking directory: {typeDir}");
                 foreach (var xmlFile in Directory.GetFiles(typeDir, "*.xml"))
                 {

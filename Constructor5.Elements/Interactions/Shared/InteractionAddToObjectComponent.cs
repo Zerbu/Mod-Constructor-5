@@ -1,4 +1,4 @@
-﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.Python;
@@ -20,7 +20,7 @@ namespace Constructor5.Elements.Interactions.Shared
         public bool AddToSims { get; set; }
         public bool AddToSimsActiveOnly { get; set; }
 
-        public override string ComponentLabel => "Add to Sims or Objects";
+        public override string ComponentLabel => "AddToSimsOrObjects";
 
         protected internal override void OnExport(InteractionExportContext context)
         {
@@ -45,12 +45,13 @@ namespace Constructor5.Elements.Interactions.Shared
             var tunableTuple1 = tunableVariant1.Get<TunableTuple>("participant");
             var tunableList1 = tunableTuple1.Get<TunableList>("participant_type");
             tunableList1.Set<TunableEnum>(null, "Actor");
-            context.Tuning.Set<TunableEnum>("target_type", "ACTOR");
+
+            if (context.Tuning.Get<TunableBasic>("target_type") == null)
+            {
+                context.Tuning.Set<TunableEnum>("target_type", "ACTOR");
+            }
+            
             var tunableList2 = context.Tuning.Get<TunableList>("test_globals");
-            var tunableVariant2 = tunableList2.Set<TunableVariant>(null, "sim_info");
-            var tunableTuple2 = tunableVariant2.Get<TunableTuple>("sim_info");
-            var tunableVariant3 = tunableTuple2.Set<TunableVariant>("species", "unspecified");
-            tunableTuple2.Set<TunableEnum>("who", "Actor");
             var tunableVariant4 = tunableList2.Set<TunableVariant>(null, "identity");
             var tunableTuple3 = tunableVariant4.Get<TunableTuple>("identity");
             tunableTuple3.Set<TunableBasic>("subjects_match", "True");
@@ -59,14 +60,10 @@ namespace Constructor5.Elements.Interactions.Shared
         private void TuneHumansOnly(InteractionExportContext context)
         {
             var tunableList1 = context.Tuning.Get<TunableList>("test_globals");
-            var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "sim_info");
-            var tunableTuple1 = tunableVariant1.Get<TunableTuple>("sim_info");
-            //var tunableVariant2 = tunableTuple1.Set<TunableVariant>("ages", "specified");
-            var tunableVariant3 = tunableTuple1.Set<TunableVariant>("species", "specified");
-            var tunableTuple2 = tunableVariant3.Get<TunableTuple>("specified");
-            var tunableList2 = tunableTuple2.Get<TunableList>("species");
-            tunableList2.Set<TunableEnum>(null, "");
-            tunableTuple1.Set<TunableEnum>("who", "Actor");
+            var tunableVariant2 = tunableList1.Set<TunableVariant>(null, "sim_info");
+            var tunableTuple2 = tunableVariant2.Get<TunableTuple>("sim_info");
+            var tunableVariant3 = tunableTuple2.Set<TunableVariant>("species", "unspecified");
+            tunableTuple2.Set<TunableEnum>("who", "Actor");
         }
     }
 }

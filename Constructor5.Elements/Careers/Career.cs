@@ -12,7 +12,7 @@ using Constructor5.Elements.Statistics;
 
 namespace Constructor5.Elements.Careers
 {
-    [ElementTypeData("Career", false, ElementTypes = new[] { typeof(Career) }, PresetFolders = new[] { "Career" }, IsRootType = true)]
+    [ElementTypeData("Career", true, ElementTypes = new[] { typeof(Career) }, PresetFolders = new[] { "Career" }, IsRootType = true)]
     public class Career : SimpleComponentElement<CareerComponent>, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
@@ -51,6 +51,7 @@ namespace Constructor5.Elements.Careers
                 newReference.AddContextModifier(new CareerPerformanceStatisticContextModifier() { Career = new Reference(this) });
                 infoComponent.PerformanceStatistic = new Reference(newReference);
                 newReference.Label = $"{Label} Statistic";
+                newReference.ShowPreset = true;
                 ElementSaver.ScheduleOneTime(newReference);
             }
 
@@ -61,6 +62,7 @@ namespace Constructor5.Elements.Careers
                 newReference.AddContextModifier(new CareerInteractionContextModifier() { Career = new Reference(this) });
                 interactionComponent.Interaction = new Reference(newReference);
                 newReference.Label = $"{Label} Career Interaction";
+                ElementSaver.ScheduleOneTime(newReference);
             }
 
             var levelsComponent = GetComponent<CareerLevelsComponent>();
@@ -70,6 +72,8 @@ namespace Constructor5.Elements.Careers
                 newReference.AddContextModifier(new CareerTrackContextModifier() { Career = new Reference(this) });
                 levelsComponent.BaseTrack = new Reference(newReference);
                 newReference.Label = $"{Label} Career Track";
+                newReference.ShowPreset = true;
+                ElementSaver.ScheduleOneTime(newReference);
             }
         }
 

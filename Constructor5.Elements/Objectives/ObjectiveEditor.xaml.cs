@@ -4,6 +4,7 @@ using System.Windows.Controls;
 namespace Constructor5.Elements.Objectives
 {
     [ObjectEditor(typeof(Objective))]
+    [ObjectEditor(typeof(Objective), "ElementMini")]
     public partial class ObjectiveEditor : UserControl, IObjectEditor
     {
         public ObjectiveEditor() => InitializeComponent();

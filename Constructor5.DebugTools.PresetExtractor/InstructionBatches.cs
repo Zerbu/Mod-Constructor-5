@@ -61,6 +61,10 @@ namespace Constructor5.DebugTools.PresetExtractor
         {
         }, "MixerInteraction");
 
+        public static PresetInstruction[] Objects { get; } = PresetInstruction.CreateBatch("Object", "Object", "All Objects", "display_text", new Dictionary<string, string>
+        {
+        });
+
         public static PresetInstruction[] Objectives { get; } = PresetInstruction.CreateBatch("Objective", "Objective", "All Objectives", "display_text", new Dictionary<string, string>
         {
         });

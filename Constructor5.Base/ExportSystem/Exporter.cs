@@ -154,6 +154,8 @@ namespace Constructor5.Base.Export
             File.WriteAllText(fileName, PythonBuilder.Current.GetContent());
 
             RunPythonScript(fileName);
+
+            PythonBuilder.Clear();
         }
 
         private void ExportSTBL()

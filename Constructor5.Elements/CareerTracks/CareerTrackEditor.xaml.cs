@@ -29,6 +29,7 @@ namespace Constructor5.Elements.CareerTracks
             var element = (CareerTrack)DataContext;
 
             var result = ElementManager.Create(typeof(CareerTrack), null, true);
+            result.ShowPreset = true;
             result.AddContextModifier(new CareerTrackContextModifier
             {
                 Career = element.GetContextModifier<CareerTrackContextModifier>().Career,
@@ -42,6 +43,7 @@ namespace Constructor5.Elements.CareerTracks
             var element = (CareerTrack)DataContext;
 
             var result = ElementManager.Create(typeof(CareerLevel), null, true);
+            result.ShowPreset = true;
             result.AddContextModifier(new CareerLevelContextModifier
             {
                 Career = element.GetContextModifier<CareerTrackContextModifier>().Career,

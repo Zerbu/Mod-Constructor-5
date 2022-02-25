@@ -1,0 +1,89 @@
+﻿<UserControl
+    x:Class="Constructor5.Elements.OddJobs.Components.OddJobInfoComponentEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.OddJobs.Components"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <ScrollViewer>
+        <c:LeftRightMargin>
+            <c:SpacedStack>
+                <StackPanel>
+                    <c:Field Label="Name" LabelWidth="100">
+                        <c:STBLStringControl Text="{Binding Name}" />
+                    </c:Field>
+                    <c:Field Label="Description" LabelWidth="100">
+                        <c:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
+                    </c:Field>
+                    <c:Field Label="Icon" LabelWidth="100">
+                        <c:IconControl Icon="{Binding Icon}" />
+                    </c:Field>
+                </StackPanel>
+                <StackPanel>
+                    <c:Field Label="PayAmount" LabelWidth="100">
+                        <xctk:IntegerUpDown Minimum="0" Text="{Binding PayAmount}" />
+                    </c:Field>
+                </StackPanel>
+                <StackPanel>
+                    <c:TextBlock Text="OddJobNotificationTextTokensNotice" />
+                    <c:Field Label="NotificationSuccessGreat" LabelWidth="150">
+                        <c:STBLStringControl IsMultiLine="True" Text="{Binding NotificationSuccessGreat}" />
+                    </c:Field>
+                    <c:Field Label="NotificationSuccess" LabelWidth="150">
+                        <c:STBLStringControl IsMultiLine="True" Text="{Binding NotificationSuccess}" />
+                    </c:Field>
+                    <c:Field Label="NotificationFailure" LabelWidth="150">
+                        <c:STBLStringControl IsMultiLine="True" Text="{Binding NotificationFailure}" />
+                    </c:Field>
+                    <c:Field Label="NotificationFailureCritical" LabelWidth="150">
+                        <c:STBLStringControl IsMultiLine="True" Text="{Binding NotificationFailureCritical}" />
+                    </c:Field>
+                </StackPanel>
+                <StackPanel>
+                    <c:TextBlock Text="OddJobRecommendedSkillNotice" />
+                    <c:Field Label="RecommendedSkill" LabelWidth="150">
+                        <c:ReferenceControl ElementTypeName="Skill" Reference="{Binding RecommendedSkill}" />
+                    </c:Field>
+                    <c:Field Label="RecommendedSkillLevel" LabelWidth="150">
+                        <xctk:IntegerUpDown Minimum="1" Text="{Binding RecommendedSkillLevel}" />
+                    </c:Field>
+                    <c:Field Label="RecommendedSkillLevelTolerance" LabelWidth="150">
+                        <StackPanel>
+                            <xctk:IntegerUpDown Minimum="0" Text="{Binding RecommendedSkillLevelTolerance}" />
+                            <c:TextBlock FontStyle="Italic" Text="RecommendedSkillLevelToleranceHelp" />
+                        </StackPanel>
+                    </c:Field>
+                    <c:Field Label="RecommendedSkillIcon" LabelWidth="150">
+                        <c:IconControl Icon="{Binding TipIcon}" />
+                    </c:Field>
+                    <c:Field Label="RecommendedSkillText" LabelWidth="150">
+                        <c:STBLStringControl Text="{Binding TipText}" />
+                    </c:Field>
+                </StackPanel>
+                <StackPanel>
+                    <c:TextBlock Text="OddJobBucketNotice" />
+                    <c:Field Label="MinimumLevelRequired" LabelWidth="150">
+                        <xctk:IntegerUpDown Minimum="1" Text="{Binding MinimumLevelRequired}" />
+                    </c:Field>
+                    <c:Field Label="Bucket" LabelWidth="150">
+                        <StackPanel>
+                            <c:EnumSelectorControl SelectedItem="{Binding Bucket}" TypeName="OddJobBuckets">
+                                <c:EnumSelectorControl.Replacements>
+                                    <c:EnumSelectorReplaceDictionary>
+                                        <system:String x:Key="VeryHigh">VeryHigh</system:String>
+                                    </c:EnumSelectorReplaceDictionary>
+                                </c:EnumSelectorControl.Replacements>
+                            </c:EnumSelectorControl>
+                        </StackPanel>
+                    </c:Field>
+                </StackPanel>
+            </c:SpacedStack>
+        </c:LeftRightMargin>
+    </ScrollViewer>
+</UserControl>

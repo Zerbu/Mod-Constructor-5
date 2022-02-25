@@ -1111,6 +1111,12 @@
   <Preset Label="soc_Mischief_NT_GiveBadNews_Succeed_basic" Value="113103" />
   <Preset Label="Drink_GetPut_Put" Value="115130" />
   <Preset Label="photography_PairedSelfie_Start" Value="115431" />
+  <Preset Label="fruitPunchFountain_GrabServing" Value="116885" />
+  <Preset Label="fruitPunchFountain_GrabServing_Fumble" Value="116886" />
+  <Preset Label="fruitPunchFountain_Improve" Value="116887" />
+  <Preset Label="fruitPunchFountain_Fill" Value="116888" />
+  <Preset Label="fruitPunchFountain_DipFinger" Value="116889" />
+  <Preset Label="fruitPunchFountain_SomethingExtra" Value="116890" />
   <Preset Label="object_HotTub_Stand" Value="117261" />
   <Preset Label="object_HotTub_Sit_Idle" Value="117262" />
   <Preset Label="HotTub_WooHoo" Value="117778" />
@@ -1432,6 +1438,8 @@
   <Preset Label="Gardening_Weed_Vacuum" Value="187259" />
   <Preset Label="Mailbox_MailPackage" Value="188019" />
   <Preset Label="swingSet_PushSwing" Value="188203" />
+  <Preset Label="arrangementTable_Reaction" Value="188406" />
+  <Preset Label="arrangementTable_Passive" Value="188415" />
   <Preset Label="Ghost_Possess_Fire" Value="190000" />
   <Preset Label="Gardening_Water_NoTarget" Value="190820" />
   <Preset Label="reactionlets_Audience_Annoyed" Value="191226" />
@@ -1477,6 +1485,10 @@
   <Preset Label="Fishing_AngleForBigCatch_Dock" Value="208755" />
   <Preset Label="Fishing_AngleForBigCatch_Hole" Value="208756" />
   <Preset Label="postureIdles_Bike" Value="209133" />
+  <Preset Label="sandActivities_PlayInSand_Toddler_Play" Value="210188" />
+  <Preset Label="sandActivities_PlayInSand_Child_Play" Value="210190" />
+  <Preset Label="sandActivities_PlayInSand_Toddler_Idle" Value="210192" />
+  <Preset Label="sandActivities_PlayInSand_Child_Idle" Value="210193" />
   <Preset Label="postureIdles_SitLoungeFloat_Occupied" Value="210567" />
   <Preset Label="sitLoungeFloat_Unoccupied" Value="210619" />
   <Preset Label="sitLoungeFloat_Relax" Value="210628" />
@@ -1562,25 +1574,181 @@
   <Preset Label="scared_Reaction" Value="253604" />
   <Preset Label="scared_ScreamIncoherently_Success_Target" Value="253804" />
   <Preset Label="scared_ScreamIncoherently_Fail_Target" Value="253805" />
+  <Preset Label="dustFriend_Idles_Bunny_Burrow" Value="254827" />
+  <Preset Label="dustFriend_Idles_Bunny_Jump" Value="254830" />
+  <Preset Label="dustFriend_Idles_Bunny_Dance" Value="254832" />
+  <Preset Label="dustFriend_Idles_Bunny_Idle" Value="254833" />
+  <Preset Label="dustFriend_Idles_Fiend_Idle" Value="254834" />
+  <Preset Label="dustFriend_Idles_Fiend_Burrow" Value="254835" />
+  <Preset Label="dustFriend_Idles_Fiend_Jump" Value="254836" />
+  <Preset Label="dustFriend_Idles_Fiend_Combust" Value="254837" />
+  <Preset Label="dustFriend_Idles_Fiend_KickFilth" Value="254838" />
+  <Preset Label="dustFriend_Idles_Bunny_Destroy" Value="254841" />
+  <Preset Label="dustFriend_Idles_Fiend_Destroy" Value="254842" />
+  <Preset Label="vacuumCleaner_Upright_DustFriend_Fiend" Value="255103" />
+  <Preset Label="vacuumCleaner_Upright_DustFriend_Bunny" Value="255104" />
+  <Preset Label="vacuumCleaner_Handheld_Child_DustBunny" Value="255105" />
+  <Preset Label="vacuumCleaner_Handheld_Adult_Vacuum_Looping" Value="255106" />
+  <Preset Label="vacuumCleaner_Handheld_Adult_Break" Value="255107" />
+  <Preset Label="vacuumCleaner_Handheld_Adult_Overflow" Value="255108" />
+  <Preset Label="vacuumCleaner_Upright_Vacuum_Looping" Value="255109" />
+  <Preset Label="vacuumCleaner_Upright_Break" Value="255110" />
+  <Preset Label="vacuumCleaner_Upright_Overflow" Value="255111" />
+  <Preset Label="dustFriend_Bunny_Feed" Value="255217" />
+  <Preset Label="dustFriend_Fiend_Appease" Value="255218" />
+  <Preset Label="dustFriend_Bunny_Pet" Value="255219" />
+  <Preset Label="dustFriend_Bunny_Befriend" Value="255220" />
+  <Preset Label="dustFriend_Bunny_StepOn" Value="255221" />
+  <Preset Label="dustFriend_Fiend_StepOn" Value="255222" />
+  <Preset Label="dustFriend_Fiend_BegForMercy" Value="255223" />
+  <Preset Label="dustFriend_Fiend_TryToPet" Value="255224" />
   <Preset Label="bed_Undercovers_InteractionIdle_ScaredHide" Value="255236" />
   <Preset Label="Ghost_Scare_Target" Value="256470" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Negative" Value="256884" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Positive" Value="256931" />
+  <Preset Label="animalObjects_Idles_Chicken_Stand" Value="256942" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Negative" Value="257083" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Positive" Value="257084" />
+  <Preset Label="animalObjects_Idles_Rabbit_Stand" Value="257085" />
+  <Preset Label="postureIdle_Fox_Stand" Value="257162" />
+  <Preset Label="vacuumCleaner_Handheld_Toddler" Value="257552" />
+  <Preset Label="vacuumCleaner_Handheld_Child_DustFiend" Value="257557" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_Stand" Value="257986" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_Graze" Value="257987" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_React_Negative" Value="257988" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_React_Positive" Value="257989" />
   <Preset Label="trait_Clumsy_Slip" Value="258223" />
+  <Preset Label="animalObjects_Idles_Chicken_Coop_GetIn" Value="258254" />
   <Preset Label="play_In_Trash_Pile_Dust" Value="258467" />
+  <Preset Label="animalObjects_Idles_Chicken_Coop_GetOut" Value="258635" />
   <Preset Label="bed_Undercovers_ReadUnderCovers" Value="258748" />
+  <Preset Label="dustFriend_Idles_Bunny_Exit" Value="258919" />
+  <Preset Label="dustFriend_Idles_Fiend_Exit" Value="258920" />
   <Preset Label="simPreference_Dislike" Value="259383" />
   <Preset Label="simPreference_Music" Value="259386" />
   <Preset Label="simPreference_Squeamish" Value="259387" />
   <Preset Label="simPreference_Uncomfortable" Value="259388" />
+  <Preset Label="anim_GiantCrops_PlantCrop" Value="259481" />
+  <Preset Label="anim_GiantCrops_Prune" Value="259561" />
+  <Preset Label="festivals_VillageFair_JudgeEntry_Positve" Value="259630" />
+  <Preset Label="festivals_VillageFair_JudgeEntry_Negative" Value="259631" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_Move" Value="259743" />
+  <Preset Label="death_Finalizer_AnimalObject_KillerRabbit_Doom" Value="259985" />
+  <Preset Label="death_Finalizer_AnimalObject_KillerRabbit_Resurrect" Value="259986" />
+  <Preset Label="Death_AnimalObject_KillerRabbit" Value="259987" />
   <Preset Label="sitLounge_Chaise_Idle" Value="260042" />
   <Preset Label="sitLounge_Chaise_Nap" Value="260043" />
+  <Preset Label="animalObjects_Idles_Chicken_Coop_GoToNest" Value="260186" />
+  <Preset Label="animalObjects_Idles_Chicken_Coop_GoToPerch" Value="260187" />
+  <Preset Label="fox_Sleep_Back" Value="260273" />
+  <Preset Label="fox_Sleep_BackQuick" Value="260274" />
+  <Preset Label="fox_Sleep_Curl" Value="260275" />
+  <Preset Label="fox_Sleep_CurlQuick" Value="260276" />
+  <Preset Label="fox_Sleep_Stomach" Value="260277" />
+  <Preset Label="fox_Sleep_StomachQuirk" Value="260278" />
+  <Preset Label="postureIdle_Fox_LayDown" Value="260310" />
   <Preset Label="counter_Clean_CounterOven" Value="260544" />
   <Preset Label="Handiness_Upgrade_Repair_StoveTop" Value="260549" />
   <Preset Label="Handiness_Upgrade_Repair_StoveTop_Electrocute" Value="260550" />
+  <Preset Label="Fire_OnFire_Fox" Value="260600" />
+  <Preset Label="Fire_Panic_Fox" Value="260601" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Routing_BeIn0" Value="260666" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Routing_BeIn1" Value="260667" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Routing_BeIn2" Value="260668" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Routing_BeIn3" Value="260669" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Routing_BeIn4" Value="260670" />
   <Preset Label="anim_Ponds_Play" Value="260726" />
   <Preset Label="anim_Ponds_SearchForFrogs_Fail" Value="260807" />
   <Preset Label="anim_Ponds_SearchForFrogs_Succeed" Value="260809" />
+  <Preset Label="fox_AskNotToSteal" Value="260827" />
+  <Preset Label="animalObjects_Idles_Chicken_Stand_Preen" Value="260973" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Aggresive" Value="260975" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Crow" Value="260976" />
+  <Preset Label="animalObjects_Idles_Chicken_React_MakeASound" Value="260977" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Scared" Value="260978" />
+  <Preset Label="animalObjects_Idles_Chicken_Stand_Pecking" Value="260979" />
+  <Preset Label="animalObjects_Idles_Chicken_Sit_Idle" Value="260982" />
+  <Preset Label="animalObjects_Idles_Chicken_Sit_Sleep" Value="260983" />
+  <Preset Label="animalObjects_Socials_Chickens_Feed" Value="260984" />
+  <Preset Label="animalObjects_Socials_Chickens_FeedWIth" Value="260986" />
+  <Preset Label="animalObjects_Socials_Shared_CallOver" Value="260988" />
+  <Preset Label="animalObjects_Socials_Shared_PlayWith" Value="260991" />
+  <Preset Label="animalObjects_Socials_Chickens_Pet_Success" Value="260992" />
+  <Preset Label="animalObjects_Socials_Chickens_Pet_Fail" Value="260994" />
+  <Preset Label="animalObjects_Socials_Chickens_Hug_Fail" Value="260997" />
+  <Preset Label="animalObjects_Socials_Chickens_Hug_Success" Value="260998" />
+  <Preset Label="animalObjects_Socials_Chickens_Pet_Death" Value="260999" />
+  <Preset Label="animalObjects_Socials_Shared_TalkTo_Success" Value="261001" />
+  <Preset Label="animalObjects_Socials_Shared_TellJoke_Success" Value="261002" />
+  <Preset Label="animalObjects_Socials_Shared_BeMean_Success" Value="261003" />
+  <Preset Label="animalObjects_Socials_Shared_Scare" Value="261004" />
+  <Preset Label="animalObjects_Socials_Shared_Ask_Success" Value="261008" />
+  <Preset Label="animalObjects_Socials_Shared_Ask_Fail" Value="261010" />
+  <Preset Label="animalObjects_Socials_Shared_TellJoke_Fail" Value="261012" />
+  <Preset Label="animalObjects_Socials_Shared_TalkTo_Fail" Value="261013" />
+  <Preset Label="animalObjects_AnimalHomes_ChickenCoop_Clean" Value="261018" />
+  <Preset Label="animalObjects_AnimalHomes_ChickenCoop_CollectEgg" Value="261019" />
+  <Preset Label="animalObjects_AnimalHomes_ChickenCoop_HatchEgg" Value="261020" />
+  <Preset Label="animalObjects_Idles_Chick_Hatch" Value="261021" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_PenEat" Value="261040" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_PenSleep" Value="261041" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_PenStand" Value="261042" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_MakeSound" Value="261049" />
+  <Preset Label="canning_Waterbath_GetOut" Value="261152" />
+  <Preset Label="canning_Moo" Value="261154" />
+  <Preset Label="canning_Eat" Value="261155" />
   <Preset Label="gardening_TeachAboutPlants_Teach" Value="261347" />
   <Preset Label="gardening_TeachAboutPlants_Listen" Value="261348" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Cute" Value="261607" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Aggressive" Value="261608" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Confused" Value="261609" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Scared" Value="261610" />
+  <Preset Label="animalObjects_Idles_Rabbit_Eat" Value="261611" />
+  <Preset Label="animalObjects_Socials_BirdHome_FairytaleMoment" Value="261635" />
+  <Preset Label="animalObjects_Socials_BirdHome_Poop" Value="261636" />
+  <Preset Label="animalObjects_Socials_BirdHome_TalkToBirdOnHand" Value="261637" />
+  <Preset Label="animalObjects_Socials_BirdHome_SingTo" Value="261638" />
+  <Preset Label="animalObjects_Socials_BirdHome_SingTo_HighSuccess" Value="261639" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Clean_Cow" Value="261676" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Clean_Llama" Value="261677" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Hug_Cow_Success" Value="261689" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Hug_Cow_Fail" Value="261690" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Pet_Cow" Value="261692" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Pet_Llama" Value="261693" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Hug_Llama_Fail" Value="261695" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Hug_Llama_Success" Value="261696" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HarvestFrom_Cow" Value="261701" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HarvestFrom_Llama" Value="261702" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Cow_TipCow" Value="261704" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Interactions_Clean" Value="261706" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_Move" Value="261709" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_PenEat" Value="261710" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_PenSleep" Value="261711" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_PenStand" Value="261712" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_MakeSound" Value="261714" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_React_Negative" Value="261715" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_React_Positive" Value="261716" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_Graze" Value="261718" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_Stand" Value="261719" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Pet_CowDeath" Value="261726" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Pet_LlamaDeath" Value="261727" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Interactions_RefillFeed" Value="261735" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Interactions_Stand" Value="261736" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Woohoo" Value="261739" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Woohoo_Idle" Value="261740" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Woohoo_BigFinish" Value="261741" />
+  <Preset Label="animalObjects_Idles_Rabbit_Home_GetIn" Value="261898" />
+  <Preset Label="animalObjects_Idles_Rabbit_Home_GetOut" Value="261901" />
+  <Preset Label="fox_Stalk_Watch" Value="261920" />
+  <Preset Label="fox_Stalk_Attack" Value="261921" />
+  <Preset Label="fox_Stalk_Success" Value="261922" />
+  <Preset Label="fox_Stalk_Fail" Value="261923" />
+  <Preset Label="animalObjects_Socials_Rabbits_Hug_Success" Value="262157" />
+  <Preset Label="animalObjects_Socials_Rabbits_Hug_Fail" Value="262159" />
+  <Preset Label="animalObjects_Socials_Rabbits_Gifting_GiveGift" Value="262160" />
+  <Preset Label="animalObjects_Socials_Rabbits_Gifting_TakeGift" Value="262162" />
+  <Preset Label="animalObjects_Socials_Rabbits_Pet_Success" Value="262163" />
+  <Preset Label="animalObjects_Socials_Rabbits_Pet_Fail" Value="262165" />
   <Preset Label="anim_Ponds_Fishing_CatchFish" Value="262436" />
   <Preset Label="anim_Ponds_Fishing_CatchFail" Value="262437" />
   <Preset Label="anim_Ponds_Fishing_CatchNothing" Value="262438" />
@@ -1588,7 +1756,22 @@
   <Preset Label="anim_Ponds_Fishing_Cast" Value="262440" />
   <Preset Label="anim_Ponds_Fishing_Idle" Value="262441" />
   <Preset Label="anim_Ponds_Fishing_StartStop" Value="262449" />
+  <Preset Label="fox_Play" Value="262476" />
+  <Preset Label="crossStitch_Animation_Stitch" Value="262982" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HarvestFrom_Cow_Success" Value="262983" />
+  <Preset Label="crossStitch_Animation_Poke" Value="262984" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HarvestFrom_Cow_Fail" Value="262985" />
+  <Preset Label="crossStitch_Animation_View" Value="262986" />
+  <Preset Label="fox_StealEgg" Value="262996" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HarvestFrom_Llama_Fail" Value="263001" />
   <Preset Label="TV_Chaise_Watch_TV" Value="263078" />
+  <Preset Label="idle_Milk_BreatheFire" Value="263571" />
+  <Preset Label="postureIdles_AnimalObjects_LivestockPen" Value="263836" />
+  <Preset Label="animalObjects_Socials_Shared_SendHome" Value="263873" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HandFeed" Value="263969" />
+  <Preset Label="animalObjects_Socials_Rabbits_BeAttacked_Survive" Value="264089" />
+  <Preset Label="NPCVillagers_Scold" Value="264155" />
+  <Preset Label="NPCVillagers_ConspireWithGnomes" Value="264156" />
   <Preset Label="Fox_Listen" Value="265027" />
   <Preset Label="fox_Reaction_Angry" Value="265054" />
   <Preset Label="fox_Reaction_Curious" Value="265056" />
@@ -1597,28 +1780,87 @@
   <Preset Label="fox_Reaction_Neutral" Value="265059" />
   <Preset Label="fox_Reaction_Sad" Value="265060" />
   <Preset Label="fox_Reaction_Scared" Value="265061" />
+  <Preset Label="animalObjects_Socials_Shared_CallOver_Fail_Reaction" Value="265105" />
+  <Preset Label="animalObjects_Idles_Rabbit_DirtMound_Enter" Value="265128" />
+  <Preset Label="animalObjects_Idles_Rabbit_DirtMound_Exit" Value="265129" />
   <Preset Label="anim_Deliveries_GiveTip" Value="265168" />
   <Preset Label="TV_watch_passive" Value="265312" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_Spit" Value="265428" />
+  <Preset Label="animalObjects_Idles_BirdHome_bird_Sing" Value="265613" />
+  <Preset Label="animalObjects_Idles_BirdHome_bird_sleep" Value="265757" />
+  <Preset Label="animalObjects_Idles_BirdHome_bird_PeckGround" Value="265758" />
+  <Preset Label="animalObjects_Idles_BirdHome_bird_Disappear" Value="265759" />
+  <Preset Label="animalObjects_Idles_BirdHome_bird_Idle" Value="265760" />
   <Preset Label="Food_Eat_Spicy_Reaction_OneShot" Value="265836" />
+  <Preset Label="fox_AgeUp" Value="265858" />
+  <Preset Label="death_Initiator_Fox_OldAge" Value="265870" />
+  <Preset Label="animalObjects_Socials_BirdHome_GiveGift" Value="266083" />
+  <Preset Label="animalObjects_Socials_BirdHome_TakeGift" Value="266087" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Positive_WithBalloons" Value="266255" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Negative_WithBalloons" Value="266256" />
   <Preset Label="teleport_basic" Value="266386" />
+  <Preset Label="fox_StealEgg_Idle" Value="267030" />
+  <Preset Label="reactions_LactoseIntolerant_Milk" Value="267033" />
   <Preset Label="simPreference_AskSucceed" Value="267149" />
   <Preset Label="simPreference_AskFailure" Value="267294" />
   <Preset Label="counter_Clean_CounterStove" Value="267352" />
+  <Preset Label="death_AnimalObject_KillerChicken_Death" Value="267917" />
+  <Preset Label="death_Finalizer_AnimalObject_KillerChicken_Doom" Value="267920" />
+  <Preset Label="death_Finalizer_AnimalObject_KillerChicken_Resurrect" Value="267921" />
   <Preset Label="Toddler_Soundless_Idle" Value="267930" />
+  <Preset Label="death_AnimalObject_KillerChicken_DeadOnGround" Value="267931" />
+  <Preset Label="death_AnimalObject_KillerChicken_Death_Survive" Value="267942" />
+  <Preset Label="animalObjects_Socials_Shared_Dance" Value="268255" />
+  <Preset Label="anim_CottageWorld_SnailStatue_Search" Value="268304" />
+  <Preset Label="anim_CottageWorld_SnailStatue_HideItem" Value="268305" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Cow_Cowbell" Value="268465" />
+  <Preset Label="animalObjects_Idles_Chicken_Magic_EvilPulse" Value="268521" />
+  <Preset Label="animalObjects_Idles_Chicken_Magic_GoldenPulse" Value="268523" />
+  <Preset Label="animalObjects_Chicken_EvilGlare" Value="268570" />
+  <Preset Label="animalObjects_Chicken_GoldenPulse" Value="268571" />
+  <Preset Label="anim_VillageShops_WindowShop" Value="268624" />
+  <Preset Label="fox_Stalk_Spit_ShakeOff" Value="268637" />
+  <Preset Label="fox_Stalk_Scared" Value="268638" />
+  <Preset Label="animalObjects_Socials_BirdHome_ShowAffection_Success" Value="268778" />
+  <Preset Label="animalObjects_Socials_BirdHome_ShowAffection_Fail" Value="268779" />
+  <Preset Label="fox_Eat" Value="268832" />
+  <Preset Label="animalObjects_Idles_Rabbit_Fertilize" Value="268851" />
+  <Preset Label="animalObjects_Idles_Rabbit_NoInterrupt" Value="268852" />
   <Preset Label="musicFestival_Artist_Performance_Main" Value="269367" />
+  <Preset Label="fox_SingToFox_Success" Value="269393" />
+  <Preset Label="fox_SingToFox_Failure" Value="269395" />
+  <Preset Label="animalObjects_Idles_Rabbit_Stand_WithBalloonGiftReady" Value="269508" />
   <Preset Label="musicFestival_Artist_Performance_Opener1" Value="269568" />
   <Preset Label="musicFestival_Artist_Performance_Opener2" Value="269569" />
+  <Preset Label="animalObjects_Idles_Rabbit_Eat_GardeningHelp" Value="269630" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_React_PositiveJump" Value="269742" />
+  <Preset Label="fox_LayDown_Idle" Value="269797" />
   <Preset Label="mixingBowl_RecipeActions_Bake_CrackEgg" Value="269857" />
   <Preset Label="mixingBowl_RecipeActions_Bake_MeasureCup" Value="269858" />
   <Preset Label="mixingBowl_RecipeActions_Bake_Taste" Value="269859" />
+  <Preset Label="fox_Stalk_Attack_Cannonical" Value="269935" />
   <Preset Label="musicFestival_WatchPerformance_ListenActive" Value="270118" />
   <Preset Label="musicFestival_WatchPerformance_Cheer" Value="270119" />
   <Preset Label="musicFestival_WatchPerformance_Clap" Value="270120" />
   <Preset Label="musicFestival_Artist_BowWave_Bow" Value="270401" />
   <Preset Label="musicFestival_Artist_BowWave_Wave" Value="270402" />
   <Preset Label="musicFestival_Artist_BowWave_Bow2" Value="270403" />
+  <Preset Label="animalObjects_Idles_Chicken_Coop_GetIn_Run" Value="270580" />
   <Preset Label="musicFestival_WatchPerformance_Clap_Looping" Value="270711" />
   <Preset Label="objectPose_Photography_SoloObjectSelfie_Low" Value="270787" />
   <Preset Label="photography_SoloObjectSelfie" Value="270788" />
   <Preset Label="objectPose_Photography_SoloObjectSelfie_Medium" Value="270824" />
+  <Preset Label="death_Finalizer_fox_doom" Value="270917" />
+  <Preset Label="fox_gift_HideGift" Value="271102" />
+  <Preset Label="fox_Steal_Idle" Value="271181" />
+  <Preset Label="fox_Watch_Neutral" Value="271313" />
+  <Preset Label="fox_Watch_Happy" Value="271314" />
+  <Preset Label="fox_Watch_Wary" Value="271315" />
+  <Preset Label="WeddingVenue_CheckOutVenue_Critique" Value="280634" />
+  <Preset Label="WeddingVenue_CheckOutVenue_notImpressed_Reaction" Value="280635" />
+  <Preset Label="WeddingVenue_CheckOutVenue_Positive_Reactions" Value="280636" />
+  <Preset Label="WeddingVenue_CheckOutVenue_TakeNotes" Value="280637" />
+  <Preset Label="WeddingVenue_CheckOutVenue_TakePicture" Value="280638" />
+  <Preset Label="WeddingVenue_CheckOutVenue_Think_And_Point" Value="280639" />
+  <Preset Label="WeddingVenue_CheckOutVenue_View" Value="280640" />
 </PresetGroup>

@@ -231,5 +231,10 @@ namespace Constructor5.UI.Shared
         {
             Hooks.Location<IOnCallOpenElement>(x => x.OnCallOpenElement(Reference.Element));
         }
+
+        private void ElementSettingsButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

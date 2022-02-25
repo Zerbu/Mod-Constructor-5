@@ -56,7 +56,7 @@ namespace Constructor5.DebugTools.PresetExtractor
                                       "D:\\Games\\The Sims 4\\SP14",
                                   };*/
 
-            foreach (var file in Directory.GetFiles("D:\\Games\\The Sims 4", "*.package", SearchOption.AllDirectories))
+            foreach (var file in Directory.GetFiles(@"C:\Program Files\EA Games\The Sims 4", "*.package", SearchOption.AllDirectories))
             {
                 if (Path.GetFileNameWithoutExtension(file).StartsWith("Strings"))
                 {

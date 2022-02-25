@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TuningActions>
+  <V n="_saveable" t="disabled" />
   <V n="outcome" t="single">
     <U n="single">
       <U n="actions">
@@ -12,4 +13,7 @@
       </U>
     </U>
   </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
 </TuningActions>

@@ -1,6 +1,7 @@
 using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Core;
+using Constructor5.Elements.Interactions.Social;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,13 @@ namespace Constructor5.Elements.Interactions.Shared
             }
 
             component.Element = this;
+        }
+
+        protected override void OnUserCreated(string label)
+        {
+            GeneratedLabel = label;
+            var info = GetComponent<InteractionInfoComponent>();
+            info.Name = new Base.PropertyTypes.STBLString() { CustomText = label };
         }
     }
 }

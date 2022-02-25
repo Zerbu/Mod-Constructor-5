@@ -301,6 +301,10 @@
     </Compile>
     <Compile Include="Commodities\Generators\CommodityStateGenerator.cs" />
     <Compile Include="CommodityBasedObjectStateValues\CommodityBasedObjectStateValue.cs" />
+    <Compile Include="ComplexWhimSets\ComplexWhimSet.cs" />
+    <Compile Include="ComplexWhimSets\ComplexWhimSetEditor.xaml.cs">
+      <DependentUpon>ComplexWhimSetEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CompoundConditionElements\CompoundAndCondition.cs" />
     <Compile Include="CompoundConditionElements\CompoundConditionElement.cs" />
     <Compile Include="CompoundConditionElements\CompoundConditionElementEditor.xaml.cs">
@@ -351,7 +355,6 @@
     <Compile Include="Interactions\Mixer\MixerInteractionTemplateEditor.xaml.cs">
       <DependentUpon>MixerInteractionTemplateEditor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Interactions\PieMenuCategories\PieMenuCategory.cs" />
     <Compile Include="Interactions\Shared\DefaultInteractionTemplate.cs" />
     <Compile Include="Interactions\Shared\InteractionAddToObjectComponent.cs" />
     <Compile Include="Interactions\Shared\InteractionAddToObjectComponentEditor.xaml.cs">
@@ -445,7 +448,27 @@
     <Compile Include="Objectives\ObjectiveEditor.xaml.cs">
       <DependentUpon>ObjectiveEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Objects\Object.cs" />
+    <Compile Include="OddJobs\Components\OddJobAssignmentsComponent.cs" />
+    <Compile Include="OddJobs\Components\OddJobAssignmentsComponentEditor.xaml.cs">
+      <DependentUpon>OddJobAssignmentsComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OddJobs\Components\OddJobInfoComponent.cs" />
+    <Compile Include="OddJobs\Components\OddJobInfoComponentEditor.xaml.cs">
+      <DependentUpon>OddJobInfoComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OddJobs\OddJob.cs" />
+    <Compile Include="OddJobs\OddJobBuckets.cs" />
+    <Compile Include="OddJobs\OddJobComponent.cs" />
+    <Compile Include="OddJobs\OddJobEditor.xaml.cs">
+      <DependentUpon>OddJobEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OddJobs\OddJobExportContext.cs" />
     <Compile Include="Outfits\Outfit.cs" />
+    <Compile Include="PieMenuCategories\PieMenuCategory.cs" />
+    <Compile Include="PieMenuCategories\PieMenuCategoryEditor.xaml.cs">
+      <DependentUpon>PieMenuCategoryEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RelationshipTracks\RelationshipTrack.cs" />
     <Compile Include="RelBits\RelBit.cs" />
     <Compile Include="RelBits\RelBitEditor.xaml.cs">
@@ -893,6 +916,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ComplexWhimSets\ComplexWhimSetEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CompoundConditionElements\CompoundConditionElementEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -994,6 +1021,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Objectives\ObjectiveEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OddJobs\Components\OddJobAssignmentsComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OddJobs\Components\OddJobInfoComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OddJobs\OddJobEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PieMenuCategories\PieMenuCategoryEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

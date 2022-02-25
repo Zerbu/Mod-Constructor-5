@@ -10,7 +10,7 @@ using Constructor5.Elements.SituationGoals.Components;
 
 namespace Constructor5.Elements.SituationActivities
 {
-    [ElementTypeData("SituationActivity", false, ElementTypes = new[] { typeof(SituationActivity) }, PresetFolders = new[] { "SituationActivity" }, IsRootType = false)]
+    [ElementTypeData("SituationActivity", true, ElementTypes = new[] { typeof(SituationActivity) }, PresetFolders = new[] { "SituationActivity" }, IsRootType = false)]
     public class SituationActivity : Element, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();

@@ -1,0 +1,77 @@
+﻿<UserControl
+    x:Class="Constructor5.LootActionTypes.Situations.StartSituationActionEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.LootActionTypes.Situations"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <d:UserControl.DataContext>
+        <local:StartSituationAction />
+    </d:UserControl.DataContext>
+    <UserControl.Resources>
+        <c:SimpleAddToListCommand x:Key="AddCommand" TypeName="StartSituationInvitedParticipant" />
+        <c:SimpleRemoveFromListCommand
+            x:Key="RemoveCommand"
+            DeleteMessage="AreYouSureGeneric"
+            TypeName="StartSituationInvitedParticipant" />
+    </UserControl.Resources>
+    <StackPanel>
+        <c:CheckBox IsChecked="{Binding IsUserFacing}">
+            <StackPanel>
+                <c:TextBlock Text="IsPlayerFacing" />
+                <c:TextBlock FontStyle="Italic" Text="IsPlayerFacingLootHelp" />
+            </StackPanel>
+        </c:CheckBox>
+        <c:Field Label="PrimaryParticipant" LabelWidth="150">
+            <StackPanel>
+                <c:ParticipantControl Text="{Binding Participant}" />
+                <c:TextBlock Text="StartSituationPrimaryParticipantHelp" />
+            </StackPanel>
+        </c:Field>
+        <c:Field Label="Situation" LabelWidth="150">
+            <c:ReferenceControl ElementTypeName="Situation" Reference="{Binding Situation}" />
+        </c:Field>
+        <c:Field Label="SituationJobActor" LabelWidth="150">
+            <c:ReferenceControl ElementTypeName="SituationJob" Reference="{Binding SituationJobActor}" />
+        </c:Field>
+        <c:Field Label="SituationJobTarget" LabelWidth="150">
+            <c:ReferenceControl ElementTypeName="SituationJob" Reference="{Binding SituationJobTarget}" />
+        </c:Field>
+        <c:Expander Header="OtherParticipantsToInvite">
+            <StackPanel>
+                <ItemsControl ItemsSource="{Binding OtherInvitedParticipants}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate DataType="StartSituationInvitedParticipant">
+                            <StackPanel>
+                                <c:Field Label="Participant">
+                                    <c:ParticipantControl Text="{Binding Participant}" />
+                                </c:Field>
+                                <c:ReferenceControl ElementTypeName="SituationJob" Reference="{Binding SituationJob}" />
+                                <c:Button
+                                    HorizontalAlignment="Left"
+                                    Command="{StaticResource RemoveCommand}"
+                                    Content="Remove">
+                                    <c:Button.CommandParameter>
+                                        <MultiBinding Converter="{StaticResource MultiParamConverter}">
+                                            <Binding Path="." />
+                                            <Binding Path="ItemsSource" RelativeSource="{RelativeSource AncestorType={x:Type ItemsControl}}" />
+                                        </MultiBinding>
+                                    </c:Button.CommandParameter>
+                                </c:Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <Button
+                    HorizontalAlignment="Left"
+                    Command="{StaticResource AddCommand}"
+                    CommandParameter="{Binding OtherInvitedParticipants}"
+                    Content="Add" />
+            </StackPanel>
+        </c:Expander>
+    </StackPanel>
+</UserControl>

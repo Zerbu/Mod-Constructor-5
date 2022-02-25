@@ -34,9 +34,6 @@ namespace Constructor5.Base.ElementSystem
                 PresetFolders = PresetFolders?.ToArray(),
                 Type = type
             };
-#if DEBUG
-            result.CanBeCreatedByUser = true;
-#endif
             ContentRegistry.Register("ElementTypes", type.Name, result);
         }
 

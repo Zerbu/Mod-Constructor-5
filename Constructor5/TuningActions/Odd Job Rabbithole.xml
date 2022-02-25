@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TuningActions>
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_description" t="enabled">
+        <T n="enabled">$Description</T>
+      </V>
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP07\UI\Icons\Career\Gigs\Gig_FoodDelivery.png">$Icon</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">$Name</T>
+      </V>
+    </U>
+  </V>
+  <T n="career">207004<!--Career: career_OddJob--></T>
+  <V n="disabled_tooltip" t="enabled">
+    <T n="enabled">0xAEADE0DC</T>
+  </V>
+  <V n="end_of_gig_demotion_text" t="enabled">
+    <T n="enabled">0xEDBB855</T>
+  </V>
+  <V n="end_of_gig_notifications" t="enabled">
+    <L n="enabled">
+      <U>
+        <E n="key">CANCELED</E>
+        <U n="value">
+          <V n="text" t="single">
+            <T n="single">0xDA20A06E</T>
+          </V>
+          <V n="title" t="enabled">
+            <T n="enabled">0x7EEE1376</T>
+          </V>
+        </U>
+      </U>
+      <U>
+        <E n="key">CRITICAL_FAILURE</E>
+        <U n="value">
+          <V n="text" t="single">
+            <T n="single">$NotificationFailureCritical</T>
+          </V>
+          <V n="title" t="enabled">
+            <T n="enabled">0x561A7D3E</T>
+          </V>
+        </U>
+      </U>
+      <U>
+        <E n="key">FAILURE</E>
+        <U n="value">
+          <V n="text" t="single">
+            <T n="single">$NotificationFailure</T>
+          </V>
+          <V n="title" t="enabled">
+            <T n="enabled">0xCBD2A3C1</T>
+          </V>
+        </U>
+      </U>
+      <U>
+        <E n="key">GREAT_SUCCESS</E>
+        <U n="value">
+          <V n="text" t="single">
+            <T n="single">$NotificationSuccessGreat</T>
+          </V>
+          <V n="title" t="enabled">
+            <T n="enabled">0x9BE93F48</T>
+          </V>
+        </U>
+      </U>
+      <U>
+        <E n="key">SUCCESS</E>
+        <U n="value">
+          <V n="text" t="single">
+            <T n="single">$NotificationSuccess</T>
+          </V>
+          <V n="title" t="enabled">
+            <T n="enabled">0xE27D01CF</T>
+          </V>
+        </U>
+      </U>
+    </L>
+  </V>
+  <V n="end_of_gig_promotion_text" t="enabled">
+    <T n="enabled">0xF6482723</T>
+  </V>
+  <V n="gig_pay" t="flat_amount">
+    <U n="flat_amount">
+      <T n="value">$PayAmount</T>
+    </U>
+  </V>
+  <T n="gig_picker_localization_format">0x888647E2</T>
+  <U n="gig_prep_time">
+    <T n="days">0</T>
+    <T n="hours">0</T>
+  </U>
+  <U n="gig_time">
+    <L n="schedule_entries">
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">8</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">10</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">12</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">14</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">16</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">18</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">9</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">11</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">13</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">15</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">17</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">19</T>
+        </U>
+      </U>
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">True</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">True</T>
+        </U>
+        <T n="duration">$DurationHours</T>
+        <U n="start_time">
+          <T n="hour">20</T>
+        </U>
+      </U>
+    </L>
+  </U>
+  <V n="initial_result_based_career_performance" t="enabled">
+    <L n="enabled">
+      <U>
+        <E n="key">CRITICAL_FAILURE</E>
+        <T n="value">1</T>
+      </U>
+      <U>
+        <E n="key">FAILURE</E>
+        <T n="value">6</T>
+      </U>
+      <U>
+        <E n="key">GREAT_SUCCESS</E>
+        <T n="value">31</T>
+      </U>
+      <U>
+        <E n="key">SUCCESS</E>
+        <T n="value">16</T>
+      </U>
+    </L>
+  </V>
+  <U n="negative_mood_tuning">
+    <T n="failure_chance">33.33</T>
+    <U n="negative_mood_test">
+      <V n="whitelist" t="enabled">
+        <L n="enabled">
+          <T>12831<!--Buff: MoodBuff_Hidden_Angry--></T>
+          <T>12840<!--Buff: MoodBuff_Hidden_Enraged--></T>
+          <T>12827<!--Buff: MoodBuff_Hidden_Furious--></T>
+          <T>27321<!--Buff: MoodBuff_Hidden_HotHead1--></T>
+          <T>27323<!--Buff: MoodBuff_Hidden_HotHead2--></T>
+          <T>27320<!--Buff: MoodBuff_Hidden_HotHead3--></T>
+          <T>12829<!--Buff: MoodBuff_Hidden_Bored--></T>
+          <T>12832<!--Buff: MoodBuff_Hidden_Depressed--></T>
+          <T>27155<!--Buff: MoodBuff_Hidden_Gloomier--></T>
+          <T>27154<!--Buff: MoodBuff_Hidden_Gloomy--></T>
+          <T>12853<!--Buff: MoodBuff_Hidden_Sad--></T>
+          <T>12847<!--Buff: MoodBuff_Hidden_Miserable--></T>
+          <T>12858<!--Buff: MoodBuff_Hidden_Uncomfortable--></T>
+          <T>12856<!--Buff: MoodBuff_Hidden_Stressed--></T>
+          <T>12857<!--Buff: MoodBuff_Hidden_Tense--></T>
+          <T>12855<!--Buff: MoodBuff_Hidden_Sloshed--></T>
+        </L>
+      </V>
+    </U>
+  </U>
+  <V n="odd_job_tuning" t="enabled">
+    <U n="enabled">
+      <T n="customer_description">0xAE22F011</T>
+      <V n="gig_gratuity_bullet_point_text" t="enabled">
+        <T n="enabled">0xFFBFD13</T>
+      </V>
+      <L n="result_based_gig_gratuity_chance_multipliers">
+        <U>
+          <E n="key">CRITICAL_FAILURE</E>
+          <U n="value">
+            <T n="base_value">0</T>
+          </U>
+        </U>
+        <U>
+          <E n="key">FAILURE</E>
+          <U n="value">
+            <T n="base_value">0</T>
+          </U>
+        </U>
+        <U>
+          <E n="key">GREAT_SUCCESS</E>
+        </U>
+        <U>
+          <E n="key">SUCCESS</E>
+          <U n="value">
+            <T n="base_value">0.25</T>
+            <L n="multipliers">
+              <U>
+                <T n="multiplier">2</T>
+                <L n="tests">
+                  <L>
+                    <V t="relationship">
+                      <U n="relationship">
+                        <U n="relationship_score_interval">
+                          <T n="lower_bound">40</T>
+                        </U>
+                        <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+              <U>
+                <T n="multiplier">1.33</T>
+                <L n="tests">
+                  <L>
+                    <V t="relationship">
+                      <U n="relationship">
+                        <U n="relationship_score_interval">
+                          <T n="lower_bound">0</T>
+                          <T n="upper_bound">39</T>
+                        </U>
+                        <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+              <U>
+                <T n="multiplier">0.5</T>
+                <L n="tests">
+                  <L>
+                    <V t="relationship">
+                      <U n="relationship">
+                        <U n="relationship_score_interval">
+                          <T n="lower_bound">-49</T>
+                          <T n="upper_bound">-1</T>
+                        </U>
+                        <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+              <U>
+                <T n="multiplier">0</T>
+                <L n="tests">
+                  <L>
+                    <V t="relationship">
+                      <U n="relationship">
+                        <U n="relationship_score_interval">
+                          <T n="upper_bound">-50</T>
+                        </U>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </L>
+          </U>
+        </U>
+      </L>
+      <L n="result_based_gig_gratuity_multipliers">
+        <U>
+          <E n="key">GREAT_SUCCESS</E>
+          <U n="value">
+            <T n="base_value">0.1</T>
+            <L n="multipliers">
+              <U>
+                <T n="multiplier">2</T>
+                <L n="tests">
+                  <L>
+                    <V t="career_test">
+                      <U n="career_test">
+                        <V n="test_type" t="career_level">
+                          <U n="career_level">
+                            <T n="career_level">209809<!--CareerLevel: careerLevel_OddJob_2--></T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+              <U>
+                <T n="multiplier">3</T>
+                <L n="tests">
+                  <L>
+                    <V t="career_test">
+                      <U n="career_test">
+                        <V n="test_type" t="career_level">
+                          <U n="career_level">
+                            <T n="career_level">209810<!--CareerLevel: careerLevel_OddJob_3--></T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+              <U>
+                <T n="multiplier">4</T>
+                <L n="tests">
+                  <L>
+                    <V t="career_test">
+                      <U n="career_test">
+                        <V n="test_type" t="career_level">
+                          <U n="career_level">
+                            <T n="career_level">209807<!--CareerLevel: careerLevel_OddJob_4--></T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+              <U>
+                <T n="multiplier">5</T>
+                <L n="tests">
+                  <L>
+                    <V t="career_test">
+                      <U n="career_test">
+                        <V n="test_type" t="career_level">
+                          <U n="career_level">
+                            <T n="career_level">209808<!--CareerLevel: careerLevel_OddJob_5--></T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </L>
+          </U>
+        </U>
+        <U>
+          <E n="key">SUCCESS</E>
+          <U n="value">
+            <T n="base_value">0.05</T>
+            <L n="multipliers">
+              <U>
+                <T n="multiplier">2</T>
+                <L n="tests">
+                  <L>
+                    <V t="career_test">
+                      <U n="career_test">
+                        <V n="test_type" t="career_level">
+                          <U n="career_level">
+                            <T n="career_level">209809<!--CareerLevel: careerLevel_OddJob_2--></T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+              <U>
+                <T n="multiplier">3</T>
+                <L n="tests">
+                  <L>
+                    <V t="career_test">
+                      <U n="career_test">
+                        <V n="test_type" t="career_level">
+                          <U n="career_level">
+                            <T n="career_level">209810<!--CareerLevel: careerLevel_OddJob_3--></T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+              <U>
+                <T n="multiplier">4</T>
+                <L n="tests">
+                  <L>
+                    <V t="career_test">
+                      <U n="career_test">
+                        <V n="test_type" t="career_level">
+                          <U n="career_level">
+                            <T n="career_level">209807<!--CareerLevel: careerLevel_OddJob_4--></T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+              <U>
+                <T n="multiplier">5</T>
+                <L n="tests">
+                  <L>
+                    <V t="career_test">
+                      <U n="career_test">
+                        <V n="test_type" t="career_level">
+                          <U n="career_level">
+                            <T n="career_level">209808<!--CareerLevel: careerLevel_OddJob_5--></T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </L>
+          </U>
+        </U>
+      </L>
+      <T n="use_customer_description_as_gig_description">True</T>
+    </U>
+  </V>
+  <IfNotEmpty p="RecommendedSkill">
+    <V n="recommended_skill_tuning" t="enabled">
+      <U n="enabled">
+        <T n="critical_failure_skill_level_delta">$RecommendedSkillLevelTolerance</T>
+        <T n="failure_chance_multiplier">40</T>
+        <T n="great_success_chance_multiplier">40</T>
+        <U n="recommended_skill_test">
+          <T n="skill">$RecommendedSkill</T>
+          <V n="skill_range" t="interval">
+            <U n="interval">
+              <U n="skill_interval">
+                <T n="lower_bound">$RecommendedSkillLevel</T>
+                <T n="upper_bound">$RecommendedSkillLevel</T>
+              </U>
+            </U>
+          </V>
+        </U>
+      </U>
+    </V>
+  </IfNotEmpty>
+  <V n="result_based_career_performance" t="enabled">
+    <L n="enabled">
+      <U>
+        <E n="key">CRITICAL_FAILURE</E>
+        <T n="value">-10</T>
+      </U>
+      <U>
+        <E n="key">FAILURE</E>
+        <T n="value">-5</T>
+      </U>
+      <U>
+        <E n="key">GREAT_SUCCESS</E>
+        <T n="value">10</T>
+      </U>
+      <U>
+        <E n="key">SUCCESS</E>
+        <T n="value">5</T>
+      </U>
+    </L>
+  </V>
+  <V n="result_based_career_performance_multiplier" t="enabled">
+    <L n="enabled">
+      <U>
+        <E n="key">CRITICAL_FAILURE</E>
+        <U n="value">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">0.5</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">40</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">0.75</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">0</T>
+                        <T n="upper_bound">39</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">1.25</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">-49</T>
+                        <T n="upper_bound">-1</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">1.5</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="upper_bound">-50</T>
+                      </U>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <E n="key">FAILURE</E>
+        <U n="value">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">0.5</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">40</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">0.75</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">0</T>
+                        <T n="upper_bound">39</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">1.25</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">-49</T>
+                        <T n="upper_bound">-1</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">1.5</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="upper_bound">-50</T>
+                      </U>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <E n="key">GREAT_SUCCESS</E>
+        <U n="value">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">1.5</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">40</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">1.25</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">0</T>
+                        <T n="upper_bound">39</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">0.75</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">-49</T>
+                        <T n="upper_bound">-1</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">0.5</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="upper_bound">-50</T>
+                      </U>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <E n="key">SUCCESS</E>
+        <U n="value">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">1.5</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">40</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">1.25</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">0</T>
+                        <T n="upper_bound">39</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">0.75</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">-49</T>
+                        <T n="upper_bound">-1</T>
+                      </U>
+                      <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">0.5</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="upper_bound">-50</T>
+                      </U>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+    </L>
+  </V>
+  <V n="result_based_gig_pay_multipliers" t="enabled">
+    <L n="enabled">
+      <U>
+        <E n="key">CRITICAL_FAILURE</E>
+        <U n="value">
+          <T n="base_value">0</T>
+        </U>
+      </U>
+      <U>
+        <E n="key">FAILURE</E>
+        <U n="value">
+          <T n="base_value">0.2</T>
+        </U>
+      </U>
+      <U>
+        <E n="key">GREAT_SUCCESS</E>
+      </U>
+      <U>
+        <E n="key">SUCCESS</E>
+      </U>
+    </L>
+  </V>
+  <V n="result_based_loots" t="enabled">
+    <L n="enabled">
+      <U>
+        <E n="key">CRITICAL_FAILURE</E>
+        <L n="value">
+          <T>211558<!--LootActions: loot_OddJob_GigResult_RabbitHole_CriticalFailure--></T>
+        </L>
+      </U>
+      <U>
+        <E n="key">GREAT_SUCCESS</E>
+        <L n="value">
+          <T>211560<!--LootActions: loot_OddJob_GigResult_RabbitHole_GreatSuccess--></T>
+        </L>
+      </U>
+    </L>
+  </V>
+  <V n="tip" t="enabled">
+    <U n="enabled">
+      <V n="tip_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Skills\skill_videogaming.png">$TipIcon</T>
+      </V>
+      <T n="tip_text">$TipText</T>
+      <T n="tip_title">0xA54212EC</T>
+    </U>
+  </V>
+</TuningActions>

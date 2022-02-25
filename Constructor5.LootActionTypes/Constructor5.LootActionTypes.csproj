@@ -105,6 +105,11 @@
     <Compile Include="RelBits\RelBitActionBaseEditor.xaml.cs">
       <DependentUpon>RelBitActionBaseEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Situations\StartSituationAction.cs" />
+    <Compile Include="Situations\StartSituationActionEditor.xaml.cs">
+      <DependentUpon>StartSituationActionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Situations\StartSituationInvitedParticipant.cs" />
     <Compile Include="Statistic\AddStatisticAction.cs" />
     <Compile Include="Statistic\ChangeStatisticByCategoryFixedAction.cs" />
     <Compile Include="Statistic\ChangeStatisticByCategoryFixedActionEditor.xaml.cs">
@@ -225,6 +230,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RelBits\RelBitActionBaseEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Situations\StartSituationActionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

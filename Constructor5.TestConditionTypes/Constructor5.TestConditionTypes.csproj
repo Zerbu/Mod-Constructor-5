@@ -262,6 +262,10 @@
     <Compile Include="PresetSelector\TestConditionPresetSelector.xaml.cs">
       <DependentUpon>TestConditionPresetSelector.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Situations\CanCreatePlayerFacingSituationCondition.cs" />
+    <Compile Include="Situations\CanCreatePlayerFacingSituationConditionEditor.xaml.cs">
+      <DependentUpon>CanCreatePlayerFacingSituationConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Situations\SituationCondition.cs" />
     <Compile Include="Situations\SituationConditionEditor.xaml.cs">
       <DependentUpon>SituationConditionEditor.xaml</DependentUpon>
@@ -469,6 +473,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PresetSelector\TestConditionPresetSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Situations\CanCreatePlayerFacingSituationConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

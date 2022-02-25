@@ -1,17 +1,18 @@
-<Window x:Class="Constructor5.UI.Launcher.LauncherWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:c="clr-namespace:Constructor5.UI.Shared"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:local="clr-namespace:Constructor5.UI.Launcher"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        Title="The Sims 4 Mod Constructor (V5)"
-        Width="800"
-        Height="600"
-        FontSize="{StaticResource Constructor.BigFontSize}"
-        Loaded="Window_Loaded"
-        Style="{StaticResource Constructor.WindowStyle}"
-        mc:Ignorable="d">
+<Window
+    x:Class="Constructor5.UI.Launcher.LauncherWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.UI.Launcher"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="The Sims 4 Mod Constructor (V5)"
+    Width="800"
+    Height="600"
+    FontSize="{StaticResource Constructor.BigFontSize}"
+    Loaded="Window_Loaded"
+    Style="{StaticResource Constructor.WindowStyle}"
+    mc:Ignorable="d">
     <Window.Resources>
         <local:ProjectCreateCommand x:Key="ProjectCreateCommand" />
         <local:ProjectLoadCommand x:Key="ProjectLoadCommand" />
@@ -27,12 +28,13 @@
                     <ItemsControl x:Name="ProjectsControl" Margin="{StaticResource Constructor.BigPadding}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
-                                <c:Button Margin="2"
-                                          HorizontalContentAlignment="Left"
-                                          Command="{StaticResource ProjectLoadCommand}"
-                                          CommandParameter="{Binding}"
-                                          Content="{Binding Name}"
-                                          ShouldConvertStringToTextBlock="False" />
+                                <c:Button
+                                    Margin="2"
+                                    HorizontalContentAlignment="Left"
+                                    Command="{StaticResource ProjectLoadCommand}"
+                                    CommandParameter="{Binding}"
+                                    Content="{Binding Name}"
+                                    ShouldConvertStringToTextBlock="False" />
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
@@ -52,19 +54,20 @@
                             <c:TextBox x:Name="ModName" Text="{Binding Path=ModName, Source={StaticResource ProjectCreateCommand}, UpdateSourceTrigger=PropertyChanged}" />
                         </c:Field>
                     </StackPanel>
-                    <c:Button Grid.Column="1"
-                              Width="125"
-                              Margin="1"
-                              Command="{StaticResource ProjectCreateCommand}"
-                              Content="CreateMod"
-                              IsDefault="True" />
+                    <c:Button
+                        Grid.Column="1"
+                        Width="125"
+                        Margin="1"
+                        Command="{StaticResource ProjectCreateCommand}"
+                        Content="CreateMod"
+                        IsDefault="True" />
                 </Grid>
-                <Border x:Name="ErrorMessage"
-                        Style="{StaticResource Constructor.ErrorStyle}"
-                        Visibility="Collapsed">
+                <Border
+                    x:Name="ErrorMessage"
+                    Style="{StaticResource Constructor.ErrorStyle}"
+                    Visibility="Collapsed">
                     <c:TextBlock x:Name="ErrorText" />
                 </Border>
-                <c:TextBlock FontWeight="Bold" Text="AlphaNotice" />
             </StackPanel>
         </Grid>
     </Border>

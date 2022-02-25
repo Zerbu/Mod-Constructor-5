@@ -370,6 +370,10 @@
   <Preset Label="Death by Vending Machine (trait_Ghost_VendingMachine)" Value="249747" />
   <Preset Label="Death by Falling From Heights (trait_Ghost_ClimbingRoute)" Value="250224" />
   <Preset Label="Brave (trait_Brave)" Value="253268" />
+  <Preset Label="Filth Dweller (trait_FilthDweller)" Value="256785" />
+  <Preset Label="Fast &amp; Fastidious (trait_FastFastidious)" Value="256786" />
+  <Preset Label="Animal Enthusiast (Trait_AnimalEnthusiast)" Value="257365" />
+  <Preset Label="Lactose Intolerant (trait_LactoseIntolerant)" Value="257367" />
   <Preset Label="Dislikes the Color Red (trait_SimPreference_Dislikes_Color_Red)" Value="257855" />
   <Preset Label="Dislikes the Color Orange (trait_SimPreference_Dislikes_Color_Orange)" Value="257860" />
   <Preset Label="Dislikes the Color Yellow (trait_SimPreference_Dislikes_Color_Yellow)" Value="257861" />
@@ -429,6 +433,20 @@
   <Preset Label="Likes Painting (trait_SimPreference_Likes_Activities_Painting)" Value="258766" />
   <Preset Label="Likes Video Gaming (trait_SimPreference_Likes_Activities_VideoGaming)" Value="258767" />
   <Preset Label="Likes Violin (trait_SimPreference_Likes_Activities_Violin)" Value="258768" />
+  <Preset Label="Likes World Music (Trait_SimPreference_Likes_Music_World)" Value="259028" />
+  <Preset Label="Dislikes World Music (Trait_SimPreference_Dislikes_Music_World)" Value="259086" />
+  <Preset Label="trait_Hidden_CottageWorld_NPC_AgnesCrumplebottom" Value="259314" />
+  <Preset Label="trait_Fox_Default" Value="259921" />
+  <Preset Label="trait_Hidden_CottageWorld_NPC_AgathaCrumplebottom" Value="260169" />
+  <Preset Label="trait_Hidden_CottageWorld_NPC_Mayor" Value="260170" />
+  <Preset Label="trait_Hidden_CottageWorld_NPC_GroceryOwner" Value="260171" />
+  <Preset Label="trait_Hidden_CottageWorld_NPC_GroceryDelivery" Value="260172" />
+  <Preset Label="trait_Hidden_CottageWorld_NPC_CritterTender" Value="260173" />
+  <Preset Label="trait_Hidden_CottageWorld_NPC_PubOwner" Value="260174" />
+  <Preset Label="Nature Conversationalist (trait_Nature_CountryCaretaker_NatureConversationalist)" Value="260922" />
+  <Preset Label="Cross-stitch (trait_CAS_Story_Skill_CrossStitch)" Value="260955" />
+  <Preset Label="Cross-stitch (trait_CAS_Story_Skill_CrossStitch_3)" Value="260956" />
+  <Preset Label="trait_Fox_Walkstyle" Value="261220" />
   <Preset Label="Trait_SimPreference_NoOpinion_VideoGaming" Value="261875" />
   <Preset Label="Dislikes Comedy (trait_SimPreference_Dislikes_Activities_Comedy)" Value="264143" />
   <Preset Label="Dislikes Fishing (trait_SimPreference_Dislikes_Activities_Fishing)" Value="264145" />
@@ -452,7 +470,13 @@
   <Preset Label="Likes Writing (trait_SimPreference_Likes_Activities_Writing)" Value="264195" />
   <Preset Label="Likes Guitar (trait_SimPreference_Likes_Activities_Guitar)" Value="264197" />
   <Preset Label="Likes Piano (trait_SimPreference_Likes_Activities_Piano)" Value="264198" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_LivestockLong" Value="265644" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_LivestockShort" Value="265676" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_GardenShort" Value="265857" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_WildAnimalShort" Value="265875" />
   <Preset Label="trait_SimPreference_NoOpinion_Music_All" Value="266000" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_FoodShort" Value="266038" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_WildAnimalFoodLong" Value="266229" />
   <Preset Label="trait_SimPreference_NoOpinion_Activities_Comedy" Value="266799" />
   <Preset Label="trait_SimPreference_NoOpinion_Activities_Cooking" Value="266800" />
   <Preset Label="trait_SimPreference_NoOpinion_Activities_Fishing" Value="266801" />
@@ -471,10 +495,51 @@
   <Preset Label="trait_SimPreference_NoOpinion_Activities_Wellness" Value="266816" />
   <Preset Label="trait_SimPreference_NoOpinion_Activities_Writing" Value="266817" />
   <Preset Label="trait_Hidden_SimPreference_ActiveDislike" Value="266824" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_AgathaCrumplebottom" Value="267179" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_GroceryOwner" Value="267229" />
+  <Preset Label="Adult (ageTraits_Fox_Adult)" Value="267313" />
+  <Preset Label="Elder (ageTraits_Fox_Elder)" Value="267314" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_GroceryDelivery" Value="267385" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_Mayor" Value="267405" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_PubOwner" Value="267454" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_CritterTender" Value="267515" />
+  <Preset Label="trait_Hidden_VillagerHelp_CritterTender_GotMashOnce" Value="267609" />
+  <Preset Label="trait_Hidden_Hates_Mayo" Value="267875" />
+  <Preset Label="trait_Hidden_Likes_Mayo" Value="267876" />
   <Preset Label="Death by Killer Chicken (trait_Ghost_AnimalObjects_KillerChicken)" Value="267992" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_AgnesCrumplebottom" Value="268149" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_SocialShort" Value="268150" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_SocialMedium" Value="268151" />
+  <Preset Label="trait_Hidden_LotTrait_SimpleLiving_Cookbook" Value="268277" />
+  <Preset Label="trait_Fox_AnimalClothing_Grandma1" Value="268721" />
+  <Preset Label="trait_Fox_AnimalClothing_Robber1" Value="268722" />
+  <Preset Label="trait_Fox_AnimalClothing_Robinhood1" Value="268727" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_AgnesCrumplebottom_2" Value="268792" />
+  <Preset Label="trait_Hidden_VillagerHelp_OnQuest_AgathaCrumplebottom_2" Value="268881" />
   <Preset Label="trait_MusicFestival_Identifier_BebeRexha" Value="269689" />
   <Preset Label="trait_MusicFestival_Identifier_JoyOladokun" Value="269690" />
   <Preset Label="trait_MusicFestival_Identifier_DaveBayley" Value="269691" />
+  <Preset Label="trait_Fox_AnimalClothing_Grandma6" Value="270026" />
+  <Preset Label="trait_Fox_AnimalClothing_Grandma5" Value="270027" />
+  <Preset Label="trait_Fox_AnimalClothing_Grandma2" Value="270028" />
+  <Preset Label="trait_Fox_AnimalClothing_Grandma3" Value="270029" />
+  <Preset Label="trait_Fox_AnimalClothing_Grandma4" Value="270030" />
+  <Preset Label="trait_Fox_AnimalClothing_Robber6" Value="270031" />
+  <Preset Label="trait_Fox_AnimalClothing_Robber7" Value="270032" />
+  <Preset Label="trait_Fox_AnimalClothing_Robber2" Value="270033" />
+  <Preset Label="trait_Fox_AnimalClothing_Robber3" Value="270034" />
+  <Preset Label="trait_Fox_AnimalClothing_Robber4" Value="270035" />
+  <Preset Label="trait_Fox_AnimalClothing_Robber5" Value="270036" />
+  <Preset Label="trait_Fox_AnimalClothing_Robinhood6" Value="270037" />
+  <Preset Label="trait_Fox_AnimalClothing_Robinhood5" Value="270038" />
+  <Preset Label="trait_Fox_AnimalClothing_Robinhood2" Value="270039" />
+  <Preset Label="trait_Fox_AnimalClothing_Robinhood3" Value="270040" />
+  <Preset Label="trait_Fox_AnimalClothing_Robinhood4" Value="270041" />
   <Preset Label="Confidante (trait_NosyNeighbor)" Value="274012" />
+  <Preset Label="Dislikes Cross-stitch (Trait_SimPreference_Dislikes_Activities_CrossStitch)" Value="274573" />
+  <Preset Label="Likes Cross-stitch (Trait_SimPreference_Likes_Activities_CrossStitch)" Value="274575" />
+  <Preset Label="Trait_SimPreference_NoOpinion_Activities_CrossStitch" Value="274576" />
+  <Preset Label="Dislikes Cottagecore Music (trait_SimPreference_Dislikes_Music_CottageCore)" Value="274593" />
+  <Preset Label="Likes Cottagecore Music (trait_SimPreference_Likes_Music_CottageCore)" Value="274594" />
   <Preset Label="Twisted Heart (trait_ColdHearted)" Value="275418" />
 </PresetGroup>

@@ -36,7 +36,6 @@ namespace Constructor5.Elements.Interactions.Social
         [AutoTuneBasic("display_name")]
         public STBLString Name { get; set; } = new STBLString() { CustomText = "Custom Interaction" };
 
-        [AutoTuneBasic("display_name_target")]
         public STBLString NameOnTarget { get; set; } = new STBLString() { CustomText = "Listen to {1.SimFirstName}'s Custom Interaction" };
 
         public ElementIcon PieMenuIcon { get; set; } = new ElementIcon();
@@ -68,6 +67,11 @@ namespace Constructor5.Elements.Interactions.Social
             }
 
             ((InteractionElement)Element).TuneTags(context);
+
+            if (context.Element is SocialInteraction)
+            {
+                context.Tuning.Set<TunableBasic>("display_name_target", NameOnTarget);
+            }
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
         }

@@ -1822,6 +1822,14 @@
   <Preset Label="buff_AutonomyMod_SuppressPrerollAutonomy" Value="115876" />
   <Preset Label="buff_AutonomyMod_RetailLoiter" Value="116064" />
   <Preset Label="buff_Walkstyle_Angry" Value="116080" />
+  <Preset Label="Improved Drink (buff_Object_FruitPunchFountain_Improved_Drink)" Value="116945" />
+  <Preset Label="Odd Taste (buff_Object_FruitPunchFountain_Sabotage_Playful)" Value="116946" />
+  <Preset Label="Tasty Fondue (buff_Object_FruitPunchFountain_Cheese)" Value="116948" />
+  <Preset Label="Fantastic Sparkling Apple Juice (buff_Object_FruitPunchFountain_Cider)" Value="116949" />
+  <Preset Label="Unusual Taste (buff_Object_FruitPunchFountain_Sabotage_Uncomfortable)" Value="116952" />
+  <Preset Label="Improved Dish (buff_Object_FruitPunchFountain_Improved_FoodBall)" Value="116953" />
+  <Preset Label="buff_Object_FruitPunchFountain_Hidden_SabotagedFountain" Value="116964" />
+  <Preset Label="buff_Object_FruitPunchFountain_Hidden_DipFingerTimeOut" Value="116976" />
   <Preset Label="buff_Death_WontDoDeathSoloInteractions" Value="117010" />
   <Preset Label="buff_AutonomyMod_Birthday_BlowOut_Candles" Value="117435" />
   <Preset Label="Playdate Giggles (buff_Situation_PlayDate_NPC_Invite_Bronze)" Value="117608" />
@@ -2870,6 +2878,11 @@
   <Preset Label="buff_Skill_Fishing_ExpertTipGiver" Value="214365" />
   <Preset Label="Bad Reception (buff_Object_OffTheGrid_BadReception)" Value="214402" />
   <Preset Label="Splashy Fun (buff_OceanSwimming_BaseGame_Reaction_SplashyFun)" Value="214463" />
+  <Preset Label="buff_Object_IsPlaying_SandActivities_1" Value="214541" />
+  <Preset Label="buff_Object_IsPlaying_SandActivities_2" Value="214543" />
+  <Preset Label="buff_Object_IsPlaying_SandActivities_3" Value="214544" />
+  <Preset Label="buff_Object_IsPlaying_SandActivities_4" Value="214545" />
+  <Preset Label="buff_Object_IsPlaying_SandActivities_5" Value="214546" />
   <Preset Label="buff_OceanSwimming_BaseGame_WaveTag_Autonomy" Value="215262" />
   <Preset Label="buff_Splash_Cooldown" Value="215761" />
   <Preset Label="buff_Sim_Social_Hug_Cooldown" Value="215939" />
@@ -3084,15 +3097,93 @@
   <Preset Label="buff_Scared_SleepingScared" Value="253327" />
   <Preset Label="buff_Sim_Walkstyle_WalkSlowest" Value="253866" />
   <Preset Label="buff_shoeRemovalSign_notWearingShoes_exemption" Value="254337" />
+  <Preset Label="Sparkling Clean Surroundings (buff_Dust_State_Clean)" Value="254476" />
+  <Preset Label="Someone Lives Here (buff_Dust_State_Dusty)" Value="254477" />
+  <Preset Label="Everything Feels a Bit Dirty (buff_Dust_State_Dirty)" Value="254478" />
+  <Preset Label="Unbelievably Filthy! (buff_Dust_State_Filthy)" Value="254479" />
+  <Preset Label="Fresh N' Frisky (buff_Dust_Clean_FreshNFrisky)" Value="254485" />
+  <Preset Label="Perfectionist Zeal (buff_Dust_Clean_PerfectionistZeal_1)" Value="254489" />
+  <Preset Label="Perfectionist Zeal (buff_Dust_Clean_PerfectionistZeal_2)" Value="254490" />
+  <Preset Label="Perfectionist Zeal (buff_Dust_Clean_PerfectionistZeal_3)" Value="254491" />
+  <Preset Label="Perfectionist Zeal (buff_Dust_Clean_PerfectionistZeal_4)" Value="254492" />
+  <Preset Label="Chore Galore! (buff_Dust_Dusty_ChoreGalore)" Value="254493" />
+  <Preset Label="It's Not Usually Like This! (buff_Dust_Dirty_NotUsuallyLikeThis)" Value="254494" />
+  <Preset Label="Messiness Kills the Mood (buff_Dust_Dirty_MessinessKillsTheMood)" Value="254495" />
+  <Preset Label="Do Not Disturb: Rage Cleaning (buff_Dust_Filthy_RageCleaning_1)" Value="254497" />
+  <Preset Label="Do Not Disturb: Rage Cleaning (buff_Dust_Filthy_RageCleaning_2)" Value="254498" />
+  <Preset Label="Do Not Disturb: Rage Cleaning (buff_Dust_Filthy_RageCleaning_3)" Value="254499" />
+  <Preset Label="Chore Shamed! (buff_Dust_Interactions_ChoreShamed)" Value="254501" />
+  <Preset Label="I'm Not Your Housekeeper! (buff_Dust_Interactions_NotYourHousekeeper)" Value="254502" />
   <Preset Label="Super Spooky (Buff_Memory_scared)" Value="254532" />
   <Preset Label="buffs_Mentoree_Toddler_Interacting" Value="254901" />
   <Preset Label="buff_VendingMachine_Hidden_ShakeCooldown" Value="255057" />
+  <Preset Label="Dust Bunny Caretaker (buff_DustFriends_Bunny_Care)" Value="255314" />
+  <Preset Label="Bunny Friends Forever! (buff_DustFriends_Bunny_BFF)" Value="255315" />
+  <Preset Label="From Dust Friends to Dust (buff_DustFriends_Bunny_Sad)" Value="255316" />
+  <Preset Label="Slayer of Filth Fiends (buff_DustFriends_Fiend_Slayer)" Value="255317" />
+  <Preset Label="I'll Just Keep My Distance (buff_DustFriends_Fiend_Scared)" Value="255318" />
+  <Preset Label="buff_Dust_Enabled" Value="256481" />
   <Preset Label="buff_Scared_Encouragement" Value="256498" />
   <Preset Label="buff_SnowDrift_SuppressIdlesWhenShoveling" Value="256563" />
   <Preset Label="buff_Object_CraftSalesTable_AutonomyMod_Browse_OnlyScored" Value="256565" />
+  <Preset Label="No Dust Left Behind! (buff_VacuumCleaner_NoDustLeftBehind)" Value="256898" />
   <Preset Label="buff_Motives_Fun_High" Value="256947" />
+  <Preset Label="buff_Dust_State_NPC_DirtyFilthy" Value="257298" />
+  <Preset Label="Filth Kills the Fun (buff_Dust_Dirty_MessinessKillsTheMood_Filthy)" Value="257324" />
+  <Preset Label="filthyFabulous_Toilet_Buffs_UsedToilet" Value="257335" />
+  <Preset Label="filthyFabulous_Toilet_Buffs_DidntWashHands" Value="257336" />
+  <Preset Label="filthyFabulous_Toilet_Buffs_WashedHands" Value="257337" />
+  <Preset Label="All Messes Terminated (buff_VacuumCleaner_AllMessesTerminated)" Value="257419" />
+  <Preset Label="I Got the Moos! (buff_Canning_CowberryJam)" Value="257629" />
+  <Preset Label="Yes You Can! (buff_Canning_ExcellentQuality)" Value="257630" />
+  <Preset Label="buff_Trait_LactoseIntolerant" Value="257636" />
+  <Preset Label="buff_Trait_AnimalEnthusiast" Value="257637" />
   <Preset Label="(DEBUG) Always Succeed at EP11 Animal Socials (buff_AnimalObjects_Cheats_forceOutcome_socialSuccess)" Value="257698" />
   <Preset Label="(DEBUG) Always Fail at EP11 Animal Socials (buff_AnimalObjects_Cheats_forceOutcome_socialFail)" Value="257699" />
+  <Preset Label="Mourning a Rabbit's Demise (buff_AnimalObjects_Moodlets_Death_Rabbit)" Value="257724" />
+  <Preset Label="New Rabbit Friend (buff_AnimalObjects_Moodlets_NewFriend_Rabbit)" Value="257726" />
+  <Preset Label="Birds of a Feather (buff_AnimalObjects_Moodlets_NewFriend_BirdHome)" Value="257727" />
+  <Preset Label="Chatted with a Rabbit (buff_AnimalObjects_Moodlets_Socials_Happy_Rabbit_Talk)" Value="257729" />
+  <Preset Label="The Wisdom of Rabbits (buff_AnimalObjects_Moodlets_Socials_Inspired_Rabbit_Question)" Value="257732" />
+  <Preset Label="Made a Rabbit Smile (buff_AnimalObjects_Moodlets_Socials_Happy_Rabbit_Joke)" Value="257733" />
+  <Preset Label="Funny Bunny (buff_AnimalObjects_Moodlets_Socials_Playful_Rabbit_Joke)" Value="257735" />
+  <Preset Label="Rabbit is Unamused (buff_AnimalObjects_Moodlets_Socials_Embarrassed_Rabbit_Joke)" Value="257738" />
+  <Preset Label="Scared a Cute Bunny (buff_AnimalObjects_Moodlets_Socials_Playful_Rabbit_Scare)" Value="257741" />
+  <Preset Label="Made Fun of a Bunny (buff_AnimalObjects_Moodlets_Socials_Playful_Rabbit_BeMean)" Value="257742" />
+  <Preset Label="Do Not Pat the Bunny! (buff_AnimalObjects_Moodlets_Socials_Scared_Rabbit_Pet)" Value="257744" />
+  <Preset Label="Judgy Bunny (buff_AnimalObjects_Moodlets_Socials_Tense_Rabbit_Joke)" Value="257745" />
+  <Preset Label="Rejected by a Rabbit (buff_AnimalObjects_Moodlets_Socials_Tense_Rabbit_Pet)" Value="257746" />
+  <Preset Label="Hugged a Bunny (buff_AnimalObjects_Moodlets_Socials_Happy_Rabbit_Hug)" Value="257747" />
+  <Preset Label="No Bunny Hugs for You (buff_AnimalObjects_Moodlets_Socials_Sad_Rabbit_Hug)" Value="257749" />
+  <Preset Label="Survived a Rabbit Attack (buff_AnimalObjects_Moodlets_Socials_Confident_Rabbit_Attacked)" Value="257751" />
+  <Preset Label="Barely Escaped a Killer Rabbit (buff_AnimalObjects_Moodlets_Socials_Dazed_Rabbit_Attacked)" Value="257753" />
+  <Preset Label="Beware of Rabbit (buff_AnimalObjects_Moodlets_Socials_Scared_Rabbit_Attacked)" Value="257754" />
+  <Preset Label="Early Bird Energy (buff_AnimalObjects_Moodlets_Socials_Energized_BirdHome_Watch)" Value="257756" />
+  <Preset Label="Brilliant Birds (buff_AnimalObjects_Moodlets_Socials_Inspired_BirdHome_Watch)" Value="257757" />
+  <Preset Label="Tweet Tweet (buff_AnimalObjects_Moodlets_Socials_Happy_BirdHome_Talk)" Value="257761" />
+  <Preset Label="Bird is the Word (buff_AnimalObjects_Moodlets_Socials_Inspired_BirdHome_Talk)" Value="257762" />
+  <Preset Label="Pooped on by Wild Birds (buff_AnimalObjects_Moodlets_Socials_Uncomfortable_BirdHome_Talk)" Value="257764" />
+  <Preset Label="Birds are Rude (buff_AnimalObjects_Moodlets_Socials_Angry_BirdHome_Talk)" Value="257766" />
+  <Preset Label="Bird Brain (buff_AnimalObjects_Moodlets_Socials_Happy_BirdHome_Question)" Value="257767" />
+  <Preset Label="Flock of Inspiration (buff_AnimalObjects_Moodlets_Socials_Inspired_BirdHome_Question)" Value="257768" />
+  <Preset Label="Awkward Bird (buff_AnimalObjects_Moodlets_Socials_Embarrassed_BirdHome_Question)" Value="257769" />
+  <Preset Label="Bye Bye Birdies (buff_AnimalObjects_Moodlets_Socials_Sad_BirdHome_Question)" Value="257770" />
+  <Preset Label="Birds Be Gone! (buff_AnimalObjects_Moodlets_Socials_Happy_BirdHome_Scare)" Value="257772" />
+  <Preset Label="Dairy Happiness (buff_Trait_LactoseIntolerant_HappyEatingDairy)" Value="257773" />
+  <Preset Label="It wasn’t worth it! (buff_Trait_LactoseIntolerant_AteDairy)" Value="257774" />
+  <Preset Label="Here we bloat again (buff_Trait_LactoseIntolerant_AteDairyAgain)" Value="257775" />
+  <Preset Label="Feared by Birds (buff_AnimalObjects_Moodlets_Socials_Confident_BirdHome_Scare)" Value="257776" />
+  <Preset Label="A Life Without Milk (buff_Trait_LactoseIntolerant_NoDairy)" Value="257777" />
+  <Preset Label="Singing with the Birds (buff_AnimalObjects_Moodlets_Socials_Inspired_BirdHome_Sing)" Value="257778" />
+  <Preset Label="Song Fell Flat (buff_AnimalObjects_Moodlets_Socials_Sad_BirdHome_Sing)" Value="257779" />
+  <Preset Label="A Song to Forget (buff_AnimalObjects_Moodlets_Socials_Embarrassed_BirdHome_Sing)" Value="257780" />
+  <Preset Label="Tough Crowd (buff_AnimalObjects_Moodlets_Socials_Uncomfortable_BirdHome_Sing)" Value="257781" />
+  <Preset Label="buff_BeGhost_AnimalObjects_KillerRabbit" Value="257787" />
+  <Preset Label="What Can't Be Vacuumed? (buff_VacuumCleaner_WhatCantBeVacuumed)" Value="257797" />
+  <Preset Label="Soggy Food (buff_PicnicBasket_Rain)" Value="257904" />
+  <Preset Label="A Hot Meal (buff_PicnicBasket_HotWeather)" Value="257905" />
+  <Preset Label="A Chilly Meal (buff_PicnicBasket_ColdWeather)" Value="257906" />
+  <Preset Label="Picnic Me Up! (buff_PicnicBasket_Happy)" Value="257907" />
   <Preset Label="buff_Trait_Clumsy_SlipCooldown" Value="258226" />
   <Preset Label="buff_Trait_Neat_NeuroticClean" Value="258246" />
   <Preset Label="buff_Trait_Genius_SolveHardProblemsCooldown" Value="258253" />
@@ -3109,8 +3200,11 @@
   <Preset Label="Cheered to Death (buff_Trait_Cheerful_CheeredToDeath)" Value="258458" />
   <Preset Label="buff_Trait_Cheerful_HappyBonus" Value="258463" />
   <Preset Label="Heated Rejection (buff_RiledUp_Hotheaded_Romance)" Value="258471" />
+  <Preset Label="buff_VacuumCleaner_VaporizingPulse" Value="258473" />
+  <Preset Label="An Epicnic Tale (buff_PicnicBasket_Happy_LovesOutdoors)" Value="258482" />
   <Preset Label="buff_Trait_Perfectionist_RetryCooldown" Value="258590" />
   <Preset Label="In The Zone (buff_Trait_Perfectionist_InTheZone)" Value="258633" />
+  <Preset Label="buff_VacuumCleaner_Autonomous_Cooldown" Value="258689" />
   <Preset Label="That's My Jam! (buff_SimPreference_Likes_Music_Pop)" Value="258699" />
   <Preset Label="Not My Tempo (buff_SimPreference_Dislikes_Music_Pop)" Value="258701" />
   <Preset Label="That's My Jam! (buff_SimPreference_Likes_Music_Kids)" Value="258734" />
@@ -3147,6 +3241,7 @@
   <Preset Label="Not My Tempo (buff_SimPreference_Dislikes_Music_Spooky)" Value="258809" />
   <Preset Label="Not My Tempo (buff_SimPreference_Dislikes_Music_SPop)" Value="258810" />
   <Preset Label="Not My Tempo (buff_SimPreference_Dislikes_Music_WinterHoliday)" Value="258811" />
+  <Preset Label="buff_RequiredIngredients_Hidden" Value="258830" />
   <Preset Label="buff_Trait_Perfectionist_NoRetryCooldown" Value="258842" />
   <Preset Label="Child-free Zone (Buff_Trait_HatesChildren_AwayFromChildren)" Value="258866" />
   <Preset Label="buff_Trait_Gloomy_NearGhost(Hidden)" Value="258931" />
@@ -3165,10 +3260,48 @@
   <Preset Label="Buff_Jealousy_FreezeMissingSOTimer" Value="259618" />
   <Preset Label="buff_Trait_Jealousy_TalkThroughIssuesCooldown" Value="259628" />
   <Preset Label="Buff_HatesChildren_FledChild(Hidden)" Value="259795" />
+  <Preset Label="buff_Trait_Fox_Default" Value="259923" />
   <Preset Label="Having a Bad Time (buff_SimPreference_BadTime_Uncomfortable)" Value="260011" />
   <Preset Label="Having a &lt;b&gt;REALLY&lt;/b&gt; Bad Time (buff_SimPreference_BadTime_Angry)" Value="260012" />
+  <Preset Label="buff_Fox_Watch_Target" Value="260022" />
   <Preset Label="I Helped! (buff_Object_GardeningPlant_Child_HelpedCare)" Value="260097" />
   <Preset Label="A Green Friend (buff_Object_GardeningPlant_Child_TalkToPlant)" Value="260101" />
+  <Preset Label="Fearful of Fluffy Bunny (buff_AnimalObjects_Moodlets_Ghost_KillerRabbit_Scared)" Value="260122" />
+  <Preset Label="Rabbits! I Hate Rabbits! (buff_AnimalObjects_Moodlets_Ghost_KillerRabbit_Tense)" Value="260123" />
+  <Preset Label="Bunny Beware (buff_AnimalObjects_Moodlets_Ghost_KillerRabbit_Angry)" Value="260124" />
+  <Preset Label="buff_Fox_IsSleeping" Value="260308" />
+  <Preset Label="Animal bonding (buff_Trait_AnimalEnthusiast_Happy_Bonding)" Value="260391" />
+  <Preset Label="Missing Furry Friends (buff_Trait_AnimalEnthusiast_Sad_MissAnimals)" Value="260392" />
+  <Preset Label="Top Animal Betrayal (buff_Trait_AnimalEnthusiast_SellingAnimal_Stronger)" Value="260394" />
+  <Preset Label="Insightful Conversation (buff_Trait_AnimalEnthusiast_Energized_Conversation)" Value="260395" />
+  <Preset Label="Happy Bird-day! (buff_Trait_AnimalEnthusiast_Inspired_Egg)" Value="260396" />
+  <Preset Label="buff_VillageFair_Autonomy_Judge" Value="260706" />
+  <Preset Label="buff_VillageFair_Hidden_SubmittedA" Value="260708" />
+  <Preset Label="buff_VillageFair_Hidden_SubmittedB" Value="260709" />
+  <Preset Label="buff_VillageFair_Hidden_Judged" Value="260710" />
+  <Preset Label="Nifty Stitching (buff_CrossStitch_NiftyStitching)" Value="261188" />
+  <Preset Label="One Poke Too Many (buff_CrossStitch_OnePokeTooMany)" Value="261190" />
+  <Preset Label="Expert Stitcher (buff_CrossStitch_ExpertStitcher)" Value="261191" />
+  <Preset Label="Homestyle Stitching (buff_CrossStitch_HomestyleStitching)" Value="261196" />
+  <Preset Label="buff_VillageFair_Autonomy_GenericFestivalGoer" Value="261209" />
+  <Preset Label="Boring Fair Entry (buff_VillageFair_ViewSubmission_Poor)" Value="261240" />
+  <Preset Label="Great Competition (buff_VillageFair_ViewSubmission_Good)" Value="261241" />
+  <Preset Label="Pecked At (buff_AnimalObjects_Moodlets_Socials_Scared_Chicken_PeckedAt)" Value="261271" />
+  <Preset Label="My Poor Chicken (buff_AnimalObjects_Moodlets_Socials_Sad_Chicken_Death)" Value="261284" />
+  <Preset Label="Where's my Chicken (buff_AnimalObjects_Moodlets_Socials_Sad_Chicken_Missing)" Value="261285" />
+  <Preset Label="Chicken Love (buff_AnimalObjects_Moodlets_Socials_Happy_Chicken_Hug)" Value="261286" />
+  <Preset Label="Sad To See You Go! (buff_AnimalObjects_Moodlets_Socials_Sad_Chicken_Sold)" Value="261287" />
+  <Preset Label="Poor Competition Chance (buff_VillageFair_SubmittedEntry_Poor)" Value="261313" />
+  <Preset Label="Excited Competitor (buff_VillageFair_SubmittedEntry_Normal)" Value="261314" />
+  <Preset Label="Confident Competitor (buff_VillageFair_SubmittedEntry_Excellent)" Value="261315" />
+  <Preset Label="buff_GiantCrops_Plant_Cry_Cooldown" Value="261508" />
+  <Preset Label="buff_Fox_Situation_Steal" Value="261652" />
+  <Preset Label="Can it Get any Better? (buff_Sentiment_Enamored_Happy_Canning_GiftedJar)" Value="262180" />
+  <Preset Label="Can You Feel the Love? (buff_Sentiment_Enamored_Flirty_Primary_Canning_GiftedJar)" Value="262185" />
+  <Preset Label="Canned Memories (buff_Sentiment_Close_Happy_Primary_Canning_ReceivedGift)" Value="262186" />
+  <Preset Label="A Picnic to Remember (buff_Sentiment_Close_Happy_Primary_PicnicBasket_PicnicBonding)" Value="262187" />
+  <Preset Label="A Picnic to Remember (buff_Sentiment_Close_Playful_PicnicBasket_PicnicBonding)" Value="262188" />
+  <Preset Label="Jamming Together (buff_Sentiment_Close_Playful_Canning_ReceivedGift)" Value="262189" />
   <Preset Label="buff_Role_Deliveries_DropBag" Value="262208" />
   <Preset Label="buff_Role_Deliveries_WaitForCustomer" Value="262216" />
   <Preset Label="buff_Role_Deliveries_Generic" Value="262223" />
@@ -3176,11 +3309,62 @@
   <Preset Label="Cooking Memories (buff_Sentiment_Close_Happy_Primary_GroupCooking_CookingTogether)" Value="262315" />
   <Preset Label="Pinch of Salt and Laughter (buff_Sentiment_Close_Playful_GroupCooking_CookingTogether)" Value="262320" />
   <Preset Label="buff_Deliveries_AskForTip_Cooldown" Value="262352" />
+  <Preset Label="buff_Trait_CottageWorld_NPC_Headline_AgathaCrumplebottom" Value="262913" />
+  <Preset Label="buff_Trait_CottageWorld_NPC_Headline_AgnesCrumplebottom" Value="262914" />
+  <Preset Label="buff_Trait_CottageWorld_NPC_Headline_CritterTender" Value="262915" />
+  <Preset Label="buff_Trait_CottageWorld_NPC_Headline_GroceryDelivery" Value="262916" />
+  <Preset Label="buff_Trait_CottageWorld_NPC_Headline_GroceryOwner" Value="262917" />
+  <Preset Label="buff_Trait_CottageWorld_NPC_Headline_Mayor" Value="262918" />
+  <Preset Label="buff_Trait_CottageWorld_NPC_Headline_PubOwner" Value="262919" />
+  <Preset Label="Rich Taste (buff_Drink_Milk_Livestock_Enriched)" Value="262979" />
+  <Preset Label="Chocolatey Goodness (buff_Drink_Milk_Livestock_Brown)" Value="262989" />
+  <Preset Label="Refreshing Rainbow (buff_Drink_Milk_Livestock_Rainbow)" Value="262990" />
+  <Preset Label="Scorching Sip (buff_Drink_Milk_Livestock_Red)" Value="262991" />
+  <Preset Label="Sultry Strawberry (buff_Drink_Milk_Livestock_Pink)" Value="262994" />
+  <Preset Label="Pumpkin Spice and Everything Nice (buff_Drink_Milk_Livestock_Orange)" Value="262995" />
+  <Preset Label="Miraculous Milk (buff_Drink_Milk_Livestock_Green)" Value="262997" />
+  <Preset Label="Udder Disaster (buff_AnimalObjects_Moodlets_Socials_Tense_Cow_Milk_Fail)" Value="263084" />
+  <Preset Label="Shear-ly a Setback (buff_AnimalObjects_Moodlets_Socials_Tense_Llama_Shear_Fail)" Value="263085" />
+  <Preset Label="Ecstatic Shed-nanigans (buff_Woohoo_Happy_LivestockPen_Completely)" Value="263125" />
+  <Preset Label="Shed-nanigans (buff_Woohoo_Happy_LivestockPen_Pleasantly)" Value="263126" />
+  <Preset Label="Sublimely Dirty (buff_Woohoo_Happy_LivestockPen_Completely_Slob)" Value="263133" />
+  <Preset Label="Shed Shame (buff_LivestockPen_Woohoo_Embarrassed)" Value="263151" />
+  <Preset Label="Too Rustic, Too Rustic! (buff_LivestockPen_Woohoo_Uncomfortable)" Value="263159" />
   <Preset Label="buff_Skill_Gardening_TeachAboutPlants_Cooldown" Value="263254" />
+  <Preset Label="Midnight Meal (buff_Drink_Milk_Livestock_Black)" Value="263350" />
+  <Preset Label="Tastefully Golden (buff_Drink_Milk_Livestock_Gold)" Value="263352" />
   <Preset Label="buff_SimPreference_GainCooldown" Value="263631" />
+  <Preset Label="buff_Fox_Hidden_Stalk" Value="263653" />
+  <Preset Label="My Poor Cow (buff_AnimalObjects_Moodlets_Socials_Sad_Cow_Death)" Value="263656" />
+  <Preset Label="My Poor Llama (buff_AnimalObjects_Moodlets_Socials_Sad_Llama_Death)" Value="263657" />
+  <Preset Label="buff_OpenStreet_CottageWorld_Wanderer_Swim" Value="263663" />
+  <Preset Label="buff_OpenStreet_CottageWorld_Wanderer_Fish" Value="263666" />
+  <Preset Label="buff_OpenStreet_CottageWorld_Wanderer_Garden" Value="263667" />
+  <Preset Label="Cow Cuddles (buff_AnimalObjects_Moodlets_Socials_Happy_Cow_Hug)" Value="263671" />
+  <Preset Label="Warm Fuzzies (buff_AnimalObjects_Moodlets_Socials_Happy_Cow_Hug_AnimalEnthusiast)" Value="263672" />
+  <Preset Label="Fluffy Llama Hugs (buff_AnimalObjects_Moodlets_Socials_Happy_Llama_Hug)" Value="263673" />
+  <Preset Label="Like Hugging a Cloud (buff_AnimalObjects_Moodlets_Socials_Happy_Llama_Hug_AnimalEnthusiast)" Value="263674" />
+  <Preset Label="Sad To See You Go! (buff_AnimalObjects_Moodlets_Socials_Sad_Cow_Sold)" Value="263676" />
+  <Preset Label="Sad To See You Go! (buff_AnimalObjects_Moodlets_Socials_Sad_Llama_Sold)" Value="263677" />
+  <Preset Label="Animal Rage (buff_Sentiment_Bitter_Angry_LivestockSold)" Value="263678" />
+  <Preset Label="Bad Bouquet (buff_AnimalObjects_Moodlets_Socials_Uncomfortable_LivestockPen_Smelly)" Value="263698" />
+  <Preset Label="Inner Turmoil (buff_AnimalObjects_Moodlets_Socials_Tense_LivestockPen_BeMean_AnimalEnthusiast)" Value="263699" />
+  <Preset Label="Inner Conflict (buff_AnimalObjects_Moodlets_Socials_Embarrassed_LivestockPen_Scare_AnimalEnthusiast)" Value="263700" />
+  <Preset Label="A Discredit to the Species (buff_Sentiment_Bitter_Tense_Primary_LivestockSold)" Value="263701" />
+  <Preset Label="An Animal-shaped Scar on the Heart (buff_Sentiment_Hurt_Angry_LivestockSold)" Value="263702" />
+  <Preset Label="An Animal-shaped Hole in the Heart (buff_Sentiment_Hurt_Sad_Primary_LivestockSold)" Value="263703" />
+  <Preset Label="Bovine Hug Snub (buff_AnimalObjects_Moodlets_Socials_Sad_Cow_Hug)" Value="263713" />
+  <Preset Label="Why Now My Cow? (buff_AnimalObjects_Moodlets_Socials_Sad_Cow_Hug_AnimalEnthusiast)" Value="263714" />
+  <Preset Label="Unexpected Expectoration (buff_AnimalObjects_Moodlets_Socials_Uncomfortable_Llama_Hug)" Value="263715" />
+  <Preset Label="Llama Trauma (buff_AnimalObjects_Moodlets_Socials_Scared_Llama_Hug)" Value="263716" />
+  <Preset Label="buff_OpenStreet_CottageWorld_Wanderer_Socialize" Value="263764" />
+  <Preset Label="buff_ClubPerks_SkillBoost_AdultMinor_CrossStitch" Value="263767" />
+  <Preset Label="buff_Role_OpenStreet_CottageWorld_Picnicker" Value="263839" />
+  <Preset Label="Self Sustaining (buff_RequiredIngredients_SelfSustaining)" Value="263862" />
   <Preset Label="buff_Role_GroupCooking_Gather_JoinedCooks" Value="263896" />
   <Preset Label="buff_Role_GroupCooking_Cook_JoinedCooks" Value="263898" />
   <Preset Label="buff_Role_GroupCooking_Gather_HeadCook" Value="263915" />
+  <Preset Label="buff_VillagerHelp_Situation_Gossiper" Value="264050" />
   <Preset Label="I Hate Acting! (buff_SimPreference_Dislikes_Activities_Acting)" Value="264113" />
   <Preset Label="I Hate Baking! (buff_SimPreference_Dislikes_Activities_Baking)" Value="264114" />
   <Preset Label="I Hate Bowling! (buff_SimPreference_Dislikes_Activities_Bowling)" Value="264115" />
@@ -3206,6 +3390,7 @@
   <Preset Label="I Hate Piano! (buff_SimPreference_Dislikes_Activities_Piano)" Value="264136" />
   <Preset Label="I Hate Pipe Organs! (buff_SimPreference_Dislikes_Activities_PipeOrgan)" Value="264137" />
   <Preset Label="I Hate Singing! (buff_SimPreference_Dislikes_Activities_Singing)" Value="264138" />
+  <Preset Label="I'm Always Angry (buff_Trait_CottageWorld_NPC_AgnesCrumplebottom_Angry)" Value="264153" />
   <Preset Label="I Love Acting! (buff_SimPreference_Likes_Activities_Acting)" Value="264201" />
   <Preset Label="I Love Baking! (buff_SimPreference_Likes_Activities_Baking)" Value="264202" />
   <Preset Label="I Love Bowling! (buff_SimPreference_Likes_Activities_Bowling)" Value="264203" />
@@ -3276,16 +3461,39 @@
   <Preset Label="buff_SimPreference_Recent_Likes_Snowboarding" Value="264404" />
   <Preset Label="buff_SimPreference_Recent_Likes_Wellness" Value="264405" />
   <Preset Label="buff_SimPreference_Recent_Likes_Writing" Value="264406" />
+  <Preset Label="Crumplebottomed! (buff_Crumplebottomed)" Value="264407" />
   <Preset Label="buff_SimPreference_Recent_Dislikes_PipeOrgan" Value="264408" />
   <Preset Label="buff_SimPreference_Recent_Likes_PipeOrgan" Value="264409" />
   <Preset Label="buff_SimPreference_Recent_Dislikes_RockClimbing" Value="264410" />
   <Preset Label="buff_SimPreference_Recent_Likes_RockClimbing" Value="264411" />
   <Preset Label="buff_SimPreference_Recent_Likes_Fishing" Value="264412" />
+  <Preset Label="That Crumplebottom Sting (buff_Sentiment_Bitter_Angry_Crumplebottomed)" Value="264468" />
+  <Preset Label="Fear the Purse (buff_Sentiment_Bitter_Tense_Primary_Crumplebottomed)" Value="264469" />
   <Preset Label="buff_Role_GroupCooking_Cook_HeadCook" Value="264474" />
+  <Preset Label="buff_AnimalObjects_Rabbit_SimAboutToDie" Value="264515" />
+  <Preset Label="buff_OpenStreet_CottageWorld_Wanderer_AttractedBehavior_Woods" Value="264536" />
+  <Preset Label="buff_VillageFair_Hidden_Player" Value="264543" />
+  <Preset Label="buff_Role_OpenStreet_CottageWorld_Gossiper" Value="264549" />
+  <Preset Label="buff_CottageWorld_Gossiper_GoToSquare_Cooldown" Value="264562" />
+  <Preset Label="buff_Role_OpenStreet_CottageWorld_Forager" Value="264734" />
+  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_Garden" Value="264766" />
+  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_Forage" Value="264767" />
+  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_Cook" Value="264768" />
+  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_InteractWithCritters" Value="264769" />
   <Preset Label="I Love Programming! (buff_SimPreference_Likes_Activities_Programming)" Value="264780" />
   <Preset Label="I Hate Programming! (buff_SimPreference_Dislikes_Activities_Programming)" Value="264781" />
   <Preset Label="buff_SimPreference_Recent_Likes_Programming" Value="264785" />
   <Preset Label="buff_SimPreference_Recent_Dislikes_Programming" Value="264786" />
+  <Preset Label="Heart-to-Heart Glow (buff_Sentiment_Close_Happy_Primary_CottageWorld_NPC_Gossip)" Value="264955" />
+  <Preset Label="Tea for Two (buff_Sentiment_Close_Playful_CottageWorld_NPC_Gossip)" Value="264956" />
+  <Preset Label="Pecked At (buff_AnimalObjects_Moodlets_Socials_Scared_Chicken_PeckedAt_Toddlers)" Value="264978" />
+  <Preset Label="buff_Fox_Hidden_CancelStalk" Value="265099" />
+  <Preset Label="buff_CottageWorld_NPC_OfferFavorCooldown" Value="265102" />
+  <Preset Label="buff_CottageWorld_NPC_ReceiveFavorCooldown" Value="265103" />
+  <Preset Label="Ink-cap Power Up (buff_Harvestable_mushroomWildNightly)" Value="265135" />
+  <Preset Label="Morel Support (buff_Harvestable_mushroomWildVerdant)" Value="265136" />
+  <Preset Label="Feeling like a Fungi (buff_Harvestable_mushroomWildCharming)" Value="265137" />
+  <Preset Label="So Mushroom in my Heart (buff_Harvestable_mushroomWildLovely)" Value="265138" />
   <Preset Label="Not My Tempo (buff_SimPreference_Dislikes_Music_EasyListening)" Value="265274" />
   <Preset Label="Not My Tempo (buff_SimPreference_Dislikes_Music_Backyard)" Value="265275" />
   <Preset Label="Not My Tempo (buff_SimPreference_Dislikes_Music_NewAge)" Value="265276" />
@@ -3320,9 +3528,52 @@
   <Preset Label="That's My Jam! (buff_SimPreference_Likes_Music_JapaneseFolk)" Value="265307" />
   <Preset Label="That's My Jam! (buff_SimPreference_Likes_Music_Focus)" Value="265308" />
   <Preset Label="THIS IS MY JAM (buff_SimPreference_Likes_Music_Metal)" Value="265309" />
+  <Preset Label="buff_Trait_CountryCaretaker" Value="265331" />
   <Preset Label="That's My Jam! (buff_SimPreference_Likes_Music_SingerSongwriter)" Value="265395" />
   <Preset Label="That's My Jam! (buff_SimPreference_Likes_Music_TweenPop)" Value="265396" />
+  <Preset Label="Feeling like a Fungi (buff_Harvestable_mushroomWildCharming_Toddler)" Value="265649" />
+  <Preset Label="Morel Support (buff_Harvestable_mushroomWildVerdant_Toddler)" Value="265650" />
+  <Preset Label="So Mushroom in my Heart (buff_Harvestable_mushroomWildLovely_PC)" Value="265651" />
+  <Preset Label="buff_OpenStreet_CottageWorld_Picnicker_CreateFoodCooldown" Value="265785" />
+  <Preset Label="A Nice Kick (buff_Harvestable_mushroomWildSpicy)" Value="266253" />
+  <Preset Label="Too Hot to Handle (buff_Harvestable_mushroomWildSpicy_fail)" Value="266254" />
+  <Preset Label="buff_VillageFair_Autonomy_Competitor_Pen" Value="266346" />
+  <Preset Label="Happy to Have Helped (buff_Sentiment_Close_Happy_Primary_VillagerHelp_HelpedOut)" Value="266370" />
+  <Preset Label="I Helped! (buff_Sentiment_Close_Playful_VillagerHelp_HelpedOut)" Value="266371" />
+  <Preset Label="buff_Fox_Situation_Steal_EggFocus" Value="266380" />
+  <Preset Label="buff_Fox_Situation_Steal_StalkFocus" Value="266381" />
+  <Preset Label="Gnome Mischief (buff_NPCVillagers_ConspireWithGnomes_Whimsical_Embarrassed)" Value="266411" />
+  <Preset Label="Gnome Mischief (buff_NPCVillagers_ConspireWithGnomes_Whimsical_Playful)" Value="266412" />
+  <Preset Label="Gnome Mischief (buff_NPCVillagers_ConspireWithGnomes_Whimsical_Energized)" Value="266413" />
+  <Preset Label="Gnome Mischief (buff_NPCVillagers_ConspireWithGnomes_Whimsical_Inspired)" Value="266414" />
+  <Preset Label="Gnome Mischief (buff_NPCVillagers_ConspireWithGnomes_Whimsical_Stressed)" Value="266415" />
+  <Preset Label="buff_VillageFair_Autonomy_Competitor_StandA" Value="266564" />
+  <Preset Label="buff_VillageFair_Autonomy_Competitor_StandB" Value="266565" />
+  <Preset Label="Feeling like a Fungi (buff_Harvestable_mushroomWildCharming_Stronger)" Value="266705" />
+  <Preset Label="Feeling like a Fungi (buff_Harvestable_mushroomWildCharming_Toddler_Stronger)" Value="266708" />
+  <Preset Label="So Mushroom in my Heart (buff_Harvestable_mushroomWildLovely_Stronger)" Value="266710" />
+  <Preset Label="So Mushroom in my Heart (buff_Harvestable_mushroomWildLovely_PC_Stronger)" Value="266712" />
+  <Preset Label="Ink-cap Power Up (buff_Harvestable_mushroomWildNightly_Stronger)" Value="266714" />
+  <Preset Label="A Nice Kick (buff_Harvestable_mushroomWildSpicy_Stronger)" Value="266716" />
+  <Preset Label="Too Hot to Handle (buff_Harvestable_mushroomWildSpicy_fail_Stronger)" Value="266718" />
+  <Preset Label="Morel Support (buff_Harvestable_mushroomWildVerdant_Stronger)" Value="266720" />
+  <Preset Label="Morel Support (buff_Harvestable_mushroomWildVerdant_Toddler_Stronger)" Value="266722" />
+  <Preset Label="The Animal Within (buff_Harvestable_mushroomWildMysterious)" Value="266742" />
+  <Preset Label="buff_CottageWorld_NPC_FreeDrinkCooldown" Value="266868" />
+  <Preset Label="Spilt Milk (buff_AnimalObjects_Moodlets_Socials_Tense_Cow_Milk_Fail_AnimalEnthusiast)" Value="267015" />
+  <Preset Label="One Prob-Llama (buff_AnimalObjects_Moodlets_Socials_Tense_Llama_Shear_Fail_AnimalEnthusiast)" Value="267016" />
+  <Preset Label="buff_CottageWorld_MusicInTheWoods" Value="267048" />
+  <Preset Label="buff_CottageWorld_NPC_MysteryBoxCooldown_Garden" Value="267082" />
+  <Preset Label="buff_CottageWorld_NPC_MysteryBoxCooldown_Grocery" Value="267083" />
   <Preset Label="Eating At Home (buff_Deliveries_FoodDelivery_EatAtHome)" Value="267132" />
+  <Preset Label="Mmmm... Chocolate... (buff_AnimalObjects_Moodlets_Egg_MmmChocolate)" Value="267386" />
+  <Preset Label="Golden Chicken (buff_AnimalObjects_Moodlets_Egg_GoldenChicken)" Value="267395" />
+  <Preset Label="Dark Chicken (buff_AnimalObjects_Moodlets_Egg_DarkChicken)" Value="267396" />
+  <Preset Label="Bagley Buff (buff_Object_Drink_VillagerHelp_Playful)" Value="267492" />
+  <Preset Label="Bagley Buff (buff_Object_Drink_VillagerHelp_PlayfulSampler)" Value="267493" />
+  <Preset Label="Focus and Funk (buff_Object_Drink_VillagerHelp_Focused)" Value="267494" />
+  <Preset Label="Focus and Funk (buff_Object_Drink_VillagerHelp_FocusedSampler)" Value="267495" />
+  <Preset Label="Mushroom Mashed (buff_Food_VillagerHelp_MushroomMash)" Value="267517" />
   <Preset Label="Not My Tempo (buff_SimPreference_Dislikes_Music_DJ)" Value="267532" />
   <Preset Label="That's My Jam! (buff_SimPreference_Likes_Music_DJ)" Value="267533" />
   <Preset Label="buff_SimPreference_Recent_Music_Alternative" Value="267542" />
@@ -3356,30 +3607,115 @@
   <Preset Label="buff_SimPreference_Recent_Music_WinterHoliday" Value="267570" />
   <Preset Label="buff_SimPreference_Recent_Music_World" Value="267571" />
   <Preset Label="buff_SimPreference_Recent_Music_S-Pop" Value="267575" />
+  <Preset Label="buff_Deliveries_CouponRedeemed" Value="267620" />
   <Preset Label="buff_Role_GroupCooking_Mentoree" Value="267639" />
+  <Preset Label="Jam Sweet Jam (buff_Canning_Jams)" Value="267680" />
+  <Preset Label="Yuck! (buff_Canning_Mayo_Hates)" Value="267681" />
+  <Preset Label="Mayo, My Love (buff_Canning_Mayo_Likes)" Value="267682" />
   <Preset Label="buff_SimPreference_Color_HasLike" Value="267922" />
   <Preset Label="buff_SimPreference_Color_HasDislike" Value="267923" />
+  <Preset Label="buff_VillagerHelp_QuestCooldown_SocialShort" Value="267946" />
+  <Preset Label="buff_VillagerHelp_QuestCooldown_LivestockShort" Value="267947" />
+  <Preset Label="buff_VillagerHelp_QuestCooldown_GardenShort" Value="267948" />
+  <Preset Label="buff_VillagerHelp_QuestCooldown_WildAnimalShort" Value="267949" />
+  <Preset Label="buff_VillagerHelp_QuestCooldown_FoodForageShort" Value="267950" />
+  <Preset Label="buff_VillagerHelp_QuestCooldown_SocialMedium" Value="267951" />
+  <Preset Label="buff_VillagerHelp_QuestCooldown_LivestockGardenLong" Value="267952" />
+  <Preset Label="buff_VillagerHelp_QuestCooldown_WildAnimalFoodLong" Value="267953" />
+  <Preset Label="buff_Fox_Situation_OpenStreet" Value="267984" />
+  <Preset Label="buff_BeGhost_AnimalObjects_KillerChicken" Value="267994" />
+  <Preset Label="Chicken Rage (buff_AnimalObjects_Moodlets_Ghost_KillerChicken_Angry)" Value="268000" />
+  <Preset Label="Chicken-Phobic (buff_AnimalObjects_Moodlets_Ghost_KillerChicken_Scared)" Value="268001" />
+  <Preset Label="Chicken Nerves (buff_AnimalObjects_Moodlets_Ghost_KillerChicken_Tense)" Value="268002" />
+  <Preset Label="Retail Therapy (buff_VillageShops_RetailTherapy)" Value="268024" />
+  <Preset Label="buff_VillageShops_WindowShop_Hidden" Value="268025" />
+  <Preset Label="Survived a Chicken Attack (buff_AnimalObjects_Moodlets_Socials_Confident_Chicken_Attacked)" Value="268039" />
+  <Preset Label="When Chickens Attack (buff_AnimalObjects_Moodlets_Socials_Dazed_Chicken_Attacked)" Value="268040" />
   <Preset Label="Left Behind (buff_AnimalObjects_Moodlets_Socials_Sad_LivestockPenGoMissing)" Value="268063" />
+  <Preset Label="Mooooving Violation (buff_Trait_AnimalEnthusiast_Dance_Fail)" Value="268090" />
+  <Preset Label="I Got the Mooooves! (buff_Trait_AnimalEnthusiast_Dance_Success)" Value="268091" />
+  <Preset Label="Echoes of the Past (buff_CottageWorld_ProximityRuins_Confident)" Value="268099" />
+  <Preset Label="Area of Natural Beauty (buff_CottageWorld_ProximityWaterfull_Inspired)" Value="268101" />
   <Preset Label="buff_Environment_Hidden_Negative_Snob" Value="268126" />
+  <Preset Label="buff_VillageFair_Hidden_Bribed" Value="268291" />
+  <Preset Label="Close in Crime (buff_Sentiment_Close_Happy_Primary_VillageFair_BribeSuccess)" Value="268400" />
+  <Preset Label="Bitter Bribery (buff_Sentiment_Bitter_Angry_VillageFair_BribeFail)" Value="268422" />
+  <Preset Label="buff_CottageWorld_Snail_AutonomousCooldown" Value="268424" />
+  <Preset Label="Remorseful Entry Rigging (buff_Sentiment_Guilty_Embarrassed_VillageFair_BribeFail)" Value="268430" />
+  <Preset Label="buff_AnimalObjects_Cows_Cowbell_Cooldown" Value="268471" />
+  <Preset Label="Cowbell, Wowbell! (buff_AnimalObjects_Moodlets_Socials_Energized_Cowbell)" Value="268477" />
+  <Preset Label="The Bell Tolls For... Not Thee (buff_AnimalObjects_Moodlets_Socials_Sad_Cowbell)" Value="268484" />
+  <Preset Label="An Enduring Kiss (buff_Sentiment_Enamored_Happy_CottageWorldRuins)" Value="268486" />
+  <Preset Label="A Timeless Kiss (buff_Sentiment_Enamored_Flirty_Primary_CottageWorldRuins)" Value="268487" />
+  <Preset Label="buff_CottageWorld_ProximityRuins_Hidden" Value="268541" />
+  <Preset Label="buff_VillageFair_Hidden_ViewTNSGiven" Value="268548" />
+  <Preset Label="Touching Fungus (buff_MushroomHunt_GrossedOutByFungus)" Value="268560" />
+  <Preset Label="buff_Fox_Hidden_EvilChickenScare" Value="268567" />
+  <Preset Label="Strawberry Sipping (buff_Drink_Milk_Livestock_Pink_Child)" Value="268614" />
+  <Preset Label="Dangerous Wilds (buff_Fox_DangerousWilds)" Value="268621" />
+  <Preset Label="buff_VillagerHelp_OnQuest_Hidden" Value="268627" />
+  <Preset Label="buff_AnimalObjects_Chicken_GrimDefeated" Value="268695" />
+  <Preset Label="buff_Fox_Situation_OnLot" Value="268741" />
+  <Preset Label="buff_Fox_AnimalClothing_Grandma_1" Value="268769" />
+  <Preset Label="buff_Fox_AnimalClothing_Robber_1" Value="268770" />
+  <Preset Label="buff_Fox_AnimalClothing_Robinhood_1" Value="268771" />
+  <Preset Label="Soft Feathers (buff_AnimalObjects_Moodlets_Socials_Happy_BirdHome_ShowAffection)" Value="268820" />
+  <Preset Label="Ruffled Feathers (buff_AnimalObjects_Moodlets_Socials_Angry_BirdHome_ShowAffection)" Value="268821" />
+  <Preset Label="Attacked by Cute Bird (buff_AnimalObjects_Moodlets_Socials_Sad_BirdHome_ShowAffection)" Value="268825" />
+  <Preset Label="Cutting Hedge Art (buff_VillageFair_CuttingHedgeArt)" Value="268905" />
+  <Preset Label="Single and Ready to Mingle! (buff_VillagerHelp_AgathaBerry)" Value="268931" />
+  <Preset Label="buff_Fox_Hidden_RelWithPounceTarget" Value="268933" />
+  <Preset Label="buff_VillageFair_Hidden_VillageFairTraditions_Cooldown" Value="268941" />
+  <Preset Label="buff_VillagerHelp_InRegion_NPCVillager_Discovery" Value="268971" />
+  <Preset Label="buff_VillageFair_Hidden_Cheat_1st_primary" Value="269089" />
+  <Preset Label="buff_VillageFair_Hidden_Cheat_1st_sub" Value="269090" />
+  <Preset Label="buff_VillageFair_Hidden_Cheat_last_primary" Value="269091" />
+  <Preset Label="buff_VillageFair_Hidden_Cheat_last_sub" Value="269092" />
   <Preset Label="buff_SimPreference_IdleCooldown" Value="269253" />
   <Preset Label="buff_Role_GroupCooking_Cook_StopCooking" Value="269313" />
+  <Preset Label="buff_Fox_Hidden_RoosterScaresFox" Value="269365" />
   <Preset Label="buff_MusicFestival_ArtistPerformer_Start" Value="269371" />
   <Preset Label="buff_MusicFestival_ArtistPerformer_End" Value="269372" />
   <Preset Label="buff_MusicFestival_ArtistPerformer_React" Value="269373" />
+  <Preset Label="Discordant Aria (buff_Fox_DiscordantAria)" Value="269564" />
+  <Preset Label="buff_Fox_Hidden_StoleEgg" Value="269635" />
+  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_Sit" Value="269643" />
+  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_GoHome" Value="269654" />
   <Preset Label="buff_MusicFestival_ArtistPerformer_SICompatibility" Value="269751" />
   <Preset Label="buff_MusicFestival_AutonomyMod_FestivalGoer" Value="269764" />
   <Preset Label="buff_MusicFestival_AutonomyMod_FestivalGoer_PostPerformance" Value="269765" />
   <Preset Label="buff_MusicFestival_AutonomyMod_FestivalGoer_Opener1" Value="269766" />
   <Preset Label="buff_MusicFestival_AutonomyMod_FestivalGoer_Opener2" Value="269767" />
   <Preset Label="buff_MusicFestival_AutonomyMod_FestivalGoer_MainArtist" Value="269768" />
+  <Preset Label="buff_Role_CottageWorld_NPC_GroceryDelivery" Value="269815" />
+  <Preset Label="buff_Region_Generic_CottageWorld" Value="269827" />
   <Preset Label="buff_MusicFestival_AutonomyMod_Artist_Opener1" Value="269943" />
   <Preset Label="buff_MusicFestival_AutonomyMod_Artist_Opener2" Value="269944" />
   <Preset Label="buff_MusicFestival_AutonomyMod_Artist_MainArtist" Value="269945" />
   <Preset Label="buff_MusicFestival_AutonomyMod_FestivalGoer_StagePermissions" Value="269976" />
+  <Preset Label="buff_Fox_AnimalClothing_Grandma_6" Value="270054" />
+  <Preset Label="buff_Fox_AnimalClothing_Grandma_5" Value="270055" />
+  <Preset Label="buff_Fox_AnimalClothing_Grandma_2" Value="270056" />
+  <Preset Label="buff_Fox_AnimalClothing_Grandma_3" Value="270057" />
+  <Preset Label="buff_Fox_AnimalClothing_Grandma_4" Value="270058" />
+  <Preset Label="buff_Fox_AnimalClothing_Robber_7" Value="270060" />
+  <Preset Label="buff_Fox_AnimalClothing_Robber_6" Value="270061" />
+  <Preset Label="buff_Fox_AnimalClothing_Robber_2" Value="270062" />
+  <Preset Label="buff_Fox_AnimalClothing_Robber_3" Value="270063" />
+  <Preset Label="buff_Fox_AnimalClothing_Robber_4" Value="270064" />
+  <Preset Label="buff_Fox_AnimalClothing_Robber_5" Value="270065" />
+  <Preset Label="buff_Fox_AnimalClothing_Robinhood_6" Value="270068" />
+  <Preset Label="buff_Fox_AnimalClothing_Robinhood_5" Value="270069" />
+  <Preset Label="buff_Fox_AnimalClothing_Robinhood_2" Value="270070" />
+  <Preset Label="buff_Fox_AnimalClothing_Robinhood_3" Value="270071" />
+  <Preset Label="buff_Fox_AnimalClothing_Robinhood_4" Value="270072" />
   <Preset Label="buff_MusicFestival_Hidden_WatchingPerformance_Opener1" Value="270110" />
   <Preset Label="buff_MusicFestival_Hidden_WatchingPerformance_Opener2" Value="270111" />
   <Preset Label="buff_MusicFestival_Hidden_MainArtist" Value="270112" />
   <Preset Label="buff_Sim_StartGroupCooking" Value="270157" />
+  <Preset Label="buff_Dust_State_Slob_Filthy" Value="270223" />
+  <Preset Label="buff_Dust_State_Slob_Dirty" Value="270224" />
+  <Preset Label="buff_Fox_Hidden_CantPlead" Value="270272" />
   <Preset Label="buff_MusicFestival_Watching_End" Value="270342" />
   <Preset Label="buff_MusicFestival_Watching_React" Value="270343" />
   <Preset Label="buff_MusicFestival_Watching_Start" Value="270344" />
@@ -3389,10 +3725,18 @@
   <Preset Label="Front Row Spot! (buff_MusicFestival_Visible_Energetic_MainArtist)" Value="270446" />
   <Preset Label="So Close to the Performer! (buff_MusicFestival_Visible_Energetic_Opener)" Value="270447" />
   <Preset Label="A Day of Music and Inspiration (buff_MusicFestival_Visible_Inspired_PostPerformance)" Value="270448" />
+  <Preset Label="buff_Fox_Hidden_WakeUp" Value="270484" />
+  <Preset Label="buff_Trait_AnimalEnthusiast_PlayTo_Cooldown" Value="270607" />
+  <Preset Label="buff_Fox_Situation_Leave" Value="270639" />
   <Preset Label="buff_MusicFestival_AutonomyMod_FestivalGoer_Ending" Value="270743" />
   <Preset Label="buff_MusicFestival_NPC_Purchase_Cooldown" Value="270780" />
   <Preset Label="buff_MusicFestival_AutonomyMod_FestivalGoer_NPC" Value="270784" />
+  <Preset Label="buff_Fox_Cheats" Value="270789" />
   <Preset Label="buff_MusicFestival_Cooldowns_GetHyped_Autonomous" Value="270809" />
+  <Preset Label="buff_Fox_Hidden_Leave" Value="271068" />
+  <Preset Label="Featherly Love (buff_AnimalObjects_Moodlets_Socials_Happy_Rooster_Hug)" Value="271329" />
+  <Preset Label="Pecked At (buff_AnimalObjects_Moodlets_Socials_Scared_Rooster_PeckedAt)" Value="271331" />
+  <Preset Label="Pecked At (buff_AnimalObjects_Moodlets_Socials_Scared_Rooster_PeckedAt_Toddlers)" Value="271332" />
   <Preset Label="Guiding Light (buff_Sentiment_Motivating_Confident_FriendlyAdvice)" Value="273841" />
   <Preset Label="A Friend's Two Cents (buff_Sentiment_Motivating_Energized_Primary_FriendlyAdvice)" Value="273843" />
   <Preset Label="A Friendly Voice (buff_Sentiment_Motivating_Focused_FriendlyAdvice)" Value="273844" />
@@ -3419,6 +3763,7 @@
   <Preset Label="That's My Jam! (buff_SimPreference_Likes_Music_CottageCore)" Value="274582" />
   <Preset Label="buff_SimPreference_Recent_Music_CottageCore" Value="274583" />
   <Preset Label="Baby Joy (buff_DiscussExpandingTheFamily_BabyJoy)" Value="274751" />
+  <Preset Label="buff_Role_Wedding_Venue_Visitor" Value="274767" />
   <Preset Label="buff_AskSimToPursueDreamJob_Hidden_Cooldown_Failure" Value="274796" />
   <Preset Label="buff_AskSimToPursueDreamJob_Hidden_Cooldown_Success" Value="274821" />
   <Preset Label="Only Trying To Help (buff_AskSimToPursueDreamJob_OnlyTryingToHelp)" Value="274822" />
@@ -3434,4 +3779,111 @@
   <Preset Label="Faltered Plan (buff_goingOutSocials_TrashSim_FalteredPlan)" Value="275627" />
   <Preset Label="Malicious Intentions (buff_goingOutSocials_TrashSim_MaliciousIntentions)" Value="275628" />
   <Preset Label="buff_DiscussExpandingTheFamily_Hidden_Cooldown_Pregnancy_Success" Value="275715" />
+  <Preset Label="buff_Wedding_Custom_State_Roles_Couple_Arrival" Value="275934" />
+  <Preset Label="buff_AutonomyMod_NoAutonomousCellPhone" Value="276966" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_Mingle" Value="277813" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_MIngle" Value="277814" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_Mingle" Value="277815" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_Mingle" Value="277816" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Mingle" Value="277817" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_Arrival" Value="277825" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_SitDown" Value="277833" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_Cake" Value="277836" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_Processional" Value="277837" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_Recessional" Value="277838" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_SitDown" Value="277904" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_BouquetGather" Value="278015" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_BouquetToss" Value="278016" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_CakeEat" Value="278017" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_CakeGather" Value="278018" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_Dance" Value="278019" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_DanceGather" Value="278020" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_DanceGatherDanceFloor" Value="278021" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_Meal" Value="278022" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_PostCeremony" Value="278023" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_RecessionalGather" Value="278024" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_Toast" Value="278025" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_Vows" Value="278027" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_ToastGather" Value="278028" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_VowsSpeech" Value="278029" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Couple_VowsWithOfficiant" Value="278030" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_Arrival" Value="278031" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_BouquetGather" Value="278032" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_Recessional" Value="278033" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_RecessionalGather" Value="278034" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_SitDown" Value="278035" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_Toast" Value="278036" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_ToastGather" Value="278037" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_Vows" Value="278038" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_VowsSpeech" Value="278039" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_VowsWithOfficiant" Value="278040" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_BouquetToss" Value="278041" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_Cake" Value="278042" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_CakeEat" Value="278043" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_CakeGather" Value="278044" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_Dance" Value="278045" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_DanceGather" Value="278046" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_DanceGatherDanceFloor" Value="278047" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_Meal" Value="278048" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_PostCeremony" Value="278049" />
+  <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_Processional" Value="278050" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_Arrival" Value="278051" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_BouquetGather" Value="278052" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_Processional" Value="278053" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_Recessional" Value="278054" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_RecessionalGather" Value="278055" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_Toast" Value="278056" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_ToastGather" Value="278057" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_Vows" Value="278058" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_VowsSpeech" Value="278059" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_VowsWithOfficiant" Value="278060" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_Cake" Value="278061" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_BouquetToss" Value="278062" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_CakeEat" Value="278063" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_CakeGather" Value="278064" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_Dance" Value="278065" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_DanceGather" Value="278066" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_DanceGatherDanceFloor" Value="278067" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_Meal" Value="278068" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Guest_PostCeremony" Value="278069" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_Arrival" Value="278070" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_BouquetGather" Value="278071" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_Recessional" Value="278072" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_RecessionnalGather" Value="278073" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_SitDown" Value="278074" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_Toast" Value="278075" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_ToastGather" Value="278076" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_Vows" Value="278077" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_VowsSpeech" Value="278078" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_VowsWithOfficiant" Value="278079" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_BouquetToss" Value="278080" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_Cake" Value="278081" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_CakeEat" Value="278082" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_CakeGather" Value="278083" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_Dance" Value="278084" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_DanceGather" Value="278085" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_DanceGatherDanceFloor" Value="278086" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_Meal" Value="278087" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_PostCeremony" Value="278088" />
+  <Preset Label="buff_Role_Custom_State_Wedding_HonorAttendant_Processional" Value="278089" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Arrival" Value="278090" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_BouquetGather" Value="278091" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Recessional" Value="278092" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_RecessionalGather" Value="278093" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_SitDown" Value="278094" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Toast" Value="278095" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_ToastGather" Value="278096" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Vows" Value="278097" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_VowsSpeech" Value="278098" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_VowsWithOfficiant" Value="278099" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_BouquetToss" Value="278100" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Cake" Value="278101" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_CakeEat" Value="278102" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_CakeGather" Value="278103" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Dance" Value="278104" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_DanceGather" Value="278105" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_DanceGatherDanceFloor" Value="278106" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Meal" Value="278107" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_PostCeremony" Value="278108" />
+  <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Processional" Value="278109" />
 </PresetGroup>

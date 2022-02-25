@@ -34,7 +34,10 @@ namespace Constructor5.Base.LocalizationSystem
                 return Cache[key];
             }
 
-            Hooks.Location<IOnUnlocalizableStringDetected>(x => x.OnUnlocalizableStringDetected(key));
+            if (!string.IsNullOrEmpty(key))
+            {
+                Hooks.Location<IOnUnlocalizableStringDetected>(x => x.OnUnlocalizableStringDetected(key));
+            }
 
 #if DEBUG
             return $"*{key}*";

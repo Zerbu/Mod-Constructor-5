@@ -14,10 +14,10 @@ namespace Constructor5.Base.ExportSystem.Tuning
         [XmlElement("V", typeof(TunableVariant))]
         public List<TunableBase> Tunables { get; set; } = new List<TunableBase>();
 
-        public T Get<T>(string name) where T : TunableBase
+        public T Get<T>(string name, bool autoCreate = true) where T : TunableBase
         {
             var tunable = name != null ? Tunables.Find(x => x.Name == name && x is T) : null;
-            if (tunable == null)
+            if (tunable == null && autoCreate)
             {
                 tunable = Reflection.CreateObject<T>();
                 tunable.Name = name;

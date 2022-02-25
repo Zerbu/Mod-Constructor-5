@@ -60,6 +60,8 @@ namespace Constructor5.Elements.CASPreferences
             if (LikeTrait == null)
             {
                 var newReference = (Trait)ElementManager.Create(typeof(Trait), null, true);
+                newReference.Label = $"Likes {label}";
+                newReference.ShowPreset = true;
                 newReference.AddContextModifier(new CASPreferenceContextModifier
                 {
                     CASPreference = new Reference(this)
@@ -70,6 +72,8 @@ namespace Constructor5.Elements.CASPreferences
             if (DislikeTrait == null)
             {
                 var newReference = (Trait)ElementManager.Create(typeof(Trait), null, true);
+                newReference.Label = $"Dislikes {label}";
+                newReference.ShowPreset = true;
                 newReference.AddContextModifier(new CASPreferenceContextModifier
                 {
                     CASPreference = new Reference(this),

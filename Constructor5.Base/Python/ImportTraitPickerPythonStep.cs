@@ -12,7 +12,7 @@ namespace Constructor5.Base.Python
         {
             var result = new StringBuilder();
 
-            result.AppendLine($"class {Project.Id}_TraitPickerSuperInteraction(TraitPickerSuperInteraction):");
+            result.AppendLine($"class CustomTraitPickerSuperInteraction(TraitPickerSuperInteraction):");
             result.AppendLine($"    INSTANCE_TUNABLES = {{");
             result.AppendLine($"        'traits': TunableList(tunable=TunablePackSafeReference(manager=services.trait_manager()), allow_none=True),");
             result.AppendLine($"        'only_one_allowed': Tunable(tunable_type=bool, default=False)");
@@ -36,7 +36,7 @@ namespace Constructor5.Base.Python
             return result.ToString();
         }
 
-        public override IEnumerable<string> GetHeaders() => new[] { "import services", "import sims4.resources", "from sims4.tuning.instance_manager import InstanceManager", "from sims4.resources import Types" };
+        public override IEnumerable<string> GetHeaders() => new HashSet<string> { "import services", "import sims4.resources", "from traits.trait_tracker import TraitPickerSuperInteraction", "from sims4.tuning.tunable import Tunable, TunableList, TunablePackSafeReference" };
 
         protected internal override void Cleanup() { }
 

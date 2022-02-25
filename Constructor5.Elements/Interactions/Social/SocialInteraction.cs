@@ -1,4 +1,3 @@
-using Constructor5.Base.ComponentSystem;
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
@@ -7,9 +6,6 @@ using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Mixer;
 using Constructor5.Elements.Interactions.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Constructor5.Elements.Interactions.Social
 {

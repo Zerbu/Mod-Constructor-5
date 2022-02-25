@@ -15,7 +15,7 @@ namespace Constructor5.Elements.LootActionSets
 
         private void TestConditionControl_DeleteButtonClicked(SelectableObjectControl control)
         {
-            if (!FancyMessageBox.ShowOKCancel($"Are you sure you want to delete the condition group? This cannot be undone!"))
+            if (!FancyMessageBox.ShowOKCancel("AreYouSureConditionGroup"))
             {
                 return;
             }
@@ -32,7 +32,7 @@ namespace Constructor5.Elements.LootActionSets
 
         private void SelectableObjectControl_DeleteButtonClicked(SelectableObjectControl control)
         {
-            if (!FancyMessageBox.ShowOKCancel($"Are you sure you want to delete the action? This cannot be undone!"))
+            if (!FancyMessageBox.ShowOKCancel("AreYouSureConditionGroup"))
             {
                 return;
             }

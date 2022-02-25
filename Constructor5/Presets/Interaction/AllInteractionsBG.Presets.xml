@@ -920,7 +920,7 @@
   <Preset Label="Cheer (watch_Mixer_Fast_Clap)" Value="14546" />
   <Preset Label="watch_Mixer_Listen" Value="14547" />
   <Preset Label="Fantasize about Weddings (weddingArch_Fantasize)" Value="14548" />
-  <Preset Label="Add Wedding Topper (WeddingCake_AddTopper)" Value="14549" />
+  <Preset Label="Add Wedding Cake Topper (WeddingCake_AddTopper)" Value="14549" />
   <Preset Label="Cut Wedding Cake (WeddingCake_Cut)" Value="14550" />
   <Preset Label="Remove Wedding Cake Topper (WeddingCake_RemoveTopper)" Value="14551" />
   <Preset Label="Attend Wedding (Wedding_Attend_Arch_Bride)" Value="14552" />
@@ -2204,7 +2204,7 @@
   <Preset Label="Enable Autolight (Fireplace_Autolight_Toggle_On)" Value="74774" />
   <Preset Label="Disable Autolight (Fireplace_Autolight_Toggle_Off)" Value="74775" />
   <Preset Label="Sit (seating_Sit_single)" Value="74779" />
-  <Preset Label="Call To Meal (Food_CallToMeal)" Value="74784" />
+  <Preset Label="Call to Meal (Food_CallToMeal)" Value="74784" />
   <Preset Label="Be Called To Meal (Food_GetCalledToMeal)" Value="74785" />
   <Preset Label="Retire (phone_Retire)" Value="74795" />
   <Preset Label="Have Baby at Hospital (HaveBabyAtHospital)" Value="74828" />
@@ -3103,13 +3103,52 @@
   <Preset Label="gtslti_CurrentResidence_With_SelectableSims" Value="116368" />
   <Preset Label="Put Down (put_down_prefer_own_inventory_cancel_aop)" Value="116634" />
   <Preset Label="Open Notebook (computer_ViewCraftingNotebook)" Value="116771" />
+  <Preset Label="Serve Roast Chicken (banquetTable_ServeFood_RoastChicken)" Value="116793" />
+  <Preset Label="Fruit Punch (fruitPunchFountain_FillWith_FruitPunch)" Value="116872" />
+  <Preset Label="Sparkling Apple Juice (fruitPunchFountain_FillWith_Cider)" Value="116873" />
+  <Preset Label="Chocolate (fruitPunchFountain_FillWith_Chocolate)" Value="116876" />
+  <Preset Label="Cheese (fruitPunchFountain_FillWith_Cheese)" Value="116878" />
+  <Preset Label="Improve Fruit Punch (fruitPunchFountain_ImprovePunch)" Value="116880" />
+  <Preset Label="Add Something Extra (fruitPunchFountain_AddSomethingExtra)" Value="116881" />
+  <Preset Label="Empty (fruitPunchFountain_Empty)" Value="116882" />
+  <Preset Label="Taste Fountain's Contents (fruitPunchFountain_DipFinger)" Value="116883" />
+  <Preset Label="Grab Fruit Punch (fruitPunchFountain_GrabServing_FruitPunch)" Value="116900" />
+  <Preset Label="Grab Sparkling Apple Juice (fruitPunchFountain_GrabServing_Cider)" Value="116901" />
+  <Preset Label="Grab Chocolate Covered Strawberry (fruitPunchFountain_GrabServing_Chocolate)" Value="116904" />
+  <Preset Label="Grab Cheese Dipper (fruitPunchFountain_GrabServing_Cheese)" Value="116906" />
+  <Preset Label="Grab Cheese Dipper (fruitPunchFountain_GrabServing_Fumble_Cheese)" Value="116926" />
+  <Preset Label="Grab Chocolate Covered Strawberry (fruitPunchFountain_GrabServing_Fumble_Chocolate)" Value="116927" />
+  <Preset Label="Grab Sparkling Apple Juice (fruitPunchFountain_GrabServing_Fumble_Cider)" Value="116928" />
+  <Preset Label="Grab Fruit Punch (fruitPunchFountain_GrabServing_Fumble_FruitPunch)" Value="116929" />
+  <Preset Label="fruitPunchFountain_EvilLaugh" Value="117038" />
+  <Preset Label="Taste Fountain's Contents (fruitPunchFountain_DipFinger_Cheat)" Value="117099" />
   <Preset Label="Ask {1.SimFirstName} on a Date (phone_AskOnDate)" Value="117165" />
   <Preset Label="Ask {1.SimFirstName} on a Date (phone_AskOnDate_Teen)" Value="117171" />
   <Preset Label="Get In (HotTub_Get_In)" Value="117259" />
   <Preset Label="Sit in Hot Tub (generic_HotTub_Sit)" Value="117263" />
   <Preset Label="generic_HotTub_Stand" Value="117264" />
+  <Preset Label="Grab Cheese Dipper (fruitPunchFountain_GrabServing_Cheese_Centerpeice)" Value="117333" />
+  <Preset Label="Grab Chocolate Covered Strawberry (fruitPunchFountain_GrabServing_Chocolate_Centerpeice)" Value="117334" />
+  <Preset Label="Grab Sparkling Apple Juice (fruitPunchFountain_GrabServing_Cider_Centerpeice)" Value="117335" />
+  <Preset Label="Grab Fruit Punch (fruitPunchFountain_GrabServing_FruitPunch_Centerpeice)" Value="117336" />
   <Preset Label="Skinny Dip (HotTub_Get_In_Nude)" Value="117339" />
+  <Preset Label="Grab Cheese Dipper (fruitPunchFountain_GrabServing_Fumble_Cheese_Centerpeice)" Value="117342" />
+  <Preset Label="Grab Chocolate Covered Strawberry (fruitPunchFountain_GrabServing_Fumble_Chocolate_Centerpeice)" Value="117343" />
+  <Preset Label="Grab Sparkling Apple Juice (fruitPunchFountain_GrabServing_Fumble_Cider_Centerpeice)" Value="117344" />
+  <Preset Label="Grab Fruit Punch (fruitPunchFountain_GrabServing_Fumble_FruitPunch_Centerpeice)" Value="117345" />
   <Preset Label="Blow Out Candles (birthdayCake_BlowOutCandles_Autonomy_Allowed)" Value="117456" />
+  <Preset Label="Serve from Inventory (banquetTable_serve_from_inventory)" Tags="TestUnsafe" Value="117489" />
+  <Preset Label="Grab Cheese Dipper (fruitPunchFountain_GrabServing_Cheese_Child)" Value="117506" />
+  <Preset Label="Grab Chocolate Covered Strawberry (fruitPunchFountain_GrabServing_Chocolate_Child)" Value="117507" />
+  <Preset Label="Grab Sparkling Apple Juice (fruitPunchFountain_GrabServing_Cider_Child)" Value="117508" />
+  <Preset Label="Grab Fruit Punch (fruitPunchFountain_GrabServing_FruitPunch_Child)" Value="117509" />
+  <Preset Label="Grab Cheese Dipper (fruitPunchFountain_GrabServing_Fumble_Cheese_Child)" Value="117514" />
+  <Preset Label="Grab Chocolate Covered Strawberry (fruitPunchFountain_GrabServing_Fumble_Chocolate_Child)" Value="117515" />
+  <Preset Label="Grab Sparkling Apple Juice (fruitPunchFountain_GrabServing_Fumble_Cider_Child)" Value="117516" />
+  <Preset Label="Grab Fruit Punch (fruitPunchFountain_GrabServing_Fumble_FruitPunch_Child)" Value="117517" />
+  <Preset Label="Clean (fruitPunchFountain_Clean_NotSloted)" Value="117522" />
+  <Preset Label="Clean (fruitPunchFountain_Clean_Slotted)" Value="117524" />
+  <Preset Label="fruitPunchFountain_Smell" Value="117576" />
   <Preset Label="generic_HotTub_Woohoo" Value="117772" />
   <Preset Label="WooHoo in Hot Tub (mixer_social_WooHooInHottub_targeted_romance_transition)" Tags="TestUnsafe" Value="117775" />
   <Preset Label="Eat {1.ObjectName} (Gardening_EatHarvestable_genderChance_Male)" Value="117776" />
@@ -3590,8 +3629,11 @@
   <Preset Label="Turn On Auto Behavior (heatLamp_AutoTimer_On)" Value="133229" />
   <Preset Label="Eat a Grilled Cheese Sandwich in Space (RocketShip_EatGrilledCheese_picker)" Tags="TestUnsafe" Value="133508" />
   <Preset Label="Listen to S-Pop (stereo_listen_SPop)" Value="133550" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld)" Value="133552" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld_HotTub)" Value="133553" />
   <Preset Label="Listen to S-Pop (stereo_listen_SPop_HotTub)" Value="133555" />
   <Preset Label="Turn On (Stereo_communityWallSpeaker_turnOn_SPop)" Value="133615" />
+  <Preset Label="Turn On (Stereo_communityWallSpeaker_turnOn_CulturalWorld)" Value="133618" />
   <Preset Label="Spray The Monster Under The Bed (SprayFor_Monster)" Value="133623" />
   <Preset Label="Monster (reactions_Scared_Monster_Panic)" Value="133632" />
   <Preset Label="Throw Away (TrashChute_ThrowAway_si)" Value="133675" />
@@ -3626,7 +3668,7 @@
   <Preset Label="MarketStalls_CreateAndServeFoodToSitSlot" Value="135091" />
   <Preset Label="Sit (ToddlerHighChair_Sit)" Value="135526" />
   <Preset Label="Put {2.SimFirstName} Down Here (putDown_CarriedSim_ToddlerHighChair)" Value="135534" />
-  <Preset Label="Ask to Just Be Friends (mixer_social_AskToJustBeFriends_Targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="135594" />
+  <Preset Label="Ask to Just be Friends (mixer_social_AskToJustBeFriends_Targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="135594" />
   <Preset Label="hostStation_DinerArrival_Arrival_PushRouteInFrontOf" Value="135595" />
   <Preset Label="si_waitStaff_nocontent_postrunautonomous_paybill" Value="135601" />
   <Preset Label="Go Here (solo_MoveAway_Leave_Greeted_Status)" Value="135715" />
@@ -3749,6 +3791,7 @@
   <Preset Label="show_Flash_Cards_Toddler_Mixers_Toddler_Guess" Tags="TestUnsafe" Value="143265" />
   <Preset Label="Deliver Mail (mailboxWall_MailmanDeliverMail_continuation)" Value="143343" />
   <Preset Label="Listen to S-Pop (stereoWall_listen_SPop)" Value="143366" />
+  <Preset Label="Listen to World Music (stereoWall_listen_CulturalWorld)" Value="143368" />
   <Preset Label="Listen to S-Pop (stereo_listen_SPop_DJBooth)" Value="143373" />
   <Preset Label="Dismiss (sim_DismissNannyNPC)" Value="143425" />
   <Preset Label="Fire (sim_FireNannyNPC)" Value="143427" />
@@ -4490,6 +4533,7 @@
   <Preset Label="Console about Death (mixer_social_ConsoleAboutDeath_Targeted_Friendly_EmotionSpecific_c2a)" Tags="TestUnsafe" Value="166960" />
   <Preset Label="Go Here (si_RabbitHole_MoveAway)" Value="166961" />
   <Preset Label="DEBUG: Force Error (debug_ForceError)" Value="166972" />
+  <Preset Label="Listen to World Music (stereo_earbuds_listen_CulturalWorld)" Value="167581" />
   <Preset Label="Listen to S-Pop (stereo_earbuds_listen_SPop)" Value="167584" />
   <Preset Label="Ignore Bills (mailboxWall_IgnoreBills)" Value="167682" />
   <Preset Label="Play with Nesting Blocks (nestingBlocks_Autonomous)" Value="167725" />
@@ -4544,6 +4588,7 @@
   <Preset Label="Listen to Romantic Music (stereo_listen_romance_HotTub_NotInHotTub)" Value="179353" />
   <Preset Label="Listen to Spooky (stereo_listen_spooky_HotTub_NotInHotTub)" Value="179354" />
   <Preset Label="Listen to Winter Holiday (stereo_listen_WinterHoliday_HotTub_NotInHotTub)" Value="179355" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld_HotTub_NotInHotTub)" Value="179363" />
   <Preset Label="Listen to S-Pop (stereo_listen_SPop_HotTub_NotInHotTub)" Value="179364" />
   <Preset Label="Stats (cheat_SetStatisticOnObject)" Value="179604" />
   <Preset Label="mixer_Butterfly_Chase" Value="179608" />
@@ -4663,12 +4708,17 @@
   <Preset Label="Ask to Swing With (simPicker_SwingSet_SwingWith_NotSwinging)" Tags="TestUnsafe" Value="188338" />
   <Preset Label="Ask to Swing With (swingSet_Immediate_AskToSwingWith)" Value="188342" />
   <Preset Label="generic_SwingSet_Sit" Value="188370" />
+  <Preset Label="ArrangementTable_CreateArrangement_inProgress" Value="188413" />
+  <Preset Label="arrangementTable_Staging" Value="188418" />
   <Preset Label="idle_Buff_Temperature_Freezing" Value="188432" />
   <Preset Label="Sell All (gardening_HarvestToSell_SellAll)" Value="188443" />
   <Preset Label="Harvest (gardening_HarvestToSell_SellAll_Continuation)" Value="188447" />
   <Preset Label="Put in Inventory (activityTable_MoveDrawingToInventory_Standing)" Value="188548" />
   <Preset Label="Purchase Seeds (Purchase_Seeds_Rare)" Tags="TestUnsafe" Value="188616" />
   <Preset Label="Purchase Seeds (Purchase_Seeds_Rare_computer)" Tags="TestUnsafe" Value="188617" />
+  <Preset Label="flowerArrangingTable_Arrange" Value="188746" />
+  <Preset Label="flowerArrangingTable_Reaction" Value="188750" />
+  <Preset Label="siCrafting_ArrangementTable_CreateObjectInSlot" Value="188790" />
   <Preset Label="Shove Snow (social_snowEffects_ShoveSnow_Ground)" Value="189029" />
   <Preset Label="Ask to Be Pushed on Swing (simPicker_SwingSet_Swing_AskToBePushed)" Tags="TestUnsafe" Value="189246" />
   <Preset Label="Place in World (add_To_World_Welcome_Wagon_FruitCake)" Value="189267" />
@@ -4891,6 +4941,7 @@
   <Preset Label="Listen to Romantic Music (stereo_listen_romance_Smart_Hub)" Value="203830" />
   <Preset Label="Listen to Spooky (stereo_listen_spooky_Smart_Hub)" Value="203831" />
   <Preset Label="Listen to Winter Holiday (stereo_listen_WinterHoliday_Smart_Hub)" Value="203832" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld_Smart_Hub)" Value="203846" />
   <Preset Label="Listen to S-Pop (stereo_listen_SPop_Smart_Hub)" Value="203847" />
   <Preset Label="Listen to Hip Hop (stereo_listens_HipHop_Smart_Hub)" Value="203851" />
   <Preset Label="reactions_WokeUp_Smart_Hub_Daily_News" Value="203913" />
@@ -4922,6 +4973,7 @@
   <Preset Label="Play Trivia (smart_Hub_Play_Trivia_React_Happy)" Value="204609" />
   <Preset Label="Play Trivia (smart_Hub_Play_Trivia_React_Sad)" Value="204610" />
   <Preset Label="Apologize (smart_Hub_Social_Apologize)" Value="204771" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld_WaterScooter)" Value="205203" />
   <Preset Label="Listen to S-Pop (stereo_listen_SPop_WaterScooter)" Value="205204" />
   <Preset Label="Listen to Hip Hop (stereo_listens_HipHop_WaterScooter)" Value="205208" />
   <Preset Label="Fishing (phone_Notebook_View_Fishing)" Value="205257" />
@@ -5000,6 +5052,13 @@
   <Preset Label="Edit Rejected Content (autonomous_Freelancer_MakeEdits)" Tags="TestUnsafe" Value="209699" />
   <Preset Label="Put in Inventory (si_SwipeFloatingUrnStoneAndSetOwnership)" Value="210068" />
   <Preset Label="Start Drift (DEBUG) (debug_SitLoungeFloat_Drift_Start)" Value="210113" />
+  <Preset Label="Play In Sand (sandActivities_PlayInSand_Toddler)" Value="210186" />
+  <Preset Label="Play In Sand (sandActivities_PlayInSand_Child)" Value="210194" />
+  <Preset Label="sandActivities_Mixers_Idle_Child" Value="210207" />
+  <Preset Label="sandActivities_Mixers_Play_Child" Value="210208" />
+  <Preset Label="sandActivities_Mixers_Idle_Toddler" Value="210210" />
+  <Preset Label="sandActivities_Mixers_Play_Toddler" Value="210212" />
+  <Preset Label="Play In Sand (terrain-gohere_SandActivities_PlayInSand)" Value="210235" />
   <Preset Label="Turn On (immediate_CeilingFan_Toggle)" Value="210297" />
   <Preset Label="waypoint_WanderAround_WalkOnly" Value="210386" />
   <Preset Label="Name (name_App_Start_Royalties_Freelancer_Website)" Value="210395" />
@@ -5049,6 +5108,7 @@
   <Preset Label="Relax (chair_SitLoungeFloat_RelaxFromNap)" Value="211819" />
   <Preset Label="Nap (chair_SitLoungeFloat_Nap)" Value="211822" />
   <Preset Label="Dozed Off (chair_SitLoungeFloat_NapFromRelax)" Value="211839" />
+  <Preset Label="sandActivities_PlayInSand_Auto" Value="211903" />
   <Preset Label="Read (si_SwipeIntoSimInventory_Note)" Value="211941" />
   <Preset Label="Meet With Client (freelancer_Career_SuperInteraction_Start_Meet_Client_RabbitHole)" Value="211957" />
   <Preset Label="Paint (sketchpad_craft_autonomously)" Value="211961" />
@@ -5132,6 +5192,7 @@
   <Preset Label="Death By Drowning (oceanSwimming_Reactions_Drown_WaterVehicleExit)" Value="223188" />
   <Preset Label="Listen to Hip Hop (stereo_listens_HipHop_Bot)" Value="223580" />
   <Preset Label="Listen to S-Pop (stereo_listen_SPop_Bot)" Value="223585" />
+  <Preset Label="Listen to World Music (stereo_listen_CulturalWorld_Bot)" Value="223587" />
   <Preset Label="Take Shower (shower_takeshower_wall_privacy_CT)" Value="224187" />
   <Preset Label="Take Shower (shower_takeshower_wall_noprivacy_YAE)" Value="224188" />
   <Preset Label="Take Brisk Shower (shower_takeshower_wall_noprivacy_YAE_Brisk)" Value="224264" />
@@ -5461,20 +5522,131 @@
   <Preset Label="Throw Away (collect_Trash_Compost_Aggregate)" Value="254791" />
   <Preset Label="Ask for Encouragement (mixer_social_AskForAdvice_targeted_friendly_emotionSpecific_Scared)" Tags="TestUnsafe" Value="254864" />
   <Preset Label="Sit (seating_Sit_NoPostureProvided)" Value="254902" />
+  <Preset Label="Step On (dustFriends_Bunny_StepOn)" Value="255205" />
+  <Preset Label="Pet (dustFriends_Bunny_Pet)" Value="255206" />
+  <Preset Label="Befriend (dustFriends_Bunny_Befriend)" Value="255207" />
+  <Preset Label="Feed Dust (dustFriends_Bunny_FeedDust)" Value="255208" />
+  <Preset Label="Try to Pet (dustFriends_Fiend_TryToPet)" Value="255210" />
+  <Preset Label="Appease (dustFriends_Fiend_Appease)" Value="255211" />
+  <Preset Label="Step On (dustFriends_Fiend_StepOn)" Value="255212" />
+  <Preset Label="Canning (fridge_Canning)" Value="256443" />
   <Preset Label="Age Up! (ageUpInteraction_BlowCandles_NoConstraint)" Value="256618" />
+  <Preset Label="Vacuum Here (terrain-gohere_VacuumHere)" Value="256623" />
   <Preset Label="relax_Passive" Value="256648" />
+  <Preset Label="Purchase Chickens (purchasePickerInteraction_AnimalObjects_Chickens)" Tags="TestUnsafe" Value="256727" />
+  <Preset Label="Adult (terrain-createfox_female_adult)" Value="256763" />
+  <Preset Label="Elder (terrain-createfox_female_elder)" Value="256764" />
+  <Preset Label="Adult (terrain-createfox_male_adult)" Value="256767" />
+  <Preset Label="Elder (terrain-createfox_male_elder)" Value="256768" />
   <Preset Label="Cook (GroupCooking_Join_Start)" Value="256850" />
+  <Preset Label="Be Mean to {1.ObjectName} (sI_AnimalObjects_Socials_Mean_Chicken)" Value="256882" />
+  <Preset Label="Empty Vacuum (collect_Trash_EmptyVacuumBag)" Value="256894" />
+  <Preset Label="Beg For Mercy (dustFriends_Fiend_BegForMercy)" Value="256971" />
+  <Preset Label="Name {1.ObjectName} (rename_AnimalObjects_Rabbit)" Value="256973" />
+  <Preset Label="Name {1.ObjectName} (rename_AnimalObjects_Chicken)" Value="256974" />
+  <Preset Label="Vacuum Here (terrain-gohere_VacuumHere_Child_Handheld)" Value="257008" />
   <Preset Label="Art &amp; Animation (statePickerSuperInteraction_DebugIdles_AnimalObjects)" Tags="TestUnsafe" Value="257034" />
   <Preset Label="Make Friend (debugCheat_animalObjects_Relationship_MakeFriend)" Value="257041" />
   <Preset Label="Set Min Friendship (debugCheat_animalObjects_Relationship_SetMin)" Value="257042" />
   <Preset Label="Set Max Friendship (debugCheat_animalObjects_Relationship_SetMax)" Value="257043" />
   <Preset Label="Set Relationship to Almost Friend (debugCheat_animalObjects_Relationship_SetAlmostFriend)" Value="257044" />
+  <Preset Label="Set Up Picnic (PicnicBasket_SetUpPicnic)" Value="257046" />
+  <Preset Label="Pack Food (PicnicBasket_PackFood)" Value="257047" />
+  <Preset Label="Empty Basket (PicnicBasket_EmptyBasket)" Value="257048" />
+  <Preset Label="Debug - Create Rabbit (debug_CreateAnimalObjects_Rabbit)" Value="257077" />
+  <Preset Label="Debug - Create Chicken (Hen) (debug_CreateAnimalObjects_Chicken_Hen)" Value="257078" />
+  <Preset Label="Debug - Create Chicken (Rooster) (debug_CreateAnimalObjects_Chicken_Rooster)" Value="257079" />
+  <Preset Label="Place picnic basket (PicnicBasket_PlaceOnTable)" Value="257081" />
+  <Preset Label="Order {1.SimFirstName} to Clean (mixer_social_Mean_Dust_DemandClean)" Tags="TestUnsafe" Value="257093" />
+  <Preset Label="Argue About Dirty Surroundings (mixer_social_Mean_Dust_Argue)" Tags="TestUnsafe" Value="257095" />
+  <Preset Label="Ask For Help Cleaning (mixer_Social_Dust_AskClean)" Tags="TestUnsafe" Value="257096" />
+  <Preset Label="Check Dust Level (immediate_Dust_CheckDustLevel)" Value="257097" />
+  <Preset Label="Vacuum (vacuumCleaner_Upright_Maid_Create)" Value="257141" />
+  <Preset Label="stand_Fox_Passive" Value="257160" />
+  <Preset Label="Stand (fox_stand)" Value="257164" />
+  <Preset Label="Titanium Rotors (Completed) (vacuumCleaner_Upgrades_CompletedDisplay_Unbreakable)" Value="257237" />
+  <Preset Label="Bottomless Pit (Completed) (vacuumCleaner_Upgrades_CompletedDisplay_BottomlessBag)" Value="257238" />
+  <Preset Label="Vaporizing Pulse (Completed) (vacuumCleaner_Upgrades_CompletedDisplay_VaporizingPulse)" Value="257239" />
+  <Preset Label="Self-Charging Power Cell (Completed) (vacuumCleaner_Upgrades_CompletedDisplay_SelfCharging)" Value="257240" />
+  <Preset Label="Install Bottomless Pit (vacuumCleaner_Upgrades_BottomlessBag)" Value="257246" />
+  <Preset Label="Resume Installing Bottomless Pit (vacuumCleaner_Upgrades_BottomlessBag_Resume)" Value="257247" />
+  <Preset Label="Install Self-Charging Power Cell (vacuumCleaner_Upgrades_SelfCharging)" Value="257248" />
+  <Preset Label="Resume Installing Self-Charging Power Cell (vacuumCleaner_Upgrades_SelfCharging_Resume)" Value="257249" />
+  <Preset Label="Install Titanium Rotors (vacuumCleaner_Upgrades_Unbreakable)" Value="257250" />
+  <Preset Label="Resume Installing Titanium Rotors (vacuumCleaner_Upgrades_Unbreakable_Resume)" Value="257251" />
+  <Preset Label="Install Vaporizing Pulse  (vacuumCleaner_Upgrades_VaporizingPulse)" Value="257252" />
+  <Preset Label="Resume Installing Vaporizing Pulse (vacuumCleaner_Upgrades_VaporizingPulse_Resume)" Value="257253" />
+  <Preset Label="Choose Favorite Vacuum Cleaner (vacuum_FavoriteToggle_Upright)" Value="257281" />
+  <Preset Label="Choose Favorite Handheld Vacuum Cleaner (vacuum_FavoriteToggle_Handheld)" Value="257283" />
+  <Preset Label="Check Dust Level  (terrain-gohere_CheckDustLevel)" Value="257344" />
+  <Preset Label="Check Dust Level  (dust_CheckDustLevel_Actor)" Value="257346" />
+  <Preset Label="Check Dust Level  (dust_CheckDustLevel_Object)" Value="257347" />
+  <Preset Label="Eat {1.ObjectName} (Consumable_Drink_Canning_Jars)" Value="257364" />
+  <Preset Label="Ask for Help Cleaning (Dust_AskForHelp_Picker)" Tags="TestUnsafe" Value="257387" />
+  <Preset Label="Befriend (dustFriends_Fiend_Befriend)" Value="257434" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnFloor_Handheld_Child)" Value="257491" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnFloor_Standing)" Value="257492" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnObject_Handheld)" Value="257493" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnObject_Standing)" Value="257494" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnVacuum_Standing)" Value="257495" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnVacuum_Handheld)" Value="257496" />
+  <Preset Label="Vacuum (new_VacuumCleaner_DustFiend_Standing)" Value="257497" />
+  <Preset Label="Vacuum (new_VacuumCleaner_DustFiend_Handheld_Child)" Value="257498" />
+  <Preset Label="Clean Toddler with Vacuum (new_VacuumCleaner_Toddler)" Value="257505" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Start_DustFriend_Standing)" Value="257506" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Start_DustFriend_Handheld_Child)" Value="257507" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Start_Object_Standing)" Value="257508" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Start_Object_Handheld)" Value="257509" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Start_Toddler)" Value="257513" />
+  <Preset Label="vacuumCleaner_Inventory_Picker_Floor_Standing" Tags="TestUnsafe" Value="257518" />
+  <Preset Label="vacuumCleaner_Inventory_Picker_Object_Standing" Tags="TestUnsafe" Value="257521" />
+  <Preset Label="vacuumCleaner_Inventory_Picker_Toddler" Tags="TestUnsafe" Value="257523" />
+  <Preset Label="vacuumCleaner_Inventory_Picker_DustFriend_Standing" Tags="TestUnsafe" Value="257525" />
+  <Preset Label="vacuumCleaner_Inventory_Picker_Floor_Handheld_Child" Tags="TestUnsafe" Value="257526" />
+  <Preset Label="vacuumCleaner_Inventory_Picker_Object_Handheld" Tags="TestUnsafe" Value="257527" />
+  <Preset Label="vacuumCleaner_inWorld_Picker_DustFriend_Standing" Tags="TestUnsafe" Value="257533" />
+  <Preset Label="vacuumCleaner_Inventory_Picker_DustFriend_Handheld_Child" Tags="TestUnsafe" Value="257534" />
+  <Preset Label="vacuumCleaner_inWorld_Picker_Object_Standing" Tags="TestUnsafe" Value="257535" />
+  <Preset Label="vacuumCleaner_inWorld_Picker_DustFriend_Handheld_Child" Tags="TestUnsafe" Value="257536" />
+  <Preset Label="vacuumCleaner_inWorld_Picker_Object_Handheld" Tags="TestUnsafe" Value="257537" />
+  <Preset Label="vacuumCleaner_inWorld_Picker_Floor_Handheld_Child" Tags="TestUnsafe" Value="257538" />
+  <Preset Label="vacuumCleaner_inWorld_Picker_Toddler" Tags="TestUnsafe" Value="257539" />
+  <Preset Label="vacuumCleaner_inWorld_Picker_Floor_Standing" Tags="TestUnsafe" Value="257540" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_VacuumCleaner_DustFiend_Handheld_Child)" Value="257545" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_VacuumCleaner_DustFiend_Standing)" Value="257546" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_VacuumCleaner_Floor_Handheld_Child)" Value="257547" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_VacuumCleaner_Floor_Standing)" Value="257548" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_VacuumCleaner_Object_Handheld)" Value="257549" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_VacuumCleaner_Object_Standing)" Value="257550" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_VacuumCleaner_Toddler)" Value="257551" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Start_Floor_Handheld_Child)" Value="257555" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Start_Floor_Standing)" Value="257556" />
+  <Preset Label="Vacuum Around (new_VacuumCleaner_Start_OnVacuum__InWorld_Standing)" Value="257559" />
+  <Preset Label="Vacuum Around (new_VacuumCleaner_Start_OnVacuum_InWorld_Handheld)" Value="257560" />
+  <Preset Label="Vacuum Around (new_VacuumCleaner_Start_OnVacuum_InInventory_Handheld)" Value="257562" />
+  <Preset Label="Vacuum Around (new_VacuumCleaner_Start_OnVacuum_InInventory_Standing)" Value="257563" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Start_Object_Handheld_ChildOnly)" Value="257566" />
+  <Preset Label="Ask {1.ObjectName} to Search for Valuables (dustFriends_Bunny_AskToFind)" Value="257617" />
+  <Preset Label="Ask {1.ObjectName} to Rummage for Clutter (dustFriends_Fiend_AskToFind)" Value="257618" />
+  <Preset Label="Pack Food (PicnicBasket_PackFood_Picker)" Tags="TestUnsafe" Value="257647" />
+  <Preset Label="Name (rename_AnimalObjects_BirdHome)" Value="257679" />
   <Preset Label="Always Succeed at EP11 Animal Socials (debugCheat_animalObjects_forceOutcome_socialSuccess)" Value="257692" />
   <Preset Label="Always Fail at EP11 Animal Socials (debugCheat_animalObjects_forceOutcome_socialFail)" Value="257693" />
+  <Preset Label="Fill basket (debug_FillPicnicBasket)" Value="257700" />
+  <Preset Label="Clean Toddler with Vacuum (socials_Targeted_Friendly_AlwaysOn_STC_Toddler_Vacuum)" Tags="TestUnsafe" Value="257794" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnObject_Handheld_Low)" Value="257881" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnObject_Handheld_High)" Value="257882" />
+  <Preset Label="VacuumCleaner_HeightChooser" Value="257919" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Chicken_TalkTo)" Value="257950" />
+  <Preset Label="Tell Jokes (sI_AnimalObjects_Socials_Funny_Chicken_TellJoke)" Value="257954" />
   <Preset Label="Pick Up (sim_Carry_Object_Book)" Value="258029" />
   <Preset Label="Name {1.ObjectName} (rename_AnimalObjects_AnimalPen)" Value="258070" />
   <Preset Label="Name {1.ObjectName} (rename_AnimalObjects_ChickenCoop)" Value="258071" />
+  <Preset Label="Ask about Egg Obsession (sI_AnimalObjects_Socials_Friendly_Chicken_Ask)" Value="258087" />
   <Preset Label="Mock Cleanliness (reactions_Trait_Slob_CleaningNearby)" Value="258164" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnObject_Handheld_Floor)" Value="258166" />
+  <Preset Label="Practice Guitar with {1.ObjectName} (AnimalEnthusiast_PlayTo_Picker_Guitar)" Tags="TestUnsafe" Value="258167" />
+  <Preset Label="Practice Guitar (AnimalEnthusiast_PlayTo_Guitar)" Value="258171" />
   <Preset Label="Name {1.ObjectName} (rename_AnimalObjects_Cow)" Value="258186" />
   <Preset Label="Name {1.ObjectName} (rename_AnimalObjects_Llama)" Value="258187" />
   <Preset Label="Grudge (reactions_Trait_Gloomy_CheerfulNearby)" Value="258193" />
@@ -5482,9 +5654,14 @@
   <Preset Label="Angry at Bad Behavior (reactions_Trait_Good_NegativityNearby)" Value="258195" />
   <Preset Label="Scoff (reactions_Trait_Ambitious_MischiefNearby)" Value="258196" />
   <Preset Label="See What's Happening (reaction_Clumsy_SurprisedAtSlip)" Value="258221" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_Electronic_VacuumCleaner)" Value="258224" />
   <Preset Label="Add Debug Trait Outcomes Buff (debug_AddTraitOutcomeBuff)" Value="258314" />
   <Preset Label="Solve Hard Problems (self_Genius_SolveHardProblems)" Value="258326" />
   <Preset Label="Help Out (mixer_social_GoodTrait_HelpOut)" Tags="TestUnsafe" Value="258339" />
+  <Preset Label="Call Chickens Inside (sI_AnimalObjects_Chickens_CallChickensInside)" Value="258372" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnObject_Handheld_Water)" Value="258376" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnObject_Handheld_High_Water)" Value="258378" />
+  <Preset Label="Vacuum (new_VacuumCleaner_Loop_OnObject_Handheld_Low_Water)" Value="258380" />
   <Preset Label="Ask about Favorite Color (socials_Targeted_Friendly_SimPreference_Color)" Tags="TestUnsafe" Value="258385" />
   <Preset Label="Ask about Taste in Music (socials_Targeted_Friendly_SimPreference_Music)" Tags="TestUnsafe" Value="258387" />
   <Preset Label="Ask about Hobbies and Skills (socials_Targeted_Friendly_SimPreference_Activity)" Tags="TestUnsafe" Value="258388" />
@@ -5499,13 +5676,38 @@
   <Preset Label="Go to Stored Location (GoToStoredLocation)" Value="258812" />
   <Preset Label="self_Gloomy_Autonomy" Value="258846" />
   <Preset Label="Paint (sketchpad_craft_autonomously_Perfectionist)" Value="258848" />
+  <Preset Label="Hatch Egg (sI_AnimalObjects_Chickens_Coop_HatchEgg)" Value="258857" />
+  <Preset Label="Incubate in Coop (sI_AnimalObjects_Chickens_Coop_IncubateInCoop)" Value="258861" />
   <Preset Label="Heckle (reactions_Trait_Mean_InteractionFailsNearby)" Value="258935" />
+  <Preset Label="Create Animal Treats (fridge_Cook_AnimalObject_Create_LivestockFeed)" Value="258986" />
   <Preset Label="animalObject_LivestockFeed_CreateInInventory" Value="259170" />
   <Preset Label="Read Under Covers (bed_Undercovers_ReadUnderCovers)" Value="259235" />
   <Preset Label="Unlock All Animal Treat Recipes (DEBUG) (cheats_AnimalObjects_LivestockFeed_UnlockAllRecipes)" Value="259303" />
   <Preset Label="Create All Feed Recipes In Inventory (DEBUG) (cheats_AnimalObjects_LivestockFeed_CreateAllRecipes)" Value="259304" />
+  <Preset Label="Debug: Add Pumpkin (debug_GiantCrops_Plant_Add_Pumpkin)" Value="259343" />
+  <Preset Label="Debug: Add Lettuce (debug_GiantCrops_Plant_Add_Lettuce)" Value="259344" />
+  <Preset Label="Debug: Add Aubergine (debug_GiantCrops_Plant_Add_Aubergine)" Value="259345" />
+  <Preset Label="Debug: Add Watermelon (debug_GiantCrops_Plant_Add_Watermelon)" Value="259346" />
+  <Preset Label="Harvest Crop (super_GiantCrops_Plant_HarvestCrop)" Value="259348" />
+  <Preset Label="Debug: Select Oversized Crop Yield (debug_StatePicker_GiantCrops_SelectYield)" Tags="TestUnsafe" Value="259349" />
+  <Preset Label="Debug: Select Oversized Crop Growth (debug_StatePicker_GiantCrops_SelectGrowth)" Tags="TestUnsafe" Value="259350" />
   <Preset Label="Talk Through Issues (mixer_social_TalkItOut_targeted_romance_alwaysOn_JealousTrait)" Tags="TestUnsafe" Value="259389" />
   <Preset Label="Flee Child (reactions_AnnoyedByChildren)" Value="259395" />
+  <Preset Label="Learn To Make Fruity Treat (livestockFeed_LearnRecipe_Blueberry)" Value="259401" />
+  <Preset Label="Learn To Make Chocolatey Treat (livestockFeed_LearnRecipe_Chocolatey)" Value="259429" />
+  <Preset Label="Learn To Make Fishy Protein Treat (livestockFeed_LearnRecipe_Fishy)" Value="259430" />
+  <Preset Label="Learn to Make Flirty Treat (livestockFeed_LearnRecipe_Flirty)" Value="259431" />
+  <Preset Label="Learn To Make Golden Treat (livestockFeed_LearnRecipe_Golden)" Value="259432" />
+  <Preset Label="Learn To Make Healthy Treat (livestockFeed_LearnRecipe_Healthy)" Value="259433" />
+  <Preset Label="Learn To Make Friendly Treat (livestockFeed_LearnRecipe_Normal)" Value="259434" />
+  <Preset Label="Learn To Make Midnight Treat (livestockFeed_LearnRecipe_Obsidian)" Value="259435" />
+  <Preset Label="Learn To Make Pumpkin Treat (livestockFeed_LearnRecipe_Pumpkin)" Value="259436" />
+  <Preset Label="Learn To Make Rainbow Treat (livestockFeed_LearnRecipe_Rainbow)" Value="259439" />
+  <Preset Label="Learn To Make Animal Party Treat (livestockFeed_LearnRecipe_Social)" Value="259440" />
+  <Preset Label="Learn to Make Spicy Treat (livestockFeed_LearnRecipe_SpicyBeef)" Value="259442" />
+  <Preset Label="Learn To Make Veggie Treat (livestockFeed_LearnRecipe_Veggie)" Value="259443" />
+  <Preset Label="Encourage Crop Growth (super_GiantCrops_Plant_PruneCrop)" Value="259472" />
+  <Preset Label="Plant Oversized Crop (picker_GiantCrops_PlantCrop_SelectSeed_FromPatch)" Tags="TestUnsafe" Value="259477" />
   <Preset Label="Enthuse About Cooking (socials_Targeted_Friendly_SimPreference_Recent_Likes_Cooking)" Tags="TestUnsafe" Value="259504" />
   <Preset Label="Enthuse About Fitness (socials_Targeted_Friendly_SimPreference_Recent_Likes_Fitness)" Tags="TestUnsafe" Value="259506" />
   <Preset Label="Enthuse About Painting (socials_Targeted_Friendly_SimPreference_Recent_Likes_Painting)" Tags="TestUnsafe" Value="259507" />
@@ -5516,50 +5718,410 @@
   <Preset Label="Groan About Painting (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Painting)" Tags="TestUnsafe" Value="259512" />
   <Preset Label="Whine About Videogames (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Videogaming)" Tags="TestUnsafe" Value="259513" />
   <Preset Label="Gripe About Violins (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Violin)" Tags="TestUnsafe" Value="259514" />
+  <Preset Label="View Competition Entry (festivals_VillageFair_Interactions_ViewEntry)" Value="259620" />
+  <Preset Label="Judge Entry (festivals_VillageFair_Interactions_Judge)" Value="259624" />
+  <Preset Label="Read about the Finchwick Fair (festivals_VillageFair_Interactions_ViewFestivalInfo)" Value="259625" />
+  <Preset Label="Fertilize Crop (picker_GiantCrops_Fertilize_SelectFertilizer)" Tags="TestUnsafe" Value="259644" />
+  <Preset Label="Debug: Give Crop Supplies (debug_GiantCrops_GiveCropSupplies)" Value="259647" />
+  <Preset Label="Fertilize Crop (super_GiantCrops_Plant_Fertilize)" Value="259653" />
+  <Preset Label="Take Nap (Fox_TakeNap)" Value="259663" />
+  <Preset Label="Sit (Fox_Sit_onGround)" Value="259664" />
+  <Preset Label="Walk (Fox_Walk_ToPoint)" Value="259665" />
+  <Preset Label="Watch {1.SimFirstName} (Fox_WatchSim)" Value="259666" />
+  <Preset Label="Watch (Fox_WatchPen)" Value="259667" />
+  <Preset Label="Steal Egg (Fox_StealEgg)" Value="259669" />
+  <Preset Label="Run Around (waypoint_RunAround_Fox)" Value="259689" />
+  <Preset Label="Interact with {1.SimFirstName} (foxSocial_SimToFox_NonTouching_Sim)" Value="259732" />
+  <Preset Label="Call Chickens Out (sI_AnimalObjects_Chickens_CallChickensOutside)" Value="259749" />
   <Preset Label="Go Here (terrain-MoveAway_HatesChildren)" Value="259759" />
   <Preset Label="Assign Livestock (immediateSuperInteraction_AssignAnimal)" Value="259809" />
+  <Preset Label="Ask {1.SimFirstName} Not To Steal (socials_Fox_SimToFox_AskNotToSteal)" Tags="TestUnsafe" Value="259828" />
+  <Preset Label="Stop Spawning Dust Piles (Debug) (debug_DestroyDustPiles)" Value="259841" />
+  <Preset Label="dynamicSign_VillageFair_ChickenEgg" Value="259933" />
+  <Preset Label="dynamicSign_VillageFair_CowMilk" Value="259934" />
+  <Preset Label="dynamicSign_VillageFair_LlamaWool" Value="259935" />
+  <Preset Label="dynamicSign_VillageFair_CropPie" Value="259936" />
+  <Preset Label="dynamicSign_VillageFair_GiantPie" Value="259937" />
+  <Preset Label="Submit Entry (villageFair_SubmitEntry_Picker_Cow)" Tags="TestUnsafe" Value="259939" />
+  <Preset Label="Submit Entry (villageFair_SubmitEntry_Picker_Llama)" Tags="TestUnsafe" Value="259941" />
+  <Preset Label="Submit Entry (villageFair_SubmitEntry_Picker_Chicken)" Tags="TestUnsafe" Value="259942" />
+  <Preset Label="Submit Entry (villageFair_SubmitEntry_Picker_Crop)" Tags="TestUnsafe" Value="259943" />
+  <Preset Label="Submit Entry (villageFair_SubmitEntry_Picker_GiantCrop)" Tags="TestUnsafe" Value="259944" />
+  <Preset Label="Submit Entry (villageFair_SubmitEntry_Picker_Pie)" Tags="TestUnsafe" Value="259945" />
+  <Preset Label="Submit Entry (villageFair_SubmitEntry_Picker_Wool)" Tags="TestUnsafe" Value="259946" />
+  <Preset Label="Submit Entry (villageFair_SubmitEntry_Picker_Milk)" Tags="TestUnsafe" Value="259947" />
+  <Preset Label="Submit Entry (villageFair_SubmitEntry_Picker_Egg)" Tags="TestUnsafe" Value="259948" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SubmitEntry_Chicken)" Value="259949" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SubmitEntry_AnimalPen_Llama)" Value="259950" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SubmitEntry_Pie)" Value="259951" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SwipeCompetition)" Value="259955" />
+  <Preset Label="Be Slain by a Vicious Killer Rabbit (death_AnimalObjects_KillerRabbit)" Value="259988" />
+  <Preset Label="Be Slain by a Vicious Killer Rabbit (death_AnimalObjects_KillerRabbit_debug)" Value="259990" />
+  <Preset Label="Buy Garden Shop Items... (marketStalls_ShopFor_VillageShops_Garden)" Value="260019" />
+  <Preset Label="Buy Grocery Shop Items... (marketStalls_ShopFor_VillageShops_Grocery)" Value="260020" />
+  <Preset Label="Buy Grocery Shop Items (purchase_MarketStalls_VillageShops_Grocery)" Tags="TestUnsafe" Value="260026" />
+  <Preset Label="Buy Garden Shop Items (purchase_MarketStalls_VillageShops_Garden)" Tags="TestUnsafe" Value="260027" />
+  <Preset Label="fox_Watch_Idle" Value="260050" />
   <Preset Label="generic_Sit_Chaise" Value="260055" />
   <Preset Label="sit_Chaise_Mixers_Idle" Value="260061" />
+  <Preset Label="Take Selfie With Crop (super_GiantCrops_Plant_TakeSelfieWith)" Value="260066" />
+  <Preset Label="Collect Eggs (sI_AnimalObjects_Chickens_Coop_CollectEggs)" Value="260091" />
   <Preset Label="Lounge (chaise_sit)" Value="260111" />
   <Preset Label="Sit (seating_Sit_ToddlerOnly)" Value="260127" />
   <Preset Label="sit_Chaise_Mixers_Nap" Value="260132" />
   <Preset Label="Nap (sectional_Sofa_Chaise_Nap)" Value="260139" />
+  <Preset Label="canning_CreateFinalJar" Value="260145" />
+  <Preset Label="Egg (cheats_AnimalObjects_Eggs_White)" Value="260198" />
+  <Preset Label="Small Hoop (crossStitch_StartCrafting_Kit_SmallHoop_Simple)" Value="260218" />
+  <Preset Label="crossStitch_CraftingPhase_Stitch" Value="260234" />
+  <Preset Label="Cross-stitch (crossStitch_CraftingStep_Stitch)" Value="260264" />
+  <Preset Label="fox_Sleep_Mixers_Back" Value="260288" />
+  <Preset Label="fox_Sleep_Mixers_BackQuirk" Value="260289" />
+  <Preset Label="fox_Sleep_Mixers_Curl" Value="260290" />
+  <Preset Label="fox_Sleep_Mixers_CurlQuirk" Value="260291" />
+  <Preset Label="fox_Sleep_Mixers_Stomach" Value="260292" />
+  <Preset Label="fox_Sleep_Mixers_StomachQuirk" Value="260293" />
   <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_PicnicTable)" Value="260300" />
+  <Preset Label="Fox_LayDown_Passive" Value="260336" />
+  <Preset Label="Blue Egg (cheats_AnimalObjects_Eggs_Blue)" Value="260363" />
+  <Preset Label="Chocolate Egg (cheats_AnimalObjects_Eggs_Chocolate)" Value="260364" />
+  <Preset Label="Golden Egg (cheats_AnimalObjects_Eggs_Gold)" Value="260365" />
+  <Preset Label="Green Egg (cheats_AnimalObjects_Eggs_Green)" Value="260366" />
+  <Preset Label="Obsidian Egg (cheats_AnimalObjects_Eggs_Obsidian)" Value="260367" />
+  <Preset Label="Orange Egg (cheats_AnimalObjects_Eggs_Orange)" Value="260368" />
+  <Preset Label="Rainbow Egg (cheats_AnimalObjects_Eggs_Rainbow)" Value="260369" />
+  <Preset Label="Egg (cheats_AnimalObjects_Eggs_Fertilized_White)" Value="260374" />
+  <Preset Label="Golden Egg (cheats_AnimalObjects_Eggs_Fertilized_Gold)" Value="260375" />
+  <Preset Label="Obsidian Egg (cheats_AnimalObjects_Eggs_Fertilized_Obsidian)" Value="260376" />
+  <Preset Label="Clean Coop (empty_Trash_AnimalObject_Home_Coop)" Value="260379" />
+  <Preset Label="Scatter Feed Nearby (sI_AnimalObjects_Chickens_Coop_FeedChickens)" Value="260380" />
   <Preset Label="Talk to Plant (gardenPlant_ChildTalk)" Value="260405" />
+  <Preset Label="Small Hoop (crossStitch_StartCrafting_Kit_SmallHoop_Animals)" Value="260415" />
+  <Preset Label="Small Hoop (crossStitch_StartCrafting_Kit_SmallHoop_Foods)" Value="260416" />
+  <Preset Label="Small Hoop (crossStitch_StartCrafting_Kit_SmallHoop_Nature)" Value="260417" />
+  <Preset Label="Small Hoop (crossStitch_StartCrafting_Kit_SmallHoop_Words)" Value="260418" />
+  <Preset Label="Medium Hoop (crossStitch_StartCrafting_Kit_MediumHoop_Animals)" Value="260422" />
+  <Preset Label="Medium Hoop (crossStitch_StartCrafting_Kit_MediumHoop_Foods)" Value="260423" />
+  <Preset Label="Medium Hoop (crossStitch_StartCrafting_Kit_MediumHoop_Nature)" Value="260424" />
+  <Preset Label="Medium Hoop (crossStitch_StartCrafting_Kit_MediumHoop_Simple)" Value="260425" />
+  <Preset Label="Medium Hoop (crossStitch_StartCrafting_Kit_MediumHoop_Words)" Value="260426" />
+  <Preset Label="Large Hoop (crossStitch_StartCrafting_Kit_LargeHoop_Animals)" Value="260427" />
+  <Preset Label="Large Hoop (crossStitch_StartCrafting_Kit_LargeHoop_Foods)" Value="260428" />
+  <Preset Label="Large Hoop (crossStitch_StartCrafting_Kit_LargeHoop_Nature)" Value="260429" />
+  <Preset Label="Large Hoop (crossStitch_StartCrafting_Kit_LargeHoop_Simple)" Value="260430" />
+  <Preset Label="Large Hoop (crossStitch_StartCrafting_Kit_LargeHoop_Words)" Value="260431" />
+  <Preset Label="Cross-stitch (crossStitch_CraftingStep_View)" Value="260432" />
+  <Preset Label="Sims &amp; Animals (crossStitch_StartCrafting_Hoop_Small_Animals)" Value="260441" />
+  <Preset Label="Food (crossStitch_StartCrafting_Hoop_Small_Foods)" Value="260442" />
+  <Preset Label="Nature (crossStitch_StartCrafting_Hoop_Small_Nature)" Value="260443" />
+  <Preset Label="Simple (crossStitch_StartCrafting_Hoop_Small_Simple)" Value="260444" />
+  <Preset Label="Phrases &amp; Mascots (crossStitch_StartCrafting_Hoop_Small_Words)" Value="260445" />
+  <Preset Label="Sims &amp; Animals (crossStitch_StartCrafting_Hoop_Medium_Animals)" Value="260446" />
+  <Preset Label="Food (crossStitch_StartCrafting_Hoop_Medium_Foods)" Value="260447" />
+  <Preset Label="Nature (crossStitch_StartCrafting_Hoop_Medium_Nature)" Value="260448" />
+  <Preset Label="Simple (crossStitch_StartCrafting_Hoop_Medium_Simple)" Value="260449" />
+  <Preset Label="Phrases &amp; Mascots (crossStitch_StartCrafting_Hoop_Medium_Words)" Value="260450" />
+  <Preset Label="Sims &amp; Animals (crossStitch_StartCrafting_Hoop_Large_Animals)" Value="260451" />
+  <Preset Label="Food (crossStitch_StartCrafting_Hoop_Large_Foods)" Value="260452" />
+  <Preset Label="Nature (crossStitch_StartCrafting_Hoop_Large_Nature)" Value="260453" />
+  <Preset Label="Simple (crossStitch_StartCrafting_Hoop_Large_Simple)" Value="260454" />
+  <Preset Label="Phrases &amp; Mascots (crossStitch_StartCrafting_Hoop_Large_Words)" Value="260455" />
   <Preset Label="Babble (gardenPlant_ToddlerTalk_Babble)" Value="260464" />
+  <Preset Label="crossStitch_CreateObjectCarry_FromHoop" Value="260469" />
+  <Preset Label="Give Fish (CritterGifting_GiveGift_ToRabbit_Picker_Fish)" Tags="TestUnsafe" Value="260506" />
+  <Preset Label="crossStitch_CreateObjectCarry_FromKit" Value="260516" />
+  <Preset Label="Talk to Plant (super_GiantCrops_Plant_TalkToCrop)" Value="260536" />
+  <Preset Label="Give Book (critterGifting_GiveGift_ToRabbit_Picker_Book)" Tags="TestUnsafe" Value="260539" />
   <Preset Label="Clean (stove_Clean_CounterOven)" Value="260543" />
   <Preset Label="Repair (object_Repair_Stove_StoveTop)" Value="260548" />
+  <Preset Label="Wonder If Worth It (object_LactoseIntolerant_WonderIfWorth)" Value="260563" />
+  <Preset Label="Fire_OnFire_passiveMixer_Fox" Value="260595" />
+  <Preset Label="Route to Safety (sim_Fire_RouteToSafety_Fox)" Value="260597" />
+  <Preset Label="FIRE! (fire_Panic_Fox)" Value="260602" />
+  <Preset Label="Give Drink (critterGifting_GiveGift_ToRabbit_Picker_Drink)" Tags="TestUnsafe" Value="260605" />
+  <Preset Label="Give Meat Meal (critterGifting_GiveGift_ToRabbit_Picker_MealMeat)" Tags="TestUnsafe" Value="260606" />
+  <Preset Label="Give Veggie Meal (critterGifting_GiveGift_ToRabbit_Picker_MealVeggie)" Tags="TestUnsafe" Value="260607" />
+  <Preset Label="Name {1.ObjectName} (rename_AnimalObjects_RabbitHome)" Value="260618" />
+  <Preset Label="Give Painting (critterGifting_GiveGift_ToRabbit_Picker_Painting)" Tags="TestUnsafe" Value="260620" />
+  <Preset Label="Give Wooden Sculpture (critterGifting_GiveGift_ToRabbit_Picker_Sculpture)" Tags="TestUnsafe" Value="260621" />
+  <Preset Label="Give Flower (critterGifting_GiveGift_ToRabbit_Picker_Flower)" Tags="TestUnsafe" Value="260622" />
+  <Preset Label="Give Produce (critterGifting_GiveGift_ToRabbit_Picker_Produce)" Tags="TestUnsafe" Value="260624" />
+  <Preset Label="Give Egg (critterGifting_GiveGift_ToRabbit_Picker_Egg)" Tags="TestUnsafe" Value="260632" />
+  <Preset Label="Give Cross-stitch (critterGifting_GiveGift_ToRabbit_Picker_CrossStitch)" Tags="TestUnsafe" Value="260634" />
+  <Preset Label="Give Wool (critterGifting_GiveGift_ToRabbit_Picker_Wool)" Tags="TestUnsafe" Value="260635" />
+  <Preset Label="Give Milk (critterGifting_GiveGift_ToRabbit_Picker_Milk)" Tags="TestUnsafe" Value="260636" />
+  <Preset Label="Give Canned Good (critterGifting_GiveGift_ToRabbit_Picker_CannedGoods)" Tags="TestUnsafe" Value="260637" />
+  <Preset Label="Clean Shed (empty_Trash_AnimalObject_Home_LivestockPen)" Value="260641" />
+  <Preset Label="Tend Stall (marketStalls_Tend_VillageShops_Garden)" Value="260642" />
+  <Preset Label="Tend Stall (marketStalls_Tend_VillageShops_Grocery)" Value="260643" />
+  <Preset Label="Hire Vendor (si_MarketStalls_VillageShops_HireNPC_Garden)" Value="260649" />
+  <Preset Label="Hire Vendor (si_MarketStalls_VillageShops_HireNPC_Grocery)" Value="260650" />
+  <Preset Label="Coop Auto-Feeder (sI_AnimalObjects_Chickens_Coop_Upgrades_Autofeeder)" Value="260673" />
+  <Preset Label="Fox-Be-Gone Alarm (sI_AnimalObjects_Chickens_Coop_Upgrades_FoxBeGone)" Value="260674" />
+  <Preset Label="ComfortCare Life Extender (sI_AnimalObjects_Chickens_Coop_Upgrades_LifeExtend)" Value="260675" />
+  <Preset Label="Continue Upgrading Coop Auto-Feeder (sI_AnimalObjects_Chickens_Coop_Upgrades_Autofeeder_Resume)" Value="260679" />
+  <Preset Label="Continue Upgrading Fox-Be-Gone Alarm (sI_AnimalObjects_Chickens_Coop_Upgrades_FoxBeGone_Resume)" Value="260680" />
+  <Preset Label="Continue Upgrading ComfortCare Life Extender (sI_AnimalObjects_Chickens_Coop_Upgrades_LifeExtend_Resume)" Value="260682" />
+  <Preset Label="Coop Auto-Feeder (animalObjects_chickenCoop_Upgrade_Autofeeder_CompletedDisplay)" Value="260684" />
+  <Preset Label="Fox-Be-Gone Alarm (animalObjects_chickenCoop_Upgrade_FoxBeGone_CompletedDisplay)" Value="260685" />
+  <Preset Label="ComfortCare Life Extender (animalObjects_chickenCoop_Upgrade_LifeExtend_CompletedDisplay)" Value="260686" />
+  <Preset Label="Play with {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Chicken_Play)" Value="260688" />
+  <Preset Label="Scare {1.ObjectName} (sI_AnimalObjects_Socials_Mean_Chicken_Scare)" Value="260689" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Chickens)" Value="260692" />
+  <Preset Label="ComfortCare Life Extender (sI_AnimalObjects_LivestockPen_Upgrades_LifeExtend)" Value="260698" />
+  <Preset Label="Continue Upgrading ComfortCare Life Extender (sI_AnimalObjects_LivestockPen_Upgrades_LifeExtend_Resume)" Value="260699" />
+  <Preset Label="Livestock Auto-Feeder (sI_AnimalObjects_LivestockPen_Upgrades_Autofeeder)" Value="260700" />
+  <Preset Label="Continue Upgrading Livestock Auto-Feeder (sI_AnimalObjects_LivestockPen_Upgrades_Autofeeder_Resume)" Value="260701" />
+  <Preset Label="Livestock Auto-Feeder (animalObjects_livestockPen_Upgrade_Autofeeder_CompletedDisplay)" Value="260711" />
+  <Preset Label="ComfortCare Life Extender (animalObjects_livestockPen_Upgrade_LifeExtend_CompletedDisplay)" Value="260712" />
+  <Preset Label="Practice Violin with {1.ObjectName} (animalEnthusiast_PlayTo_Picker_Violin)" Tags="TestUnsafe" Value="260717" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Cows)" Value="260721" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Llama)" Value="260722" />
   <Preset Label="Play in Water (super_Ponds_PlayIn)" Value="260724" />
+  <Preset Label="Practice Violin (AnimalEnthusiast_PlayTo_Violin)" Value="260727" />
+  <Preset Label="Give Book (critterGifting_GiveGift_ToBird_Picker_Book)" Tags="TestUnsafe" Value="260736" />
+  <Preset Label="Give Canned Good (critterGifting_GiveGift_ToBird_Picker_CannedGoods)" Tags="TestUnsafe" Value="260737" />
+  <Preset Label="Give Cross-stitch (critterGifting_GiveGift_ToBird_Picker_CrossStitch)" Tags="TestUnsafe" Value="260739" />
+  <Preset Label="Give Drink (critterGifting_GiveGift_ToBird_Picker_Drink)" Tags="TestUnsafe" Value="260740" />
+  <Preset Label="Give Egg (critterGifting_GiveGift_ToBird_Picker_Egg)" Tags="TestUnsafe" Value="260741" />
+  <Preset Label="Give Fish (critterGifting_GiveGift_ToBird_Picker_Fish)" Tags="TestUnsafe" Value="260742" />
+  <Preset Label="Give Flower (critterGifting_GiveGift_ToBird_Picker_Flower)" Tags="TestUnsafe" Value="260743" />
+  <Preset Label="Give Meat Meal (critterGifting_GiveGift_ToBird_Picker_MealMeat)" Tags="TestUnsafe" Value="260745" />
+  <Preset Label="Give Veggie Meal (critterGifting_GiveGift_ToBird_Picker_MealVeggie)" Tags="TestUnsafe" Value="260746" />
+  <Preset Label="Give Milk (critterGifting_GiveGift_ToBird_Picker_Milk)" Tags="TestUnsafe" Value="260747" />
+  <Preset Label="Give Painting (critterGifting_GiveGift_ToBird_Picker_Painting)" Tags="TestUnsafe" Value="260748" />
+  <Preset Label="Give Produce (critterGifting_GiveGift_ToBird_Picker_Produce)" Tags="TestUnsafe" Value="260749" />
+  <Preset Label="Give Wooden Sculpture (critterGifting_GiveGift_ToBird_Picker_Sculpture)" Tags="TestUnsafe" Value="260750" />
+  <Preset Label="Give Wool (critterGifting_GiveGift_ToBird_Picker_Wool)" Tags="TestUnsafe" Value="260751" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Book)" Value="260764" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Book)" Value="260770" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_CannedGoods)" Value="260771" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_CrossStitch)" Value="260772" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Drink)" Value="260773" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Egg)" Value="260774" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Fish)" Value="260775" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Flower)" Value="260776" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Insect)" Value="260778" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_MealMeat)" Value="260780" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_MealVeggie)" Value="260782" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Milk)" Value="260783" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Painting)" Value="260784" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Produce)" Value="260785" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Sculpture)" Value="260786" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_Wool)" Value="260787" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_CannedGoods)" Value="260788" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_CrossStitch)" Value="260789" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Drink)" Value="260790" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Egg)" Value="260791" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Fish)" Value="260792" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Flower)" Value="260793" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Insect)" Value="260794" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_MealMeat)" Value="260795" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_MealVeggie)" Value="260796" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Milk)" Value="260797" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Painting)" Value="260798" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Produce)" Value="260799" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Sculpture)" Value="260800" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_Wool)" Value="260801" />
+  <Preset Label="Healthy Treat (sI_AnimalObjects_FeedSpecial_Healthy)" Value="260813" />
+  <Preset Label="Fishy Protein Treat (sI_AnimalObjects_FeedSpecial_Fishy)" Value="260814" />
   <Preset Label="Look for Frogs (super_Ponds_SearchForFrogs)" Value="260819" />
   <Preset Label="Gather Water (super_Ponds_GatherWater)" Value="260820" />
+  <Preset Label="Give Book (critterGifting_GiveGift_ToFox_Picker_Book)" Tags="TestUnsafe" Value="260829" />
+  <Preset Label="Give Canned Good (critterGifting_GiveGift_ToFox_Picker_CannedGoods)" Tags="TestUnsafe" Value="260830" />
+  <Preset Label="Give Cross-stitch (critterGifting_GiveGift_ToFox_Picker_CrossStitch)" Tags="TestUnsafe" Value="260831" />
+  <Preset Label="Give Drink (critterGifting_GiveGift_ToFox_Picker_Drink)" Tags="TestUnsafe" Value="260832" />
+  <Preset Label="Give Egg (critterGifting_GiveGift_ToFox_Picker_Egg)" Tags="TestUnsafe" Value="260841" />
+  <Preset Label="Give Fish (critterGifting_GiveGift_ToFox_Picker_Fish)" Tags="TestUnsafe" Value="260842" />
+  <Preset Label="Give Flower (critterGifting_GiveGift_ToFox_Picker_Flower)" Tags="TestUnsafe" Value="260843" />
+  <Preset Label="Give Meat Meal (critterGifting_GiveGift_ToFox_Picker_MealMeat)" Tags="TestUnsafe" Value="260845" />
+  <Preset Label="Give Veggie Meal (critterGifting_GiveGift_ToFox_Picker_MealVeggie)" Tags="TestUnsafe" Value="260846" />
+  <Preset Label="Give Milk (critterGifting_GiveGift_ToFox_Picker_Milk)" Tags="TestUnsafe" Value="260847" />
+  <Preset Label="Give Painting (critterGifting_GiveGift_ToFox_Picker_Painting)" Tags="TestUnsafe" Value="260848" />
+  <Preset Label="Give Produce (critterGifting_GiveGift_ToFox_Picker_Produce)" Tags="TestUnsafe" Value="260849" />
+  <Preset Label="Give Wooden Sculpture (critterGifting_GiveGift_ToFox_Picker_Sculpture)" Tags="TestUnsafe" Value="260850" />
+  <Preset Label="Give Wool (critterGifting_GiveGift_ToFox_Picker_Wool)" Tags="TestUnsafe" Value="260851" />
+  <Preset Label="fox_Watch_Curious" Value="260868" />
+  <Preset Label="Interact with {1.SimFirstName} (foxSocial_SimToFox_NonTouching_Fox)" Value="260874" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Chicken_TalkTo_Child)" Value="260886" />
+  <Preset Label="Bock Bock to {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Chicken_TalkTo_Toddler)" Value="260914" />
+  <Preset Label="Debug: Get Oversized Crop Fruit (debug_GiantCrops_Plant_GetCrop)" Value="260927" />
+  <Preset Label="Debug: Select Plant Status (debug_StatePicker_GiantCrops_SelectStatus)" Tags="TestUnsafe" Value="260950" />
+  <Preset Label="Offer Help With Errands... (social_VillagerHelp_OfferHelp)" Value="260958" />
+  <Preset Label="Select Errands to Help With (oddJobPicker_VillagerHelp_QuestPicker_Agnes)" Tags="TestUnsafe" Value="260959" />
+  <Preset Label="Call Over {1.ObjectName} (sI_AnimalObjects_CallOver_Chickens)" Value="260970" />
+  <Preset Label="Send {1.ObjectName} to Coop (sI_AnimalObjects_SendHome_Chickens)" Value="260971" />
+  <Preset Label="Feed {1.ObjectName} (sI_AnimalObjects_FeedBasic_Chickens)" Value="260972" />
+  <Preset Label="Chicken Egg Ready to Hatch! (cheats_AnimalObjects_Eggs_Fertilized_White_ReadyToHatch)" Value="261033" />
+  <Preset Label="Simoleons (sI_AnimalObjects_Generic_SellSimoleons_Chickens)" Value="261073" />
+  <Preset Label="Meat (sI_AnimalObjects_Generic_SellToMarket_Chickens)" Value="261074" />
+  <Preset Label="Simoleons (filteredObjectPicker_AnimalObject_SellChickens)" Tags="TestUnsafe" Value="261098" />
+  <Preset Label="Meat (filteredObjectPicker_AnimalObject_SellToMeatMarket)" Tags="TestUnsafe" Value="261099" />
+  <Preset Label="Call Chickens In (filteredObjectPicker_AnimalObject_CallChickenIn)" Tags="TestUnsafe" Value="261101" />
+  <Preset Label="Call Chickens Out (filteredObjectPicker_AnimalObject_CallChickenOut)" Tags="TestUnsafe" Value="261102" />
+  <Preset Label="Assign Chickens (filteredObjectPicker_AnimalObject_AssignChicken)" Tags="TestUnsafe" Value="261103" />
+  <Preset Label="Resume {0.String} (craftingResume_CrossStitch)" Value="261123" />
+  <Preset Label="View/Read (crossStitch_ViewProduct)" Value="261221" />
+  <Preset Label="Sell (crossStitch_SellProduct)" Value="261236" />
   <Preset Label="Teach about Plants (socialSI_Skill_Gardening_TeachChildAboutPlants_Teacher)" Value="261246" />
   <Preset Label="Listen (socialSI_Skill_Gardening_TeachChildAboutPlants_Listener)" Value="261247" />
+  <Preset Label="Select Errands to Help With (oddJobPicker_VillagerHelp_QuestPicker_Mayor)" Tags="TestUnsafe" Value="261260" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken)" Value="261272" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken)" Value="261275" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Death_Chicken)" Value="261276" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Death_NoConstraints_Chicken)" Value="261283" />
+  <Preset Label="Fruity Treat (sI_AnimalObjects_FeedSpecial_Blueberry)" Value="261336" />
+  <Preset Label="Friendly Treat (sI_AnimalObjects_FeedSpecial_Normal)" Value="261337" />
+  <Preset Label="Animal Party Treat (sI_AnimalObjects_FeedSpecial_Social)" Value="261338" />
+  <Preset Label="Chocolatey Treat (sI_AnimalObjects_FeedSpecial_Chocolately)" Value="261339" />
+  <Preset Label="Flirty Treat (sI_AnimalObjects_FeedSpecial_Flirty)" Value="261340" />
+  <Preset Label="Midnight Treat (sI_AnimalObjects_FeedSpecial_Obsidian)" Value="261341" />
+  <Preset Label="Pumpkin Treat (sI_AnimalObjects_FeedSpecial_Pumpkin)" Value="261342" />
+  <Preset Label="Rainbow Treat (sI_AnimalObjects_FeedSpecial_Rainbow)" Value="261343" />
+  <Preset Label="Spicy Treat (sI_AnimalObjects_FeedSpecial_SpicyBeef)" Value="261344" />
+  <Preset Label="Veggie Treat (sI_AnimalObjects_FeedSpecial_Veggie)" Value="261345" />
+  <Preset Label="Golden Treat (sI_AnimalObjects_FeedSpecial_Golden)" Value="261349" />
+  <Preset Label="Harvest All Crops (super_GiantCrops_Plant_HarvestCrop_All)" Value="261386" />
+  <Preset Label="Canning (stove_Canning)" Value="261408" />
+  <Preset Label="super_GiantCrops_Plant_Cry" Value="261411" />
   <Preset Label="Color (statePickerSuperInteraction_DebugColor_AnimalObjects_LivestockFeed)" Tags="TestUnsafe" Value="261412" />
+  <Preset Label="Select Errands to Help With (oddJobPicker_VillagerHelp_QuestPicker_Agatha)" Tags="TestUnsafe" Value="261499" />
+  <Preset Label="Select Errands to Help With (oddJobPicker_VillagerHelp_QuestPicker_GroceryOwner)" Tags="TestUnsafe" Value="261500" />
+  <Preset Label="Select Errands to Help With (oddJobPicker_VillagerHelp_QuestPicker_GroceryDelivery)" Tags="TestUnsafe" Value="261501" />
+  <Preset Label="Select Errands to Help With (oddJobPicker_VillagerHelp_QuestPicker_PubOwner)" Tags="TestUnsafe" Value="261502" />
+  <Preset Label="Select Errands to Help With (oddJobPicker_VillagerHelp_QuestPicker_CritterTender)" Tags="TestUnsafe" Value="261503" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SubmitEntry_Crops)" Value="261568" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SubmitEntry_AnimalPen_Cow)" Value="261570" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SubmitEntry_Egg)" Value="261571" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SubmitEntry_GiantCrop)" Value="261572" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SubmitEntry_Wool)" Value="261573" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SubmitEntry_Milk)" Value="261574" />
+  <Preset Label="Purchase Oversized Crop Seeds (super_GiantCrops_Plant_PurchaseSeeds_Computer)" Tags="TestUnsafe" Value="261619" />
+  <Preset Label="Purchase Oversized Crop Seeds (super_GiantCrops_Plant_PurchaseSeeds_Patch)" Tags="TestUnsafe" Value="261620" />
+  <Preset Label="autonomous_ObjectPicker_VillageFair_View" Tags="TestUnsafe" Value="261621" />
   <Preset Label="Gardening Help (statePickerSuperInteraction_DebugGardeningHelp_AnimalObjects)" Tags="TestUnsafe" Value="261654" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Rabbit)" Value="261658" />
+  <Preset Label="Ask for Gardening Help (sI_AnimalObjects_GardeningHelp_Ask_Rabbit)" Value="261662" />
+  <Preset Label="Ask to Stop Helping with Gardening (sI_AnimalObjects_GardeningHelp_AskToStop_Rabbit)" Value="261663" />
+  <Preset Label="...Talk To? (villagerHelp_Interaction_TalkToGnome)" Value="261745" />
+  <Preset Label="All Chickens (door_Padlock_ImmediateInteractions_Unlocks_Chickens)" Value="261756" />
+  <Preset Label="All Chickens (door_Padlock_ImmediateInteraction_Locks_Chickens)" Value="261757" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_LivestockPen_Start_Cow)" Value="261790" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_LivestockPen_Start_Llama)" Value="261791" />
   <Preset Label="jar_PickUp" Value="261799" />
   <Preset Label="Go Fishing (super_Ponds_Fishing_GoFishing)" Value="261806" />
   <Preset Label="Go Fishing (super_Ponds_Fishing_GoFishing_Child)" Value="261807" />
   <Preset Label="Angle For Big Catch (super_Ponds_Fishing_GoFishing_AngleForBigCatch)" Value="261808" />
+  <Preset Label="Cook (fridge_Cook_RequiredIngredients)" Value="261810" />
+  <Preset Label="Cook a Gourmet Meal (fridge_CookGourmet_RequiredIngredients)" Value="261824" />
+  <Preset Label="Cook (fridge_Cook_Emotional_RequiredIngredients)" Value="261829" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Rabbit)" Value="261835" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Rabbit)" Value="261836" />
+  <Preset Label="Hire Grocery Delivery (phone_Deliveries_Groceries_HireNPC)" Value="261842" />
+  <Preset Label="Be Mean to {1.ObjectName} (sI_AnimalObjects_Socials_Mean_Rabbit)" Value="261847" />
+  <Preset Label="Scare {1.ObjectName} (sI_AnimalObjects_Socials_Mean_Rabbit_Scare)" Value="261848" />
+  <Preset Label="Cook (stove_StartCrafting_RequiredIngredients)" Value="261850" />
+  <Preset Label="Be Attacked (sI_AnimalObjects_Socials_Mean_Rabbit_BeAttacked)" Value="261851" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Rabbit_TalkTo)" Value="261852" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Rabbit_Ask)" Value="261854" />
+  <Preset Label="Tell Jokes (sI_AnimalObjects_Socials_Funny_Rabbit_TellJoke)" Value="261855" />
+  <Preset Label="Buy Garden Shop Items... (marketStalls_ShopFor_VillageShops_Garden_OnLot)" Value="261856" />
+  <Preset Label="Buy Grocery Shop Items... (marketStalls_ShopFor_VillageShops_Grocery_OnLot)" Value="261857" />
+  <Preset Label="Call Over {1.ObjectName} (sI_AnimalObjects_CallOver_Rabbit)" Value="261860" />
+  <Preset Label="Buy Garden Shop Items (purchase_MarketStalls_VillageShops_Garden_OnLot)" Tags="TestUnsafe" Value="261861" />
+  <Preset Label="Buy Grocery Shop Items (purchase_MarketStalls_VillageShops_Grocery_OnLot)" Tags="TestUnsafe" Value="261863" />
+  <Preset Label="Cook (stove_Craft_Emotional_RequiredIngredients)" Value="261868" />
+  <Preset Label="Cook a Gourmet Meal (stove_CookGourmet_RequiredIngredients)" Value="261881" />
+  <Preset Label="Cook Off-the-Grid (stove_StartCrafting_OffTheGrid_RequiredIngredients)" Value="261888" />
+  <Preset Label="Practice Piano (AnimalEnthusiast_PlayTo_Piano)" Value="261891" />
   <Preset Label="Order a Delivery (phone_pickServiceToHire_Deliveries)" Value="261896" />
+  <Preset Label="Shoo {1.SimFirstName} Away (foxSocial_Sim_ScareOff)" Value="261905" />
+  <Preset Label="Cook (fridge_Cook_PieMenu_Breakfast_1Serving_RequiredIngredients)" Value="261924" />
+  <Preset Label="Cook (fridge_Cook_PieMenu_Breakfast_8Servings_RequiredIngredients)" Value="261925" />
   <Preset Label="Order Food Delivery (phone_Deliveries_FoodDelivery_HireNPC)" Value="261926" />
+  <Preset Label="Cook (fridge_Cook_PieMenu_Brunch_1Serving_RequiredIngredients)" Value="261929" />
+  <Preset Label="Cook (fridge_Cook_PieMenu_Brunch_8Servings_RequiredIngredients)" Value="261930" />
+  <Preset Label="Cook (fridge_Cook_PieMenu_Dinner_1Serving_RequiredIngredients)" Value="261931" />
+  <Preset Label="Cook (fridge_Cook_PieMenu_Dinner_8Servings_RequiredIngredients)" Value="261932" />
   <Preset Label="Bonus Items (statePickerSuperInteraction_DebugHarvestBonus_AnimalObjects_LivestockFeed)" Tags="TestUnsafe" Value="261934" />
+  <Preset Label="Cook (fridge_Cook_PieMenu_Lunch_1Serving_RequiredIngredients)" Value="261935" />
+  <Preset Label="Cook (fridge_Cook_PieMenu_Lunch_8Servings_RequiredIngredients)" Value="261936" />
+  <Preset Label="Cook (stove_Cook_PieMenu_Breakfast_1Serving_RequiredIngredients)" Value="261938" />
+  <Preset Label="Cook (stove_Cook_PieMenu_Breakfast_8Servings_RequiredIngredients)" Value="261940" />
+  <Preset Label="Cook (stove_Cook_PieMenu_Brunch_1Serving_RequiredIngredients)" Value="261941" />
+  <Preset Label="Cook (stove_Cook_PieMenu_Brunch_8Servings_RequiredIngredients)" Value="261942" />
+  <Preset Label="Be Mean to {1.ObjectName} (sI_AnimalObjects_Socials_Mean_LivestockPen)" Value="261943" />
+  <Preset Label="Cook (stove_Cook_PieMenu_Dinner_1Serving_RequiredIngredients)" Value="261945" />
+  <Preset Label="Cook (stove_Cook_PieMenu_Dinner_8Servings_RequiredIngredients)" Value="261946" />
+  <Preset Label="Sell Crop (super_GiantCrops_Plant_HarvestToSell)" Value="261947" />
+  <Preset Label="Cook (stove_Cook_PieMenu_Lunch_1Serving_RequiredIngredients)" Value="261948" />
+  <Preset Label="Cook (stove_Cook_PieMenu_Lunch_8Servings_RequiredIngredients)" Value="261949" />
+  <Preset Label="Sell All Crops (super_GiantCrops_Plant_HarvestToSell_All)" Value="261950" />
+  <Preset Label="Scare {1.ObjectName} (sI_AnimalObjects_Socials_Mean_LivestockPen_Scare)" Value="261954" />
+  <Preset Label="Cook Cupcakes (cupcakemaker_StartCrafting_RequiredIngredients)" Value="261960" />
+  <Preset Label="Grilled Food (grill_StartCrafting_RequiredIngredients)" Value="261962" />
+  <Preset Label="Tell Jokes (sI_AnimalObjects_Socials_Funny_LivestockPen_TellJoke_Llama)" Value="261970" />
+  <Preset Label="Tell Jokes (sI_AnimalObjects_Socials_Funny_LivestockPen_TellJoke_Cow)" Value="261971" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_LivestockPen_Ask_Cow)" Value="261977" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_LivestockPen_Ask_Llama)" Value="261978" />
+  <Preset Label="Babble at {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_LivestockPen_TalkTo_Toddler_Cow)" Value="262001" />
+  <Preset Label="Babble at {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_LivestockPen_TalkTo_Toddler_Llama)" Value="262002" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_LivestockPen_TalkTo_Child_Cow)" Value="262003" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_LivestockPen_TalkTo_Child_Llama)" Value="262004" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_LivestockPen_TalkTo_Cow)" Value="262005" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_LivestockPen_TalkTo_Llama)" Value="262006" />
+  <Preset Label="Fruity Treat (sI_AnimalObjects_FeedSpecial_Chicken_Blueberry)" Value="262065" />
+  <Preset Label="Chocolatey Treat (sI_AnimalObjects_FeedSpecial_Chicken_Chocolately)" Value="262066" />
+  <Preset Label="Fishy Protein Treat (sI_AnimalObjects_FeedSpecial_Chicken_Fishy)" Value="262067" />
+  <Preset Label="Flirty Treat (sI_AnimalObjects_FeedSpecial_Chicken_Flirty)" Value="262068" />
+  <Preset Label="Golden Treat (sI_AnimalObjects_FeedSpecial_Chicken_Golden)" Value="262069" />
+  <Preset Label="Healthy Treat (sI_AnimalObjects_FeedSpecial_Chicken_Healthy)" Value="262070" />
+  <Preset Label="Friendly Treat (sI_AnimalObjects_FeedSpecial_Chicken_Normal)" Value="262071" />
+  <Preset Label="Midnight Treat (sI_AnimalObjects_FeedSpecial_Chicken_Obsidian)" Value="262072" />
+  <Preset Label="Pumpkin Treat (sI_AnimalObjects_FeedSpecial_Chicken_Pumpkin)" Value="262073" />
+  <Preset Label="Rainbow Treat (sI_AnimalObjects_FeedSpecial_Chicken_Rainbow)" Value="262074" />
+  <Preset Label="Animal Party Treat (sI_AnimalObjects_FeedSpecial_Chicken_Social)" Value="262075" />
+  <Preset Label="Spicy Treat (sI_AnimalObjects_FeedSpecial_Chicken_SpicyBeef)" Value="262076" />
+  <Preset Label="Veggie Treat (sI_AnimalObjects_FeedSpecial_Chicken_Veggie)" Value="262077" />
+  <Preset Label="DEBUG - Unlock All Canning Recipes (canning_Immediate_UnlockAllRecipes_Debug)" Value="262089" />
+  <Preset Label="Tend Stall (marketStalls_Open_VillageShops_Garden)" Value="262113" />
+  <Preset Label="Tend Stall (marketStalls_Open_VillageShops_Grocery)" Value="262114" />
   <Preset Label="Plant (gardening_PlantInObject_Picker_Planter)" Tags="TestUnsafe" Value="262149" />
   <Preset Label="Order a Delivery (phone_PickServices_Start_Deliveries)" Value="262154" />
   <Preset Label="Hire a Service (phone_PickServices_Start_Services)" Value="262155" />
   <Preset Label="Hold (super_Deliveries_CarryObject)" Value="262175" />
+  <Preset Label="Ask for Gardening Help (sI_AnimalObjects_GardeningHelp_Ask_BirdHome)" Value="262196" />
+  <Preset Label="Ask to Stop Helping with Gardening (sI_AnimalObjects_GardeningHelp_AskToStop_BirdHome)" Value="262197" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_BirdHome_Ask)" Value="262199" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_BirdHome_TalkTo)" Value="262200" />
+  <Preset Label="Scare Away Birds (sI_AnimalObjects_Socials_Mean_BirdHome_Scare)" Value="262201" />
+  <Preset Label="Sing to Birds (sI_AnimalObjects_Socials_Friendly_BirdHome_SingTo)" Value="262203" />
   <Preset Label="Accept Delivery (super_Deliveries_GreetDeliveryNPC)" Value="262214" />
   <Preset Label="Plant (gardening_PlantInObject_Picker_Planter_Small)" Tags="TestUnsafe" Value="262224" />
+  <Preset Label="Sell Items (sellPickerInteraction_VillageShops)" Tags="TestUnsafe" Value="262225" />
   <Preset Label="Plant (gardening_PlantInObject_PutDownSeed_PlantSmall)" Value="262227" />
   <Preset Label="Plant (gardening_PlantInObject_PutDownSeed_PlantLarge)" Value="262228" />
+  <Preset Label="Take Gift Offered by {1.ObjectName} (sI_AnimalObjects_TakeGift_FromRabbit)" Value="262249" />
   <Preset Label="Cook Together With (simPickerInteraction_GroupCooking_Fridge)" Tags="TestUnsafe" Value="262252" />
   <Preset Label="Cook Together With (simPickerInteraction_GroupCooking_Stove)" Tags="TestUnsafe" Value="262257" />
   <Preset Label="Cook Together With (simPickerInteraction_GroupCooking_Counter)" Tags="TestUnsafe" Value="262258" />
+  <Preset Label="Generic_Fox_layDown" Value="262259" />
   <Preset Label="Create All Feed Recipe Ingredients In Inventory (DEBUG) (cheats_AnimalObjects_LivestockFeed_CreateRecipeIngredients)" Value="262263" />
+  <Preset Label="Give Ingredients (immediateSuperInteraction_Cheat_GiveRequiredIngredients)" Value="262270" />
+  <Preset Label="Milk {1.ObjectName} (sI_AnimalObjects_HarvestFrom_Cow)" Value="262284" />
+  <Preset Label="Shear {1.ObjectName}'s Wool (sI_AnimalObjects_HarvestFrom_Llama)" Value="262285" />
+  <Preset Label="Clean {1.ObjectName} (sI_AnimalObjects_Clean_Cow)" Value="262293" />
+  <Preset Label="Clean {1.ObjectName} (sI_AnimalObjects_Clean_Llama)" Value="262294" />
   <Preset Label="Give Tip (super_Social_Deliveries_GiveTip)" Value="262298" />
   <Preset Label="Be Asked for Tip (super_Social_Deliveries_AskForTip)" Value="262299" />
   <Preset Label="Gather for Group Cooking (GroupCooking_Gather)" Value="262307" />
   <Preset Label="Gather for Group Cooking (GroupCooking_Gather_Join)" Value="262311" />
   <Preset Label="autonomousSimPicker_Deliveries_AskForTip" Tags="TestUnsafe" Value="262328" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Rabbit_TalkTo_Child)" Value="262331" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Rabbit_TalkTo_Toddler)" Value="262332" />
+  <Preset Label="Babble at {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Rabbit_TalkTo_Toddler_Babble)" Value="262335" />
+  <Preset Label="Reset &quot;Take Gift&quot; Cooldown (Debug) (cheats_AnimalObjects_CritterGifting_DisableTakeGiftCooldown)" Value="262341" />
+  <Preset Label="Enable &quot;Take Gift&quot; Cooldown (Debug) (cheats_AnimalObjects_CritterGifting_EnabledTakeGiftCooldown)" Value="262343" />
   <Preset Label="Plant (gardening_PlantInObject_PushPlant)" Value="262344" />
   <Preset Label="Plant (gardening_PlantInObject_Picker_Pot)" Tags="TestUnsafe" Value="262345" />
   <Preset Label="Unload Delivery Bag (super_Deliveries_EmptyBag)" Value="262376" />
@@ -5567,15 +6129,102 @@
   <Preset Label="mixer_Ponds_Fishing_Cast" Value="262443" />
   <Preset Label="mixer_Ponds_Fishing_AngleForBigCatch_Idle" Value="262447" />
   <Preset Label="mixer_Ponds_Fishing_AngleForBigCatch_Cast" Value="262448" />
+  <Preset Label="Play With {1.SimFirstName} (foxSocial_Fox_Play)" Value="262473" />
+  <Preset Label="Refill Feed (sI_AnimalObjects_LivestockPen_Inside_RefillFeed)" Value="262474" />
+  <Preset Label="Send {1.ObjectName} In (sI_AnimalObjects_SendHome_LivestockPen)" Value="262481" />
+  <Preset Label="Call Over {1.ObjectName} (sI_AnimalObjects_CallOver_LivestockPen)" Value="262483" />
   <Preset Label="Plant (gardening_PlantInObject_PutDownSeed_PlantCow)" Value="262507" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken_Outcome_Success_TYAE)" Value="262515" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken_Outcome_Failure_TYAE)" Value="262517" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken_Outcome_Success_Toddler)" Value="262521" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken_Outcome_Success_Child)" Value="262522" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken_Outcome_Failure_Child)" Value="262524" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken_Outcome_Failure_Toddler)" Value="262525" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken_Outcome_Success_TYAE)" Value="262535" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken_Outcome_Success_Child)" Value="262536" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken_Outcome_Success_Toddler)" Value="262537" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken_Outcome_Failure_Child)" Value="262539" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken_Outcome_Failure_Toddler)" Value="262540" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken_Outcome_Failure_TYAE)" Value="262541" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Rabbit_Outcome_Failure_Child)" Value="262544" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Rabbit_Outcome_Failure_Toddler)" Value="262545" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Rabbit_Outcome_Failure_TYAE)" Value="262546" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Rabbit_Outcome_Success_Child)" Value="262548" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Rabbit_Outcome_Success_Toddler)" Value="262549" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Rabbit_Outcome_Success_TYAE)" Value="262550" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Rabbit_Outcome_Failure_Child)" Value="262555" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Rabbit_Outcome_Failure_Toddler)" Value="262556" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Rabbit_Outcome_Failure_TYAE)" Value="262557" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Rabbit_Outcome_Success_Child)" Value="262559" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Rabbit_Outcome_Success_Toddler)" Value="262560" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Rabbit_Outcome_Success_TYAE)" Value="262561" />
+  <Preset Label="Debug - Create Llama (debug_CreateAnimalObjects_Llama)" Value="262562" />
+  <Preset Label="Debug - Create Cow (debug_CreateAnimalObjects_Cow)" Value="262563" />
+  <Preset Label="Debug - Create Chicken (Chick) (debug_CreateAnimalObjects_Chicken_Chick)" Value="262564" />
+  <Preset Label="Meat (sI_AnimalObjects_Generic_SellToMarket_Cows)" Value="262774" />
+  <Preset Label="Simoleons (sI_AnimalObjects_Generic_SellSimoleons_LivestockPen)" Value="262775" />
+  <Preset Label="Sell Items... (marketStalls_Sell_VillageShops)" Value="262962" />
   <Preset Label="Set Harvest Ready State (statePickerSuperInteraction_DebugHarvestReady_AnimalObjects)" Tags="TestUnsafe" Value="262987" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_LivestockPen_Cow)" Value="262992" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_LivestockPen_Llama)" Value="262993" />
+  <Preset Label="Steal Fruit (fox_Steal_Harvestable)" Value="262998" />
+  <Preset Label="Steal Egg (autonomous_Fox_StealEgg)" Tags="TestUnsafe" Value="263002" />
+  <Preset Label="idle_Buff_Canning_Cowberry" Value="263005" />
+  <Preset Label="Send {1.ObjectName} Home (sI_AnimalObjects_SendHome_Rabbits_DEBUG)" Value="263063" />
+  <Preset Label="Stitch from Reference (crossStitch_StartCrafting_HoopLarge_FromReference)" Value="263068" />
+  <Preset Label="Stitch from Reference (crossStitch_StartCrafting_HoopMedium_FromReference)" Value="263069" />
+  <Preset Label="Stitch from Reference (crossStitch_StartCrafting_HoopSmall_FromReference)" Value="263070" />
+  <Preset Label="Large Hoop (crossStitch_StartCrafting_KitLarge_FromReference)" Value="263071" />
+  <Preset Label="Medium Hoop (crossStitch_StartCrafting_KitMedium_FromReference)" Value="263072" />
+  <Preset Label="Small Hoop (crossStitch_StartCrafting_KitSmall_FromReference)" Value="263073" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Rabbit_Toddler)" Value="263087" />
+  <Preset Label="fox_reaction_RunAway" Value="263094" />
+  <Preset Label="generic_LivestockPen_Woohoo" Value="263118" />
+  <Preset Label="Try for Baby (livestockPen_tryForBaby)" Value="263177" />
+  <Preset Label="Tip {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_LivestockPen_TipCow)" Value="263179" />
+  <Preset Label="WooHoo (livestockPen_WooHoo)" Value="263184" />
+  <Preset Label="Try for Baby in Animal Shed (mixer_social_TryForBabyInLivestockPen_targeted_romance_transition)" Tags="TestUnsafe" Value="263191" />
+  <Preset Label="Create Rabbit in Home (Debug) (debug_CreateAnimalObjects_Rabbit_InHome)" Value="263215" />
+  <Preset Label="Create Hen in Coop (Debug) (debug_CreateAnimalObjects_Chicken_InCoop)" Value="263216" />
   <Preset Label="Unlock All Animal Homes (Debug) (cheats_AnimalObjects_UnlockAllAnimalHomes)" Value="263218" />
+  <Preset Label="crossStitch_CreateObjectCarry_FromLargeHoop_FromReference" Value="263237" />
+  <Preset Label="WooHoo in Animal Shed (mixer_social_WooHooInLivestockPen_targeted_romance_transition)" Tags="TestUnsafe" Value="263241" />
+  <Preset Label="WooHoo With (livestockPen_WooHoo_Picker)" Tags="TestUnsafe" Value="263242" />
+  <Preset Label="Mess Around With (livestockPen_messAround_Picker)" Tags="TestUnsafe" Value="263243" />
+  <Preset Label="Try for Baby With (livestockPen_TryForBaby_Female_Picker)" Tags="TestUnsafe" Value="263244" />
+  <Preset Label="Try for Baby With (livestockPen_TryForBaby_Male_Picker)" Tags="TestUnsafe" Value="263245" />
+  <Preset Label="[UNUSED STRING - SAFE TO DELETE] Abandon Village Errand (freelancer_Career_SuperInteraction_Cancel_VillagerHelp)" Value="263548" />
+  <Preset Label="Scrap Stitch (crossStitch_ScrapStitch)" Value="263563" />
+  <Preset Label="Scrap Stitch (crossStitch_StartScrapStitch)" Value="263564" />
+  <Preset Label="idle_firebreathe" Value="263572" />
+  <Preset Label="Try to Lure Out Rabbits (sI_AnimalObjects_Rabbits_Home_LureOutRabbits)" Value="263574" />
+  <Preset Label="Try to Lure Out Rabbits (objectInSlotPicker_AnimalObjects_Rabbits_CallOutFromHome)" Tags="TestUnsafe" Value="263575" />
+  <Preset Label="Call Out Particular Rabbit (Debug) (objectInSlotPicker_AnimalObjects_Rabbits_CallOutFromHome_DEBUG)" Tags="TestUnsafe" Value="263579" />
+  <Preset Label="Pounce (sI_AnimalObjects_FoxStalk_Pounce)" Value="263582" />
+  <Preset Label="Be Intimidated by {1.ObjectName} (sI_AnimalObjects_FoxStalk_RoosterIntimidate)" Value="263583" />
+  <Preset Label="Be Spit At by {1.ObjectName} (sI_AnimalObjects_FoxStalk_LlamaSpit)" Value="263584" />
   <Preset Label="animalObjects_ImmediateInteractions_SetState_Routing_CallOut" Value="263587" />
+  <Preset Label="Receive Item (social_VillagerHelp_ReceiveItem)" Value="263592" />
+  <Preset Label="Deliver (social_VillagerHelp_DeliverItem_Basic)" Value="263593" />
+  <Preset Label="Deliver Milk (villagerHelp_Deliver_Picker_Milk_AgnesCrumplebottom)" Tags="TestUnsafe" Value="263596" />
+  <Preset Label="Scold &lt;i&gt;(on Agnes's Behalf)&lt;/i&gt; (social_VillagerHelp_ScoldGroceryOwner)" Value="263602" />
+  <Preset Label="Name (nameSim_Fox)" Value="263615" />
+  <Preset Label="villagerHelp_Interaction_DestroyDeliverItem_InvisibleContinuation" Value="263630" />
+  <Preset Label="idle_Buff_LactoseIntolerant_Uncomfortable" Value="263727" />
   <Preset Label="super_CommunityLot_NPC_CreateSeedInSlot" Value="263747" />
+  <Preset Label="Force Steal Egg (Debug) (Fox_Cheat_ForceStealEgg)" Value="263830" />
+  <Preset Label="super_OpenStreet_CottageWorld_Picnicker_CreateFood" Value="263843" />
+  <Preset Label="generic_AnimalObjects_LivestockPen" Value="263851" />
+  <Preset Label="Ask for Village Package (social_VillagerHelp_GetSocialShortPackage)" Value="263857" />
+  <Preset Label="Deliver Village Package (villagerHelp_Deliver_Picker_SocialShortPackage)" Tags="TestUnsafe" Value="263872" />
   <Preset Label="Throw Away (object_ThrowAway_Immediate)" Value="263876" />
   <Preset Label="Cook Together With (StartGroupCrafting_GroupCooking_Fridge)" Value="263878" />
   <Preset Label="situationStartGroupCraftingInteraction_GroupCooking" Value="263879" />
+  <Preset Label="Offer Village Package (social_VillagerHelp_GiveSocialShortPackage)" Value="263887" />
   <Preset Label="Join Cooking (GroupCooking_Mentor)" Value="263924" />
+  <Preset Label="Stop Gardening Help for All Rabbit Residents (animalObjects_ImmediateInteractions_GardeningHelp_Stop_RabbitHome)" Value="263965" />
+  <Preset Label="Stop Gardening Help (animalObjects_ImmediateInteractions_GardeningHelp_Stop_BirdHome)" Value="263966" />
+  <Preset Label="Clean Shed (sI_AnimalObjects_LivestockPen_Inside_CleanShed)" Value="263981" />
   <Preset Label="Gather for Group Cooking (GroupCooking_SituationHolder)" Value="263996" />
   <Preset Label="GroupCooking_Counter_CuttingBoard_Chop_Apple" Value="264007" />
   <Preset Label="GroupCooking_Counter_CuttingBoard_Chop_Asparagus" Value="264008" />
@@ -5607,12 +6256,17 @@
   <Preset Label="GroupCooking_Counter_MixingBowl_BowlFlip_Basic" Value="264044" />
   <Preset Label="GroupCooking_Counter_MixingBowl_Mix_Basic" Value="264046" />
   <Preset Label="GroupCooking_Counter_MixingBowl_Toss_Basic" Value="264048" />
+  <Preset Label="Gossip (social_VillagerHelp_Situation_Gossip)" Value="264051" />
+  <Preset Label="Eavesdrop on Gossip (villagerHelp_Interaction_SocialMedium_EavesdropOnGossip)" Value="264052" />
   <Preset Label="Cook Together With (startGroupCrafting_GroupCooking_Stove)" Value="264054" />
+  <Preset Label="autonomousSimPickerSuperInteraction_VillagerHelp_Situation_GossipTarget" Tags="TestUnsafe" Value="264056" />
   <Preset Label="Cook (GroupCooking_Join_Start_MixingBowl)" Value="264058" />
   <Preset Label="Join Cooking (GroupCooking_Join_Continue_MixingBowl)" Value="264060" />
   <Preset Label="Join Cooking (groupCooking_Join_Chooser)" Value="264062" />
   <Preset Label="mentor_Mixer_Food_Child" Value="264064" />
   <Preset Label="Stock Pond With Fish (picker_Ponds_ManageFish)" Tags="TestUnsafe" Value="264072" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SwipeCompetitionB)" Value="264111" />
+  <Preset Label="Scold (social_Scold_AgnesCrumplebottom)" Value="264158" />
   <Preset Label="Bellyache About Acting (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Acting)" Tags="TestUnsafe" Value="264413" />
   <Preset Label="Protest Baking (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Baking)" Tags="TestUnsafe" Value="264414" />
   <Preset Label="Share Disgust Of Bowling (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Bowling)" Tags="TestUnsafe" Value="264415" />
@@ -5665,11 +6319,49 @@
   <Preset Label="Enthuse About Writing (socials_Targeted_Friendly_SimPreference_Recent_Likes_Writing)" Tags="TestUnsafe" Value="264463" />
   <Preset Label="Protest Programming (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Programming)" Tags="TestUnsafe" Value="264466" />
   <Preset Label="Enthuse About Programming (socials_Targeted_Friendly_SimPreference_Recent_Likes_Programming)" Tags="TestUnsafe" Value="264467" />
+  <Preset Label="super_Attractor_CottageWorld_Gossiper" Value="264481" />
+  <Preset Label="super_Attractor_CottageWorld_WoodsWanderer" Value="264482" />
+  <Preset Label="super_OpenStreet_CottageWorld_AttractedBehavior_GoToPOI" Value="264486" />
+  <Preset Label="super_OpenStreet_CottageWorld_AttractedBehavior_GoToSquare" Value="264487" />
+  <Preset Label="Fox_Stalk_Watch" Value="264534" />
+  <Preset Label="(Debug) Give Competition Items (immediateSuperInteraction_VillageFair_GiveCompetitionItems)" Value="264544" />
+  <Preset Label="super_OpenStreet_CottageWorld_Gossiper_CrossStitch" Value="264563" />
+  <Preset Label="mixer_OpenStreet_CottageWorld_Gossiper_Stitch_Active" Value="264564" />
+  <Preset Label="mixer_OpenStreet_CottageWorld_Gossiper_Stitch_Passive" Value="264565" />
+  <Preset Label="super_OpenStreet_CottageWorld_Gossiper_CreateHoop" Value="264574" />
+  <Preset Label="Discover Gift Preferences (sI_AnimalObjects_DiscoverGift_ToRabbit)" Value="264663" />
+  <Preset Label="crossStitch_CreateObjectCarry_FromKit_FromReference" Value="264683" />
+  <Preset Label="Reset &quot;Discover Gift Preferences&quot; Cooldown (Debug) (cheats_AnimalObjects_CritterGifting_DisableDiscoverGiftCooldown)" Value="264693" />
+  <Preset Label="Stalk {1.ObjectName} (sI_AnimalObjects_FoxStalk)" Value="264709" />
+  <Preset Label="Report Juicy Gossip (social_VillagerHelp_ReportBack_SocialMedium_Gossip)" Value="264710" />
+  <Preset Label="Create Wall Mounted Copy (object_copyLargeCrossStitchCraftable_toSimInventory)" Value="264716" />
+  <Preset Label="super_OpenStreet_CottageWorld_Forager_Forage" Value="264735" />
+  <Preset Label="Dress {1.ObjectName} in {2.ObjectName} (sI_AnimalObjects_AnimalClothing_Give_Cow)" Value="264777" />
+  <Preset Label="Create Wall Mounted Copy (object_copyMediumCrossStitchCraftable_toSimInventory)" Value="264778" />
+  <Preset Label="Create Wall Mounted Copy (object_copySmallCrossStitchCraftable_toSimInventory)" Value="264779" />
+  <Preset Label="Dress {1.ObjectName} in {2.ObjectName} (sI_AnimalObjects_AnimalClothing_Give_Rabbit)" Value="264817" />
+  <Preset Label="Dress {1.ObjectName} in {2.ObjectName} (sI_AnimalObjects_AnimalClothing_Give_Chicken)" Value="264818" />
+  <Preset Label="Dress {1.ObjectName} in {2.ObjectName} (sI_AnimalObjects_AnimalClothing_Give_Llama)" Value="264819" />
   <Preset Label="Take Clothes from {1.ObjectName} (sI_AnimalObjects_AnimalClothing_Take)" Value="264820" />
+  <Preset Label="Dress {1.ObjectName} In (animalObjects_ObjectInInventory_AnimalClothing_Picker_Cow)" Tags="TestUnsafe" Value="264822" />
+  <Preset Label="Dress {1.ObjectName} In (animalObjects_ObjectInInventory_AnimalClothing_Picker_Llama)" Tags="TestUnsafe" Value="264823" />
+  <Preset Label="Dress {1.ObjectName} In (animalObjects_ObjectInInventory_AnimalClothing_Picker_Chicken)" Tags="TestUnsafe" Value="264824" />
+  <Preset Label="Dress {1.ObjectName} In (animalObjects_ObjectInInventory_AnimalClothing_Picker_Rabbit)" Tags="TestUnsafe" Value="264825" />
+  <Preset Label="Have a Henford Heart-to-Heart (mixer_social_CottageWorld_NPC_GossipAboutVillage_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="264831" />
   <Preset Label="Get all Animal Clothes (Debug) (cheats_AnimalObjects_AnimalClothing_CreateAllAnimalClothes)" Value="264841" />
+  <Preset Label="Assign Animal to Shed (sI_AnimalObjects_LivestockPen_AssignContinuation)" Value="264846" />
+  <Preset Label="Buy Animal Clothing (purchasePickerInteraction_AnimalObjects_AnimalClothing_CritterTenderNPC)" Tags="TestUnsafe" Value="264963" />
+  <Preset Label="Buy Animal Clothing (purchasePickerInteraction_AnimalObjects_AnimalClothing_Debug)" Tags="TestUnsafe" Value="264964" />
   <Preset Label="Get Special Upgrade Part (Debug) (cheats_AnimalObjects_CreateUpgradePart)" Value="264965" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Chickens_Toddler)" Value="264992" />
+  <Preset Label="Offer Finchwick Favor (sim_CottageWorld_NPC_OfferFavor_Picker)" Tags="TestUnsafe" Value="265002" />
   <Preset Label="Allow Frogs on Lily Pad (super_Ponds_ToggleVFX)" Value="265046" />
+  <Preset Label="Offer Finchwick Favor (social_CottageWorld_NPC_OfferFavor)" Value="265075" />
+  <Preset Label="Offer Finchwick Favor (social_CottageWorld_NPC_GiveFavor)" Value="265076" />
   <Preset Label="Shoo {1.SimFirstName} Away (fox_Immediate_KlobberToScareOff)" Value="265097" />
+  <Preset Label="Receive Finchwick Favor (social_CottageWorld_NPC_ReceiveFavor)" Value="265101" />
+  <Preset Label="Talk to Plant (super_GiantCrops_Plant_TalkToCrop_NatureConversationalistTrait)" Value="265126" />
+  <Preset Label="Hire Grocery Delivery (phone_Deliveries_Groceries_HireNPC_Free)" Value="265134" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Alternative" Value="265139" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Blues" Value="265140" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Classical" Value="265141" />
@@ -5730,10 +6422,24 @@
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Metal" Value="265210" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_JapaneseFolk" Value="265212" />
   <Preset Label="idle_Buff_SimPreference_Likes_Music_JapaneseFolk" Value="265214" />
+  <Preset Label="Practice Piano (filteredObjectPicker_AnimalObject_AnimalEnthusiast_Playto_Piano)" Tags="TestUnsafe" Value="265268" />
+  <Preset Label="Discover Gift Preferences (socials_Fox_SimToFox_DiscoverGift)" Tags="TestUnsafe" Value="265272" />
+  <Preset Label="Practice Pipe Organ (filteredObjectPicker_AnimalObject_AnimalEnthusiast_Playto_PipeOrgan)" Tags="TestUnsafe" Value="265317" />
   <Preset Label="mixer_Deliveries_WaitForTip_Wait" Value="265319" />
+  <Preset Label="Buy Animal Clothing... (social_VillagerHelp_AnimalObject_BuyAnimalClothing)" Value="265325" />
+  <Preset Label="Ask to Craft Clothing (social_VillagerHelp_AnimalObject_CraftAnimalClothing)" Value="265327" />
+  <Preset Label="Craft Chicken Clothes (CottageWorld_NPC_Crafting_AnimalObject_AnimalClothing_Chickens)" Value="265328" />
+  <Preset Label="Put Cottage Living Harvestables in Sim's Inventory (DEBUG) (debug_GardeningContainer_GiveEP11Harvestables)" Value="265353" />
+  <Preset Label="Wait (social_VillagerHelp_AnimalObject_WaitForAnimalClothing)" Value="265355" />
   <Preset Label="AnimalObjects_AnimalClothing_CraftClothes" Value="265373" />
+  <Preset Label="Ask If They're the Mystery Gifter (social_VillagerHelp_AskIfMysteryGifter)" Value="265379" />
+  <Preset Label="Reveal Mystery Gifter (social_VillagerHelp_ReportBack_SocialMedium_Gifter)" Value="265399" />
   <Preset Label="Getting Out of Freezing Water (super_Ponds_FrozenWaterRules_LeavePond_Fallback)" Value="265403" />
+  <Preset Label="Assign Animal to Shed (filteredObjectPicker_AnimalObject_LivestockPen_Assign)" Tags="TestUnsafe" Value="265413" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Pop" Value="265414" />
+  <Preset Label="Sell (crossStitch_SellProduct_FromWorld)" Value="265423" />
+  <Preset Label="Wonder If Worth It (lactoseIntolerant_WonderIfWorth_Multiserving)" Value="265425" />
+  <Preset Label="Deliver a Pie (villagerHelp_Deliver_Picker_SocialMediumPie)" Tags="TestUnsafe" Value="265430" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Activities_Comedy" Value="265434" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Activities_Cooking" Value="265435" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Activities_Fishing" Value="265436" />
@@ -5796,17 +6502,154 @@
   <Preset Label="idle_Buff_SimPreference_Dislikes_Activities_RocketScience" Value="265494" />
   <Preset Label="idle_Buff_SimPreference_Likes_Activities_RockClimbing" Value="265496" />
   <Preset Label="idle_Buff_SimPreference_Likes_Activities_Robotics" Value="265497" />
+  <Preset Label="Practice Keyboard (filteredObjectPicker_AnimalObject_AnimalEnthusiast_Playto_KeyBoard)" Tags="TestUnsafe" Value="265602" />
+  <Preset Label="Practice Guitar (filteredObjectPicker_AnimalObject_AnimalEnthusiast_Playto_Guitar)" Tags="TestUnsafe" Value="265603" />
+  <Preset Label="Practice Violin (filteredObjectPicker_AnimalObject_AnimalEnthusiast_Playto_Violin)" Tags="TestUnsafe" Value="265604" />
+  <Preset Label="Practice Guitar (animalEnthusiast_PlayTo_Guitar_OnInstrument)" Value="265607" />
+  <Preset Label="Practice Violin (animalEnthusiast_PlayTo_Violin_OnInstrument)" Value="265609" />
+  <Preset Label="Craft Llama Clothes (cottageWorld_NPC_Crafting_AnimalObject_AnimalClothing_Llama)" Value="265614" />
+  <Preset Label="Craft Cow Clothes (cottageWorld_NPC_Crafting_AnimalObject_AnimalClothing_Cow)" Value="265615" />
+  <Preset Label="Craft Rabbit Clothes (cottageWorld_NPC_Crafting_AnimalObject_AnimalClothing_Rabbits)" Value="265616" />
+  <Preset Label="Give Golden Wool (villagerHelp_Deliver_Picker_GoldenWool)" Tags="TestUnsafe" Value="265645" />
+  <Preset Label="Give Golden Milk (villagerHelp_Deliver_Picker_GoldenMilk)" Tags="TestUnsafe" Value="265646" />
+  <Preset Label="Give Obsidian Milk (villagerHelp_Deliver_Picker_ObsidianMilk)" Tags="TestUnsafe" Value="265647" />
+  <Preset Label="Deliver Rainbow Wool (villagerHelp_Deliver_Picker_RainbowWool)" Tags="TestUnsafe" Value="265648" />
+  <Preset Label="Deliver Eggs (social_VillagerHelp_DeliverItem_Ingredients_Eggs)" Value="265653" />
+  <Preset Label="Deliver Milk (social_VillagerHelp_DeliverItem_Ingredients_Milk)" Value="265654" />
+  <Preset Label="Deliver Wool (social_VillagerHelp_DeliverItem_Ingredients_Wool)" Value="265655" />
+  <Preset Label="Practice Keyboard (filteredObjectPicker_AnimalObject_AnimalEnthusiast_Playto_KeyBoard_Child)" Tags="TestUnsafe" Value="265660" />
+  <Preset Label="Practice Piano (filteredObjectPicker_AnimalObject_AnimalEnthusiast_Playto_Piano_Child)" Tags="TestUnsafe" Value="265662" />
+  <Preset Label="Practice Pipe Organ (filteredObjectPicker_AnimalObject_AnimalEnthusiast_Playto_PipeOrgan_Child)" Tags="TestUnsafe" Value="265663" />
+  <Preset Label="Practice Violin (filteredObjectPicker_AnimalObject_AnimalEnthusiast_Playto_Violin_Child)" Tags="TestUnsafe" Value="265673" />
+  <Preset Label="Practice Violin with {1.ObjectName} (animalEnthusiast_PlayTo_Picker_Violin_Child)" Tags="TestUnsafe" Value="265691" />
+  <Preset Label="Practice Piano (AnimalEnthusiast_PlayTo_Piano_Child)" Value="265693" />
+  <Preset Label="Practice Violin (animalEnthusiast_PlayTo_Violin_Child_OnInstrument)" Value="265696" />
+  <Preset Label="Practice Violin (animalEnthusiast_PlayTo_Violin_Child_OnAnimal)" Value="265697" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Book)" Value="265706" />
+  <Preset Label="Take Gift Offered by {1.ObjectName} (fox_CritterGifting_TakeGift_Dislike)" Value="265718" />
   <Preset Label="super_CommunityLot_NPC_IdleAtPlant" Value="265719" />
   <Preset Label="Controller State (statePickerSuperInteraction_DebugController_AnimalObjects_BirdHome)" Tags="TestUnsafe" Value="265782" />
+  <Preset Label="super_OpenStreet_CottageWorld_Picnicker_GoToTable" Value="265794" />
+  <Preset Label="Purchase Animal (purchasePickerInteraction_AnimalObjects_LivestockPen)" Tags="TestUnsafe" Value="265795" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Fish)" Value="265806" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Drink)" Value="265808" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_MealMeat)" Value="265809" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_MealVeggie)" Value="265810" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Painting)" Value="265811" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Sculpture)" Value="265812" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Flower)" Value="265813" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Produce)" Value="265814" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Insect)" Value="265815" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Egg)" Value="265817" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_CrossStitch)" Value="265818" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Wool)" Value="265819" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_Milk)" Value="265820" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_CannedGood)" Value="265821" />
+  <Preset Label="Deliver Aubergine (villagerHelp_Deliver_Picker_Aubergine)" Tags="TestUnsafe" Value="265831" />
+  <Preset Label="Deliver Lettuce (villagerHelp_Deliver_Picker_Lettuce)" Tags="TestUnsafe" Value="265832" />
+  <Preset Label="Deliver Pumpkin (villagerHelp_Deliver_Picker_Pumpkin)" Tags="TestUnsafe" Value="265833" />
+  <Preset Label="Deliver Watermelon (villagerHelp_Deliver_Picker_Watermelon)" Tags="TestUnsafe" Value="265834" />
+  <Preset Label="Age Up! (ageUp_Fox)" Value="265854" />
+  <Preset Label="Old Age (death_OldAge_Fox)" Value="265869" />
+  <Preset Label="Give Rabbit Report (social_VillagerHelp_ReportBack_WildAnimalShort)" Value="265884" />
   <Preset Label="Eat {1.ObjectName} (gardening_EatHarvestable_Spicy)" Value="265886" />
+  <Preset Label="Deliver Blueberries (social_VillagerHelp_DeliverItem_FoodShort_Blueberry)" Value="265901" />
+  <Preset Label="Deliver Raspberries (social_VillagerHelp_DeliverItem_FoodShort_Raspberry)" Value="265902" />
+  <Preset Label="Deliver Chocoberries (social_VillagerHelp_DeliverItem_FoodShort_ChocolateBerry)" Value="265903" />
+  <Preset Label="Deliver Lovely &amp; Spicy Mushrooms (social_VillagerHelp_DeliverItem_FoodShort_CommonMushrooms)" Value="265904" />
+  <Preset Label="Deliver Cheese and a Single Serving of Beef Wellington (social_VillagerHelp_DeliverItem_FoodShort_MealBeef)" Value="265905" />
+  <Preset Label="Deliver Single Serving of Aubergine Parm &amp; Pumpkin Scones (social_VillagerHelp_DeliverItem_FoodShort_MealAubergine)" Value="265906" />
+  <Preset Label="super_NPCVillagers_ConspireWithGnomes" Value="266039" />
+  <Preset Label="Discover Gift Preferences (sI_AnimalObjects_DiscoverGift_ToBird)" Value="266112" />
+  <Preset Label="Take Gift Offered by {1.ObjectName} (sI_AnimalObjects_TakeGift_FromBird)" Value="266155" />
+  <Preset Label="Chat With (sI_AnimalObjects_BirdHome_AnimatedBird_TalkTo_HighRel_Success)" Value="266173" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_LivestockPen_Cows_Toddler)" Value="266199" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_LivestockPen_Llama_Toddler)" Value="266200" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Death_LivestockPen_Cow)" Value="266215" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Death_LivestockPen_Llama)" Value="266216" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Death_NoConstraints_LivestockPen)" Value="266224" />
+  <Preset Label="Deliver Single Serving of Nightly Mushroom Soup (villagerHelp_Deliver_Picker_NightlyMushroomSoup)" Tags="TestUnsafe" Value="266225" />
+  <Preset Label="Deliver Raspberry Jam (villagerHelp_Deliver_Picker_RaspberryJam)" Tags="TestUnsafe" Value="266226" />
+  <Preset Label="Deliver Blueberry Jam (villagerHelp_Deliver_Picker_BlueberryJam)" Tags="TestUnsafe" Value="266227" />
+  <Preset Label="Deliver Chocolate Syrup (villagerHelp_Deliver_Picker_ChocolateSyrup)" Tags="TestUnsafe" Value="266228" />
+  <Preset Label="animalObjects_ImmediateInteractions_AutopickNextRabbit_Maybe" Value="266234" />
   <Preset Label="Call Over (immediate_RelPanel_CallOver_AnimalObject_Chickens)" Value="266237" />
   <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_AnimalObject)" Value="266318" />
   <Preset Label="Place in World (si_SwipeAddToWorld_AnimalObjects)" Value="266321" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_BirdHome)" Value="266327" />
+  <Preset Label="What's That? (sI_AnimalObjects_Watch_BirdHome_Toddler)" Value="266328" />
   <Preset Label="Send Home (immediate_RelPanel_SendHome_AnimalObject_Chickens)" Value="266329" />
+  <Preset Label="autonomous_ObjectPicker_VillageFair_SubmitEntry_Pen" Tags="TestUnsafe" Value="266353" />
+  <Preset Label="Cook (fridge_CookAutonomously_LactoseIntolerant)" Value="266482" />
+  <Preset Label="autonomousPicker_VillageFair_Submit_NPC_Chicken" Tags="TestUnsafe" Value="266545" />
+  <Preset Label="autonomousPicker_VillageFair_Submit_NPC_Egg" Tags="TestUnsafe" Value="266547" />
+  <Preset Label="autonomousPicker_VillageFair_Submit_NPC_Cow" Tags="TestUnsafe" Value="266548" />
+  <Preset Label="autonomousPicker_VillageFair_Submit_NPC_Llama" Tags="TestUnsafe" Value="266549" />
+  <Preset Label="autonomousPicker_VillageFair_Submit_NPC_Wool" Tags="TestUnsafe" Value="266550" />
+  <Preset Label="autonomousPicker_VillageFair_Submit_NPC_Milk" Tags="TestUnsafe" Value="266551" />
+  <Preset Label="autonomousPicker_VillageFair_Submit_NPC_Pie" Tags="TestUnsafe" Value="266552" />
+  <Preset Label="autonomousPicker_VillageFair_Submit_NPC_CropGiant" Tags="TestUnsafe" Value="266553" />
+  <Preset Label="autonomousPicker_VillageFair_Submit_NPC_CropNormal" Tags="TestUnsafe" Value="266554" />
+  <Preset Label="autonomous_ObjectPicker_VillageFair_SubmitEntry_StandA" Tags="TestUnsafe" Value="266561" />
+  <Preset Label="autonomous_ObjectPicker_VillageFair_SubmitEntry_StandB" Tags="TestUnsafe" Value="266562" />
+  <Preset Label="Submit Entry (festivals_VillageFair_Interactions_SwipeCompetition_NPC)" Value="266620" />
+  <Preset Label="Open Notebook (notebook_View_CottageLiving_Egg)" Value="266650" />
+  <Preset Label="Have a Quick Meal (fridge_GrabSnackAutonomously_LactoseIntolerant)" Value="266693" />
+  <Preset Label="Open Notebook (notebook_View_CottageLiving_AnimalFeed)" Value="266694" />
+  <Preset Label="Open Notebook (notebook_View_CottageLiving_GiantCrop)" Value="266695" />
+  <Preset Label="Open Notebook (notebook_View_CottageLiving_Milk)" Value="266696" />
+  <Preset Label="Open Notebook (notebook_View_CottageLiving_Wool)" Value="266697" />
   <Preset Label="food_Spicy_React" Value="266701" />
+  <Preset Label="Discover All Gift Preferences (Debug) (cheats_AnimalObjects_CritterGifting_KnowAllPreferences)" Value="266729" />
+  <Preset Label="Sell Foraged Plants (social_CottageWorld_NPC_CritterTender_Sell)" Value="266807" />
+  <Preset Label="Sell Foraged Plants (sellPickerInteraction_CottageWorld_NPC_CritterTender)" Tags="TestUnsafe" Value="266808" />
+  <Preset Label="What's That? (festivals_VillageFair_Interactions_ViewEntry_Toddler)" Value="266861" />
   <Preset Label="food_Eat_SpicyMushroomSoup" Value="266970" />
+  <Preset Label="Be Pooped On by Birds (sI_AnimalObject_Interactions_BirdHome_SingTo_Continuation_Fail)" Value="266981" />
+  <Preset Label="Gain Wisdom from the Flock (sI_AnimalObject_Interactions_BirdHome_AskQuestion_Continuation_EpicSuccess)" Value="266994" />
+  <Preset Label="reaction_LactoseIntolerant_Disgusted_Mixer_Milk" Value="267031" />
+  <Preset Label="Stand (fox_StealEgg_posture)" Value="267035" />
+  <Preset Label="Create Wool In Inventory (crossStitch_Cheats_AddWoolToInventory)" Value="267043" />
+  <Preset Label="Unlock All Locked Patterns (crossStitch_Cheats_UnlockAllLockedPatterns)" Value="267044" />
+  <Preset Label="Create All Patterns In Inventory (crossStitch_Cheats_CreateAllStitchDesignsInInventory)" Value="267045" />
+  <Preset Label="stand_Fox_Passive_Steal" Value="267047" />
+  <Preset Label="Open (immediate_CottageWorld_NPC_MysteryBox_Open)" Value="267070" />
+  <Preset Label="Buy Mystery Box (marketStalls_CottageWorld_NPC_BuyMysteryBox)" Value="267074" />
+  <Preset Label="Order Pub Food (bar_PushOrderFood_CottageWorld)" Value="267100" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToBird_InsectFarm)" Value="267140" />
+  <Preset Label="Give Gift (critterGifting_GiveGift_ToRabbit_InsectFarm)" Value="267141" />
+  <Preset Label="Give Gift (foxSocial_CritterGifting_GiveGift_ToFox_InsectFarm)" Value="267142" />
+  <Preset Label="cottageWorldAttractors_VillageFair" Value="267174" />
+  <Preset Label="Report Gnome Gossip (social_VillagerHelp_ReportBack_Agatha_GnomeGossip)" Value="267178" />
+  <Preset Label="Report on Single Sims (social_VillagerHelp_ReportBack_Agatha_SingleSims)" Value="267180" />
+  <Preset Label="Deliver Dessert (villagerHelp_Deliver_Picker_Dessert)" Tags="TestUnsafe" Value="267208" />
+  <Preset Label="Collect Grocery Order (social_VillagerHelp_GroceryOwner_CollectOrder)" Value="267222" />
+  <Preset Label="Relay Grocery Orders (social_VillagerHelp_ReportBack_GroceryOwner_RelayOrders)" Value="267223" />
+  <Preset Label="Deliver Dozen Eggs (social_VillagerHelp_DeliverItem_Ingredients_DozenEggs)" Value="267224" />
+  <Preset Label="Deliver Single Serving of Food (villagerHelp_Deliver_Picker_SingleFood)" Tags="TestUnsafe" Value="267225" />
+  <Preset Label="Deliver Rose (villagerHelp_Deliver_Picker_Rose)" Tags="TestUnsafe" Value="267226" />
+  <Preset Label="Give Regards from Creature Keeper (social_VillagerHelp_ReportBack_GroceryOwner_ReportFromCritterTender)" Value="267227" />
+  <Preset Label="Give Regards and Mushrooms from Creature Keeper (social_VillagerHelp_DeliverItem_GroceryOwner_ReportFromCritterTenderAndGiveMushrooms)" Value="267228" />
   <Preset Label="Clean (stove_Clean_CounterStove)" Value="267350" />
   <Preset Label="Energy Failure (super_Ponds_EnergyFailure_ExitPond)" Value="267351" />
+  <Preset Label="Deliver (social_VillagerHelp_DeliverItem_RoseToCritterTender)" Value="267353" />
+  <Preset Label="Give Photo (villagerHelp_Deliver_Picker_Photo)" Tags="TestUnsafe" Value="267387" />
+  <Preset Label="Chat About the Mayor (social_VillagerHelp_GroceryDelivery_DiscussMayor)" Value="267388" />
+  <Preset Label="Convey Mayor's Feelings (social_VillagerHelp_ReportBack_GroceryDelivery_FromMayor)" Value="267389" />
+  <Preset Label="Deliver Cross-stitch (villagerHelp_Deliver_Picker_CrossStitch)" Tags="TestUnsafe" Value="267390" />
+  <Preset Label="Give Chocolate Pie (villagerHelp_Deliver_Picker_ChocolatePie)" Tags="TestUnsafe" Value="267391" />
+  <Preset Label="Give Chocoberry (villagerHelp_Deliver_Picker_ChocolateBerries)" Tags="TestUnsafe" Value="267392" />
+  <Preset Label="Discuss Grocery Deliverer's Dreams (social_VillagerHelp_ReportBack_Mayor_FromGroceryDelivery)" Value="267403" />
+  <Preset Label="Ask about Dreams (social_VillagerHelp_Mayor_AskGroceryDeliveryAboutDreams)" Value="267404" />
+  <Preset Label="Deliver Charming and Verdant Mushrooms (social_VillagerHelp_DeliverItem_Ingredients_UncommonMushrooms)" Value="267449" />
+  <Preset Label="Deliver Blueberry, Raspberry, and Chocoberry (social_VillagerHelp_DeliverItem_Ingredients_OneOfEachBerry)" Value="267450" />
+  <Preset Label="Choose the Bagley Berry Fizz (social_VillagerHelp_PubOwner_PickDrink1)" Value="267451" />
+  <Preset Label="Choose the Verdant and Funk (social_VillagerHelp_PubOwner_PickDrink2)" Value="267453" />
+  <Preset Label="Order Sampler (bar_PushOrderDrink_VillagerHelp_Sampler)" Value="267504" />
+  <Preset Label="Ask for More Mushroom Mash (social_VillagerHelp_CritterTender_AskForMoreMushroomMash)" Value="267518" />
+  <Preset Label="Deliver 3 Chocoberries (social_VillagerHelp_DeliverItem_Ingredients_3ChocolateBerries)" Value="267519" />
+  <Preset Label="Deliver 6 Spicy Mushrooms (social_VillagerHelp_DeliverItem_Ingredients_6SpicyMushrooms)" Value="267520" />
+  <Preset Label="Admit Hearing the Birds (social_VillagerHelp_ReportBack_CritterTender_FromBirdTalk)" Value="267522" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_DJ" Value="267536" />
   <Preset Label="idle_Buff_SimPreference_Likes_Music_DJ" Value="267537" />
   <Preset Label="Enthuse About Alternative Music (socials_Targeted_Friendly_SimPreference_Recent_Music_Alternative)" Tags="TestUnsafe" Value="267573" />
@@ -5840,12 +6683,140 @@
   <Preset Label="Enthuse About Tween Pop Music (socials_Targeted_Friendly_SimPreference_Recent_Music_TweenPop)" Tags="TestUnsafe" Value="267604" />
   <Preset Label="Enthuse About Winter Holiday Music (socials_Targeted_Friendly_SimPreference_Recent_Music_WinterHoliday)" Tags="TestUnsafe" Value="267606" />
   <Preset Label="Enthuse About World Music (socials_Targeted_Friendly_SimPreference_Recent_Music_World)" Tags="TestUnsafe" Value="267607" />
+  <Preset Label="Redeem Coupon for Free Grocery Delivery (super_Deliveries_RedeemCoupon)" Value="267614" />
+  <Preset Label="Call Chickens to Eat (sI_AnimalObjects_Chickens_CallChickensToEat)" Value="267636" />
   <Preset Label="Sell (SI_object_throwAway_Immediate_soldFromInventory)" Value="267669" />
+  <Preset Label="Canning (stove_Canning_OffTheGrid)" Value="267673" />
   <Preset Label="Debug: Manage Fish (picker_Ponds_ManageFish_Debug)" Tags="TestUnsafe" Value="267744" />
+  <Preset Label="Hatch Eggs (objectInSlotPicker_AnimalObjects_Chickens_HatchEggInCoop)" Tags="TestUnsafe" Value="267760" />
+  <Preset Label="Watch (fox_Watch_Object)" Value="267845" />
+  <Preset Label="Discuss if the Chicken came first (mixer_AnimalEnthusiastTrait_DiscussIfChicken)" Tags="TestUnsafe" Value="267888" />
+  <Preset Label="Share delight about animals (mixer_AnimalEnthusiastTrait_ShareDelight)" Tags="TestUnsafe" Value="267889" />
+  <Preset Label="Mope about missing animals (mixer_AnimalEnthusiastTrait_MopeMissingAnimals)" Tags="TestUnsafe" Value="267890" />
+  <Preset Label="Complain about bloating (mixer_LactoseIntolerantTrait_ComplainAboutBloating)" Tags="TestUnsafe" Value="267891" />
+  <Preset Label="Share wonders of dairy-free life (mixer_LactoseIntolerantTrait_ShareWondersOfDairyFree)" Tags="TestUnsafe" Value="267892" />
+  <Preset Label="Theorize about Milky Way conspiracy (mixer_LactoseIntolerantTrait_TheorizeAboutMilkyWay)" Tags="TestUnsafe" Value="267893" />
+  <Preset Label="Be Attacked (sI_AnimalObjects_Socials_Mean_Chicken_BeAttacked)" Value="267897" />
   <Preset Label="Talk about Best Color (socials_Targeted_Friendly_SimPreference_Color_Best)" Tags="TestUnsafe" Value="267926" />
   <Preset Label="Talk about Worst Color (socials_Targeted_Friendly_SimPreference_Color_Worst)" Tags="TestUnsafe" Value="267927" />
+  <Preset Label="Death by Chicken (death_AnimalObjects_Chicken_DeadOnGround)" Value="267938" />
+  <Preset Label="Focus Camera on Home (immediate_RelPanel_FocusCamera_AnimalHome_Chicken)" Value="267972" />
+  <Preset Label="Return to Fox Den (fox_RouteToDen)" Value="267975" />
+  <Preset Label="Hours of Operation (marketStalls_HoursofOperation_VillageShops)" Value="267982" />
+  <Preset Label="Focus Camera on Home (immediate_RelPanel_FocusCamera_AnimalHome_Rabbit)" Value="268004" />
+  <Preset Label="Window Shop (villageShops_WindowShop_Bakery)" Value="268005" />
+  <Preset Label="Window Shop (villageShops_WindowShop_Clothing)" Value="268006" />
+  <Preset Label="Window Shop (villageShops_WindowShop_Housewares)" Value="268007" />
+  <Preset Label="Pick Strange Mushroom (super_MushroomHunt_Harvest)" Value="268018" />
+  <Preset Label="Window Shop (villageShops_WindowShop_Bakery_ParameterizedAuto)" Value="268033" />
+  <Preset Label="Window Shop (villageShops_WindowShop_Clothing_ParameterizedAuto)" Value="268034" />
+  <Preset Label="Window Shop (villageShops_WindowShop_Housewares_ParameterizedAuto)" Value="268035" />
+  <Preset Label="Give Golden Egg (villagerHelp_Deliver_Picker_GoldenEgg)" Tags="TestUnsafe" Value="268054" />
   <Preset Label="Lock the Camera (immediate_RelPanel_LockCamera)" Value="268056" />
+  <Preset Label="Show Dance Move (sI_AnimalObjects_Dance_AnimalEnthusiast)" Value="268058" />
+  <Preset Label="Ingredients and Produce (sI_AnimalObjects_Generic_SellForIngredients_Chickens)" Value="268074" />
+  <Preset Label="Ingredients and Produce (sI_AnimalObjects_Generic_SellForIngredients_Cows)" Value="268075" />
+  <Preset Label="Animal Treats (sI_AnimalObjects_Generic_SellForLivestockFeed_Chickens_FromPicker)" Value="268080" />
+  <Preset Label="Animal Treats (sI_AnimalObjects_Generic_SellForLivestockFeed_Cows)" Value="268081" />
+  <Preset Label="Ingredients (filteredObjectPicker_AnimalObject_TradeForIngredients)" Tags="TestUnsafe" Value="268083" />
+  <Preset Label="Animal Treats (filteredObjectPicker_AnimalObject_TradeForLivestockFeed)" Tags="TestUnsafe" Value="268084" />
+  <Preset Label="Call Over {1.ObjectName} (immediate_RelPanel_CallOver_Animal_Object_Rabbits)" Value="268097" />
+  <Preset Label="Eat (fox_Eat)" Value="268108" />
+  <Preset Label="Talk To {1.SimFirstName} (socials_Fox_SimToFox_TalkToFox)" Tags="TestUnsafe" Value="268139" />
+  <Preset Label="Playfully Scare {1.SimFirstName} (socials_Fox_SimToFox_Scare)" Tags="TestUnsafe" Value="268140" />
+  <Preset Label="Shoo {1.SimFirstName} Away (foxSocial_Sim_Shoo)" Value="268144" />
+  <Preset Label="Inspect Cottage (art_View_CottageWorld_CritterTenderHouse)" Value="268148" />
+  <Preset Label="Ingredients and Produce (sI_AnimalObjects_Generic_SellForIngredients_Llamas)" Value="268154" />
+  <Preset Label="Animal Treats (sI_AnimalObjects_Generic_SellForLivestockFeed_Llamas)" Value="268155" />
+  <Preset Label="Simoleons (sI_AnimalObjects_Generic_SellSimoleons_Llamas)" Value="268156" />
+  <Preset Label="Animal Treats (sI_AnimalObjects_Generic_SellForLivestockFeed_Chickens)" Value="268237" />
+  <Preset Label="Simoleons (sI_AnimalObjects_Generic_SellSimoleons_Chickens_FromPicker)" Value="268239" />
+  <Preset Label="Meat (sI_AnimalObjects_Generic_SellToMarket_Chickens_FromPicker)" Value="268241" />
+  <Preset Label="Ingredients and Produce (sI_AnimalObjects_Generic_SellForIngredients_Chickens_FromPicker)" Value="268243" />
+  <Preset Label="Call Over (sI_AnimalObject_Interactions_CallOverRabbit_RouteFail)" Value="268245" />
+  <Preset Label="Gather Roaming Chickens (filteredObjectPicker_AnimalObject_GatherChickensOnSim)" Tags="TestUnsafe" Value="268264" />
+  <Preset Label="Attempt to Bribe Judge (social_VillageFair_Bribe)" Value="268270" />
+  <Preset Label="Run To Chicken Coop (fox_RunToCoop)" Value="268274" />
   <Preset Label="Relax (bed_relax_doubleBed)" Value="268282" />
+  <Preset Label="Take Selfie with Sophie (photography_TakeSelfie_CellPhone_CottageWorldSnail)" Value="268287" />
+  <Preset Label="Gather Roaming Chickens (sI_AnimalObject_Chickens_GatherChickensOnSim)" Value="268288" />
+  <Preset Label="Gather Roaming Chickens to Coop (filteredObjectPicker_AnimalObject_GatherChickensOnCoop)" Tags="TestUnsafe" Value="268296" />
+  <Preset Label="Search (si_CottageWorld_SnailStatue_Search)" Value="268302" />
+  <Preset Label="Hide Item (si_CottageWorld_SnailStatue_HideItem)" Value="268303" />
+  <Preset Label="Hide Item (picker_CottageWorld_Snail_Hide)" Tags="TestUnsafe" Value="268317" />
+  <Preset Label="Deliver Beige Wool (social_VillagerHelp_DeliverItem_Ingredients_YellowWool)" Value="268320" />
+  <Preset Label="Deliver Blue Egg (villagerHelp_Deliver_Picker_BlueEgg)" Tags="TestUnsafe" Value="268332" />
+  <Preset Label="Deliver Green Egg (villagerHelp_Deliver_Picker_GreenEgg)" Tags="TestUnsafe" Value="268333" />
+  <Preset Label="Deliver Orange Egg (villagerHelp_Deliver_Picker_OrangeEgg)" Tags="TestUnsafe" Value="268334" />
+  <Preset Label="Deliver Enriched Milk (villagerHelp_Deliver_Picker_EnrichedMilk)" Tags="TestUnsafe" Value="268335" />
+  <Preset Label="Deliver Mighty Plant Milk (villagerHelp_Deliver_Picker_MightyPlantMilk)" Tags="TestUnsafe" Value="268336" />
+  <Preset Label="Deliver Pumpkin Spice Milk (villagerHelp_Deliver_Picker_PumpkinSpiceMilk)" Tags="TestUnsafe" Value="268337" />
+  <Preset Label="Deliver Orange Llama Wool (villagerHelp_Deliver_Picker_OrangeWool)" Tags="TestUnsafe" Value="268338" />
+  <Preset Label="Deliver Blue Llama Wool (villagerHelp_Deliver_Picker_BlueWool)" Tags="TestUnsafe" Value="268339" />
+  <Preset Label="Deliver Green Llama Wool (villagerHelp_Deliver_Picker_GreenWool)" Tags="TestUnsafe" Value="268340" />
+  <Preset Label="Search (si_CottageWorld_SnailStatue_Search_Autonomous)" Value="268412" />
+  <Preset Label="Open Notebook (notebook_View_CottageLiving_FromCow)" Value="268431" />
+  <Preset Label="Open Notebook (notebook_View_CottageLiving_FromLLama)" Value="268432" />
+  <Preset Label="Open Notebook (notebook_View_CottageLiving_FromChicken)" Value="268433" />
+  <Preset Label="Ask For Cowbell Jam (sI_AnimalObjects_Socials_Friendly_LivestockPen_Cowbell)" Value="268463" />
+  <Preset Label="Watch {1.SimFirstName} (fox_SimWatchFox)" Value="268485" />
+  <Preset Label="Stare in Awe (festivals_VillageFair_Interactions_StareInAwe)" Value="268501" />
+  <Preset Label="Compliment Fair Entry (social_VillageFair_ComplimentEntry)" Value="268502" />
+  <Preset Label="Discuss Finchwick Fair Traditions (social_VillageFair_DiscussFestivalTraditions)" Value="268503" />
+  <Preset Label="Ask For Golden Chicken Help (sI_AnimalObjects_Help_Ask_SpecialChicken)" Value="268508" />
+  <Preset Label="Ask to Stop Golden Chicken Help (sI_AnimalObjects_Help_AskToStop_SpecialChicken)" Value="268509" />
+  <Preset Label="View Competition Entry (festivals_VillageFair_Interactions_ViewEntry_NPC)" Value="268543" />
+  <Preset Label="Debug: Add Oversized Mushroom (debug_GiantCrops_Plant_Add_GiantMushroom)" Value="268545" />
+  <Preset Label="Learn about Villagers (festivals_VillageFair_Interactions_ViewNPCVillagers)" Value="268552" />
+  <Preset Label="Lock the Camera (immediate_RelPanel_AnimalObjects_LockCamera_Chicken)" Value="268555" />
+  <Preset Label="Lock the Camera (immediate_RelPanel_AnimalObjects_LockCamera_Rabbit)" Value="268556" />
+  <Preset Label="Dress {1.SimFirstName} In (animalObjects_ObjectInInventory_AnimalClothing_Picker_Fox)" Tags="TestUnsafe" Value="268557" />
+  <Preset Label="Craft Fox Clothes (cottageWorld_NPC_Crafting_AnimalObject_AnimalClothing_Fox)" Value="268558" />
+  <Preset Label="Dress {1.SimFirstName} in {2.ObjectName} (sI_AnimalObjects_AnimalClothing_Give_Fox)" Value="268559" />
+  <Preset Label="Call Over (fox_Sim_CallOver)" Value="268562" />
+  <Preset Label="Evil Glare (SI_AnimalObject_SpecialChickenPowers_EvilGlare)" Value="268573" />
+  <Preset Label="Golden Pulse (SI_AnimalObject_SpecialChickenPowers_GoldenPulse)" Value="268574" />
+  <Preset Label="Golden Pulse (SSI_AnimalObjects_Chicken_SpecialPowers_GoldenPulse)" Value="268580" />
+  <Preset Label="Evil Glare (sSI_AnimalObjects_Chicken_SpecialPowers_EvilGlare)" Value="268582" />
+  <Preset Label="Open (openBox_Mayor_Jam)" Value="268679" />
+  <Preset Label="Deliver Blueberry (villagerHelp_Deliver_Picker_Blueberry)" Tags="TestUnsafe" Value="268691" />
+  <Preset Label="Deliver Raspberry (villagerHelp_Deliver_Picker_Raspberry)" Tags="TestUnsafe" Value="268692" />
+  <Preset Label="Plant Oversized Crop (super_GiantCrops_Plant_PlantCrop_Aubergine)" Value="268703" />
+  <Preset Label="Plant Oversized Crop (super_GiantCrops_Plant_PlantCrop_Watermelon)" Value="268704" />
+  <Preset Label="Plant Oversized Crop (super_GiantCrops_Plant_PlantCrop_GiantMushroom)" Value="268705" />
+  <Preset Label="Plant Oversized Crop (super_GiantCrops_Plant_PlantCrop_Pumpkin)" Value="268706" />
+  <Preset Label="Plant Oversized Crop (super_GiantCrops_Plant_PlantCrop_Lettuce)" Value="268707" />
+  <Preset Label="fox_reaction_RunAwayAndEat" Value="268774" />
+  <Preset Label="Turn Toadstool into a Stool (super_GiantCrops_GiantMushroom_TurnToChair)" Value="268780" />
+  <Preset Label="Deliver White Llama Wool (villagerHelp_Deliver_Picker_WhiteWool)" Tags="TestUnsafe" Value="268793" />
+  <Preset Label="Deliver Mayonnaise (villagerHelp_Deliver_Picker_Mayonnaise)" Tags="TestUnsafe" Value="268795" />
+  <Preset Label="Show Affection (sI_AnimalObjects_Socials_Friendly_BirdHome_ShowAffection)" Value="268799" />
+  <Preset Label="Show Affection (sI_AnimalObjects_BirdHome_AnimatedBird_ShowAffection_Success)" Value="268810" />
+  <Preset Label="Show Affection (sI_AnimalObjects_BirdHome_AnimatedBird_ShowAffection_Fail)" Value="268812" />
+  <Preset Label="Debug: Start Mean Conspire Gnome (debug_NPCVillagers_ConspireWithGnomes_StartSituation_Mean)" Value="268814" />
+  <Preset Label="Debug: Start Helpful Conspire Gnome (debug_NPCVillagers_ConspireWithGnomes_StartSituation_Helpful)" Value="268815" />
+  <Preset Label="Debug: Start Whimsical Conspire Gnome (debug_NPCVillagers_ConspireWithGnomes_StartSituation_Whimsical)" Value="268816" />
+  <Preset Label="Take Clothes from {1.SimFirstName} (sI_AnimalObjects_AnimalClothing_Fox_Take)" Value="268856" />
+  <Preset Label="mixerInteraction_CollectEgg" Value="268894" />
+  <Preset Label="Offer a Rose (social_VillagerHelp_Agatha2_GiveAgathaberry)" Value="268921" />
+  <Preset Label="Encourage to Flirt (social_VillagerHelp_Agatha2_EncourageToFlirt)" Value="268922" />
+  <Preset Label="Buy Extra Seeds (social_VillagerHelp_Agatha2_BuySeeds)" Value="268923" />
+  <Preset Label="Sell Lettuce Seeds To (social_VillagerHelp_Agatha2_SellSeed)" Value="268924" />
+  <Preset Label="Buy Extra Plants (social_VillagerHelp_Agatha2_BuyPlants)" Value="268925" />
+  <Preset Label="Sell a Watermelon To (social_VillagerHelp_Agatha2_SellPlant)" Value="268926" />
+  <Preset Label="Celebrate With Agatha (social_VillagerHelp_Agatha2_Celebrate)" Value="268927" />
+  <Preset Label="Gather Roaming Chickens to Coop (sI_AnimalObject_Chickens_GatherChickensOnCoop)" Value="268949" />
+  <Preset Label="Encourage to Flirt With (simPicker_VillagerHelp_Agatha2_EncourageToFlirt)" Tags="TestUnsafe" Value="268966" />
+  <Preset Label="Change Outfit (changeOutfitPicker_Actor_AtVillageShops_Shell)" Tags="TestUnsafe" Value="268983" />
+  <Preset Label="Change Outfit (changeOutfit_FromPicker_VillageShops_Shells)" Value="268991" />
+  <Preset Label="Plan Outfits (planOutfit_VillageShops_InteractiveShells)" Value="268992" />
+  <Preset Label="Trade 2 Chocoberries for a Blueberry (social_CottageWorld_NPC_CritterTender_TradeBerries_ChocolateBerryForBlueberry)" Value="269018" />
+  <Preset Label="Trade 2 Raspberries for a Blueberry (social_CottageWorld_NPC_CritterTender_TradeBerries_RaspberryForBlueberry)" Value="269019" />
+  <Preset Label="Trade 2 Blueberries for a Chocoberry (social_CottageWorld_NPC_CritterTender_TradeBerries_BlueberryForChocolateBerry)" Value="269020" />
+  <Preset Label="Trade 2 Raspberries for a Chocoberry (social_CottageWorld_NPC_CritterTender_TradeBerries_RaspberryForChocolateBerry)" Value="269021" />
+  <Preset Label="Trade 2 Blueberries for a Raspberry (social_CottageWorld_NPC_CritterTender_TradeBerries_BlueberryForRaspberry)" Value="269022" />
+  <Preset Label="Trade 2 Chocoberries for a Raspberry (social_CottageWorld_NPC_CritterTender_TradeBerries_ChocolateBerryForRaspberry)" Value="269023" />
+  <Preset Label="Go to Henford-on-Bagley (go_To_Specific_Lot_CottageWorld_CallToAction)" Value="269027" />
   <Preset Label="simPreference_Immediate_Alternative" Value="269034" />
   <Preset Label="simPreference_Immediate_Americana" Value="269041" />
   <Preset Label="simPreference_Immediate_Backyard" Value="269042" />
@@ -5877,15 +6848,63 @@
   <Preset Label="simPreference_Immediate_SummerStrut" Value="269070" />
   <Preset Label="simPreference_Immediate_TweenPop" Value="269071" />
   <Preset Label="simPreference_Immediate_WinterHoliday" Value="269072" />
+  <Preset Label="Submit First Place (Debug) (festivals_VillageFair_Interactions_SubmitEntry_Cheat_1st_Primary)" Value="269081" />
+  <Preset Label="Submit First Place (Debug) (festivals_VillageFair_Interactions_SubmitEntry_Cheat_1st_Sub)" Value="269082" />
+  <Preset Label="Submit Last Place (Debug) (festivals_VillageFair_Interactions_SubmitEntry_Cheat_Last_Primary)" Value="269100" />
+  <Preset Label="Submit Last Place (Debug) (festivals_VillageFair_Interactions_SubmitEntry_Cheat_Last_Sub)" Value="269101" />
   <Preset Label="Throw Away (collect_Trash_NotAutonomous)" Value="269133" />
+  <Preset Label="Sing to Birds (sI_AnimalObjects_Socials_Friendly_BirdHome_SingTo_HighSuccess_AnimatedBird)" Value="269151" />
+  <Preset Label="Sing to Birds (sI_AnimalObjects_Socials_Friendly_BirdHome_SingTo_Start)" Value="269152" />
   <Preset Label="Go Here (si_moveAwayCircle_Run)" Value="269247" />
   <Preset Label="counter_Ico_Transition_placeOnCounter" Value="269311" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_LivestockPen_Outcome_Fail_Cow)" Value="269331" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_LivestockPen_Outcome_Fail_Llama)" Value="269332" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_LivestockPen_Outcome_Success_Cow)" Value="269341" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_LivestockPen_Outcome_Success_Llama)" Value="269342" />
+  <Preset Label="Order a Delivery (super_Pickservices_Start_Deliveries_FromFridge)" Value="269348" />
   <Preset Label="Perform Sabotage (musicFestival_Artist_Perform_Main)" Value="269369" />
+  <Preset Label="Sing To {1.SimFirstName} (fox_Social_Friendly_SingTo)" Value="269392" />
+  <Preset Label="Babble to Fox (socials_Fox_SimToFox_TalkToFox_ToddlerBabble)" Tags="TestUnsafe" Value="269407" />
+  <Preset Label="Cook Together With (startGroupCrafting_GroupCooking_Fridge_RequiredIngredients)" Value="269408" />
+  <Preset Label="Cook Together With (startGroupCrafting_GroupCooking_Stove_RequiredIngredients)" Value="269409" />
+  <Preset Label="What's That? (fox_SimWatchFox_Toddler)" Value="269412" />
   <Preset Label="Eat {1.ObjectName} (gardening_EatHarvestable_Spicy_Reaction)" Value="269418" />
+  <Preset Label="Call Over {1.ObjectName} (sI_AnimalObjects_CallOver_Chickens_Autonomous)" Value="269480" />
+  <Preset Label="reaction_Death_Mixers_Fox_Sad" Value="269500" />
+  <Preset Label="Plant Oversized Crop (super_GiantCrops_Seeds_InventoryTooltip)" Value="269517" />
+  <Preset Label="See What's Happening (reaction_Mixers_OnSim_FromFox_StealEgg)" Value="269519" />
+  <Preset Label="See What's Happening (reaction_Mixers_OnSim_FromFox_StealHarvestable)" Value="269520" />
+  <Preset Label="reactions_Trait_AnimalEnthusiast_MeanToAnimal" Value="269529" />
+  <Preset Label="Shoo {1.SimFirstName} Away (fox_DogTargetsForScare)" Value="269551" />
+  <Preset Label="Be Scolded (si_Touching_BeScolded_AgnesCrumplebottom)" Value="269567" />
+  <Preset Label="Lock the Camera (immediate_AnimalObjects_LockCamera_Chicken)" Value="269576" />
+  <Preset Label="Lock the Camera (immediate_AnimalObjects_LockCamera_Rabbit)" Value="269578" />
+  <Preset Label="Focus Camera on Home (immediate_FocusCamera_AnimalHome_Chicken)" Value="269580" />
+  <Preset Label="Focus Camera on Home (immediate_FocusCamera_AnimalHome_Rabbit)" Value="269582" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken_Chick_Outcome_Success_Child)" Value="269594" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken_Chick_Outcome_Success_Toddler)" Value="269595" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken_Chick_Outcome_Success_TYAE)" Value="269596" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken_Chick_Outcome_Success_Child)" Value="269603" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken_Chick_Outcome_Success_Toddler)" Value="269604" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken_Chick_Outcome_Success_TYAE)" Value="269605" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Chicken_Chick)" Value="269607" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Chicken_Chick)" Value="269609" />
+  <Preset Label="fox_reaction_RunAway_Wait_Eat" Value="269619" />
+  <Preset Label="fox_WaitToEat" Value="269620" />
   <Preset Label="Perform breathe again (musicFestival_Artist_Perform_Opener1)" Value="269637" />
   <Preset Label="Perform Heat Waves (musicFestival_Artist_Perform_Opener2)" Value="269638" />
+  <Preset Label="Order {1.SimFirstName} to Drop the Egg (fox_Immediate_KlobberToDrogEgg)" Value="269639" />
+  <Preset Label="Scrap Stitch (crossStitch_StartScrapStitch_FromWorld)" Value="269641" />
+  <Preset Label="Order {1.SimFirstName} to Drop the Egg (foxSocial_SimToFox_DropEgg)" Value="269645" />
   <Preset Label="Eat Meal (picker_Deliveries_FoodDelivery_EatFromBag_PickMeal)" Tags="TestUnsafe" Value="269649" />
   <Preset Label="Eat Meal (super_Deliveries_FoodDelivery_EatFromBag_GrabFood)" Value="269652" />
+  <Preset Label="Feed {1.ObjectName} (sI_AnimalObjects_FeedBasic_LivestockPen)" Value="269785" />
+  <Preset Label="Throw Away (cleanup_Eggs_As_Trash)" Value="269794" />
+  <Preset Label="Throw Away (Collect_Egg_As_Trash_Continuation)" Value="269795" />
+  <Preset Label="Throw Away (Collect_Egg_As_Trash)" Value="269796" />
+  <Preset Label="Fox_LayDown_Idle" Value="269798" />
+  <Preset Label="Browse Stall (marketStalls_VillageShops_Grocery_Browse)" Value="269814" />
+  <Preset Label="Focus Camera on the Creature Keeper (immediate_FocusCamera_CritterTender)" Value="269839" />
   <Preset Label="groupCooking_Counter_MixingBowl_Mix_Bake_CrackEgg" Value="269860" />
   <Preset Label="groupCooking_Counter_MixingBowl_Mix_Bake_MeasureCup" Value="269861" />
   <Preset Label="groupCooking_Counter_MixingBowl_Mix_Bake_Taste" Value="269862" />
@@ -5893,6 +6912,11 @@
   <Preset Label="groupCooking_Counter_Shared_AddIngredient" Value="269864" />
   <Preset Label="groupCooking_Counter_Shared_AddLiquid" Value="269865" />
   <Preset Label="groupCooking_Counter_Shared_AddSpice" Value="269866" />
+  <Preset Label="Deliver Cross-stitch (villagerHelp_Deliver_Picker_CrossStitch_2)" Tags="TestUnsafe" Value="269869" />
+  <Preset Label="Deliver (social_VillagerHelp_DeliverItem_CrossStitch2)" Value="269870" />
+  <Preset Label="Cook (fridge_CookAutonomously_RequiredIngredients)" Value="269874" />
+  <Preset Label="Cook (fridge_CookAutonomously_Vegetarian_RequiredIngredients)" Value="269879" />
+  <Preset Label="Cook (fridge_CookAutonomously_LactoseIntolerant_RequiredIngredients)" Value="269880" />
   <Preset Label="Tend Stall (marketStalls_Tend_MusicFestival_Shop)" Value="269918" />
   <Preset Label="Tend Stall (marketStalls_Tend_MusicFestival_FoodDrink)" Value="269919" />
   <Preset Label="Buy Swag (marketStalls_ShopFor_MusicFestival)" Value="269920" />
@@ -5915,6 +6939,8 @@
   <Preset Label="musicFestival_Mixers_Watch_Dance" Value="270134" />
   <Preset Label="Go to Sims Sessions' Venue (go_To_MusicFestival2021_Lot)" Value="270156" />
   <Preset Label="autonomous_ObjectPicker_MusicFestival_Stage" Tags="TestUnsafe" Value="270164" />
+  <Preset Label="Plead With {1.SimFirstName} To Stop (foxSocial_PleadToStop)" Value="270255" />
+  <Preset Label="Plead With {1.SimFirstName} To Stop (fox_Immediate_KlobberToPlead)" Value="270278" />
   <Preset Label="Clap (musicFestival_Mixers_Watch_Clap_End)" Value="270349" />
   <Preset Label="Cheer (musicFestival_Mixers_Watch_Cheer_Start)" Value="270350" />
   <Preset Label="musicFestival_Mixers_Watch_React" Value="270355" />
@@ -5931,8 +6957,22 @@
   <Preset Label="musicFestival_Artist_Wave_Opener2" Value="270396" />
   <Preset Label="musicFestival_Artist_Bow_Leave_Opener1" Value="270397" />
   <Preset Label="musicFestival_Artist_Bow_Leave_Opener2" Value="270398" />
+  <Preset Label="Purchase Oversized Crop Fertilizers (super_GiantCrops_Plant_PurchaseFertilizer_Patch)" Tags="TestUnsafe" Value="270410" />
+  <Preset Label="Encourage Crop Growth (super_GiantCrops_Plant_PruneCrop_Continuation)" Value="270428" />
+  <Preset Label="Wake Up {1.SimFirstName} (foxSocial_Sim_WakeUp)" Value="270429" />
   <Preset Label="Go to Sims Sessions' Venue (go_To_MusicFestival2021_Lot_Ticket)" Value="270439" />
   <Preset Label="Read Festival Info... (MusicFestival_ReadFestivalInfo_Immediate)" Value="270440" />
+  <Preset Label="Cheer (reaction_Mixers_VillageFair_High)" Value="270454" />
+  <Preset Label="Cheer (reaction_Mixers_VillageFair_Low)" Value="270455" />
+  <Preset Label="Cheer (reaction_Mixers_VillageFair_Medium)" Value="270456" />
+  <Preset Label="Listen to Music (stereo_listen_CottageCore)" Value="270471" />
+  <Preset Label="Listen to Music (stereo_listen_CottageCore_Bot)" Value="270472" />
+  <Preset Label="Listen to Music (stereo_listen_CottageCore_EarBuds)" Value="270473" />
+  <Preset Label="Listen to Music (stereo_listen_CottageCore_SkatingRink)" Value="270474" />
+  <Preset Label="Listen to Music (stereo_listen_CottageCore_Smart_Hub)" Value="270475" />
+  <Preset Label="Listen to Music (stereo_listen_CottageCore_WaterScooter)" Value="270476" />
+  <Preset Label="Listen to Music (stereo_listen_CottageCore_HotTub_NotInHotTub)" Value="270478" />
+  <Preset Label="Listen to Music (stereo_listen_CottageCore_HotTub)" Value="270479" />
   <Preset Label="Buy and Wear a Sims Sessions T-Shirt (marketStalls_BuyCASassetAndWear_MusicFestival_SimSessions)" Value="270499" />
   <Preset Label="Buy and Wear a Bebe Rexha Fan T-Shirt (marketStalls_BuyCASassetAndWear_MusicFestival_BebeRexha)" Value="270500" />
   <Preset Label="Buy and Wear a Joy Oladokun Fan T-Shirt (marketStalls_BuyCASassetAndWear_MusicFestival_JoyOladokun)" Value="270501" />
@@ -5943,13 +6983,22 @@
   <Preset Label="Buy a Joy Oladokun Fan T-Shirt (marketStalls_BuyCASasset_MusicFestival_JoyOladokun)" Value="270507" />
   <Preset Label="Name {1.ObjectName} (rename_FromRelPanel_AnimalObjects_Cow)" Value="270575" />
   <Preset Label="Name {1.ObjectName} (rename_FromRelPanel_AnimalObjects_Llama)" Value="270576" />
+  <Preset Label="Name {1.ObjectName} (rename_FromRelPanel_AnimalObjects_Chicken)" Value="270577" />
+  <Preset Label="Name {1.ObjectName} (rename_FromRelPanel_AnimalObjects_Rabbit)" Value="270578" />
+  <Preset Label="Take Gift Offered by {1.ObjectName} (fox_reaction_RunAwayAndHideGift)" Value="270604" />
+  <Preset Label="npc_leave_lot_now_fox" Value="270627" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_Electronic_ChickenCoop)" Value="270679" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_Electronic_LivestockPen)" Value="270680" />
+  <Preset Label="Old Age (Fox_Cheat_Death_OldAge)" Value="270700" />
   <Preset Label="Get Hyped for Performance (musicFestival_Targeted_Cheer_Hype)" Value="270707" />
   <Preset Label="Cheer for Performer (musicFestival_Targeted_Cheer)" Value="270708" />
   <Preset Label="Clap for Performer (musicFestival_Targeted_Clap_Short)" Value="270709" />
   <Preset Label="Applaud Performance (musicFestival_Targeted_Clap_Long)" Value="270710" />
+  <Preset Label="Shear {1.ObjectName}'s Wool (sI_AnimalObjects_HarvestFrom_Llama_Yellow)" Value="270715" />
   <Preset Label="oven_Ico_Transition_OTG" Value="270723" />
   <Preset Label="oven_MakeFood_Staging_Basic_OffTheGrid" Value="270725" />
   <Preset Label="Open Sims Sessions Lessons (MusicFestival_Lessons_Immediate)" Value="270744" />
+  <Preset Label="Take Gift Offered by {1.ObjectName} (fox_HideGift)" Value="270746" />
   <Preset Label="computer_Recreation_Autonomous_PseudoAggregate_PlayGame" Value="270747" />
   <Preset Label="Dance Near Stage (musicFestival_DanceNearStage)" Value="270778" />
   <Preset Label="autonomous_ObjectPicker_MusicFestival_Stage_Clap" Tags="TestUnsafe" Value="270783" />
@@ -5962,15 +7011,30 @@
   <Preset Label="Getting Out of Freezing Water (super_Ponds_ExitPond_Start_FrozenWater)" Value="270863" />
   <Preset Label="Getting Out of Freezing Water (super_Ponds_ExitPond_FrozenWater)" Value="270864" />
   <Preset Label="autonomous_ObjectPicker_MusicFestival_Stage_Arrival" Tags="TestUnsafe" Value="270893" />
+  <Preset Label="Hatch Eggs (sI_AnimalObjects_Chickens_Coop_HatchEgg_Prep)" Value="270910" />
+  <Preset Label="Plant (gardeningFruit_Plant_GardeningPatch)" Value="270941" />
+  <Preset Label="Plant (gardeningFruit_Plant_GardeningPatch_Cont)" Value="270942" />
   <Preset Label="craftSalesTable_CreateObjects_NPC" Value="270964" />
+  <Preset Label="Sing To {1.SimFirstName} (foxSocial_SimToFox_Sing)" Value="270980" />
   <Preset Label="Take Photo (photography_TakePhoto_CellPhone_MusicFestival)" Value="271013" />
   <Preset Label="Gather around Stage (musicFestival_WaitNear_Stage_Toddler)" Value="271057" />
   <Preset Label="Take Clothes from {1.ObjectName} (sI_AnimalObjects_AnimalClothing_Take_Large)" Value="271080" />
   <Preset Label="Take Clothes from {1.ObjectName} (sI_AnimalObjects_AnimalClothing_Take_Small)" Value="271083" />
   <Preset Label="Take Clothes from {1.ObjectName} (sI_AnimalObjects_AnimalClothing_Take_MediumLarge)" Value="271084" />
+  <Preset Label="Discuss Preening Methods (sI_AnimalObjects_Socials_Friendly_Chicken_DiscussPreening)" Value="271112" />
   <Preset Label="Cook Together With (startGroupCrafting_GroupCooking_Stove_OffTheGrid)" Value="271131" />
+  <Preset Label="Cook Together With (startGroupCrafting_GroupCooking_Stove_OffTheGrid_RequiredIngredients)" Value="271132" />
+  <Preset Label="Take Gift Offered by {1.ObjectName} (fox_CritterGifting_TakeGift_Like)" Value="271134" />
+  <Preset Label="Take Gift Offered by {1.ObjectName} (fox_CritterGifting_TakeGift_Favorite_Known_or_Unknown)" Value="271136" />
+  <Preset Label="Take Gift Offered by {1.ObjectName} (fox_CritterGifting_TakeGift_Rotten)" Value="271137" />
   <Preset Label="Cook Together With (simPickerInteraction_GroupCooking_Stove_OffTheGrid)" Tags="TestUnsafe" Value="271138" />
+  <Preset Label="fox_WatchMixers_Idle_Sim" Value="271182" />
+  <Preset Label="fox_WatchMixers_Curious_Sim" Value="271183" />
+  <Preset Label="Watch {1.SimFirstName} (fox_WatchSim_HiRel)" Value="271187" />
+  <Preset Label="fox_WatchMixers_Wary" Value="271323" />
   <Preset Label="reactions_Generic_Sobbing_AnimalObjects" Value="271324" />
+  <Preset Label="Name {1.ObjectName} (rename_AnimalObjects_Rooster)" Value="271334" />
+  <Preset Label="generic_PairedDancing" Value="272518" />
   <Preset Label="Discuss Expanding the Family (mixer_social_DiscussExpandingTheFamily_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="274109" />
   <Preset Label="Pointedly Criticize Cross-stitch (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_CrossStitch)" Tags="TestUnsafe" Value="274560" />
   <Preset Label="Denounce Knitting (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Knitting)" Tags="TestUnsafe" Value="274561" />
@@ -5984,5 +7048,73 @@
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_CottageCore" Value="274588" />
   <Preset Label="idle_Buff_SimPreference_Likes_Music_CottageCore" Value="274589" />
   <Preset Label="simPreference_Immediate_CottageCore" Value="274590" />
-  <Preset Label="Ask {1.SimFirstName} to Pursue Their Dream Job (mixer_social_AskSimToPursueDreamJob_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="274794" />
+  <Preset Label="Take Photo (wedding_Venue_Take_Picture)" Value="274770" />
+  <Preset Label="Peruse Venue (waypoint_NonStitched_Wedding_Venue_Walk_Wander)" Value="274774" />
+  <Preset Label="Ask {1.SimFirstName} to Pursue their Dream Job (mixer_social_AskSimToPursueDreamJob_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="274794" />
+  <Preset Label="Check Out Venue (wedding_Venue_Check_Out)" Value="275136" />
+  <Preset Label="Please Take your Seats (wedding_Immediate_Take_Seats)" Value="275929" />
+  <Preset Label="autonomous_ObjectPicker_Wedding_Custom_State_WatchWedding" Tags="TestUnsafe" Value="276032" />
+  <Preset Label="Death by {0.String} (debugDeathInteraction)" Value="276046" />
+  <Preset Label="Time for the First Dance (wedding_Immediate_FirstDance)" Value="276288" />
+  <Preset Label="Time for the First Dance (wedding_Immediate_FirstDance_DanceFloor)" Value="276289" />
+  <Preset Label="Gather for Cake (wedding_Immediate_CakeGather)" Value="276290" />
+  <Preset Label="Gather for the Recessional (wedding_Immediate_RecessionalGather)" Value="276292" />
+  <Preset Label="Gather at the Aisle (wedding_Immediate_ProcessionalGather)" Value="276293" />
+  <Preset Label="Gather for the Bouquet Toss (wedding_Immediate_BouquetGather)" Value="276300" />
+  <Preset Label="Time to Eat (wedding_Immediate_MealTime)" Value="276301" />
+  <Preset Label="Time for Toasts (wedding_Immediate_ToastGather)" Value="276302" />
+  <Preset Label="Attend Wedding (wedding_Attend_Custom_State_Wedding_TakeSeats)" Value="277123" />
+  <Preset Label="mixer_Custom_State_Wedding_TakeSeats_Watch" Value="277125" />
+  <Preset Label="Gather For First Dance (wedding_Gather_Custom_State_Wedding_Dance)" Value="277765" />
+  <Preset Label="Gather Around Dancefloor (wedding_Gather_Custom_State_Wedding_DanceFloor)" Value="277766" />
+  <Preset Label="Gather for Cake (wedding_Gather_Custom_State_Wedding_Cake)" Value="277767" />
+  <Preset Label="Gather For Recessional (wedding_Gather_Custom_State_Wedding_Recessional)" Value="277768" />
+  <Preset Label="Gather for Toast (wedding_Gather_Custom_State_Wedding_Toast)" Value="277769" />
+  <Preset Label="Gather For Bouquet Toss (wedding_Gather_Custom_State_Wedding_Bouquet)" Value="277770" />
+  <Preset Label="Serve Assortment (banquetTable_FillTable_Random)" Value="279263" />
+  <Preset Label="Have Guests Blow Bubbles (wedding_Immediate_GuestsBlowBubbles)" Value="281142" />
+  <Preset Label="Have Guests Throw Rice (wedding_Immediate_GuestsThrowRice)" Value="281143" />
+  <Preset Label="Have Guests Dance (wedding_Immediate_Dance)" Value="281154" />
+  <Preset Label="Time for Speeches (wedding_Immediate_GiveSpeech)" Value="282128" />
+  <Preset Label="wedding_Gather_Custom_State_Wedding_OfficiantCeremony" Value="282621" />
+  <Preset Label="simPicker_Custom_State_Wedding_Officiant_GiveSpeech" Tags="TestUnsafe" Value="282709" />
+  <Preset Label="simPicker_Custom_State_Wedding_ThrowRice_TargetCouple" Tags="TestUnsafe" Value="282740" />
+  <Preset Label="Listen to Mixed Music (stereo_wall_listen_MixedMusic)" Value="282785" />
+  <Preset Label="Listen to Carnaval Beats (stereo_wall_listen_Brazilian)" Value="282786" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_Brazilian)" Value="282787" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_MixedMusic)" Value="282788" />
+  <Preset Label="Listen to Carnaval Beats (stereo_listens_Brazilian_HotTub)" Value="282793" />
+  <Preset Label="Listen to Carnaval Beats (stereo_listens_Brazilian_HotTub_NotInHotTub)" Value="282794" />
+  <Preset Label="Listen to Carnaval Beats (stereo_listens_Brazilian)" Value="282797" />
+  <Preset Label="Listen to Carnaval Beats (stereo_listens_Brazilian_Bot)" Value="282798" />
+  <Preset Label="Listen to Carnaval Beats (stereo_listens_Brazilian_djBooth)" Value="282799" />
+  <Preset Label="Listen to Carnaval Beats (stereo_listens_Brazilian_SkatingRink)" Value="282800" />
+  <Preset Label="Listen to Carnaval Beats (stereo_listens_Brazilian_Smart_Hub)" Value="282801" />
+  <Preset Label="Listen to Carnaval Beats (stereo_listens_Brazilian_WaterScooter)" Value="282802" />
+  <Preset Label="Listen to Carnaval Beats (stereo_earbuds_listens_Brazilian)" Value="282803" />
+  <Preset Label="Listen to Mixed Music Radio (Placeholder) (stereo_earbuds_listens_MixedMusic)" Value="282805" />
+  <Preset Label="Listen to Mixed Music Radio (Placeholder) (stereo_listens_MixedMusic)" Value="282806" />
+  <Preset Label="Listen to Mixed Music Radio (Placeholder) (stereo_listens_MixedMusic_Bot)" Value="282807" />
+  <Preset Label="Listen to Mixed Music Radio (Placeholder) (stereo_listens_MixedMusic_djBooth)" Value="282808" />
+  <Preset Label="Listen to Mixed Music Radio (Placeholder) (stereo_listens_MixedMusic_SkatingRink)" Value="282809" />
+  <Preset Label="Listen to Mixed Music Radio (Placeholder) (stereo_listens_MixedMusic_Smart_Hub)" Value="282810" />
+  <Preset Label="Listen to Mixed Music Radio (Placeholder) (stereo_listens_MixedMusic_WaterScooter)" Value="282811" />
+  <Preset Label="Listen to Mixed Music Radio (Placeholder) (stereo_listens_MixedMusic_HotTub)" Value="282813" />
+  <Preset Label="Listen to Mixed Music Radio (Placeholder) (stereo_listens_MixedMusic_HotTub_NotInHotTub)" Value="282814" />
+  <Preset Label="autonomous_ObjectPicker_Custom_State_Wedding_DanceGather" Tags="TestUnsafe" Value="282868" />
+  <Preset Label="autonomous_ObjectPicker_Custom_State_Wedding_DanceGather_DanceFloor" Tags="TestUnsafe" Value="282874" />
+  <Preset Label="simPicker_Custom_State_Wedding_BouquetGather_TargetCouple" Tags="TestUnsafe" Value="282969" />
+  <Preset Label="autonomous_ObjectPicker_Custom_State_Wedding_AisleGather_Processional" Tags="TestUnsafe" Value="282979" />
+  <Preset Label="autonomous_ObjectPicker_Custom_State_Wedding_AisleGather_Recessional" Tags="TestUnsafe" Value="282980" />
+  <Preset Label="wedding_Gather_Custom_State_Wedding_Processional" Value="282983" />
+  <Preset Label="Gather At Wedding Aisle (wedding_Immediate_Processional)" Value="282985" />
+  <Preset Label="autonomous_ObjectPicker_Custom_State_Wedding_TakeSeats_Arch" Tags="TestUnsafe" Value="283661" />
+  <Preset Label="simPicker_Custom_State_Wedding_BlowBubbles_TargetCouple" Tags="TestUnsafe" Value="283742" />
+  <Preset Label="mixer_WeddingVenue_TakeNotes" Value="283747" />
+  <Preset Label="mixer_WeddingVenue_Critique" Value="283748" />
+  <Preset Label="mixer_WeddingVenue_Think" Value="283749" />
+  <Preset Label="mixer_WeddingVenue_View" Value="283750" />
+  <Preset Label="Check Out Venue (wedding_Venue_CheckOut_OnObject)" Value="283753" />
+  <Preset Label="Take Photo (wedding_Venue_TakePicture_OnObject)" Value="283758" />
+  <Preset Label="simPicker_Custom_State_Wedding_CakeGather_TargetCouple" Tags="TestUnsafe" Value="284021" />
 </PresetGroup>

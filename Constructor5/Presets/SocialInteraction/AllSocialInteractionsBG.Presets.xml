@@ -516,7 +516,7 @@
   <Preset Label="Enthuse about Vegetarianism (mixer_VegetarianTrait_EnthuseAboutVegetarianism)" Tags="TestUnsafe" Value="132642" />
   <Preset Label="Complain About Flavorless Meat Substitutes (mixer_VegetarianTrait_ComplainAboutFlavorlessMeatSubstitutes)" Tags="TestUnsafe" Value="132643" />
   <Preset Label="Ask to Spray The Monster Under The Bed (mixer_social_AskToSprayForMonsterUnderBed_Friendly_AlwaysOn_Child)" Tags="TestUnsafe" Value="134238" />
-  <Preset Label="Ask to Just Be Friends (mixer_social_AskToJustBeFriends_Targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="135594" />
+  <Preset Label="Ask to Just be Friends (mixer_social_AskToJustBeFriends_Targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="135594" />
   <Preset Label="Tragically Try to Cheer Up (mixer_social_CheerUp_targeted_Friendly_alwaysOn_TragicClown)" Tags="TestUnsafe" Value="139622" />
   <Preset Label="Ask For (socials_Toddler_AskFor_Attention)" Tags="TestUnsafe" Value="140924" />
   <Preset Label="Ask for Diaper (socials_Toddler_AskFor_Diaper)" Tags="TestUnsafe" Value="140927" />
@@ -686,6 +686,10 @@
   <Preset Label="Ask What {1.SimFirstName}'s Problem Is (mixer_social_WhatsYourProblem_Targeted_Mean_Sentiments)" Tags="TestUnsafe" Value="249743" />
   <Preset Label="Clean Up (socials_Targeted_Friendly_AlwaysOn_STC_Toddler_AskToCleanUp)" Tags="TestUnsafe" Value="251572" />
   <Preset Label="Ask for Encouragement (mixer_social_AskForAdvice_targeted_friendly_emotionSpecific_Scared)" Tags="TestUnsafe" Value="254864" />
+  <Preset Label="Order {1.SimFirstName} to Clean (mixer_social_Mean_Dust_DemandClean)" Tags="TestUnsafe" Value="257093" />
+  <Preset Label="Argue About Dirty Surroundings (mixer_social_Mean_Dust_Argue)" Tags="TestUnsafe" Value="257095" />
+  <Preset Label="Ask For Help Cleaning (mixer_Social_Dust_AskClean)" Tags="TestUnsafe" Value="257096" />
+  <Preset Label="Clean Toddler with Vacuum (socials_Targeted_Friendly_AlwaysOn_STC_Toddler_Vacuum)" Tags="TestUnsafe" Value="257794" />
   <Preset Label="Help Out (mixer_social_GoodTrait_HelpOut)" Tags="TestUnsafe" Value="258339" />
   <Preset Label="Ask about Favorite Color (socials_Targeted_Friendly_SimPreference_Color)" Tags="TestUnsafe" Value="258385" />
   <Preset Label="Ask about Taste in Music (socials_Targeted_Friendly_SimPreference_Music)" Tags="TestUnsafe" Value="258387" />
@@ -701,6 +705,9 @@
   <Preset Label="Groan About Painting (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Painting)" Tags="TestUnsafe" Value="259512" />
   <Preset Label="Whine About Videogames (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Videogaming)" Tags="TestUnsafe" Value="259513" />
   <Preset Label="Gripe About Violins (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Violin)" Tags="TestUnsafe" Value="259514" />
+  <Preset Label="Ask {1.SimFirstName} Not To Steal (socials_Fox_SimToFox_AskNotToSteal)" Tags="TestUnsafe" Value="259828" />
+  <Preset Label="Try for Baby in Animal Shed (mixer_social_TryForBabyInLivestockPen_targeted_romance_transition)" Tags="TestUnsafe" Value="263191" />
+  <Preset Label="WooHoo in Animal Shed (mixer_social_WooHooInLivestockPen_targeted_romance_transition)" Tags="TestUnsafe" Value="263241" />
   <Preset Label="Bellyache About Acting (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Acting)" Tags="TestUnsafe" Value="264413" />
   <Preset Label="Protest Baking (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Baking)" Tags="TestUnsafe" Value="264414" />
   <Preset Label="Share Disgust Of Bowling (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Bowling)" Tags="TestUnsafe" Value="264415" />
@@ -753,6 +760,8 @@
   <Preset Label="Enthuse About Writing (socials_Targeted_Friendly_SimPreference_Recent_Likes_Writing)" Tags="TestUnsafe" Value="264463" />
   <Preset Label="Protest Programming (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Programming)" Tags="TestUnsafe" Value="264466" />
   <Preset Label="Enthuse About Programming (socials_Targeted_Friendly_SimPreference_Recent_Likes_Programming)" Tags="TestUnsafe" Value="264467" />
+  <Preset Label="Have a Henford Heart-to-Heart (mixer_social_CottageWorld_NPC_GossipAboutVillage_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="264831" />
+  <Preset Label="Discover Gift Preferences (socials_Fox_SimToFox_DiscoverGift)" Tags="TestUnsafe" Value="265272" />
   <Preset Label="Enthuse About Alternative Music (socials_Targeted_Friendly_SimPreference_Recent_Music_Alternative)" Tags="TestUnsafe" Value="267573" />
   <Preset Label="Enthuse About Americana Music (socials_Targeted_Friendly_SimPreference_Recent_Music_Americana)" Tags="TestUnsafe" Value="267577" />
   <Preset Label="Enthuse About Backyard Music (socials_Targeted_Friendly_SimPreference_Recent_Music_Backyard)" Tags="TestUnsafe" Value="267578" />
@@ -784,13 +793,22 @@
   <Preset Label="Enthuse About Tween Pop Music (socials_Targeted_Friendly_SimPreference_Recent_Music_TweenPop)" Tags="TestUnsafe" Value="267604" />
   <Preset Label="Enthuse About Winter Holiday Music (socials_Targeted_Friendly_SimPreference_Recent_Music_WinterHoliday)" Tags="TestUnsafe" Value="267606" />
   <Preset Label="Enthuse About World Music (socials_Targeted_Friendly_SimPreference_Recent_Music_World)" Tags="TestUnsafe" Value="267607" />
+  <Preset Label="Discuss if the Chicken came first (mixer_AnimalEnthusiastTrait_DiscussIfChicken)" Tags="TestUnsafe" Value="267888" />
+  <Preset Label="Share delight about animals (mixer_AnimalEnthusiastTrait_ShareDelight)" Tags="TestUnsafe" Value="267889" />
+  <Preset Label="Mope about missing animals (mixer_AnimalEnthusiastTrait_MopeMissingAnimals)" Tags="TestUnsafe" Value="267890" />
+  <Preset Label="Complain about bloating (mixer_LactoseIntolerantTrait_ComplainAboutBloating)" Tags="TestUnsafe" Value="267891" />
+  <Preset Label="Share wonders of dairy-free life (mixer_LactoseIntolerantTrait_ShareWondersOfDairyFree)" Tags="TestUnsafe" Value="267892" />
+  <Preset Label="Theorize about Milky Way conspiracy (mixer_LactoseIntolerantTrait_TheorizeAboutMilkyWay)" Tags="TestUnsafe" Value="267893" />
   <Preset Label="Talk about Best Color (socials_Targeted_Friendly_SimPreference_Color_Best)" Tags="TestUnsafe" Value="267926" />
   <Preset Label="Talk about Worst Color (socials_Targeted_Friendly_SimPreference_Color_Worst)" Tags="TestUnsafe" Value="267927" />
+  <Preset Label="Talk To {1.SimFirstName} (socials_Fox_SimToFox_TalkToFox)" Tags="TestUnsafe" Value="268139" />
+  <Preset Label="Playfully Scare {1.SimFirstName} (socials_Fox_SimToFox_Scare)" Tags="TestUnsafe" Value="268140" />
+  <Preset Label="Babble to Fox (socials_Fox_SimToFox_TalkToFox_ToddlerBabble)" Tags="TestUnsafe" Value="269407" />
   <Preset Label="Discuss Expanding the Family (mixer_social_DiscussExpandingTheFamily_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="274109" />
   <Preset Label="Pointedly Criticize Cross-stitch (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_CrossStitch)" Tags="TestUnsafe" Value="274560" />
   <Preset Label="Denounce Knitting (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Knitting)" Tags="TestUnsafe" Value="274561" />
   <Preset Label="Enthuse About Cross-stitch (socials_Targeted_Friendly_SimPreference_Recent_Likes_CrossStitch)" Tags="TestUnsafe" Value="274562" />
   <Preset Label="Enthuse About Knitting (socials_Targeted_Friendly_SimPreference_Recent_Likes_Knitting)" Tags="TestUnsafe" Value="274563" />
   <Preset Label="Enthuse About Cottagecore (socials_Targeted_Friendly_SimPreference_Recent_Music_CottageCore)" Tags="TestUnsafe" Value="274587" />
-  <Preset Label="Ask {1.SimFirstName} to Pursue Their Dream Job (mixer_social_AskSimToPursueDreamJob_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="274794" />
+  <Preset Label="Ask {1.SimFirstName} to Pursue their Dream Job (mixer_social_AskSimToPursueDreamJob_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="274794" />
 </PresetGroup>
