@@ -13,7 +13,7 @@ namespace Constructor5.Base.ElementSystem
     {
         public static void LoadAll()
         {
-            foreach (var file in Directory.GetFiles(Project.GetDirectory("Elements"), "*.xml"))
+            foreach (var file in Directory.GetFiles(Project.GetProjectDirectory("Elements"), "*.xml"))
             {
                 try
                 {
@@ -30,7 +30,7 @@ namespace Constructor5.Base.ElementSystem
         }
 
         public static void Save(Element element)
-            => XmlSaver.SaveFile(element, $"{Project.GetDirectory("Elements")}/{element.Guid}.{element.GetType().Name}.xml");
+            => XmlSaver.SaveFile(element, $"{Project.GetProjectDirectory("Elements")}/{element.Guid}.{element.GetType().Name}.xml");
 
         public static void SaveScheduled()
         {

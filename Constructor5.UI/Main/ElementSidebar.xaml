@@ -1,0 +1,153 @@
+﻿<UserControl
+    x:Class="Constructor5.UI.Main.ElementSidebar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.UI.Main"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    x:Name="uc"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <c:SimpleOpenWindowCommand
+            x:Key="ElementAddCommand"
+            IsDialog="true"
+            TypeName="AddElementWindow" />
+        <c:SimpleOpenWindowCommand
+            x:Key="UnlocalizableStringFinderCommand"
+            IsDialog="true"
+            TypeName="UnlocalizableStringFinderWindow" />
+        <c:SimpleOpenWindowCommand
+            x:Key="OpenDebugCommandWindow"
+            IsDialog="true"
+            TypeName="DebugCommandWindow" />
+        <local:ElementDeleteCommand x:Key="ElementDeleteCommand" />
+        <local:SaveCommand x:Key="SaveCommand" />
+        <local:ExportCommand x:Key="ExportCommand" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Margin="{StaticResource Constructor.BigPadding}">
+            <xctk:WatermarkTextBox
+                x:Name="SearchTextBox"
+                TextChanged="SearchTextBox_TextChanged"
+                Watermark="Search" />
+        </StackPanel>
+        <ListView
+            x:Name="ElementsControl"
+            Grid.Row="1"
+            Padding="{StaticResource Constructor.BigPaddingMinusTop}"
+            HorizontalContentAlignment="Stretch"
+            ItemsSource="{Binding ElementsSource, ElementName=uc}"
+            SelectionChanged="ElementsControl_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <c:TextBlock
+                            IsLocalizable="False"
+                            Text="{Binding Label}"
+                            ToolTip="{Binding UserFacingId}" />
+                        <c:PlainButton
+                            Grid.Column="1"
+                            Command="{StaticResource ElementDeleteCommand}"
+                            CommandParameter="{Binding}"
+                            Content="X"
+                            ShouldConvertStringToTextBlock="False" />
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Row="2" Margin="{StaticResource Constructor.BigPadding}">
+            <c:PlainButton
+                x:Name="UnlocalizableStringFinderButton"
+                HorizontalAlignment="Left"
+                Command="{StaticResource UnlocalizableStringFinderCommand}"
+                ShouldConvertStringToTextBlock="False"
+                ToolTip="Report Bug"
+                Visibility="Collapsed">
+                <c:Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image
+                            Width="25"
+                            Height="25"
+                            Source="pack://siteoforigin:,,,/Images/BugIcon.png" />
+                        <c:TextBlock
+                            x:Name="UnlocalizableStringsText"
+                            VerticalAlignment="Center"
+                            IsLocalizable="False"
+                            Text="Unlocalizable Strings" />
+                    </StackPanel>
+                </c:Button.Content>
+            </c:PlainButton>
+            <c:PlainButton
+                x:Name="FilterButton"
+                HorizontalAlignment="Left"
+                Click="FilterButton_Click"
+                ToolTip="Element Filter">
+                <c:Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image
+                            Width="25"
+                            Height="25"
+                            Source="pack://siteoforigin:,,,/Images/LayoutIcon.png" />
+                        <c:TextBlock VerticalAlignment="Center" Text="AdvancedFilter" />
+                    </StackPanel>
+                </c:Button.Content>
+            </c:PlainButton>
+            <c:PlainButton
+                x:Name="IssuesButton"
+                HorizontalAlignment="Left"
+                Click="IssuesButton_Click"
+                ToolTip="Report Bug">
+                <c:Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image
+                            Width="25"
+                            Height="25"
+                            Source="pack://siteoforigin:,,,/Images/BugIcon.png" />
+                        <c:TextBlock VerticalAlignment="Center" Text="ReportBug" />
+                    </StackPanel>
+                </c:Button.Content>
+            </c:PlainButton>
+            <c:PlainButton
+                HorizontalAlignment="Left"
+                Command="{StaticResource ElementAddCommand}"
+                ToolTip="Add Element">
+                <c:Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image
+                            Width="25"
+                            Height="25"
+                            Source="pack://siteoforigin:,,,/Images/AddIcon.png" />
+                        <c:TextBlock VerticalAlignment="Center" Text="AddElement" />
+                    </StackPanel>
+                </c:Button.Content>
+            </c:PlainButton>
+            <c:PlainButton
+                HorizontalAlignment="Left"
+                Command="{StaticResource ExportCommand}"
+                ToolTip="Export Package">
+                <c:Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image
+                            Width="25"
+                            Height="25"
+                            Source="pack://siteoforigin:,,,/Images/PackageIcon.png" />
+                        <c:TextBlock VerticalAlignment="Center" Text="ExportPackage" />
+                    </StackPanel>
+                </c:Button.Content>
+            </c:PlainButton>
+        </StackPanel>
+    </Grid>
+</UserControl>

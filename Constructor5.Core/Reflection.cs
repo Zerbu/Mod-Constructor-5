@@ -1,3 +1,4 @@
+using Constructor5.Base.ProjectSystem;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -109,7 +110,7 @@ namespace Constructor5.Core
 
             if (Directory.Exists("Plugins"))
             {
-                result.AddRange(Directory.GetFiles("Plugins", "*.dll").Select(file => Assembly.LoadFrom(Path.GetFullPath(file))));
+                result.AddRange(Directory.GetFiles(DirectoryUtility.GetUserDirectory("Plugins"), "*.dll").Select(file => Assembly.LoadFrom(Path.GetFullPath(file))));
             }
             /*else
             {

@@ -1,5 +1,6 @@
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ProjectSystem;
 using Constructor5.Core;
 using System;
 using System.Collections.Generic;
@@ -89,13 +90,7 @@ namespace Constructor5.UI.Dialogs.PresetSelect
             {
                 foreach (var folder in presetFolders)
                 {
-                    var dir = $"Presets/{folder}";
-                    if (!Directory.Exists(dir))
-                    {
-                        continue;
-                    }
-
-                    foreach (var file in Directory.GetFiles(dir))
+                    foreach (var file in DirectoryUtility.GetCombinedUserAndProgramFiles($"Presets/{folder}"))
                     {
                         groups.Add(XmlLoader.LoadFile<PresetGroup>(file));
                     }

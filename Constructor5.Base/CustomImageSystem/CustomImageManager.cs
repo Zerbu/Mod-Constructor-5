@@ -31,7 +31,7 @@ namespace Constructor5.Base.CustomImageSystem
 
             var instanceKey = FNVHasher.FNV64($"{Project.Id}:CustomImages/{importFileName}", true).ToString("X");
 
-            var newPath = $"{Project.GetDirectory(CustomImagesDirectory)}/{importFileName} {instanceKey.ToLower()}.png";
+            var newPath = $"{Project.GetProjectDirectory(CustomImagesDirectory)}/{importFileName} {instanceKey.ToLower()}.png";
 
             if (File.Exists(newPath))
             {
@@ -46,6 +46,6 @@ namespace Constructor5.Base.CustomImageSystem
         }
 
         private static string GetDdsPath(string instanceKey)
-            => $"{Project.GetDirectory("Imports")}/00B2D882!0!{instanceKey}.dds";
+            => $"{Project.GetProjectDirectory("Imports")}/00B2D882!0!{instanceKey}.dds";
     }
 }

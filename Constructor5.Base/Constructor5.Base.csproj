@@ -123,6 +123,7 @@
     <Compile Include="DebugCommandSystem\ToggleContextSpecificCommand.cs" />
     <Compile Include="ElementSystem\ContextModifier.cs" />
     <Compile Include="ElementSystem\Element.cs" />
+    <Compile Include="ElementSystem\ElementFilterSettings.cs" />
     <Compile Include="ElementSystem\ElementManager.cs" />
     <Compile Include="ElementSystem\ElementSaver.cs" />
     <Compile Include="ElementSystem\ElementTypeData.cs" />
@@ -134,6 +135,7 @@
     <Compile Include="ElementSystem\IOnElementContextSpecificChanged.cs" />
     <Compile Include="ElementSystem\IOnElementCreated.cs" />
     <Compile Include="ElementSystem\IOnElementDeleted.cs" />
+    <Compile Include="ElementSystem\IOnElementFilterSettingChanged.cs" />
     <Compile Include="ElementSystem\IOnProjectCreatedOrLoaded.cs" />
     <Compile Include="ElementSystem\IOnProjectCreateError.cs" />
     <Compile Include="ElementSystem\Preset.cs" />
@@ -203,10 +205,10 @@
     <Compile Include="LocalizationSystem\LocalizableTextStringValue.cs" />
     <Compile Include="LocalizationSystem\TextStringManager.cs" />
     <Compile Include="ProgramSettings.cs" />
-    <Compile Include="ExportSystem\ProjectSystem\Project.cs" />
-    <Compile Include="ExportSystem\ProjectSystem\ProjectCreateErrorType.cs" />
-    <Compile Include="ExportSystem\ProjectSystem\ProjectInfo.cs" />
-    <Compile Include="ExportSystem\ProjectSystem\ProjectManager.cs" />
+    <Compile Include="ProjectSystem\Project.cs" />
+    <Compile Include="ProjectSystem\ProjectCreateErrorType.cs" />
+    <Compile Include="ProjectSystem\ProjectInfo.cs" />
+    <Compile Include="ProjectSystem\ProjectManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>

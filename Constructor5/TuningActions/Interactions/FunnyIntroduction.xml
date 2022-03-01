@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SocialMixerInteraction" i="interaction" m="interactions.social.social_mixer_interaction" n="mixer_social_FunnyIntroduction_greetings" s="26178">
+  <V n="_icon" t="resource_key">
+    <U n="resource_key">
+      <T n="key" p="InGame\UI\Icons\InteractionQueueSubInteractions\icon_queuesubinteraction_funny.png">2f7d0004:00000000:4b90d2a210f78639</T>
+    </U>
+  </V>
+  <V n="basic_content" t="no_content">
+    <U n="no_content">
+      <V n="allow_with_unholsterable_object" t="override">
+        <T n="override">False</T>
+      </V>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>162659<!--LootActions: loot_Commodity_Culling_GhostAdd_target--></T>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>261657<!--LootActions: loot_SimPreference_PreferenceAssign--></T>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>250259<!--LootActions: loot_Lifestyles_FrequentTraveler_MetLocal--></T>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>199466<!--LootActions: loot_ActorCareer_PrepTask_Research_Funny--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="content_score" t="enabled">
+    <U n="enabled">
+      <T n="base_score">1</T>
+      <L n="mood_preference">
+        <U>
+          <T n="key">14632<!--Mood: Mood_Angry--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14633<!--Mood: Mood_Bored--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14634<!--Mood: Mood_Confident--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14635<!--Mood: Mood_Embarrassed--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14636<!--Mood: Mood_Energized--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14637<!--Mood: Mood_Fine--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14638<!--Mood: Mood_Flirty--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14639<!--Mood: Mood_Focused--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14640<!--Mood: Mood_Happy--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14641<!--Mood: Mood_Inspired--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14642<!--Mood: Mood_Playful--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14643<!--Mood: Mood_Sad--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14644<!--Mood: Mood_Dazed--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14645<!--Mood: Mood_Stressed--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14646<!--Mood: Mood_Uncomfortable--></T>
+          <T n="value">0</T>
+        </U>
+      </L>
+      <L n="social_context_preference">
+        <U>
+          <T n="key">111600<!--SocialContextBit: relationshipBit_SocialContext_Retail_Uninterested--></T>
+        </U>
+        <U>
+          <T n="key">111601<!--SocialContextBit: relationshipBit_SocialContext_Retail_VeryInterested--></T>
+        </U>
+        <U>
+          <T n="key">111602<!--SocialContextBit: relationshipBit_SocialContext_Retail_MildlyInterested--></T>
+        </U>
+        <U>
+          <T n="key">24032<!--SocialContextBit: relbit_SocialContext_Casual--></T>
+        </U>
+        <U>
+          <T n="key">24076<!--SocialContextBit: relbit_SocialContext_Romance_Amorous--></T>
+        </U>
+        <U>
+          <T n="key">24077<!--SocialContextBit: relbit_SocialContext_Fun_Funny--></T>
+        </U>
+        <U>
+          <T n="key">24078<!--SocialContextBit: relbit_SocialContext_Romance_Suggestive--></T>
+        </U>
+        <U>
+          <T n="key">24079<!--SocialContextBit: relbit_SocialContext_Fun_Hilarious--></T>
+        </U>
+        <U>
+          <T n="key">24080<!--SocialContextBit: relbit_SocialContext_Romance_Steamy--></T>
+        </U>
+        <U>
+          <T n="key">24081<!--SocialContextBit: relbit_SocialContext_Fun_Boring--></T>
+        </U>
+        <U>
+          <T n="key">24082<!--SocialContextBit: relbit_SocialContext_Fun_Tedious--></T>
+        </U>
+        <U>
+          <T n="key">24083<!--SocialContextBit: relbit_SocialContext_Fun_InsufferablyTedious--></T>
+        </U>
+        <U>
+          <T n="key">24085<!--SocialContextBit: relbit_SocialContext_Friendship_Friendly--></T>
+        </U>
+        <U>
+          <T n="key">24086<!--SocialContextBit: relbit_SocialContext_Friendship_Distasteful--></T>
+        </U>
+        <U>
+          <T n="key">24087<!--SocialContextBit: relbit_SocialContext_Friendship_Offensive--></T>
+        </U>
+        <U>
+          <T n="key">24088<!--SocialContextBit: relbit_SocialContext_Friendship_Abhorrent--></T>
+        </U>
+        <U>
+          <T n="key">24089<!--SocialContextBit: relbit_SocialContext_Awkwardness_Awkward--></T>
+        </U>
+        <U>
+          <T n="key">24090<!--SocialContextBit: relbit_SocialContext_Awkwardness_VeryAwkward--></T>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="ignores_greetings">True</T>
+  <L n="interaction_category_tags">
+    <E>Interaction_Greeting</E>
+    <E>Interaction_Chat</E>
+    <E>Interaction_Funny</E>
+    <E>Interaction_Mixer</E>
+    <E>Interaction_All</E>
+    <E>Interaction_SocialAll</E>
+    <E>Interaction_SocialMixer</E>
+    <E>Interaction_Social_Contagious</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <V n="animation_ref" t="enabled">
+              <U n="enabled">
+                <T n="factory">$AnimationOnSuccess<!--AnimationElement: Soc_Greet_FunnyIntroduction_Success_basic--></T>
+                <U n="overrides">
+                  <V n="balloons" t="enabled">
+                    <L n="enabled">
+                      <U>
+                        <L n="balloon_choices">
+                          <U>
+                            <V n="item" t="balloon_category">
+                              <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetSocialSTC_Funny_Speech--></T>
+                            </V>
+                          </U>
+                        </L>
+                        <L n="balloon_target">
+                          <E>Actor</E>
+                        </L>
+                      </U>
+                    </L>
+                  </V>
+                </U>
+              </U>
+            </V>
+            <L n="continuation">
+              <U>
+                <E n="actor">SocialGroupSims</E>
+                <T n="affordance">130343<!--ImmediateSuperInteraction: immediate_Introduction_MakeHasMetInSocialGroup--></T>
+                <E n="target">Actor</E>
+              </U>
+            </L>
+            <L n="loot_list">
+              <T>11029<!--LootActions: Rel_Bit_HasMet_Add_Both--></T>
+              <T>26262<!--LootActions: Loot_SocialContext_Fun_Gain_setFunny--></T>
+              <T>11036<!--LootActions: Rel_Gain_Small--></T>
+              <T>102790<!--LootActions: Loot_Statistic_Trait_IncrediblyFriendly_Greeting--></T>
+              <T>231313<!--LootActions: loot_CivicPolicy_InfluencePoints_Small--></T>
+              <T>195514<!--LootActions: rel_Gain_Small_ReputationFameBonus_Friendship--></T>
+              <ForEachReference p="LootActionSets">
+                <IfBool p="RunOnSuccess">
+                  <T>$v</T>
+                </IfBool>
+              </ForEachReference>
+              <T>$LearnTraitLootKey</T>
+            </L>
+            <V n="response" t="enabled">
+              <V n="enabled" t="individual">
+                <U n="individual">
+                  <L n="animations">
+                    <U>
+                      <E n="target">Actor</E>
+                      <U n="animation">
+                        <T n="factory">11830<!--AnimationElement: Social_Responses_Inspired_HandOnChin--></T>
+                      </U>
+                    </U>
+                    <U>
+                      <E n="target">TargetSim</E>
+                      <U n="animation">
+                        <T n="factory">$BalloonSet<!--AnimationElement: Social_Responses_Happy_Chuckle--></T>
+                      </U>
+                    </U>
+                  </L>
+                </U>
+              </V>
+            </V>
+          </U>
+          <U n="weight">
+            <T n="base_value">2</T>
+          </U>
+        </U>
+        <U>
+          <U n="outcome">
+            <V n="animation_ref" t="enabled">
+              <U n="enabled">
+                <T n="factory">$AnimationOnFailure<!--AnimationElement: Soc_Greet_FunnyIntroduction_Fail_basic--></T>
+                <U n="overrides">
+                  <V n="balloons" t="enabled">
+                    <L n="enabled">
+                      <U>
+                        <L n="balloon_choices">
+                          <U>
+                            <V n="item" t="balloon_category">
+                              <T n="balloon_category">$BalloonSet<!--BalloonCategory: ChatTopics_Speech--></T>
+                            </V>
+                          </U>
+                        </L>
+                        <L n="balloon_target">
+                          <E>Actor</E>
+                        </L>
+                      </U>
+                    </L>
+                  </V>
+                </U>
+              </U>
+            </V>
+            <L n="continuation">
+              <U>
+                <E n="actor">SocialGroupSims</E>
+                <T n="affordance">130343<!--ImmediateSuperInteraction: immediate_Introduction_MakeHasMetInSocialGroup--></T>
+                <E n="target">Actor</E>
+              </U>
+            </L>
+            <L n="loot_list">
+              <T>11042<!--LootActions: Rel_Loss_Small--></T>
+              <T>26264<!--LootActions: Loot_SocialContext_Fun_Loss_setBoring--></T>
+              <T>11029<!--LootActions: Rel_Bit_HasMet_Add_Both--></T>
+              <T>102790<!--LootActions: Loot_Statistic_Trait_IncrediblyFriendly_Greeting--></T>
+              <ForEachReference p="LootActionSets">
+                <IfBool p="RunOnFailure">
+                  <T>$v</T>
+                </IfBool>
+              </ForEachReference>
+              <T>$LearnTraitLootKey</T>
+            </L>
+            <E n="outcome_result">FAILURE</E>
+            <V n="response" t="enabled">
+              <V n="enabled" t="individual">
+                <U n="individual">
+                  <L n="animations">
+                    <U>
+                      <E n="target">Actor</E>
+                      <U n="animation">
+                        <T n="factory">11815<!--AnimationElement: Social_Responses_Embarrassed_TurnHead--></T>
+                      </U>
+                    </U>
+                    <U>
+                      <E n="target">TargetSim</E>
+                      <U n="animation">
+                        <T n="factory">11807<!--AnimationElement: Social_Responses_Bored_Yawn--></T>
+                      </U>
+                    </U>
+                  </L>
+                </U>
+              </V>
+            </V>
+          </U>
+          <U n="weight">
+            <L n="multipliers">
+              <U>
+                <T n="multiplier">0</T>
+                <L n="tests">
+                  <L>
+                    <V t="sim_info">
+                      <U n="sim_info">
+                        <V n="ages" t="specified">
+                          <L n="specified">
+                            <E>TODDLER</E>
+                          </L>
+                        </V>
+                        <E n="who">TargetSim</E>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </L>
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">$AnimationOnSuccess<!--AnimationElement: Soc_Greet_FunnyIntroduction_Success_basic--></T>
+                    <U n="overrides">
+                      <V n="balloons" t="enabled">
+                        <L n="enabled">
+                          <U>
+                            <L n="balloon_choices">
+                              <U>
+                                <V n="item" t="balloon_category">
+                                  <T n="balloon_category">38698<!--BalloonCategory: BalloonCategory_SetSocialSTC_Funny_Speech--></T>
+                                </V>
+                              </U>
+                            </L>
+                            <L n="balloon_target">
+                              <E>Actor</E>
+                            </L>
+                          </U>
+                        </L>
+                      </V>
+                    </U>
+                  </U>
+                </V>
+                <L n="continuation">
+                  <U>
+                    <E n="actor">SocialGroupSims</E>
+                    <T n="affordance">130343<!--ImmediateSuperInteraction: immediate_Introduction_MakeHasMetInSocialGroup--></T>
+                    <E n="target">Actor</E>
+                  </U>
+                </L>
+                <L n="loot_list">
+                  <T>11029<!--LootActions: Rel_Bit_HasMet_Add_Both--></T>
+                  <T>26262<!--LootActions: Loot_SocialContext_Fun_Gain_setFunny--></T>
+                  <T>11036<!--LootActions: Rel_Gain_Small--></T>
+                  <T>102790<!--LootActions: Loot_Statistic_Trait_IncrediblyFriendly_Greeting--></T>
+                  <T>195514<!--LootActions: rel_Gain_Small_ReputationFameBonus_Friendship--></T>
+                  <T>231313<!--LootActions: loot_CivicPolicy_InfluencePoints_Small--></T>
+                  <ForEachReference p="LootActionSets">
+                    <IfBool p="RunOnGreatSuccess">
+                      <T>$v</T>
+                    </IfBool>
+                  </ForEachReference>
+                   <T>$LearnTraitLootKey</T>
+                </L>
+                <V n="response" t="enabled">
+                  <V n="enabled" t="individual">
+                    <U n="individual">
+                      <L n="animations">
+                        <U>
+                          <E n="target">Actor</E>
+                          <U n="animation">
+                            <T n="factory">11830<!--AnimationElement: Social_Responses_Inspired_HandOnChin--></T>
+                          </U>
+                        </U>
+                        <U>
+                          <E n="target">TargetSim</E>
+                          <U n="animation">
+                            <T n="factory">11825<!--AnimationElement: Social_Responses_Happy_Chuckle--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+              </U>
+              <U n="weight">
+                <T n="base_value">5</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="test_based_score_threshold">
+                <U n="test_based_score_threshold">
+                  <T n="test_based_score">24570<!--TestBasedScore: scores_socialoutcomes_funny--></T>
+                  <U n="threshold">
+                    <T n="value">8</T>
+                  </U>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="posture_preferences">
+    <T n="apply_posture_costs">False</T>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <U n="skill_loot_data">
+    <V n="level_range" t="enabled">
+      <U n="enabled">
+        <T n="lower_bound">1</T>
+        <T n="upper_bound">10</T>
+      </U>
+    </V>
+    <T n="stat">16699<!--Skill: statistic_Skill_AdultMajor_Charisma--></T>
+  </U>
+  <U n="sub_action">
+    <T n="base_weight">2</T>
+  </U>
+  <E n="target_type">TARGET</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>9602<!--Trait: trait_Loner--></T>
+            <T>160848<!--Trait: trait_LifeSkills_BadManners--></T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>120201<!--Buff: buff_Role_WelcomeWagon_Neighbor_Ungreeted--></T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>120201<!--Buff: buff_Role_WelcomeWagon_Neighbor_Ungreeted--></T>
+            <T>123741<!--Buff: Buff_NoGreetings--></T>
+          </L>
+          <E n="subject">TargetSim</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="trait">
+        <U n="trait">
+          <L n="whitelist_traits">
+            <T>147121<!--Trait: trait_isButler--></T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>152549<!--Buff: buff_Role_Butler_Order_CheckOnMinor--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="sim_info">
+        <U n="sim_info">
+          <V n="ages" t="specified">
+            <L n="specified">
+              <E>CHILD</E>
+            </L>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="test_globals">
+    <V t="trait">
+      <U n="trait">
+        <L n="blacklist_traits">
+          <T>133798<!--Trait: trait_Hidden_IsEventNPC_Challenge--></T>
+        </L>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+    <V t="trait">
+      <U n="trait">
+        <L n="blacklist_traits">
+          <T>133798<!--Trait: trait_Hidden_IsEventNPC_Challenge--></T>
+        </L>
+        <E n="subject">Actor</E>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>99711<!--Buff: buff_GettingMarried--></T>
+        </L>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+    <V t="relationship">
+      <U n="relationship">
+        <U n="prohibited_relationship_bits">
+          <L n="match_all">
+            <T>15803<!--RelationshipBit: has_met--></T>
+          </L>
+        </U>
+        <L n="target_sim">
+          <E>Listeners</E>
+        </L>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">100187<!--TestSetInstance: testSet_NotBetweenNPCs--></T>
+    </V>
+    <V t="user_running_interaction">
+      <U n="user_running_interaction">
+        <L n="affordances">
+          <T>106223<!--SocialSuperInteraction: interrogate_Interrogate--></T>
+        </L>
+        <E n="participant">Actor</E>
+        <T n="test_for_not_running">True</T>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">116449<!--TestSetInstance: testSetInstance_NotCustomerORNotLotOwnerORChild--></T>
+    </V>
+    <V t="relationship">
+      <U n="relationship">
+        <U n="prohibited_relationship_bits">
+          <L n="match_any">
+            <T>192631<!--RelationshipBit: relationshipBit_CelebrityAcquaintance--></T>
+          </L>
+        </U>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">192959<!--TestSetInstance: testSet_Fame_RegularGreetings--></T>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>TODDLER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <E n="who">TargetSim</E>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <IfString p="MinimumScoreForAvailability" v="0" Inverted="True">
+      <V t="test_based_score_threshold">
+        <U n="test_based_score_threshold">
+          <T n="test_based_score">24571</T>
+          <U n="threshold">
+            <T n="value">$MinimumScoreForAvailability</T>
+          </U>
+        </U>
+      </V>
+    </IfString>
+  </L>
+  <T n="visible">True</T>
+</I>

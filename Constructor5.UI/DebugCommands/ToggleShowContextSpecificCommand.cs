@@ -6,6 +6,6 @@ namespace Constructor5.UI.DebugCommands
     [DebugCommand("toggle_show_context_specific")]
     public class ToggleShowContextSpecificCommand : DebugCommandBase
     {
-        public override void Invoke(string[] parameters) => MainWindow.ShowContextSpecificElements = !MainWindow.ShowContextSpecificElements;
+        public override void Invoke(string[] parameters) => ElementSidebar.ShowContextSpecificElements = !ElementSidebar.ShowContextSpecificElements;
     }
 }

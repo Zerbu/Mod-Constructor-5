@@ -9,7 +9,7 @@ namespace Constructor5.Base.DebugCommandSystem
     {
         protected override void InvokeElementCommand(Element element)
         {
-            var file = Path.GetFullPath($"{Project.GetDirectory("Elements")}/{element.Guid}.{element.GetType().Name}.xml");
+            var file = Path.GetFullPath($"{Project.GetProjectDirectory("Elements")}/{element.Guid}.{element.GetType().Name}.xml");
             System.Diagnostics.Process.Start(file);
         }
     }

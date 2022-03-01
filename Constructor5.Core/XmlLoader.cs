@@ -15,7 +15,7 @@ namespace Constructor5.Core
                 return null;
             }
 
-            using (var stream = File.Open(fileName, FileMode.Open))
+            using (var stream = File.OpenRead(fileName))
             {
                 return LoadStream(type, stream);
             }

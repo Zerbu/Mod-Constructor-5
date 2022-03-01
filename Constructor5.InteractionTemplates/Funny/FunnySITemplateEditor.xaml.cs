@@ -4,6 +4,7 @@ using System.Windows.Controls;
 namespace Constructor5.InteractionTemplates.Funny
 {
     [ObjectEditor(typeof(FunnySITemplate))]
+    [ObjectEditor(typeof(FunnyIntroductionTemplate))]
     public partial class FunnySITemplateEditor : UserControl, IObjectEditor
     {
         public FunnySITemplateEditor() => InitializeComponent();
@@ -14,6 +15,11 @@ namespace Constructor5.InteractionTemplates.Funny
             if (tag == "AssignedInteraction")
             {
                 GlobalInteractionCheckBox.Visibility = System.Windows.Visibility.Hidden;
+            }
+
+            if (!(DataContext.GetType() == typeof(FunnySITemplate)))
+            {
+                LootListControl.ItemTypeName = "FunnyIntroductionLootItem";
             }
         }
     }

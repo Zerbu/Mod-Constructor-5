@@ -11,6 +11,16 @@ namespace Constructor5.Base.ElementSystem
     {
 #pragma warning disable CS0067
 
+        private string _customLabel;
+
+        private string _generatedLabel;
+
+        private string _guid;
+
+        private bool _isContextSpecific;
+
+        private string _userFacingId;
+
         public event PropertyChangedEventHandler PropertyChanged;
 
 #pragma warning restore CS0067
@@ -54,6 +64,8 @@ namespace Constructor5.Base.ElementSystem
             }
         }
 
+        public bool HasTag => !string.IsNullOrEmpty(TagText);
+
         public ulong? InstanceKeyOverride { get; set; }
 
         [XmlAttribute]
@@ -86,6 +98,12 @@ namespace Constructor5.Base.ElementSystem
         public bool ShowPreset { get; set; } = true;
 
         [XmlAttribute]
+        public string TagText { get; set; } = string.Empty;
+
+        [XmlIgnore]
+        public string TypeName => GetType().Name;
+
+        [XmlAttribute]
         public string UserFacingId
         {
             get => _userFacingId;
@@ -100,7 +118,6 @@ namespace Constructor5.Base.ElementSystem
                 ElementManager.UsedUserFacingIds.Add(UserFacingId);
             }
         }
-
         public void AddContextModifier(ContextModifier modifier)
         {
             IsContextSpecific = true;
@@ -116,11 +133,5 @@ namespace Constructor5.Base.ElementSystem
         { }
 
         protected internal virtual void OnUserCreated(string label) => CustomLabel = label;
-
-        private string _customLabel;
-        private string _generatedLabel;
-        private string _guid;
-        private bool _isContextSpecific;
-        private string _userFacingId;
     }
 }

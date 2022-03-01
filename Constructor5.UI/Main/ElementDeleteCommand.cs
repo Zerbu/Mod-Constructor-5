@@ -12,6 +12,12 @@ namespace Constructor5.UI.Main
         {
             var element = (Element)parameter;
 
+            if (element.ContextModifiers.Count > 0)
+            {
+                FancyMessageBox.Show("CannotDeleteElementWithContextModifiers");
+                return;
+            }
+
             if (!FancyMessageBox.ShowOKCancel(TextStringManager.Get("DeleteElementAreYouSure").Replace("{label}", element.Label), true))
             {
                 return;

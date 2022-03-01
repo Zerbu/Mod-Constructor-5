@@ -55,9 +55,39 @@ namespace Constructor5.Base.ProjectSystem
 
         public static ProjectInfo[] LoadInfo()
         {
+            void CopyFilesRecursively(string sourcePath, string targetPath)
+            {
+                //Now Create all of the directories
+                foreach (string dirPath in Directory.GetDirectories(sourcePath, "*", SearchOption.AllDirectories))
+                {
+                    Directory.CreateDirectory(dirPath.Replace(sourcePath, targetPath));
+                }
+
+                // Copy all the files & Replaces any files with the same name
+                // modified to not replace existing files
+                foreach (string newPath in Directory.GetFiles(sourcePath, "*.*", SearchOption.AllDirectories))
+                {
+                    var destPath = newPath.Replace(sourcePath, targetPath);
+                    if (!File.Exists(destPath))
+                    {
+                        File.Copy(newPath, destPath, true);
+                    }
+                }
+            }
+
+            var projectDirectory = DirectoryUtility.GetUserDirectory("Projects");
+
+            // move mods that use the old save system
+            if (Directory.Exists("Projects"))
+            {
+                // for some reason, Directory.Move doesn't work properly
+                CopyFilesRecursively("Projects", projectDirectory);
+                Directory.Delete("Projects", true);
+            }
+
             var result = new List<ProjectInfo>();
-            Directory.CreateDirectory("Projects");
-            foreach (var dir in Directory.GetDirectories("Projects"))
+            Directory.CreateDirectory(projectDirectory);
+            foreach (var dir in Directory.GetDirectories(projectDirectory))
             {
                 result.Add(XmlLoader.LoadFile<ProjectInfo>($"{dir}/Info.xml"));
             }

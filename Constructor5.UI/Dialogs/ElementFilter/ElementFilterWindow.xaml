@@ -1,0 +1,57 @@
+﻿<Window
+    x:Class="Constructor5.UI.Dialogs.ElementFilter.ElementFilterWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.UI.Dialogs.ElementFilter"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Filter Elements - The Sims 4 Mod Constructor (V5)"
+    Width="500"
+    Height="400"
+    FontSize="{StaticResource Constructor.BigFontSize}"
+    Loaded="Window_Loaded"
+    SizeToContent="Height"
+    Style="{StaticResource Constructor.WindowStyle}"
+    WindowStartupLocation="CenterOwner"
+    WindowStyle="ToolWindow"
+    mc:Ignorable="d">
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <c:LeftRightMargin>
+                <c:SpacedStack TopMargin="True">
+                    <StackPanel>
+                        <c:Field Label="Search" LabelWidth="100">
+                            <c:TextBox x:Name="SearchTextBox" />
+                        </c:Field>
+                    </StackPanel>
+                    <StackPanel>
+                        <c:TextBlock Text="IncludeInSearch" />
+                        <c:CheckBox x:Name="IncludeIDInSearchCheckBox" Content="ID" />
+                        <c:CheckBox x:Name="IncludeLabelInSearchCheckBox" Content="Label" />
+                        <c:CheckBox x:Name="IncludeTagInSearchCheckBox" Content="Tag" />
+                        <c:CheckBox x:Name="IncludeTypeNameInSearchCheckBox" Content="TypeName" />
+                    </StackPanel>
+                    <StackPanel>
+                        <c:CheckBox x:Name="SortByTagCheckBox" Content="SortByTag" />
+                        <c:CheckBox x:Name="SortByTypeCheckBox" Content="SortByType" />
+                    </StackPanel>
+                    <StackPanel>
+                        <c:CheckBox x:Name="ShowContextSpecificCheckBox" Content="ShowContextSpecificElements" />
+                    </StackPanel>
+                </c:SpacedStack>
+            </c:LeftRightMargin>
+            <Button
+                x:Name="FilterButton"
+                Grid.Row="1"
+                Margin="2"
+                HorizontalAlignment="Right"
+                Click="FilterButton_Click"
+                Content="Filter" />
+        </Grid>
+    </Border>
+</Window>

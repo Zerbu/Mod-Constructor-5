@@ -1224,20 +1224,20 @@
           <E>Listeners</E>
         </L>
       </U>
-      <IfString p="MinimumScoreForAvailability" v="0" Inverted="True">
-        <V t="test_based_score_threshold">
-          <U n="test_based_score_threshold">
-            <T n="test_based_score">24557</T>
-            <U n="threshold">
-              <T n="value">$MinimumScoreForAvailability</T>
-            </U>
-          </U>
-        </V>
-      </IfString>
     </V>
     <V t="test_set_reference">
       <T n="test_set_reference">240686<!--testSet_Batuu_SNPC_CanTalkTo--></T>
     </V>
+    <IfString p="MinimumScoreForAvailability" v="0" Inverted="True">
+      <V t="test_based_score_threshold">
+        <U n="test_based_score_threshold">
+          <T n="test_based_score">24557</T>
+          <U n="threshold">
+            <T n="value">$MinimumScoreForAvailability</T>
+          </U>
+        </U>
+      </V>
+    </IfString>
   </L>
   <T n="visible">True</T>
 </I>

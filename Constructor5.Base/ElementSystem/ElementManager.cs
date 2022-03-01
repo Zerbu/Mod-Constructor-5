@@ -49,7 +49,7 @@ namespace Constructor5.Base.ElementSystem
         {
             element.IsDeleted = true;
             AllElementsCollection.Remove(element);
-            File.Delete($"{Project.GetDirectory("Elements")}/{element.Guid}.{element.GetType().Name}.xml");
+            File.Delete($"{Project.GetProjectDirectory("Elements")}/{element.Guid}.{element.GetType().Name}.xml");
             Hooks.Location<IOnElementDeleted>(x => x.OnElementDeleted(element));
         }
 

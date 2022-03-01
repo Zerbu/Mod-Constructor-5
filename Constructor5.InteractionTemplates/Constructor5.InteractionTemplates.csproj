@@ -87,6 +87,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Friendly\FriendlyIntroductionTemplate.cs" />
     <Compile Include="Friendly\FriendlySITemplateEditor.xaml.cs">
       <DependentUpon>FriendlySITemplateEditor.xaml</DependentUpon>
     </Compile>
@@ -95,10 +96,15 @@
     <Compile Include="Friendly\FriendlySocialLootItemEditor.xaml.cs">
       <DependentUpon>FriendlySocialLootItemEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Funny\FunnyIntroductionLootItemEditor.xaml.cs">
+      <DependentUpon>FunnyIntroductionLootItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Funny\FunnyIntroductionTemplate.cs" />
     <Compile Include="Funny\FunnySITemplate.cs" />
     <Compile Include="Funny\FunnySITemplateEditor.xaml.cs">
       <DependentUpon>FunnySITemplateEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Funny\FunnyIntroductionLootItem.cs" />
     <Compile Include="Funny\FunnySocialLootItem.cs" />
     <Compile Include="Funny\FunnySocialLootItemEditor.xaml.cs">
       <DependentUpon>FunnySocialLootItemEditor.xaml</DependentUpon>
@@ -107,6 +113,7 @@
     <Compile Include="Immediate\ImmediateInteractionTemplateEditor.xaml.cs">
       <DependentUpon>ImmediateInteractionTemplateEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Mean\MeanIntroductionTemplate.cs" />
     <Compile Include="Mean\MeanSITemplate.cs" />
     <Compile Include="Mean\MeanSITemplateEditor.xaml.cs">
       <DependentUpon>MeanSITemplateEditor.xaml</DependentUpon>
@@ -137,6 +144,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Romance\FlirtyIntroductionTemplate.cs" />
     <Compile Include="Romance\RomanceSITemplate.cs" />
     <Compile Include="Romance\RomanceSITemplateEditor.xaml.cs">
       <DependentUpon>RomanceSITemplateEditor.xaml</DependentUpon>
@@ -197,6 +205,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Friendly\FriendlySocialLootItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Funny\FunnyIntroductionLootItemEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

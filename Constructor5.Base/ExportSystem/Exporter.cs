@@ -133,7 +133,7 @@ namespace Constructor5.Base.Export
 
         private void ExportImports()
         {
-            foreach (var file in Directory.GetFiles(Project.GetDirectory("Imports")))
+            foreach (var file in Directory.GetFiles(Project.GetProjectDirectory("Imports")))
             {
                 QueueFile(Path.GetFileNameWithoutExtension(file), File.Open(file, FileMode.Open, FileAccess.Read));
             }
@@ -146,7 +146,7 @@ namespace Constructor5.Base.Export
                 return;
             }
 
-            var fileName = $"{Project.GetDirectory("Python")}/{Project.Id}.py";
+            var fileName = $"{Project.GetProjectDirectory("Python")}/{Project.Id}.py";
             if (File.Exists(fileName))
             {
                 File.Delete(fileName);
@@ -221,44 +221,51 @@ namespace Constructor5.Base.Export
                 return;
             }
 
-            var directory = Path.GetDirectoryName(fileName) ?? throw new NullReferenceException();
-
-            var start = new ProcessStartInfo
+            try
             {
-                FileName = exePath,
-                Arguments = $"-m compileall {Path.GetFileName(fileName)}",
-                UseShellExecute = false,
-                RedirectStandardOutput = true,
-                CreateNoWindow = true,
-                WorkingDirectory = directory
-            };
+                var directory = Path.GetDirectoryName(fileName) ?? throw new NullReferenceException();
 
-            //var result = PythonBuilder.Current.GetContent();
-            using (var process = Process.Start(start))
-            {
-                using (var reader = process.StandardOutput)
+                var start = new ProcessStartInfo
                 {
-                    Console.Write(reader.ReadToEnd());
+                    FileName = exePath,
+                    Arguments = $"-m compileall {Path.GetFileName(fileName)}",
+                    UseShellExecute = false,
+                    RedirectStandardOutput = true,
+                    CreateNoWindow = true,
+                    WorkingDirectory = directory
+                };
+
+                //var result = PythonBuilder.Current.GetContent();
+                using (var process = Process.Start(start))
+                {
+                    using (var reader = process.StandardOutput)
+                    {
+                        Console.Write(reader.ReadToEnd());
+                    }
                 }
+
+                var cacheFile = $"{directory}/__pycache__/{Path.GetFileNameWithoutExtension(fileName)}.cpython-37.pyc";
+
+                var newFile = $"{directory}/{Path.GetFileNameWithoutExtension(fileName)}.pyc";
+                if (File.Exists(newFile))
+                {
+                    File.Delete(newFile);
+                }
+                File.Move(cacheFile, newFile);
+                Directory.Delete($"{directory}/__pycache__");
+
+                var zipFileName = $"{Path.GetDirectoryName(PackageFile)}/{Path.GetFileNameWithoutExtension(PackageFile)}.ts4script";
+                if (File.Exists(zipFileName))
+                {
+                    File.Delete(zipFileName);
+                }
+
+                ZipFile.CreateFromDirectory(directory, zipFileName);
             }
-
-            var cacheFile = $"{directory}/__pycache__/{Path.GetFileNameWithoutExtension(fileName)}.cpython-37.pyc";
-
-            var newFile = $"{directory}/{Path.GetFileNameWithoutExtension(fileName)}.pyc";
-            if (File.Exists(newFile))
+            catch (Exception ex)
             {
-                File.Delete(newFile);
+                AddError(null, "PythonCompileError");
             }
-            File.Move(cacheFile, newFile);
-            Directory.Delete($"{directory}/__pycache__");
-
-            var zipFileName = $"{Path.GetDirectoryName(PackageFile)}/{Path.GetFileNameWithoutExtension(PackageFile)}.ts4script";
-            if (File.Exists(zipFileName))
-            {
-                File.Delete(zipFileName);
-            }
-
-            ZipFile.CreateFromDirectory(directory, zipFileName);
         }
 
         private void WritePackage()

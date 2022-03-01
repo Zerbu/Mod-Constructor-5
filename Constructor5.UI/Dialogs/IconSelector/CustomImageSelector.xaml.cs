@@ -128,7 +128,7 @@ namespace Constructor5.UI.Dialogs.IconSelector
         {
             var customImages = new FastObservableCollection<ImageSelectorItem>();
 
-            foreach (var image in Directory.GetFiles(Project.GetDirectory("CustomImages"), "*.png"))
+            foreach (var image in Directory.GetFiles(Project.GetProjectDirectory("CustomImages"), "*.png"))
             {
                 customImages.Add(ImageSelectorItem.CreateFromPath(image));
             }

@@ -1,19 +1,20 @@
-<Window x:Class="Constructor5.UI.Dialogs.ElementSettings.ElementSettingsWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:c="clr-namespace:Constructor5.UI.Shared"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:local="clr-namespace:Constructor5.UI.Dialogs.ElementSettings"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        Title="Element Settings - The Sims 4 Mod Constructor (V5)"
-        Width="500"
-        Height="250"
-        FontSize="{StaticResource Constructor.BigFontSize}"
-        SizeToContent="Height"
-        Style="{StaticResource Constructor.WindowStyle}"
-        WindowStartupLocation="CenterOwner"
-        WindowStyle="ToolWindow"
-        mc:Ignorable="d">
+<Window
+    x:Class="Constructor5.UI.Dialogs.ElementSettings.ElementSettingsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.UI.Dialogs.ElementSettings"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Element Settings - The Sims 4 Mod Constructor (V5)"
+    Width="500"
+    Height="250"
+    FontSize="{StaticResource Constructor.BigFontSize}"
+    SizeToContent="Height"
+    Style="{StaticResource Constructor.WindowStyle}"
+    WindowStartupLocation="CenterOwner"
+    WindowStyle="ToolWindow"
+    mc:Ignorable="d">
     <Border Style="{StaticResource Constructor.OverlayStyle}">
         <Grid>
             <Grid.RowDefinitions>
@@ -27,11 +28,12 @@
                 <c:Field Label="ID" LabelWidth="100">
                     <StackPanel>
                         <TextBox x:Name="IDTextBox" />
-                        <c:Button x:Name="GenerateIDButton"
-                                  Margin="2"
-                                  HorizontalAlignment="Left"
-                                  Click="GenerateIDButton_Click"
-                                  Content="GenerateIDFromLabel" />
+                        <c:Button
+                            x:Name="GenerateIDButton"
+                            Margin="2"
+                            HorizontalAlignment="Left"
+                            Click="GenerateIDButton_Click"
+                            Content="GenerateIDFromLabel" />
                     </StackPanel>
                 </c:Field>
                 <c:CheckBox x:Name="ShowPresetCheckBox" Content="ShowInBrowsedialog" />
@@ -40,32 +42,40 @@
                     <c:CheckBox x:Name="ConvertCheckBox" Content="ConvertToRootElement" />
                     <c:TextBlock x:Name="ContextModifierInfo" Text="CannotBeConvertedToRootElement" />
                 </StackPanel>
-                <c:Expander x:Name="InstanceKeyOverrideExpander"
-                            Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                            Header="InstanceKeyOverride">
-                    <StackPanel>
-                        <c:TextBlock Text="InstanceKeyOverrideHelp" />
-                        <TextBox x:Name="InstanceKeyOverrideTextBox" />
-                    </StackPanel>
-                </c:Expander>
+                <c:SpacedStack TopMargin="True">
+                    <c:Expander x:Name="InstanceKeyOverrideExpander" Header="InstanceKeyOverride">
+                        <StackPanel>
+                            <c:TextBlock Text="InstanceKeyOverrideHelp" />
+                            <TextBox x:Name="InstanceKeyOverrideTextBox" />
+                        </StackPanel>
+                    </c:Expander>
+                    <c:Expander x:Name="TagExpander" Header="Tag">
+                        <StackPanel>
+                            <c:TextBlock Text="TagHelp" />
+                            <TextBox x:Name="TagTextBox" />
+                        </StackPanel>
+                    </c:Expander>
+                </c:SpacedStack>
             </StackPanel>
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <c:Button x:Name="CancelButton"
-                          Margin="2"
-                          HorizontalAlignment="Left"
-                          Click="CancelButton_Click"
-                          Content="Cancel" />
-                <c:Button x:Name="UpdateButton"
-                          Grid.Column="1"
-                          Margin="2"
-                          HorizontalAlignment="Right"
-                          Click="UpdateButton_Click"
-                          Content="Update"
-                          IsDefault="True" />
+                <c:Button
+                    x:Name="CancelButton"
+                    Margin="2"
+                    HorizontalAlignment="Left"
+                    Click="CancelButton_Click"
+                    Content="Cancel" />
+                <c:Button
+                    x:Name="UpdateButton"
+                    Grid.Column="1"
+                    Margin="2"
+                    HorizontalAlignment="Right"
+                    Click="UpdateButton_Click"
+                    Content="Update"
+                    IsDefault="True" />
             </Grid>
         </Grid>
     </Border>

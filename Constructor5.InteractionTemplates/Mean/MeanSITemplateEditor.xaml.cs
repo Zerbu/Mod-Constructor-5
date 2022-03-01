@@ -4,6 +4,7 @@ using System.Windows.Controls;
 namespace Constructor5.InteractionTemplates.Mean
 {
     [ObjectEditor(typeof(MeanSITemplate))]
+    [ObjectEditor(typeof(MeanIntroductionTemplate))]
     public partial class MeanSITemplateEditor : UserControl, IObjectEditor
     {
         public MeanSITemplateEditor() => InitializeComponent();
@@ -14,6 +15,12 @@ namespace Constructor5.InteractionTemplates.Mean
             if (tag == "AssignedInteraction")
             {
                 GlobalInteractionCheckBox.Visibility = System.Windows.Visibility.Hidden;
+            }
+
+            if (!(DataContext.GetType() == typeof(MeanSITemplate)))
+            {
+                LootListControl.ItemTypeName = "ReferenceListItem";
+                FailureAnimationControl.Visibility = System.Windows.Visibility.Collapsed;
             }
         }
     }

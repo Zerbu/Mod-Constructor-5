@@ -20,9 +20,6 @@ namespace Constructor5.InteractionTemplates
     /// </summary>
     public partial class SharedTuningActionsFileControl : UserControl
     {
-        public SharedTuningActionsFileControl()
-        {
-            InitializeComponent();
-        }
+        public SharedTuningActionsFileControl() => InitializeComponent();
     }
 }

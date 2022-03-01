@@ -960,4 +960,23 @@ IMPORTANT: This will alter how the UI works. The amount of time remaining will n
 	<String Key="TraitPickerInteraction">Trait Picker Interaction</String>
 	<String Key="SituationsStartSituation">Situations: Start Situation</String>
   
+  <String Key="AdvancedFilter">Advanced Filter</String>
+	<String Key="SortByType">Sort by Type</String>
+	<String Key="ShowContextSpecificElements">Show context specific elements</String>
+  
+  <String Key="IncludeInSearch">Include in search:</String>
+	<String Key="TypeName">Type Name</String>
+	<String Key="SortByTag">Sort by Tag</String>
+
+	<String Key="TagHelp">The tag can be used when searching elements from the sidebar or the Advanced Filter dialog.</String>
+  
+  <String Key="CannotDeleteElementWithContextModifiers">Elements with context modifiers cannot be deleted from the sidebar, because deleting them can cause significant issues with other parts of the mod that depend on them. Context-specific elements that are no longer in use will automatically be deleted when exporting.</String>
+  
+  <String Key="PythonCompileError">There was an error compiling the generated Python script. This can happen if you tried to install Python but the isntallation was interrupted. Please try running the installer again. It should be located in the "Python Installer" subfolder of where you extracted Mod Constructor.</String>
+  
+  <String Key="FlirtyIntroductionInteraction">Flirty Introduction Interaction</String>
+	<String Key="FriendlyIntroductionInteraction">Friendly Introduction Interaction</String>
+	<String Key="FunnyIntroductionInteraction">Funny Introduction Interaction</String>
+	<String Key="MeanIntroductionInteraction">Mean Introduction Interaction</String>
+  
 </LocalizableTextStrings>

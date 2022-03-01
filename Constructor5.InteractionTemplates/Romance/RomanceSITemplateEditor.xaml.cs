@@ -4,6 +4,7 @@ using System.Windows.Controls;
 namespace Constructor5.InteractionTemplates.Romance
 {
     [ObjectEditor(typeof(RomanceSITemplate))]
+    [ObjectEditor(typeof(FlirtyIntroductionTemplate))]
     public partial class RomanceSITemplateEditor : UserControl, IObjectEditor
     {
         public RomanceSITemplateEditor() => InitializeComponent();
@@ -14,6 +15,12 @@ namespace Constructor5.InteractionTemplates.Romance
             if (tag == "AssignedInteraction")
             {
                 GlobalInteractionCheckBox.Visibility = System.Windows.Visibility.Hidden;
+            }
+
+            if (!(DataContext.GetType() == typeof(RomanceSITemplate)))
+            {
+                LootListControl.ItemTypeName = "ReferenceListItem";
+                FailureAnimationControl.Visibility = System.Windows.Visibility.Collapsed;
             }
         }
     }

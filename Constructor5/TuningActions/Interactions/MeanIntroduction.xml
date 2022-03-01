@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SocialMixerInteraction" i="interaction" m="interactions.social.social_mixer_interaction" n="mixer_social_RudeIntroduction_greetings" s="26179">
+  <V n="_icon" t="resource_key">
+    <U n="resource_key">
+      <T n="key" p="InGame\UI\Icons\InteractionQueueSubInteractions\icon_queuesubinteraction_mean.png">2f7d0004:00000000:3d35761f11f0418c</T>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>162659<!--LootActions: loot_Commodity_Culling_GhostAdd_target--></T>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>261657<!--LootActions: loot_SimPreference_PreferenceAssign--></T>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>250259<!--LootActions: loot_Lifestyles_FrequentTraveler_MetLocal--></T>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>199496<!--LootActions: loot_ActorCareer_PrepTask_Research_Mean--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="content_score" t="enabled">
+    <U n="enabled">
+      <T n="base_score">1</T>
+      <L n="buff_preference">
+        <U>
+          <T n="key">163780<!--Buff: buff_LifeSkills_Autonomy_Manners_Negative--></T>
+          <T n="value">10</T>
+        </U>
+        <U>
+          <T n="key">168267<!--Buff: buff_LifeSkills_Autonomy_Manners_VeryNegative--></T>
+          <T n="value">15</T>
+        </U>
+      </L>
+      <L n="mood_preference">
+        <U>
+          <T n="key">14632<!--Mood: Mood_Angry--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14633<!--Mood: Mood_Bored--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14634<!--Mood: Mood_Confident--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14635<!--Mood: Mood_Embarrassed--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14636<!--Mood: Mood_Energized--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14637<!--Mood: Mood_Fine--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14638<!--Mood: Mood_Flirty--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14639<!--Mood: Mood_Focused--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14640<!--Mood: Mood_Happy--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14641<!--Mood: Mood_Inspired--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14642<!--Mood: Mood_Playful--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14643<!--Mood: Mood_Sad--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14644<!--Mood: Mood_Dazed--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14645<!--Mood: Mood_Stressed--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14646<!--Mood: Mood_Uncomfortable--></T>
+          <T n="value">0</T>
+        </U>
+      </L>
+      <L n="social_context_preference">
+        <U>
+          <T n="key">111600<!--SocialContextBit: relationshipBit_SocialContext_Retail_Uninterested--></T>
+        </U>
+        <U>
+          <T n="key">111601<!--SocialContextBit: relationshipBit_SocialContext_Retail_VeryInterested--></T>
+        </U>
+        <U>
+          <T n="key">111602<!--SocialContextBit: relationshipBit_SocialContext_Retail_MildlyInterested--></T>
+        </U>
+        <U>
+          <T n="key">24032<!--SocialContextBit: relbit_SocialContext_Casual--></T>
+        </U>
+        <U>
+          <T n="key">24076<!--SocialContextBit: relbit_SocialContext_Romance_Amorous--></T>
+        </U>
+        <U>
+          <T n="key">24077<!--SocialContextBit: relbit_SocialContext_Fun_Funny--></T>
+        </U>
+        <U>
+          <T n="key">24078<!--SocialContextBit: relbit_SocialContext_Romance_Suggestive--></T>
+        </U>
+        <U>
+          <T n="key">24079<!--SocialContextBit: relbit_SocialContext_Fun_Hilarious--></T>
+        </U>
+        <U>
+          <T n="key">24080<!--SocialContextBit: relbit_SocialContext_Romance_Steamy--></T>
+        </U>
+        <U>
+          <T n="key">24081<!--SocialContextBit: relbit_SocialContext_Fun_Boring--></T>
+        </U>
+        <U>
+          <T n="key">24082<!--SocialContextBit: relbit_SocialContext_Fun_Tedious--></T>
+        </U>
+        <U>
+          <T n="key">24083<!--SocialContextBit: relbit_SocialContext_Fun_InsufferablyTedious--></T>
+        </U>
+        <U>
+          <T n="key">24085<!--SocialContextBit: relbit_SocialContext_Friendship_Friendly--></T>
+        </U>
+        <U>
+          <T n="key">24086<!--SocialContextBit: relbit_SocialContext_Friendship_Distasteful--></T>
+        </U>
+        <U>
+          <T n="key">24087<!--SocialContextBit: relbit_SocialContext_Friendship_Offensive--></T>
+        </U>
+        <U>
+          <T n="key">24088<!--SocialContextBit: relbit_SocialContext_Friendship_Abhorrent--></T>
+        </U>
+        <U>
+          <T n="key">24089<!--SocialContextBit: relbit_SocialContext_Awkwardness_Awkward--></T>
+        </U>
+        <U>
+          <T n="key">24090<!--SocialContextBit: relbit_SocialContext_Awkwardness_VeryAwkward--></T>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="ignores_greetings">True</T>
+  <L n="interaction_category_tags">
+    <E>Interaction_Greeting</E>
+    <E>Interaction_Chat</E>
+    <E>Interaction_Mean</E>
+    <E>Interaction_Mixer</E>
+    <E>Interaction_All</E>
+    <E>Interaction_SocialAll</E>
+    <E>Interaction_SocialMixer</E>
+    <E>Interaction_Social_Contagious</E>
+  </L>
+  <L n="mood_list">
+    <T>14632<!--Mood: Mood_Angry--></T>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <V n="animation_ref" t="enabled">
+          <U n="enabled">
+            <T n="factory">$AnimationOnSuccess<!--AnimationElement: Soc_Mischief_NT_Insult_Mock_success_basic--></T>
+            <U n="overrides">
+              <V n="balloons" t="enabled">
+                <L n="enabled">
+                  <U>
+                    <L n="balloon_choices">
+                      <U>
+                        <V n="item" t="balloon_category">
+                          <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetSocialSTC_Offensive_Speech--></T>
+                        </V>
+                      </U>
+                    </L>
+                    <L n="balloon_target">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </L>
+              </V>
+            </U>
+          </U>
+        </V>
+        <L n="continuation">
+          <U>
+            <E n="actor">SocialGroupSims</E>
+            <T n="affordance">130343<!--ImmediateSuperInteraction: immediate_Introduction_MakeHasMetInSocialGroup--></T>
+            <E n="target">Actor</E>
+          </U>
+        </L>
+        <L n="loot_list">
+          <T>11029<!--LootActions: Rel_Bit_HasMet_Add_Both--></T>
+          <T>11040<!--LootActions: Rel_Loss_Medium--></T>
+          <T>26086<!--LootActions: Loot_SocialContext_Friendship_Loss_cappedDistasteful--></T>
+          <T>32631<!--LootActions: Loot_KnowTrait_Random_3_Observant--></T>
+          <T>130172<!--LootActions: loot_Listeners_Greeting_Group--></T>
+          <T>160894<!--LootActions: loot_Buff_GoodManner_GrossMannerEmbarrassment--></T>
+          <T>161575<!--LootActions: loot_Statistic_LifeSkill_Manners_Loss_Medium--></T>
+          <T>168411<!--LootActions: loot_Statistic_LifeSkill_MannersNegative_AutonomyMax--></T>
+          <ForEachReference p="LootActionSets">
+            <T>$v</T>
+          </ForEachReference>
+          <T>$LearnTraitLootKey</T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <U n="posture_preferences">
+    <T n="apply_posture_costs">False</T>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <V n="provided_template_affordances" t="enabled">
+    <U n="enabled">
+      <L n="template_affordances">
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xA4CF4400</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167157<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_MediumGain--></T>
+                    <T>130279<!--LootActions: rel_Gain_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163246<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_AskNotToDo_Accept_Major--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xA4CF4400</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167157<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_MediumGain--></T>
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163247<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_AskNotToDo_Accept_Minor--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xA4CF4400</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">162517<!--DisciplineTemplateSuperInteraction: disciplineTemplate_AskNotToDo_Reject--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x4F2FB632</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167157<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_MediumGain--></T>
+                    <T>130279<!--LootActions: rel_Gain_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163258<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_TellNotToDo_Accept_Major--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x4F2FB632</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167157<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_MediumGain--></T>
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163259<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_TellNotToDo_Accept_Minor--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x4F2FB632</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">162822<!--DisciplineTemplateSuperInteraction: disciplineTemplate_TellNotToDo_Reject--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xF603EB71</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167157<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_MediumGain--></T>
+                    <T>130279<!--LootActions: rel_Gain_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163261<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_ExpressDisappointment_Accept_Major--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xF603EB71</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167157<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_MediumGain--></T>
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163262<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_ExpressDisappointment_Accept_Minor--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xF603EB71</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">162832<!--DisciplineTemplateSuperInteraction: disciplineTemplate_ExpressDisappointment_Reject--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xD7E36A83</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167155<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_HugGain--></T>
+                    <T>11032<!--LootActions: Rel_Gain_Medium--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163264<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_HugItOut_Accept_Major--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xD7E36A83</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167155<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_HugGain--></T>
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163265<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_HugItOut_Accept_Minor--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xD7E36A83</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163073<!--DisciplineTemplateSuperInteraction: disciplineTemplate_HugItOut_Reject--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xF53EAD03</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167159<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_YellGain--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163280<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_YellAtAbout_Accept_Major--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xF53EAD03</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167159<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_YellGain--></T>
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163281<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_YellAtAbout_Accept_Minor--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x7531B748</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167154<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_EncourageLoss--></T>
+                    <T>130279<!--LootActions: rel_Gain_Small_TargetSim--></T>
+                    <T>163075<!--LootActions: loot_ParentingSkill_Discipline_Encourage--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">166301<!--DisciplineTemplateSuperInteraction: disciplineTemplate_Encourage_BadManners--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x791B4C0E</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167157<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_MediumGain--></T>
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163266<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_GiveTimeOut--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xF4CF411D</T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167157<!--LootActions: loot_Statistic_LifeSkill_Manners_Target_Discipline_MediumGain--></T>
+                    <T>130277<!--LootActions: rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163267<!--DisciplineTemplateSocialSuperInteraction: disciplineTemplateSocial_Ground--></T>
+          </U>
+        </V>
+      </L>
+    </U>
+  </V>
+  <U n="skill_loot_data">
+    <V n="level_range" t="enabled">
+      <U n="enabled">
+        <T n="lower_bound">1</T>
+        <T n="upper_bound">10</T>
+      </U>
+    </V>
+    <T n="stat">16699<!--Skill: statistic_Skill_AdultMajor_Charisma--></T>
+  </U>
+  <U n="sub_action">
+    <T n="base_weight">2</T>
+  </U>
+  <E n="target_type">TARGET</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>9602<!--Trait: trait_Loner--></T>
+            <T>27915<!--Trait: trait_Good--></T>
+            <T>160841<!--Trait: trait_LifeSkills_GoodManners--></T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>120201<!--Buff: buff_Role_WelcomeWagon_Neighbor_Ungreeted--></T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>120201<!--Buff: buff_Role_WelcomeWagon_Neighbor_Ungreeted--></T>
+            <T>123741<!--Buff: Buff_NoGreetings--></T>
+          </L>
+          <E n="subject">TargetSim</E>
+        </U>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">27920<!--TestSetInstance: testSet_MeanSocialsAutonomous--></T>
+      </V>
+      <V t="mood">
+        <U n="mood">
+          <T n="disallow">True</T>
+          <T n="mood">14640<!--Mood: Mood_Happy--></T>
+        </U>
+      </V>
+      <V t="mood">
+        <U n="mood">
+          <T n="disallow">True</T>
+          <T n="mood">14638<!--Mood: Mood_Flirty--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="trait">
+        <U n="trait">
+          <L n="whitelist_traits">
+            <T>147121<!--Trait: trait_isButler--></T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>152549<!--Buff: buff_Role_Butler_Order_CheckOnMinor--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="sim_info">
+        <U n="sim_info">
+          <V n="ages" t="specified">
+            <L n="specified">
+              <E>CHILD</E>
+            </L>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>163780<!--Buff: buff_LifeSkills_Autonomy_Manners_Negative--></T>
+              <T>168267<!--Buff: buff_LifeSkills_Autonomy_Manners_VeryNegative--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="test_globals">
+    <V t="trait">
+      <U n="trait">
+        <L n="blacklist_traits">
+          <T>133798<!--Trait: trait_Hidden_IsEventNPC_Challenge--></T>
+        </L>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+    <V t="trait">
+      <U n="trait">
+        <L n="blacklist_traits">
+          <T>133798<!--Trait: trait_Hidden_IsEventNPC_Challenge--></T>
+        </L>
+        <E n="subject">Actor</E>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>99711<!--Buff: buff_GettingMarried--></T>
+        </L>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+    <V t="relationship">
+      <U n="relationship">
+        <U n="prohibited_relationship_bits">
+          <L n="match_all">
+            <T>15803<!--RelationshipBit: has_met--></T>
+          </L>
+        </U>
+        <L n="target_sim">
+          <E>Listeners</E>
+        </L>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">100187<!--TestSetInstance: testSet_NotBetweenNPCs--></T>
+    </V>
+    <V t="user_running_interaction">
+      <U n="user_running_interaction">
+        <L n="affordances">
+          <T>106223<!--SocialSuperInteraction: interrogate_Interrogate--></T>
+        </L>
+        <E n="participant">Actor</E>
+        <T n="test_for_not_running">True</T>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">116449<!--TestSetInstance: testSetInstance_NotCustomerORNotLotOwnerORChild--></T>
+    </V>
+    <V t="relationship">
+      <U n="relationship">
+        <U n="prohibited_relationship_bits">
+          <L n="match_any">
+            <T>192631<!--RelationshipBit: relationshipBit_CelebrityAcquaintance--></T>
+          </L>
+        </U>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">192959<!--TestSetInstance: testSet_Fame_RegularGreetings--></T>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+      </U>
+    </V>
+    <IfString p="MinimumScoreForAvailability" v="0" Inverted="True">
+      <V t="test_based_score_threshold">
+        <U n="test_based_score_threshold">
+          <T n="test_based_score">24573</T>
+          <U n="threshold">
+            <T n="value">$MinimumScoreForAvailability</T>
+          </U>
+        </U>
+      </V>
+    </IfString>
+  </L>
+  <T n="visible">True</T>
+</I>

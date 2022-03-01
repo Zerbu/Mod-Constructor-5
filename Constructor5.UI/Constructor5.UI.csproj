@@ -129,6 +129,9 @@
       <DependentUpon>DebugCommandWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Dialogs\DialogUtility.cs" />
+    <Compile Include="Dialogs\ElementFilter\ElementFilterWindow.xaml.cs">
+      <DependentUpon>ElementFilterWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Dialogs\ElementSettings\ElementSettingsWindow.xaml.cs">
       <DependentUpon>ElementSettingsWindow.xaml</DependentUpon>
     </Compile>
@@ -164,6 +167,9 @@
     <Compile Include="Main\DockTheme\ConstructorTheme.cs" />
     <Compile Include="Main\ElementEditorPresenter.xaml.cs">
       <DependentUpon>ElementEditorPresenter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Main\ElementSidebar.xaml.cs">
+      <DependentUpon>ElementSidebar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Main\IOnShowContextSpecificElementsChanged.cs" />
     <Compile Include="Main\TaggedLayoutDocument.cs" />
@@ -332,6 +338,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Dialogs\ElementFilter\ElementFilterWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Dialogs\ElementSettings\ElementSettingsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -381,6 +391,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Dialogs\PythonInstaller\PythonInstallerWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Main\ElementSidebar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

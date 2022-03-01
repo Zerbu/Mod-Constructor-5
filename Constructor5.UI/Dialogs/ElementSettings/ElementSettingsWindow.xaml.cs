@@ -35,6 +35,7 @@ namespace Constructor5.UI.Dialogs.ElementSettings
                 InstanceKeyOverrideExpander.IsExpanded = true;
                 InstanceKeyOverrideTextBox.Text = element.InstanceKeyOverride.ToString();
             }
+            TagTextBox.Text = element.TagText;
         }
 
         private Element Element { get; set; }
@@ -91,6 +92,8 @@ namespace Constructor5.UI.Dialogs.ElementSettings
             {
                 Element.InstanceKeyOverride = null;
             }
+
+            Element.TagText = TagTextBox.Text;
 
             Close();
         }

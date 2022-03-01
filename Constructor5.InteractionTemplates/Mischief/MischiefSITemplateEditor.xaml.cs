@@ -15,6 +15,11 @@ namespace Constructor5.InteractionTemplates.Mischief
             {
                 GlobalInteractionCheckBox.Visibility = System.Windows.Visibility.Hidden;
             }
+
+            if (!(DataContext.GetType() == typeof(MischiefSITemplate)))
+            {
+                LootListControl.ItemTypeName = "ReferenceListItem";
+            }
         }
     }
 }
