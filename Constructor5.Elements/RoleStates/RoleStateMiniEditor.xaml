@@ -13,7 +13,7 @@
                                      ElementTypeName="Buff"
                                      ItemTypeName="BuffWithReasonReferenceListItem"
                                      ShowCreateButton="True" />
-        <c:Expander Header="Off Lot Autonomy Buff">
+        <c:Expander Header="OffLotAutonomyBuff">
             <c:ReferenceControl ElementTypeName="Buff"
                                      Reference="{Binding OffLotAutonomyBuff}"
                                      ResetTo="38292"

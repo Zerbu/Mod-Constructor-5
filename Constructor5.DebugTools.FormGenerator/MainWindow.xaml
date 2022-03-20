@@ -16,7 +16,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <StackPanel>
-            <c:Field Label="Type Name" LabelWidth="200">
+            <c:Field Label="TypeName" LabelWidth="200">
                 <TextBox x:Name="TypeNameTextBox" />
             </c:Field>
             <c:Button x:Name="GenerateButton"

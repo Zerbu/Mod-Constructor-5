@@ -27,7 +27,7 @@
                       ItemsSource="{Binding Source={StaticResource DialogTypeDataProvider}}"
                       SelectedItem="{Binding NotificationOrDialog.NotificationType, ElementName=uc}" />
         </c:Field>
-        <c:Field Label="Title (Optional)" LabelWidth="100">
+        <c:Field Label="TitleOptional" LabelWidth="100">
             <c:STBLStringControl Text="{Binding NotificationOrDialog.Title, ElementName=uc}" />
         </c:Field>
         <c:Field Label="Text" LabelWidth="100">
@@ -46,14 +46,14 @@
                     </Style.Triggers>
                 </Style>
             </StackPanel.Style>
-            <c:Field Label="Primary Icon" LabelWidth="100">
+            <c:Field Label="PrimaryIcon" LabelWidth="100">
                 <c:NotificationIconControl Icon="{Binding NotificationOrDialog.PrimaryIcon, ElementName=uc}" />
             </c:Field>
-            <c:Field Label="Secondary Icon" LabelWidth="100">
+            <c:Field Label="SecondaryIcon" LabelWidth="100">
                 <c:NotificationIconControl Icon="{Binding NotificationOrDialog.SecondaryIcon, ElementName=uc}" />
             </c:Field>
         </StackPanel>
-        <c:Field Label="Audio String (Optional)" LabelWidth="100">
+        <c:Field Label="AudioStringOptional" LabelWidth="100">
             <c:TextBoxWithPresetsControl PresetsFolder="Audio" Text="{Binding NotificationOrDialog.AudioSting, ElementName=uc}" />
         </c:Field>
         <!--<c:Expander Header="AdvancedOptions">

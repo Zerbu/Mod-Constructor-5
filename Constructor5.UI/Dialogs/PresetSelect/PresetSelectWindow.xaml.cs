@@ -122,10 +122,11 @@ namespace Constructor5.UI.Dialogs.PresetSelect
 
             if (!string.IsNullOrEmpty(ManualInput.Text))
             {
+                var commentedText = ManualInput.Text.Split(new[] { " <<<" }, StringSplitOptions.None);
                 presets.Add(new Preset
                 {
-                    Value = ManualInput.Text,
-                    Label = "Manual Input"
+                    Value = commentedText[0],
+                    Label = commentedText.Length > 0 ? commentedText[1] : null
                 });
             }
 

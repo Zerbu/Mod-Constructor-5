@@ -15,6 +15,13 @@ namespace Constructor5.Base.ElementSystem
         {
             foreach (var file in Directory.GetFiles(Project.GetProjectDirectory("Elements"), "*.xml"))
             {
+#if DEBUG
+                var fileName = Path.GetFileNameWithoutExtension(file);
+                var virtualExtension = Path.GetExtension(fileName).Replace(".", "");
+                var element = (Element)XmlLoader.LoadFile(Reflection.GetTypeByName(virtualExtension), file);
+                ElementManager.Register(element);
+#endif
+#if !DEBUG
                 try
                 {
                     var fileName = Path.GetFileNameWithoutExtension(file);
@@ -26,6 +33,7 @@ namespace Constructor5.Base.ElementSystem
                 {
                     MessageBox.Show($"An error occured while loading the following file: {file}\n\nThe file may be corrupted.\n\n{ex.Message}\n\nInner Exception: {ex.InnerException?.Message ?? "None"}", "The Sims 4 Mod Constructor", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+#endif
             }
         }
 

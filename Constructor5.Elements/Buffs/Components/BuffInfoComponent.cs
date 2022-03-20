@@ -113,14 +113,17 @@ namespace Constructor5.Elements.Buffs.Components
                 if (HasEmotion)
                 {
                     var tunableList1 = tunableTuple1.Get<TunableList>("categories");
-                    tunableList1.Set<TunableEnum>(null, GetEmotionCategory());
+                    if (AddEmotionCategory)
+                    {
+                        tunableList1.Set<TunableEnum>(null, GetEmotionCategory());
+                    }
                 }
                 if (HasFixedDuration)
                 {
                     tunableTuple1.Set<TunableBasic>("max_duration", Duration);
                     if (IsNonPersisted)
                     {
-                        tunableTuple1.Set<TunableBasic>("persists", false);
+                        context.Tuning.Set<TunableBasic>("persists", false);
                     }
                 }
 

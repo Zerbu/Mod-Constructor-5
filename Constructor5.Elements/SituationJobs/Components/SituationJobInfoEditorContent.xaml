@@ -40,7 +40,7 @@
 
         <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
             <c:CheckBox Content="CanBeHiredInSocialEventUI" IsChecked="{Binding CanBeHired}" />
-            <c:Field Label="Hire Cost"
+            <c:Field Label="HireCost"
                      LabelWidth="100"
                      Visibility="{Binding CanBeHired, Converter={StaticResource BoolToVis}}">
                 <xctk:IntegerUpDown Text="{Binding HireCost}" />

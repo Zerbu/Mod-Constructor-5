@@ -37,7 +37,7 @@ namespace Constructor5.Elements.Buffs.Components
             if (!string.IsNullOrEmpty(ProximityReason.CustomText))
             {
                 var tunableVariant1 = context.Tuning.Set<TunableVariant>("proximity_buff_added_reason", "proximity_add_reason");
-                tunableVariant1.Set<TunableBasic>("proximity_add_reason", "0xAF302126");
+                tunableVariant1.Set<TunableBasic>("proximity_add_reason", ProximityReason);
             }
 
             var proximityConditions = new List<TestCondition>();

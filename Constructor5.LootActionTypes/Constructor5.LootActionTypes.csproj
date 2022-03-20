@@ -101,6 +101,11 @@
     <Compile Include="Buffs\RemoveBuffsActionEditor.xaml.cs">
       <DependentUpon>RemoveBuffsActionEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ExtendedSupport\ExtendedSupportLootAction.cs" />
+    <Compile Include="ExtendedSupport\RunOtherActionSets.cs" />
+    <Compile Include="ExtendedSupport\RunOtherActionSetsEditor.xaml.cs">
+      <DependentUpon>RunOtherActionSetsEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RelBits\RelBitAction.cs" />
     <Compile Include="RelBits\RelBitActionBaseEditor.xaml.cs">
       <DependentUpon>RelBitActionBaseEditor.xaml</DependentUpon>
@@ -222,6 +227,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Buffs\RemoveBuffsActionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExtendedSupport\RunOtherActionSetsEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

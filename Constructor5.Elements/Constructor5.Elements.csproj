@@ -412,6 +412,7 @@
     <Compile Include="LootActionSets\LootActionSetMiniEditor.xaml.cs">
       <DependentUpon>LootActionSetMiniEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LootActionSets\LootTriggerBuff.cs" />
     <Compile Include="LootActionSets\LootTuning.cs" />
     <Compile Include="LootActionSets\LootActionType.cs" />
     <Compile Include="LootActionSets\LootActionTypeAttribute.cs" />
@@ -556,6 +557,10 @@
     </Compile>
     <Compile Include="SituationGoalSets\SituationGoalSetMiniEditor.xaml.cs">
       <DependentUpon>SituationGoalSetMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationGoals\Components\SituationGoalLootOnCompleteComponent.cs" />
+    <Compile Include="SituationGoals\Components\SituationGoalLootOnCompleteComponentEditor.xaml.cs">
+      <DependentUpon>SituationGoalLootOnCompleteComponentEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="SituationGoals\Components\SituationGoalPostConditionsComponentEditor.xaml.cs">
       <DependentUpon>SituationGoalPostConditionsComponentEditor.xaml</DependentUpon>
@@ -1121,6 +1126,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SituationGoals\Components\SituationGoalInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoals\Components\SituationGoalLootOnCompleteComponentEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

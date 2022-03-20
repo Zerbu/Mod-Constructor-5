@@ -108,9 +108,10 @@ namespace Constructor5.Core
                 Assembly.Load("Constructor5.SituationGoalTemplates"),
             };
 
-            if (Directory.Exists("Plugins"))
+            var pluginsDir = DirectoryUtility.GetUserDirectory("Plugins");
+            if (Directory.Exists(pluginsDir))
             {
-                result.AddRange(Directory.GetFiles(DirectoryUtility.GetUserDirectory("Plugins"), "*.dll").Select(file => Assembly.LoadFrom(Path.GetFullPath(file))));
+                result.AddRange(Directory.GetFiles(pluginsDir, "*.dll").Select(file => Assembly.LoadFrom(Path.GetFullPath(file))));
             }
             /*else
             {
