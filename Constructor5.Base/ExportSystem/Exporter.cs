@@ -1,11 +1,12 @@
 using Constructor5.Base.ElementSystem;
-using Constructor5.Base.ExportSystem;
+using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.LocalizationSystem;
 using Constructor5.Base.ProjectSystem;
 using Constructor5.Base.Python;
 using Constructor5.Core;
 using s4pi.Extensions;
+using s4pi.ImageResource;
 using s4pi.Interfaces;
 using s4pi.Package;
 using System;
@@ -17,7 +18,7 @@ using System.IO.Compression;
 using System.Linq;
 using System.Text;
 
-namespace Constructor5.Base.Export
+namespace Constructor5.Base.ExportSystem
 {
     public class Exporter
     {
@@ -60,7 +61,7 @@ namespace Constructor5.Base.Export
             STBLBuilder = new STBLBuilder();
 
             ExportElements();
-            ExportPython();
+            new PythonExport().ExportPython();
             ExportSTBL();
             ExportImports();
             WritePackage();
@@ -135,27 +136,28 @@ namespace Constructor5.Base.Export
         {
             foreach (var file in Directory.GetFiles(Project.GetProjectDirectory("Imports")))
             {
-                QueueFile(Path.GetFileNameWithoutExtension(file), File.Open(file, FileMode.Open, FileAccess.Read));
+                var extension = Path.GetExtension(file);
+                if (extension == ".package")
+                {
+                    MergePackage(file);
+                }
+                else if (extension != ".py")
+                {
+                    QueueFile(Path.GetFileNameWithoutExtension(file), File.Open(file, FileMode.Open, FileAccess.Read));
+                }
             }
         }
 
-        private void ExportPython()
+        private void MergePackage(string file)
         {
-            if (PythonBuilder.Current == null)
+            var package = (Package)Package.OpenPackage(0, file);
+            foreach (var indexEntry in package.FindAll(x => true))
             {
-                return;
+                var stream = package.GetResource(indexEntry);
+                var memoryStream = new MemoryStream();
+                stream.CopyTo(memoryStream);
+                QueueFile(indexEntry.ResourceType.ToString("X"), indexEntry.ResourceGroup.ToString("X"), indexEntry.Instance.ToString("X"), stream);
             }
-
-            var fileName = $"{Project.GetProjectDirectory("Python")}/{Project.Id}.py";
-            if (File.Exists(fileName))
-            {
-                File.Delete(fileName);
-            }
-            File.WriteAllText(fileName, PythonBuilder.Current.GetContent());
-
-            RunPythonScript(fileName);
-
-            PythonBuilder.Clear();
         }
 
         private void ExportSTBL()
@@ -211,63 +213,6 @@ namespace Constructor5.Base.Export
             return new TGIN { ResType = uint.Parse(tgi[0], NumberStyles.HexNumber), ResGroup = uint.Parse(tgi[1], NumberStyles.HexNumber), ResInstance = ulong.Parse(tgi[2], NumberStyles.HexNumber) };
         }
 
-        private void RunPythonScript(string fileName)
-        {
-            var exePath = PythonInstallationHelper.GetPath();
-
-            if (exePath == null)
-            {
-                AddError(null, "PythonNotInstalled");
-                return;
-            }
-
-            try
-            {
-                var directory = Path.GetDirectoryName(fileName) ?? throw new NullReferenceException();
-
-                var start = new ProcessStartInfo
-                {
-                    FileName = exePath,
-                    Arguments = $"-m compileall {Path.GetFileName(fileName)}",
-                    UseShellExecute = false,
-                    RedirectStandardOutput = true,
-                    CreateNoWindow = true,
-                    WorkingDirectory = directory
-                };
-
-                //var result = PythonBuilder.Current.GetContent();
-                using (var process = Process.Start(start))
-                {
-                    using (var reader = process.StandardOutput)
-                    {
-                        Console.Write(reader.ReadToEnd());
-                    }
-                }
-
-                var cacheFile = $"{directory}/__pycache__/{Path.GetFileNameWithoutExtension(fileName)}.cpython-37.pyc";
-
-                var newFile = $"{directory}/{Path.GetFileNameWithoutExtension(fileName)}.pyc";
-                if (File.Exists(newFile))
-                {
-                    File.Delete(newFile);
-                }
-                File.Move(cacheFile, newFile);
-                Directory.Delete($"{directory}/__pycache__");
-
-                var zipFileName = $"{Path.GetDirectoryName(PackageFile)}/{Path.GetFileNameWithoutExtension(PackageFile)}.ts4script";
-                if (File.Exists(zipFileName))
-                {
-                    File.Delete(zipFileName);
-                }
-
-                ZipFile.CreateFromDirectory(directory, zipFileName);
-            }
-            catch (Exception ex)
-            {
-                AddError(null, "PythonCompileError");
-            }
-        }
-
         private void WritePackage()
         {
             var package = Package.NewPackage(0);
@@ -286,7 +231,7 @@ namespace Constructor5.Base.Export
             package.SaveAs(PackageFile);
             package.Dispose();
 
-            foreach(var file in QueuedFiles)
+            foreach (var file in QueuedFiles)
             {
                 file.Value.Close();
             }

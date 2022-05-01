@@ -8,15 +8,17 @@
              d:DesignHeight="450"
              d:DesignWidth="800"
              mc:Ignorable="d">
-    <c:LeftRightMargin>
-        <c:SpacedStack>
-            <c:TextBlock Text="ProximityBuffsNotice" />
-            <c:Field Label="ProximityBuffs" LabelWidth="100">
-                <c:ReferenceListControl EditorTag="ProximityBuff"
+    <ScrollViewer>
+        <c:LeftRightMargin>
+            <c:SpacedStack>
+                <c:TextBlock Text="ProximityBuffsNotice" />
+                <c:Field Label="ProximityBuffs" LabelWidth="100">
+                    <c:ReferenceListControl EditorTag="ProximityBuff"
                                         ElementReferenceList="{Binding ProximityBuffs}"
                                         ElementTypeName="Buff"
                                         ShowCreateButton="True" />
-            </c:Field>
-        </c:SpacedStack>
-    </c:LeftRightMargin>
+                </c:Field>
+            </c:SpacedStack>
+        </c:LeftRightMargin>
+    </ScrollViewer>
 </UserControl>

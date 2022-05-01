@@ -988,22 +988,24 @@
               <U n="enabled">
                 <T n="factory">$AnimationOnSuccess<!--Soc_Generic_NT_ShareBadNews_succeed_basic--></T>
                 <U n="overrides">
-                  <V n="balloons" t="enabled">
-                    <L n="enabled">
-                      <U>
-                        <L n="balloon_choices">
-                          <U>
-                            <V n="item" t="balloon_category">
-                              <T n="balloon_category">$BalloonSet<!--balloonCategory_SetDeath_Speech--></T>
-                            </V>
-                          </U>
-                        </L>
-                        <L n="balloon_target">
-                          <E>Actor</E>
-                        </L>
-                      </U>
-                    </L>
-                  </V>
+                  <IfReferenceSet p="BalloonSet">
+                    <V n="balloons" t="enabled">
+                      <L n="enabled">
+                        <U>
+                          <L n="balloon_choices">
+                            <U>
+                              <V n="item" t="balloon_category">
+                                <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
+                              </V>
+                            </U>
+                          </L>
+                          <L n="balloon_target">
+                            <E>Actor</E>
+                          </L>
+                        </U>
+                      </L>
+                    </V>
+                  </IfReferenceSet>
                 </U>
               </U>
             </V>
@@ -1062,22 +1064,24 @@
                   <U n="enabled">
                     <T n="factory">$AnimationOnFailure<!--Socials_Generic_NT_AwkwardConfession_fail_basic--></T>
                     <U n="overrides">
-                      <V n="balloons" t="enabled">
-                        <L n="enabled">
-                          <U>
-                            <L n="balloon_choices">
-                              <U>
-                                <V n="item" t="balloon_category">
-                                  <T n="balloon_category">$BalloonSet<!--balloonCategory_SetDeath_Speech--></T>
-                                </V>
-                              </U>
-                            </L>
-                            <L n="balloon_target">
-                              <E>Actor</E>
-                            </L>
-                          </U>
-                        </L>
-                      </V>
+                      <IfReferenceSet p="BalloonSet">
+                        <V n="balloons" t="enabled">
+                          <L n="enabled">
+                            <U>
+                              <L n="balloon_choices">
+                                <U>
+                                  <V n="item" t="balloon_category">
+                                    <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
+                                  </V>
+                                </U>
+                              </L>
+                              <L n="balloon_target">
+                                <E>Actor</E>
+                              </L>
+                            </U>
+                          </L>
+                        </V>
+                      </IfReferenceSet>
                     </U>
                   </U>
                 </V>
@@ -1132,22 +1136,24 @@
                   <U n="enabled">
                     <T n="factory">$AnimationOnFailure<!--Soc_Generic_NT_ShareBadNews_succeed_basic--></T>
                     <U n="overrides">
-                      <V n="balloons" t="enabled">
-                        <L n="enabled">
-                          <U>
-                            <L n="balloon_choices">
-                              <U>
-                                <V n="item" t="balloon_category">
-                                  <T n="balloon_category">$BalloonSet<!--balloonCategory_SetDeath_Speech--></T>
-                                </V>
-                              </U>
-                            </L>
-                            <L n="balloon_target">
-                              <E>Actor</E>
-                            </L>
-                          </U>
-                        </L>
-                      </V>
+                      <IfReferenceSet p="BalloonSet">
+                        <V n="balloons" t="enabled">
+                          <L n="enabled">
+                            <U>
+                              <L n="balloon_choices">
+                                <U>
+                                  <V n="item" t="balloon_category">
+                                    <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
+                                  </V>
+                                </U>
+                              </L>
+                              <L n="balloon_target">
+                                <E>Actor</E>
+                              </L>
+                            </U>
+                          </L>
+                        </V>
+                      </IfReferenceSet>
                     </U>
                   </U>
                 </V>

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Reflection;
+using System.Xml;
 
 namespace Constructor5.DebugTools.PresetExtractor
 {
@@ -38,31 +39,67 @@ namespace Constructor5.DebugTools.PresetExtractor
                 RunInstructions(value);
             }
 
+            ExtractTags();
             Console.ReadKey();
+        }
 
-            /*RunInstructions(InstructionBatches.Traits);
-            RunInstructions(InstructionBatches.Animation);
-            RunInstructions(InstructionBatches.AspirationCategories);
-            RunInstructions(InstructionBatches.AspirationTracks);
-            RunInstructions(InstructionBatches.Balloon);
-            RunInstructions(InstructionBatches.Buffs);
-            RunInstructions(InstructionBatches.Loot);
-            RunInstructions(InstructionBatches.Objectives);
-            RunInstructions(InstructionBatches.ObjectiveSets);
-            RunInstructions(InstructionBatches.PieMenuCategories);
-            RunInstructions(InstructionBatches.Rewards);
-            RunInstructions(InstructionBatches.SituationGoals);
-            RunInstructions(InstructionBatches.SituationGoalSets);
+        private static void ExtractTags()
+        {
+            var tagsFile = $@"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}\Mod Development\XML\BG\tun\S4_03B33DDF_00000000_D89CB9186B79ACB7.xml";
 
-            RunInstructions(InstructionBatches.Commodities);
-            RunInstructions(InstructionBatches.SituationJobs);
-            RunInstructions(InstructionBatches.Situations);
+            var funcTags = new PresetGroup() { Label = "Function Tags" };
+            var buildTags = new PresetGroup() { Label = "Build Category Tags" };
+            var buyTags = new PresetGroup() { Label = "Buy Category Tags" };
+            var recipeTags = new PresetGroup() { Label = "Recipe Tags" };
 
-            RunInstructions(InstructionBatches.Interactions);
+            using (var reader = XmlReader.Create(tagsFile))
+            {
+                while (reader.Read())
+                {
+                    if (reader.NodeType != XmlNodeType.Element)
+                    {
+                        continue;
+                    }
 
-            RunInstructions(InstructionBatches.Broadcasters);
-            RunInstructions(InstructionBatches.SimFilters);
-            RunInstructions(InstructionBatches.Skills);*/
+                    var ev = reader.GetAttribute("ev");
+                    if (ev == null)
+                    {
+                        continue;
+                    }
+
+                    var value = reader.ReadInnerXml();
+                    if (value.StartsWith("Func_"))
+                    {
+                        funcTags.Presets.Add(new Preset { Value = value });
+                    }
+                    if (value.StartsWith("BuyCat"))
+                    {
+                        buyTags.Presets.Add(new Preset { Value = value });
+                    }
+                    if (value.StartsWith("Build"))
+                    {
+                        buildTags.Presets.Add(new Preset { Value = value });
+                    }
+                    if (value.StartsWith("Recipe_"))
+                    {
+                        recipeTags.Presets.Add(new Preset { Value = value });
+                    }
+                }
+            }
+
+            void Output(string dirName, string fileName, PresetGroup presetGroup)
+            {
+                var fullPath = $"Presets/{dirName}/{fileName}.Presets.xml";
+                Console.WriteLine(fullPath);
+                Directory.CreateDirectory(Path.GetDirectoryName(fullPath) ?? throw new InvalidOperationException());
+                XmlSaver.SaveFile(presetGroup, fullPath);
+            }
+
+            Output("ObjectTag", "BuildCategoryTags", buildTags);
+            Output("ObjectTag", "BuyCategoryTags", buyTags);
+            Output("ObjectTag", "FunctionTags", funcTags);
+            Output("RecipeTag", "RecipeTags", recipeTags);
+            //Output("ObjectTag", "CollectionTags", collectionTags);
         }
 
         private static readonly List<string> TestUnsafeTypes =
@@ -107,10 +144,10 @@ namespace Constructor5.DebugTools.PresetExtractor
                     continue;
                 }
                 var typeDirName = Path.GetFileName(typeDir).ToLower();
-                /*if (typeDirName != "object")
+                if (typeDirName != "recipe")
                 {
                     continue;
-                }*/
+                }
                 Console.WriteLine($"Checking directory: {typeDir}");
                 foreach (var xmlFile in Directory.GetFiles(typeDir, "*.xml"))
                 {

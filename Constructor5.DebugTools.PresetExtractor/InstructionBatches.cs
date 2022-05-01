@@ -79,6 +79,10 @@ namespace Constructor5.DebugTools.PresetExtractor
         {
         });
 
+        public static PresetInstruction[] Recipes { get; } = PresetInstruction.CreateBatch("Recipe", "Recipe", "All Recipes", "name", new Dictionary<string, string>
+        {
+        });
+
         public static PresetInstruction[] Rewards { get; } = PresetInstruction.CreateBatch("Reward", "Reward", "All Rewards", "name", new Dictionary<string, string>
         {
         });
@@ -109,10 +113,15 @@ namespace Constructor5.DebugTools.PresetExtractor
 
         public static PresetInstruction[] Skills { get; } = PresetInstruction.CreateBatch("Statistic", "Skill", "All Skills", "stat_name", new Dictionary<string, string>
         {
+            { "Mental Skills", "Skill_Mental" },
+            { "Creative Skills", "Skill_Creative" },
+            { "Physical Skills", "Skill_Physical" },
+            { "Social Skills", "Skill_Social" },
         }, "Skill");
 
         public static PresetInstruction[] SocialInteractions { get; } = PresetInstruction.CreateBatch("Interaction", "SocialInteraction", "All Social Interactions", "display_name", new Dictionary<string, string>
         {
+            
         }, "SocialMixerInteraction");
 
         public static PresetInstruction[] Traits { get; } = PresetInstruction.CreateBatch("Trait", "Trait", "All Traits", "display_name", new Dictionary<string, string>

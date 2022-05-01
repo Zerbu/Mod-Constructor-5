@@ -207,22 +207,24 @@
               <U n="enabled">
                 <T n="factory">$AnimationOnSuccess<!--AnimationElement: Soc_Greet_FunnyIntroduction_Success_basic--></T>
                 <U n="overrides">
-                  <V n="balloons" t="enabled">
-                    <L n="enabled">
-                      <U>
-                        <L n="balloon_choices">
-                          <U>
-                            <V n="item" t="balloon_category">
-                              <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetSocialSTC_Funny_Speech--></T>
-                            </V>
-                          </U>
-                        </L>
-                        <L n="balloon_target">
-                          <E>Actor</E>
-                        </L>
-                      </U>
-                    </L>
-                  </V>
+                  <IfReferenceSet p="BalloonSet">
+                    <V n="balloons" t="enabled">
+                      <L n="enabled">
+                        <U>
+                          <L n="balloon_choices">
+                            <U>
+                              <V n="item" t="balloon_category">
+                                <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
+                              </V>
+                            </U>
+                          </L>
+                          <L n="balloon_target">
+                            <E>Actor</E>
+                          </L>
+                        </U>
+                      </L>
+                    </V>
+                  </IfReferenceSet>
                 </U>
               </U>
             </V>
@@ -260,7 +262,7 @@
                     <U>
                       <E n="target">TargetSim</E>
                       <U n="animation">
-                        <T n="factory">$BalloonSet<!--AnimationElement: Social_Responses_Happy_Chuckle--></T>
+                        <T n="factory">11825<!--AnimationElement: Social_Responses_Happy_Chuckle--></T>
                       </U>
                     </U>
                   </L>
@@ -278,22 +280,24 @@
               <U n="enabled">
                 <T n="factory">$AnimationOnFailure<!--AnimationElement: Soc_Greet_FunnyIntroduction_Fail_basic--></T>
                 <U n="overrides">
-                  <V n="balloons" t="enabled">
-                    <L n="enabled">
-                      <U>
-                        <L n="balloon_choices">
-                          <U>
-                            <V n="item" t="balloon_category">
-                              <T n="balloon_category">$BalloonSet<!--BalloonCategory: ChatTopics_Speech--></T>
-                            </V>
-                          </U>
-                        </L>
-                        <L n="balloon_target">
-                          <E>Actor</E>
-                        </L>
-                      </U>
-                    </L>
-                  </V>
+                  <IfReferenceSet p="BalloonSet">
+                    <V n="balloons" t="enabled">
+                      <L n="enabled">
+                        <U>
+                          <L n="balloon_choices">
+                            <U>
+                              <V n="item" t="balloon_category">
+                                <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
+                              </V>
+                            </U>
+                          </L>
+                          <L n="balloon_target">
+                            <E>Actor</E>
+                          </L>
+                        </U>
+                      </L>
+                    </V>
+                  </IfReferenceSet>
                 </U>
               </U>
             </V>

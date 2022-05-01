@@ -9,6 +9,8 @@ namespace Constructor5.Base.ExportSystem.Tuning
         [XmlAttribute("c")]
         public string Class { get; set; }
 
+        public ulong GroupKey { get; set; }
+
         [XmlAttribute("s")]
         public ulong InstanceKey { get; set; }
 
@@ -30,7 +32,7 @@ namespace Constructor5.Base.ExportSystem.Tuning
         [XmlIgnore]
         public SimDataBuilder SimDataBuilder { get; set; }
 
-        public string GetHexGroupKey() => "0";
+        public string GetHexGroupKey() => GroupKey.ToString("X");
 
         public string GetHexInstanceKey() => InstanceKey.ToString("X");
 

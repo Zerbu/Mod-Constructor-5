@@ -1,6 +1,7 @@
 ﻿using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
+using Constructor5.Base.ExportSystem;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
@@ -32,10 +33,13 @@ namespace Constructor5.Elements.PieMenuCategories
             }
             tuning.Set<TunableBasic>("_parent", Parent);
 
-            tuning.SimDataHandler = new SimDataHandler("SimData/PieMenuCategory.data");
-            tuning.SimDataHandler.WriteText(68, (uint)Exporter.Current.STBLBuilder.GetKey(Name));
-            tuning.SimDataHandler.WriteTGI(80, Icon.GetUncommentedText(), this);
-            tuning.SimDataHandler.Write(96, ElementTuning.GetSingleInstanceKey(Parent) ?? 0);
+            if (Exporter.Current.STBLBuilder != null)
+            {
+                tuning.SimDataHandler = new SimDataHandler("SimData/PieMenuCategory.data");
+                tuning.SimDataHandler.WriteText(68, (uint)Exporter.Current.STBLBuilder.GetKey(Name));
+                tuning.SimDataHandler.WriteTGI(80, Icon.GetUncommentedText(), this);
+                tuning.SimDataHandler.Write(96, ElementTuning.GetSingleInstanceKey(Parent) ?? 0);
+            }
 
             TuningExport.AddToQueue(tuning);
         }

@@ -43,10 +43,7 @@ namespace Constructor5.LootActionTypes.Buffs
                 {
                     var tunableTuple1 = tunableList1.Get<TunableTuple>(null);
                     tunableTuple1.Set<TunableBasic>("key", key);
-                    if (buff.Weight != 1)
-                    {
-                        tunableTuple1.Set<TunableBasic>("value", buff.Weight);
-                    }
+                    tunableTuple1.Set<TunableBasic>("value", buff.Weight);
                 }
             }
 

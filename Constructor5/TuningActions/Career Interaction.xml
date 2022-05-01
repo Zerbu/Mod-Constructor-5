@@ -1259,32 +1259,27 @@
       </U>
     </V>
   </U>
-  <V n="pie_menu_icon" t="enabled">
-    <V n="enabled" t="resource_key">
-      <U n="resource_key">
-        <T n="key" p="InGame\UI\Icons\PieMenu\Careers\Career_Astronaut_Main_piemenu.png">2f7d0004:00000000:b2c60d6fcfefe08f</T>
-      </U>
-    </V>
-  </V>
   <U n="progress_bar_enabled">
     <T n="remember_progress">True</T>
   </U>
-  <V n="route_start_balloon" t="enabled">
-    <U n="enabled">
-      <U n="balloon">
-        <L n="balloon_choices">
-          <U>
-            <V n="item" t="balloon_category">
-              <T n="balloon_category">$BalloonSet</T>
-            </V>
-          </U>
-        </L>
-        <L n="balloon_target">
-          <E>Actor</E>
-        </L>
+  <IfReferenceSet p="BalloonSet">
+    <V n="route_start_balloon" t="enabled">
+      <U n="enabled">
+        <U n="balloon">
+          <L n="balloon_choices">
+            <U>
+              <V n="item" t="balloon_category">
+                <T n="balloon_category">$BalloonSet</T>
+              </V>
+            </U>
+          </L>
+          <L n="balloon_target">
+            <E>Actor</E>
+          </L>
+        </U>
       </U>
-    </U>
-  </V>
+    </V>
+  </IfReferenceSet>
   <E n="scoring_priority">NORMAL</E>
   <T n="subaction_selection_weight">1</T>
   <V n="super_affordance_compatibility" t="literal">

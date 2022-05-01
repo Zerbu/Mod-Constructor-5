@@ -163,6 +163,7 @@
     <Compile Include="ExportSystem\ExportResultsData.cs" />
     <Compile Include="ExportSystem\IExportableElement.cs" />
     <Compile Include="ExportSystem\IOnExportComplete.cs" />
+    <Compile Include="ExportSystem\PythonExport.cs" />
     <Compile Include="ExportSystem\STBLBuilder.cs" />
     <Compile Include="ExportSystem\TuningActions\ForEachAction.cs" />
     <Compile Include="ExportSystem\TuningActions\ForEachReference.cs" />
@@ -170,6 +171,8 @@
     <Compile Include="ExportSystem\TuningActions\IfBool.cs" />
     <Compile Include="ExportSystem\TuningActions\IfListNotEmpty.cs" />
     <Compile Include="ExportSystem\TuningActions\IfNotEmpty.cs" />
+    <Compile Include="ExportSystem\TuningActions\IfReferenceListNotEmpty.cs" />
+    <Compile Include="ExportSystem\TuningActions\IfReferenceSet.cs" />
     <Compile Include="ExportSystem\TuningActions\IfString.cs" />
     <Compile Include="ExportSystem\TuningActions\PropertyExport.cs" />
     <Compile Include="ExportSystem\TuningActions\RegisterTuningActionAttribute.cs" />

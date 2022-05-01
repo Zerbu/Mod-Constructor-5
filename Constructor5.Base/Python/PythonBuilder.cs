@@ -19,6 +19,11 @@ namespace Constructor5.Base.Python
 
         public static void Clear()
         {
+            if (Current == null)
+            {
+                return;
+            }
+
             foreach(var step in Current.Steps)
             {
                 step.Cleanup();

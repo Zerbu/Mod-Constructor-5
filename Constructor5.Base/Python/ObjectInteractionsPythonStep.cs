@@ -8,7 +8,7 @@ namespace Constructor5.Base.Python
     {
         public static ObjectInteractionsPythonStep Current { get; } = new ObjectInteractionsPythonStep();
 
-        public void AddObjectInteraction(List<ulong> objectList, ulong interaction)
+        public void AddObjectInteraction(IEnumerable<ulong> objectList, ulong interaction)
         {
             var objectListString = string.Empty;
             foreach (var obj in objectList)

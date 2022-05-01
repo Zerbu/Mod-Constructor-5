@@ -208,22 +208,24 @@
           <U n="enabled">
             <T n="factory">11934<!--AnimationElement: Soc_Greet_NT_Wave_basic--></T>
             <U n="overrides">
-              <V n="balloons" t="enabled">
-                <L n="enabled">
-                  <U>
-                    <L n="balloon_choices">
-                      <U>
-                        <V n="item" t="balloon_category">
-                          <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetSocialSTC_Casual_Speech--></T>
-                        </V>
-                      </U>
-                    </L>
-                    <L n="balloon_target">
-                      <E>Actor</E>
-                    </L>
-                  </U>
-                </L>
-              </V>
+              <IfReferenceSet p="BalloonSet">
+                <V n="balloons" t="enabled">
+                  <L n="enabled">
+                    <U>
+                      <L n="balloon_choices">
+                        <U>
+                          <V n="item" t="balloon_category">
+                            <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
+                          </V>
+                        </U>
+                      </L>
+                      <L n="balloon_target">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </L>
+                </V>
+              </IfReferenceSet>
             </U>
           </U>
         </V>

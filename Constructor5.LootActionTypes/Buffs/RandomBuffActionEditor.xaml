@@ -22,7 +22,7 @@
                 <c:TextBlock FontStyle="Italic" Text="BuffReasonHelp" />
             </StackPanel>
         </c:Field>
-        <c:CheckBox Content="Ignore if the Sim already has one of the buffs" IsChecked="{Binding IgnoreIfAlreadyHasBuff}" />
+        <c:CheckBox Content="IgnoreIfAlreadyHasOneOfTheBuffs" IsChecked="{Binding IgnoreIfAlreadyHasBuff}" />
         <c:Field Label="Participant" LabelWidth="100">
             <c:ParticipantControl Text="{Binding Participant}" />
         </c:Field>
