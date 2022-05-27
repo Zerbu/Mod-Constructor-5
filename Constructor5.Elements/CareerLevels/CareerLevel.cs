@@ -352,7 +352,7 @@ namespace Constructor5.Elements.CareerLevels
 
             tunableTuple2.Set<TunableBasic>("duration", TimeDurationHour);
 
-            var startTimeTuple = tuning.Get<TunableTuple>("start_time");
+            var startTimeTuple = tunableTuple2.Get<TunableTuple>("start_time");
             startTimeTuple.Set<TunableBasic>("hour", TimeBeginHour);
             if (TimeBeginMinute != 0)
             {
