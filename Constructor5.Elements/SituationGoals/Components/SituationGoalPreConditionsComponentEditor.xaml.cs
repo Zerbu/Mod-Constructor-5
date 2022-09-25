@@ -3,7 +3,7 @@ using System.Windows.Controls;
 
 namespace Constructor5.Elements.SituationGoals.Components
 {
-    [ObjectEditor(typeof(SituationGoalPreConditionsComponentEditor))]
+    [ObjectEditor(typeof(SituationGoalPreConditionsComponent))]
     public partial class SituationGoalPreConditionsComponentEditor : UserControl, IObjectEditor
     {
         public SituationGoalPreConditionsComponentEditor() => InitializeComponent();

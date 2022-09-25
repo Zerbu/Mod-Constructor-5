@@ -7,12 +7,16 @@ namespace Constructor5.LootActionTypes.ExtendedSupport
 {
     public abstract class ExtendedSupportLootAction : LootAction
     {
+        public string Participant { get; set; }
+
         protected override void OnExport(LASExportContext originalContext)
         {
             var mainTuple = LootTuning.GetActionTuple(originalContext.LootListTunable, "buff");
 
             var tunableTuple2 = mainTuple.Get<TunableTuple>("buff");
             tunableTuple2.Set<TunableBasic>("buff_type", LootTriggerBuff.Create(originalContext.Element, $"{ActionGuid}:Buff", new[] { CreateActionSet(originalContext) }));
+
+            tunableTuple2.Set<TunableBasic>("subject", Participant);
 
             TestConditionTuning.TuneTestList(mainTuple, originalContext.TestConditions, "tests");
         }

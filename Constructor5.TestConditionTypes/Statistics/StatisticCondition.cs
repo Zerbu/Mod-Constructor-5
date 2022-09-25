@@ -32,9 +32,9 @@ namespace Constructor5.TestConditionTypes.Statistics
 
         public Threshold Threshold { get; set; } = new Threshold();
 
-        protected override string GetVariantTunableName() => "statistic";
+        protected override string GetVariantTunableName(string contextTag = null) => "statistic";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>("statistic");
             AutoTunerInvoker.Invoke(this, tupleTunable);

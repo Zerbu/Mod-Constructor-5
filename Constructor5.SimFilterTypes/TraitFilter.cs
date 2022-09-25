@@ -7,7 +7,7 @@ using Constructor5.Elements.SimFilters;
 
 namespace Constructor5.SimFilterTypes
 {
-    [SelectableObjectType("SimFilterTypes", "Trait Filter")]
+    [SelectableObjectType("SimFilterTypes", "TraitFilter")]
     [XmlSerializerExtraType]
     public class TraitFilter : SimFilterTerm
     {

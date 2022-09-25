@@ -16,9 +16,9 @@ namespace Constructor5.TestConditionTypes.Buffs
         [AutoTuneReferenceList("acceptable_buffs")]
         public ReferenceList Buffs { get; set; } = new ReferenceList();
 
-        protected override string GetVariantTunableName() => "buff_added";
+        protected override string GetVariantTunableName(string contextTag = null) => "buff_added";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
             => AutoTunerInvoker.Invoke(this, variantTunable.Get<TunableTuple>("buff_added"));
     }
 }

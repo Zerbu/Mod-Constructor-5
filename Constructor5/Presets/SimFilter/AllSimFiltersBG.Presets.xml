@@ -332,26 +332,16 @@
   <Preset Label="filter_ages_ctyae_LivesTogetherOrVacationTogether" Value="247847" />
   <Preset Label="filter_IsNotPregnant" Value="254108" />
   <Preset Label="filter_walkby_WorkCommuter_Bookworm" Value="258046" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_AgnesCrumplebottom" Value="259320" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_AgathaCrumplebottom" Value="260236" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_Mayor" Value="260237" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_GroceryOwner" Value="260238" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_GroceryDelivery" Value="260239" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_CritterTender" Value="260240" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_PubOwner" Value="260241" />
-  <Preset Label="_SituationFilters_CottageWorld_VillageShops_GardenCrumplebottom" Value="261223" />
   <Preset Label="filter_Fox_AE" Value="261413" />
   <Preset Label="filter_Deliveries_FoodDelivery" Value="262356" />
-  <Preset Label="filter_Deliveries_GroceryDelivery" Value="262357" />
-  <Preset Label="filter_Aggregate_VillagerHelp_Gossipers" Value="264711" />
   <Preset Label="filter_ages_ctyae_notBusy_AgeVariant" Value="269295" />
   <Preset Label="musicFestival_Filter_ArtistNPC_BebeRexha" Value="269679" />
   <Preset Label="musicFestival_Filter_ArtistNPC_JoyOladokun" Value="269680" />
   <Preset Label="musicFestival_Filter_ArtistNPC_DaveBayley" Value="269681" />
   <Preset Label="musicFestival_Filter_FestivalGoer" Value="270407" />
-  <Preset Label="filter_Deliveries_GroceryDelivery_Walkby" Value="270777" />
   <Preset Label="filter_ages_ctyae_compatible_region_player" Value="270991" />
   <Preset Label="filter_ages_pctyae_vampiresAllowed" Value="271109" />
+  <Preset Label="SimPickerFilters_HasMet" Value="273642" />
   <Preset Label="dramaNodeFilter_NeighborRelPhoneCall_Friendly_TargetSim" Value="273986" />
   <Preset Label="dramaNodeFilter_NeighborRelPhoneCall_Friendly_PickedSim" Value="273993" />
   <Preset Label="dramaNodeFilters_Friend_Base_CanBePromoted" Value="274151" />
@@ -360,8 +350,49 @@
   <Preset Label="filter_Wedding_Custom_State_HonorAttendant" Value="275954" />
   <Preset Label="filter_Wedding_Custom_State_FlowerSpreader" Value="275955" />
   <Preset Label="filter_PartyGuest_YAE" Value="278299" />
+  <Preset Label="dramaNodeFilter_NeighborRelPhoneCall_Romantic_PickedSim" Value="279082" />
+  <Preset Label="dramaNodeFilter_NeighborRelPhoneCall_Romantic_TargetSim" Value="279083" />
+  <Preset Label="filter_Story_Progression_ChildrenStories_HumanAdoption" Value="279726" />
+  <Preset Label="filter_Story_Progression_ChildrenStories_Pregnancy" Value="279728" />
+  <Preset Label="filter_Story_Progression_ChildrenStories_PregnancyPartner" Value="279759" />
+  <Preset Label="filter_IsNeighbor" Value="280283" />
+  <Preset Label="filter_IsNeighbor_YAE" Value="280315" />
+  <Preset Label="filter_Story_Progression_AccidentalDeath" Value="280428" />
   <Preset Label="filter_Wedding_Custom_State_RingBearer" Value="282005" />
   <Preset Label="filter_Aggregate_RomanticCouple_Engaged" Value="283505" />
   <Preset Label="filter_ages_tyae_HasRomanticRelationship_NotBusy_Engaged" Value="283506" />
+  <Preset Label="dramaNodeFilters_Friend_Base_NewJob" Value="283829" />
   <Preset Label="filter_Walker_LivesInRegion" Value="283957" />
+  <Preset Label="filter_ActorIsMarried" Value="286651" />
+  <Preset Label="filter_ActorIsEngagedOrMarried" Value="286652" />
+  <Preset Label="filter_HasMet_PCTYAE" Value="288089" />
+  <Preset Label="filter_HasMet_PCTYAE_AllowedInDay" Value="288281" />
+  <Preset Label="filter_HasMet_PCTYAE_AllowedInDay_HasMetHousehold" Value="289984" />
+  <Preset Label="filter_PartyGuest_HasMetHousehold" Value="289990" />
+  <Preset Label="filter_PartyGuest_YAE_HasMetHousehold" Value="289991" />
+  <Preset Label="dramaNodeFilters_Scenario_ParentingPredicament_Principal" Value="294376" />
+  <Preset Label="dramaNodeFilters_Scenario_StuckInTheirShadow_Rival" Value="295008" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase4_AquaintedVisitor_1" Value="296151" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_Met_InRegionYAE" Value="296919" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase3a_Trainer" Value="297046" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase3b_Bartender" Value="297049" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase4_AquaintedVisitor_2" Value="297388" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase5_IntroCaller" Value="298603" />
+  <Preset Label="filter_ages_children_household" Value="298755" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_CallToAction_UnmetSimsTYAE" Value="298773" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_CallToAction_MetSimsTYAE" Value="298780" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_CallToAction_WelcomeWagonVisitors" Value="298781" />
+  <Preset Label="dramaNodeFilters_Scenario_ParentingPredicament_CallToAction_JenniferMartinez" Value="299351" />
+  <Preset Label="dramaNodeFilters_Scenario_ParentingPredicament_CallToAction_LeonardoMartinez" Value="299352" />
+  <Preset Label="dramaNodeFilters_Scenario_ParentingPredicament_CallToAction_SofiaMartinez" Value="299353" />
+  <Preset Label="dramaNodeFilters_Scenario_ParentingPredicament_CallToAction_PabloMartinez" Value="299354" />
+  <Preset Label="dramaNodeFilters_Scenario_ParentingPredicament_CallToAction_LeonardoORSofia" Value="299355" />
+  <Preset Label="dramaNodeFilters_Scenario_ParentingPredicament_CallToAction_JenniferORPablo" Value="299356" />
+  <Preset Label="filter_ages_children_notInHousehold" Value="299359" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_CallToAction_MetSimsYAERomancePrefered" Value="299374" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_CallToAction_ScenarioRoleSim" Value="299379" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_CallToAction_MetSimNotFriendTYAE" Value="299399" />
+  <Preset Label="dramaNodeFilters_Scenario_NewInTown_CallToAction_MetNotGoodFriendTYAE" Value="299431" />
+  <Preset Label="filter_isBFF" Value="300128" />
+  <Preset Label="filter_InHousehold_Parent" Value="300942" />
 </PresetGroup>

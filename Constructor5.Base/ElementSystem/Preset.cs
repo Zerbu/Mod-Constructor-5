@@ -7,7 +7,6 @@ using System.Xml.Serialization;
 
 namespace Constructor5.Base.ElementSystem
 {
-    [XmlRoot("Preset")]
     public class Preset
     {
         public string FullValue => Label != null ? $"{Value} ({Label})" : Value;

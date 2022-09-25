@@ -142,5 +142,29 @@ namespace Constructor5.DebugTools.PresetExtractor
         public static PresetInstruction[] Venues { get; } = PresetInstruction.CreateBatch("Venue", "Venue", "All Venues", "display_name", new Dictionary<string, string>
         {
         });
+
+        public static PresetInstruction[] Whims { get; } = PresetInstruction.CreateBatch("Whim", "Whim", "All Whims", "display_name", new Dictionary<string, string>
+        {
+        });
+
+        public static PresetInstruction[] InteractionLists { get; } = PresetInstruction.CreateBatch("Snippet", "InteractionList", "All Interaction Lists", "display_name", new Dictionary<string, string>
+        {
+        }, "AffordanceList");
+
+        public static PresetInstruction[] SimpleWhimSets { get; } = PresetInstruction.CreateBatch("Aspiration", "ObjectivelessWhimSet", "All Simple Want Sets", "reason", new Dictionary<string, string>
+        {
+        }, "ObjectivelessWhimSet");
+
+        public static PresetInstruction[] CareerGigs { get; } = PresetInstruction.CreateBatch("Career_Gig", "CareerGig", "All Career Gigs", "enabled", new Dictionary<string, string>
+        {
+        });
+
+        public static PresetInstruction[] TestBasedScores { get; } = PresetInstruction.CreateBatch("Test_Based_Score", "TestBasedScore", "All Test Based Scores", "reason", new Dictionary<string, string>
+        {
+        });
+
+        public static PresetInstruction[] TemplateChoosers { get; } = PresetInstruction.CreateBatch("Template_Chooser", "TemplateChooser", "All Template Choosers", "reason", new Dictionary<string, string>
+        {
+        });
     }
 }

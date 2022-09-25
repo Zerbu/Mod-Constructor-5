@@ -1,19 +1,20 @@
-<UserControl x:Class="Constructor5.Elements.Situations.Components.SituationGoaledEventEditor"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.Elements.Situations.Components"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-             d:DesignHeight="450"
-             d:DesignWidth="800"
-             mc:Ignorable="d">
+<UserControl
+    x:Class="Constructor5.Elements.Situations.Components.SituationGoaledEventEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.Situations.Components"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
     <ScrollViewer>
         <StackPanel>
-            <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
+            <!--<StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
                 <c:TextBlock Text="GoaledEventNotice" />
-            </StackPanel>
+            </StackPanel>-->
             <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
                 <c:CheckBox Content="IsGoaledEvent" IsChecked="{Binding IsGoaledEvent}" />
 
@@ -21,16 +22,18 @@
                     <c:TabItem Header="Goals">
                         <c:TabControl>
                             <c:TabItem Header="GoalSets">
-                                <c:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                        ElementReferenceList="{Binding GoalSets}"
-                                                        ElementTypeName="SituationGoalSet"
-                                                        ShowCreateButton="True" />
+                                <c:ReferenceListControl
+                                    Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                    ElementReferenceList="{Binding GoalSets}"
+                                    ElementTypeName="SituationGoalSet"
+                                    ShowCreateButton="True" />
                             </c:TabItem>
                             <c:TabItem Header="MainGoal">
-                                <c:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                                        EditorCategory="ElementMini"
-                                                                        ElementTypeName="SituationGoal"
-                                                                        Reference="{Binding MainGoal}" />
+                                <c:ReferenceControlWithEditorUnderneath
+                                    Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                    EditorCategory="ElementMini"
+                                    ElementTypeName="SituationGoal"
+                                    Reference="{Binding MainGoal}" />
                             </c:TabItem>
                         </c:TabControl>
                     </c:TabItem>
@@ -39,16 +42,18 @@
                             <c:TextBlock Text="ActivitiesNotice" />
                             <c:TabControl>
                                 <c:TabItem Header="OptionalActivities">
-                                    <c:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                            ElementReferenceList="{Binding ActivitiesOptional}"
-                                                            ElementTypeName="SituationActivity"
-                                                            ShowCreateButton="True" />
+                                    <c:ReferenceListControl
+                                        Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                        ElementReferenceList="{Binding ActivitiesOptional}"
+                                        ElementTypeName="SituationActivity"
+                                        ShowCreateButton="True" />
                                 </c:TabItem>
                                 <c:TabItem Header="RequiredActivities">
-                                    <c:ReferenceListControl Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                            ElementReferenceList="{Binding ActivitiesRequired}"
-                                                            ElementTypeName="SituationActivity"
-                                                            ShowCreateButton="True" />
+                                    <c:ReferenceListControl
+                                        Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                        ElementReferenceList="{Binding ActivitiesRequired}"
+                                        ElementTypeName="SituationActivity"
+                                        ShowCreateButton="True" />
                                 </c:TabItem>
                             </c:TabControl>
                         </c:SpacedStack>
@@ -58,25 +63,28 @@
                             <c:TextBlock Margin="{StaticResource Constructor.BigPaddingUpDownOnly}" Text="SituationRewardsNotice" />
                             <c:TabControl>
                                 <c:TabItem Header="GoldReward">
-                                    <c:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                                            CreateElementFunction="CreateElementFunction"
-                                                                            EditorTag="DescriptionAtTop"
-                                                                            ElementTypeName="RewardSet"
-                                                                            Reference="{Binding GoldReward}" />
+                                    <c:ReferenceControlWithEditorUnderneath
+                                        Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                        CreateElementFunction="CreateElementFunction"
+                                        EditorTag="DescriptionAtTop"
+                                        ElementTypeName="RewardSet"
+                                        Reference="{Binding GoldReward}" />
                                 </c:TabItem>
                                 <c:TabItem Header="SilverReward">
-                                    <c:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                                            CreateElementFunction="CreateElementFunction"
-                                                                            EditorTag="NoUI"
-                                                                            ElementTypeName="RewardSet"
-                                                                            Reference="{Binding SilverReward}" />
+                                    <c:ReferenceControlWithEditorUnderneath
+                                        Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                        CreateElementFunction="CreateElementFunction"
+                                        EditorTag="NoUI"
+                                        ElementTypeName="RewardSet"
+                                        Reference="{Binding SilverReward}" />
                                 </c:TabItem>
                                 <c:TabItem Header="BronzeReward">
-                                    <c:ReferenceControlWithEditorUnderneath Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
-                                                                            CreateElementFunction="CreateElementFunction"
-                                                                            EditorTag="NoUI"
-                                                                            ElementTypeName="RewardSet"
-                                                                            Reference="{Binding BronzeReward}" />
+                                    <c:ReferenceControlWithEditorUnderneath
+                                        Margin="{StaticResource Constructor.BigPaddingUpDownOnly}"
+                                        CreateElementFunction="CreateElementFunction"
+                                        EditorTag="NoUI"
+                                        ElementTypeName="RewardSet"
+                                        Reference="{Binding BronzeReward}" />
                                 </c:TabItem>
                             </c:TabControl>
                         </StackPanel>
@@ -98,7 +106,7 @@
                                 <!-- Doesn't work as intended, may be revisited in the future <c:CheckBox IsChecked="{Binding IsHidden}">
                                     <c:CheckBox.Content>
                                         <StackPanel>
-                                            <c:TextBlock Text="Is Hidden" />
+                                            <c:TextBlock Text="IsHidden" />
                                             <c:TextBlock FontStyle="Italic">If checked, the goals will be hidden from the player and the UI will treat this as if it were a non-goaled event.</c:TextBlock>
                                         </StackPanel>
                                     </CheckBox.Content>
@@ -106,25 +114,37 @@
 
                                 <StackPanel Visibility="{Binding IsHidden, Converter={StaticResource BoolToVisInverted}}">
                                     <c:CheckBox Content="OverrideIcons" IsChecked="{Binding OverrideIcons}" />
-                                    <c:Field Label="BronzeIcon"
-                                             LabelWidth="100"
-                                             Visibility="{Binding OverrideIcons, Converter={StaticResource BoolToVis}}">
+                                    <c:Field
+                                        Label="BronzeIcon"
+                                        LabelWidth="100"
+                                        Visibility="{Binding OverrideIcons, Converter={StaticResource BoolToVis}}">
                                         <c:IconControl Icon="{Binding BronzeIcon}" />
                                     </c:Field>
-                                    <c:Field Label="SilverIcon"
-                                             LabelWidth="100"
-                                             Visibility="{Binding OverrideIcons, Converter={StaticResource BoolToVis}}">
+                                    <c:Field
+                                        Label="SilverIcon"
+                                        LabelWidth="100"
+                                        Visibility="{Binding OverrideIcons, Converter={StaticResource BoolToVis}}">
                                         <c:IconControl Icon="{Binding SilverIcon}" />
                                     </c:Field>
-                                    <c:Field Label="GoldIcon"
-                                             LabelWidth="100"
-                                             Visibility="{Binding OverrideIcons, Converter={StaticResource BoolToVis}}">
+                                    <c:Field
+                                        Label="GoldIcon"
+                                        LabelWidth="100"
+                                        Visibility="{Binding OverrideIcons, Converter={StaticResource BoolToVis}}">
                                         <c:IconControl Icon="{Binding GoldIcon}" />
                                     </c:Field>
                                 </StackPanel>
 
                                 <StackPanel>
-                                    <c:CheckBox IsChecked="{Binding ShowScreenSlamEffects}" Content="ShowScreenSlamEffects" />
+                                    <c:CheckBox Content="ShowScreenSlamEffects" IsChecked="{Binding ShowScreenSlamEffects}" />
+                                </StackPanel>
+
+                                <StackPanel>
+                                    <c:CheckBox IsChecked="{Binding SuppressAutomaticBronzeTraits}">
+                                        <StackPanel>
+                                            <c:TextBlock Text="SuppressAutomaticBronzeTraits" />
+                                            <c:TextBlock Text="SuppressAutomaticBronzeTraitsHelp" />
+                                        </StackPanel>
+                                    </c:CheckBox>
                                 </StackPanel>
 
                                 <StackPanel Visibility="{Binding IsHidden, Converter={StaticResource BoolToVisInverted}}">
@@ -134,9 +154,10 @@
                                             <c:TextBlock Text="IsForcedGoaledEventHelp" />
                                         </StackPanel>
                                     </c:CheckBox>
-                                    <c:Field Label="ForcedGoaledEventTooltip"
-                                             LabelWidth="150"
-                                             Visibility="{Binding IsForcedGoaledEvent, Converter={StaticResource BoolToVis}}">
+                                    <c:Field
+                                        Label="ForcedGoaledEventTooltip"
+                                        LabelWidth="150"
+                                        Visibility="{Binding IsForcedGoaledEvent, Converter={StaticResource BoolToVis}}">
                                         <c:STBLStringControl Text="{Binding ForcedGoaledEventToolTip}" />
                                     </c:Field>
                                 </StackPanel>

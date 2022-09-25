@@ -135,6 +135,7 @@ namespace Constructor5.Elements.Careers.Components
 
                 TuningExport.AddToQueue(tuning);
 
+                PythonBuilder.AddStep(ObjectInteractionsPythonStep.Current);
                 ObjectInteractionsPythonStep.Current.AddPhoneInteraction(tuning.InstanceKey);
             }
         }

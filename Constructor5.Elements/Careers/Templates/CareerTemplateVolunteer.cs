@@ -26,6 +26,8 @@ namespace Constructor5.Elements.Careers.Templates
                 Tuning = context.Tuning,
                 DataContext = this,
             });
+
+            ((TuningHeader)context.Tuning).SimDataHandler.Write(64, 4);
         }
 
         protected internal override void TuneOvermax(TuningBase tuning, CareerTrack track)

@@ -30,6 +30,8 @@ namespace Constructor5.Elements.SituationJobs.Components
         [AutoTuneBasic("hire_cost", IgnoreIf = 0)]
         public int HireCost { get; set; }
 
+        public bool IsCareerEventPlayerSituation { get; set; }
+
         [AutoTuneBasic("display_name")]
         public STBLString Name { get; set; } = new STBLString();
 
@@ -51,6 +53,10 @@ namespace Constructor5.Elements.SituationJobs.Components
             {
                 context.Tuning.Set<TunableBasic>("died_or_left_action", "REPLACE_THEM");
             }
+            else if (IsCareerEventPlayerSituation)
+            {
+                context.Tuning.Set<TunableEnum>("died_or_left_action", "END_SITUATION");
+            }
 
             if (ReplaceOnNoShow)
             {
@@ -62,10 +68,27 @@ namespace Constructor5.Elements.SituationJobs.Components
                 context.Tuning.Set<TunableBasic>("user_facing_sim_headline_display_override", "True");
             }
 
+            //if (!IsCareerEventSituation)
+            //{
             context.Tuning.Set<TunableBasic>("tooltip_name", Name);
             var tunableTuple1 = context.Tuning.Get<TunableTuple>("tooltip_name_text_tokens");
             var tunableList1 = tunableTuple1.Get<TunableList>("tokens");
             var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "participant_type");
+            //}
+            if (IsCareerEventPlayerSituation)
+            {
+                var list = context.Tuning.Get<TunableList>("tags");
+                list.Set<TunableEnum>(null, "Role_Career");
+
+                /*context.Tuning.Set<TunableBasic>("tooltip_name", "0xA5A034C1");
+                var tunableTuple1 = context.Tuning.Get<TunableTuple>("tooltip_name_text_tokens");
+                var tunableList1 = tunableTuple1.Get<TunableList>("tokens");
+                var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "participant_type");
+                var tunableVariant2 = tunableList1.Set<TunableVariant>(null, "career_data");
+                var tunableTuple2 = tunableVariant2.Get<TunableTuple>("career_data");
+                var tunableVariant3 = tunableTuple2.Set<TunableVariant>("career_data", "current_level_name");
+                tunableTuple2.Set<TunableBasic>("career_type", "107230");*/
+            }
 
             if (RoleTags.Count > 0)
             {

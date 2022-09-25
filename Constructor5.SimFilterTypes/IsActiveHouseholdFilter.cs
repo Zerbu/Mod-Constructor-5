@@ -3,7 +3,7 @@ using Constructor5.Core;
 
 namespace Constructor5.SimFilterTypes
 {
-    [SelectableObjectType("SimFilterTypes", "Is Active Household Filter")]
+    [SelectableObjectType("SimFilterTypes", "IsActiveHouseholdFilter")]
     [XmlSerializerExtraType]
     public class IsActiveHouseholdFilter : InvertOnlyFilter
     {

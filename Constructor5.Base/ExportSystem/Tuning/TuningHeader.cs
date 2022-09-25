@@ -9,6 +9,7 @@ namespace Constructor5.Base.ExportSystem.Tuning
         [XmlAttribute("c")]
         public string Class { get; set; }
 
+        [XmlIgnore]
         public ulong GroupKey { get; set; }
 
         [XmlAttribute("s")]

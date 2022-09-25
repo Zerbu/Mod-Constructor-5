@@ -8,5 +8,6 @@ namespace Constructor5.Elements.Traits
     {
         public Reference CASPreference { get; set; } = new Reference();
         public bool IsDislike { get; set; }
+        public bool IsBuff { get; set; }
     }
 }

@@ -7,6 +7,6 @@ namespace Constructor5.TestConditionTypes.Relationships
     [SelectableObjectType("SituationGoalConditionTypes", "RelationshipCondition")]
     public class RelationshipSituationGoalCondition : RelationshipCondition
     {
-        protected override string GetVariantTunableName() => "relationships";
+        protected override string GetVariantTunableName(string contextTag = null) => "relationships";
     }
 }

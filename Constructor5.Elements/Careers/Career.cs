@@ -24,7 +24,7 @@ namespace Constructor5.Elements.Careers
             tuning.InstanceType = "career";
             tuning.Module = "careers.career_tuning";
 
-            tuning.SimDataHandler = new SimDataHandler("SimData/Career.data");
+            tuning.SimDataHandler = new SimDataHandler($"SimData/{GetComponent<CareerTemplateComponent>().Template.GetSimDataFileName()}.data");
 
             //tuning.SimDataHandler.Write(64, 0);
 

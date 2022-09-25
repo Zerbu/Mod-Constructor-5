@@ -13,7 +13,7 @@
       </V>
     </U>
   </V>
-  <T n="career">207004<!--Career: career_OddJob--></T>
+  <T n="career">$Career<!--Career: career_OddJob--></T>
   <V n="critical_failure_test" t="enabled">
     <L n="enabled">
       <L>
@@ -97,7 +97,7 @@
   <V n="end_of_gig_promotion_text" t="enabled">
     <T n="enabled">0xF6482723</T>
   </V>
-  <T n="gig_assignment_aspiration">208935<!--AspirationGig: aspirationGig_OddJob_BeachComb_Trash--></T>
+  <T n="gig_assignment_aspiration">$ObjectiveSet<!--AspirationGig: aspirationGig_OddJob_BeachComb_Trash--></T>
   <V n="gig_pay" t="flat_amount">
     <U n="flat_amount">
       <T n="value">$PayAmount</T>
@@ -279,7 +279,7 @@
   </V>
   <V n="odd_job_tuning" t="enabled">
     <U n="enabled">
-      <T n="customer_description">0xE43798A8</T>
+      <T n="customer_description">$Description</T>
       <V n="gig_gratuity_bullet_point_text" t="enabled">
         <T n="enabled">0xFFBFD13</T>
       </V>
@@ -360,152 +360,6 @@
                         <U n="relationship_score_interval">
                           <T n="upper_bound">-50</T>
                         </U>
-                      </U>
-                    </V>
-                  </L>
-                </L>
-              </U>
-            </L>
-          </U>
-        </U>
-      </L>
-      <L n="result_based_gig_gratuity_multipliers">
-        <U>
-          <E n="key">GREAT_SUCCESS</E>
-          <U n="value">
-            <T n="base_value">0.1</T>
-            <L n="multipliers">
-              <U>
-                <T n="multiplier">2</T>
-                <L n="tests">
-                  <L>
-                    <V t="career_test">
-                      <U n="career_test">
-                        <V n="test_type" t="career_level">
-                          <U n="career_level">
-                            <T n="career_level">209809<!--CareerLevel: careerLevel_OddJob_2--></T>
-                          </U>
-                        </V>
-                      </U>
-                    </V>
-                  </L>
-                </L>
-              </U>
-              <U>
-                <T n="multiplier">3</T>
-                <L n="tests">
-                  <L>
-                    <V t="career_test">
-                      <U n="career_test">
-                        <V n="test_type" t="career_level">
-                          <U n="career_level">
-                            <T n="career_level">209810<!--CareerLevel: careerLevel_OddJob_3--></T>
-                          </U>
-                        </V>
-                      </U>
-                    </V>
-                  </L>
-                </L>
-              </U>
-              <U>
-                <T n="multiplier">4</T>
-                <L n="tests">
-                  <L>
-                    <V t="career_test">
-                      <U n="career_test">
-                        <V n="test_type" t="career_level">
-                          <U n="career_level">
-                            <T n="career_level">209807<!--CareerLevel: careerLevel_OddJob_4--></T>
-                          </U>
-                        </V>
-                      </U>
-                    </V>
-                  </L>
-                </L>
-              </U>
-              <U>
-                <T n="multiplier">5</T>
-                <L n="tests">
-                  <L>
-                    <V t="career_test">
-                      <U n="career_test">
-                        <V n="test_type" t="career_level">
-                          <U n="career_level">
-                            <T n="career_level">209808<!--CareerLevel: careerLevel_OddJob_5--></T>
-                          </U>
-                        </V>
-                      </U>
-                    </V>
-                  </L>
-                </L>
-              </U>
-            </L>
-          </U>
-        </U>
-        <U>
-          <E n="key">SUCCESS</E>
-          <U n="value">
-            <T n="base_value">0.05</T>
-            <L n="multipliers">
-              <U>
-                <T n="multiplier">2</T>
-                <L n="tests">
-                  <L>
-                    <V t="career_test">
-                      <U n="career_test">
-                        <V n="test_type" t="career_level">
-                          <U n="career_level">
-                            <T n="career_level">209809<!--CareerLevel: careerLevel_OddJob_2--></T>
-                          </U>
-                        </V>
-                      </U>
-                    </V>
-                  </L>
-                </L>
-              </U>
-              <U>
-                <T n="multiplier">3</T>
-                <L n="tests">
-                  <L>
-                    <V t="career_test">
-                      <U n="career_test">
-                        <V n="test_type" t="career_level">
-                          <U n="career_level">
-                            <T n="career_level">209810<!--CareerLevel: careerLevel_OddJob_3--></T>
-                          </U>
-                        </V>
-                      </U>
-                    </V>
-                  </L>
-                </L>
-              </U>
-              <U>
-                <T n="multiplier">4</T>
-                <L n="tests">
-                  <L>
-                    <V t="career_test">
-                      <U n="career_test">
-                        <V n="test_type" t="career_level">
-                          <U n="career_level">
-                            <T n="career_level">209807<!--CareerLevel: careerLevel_OddJob_4--></T>
-                          </U>
-                        </V>
-                      </U>
-                    </V>
-                  </L>
-                </L>
-              </U>
-              <U>
-                <T n="multiplier">5</T>
-                <L n="tests">
-                  <L>
-                    <V t="career_test">
-                      <U n="career_test">
-                        <V n="test_type" t="career_level">
-                          <U n="career_level">
-                            <T n="career_level">209808<!--CareerLevel: careerLevel_OddJob_5--></T>
-                          </U>
-                        </V>
                       </U>
                     </V>
                   </L>
@@ -836,21 +690,13 @@
       </U>
     </L>
   </V>
-  <V n="result_based_loots" t="enabled">
-    <L n="enabled">
-      <U>
-        <E n="key">GREAT_SUCCESS</E>
-        <L n="value">
-          <T>212880<!--LootActions: loot_OddJob_GigResult_HomeAssignment_GreatSuccess--></T>
-        </L>
-      </U>
-    </L>
-  </V>
   <V n="tip" t="enabled">
     <U n="enabled">
-      <V n="tip_icon" t="enabled">
-        <T n="enabled" p="InGame\UI\Icons\Skills\skill_videogaming.png">$TipIcon</T>
-      </V>
+      <IfBool p="HasTipIcon">
+        <V n="tip_icon" t="enabled">
+          <T n="enabled" p="InGame\UI\Icons\Skills\skill_videogaming.png">$TipIcon</T>
+        </V>
+      </IfBool>
       <T n="tip_text">$TipText</T>
       <T n="tip_title">0xA54212EC</T>
     </U>

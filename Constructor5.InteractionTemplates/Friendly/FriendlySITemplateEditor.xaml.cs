@@ -23,6 +23,7 @@ namespace Constructor5.InteractionTemplates.Friendly
                 FailureAnimationControl.Visibility = System.Windows.Visibility.Collapsed;
                 SuccessTargetAnimationControl.Visibility = System.Windows.Visibility.Collapsed;
                 FailureTargetAnimationControl.Visibility = System.Windows.Visibility.Collapsed;
+                AdvancedTab.Visibility = System.Windows.Visibility.Collapsed;
             }
         }
     }

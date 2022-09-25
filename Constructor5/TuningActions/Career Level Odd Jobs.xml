@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="CareerLevel" i="career_level" m="careers.career_tuning" n="careerLevel_OddJob_0" s="213052">
+  <T n="demotion_performance_level">-1</T>
+  <U n="performance_metrics">
+    <T n="base_performance">0</T>
+    <T n="missed_work_penalty">0</T>
+    <L n="tested_metrics">
+      <U>
+        <T n="performance_mod">10</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="apply_thresholds_on_individual_basis">False</T>
+                <L n="whitelist_traits">
+                  <T>283144<!--trait_Highflier--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <!--<T n="promote_performance_level">10</T>-->
+  <V n="promotion_audio_sting" t="enabled">
+    <U n="enabled">
+      <T n="audio" p="InGame\Audio\Stings\sting_career_progess.propx">39b2aa4a:00000000:c16f7f8c8e553337</T>
+    </U>
+  </V>
+  <T n="pto_per_day">0</T>
+  <V n="schedule" t="no_schedule" />
+  <L n="simolean_trait_bonus">
+    <U>
+      <T n="bonus">10</T>
+      <T n="trait">27082<!--trait_Business_Savvy--></T>
+    </U>
+    <U>
+      <T n="bonus">100</T>
+      <T n="trait">196731<!--trait_Hidden_CareerPayBoosts_2x--></T>
+    </U>
+  </L>
+  <V n="tones" t="disabled" />
+  <U n="wakeup_time">
+    <T n="hour">8</T>
+    <T n="minute">0</T>
+  </U>
+</I>

@@ -125,6 +125,10 @@
     <Compile Include="Single\SituationGoalTargetSettingsUI.xaml.cs">
       <DependentUpon>SituationGoalTargetSettingsUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Single\SituationGoalTravelTemplate.cs" />
+    <Compile Include="Single\SituationGoalTravelTemplateEditor.xaml.cs">
+      <DependentUpon>SituationGoalTravelTemplateEditor.xaml</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -157,6 +161,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Single\SituationGoalTargetSettingsUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Single\SituationGoalTravelTemplateEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

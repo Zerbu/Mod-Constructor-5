@@ -9,9 +9,9 @@ namespace Constructor5.TestConditionTypes.Careers
         public bool Inverted { get; set; }
         public string Participant { get; set; }
 
-        protected override string GetVariantTunableName() => "career_test";
+        protected override string GetVariantTunableName(string contextTag = null) => "career_test";
 
-        protected override sealed void OnExportVariant(TunableBase variantTunable)
+        protected override sealed void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>("career_test");
 

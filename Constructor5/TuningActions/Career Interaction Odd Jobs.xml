@@ -1,0 +1,321 @@
+<TuningActions>
+  <L n="_constraints">
+    <U>
+      <L n="constraints">
+        <U>
+          <V n="value" t="posture">
+            <U n="posture">
+              <L n="posture_manifest_tuning">
+                <U>
+                  <V n="carry_left" t="None" />
+                  <V n="carry_right" t="None" />
+                  <V n="posture_type" t="enabled">
+                    <T n="enabled">23832<!--Posture: posture_StandExclusive--></T>
+                  </V>
+                  <V n="surface" t="None" />
+                </U>
+              </L>
+            </U>
+          </V>
+        </U>
+      </L>
+    </U>
+    <U>
+      <L n="constraints">
+        <U>
+          <V n="value" t="spawn_points">
+            <U n="spawn_points">
+              <V n="tags" t="Spawn_Point_Tags">
+                <L n="Spawn_Point_Tags">
+                  <E>Spawn_Arrival</E>
+                </L>
+              </V>
+            </U>
+          </V>
+        </U>
+      </L>
+    </U>
+  </L>
+  <V n="_icon" t="participant">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Actor</E>
+      </L>
+    </U>
+  </V>
+  <V n="_saveable" t="enabled" />
+  <T n="attention_cost">0.5</T>
+  <V n="basic_content" t="flexible_length">
+    <U n="flexible_length">
+      <L n="conditional_actions">
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="career_based" />
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="buff_based">
+                <U n="buff_based">
+                  <T n="buff">75271<!--Buff: buff_Pregnancy_InLabor--></T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="buff_based">
+                <U n="buff_based">
+                  <T n="buff">285807<!--Buff: buff_Werewolf_Fury_Rampage--></T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_CANCEL</E>
+          </U>
+        </V>
+      </L>
+      <V n="content" t="staging_content">
+        <U n="staging_content">
+          <U n="content_set">
+            <L n="affordance_links">
+              <T>23936<!--MixerInteraction: mixer_AtWork_EatMeal--></T>
+              <T>23930<!--MixerInteraction: mixer_AtWork_SolveBladder--></T>
+              <T>26990<!--MixerInteraction: mixer_AtWork_PullMischievousPrank_Generic--></T>
+              <T>35728<!--MixerInteraction: mixer_AtWork_WrapEverythingInBacon_Prank--></T>
+              <T>165275<!--MixerInteraction: mixer_AtWork_EatSackLunch--></T>
+              <T>97665<!--MixerInteraction: mixer_AtWork_SocializeWithCoworkers--></T>
+              <T>98790<!--MixerInteraction: mixer_AtWork_Default--></T>
+            </L>
+          </U>
+        </U>
+      </V>
+      <V n="periodic_stat_change" t="enabled">
+        <U n="enabled">
+          <L n="operations">
+            <V t="statistic_change">
+              <U n="statistic_change">
+                <T n="advertise">False</T>
+                <T n="amount">-1.66667</T>
+                <T n="stat">29122<!--Commodity: Commodity_Trait_Loner_Solitude--></T>
+                <L n="tests">
+                  <L>
+                    <V t="buff">
+                      <U n="buff">
+                        <V n="whitelist" t="enabled">
+                          <L n="enabled">
+                            <T>38731<!--Buff: Buff_Trait_Loner_IsAlone--></T>
+                          </L>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+                <V n="text" t="use_default" />
+              </U>
+            </V>
+            <V t="reference">
+              <T n="reference">251307<!--PeriodicStatChangeOperation: periodicStatChangeOperation_Lifestyles_Progress_Outdoorsy_FromCareer--></T>
+            </V>
+          </L>
+        </U>
+      </V>
+      <T n="start_autonomous_inertial">False</T>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="audio_sting">
+      <U n="audio_sting">
+        <U n="audio_sting">
+          <T n="audio" p="InGame\Audio\Stings\sting_work_return.propx">39b2aa4a:00000000:7229428af3b8e78d</T>
+        </U>
+      </U>
+    </V>
+    <V t="audio_sting">
+      <U n="audio_sting">
+        <U n="audio_sting">
+          <T n="audio" p="InGame\Audio\Stings\sting_work_go.propx">39b2aa4a:00000000:ec3c578eda473ff1</T>
+        </U>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
+    <V t="remove_from_ensemble">
+      <U n="remove_from_ensemble">
+        <T n="ensemble_type">127285<!--Ensemble: ensemble_Generic--></T>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
+  </L>
+  <L n="basic_liabilities">
+    <V t="game_speed">
+      <U n="game_speed">
+        <E n="game_speed">SUPER_SPEED3</E>
+        <U n="species_interaction_speed_requirements">
+          <L n="exempt_sim_buffs">
+            <T>167047<!--Buff: buff_Motives_Pet_Cat_InSS3Mode--></T>
+            <T>167048<!--Buff: buff_Motives_Pet_Dog_InSS3Mode--></T>
+          </L>
+          <L n="species_affordance_mapping">
+            <U>
+              <E n="key">CAT</E>
+              <T n="value">171288<!--AggregateSuperInteraction: pet_Sleep_Aggregate_LeftAtHome_Selection--></T>
+            </U>
+            <U>
+              <E n="key">DOG</E>
+              <T n="value">171288<!--AggregateSuperInteraction: pet_Sleep_Aggregate_LeftAtHome_Selection--></T>
+            </U>
+          </L>
+          <L n="speed_affordance_tags">
+            <E>Interaction_Sleep</E>
+            <E>Interaction_Pets_SS3Allowed</E>
+          </L>
+        </U>
+      </U>
+    </V>
+    <V t="hide_whims">
+      <U n="hide_whims">
+        <V n="_reset_time" t="enabled">
+          <T n="enabled">240</T>
+        </V>
+      </U>
+    </V>
+  </L>
+  <T n="can_shoo">False</T>
+  <T n="collapsible">True</T>
+  <V n="content_score" t="disabled" />
+  <T n="counts_as_inside">True</T>
+  <T n="disable_autonomous_multitasking_if_user_directed">True</T>
+  <T n="display_name">0xEA4733AB</T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+    <E>Lifestyles_Outdoor_Career</E>
+    <E>Interaction_IgnoreGrounding</E>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <L n="continuation">
+          <U>
+            <T n="affordance">77271<!--SuperInteraction: sim_EnterFrontDoor--></T>
+          </U>
+        </L>
+      </U>
+    </U>
+  </V>
+  <U n="outfit_change">
+    <V n="on_route_change" t="for_reason">
+      <U n="for_reason">
+        <E n="on_entry">Category_Everyday</E>
+      </U>
+    </V>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="remember_progress">True</T>
+  </U>
+  <IfReferenceSet p="BalloonSet">
+    <V n="route_start_balloon" t="enabled">
+      <U n="enabled">
+        <U n="balloon">
+          <L n="balloon_choices">
+            <U>
+              <V n="item" t="balloon_category">
+                <T n="balloon_category">$BalloonSet</T>
+              </V>
+            </U>
+          </L>
+          <L n="balloon_target">
+            <E>Actor</E>
+          </L>
+        </U>
+      </U>
+    </V>
+  </IfReferenceSet>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <V n="super_affordance_compatibility" t="literal">
+    <U n="literal">
+      <V n="default_inclusion" t="exclude_all" />
+    </U>
+  </V>
+  <E n="target_type">ACTOR</E>
+  <V n="test_disallow_while_running" t="enabled">
+    <U n="enabled">
+      <T n="test_self">True</T>
+    </U>
+  </V>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="identity">
+      <U n="identity">
+        <T n="subjects_match">True</T>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>285807<!--Buff: buff_Werewolf_Fury_Rampage--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="during_work_hours">
+        <U n="during_work_hours">
+          <T n="fail_if_taking_day_off_during_work">False</T>
+          <T n="is_during_work">True</T>
+        </U>
+      </V>
+    </L>
+  </L>
+  <T n="time_overhead">540</T>
+</TuningActions>

@@ -30,9 +30,9 @@ namespace Constructor5.TestConditionTypes
         [AutoTuneReferenceList("whitelist_traits")]
         public ReferenceList Whitelist { get; set; } = new ReferenceList();
 
-        protected override string GetVariantTunableName() => "trait";
+        protected override string GetVariantTunableName(string contextTag = null) => "trait";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
             => AutoTunerInvoker.Invoke(this, variantTunable.Get<TunableTuple>("trait"));
     }
 }

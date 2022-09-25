@@ -19,6 +19,8 @@ namespace Constructor5.LootActionTypes.Traits
 
         [AutoTuneBasic("trait")]
         public Reference Trait { get; set; } = new Reference();
+
+        [AutoTuneBasic("subject")]
         public string Participant { get; set; }
 
         protected override void OnExport(LASExportContext originalContext)

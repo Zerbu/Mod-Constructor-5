@@ -101,6 +101,10 @@
     <Compile Include="Buffs\RemoveBuffsActionEditor.xaml.cs">
       <DependentUpon>RemoveBuffsActionEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Careers\AddCareerGigAction.cs" />
+    <Compile Include="Careers\AddCareerGigActionEditor.xaml.cs">
+      <DependentUpon>AddCareerGigActionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ExtendedSupport\ExtendedSupportLootAction.cs" />
     <Compile Include="ExtendedSupport\RunOtherActionSets.cs" />
     <Compile Include="ExtendedSupport\RunOtherActionSetsEditor.xaml.cs">
@@ -227,6 +231,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Buffs\RemoveBuffsActionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\AddCareerGigActionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

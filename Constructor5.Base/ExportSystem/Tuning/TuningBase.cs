@@ -12,6 +12,7 @@ namespace Constructor5.Base.ExportSystem.Tuning
         [XmlElement("L", typeof(TunableList))]
         [XmlElement("U", typeof(TunableTuple))]
         [XmlElement("V", typeof(TunableVariant))]
+        [XmlElement("C", typeof(TunableClass))]
         public List<TunableBase> Tunables { get; set; } = new List<TunableBase>();
 
         public T Get<T>(string name, bool autoCreate = true) where T : TunableBase

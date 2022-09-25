@@ -20,9 +20,9 @@ namespace Constructor5.TestConditionTypes.Statistics
 
         public Reference Skill { get; set; } = new Reference();
 
-        protected override string GetVariantTunableName() => "skill_in_use";
+        protected override string GetVariantTunableName(string contextTag = null) => "skill_in_use";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tunableTuple1 = variantTunable.Get<TunableTuple>("skill_in_use");
             var tunableVariant1 = tunableTuple1.Set<TunableVariant>("skill", "Specified_Skill");

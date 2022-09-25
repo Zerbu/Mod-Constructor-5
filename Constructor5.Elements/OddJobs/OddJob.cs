@@ -2,15 +2,21 @@
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
+using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Core;
-using Constructor5.Elements.OddJobs;
+using Constructor5.Elements.OddJobs.Components;
 
 namespace Constructor5.Elements.OddJobs
 {
     [ElementTypeData("OddJob", true, ElementTypes = new[] { typeof(OddJob) }, PresetFolders = new[] { "OddJob" }, IsRootType = true)]
     public class OddJob : SimpleComponentElement<OddJobComponent>, IExportableElement, ISupportsCustomTuning
     {
+        public OddJob()
+        {
+            SaveVersion = 2;
+        }
+
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
 
         void IExportableElement.OnExport()
@@ -32,6 +38,11 @@ namespace Constructor5.Elements.OddJobs
 
             CustomTuningExporter.Export(this, tuning, CustomTuning);
 
+            var isAssignment = GetComponent<OddJobAssignmentsComponent>().IsAssignmentJob;
+            tuning.SimDataHandler = isAssignment ? new SimDataHandler("SimData/CareerGigAssignment.data") : new SimDataHandler("SimData/CareerGig.data");
+            //ExportManager.ExportComponents(element, tuning, null);
+            //ExportManager.Current.QueueTGIResource(simDataHandler.Stream, 0x545AC67A, tuning.InstanceKey, FNVHasher.FNV24(tuning.InstanceType));
+
             TuningExport.AddToQueue(tuning);
         }
 
@@ -41,6 +52,11 @@ namespace Constructor5.Elements.OddJobs
             foreach (var type in Reflection.GetSubtypes(typeof(OddJobComponent)))
             {
                 AddComponent(type);
+            }
+            if (SaveVersion == 1)
+            {
+                GetComponent<OddJobInfoComponent>().SaveUpgrade();
+                SaveVersion = 2;
             }
         }
     }

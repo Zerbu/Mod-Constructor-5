@@ -22,7 +22,7 @@ namespace Constructor5.Elements.Buffs.References
             var key = ElementTuning.GetSingleInstanceKey(buffWithReason.Buff);
             if (key != null)
             {
-                var tunableTuple1 = tuning.Get<TunableTuple>("buff");
+                var tunableTuple1 = tuning.Get<TunableTuple>(TunableName);
                 tunableTuple1.Set<TunableBasic>("buff_type", key);
                 if (!string.IsNullOrEmpty(buffWithReason.Reason.CustomText))
                 {

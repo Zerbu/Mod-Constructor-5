@@ -119,6 +119,9 @@
       <DependentUpon>AddElementWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Dialogs\AddElement\ElementAddCommand.cs" />
+    <Compile Include="Dialogs\CustomTuningDialog\CustomTuningDialogControl.xaml.cs">
+      <DependentUpon>CustomTuningDialogControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Dialogs\CustomTuningDialog\CustomTuningPreviewWindow.xaml.cs">
       <DependentUpon>CustomTuningPreviewWindow.xaml</DependentUpon>
     </Compile>
@@ -176,6 +179,7 @@
     <Compile Include="Dialogs\PythonInstaller\PythonInstallerWindow.xaml.cs">
       <DependentUpon>PythonInstallerWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Shared\Commands\RestartCommand.cs" />
     <Compile Include="Shared\ContentControls\LeftRightMargin.cs" />
     <Compile Include="Shared\ContentControls\SpacedStack.cs" />
     <Compile Include="Shared\ContentControls\SpacedStackStyleSelector.cs" />
@@ -323,6 +327,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Dialogs\AddElement\AddElementWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\CustomTuningDialog\CustomTuningDialogControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

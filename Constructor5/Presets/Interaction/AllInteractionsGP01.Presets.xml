@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions GP01">
-  <Preset Label="Light (campire_Light)" Value="101940" />
   <Preset Label="Talk about Herbalism (mixer_social_TalkAboutHerbalism_targeted_Friendly_alwaysOn_skills)" Tags="TestUnsafe" Value="101961" />
   <Preset Label="Read Camping Information (RangerStation_ReadCampingInformation)" Value="101975" />
   <Preset Label="Enthuse about Herbalism (mixer_social_EnthuseAboutHerbalism_targeted_Friendly_alwaysOn_trait)" Tags="TestUnsafe" Value="102093" />
@@ -8,8 +7,6 @@
   <Preset Label="Learn Herbalism Recipe (mixer_social_LearnHerbalismRecipe_targeted_Friendly_alwaysOn_skills)" Tags="TestUnsafe" Value="102331" />
   <Preset Label="Idle_Trait_Squeamish" Value="102340" />
   <Preset Label="Take Deep Breaths (sim_TakeDeepBreaths)" Value="102343" />
-  <Preset Label="Add Log (campfire_AddLog)" Value="102352" />
-  <Preset Label="Extinguish (campfire_Extinguish)" Value="102353" />
   <Preset Label="Play (campfire_Play)" Value="102416" />
   <Preset Label="Idle_Buff_FranksAndBeans" Value="102559" />
   <Preset Label="generic_RabbitHole_Bramble" Value="102999" />
@@ -60,18 +57,9 @@
   <Preset Label="Pour Natural Herbicide Oil on {1.ObjectName} (Herbalism_Potion_Pour_Herbicide)" Value="104689" />
   <Preset Label="Play Guitar (campfire_PlayGuitar)" Value="104865" />
   <Preset Label="HorseShoes Loser (horseShoes_Lose)" Tags="TestUnsafe" Value="104948" />
-  <Preset Label="Hang Out (campfire_GatherAround)" Value="104950" />
-  <Preset Label="Warm Self (mixer_Campfire_WarmSelf)" Value="104956" />
   <Preset Label="Watch Game (horseshoes_Social_WatchGame)" Value="105064" />
   <Preset Label="Warm Self (mixer_Campfire_PlayWith)" Value="105066" />
-  <Preset Label="Warm Self (mixer_Campfire_StareIntoFlames)" Value="105081" />
-  <Preset Label="Roast (campfire_startCrafting)" Value="105165" />
-  <Preset Label="campfire_CreateFood" Value="105179" />
-  <Preset Label="campfire_MakeRecipe_Staging" Value="105181" />
   <Preset Label="campfire_RoastStick" Value="105183" />
-  <Preset Label="Invite to Hang Out (campfire_InviteToGatherAround)" Tags="TestUnsafe" Value="105186" />
-  <Preset Label="Marshmallows (campfire_RoastMarshmallows)" Value="105231" />
-  <Preset Label="Warm Self (mixer_Campfire_RoastMarshmallows)" Value="105235" />
   <Preset Label="Tell Ghost Story (tent_TellGhostStory_Leader)" Value="105325" />
   <Preset Label="Listen to Ghost Story (tent_TellGhostStory_Listener)" Value="105326" />
   <Preset Label="tell_GhostStory_Active" Value="105331" />
@@ -85,11 +73,9 @@
   <Preset Label="Tell Ghost Story (tellGroupStory_Picker_Autonomous_GhostStory_Campfire)" Tags="TestUnsafe" Value="105513" />
   <Preset Label="Tell Adventure Story (tellGroupStory_Picker_Autonomous_Adventure_Campfire)" Tags="TestUnsafe" Value="105514" />
   <Preset Label="Tell Fairy Tale (tellGroupStory_Picker_Autonomous_FairyTale_Campfire)" Tags="TestUnsafe" Value="105515" />
-  <Preset Label="campfire_CreateTool" Value="105569" />
   <Preset Label="Explore (rabbitHole_Bramble_Explore_Herbicide)" Value="105599" />
   <Preset Label="Sing Songs (campfire_SingSongGuitar)" Value="105668" />
   <Preset Label="Play Violin (campfire_PlayViolin)" Value="105669" />
-  <Preset Label="campfire_DestroyCookingTool" Value="105674" />
   <Preset Label="campfire_CreateTool_HotDog" Value="105706" />
   <Preset Label="campfire_CreateTool_VeggieDog" Value="105707" />
   <Preset Label="campfire_CreateTool_Beetle" Value="105708" />
@@ -137,7 +123,6 @@
   <Preset Label="Take Me to Lodging (campgroundHelpers_Lodging_RangerStation)" Value="110169" />
   <Preset Label="Explore Woods (campgroundHelpers_MapView_RangerStation)" Value="110170" />
   <Preset Label="Explore (RabbitHole_Bramble_Explore_FailureExit)" Value="110196" />
-  <Preset Label="Light (campfire_Light_Succeed)" Value="110289" />
   <Preset Label="Apply {1.ObjectName} (herbalism_Potion_Apply_NotConsume)" Value="110300" />
   <Preset Label="Stargaze (Solo_Stargazing_Join)" Value="110303" />
   <Preset Label="mixer_solo_stargaze" Value="110354" />
@@ -162,7 +147,6 @@
   <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_Table)" Value="110920" />
   <Preset Label="Watch Game (horseshoes_listen_passive)" Tags="TestUnsafe" Value="110990" />
   <Preset Label="Pour (herbalism_Potion_Pour_Autonomous)" Value="111004" />
-  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_Campfire)" Value="111165" />
   <Preset Label="cooking_Shared_AddHerb_Basil" Value="111168" />
   <Preset Label="cooking_Shared_AddHerb_Parsley" Value="111169" />
   <Preset Label="cooking_Shared_AddHerb_Sage" Value="111170" />

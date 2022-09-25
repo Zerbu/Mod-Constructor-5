@@ -2,6 +2,7 @@
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
+using Constructor5.Elements.CareerLevels;
 using Constructor5.Elements.CareerTracks;
 using System.Linq;
 
@@ -30,6 +31,8 @@ namespace Constructor5.Elements.Careers.Templates
                 Tuning = context.Tuning,
                 DataContext = this,
             });
+
+            ((TuningHeader)context.Tuning).SimDataHandler.Write(64, 3);
         }
 
         protected internal override void TuneOvermax(TuningBase tuning, CareerTrack track)

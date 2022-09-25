@@ -1,5 +1,7 @@
+using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
+using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using System.Collections.Generic;
@@ -7,8 +9,8 @@ using System.Collections.ObjectModel;
 
 namespace Constructor5.Elements.SimFilters
 {
-    [ElementTypeData("SimFilter", false, ElementTypes = new[] { typeof(SimFilter) }, PresetFolders = new[] { "SimFilter" })]
-    public class SimFilter : Element, IExportableElement
+    [ElementTypeData("SimFilter", true, ElementTypes = new[] { typeof(SimFilter) }, PresetFolders = new[] { "SimFilter" })]
+    public class SimFilter : Element, IExportableElement, ISupportsCustomTuning
     {
         public bool BanAnimals { get; set; } = true;
         public bool BanHiddenSims { get; set; } = true;
@@ -21,6 +23,7 @@ namespace Constructor5.Elements.SimFilters
         public bool BanTraitEventNPCs { get; set; } = true;
         public bool BanTraitFatherWinter { get; set; } = true;
         public bool BanTraitFlowerBunny { get; set; } = true;
+        public bool BanTraitGreg { get; set; } = true;
         public bool BanTraitGrimReaper { get; set; } = true;
         public bool BanTraitGuidry { get; set; } = true;
         public bool BanTraitMagicSages { get; set; } = true;
@@ -31,8 +34,14 @@ namespace Constructor5.Elements.SimFilters
         public bool BanTraitSkeletons { get; set; } = true;
         public bool BanTraitTemperance { get; set; } = true;
         public bool BanTraitTownMascot { get; set; } = true;
+        public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
+
         public bool IncludeLod { get; set; } = true;
+
         public bool MustBeCompatibleRegion { get; set; } = true;
+
+        [AutoTuneBasic("_template_chooser")]
+        public Reference TemplateChooser { get; set; } = new Reference();
 
         public ObservableCollection<SimFilterTermItem> Terms { get; } = new ObservableCollection<SimFilterTermItem>();
 
@@ -57,6 +66,10 @@ namespace Constructor5.Elements.SimFilters
             tunableList2.Set<TunableBasic>(null, "98542");
             tuning.Set<TunableBasic>("_template_chooser", "");
             tuning.Set<TunableBasic>("use_weighted_random", "True");
+
+            AutoTunerInvoker.Invoke(this, tuning);
+
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }
@@ -141,6 +154,10 @@ namespace Constructor5.Elements.SimFilters
             if (BanTraitFatherWinter)
             {
                 traitBlacklistKeys.Add(183343);
+            }
+            if (BanTraitGreg)
+            {
+                traitBlacklistKeys.Add(288294);
             }
 
             if (traitBlacklistKeys.Count > 0)

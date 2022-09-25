@@ -17,9 +17,9 @@ namespace Constructor5
     {
         public App()
         {
-//#if !DEBUG
+#if !DEBUG
             DispatcherUnhandledException += App_OnDispatcherUnhandledException;
-//#endif
+#endif
         }
 
         private void Application_Startup(object sender, StartupEventArgs e)

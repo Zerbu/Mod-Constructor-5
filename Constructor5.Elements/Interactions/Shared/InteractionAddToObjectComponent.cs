@@ -14,9 +14,9 @@ namespace Constructor5.Elements.Interactions.Shared
     {
         public ReferenceList AddToObjects { get; set; } = new ReferenceList();
 
-        // not implemented yet
         public ReferenceList AddToObjectsWithInteraction { get; set; } = new ReferenceList();
 
+        public bool AddToPhone { get; set; }
         public bool AddToSims { get; set; }
         public bool AddToSimsActiveOnly { get; set; }
 
@@ -36,7 +36,20 @@ namespace Constructor5.Elements.Interactions.Shared
             }
             objectsKeys.AddRange(ElementTuning.GetInstanceKeys(AddToObjects));
             PythonBuilder.AddStep(ObjectInteractionsPythonStep.Current);
-            ObjectInteractionsPythonStep.Current.AddObjectInteraction(objectsKeys, (ulong)ElementTuning.GetSingleInstanceKey(Element));
+            if (objectsKeys.Count > 0)
+            {
+                ObjectInteractionsPythonStep.Current.AddObjectInteraction(objectsKeys, (ulong)ElementTuning.GetSingleInstanceKey(Element));
+            }
+
+            foreach(var interaction in ElementTuning.GetInstanceKeys(AddToObjectsWithInteraction))
+            {
+                ObjectInteractionsPythonStep.Current.AddInteractionToInteraction(interaction, (ulong)ElementTuning.GetSingleInstanceKey(Element));
+            }
+
+            if (AddToPhone)
+            {
+                ObjectInteractionsPythonStep.Current.AddPhoneInteraction((ulong)ElementTuning.GetSingleInstanceKey(Element));
+            }
         }
 
         private void TuneActiveSimsOnly(InteractionExportContext context)

@@ -1,0 +1,395 @@
+<TuningAction>
+  <T n="can_be_fired">False</T>
+  <V n="cancel_gig_interaction" t="enabled">
+    <T n="enabled">210184<!--todo: REPLACE (also for SimData) --></T>
+  </V>
+  <E n="career_category">Invalid</E>
+  <U n="career_messages">
+    <V n="career_assignment_summary_notification" t="tested">
+      <U n="tested">
+        <L n="records">
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single">0x57D2BC57</T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--Statistic: statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">60</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single">0xC721F09A</T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--Statistic: statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">20</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single">0xB93A4CD6</T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--Statistic: statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">-20</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single">0xF308EF2B</T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--Statistic: statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">-60</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single">0x84DB7BA6</T>
+              </V>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="career_daily_end_notification" t="tested">
+      <U n="tested">
+        <L n="records">
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single">0x57D2BC57</T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--Statistic: statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">60</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single">0xC721F09A</T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--Statistic: statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">20</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single">0xB93A4CD6</T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--Statistic: statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">-20</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single">0xF308EF2B</T>
+              </V>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="statistic">
+                  <U n="statistic">
+                    <T n="stat">99886<!--Statistic: statistic_Career_Session_Performance_Change--></T>
+                    <V n="threshold" t="value_threshold">
+                      <U n="value_threshold">
+                        <E n="comparison">GREATER_OR_EQUAL</E>
+                        <T n="value">-60</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <V n="text" t="single">
+                <T n="single">0x84DB7BA6</T>
+              </V>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+    <U n="career_daily_start_notification">
+      <V n="text" t="single">
+        <T n="single">0x71EB46BD</T>
+      </V>
+    </U>
+    <V n="career_early_warning_alarm" t="enabled">
+      <U n="enabled">
+        <T n="call_in_sick_text">0x9291A330</T>
+        <U n="dialog">
+          <V n="text" t="single">
+            <T n="single">0xCF6C9354</T>
+          </V>
+        </U>
+        <T n="go_to_work_text">0x55B02A1F</T>
+        <T n="take_pto_text">0x17539AB0</T>
+        <T n="work_from_home_text">0x72F88945</T>
+      </U>
+    </V>
+    <U n="career_early_warning_notification">
+      <V n="text" t="single">
+        <T n="single">0xA53ED70A</T>
+      </V>
+    </U>
+    <U n="career_event_confirmation_dialog">
+      <V n="text" t="single">
+        <T n="single">0xE0D6C9</T>
+      </V>
+    </U>
+    <V n="career_event_end_warning" t="enabled">
+      <U n="enabled">
+        <U n="notification">
+          <V n="text" t="single">
+            <T n="single">0xB7AEF346</T>
+          </V>
+          <E n="urgency">URGENT</E>
+        </U>
+      </U>
+    </V>
+    <V n="career_missing_work" t="disabled" />
+    <U n="career_performance_warning">
+      <T n="affordance">77301<!--SuperInteraction: phone_Chat_Work_Performance--></T>
+      <U n="dialog">
+        <V n="icon" t="enabled">
+          <V n="enabled" t="resource_key">
+            <U n="resource_key">
+              <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_careersimoleons.png">2f7d0004:00000000:617140672fa22f7b</T>
+            </U>
+          </V>
+        </V>
+        <E n="phone_ring_type">RING</E>
+        <V n="text" t="single">
+          <T n="single">0xA9E4B757</T>
+        </V>
+        <V n="title" t="enabled">
+          <T n="enabled">0x36795024</T>
+        </V>
+      </U>
+      <U n="threshold">
+        <E n="comparison">LESS_OR_EQUAL</E>
+        <T n="value">-50</T>
+      </U>
+    </U>
+    <L n="career_time_off_messages">
+      <U>
+        <E n="key">FAKE_SICK</E>
+      </U>
+      <U>
+        <E n="key">FAMILY_LEAVE</E>
+      </U>
+      <U>
+        <E n="key">HOLIDAY</E>
+      </U>
+      <U>
+        <E n="key">MISSING_WORK</E>
+      </U>
+      <U>
+        <E n="key">PTO</E>
+      </U>
+      <U>
+        <E n="key">SICK</E>
+      </U>
+      <U>
+        <E n="key">WORK_FROM_HOME</E>
+      </U>
+    </L>
+    <U n="demote_career_notification">
+      <V n="text" t="single">
+        <T n="single">0x89568E38</T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled">0xA13D761D</T>
+      </V>
+    </U>
+    <U n="fire_career_notification">
+      <V n="text" t="single">
+        <T n="single">0xE0880E5D</T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled">0x1FD4456D</T>
+      </V>
+    </U>
+    <V n="join_career_notification" t="enabled">
+      <U n="enabled">
+        <V n="text" t="single">
+          <T n="single">0xCC4DF263</T>
+        </V>
+        <V n="title" t="enabled">
+          <T n="enabled">0xF72C1089</T>
+        </V>
+      </U>
+    </V>
+    <U n="overmax_notification">
+      <V n="text" t="single">
+        <T n="single">0xDD2A8D4A</T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled">0xD50C3F93</T>
+      </V>
+    </U>
+    <U n="overmax_rewardless_notification">
+      <V n="text" t="single">
+        <T n="single">0xBA6D0721</T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled">0xD50C3F93</T>
+      </V>
+    </U>
+    <U n="promote_career_notification">
+      <V n="text" t="single">
+        <T n="single">0xFE969F98</T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled">0x54E0293D</T>
+      </V>
+    </U>
+    <U n="promote_career_rewardless_notification">
+      <V n="text" t="single">
+        <T n="single">0xFE969F98</T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled">0x54E0293D</T>
+      </V>
+    </U>
+    <U n="quit_career_notification">
+      <V n="audio_sting" t="enabled">
+        <U n="enabled">
+          <T n="audio" p="InGame\Audio\Bumper\bumper_career_quit.propx">39b2aa4a:00000000:949d002e3e205221</T>
+        </U>
+      </V>
+      <V n="text" t="single">
+        <T n="single">0xC55953D2</T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled">0xAE185370</T>
+      </V>
+    </U>
+    <U n="situation_leave_confirmation">
+      <U n="dialog">
+        <V n="text" t="single">
+          <T n="single">0xF29F397C</T>
+        </V>
+        <T n="text_cancel">0xD8F1DC84</T>
+        <T n="text_ok">0x5C71E97E</T>
+      </U>
+      <T n="take_pto_button_text">0xA0C11A0D</T>
+    </U>
+  </U>
+  <E n="career_panel_type">ODD_JOB_CAREER</E>
+  <T n="career_rabbit_hole">234354<!--CareerRabbitHole: careerRabbitHole--></T>
+  <V n="demotion_buff" t="disabled" />
+  <T n="display_career_info">False</T>
+  <U n="early_promotion_chance">
+    <T n="base_value">0.01</T>
+  </U>
+  <U n="early_promotion_modifiers">
+    <T n="base_value">0.01</T>
+  </U>
+  <V n="fired_buff" t="disabled" />
+  <T n="go_home_to_work_affordance">98770<!--GoHomeTravelInteraction: GoHomeAndAttendWork--></T>
+  <T n="has_coworkers">False</T>
+  <T n="initial_delay">0</T>
+  <T n="is_visible_career">False</T>
+  <V n="promotion_buff" t="disabled" />
+  <V n="quittable_data" t="Cannot_Quit" />
+  <T n="show_career_in_join_career_picker">False</T>
+</TuningAction>

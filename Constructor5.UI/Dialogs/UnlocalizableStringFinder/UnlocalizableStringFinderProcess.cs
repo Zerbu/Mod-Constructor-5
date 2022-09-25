@@ -1,4 +1,5 @@
 using Constructor5.Base.LocalizationSystem;
+using System;
 using System.Collections.Generic;
 using System.Windows;
 
@@ -17,10 +18,16 @@ namespace Constructor5.UI.Dialogs.UnlocalizableStringFinder
                 return;
             }
 
-            if (!HasShownMessageBox)
+            try
             {
-                MessageBox.Show("Unlocalizable text string found!");
-                HasShownMessageBox = true;
+                if (!HasShownMessageBox)
+                {
+                    //MessageBox.Show("Unlocalizable text string found!");
+                    HasShownMessageBox = true;
+                }
+            }
+            catch
+            {
             }
 
             FoundStrings.Add(text);

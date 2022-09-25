@@ -144,10 +144,10 @@ namespace Constructor5.DebugTools.PresetExtractor
                     continue;
                 }
                 var typeDirName = Path.GetFileName(typeDir).ToLower();
-                if (typeDirName != "recipe")
+                /*if (typeDirName != "recipe")
                 {
                     continue;
-                }
+                }*/
                 Console.WriteLine($"Checking directory: {typeDir}");
                 foreach (var xmlFile in Directory.GetFiles(typeDir, "*.xml"))
                 {

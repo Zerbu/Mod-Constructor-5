@@ -18,7 +18,7 @@ namespace Constructor5.Elements.OddJobs.Components
         private Element CreateAssignmentFunction()
         {
             var result = (ObjectiveSet)ElementManager.Create(typeof(ObjectiveSet), null, true);
-            result.AddContextModifier(new CareerAssignmentObjectiveSetContextModifier
+            result.AddContextModifier(new CareerAssignmentGigContextModifier
             {
             });
             result.AlwaysTrack = false;

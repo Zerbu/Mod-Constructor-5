@@ -7,6 +7,6 @@ namespace Constructor5.TestConditionTypes.Situations
     [XmlSerializerExtraType]
     public class SituationConditionForGoals : SituationCondition
     {
-        protected override string GetVariantTunableName() => "situation_running";
+        protected override string GetVariantTunableName(string contextTag = null) => "situation_running";
     }
 }

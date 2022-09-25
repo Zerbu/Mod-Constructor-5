@@ -950,7 +950,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">24572<!--scores_socialoutcomes_mean--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_mean--></T>
                   <U n="threshold">
                     <T n="value">15</T>
                   </U>
@@ -1040,7 +1040,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">24572<!--scores_socialoutcomes_mean--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_mean--></T>
                   <U n="threshold">
                     <T n="value">25</T>
                   </U>
@@ -1591,7 +1591,7 @@
     <IfString p="MinimumScoreForAvailability" v="0" Inverted="True">
       <V t="test_based_score_threshold">
         <U n="test_based_score_threshold">
-          <T n="test_based_score">24573</T>
+          <T n="test_based_score">$ScoreTypeAvailability</T>
           <U n="threshold">
             <T n="value">$MinimumScoreForAvailability</T>
           </U>

@@ -21,9 +21,9 @@ namespace Constructor5.TestConditionTypes.Money
         //public string Source { get; set; } = "TotalMoneyEarned";
         public TotalSimoleonsEarnedType Type { get; set; } = TotalSimoleonsEarnedType.TotalMoneyEarned;
 
-        protected override string GetVariantTunableName() => Type == TotalSimoleonsEarnedType.ByTag ? "total_simoleons_earned_by_tag" : "total_simoleons_earned";
+        protected override string GetVariantTunableName(string contextTag = null) => Type == TotalSimoleonsEarnedType.ByTag ? "total_simoleons_earned_by_tag" : "total_simoleons_earned";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>(GetVariantTunableName());
 

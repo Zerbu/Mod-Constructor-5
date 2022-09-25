@@ -1,12 +1,10 @@
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
-using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.Python;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Shared;
-using System;
 
 namespace Constructor5.InteractionTemplates.Friendly
 {
@@ -26,6 +24,14 @@ namespace Constructor5.InteractionTemplates.Friendly
 
         [AutoTuneBasic("category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15507, "Friendly");
+
+        public int ScoreForFailure { get; set; } = -10;
+        public int ScoreForGreatSuccess { get; set; } = 15;
+        public int ScoreForHorribleFailure { get; set; } = -20;
+
+        public Reference ScoreType { get; set; } = new Reference() { GameReferenceLabel = "Friendly", GameReference = 249138 };
+        public Reference ScoreTypeAvailability { get; set; } = new Reference() { GameReferenceLabel = "Friendly", GameReference = 24557 };
+
         public string TuningActionsFile { get; set; } = "Friendly";
 
         protected override void OnExport(InteractionExportContext context)

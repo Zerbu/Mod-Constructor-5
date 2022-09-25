@@ -22,9 +22,9 @@ namespace Constructor5.TestConditionTypes.Perks
         [AutoTuneBasic("bucks_perk")]
         public Reference Perk { get; set; } = new Reference();
 
-        protected override string GetVariantTunableName() => "bucks_perk_unlocked";
+        protected override string GetVariantTunableName(string contextTag = null) => "bucks_perk_unlocked";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tuple = variantTunable.Get<TunableTuple>("bucks_perk_unlocked");
             AutoTunerInvoker.Invoke(this, tuple);

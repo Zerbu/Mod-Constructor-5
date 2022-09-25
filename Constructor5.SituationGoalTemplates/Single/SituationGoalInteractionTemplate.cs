@@ -43,50 +43,55 @@ namespace Constructor5.Elements.SituationGoals.Templates
                 tuningHeader.Module = "situations.situation_goal_object_interaction";
             }
 
-            var tunableTuple1 = context.Tuning.Get<TunableTuple>("_goal_test");
+            var interactions = ElementTuning.GetInstanceKeys(Interactions);
 
-            foreach (var interaction in ElementTuning.GetInstanceKeys(Interactions))
+            if (interactions.Length > 0 || InteractionTags.Count > 0)
             {
-                var tunableList1 = tunableTuple1.Get<TunableList>("affordances");
-                tunableList1.Set<TunableBasic>(null, interaction);
-            }
+                var tunableTuple1 = context.Tuning.Get<TunableTuple>("_goal_test");
 
-            foreach (var tag in InteractionTags)
-            {
-                var tunableList2 = tunableTuple1.Get<TunableList>("tags");
-                tunableList2.Set<TunableEnum>(null, tag);
-            }
+                foreach (var interaction in interactions)
+                {
+                    var tunableList1 = tunableTuple1.Get<TunableList>("affordances");
+                    tunableList1.Set<TunableBasic>(null, interaction);
+                }
 
-            if (!IncludeGameCancelledInteractions)
-            {
-                tunableTuple1.Set<TunableBasic>("consider_all_cancelled_as_failure", "True");
-            }
+                foreach (var tag in InteractionTags)
+                {
+                    var tunableList2 = tunableTuple1.Get<TunableList>("tags");
+                    tunableList2.Set<TunableEnum>(null, tag);
+                }
 
-            if (IncludeCancelledInteractions)
-            {
-                tunableTuple1.Set<TunableBasic>("consider_user_cancelled_as_failure", "False");
-            }
+                if (!IncludeGameCancelledInteractions)
+                {
+                    tunableTuple1.Set<TunableBasic>("consider_all_cancelled_as_failure", "True");
+                }
 
-            if (SuccessfulOnly)
-            {
-                var tunableVariant1 = tunableTuple1.Set<TunableVariant>("interaction_outcome", "enabled");
-                tunableVariant1.Set<TunableEnum>("enabled", "SUCCESS");
-            }
+                if (IncludeCancelledInteractions)
+                {
+                    tunableTuple1.Set<TunableBasic>("consider_user_cancelled_as_failure", "False");
+                }
 
-            if (MinimumRunningTime > 0)
-            {
-                tunableTuple1.SetVariant<TunableBasic>("running_time", "enabled", MinimumRunningTime.ToString());
-            }
+                if (SuccessfulOnly)
+                {
+                    var tunableVariant1 = tunableTuple1.Set<TunableVariant>("interaction_outcome", "enabled");
+                    tunableVariant1.Set<TunableEnum>("enabled", "SUCCESS");
+                }
 
-            if (!WaitUntilCompletion && !SuccessfulOnly)
-            {
                 if (MinimumRunningTime > 0)
                 {
-                    tunableTuple1.Set<TunableEnum>("test_event", "InteractionUpdate");
+                    tunableTuple1.SetVariant<TunableBasic>("running_time", "enabled", MinimumRunningTime.ToString());
                 }
-                else
+
+                if (!WaitUntilCompletion && !SuccessfulOnly)
                 {
-                    tunableTuple1.Set<TunableEnum>("test_event", "InteractionStart");
+                    if (MinimumRunningTime > 0)
+                    {
+                        tunableTuple1.Set<TunableEnum>("test_event", "InteractionUpdate");
+                    }
+                    else
+                    {
+                        tunableTuple1.Set<TunableEnum>("test_event", "InteractionStart");
+                    }
                 }
             }
 

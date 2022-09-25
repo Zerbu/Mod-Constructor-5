@@ -27,9 +27,9 @@ namespace Constructor5.TestConditionTypes.Statistics
         [AutoTuneThresholdTuple("skill_threshold")]
         public Threshold Threshold { get; set; } = new Threshold(1);
 
-        protected override string GetVariantTunableName() => "skill_tag";
+        protected override string GetVariantTunableName(string contextTag = null) => "skill_tag";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>("skill_tag");
             AutoTunerInvoker.Invoke(this, tupleTunable);

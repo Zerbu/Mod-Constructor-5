@@ -131,6 +131,10 @@
       <DependentUpon>MischiefSocialLootItemEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="OneShot\OneShotTemplate.cs" />
+    <Compile Include="Phone\PhoneTemplate.cs" />
+    <Compile Include="Phone\PhoneTemplateEditor.xaml.cs">
+      <DependentUpon>PhoneTemplateEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -237,6 +241,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Mischief\MischiefSocialLootItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Phone\PhoneTemplateEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

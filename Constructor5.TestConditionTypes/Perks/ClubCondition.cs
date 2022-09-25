@@ -32,9 +32,9 @@ namespace Constructor5.TestConditionTypes.Perks
         public bool RequireOtherParticipantToBePartOfClub { get; set; }
         public bool RestrictNumberOfSimsInClub { get; set; }
 
-        protected override string GetVariantTunableName() => "club";
+        protected override string GetVariantTunableName(string contextTag = null) => "club";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>("club");
 

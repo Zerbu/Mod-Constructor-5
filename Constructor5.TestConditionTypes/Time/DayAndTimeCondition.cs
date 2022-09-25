@@ -28,11 +28,19 @@ namespace Constructor5.TestConditionTypes.Time
 
         public bool RestrictDay() => !Include0Sunday || !Include1Monday || !Include2Tuesday || !Include3Wednesday || !Include4Thursday || !Include5Friday || !Include6Saturday;
 
-        protected override string GetVariantTunableName() => "day_and_time";
-
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override string GetVariantTunableName(string contextTag = null)
         {
-            var tunableTuple1 = variantTunable.Get<TunableTuple>("day_and_time");
+            if (contextTag == "GoalPreCondition")
+            {
+                return "time_of_day";
+            }
+
+            return "day_and_time";
+        }
+
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
+        {
+            var tunableTuple1 = variantTunable.Get<TunableTuple>(GetVariantTunableName(contextTag));
 
             if (RestrictDay())
             {

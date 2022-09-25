@@ -30,9 +30,9 @@ namespace Constructor5.TestConditionTypes.Outfits
         public bool IncludeSpecial { get; set; }
         public bool IncludeSwimwear { get; set; }
 
-        protected override string GetVariantTunableName() => "outfit";
+        protected override string GetVariantTunableName(string contextTag = null) => "outfit";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var outfits = new List<string>();
             if (IncludeEveryday)

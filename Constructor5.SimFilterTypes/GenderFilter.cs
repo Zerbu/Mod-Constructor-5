@@ -5,7 +5,7 @@ using Constructor5.Elements.SimFilters;
 
 namespace Constructor5.SimFilterTypes
 {
-    [SelectableObjectType("SimFilterTypes", "Gender Filter")]
+    [SelectableObjectType("SimFilterTypes", "GenderFilter")]
     [XmlSerializerExtraType]
     public class GenderFilter : SimFilterTerm
     {

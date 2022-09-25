@@ -2,6 +2,7 @@ using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ProjectSystem;
 using Constructor5.Core;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,6 +11,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
+using System.Windows.Input;
 
 namespace Constructor5.UI.Dialogs.PresetSelect
 {
@@ -28,6 +30,16 @@ namespace Constructor5.UI.Dialogs.PresetSelect
             }
             types.Add(typeof(CustomTuningElement));
             Initialize(types, !customOnly ? typeData.PresetFolders : null);
+            if (typeData.PresetFolders != null && typeData.PresetFolders.Length > 0)
+            {
+                ImportPresetFolder = typeData.PresetFolders[0];
+                ImportTuningType = typeData.ImportTuningType;
+            }
+
+            if (ImportTuningType == null)
+            {
+                ImportPackage.Visibility = Visibility.Collapsed;
+            }
         }
 
         public PresetSelectWindow(IEnumerable<Type> elementTypes, IEnumerable<string> presetFolders)
@@ -45,6 +57,9 @@ namespace Constructor5.UI.Dialogs.PresetSelect
         }
 
         public string ExcludeTag { get; set; }
+
+        public string ImportPresetFolder { get; }
+        public string ImportTuningType { get; }
 
         private ICollectionView CurrentView { get; set; }
 
@@ -97,13 +112,21 @@ namespace Constructor5.UI.Dialogs.PresetSelect
                 }
             }
 
-            var sortedGroups = groups.Where(x => x.Presets.Count > 0).OrderByDescending(x => x.IsCustom).ThenBy(x => x.Label).ToArray();
+            Groups = groups;
+            RefreshGroups();
+        }
+
+        private void RefreshGroups()
+        {
+            var sortedGroups = Groups.Where(x => x.Presets.Count > 0).OrderByDescending(x => x.IsCustom).ThenBy(x => x.Label).ToArray();
             GroupsListView.ItemsSource = sortedGroups;
             if (sortedGroups.Count() > 0)
             {
                 GroupsListView.SelectedItem = sortedGroups[0];
             }
         }
+
+        private List<PresetGroup> Groups { get; set; }
 
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
             => CurrentView.Refresh();
@@ -142,6 +165,10 @@ namespace Constructor5.UI.Dialogs.PresetSelect
 
             PresetsSelectedCallback.Invoke(presets.ToArray());
 
+            if (Keyboard.IsKeyDown(Key.LeftCtrl) || Keyboard.IsKeyDown(Key.RightCtrl))
+            {
+                return;
+            }
             Close();
         }
 
@@ -172,6 +199,26 @@ namespace Constructor5.UI.Dialogs.PresetSelect
                 CurrentView.SortDescriptions.Clear();
                 CurrentView.SortDescriptions.Add(new SortDescription(sortProperty, ListSortDirection.Ascending));
             }
+        }
+
+        private void ImportPackage_Click(object sender, RoutedEventArgs e)
+        {
+            var openFileDialog = new OpenFileDialog
+            {
+                Filter = "Package Files|*.package",
+                Multiselect = true
+            };
+            if (openFileDialog.ShowDialog() == false)
+            {
+                return;
+            }
+
+            foreach(var fileName in openFileDialog.FileNames)
+            {
+                Groups.Add(PresetImporter.Import(fileName, ImportPresetFolder, ImportTuningType));
+            }
+            
+            RefreshGroups();
         }
     }
 }

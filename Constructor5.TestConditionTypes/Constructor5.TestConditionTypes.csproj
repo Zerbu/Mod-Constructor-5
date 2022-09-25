@@ -148,6 +148,7 @@
     <Compile Include="Collections\CollectedSingleItemConditionEditor.xaml.cs">
       <DependentUpon>CollectedSingleItemConditionEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Collections\CollectedSingleItemObjectiveCondition.cs" />
     <Compile Include="Collections\CollectionCondition.cs" />
     <Compile Include="Collections\CollectionConditionEditor.xaml.cs">
       <DependentUpon>CollectionConditionEditor.xaml</DependentUpon>
@@ -243,6 +244,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Relationships\CanExperienceAttractionCondition.cs" />
+    <Compile Include="Relationships\GenderPreferenceConditionEditor.xaml.cs">
+      <DependentUpon>GenderPreferenceConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Relationships\RelationshipCondition.cs" />
     <Compile Include="Relationships\RelationshipConditionBitsTuner.cs" />
     <Compile Include="Relationships\RelationshipConditionEditor.xaml.cs">
@@ -253,6 +258,10 @@
     </Compile>
     <Compile Include="Relationships\RelationshipConditionTarget.cs" />
     <Compile Include="Relationships\RelationshipSituationGoalCondition.cs" />
+    <Compile Include="Seasons\SeasonCondition.cs" />
+    <Compile Include="Seasons\SeasonConditionEditor.xaml.cs">
+      <DependentUpon>SeasonConditionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SimInfo\SimInfoCondition.cs" />
     <Compile Include="SimInfo\SimInfoEditor.xaml.cs">
       <DependentUpon>SimInfoEditor.xaml</DependentUpon>
@@ -271,6 +280,7 @@
       <DependentUpon>SituationConditionEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Situations\SituationConditionForGoals.cs" />
+    <Compile Include="Relationships\GenderPreferenceCondition.cs" />
     <Compile Include="Statistics\SkillCondition.cs" />
     <Compile Include="Statistics\SkillConditionEditor.xaml.cs">
       <DependentUpon>SkillConditionEditor.xaml</DependentUpon>
@@ -460,11 +470,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Relationships\GenderPreferenceConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Relationships\RelationshipConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Relationships\RelationshipConditionEditorValues.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Seasons\SeasonConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

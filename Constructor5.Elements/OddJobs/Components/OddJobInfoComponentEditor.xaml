@@ -24,6 +24,9 @@
                     <c:Field Label="Icon" LabelWidth="100">
                         <c:IconControl Icon="{Binding Icon}" />
                     </c:Field>
+                    <c:Field Label="DurationHours" LabelWidth="100">
+                        <xctk:IntegerUpDown Text="{Binding DurationHours}" />
+                    </c:Field>
                 </StackPanel>
                 <StackPanel>
                     <c:Field Label="PayAmount" LabelWidth="100">
@@ -59,11 +62,15 @@
                             <c:TextBlock FontStyle="Italic" Text="RecommendedSkillLevelToleranceHelp" />
                         </StackPanel>
                     </c:Field>
-                    <c:Field Label="RecommendedSkillIcon" LabelWidth="150">
-                        <c:IconControl Icon="{Binding TipIcon}" />
-                    </c:Field>
                     <c:Field Label="RecommendedSkillText" LabelWidth="150">
                         <c:STBLStringControl Text="{Binding TipText}" />
+                    </c:Field>
+                    <c:CheckBox Content="HasRecommendedSkillIcon" IsChecked="{Binding HasTipIcon}" />
+                    <c:Field
+                        Label="RecommendedSkillIcon"
+                        LabelWidth="150"
+                        Visibility="{Binding HasTipIcon, Converter={StaticResource BoolToVis}}">
+                        <c:IconControl Icon="{Binding TipIcon}" />
                     </c:Field>
                 </StackPanel>
                 <StackPanel>
@@ -81,6 +88,16 @@
                                 </c:EnumSelectorControl.Replacements>
                             </c:EnumSelectorControl>
                         </StackPanel>
+                    </c:Field>
+                </StackPanel>
+                <StackPanel>
+                    <c:Field Label="CustomerFilter" LabelWidth="150">
+                        <c:ReferenceControl
+                            ElementTypeName="SimFilter"
+                            Reference="{Binding CustomerFilter}"
+                            ResetTo="213139"
+                            ResetToLabel="filter_Ages_YAE_OddJob_Customer"
+                            ShowCreateButton="True" />
                     </c:Field>
                 </StackPanel>
             </c:SpacedStack>

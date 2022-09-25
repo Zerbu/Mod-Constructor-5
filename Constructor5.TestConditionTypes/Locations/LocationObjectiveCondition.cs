@@ -7,6 +7,6 @@ namespace Constructor5.TestConditionTypes.Locations
     [XmlSerializerExtraType]
     public class LocationObjectiveCondition : LocationCondition
     {
-        protected override string GetVariantTunableName() => "location_test";
+        protected override string GetVariantTunableName(string contextTag = null) => "location_test";
     }
 }

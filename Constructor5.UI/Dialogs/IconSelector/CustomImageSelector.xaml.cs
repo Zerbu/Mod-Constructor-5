@@ -98,6 +98,12 @@ namespace Constructor5.UI.Dialogs.IconSelector
                         HueFill = 150,
                         RemoveSaturation = true,
                         NewSaturationAmount = 0.2f
+                    },
+                new ImageEffect
+                    {
+                        Label = "Headline/Balloon",
+                        FileSuffix = "_Headline",
+                        Size = 128
                     }
             };
 

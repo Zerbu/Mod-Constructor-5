@@ -124,68 +124,6 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
-      <Project>{F6468A79-3DA7-4F70-878B-D3C47E67294E}</Project>
-      <Name>Constructor5.Base</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
-      <Project>{C0F0F8A5-0F1D-47CA-A3D9-A58042374574}</Project>
-      <Name>Constructor5.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.Elements\Constructor5.Elements.csproj">
-      <Project>{8CDAF7B3-75C2-4365-A29E-BA5D85BC24EB}</Project>
-      <Name>Constructor5.Elements</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.InteractionTemplates\Constructor5.InteractionTemplates.csproj">
-      <Project>{64663fbd-015c-49e6-a7b7-b0eaca5d5ec1}</Project>
-      <Name>Constructor5.InteractionTemplates</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.LootActionTypes\Constructor5.LootActionTypes.csproj">
-      <Project>{5d5c551a-f4d0-4965-894f-cdb404666d52}</Project>
-      <Name>Constructor5.LootActionTypes</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.SimFilterTypes\Constructor5.SimFilterTypes.csproj">
-      <Project>{dcc506f4-8e58-4f58-8662-156f8f93e16f}</Project>
-      <Name>Constructor5.SimFilterTypes</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.SituationGoalTemplates\Constructor5.SituationGoalTemplates.csproj">
-      <Project>{b0b3cc1f-0dbe-4a47-80a5-dd459193cec9}</Project>
-      <Name>Constructor5.SituationGoalTemplates</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.SituationTemplates\Constructor5.SituationTemplates.csproj">
-      <Project>{04fdf334-0873-4a4b-bacf-ee632e6b33c3}</Project>
-      <Name>Constructor5.SituationTemplates</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.TestConditionTypes\Constructor5.TestConditionTypes.csproj">
-      <Project>{5a2fae23-9c84-408d-b637-42d843649929}</Project>
-      <Name>Constructor5.TestConditionTypes</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Constructor5.UI\Constructor5.UI.csproj">
-      <Project>{92267ec9-b06a-44ac-b383-f40c4d6a5755}</Project>
-      <Name>Constructor5.UI</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <SplashScreen Include="SplashScreen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="headline_molecule e2cb3751ee46581c.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Version.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Presets\Achievement\AllAchievementCategories.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -262,6 +200,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\Animation\AllAnimationsGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Animation\AllAnimationsGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\Animation\AllAnimationsSP01.Presets.xml">
@@ -543,6 +484,9 @@
     <None Include="Presets\Balloon\AllBalloonSetsGP10.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\Balloon\AllBalloonSetsGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\Balloon\AllBalloonSetsSP04.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -625,6 +569,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\Broadcaster\AllBroadcastersGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Broadcaster\AllBroadcastersGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\Broadcaster\AllBroadcastersSP03.Presets.xml">
@@ -789,6 +736,9 @@
     <None Include="Presets\Buff\AllBuffsGP10.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\Buff\AllBuffsGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\Buff\AllBuffsSP01.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -921,6 +871,9 @@
     <None Include="Presets\CommodityBasedObjectStateValue\AllCommodityBasedObjectStateValuesGP09.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\CommodityBasedObjectStateValue\AllCommodityBasedObjectStateValuesGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\CommodityBasedObjectStateValue\AllCommodityBasedObjectStateValuesSP01.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -1024,6 +977,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\Commodity\AllCommoditiesGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Commodity\AllCommoditiesGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\Commodity\AllCommoditiesSP01.Presets.xml">
@@ -1138,6 +1094,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\Interaction\AllInteractionsGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Interaction\AllInteractionsGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\Interaction\AllInteractionsSP01.Presets.xml">
@@ -1617,6 +1576,9 @@
     <None Include="Presets\Loot\AllLootActionsGP10.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\Loot\AllLootActionsGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\Loot\AllLootActionsSP01.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -1750,6 +1712,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\MixerInteraction\AllMixerInteractionsGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\MixerInteraction\AllMixerInteractionsGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\MixerInteraction\AllMixerInteractionsSP03.Presets.xml">
@@ -1968,6 +1933,132 @@
     <None Include="Presets\ObjectTag\FunctionTags.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\Object\AllObjectsBG.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsEP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsFP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP13.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP14.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP15.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP16.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP17.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsSP18.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\OutfitChangeReason\AllOutfitChangeReasons.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -2010,12 +2101,11 @@
     <None Include="Presets\Outfit\AllOutfitsGP09.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Participant\AllParticipants.xml">
+    <None Include="Presets\Outfit\AllOutfitsGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\PerkType\PerkTypes.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Presets\Participant\AllParticipants.xml" />
+    <None Include="Presets\PerkType\PerkTypes.xml" />
     <None Include="Presets\PieMenuCategory\AllPieMenuCategoriesBG.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -2082,6 +2172,9 @@
     <None Include="Presets\PieMenuCategory\AllPieMenuCategoriesGP10.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\PieMenuCategory\AllPieMenuCategoriesGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\PieMenuCategory\AllPieMenuCategoriesSP01.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -2127,6 +2220,93 @@
     <None Include="Presets\PieMenuCategory\AllPieMenuCategoriesSP18.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\RecipeTag\RecipeTags.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesBG.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesEP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesEP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesEP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesEP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesEP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesEP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesEP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesEP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesEP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesEP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesFP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesSP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesSP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesSP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesSP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesSP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesSP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesSP17.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\Region\AllRegions.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -2136,9 +2316,7 @@
     <None Include="Presets\RelBit\AllRelationshipBits.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\RelBit\FriendBits.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Presets\RelBit\FriendBits.xml" />
     <None Include="Presets\Reward\AllRewardsBG.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -2286,6 +2464,9 @@
     <None Include="Presets\RoleState\AllRoleStatesGP10.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\RoleState\AllRoleStatesGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\RoleState\AllRoleStatesSP04.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -2371,6 +2552,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\SimFilter\AllSimFiltersGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\SimFilter\AllSimFiltersGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\SimFilter\AllSimFiltersSP06.Presets.xml">
@@ -2493,6 +2677,9 @@
     <None Include="Presets\SituationGoal\AllSituationGoalsGP10.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\SituationGoal\AllSituationGoalsGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\SituationGoal\AllSituationGoalsSP01.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -2539,771 +2726,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\SituationGoal\AllWhims.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Toddler_Chaos_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Toddler_Growth_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_toddler_Nuturing_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_toddler_Trait_Angelic_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_toddler_Trait_Charmer_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_toddler_Trait_Clingy_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_toddler_Trait_Fussy_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_toddler_Trait_Independent_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_toddler_Trait_Inquisitive_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_toddler_Trait_Silly_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_toddler_Trait_Wild_Set.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_AcquireAdventureGear.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_ActingSkill.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_ApartmentProblems.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Apartments_Indoors_GoOutside.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Apartments_LotTraits.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Apartments_NeighborSituation_ComplainAboutNoise.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Apartments_NeighborSituation_GiveKey.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Archaeology.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Animal_FriendOfTheAnimals.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Athletic_Bodybuilder.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Creativity_Musical.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Creativity_Painter.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Creativity_Writer.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Deviance_Enemy.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Deviance_Mischief.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Family_HappyFamily.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Family_Successful.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Food_Bartender.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Food_Chef.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Fortune_Mansion.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Fortune_Wealthy.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Knowledge_Computer.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Knowledge_Nerd.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Knowledge_Renaissance.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Location_CityLife.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Love_HopefulRomantic.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Love_Soulmate.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Nature_Angling.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Nature_Botonist.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Nature_Curator.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Nature_Outdoors.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Popularity_Friend.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Popularity_JokeStar.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Popularity_LeaderOfThePack.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_Popularity_Party.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_Asp_WorldFamousCelebrity.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Baking.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Bar.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Bartending.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_BeingInClub.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Bluffs.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Bonfire.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_BubbleBlower.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Bush.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_BuyAdv.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_BuyBasics.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Buy_CityRegion.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Cafe.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Campfire.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Activist_Charity.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Activist_Main.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Activist_Politics.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Astronaut.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Athletic.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Business.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Criminal.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Critic_Arts.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Critic_Basic.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Critic_Food.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Culinary.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Detective.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Doctor.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_DramaClub.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Entertainer.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Gardener.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Painter.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Scientist.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_SecretAgent.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_SocialMedia_InternetPersonality.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_SocialMedia_Main.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_SocialMedia_PublicRelations.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_StyleInfluencer.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_TechGuru.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Career_Writer.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_WhimSet_CelebrityFan.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Chalet.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Charisma.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_child_Creative.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_child_Mental.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_WhimSet_child_MonsterUnder_TheBed.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_child_Motor.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_child_Social.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_child_teen_Homework.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Closet.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Club.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_CollectionSet.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Comedy.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Cooking.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Cursed.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_DanceFloor_OnLot.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_DanceFloor_Owned.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_DancingSkill.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Dartboard.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_DJBooth_OnLot.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_DJBooth_Owned.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionAngry.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionBored.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionConfident.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionDazed.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionEmbarrassed.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionEnergized.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionFlirty.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionFocused.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionHappy.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionInspired.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionPlayful.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionSad.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_EmotionStressed.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Enemies.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_EnemyProgress.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Festivals_Blossom.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Festivals_FleaMarket.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Festivals_Food.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Festivals_Lamp.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Festivals_Logic.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Fishing.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Fitness.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_FlowerArranging.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_FoosballTable.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_FriendProgress.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Friendship.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Gardening.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Ghost.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_GiveGifts.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Guitar.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Handiness.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasCelebrityTrait.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasSelfAbsorbed.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitactive.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitAmbitious.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitArtLover.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitBookworm.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitBro.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitCatLover.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitCheerful.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitChildish.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitClumsy.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitCommitmentphobe.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitCompassionate.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitCreative.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitDanceMachine.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitDogLover.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitEvil.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitFamilyOriented.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitFoodie.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitGeek.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitGenius.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitGloomy.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitGlutton.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitGood.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitGood_Child.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitGoofball.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitGoofball_Child.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitHatesChildren.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitHotheaded.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitInsane.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitInsider.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitIrresponsible.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitJealousy.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitKleptomaniac.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitLazy.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitLifeSkills_Argumentative.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitLifeSkills_BadManners.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitLifeSkills_GoodManners.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_HasTraitLifeSkills_Mediator.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitLikesFruitcake.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitLoner.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitLovesOutdoors.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitMaterialistic.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitMean.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitMeltMaster.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitMusicLover.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitNeat.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitOutgoing.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitPerfectionist.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitResponsible.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitRomantic.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitSelfAssured.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitSlob.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitSnob.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitSqueamish.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitUncontrolledEmotion.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitUnfeeling.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitUnflirty.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitVampire.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_HasTraitVegetarian.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Herbalism.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_HorseShoes.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Incense.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_KaraokeMachine.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Laundry_Hamper.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Laundry_HasObjects.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Laundry_No_Objects.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_LocalCultureSkill.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Logic.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Mischief.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_MusicProductionStation.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_MysticalRelic.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_NewRomance.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_NewRomancePlus.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_NotVampire.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Painting.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Parenting.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_ParentToBaby.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_ParentToChild.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_Whimset_ParentToToddler.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Partners.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_PetCat_Owner.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_PetDog_Owner.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_PetOwner.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_WhimSet_Pet_Minor_Cage.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Photography.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Piano.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_PipeOrgan.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Pool.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Pools.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_PresentPile.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Programming.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Raining.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_RelaxationCenter.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_restaurant.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_RocketScience.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Ruins.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Seasonal_Fall.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Seasonal_Spring.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Seasonal_Summer.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimset_Seasonal_Winter.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_SicknessSymptoms_Cure.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Singing.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_WhimSet_Snowing.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_SocialMeetNew.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_StereoRadioChannels.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_StreamingDrone.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Teens.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_TelevisionChannels.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Tent.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_TreadMill_Rock_ClimbingWall_Owned.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Vet.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_VetVendingMachine.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_VideoGaming.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_VideoStation.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Violin.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Wellness.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\Whims_whimSet_Writing.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\SituationJobTag\SituationJobTags.Presets.xml">
@@ -3373,6 +2795,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\SituationJob\AllSituationJobsGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\SituationJob\AllSituationJobsGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\SituationJob\AllSituationJobsSP04.Presets.xml">
@@ -3459,6 +2884,9 @@
     <None Include="Presets\Situation\AllSituationsGP10.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\Situation\AllSituationsGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\Situation\AllSituationsSP04.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -3537,6 +2965,18 @@
     <None Include="Presets\Skill\AllSkillsSP18.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\Skill\CreativeSkills.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Skill\MentalSkills.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Skill\PhysicalSkills.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Skill\SocialSkills.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\SocialInteraction\AllSocialInteractionsBG.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -3603,6 +3043,9 @@
     <None Include="Presets\SocialInteraction\AllSocialInteractionsGP10.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Presets\SocialInteraction\AllSocialInteractionsGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\SocialInteraction\AllSocialInteractionsSP03.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -3633,9 +3076,7 @@
     <None Include="Presets\SocialInteraction\AllSocialInteractionsSP17.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\StatisticTag\BuffTags.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Presets\StatisticTag\BuffTags.xml" />
     <None Include="Presets\Statistic\CareerDailyTasks.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -3645,9 +3086,7 @@
     <None Include="Presets\Statistic\RankedStatistics.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\TechnicalEvent\AllTechnicalEvents.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Presets\TechnicalEvent\AllTechnicalEvents.xml" />
     <None Include="Presets\Trait\AllTraitsBG.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -3712,6 +3151,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\Trait\AllTraitsGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Trait\AllTraitsGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Presets\Trait\AllTraitsSP02.Presets.xml">
@@ -3834,6 +3276,73 @@
     <None Include="Presets\VoiceEffect\VoiceEffect.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
+      <Project>{F6468A79-3DA7-4F70-878B-D3C47E67294E}</Project>
+      <Name>Constructor5.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.BasicExtraTypes\Constructor5.BasicExtraTypes.csproj">
+      <Project>{84e6323c-12a8-47dc-a68d-00717a38ce4a}</Project>
+      <Name>Constructor5.BasicExtraTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
+      <Project>{C0F0F8A5-0F1D-47CA-A3D9-A58042374574}</Project>
+      <Name>Constructor5.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.Elements\Constructor5.Elements.csproj">
+      <Project>{8CDAF7B3-75C2-4365-A29E-BA5D85BC24EB}</Project>
+      <Name>Constructor5.Elements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.InteractionTemplates\Constructor5.InteractionTemplates.csproj">
+      <Project>{64663fbd-015c-49e6-a7b7-b0eaca5d5ec1}</Project>
+      <Name>Constructor5.InteractionTemplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.LootActionTypes\Constructor5.LootActionTypes.csproj">
+      <Project>{5d5c551a-f4d0-4965-894f-cdb404666d52}</Project>
+      <Name>Constructor5.LootActionTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.SimFilterTypes\Constructor5.SimFilterTypes.csproj">
+      <Project>{dcc506f4-8e58-4f58-8662-156f8f93e16f}</Project>
+      <Name>Constructor5.SimFilterTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.SituationGoalTemplates\Constructor5.SituationGoalTemplates.csproj">
+      <Project>{b0b3cc1f-0dbe-4a47-80a5-dd459193cec9}</Project>
+      <Name>Constructor5.SituationGoalTemplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.SituationTemplates\Constructor5.SituationTemplates.csproj">
+      <Project>{04fdf334-0873-4a4b-bacf-ee632e6b33c3}</Project>
+      <Name>Constructor5.SituationTemplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.TestConditionTypes\Constructor5.TestConditionTypes.csproj">
+      <Project>{5a2fae23-9c84-408d-b637-42d843649929}</Project>
+      <Name>Constructor5.TestConditionTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constructor5.UI\Constructor5.UI.csproj">
+      <Project>{92267ec9-b06a-44ac-b383-f40c4d6a5755}</Project>
+      <Name>Constructor5.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="SplashScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="headline_molecule e2cb3751ee46581c.ico" />
+    <None Include="Presets\Skill\AllSkillsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Version.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="FodyWeavers.xml" />
@@ -3932,196 +3441,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Presets\Object\AllObjectsBG.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP01.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP02.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP03.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP04.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP05.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP06.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP07.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP08.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP09.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP10.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsEP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsFP01.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP01.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP02.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP03.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP04.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP05.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP06.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP07.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP08.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP09.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP10.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP01.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP02.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP03.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP04.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP05.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP06.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP07.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP08.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP09.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP10.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP12.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP13.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP14.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP15.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP16.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP17.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsSP18.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="TuningActions\Odd Job Rabbithole.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="TuningActions\Odd Job Assignment.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Presets\Animation\AllAnimationsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Balloon\AllBalloonSetsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Broadcaster\AllBroadcastersGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Buff\AllBuffsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\CommodityBasedObjectStateValue\AllCommodityBasedObjectStateValuesGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Commodity\AllCommoditiesGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Interaction\AllInteractionsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Loot\AllLootActionsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\MixerInteraction\AllMixerInteractionsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Object\AllObjectsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Outfit\AllOutfitsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\PieMenuCategory\AllPieMenuCategoriesGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\RoleState\AllRoleStatesGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SimFilter\AllSimFiltersGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationGoal\AllSituationGoalsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SituationJob\AllSituationJobsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Situation\AllSituationsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\SocialInteraction\AllSocialInteractionsGP11.Presets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Presets\Trait\AllTraitsGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -4146,108 +3471,567 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Presets\Skill\AllSkillsSP11.Presets.xml" />
-    <None Include="Presets\Skill\CreativeSkills.Presets.xml">
+    <None Include="Presets\Animation\AllAnimationsGP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Skill\MentalSkills.Presets.xml">
+    <None Include="Presets\Animation\AllAnimationsSP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Skill\PhysicalSkills.Presets.xml">
+    <None Include="Presets\AspirationCategory\AllAspirationCategoriesGP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Skill\SocialSkills.Presets.xml">
+    <None Include="Presets\AspirationTrack\AllAspirationTracksGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Balloon\AllBalloonSetsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Broadcaster\AllBroadcastersGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\BucksPerk\AllPerksGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Buff\AllBuffsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Buff\AllBuffsSP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Buff\AllBuffsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\CommodityBasedObjectStateValue\AllCommodityBasedObjectStateValuesSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Commodity\AllCommoditiesGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Commodity\AllCommoditiesSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Interaction\AllInteractionsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Interaction\AllInteractionsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Loot\AllLootActionsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Loot\AllLootActionsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Loot\RelationshipGain.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\MixerInteraction\AllMixerInteractionsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\MixerInteraction\AllMixerInteractionsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectiveSet\AllObjectiveSetsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectiveSet\AllObjectiveSetsSP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectiveSet\AllObjectiveSetsSP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectiveSet\AllObjectiveSetsSP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectiveSet\AllObjectiveSetsSP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectiveSet\AllObjectiveSetsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Objective\AllObjectivesGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Objective\AllObjectivesSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Object\AllObjectsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Outfit\AllOutfitsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\PieMenuCategory\AllPieMenuCategoriesGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\PieMenuCategory\AllPieMenuCategoriesSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Recipe\AllRecipesGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Reward\AllRewardsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\RoleState\AllRoleStatesGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\RoleState\AllRoleStatesSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\SimFilter\AllSimFiltersGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\SituationGoal\AllSituationGoalsEP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\SituationGoal\AllSituationGoalsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\SituationGoal\AllSituationGoalsSP17.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\SituationJob\AllSituationJobsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\SituationJob\AllSituationJobsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Situation\AllSituationsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Situation\AllSituationsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\SocialInteraction\AllSocialInteractionsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\SocialInteraction\AllSocialInteractionsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Trait\AllTraitsGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Trait\AllTraitsSP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Presets\Recipe\AllRecipesBG.Presets.xml">
+    <None Include="Presets\Animation\AllAnimationsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesEP01.Presets.xml">
+    <None Include="Presets\AspirationCategory\AllAspirationCategoriesEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesEP02.Presets.xml">
+    <None Include="Presets\AspirationTrack\AllAspirationTracksEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesEP03.Presets.xml">
+    <None Include="Presets\Balloon\AllBalloonSetsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesEP04.Presets.xml">
+    <None Include="Presets\Broadcaster\AllBroadcastersEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesEP05.Presets.xml">
+    <None Include="Presets\Buff\AllBuffsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesEP06.Presets.xml">
+    <None Include="Presets\CommodityBasedObjectStateValue\AllCommodityBasedObjectStateValuesEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesEP07.Presets.xml">
+    <None Include="Presets\Commodity\AllCommoditiesEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesEP08.Presets.xml">
+    <None Include="Presets\Interaction\AllInteractionsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesEP09.Presets.xml">
+    <None Include="Presets\Loot\AllLootActionsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesEP10.Presets.xml">
+    <None Include="Presets\MixerInteraction\AllMixerInteractionsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesFP01.Presets.xml">
+    <None Include="Presets\ObjectiveSet\AllObjectiveSetsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesGP01.Presets.xml">
+    <None Include="Presets\Objective\AllObjectivesEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesGP02.Presets.xml">
+    <None Include="Presets\Object\AllObjectsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesGP03.Presets.xml">
+    <None Include="Presets\Outfit\AllOutfitsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesGP04.Presets.xml">
+    <None Include="Presets\PieMenuCategory\AllPieMenuCategoriesEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesGP05.Presets.xml">
+    <None Include="Presets\Recipe\AllRecipesEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesGP06.Presets.xml">
+    <None Include="Presets\Reward\AllRewardsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesGP08.Presets.xml">
+    <None Include="Presets\RoleState\AllRoleStatesEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesGP09.Presets.xml">
+    <None Include="Presets\SimFilter\AllSimFiltersEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesGP10.Presets.xml">
+    <None Include="Presets\SituationGoalSet\AllSituationGoalSetsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesSP01.Presets.xml">
+    <None Include="Presets\SituationGoal\AllSituationGoalsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesSP03.Presets.xml">
+    <None Include="Presets\SituationJob\AllSituationJobsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesSP04.Presets.xml">
+    <None Include="Presets\Situation\AllSituationsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesSP05.Presets.xml">
+    <None Include="Presets\Skill\AllSkillsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesSP08.Presets.xml">
+    <None Include="Presets\SocialInteraction\AllSocialInteractionsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesSP09.Presets.xml">
+    <None Include="Presets\Trait\AllTraitsEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Recipe\AllRecipesSP17.Presets.xml">
+    <None Include="Presets\Venue\AllVenuesEP12.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Presets\RecipeTag\RecipeTags.Presets.xml">
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsBG.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsEP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsGP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsGP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsGP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsGP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsGP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsGP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsGP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsSP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsSP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsSP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsSP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\ObjectivelessWhimSet\AllSimpleWantSetsSP17.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersBG.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersEP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersGP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersGP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersGP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersGP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersGP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersGP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersGP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersGP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersSP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersSP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersSP15.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TemplateChooser\AllTemplateChoosersSP18.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Presets\Whim\AllWhimsBG.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsEP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsEP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsEP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsEP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsEP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsEP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsEP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsEP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsEP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsEP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsGP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsGP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsGP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsGP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsGP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsGP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP02.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP11.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP12.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\Whim\AllWhimsSP17.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TuningActions\Career Type Odd Jobs.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TuningActions\Career Interaction Odd Jobs.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TuningActions\Career Level Odd Jobs.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presets\CareerGig\AllCareerGigsBG.Presets.xml" />
+    <Resource Include="Presets\CareerGig\AllCareerGigsEP06.Presets.xml" />
+    <Resource Include="Presets\CareerGig\AllCareerGigsEP07.Presets.xml" />
+    <Resource Include="Presets\CareerGig\AllCareerGigsEP09.Presets.xml" />
+    <Resource Include="Presets\CareerGig\AllCareerGigsGP09.Presets.xml" />
+    <Resource Include="Presets\CareerGig\AllCareerGigsGP10.Presets.xml" />
+    <Resource Include="Presets\CareerGig\AllCareerGigsSP15.Presets.xml" />
+    <Resource Include="Presets\CareerGig\AllCareerGigsSP18.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsBG.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP01.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP02.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP03.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP04.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP05.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP06.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP07.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP08.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP09.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP10.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP11.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsEP12.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsGP02.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsGP03.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsGP04.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsGP05.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsGP07.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsGP08.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsGP09.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsGP12.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsSP02.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsSP11.Presets.xml" />
+    <Resource Include="Presets\InteractionList\AllInteractionListsSP17.Presets.xml" />
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresBG.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresEP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresEP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresEP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresEP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresGP01.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresGP03.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresGP04.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresGP05.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresGP06.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresGP07.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresGP08.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresGP09.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\TestBasedScore\AllTestBasedScoresGP10.Presets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TuningActions\Interactions\PhoneInteraction.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

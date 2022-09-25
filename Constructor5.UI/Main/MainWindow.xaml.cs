@@ -1,3 +1,4 @@
+using Constructor5.Base.DebugCommandSystem;
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem;
 using Constructor5.Base.LocalizationSystem;
@@ -47,7 +48,10 @@ namespace Constructor5.UI.Main
             }
         }
 
-        void IOnExportComplete.OnExportComplete(ExportResultsData results) => new ExportResultsWindow(results) { Owner = this }.ShowDialog();
+        void IOnExportComplete.OnExportComplete(ExportResultsData results)
+        {
+            new ExportResultsWindow(results) { Owner = this }.ShowDialog();
+        }
 
         private void OpenElement(Element element)
         {

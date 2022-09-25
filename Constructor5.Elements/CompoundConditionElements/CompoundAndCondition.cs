@@ -4,6 +4,6 @@ namespace Constructor5.Elements.CompoundConditionElements
 {
     public class CompoundAndCondition
     {
-        public TestCondition Condition { get; set; } = new AlwaysRunCondition();
+        public TestCondition Condition { get; set; } = new NoTestConditionSelected();
     }
 }

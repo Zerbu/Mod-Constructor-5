@@ -41,7 +41,7 @@
 	<String Key="SetupActions">Setup Actions</String>
 	<String Key="SocialInteractions">Social Interactions</String>
 	<String Key="SpecialCases">Special Cases</String>
-	<String Key="Whims">Whims</String>
+	<String Key="Whims">Wants and Fears</String>
 	<String Key="Reason">Reason</String>
 	<String Key="HideRelationships">Hide Relationships</String>
 	<String Key="IsNonPersistedWithDescription">Is Non Persisted (does not save or load, removed when traveling)</String>
@@ -186,7 +186,7 @@ Note: Conditions are applied to the receiver, not the sender.</String>
 	<String Key="GoalType">Goal Type</String>
 	<String Key="NoGoalTypeSet">No Goal Type Set</String>
 	<String Key="PostConditions">Post Conditions</String>
-	<String Key="PostConditionsHelp">These conditions must pass in addition to the goal for it to count.</String>
+	<String Key="PostConditionsHelp">These conditions must pass in addition to the goal for it to count. Please note: Post Conditions don't support participants other than Actor. Some goal types have custom options for that purpose, such as the "Target Tests" option for interaction goals.</String>
 	<String Key="MainContent">Main Content</String>
 	<String Key="RoleTags">Role Tags</String>
 	<String Key="AddCondition">Add Condition</String>
@@ -194,7 +194,7 @@ Note: Conditions are applied to the receiver, not the sender.</String>
 	<String Key="SimpleSituation">*Simple Situation</String>
 	<String Key="BaseTypes">Base Types</String>
 	<String Key="AvailabilityConditions">Availability Conditions</String>
-	<String Key="AvailabilityConditionsNotice">These conditions must pass for the goal to be selected from a goal set or whim set.</String>
+	<String Key="AvailabilityConditionsNotice">These conditions must pass for the goal to be selected from a goal set or want set.</String>
 
 	<String Key="Score">Score</String>
 	<String Key="Iterations">Iterations</String>
@@ -613,7 +613,7 @@ Element Name: {label}</String>
 	<String Key="SpecificInteraction">Specific Interaction</String>
 	<String Key="SituationGoalRelationshipNotice">The goal will complete when the Sim's relationship with the target matches this condition.</String>
 	<String Key="RelationshipBasedAvailabilityCondition">Relationship-Based Availability Condition</String>
-	<String Key="RelationshipBasedAvailabilityConditionNotice">This is only valid for goals where "Specific Target" (in "Target Settings") is set to something other than "Any". This condition must pass for the goal to be selected in a goal set or whim set. For example, a "Become Friends with" goal should check to make sure the Sims aren't already friends.</String>
+	<String Key="RelationshipBasedAvailabilityConditionNotice">This is only valid for goals where "Specific Target" (in "Target Settings") is set to something other than "Any". This condition must pass for the goal to be selected in a goal set or want/fear set. For example, a "Become Friends with" goal should check to make sure the Sims aren't already friends.</String>
 	<String Key="HasRelationshipBasedAvailabilityCondition">Has Relationship-Based Availability Condition</String>
 	<String Key="CompletionCondition">Completion Condition</String>
 	<String Key="SituationGoalTargetConditionsNotice">The target must meet these conditions for the goal to count.</String>
@@ -740,7 +740,7 @@ Element Name: {label}</String>
 	<String Key="Failure">Failure</String>
 	<String Key="FailureTarget">Failure (Target)</String>
 
-	<String Key="ChangeStatisticByFixedAmount">Statistics: Change Statistic by Fixed Amount</String>
+	<String Key="StatisticsChangeStatisticByFixedAmount">Statistics: Change Statistic by Fixed Amount</String>
 
 	<String Key="Original">Original</String>
 	<String Key="Replacement">Replacement</String>
@@ -913,7 +913,7 @@ IMPORTANT: This will alter how the UI works. The amount of time remaining will n
 	<String Key="RecheckOnTimeout">Refresh on timeout if the condition of the first objective is still met</String>
 	<String Key="RecheckOnTimeoutNotice">This only checks the first objective, not the entire set.</String>
 	<String Key="ActivationObjectives">Activation Objectives</String>
-	<String Key="ActivationObjectivesNotice">The whim set will activate when a Sim completes these objectives.</String>
+	<String Key="ActivationObjectivesNotice">The want and fear set will activate when a Sim completes these objectives.</String>
 	<String Key="PresetSocial">Preset: Social</String>
 	<String Key="PresetCareer">Preset: Career</String>
 	<String Key="PresetChildSkill">Preset: Child Skill</String>
@@ -944,7 +944,7 @@ IMPORTANT: This will alter how the UI works. The amount of time remaining will n
 	<String Key="RecommendedSkillText">Recommended Skill Text</String>
 	<String Key="MinimumLevelRequired">Minimum Level Required</String>
 	<String Key="Bucket">Bucket</String>
-	<String Key="ComplexWhimSet">Complex Whim Set</String>
+	<String Key="ComplexWhimSet">Complex Want and Fear Set</String>
 	<String Key="OddJob">Odd Job</String>
   
   <String Key="Assignments">Assignments</String>
@@ -992,6 +992,231 @@ IMPORTANT: This will alter how the UI works. The amount of time remaining will n
 	<String Key="ActionsOnComplete">Actions On Complete</String>
 
 	<String Key="IgnoreIfAlreadyHasOneOfTheBuffs">Ignore if the Sim already has one of the buffs</String>
+
+  <String Key="ScoreForGreatSuccess">Score for Great Success (Greater or Equal)</String>
+	<String Key="ScoreForFailure">Score for Failure (Less or Equal)</String>
+	<String Key="ScoreForHorribleFailure">Score for Horrible Failure (Less or Equal)</String>
+  
+  <String Key="UnexpectedErrorMessage">Mod Constructor has encountered an unexpected error.</String>
+	<String Key="UnexpectedErrorReportOnGithub">If you think this is a bug, please report it on GitHub.</String>
+	<String Key="Uniform">Uniform</String>
+
+  <String Key="Level">Level</String>
+  
+  <String Key="ErrorNotice">Mod Constructor has encountered an unexpected error.</String>
+	<String Key="ErrorNoticeReportBug">If you think this is a bug, please report it on GitHub.</String>
+  
+  <String Key="SuppressAutomaticBronzeTraits">Suppress Automatic Bronze</String>
+  <String Key="SuppressAutomaticBronzeTraitsHelp">If checked, this situation will ignore the "Perfect Host" reward trait and the Sim's reputation from Get Famous. The player must have Script Mods enabled for this to work.</String>
+  
+  <String Key="CustomBucket">Custom Bucket</String>
+	<String Key="IsQuestGig">Is Quest Gig</String>
+
+  <String Key="ActionTrigger">Action Trigger</String>
+  <String Key="ActionTriggerNotice">Action Triggers can be used to run an action set when a Sim completes a certain objective. Example: Sims can become Confident from successfully performing social interactions. By default, action triggers are applied to all Sims, but you can define conditions in the action set.
+
+This feature requires the player to have "Script Mods Allowed" enabled in the game settings.
+
+!!IMPORTANT!! The actions will be triggered EVERY TIME the game checks if the objective is complete, not just when the Sim first enters the condition. Example: If the objective is set to "Money Condition", then as long as the Sim meets the threshold, it will be triggered every time the Sim's amount of money is changed (which tells the game to check re-check the condition), even if the Sim already met the threshold previously. Because of this, Action Triggers work best with "fire and forget" objectives, like performing interactions.
+
+Unlike normal Objectives, Action Triggers work for Sims outside the active household.</String>
+	<String Key="SimoleonValue">Simoleon Value</String>
+  
+  <String Key="QuickSetup">Quick Setup</String>
+	<String Key="LikeBuff">Like Buff</String>
+	<String Key="DislikeBuff">Dislike Buff</String>
+  
+  <String Key="InvertedNotRunning">Inverted (test if the interactions are NOT running)</String>
+
+  <String Key="SimpleWhimSetPriorityDescription">Standard values are 10 for traits and aspirations, 8 for venues, and 2 for interactions and minor wants.</String>
+
+  <String Key="SimpleWhimSet">Simple Want and Fear Set</String>
+  
+  <String Key="Priority">Priority</String>
+  
+  <String Key="Whim">Want/Fear</String>
+  
+  <String Key="FluffDescription">Fluff Description</String>
+  <String Key="FluffDescriptionHelp">This is the bold text description that appears above the main description when hovering over the want or fear.</String>
+  
+  <String Key="Venues">Venues</String>
+	<String Key="Loot">Loot</String>
+	<String Key="LootOnStart">Loot on Start</String>
+	<String Key="LootOnRequest">Loot on Request</String>
+	<String Key="LootOnEnd">Loot on End</String>
+	<String Key="LootOnCleanup">Loot on Cleanup</String>
+	<String Key="NoMedalText">No Medal Text</String>
+	<String Key="BronzeText">Bronze Text</String>
+	<String Key="SilverText">Silver Text</String>
+	<String Key="GoldText">Gold Text</String>
+	<String Key="EndOfDayReportTitle">End of Day Report Title</String>
+	<String Key="EndOfDayReportText">End of Day Report Text</String>
+	<String Key="RequiredSituations">Required Situations</String>
+	<String Key="JobAssignments">Job Assignments</String>
+	<String Key="RequireJobInOtherSituation">Require Job In Other Situation</String>
+  
+  <String Key="Expiration">Expiration</String>
+	<String Key="GoalExpirationNotice">If enabled, the goal will automatically expire at the set time of day.</String>
+	<String Key="Hour">Hour</String>
+	<String Key="Minute">Minute</String>
+
+	<String Key="EnableExpiration">Enable Expiration</String>
+  
+  <String Key="SimFilterNotice">Only Sims that match this filter can be part of the situation.</String>
+	<String Key="StandardTerms">Standard Terms</String>
+	<String Key="BanGrimReaper">Ban Grim Reaper</String>
+	<String Key="BanEventNPCs">Ban Event NPCs</String>
+	<String Key="BanAlienPollinator">Ban Alien Pollinator</String>
+	<String Key="BanPoliceStationCriminals">Ban Police Station Criminals</String>
+	<String Key="BanSkeletons">Ban Skeletons</String>
+	<String Key="BanScarecrows">Ban Scarecrows</String>
+	<String Key="BanFlowerBunny">Ban Flower Bunny</String>
+	<String Key="BanBabyAriel">Ban Baby Ariel</String>
+	<String Key="BanNightStalker">Ban Night Stalker</String>
+	<String Key="BanMagicSages">Ban Magic Sages</String>
+	<String Key="BanUniversityProfessorNPCs">Ban University Professor NPCs</String>
+	<String Key="BanBatuuNPCs">Ban Batuu NPCs</String>
+	<String Key="BanTownMascotNPC">Ban Town Mascot NPC</String>
+	<String Key="BanGuidry">Ban Guidry</String>
+	<String Key="BanBonehilda">Ban Bonehilda</String>
+	<String Key="BanTemperance">Ban Temperance</String>
+	<String Key="BanFatherWinter">Ban Father Winter</String>
+	<String Key="BanAnimals">Ban Animals</String>
+	<String Key="BanSimsOutsideActiveHousehold">Ban ghosts outside the active household</String>
+	<String Key="BanSimsThatCantBeOutside">Ban Sims who can't be outside (vampires during the day)</String>
+	<String Key="BanSimsInHiddenHouseholds">Ban Sims in hidden households</String>
+	<String Key="BanSimsInIncompatibleWorlds">Ban Sims in incompatible worlds</String>
+	<String Key="BanSimsInIncompatibleWorldsHelp">Sims in destination worlds won't pass in residential worlds or vice-versa.</String>
+	<String Key="CustomTerms">Custom Terms</String>
+	<String Key="AddFilterTerm">Add Filter Term</String>
+	<String Key="AgeFilter">Age Filter</String>
+	<String Key="AlwaysPass">Always Pass</String>
+	<String Key="CareerFilter">Career Filter</String>
+	<String Key="GenderFilter">Gender Filter</String>
+	<String Key="IsActiveHouseholdFilter">Is Active Household Filter</String>
+	<String Key="IsRoommateFilter">Is Roommate Filter</String>
+	<String Key="RelationshipBitFilter">Relationship Bit Filter</String>
+	<String Key="RelationshipTrackFilter">Relationship Track Filter</String>
+	<String Key="SkillFilter">Skill Filter</String>
+	<String Key="TraitFilter">Trait Filter</String>
+	<String Key="RestrictCareerLevel">Restrict Career Level</String>
+	<String Key="CareerFilterNotice">Note: The game only supports filtering the EXACT career level, not a minimum or maximum.</String>
+	<String Key="CareerFilterSeniorityHelp">Prefer Sims who have been in the career for longer</String>
+  
+  <String Key="IsHidden">Is Hidden</String>
+  
+	<String Key="NoRestriction">No Restriction</String>
+	<String Key="DayOnly">Day Only</String>
+	<String Key="NightOnly">Night Only</String>
+	<String Key="RestrictTimeRange">Restrict Time Range</String>
+	<String Key="DayNightRestriction">Day/Night Restriction</String>
+  
+  <String Key="LongTerm">Long Term</String>
+	<String Key="ShortTerm">Short Term</String>
+	<String Key="Reactionary">Reactionary</String>
+	<String Key="FearConfrontation">Fear Confrontation</String>
+  
+  <String Key="GenderPreferenceCondition">Gender Preference Condition</String>
+	<String Key="AlwaysPassIfExploringRomantically">Always pass if Sims are exploring romantically</String>
+	<String Key="RequireBothSimsToBeAttracted">Require both Sims to be attracted (otherwise, only the primary participant needs to be attracted to the target)</String>
+	<String Key="InvertedGenderPreference">Invert (check if Sims are NOT attracted)</String>
+
+  <String Key="OverrideParticipants">Override Participants</String>
+  
+  <String Key="AllowSpring">Allow Spring</String>
+	<String Key="AllowSummer">Allow Summer</String>
+	<String Key="AllowFall">Allow Fall</String>
+	<String Key="AllowWinter">Allow Winter</String>
+	<String Key="PassIfSeasonsNotInstalled">Pass if Seasons is not installed</String>
+  
+  <String Key="CanExperienceAttractionCondition">Can Experience Romantic Attraction</String>
+	<String Key="CanExperienceAttractionConditionDescription">Passes if the Sim is attracted to at least one gender and/or exploring romantically. This will also only pass if the Sim is Teen or above.</String>
+	<String Key="SeasonCondition">Season Condition</String>
+  
+  <String Key="FanDisclaimer">The Sims 4 Mod Constructor is a fan-made tool and is not endorsed by or affiliated with Electronic Arts.</String>
+
+  <String Key="InteractionFeatures">Interaction Features</String>
+	<String Key="InteractionBasicExtrasNotice">Here you can define actions that are run before, after or while performing the interaction, such as having Sims receive a buff while performing the interaction, which is removed immediately afterwards.</String>
+	<String Key="RestrictBySuccess">Only pass if the interaction succeeds (or fails)</String>
+  <String Key="RequireFailure">Require the interaction to fail instead of succeed</String>
+  
+  <String Key="WhimSetExtension">Want Set Extension</String>
+	<String Key="WhimSetExtensionNotice">Want Set Extensions lets you add new Wants to existing sets that are not part of the mod, such as those created by EA.</String>
+	<String Key="WhimSets">Want Sets</String>
+  
+  <String Key="CustomTags">Custom Tags</String>
+	<String Key="EnumExtensionCustomTagsNotice">Here you can define custom tags and (optionally) inject them into existing EA interactions. Custom tags can be used with goals and objectives that require them.
+
+It is recommended you include your creator name in custom tags, to prevent conflicts with other mods. The integer represented by the tag will always be an FNV32 high-bit hash of the tag name.</String>
+	<String Key="AddItem">Add Item</String>
+	<String Key="RemoveItem">Remove Item</String>
+  <String Key="EnumExtension">Enum Extension</String>
+  
+  <String Key="InjectToInteractions">Inject to Existing Interactions</String>
+  
+	<String Key="SimCreationOptions">Sim Creation Options</String>
+  <String Key="TemplateChooser">Template Chooser</String>
+	<String Key="TemplateChooserHelp">If there aren't enough Sims to auto-invite to a situation, the game will generate some based on the selected chooser. If no chooser is specified, the game will not generate new Sims. This effects auto invites only, and has no effect on the Sims available for user selection.</String>
+	<String Key="BanGreg">Ban Greg</String>
+
+	<String Key="RequiredObjectTagsDescription">The lot must contain at least one object with one of these tags for the goal to be selected.</String>
+	<String Key="RequiredObjectTags">Required Object Tags</String>
+  
+  <String Key="IgnoreIfTraitNotFound">Ignore if the trait is not found</String>
+	<String Key="IgnoreIfTraitNotFoundHelp">For example, if the trait is from a pack the player does not have installed</String>
+	<String Key="AreYouSureFilterTerm">Are you sure you want to delete this filter term?</String>
+	<String Key="Baby">Baby</String>
+	<String Key="Toddler">Toddler</String>
+	<String Key="Child">Child</String>
+	<String Key="Teen">Teen</String>
+	<String Key="YoungAdult">Young Adult</String>
+	<String Key="Adult">Adult</String>
+	<String Key="Elder">Elder</String>
+	<String Key="MinimumAge">Minimum Age</String>
+	<String Key="MaximumAge">Maximum Age</String>
+	<String Key="IdealAge">Ideal Age</String>
+  
+  <String Key="ImportPresetsFromPackage">Import Presets from Package (Experimental)</String>
+
+	<String Key="TravelGoal">Travel Goal</String>
+  
+  <String Key="SelectOnlyOnOwnedLot">Only select this goal if the Sim is at home, on a rented Rental lot, or on an owned business lot</String>
+  
+  <String Key="Sim Count Min">SimCountMin</String>
+  <String Key="Sim Count Max">SimCountMax</String>
+
+	<String Key="Gig">Gig</String>
+	<String Key="CustomerFilter">Customer Filter</String>
+  <String Key="CustomerFilterNotice">The game will select a random Sim to treat as the Sim "giving" the gig.</String>
+  
+  <String Key="OddJobActionsNotice">These action sets will run when the Odd Job is complete. They can be optionally configured to only run if the job was successful or unsuccessful.</String>
+	<String Key="RunOnGreatSuccess">Run On Great Success</String>
+	<String Key="RunOnNormalSuccess">Run On Normal Success</String>
+	<String Key="RunOnNormalFailure">Run On Normal Failure</String>
+	<String Key="RunOnCriticalFailure">Run On Critical Failure</String>
+
+	<String Key="IsModuleTuning">Is Module Tuning (&lt;M&gt; instead of &lt;I&gt; and allows name and instance key to be overridden directly)</String>
+  
+  <String Key="ScoreType">Score Type</String>
+  <String Key="ScoreTypeAvailability">Score Type for Availability</String>
+
+	<String Key="AddToPhone">Add to Phone</String>
+	<String Key="UsesInternet">Uses Internet (not available Off the Grid)</String>
+  
+  <String Key="HasRecommendedSkillIcon">Has Recommended Skill Icon</String>
+
+  <String Key="Collapsible">Collapsible</String>
+	<String Key="CollapsibleHelp">If checked and the category only has one interaction available, the interaction will be shown by itself without needing to click the category first.</String>
+	<String Key="DisplayPriority">Display Priority</String>
+  
+  <String Key="CancelGigInteraction">Cancel Gig Interaction</String>
+	<String Key="PerformanceRequiredForPromotion">Performance Required For Promotion</String>
+  
+  <String Key="AddToObjectsWithInteraction">Add to Objects with Interaction</String>
+	<String Key="PhoneInteraction">Phone Interaction</String>
+
+	<String Key="CareerEventSituation">Career Event Situation</String>
+	<String Key="DefaultSituationTemplate">Default Situation Template</String>
 
   
 </LocalizableTextStrings>

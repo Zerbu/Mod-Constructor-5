@@ -73,7 +73,8 @@ namespace Constructor5.Elements
                 buffComponents.Add(component);
             }
 
-            if (buffComponents.Count > 0)
+            var alwaysHasContent = SharedBuffTuner.AlwaysHasContent(this);
+            if (buffComponents.Count > 0 || alwaysHasContent)
             {
                 var buffTuning = SharedBuffTuner.CreateTuning(this, buffComponents.ToArray(), "Buff");
                 var tunableList1 = tuning.Get<TunableList>("buffs");

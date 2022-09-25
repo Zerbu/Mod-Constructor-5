@@ -24,6 +24,9 @@ namespace Constructor5.InteractionTemplates.Mean
         [AutoTuneBasic("category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15509, "Mean");
 
+        public Reference ScoreType { get; set; } = new Reference() { GameReferenceLabel = "Mean", GameReference = 24572 };
+        public Reference ScoreTypeAvailability { get; set; } = new Reference() { GameReferenceLabel = "Mean", GameReference = 24573 };
+
         public string TuningActionsFile { get; set; } = "Mean";
 
         protected override void OnExport(InteractionExportContext context)

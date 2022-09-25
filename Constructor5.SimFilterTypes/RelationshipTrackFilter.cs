@@ -7,7 +7,7 @@ using Constructor5.Elements.SimFilters;
 
 namespace Constructor5.SimFilterTypes
 {
-    [SelectableObjectType("SimFilterTypes", "Relationship Track Filter")]
+    [SelectableObjectType("SimFilterTypes", "RelationshipTrackFilter")]
     [XmlSerializerExtraType]
     public class RelationshipTrackFilter : SimFilterTerm
     {

@@ -39,9 +39,9 @@ namespace Constructor5.TestConditionTypes.Relationships
         [AutoTuneTupleRange("relationship_score_interval")]
         public IntBounds TrackBounds { get; set; } = new IntBounds();
 
-        protected override string GetVariantTunableName() => "relationship";
+        protected override string GetVariantTunableName(string contextTag = null) => "relationship";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tuning = variantTunable.Get<TunableTuple>(GetVariantTunableName());
             AutoTunerInvoker.Invoke(this, tuning);

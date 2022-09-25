@@ -78,10 +78,17 @@ namespace Constructor5.Base.ExportSystem
 
         public void ForceExportContextSpecific(Element element) => ContextSpecificElementsToExport.Add(element);
 
-        public void QueueFile(string fileName, Stream stream) => QueuedFiles.Add(fileName, stream);
+        public void QueueFile(string fileName, Stream stream)
+        {
+            if (QueuedFiles.ContainsKey(fileName))
+            {
+                QueuedFiles.Remove(fileName);
+            }
+            QueuedFiles.Add(fileName, stream);
+        }
 
         public void QueueFile(string hexType, string hexGroup, string hexInstance, Stream stream)
-            => QueuedFiles.Add($"{hexType}!{hexGroup}!{hexInstance}", stream);
+            => QueueFile($"{hexType}!{hexGroup}!{hexInstance}", stream);
 
         private Exporter()
         { }

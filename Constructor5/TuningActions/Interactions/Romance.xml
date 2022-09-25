@@ -998,7 +998,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">24565<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
                   <U n="threshold">
                     <E n="comparison">GREATER_OR_EQUAL</E>
                     <T n="value">50</T>
@@ -1105,7 +1105,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">24565<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
                   <U n="threshold">
                     <E n="comparison">LESS_OR_EQUAL</E>
                     <T n="value">4</T>
@@ -1222,7 +1222,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">24565<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
                   <U n="threshold">
                     <E n="comparison">LESS_OR_EQUAL</E>
                     <T n="value">-15</T>
@@ -1491,7 +1491,7 @@
               </V>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">24565<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
                   <U n="threshold">
                     <E n="comparison">GREATER_OR_EQUAL</E>
                     <T n="value">11</T>
@@ -1512,7 +1512,7 @@
               </V>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">24565<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
                   <U n="threshold">
                     <E n="comparison">GREATER_OR_EQUAL</E>
                     <T n="value">14</T>
@@ -1597,7 +1597,7 @@
               </V>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">24565<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
                   <U n="threshold">
                     <E n="comparison">LESS</E>
                     <T n="value">13</T>
@@ -1615,7 +1615,7 @@
               </V>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">24565<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
                   <U n="threshold">
                     <E n="comparison">LESS</E>
                     <T n="value">16</T>
@@ -1805,7 +1805,7 @@
     <V t="buff">
       <U n="buff">
         <L n="blacklist">
-          <T>99711<!--buff_GettingMarried--></T>
+          <T>99711<!--Buff: buff_GettingMarried--></T>
         </L>
         <E n="subject">TargetSim</E>
       </U>
@@ -1813,18 +1813,18 @@
     <V t="trait">
       <U n="trait">
         <L n="blacklist_traits">
-          <T>133798<!--trait_Hidden_IsEventNPC_Challenge--></T>
+          <T>133798<!--Trait: trait_Hidden_IsEventNPC_Challenge--></T>
         </L>
         <E n="subject">TargetSim</E>
       </U>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">98923<!--TestSet_TargetNOTGettingMarried--></T>
+      <T n="test_set_reference">98923<!--TestSetInstance: TestSet_TargetNOTGettingMarried--></T>
     </V>
     <V t="user_running_interaction">
       <U n="user_running_interaction">
         <L n="affordances">
-          <T>106223<!--interrogate_Interrogate--></T>
+          <T>106223<!--SocialSuperInteraction: interrogate_Interrogate--></T>
         </L>
         <E n="participant">Actor</E>
         <T n="test_for_not_running">True</T>
@@ -1834,6 +1834,7 @@
       <U n="sim_info">
         <V n="ages" t="specified">
           <L n="specified">
+            <E>CHILD</E>
             <E>TEEN</E>
             <E>YOUNGADULT</E>
             <E>ADULT</E>
@@ -1850,24 +1851,24 @@
       </U>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">100790<!--testSet_TeenANDTeenORAdultANDAdult_Romance--></T>
+      <T n="test_set_reference">100790<!--TestSetInstance: testSet_TeenANDTeenORAdultANDAdult_Romance--></T>
     </V>
     <V t="trait">
       <U n="trait">
         <L n="blacklist_traits">
-          <T>175972<!--trait_Hidden_Skeleton--></T>
-          <T>177810<!--trait_Hidden_Skeleton_ServiceSkeleton--></T>
-          <T>178437<!--trait_Hidden_Skeleton_TempleSkeleton--></T>
-          <T>259314</T>
+          <T>175972<!--Trait: trait_Hidden_Skeleton--></T>
+          <T>177810<!--Trait: trait_Hidden_Skeleton_ServiceSkeleton--></T>
+          <T>178437<!--Trait: trait_Hidden_Skeleton_TempleSkeleton--></T>
+          <T>259314<!--Trait: trait_Hidden_CottageWorld_NPC_AgnesCrumplebottom--></T>
         </L>
       </U>
     </V>
     <V t="trait">
       <U n="trait">
         <L n="blacklist_traits">
-          <T>175972<!--trait_Hidden_Skeleton--></T>
-          <T>177810<!--trait_Hidden_Skeleton_ServiceSkeleton--></T>
-          <T>178437<!--trait_Hidden_Skeleton_TempleSkeleton--></T>
+          <T>175972<!--Trait: trait_Hidden_Skeleton--></T>
+          <T>177810<!--Trait: trait_Hidden_Skeleton_ServiceSkeleton--></T>
+          <T>178437<!--Trait: trait_Hidden_Skeleton_TempleSkeleton--></T>
         </L>
         <E n="subject">TargetSim</E>
       </U>
@@ -1876,6 +1877,7 @@
       <U n="sim_info">
         <V n="ages" t="specified">
           <L n="specified">
+            <E>CHILD</E>
             <E>TEEN</E>
             <E>YOUNGADULT</E>
             <E>ADULT</E>
@@ -1892,15 +1894,36 @@
         <E n="who">TargetSim</E>
       </U>
     </V>
-    <V t="test_set_reference">
-      <T n="test_set_reference">100790</T>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+          </L>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+          </L>
+        </V>
+        <E n="who">TargetSim</E>
+      </U>
     </V>
     <V t="relationship">
       <U n="relationship">
         <T n="num_relations">0</T>
         <U n="required_relationship_bits">
           <L n="match_all">
-            <T>15803<!--has_met--></T>
+            <T>15803<!--RelationshipBit: has_met--></T>
           </L>
         </U>
         <L n="subject">
@@ -1913,7 +1936,7 @@
         <T n="num_relations">1</T>
         <U n="required_relationship_bits">
           <L n="match_all">
-            <T>15803<!--has_met--></T>
+            <T>15803<!--RelationshipBit: has_met--></T>
           </L>
         </U>
         <L n="target_sim">
@@ -1922,15 +1945,22 @@
       </U>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">187992<!--testSet_FlowerArrangement_FaithfulTulipScent_FromFaithfulReceiver--></T>
+      <T n="test_set_reference">294489<!--TestSetInstance: testSet_SexualOrientation_Compatible_ActorOnly_Romantic--></T>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">147681<!--testSet_UnflityTraitEmbarrassedMood--></T>
+      <T n="test_set_reference">294485<!--TestSetInstance: testSet_SexualOrientation_KnowledgeGate_Romantic--></T>
     </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">187992<!--TestSetInstance: testSet_FlowerArrangement_FaithfulTulipScent_FromFaithfulReceiver--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">147681<!--TestSetInstance: testSet_UnflityTraitEmbarrassedMood--></T>
+    </V>
+    
     <IfString p="MinimumScoreForAvailability" v="0" Inverted="True">
       <V t="test_based_score_threshold">
         <U n="test_based_score_threshold">
-          <T n="test_based_score">24566</T>
+          <T n="test_based_score">$ScoreTypeAvailability</T>
           <U n="threshold">
             <T n="value">$MinimumScoreForAvailability</T>
           </U>

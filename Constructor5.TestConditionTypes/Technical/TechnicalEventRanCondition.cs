@@ -14,9 +14,9 @@ namespace Constructor5.TestConditionTypes.Technical
 
         public ObservableCollection<string> Events { get; set; } = new ObservableCollection<string>();
 
-        protected override string GetVariantTunableName() => "event_ran_successfully";
+        protected override string GetVariantTunableName(string contextTag = null) => "event_ran_successfully";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>("event_ran_successfully");
             var listTunable = tupleTunable.Get<TunableList>("test_events");

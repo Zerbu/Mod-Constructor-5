@@ -24,6 +24,9 @@ namespace Constructor5.InteractionTemplates.Romance
         [AutoTuneBasic("category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15510, "Romance");
 
+        public Reference ScoreType { get; set; } = new Reference() { GameReferenceLabel = "Romance", GameReference = 24565 };
+        public Reference ScoreTypeAvailability { get; set; } = new Reference() { GameReferenceLabel = "Romance", GameReference = 24566 };
+
         public string TuningActionsFile { get; set; } = "Romance";
 
         protected override void OnExport(InteractionExportContext context)

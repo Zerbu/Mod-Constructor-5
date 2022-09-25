@@ -106,6 +106,7 @@ namespace Constructor5.Core
                 Assembly.Load("Constructor5.SituationTemplates"),
                 Assembly.Load("Constructor5.SimFilterTypes"),
                 Assembly.Load("Constructor5.SituationGoalTemplates"),
+                Assembly.Load("Constructor5.BasicExtraTypes"),
             };
 
             var pluginsDir = DirectoryUtility.GetUserDirectory("Plugins");

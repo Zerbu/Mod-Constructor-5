@@ -23,9 +23,9 @@ namespace Constructor5.TestConditionTypes.Perks
         [AutoTuneThresholdTuple("value_threshold")]
         public Threshold Threshold { get; set; } = new Threshold();
 
-        protected override string GetVariantTunableName() => "bucks_test";
+        protected override string GetVariantTunableName(string contextTag = null) => "bucks_test";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
             => AutoTunerInvoker.Invoke(this, variantTunable.Get<TunableTuple>("bucks_test"));
     }
 }

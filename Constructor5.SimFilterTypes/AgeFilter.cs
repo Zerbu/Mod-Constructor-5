@@ -5,7 +5,7 @@ using Constructor5.Core;
 
 namespace Constructor5.SimFilterTypes
 {
-    [SelectableObjectType("SimFilterTypes", "Age Filter")]
+    [SelectableObjectType("SimFilterTypes", "AgeFilter")]
     [XmlSerializerExtraType]
     public class AgeFilter : SimFilterTerm
     {

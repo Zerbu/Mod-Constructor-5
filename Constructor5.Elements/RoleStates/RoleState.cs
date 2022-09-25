@@ -8,7 +8,7 @@ using Constructor5.Elements.Buffs.References;
 
 namespace Constructor5.Elements.RoleStates
 {
-    [ElementTypeData("RoleState", false, ElementTypes = new[] { typeof(RoleState) }, PresetFolders = new[] { "RoleState" })]
+    [ElementTypeData("RoleState", true, ElementTypes = new[] { typeof(RoleState) }, PresetFolders = new[] { "RoleState" })]
     public class RoleState : Element, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();

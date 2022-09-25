@@ -20,9 +20,9 @@ namespace Constructor5.TestConditionTypes.Statistics
         [AutoTuneBasic("skill")]
         public Reference Skill { get; set; } = new Reference();
 
-        protected override string GetVariantTunableName() => "skill_test";
+        protected override string GetVariantTunableName(string contextTag = null) => "skill_test";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             AutoTunerInvoker.Invoke(this, variantTunable.Get<TunableTuple>("skill_test"));
         }

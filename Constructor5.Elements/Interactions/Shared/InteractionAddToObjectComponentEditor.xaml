@@ -19,6 +19,10 @@
             <c:Field Label="AddToObjects" LabelWidth="100">
                 <c:ReferenceListControl ElementReferenceList="{Binding AddToObjects}" ElementTypeName="Object" />
             </c:Field>
+            <c:Field Label="AddToObjectsWithInteraction" LabelWidth="100">
+                <c:ReferenceListControl ElementReferenceList="{Binding AddToObjectsWithInteraction}" ElementTypeName="AnyInteraction" />
+            </c:Field>
+            <c:CheckBox Content="AddToPhone" IsChecked="{Binding AddToPhone}" />
             <!--<c:Field Label="AddToObjectsWithInteraction" LabelWidth="200">
                 <c:ReferenceListControl ElementReferenceList="{Binding AddToObjectsWithInteraction}" ElementTypeName="AddToObjectsWithInteraction" />
             </c:Field>-->

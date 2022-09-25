@@ -1,18 +1,19 @@
-<Window x:Class="Constructor5.UI.Dialogs.PresetSelect.PresetSelectWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:c="clr-namespace:Constructor5.UI.Shared"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-        Title="The Sims 4 Mod Constructor (V5)"
-        Width="800"
-        Height="600"
-        FontSize="{StaticResource Constructor.BigFontSize}"
-        Style="{StaticResource Constructor.WindowStyle}"
-        WindowStartupLocation="CenterOwner"
-        WindowStyle="ToolWindow"
-        mc:Ignorable="d">
+<Window
+    x:Class="Constructor5.UI.Dialogs.PresetSelect.PresetSelectWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    Title="The Sims 4 Mod Constructor (V5)"
+    Width="800"
+    Height="600"
+    FontSize="{StaticResource Constructor.BigFontSize}"
+    Style="{StaticResource Constructor.WindowStyle}"
+    WindowStartupLocation="CenterOwner"
+    WindowStyle="ToolWindow"
+    mc:Ignorable="d">
     <Border Style="{StaticResource Constructor.OverlayStyle}">
         <Grid>
             <Grid.RowDefinitions>
@@ -24,16 +25,21 @@
                     <ColumnDefinition Width="200" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <ListView x:Name="GroupsListView"
-                          Padding="{StaticResource Constructor.BigPadding}"
-                          SelectionChanged="GroupsListView_SelectionChanged"
-                          SelectionMode="Single">
+                <ListView
+                    x:Name="GroupsListView"
+                    Padding="{StaticResource Constructor.BigPadding}"
+                    SelectionChanged="GroupsListView_SelectionChanged"
+                    SelectionMode="Single">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <c:TextBlock IsLocalizable="False" Text="{Binding Label}" />
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
+                <GridSplitter
+                    Width="1"
+                    HorizontalAlignment="Right"
+                    Background="{StaticResource Constructor.Foreground}" />
                 <Grid Grid.Column="1">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
@@ -41,24 +47,28 @@
                     </Grid.RowDefinitions>
                     <StackPanel Margin="{StaticResource Constructor.BigPadding}">
                         <c:Field Label="Search">
-                            <TextBox x:Name="SearchBox"
-                                     Grid.Column="1"
-                                     TextChanged="SearchBox_TextChanged" />
+                            <TextBox
+                                x:Name="SearchBox"
+                                Grid.Column="1"
+                                TextChanged="SearchBox_TextChanged" />
                         </c:Field>
                         <StackPanel Orientation="Horizontal">
                             <c:TextBlock VerticalAlignment="Center" Text="SortBy" />
-                            <c:Button x:Name="SortByLabelButton"
-                                      Click="SortByLabelButton_Click"
-                                      Content="Label" />
-                            <c:Button x:Name="SortByValueButton"
-                                      Click="SortByValueButton_Click"
-                                      Content="Value" />
+                            <c:Button
+                                x:Name="SortByLabelButton"
+                                Click="SortByLabelButton_Click"
+                                Content="Label" />
+                            <c:Button
+                                x:Name="SortByValueButton"
+                                Click="SortByValueButton_Click"
+                                Content="Value" />
                         </StackPanel>
                     </StackPanel>
-                    <ListView x:Name="PresetsListView"
-                              Grid.Row="1"
-                              Padding="{StaticResource Constructor.BigPaddingMinusTop}"
-                              SelectionMode="Single">
+                    <ListView
+                        x:Name="PresetsListView"
+                        Grid.Row="1"
+                        Padding="{StaticResource Constructor.BigPaddingMinusTop}"
+                        SelectionMode="Single">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ContentPresenter Content="{Binding FullValue}" />
@@ -71,16 +81,25 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
                 <c:Expander Header="ManualInput">
                     <xctk:WatermarkTextBox x:Name="ManualInput" Watermark="Enter the instance key of a resource from the game" />
                 </c:Expander>
-                <c:Button x:Name="SetReferenceButton"
-                          Grid.Column="1"
-                          Margin="2"
-                          HorizontalAlignment="Right"
-                          Click="SetReferenceButton_Click"
-                          Content="Select" />
+                <c:Button
+                    x:Name="ImportPackage"
+                    Grid.Column="1"
+                    Margin="2"
+                    HorizontalAlignment="Right"
+                    Click="ImportPackage_Click"
+                    Content="ImportPresetsFromPackage" />
+                <c:Button
+                    x:Name="SetReferenceButton"
+                    Grid.Column="2"
+                    Margin="2"
+                    HorizontalAlignment="Right"
+                    Click="SetReferenceButton_Click"
+                    Content="Select" />
             </Grid>
         </Grid>
     </Border>

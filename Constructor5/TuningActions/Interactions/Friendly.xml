@@ -838,9 +838,9 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">249138<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
                   <U n="threshold">
-                    <T n="value">15</T>
+                    <T n="value">$ScoreForGreatSuccess</T>
                   </U>
                 </U>
               </V>
@@ -916,10 +916,10 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">249138<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
                   <U n="threshold">
                     <E n="comparison">LESS_OR_EQUAL</E>
-                    <T n="value">-10</T>
+                    <T n="value">$ScoreForFailure</T>
                   </U>
                 </U>
               </V>
@@ -995,10 +995,10 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">249138<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
+                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
                   <U n="threshold">
                     <E n="comparison">LESS_OR_EQUAL</E>
-                    <T n="value">-20</T>
+                    <T n="value">$ScoreForHorribleFailure</T>
                   </U>
                 </U>
               </V>
@@ -1241,7 +1241,7 @@
     <IfString p="MinimumScoreForAvailability" v="0" Inverted="True">
       <V t="test_based_score_threshold">
         <U n="test_based_score_threshold">
-          <T n="test_based_score">24557</T>
+          <T n="test_based_score">$ScoreTypeAvailability</T>
           <U n="threshold">
             <T n="value">$MinimumScoreForAvailability</T>
           </U>

@@ -7,9 +7,11 @@ namespace Constructor5.Base.ExportSystem.Tuning.Utilities
 {
     public static class ElementTuning
     {
-        public static TuningHeader Create(Element element, string suffix = null)
+        public static TuningHeader Create(Element element, string suffix = null) => Create<TuningHeader>(element, suffix);
+
+        public static TuningHeader Create<T>(Element element, string suffix = null) where T : TuningHeader, new()
         {
-            var result = new TuningHeader
+            var result = new T()
             {
                 Name = GetFullName(element, suffix)
             };

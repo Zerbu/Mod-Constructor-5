@@ -11,7 +11,7 @@ namespace Constructor5.Elements.SituationGoals.Templates
     {
         public bool IgnoreIfAlreadyMet { get; set; }
         public override string Label => "Sim Condition Goal";
-        public TestCondition PrimaryCondition { get; set; } = new AlwaysRunCondition();
+        public TestCondition PrimaryCondition { get; set; } = new NoTestConditionSelected();
 
         protected override void OnExport(SituationGoalExportContext context)
         {

@@ -9,21 +9,23 @@
     d:DesignHeight="450"
     d:DesignWidth="800"
     mc:Ignorable="d">
-    <c:LeftRightMargin>
-        <c:SpacedStack>
-            <c:TextBlock Text="OddJobAssignmentsNotice" />
-            <StackPanel>
-                <c:CheckBox Content="IsAssignmentJob" IsChecked="{Binding IsAssignmentJob}" />
-                <StackPanel Visibility="{Binding IsAssignmentJob, Converter={StaticResource BoolToVis}}">
-                    <c:ReferenceControlWithEditorUnderneath
-                        CreateElementFunction="CreateAssignmentFunction"
-                        EditorTag="Career"
-                        ElementTypeName="ObjectiveSet"
-                        Reference="{Binding ObjectiveSet}"
-                        ShowBrowseButton="False"
-                        ShowCreateButton="True" />
+    <ScrollViewer>
+        <c:LeftRightMargin>
+            <c:SpacedStack>
+                <c:TextBlock Text="OddJobAssignmentsNotice" />
+                <StackPanel>
+                    <c:CheckBox Content="IsAssignmentJob" IsChecked="{Binding IsAssignmentJob}" />
+                    <StackPanel Visibility="{Binding IsAssignmentJob, Converter={StaticResource BoolToVis}}">
+                        <c:ReferenceControlWithEditorUnderneath
+                            CreateElementFunction="CreateAssignmentFunction"
+                            EditorTag="Career"
+                            ElementTypeName="ObjectiveSet"
+                            Reference="{Binding ObjectiveSet}"
+                            ShowBrowseButton="False"
+                            ShowCreateButton="True" />
+                    </StackPanel>
                 </StackPanel>
-            </StackPanel>
-        </c:SpacedStack>
-    </c:LeftRightMargin>
+            </c:SpacedStack>
+        </c:LeftRightMargin>
+    </ScrollViewer>
 </UserControl>

@@ -13,7 +13,7 @@ namespace Constructor5.UI.Dialogs.ExceptionDialog
         public static void Show(Exception exception, string textBlockOverride = null)
         {
             var dialog = new ExceptionDialogWindow();
-            dialog.ErrorTextBox.Text = exception.Message+"\n\n"+exception.StackTrace;
+            dialog.ErrorTextBox.Text = exception.Message + "\n\n" + exception.StackTrace;
             if (textBlockOverride != null)
             {
                 dialog.TextBlock.Text = textBlockOverride;

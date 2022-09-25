@@ -25,6 +25,7 @@ namespace Constructor5.UI.Launcher
         void IOnProjectCreatedOrLoaded.OnProjectCreatedOrLoaded()
         {
             new MainWindow().Show();
+            Hooks.UnregisterClass(this);
             Close();
         }
 

@@ -90,6 +90,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionTriggers\ActionTriggerComponent.cs" />
+    <Compile Include="ActionTriggers\ActionTriggerExportContext.cs" />
+    <Compile Include="ActionTriggers\ActionTriggerInfoComponent.cs" />
+    <Compile Include="ActionTriggers\ActionTriggerInfoComponentEditor.xaml.cs">
+      <DependentUpon>ActionTriggerInfoComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ActionTriggers\ActionTriggerLootComponent.cs" />
+    <Compile Include="ActionTriggers\ActionTriggerLootComponentEditor.xaml.cs">
+      <DependentUpon>ActionTriggerLootComponentEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Animations\Animation.cs" />
     <Compile Include="AspirationCategories\AspirationCategory.cs" />
     <Compile Include="AspirationCategories\AspirationCategoryEditor.xaml.cs">
@@ -201,6 +211,7 @@
       <DependentUpon>BuffModifiersUI.xaml</DependentUpon>
     </Compile>
     <Compile Include="Buffs\Modifiers\BuffReferenceModifier.cs" />
+    <Compile Include="Buffs\PreferenceTraitTuner.cs" />
     <Compile Include="Buffs\References\AutoTuneBuffWithReasonListAttribute.cs" />
     <Compile Include="Buffs\References\AutoTuneBuffWithReasonTupleAttribute.cs" />
     <Compile Include="Buffs\References\BuffWithReason.cs" />
@@ -216,11 +227,17 @@
       <DependentUpon>WeightedBuffReferenceListItemEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Buffs\SharedBuffTuner.cs" />
+    <Compile Include="CareerEvents\CareerEvent.cs" />
+    <Compile Include="CareerEvents\CareerEventEditor.xaml.cs">
+      <DependentUpon>CareerEventEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CareerEvents\CareerEventSituationContextModifier.cs" />
     <Compile Include="CareerLevels\CareerLevel.cs" />
     <Compile Include="CareerLevels\CareerLevelContextModifier.cs" />
     <Compile Include="CareerLevels\CareerLevelEditor.xaml.cs">
       <DependentUpon>CareerLevelEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CareerLevels\CareerLevelSimDataPositions.cs" />
     <Compile Include="Careers\Components\CareerInteractionComponent.cs" />
     <Compile Include="Careers\Components\CareerInteractionComponentEditor.xaml.cs">
       <DependentUpon>CareerInteractionComponentEditor.xaml</DependentUpon>
@@ -240,6 +257,10 @@
     </Compile>
     <Compile Include="Careers\Templates\CareerTemplateMessageOverrides.xaml.cs">
       <DependentUpon>CareerTemplateMessageOverrides.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Careers\Templates\CareerTemplateOddJobs.cs" />
+    <Compile Include="Careers\Templates\CareerTemplateOddJobsEditor.xaml.cs">
+      <DependentUpon>CareerTemplateOddJobsEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Careers\Templates\CareerTemplatePartTime.cs" />
     <Compile Include="Careers\Templates\CareerTemplatePartTimeEditor.xaml.cs">
@@ -312,6 +333,20 @@
     </Compile>
     <Compile Include="CompoundConditionElements\CompoundConditionOrGroup.cs" />
     <Compile Include="Emotions\Emotion.cs" />
+    <Compile Include="EnumExtensions\EnumExtension.cs" />
+    <Compile Include="EnumExtensions\EnumExtensionComponent.cs" />
+    <Compile Include="EnumExtensions\EnumExtensionCustomTagsEditor.xaml.cs">
+      <DependentUpon>EnumExtensionCustomTagsEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EnumExtensions\EnumExtensionCustomTags.cs" />
+    <Compile Include="EnumExtensions\EnumExtensionEditor.xaml.cs">
+      <DependentUpon>EnumExtensionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EnumExtensions\EnumExtensionExportContext.cs" />
+    <Compile Include="EnumExtensions\EnumExtensionItem.cs" />
+    <Compile Include="EnumExtensions\EnumExtensionTag.cs" />
+    <Compile Include="EnumExtensions\PythonSteps\AddEnumInjectorPythonStep.cs" />
+    <Compile Include="EnumExtensions\PythonSteps\EnumTagsPythonStep.cs" />
     <Compile Include="HolidayTraditions\Components\HolidayTraditionBuffsComponent.cs" />
     <Compile Include="HolidayTraditions\Components\HolidayTraditionBuffsEditor.xaml.cs">
       <DependentUpon>HolidayTraditionBuffsEditor.xaml</DependentUpon>
@@ -332,6 +367,20 @@
       <DependentUpon>HolidayTraditionEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="HolidayTraditions\HolidayTraditionExportContext.cs" />
+    <Compile Include="InteractionBasicExtras\BasicExtra.cs" />
+    <Compile Include="InteractionBasicExtras\BasicExtraExportContext.cs" />
+    <Compile Include="InteractionBasicExtras\BasicExtrasConditionGroupAction.cs" />
+    <Compile Include="InteractionBasicExtras\BasicExtrasConditionGroup.cs" />
+    <Compile Include="InteractionBasicExtras\BasicExtrasConditionGroupItem.cs" />
+    <Compile Include="InteractionBasicExtras\BasicExtrasControl.xaml.cs">
+      <DependentUpon>BasicExtrasControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InteractionBasicExtras\BasicExtrasEditorTemplateSelector.cs" />
+    <Compile Include="InteractionBasicExtras\BasicExtrasList.cs" />
+    <Compile Include="InteractionBasicExtras\BasicExtrasTuning.cs" />
+    <Compile Include="InteractionBasicExtras\EmptyBasicExtra.cs" />
+    <Compile Include="InteractionBasicExtras\SetActionLabelCommand.cs" />
+    <Compile Include="InteractionBasicExtras\SetConditionGroupLabelCommand.cs" />
     <Compile Include="Interactions\AnyInteraction.cs" />
     <Compile Include="Interactions\Career\CareerInteraction.cs" />
     <Compile Include="Interactions\Career\CareerInteractionContextModifier.cs" />
@@ -359,6 +408,10 @@
     <Compile Include="Interactions\Shared\InteractionAddToObjectComponent.cs" />
     <Compile Include="Interactions\Shared\InteractionAddToObjectComponentEditor.xaml.cs">
       <DependentUpon>InteractionAddToObjectComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactions\Shared\InteractionBasicExtrasComponent.cs" />
+    <Compile Include="Interactions\Shared\InteractionBasicExtrasComponentEditor.xaml.cs">
+      <DependentUpon>InteractionBasicExtrasComponentEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Interactions\Shared\InteractionConditionsComponent.cs" />
     <Compile Include="Interactions\Shared\InteractionElement.cs" />
@@ -438,18 +491,30 @@
       <DependentUpon>LotTraitInfoEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="ObjectiveSets\AssignedAspirationTrackContextModifier.cs" />
+    <Compile Include="ObjectiveSets\CareerAssignmentGigContextModifier.cs" />
     <Compile Include="ObjectiveSets\CareerAssignmentObjectiveSetContextModifier.cs" />
     <Compile Include="ObjectiveSets\CareerObjectiveSetContextModifier.cs" />
     <Compile Include="ObjectiveSets\ObjectiveSet.cs" />
     <Compile Include="ObjectiveSets\ObjectiveSetEditor.xaml.cs">
       <DependentUpon>ObjectiveSetEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ActionTriggers\ActionTrigger.cs" />
+    <Compile Include="ActionTriggers\ActionTriggerEditor.xaml.cs">
+      <DependentUpon>ActionTriggerEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ActionTriggers\ImportActionTriggerPythonStep.cs" />
     <Compile Include="Objectives\Objective.cs" />
     <Compile Include="Objectives\ObjectiveCompletionType.cs" />
     <Compile Include="Objectives\ObjectiveEditor.xaml.cs">
       <DependentUpon>ObjectiveEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Objects\Object.cs" />
+    <Compile Include="OddJobs\Components\OddJobActionsComponentEditor.xaml.cs">
+      <DependentUpon>OddJobActionsComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OddJobs\Components\OddJobActionsItemEditor.xaml.cs">
+      <DependentUpon>OddJobActionsItemEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="OddJobs\Components\OddJobAssignmentsComponent.cs" />
     <Compile Include="OddJobs\Components\OddJobAssignmentsComponentEditor.xaml.cs">
       <DependentUpon>OddJobAssignmentsComponentEditor.xaml</DependentUpon>
@@ -457,6 +522,12 @@
     <Compile Include="OddJobs\Components\OddJobInfoComponent.cs" />
     <Compile Include="OddJobs\Components\OddJobInfoComponentEditor.xaml.cs">
       <DependentUpon>OddJobInfoComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OddJobs\Components\OddJobActionsComponent.cs" />
+    <Compile Include="OddJobs\Components\OddJobActionsItem.cs" />
+    <Compile Include="OddJobs\Components\OddJobSpecialCasesComponent.cs" />
+    <Compile Include="OddJobs\Components\OddJobSpecialCasesComponentEditor.xaml.cs">
+      <DependentUpon>OddJobSpecialCasesComponentEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="OddJobs\OddJob.cs" />
     <Compile Include="OddJobs\OddJobBuckets.cs" />
@@ -545,6 +616,17 @@
     </Compile>
     <Compile Include="SimFilters\SimFilterTerm.cs" />
     <Compile Include="SimFilters\SimFilterTermItem.cs" />
+    <Compile Include="SimpleWhimSets\SimpleWhimSet.cs" />
+    <Compile Include="SimpleWhimSets\SimpleWhimSetEditor.xaml.cs">
+      <DependentUpon>SimpleWhimSetEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleWhimSets\SimpleWhimSetMiniEditor.xaml.cs">
+      <DependentUpon>SimpleWhimSetMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleWhimSets\WeightedWhimReferenceListItem.cs" />
+    <Compile Include="SimpleWhimSets\WeightedWhimReferenceListItemEditor.xaml.cs">
+      <DependentUpon>WeightedWhimReferenceListItemEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SituationActivities\SituationActivity.cs" />
     <Compile Include="SituationActivities\SituationActivityEditor.xaml.cs">
       <DependentUpon>SituationActivityEditor.xaml</DependentUpon>
@@ -558,6 +640,10 @@
     </Compile>
     <Compile Include="SituationGoalSets\SituationGoalSetMiniEditor.xaml.cs">
       <DependentUpon>SituationGoalSetMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SituationGoals\Components\SituationGoalExpirationComponent.cs" />
+    <Compile Include="SituationGoals\Components\SituationGoalExpirationComponentEditor.xaml.cs">
+      <DependentUpon>SituationGoalExpirationComponentEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="SituationGoals\Components\SituationGoalLootOnCompleteComponent.cs" />
     <Compile Include="SituationGoals\Components\SituationGoalLootOnCompleteComponentEditor.xaml.cs">
@@ -627,6 +713,11 @@
       <DependentUpon>SituationJobMiniEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Situations\Components\DefaultSituationTemplate.cs" />
+    <Compile Include="Situations\Components\SituationDisguiseAsNonGoaledPythonStep.cs" />
+    <Compile Include="Situations\Components\SituationSpecialCasesComponentEditor.xaml.cs">
+      <DependentUpon>SituationSpecialCasesComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Situations\Components\SituationSpecialCasesComponent.cs" />
     <Compile Include="Situations\Components\SituationGoaledEventEditor.xaml.cs">
       <DependentUpon>SituationGoaledEventEditor.xaml</DependentUpon>
     </Compile>
@@ -635,6 +726,7 @@
       <DependentUpon>SituationInfoEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Situations\Components\SituationGoaledEventComponent.cs" />
+    <Compile Include="Situations\Components\SituationSuppressAutomaticBronzePythonStep.cs" />
     <Compile Include="Situations\Components\SituationTemplateComponent.cs" />
     <Compile Include="Situations\Components\SituationVenuesComponent.cs" />
     <Compile Include="Situations\Components\SituationVenuesEditor.xaml.cs">
@@ -653,11 +745,14 @@
     <Compile Include="Statistics\StatisticEditor.xaml.cs">
       <DependentUpon>StatisticEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TemplateChoosers\TemplateChooser.cs" />
+    <Compile Include="TestBasedScore\TestBasedScore.cs" />
     <Compile Include="TestConditions\AlwaysRunCondition.cs" />
     <Compile Include="TestConditions\AutoEditorConditionList.cs" />
     <Compile Include="TestConditions\ConditionListControl.xaml.cs">
       <DependentUpon>ConditionListControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TestConditions\NoTestConditionSelected.cs" />
     <Compile Include="TestConditions\TestCondition.cs" />
     <Compile Include="TestConditions\TestConditionList.cs" />
     <Compile Include="TestConditions\TestConditionListItem.cs" />
@@ -716,6 +811,36 @@
       <DependentUpon>TraitMiniEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Venue\Venue.cs" />
+    <Compile Include="WeeklyScheduleSituationDataSnippets\WeeklyScheduleSituationData.cs" />
+    <Compile Include="WeeklyScheduleSituationDataSnippets\WeeklyScheduleSituationDataEditor.xaml.cs">
+      <DependentUpon>WeeklyScheduleSituationDataEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WeeklyScheduleSituationDataSnippets\WeeklyScheduleSituationDataItem.cs" />
+    <Compile Include="WeeklyScheduleSituationDataSnippets\WeeklyScheduleSituationDataItemEditor.xaml.cs">
+      <DependentUpon>WeeklyScheduleSituationDataItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WeeklyScheduleSituationSets\WeeklyScheduleSituationSetEditor.xaml.cs">
+      <DependentUpon>WeeklyScheduleSituationSetEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WeeklyScheduleSituationSets\WeeklyScheduleSituationSetItem.cs" />
+    <Compile Include="WeeklyScheduleSituationSets\WeeklyScheduleSituationSetItemEditor.xaml.cs">
+      <DependentUpon>WeeklyScheduleSituationSetItemEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WeeklyScheduleSituationSets\WeeklyScheduleSituationSet.cs" />
+    <Compile Include="WhimSetExtensions\WhimSetExtension.cs" />
+    <Compile Include="WhimSetExtensions\WhimSetExtensionEditor.xaml.cs">
+      <DependentUpon>WhimSetExtensionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WhimSetExtensions\WhimSetExtensionPythonStep.cs" />
+    <Compile Include="Whims\WhimGoalContextModifier.cs" />
+    <Compile Include="Whims\Whim.cs" />
+    <Compile Include="Whims\WhimEditor.xaml.cs">
+      <DependentUpon>WhimEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Whims\WhimMiniEditor.xaml.cs">
+      <DependentUpon>WhimMiniEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Whims\WhimTypes.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
@@ -738,6 +863,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="ActionTriggers\ActionTriggerInfoComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ActionTriggers\ActionTriggerLootComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AspirationCategories\AspirationCategoryEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -846,6 +979,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="CareerEvents\CareerEventEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CareerLevels\CareerLevelEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -883,6 +1020,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Careers\Templates\CareerTemplateMessageOverrides.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\Templates\CareerTemplateOddJobsEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -930,6 +1071,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="EnumExtensions\EnumExtensionCustomTagsEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EnumExtensions\EnumExtensionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="HolidayTraditions\Components\HolidayTraditionBuffsEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -943,6 +1092,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="HolidayTraditions\HolidayTraditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InteractionBasicExtras\BasicExtrasControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -967,6 +1120,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Interactions\Shared\InteractionAddToObjectComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactions\Shared\InteractionBasicExtrasComponentEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1026,7 +1183,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ActionTriggers\ActionTriggerEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Objectives\ObjectiveEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OddJobs\Components\OddJobActionsComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OddJobs\Components\OddJobActionsItemEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1035,6 +1204,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="OddJobs\Components\OddJobInfoComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OddJobs\Components\OddJobSpecialCasesComponentEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1110,6 +1283,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SimpleWhimSets\SimpleWhimSetEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SimpleWhimSets\SimpleWhimSetMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SimpleWhimSets\WeightedWhimReferenceListItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SituationActivities\SituationActivityEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -1123,6 +1308,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SituationGoalSets\SituationGoalSetMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SituationGoals\Components\SituationGoalExpirationComponentEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1185,6 +1374,10 @@
     <Page Include="SituationJobs\SituationJobMiniEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Situations\Components\SituationSpecialCasesComponentEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Situations\Components\SituationGoaledEventEditor.xaml">
       <SubType>Designer</SubType>
@@ -1255,6 +1448,34 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Traits\TraitMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WeeklyScheduleSituationDataSnippets\WeeklyScheduleSituationDataEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WeeklyScheduleSituationDataSnippets\WeeklyScheduleSituationDataItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WeeklyScheduleSituationSets\WeeklyScheduleSituationSetEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WeeklyScheduleSituationSets\WeeklyScheduleSituationSetItemEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WhimSetExtensions\WhimSetExtensionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Whims\WhimEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Whims\WhimMiniEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

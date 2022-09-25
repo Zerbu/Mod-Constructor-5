@@ -25,9 +25,9 @@ namespace Constructor5.TestConditionTypes.Locations
         public Reference LotType { get; set; } = new Reference();
         public bool LotTypeRestrictionInverted { get; set; }
 
-        protected override string GetVariantTunableName() => "location";
+        protected override string GetVariantTunableName(string contextTag = null) => "location";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>(GetVariantTunableName());
             AutoTunerInvoker.Invoke(this, tupleTunable);

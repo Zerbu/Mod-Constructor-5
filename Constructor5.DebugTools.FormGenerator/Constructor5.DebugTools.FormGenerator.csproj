@@ -119,6 +119,10 @@
       <Project>{f6468a79-3da7-4f70-878b-d3c47e67294e}</Project>
       <Name>Constructor5.Base</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Constructor5.BasicExtraTypes\Constructor5.BasicExtraTypes.csproj">
+      <Project>{84e6323c-12a8-47dc-a68d-00717a38ce4a}</Project>
+      <Name>Constructor5.BasicExtraTypes</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Constructor5.Core\Constructor5.Core.csproj">
       <Project>{c0f0f8a5-0f1d-47ca-a3d9-a58042374574}</Project>
       <Name>Constructor5.Core</Name>

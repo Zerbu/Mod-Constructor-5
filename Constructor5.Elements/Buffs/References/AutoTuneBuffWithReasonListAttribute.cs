@@ -2,6 +2,7 @@ using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
+using System.Linq;
 
 namespace Constructor5.Elements.Buffs.References
 {
@@ -18,10 +19,16 @@ namespace Constructor5.Elements.Buffs.References
                 return;
             }
 
+            var refList = (ReferenceList)value;
+            var items = refList.GetOfType<BuffWithReasonReferenceListItem>();
+            if (!items.Any())
+            {
+                return;
+            }
+
             var list = tuning.Get<TunableList>(TunableName);
 
-            var refList = (ReferenceList)value;
-            foreach (var item in refList.GetOfType<BuffWithReasonReferenceListItem>())
+            foreach (var item in items)
             {
                 foreach (var key in ElementTuning.GetInstanceKeys(item.Reference))
                 {

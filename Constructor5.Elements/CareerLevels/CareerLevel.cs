@@ -10,6 +10,7 @@ using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Elements.Careers;
 using Constructor5.Elements.Careers.Components;
+using Constructor5.Elements.Careers.Templates;
 using Constructor5.Elements.CareerTracks;
 using System;
 using System.Collections.Generic;
@@ -50,6 +51,9 @@ namespace Constructor5.Elements.CareerLevels
         [AutoTuneBasic("promotion_reward")]
         public Reference PromotedToReward { get; set; } = new Reference();
 
+        [AutoTuneBasic("promote_performance_level", IgnoreIf = "100")]
+        public int PerformanceRequiredForPromotion { get; set; } = 100;
+
         public Reference Uniform { get; set; } = new Reference();
 
         public int SimoleonsPerHour { get; set; }
@@ -64,23 +68,41 @@ namespace Constructor5.Elements.CareerLevels
             tuning.Class = "CareerLevel";
             tuning.InstanceType = "career_level";
             tuning.Module = "careers.career_tuning";
-            tuning.SimDataHandler = new SimDataHandler("SimData/CareerLevel.data");
 
             var career = (Career)GetContextModifier<CareerLevelContextModifier>().Career.Element;
+
+            var template = career.GetComponent<CareerTemplateComponent>().Template;
+
+            tuning.SimDataHandler = new SimDataHandler($"SimData/{template.GetLevelSimDataFileName()}.data");
+
+            var positions = template.GetLevelSimDataPositions();
+
             var stat = career.GetComponent<CareerInfoComponent>().PerformanceStatistic;
             tuning.Set<TunableBasic>("performance_stat", stat);
-            tuning.SimDataHandler.Write(288, (ulong)ElementTuning.GetSingleInstanceKey(stat));
+            tuning.SimDataHandler.Write(positions.PerformanceStat, (ulong)ElementTuning.GetSingleInstanceKey(stat));
 
             {
                 var tunableVariant1 = tuning.Set<TunableVariant>("pay_type", "simoleons_per_hour");
                 tunableVariant1.Set<TunableBasic>("simoleons_per_hour", SimoleonsPerHour);
+            }
+
+            if (!template.IgnorePay())
+            {
                 tuning.SimDataHandler.Write(384, SimoleonsPerHour);
             }
 
-            TunePerformance(tuning);
-            TuneTime(tuning);
+            if (!template.IgnorePerformance())
+            {
+                TunePerformance(tuning);
+            }
+            
+            if (!template.IgnoreSchedule())
+            {
+                TuneTime(tuning);
+            }
+            
 
-            TuningActionInvoker.InvokeFromFile("Career Level", new TuningActionContext
+            TuningActionInvoker.InvokeFromFile(template.GetLevelTuningActionsFile(), new TuningActionContext
             {
                 Tuning = tuning,
                 DataContext = this,
@@ -95,7 +117,7 @@ namespace Constructor5.Elements.CareerLevels
                 tunableVariant1.Set<TunableBasic>("enabled", Uniform);
             }
 
-            TuneSimData(tuning);
+            TuneSimData(tuning, template);
 
             TuneScreenSlam(tuning);
             
@@ -310,30 +332,35 @@ namespace Constructor5.Elements.CareerLevels
             }
         }
 
-        private void TuneSimData(TuningHeader tuning)
+        private void TuneSimData(TuningHeader tuning, CareerTemplateBase template)
         {
+            var positions = template.GetLevelSimDataPositions();
+
             // objective set
-            tuning.SimDataHandler.Write(264, ElementTuning.GetSingleInstanceKey(ObjectiveSet) ?? 0);
+            tuning.SimDataHandler.Write(positions.ObjectiveSet, ElementTuning.GetSingleInstanceKey(ObjectiveSet) ?? 0);
 
             // ideal emotion: 272
 
             // performance statistic: 288
 
             //day+time
-            tuning.SimDataHandler.Write(340, TimeDurationHour);
-            tuning.SimDataHandler.Write(368, TimeBeginHour);
-            tuning.SimDataHandler.Write(372, TimeBeginMinute);
-            tuning.SimDataHandler.Write(352, Include0Sunday);
-            tuning.SimDataHandler.Write(353, Include1Monday);
-            tuning.SimDataHandler.Write(354, Include2Tuesday);
-            tuning.SimDataHandler.Write(355, Include3Wednesday);
-            tuning.SimDataHandler.Write(356, Include4Thursday);
-            tuning.SimDataHandler.Write(357, Include5Friday);
-            tuning.SimDataHandler.Write(358, Include6Saturday);
+            if (!template.IgnoreSchedule())
+            {
+                tuning.SimDataHandler.Write(340, TimeDurationHour);
+                tuning.SimDataHandler.Write(368, TimeBeginHour);
+                tuning.SimDataHandler.Write(372, TimeBeginMinute);
+                tuning.SimDataHandler.Write(352, Include0Sunday);
+                tuning.SimDataHandler.Write(353, Include1Monday);
+                tuning.SimDataHandler.Write(354, Include2Tuesday);
+                tuning.SimDataHandler.Write(355, Include3Wednesday);
+                tuning.SimDataHandler.Write(356, Include4Thursday);
+                tuning.SimDataHandler.Write(357, Include5Friday);
+                tuning.SimDataHandler.Write(358, Include6Saturday);
+            }
 
             //level info
-            tuning.SimDataHandler.WriteText(300, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
-            tuning.SimDataHandler.WriteText(304, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
+            tuning.SimDataHandler.WriteText(positions.Name, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
+            tuning.SimDataHandler.WriteText(positions.Description, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
         }
 
         private void TuneTime(TuningHeader tuning)

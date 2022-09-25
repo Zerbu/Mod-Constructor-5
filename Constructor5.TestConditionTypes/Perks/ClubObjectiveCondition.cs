@@ -8,6 +8,6 @@ namespace Constructor5.TestConditionTypes.Perks
     [XmlSerializerExtraType]
     public class ClubObjectiveCondition : ClubCondition
     {
-        protected override string GetVariantTunableName() => "club_tests";
+        protected override string GetVariantTunableName(string contextTag = null) => "club_tests";
     }
 }

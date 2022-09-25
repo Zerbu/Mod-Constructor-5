@@ -48,9 +48,9 @@ namespace Constructor5.Base.Python
                     result.AppendLine($"            key = sims4.resources.get_resource_key(m_id, Types.INTERACTION)");
                     result.AppendLine($"            mixer_tuning = affordance_manager.get(key)");
                     result.AppendLine($"            if mixer_tuning is None:");
-                    result.AppendLine($"                return");
+                    result.AppendLine($"                continue");
                     result.AppendLine($"            if mixer_tuning in snippet_tuning.value:");
-                    result.AppendLine($"                return");
+                    result.AppendLine($"                continue");
                     result.AppendLine($"            snippet_tuning.value = snippet_tuning.value + (mixer_tuning, )");
                 }
             }
@@ -60,7 +60,10 @@ namespace Constructor5.Base.Python
 
         public override IEnumerable<string> GetHeaders() => new[] { "import services", "import sims4.resources", "from sims4.tuning.instance_manager import InstanceManager", "from sims4.resources import Types" };
 
-        protected internal override void Cleanup() { }
+        protected internal override void Cleanup()
+        {
+            SnippetToMixer.Clear();
+        }
 
         protected Dictionary<ulong, List<ulong>> SnippetToMixer { get; } = new Dictionary<ulong, List<ulong>>();
     }

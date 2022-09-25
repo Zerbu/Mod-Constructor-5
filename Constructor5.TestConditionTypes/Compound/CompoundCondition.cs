@@ -8,6 +8,7 @@ using Constructor5.Elements.TestConditions;
 using Constructor5.Core;
 using System.Collections.Generic;
 using System.Linq;
+using Constructor5.Base.ExportSystem;
 
 namespace Constructor5.TestConditionTypes.Compound
 {
@@ -19,12 +20,20 @@ namespace Constructor5.TestConditionTypes.Compound
 
         public Reference CompoundConditionElement { get; set; } = new Reference();
 
-        protected override string GetVariantTunableName() => "test_set_reference";
+        protected override string GetVariantTunableName(string contextTag = null) => "test_set_reference";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
-            => variantTunable.Set<TunableBasic>("test_set_reference", ElementTuning.GetSingleInstanceKey(CompoundConditionElement));
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
+        {
+            var instanceKey = ElementTuning.GetSingleInstanceKey(CompoundConditionElement);
+            if (instanceKey == null)
+            {
+                Exporter.Current.AddError(null, "There was a reference to a Compound Condition Element that doesn't exist. It may have been deleted.");
+                return;
+            }
+            variantTunable.Set<TunableBasic>("test_set_reference", instanceKey);
+        }
 
-        protected override void OnExportMain(TuningBase tuning, string tunableName = null)
+        protected override void OnExportMain(TuningBase tuning, string tunableName = null, string contextTag = null)
         {
             var listTunable = (TunableList)tuning;
 
@@ -47,7 +56,7 @@ namespace Constructor5.TestConditionTypes.Compound
                 conditions.Add(andCondition.Condition);
             }
 
-            TestConditionTuning.TuneTestConditions(listTunable, conditions);
+            TestConditionTuning.TuneTestConditions(listTunable, conditions, null, contextTag);
         }
     }
 }

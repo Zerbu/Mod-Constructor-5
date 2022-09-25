@@ -16,9 +16,9 @@
         </c:Field>
         <c:CheckBox IsChecked="{Binding IgnoreIfWrongPack}">
             <StackPanel>
-                <c:TextBlock Text="Ignore if the trait is not found" />
+                <c:TextBlock Text="IgnoreIfTraitNotFound" />
                 <c:TextBlock FontStyle="Italic"
-                           Text="For example, if the trait is from a pack the player does not have installed"
+                           Text="IgnoreIfTraitNotFoundHelp"
                            />
             </StackPanel>
         </c:CheckBox>

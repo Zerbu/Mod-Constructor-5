@@ -11,6 +11,14 @@ namespace Constructor5.Base.ElementSystem
 {
     public static class ElementSaver
     {
+        public static void DebugUnload()
+        {
+            foreach(var element in ElementManager.GetAll())
+            {
+                ElementManager.Delete(element);
+            }
+        }
+
         public static void LoadAll()
         {
             foreach (var file in Directory.GetFiles(Project.GetProjectDirectory("Elements"), "*.xml"))

@@ -15,9 +15,9 @@ namespace Constructor5.TestConditionTypes.Situations
         [AutoTuneBasic("negate")]
         public bool IsInverted { get; set; }
 
-        protected override string GetVariantTunableName() => "can_create_user_facing_situation";
+        protected override string GetVariantTunableName(string contextTag = null) => "can_create_user_facing_situation";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>(GetVariantTunableName());
             AutoTunerInvoker.Invoke(this, tupleTunable);

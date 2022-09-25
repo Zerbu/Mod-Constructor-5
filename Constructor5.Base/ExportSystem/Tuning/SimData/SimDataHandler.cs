@@ -144,7 +144,7 @@ namespace Constructor5.Base.ExportSystem.Tuning.SimData
                 num++;
             }
 
-            if (!zerofillExtra || items.Count() == 1)
+            if (!zerofillExtra || maxSize == 1)
             {
                 return;
             }

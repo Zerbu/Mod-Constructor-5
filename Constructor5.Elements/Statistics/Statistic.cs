@@ -4,10 +4,11 @@ using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
+using Constructor5.Elements.Commodities;
 
 namespace Constructor5.Elements.Statistics
 {
-    [ElementTypeData("Statistic", true, ElementTypes = new[] { typeof(Statistic) }, PresetFolders = new[] { "Statistic", "Commodity", "Skill", "SimInfoStatistic", "Need" })]
+    [ElementTypeData("Statistic", true, ElementTypes = new[] { typeof(Statistic), typeof(Commodity) }, PresetFolders = new[] { "Statistic", "Commodity", "Skill", "SimInfoStatistic", "Need" })]
     public class Statistic : Element, IExportableElement
     {
         public int InitialValue { get; set; }

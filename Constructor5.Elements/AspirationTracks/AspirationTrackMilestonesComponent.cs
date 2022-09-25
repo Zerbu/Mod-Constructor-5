@@ -31,7 +31,7 @@ namespace Constructor5.Elements.AspirationTracks
             {
                 list.Add(key);
             }
-            ((TuningHeader)context.Tuning).SimDataHandler.WriteList(232, list, 4, true, 8);
+            ((TuningHeader)context.Tuning).SimDataHandler.WriteList(232, list, 4, list.Count != 1, 8);
         }
     }
 }

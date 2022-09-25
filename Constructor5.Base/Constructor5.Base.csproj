@@ -110,6 +110,7 @@
     <Compile Include="CustomTuning\CustomTuningExporter.cs" />
     <Compile Include="CustomTuning\CustomTuningInfo.cs" />
     <Compile Include="CustomTuning\ISupportsCustomTuning.cs" />
+    <Compile Include="DebugCommandSystem\CreateElementCommand.cs" />
     <Compile Include="DebugCommandSystem\DebugCommandAttribute.cs" />
     <Compile Include="DebugCommandSystem\DebugCommandBase.cs" />
     <Compile Include="DebugCommandSystem\DebugCommandFlags.cs" />
@@ -140,6 +141,7 @@
     <Compile Include="ElementSystem\IOnProjectCreateError.cs" />
     <Compile Include="ElementSystem\Preset.cs" />
     <Compile Include="ElementSystem\PresetGroup.cs" />
+    <Compile Include="ElementSystem\PresetImporter.cs" />
     <Compile Include="ElementSystem\Reference.cs" />
     <Compile Include="ElementSystem\ReferenceList.cs" />
     <Compile Include="ElementSystem\ReferenceListItem.cs" />
@@ -194,12 +196,14 @@
     <Compile Include="ExportSystem\Tuning\SimData\SimDataHandler.cs" />
     <Compile Include="ExportSystem\Tuning\TunableBase.cs" />
     <Compile Include="ExportSystem\Tuning\TunableBasic.cs" />
+    <Compile Include="ExportSystem\Tuning\TunableClass.cs" />
     <Compile Include="ExportSystem\Tuning\TunableEnum.cs" />
     <Compile Include="ExportSystem\Tuning\TunableList.cs" />
     <Compile Include="ExportSystem\Tuning\TunableTuple.cs" />
     <Compile Include="ExportSystem\Tuning\TunableVariant.cs" />
     <Compile Include="ExportSystem\Tuning\TuningBase.cs" />
     <Compile Include="ExportSystem\Tuning\TuningHeader.cs" />
+    <Compile Include="ExportSystem\Tuning\TuningHeaderModule.cs" />
     <Compile Include="ExportSystem\Tuning\Utilities\ElementTuning.cs" />
     <Compile Include="ExportSystem\Tuning\Utilities\TuningExport.cs" />
     <Compile Include="FastObservableCollection.cs" />

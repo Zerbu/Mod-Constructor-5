@@ -133,15 +133,18 @@ namespace Constructor5.Elements.Buffs.Components
                 }
             }
 
-            var header = (TuningHeader)context.Tuning;
-            header.SimDataHandler.WriteText(164, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
-            header.SimDataHandler.WriteText(160, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
-            header.SimDataHandler.WriteTGI(168, Icon.GetUncommentedText(), Element);
-
-            if (hasEmotionToUse)
+            if (Exporter.Current.STBLBuilder != null)
             {
-                header.SimDataHandler.Write(184, Convert.ToUInt64(ElementTuning.GetInstanceKeys(emotionToUse)[0]));
-                header.SimDataHandler.Write(192, Convert.ToInt32(emotionWeightToUse));
+                var header = (TuningHeader)context.Tuning;
+                header.SimDataHandler.WriteText(164, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
+                header.SimDataHandler.WriteText(160, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
+                header.SimDataHandler.WriteTGI(168, Icon.GetUncommentedText(), Element);
+
+                if (hasEmotionToUse)
+                {
+                    header.SimDataHandler.Write(184, Convert.ToUInt64(ElementTuning.GetInstanceKeys(emotionToUse)[0]));
+                    header.SimDataHandler.Write(192, Convert.ToInt32(emotionWeightToUse));
+                }
             }
         }
 

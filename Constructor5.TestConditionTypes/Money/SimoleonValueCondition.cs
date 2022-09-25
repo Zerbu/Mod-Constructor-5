@@ -19,9 +19,9 @@ namespace Constructor5.TestConditionTypes.Money
         [AutoTuneThresholdTuple("value_threshold")]
         public Threshold Threshold { get; set; } = new Threshold();
 
-        protected override string GetVariantTunableName() => "simoleon_value";
+        protected override string GetVariantTunableName(string contextTag = null) => "simoleon_value";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>("simoleon_value");
 

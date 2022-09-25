@@ -14,7 +14,7 @@
                                     ElementTypeName="AnyInteraction"
                                     ExcludeTag="TestUnsafe" />
         </c:Field>
-        <c:CheckBox Content="Inverted (test if the interactions are NOT running)" IsChecked="{Binding Inverted}" />
+        <c:CheckBox Content="InvertedNotRunning" IsChecked="{Binding Inverted}" />
         <c:Field x:Name="ParticipantField"
                  Label="Participant"
                  LabelWidth="100">

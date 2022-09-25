@@ -1,7 +1,9 @@
+using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 
 namespace Constructor5.Elements.Situations.Components
 {
+    [SelectableObjectType("SituationTemplates", "DefaultSituationTemplate")]
     [XmlSerializerExtraType]
     public class DefaultSituationTemplate : SituationTemplate
     {

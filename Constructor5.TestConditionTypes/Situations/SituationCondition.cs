@@ -31,9 +31,9 @@ namespace Constructor5.TestConditionTypes.Situations
         [AutoTuneReferenceListVariant("situation_whitelist")]
         public ReferenceList Whitelist { get; set; } = new ReferenceList();
 
-        protected override string GetVariantTunableName() => "situation_running_test";
+        protected override string GetVariantTunableName(string contextTag = null) => "situation_running_test";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>(GetVariantTunableName());
             AutoTunerInvoker.Invoke(this, tupleTunable);

@@ -1,15 +1,16 @@
-<UserControl x:Class="Constructor5.Elements.SituationGoals.Components.SituationGoalInfoEditor"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.Elements.SituationGoals.Components"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-             Margin="{StaticResource Constructor.BigPaddingMinusTop}"
-             d:DesignHeight="450"
-             d:DesignWidth="800"
-             mc:Ignorable="d">
+<UserControl
+    x:Class="Constructor5.Elements.SituationGoals.Components.SituationGoalInfoEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.SituationGoals.Components"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    Margin="{StaticResource Constructor.BigPaddingMinusTop}"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
     <StackPanel>
         <c:Field Label="Name" LabelWidth="100">
             <c:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding Element}" />
@@ -20,43 +21,58 @@
         <c:Field Label="Icon" LabelWidth="100">
             <c:IconControl Icon="{Binding Icon}" />
         </c:Field>
-        <c:CheckBox x:Name="SetCooldownCheckBox"
-                    Content="SetCooldown"
-                    IsChecked="{Binding SetCooldown}" />
-        <c:Field Label="Cooldown"
-                 LabelWidth="100"
-                 Visibility="{Binding SetCooldown, Converter={StaticResource BoolToVis}}">
-            <xctk:IntegerUpDown Increment="60"
-                                Minimum="0"
-                                Text="{Binding Cooldown}" />
+        <c:CheckBox
+            x:Name="SetCooldownCheckBox"
+            Content="SetCooldown"
+            IsChecked="{Binding SetCooldown}" />
+        <c:Field
+            Label="Cooldown"
+            LabelWidth="100"
+            Visibility="{Binding SetCooldown, Converter={StaticResource BoolToVis}}">
+            <xctk:IntegerUpDown
+                Increment="60"
+                Minimum="0"
+                Text="{Binding Cooldown}" />
         </c:Field>
         <c:CheckBox Content="SetIterations" IsChecked="{Binding SetIterations}" />
-        <c:Field Label="Iterations"
-                 LabelWidth="100"
-                 Visibility="{Binding SetIterations, Converter={StaticResource BoolToVis}}">
+        <c:Field
+            Label="Iterations"
+            LabelWidth="100"
+            Visibility="{Binding SetIterations, Converter={StaticResource BoolToVis}}">
             <StackPanel>
                 <xctk:IntegerUpDown Minimum="1" Text="{Binding Iterations}" />
-                <c:TextBlock x:Name="HolidayTraditionWarning"
-                             FontStyle="Italic"
-                             Text="HolidayTraditionsIterationsNotice"
-                             Visibility="Collapsed" />
+                <c:TextBlock
+                    x:Name="HolidayTraditionWarning"
+                    FontStyle="Italic"
+                    Text="HolidayTraditionsIterationsNotice"
+                    Visibility="Collapsed" />
             </StackPanel>
         </c:Field>
-        <c:CheckBox x:Name="SetScoreCheckBox"
-                    Content="SetScore"
-                    IsChecked="{Binding SetScore}" />
-        <c:Field Label="Score"
-                 LabelWidth="100"
-                 Visibility="{Binding SetScore, Converter={StaticResource BoolToVis}}">
+        <c:CheckBox
+            x:Name="SetScoreCheckBox"
+            Content="SetScore"
+            IsChecked="{Binding SetScore}" />
+        <c:Field
+            Label="Score"
+            LabelWidth="100"
+            Visibility="{Binding SetScore, Converter={StaticResource BoolToVis}}">
             <xctk:IntegerUpDown Text="{Binding Score}" />
         </c:Field>
-        <c:Expander x:Name="RoleTagsExpander"
-                    Margin="{StaticResource Constructor.BigPaddingMinusTop}"
-                    Header="RoleTags">
+        <c:Expander Margin="{StaticResource Constructor.BigPaddingMinusTop}" Header="RequiredObjectTags">
+            <StackPanel>
+                <c:TextBlock Text="RequiredObjectTagsDescription" />
+                <c:StringListControl PresetsFolder="ObjectTag" StringList="{Binding RequiredObjectTags}" />
+            </StackPanel>
+        </c:Expander>
+        <c:Expander
+            x:Name="RoleTagsExpander"
+            Margin="{StaticResource Constructor.BigPaddingMinusTop}"
+            Header="RoleTags">
             <StackPanel>
                 <c:TextBlock Text="SituationGoalRoleTagsDescription" />
                 <c:StringListControl PresetsFolder="RoleTag" StringList="{Binding RoleTags}" />
             </StackPanel>
         </c:Expander>
+        <c:CheckBox Content="IsHidden" IsChecked="{Binding IsHidden}" />
     </StackPanel>
 </UserControl>

@@ -30,9 +30,9 @@ namespace Constructor5.TestConditionTypes.Collections
         [AutoTuneEnum("who")]
         public string Participant { get; set; }
 
-        protected override string GetVariantTunableName() => "collection_test";
+        protected override string GetVariantTunableName(string contextTag = null) => "collection_test";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>(GetVariantTunableName());
             AutoTunerInvoker.Invoke(this, tupleTunable);

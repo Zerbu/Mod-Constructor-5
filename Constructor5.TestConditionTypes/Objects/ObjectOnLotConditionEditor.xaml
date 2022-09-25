@@ -33,7 +33,7 @@
             <c:ThresholdControl Threshold="{Binding Quantity}" />
         </c:Field>
         <c:CheckBox Content="RestrictSimoleonValue" IsChecked="{Binding RestrictSimoleonValue}" />
-        <c:Field Label="Simoleon Value"
+        <c:Field Label="SimoleonValue"
                  LabelWidth="100"
                  Visibility="{Binding RestrictSimoleonValue, Converter={StaticResource BoolToVis}}">
             <c:ThresholdControl Threshold="{Binding SimoleonValue}" />

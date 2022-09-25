@@ -1,0 +1,38 @@
+﻿<UserControl
+    x:Class="Constructor5.Elements.SimpleWhimSets.SimpleWhimSetMiniEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.SimpleWhimSets"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <c:TabControl>
+        <c:TabItem Header="Whims">
+            <StackPanel>
+                <c:ReferenceListControl
+                    CreateElementFunction="ReferenceListControl_CreateElementFunction"
+                    ElementReferenceList="{Binding Whims}"
+                    ElementTypeName="Whim"
+                    ItemTypeName="WeightedWhimReferenceListItem"
+                    ShowCreateButton="True" />
+            </StackPanel>
+        </c:TabItem>
+        <c:TabItem Header="Settings">
+            <StackPanel>
+                <c:Field Label="Reason" LabelWidth="150">
+                    <c:STBLStringControl Text="{Binding Reason}" />
+                </c:Field>
+                <c:Field Label="Priority" LabelWidth="150">
+                    <StackPanel>
+                        <xctk:DoubleUpDown Text="{Binding Priority}" />
+                        <c:TextBlock Text="SimpleWhimSetPriorityDescription" />
+                    </StackPanel>
+                </c:Field>
+            </StackPanel>
+        </c:TabItem>
+    </c:TabControl>
+</UserControl>

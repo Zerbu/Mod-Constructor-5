@@ -55,18 +55,6 @@
   <Preset Label="aspiration_Deviance_A2" Value="25375" />
   <Preset Label="aspiration_Deviance_A3" Value="25376" />
   <Preset Label="aspiration_Deviance_A4" Value="25377" />
-  <Preset Label="whimSet_EmotionInspired" Value="25378" />
-  <Preset Label="whimSet_EmotionHappy" Value="25383" />
-  <Preset Label="whimSet_EmotionEnergized" Value="25384" />
-  <Preset Label="whimSet_EmotionFlirty" Value="25386" />
-  <Preset Label="whimSet_EmotionPlayful" Value="25421" />
-  <Preset Label="whimSet_EmotionBored" Value="25422" />
-  <Preset Label="whimSet_EmotionDazed" Value="25423" />
-  <Preset Label="whimSet_EmotionConfident" Value="25424" />
-  <Preset Label="whimSet_EmotionSad" Value="25425" />
-  <Preset Label="whimSet_EmotionAngry" Value="25426" />
-  <Preset Label="whimSet_EmotionEmbarrassed" Value="25427" />
-  <Preset Label="whimSet_EmotionStressed" Value="25428" />
   <Preset Label="aspiration_Knowledge_A1" Value="25447" />
   <Preset Label="aspiration_Knowledge_B1" Value="25448" />
   <Preset Label="aspiration_Knowledge_B2" Value="25449" />
@@ -312,8 +300,6 @@
   <Preset Label="aspiration_Teen_Babysitter_Level2" Value="35199" />
   <Preset Label="aspiration_Entertainer_Level1" Value="35350" />
   <Preset Label="aspiration_SecretAgent_Level1" Value="35489" />
-  <Preset Label="whimset_BuyBasics" Value="36954" />
-  <Preset Label="whimSet_EmotionFocused" Value="38413" />
   <Preset Label="whimSet_CollectionSet" Value="38419" />
   <Preset Label="Trait_Notification_Cheerful" Value="39650" />
   <Preset Label="Trait_Notification_Active" Value="39759" />
@@ -436,8 +422,6 @@
   <Preset Label="Whimset_Asp_Knowledge_Computer" Value="97898" />
   <Preset Label="aspiration_Utility_Max_RocketScience" Value="99699" />
   <Preset Label="whimSet_Ghost" Value="102667" />
-  <Preset Label="whimSet_Pools" Value="103901" />
-  <Preset Label="whimset_BuyAdv" Value="105598" />
   <Preset Label="whimset_Career_Painter" Value="106085" />
   <Preset Label="aspiration_Business_Level1" Value="106632" />
   <Preset Label="aspiration_Business_Level2" Value="106633" />
@@ -471,7 +455,6 @@
   <Preset Label="whimSet_Photography" Value="112131" />
   <Preset Label="whimSet_Teens" Value="117896" />
   <Preset Label="whimset_HasTraitLikesFruitcake" Value="120193" />
-  <Preset Label="whimSet_Bonfire" Value="125676" />
   <Preset Label="whimset_HasTraitJealousy" Value="127089" />
   <Preset Label="whimSet_Bar" Value="129728" />
   <Preset Label="whimSet_Club" Value="129729" />
@@ -490,20 +473,8 @@
   <Preset Label="aspiration_Toddler_Hidden_Happy_Toddler" Value="143077" />
   <Preset Label="aspiration_Toddler_Hidden_Top_Notch_Toddler" Value="143078" />
   <Preset Label="Trait_Notification_Vegetarian" Value="144244" />
-  <Preset Label="whimSet_TelevisionChannels" Value="146256" />
   <Preset Label="whimSet_StereoRadioChannels" Value="146257" />
   <Preset Label="aspiration_Utility_Fall_Challenge_2016_DoTD_Recieved_SkullDisplay" Value="154664" />
-  <Preset Label="Toddler_Chaos_Set" Value="154890" />
-  <Preset Label="Toddler_Growth_Set" Value="154892" />
-  <Preset Label="toddler_Trait_Angelic_Set" Value="154893" />
-  <Preset Label="toddler_Trait_Clingy_Set" Value="154894" />
-  <Preset Label="toddler_Trait_Wild_Set" Value="154895" />
-  <Preset Label="toddler_Trait_Inquisitive_Set" Value="154896" />
-  <Preset Label="toddler_Trait_Silly_Set" Value="154897" />
-  <Preset Label="toddler_Trait_Independent_Set" Value="154898" />
-  <Preset Label="toddler_Trait_Fussy_Set" Value="154899" />
-  <Preset Label="toddler_Trait_Charmer_Set" Value="154900" />
-  <Preset Label="toddler_Nuturing_Set" Value="154914" />
   <Preset Label="Whimset_ParentToToddler" Value="155375" />
   <Preset Label="whimset_HasTraitGood_Child" Value="155380" />
   <Preset Label="whimset_HasTraitGoofball_Child" Value="155382" />
@@ -610,33 +581,51 @@
   <Preset Label="aspiration_Dust_FilthyFabulous_Level_4" Value="256742" />
   <Preset Label="aspiration_Dust_PerfectlyPristine_Level_3" Value="256743" />
   <Preset Label="aspiration_Dust_PerfectlyPristine_Level_4" Value="256744" />
-  <Preset Label="nature_CountryCaretaker_Level1" Value="260906" />
-  <Preset Label="nature_CountryCaretaker_Level2" Value="260907" />
-  <Preset Label="nature_CountryCaretaker_Level3" Value="260908" />
-  <Preset Label="nature_CountryCaretaker_Level4" Value="260909" />
-  <Preset Label="aspirationGig_VillagerHelp_AgnesCrumplebottom_1" Value="260924" />
-  <Preset Label="aspirationGig_VillagerHelp_SocialShort" Value="261263" />
-  <Preset Label="aspirationGig_VillagerHelp_AgathaCrumplebottom_1" Value="262241" />
-  <Preset Label="aspirationGig_VillagerHelp_CritterTender" Value="262242" />
-  <Preset Label="aspirationGig_VillagerHelp_GroceryDelivery" Value="262243" />
-  <Preset Label="aspirationGig_VillagerHelp_GroceryOwner" Value="262244" />
-  <Preset Label="aspirationGig_VillagerHelp_Mayor" Value="262245" />
-  <Preset Label="aspirationGig_VillagerHelp_PubOwner" Value="262246" />
-  <Preset Label="aspirationGig_VillagerHelp_LivestockShort" Value="262386" />
-  <Preset Label="aspirationGig_VillagerHelp_GardenShort" Value="262387" />
-  <Preset Label="aspirationGig_VillagerHelp_WildAnimalShort" Value="262388" />
-  <Preset Label="aspirationGig_VillagerHelp_FoodForageShort" Value="262389" />
-  <Preset Label="aspirationGig_VillagerHelp_AgathaCrumplebottom_2" Value="263006" />
-  <Preset Label="aspirationGig_VillagerHelp_AgnesCrumplebottom_2" Value="263007" />
-  <Preset Label="aspirationGig_VillagerHelp_SocialMedium" Value="263008" />
-  <Preset Label="aspirationGig_VillagerHelp_LivestockMedium" Value="263009" />
-  <Preset Label="aspirationGig_VillagerHelp_GardenMedium" Value="263010" />
-  <Preset Label="aspirationGig_VillagerHelp_WildAnimalMedium" Value="263011" />
-  <Preset Label="aspirationGig_VillagerHelp_FoodForageMedium" Value="263012" />
-  <Preset Label="aspirationGig_VillagerHelp_LivestockGardenLong" Value="263013" />
-  <Preset Label="aspirationGig_VillagerHelp_WildAnimalFoodLong" Value="263014" />
-  <Preset Label="Trait_Notification_AnimalEnthusiast" Value="267412" />
-  <Preset Label="Trait_Notification_LactoseIntolerant" Value="267413" />
   <Preset Label="aspiration_Popularity_FriendlyNeighbor_level1" Value="273849" />
   <Preset Label="aspiration_Deviance_Heartbreaker_Level1" Value="275417" />
+  <Preset Label="whimset_Fear_BeingCheatedOn" Value="278639" />
+  <Preset Label="whimset_Fear_Cowplant" Value="278640" />
+  <Preset Label="whimset_Fear_Dark" Value="278641" />
+  <Preset Label="whimset_Fear_DeadEndJob" Value="278642" />
+  <Preset Label="whimset_Fear_Ghosts" Value="278643" />
+  <Preset Label="whimset_Fear_Swimming" Value="278644" />
+  <Preset Label="whimset_Motives" Value="281762" />
+  <Preset Label="whimset_Trait_LikedMusic_Alternative" Value="282542" />
+  <Preset Label="whimset_Trait_LikedMusic_Blues" Value="282543" />
+  <Preset Label="whimset_Trait_LikedMusic_Kids" Value="282544" />
+  <Preset Label="whimset_Trait_LikedMusic_Lullabies" Value="282545" />
+  <Preset Label="whimset_Trait_LikedMusic_Pop" Value="282546" />
+  <Preset Label="whimset_Trait_LikedMusic_Retro" Value="282547" />
+  <Preset Label="whimset_Trait_LikedMusic_Romance" Value="282548" />
+  <Preset Label="whimset_Trait_LikedMusic_Spooky" Value="282549" />
+  <Preset Label="whimset_Trait_LikedMusic_SPop" Value="282550" />
+  <Preset Label="whimset_Trait_LikedMusic_Winter" Value="282551" />
+  <Preset Label="whimset_Trait_LikedMusic_Classical" Value="282552" />
+  <Preset Label="whimset_Trait_LikedMusic_Electronica" Value="282553" />
+  <Preset Label="whimset_Trait_LikedMusic_HipHop" Value="282554" />
+  <Preset Label="whimSet_Gym" Value="282650" />
+  <Preset Label="whimset_Library" Value="282652" />
+  <Preset Label="whimset_Lounge" Value="282653" />
+  <Preset Label="whimset_Museum" Value="282654" />
+  <Preset Label="whimset_Park" Value="282655" />
+  <Preset Label="whimset_Festival" Value="282656" />
+  <Preset Label="whimSet_Enemy_Progress" Value="282680" />
+  <Preset Label="whimSet_Acquaintance" Value="282681" />
+  <Preset Label="whimSet_Friend" Value="282682" />
+  <Preset Label="whimSet_Partner" Value="282683" />
+  <Preset Label="whimSet_Enemy" Value="282684" />
+  <Preset Label="whimSet_Parent" Value="282685" />
+  <Preset Label="whimSet_ToddlerGuardian" Value="282686" />
+  <Preset Label="whimset_Trait_LikedMusic_World" Value="283061" />
+  <Preset Label="whimset_Fear_Unfulfilled" Value="283624" />
+  <Preset Label="whimset_Fear_Failure" Value="283671" />
+  <Preset Label="whimset_Fear_Death" Value="283672" />
+  <Preset Label="whimset_Fear_Fire" Value="287756" />
+  <Preset Label="whimset_Fear_CrowdedPlaces" Value="287757" />
+  <Preset Label="whimset_Fear_BeingJudged" Value="288461" />
+  <Preset Label="whimset_Social_Seduce" Value="297783" />
+  <Preset Label="whimset_Social_Kiss" Value="297784" />
+  <Preset Label="whimset_Social_Flirt" Value="297785" />
+  <Preset Label="whimset_Social_GiveMassage" Value="297786" />
+  <Preset Label="whimset_Social_HoldHands" Value="297788" />
 </PresetGroup>

@@ -5,11 +5,13 @@ namespace Constructor5.Base.ExportSystem.Tuning.Utilities
 {
     public static class TuningExport
     {
-        public static void AddToQueue(TuningHeader tuning)
+        public static void AddToQueue(TuningHeader tuning, string instanceTypeOverride = null)
         {
+            var instanceType = instanceTypeOverride ?? tuning.GetHexTypeKey();
+
             var memoryStream = new MemoryStream();
             XmlSaver.SaveStream(tuning, memoryStream, false);
-            Exporter.Current.QueueFile(tuning.GetHexTypeKey(), tuning.GetHexGroupKey(), tuning.GetHexInstanceKey(), memoryStream);
+            Exporter.Current.QueueFile(instanceType, tuning.GetHexGroupKey(), tuning.GetHexInstanceKey(), memoryStream);
 
             if (tuning.SimDataHandler != null)
             {

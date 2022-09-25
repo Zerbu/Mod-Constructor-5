@@ -76,7 +76,8 @@
                     <c:SpacedStack TopMargin="True">
                         <c:ReferenceListControl
                             ElementReferenceList="{Binding Whims}"
-                            ElementTypeName="SituationGoal"
+                            ElementTypeName="Whim"
+                            ItemTypeName="WeightedWhimReferenceListItem"
                             ShowCreateButton="True" />
                     </c:SpacedStack>
                 </c:TabItem>

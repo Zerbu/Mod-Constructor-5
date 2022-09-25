@@ -16,7 +16,6 @@ namespace Constructor5.LootActionTypes.Statistic
         [AutoTuneBasic("stat")]
         public Reference Statistic { get; set; } = new Reference();
 
-        [AutoTuneEnum("subject")]
         public string Participant { get; set; }
 
         [AutoTuneComplexChance]
@@ -27,6 +26,13 @@ namespace Constructor5.LootActionTypes.Statistic
             var tunableVariant1 = lootListTunable.Set<TunableVariant>(null, "statistics");
             var tunableVariant2 = tunableVariant1.Set<TunableVariant>("statistics", name);
             var tunableTuple1 = tunableVariant2.Get<TunableTuple>(name);
+
+            if (!string.IsNullOrEmpty(Participant))
+            {
+                var tunableList1 = tunableTuple1.Get<TunableList>("subject");
+                tunableList1.Set<TunableEnum>(null, Participant);
+            }
+
             AutoTunerInvoker.Invoke(this, tunableTuple1);
             return tunableTuple1;
         }

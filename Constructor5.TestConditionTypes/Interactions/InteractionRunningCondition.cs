@@ -22,9 +22,9 @@ namespace Constructor5.TestConditionTypes.Interactions
         [AutoTuneIfTrue("test_for_not_running")]
         public bool Inverted { get; set; }
 
-        protected override string GetVariantTunableName() => "user_running_interaction";
+        protected override string GetVariantTunableName(string contextTag = null) => "user_running_interaction";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>("user_running_interaction");
             AutoTunerInvoker.Invoke(this, tupleTunable);

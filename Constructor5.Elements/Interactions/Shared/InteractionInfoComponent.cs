@@ -8,6 +8,7 @@ using Constructor5.Elements.Interactions.Social.ContextModifiers;
 using Constructor5.Elements.Traits.Components;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Super;
+using System;
 
 namespace Constructor5.Elements.Interactions.Social
 {
@@ -73,7 +74,25 @@ namespace Constructor5.Elements.Interactions.Social
                 context.Tuning.Set<TunableBasic>("display_name_target", NameOnTarget);
             }
 
+            TuneTextTokens(context);
+
             AutoTunerInvoker.Invoke(this, context.Tuning);
+        }
+
+        private void TuneTextTokens(InteractionExportContext context)
+        {
+            var tunableTuple1 = context.Tuning.Get<TunableTuple>("display_name_text_tokens");
+            var tunableList1 = tunableTuple1.Get<TunableList>("tokens");
+            var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "participant_type");
+            var tunableTuple2 = tunableVariant1.Get<TunableTuple>("participant_type");
+            var tunableVariant2 = tunableTuple2.Set<TunableVariant>("objects", "from_participant");
+            var tunableTuple3 = tunableVariant2.Get<TunableTuple>("from_participant");
+            tunableTuple3.Set<TunableEnum>("participant", "Actor");
+            var tunableVariant3 = tunableList1.Set<TunableVariant>(null, "participant_type");
+            var tunableTuple4 = tunableVariant3.Get<TunableTuple>("participant_type");
+            var tunableVariant4 = tunableTuple4.Set<TunableVariant>("objects", "from_participant");
+            var tunableTuple5 = tunableVariant4.Get<TunableTuple>("from_participant");
+            tunableTuple5.Set<TunableEnum>("participant", "Object");
         }
     }
 }

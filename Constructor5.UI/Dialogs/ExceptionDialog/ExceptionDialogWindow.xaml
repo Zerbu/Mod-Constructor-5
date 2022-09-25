@@ -18,14 +18,14 @@
         <StackPanel>
             <c:TextBlock x:Name="TextBlock"
                          Margin="{StaticResource Constructor.BigPadding}"
-                         Text="Mod Constructor has encountered an unexpected error." />
+                         Text="UnexpectedErrorMessage" />
             <TextBox x:Name="ErrorTextBox"
                      MaxHeight="200"
                      Margin="{StaticResource Constructor.BigPaddingMinusTop}"
                      AcceptsTab="True"
                      VerticalScrollBarVisibility="Auto" />
             <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
-                <c:TextBlock HorizontalAlignment="Left" Text="If you think this is a bug, please report it on GitHub." />
+                <c:TextBlock HorizontalAlignment="Left" Text="UnexpectedErrorReportOnGithub" />
                 <c:Button x:Name="ReportButton"
                           HorizontalAlignment="Left"
                           Click="ReportButton_Click"

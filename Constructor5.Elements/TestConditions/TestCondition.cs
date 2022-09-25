@@ -26,15 +26,15 @@ namespace Constructor5.Elements.TestConditions
             set => CustomLabel = value;
         }
 
-        protected internal abstract string GetVariantTunableName();
+        protected internal abstract string GetVariantTunableName(string contextTag = null);
 
-        protected internal abstract void OnExportVariant(TunableBase variantTunable);
+        protected internal abstract void OnExportVariant(TunableBase variantTunable, string contextTag);
 
-        protected internal virtual void OnExportMain(TuningBase tunable, string tunableName = null)
+        protected internal virtual void OnExportMain(TuningBase tunable, string tunableName = null, string contextTag = null)
         {
-            var variantTunableName = GetVariantTunableName();
+            var variantTunableName = GetVariantTunableName(contextTag);
             var variantTunable = tunable.Set<TunableVariant>(tunableName, variantTunableName);
-            OnExportVariant(variantTunable);
+            OnExportVariant(variantTunable, contextTag);
         }
 
         protected void InvokePropertyChanged(PropertyChangedEventArgs eventArgs) => PropertyChanged?.Invoke(this, eventArgs);

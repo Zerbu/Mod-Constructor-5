@@ -43,16 +43,14 @@ namespace Constructor5.Base.Python
 
                 result.AppendLine("");
                 result.AppendLine($"def {Project.Id}_AddLootInjector(self, to_merge_key, value):");
-                result.AppendLine($"    action_manager = services.get_instance_manager(sims4.resources.Types.ACTION)");
+                result.AppendLine($"    manager = services.get_instance_manager(sims4.resources.Types.ACTION)");
                 result.AppendLine($"    merge_to = self._tuned_classes.get(sims4.resources.get_resource_key(value, Types.ACTION))");
-
                 result.AppendLine($"    if merge_to is None:");
                 result.AppendLine($"        return");
-
-                result.AppendLine($"    to_merge = action_manager.get(sims4.resources.get_resource_key(to_merge_key, Types.ACTION))");
-
-                result.AppendLine($"    if not to_merge is None:");
-                result.AppendLine($"        merge_to.loot_actions = merge_to.loot_actions + to_merge.loot_actions");
+                result.AppendLine($"    to_merge = manager.get(sims4.resources.get_resource_key(to_merge_key, Types.ACTION))");
+                result.AppendLine($"    if to_merge is None:");
+                result.AppendLine($"        return");
+                result.AppendLine($"    merge_to.loot_actions = merge_to.loot_actions + to_merge.loot_actions");
             }
 
             return result.ToString();

@@ -30,6 +30,7 @@
             x:Key="OpenDebugCommandWindow"
             IsDialog="true"
             TypeName="DebugCommandWindow" />
+        <c:RestartCommand x:Key="RestartCommand" />
         <local:ElementDeleteCommand x:Key="ElementDeleteCommand" />
         <local:SaveCommand x:Key="SaveCommand" />
         <local:ExportCommand x:Key="ExportCommand" />
@@ -39,6 +40,10 @@
             Key="C"
             Command="{StaticResource OpenDebugCommandWindow}"
             Modifiers="Ctrl+Shift" />
+        <KeyBinding
+            Key="R"
+            Command="{StaticResource RestartCommand}"
+            Modifiers="Ctrl" />
     </Window.InputBindings>
     <Border Style="{StaticResource Constructor.OverlayStyle}">
         <Grid>

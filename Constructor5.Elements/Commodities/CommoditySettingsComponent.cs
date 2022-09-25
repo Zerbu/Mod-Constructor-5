@@ -24,13 +24,15 @@ namespace Constructor5.Elements.Commodities
 
         protected internal override void OnExport(CommodityExportContext context)
         {
-            var tunableList1 = context.Tuning.Get<TunableList>("arrow_data");
-            tunableList1.Set<TunableBasic>(null, "-20");
-            tunableList1.Set<TunableBasic>(null, "-1");
-            tunableList1.Set<TunableBasic>(null, "-30");
-            tunableList1.Set<TunableBasic>(null, "20");
-            tunableList1.Set<TunableBasic>(null, "1");
-            tunableList1.Set<TunableBasic>(null, "30");
+            {
+                var tunableTuple1 = context.Tuning.Get<TunableTuple>("arrow_data");
+                tunableTuple1.Set<TunableBasic>("negative_double_arrow", "-20");
+                tunableTuple1.Set<TunableBasic>("negative_single_arrow", "-1");
+                tunableTuple1.Set<TunableBasic>("negative_triple_arrow", "-30");
+                tunableTuple1.Set<TunableBasic>("positive_double_arrow", "20");
+                tunableTuple1.Set<TunableBasic>("positive_single_arrow", "1");
+                tunableTuple1.Set<TunableBasic>("positive_triple_arrow", "30");
+            }
 
             context.Tuning.Set<TunableBasic>("decay_rate", DecayRate);
 
@@ -49,13 +51,18 @@ namespace Constructor5.Elements.Commodities
             context.Tuning.Set<TunableBasic>("maximum_auto_satisfy_time", "998");*/
 
             // misc
-            var tunableTuple1 = context.Tuning.Get<TunableTuple>("initial_tuning");
-            tunableTuple1.Set<TunableBasic>("_use_auto_satisfy_curve_as_initial_value", "False");
-            tunableTuple1.Set<TunableBasic>("_value", "0");
-            tunableTuple1.Set<TunableBasic>("_use_stat_value_on_init", "True");
+            {
+                var tunableTuple1 = context.Tuning.Get<TunableTuple>("initial_tuning");
+                tunableTuple1.Set<TunableBasic>("_use_auto_satisfy_curve_as_initial_value", "False");
+                tunableTuple1.Set<TunableBasic>("_value", "0");
+                tunableTuple1.Set<TunableBasic>("_use_stat_value_on_init", "True");
+            }
 
             context.Tuning.Set<TunableBasic>("ui_sort_order", "0");
-            context.Tuning.Set<TunableBasic>("ui_visible_distress_threshold", "0");
+            {
+                var distress = context.Tuning.Get<TunableTuple>("ui_visible_distress_threshold");
+                distress.Set<TunableBasic>("threshold_value", "0");
+            }
             context.Tuning.Set<TunableBasic>("weight", "1");
 
             AutoTunerInvoker.Invoke(this, context.Tuning);

@@ -12,7 +12,7 @@ using System.Collections.Generic;
 
 namespace Constructor5.Elements.Objectives
 {
-    [ElementTypeData("Objective", false, ElementTypes = new[] { typeof(Objective) }, PresetFolders = new[] { "Objective" })]
+    [ElementTypeData("Objective", true, ElementTypes = new[] { typeof(Objective) }, PresetFolders = new[] { "Objective" })]
     public class Objective : Element, IExportableElement, ISupportsCustomTuning
     {
         [AutoTuneIfFalse("relative_to_unlock_moment", "True")]
@@ -28,7 +28,7 @@ namespace Constructor5.Elements.Objectives
 
         public TestConditionList PostConditions { get; set; } = new TestConditionList();
 
-        public TestCondition PrimaryCondition { get; set; } = new AlwaysRunCondition();
+        public TestCondition PrimaryCondition { get; set; } = new NoTestConditionSelected();
 
         [AutoTuneBasic("satisfaction_points")]
         public int SatisfactionPoints { get; set; }

@@ -1,0 +1,52 @@
+﻿<UserControl
+    x:Class="Constructor5.UI.Dialogs.CustomTuningDialog.CustomTuningDialogControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.UI.Dialogs.CustomTuningDialog"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="uc"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <avalonEdit:TextEditor
+                xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+                Name="TextBox"
+                Background="{StaticResource Constructor.TextBoxBackground}"
+                BorderBrush="{StaticResource Constructor.TextBoxBorder}"
+                BorderThickness="2"
+                FontFamily="Consolas"
+                FontSize="13"
+                SyntaxHighlighting="XML"
+                TextChanged="TextBox_TextChanged" />
+            <StackPanel
+                Grid.Row="1"
+                HorizontalAlignment="Right"
+                Orientation="Horizontal">
+                <c:Button
+                    x:Name="AboutButton"
+                    Margin="2"
+                    Click="AboutButton_Click"
+                    Content="AboutCustomTuning" />
+                <c:Button
+                    x:Name="PreviewButton"
+                    Margin="2"
+                    Click="PreviewButton_Click"
+                    Content="Preview" />
+                <c:Button
+                    x:Name="UpdateButton"
+                    Margin="2"
+                    Click="UpdateButton_Click"
+                    Content="Update"
+                    Visibility="{Binding AutoUpdate, Converter={StaticResource BoolToVisInverted}, ElementName=uc}" />
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

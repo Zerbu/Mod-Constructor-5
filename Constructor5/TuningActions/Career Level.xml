@@ -18,6 +18,21 @@
     <T n="performance_per_completed_goal">0</T>
     <L n="tested_metrics">
       <U>
+        <T n="performance_mod">10</T>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="apply_thresholds_on_individual_basis">False</T>
+                <L n="whitelist_traits">
+                  <T>283144<!--Trait: trait_Highflier--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
         <T n="performance_mod">30</T>
         <L n="tests">
           <L>

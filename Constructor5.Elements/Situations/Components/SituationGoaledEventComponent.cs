@@ -4,6 +4,7 @@ using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
+using Constructor5.Base.Python;
 using Constructor5.Core;
 
 namespace Constructor5.Elements.Situations.Components
@@ -18,6 +19,8 @@ namespace Constructor5.Elements.Situations.Components
         public Reference BronzeReward { get; set; } = new Reference();
 
         public override string ComponentLabel => "GoaledEvent";
+
+        public bool DisguiseAsNonGoaledEvent { get; set; }
 
         public STBLString ForcedGoaledEventToolTip { get; set; } = new STBLString() { CustomText = "This is a forced goaled event." };
 
@@ -41,6 +44,8 @@ namespace Constructor5.Elements.Situations.Components
         public Reference SilverReward { get; set; } = new Reference();
 
         public bool ShowScreenSlamEffects { get; set; } = true;
+
+        public bool SuppressAutomaticBronzeTraits { get; set; }
 
         protected internal override void OnExport(SituationExportContext context)
         {
@@ -128,6 +133,19 @@ namespace Constructor5.Elements.Situations.Components
             }
 
             AutoTunerInvoker.Invoke(this, context.Tuning);
+
+            if (SuppressAutomaticBronzeTraits)
+            {
+                PythonBuilder.AddStep(SituationSuppressAutomaticBronzePythonStep.Current);
+                SituationSuppressAutomaticBronzePythonStep.AddSituation((ulong)ElementTuning.GetSingleInstanceKey(Element));
+            }
+
+            if (DisguiseAsNonGoaledEvent)
+            {
+                // todo: tuning
+                PythonBuilder.AddStep(SituationDisguiseAsNonGoaledPythonStep.Current);
+                SituationDisguiseAsNonGoaledPythonStep.AddSituation((ulong)ElementTuning.GetSingleInstanceKey(Element));
+            }
         }
 
         private void TuneScreenSlam(SituationExportContext context)

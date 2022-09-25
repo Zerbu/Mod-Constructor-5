@@ -7,17 +7,15 @@ using System.Collections.ObjectModel;
 namespace Constructor5.Elements.SituationGoals.Components
 {
     [XmlSerializerExtraType]
-    [HasAutoEditor("AvailabilityConditionsNotice")]
     public class SituationGoalPreConditionsComponent : SituationGoalComponent
     {
         public override string ComponentLabel => "AvailabilityConditions";
 
-        [AutoEditorConditionList]
         public TestConditionList Conditions { get; set; } = new TestConditionList();
 
         protected internal override void OnExport(SituationGoalExportContext context)
         {
-            TestConditionTuning.TuneTestConditions(context.Tuning, Conditions.ToConditionList(), "_pre_tests");
+            TestConditionTuning.TuneTestConditions(context.Tuning, Conditions.ToConditionList(), "_pre_tests", "GoalPreCondition");
         }
     }
 }

@@ -1996,10 +1996,13 @@
   <Preset Label="loot_$1500_to_$2500" Value="101279" />
   <Preset Label="loot_$250_to_$500" Value="101280" />
   <Preset Label="loot_Statistic_Breakage_Stove" Value="101420" />
+  <Preset Label="loot_Buff_Campfire_BurntArm" Value="101944" />
   <Preset Label="loot_Buff_WritersBlock_Carefree" Value="101957" />
   <Preset Label="loot_$75" Value="102094" />
   <Preset Label="loot_Ambrosia" Value="102096" />
   <Preset Label="loot_Ghost_Resurrect" Value="102213" />
+  <Preset Label="loot_Statistic_Campfire_AddLog" Value="102362" />
+  <Preset Label="loot_Statistic_Campfire_Extinguish" Value="102363" />
   <Preset Label="loot_Buff_Cooler_Drink" Value="102381" />
   <Preset Label="loot_Statistic_Cooler_ExpensiveCooler" Value="102383" />
   <Preset Label="loot_buff_Startled_By_Ghost" Value="102405" />
@@ -2021,6 +2024,8 @@
   <Preset Label="loot_Commodity_Motive_Hygiene_Gain_PublicBathroom" Value="104855" />
   <Preset Label="loot_State_Tent_Sleep" Value="104963" />
   <Preset Label="loot_Career_FamilyLeave" Value="105022" />
+  <Preset Label="loot_Buff_Campfire_MmmMarshmallow" Value="105239" />
+  <Preset Label="loot_Buff_Campfire_MmmSmore" Value="105240" />
   <Preset Label="loot_Career_PTO_Astronaut" Value="105535" />
   <Preset Label="loot_Career_PTO_Criminal" Value="105536" />
   <Preset Label="loot_Career_PTO_Culinary" Value="105537" />
@@ -2143,11 +2148,13 @@
   <Preset Label="loot_Buff_FamilyLeave_Notification_Adoption" Value="111727" />
   <Preset Label="loot_Statistic_PhotoStudio_reset" Value="111930" />
   <Preset Label="loot_Fire_Removed_Singed_TargetSim" Value="112011" />
+  <Preset Label="loot_Commodity_RoastMarshmallows_TakeTurn" Value="112013" />
+  <Preset Label="loot_Commodity_RoastMarshmallows_RemoveStat" Value="112047" />
   <Preset Label="loot_Refresh_Whims" Value="113251" />
   <Preset Label="loot_Career_SchoolFriend_Meet" Value="114336" />
   <Preset Label="loot_Buff_FamilyLeaveOver_Notification" Value="114641" />
   <Preset Label="loot_Simoleon_PhotographyStudio_TakePhoto" Value="114915" />
-  <Preset Label="Skill_Loot_Dynamic_Standard" Value="115108" />
+  <Preset Label="skill_Loot_Dynamic_Standard" Value="115108" />
   <Preset Label="skill_Loot_Dynamic_Small_ChildOnly_Creativity" Value="115355" />
   <Preset Label="skill_Loot_Dynamic_Standard_NPC" Value="115704" />
   <Preset Label="loot_KnowAboutCareer_ActorTarget" Value="115956" />
@@ -2304,11 +2311,18 @@
   <Preset Label="loot_GoingOutSocials_Fail_Message_TalkUpSim" Value="127316" />
   <Preset Label="loot_GoingOutSocials_Fail_Message_TrashAnotherSim" Value="127317" />
   <Preset Label="loot_Reaction_Fire" Value="127334" />
+  <Preset Label="loot_DontWakeLlama_ReduceTop" Value="127467" />
+  <Preset Label="loot_DontWakeLlama_ReduceBot" Value="127469" />
+  <Preset Label="loot_DontWakeLlama_ResetGame" Value="127698" />
+  <Preset Label="loot_Buff_DontWakeLlama_LlamaSleepsHappy" Value="127833" />
+  <Preset Label="loot_Buff_DontWakeLlama_LlamaAlmostFell" Value="127834" />
+  <Preset Label="loot_Buff_DontWakeLlama_LlamaCriesSad" Value="127835" />
   <Preset Label="loot_Buff_Trait_Squeamish_Nauseous_DirtyBush" Value="128260" />
   <Preset Label="loot_GoingOutSocials_Rel_BreakUpSims_Divorce" Value="128363" />
   <Preset Label="loot_Buff_Reduce_Sad_Target" Value="128475" />
   <Preset Label="loot_Buff_Reduce_Sad_Actor" Value="128479" />
   <Preset Label="loot_Buff_Social_Angry_GoingOutSocials_BreakUp_Rejection" Value="128794" />
+  <Preset Label="loot_Fire_Object_DontWakeLlama_Sabotage" Value="128869" />
   <Preset Label="loot_InteractiveBush_UncomfortableNap_Buff" Value="128910" />
   <Preset Label="loot_Buff_GenericReaction_BeenShocked" Value="128923" />
   <Preset Label="loot_Reaction_Jealous_RelLoss_OtherSim" Value="129246" />
@@ -2316,9 +2330,12 @@
   <Preset Label="loot_Reaction_GoingOutSocials_TalkUpSim" Value="129430" />
   <Preset Label="loot_Reaction_GoingOutSocials_TrashSim" Value="129433" />
   <Preset Label="loot_RepairService_Mixer_IncreaseHandiness" Value="129527" />
+  <Preset Label="loot_Reaction_DontWakeLlama_End" Value="129590" />
   <Preset Label="loot_Reaction_Visitor_Inappropriateness" Value="129615" />
   <Preset Label="loot_Buff_Target_Interupt_Inappropriate_Behavior" Value="129631" />
   <Preset Label="loot_Reaction_NudeAdultReaction" Value="129639" />
+  <Preset Label="loot_Reaction_DontWakeLlama_Success" Value="129652" />
+  <Preset Label="loot_Reaction_DontWakeLlama_Win" Value="129688" />
   <Preset Label="Loot_ForSocialsSocialMotiveSmall_OtherInteractionSims" Value="129705" />
   <Preset Label="loot_Buff_Bonfire_Voodoo_pregnantPickedSim" Value="129708" />
   <Preset Label="loot_KickedOut_InappropriateBehavior" Value="129868" />
@@ -2332,12 +2349,19 @@
   <Preset Label="loot_Rrel_Bit_HasMet_Add_Both_GoingOutSocials_Offlot" Value="129963" />
   <Preset Label="loot_Reaction_Bonfire_Cheer" Value="130018" />
   <Preset Label="loot_Relationship_Greetings_Greeted" Value="130060" />
+  <Preset Label="loot_Buff_DontWakeLlama_StopPlaying" Value="130068" />
+  <Preset Label="loot_DontWakeLlama_StopPlayingAdd" Value="130069" />
+  <Preset Label="loot_Buff_DontWakeLlama_RemoveStopPlaying" Value="130070" />
+  <Preset Label="loot_DontWakeLlama_StopPlayingReset" Value="130071" />
   <Preset Label="loot_Listeners_Greeting_Group" Value="130172" />
   <Preset Label="Loot_Break_Object_basic_tiny" Value="130183" />
+  <Preset Label="loot_Reaction_DontWakeLlama_Explosion" Value="130198" />
   <Preset Label="loot_Commodity_TV_ChannelSurf_Cooldown" Value="130212" />
+  <Preset Label="loot_DontWakeLlama_MinTopBot" Value="130253" />
   <Preset Label="rel_Loss_Small_TargetSim" Value="130277" />
   <Preset Label="rel_Gain_Small_TargetSim" Value="130279" />
   <Preset Label="loot_Reaction_Exit_WatchTV_TargetSim" Value="130306" />
+  <Preset Label="loot_DontWakeLlama_StopPlayingMax" Value="130344" />
   <Preset Label="loot_Career_JobPerformance_Max_All" Value="131432" />
   <Preset Label="loot_Career_JobPerformance_Max_GradeSchool" Value="131441" />
   <Preset Label="loot_Career_JobPerformance_Max_HighSchool" Value="131442" />
@@ -2757,7 +2781,7 @@
   <Preset Label="loot_Commodity_Motive_Fun_Gain_Small" Value="166752" />
   <Preset Label="loot_Commodity_Motive_Social_Gain_Med" Value="166778" />
   <Preset Label="loot_Statistic_Hunger_GainSmall_TargetSim" Value="166785" />
-  <Preset Label="Rel_Loss_VeryLarge" Value="167599" />
+  <Preset Label="rel_Loss_VeryLarge" Value="167599" />
   <Preset Label="loot_Commodity_Motive_Hygiene_Reduce_LowFitness" Value="168157" />
   <Preset Label="loot_Commodity_Motive_Hygiene_Reduce_MedFitness" Value="168162" />
   <Preset Label="loot_Commodity_Motive_Hygiene_Reduce_HighFitness" Value="168163" />
@@ -2846,6 +2870,7 @@
   <Preset Label="loot_Notifications_TemperatureDeath_Freezing" Value="183934" />
   <Preset Label="loot_Buff_Pet_SeasonWeather_Lightning_Anywhere" Value="184848" />
   <Preset Label="loot_ObjectStateChange_TrashPile_Destroy" Value="185028" />
+  <Preset Label="loot_Campfire_FrozenGhost_TurnOffFire" Value="185053" />
   <Preset Label="Garden_BugSprayed_Loot_Actor" Value="185093" />
   <Preset Label="Garden_Weeded_Loot_Actor" Value="185094" />
   <Preset Label="loot_Lightning_Object" Value="185379" />
@@ -3073,7 +3098,7 @@
   <Preset Label="loot_Career_Buff_StyleInfluencer_Interview_Cooldown_target" Value="201603" />
   <Preset Label="loot_Career_Buff_StyleInfluencer_Impression_lowChance" Value="201624" />
   <Preset Label="loot_LTR_Romance_Small_TargetSim" Value="201647" />
-  <Preset Label="loot_JobPerformance_Gain_Large_Teen_Babysitter" Value="201712" />
+  <Preset Label="loot_JobPerformance_Gain_Large_Teen_BabySitter" Value="201712" />
   <Preset Label="loot_JobPerformance_Gain_Large_Teen_Barista" Value="201713" />
   <Preset Label="loot_JobPerformance_Gain_Large_Teen_Retail" Value="201714" />
   <Preset Label="loot_JobPerformance_Gain_Large_Teen_ManualLabor" Value="201715" />
@@ -3743,7 +3768,6 @@
   <Preset Label="loot_animalObjects_RelLoss_Small" Value="257688" />
   <Preset Label="loot_animalObjects_RelGain_Small" Value="257689" />
   <Preset Label="loot_Sentiment_AddSentiment_Guilty_generic_TargetAboutActor" Value="257720" />
-  <Preset Label="loot_Buff_Consumable_LactoseIntolerant_HasEaten" Value="257786" />
   <Preset Label="loot_VacuumCleaner_ToddlerCleaning" Value="257795" />
   <Preset Label="loot_Dust_LevelBuff_Reload" Value="257836" />
   <Preset Label="loot_Buff_Trait_Bookworm_AutonomyReset" Value="258044" />
@@ -3789,14 +3813,10 @@
   <Preset Label="loot_Buff_Social_RiledUp_Actor_HotHead_Romance" Value="258470" />
   <Preset Label="loot_Dust_Commodity_ResetSpawnTimer" Value="258479" />
   <Preset Label="loot_Dust_Commodity_SpawnObjects" Value="258480" />
-  <Preset Label="loot_animalObjects_Chickens_AgeUp" Value="258619" />
   <Preset Label="loot_Trait_Perfectionist_MasterworkCreated" Value="258625" />
   <Preset Label="randomWeightedLoot_Trait_Perfectionist_FocusQualityAdjustmentChance" Value="258631" />
-  <Preset Label="loot_animalObjects_Harvest_Egg_Base" Value="258643" />
-  <Preset Label="loot_animalObjects_Chickens_Breeding" Value="258644" />
   <Preset Label="loot_Trait_Perfectionist_RemoveRetryCooldown" Value="258664" />
   <Preset Label="loot_Trait_Perfectionist_AttemptQualityIncrease" Value="258754" />
-  <Preset Label="loot_RequiredIngredients_LotTrait_BuffAdd" Value="258839" />
   <Preset Label="loot_Dust_Commodity_RemoveObjectSpawner" Value="258849" />
   <Preset Label="loot_Trait_Commodity_Gloomy_Max" Value="258851" />
   <Preset Label="loot_Trait_Cheerful_ReactBroadcaster" Value="258854" />
@@ -3814,45 +3834,10 @@
   <Preset Label="loot_SimPreference_Likes_Activities_Painting" Value="259166" />
   <Preset Label="loot_SimPreference_Likes_Activities_VideoGaming" Value="259168" />
   <Preset Label="loot_SimPreference_Likes_Activities_Violin" Value="259169" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Blueberry" Value="259272" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Chocolatey" Value="259273" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Fishy" Value="259274" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Flirty" Value="259275" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Golden" Value="259276" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Healthy" Value="259277" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Normal" Value="259278" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Obsidian" Value="259279" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Pumpkin" Value="259280" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Rainbow" Value="259282" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Social" Value="259283" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_SpicyBeef" Value="259284" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_Veggie" Value="259285" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Create_All_Recipes_Debug" Value="259307" />
   <Preset Label="loot_Buff_AddAwayFromChildren" Value="259332" />
   <Preset Label="loot_Buff_RemoveAwayFromChildren" Value="259333" />
   <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_All_Debug" Value="259337" />
-  <Preset Label="loot_GiantCrops_Plant_IncrementYield" Value="259474" />
   <Preset Label="loot_AnimalObjects_LivestockPen_IdleStateValue_Stand" Value="259545" />
-  <Preset Label="loot_AnimalObjects_Harvest_Milk_Base" Value="259594" />
-  <Preset Label="loot_AnimalObjects_Harvest_Milk_Blue" Value="259595" />
-  <Preset Label="loot_AnimalObjects_Harvest_Milk_Black" Value="259596" />
-  <Preset Label="loot_AnimalObjects_Harvest_Milk_Brown" Value="259597" />
-  <Preset Label="loot_AnimalObjects_Harvest_Milk_Gold" Value="259598" />
-  <Preset Label="loot_AnimalObjects_Harvest_Milk_Red" Value="259599" />
-  <Preset Label="loot_AnimalObjects_Harvest_Milk_Orange" Value="259600" />
-  <Preset Label="loot_AnimalObjects_Harvest_Milk_Rainbow" Value="259601" />
-  <Preset Label="loot_AnimalObjects_Harvest_Milk_Pink" Value="259602" />
-  <Preset Label="loot_AnimalObjects_Harvest_Milk_Green" Value="259603" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_White" Value="259605" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Black" Value="259606" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Blue" Value="259607" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Brown" Value="259608" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Gold" Value="259609" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Green" Value="259610" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Orange" Value="259611" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Pink" Value="259612" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Rainbow" Value="259613" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Red" Value="259614" />
   <Preset Label="loot_Trait_Jealous_ReduceBuffDurations" Value="259615" />
   <Preset Label="loot_Reaction_AnnoyedByChild" Value="259638" />
   <Preset Label="loot_Trait_Jealous_ResetMissingSOTimer" Value="259655" />
@@ -3860,107 +3845,18 @@
   <Preset Label="loot_Dust_Commodity_SpawnObjects_NoDustPiles_Debug" Value="259889" />
   <Preset Label="loot_Dust_Stop_Spawning_DustPiles_On_Level_Debug" Value="259916" />
   <Preset Label="loot_Dust_Stop_Spawning_DustPiles_On_Lot_Debug" Value="259919" />
-  <Preset Label="loot_Festivals_VillageFair_SubmitEntry" Value="259958" />
-  <Preset Label="loot_Fox_WatchTarget" Value="260046" />
   <Preset Label="loot_Buff_Trait_Goofball_AutonomyReset" Value="260112" />
   <Preset Label="loot_animalObjects_Chickens_NestEgg" Value="260126" />
   <Preset Label="skill_Loot_Dynamic_Tiny_ChildrenOnly_Mental" Value="260160" />
-  <Preset Label="loot_PicnicBasket_FillBasket" Value="260226" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Chocolate" Value="260281" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Obsidian" Value="260282" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Rainbow" Value="260283" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Green" Value="260284" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Blue" Value="260285" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Orange" Value="260286" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Gold" Value="260303" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Fertilzed_Base" Value="260343" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Fertilzed_Gold" Value="260344" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Fertilzed_Obsidian" Value="260345" />
   <Preset Label="skill_Toddler_GardeningPlant" Value="260458" />
-  <Preset Label="loot_Fox_WalkTo_FunGain" Value="260470" />
-  <Preset Label="loot_GiantCrops_Plant_TalkToPlant" Value="260535" />
   <Preset Label="loot_AnimalObjects_LivestockFeed_FeedWith" Value="260702" />
-  <Preset Label="loot_Sentiment_AddSentiment_Close_Canning_ReceivedGift" Value="260821" />
-  <Preset Label="loot_Sentiment_AddSentiment_Close_PicnicBasket_PicnicBonding" Value="260822" />
-  <Preset Label="loot_Sentiment_AddSentiment_Enamored_Canning_GiftedJar" Value="260823" />
-  <Preset Label="loot_animalObjects_RelGain_CritterGifting_Like" Value="260894" />
-  <Preset Label="loot_animalObjects_RelGain_CritterGifting_Favorite" Value="260895" />
-  <Preset Label="loot_Fox_DontSteal_Add" Value="260911" />
-  <Preset Label="loot_Fox_DontSteal_Remove" Value="260913" />
-  <Preset Label="loot_animalObjects_RelGain_CritterGifting_Dislike" Value="260915" />
   <Preset Label="loot_AnimalObjects_LivestockPen_SetShedIdleBehavior" Value="260960" />
-  <Preset Label="loot_animalObjects_Chickens_HatchNewChick_WithSim" Value="261059" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_Hatch" Value="261062" />
-  <Preset Label="loot_animalObjects_Chickens_HatchNewChick_Self" Value="261064" />
-  <Preset Label="loot_animalObjects_Chickens_HatchNewChick_HatchingStart" Value="261065" />
-  <Preset Label="loot_AnimalObjects_GoHome_Chickens" Value="261078" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Chicken_A" Value="261096" />
-  <Preset Label="loot_CrossStitch_FinalProduct_QualityAdjustment" Value="261156" />
-  <Preset Label="randomWeightedLoot_CrossStitch_QualityAdjustment" Value="261157" />
   <Preset Label="loot_KnowAbout_SimPreference_Color" Value="261168" />
-  <Preset Label="loot_CrossStitch_FinalProduct_SetFinishedState" Value="261172" />
   <Preset Label="loot_KnowAbout_SimPreference_Music" Value="261184" />
-  <Preset Label="loot_CrossStitch_FinalProduct" Value="261208" />
-  <Preset Label="loot_CrossStitch_FinalProduct_ExpertStitcherBuff" Value="261210" />
-  <Preset Label="loot_CrossStitch_ViewRead" Value="261228" />
   <Preset Label="loot_KnowAbout_SimPreference_Activities" Value="261230" />
-  <Preset Label="loot_AnimalObjects_SellSimoleons_Chickens" Value="261258" />
   <Preset Label="loot_Reaction_AnimalObject_Sell_Shocked_Chicken" Value="261289" />
   <Preset Label="loot_Reaction_AnimalObject_Death_Shocked_Chicken" Value="261290" />
-  <Preset Label="loot_AnimalObjects_Rewards_RabbitHome" Value="261304" />
-  <Preset Label="loot_AnimalObjects_Rewards_BirdHome" Value="261305" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_FeedWith_Social" Value="261380" />
   <Preset Label="loot_AnimalObjects_AnimalClothing_NoClothing" Value="261416" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Top1" Value="261417" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Top2" Value="261418" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Scarf2" Value="261419" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Llama_Aviator" Value="261420" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Dress2" Value="261421" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Dress3" Value="261422" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Bow1" Value="261423" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Bow2" Value="261424" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Bow3" Value="261425" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Bow4" Value="261426" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Gent" Value="261427" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Dots1" Value="261428" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Dots2" Value="261429" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Sweater1" Value="261430" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Sweater2" Value="261431" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Sweater3" Value="261432" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Tophat1" Value="261433" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Tophat2" Value="261434" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Tophat3" Value="261435" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Scarf1" Value="261436" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_Scarf3" Value="261437" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Cow_Sweater" Value="261438" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Cow_Professor" Value="261439" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Cow_Cottagecore" Value="261440" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Cow_Cap" Value="261441" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Cow_Cowbell" Value="261442" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Llama_Llamacorn" Value="261443" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Llama_Tarp" Value="261444" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Llama_Cottagecore" Value="261445" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Llama_Neckwarmer" Value="261446" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Pants1" Value="261447" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Pants2" Value="261448" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Pants3" Value="261449" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Vest1" Value="261450" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Vest2" Value="261451" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rabbit_Dress1" Value="261452" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_ShortQuest_AgathaCrumplebottom" Value="261534" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_ShortQuest_AgnesCrumplebottom" Value="261535" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_ShortQuest_Mayor" Value="261536" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_ShortQuest_GroceryDelivery" Value="261537" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_ShortQuest_GroceryOwner" Value="261538" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_ShortQuest_PubOwner" Value="261539" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_ShortQuest_CritterTender" Value="261540" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_MediumQuest_AgathaCrumplebottom" Value="261542" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_MediumQuest_AgnesCrumplebottom" Value="261543" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_MediumQuest_CritterTender" Value="261544" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_MediumQuest_GroceryDelivery" Value="261545" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_MediumQuest_GroceryOwner" Value="261546" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_MediumQuest_Mayor" Value="261547" />
-  <Preset Label="loot_Statistic_CottageWorld_NPC_UnlockLevel_MediumQuest_PubOwner" Value="261548" />
   <Preset Label="loot_AnimalObjects_Graze" Value="261604" />
   <Preset Label="loot_AnimalObjects_Stand" Value="261605" />
   <Preset Label="loot_SimPreference_PreferenceAssign" Value="261657" />
@@ -3970,185 +3866,28 @@
   <Preset Label="door_Padlock_Loot_Locks_Chickens" Value="261752" />
   <Preset Label="door_Padlock_Loot_Unlocks_Chickens" Value="261753" />
   <Preset Label="loot_animalObjects_Chickens_GoMissing_Return" Value="261759" />
-  <Preset Label="loot_AnimalObjects_GoHome_Chickens_NoHome" Value="261761" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Normal" Value="261769" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Blueberry" Value="261770" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Pumpkin" Value="261771" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Golden" Value="261772" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Flirty" Value="261773" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Fishy" Value="261774" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Chocolate" Value="261775" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Veggie" Value="261777" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Spicy" Value="261778" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Social" Value="261779" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Rainbow" Value="261780" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Normal_Basic" Value="261782" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Obsidian" Value="261783" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Piles_Healthy" Value="261784" />
   <Preset Label="loot_SimPreference_Gain_VideoGaming" Value="261831" />
   <Preset Label="loot_SimPreference_NoOpinion_VideoGaming" Value="261878" />
-  <Preset Label="randomWeightedLoot_CritterGifting_Low" Value="261883" />
-  <Preset Label="randomWeightedLoot_CritterGifting_Medium" Value="261884" />
-  <Preset Label="randomWeightedLoot_CritterGifting_High" Value="261885" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Blueberry" Value="262013" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Obsidian" Value="262015" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Pumpkin" Value="262016" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Rainbow" Value="262017" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Social" Value="262018" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Spicy" Value="262019" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Veggie" Value="262020" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Fishy" Value="262022" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Chocolate" Value="262023" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Flirty" Value="262024" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Golden" Value="262025" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Healthy" Value="262026" />
-  <Preset Label="loot_animalObjects_Chickens_EatFeed_LivestockFeed_Normal" Value="262027" />
-  <Preset Label="loot_Canning_RecipeUnlocks_DEBUGUnlockAll" Value="262091" />
-  <Preset Label="loot_Sentiment_Buffs_Close_Canning_ReceiveGift" Value="262170" />
-  <Preset Label="loot_Sentiment_Buffs_Close_PicnicBasket_PicnicBonding" Value="262171" />
-  <Preset Label="loot_Sentiment_Buffs_Enamored_Canning_GiftedJar" Value="262173" />
-  <Preset Label="random_Sentiment_Buffs_Close_Canning_ReceivedGift" Value="262176" />
-  <Preset Label="random_Sentiment_Buffs_Close_PicnicBasket_PicnicBonding" Value="262177" />
-  <Preset Label="random_Sentiment_Buffs_Enamored_Canning_GiftedJar" Value="262178" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_FeedWith_Social_Pile" Value="262191" />
   <Preset Label="loot_animalObjects_Chickens_Purchase" Value="262247" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Create_All_Ingredients_Debug" Value="262264" />
-  <Preset Label="lootActions_GiveIngredients_RequiredIngredients" Value="262269" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Notifications_Normal" Value="262274" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Notifications_Healthy" Value="262275" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Notifications_Fishy" Value="262276" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Notifications_Chicken_Flirty" Value="262277" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Notifications_Chicken_Golden" Value="262279" />
-  <Preset Label="loot_AnimalObjects_CritterGifting_TakeGift_MaxCooldown" Value="262304" />
   <Preset Label="loot_Sentiment_Buffs_Close_GroupCooking_CookingTogether" Value="262313" />
   <Preset Label="random_Sentiment_Buffs_Close_GroupCooking_CookingTogether" Value="262318" />
   <Preset Label="loot_Sentiment_AddSentiment_Close_GroupCooking_CookingTogether" Value="262319" />
   <Preset Label="loot_Commodity_Motive_Social_Gain_Small" Value="262325" />
   <Preset Label="loot_Commodity_Motive_Social_Loss_Med" Value="262326" />
   <Preset Label="loot_Commodity_Motive_Social_Loss_Small" Value="262339" />
-  <Preset Label="loot_AnimalObjects_CritterGifting_TakeGift_MinCooldown" Value="262342" />
-  <Preset Label="loot_Relationship_Fox_Gain_Small" Value="262459" />
-  <Preset Label="loot_Relationship_Fox_Gain_Medium" Value="262460" />
-  <Preset Label="loot_Relationship_Fox_Gain_Large" Value="262461" />
-  <Preset Label="loot_Relationship_Fox_Lose_Small" Value="262464" />
-  <Preset Label="loot_Relationship_Fox_Lose_Medium" Value="262465" />
-  <Preset Label="loot_Relationship_Fox_Lose_Large" Value="262466" />
   <Preset Label="loot_AnimalObjects_LivestockPen_RefillFeed" Value="262470" />
-  <Preset Label="loot_AnimalObjects_SellSimoleons_LivestockPen" Value="262581" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Chicken_Y" Value="262599" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Chicken_E" Value="262600" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Cow_E" Value="262769" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Cow_Y" Value="262770" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Cow_A" Value="262771" />
   <Preset Label="loot_Buff_FeelingSad_Always" Value="262818" />
   <Preset Label="loot_animalObjects_Chickens_GoBackToSleep" Value="262922" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_Base" Value="262929" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_Blue" Value="262930" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_Chocolate" Value="262931" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_Gold" Value="262932" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_Green" Value="262933" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_Obsidian" Value="262934" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_Orange" Value="262935" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_Rainbow" Value="262936" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_Base" Value="262940" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_Blue" Value="262941" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_Chocolate" Value="262942" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_Gold" Value="262943" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_Green" Value="262944" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_Obsidian" Value="262945" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_Orange" Value="262946" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_Rainbow" Value="262947" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_FertilizedGold" Value="262948" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_FertilizedObsidian" Value="262950" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayExtraEgg_FertilizedBase" Value="262951" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_FertilizedBase" Value="262952" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_FertilizedGold" Value="262953" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_LayEgg_FertilizedObsidian" Value="262954" />
-  <Preset Label="loot_Canning_GiantCrops" Value="262961" />
-  <Preset Label="loot_Canning_MediumCrops" Value="262963" />
   <Preset Label="loot_AnimalObjects_AutonomyStates_SetToFree" Value="263021" />
   <Preset Label="loot_AnimalObjects_AutonomyStates_SetInHome" Value="263022" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_Random_Base" Value="263083" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Base_Aggregate" Value="263089" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Gold_Aggregate" Value="263090" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Aggregate" Value="263093" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Obsidian_Base_Aggregate" Value="263096" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Obsidian_Red_Aggregate" Value="263097" />
-  <Preset Label="loot_AnimalObjects_GoHome_Rabbits" Value="263114" />
-  <Preset Label="loot_AnimalObjects_LivestockPen_RemoveTenseHarvestBuff_Cow" Value="263120" />
-  <Preset Label="loot_AnimalObjects_LivestockPen_RemoveTenseHarvestBuff_Llama" Value="263121" />
-  <Preset Label="loot_Buff_LivestockPen_Woohoo_Pleasant" Value="263165" />
-  <Preset Label="loot_Buff_LivestockPen_Woohoo_Spectacular" Value="263166" />
-  <Preset Label="loot_Buff_LivestockPen_Woohoo_Embarassed" Value="263167" />
-  <Preset Label="loot_Buff_LivestockPen_Woohoo_Uncomfortable" Value="263168" />
   <Preset Label="loot_AnimalObjects_Management_Assign" Value="263206" />
   <Preset Label="loot_AnimalObjects_Management_Unassign" Value="263207" />
   <Preset Label="loot_AnimalObjects_Management_Assign_PickedObj" Value="263209" />
   <Preset Label="loot_AnimalObjects_Management_Unassign_PickedObj" Value="263211" />
-  <Preset Label="loot_AnimalObjects_Rewards_AllHomes_Debug" Value="263219" />
   <Preset Label="loot_AnimalObjects_StopNotFree" Value="263255" />
   <Preset Label="loot_AnimalObjects_StartWalk" Value="263264" />
-  <Preset Label="loot_AnimalObjects_Rabbits_Pet_StressRelief" Value="263546" />
   <Preset Label="loot_animalObjects_Chickens_RoosterCrowInMorning" Value="263551" />
-  <Preset Label="rel_Gain_Large_VillagerHelp_Reward" Value="263553" />
-  <Preset Label="loot_CrossStitch_SellProductFame" Value="263558" />
-  <Preset Label="loot_CrossStitch_IncrementScrapStat" Value="263565" />
   <Preset Label="loot_AnimalObjects_CallOut_Object" Value="263589" />
-  <Preset Label="loot_CrossStitch_CheatsDebug_UnlockAllLockedRecipes" Value="263624" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_CritterGifting_Rabbit" Value="263634" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_CritterGifting_Cow" Value="263635" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_CritterGifting_Bird" Value="263636" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_CritterGifting_Llama" Value="263637" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_CritterGifting_Llamacorn" Value="263638" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_CritterGifting_Cat" Value="263639" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_CritterGifting_Dog" Value="263640" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_Crumpets" Value="263641" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_BeefWellington" Value="263642" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_YorkshirePudding" Value="263643" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_PumpkinPie" Value="263644" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_ChocolatePie" Value="263645" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_Lettuce" Value="263646" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_Eggplant" Value="263647" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_Cowplant" Value="263648" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_Watermelon" Value="263649" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_AdvancedPumpkin" Value="263650" />
-  <Preset Label="loot_CrossStitch_Unlockable_Patterns_Quests_Agnes" Value="263651" />
-  <Preset Label="loot_Foxes_Stalk_Remove" Value="263660" />
-  <Preset Label="loot_Buff_Consumable_LactoseIntolerant_RemoveUncomfortable" Value="263670" />
-  <Preset Label="random_Sentiment_Buffs_Bitter_LivestockSold" Value="263708" />
-  <Preset Label="random_Sentiment_Buffs_Hurt_LivestockSold" Value="263709" />
-  <Preset Label="randomWeightedLoot_AddSentiment_LivestockSold" Value="263710" />
-  <Preset Label="loot_Sentiment_Buffs_Hurt_LivestockSold" Value="263711" />
-  <Preset Label="loot_Sentiment_Buffs_Bitter_LivestockSold" Value="263712" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_HatchRoosterChick" Value="263718" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_HatchHenChick" Value="263719" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_HatchWithSim" Value="263721" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_HatchWithSimHenChick" Value="263722" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_HatchWithSimRoosterChick" Value="263723" />
-  <Preset Label="loot_RequiredIngredients_LotTrait_Apply" Value="263761" />
-  <Preset Label="loot_RequiredIngredients_LotTrait_Remove" Value="263762" />
-  <Preset Label="loot_RequiredIngredients_LotTrait_CookingBuff" Value="263863" />
-  <Preset Label="loot_RequiredIngredients_LotTrait_BuffRemove" Value="263902" />
-  <Preset Label="loot_VillagerHelp_SocialShortPackage_CooldownRelBit" Value="263909" />
-  <Preset Label="loot_VillagerHelp_SocialShort_StartLootGet" Value="263917" />
-  <Preset Label="loot_VillagerHelp_SocialShort_StartLootGive" Value="263923" />
-  <Preset Label="loot_CrossStitch_CheatsDebug_AddWoolToInventory" Value="263968" />
-  <Preset Label="loot_VillagerHelp_SocialShort_Cleanup" Value="263971" />
-  <Preset Label="loot_VillagerHelp_Rewards_SocialShort" Value="263972" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Book" Value="263978" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Fish" Value="263982" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Drink" Value="263983" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_MealMeat" Value="263984" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_MealVeggie" Value="263985" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Painting" Value="263986" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Sculpture" Value="263987" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Flower" Value="263988" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Produce" Value="263989" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Egg" Value="263991" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_CrossStitch" Value="263992" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Wool" Value="263993" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Milk" Value="263994" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_CannedGood" Value="263995" />
   <Preset Label="loot_GroupCooking_Finish_HeadCook" Value="264067" />
   <Preset Label="loot_SimPreference_Dislikes_Activities_Acting" Value="264226" />
   <Preset Label="loot_SimPreference_Dislikes_Activities_Baking" Value="264227" />
@@ -4200,61 +3939,16 @@
   <Preset Label="loot_SimPreference_Likes_Activities_Debating" Value="264303" />
   <Preset Label="loot_SimPreference_Dislikes_Activities_RocketScience" Value="264306" />
   <Preset Label="loot_SimPreference_Likes_Activities_RocketScience" Value="264307" />
-  <Preset Label="random_Sentiment_Buffs_Bitter_Crumplebottomed" Value="264471" />
-  <Preset Label="loot_Sentiment_Buffs_Bitter_Crumplebottomed" Value="264472" />
-  <Preset Label="loot_AnimalObjects_Rabbit_RemoveBuff_SimAboutToDie" Value="264517" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Yellow" Value="264522" />
-  <Preset Label="loot_Festivals_VillageFair_AddCompetitionItems" Value="264545" />
-  <Preset Label="loot_OpenStreet_CottageWorld_Gossiper_SetCommodityMax" Value="264601" />
-  <Preset Label="loot_Sentiment_AddSentiment_Bitter_Crumplebottomed" Value="264655" />
-  <Preset Label="loot_AnimalObjects_CritterGifting_DiscoverGift_MinCooldown" Value="264692" />
-  <Preset Label="loot_AnimalObjects_CritterGifting_DiscoverGift_MaxCooldown" Value="264697" />
   <Preset Label="loot_SimPreference_Dislikes_Activities_Programming" Value="264782" />
   <Preset Label="loot_SimPreference_Likes_Activities_Programming" Value="264783" />
   <Preset Label="loot_Relationship_Starting_NPC_SlightlyAwkard" Value="264828" />
   <Preset Label="loot_Relationship_Starting_NPC_BadMarriage" Value="264829" />
   <Preset Label="loot_Relationship_Starting_NPC_BreakUp" Value="264830" />
-  <Preset Label="loot_CrossStitch_CheatsDebug_CraftAllCrossStitchHoops" Value="264836" />
-  <Preset Label="loot_AnimalObjects_Management_Assign_LivestockPen" Value="264840" />
-  <Preset Label="loot_CottageWorld_NPC_Gossip_Low" Value="264855" />
-  <Preset Label="loot_CottageWorld_NPC_Gossip_Med" Value="264856" />
-  <Preset Label="loot_CottageWorld_NPC_Gossip_High" Value="264857" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_UpdateMaterialAndGeoStates_Clean_Chicken" Value="264947" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_UpdateMaterialAndGeoStates_Dirty_Chicken" Value="264948" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_UpdateMaterialAndGeoStates_Clean_Cow" Value="264949" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_UpdateMaterialAndGeoStates_Clean_Llama" Value="264950" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_UpdateMaterialAndGeoStates_Dirty_Cow" Value="264951" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_UpdateMaterialAndGeoStates_Dirty_Llama" Value="264952" />
-  <Preset Label="random_Sentiment_Buffs_Close_CottageWorld_NPC_Gossip" Value="264957" />
-  <Preset Label="loot_Sentiment_AddSentiment_Close_CottageWorld_NPC_Gossip_LowChance" Value="264958" />
-  <Preset Label="loot_Sentiment_AddSentiment_Close_CottageWorld_NPC_Gossip_MedChance" Value="264960" />
   <Preset Label="loot_AnimalObjects_FoxAlarmTriggered" Value="264968" />
   <Preset Label="loot_AnimalObjects_RoosterSounds" Value="264970" />
-  <Preset Label="loot_Sentiment_Buffs_Close_CottageWorld_NPC_Gossip" Value="264996" />
-  <Preset Label="loot_Aspirations_CountryCaretaker_PurchaseAnimalEvent" Value="265005" />
-  <Preset Label="loot_PremadesSetup_EP11_SimonScott_AgnesCrumplebottom" Value="265031" />
-  <Preset Label="loot_PremadesSetup_EP11_SaraScott_AgnesCrumplebottom" Value="265032" />
-  <Preset Label="loot_PremadesSetup_EP11_IanMoody_AgathaCrumplebottom" Value="265033" />
-  <Preset Label="loot_PremadesSetup_EP11_MichaelBell_CeciliaKang" Value="265034" />
-  <Preset Label="loot_PremadesSetup_EP11_KimGoldbloom_MichaelBell" Value="265035" />
-  <Preset Label="loot_PremadesSetup_EP11_ThomasWatson_RahmiWatson" Value="265039" />
-  <Preset Label="loot_PremadesSetup_EP11_RashidahWatson_RahulChopra" Value="265040" />
-  <Preset Label="loot_PremadesSetup_EP11_MairaWatson_KimGoldbloom" Value="265044" />
-  <Preset Label="loot_PremadesSetup_EP11_RahmiWatson_LavinaChopra" Value="265048" />
   <Preset Label="loot_Sentiment_AddSentiment_Bitter_BreakUp" Value="265051" />
-  <Preset Label="loot_Sentiment_AddSentiment_Close_Gossip" Value="265055" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_1st" Value="265089" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_2nd" Value="265090" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_3rd" Value="265091" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_Partipation" Value="265092" />
-  <Preset Label="loot_Foxes_Stalk_Cancel" Value="265100" />
-  <Preset Label="loot_Trait_Remove_CottageWorld_NPC" Value="265111" />
-  <Preset Label="randomWeightedLoot_CottageWorld_NPC_GiveFavor" Value="265113" />
-  <Preset Label="loot_Aspirations_CountryCaretaker_WinFestivalCompetition" Value="265114" />
   <Preset Label="loot_AnimalObjects_LivestockPen_SetAnimalInShed_Yes" Value="265119" />
   <Preset Label="loot_AnimalObjects_LivestockPen_SetAnimalInShed_No" Value="265120" />
-  <Preset Label="loot_CottageWorld_NPC_Gossip_TownLore" Value="265197" />
-  <Preset Label="loot_Aspirations_CountryCaretaker_IncreaseGardenQuality" Value="265213" />
   <Preset Label="loot_SimPreference_Headline_Music_Alternative" Value="265215" />
   <Preset Label="loot_SimPreference_Headline_Music_Blues" Value="265216" />
   <Preset Label="loot_SimPreference_Headline_Music_Classical" Value="265218" />
@@ -4286,89 +3980,11 @@
   <Preset Label="loot_SimPreference_Headline_Music_Focus" Value="265246" />
   <Preset Label="loot_SimPreference_Headline_Music_Metal" Value="265247" />
   <Preset Label="loot_SimPreference_Headline_Music_JapaneseFolk" Value="265248" />
-  <Preset Label="randomWeightedLoot_CottageWorld_NPC_HighResult" Value="265267" />
-  <Preset Label="loot_AnimalObjects_GoHome_Rabbits_Immediately_HasHome" Value="265314" />
-  <Preset Label="loot_Relationship_Fox_CritterGifting_Like" Value="265321" />
-  <Preset Label="loot_Relationship_Fox_CritterGifting_Dislike" Value="265322" />
-  <Preset Label="loot_Relationship_Fox_CritterGifting_Favorite" Value="265323" />
-  <Preset Label="loot_AnimalObjects_Rewards_LivestockUpgradePart" Value="265324" />
-  <Preset Label="loot_Buff_EatHarvestable_EnergyBonus_mushroomWildNightly" Value="265340" />
-  <Preset Label="loot_Aspirations_CountryCaretaker_IncreaseAnimalLife" Value="265343" />
   <Preset Label="loot_Ponds_FrozenWaterRules_TurnOn" Value="265348" />
   <Preset Label="loot_Ponds_FrozenWaterRules_TurnOff" Value="265349" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_OrderClothes" Value="265352" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Book_NoCD" Value="265356" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_CannedGood_NoCD" Value="265357" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_CrossStitch_NoCD" Value="265358" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Drink_NoCD" Value="265359" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Egg_NoCD" Value="265360" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Fish_NoCD" Value="265361" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Flower_NoCD" Value="265362" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_MealMeat_NoCD" Value="265364" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_MealVeggie_NoCD" Value="265365" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Milk_NoCD" Value="265366" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Painting_NoCD" Value="265367" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Produce_NoCD" Value="265368" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Sculpture_NoCD" Value="265369" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_Wool_NoCD" Value="265370" />
-  <Preset Label="loot_CrossStitch_FinalProduct_ApplyFinishedTag" Value="265402" />
-  <Preset Label="loot_VillagerHelp_SocialMedium_Cleanup" Value="265419" />
-  <Preset Label="loot_VillagerHelp_SocialMedium_SetMysteryGifterBit" Value="265420" />
   <Preset Label="loot_Ponds_FrozneWaterRules_PushReaction" Value="265421" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Book" Value="265536" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Book_NoCD" Value="265537" />
-  <Preset Label="loot_Foxes_KnowledgePreference_CannedGood" Value="265538" />
-  <Preset Label="loot_Foxes_KnowledgePreference_CannedGood_NoCD" Value="265539" />
-  <Preset Label="loot_Foxes_KnowledgePreference_CrossStitch" Value="265540" />
-  <Preset Label="loot_Foxes_KnowledgePreference_CrossStitch_NoCD" Value="265541" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Drink" Value="265542" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Drink_NoCD" Value="265543" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Egg" Value="265544" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Egg_NoCD" Value="265545" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Fish" Value="265546" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Fish_NoCD" Value="265547" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Flower" Value="265548" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Flower_NoCD" Value="265549" />
-  <Preset Label="loot_Foxes_KnowledgePreference_MealMeat" Value="265552" />
-  <Preset Label="loot_Foxes_KnowledgePreference_MealMeat_NoCD" Value="265553" />
-  <Preset Label="loot_Foxes_KnowledgePreference_MealVeggie" Value="265554" />
-  <Preset Label="loot_Foxes_KnowledgePreference_MealVeggie_NoCD" Value="265555" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Milk" Value="265556" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Milk_NoCD" Value="265557" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Painting" Value="265558" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Painting_NoCD" Value="265559" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Produce" Value="265560" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Produce_NoCD" Value="265561" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Sculpture" Value="265562" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Sculpture_NoCD" Value="265563" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Wool" Value="265564" />
-  <Preset Label="loot_Foxes_KnowledgePreference_Wool_NoCD" Value="265565" />
-  <Preset Label="loot_Aspirations_CountryCaretaker_HarvestExcellentQualityCrop" Value="265678" />
   <Preset Label="loot_AnimalObjects_Management_ClearAssignment" Value="265694" />
-  <Preset Label="loot_VillagerHelp_SocialMedium_FoundMysteryGifter" Value="265715" />
-  <Preset Label="loot_Reaction_AnimalObject_Sell_Shocked_Cow" Value="265727" />
-  <Preset Label="Commodity_Trait_AnimalEnthusiast_SatisfyAutonomy" Value="265728" />
-  <Preset Label="loot_OpenStreet_CottageWorld_Forager_GiveCooldown" Value="265731" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Cow_Y_Object" Value="265735" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Cow_A_Object" Value="265740" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Cow_E_Object" Value="265742" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Chicken_Y_PickedObject" Value="265744" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Chicken_E_PickedObject" Value="265746" />
-  <Preset Label="loot_AnimalObjects_SellToMeatMarket_Chicken_A_PickedObject" Value="265748" />
-  <Preset Label="loot_Reaction_AnimalObject_Sell_Shocked_Llama" Value="265750" />
-  <Preset Label="loot_Reaction_AnimalObject_Death_Shocked_Cow" Value="265753" />
-  <Preset Label="loot_Reaction_AnimalObject_Death_Shocked_Llama" Value="265754" />
-  <Preset Label="loot_AnimalObjects_Sell_AddSentiments" Value="265756" />
-  <Preset Label="randomWeightedLoot_LiveStockFeed_FestivalCompetitionUnlock" Value="265802" />
-  <Preset Label="randomWeightedLoot_LiveStockFeed_VillagerHelp" Value="265816" />
   <Preset Label="loot_animalObjects_RelGain_Medium_PickedObject" Value="265843" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rewards_Uncommon" Value="265845" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rewards_Rare" Value="265849" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rewards_RareUncommon" Value="265851" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Notifications_Chicken_Fishy" Value="265872" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Notifications_Chicken_Healthy" Value="265873" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Notifications_Chicken_Normal" Value="265874" />
-  <Preset Label="loot_Festivals_VillageFair_ViewSubmission" Value="265887" />
   <Preset Label="loot_SimPreference_Gain_Music_Alternative_Like" Value="265974" />
   <Preset Label="loot_SimPreference_Gain_Music_Alternative_Dislike" Value="265975" />
   <Preset Label="loot_SimPreference_Gain_Music_Blues_Like" Value="265976" />
@@ -4396,125 +4012,14 @@
   <Preset Label="loot_SimPreference_Gain_Music_WinterHoliday_Like" Value="265998" />
   <Preset Label="loot_SimPreference_Gain_Music_WinterHoliday_Dislike" Value="265999" />
   <Preset Label="loot_SimPreference_NoOpinion_Music_All" Value="266001" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Milk_Strawberry" Value="266031" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Milk_Chocolate" Value="266032" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Milk_Fire" Value="266033" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Milk_Pumpkin" Value="266034" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Milk_Enriched" Value="266035" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Egg_Chocolate" Value="266036" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Egg_Rainbow" Value="266037" />
-  <Preset Label="loot_AnimalObjects_Management_Assign_LivestockPen_Purchase" Value="266041" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Egg_White" Value="266064" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Milk_White" Value="266065" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Milk_MightyPlant" Value="266068" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Milk_Rainbow" Value="266080" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Milk_GoldenHoney" Value="266081" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Milk_Obsidian" Value="266082" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Healthy" Value="266084" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Flirty" Value="266085" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Fishy" Value="266086" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Pumpkin" Value="266088" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Blueberry" Value="266089" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Veggie" Value="266090" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Social" Value="266091" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Jam_Strawberry" Value="266093" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Jam_Blueberry" Value="266094" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Jam_Raspberry" Value="266095" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Jam_Apple" Value="266096" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Jam_Cowberry" Value="266097" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Jam_Blackberry" Value="266098" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Sauce_Custard" Value="266099" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Sauce_Tomato" Value="266100" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Sauce_Mayonnaise" Value="266101" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Sauce_Chocolate" Value="266102" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Conserve_Mushroom" Value="266103" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Conserve_Pumpkin" Value="266104" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Conserve_Lettuce" Value="266105" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Conserve_Eggplant" Value="266106" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Conserve_Watermelon" Value="266107" />
-  <Preset Label="loot_NPCVillagers_ConspireWithGnomes_TurnOff" Value="266110" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_Pink" Value="266113" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_Brown" Value="266114" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_Red" Value="266115" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_Orange" Value="266116" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_Blue" Value="266117" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_Green" Value="266118" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_Rainbow" Value="266119" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_Golden" Value="266120" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_Black" Value="266122" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Rainbow" Value="266124" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Obsidian" Value="266125" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Golden" Value="266126" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Chocolate" Value="266127" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Spicy" Value="266128" />
   <Preset Label="loot_animalObjects_Chickens_CollectEggs" Value="266129" />
-  <Preset Label="randomLoot_NPCVillagers_ConspireWithGnomes_Behavior_Helpful" Value="266145" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_1st_Cow" Value="266146" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_1st_CropNormal" Value="266147" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_1st_CropGiant" Value="266148" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_1st_Llama" Value="266149" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_1st_Milk" Value="266150" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_1st_Wool" Value="266151" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_1st_Egg" Value="266152" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_1st_Pie" Value="266153" />
-  <Preset Label="randomLoot_NPCVillagers_ConspireWithGnomes_Behavior_Mean" Value="266154" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_2nd_Cow" Value="266159" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_2nd_CropNormal" Value="266160" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_2nd_CropGiant" Value="266161" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_2nd_Egg" Value="266162" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_2nd_Llama" Value="266163" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_2nd_Milk" Value="266164" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_2nd_Pie" Value="266165" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_2nd_Wool" Value="266166" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_3rd_Cow" Value="266177" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_3rd_CropGiant" Value="266178" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_3rd_CropNormal" Value="266179" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_3rd_Egg" Value="266180" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_3rd_Llama" Value="266181" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_3rd_Milk" Value="266182" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_3rd_Pie" Value="266183" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_3rd_Wool" Value="266184" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_Partipation_CropGiant" Value="266186" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_Partipation_CropNormal" Value="266187" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_Partipation_Egg" Value="266188" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_Partipation_Milk" Value="266189" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_Partipation_Pie" Value="266190" />
-  <Preset Label="loot_Festivals_VillageFair_Rewards_Partipation_Wool" Value="266191" />
   <Preset Label="loot_animalObjects_Chickens_HenLayEggInMorning" Value="266223" />
   <Preset Label="loot_animalObjects_Relationship_PurchaseAutoMeet" Value="266233" />
-  <Preset Label="loot_AnimalObjects_SellSimoleons_Chickens_FromPickedObject" Value="266236" />
-  <Preset Label="animalDeathLootActions_AnimalObjects_Rabbits" Value="266241" />
-  <Preset Label="loot_AnimalObjects_ChickenCoop_LivestockPen_Clean" Value="266248" />
   <Preset Label="loot_animalObjects_Chickens_Reactions" Value="266252" />
   <Preset Label="loot_animalObjects_Chickens_TrackEggs_Total" Value="266260" />
   <Preset Label="loot_animalObjects_Chickens_TrackEggs_Special" Value="266261" />
   <Preset Label="loot_animalObjects_Chickens_TrackEggs_Fertilized" Value="266262" />
-  <Preset Label="loot_VillagerHelp_Rewards_AgnesCrumplebottom" Value="266294" />
-  <Preset Label="loot_VillagerHelp_Rewards_GardenShort" Value="266295" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_LivestockFeed_WatchUnlocks" Value="266304" />
-  <Preset Label="loot_VillagerHelp_Rewards_LivestockShort" Value="266320" />
   <Preset Label="loot_AnimalObjects_InInventoryTNS" Value="266323" />
-  <Preset Label="loot_VillagerHelp_Rewards_SocialMedium" Value="266324" />
-  <Preset Label="randomWeightedLoot_CrossStitch_Unlockable_Patterns_Quests_Basic" Value="266325" />
-  <Preset Label="loot_VillagerHelp_Rewards_FoodShort" Value="266352" />
-  <Preset Label="loot_Festivals_VillageFair_NPC_GiveItem" Value="266358" />
-  <Preset Label="loot_VillagerHelp_Rewards_LivestockLong" Value="266360" />
-  <Preset Label="loot_VillagerHelp_Rewards_WildAnimalLong" Value="266361" />
-  <Preset Label="loot_Sentiment_Buffs_Close_VillagerHelp_HelpedOut" Value="266382" />
-  <Preset Label="random_Sentiment_Buffs_Close_VillagerHelp_HelpedOut" Value="266385" />
-  <Preset Label="loot_NPCVillagers_ConspireWithGnomes_Behavior_Whimsical" Value="266388" />
-  <Preset Label="loot_Foxes_Situation_SelectFocus" Value="266389" />
-  <Preset Label="loot_Foxes_Situation_RemoveFocus" Value="266390" />
-  <Preset Label="loot_Sentiment_AddSentiment_Close_VillagerHelp_HelpedOut" Value="266391" />
-  <Preset Label="loot_AnimalObjects_Rewards_RabbitHome_PickedObject" Value="266395" />
-  <Preset Label="loot_AnimalObjects_Rewards_BirdHome_PickedObject" Value="266403" />
-  <Preset Label="loot_NPCVillagers_ConspireWithGnomes_GiveWhimsicalBuffs" Value="266409" />
-  <Preset Label="randomWeightedLoot_CrossStitch_Unlockable_Patterns_Quests_HalfChance" Value="266432" />
-  <Preset Label="loot_AnimalObjects_Rabbits_FireReaction" Value="266544" />
-  <Preset Label="loot_AnimalObjects_GoHome_Rabbits_Homeless_BeHidden" Value="266556" />
-  <Preset Label="loot_AnimalObjects_GoHome_Rabbits_Disappear_Dirt_NoTest" Value="266557" />
-  <Preset Label="loot_AnimalObjects_Rabbits_CheckForGardening_RoutingBehavior" Value="266559" />
-  <Preset Label="loot_AnimalObjects_GoHome_Rabbits_RabbitIsInvisible" Value="266568" />
   <Preset Label="loot_SimPreference_Gain_Activities_Comedy_Like" Value="266625" />
   <Preset Label="loot_SimPreference_Gain_Activities_Comedy_Dislike" Value="266626" />
   <Preset Label="loot_SimPreference_Gain_Activities_Cooking_Like" Value="266627" />
@@ -4547,14 +4052,6 @@
   <Preset Label="loot_SimPreference_Gain_Activities_Piano_Dislike" Value="266659" />
   <Preset Label="loot_SimPreference_Gain_Activities_Violin_Like" Value="266661" />
   <Preset Label="loot_SimPreference_Gain_Activities_Violin_Dislike" Value="266662" />
-  <Preset Label="lootActions_CottageLiving_NotebookEntry_Egg" Value="266671" />
-  <Preset Label="lootActions_CottageLiving_NotebookEntry_Wool" Value="266682" />
-  <Preset Label="lootActions_CottageLiving_NotebookEntry_Milk" Value="266687" />
-  <Preset Label="lootActions_CottageLiving_NotebookEntry_GiantCrop" Value="266688" />
-  <Preset Label="lootActions_CottageLiving_NotebookEntry_AnimalFeed" Value="266691" />
-  <Preset Label="loot_Fox_HungerGain" Value="266700" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_AllTypes" Value="266728" />
-  <Preset Label="loot_Foxes_KnowledgePreference_AllTypes" Value="266741" />
   <Preset Label="loot_SimPreference_NoOpinion_Activities_Comedy" Value="266767" />
   <Preset Label="loot_SimPreference_NoOpinion_Activities_Cooking" Value="266768" />
   <Preset Label="loot_SimPreference_NoOpinion_Activities_Fishing" Value="266769" />
@@ -4574,499 +4071,105 @@
   <Preset Label="loot_SimPreference_NoOpinion_Activities_Writing" Value="266783" />
   <Preset Label="loot_SimPreference_ActiveDislikeAdd" Value="266822" />
   <Preset Label="loot_SimPreference_ActiveDislikeRemove" Value="266854" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_Unlocks_RandomCommons" Value="266865" />
-  <Preset Label="loot_AnimalObjects_BirdHome_GardeningHelp" Value="266866" />
-  <Preset Label="loot_animalObjects_Relationship_CritterTenderMax" Value="266867" />
   <Preset Label="Loot_SimPreference_Gain_Music_World_Like" Value="266889" />
   <Preset Label="Loot_SimPreference_Gain_Music_World_Dislike" Value="266890" />
-  <Preset Label="loot_Buff_Add_CottageWorld_NPC_FreeDrinkCooldown" Value="266972" />
-  <Preset Label="loot_AnimalObjects_BirdHome_SingToBirds_ReduceSadness" Value="266976" />
-  <Preset Label="loot_AnimalObjects_BirdHome_SingToBirds_SkillGain" Value="266980" />
-  <Preset Label="loot_AnimalObjects_BirdHome_PoopedOn_SingTo_Fail" Value="266984" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_BirdHome_PoopedOn_SingTo_Buffs" Value="266985" />
-  <Preset Label="loot_AnimalObjects_BirdHome_AskQuestion_EpicFail_Buffs" Value="266992" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_BirdHome_AskQuestion_EpicFail_Buffs" Value="266993" />
-  <Preset Label="loot_AnimalObjects_BirdHome_AskQuestion_EpicSuccess_Buffs" Value="266998" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_BirdHome_AskQuestion_EpicSuccess_Buffs" Value="266999" />
-  <Preset Label="Commodity_Trait_AnimalEnthusiast_FunWithAnimal" Value="267005" />
-  <Preset Label="loot_Reaction_LactoseIntolerant_DrinkMilk" Value="267026" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_InsectWild" Value="267037" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_InsectWild_NoCD" Value="267038" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_InsectFarm" Value="267039" />
-  <Preset Label="loot_AnimalObjects_KnowledgePreference_InsectFarm_NoCD" Value="267040" />
-  <Preset Label="loot_CottageWorld_MusicInTheWoods_SpawnBird" Value="267051" />
-  <Preset Label="loot_CottageWorld_MusicInTheWoods_ResetStat" Value="267053" />
   <Preset Label="loot_AnimalObjects_Management_Unassign_Object" Value="267058" />
-  <Preset Label="loot_ObjectReward_CottageWorld_NPC_MysteryBox_Garden" Value="267071" />
-  <Preset Label="loot_ObjectReward_CottageWorld_NPC_MysteryBox_Grocery" Value="267072" />
-  <Preset Label="loot_AnimalObjects_Rabbits_FleeHome_ForInteractions" Value="267138" />
-  <Preset Label="loot_Foxes_KnowledgePreference_InsectWild" Value="267143" />
-  <Preset Label="loot_Foxes_KnowledgePreference_InsectFarm" Value="267144" />
-  <Preset Label="loot_Foxes_KnowledgePreference_InsectFarm_NoCD" Value="267145" />
-  <Preset Label="loot_Foxes_KnowledgePreference_InsectWild_NoCD" Value="267146" />
   <Preset Label="loot_AnimalObjects_InInventoryTNS_Death" Value="267148" />
   <Preset Label="loot_Skill_Toddler_Communication_AnimalObjects" Value="267154" />
-  <Preset Label="loot_VillagerHelp_Rewards_WildAnimalShort" Value="267161" />
   <Preset Label="loot_AnimalObjects_FootprintOff" Value="267162" />
   <Preset Label="loot_AnimalObjects_FootprintOn" Value="267163" />
-  <Preset Label="loot_Canning_ExtraCans_Normal" Value="267171" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Rewards_Uncommon_100" Value="267173" />
   <Preset Label="loot_AnimalObjects_RandomInitAge" Value="267175" />
-  <Preset Label="loot_VillagerHelp_AgnesCrumplebottom_StartLoot" Value="267176" />
-  <Preset Label="loot_AnimalObjects_LivestockPen_Audio" Value="267188" />
-  <Preset Label="loot_VillagerHelp_Rewards_AgathaCrumplebottom" Value="267209" />
-  <Preset Label="loot_VillagerHelp_GroceryOwner_SetOrderBit" Value="267302" />
-  <Preset Label="loot_VillagerHelp_GroceryOwner_Cleanup" Value="267303" />
-  <Preset Label="loot_VillagerHelp_Rewards_GroceryOwner" Value="267305" />
-  <Preset Label="loot_VillagerHelp_GroceryOwner_Setup" Value="267308" />
-  <Preset Label="loot_VillagerHelp_GroceryOwner_Mushrooms" Value="267309" />
-  <Preset Label="loot_animalObjects_Chickens_GoMissing" Value="267321" />
   <Preset Label="loot_animalObjects_Chickens_SpecialEggs_Ate" Value="267394" />
-  <Preset Label="loot_VillagerHelp_Rewards_GroceryDelivery" Value="267398" />
-  <Preset Label="loot_VillagerHelp_Rewards_Mayor" Value="267406" />
   <Preset Label="loot_animalObjects_RelGain_Small_NotYetFriends" Value="267409" />
-  <Preset Label="loot_VillagerHelp_Mayor_StartLoot" Value="267442" />
-  <Preset Label="loot_VillagerHelp_GroceryDelivery_StartLoot" Value="267443" />
-  <Preset Label="loot_VillagerHelp_Rewards_PubOwner" Value="267455" />
-  <Preset Label="loot_Buff_Drink_VillagerHelp_Playful" Value="267496" />
-  <Preset Label="loot_Buff_Drink_VillagerHelp_PlayfulSampler" Value="267497" />
-  <Preset Label="loot_Buff_Drink_VillagerHelp_Focused" Value="267498" />
-  <Preset Label="loot_Buff_Drink_VillagerHelp_FocusedSampler" Value="267499" />
-  <Preset Label="loot_VillagerHelp_RecipeUnlock_BagleyBerryFizz" Value="267502" />
-  <Preset Label="loot_VillagerHelp_RecipeUnlock_VerdantAndFunk" Value="267503" />
-  <Preset Label="loot_VillagerHelp_PubOwner_StartLoot" Value="267506" />
-  <Preset Label="loot_VillagerHelp_PubOwner_Cleanup" Value="267507" />
-  <Preset Label="loot_VillagerHelp_PubOwner_IncrementIngredients" Value="267508" />
-  <Preset Label="loot_VillagerHelp_DrinkPlayful_RandomFishIfSwimming" Value="267509" />
-  <Preset Label="loot_VillagerHelp_Rewards_CritterTender" Value="267516" />
-  <Preset Label="loot_VillagerHelp_CritterTender_GiveMushroomMash" Value="267526" />
   <Preset Label="loot_SimPreference_Headline_Music_DJ" Value="267531" />
-  <Preset Label="loot_VillagerHelp_CritterTender_Cleanup" Value="267610" />
-  <Preset Label="loot_Deliveries_RemoveBuff_CouponRedeemed" Value="267621" />
   <Preset Label="loot_AnimalObjects_CloseToDeathTNS" Value="267632" />
-  <Preset Label="loot_AnimalObjects_BirdHome_FireReaction" Value="267847" />
-  <Preset Label="Commodity_Trait_AnimalEnthusiast_ResetMissingAnimal" Value="267854" />
-  <Preset Label="loot_Trait_AnimalEnthusiast_GiveSadBuff" Value="267855" />
-  <Preset Label="loot_Buff_Mayo_Consumed" Value="267878" />
-  <Preset Label="loot_Trait_Rando_Mayo" Value="267883" />
-  <Preset Label="Loot_KnowTrait_AnimalEnthusiast_Actor" Value="267884" />
-  <Preset Label="Loot_KnowTrait_LactoseIntolerant_Actor" Value="267885" />
-  <Preset Label="Loot_KnowTrait_AnimalEnthusiast" Value="267886" />
-  <Preset Label="Loot_KnowTrait_LactoseIntolerant" Value="267887" />
   <Preset Label="loot_AnimalObjects_LivestockPen_GoMissing_Warn" Value="267899" />
   <Preset Label="loot_AnimalObjects_LivestockPen_GoMissing_Leave" Value="267902" />
-  <Preset Label="loot_VillagerHelp_QuestCooldownBuff_FoodForageShort" Value="267961" />
-  <Preset Label="loot_VillagerHelp_QuestCooldownBuff_GardenShort" Value="267962" />
-  <Preset Label="loot_VillagerHelp_QuestCooldownBuff_LivestockGardenLong" Value="267963" />
-  <Preset Label="loot_VillagerHelp_QuestCooldownBuff_LivestockShort" Value="267964" />
-  <Preset Label="loot_VillagerHelp_QuestCooldownBuff_SocialMedium" Value="267965" />
-  <Preset Label="loot_VillagerHelp_QuestCooldownBuff_SocialShort" Value="267966" />
-  <Preset Label="loot_VillagerHelp_QuestCooldownBuff_WildAnimalFoodLong" Value="267967" />
-  <Preset Label="loot_VillagerHelp_QuestCooldownBuff_WildAnimalShort" Value="267968" />
-  <Preset Label="loot_DeliveriesBag_SetFreeItemState" Value="267970" />
-  <Preset Label="loot_Foxes_RouteToDen" Value="267980" />
-  <Preset Label="loot_Foxes_Situation_RouteToDen_Add" Value="267988" />
-  <Preset Label="loot_Foxes_Situation_RouteToDen_Remove" Value="267989" />
-  <Preset Label="loot_VillageShops_RemoveWindowShopBuff" Value="268027" />
-  <Preset Label="loot_VillageShops_RemoveWindowShopStat" Value="268028" />
-  <Preset Label="loot_VillageShops_IncrementWindowShopStat" Value="268038" />
   <Preset Label="loot_animalObjects_Chickens_CallToEat" Value="268041" />
-  <Preset Label="loot_DeliveriesBag_GiveFreeItem" Value="268057" />
-  <Preset Label="loot_Buff_Add_CottageWorld_ProximityRuins" Value="268102" />
-  <Preset Label="loot_Buff_Add_CottageWorld_ProximityWaterfall" Value="268103" />
   <Preset Label="loot_animalObjects_Chickens_CallOutFromCoop" Value="268117" />
-  <Preset Label="loot_VillagerHelp_StartLoot_SocialMedium" Value="268152" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_Chicken" Value="268170" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_Chicken_A_Object" Value="268171" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_Chicken_E" Value="268173" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_Chicken_E_Object" Value="268174" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_Chicken_Y" Value="268176" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_Chicken_Y_Object" Value="268177" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_LivestockPen_A" Value="268180" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_LivestockPen_A_Object" Value="268181" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_LivestockPen_E" Value="268183" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_LivestockPen_E_Object" Value="268184" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_LivestockPen_Y" Value="268186" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_LivestockPen_Y_Object" Value="268187" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_Chicken_A" Value="268191" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_Chicken_A_Object" Value="268192" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_Chicken_E" Value="268194" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_Chicken_E_Object" Value="268195" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_Chicken_Y" Value="268197" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_Chicken_Y_Object" Value="268198" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_LivestockPen_A" Value="268201" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_LivestockPen_A_Object" Value="268202" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_LivestockPen_E" Value="268204" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_LivestockPen_E_Object" Value="268205" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_LivestockPen_Y" Value="268207" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_LivestockPen_Y_Object" Value="268208" />
   <Preset Label="loot_AnimalObjects_Sell_Start_Chickens" Value="268224" />
   <Preset Label="loot_AnimalObjects_Sell_Start_LivestockPen" Value="268225" />
-  <Preset Label="loot_AnimalObjects_SellSimoleons_LivestockPen_Object" Value="268227" />
   <Preset Label="loot_AnimalObjects_Rabbits_CallOverRouteFail" Value="268250" />
-  <Preset Label="loot_VillagerHelp_SocialShort_StartLootGossip" Value="268251" />
   <Preset Label="loot_AnimalObjects_Sell_Reaction" Value="268279" />
-  <Preset Label="loot_RequiredIngredients_LotTrait_SimpleLivingCookbook" Value="268280" />
-  <Preset Label="loot_VillagerHelp_StartLoot_LivestockShort" Value="268363" />
-  <Preset Label="loot_NPCVillagers_ViewNPCBoard" Value="268366" />
-  <Preset Label="lootActions_CottageLiving_NotebookEntry_Egg_White" Value="268386" />
-  <Preset Label="lootActions_CottageLiving_NotebookEntry_Milk_White" Value="268387" />
-  <Preset Label="lootActions_CottageLiving_NotebookEntry_Wool_White" Value="268389" />
-  <Preset Label="loot_Sentiment_AddSentiment_Close_VillageFair_BribeSuccess" Value="268390" />
-  <Preset Label="loot_Sentiment_Buffs_Close_VillageFair_BribeSuccess" Value="268394" />
-  <Preset Label="random_Sentiment_Buffs_Close_VillageFair_BribeSuccess" Value="268396" />
-  <Preset Label="loot_Sentiment_AddSentiment_Bitter_VillageFair_BribeFail" Value="268413" />
-  <Preset Label="randomWeightedLoot_CottageWorld_Snail_Search_ObjectRewards" Value="268419" />
-  <Preset Label="loot_Sentiment_Buffs_Bitter_VillageFair_BribeFail" Value="268420" />
-  <Preset Label="random_Sentiment_Buffs_Bitter_VillageFair_BribeFail" Value="268421" />
-  <Preset Label="loot_Sentiment_AddSentiment_Guilty_VillageFair_BribeFail" Value="268425" />
-  <Preset Label="loot_Sentiment_Buffs_Guilty_VillageFair_BribeFail" Value="268428" />
-  <Preset Label="random_Sentiment_Buffs_Guilty_VillageFair_BribeFail" Value="268429" />
-  <Preset Label="randomWeightedLoot_MushroomHunt_GiveMushroom" Value="268439" />
-  <Preset Label="randomWeightedLoot_MushroomHunt_GiveMushroom_Rare" Value="268443" />
   <Preset Label="loot_AnimalObjects_Commodities_Activity_FillMaximum" Value="268470" />
-  <Preset Label="random_Sentiment_Buffs_Enamored_CottageWorldRuins" Value="268488" />
-  <Preset Label="loot_Sentiment_Buffs_Enamored_CottageWorldRuins" Value="268489" />
-  <Preset Label="loot_Sentiment_AddSentiment_Enamored_CottageWorldRuins" Value="268496" />
-  <Preset Label="loot_animalObjects_Chickens_EvilMagic_ObjectFightsSim" Value="268520" />
-  <Preset Label="loot_animalObjects_Chickens_EvilMagic_ObjectToObject" Value="268524" />
-  <Preset Label="loot_animalObjects_Chickens_GoldenPulse_ObjectToObject" Value="268525" />
   <Preset Label="loot_Commodity_Motive_Fun_Huge" Value="268547" />
   <Preset Label="loot_animalObjects_Chickens_SetRoutingInfo" Value="268553" />
-  <Preset Label="loot_animalObjects_Chickens_EvilChickenAnger" Value="268561" />
-  <Preset Label="loot_animalObjects_Chickens_EvilMagic_ObjectToFox" Value="268566" />
-  <Preset Label="loot_animalObjects_Chickens_GoldenPulse_SimToObject" Value="268577" />
-  <Preset Label="loot_animalObjects_Chickens_EvilMagic_SimToObject" Value="268578" />
-  <Preset Label="loot_animalObjects_Chickens_EvilMagic_SimToSim" Value="268579" />
-  <Preset Label="loot_animalObjects_Chickens_GoldenPulse_SimToSim" Value="268583" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Chicken_FezHat" Value="268589" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_NPCVillager_Start" Value="268591" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_OfferHelp_Start" Value="268592" />
-  <Preset Label="loot_AnimalObjects_Harvest_Egg_Rainbow_VeryHappy" Value="268595" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_OfferHelp_Day1" Value="268609" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_OfferHelp_Day3" Value="268610" />
-  <Preset Label="loot_Fox_DangerousWilds" Value="268623" />
-  <Preset Label="randomWeightedLoot_Mayor_Jam" Value="268629" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robber_1" Value="268662" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Grandma_1" Value="268663" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robinhood_1" Value="268664" />
   <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_NoClothing" Value="268666" />
-  <Preset Label="loot_VillagerHelp_StartLoot_GardenShort" Value="268693" />
-  <Preset Label="loot_animalObjects_Chickens_GrimDefeated" Value="268694" />
   <Preset Label="loot_AnimalObjects_SleepToCallOut" Value="268719" />
   <Preset Label="loot_AnimalObjects_LivestockPen_SetShedSleepVFXOff" Value="268772" />
-  <Preset Label="scheduledDeliveryLoot_Mayor_Jam" Value="268782" />
-  <Preset Label="lootActions_Mayor_Jam_scheduledLoot" Value="268783" />
-  <Preset Label="loot_Festivals_VillageFair_BribeSuccess" Value="268784" />
-  <Preset Label="loot_VillagerHelp_Rewards_AgnesCrumplebottom_2" Value="268790" />
-  <Preset Label="loot_VillagerHelp_StartLoot_AgnesCrumplebottom_2" Value="268791" />
-  <Preset Label="loot_VillagerHelp_AgnesCrumplebottom_CrossStitchTNS_2" Value="268797" />
-  <Preset Label="loot_VillagerHelp_AgnesCrumplebottom_CrossStitchTNS_1" Value="268798" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_BirdHome_Scare_Buffs" Value="268817" />
-  <Preset Label="loot_AnimalObjects_BirdHome_Scare_Buffs" Value="268819" />
-  <Preset Label="loot_VillagerHelp_StartLoot_CritterTender" Value="268827" />
-  <Preset Label="loot_Festivals_VillageFair_ViewSubmissionNPC_Positive" Value="268829" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_BirdHome_ShowAffection_Fail_Buffs" Value="268845" />
-  <Preset Label="loot_AnimalObjects_BirdHome_ShowAffection_Fail" Value="268846" />
-  <Preset Label="loot_AnimalObjects_BirdHome_ShowAffection_Success" Value="268847" />
-  <Preset Label="loot_Festivals_VillageFair_ViewSubmissionNPC_Negative" Value="268850" />
-  <Preset Label="loot_AnimalObjects_LivestockPen_GoMissing_Warn" Value="268860" />
-  <Preset Label="loot_AnimalObjects_LivestockPen_GoMissing_Leave" Value="268862" />
-  <Preset Label="lootActions_Mayor_Jam_HighLevelTNS" Value="268867" />
-  <Preset Label="loot_AnimalObjects_Rabbits_GiantCrops_Fertilize" Value="268873" />
   <Preset Label="loot_animalObjects_Chickens_GoToActor" Value="268878" />
-  <Preset Label="loot_VillagerHelp_Rewards_AgathaCrumplebottom_2" Value="268879" />
-  <Preset Label="loot_VillagerHelp_StartLoot_AgathaCrumplebottom_2" Value="268880" />
   <Preset Label="loot_AnimalObjects_Commodities_Hunger_FillAutoFeeder" Value="268882" />
-  <Preset Label="loot_AnimalObjects_ExitHome_Chickens" Value="268886" />
-  <Preset Label="loot_animalObjects_Chickens_CollectEgg_MoveTracking" Value="268895" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_NPCVillager_Day2" Value="268896" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_OfferHelp_End" Value="268900" />
-  <Preset Label="loot_Buff_LactoseIntolerant_DairyFree" Value="268918" />
-  <Preset Label="loot_Commodity_LactoseIntolerant_ResetNoDairyTimer" Value="268928" />
-  <Preset Label="loot_Foxes_RelWithPounceTarget" Value="268932" />
-  <Preset Label="loot_Festivals_VillageFair_DiscussTraditions" Value="268936" />
-  <Preset Label="loot_VillagerHelp_Agatha2_Cleanup" Value="268940" />
-  <Preset Label="loot_VillagerHelp_Agatha2_SetSoldToBit" Value="268942" />
   <Preset Label="loot_AnimalObjects_StopGather" Value="268947" />
   <Preset Label="loot_AnimalObjects_Chickens_CallOver" Value="268967" />
-  <Preset Label="loot_VillagerHelp_Agatha2_EncourageToFlirtSetup" Value="268969" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_NPCVillager_Update" Value="268996" />
-  <Preset Label="loot_VillagerHelp_StartLoot_WildAnimalShort" Value="268997" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_BirdHome_Watch_Buffs" Value="268998" />
-  <Preset Label="loot_AnimalObjects_BirdHome_Watch_Buffs" Value="268999" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_NPCVillager_SocialTNS" Value="269000" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_OfferHelp_Day1_WishingTNS" Value="269001" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_OfferHelp_Day3_AskingTNS" Value="269002" />
-  <Preset Label="loot_VillagerHelp_StartLoot_WildAnimalFoodLong" Value="269007" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_NPCVillager_Day8_Travel" Value="269026" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_NPCVillager_Day8_Cancel" Value="269028" />
-  <Preset Label="loot_VillagerHelp_StartLoot_AgathaCrumplebottom" Value="269033" />
-  <Preset Label="loot_VillagerHelp_StartLoot_FoodForageShort" Value="269107" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_NPCVillager_End" Value="269109" />
   <Preset Label="loot_animalObjects_Chickens_CallToEat_Object" Value="269129" />
   <Preset Label="loot_animalObjects_Chickens_CallOutFromCoop_Object" Value="269131" />
-  <Preset Label="loot_Trait_Remove_CottageWorld_NPC_AddtoFamilyCheat" Value="269185" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_AgeUp_Hen_Normal" Value="269192" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_AgeUp_Rooster_Normal" Value="269193" />
-  <Preset Label="loot_animalObjects_Chickens_AgeUp_MakeHen_Normal" Value="269194" />
-  <Preset Label="loot_animalObjects_Chickens_AgeUp_MakeRooster_Normal" Value="269195" />
-  <Preset Label="lootActions_CritterGifting_Low" Value="269206" />
-  <Preset Label="lootActions_CritterGifting_Medium" Value="269213" />
-  <Preset Label="lootActions_CritterGifting_High" Value="269214" />
-  <Preset Label="loot_AnimalObjects_GoHome_Chickens_NoHome_RouteFail" Value="269222" />
-  <Preset Label="loot_animalObjects_Chickens_AgeUp_Position" Value="269232" />
-  <Preset Label="loot_animalObjects_Chickens_AgeUp_MakeRooster_Position" Value="269237" />
-  <Preset Label="loot_animalObjects_Chickens_AgeUp_MakeHen_Position" Value="269238" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_AgeUp_Hen_Position" Value="269242" />
-  <Preset Label="randomWeightedLoot_AnimalObjects_Chickens_AgeUp_Rooster_Position" Value="269244" />
-  <Preset Label="loot_VillagerHelp_StartLoot_LivestockGardenLong" Value="269246" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_FeedWith_Friendly" Value="269249" />
   <Preset Label="loot_FountainEmitter_Freezing_Start" Value="269256" />
   <Preset Label="loot_FountainEmitter_Freezing_End" Value="269257" />
   <Preset Label="loot_AnimalObjects_Commodities_Hunger_FillMax" Value="269305" />
-  <Preset Label="loot_VillagerHelp_DiscoveryTracker_NPCVillager_Day8" Value="269315" />
-  <Preset Label="loot_AnimalObjects_LivestockPen_CowbellBuffs_Fail" Value="269327" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_White" Value="269343" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Wool_Yellow" Value="269344" />
-  <Preset Label="loot_AnimalObjects_LivestockPen_CowbellBuffs_Success" Value="269346" />
-  <Preset Label="loot_animalObjects_Chickens_ObjectToFox" Value="269364" />
-  <Preset Label="loot_VillageShops_PurchasedItem_MilkBread" Value="269389" />
-  <Preset Label="loot_animalObjects_Chickens_FoxScare" Value="269413" />
   <Preset Label="loot_AnimalObjects_SetToFleeHome" Value="269414" />
   <Preset Label="loot_AnimalObjects_LivestockDeathInWorld" Value="269415" />
-  <Preset Label="loot_Relationship_Fox_Gain_Watch" Value="269427" />
   <Preset Label="loot_GrimReaper_DeathCount_Subtract" Value="269483" />
-  <Preset Label="loot_Canning_SmallCrops" Value="269486" />
-  <Preset Label="loot_Fox_Steal_Sim_Reaction_Egg" Value="269510" />
-  <Preset Label="loot_Fox_Steal_Sim_Reaction_Harvestable" Value="269511" />
-  <Preset Label="randomWeightedLoot_Fox_Steal_SimReaction_Harvestable" Value="269513" />
-  <Preset Label="randomWeightedLoot_Fox_Steal_SimReaction_Egg" Value="269514" />
-  <Preset Label="loot_Fox_Steal_Sim_Reaction_AngryResponse" Value="269522" />
-  <Preset Label="loot_Fox_Steal_Sim_Reaction_AmusementResponse" Value="269523" />
   <Preset Label="loot_animalObjects_Relationship_AffectNearbyAnimals" Value="269554" />
   <Preset Label="loot_AnimalObjects_Commodities_Activity_FillSmall_Nearby" Value="269555" />
-  <Preset Label="loot_Trait_AnimalEnthusiast_SuccessAnimalCare" Value="269559" />
-  <Preset Label="loot_Foxes_DiscordantAria" Value="269565" />
-  <Preset Label="loot_CrossStitch_CraftingProgress_Gain" Value="269610" />
-  <Preset Label="loot_AnimalObjects_Graze_Rabbits_GardeningHelp" Value="269634" />
-  <Preset Label="loot_Foxes_StopEatEgg" Value="269636" />
-  <Preset Label="lootActions_CritterGifting_High_Bird" Value="269789" />
-  <Preset Label="lootActions_CritterGifting_Medium_Bird" Value="269790" />
-  <Preset Label="lootActions_CritterGifting_Low_Bird" Value="269791" />
   <Preset Label="loot_animalObjects_Relationship_AffectNearbyAnimals_Broadcaster" Value="269828" />
   <Preset Label="loot_Relationship_Starting_NPC_Acquaintance_10" Value="269848" />
   <Preset Label="loot_Relationship_Starting_NPC_Acquaintance_-10" Value="269849" />
-  <Preset Label="loot_VillagerHelp_Agatha2_SetAcceptedRoseBit" Value="269872" />
-  <Preset Label="loot_AnimalObjects_GoHome_Rabbits_TeleportHome_Object" Value="269913" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Cheese" Value="269915" />
-  <Preset Label="loot_Foxes_NightTime_Cooldown" Value="269933" />
   <Preset Label="loot_AnimalObjects_Chickens_GoMissing_Warn" Value="269934" />
   <Preset Label="loot_MusicFestival_2021_Ticket" Value="269936" />
   <Preset Label="loot_MarketStalls_UnlockCAS_MusicFestivalShirt" Value="269937" />
-  <Preset Label="loot_AnimalObjects_GoHome_Chickens_Immediately_HasHome" Value="269953" />
-  <Preset Label="loot_AnimalObjects_GoHome_Chickens_NoHome_GoOnLot" Value="269954" />
-  <Preset Label="loot_Canning_GiantCrops_Eggplant" Value="269959" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Egg_Golden" Value="269960" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Egg_Obsidian" Value="269961" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Egg_Blue" Value="269962" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Egg_Green" Value="269963" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Egg_Orange" Value="269964" />
   <Preset Label="loot_AnimalObjects_Visibility_On_Actor" Value="269970" />
-  <Preset Label="loot_VillagerHelp_Notification_Agatha2_1a" Value="269973" />
-  <Preset Label="loot_VillagerHelp_Notification_Agatha2_2b" Value="269974" />
-  <Preset Label="loot_VillagerHelp_Notification_Agatha2_2d" Value="269975" />
   <Preset Label="loot_MusicFestival_Debug_GiveStagePermissions" Value="269979" />
-  <Preset Label="loot_VillagerHelp_Notification_DeliverItem_Basic" Value="269981" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Black_YellowBase" Value="269983" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Blue_YellowBase" Value="269985" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Brown_YellowBase" Value="269987" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Gold_YellowBase" Value="269989" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Green_YellowBase" Value="269991" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Orange_YellowBase" Value="269993" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Pink_YellowBase" Value="269995" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Rainbow_YellowBase" Value="269997" />
-  <Preset Label="loot_AnimalObjects_Harvest_Wool_Red_YellowBase" Value="269999" />
-  <Preset Label="loot_VillagerHelp_Notification_PubOwner_2a_Berry" Value="270000" />
-  <Preset Label="loot_VillagerHelp_Notification_PubOwner_2b_Verdant" Value="270001" />
   <Preset Label="loot_MusicFestival_Decline_Invitation_Dialog" Value="270014" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Grandma_6" Value="270018" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Grandma_2" Value="270020" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Grandma_3" Value="270021" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Grandma_4" Value="270022" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Grandma_5" Value="270023" />
   <Preset Label="loot_Freelancer_Career_AddTrait_Programmer" Value="270048" />
   <Preset Label="loot_Freelancer_Career_AddTrait_Writer" Value="270049" />
   <Preset Label="loot_Freelancer_Career_AddTrait_Artist" Value="270050" />
-  <Preset Label="loot_Festivals_VillageFair_ViewSubmission_Negative_Player_Stand" Value="270130" />
-  <Preset Label="loot_Festivals_VillageFair_ViewSubmission_Positive_Player_Stand" Value="270131" />
-  <Preset Label="loot_Festivals_VillageFair_ViewSubmission_Negative_Player_Object" Value="270136" />
-  <Preset Label="loot_Festivals_VillageFair_ViewSubmission_Positive_Player_Object" Value="270139" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_Chicken_C" Value="270166" />
-  <Preset Label="loot_AnimalObjects_SellForLivestockFeed_Chicken_C_Object" Value="270167" />
-  <Preset Label="loot_Buff_EatHarvestable_ThirstLoss_mushroomWildSpicy" Value="270181" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Blueberry" Value="270197" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Chocolatey" Value="270198" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Fishy" Value="270199" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Flirty" Value="270200" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Golden" Value="270201" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Healthy" Value="270202" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Normal" Value="270203" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Obsidian" Value="270204" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Pumpkin" Value="270205" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Rainbow" Value="270206" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Social" Value="270207" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_SpicyBeef" Value="270208" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_3_Veggie" Value="270209" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Blueberry" Value="270210" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Chocolatey" Value="270211" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Fishy" Value="270212" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Flirty" Value="270213" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Golden" Value="270214" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Healthy" Value="270215" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Normal" Value="270216" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Obsidian" Value="270217" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Pumpkin" Value="270218" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Rainbow" Value="270219" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Social" Value="270220" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_SpicyBeef" Value="270221" />
-  <Preset Label="loot_AnimalObjects_LivestockFeed_AdditionalServings_7_Veggie" Value="270222" />
   <Preset Label="loot_Deliveries_FoodDelivery_SetupRecipe_Spaghetti" Value="270268" />
-  <Preset Label="loot_Foxes_CantPlead" Value="270274" />
   <Preset Label="loot_Deliveries_FoodDelivery_SetupRecipe_BlackenedBass" Value="270275" />
   <Preset Label="loot_Deliveries_FoodDelivery_SetupRecipe_SaladCaprese" Value="270276" />
   <Preset Label="loot_Deliveries_FoodDelivery_SetupRecipe_Pokebowl" Value="270277" />
-  <Preset Label="loot_animalObjects_RelGain_Medium_SavedActor1_BirdHome" Value="270279" />
-  <Preset Label="loot_AnimalObjects_Rewards_BirdHome_SavedActor1" Value="270280" />
   <Preset Label="loot_Deliveries_FoodDelivery_SetupRecipe_ChickenStirFry" Value="270282" />
   <Preset Label="loot_Deliveries_FoodDelivery_SetupRecipe_BLT" Value="270283" />
-  <Preset Label="loot_Deliveries_FoodDelivery_SetupRecipe_CottagePie" Value="270287" />
-  <Preset Label="loot_Deliveries_FoodDelivery_SetupRecipe_CottagePie_Vegetarian" Value="270288" />
-  <Preset Label="loot_Deliveries_FoodDelivery_SetupRecipe_Pokebowl_Vegetarian" Value="270289" />
-  <Preset Label="loot_Deliveries_FoodDelivery_SetupRecipe_YorkshirePudding" Value="270290" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_Chicken_C" Value="270312" />
-  <Preset Label="loot_AnimalObjects_SellForIngredients_Chicken_C_Object" Value="270314" />
-  <Preset Label="loot_AnimalObjects_GoHome_Chickens_NoHome_RouteFail_Teleport" Value="270326" />
-  <Preset Label="loot_animalObjects_RelLoss_Small_SavedActor1_BirdHome" Value="270340" />
   <Preset Label="loot_MusicFestival_BuffRemoval_End" Value="270352" />
   <Preset Label="loot_MusicFestival_BuffRemoval_Start" Value="270353" />
   <Preset Label="loot_MusicFestival_BuffRemoval_React" Value="270354" />
-  <Preset Label="loot_RequiredIngredients_LotTrait_HungerTNS" Value="270374" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robber_6" Value="270415" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robber_7" Value="270416" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robber_2" Value="270417" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robber_3" Value="270418" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robber_4" Value="270419" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robber_5" Value="270420" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robinhood_5" Value="270421" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robinhood_6" Value="270422" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robinhood_2" Value="270423" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robinhood_3" Value="270424" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_Fox_Robinhood_4" Value="270425" />
   <Preset Label="loot_animalObjects_Chickens_TrackEggs_Stolen_Fertilized" Value="270435" />
   <Preset Label="loot_animalObjects_Chickens_TrackEggs_Stolen_Special" Value="270436" />
   <Preset Label="loot_animalObjects_Chickens_TrackEggs_Stolen_Total" Value="270437" />
   <Preset Label="loot_MusicFestival_Dialog_FestivalInfo" Value="270442" />
-  <Preset Label="loot_Aspirations_CountryCaretaker_Objectives_SocialWithCritters" Value="270450" />
-  <Preset Label="loot_Foxes_WakeUp" Value="270485" />
   <Preset Label="loot_MusicFestival_Buff_Visible_Happy_Opener" Value="270493" />
   <Preset Label="loot_MusicFestival_Buff_Visible_Happy_Main" Value="270494" />
   <Preset Label="loot_MusicFestival_Buff_Visible_Energized_Opener" Value="270495" />
   <Preset Label="loot_MusicFestival_Buff_Visible_Energized_Main" Value="270496" />
   <Preset Label="loot_MusicFestival_Buff_Visible_Inspired_PostPerformance" Value="270497" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_0" Value="270518" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_1" Value="270519" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_2" Value="270520" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_3" Value="270521" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_4" Value="270522" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_5" Value="270523" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_6" Value="270524" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_7" Value="270525" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_8" Value="270526" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_9" Value="270527" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_10" Value="270528" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_11" Value="270529" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_12" Value="270530" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_13" Value="270531" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_14" Value="270532" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_15" Value="270533" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_16" Value="270534" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_17" Value="270535" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_18" Value="270536" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_19" Value="270537" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_20" Value="270538" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_21" Value="270539" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_22" Value="270540" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_23" Value="270541" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_24" Value="270542" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_25" Value="270543" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_26" Value="270544" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_27" Value="270545" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_28" Value="270546" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_29" Value="270547" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_30" Value="270548" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_31" Value="270549" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_32" Value="270550" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_33" Value="270551" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_34" Value="270552" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_35" Value="270553" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_36" Value="270554" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_37" Value="270555" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_38" Value="270556" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_39" Value="270557" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_40" Value="270558" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_41" Value="270559" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_42" Value="270560" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_43" Value="270561" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_44" Value="270562" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_45" Value="270563" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_46" Value="270564" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_47" Value="270565" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_48" Value="270566" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_49" Value="270567" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_50" Value="270568" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_51" Value="270569" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_52" Value="270570" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_53" Value="270571" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_54" Value="270572" />
-  <Preset Label="loot_AnimalObjects_AnimalClothing_CreateObject_55" Value="270573" />
   <Preset Label="loot_animalObjects_Chickens_Respond" Value="270585" />
   <Preset Label="loot_MarketStalls_UnlockCAS_MusicFestivalShirt_SimSessions" Value="270594" />
   <Preset Label="loot_MarketStalls_UnlockCAS_MusicFestivalShirt_Bebe" Value="270595" />
   <Preset Label="loot_MarketStalls_UnlockCAS_MusicFestivalShirt_Dave" Value="270596" />
   <Preset Label="loot_MarketStalls_UnlockCAS_MusicFestivalShirt_Joy" Value="270597" />
-  <Preset Label="loot_Foxes_Situation_Leave" Value="270640" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Meat_Red" Value="270685" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Meat_White" Value="270686" />
-  <Preset Label="loot_Statistic_Upgrade_LivestockPenChickenCoop" Value="270687" />
-  <Preset Label="loot_Statistic_Upgrade_ChickenCoop" Value="270688" />
-  <Preset Label="loot_VillageShops_PurchasedItem_Feed_Normal" Value="270712" />
   <Preset Label="loot_animalObjects_Chickens_FireReaction" Value="270728" />
-  <Preset Label="loot_VillageShops_PurchasedItem_GiantCrops" Value="270740" />
   <Preset Label="loot_Statistic_Skill_Dancing_Festival" Value="270750" />
   <Preset Label="loot_AnimalObjects_LivestockPen_FireReaction" Value="270771" />
   <Preset Label="loot_AnimalObjects_Commodities_Hygiene_FillMax" Value="270796" />
   <Preset Label="loot_Commodity_Motive_Energy_GetHyped" Value="270807" />
-  <Preset Label="loot_AnimalObjects_Rabbits_HomeDestroyed" Value="270827" />
   <Preset Label="loot_AnimalObjects_Management_Assign_Chickens" Value="270859" />
   <Preset Label="loot_AnimalObjects_Management_Unassign_Chickens" Value="270869" />
-  <Preset Label="loot_AnimalObjects_GoHome_Chickens_NoHome_RouteFail_Mailbox" Value="270905" />
-  <Preset Label="loot_animalObjects_Chickens_ShooNestingChickens" Value="270912" />
   <Preset Label="loot_animalObjects_Chickens_InInventory_Fixup" Value="270919" />
-  <Preset Label="loot_animalObjects_Chickens_FoxInCoopSounds" Value="270967" />
-  <Preset Label="loot_AnimalObjects_BirdHome_MakeMoreSingingBirds" Value="270982" />
-  <Preset Label="loot_Foxes_ScareOff" Value="270990" />
   <Preset Label="loot_AnimalObjects_AutonomyStates_SetToCallout" Value="271010" />
   <Preset Label="loot_AnimalObjects_AutonomyStates_CallOut_NoTarget" Value="271011" />
   <Preset Label="loot_AnimalObjects_ResetToFree" Value="271076" />
   <Preset Label="loot_AnimalObjects_AutonomyStates_ReturnToCoop_NoTarget" Value="271092" />
   <Preset Label="loot_animalObjects_Chickens_SendHome" Value="271175" />
-  <Preset Label="loot_Aspirations_CountryCaretaker_Objectives_SocialWithCritters_FoxesOnly" Value="271322" />
   <Preset Label="Rel_Loss_Medium_NoSentiments" Value="271478" />
+  <Preset Label="goalLoot_WantFear_Fulfillment_Gain" Value="272907" />
+  <Preset Label="loot_WantFear_Refresh" Value="273001" />
   <Preset Label="lootActions_Scenario_Simoleons_SetToZero" Value="273479" />
+  <Preset Label="loot_NoLongerFriends" Value="273546" />
   <Preset Label="lootActions_Scenario_Relationship_LivingWithEnemies_Enemies" Value="273562" />
   <Preset Label="lootActions_Scenario_Relationship_FindingLove_Breakup" Value="273563" />
   <Preset Label="loot_Sentiment_AddSentiment_Bitter_grudge_generic_TargetAboutActor" Value="273564" />
+  <Preset Label="loot_Want_AspirationCompleted" Value="273578" />
+  <Preset Label="loot_Want_WorkTaskCompleted" Value="273586" />
+  <Preset Label="loot_Want_Clumsy_NoStumbling" Value="273589" />
   <Preset Label="loot_BrokenUp_ActorToTargetSim" Value="273691" />
   <Preset Label="randomWeightedLoot_AddSentiment_Breakup_AboutTargetSim" Value="273692" />
   <Preset Label="randomWeightedLoot_AddSentiment_Breakup_TargetSimAboutActor" Value="273693" />
@@ -5103,6 +4206,7 @@
   <Preset Label="loot_DramaNode_AskIfPromotion_Maybe_Positive" Value="274125" />
   <Preset Label="loot_DramaNode_AskIfPromotion_Maybe_Negative" Value="274126" />
   <Preset Label="randomWeightedLoot_DramaNode_AskIfPromotion_Maybe" Value="274127" />
+  <Preset Label="loot_Sentiment_Buffs_Bitter_SiblingJealousy" Value="274202" />
   <Preset Label="loot_DiscussExpandingTheFamily_Pregnancy_Notification" Value="274208" />
   <Preset Label="loot_Aspiration_FriendlyNeighbor_RunEvent" Value="274226" />
   <Preset Label="loot_DiscussExpandingTheFamily_Pregnancy_TargetSimCall" Value="274252" />
@@ -5127,12 +4231,7 @@
   <Preset Label="loot_SimPreference_Dislikes_Activities_CrossStitch" Value="274535" />
   <Preset Label="loot_SimPreference_Likes_Activities_CrossStitch" Value="274536" />
   <Preset Label="loot_SimPreference_Likes_Activities_Knitting" Value="274537" />
-  <Preset Label="Loot_SimPreference_Gain_Activities_CrossStitch_Dislike" Value="274546" />
-  <Preset Label="Loot_SimPreference_Gain_Activities_CrossStitch_Like" Value="274547" />
-  <Preset Label="Loot_SimPreference_NoOpinion_Activities_CrossStitch" Value="274548" />
   <Preset Label="loot_DiscussExpandingTheFamily_Buff_FriendExpecting" Value="274556" />
-  <Preset Label="loot_SimPreference_Gain_Music_CottageCore_Dislike" Value="274578" />
-  <Preset Label="loot_SimPreference_Gain_Music_CottageCore_Like" Value="274579" />
   <Preset Label="loot_SimPreference_Headline_Music_CottageCore" Value="274580" />
   <Preset Label="loot_Reaction_Generic_Excited" Value="274695" />
   <Preset Label="loot_DiscussExpandingTheFamily_Buff_BabyJoy" Value="274754" />
@@ -5170,7 +4269,372 @@
   <Preset Label="loot_DiscussExpandingTheFamily_Hidden_Cooldown_Pregnancy_Success" Value="275716" />
   <Preset Label="loot_GoingOutSocials_Matchmake_cooldownBuff_Removal_Target_and_Picked" Value="275832" />
   <Preset Label="loot_GoingOutSocials_Matchmake_cooldownBuff_Removal_Actor_and_Target" Value="275833" />
+  <Preset Label="loot_Fear_Fire_Trigger" Value="277102" />
+  <Preset Label="loot_Fear_Failure_Trigger" Value="277103" />
+  <Preset Label="loot_Fear_Dark_Trigger" Value="277104" />
+  <Preset Label="loot_Fear_Cowplant_Trigger" Value="277105" />
+  <Preset Label="loot_Fear_CrowdedPlaces_Trigger" Value="277106" />
+  <Preset Label="loot_Fear_BeingCheatedOn_Trigger" Value="277107" />
+  <Preset Label="loot_Fear_BeingJudged_Trigger" Value="277108" />
+  <Preset Label="loot_Fear_Ghosts_Trigger" Value="277109" />
+  <Preset Label="loot_Fear_Swimming_Trigger_Drowning" Value="277110" />
+  <Preset Label="loot_Fear_Unfulfilled_Trigger" Value="277111" />
+  <Preset Label="loot_Fear_Death_Trigger" Value="277112" />
+  <Preset Label="loot_Fear_DeadEndJob_Trigger" Value="277113" />
+  <Preset Label="loot_Fear_Fire_Trigger_Chance" Value="277304" />
+  <Preset Label="loot_Reaction_Death_Fire" Value="277316" />
+  <Preset Label="loot_Fear_Fire_Grilling_LowerQuality" Value="277318" />
+  <Preset Label="loot_Fear_Ghosts_ScaredChance" Value="277516" />
+  <Preset Label="loot_Fear_Ghosts_NearGhost_PanicReaction" Value="277561" />
+  <Preset Label="loot_Fear_Ghosts_NearGhost_Buff" Value="277622" />
+  <Preset Label="loot_Fear_Swimming_ScaredInWater" Value="277696" />
+  <Preset Label="loot_Fear_Swimming_Trigger_Witness" Value="277698" />
+  <Preset Label="loot_Fear_Swimming_Trigger_Chance" Value="277699" />
+  <Preset Label="loot_Fear_DeadEndJob_ReturnFromCareer" Value="277843" />
+  <Preset Label="loot_Fear_DeadEndJob_RemoveFear_JobGone" Value="277844" />
+  <Preset Label="loot_Fear_Dark_Trigger_Outside" Value="278001" />
+  <Preset Label="loot_Fear_Dark_Trigger_Abducted" Value="278002" />
+  <Preset Label="loot_Fear_Dark_ScaredOutside" Value="278012" />
   <Preset Label="loot_Buff_Custom_State_Wedding_BreakChat" Value="278123" />
+  <Preset Label="loot_Fear_Dark_StartledWakeUp" Value="278153" />
+  <Preset Label="loot_Fear_BeingCheatedOn_Trigger_Chance" Value="278252" />
+  <Preset Label="loot_Fear_BeingCheatedOn_TrackerRelbit_Add" Value="278301" />
+  <Preset Label="loot_Fear_BeingCheatedOn_TrackerRelbit_Remove" Value="278304" />
+  <Preset Label="loot_Fear_BeingCheatedOn_RecentlyRanRomance" Value="278309" />
+  <Preset Label="loot_Fear_BeingCheatedOn_Suspicious" Value="278327" />
+  <Preset Label="loot_Fear_BeingCheatedOn_CatchCheating" Value="278339" />
+  <Preset Label="loot_Fear_BeingCheatedOn_TalkRelationshipFears_Success" Value="278534" />
+  <Preset Label="loot_Fear_BeingCheatedOn_TalkRelationshipFears_Fail" Value="278535" />
+  <Preset Label="goalLoot_Fear_BeingCheatedOn_ConfrontationGoal" Value="278621" />
+  <Preset Label="goalLoot_Fear_DeadEndJob_ConfrontationGoal" Value="278622" />
+  <Preset Label="goalLoot_Fear_Dark_ConfrontationGoal" Value="278631" />
+  <Preset Label="goalLoot_Fear_Cowplant_ConfrontationGoal" Value="278632" />
+  <Preset Label="goalLoot_Fear_Ghosts_ConfrontationGoal" Value="278633" />
+  <Preset Label="goalLoot_Fear_Swimming_ConfrontationGoal" Value="278634" />
+  <Preset Label="loot_Fear_Buff_TempImmunity" Value="278646" />
+  <Preset Label="randomWeightedLoot_NeighborRelPhoneCall_Romantic_Response_Maybe" Value="279084" />
+  <Preset Label="loot_NeighborRelPhoneCall_Romantic_Response_No" Value="279094" />
+  <Preset Label="loot_NeighborRelPhoneCall_Romantic_Response_No_Followup_Answered" Value="279095" />
+  <Preset Label="loot_NeighborRelPhoneCall_Romantic_Response_No_Followup_Unanswered" Value="279097" />
+  <Preset Label="loot_NeighborRelPhoneCall_Romantic_Response_Yes_Followup_Answered" Value="279099" />
+  <Preset Label="loot_NeighborRelPhoneCall_Romantic_Response_Yes_Followup_Unanswered" Value="279128" />
+  <Preset Label="loot_NeighborRelPhoneCall_Romantic_Response_Yes" Value="279202" />
+  <Preset Label="loot_GoodFriends_AddBoth" Value="279690" />
+  <Preset Label="loot_LTR_Romance_Large_PickedSim_TargetSim" Value="279691" />
+  <Preset Label="loot_SignificantOther_AddBoth" Value="279989" />
+  <Preset Label="lootActions_Scenario_Relationship_EngagedConflict" Value="280105" />
+  <Preset Label="lootActions_Scenario_Skills_Basic_PrimarySim" Value="280190" />
+  <Preset Label="lootActions_Scenario_Moodlet_AngryFromSocializing_PrimarySim" Value="280193" />
   <Preset Label="lootActions_Scenario_HasBeenKissed_YAE" Value="280376" />
+  <Preset Label="loot_Story_Progression_CheckRecentWorldEvents" Value="280439" />
+  <Preset Label="lootActions_Scenario_Relationship_Honeymooners_Romance" Value="280478" />
+  <Preset Label="loot_Buff_Woohoo_MarriedOnVacation_Hidden" Value="280577" />
+  <Preset Label="rel_Loss_Romantic_Medium_TargetSim_PickedSim" Value="280595" />
+  <Preset Label="lootActions_Scenario_Relationship_Honeymooners_JustMarried" Value="280650" />
+  <Preset Label="scenarioGoalLoot_Rewards_Secret_EngagedConflict" Value="280763" />
+  <Preset Label="lootActions_Scenario_Skills_PrimarySim_CelebrateCarnaval" Value="281026" />
+  <Preset Label="lootActions_Scenario_Skills_GroupCookedBuff" Value="281110" />
+  <Preset Label="lootActions_Scenario_Careers_SuperRichSupervillain" Value="281718" />
+  <Preset Label="goalLoot_Scenario_SuperRichSupervillain_DiamondAgent" Value="281815" />
+  <Preset Label="lootActions_Scenario_Relationship_Troublemaker" Value="281847" />
+  <Preset Label="loot_DiscussExpandingTheFamily_SeedArc_Pregnancy_TargetSim" Value="281967" />
+  <Preset Label="loot_DiscussExpandingTheFamily_SeedArc_Pregnancy_TargetSimPartner" Value="281968" />
+  <Preset Label="loot_DiscussExpandingTheFamily_SeedArc_BabyAdoption_TargetSim" Value="281970" />
+  <Preset Label="loot_DiscussExpandingTheFamily_SeedArc_ChildAdoption_TargetSim" Value="281971" />
+  <Preset Label="loot_DiscussExpandingTheFamily_SeedArc_ToddlerAdoption_TargetSim" Value="281972" />
+  <Preset Label="randomWeightedLoot_DiscussExpandingTheFamily_SeedArc_Adoption_TargetSim" Value="281977" />
+  <Preset Label="loot_DiscussExpandingTheFamily_Adoption_Notification" Value="282010" />
+  <Preset Label="lootActions_Scenario_Careers_Troublemaker" Value="282097" />
+  <Preset Label="loot_DiscussExpandingTheFamily_SeedArc_None_TNSOnly" Value="282164" />
+  <Preset Label="lootActions_Scenario_Relationship_RomCom" Value="282294" />
+  <Preset Label="randomWeightedLoot_Scenarios_RomCom" Value="282299" />
+  <Preset Label="randomWeightedLoot_Scenarios_RomCom_TargetSim" Value="282302" />
+  <Preset Label="loot_Story_Progression_ChildrenStories_Buff_BabyAdoption" Value="282576" />
+  <Preset Label="loot_Story_Progression_ChildrenStories_Buff_ChildAdoption" Value="282577" />
+  <Preset Label="loot_Story_Progression_ChildrenStories_Buff_ToddlerAdoption" Value="282578" />
+  <Preset Label="loot_Story_Progression_ChildrenStories_Buff_DogAdoption" Value="282580" />
+  <Preset Label="loot_Story_Progression_ChildrenStories_Buff_CatAdoption" Value="282581" />
+  <Preset Label="loot_Story_Progression_MoveIn_Moodlets" Value="282642" />
+  <Preset Label="loot_Phone_vChat" Value="283304" />
+  <Preset Label="lootActions_Social_Media_Reactions_Positive_Friendly" Value="283456" />
+  <Preset Label="lootActions_Social_Media_Reactions_Positive_Mean" Value="283457" />
+  <Preset Label="lootActions_Social_Media_Reactions_Positive_Flirty" Value="283458" />
+  <Preset Label="lootActions_Social_Media_Reactions_Negative_Flirty" Value="283459" />
+  <Preset Label="lootActions_Social_Media_Reactions_Negative_Friendly" Value="283460" />
+  <Preset Label="lootActions_Social_Media_Reactions_Negative_Mean" Value="283461" />
+  <Preset Label="loot_Dust_Commodity_Remove_All_Dust" Value="283542" />
+  <Preset Label="lootActions_Social_Media_OtherSim_Friendly" Value="283545" />
+  <Preset Label="lootActions_Social_Media_OtherSim_Funny" Value="283546" />
+  <Preset Label="lootActions_Social_Media_OtherSim_Flirty" Value="283547" />
+  <Preset Label="lootActions_Social_Media_OtherSim_Mean" Value="283548" />
+  <Preset Label="randomWeightedLoot_Social_Media_Moodlets_Angry" Value="283554" />
+  <Preset Label="randomWeightedLoot_Social_Media_Moodlets_Confident" Value="283555" />
+  <Preset Label="randomWeightedLoot_Social_Media_Moodlets_Embarrassed" Value="283556" />
+  <Preset Label="randomWeightedLoot_Social_Media_Moodlets_Energized" Value="283557" />
+  <Preset Label="randomWeightedLoot_Social_Media_Moodlets_Flirty" Value="283558" />
+  <Preset Label="randomWeightedLoot_Social_Media_Moodlets_Happy" Value="283559" />
+  <Preset Label="randomWeightedLoot_Social_Media_Moodlets_Sad" Value="283560" />
+  <Preset Label="randomWeightedLoot_Social_Media_Moodlets_Stressed" Value="283561" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_Angry" Value="283580" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_Confident" Value="283581" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_Embarrassed" Value="283582" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_Energized" Value="283583" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_Flirty" Value="283584" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_Happy" Value="283585" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_Sad" Value="283586" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_Stressed" Value="283587" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_All" Value="283615" />
+  <Preset Label="goalLoot_Fear_Unfulfilled_ConfrontationGoal" Value="283628" />
+  <Preset Label="loot_Fear_Death_RemoveFear_PotionofYouth" Value="283662" />
+  <Preset Label="goalLoot_Fear_Failure_ConfrontationGoal" Value="283664" />
+  <Preset Label="goalLoot_Fear_Death_ConfrontationGoal" Value="283665" />
+  <Preset Label="loot_Fear_Death_RemoveFear_ReaperFriend" Value="283722" />
+  <Preset Label="loot_Sentiment_Modify_Increase_Positive_small_forGhostsOnly_TargetSim_PickedSim" Value="283781" />
+  <Preset Label="loot_Sentiment_AddSentiment_Enamored_generic_lowChance_TargetSim_PickedSim_NoAlternatives" Value="283782" />
+  <Preset Label="loot_Fear_Failure_Trigger_LowPerformanceQuit" Value="283791" />
+  <Preset Label="loot_Fear_Failure_Trigger_ProgressiveFailure_Job" Value="283792" />
+  <Preset Label="loot_Fear_Failure_Trigger_ProgressiveFailure_CraftedObject" Value="283794" />
+  <Preset Label="loot_Fear_Failure_CraftingEffects" Value="283795" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_All_PC" Value="283802" />
+  <Preset Label="loot_Fear_BeingJudged_Trigger_Notification" Value="284168" />
+  <Preset Label="loot_Fear_Cowplant_Trigger_Notification" Value="284169" />
+  <Preset Label="loot_Fear_CrowdedPlaces_Trigger_Notification" Value="284170" />
+  <Preset Label="loot_Fear_DeadEndJob_Trigger_Notification" Value="284171" />
+  <Preset Label="loot_Fear_Death_Trigger_Notification" Value="284172" />
+  <Preset Label="loot_Fear_Ghosts_Trigger_Notification" Value="284173" />
+  <Preset Label="loot_Fear_Unfulfilled_Trigger_Notification" Value="284174" />
+  <Preset Label="loot_Fear_BeingCheatedOn_Trigger_Notification" Value="284180" />
+  <Preset Label="loot_Fear_Dark_Trigger_Notification" Value="284183" />
+  <Preset Label="loot_Fear_Failure_Trigger_Notification" Value="284187" />
+  <Preset Label="loot_Fear_Fire_Trigger_Notification" Value="284193" />
+  <Preset Label="loot_Fear_Swimming_Trigger_Notification_Chance" Value="284196" />
+  <Preset Label="loot_Phone_Color_duoSlate" Value="284332" />
+  <Preset Label="loot_Phone_Color_duoUmber" Value="284333" />
+  <Preset Label="loot_Phone_Color_duoBabyBlue" Value="284334" />
+  <Preset Label="loot_Phone_Color_duoLavender" Value="284335" />
+  <Preset Label="loot_Phone_Color_duoGreen" Value="284336" />
+  <Preset Label="loot_Phone_Color_duoBlack" Value="284337" />
+  <Preset Label="loot_SkillIUpCheck_NonHoliday" Value="284486" />
+  <Preset Label="loot_Story_Progression_ChildrenStories_SetStatMax_PregnancyDiscovery" Value="285074" />
   <Preset Label="lootActions_Scenario_Relationship_PowerCouple" Value="285604" />
+  <Preset Label="randomWeightedLoot_Social_Media_Moodlets_Uncomfortable" Value="285780" />
+  <Preset Label="lootActions_Social_Media_RemoveMoodlets_Except_Uncomfortable" Value="285782" />
+  <Preset Label="lootActions_Scenario_Rewards_SatisfactionPoints_Small" Value="285833" />
+  <Preset Label="lootActions_Scenario_Skills_ExtraterrestrialResearcher" Value="287180" />
+  <Preset Label="loot_Buff_CareerTone_MakeConnections" Value="287473" />
+  <Preset Label="loot_Want_CommodityTracker_AvoidChildren_Reset" Value="287479" />
+  <Preset Label="loot_Want_CommodityTracker_BeHappy_Reset" Value="287480" />
+  <Preset Label="loot_Want_CommodityTracker_BeSad_Reset" Value="287481" />
+  <Preset Label="loot_Want_CommodityTracker_HungerMotive_Reset" Value="287482" />
+  <Preset Label="loot_Want_CommodityTracker_NoMissSO_Reset" Value="287483" />
+  <Preset Label="loot_Want_CommodityTracker_OverflowingTrash_Reset" Value="287484" />
+  <Preset Label="loot_Want_CommodityTracker_StayOnLot_Reset" Value="287485" />
+  <Preset Label="loot_Want_CommodityTracker_StayOutside_Reset" Value="287486" />
+  <Preset Label="loot_Want_BailOnFriend_AddTracker" Value="287516" />
+  <Preset Label="loot_Career_MissWork" Value="287561" />
+  <Preset Label="goalLoot_Fear_CrowdedPlaces_ConfrontationGoal" Value="287755" />
+  <Preset Label="loot_Fear_CrowdedPlaces_CrowdedCheck" Value="287922" />
+  <Preset Label="loot_WonFight_NoBGBuff" Value="288122" />
+  <Preset Label="loot_WonFight_Target_NoBGBuff" Value="288124" />
+  <Preset Label="loot_LostFight_NoBGBuff" Value="288126" />
+  <Preset Label="loot_LostFight_Target_NoBGBuff" Value="288127" />
+  <Preset Label="lootActions_Social_Media_AddFriend" Value="288418" />
+  <Preset Label="goalLoot_Fear_BeingJudged_ConfrontationGoal" Value="288464" />
+  <Preset Label="loot_Fear_BeingJudged_UncomfortableArrival" Value="288476" />
+  <Preset Label="loot_Fear_BeingJudged_ClearTracker" Value="288480" />
+  <Preset Label="loot_Fear_BeingJudged_Trigger_Teen" Value="288617" />
+  <Preset Label="goalLoot_Fear_Fire_ConfrontationGoal" Value="288911" />
+  <Preset Label="loot_Buff_Lunarcycle_Moonbathe" Value="289088" />
+  <Preset Label="lootActions_Scenario_Skills_InspirationalMentorSetup" Value="289677" />
+  <Preset Label="loot_Scenario_Statistic_Mentor_Start" Value="289964" />
+  <Preset Label="loot_Scenario_Statistic_Mentor_IncrementUp" Value="289965" />
+  <Preset Label="loot_Scenario_Statistic_Mentor_Reset" Value="289966" />
+  <Preset Label="loot_Lunarcycle_Moongaze" Value="289982" />
+  <Preset Label="Rel_Gain_Small_PickedSim" Value="291276" />
+  <Preset Label="Loot_KnowTrait_Loner" Value="291290" />
+  <Preset Label="Loot_KnowTrait_Outgoing" Value="291291" />
+  <Preset Label="loot_Statistic_MaxCommodity_SimScratched" Value="291607" />
+  <Preset Label="loot_Statistic_MaxCommodity_SimScratched_Target" Value="291608" />
+  <Preset Label="loot_SexualOrientation_LearnWooHooInterests" Value="291672" />
+  <Preset Label="loot_SexualOrientation_LearnSexualOrientation" Value="291673" />
+  <Preset Label="loot_SexualOrientation_BecomeWooHooPartners" Value="291677" />
+  <Preset Label="loot_SexualOrientation_EndWooHooPartners" Value="291679" />
+  <Preset Label="randomLoot_SexualOrientation_AssignLoot_WooHooAsk_Success_Large" Value="291703" />
+  <Preset Label="randomLoot_SexualOrientation_AssignLoot_WooHooAsk_Fail_Small" Value="291704" />
+  <Preset Label="randomLoot_SexualOrientation_AssignLoot_WooHooAsk_Fail_Large" Value="291755" />
+  <Preset Label="randomLoot_SexualOrientation_AssignLoot_WooHooAsk_Success_Small" Value="291756" />
+  <Preset Label="loot_SexualOrientation_WooHooAsk_FriendlySuccess_Small" Value="291758" />
+  <Preset Label="loot_SexualOrientation_WooHooAsk_FriendlySuccess_Large" Value="291759" />
+  <Preset Label="loot_SexualOrientation_WooHooAsk_RomanticSuccess_Small" Value="291775" />
+  <Preset Label="loot_SexualOrientation_WooHooAsk_RomanticSuccess_Large" Value="291776" />
+  <Preset Label="goalLoot_Want_Fulfilled_BuffGain_Confident" Value="291791" />
+  <Preset Label="goalLoot_Want_Fulfilled_BuffGain_Energized" Value="291792" />
+  <Preset Label="goalLoot_Want_Fulfilled_BuffGain_Flirty" Value="291793" />
+  <Preset Label="goalLoot_Want_Fulfilled_BuffGain_Focused" Value="291794" />
+  <Preset Label="goalLoot_Want_Fulfilled_BuffGain_Happy" Value="291795" />
+  <Preset Label="goalLoot_Want_Fulfilled_BuffGain_Inspired" Value="291796" />
+  <Preset Label="goalLoot_Want_Fulfilled_BuffGain_Playful" Value="291797" />
+  <Preset Label="loot_ObjectReward_PlantSimsScenario_ForbiddenFruit" Value="292080" />
+  <Preset Label="loot_Commodity_Motive_Energy_Loss_Small" Value="292733" />
+  <Preset Label="loot_Fear_BeingCheatedOn_ConfrontationProgress_Notification" Value="292806" />
+  <Preset Label="lootActions_Scenario_Rewards_SuperGreenThumb" Value="293241" />
+  <Preset Label="loot_Relationship_Starting_NPC_Friends" Value="293652" />
+  <Preset Label="scenarioGoalLoot_Rewards_Secret_PlantSim_Main" Value="293722" />
+  <Preset Label="emotionSetup_Angry" Value="293988" />
+  <Preset Label="loot_Want_Refresh_Reactionary" Value="294025" />
+  <Preset Label="loot_Want_Refresh_ShortTerm" Value="294026" />
+  <Preset Label="loot_Death_Meteorite" Value="294293" />
+  <Preset Label="loot_Scenario_Setup_ParentingPredicament" Value="294381" />
+  <Preset Label="loot_SexualOrientation_LearnSexualOrientation_Target" Value="294482" />
+  <Preset Label="loot_SexualOrientation_LearnWooHooInterests_Target" Value="294483" />
+  <Preset Label="loot_Scenario_Setup_StuckInTheirShadow" Value="294607" />
+  <Preset Label="lootActions_Scenario_Skills_FrogFanatic" Value="294767" />
+  <Preset Label="lootActions_Scenario_PlantSim_Buff_Add" Value="294910" />
+  <Preset Label="lootActions_Scenario_PlantSim_Buff_Remove" Value="294911" />
+  <Preset Label="lootActions_Scenario_PlantSim_Buff_Add_Invisble" Value="294923" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_1JoinCareer" Value="295006" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_2RewardTrait" Value="295428" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_1NegativeBuffs" Value="295440" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3InviteRivalOK" Value="295442" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3InviteRivalCancel" Value="295444" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Phase4_AcquaintedVisitor" Value="296147" />
+  <Preset Label="randomWeightedLoot_Scenarios_InTheMoodlet" Value="296359" />
+  <Preset Label="loot_ObjectReward_InTheMoodlet" Value="296367" />
+  <Preset Label="loot_LTR_Romance_Small_TargetSim_NoListeners" Value="296449" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_2RivalPurchases" Value="296525" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_2RewardTraitQuestion" Value="296526" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_2MorningSim" Value="296528" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_2MidnightOwl" Value="296529" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_2PTOReminder" Value="296531" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3RivalFired" Value="296683" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3InviteorKick" Value="296684" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3AlienSecret" Value="296685" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3KickedRivalTaunt" Value="296686" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_4MentorVisit" Value="296687" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_4bRivalGift" Value="296689" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_4bIndieDevs" Value="296690" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_4bSpacePrint" Value="296692" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_4bIndieYes" Value="296693" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_4bIndieNo" Value="296694" />
+  <Preset Label="loot_Scenario_Statistic_Onboarding_NewInTown_4b_5" Value="296759" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DialogueNotification_phase1_7a" Value="296928" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DialogueNotification_phase1_7c" Value="296929" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DialogueNotification_phase1_7b" Value="296930" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DialogueNotification_phase6_gold" Value="296989" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DialogueNotification_phase6_silver" Value="296990" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DialogueNotification_phase6_bronze" Value="296991" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_0CreateRival" Value="297020" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_0CreateRival_Buff" Value="297024" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DramaNode_Phase2_Intro" Value="297040" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DramaNode_Phase3a_Intro" Value="297043" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DramaNode_Phase3b_Intro" Value="297047" />
+  <Preset Label="lootActions_Scenario_PlantSim_Buff_TNS" Value="297143" />
+  <Preset Label="garden_State_Loot_PlantSim_AbsorbSunlight" Value="297332" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_SatisfactionPoints_Small" Value="297464" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_SatisfactionPoints_Medium" Value="297466" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_SatisfactionPoints_Large" Value="297467" />
+  <Preset Label="lootActions_Scenario_Onboarding_NewInTown_IntroNudges" Value="297554" />
+  <Preset Label="lootActions_Scenario_Onboarding_NewInTown_Intro_Phase1" Value="297562" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Output_Phase3a" Value="297576" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Output_Phase3b" Value="297577" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Output_Phase1" Value="297578" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_ParentingPredicaments_PhaseStart_2" Value="297656" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Buffs_Phase1_MetNewPeople" Value="297683" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Buffs_Phase1_GreatCatch" Value="297684" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Phase6_Woohooed" Value="297746" />
+  <Preset Label="loot_Scenario_Outcomes_NewInTown_GoldParty" Value="297749" />
+  <Preset Label="loot_Scenario_Outcomes_NewInTown_SilverParty" Value="297750" />
+  <Preset Label="loot_Scenario_Outcomes_NewInTown_BronzeParty" Value="297751" />
+  <Preset Label="loot_Scenario_Outcomes_NewInTown_Woohoo" Value="297762" />
+  <Preset Label="loot_Scenario_Outcomes_NewInTown_GoodFriends" Value="297763" />
+  <Preset Label="loot_Scenario_Outcomes_NewInTown_Love" Value="297764" />
+  <Preset Label="loot_Want_PushReactionary_Flirt" Value="297789" />
+  <Preset Label="loot_Want_PushReactionary_HoldHands" Value="297790" />
+  <Preset Label="loot_Want_PushReactionary_Kiss" Value="297821" />
+  <Preset Label="loot_Want_PushReactionary_GiveMassage" Value="297822" />
+  <Preset Label="loot_Want_PushReactionary_Seduce" Value="297823" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_1ManagerCall" Value="297842" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_4MentorVisitSituation" Value="297846" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_1_NegativeRel_Rival" Value="297848" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Phase1_SimSetup" Value="297867" />
+  <Preset Label="scenario_SituationGoalLoot_NewInTown_Host" Value="297906" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Buffs_Phase4_HostParty_BuffRemove" Value="297907" />
+  <Preset Label="loot_Sentiment_AddSentiment_Hurt_Rejection" Value="297936" />
+  <Preset Label="loot_Sentiment_AddSentiment_Hurt_Rejection_lowChance" Value="297937" />
+  <Preset Label="loot_Sentiment_AddSentiment_Hurt_Rejection_TargetToActor" Value="297942" />
+  <Preset Label="loot_Scenario_Outcomes_NewInTown_cleanup" Value="298031" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3Invite" Value="298064" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3Kick" Value="298065" />
+  <Preset Label="loot_Scenario_Outcomes_NewInTown_NoScoreParty" Value="298076" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_ManagerRel" Value="298408" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_A_BeatRival" Value="298444" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_A_BeatRivalFight" Value="298445" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_B_Friends" Value="298446" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_B_Romance" Value="298447" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_B_TeamUp" Value="298448" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_B_TeamUpRomance" Value="298449" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_GoneRival" Value="298450" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_A_Hacker" Value="298455" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_ParentingPredicaments_PhaseStart_3" Value="298532" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_ParentingPredicaments_Goal_4_Teenager" Value="298533" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DramaNode_Phase5_Intro" Value="298604" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Phase5_IntroNotification" Value="298605" />
+  <Preset Label="scenario_SituationGoalLoot_ParentingPredicaments_BirthdayParty" Value="298970" />
+  <Preset Label="scenario_SituationGoalLoot_ParentingPredicaments_TeenDate" Value="298971" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_MissedDramaNodes_1_InviteRival" Value="299017" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_MissedDramaNodes_3_Fired" Value="299018" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_B_TeamUpRomanceJob" Value="299097" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_B_TeamUpFriendsJob" Value="299098" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_A_Troll" Value="299099" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_TutorialTip_Phase1_Moodlet" Value="299107" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_TutorialTip_Phase2_WorkEffort" Value="299137" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_TutorialTip_Phase4_Decorate" Value="299194" />
+  <Preset Label="loot_Scenario_Buff_StuckInTheirShadow_2RivalCalls" Value="299416" />
+  <Preset Label="loot_Fear_BeingCheatedOn_TrackerRelbit_RemoveStatistic" Value="299476" />
+  <Preset Label="scenarioGoalLoot_Rewards_Secret_ChildhoodFriends_Main" Value="299507" />
+  <Preset Label="lootActions_Scenario_Rewards_ChildhoodFriends" Value="299509" />
+  <Preset Label="loot_Scenario_Buff_StuckInTheirShadow_Goal1Complete" Value="299555" />
+  <Preset Label="loot_Scenario_Buffs_StuckInTheirShadow_Goal2Complete" Value="299557" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_4SnaggleFlusters" Value="299641" />
+  <Preset Label="loot_Scenario_Statistic_ChildhoodFriends_IncrementUp_01" Value="299662" />
+  <Preset Label="loot_Scenario_Statistic_ChildhoodFriends_Start_01" Value="299663" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3_InviteKick_GoalActive" Value="299784" />
+  <Preset Label="scenario_SituationGoalLoot_InviteKick_GoalActive" Value="299786" />
+  <Preset Label="loot_Scenario_Outcomes_ParentingPredicament_TriedForBaby_Jennifer" Value="299946" />
+  <Preset Label="loot_Scenario_Outcomes_ParentingPredicament_ResponsibleTeenagers_Leonardo" Value="299947" />
+  <Preset Label="loot_Scenario_Outcomes_ParentingPredicament_IrresponsibleTeenagers_Leonardo" Value="299948" />
+  <Preset Label="loot_Scenario_Outcomes_ParentingPredicament_SiblingSplit_LeonardoA" Value="299949" />
+  <Preset Label="loot_Scenario_Outcomes_ParentingPredicament_SiblingSplit_SofiaA" Value="299950" />
+  <Preset Label="loot_Scenario_Outcomes_ParentingPredicament_IrresponsibleTeenagers_Sofia" Value="299952" />
+  <Preset Label="loot_Scenario_Outcomes_ParentingPredicament_ResponsibleTeenagers_Sofia" Value="299954" />
+  <Preset Label="loot_Scenario_Outcomes_ParentingPredicament_SiblingSplit_SofiaF" Value="299956" />
+  <Preset Label="loot_Scenario_Outcomes_ParentingPredicament_SiblingSplit_LeonardoF" Value="299958" />
+  <Preset Label="loot_Scenario_Outcomes_ParentingPredicament_TriedForBaby_Pablo" Value="299960" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_Exit" Value="299961" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DramaNode_Phase4_Intro" Value="299974" />
+  <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Phase4_IntroNotification" Value="299975" />
+  <Preset Label="loot_ObjectReward_ChildhoodFriends_StuffedAnimal" Value="300047" />
+  <Preset Label="loot_Scenario_Buff_StuckInTheirShadow_ImproveWorsenComplete" Value="300060" />
+  <Preset Label="loot_Scenario_Outcomes_StuckInTheirShadow_A_BrokeHeart" Value="300104" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_WorkLoot" Value="300106" />
+  <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_SimoleonsPizza" Value="300111" />
+  <Preset Label="lootActions_Scenario_Rewards_InTheMoodlet" Value="300130" />
+  <Preset Label="loot_Scenario_Bucks_StuckInTheirShadow_1000Bucks" Value="300137" />
+  <Preset Label="loot_Scenario_Statistic_ChildhoodFriends_Start_02" Value="300147" />
+  <Preset Label="loot_Scenario_Statistic_ChildhoodFriends_IncrementUp_02" Value="300148" />
+  <Preset Label="scenarioGoalLoot_Rewards_Secret_ChildhoodFriends_02" Value="300149" />
+  <Preset Label="lootActions_Scenario_ProudParent_TeenAgeUpStart" Value="300939" />
+  <Preset Label="lootActions_Scenario_ProudParent_TeenAgedUpRel" Value="300972" />
+  <Preset Label="loot_Sentiment_AddSentiment_Hurt_generic_TargetAboutActor" Value="300973" />
+  <Preset Label="lootActions_Scenario_ProudParent_Reward" Value="301063" />
+  <Preset Label="randomLoot_Fear_Failure_PerformanceReview" Value="301396" />
+  <Preset Label="loot_Scenario_ExploreTheNight_StayUpRemove" Value="302092" />
+  <Preset Label="loot_Scenario_ExploreTheNight_StayUpAdd" Value="302112" />
+  <Preset Label="lootActions_Scenario_Skills_PrimarySim_Cookout" Value="302397" />
+  <Preset Label="lootActions_Scenario_ExploreTheNight_startScenario" Value="302448" />
+  <Preset Label="lootActions_Scenario_ExploreTheNight_StayedUp" Value="302449" />
+  <Preset Label="lootActions_Scenario_Rewards_ExploreTheNight" Value="302451" />
+  <Preset Label="randomLoot_SexualOrientation_AssignLoot_WooHoo_RelGain" Value="302497" />
+  <Preset Label="loot_Fear_BeingCheatedOn_RemoveFear_BrokenUp" Value="304162" />
+  <Preset Label="loot_Want_Refresh_Potion" Value="304511" />
 </PresetGroup>

@@ -7,6 +7,6 @@ namespace Constructor5.TestConditionTypes.Emotions
     [XmlSerializerExtraType]
     public class EmotionObjectiveCondition : EmotionCondition
     {
-        protected override string GetVariantTunableName() => "mood_test";
+        protected override string GetVariantTunableName(string contextTag = null) => "mood_test";
     }
 }

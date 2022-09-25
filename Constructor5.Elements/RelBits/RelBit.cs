@@ -1,4 +1,5 @@
-﻿using Constructor5.Base.ElementSystem;
+﻿using Constructor5.Base.CustomTuning;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
@@ -11,8 +12,10 @@ using Constructor5.Base.PropertyTypes;
 namespace Constructor5.Elements.RelBits
 {
     [ElementTypeData("RelBit", true, ElementTypes = new[] { typeof(RelBit) }, PresetFolders = new[] { "RelBit" })]
-    public class RelBit : Element, IExportableElement
+    public class RelBit : Element, IExportableElement, ISupportsCustomTuning
     {
+        public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
+
         [AutoTuneBasic("bit_description")]
         public STBLString Description { get; set; } = new STBLString();
 
@@ -51,7 +54,13 @@ namespace Constructor5.Elements.RelBits
                 tuning.Set<TunableEnum>("directionality", "UNIDIRECTIONAL");
             }
 
-            TuneSimData(tuning);
+            if (Exporter.Current.STBLBuilder != null)
+            {
+                TuneSimData(tuning);
+            }
+            
+
+            CustomTuningExporter.Export(this, tuning, CustomTuning);
 
             TuningExport.AddToQueue(tuning);
         }
@@ -66,8 +75,8 @@ namespace Constructor5.Elements.RelBits
         {
             tuning.SimDataHandler = new SimDataHandler("SimData/RelBit.data");
 
-            tuning.SimDataHandler.WriteText(64, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
-            tuning.SimDataHandler.WriteText(76, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
+            tuning.SimDataHandler.WriteText(76, Exporter.Current.STBLBuilder.GetKey(Name) ?? 0);
+            tuning.SimDataHandler.WriteText(64, Exporter.Current.STBLBuilder.GetKey(Description) ?? 0);
             tuning.SimDataHandler.WriteTGI(88, Icon.GetUncommentedText(), this);
         }
     }

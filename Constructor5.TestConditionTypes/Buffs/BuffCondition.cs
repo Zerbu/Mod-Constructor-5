@@ -24,9 +24,9 @@ namespace Constructor5.TestConditionTypes.Buffs
         [AutoTuneEnum("subject")]
         public string Participant { get; set; }
 
-        protected override string GetVariantTunableName() => "buff";
+        protected override string GetVariantTunableName(string contextTag = null) => "buff";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
             => AutoTunerInvoker.Invoke(this, variantTunable.Get<TunableTuple>("buff"));
     }
 }

@@ -32,9 +32,9 @@ namespace Constructor5.TestConditionTypes.SimInfo
 
         public bool RestrictAge => !AllowBaby || !AllowToddler || !AllowChild || !AllowTeen || !AllowYoungAdult || !AllowAdult || !AllowElder;
 
-        protected override string GetVariantTunableName() => "sim_info";
+        protected override string GetVariantTunableName(string contextTag = null) => "sim_info";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>("sim_info");
             AutoTunerInvoker.Invoke(this, tupleTunable);

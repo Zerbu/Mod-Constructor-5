@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:Constructor5.Elements.PieMenuCategories"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
     d:DesignHeight="450"
     d:DesignWidth="800"
     mc:Ignorable="d">
@@ -23,6 +24,15 @@
             </c:Field>
             <c:Field Label="Parent" LabelWidth="100">
                 <c:ReferenceControl ElementTypeName="PieMenuCategory" Reference="{Binding Parent}" />
+            </c:Field>
+            <c:CheckBox IsChecked="{Binding Collapsible}">
+                <StackPanel>
+                    <c:TextBlock Text="Collapsible" />
+                    <c:TextBlock Text="CollapsibleHelp" />
+                </StackPanel>
+            </c:CheckBox>
+            <c:Field Label="DisplayPriority" LabelWidth="100">
+                <xctk:IntegerUpDown Text="{Binding DisplayPriority}" />
             </c:Field>
         </StackPanel>
     </c:LeftRightMargin>

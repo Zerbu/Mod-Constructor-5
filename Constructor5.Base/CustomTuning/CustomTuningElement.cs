@@ -11,34 +11,38 @@ namespace Constructor5.Base.CustomTuning
     public class CustomTuningElement : Element, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
+        public bool IsModuleTuning { get; set; }
 
         public void OnExport()
         {
-            var tuning = ElementTuning.Create(this);
+            var tuning = IsModuleTuning ? ElementTuning.Create<TuningHeaderModule>(this) : ElementTuning.Create(this);
 
             CustomTuningExporter.Export(this, tuning, CustomTuning);
 
-            if (string.IsNullOrEmpty(tuning.InstanceType))
+            if (!IsModuleTuning)
             {
-                Exporter.Current.AddError(this, $"{{nl}}{TextStringManager.Get("CustomTuningInstanceTypeNotSet").Replace("{id}", UserFacingId)}");
+                if (string.IsNullOrEmpty(tuning.InstanceType))
+                {
+                    Exporter.Current.AddError(this, $"{{nl}}{TextStringManager.Get("CustomTuningInstanceTypeNotSet").Replace("{id}", UserFacingId)}");
+                }
+
+                if (string.IsNullOrEmpty(tuning.Module))
+                {
+                    Exporter.Current.AddError(this, $"{{nl}}{TextStringManager.Get("CustomTuningModuleNotSet").Replace("{id}", UserFacingId)}");
+                }
+
+                if (string.IsNullOrEmpty(tuning.Class))
+                {
+                    Exporter.Current.AddError(this, $"{{nl}}{TextStringManager.Get("CustomTuningClassNotSet").Replace("{id}", UserFacingId)}");
+                }
+
+                if (tuning.InstanceType == null)
+                {
+                    return;
+                }
             }
 
-            if (string.IsNullOrEmpty(tuning.Module))
-            {
-                Exporter.Current.AddError(this, $"{{nl}}{TextStringManager.Get("CustomTuningModuleNotSet").Replace("{id}", UserFacingId)}");
-            }
-
-            if (string.IsNullOrEmpty(tuning.Class))
-            {
-                Exporter.Current.AddError(this, $"{{nl}}{TextStringManager.Get("CustomTuningClassNotSet").Replace("{id}", UserFacingId)}");
-            }
-
-            if (tuning.InstanceType == null)
-            {
-                return;
-            }
-
-            TuningExport.AddToQueue(tuning);
+            TuningExport.AddToQueue(tuning, IsModuleTuning ? "03B33DDF" : null);
         }
     }
 }

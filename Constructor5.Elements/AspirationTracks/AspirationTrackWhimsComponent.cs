@@ -12,19 +12,17 @@ namespace Constructor5.Elements.AspirationTracks
     {
         public override string ComponentLabel => "Whims";
 
-        public ReferenceList Whims { get; set; } = new ReferenceList();
-        public STBLString Reason { get; set; } = new STBLString();
+        public Reference WhimSet { get; set; } = new Reference();
 
         protected internal override void OnExport(AspirationTrackExportContext context)
         {
-            if (!Whims.HasItems())
+            if (ElementTuning.GetSingleInstanceKey(WhimSet) == null)
             {
                 return;
             }
 
-            var set = WhimSetBuilder.BuildWhimSet(ElementTuning.GetFullName(Element, "WhimSet"), Reason, Whims, 5);
             var tunableVariant1 = context.Tuning.Set<TunableVariant>("whim_set", "enabled");
-            tunableVariant1.Set<TunableBasic>("enabled", set.InstanceKey);
+            tunableVariant1.Set<TunableBasic>("enabled", WhimSet);
         }
     }
 }

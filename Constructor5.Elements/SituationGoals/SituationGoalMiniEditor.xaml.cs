@@ -37,6 +37,20 @@ namespace Constructor5.Elements.SituationGoals
             set => SetValue(SituationGoalTemplateComponentProperty, value);
         }
 
+
+
+        public SituationGoalPreConditionsComponent SituationGoalPreConditionsComponent
+        {
+            get { return (SituationGoalPreConditionsComponent)GetValue(SituationGoalPreConditionsComponentProperty); }
+            set { SetValue(SituationGoalPreConditionsComponentProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for SituationGoalPreConditionsComponent.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty SituationGoalPreConditionsComponentProperty =
+            DependencyProperty.Register("SituationGoalPreConditionsComponent", typeof(SituationGoalPreConditionsComponent), typeof(SituationGoalMiniEditor), new PropertyMetadata(null));
+
+
+
         void IObjectEditor.SetObject(object obj, string tag)
         {
             DataContext = obj;
@@ -48,6 +62,7 @@ namespace Constructor5.Elements.SituationGoals
                 SituationGoalInfoEditor.RoleTagsExpander.Visibility = Visibility.Collapsed;
                 SituationGoalInfoEditor.SetScoreCheckBox.Visibility = Visibility.Collapsed;
             }
+            SituationGoalPreConditionsComponent = ((SituationGoal)obj).GetComponent<SituationGoalPreConditionsComponent>();
         }
     }
 }

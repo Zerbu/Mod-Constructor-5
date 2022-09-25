@@ -35,13 +35,13 @@
           </U>
         </V>
       </ForEach>
-      <IfListNotEmpty p="BuffDecayMultipliers">
+      <IfListNotEmpty p="EmotionWeightMultipliers">
         <V t="mood_effect_modifier">
           <U n="mood_effect_modifier">
             <L n="mood_effect_mapping">
-              <ForEach p="BuffDecayMultipliers">
+              <ForEach p="EmotionWeightMultipliers">
                 <U>
-                  <T n="key">$Tag</T>
+                  <T n="key">$Reference</T>
                   <T n="value">$Value</T>
                 </U>
               </ForEach>

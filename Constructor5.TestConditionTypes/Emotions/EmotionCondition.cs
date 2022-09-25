@@ -23,9 +23,9 @@ namespace Constructor5.TestConditionTypes.Emotions
         [AutoTuneEnum("who")]
         public string Participant { get; set; }
 
-        protected override string GetVariantTunableName() => "mood";
+        protected override string GetVariantTunableName(string contextTag = null) => "mood";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>(GetVariantTunableName());
             AutoTunerInvoker.Invoke(this, tupleTunable);

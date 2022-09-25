@@ -21,7 +21,7 @@ namespace Constructor5.Elements.Careers.Components
             AutoTunerInvoker.Invoke(this, context.Tuning);
 
             var header = (TuningHeader)context.Tuning;
-            header.SimDataHandler.Write(80, ElementTuning.GetSingleInstanceKey(BaseTrack) ?? 0);
+            header.SimDataHandler.Write(context.Element.GetComponent<CareerTemplateComponent>().Template.GetSimDataTrackBytePosition(), ElementTuning.GetSingleInstanceKey(BaseTrack) ?? 0);
         }
     }
 }

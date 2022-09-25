@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions GP12">
+  <Preset Label="Tunnel Here (teleportStyleSuperInteraction_Werewolf_Tunneler)" Value="276978" />
+  <Preset Label="Add Fury (occultDebugInteractions_Werewolf_GiveFury)" Value="285820" />
+  <Preset Label="Reduce Fury (occultDebugInteractions_Werewolf_ReduceFury)" Value="285821" />
+  <Preset Label="Give Maximum Fury (occultDebugInteractions_Werewolf_MaxFury)" Value="285822" />
+  <Preset Label="Read &quot;{1.ObjectName}&quot; (book_read_WolfTown_NPC_DestroyBook)" Value="285942" />
+  <Preset Label="wolfTown_NPC_CreateBookToRead" Value="285943" />
+  <Preset Label="wolfTown_NPC_CreateFoodToEat" Value="285947" />
+  <Preset Label="Sniff and Introduce (mixer_social_FriendlyIntroduction_greetings_Werewolf)" Tags="TestUnsafe" Value="286301" />
+  <Preset Label="Attempt Simlish Communication (social_Werewolf_AttemptHumanCommunication)" Value="286410" />
+  <Preset Label="Spread Beastly Rumors (mixer_social_GossipAbout_targeted_friendly_alwaysOn_Werewolf)" Tags="TestUnsafe" Value="286656" />
+  <Preset Label="Tell Joke about Werewolves (mixer_socials_TellJoke_group_Funny_alwaysOn_Werewolf)" Tags="TestUnsafe" Value="286658" />
+  <Preset Label="Make Wolf Eyes At (socials_Targeted_Romance_AlwaysOn_STC_Werewolf)" Tags="TestUnsafe" Value="286659" />
+  <Preset Label="Growl Seductively (mixer_social_WhisperSeductively_targeted_romance_middleScore_Werewolf)" Tags="TestUnsafe" Value="286661" />
+  <Preset Label="Insult Feeble Nature (mixer_social_Insult_Mean_STC_Werewolf)" Tags="TestUnsafe" Value="286663" />
+  <Preset Label="Snarl At (mixer_social_YellAT_targeted_mean_Werewolf)" Tags="TestUnsafe" Value="286664" />
+  <Preset Label="werewolf_Transform_Rampage" Value="287030" />
+  <Preset Label="Ask to be Friend of the Moonwood Collective (social_WerewolfPack_AskToBeFriend_PackA)" Value="287089" />
+  <Preset Label="Discuss the Moonwood Collective (mixer_Social_WerewolfPack_Discuss_PackA)" Tags="TestUnsafe" Value="287097" />
+  <Preset Label="Careers (mixer_Social_WerewolfPack_PraiseValue_PackA)" Tags="TestUnsafe" Value="287098" />
+  <Preset Label="Share Concerns about Greg (mixer_Social_WerewolfPack_ShareConcernsAboutGreg)" Tags="TestUnsafe" Value="287099" />
+  <Preset Label="Declare the Moonwood Collective as the Superior Pack (mixer_Social_WerewolfPack_DeclareSuperior_PackA)" Tags="TestUnsafe" Value="287100" />
+  <Preset Label="Complain about the Moonwood Collective (mixer_Social_WerewolfPack_ComplainAbout_PackA)" Tags="TestUnsafe" Value="287101" />
+  <Preset Label="Complain about The Wildfangs (mixer_Social_WerewolfPack_ComplainAbout_PackB)" Tags="TestUnsafe" Value="287103" />
+  <Preset Label="Declare Wildfangs as the Superior Pack (mixer_Social_WerewolfPack_DeclareSuperior_PackB)" Tags="TestUnsafe" Value="287105" />
+  <Preset Label="Careers (mixer_Social_WerewolfPack_PraiseValue_PackB)" Tags="TestUnsafe" Value="287107" />
+  <Preset Label="Discuss The Wildfangs (mixer_Social_WerewolfPack_Discuss_PackB)" Tags="TestUnsafe" Value="287109" />
+  <Preset Label="Mock the Moonwood Collective (mixer_Social_WerewolfPack_Mock_PackA)" Tags="TestUnsafe" Value="287111" />
+  <Preset Label="Mock the Wildfangs (mixer_Social_WerewolfPack_Mock_PackB)" Tags="TestUnsafe" Value="287112" />
+  <Preset Label="Ask about Werewolf Packs (mixer_Social_WerewolfPack_AskAboutPacks_Region)" Tags="TestUnsafe" Value="287119" />
+  <Preset Label="Ask about Werewolf Packs (mixer_Social_WerewolfPack_AskAboutPacks_Member)" Tags="TestUnsafe" Value="287123" />
+  <Preset Label="Ask to be Friend of The Wildfangs (social_WerewolfPack_AskToBeFriend_PackB)" Value="287128" />
+  <Preset Label="Ask to Join the Moonwood Collective (social_WerewolfPack_AskToJoin_PackA)" Value="287132" />
+  <Preset Label="Ask to Join The Wildfangs (social_WerewolfPack_AskToJoin_PackB)" Value="287133" />
+  <Preset Label="Leave the Moonwood Collective (social_WerewolfPack_LeavePack_PackA)" Value="287134" />
+  <Preset Label="Leave the Wildfangs (social_WerewolfPack_LeavePack_PackB)" Value="287135" />
+  <Preset Label="Report to Pack Leader (social_WerewolfPack_ReportToLeader_PackA)" Value="287136" />
+  <Preset Label="Report to Pack Leader (social_WerewolfPack_ReportToLeader_PackB)" Value="287138" />
+  <Preset Label="View Moonwood Collective Information (werewolfPack_ViewInfo_PackA)" Value="287146" />
+  <Preset Label="View Wildfangs Information (werewolfPack_ViewInfo_PackB)" Value="287154" />
+  <Preset Label="Give {1.SimFirstName} a Packmate Gift (objectInInventoryPicker_WerewolfPack_GiveToSim)" Tags="TestUnsafe" Value="287187" />
+  <Preset Label="Give {1.SimFirstName} a Packmate Gift (social_WerewolfPack_GiveItem_PlayerToNPC)" Value="287190" />
+  <Preset Label="Give {1.SimFirstName} a Packmate Gift (social_WerewolfPack_GiveItem_NPCToPlayer)" Value="287197" />
+  <Preset Label="Give {1.SimFirstName} a Packmate Gift (social_WerewolfPack_GiveItem_NPCToNPC)" Value="287202" />
+  <Preset Label="Contribute to Pack Resources (objectInInventoryPicker_WerewolfPack_DonateToShell)" Tags="TestUnsafe" Value="287207" />
+  <Preset Label="Use Restroom (werewolfPack_Shell_Motive_Bladder)" Value="287249" />
+  <Preset Label="Wash Up (werewolfPack_Shell_Motive_Hygiene)" Value="287250" />
+  <Preset Label="Rest (werewolfPack_Shell_Motive_Energy)" Value="287252" />
+  <Preset Label="Claim Pack Leadership (werewolfPack_Shell_ClaimLeadership_PackA)" Value="287279" />
+  <Preset Label="Claim Pack Leadership (werewolfPack_Shell_ClaimLeadership_PackB)" Value="287280" />
+  <Preset Label="Contribute to Pack Resources (werewolfPack_Shell_DonateToShell_End)" Value="287302" />
+  <Preset Label="Hang Out (werewolfPack_Shell_HangOut)" Value="287310" />
+  <Preset Label="Werewolf_Idles" Value="287349" />
+  <Preset Label="Invite to Join Pack (social_WerewolfPack_InviteToJoin_PackA)" Value="287353" />
+  <Preset Label="Invite to Join Pack (social_WerewolfPack_InviteToJoin_PackB)" Value="287354" />
+  <Preset Label="Invite to Become Friend of Pack (social_WerewolfPack_InviteToBeFriend_PackA)" Value="287356" />
+  <Preset Label="Invite to Become Friend of Pack (social_WerewolfPack_InviteToBeFriend_PackB)" Value="287357" />
+  <Preset Label="Smash (werewolf_Smash)" Value="287360" />
+  <Preset Label="Be Given Cursed Bite (werewolfCreation_Target_TurnintoWerewolf)" Value="287450" />
+  <Preset Label="Cursed Bite (werewolfCreation_Actor_TurnIntoWerewolf_Cont)" Value="287452" />
+  <Preset Label="Give an Uncommon or Rare Collectable (objectInInventoryPicker_WerewolfPack_JoinTrial_Collectable)" Tags="TestUnsafe" Value="287514" />
+  <Preset Label="Give Excellent Quality Food (objectInInventoryPicker_WerewolfPack_JoinTrial_Food)" Tags="TestUnsafe" Value="287515" />
+  <Preset Label="Give {1.SimFirstName} a Packmate Gift (social_WerewolfPack_GiveItem_JoinTrial)" Value="287577" />
+  <Preset Label="Fight {1.SimFirstName}! (mixer_social_Fight_targeted_mean_WerewolfToSim)" Tags="TestUnsafe" Value="287763" />
+  <Preset Label="Fight! (mixer_social_Fight_targeted_mean_SimToWerewolf)" Tags="TestUnsafe" Value="287764" />
+  <Preset Label="Werewolf Spar (mixer_Social_Targeted_Friendly_AlwaysOn_Werewolf_AskToSpar)" Tags="TestUnsafe" Value="287766" />
+  <Preset Label="Werewolf Spar at the Sparring Grounds (mixer_Social_Targeted_Friendly_AlwaysOn_Werewolf_AskToSpar_AtRing)" Tags="TestUnsafe" Value="287767" />
+  <Preset Label="Werewolf Brawl! (social_Werewolf_Fight_Actor_WerewolfToWerewolf)" Value="287769" />
+  <Preset Label="Werewolf Brawl! (social_Werewolf_Fight_Target)" Value="287770" />
+  <Preset Label="Spar with {1.SimFirstName} (social_Werewolf_Spar_Actor)" Value="287771" />
+  <Preset Label="Spar with {1.SimFirstName} (social_Werewolf_Spar_Target)" Value="287772" />
+  <Preset Label="Howl (werewolf_Abilities_Howl_Basic)" Value="287820" />
+  <Preset Label="Somber Howl (werewolf_Abilities_Howl_Somber)" Value="287821" />
+  <Preset Label="Pack Howl (werewolf_Abilities_Howl_Pack)" Value="287822" />
+  <Preset Label="Vicious Howl (werewolf_Abilities_Howl_Vicious)" Value="287823" />
+  <Preset Label="Lunar Howl (werewolf_Abilities_Howl_Lunar)" Value="287824" />
+  <Preset Label="Enhance Smell (werewolf_Abilities_Smell)" Value="287825" />
+  <Preset Label="Groom Self (werewolf_Abilities_Groom)" Value="287828" />
+  <Preset Label="Try to Regain Control (werewolf_Abilities_Resist)" Value="287829" />
+  <Preset Label="Hunt for Food (werewolf_Abilities_Hunt)" Value="287830" />
+  <Preset Label="Activate Primal Instinct (werewolf_Abilities_Primal)" Value="287831" />
+  <Preset Label="Mark Territory (terrain-gohere_Werewolf_Mark)" Value="287834" />
+  <Preset Label="Wolf Nap (terrain-gohere_Werewolf_Nap)" Value="287835" />
+  <Preset Label="Wolf Nap (werewolf_Abilities_Nap)" Value="287836" />
+  <Preset Label="Mark Territory (werewolf_Abilities_Mark)" Value="287837" />
+  <Preset Label="Werewolf Brawl! (mixer_social_Fight_targeted_mean_WerewolfToWerewolf_Start)" Tags="TestUnsafe" Value="287838" />
+  <Preset Label="Supernatural Smackdown (mixer_social_Fight_targeted_mean_WerewolfToVampire_Start)" Tags="TestUnsafe" Value="287839" />
+  <Preset Label="Supernatural Smackdown (mixer_social_Fight_targeted_mean_VampireToWerewolf_Start)" Tags="TestUnsafe" Value="287840" />
+  <Preset Label="Supernatural Smackdown (social_Werewolf_Fight_Actor_WerewolfToVampire_WithGarlic)" Value="287842" />
+  <Preset Label="Supernatural Smackdown (social_Werewolf_Fight_Actor_WerewolfToVampire_NoGarlic)" Value="287843" />
+  <Preset Label="Transform (werewolf_Transform_Mastery)" Value="287844" />
+  <Preset Label="Supernatural Smackdown (social_Werewolf_Fight_Actor_VampireToWerewolf_NoGarlic)" Value="287845" />
+  <Preset Label="Supernatural Smackdown (social_Werewolf_Fight_Actor_VampireToWerewolf_WithGarlic)" Value="287846" />
+  <Preset Label="Pacify {1.SimFirstName} (social_Werewolf_Pacify)" Value="287847" />
+  <Preset Label="Devour (werewolf_Abilities_Devour)" Value="287848" />
+  <Preset Label="Ferocious Intimidation (social_Werewolf_Intimidation)" Value="287849" />
+  <Preset Label="Lead Hunting Party (simPicker_Werewolf_HuntingParty)" Tags="TestUnsafe" Value="287850" />
+  <Preset Label="Scavenge Ground (terrain-gohere_Werewolf_Scavenge)" Value="287851" />
+  <Preset Label="Scavenge Ground (werewolf_Abilities_Scavenge)" Value="287852" />
+  <Preset Label="Run Away! (werewolf_Reactions_RunAway)" Value="288009" />
+  <Preset Label="Practice Howling (social_Werewolf_TeachToHowl)" Value="288047" />
+  <Preset Label="Ask for Werewolf Sympathy (social_Werewolf_Confess)" Value="288049" />
+  <Preset Label="Discuss being a Werewolf (socials_Targeted_Friendly_AlwaysOn_STC_DiscussWerewolf)" Tags="TestUnsafe" Value="288050" />
+  <Preset Label="Share Werewolf Experiences (socials_Targeted_Friendly_AlwaysOn_STC_ShareWerewolf)" Tags="TestUnsafe" Value="288051" />
+  <Preset Label="werewolf_Reactions_Disgust" Value="288092" />
+  <Preset Label="werewolf_Reactions_Mild" Value="288093" />
+  <Preset Label="Run Away! (werewolf_Reactions_RunAway_Autonomous)" Value="288111" />
+  <Preset Label="Try to Cleanse Self of Werebies  (shower_TakeShower_Werebies)" Value="288201" />
+  <Preset Label="Try to Force Werebies Out (publicBathroom_Puke_Werebies)" Value="288202" />
+  <Preset Label="Try to Force Werebies Out (toilet_Puke_Werebies)" Value="288203" />
+  <Preset Label="Cursed Bite (werewolfCreation_Turn_BeastForm)" Value="288339" />
+  <Preset Label="Travel to Sparring Grounds Portal Potties (wolfTown_Portal_Teleport_MineToPorta)" Value="288341" />
+  <Preset Label="Travel to Sewer Grate (wolfTown_Portal_Teleport_MineToSewer)" Value="288398" />
+  <Preset Label="Travel to Ground-Level Bunker (wolfTown_Portal_Teleport_PortaToMine)" Value="288399" />
+  <Preset Label="Travel to Sewer Grate (wolfTown_Portal_Teleport_PortaToSewer)" Value="288400" />
+  <Preset Label="Travel to Ground-Level Bunker (wolfTown_Portal_Teleport_SewerToMine)" Value="288401" />
+  <Preset Label="Travel to Sparring Grounds Portal Potties (wolfTown_Portal_Teleport_SewerToPorta)" Value="288402" />
+  <Preset Label="Travel to Base (wolfTown_Portal_Teleport_HowlSpot_TopToBottom)" Value="288405" />
+  <Preset Label="Travel to Peak (wolfTown_Portal_Teleport_HowlSpot_BottomToTop)" Value="288406" />
+  <Preset Label="Explore Underground Tunnels (wolfTown_Portal_Adventure_Basic)" Value="288412" />
+  <Preset Label="Unlock All Moonwood Portals (Debug) (immediate_Werewolf_Debug_WolfTownPortalUnlock)" Value="288431" />
+  <Preset Label="Lock All Moonwood Portals (Debug) (immediate_Werewolf_Debug_WolfTownPortalLock)" Value="288443" />
+  <Preset Label="Explore Underground Tunnels (wolfTown_Portal_Adventure_Sewer)" Value="288446" />
+  <Preset Label="Explore Underground Tunnels (wolfTown_Portal_Adventure_PortaPotty)" Value="288447" />
+  <Preset Label="Explore Underground Tunnels (wolfTown_Portal_Adventure_Mine)" Value="288448" />
+  <Preset Label="Tell about Underground Tunnels (mixer_social_WolfTown_TellAboutUnderground_Friendly_MiddleScore)" Tags="TestUnsafe" Value="288450" />
+  <Preset Label="Ask about Moonwood Mill (mixer_social_AskAboutWolfTown_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="288465" />
+  <Preset Label="Travel to Moonwood Mill (goToSpecificLot_FromPortalToWolfTown)" Value="288473" />
+  <Preset Label="Travel to Moonwood Mill (wolfTown_Portal_TravelToTown)" Value="288475" />
+  <Preset Label="Somewhere? (rabbitHole_Werewolf_FirstTransformation)" Value="288569" />
+  <Preset Label="Somewhere? (rabbitHole_Werewolf_Rampage)" Value="288597" />
+  <Preset Label="Turn into Werewolf (occultDebugInteractions_Werewolf_WerewolfAdd)" Value="288651" />
+  <Preset Label="Add Temperaments (occultDebugInteractions_Werewolf_AddTemperaments)" Value="288733" />
+  <Preset Label="Remove Temperaments (occultDebugInteractions_Werewolf_RemoveTemperaments)" Value="288734" />
+  <Preset Label="Add Perks (occultDebugInteractions_Werewolf_AddPerks)" Value="288744" />
+  <Preset Label="Return to Normal (werewolf_Transform_MasteryReturn)" Value="288763" />
+  <Preset Label="Travel to Ground-Level Bunker (wolfTown_Portal_GoTo_Start_Mine)" Value="288801" />
+  <Preset Label="Travel to Sewer Grate (wolfTown_Portal_GoTo_Start_Sewer)" Value="288802" />
+  <Preset Label="Travel to Sparring Grounds Portal Potties (wolfTown_Portal_GoTo_Start_Porta)" Value="288803" />
+  <Preset Label="Travel to {2.String} (wolfTown_Portal_GoTo_Start_OnLot)" Value="288804" />
+  <Preset Label="wolfTown_Portal_GoTo_End_Mine" Value="288805" />
+  <Preset Label="wolfTown_Portal_GoTo_End_OnLot" Value="288806" />
+  <Preset Label="wolfTown_Portal_GoTo_End_Porta" Value="288807" />
+  <Preset Label="wolfTown_Portal_GoTo_End_Sewer" Value="288808" />
+  <Preset Label="Learn Sculpture Secret (Debug) (immediate_Werewolf_Debug_WolfTownAdventure_SculptureSecret)" Value="288827" />
+  <Preset Label="Snarl At (social_Werewolf_RampageScare)" Value="288853" />
+  <Preset Label="Pack Value: Max All (Debug) (immediate_Werewolf_Debug_PackValueMax)" Value="289371" />
+  <Preset Label="Pack Value: Min All (Debug) (immediate_Werewolf_Debug_PackValueMin)" Value="289372" />
+  <Preset Label="Practice Howling (social_Werewolf_TeachToHowl_Empty)" Value="289398" />
+  <Preset Label="werewolf_Mixers_TeachToHowl_Active" Value="289401" />
+  <Preset Label="Transform (werewolfCreation_Turn_FirstTurn)" Value="289426" />
+  <Preset Label="Check Pack Resources (objectDefinitionPicker_WerewolfPack_CheckResourcesA)" Tags="TestUnsafe" Value="289557" />
+  <Preset Label="Mark Territory (terrain-gohere_Werewolf_Mark_Rally)" Value="289559" />
+  <Preset Label="Mark Territory (werewolf_Abilities_Mark_Rally)" Value="289561" />
+  <Preset Label="Groom Self (terrain-gohere_Werewolf_GroomSelf)" Value="289577" />
+  <Preset Label="Werewolf Spar with {1.SimFirstName} (mixer_Social_Targeted_Friendly_AlwaysOn_WerewolfPack_JoinTrial_AskToSpar)" Tags="TestUnsafe" Value="289581" />
+  <Preset Label="Spar with {1.SimFirstName} (social_WerewolfPack_Spar_Actor_JoinTrial)" Value="289585" />
+  <Preset Label="Check Pack Resources (werewolfPack_Shell_CheckResources_Start)" Value="289587" />
+  <Preset Label="Check Pack Resources (objectDefinitionPicker_WerewolfPack_CheckResourcesB)" Tags="TestUnsafe" Value="289590" />
+  <Preset Label="Start Pack Alliance (Debug) (immediate_Werewolf_Debug_PackStartAlliance)" Value="289613" />
+  <Preset Label="Start Pack Feud (Debug) (immediate_Werewolf_Debug_PackStartFeud)" Value="289614" />
+  <Preset Label="End Alliance/Feud (Debug) (immediate_Werewolf_Debug_PackEndAllianceFeud)" Value="289615" />
+  <Preset Label="End the Feud (mixer_Social_WerewolfPack_EndFeud)" Tags="TestUnsafe" Value="289616" />
+  <Preset Label="Break the Alliance (mixer_Social_WerewolfPack_EndAlliance)" Tags="TestUnsafe" Value="289617" />
+  <Preset Label="Scratch (werewolf_Smash_Scratch)" Value="289618" />
+  <Preset Label="werewolfPack_Shell_CheckResources_End" Value="289621" />
+  <Preset Label="Check Pack Resources (objectDefinitionPicker_WerewolfPack_CheckResourcesA_NoSpecial)" Tags="TestUnsafe" Value="289631" />
+  <Preset Label="Check Pack Resources (objectDefinitionPicker_WerewolfPack_CheckResourcesB_NoSpecial)" Tags="TestUnsafe" Value="289633" />
+  <Preset Label="aggregateSI_WerewolfPack_CheckResources" Value="289634" />
+  <Preset Label="social_WerewolfPack_Handshake" Value="289636" />
+  <Preset Label="Awed (reactions_WerewolfCreation_Awe)" Value="289699" />
+  <Preset Label="reactions_WerewolfCreation_Horrified" Value="289700" />
+  <Preset Label="reaction_Aggregate_WerewolfCreation_Normie" Value="289701" />
+  <Preset Label="Witness Turning (reactions_WerewolfCreation_PackANeg)" Value="289704" />
+  <Preset Label="Witness Turning (reactions_WerewolfCreation_PackAPos)" Value="289705" />
+  <Preset Label="Witness Turning (reactions_WerewolfCreation_PackB)" Value="289706" />
+  <Preset Label="werewolf_Mixers_TeachToHowl_PassiveChild" Value="289755" />
+  <Preset Label="werewolf_Mixers_TeachToHowl_PassiveToddler" Value="289756" />
+  <Preset Label="werewolf_Transform_TransformReturn" Value="289905" />
+  <Preset Label="Run Away! (reactions_WerewolfCreation_Runaway)" Value="290000" />
+  <Preset Label="waypoint_WolfTown_Greg" Value="290067" />
+  <Preset Label="wolfTown_NPC_Greg_Howl" Value="290069" />
+  <Preset Label="Attempt to Communicate (social_WolfTown_Greg_AttemptToCommunicate)" Value="290133" />
+  <Preset Label="Ask for {1.SimFirstName}'s Gift (social_WolfTown_Greg_AskForGift)" Value="290193" />
+  <Preset Label="Provoke (wolfTown_Greg_Provoke)" Value="290252" />
+  <Preset Label="Attempt to Distract (wolfTown_Greg_AttemptToDistract)" Value="290253" />
+  <Preset Label="Cry Greg (wolfTown_CryGreg_Start)" Value="290257" />
+  <Preset Label="Cry Greg (wolfTown_CryGreg_End)" Value="290258" />
+  <Preset Label="See What's Happening (wolfTown_SearchForGreg)" Value="290265" />
+  <Preset Label="See What's Happening (wolfTown_CryGreg_Responder_GoNear)" Value="290266" />
+  <Preset Label="wolfTown_NPC_Greg_ReactToDistract" Value="290279" />
+  <Preset Label="Hunting (rabbitHole_Werewolf_Hunt)" Value="290299" />
+  <Preset Label="Hunting (rabbitHole_Werewolf_Hunt_Group)" Value="290300" />
+  <Preset Label="Say Goodnight to the Moon (socials_Targeted_Friendly_AlwaysOn_STC_Toddler_AskToPutToBed_GoodnightToMoon)" Tags="TestUnsafe" Value="290310" />
+  <Preset Label="social_WerewolfPack_LeavePackOutcome_TakingTheCureA" Value="290374" />
+  <Preset Label="social_WerewolfPack_LeavePackOutcome_TakingTheCureB" Value="290375" />
+  <Preset Label="social_WerewolfPack_LeavePackOutcome_PackSucks" Value="290376" />
+  <Preset Label="social_WerewolfPack_LeavePackOutcome_NotForMe" Value="290377" />
+  <Preset Label="social_WerewolfPack_LeavePackOutcome_Silence" Value="290378" />
+  <Preset Label="social_WerewolfPack_LeavePackOutcome_ChangedMind" Value="290379" />
+  <Preset Label="Listen to {1.SimFirstName} (social_WerewolfPack_Listen)" Value="290444" />
+  <Preset Label="werewolfPack_Shell_Exit" Value="290470" />
+  <Preset Label="nonTouching_Unpaired_Greetings_WerewolfPack" Value="290503" />
+  <Preset Label="greetingReactionMixer_WerewolfPack" Value="290506" />
+  <Preset Label="Activate Super Speed (immediate_Werewolf_SuperSpeed)" Value="290515" />
+  <Preset Label="Join Pack A (Debug) (immediate_Werewolf_Debug_Pack_JoinA)" Value="290535" />
+  <Preset Label="Join Pack B (Debug) (immediate_Werewolf_Debug_Pack_JoinB)" Value="290536" />
+  <Preset Label="Leave Pack A (Debug) (immediate_Werewolf_Debug_Pack_LeaveA)" Value="290537" />
+  <Preset Label="Leave Pack B (Debug) (immediate_Werewolf_Debug_Pack_LeaveB)" Value="290538" />
+  <Preset Label="Make Pack Leader (Debug) (immediate_Werewolf_Debug_Pack_MakeLeaderA)" Value="290539" />
+  <Preset Label="Make Pack Leader (Debug) (immediate_Werewolf_Debug_Pack_MakeLeaderB)" Value="290540" />
+  <Preset Label="Make Friend of Pack A (Debug) (immediate_Werewolf_Debug_Pack_MakeFriendA)" Value="290541" />
+  <Preset Label="Make Friend of Pack B (Debug) (immediate_Werewolf_Debug_Pack_MakeFriendB)" Value="290542" />
+  <Preset Label="Normal (werewolfPack_Shell_Decorate_Neutral)" Value="290549" />
+  <Preset Label="Friendly (werewolfPack_Shell_Decorate_Friendly)" Value="290550" />
+  <Preset Label="Intimidating (werewolfPack_Shell_Decorate_Threatening)" Value="290551" />
+  <Preset Label="autonomousSimPicker_WerewolfPack_SparA" Tags="TestUnsafe" Value="290572" />
+  <Preset Label="Use Facilities (werewolfPack_Shell_NPC_Enter)" Value="290577" />
+  <Preset Label="autonomousSimPicker_WerewolfPack_SparB" Tags="TestUnsafe" Value="290580" />
+  <Preset Label="Epic Tug of War (social_WerewolfPack_ChallengeLeader_TugOfWar)" Value="290633" />
+  <Preset Label="Epic Tug of War (social_WerewolfPack_ChallengeLeader_TugOfWar_Target)" Value="290634" />
+  <Preset Label="Sit (werewolfPack_SitSomewhere)" Value="290635" />
+  <Preset Label="Entrust Moonwood Collective Leadership to {1.SimFirstName} (social_WerewolfPack_GiveUpLeadership)" Value="290641" />
+  <Preset Label="werewolf_Aspiration_Picker" Value="290765" />
+  <Preset Label="Disable Fury Effect (immediate_Werewolf_FuryGlow)" Value="290790" />
+  <Preset Label="Fight {1.SimFirstName}! (mixer_social_Fight_targeted_mean_WerewolfToSim_Start)" Tags="TestUnsafe" Value="290815" />
+  <Preset Label="Fight! (mixer_social_Fight_targeted_mean_SimToWerewolf_Start)" Tags="TestUnsafe" Value="290816" />
+  <Preset Label="Fight! (werewolf_Transform_Rampage_ToFightSim)" Value="290818" />
+  <Preset Label="Supernatural Smackdown (werewolf_Transform_Rampage_ToFightWerewolf)" Value="290824" />
+  <Preset Label="Supernatural Smackdown (werewolf_Transform_Rampage_ToFightVampireWithGarlic)" Value="290843" />
+  <Preset Label="Supernatural Smackdown (werewolf_Transform_Rampage_ToFightVampireNoGarlic)" Value="290849" />
+  <Preset Label="immediate_Werewolf_Fight_SaveParticipant" Value="290884" />
+  <Preset Label="Mark Territory (werewolf_Abilities_Mark_Self)" Value="290887" />
+  <Preset Label="Wolf Nap (werewolf_Abilities_Nap_Self)" Value="290889" />
+  <Preset Label="Growl Seductively (mixer_social_WhisperSeductively_targeted_romance_middleScore_Werewolf_F)" Tags="TestUnsafe" Value="290911" />
+  <Preset Label="Unlock GP12 Recipes (Debug) (immediate_Werewolf_Debug_UnlockRecipes)" Value="290927" />
+  <Preset Label="Get useful werewolf items (Debug) (immediate_Werewolf_Debug_GiveUsefulItems)" Value="290928" />
+  <Preset Label="Honorable Brawl (social_WerewolfPack_ChallengeLeader_Fight_Actor)" Value="290933" />
+  <Preset Label="Set Pack Rank 3 (Debug) (immediate_Werewolf_Debug_PackSetRank_3)" Value="290952" />
+  <Preset Label="Set Pack Rank 1 (Debug) (immediate_Werewolf_Debug_PackSetRank_1)" Value="290953" />
+  <Preset Label="Set Pack Rank 2 (Debug) (immediate_Werewolf_Debug_PackSetRank_2)" Value="290954" />
+  <Preset Label="nPCLeaveLot_Werewolf_Intimidation" Value="291025" />
+  <Preset Label="Run Away! (werewolf_Reactions_RunAway_ThenLeave)" Value="291049" />
+  <Preset Label="Investigate Warning Sign (wolfTown_Greg_InvestigateSign)" Value="291141" />
+  <Preset Label="View Moonwood Mill Information (wolfTown_BulletinBoard_ViewInfo)" Value="291142" />
+  <Preset Label="TEXT WITH WILD DISREGARD FOR ALL THAT IS SACRED (werewolf_RampageText)" Value="291159" />
+  <Preset Label="Go to Sparring Area (si_GoNearObject_WolfTown_Spar)" Value="291180" />
+  <Preset Label="attractorPoint_WolfTown_Spar" Value="291187" />
+  <Preset Label="autonomousSimPicker_WolfTown_SparInArea" Tags="TestUnsafe" Value="291210" />
+  <Preset Label="Spar with (simPicker_WolfTown_AskToSpar)" Tags="TestUnsafe" Value="291243" />
+  <Preset Label="Werewolf Diplomacy (social_Werewolf_Diplomacy)" Value="291497" />
+  <Preset Label="werewolf_FirstTransformationReaction_WolfTown" Value="291504" />
+  <Preset Label="werewolf_Transform_Rampage_Turn" Value="291506" />
+  <Preset Label="Cursed Bite (werewolfCreation_Turn_BeastForm_NotTransformed)" Value="291507" />
+  <Preset Label="Transform (werewolf_Transform_Mastery_Turn)" Value="291509" />
+  <Preset Label="Howl (werewolf_Abilities_Howl_Basic_Response)" Value="291641" />
+  <Preset Label="Feelin' Frisky (werewolf_Frisky)" Value="291642" />
+  <Preset Label="Drink Wolf-B-Gone  (drink_WerewolfCure)" Value="291814" />
+  <Preset Label="Spar With (simPicker_Werewolf_CommandToSpar)" Tags="TestUnsafe" Value="291883" />
+  <Preset Label="Witness Fight (reaction_AdultFight_Werewolf)" Value="291893" />
+  <Preset Label="Harvest (gardening_Plant_Moonpetal_Harvest)" Value="291938" />
+  <Preset Label="Eat Moonpetal (plant_Moonpetal_Flower_Eat_FromInventory)" Value="291940" />
+  <Preset Label="Eat Moonpetal (plant_Moonpetal_Flower_Eat_FromWorld)" Value="291941" />
+  <Preset Label="Eat {1.ObjectName} (plant_Moonpetal_Flower_Eat_EatBud)" Value="291944" />
+  <Preset Label="Werewolf Spar (mixer_Social_Targeted_Friendly_AlwaysOn_Werewolf_AskToSpar_Commanded)" Tags="TestUnsafe" Value="291956" />
+  <Preset Label="Command To Spar (social_WerewolfPack_Command_ToSpar)" Value="291959" />
+  <Preset Label="Order Food (bar_PushOrderFood_WolfTown)" Value="292033" />
+  <Preset Label="wolfTown_NPC_View" Value="292070" />
+  <Preset Label="Wander (waypoint_WolfTown_Wander)" Value="292074" />
+  <Preset Label="Ask for Cursed Bite (werewolfCreation_Actor_AskToTurn)" Value="292173" />
+  <Preset Label="Be Asked for Cursed Bite (werewolfCreation_Target_AskToTurn)" Value="292174" />
+  <Preset Label="Transform (werewolfCreation_Actor_AskToTurn_Cont_NotBeastForm)" Value="292176" />
+  <Preset Label="Discuss Lunar Epiphany (social_WerewolfPack_JoinTrial_LunarEpiphany)" Value="292262" />
+  <Preset Label="Demonstrate Pack Howl (social_WerewolfPack_JoinTrial_PackHowl)" Value="292264" />
+  <Preset Label="Demonstrate Scavenging (social_WerewolfPack_JoinTrial_Scavenge)" Value="292265" />
+  <Preset Label="Watch (werewolfPack_JoinTrial_Watch)" Value="292289" />
+  <Preset Label="Force Bloom (debug) (immediate_Werewolf_Debug_Plant_Moonpetal_Bloom)" Value="292301" />
+  <Preset Label="Offer Pack Mentorship (mixer_Social_WerewolfPack_PackMentor)" Tags="TestUnsafe" Value="292321" />
+  <Preset Label="aggregateSI_WerewolfPack_ChallengeLeader" Value="292391" />
+  <Preset Label="Ask if {1.SimFirstName} wants to become Werewolf (mixer_social_AskAboutWerewolfInterest_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="292407" />
+  <Preset Label="social_WerewolfPack_NPCChallengePlayer_Start" Value="292449" />
+  <Preset Label="idle_Buff_WerewolfPack_ProbationLeader" Value="292451" />
+  <Preset Label="Go Here &lt;i&gt;Ferociously&lt;/i&gt; (terrain-gohere_Werewolf_RampageHere)" Value="292570" />
+  <Preset Label="&lt;i&gt;???????&lt;/i&gt; (werewolf_Abilities_DevourFake)" Value="292572" />
+  <Preset Label="idle_Buff_Werewolf_Wet" Value="292757" />
+  <Preset Label="werewolf_Reactions_Splash" Value="292760" />
+  <Preset Label="Promote to Higher Pack Rank (social_WerewolfPack_PromoteMember)" Value="292958" />
+  <Preset Label="Demote to Lower Pack Rank (social_WerewolfPack_DemoteMember)" Value="292962" />
+  <Preset Label="Decipher Engraving (collection_WerewolfRelic_Decrypt)" Value="292988" />
+  <Preset Label="Give the Werewolf Talk (mixer_socials_GiveTheWerewolfTalk_Targeted_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="292999" />
+  <Preset Label="Ask About Being a Werewolf (mixer_socials_AskAboutWerewolf_Targeted_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="293000" />
+  <Preset Label="Kick {1.SimFirstName} Out of the Pack (social_WerewolfPack_RemoveMember)" Value="293155" />
+  <Preset Label="Focus Camera on Pack Leader (immediate_WerewolfPack_FocusOnLeaderA_Sim)" Value="293335" />
+  <Preset Label="Focus Camera on Pack Leader (immediate_WerewolfPack_FocusOnLeaderB_Object)" Value="293337" />
+  <Preset Label="Focus Camera on Pack Leader (immediate_WerewolfPack_FocusOnLeaderA_Object)" Value="293338" />
+  <Preset Label="Focus Camera on Pack Leader (immediate_WerewolfPack_FocusOnLeaderB_Sim)" Value="293339" />
+  <Preset Label="Discipline Packmate (mixer_Social_WerewolfPack_DisciplineMember)" Tags="TestUnsafe" Value="293359" />
+  <Preset Label="Ask About Pack Rank (mixer_Social_WerewolfPack_AskAboutRank)" Tags="TestUnsafe" Value="293362" />
+  <Preset Label="See What's Happening (reactions_WerewolfPack_Positive)" Value="293391" />
+  <Preset Label="Ask for Werebies Remedy (werewolfCreation_AskToCureWerebies)" Value="293454" />
+  <Preset Label="Alpha-to-Alpha Talk (social_WerewolfPack_LeaderToLeaderTalk)" Value="293568" />
+  <Preset Label="Howl... Somewhere else? (werewolf_Abilities_Howl_Basic_Rampage)" Value="293623" />
+  <Preset Label="autonomous_ObjectPicker_RampageReturn" Tags="TestUnsafe" Value="293624" />
+  <Preset Label="Zoomies (waypoint_Jog_WerewolfZoomies)" Value="293626" />
+  <Preset Label="Workout (social_WerewolfPack_Command_ToWorkout)" Value="293824" />
+  <Preset Label="Sit (social_WerewolfPack_Command_ToSit)" Value="293914" />
+  <Preset Label="Howl (social_WerewolfPack_Command_ToHowl)" Value="293915" />
+  <Preset Label="Try to Sweat Werebies Out  (bed_sleep_Werebies)" Value="293924" />
+  <Preset Label="Try to Run Werebies Off (treadmill_Workout_Werebies)" Value="293925" />
+  <Preset Label="Dance! (social_WerewolfPack_Command_ToDance)" Value="293944" />
+  <Preset Label="Fetch Something Cool (social_WerewolfPack_Command_ToFetch)" Value="294014" />
+  <Preset Label="Fetching Something Cool (werewolfPack_Fetch)" Value="294015" />
+  <Preset Label="Give {1.SimFirstName} a Packmate Gift (social_WerewolfPack_GiveItem_Fetch)" Value="294016" />
+  <Preset Label="Fainted (werewolf_FaintReaction)" Value="294210" />
+  <Preset Label="Beat Greg Buff (Debug) (immediate_Werewolf_Debug_BeatGregBuff)" Value="294240" />
+  <Preset Label="aggregateMixer_WolfTown_NPC_Greg_Fight" Value="294352" />
+  <Preset Label="werewolf_Reactions_Awe_ThenRunAway" Value="294451" />
+  <Preset Label="autonomousSimPicker_Werewolf_Greg_FightAWolf" Tags="TestUnsafe" Value="294491" />
+  <Preset Label="NPCLeaveLot_WolfTown_Greg_WerewolfRun" Value="294493" />
+  <Preset Label="werewolf_SensitiveHearing" Value="294512" />
+  <Preset Label="Look for Frogs (wolfTown_NPC_Greg_WaterPump)" Value="294573" />
+  <Preset Label="Hug Fluffy Puppy! (social_Werewolf_RampageHug)" Value="294880" />
+  <Preset Label="werewolf_Walkby_BadTiming" Value="294930" />
+  <Preset Label="Ask for Pack Mentorship (mixer_Social_WerewolfPack_AskToBePackMentored)" Tags="TestUnsafe" Value="294999" />
+  <Preset Label="autonomousSimPicker_WolfTown_FriendSpar" Tags="TestUnsafe" Value="295329" />
+  <Preset Label="wolfTown_FriendSpar_StartSpar" Value="295335" />
+  <Preset Label="idle_Buff_LunarCycle_0_NewMoon" Value="295535" />
+  <Preset Label="idle_Buff_LunarCycle_1_WaxingCrescent" Value="295536" />
+  <Preset Label="idle_Buff_LunarCycle_2_FirstQuarter" Value="295537" />
+  <Preset Label="idle_Buff_LunarCycle_3_WaxingGibbous" Value="295548" />
+  <Preset Label="idle_Buff_LunarCycle_4_FullMoon" Value="295549" />
+  <Preset Label="idle_Buff_LunarCycle_5_WaningGibbous" Value="295550" />
+  <Preset Label="idle_Buff_LunarCycle_6_ThirdQuarter" Value="295551" />
+  <Preset Label="idle_Buff_LunarCycle_7_WaningCrescent" Value="295552" />
+  <Preset Label="Howl (werewolf_Abilities_Howl_Basic_PC)" Value="295582" />
+  <Preset Label="werewolf_Idles_PC" Value="295584" />
+  <Preset Label="Examine (wand_Moonwood_View)" Value="295771" />
+  <Preset Label="Run Away! (werewolf_Reactions_RunAway_CryGregResponder)" Value="296110" />
+  <Preset Label="Spar With (simPicker_Werewolf_CommandToSparTeen)" Tags="TestUnsafe" Value="296181" />
+  <Preset Label="werewolf_Idles_Greg" Value="296210" />
+  <Preset Label="werewolf_Idles_MoonMadness" Value="296232" />
+  <Preset Label="Be Cured  (werewolf_WerewolfCreation_BeCured)" Value="296325" />
+  <Preset Label="Challenge to Tug of War (social_WerewolfPack_Friendly_TugOfWar)" Value="296625" />
+  <Preset Label="Challenge to Tug of War (mixer_Social_Targeted_Friendly_AlwaysOn_Werewolf_AskToTugOfWar)" Tags="TestUnsafe" Value="296628" />
+  <Preset Label="Howl (werewolf_Abilities_Howl_Basic_Outside)" Value="296724" />
+  <Preset Label="Smell Here (terrain-gohere_Werewolf_Smell)" Value="296726" />
+  <Preset Label="Fight! (si_Touching_WerewolfFight_WithSim)" Value="296734" />
+  <Preset Label="Watch Spar (reaction_WerewolfSpar)" Value="296888" />
+  <Preset Label="Scratch (werewolf_Smash_Scratch_Rampage)" Value="296976" />
+  <Preset Label="Scavenge Ground (werewolf_Abilities_Scavenge_Self)" Value="297154" />
+  <Preset Label="Go Here (si_moveAwayCircle_WerewolfHunt)" Value="297156" />
+  <Preset Label="social_Werewolf_Empty" Value="297417" />
+  <Preset Label="View Werebies Advisory (wolfTown_BulletinBoard_WerebiesInfo)" Value="297832" />
+  <Preset Label="Call Packmates to the Hangout (simPicker_WerewolfPack_InviteToHangoutA)" Tags="TestUnsafe" Value="298044" />
+  <Preset Label="Call Packmates to the Hangout (simPicker_WerewolfPack_InviteToHangoutB)" Tags="TestUnsafe" Value="298045" />
+  <Preset Label="immediate_WerewolfPack_FocusOnHangout" Value="298084" />
+  <Preset Label="Focus Camera on the Moonwood Collective Hangout (autonomous_ObjectPicker_WerewolfPack_HangoutA)" Tags="TestUnsafe" Value="298085" />
+  <Preset Label="Focus Camera on the Wildfangs Hangout (autonomous_ObjectPicker_WerewolfPack_HangoutB)" Tags="TestUnsafe" Value="298086" />
+  <Preset Label="Focus Camera on the Moonwood Collective Hangout (immediate_WerewolfPack_FocusOnHangoutA_Start_Object)" Value="298088" />
+  <Preset Label="Focus Camera on the Wildfangs Hangout (immediate_WerewolfPack_FocusOnHangoutB_Start_Object)" Value="298089" />
+  <Preset Label="Howl (werewolf_Abilities_Howl_Basic_FormerLycan)" Value="298142" />
+  <Preset Label="Focus Camera on the Moonwood Collective Hangout (immediate_WerewolfPack_FocusOnHangoutA_Start_Sim)" Value="298150" />
+  <Preset Label="Focus Camera on the Wildfangs Hangout (immediate_WerewolfPack_FocusOnHangoutB_Start_Sim)" Value="298151" />
+  <Preset Label="Disable Fury Effect (immediate_Werewolf_FuryGlow_Target)" Value="298549" />
+  <Preset Label="Wolf Down {1.ObjectName} (werewolf_EatFish)" Value="298629" />
+  <Preset Label="Devour (generic_consume_food_RawFish)" Value="298650" />
+  <Preset Label="Wolf Down {1.ObjectName} (werewolf_EatFish_FromWorld)" Value="298651" />
+  <Preset Label="Call Packmates to the Hangout (werewolfPack_InviteToHangoutA)" Value="298691" />
+  <Preset Label="Call Packmates to the Hangout (werewolfPack_InviteToHangoutB)" Value="298693" />
+  <Preset Label="werewolf_Idles_NearTransformedWerewolf" Value="299120" />
+  <Preset Label="Go Here (si_moveAway_WolfTown_NPC_Greg_Howl_Initial)" Value="299590" />
+  <Preset Label="werewolf_Transform_Rampage_Auto" Value="299610" />
+  <Preset Label="werewolf_SensitiveHearing_IsOn" Value="299672" />
+  <Preset Label="wolfTown_NPC_Bar_DoSomething" Value="299742" />
+  <Preset Label="Fight {1.SimFirstName}! (mixer_social_Fight_targeted_mean_WerewolfToSim_Start_Rampage)" Tags="TestUnsafe" Value="299801" />
+  <Preset Label="Supernatural Smackdown (mixer_social_Fight_targeted_mean_WerewolfToVampire_Start_Rampage)" Tags="TestUnsafe" Value="299802" />
+  <Preset Label="Werewolf Brawl! (mixer_social_Fight_targeted_mean_WerewolfToWerewolf_Start_Rampage)" Tags="TestUnsafe" Value="299803" />
+  <Preset Label="Werewolf Brawl! (social_Werewolf_RampageFight)" Value="299804" />
+  <Preset Label="Run Away! (werewolf_Reactions_RunAway_Autonomous_FromGreg)" Value="299875" />
+  <Preset Label="wolfTown_Portal_AdventureExit_MinePorta" Value="301022" />
+  <Preset Label="wolfTown_Portal_AdventureExit_MineSewer" Value="301023" />
+  <Preset Label="wolfTown_Portal_AdventureExit_PortaMine" Value="301024" />
+  <Preset Label="wolfTown_Portal_AdventureExit_PortaSewer" Value="301025" />
+  <Preset Label="wolfTown_Portal_AdventureExit_SewerPorta" Value="301026" />
+  <Preset Label="wolfTown_Portal_AdventureExit_SewerMine" Value="301027" />
+  <Preset Label="wolfTown_Portal_AdventureExit_ToOnLot" Value="301028" />
+  <Preset Label="wolfTown_Portal_AdventureExit_OnLotPorta" Value="301029" />
+  <Preset Label="wolfTown_Portal_AdventureExit_OnLotSewer" Value="301030" />
+  <Preset Label="wolfTown_Portal_AdventureExit_OnLotMine" Value="301031" />
+</PresetGroup>

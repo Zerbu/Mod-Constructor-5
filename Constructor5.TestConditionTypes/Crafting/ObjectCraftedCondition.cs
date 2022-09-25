@@ -22,9 +22,9 @@ namespace Constructor5.TestConditionTypes.Crafting
         public Reference Skill { get; set; } = new Reference();
         public ObservableCollection<string> Tags { get; set; } = new ObservableCollection<string>();
 
-        protected override string GetVariantTunableName() => "crafted_item";
+        protected override string GetVariantTunableName(string contextTag = null) => "crafted_item";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tupleTunable = variantTunable.Get<TunableTuple>(GetVariantTunableName());
 

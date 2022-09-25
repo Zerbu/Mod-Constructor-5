@@ -15,6 +15,11 @@ namespace Constructor5.Elements.SituationJobs.Components
 
         protected internal override void OnExport(SituationJobExportContext context)
         {
+            if (LootActionSets.Items.Count == 0)
+            {
+                return;
+            }
+
             var tunableList1 = context.Tuning.Get<TunableList>("rewards");
             TuneLoot(tunableList1, "BRONZE", LootActionSets, (item) => item.RunOnBronze);
             TuneLoot(tunableList1, "SILVER", LootActionSets, (item) => item.RunOnSilver);

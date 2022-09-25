@@ -11,6 +11,7 @@ namespace Constructor5.Base.ElementSystem
         public string[] PresetFolders { get; set; }
         public Type Type { get; set; }
         public bool IsRootType { get; set; }
+        public string ImportTuningType { get; set; }
 
         public static ElementTypeData Get(Type type) => ContentRegistry.Get<ElementTypeData>("ElementTypes", type.Name);
     }

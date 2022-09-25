@@ -5,6 +5,7 @@ using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.PropertyTypes;
+using Constructor5.Elements.SimpleWhimSets;
 using Constructor5.Elements.SituationGoals;
 
 namespace Constructor5.Elements.ComplexWhimSets
@@ -34,7 +35,6 @@ namespace Constructor5.Elements.ComplexWhimSets
 
         public bool RecheckOnTimeout { get; set; }
 
-        //WeightedGoalReferenceListItem
         public ReferenceList Whims { get; set; } = new ReferenceList();
 
         void IExportableElement.OnExport()
@@ -47,12 +47,12 @@ namespace Constructor5.Elements.ComplexWhimSets
             AutoTunerInvoker.Invoke(this, tuning);
 
             var list = tuning.Get<TunableList>("whims");
-            foreach(var whim in Whims.GetOfType<WeightedGoalReferenceListItem>())
+            foreach(var whim in Whims.GetOfType<WeightedWhimReferenceListItem>())
             {
                 foreach(var whimKey in ElementTuning.GetInstanceKeys(whim.Reference))
                 {
                     var tuple = list.Get<TunableTuple>(null);
-                    tuple.Set<TunableBasic>("goal", whimKey);
+                    tuple.Set<TunableBasic>("whim", whimKey);
                     if (whim.Weight != 1)
                     {
                         tuple.Set<TunableBasic>("weight", whim.Weight);

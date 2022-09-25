@@ -43,11 +43,6 @@ namespace Constructor5.Elements.Buffs.Components
                     context.Tuning.Get<TunableList>("_loot_on_removal").Set<TunableBasic>(null, set.Reference);
                 }
             }
-
-            foreach (var commodityTuning in context.IntervalCommodities.Values)
-            {
-                TuningExport.AddToQueue(commodityTuning);
-            }
         }
 
         private void TuneRunOnInterval(BuffExportContext context, BuffLootItem set)

@@ -1,4 +1,5 @@
 ﻿using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Elements.CareerLevels;
 using Constructor5.Elements.CareerTracks;
 
 namespace Constructor5.Elements.Careers.Templates
@@ -161,8 +162,28 @@ namespace Constructor5.Elements.Careers.Templates
             = new CareerTemplateMessageOverride("{0.SimFirstName}'s boss was happy with the work {M0.he}{F0.she} did from home, and {M0.he}{F0.she} made {4.Money}.");
 
         public abstract int GetBasePerformance(int level);
+
+        public virtual string GetInteractionTuningActionsFile() => "Career Interaction";
+
+        public virtual string GetLevelSimDataFileName() => "CareerLevel";
+
+        public virtual CareerLevelSimDataPositions GetLevelSimDataPositions() => new CareerLevelSimDataPositions();
+
+        public virtual string GetLevelTuningActionsFile() => "Career Level";
+
         public abstract int GetNegativeEmotionModifier(int level);
+
+        public virtual string GetSimDataFileName() => "Career";
+
+        public virtual int GetSimDataTrackBytePosition() => 80;
+
         public abstract int GetStandardEmotionModifier(int level);
+
+        public virtual bool IgnorePay() => false;
+
+        public virtual bool IgnorePerformance() => false;
+
+        public virtual bool IgnoreSchedule() => false;
 
         protected internal abstract void OnExport(CareerExportContext context);
 

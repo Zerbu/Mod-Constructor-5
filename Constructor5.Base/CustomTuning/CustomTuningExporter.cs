@@ -49,7 +49,7 @@ namespace Constructor5.Base.CustomTuning
                     return "0x0";
                 }
                 NumberOfCustomTextStrings++;
-                var key = Exporter.Current.STBLBuilder.GetKey(split[1], $"_Auto_{NumberOfCustomTextStrings}");
+                var key = Exporter.Current.STBLBuilder.GetKey(split[1], $"{Element.Guid}_Auto_{NumberOfCustomTextStrings}");
                 return $"0x{key:X}";
             }
 
@@ -65,7 +65,8 @@ namespace Constructor5.Base.CustomTuning
                     switch (reader.Name)
                     {
                         case "I":
-                            ReadHeader(tuningPart, reader);
+                        case "M":
+                            ReadHeader(tuningPart, reader, reader.Name == "M");
                             break;
 
                         case "T":
@@ -87,6 +88,14 @@ namespace Constructor5.Base.CustomTuning
                         case "V":
                             ReadVariant(tuningPart, reader);
                             break;
+
+                        case "G":
+                            Header.GroupKey = ulong.Parse(reader.GetAttribute("v"));
+                            break;
+
+                        case "C":
+                            ReadClass(tuningPart, reader);
+                            break;
                     }
                 }
             }
@@ -103,6 +112,12 @@ namespace Constructor5.Base.CustomTuning
             tuningPart.Set<TunableBasic>(reader.GetAttribute("n"), Parse(reader.ReadInnerXml()));
         }
 
+        private void ReadClass(TuningBase tuningPart, XmlReader reader)
+        {
+            var tunable = tuningPart.Get<TunableClass>(reader.GetAttribute("n"));
+            Read(tunable, reader.ReadInnerXml());
+        }
+
         private void ReadEnum(TuningBase tuningPart, XmlReader reader)
         {
             if (tuningPart is TunableList list)
@@ -114,11 +129,41 @@ namespace Constructor5.Base.CustomTuning
             tuningPart.Set<TunableEnum>(reader.GetAttribute("n"), reader.ReadInnerXml());
         }
 
-        private void ReadHeader(TuningBase tuningPart, XmlReader reader)
+        private void ReadHeader(TuningBase tuningPart, XmlReader reader, bool isModule)
         {
-            Header.Class = reader.GetAttribute("c");
-            Header.InstanceType = reader.GetAttribute("i");
-            Header.Module = reader.GetAttribute("m");
+            var classAttribute = reader.GetAttribute("c");
+            if (classAttribute != null)
+            {
+                Header.Class = classAttribute;
+            }
+
+            var instanceAttribute = reader.GetAttribute("i");
+            if (instanceAttribute != null)
+            {
+                Header.InstanceType = instanceAttribute;
+            }
+
+            var moduleAttribute = reader.GetAttribute("m");
+            if (moduleAttribute != null)
+            {
+                Header.Module = moduleAttribute;
+            }
+
+            if (isModule)
+            {
+                var nameAttribute = reader.GetAttribute("n");
+                if (nameAttribute != null)
+                {
+                    Header.Name = nameAttribute;
+                }
+
+                var keyAttribute = reader.GetAttribute("s");
+                if (keyAttribute != null)
+                {
+                    Header.InstanceKey = ulong.Parse(keyAttribute);
+                }
+            }
+
             Read(tuningPart, reader.ReadInnerXml());
         }
 

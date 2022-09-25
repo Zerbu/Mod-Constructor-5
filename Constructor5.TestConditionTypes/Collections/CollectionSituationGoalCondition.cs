@@ -13,6 +13,6 @@ namespace Constructor5.TestConditionTypes.Collections
     [XmlSerializerExtraType]
     public class CollectionSituationGoalCondition : CollectionCondition
     {
-        protected override string GetVariantTunableName() => "collection";
+        protected override string GetVariantTunableName(string contextTag = null) => "collection";
     }
 }

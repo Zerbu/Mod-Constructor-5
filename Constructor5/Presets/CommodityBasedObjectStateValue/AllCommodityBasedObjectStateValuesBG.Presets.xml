@@ -354,6 +354,10 @@
   <Preset Label="BassinetNeglected_JustEmptied" Value="100337" />
   <Preset Label="BassinetNeglected_BeenEmpty" Value="100338" />
   <Preset Label="Lights_Auto" Value="100345" />
+  <Preset Label="Campfire_FireIntensity_Unlit" Value="101810" />
+  <Preset Label="Campfire_FireIntensity_Low" Value="101813" />
+  <Preset Label="Campfire_FireIntensity_Med" Value="101814" />
+  <Preset Label="Campfire_FireIntensity_High" Value="101815" />
   <Preset Label="PlantEvolution_2_Devolve" Value="103407" />
   <Preset Label="PlantEvolution_4_Neutral" Value="103410" />
   <Preset Label="PlantEvolution_5_Neutral" Value="103411" />
@@ -404,6 +408,14 @@
   <Preset Label="dishwasher_InUse_Off_Quiet" Value="122308" />
   <Preset Label="InteractiveBush_Dirty_Clean" Value="124852" />
   <Preset Label="InteractiveBush_Dirty_Dirty" Value="124853" />
+  <Preset Label="dontWakeLlama_SectionValues_Bot_Full" Value="127173" />
+  <Preset Label="dontWakeLlama_SectionValues_Bot_Sparse" Value="127174" />
+  <Preset Label="dontWakeLlama_SectionValues_Bot_Half" Value="127175" />
+  <Preset Label="dontWakeLlama_SectionValues_Top_Full" Value="127179" />
+  <Preset Label="dontWakeLlama_SectionValues_Top_Half" Value="127180" />
+  <Preset Label="dontWakeLlama_SectionValues_Top_Sparse" Value="127181" />
+  <Preset Label="dontWakeLlama_SectionValues_Bot_Empty" Value="130251" />
+  <Preset Label="dontWakeLlama_SectionValues_Top_Empty" Value="130252" />
   <Preset Label="Upgrade_HeatLamp_FireSafe_Completed" Value="131673" />
   <Preset Label="Upgrade_HeatLamp_FireSafe_NotStarted" Value="131674" />
   <Preset Label="Upgrade_HeatLamp_FireSafe_Partial" Value="131675" />
@@ -567,17 +579,12 @@
   <Preset Label="upgrade_Vacuum_Partial_VaporizingPulse" Value="257272" />
   <Preset Label="upgrade_Vacuum_Partial_Unbreakable" Value="257273" />
   <Preset Label="upgrade_Vacuum_Completed_Unbreakable" Value="257280" />
-  <Preset Label="upgrade_AnimalObjects_ChickenCoop_NotStarted_FoxBeGone" Value="258011" />
-  <Preset Label="upgrade_AnimalObjects_ChickenCoop_Completed_FoxBeGone" Value="258016" />
-  <Preset Label="upgrade_AnimalObjects_ChickenCoop_Partial_FoxBeGone" Value="258021" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_NotStarted_Autofeed" Value="258176" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_NotStarted_LifeExtend" Value="258177" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Partial_Autofeed" Value="258178" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Partial_LifeExtend" Value="258179" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Completed_Autofeed" Value="258180" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Completed_LifeExtend" Value="258181" />
-  <Preset Label="picnicBasket_Empty" Value="258484" />
-  <Preset Label="picnicBasket_HasFood" Value="258487" />
   <Preset Label="vacuumCleaner_Values_BagFill_Prop_Empty" Value="258621" />
   <Preset Label="vacuumCleaner_Values_BagFill_Prop_Full" Value="258622" />
   <Preset Label="vacuumCleaner_Values_BagFill_Prop_High" Value="258623" />
@@ -585,29 +592,15 @@
   <Preset Label="vacuumCleaner_Values_BagFill_Prop_Null" Value="258627" />
   <Preset Label="animalObjects_LivestockFeed_Healthy_On" Value="258745" />
   <Preset Label="animalObjects_LivestockFeed_Healthy_Off" Value="258746" />
-  <Preset Label="state_GiantCrops_Plant_Yield_Small" Value="259228" />
-  <Preset Label="state_GiantCrops_Plant_Yield_Medium" Value="259229" />
-  <Preset Label="state_GiantCrops_Plant_Yield_Large" Value="259230" />
-  <Preset Label="giantCrops_Plant_Growth_Planted" Value="259264" />
-  <Preset Label="giantCrops_Plant_Growth_Sprout" Value="259265" />
-  <Preset Label="giantCrops_Plant_Growth_Maturing1" Value="259266" />
-  <Preset Label="giantCrops_Plant_Growth_Maturing2" Value="259267" />
-  <Preset Label="giantCrops_Plant_Growth_Blossoming" Value="259268" />
   <Preset Label="animalObjects_LivestockPen_FeedLevel_0" Value="259554" />
   <Preset Label="animalObjects_LivestockPen_FeedLevel_1" Value="259555" />
   <Preset Label="animalObjects_LivestockPen_FeedLevel_2" Value="259556" />
-  <Preset Label="state_GiantCrops_Plant_Prune_CanPrune" Value="259975" />
-  <Preset Label="state_GiantCrops_Plant_Prune_OnCooldown" Value="259976" />
   <Preset Label="animalObjects_CommodityStateValues_VeryHappyTimer_Off" Value="260083" />
   <Preset Label="animalObjects_CommodityStateValues_VeryHappyTimer_On" Value="260084" />
   <Preset Label="AnimalObjectIngredients_Egg_HatchTimer_Untouched" Value="260357" />
   <Preset Label="animalObjectIngredients_Egg_HatchTimer_NotHatched" Value="260359" />
   <Preset Label="animalObjectIngredients_Egg_HatchTimer_Hatching" Value="260360" />
   <Preset Label="animalObjectIngredients_Egg_HatchTimer_Hatched" Value="260361" />
-  <Preset Label="state_GiantCrops_Plant_Status_Sickly" Value="260591" />
-  <Preset Label="state_GiantCrops_Plant_Status_Fine" Value="260592" />
-  <Preset Label="state_GiantCrops_Plant_Status_Healthy" Value="260593" />
-  <Preset Label="state_GiantCrops_Plant_Status_Withered" Value="260954" />
   <Preset Label="animalObjects_CommodityStateValues_Age_ReadyToDie" Value="261266" />
   <Preset Label="animalObjects_CommodityStateValues_ReturnHomeTimer_GoHome" Value="261355" />
   <Preset Label="animalObjects_CommodityStateValues_ReturnHomeTimer_Stay" Value="261356" />
@@ -617,31 +610,20 @@
   <Preset Label="animalObjects_Generic_GoMissing_Missing" Value="261594" />
   <Preset Label="animalObjects_Generic_GoMissing_Home" Value="261595" />
   <Preset Label="animalObjects_Generic_GoMissing_Back" Value="261599" />
-  <Preset Label="state_GiantCrops_Fruit_Quality_Low" Value="261644" />
-  <Preset Label="state_GiantCrops_Fruit_Quality_Lowest" Value="261645" />
-  <Preset Label="state_GiantCrops_Fruit_Quality_Medium" Value="261646" />
-  <Preset Label="state_GiantCrops_Fruit_Quality_High" Value="261647" />
-  <Preset Label="state_GiantCrops_Fruit_Quality_Highest" Value="261648" />
-  <Preset Label="critterGifting_TakeGift_Available" Value="262290" />
-  <Preset Label="critterGifting_TakeGift_Unavailable" Value="262291" />
-  <Preset Label="crossStitchProgress_Blank" Value="263153" />
-  <Preset Label="crossStitchProgress_Values_25_Percent" Value="263154" />
-  <Preset Label="crossStitchProgress_Values_50_Percent" Value="263155" />
-  <Preset Label="crossStitchProgress_Values_75_Percent" Value="263156" />
-  <Preset Label="crossStitchProgress_Values_80_Percent" Value="263157" />
-  <Preset Label="crossStitchProgress_Values_Complete" Value="263158" />
-  <Preset Label="critterGifting_DiscoverGift_Available" Value="264687" />
-  <Preset Label="critterGifting_DiscoverGift_Unavailable" Value="264688" />
-  <Preset Label="animalObjects_CountryCaretaker_LifeExtensionValues_On" Value="265335" />
-  <Preset Label="animalObjects_CountryCaretaker_LifeExtensionValues_Off" Value="265336" />
-  <Preset Label="groceryDeliveryCoupon_Expire_0" Value="267625" />
-  <Preset Label="groceryDeliveryCoupon_Expire_1_6Hours" Value="267626" />
-  <Preset Label="groceryDeliveryCoupon_Expire_2_24Hours" Value="267627" />
-  <Preset Label="groceryDeliveryCoupon_Expire_3_48Hours" Value="267628" />
-  <Preset Label="groceryDeliveryCoupon_Expire_4_72Hours" Value="267629" />
   <Preset Label="animalObjects_LivestockPen_GoMissing_Warn" Value="267872" />
   <Preset Label="animalObjects_LivestockPen_GoMissing_Leave" Value="267873" />
   <Preset Label="animalObjects_LivestockPen_GoMissing_Unhappy" Value="267874" />
   <Preset Label="animalObjects_LivestockPen_GoMissing_Start" Value="267880" />
   <Preset Label="animalObjectIngredients_Egg_HatchTimer_CantHatch" Value="268893" />
+  <Preset Label="upgrade_Completed_Generic_Slot1" Value="275005" />
+  <Preset Label="upgrade_Completed_Generic_Slot2" Value="275006" />
+  <Preset Label="upgrade_NotStarted_Generic_Slot1" Value="275012" />
+  <Preset Label="upgrade_NotStarted_Generic_Slot2" Value="275013" />
+  <Preset Label="upgrade_Partial_Generic_Slot1" Value="275015" />
+  <Preset Label="upgrade_Partial_Generic_Slot2" Value="275016" />
+  <Preset Label="simScratched_On" Value="291605" />
+  <Preset Label="simScratched_Off" Value="291606" />
+  <Preset Label="meteorite_Values_Creation" Value="295246" />
+  <Preset Label="meteorite_Values_Destroy" Value="295247" />
+  <Preset Label="meteorite_Values_Crater" Value="299527" />
 </PresetGroup>

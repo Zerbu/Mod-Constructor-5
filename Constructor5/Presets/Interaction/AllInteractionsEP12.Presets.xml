@@ -1,0 +1,867 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP12">
+  <Preset Label="Ask about Favorite Fashion (socials_Targeted_Friendly_SimPreference_Fashion)" Tags="TestUnsafe" Value="272657" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Fashion_Basics" Value="272658" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Fashion_Basics" Value="272660" />
+  <Preset Label="Complain About Basics Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Dislikes_Basics)" Tags="TestUnsafe" Value="272750" />
+  <Preset Label="Enthuse About Basics Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Likes_Basics)" Tags="TestUnsafe" Value="272751" />
+  <Preset Label="si_simPreference_Likes_Fashion_Discovery_Basics" Value="272792" />
+  <Preset Label="si_simPreference_Dislikes_Fashion_Discovery_Basics" Value="272793" />
+  <Preset Label="Ask for Social Advice (socials_Targeted_Friendly_AlwaysOn_STC_SociallyAwkward_AskForSocialAdvice)" Tags="TestUnsafe" Value="272906" />
+  <Preset Label="It's Okay To Be A Little Awkward (socials_Targeted_Friendly_AlwaysOn_STC_SociallyAwkward_ItsOkayToBeALittleAwkward)" Tags="TestUnsafe" Value="273066" />
+  <Preset Label="Express Mutual Awkwardness (socials_Targeted_Friendly_AlwaysOn_STC_SociallyAwkward_ImALittleAwkwardToo)" Tags="TestUnsafe" Value="273078" />
+  <Preset Label="Express Nervousness Around New Sims (socials_Targeted_Friendly_AlwaysOn_STC_SociallyAwkward_ExpressNervousnessAroundNewSims)" Tags="TestUnsafe" Value="273190" />
+  <Preset Label="Confess To Being Socially Awkward (socials_Targeted_Friendly_AlwaysOn_STC_SociallyAwkward_ConfessToBeingSociallyAwkward)" Tags="TestUnsafe" Value="273203" />
+  <Preset Label="Am I Doing This Right? (socials_Targeted_Romance_AlwaysOn_STC_SociallyAwkward_AmIDoingThisRight)" Tags="TestUnsafe" Value="273207" />
+  <Preset Label="Think About Crush (solo_sentiment_crush_thinkabout)" Value="273210" />
+  <Preset Label="Think About Crush (simPickerInteraction_Sentiment_Crush_ThinkAbout)" Tags="TestUnsafe" Value="273459" />
+  <Preset Label="idle_Trait_SociallyAwkward" Value="273697" />
+  <Preset Label="Cry it Out (si_SchoolLocker_Pranked_CryItOut)" Value="275156" />
+  <Preset Label="Take Notes (super_HighSchool_Active_NPC_Study)" Value="275823" />
+  <Preset Label="Head To Class (super_HighSchool_Active_NPC_GoToObject)" Value="275885" />
+  <Preset Label="Ride Ferris Wheel (pierAttractions_Ride_FerrisWheel)" Value="275919" />
+  <Preset Label="Assign Whiteboard to Class 2 (immediate_HighSchool_Active_WhiteBoard_SetClass2)" Value="276103" />
+  <Preset Label="Assign Whiteboard to Class 1 (immediate_HighSchool_Active_Whiteboard_SetClass1)" Value="276104" />
+  <Preset Label="super_HighSchool_Active_NPC_Whiteboard_Prepare" Value="276115" />
+  <Preset Label="Clean Whiteboard (super_HighSchool_Active_NPC_Whiteboard_Clean)" Value="276116" />
+  <Preset Label="Go to Work (si_Career_StreamerSideHustle)" Value="276199" />
+  <Preset Label="Go to Work (si_Career_AdultStreamerSideHustle)" Value="276200" />
+  <Preset Label="Player Feats (super_HighSchool_Active_NPC_Whiteboard_TeachClass)" Value="276314" />
+  <Preset Label="Upload Business Headshot (si_SideHustle_UploadBusinessHeadshot)" Value="276331" />
+  <Preset Label="Check Side Hustle Followers (computer_Career_SideHustle_CheckFollowers)" Value="276357" />
+  <Preset Label="Advertise Simfluencer Hustle Online (computer_Career_SideHustle_AdvertiseHustle_Simsfluencer)" Value="276358" />
+  <Preset Label="Research Business Plan (computer_Career_SideHustle_ResearchBusinessPlan)" Value="276359" />
+  <Preset Label="Contact Angel Investor for Funding (si_SideHustle_ContactAngelInvestor)" Value="276360" />
+  <Preset Label="Check Side Hustle Followers (phone_SideHustle_CheckFollowers)" Value="276370" />
+  <Preset Label="Advertise Simfluencer Hustle Online (phone_SideHustle_AdvertiseHustle)" Value="276371" />
+  <Preset Label="Cross Promote at Venue (phone_SideHustle_CrossPromoteAtVenue)" Value="276372" />
+  <Preset Label="Livestream Crypt Creeper (computer_Livestream_StreamerSideHustle_FreezerBunnyRush)" Value="276373" />
+  <Preset Label="Livestream Farming With Friends (computer_Livestream_StreamerSideHustle_DualDungeon)" Value="276375" />
+  <Preset Label="Livestream The Sims Infinite (computer_Livestream_StreamerSideHustle_SimsInfinite)" Value="276376" />
+  <Preset Label="Read SimsChat (computer_Livestream_StreamerSideHustle_ReadSimsChat)" Value="276377" />
+  <Preset Label="Appear on Llama's Lair (sideHustles_RabbitHole_AppearOnLlamasLair)" Value="276386" />
+  <Preset Label="Spread the Word on Side Hustles (socials_Targeted_Friendly_SideHustle_SpreadTheWord)" Tags="TestUnsafe" Value="276399" />
+  <Preset Label="super_Social_HighSchool_Active_NPC_Bullies_BeMean" Value="276476" />
+  <Preset Label="Be Insulted by {1.SimFirstName} (super_Social_Highschool_Active_NPC_Bullies_BeMean_Target)" Value="276481" />
+  <Preset Label="super_HighSchool_Active_NPC_Phone_Browse" Value="276541" />
+  <Preset Label="Off to Football (si_Career_HSTeam_FootballTeam)" Value="276561" />
+  <Preset Label="Off to Cheer (si_Career_HSTeam_CheerTeam)" Value="276562" />
+  <Preset Label="Off to Chess (si_Career_HSTeam_ChessTeam)" Value="276563" />
+  <Preset Label="Off to Computer (si_Career_HSTeam_ComputerTeam)" Value="276564" />
+  <Preset Label="Ask about Cheer Team (super_Social_HighSchool_Active_AskAboutHSTeam)" Value="276570" />
+  <Preset Label="Ask about Cheer Team (super_HighSchool_Active_AskAboutHSTeam_Start)" Value="276641" />
+  <Preset Label="Attend Exam (super_HighSchool_Active_Whiteboard_AttendExam)" Value="276671" />
+  <Preset Label="super_HighSchool_Active_NPC_Whiteboard_ProctorExam" Value="276675" />
+  <Preset Label="Learn about New School (mixer_Social_HighSchool_Active_GetClassList)" Tags="TestUnsafe" Value="276698" />
+  <Preset Label="Talk to Teacher About Curriculum (mixer_Social_HighSchool_Active_TalkToTeacher)" Tags="TestUnsafe" Value="276701" />
+  <Preset Label="Serve Detention (super_HighSchool_Active_Whiteboard_ServeDetention)" Value="276714" />
+  <Preset Label="Careers (super_HighSchool_Active_Whiteboard_Class_Start)" Value="276774" />
+  <Preset Label="Take Notes (super_HighSchool_Active_CreateBook_Class)" Value="276782" />
+  <Preset Label="Take Notes (super_HighSchool_Active_UseBook_Class)" Value="276784" />
+  <Preset Label="super_Social_HighSchool_Active_NPC_Principal_CatchTruant" Value="277039" />
+  <Preset Label="Be Caught by School Staff  (super_Social_HighSchool_Active_NPC_Principal_CatchTruant_Target)" Value="277041" />
+  <Preset Label="Try to Talk Way out of Detention (super_Social_HighSchool_Active_TryToAvoidDetention)" Value="277042" />
+  <Preset Label="Cry it Out (si_SchoolLocker_CryItOut)" Value="277059" />
+  <Preset Label="Cram for Exam (si_SchoolLocker_ExamCram)" Value="277060" />
+  <Preset Label="Grab Apple (si_SchoolLocker_GrabSnack)" Value="277061" />
+  <Preset Label="Freshen Up (si_SchoolLocker_FreshenUp)" Value="277062" />
+  <Preset Label="Ask to Join Cheer Team (super_HighSchool_Active_AskToJoinHSTeam_Start)" Value="277219" />
+  <Preset Label="Hit Angrily (si_SchoolLocker_Hit)" Value="277324" />
+  <Preset Label="autonomousObjectInInventory_SchoolLocker_FindSnack" Tags="TestUnsafe" Value="277346" />
+  <Preset Label="Cram for Exam (si_SchoolLocker_Pranked_ExamCram)" Value="277524" />
+  <Preset Label="Freshen Up (sI_SchoolLocker_Pranked_FreshenUp)" Value="277525" />
+  <Preset Label="Grab Apple (sI_SchoolLocker_Pranked_GrabSnack)" Value="277526" />
+  <Preset Label="Remove Decorations (si_SchoolLocker_Decoration_None)" Value="277528" />
+  <Preset Label="Add Sporty Decorations (si_SchoolLocker_Decoration_Sporty)" Value="277529" />
+  <Preset Label="Add Dark Academia Decorations (si_SchoolLocker_Decoration_DarkAcademia)" Value="277530" />
+  <Preset Label="Add Grunge Decorations (si_SchoolLocker_Decoration_Grunge)" Value="277531" />
+  <Preset Label="Add Kawaii Decorations (si_SchoolLocker_Decoration_Kawaii)" Value="277533" />
+  <Preset Label="Add Gamer Decorations (si_SchoolLocker_Decoration_Gamer)" Value="277534" />
+  <Preset Label="Kneel on Bed (super_Bed_Kneel)" Value="277575" />
+  <Preset Label="Sit Cross Legged on Bed (super_Bed_CrossLegged)" Value="277579" />
+  <Preset Label="mixer_Bed_Kneel" Value="277580" />
+  <Preset Label="mixer_Bed_CrossLegged" Value="277582" />
+  <Preset Label="autonomous_SchoolLocker_CryItOut" Tags="TestUnsafe" Value="277628" />
+  <Preset Label="Mock Rival (mixer_social_Targeted_Mean_AlwaysOn_Teens_MockRival)" Tags="TestUnsafe" Value="277640" />
+  <Preset Label="Convince to Join Team (mixer_social_ConvinceToJoinTeam_Targeted_Friendly_AlwaysOn_Teens)" Tags="TestUnsafe" Value="277642" />
+  <Preset Label="Perform Victory Dance (solo_PerformVictoryDance)" Value="277646" />
+  <Preset Label="Go to Work (si_Career_SimsfluencerSideHustle)" Value="277717" />
+  <Preset Label="Go to Work (si_Career_AdultSimsfluencerSideHustle)" Value="277718" />
+  <Preset Label="autonomous_SchoolLocker_ExamCram" Tags="TestUnsafe" Value="277719" />
+  <Preset Label="Claim Locker Ownership (si_SchoolLocker_ClaimOwnership)" Value="277726" />
+  <Preset Label="Give Up Locker Ownership (si_SchoolLocker_RelinquishOwnership)" Value="277727" />
+  <Preset Label="autonomous_SchoolLocker_GrabSnack" Tags="TestUnsafe" Value="277858" />
+  <Preset Label="autonomous_SchoolLocker_FreshenUp" Tags="TestUnsafe" Value="277859" />
+  <Preset Label="autonomous_SchoolLocker_Hit" Tags="TestUnsafe" Value="277860" />
+  <Preset Label="Prank Proof (si_SchoolLocker_Upgrade_PrankProof)" Value="277870" />
+  <Preset Label="Resume Prank Proof (si_SchoolLocker_Upgrade_PrankProof_Resume)" Value="277871" />
+  <Preset Label="Prank Proof (schooLocker_Upgrade_PrankProof_CompletedDisplay)" Value="277872" />
+  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_SchoolLocker)" Value="277874" />
+  <Preset Label="Drop Out of High School (computer_HSExit_DropOutOfHighSchool)" Value="278119" />
+  <Preset Label="Work Towards Online High School Diploma (computer_HSExit_WorkTowardsGED)" Value="278120" />
+  <Preset Label="Graduate Early (computer_HSExit_GraduateEarly)" Value="278121" />
+  <Preset Label="Make Lifestyle Review (computer_Career_SimsfluencerSideHustle_Review_Lifestyle)" Value="278422" />
+  <Preset Label="Make Rare Item Review (computer_Career_SimsfluencerSideHustle_Review_Rare)" Value="278428" />
+  <Preset Label="Make Technology Review (computer_Career_SimsfluencerSideHustle_Review_Tech)" Value="278429" />
+  <Preset Label="computerUse_SimsfluencerSideHustle_Idle" Value="278431" />
+  <Preset Label="computerUse_SimsfluencerSideHustle_Review" Value="278432" />
+  <Preset Label="[DEBUG] Summon Cafeteria Worker (marketStalls_HireNPC_CafeteriaStation_HighSchool_Debug)" Value="278551" />
+  <Preset Label="Tend Stall (marketStalls_Tend_CafeteriaStation_HighSchool)" Value="278608" />
+  <Preset Label="mixer_HighSchool_Active_WriteOnBook" Value="278762" />
+  <Preset Label="mixer_HighSchool_Active_React" Value="278799" />
+  <Preset Label="Order Food (cafeteriaStation_Highschool_Active_PushOrder_Autonomous)" Value="278808" />
+  <Preset Label="Open Reward Package (immediate_SimsfluencerSideHustle_OpenRewardPackage)" Value="279076" />
+  <Preset Label="genericChoose_NPCRelationshipAutonomy_AskToBe_BestFriend" Value="279086" />
+  <Preset Label="genericChoose_NPCRelationshipAutonomy_AskToBe_BoyfriendGirlfriend" Value="279087" />
+  <Preset Label="genericChoose_NPCRelationshipAutonomy_AskToProm" Value="279088" />
+  <Preset Label="genericChoose_NPCRelationshipAutonomy_AskToProm_AsFriends" Value="279090" />
+  <Preset Label="genericChoose_NPCRelationshipAutonomy_BreakUpWith" Value="279091" />
+  <Preset Label="genericChoose_NPCRelationshipAutonomy_Propose" Value="279092" />
+  <Preset Label="autonomousSimPicker_NPCRelationshipAutonomy_AskToBe_BestFriend" Tags="TestUnsafe" Value="279205" />
+  <Preset Label="autonomousSimPicker_NPCRelationshipAutonomy_AskToBe_BoyfriendGirlfriend" Tags="TestUnsafe" Value="279206" />
+  <Preset Label="autonomousSimPicker_NPCRelationshipAutonomy_AskToProm" Tags="TestUnsafe" Value="279207" />
+  <Preset Label="autonomousSimPicker_NPCRelationshipAutonomy_AskToProm_AsFriends" Tags="TestUnsafe" Value="279208" />
+  <Preset Label="autonomousSimPicker_NPCRelationshipAutonomy_BreakUpWith" Tags="TestUnsafe" Value="279209" />
+  <Preset Label="autonomousSimPicker_NPCRelationshipAutonomy_Propose" Tags="TestUnsafe" Value="279210" />
+  <Preset Label="Make Bubble Tea (bubbleTeaCounter_StartCrafting)" Value="279299" />
+  <Preset Label="bubbleTeaCounter_CraftingPhase_Make_StrawberryMachaLatte" Value="279634" />
+  <Preset Label="bubbleTeaCounter_ServeDrink" Value="279637" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_AskToBe_BestFriend_Yes" Value="279670" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_AskToBe_BestFriend_No" Value="279671" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_AskToBe_BoyfriendGirlfriend_Yes" Value="279672" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_AskToBe_BoyfriendGirlfriend_No" Value="279673" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_AskToProm_Yes" Value="279674" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_AskToProm_No" Value="279675" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_AskToProm_AsFriends_Yes" Value="279676" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_AskToProm_AsFriends_No" Value="279677" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_BreakUpWith_Yes" Value="279678" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_Propose_Yes" Value="279680" />
+  <Preset Label="immediate_NPCRelationshipAutonomy_Propose_No" Value="279681" />
+  <Preset Label="bubbleTeaCounter_ChooseDelivery" Value="279757" />
+  <Preset Label="Hire Vendor (si_marketStalls_BubbleTeaCounter_HireNPC)" Value="280239" />
+  <Preset Label="Order Drink (bubbleTeaCounter_PushOrderDrink_Autonomous)" Value="280335" />
+  <Preset Label="Order Food (bubbleTeaCounter_PushOrderFood_Autonomous)" Value="280336" />
+  <Preset Label="Tend Bubble Tea Counter (marketStalls_Tend_BubbleTeaCounter)" Value="280337" />
+  <Preset Label="Order Drink (bubbleTeaCounter_PushOrderDrink)" Value="280347" />
+  <Preset Label="Order Food (bubbleTeaCounter_PushOrderFood)" Value="280348" />
+  <Preset Label="Ask to Join Cheer Team (super_Social_HighSchool_Active_AskToJoinHSTeam)" Value="280531" />
+  <Preset Label="Accuse of Moving Too Fast (socialMixer_NPCRelationshipAutonomy_MovingTooFast)" Tags="TestUnsafe" Value="280573" />
+  <Preset Label="Admire Courage (socialMixer_NPCRelationshipAutonomy_AdmireCourage)" Tags="TestUnsafe" Value="280574" />
+  <Preset Label="Talk about Marriage (socialMixer_NPCRelationshipAutonomy_TalkAboutMarriage)" Tags="TestUnsafe" Value="280575" />
+  <Preset Label="Perform T-Pose Challenge (super_HighSchool_Active_PerformTPose)" Value="280684" />
+  <Preset Label="Create a Fashion Look (thriftStore_RetailRack_Browse)" Value="280687" />
+  <Preset Label="Browse Fashion (thriftStore_RetailRack_BrowseNPC)" Value="280691" />
+  <Preset Label="Ask about T-Pose Challenge (super_HighSchool_Active_AskAboutTPose_Start)" Value="280738" />
+  <Preset Label="Ask about T-Pose Challenge (super_Social_HighSchool_Active_AskAboutTPose)" Value="280750" />
+  <Preset Label="Talk About Fashion Trends (socials_Targeted_Friendly_ThriftStore_TalkTrends)" Tags="TestUnsafe" Value="280753" />
+  <Preset Label="Talk About Fashion Looks (socials_Targeted_Friendly_ThriftStore_TalkFashion)" Tags="TestUnsafe" Value="280755" />
+  <Preset Label="Join T-Pose Challenge (super_HighSchool_Active_JoinTPose)" Value="280757" />
+  <Preset Label="socialSuper_NPCRelationshipAutonomy_Propose" Value="280759" />
+  <Preset Label="Watch T-Pose Challenge (super_HighSchool_Active_WatchTPose)" Value="280761" />
+  <Preset Label="socialSuper_NPCRelationshipAutonomy_AskToBe_BestFriend" Value="280778" />
+  <Preset Label="socialSuper_NPCRelationshipAutonomy_AskToBe_BoyfriendGirlfriend" Value="280779" />
+  <Preset Label="socialSuper_NPCRelationshipAutonomy_AskToProm" Value="280780" />
+  <Preset Label="socialSuper_NPCRelationshipAutonomy_AskToProm_AsFriends" Value="280781" />
+  <Preset Label="socialSuper_NPCRelationshipAutonomy_BreakUpWith" Value="280783" />
+  <Preset Label="Ask to Prom (socials_Targeted_Romance_HSProm_AskToProm)" Tags="TestUnsafe" Value="280898" />
+  <Preset Label="Ask to Prom as Friends (socials_Targeted_Friendly_HSProm_AskToPromAsFriends)" Tags="TestUnsafe" Value="280908" />
+  <Preset Label="Leave Note Asking to Prom (sI_SchoolLocker_HSProm_AskToPromWithNote)" Value="280910" />
+  <Preset Label="Experimental Poetry Reading (microphone_ThriftStore_Poetry_Perform)" Value="280919" />
+  <Preset Label="Watch (microphone_ThriftStore_Event_Watch)" Value="280920" />
+  <Preset Label="Perform Amateur Comedy Routine (microphone_ThriftStore_Comedy_Perform)" Value="280931" />
+  <Preset Label="Evacuate the Building (super_HighSchool_Active_FireDrill_Evacuate)" Value="280943" />
+  <Preset Label="Ask for Prom Tips (socials_Friendly_HSProm_AskForPromTips)" Tags="TestUnsafe" Value="280973" />
+  <Preset Label="Claim to Be Prom Royalty (socials_Targeted_Friendly_HSProm_ClaimToBePromRoyalty)" Tags="TestUnsafe" Value="280976" />
+  <Preset Label="Promise to Skip Prom Together  (socials_Targeted_Friendly_HSProm_AgreeToAvoidProm)" Tags="TestUnsafe" Value="280977" />
+  <Preset Label="Appreciate Fashion (reaction_ThriftStore_Event_Cheer)" Value="281002" />
+  <Preset Label="Dislike Fashion (reaction_ThriftStore_Event_Heckle)" Value="281003" />
+  <Preset Label="Show Off Fashion Look (thriftStore_Event_Fashion_ShowOff)" Value="281004" />
+  <Preset Label="Drink (consume_Drink_NonBar_BubbleTea)" Value="281058" />
+  <Preset Label="bubbleTeaCounter_CraftingPhase_Make_ChocolateCheeseFoam" Value="281122" />
+  <Preset Label="bubbleTeaCounter_CraftingPhase_Make_LycheeMilk" Value="281123" />
+  <Preset Label="bubbleTeaCounter_CraftingPhase_Make_MangoMilk" Value="281124" />
+  <Preset Label="bubbleTeaCounter_CraftingPhase_Make_TaroMilk" Value="281125" />
+  <Preset Label="Drink (consume_Drink_Nonbar_BubbleTea_Straw)" Value="281151" />
+  <Preset Label="Browse Trendi (objectFashionMarketplacePickerInteraction_Trendi_Phone)" Tags="TestUnsafe" Value="281212" />
+  <Preset Label="Order Food or Drink (marketStalls_PushOrder_HighSchoolFestival_Sports)" Value="281703" />
+  <Preset Label="Order Food (marketStalls_PushOrder_HighSchoolFestival_Science)" Value="281704" />
+  <Preset Label="Order Food or Drink (marketStalls_PushOrder_Autonomous_HighSchoolFestival_Sports)" Value="281705" />
+  <Preset Label="Order Food or Drink (marketStalls_PushOrder_Autonomous_HighSchoolFestival_Science)" Value="281706" />
+  <Preset Label="Browse Items (purchase_MarketStalls_HighSchoolFestival_Science)" Tags="TestUnsafe" Value="281707" />
+  <Preset Label="purchase_MarketStalls_HighSchoolFestival_Sports" Tags="TestUnsafe" Value="281708" />
+  <Preset Label="Browse Items (marketStalls_ShopFor_HighSchoolFestival_Sports)" Value="281713" />
+  <Preset Label="Browse Items (marketStalls_ShopFor_HighSchoolFestival_Science)" Value="281714" />
+  <Preset Label="Tend Stall (marketStalls_Tend_HighSchoolFestival_Science)" Value="281715" />
+  <Preset Label="Tend Stall (marketStalls_Tend_HighSchoolFestival_Sports)" Value="281716" />
+  <Preset Label="photoOpStand_Pose_Any01" Value="281734" />
+  <Preset Label="photoOpStand_Pose_Any02" Value="281735" />
+  <Preset Label="photoOpStand_Pose_Any03" Value="281736" />
+  <Preset Label="photoOpStand_Pose_Any04" Value="281737" />
+  <Preset Label="photoOpStand_Pose_Masculine01" Value="281738" />
+  <Preset Label="photoOpStand_Pose_Masculine02" Value="281739" />
+  <Preset Label="photoOpStand_Pose_Feminine01" Value="281740" />
+  <Preset Label="Pose for Picture (si_PhotoOpStand_Pose)" Value="281743" />
+  <Preset Label="Take Selfie (photography_TakeSelfie_PhotoOpStand)" Value="281745" />
+  <Preset Label="autonomous_ObjectPicker_PhotoOpStand_Pose" Tags="TestUnsafe" Value="281771" />
+  <Preset Label="autonomous_ObjectPicker_PhotoOpStand_Selfie" Tags="TestUnsafe" Value="281773" />
+  <Preset Label="Take Selfie (si_PhotoOpStand_Selfie_Autonomous)" Value="281775" />
+  <Preset Label="Deface (si_PhotoOpStand_Deface)" Value="281806" />
+  <Preset Label="Clean (si_PhotoOpStand_Clean)" Value="281808" />
+  <Preset Label="Catch Vandalism (social_PhotoOpStand_CatchVandalism)" Value="281812" />
+  <Preset Label="si_WatchAndReactions_CheerLow" Value="281828" />
+  <Preset Label="si_WatchAndReactions_CheerHigh" Value="281830" />
+  <Preset Label="si_WatchAndReactions_Mean" Value="281832" />
+  <Preset Label="si_WatchAndReactions_Angry" Value="281833" />
+  <Preset Label="si_WatchAndReactions_Sad" Value="281834" />
+  <Preset Label="si_WatchAndReactions_Bored" Value="281835" />
+  <Preset Label="super_HighSchool_Active_CareerDay_AskToTravel" Value="281956" />
+  <Preset Label="Travel to Auditorium (super_HighSchool_Active_CareerDay_Travel)" Value="281993" />
+  <Preset Label="Make Game Jam Entry (tablet_HighSchoolFestival_GameJam)" Value="282015" />
+  <Preset Label="autonomous_ObjectPicker_HighSchoolFestival_GameJam" Tags="TestUnsafe" Value="282060" />
+  <Preset Label="autonomous_ObjectPicker_HighSchoolFestival_ChessPuzzle" Tags="TestUnsafe" Value="282064" />
+  <Preset Label="Solve Chess Puzzle (chess_HighSchoolFestival_ChessPuzzle)" Value="282079" />
+  <Preset Label="Submit Competition Score (highSchoolFestival_Socials_Competition_SubmitScore)" Value="282155" />
+  <Preset Label="super_HighSchool_Active_CareerDay_CareerSpeech" Value="282171" />
+  <Preset Label="Ask For Details About Career (super_Social_HighSchool_Active_AskCareerDetails)" Value="282209" />
+  <Preset Label="Discuss Future (super_Social_HighSchool_Active_DiscussFuture)" Value="282210" />
+  <Preset Label="si_HighSchoolFestival_Podium_JudgeAnnounce" Value="282234" />
+  <Preset Label="waypoint_HighSchoolFestival_JudgeWander" Value="282239" />
+  <Preset Label="Watch Career Presentation (super_HighSchool_Active_CareerDay_WatchSpeech)" Value="282254" />
+  <Preset Label="mixer_HighSchool_Active_CareerDay_WatchSpeech_Watch" Value="282255" />
+  <Preset Label="mixer_HighSchool_Active_CareerDay_WatchSpeech_React" Value="282256" />
+  <Preset Label="si_HighSchoolFestival_Podium_EnterFestival" Value="282495" />
+  <Preset Label="Taunt Rival (si_HighSchoolFestival_TauntRival)" Value="282555" />
+  <Preset Label="Taunt Rival (mixer_Social_HighSchoolFestival_TauntRival)" Tags="TestUnsafe" Value="282556" />
+  <Preset Label="Watch Judge Make Announcement  (si_HighSchoolFestival_WatchJudge)" Value="282557" />
+  <Preset Label="Practice Chess (chess_HighSchoolFestival_PracticeChess)" Value="282564" />
+  <Preset Label="Vote for Prom Royalty (situationSimsPickerInteraction_Pick_Prom_Royalty)" Tags="TestUnsafe" Value="282635" />
+  <Preset Label="Vote for Prom Jester (situationSimsPickerInteraction_Pick_Prom_Jester)" Tags="TestUnsafe" Value="282636" />
+  <Preset Label="Regular Football Practice with {1.SimFirstName} (touching_ThrowFootball_RegularPlay)" Value="282677" />
+  <Preset Label="Practice Football with {1.SimFirstName} (touching_ThrowFootball_Play_Listen)" Value="282678" />
+  <Preset Label="Play Regular Football Practice with (SimPicker_ThrowFootball_RegularPlayWith)" Tags="TestUnsafe" Value="282692" />
+  <Preset Label="Play Regular Football Practice with (si_throwFootball_RegularPickup)" Value="282695" />
+  <Preset Label="Play Regular Football Practice with {1.SimFirstName} (objectInInventory_ThrowFootball_RegularPlayWith)" Tags="TestUnsafe" Value="282705" />
+  <Preset Label="throwFootballMixers_Idle_X" Tags="TestUnsafe" Value="282707" />
+  <Preset Label="throwFootballMixers_Idle_Y" Tags="TestUnsafe" Value="282708" />
+  <Preset Label="Create a Promposal Sign (create_HSProm_promposalSign)" Value="282714" />
+  <Preset Label="Present Promposal Sign (socialSuperInteraction_HSProm_PresentPromposalSign)" Value="282716" />
+  <Preset Label="throwFootballMixers_HardIdle_X" Tags="TestUnsafe" Value="282759" />
+  <Preset Label="throwFootballMixers_HardIdle_Y" Tags="TestUnsafe" Value="282760" />
+  <Preset Label="Play Regular Football Practice with {1.SimFirstName} (autonomousObjectInInventory_ThrowFootball_RegularPlayWith)" Tags="TestUnsafe" Value="282769" />
+  <Preset Label="Play Regular Football Practice with (autonomousObjectPicker_ThrowFootball_RegularPlayWith)" Tags="TestUnsafe" Value="282777" />
+  <Preset Label="Play Regular Football Practice with (autonomousSimPicker_ThrowFootball_RegularPlayWith)" Tags="TestUnsafe" Value="282779" />
+  <Preset Label="autonomousSimPicker_HighSchool_Active_SchoolFight_FindFightTarget" Tags="TestUnsafe" Value="282864" />
+  <Preset Label="Fight! (mixer_Social_Fight_HighSchool_Active_SchoolFight)" Tags="TestUnsafe" Value="282885" />
+  <Preset Label="Pillow Fight with (super_Picker_BedUpdates_PillowFight)" Tags="TestUnsafe" Value="282901" />
+  <Preset Label="Challenge To Pillow Fight (mixer_Social_BedUpdates_AskToPillowFight)" Tags="TestUnsafe" Value="282902" />
+  <Preset Label="Pillow Fight (super_BedUpdates_PillowFight)" Value="282904" />
+  <Preset Label="generic_BedUpdates_PillowFight" Value="282912" />
+  <Preset Label="Play Difficult Football Practice with {1.SimFirstName} (autonomousObjectInInventory_ThrowFootball_HardPlayWith)" Tags="TestUnsafe" Value="282935" />
+  <Preset Label="Play Difficult Football Practice with (autonomousObjectPicker_ThrowFootball_HardPlayWith)" Tags="TestUnsafe" Value="282937" />
+  <Preset Label="Play Difficult Football Practice with (autonomousSimPicker_ThrowFootball_HardPlayWith)" Tags="TestUnsafe" Value="282941" />
+  <Preset Label="Add Anime Decorations (sI_SchoolLocker_Decoration_Anime)" Value="282954" />
+  <Preset Label="Add Eco Enthusiast Decorations (sI_SchoolLocker_Decoration_EcoEnthusiast)" Value="282955" />
+  <Preset Label="Add Goth Decorations (sI_SchoolLocker_Decoration_Goth)" Value="282956" />
+  <Preset Label="Add Preppy Decorations (sI_SchoolLocker_Decoration_Prep)" Value="282957" />
+  <Preset Label="Play Difficult Football Practice with (si_ThrowFootball_HardPickup)" Value="282959" />
+  <Preset Label="Leave Note Asking to Prom (simPickerInteraction_HSProm_InviteLocker)" Tags="TestUnsafe" Value="282971" />
+  <Preset Label="Difficult Football Practice with {1.SimFirstName} (touching_ThrowFootball_HardPlay)" Value="282975" />
+  <Preset Label="Play Difficult Football Practice with (SimPicker_ThrowFootball_HardPlayWith)" Tags="TestUnsafe" Value="282978" />
+  <Preset Label="Play Difficult Football Practice with {1.SimFirstName} (objectInInventory_ThrowFootball_HardPlayWith)" Tags="TestUnsafe" Value="282994" />
+  <Preset Label="Go to College Party (si_RabbitHole_OpenableWindow_CollegeParty)" Value="283012" />
+  <Preset Label="Go to College Party (OpenableWindow_GoToEvent_CollegeParty)" Value="283013" />
+  <Preset Label="Catch {1.SimFirstName} Leaving (immediate_OpenableWindow_CatchSim)" Value="283028" />
+  <Preset Label="Catch {1.SimFirstName} Leaving (si_OpenableWindow_CatchSim)" Value="283030" />
+  <Preset Label="mixer_OpenableWindow_CancelRoute" Value="283034" />
+  <Preset Label="Deactivate Social Bunny (phone_Social_Media_Deactivate)" Value="283074" />
+  <Preset Label="Tag Someone In A Post (phone_Social_Media_Post)" Value="283075" />
+  <Preset Label="Send a DM (phone_Social_Media_DM)" Value="283076" />
+  <Preset Label="List a Look (phone_Trendi_List_Look)" Value="283081" />
+  <Preset Label="Promote Current Look (phone_Trendi_Promote_Look)" Value="283082" />
+  <Preset Label="Browse Trendi (phone_Trendi_Check)" Value="283083" />
+  <Preset Label="Check Followers (phone_Trendi_Check_Followers)" Value="283084" />
+  <Preset Label="Check the Latest Trends (phone_Trendi_Check_Latest_Trends)" Value="283085" />
+  <Preset Label="Go to the R-Rated Movie (si_RabbitHole_OpenableWindow_RMovie)" Value="283213" />
+  <Preset Label="Go to the Pop Concert (si_RabbitHole_OpenableWindow_PopConcert)" Value="283214" />
+  <Preset Label="Go to the Sleepover (si_RabbitHole_OpenableWindow_Sleepover)" Value="283215" />
+  <Preset Label="Go to Loiter with Friends (si_RabbitHole_OpenableWindow_Loitering)" Value="283216" />
+  <Preset Label="Go to Hang Out with Friends (si_RabbitHole_OpenableWindow_HangOut)" Value="283217" />
+  <Preset Label="Go to High School Sports Game (si_RabbitHole_OpenableWindow_SchoolGame)" Value="283218" />
+  <Preset Label="Announce Winners (hSPromInteraction_AnnounceWinners)" Value="283359" />
+  <Preset Label="Put On Jester Crown (hSPromInteraction_PutOnCrown_Jester)" Value="283361" />
+  <Preset Label="Put On Royalty Crown (hSPromInteraction_PutOnCrown_Royalty)" Value="283362" />
+  <Preset Label="Sneak to the College Party (si_RabbitHole_OpenableWindow_CollegeParty_Sneak)" Value="283372" />
+  <Preset Label="Sneak to Hang Out with Friends (si_RabbitHole_OpenableWindow_HangOut_Sneak)" Value="283374" />
+  <Preset Label="Sneak to Loiter with Friends (si_RabbitHole_OpenableWindow_Loitering_Sneak)" Value="283377" />
+  <Preset Label="Sneak to the Pop Concert (si_RabbitHole_OpenableWindow_PopConcert_Sneak)" Value="283380" />
+  <Preset Label="Sneak to the R-Rated Movie (si_RabbitHole_OpenableWindow_RMovie_Sneak)" Value="283382" />
+  <Preset Label="Sneak to High School Sports Game (si_RabbitHole_OpenableWindow_SchoolGame_Sneak)" Value="283384" />
+  <Preset Label="Sneak to the Sleepover (si_RabbitHole_OpenableWindow_Sleepover_Sneak)" Value="283386" />
+  <Preset Label="Go to Loiter with Friends (openableWindow_GoToEvent_Loitering)" Value="283397" />
+  <Preset Label="Go to the Pop Concert (openableWindow_GoToEvent_PopConcert)" Value="283398" />
+  <Preset Label="Go to the Sleepover (openableWindow_GoToEvent_Sleepover)" Value="283399" />
+  <Preset Label="Go to High School Sports Game (openableWindow_GoToEvent_SchoolGame)" Value="283400" />
+  <Preset Label="Go to the R-Rated Movie (openableWindow_GoToEvent_RMovie)" Value="283401" />
+  <Preset Label="Go to Hang Out with Friends (openableWindow_GoToEvent_HangOut)" Value="283402" />
+  <Preset Label="Sneak to the College Party (openableWindow_GoToEvent_CollegeParty_Sneak)" Value="283404" />
+  <Preset Label="Sneak to Hang Out with Friends (openableWindow_GoToEvent_HangOut_Sneak)" Value="283405" />
+  <Preset Label="Sneak to Loiter with Friends (openableWindow_GoToEvent_Loitering_Sneak)" Value="283406" />
+  <Preset Label="Sneak to the Pop Concert (openableWindow_GoToEvent_PopConcert_Sneak)" Value="283407" />
+  <Preset Label="Sneak to the R-Rated Movie (openableWindow_GoToEvent_RMovie_Sneak)" Value="283408" />
+  <Preset Label="Sneak to High School Sports Game (openableWindow_GoToEvent_SchoolGame_Sneak)" Value="283409" />
+  <Preset Label="Sneak to the Sleepover (openableWindow_GoToEvent_Sleepover_Sneak)" Value="283410" />
+  <Preset Label="Sneak to the College Party (openableWindow_GoToEvent_CollegeParty_SneakWindow)" Value="283440" />
+  <Preset Label="Ask for Permission to Go to Event (mixer_Social_Targeted_Friendly_OpenableWindow_AskForPermission)" Tags="TestUnsafe" Value="283472" />
+  <Preset Label="Sneak to Hang Out with Friends (openableWindow_GoToEvent_HangOut_SneakWindow)" Value="283479" />
+  <Preset Label="Sneak to Loiter with Friends (openableWindow_GoToEvent_Loitering_SneakWindow)" Value="283480" />
+  <Preset Label="Sneak to the Pop Concert (openableWindow_GoToEvent_PopConcert_SneakWindow)" Value="283481" />
+  <Preset Label="Sneak to the R-Rated Movie (openableWindow_GoToEvent_RMovie_SneakWindow)" Value="283482" />
+  <Preset Label="Sneak to High School Sports Game (openableWindow_GoToEvent_SchoolGame_SneakWindow)" Value="283483" />
+  <Preset Label="Sneak to the Sleepover (openableWindow_GoToEvent_Sleepover_SneakWindow)" Value="283484" />
+  <Preset Label="Complain About Boho Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Dislikes_Boho)" Tags="TestUnsafe" Value="283507" />
+  <Preset Label="Complain About Country Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Dislikes_Country)" Tags="TestUnsafe" Value="283508" />
+  <Preset Label="Complain About Hipster Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Dislikes_Hipster)" Tags="TestUnsafe" Value="283509" />
+  <Preset Label="Complain About Outdoorsy Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Dislikes_Outdoorsy)" Tags="TestUnsafe" Value="283510" />
+  <Preset Label="Complain About Polished Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Dislikes_Polished)" Tags="TestUnsafe" Value="283511" />
+  <Preset Label="Complain About Preppy Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Dislikes_Preppy)" Tags="TestUnsafe" Value="283512" />
+  <Preset Label="Complain About Rocker Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Dislikes_Rocker)" Tags="TestUnsafe" Value="283513" />
+  <Preset Label="Complain About Streetwear Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Dislikes_Streetwear)" Tags="TestUnsafe" Value="283514" />
+  <Preset Label="Enthuse About Boho Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Likes_Boho)" Tags="TestUnsafe" Value="283515" />
+  <Preset Label="Enthuse About Country Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Likes_Country)" Tags="TestUnsafe" Value="283517" />
+  <Preset Label="Enthuse About Hipster Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Likes_Hipster)" Tags="TestUnsafe" Value="283518" />
+  <Preset Label="Enthuse About Outdoorsy Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Likes_Outdoorsy)" Tags="TestUnsafe" Value="283519" />
+  <Preset Label="Enthuse About Polished Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Likes_Polished)" Tags="TestUnsafe" Value="283520" />
+  <Preset Label="Enthuse About Preppy Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Likes_Preppy)" Tags="TestUnsafe" Value="283521" />
+  <Preset Label="Enthuse About Rocker Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Likes_Rocker)" Tags="TestUnsafe" Value="283522" />
+  <Preset Label="Enthuse About Streetwear Fashion (socials_Targeted_Friendly_SimPreference_Recent_Fashion_Likes_Streetwear)" Tags="TestUnsafe" Value="283523" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Fashion_Boho" Value="283525" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Fashion_Country" Value="283526" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Fashion_Hipster" Value="283527" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Fashion_Outdoorsy" Value="283528" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Fashion_Polished" Value="283529" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Fashion_Preppy" Value="283530" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Fashion_Rocker" Value="283531" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Fashion_Streetwear" Value="283532" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Fashion_Boho" Value="283533" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Fashion_Country" Value="283534" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Fashion_Hipster" Value="283536" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Fashion_Outdoorsy" Value="283537" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Fashion_Polished" Value="283538" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Fashion_Preppy" Value="283539" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Fashion_Rocker" Value="283540" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Fashion_Streetwear" Value="283541" />
+  <Preset Label="Request Science Fair (mixer_social_HighSchoolFestival_RequestScienceFair)" Tags="TestUnsafe" Value="283631" />
+  <Preset Label="Request Science Fair (computer_HighSchoolFestival_RequestScienceFair)" Value="283632" />
+  <Preset Label="Request Science Fair (phone_HighSchoolFestival_RequestScienceFair)" Value="283633" />
+  <Preset Label="Set Up School Event - Fire Drill (immediate_HighSchool_Active_Debug_FireDrill)" Value="283660" />
+  <Preset Label="Set Up School Event - Exam (immediate_HighSchool_Active_Debug_Exam)" Value="283697" />
+  <Preset Label="Set Up School Event - Career Day (immediate_HighSchool_Active_Debug_CareerDay)" Value="283698" />
+  <Preset Label="Set Up School Event - School Fight (immediate_HighSchool_Active_Debug_SchoolFight)" Value="283699" />
+  <Preset Label="Debug: Prepare Whiteboard (super_HighSchool_Active_NPC_Whiteboard_Prepare_Debug)" Value="283759" />
+  <Preset Label="Pillow Fight (super_BedUpdates_PillowFight_Target)" Value="283788" />
+  <Preset Label="Drop Out of High School (mixer_HighSchool_Active_HSExit_Principal_Dropout)" Tags="TestUnsafe" Value="283799" />
+  <Preset Label="Graduate Early (mixer_HighSchool_Active_HSExit_Principal_GraduateEarly)" Tags="TestUnsafe" Value="283800" />
+  <Preset Label="Watch Award Ceremony (hSPromInteraction_GatherAtPodium)" Value="283899" />
+  <Preset Label="Vote For Prom Royalty (si_HSBulletinBoard_HSProm_Vote_Royalty)" Value="283978" />
+  <Preset Label="Vote for Prom Jester (si_HSBulletinBoard_HSProm_Vote_Jester)" Value="283988" />
+  <Preset Label="autoSimPicker_HighSchool_Active_FindTarget_ThrowFootball" Tags="TestUnsafe" Value="284075" />
+  <Preset Label="Set Expectations (mixer_social_Targeted_Friendly_SetExpectations)" Tags="TestUnsafe" Value="284104" />
+  <Preset Label="hSPromInteraction_Announcer_GoToPodium" Value="284111" />
+  <Preset Label="reaction_Mixers_HSProm_Mean" Value="284210" />
+  <Preset Label="reaction_Mixers_HSProm_Cheer" Value="284211" />
+  <Preset Label="reaction_Mixers_HSProm_Bored" Value="284212" />
+  <Preset Label="Death By Stink Capsule (death_StinkBomb)" Value="284361" />
+  <Preset Label="Death By Urban Myth (death_UrbanMyth)" Value="284362" />
+  <Preset Label="idle_EP12Death_Ghost_Nervous" Value="284388" />
+  <Preset Label="si_SimPreference_Dislikes_Fashion_Discovery_Boho" Value="284405" />
+  <Preset Label="si_SimPreference_Dislikes_Fashion_Discovery_Country" Value="284407" />
+  <Preset Label="si_SimPreference_Dislikes_Fashion_Discovery_Hipster" Value="284441" />
+  <Preset Label="si_SimPreference_Dislikes_Fashion_Discovery_Outdoorsy" Value="284442" />
+  <Preset Label="si_SimPreference_Dislikes_Fashion_Discovery_Polished" Value="284443" />
+  <Preset Label="si_SimPreference_Dislikes_Fashion_Discovery_Preppy" Value="284444" />
+  <Preset Label="si_SimPreference_Dislikes_Fashion_Discovery_Rocker" Value="284445" />
+  <Preset Label="si_SimPreference_Dislikes_Fashion_Discovery_Streetwear" Value="284446" />
+  <Preset Label="si_SimPreference_Likes_Fashion_Discovery_Boho" Value="284447" />
+  <Preset Label="si_SimPreference_Likes_Fashion_Discovery_Country" Value="284448" />
+  <Preset Label="si_SimPreference_Likes_Fashion_Discovery_Hipster" Value="284449" />
+  <Preset Label="si_SimPreference_Likes_Fashion_Discovery_Outdoorsy" Value="284450" />
+  <Preset Label="si_SimPreference_Likes_Fashion_Discovery_Polished" Value="284451" />
+  <Preset Label="si_SimPreference_Likes_Fashion_Discovery_Preppy" Value="284452" />
+  <Preset Label="si_SimPreference_Likes_Fashion_Discovery_Rocker" Value="284453" />
+  <Preset Label="si_SimPreference_Likes_Fashion_Discovery_Streetwear" Value="284454" />
+  <Preset Label="Defuse Prank (super_EP12_Death_Ghost_DefuseToilet)" Value="284497" />
+  <Preset Label="Humble Brag (mixer_social_Overachiever_HumbleBrag)" Tags="TestUnsafe" Value="284507" />
+  <Preset Label="Ask for Extra, Extra Credit (mixer_social_Overachiever_AskforExtraCredit)" Tags="TestUnsafe" Value="284508" />
+  <Preset Label="Enthuse About Learning Additional Skills (mixer_social_Overachiever_EnthuseAboutLearning)" Tags="TestUnsafe" Value="284509" />
+  <Preset Label="Rave about Parties (mixer_social_PartyAnimal_EnthuseAboutParties)" Tags="TestUnsafe" Value="284516" />
+  <Preset Label="Do Extra, Extra Assignment (book_Homework_Teen_Overachiever_ExtraCredit)" Value="284518" />
+  <Preset Label="Prepare for Next Task (self_Overachiever_Prepare)" Value="284521" />
+  <Preset Label="Remember Past Parties (self_PartyAnimal_RememberParties)" Value="284522" />
+  <Preset Label="Do Party Tricks (self_PartyAnimal_PartyTrick)" Value="284523" />
+  <Preset Label="Woooooooooooooooooooooo (self_PartyAnimal_Woooo)" Value="284524" />
+  <Preset Label="si_SimPreference_Dislikes_Fashion_Target" Value="284540" />
+  <Preset Label="sI_SimPreference_Likes_Fashion_Target" Value="284549" />
+  <Preset Label="cheerMat_Solo_WarmUpIdle" Value="284577" />
+  <Preset Label="cheerMat_Solo_CheerMove01" Value="284579" />
+  <Preset Label="cheerMat_Solo_CheerMove02" Value="284580" />
+  <Preset Label="cheerMat_Solo_CheerMove03" Value="284581" />
+  <Preset Label="cheerMat_Solo_CheerMove04" Value="284583" />
+  <Preset Label="Perform Solo Routine (si_CheerMat_Solo_NoCheerOutfit)" Value="284591" />
+  <Preset Label="Perform Group Cheerleading Routine (cheerMat_Group_JigPartConstraintInteraction)" Value="284627" />
+  <Preset Label="Perform Group Cheerleading Routine (cheerMat_Group_Sequence_01)" Value="284639" />
+  <Preset Label="Perform Group Cheerleading Routine (si_CheerMat_Group_StartSequence_01)" Value="284688" />
+  <Preset Label="cheerMat_Group_CheerMove01" Value="284720" />
+  <Preset Label="cheerMat_Group_CheerMove02" Value="284725" />
+  <Preset Label="cheerMat_Group_CheerMove03" Value="284727" />
+  <Preset Label="cheerMat_Group_CheerMove04" Value="284728" />
+  <Preset Label="cheerMat_Group_WarmUpIdle" Value="284729" />
+  <Preset Label="Perform Group Cheerleading Routine (si_CheerMat_Group_Rally_RouteTo)" Value="284797" />
+  <Preset Label="See What's Happening (reaction_PartyAnimal_DoTrick)" Value="284824" />
+  <Preset Label="See What's Happening (reactions_PartyAnimal_Wooooo)" Value="284830" />
+  <Preset Label="Vibe Check (mixer_social_PartyAnimal_VibeCheck)" Tags="TestUnsafe" Value="284835" />
+  <Preset Label="Talk about Past Parties (mixer_social_PartyAnimal_TalkAboutPastParties)" Tags="TestUnsafe" Value="284836" />
+  <Preset Label="autonomous_ObjectPicker_CheerMat_Group" Tags="TestUnsafe" Value="284843" />
+  <Preset Label="Join an After-School Activity (computer_HSTeam_JoinAfterschoolActivity)" Value="284867" />
+  <Preset Label="si_TeenPranks_Catching_DetermineCatch" Value="284912" />
+  <Preset Label="Catch {1.SimFirstName} Pranking (social_TeenPranks_CatchSim)" Value="284987" />
+  <Preset Label="Prank Whiteboard (teenPranks_Object_Whiteboard)" Value="285024" />
+  <Preset Label="Regular Football Practice with {1.SimFirstName} (touching_ThrowFootball_Play_NPC)" Value="285059" />
+  <Preset Label="hSPromInteraction_Teen_WatchClap" Value="285068" />
+  <Preset Label="Open Social Bunny (tablet_Social_Media_OpenSocialMedia)" Value="285075" />
+  <Preset Label="Open Social Bunny (computer_Social_Media_OpenSocialMedia)" Value="285076" />
+  <Preset Label="Catch {1.SimFirstName} Pranking (si_TeenPranks_Catching_UserDirected)" Value="285096" />
+  <Preset Label="Summon Urban Myth (mixer_social_Targeted_TeenPranks_UrbanMyth)" Tags="TestUnsafe" Value="285097" />
+  <Preset Label="Activate Social Bunny (phone_Social_Media_Activate)" Value="285473" />
+  <Preset Label="Turn Off Notifications (phone_Social_Media_TurnOffPostNotifications)" Value="285479" />
+  <Preset Label="Turn On Notifications (phone_Social_Media_TurnOnPostNotifications)" Value="285480" />
+  <Preset Label="Hack PA Speaker (teenPranks_Object_PASpeaker)" Value="285499" />
+  <Preset Label="Foul Stench (teenPranks_Reaction_StinkCapsule)" Value="285506" />
+  <Preset Label="Point And Laugh (teenPranks_Reaction_Laugh)" Value="285515" />
+  <Preset Label="Plant Stink Capsule (teenPranks_Object_StinkCapsule)" Value="285549" />
+  <Preset Label="Defuse Prank (teenPranks_Object_StinkCapsule_Defuse)" Value="285556" />
+  <Preset Label="Set Up Social Media Password Stealer (teenPranks_Object_PasswordStealer)" Value="285560" />
+  <Preset Label="Join an After-School Activity (phone_JoinAfterschoolActivity)" Value="285616" />
+  <Preset Label="Hype Outfit (socials_Targeted_Friendly_FashionMarketplace_HypeOutfit)" Tags="TestUnsafe" Value="285625" />
+  <Preset Label="Listen to {1.SimFirstName}'s Question (social_TeenPranks_PushAffordance)" Value="285646" />
+  <Preset Label="autonomous_ObjectPicker_TeenPranks_Whiteboard" Tags="TestUnsafe" Value="285662" />
+  <Preset Label="Prank Whiteboard (socials_TeenPranks_Dare_Whiteboard)" Value="285663" />
+  <Preset Label="Frame Another Sim for Prank (social_TeenPranks_Frame)" Value="285696" />
+  <Preset Label="Confront Sim (social_TeenPranks_Confront)" Value="285699" />
+  <Preset Label="Frame Another Sim for Prank (simPicker_TeenPranks_Frame)" Tags="TestUnsafe" Value="285701" />
+  <Preset Label="Hack PA Speaker (socials_TeenPranks_Dare_PASpeaker)" Value="285705" />
+  <Preset Label="Plant Stink Capsule (socials_TeenPranks_Dare_StinkCapsule)" Value="285706" />
+  <Preset Label="autonomous_ObjectPicker_TeenPranks_StinkCapsule" Tags="TestUnsafe" Value="285707" />
+  <Preset Label="autonomous_ObjectPicker_TeenPranks_PASpeaker" Tags="TestUnsafe" Value="285708" />
+  <Preset Label="See What's Happening (teenPranks_TriggerPrank_Whiteboard)" Value="285788" />
+  <Preset Label="Enthuse About Fashion Look (socials_Targeted_Friendly_FashionMarketplace_EnthuseAboutAesthetic)" Tags="TestUnsafe" Value="285834" />
+  <Preset Label="idle_EP12Death_Ghost_UrbanMyth_StartFear" Value="285878" />
+  <Preset Label="Defuse Prank (teenPranks_Object_PASpeaker_Defuse)" Value="285919" />
+  <Preset Label="Defuse Prank (teenPranks_Object_PasswordStealer_Defuse)" Value="285927" />
+  <Preset Label="Get Ready For Class (super_HighSchool_Active_Ping_GoToObject)" Value="285940" />
+  <Preset Label="throwFootballMixers_HardIdle_X_Reward" Tags="TestUnsafe" Value="285963" />
+  <Preset Label="throwFootballMixers_HardIdle_Y_Reward" Tags="TestUnsafe" Value="285968" />
+  <Preset Label="throwFootballMixers_Idle_X_Reward" Tags="TestUnsafe" Value="285972" />
+  <Preset Label="throwFootballMixers_Idle_Y_Reward" Tags="TestUnsafe" Value="285973" />
+  <Preset Label="Shave Facial Hair (mirror_PubertyChanges_Shave_Face)" Value="286062" />
+  <Preset Label="Shave Facial Hair to Preferred Length (mirror_PubertyChanges_Shave_Face_PreferredLength)" Value="286082" />
+  <Preset Label="Buy Quarterback Shirt (marketStalls_BuyCAS_HighSchoolFestival_SportsDay_Football)" Value="286094" />
+  <Preset Label="Wear Quarterback Shirt (marketStalls_JustWearCAS_HighSchoolFestival_SportsDay_Football)" Value="286095" />
+  <Preset Label="Buy and Wear Quarterback Shirt (marketStalls_BuyAndWearCAS_HighSchoolFestival_SportsDay_Football)" Value="286098" />
+  <Preset Label="Check Out Mirror (super_EP12Death_UrbanMyth_CheckOutMirror)" Value="286139" />
+  <Preset Label="Shave Arm Hair (shower_PubertyChanges_Shave_Arms)" Value="286160" />
+  <Preset Label="Shave Facial Hair (shower_PubertyChanges_Shave_Face)" Value="286161" />
+  <Preset Label="Shave Leg Hair (shower_PubertyChanges_Shave_Legs)" Value="286162" />
+  <Preset Label="Shave Chest Hair (shower_PubertyChanges_Shave_Torso)" Value="286163" />
+  <Preset Label="Shave Arm Hair (mixer_Shower_Shave_Arms)" Value="286165" />
+  <Preset Label="Shave Facial Hair (mixer_Shower_Shave_Face)" Value="286166" />
+  <Preset Label="Shave Leg Hair (mixer_Shower_Shave_Legs)" Value="286167" />
+  <Preset Label="Shave Chest Hair (mixer_Shower_Shave_Torso)" Value="286168" />
+  <Preset Label="Shave Arm Hair (mixer_Shower_Shave_Arms_Passive)" Value="286237" />
+  <Preset Label="Shave Facial Hair (mixer_Shower_Shave_Face_Passive)" Value="286238" />
+  <Preset Label="Shave Leg Hair (mixer_Shower_Shave_Legs_Passive)" Value="286239" />
+  <Preset Label="Shave Chest Hair (mixer_Shower_Shave_Torso_Passive)" Value="286240" />
+  <Preset Label="Wear Cheerleading Outfit (marketStalls_JustWearCAS_HighSchoolFestival_SportsDay_Cheer)" Value="286242" />
+  <Preset Label="Wear Chess Team Shirt (marketStalls_JustWearCAS_HighSchoolFestival_ScienceFair_Chess)" Value="286257" />
+  <Preset Label="Wear Computer Team Shirt (marketStalls_JustWearCAS_HighSchoolFestival_ScienceFair_Computer)" Value="286258" />
+  <Preset Label="Buy and Wear Cheerleading Outfit (marketStalls_BuyCASAndWear_HighSchoolFestival_SportsDay_Cheer)" Value="286259" />
+  <Preset Label="Buy and Wear Chess Team Shirt (marketStalls_BuyCASAndWear_HighSchoolFestival_ScienceFair_Chess)" Value="286260" />
+  <Preset Label="Buy and Wear Computer Team Shirt (marketStalls_BuyCASAndWear_HighSchoolFestival_ScienceFair_Computer)" Value="286261" />
+  <Preset Label="Buy Cheerleading Outfit (marketStalls_BuyCAS_HighSchoolFestival_SportsDay_Cheer)" Value="286262" />
+  <Preset Label="Buy Chess Team Shirt (marketStalls_BuyCAS_HighSchoolFestival_ScienceFair_Chess)" Value="286263" />
+  <Preset Label="Buy Computer Team Shirt (marketStalls_BuyCAS_HighSchoolFestival_ScienceFair_Computer)" Value="286264" />
+  <Preset Label="Apply Facial Cleanser (mirror_PubertyChanges_Acne_Cleanser)" Value="286268" />
+  <Preset Label="Conceal Acne (mirror_PubertyChanges_Acne_Concealer)" Value="286269" />
+  <Preset Label="Apply Facial Cleanser (sink_PubertyChanges_Acne_Cleanser)" Value="286282" />
+  <Preset Label="Conceal Acne (sink_PubertyChanges_Acne_Concealer)" Value="286283" />
+  <Preset Label="Careers (super_HighSchool_Active_CreateBook_CafeteriaStation)" Value="286297" />
+  <Preset Label="Remove Outfit (fashionMarketplace_RemoveInventoryOutfit)" Value="286303" />
+  <Preset Label="Wear Outfit (fashionMarketplace_WearInventoryOutfit)" Value="286320" />
+  <Preset Label="Ask about Graduation (mixer_HSGraduation_AskAboutGraduation)" Tags="TestUnsafe" Value="286322" />
+  <Preset Label="Reminisce about School Year (mixer_HSGraduation_ReminisceAboutSchoolYear)" Tags="TestUnsafe" Value="286324" />
+  <Preset Label="Congratulate (mixer_HSGraduation_Congratulate)" Tags="TestUnsafe" Value="286325" />
+  <Preset Label="Fake Congratulate (mixer_HSGraduation_FakeCongratulate)" Tags="TestUnsafe" Value="286326" />
+  <Preset Label="Thank for School Year (mixer_HSGraduation_ThankForSchoolYear)" Tags="TestUnsafe" Value="286327" />
+  <Preset Label="Watch Valedictorian Speech (hSGraduation_WatchValedictorianSpeech)" Value="286388" />
+  <Preset Label="Throw Cap (hSGraduation_ThrowGradCap)" Value="286389" />
+  <Preset Label="Give Valedictorian Speech (hSGraduation_GiveValedictorianSpeech)" Value="286391" />
+  <Preset Label="Tend Podium (hSGraduation_TendPodium)" Value="286392" />
+  <Preset Label="Call Out Diploma Recipient (hSGraduation_CallOutDiploma)" Value="286393" />
+  <Preset Label="schoolLocker_PassiveRead" Value="286420" />
+  <Preset Label="schoolLocker_ActiveRead" Value="286423" />
+  <Preset Label="fashionMarketplace_CreatePremade" Value="286717" />
+  <Preset Label="mixer_HighSchool_Active_WatchTPose_Passive" Value="286778" />
+  <Preset Label="mixer_HighSchool_Active_WatchTPose_Active" Value="286780" />
+  <Preset Label="Shave Chest Hair to Preferred Length (mixer_Shower_Shave_Torso_Preferred)" Value="286799" />
+  <Preset Label="Shave Chest Hair to Preferred Length (mixer_Shower_Shave_Torso_Preferred_Passive)" Value="286800" />
+  <Preset Label="Shave Leg Hair to Preferred Length (mixer_Shower_Shave_Legs_Preferred)" Value="286801" />
+  <Preset Label="Shave Leg Hair to Preferred Length (mixer_Shower_Shave_Legs_Preferred_Passive)" Value="286802" />
+  <Preset Label="Shave Facial Hair to Preferred Length (mixer_Shower_Shave_Face_Preferred)" Value="286803" />
+  <Preset Label="Shave Facial Hair to Preferred Length (mixer_Shower_Shave_Face_Preferred_Passive)" Value="286804" />
+  <Preset Label="Shave Arm Hair to Preferred Length (mixer_Shower_Shave_Arms_Preferred)" Value="286805" />
+  <Preset Label="Shave Arm Hair to Preferred Length (mixer_Shower_Shave_Arms_Preferred_Passive)" Value="286806" />
+  <Preset Label="Shave Arm Hair to Preferred Length (shower_PubertyChanges_Shave_Arms_Preferred)" Value="286808" />
+  <Preset Label="Shave Chest Hair to Preferred Length (shower_PubertyChanges_Shave_Torso_Preferred)" Value="286813" />
+  <Preset Label="Shave Leg Hair to Preferred Length (shower_PubertyChanges_Shave_Legs_Preferred)" Value="286814" />
+  <Preset Label="Shave Facial Hair to Preferred Length (shower_PubertyChanges_Shave_Face_Preferred)" Value="286816" />
+  <Preset Label="Ride (pierAttractions_Ride_HauntedHouse)" Value="286868" />
+  <Preset Label="Ride (pierAttractions_Ride_TunnelLove)" Value="286869" />
+  <Preset Label="generic_FerrisWheel_Woohoo" Value="286887" />
+  <Preset Label="generic_TunnelLove_Woohoo" Value="286888" />
+  <Preset Label="generic_HauntedHouse_Woohoo" Value="286889" />
+  <Preset Label="Shave Arm Hair (shower_NoPrivacy_PubertyChanges_Shave_Arms)" Value="286892" />
+  <Preset Label="Shave Arm Hair to Preferred Length (shower_NoPrivacy_PubertyChanges_Shave_Arms_Preferred)" Value="286893" />
+  <Preset Label="Shave Facial Hair (shower_NoPrivacy_PubertyChanges_Shave_Face)" Value="286895" />
+  <Preset Label="Shave Facial Hair to Preferred Length (shower_NoPrivacy_PubertyChanges_Shave_Face_Preferred)" Value="286896" />
+  <Preset Label="Shave Leg Hair (shower_NoPrivacy_PubertyChanges_Shave_Legs)" Value="286898" />
+  <Preset Label="Shave Leg Hair to Preferred Length (shower_NoPrivacy_PubertyChanges_Shave_Legs_Preferred)" Value="286899" />
+  <Preset Label="Shave Chest Hair (shower_NoPrivacy_PubertyChanges_Shave_Torso)" Value="286903" />
+  <Preset Label="Shave Chest Hair to Preferred Length (shower_NoPrivacy_PubertyChanges_Shave_Torso_Preferred)" Value="286904" />
+  <Preset Label="WooHoo (FerrisWheel_WooHoo)" Value="286912" />
+  <Preset Label="WooHoo (TunnelLove_WooHoo)" Value="286913" />
+  <Preset Label="WooHoo (HauntedHouse_WooHoo)" Value="286914" />
+  <Preset Label="fashionMarketplace_ApplyOutfitHype" Value="286915" />
+  <Preset Label="WooHoo With (FerrisWheel_WooHoo_Picker)" Tags="TestUnsafe" Value="286917" />
+  <Preset Label="WooHoo With (TunnelLove_WooHoo_Picker)" Tags="TestUnsafe" Value="286918" />
+  <Preset Label="WooHoo With (HauntedHouse_WooHoo_Picker)" Tags="TestUnsafe" Value="286919" />
+  <Preset Label="sI_SchoolLocker_ExamCram_NPC" Value="286946" />
+  <Preset Label="Sell Outfit on Trendi (fashionMarketplace_SellWorn_Start)" Value="286964" />
+  <Preset Label="Sell Outfit on Trendi (fashionMarketplace_SellNotWorn_Start)" Value="287010" />
+  <Preset Label="Sell Outfit on Trendi (fashionMarketplace_Sell)" Value="287011" />
+  <Preset Label="Support {1.SimFirstName}'s Acne (social_Friendly_PubertyChanges_Support_Acne)" Tags="TestUnsafe" Value="287024" />
+  <Preset Label="Support {1.SimFirstName}'s Body Hair (social_Friendly_PubertyChanges_Support_Hair_Body)" Tags="TestUnsafe" Value="287025" />
+  <Preset Label="Support {1.SimFirstName}'s Facial Hair (social_Friendly_PubertyChanges_Support_Hair_Face)" Tags="TestUnsafe" Value="287026" />
+  <Preset Label="Joke about Acne (social_Funny_PubertyChanges_Joke_Acne)" Tags="TestUnsafe" Value="287035" />
+  <Preset Label="Joke about Body Hair (social_Funny_PubertyChanges_Joke_Hair_Body)" Tags="TestUnsafe" Value="287036" />
+  <Preset Label="Joke about Facial Hair (social_Funny_PubertyChanges_Joke_Hair_Face)" Tags="TestUnsafe" Value="287037" />
+  <Preset Label="Delist from Trendi (fashionMarketplace_Delist)" Value="287039" />
+  <Preset Label="Mock Acne (social_Mean_PubertyChanges_Mock_Acne)" Tags="TestUnsafe" Value="287046" />
+  <Preset Label="Mock Body Hair (social_Mean_PubertyChanges_Mock_Hair_Body)" Tags="TestUnsafe" Value="287047" />
+  <Preset Label="Mock Facial Hair (social_Mean_PubertyChanges_Mock_Hair_Face)" Tags="TestUnsafe" Value="287048" />
+  <Preset Label="immediate_PubertyChanges_SupportChance_Acne" Value="287058" />
+  <Preset Label="immediate_PubertyChanges_SupportChance_Hair" Value="287063" />
+  <Preset Label="Ship to Buyer &lt;font color='#10A317'&gt;(+{2.Money})&lt;/font&gt; (fashionMarketplace_Ship_ObjectPicker)" Tags="TestUnsafe" Value="287162" />
+  <Preset Label="Ship to Buyer &lt;font color='#10A317'&gt;(+{2.Money})&lt;/font&gt; (fashionMarketplace_Ship)" Value="287166" />
+  <Preset Label="WooHoo on Ferris Wheel (mixer_social_WooHooFerrisWheel_targeted_romance_transition)" Tags="TestUnsafe" Value="287209" />
+  <Preset Label="WooHoo in the Haunted House (mixer_social_WooHooHauntedHouse_targeted_romance_transition)" Tags="TestUnsafe" Value="287210" />
+  <Preset Label="WooHoo in the Tunnel of Love (mixer_social_WooHooTunnelLove_targeted_romance_transition)" Tags="TestUnsafe" Value="287211" />
+  <Preset Label="Mess Around With (ferrisWheel_messAround_Picker)" Tags="TestUnsafe" Value="287380" />
+  <Preset Label="Mess Around With (hauntedHouse_messAround_Picker)" Tags="TestUnsafe" Value="287381" />
+  <Preset Label="Mess Around With (tunnelLove_messAround_Picker)" Tags="TestUnsafe" Value="287382" />
+  <Preset Label="Take Photo (photobooth_TakePhoto)" Value="287603" />
+  <Preset Label="Take Happy Photo (photobooth_TakePhoto_Happy)" Value="287604" />
+  <Preset Label="Take Embarrassed Photo (photobooth_TakePhoto_Embarrassed)" Value="287605" />
+  <Preset Label="Take Focused Photo (photobooth_TakePhoto_Focused)" Value="287606" />
+  <Preset Label="Take Inspired Photo (photobooth_TakePhoto_Inspired)" Value="287607" />
+  <Preset Label="Take Playful Photo (photobooth_TakePhoto_Playful)" Value="287608" />
+  <Preset Label="Take Sad Photo (photobooth_TakePhoto_Sad)" Value="287609" />
+  <Preset Label="Take Scared Photo (photobooth_TakePhoto_Scared)" Value="287610" />
+  <Preset Label="Take Tense Photo (photobooth_TakePhoto_Tense)" Value="287611" />
+  <Preset Label="Take Uncomfortable Photo (photobooth_TakePhoto_Uncomfortable)" Value="287612" />
+  <Preset Label="Take Energized Photo (photobooth_TakePhoto_Energized)" Value="287613" />
+  <Preset Label="Take Angry Photo (photobooth_TakePhoto_Angry)" Value="287614" />
+  <Preset Label="Take Bored Photo (photobooth_TakePhoto_Bored)" Value="287615" />
+  <Preset Label="Take Confident Photo (photobooth_TakePhoto_Confident)" Value="287616" />
+  <Preset Label="Take Dazed Photo (photobooth_TakePhoto_Dazed)" Value="287617" />
+  <Preset Label="Take Flirty Photo (photobooth_TakePhoto_Flirty)" Value="287618" />
+  <Preset Label="Take Normal Photo (photobooth_TakePhoto_Fine)" Value="287619" />
+  <Preset Label="Check Photo (photobooth_CheckPhoto)" Value="287620" />
+  <Preset Label="autonomousSimPicker_Photobooth_TakeGroupPhoto" Tags="TestUnsafe" Value="287676" />
+  <Preset Label="Gift (simPickerInteraction_Trendi_Gift)" Tags="TestUnsafe" Value="287707" />
+  <Preset Label="Gift (social_FashionMarketplace_Gift)" Value="287708" />
+  <Preset Label="Take Romantic Photo With (simPicker_Photobooth_TakePhotoWith_Romantic)" Tags="TestUnsafe" Value="287717" />
+  <Preset Label="Take Mischievous Photo With (simPicker_Photobooth_TakePhotoWith_Mischievous)" Tags="TestUnsafe" Value="287718" />
+  <Preset Label="Take Funny Photo With (simPicker_Photobooth_TakePhotoWith_Funny)" Tags="TestUnsafe" Value="287719" />
+  <Preset Label="Take Friendly Photo With (simPicker_Photobooth_TakePhotoWith_Friendly)" Tags="TestUnsafe" Value="287720" />
+  <Preset Label="Hide From Paparazzi (photobooth_HideFromPaparazzi)" Value="287774" />
+  <Preset Label="careerIconPicker_StreamerSideHustle" Tags="TestUnsafe" Value="287855" />
+  <Preset Label="Study for Exam (book_Homework_Teen_Prepare_For_Test)" Value="287859" />
+  <Preset Label="Choose SimTuber Avatar (computer_Career_SideHustle_ChooseStreamerAvatar)" Value="287878" />
+  <Preset Label="Choose SimTuber Avatar (phone_SideHustle_ChooseStreamerAvatar)" Value="287880" />
+  <Preset Label="Livestream Farming With Friends (computer_Livestream_StreamerSideHustle_DualDungeon_Teen)" Value="287908" />
+  <Preset Label="Livestream Crypt Creeper (computer_Livestream_StreamerSideHustle_FreezerBunnyRush_Teen)" Value="287909" />
+  <Preset Label="Read SimsChat (computer_Livestream_StreamerSideHustle_ReadSimsChat_Teen)" Value="287910" />
+  <Preset Label="Livestream The Sims Infinite (computer_Livestream_StreamerSideHustle_SimsInfinite_Teen)" Value="287911" />
+  <Preset Label="Livestream Farming With Friends (simPickerInteraction_StreamerSideHustle_PickDualDungeonSim)" Tags="TestUnsafe" Value="287914" />
+  <Preset Label="generic_Photobooth" Value="287920" />
+  <Preset Label="generic_Photobooth_WooHoo" Value="287925" />
+  <Preset Label="si_SchoolLocker_FreshenUp_NPC" Value="287949" />
+  <Preset Label="Ask for Extra Credit (mixer_Social_Fear_Failing_Class_AskForExtraCredit)" Tags="TestUnsafe" Value="288095" />
+  <Preset Label="Call Out Diploma Recipient (autonomousSimPickerSuperInteraction_HSGraduation_CallOutDiploma)" Tags="TestUnsafe" Value="288275" />
+  <Preset Label="Get Ceremonial Diploma (social_Si_HSGraduation_GetDiploma)" Value="288276" />
+  <Preset Label="Call Out Diploma Recipient (mixerInteraction_HSGraduation_CallOutDiploma)" Value="288282" />
+  <Preset Label="mixerInteraction_HSGraduation_TendPodium" Value="288285" />
+  <Preset Label="Get Ceremonial Diploma (si_HSGraduation_ApproachPodium)" Value="288357" />
+  <Preset Label="Watch Valedictorian Speech (hSGraduation_WatchValedictorianSpeech_BackSeats)" Value="288654" />
+  <Preset Label="Practice Valedictorian Speech (mirror_PracticeSpeech_HSGraduation_ValedictorianSpeech)" Value="288858" />
+  <Preset Label="Serve Detention (immediate_HighSchool_Active_ServeDetention_FromTeacher)" Value="288883" />
+  <Preset Label="Serve Detention (autoObjectPicker_HighSchool_Active_FindWhiteboard)" Tags="TestUnsafe" Value="288884" />
+  <Preset Label="Watch Career Presentation (super_HighSchool_Active_CareerDay_WatchSpeech_Cont)" Value="289103" />
+  <Preset Label="Order Food (cafeteriaStation_Highschool_PushOrder)" Value="289381" />
+  <Preset Label="hSBulletinBoard_HSProm_Vote_NPCAutonomous" Value="289474" />
+  <Preset Label="mixer_HighSchool_Active_AdvertiseHSTeam_CallOver" Value="289571" />
+  <Preset Label="mixer_HighSchool_Active_AdvertiseHSTeam_Cheer" Value="289572" />
+  <Preset Label="mixer_HighSchool_Active_AdvertiseHSTeam_Computer" Value="289574" />
+  <Preset Label="mixer_HighSchool_Active_AdvertiseHSTeam_Football" Value="289575" />
+  <Preset Label="mixer_HighSchool_Active_AdvertiseHSTeam_Chess" Value="289576" />
+  <Preset Label="super_HighSchool_Active_NPC_AdervtiseHSTeam" Value="289582" />
+  <Preset Label="Ride With (simPicker_PierAttractions_RideWith_FerrisWheel)" Tags="TestUnsafe" Value="289625" />
+  <Preset Label="Ride With (simPicker_PierAttractions_RideWith_HauntedHouse)" Tags="TestUnsafe" Value="289626" />
+  <Preset Label="Romantic Ride With (simPicker_PierAttractions_RideWith_TunnelLove)" Tags="TestUnsafe" Value="289627" />
+  <Preset Label="Set Up Social Media Password Stealer (socials_TeenPranks_Dare_PasswordStealer)" Value="289693" />
+  <Preset Label="autonomous_ObjectPicker_TeenPranks_PasswordStealer" Tags="TestUnsafe" Value="289694" />
+  <Preset Label="Write in Diary About Crush (superInteraction_TeenRelationshipDrama_DiaryWriteCrush)" Value="289697" />
+  <Preset Label="mixerInteraction_TeenRelationshipDrama_Journal_Passive" Value="289728" />
+  <Preset Label="Confess Daydream About Crush (socials_Targeted_Friendly_WhisperAboutCrush)" Tags="TestUnsafe" Value="289752" />
+  <Preset Label="Declare Love Publicly (socials_Targeted_Romance_DeclareLove)" Tags="TestUnsafe" Value="289770" />
+  <Preset Label="generic_FerrisWheel_Ride" Value="289797" />
+  <Preset Label="generic_HauntedHouse_Ride" Value="289798" />
+  <Preset Label="generic_TunnelLove_Ride" Value="289799" />
+  <Preset Label="Ask to Ride With (socials_Targeted_Friendly_AlwaysOn_PierAttractions_FerrisWheel)" Tags="TestUnsafe" Value="289815" />
+  <Preset Label="Ask to Ride With (socials_Targeted_Friendly_AlwaysOn_PierAttractions_HauntedHouse)" Tags="TestUnsafe" Value="289816" />
+  <Preset Label="Ask to Ride With (socials_Targeted_Friendly_AlwaysOn_PierAttractions_TunnelLove)" Tags="TestUnsafe" Value="289817" />
+  <Preset Label="Write in Diary About Crush (objectInInventoryPickerInteraction_PickBook_Crush)" Tags="TestUnsafe" Value="289830" />
+  <Preset Label="Take Selfie With (photoOpStand_SimPicker_TakeSelfieWith)" Tags="TestUnsafe" Value="289834" />
+  <Preset Label="Take Selfie With (si_PhotoOpStand_TakeSelfieWith_Actor)" Value="289836" />
+  <Preset Label="Take Selfie With (sI_PhotoOpStand_TakeSelfieWith_PickedSim)" Value="289837" />
+  <Preset Label="Write in Diary About Crush (superInteraction_TeenRelationshipDrama_CreateCrushBook)" Value="289880" />
+  <Preset Label="Purchase Snacks (vendingMachine_Interactions_Browse_PurchaseItem_HighSchool)" Value="289889" />
+  <Preset Label="Make Purchase (vendingMachine_PurchaseItem_HighSchool)" Tags="TestUnsafe" Value="289890" />
+  <Preset Label="Riding Ferris Wheel (social_PierAttractions_FerrisWheel_RideWith)" Value="289940" />
+  <Preset Label="Riding Tunnel of Love (social_PierAttractions_TunnelLove_RideWith)" Value="289941" />
+  <Preset Label="Riding Haunted House Ride (social_PierAttractions_HauntedHouse_RideWith)" Value="289942" />
+  <Preset Label="mixer_HighSchool_Active_TeachClass" Value="289957" />
+  <Preset Label="Ask For Details About Career (super_Social_HighSchool_Active_AnswerCareerDetails)" Value="290013" />
+  <Preset Label="WooHoo in Photo Booth (mixer_social_WooHooPhotobooth_targeted_romance_transition)" Tags="TestUnsafe" Value="290144" />
+  <Preset Label="WooHoo With (photobooth_wooHoo_Picker)" Tags="TestUnsafe" Value="290145" />
+  <Preset Label="WooHoo (photobooth_wooHoo)" Value="290146" />
+  <Preset Label="Check Photo (photobooth_CheckPhoto_Group)" Value="290153" />
+  <Preset Label="Ask to Take Photo (socials_Targeted_Friendly_AlwaysOn_Photobooth_Friendly)" Tags="TestUnsafe" Value="290161" />
+  <Preset Label="Taking Photo (social_Photobooth_Friendly)" Value="290163" />
+  <Preset Label="Taking Photo (social_Photobooth_Funny)" Value="290164" />
+  <Preset Label="Taking Photo (social_Photobooth_Mischievous)" Value="290165" />
+  <Preset Label="Taking Photo (social_Photobooth_Romantic)" Value="290166" />
+  <Preset Label="Ask to Take Photo (socials_Targeted_Friendly_AlwaysOn_Photobooth_Funny)" Tags="TestUnsafe" Value="290167" />
+  <Preset Label="Ask to Take Photo (socials_Targeted_Friendly_AlwaysOn_Photobooth_Mischievous)" Tags="TestUnsafe" Value="290168" />
+  <Preset Label="Ask to Take Photo (socials_Targeted_Friendly_AlwaysOn_Photobooth_Romantic)" Tags="TestUnsafe" Value="290169" />
+  <Preset Label="Buy Football (si_SchoolLocker_BuyThrowFootball)" Value="290283" />
+  <Preset Label="si_SchoolLocker_Decoration_RandomNPC" Value="290285" />
+  <Preset Label="Tend Stall (marketStalls_Tend_PierAttractions_IceCream)" Value="290512" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_PierAttractions_IceCream)" Value="290513" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_PierAttractions_IceCream_review_CriticCareer)" Value="290514" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_PierAttractions_IceCream)" Value="290518" />
+  <Preset Label="set_Outfit_Marketplace_Price" Value="290532" />
+  <Preset Label="hSPromInteraction_PutOnCrown_Royalty_No_Route" Value="291002" />
+  <Preset Label="hSPromInteraction_PutOnCrown_Jester_No_Route" Value="291003" />
+  <Preset Label="hSPromInteraction_Announcer_WaitByPodium" Value="291272" />
+  <Preset Label="Show Off Fashion Look (thriftStore_Event_Fashion_ShowOffPlayer)" Value="291315" />
+  <Preset Label="Open Social Bunny (immediateSuperInteraction_Social_Media_Open)" Value="291710" />
+  <Preset Label="Listen To Prom Music (stereo_listen_HSProm_Reward)" Value="291996" />
+  <Preset Label="Study for Exam (super_HighSchool_Active_CreateWorkbook_ExamPrep)" Value="292094" />
+  <Preset Label="Study for Exam (super_HighSchool_Active_WriteInBook_ExamPrep)" Value="292095" />
+  <Preset Label="Study for Exam (super_HighSchool_Active_ReadInBook_ExamPrep)" Value="292097" />
+  <Preset Label="Study for Exam (super_HighSchool_Active_Computer_StudyForExam)" Value="292098" />
+  <Preset Label="Everyone but Faculty (door_Padlock_Lock_Everyone_Allow_HighSchoolFaculty)" Value="292253" />
+  <Preset Label="Review Class Schedule (immediate_HighSchool_Active_CheckClassSchedule)" Value="292257" />
+  <Preset Label="mixer_HSProm_CreatePromposalSign_Paint" Value="292365" />
+  <Preset Label="mixer_HSProm_CreatePromposalSign_Idle" Value="292367" />
+  <Preset Label="Shave Back Hair (shower_PubertyChanges_Shave_Back)" Value="292786" />
+  <Preset Label="Shave Back Hair to Preferred Length (shower_PubertyChanges_Shave_Back_Preferred)" Value="292787" />
+  <Preset Label="Shave Back Hair (shower_NoPrivacy_PubertyChanges_Shave_Back)" Value="292790" />
+  <Preset Label="Shave Back Hair to Preferred Length (shower_NoPrivacy_PubertyChanges_Shave_Back_Preferred)" Value="292791" />
+  <Preset Label="Shave Back Hair (mixer_Shower_Shave_Back)" Value="292793" />
+  <Preset Label="Shave Back Hair (mixer_Shower_Shave_Back_Passive)" Value="292794" />
+  <Preset Label="Shave Back Hair to Preferred Length (mixer_Shower_Shave_Back_Preferred)" Value="292796" />
+  <Preset Label="Shave Back Hair to Preferred Length (mixer_Shower_Shave_Back_Preferred_Passive)" Value="292797" />
+  <Preset Label="si_HighSchoolFestival_VictoryDance" Value="293061" />
+  <Preset Label="generic_Photobooth_GroupPhoto" Value="293101" />
+  <Preset Label="highSchoolFestival_VictoryDance_Point" Value="293111" />
+  <Preset Label="highSchoolFestival_VictoryDance_FistPump" Value="293112" />
+  <Preset Label="highSchoolFestival_VictoryDance_SoloDance" Value="293113" />
+  <Preset Label="si_HighSchoolFestival_DanceChooser" Value="293114" />
+  <Preset Label="sI_HighSchoolFestival_SoloDance" Value="293115" />
+  <Preset Label="Attend Math Class (super_HighSchool_Active_Whiteboard_Attend_Math)" Value="293193" />
+  <Preset Label="Attend Science Class (super_HighSchool_Active_Whiteboard_Attend_Science)" Value="293194" />
+  <Preset Label="Attend Social Studies Class (super_HighSchool_Active_Whiteboard_Attend_SocialStudies)" Value="293195" />
+  <Preset Label="Attend Language Arts Class (super_HighSchool_Active_Whiteboard_Attend_LanguageArts)" Value="293196" />
+  <Preset Label="Attend Art Class (super_HighSchool_Active_Whiteboard_Attend_Art)" Value="293197" />
+  <Preset Label="Attend Business Class (super_HighSchool_Active_Whiteboard_Attend_Business)" Value="293198" />
+  <Preset Label="Attend Foreign Language Class (super_HighSchool_Active_Whiteboard_Attend_ForeignLanguage)" Value="293199" />
+  <Preset Label="Attend Computer Science Class (super_HighSchool_Active_Whiteboard_Attend_ComputerScience)" Value="293200" />
+  <Preset Label="Appear on Llama's Lair (si_SideHustle_AppearOnLlamasLair_Start)" Value="293230" />
+  <Preset Label="Take A Seat (superInteraction_HSGraduation_GoSitDown)" Value="293405" />
+  <Preset Label="Watch Fashion Routine (thriftStore_Event_Fashion_Watch)" Value="293528" />
+  <Preset Label="reaction_ThriftStore_Event_Clap" Value="293531" />
+  <Preset Label="Get Ceremonial Diploma (social_Si_HSGraduation_GetDiploma_Autonomous)" Value="293784" />
+  <Preset Label="super_HighSchool_Active_GoToClass_WaitAtWhiteboard" Value="293816" />
+  <Preset Label="Get Ready For Class (super_HighSchool_Active_Ping_GoToObject_NPC)" Value="293864" />
+  <Preset Label="About Fashion Looks (thriftStore_RetailRack_AboutFashion)" Value="294035" />
+  <Preset Label="About Trendi (phone_Trendi_About)" Value="294036" />
+  <Preset Label="careerIconPicker_StreamerSideHustle_Teen" Tags="TestUnsafe" Value="294145" />
+  <Preset Label="Ask For Details About Career (super_HighSchool_Active_AskCareerDetails_Start)" Value="294281" />
+  <Preset Label="Cheat to Win Competition (si_HighSchoolFestival_CheatCompetition1stPlace_Debug)" Value="294768" />
+  <Preset Label="Advertise Video Game Stream Online (computer_Career_SideHustle_AdvertiseHustle_Streamer)" Value="294773" />
+  <Preset Label="Advertise Video Game Stream Online (phone_SideHustle_AdvertiseHustle_Streamer)" Value="294775" />
+  <Preset Label="Show Off Crown (socialSuperInteraction_ShowOffHat_HSProm)" Value="294870" />
+  <Preset Label="Show Off Graduation Cap (socialSuperInteraction_ShowOffHat_HSGraduation)" Value="294871" />
+  <Preset Label="Get Lectured (super_Social_HighSchool_Active_RespondToMean)" Value="294891" />
+  <Preset Label="Get Lectured (super_Social_HighSchool_Active_RespondToMean_Target)" Value="294892" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Distracted" Value="294897" />
+  <Preset Label="Mess Around With (photoBooth_messAround_Picker)" Tags="TestUnsafe" Value="294912" />
+  <Preset Label="generic_CheerMat_Group" Value="295035" />
+  <Preset Label="autonomous_ObjectPicker_HSGraduation_Podium" Tags="TestUnsafe" Value="295369" />
+  <Preset Label="Go to College Party (OpenableWindow_GoToEvent_CollegeParty_Self)" Value="295459" />
+  <Preset Label="Go to Hang Out with Friends (openableWindow_GoToEvent_HangOut_Self)" Value="295460" />
+  <Preset Label="Go to Loiter with Friends (openableWindow_GoToEvent_Loitering_Self)" Value="295461" />
+  <Preset Label="Go to the Pop Concert (openableWindow_GoToEvent_PopConcert_Self)" Value="295462" />
+  <Preset Label="Go to the R-Rated Movie (openableWindow_GoToEvent_RMovie_Self)" Value="295463" />
+  <Preset Label="Go to High School Sports Game (openableWindow_GoToEvent_SchoolGame_Self)" Value="295464" />
+  <Preset Label="Go to the Sleepover (openableWindow_GoToEvent_Sleepover_Self)" Value="295465" />
+  <Preset Label="Sneak to the College Party (openableWindow_GoToEvent_CollegeParty_Sneak_Self)" Value="295467" />
+  <Preset Label="Sneak to Hang Out with Friends (openableWindow_GoToEvent_HangOut_Sneak_Self)" Value="295478" />
+  <Preset Label="Sneak to Loiter with Friends (openableWindow_GoToEvent_Loitering_Sneak_Self)" Value="295479" />
+  <Preset Label="Sneak to the Pop Concert (openableWindow_GoToEvent_PopConcert_Sneak_Self)" Value="295480" />
+  <Preset Label="Sneak to the R-Rated Movie (openableWindow_GoToEvent_RMovie_Sneak_Self)" Value="295481" />
+  <Preset Label="Sneak to High School Sports Game (openableWindow_GoToEvent_SchoolGame_Sneak_Self)" Value="295482" />
+  <Preset Label="Sneak to the Sleepover (openableWindow_GoToEvent_Sleepover_Sneak_Self)" Value="295483" />
+  <Preset Label="Show Off Diploma (social_Si_HSGraduation_ShowOffDiploma)" Value="295748" />
+  <Preset Label="super_Social_HighSchool_Active_NPC_Puberty_Joke" Value="295759" />
+  <Preset Label="Try for Baby (photobooth_TryForBaby)" Value="295790" />
+  <Preset Label="Try for Baby in Photo Booth (mixer_Social_TryForBabyInPhotobooth_targeted_romance_transition)" Tags="TestUnsafe" Value="295791" />
+  <Preset Label="Try for Baby With (photobooth_TryForBaby_Female_Picker)" Tags="TestUnsafe" Value="295792" />
+  <Preset Label="Try for Baby With (photobooth_TryForBaby_Male_Picker)" Tags="TestUnsafe" Value="295793" />
+  <Preset Label="autonomousSimPicker_Puberty_Joke" Tags="TestUnsafe" Value="295914" />
+  <Preset Label="Sweetheart Dance Together (simPickerInteraction_PairedDancing_Teens_DanceFloorDanceTogether)" Tags="TestUnsafe" Value="296041" />
+  <Preset Label="Sweetheart Dance Together (simPickerInteraction_PairedDancing_Teens_StereoDanceTogether)" Tags="TestUnsafe" Value="296042" />
+  <Preset Label="Sweetheart Dance Together (social_PairedDancing_Teens)" Value="296044" />
+  <Preset Label="Sweetheart Dance Together (social_PairedDancing_Teens_Listen)" Value="296045" />
+  <Preset Label="Sweetheart Dance Together (social_PairedDancing_Teens_Staging)" Value="296046" />
+  <Preset Label="Sweetheart Dance Together (pairedDancing_MoveToDanceFloor_Teens)" Value="296047" />
+  <Preset Label="generic_PairedDancing_HSProm_Teens" Value="296049" />
+  <Preset Label="React to First Puberty Changes (super_PubertyChanges_FirstTimeReact)" Value="296389" />
+  <Preset Label="White (hSGraduation_ChangeGradOutfit_White)" Value="296484" />
+  <Preset Label="Red (hSGraduation_ChangeGradOutfit_Red)" Value="296487" />
+  <Preset Label="Black (hSGraduation_ChangeGradOutfit_Black)" Value="296592" />
+  <Preset Label="Trimmed White (hSGraduation_ChangeGradOutfit_WhiteB)" Value="296593" />
+  <Preset Label="Brown (hSGraduation_ChangeGradOutfit_Brown)" Value="296594" />
+  <Preset Label="Pink (hSGraduation_ChangeGradOutfit_Coral)" Value="296595" />
+  <Preset Label="Gray (hSGraduation_ChangeGradOutfit_Gray)" Value="296596" />
+  <Preset Label="Green (hSGraduation_ChangeGradOutfit_Green)" Value="296597" />
+  <Preset Label="Blue (hSGraduation_ChangeGradOutfit_NavyRed)" Value="296598" />
+  <Preset Label="Yellow (hSGraduation_ChangeGradOutfit_Orange)" Value="296599" />
+  <Preset Label="Purple (hSGraduation_ChangeGradOutfit_Purple)" Value="296600" />
+  <Preset Label="Attend Exam Prep (super_HighSchool_Active_AttendClass_ExamPrep)" Value="296636" />
+  <Preset Label="Attend Exam Prep (autoObjectPicker_HighSchool_Active_FindWhiteboard2)" Tags="TestUnsafe" Value="296638" />
+  <Preset Label="Attend Exam Prep (immediate_HighSchool_Active_AttendExamPrep_FromTeacher)" Value="296639" />
+  <Preset Label="super_HighSchool_Active_Janitor_CleanToilet" Value="296872" />
+  <Preset Label="super_HighSchool_Active_Janitor_CleanSink" Value="296873" />
+  <Preset Label="super_HighSchool_Active_Janitor_CreatePuddle" Value="296876" />
+  <Preset Label="super_HighSchool_Active_Janitor_CleanPuddle" Value="297001" />
+  <Preset Label="super_HighSchool_Active_Janitor_CleanTable" Value="297006" />
+  <Preset Label="Sneak to the College Party (openableWindow_GoToEvent_Sneak_Window_Starter)" Value="297242" />
+  <Preset Label="Perform T-Pose Challenge (super_HighSchool_Active_PerformTPose_NPC)" Value="297253" />
+  <Preset Label="Debug: Force Chance Cards in High School (immediate_HighSchool_Active_Debug_ForceChanceCard)" Value="297342" />
+  <Preset Label="super_HighSchool_Active_MonitorDetention" Value="297586" />
+  <Preset Label="mixer_HighSchool_Active_TeachClass_Wait" Value="297778" />
+  <Preset Label="super_HighSchool_Active_AttendClass_NPC" Value="297779" />
+  <Preset Label="mixer_HighSchool_Active_UsePhone" Value="297792" />
+  <Preset Label="Make Bubble Tea (bubbleTea_MakeDrink_Autonomous)" Value="298180" />
+  <Preset Label="Watch Gaming Streams on Sims.tv (computer_Browse_WatchLiveStreams_Gaming)" Value="298242" />
+  <Preset Label="Watch Lifestyle Streams on Sims.tv (computer_Browse_WatchLiveStreams_Lifestyle)" Value="298243" />
+  <Preset Label="sI_PhotoOpStand_TakeSelfieWith_PhotoDelay" Value="298560" />
+  <Preset Label="Scrap (immediate_SimsfluencerSideHustle_ScrapReview)" Value="298700" />
+  <Preset Label="super_HighSchool_Active_NPC_Lunch_CreateFood" Value="298823" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Distracted_Science" Value="299713" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Distracted_SocialStudies" Value="299714" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Distracted_LanguageArts" Value="299715" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Distracted_Art" Value="299716" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Distracted_ComSci" Value="299717" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Distracted_Business" Value="299718" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Distracted_ForeignLanguage" Value="299719" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Generic_Art" Value="299720" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Generic_Business" Value="299721" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Generic_LanguageArts" Value="299722" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Generic_ComSci" Value="299723" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Generic_Science" Value="299724" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Generic_SocialStudies" Value="299725" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Generic_ForeignLanguage" Value="299726" />
+  <Preset Label="Try To Get Over Crush (simPickerInteraction_Sentiment_Crush_TryToGetOverCrush)" Tags="TestUnsafe" Value="299825" />
+  <Preset Label="Try To Get Over Crush (solo_Sentiment_Crush_TryToGetOverCrush)" Value="299826" />
+  <Preset Label="Check Grades (super_HighSchool_Active_Computer_CheckGrades)" Value="300038" />
+  <Preset Label="Make Lifestyle Review (si_SimsfluencerSideHustle_MakeReview_Lifestyle)" Value="300356" />
+  <Preset Label="Make Technology Review (si_SimsfluencerSideHustle_MakeReview_Tech)" Value="300360" />
+  <Preset Label="Make Rare Item Review (si_SimsfluencerSideHustle_MakeReview_Rare)" Value="300361" />
+  <Preset Label="Upload Rare Item Review (si_SimsfluencerSideHustle_UploadReview_Rare)" Value="300362" />
+  <Preset Label="Upload Technology Review (si_SimsfluencerSideHustle_UploadReview_Tech)" Value="300363" />
+  <Preset Label="Upload Lifestyle Review (si_SimsfluencerSideHustle_UploadReview_Lifestyle)" Value="300364" />
+  <Preset Label="Perform Solo Routine (si_CheerMat_Solo_CheerOutfit)" Value="300371" />
+  <Preset Label="Present Promposal Sign (objectPicker_FindPromposalSign)" Tags="TestUnsafe" Value="300441" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_ThrowFootball)" Value="300509" />
+  <Preset Label="Study for Exam (super_HighSchool_Active_CreateBook_Bookshelf)" Value="300751" />
+  <Preset Label="Watch Award Ceremony (hSPromInteraction_WatchAwards)" Value="301075" />
+  <Preset Label="objectPicker_SimsfluencerSideHustle_Review_Lifestyle" Tags="TestUnsafe" Value="301136" />
+  <Preset Label="objectPicker_SimsfluencerSideHustle_Review_Tech" Tags="TestUnsafe" Value="301137" />
+  <Preset Label="objectPicker_SimsfluencerSideHustle_Review_Rare" Tags="TestUnsafe" Value="301138" />
+  <Preset Label="objectPicker_SimsfluencerSideHustle_Upload_Lifestyle" Tags="TestUnsafe" Value="301139" />
+  <Preset Label="objectPicker_SimsfluencerSideHustle_Upload_Tech" Tags="TestUnsafe" Value="301140" />
+  <Preset Label="objectPicker_SimsfluencerSideHustle_Upload_Rare" Tags="TestUnsafe" Value="301141" />
+  <Preset Label="Upload Lifestyle Review (computer_Career_SimsfluencerSideHustle_Upload_Lifestyle)" Value="301145" />
+  <Preset Label="Upload Rare Item Review (computer_Career_SimsfluencerSideHustle_Upload_Rare)" Value="301147" />
+  <Preset Label="Upload Technology Review (computer_Career_SimsfluencerSideHustle_Upload_Tech)" Value="301148" />
+  <Preset Label="Uninvite to Prom (socials_Targeted_Mean_AlwaysOn_STC_HSProm_Uninvite)" Tags="TestUnsafe" Value="301277" />
+  <Preset Label="Perform Solo Routine (si_CheerMat_Solo_Start)" Value="301285" />
+  <Preset Label="Review Class Schedule (super_HighSchool_Active_Computer_ReviewClassSchedule)" Value="301722" />
+  <Preset Label="Attend Class (super_HighSchool_Active_Whiteboard_Attend_Class_Debug)" Value="302123" />
+  <Preset Label="Create a Promposal Sign (create_HSProm_promposalSign_PlaceObject)" Value="302634" />
+  <Preset Label="Plant Stink Capsule (teenPranks_Object_StinkCapsule_PlantSuccess)" Value="302643" />
+  <Preset Label="mixer_hsGraduation_GiveValedictorianSpeech" Value="302693" />
+  <Preset Label="hSPromInteraction_Preroll_Vote" Value="302819" />
+  <Preset Label="si_CheerMat_Group_ClothingChange" Value="302832" />
+  <Preset Label="hSPromInteraction_Preroll_Dance" Value="302922" />
+  <Preset Label="Perform Group Cheerleading Routine (si_CheerMat_Group_StartSequence_01_Display)" Value="302999" />
+  <Preset Label="hSPromInteraction_Preroll_Stand" Value="303019" />
+  <Preset Label="socialSuper_NPCRelationshipAutonomy_Reaction_Sad" Value="303056" />
+  <Preset Label="socialSuper_NPCRelationshipAutonomy_Reaction_Happy" Value="303057" />
+  <Preset Label="Sweetheart Dance Together (autonomousSimPicker_PairedDancing_Teens)" Tags="TestUnsafe" Value="303075" />
+  <Preset Label="hSPromInteraction_Teen_WatchClap_Crown" Value="303096" />
+  <Preset Label="hSPromInteraction_Teen_WatchClap_Promposal" Value="303097" />
+  <Preset Label="Order Drink (bubbleTeaCounter_PushOrderDrink_NonVenue)" Value="303226" />
+  <Preset Label="Order Food (bubbleTeaCounter_PushOrderFood_NonVenue)" Value="303228" />
+  <Preset Label="Listen to {1.SimFirstName}'s Question (social_TeenPranks_PushAffordance_Dare)" Value="303346" />
+  <Preset Label="Careers (super_HighSchool_Active_Patrol_Bathroom)" Value="303583" />
+  <Preset Label="Careers (super_HighSchool_Active_Patrol_Cafeteria)" Value="303584" />
+  <Preset Label="Careers (super_HighSchool_Active_Patrol_Hallway)" Value="303585" />
+  <Preset Label="Careers (super_HighSchool_Active_Patrol_Misc)" Value="303586" />
+  <Preset Label="si_SideHustle_DestroyBusinessPlan" Value="304044" />
+  <Preset Label="super_HighSchool_Active_AttendClass_NPC_ExamPrep" Value="304061" />
+  <Preset Label="mixer_HighSchool_Active_UsePhone_ExamPrep" Value="304064" />
+  <Preset Label="mixer_HighSchool_Active_Listen_Generic_ExamPrep" Value="304067" />
+  <Preset Label="Take Notes (super_HighSchool_Active_UseBook_ExamPrep)" Value="304068" />
+  <Preset Label="Careers (super_HighSchool_Active_CreateBook_ExamPrep)" Value="304070" />
+  <Preset Label="super_HighSchool_Active_Whiteboard_TeachExamPrep" Value="304083" />
+  <Preset Label="Absolve Fears (urnstone_Fear_DisappointingParents_Confrontation)" Value="304163" />
+  <Preset Label="Attend Exam (super_HighSchool_Active_AttendExam_NPC)" Value="304182" />
+  <Preset Label="Watch Career Presentation (super_HighSchool_Active_CareerDay_WatchSpeech_Preroll1)" Value="304418" />
+  <Preset Label="Watch Career Presentation (super_HighSchool_Active_CareerDay_WatchSpeech_Preroll2)" Value="304419" />
+  <Preset Label="Watch Career Presentation (super_HighSchool_Active_CareerDay_WatchSpeech_Preroll3)" Value="304420" />
+  <Preset Label="Regular Football Practice with {1.SimFirstName} (touching_ThrowFootball_Play_NPC_HighSchool_Active)" Value="304437" />
+</PresetGroup>

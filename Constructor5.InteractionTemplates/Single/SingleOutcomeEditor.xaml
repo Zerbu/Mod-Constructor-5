@@ -43,26 +43,6 @@
                               IsChecked="{Binding IsGlobalInteraction}" />-->
                 </StackPanel>
             </c:TabItem>
-            <!--<c:TabItem Background="Transparent"
-                     FontSize="{StaticResource Constructor.BigFontSize}"
-                     Header="Balloons">
-                <StackPanel>
-                    <c:Field Label="BalloonSet" LabelWidth="150">
-                        <c:ReferenceControl EditorCategory="Invalid"
-                                                 ElementTypeName="BalloonSet"
-                                                 Reference="{Binding BalloonSet}"
-                                                 ShowCreateButton="True" />
-                    </c:Field>
-                    <c:ObjectEditorControl EditorCategory="Default"
-                                                EditorTag="NoScrollbar"
-                                                Object="{Binding BalloonSet.Element}" />
-                </StackPanel>
-            </c:TabItem>-->
-            <!--<c:TabItem Header="Standard Content" Background="Transparent" FontSize="{StaticResource Constructor.BigFontSize}">
-                <StackPanel>
-
-                </StackPanel>
-            </c:TabItem>-->
         </c:TabControl>
     </StackPanel>
 </UserControl>

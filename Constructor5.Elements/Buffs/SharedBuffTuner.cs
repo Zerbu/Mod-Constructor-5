@@ -1,19 +1,17 @@
 using Constructor5.Base.CustomTuning;
 using Constructor5.Base.ElementSystem;
-using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Constructor5.Elements.CASPreferences;
+using Constructor5.Elements.Traits;
 
 namespace Constructor5.Elements.Buffs
 {
     public static class SharedBuffTuner
     {
+        public static bool AlwaysHasContent(Element element) => element.GetContextModifier<CASPreferenceContextModifier>() != null;
+
         public static TuningHeader CreateTuning(Element element, BuffComponent[] components, string subTuningName = null)
         {
             var tuning = ElementTuning.Create(element, subTuningName);
@@ -36,6 +34,19 @@ namespace Constructor5.Elements.Buffs
                     continue;
                 }
                 component.OnExport(context);
+            }
+
+            var preferenceModifier = element.GetContextModifier<CASPreferenceContextModifier>();
+            if (preferenceModifier != null)
+            {
+                if (preferenceModifier.IsBuff)
+                {
+                    TunePreferenceBuff(tuning, preferenceModifier);
+                }
+                else
+                {
+                    new PreferenceTraitTuner(context, preferenceModifier).TunePreferenceTrait();
+                }
             }
 
             AddCommodities(context);
@@ -65,6 +76,43 @@ namespace Constructor5.Elements.Buffs
             foreach (var key in context.CommodityKeysToAdd)
             {
                 tunableList2.Set<TunableBasic>(null, key);
+            }
+
+            foreach (var commodityTuning in context.IntervalCommodities.Values)
+            {
+                TuningExport.AddToQueue(commodityTuning);
+            }
+        }
+
+        private static void TunePreferenceBuff(TuningBase tuning, CASPreferenceContextModifier preferenceModifier)
+        {
+            var preference = (CASPreference)preferenceModifier.CASPreference.Element;
+
+            if (preferenceModifier.IsDislike)
+            {
+                var tunableTuple1 = tuning.Get<TunableTuple>("game_effect_modifier");
+                var tunableList1 = tunableTuple1.Get<TunableList>("_game_effect_modifiers");
+                var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "continuous_statistic_modifier");
+                var tunableTuple2 = tunableVariant1.Get<TunableTuple>("continuous_statistic_modifier");
+                tunableTuple2.Set<TunableBasic>("modifier_value", "0.5");
+                tunableTuple2.Set<TunableBasic>("statistic", "259983");
+                var tunableVariant2 = tunableList1.Set<TunableVariant>(null, "continuous_statistic_modifier");
+                var tunableTuple3 = tunableVariant2.Get<TunableTuple>("continuous_statistic_modifier");
+                tunableTuple3.Set<TunableBasic>("modifier_value", "-1");
+                tunableTuple3.Set<TunableBasic>("statistic", "16655");
+            }
+            else
+            {
+                var tunableTuple1 = tuning.Get<TunableTuple>("game_effect_modifier");
+                var tunableList1 = tunableTuple1.Get<TunableList>("_game_effect_modifiers");
+                var tunableVariant1 = tunableList1.Set<TunableVariant>(null, "continuous_statistic_modifier");
+                var tunableTuple2 = tunableVariant1.Get<TunableTuple>("continuous_statistic_modifier");
+                tunableTuple2.Set<TunableBasic>("modifier_value", "-1");
+                tunableTuple2.Set<TunableBasic>("statistic", "259983");
+                var tunableVariant2 = tunableList1.Set<TunableVariant>(null, "continuous_statistic_modifier");
+                var tunableTuple3 = tunableVariant2.Get<TunableTuple>("continuous_statistic_modifier");
+                tunableTuple3.Set<TunableBasic>("modifier_value", "1");
+                tunableTuple3.Set<TunableBasic>("statistic", "16655");
             }
         }
     }

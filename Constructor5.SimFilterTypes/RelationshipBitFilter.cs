@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Constructor5.SimFilterTypes
 {
-    [SelectableObjectType("SimFilterTypes", "Relationship Bit Filter")]
+    [SelectableObjectType("SimFilterTypes", "RelationshipBitFilter")]
     [XmlSerializerExtraType]
     public class RelationshipBitFilter : SimFilterTerm
     {

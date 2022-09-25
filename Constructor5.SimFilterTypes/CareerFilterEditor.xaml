@@ -13,14 +13,14 @@
         <c:Field Label="Career" LabelWidth="100">
             <c:ReferenceControl ElementTypeName="Career" Reference="{Binding Career}" />
         </c:Field>
-        <c:CheckBox Content="Restrict Career Level" IsChecked="{Binding RestrictCareerLevel}" />
+        <c:CheckBox Content="RestrictCareerLevel" IsChecked="{Binding RestrictCareerLevel}" />
         <StackPanel Visibility="{Binding RestrictCareerLevel, Converter={StaticResource BoolToVis}}">
-            <c:TextBlock Text="Note: The game only supports filtering the EXACT career level, not a minimum or maximum." />
+            <c:TextBlock Text="CareerFilterNotice" />
             <c:Field Label="CareerLevel" LabelWidth="100">
                 <xctk:IntegerUpDown Minimum="1" Text="{Binding CareerLevel}" />
             </c:Field>
         </StackPanel>
-        <c:CheckBox Content="Prefer Sims who have been in the career for longer" IsChecked="{Binding PreferSeniority}" />
+        <c:CheckBox Content="CareerFilterSeniorityHelp" IsChecked="{Binding PreferSeniority}" />
         <c:CheckBox Content="Inverted" IsChecked="{Binding InvertScore}" />
     </StackPanel>
 </UserControl>

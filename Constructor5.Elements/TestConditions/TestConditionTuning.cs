@@ -10,7 +10,7 @@ namespace Constructor5.Elements.TestConditions
     {
         public static void TuneTestList(TuningBase tuning, IEnumerable<TestCondition> conditions, string tunableName)
         {
-            var nonIgnoredConditions = conditions.Where(x => !(x is AlwaysRunCondition));
+            var nonIgnoredConditions = conditions.Where(x => !(x is NoTestConditionSelected));
 
             if (nonIgnoredConditions.Count() == 0)
             {
@@ -26,7 +26,7 @@ namespace Constructor5.Elements.TestConditions
             }
         }
 
-        public static void TuneTestConditions(TuningBase tuning, IEnumerable<TestCondition> conditions, string listTunableName = null)
+        public static void TuneTestConditions(TuningBase tuning, IEnumerable<TestCondition> conditions, string listTunableName = null, string contextTag = null)
         {
             if (conditions.Count() == 0)
             {
@@ -38,7 +38,7 @@ namespace Constructor5.Elements.TestConditions
 
             foreach (var condition in conditions)
             {
-                condition.OnExportMain(listTunable);
+                condition.OnExportMain(listTunable, null, contextTag);
             }
         }
 

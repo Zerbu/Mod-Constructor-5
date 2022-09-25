@@ -9,7 +9,7 @@ using System;
 namespace Constructor5.Elements.SituationJobs.Components
 {
     [XmlSerializerExtraType]
-    [HasAutoEditor("Only Sims that match this filter can be part of the situation.")]
+    [HasAutoEditor("SimFilterNotice")]
     public class SituationJobSimFilterComponent : SituationJobComponent
     {
         public override string ComponentLabel => "Filter";

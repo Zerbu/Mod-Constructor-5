@@ -1,0 +1,18 @@
+﻿using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Core;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Constructor5.Elements.WeeklyScheduleSituationSets
+{
+    [XmlSerializerExtraType]
+    public class WeeklyScheduleSituationSetItem : ReferenceListItem
+    {
+        public bool Unlimited { get; set; }
+        public int Weight { get; set; } = 1;
+    }
+}

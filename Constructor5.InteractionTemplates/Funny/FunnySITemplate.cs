@@ -26,6 +26,9 @@ namespace Constructor5.InteractionTemplates.Funny
         [AutoTuneBasic("category")]
         public Reference PieMenuCategory { get; set; } = new Reference(15508, "Funny");
 
+        public Reference ScoreType { get; set; } = new Reference() { GameReferenceLabel = "Funny", GameReference = 24570 };
+        public Reference ScoreTypeAvailability { get; set; } = new Reference() { GameReferenceLabel = "Funny", GameReference = 24571 };
+
         public string TuningActionsFile { get; set; } = "Funny";
 
         protected override void OnExport(InteractionExportContext context)

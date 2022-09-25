@@ -39,6 +39,11 @@ namespace Constructor5.SituationGoalTemplates.Single
             {
                 TuneRoleTags(context);
             }
+
+            if (InSituationOnly)
+            {
+                context.Tuning.Set<TunableBasic>("_select_all_instantiated_sims", "False");
+            }
         }
 
         private void TuneRoleTags(SituationGoalExportContext context)

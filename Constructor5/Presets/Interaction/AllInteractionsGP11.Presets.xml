@@ -96,7 +96,6 @@
   <Preset Label="Walk Up with (simPicker_Wedding_Aisle_WalkTogetherUp)" Tags="TestUnsafe" Value="277071" />
   <Preset Label="Walk Up Aisle with {1.SimFirstName} (wedding_Aisle_Start_WalkTogetherUp)" Value="277073" />
   <Preset Label="Ask About Flower Bouquet (mixer_social_Wedding_Bouquet_AskAbout)" Tags="TestUnsafe" Value="277144" />
-  <Preset Label="Ask for Bouquet of Flowers Back (mixer_social_Wedding_Bouquet_AskForBouquetBack)" Tags="TestUnsafe" Value="277145" />
   <Preset Label="Express Anger Over Wedding Day Bouquet Toss (mixer_social_Wedding_Bouquet_AngerOverToss)" Tags="TestUnsafe" Value="277147" />
   <Preset Label="Express Joy Over Wedding Day Bouquet Toss (mixer_social_Wedding_Bouquet_JoyOverToss)" Tags="TestUnsafe" Value="277148" />
   <Preset Label="Walk Up Aisle with {1.SimFirstName} (wedding_Aisle_WalkTogetherUp_Actor)" Value="277155" />
@@ -114,13 +113,6 @@
   <Preset Label="View Sand Art (art_View_SandPlay)" Value="277477" />
   <Preset Label="Walk Down Aisle (wedding_Aisle_WalkDown_Flower)" Value="277535" />
   <Preset Label="Walk Up Aisle (wedding_Aisle_WalkUp_Flower)" Value="277537" />
-  <Preset Label="socialMixerInteraction_PairedDancing_Dip" Tags="TestUnsafe" Value="277623" />
-  <Preset Label="socialMixerInteraction_PairedDancing_Turn" Tags="TestUnsafe" Value="277624" />
-  <Preset Label="socialMixerInteraction_PairedDancing_Flare" Tags="TestUnsafe" Value="277625" />
-  <Preset Label="socialMixerInteraction_PairedDancing_Twirl" Tags="TestUnsafe" Value="277626" />
-  <Preset Label="Kiss while Dancing (socialMixerInteraction_PairedDancing_UserDirected_Kiss)" Tags="TestUnsafe" Value="277652" />
-  <Preset Label="Flirt while Dancing (socialMixerInteraction_PairedDancing_UserDirected_Flirt)" Tags="TestUnsafe" Value="277653" />
-  <Preset Label="Chat while Dancing (socialMixerInteraction_PairedDancing_UserDirected_Chat)" Tags="TestUnsafe" Value="277654" />
   <Preset Label="Start Bouquet Throw (social_flowerbouquet_tell_start_throw_OnTerrain)" Value="277661" />
   <Preset Label="Go Here (si_moveAway_Wedding_Aisle_Exit)" Value="277690" />
   <Preset Label="Read Message (sandPlay_ReadMessage_Friendly)" Value="277793" />
@@ -221,8 +213,8 @@
   <Preset Label="Make Wedding Cake (stove_CookGourmet_WeddingCake)" Value="280422" />
   <Preset Label="Give Toast (wedding_MakeWeddingToastDrink_Listeners_Success)" Value="280536" />
   <Preset Label="Give Toast (wedding_MakeWeddingToastDrink_Listeners_Failure)" Value="280538" />
-  <Preset Label="Give Toast (weddingToast_Reaction_Failure)" Value="280541" />
-  <Preset Label="Give Toast (weddingToast_Reaction_Success)" Value="280542" />
+  <Preset Label="Listen to {1.SimFirstName}'s Toast (weddingToast_Reaction_Failure)" Value="280541" />
+  <Preset Label="Listen to {1.SimFirstName}'s Toast (weddingToast_Reaction_Success)" Value="280542" />
   <Preset Label="Bow and Serve Tea to (simPicker_TeaSet_Offer_Bow)" Tags="TestUnsafe" Value="280552" />
   <Preset Label="Kneel and Serve Tea to (simPicker_TeaSet_Offer_Kneel)" Tags="TestUnsafe" Value="280553" />
   <Preset Label="Kneel and Serve Tea (social_TeaSet_Offer_Kneel)" Value="280554" />
@@ -300,14 +292,12 @@
   <Preset Label="mixer_FlowerBouquet_Idle_Prepare1" Value="283804" />
   <Preset Label="mixer_FlowerBouquet_Idle_Prepare0" Value="283805" />
   <Preset Label="mixer_FlowerBouquet_Idle_Waiting" Value="283833" />
-  <Preset Label="socialMixerInteraction_PairedDancing_SwayIdle" Tags="TestUnsafe" Value="283976" />
   <Preset Label="Reminisce About Wedding Day (mixer_social_ReminisceAboutWedding_targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="284090" />
   <Preset Label="Ask to be Flower Pal at Wedding (mixer_social_AskToBeFlowerSpreader_ChildTarget)" Tags="TestUnsafe" Value="284385" />
   <Preset Label="Ask to be Ring Bearer at Wedding (mixer_social_AskToBeRingBearer_ChildTarget)" Tags="TestUnsafe" Value="284386" />
   <Preset Label="Plan Wedding Event (computer_PlanWeddingEvent)" Value="284706" />
   <Preset Label="Enthuse about Upcoming Wedding (mixer_social_EnthuseAboutWedding_ActorEngaged)" Tags="TestUnsafe" Value="284982" />
   <Preset Label="Make Joke about Marriage (mixer_social_JokeAboutMarriage_ActorEngaged)" Tags="TestUnsafe" Value="284984" />
-  <Preset Label="Let's Eat Desserts (prePostWeddingParties_LetsDoActivity_Desserts_WeddingCeremony)" Value="285123" />
   <Preset Label="wedding_Immediate_SetCakeForWeddingCeremony" Value="285605" />
   <Preset Label="Exchange Vows with Officiant (picker_Custom_State_Wedding_Vows_OfficiantVows)" Tags="TestUnsafe" Value="285814" />
   <Preset Label="Exchange Vows with Officiant and Kiss (picker_Custom_State_Wedding_Vows_OfficiantVowsKiss)" Tags="TestUnsafe" Value="285815" />
@@ -315,4 +305,22 @@
   <Preset Label="Exchange Vows and Kiss (picker_Custom_State_Wedding_Vows_VowsKiss)" Tags="TestUnsafe" Value="285817" />
   <Preset Label="Spousal Kiss (picker_Custom_State_Wedding_SpousalKiss)" Tags="TestUnsafe" Value="285836" />
   <Preset Label="Slow Dance Together (social_PairedDancing_Staging)" Value="286033" />
+  <Preset Label="mixers_Custom_State_Wedding_VowCeremony_ExchangeRings_Confident_Reversed" Tags="TestUnsafe" Value="286174" />
+  <Preset Label="mixers_Custom_State_Wedding_VowCeremony_ExchangeRings_Dreamy_Reversed" Tags="TestUnsafe" Value="286175" />
+  <Preset Label="mixers_Custom_State_Wedding_VowCeremony_ExchangeRings_Shy_Reversed" Tags="TestUnsafe" Value="286176" />
+  <Preset Label="Please Take your Seats (objectPicker_Custom_State_Wedding_TakeSeats_Arch)" Tags="TestUnsafe" Value="286413" />
+  <Preset Label="Purchase Wedding Cake (marketStalls_ShopFor_WeddingCake_Patisserie)" Value="286725" />
+  <Preset Label="Purchase Wedding Cake (purchase_MarketStalls_Wedding_Cake)" Tags="TestUnsafe" Value="286727" />
+  <Preset Label="Kiss (wedding_BrideGroom_AfterKiss_Delay_Townhall)" Tags="TestUnsafe" Value="286990" />
+  <Preset Label="wedding_EndSuccess_TownHall" Tags="TestUnsafe" Value="286998" />
+  <Preset Label="Let's Eat Desserts (wedding_Immediate_Desserts)" Value="288436" />
+  <Preset Label="Listen to {1.SimFirstName}'s Toast (weddingToast_MakeToast_Listen_Success)" Value="291132" />
+  <Preset Label="Listen To Speech (custom_State_Wedding_ListenSpeech_Officiant)" Value="291144" />
+  <Preset Label="Listen to {1.SimFirstName}'s Toast (weddingToast_MakeToast_Listen_Failure)" Value="291206" />
+  <Preset Label="Listen to {1.SimFirstName}'s Toast (weddingToast_MakeToast_Listen_Failure_NonSeated)" Value="291259" />
+  <Preset Label="Listen to {1.SimFirstName}'s Toast (weddingToast_MakeToast_Listen_Success_NonSeated)" Value="291261" />
+  <Preset Label="Gather at the Aisle (objectPicker_Custom_State_Wedding_ProcessionalGather)" Tags="TestUnsafe" Value="291331" />
+  <Preset Label="Gather For Recessional (objectPicker_Custom_State_Wedding_RecessionalGather)" Tags="TestUnsafe" Value="292081" />
+  <Preset Label="Have Sim Stop Sitting (wedding_Immediate_StopSitting)" Value="292133" />
+  <Preset Label="Perform Officiant Speech (wedding_Immediate_Officiant_GiveSpeech)" Value="292233" />
 </PresetGroup>

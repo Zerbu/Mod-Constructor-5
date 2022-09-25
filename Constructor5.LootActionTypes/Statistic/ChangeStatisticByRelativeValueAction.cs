@@ -6,7 +6,7 @@ using Constructor5.Core;
 
 namespace Constructor5.LootActionTypes.Statistic
 {
-    [SelectableObjectType("LootActionTypes", "ChangeStatisticByFixedAmount")]
+    [SelectableObjectType("LootActionTypes", "StatisticsChangeStatisticByFixedAmount")]
     [XmlSerializerExtraType]
     public class ChangeStatisticByRelativeValueAction : StatisticActionBase
     {

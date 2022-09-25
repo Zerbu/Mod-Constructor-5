@@ -4,6 +4,7 @@ using Constructor5.Base.Export;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.ExportSystem.TuningActions;
+using Constructor5.Elements.Careers.Components;
 using Constructor5.Elements.Interactions.Shared;
 
 namespace Constructor5.Elements.Interactions.Career
@@ -34,7 +35,15 @@ namespace Constructor5.Elements.Interactions.Career
 
         private void Tune(TuningHeader tuning)
         {
-            TuningActionInvoker.InvokeFromFile("Career Interaction", new TuningActionContext
+            var actionFile = "Career Interaction";
+
+            var modifier = GetContextModifier<CareerInteractionContextModifier>();
+            if (modifier != null)
+            {
+                actionFile = ((Careers.Career)modifier.Career.Element).GetComponent<CareerTemplateComponent>().Template.GetInteractionTuningActionsFile();
+            }
+
+            TuningActionInvoker.InvokeFromFile(actionFile, new TuningActionContext
             {
                 Tuning = tuning,
                 DataContext = this

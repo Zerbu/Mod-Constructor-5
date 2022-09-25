@@ -13,7 +13,7 @@ using System.Linq;
 
 namespace Constructor5.Elements.ObjectiveSets
 {
-    [ElementTypeData("ObjectiveSet", false, ElementTypes = new[] { typeof(ObjectiveSet) }, PresetFolders = new[] { "ObjectiveSet" })]
+    [ElementTypeData("ObjectiveSet", true, ElementTypes = new[] { typeof(ObjectiveSet) }, PresetFolders = new[] { "ObjectiveSet" })]
     public class ObjectiveSet : Element, IExportableElement, ISupportsCustomTuning
     {
         [AutoTuneIfFalse("do_not_register_events_on_load", "True")]
@@ -57,6 +57,13 @@ namespace Constructor5.Elements.ObjectiveSets
                 simDataFile = "SimData/ObjectiveSetAssignment.data";
             }
 
+            var gigModifier = GetContextModifier<CareerAssignmentGigContextModifier>();
+            if (gigModifier != null)
+            {
+                tuning.Class = "AspirationGig";
+                simDataFile = "SimData/ObjectiveSetGig.data";
+            }
+
             tuning.SimDataHandler = new SimDataHandler(simDataFile);
 
             AutoTunerInvoker.Invoke(this, tuning);
@@ -82,7 +89,7 @@ namespace Constructor5.Elements.ObjectiveSets
                 }
             }
 
-            if (careerModifier != null || assignmentModifier != null)
+            if (careerModifier != null || assignmentModifier != null || gigModifier != null)
             {
                 BuildSimDataCareer(tuning);
             }

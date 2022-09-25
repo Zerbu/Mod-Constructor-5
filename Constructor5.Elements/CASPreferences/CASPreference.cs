@@ -6,6 +6,7 @@ using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
+using Constructor5.Elements.TestConditions;
 using Constructor5.Elements.Traits;
 
 namespace Constructor5.Elements.CASPreferences
@@ -29,6 +30,10 @@ namespace Constructor5.Elements.CASPreferences
         public Reference LikeTrait { get; set; } // do not add = new Reference();
         public STBLString LikeTraitName { get; set; } = new STBLString();
         public STBLString PreferenceName { get; set; } = new STBLString();
+
+        public TestCondition AutoCondition { get; set; } = new AlwaysRunCondition();
+        public Reference DislikeBuff { get; set; } = new Reference();
+        public Reference LikeBuff { get; set; } = new Reference();
 
         void IExportableElement.OnExport()
         {

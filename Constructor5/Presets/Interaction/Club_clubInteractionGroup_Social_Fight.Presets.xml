@@ -54,6 +54,14 @@
   <Preset Label="Magic Duel (social_MagicDuel_Items)" Value="220235" />
   <Preset Label="Magic Duel (social_MagicDuel_Knowledge)" Value="220234" />
   <Preset Label="Magic Duel (social_MagicDuel_Listen)" Value="216272" />
+  <Preset Label="Werewolf Brawl! (social_Werewolf_Fight_Target)" Value="287770" />
+  <Preset Label="Fight! (mixer_social_Fight_targeted_mean_SimToWerewolf)" Tags="TestUnsafe" Value="287764" />
+  <Preset Label="Fight {1.SimFirstName}! (mixer_social_Fight_targeted_mean_WerewolfToSim)" Tags="TestUnsafe" Value="287763" />
+  <Preset Label="Werewolf Brawl! (social_Werewolf_Fight_Actor_WerewolfToWerewolf)" Value="287769" />
+  <Preset Label="Supernatural Smackdown (social_Werewolf_Fight_Actor_WerewolfToVampire_NoGarlic)" Value="287843" />
+  <Preset Label="Supernatural Smackdown (social_Werewolf_Fight_Actor_WerewolfToVampire_WithGarlic)" Value="287842" />
+  <Preset Label="Supernatural Smackdown (social_Werewolf_Fight_Actor_VampireToWerewolf_NoGarlic)" Value="287845" />
+  <Preset Label="Supernatural Smackdown (social_Werewolf_Fight_Actor_VampireToWerewolf_WithGarlic)" Value="287846" />
   <Preset Label="Wrestle (mixer_social_Fight_targeted_mean_bear)" Tags="TestUnsafe" Value="108106" />
   <Preset Label="Practice Fighting (mixer_social_PracticeFighting_targeted_Friendly_alwaysOn_skills)" Tags="TestUnsafe" Value="28908" />
   <Preset Label="Fight Supreme Villain (mixer_social_FightSupervillain_targeted_mean_career)" Tags="TestUnsafe" Value="38775" />
@@ -63,5 +71,10 @@
   <Preset Label="Fight Father Winter for Presents! (mixer_social_Fight_targeted_mean_FatherWinter)" Tags="TestUnsafe" Value="187113" />
   <Preset Label="Fight Flower Bunny for Eggs! (mixer_social_Fight_targeted_mean_FlowerBunny)" Tags="TestUnsafe" Value="190096" />
   <Preset Label="Fight Paparazzi! (mixer_social_Fight_targeted_mean_Paparazzi)" Tags="TestUnsafe" Value="196391" />
+  <Preset Label="Fight! (mixer_social_Fight_targeted_mean_SimToWerewolf_Start)" Tags="TestUnsafe" Value="290816" />
   <Preset Label="Fight to Get Inside (social_VIPRope_Bouncer_Fight)" Value="191891" />
+  <Preset Label="Supernatural Smackdown (mixer_social_Fight_targeted_mean_VampireToWerewolf_Start)" Tags="TestUnsafe" Value="287840" />
+  <Preset Label="Fight {1.SimFirstName}! (mixer_social_Fight_targeted_mean_WerewolfToSim_Start)" Tags="TestUnsafe" Value="290815" />
+  <Preset Label="Supernatural Smackdown (mixer_social_Fight_targeted_mean_WerewolfToVampire_Start)" Tags="TestUnsafe" Value="287839" />
+  <Preset Label="Werewolf Brawl! (mixer_social_Fight_targeted_mean_WerewolfToWerewolf_Start)" Tags="TestUnsafe" Value="287838" />
 </PresetGroup>

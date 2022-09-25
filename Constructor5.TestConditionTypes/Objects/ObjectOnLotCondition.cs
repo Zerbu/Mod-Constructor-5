@@ -32,9 +32,9 @@ namespace Constructor5.TestConditionTypes.Objects
 
         public Threshold SimoleonValue { get; set; } = new Threshold();
 
-        protected override string GetVariantTunableName() => "object_criteria";
+        protected override string GetVariantTunableName(string contextTag = null) => "object_criteria";
 
-        protected override void OnExportVariant(TunableBase variantTunable)
+        protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
             var tuple = variantTunable.Get<TunableTuple>("object_criteria");
 

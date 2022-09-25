@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Constructor5.SimFilterTypes
 {
-    [SelectableObjectType("SimFilterTypes", "Skill Filter")]
+    [SelectableObjectType("SimFilterTypes", "SkillFilter")]
     [XmlSerializerExtraType]
     public class SkillFilter : SimFilterTerm
     {

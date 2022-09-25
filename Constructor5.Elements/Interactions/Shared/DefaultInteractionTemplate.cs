@@ -3,7 +3,9 @@ using Constructor5.Core;
 
 namespace Constructor5.Elements.Interactions.Shared
 {
+    [SelectableObjectType("MixerInteractionTemplates", "Undefined")]
     [SelectableObjectType("SocialInteractionTemplates", "Undefined")]
+    [SelectableObjectType("SuperInteractionTemplates", "Undefined")]
     [XmlSerializerExtraType]
     public class DefaultInteractionTemplate : InteractionTemplate
     {

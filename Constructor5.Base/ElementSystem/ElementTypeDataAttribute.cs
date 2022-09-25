@@ -22,6 +22,7 @@ namespace Constructor5.Base.ElementSystem
         public Type[] ElementTypes { get; set; }
         public bool IsRootType { get; set; }
         public string[] PresetFolders { get; set; }
+        public string ImportTuningType { get; set; }
 
         public override void Invoke(Type type)
         {
@@ -32,7 +33,8 @@ namespace Constructor5.Base.ElementSystem
                 IsRootType = IsRootType,
                 Label = Label ?? type.Name,
                 PresetFolders = PresetFolders?.ToArray(),
-                Type = type
+                Type = type,
+                ImportTuningType = ImportTuningType
             };
             ContentRegistry.Register("ElementTypes", type.Name, result);
         }
