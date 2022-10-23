@@ -44,6 +44,7 @@ namespace Constructor5.TestConditionTypes.Compound
                 return;
             }
 
+            Exporter.Current.AddContextSpecificElement(CompoundConditionElement.Element);
             var orGroup = modReference.OrGroups.FirstOrDefault();
             if (orGroup == null)
             {

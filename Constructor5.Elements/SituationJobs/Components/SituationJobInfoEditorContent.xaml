@@ -1,13 +1,14 @@
-<UserControl x:Class="Constructor5.Elements.SituationJobs.Components.SituationJobInfoEditorContent"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-             d:DesignHeight="450"
-             d:DesignWidth="800"
-             mc:Ignorable="d">
+<UserControl
+    x:Class="Constructor5.Elements.SituationJobs.Components.SituationJobInfoEditorContent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
     <StackPanel>
         <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
             <c:Field Label="Name" LabelWidth="100">
@@ -16,23 +17,22 @@
             <c:Field Label="Description" LabelWidth="100">
                 <c:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
             </c:Field>
+            <c:Field Label="Icon" LabelWidth="100">
+                <c:IconControl Icon="{Binding Icon}" />
+            </c:Field>
         </StackPanel>
 
         <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
             <c:Field Label="SimCountPlayerInvite" LabelWidth="150">
                 <StackPanel>
-                    <c:TextBlock FontStyle="Italic"
-                               Text="SimCountPlayerInviteHelp"
-                               />
+                    <c:TextBlock FontStyle="Italic" Text="SimCountPlayerInviteHelp" />
                     <c:IntBoundsControl Bounds="{Binding PlayerInviteSimCount}" />
                 </StackPanel>
             </c:Field>
 
             <c:Field Label="SimCountAutoInvite" LabelWidth="150">
                 <StackPanel>
-                    <c:TextBlock FontStyle="Italic"
-                               Text="SimCountAutoInviteHelp"
-                               />
+                    <c:TextBlock FontStyle="Italic" Text="SimCountAutoInviteHelp" />
                     <c:IntBoundsControl Bounds="{Binding AutoInviteSimCount}" />
                 </StackPanel>
             </c:Field>
@@ -40,9 +40,10 @@
 
         <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
             <c:CheckBox Content="CanBeHiredInSocialEventUI" IsChecked="{Binding CanBeHired}" />
-            <c:Field Label="HireCost"
-                     LabelWidth="100"
-                     Visibility="{Binding CanBeHired, Converter={StaticResource BoolToVis}}">
+            <c:Field
+                Label="HireCost"
+                LabelWidth="100"
+                Visibility="{Binding CanBeHired, Converter={StaticResource BoolToVis}}">
                 <xctk:IntegerUpDown Text="{Binding HireCost}" />
             </c:Field>
         </StackPanel>
@@ -51,9 +52,7 @@
             <c:CheckBox IsChecked="{Binding ElevatedImportance}">
                 <StackPanel>
                     <c:TextBlock Text="ElevatedImportance" />
-                    <c:TextBlock FontStyle="Italic"
-                               Text="ElevatedImportanceHelp"
-                               />
+                    <c:TextBlock FontStyle="Italic" Text="ElevatedImportanceHelp" />
                 </StackPanel>
             </c:CheckBox>
         </StackPanel>
@@ -72,9 +71,7 @@
         <c:Expander Margin="{StaticResource Constructor.BigPaddingMinusTop}" Header="RoleTags">
             <StackPanel>
                 <c:TextBlock Text="RoleTagsSituationHelp" />
-                <c:TextBlock FontWeight="Bold"
-                           Text="BrowseForSupportedTags"
-                           />
+                <c:TextBlock FontWeight="Bold" Text="BrowseForSupportedTags" />
                 <c:StringListControl PresetsFolder="RoleTag" StringList="{Binding RoleTags}" />
             </StackPanel>
         </c:Expander>

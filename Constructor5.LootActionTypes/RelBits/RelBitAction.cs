@@ -6,6 +6,7 @@ using Constructor5.Base.PropertyTypes;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.Elements.LootActionSets;
+using Constructor5.Elements.TestConditions;
 
 namespace Constructor5.LootActionTypes.RelBits
 {
@@ -47,6 +48,8 @@ namespace Constructor5.LootActionTypes.RelBits
                 tunableTuple1.Set<TunableEnum>("recipients", Participant);
                 tunableTuple1.Set<TunableEnum>("targets", TargetParticipant);
             }
+
+            TestConditionTuning.TuneTestList(mainTuple, originalContext.TestConditions, "tests");
 
             AutoTunerInvoker.Invoke(this, mainTuple);
         }

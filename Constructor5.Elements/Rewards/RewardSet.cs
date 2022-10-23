@@ -14,7 +14,7 @@ using System.Linq;
 
 namespace Constructor5.Elements.Rewards
 {
-    [ElementTypeData("RewardSet", false, PresetFolders = new[] { "Reward" })]
+    [ElementTypeData("RewardSet", true, PresetFolders = new[] { "Reward" })]
     public class RewardSet : Element, IExportableElement
     {
         public STBLString Description { get; set; } = new STBLString();

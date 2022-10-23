@@ -29,7 +29,7 @@ namespace Constructor5.LootActionTypes.Notifications
                 new TuningActionContext
                 {
                     Tuning = mainTuple.GetVariant<TunableTuple>("dialog",
-                    NotificationOrDialog.NotificationType == NotificationTypes.Notification ? "notification" : "dialog"),
+                    NotificationOrDialog.NotificationType == NotificationTypes.Notification ? "notification" : "dialog_ok"),
                     DataContext = NotificationOrDialog
                 });
 

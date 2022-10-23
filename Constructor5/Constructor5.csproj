@@ -2104,8 +2104,12 @@
     <None Include="Presets\Outfit\AllOutfitsGP11.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\Participant\AllParticipants.xml" />
-    <None Include="Presets\PerkType\PerkTypes.xml" />
+    <None Include="Presets\Participant\AllParticipants.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Presets\PerkType\PerkTypes.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\PieMenuCategory\AllPieMenuCategoriesBG.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -2316,7 +2320,9 @@
     <None Include="Presets\RelBit\AllRelationshipBits.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\RelBit\FriendBits.xml" />
+    <None Include="Presets\RelBit\FriendBits.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\Reward\AllRewardsBG.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -3076,7 +3082,9 @@
     <None Include="Presets\SocialInteraction\AllSocialInteractionsSP17.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\StatisticTag\BuffTags.xml" />
+    <None Include="Presets\StatisticTag\BuffTags.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\Statistic\CareerDailyTasks.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -3086,7 +3094,9 @@
     <None Include="Presets\Statistic\RankedStatistics.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Presets\TechnicalEvent\AllTechnicalEvents.xml" />
+    <None Include="Presets\TechnicalEvent\AllTechnicalEvents.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Presets\Trait\AllTraitsBG.Presets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

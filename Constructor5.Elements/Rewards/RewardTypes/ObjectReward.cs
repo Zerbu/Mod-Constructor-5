@@ -1,6 +1,8 @@
+using Constructor5.Base.ExportSystem;
 using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
+using System.Globalization;
 
 namespace Constructor5.Elements.Rewards.RewardTypes
 {
@@ -19,7 +21,14 @@ namespace Constructor5.Elements.Rewards.RewardTypes
         protected internal override void OnExport(RewardExportContext context)
         {
             var tunableTuple1 = context.Tunable.Get<TunableTuple>(GetVariantName());
-            tunableTuple1.Set<TunableBasic>("definition", ulong.Parse(ObjectHex, System.Globalization.NumberStyles.HexNumber));
+            if (ulong.TryParse(ObjectHex, NumberStyles.HexNumber, CultureInfo.InvariantCulture, out var result))
+            {
+                tunableTuple1.Set<TunableBasic>("definition", result);
+            }
+            else
+            {
+                Exporter.Current.AddError(context.Element, "CouldNotParseObjectId");
+            }
         }
     }
 }

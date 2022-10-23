@@ -1,5 +1,7 @@
 using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ExportSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
+using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
@@ -54,6 +56,7 @@ namespace Constructor5.Elements.Traits.Components
         [AutoTuneBuffWithReasonList("buffs")]
         public ReferenceList TraitBuffs { get; set; } = new ReferenceList();
 
+        [AutoTuneBasic("trait_origin_description")]
         public STBLString TraitOrigin { get; set; } = new STBLString();
 
         public string VoiceEffect { get; set; }
@@ -68,6 +71,8 @@ namespace Constructor5.Elements.Traits.Components
                     Tuning = context.Tuning,
                     DataContext = this
                 });
+
+            ((TuningHeader)context.Tuning).SimDataHandler.WriteText(236, Exporter.Current.STBLBuilder.GetKey(TraitOrigin) ?? 0);
         }
     }
 }

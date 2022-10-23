@@ -19,6 +19,7 @@ namespace Constructor5.Elements.Traits
 
             if (tag == "ShowOrigin")
             {
+                TraitOrigin.DataContext = trait.GetTraitComponent<TraitSpecialCasesComponent>();
                 TraitOrigin.Visibility = System.Windows.Visibility.Visible;
             }
         }

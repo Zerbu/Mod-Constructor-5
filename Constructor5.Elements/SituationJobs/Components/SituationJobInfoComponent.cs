@@ -1,5 +1,6 @@
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.Icons;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Core;
 using System.Collections.ObjectModel;
@@ -31,6 +32,8 @@ namespace Constructor5.Elements.SituationJobs.Components
         public int HireCost { get; set; }
 
         public bool IsCareerEventPlayerSituation { get; set; }
+        [AutoTuneBasic("icon")]
+        public ElementIcon Icon { get; set; } = new ElementIcon();
 
         [AutoTuneBasic("display_name")]
         public STBLString Name { get; set; } = new STBLString();

@@ -1217,6 +1217,11 @@ It is recommended you include your creator name in custom tags, to prevent confl
 
 	<String Key="CareerEventSituation">Career Event Situation</String>
 	<String Key="DefaultSituationTemplate">Default Situation Template</String>
-
+  
+  <String Key="CouldNotParseObjectId">Could not parse object ID. Make sure it is a valid hexadecimal number.</String>
+  
+  <String Key="CareersAddCareerGig">Careers: Add Career Gig</String>
+  
+  <String Key="ImageImportError">There was an error importing the custom image. This can happen when DDSPanel, the library used for converting images to the game-recognized DDS format, fails. Try applying an effect or resizing the image to a power of 2 number (8x8, 16x16, 32x32, 64x64, etc)</String>
   
 </LocalizableTextStrings>

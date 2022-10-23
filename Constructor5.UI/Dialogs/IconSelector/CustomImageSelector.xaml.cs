@@ -126,7 +126,14 @@ namespace Constructor5.UI.Dialogs.IconSelector
 
         private void ImportButton_Click(object sender, RoutedEventArgs e)
         {
-            var newPath = CustomImageManager.ImportImage(ImportPathTextBox.Text, (ImageEffect)EffectsComboBox.SelectedItem);
+            try
+            {
+                var newPath = CustomImageManager.ImportImage(ImportPathTextBox.Text, (ImageEffect)EffectsComboBox.SelectedItem);
+            }
+            catch
+            {
+                FancyMessageBox.Show("ImageImportError");
+            }
             RefreshCustomImages();
         }
 

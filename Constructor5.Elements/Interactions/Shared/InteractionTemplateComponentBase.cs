@@ -2,6 +2,7 @@ using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Elements.Interactions.Social;
 using Constructor5.Elements.Interactions.Social.ContextModifiers;
+using Constructor5.Elements.Traits.Components;
 
 namespace Constructor5.Elements.Interactions.Shared
 {
@@ -20,7 +21,12 @@ namespace Constructor5.Elements.Interactions.Shared
             if (traitContextModifier != null)
             {
                 socialContext.TraitKey = (ulong)ElementTuning.GetSingleInstanceKey(traitContextModifier.Trait);
-                socialContext.LearnTraitLootKey = CreateLearnTraitLoot(socialContext);
+
+                var component = ((Trait)traitContextModifier.Trait.Element).GetTraitComponent<TraitInfoComponent>();
+                if (component.TraitType == TraitTypes.Personality)
+                {
+                    socialContext.LearnTraitLootKey = CreateLearnTraitLoot(socialContext);
+                }
             }
 
             Template.OnExport(context);
