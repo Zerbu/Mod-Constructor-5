@@ -22,6 +22,8 @@ namespace Constructor5.Elements.SituationGoals.Templates
         public override string Label => "Interaction Goal";
         public int MinimumRunningTime { get; set; }
 
+        public bool RequireFailure { get; set; }
+
         public bool SuccessfulOnly { get; set; }
        
         public bool WaitUntilCompletion { get; set; }
@@ -74,7 +76,7 @@ namespace Constructor5.Elements.SituationGoals.Templates
                 if (SuccessfulOnly)
                 {
                     var tunableVariant1 = tunableTuple1.Set<TunableVariant>("interaction_outcome", "enabled");
-                    tunableVariant1.Set<TunableEnum>("enabled", "SUCCESS");
+                    tunableVariant1.Set<TunableEnum>("enabled", RequireFailure ? "FAILURE" : "SUCCESS");
                 }
 
                 if (MinimumRunningTime > 0)

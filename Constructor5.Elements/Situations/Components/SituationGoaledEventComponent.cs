@@ -81,7 +81,7 @@ namespace Constructor5.Elements.Situations.Components
             tunableTuple3.Set<TunableBasic>("reward", GoldReward);
             if (ScoreToReachGold != 30)
             {
-                tunableTuple2.Set<TunableBasic>("score_delta", ScoreToReachGold);
+                tunableTuple3.Set<TunableBasic>("score_delta", ScoreToReachGold);
             }
 
             var tunableTuple4 = tunableTuple1.Get<TunableTuple>("silver");
@@ -93,7 +93,7 @@ namespace Constructor5.Elements.Situations.Components
             tunableTuple4.Set<TunableBasic>("reward", SilverReward);
             if (ScoreToReachGold != 30)
             {
-                tunableTuple2.Set<TunableBasic>("score_delta", ScoreToReachSilver);
+                tunableTuple4.Set<TunableBasic>("score_delta", ScoreToReachSilver);
             }
 
             if (IsHidden)
