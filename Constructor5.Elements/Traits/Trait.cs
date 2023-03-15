@@ -76,7 +76,7 @@ namespace Constructor5.Elements
             var alwaysHasContent = SharedBuffTuner.AlwaysHasContent(this);
             if (buffComponents.Count > 0 || alwaysHasContent)
             {
-                var buffTuning = SharedBuffTuner.CreateTuning(this, buffComponents.ToArray(), "Buff");
+                var buffTuning = SharedBuffTuner.CreateTuning(this, buffComponents.ToArray(), "Buff", true);
                 var tunableList1 = tuning.Get<TunableList>("buffs");
                 var tunableTuple1 = tunableList1.Get<TunableTuple>(null);
                 tunableTuple1.Set<TunableBasic>("buff_type", buffTuning.InstanceKey.ToString());

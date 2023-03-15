@@ -9,7 +9,7 @@ using Constructor5.Core;
 
 namespace Constructor5.Elements.LotTraits
 {
-    [ElementTypeData("LotTrait", true, ElementTypes = new[] { typeof(LotTrait) }, PresetFolders = new[] { "LotTrait" }, IsRootType = true)]
+    [ElementTypeData("LotTrait", true, ElementTypes = new[] { typeof(LotTrait) }, PresetFolders = new[] { "ZoneModifier" }, IsRootType = true)]
     public class LotTrait : SimpleComponentElement<LotTraitComponent>, IExportableElement, ISupportsCustomTuning
     {
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();

@@ -437,6 +437,8 @@
   <Preset Label="want_Upgrade_HotTub_Aromatherapy" Value="279825" />
   <Preset Label="want_Upgrade_HotTub_Stereo" Value="279826" />
   <Preset Label="want_Upgrade_HotTub_Unbreakable" Value="279827" />
+  <Preset Label="want_JungleGym_HelpClimb" Value="279829" />
+  <Preset Label="want_JungleGym_SlideCatch" Value="279830" />
   <Preset Label="want_BecomeDisliked_With_ShortTerm" Value="279896" />
   <Preset Label="want_CatchFish_VeryLarge_LongTerm" Value="279991" />
   <Preset Label="want_CatchFish_Large_LongTerm" Value="279992" />
@@ -512,6 +514,8 @@
   <Preset Label="want_BuyObject_Expensive_Observatory" Value="281078" />
   <Preset Label="want_CompleteHomework_Teen" Value="281095" />
   <Preset Label="want_Craft_NonPoorQuality" Value="281099" />
+  <Preset Label="want_AttendClass" Value="281100" />
+  <Preset Label="want_ChatTeenStudents" Value="281101" />
   <Preset Label="want_HoldHands" Value="281102" />
   <Preset Label="want_Chat_WithChild" Value="281103" />
   <Preset Label="want_BeMean_ToGood" Value="281104" />
@@ -555,14 +559,41 @@
   <Preset Label="want_LikedMusic_Listen_Classical" Value="282510" />
   <Preset Label="want_LikedMusic_Listen_Electronica" Value="282511" />
   <Preset Label="want_LikedMusic_Listen_HipHop" Value="282512" />
+  <Preset Label="Want_LikedMusic_Listen_CottageCore" Value="282517" />
   <Preset Label="want_GetIntoRelationship" Value="282623" />
   <Preset Label="want_Listen_Music_Reactionary" Value="282673" />
   <Preset Label="want_LikedMusic_Listen_World" Value="283060" />
   <Preset Label="fear_ConfrontationGoal_Unfulfilled" Value="283625" />
   <Preset Label="fear_ConfrontationGoal_Death_DiscussFears" Value="283670" />
   <Preset Label="fear_ConfrontationGoal_Failure" Value="283677" />
+  <Preset Label="fear_ConfrontationGoal_DisappointingParents" Value="283680" />
+  <Preset Label="want_Gossip" Value="283831" />
+  <Preset Label="want_PostonSocial" Value="283845" />
+  <Preset Label="want_SkipClass" Value="283903" />
+  <Preset Label="want_HaveTeenFun" Value="283905" />
+  <Preset Label="want_SneakOut" Value="283906" />
+  <Preset Label="want_DoHomework" Value="283907" />
+  <Preset Label="want_MeetClassmates" Value="283908" />
+  <Preset Label="want_GainMoreFollowers" Value="283909" />
+  <Preset Label="want_ListOutfit" Value="283910" />
+  <Preset Label="want_CheerUp" Value="283912" />
+  <Preset Label="want_MakeNewFriend" Value="283918" />
+  <Preset Label="want_Overachiever_SkillUp" Value="284158" />
+  <Preset Label="want_Overachiever_DoCareerTask" Value="284159" />
+  <Preset Label="want_Overachiever_ExtraCredit" Value="284160" />
+  <Preset Label="want_PartyAnimal_AttendParty" Value="284161" />
+  <Preset Label="want_PartyAnimal_Dance" Value="284162" />
+  <Preset Label="want_PartyAnimal_HostParty" Value="284163" />
+  <Preset Label="want_SociallyAwkward_MakeFriend" Value="285904" />
+  <Preset Label="want_SociallyAwkward_SocialWithNewSim" Value="285906" />
+  <Preset Label="want_SociallyAwkward_WorkOnAwkwardness" Value="285935" />
+  <Preset Label="want_SociallyAwkward_ConfessAwkwardness" Value="285936" />
+  <Preset Label="fear_ConfrontationGoal_Homework" Value="285999" />
+  <Preset Label="want_CleanWhiteboard" Value="286232" />
   <Preset Label="want_GetIntoNewRelationship" Value="287218" />
+  <Preset Label="want_PrankLocker" Value="287219" />
   <Preset Label="want_GainRel_Family" Value="287243" />
+  <Preset Label="fear_ConfrontationGoal_FailingTests" Value="287396" />
   <Preset Label="want_NoStumbling" Value="287427" />
   <Preset Label="want_AvoidChildren" Value="287454" />
   <Preset Label="want_BeHappy" Value="287455" />
@@ -572,7 +603,6 @@
   <Preset Label="want_StayOnLot" Value="287459" />
   <Preset Label="want_StayOutside" Value="287460" />
   <Preset Label="want_NoMissSO" Value="287463" />
-  <Preset Label="want_BailOnFriend" Value="287465" />
   <Preset Label="want_Work_MakeConnections" Value="287466" />
   <Preset Label="want_Work_SlackOff" Value="287467" />
   <Preset Label="want_Work_WorkHard" Value="287468" />
@@ -581,12 +611,23 @@
   <Preset Label="want_MakeANewFriend" Value="287582" />
   <Preset Label="fear_ConfrontationGoal_Fire" Value="287751" />
   <Preset Label="fear_ConfrontationGoal_CrowdedPlaces" Value="287752" />
+  <Preset Label="fear_ConfrontationGoal_Failing_Class" Value="287928" />
+  <Preset Label="fear_ConfrontationGoal_Failing_AfterSchool" Value="288075" />
   <Preset Label="fear_ConfrontationGoal_BeingJudged" Value="288462" />
+  <Preset Label="want_Crush_TalkTo" Value="290011" />
+  <Preset Label="want_Crush_AskOut" Value="290012" />
   <Preset Label="want_Insult_With" Value="291212" />
   <Preset Label="want_BeMean_With_Partner" Value="291215" />
   <Preset Label="want_BeMean_With_Friend" Value="291216" />
   <Preset Label="want_BeMean_With_Enemy" Value="291217" />
   <Preset Label="want_BeMischievous_With_Friend" Value="291219" />
   <Preset Label="want_BeMischievous_With_Enemy" Value="291220" />
+  <Preset Label="want_HSProm_Dance" Value="292979" />
+  <Preset Label="want_HSProm_GrabDrink" Value="292980" />
+  <Preset Label="want_HSProm_UsePhotobooth" Value="292981" />
   <Preset Label="want_BeFriendly_With_RomanticSet" Value="301296" />
+  <Preset Label="fear_ConfrontationGoal_DisappointingParents_ParentsDeceased" Value="304164" />
+  <Preset Label="want_Loyal_Confess" Value="315801" />
+  <Preset Label="want_Loyal_BreakUp" Value="315802" />
+  <Preset Label="want_Loyal_ExpressDevotion" Value="315803" />
 </PresetGroup>

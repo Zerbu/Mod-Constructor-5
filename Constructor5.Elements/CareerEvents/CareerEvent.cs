@@ -6,12 +6,11 @@ using Constructor5.Base.ExportSystem.Tuning;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Elements.TestConditions;
-using System;
 using System.Collections.Generic;
 
 namespace Constructor5.Elements.CareerEvents
 {
-    [ElementTypeData("CareerEvent", false, ElementTypes = new[] { typeof(CareerEvent) }, PresetFolders = new[] { "CareerEvent" })]
+    //[ElementTypeData("CareerEvent", true, ElementTypes = new[] { typeof(CareerEvent) }, PresetFolders = new[] { "CareerEvent" })]
     public class CareerEvent : Element, IExportableElement, ISupportsCustomTuning
     {
         public Reference AdditionalRequiredVenue { get; set; } = new Reference();
@@ -42,6 +41,8 @@ namespace Constructor5.Elements.CareerEvents
         public Reference Situation { get; set; } = new Reference();
 
         public ReferenceList Venues { get; set; } = new ReferenceList();
+
+        public Reference ZoneDirector { get; set; } = new Reference();
 
         void IExportableElement.OnExport()
         {
@@ -170,7 +171,7 @@ namespace Constructor5.Elements.CareerEvents
             tunableTuple19.Set<TunableBasic>("situation", Situation);
 
             var tunableVariant20 = tuning.Set<TunableVariant>("zone_director", "enabled");
-            tunableVariant20.Set<TunableBasic>("enabled", "277656");
+            tunableVariant20.Set<TunableBasic>("enabled", ZoneDirector);
 
         }
 

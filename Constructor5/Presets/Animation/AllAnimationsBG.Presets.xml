@@ -1002,7 +1002,6 @@
   <Preset Label="Violin_Child_Practice" Value="77605" />
   <Preset Label="StuffedAnimal_PlayPassive" Value="77661" />
   <Preset Label="Socials_LifeMoments_WeddingKiss" Value="77723" />
-  <Preset Label="Baby_Actions_Talk" Value="77820" />
   <Preset Label="OutfitChange_Canonical" Value="96791" />
   <Preset Label="Fire_BigSigh" Value="96839" />
   <Preset Label="Handiness_Upgrade_Bathtub" Value="97008" />
@@ -1237,7 +1236,7 @@
   <Preset Label="SitOnGround_Idle_Looping_Basic" Value="134346" />
   <Preset Label="TrashChute_Empty_fail" Value="134465" />
   <Preset Label="cityLife_Walkbys_Tourist_TakePhoto" Value="135036" />
-  <Preset Label="postureIdle_SitInToddlerHighChair" Value="135523" />
+  <Preset Label="postureIdle_SitInHighChair" Value="135523" />
   <Preset Label="Canonical_CarrySim_PickUp_Stand" Value="135812" />
   <Preset Label="bed_MonsterUnder_Play" Value="136444" />
   <Preset Label="bed_MonsterUnder_Play_Idle" Value="136447" />
@@ -1245,7 +1244,7 @@
   <Preset Label="baby_AgeUp_Paired" Value="136773" />
   <Preset Label="baby_AgeUp_Solo" Value="136997" />
   <Preset Label="birthdayCake_AgeUpToddler" Value="138857" />
-  <Preset Label="Canonical_CarrySim_ToddlerHighChairPutDown" Value="139051" />
+  <Preset Label="Canonical_CarrySim_HighChairPutDown" Value="139051" />
   <Preset Label="Soc_Solo_NT_Juggle_Fail_basic" Value="139619" />
   <Preset Label="objectPose_Mannequin_Active" Value="139916" />
   <Preset Label="Eat_atSurface_BiteWithFlair" Value="142651" />
@@ -1268,7 +1267,7 @@
   <Preset Label="socials_Toddlers_Flash_Cards_Idle" Value="143742" />
   <Preset Label="socials_Toddlers_Flash_Cards_Success" Value="143743" />
   <Preset Label="socials_Toddlers_Flash_Cards_Fail" Value="143744" />
-  <Preset Label="postureIdle_ToddlerBath" Value="143804" />
+  <Preset Label="postureIdle_ToddlerInfantBath" Value="143804" />
   <Preset Label="Eat_atSurface_toddler_ActiveActions_Basic" Value="143905" />
   <Preset Label="Eat_atSurface_toddler_PassiveActions_basic" Value="143910" />
   <Preset Label="eat_atSurface_toddler_MessyActions_basic" Value="143912" />
@@ -1359,7 +1358,7 @@
   <Preset Label="marketStall_Tend" Value="150459" />
   <Preset Label="listen_Listen_Toddler_looping_basic" Value="151553" />
   <Preset Label="Canonical_NonTouchingSocialToddler" Value="151709" />
-  <Preset Label="canonical_CarrySim_ToddlerHighChairPickUp" Value="151868" />
+  <Preset Label="canonical_CarrySim_HighChairPickUp" Value="151868" />
   <Preset Label="canonical_CarrySim_SitTemplatePickUp" Value="152178" />
   <Preset Label="eat_atSurface_Chopsticks_PassiveActions" Value="152542" />
   <Preset Label="Food_Eat_Chopsticks_PassiveActions_Set" Value="152547" />
@@ -1382,7 +1381,7 @@
   <Preset Label="harvestable_Eat_Toddler_Ground" Value="156640" />
   <Preset Label="Mentor_Toddler" Value="156654" />
   <Preset Label="socials_Toddlers_ToddlerBed_TuckIn_RoutingSlot" Value="156892" />
-  <Preset Label="animationElement_ToddlerHighChair_ServeToSlot" Value="157454" />
+  <Preset Label="animationElement_HighChair_ServeToSlot" Value="157454" />
   <Preset Label="Canonical_CarryObject" Value="157520" />
   <Preset Label="bathtub_ToddlerBath_Splash_ToddlerUser" Value="157561" />
   <Preset Label="Food_Eat_Toddler_Canonical_Set" Value="157570" />
@@ -1400,6 +1399,9 @@
   <Preset Label="soc_Friendly_T_Console_Succeed_c2a" Value="166958" />
   <Preset Label="Generic_Inventory_Put" Value="166996" />
   <Preset Label="PostureIdle_Pet_LayDown" Value="167751" />
+  <Preset Label="object_Toddler_JungleGym_Slide_Idle" Value="170665" />
+  <Preset Label="object_Toddler_JungleGym_Canonical_CarrySim_ToddlerSlide_PutDown" Value="171839" />
+  <Preset Label="object_Toddler_JungleGym_Canonical_CarrySim_ToddlerSlide_PickUp" Value="171842" />
   <Preset Label="lighthouse_Lights_On" Value="172391" />
   <Preset Label="lighthouse_Lights_Off" Value="172392" />
   <Preset Label="birdflock_Pigeon" Value="172518" />
@@ -1456,7 +1458,7 @@
   <Preset Label="weather_Reaction_Lightning_BringTheLightning" Value="186147" />
   <Preset Label="swingSet_SoloSwing" Value="186151" />
   <Preset Label="Gardening_Weed_Vacuum" Value="187259" />
-  <Preset Label="mailbox_MailPackage" Value="188019" />
+  <Preset Label="Mailbox_MailPackage" Value="188019" />
   <Preset Label="swingSet_PushSwing" Value="188203" />
   <Preset Label="arrangementTable_Reaction" Value="188406" />
   <Preset Label="arrangementTable_Passive" Value="188415" />
@@ -1624,10 +1626,23 @@
   <Preset Label="dustFriend_Fiend_TryToPet" Value="255224" />
   <Preset Label="bed_Undercovers_InteractionIdle_ScaredHide" Value="255236" />
   <Preset Label="Ghost_Scare_Target" Value="256470" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Negative" Value="256884" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Positive" Value="256931" />
+  <Preset Label="animalObjects_Idles_Chicken_Stand" Value="256942" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Negative" Value="257083" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Positive" Value="257084" />
+  <Preset Label="animalObjects_Idles_Rabbit_Stand" Value="257085" />
+  <Preset Label="postureIdle_Fox_Stand" Value="257162" />
   <Preset Label="vacuumCleaner_Handheld_Toddler" Value="257552" />
   <Preset Label="vacuumCleaner_Handheld_Child_DustFiend" Value="257557" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_Stand" Value="257986" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_Graze" Value="257987" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_React_Negative" Value="257988" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_React_Positive" Value="257989" />
   <Preset Label="trait_Clumsy_Slip" Value="258223" />
+  <Preset Label="animalObjects_Idles_Chicken_Coop_GetIn" Value="258254" />
   <Preset Label="play_In_Trash_Pile_Dust" Value="258467" />
+  <Preset Label="animalObjects_Idles_Chicken_Coop_GetOut" Value="258635" />
   <Preset Label="bed_Undercovers_ReadUnderCovers" Value="258748" />
   <Preset Label="dustFriend_Idles_Bunny_Exit" Value="258919" />
   <Preset Label="dustFriend_Idles_Fiend_Exit" Value="258920" />
@@ -1635,16 +1650,127 @@
   <Preset Label="simPreference_Music" Value="259386" />
   <Preset Label="simPreference_Squeamish" Value="259387" />
   <Preset Label="simPreference_Uncomfortable" Value="259388" />
+  <Preset Label="anim_GiantCrops_PlantCrop" Value="259481" />
+  <Preset Label="anim_GiantCrops_Prune" Value="259561" />
+  <Preset Label="festivals_VillageFair_JudgeEntry_Positve" Value="259630" />
+  <Preset Label="festivals_VillageFair_JudgeEntry_Negative" Value="259631" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_Move" Value="259743" />
+  <Preset Label="death_Finalizer_AnimalObject_KillerRabbit_Doom" Value="259985" />
+  <Preset Label="death_Finalizer_AnimalObject_KillerRabbit_Resurrect" Value="259986" />
+  <Preset Label="Death_AnimalObject_KillerRabbit" Value="259987" />
   <Preset Label="sitLounge_Chaise_Idle" Value="260042" />
   <Preset Label="sitLounge_Chaise_Nap" Value="260043" />
+  <Preset Label="animalObjects_Idles_Chicken_Coop_GoToNest" Value="260186" />
+  <Preset Label="animalObjects_Idles_Chicken_Coop_GoToPerch" Value="260187" />
+  <Preset Label="fox_Sleep_Back" Value="260273" />
+  <Preset Label="fox_Sleep_BackQuick" Value="260274" />
+  <Preset Label="fox_Sleep_Curl" Value="260275" />
+  <Preset Label="fox_Sleep_CurlQuick" Value="260276" />
+  <Preset Label="fox_Sleep_Stomach" Value="260277" />
+  <Preset Label="fox_Sleep_StomachQuirk" Value="260278" />
+  <Preset Label="postureIdle_Fox_LayDown" Value="260310" />
   <Preset Label="counter_Clean_CounterOven" Value="260544" />
   <Preset Label="Handiness_Upgrade_Repair_StoveTop" Value="260549" />
   <Preset Label="Handiness_Upgrade_Repair_StoveTop_Electrocute" Value="260550" />
+  <Preset Label="Fire_OnFire_Fox" Value="260600" />
+  <Preset Label="Fire_Panic_Fox" Value="260601" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Routing_BeIn0" Value="260666" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Routing_BeIn1" Value="260667" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Routing_BeIn2" Value="260668" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Routing_BeIn3" Value="260669" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Routing_BeIn4" Value="260670" />
   <Preset Label="anim_Ponds_Play" Value="260726" />
   <Preset Label="anim_Ponds_SearchForFrogs_Fail" Value="260807" />
   <Preset Label="anim_Ponds_SearchForFrogs_Succeed" Value="260809" />
+  <Preset Label="fox_AskNotToSteal" Value="260827" />
+  <Preset Label="animalObjects_Idles_Chicken_Stand_Preen" Value="260973" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Aggresive" Value="260975" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Crow" Value="260976" />
+  <Preset Label="animalObjects_Idles_Chicken_React_MakeASound" Value="260977" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Scared" Value="260978" />
+  <Preset Label="animalObjects_Idles_Chicken_Stand_Pecking" Value="260979" />
+  <Preset Label="animalObjects_Idles_Chicken_Sit_Idle" Value="260982" />
+  <Preset Label="animalObjects_Idles_Chicken_Sit_Sleep" Value="260983" />
+  <Preset Label="animalObjects_Socials_Chickens_Feed" Value="260984" />
+  <Preset Label="animalObjects_Socials_Chickens_FeedWIth" Value="260986" />
+  <Preset Label="animalObjects_Socials_Shared_CallOver" Value="260988" />
+  <Preset Label="animalObjects_Socials_Shared_PlayWith" Value="260991" />
+  <Preset Label="animalObjects_Socials_Chickens_Pet_Success" Value="260992" />
+  <Preset Label="animalObjects_Socials_Chickens_Pet_Fail" Value="260994" />
+  <Preset Label="animalObjects_Socials_Chickens_Hug_Fail" Value="260997" />
+  <Preset Label="animalObjects_Socials_Chickens_Hug_Success" Value="260998" />
+  <Preset Label="animalObjects_Socials_Chickens_Pet_Death" Value="260999" />
+  <Preset Label="animalObjects_Socials_Shared_TalkTo_Success" Value="261001" />
+  <Preset Label="animalObjects_Socials_Shared_TellJoke_Success" Value="261002" />
+  <Preset Label="animalObjects_Socials_Shared_BeMean_Success" Value="261003" />
+  <Preset Label="animalObjects_Socials_Shared_Scare" Value="261004" />
+  <Preset Label="animalObjects_Socials_Shared_Ask_Success" Value="261008" />
+  <Preset Label="animalObjects_Socials_Shared_Ask_Fail" Value="261010" />
+  <Preset Label="animalObjects_Socials_Shared_TellJoke_Fail" Value="261012" />
+  <Preset Label="animalObjects_Socials_Shared_TalkTo_Fail" Value="261013" />
+  <Preset Label="animalObjects_AnimalHomes_ChickenCoop_Clean" Value="261018" />
+  <Preset Label="animalObjects_AnimalHomes_ChickenCoop_CollectEgg" Value="261019" />
+  <Preset Label="animalObjects_AnimalHomes_ChickenCoop_HatchEgg" Value="261020" />
+  <Preset Label="animalObjects_Idles_Chick_Hatch" Value="261021" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_PenEat" Value="261040" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_PenSleep" Value="261041" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_PenStand" Value="261042" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Cow_MakeSound" Value="261049" />
+  <Preset Label="canning_Waterbath_GetOut" Value="261152" />
+  <Preset Label="canning_Moo" Value="261154" />
+  <Preset Label="canning_Eat" Value="261155" />
   <Preset Label="gardening_TeachAboutPlants_Teach" Value="261347" />
   <Preset Label="gardening_TeachAboutPlants_Listen" Value="261348" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Cute" Value="261607" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Aggressive" Value="261608" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Confused" Value="261609" />
+  <Preset Label="animalObjects_Idles_Rabbit_React_Scared" Value="261610" />
+  <Preset Label="animalObjects_Idles_Rabbit_Eat" Value="261611" />
+  <Preset Label="animalObjects_Socials_BirdHome_FairytaleMoment" Value="261635" />
+  <Preset Label="animalObjects_Socials_BirdHome_Poop" Value="261636" />
+  <Preset Label="animalObjects_Socials_BirdHome_TalkToBirdOnHand" Value="261637" />
+  <Preset Label="animalObjects_Socials_BirdHome_SingTo" Value="261638" />
+  <Preset Label="animalObjects_Socials_BirdHome_SingTo_HighSuccess" Value="261639" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Clean_Cow" Value="261676" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Clean_Llama" Value="261677" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Hug_Cow_Success" Value="261689" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Hug_Cow_Fail" Value="261690" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Pet_Cow" Value="261692" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Pet_Llama" Value="261693" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Hug_Llama_Fail" Value="261695" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Hug_Llama_Success" Value="261696" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HarvestFrom_Cow" Value="261701" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HarvestFrom_Llama" Value="261702" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Cow_TipCow" Value="261704" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Interactions_Clean" Value="261706" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_Move" Value="261709" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_PenEat" Value="261710" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_PenSleep" Value="261711" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_PenStand" Value="261712" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_MakeSound" Value="261714" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_React_Negative" Value="261715" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_React_Positive" Value="261716" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_Graze" Value="261718" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_Stand" Value="261719" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Pet_CowDeath" Value="261726" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Pet_LlamaDeath" Value="261727" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Interactions_RefillFeed" Value="261735" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Interactions_Stand" Value="261736" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Woohoo" Value="261739" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Woohoo_Idle" Value="261740" />
+  <Preset Label="animalObjects_AnimalHomes_LivestockPen_Woohoo_BigFinish" Value="261741" />
+  <Preset Label="animalObjects_Idles_Rabbit_Home_GetIn" Value="261898" />
+  <Preset Label="animalObjects_Idles_Rabbit_Home_GetOut" Value="261901" />
+  <Preset Label="fox_Stalk_Watch" Value="261920" />
+  <Preset Label="fox_Stalk_Attack" Value="261921" />
+  <Preset Label="fox_Stalk_Success" Value="261922" />
+  <Preset Label="fox_Stalk_Fail" Value="261923" />
+  <Preset Label="animalObjects_Socials_Rabbits_Hug_Success" Value="262157" />
+  <Preset Label="animalObjects_Socials_Rabbits_Hug_Fail" Value="262159" />
+  <Preset Label="animalObjects_Socials_Rabbits_Gifting_GiveGift" Value="262160" />
+  <Preset Label="animalObjects_Socials_Rabbits_Gifting_TakeGift" Value="262162" />
+  <Preset Label="animalObjects_Socials_Rabbits_Pet_Success" Value="262163" />
+  <Preset Label="animalObjects_Socials_Rabbits_Pet_Fail" Value="262165" />
   <Preset Label="anim_Ponds_Fishing_CatchFish" Value="262436" />
   <Preset Label="anim_Ponds_Fishing_CatchFail" Value="262437" />
   <Preset Label="anim_Ponds_Fishing_CatchNothing" Value="262438" />
@@ -1652,7 +1778,22 @@
   <Preset Label="anim_Ponds_Fishing_Cast" Value="262440" />
   <Preset Label="anim_Ponds_Fishing_Idle" Value="262441" />
   <Preset Label="anim_Ponds_Fishing_StartStop" Value="262449" />
+  <Preset Label="fox_Play" Value="262476" />
+  <Preset Label="crossStitch_Animation_Stitch" Value="262982" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HarvestFrom_Cow_Success" Value="262983" />
+  <Preset Label="crossStitch_Animation_Poke" Value="262984" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HarvestFrom_Cow_Fail" Value="262985" />
+  <Preset Label="crossStitch_Animation_View" Value="262986" />
+  <Preset Label="fox_StealEgg" Value="262996" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HarvestFrom_Llama_Fail" Value="263001" />
   <Preset Label="TV_Chaise_Watch_TV" Value="263078" />
+  <Preset Label="idle_Milk_BreatheFire" Value="263571" />
+  <Preset Label="postureIdles_AnimalObjects_LivestockPen" Value="263836" />
+  <Preset Label="animalObjects_Socials_Shared_SendHome" Value="263873" />
+  <Preset Label="animalObjects_Socials_LivestockPen_HandFeed" Value="263969" />
+  <Preset Label="animalObjects_Socials_Rabbits_BeAttacked_Survive" Value="264089" />
+  <Preset Label="NPCVillagers_Scold" Value="264155" />
+  <Preset Label="NPCVillagers_ConspireWithGnomes" Value="264156" />
   <Preset Label="Fox_Listen" Value="265027" />
   <Preset Label="fox_Reaction_Angry" Value="265054" />
   <Preset Label="fox_Reaction_Curious" Value="265056" />
@@ -1661,32 +1802,104 @@
   <Preset Label="fox_Reaction_Neutral" Value="265059" />
   <Preset Label="fox_Reaction_Sad" Value="265060" />
   <Preset Label="fox_Reaction_Scared" Value="265061" />
+  <Preset Label="animalObjects_Socials_Shared_CallOver_Fail_Reaction" Value="265105" />
+  <Preset Label="animalObjects_Idles_Rabbit_DirtMound_Enter" Value="265128" />
+  <Preset Label="animalObjects_Idles_Rabbit_DirtMound_Exit" Value="265129" />
   <Preset Label="anim_Deliveries_GiveTip" Value="265168" />
   <Preset Label="TV_watch_passive" Value="265312" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_Spit" Value="265428" />
+  <Preset Label="animalObjects_Idles_BirdHome_bird_Sing" Value="265613" />
+  <Preset Label="animalObjects_Idles_BirdHome_bird_sleep" Value="265757" />
+  <Preset Label="animalObjects_Idles_BirdHome_bird_PeckGround" Value="265758" />
+  <Preset Label="animalObjects_Idles_BirdHome_bird_Disappear" Value="265759" />
+  <Preset Label="animalObjects_Idles_BirdHome_bird_Idle" Value="265760" />
   <Preset Label="Food_Eat_Spicy_Reaction_OneShot" Value="265836" />
+  <Preset Label="fox_AgeUp" Value="265858" />
+  <Preset Label="death_Initiator_Fox_OldAge" Value="265870" />
+  <Preset Label="animalObjects_Socials_BirdHome_GiveGift" Value="266083" />
+  <Preset Label="animalObjects_Socials_BirdHome_TakeGift" Value="266087" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Positive_WithBalloons" Value="266255" />
+  <Preset Label="animalObjects_Idles_Chicken_React_Negative_WithBalloons" Value="266256" />
   <Preset Label="teleport_basic" Value="266386" />
+  <Preset Label="fox_StealEgg_Idle" Value="267030" />
+  <Preset Label="reactions_LactoseIntolerant_Milk" Value="267033" />
   <Preset Label="simPreference_AskSucceed" Value="267149" />
   <Preset Label="simPreference_AskFailure" Value="267294" />
   <Preset Label="counter_Clean_CounterStove" Value="267352" />
-  <Preset Label="Toddler_Soundless_Idle" Value="267930" />
+  <Preset Label="death_AnimalObject_KillerChicken_Death" Value="267917" />
+  <Preset Label="death_Finalizer_AnimalObject_KillerChicken_Doom" Value="267920" />
+  <Preset Label="death_Finalizer_AnimalObject_KillerChicken_Resurrect" Value="267921" />
+  <Preset Label="Generic_Soundless_Idle" Value="267930" />
+  <Preset Label="death_AnimalObject_KillerChicken_DeadOnGround" Value="267931" />
+  <Preset Label="death_AnimalObject_KillerChicken_Death_Survive" Value="267942" />
+  <Preset Label="animalObjects_Socials_Shared_Dance" Value="268255" />
+  <Preset Label="anim_CottageWorld_SnailStatue_Search" Value="268304" />
+  <Preset Label="anim_CottageWorld_SnailStatue_HideItem" Value="268305" />
+  <Preset Label="animalObjects_Socials_LivestockPen_Cow_Cowbell" Value="268465" />
+  <Preset Label="animalObjects_Idles_Chicken_Magic_EvilPulse" Value="268521" />
+  <Preset Label="animalObjects_Idles_Chicken_Magic_GoldenPulse" Value="268523" />
+  <Preset Label="animalObjects_Chicken_EvilGlare" Value="268570" />
+  <Preset Label="animalObjects_Chicken_GoldenPulse" Value="268571" />
+  <Preset Label="anim_VillageShops_WindowShop" Value="268624" />
+  <Preset Label="fox_Stalk_Spit_ShakeOff" Value="268637" />
+  <Preset Label="fox_Stalk_Scared" Value="268638" />
+  <Preset Label="animalObjects_Socials_BirdHome_ShowAffection_Success" Value="268778" />
+  <Preset Label="animalObjects_Socials_BirdHome_ShowAffection_Fail" Value="268779" />
+  <Preset Label="fox_Eat" Value="268832" />
+  <Preset Label="animalObjects_Idles_Rabbit_Fertilize" Value="268851" />
+  <Preset Label="animalObjects_Idles_Rabbit_NoInterrupt" Value="268852" />
   <Preset Label="musicFestival_Artist_Performance_Main" Value="269367" />
+  <Preset Label="fox_SingToFox_Success" Value="269393" />
+  <Preset Label="fox_SingToFox_Failure" Value="269395" />
+  <Preset Label="infant_Give" Value="269487" />
+  <Preset Label="animalObjects_Idles_Rabbit_Stand_WithBalloonGiftReady" Value="269508" />
   <Preset Label="musicFestival_Artist_Performance_Opener1" Value="269568" />
   <Preset Label="musicFestival_Artist_Performance_Opener2" Value="269569" />
+  <Preset Label="animalObjects_Idles_Rabbit_Eat_GardeningHelp" Value="269630" />
+  <Preset Label="animalObjects_Idles_LivestockPen_Llama_React_PositiveJump" Value="269742" />
+  <Preset Label="fox_LayDown_Idle" Value="269797" />
   <Preset Label="mixingBowl_RecipeActions_Bake_CrackEgg" Value="269857" />
   <Preset Label="mixingBowl_RecipeActions_Bake_MeasureCup" Value="269858" />
   <Preset Label="mixingBowl_RecipeActions_Bake_Taste" Value="269859" />
+  <Preset Label="fox_Stalk_Attack_Cannonical" Value="269935" />
   <Preset Label="musicFestival_WatchPerformance_ListenActive" Value="270118" />
   <Preset Label="musicFestival_WatchPerformance_Cheer" Value="270119" />
   <Preset Label="musicFestival_WatchPerformance_Clap" Value="270120" />
   <Preset Label="musicFestival_Artist_BowWave_Bow" Value="270401" />
   <Preset Label="musicFestival_Artist_BowWave_Wave" Value="270402" />
   <Preset Label="musicFestival_Artist_BowWave_Bow2" Value="270403" />
+  <Preset Label="animalObjects_Idles_Chicken_Coop_GetIn_Run" Value="270580" />
   <Preset Label="musicFestival_WatchPerformance_Clap_Looping" Value="270711" />
   <Preset Label="objectPose_Photography_SoloObjectSelfie_Low" Value="270787" />
   <Preset Label="photography_SoloObjectSelfie" Value="270788" />
   <Preset Label="objectPose_Photography_SoloObjectSelfie_Medium" Value="270824" />
+  <Preset Label="death_Finalizer_fox_doom" Value="270917" />
+  <Preset Label="canonical_CarrySim_Infant_PickUp_Stand" Value="271023" />
+  <Preset Label="transferCarry_RightToBack_Infant" Value="271078" />
+  <Preset Label="canonical_CarrySim_Infant_PickUp_Back" Value="271091" />
+  <Preset Label="fox_gift_HideGift" Value="271102" />
+  <Preset Label="fox_Steal_Idle" Value="271181" />
+  <Preset Label="fox_Watch_Neutral" Value="271313" />
+  <Preset Label="fox_Watch_Happy" Value="271314" />
+  <Preset Label="fox_Watch_Wary" Value="271315" />
+  <Preset Label="transferCarry_BackToRight_Infant" Value="271335" />
+  <Preset Label="socials_wedding_flowerbouquet_throw" Value="272679" />
   <Preset Label="routing_UsePhone" Value="273653" />
+  <Preset Label="Trait_Idle_SociallyAwkward" Value="273696" />
   <Preset Label="soc_Chat_Listen_WithPhone_Looping" Value="273822" />
+  <Preset Label="bathtub_InfantBath_idle" Value="273872" />
+  <Preset Label="bathtub_InfantBath_playWithToy" Value="273873" />
+  <Preset Label="bathtub_InfantBath_trickleWaterOn" Value="273874" />
+  <Preset Label="bathtub_InfantBath_Wash" Value="273877" />
+  <Preset Label="bathtub_InfantBath_testWaterTemp" Value="273880" />
+  <Preset Label="infant_Posture_LayOnStomach_Idles" Value="274506" />
+  <Preset Label="HighChair_Anim_FeedInfant_Feed" Value="274599" />
+  <Preset Label="HighChair_Anim_FeedInfant_Feed_FirstBite" Value="274612" />
+  <Preset Label="HighChair_Anim_FeedInfant_MakeAMess" Value="274613" />
+  <Preset Label="HighChair_Anim_FeedInfant_GuideSpoon" Value="274614" />
+  <Preset Label="HighChair_Anim_FeedInfant_Idle" Value="274615" />
+  <Preset Label="HighChair_Anim_FeedInfant_StopDislike" Value="274616" />
+  <Preset Label="HighChair_Anim_UnsureReaction" Value="274617" />
   <Preset Label="PairedDancing_Chat" Value="274664" />
   <Preset Label="PairedDancing_DipFail" Value="274666" />
   <Preset Label="PairedDancing_DipSucceed" Value="274667" />
@@ -1700,11 +1913,200 @@
   <Preset Label="PairedDancing_Flirt_Succeed" Value="274876" />
   <Preset Label="PairedDancing_Kiss_Success" Value="274878" />
   <Preset Label="PairedDancing_Sway_Idle" Value="274881" />
+  <Preset Label="canonical_CarrySim_InObject_PutDown" Value="274988" />
+  <Preset Label="postureIdles_LayOnBackOnObject" Value="275139" />
+  <Preset Label="wedding_Aisle_Runner_Idle" Value="275170" />
+  <Preset Label="Baby_Actions_Passive" Value="275172" />
+  <Preset Label="Bassinet_TalkTo_Talk" Value="275174" />
+  <Preset Label="Bassinet_TalkTo_Entertain" Value="275177" />
+  <Preset Label="Baby_Actions_Kiss" Value="275178" />
+  <Preset Label="Baby_ChangeOutfit_Change" Value="275180" />
   <Preset Label="postureIdles_paireddancing_idle" Value="275189" />
+  <Preset Label="Soc_Friendly_NT_AdmireNewlyweds_succeed" Value="275195" />
+  <Preset Label="Soc_Friendly_NT_AskForBlessingToMarry_Fail" Value="275197" />
+  <Preset Label="Soc_Friendly_NT_AskForBlessingToMarry_Succeed" Value="275198" />
+  <Preset Label="infant_Behavior_Hiccup" Value="275200" />
+  <Preset Label="infant_Behavior_Sneezing" Value="275201" />
+  <Preset Label="infant_Behavior_Cooing" Value="275202" />
+  <Preset Label="infant_Behavior_Babbling" Value="275203" />
+  <Preset Label="infant_Behavior_SuckFingers" Value="275204" />
+  <Preset Label="infant_Behavior_GrabFeet" Value="275206" />
+  <Preset Label="infant_Behavior_Wobbling" Value="275208" />
+  <Preset Label="infant_Behavior_Wiggle" Value="275209" />
+  <Preset Label="wedding_Aisle_Runner_Paths" Value="275215" />
+  <Preset Label="Soc_Friendly_NT_AnnounceEngagement_Fail" Value="275241" />
+  <Preset Label="Soc_Friendly_NT_AnnounceEngagement_Succeed" Value="275242" />
+  <Preset Label="Soc_Generic_T_AskToBeHonorAttendant_Fail" Value="275244" />
+  <Preset Label="Soc_Generic_T_AskToBeHonorAttendant_Succeed" Value="275245" />
+  <Preset Label="Soc_Generic_NT_EnthuseAboutWedding_Enthuse_Fail" Value="275247" />
+  <Preset Label="Soc_Generic_NT_EnthuseAboutWedding_Enthuse_Succeed" Value="275248" />
+  <Preset Label="infant_Posture_LayOnBack_Idles" Value="275252" />
+  <Preset Label="infant_Responses_Clapping" Value="275273" />
+  <Preset Label="infant_Responses_Laugh" Value="275274" />
+  <Preset Label="canonical_CarrySim_InObject_Pickup" Value="275275" />
+  <Preset Label="postureIdles_LayOnStomachOnObject" Value="275288" />
+  <Preset Label="postureIdles_SitOnObject" Value="275296" />
+  <Preset Label="wedding_Aisle_Runner_Route_Event_Look" Value="275308" />
+  <Preset Label="wedding_Aisle_Runner_Route_Event_Wave" Value="275310" />
+  <Preset Label="wedding_Aisle_Runner_Route_Event_WipeTear" Value="275311" />
+  <Preset Label="CribAnim_Sleep_Idle" Value="275320" />
+  <Preset Label="CribAnim_ReadToSleep" Value="275322" />
+  <Preset Label="cribAnim_TuckInSoothe_TuckIn" Value="275326" />
+  <Preset Label="cribAnim_TuckInSoothe_Soothe" Value="275327" />
+  <Preset Label="cribAnim_TuckInSoothe_RoutingSlot" Value="275328" />
+  <Preset Label="CribAnim_Sleep_OnStomach" Value="275344" />
+  <Preset Label="wedding_Aisle_Runner_Solo_Paths" Value="275355" />
+  <Preset Label="wedding_Aisle_Runner_Solo_Route_Event_Trip" Value="275361" />
+  <Preset Label="wedding_Aisle_Runner_Solo_Route_Event_Wave" Value="275363" />
+  <Preset Label="wedding_Aisle_Runner_Solo_Route_Event_Wipe_Tear" Value="275364" />
+  <Preset Label="infant_Distress_Cry" Value="275369" />
+  <Preset Label="infant_Distress_Fuss" Value="275370" />
+  <Preset Label="infant_UseDiaper" Value="275371" />
+  <Preset Label="TeaSet_Pour" Value="275509" />
+  <Preset Label="TeaSet_Steep" Value="275510" />
+  <Preset Label="infant_ChangeDiaper_Stand" Value="275876" />
+  <Preset Label="ferrisWheel_Rotate" Value="275923" />
+  <Preset Label="postureIdle_SitInHighChair_Feed" Value="276037" />
+  <Preset Label="WeddingCake_CutCakeTogether_CutCakeLarge_Fail" Value="276050" />
+  <Preset Label="WeddingCake_CutCakeTogether_CutCakeLarge_Success" Value="276051" />
+  <Preset Label="WeddingCake_CutCakeTogether_CutCakeSmall_Fail" Value="276052" />
+  <Preset Label="WeddingCake_CutCakeTogether_CutCakeSmall_Success" Value="276053" />
+  <Preset Label="infant_CleanUp" Value="276111" />
+  <Preset Label="TeaSet_Socials_Offer_Bow" Value="276453" />
+  <Preset Label="TeaSet_Socials_Offer_Tea" Value="276454" />
+  <Preset Label="TeaSet_Socials_Offer_Tea_Kneel" Value="276455" />
+  <Preset Label="infant_ParentalCare_CheckOn" Value="276908" />
+  <Preset Label="werewolfAbilities_Tunneler_Teleport" Value="276975" />
+  <Preset Label="WeddingCake_FeedWeddingCake_Feed_Funny_Fail" Value="277032" />
+  <Preset Label="WeddingCake_FeedWeddingCake_Feed_Funny_Succeed" Value="277033" />
+  <Preset Label="WeddingCake_FeedWeddingCake_Feed_Romantic" Value="277034" />
+  <Preset Label="WeddingCake_FeedWeddingCake_Feed_Upset" Value="277035" />
+  <Preset Label="sandplay_DrawInSand_Heart" Value="277235" />
+  <Preset Label="sandplay_DrawInSand_Star" Value="277237" />
+  <Preset Label="sandplay_DrawInSand_Smiley" Value="277238" />
+  <Preset Label="sandplay_DrawInSand_Restore" Value="277239" />
+  <Preset Label="sandplay_DrawInSnow_Heart" Value="277241" />
+  <Preset Label="sandplay_DrawInSnow_Restore" Value="277242" />
+  <Preset Label="sandplay_DrawInSnow_Smiley" Value="277243" />
+  <Preset Label="sandplay_DrawInSnow_Star" Value="277244" />
+  <Preset Label="sandplay_DestroySand" Value="277245" />
+  <Preset Label="sandplay_DestroySnow" Value="277247" />
+  <Preset Label="sandplay_CollectBottle" Value="277248" />
+  <Preset Label="schoolLocker_Actions_Cry" Value="277306" />
+  <Preset Label="schoolLocker_Actions_FreshenUp" Value="277307" />
+  <Preset Label="schoolLocker_Actions_ActiveRead" Value="277308" />
+  <Preset Label="schoolLocker_Actions_PassiveRead" Value="277309" />
+  <Preset Label="schoolLocker_Actions_StinkReaction" Value="277322" />
+  <Preset Label="schoolLocker_Actions_Hit" Value="277323" />
+  <Preset Label="schoolLocker_Actions_Grab" Value="277345" />
+  <Preset Label="wedding_Aisle_Solo_RouteEvent_FlowerToss" Value="277421" />
+  <Preset Label="bed_Kneel_PostureIdle" Value="277510" />
+  <Preset Label="bed_CrossLegged_PostureIdle" Value="277511" />
+  <Preset Label="playmatAnims_PlayWithInfant" Value="277540" />
+  <Preset Label="playmatAnims_Infant_Play_ChewOnRing" Value="277541" />
+  <Preset Label="playmatAnims_Infant_Play_GrabAt" Value="277543" />
+  <Preset Label="playmatAnims_Infant_Play_GrabAt_Pincer" Value="277544" />
+  <Preset Label="playmatAnims_Infant_Play_BatAt" Value="277545" />
+  <Preset Label="socials_Wedding_FlowerBouquet_ActorGather" Value="277548" />
+  <Preset Label="socials_Wedding_FlowerBouquet_Target_PrepareToCatch" Value="277549" />
+  <Preset Label="socials_Wedding_FlowerBouquet_AttemptToCatch" Value="277550" />
+  <Preset Label="Handiness_Upgrade_Repair_TableChangeDiaper" Value="277616" />
+  <Preset Label="postureIdle_TableChangeDiaper" Value="277892" />
+  <Preset Label="tableChangeDiaper_ChangeDiaper_Neutral" Value="277955" />
+  <Preset Label="tableChangeDiaper_ChangeOutift" Value="277956" />
+  <Preset Label="tableChangeDiaper_ChangeDiaper_Happy" Value="277957" />
+  <Preset Label="tableChangeDiaper_ChangeDiaper_Crying" Value="277958" />
+  <Preset Label="tableChangeDiaper_ChangeDiaper_Smelly" Value="277959" />
+  <Preset Label="tableChangeDiaper_ChangeDiaper_PeeOn" Value="277960" />
+  <Preset Label="tableChangeDiaper_ChangeDiaper_FindObject" Value="277961" />
   <Preset Label="wantsAndFears_RegainPassion_Success" Value="277996" />
   <Preset Label="wantsAndFears_RegainPassion_Fail" Value="277998" />
+  <Preset Label="anim_HighSchool_Active_Whiteboard_TeachClass" Value="278114" />
+  <Preset Label="anim_HighSchool_Active_AttendClass_Listen" Value="278115" />
+  <Preset Label="anim_HighSchool_Active_AttendClass_Distracted" Value="278116" />
+  <Preset Label="groupDancing_BustAMove1" Value="278133" />
+  <Preset Label="groupDancing_BustAMove2" Value="278134" />
+  <Preset Label="groupDancing_BustAMove3" Value="278135" />
+  <Preset Label="groupDancing_BustAMove4" Value="278136" />
+  <Preset Label="groupDancing_BustAMove5" Value="278137" />
+  <Preset Label="groupDancing_BustAMove6" Value="278138" />
+  <Preset Label="groupDancing_BustAMoveAll" Value="278139" />
+  <Preset Label="groupDancing_Idles" Value="278140" />
+  <Preset Label="groupDancing_JumpAround180" Value="278141" />
+  <Preset Label="groupDancing_SlideToLeft" Value="278142" />
+  <Preset Label="groupDancing_SlideToRight" Value="278143" />
+  <Preset Label="groupDancing_StepSpin" Value="278144" />
+  <Preset Label="groupDancing_Reactions_Bored" Value="278146" />
+  <Preset Label="groupDancing_Reactions_Embarrassed" Value="278147" />
+  <Preset Label="groupDancing_Reactions_Energized" Value="278148" />
+  <Preset Label="groupDancing_Reactions_LaughAt" Value="278149" />
+  <Preset Label="computer_SimsfluencerSideHustle_Review" Value="278354" />
+  <Preset Label="computer_SimsfluencerSideHustle_Idle" Value="278356" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_ExchangeRings_Confident" Value="278452" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_ExchangeRings_Dreamy" Value="278453" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_ExchangeRings_Shy" Value="278454" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_Idles" Value="278455" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_Kiss_Dip" Value="278456" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_Kiss_Embrace" Value="278457" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_Kiss_Fail" Value="278458" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_Kiss_Shy" Value="278459" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_Vows_Confident" Value="278460" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_Vows_Dreamy" Value="278461" />
+  <Preset Label="Animations_Custom_State_Wedding_Ceremony_Vows_Shy" Value="278462" />
+  <Preset Label="Animations_Custom_State_Wedding_AudienceReactions_Cheer" Value="278464" />
+  <Preset Label="Animations_Custom_State_Wedding_AudienceReactions_Cry" Value="278465" />
+  <Preset Label="Animations_Custom_State_Wedding_AudienceReactions_HappyCry" Value="278466" />
+  <Preset Label="Animations_Custom_State_Wedding_AudienceReactions_Meh" Value="278467" />
+  <Preset Label="Animations_Custom_State_Wedding_Speech_GiveSpeech" Value="278469" />
+  <Preset Label="Animations_Custom_State_Wedding_OfficiantSpeech_GiveSpeech" Value="278471" />
+  <Preset Label="Animations_Custom_State_Wedding_OfficiantSpeech_Idle" Value="278472" />
+  <Preset Label="Animations_Custom_State_Wedding_BlowBubbles_BlowBubbles" Value="278475" />
+  <Preset Label="Animations_Custom_State_Wedding_BlowBubbles_Idle" Value="278476" />
+  <Preset Label="Animations_Custom_State_Wedding_ThrowRice_ThrowRice" Value="278479" />
+  <Preset Label="Toy_Infant_babble" Value="278504" />
+  <Preset Label="Toy_Infant_Biting" Value="278505" />
+  <Preset Label="Toy_Infant_Contemplate" Value="278506" />
+  <Preset Label="Toy_Infant_Coo" Value="278507" />
+  <Preset Label="Toy_Infant_Idle" Value="278508" />
+  <Preset Label="Toy_Infant_Laugh" Value="278509" />
+  <Preset Label="Toy_Infant_ShakeToy" Value="278510" />
+  <Preset Label="Toy_Infant_SqueezeToy" Value="278511" />
+  <Preset Label="Toy_Infant_PickUp_pickUp" Value="278515" />
+  <Preset Label="Toy_Infant_PickUp_putDown" Value="278516" />
+  <Preset Label="Toy_Infant_GiveToy" Value="278518" />
+  <Preset Label="Toy_Infant_DollHouse_babble" Value="278520" />
+  <Preset Label="Toy_Infant_DollHouse_Biting" Value="278521" />
+  <Preset Label="Toy_Infant_DollHouse_Contemplate" Value="278522" />
+  <Preset Label="Toy_Infant_DollHouse_Coo" Value="278524" />
+  <Preset Label="Toy_Infant_DollHouse_Idle" Value="278525" />
+  <Preset Label="Toy_Infant_DollHouse_Laugh" Value="278526" />
+  <Preset Label="Toy_Infant_DollHouse_ShakeToy" Value="278527" />
+  <Preset Label="Toy_Infant_DollHouse_SqueezeToy" Value="278528" />
   <Preset Label="wantsAndFears_HeartToHeart_Success" Value="278529" />
+  <Preset Label="infant_AgeUp_Paired" Value="278530" />
   <Preset Label="wantsAndFears_HeartToHeart_Fail" Value="278533" />
+  <Preset Label="anim_HighSchool_Active_Whiteboard_Prepare" Value="278552" />
+  <Preset Label="anim_HighSchool_Active_Whiteboard_Clean" Value="278553" />
+  <Preset Label="infant_AgeUp_Solo" Value="278609" />
+  <Preset Label="anim_HighSchool_Active_Book_WriteOnBook" Value="278760" />
+  <Preset Label="animSet_HIghSchool_Active_WriteOnBook" Value="278774" />
+  <Preset Label="Infant_Soc_HaveBlowOut" Value="278789" />
+  <Preset Label="animations_Custom_State_Wedding_Ceremony_Vows_Confident_Reversed" Value="278944" />
+  <Preset Label="animations_Custom_State_Wedding_Ceremony_Vows_Dreamy_Reversed" Value="278945" />
+  <Preset Label="animations_Custom_State_Wedding_Ceremony_Vows_Shy_Reversed" Value="278946" />
+  <Preset Label="birthdayCake_AgeUpInfant" Value="279018" />
+  <Preset Label="bubbleTeaCounter_Make" Value="279630" />
+  <Preset Label="bubbleTeaCounter_Serve" Value="279636" />
+  <Preset Label="anim_HighSchool_Active_AdvertiseHSTeam_Cheer" Value="279761" />
+  <Preset Label="anim_HighSchool_Active_AdvertiseHSTeam_Computer" Value="279763" />
+  <Preset Label="anim_HighSchool_Active_AdvertiseHSTeam_Football" Value="279764" />
+  <Preset Label="anim_HighSchool_Active_AdvertiseHSTeam_Chess" Value="279765" />
+  <Preset Label="WeddingParties_AskforMarriageAdvice_Fail" Value="279848" />
+  <Preset Label="WeddingParties_AskforMarriageAdvice_Succeed" Value="279849" />
+  <Preset Label="weddingToast_MakeToast_Success" Value="280047" />
+  <Preset Label="weddingToast_MakeToast_Failure" Value="280329" />
+  <Preset Label="weddingToast_React_Success" Value="280332" />
+  <Preset Label="weddingToast_React_Failure" Value="280333" />
   <Preset Label="WeddingVenue_CheckOutVenue_Critique" Value="280634" />
   <Preset Label="WeddingVenue_CheckOutVenue_notImpressed_Reaction" Value="280635" />
   <Preset Label="WeddingVenue_CheckOutVenue_Positive_Reactions" Value="280636" />
@@ -1712,12 +2114,229 @@
   <Preset Label="WeddingVenue_CheckOutVenue_TakePicture" Value="280638" />
   <Preset Label="WeddingVenue_CheckOutVenue_Think_And_Point" Value="280639" />
   <Preset Label="WeddingVenue_CheckOutVenue_View" Value="280640" />
+  <Preset Label="anim_HighSchool_Active_PerformTPose" Value="280686" />
+  <Preset Label="thriftStore_RetailRack_Browse" Value="280690" />
+  <Preset Label="weddingCake_CutCakeTogether_PostureIdle" Value="280968" />
+  <Preset Label="weddingCake_SneakTaste_Small" Value="280991" />
+  <Preset Label="weddingCake_SneakTaste_Large" Value="280993" />
+  <Preset Label="infant_RoutFail" Value="281014" />
+  <Preset Label="bubbleTeaDrink_StrawStab" Value="281056" />
+  <Preset Label="photoOpStand_TakeSelfie_Sad" Value="281721" />
+  <Preset Label="photoOpStand_TakeSelfie_Mean" Value="281723" />
+  <Preset Label="photoOpStand_TakeSelfie_Cool" Value="281724" />
+  <Preset Label="photoOpStand_Pose_Any01" Value="281726" />
+  <Preset Label="photoOpStand_Pose_Any02" Value="281727" />
+  <Preset Label="photoOpStand_Pose_Any03" Value="281728" />
+  <Preset Label="photoOpStand_Pose_Any04" Value="281729" />
+  <Preset Label="photoOpStand_Pose_Masculine01" Value="281730" />
+  <Preset Label="photoOpStand_Pose_Masculine02" Value="281731" />
+  <Preset Label="photoOpStand_Pose_Feminine01" Value="281732" />
+  <Preset Label="WeddingCake_Decorate_FinishingFlourish" Value="281752" />
+  <Preset Label="WeddingCake_Decorate_Icing" Value="281753" />
+  <Preset Label="WeddingCake_Decorate_Piping" Value="281754" />
+  <Preset Label="WeddingCake_Decorate_Sprinkle" Value="281755" />
+  <Preset Label="photoOpStand_Deface" Value="281807" />
+  <Preset Label="watchAndReactions_CheerLow" Value="281817" />
+  <Preset Label="watchAndReactions_CheerMedium" Value="281818" />
+  <Preset Label="watchAndReactions_CheerHigh" Value="281819" />
+  <Preset Label="watchAndReactions_Watch_Loop" Value="281820" />
+  <Preset Label="watchAndReactions_Mean" Value="281821" />
+  <Preset Label="watchAndReactions_Angry" Value="281822" />
+  <Preset Label="watchAndReactions_Sad" Value="281823" />
+  <Preset Label="watchAndReactions_Bored" Value="281824" />
+  <Preset Label="watchAndReactions_Disgusted" Value="281825" />
+  <Preset Label="watchAndReactions_Uncomfortable" Value="281826" />
+  <Preset Label="photoOpStand_Clean" Value="281838" />
+  <Preset Label="Infant_Socials_CradleHold_Passive" Value="281950" />
+  <Preset Label="Infant_Socials_CradleHold_BreastFeed_Succeed" Value="282011" />
+  <Preset Label="Infant_Socials_CradleHold_BottleFeed_Succeed" Value="282012" />
+  <Preset Label="Infant_Socials_CradleHold_BottleFeed_Fail" Value="282053" />
+  <Preset Label="Infant_Socials_CradleHold_BreastFeed_Fail" Value="282054" />
+  <Preset Label="Infant_Socials_CradleHold_BreastFeed_burp" Value="282055" />
+  <Preset Label="Infant_Socials_CradleHold_BottleFeed_burp" Value="282056" />
+  <Preset Label="Infant_Socials_CradleHold_BreastFeed_burp_spitUpMilk" Value="282058" />
+  <Preset Label="Infant_Socials_CradleHold_BottleFeed_burp_spitUpMilk" Value="282059" />
+  <Preset Label="podium_Idle" Value="282220" />
+  <Preset Label="podium_CompetitionSpeech" Value="282221" />
+  <Preset Label="podium_CallOutDiploma" Value="282223" />
+  <Preset Label="Infant_BreakLoose_Loop" Value="282296" />
+  <Preset Label="socials_Friendly_WeddingTradition_AskHonorSuccess" Value="282307" />
+  <Preset Label="socials_Friendly_WeddingTradition_AskHonorFail" Value="282308" />
+  <Preset Label="socials_Friendly_WeddingTradition_InformHonorSuccess" Value="282309" />
+  <Preset Label="socials_Friendly_WeddingTradition_InformHonorFail" Value="282310" />
+  <Preset Label="socials_Friendly_WeddingTradition_StorySuccess" Value="282311" />
+  <Preset Label="socials_Friendly_WeddingTradition_StoryFail" Value="282312" />
+  <Preset Label="infant_Socials_BragAboutBaby_Success" Value="282432" />
+  <Preset Label="infant_Socials_BragAboutBaby_Failure" Value="282434" />
+  <Preset Label="infant_Socials_Entertain" Value="282435" />
+  <Preset Label="infant_Socials_Gossip_Success" Value="282438" />
+  <Preset Label="infant_Socials_Gossip_Failure" Value="282440" />
+  <Preset Label="infant_Socials_ShareBabyPhotos_Success" Value="282445" />
+  <Preset Label="infant_Socials_ShareBabyPhotos_Failure" Value="282448" />
+  <Preset Label="infant_Socials_Bite" Value="282651" />
+  <Preset Label="throwFootball_BallIdle_X" Value="282660" />
+  <Preset Label="throwFootball_BallIdle_Y" Value="282661" />
+  <Preset Label="throwFootball_RegularThrow_XToY_Success" Value="282662" />
+  <Preset Label="throwFootball_RegularThrow_YToX_Success" Value="282663" />
+  <Preset Label="throwFootball_RegularThrow_XToY_Fail_Drop" Value="282743" />
+  <Preset Label="throwFootball_RegularThrow_XToY_Fail_HitInFace" Value="282744" />
+  <Preset Label="throwFootball_RegularThrow_YToX_Fail_Drop" Value="282745" />
+  <Preset Label="throwFootball_RegularThrow_YToX_Fail_HitInFace" Value="282746" />
+  <Preset Label="openableWindow_ClimbThrough" Value="282774" />
+  <Preset Label="anim_BedUpdates_PillowFight_Idle" Value="282906" />
+  <Preset Label="anim_BedUpdates_PillowFight_Active" Value="282916" />
+  <Preset Label="anim_BedUpdates_PillowFight_Lose" Value="282917" />
+  <Preset Label="anim_BedUpdates_PillowFight_Win" Value="282918" />
+  <Preset Label="throwFootball_HardThrow_XToY_Fail_Drop" Value="282923" />
+  <Preset Label="throwFootball_HardThrow_XToY_Fail_HitInFace" Value="282924" />
+  <Preset Label="throwFootball_HardThrow_XToY_Success" Value="282925" />
+  <Preset Label="throwFootball_HardThrow_YToX_Fail_Drop" Value="282926" />
+  <Preset Label="throwFootball_HardThrow_YToX_Fail_HitInFace" Value="282927" />
+  <Preset Label="throwFootball_HardThrow_YToX_Success" Value="282928" />
+  <Preset Label="openableWindow_AsktoGo_Success" Value="283031" />
+  <Preset Label="openableWindow_AsktoGo_Fail" Value="283033" />
   <Preset Label="Phone_VideoCall" Value="283142" />
   <Preset Label="anim_CrossLegged_Idle" Value="283176" />
+  <Preset Label="infant_Socials_CradleHold_Cuddle" Value="283500" />
+  <Preset Label="infant_Socials_CradleHold_Comfort" Value="283501" />
+  <Preset Label="infant_Socials_CradleHold_Bounce" Value="283502" />
+  <Preset Label="infant_Socials_CradleHold_GiveNap" Value="283736" />
+  <Preset Label="socials_Wedding_FlowerBouquet_PrepareToThrow_Idle" Value="283806" />
+  <Preset Label="socials_Wedding_FlowerBouquet_Throw_Fail" Value="283807" />
   <Preset Label="wantsAndFears_ShowOff_World" Value="283854" />
+  <Preset Label="socials_Friendly_ReminisceAboutWedding_Loop" Value="284093" />
+  <Preset Label="socials_Friendly_ReminisceAboutWedding_Fail" Value="284094" />
+  <Preset Label="socials_Friendly_ReminisceAboutWedding_Success" Value="284095" />
+  <Preset Label="anim_EP12Death_Ghost_Nervous" Value="284390" />
+  <Preset Label="anim_EP12Death_UrbanMyth_Doom" Value="284393" />
+  <Preset Label="anim_EP12Death_UrbanMyth_Resurrect" Value="284394" />
+  <Preset Label="anim_EP12Death_StinkBomb_Resurrect" Value="284395" />
+  <Preset Label="anim_EP12Death_StinkBomb_Doom" Value="284396" />
+  <Preset Label="anim_EP12Death_UrbanMyth" Value="284397" />
+  <Preset Label="anim_EP12Death_StinkBomb" Value="284398" />
+  <Preset Label="cheerMat_Solo_WarmUpIdle" Value="284567" />
+  <Preset Label="cheerMat_Solo_CheerMove02" Value="284569" />
+  <Preset Label="cheerMat_Solo_CheerMove03" Value="284570" />
+  <Preset Label="cheerMat_Solo_CheerMove04" Value="284571" />
+  <Preset Label="Canonicals_Ask_Be_PickedUp_Infant" Value="284592" />
+  <Preset Label="PartyAnimal_DoTrick" Value="284799" />
+  <Preset Label="PartyAnimal_Woooo" Value="284831" />
+  <Preset Label="cheerMat_Solo_CheerMove01" Value="284868" />
+  <Preset Label="teenPranks_Whiteboard_Draw" Value="284999" />
+  <Preset Label="TeenPranks_StinkCapsule_SuperFail" Value="285003" />
+  <Preset Label="TeenPranks_StinkCapsule_Fail" Value="285004" />
+  <Preset Label="TeenPranks_StinkCapsule_Success" Value="285006" />
+  <Preset Label="teenPranks_PASpeaker_Fail" Value="285008" />
+  <Preset Label="teenPranks_PASpeaker_Looping" Value="285009" />
+  <Preset Label="teenPranks_StinkReaction" Value="285011" />
+  <Preset Label="TeenPranks_Social_Dare_Fail" Value="285013" />
+  <Preset Label="TeenPranks_Social_Dare_Succeed" Value="285014" />
+  <Preset Label="TeenPranks_Social_Frame_Fail" Value="285016" />
+  <Preset Label="TeenPranks_Social_Frame_Succeed" Value="285017" />
+  <Preset Label="TeenPranks_Social_UrbanMyth_Fail" Value="285021" />
+  <Preset Label="TeenPranks_Social_UrbanMyth_Success" Value="285023" />
+  <Preset Label="TeenPranks_Social_UrbanMyth_SuperFail" Value="285347" />
+  <Preset Label="TeenPranks_StinkCapsule_Loop" Value="285349" />
   <Preset Label="anim_EP12Death_Ghost_Fear" Value="285877" />
+  <Preset Label="PubertyChanges_Shower_Shave_Arms" Value="286016" />
+  <Preset Label="PubertyChanges_Shower_Shave_Chest" Value="286017" />
+  <Preset Label="PubertyChanges_Shower_Shave_Face" Value="286018" />
+  <Preset Label="PubertyChanges_Shower_Shave_Legs" Value="286019" />
+  <Preset Label="PubertyChanges_JokeAbout_Fail" Value="286024" />
+  <Preset Label="PubertyChanges_JokeAbout_Succeed" Value="286025" />
+  <Preset Label="pubertyChanges_Mirror_Shave_FacialHair" Value="286026" />
+  <Preset Label="pubertyChanges_Apply_FaceProduct" Value="286027" />
+  <Preset Label="animations_Custom_State_Wedding_Ceremony_ExchangeRings_Confident_Reversed" Value="286155" />
+  <Preset Label="animations_Custom_State_Wedding_Ceremony_ExchangeRings_Dreamy_Reversed" Value="286156" />
+  <Preset Label="animations_Custom_State_Wedding_Ceremony_ExchangeRings_Shy_Reversed" Value="286157" />
+  <Preset Label="infant_Socials_Peek_A_Boo" Value="286183" />
+  <Preset Label="hSProm_Promposals_LeaveNote" Value="286227" />
+  <Preset Label="hSProm_Promposals_CreateSign" Value="286230" />
+  <Preset Label="Soc_Generic_NT_AskAboutWedding_Ask_Generic_Fail" Value="287183" />
+  <Preset Label="Soc_Generic_NT_AskAboutWedding_Ask_Generic_Succeed" Value="287184" />
+  <Preset Label="pierAttractions_Ride_Multi" Value="287236" />
+  <Preset Label="pierAttractions_Ride_Single" Value="287237" />
+  <Preset Label="pierAttractions_WooHoo" Value="287238" />
+  <Preset Label="pierAttractions_WooHoo_BigFinish" Value="287241" />
+  <Preset Label="podium_GetDiploma" Value="287721" />
+  <Preset Label="hSGraduation_ShowOffDiploma" Value="287737" />
+  <Preset Label="hSGraduation_ThrowCap" Value="287738" />
+  <Preset Label="hSGraduation_ShowOffHeadpiece" Value="287739" />
+  <Preset Label="hSGraduation_TendPodium" Value="287740" />
+  <Preset Label="hSGraduation_ValedictorianSpeech" Value="287741" />
+  <Preset Label="photobooth_Idle" Value="287777" />
+  <Preset Label="photobooth_LookAtPhoto_Neutral" Value="287778" />
+  <Preset Label="photobooth_Photo_Pair_Friendly_Success" Value="287779" />
+  <Preset Label="photobooth_WooHoo" Value="287782" />
+  <Preset Label="photobooth_WooHoo_Idle" Value="287783" />
+  <Preset Label="photobooth_WooHoo_BigFinish" Value="287784" />
+  <Preset Label="photobooth_LookAtPhoto_Positive" Value="287786" />
+  <Preset Label="photobooth_LookAtPhoto_Negative" Value="287787" />
+  <Preset Label="werewolf_Howl" Value="288002" />
+  <Preset Label="werewolf_Howl_Greg" Value="288003" />
+  <Preset Label="werewolf_Howl_Lunar" Value="288004" />
+  <Preset Label="werewolf_Howl_Pack" Value="288005" />
+  <Preset Label="werewolf_Howl_Somber" Value="288006" />
+  <Preset Label="werewolf_Howl_Vicious" Value="288007" />
+  <Preset Label="werewolf_Turn_TurnIntoWerewolf" Value="288334" />
   <Preset Label="Lunarcycle_Moonbathe_Moonbathe" Value="288512" />
+  <Preset Label="canonical_NonTouchingSocialInfant" Value="289130" />
+  <Preset Label="werewolf_TeachToHowl_Active" Value="289390" />
+  <Preset Label="soc_Friendly_NT_EnthuseAbout_Success_Flipped" Value="289405" />
+  <Preset Label="werewolf_Abilities_MarkTerritory" Value="289478" />
+  <Preset Label="werewolf_Abilities_Groom" Value="289488" />
+  <Preset Label="werewolf_Abilities_Nap" Value="289489" />
+  <Preset Label="werewolf_Abilities_ResistSuccessWerewolf" Value="289491" />
+  <Preset Label="werewolf_Abilities_ResistFail" Value="289492" />
+  <Preset Label="werewolf_Abilities_ResistSuccess" Value="289493" />
+  <Preset Label="werewolf_Abilities_Scavenge" Value="289494" />
+  <Preset Label="werewolf_Abilities_Primal" Value="289495" />
+  <Preset Label="werewolf_Abilities_Devour_Large" Value="289496" />
+  <Preset Label="werewolf_Abilities_Devour_Small" Value="289498" />
+  <Preset Label="werewolf_Abilities_Devour_RampageLarge" Value="289499" />
+  <Preset Label="werewolf_Abilities_Devour_RampageSmall" Value="289500" />
+  <Preset Label="werewolf_Abilities_Ferocity_Success" Value="289502" />
+  <Preset Label="werewolf_Abilities_Ferocity_Fail" Value="289503" />
+  <Preset Label="werewolf_Transform_Controlled" Value="289505" />
+  <Preset Label="werewolf_Transform_First" Value="289506" />
+  <Preset Label="werewolf_Transform_AlreadyTransformed" Value="289507" />
+  <Preset Label="werewolf_Transform_Uncontrolled" Value="289509" />
+  <Preset Label="solo_Interaction_TeenRelationshipDrama_ThinkAboutCrush" Value="289740" />
+  <Preset Label="werewolf_TeachToHowl_PassiveChild" Value="289750" />
+  <Preset Label="werewolf_TeachToHowl_PassiveToddler" Value="289751" />
+  <Preset Label="hSProm_Promposals_PresentSign_Success" Value="289762" />
+  <Preset Label="hSProm_Promposals_PresentSign_Failure" Value="289763" />
+  <Preset Label="hSProm_Promposals_PresentSign_FumbleFail" Value="289765" />
+  <Preset Label="hSProm_Promposals_AskToProm_Succeed" Value="289766" />
+  <Preset Label="hSProm_Promposals_AskToProm_Fail" Value="289767" />
+  <Preset Label="hSProm_Promposals_AskFriend_Succeed" Value="289768" />
+  <Preset Label="hSProm_Promposals_AskFriend_Fail" Value="289769" />
+  <Preset Label="hSProm_ClaimToBePromRoyalty" Value="289772" />
+  <Preset Label="hSProm_AskPromTips" Value="289773" />
   <Preset Label="scared_Panic" Value="289900" />
+  <Preset Label="werewolf_Transform_TransformReturn_Rampage" Value="289901" />
+  <Preset Label="werewolf_Transform_TransformReturn_First" Value="289903" />
+  <Preset Label="werewolf_Transform_TransformReturn_Transformed" Value="289904" />
+  <Preset Label="rescueNeglectedInfant" Value="290140" />
+  <Preset Label="werewolf_Turn_TurnIntoWerewolf_Reverse" Value="290219" />
+  <Preset Label="werewolf_Turn_AskToTurn" Value="290220" />
+  <Preset Label="Werewolf_Greg_CryGreg" Value="290223" />
+  <Preset Label="Werewolf_Greg_Distract" Value="290224" />
+  <Preset Label="Werewolf_SearchForGreg_ReactScared" Value="290226" />
+  <Preset Label="Werewolf_SearchForGreg_Search" Value="290227" />
+  <Preset Label="Werewolf_SearchForGreg_Survey" Value="290228" />
+  <Preset Label="werewolfPack_Hangout" Value="290402" />
+  <Preset Label="werewolfPack_AskToBeFriend_Success" Value="290403" />
+  <Preset Label="werewolfPack_AskToBeFriend_Failure" Value="290404" />
+  <Preset Label="werewolfPack_AskToJoin_Success" Value="290405" />
+  <Preset Label="werewolfPack_AskToJoin_Failure" Value="290406" />
+  <Preset Label="werewolfPack_DeclareSuperior_Different" Value="290407" />
+  <Preset Label="werewolfPack_DeclareSuperior_Same" Value="290409" />
+  <Preset Label="werewolfPack_DeclareSuperior_None" Value="290410" />
+  <Preset Label="werewolfPack_InviteToBeFriend_Succeed" Value="290411" />
+  <Preset Label="werewolfPack_InviteToBeFriend_Failure" Value="290412" />
+  <Preset Label="werewolfPack_InviteToJoin_Success" Value="290413" />
+  <Preset Label="werewolfPack_InviteToJoin_Failure" Value="290414" />
   <Preset Label="soc_Mischief_NT_Argue_Success_Reverse" Value="290442" />
   <Preset Label="small_Telescope_loops" Value="290494" />
   <Preset Label="small_Telescope_ReactDisgust" Value="290495" />
@@ -1725,11 +2344,127 @@
   <Preset Label="small_Telescope_ReactSurprise" Value="290497" />
   <Preset Label="small_Telescope_ReactWonder" Value="290499" />
   <Preset Label="small_Telescope_ReactWrite" Value="290500" />
+  <Preset Label="werewolfPack_TugOfWar_Success" Value="290638" />
+  <Preset Label="werewolfPack_TugOfWar_Failure" Value="290639" />
+  <Preset Label="werewolfPack_GiveUpPosition" Value="290640" />
+  <Preset Label="infant_Sleep_Idle" Value="290761" />
+  <Preset Label="infant_Sleep_Stomach" Value="290764" />
+  <Preset Label="HighChair_Anim_FeedResponse_Excited" Value="290798" />
+  <Preset Label="HighChair_Anim_FeedResponse_Happy" Value="290799" />
+  <Preset Label="HighChair_Anim_FeedResponse_Sad" Value="290800" />
+  <Preset Label="HighChair_Anim_FeedResponse_Unsure" Value="290801" />
+  <Preset Label="werewolf_Fury_Growl" Value="290891" />
+  <Preset Label="werewolf_Fury_Sniff" Value="290892" />
+  <Preset Label="werewolf_Fury_Itch" Value="290893" />
+  <Preset Label="werewolf_Fury_Socials_FlirtSuccess" Value="290896" />
+  <Preset Label="werewolf_Fury_Socials_FlirtFail" Value="290897" />
+  <Preset Label="werewolf_Fury_Socials_InsultSuccess" Value="290898" />
+  <Preset Label="werewolf_Fury_Socials_InsultFail" Value="290899" />
+  <Preset Label="werewolf_Fury_Socials_JokeSuccess" Value="290900" />
+  <Preset Label="werewolf_Fury_Socials_JokeFail" Value="290901" />
+  <Preset Label="werewolf_Fury_Socials_GrowlFlirtSuccess_M" Value="290902" />
+  <Preset Label="werewolf_Fury_Socials_GrowlFlirtFail_M" Value="290903" />
+  <Preset Label="werewolf_Fury_Socials_GrowlFlirtFail_F" Value="290904" />
+  <Preset Label="werewolf_Fury_Socials_GrowlFlirtSuccess_F" Value="290905" />
+  <Preset Label="werewolf_Fury_Socials_SnarlSuccess" Value="290906" />
+  <Preset Label="werewolf_Fury_Socials_SnarlFail" Value="290907" />
+  <Preset Label="werewolf_Fury_Socials_GossipSuccess" Value="290908" />
+  <Preset Label="werewolf_Fury_Socials_GossipFail" Value="290909" />
+  <Preset Label="Werewolf_Fight_WolfToWolf_Loop" Value="291389" />
+  <Preset Label="Werewolf_Fight_WolfToWolf_Fail" Value="291390" />
+  <Preset Label="Werewolf_Spar_Loop" Value="291391" />
+  <Preset Label="Werewolf_Fight_WolfToWolf_Succeed" Value="291392" />
+  <Preset Label="Werewolf_Fight_WolfToSim_Fail" Value="291394" />
+  <Preset Label="Werewolf_Fight_WolfToSim_Succeed" Value="291395" />
+  <Preset Label="werewolf_Fight_WolfToSim_Loop" Value="291396" />
+  <Preset Label="werewolf_Fight_SimToWolf_Loop" Value="291398" />
+  <Preset Label="werewolf_Fight_SimToWolf_Fail" Value="291399" />
+  <Preset Label="werewolf_Fight_SimToWolf_Succeed" Value="291400" />
+  <Preset Label="Werewolf_Fight_VampToWolf_WithGarlic_Fail" Value="291402" />
+  <Preset Label="Werewolf_Fight_VampToWolf_WithGarlic_Succeed" Value="291403" />
+  <Preset Label="werewolf_Fight_VampToWolf_WithGarlic_Loop" Value="291404" />
+  <Preset Label="werewolf_Fight_VampToWolf_NoGarlic_Fail" Value="291405" />
+  <Preset Label="werewolf_Fight_VampToWolf_NoGarlic_Loop" Value="291406" />
+  <Preset Label="werewolf_Fight_VampToWolf_NoGarlic_Succeed" Value="291407" />
+  <Preset Label="werewolf_Fight_WolfToVamp_NoGarlic_Fail" Value="291409" />
+  <Preset Label="werewolf_Fight_WolfToVamp_NoGarlic_Loop" Value="291410" />
+  <Preset Label="werewolf_Fight_WolfToVamp_NoGarlic_Succeed" Value="291411" />
+  <Preset Label="werewolf_Fight_WolfToVamp_WithGarlic_Fail" Value="291412" />
+  <Preset Label="werewolf_Fight_WolfToVamp_WithGarlic_Loop" Value="291413" />
+  <Preset Label="werewolf_Fight_WolfToVamp_WithGarlic_Succeed" Value="291414" />
+  <Preset Label="Werewolf_Spar_End" Value="291425" />
+  <Preset Label="werewolfPack_Command" Value="291590" />
+  <Preset Label="werewolfPack_RemoveMember" Value="291591" />
+  <Preset Label="infant_Socials_CradleHold_UsePhone" Value="291720" />
+  <Preset Label="hSProm_Promposals_CreateSign_Paint" Value="292362" />
+  <Preset Label="hSProm_Promposals_CreateSign_Fail" Value="292363" />
+  <Preset Label="werewolf_Shake" Value="292758" />
+  <Preset Label="highSchoolFestival_VictoryDance_Point" Value="293063" />
+  <Preset Label="highSchoolFestival_VictoryDance_FistPump" Value="293064" />
+  <Preset Label="photobooth_Photo_Pair_Idle" Value="293292" />
+  <Preset Label="werewolf_Turn_AskToCure" Value="293455" />
+  <Preset Label="werewolf_Turn_WerewolfCured" Value="293926" />
   <Preset Label="Death_Meteorite" Value="294215" />
   <Preset Label="death_Finalizer_Meteorite_Doom" Value="294290" />
   <Preset Label="death_Finalizer_Meteorite_Resurrect" Value="294291" />
+  <Preset Label="werewolf_Turn_TurnintoWerewolfPos" Value="294412" />
   <Preset Label="Death_GhostMeteorite" Value="295389" />
+  <Preset Label="werewolf_Transform_TransformReturn_Controlled" Value="295522" />
   <Preset Label="Toy_Play_Biting" Value="295580" />
+  <Preset Label="werewolf_MoreFear_Faint" Value="296165" />
+  <Preset Label="pubertyChanges_Shower_Shave_Back" Value="296345" />
+  <Preset Label="werewolf_Turn_AskAboutInterest_Succeed" Value="296420" />
+  <Preset Label="werewolf_Turn_AskAboutInterest_Fail" Value="296422" />
+  <Preset Label="podium_HSGraduation_GetDiploma_Reversed" Value="296450" />
+  <Preset Label="anim_HighSchool_Active_AskAboutTPose" Value="296564" />
+  <Preset Label="partyAnimal_Woooo_Repeat" Value="296814" />
+  <Preset Label="hSProm_Vote" Value="296861" />
+  <Preset Label="infant_Locomotion_Crawl_TakeBreak" Value="297173" />
+  <Preset Label="infant_Locomotion_CrawlReactHappy" Value="297174" />
+  <Preset Label="infant_Locomotion_CrawlReactShocked" Value="297175" />
+  <Preset Label="infant_Locomotion_ScootReactHappy" Value="297176" />
+  <Preset Label="infant_Locomotion_ScootReactShocked" Value="297177" />
+  <Preset Label="infant_Locomotion_ScootTakeBreak" Value="297178" />
+  <Preset Label="highSchoolFestival_RequestScienceFair" Value="297353" />
+  <Preset Label="hSProm_AnnounceWinners" Value="298508" />
+  <Preset Label="hSProm_AnnounceWinners_Idle" Value="300489" />
   <Preset Label="marketStall_Open_NoDoors" Value="301605" />
   <Preset Label="marketStall_Close_NoDoors" Value="301606" />
+  <Preset Label="cribAnim_Upgrade_Hammer" Value="309683" />
+  <Preset Label="kidsBike_Instruct" Value="311056" />
+  <Preset Label="kidsBike_Celebrate" Value="311057" />
+  <Preset Label="kidsBike_Practice" Value="311058" />
+  <Preset Label="kidsBike_RouteEvent_BalanceFailure" Value="311080" />
+  <Preset Label="kidsBike_RouteEvent_HonkHorn" Value="311081" />
+  <Preset Label="kidsBike_RouteEvent_Trick1" Value="311082" />
+  <Preset Label="kidsBike_RouteEvent_Trick2" Value="311083" />
+  <Preset Label="anim_SleepingBag_Crosslegged_PostureIdle" Value="313767" />
+  <Preset Label="anim_SleepingBag_Sleep_PostureIdle" Value="313770" />
+  <Preset Label="anim_SleepingBag_Nap_PostureIdle" Value="313996" />
+  <Preset Label="anim_SleepingBag_ToddlerSit_PostureIdle" Value="314003" />
+  <Preset Label="infant_PlayIn_Chew_GenericObject" Value="314388" />
+  <Preset Label="infant_PlayIn_Loop_GenericObject" Value="314402" />
+  <Preset Label="infant_Socials_PeekABoo_Response_Succeed" Value="315861" />
+  <Preset Label="infant_Socials_PeekABoo_Response_Fail" Value="315862" />
+  <Preset Label="cribAnims_ReadToSleep_noTarget" Value="315864" />
+  <Preset Label="nestingBlocks_Infant_babble" Value="315904" />
+  <Preset Label="nestingBlocks_Infant_biting" Value="315905" />
+  <Preset Label="nestingBlocks_Infant_contemplate" Value="315906" />
+  <Preset Label="nestingBlocks_Infant_coo" Value="315907" />
+  <Preset Label="nestingBlocks_Infant_idle" Value="315908" />
+  <Preset Label="nestingBlocks_Infant_laugh" Value="315949" />
+  <Preset Label="nestingBlocks_Infant_shaketoy" Value="315950" />
+  <Preset Label="nestingBlocks_Infant_Squeezetoy" Value="315951" />
+  <Preset Label="tableChangeDiaper_CleanTable" Value="316879" />
+  <Preset Label="Trait_Idle_Loyal" Value="317377" />
+  <Preset Label="craftGeneric_Loop" Value="321046" />
+  <Preset Label="craftGeneric_Success" Value="321050" />
+  <Preset Label="craftGeneric_Failure" Value="321051" />
+  <Preset Label="objectPose_Photography_TakePhotoOf_Infant_LayOnBack" Value="327566" />
+  <Preset Label="infant_Socials_BiteVampire" Value="327868" />
+  <Preset Label="infant_Socials_CradleHold_GiveNap_Exit" Value="332183" />
+  <Preset Label="kidsBike_Celebrate_Target" Value="332286" />
+  <Preset Label="infant_Locomotion_Crawl_Stumble" Value="333798" />
+  <Preset Label="tableChangeDiaper_Canonical_changingstation" Value="334127" />
+  <Preset Label="soc_Friendly_NT_WakeInfant_WakeInfant" Value="334460" />
 </PresetGroup>

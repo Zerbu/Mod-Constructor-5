@@ -964,7 +964,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_funny--></T>
+                  <T n="test_based_score">$ScoreTypeKey<!--scores_socialoutcomes_funny--></T>
                   <U n="threshold">
                     <T n="value">40</T>
                   </U>
@@ -1099,6 +1099,7 @@
                   <T>38110<!--Loot_OnARollCommodity_Reset_Failure--></T>
                   <T>11042<!--Rel_Loss_Small--></T>
                   <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>311364</T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnFailure">
                       <T>$v</T>
@@ -1114,7 +1115,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_funny--></T>
+                  <T n="test_based_score">$ScoreTypeKey<!--scores_socialoutcomes_funny--></T>
                   <U n="threshold">
                     <E n="comparison">LESS_OR_EQUAL</E>
                     <T n="value">5</T>
@@ -1250,6 +1251,7 @@
                   <T>38110<!--Loot_OnARollCommodity_Reset_Failure--></T>
                   <T>11042<!--Rel_Loss_Small--></T>
                   <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>311364</T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnHorribleFailure">
                       <T>$v</T>
@@ -1265,7 +1267,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_funny--></T>
+                  <T n="test_based_score">$ScoreTypeKey<!--scores_socialoutcomes_funny--></T>
                   <U n="threshold">
                     <E n="comparison">LESS_OR_EQUAL</E>
                     <T n="value">-5</T>
@@ -1314,6 +1316,7 @@
                   <T>31828<!--Loot_SocialContect_Fun_Loss_conditionalBoring--></T>
                   <T>11042<!--Rel_Loss_Small--></T>
                   <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>311364</T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnSocialContextFailure">
                       <T>$v</T>

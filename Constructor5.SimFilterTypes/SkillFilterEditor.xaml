@@ -1,27 +1,43 @@
-<UserControl x:Class="Constructor5.SimFilterTypes.SkillFilterEditor"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.SimFilterTypes"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-             d:DesignHeight="450"
-             d:DesignWidth="800"
-             mc:Ignorable="d">
+<UserControl
+    x:Class="Constructor5.SimFilterTypes.SkillFilterEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.SimFilterTypes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
     <StackPanel>
         <c:Field Label="Skill" LabelWidth="100">
             <c:ReferenceControl ElementTypeName="Skill" Reference="{Binding Skill}" />
         </c:Field>
         <c:Field Label="MinValue" LabelWidth="100">
-            <xctk:IntegerUpDown Minimum="0" Text="{Binding MinValue}" />
+            <xctk:IntegerUpDown
+                DefaultValue="-1"
+                Minimum="-1"
+                Text="{Binding MinValue}" />
         </c:Field>
         <c:Field Label="MaxValue" LabelWidth="100">
-            <xctk:IntegerUpDown Minimum="0" Text="{Binding MaxValue}" />
+            <xctk:IntegerUpDown
+                DefaultValue="-1"
+                Minimum="-1"
+                Text="{Binding MaxValue}" />
         </c:Field>
-        <c:Field Label="Ideal Value" LabelWidth="100">
-            <xctk:IntegerUpDown Minimum="0" Text="{Binding IdealValue}" />
+        <c:Field Label="IdealValue" LabelWidth="100">
+            <xctk:IntegerUpDown
+                DefaultValue="-1"
+                Minimum="-1"
+                Text="{Binding IdealValue}" />
         </c:Field>
         <c:CheckBox Content="Inverted" IsChecked="{Binding InvertScore}" />
+        <c:CheckBox IsChecked="{Binding IsOptional}">
+            <StackPanel>
+                <c:TextBlock Text="IsOptional" />
+                <c:TextBlock FontStyle="Italic" Text="IsOptionalHelp" />
+            </StackPanel>
+        </c:CheckBox>
     </StackPanel>
 </UserControl>

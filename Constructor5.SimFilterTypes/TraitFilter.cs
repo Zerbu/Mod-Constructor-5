@@ -16,6 +16,9 @@ namespace Constructor5.SimFilterTypes
         [AutoTuneIfTrue("ignore_if_wrong_pack")]
         public bool IgnoreIfWrongPack { get; set; }
 
+        public bool IsOptional { get; set; }
+
+
         [AutoTuneBasic("trait")]
         public Reference Trait { get; set; } = new Reference();
 
@@ -24,6 +27,11 @@ namespace Constructor5.SimFilterTypes
             var tunableVariant1 = filterTermsTunable.Set<TunableVariant>(null, "trait");
             var tunableTuple1 = tunableVariant1.Get<TunableTuple>("trait");
             AutoTunerInvoker.Invoke(this, tunableTuple1);
+
+            if (IsOptional)
+            {
+                tunableTuple1.Set<TunableBasic>("minimum_filter_score", "0.1");
+            }
         }
     }
 }

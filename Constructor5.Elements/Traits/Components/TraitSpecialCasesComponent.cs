@@ -2,8 +2,10 @@ using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.PropertyTypes;
+using Constructor5.Base.Python;
 using Constructor5.Core;
 using Constructor5.Elements.Buffs.References;
 
@@ -61,6 +63,8 @@ namespace Constructor5.Elements.Traits.Components
 
         public string VoiceEffect { get; set; }
 
+        public bool IsGlobalTrait { get; set; }
+
         protected internal override void OnExport(TraitExportContext context)
         {
             AutoTunerInvoker.Invoke(this, context.Tuning);
@@ -72,7 +76,16 @@ namespace Constructor5.Elements.Traits.Components
                     DataContext = this
                 });
 
-            ((TuningHeader)context.Tuning).SimDataHandler.WriteText(236, Exporter.Current.STBLBuilder.GetKey(TraitOrigin) ?? 0);
+            if (Exporter.Current.STBLBuilder != null)
+            {
+                (context.Tuning).SimDataHandler.WriteText(236, Exporter.Current.STBLBuilder.GetKey(TraitOrigin) ?? 0);
+            }
+
+            if (IsGlobalTrait)
+            {
+                PythonBuilder.AddStep(GlobalTraitPythonStep.Current);
+                GlobalTraitPythonStep.Current.AddTrait(ElementTuning.GetSingleInstanceKey(Element) ?? 0);
+            }
         }
     }
 }

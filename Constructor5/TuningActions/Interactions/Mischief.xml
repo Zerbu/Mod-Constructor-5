@@ -985,45 +985,23 @@
           <U n="outcome">
             <V n="animation_ref" t="enabled">
               <U n="enabled">
-                <T n="factory">$AnimationOnSuccess<!--Soc_Generic_NT_ShareBadNews_succeed_basic--></T>
-                <U n="overrides">
-                  <IfReferenceSet p="BalloonSet">
-                    <V n="balloons" t="enabled">
-                      <L n="enabled">
-                        <U>
-                          <L n="balloon_choices">
-                            <U>
-                              <V n="item" t="balloon_category">
-                                <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
-                              </V>
-                            </U>
-                          </L>
-                          <L n="balloon_target">
-                            <E>Actor</E>
-                          </L>
-                        </U>
-                      </L>
-                    </V>
-                  </IfReferenceSet>
-                </U>
+                <T n="factory">$AnimationOnSuccess<!--AnimationElement: Soc_Friendly_NT_ExcitingStory_success_basic--></T>
               </U>
             </V>
             <L n="loot_list">
-              <T>11042<!--Rel_Loss_Small--></T>
-              <T>26367<!--Loot_Commodity_Motive_MischiefFunReward--></T>
-              <T>11080<!--Skill_Loot_Dynamic_Small--></T>
-              <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-              <T>258408<!--loot_Buff_Social_RiledUp_Target_Hothead_25--></T>
-              <T>27896<!--Loot_Buff_Social_Happy_MeanMischief--></T>
-              <T>36121<!--Skill_Loot_Dynamic_Small_ChildrenOnly_Social--></T>
-              <T>26763<!--Loot_Buff_Social_Sad_Target--></T>
-              <T>96898<!--Loot_Commodity_CareerBenefit_Criminal_Main_Social--></T>
-              <T>99714<!--Loot_DidNegativeSocial--></T>
-              <T>11081<!--Skill_Loot_Dynamic_Tiny--></T>
-              <T>11081<!--Skill_Loot_Dynamic_Tiny--></T>
-              <T>76190<!--Loot_Commodity_CareerBenefit_Agent_Villain--></T>
-              <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
-              <T>195754<!--loot_Fame_Actor_Small_WhosBad_HasPerk_FameIncrease--></T>
+              <T>11036<!--LootActions: Rel_Gain_Small--></T>
+              <T>26367<!--LootActions: Loot_Commodity_Motive_MischiefFunReward--></T>
+              <T>11080<!--LootActions: Skill_Loot_Dynamic_Small--></T>
+              <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+              <T>258408<!--LootActions: loot_Buff_Social_RiledUp_Target_Hothead_25--></T>
+              <T>27896<!--LootActions: Loot_Buff_Social_Happy_MeanMischief--></T>
+              <T>36121<!--LootActions: Skill_Loot_Dynamic_Small_ChildrenOnly_Social--></T>
+              <T>96898<!--LootActions: Loot_Commodity_CareerBenefit_Criminal_Main_Social--></T>
+              <T>11081<!--LootActions: Skill_Loot_Dynamic_Tiny--></T>
+              <T>11081<!--LootActions: Skill_Loot_Dynamic_Tiny--></T>
+              <T>76190<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Villain--></T>
+              <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+              <T>195754<!--LootActions: loot_Fame_Actor_Small_WhosBad_HasPerk_FameIncrease--></T>
               <ForEachReference p="LootActionSets">
                 <IfBool p="RunOnSuccess">
                   <T>$v</T>
@@ -1031,26 +1009,6 @@
               </ForEachReference>
               <T>$LearnTraitLootKey</T>
             </L>
-            <V n="response" t="enabled">
-              <V n="enabled" t="individual">
-                <U n="individual">
-                  <L n="animations">
-                    <U>
-                      <E n="target">Actor</E>
-                      <U n="animation">
-                        <T n="factory">28376<!--Socials_Responses_Funny_HighIntensity--></T>
-                      </U>
-                    </U>
-                    <U>
-                      <E n="target">Listeners</E>
-                      <U n="animation">
-                        <T n="factory">28357<!--Socials_Responses_Embarrassed_HighIntensity--></T>
-                      </U>
-                    </U>
-                  </L>
-                </U>
-              </V>
-            </V>
           </U>
         </U>
       </L>
@@ -1061,44 +1019,51 @@
               <U n="outcome">
                 <V n="animation_ref" t="enabled">
                   <U n="enabled">
-                    <T n="factory">$AnimationOnFailure<!--Socials_Generic_NT_AwkwardConfession_fail_basic--></T>
-                    <U n="overrides">
-                      <IfReferenceSet p="BalloonSet">
-                        <V n="balloons" t="enabled">
-                          <L n="enabled">
-                            <U>
-                              <L n="balloon_choices">
-                                <U>
-                                  <V n="item" t="balloon_category">
-                                    <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
-                                  </V>
-                                </U>
-                              </L>
-                              <L n="balloon_target">
-                                <E>Actor</E>
-                              </L>
-                            </U>
-                          </L>
-                        </V>
-                      </IfReferenceSet>
-                    </U>
+                    <T n="factory">$AnimationOnFailure<!--AnimationElement: Soc_Friendly_NT_ExcitingStory_fail_basic--></T>
                   </U>
                 </V>
                 <L n="loot_list">
-                  <T>11042<!--Rel_Loss_Small--></T>
-                  <T>23797<!--Loot_EmbarrassedSocialCommodity_20--></T>
-                  <T>26367<!--Loot_Commodity_Motive_MischiefFunReward--></T>
-                  <T>11080<!--Skill_Loot_Dynamic_Small--></T>
-                  <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-                  <T>258408<!--loot_Buff_Social_RiledUp_Target_Hothead_25--></T>
-                  <T>27896<!--Loot_Buff_Social_Happy_MeanMischief--></T>
-                  <T>36121<!--Skill_Loot_Dynamic_Small_ChildrenOnly_Social--></T>
-                  <T>26788<!--Loot_Buff_Social_Angry_Target--></T>
-                  <T>96898<!--Loot_Commodity_CareerBenefit_Criminal_Main_Social--></T>
-                  <T>99714<!--Loot_DidNegativeSocial--></T>
-                  <T>76190<!--Loot_Commodity_CareerBenefit_Agent_Villain--></T>
-                  <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
-                  <T>201718<!--loot_FamePerk_FeudBringer_Relationship_Gain_Small--></T>
+                  <T>11042<!--LootActions: Rel_Loss_Small--></T>
+                  <T>23797<!--LootActions: Loot_EmbarrassedSocialCommodity_20--></T>
+                  <T>26367<!--LootActions: Loot_Commodity_Motive_MischiefFunReward--></T>
+                  <T>11080<!--LootActions: Skill_Loot_Dynamic_Small--></T>
+                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+                  <T>258408<!--LootActions: loot_Buff_Social_RiledUp_Target_Hothead_25--></T>
+                  <T>27896<!--LootActions: Loot_Buff_Social_Happy_MeanMischief--></T>
+                  <T>36121<!--LootActions: Skill_Loot_Dynamic_Small_ChildrenOnly_Social--></T>
+                  <T>96898<!--LootActions: Loot_Commodity_CareerBenefit_Criminal_Main_Social--></T>
+                  <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
+                  <T>76190<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Villain--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>201718<!--LootActions: loot_FamePerk_FeudBringer_Relationship_Gain_Small--></T>
+                  <T>273714<!--LootActions: loot_Trait_SociallyAwkward_PushIdle--></T>
+                  
+                </L>
+                <E n="outcome_result">FAILURE</E>
+              </U>
+            </U>
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">$AnimationOnFailure<!--AnimationElement: Soc_Friendly_NT_ExcitingStory_success_basic--></T>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>11042<!--LootActions: Rel_Loss_Small--></T>
+                  <T>23797<!--LootActions: Loot_EmbarrassedSocialCommodity_20--></T>
+                  <T>26367<!--LootActions: Loot_Commodity_Motive_MischiefFunReward--></T>
+                  <T>11080<!--LootActions: Skill_Loot_Dynamic_Small--></T>
+                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+                  <T>258408<!--LootActions: loot_Buff_Social_RiledUp_Target_Hothead_25--></T>
+                  <T>27896<!--LootActions: Loot_Buff_Social_Happy_MeanMischief--></T>
+                  <T>36121<!--LootActions: Skill_Loot_Dynamic_Small_ChildrenOnly_Social--></T>
+                  <T>96898<!--LootActions: Loot_Commodity_CareerBenefit_Criminal_Main_Social--></T>
+                  <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
+                  <T>76190<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Villain--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>201718<!--LootActions: loot_FamePerk_FeudBringer_Relationship_Gain_Small--></T>
+                  <T>273714<!--LootActions: loot_Trait_SociallyAwkward_PushIdle--></T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnFailure">
                       <T>$v</T>
@@ -1107,70 +1072,95 @@
                   <T>$LearnTraitLootKey</T>
                 </L>
                 <E n="outcome_result">FAILURE</E>
-                <V n="response" t="enabled">
-                  <V n="enabled" t="individual">
-                    <U n="individual">
-                      <L n="animations">
-                        <U>
-                          <E n="target">Actor</E>
-                          <U n="animation">
-                            <T n="factory">28357<!--Socials_Responses_Embarrassed_HighIntensity--></T>
-                          </U>
-                        </U>
-                        <U>
-                          <E n="target">Listeners</E>
-                          <U n="animation">
-                            <T n="factory">77331<!--Socials_Responses_Angry_HighIntensity_FingersInEarsOKAY--></T>
-                          </U>
-                        </U>
+              </U>
+              <U n="weight">
+                <L n="multipliers">
+                  <U>
+                    <T n="multiplier">0</T>
+                    <L n="tests">
+                      <L>
+                        <V t="test_set_reference">
+                          <T n="test_set_reference">202623<!--TestSetInstance: testSet_FeudBringer_FeudTarget--></T>
+                        </V>
                       </L>
-                    </U>
-                  </V>
-                </V>
+                    </L>
+                  </U>
+                </L>
               </U>
             </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="test_based_score_threshold">
+                <U n="test_based_score_threshold">
+                  <T n="test_based_score">$ScoreTypeKey<!--TestBasedScore: scores_socialoutcomes_mischief_deception--></T>
+                  <U n="threshold">
+                    <E n="comparison">LESS_OR_EQUAL</E>
+                    <T n="value">-1</T>
+                  </U>
+                </U>
+              </V>
+              <V t="relationship">
+                <U n="relationship">
+                  <U n="prohibited_relationship_bits">
+                    <L n="match_any">
+                      <T>306279</T>
+                    </L>
+                  </U>
+                  <L n="subject">
+                    <E>Actor</E>
+                  </L>
+                  <L n="target_sim">
+                    <E>TargetSim</E>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="test_set_reference">
+                <T n="test_set_reference">202615<!--TestSetInstance: testSet_FeudBringer_Mischief--></T>
+              </V>
+              <V t="relationship">
+                <U n="relationship">
+                  <U n="prohibited_relationship_bits">
+                    <L n="match_any">
+                      <T>306279</T>
+                    </L>
+                  </U>
+                  <L n="subject">
+                    <E>Actor</E>
+                  </L>
+                  <L n="target_sim">
+                    <E>TargetSim</E>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
             <U>
               <U n="outcome">
                 <V n="animation_ref" t="enabled">
                   <U n="enabled">
-                    <T n="factory">$AnimationOnFailure<!--Soc_Generic_NT_ShareBadNews_succeed_basic--></T>
-                    <U n="overrides">
-                      <IfReferenceSet p="BalloonSet">
-                        <V n="balloons" t="enabled">
-                          <L n="enabled">
-                            <U>
-                              <L n="balloon_choices">
-                                <U>
-                                  <V n="item" t="balloon_category">
-                                    <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
-                                  </V>
-                                </U>
-                              </L>
-                              <L n="balloon_target">
-                                <E>Actor</E>
-                              </L>
-                            </U>
-                          </L>
-                        </V>
-                      </IfReferenceSet>
-                    </U>
+                    <T n="factory">11857<!--AnimationElement: Soc_Friendly_NT_ExcitingStory_fail_basic--></T>
                   </U>
                 </V>
                 <L n="loot_list">
-                  <T>11042<!--Rel_Loss_Small--></T>
-                  <T>23797<!--Loot_EmbarrassedSocialCommodity_20--></T>
-                  <T>26367<!--Loot_Commodity_Motive_MischiefFunReward--></T>
-                  <T>11080<!--Skill_Loot_Dynamic_Small--></T>
-                  <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-                  <T>258408<!--loot_Buff_Social_RiledUp_Target_Hothead_25--></T>
-                  <T>27896<!--Loot_Buff_Social_Happy_MeanMischief--></T>
-                  <T>36121<!--Skill_Loot_Dynamic_Small_ChildrenOnly_Social--></T>
-                  <T>26788<!--Loot_Buff_Social_Angry_Target--></T>
-                  <T>96898<!--Loot_Commodity_CareerBenefit_Criminal_Main_Social--></T>
-                  <T>99714<!--Loot_DidNegativeSocial--></T>
-                  <T>76190<!--Loot_Commodity_CareerBenefit_Agent_Villain--></T>
-                  <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
-                  <T>201718<!--loot_FamePerk_FeudBringer_Relationship_Gain_Small--></T>
+                  <T>11042<!--LootActions: Rel_Loss_Small--></T>
+                  <T>23797<!--LootActions: Loot_EmbarrassedSocialCommodity_20--></T>
+                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+                  <T>26367<!--LootActions: Loot_Commodity_Motive_MischiefFunReward--></T>
+                  <T>36121<!--LootActions: Skill_Loot_Dynamic_Small_ChildrenOnly_Social--></T>
+                  <T>258408<!--LootActions: loot_Buff_Social_RiledUp_Target_Hothead_25--></T>
+                  <T>76171<!--LootActions: Loot_Commodity_CareerBenefit_Criminal_Main--></T>
+                  <T>31828<!--LootActions: Loot_SocialContect_Fun_Loss_conditionalBoring--></T>
+                  <T>96898<!--LootActions: Loot_Commodity_CareerBenefit_Criminal_Main_Social--></T>
+                  <T>11080<!--LootActions: Skill_Loot_Dynamic_Small--></T>
+                  <T>76190<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Villain--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>273714<!--LootActions: loot_Trait_SociallyAwkward_PushIdle--></T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnSocialContextFailure">
                       <T>$v</T>
@@ -1186,13 +1176,13 @@
                         <U>
                           <E n="target">Actor</E>
                           <U n="animation">
-                            <T n="factory">28376<!--Socials_Responses_Funny_HighIntensity--></T>
+                            <T n="factory">28356<!--AnimationElement: Socials_Responses_Embarrassed_LowIntensity--></T>
                           </U>
                         </U>
                         <U>
                           <E n="target">Listeners</E>
                           <U n="animation">
-                            <T n="factory">130210<!--socials_Responses_Angry_HighIntensity_HandsOnFace--></T>
+                            <T n="factory">28354<!--AnimationElement: Socials_Responses_Bored_HighIntensity--></T>
                           </U>
                         </U>
                       </L>
@@ -1200,37 +1190,12 @@
                   </V>
                 </V>
               </U>
-              <U n="weight">
-                <L n="multipliers">
-                  <U>
-                    <T n="multiplier">0</T>
-                    <L n="tests">
-                      <L>
-                        <V t="test_set_reference">
-                          <T n="test_set_reference">202623<!--testSet_FeudBringer_FeudTarget--></T>
-                        </V>
-                      </L>
-                    </L>
-                  </U>
-                </L>
-              </U>
             </U>
           </L>
           <L n="tests">
             <L>
-              <V t="test_based_score_threshold">
-                <U n="test_based_score_threshold">
-                  <T n="test_based_score">24574<!--scores_socialoutcomes_mischief--></T>
-                  <U n="threshold">
-                    <E n="comparison">LESS_OR_EQUAL</E>
-                    <T n="value">-1</T>
-                  </U>
-                </U>
-              </V>
-            </L>
-            <L>
               <V t="test_set_reference">
-                <T n="test_set_reference">202615<!--testSet_FeudBringer_Mischief--></T>
+                <T n="test_set_reference">31850<!--TestSetInstance: testSet_SocialBoredom_Low--></T>
               </V>
             </L>
           </L>

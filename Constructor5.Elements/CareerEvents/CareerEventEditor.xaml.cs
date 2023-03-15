@@ -16,19 +16,5 @@ namespace Constructor5.Elements.CareerEvents
         {
             DataContext = obj;
         }
-
-        private Element ReferenceControl_CreateElementFunction()
-        {
-            var situation = (Situation)ElementManager.Create(typeof(Situation), null, true);
-
-            situation.AddContextModifier(new CareerEventSituationContextModifier
-            {
-                CareerEvent = new Reference((CareerEvent)DataContext)
-            });
-
-            situation.GetComponent<SituationTemplateComponent>().Template = (SituationTemplate)Reflection.CreateObject(Reflection.GetTypeByName("CareerEventSituationTemplate"));
-
-            return situation;
-        }
     }
 }

@@ -1,10 +1,13 @@
 using Constructor5.Base.ElementSystem;
+using Constructor5.Base.ExportSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.Python;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Shared;
+using Constructor5.Elements.Interactions.Social;
 
 namespace Constructor5.InteractionTemplates.Friendly
 {
@@ -23,7 +26,7 @@ namespace Constructor5.InteractionTemplates.Friendly
         public int MinimumScoreForAvailability { get; set; }
 
         [AutoTuneBasic("category")]
-        public Reference PieMenuCategory { get; set; } = new Reference(15507, "Friendly");
+        public override  Reference PieMenuCategory { get; set; } = new Reference(308261, "Small Talk");
 
         public int ScoreForFailure { get; set; } = -10;
         public int ScoreForGreatSuccess { get; set; } = 15;
@@ -33,6 +36,14 @@ namespace Constructor5.InteractionTemplates.Friendly
         public Reference ScoreTypeAvailability { get; set; } = new Reference() { GameReferenceLabel = "Friendly", GameReference = 24557 };
 
         public string TuningActionsFile { get; set; } = "Friendly";
+
+        public override ulong GetCustomScoreTypeKey(InteractionExportContext context) => (ulong)ElementTuning.GetSingleInstanceKey(ScoreType);
+
+        public override ulong GetFallbackScoreType(SocialInteractionExportContext socialContext)
+        {
+            Exporter.Current.AddError(socialContext.Element, "InteractionAutoScoreTypeError");
+            return 249138;
+        }
 
         protected override void OnExport(InteractionExportContext context)
         {

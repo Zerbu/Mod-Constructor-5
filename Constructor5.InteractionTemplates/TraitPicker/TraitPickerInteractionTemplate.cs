@@ -20,13 +20,14 @@ namespace Constructor5.InteractionTemplates.TraitPicker
         [AutoTuneIfTrue("only_one_allowed")]
         public bool OnlyOneAllowed { get; set; }
 
-        [AutoTuneBasic("category")]
-        public Reference PieMenuCategory { get; set; } = new Reference();
-
         [AutoTuneReferenceList("traits")]
         public ReferenceList Traits { get; set; } = new ReferenceList();
 
         public string TuningActionsFile { get; set; } = "TraitPickerSuperInteraction";
+
+        public override ulong GetCustomScoreTypeKey(InteractionExportContext context) => 0;
+
+        public override ulong GetFallbackScoreType(SocialInteractionExportContext socialContext) => 0;
 
         protected override void OnExport(InteractionExportContext context)
         {

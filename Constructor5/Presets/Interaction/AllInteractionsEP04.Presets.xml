@@ -640,7 +640,7 @@
   <Preset Label="generic_Bathtub_PetBath" Value="165601" />
   <Preset Label="Vocal Greet (debug_PetToPet_Greetings_Vocal_SI_Cat)" Value="165605" />
   <Preset Label="Vocal Greet (debug_PetToPet_Greetings_Vocal_SI_Dog)" Value="165606" />
-  <Preset Label="Covert to Pet Treat (si_SwipeToSimInventory_Ambrosia_toPetTreat)" Value="165622" />
+  <Preset Label="Convert to Pet Treat (si_SwipeToSimInventory_Ambrosia_toPetTreat)" Value="165622" />
   <Preset Label="Shake (mixer_Dog_Training_Human_Shake_Command)" Tags="TestUnsafe" Value="165633" />
   <Preset Label="Laze (pet_Laze)" Value="165641" />
   <Preset Label="mixerInteraction_Pets_Laze" Value="165645" />
@@ -2115,6 +2115,20 @@
   <Preset Label="Fear - Wary Watch (SI_AnimalObjects_SimAnimals_Dog_Watch)" Value="264995" />
   <Preset Label="Shoo {1.SimFirstName} Away (foxSocial_Dog_ScareOff)" Value="265036" />
   <Preset Label="Investigate (pet_Investigate_WatchThrowFootball_Dog)" Value="282982" />
+  <Preset Label="Pet (petSocial_InfantToPet_PetPet)" Value="284217" />
+  <Preset Label="Pet (petSocial_InfantToPet_PetPet_PreCrawl)" Value="284488" />
+  <Preset Label="Smile At {1.SimFirstName} (social_Infant_SmileAt_Pet)" Value="287041" />
   <Preset Label="Bark at the Moon (dog_Command_BarkAtTheMoon)" Value="295000" />
   <Preset Label="reaction_WerewolfDogHowl" Value="295521" />
+  <Preset Label="Sleep (pet_Sleep_LeftAtHome_Near_Infant)" Value="312617" />
+  <Preset Label="Sleep (pet_Sleep_LeftAtHome_Near_Infant_Locate)" Value="312619" />
+  <Preset Label="Sleep Next To {1.SimFirstName} (petSocials_InfantToPet_Cuddle)" Value="317790" />
+  <Preset Label="simPicker_InfantSearchForMissingPet" Tags="TestUnsafe" Value="322035" />
+  <Preset Label="Sleep Next To {1.SimFirstName} (petSocials_PetToInfant_Cuddle)" Value="322798" />
+  <Preset Label="Pet (petSocial_InfantToPet_PetPet_Cat)" Value="326114" />
+  <Preset Label="Pet (petSocial_InfantToPet_PetPet_PreCrawl_Cat)" Value="326115" />
+  <Preset Label="Pet (petSocial_InfantToPet_PetPet_Cat_Child)" Value="326140" />
+  <Preset Label="Pet (petSocial_InfantToPet_PetPet_PreCrawl_Dog_Child)" Value="326141" />
+  <Preset Label="Pet (petSocial_InfantToPet_PetPet_PreCrawl_Cat_Child)" Value="326142" />
+  <Preset Label="Pet (petSocial_InfantToPet_PetPet_Dog_Child)" Value="326143" />
 </PresetGroup>

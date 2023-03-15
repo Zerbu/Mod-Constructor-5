@@ -1,0 +1,40 @@
+﻿<UserControl
+    x:Class="Constructor5.TestConditionTypes.Locations.LotInfoConditionEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.TestConditionTypes.Locations"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <StackPanel>
+        <c:Field Label="LotTypeBlacklist" LabelWidth="200">
+            <c:ReferenceListControl ElementReferenceList="{Binding LotTypeBlacklist}" ElementTypeName="Venue" />
+        </c:Field>
+        <c:Field Label="LotTypeWhitelist" LabelWidth="200">
+            <c:ReferenceListControl ElementReferenceList="{Binding LotTypeWhitelist}" ElementTypeName="Venue" />
+        </c:Field>
+        <c:Field Label="LotTraitBlacklist" LabelWidth="200">
+            <c:ReferenceListControl ElementReferenceList="{Binding LotTraitBlacklist}" ElementTypeName="LotTrait" />
+        </c:Field>
+        <c:Field Label="LotTraitWhitelist" LabelWidth="200">
+            <c:ReferenceListControl ElementReferenceList="{Binding LotTraitWhitelist}" ElementTypeName="LotTrait" />
+        </c:Field>
+        <c:Field Label="WorldBlacklist" LabelWidth="200">
+            <c:ReferenceListControl ElementReferenceList="{Binding WorldBlacklist}" ElementTypeName="World" />
+        </c:Field>
+        <c:Field Label="WorldWhitelist" LabelWidth="200">
+            <c:ReferenceListControl ElementReferenceList="{Binding WorldWhitelist}" ElementTypeName="World" />
+        </c:Field>
+        <!--<c:CheckBox Content="IsApartment" IsChecked="{Binding IsApartment}" />
+        <c:CheckBox Content="IsPenthouse" IsChecked="{Binding IsPenthouse}" />-->
+        <c:CheckBox IsChecked="{Binding UseParentLot}">
+            <StackPanel>
+                <c:TextBlock Text="UseParentLot" />
+                <c:TextBlock FontStyle="Italic" Text="UseParentLotHelp" />
+            </StackPanel>
+        </c:CheckBox>
+    </StackPanel>
+</UserControl>

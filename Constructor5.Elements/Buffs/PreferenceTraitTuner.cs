@@ -41,7 +41,8 @@ namespace Constructor5.Elements.Buffs
                 tuningName = "LikeLoot";
             }
 
-            if (ElementTuning.GetSingleInstanceKey(buffReference) == 0)
+            var key = ElementTuning.GetSingleInstanceKey(buffReference);
+            if (key == 0 || key == null)
             {
                 return;
             }

@@ -192,6 +192,12 @@
     <Compile Include="Locations\LocationIsOutside.cs" />
     <Compile Include="Locations\LocationObjectiveCondition.cs" />
     <Compile Include="Locations\LocationOnLot.cs" />
+    <Compile Include="Locations\LotInfoCondition.cs" />
+    <Compile Include="Locations\LotInfoConditionEditor.xaml.cs">
+      <DependentUpon>LotInfoConditionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Locations\LotInfoSource.cs" />
+    <Compile Include="Locations\LotInfoYesNoAny.cs" />
     <Compile Include="Money\TotalSimoleonsEarnedCondition.cs" />
     <Compile Include="Money\SimoleonValueCondition.cs" />
     <Compile Include="Money\SimoleonValueConditionEditor.xaml.cs">
@@ -435,6 +441,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Locations\LocationConditionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Locations\LotInfoConditionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -8,6 +8,7 @@ using Constructor5.Base.ExportSystem.Tuning.SimData;
 using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.PropertyTypes;
 using Constructor5.Elements.AspirationTracks;
+using Constructor5.Elements.Objectives;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -34,8 +35,37 @@ namespace Constructor5.Elements.ObjectiveSets
         [AutoTuneBasic("reward")]
         public Reference Reward { get; set; } = new Reference();
 
+        public void AssignDataToObjective(Objective element, bool isNew)
+        {
+            var isCareerOrAssignment = GetContextModifier<CareerObjectiveSetContextModifier>() != null
+            || GetContextModifier<CareerAssignmentObjectiveSetContextModifier>() != null;
+
+            if (isNew)
+            {
+                element.AlwaysTrack =
+    GetContextModifier<AssignedAspirationTrackContextModifier>() == null
+    && !isCareerOrAssignment;
+            }
+
+            if (GetContextModifier<AssignedAspirationTrackContextModifier>() != null)
+            {
+                element.NonResettable = true;
+            }
+        }
+
         void IExportableElement.OnExport()
         {
+            // fix from previous versions
+            foreach (var refItem in Objectives.Items)
+            {
+                var objective = refItem.Reference.Element as Objective;
+                if (objective == null)
+                {
+                    continue;
+                }
+                AssignDataToObjective(objective, false);
+            }
+
             var tuning = ElementTuning.Create(this);
             tuning.Class = "Aspiration";
             tuning.InstanceType = "aspiration";

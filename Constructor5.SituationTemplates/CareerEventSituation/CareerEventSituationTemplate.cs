@@ -12,10 +12,10 @@ namespace Constructor5.SituationTemplates.CareerEventSituation
     {
         public override string Label => "Career Event Situation";
 
-        // todo: option to remove adult tag
+        public bool HasAdultTag { get; set; } = true;
 
-        public Reference RoleState { get; set; } = new Reference();
-        public Reference SituationJob { get; set; } = new Reference();
+        public Reference RoleState { get; set; } = new Reference(99710, "Generic");
+        public Reference SituationJob { get; set; } = new Reference(99709, "Generic");
 
         protected override void OnExport(SituationExportContext context)
         {
@@ -39,17 +39,20 @@ namespace Constructor5.SituationTemplates.CareerEventSituation
             tunableTuple1.Set<TunableBasic>("text_ok", "0x520A9B3F");
             var tunableVariant5 = tunableTuple1.Set<TunableVariant>("title", "enabled");
             tunableVariant5.Set<TunableBasic>("enabled", "0xBE9B7DC1");
-            var tunableList2 = tunableTuple1.Get<TunableList>("ui_responses");
+            tunableTuple1.Get<TunableList>("ui_responses");
             var tunableVariant6 = context.Tuning.Set<TunableVariant>("situation_end_time_string", "show_end_time");
             tunableVariant6.Set<TunableBasic>("show_end_time", "0xA3E17143");
             var tunableList3 = context.Tuning.Get<TunableList>("tags");
             tunableList3.Set<TunableEnum>(null, "Situation_ActiveCareer");
-            tunableList3.Set<TunableEnum>(null, "Situation_ActiveCareer_Adult");
+            if (HasAdultTag)
+            {
+                tunableList3.Set<TunableEnum>(null, "Situation_ActiveCareer_Adult");
+            }
             var tunableTuple3 = context.Tuning.Get<TunableTuple>("travel_request_behavior");
             var tunableVariant7 = tunableTuple3.Set<TunableVariant>("dialog", "enabled");
             var tunableTuple4 = tunableVariant7.Get<TunableTuple>("enabled");
             var tunableVariant8 = tunableTuple4.Set<TunableVariant>("icon", "enabled");
-            var tunableVariant9 = tunableVariant8.Set<TunableVariant>("enabled", "participant");
+            tunableVariant8.Set<TunableVariant>("enabled", "participant");
             var tunableVariant10 = tunableTuple4.Set<TunableVariant>("text", "single");
             tunableVariant10.Set<TunableBasic>("single", "0xA19B9708");
             var tunableVariant11 = tunableTuple4.Set<TunableVariant>("title", "enabled");

@@ -84,13 +84,16 @@
                 FontSize="{StaticResource Constructor.BigFontSize}"
                 Header="Advanced">
                 <StackPanel>
-                    <c:Field Label="ScoreType" LabelWidth="200">
-                        <c:ReferenceControl
-                            ElementTypeName="TestBasedScore"
-                            Reference="{Binding ScoreType}"
-                            ResetTo="24570"
-                            ResetToLabel="Funny" />
-                    </c:Field>
+                    <c:CheckBox Content="UseCustomScoreType" IsChecked="{Binding UseCustomScoreType}" />
+                    <StackPanel Visibility="{Binding UseCustomScoreType, Converter={StaticResource BoolToVis}}">
+                        <c:Field Label="ScoreType" LabelWidth="200">
+                            <c:ReferenceControl
+                                ElementTypeName="TestBasedScore"
+                                Reference="{Binding ScoreType}"
+                                ResetTo="24570"
+                                ResetToLabel="Funny" />
+                        </c:Field>
+                    </StackPanel>
                     <c:Field Label="ScoreTypeAvailability" LabelWidth="200">
                         <c:ReferenceControl
                             ElementTypeName="TestBasedScore"

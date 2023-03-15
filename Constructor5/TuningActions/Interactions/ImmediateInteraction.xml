@@ -1,18 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TuningActions>
   <V n="_saveable" t="disabled" />
-  <V n="outcome" t="single">
-    <U n="single">
-      <U n="actions">
-        <L n="loot_list">
-          <ForEachReference p="LootActionSets">
-            <T>$v</T>
-          </ForEachReference>
-          <T>$LearnTraitLootKey</T>
-        </L>
+  <IfNotEmpty p="LootActionSets">
+    <V n="outcome" t="single">
+      <U n="single">
+        <U n="actions">
+          <L n="loot_list">
+            <ForEachReference p="LootActionSets">
+              <T>$v</T>
+            </ForEachReference>
+            <!--<T>$LearnTraitLootKey</T>-->
+          </L>
+        </U>
       </U>
-    </U>
-  </V>
+    </V>
+  </IfNotEmpty>
   <U n="progress_bar_enabled">
     <T n="bar_enabled">False</T>
   </U>

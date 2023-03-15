@@ -114,7 +114,7 @@
   <Preset Label="situation_park_player" Value="126602" />
   <Preset Label="situation_park_visitor" Value="126603" />
   <Preset Label="situation_autonomous_OpenStreets_fish_Neighbor" Value="127054" />
-  <Preset Label="repair_situation" Value="129479" />
+  <Preset Label="Repair_Situation" Value="129479" />
   <Preset Label="poolVenueSwimmerSituation_VistorSwimmer" Value="129881" />
   <Preset Label="Gardener_Service_Situation" Value="130533" />
   <Preset Label="situation_HiredNPC_StallVendor" Value="132880" />
@@ -173,8 +173,57 @@
   <Preset Label="repo_Situation_BillsDelinquent" Value="235713" />
   <Preset Label="waitInLineTogetherSituation" Value="247122" />
   <Preset Label="situation_walkby_ambient_WorkCommuter_Bookworm" Value="258030" />
+  <Preset Label="festival_PlayerSituations_VillageFair_Animal" Value="259211" />
+  <Preset Label="festival_PlayerSituations_VillageFair_Animal_Chicken" Value="259212" />
+  <Preset Label="festival_PlayerSituations_VillageFair_Garden" Value="259213" />
+  <Preset Label="situation_CottageWorld_NPC_AgnesCrumplebottom" Value="259316" />
+  <Preset Label="festivals_VillageFair_Garden_Judge" Value="259413" />
+  <Preset Label="festival_VillageFair_Situations_Garden_General" Value="259420" />
+  <Preset Label="festival_VillageFair_Situations_Animal_General" Value="259421" />
+  <Preset Label="festival_VillageFair_Chicken_Competitor" Value="259423" />
+  <Preset Label="festival_VillageFair_CowLlama_Competitor" Value="259424" />
+  <Preset Label="festival_VillageFair_MilkWool_Competitor" Value="259425" />
+  <Preset Label="festival_VillageFair_Pie_Competitor" Value="259426" />
+  <Preset Label="festival_VillageFair_Crop_Competitor" Value="259428" />
+  <Preset Label="festivals_VillageFair_Animal_Judge" Value="259460" />
+  <Preset Label="festival_VillageFair_Egg_Competitor" Value="259505" />
+  <Preset Label="situation_CottageWorld_NPC_AgathaCrumplebottom" Value="260235" />
+  <Preset Label="situation_CottageWorld_NPC_CritterTender" Value="260314" />
+  <Preset Label="situation_CottageWorld_NPC_Mayor" Value="260315" />
+  <Preset Label="situation_CottageWorld_NPC_GroceryOwner" Value="260616" />
+  <Preset Label="situation_CottageWorld_NPC_GroceryDelivery" Value="260617" />
+  <Preset Label="villageVendorSituation_VillageShops_Garden" Value="260652" />
+  <Preset Label="villageVendorSituation_VillageShops_Grocery" Value="260653" />
+  <Preset Label="situation_CottageWorld_NPC_PubOwners" Value="260671" />
+  <Preset Label="situation_Fox_Daytime" Value="261394" />
+  <Preset Label="situation_Fox_Nighttime" Value="261395" />
+  <Preset Label="villageVendorSituation_VillageShops_Garden_OnLot" Value="261840" />
+  <Preset Label="villageVendorSituation_VillageShops_Grocery_OnLot" Value="261841" />
+  <Preset Label="situation_Deliveries_GroceryDelivery" Value="261853" />
   <Preset Label="situation_Deliveries_FoodDelivery" Value="261928" />
+  <Preset Label="openStreetsAutonomySituation_Fox_Daytime" Value="262442" />
+  <Preset Label="basicTraitSitaution_CottageWorld_NPC_AgnesCrumplebottom" Value="262894" />
+  <Preset Label="basicTraitSitaution_CottageWorld_NPC_AgathaCrumplebottom" Value="262895" />
+  <Preset Label="basicTraitSitaution_CottageWorld_NPC_GroceryOwner" Value="262896" />
+  <Preset Label="basicTraitSitaution_CottageWorld_NPC_GroceryDelivery" Value="262897" />
+  <Preset Label="basicTraitSitaution_CottageWorld_NPC_CritterTender" Value="262898" />
+  <Preset Label="basicTraitSitaution_CottageWorld_NPC_Mayor" Value="262899" />
+  <Preset Label="basicTraitSitaution_CottageWorld_NPC_PubOwner" Value="262900" />
+  <Preset Label="situation_Walkby_CottageWorld_Traveler" Value="263238" />
+  <Preset Label="situation_Walkby_CottageWorld_GroceryDelivery" Value="263576" />
+  <Preset Label="situation_OpenStreets_CottageWorld_Picnickers" Value="263828" />
   <Preset Label="groupCraftingSituation_GroupCooking_CookTogether" Value="263877" />
+  <Preset Label="situation_VillagerHelp_Gossipers" Value="263975" />
+  <Preset Label="situation_OpenStreet_CottageWorld_Gossiper" Value="264550" />
+  <Preset Label="situation_OpenStreet_CottageWorld_Forager" Value="264714" />
+  <Preset Label="situation_CottageWorld_Wanderer" Value="265708" />
+  <Preset Label="situation_Bartender_CottageWorld" Value="265779" />
+  <Preset Label="situation_NPCVillagers_ConspireWithGnomes_Mean" Value="266069" />
+  <Preset Label="situation_NPCVillagers_ConspireWithGnomes_Helpful" Value="266070" />
+  <Preset Label="situation_NPCVillagers_ConspireWithGnomes_Whimsical" Value="266071" />
+  <Preset Label="situation_Walkby_CottageWorld_Fox" Value="266134" />
+  <Preset Label="festival_VillageFair_Situations_Animal_General_Child" Value="269155" />
+  <Preset Label="festival_VillageFair_Situations_Garden_General_child" Value="269156" />
   <Preset Label="musicPerformanceSituation_Headliner" Value="269625" />
   <Preset Label="musicPerformanceSituation_Opener_2" Value="269627" />
   <Preset Label="musicPerformanceSituation_Opener_1" Value="269628" />
@@ -184,14 +233,161 @@
   <Preset Label="musicFestival_Situations_FestivalGoer_PostPerformance" Value="269897" />
   <Preset Label="selectableSimFestivalSituation_MusicFestival" Value="270010" />
   <Preset Label="situation_Festival_MusicFestival_CraftSalesTable_Vendor" Value="270703" />
+  <Preset Label="caregiverSituation_Infants" Value="273083" />
   <Preset Label="situation_WeddingVenue_Visitor" Value="274282" />
   <Preset Label="situation_NPCInvites_DiscussExpandingTheFamily_Pregnancy" Value="274595" />
   <Preset Label="Wedding Ceremony (situation_custom_state_wedding)" Value="274625" />
+  <Preset Label="Bach Party (situation_CustomGoals_PrePostWeddingParties_BachParty)" Value="275305" />
+  <Preset Label="caregiverNewbornSituation" Value="275590" />
+  <Preset Label="situation_HighSchool_Active_NPC_AttendClass" Value="276363" />
+  <Preset Label="situation_HighSchool_Active_NPC_TeachClass" Value="276364" />
+  <Preset Label="situation_Wedding_Shell_TownHall_GetMarried" Value="276366" />
+  <Preset Label="situation_HighSchool_Active_NPC_Bullies" Value="276420" />
+  <Preset Label="openStreets_StallVendor_Wedding_Flower" Value="276663" />
+  <Preset Label="openStreets_StallVendor_Wedding_Patisserie" Value="276670" />
+  <Preset Label="situation_HighSchool_Active_Player_Orientation" Value="276679" />
+  <Preset Label="situation_HighSchool_Active_Player_FreeTime" Value="276680" />
+  <Preset Label="situation_HighSchool_Active_Player_AttendClass" Value="276681" />
+  <Preset Label="situation_HighSchool_Active_Player_AttendExam" Value="276682" />
+  <Preset Label="situation_HighSchool_Active_Player_Lunch" Value="276683" />
+  <Preset Label="situation_HighSchool_Active_Player_Afterschool" Value="276684" />
+  <Preset Label="situation_HighSchool_Active_Player_SchoolFight" Value="276685" />
+  <Preset Label="High School Day (situation_HighSchool_Active_Player_Main)" Value="276686" />
+  <Preset Label="openStreets_StallVendor_Wedding_Indian" Value="276689" />
+  <Preset Label="openStreets_StallVendor_Wedding_Chinese" Value="276690" />
+  <Preset Label="situation_HighSchool_Active_NPC_Base_Student" Value="277733" />
+  <Preset Label="situation_HighSchool_Active_NPC_PrepareForClass" Value="277968" />
+  <Preset Label="situation_Vendor_CafeteriaStation_HighSchool" Value="278011" />
+  <Preset Label="Family Gathering (situation_CustomGoals_PrePostWeddingParties_FamilyGathering)" Value="278243" />
+  <Preset Label="situation_GroupDancing_1" Value="278767" />
+  <Preset Label="situation_NPCRelationshipAutonomy_AskToProm" Value="278858" />
+  <Preset Label="situation_NPCRelationshipAutonomy_AskToBe_BestFriend" Value="278859" />
+  <Preset Label="situation_NPCRelationshipAutonomy_AskToBe_BoyfriendGirlfriend" Value="278860" />
+  <Preset Label="situation_NPCRelationshipAutonomy_BreakUPWith" Value="278861" />
+  <Preset Label="situation_NPCRelationshipAutonomy_Propose" Value="278862" />
+  <Preset Label="situation_NPCRelationshipAutonomy_AskToProm_AsFriends" Value="278863" />
+  <Preset Label="situation_HighSchool_Active_NPC_Lunch_Faculty" Value="278889" />
+  <Preset Label="Reception (situation_CustomGoals_PrePostWeddingParties_Reception)" Value="279294" />
+  <Preset Label="situation_HiredNPC_VendorStall_BubbleTeaCounter" Value="280240" />
   <Preset Label="situation_NPCInvites_MoveIn" Value="280317" />
+  <Preset Label="Engagement Dinner (situation_CustomGoals_PrePostWeddingParties_EngagementDinner)" Value="280361" />
+  <Preset Label="Vow Renewal (situation_CustomGoals_PrePostWeddingParties_VowRenewal)" Value="280415" />
+  <Preset Label="situation_VendorStall_BubbleTeaCounter" Value="280417" />
+  <Preset Label="Rehearsal Dinner (situation_CustomGoals_PrePostWeddingParties_RehearsalDinner)" Value="280475" />
+  <Preset Label="situation_ThriftStoreVenue_Owner" Value="280502" />
+  <Preset Label="situation_ThriftStoreVenue_AdultBrowser" Value="280504" />
+  <Preset Label="situation_ThriftStoreVenue_TeenBrowser" Value="280506" />
+  <Preset Label="situation_ThriftStoreVenue_TeenAestheticBrowser" Value="280507" />
+  <Preset Label="situation_ThriftStoreVenue_TeenTrendBrowser" Value="280508" />
+  <Preset Label="situation_ThriftStoreVenue_AdultBubbleTea" Value="280673" />
+  <Preset Label="situation_ThriftStoreVenue_TeenBubbleTea" Value="280674" />
+  <Preset Label="Prom (situation_HSProm)" Value="280741" />
+  <Preset Label="situation_ThriftStore_Player" Value="280765" />
+  <Preset Label="customStatesSituation_HSProm_PreProm" Value="280771" />
+  <Preset Label="Prom After-Party (customStatesSituation_HSProm_PostProm)" Value="280772" />
+  <Preset Label="situation_HighSchool_Active_NPC_TPose" Value="280775" />
+  <Preset Label="openMicContestant_ThriftStore_Comedy_NPC" Value="280865" />
+  <Preset Label="openMicContestant_ThriftStore_Comedy_Player" Value="280866" />
+  <Preset Label="openMicContestant_ThriftStore_Poetry_NPC" Value="280867" />
+  <Preset Label="openMicContestant_ThriftStore_Poetry_Player" Value="280868" />
+  <Preset Label="openMicPlayerControllerSituation_ThriftStore_Poetry" Value="280869" />
+  <Preset Label="openMicPlayerControllerSituation_ThriftStore_Comedy" Value="280871" />
+  <Preset Label="situation_HighSchool_Active_Player_Phases_FireDrill" Value="280923" />
+  <Preset Label="situation_HighSchool_Active_NPC_FireDrill" Value="280925" />
+  <Preset Label="situation_ThriftStoreVenue_Event_FashionContestant" Value="281006" />
+  <Preset Label="highSchoolFestival_SportsDay_FootballCompetition" Value="281870" />
+  <Preset Label="highSchoolFestival_ScienceFair_ChessCompetition" Value="281872" />
+  <Preset Label="highSchoolFestival_ScienceFair_ComputerCompetition" Value="281873" />
+  <Preset Label="highSchoolFestival_SportsDay_CheerCompetition" Value="281874" />
+  <Preset Label="highSchoolFestival_PlayerSituation_SportsDay_Football" Value="281875" />
+  <Preset Label="highSchoolFestival_PlayerSituation_ScienceFair_Chess" Value="281876" />
+  <Preset Label="highSchoolFestival_ScienceFair_ChessJudge" Value="281877" />
+  <Preset Label="highSchoolFestival_ScienceFair_ComputerJudge" Value="281878" />
+  <Preset Label="highSchoolFestival_SportsDay_CheerJudge" Value="281879" />
+  <Preset Label="highSchoolFestival_SportsDay_FootballJudge" Value="281880" />
+  <Preset Label="highSchoolFestival_OneState_Teacher" Value="281884" />
+  <Preset Label="highSchoolFestival_SportsDay_FootballClub" Value="281885" />
+  <Preset Label="highSchoolFestival_SportsDay_FootballStudent" Value="281887" />
+  <Preset Label="highSchoolFestival_SportsDay_CheerClub" Value="281889" />
+  <Preset Label="highSchoolFestival_SportsDay_CheerStudent" Value="281890" />
+  <Preset Label="highSchoolFestival_ScienceFair_ChessClub" Value="281891" />
+  <Preset Label="highSchoolFestival_ScienceFair_ComputerClub" Value="281892" />
+  <Preset Label="highSchoolFestival_ScienceFair_ChessStudent" Value="281893" />
+  <Preset Label="highSchoolFestival_ScienceFair_ComputerStudent" Value="281894" />
+  <Preset Label="highSchoolFestival_PlayerSituation_ScienceFair_Computer" Value="282000" />
+  <Preset Label="highSchoolFestival_PlayerSituation_SportsDay_Cheer" Value="282001" />
+  <Preset Label="HighSchoolFestival_Vendor" Value="282007" />
+  <Preset Label="situation_HighSchool_Active_Player_CareerDay" Value="282048" />
+  <Preset Label="situation_HighSchool_Active_Player_CareerDay_NoDialog" Value="282049" />
+  <Preset Label="situation_HighSchool_Active_CareerDay_BackgroundNPCs" Value="282109" />
+  <Preset Label="highSchoolFestival_ScienceFair_ChessRivalClub" Value="282262" />
+  <Preset Label="highSchoolFestival_ScienceFair_ComputerRivalClub" Value="282263" />
+  <Preset Label="highSchoolFestival_SportsDay_FootballRivalClub" Value="282264" />
+  <Preset Label="highSchoolFestival_SportsDay_CheerRivalClub" Value="282265" />
+  <Preset Label="openStreetsAutonomySituation_WeddingWorld_Swimmer" Value="282837" />
   <Preset Label="situation_WeddingVenue_Visitor_EngagedCouple" Value="283516" />
+  <Preset Label="situation_WeddingWorld_NPC_CamilleSoto" Value="283958" />
+  <Preset Label="situation_WeddingWorld_NPC_DominiqueSoto" Value="283959" />
+  <Preset Label="situation_WeddingWorld_Local" Value="283960" />
   <Preset Label="situation_GreetedNPCVisitingPlayerSituation_Short" Value="283966" />
+  <Preset Label="situation_HighSchool_Active_NPC_ThrowFootball" Value="284009" />
+  <Preset Label="situation_HighSchool_Active_Player_Phases_GetReadyForClass" Value="284555" />
+  <Preset Label="situation_CheerMat_Group_01" Value="284634" />
+  <Preset Label="situation_HighSchool_Active_Player_HookyAtSchool" Value="285597" />
+  <Preset Label="situation_HighSchool_Active_Player_HookyAtSchool_FromLoot" Value="285694" />
+  <Preset Label="High School Graduation (situation_HSGraduation_Player_PreCeremony)" Value="285787" />
+  <Preset Label="High School Graduation (situation_HSGraduation_Player_ValedictorianSpeech_Give)" Value="285978" />
+  <Preset Label="High School Graduation (situation_HSGraduation_Player_ValedictorianSpeech_Watch)" Value="286403" />
+  <Preset Label="High School Graduation (situation_HSGraduation_Player_Diploma)" Value="286405" />
+  <Preset Label="situation_HSGraduation_PostCeremony" Value="286406" />
+  <Preset Label="situation_HSGraduation_ValedictorianSpeech_NPCs" Value="286712" />
+  <Preset Label="situation_HSGraduation_LongTerm" Value="286716" />
+  <Preset Label="situation_Walkby_HighSchool_FashionMarketplace_TrendNPC" Value="287488" />
+  <Preset Label="situation_Walkby_HighSchool_FashionMarketplace_AestheticNPC" Value="287489" />
+  <Preset Label="situation_HighSchool_Active_NPC_DoMischief" Value="287884" />
+  <Preset Label="situation_HSGraduation_NPC_ValedictorianSpeech_Watch" Value="287892" />
+  <Preset Label="situation_HighSchool_Active_NPC_Base_FireFighter" Value="288268" />
+  <Preset Label="situation_HSGraduation_NPC_Diploma" Value="288288" />
+  <Preset Label="situation_HSGraduation_Principal_Diploma" Value="288290" />
+  <Preset Label="situation_HighSchool_Active_NPC_Lunch_Principal" Value="288504" />
+  <Preset Label="situation_Walkby_Ambient_Werewolf_WolfTown_NightRun" Value="288945" />
+  <Preset Label="situation_Walkby_Ambient_Werewolf_BadTiming" Value="288946" />
+  <Preset Label="situation_WolfTown_HangOut_WerewolfPackB" Value="288972" />
+  <Preset Label="situation_WolfTown_Hangout_WerewolfPackA" Value="288973" />
+  <Preset Label="situation_Walkby_Ambient_Werewolf_Greg" Value="289067" />
+  <Preset Label="Situation_WolfTown_Greg" Value="289071" />
+  <Preset Label="situation_HighSchool_Active_NPC_Clean_Janitor" Value="290230" />
+  <Preset Label="Situation_WolfTown_Spar" Value="291179" />
+  <Preset Label="situation_BarBartender_WolfTown" Value="291984" />
+  <Preset Label="situation_LibraryVenue_Librarian_WolfTown" Value="292032" />
+  <Preset Label="situation_WolfTown_Wanderer" Value="292046" />
+  <Preset Label="situation_HighSchool_Active_NPC_Teacher_ExamPrep" Value="292224" />
+  <Preset Label="situation_HighSchool_Active_NPC_GoToClass1" Value="293815" />
+  <Preset Label="situation_HighSchool_Active_NPC_GoToClass_Teacher" Value="293819" />
+  <Preset Label="situation_WolfTown_FriendSpar" Value="295024" />
+  <Preset Label="situation_Barfly_WolfTown_PreferOccult" Value="295108" />
+  <Preset Label="situation_HSGraduation_LongTerm_NPC_Val" Value="295370" />
+  <Preset Label="situation_HSGraduation_Longterm_Player_Val" Value="295372" />
   <Preset Label="walkby_Scenario_LewisSancho" Value="297023" />
+  <Preset Label="situation_HighSchool_Active_Background_Morning" Value="297168" />
   <Preset Label="situation_Scenario_NewInTown_Phase4_LoungeEvent" Value="297306" />
+  <Preset Label="situation_HighSchool_Active_Background_AfterSchool" Value="297579" />
+  <Preset Label="situation_HighSchool_Active_Background_SchoolFight_Fight" Value="297587" />
+  <Preset Label="situation_HighSchool_Active_Background_SchoolFight_Others" Value="297588" />
+  <Preset Label="situation_HighSchool_Active_Background_GoToClass_Others" Value="297774" />
+  <Preset Label="situation_HighSchool_Active_NPC_Base_CoreClassNPCs" Value="298052" />
+  <Preset Label="situation_HighSchool_Active_NPC_Base_VenueNPCs" Value="298096" />
+  <Preset Label="Sim Feats (situation_WolfTown_WerewolfRepairMan)" Value="298609" />
+  <Preset Label="situation_WolfTown_Hangout_WerewolfPackA_Invited" Value="298696" />
+  <Preset Label="situation_WolfTown_Hangout_WerewolfPackB_Invited" Value="298697" />
+  <Preset Label="situation_HighSchool_Active_Background_Lunch_Student" Value="298817" />
   <Preset Label="situation_GreetedNPCVisitingPlayerSituation_StuckInTheirShadow_Rival" Value="299787" />
   <Preset Label="Cook Out (Situation_CookOut)" Value="300660" />
+  <Preset Label="situation_GreetedNPCVisitingPlayerSituation_StuckInTheirShadow_Rival_LastInvite" Value="301780" />
+  <Preset Label="situation_OpenStreet_HighSchoolWorld_PierVisitor" Value="303635" />
+  <Preset Label="situation_HighSchool_Active_Background_AttendClass1" Value="304565" />
+  <Preset Label="situation_HighSchool_Active_Background_AttendClass_Others" Value="304567" />
+  <Preset Label="situation_HighSchool_Active_NPC_GoToClass1_NoTrait" Value="304701" />
+  <Preset Label="situation_HighSchool_Active_Background_AttendClass1_NoTrait" Value="304703" />
+  <Preset Label="situation_HighSchool_Active_Individual_Study" Value="304829" />
 </PresetGroup>

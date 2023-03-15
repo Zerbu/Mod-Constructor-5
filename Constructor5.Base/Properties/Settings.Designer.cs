@@ -58,5 +58,17 @@ namespace Constructor5.Base.Properties {
                 this["ShowAllSettingEnabled"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Program Files\\EA Games\\The Sims 4")]
+        public string TS4Folder {
+            get {
+                return ((string)(this["TS4Folder"]));
+            }
+            set {
+                this["TS4Folder"] = value;
+            }
+        }
     }
 }

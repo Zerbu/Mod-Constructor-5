@@ -10,6 +10,8 @@ namespace Constructor5.Elements.SituationGoals
         {
             var tuning = ElementTuning.Create(element, existingContext?.MultiGeneratorSubTuningName);
             tuning.InstanceType = "situation_goal";
+            tuning.Class = "SituationGoalProxy";
+            tuning.Module = "situations.situation_goal_proxy";
 
             var newContext = new SituationGoalExportContext(existingContext)
             {

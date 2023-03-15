@@ -1242,7 +1242,7 @@
   <Preset Label="object_Food_PlateChopsticks_Multi" Value="134481" />
   <Preset Label="object_Food_BowlChopsticks_Multi" Value="134482" />
   <Preset Label="gardeningFertilizer_Super" Value="135511" />
-  <Preset Label="object_ToddlerHighChair" Value="135520" />
+  <Preset Label="object_HighChair" Value="135520" />
   <Preset Label="object_tablet_TransferFunds" Value="135814" />
   <Preset Label="Prop_Utensil_Chopsticks" Value="135866" />
   <Preset Label="object_lightWallKid_01_Monster_Deterent_NightLight" Value="136696" />
@@ -1603,25 +1603,179 @@
   <Preset Label="sectionalSofaPiece_flat" Value="255761" />
   <Preset Label="sectionalSofaPiece_inCornerLarge" Value="256660" />
   <Preset Label="sectionalSofaPiece_outCorner" Value="256661" />
+  <Preset Label="object_fox" Value="256694" />
+  <Preset Label="object_animalObjects_livestock_chicken" Value="256700" />
+  <Preset Label="object_animalObjects_home_livestock_chickenCoop" Value="256701" />
+  <Preset Label="object_animalObjectIngredients_Egg" Value="256754" />
+  <Preset Label="object_PicnicBasket" Value="256913" />
+  <Preset Label="object_animalObjects_wild_rabbit" Value="256949" />
+  <Preset Label="object_animalObjects_home_wild_rabbitHome" Value="256951" />
   <Preset Label="object_Food_ButterChicken" Value="257292" />
   <Preset Label="object_Food_PalakPaneer" Value="257293" />
   <Preset Label="object_Food_ChocolateMousse" Value="257294" />
+  <Preset Label="object_drink_canning_StrawberryJam" Value="257596" />
+  <Preset Label="object_drink_canning_BlueberryJam" Value="257597" />
+  <Preset Label="object_drink_canning_LettuceConserve" Value="257598" />
+  <Preset Label="object_drink_canning_EggplantConserve" Value="257599" />
+  <Preset Label="object_drink_canning_CowberryJam" Value="257600" />
+  <Preset Label="object_drink_canning_BlackberryJam" Value="257601" />
+  <Preset Label="object_drink_canning_TomatoSauce" Value="257602" />
+  <Preset Label="object_drink_canning_Mayonnaise" Value="257603" />
+  <Preset Label="object_drink_canning_ChocolateSyrup" Value="257604" />
+  <Preset Label="object_drink_canning_RaspberryJam" Value="257606" />
+  <Preset Label="object_drink_canning_Custard" Value="257607" />
+  <Preset Label="object_drink_canning_AppleJam" Value="257608" />
+  <Preset Label="object_drink_canning_PumpkinConserve" Value="257609" />
+  <Preset Label="drink_canning_MushroomConserve_Nightly" Value="257612" />
+  <Preset Label="drink_canning_MushroomConserve_Verdant" Value="257613" />
+  <Preset Label="drink_canning_MushroomConserve_Charming" Value="257614" />
+  <Preset Label="drink_canning_MushroomConserve_Spicy" Value="257615" />
+  <Preset Label="drink_canning_MushroomConserve_Lovely" Value="257616" />
+  <Preset Label="object_animalObjects_wild_birdHome" Value="257678" />
+  <Preset Label="object_animalObjects_livestockPen_cow_blackAndWhite" Value="257981" />
+  <Preset Label="object_animalObjects_livestockPen_llama_white" Value="257982" />
   <Preset Label="Prop_CradleBook" Value="258031" />
   <Preset Label="Object_VacuumCleaner_Upright_Low" Value="258032" />
+  <Preset Label="object_animalObjects_home_livestock_livestockPen" Value="258035" />
   <Preset Label="object_dresser_Hang_Lrg" Value="258138" />
+  <Preset Label="object_animalObjects_livestock_chicken_chick" Value="258629" />
+  <Preset Label="object_animalObjects_livestock_chicken_rooster" Value="258630" />
+  <Preset Label="object_Food_MushroomSoup" Value="258988" />
+  <Preset Label="object_Food_PumpkinStew" Value="258989" />
+  <Preset Label="object_Food_CottagePie" Value="258991" />
+  <Preset Label="object_Food_AubergineParmesan" Value="258994" />
+  <Preset Label="animalObject_LiveStockFeed_Healthy" Value="258995" />
+  <Preset Label="animalObject_LiveStockFeed_Social" Value="258996" />
+  <Preset Label="animalObject_LiveStockFeed_Fishy" Value="258998" />
+  <Preset Label="object_Food_WatermelonSalad" Value="258999" />
+  <Preset Label="animalObject_LiveStockFeed_Flirty" Value="259000" />
+  <Preset Label="animalObject_LiveStockFeed_Chocolatey" Value="259001" />
+  <Preset Label="animalObject_LiveStockFeed_SpicyBeef" Value="259002" />
+  <Preset Label="object_Food_PumpkinPie" Value="259003" />
+  <Preset Label="object_Food_BlueberryPie" Value="259004" />
+  <Preset Label="object_Food_ChocolatePie" Value="259005" />
+  <Preset Label="object_Food_RaspberryPie" Value="259006" />
+  <Preset Label="object_Food_MeatPie" Value="259007" />
+  <Preset Label="animalObject_LiveStockFeed_Pumpkin" Value="259008" />
+  <Preset Label="animalObject_LiveStockFeed_Blueberry" Value="259009" />
+  <Preset Label="animalObject_LiveStockFeed_Veggie" Value="259010" />
+  <Preset Label="animalObject_LiveStockFeed_Rainbow" Value="259011" />
+  <Preset Label="animalObject_LiveStockFeed_Golden" Value="259012" />
+  <Preset Label="animalObject_LiveStockFeed_Obsidian" Value="259013" />
+  <Preset Label="object_Food_ButteredCrumpet" Value="259018" />
+  <Preset Label="object_Food_CrumpetStrawberryJam" Value="259036" />
+  <Preset Label="object_Food_CrumpetBlueberryJam" Value="259037" />
+  <Preset Label="object_Food_PumpkinScones" Value="259052" />
+  <Preset Label="object_Food_ChocolateScones" Value="259053" />
+  <Preset Label="object_Food_BerryScones" Value="259054" />
+  <Preset Label="object_Food_YorkshirePudding" Value="259105" />
+  <Preset Label="animalObject_LiveStockFeed_Normal" Value="259111" />
+  <Preset Label="object_Food_BeefWellington" Value="259171" />
+  <Preset Label="object_food_BangersAndMash" Value="259172" />
+  <Preset Label="object_Food_Cheese" Value="259173" />
+  <Preset Label="object_GiantCrops_Plant_Aubergine" Value="259216" />
+  <Preset Label="object_GiantCrops_Plant_Lettuce" Value="259217" />
+  <Preset Label="object_GiantCrops_Plant_Pumpkin" Value="259218" />
+  <Preset Label="object_GiantCrops_Plant_Watermelon" Value="259219" />
+  <Preset Label="object_GiantCrops_Fruit_Aubergine" Value="259220" />
+  <Preset Label="object_GiantCrops_Fruit_Lettuce" Value="259221" />
+  <Preset Label="object_GiantCrops_Fruit_Pumpkin" Value="259222" />
+  <Preset Label="object_GiantCrops_Fruit_Watermelon" Value="259223" />
+  <Preset Label="object_drink_canning_WatermelonConserve" Value="259232" />
+  <Preset Label="object_GardeningPatch" Value="259281" />
+  <Preset Label="object_GiantCrops_Fertilizer" Value="259617" />
+  <Preset Label="object_GiantCrops_SeedPacket" Value="259643" />
+  <Preset Label="object_CrossStitch_Hoop_Small" Value="259785" />
+  <Preset Label="object_CrossStitch_Hoop_Medium" Value="259786" />
+  <Preset Label="object_CrossStitch_Hoop_Large" Value="259787" />
+  <Preset Label="object_CrossStitch_Kit" Value="259789" />
   <Preset Label="object_Ponds_PondObject" Value="259918" />
+  <Preset Label="object_MarketStalls_VillageShops_Garden" Value="260017" />
+  <Preset Label="object_MarketStalls_VillageShops_Grocery" Value="260018" />
+  <Preset Label="object_Food_MilkBread" Value="260125" />
+  <Preset Label="object_VillageFair_CompetitionStandGEN01_Chicken" Value="260244" />
+  <Preset Label="animalObjects_noninteractable_birdHome_animatedBird" Value="260875" />
   <Preset Label="object_CanningJar" Value="261212" />
+  <Preset Label="drink_milk_animalObjects_cow_Base" Value="261383" />
+  <Preset Label="drink_milk_animalObjects_cow_Blue" Value="261384" />
+  <Preset Label="drink_milk_animalObjects_cow_Red" Value="261385" />
+  <Preset Label="object_VillageFair_CompetitionStandGEN02_Egg" Value="261454" />
+  <Preset Label="drink_milk_animalObjects_cow_Pink" Value="261575" />
+  <Preset Label="drink_milk_animalObjects_cow_Brown" Value="261576" />
+  <Preset Label="drink_milk_animalObjects_cow_Orange" Value="261577" />
+  <Preset Label="drink_milk_animalObjects_cow_Green" Value="261578" />
+  <Preset Label="drink_milk_animalObjects_cow_Rainbow" Value="261579" />
+  <Preset Label="drink_milk_animalObjects_cow_Black" Value="261580" />
+  <Preset Label="drink_milk_animalObjects_cow_Gold" Value="261581" />
   <Preset Label="animalObjects_LivestockFeed_Pile" Value="261592" />
   <Preset Label="object_Deliveries_Bag" Value="262179" />
   <Preset Label="object_StockPot" Value="262348" />
   <Preset Label="object_FormationGroupAnchor_ObjectTagRouting" Value="262406" />
+  <Preset Label="animalObjectIngredients_Wool_Pink" Value="262417" />
+  <Preset Label="animalObjectIngredients_Wool_Brown" Value="262418" />
+  <Preset Label="animalObjectIngredients_Wool_Red" Value="262419" />
+  <Preset Label="animalObjectIngredients_Wool_Orange" Value="262420" />
+  <Preset Label="animalObjectIngredients_Wool_Blue" Value="262421" />
+  <Preset Label="animalObjectIngredients_Wool_Green" Value="262422" />
+  <Preset Label="animalObjectIngredients_Wool_Rainbow" Value="262423" />
+  <Preset Label="animalObjectIngredients_Wool_Gold" Value="262424" />
+  <Preset Label="animalObjectIngredients_Wool_Black" Value="262425" />
+  <Preset Label="animalObjectIngredients_Wool_White" Value="262426" />
   <Preset Label="object_Ponds_FishginSign" Value="262698" />
+  <Preset Label="drink_canning_MushroomConserve_Normal" Value="262969" />
   <Preset Label="object_dresser_Hang_Clothes" Value="262973" />
+  <Preset Label="object_animalObjects_livestock_chicken_hen_evil" Value="263681" />
+  <Preset Label="object_animalObjects_livestock_chicken_hen_golden" Value="263682" />
+  <Preset Label="object_animalObjects_livestock_chicken_rooster_evil" Value="263684" />
+  <Preset Label="object_animalObjects_livestock_chicken_rooster_golden" Value="263685" />
+  <Preset Label="object_GardenFruit_Blueberry" Value="263740" />
+  <Preset Label="object_GardenFruit_Raspberry" Value="263741" />
+  <Preset Label="object_GardenFruit_Chocoberry" Value="263742" />
+  <Preset Label="object_VillagerHelp_InventoryOnly_SocialShortPackage" Value="263812" />
+  <Preset Label="object_GardeningPlant_Bush_blueberry_wild" Value="263842" />
+  <Preset Label="object_GardeningPlant_Bush_blueberry_public_garden" Value="263849" />
+  <Preset Label="object_GardeningPlant_Bush_blueberry" Value="263858" />
+  <Preset Label="object_GardeningPlant_Bush_raspberry" Value="263903" />
+  <Preset Label="object_GardeningPlant_Bush_raspberry_public_garden" Value="263904" />
+  <Preset Label="object_GardeningPlant_Bush_raspberry_wild" Value="263905" />
+  <Preset Label="food_MushroomSoup_Charming" Value="263911" />
+  <Preset Label="food_MushroomSoup_Lovely" Value="263913" />
+  <Preset Label="food_MushroomSoup_Nightly" Value="263914" />
+  <Preset Label="food_MushroomSoup_Spicy" Value="263919" />
+  <Preset Label="food_MushroomSoup_Verdant" Value="263921" />
+  <Preset Label="food_MushroomSoup_Mysterious" Value="263922" />
+  <Preset Label="object_GardeningPlant_Bush_chocoberry" Value="264077" />
+  <Preset Label="object_GardeningPlant_Bush_chocoberry_public_garden" Value="264483" />
+  <Preset Label="object_GardeningPlant_Bush_chocoberry_wild" Value="264484" />
+  <Preset Label="animalObjectIngredients_Wool_Yellow" Value="264521" />
   <Preset Label="object_Flour" Value="264725" />
   <Preset Label="object_Sugar" Value="264726" />
+  <Preset Label="object_animalObjects_livestockPen_llama_yellow" Value="264729" />
+  <Preset Label="object_CrossStitch_Hoop_LargeWall" Value="264738" />
   <Preset Label="animalObjectIngredients_Beef" Value="264741" />
   <Preset Label="animalObjectIngredients_Chicken" Value="264742" />
+  <Preset Label="object_GardeningFruit_mushroomWildNightly" Value="264743" />
+  <Preset Label="object_GardeningFruit_mushroomWildVerdant" Value="264744" />
+  <Preset Label="object_GardeningFruit_mushroomWildCharming" Value="264745" />
+  <Preset Label="object_GardeningFruit_mushroomWildSpicy" Value="264746" />
+  <Preset Label="object_GardeningFruit_mushroomWildLovely" Value="264747" />
+  <Preset Label="object_GardeningFruit_mushroomWildMysterious" Value="264748" />
+  <Preset Label="object_CrossStitch_Hoop_MediumWall" Value="264750" />
+  <Preset Label="object_CrossStitch_Hoop_SmallWall" Value="264752" />
   <Preset Label="object_animalObjects_animalClothing_base" Value="264755" />
+  <Preset Label="object_UpgradeParts_AnimalObject_AnimalHomeParts" Value="264966" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildNightly" Value="264972" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildVerdant" Value="264973" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildCharming" Value="264974" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildSpicy" Value="264975" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildLovely" Value="264976" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildNightly_wild" Value="265001" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildMysterious" Value="265015" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildNightly_public_garden" Value="265017" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildSpicy_public_garden" Value="265037" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildLovely_public_garden" Value="265038" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildVerdant_public_garden" Value="265073" />
+  <Preset Label="object_GardeningPlant_Tuber_mushroomWildCharming_public_garden" Value="265074" />
   <Preset Label="object_Ponds_VFXObject_Log" Value="265077" />
   <Preset Label="object_Ponds_VFXObject_Reeds_InsectCloud" Value="265078" />
   <Preset Label="object_Ponds_VFXObject_Reeds_Fireflies" Value="265079" />
@@ -1632,20 +1786,101 @@
   <Preset Label="object_Ponds_VFXObject_USO" Value="265084" />
   <Preset Label="object_Ponds_VFXObject_Gator" Value="265085" />
   <Preset Label="object_Ponds_VFXObject_Dragonflies" Value="265086" />
+  <Preset Label="animalObjects_noninteractable_Rabbits_DirtMound_temporary" Value="265165" />
+  <Preset Label="object_CritterGifting_Gift" Value="265737" />
+  <Preset Label="object_animalObjects_livestockPen_cow_brown" Value="265848" />
+  <Preset Label="festival_VillageFair_Sign" Value="265877" />
+  <Preset Label="fishingSpot_CottageWorld_Common" Value="266049" />
+  <Preset Label="fishingSpot_CottageWorld_Uncommon" Value="266050" />
+  <Preset Label="fishingSpot_CottageWorld_Rare" Value="266051" />
+  <Preset Label="collectibles_VillageFair_1stPlace" Value="266074" />
+  <Preset Label="collectibles_VillageFair_2ndPlace" Value="266075" />
+  <Preset Label="collectibles_VillageFair_3rdPlace" Value="266076" />
+  <Preset Label="collectibles_VillageFair_Participation" Value="266078" />
+  <Preset Label="object_animalObjectIngredients_Egg_Blue" Value="266483" />
+  <Preset Label="object_animalObjectIngredients_Egg_Chocolate" Value="266484" />
+  <Preset Label="object_animalObjectIngredients_Egg_Gold" Value="266485" />
+  <Preset Label="object_animalObjectIngredients_Egg_Green" Value="266486" />
+  <Preset Label="object_animalObjectIngredients_Egg_Obsidian" Value="266487" />
+  <Preset Label="object_animalObjectIngredients_Egg_Orange" Value="266488" />
+  <Preset Label="object_animalObjectIngredients_Egg_Rainbow" Value="266489" />
+  <Preset Label="object_animalObjects_home_livestock_livestockPen_VillageFair" Value="266969" />
+  <Preset Label="cottageWorld_NPC_MysteryBoxes_Grocery" Value="267009" />
+  <Preset Label="cottageWorld_NPC_MysteryBoxes_Gardening" Value="267010" />
+  <Preset Label="object_GiantCrops_Fruit_Lettuce_Large" Value="267255" />
+  <Preset Label="object_GiantCrops_Fruit_Lettuce_Medium" Value="267256" />
+  <Preset Label="object_GiantCrops_Fruit_Pumpkin_Medium" Value="267258" />
+  <Preset Label="object_GiantCrops_Fruit_Pumpkin_Large" Value="267259" />
+  <Preset Label="object_GiantCrops_Fruit_Watermelon_Medium" Value="267261" />
+  <Preset Label="object_GiantCrops_Fruit_Watermelon_Large" Value="267262" />
+  <Preset Label="object_GiantCrops_Fruit_Aubergine_Medium" Value="267315" />
+  <Preset Label="object_GiantCrops_Fruit_Aubergine_Large" Value="267316" />
+  <Preset Label="drink_VillagerHelp_BagleyBerryFizz" Value="267486" />
+  <Preset Label="drink_VillagerHelp_BagleyBerryFizzSampler" Value="267487" />
+  <Preset Label="drink_VillagerHelp_VerdantAndFunk" Value="267488" />
+  <Preset Label="drink_VillagerHelp_VerdantAndFunkSampler" Value="267489" />
+  <Preset Label="object_Food_MushroomMash" Value="267524" />
+  <Preset Label="villagerHelp_InventoryOnly_GroceryDeliveryCoupon" Value="267608" />
+  <Preset Label="object_animalObjects_livestock_chicken_chick_rooster" Value="267631" />
+  <Preset Label="object_VillageFair_CompetitionStandGEN01_cropGiant" Value="267832" />
+  <Preset Label="object_VillageFair_CompetitionStandGEN01_cropNormal" Value="267833" />
+  <Preset Label="object_VillageFair_CompetitionStandGEN02_Milk" Value="267834" />
+  <Preset Label="object_VillageFair_CompetitionStandGEN02_Pie" Value="267835" />
+  <Preset Label="object_VillageFair_CompetitionStandGEN02_Wool" Value="267836" />
+  <Preset Label="food_BowlFork_Multi_Cheese" Value="267837" />
+  <Preset Label="object_VillageShops_Shells_Bakery" Value="268060" />
+  <Preset Label="object_VillageShops_Shells_Clothing" Value="268061" />
+  <Preset Label="object_VillageShops_Shells_Housewares" Value="268062" />
+  <Preset Label="object_MushroomHunt_MushroomWildBasic_Spawner" Value="268064" />
+  <Preset Label="object_MushroomHunt_MushroomWildBasic" Value="268065" />
+  <Preset Label="object_CottageWorld_Broadcaster_ProximityRuins" Value="268112" />
+  <Preset Label="object_CottageWorld_Broadcaster_ProximityWaterfall" Value="268113" />
+  <Preset Label="object_Shell_CottageWorld_CritterTenderHouse" Value="268147" />
+  <Preset Label="book_Cooking_SimpleLiving_Cookbook" Value="268289" />
+  <Preset Label="object_CottageWorld_SnailStatue" Value="268300" />
+  <Preset Label="object_MushroomHunt_MushroomWildBasic_Spawner_Rare" Value="268370" />
   <Preset Label="object_Ponds_VFXObject_Fish" Value="268372" />
   <Preset Label="object_Ponds_VFXObject_Fireflies" Value="268373" />
   <Preset Label="object_Ponds_VFXObject_InsectCloud" Value="268375" />
   <Preset Label="object_Ponds_VFXObject_Ducks_Green" Value="268378" />
   <Preset Label="object_Ponds_VFXObject_Tadpoles" Value="268379" />
   <Preset Label="object_Ponds_VFXObject_Swan" Value="268380" />
+  <Preset Label="object_GiantCrops_Fruit_GiantMushroom_Small" Value="268382" />
+  <Preset Label="object_GiantCrops_Fruit_GiantMushroom_Large" Value="268383" />
+  <Preset Label="object_GiantCrops_Fruit_GiantMushroom_Medium" Value="268384" />
+  <Preset Label="object_GiantCrops_Plant_GiantMushroom" Value="268388" />
   <Preset Label="object_bedSingle_BunkBed_Top_EF29Gen" Value="268458" />
   <Preset Label="object_bedSingle_BunkBed_Top_EF29SC" Value="268464" />
+  <Preset Label="gameObject_MysteryBox_Mayor_Jam" Value="268667" />
+  <Preset Label="object_drink_canning_MeatSubstitute" Value="268697" />
+  <Preset Label="festival_VillageFair_Topiary" Value="268904" />
   <Preset Label="object_Fountain_SP23" Value="268920" />
   <Preset Label="object_sitSofa3x1_SP23ISLwood" Value="268929" />
   <Preset Label="object_sitLiving_SP23ISLwood" Value="268930" />
   <Preset Label="object_lightFloor_SP23ISLlantern" Value="268934" />
+  <Preset Label="object_animalObjectIngredients_Egg_Fertilized_Obsidian" Value="268957" />
+  <Preset Label="obejct_animalObjectIngredients_Egg_Fertilized_Gold" Value="268958" />
+  <Preset Label="object_animalObjectIngredients_Egg_Fertilized" Value="268959" />
+  <Preset Label="gardeningPlant_Bush_blueberry_bloom_public_garden" Value="269112" />
+  <Preset Label="gardeningPlant_Bush_raspberry_bloom_public_garden" Value="269113" />
+  <Preset Label="object_gardeningPlant_Bush_raspberry_bloom_wild" Value="269116" />
+  <Preset Label="object_gardeningPlant_Bush_blueberry_bloom_wild" Value="269117" />
+  <Preset Label="object_gardeningPlant_Bush_chocoberry_blooming_wild" Value="269173" />
+  <Preset Label="object_gardeningPlant_Bush_chocoberry_bloom_public_garden" Value="269175" />
   <Preset Label="object_FountainEmitter" Value="269251" />
+  <Preset Label="object_EP11BusStop" Value="269353" />
+  <Preset Label="object_barPro4x1_EP11PUB" Value="269390" />
+  <Preset Label="object_bathtub_EP11ORNclaw" Value="269402" />
+  <Preset Label="object_bedDouble_EP11GENmetal" Value="269403" />
+  <Preset Label="object_fridge1x1_EP11IRON" Value="269450" />
+  <Preset Label="object_sitBarstool_EP11PUB" Value="269474" />
+  <Preset Label="object_sitLoveseat2x1_EP11GENbench" Value="269475" />
+  <Preset Label="object_sitSofa3x1_EP11COTplush" Value="269476" />
+  <Preset Label="object_stoveMinor_EP11IRON" Value="269477" />
+  <Preset Label="stereoWall_public_VillageFair" Value="269786" />
   <Preset Label="object_FestivalStage_RoutableStage" Value="269838" />
+  <Preset Label="object_lightWall_EP11GENmenu" Value="269843" />
+  <Preset Label="object_lightFLoor_EP11GENchop" Value="269846" />
   <Preset Label="object_marketStalls_Crafts_MusicFestival" Value="269916" />
   <Preset Label="object_marketStalls_Food_MusicFestival" Value="269917" />
   <Preset Label="object_Ponds_FishingSign_Premade" Value="270377" />
@@ -1677,26 +1912,130 @@
   <Preset Label="object_WaterEmitter_Fish" Value="270662" />
   <Preset Label="object_WaterEmitter_Modern" Value="270663" />
   <Preset Label="object_WaterEmitter_3Tier" Value="270664" />
+  <Preset Label="object_WaterEmitter_Single_EP11" Value="270665" />
+  <Preset Label="Village_Sign" Value="270752" />
+  <Preset Label="object_GiantCrops_Plant_Pumpkin_2" Value="270754" />
+  <Preset Label="object_GiantCrops_Plant_Pumpkin_3" Value="270755" />
   <Preset Label="object_Ponds_VFXObject_Lilypad_1x1_2" Value="270786" />
+  <Preset Label="object_animalObjects_livestock_chicken_hen_brown" Value="270799" />
+  <Preset Label="object_animalObjects_livestock_chicken_hen_grey" Value="270800" />
+  <Preset Label="object_animalObjects_livestock_chicken_rooster_brown" Value="270802" />
+  <Preset Label="object_animalObjects_livestock_chicken_rooster_grey" Value="270803" />
+  <Preset Label="food_PlateFork_Multi_MilkBread" Value="270811" />
   <Preset Label="animalObjects_LivestockFeed_Pile_Basic" Value="270826" />
+  <Preset Label="object_barstool_SP25IND" Value="271988" />
+  <Preset Label="object_chair_living_SP25IND" Value="271989" />
+  <Preset Label="object_sofa_SP25IND" Value="271990" />
+  <Preset Label="object_HighSchool_Active_Whiteboard" Value="272579" />
+  <Preset Label="drink_Tea_TeaSet_BlackDragon" Value="274308" />
+  <Preset Label="object_teaSet" Value="274386" />
+  <Preset Label="Object_Food_YogurtMelt" Value="274777" />
+  <Preset Label="Object_Food_BananaSlices" Value="274778" />
+  <Preset Label="Object_Food_PeanutButterPuffs" Value="274779" />
+  <Preset Label="object_Food_OatyOs" Value="274780" />
+  <Preset Label="object_Crib_Travel" Value="274900" />
+  <Preset Label="object_Playmat" Value="274923" />
+  <Preset Label="object_flowerArrangement_Bouquet" Value="274955" />
+  <Preset Label="wedding_Aisle_Runner" Value="275162" />
+  <Preset Label="object_Food_BabyFeed_Bottle" Value="275483" />
+  <Preset Label="object_Wedding_Aisle" Value="275610" />
+  <Preset Label="object_Book_HighSchool_Active_WorkBook" Value="275829" />
+  <Preset Label="object_FerrisWheel" Value="275912" />
+  <Preset Label="object_Wedding_Aisle_8" Value="276012" />
+  <Preset Label="object_Wedding_Aisle_12" Value="276013" />
+  <Preset Label="object_Infant_Blanket" Value="276024" />
+  <Preset Label="object_marketStall_Wedding_Indian" Value="276177" />
+  <Preset Label="object_marketStall_Wedding_Chinese" Value="276178" />
+  <Preset Label="object_marketStall_Wedding_Patisserie" Value="276179" />
+  <Preset Label="object_marketStalls_Wedding_Flower" Value="276181" />
+  <Preset Label="object_Shell_Wedding_TownHall" Value="276183" />
+  <Preset Label="object_Shell_Wedding_DressShop" Value="276184" />
+  <Preset Label="object_Shell_Wedding_Generic" Value="276294" />
+  <Preset Label="object_Food_DalMakhani" Value="276506" />
+  <Preset Label="object_Food_GulabJamun" Value="276507" />
+  <Preset Label="object_Food_MuttonBiryani" Value="276508" />
+  <Preset Label="object_Food_RoastDuck" Value="276509" />
+  <Preset Label="object_Food_SweetBuns" Value="276510" />
+  <Preset Label="object_SideHustle_ReviewFile" Value="276540" />
+  <Preset Label="object_SideHustle_BusinessPlan" Value="276542" />
+  <Preset Label="object_SchoolLocker" Value="276964" />
+  <Preset Label="prototype_RetailCompatible_InfantMesmerize" Value="277351" />
+  <Preset Label="object_TableChangeDiaper" Value="277567" />
+  <Preset Label="object_TableChangeDiaperWall" Value="277568" />
+  <Preset Label="object_Wedding_FlowerBasket" Value="277572" />
+  <Preset Label="object_Wedding_RingPillow" Value="277596" />
   <Preset Label="object_Food_Hallacas" Value="277598" />
   <Preset Label="drink_Bar_Coquito" Value="277636" />
+  <Preset Label="gameObject_SandPlay_Bottle_Friendly" Value="277788" />
+  <Preset Label="gameObject_SandPlay_Bottle_Love" Value="277789" />
+  <Preset Label="gameObject_SandPlay_Bottle_Secret" Value="277790" />
+  <Preset Label="gameObject_SandPlay_Bottle_Wish" Value="277791" />
+  <Preset Label="object_Food_FruitTart" Value="277891" />
+  <Preset Label="gameObject_SandPlay_SandMound" Value="277981" />
   <Preset Label="collectibles_Spawners_SandPlay_Bottle" Value="277983" />
+  <Preset Label="object_marketStalls_CafeteriaStation_HighSchool" Value="277994" />
+  <Preset Label="food_BowlFork_Multi_WeddingCake" Value="278155" />
+  <Preset Label="object_Food_WeddingCake" Value="278157" />
+  <Preset Label="gameObject_SandPlay_SandDrawing_Heart" Value="279062" />
+  <Preset Label="gameObject_SandPlay_SandDrawing_Star" Value="279063" />
+  <Preset Label="gameObject_SandPlay_SandDrawing_Smiley" Value="279064" />
+  <Preset Label="object_SimsfluencerSideHustle_RewardPackage" Value="279100" />
+  <Preset Label="object_BubbleTeaCounter" Value="279254" />
+  <Preset Label="object_WeddingToastBucket" Value="279969" />
+  <Preset Label="object_HighSchool_Active_Speaker" Value="280401" />
+  <Preset Label="object_Fountain_Riviera_World" Value="280532" />
+  <Preset Label="Object_WishingTree" Value="280559" />
   <Preset Label="object_GardeningPlant_Bush_grape_wild_mature" Value="280560" />
+  <Preset Label="object_trash_diaper" Value="280567" />
+  <Preset Label="object_HSExit_Diploma" Value="280600" />
+  <Preset Label="object_ThriftStore_RetailRack" Value="280681" />
+  <Preset Label="object_WeddingCake_Topper" Value="280790" />
+  <Preset Label="object_trashcan_Indoor_MedCapacity_DiaperPail" Value="280816" />
+  <Preset Label="object_trashcan_Indoor_TopCapacity_DiaperPail" Value="280827" />
+  <Preset Label="drink_BubbleTea" Value="281037" />
+  <Preset Label="object_PhotoOpStand" Value="281161" />
+  <Preset Label="object_marketStalls_HighSchoolFestival_Science" Value="281168" />
+  <Preset Label="object_marketStalls_HighSchoolFestival_Sports" Value="281719" />
   <Preset Label="object_UndecoratedCake" Value="281845" />
+  <Preset Label="gameObject_SandPlay_Bottle_Threat" Value="282098" />
+  <Preset Label="object_HighSchoolPodium" Value="282224" />
+  <Preset Label="object_ParkFountain_Sittable_GP11" Value="282388" />
+  <Preset Label="object_RedEnvelope" Value="282586" />
+  <Preset Label="object_ThrowFootball" Value="282648" />
+  <Preset Label="object_OpenableWindow" Value="282731" />
+  <Preset Label="object_HSProm_PromposalSign" Value="282742" />
   <Preset Label="stereoWall_public_Brazilian" Value="282815" />
   <Preset Label="stereoWall_public_MixedMusic" Value="282816" />
   <Preset Label="object_GardeningPlant_Bush_grape_public_garden" Value="282859" />
   <Preset Label="object_Food_Acaraje" Value="282860" />
+  <Preset Label="object_WeddingWorld_Inviseractable_Algae" Value="282870" />
   <Preset Label="object_Food_PaodeQueijo" Value="282883" />
+  <Preset Label="object_HSProm_bulletinBoard" Value="283353" />
   <Preset Label="object_drink_Potion_WantRefresher" Value="283692" />
   <Preset Label="object_drink_Potion_FearBeGone" Value="283693" />
+  <Preset Label="object_toyHandSmallGENSqueaky" Value="283773" />
+  <Preset Label="object_light_table_lantern" Value="283921" />
+  <Preset Label="object_light_table_floralCenterpiece" Value="283922" />
+  <Preset Label="object_light_wall_HallCandle" Value="283923" />
+  <Preset Label="object_light_table_GP11medium" Value="283924" />
+  <Preset Label="object_WeddingArch_GP11" Value="283965" />
+  <Preset Label="object_Food_Teen_VegRollup" Value="284584" />
+  <Preset Label="object_Food_Teen_PepRollup" Value="284585" />
+  <Preset Label="object_Food_Teen_TortHotdog" Value="284586" />
+  <Preset Label="object_CheerMat_Solo" Value="284587" />
+  <Preset Label="object_CheerMat_Group" Value="284589" />
+  <Preset Label="drink_Tea_Teaset_BlackDragon_Handle" Value="284625" />
   <Preset Label="jig_CheerMat_Group_2" Value="284755" />
   <Preset Label="jig_CheerMat_Group_3" Value="284756" />
   <Preset Label="jig_CheerMat_Group_4" Value="284761" />
   <Preset Label="jig_CheerMat_Group_5" Value="284762" />
   <Preset Label="jig_CheerMat_Group_6" Value="284763" />
   <Preset Label="jig_CheerMat_Group_7" Value="284766" />
+  <Preset Label="object_Food_Teen_TortVegdog" Value="284803" />
+  <Preset Label="object_Food_Teen_ChickenSlider_single" Value="284865" />
+  <Preset Label="object_Food_Teen_HamburgSlider_single" Value="284879" />
+  <Preset Label="object_Food_Teen_VeggieSlider_single" Value="284965" />
+  <Preset Label="object_Food_Teen_CupNoodle" Value="284997" />
   <Preset Label="object_Food_Cake_Rice" Value="285030" />
   <Preset Label="object_Food_NoodlesJapchae" Value="285031" />
   <Preset Label="object_Food_SteamedFish" Value="285040" />
@@ -1704,23 +2043,187 @@
   <Preset Label="object_Food_MincedPorkNoodles" Value="285050" />
   <Preset Label="object_Food_Galbijim" Value="285060" />
   <Preset Label="object_drink_empty_stemmed" Value="285093" />
+  <Preset Label="object_Food_Teen_Corndog" Value="285095" />
+  <Preset Label="object_Food_Teen_Churros_single" Value="285142" />
   <Preset Label="object_Food_Churrasco" Value="285232" />
   <Preset Label="object_Food_Brigadeiro" Value="285358" />
+  <Preset Label="object_Food_Teen_Acai" Value="285373" />
   <Preset Label="object_drink_Caipirinha" Value="285516" />
+  <Preset Label="object_Food_Teen_RainbowBrownie" Value="285540" />
+  <Preset Label="object_Food_Teen_TamaleBites" Value="285555" />
+  <Preset Label="object_sitDining_GP11WED" Value="285606" />
+  <Preset Label="object_sitDining_GP11WEDclear" Value="285607" />
+  <Preset Label="object_SitDining_GP11WEDweave" Value="285608" />
+  <Preset Label="object_sitLiving_LoungeChair_GP11GENwood" Value="285613" />
+  <Preset Label="object_sitLoveseat2x1_GP11GENgarland" Value="285617" />
+  <Preset Label="object_sitLoveseat2x1_GP11HALLpew" Value="285618" />
+  <Preset Label="object_Food_Teen_SpiceBurrito" Value="285678" />
+  <Preset Label="object_light_floor_candle_dragonwell" Value="285775" />
+  <Preset Label="object_light_table_candle_gp11_cpmod" Value="285776" />
+  <Preset Label="object_FoodHandWhole_VendingMachine_Teen_CreamCake" Value="285784" />
+  <Preset Label="object_Food_Teen_Lunchset_small" Value="285922" />
+  <Preset Label="object_Food_Teen_Lunchset_large" Value="285925" />
+  <Preset Label="object_Food_PlateFork_Multi_Teen" Value="286005" />
   <Preset Label="object_Telescope_Small" Value="286639" />
+  <Preset Label="fashionMarketplace_Premade_Basics_1" Value="286733" />
+  <Preset Label="fashionMarketplace_Premade_Basics_2" Value="286734" />
+  <Preset Label="fashionMarketplace_Premade_Basics_3" Value="286735" />
+  <Preset Label="fashionMarketplace_Premade_Boho_1" Value="286737" />
+  <Preset Label="fashionMarketplace_Premade_Boho_2" Value="286738" />
+  <Preset Label="fashionMarketplace_Premade_Boho_3" Value="286739" />
+  <Preset Label="fashionMarketplace_Premade_Country_1" Value="286741" />
+  <Preset Label="fashionMarketplace_Premade_Country_2" Value="286742" />
+  <Preset Label="fashionMarketplace_Premade_Country_3" Value="286743" />
+  <Preset Label="fashionMarketplace_Premade_Hipster_1" Value="286745" />
+  <Preset Label="fashionMarketplace_Premade_Hipster_2" Value="286746" />
+  <Preset Label="fashionMarketplace_Premade_Hipster_3" Value="286747" />
+  <Preset Label="fashionMarketplace_Premade_NoTrend_1" Value="286749" />
+  <Preset Label="fashionMarketplace_Premade_NoTrend_2" Value="286750" />
+  <Preset Label="fashionMarketplace_Premade_NoTrend_3" Value="286751" />
+  <Preset Label="fashionMarketplace_Premade_Outdoorsy_1" Value="286753" />
+  <Preset Label="fashionMarketplace_Premade_Outdoorsy_2" Value="286754" />
+  <Preset Label="fashionMarketplace_Premade_Outdoorsy_3" Value="286755" />
+  <Preset Label="fashionMarketplace_Premade_Polished_1" Value="286757" />
+  <Preset Label="fashionMarketplace_Premade_Polished_2" Value="286758" />
+  <Preset Label="fashionMarketplace_Premade_Polished_3" Value="286759" />
+  <Preset Label="fashionMarketplace_Premade_Preppy_1" Value="286761" />
+  <Preset Label="fashionMarketplace_Premade_Preppy_2" Value="286762" />
+  <Preset Label="fashionMarketplace_Premade_Preppy_3" Value="286763" />
+  <Preset Label="fashionMarketplace_Premade_Rocker_1" Value="286765" />
+  <Preset Label="fashionMarketplace_Premade_Rocker_2" Value="286766" />
+  <Preset Label="fashionMarketplace_Premade_Rocker_3" Value="286767" />
+  <Preset Label="fashionMarketplace_Premade_Streetwear_1" Value="286769" />
+  <Preset Label="fashionMarketplace_Premade_Streetwear_2" Value="286770" />
+  <Preset Label="fashionMarketplace_Premade_Streetwear_3" Value="286771" />
+  <Preset Label="pierAttractions_HauntedHouse" Value="286825" />
+  <Preset Label="pierAttractions_TunnelLove" Value="286826" />
+  <Preset Label="object_VendingMachine_HighSchool" Value="286962" />
+  <Preset Label="object_WolfTown_BulletinBoard" Value="287244" />
+  <Preset Label="object_WolfTown_LunarStatue" Value="287245" />
+  <Preset Label="object_WolfTown_WerewolfPack_Shell_PackA" Value="287281" />
+  <Preset Label="object_WolfTown_WerewolfPack_Shell_PackB" Value="287282" />
+  <Preset Label="object_WolfTown_GregSign" Value="287326" />
+  <Preset Label="object_WolfTown_FightingRingMark" Value="287327" />
+  <Preset Label="object_Photobooth" Value="287563" />
   <Preset Label="drink_Straw" Value="287991" />
+  <Preset Label="object_WolfTown_Portal_HowlSpotTop" Value="288305" />
+  <Preset Label="object_WolfTown_Portal_HowlSpotBottom" Value="288306" />
+  <Preset Label="object_WolfTown_Portal_PortaPotty" Value="288307" />
+  <Preset Label="object_WolfTown_Portal_Sewer" Value="288308" />
+  <Preset Label="object_WolfTown_Portal_Mine" Value="288309" />
+  <Preset Label="object_Photo_Photobooth" Value="288428" />
+  <Preset Label="object_WolfTown_Portal_OnLot" Value="288472" />
+  <Preset Label="object_urnstone_Werewolf" Value="288825" />
+  <Preset Label="object_HSGraduation_Photo" Value="288836" />
+  <Preset Label="stereo_public_HSProm" Value="289578" />
+  <Preset Label="object_Food_ColdCuts" Value="289757" />
+  <Preset Label="object_Food_Steak_Raw" Value="289824" />
+  <Preset Label="object_drink_WerewolfCure" Value="289825" />
+  <Preset Label="object_drink_MoonpetalPunch" Value="289826" />
+  <Preset Label="object_drink_Powersip_Midnight" Value="289827" />
+  <Preset Label="object_Food_MushroomSteak" Value="289828" />
+  <Preset Label="object_Food_BlueSteak" Value="289829" />
+  <Preset Label="object_Food_LunaFish" Value="289831" />
+  <Preset Label="object_Food_SteakTartare" Value="289832" />
+  <Preset Label="object_FoodHandWhole_VendingMachine_Teen_VegRollup" Value="289929" />
+  <Preset Label="object_FoodHandWhole_VendingMachine_Teen_PepRollup" Value="289955" />
+  <Preset Label="object_fish_LunaFish" Value="290112" />
+  <Preset Label="object_DirtMound_Scavenger" Value="290602" />
+  <Preset Label="wolfTown_Inviseractable_Puddle" Value="290616" />
+  <Preset Label="wolfTown_Inviseractable_Dig" Value="290618" />
   <Preset Label="object_Computer_Webcam" Value="291090" />
+  <Preset Label="fashionMarketplace_Created_Basics" Value="291095" />
+  <Preset Label="fashionMarketplace_Created_Boho" Value="291096" />
+  <Preset Label="fashionMarketplace_Created_Country" Value="291097" />
+  <Preset Label="fashionMarketplace_Created_Hipster" Value="291098" />
+  <Preset Label="fashionMarketplace_Created_NoTrend" Value="291099" />
+  <Preset Label="fashionMarketplace_Created_Outdoorsy" Value="291100" />
+  <Preset Label="fashionMarketplace_Created_Polished" Value="291101" />
+  <Preset Label="fashionMarketplace_Created_Preppy" Value="291102" />
+  <Preset Label="fashionMarketplace_Created_Rocker" Value="291103" />
+  <Preset Label="fashionMarketplace_Created_Streetwear" Value="291104" />
+  <Preset Label="object_Collectible_WerewolfLore_headBone" Value="291324" />
+  <Preset Label="object_door_WerewolfOnly" Value="291537" />
+  <Preset Label="object_sitDining_LEDGamingChair" Value="291620" />
+  <Preset Label="object_StereoTable_portable" Value="291621" />
+  <Preset Label="fishingSpot_WolfTown_Lake" Value="291742" />
+  <Preset Label="fishingSpot_WolfTown_River" Value="291743" />
+  <Preset Label="object_Food_Teen_CreamCake" Value="291833" />
+  <Preset Label="object_StereoTable_HSPromRewardGramaphone" Value="291863" />
+  <Preset Label="object_Plant_Moonpetal_Patch_World" Value="291935" />
+  <Preset Label="object_Plant_Moonpetal_Flower" Value="291936" />
+  <Preset Label="foodBall_Moonpetal_Flower_ForEating" Value="291942" />
+  <Preset Label="object_MarketStalls_IceCream" Value="292091" />
+  <Preset Label="object_Door_FacultyOnly" Value="292255" />
+  <Preset Label="object_Food_IceCreamCone_EP12" Value="292351" />
+  <Preset Label="book_WerewolfLore_Secret_2" Value="292643" />
+  <Preset Label="book_WerewolfLore_VulfgangSeries_3" Value="292651" />
+  <Preset Label="book_WerewolfLore_Secret_1" Value="292653" />
+  <Preset Label="book_WerewolfLore_Secret_4" Value="292654" />
+  <Preset Label="book_WerewolfLore_Secret_3" Value="292655" />
+  <Preset Label="book_WerewolfLore_PeterBarkerSeries_4" Value="292658" />
+  <Preset Label="book_WerewolfLore_PeterBarkerSeries_1" Value="292659" />
+  <Preset Label="book_WerewolfLore_PeterBarkerSeries_2" Value="292660" />
+  <Preset Label="book_WerewolfLore_PeterBarkerSeries_3" Value="292661" />
+  <Preset Label="book_WerewolfLore_VulfgangSeries_4" Value="292662" />
+  <Preset Label="book_WerewolfLore_VulfgangSeries_1" Value="292663" />
+  <Preset Label="book_WerewolfLore_VulfgangSeries_2" Value="292664" />
   <Preset Label="book_GENWerewolf_2" Value="292667" />
   <Preset Label="book_GENWerewolf_1" Value="292668" />
   <Preset Label="book_GENMoon_Toddler_PictureBook" Value="292669" />
+  <Preset Label="object_Collectible_WerewolfLore_tablet01" Value="292670" />
+  <Preset Label="object_Collectible_WerewolfLore_tablet02" Value="292671" />
+  <Preset Label="object_Collectible_WerewolfLore_wolfFigurine01" Value="292672" />
+  <Preset Label="object_Collectible_WerewolfLore_wolfFigurine02" Value="292673" />
+  <Preset Label="object_Collectible_WerewolfLore_wolfFigurine03" Value="292684" />
+  <Preset Label="object_Collectible_WerewolfLore_wolfFigurine04" Value="292685" />
+  <Preset Label="object_Collectible_WerewolfLore_pot01" Value="292686" />
+  <Preset Label="object_Collectible_WerewolfLore_pot02" Value="292687" />
+  <Preset Label="object_Collectible_WerewolfLore_pot03" Value="292688" />
+  <Preset Label="object_Collectible_WerewolfLore_pot04" Value="292689" />
+  <Preset Label="object_Collectible_WerewolfLore_jawBone" Value="292690" />
+  <Preset Label="object_Highschool_Active_Table_CareerDay" Value="292905" />
+  <Preset Label="object_wand_Moonwood" Value="293897" />
   <Preset Label="object_Food_Knafeh" Value="294285" />
   <Preset Label="object_Food_ZaatarManaeesh" Value="294310" />
+  <Preset Label="object_Food_MeatBites" Value="294472" />
+  <Preset Label="object_Food_Wolfitos" Value="294473" />
+  <Preset Label="object_painting_PackBPoster" Value="294702" />
+  <Preset Label="object_sculpture_PackAStatue" Value="294706" />
+  <Preset Label="object_Guitar_PackB" Value="294828" />
+  <Preset Label="sculpture_NoView_PackAClock" Value="294830" />
+  <Preset Label="book_WerewolfLore_PackABook" Value="294832" />
+  <Preset Label="book_WerewolfLore_PackBBook" Value="294833" />
   <Preset Label="object_Meteorite" Value="295244" />
+  <Preset Label="object_sculpture_PackBSunDial" Value="295288" />
+  <Preset Label="object_sculpture_PackABookPile" Value="295289" />
+  <Preset Label="object_InteractiveBush_GP12" Value="295770" />
   <Preset Label="food_BowlFork_Multi_Knafeh" Value="296003" />
+  <Preset Label="object_bookshelf_Werewolf" Value="296010" />
   <Preset Label="book_Fun_Set4_Werewolf" Value="296962" />
+  <Preset Label="object_barPro4x1_GP12" Value="297262" />
+  <Preset Label="object_bedSingle_BunkBed_Top_GP12CABpalette" Value="297263" />
+  <Preset Label="object_bedSingle_GP12CABpalette" Value="297264" />
   <Preset Label="book_GENWerewolf_3" Value="297265" />
   <Preset Label="object_sitLiving_LC_01" Value="297322" />
+  <Preset Label="object_bedDouble_EP12LUX" Value="297394" />
+  <Preset Label="object_bedDouble_EP12CONTEMP" Value="297395" />
+  <Preset Label="object_bedDouble_EP12VNTG" Value="297396" />
+  <Preset Label="object_bedDouble_EP12DECO" Value="297397" />
+  <Preset Label="object_bedDouble_EP12ECO" Value="297399" />
+  <Preset Label="object_bedSingle_EP12DECO" Value="297400" />
+  <Preset Label="object_bedSingle_EP12ECO" Value="297401" />
+  <Preset Label="object_bedSingle_EP12CONTEMP" Value="297402" />
+  <Preset Label="object_bedSingle_EP12VNTG" Value="297403" />
+  <Preset Label="object_bedSingle_EP12LUX" Value="297404" />
   <Preset Label="object_light_table_Monster_Deterrent_NightLight" Value="297424" />
+  <Preset Label="object_sitLiving_GP12CABpatch" Value="297589" />
+  <Preset Label="object_sitLiving_GP12CABsalvage" Value="297590" />
+  <Preset Label="object_sitLiving_GP12GENtires" Value="297591" />
+  <Preset Label="object_sofa_GP12CABSalvage" Value="297612" />
+  <Preset Label="object_Computer_EP12starterPC" Value="297632" />
+  <Preset Label="object_Computer_EP12expertPC" Value="297633" />
+  <Preset Label="object_Computer_EP12RWexpert" Value="297634" />
   <Preset Label="object_DontWakeLlama_Game_Yeti" Value="298020" />
   <Preset Label="object_light_table_TherapyLamp_Purple" Value="298127" />
   <Preset Label="object_light_table_TherapyLamp_White" Value="298128" />
@@ -1738,7 +2241,49 @@
   <Preset Label="book_Fun_Toddler_Picture_Book_Superheroes" Value="298209" />
   <Preset Label="book_Fun_Toddler_Picture_Book_Toys" Value="298210" />
   <Preset Label="book_Fun_Toddler_Picture_Book_Vehicles" Value="298211" />
+  <Preset Label="object_Sink_EP12BATH" Value="298322" />
+  <Preset Label="object_barstool_EP12BOBA" Value="298323" />
+  <Preset Label="object_sitDining_EP12GENfur" Value="298324" />
+  <Preset Label="object_sitDining_EP12GENgaming" Value="298325" />
+  <Preset Label="object_sitDining_EP12GENprom" Value="298326" />
+  <Preset Label="object_sitDining_EP12LUX" Value="298327" />
+  <Preset Label="object_sitLiving_EP12ECOhang" Value="298328" />
+  <Preset Label="object_sitLiving_EP12ECOmacrame" Value="298329" />
+  <Preset Label="object_sitLiving_EP12GENcloth" Value="298330" />
+  <Preset Label="object_sitLiving_EP12GENinflatable" Value="298331" />
+  <Preset Label="object_sitLiving_EP12LUXdrumstool" Value="298388" />
+  <Preset Label="object_sitLiving_EP12PATIOwoodTileable" Value="298389" />
+  <Preset Label="object_sitloveseat2x1_EP12ECO" Value="298390" />
+  <Preset Label="object_sitloveseat2x1_EP12GENartDeco" Value="298391" />
+  <Preset Label="object_sitOttoman2x1_EP12LUX" Value="298392" />
+  <Preset Label="object_sitsofa3x1_EP12GEN" Value="298393" />
+  <Preset Label="object_HighSchoolFestival_EntranceGate" Value="298618" />
+  <Preset Label="object_WolfTown_RawFish" Value="298628" />
+  <Preset Label="object_FryingPan_BeefPatty" Value="298641" />
+  <Preset Label="object_FryingPan_Churro" Value="298642" />
+  <Preset Label="object_FryingPan_Corndog" Value="298643" />
   <Preset Label="object_sitDining_SDX012GENchic_01" Value="300286" />
+  <Preset Label="collectibles_Postcards_Scenarios_StuckInTheirShadow_LunarLakes" Value="302256" />
   <Preset Label="object_Food_FishFryPlate" Value="302286" />
   <Preset Label="object_Food_GrilledRibs" Value="302330" />
+  <Preset Label="object_ComputerPortable_EP12RWgold" Value="302467" />
+  <Preset Label="drink_BubbleTea_Empty" Value="302553" />
+  <Preset Label="object_ThriftStore_RetailCounter" Value="302592" />
+  <Preset Label="sleepingBag_sleepingBag" Value="313370" />
+  <Preset Label="sleepingBag_sleepingBagToddler" Value="313371" />
+  <Preset Label="toddler_JungleGym_Slide_Climber" Value="313842" />
+  <Preset Label="object_Vehicle_Bike_KidsBike" Value="314959" />
+  <Preset Label="object_sculpture_NoView_AshPile" Value="319621" />
+  <Preset Label="object_EF18DECKcushion" Value="320078" />
+  <Preset Label="object_dresser_Suitcase" Value="320329" />
+  <Preset Label="object_sitLiving_EF11AFRcushion" Value="320614" />
+  <Preset Label="object_sitDining_EP12WOODcush" Value="320799" />
+  <Preset Label="object_sitDining_100Simoleons" Value="320800" />
+  <Preset Label="object_dresser_Suitcase_Child" Value="322379" />
+  <Preset Label="object_Crib_Standard" Value="323704" />
+  <Preset Label="object_Crib_EF48GEN" Value="323879" />
+  <Preset Label="object_bedSingle_Toddler_EF48GENbabyCrib" Value="323892" />
+  <Preset Label="object_bookshelfwall_Toddler" Value="330747" />
+  <Preset Label="object_vehicle_Bike_Mountain" Value="331662" />
+  <Preset Label="object_vehicle_Bike_NoLight" Value="331664" />
 </PresetGroup>

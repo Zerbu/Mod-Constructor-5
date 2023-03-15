@@ -7,6 +7,8 @@ using Constructor5.Base.SelectableObjects;
 using Constructor5.Elements.Interactions.Shared;
 using Constructor5.Elements.Interactions.Social;
 using Constructor5.Core;
+using Constructor5.Base.ExportSystem;
+using Constructor5.Base.ExportSystem.Tuning.Utilities;
 
 namespace Constructor5.InteractionTemplates.Mischief
 {
@@ -26,9 +28,20 @@ namespace Constructor5.InteractionTemplates.Mischief
         public Reference BalloonSet { get; set; } = new Reference();
 
         [AutoTuneBasic("category")]
-        public Reference PieMenuCategory { get; set; } = new Reference(8990, "Mischief");
+        public override Reference PieMenuCategory { get; set; } = new Reference(314804, "Pranks");
+
+        public Reference ScoreType { get; set; } = new Reference() { GameReferenceLabel = "Mischief", GameReference = 24574 };
+        public Reference ScoreTypeAvailability { get; set; } = new Reference() { GameReferenceLabel = "Mischief", GameReference = 24574 };
 
         public string TuningActionsFile { get; set; } = "Mischief";
+
+        public override ulong GetCustomScoreTypeKey(InteractionExportContext context) => (ulong)ElementTuning.GetSingleInstanceKey(ScoreType);
+
+        public override ulong GetFallbackScoreType(SocialInteractionExportContext socialContext)
+        {
+            Exporter.Current.AddError(socialContext.Element, "InteractionAutoScoreTypeError");
+            return 24574;
+        }
 
         protected override void OnExport(InteractionExportContext context)
         {

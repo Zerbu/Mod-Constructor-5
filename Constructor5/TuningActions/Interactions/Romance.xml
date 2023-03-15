@@ -31,7 +31,7 @@
     <V t="loot">
       <U n="loot">
         <L n="loot_list">
-          <T>162659<!--loot_Commodity_Culling_GhostAdd_target--></T>
+          <T>162659<!--LootActions: loot_Commodity_Culling_GhostAdd_target--></T>
         </L>
       </U>
     </V>
@@ -39,18 +39,18 @@
       <U n="broadcaster">
         <L n="broadcaster_types">
           <U>
-            <T n="item">129459<!--broadcaster_Jealousy_ClubEncouraged--></T>
+            <T n="item">129459<!--Broadcaster: broadcaster_Jealousy_ClubEncouraged--></T>
             <T n="stop_processing">True</T>
             <L n="test">
               <L>
                 <V t="test_set_reference">
-                  <T n="test_set_reference">126907<!--testSetInstance_InteractionIsEncouragedByClubRules--></T>
+                  <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
                 </V>
               </L>
             </L>
           </U>
           <U>
-            <T n="item">76132<!--broadcaster_Jealousy--></T>
+            <T n="item">76132<!--Broadcaster: broadcaster_Jealousy--></T>
             <L n="test">
               <L>
                 <V t="club_test">
@@ -75,7 +75,7 @@
             </L>
           </U>
           <U>
-            <T n="item">264157</T>
+            <T n="item">264157<!--Broadcaster: broadcaster_Reaction_AgnesCrumplebottom--></T>
           </U>
         </L>
       </U>
@@ -83,7 +83,8 @@
     <V t="loot">
       <U n="loot">
         <L n="loot_list">
-          <T>165621<!--loot_ChildhoodPhase_Clingy_SocialBuffs--></T>
+          <T>165621<!--LootActions: loot_ChildhoodPhase_Clingy_SocialBuffs--></T>
+          <T>278309<!--LootActions: loot_Fear_BeingCheatedOn_RecentlyRanRomance--></T>
         </L>
         <V n="timing" t="at_beginning" />
       </U>
@@ -92,7 +93,7 @@
       <U n="broadcaster">
         <L n="broadcaster_types">
           <U>
-            <T n="item">129459<!--broadcaster_Jealousy_ClubEncouraged--></T>
+            <T n="item">129459<!--Broadcaster: broadcaster_Jealousy_ClubEncouraged--></T>
             <T n="stop_processing">True</T>
             <L n="test">
               <L>
@@ -108,7 +109,7 @@
             </L>
           </U>
           <U>
-            <T n="item">76132<!--broadcaster_Jealousy--></T>
+            <T n="item">76132<!--Broadcaster: broadcaster_Jealousy--></T>
             <L n="test">
               <L>
                 <V t="club_test">
@@ -139,7 +140,7 @@
     <V t="loot">
       <U n="loot">
         <L n="loot_list">
-          <T>199497<!--loot_ActorCareer_PrepTask_Research_Flirty--></T>
+          <T>199497<!--LootActions: loot_ActorCareer_PrepTask_Research_Flirty--></T>
         </L>
       </U>
     </V>
@@ -161,7 +162,7 @@
                 <V n="enabled" t="participant" />
               </V>
               <V n="text" t="single">
-                <T n="single">0x6B8B48D2<!--Are you trying to get fresh with me, young {M0.man}{F0.woman}? Take that cheek somewhere else!--></T>
+                <T n="single">0x6B8B48D2</T>
               </V>
             </U>
           </V>
@@ -175,7 +176,7 @@
                   <V t="trait">
                     <U n="trait">
                       <L n="blacklist_traits">
-                        <T>259314</T>
+                        <T>259314<!--Trait: trait_Hidden_CottageWorld_NPC_AgnesCrumplebottom--></T>
                       </L>
                       <E n="subject">TargetSim</E>
                     </U>
@@ -187,17 +188,156 @@
         </U>
       </U>
     </V>
+    <V t="buff_fire_and_forget">
+      <U n="buff_fire_and_forget">
+        <U n="buff">
+          <T n="buff_type">312302<!--Buff: buff_Trait_Loyal_RomancedTakenLoyalSim--></T>
+        </U>
+        <U n="success_chance">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">0</T>
+              <L n="tests">
+                <L>
+                  <V t="trait">
+                    <U n="trait">
+                      <L n="blacklist_traits">
+                        <T>311267<!--Trait: trait_Loyal--></T>
+                      </L>
+                      <E n="subject">TargetSim</E>
+                    </U>
+                  </V>
+                </L>
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="relationship_score_interval">
+                        <T n="lower_bound">30</T>
+                        <T n="upper_bound">100</T>
+                      </U>
+                      <L n="subject">
+                        <E>Actor</E>
+                      </L>
+                      <L n="target_sim">
+                        <E>TargetSim</E>
+                      </L>
+                      <T n="track">16651<!--RelationshipTrack: LTR_Romance_Main--></T>
+                    </U>
+                  </V>
+                </L>
+                <L>
+                  <V t="relationship_bit_count">
+                    <U n="relationship_bit_count">
+                      <E n="comparison_operator">EQUAL</E>
+                      <T n="rel_bit">15839<!--RelationshipBit: RomanticCombo_Soulmates--></T>
+                      <L n="subject">
+                        <E>TargetSim</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="relationship_bit_count">
+                    <U n="relationship_bit_count">
+                      <E n="comparison_operator">EQUAL</E>
+                      <T n="rel_bit">15837<!--RelationshipBit: RomanticCombo_Lovers--></T>
+                      <L n="subject">
+                        <E>TargetSim</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="relationship_bit_count">
+                    <U n="relationship_bit_count">
+                      <E n="comparison_operator">EQUAL</E>
+                      <T n="rel_bit">15840<!--RelationshipBit: RomanticCombo_Sweethearts--></T>
+                      <L n="subject">
+                        <E>TargetSim</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="relationship_bit_count">
+                    <U n="relationship_bit_count">
+                      <E n="comparison_operator">EQUAL</E>
+                      <T n="rel_bit">15829<!--RelationshipBit: RomanticCombo_Lovebirds--></T>
+                      <L n="subject">
+                        <E>TargetSim</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="relationship_bit_count">
+                    <U n="relationship_bit_count">
+                      <E n="comparison_operator">EQUAL</E>
+                      <T n="rel_bit">15822<!--RelationshipBit: romantic-Married--></T>
+                      <L n="subject">
+                        <E>TargetSim</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="relationship_bit_count">
+                    <U n="relationship_bit_count">
+                      <E n="comparison_operator">EQUAL</E>
+                      <T n="rel_bit">15816<!--RelationshipBit: romantic-Engaged--></T>
+                      <L n="subject">
+                        <E>TargetSim</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="relationship_bit_count">
+                    <U n="relationship_bit_count">
+                      <E n="comparison_operator">EQUAL</E>
+                      <T n="rel_bit">99429<!--RelationshipBit: romantic-Promised--></T>
+                      <L n="subject">
+                        <E>TargetSim</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="relationship_bit_count">
+                    <U n="relationship_bit_count">
+                      <E n="comparison_operator">EQUAL</E>
+                      <T n="rel_bit">15825<!--RelationshipBit: romantic-Significant_Other--></T>
+                      <L n="subject">
+                        <E>TargetSim</E>
+                      </L>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
     <V t="loot">
       <U n="loot">
         <L n="loot_list">
-          <T>256558</T>
+          <T>313884<!--LootActions: loot_Buff_Trait_Loyal_Grieving--></T>
         </L>
       </U>
     </V>
     <V t="loot">
       <U n="loot">
         <L n="loot_list">
-          <T>184986<!--loot_SnowEffects_LetitSnow_CozyFire--></T>
+          <T>315414<!--LootActions: Loot_KnowTrait_Loyal_Romance--></T>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>312300<!--LootActions: loot_Trait_Loyal_CheatingGuiltReminder--></T>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>256558<!--LootActions: loot_Dust_Interactions_Romance--></T>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>184986<!--LootActions: loot_SnowEffects_LetitSnow_CozyFire--></T>
         </L>
       </U>
     </V>
@@ -861,26 +1001,24 @@
           <U n="outcome">
             <V n="animation_ref" t="enabled">
               <U n="enabled">
-                <T n="factory">$AnimationOnSuccess<!--Soc_Romance_NT_Flirt_CuteWave_Succeed_basic--></T>
+                <T n="factory">$AnimationOnSuccess<!--AnimationElement: Soc_Romance_NT_Flirt_CuteWave_Succeed_basic--></T>
                 <U n="overrides">
-                  <IfReferenceSet p="BalloonSet">
-                    <V n="balloons" t="enabled">
-                      <L n="enabled">
-                        <U>
-                          <L n="balloon_choices">
-                            <U>
-                              <V n="item" t="balloon_category">
-                                <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
-                              </V>
-                            </U>
-                          </L>
-                          <L n="balloon_target">
-                            <E>Actor</E>
-                          </L>
-                        </U>
-                      </L>
-                    </V>
-                  </IfReferenceSet>
+                  <V n="balloons" t="enabled">
+                    <L n="enabled">
+                      <U>
+                        <L n="balloon_choices">
+                          <U>
+                            <V n="item" t="balloon_category">
+                              <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetFlirt_Speech--></T>
+                            </V>
+                          </U>
+                        </L>
+                        <L n="balloon_target">
+                          <E>Actor</E>
+                        </L>
+                      </U>
+                    </L>
+                  </V>
                 </U>
               </U>
             </V>
@@ -889,29 +1027,96 @@
                 <U n="broadcaster">
                   <L n="broadcaster_types">
                     <U>
-                      <T n="item">134003<!--broadcaster_Reaction_WitnessedCrassAct_Unflirty--></T>
+                      <T n="item">134003<!--Broadcaster: broadcaster_Reaction_WitnessedCrassAct_Unflirty--></T>
                     </U>
                   </L>
                 </U>
               </V>
+              <V t="adventure">
+                <U n="adventure">
+                  <L n="_adventure_moments">
+                    <U>
+                      <E n="key">AdventureTest_Initial_Common</E>
+                      <U n="value">
+                        <V n="aventure_moment" t="reference">
+                          <T n="reference">313174</T>
+                        </V>
+                      </U>
+                    </U>
+                  </L>
+                  <L n="_initial_moments">
+                    <U>
+                      <E n="adventure_moment_key">AdventureTest_Initial_Common</E>
+                      <U n="weight">
+                        <L n="multipliers">
+                          <U>
+                            <T n="multiplier">0</T>
+                            <L n="tests">
+                              <L>
+                                <V t="test_set_reference">
+                                  <T n="test_set_reference">313453<!--TestSetInstance: testSetInstance_SimPreference_PreferenceDiscovery_MaxOrCoolOrAgeChildAllowed_Target--></T>
+                                </V>
+                              </L>
+                            </L>
+                          </U>
+                          <U>
+                            <T n="multiplier">0</T>
+                            <L n="tests">
+                              <L>
+                                <V t="trait">
+                                  <U n="trait">
+                                    <E n="subject">TargetSim</E>
+                                    <L n="whitelist_traits">
+                                      <T>312902</T>
+                                      <T>306463</T>
+                                      <T>306487</T>
+                                    </L>
+                                  </U>
+                                </V>
+                              </L>
+                            </L>
+                          </U>
+                          <U>
+                            <T n="multiplier">0</T>
+                            <L n="tests">
+                              <L>
+                                <V t="test_set_reference">
+                                  <T n="test_set_reference">138666<!--TestSetInstance: testSet_EmotionNegative_TargetSim--></T>
+                                </V>
+                              </L>
+                            </L>
+                          </U>
+                        </L>
+                      </U>
+                    </U>
+                  </L>
+                  <U n="success_chance">
+                    <T n="base_chance">15</T>
+                  </U>
+                </U>
+              </V>
             </L>
             <L n="loot_list">
-              <T>10766<!--Gender_Preference_Loot--></T>
-              <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-              <T>27854<!--Loot_Romantic_Affection_50--></T>
-              <T>11036<!--Rel_Gain_Small--></T>
-              <T>10900<!--Loot_LTR_Romance_Small--></T>
-              <T>28581<!--Loot_Topic_SocialAvailability_Romance--></T>
-              <T>23798<!--Loot_FlirtySocialCommodity_10--></T>
-              <T>24120<!--Loot_SocialContext_Romance_Gain--></T>
-              <T>32056<!--Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
-              <T>76189<!--Loot_Commodity_CareerBenefit_Agent_Agent--></T>
-              <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
-              <T>133107<!--loot_Buff_Trait_Unflirty_Romance_Success--></T>
-              <T>133108<!--loot_Buff_Trait_Unflirty_CrassAct--></T>
-              <T>154622<!--target_KnowTrait_Unflirty_Actor--></T>
-              <T>155126<!--Loot_KnowTrait_Unflirty--></T>
-              <T>216558<!--randomWeightedLoot_Cauldron_Potion_Luck_RandomBenefit_Social_Romance--></T>
+              <T>10766<!--LootActions: Gender_Preference_Loot--></T>
+              <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+              <T>27854<!--LootActions: Loot_Romantic_Affection_50--></T>
+              <T>11036<!--LootActions: Rel_Gain_Small--></T>
+              <T>10900<!--LootActions: Loot_LTR_Romance_Small--></T>
+              <T>28581<!--LootActions: Loot_Topic_SocialAvailability_Romance--></T>
+              <T>23798<!--LootActions: Loot_FlirtySocialCommodity_10--></T>
+              <T>24120<!--LootActions: Loot_SocialContext_Romance_Gain--></T>
+              <T>32056<!--LootActions: Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
+              <T>76189<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Agent--></T>
+              <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+              <T>133107<!--LootActions: loot_Buff_Trait_Unflirty_Romance_Success--></T>
+              <T>133108<!--LootActions: loot_Buff_Trait_Unflirty_CrassAct--></T>
+              <T>154622<!--LootActions: target_KnowTrait_Unflirty_Actor--></T>
+              <T>155126<!--LootActions: Loot_KnowTrait_Unflirty--></T>
+              <T>294094<!--LootActions: lootActions_TeenRelationshipDrama_AddCrush_LowChance--></T>
+              <T>311749<!--LootActions: loot_Reaction_Trait_Loyal_Cheating--></T>
+              <T>312033<!--LootActions: loot_Reaction_Trait_Loyal_Cheating_Target--></T>
+              <T>297789<!--LootActions: loot_Want_PushReactionary_Flirt--></T>
+              <T>216558<!--RandomWeightedLoot: randomWeightedLoot_Cauldron_Potion_Luck_RandomBenefit_Social_Romance--></T>
               <ForEachReference p="LootActionSets">
                 <IfBool p="RunOnSuccess">
                   <T>$v</T>
@@ -922,6 +1127,131 @@
           </U>
         </U>
       </L>
+      <L n="prioritized_tested_outcomes">
+        <U>
+          <U n="outcome">
+            <V n="animation_ref" t="enabled">
+              <U n="enabled">
+                <T n="factory">$AnimationOnFailure<!--AnimationElement: Soc_Romance_NT_Flirt_CuteWave_Fail_basic--></T>
+                <U n="overrides">
+                  <V n="reactionlet" t="enabled">
+                    <U n="enabled">
+                      <V n="selector" t="single_ref">
+                        <U n="single_ref">
+                          <T n="factory">11878<!--AnimationElement: Soc_Generic_AnswerQuestion_annoyed_basic--></T>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </V>
+            <L n="basic_extras">
+              <V t="notification">
+                <U n="notification">
+                  <V n="dialog" t="single">
+                    <V n="single" t="literal">
+                      <U n="literal">
+                        <V n="icon" t="enabled">
+                          <V n="enabled" t="participant">
+                            <U n="participant">
+                              <L n="participant_type">
+                                <E>TargetSim</E>
+                              </L>
+                            </U>
+                          </V>
+                        </V>
+                        <V n="secondary_icon" t="enabled">
+                          <V n="enabled" t="participant" />
+                        </V>
+                        <V n="text" t="single">
+                          <T n="single">0x10B74FF8</T>
+                        </V>
+                        <E n="visual_type">SPEECH</E>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </V>
+              <V t="adventure">
+                <U n="adventure">
+                  <L n="_adventure_moments">
+                    <U>
+                      <E n="key">AdventureTest_Initial_Common</E>
+                      <U n="value">
+                        <V n="aventure_moment" t="reference">
+                          <T n="reference">313174</T>
+                        </V>
+                      </U>
+                    </U>
+                  </L>
+                  <L n="_initial_moments">
+                    <U>
+                      <E n="adventure_moment_key">AdventureTest_Initial_Common</E>
+                      <U n="weight">
+                        <L n="multipliers">
+                          <U>
+                            <T n="multiplier">0</T>
+                            <L n="tests">
+                              <L>
+                                <V t="test_set_reference">
+                                  <T n="test_set_reference">313453<!--TestSetInstance: testSetInstance_SimPreference_PreferenceDiscovery_MaxOrCoolOrAgeChildAllowed_Target--></T>
+                                </V>
+                              </L>
+                            </L>
+                          </U>
+                          <U>
+                            <T n="multiplier">0</T>
+                            <L n="tests">
+                              <L>
+                                <V t="trait">
+                                  <U n="trait">
+                                    <E n="subject">TargetSim</E>
+                                    <L n="whitelist_traits">
+                                      <T>312902</T>
+                                      <T>306463</T>
+                                      <T>306487</T>
+                                    </L>
+                                  </U>
+                                </V>
+                              </L>
+                            </L>
+                          </U>
+                          <U>
+                            <T n="multiplier">0</T>
+                            <L n="tests">
+                              <L>
+                                <V t="test_set_reference">
+                                  <T n="test_set_reference">138666<!--TestSetInstance: testSet_EmotionNegative_TargetSim--></T>
+                                </V>
+                              </L>
+                            </L>
+                          </U>
+                        </L>
+                      </U>
+                    </U>
+                  </L>
+                  <U n="success_chance">
+                    <T n="base_chance">15</T>
+                  </U>
+                </U>
+              </V>
+            </L>
+            <L n="loot_list">
+              <T>291673<!--LootActions: loot_SexualOrientation_LearnSexualOrientation--></T>
+            </L>
+          </U>
+          <L n="tests">
+            <L>
+              <V t="gender_preference">
+                <U n="gender_preference">
+                  <T n="negate">True</T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
       <L n="tested_outcomes">
         <U>
           <L n="potential_outcomes">
@@ -929,26 +1259,24 @@
               <U n="outcome">
                 <V n="animation_ref" t="enabled">
                   <U n="enabled">
-                    <T n="factory">$AnimationOnSuccess<!--Soc_Romance_NT_Flirt_CuteWave_Succeed_basic--></T>
+                    <T n="factory">$AnimationOnSuccess<!--AnimationElement: Soc_Romance_NT_Flirt_CuteWave_Succeed_basic--></T>
                     <U n="overrides">
-                      <IfReferenceSet p="BalloonSet">
-                        <V n="balloons" t="enabled">
-                          <L n="enabled">
-                            <U>
-                              <L n="balloon_choices">
-                                <U>
-                                  <V n="item" t="balloon_category">
-                                    <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetAskAboutDay_Speech--></T>
-                                  </V>
-                                </U>
-                              </L>
-                              <L n="balloon_target">
-                                <E>Actor</E>
-                              </L>
-                            </U>
-                          </L>
-                        </V>
-                      </IfReferenceSet>
+                      <V n="balloons" t="enabled">
+                        <L n="enabled">
+                          <U>
+                            <L n="balloon_choices">
+                              <U>
+                                <V n="item" t="balloon_category">
+                                  <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetFlirt_Speech--></T>
+                                </V>
+                              </U>
+                            </L>
+                            <L n="balloon_target">
+                              <E>Actor</E>
+                            </L>
+                          </U>
+                        </L>
+                      </V>
                     </U>
                   </U>
                 </V>
@@ -957,29 +1285,96 @@
                     <U n="broadcaster">
                       <L n="broadcaster_types">
                         <U>
-                          <T n="item">134003<!--broadcaster_Reaction_WitnessedCrassAct_Unflirty--></T>
+                          <T n="item">134003<!--Broadcaster: broadcaster_Reaction_WitnessedCrassAct_Unflirty--></T>
                         </U>
                       </L>
                     </U>
                   </V>
+                  <V t="adventure">
+                    <U n="adventure">
+                      <L n="_adventure_moments">
+                        <U>
+                          <E n="key">AdventureTest_Initial_Common</E>
+                          <U n="value">
+                            <V n="aventure_moment" t="reference">
+                              <T n="reference">313174</T>
+                            </V>
+                          </U>
+                        </U>
+                      </L>
+                      <L n="_initial_moments">
+                        <U>
+                          <E n="adventure_moment_key">AdventureTest_Initial_Common</E>
+                          <U n="weight">
+                            <L n="multipliers">
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">313453<!--TestSetInstance: testSetInstance_SimPreference_PreferenceDiscovery_MaxOrCoolOrAgeChildAllowed_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="trait">
+                                      <U n="trait">
+                                        <E n="subject">TargetSim</E>
+                                        <L n="whitelist_traits">
+                                          <T>312902</T>
+                                          <T>306463</T>
+                                          <T>306487</T>
+                                        </L>
+                                      </U>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">138666<!--TestSetInstance: testSet_EmotionNegative_TargetSim--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                            </L>
+                          </U>
+                        </U>
+                      </L>
+                      <U n="success_chance">
+                        <T n="base_chance">15</T>
+                      </U>
+                    </U>
+                  </V>
                 </L>
                 <L n="loot_list">
-                  <T>10766<!--Gender_Preference_Loot--></T>
-                  <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-                  <T>27854<!--Loot_Romantic_Affection_50--></T>
-                  <T>11036<!--Rel_Gain_Small--></T>
-                  <T>10900<!--Loot_LTR_Romance_Small--></T>
-                  <T>28581<!--Loot_Topic_SocialAvailability_Romance--></T>
-                  <T>23798<!--Loot_FlirtySocialCommodity_10--></T>
-                  <T>32056<!--Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
-                  <T>24120<!--Loot_SocialContext_Romance_Gain--></T>
-                  <T>76189<!--Loot_Commodity_CareerBenefit_Agent_Agent--></T>
-                  <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
-                  <T>133108<!--loot_Buff_Trait_Unflirty_CrassAct--></T>
-                  <T>133107<!--loot_Buff_Trait_Unflirty_Romance_Success--></T>
-                  <T>154622<!--target_KnowTrait_Unflirty_Actor--></T>
-                  <T>155126<!--Loot_KnowTrait_Unflirty--></T>
-                  <T>216558<!--randomWeightedLoot_Cauldron_Potion_Luck_RandomBenefit_Social_Romance--></T>
+                  <T>10766<!--LootActions: Gender_Preference_Loot--></T>
+                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+                  <T>27854<!--LootActions: Loot_Romantic_Affection_50--></T>
+                  <T>11036<!--LootActions: Rel_Gain_Small--></T>
+                  <T>10900<!--LootActions: Loot_LTR_Romance_Small--></T>
+                  <T>28581<!--LootActions: Loot_Topic_SocialAvailability_Romance--></T>
+                  <T>23798<!--LootActions: Loot_FlirtySocialCommodity_10--></T>
+                  <T>32056<!--LootActions: Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
+                  <T>24120<!--LootActions: Loot_SocialContext_Romance_Gain--></T>
+                  <T>76189<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Agent--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>133108<!--LootActions: loot_Buff_Trait_Unflirty_CrassAct--></T>
+                  <T>133107<!--LootActions: loot_Buff_Trait_Unflirty_Romance_Success--></T>
+                  <T>154622<!--LootActions: target_KnowTrait_Unflirty_Actor--></T>
+                  <T>155126<!--LootActions: Loot_KnowTrait_Unflirty--></T>
+                  <T>294094<!--LootActions: lootActions_TeenRelationshipDrama_AddCrush_LowChance--></T>
+                  <T>311749<!--LootActions: loot_Reaction_Trait_Loyal_Cheating--></T>
+                  <T>312033<!--LootActions: loot_Reaction_Trait_Loyal_Cheating_Target--></T>
+                  <T>297789<!--LootActions: loot_Want_PushReactionary_Flirt--></T>
+                  <T>216558<!--RandomWeightedLoot: randomWeightedLoot_Cauldron_Potion_Luck_RandomBenefit_Social_Romance--></T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnGreatSuccess">
                       <T>$v</T>
@@ -997,7 +1392,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">314810<!--TestBasedScore: scores_socialoutcomes_romance_flirtation--></T>
                   <U n="threshold">
                     <E n="comparison">GREATER_OR_EQUAL</E>
                     <T n="value">50</T>
@@ -1007,12 +1402,12 @@
               <V t="trait">
                 <U n="trait">
                   <L n="blacklist_traits">
-                    <T>132589<!--trait_Unflirty--></T>
+                    <T>132589<!--Trait: trait_Unflirty--></T>
                   </L>
                 </U>
               </V>
               <V t="test_set_reference">
-                <T n="test_set_reference">188306<!--testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
+                <T n="test_set_reference">188306<!--TestSetInstance: testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
               </V>
             </L>
           </L>
@@ -1023,35 +1418,33 @@
               <U n="outcome">
                 <V n="animation_ref" t="enabled">
                   <U n="enabled">
-                    <T n="factory">$AnimationOnFailure<!--Soc_Romance_NT_Flirt_CuteWave_Fail_basic--></T>
+                    <T n="factory">$AnimationOnFailure<!--AnimationElement: Soc_Romance_NT_Flirt_CuteWave_Fail_basic--></T>
                     <U n="overrides">
                       <V n="balloons" t="enabled">
                         <L n="enabled">
-                          <IfReferenceSet p="BalloonSet">
-                            <U>
-                              <L n="balloon_choices">
-                                <U>
-                                  <V n="item" t="balloon_category">
-                                    <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetFlirt_Speech--></T>
-                                  </V>
-                                </U>
-                              </L>
-                              <L n="balloon_target">
-                                <E>Actor</E>
-                              </L>
-                            </U>
-                          </IfReferenceSet>
                           <U>
                             <L n="balloon_choices">
                               <U>
                                 <V n="item" t="balloon_category">
-                                  <T n="balloon_category">75390<!--BalloonCategory_SetStinky_Thought--></T>
+                                  <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetFlirt_Speech--></T>
+                                </V>
+                              </U>
+                            </L>
+                            <L n="balloon_target">
+                              <E>Actor</E>
+                            </L>
+                          </U>
+                          <U>
+                            <L n="balloon_choices">
+                              <U>
+                                <V n="item" t="balloon_category">
+                                  <T n="balloon_category">75390<!--BalloonCategory: BalloonCategory_SetStinky_Thought--></T>
                                 </V>
                                 <L n="tests">
                                   <L>
                                     <V t="statistic">
                                       <U n="statistic">
-                                        <T n="stat">16657<!--motive_Hygiene--></T>
+                                        <T n="stat">16657<!--Commodity: motive_Hygiene--></T>
                                         <V n="threshold" t="value_threshold">
                                           <U n="value_threshold">
                                             <E n="comparison">LESS_OR_EQUAL</E>
@@ -1074,21 +1467,89 @@
                     </U>
                   </U>
                 </V>
+                <L n="basic_extras">
+                  <V t="adventure">
+                    <U n="adventure">
+                      <L n="_adventure_moments">
+                        <U>
+                          <E n="key">AdventureTest_Initial_Common</E>
+                          <U n="value">
+                            <V n="aventure_moment" t="reference">
+                              <T n="reference">313202</T>
+                            </V>
+                          </U>
+                        </U>
+                      </L>
+                      <L n="_initial_moments">
+                        <U>
+                          <E n="adventure_moment_key">AdventureTest_Initial_Common</E>
+                          <U n="weight">
+                            <L n="multipliers">
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">313453<!--TestSetInstance: testSetInstance_SimPreference_PreferenceDiscovery_MaxOrCoolOrAgeChildAllowed_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="trait">
+                                      <U n="trait">
+                                        <E n="subject">TargetSim</E>
+                                        <L n="whitelist_traits">
+                                          <T>312902</T>
+                                          <T>306463</T>
+                                          <T>306487</T>
+                                        </L>
+                                      </U>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">32759<!--TestSetInstance: testSet_EmotionPositive_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                            </L>
+                          </U>
+                        </U>
+                      </L>
+                      <U n="success_chance">
+                        <T n="base_chance">15</T>
+                      </U>
+                    </U>
+                  </V>
+                </L>
                 <L n="loot_list">
-                  <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-                  <T>27854<!--Loot_Romantic_Affection_50--></T>
-                  <T>24126<!--Loot_SocialContext_Awkwardness_Loss--></T>
-                  <T>11042<!--Rel_Loss_Small--></T>
-                  <T>10901<!--Loot_LTR_Romance_Small_Loss--></T>
-                  <T>23797<!--Loot_EmbarrassedSocialCommodity_20--></T>
-                  <T>28581<!--Loot_Topic_SocialAvailability_Romance--></T>
-                  <T>36086<!--Loot_Topic_SmoothRecovery_Romance--></T>
-                  <T>32056<!--Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
-                  <T>76189<!--Loot_Commodity_CareerBenefit_Agent_Agent--></T>
-                  <T>258936<!--loot_Trait_Mean_ReactBroadcaster--></T>
-                  <T>99714<!--Loot_DidNegativeSocial--></T>
-                  <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
-                  <T>133106<!--loot_Buff_Trait_Unflirty_Romance_Fail--></T>
+                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+                  <T>27854<!--LootActions: Loot_Romantic_Affection_50--></T>
+                  <T>24126<!--LootActions: Loot_SocialContext_Awkwardness_Loss--></T>
+                  <T>11042<!--LootActions: Rel_Loss_Small--></T>
+                  <T>10901<!--LootActions: Loot_LTR_Romance_Small_Loss--></T>
+                  <T>23797<!--LootActions: Loot_EmbarrassedSocialCommodity_20--></T>
+                  <T>28581<!--LootActions: Loot_Topic_SocialAvailability_Romance--></T>
+                  <T>36086<!--LootActions: Loot_Topic_SmoothRecovery_Romance--></T>
+                  <T>32056<!--LootActions: Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
+                  <T>76189<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Agent--></T>
+                  <T>258936<!--LootActions: loot_Trait_Mean_ReactBroadcaster--></T>
+                  <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>133106<!--LootActions: loot_Buff_Trait_Unflirty_Romance_Fail--></T>
+                  <T>289536<!--LootActions: lootActions_TeenRelationshipDrama_Crush_Rejected--></T>
+                  <T>311749<!--LootActions: loot_Reaction_Trait_Loyal_Cheating--></T>
+                  <T>311346</T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnFailure">
                       <T>$v</T>
@@ -1104,7 +1565,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">314810<!--TestBasedScore: scores_socialoutcomes_romance_flirtation--></T>
                   <U n="threshold">
                     <E n="comparison">LESS_OR_EQUAL</E>
                     <T n="value">4</T>
@@ -1114,12 +1575,12 @@
               <V t="trait">
                 <U n="trait">
                   <L n="blacklist_traits">
-                    <T>132589<!--trait_Unflirty--></T>
+                    <T>132589<!--Trait: trait_Unflirty--></T>
                   </L>
                 </U>
               </V>
               <V t="test_set_reference">
-                <T n="test_set_reference">188306<!--testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
+                <T n="test_set_reference">188306<!--TestSetInstance: testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
               </V>
             </L>
           </L>
@@ -1130,35 +1591,33 @@
               <U n="outcome">
                 <V n="animation_ref" t="enabled">
                   <U n="enabled">
-                    <T n="factory">$AnimationOnFailure<!--Soc_Romance_NT_Flirt_CuteWave_Fail_basic--></T>
+                    <T n="factory">$AnimationOnFailure<!--AnimationElement: Soc_Romance_NT_Flirt_CuteWave_Fail_basic--></T>
                     <U n="overrides">
                       <V n="balloons" t="enabled">
                         <L n="enabled">
-                          <IfReferenceSet p="BalloonSet">
-                            <U>
-                              <L n="balloon_choices">
-                                <U>
-                                  <V n="item" t="balloon_category">
-                                    <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetFlirt_Speech--></T>
-                                  </V>
-                                </U>
-                              </L>
-                              <L n="balloon_target">
-                                <E>Actor</E>
-                              </L>
-                            </U>
-                          </IfReferenceSet>
                           <U>
                             <L n="balloon_choices">
                               <U>
                                 <V n="item" t="balloon_category">
-                                  <T n="balloon_category">75390<!--BalloonCategory_SetStinky_Thought--></T>
+                                  <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetFlirt_Speech--></T>
+                                </V>
+                              </U>
+                            </L>
+                            <L n="balloon_target">
+                              <E>Actor</E>
+                            </L>
+                          </U>
+                          <U>
+                            <L n="balloon_choices">
+                              <U>
+                                <V n="item" t="balloon_category">
+                                  <T n="balloon_category">75390<!--BalloonCategory: BalloonCategory_SetStinky_Thought--></T>
                                 </V>
                                 <L n="tests">
                                   <L>
                                     <V t="statistic">
                                       <U n="statistic">
-                                        <T n="stat">16657<!--motive_Hygiene--></T>
+                                        <T n="stat">16657<!--Commodity: motive_Hygiene--></T>
                                         <V n="threshold" t="value_threshold">
                                           <U n="value_threshold">
                                             <E n="comparison">LESS_OR_EQUAL</E>
@@ -1181,28 +1640,97 @@
                     </U>
                   </U>
                 </V>
+                <L n="basic_extras">
+                  <V t="adventure">
+                    <U n="adventure">
+                      <L n="_adventure_moments">
+                        <U>
+                          <E n="key">AdventureTest_Initial_Common</E>
+                          <U n="value">
+                            <V n="aventure_moment" t="reference">
+                              <T n="reference">313202</T>
+                            </V>
+                          </U>
+                        </U>
+                      </L>
+                      <L n="_initial_moments">
+                        <U>
+                          <E n="adventure_moment_key">AdventureTest_Initial_Common</E>
+                          <U n="weight">
+                            <L n="multipliers">
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">313453<!--TestSetInstance: testSetInstance_SimPreference_PreferenceDiscovery_MaxOrCoolOrAgeChildAllowed_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="trait">
+                                      <U n="trait">
+                                        <E n="subject">TargetSim</E>
+                                        <L n="whitelist_traits">
+                                          <T>312902</T>
+                                          <T>306463</T>
+                                          <T>306487</T>
+                                        </L>
+                                      </U>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">32759<!--TestSetInstance: testSet_EmotionPositive_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                            </L>
+                          </U>
+                        </U>
+                      </L>
+                      <U n="success_chance">
+                        <T n="base_chance">15</T>
+                      </U>
+                    </U>
+                  </V>
+                </L>
                 <L n="continuation">
                   <U>
                     <E n="actor">TargetSim</E>
-                    <T n="affordance">264158</T>
+                    <T n="affordance">264158<!--SocialSuperInteraction: social_Scold_AgnesCrumplebottom--></T>
                     <E n="target">Actor</E>
                   </U>
                 </L>
                 <L n="loot_list">
-                  <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-                  <T>27854<!--Loot_Romantic_Affection_50--></T>
-                  <T>24126<!--Loot_SocialContext_Awkwardness_Loss--></T>
-                  <T>11040<!--Rel_Loss_Medium--></T>
-                  <T>10899<!--Loot_LTR_Romance_Medium_Loss--></T>
-                  <T>26000<!--Loot_EmbarrassedSocialCommodity_50--></T>
-                  <T>28581<!--Loot_Topic_SocialAvailability_Romance--></T>
-                  <T>36086<!--Loot_Topic_SmoothRecovery_Romance--></T>
-                  <T>32056<!--Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
-                  <T>76189<!--Loot_Commodity_CareerBenefit_Agent_Agent--></T>
-                  <T>258936<!--loot_Trait_Mean_ReactBroadcaster--></T>
-                  <T>99714<!--Loot_DidNegativeSocial--></T>
-                  <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
-                  <T>133106<!--loot_Buff_Trait_Unflirty_Romance_Fail--></T>
+                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+                  <T>27854<!--LootActions: Loot_Romantic_Affection_50--></T>
+                  <T>24126<!--LootActions: Loot_SocialContext_Awkwardness_Loss--></T>
+                  <T>11040<!--LootActions: Rel_Loss_Medium--></T>
+                  <T>10899<!--LootActions: Loot_LTR_Romance_Medium_Loss--></T>
+                  <T>26000<!--LootActions: Loot_EmbarrassedSocialCommodity_50--></T>
+                  <T>28581<!--LootActions: Loot_Topic_SocialAvailability_Romance--></T>
+                  <T>36086<!--LootActions: Loot_Topic_SmoothRecovery_Romance--></T>
+                  <T>32056<!--LootActions: Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
+                  <T>76189<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Agent--></T>
+                  <T>258936<!--LootActions: loot_Trait_Mean_ReactBroadcaster--></T>
+                  <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>133106<!--LootActions: loot_Buff_Trait_Unflirty_Romance_Fail--></T>
+                  <T>289536<!--LootActions: lootActions_TeenRelationshipDrama_Crush_Rejected--></T>
+                  <T>311749<!--LootActions: loot_Reaction_Trait_Loyal_Cheating--></T>
+                  <T>273714<!--LootActions: loot_Trait_SociallyAwkward_PushIdle--></T>
+                  <T>311346</T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnHorribleFailure">
                       <T>$v</T>
@@ -1221,7 +1749,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">314810<!--TestBasedScore: scores_socialoutcomes_romance_flirtation--></T>
                   <U n="threshold">
                     <E n="comparison">LESS_OR_EQUAL</E>
                     <T n="value">-15</T>
@@ -1231,12 +1759,12 @@
               <V t="trait">
                 <U n="trait">
                   <L n="blacklist_traits">
-                    <T>132589<!--trait_Unflirty--></T>
+                    <T>132589<!--Trait: trait_Unflirty--></T>
                   </L>
                 </U>
               </V>
               <V t="test_set_reference">
-                <T n="test_set_reference">188306<!--testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
+                <T n="test_set_reference">188306<!--TestSetInstance: testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
               </V>
             </L>
           </L>
@@ -1247,43 +1775,110 @@
               <U n="outcome">
                 <V n="animation_ref" t="enabled">
                   <U n="enabled">
-                    <T n="factory">$AnimationOnFailure<!--Soc_Romance_NT_Flirt_CuteWave_Fail_basic--></T>
+                    <T n="factory">$AnimationOnFailure<!--AnimationElement: Soc_Romance_NT_Flirt_CuteWave_Fail_basic--></T>
                     <U n="overrides">
                       <V n="balloons" t="enabled">
                         <L n="enabled">
-                          <IfReferenceSet p="BalloonSet">
-                            <U>
-                              <L n="balloon_choices">
-                                <U>
-                                  <V n="item" t="balloon_category">
-                                    <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetFlirt_Speech--></T>
-                                  </V>
-                                </U>
-                              </L>
-                              <L n="balloon_target">
-                                <E>Actor</E>
-                              </L>
-                            </U>
-                          </IfReferenceSet>
+                          <U>
+                            <L n="balloon_choices">
+                              <U>
+                                <V n="item" t="balloon_category">
+                                  <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetFlirt_Speech--></T>
+                                </V>
+                              </U>
+                            </L>
+                            <L n="balloon_target">
+                              <E>Actor</E>
+                            </L>
+                          </U>
                         </L>
                       </V>
                     </U>
                   </U>
                 </V>
+                <L n="basic_extras">
+                  <V t="adventure">
+                    <U n="adventure">
+                      <L n="_adventure_moments">
+                        <U>
+                          <E n="key">AdventureTest_Initial_Common</E>
+                          <U n="value">
+                            <V n="aventure_moment" t="reference">
+                              <T n="reference">313202</T>
+                            </V>
+                          </U>
+                        </U>
+                      </L>
+                      <L n="_initial_moments">
+                        <U>
+                          <E n="adventure_moment_key">AdventureTest_Initial_Common</E>
+                          <U n="weight">
+                            <L n="multipliers">
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">313453<!--TestSetInstance: testSetInstance_SimPreference_PreferenceDiscovery_MaxOrCoolOrAgeChildAllowed_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="trait">
+                                      <U n="trait">
+                                        <E n="subject">TargetSim</E>
+                                        <L n="whitelist_traits">
+                                          <T>312902</T>
+                                          <T>306463</T>
+                                          <T>306487</T>
+                                        </L>
+                                      </U>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">32759<!--TestSetInstance: testSet_EmotionPositive_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                            </L>
+                          </U>
+                        </U>
+                      </L>
+                      <U n="success_chance">
+                        <T n="base_chance">15</T>
+                      </U>
+                    </U>
+                  </V>
+                </L>
                 <L n="continuation">
                   <U>
                     <E n="actor">TargetSim</E>
-                    <T n="affordance">264158</T>
+                    <T n="affordance">264158<!--SocialSuperInteraction: social_Scold_AgnesCrumplebottom--></T>
                     <E n="target">Actor</E>
                   </U>
                 </L>
                 <L n="loot_list">
-                  <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-                  <T>23796<!--Loot_BoredSocialCommodity_20--></T>
-                  <T>32056<!--Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
-                  <T>10899<!--Loot_LTR_Romance_Medium_Loss--></T>
-                  <T>76189<!--Loot_Commodity_CareerBenefit_Agent_Agent--></T>
-                  <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+                  <T>23796<!--LootActions: Loot_BoredSocialCommodity_20--></T>
+                  <T>32056<!--LootActions: Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
+                  <T>10899<!--LootActions: Loot_LTR_Romance_Medium_Loss--></T>
+                  <T>76189<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Agent--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>289536<!--LootActions: lootActions_TeenRelationshipDrama_Crush_Rejected--></T>
+                  <T>311749<!--LootActions: loot_Reaction_Trait_Loyal_Cheating--></T>
+                  <T>273714<!--LootActions: loot_Trait_SociallyAwkward_PushIdle--></T>
+                  <T>311346</T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnSocialContextFailure">
                       <T>$v</T>
@@ -1299,13 +1894,13 @@
                         <U>
                           <E n="target">Actor</E>
                           <U n="animation">
-                            <T n="factory">28356<!--Socials_Responses_Embarrassed_LowIntensity--></T>
+                            <T n="factory">28356<!--AnimationElement: Socials_Responses_Embarrassed_LowIntensity--></T>
                           </U>
                         </U>
                         <U>
                           <E n="target">Listeners</E>
                           <U n="animation">
-                            <T n="factory">28354<!--Socials_Responses_Bored_HighIntensity--></T>
+                            <T n="factory">28354<!--AnimationElement: Socials_Responses_Bored_HighIntensity--></T>
                           </U>
                         </U>
                       </L>
@@ -1321,10 +1916,10 @@
           <L n="tests">
             <L>
               <V t="test_set_reference">
-                <T n="test_set_reference">32055<!--testSet_SocialBoredom_Medium--></T>
+                <T n="test_set_reference">32055<!--TestSetInstance: testSet_SocialBoredom_Medium--></T>
               </V>
               <V t="test_set_reference">
-                <T n="test_set_reference">188306<!--testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
+                <T n="test_set_reference">188306<!--TestSetInstance: testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
               </V>
             </L>
           </L>
@@ -1335,7 +1930,7 @@
               <U n="outcome">
                 <V n="animation_ref" t="enabled">
                   <U n="enabled">
-                    <T n="factory">$AnimationOnFailure<!--Soc_Romance_NT_Flirt_PickupLine_Fail_basic--></T>
+                    <T n="factory">12007<!--AnimationElement: Soc_Romance_NT_Flirt_PickupLine_Fail_basic--></T>
                     <U n="overrides">
                       <V n="balloons" t="enabled">
                         <L n="enabled">
@@ -1343,7 +1938,7 @@
                             <L n="balloon_choices">
                               <U>
                                 <V n="item" t="balloon_category">
-                                  <T n="balloon_category">39011<!--BalloonCategory_SetRisqueRomantic_Speech--></T>
+                                  <T n="balloon_category">39011<!--BalloonCategory: BalloonCategory_SetRisqueRomantic_Speech--></T>
                                 </V>
                               </U>
                             </L>
@@ -1356,26 +1951,93 @@
                     </U>
                   </U>
                 </V>
+                <L n="basic_extras">
+                  <V t="adventure">
+                    <U n="adventure">
+                      <L n="_adventure_moments">
+                        <U>
+                          <E n="key">AdventureTest_Initial_Common</E>
+                          <U n="value">
+                            <V n="aventure_moment" t="reference">
+                              <T n="reference">313202</T>
+                            </V>
+                          </U>
+                        </U>
+                      </L>
+                      <L n="_initial_moments">
+                        <U>
+                          <E n="adventure_moment_key">AdventureTest_Initial_Common</E>
+                          <U n="weight">
+                            <L n="multipliers">
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">313453<!--TestSetInstance: testSetInstance_SimPreference_PreferenceDiscovery_MaxOrCoolOrAgeChildAllowed_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="trait">
+                                      <U n="trait">
+                                        <E n="subject">TargetSim</E>
+                                        <L n="whitelist_traits">
+                                          <T>312902</T>
+                                          <T>306463</T>
+                                          <T>306487</T>
+                                        </L>
+                                      </U>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">32759<!--TestSetInstance: testSet_EmotionPositive_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                            </L>
+                          </U>
+                        </U>
+                      </L>
+                      <U n="success_chance">
+                        <T n="base_chance">15</T>
+                      </U>
+                    </U>
+                  </V>
+                </L>
                 <L n="continuation">
                   <U>
                     <E n="actor">TargetSim</E>
-                    <T n="affordance">264158</T>
+                    <T n="affordance">264158<!--SocialSuperInteraction: social_Scold_AgnesCrumplebottom--></T>
                     <E n="target">Actor</E>
                   </U>
                 </L>
                 <L n="loot_list">
-                  <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-                  <T>27854<!--Loot_Romantic_Affection_50--></T>
-                  <T>24126<!--Loot_SocialContext_Awkwardness_Loss--></T>
-                  <T>11042<!--Rel_Loss_Small--></T>
-                  <T>10901<!--Loot_LTR_Romance_Small_Loss--></T>
-                  <T>23797<!--Loot_EmbarrassedSocialCommodity_20--></T>
-                  <T>32056<!--Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
-                  <T>76189<!--Loot_Commodity_CareerBenefit_Agent_Agent--></T>
-                  <T>258936<!--loot_Trait_Mean_ReactBroadcaster--></T>
-                  <T>99714<!--Loot_DidNegativeSocial--></T>
-                  <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
-                  <T>133106<!--loot_Buff_Trait_Unflirty_Romance_Fail--></T>
+                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+                  <T>27854<!--LootActions: Loot_Romantic_Affection_50--></T>
+                  <T>24126<!--LootActions: Loot_SocialContext_Awkwardness_Loss--></T>
+                  <T>11042<!--LootActions: Rel_Loss_Small--></T>
+                  <T>10901<!--LootActions: Loot_LTR_Romance_Small_Loss--></T>
+                  <T>23797<!--LootActions: Loot_EmbarrassedSocialCommodity_20--></T>
+                  <T>32056<!--LootActions: Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
+                  <T>76189<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Agent--></T>
+                  <T>258936<!--LootActions: loot_Trait_Mean_ReactBroadcaster--></T>
+                  <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>133106<!--LootActions: loot_Buff_Trait_Unflirty_Romance_Fail--></T>
+                  <T>311749<!--LootActions: loot_Reaction_Trait_Loyal_Cheating--></T>
+                  <T>311346</T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnSocialContextFailure">
                       <T>$v</T>
@@ -1394,13 +2056,13 @@
                   <E n="subject">TargetSim</E>
                   <V n="whitelist" t="enabled">
                     <L n="enabled">
-                      <T>187703<!--buff_Object_FlowerArrangement_Faithful_Receiver--></T>
+                      <T>187703<!--Buff: buff_Object_FlowerArrangement_Faithful_Receiver--></T>
                     </L>
                   </V>
                 </U>
               </V>
               <V t="test_set_reference">
-                <T n="test_set_reference">188303<!--testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_NotFaithful--></T>
+                <T n="test_set_reference">188303<!--TestSetInstance: testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_NotFaithful--></T>
               </V>
             </L>
           </L>
@@ -1411,24 +2073,22 @@
               <U n="outcome">
                 <V n="animation_ref" t="enabled">
                   <U n="enabled">
-                    <T n="factory">$AnimationOnSuccess<!--Soc_Romance_NT_Flirt_CuteWave_Succeed_basic--></T>
+                    <T n="factory">12006<!--AnimationElement: Soc_Romance_NT_Flirt_CuteWave_Succeed_basic--></T>
                     <U n="overrides">
                       <V n="balloons" t="enabled">
                         <L n="enabled">
-                          <IfReferenceSet p="BalloonSet">
-                            <U>
-                              <L n="balloon_choices">
-                                <U>
-                                  <V n="item" t="balloon_category">
-                                    <T n="balloon_category">$BalloonSet<!--BalloonCategory_SetFlirt_Speech--></T>
-                                  </V>
-                                </U>
-                              </L>
-                              <L n="balloon_target">
-                                <E>Actor</E>
-                              </L>
-                            </U>
-                          </IfReferenceSet>
+                          <U>
+                            <L n="balloon_choices">
+                              <U>
+                                <V n="item" t="balloon_category">
+                                  <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetFlirt_Speech--></T>
+                                </V>
+                              </U>
+                            </L>
+                            <L n="balloon_target">
+                              <E>Actor</E>
+                            </L>
+                          </U>
                         </L>
                       </V>
                     </U>
@@ -1439,35 +2099,95 @@
                     <U n="broadcaster">
                       <L n="broadcaster_types">
                         <U>
-                          <T n="item">134003<!--broadcaster_Reaction_WitnessedCrassAct_Unflirty--></T>
+                          <T n="item">134003<!--Broadcaster: broadcaster_Reaction_WitnessedCrassAct_Unflirty--></T>
                         </U>
                       </L>
                     </U>
                   </V>
+                  <V t="adventure">
+                    <U n="adventure">
+                      <L n="_adventure_moments">
+                        <U>
+                          <E n="key">AdventureTest_Initial_Common</E>
+                          <U n="value">
+                            <V n="aventure_moment" t="reference">
+                              <T n="reference">313174</T>
+                            </V>
+                          </U>
+                        </U>
+                      </L>
+                      <L n="_initial_moments">
+                        <U>
+                          <E n="adventure_moment_key">AdventureTest_Initial_Common</E>
+                          <U n="weight">
+                            <L n="multipliers">
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">313453<!--TestSetInstance: testSetInstance_SimPreference_PreferenceDiscovery_MaxOrCoolOrAgeChildAllowed_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="trait">
+                                      <U n="trait">
+                                        <E n="subject">TargetSim</E>
+                                        <L n="whitelist_traits">
+                                          <T>312902</T>
+                                          <T>306463</T>
+                                          <T>306487</T>
+                                        </L>
+                                      </U>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">138666<!--TestSetInstance: testSet_EmotionNegative_TargetSim--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                            </L>
+                          </U>
+                        </U>
+                      </L>
+                      <U n="success_chance">
+                        <T n="base_chance">15</T>
+                      </U>
+                    </U>
+                  </V>
                 </L>
                 <L n="loot_list">
-                  <T>10766<!--Gender_Preference_Loot--></T>
-                  <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-                  <T>27854<!--Loot_Romantic_Affection_50--></T>
-                  <T>11036<!--Rel_Gain_Small--></T>
-                  <T>10900<!--Loot_LTR_Romance_Small--></T>
-                  <T>23798<!--Loot_FlirtySocialCommodity_10--></T>
-                  <T>32056<!--Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
-                  <T>24120<!--Loot_SocialContext_Romance_Gain--></T>
-                  <T>76189<!--Loot_Commodity_CareerBenefit_Agent_Agent--></T>
-                  <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
-                  <T>133107<!--loot_Buff_Trait_Unflirty_Romance_Success--></T>
-                  <T>154622<!--target_KnowTrait_Unflirty_Actor--></T>
-                  <T>155126<!--Loot_KnowTrait_Unflirty--></T>
-                  <T>133108<!--loot_Buff_Trait_Unflirty_CrassAct--></T>
-                  <T>9792<!--loot_Buff_Remove_Flirty--></T>
-                  <T>216558<!--randomWeightedLoot_Cauldron_Potion_Luck_RandomBenefit_Social_Romance--></T>
-                  <ForEachReference p="LootActionSets">
-                    <IfBool p="RunOnSuccess">
-                      <T>$v</T>
-                    </IfBool>
-                  </ForEachReference>
-                  <T>$LearnTraitLootKey</T>
+                  <T>10766<!--LootActions: Gender_Preference_Loot--></T>
+                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+                  <T>27854<!--LootActions: Loot_Romantic_Affection_50--></T>
+                  <T>11036<!--LootActions: Rel_Gain_Small--></T>
+                  <T>10900<!--LootActions: Loot_LTR_Romance_Small--></T>
+                  <T>23798<!--LootActions: Loot_FlirtySocialCommodity_10--></T>
+                  <T>32056<!--LootActions: Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
+                  <T>24120<!--LootActions: Loot_SocialContext_Romance_Gain--></T>
+                  <T>76189<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Agent--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>133107<!--LootActions: loot_Buff_Trait_Unflirty_Romance_Success--></T>
+                  <T>154622<!--LootActions: target_KnowTrait_Unflirty_Actor--></T>
+                  <T>155126<!--LootActions: Loot_KnowTrait_Unflirty--></T>
+                  <T>133108<!--LootActions: loot_Buff_Trait_Unflirty_CrassAct--></T>
+                  <T>9792<!--LootActions: loot_Buff_Remove_Flirty--></T>
+                  <T>294094<!--LootActions: lootActions_TeenRelationshipDrama_AddCrush_LowChance--></T>
+                  <T>311749<!--LootActions: loot_Reaction_Trait_Loyal_Cheating--></T>
+                  <T>312033<!--LootActions: loot_Reaction_Trait_Loyal_Cheating_Target--></T>
+                  <T>216558<!--RandomWeightedLoot: randomWeightedLoot_Cauldron_Potion_Luck_RandomBenefit_Social_Romance--></T>
                 </L>
               </U>
               <U n="weight">
@@ -1478,19 +2198,19 @@
           <L n="tests">
             <L>
               <V t="test_set_reference">
-                <T n="test_set_reference">188306<!--testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
+                <T n="test_set_reference">188306<!--TestSetInstance: testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
               </V>
               <V t="trait">
                 <U n="trait">
                   <E n="subject">TargetSim</E>
                   <L n="whitelist_traits">
-                    <T>132589<!--trait_Unflirty--></T>
+                    <T>132589<!--Trait: trait_Unflirty--></T>
                   </L>
                 </U>
               </V>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">314810<!--TestBasedScore: scores_socialoutcomes_romance_flirtation--></T>
                   <U n="threshold">
                     <E n="comparison">GREATER_OR_EQUAL</E>
                     <T n="value">11</T>
@@ -1500,18 +2220,18 @@
             </L>
             <L>
               <V t="test_set_reference">
-                <T n="test_set_reference">188306<!--testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
+                <T n="test_set_reference">188306<!--TestSetInstance: testSet_FlowerArrangement_FaithfulTulipScent_ToFaithfulReceiver_Faithful--></T>
               </V>
               <V t="trait">
                 <U n="trait">
                   <L n="whitelist_traits">
-                    <T>132589<!--trait_Unflirty--></T>
+                    <T>132589<!--Trait: trait_Unflirty--></T>
                   </L>
                 </U>
               </V>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">314810<!--TestBasedScore: scores_socialoutcomes_romance_flirtation--></T>
                   <U n="threshold">
                     <E n="comparison">GREATER_OR_EQUAL</E>
                     <T n="value">14</T>
@@ -1527,7 +2247,7 @@
               <U n="outcome">
                 <V n="animation_ref" t="enabled">
                   <U n="enabled">
-                    <T n="factory">$AnimationOnFailure<!--Soc_Romance_NT_Flirt_CuteWave_Fail_basic--></T>
+                    <T n="factory">12005<!--AnimationElement: Soc_Romance_NT_Flirt_CuteWave_Fail_basic--></T>
                     <U n="overrides">
                       <V n="balloons" t="enabled">
                         <L n="enabled">
@@ -1535,7 +2255,7 @@
                             <L n="balloon_choices">
                               <U>
                                 <V n="item" t="balloon_category">
-                                  <T n="balloon_category">97540<!--BalloonCategory_SetFlirt_Speech--></T>
+                                  <T n="balloon_category">$BalloonSet<!--BalloonCategory: BalloonCategory_SetFlirt_Speech--></T>
                                 </V>
                               </U>
                             </L>
@@ -1548,34 +2268,94 @@
                     </U>
                   </U>
                 </V>
+                <L n="basic_extras">
+                  <V t="adventure">
+                    <U n="adventure">
+                      <L n="_adventure_moments">
+                        <U>
+                          <E n="key">AdventureTest_Initial_Common</E>
+                          <U n="value">
+                            <V n="aventure_moment" t="reference">
+                              <T n="reference">313202</T>
+                            </V>
+                          </U>
+                        </U>
+                      </L>
+                      <L n="_initial_moments">
+                        <U>
+                          <E n="adventure_moment_key">AdventureTest_Initial_Common</E>
+                          <U n="weight">
+                            <L n="multipliers">
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">313453<!--TestSetInstance: testSetInstance_SimPreference_PreferenceDiscovery_MaxOrCoolOrAgeChildAllowed_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="trait">
+                                      <U n="trait">
+                                        <E n="subject">TargetSim</E>
+                                        <L n="whitelist_traits">
+                                          <T>312902</T>
+                                          <T>306463</T>
+                                          <T>306487</T>
+                                        </L>
+                                      </U>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                              <U>
+                                <T n="multiplier">0</T>
+                                <L n="tests">
+                                  <L>
+                                    <V t="test_set_reference">
+                                      <T n="test_set_reference">32759<!--TestSetInstance: testSet_EmotionPositive_Target--></T>
+                                    </V>
+                                  </L>
+                                </L>
+                              </U>
+                            </L>
+                          </U>
+                        </U>
+                      </L>
+                      <U n="success_chance">
+                        <T n="base_chance">15</T>
+                      </U>
+                    </U>
+                  </V>
+                </L>
                 <L n="continuation">
                   <U>
                     <E n="actor">TargetSim</E>
-                    <T n="affordance">264158</T>
+                    <T n="affordance">264158<!--SocialSuperInteraction: social_Scold_AgnesCrumplebottom--></T>
                     <E n="target">Actor</E>
                   </U>
                 </L>
                 <L n="loot_list">
-                  <T>10954<!--Loot_ForSocialsSocialMotiveMedium--></T>
-                  <T>27854<!--Loot_Romantic_Affection_50--></T>
-                  <T>24126<!--Loot_SocialContext_Awkwardness_Loss--></T>
-                  <T>11040<!--Rel_Loss_Medium--></T>
-                  <T>10899<!--Loot_LTR_Romance_Medium_Loss--></T>
-                  <T>26000<!--Loot_EmbarrassedSocialCommodity_50--></T>
-                  <T>32056<!--Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
-                  <T>76189<!--Loot_Commodity_CareerBenefit_Agent_Agent--></T>
-                  <T>258936<!--loot_Trait_Mean_ReactBroadcaster--></T>
-                  <T>99714<!--Loot_DidNegativeSocial--></T>
-                  <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
-                  <T>133106<!--loot_Buff_Trait_Unflirty_Romance_Fail--></T>
-                  <T>154622<!--target_KnowTrait_Unflirty_Actor--></T>
-                  <T>155126<!--Loot_KnowTrait_Unflirty--></T>
-                  <ForEachReference p="LootActionSets">
-                    <IfBool p="RunOnHorribleFailure">
-                      <T>$v</T>
-                    </IfBool>
-                  </ForEachReference>
-                  <T>$LearnTraitLootKey</T>
+                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+                  <T>27854<!--LootActions: Loot_Romantic_Affection_50--></T>
+                  <T>24126<!--LootActions: Loot_SocialContext_Awkwardness_Loss--></T>
+                  <T>11040<!--LootActions: Rel_Loss_Medium--></T>
+                  <T>10899<!--LootActions: Loot_LTR_Romance_Medium_Loss--></T>
+                  <T>26000<!--LootActions: Loot_EmbarrassedSocialCommodity_50--></T>
+                  <T>32056<!--LootActions: Loot_SocialContect_Fun_Loss_conditionalBoring_Medium--></T>
+                  <T>76189<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Agent--></T>
+                  <T>258936<!--LootActions: loot_Trait_Mean_ReactBroadcaster--></T>
+                  <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>133106<!--LootActions: loot_Buff_Trait_Unflirty_Romance_Fail--></T>
+                  <T>154622<!--LootActions: target_KnowTrait_Unflirty_Actor--></T>
+                  <T>155126<!--LootActions: Loot_KnowTrait_Unflirty--></T>
+                  <T>311749<!--LootActions: loot_Reaction_Trait_Loyal_Cheating--></T>
                 </L>
                 <E n="outcome_result">FAILURE</E>
               </U>
@@ -1590,13 +2370,13 @@
                 <U n="trait">
                   <E n="subject">TargetSim</E>
                   <L n="whitelist_traits">
-                    <T>132589<!--trait_Unflirty--></T>
+                    <T>132589<!--Trait: trait_Unflirty--></T>
                   </L>
                 </U>
               </V>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">314810<!--TestBasedScore: scores_socialoutcomes_romance_flirtation--></T>
                   <U n="threshold">
                     <E n="comparison">LESS</E>
                     <T n="value">13</T>
@@ -1608,13 +2388,13 @@
               <V t="trait">
                 <U n="trait">
                   <L n="whitelist_traits">
-                    <T>132589<!--trait_Unflirty--></T>
+                    <T>132589<!--Trait: trait_Unflirty--></T>
                   </L>
                 </U>
               </V>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_romance--></T>
+                  <T n="test_based_score">314810<!--TestBasedScore: scores_socialoutcomes_romance_flirtation--></T>
                   <U n="threshold">
                     <E n="comparison">LESS</E>
                     <T n="value">16</T>

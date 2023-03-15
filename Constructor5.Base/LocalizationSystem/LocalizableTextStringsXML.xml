@@ -1224,4 +1224,79 @@ It is recommended you include your creator name in custom tags, to prevent confl
   
   <String Key="ImageImportError">There was an error importing the custom image. This can happen when DDSPanel, the library used for converting images to the game-recognized DDS format, fails. Try applying an effect or resizing the image to a power of 2 number (8x8, 16x16, 32x32, 64x64, etc)</String>
   
+  <String Key="AdditionalUserSelectionFilter">Additional User Selection Filter</String>
+	<String Key="AdditionalUserSelectionFilterNotice">In addition to the main filter, Sims must meet this filter to be selectable in the Plan a Social Event UI. This does not apply to auto invited or hired Sims.</String>
+	<String Key="MainFilter">Main Filter</String>
+  
+  <String Key="IsOptional">Is Optional</String>
+	<String Key="IsOptionalHelp">If checked, the game will prefer Sims that match this term, but can still use other Sims if there are no existing Sims that match it.</String>
+  
+  <String Key="IdealValue">Ideal Value</String>
+  
+  <String Key="BanAllCelebrities">Ban All Celebrities</String>
+
+  <String Key="FullySimulateOffLot">Fully Simulate Off Lot</String>
+  <String Key="FullySimulateOffLotHelp">If checked, the value of the commodity will actively change in the background, even if the Sim is not instanced. This should only be used if you need to access the value without instancing the Sim, otherwise "Decay Off Lot" will be enough.</String>
+
+  <String Key="IsGlobalTrait">Global Trait</String>
+  <String Key="IsGlobalTraitHelp">If checked, the trait will automatically be added to all Sims who meet the age requirements. This requires the player to have Script Mods enabled. These traits should generally be set to hidden.</String>
+  
+  <String Key="TemporaryTrait">Temporary Trait</String>
+  <String Key="TemporaryTraitHelp">If set, the defined trait will be added when the buff is added, and removed when it is removed. You can use this to access features that aren't available on buffs, such as blocked emotions, or just to make the trait appear in the UI. Temporary traits should usually have "Non Persisted" checked in "Special Cases" (this is done by default for traits created with the + button).</String>
+  
+	<String Key="AddShift">Add Shift</String>
+	<String Key="RemoveShift">Remove Shift</String>
+	<String Key="StartHour">Start Hour</String>
+	<String Key="MinAmount">Min Amount</String>
+	<String Key="MaxAmount">Max Amount</String>
+
+  <String Key="Yoga">Yoga</String>
+	<String Key="ObjectBasedMultiplier">Multiply min and max Sims based on the number of instances of an object</String>
+	<String Key="Situations">Situations</String>
+	<String Key="SpawnTimes">Spawn Times</String>
+	<String Key="AddSpawnTime">Add Spawn Time</String>
+	<String Key="RemoveSpawnTime">Remove Spawn Time</String>
+	<String Key="ObjectBasedMultiplierTag">Object Tag</String>
+
+  <String Key="ZoneDirector">Zone Director/Lot Spawn Logic (Experimental)</String>
+	<String Key="DefaultZoneDirectorTemplate">No Zone Director Type Selected</String>
+	<String Key="ShiftBasedZoneDirector">Shift-Based Zone Director</String>
+	<String Key="Enabled">Enabled</String>
+	<String Key="ObjectBasedMultiplierTags">Object-Based Multiplier Tags</String>
+	<String Key="StartObjectBasedMultiplierFrom">Start Object-Based Multiplier From</String>
+	<String Key="ObjectBasedMultiplierIterations">Object Based Multiplier Iterations</String>
+
+  <String Key="LotTypeBlacklist">Lot Type Blacklist</String>
+	<String Key="LotTypeWhitelist">Lot Type Whitelist</String>
+	<String Key="LotTraitBlacklist">Lot Trait Blacklist</String>
+	<String Key="LotTraitWhitelist">Lot Trait Whitelist</String>
+	<String Key="WorldBlacklist">World Blacklist</String>
+	<String Key="WorldWhitelist">World Whitelist</String>
+	<String Key="IsApartment">Is the lot an apartment?</String>
+	<String Key="IsPenthouse">Is the lot a penthouse?</String>
+  <String Key="UseParentLot">Use Parent Lot</String>
+  <String Key="UseParentLotHelp">If the lot is a sub-venue (example: a Community Garden from Eco Lifestyle is a sub-venue of Community Space), the condition will check the parent venue instead of the sub-venue.</String>
+  
+  <String Key="Bowling">Bowling</String>
+	<String Key="Paparazzi">Paparazzi</String>
+	<String Key="ZoneDirectorMerges">Zone Director Merges</String>
+	<String Key="AllowShiftsToOverlap">Allow shifts to overlap (should generally be checked for visitor roles, but unchecked for staff roles)</String>
+	<String Key="IncreaseMultiplierForEveryInstances">Increase multiplier every # instances</String>
+	<String Key="StartingFromInstance">Starting from instance #</String>
+	<String Key="MaximumTimes">A maximum of # times</String>
+  
+  <String Key="ZoneDirectorMergeNotice">You can merge this zone director with one or more zone directors that are already in the game. This allows you to insert your own custom spawn logic to existing venues.</String>
+  
+  <String Key="CareerEventConditionsHelp">These conditions must pass for the event to be selected.</String>
+	<String Key="LocationConditionDescription">Information about a Sim's location, such as the lot type, whether or not they're standing on the lot, and whether they're indoors or outdoors.</String>
+	<String Key="LotInfoCondition">Lot Info Condition</String>
+	<String Key="LotInfoConditionDescription">Information about the current lot, including the type, lot traits and world. Unlike a Location Info condition, this doesn't know anything about the Sim and can't detect whether the Sim is standing on the lot or not, or any other Sim-specific info.</String>
+
+  <String Key="ActiveCareerEvents">Active Career Events</String>
+	<String Key="CareerEvent">Career Event</String>
+  
+  <String Key="UseCustomScoreType">Use Custom Score Type</String>
+  <String Key="InteractionAutoScoreTypeError">Mod Constructor does not have score data for the selected pie menu category, so the interaction will not be effected by Conversation Topic preferences from Growing Together. You can specify the score type manually in the "Advanced" tab.</String>
+
+  
 </LocalizableTextStrings>

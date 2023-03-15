@@ -22,11 +22,7 @@
             <c:TabItem Background="Transparent" Header="Settings">
                 <StackPanel>
                     <c:Field Label="PieMenuCategory" LabelWidth="150">
-                        <c:ReferenceControl
-                            ElementTypeName="PieMenuCategory"
-                            Reference="{Binding PieMenuCategory}"
-                            ResetTo="15504"
-                            ResetToLabel="Friendly" />
+                        <c:ReferenceControl ElementTypeName="PieMenuCategory" Reference="{Binding PieMenuCategory}" />
                     </c:Field>
                 </StackPanel>
             </c:TabItem>

@@ -1,26 +1,26 @@
-<UserControl x:Class="Constructor5.Elements.Rewards.RewardSetMiniEditor"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.Elements.Rewards"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             d:DesignHeight="450"
-             d:DesignWidth="800"
-             mc:Ignorable="d">
+<UserControl
+    x:Class="Constructor5.Elements.Rewards.RewardSetMiniEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.Rewards"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
     <UserControl.Resources>
         <c:SimpleAddToListCommand x:Key="AddCommand" Type="{x:Type local:RewardItem}" />
-        <c:SimpleRemoveFromListCommand x:Key="RemoveCommand"
-                                       DeleteMessage="AreYouSureReward"
-                                       Type="{x:Type local:RewardItem}" />
+        <c:SimpleRemoveFromListCommand
+            x:Key="RemoveCommand"
+            DeleteMessage="AreYouSureReward"
+            Type="{x:Type local:RewardItem}" />
     </UserControl.Resources>
     <StackPanel>
         <c:CheckBox x:Name="HouseholdRewardCheckBox" IsChecked="{Binding IsHouseholdReward}">
             <StackPanel>
                 <c:TextBlock Text="IsHouseholdReward" />
-                <c:TextBlock FontStyle="Italic"
-                           Text="IsHouseholdRewardHelp"
-                           />
+                <c:TextBlock FontStyle="Italic" Text="IsHouseholdRewardHelp" />
             </StackPanel>
         </c:CheckBox>
         <ContentPresenter x:Name="DescriptionAtTopPresenter" />
@@ -30,10 +30,11 @@
                     <ItemsControl ItemsSource="{Binding Rewards}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
-                                <c:SelectableObjectControl DeleteCommand="{StaticResource RemoveCommand}"
-                                                           Object="{Binding Reward}"
-                                                           ShowDeleteButton="True"
-                                                           TypeRegistryCategory="RewardTypes">
+                                <c:SelectableObjectControl
+                                    DeleteCommand="{StaticResource RemoveCommand}"
+                                    Object="{Binding Reward}"
+                                    ShowDeleteButton="True"
+                                    TypeRegistryCategory="RewardTypes">
                                     <c:SelectableObjectControl.DeleteCommandParameter>
                                         <MultiBinding Converter="{StaticResource MultiParamConverter}">
                                             <Binding Path="." />
@@ -44,18 +45,20 @@
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
-                    <c:Button HorizontalAlignment="Left"
-                            Command="{StaticResource AddCommand}"
-                            CommandParameter="{Binding Rewards}"
-                            Content="AddReward" />
+                    <c:Button
+                        HorizontalAlignment="Left"
+                        Command="{StaticResource AddCommand}"
+                        CommandParameter="{Binding Rewards}"
+                        Content="AddReward" />
                 </StackPanel>
             </c:TabItem>
             <c:TabItem x:Name="NotificationTab" Header="Notification">
                 <StackPanel Margin="{StaticResource Constructor.BigPaddingUpDownOnly}">
                     <c:CheckBox Content="ShowNotification" IsChecked="{Binding ShowNotification}" />
-                    <c:NotificationOrDialogControl CanChangeType="False"
-                                                   NotificationOrDialog="{Binding Notification}"
-                                                   Visibility="{Binding ShowNotification, Converter={StaticResource BoolToVis}}" />
+                    <c:NotificationOrDialogControl
+                        CanChangeType="False"
+                        NotificationOrDialog="{Binding Notification}"
+                        Visibility="{Binding ShowNotification, Converter={StaticResource BoolToVis}}" />
                 </StackPanel>
             </c:TabItem>
             <c:TabItem x:Name="UIInfoTab" Header="UIInfo">
@@ -63,18 +66,17 @@
                     <c:CheckBox IsChecked="{Binding GenerateUIInfo}">
                         <StackPanel>
                             <c:TextBlock Text="AutoRewardTrait" />
-                            <c:TextBlock FontStyle="Italic"
-                                       Text="AutoRewardTraitHelp"
-                                       />
+                            <c:TextBlock FontStyle="Italic" Text="AutoRewardTraitHelp" />
                         </StackPanel>
                     </c:CheckBox>
-                    <StackPanel Visibility="{Binding GenerateUIInfo, Converter={StaticResource BoolToVisInverted}}">
+                    <StackPanel x:Name="GenerateUIInfoStackPanel" Visibility="{Binding GenerateUIInfo, Converter={StaticResource BoolToVisInverted}}">
                         <c:Field Label="Name" LabelWidth="100">
                             <c:STBLStringControl Text="{Binding Name}" UpdateLabelForElement="{Binding}" />
                         </c:Field>
-                        <c:Field x:Name="DescriptionField"
-                                 Label="Description"
-                                 LabelWidth="100">
+                        <c:Field
+                            x:Name="DescriptionField"
+                            Label="Description"
+                            LabelWidth="100">
                             <c:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
                         </c:Field>
                         <c:Field Label="Icon" LabelWidth="100">

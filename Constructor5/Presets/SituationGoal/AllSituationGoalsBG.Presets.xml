@@ -884,7 +884,7 @@
   <Preset Label="Tell Story to {2.SimFirstName} (Whim_Toddlers_Caregivers_TellStory)" Value="155178" />
   <Preset Label="Tell Funny Story to {2.SimFirstName} (Whim_Toddlers_Caregivers_TellFunnyStory)" Value="155179" />
   <Preset Label="Buy a Toddler Bookcase (Whim_BuyToddlerBookcase)" Value="155181" />
-  <Preset Label="Buy a High Chair (Whim_BuyToddlerHighChair)" Value="155182" />
+  <Preset Label="Buy a High Chair (Whim_BuyHighChair)" Value="155182" />
   <Preset Label="Buy a Potty Chair (Whim_BuyToddlerPottyChair)" Value="155183" />
   <Preset Label="Buy a Toddler Bed (Whim_BuyToddlerBed)" Value="155184" />
   <Preset Label="Buy Nesting Blocks (Whim_BuyToddlerNestingBlocks)" Value="155185" />
@@ -935,6 +935,9 @@
   <Preset Label="Splash In Toilet (whim_Toddler_PlayInToilet)" Value="156914" />
   <Preset Label="Play a Tablet Game (Whim_Toddlers_PlayTabletGame)" Value="157517" />
   <Preset Label="Talk with {2.SimFirstName} (Whim_Toddlers_Talk)" Value="157565" />
+  <Preset Label="Help a Toddler Climb (toddler_JungleGym_intObj_SlideClimber_HelpClimb)" Value="172800" />
+  <Preset Label="Help a Toddler Slide (toddler_JungleGym_intObj_SlideClimber_SlideCatch)" Value="172801" />
+  <Preset Label="Buy a Toddler Slide (whim_Buy_SlideClimber)" Value="173003" />
   <Preset Label="Shop at a Cart (foodStall_IntObject_ShopAtStall)" Value="175053" />
   <Preset Label="Chase a Bird Flock (Whim_ChaseBirdFlock)" Value="177812" />
   <Preset Label="Scare a Bird Flock (whim_AttackBirdFlock)" Value="178451" />
@@ -985,15 +988,20 @@
   <Preset Label="Two household Sims are romantically involved as Enemies with Benefits (scenarioGoal_MultipleSimsInRelationship_EnemiesWithBenefits_2Sims)" Value="274272" />
   <Preset Label="Sim completes an Aspiration (scenarioGoal_Actor_Aspiration_Hidden_Any_PrimarySim)" Value="274657" />
   <Preset Label="Sim has {0.Number} friends (scenarioGoal_Actor_Relationship_Hidden_Friends_5_PrimarySim)" Value="274748" />
-  <Preset Label="Reach level {0.Number} in any Skill (scenarioGoal_Actor_Skills_Hidden_Level10_3_PrimarySim)" Value="274820" />
+  <Preset Label="Reach Level 10 in at least 3 Skills (scenarioGoal_Actor_Skills_Hidden_Level10_3_PrimarySim)" Value="274820" />
   <Preset Label="Alone at Last (scenarioGoal_Actor_Hidden_1Sim)" Value="275069" />
   <Preset Label="Have {0.Money} (scenarioGoal_Actor_HouseholdFunds_1mil)" Value="275107" />
   <Preset Label="scenarioGoal_Actor_Career_Hidden_Business_CEO_PrimarySim" Value="275688" />
+  <Preset Label="Exchange Vows (eventActivity_Actor_Custom_State_Wedding_Vows)" Value="275990" />
+  <Preset Label="Walk Down the Aisle (eventActivity_IntObject_Wedding_Custom_State_WalkAisle)" Value="275997" />
+  <Preset Label="Cut the Cake (eventActivity_IntObject_Wedding_Custom_State_CutCake)" Value="275998" />
+  <Preset Label="First Dance (eventActivity_IntObject_Wedding_Custom_State_FirstDance)" Value="275999" />
+  <Preset Label="goal_HighSchool_Active_GetDetention_Hidden" Value="276712" />
   <Preset Label="Milk a Cowplant (whim_FearConfrontation_Cowplant)" Value="277246" />
   <Preset Label="Extinguish Fire (whim_FearConfrontation_Fire)" Value="277503" />
   <Preset Label="Fight a Ghost (whim_FearConfrontation_Ghost)" Value="277563" />
   <Preset Label="Confidently Swim for an Hour (whim_FearConfrontation_Swimming)" Value="277755" />
-  <Preset Label="Go to Work Ready for New Challenges (whim_FearConfrontation_DeadEndJob)" Value="277845" />
+  <Preset Label="Complete a Day of Work Ready for New Challenges (whim_FearConfrontation_DeadEndJob)" Value="277845" />
   <Preset Label="Have {0.Money} (scenarioGoal_Actor_HouseholdFunds_25k)" Value="277934" />
   <Preset Label="Reach level {0.Number} in any Skill (scenarioGoal_Actor_Skills_Hidden_Level5_1_PrimarySim)" Value="277935" />
   <Preset Label="Have §25,000 and Sim reaches level 5 in any skill (scenarioGoal_CompoundAll_SkillsMoney_Easy)" Value="277936" />
@@ -1005,16 +1013,28 @@
   <Preset Label="One from the couple becomes a CEO, the other becomes an Angel Investor (Investor Track of Business Career) (scenarioGoal_CompoundAll_Career_Business_CEO_and_AngelInvestor)" Value="278998" />
   <Preset Label="scenarioGoal_Actor_Career_Hidden_Business_AngelInvestor_PrimarySim" Value="279013" />
   <Preset Label="Couple gets divorced (scenarioGoal_MultipleSimsInRelationship_Divorced_PrimarySim)" Value="279024" />
+  <Preset Label="Blow Bubbles (eventActivity_IntObject_Wedding_Custom_State_BlowBubbles)" Value="280122" />
+  <Preset Label="Dancing (eventActivity_IntObject_Wedding_Custom_State_Dancing)" Value="280123" />
+  <Preset Label="Drinks (eventActivity_IntObject_Wedding_Custom_State_HaveDrinks)" Value="280124" />
+  <Preset Label="Celebration Feast (eventActivity_IntObject_Wedding_Custom_State_Meal)" Value="280125" />
+  <Preset Label="Have Speeches (eventActivity_IntObject_Wedding_Custom_State_Speeches)" Value="280126" />
+  <Preset Label="Spousal Kiss (eventActivity_IntObject_Wedding_Custom_State_SpousalKiss)" Value="280127" />
+  <Preset Label="Throw Rice (eventActivity_IntObject_Wedding_Custom_State_ThrowRice)" Value="280128" />
+  <Preset Label="Have Toasts (eventActivity_IntObject_Wedding_Custom_State_HaveToasts)" Value="280129" />
   <Preset Label="Sims get married and have no negative Sentiments between them, and their relationship is super solid as Soulmates! (scenarioGoal_MultipleSimsInRelationship_GotMarriedANDNoNegativeSentimentsANDSoulmates_Hidden_PrimarySim)" Value="280215" />
   <Preset Label="Sims get married and have no negative Sentiments between them (scenarioGoal_MultipleSimsInRelationship_GotMarriedANDNoNegativeSentimentsNOTSoulmates_PrimarySim)" Value="280217" />
   <Preset Label="Sims get married but have unresolved negative Sentiments between them (scenarioGoal_MultipleSimsInRelationship_GotMarriedANDNegativeSentiments_PrimarySim)" Value="280219" />
   <Preset Label="Sims break up before the wedding (scenarioGoal_MultipleSimsInRelationship_BrokeOffEngagement_PrimarySim)" Value="280237" />
   <Preset Label="Sims break up during the wedding (scenarioGoal_MultipleSimsInRelationship_LeftAtAltar_PrimarySim)" Value="280238" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_Honeymooners)" Value="280569" />
-  <Preset Label="Have a Drink (Whim_HaveDrink)" Value="280649" />
+  <Preset Label="Morning Class Ends In... (goal_Event_HighSchool_Active_Timer_Class1)" Value="280609" />
+  <Preset Label="Afternoon Class Ends In... (goal_Event_HighSchool_Active_Timer_Class2)" Value="280610" />
+  <Preset Label="Morning Free Time Ends In... (goal_Event_HighSchool_Active_Timer_EarlyMorning)" Value="280612" />
+  <Preset Label="Have a Drink (whim_HaveDrink)" Value="280649" />
   <Preset Label="Married Sims Woohoo while on vacation (scenarioGoal_Actor_Buff_Honeymooners_MarriedWoohooVacation)" Value="280798" />
   <Preset Label="scenarioGoal_MultipleSimsInRelationship_Hidden_Honeymooners_Brokenup-Engaged" Value="280804" />
   <Preset Label="Be Friendly with a Non-Household Sim (whim_BeFriendly_NonHousehold)" Value="280980" />
+  <Preset Label="Attend Class (whim_AttendClass)" Value="280995" />
   <Preset Label="Cook Acarajé, Pão de Queijo, or Brigadeiro together with at least one other Sim (scenarioGoal_CraftObject_CarnavalFood)" Value="281035" />
   <Preset Label="Be Mean to a Friend (whim_MeanSim_ToFriend)" Value="281048" />
   <Preset Label="Be Mean to a Good Sim (whim_MeanSim_toGoodSim)" Value="281049" />
@@ -1023,6 +1043,7 @@
   <Preset Label="Buy a Rocket Ship (whim_BuyRocketShip)" Value="281081" />
   <Preset Label="Buy THE Expensive Violin (whim_BuyViolin_Expensive)" Value="281082" />
   <Preset Label="Chat with a Child (whim_ChatChildSim)" Value="281092" />
+  <Preset Label="Chat with other Students (want_ChatTeenStudent)" Value="281094" />
   <Preset Label="Make Something Greater Than Poor Quality (whim_Craft_NonPoorObject)" Value="281096" />
   <Preset Label="Hold Hands With {2.SimFirstName} (whim_HoldHand)" Value="281108" />
   <Preset Label="Go to Work\nFeeling Confident (whim_GoToWork_Generic_Confident)" Value="281756" />
@@ -1071,25 +1092,53 @@
   <Preset Label="Initial Sims are broken up (scenarioGoal_Actor_Relationship_RomCom_Brokenup)" Value="282316" />
   <Preset Label="Initial Sims are Soulmates (scenarioGoal_Actor_Relationship_RomCom_Soulmates)" Value="282327" />
   <Preset Label="Win a Competitive Game (whim_WinGame)" Value="282338" />
+  <Preset Label="Ask For Details About Careers from Visiting Professionals (goal_HighSchool_Active_AskCareerDetails)" Value="282390" />
+  <Preset Label="Discuss Future with your Teacher (goal_HighSchool_Active_DiscussFuture)" Value="282391" />
+  <Preset Label="goal_Event_HighSchool_Active_Main_Wait" Value="282479" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_PrimarySim_1)" Value="282480" />
+  <Preset Label="Learn About New School From Principal (goal_Event_HighSchool_Active_GetClassList)" Value="282610" />
+  <Preset Label="Talk To Teacher About Curriculum (goal_Event_HighSchool_Active_TalkToTeacher)" Value="282612" />
   <Preset Label="Get into a Relationship (whim_GetIntoRelationship)" Value="282620" />
   <Preset Label="Listen to Music (whim_ListentoMusic)" Value="282671" />
+  <Preset Label="Serve Tea (Goal_PrePostWeddingParty_Tea)" Value="282715" />
   <Preset Label="Sim becomes a Celebrity Chef, despite the danger (scenarioGoal_Actor_Career_CelebrityChef)" Value="282938" />
   <Preset Label="Sim becomes a Celebrity Mixologist, a safer choice (scenarioGoal_Actor_Career_CelebrityMixologist)" Value="282940" />
   <Preset Label="Have {0.Money} (scenarioGoal_Actor_HouseholdFunds_400k)" Value="282987" />
+  <Preset Label="Use Photo Booth (situation_goal_HSProm_UsePhotobooth)" Value="283055" />
+  <Preset Label="Show Off Outfit (goal_HSProm_ShowOffOutfit)" Value="283354" />
+  <Preset Label="Lunch Ends In... (goal_Event_HighSchool_Active_Lunch)" Value="283617" />
   <Preset Label="Discuss Fears after Fulfilling Wants (whim_FearConfrontation_Unfulfilled)" Value="283627" />
   <Preset Label="Discuss Fears of Death (whim_FearConfrontation_Death_DiscussFears)" Value="283668" />
   <Preset Label="Give a Death Flower to the Grim Reaper (whim_FearConfrontation_Death_GiveFlower)" Value="283681" />
+  <Preset Label="Set Expectations with Parents (whim_FearConfrontation_DisappointingParents)" Value="283683" />
   <Preset Label="Become Recognized for Work (whim_FearConfrontation_Failure)" Value="283684" />
+  <Preset Label="Lunch Ends In... (goal_Event_HighSchool_Active_Lunch_CareerDay)" Value="283827" />
+  <Preset Label="Career Day Ends In... (goal_Event_HighSchool_Active_Timer_CareerDay)" Value="283828" />
+  <Preset Label="Gossip With Other Sims (want_GossipSim)" Value="283839" />
   <Preset Label="Sim gets to level 3 of any Career, has 3 Friends, and completes 2 Milestones of any Aspiration (scenarioGoal_CompoundAll_CareerFriendshipAspiration)" Value="283911" />
   <Preset Label="Sim completes an Aspiration (scenarioGoal_Actor_Aspiration_Hidden_Any_2Levels_PrimarySim)" Value="283914" />
   <Preset Label="Sim has {0.Number} friends (scenarioGoal_Actor_Relationship_Hidden_Friends_3_PrimarySim)" Value="283917" />
+  <Preset Label="Meet Fellow Classmates (want_MeetClassmates)" Value="283920" />
+  <Preset Label="Make a New Teen Friend (want_newfriend_teen)" Value="283931" />
+  <Preset Label="Sneak Out (want_window_SneakOut)" Value="283932" />
+  <Preset Label="Cheer Someone Up (want_CheerUp)" Value="283933" />
+  <Preset Label="List an outfit on Trendi (want_phone_ListOutfit)" Value="283934" />
+  <Preset Label="Reach 100 Followers (want_SocialMediaFollowers_10)" Value="284086" />
+  <Preset Label="Enjoy the Pier Rides (want_TeenFun)" Value="284087" />
   <Preset Label="Attend a Party (whim_AttendParty)" Value="284164" />
   <Preset Label="Host a Party (whim_HostParty)" Value="284165" />
+  <Preset Label="Fire Drill Ends In... (goal_Event_HighSchool_Active_Timer_FireDrill)" Value="285114" />
+  <Preset Label="Grab a Plate of Dessert (Goal_PrePostWeddingParty_Dessert)" Value="285620" />
   <Preset Label="Host a Party! Plan a Social Event through your Phone. (scenarioGoal_Actor_Situation_CarnavalParty)" Value="285792" />
   <Preset Label="Have a Sim Dance to Carnaval Beats (scenarioGoal_Actor_Buff_CarnavalDance)" Value="285797" />
   <Preset Label="Successfully Socialize with a new Sim (whim_SuccessfulSocialWithAcquaintance)" Value="285932" />
+  <Preset Label="Work on Awkwardness (whim_Mirror_WorkOnAwkwardness)" Value="285934" />
+  <Preset Label="Confess to Being Socially Awkward (whim_ConfessAwkwardness)" Value="285937" />
+  <Preset Label="Complete Homework while Focused (Whim_FearConfrontation_Homework)" Value="286000" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_MissingRoles_PrimarySim_1)" Value="286006" />
+  <Preset Label="Clean the Whiteboard (want_CleanWhiteboard)" Value="286226" />
+  <Preset Label="Exchange Vows (eventGoal_Custom_State_Wedding_ExchangeVows)" Value="287175" />
+  <Preset Label="Plant a Stink Capsule in a Locker (whim_PrankLocker)" Value="287220" />
   <Preset Label="Gain Friendly Relationship with a Family Member (whim_GainRel_Family)" Value="287235" />
   <Preset Label="The couple are Soulmates and one Sim is CEO (scenarioGoal_Actor_Career_Business_CEO_Soulmates_PrimarySim)" Value="287311" />
   <Preset Label="The couple is divorced and one Sim becomes CEO (scenarioGoal_Actor_Career_Business_CEO_NotMarried_PrimarySim)" Value="287312" />
@@ -1109,12 +1158,16 @@
   <Preset Label="Miss Work (whim_MissWork)" Value="287491" />
   <Preset Label="Make a New Friend (Whim_Make_A_New_Friend)" Value="287583" />
   <Preset Label="Have a Baby (Whim_Have_A_Child)" Value="287584" />
-  <Preset Label="Bail on a Friend (whim_BailOnFriend)" Value="287709" />
+  <Preset Label="Skip Class (Want_Teen_SkipClass)" Value="287746" />
   <Preset Label="A Sim makes it to the Comedian branch but their initial partner moved out or is deceased (scenarioGoal_CompoundAll_RomCom_SoloComedian)" Value="287982" />
   <Preset Label="A Sim makes it to the Comedian branch and is Soulmates with their initial partner Sim (scenarioGoal_CompoundAll_RomCom_SoulMatesComedian)" Value="287992" />
   <Preset Label="A Sim becomes a Comedian and gets their initial romantic relationship to Lovers or better (scenarioGoal_CompoundAll_RomCom_LoversComedian)" Value="287993" />
   <Preset Label="A Sim becomes a Comedian and broke up with their initial romantic partner (scenarioGoal_CompoundAll_RomCom_BrokenupComedian)" Value="287994" />
+  <Preset Label="Complete After School Task While Happy (whim_FearConfrontation_Failing_AfterSchool)" Value="288086" />
+  <Preset Label="Complete Extra Credit (whim_FearConfrontation_Failing_Class)" Value="288090" />
+  <Preset Label="Claim a Locker (goal_Event_HighSchool_Active_ClaimLocker)" Value="288104" />
   <Preset Label="Figure Out Differences with Other Sims (whim_FearConfrontation_BeingJudged)" Value="288463" />
+  <Preset Label="Prepare for Test (whim_FearConfrontation_FailingTests)" Value="288486" />
   <Preset Label="Game Over for this household (scenarioGoal_Actor_Hidden_UnviableHousehold_NoTeenager)" Value="289032" />
   <Preset Label="Sims break up before the wedding (scenarioGoal_MultipleSimsInRelationship_NoRomance)" Value="289034" />
   <Preset Label="scenarioGoal_Actor_Skills_Hidden_Level10_1_FemaleYAE" Value="289420" />
@@ -1123,11 +1176,20 @@
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_Teenager)" Value="289586" />
   <Preset Label="A Sim Writes a Skill Book (scenarioGoal_CraftObject_SkillBook)" Value="289666" />
   <Preset Label="Sims break up before the wedding (scenarioGoal_Actor_Relationship_EngagedConflict_BreakUpNegative)" Value="289713" />
+  <Preset Label="Serve Detention After School (goal_Event_HighSchool_Active_ServeDetention)" Value="289730" />
   <Preset Label="A Sim Mentors a Teenager in skill 5 times (scenarioGoal_Actor_Statistic_Mentor_Count)" Value="289960" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_Female_YAE)" Value="289974" />
   <Preset Label="scenarioGoal_Actor_Hidden_MissingRoles_Female_Teen" Value="289975" />
+  <Preset Label="Chat With a Crush (Whim_Crush_TalkTo)" Value="290015" />
+  <Preset Label="Ask a Crush Out (Whim_Crush_AskOut)" Value="290016" />
   <Preset Label="Game Over for this household (scenarioGoal_Actor_Career_Hidden_Musician)" Value="290385" />
   <Preset Label="A Sim is level 10 in a Mentorable Skill (scenarioGoal_Actor_Skills_Hidden_Level10_Mentor_FemaleYAEonly)" Value="290534" />
+  <Preset Label="Gossip with Someone (goal_HSProm_Social_Gossip)" Value="291247" />
+  <Preset Label="Talk to Someone (goal_HSProm_Social_Chat)" Value="291248" />
+  <Preset Label="Dance with someone (goal_HSProm_Social_DanceWith)" Value="291249" />
+  <Preset Label="Dance (goal_IntObject_HSProm_Dance)" Value="291252" />
+  <Preset Label="Eat Something (goal_IntObject_HSProm_EatSomething)" Value="291253" />
+  <Preset Label="Grab a Drink (goal_IntObject_HSProm_DrinkSomething)" Value="291254" />
   <Preset Label="Eat the &quot;Forbidden Fruit of the PlantSim&quot; from your inventory (scenarioGoal_Actor_PlantSimScenario_EatForbiddenFruit)" Value="292102" />
   <Preset Label="Live the PlantSim Life (scenarioGoal_CompoundAll_PlantSim_Main)" Value="292371" />
   <Preset Label="Harvest from a Perfect Quality plant (scenarioGoal_Actor_PlantSimScenario_ExcellentHarvest)" Value="292376" />
@@ -1136,11 +1198,18 @@
   <Preset Label="Satisfy Water Needs (situationGoalObjectInteraction_PlantSimScenario_DrinkWater)" Value="292437" />
   <Preset Label="Absorb solar energy from plants (situationGoalObjectInteraction_PlantSimScenario_AbsorbPlants)" Value="292438" />
   <Preset Label="Care for Plants as a PlantSim (situationGoalObjectInteraction_PlantSimScenario_PlantCare)" Value="292890" />
+  <Preset Label="Take a Picture in the Photo Booth (whimGoal_IntObject_HSProm_UsePhotobooth)" Value="292982" />
+  <Preset Label="Dance at Prom (whimGoal_IntObject_HSProm_Dance)" Value="292983" />
+  <Preset Label="Have a Drink at Prom (whimGoal_IntObject_HSProm_DrinkSomething)" Value="292984" />
   <Preset Label="scenarioGoal_Actor_PlantSimScenario_NoBuffNoFruit" Value="293425" />
+  <Preset Label="Attend Math Class (goal_Event_HighSchool_Active_AttendClass_Morning)" Value="293974" />
+  <Preset Label="Attend Science Class (goal_Event_HighSchool_Active_AttendClass_Afternoon)" Value="293976" />
   <Preset Label="Set Up a Child-Friendly House (scenarioGoal_Onboarding_ParentingPredicament_Phase1)" Value="294402" />
-  <Preset Label="Get Leonardo and Sophia into a Focused Mood (scenarioGoal_Onboarding_ParentingPredicament_2_FocusedMood)" Value="294403" />
-  <Preset Label="Pick a New Aspiration Track for Sophia and Leonardo and Complete the First Level (scenarioGoal_Onboarding_ParentingPredicament_Phase3_NewChildAspiration_Sofia)" Value="294404" />
+  <Preset Label="Get Leonardo and Sofia into a Focused Mood (scenarioGoal_Onboarding_ParentingPredicament_2_FocusedMood)" Value="294403" />
+  <Preset Label="Pick a New Aspiration Track for Sofia and Leonardo and Complete the First Level (scenarioGoal_Onboarding_ParentingPredicament_Phase3_NewChildAspiration_Sofia)" Value="294404" />
   <Preset Label="Throw a Birthday Party for Leonardo and Sofia (scenarioGoal_Onboarding_ParentingPredicament_Phase4_ThrowBirthdayParty)" Value="294405" />
+  <Preset Label="Vote For Prom Jester (goal_Event_HSProm_VoteJester)" Value="294462" />
+  <Preset Label="Vote For Prom Royalty (goal_Event_HSProm_VoteRoyalty)" Value="294463" />
   <Preset Label="Join the Tech Guru Career (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_1JoinCareer)" Value="294616" />
   <Preset Label="Control your Anger (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_3ManageMoodlets)" Value="294619" />
   <Preset Label="Achieve level 4 Programming Skill (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_4Programming)" Value="294620" />
@@ -1152,28 +1221,23 @@
   <Preset Label="Breed {0.Number} Frogs (scenarioGoal_ObjectInteraction_FrogFanatic_BreedFrogs)" Value="294713" />
   <Preset Label="Cook Boiling Frog Hot Pot (scenarioGoal_CraftObject_FrogFanatic_FrogHotPot)" Value="294728" />
   <Preset Label="Fish while using a Frog as bait (scenarioGoal_Actor_Buff_FrogFanatic_FishWithFrog)" Value="294729" />
-  <Preset Label="Catch or Breed {0.Number} unique Common Frogs (scenarioGoal_Actor_Collection_Frogs_Common)" Value="294740" />
-  <Preset Label="Catch or Breed {0.Number} unique Uncommon Frogs (scenarioGoal_Actor_Collection_Frogs_Uncommon)" Value="294764" />
-  <Preset Label="Catch or Breed {0.Number} unique Rare Frogs (scenarioGoal_Actor_Collection_Frogs_Rare)" Value="294765" />
+  <Preset Label="Catch or Breed unique Common Frogs (scenarioGoal_Actor_Collection_Frogs_Common)" Value="294740" />
+  <Preset Label="Catch or Breed unique Uncommon Frogs (scenarioGoal_Actor_Collection_Frogs_Uncommon)" Value="294764" />
+  <Preset Label="Catch or Breed unique Rare Frogs (scenarioGoal_Actor_Collection_Frogs_Rare)" Value="294765" />
   <Preset Label="Frog Collection Completed! (scenarioGoal_Actor_Collection_Frog_CollectionComplete)" Value="294766" />
   <Preset Label="Get Promoted to:\nDevelopment Captain (scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_2Promotion)" Value="294789" />
   <Preset Label="Wait for call about\nlay-off rumors... (scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_1AnswerRival)" Value="294793" />
   <Preset Label="Answer a Mysterious Call (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_2AnswerPhone)" Value="294840" />
-  <Preset Label="Upgrade Bed\nto Energy 6 (scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_Bed)" Value="294946" />
-  <Preset Label="Place your Laptop (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_Computer)" Value="294947" />
-  <Preset Label="Catch a Frog (scenarioGoal_Onboarding_NewInTown_Phase1_3_CatchFrog)" Value="295188" />
   <Preset Label="scenarioGoal_Onboarding_NewInTown_Phase1_6a_WaitForWelcomeWagon" Value="295194" />
   <Preset Label="Travel to Gym or Bar (scenarioGoal_Compound_Onboarding_NewInTown_Phase2_1_TravelToGymOrBar)" Value="295205" />
   <Preset Label="Visit a Gym (scenarioGoal_ZoneLoaded_Onboarding_NewInTown_Phase2_1_option1_TravelToGym)" Value="295206" />
   <Preset Label="Visit a Bar (scenarioGoal_ZoneLoaded_Onboarding_NewInTown_Phase2_1_option2_TravelToBar)" Value="295207" />
-  <Preset Label="Grill Food (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase1_5b_GrillFood)" Value="295220" />
-  <Preset Label="scenarioGoal_ZoneLoaded_Onboarding_NewInTown_Phase1_5a_LivesInBedrockStrait" Value="295221" />
   <Preset Label="Work Out for 1 Hour (scenarioGoal_Compound_Onboarding_NewInTown_Phase3a_4a_Workout1Hour)" Value="295222" />
   <Preset Label="Work out on Treadmill (scenarioGoal_InteractionTime_Onboarding_NewInTown_Phase3a_4a_option1_WorkoutTreadmill)" Value="295225" />
   <Preset Label="Work Out on Exercise Machine (scenarioGoal_InteractionTime_Onboarding_NewInTown_Phase3a_4a_option2_WorkoutWeightsMachine)" Value="295226" />
   <Preset Label="Practice Punching (scenarioGoal_InteractionTime_Onboarding_NewInTown_Phase3a_4a_option3_PractisePunching)" Value="295227" />
   <Preset Label="Reach Level 2 Fitness Skill (scenarioGoal_Onboarding_NewInTown_Phase3a_4b_FitnessSkill2)" Value="295228" />
-  <Preset Label="Take Shower (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase3a_5_TakeShower)" Value="295229" />
+  <Preset Label="Take Shower (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase3a_5b_TakeShower)" Value="295229" />
   <Preset Label="Go Home (scenarioGoal_ZoneLoaded_Onboarding_NewInTown_Phase3a_6_GoHome)" Value="295230" />
   <Preset Label="Dance to Stereo Music (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase3b_5a_Dance)" Value="295235" />
   <Preset Label="Go Home (scenarioGoal_ZoneLoaded_Onboarding_NewInTown_Phase3b_6_GoHome)" Value="295236" />
@@ -1181,50 +1245,48 @@
   <Preset Label="Buy Observant Reward Trait (scenarioGoal_Onboarding_NewInTown_Phase4_6b_BuyTraitObservant)" Value="295252" />
   <Preset Label="Reach Level 2 Charisma Skill (scenarioGoal_Onboarding_NewInTown_Phase4_7_CharismaSkill2)" Value="295253" />
   <Preset Label="Cook a Group Meal (scenarioGoal_CraftObject_Onboarding_NewInTown_Phase5_4_CookGroupMeal)" Value="295261" />
-  <Preset Label="Get in the Mood with a Mirror (scenarioGoal_Compound_Onboarding_NewInTown_Phase5_5_MirrorMoodInteraction)" Value="295262" />
   <Preset Label="Start a House or Dinner Party (scenarioGoal_Compound_Onboarding_NewInTown_Phase5_6_StartParty)" Value="295263" />
   <Preset Label="Freshen Up (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase5_5_option1_MirrorFreshenUp)" Value="295264" />
   <Preset Label="Psych Self Up (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase5_5_option2_MirrorPsychUp)" Value="295265" />
   <Preset Label="Complete the Party (scenarioGoal_Compound_Onboarding_NewInTown_Phase6_1_FinishParty)" Value="295266" />
+  <Preset Label="Post On Social Bunny (Want_Teen_SocialPost)" Value="295418" />
+  <Preset Label="Attend Exam (goal_Event_HighSchool_Active_TakeExam_Morning)" Value="295489" />
+  <Preset Label="Attend Exam (goal_Event_HighSchool_Active_TakeExam_Afternoon)" Value="295490" />
   <Preset Label="Start a House Party (scenarioGoal_Onboarding_NewInTown_Phase5_6_option1_StartHouseParty)" Value="295589" />
   <Preset Label="Start a Dinner Party (scenarioGoal_Onboarding_NewInTown_Phase5_6_option2_StartDinnerParty)" Value="295590" />
   <Preset Label="Finish Party with Silver Score (scenarioGoal_Onboarding_NewInTown_Phase6_1_option2_EndPartySilver)" Value="295593" />
   <Preset Label="Finish Party with Gold Score (scenarioGoal_Onboarding_NewInTown_Phase6_1_option1_EndPartyGold)" Value="295594" />
   <Preset Label="Finish Party with Bronze Score (scenarioGoal_Onboarding_NewInTown_Phase6_1_option3_EndPartyBronze)" Value="295595" />
-  <Preset Label="Use Friendly Interactions (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_2b_FriendlyInteractions)" Value="295600" />
+  <Preset Label="Socialize with Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_2b_SocialInteractions)" Value="295600" />
   <Preset Label="Tell Jokes (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase3a_1b_TellJokes)" Value="295601" />
-  <Preset Label="Meet Someone New (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase3a_1a_GreetSomeone)" Value="295602" />
+  <Preset Label="Introduce Yourself to Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase3a_1a_GreetSomeone)" Value="295602" />
   <Preset Label="Drink Moodlet Solver (scenarioGoal_Onboarding_NewInTown_Phase3a_2b_DrinkMoodletSolverPotion)" Value="295603" />
   <Preset Label="Change to Athletic outfit (scenarioGoal_Onboarding_NewInTown_Phase3a_3_ChangeToAthleticOutfit)" Value="295604" />
   <Preset Label="Change to Party Outfit (scenarioGoal_Onboarding_NewInTown_Phase3b_1_ChangeToPartyOutfit)" Value="295605" />
-  <Preset Label="Meet Someone New (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase3b_2a_GreetSomeone)" Value="295607" />
+  <Preset Label="Introduce Yourself to Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase3b_2a_GreetSomeone)" Value="295607" />
   <Preset Label="Successfully Use Romantic Interactions (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase3b_2b_RomanticInteractions)" Value="295610" />
   <Preset Label="Kiss Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase3b_2c_KissInteraction)" Value="295611" />
   <Preset Label="Drink Moodlet Solver (scenarioGoal_Onboarding_NewInTown_Phase3b_3b_DrinkMoodletSolverPotion)" Value="295613" />
   <Preset Label="scenarioGoal_Onboarding_NewInTown_Phase4_5a_HaveSatisfactionPoints" Value="295616" />
   <Preset Label="scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase5_3_CleanSomething" Value="295617" />
-  <Preset Label="Be Friendly or Mean\nto Lewis (scenarioGoal_OBS_StuckInTheirShadow_2ImproveWorsen)" Value="295619" />
   <Preset Label="Decision: Invite Lewis to Stay or Kick Lewis Out (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_InviteKick)" Value="295621" />
-  <Preset Label="Flirt with Lewis (scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_6Tension)" Value="295623" />
-  <Preset Label="Be Mentored (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_3Mentored)" Value="295627" />
-  <Preset Label="Kiss Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase6_3_KissInteraction)" Value="295630" />
+  <Preset Label="Kiss Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase6_3a_KissInteraction)" Value="295630" />
   <Preset Label="Make a Good Friend (scenarioGoal_RelationshipChangeTargetedSim_Onboarding_NewInTown_Phase6_2_MakeGoodFriend)" Value="295634" />
-  <Preset Label="Make a Good Friend (scenarioGoal_RelationshipChangeTargetedSim_Onboarding_NewInTown_Phase4_4_MakeGoodFriend)" Value="295636" />
+  <Preset Label="Make a Good Friend (scenarioGoal_RelationshipChangeTargetedSim_Onboarding_NewInTown_Phase5a_3b_MakeGoodFriend)" Value="295636" />
   <Preset Label="Hack Work Performance (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_4Hack)" Value="295649" />
-  <Preset Label="Become Good Friends\nwith Lewis (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_1Friends)" Value="295653" />
-  <Preset Label="Enable Emotional Aura (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_2Present)" Value="295654" />
+  <Preset Label="Become Friends\nwith Lewis (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_1Friends)" Value="295653" />
   <Preset Label="Listen to Lewis' Proposal (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_3Proposal)" Value="295655" />
   <Preset Label="Drink the\nSnaggle Fluster (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_4SnaggleFluster)" Value="295656" />
   <Preset Label="Get promoted to: Startup Entrepreneur or eSports Gamer (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_6Branch)" Value="295678" />
-  <Preset Label="Meet Someone New (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_1_Introductions)" Value="295811" />
-  <Preset Label="Meet Someone New (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_2a_GreetSomeone)" Value="295812" />
-  <Preset Label="Meet Someone New (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_7a_GreetSomeone)" Value="295813" />
-  <Preset Label="Meet Someone New (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_7b_GreetSomeone)" Value="295814" />
-  <Preset Label="Meet Someone New (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_7c_GreetSomeone)" Value="295815" />
+  <Preset Label="Introduce Yourself to Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_1_Introductions)" Value="295811" />
+  <Preset Label="Introduce Yourself to Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_2a_GreetSomeone)" Value="295812" />
+  <Preset Label="Introduce Yourself to Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_7a_GreetSomeone)" Value="295813" />
+  <Preset Label="Introduce Yourself to Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_7b_GreetSomeone)" Value="295814" />
+  <Preset Label="Introduce Yourself to Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_7c_GreetSomeone)" Value="295815" />
   <Preset Label="Order Drink (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase3b_4_OrderDrink)" Value="295820" />
   <Preset Label="Visit Neighbor's Residence (scenarioGoal_Onboarding_NewInTown_Phase4_2a_VisitNeighborResidence)" Value="295960" />
   <Preset Label="Knock On Door (scenarioGoal_Onboarding_NewInTown_Phase4_2b_KnockOnDoor)" Value="295961" />
-  <Preset Label="Invite Someone Over (scenarioGoal_Onboarding_NewInTown_Phase4_1_InviteOver)" Value="295963" />
+  <Preset Label="Invite a Sim to your home (scenarioGoal_Onboarding_NewInTown_Phase4_1_InviteOver)" Value="295963" />
   <Preset Label="Invite Neighbor(s) (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_6b_InviteNeighbors)" Value="295965" />
   <Preset Label="Make an App\nor a Video Game (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_AppGame)" Value="295972" />
   <Preset Label="Get into a more intense Emotional state (scenarioGoal_Actor_Buff_InTheMoodlet_MoreIntenseMoods)" Value="296002" />
@@ -1239,10 +1301,8 @@
   <Preset Label="Call the Sadness Hotline or Cry It Out while Sad (scenarioGoal_ObjectInteraction_InTheMoodlet_Sad)" Value="296294" />
   <Preset Label="Vent or Complain about Problems to another Sim while Tense (scenarioGoal_ObjectInteraction_InTheMoodlet_Tense)" Value="296296" />
   <Preset Label="Buy Enough Beds for the Martinez Family (scenarioGoal_ObjectCount_ParentingPredicaments_1_BuyChildBeds)" Value="296615" />
-  <Preset Label="Assign Sophia and Leonardo to a Child Bed (scenarioGoal_ObjectInteraction_ParentingPredicaments_1_AssignChildBeds)" Value="296744" />
+  <Preset Label="Assign Sofia and Leonardo to a Child Bed (scenarioGoal_ObjectInteraction_ParentingPredicaments_1_AssignChildBeds)" Value="296744" />
   <Preset Label="Invite Sims to Dance Together (scenarioGoal_MultipleSimsInInteraction_Onboarding_NewInTown_Phase3b_5b_MultipleSimsDancing)" Value="296754" />
-  <Preset Label="Discover Traits {0.Number} Times (scenarioGoal_Onboarding_NewInTown_Phase4_5_DiscoverTraits)" Value="296756" />
-  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_3MentoredHidden" Value="296793" />
   <Preset Label="Make Sure Kids Get a Good Night's Sleep (scenarioGoal_InteractionTime_Onboarding_ParentingPredicaments_1_SleepNight)" Value="296894" />
   <Preset Label="scenarioGoal_Onboarding_NewInTown_Phase6_partyGold" Value="296986" />
   <Preset Label="scenarioGoal_Onboarding_NewInTown_Phase6_partySilver" Value="296987" />
@@ -1256,18 +1316,18 @@
   <Preset Label="Buy At Least One Kid's Toy (scenarioGoal_PurchasedObject_Onboarding_ParentingPredicament_BuyChildToys)" Value="297645" />
   <Preset Label="Have Leonardo and Sofia Play with Toys (scenarioGoal_ObjectInteraction_ParentingPredicaments_1_PlayWithToys_Optional)" Value="297646" />
   <Preset Label="Talk to Your Kids (scenarioGoal_RanInteractionOnTargetedSim_ParentingPredicaments_1_TalkToKids)" Value="297648" />
-  <Preset Label="Give Sophia and Leonardo a Bath or Shower (scenarioGoal_ObjectInteraction_ParentingPredicaments_1_ChildShowerBathe)" Value="297649" />
+  <Preset Label="Give Sofia and Leonardo a Bath or Shower (scenarioGoal_ObjectInteraction_ParentingPredicaments_1_ChildShowerBathe)" Value="297649" />
   <Preset Label="Have a Child Grab Leftovers or Quick Meal from Fridge (scenarioGoal_ObjectInteraction_ParentingPredicaments_1_GetLeftovers)" Value="297650" />
   <Preset Label="Put Away Food Leftovers for Later (scenarioGoal_ObjectInteraction_ParentingPredicaments_1_PutAwayFood_Optional)" Value="297651" />
   <Preset Label="Talk to Leonardo and Sofia about School (scenarioGoal_RanInteractionOnTargetedSim_ParentingPredicaments_2_TalkToKids_School)" Value="297659" />
-  <Preset Label="Make Sophia and Leonardo do their homework (scenarioGoal_ObjectInteraction_ParentingPredicaments_2_DoHomework)" Value="297660" />
+  <Preset Label="Make Sofia and Leonardo do their homework (scenarioGoal_ObjectInteraction_ParentingPredicaments_2_DoHomework)" Value="297660" />
   <Preset Label="Help Children with Homework (scenarioGoal_RanInteractionOnTargetedSim_ParentingPredicaments_2_HelpWithHomework)" Value="297661" />
-  <Preset Label="Send Leonardo and Sophia to School while in a Focused Mood (scenarioGoal_ObjectInteraction_ParentingPredicaments_2_WentToSchool)" Value="297662" />
-  <Preset Label="Improve Sophia's grades to a &quot;B&quot; average (scenarioGoal_Onboarding_ParentingPredicament_2_SchoolGradeB_Sophia)" Value="297663" />
+  <Preset Label="Send Leonardo and Sofia to School while in a Focused Mood (scenarioGoal_ObjectInteraction_ParentingPredicaments_2_WentToSchool)" Value="297662" />
+  <Preset Label="Improve Sofia's grades to a &quot;B&quot; average (scenarioGoal_Onboarding_ParentingPredicament_2_SchoolGradeB_Sophia)" Value="297663" />
   <Preset Label="Improve Leonardo's grades to a &quot;B&quot; average (scenarioGoal_Onboarding_ParentingPredicament_2_SchoolGradeB_Leonardo)" Value="297665" />
   <Preset Label="Purchase a Chess Table (scenarioGoal_PurchasedObject_Onboarding_ParentingPredicaments_2_PurchaseChess_Optional)" Value="297666" />
   <Preset Label="Place your Laptop (situationGoal_ObjectCount_StuckintheirShadow_Phase1_Computer)" Value="297703" />
-  <Preset Label="Upgrade Bed\nto Energy 6 (situationGoal_ObjectCount_StuckintheirShadow_Phase2_Bed)" Value="297704" />
+  <Preset Label="Buy Bed with\nEnergy Rating of 6 (situationGoal_ObjectCount_StuckintheirShadow_Phase2_Bed)" Value="297704" />
   <Preset Label="Work Hard...\nor Schmooze Boss (scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_3WorkTone)" Value="297722" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_StressedWork" Value="297723" />
   <Preset Label="scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase6_Woohoo" Value="297745" />
@@ -1276,7 +1336,7 @@
   <Preset Label="scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_Friendly" Value="297879" />
   <Preset Label="scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_Mean" Value="297880" />
   <Preset Label="scenarioGoal_Onboarding_NewInTown_Phase6_1_option4_EndNoScore" Value="298074" />
-  <Preset Label="Complete or dismiss the Welcome Wagon (scenarioGoal_Onboarding_NewInTown_Phase1_6c_WelcomeWagon_Complete)" Value="298282" />
+  <Preset Label="Complete the Welcome Wagon (scenarioGoal_Onboarding_NewInTown_Phase1_6c_WelcomeWagon_Complete)" Value="298282" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase3_MaxSkills_Sofia" Value="298418" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase3_MaxSkills_Leonardo" Value="298419" />
   <Preset Label="Take Sofia and Leonardo to the Park (scenarioGoal_ZoneLoaded_Onboarding_ParentingPredicament_TakeKidstoPark)" Value="298421" />
@@ -1286,12 +1346,12 @@
   <Preset Label="Take Sofia and Leonardo to the Library (scenarioGoal_ZoneLoaded_Onboarding_ParentingPredicament_TakeKidsToLibrary)" Value="298425" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase3_CompleteAspiration_Leonardo" Value="298426" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase3_CompleteAspiration_Sofia" Value="298427" />
-  <Preset Label="Max one of Sofia and Leonardo's Skills (scenarioGoal_Compound_Onboarding_ParentingPredicaments_MaxChildSkills)" Value="298429" />
+  <Preset Label="Reach Level 5 in one of Sofia and Leonardo's Skills (scenarioGoal_Compound_Onboarding_ParentingPredicaments_MaxChildSkills)" Value="298429" />
   <Preset Label="Complete Child Aspirations (scenarioGoal_Compound_Onboarding_ParentingPredicaments_CompleteChildAspirations)" Value="298430" />
   <Preset Label="Fight Lewis (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_4Fight)" Value="298451" />
   <Preset Label="Quit your Job (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_3Quit)" Value="298453" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase3_NewChildAspiration_Leonardo" Value="298528" />
-  <Preset Label="Pick a New Aspiration Track for Sophia and Leonardo and Complete the First Level (scenarioGoal_Compound_Onboarding_ParentingPredicaments_NewChildAspirations)" Value="298529" />
+  <Preset Label="Pick a New Aspiration Track for Sofia and Leonardo and Complete the First Level (scenarioGoal_Compound_Onboarding_ParentingPredicaments_NewChildAspirations)" Value="298529" />
   <Preset Label="Pick a New Style for Sofia (scenarioGoal_ObjectInteraction_ParentingPredicaments_4_PickNewStyle_Sofia)" Value="298578" />
   <Preset Label="Pick a New Style for Leonardo (scenarioGoal_ObjectInteraction_ParentingPredicaments_4_PickNewStyle_Leonardo)" Value="298579" />
   <Preset Label="Complete a Teenage Aspiration for Sofia (scenarioGoal_Onboarding_ParentingPredicament_Phase4_CompleteTeenAspiration_Sofia)" Value="298581" />
@@ -1301,8 +1361,8 @@
   <Preset Label="Make Sofia and Leonardo do household chores and cleaning (scenarioGoal_ObjectInteraction_ParentingPredicaments_4_Chores)" Value="298588" />
   <Preset Label="Get a Part Time Job for Sofia and Leonardo (scenarioGoal_ObjectInteraction_ParentingPredicaments_4_PartTimeJob)" Value="298589" />
   <Preset Label="Go Out on a First Date (scenarioGoal_Onboarding_ParentingPredicament_Phase4_TeenDate)" Value="298590" />
-  <Preset Label="Buy Stereo (scenarioGoal_ObjectCount_NewInTown_Phase5_1_BuyStereo)" Value="298599" />
-  <Preset Label="Buy Bar (scenarioGoal_ObjectCount_NewInTown_Phase5_2_BuyBar)" Value="298600" />
+  <Preset Label="Buy a Stereo (scenarioGoal_ObjectCount_NewInTown_Phase5_1_BuyStereo)" Value="298599" />
+  <Preset Label="Buy a Bar (scenarioGoal_ObjectCount_NewInTown_Phase5_2_BuyBar)" Value="298600" />
   <Preset Label="Go Fishing (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase1_4_GoFishing)" Value="298601" />
   <Preset Label="Reconnect\nwith Lewis (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_ReminiscePast)" Value="298806" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_Hidden_BeTeen_Leonardo" Value="298953" />
@@ -1327,13 +1387,11 @@
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_4SnaggleCheck" Value="299091" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_7Accepted" Value="299092" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_7Rejected" Value="299093" />
-  <Preset Label="Befriend another child with Leonardo or Sophia (scenarioGoal_Onboarding_ParentingPredicament_Phase3_BefriendChild)" Value="299230" />
+  <Preset Label="Befriend another child with Leonardo or Sofia (scenarioGoal_Onboarding_ParentingPredicament_Phase3_BefriendChild)" Value="299230" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_0CheckCall" Value="299413" />
   <Preset Label="Become Focused (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_3FocusedMoodlet)" Value="299414" />
   <Preset Label="Keep Nova's Needs Satisfied (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_3ManageMotives)" Value="299417" />
   <Preset Label="A good friend knows all your stories. A best friend helped you write them. (scenarioGoal_CompoundAll_ChildhoodFriends_Main)" Value="299506" />
-  <Preset Label="Unwind\nwith your Hobby (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_PlaceInWorld)" Value="299549" />
-  <Preset Label="Use Telescope (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_Paint)" Value="299550" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_5CheckMotives" Value="299552" />
   <Preset Label="scenarioGoal_Compound_StuckintheirShadow_Phase1_CheckProgress" Value="299558" />
   <Preset Label="Become Best Friends with another Child Sim (scenarioGoal_Actor_ChildhoodFriendsScenario_1)" Value="299564" />
@@ -1344,7 +1402,7 @@
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_5CheckSkills" Value="299580" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_5CheckInventory" Value="299581" />
   <Preset Label="Go Outside (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_GoHere)" Value="299582" />
-  <Preset Label="Upgrade Shower\nto Hygiene 7 (situationGoal_ObjectCount_StuckintheirShadow_Phase2_Shower)" Value="299584" />
+  <Preset Label="Buy Shower with\nHygiene Rating of 7 (situationGoal_ObjectCount_StuckintheirShadow_Phase2_Shower)" Value="299584" />
   <Preset Label="Pick up Telescope and Return (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_GoHome)" Value="299585" />
   <Preset Label="Get promoted to: Startup Entrepreneur or eSports Gamer (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_2Branch)" Value="299630" />
   <Preset Label="Get Distracted with a Hobby (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_Hobby)" Value="299633" />
@@ -1372,6 +1430,12 @@
   <Preset Label="Reach Level 2 Comedy Skill (scenarioGoal_Onboarding_NewInTown_Phase4_8_ComedySkill2)" Value="299964" />
   <Preset Label="Reach Level 2 Mischief Skill (scenarioGoal_Onboarding_NewInTown_Phase4_9_MischiefSkill2)" Value="299965" />
   <Preset Label="Complete Daily Task (scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_1WorkTask)" Value="299980" />
+  <Preset Label="Attend Social Studies Class (goal_Event_HighSchool_Active_AttendClass_SocialStudies)" Value="300031" />
+  <Preset Label="Learn in Art Class (goal_Event_HighSchool_Active_AttendClass_Art)" Value="300032" />
+  <Preset Label="Attend Business Class (goal_Event_HighSchool_Active_AttendClass_Business)" Value="300033" />
+  <Preset Label="Attend Language Arts Class (goal_Event_HighSchool_Active_AttendClass_LanguageArts)" Value="300035" />
+  <Preset Label="Attend Computer Science Class (goal_Event_HighSchool_Active_AttendClass_ComSci)" Value="300036" />
+  <Preset Label="Attend Foreign Language Class (goal_Event_HighSchool_Active_AttendClass_ForeignLanguage)" Value="300037" />
   <Preset Label="Imaginary Play, Tell Secret or Threaten to Throw Away your Stuffed Animal (situationGoalObjectInteraction_ChildhoodFriendsScenario_4)" Value="300046" />
   <Preset Label="Do Homework (situationGoalObjectInteraction_ChildhoodFriendsScenario_6)" Value="300048" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_ImproveWorsenComplete1" Value="300061" />
@@ -1379,40 +1443,83 @@
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_ImproveWorsenComplete3" Value="300065" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_ImproveWorsenComplete4" Value="300066" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_4HackCheck" Value="300099" />
-  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_3MentorCheck" Value="300101" />
-  <Preset Label="Order Pizza Delivery (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_PizzaCall)" Value="300107" />
   <Preset Label="Call to Meal (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_PizzaEat)" Value="300108" />
-  <Preset Label="Receive Pizza Delivery (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_PizzaTake)" Value="300109" />
   <Preset Label="Flirt with Lewis (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_Flirt)" Value="300116" />
   <Preset Label="Kiss Lewis (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_Kiss)" Value="300117" />
-  <Preset Label="scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_Woohoo" Value="300118" />
+  <Preset Label="Woohoo\nwith Lewis (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_Woohoo)" Value="300118" />
   <Preset Label="Declare Lewis\nas your Enemy (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_Enemies)" Value="300119" />
-  <Preset Label="situationGoal_ObjectCount_StuckintheirShadow_Phase4a_Sofa" Value="300122" />
-  <Preset Label="situationGoal_ObjectCount_StuckintheirShadow_Phase4a_HardDrive" Value="300123" />
-  <Preset Label="Display Career Rewards (scenarioGoal_Compound_StuckintheirShadow_Phase4a_SofaHardDrive)" Value="300124" />
   <Preset Label="Enable Emotional Aura (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_AuraEnable)" Value="300125" />
   <Preset Label="Get a\nReward Trait (scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_4BuyTrait)" Value="300138" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_1HasCareer" Value="300140" />
   <Preset Label="Mod Game (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_ModGame)" Value="300226" />
   <Preset Label="Go to Work\nFeeling Confident (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_WorkConfident)" Value="300229" />
-  <Preset Label="End of Sleepover:\nGo to Sleep (scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_9Sleep)" Value="300231" />
+  <Preset Label="End of Phase:\nGo to Sleep (scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_9Sleep)" Value="300231" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_9DecisionCheck" Value="300232" />
+  <Preset Label="Enable Emotional Aura (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_AuraPrint)" Value="300346" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_7CanQuit" Value="300349" />
+  <Preset Label="Reach Level 7\nProgramming Skill (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_5Program7)" Value="300350" />
+  <Preset Label="Reach Level 9\nProgramming Skill (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_5Program9)" Value="300351" />
+  <Preset Label="Study for Exams (goal_Event_HighSchool_Active_StudyForExam_Morning)" Value="300499" />
+  <Preset Label="Be Friendly with a Student (goal_Event_HighSchool_Active_BeFriendly_Student)" Value="300500" />
+  <Preset Label="Be Friendly with a Faculty Member (goal_Event_HighSchool_Active_BeFriendly_Teacher)" Value="300501" />
+  <Preset Label="Perform the T-Pose Challenge (goal_Event_HighSchool_Active_TPose_Morning)" Value="300502" />
+  <Preset Label="Work out on Treadmill (goal_Event_HighSchool_Active_WorkOut_Treadmill)" Value="300503" />
+  <Preset Label="Work Out on Exercise Machine (goal_Event_HighSchool_Active_WorkOut_Machine)" Value="300529" />
+  <Preset Label="Study for Exams (goal_Event_HighSchool_Active_StudyForExam_Afternoon)" Value="300546" />
+  <Preset Label="Perform the T-Pose Challenge (goal_Event_HighSchool_Active_TPose_Afternoon)" Value="300548" />
   <Preset Label="Proud Parent (scenarioGoal_CompoundAll_ProudParent)" Value="300582" />
   <Preset Label="Have or adopt a baby! (scenarioGoal_ObjectInteraction_ProudParent_HaveBaby)" Value="300584" />
   <Preset Label="Take care of your baby (scenarioGoal_ObjectInteraction_ProudParent_BabyCare)" Value="300585" />
   <Preset Label="Have your Toddler interact with the Wabbit Tablet (scenarioGoal_ObjectInteraction_ProudParent_WabbitTablet)" Value="300586" />
   <Preset Label="Have your Toddler reach Level 5 Imagination Skill (scenarioGoal_Actor_Skills_ProudParent_ImaginationSkill)" Value="300587" />
   <Preset Label="Read to your Toddler (scenarioGoal_ObjectInteraction_ProudParent_ReadToToddler)" Value="300588" />
+  <Preset Label="Make Plugin\nor Virus (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_PluginVirus)" Value="300609" />
+  <Preset Label="Achieve Level 5 Programming Skill (scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_5Programming)" Value="300610" />
+  <Preset Label="Use Telescope (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_UseTelescope)" Value="300611" />
+  <Preset Label="Purchase\nVoodoo Doll (scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_6Doll)" Value="300612" />
   <Preset Label="Have your child complete a Childhood Aspiration (scenarioGoal_Actor_ProudParent_ChildhoodAspiration)" Value="300621" />
   <Preset Label="Help your Child with their homework (scenarioGoal_ObjectInteraction_ProudParent_HomeworkHelp)" Value="300622" />
+  <Preset Label="Bind Voodoo Doll to Lewis (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_Bind)" Value="300649" />
+  <Preset Label="Poke or Cuddle Voodoo Doll (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_Voodoo)" Value="300650" />
+  <Preset Label="Check Mailbox (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_CheckMail)" Value="300655" />
   <Preset Label="Repair your relationship with your Teen and Become Good Friends (scenarioGoal_Actor_ProudParent_TeenRel)" Value="300681" />
+  <Preset Label="scenarioGoal_Compound_Onboarding_NewInTown_Phase4_4a_OtherMandatoryGoalsCompleted" Value="300763" />
+  <Preset Label="Answer Phone (scenarioGoal_Compound_Onboarding_NewInTown_Phase4_4b_AnswerPhone)" Value="300764" />
+  <Preset Label="scenarioGoal_Onboarding_NewInTown_Phase4_4b_option1_ChoseDate" Value="300769" />
+  <Preset Label="scenarioGoal_Onboarding_NewInTown_Phase4_4b_option2_ChoseHangout" Value="300770" />
+  <Preset Label="Invite Sims to Hangout at Venue (scenarioGoal_Onboarding_NewInTown_Phase5a_1a_StartHangout)" Value="300777" />
+  <Preset Label="Go Home (scenarioGoal_ZoneLoaded_Onboarding_NewInTown_Phase5a_1b_GoHome)" Value="300782" />
+  <Preset Label="Go Home (scenarioGoal_ZoneLoaded_Onboarding_NewInTown_Phase5b_1d_GoHome)" Value="300787" />
+  <Preset Label="Order Drinks For Group (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase5a_4b_OrderDrinksForParty)" Value="300788" />
+  <Preset Label="Romance Someone (scenarioGoal_Onboarding_NewInTown_Phase5b_1a_HaveRomanticRelationship)" Value="300800" />
+  <Preset Label="Ask Someone on a Date (scenarioGoal_Onboarding_NewInTown_Phase5b_1b_StartDate)" Value="300801" />
+  <Preset Label="Finish Date (scenarioGoal_Onboarding_NewInTown_Phase5b_1c_FinishDate)" Value="300802" />
   <Preset Label="Main Goal: \nCall Guests to Meal prepared on the Grill (situation_goal_CookOut_Main_CallToMeal)" Value="300826" />
+  <Preset Label="Have a Girlfriend or Boyfriend (scenarioGoal_Onboarding_NewInTown_Phase6_3b_HavePartner)" Value="300918" />
+  <Preset Label="Woohoo with Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase6_4_Woohoo)" Value="300920" />
+  <Preset Label="Buy Microphone or Instrument (scenarioGoal_PurchasedObject_Onboarding_NewInTown_Phase1_3_BuyMicrophoneOrInstrument)" Value="300929" />
+  <Preset Label="Buy Some Decor (scenarioGoal_PurchasedObject_Onboarding_NewInTown_Phase1_4_BuyDecor)" Value="300930" />
+  <Preset Label="scenarioGoal_ZoneLoaded_Onboarding_NewInTown_Phase4a_4b_TravelToBarClubLounge" Value="300997" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_ProudParent_YAE)" Value="301007" />
   <Preset Label="A child was taken away due to neglect (scenarioGoal_Actor_Hidden_Buff_ProudParent_Neglectful)" Value="301009" />
   <Preset Label="Tell Corny Jokes to Guests (Goal_Jokes_Corny)" Value="301087" />
   <Preset Label="Debate Charcoal vs. Propane (Goal_Debate_Charcoal_vs_Propane)" Value="301088" />
   <Preset Label="Have grill artist Grill on the Grill! (Goal_CraftFood_Grill)" Value="301235" />
+  <Preset Label="scenarioGoal_Onboarding_NewInTown_Phase3a_5a_LowHygiene" Value="301258" />
+  <Preset Label="Invite Someone to Travel (scenarioGoal_Onboarding_NewInTown_Phase2_2_InviteToTravel)" Value="301260" />
   <Preset Label="Be Friendly with {2.SimFirstName} (whim_BeFriendlyWith_RomanticSet)" Value="301297" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_ImproveWorsenComplete5" Value="301365" />
+  <Preset Label="Mock Outfit (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_MockOutfit)" Value="301367" />
+  <Preset Label="Get Fast Internet (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_3FastInternet)" Value="301372" />
+  <Preset Label="situationGoal_ObjectCount_StuckintheirShadow_Phase4a_DisplayAward" Value="301373" />
+  <Preset Label="Reach Level 6 Programming Skill (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_2Programming)" Value="301375" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_0CheckLevel" Value="301376" />
+  <Preset Label="Reach Level 6\nProgramming Skill (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_5Program6)" Value="301377" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_5CheckLevel" Value="301378" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_7Rejected2" Value="301385" />
+  <Preset Label="situationGoal_ObjectCount_StuckintheirShadow_Phase4a_DisplayAward2" Value="301386" />
+  <Preset Label="situationGoal_ObjectCount_StuckintheirShadow_Phase4a_DisplayAward3" Value="301387" />
+  <Preset Label="Display Career Rewards (scenarioGoal_Compound_StuckintheirShadow_Phase4a_DisplayAwards)" Value="301388" />
   <Preset Label="Listen to Alternative Music (whim_LikedMusic_ListenTo_Alternative)" Value="301397" />
   <Preset Label="Listen to Blues Music (whim_LikedMusic_ListenTo_Blues)" Value="301400" />
   <Preset Label="Listen to Classical Music (whim_LikedMusic_ListenTo_Classical)" Value="301457" />
@@ -1427,6 +1534,12 @@
   <Preset Label="Listen to SPop Music (whim_LikedMusic_ListenTo_SPop)" Value="301466" />
   <Preset Label="Listen to Winter Holiday Music (whim_LikedMusic_ListenTo_WinterMusic)" Value="301467" />
   <Preset Label="Listen to World Music (whim_LikedMusic_ListenTo_World)" Value="301468" />
+  <Preset Label="Listen to Cottagecore Music (Whim_LikedMusic_ListenTo_CottageCore)" Value="301488" />
+  <Preset Label="Invite Lewis Over (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_InviteLewis)" Value="301555" />
+  <Preset Label="Ask about Career (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_AskAboutCareer)" Value="301595" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_6AstronautCheck" Value="301597" />
+  <Preset Label="Join Astronaut Career (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_1Astronaut)" Value="301600" />
+  <Preset Label="Get promoted to: Startup Entrepreneur or eSports Gamer (scenarioGoal_Compound_StuckintheirShadow_Phase4a_PromoteOrAstronaut)" Value="301601" />
   <Preset Label="Perfect the Art of Grilling (scenarioGoal_CompoundAll_cookout)" Value="301714" />
   <Preset Label="Buy a Grill (scenarioGoal_PurchasedObject_Cookout_BBQ)" Value="301731" />
   <Preset Label="Buy an optional Cook Out object (scenarioGoal_PurchasedObject_Cookout_OptionalObjects)" Value="301732" />
@@ -1436,6 +1549,11 @@
   <Preset Label="Raise your Comedy Skill to 4 (scenarioGoal_Actor_Cookout_ComedySkill)" Value="301738" />
   <Preset Label="Level up your Cooking Skill to 7 (scenarioGoal_Actor_Cookout_CookingSkill)" Value="301739" />
   <Preset Label="Host a Cook Out! (scenarioGoal_Actor_Cookout_HostCookout)" Value="301740" />
+  <Preset Label="situationGoal_ObjectCount_StuckintheirShadow_Phase4a_ReceivedMail" Value="301816" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_6AstronautCheck2" Value="301818" />
+  <Preset Label="Go to Work (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_WorkAstronaut)" Value="301819" />
+  <Preset Label="Criticize\nWoohoo Techniques (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_CriticizeWoohoo)" Value="301821" />
+  <Preset Label="Ask to\nJust be Friends (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_AskJustFriends)" Value="301892" />
   <Preset Label="Explore the Night (scenarioGoal_CompoundAll_ExploreTheNight)" Value="301997" />
   <Preset Label="Brew and drink coffee (scenarioGoal_ObjectInteraction_ExploreTheNight_DrinkCoffee)" Value="301999" />
   <Preset Label="Drink a Sleep Replacement Potion (scenarioGoal_ObjectInteraction_ExploreTheNight_DrinkSleepReplacement)" Value="302000" />
@@ -1443,5 +1561,79 @@
   <Preset Label="Acquire the Night Owl Trait (situationGoalActor_ExploreTheNight_NightOwlTrait)" Value="302054" />
   <Preset Label="Befriend a Ghost and invite them to join your household (scenarioGoal_ObjectInteraction_ExploreTheNight_GhostMoveIn)" Value="302055" />
   <Preset Label="Order a drink at a Nightclub, Lounge, or Bar at Night (scenarioGoal_ObjectInteraction_ExploreTheNight_OrderDrink)" Value="302056" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_8HasDoll" Value="302133" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_5AskedCareer" Value="302139" />
+  <Preset Label="Read the Postcard (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_ReadPostcard)" Value="302183" />
+  <Preset Label="Listen to Lewis' Proposal (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_7AstronautProposal)" Value="302212" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_7Accepted2" Value="302213" />
   <Preset Label="Work night shifts (scenarioGoal_ObjectInteraction_ExploreTheNight_NightShift)" Value="302262" />
+  <Preset Label="Get promoted to: Startup Entrepreneur or eSports Gamer (scenarioGoal_Compound_StuckintheirShadow_Phase4b_PromoteOrIndie)" Value="302387" />
+  <Preset Label="Rejoin the\nTech Guru Career (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_0Rejoin)" Value="302822" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_0Unemployed" Value="302823" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_7Accepted3" Value="303105" />
+  <Preset Label="Wait for Lewis to Arrive (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_4LewisArrived)" Value="303445" />
+  <Preset Label="Get to Know Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_5_GetToKnow)" Value="303511" />
+  <Preset Label="Unwind\nwith your Hobby (situationGoal_ObjectCount_StuckintheirShadow_Phase1_Telescope)" Value="303521" />
+  <Preset Label="Let Go of Resentment (whim_FearConfrontation_DisappointingParents_DeceasedParent)" Value="304165" />
+  <Preset Label="Lock your Laptop (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_LockPC)" Value="304798" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_5OwnsPet" Value="304805" />
+  <Preset Label="Place Space Slug (situationGoal_ObjectCount_StuckintheirShadow_Phase4a_SpaceSlug)" Value="304809" />
+  <Preset Label="Travel to Auditorium (goal_Event_HighSchool_Active_TravelToAuditorium)" Value="304830" />
+  <Preset Label="Buy Microphone or Instrument (scenarioGoal_ObjectCount_NewInTown_Phase1_3_BuyInstrumentMicrophone)" Value="304868" />
+  <Preset Label="Buy Some Decor (scenarioGoal_ObjectCount_NewInTown_Phase1_4_BuyDecor)" Value="304869" />
+  <Preset Label="Buy At Least One Kid's Toy (scenarioGoal_ObjectCount_ParentingPredicaments_2_BuyChildToys)" Value="304870" />
+  <Preset Label="Purchase a Chess Table (scenarioGoal_ObjectCount_ParentingPredicaments_1_BuyChess_Optional)" Value="304871" />
+  <Preset Label="Buy a Workout Machine (situationGoal_ObjectCount_StuckintheirShadow_Phase4a_GymMachine)" Value="305078" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_6AstronautCheck3" Value="305082" />
+  <Preset Label="Workout (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_Workout)" Value="305084" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_ImproveWorsenComplete6" Value="305085" />
+  <Preset Label="Instill Lewis with False Confidence (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_FalseConfidence)" Value="305086" />
+  <Preset Label="Child Sim Aged Up before completing all the goals (scenarioGoal_Actor_AlienAbduction_AgedUp_Child)" Value="305209" />
+  <Preset Label="Teen Sim Aged Up before completing all the goals (scenarioGoal_Actor_AlienAbduction_AgedUp_Teen)" Value="305211" />
+  <Preset Label="Raise Funds and the Child Sim before Aging Up (scenarioGoal_CompoundAll_AlienAbduction)" Value="305212" />
+  <Preset Label="Have {0.Money} (scenarioGoal_Actor_HouseholdFunds_15k)" Value="305213" />
+  <Preset Label="Raise Child’s grade to an A (scenarioGoal_Actor_AlienAbduction_AStudentChild)" Value="305214" />
+  <Preset Label="Hire a Nanny (scenarioGoal_ObjectInteraction_AlienAbduction_HireNanny)" Value="305216" />
+  <Preset Label="Group Cook Together (scenarioGoal_Actor_AlienAbduction_GroupCook)" Value="305217" />
+  <Preset Label="Complete an aspiration with the Child Sim (scenarioGoal_Actor_AlienAbduction_ChildAspiration)" Value="305218" />
+  <Preset Label="Have the Teen Sim get a Part-Time job (scenarioGoal_Actor_AlienAbduction_PartTimeJob)" Value="305219" />
+  <Preset Label="Raise Teen’s grade to an A (scenarioGoal_Actor_AlienAbduction_AStudentTeen)" Value="305228" />
+  <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_TeenSim_0)" Value="305234" />
+  <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_ChildSim_AlienAbduction)" Value="305270" />
+  <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_RivalSituation_NoRivalSituationRunning" Value="306510" />
+  <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_AgedUp_Hidden" Value="307948" />
+  <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_AgedUp_Hidden_2" Value="307949" />
+  <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_Child_MissedAgeUp" Value="308190" />
+  <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_Adult_MissedAgeUp_Pablo" Value="308194" />
+  <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_Child_MissedAgeUp_Sofia" Value="308195" />
+  <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_Adult_MissedAgeUp_Jennifer" Value="308196" />
+  <Preset Label="Make Sure Kids Get a Good Night's Sleep (scenarioGoal_Compound_Onboarding_ParentingPredicaments_ChildSleep)" Value="308511" />
+  <Preset Label="Make Sure Kids Get a Good Night's Sleep (scenarioGoal_InteractionTime_Onboarding_ParentingPredicaments_1_SleepNight_Sofia)" Value="308513" />
+  <Preset Label="Have Leonardo and Sofia Play with Toys (scenarioGoal_ObjectInteraction_ParentingPredicaments_1_PlayWithToys_Optional_Sofia)" Value="308515" />
+  <Preset Label="Have Leonardo and Sofia Play with Toys (scenarioGoal_Compound_Onboarding_ParentingPredicaments_PlayWithToys)" Value="308516" />
+  <Preset Label="Give Sofia and Leonardo a Bath or Shower (scenarioGoal_ObjectInteraction_ParentingPredicaments_1_ChildShowerBathe_Sofia)" Value="308518" />
+  <Preset Label="Give Sofia and Leonardo a Bath or Shower (scenarioGoal_Compound_Onboarding_ParentingPredicaments_ChildShowerBathe)" Value="308519" />
+  <Preset Label="Make Sofia and Leonardo do their homework (scenarioGoal_ObjectInteraction_ParentingPredicaments_2_DoHomework_Sofia)" Value="308531" />
+  <Preset Label="Make Sofia and Leonardo do their homework (scenarioGoal_Compound_Onboarding_ParentingPredicaments_DoHomework)" Value="308532" />
+  <Preset Label="Get Leonardo and Sofia into a Focused Mood (scenarioGoal_Onboarding_ParentingPredicament_2_FocusedMood_Sofia)" Value="308534" />
+  <Preset Label="Get Leonardo and Sofia into a Focused Mood (scenarioGoal_Compound_Onboarding_ParentingPredicaments_FocusedBuff)" Value="308535" />
+  <Preset Label="Send Leonardo and Sofia to School while in a Focused Mood (scenarioGoal_ObjectInteraction_ParentingPredicaments_2_WentToSchool_Sofia)" Value="308537" />
+  <Preset Label="Send Leonardo and Sofia to School while in a Focused Mood (scenarioGoal_Compound_Onboarding_ParentingPredicaments_SchoolFocused)" Value="308538" />
+  <Preset Label="Have Sofia and Leonardo Read at the Library (scenarioGoal_ObjectInteraction_ParentingPredicaments_3_ReadBook_Sofia)" Value="308540" />
+  <Preset Label="Have Sofia and Leonardo Read at the Library (scenarioGoal_Compound_Onboarding_ParentingPredicaments_ReadBooks)" Value="308541" />
+  <Preset Label="Have Sims Watch TV at the Same Time (goal_HaveTwoSimsWatchTV)" Value="311732" />
+  <Preset Label="lifeMilestoneGoal_Trait_BecameWerewolf" Value="312388" />
+  <Preset Label="lifeMilestoneGoal_Trait_HighSchoolDroppedOut" Value="312392" />
+  <Preset Label="lifeMilestoneGoal_Trait_HighSchoolExpelled" Value="312393" />
+  <Preset Label="lifeMilestoneGoal_Trait_HighSchoolGraduated" Value="312394" />
+  <Preset Label="lifeMilestoneGoal_Trait_BeganPuberty" Value="312397" />
+  <Preset Label="lifeMilestoneGoal_Actor_PromRoyalty" Value="313432" />
+  <Preset Label="lifeMilestoneGoal_Actor_WonVillageFair" Value="313472" />
+  <Preset Label="lifeMilestoneGoal_Actor_BeatGreg" Value="313476" />
+  <Preset Label="lifeMilestoneGoal_Actor_SmackedByAgnes" Value="313477" />
+  <Preset Label="lifeMilestoneGoal_Trait_WerewolfPackLeaderA" Value="313483" />
+  <Preset Label="lifeMilestoneGoal_Trait_WerewolfPackLeaderB" Value="313484" />
+  <Preset Label="Confess to Cheating (romanticWhims_Targeted_Loyal_Confess)" Value="315805" />
+  <Preset Label="Breakup with Unfaithful Partner (romanticWhims_Targeted_Loyal_Breakup)" Value="315806" />
+  <Preset Label="Express Devotion to a Beloved Sim (romanticWhims_Targeted_Loyal_ExpressDevotion)" Value="315807" />
 </PresetGroup>

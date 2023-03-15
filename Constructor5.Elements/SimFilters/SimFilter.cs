@@ -34,6 +34,8 @@ namespace Constructor5.Elements.SimFilters
         public bool BanTraitSkeletons { get; set; } = true;
         public bool BanTraitTemperance { get; set; } = true;
         public bool BanTraitTownMascot { get; set; } = true;
+        public bool BanAllCelebrities { get; set; }
+        public bool BanBusySims { get; set; }
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
 
         public bool IncludeLod { get; set; } = true;
@@ -160,6 +162,15 @@ namespace Constructor5.Elements.SimFilters
                 traitBlacklistKeys.Add(288294);
             }
 
+            if (BanAllCelebrities)
+            {
+                traitBlacklistKeys.Add(191807);
+                traitBlacklistKeys.Add(191819);
+                traitBlacklistKeys.Add(191820);
+                traitBlacklistKeys.Add(191817);
+                traitBlacklistKeys.Add(191818);
+            }
+
             if (traitBlacklistKeys.Count > 0)
             {
                 var blacklistVariant = filterTermsList.Set<TunableVariant>(null, "trait_blacklist");
@@ -205,6 +216,14 @@ namespace Constructor5.Elements.SimFilters
             if (MustBeCompatibleRegion)
             {
                 filterTermsList.Set<TunableVariant>(null, "in_compatible_region");
+            }
+
+            if (BanBusySims)
+            {
+                var tunableVariant1 = filterTermsList.Set<TunableVariant>(null, "is_busy");
+                var tunableTuple1 = tunableVariant1.Get<TunableTuple>("is_busy");
+                tunableTuple1.Set<TunableBasic>("invert_score", "True");
+
             }
         }
     }

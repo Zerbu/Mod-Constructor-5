@@ -18,9 +18,13 @@ namespace Constructor5.InteractionTemplates.Immediate
         public ReferenceList LootActionSets { get; set; } = new ReferenceList();
 
         [AutoTuneBasic("category")]
-        public Reference PieMenuCategory { get; set; } = new Reference();
+        public override Reference PieMenuCategory { get; set; } = new Reference();
 
         public string TuningActionsFile { get; set; } = "ImmediateInteraction";
+
+        public override ulong GetCustomScoreTypeKey(InteractionExportContext context) => 0;
+
+        public override ulong GetFallbackScoreType(SocialInteractionExportContext socialContext) => 0;
 
         protected override void OnExport(InteractionExportContext context)
         {

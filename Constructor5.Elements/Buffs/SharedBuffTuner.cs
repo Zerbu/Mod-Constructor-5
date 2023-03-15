@@ -12,7 +12,7 @@ namespace Constructor5.Elements.Buffs
     {
         public static bool AlwaysHasContent(Element element) => element.GetContextModifier<CASPreferenceContextModifier>() != null;
 
-        public static TuningHeader CreateTuning(Element element, BuffComponent[] components, string subTuningName = null)
+        public static TuningHeader CreateTuning(Element element, BuffComponent[] components, string subTuningName = null, bool alwaysInvisible = false)
         {
             var tuning = ElementTuning.Create(element, subTuningName);
             tuning.Class = "Buff";
@@ -54,6 +54,11 @@ namespace Constructor5.Elements.Buffs
             if (element is Buff buff)
             {
                 CustomTuningExporter.Export(buff, tuning, buff.CustomTuning);
+            }
+
+            if (alwaysInvisible)
+            {
+                tuning.Set<TunableBasic>("visible", "False");
             }
 
             TuningExport.AddToQueue(tuning);

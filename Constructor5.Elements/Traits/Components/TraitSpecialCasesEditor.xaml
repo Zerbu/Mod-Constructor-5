@@ -60,6 +60,15 @@
                         </StackPanel>
                     </c:Field>
                 </StackPanel>
+
+                <StackPanel>
+                    <c:CheckBox IsChecked="{Binding IsGlobalTrait}">
+                        <StackPanel>
+                            <c:TextBlock Text="IsGlobalTrait" />
+                            <c:TextBlock FontStyle="Italic" Text="IsGlobalTraitHelp" />
+                        </StackPanel>
+                    </c:CheckBox>
+                </StackPanel>
             </c:SpacedStack>
         </c:LeftRightMargin>
     </ScrollViewer>

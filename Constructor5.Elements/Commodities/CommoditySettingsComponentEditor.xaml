@@ -1,14 +1,15 @@
-<UserControl x:Class="Constructor5.Elements.Commodities.CommoditySettingsComponentEditor"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.Elements.Commodities"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-             d:DesignHeight="450"
-             d:DesignWidth="800"
-             mc:Ignorable="d">
+<UserControl
+    x:Class="Constructor5.Elements.Commodities.CommoditySettingsComponentEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.Commodities"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
     <c:LeftRightMargin>
         <c:SpacedStack>
             <StackPanel>
@@ -22,6 +23,12 @@
                     <xctk:DoubleUpDown Text="{Binding DecayRate}" />
                 </c:Field>
                 <c:CheckBox Content="DecayOffLot" IsChecked="{Binding DecayOffLot}" />
+                <c:CheckBox IsChecked="{Binding FullSimulateOffLot}">
+                    <StackPanel>
+                        <c:TextBlock Text="FullySimulateOffLot" />
+                        <c:TextBlock FontStyle="Italic" Text="FullySimulateOffLotHelp" />
+                    </StackPanel>
+                </c:CheckBox>
                 <c:CheckBox Content="IsNonPersistedWithDescription" IsChecked="{Binding IsNonPersisted}" />
                 <c:CheckBox Content="RemoveCommodityOnZero" IsChecked="{Binding RemoveAtLowestValue}" />
             </StackPanel>

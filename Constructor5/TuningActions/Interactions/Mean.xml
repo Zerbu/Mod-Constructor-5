@@ -949,7 +949,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_mean--></T>
+                  <T n="test_based_score">$ScoreTypeKey<!--scores_socialoutcomes_mean--></T>
                   <U n="threshold">
                     <T n="value">15</T>
                   </U>
@@ -1039,7 +1039,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_mean--></T>
+                  <T n="test_based_score">$ScoreTypeKey<!--scores_socialoutcomes_mean--></T>
                   <U n="threshold">
                     <T n="value">25</T>
                   </U>

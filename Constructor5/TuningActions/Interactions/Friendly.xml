@@ -709,6 +709,7 @@
     <E>Interaction_Social_Contagious</E>
     <E>Interaction_Skill_Child_Social</E>
   </L>
+
   <V n="outcome" t="test_based">
     <U n="test_based">
       <L n="fallback_outcomes">
@@ -760,6 +761,7 @@
               <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
               <T>165339<!--loot_ParentingSkill_Tiny--></T>
               <T>216556<!--randomWeightedLoot_Cauldron_Potion_Luck_RandomBenefit_Social_Friendly--></T>
+              <T>294094<!--LootActions: lootActions_TeenRelationshipDrama_AddCrush_LowChance--></T>
               <ForEachReference p="LootActionSets">
                 <IfBool p="RunOnSuccess">
                   <T>$v</T>
@@ -821,6 +823,7 @@
                   <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
                   <T>165339<!--loot_ParentingSkill_Tiny--></T>
                   <T>216556<!--randomWeightedLoot_Cauldron_Potion_Luck_RandomBenefit_Social_Friendly--></T>
+                  <T>294094<!--LootActions: lootActions_TeenRelationshipDrama_AddCrush_LowChance--></T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnGreatSuccess">
                       <T>$v</T>
@@ -838,7 +841,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
+                  <T n="test_based_score">$ScoreTypeKey<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
                   <U n="threshold">
                     <T n="value">$ScoreForGreatSuccess</T>
                   </U>
@@ -898,6 +901,7 @@
                   <T>109228<!--loot_Commodity_CareerBenefit_Agent_Main_Level--></T>
                   <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
                   <T>165339<!--loot_ParentingSkill_Tiny--></T>
+                  <T>311364</T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnFailure">
                       <T>$v</T>
@@ -916,7 +920,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
+                  <T n="test_based_score">$ScoreTypeKey<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
                   <U n="threshold">
                     <E n="comparison">LESS_OR_EQUAL</E>
                     <T n="value">$ScoreForFailure</T>
@@ -977,6 +981,7 @@
                   <T>109228<!--loot_Commodity_CareerBenefit_Agent_Main_Level--></T>
                   <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
                   <T>165339<!--loot_ParentingSkill_Tiny--></T>
+                  <T>311364</T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnHorribleFailure">
                       <T>$v</T>
@@ -995,7 +1000,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">$ScoreType<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
+                  <T n="test_based_score">$ScoreTypeKey<!--scores_socialoutcomes_friendly_AlwaysOn--></T>
                   <U n="threshold">
                     <E n="comparison">LESS_OR_EQUAL</E>
                     <T n="value">$ScoreForHorribleFailure</T>
@@ -1054,6 +1059,7 @@
                   <T>109228<!--loot_Commodity_CareerBenefit_Agent_Main_Level--></T>
                   <T>104567<!--loot_Relationship_Bit_KnowsIsAlien--></T>
                   <T>165339<!--loot_ParentingSkill_Tiny--></T>
+                  <T>311364</T>
                   <ForEachReference p="LootActionSets">
                     <IfBool p="RunOnSocialContextFailure">
                       <T>$v</T>

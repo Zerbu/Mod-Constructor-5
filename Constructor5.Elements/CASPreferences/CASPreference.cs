@@ -22,18 +22,42 @@ namespace Constructor5.Elements.CASPreferences
         public bool AllowToddler { get; set; } = false;
         public bool AllowYoungAdult { get; set; } = true;
 
+        public TestCondition AutoCondition { get; set; } = new AlwaysRunCondition();
         public Reference Category { get; set; } = new Reference();
         public CustomTuningInfo CustomTuning { get; set; } = new CustomTuningInfo();
+        public Reference DislikeBuff { get; set; } = new Reference();
         public Reference DislikeTrait { get; set; } // do not add = new Reference();
         public STBLString DislikeTraitName { get; set; } = new STBLString();
         public ElementIcon Icon { get; set; } = new ElementIcon();
+        public Reference LikeBuff { get; set; } = new Reference();
         public Reference LikeTrait { get; set; } // do not add = new Reference();
         public STBLString LikeTraitName { get; set; } = new STBLString();
         public STBLString PreferenceName { get; set; } = new STBLString();
 
-        public TestCondition AutoCondition { get; set; } = new AlwaysRunCondition();
-        public Reference DislikeBuff { get; set; } = new Reference();
-        public Reference LikeBuff { get; set; } = new Reference();
+        public static Reference CreateDislikeTrait(CASPreference preference, string label)
+        {
+            var newReference = (Trait)ElementManager.Create(typeof(Trait), null, true);
+            newReference.Label = $"Dislikes {label}";
+            newReference.ShowPreset = true;
+            newReference.AddContextModifier(new CASPreferenceContextModifier
+            {
+                CASPreference = new Reference(preference),
+                IsDislike = true
+            });
+            return new Reference(newReference);
+        }
+
+        public static Reference CreateLikeTrait(CASPreference preference, string label)
+        {
+            var newReference = (Trait)ElementManager.Create(typeof(Trait), null, true);
+            newReference.Label = $"Likes {label}";
+            newReference.ShowPreset = true;
+            newReference.AddContextModifier(new CASPreferenceContextModifier
+            {
+                CASPreference = new Reference(preference)
+            });
+            return new Reference(newReference);
+        }
 
         void IExportableElement.OnExport()
         {
@@ -64,27 +88,12 @@ namespace Constructor5.Elements.CASPreferences
 
             if (LikeTrait == null)
             {
-                var newReference = (Trait)ElementManager.Create(typeof(Trait), null, true);
-                newReference.Label = $"Likes {label}";
-                newReference.ShowPreset = true;
-                newReference.AddContextModifier(new CASPreferenceContextModifier
-                {
-                    CASPreference = new Reference(this)
-                });
-                LikeTrait = new Reference(newReference);
+                LikeTrait = CreateLikeTrait(this, label);
             }
 
             if (DislikeTrait == null)
             {
-                var newReference = (Trait)ElementManager.Create(typeof(Trait), null, true);
-                newReference.Label = $"Dislikes {label}";
-                newReference.ShowPreset = true;
-                newReference.AddContextModifier(new CASPreferenceContextModifier
-                {
-                    CASPreference = new Reference(this),
-                    IsDislike = true
-                });
-                DislikeTrait = new Reference(newReference);
+                DislikeTrait = CreateDislikeTrait(this, label);
             }
         }
     }

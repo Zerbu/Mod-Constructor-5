@@ -32,7 +32,9 @@ namespace Constructor5.Elements.Situations.Components
         protected List<ulong> SituationKeys { get; } = new List<ulong>();
 
         protected override void Cleanup()
-        { }
+        {
+            SituationKeys.Clear();
+        }
 
         private SituationSuppressAutomaticBronzePythonStep()
         {

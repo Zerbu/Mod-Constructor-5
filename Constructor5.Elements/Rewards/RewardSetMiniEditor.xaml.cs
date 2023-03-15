@@ -20,7 +20,7 @@ namespace Constructor5.Elements.Rewards
             if (tag == "DescriptionAtTop")
             {
                 UIInfoTab.Visibility = System.Windows.Visibility.Collapsed;
-                UIInfoStackPanel.Children.Remove(DescriptionField);
+                GenerateUIInfoStackPanel.Children.Remove(DescriptionField);
                 DescriptionAtTopPresenter.Content = DescriptionField;
             }
             if (tag == "Aspiration")

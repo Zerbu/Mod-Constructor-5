@@ -55,7 +55,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="GongSolutions.WPF.DragDrop, Version=3.0.0.0, Culture=neutral, PublicKeyToken=91f1945125b7a587, processorArchitecture=MSIL">
-      <HintPath>..\packages\gong-wpf-dragdrop.3.1.1\lib\net48\GongSolutions.WPF.DragDrop.dll</HintPath>
+      <HintPath>..\packages\gong-wpf-dragdrop.3.2.1\lib\net48\GongSolutions.WPF.DragDrop.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="PresentationCore" />
@@ -228,8 +228,12 @@
     </Compile>
     <Compile Include="Buffs\SharedBuffTuner.cs" />
     <Compile Include="CareerEvents\CareerEvent.cs" />
+    <Compile Include="CareerEvents\CareerEventContextModifier.cs" />
     <Compile Include="CareerEvents\CareerEventEditor.xaml.cs">
       <DependentUpon>CareerEventEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CareerEvents\CareerEventMiniEditor.xaml.cs">
+      <DependentUpon>CareerEventMiniEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="CareerEvents\CareerEventSituationContextModifier.cs" />
     <Compile Include="CareerLevels\CareerLevel.cs" />
@@ -238,6 +242,10 @@
       <DependentUpon>CareerLevelEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="CareerLevels\CareerLevelSimDataPositions.cs" />
+    <Compile Include="Careers\Components\CareerEventsComponent.cs" />
+    <Compile Include="Careers\Components\CareerEventsComponentEditor.xaml.cs">
+      <DependentUpon>CareerEventsComponentEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Careers\Components\CareerInteractionComponent.cs" />
     <Compile Include="Careers\Components\CareerInteractionComponentEditor.xaml.cs">
       <DependentUpon>CareerInteractionComponentEditor.xaml</DependentUpon>
@@ -490,6 +498,7 @@
     <Compile Include="LotTraits\LotTraitInfoEditor.xaml.cs">
       <DependentUpon>LotTraitInfoEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Need\Need.cs" />
     <Compile Include="ObjectiveSets\AssignedAspirationTrackContextModifier.cs" />
     <Compile Include="ObjectiveSets\CareerAssignmentGigContextModifier.cs" />
     <Compile Include="ObjectiveSets\CareerAssignmentObjectiveSetContextModifier.cs" />
@@ -699,6 +708,9 @@
       <DependentUpon>SituationJobRewardsEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="SituationJobs\Components\SituationJobSimFilterComponent.cs" />
+    <Compile Include="SituationJobs\Components\SituationJobSimFilterComponentEditor.xaml.cs">
+      <DependentUpon>SituationJobSimFilterComponentEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SituationJobs\Components\SituationJobUniformComponent.cs" />
     <Compile Include="SituationJobs\Components\SituationJobUniformEditor.xaml.cs">
       <DependentUpon>SituationJobUniformEditor.xaml</DependentUpon>
@@ -738,6 +750,9 @@
       <DependentUpon>SituationEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Situations\SituationExportContext.cs" />
+    <Compile Include="Situations\SituationMiniEditor.xaml.cs">
+      <DependentUpon>SituationMiniEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Situations\SituationTemplate.cs" />
     <Compile Include="Skills\Skill.cs" />
     <Compile Include="Statistics\CareerPerformanceStatisticContextModifier.cs" />
@@ -841,6 +856,20 @@
       <DependentUpon>WhimMiniEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Whims\WhimTypes.cs" />
+    <Compile Include="Worlds\World.cs" />
+    <Compile Include="ZoneDirectors\Components\ZoneDirectorMergeComponent.cs" />
+    <Compile Include="ZoneDirectors\Components\ZoneDirectorMergeComponentEditor.xaml.cs">
+      <DependentUpon>ZoneDirectorMergeComponentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ZoneDirectors\Components\ZoneDirectorTemplateComponent.cs" />
+    <Compile Include="ZoneDirectors\DefaultZoneDirectorTemplate.cs" />
+    <Compile Include="ZoneDirectors\ZoneDirector.cs" />
+    <Compile Include="ZoneDirectors\ZoneDirectorComponent.cs" />
+    <Compile Include="ZoneDirectors\ZoneDirectorEditor.xaml.cs">
+      <DependentUpon>ZoneDirectorEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ZoneDirectors\ZoneDirectorExportContext.cs" />
+    <Compile Include="ZoneDirectors\ZoneDirectorTemplate.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Constructor5.Base\Constructor5.Base.csproj">
@@ -983,6 +1012,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="CareerEvents\CareerEventMiniEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CareerLevels\CareerLevelEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -992,6 +1025,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Careers\Components\CareerAvailabilityConditionsComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Careers\Components\CareerEventsComponentEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1363,6 +1400,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SituationJobs\Components\SituationJobSimFilterComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SituationJobs\Components\SituationJobUniformEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -1392,6 +1433,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Situations\SituationEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Situations\SituationMiniEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1479,11 +1524,21 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ZoneDirectors\Components\ZoneDirectorMergeComponentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ZoneDirectors\ZoneDirectorEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="FodyWeavers.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ZoneDirectors\Scheduling\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.6.6.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.0\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

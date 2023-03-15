@@ -36,6 +36,8 @@ namespace Constructor5.Elements.Objectives
         [AutoTuneBasic("tooltip")]
         public STBLString ToolTip { get; set; } = new STBLString();
 
+        public bool NonResettable { get; set; }
+
         // public bool IsResettable { get; set; }
 
         void IExportableElement.OnExport()
@@ -68,7 +70,11 @@ namespace Constructor5.Elements.Objectives
                 BuildSimData(tuning);
             }
 
-            tuning.Set<TunableBasic>("resettable", true);
+            if (!NonResettable)
+            {
+                tuning.Set<TunableBasic>("resettable", true);
+            }
+            
 
             CustomTuningExporter.Export(this, tuning, CustomTuning);
 

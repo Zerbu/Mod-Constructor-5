@@ -1,0 +1,173 @@
+﻿<UserControl
+    x:Class="Constructor5.ZoneDirectorTemplates.ShiftBasedZoneDirectorEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:dd="urn:gong-wpf-dragdrop"
+    xmlns:local="clr-namespace:Constructor5.ZoneDirectorTemplates"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+    xmlns:testconditions="clr-namespace:Constructor5.Elements.TestConditions"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <c:SimpleAddToListCommand x:Key="AddCommand" Type="{x:Type local:ScheduledShift}" />
+        <c:SimpleRemoveFromListCommand
+            x:Key="RemoveCommand"
+            DeleteMessage="AreYouSureGeneric"
+            Type="{x:Type local:ScheduledShift}" />
+
+        <c:SimpleAddToListCommand x:Key="AddSpawnTimeCommand" Type="{x:Type local:ScheduledShiftSpawnTime}" />
+        <c:SimpleRemoveFromListCommand
+            x:Key="RemoveSpawnTimeCommand"
+            DeleteMessage="AreYouSureGeneric"
+            Type="{x:Type local:ScheduledShiftSpawnTime}" />
+    </UserControl.Resources>
+    <c:SpacedStack>
+        <StackPanel>
+            <ListView
+                x:Name="ListView"
+                MaxHeight="200"
+                dd:DragDrop.IsDragSource="True"
+                dd:DragDrop.IsDropTarget="True"
+                ItemsSource="{Binding Shifts}"
+                SelectionMode="Single">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <c:TextBlock IsLocalizable="False" Text="{Binding Label}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackPanel Orientation="Horizontal">
+                <c:Button
+                    Margin="2"
+                    Command="{StaticResource AddCommand}"
+                    CommandParameter="{Binding Shifts}"
+                    Content="AddShift" />
+                <c:Button
+                    Margin="2"
+                    Command="{StaticResource RemoveCommand}"
+                    Content="RemoveShift"
+                    Visibility="{Binding SelectedItem, ElementName=ListView, Converter={StaticResource NotNullToVis}}">
+                    <c:Button.CommandParameter>
+                        <MultiBinding Converter="{StaticResource MultiParamConverter}">
+                            <Binding ElementName="ListView" Path="SelectedItem" />
+                            <Binding Path="Shifts" />
+                        </MultiBinding>
+                    </c:Button.CommandParameter>
+                </c:Button>
+            </StackPanel>
+
+            <c:SpacedStack Visibility="{Binding SelectedItem, ElementName=ListView, Converter={StaticResource NotNullToVis}}">
+
+                <c:Field Label="Label" LabelWidth="200">
+                    <c:TextBox Text="{Binding SelectedItem.Label, ElementName=ListView, UpdateSourceTrigger=PropertyChanged}" />
+                </c:Field>
+
+                <StackPanel>
+                    <c:CheckBox Content="Sunday" IsChecked="{Binding SelectedItem.Allow0Sunday, ElementName=ListView}" />
+                    <c:CheckBox Content="Monday" IsChecked="{Binding SelectedItem.Allow1Monday, ElementName=ListView}" />
+                    <c:CheckBox Content="Tuesday" IsChecked="{Binding SelectedItem.Allow2Tuesday, ElementName=ListView}" />
+                    <c:CheckBox Content="Wednesday" IsChecked="{Binding SelectedItem.Allow3Wednesday, ElementName=ListView}" />
+                    <c:CheckBox Content="Thursday" IsChecked="{Binding SelectedItem.Allow4Thursday, ElementName=ListView}" />
+                    <c:CheckBox Content="Friday" IsChecked="{Binding SelectedItem.Allow5Friday, ElementName=ListView}" />
+                    <c:CheckBox Content="Saturday" IsChecked="{Binding SelectedItem.Allow6Saturday, ElementName=ListView}" />
+                </StackPanel>
+
+                <StackPanel>
+                    <c:Field Label="SpawnTimes" LabelWidth="100">
+                        <StackPanel>
+                            <ListView
+                                x:Name="SpawnTimeListView"
+                                dd:DragDrop.IsDragSource="True"
+                                dd:DragDrop.IsDropTarget="True"
+                                ItemsSource="{Binding SelectedItem.SpawnTimes, ElementName=ListView}"
+                                SelectionMode="Single">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <c:TextBlock IsLocalizable="False" Text="{Binding StartHour}" />
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+
+                            <StackPanel Orientation="Horizontal">
+                                <c:Button
+                                    Margin="2"
+                                    Command="{StaticResource AddSpawnTimeCommand}"
+                                    CommandParameter="{Binding SelectedItem.SpawnTimes, ElementName=ListView}"
+                                    Content="AddSpawnTime" />
+                                <c:Button
+                                    Margin="2"
+                                    Command="{StaticResource RemoveSpawnTimeCommand}"
+                                    Content="RemoveSpawnTime"
+                                    DataContext="{Binding SelectedItem, ElementName=ListView}"
+                                    Visibility="{Binding SelectedItem, ElementName=SpawnTimeListView, Converter={StaticResource NotNullToVis}}">
+                                    <c:Button.CommandParameter>
+                                        <MultiBinding Converter="{StaticResource MultiParamConverter}">
+                                            <Binding ElementName="SpawnTimeListView" Path="SelectedItem" />
+                                            <Binding Path="SpawnTimes" />
+                                        </MultiBinding>
+                                    </c:Button.CommandParameter>
+                                </c:Button>
+                            </StackPanel>
+
+                            <StackPanel Visibility="{Binding SelectedItem, ElementName=SpawnTimeListView, Converter={StaticResource NotNullToVis}}">
+                                <c:Field Label="StartHour" LabelWidth="200">
+                                    <xctk:IntegerUpDown
+                                        Maximum="23"
+                                        Minimum="0"
+                                        Text="{Binding SelectedItem.StartHour, ElementName=SpawnTimeListView}" />
+                                </c:Field>
+                                <c:Field Label="MinAmount" LabelWidth="200">
+                                    <xctk:IntegerUpDown
+                                        Maximum="23"
+                                        Minimum="0"
+                                        Text="{Binding SelectedItem.MinAmount, ElementName=SpawnTimeListView}" />
+                                </c:Field>
+                                <c:Field Label="MaxAmount" LabelWidth="200">
+                                    <xctk:IntegerUpDown
+                                        Maximum="23"
+                                        Minimum="0"
+                                        Text="{Binding SelectedItem.MaxAmount, ElementName=SpawnTimeListView}" />
+                                </c:Field>
+                            </StackPanel>
+                        </StackPanel>
+                    </c:Field>
+                    <StackPanel>
+                        <c:TextBlock Text="Situations" />
+                        <c:ReferenceListControl
+                            ElementReferenceList="{Binding SelectedItem.Situations, ElementName=ListView}"
+                            ElementTypeName="Situation"
+                            ItemTypeName="ScheduledSituation" />
+                    </StackPanel>
+                    <c:CheckBox Content="AllowShiftsToOverlap" IsChecked="{Binding SelectedItem.Overlap, ElementName=ListView}" />
+                </StackPanel>
+
+                <StackPanel>
+                    <c:CheckBox Content="ObjectBasedMultiplier" IsChecked="{Binding SelectedItem.ObjectBasedMultiplier, ElementName=ListView}" />
+                    <StackPanel Visibility="{Binding SelectedItem.ObjectBasedMultiplier, ElementName=ListView, Converter={StaticResource BoolToVis}}">
+                        <StackPanel>
+                            <c:Field Label="IncreaseMultiplierForEveryInstances">
+                                <xctk:IntegerUpDown Text="{Binding SelectedItem.ObjectBasedMultiplierIterations, ElementName=ListView}" />
+                            </c:Field>
+                            <c:Field Label="StartingFromInstance">
+                                <xctk:IntegerUpDown Text="{Binding SelectedItem.StartObjectBasedMultiplierFrom, ElementName=ListView}" />
+                            </c:Field>
+                            <c:Field Label="MaximumTimes">
+                                <xctk:IntegerUpDown Text="{Binding SelectedItem.ObjectBasedMultiplierMax, ElementName=ListView}" />
+                            </c:Field>
+                        </StackPanel>
+                        <c:Field Label="ObjectTags" LabelWidth="200">
+                            <c:StringListControl PresetsFolder="ObjectTag" StringList="{Binding SelectedItem.ObjectBasedMultiplierTags, ElementName=ListView}" />
+                        </c:Field>
+                    </StackPanel>
+                </StackPanel>
+
+            </c:SpacedStack>
+        </StackPanel>
+    </c:SpacedStack>
+</UserControl>

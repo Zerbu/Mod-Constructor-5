@@ -1,0 +1,22 @@
+﻿<UserControl
+    x:Class="Constructor5.ZoneDirectorTemplates.ScheduledSituationEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.ZoneDirectorTemplates"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:testconditions="clr-namespace:Constructor5.Elements.TestConditions;assembly=Constructor5.Elements"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <StackPanel>
+        <c:Field Label="Weight" LabelWidth="100">
+            <xctk:IntegerUpDown Text="{Binding Weight}" />
+        </c:Field>
+        <c:Field Label="Conditions" LabelWidth="100">
+            <testconditions:ConditionListControl ConditionList="{Binding Conditions}" EditorTag="NoParticipant" />
+        </c:Field>
+    </StackPanel>
+</UserControl>

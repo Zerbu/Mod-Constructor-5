@@ -236,8 +236,10 @@
     <Compile Include="PropertyTypes\STBLString.cs" />
     <Compile Include="PropertyTypes\Threshold.cs" />
     <Compile Include="PropertyTypes\ThresholdComparison.cs" />
+    <Compile Include="Python\GlobalTraitPythonStep.cs" />
     <Compile Include="Python\ImportTraitPickerPythonStep.cs" />
     <Compile Include="Python\MergeLootPythonStep.cs" />
+    <Compile Include="Python\MergeZoneDirectorPythonStep.cs" />
     <Compile Include="Python\ObjectInteractionsPythonStep.cs" />
     <Compile Include="Python\PythonBuilder.cs" />
     <Compile Include="Python\PythonBuildStep.cs" />

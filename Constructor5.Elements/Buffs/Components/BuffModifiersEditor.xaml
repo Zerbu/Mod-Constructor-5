@@ -1,15 +1,16 @@
-<UserControl x:Class="Constructor5.Elements.Buffs.Components.BuffModifiersEditor"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.Elements.Buffs.Components"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:modifiers="clr-namespace:Constructor5.Elements.Buffs.Modifiers"
-             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-             d:DesignHeight="450"
-             d:DesignWidth="800"
-             mc:Ignorable="d">
+<UserControl
+    x:Class="Constructor5.Elements.Buffs.Components.BuffModifiersEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.Buffs.Components"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:modifiers="clr-namespace:Constructor5.Elements.Buffs.Modifiers"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
     <d:UserControl.DataContext>
         <local:BuffModifiersComponent />
     </d:UserControl.DataContext>
@@ -27,9 +28,10 @@
                                 </c:TabItem>
                                 <c:TabItem Header="SkillTags">
                                     <c:SpacedStack TopMargin="True">
-                                        <modifiers:BuffModifiersUI IsTag="True"
-                                                                   ItemsSource="{Binding SkillTagMultipliers}"
-                                                                   PresetsFolder="SkillTag" />
+                                        <modifiers:BuffModifiersUI
+                                            IsTag="True"
+                                            ItemsSource="{Binding SkillTagMultipliers}"
+                                            PresetsFolder="SkillTag" />
                                     </c:SpacedStack>
                                 </c:TabItem>
                             </c:TabControl>
@@ -39,23 +41,25 @@
                                 <c:TextBlock Text="EffectiveSkillModifiersNotice" />
                                 <c:TabControl>
                                     <c:TabItem Header="Skills">
-                                        <modifiers:BuffModifiersUI DefaultValue="0"
-                                                                   ElementTypeName="Skill"
-                                                                   Increment="1"
-                                                                   IsInt="True"
-                                                                   ItemsSource="{Binding EffectiveSkillModifiers}"
-                                                                   SliderMaximum="10"
-                                                                   SliderMinimum="-10" />
+                                        <modifiers:BuffModifiersUI
+                                            DefaultValue="0"
+                                            ElementTypeName="Skill"
+                                            Increment="1"
+                                            IsInt="True"
+                                            ItemsSource="{Binding EffectiveSkillModifiers}"
+                                            SliderMaximum="10"
+                                            SliderMinimum="-10" />
                                     </c:TabItem>
                                     <c:TabItem Header="SkillTags">
-                                        <modifiers:BuffModifiersUI DefaultValue="0"
-                                                                   Increment="1"
-                                                                   IsInt="True"
-                                                                   IsTag="True"
-                                                                   ItemsSource="{Binding EffectiveSkillTagModifiers}"
-                                                                   PresetsFolder="SkillTag"
-                                                                   SliderMaximum="10"
-                                                                   SliderMinimum="-10" />
+                                        <modifiers:BuffModifiersUI
+                                            DefaultValue="0"
+                                            Increment="1"
+                                            IsInt="True"
+                                            IsTag="True"
+                                            ItemsSource="{Binding EffectiveSkillTagModifiers}"
+                                            PresetsFolder="SkillTag"
+                                            SliderMaximum="10"
+                                            SliderMinimum="-10" />
                                     </c:TabItem>
                                 </c:TabControl>
                             </c:SpacedStack>
@@ -66,7 +70,7 @@
                     <c:TabControl>
                         <c:TabItem Header="NeedDecay">
                             <c:SpacedStack TopMargin="True">
-                                <modifiers:BuffModifiersUI ItemsSource="{Binding NeedDecayMultipliers}" PresetsFolder="Need" />
+                                <modifiers:BuffModifiersUI ElementTypeName="Need" ItemsSource="{Binding NeedDecayMultipliers}" />
                             </c:SpacedStack>
                         </c:TabItem>
                         <c:TabItem Header="NeedIncrease">
@@ -104,9 +108,10 @@
                         <c:TabItem Header="BuffDecayMultipliers">
                             <c:SpacedStack TopMargin="True">
                                 <c:TextBlock Text="BuffDecayMultipliersNotice" />
-                                <modifiers:BuffModifiersUI IsTag="True"
-                                                           ItemsSource="{Binding BuffDecayMultipliers}"
-                                                           PresetsFolder="StatisticTag" />
+                                <modifiers:BuffModifiersUI
+                                    IsTag="True"
+                                    ItemsSource="{Binding BuffDecayMultipliers}"
+                                    PresetsFolder="StatisticTag" />
                             </c:SpacedStack>
                         </c:TabItem>
                     </c:TabControl>
@@ -140,12 +145,13 @@
                         <c:TabItem Header="ContinuousStatisticModifiers">
                             <c:SpacedStack TopMargin="True">
                                 <c:TextBlock Text="ContinuousStatisticModifiersNotice" />
-                                <modifiers:BuffModifiersUI DefaultValue="0"
-                                                           ElementTypeName="Statistic"
-                                                           Increment="1"
-                                                           ItemsSource="{Binding ContinuousStatisticModifiers}"
-                                                           SliderMaximum="10"
-                                                           SliderMinimum="-10" />
+                                <modifiers:BuffModifiersUI
+                                    DefaultValue="0"
+                                    ElementTypeName="Statistic"
+                                    Increment="1"
+                                    ItemsSource="{Binding ContinuousStatisticModifiers}"
+                                    SliderMaximum="10"
+                                    SliderMinimum="-10" />
                             </c:SpacedStack>
                         </c:TabItem>
                     </c:TabControl>

@@ -5,6 +5,7 @@ using Constructor5.Base.ExportSystem.TuningActions;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Shared;
+using Constructor5.Elements.Interactions.Social;
 using Constructor5.Elements.Interactions.Super;
 
 namespace Constructor5.InteractionTemplates.Single
@@ -23,10 +24,11 @@ namespace Constructor5.InteractionTemplates.Single
 
         //public Reference BalloonSet { get; set; } = new Reference();
 
-        [AutoTuneBasic("category")]
-        public Reference PieMenuCategory { get; set; } = new Reference();
-
         public string TuningActionsFile { get; set; } = "SingleOutcome";
+
+        public override ulong GetCustomScoreTypeKey(InteractionExportContext context) => 0;
+
+        public override ulong GetFallbackScoreType(SocialInteractionExportContext socialContext) => 0;
 
         protected override void OnExport(InteractionExportContext context)
         {

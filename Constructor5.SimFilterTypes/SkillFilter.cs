@@ -18,16 +18,19 @@ namespace Constructor5.SimFilterTypes
     {
         public SkillFilter() => GeneratedLabel = "Skill Filter";
 
-        [AutoTuneBasic("ideal_value")]
-        public int IdealValue { get; set; }
+        [AutoTuneBasic("ideal_value", IgnoreIf = -1)]
+        public int IdealValue { get; set; } = -1;
 
-        [AutoTuneBasic("max_value")]
-        public int MaxValue { get; set; }
+        [AutoTuneBasic("max_value", IgnoreIf = -1)]
+        public int MaxValue { get; set; } = -1;
 
-        [AutoTuneBasic("min_value")]
-        public int MinValue { get; set; }
+        [AutoTuneBasic("min_value", IgnoreIf = -1)]
+        public int MinValue { get; set; } = -1;
 
-        [AutoTuneBasic("statistic")]
+        public bool IsOptional { get; set; }
+
+
+        [AutoTuneBasic("skill")]
         public Reference Skill { get; set; } = new Reference();
 
         protected override void OnExport(TunableList filterTermsTunable)
@@ -35,6 +38,11 @@ namespace Constructor5.SimFilterTypes
             var tunableVariant1 = filterTermsTunable.Set<TunableVariant>(null, "skill");
             var tunableTuple1 = tunableVariant1.Get<TunableTuple>("skill");
             AutoTunerInvoker.Invoke(this, tunableTuple1);
+
+            if (IsOptional)
+            {
+                tunableTuple1.Set<TunableBasic>("minimum_filter_score", "0.1");
+            }
         }
     }
 }

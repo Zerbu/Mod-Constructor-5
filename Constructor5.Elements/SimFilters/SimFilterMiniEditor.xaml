@@ -92,6 +92,8 @@
                         </StackPanel>
                     </c:CheckBox>
                     <c:CheckBox Content="BanGreg" IsChecked="{Binding BanTraitGreg}" />
+                    <c:CheckBox Content="BanAllCelebrities" IsChecked="{Binding BanAllCelebrities}" />
+                    <c:CheckBox Content="BanBusySims" IsChecked="{Binding BanBusySims}" />
                     <!--<c:CheckBox Content="IncludeLod" IsChecked="{Binding IncludeLod}" />-->
                 </StackPanel>
             </c:TabItem>

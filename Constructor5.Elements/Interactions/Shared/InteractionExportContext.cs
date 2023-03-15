@@ -6,6 +6,7 @@ namespace Constructor5.Elements.Interactions.Shared
     {
         public InteractionElement Element { get; set; }
         public ulong? LearnTraitLootKey { get; set; }
+        public ulong ScoreTypeKey { get; set; }
         public ulong TraitKey { get; set; }
         public TuningBase Tuning { get; set; }
     }

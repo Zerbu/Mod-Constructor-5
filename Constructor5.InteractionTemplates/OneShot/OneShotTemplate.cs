@@ -3,6 +3,7 @@ using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Shared;
+using Constructor5.Elements.Interactions.Social;
 
 namespace Constructor5.InteractionTemplates.OneShot
 {
@@ -16,9 +17,13 @@ namespace Constructor5.InteractionTemplates.OneShot
         public ReferenceList LootActionSets { get; set; } = new ReferenceList();
 
         [AutoTuneBasic("category")]
-        public Reference PieMenuCategory { get; set; } = new Reference();
+        public override Reference PieMenuCategory { get; set; } = new Reference();
 
         public string TuningActionsFile { get; set; } = "OneShot";
+
+        public override ulong GetCustomScoreTypeKey(InteractionExportContext context) => 0;
+
+        public override ulong GetFallbackScoreType(SocialInteractionExportContext socialContext) => 0;
 
         protected override void OnExport(InteractionExportContext context)
         {

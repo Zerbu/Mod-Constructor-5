@@ -579,12 +579,17 @@
   <Preset Label="upgrade_Vacuum_Partial_VaporizingPulse" Value="257272" />
   <Preset Label="upgrade_Vacuum_Partial_Unbreakable" Value="257273" />
   <Preset Label="upgrade_Vacuum_Completed_Unbreakable" Value="257280" />
+  <Preset Label="upgrade_AnimalObjects_ChickenCoop_NotStarted_FoxBeGone" Value="258011" />
+  <Preset Label="upgrade_AnimalObjects_ChickenCoop_Completed_FoxBeGone" Value="258016" />
+  <Preset Label="upgrade_AnimalObjects_ChickenCoop_Partial_FoxBeGone" Value="258021" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_NotStarted_Autofeed" Value="258176" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_NotStarted_LifeExtend" Value="258177" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Partial_Autofeed" Value="258178" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Partial_LifeExtend" Value="258179" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Completed_Autofeed" Value="258180" />
   <Preset Label="upgrade_AnimalObjects_LivestockPenChickenCoop_Completed_LifeExtend" Value="258181" />
+  <Preset Label="picnicBasket_Empty" Value="258484" />
+  <Preset Label="picnicBasket_HasFood" Value="258487" />
   <Preset Label="vacuumCleaner_Values_BagFill_Prop_Empty" Value="258621" />
   <Preset Label="vacuumCleaner_Values_BagFill_Prop_Full" Value="258622" />
   <Preset Label="vacuumCleaner_Values_BagFill_Prop_High" Value="258623" />
@@ -592,15 +597,29 @@
   <Preset Label="vacuumCleaner_Values_BagFill_Prop_Null" Value="258627" />
   <Preset Label="animalObjects_LivestockFeed_Healthy_On" Value="258745" />
   <Preset Label="animalObjects_LivestockFeed_Healthy_Off" Value="258746" />
+  <Preset Label="state_GiantCrops_Plant_Yield_Small" Value="259228" />
+  <Preset Label="state_GiantCrops_Plant_Yield_Medium" Value="259229" />
+  <Preset Label="state_GiantCrops_Plant_Yield_Large" Value="259230" />
+  <Preset Label="giantCrops_Plant_Growth_Planted" Value="259264" />
+  <Preset Label="giantCrops_Plant_Growth_Sprout" Value="259265" />
+  <Preset Label="giantCrops_Plant_Growth_Maturing1" Value="259266" />
+  <Preset Label="giantCrops_Plant_Growth_Maturing2" Value="259267" />
+  <Preset Label="giantCrops_Plant_Growth_Blossoming" Value="259268" />
   <Preset Label="animalObjects_LivestockPen_FeedLevel_0" Value="259554" />
   <Preset Label="animalObjects_LivestockPen_FeedLevel_1" Value="259555" />
   <Preset Label="animalObjects_LivestockPen_FeedLevel_2" Value="259556" />
+  <Preset Label="state_GiantCrops_Plant_Prune_CanPrune" Value="259975" />
+  <Preset Label="state_GiantCrops_Plant_Prune_OnCooldown" Value="259976" />
   <Preset Label="animalObjects_CommodityStateValues_VeryHappyTimer_Off" Value="260083" />
   <Preset Label="animalObjects_CommodityStateValues_VeryHappyTimer_On" Value="260084" />
   <Preset Label="AnimalObjectIngredients_Egg_HatchTimer_Untouched" Value="260357" />
   <Preset Label="animalObjectIngredients_Egg_HatchTimer_NotHatched" Value="260359" />
   <Preset Label="animalObjectIngredients_Egg_HatchTimer_Hatching" Value="260360" />
   <Preset Label="animalObjectIngredients_Egg_HatchTimer_Hatched" Value="260361" />
+  <Preset Label="state_GiantCrops_Plant_Status_Sickly" Value="260591" />
+  <Preset Label="state_GiantCrops_Plant_Status_Fine" Value="260592" />
+  <Preset Label="state_GiantCrops_Plant_Status_Healthy" Value="260593" />
+  <Preset Label="state_GiantCrops_Plant_Status_Withered" Value="260954" />
   <Preset Label="animalObjects_CommodityStateValues_Age_ReadyToDie" Value="261266" />
   <Preset Label="animalObjects_CommodityStateValues_ReturnHomeTimer_GoHome" Value="261355" />
   <Preset Label="animalObjects_CommodityStateValues_ReturnHomeTimer_Stay" Value="261356" />
@@ -610,6 +629,28 @@
   <Preset Label="animalObjects_Generic_GoMissing_Missing" Value="261594" />
   <Preset Label="animalObjects_Generic_GoMissing_Home" Value="261595" />
   <Preset Label="animalObjects_Generic_GoMissing_Back" Value="261599" />
+  <Preset Label="state_GiantCrops_Fruit_Quality_Low" Value="261644" />
+  <Preset Label="state_GiantCrops_Fruit_Quality_Lowest" Value="261645" />
+  <Preset Label="state_GiantCrops_Fruit_Quality_Medium" Value="261646" />
+  <Preset Label="state_GiantCrops_Fruit_Quality_High" Value="261647" />
+  <Preset Label="state_GiantCrops_Fruit_Quality_Highest" Value="261648" />
+  <Preset Label="critterGifting_TakeGift_Available" Value="262290" />
+  <Preset Label="critterGifting_TakeGift_Unavailable" Value="262291" />
+  <Preset Label="crossStitchProgress_Blank" Value="263153" />
+  <Preset Label="crossStitchProgress_Values_25_Percent" Value="263154" />
+  <Preset Label="crossStitchProgress_Values_50_Percent" Value="263155" />
+  <Preset Label="crossStitchProgress_Values_75_Percent" Value="263156" />
+  <Preset Label="crossStitchProgress_Values_80_Percent" Value="263157" />
+  <Preset Label="crossStitchProgress_Values_Complete" Value="263158" />
+  <Preset Label="critterGifting_DiscoverGift_Available" Value="264687" />
+  <Preset Label="critterGifting_DiscoverGift_Unavailable" Value="264688" />
+  <Preset Label="animalObjects_CountryCaretaker_LifeExtensionValues_On" Value="265335" />
+  <Preset Label="animalObjects_CountryCaretaker_LifeExtensionValues_Off" Value="265336" />
+  <Preset Label="groceryDeliveryCoupon_Expire_0" Value="267625" />
+  <Preset Label="groceryDeliveryCoupon_Expire_1_6Hours" Value="267626" />
+  <Preset Label="groceryDeliveryCoupon_Expire_2_24Hours" Value="267627" />
+  <Preset Label="groceryDeliveryCoupon_Expire_3_48Hours" Value="267628" />
+  <Preset Label="groceryDeliveryCoupon_Expire_4_72Hours" Value="267629" />
   <Preset Label="animalObjects_LivestockPen_GoMissing_Warn" Value="267872" />
   <Preset Label="animalObjects_LivestockPen_GoMissing_Leave" Value="267873" />
   <Preset Label="animalObjects_LivestockPen_GoMissing_Unhappy" Value="267874" />
@@ -621,9 +662,54 @@
   <Preset Label="upgrade_NotStarted_Generic_Slot2" Value="275013" />
   <Preset Label="upgrade_Partial_Generic_Slot1" Value="275015" />
   <Preset Label="upgrade_Partial_Generic_Slot2" Value="275016" />
+  <Preset Label="babyLastSeen_KnownSafe" Value="275948" />
+  <Preset Label="babyLastSeen_CheckSafety" Value="275949" />
+  <Preset Label="state_HighSchool_Active_Progress_Off" Value="276096" />
+  <Preset Label="state_HighSchool_Active_Progress_InProgress" Value="276097" />
+  <Preset Label="state_HighSchool_Active_Progress_Done" Value="276098" />
+  <Preset Label="sandPlay_Values_Dead" Value="277228" />
+  <Preset Label="upgrade_SchoolLocker_PrankProof_Completed" Value="277866" />
+  <Preset Label="upgrade_SchoolLocker_PrankProof_NotStarted" Value="277867" />
+  <Preset Label="upgrade_SchoolLocker_PrankProof_Partial" Value="277868" />
+  <Preset Label="sandPlay_Values_Pristine" Value="279048" />
+  <Preset Label="sandPlay_Values_Decay" Value="279049" />
+  <Preset Label="fashionMarketplace_OutfitHype_Tepid" Value="286858" />
+  <Preset Label="fashionMarketplace_OutfitHype_Neutral" Value="286859" />
+  <Preset Label="fashionMarketplace_OutfitHype_Hot" Value="286860" />
+  <Preset Label="fashionMarketplace_OutfitHype_Fire" Value="286861" />
   <Preset Label="simScratched_On" Value="291605" />
   <Preset Label="simScratched_Off" Value="291606" />
   <Preset Label="meteorite_Values_Creation" Value="295246" />
   <Preset Label="meteorite_Values_Destroy" Value="295247" />
   <Preset Label="meteorite_Values_Crater" Value="299527" />
+  <Preset Label="promposalSignProgress_Sign1_Blank" Value="300450" />
+  <Preset Label="promposalSignProgress_Sign1_Small" Value="300451" />
+  <Preset Label="promposalSignProgress_Sign1_Medium" Value="300452" />
+  <Preset Label="promposalSignProgress_Sign1_Large" Value="300453" />
+  <Preset Label="promposalSignProgress_Sign1_AlmostComplete" Value="300454" />
+  <Preset Label="promposalSignProgress_Sign1_Complete" Value="300455" />
+  <Preset Label="promposalSignProgress_Sign2_AlmostComplete" Value="301908" />
+  <Preset Label="promposalSignProgress_Sign2_Blank" Value="301909" />
+  <Preset Label="promposalSignProgress_Sign2_Complete" Value="301910" />
+  <Preset Label="promposalSignProgress_Sign2_Large" Value="301911" />
+  <Preset Label="promposalSignProgress_Sign2_Medium" Value="301912" />
+  <Preset Label="promposalSignProgress_Sign2_Small" Value="301913" />
+  <Preset Label="promposalSignProgress_Sign3_AlmostComplete" Value="301914" />
+  <Preset Label="promposalSignProgress_Sign3_Blank" Value="301915" />
+  <Preset Label="promposalSignProgress_Sign3_Complete" Value="301916" />
+  <Preset Label="promposalSignProgress_Sign3_Large" Value="301917" />
+  <Preset Label="promposalSignProgress_Sign3_Medium" Value="301918" />
+  <Preset Label="promposalSignProgress_Sign3_Small" Value="301919" />
+  <Preset Label="promposalSignProgress_Sign4_AlmostComplete" Value="301920" />
+  <Preset Label="promposalSignProgress_Sign4_Blank" Value="301921" />
+  <Preset Label="promposalSignProgress_Sign4_Complete" Value="301922" />
+  <Preset Label="promposalSignProgress_Sign4_Large" Value="301923" />
+  <Preset Label="promposalSignProgress_Sign4_Medium" Value="301924" />
+  <Preset Label="promposalSignProgress_Sign4_Small" Value="301925" />
+  <Preset Label="promposalSignProgress_Sign5_AlmostComplete" Value="301926" />
+  <Preset Label="promposalSignProgress_Sign5_Blank" Value="301927" />
+  <Preset Label="promposalSignProgress_Sign5_Complete" Value="301928" />
+  <Preset Label="promposalSignProgress_Sign5_Large" Value="301929" />
+  <Preset Label="promposalSignProgress_Sign5_Medium" Value="301930" />
+  <Preset Label="promposalSignProgress_Sign5_Small" Value="301931" />
 </PresetGroup>

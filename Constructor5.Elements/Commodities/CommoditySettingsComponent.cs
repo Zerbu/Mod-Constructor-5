@@ -15,6 +15,7 @@ namespace Constructor5.Elements.Commodities
 
         public bool DecayOffLot { get; set; } = true;
         public double DecayRate { get; set; } = 1;
+        public bool FullySimulateOffLot { get; set; }
 
         [AutoTuneIfTrue("persisted_tuning", "False")]
         public bool IsNonPersisted { get; set; }
@@ -39,16 +40,19 @@ namespace Constructor5.Elements.Commodities
             // decay off lot
             if (DecayOffLot)
             {
-                context.Tuning.Set<TunableEnum>("_time_passage_fixup_type", "FIXUP_USING_TIME_ELAPSED");
+                if (FullySimulateOffLot)
+                {
+                    context.Tuning.Set<TunableVariant>("_off_lot_simulation", "selectable_sims_and_npcs");
+                }
+                else
+                {
+                    context.Tuning.Set<TunableEnum>("_time_passage_fixup_type", "FIXUP_USING_TIME_ELAPSED");
+                }
             }
 
             // min value tuning
             context.Tuning.Set<TunableBasic>("_default_convergence_value", "0");
             context.Tuning.Set<TunableBasic>("min_value_tuning", "0");
-
-            // max value tuning
-            /*context.Tuning.Set<TunableBasic>("max_value_tuning", "998");
-            context.Tuning.Set<TunableBasic>("maximum_auto_satisfy_time", "998");*/
 
             // misc
             {

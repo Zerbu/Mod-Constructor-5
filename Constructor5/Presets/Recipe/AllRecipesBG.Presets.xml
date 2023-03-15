@@ -1762,18 +1762,18 @@
   <Preset Label="Coffee (recipe_Drink_MarketStalls_Coffee)" Value="139404" />
   <Preset Label="craftingObjectType_MicrophoneLyrics" Value="139504" />
   <Preset Label="craftingObjectType_HighChair" Value="142504" />
-  <Preset Label="Milk (recipe_Drink_Toddler_ToddlerHighChair_Milk)" Value="142523" />
-  <Preset Label="Apple Juice (recipe_Drink_Toddler_ToddlerHighChair_AppleJuice)" Value="142527" />
-  <Preset Label="Water (recipe_Drink_Toddler_ToddlerHighChair_Water)" Value="142528" />
-  <Preset Label="Chips (recipe_Food_Toddler_ToddlerHighChair_Chips)" Value="142534" />
-  <Preset Label="Applesauce (recipe_Food_Toddler_ToddlerHighChair_AppleSauce)" Value="142564" />
-  <Preset Label="Ham and Cheese Sandwich (recipe_Food_Toddler_ToddlerHighChair_HamCheese)" Value="142565" />
-  <Preset Label="Peanut Butter and Jelly Sandwich (recipe_Food_Toddler_ToddlerHighChair_PBJ)" Value="142566" />
-  <Preset Label="Peas (recipe_Food_Toddler_ToddlerHighChair_Peas)" Value="142567" />
-  <Preset Label="Yogurt (recipe_Food_Toddler_ToddlerHighChair_Yogurt)" Value="142568" />
-  <Preset Label="Animal Crackers (recipe_Food_Toddler_ToddlerHighChair_AnimalCracker)" Value="142569" />
-  <Preset Label="Cereal (recipe_Food_Toddler_ToddlerHighChair_Cereal)" Value="142570" />
-  <Preset Label="Chicken Nuggets (recipe_Food_Toddler_ToddlerHighChair_ChickenNuggets)" Value="142576" />
+  <Preset Label="Milk (recipe_Drink_Toddler_HighChair_Milk)" Value="142523" />
+  <Preset Label="Apple Juice (recipe_Drink_Toddler_HighChair_AppleJuice)" Value="142527" />
+  <Preset Label="Water (recipe_Drink_Toddler_HighChair_Water)" Value="142528" />
+  <Preset Label="Chips (recipe_Food_Toddler_HighChair_Chips)" Value="142534" />
+  <Preset Label="Applesauce (recipe_Food_Toddler_HighChair_AppleSauce)" Value="142564" />
+  <Preset Label="Ham and Cheese Sandwich (recipe_Food_Toddler_HighChair_HamCheese)" Value="142565" />
+  <Preset Label="Peanut Butter and Jelly Sandwich (recipe_Food_Toddler_HighChair_PBJ)" Value="142566" />
+  <Preset Label="Peas (recipe_Food_Toddler_HighChair_Peas)" Value="142567" />
+  <Preset Label="Yogurt (recipe_Food_Toddler_HighChair_Yogurt)" Value="142568" />
+  <Preset Label="Animal Crackers (recipe_Food_Toddler_HighChair_AnimalCracker)" Value="142569" />
+  <Preset Label="Cereal (recipe_Food_Toddler_HighChair_Cereal)" Value="142570" />
+  <Preset Label="Chicken Nuggets (recipe_Food_Toddler_HighChair_ChickenNuggets)" Value="142576" />
   <Preset Label="musicStyle_PortableKeyboard_Written" Value="144721" />
   <Preset Label="The Baconing Cupcake (recipe_Food_MarketStalls_Cupcake_Bacon)" Value="148148" />
   <Preset Label="Red Velvet Cupcake (recipe_Food_MarketStalls_Cupcake_RedVelvet)" Value="148149" />
@@ -1798,7 +1798,7 @@
   <Preset Label="Pan De Muerto (recipe_Food_Homestyle_PanDeMuerto_Large)" Value="153927" />
   <Preset Label="phaseSimple_Food_BakingPan_PanDeMuerto" Value="153929" />
   <Preset Label="Cheese Crackers (recipe_Food_Toddler_Crackers)" Value="157020" />
-  <Preset Label="Cheese Crackers (recipe_Food_Toddler_ToddlerHighChair_Crackers)" Value="157022" />
+  <Preset Label="Cheese Crackers (recipe_Food_Toddler_HighChair_Crackers)" Value="157022" />
   <Preset Label="craftingObjectType_Venue_Fridge" Value="168532" />
   <Preset Label="Fish Tacos (recipe_Food_MarketStalls_FishTacos)" Value="169952" />
   <Preset Label="Animal Crackers (recipe_Food_Snack_Toddler_AnimalCracker)" Value="170121" />
@@ -2018,6 +2018,77 @@
   <Preset Label="Chimi (recipe_Food_Homestyle_Grill_Chimi_Large)" Value="251931" />
   <Preset Label="Chimi (recipe_Food_Homestyle_Grill_Chimi_Medium)" Value="251932" />
   <Preset Label="Chimi (recipe_Food_Homestyle_Grill_Chimi_Single)" Value="251933" />
+  <Preset Label="Buttered Crumpets (recipe_Food_Homestyle_Crumpet_Butterred_Single)" Value="255145" />
+  <Preset Label="Strawberry Jam Crumpets (recipe_Food_Homestyle_Crumpet_StrawberryJam_Single)" Value="255146" />
+  <Preset Label="Blueberry Jam Crumpets (recipe_Food_Homestyle_Crumpet_BlueberryJam_Single)" Value="255147" />
+  <Preset Label="Blueberry Jam Crumpets (recipe_Food_Homestyle_Crumpet_BlueberryJam_Medium)" Value="255151" />
+  <Preset Label="Blueberry Jam Crumpets (recipe_Food_Homestyle_Crumpet_BlueberryJam_Large)" Value="255152" />
+  <Preset Label="Buttered Crumpets (recipe_Food_Homestyle_Crumpet_Butterred_Medium)" Value="255153" />
+  <Preset Label="Buttered Crumpets (recipe_Food_Homestyle_Crumpet_Butterred_Large)" Value="255154" />
+  <Preset Label="Strawberry Jam Crumpets (recipe_Food_Homestyle_Crumpet_StrawberryJam_Medium)" Value="255155" />
+  <Preset Label="Strawberry Jam Crumpets (recipe_Food_Homestyle_Crumpet_StrawberryJam_Large)" Value="255157" />
+  <Preset Label="Yorkshire Pudding (recipe_Food_Homestyle_YorkshirePudding_Single)" Value="255347" />
+  <Preset Label="Yorkshire Pudding (recipe_Food_Homestyle_YorkshirePudding_Medium)" Value="255348" />
+  <Preset Label="Yorkshire Pudding (recipe_Food_Homestyle_YorkshirePudding_Large)" Value="255349" />
+  <Preset Label="Beef Wellington (recipe_Food_Homestyle_BeefWellington_Single)" Value="255351" />
+  <Preset Label="Beef Wellington (recipe_Food_Homestyle_BeefWellington_Medium)" Value="255352" />
+  <Preset Label="Beef Wellington (recipe_Food_Homestyle_BeefWellington_Large)" Value="255354" />
+  <Preset Label="Bangers and Mash (recipe_Food_Homestyle_BangersAndMash_Single)" Value="256292" />
+  <Preset Label="Bangers and Mash (recipe_Food_Homestyle_BangersAndMash_Medium)" Value="256293" />
+  <Preset Label="Bangers and Mash (recipe_Food_Homestyle_BangersAndMash_Large)" Value="256294" />
+  <Preset Label="Charming Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Charming_Single)" Value="256386" />
+  <Preset Label="Charming Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Charming_Medium)" Value="256389" />
+  <Preset Label="Charming Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Charming_Large)" Value="256390" />
+  <Preset Label="Lovely Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Lovely_Single)" Value="256393" />
+  <Preset Label="Lovely Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Lovely_Medium)" Value="256394" />
+  <Preset Label="Lovely Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Lovely_Large)" Value="256395" />
+  <Preset Label="Nightly Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Nightly_Single)" Value="256396" />
+  <Preset Label="Nightly Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Nightly_Medium)" Value="256397" />
+  <Preset Label="Nightly Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Nightly_Large)" Value="256398" />
+  <Preset Label="Spicy Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Spicy_Single)" Value="256399" />
+  <Preset Label="Spicy Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Spicy_Medium)" Value="256400" />
+  <Preset Label="Spicy Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Spicy_Large)" Value="256401" />
+  <Preset Label="Verdant Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Verdant_Single)" Value="256402" />
+  <Preset Label="Verdant Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Verdant_Medium)" Value="256403" />
+  <Preset Label="Verdant Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Verdant_Large)" Value="256404" />
+  <Preset Label="Pumpkin Stew (recipe_Food_Homestyle_PumpkinStew_Single)" Value="256406" />
+  <Preset Label="Pumpkin Stew (recipe_Food_Homestyle_PumpkinStew_Medium)" Value="256407" />
+  <Preset Label="Pumpkin Stew (recipe_Food_Homestyle_PumpkinStew_Large)" Value="256408" />
+  <Preset Label="Cottage Pie (recipe_Food_Homestyle_CottagePie_Single)" Value="256410" />
+  <Preset Label="Cottage Pie (recipe_Food_Homestyle_CottagePie_Multi)" Value="256411" />
+  <Preset Label="Aubergine Parmesan (recipe_Food_Homestyle_AubergineParmesan_Single)" Value="256413" />
+  <Preset Label="Aubergine Parmesan (recipe_Food_Homestyle_AubergineParmesan_Medium)" Value="256414" />
+  <Preset Label="Aubergine Parmesan (recipe_Food_Homestyle_AubergineParmesan_Large)" Value="256415" />
+  <Preset Label="Blueberry Pie (recipe_Food_Homestyle_Pies_Blueberry_Single)" Value="256422" />
+  <Preset Label="Blueberry Pie (recipe_Food_Homestyle_Pies_Blueberry_Large)" Value="256423" />
+  <Preset Label="Chocolate Pie (recipe_Food_Homestyle_Pies_Chocolate_Single)" Value="256424" />
+  <Preset Label="Chocolate Pie (recipe_Food_Homestyle_Pies_Chocolate_Large)" Value="256425" />
+  <Preset Label="Meat Pie (recipe_Food_Homestyle_Pies_Meat_Single)" Value="256426" />
+  <Preset Label="Meat Pie (recipe_Food_Homestyle_Pies_Meat_Large)" Value="256427" />
+  <Preset Label="Pumpkin Pie (recipe_Food_Homestyle_Pies_Pumpkin_Single)" Value="256428" />
+  <Preset Label="Pumpkin Pie (recipe_Food_Homestyle_Pies_Pumpkin_Large)" Value="256429" />
+  <Preset Label="Raspberry Pie (recipe_Food_Homestyle_Pies_Raspberry_Single)" Value="256430" />
+  <Preset Label="Raspberry Pie (recipe_Food_Homestyle_Pies_Raspberry_Large)" Value="256431" />
+  <Preset Label="Berry Scones (recipe_Food_Homestyle_Scones_Berry_Single)" Value="256436" />
+  <Preset Label="Berry Scones (recipe_Food_Homestyle_Scones_Berry_Multi)" Value="256437" />
+  <Preset Label="Chocolate Scones (recipe_Food_Homestyle_Scones_Chocolate_Single)" Value="256438" />
+  <Preset Label="Chocolate Scones (recipe_Food_Homestyle_Scones_Chocolate_Multi)" Value="256439" />
+  <Preset Label="Pumpkin Scones (recipe_Food_Homestyle_Scones_Pumpkin_Single)" Value="256440" />
+  <Preset Label="Pumpkin Scones (recipe_Food_Homestyle_Scones_Pumpkin_Multi)" Value="256441" />
+  <Preset Label="Strawberry Jam (Recipe_Food_Canning_StrawberryJam)" Value="256445" />
+  <Preset Label="Blueberry Jam (Recipe_Food_Canning_BlueberryJam)" Value="256446" />
+  <Preset Label="Raspberry Jam (Recipe_Food_Canning_RaspberryJam)" Value="256447" />
+  <Preset Label="Custard (Recipe_Food_Canning_Custard)" Value="256448" />
+  <Preset Label="Apple Jam (Recipe_Food_Canning_AppleJam)" Value="256449" />
+  <Preset Label="Pumpkin Conserve (Recipe_Food_Canning_PumpkinConserve_Small)" Value="256450" />
+  <Preset Label="Lettuce Conserve (Recipe_Food_Canning_LettuceConserve_Small)" Value="256451" />
+  <Preset Label="Aubergine Conserve (Recipe_Food_Canning_EggplantConserve_Small)" Value="256452" />
+  <Preset Label="Cowberry Jam (Recipe_Food_Canning_CowberryJam)" Value="256453" />
+  <Preset Label="Blackberry Jam (Recipe_Food_Canning_BlackberryJam)" Value="256456" />
+  <Preset Label="Tomato Sauce (Recipe_Food_Canning_TomatoSauce)" Value="256457" />
+  <Preset Label="Mayonnaise (Recipe_Food_Canning_Mayonnaise)" Value="256458" />
+  <Preset Label="Chocolate Syrup (Recipe_Food_Canning_ChocolateSyrup)" Value="256459" />
+  <Preset Label="Nightly Mushroom Conserve (Recipe_Food_Canning_MushroomConserve_Nightly)" Value="256460" />
   <Preset Label="Butter Chicken (recipe_Food_Homestyle_ButterChicken-Large)" Value="257306" />
   <Preset Label="Butter Chicken (recipe_Food_Homestyle_ButterChicken-Medium)" Value="257308" />
   <Preset Label="Butter Chicken (recipe_Food_Homestyle_ButterChicken-Single)" Value="257309" />
@@ -2027,14 +2098,896 @@
   <Preset Label="Baked Chocolate Mousse (recipe_Food_Homestyle_ChocolateMousse-Large)" Value="257381" />
   <Preset Label="Baked Chocolate Mousse (recipe_Food_Homestyle_ChocolateMousse-Medium)" Value="257382" />
   <Preset Label="Baked Chocolate Mousse (recipe_Food_Homestyle_ChocolateMousse-Single)" Value="257383" />
+  <Preset Label="Verdant Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Verdant)" Value="257585" />
+  <Preset Label="Charming Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Charming)" Value="257586" />
+  <Preset Label="Spicy Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Spicy)" Value="257587" />
+  <Preset Label="Lovely Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Lovely)" Value="257588" />
+  <Preset Label="phaseSimple_Food_Pot_CanningHotWaterBath" Value="258158" />
+  <Preset Label="Egg (recipe_Food_AnimalObjectIngredients_Egg)" Value="258642" />
+  <Preset Label="Fruity Treat (recipe_Food_AnimalObject_LivestockFeed_Blueberry)" Value="259129" />
+  <Preset Label="Chocolatey Treat (recipe_Food_AnimalObject_LivestockFeed_Chocolatey)" Value="259130" />
+  <Preset Label="Fishy Protein Treat (recipe_Food_AnimalObject_LivestockFeed_Fishy)" Value="259131" />
+  <Preset Label="Flirty Treat (recipe_Food_AnimalObject_LivestockFeed_Flirty)" Value="259132" />
+  <Preset Label="Golden Treat (recipe_Food_AnimalObject_LivestockFeed_Golden)" Value="259133" />
+  <Preset Label="Healthy Treat (recipe_Food_AnimalObject_LivestockFeed_Healthy)" Value="259134" />
+  <Preset Label="Friendly Treat (recipe_Food_AnimalObject_LivestockFeed_Normal)" Value="259135" />
+  <Preset Label="Midnight Treat (recipe_Food_AnimalObject_LivestockFeed_Obsidian)" Value="259136" />
+  <Preset Label="Pumpkin Treat (recipe_Food_AnimalObject_LivestockFeed_Pumpkin)" Value="259137" />
+  <Preset Label="Rainbow Treat (recipe_Food_AnimalObject_LivestockFeed_Rainbow)" Value="259138" />
+  <Preset Label="Animal Party Treat (recipe_Food_AnimalObject_LivestockFeed_Social)" Value="259139" />
+  <Preset Label="Spicy Treat (recipe_Food_AnimalObject_LivestockFeed_SpicyBeef)" Value="259140" />
+  <Preset Label="Veggie Treat (recipe_Food_AnimalObject_LivestockFeed_Veggie)" Value="259141" />
   <Preset Label="phaseSimple_Food_FinalProduct_ActorInventory" Value="259156" />
+  <Preset Label="phaseSimple_Food_BakingPan_BeefWellington" Value="259952" />
+  <Preset Label="phaseSimple_Food_BakingPan_YorkshirePudding" Value="259953" />
+  <Preset Label="Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Normal_Large)" Value="259979" />
+  <Preset Label="Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Normal_Medium)" Value="259980" />
+  <Preset Label="Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Normal_Single)" Value="259981" />
+  <Preset Label="Cheese (recipe_Food_Homestyle_Cheese_Multi)" Value="260099" />
+  <Preset Label="Cheese (recipe_Food_Homestyle_Cheese_Single)" Value="260100" />
+  <Preset Label="Milk Bread (recipe_Food_Homestyle_MilkBread_Multi)" Value="260118" />
+  <Preset Label="Milk Bread (recipe_Food_Homestyle_MilkBread_Single)" Value="260119" />
+  <Preset Label="phaseSimple_Food_FinalProduct_Canning_RemoveWaterBath" Value="260144" />
+  <Preset Label="Small Hoop Shapes (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Simple_Shapes)" Value="260230" />
+  <Preset Label="Golden Egg (recipe_Food_AnimalObjectIngredients_Egg_Gold)" Value="260295" />
+  <Preset Label="Obsidian Egg (recipe_Food_AnimalObjectIngredients_Egg_Obsidian)" Value="260296" />
+  <Preset Label="Green Egg (recipe_Food_AnimalObjectIngredients_Egg_Green)" Value="260297" />
+  <Preset Label="Orange Egg (recipe_Food_AnimalObjectIngredients_Egg_Orange)" Value="260298" />
+  <Preset Label="Blue Egg (recipe_Food_AnimalObjectIngredients_Egg_Blue)" Value="260299" />
   <Preset Label="craftingObjectType_Oven" Value="260309" />
+  <Preset Label="Rainbow Egg (recipe_Food_AnimalObjectIngredients_Egg_Rainbow)" Value="260346" />
+  <Preset Label="Chocolate Egg (recipe_Food_AnimalObjectIngredients_Egg_Chocolate)" Value="260347" />
+  <Preset Label="Hatchable Egg (recipe_Food_AnimalObjectIngredients_Egg_Fertilized)" Value="260349" />
+  <Preset Label="Hatchable Golden Egg (recipe_Food_AnimalObjectIngredients_Egg_Fertilized_Gold)" Value="260352" />
+  <Preset Label="Hatchable Obsidian Egg (recipe_Food_AnimalObjectIngredients_Egg_Fertilized_Obsidian)" Value="260354" />
+  <Preset Label="Large Hoop Shapes (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Simple_Shapes)" Value="260468" />
+  <Preset Label="Watermelon Conserve (recipe_Food_Canning_WatermelonConserve_Small)" Value="260572" />
+  <Preset Label="Wrapped White Meat (recipe_Food_AnimalObjectIngredients_Meat_Chicken)" Value="261094" />
+  <Preset Label="Wrapped Red Meat (recipe_Food_AnimalObjectIngredients_Meat_Beef)" Value="261095" />
+  <Preset Label="spawner_animalObjects_birdHome_slottedBirds" Value="261118" />
+  <Preset Label="spawner_animalObjects_birdHome_terrainBirds" Value="261120" />
+  <Preset Label="Aubergine Conserve (recipe_Food_Canning_EggplantConserve_Medium)" Value="261173" />
+  <Preset Label="Lettuce Conserve (recipe_Food_Canning_LettuceConserve_Medium)" Value="261176" />
+  <Preset Label="Pumpkin Conserve (recipe_Food_Canning_PumpkinConserve_Medium)" Value="261177" />
+  <Preset Label="Aubergine Conserve (recipe_Food_Canning_EggplantConserve_Giant)" Value="261179" />
+  <Preset Label="Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Normal)" Value="261180" />
+  <Preset Label="Lettuce Conserve (recipe_Food_Canning_LettuceConserve_Giant)" Value="261181" />
+  <Preset Label="Pumpkin Conserve (recipe_Food_Canning_PumpkinConserve_Giant)" Value="261182" />
+  <Preset Label="Watermelon Conserve (recipe_Food_Canning_WatermelonConserve_Medium)" Value="261185" />
+  <Preset Label="Watermelon Conserve (recipe_Food_Canning_WatermelonConserve_Giant)" Value="261186" />
+  <Preset Label="Milk (recipe_Drink_AnimalObjectIngredients_Milk_Base)" Value="261365" />
+  <Preset Label="Strawberry Milk (recipe_Drink_AnimalObjectIngredients_Milk_Pink)" Value="261366" />
+  <Preset Label="Chocolate Milk (recipe_Drink_AnimalObjectIngredients_Milk_Brown)" Value="261367" />
+  <Preset Label="Fire Milk (recipe_Drink_AnimalObjectIngredients_Milk_Red)" Value="261368" />
+  <Preset Label="Pumpkin Spice Milk (recipe_Drink_AnimalObjectIngredients_Milk_Orange)" Value="261369" />
+  <Preset Label="Enriched Milk (recipe_Drink_AnimalObjectIngredients_Milk_Blue)" Value="261370" />
+  <Preset Label="Mighty Plant Milk (recipe_Drink_AnimalObjectIngredients_Milk_Green)" Value="261371" />
+  <Preset Label="Rainbow Milk (recipe_Drink_AnimalObjectIngredients_Milk_Rainbow)" Value="261372" />
+  <Preset Label="Golden Honey Milk (recipe_Drink_AnimalObjectIngredients_Milk_Gold)" Value="261373" />
+  <Preset Label="Obsidian Milk (recipe_Drink_AnimalObjectIngredients_Milk_Black)" Value="261374" />
+  <Preset Label="phaseSimple_Food_CanningJar" Value="261787" />
+  <Preset Label="Black Llama Wool (recipe_Wool_AnimalObjectIngredients_Black)" Value="262569" />
+  <Preset Label="Blue Llama Wool (recipe_Wool_AnimalObjectIngredients_Blue)" Value="262570" />
+  <Preset Label="Brown Llama Wool (recipe_Wool_AnimalObjectIngredients_Brown)" Value="262571" />
+  <Preset Label="Green Llama Wool (recipe_Wool_AnimalObjectIngredients_Green)" Value="262572" />
+  <Preset Label="Gold Llama Wool (recipe_Wool_AnimalObjectIngredients_Gold)" Value="262573" />
+  <Preset Label="Orange Llama Wool (recipe_Wool_AnimalObjectIngredients_Orange)" Value="262574" />
+  <Preset Label="Pink Llama Wool (recipe_Wool_AnimalObjectIngredients_Pink)" Value="262575" />
+  <Preset Label="Rainbow Llama Wool (recipe_Wool_AnimalObjectIngredients_Rainbow)" Value="262576" />
+  <Preset Label="Red Llama Wool (recipe_Wool_AnimalObjectIngredients_Red)" Value="262577" />
+  <Preset Label="White Llama Wool (recipe_Wool_AnimalObjectIngredients_White)" Value="262578" />
+  <Preset Label="Large Hoop Rainbow (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Simple_Rainbow)" Value="262582" />
+  <Preset Label="Large Hoop Stick Figures (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Simple_StickFigure)" Value="262583" />
+  <Preset Label="Large Hoop Keep Calm, Keep Simming (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_KeepCalm)" Value="262585" />
+  <Preset Label="Large Hoop Laugh, Love, Get To Know (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_LaughLove)" Value="262586" />
+  <Preset Label="Large Hoop When Opportunity Knocks, Open the Door (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_OpportunityKnocks)" Value="262587" />
+  <Preset Label="Large Hoop You are More than Who You Were (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_MoreThan)" Value="262588" />
+  <Preset Label="Large Hoop Dogs Welcome, Sims Tolerated (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_DogsWelcome)" Value="262589" />
+  <Preset Label="Large Hoop This Took Forever (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_TookForever)" Value="262590" />
+  <Preset Label="Large Hoop Into Fitness... (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_IntoFitness)" Value="262591" />
+  <Preset Label="Large Hoop Live Everyday Like it's Taco Tuesday (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_TacoTuesday)" Value="262592" />
+  <Preset Label="Large Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_Llama)" Value="262593" />
+  <Preset Label="Large Hoop Larry the Lobster (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_Larry)" Value="262594" />
+  <Preset Label="Large Hoop Yamachan (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_Yamachan)" Value="262595" />
+  <Preset Label="Large Hoop Pumpkin (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Nature_Pumpkin)" Value="262596" />
+  <Preset Label="Large Hoop Mushrooms (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Nature_Mushrooms)" Value="262597" />
+  <Preset Label="Large Hoop Blueberries and Raspberries (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Nature_Berries)" Value="262598" />
+  <Preset Label="Large Hoop Eggs and Milk (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Foods_EggsMilk)" Value="262601" />
+  <Preset Label="Large Hoop Cheese (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Foods_Cheese)" Value="262602" />
+  <Preset Label="Large Hoop Chicken (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Chicken)" Value="262603" />
+  <Preset Label="Large Hoop Fox (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Fox)" Value="262604" />
+  <Preset Label="Large Hoop Gnome (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Gnome)" Value="262605" />
+  <Preset Label="Large Hoop Rabbit (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Unlockable_Rabbit)" Value="262607" />
+  <Preset Label="Large Hoop Cow (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Unlockable_Cow)" Value="262609" />
+  <Preset Label="Large Hoop Bird (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Unlockable_Bird)" Value="262610" />
+  <Preset Label="Large Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Unlockable_Llama)" Value="262611" />
+  <Preset Label="Large Hoop Llamacorn (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Unlockable_Llamacorn)" Value="262612" />
+  <Preset Label="Large Hoop Cat (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Unlockable_Cat)" Value="262613" />
+  <Preset Label="Large Hoop Dog (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Unlockable_Dog)" Value="262614" />
+  <Preset Label="Large Hoop Agnes Crumplebottom (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Animals_Unlockable_Agnes)" Value="262615" />
+  <Preset Label="Large Hoop Crumpets (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Foods_Unlockable_Crumpets)" Value="262617" />
+  <Preset Label="Large Hoop Beef Wellington (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Foods_Unlockable_BeefWellington)" Value="262618" />
+  <Preset Label="Large Hoop Yorkshire Pudding (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Foods_Unlockable_YorkshirePudding)" Value="262619" />
+  <Preset Label="Large Hoop Pumpkin Pie (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Foods_Unlockable_PumpkinPie)" Value="262620" />
+  <Preset Label="Large Hoop Chocolate Pie (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Foods_Unlockable_ChocolatePie)" Value="262621" />
+  <Preset Label="Large Hoop Lettuce (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Nature_Unlockable_Lettuce)" Value="262624" />
+  <Preset Label="Large Hoop Aubergine (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Nature_Unlockable_Eggplant)" Value="262625" />
+  <Preset Label="Large Hoop Cowplant (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Nature_Unlockable_Cowplant)" Value="262626" />
+  <Preset Label="Large Hoop Watermelon (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Nature_Unlockable_Watermelon)" Value="262627" />
+  <Preset Label="Medium Hoop Chicken (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Chicken)" Value="262632" />
+  <Preset Label="Medium Hoop Fox (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Fox)" Value="262634" />
+  <Preset Label="Medium Hoop Gnome (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Gnome)" Value="262635" />
+  <Preset Label="Medium Hoop Agnes Crumplebottom (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Unlockable_Agnes)" Value="262636" />
+  <Preset Label="Medium Hoop Bird (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Unlockable_Bird)" Value="262637" />
+  <Preset Label="Medium Hoop Cat (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Unlockable_Cat)" Value="262638" />
+  <Preset Label="Medium Hoop Cow (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Unlockable_Cow)" Value="262639" />
+  <Preset Label="Medium Hoop Dog (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Unlockable_Dog)" Value="262640" />
+  <Preset Label="Medium Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Unlockable_Llama)" Value="262641" />
+  <Preset Label="Medium Hoop Llamacorn (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Unlockable_Llamacorn)" Value="262643" />
+  <Preset Label="Medium Hoop Rabbit (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Animals_Unlockable_Rabbit)" Value="262645" />
+  <Preset Label="Medium Hoop Cheese (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Foods_Cheese)" Value="262646" />
+  <Preset Label="Medium Hoop Eggs and Milk (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Foods_EggsMilk)" Value="262647" />
+  <Preset Label="Medium Hoop Beef Wellington (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Foods_Unlockable_BeefWellington)" Value="262649" />
+  <Preset Label="Medium Hoop Chocolate Pie (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Foods_Unlockable_ChocolatePie)" Value="262650" />
+  <Preset Label="Medium Hoop Crumpets (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Foods_Unlockable_Crumpets)" Value="262651" />
+  <Preset Label="Medium Hoop Pumpkin Pie (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Foods_Unlockable_PumpkinPie)" Value="262652" />
+  <Preset Label="Medium Hoop Yorkshire Pudding (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Foods_Unlockable_YorkshirePudding)" Value="262653" />
+  <Preset Label="Medium Hoop Blueberries and Raspberries (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Nature_Berries)" Value="262655" />
+  <Preset Label="Medium Hoop Mushrooms (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Nature_Mushrooms)" Value="262656" />
+  <Preset Label="Medium Hoop Pumpkin (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Nature_Pumpkin)" Value="262657" />
+  <Preset Label="Medium Hoop Cowplant (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Nature_Unlockable_Cowplant)" Value="262658" />
+  <Preset Label="Medium Hoop Aubergine  (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Nature_Unlockable_Eggplant)" Value="262659" />
+  <Preset Label="Medium Hoop Lettuce (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Nature_Unlockable_Lettuce)" Value="262660" />
+  <Preset Label="Medium Hoop Watermelon (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Nature_Unlockable_Watermelon)" Value="262661" />
+  <Preset Label="Medium Hoop Rainbow (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Simple_Rainbow)" Value="262662" />
+  <Preset Label="Medium Hoop Shapes (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Simple_Shapes)" Value="262663" />
+  <Preset Label="Medium Hoop Stick Figures (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Simple_StickFigure)" Value="262664" />
+  <Preset Label="Medium Hoop Dogs Welcome, Sims Tolerated (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_DogsWelcome)" Value="262665" />
+  <Preset Label="Medium Hoop Into Fitness.... (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_IntoFitness)" Value="262666" />
+  <Preset Label="Medium Hoop Keep Calm, Keep Simming (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_KeepCalm)" Value="262667" />
+  <Preset Label="Medium Hoop Larry the Lobster (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_Larry)" Value="262668" />
+  <Preset Label="Medium Hoop Laugh, Love, Get to Know (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_LaughLove)" Value="262669" />
+  <Preset Label="Medium Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_Llama)" Value="262670" />
+  <Preset Label="Medium Hoop You Are More Than Who You Were (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_MoreThan)" Value="262671" />
+  <Preset Label="Medium Hoop When Opportunity Knocks, Open the Door (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_OpportunityKnocks)" Value="262672" />
+  <Preset Label="Medium Hoop Live Everyday Like Its Taco Tuesday (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_TacoTuesday)" Value="262673" />
+  <Preset Label="Medium Hoop This Took Forever (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_TookForever)" Value="262674" />
+  <Preset Label="Medium Hoop Yamachan (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_Yamachan)" Value="262675" />
+  <Preset Label="Small Hoop Chicken (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Chicken)" Value="262677" />
+  <Preset Label="Small Hoop Fox (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Fox)" Value="262678" />
+  <Preset Label="Small Hoop Gnome (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Gnome)" Value="262679" />
+  <Preset Label="Small Hoop Agnes Crumplebottom (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Unlockable_Agnes)" Value="262680" />
+  <Preset Label="Small Hoop Bird (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Unlockable_Bird)" Value="262681" />
+  <Preset Label="Small Hoop Cat (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Unlockable_Cat)" Value="262682" />
+  <Preset Label="Small Hoop Cow (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Unlockable_Cow)" Value="262683" />
+  <Preset Label="Small Hoop Dog (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Unlockable_Dog)" Value="262684" />
+  <Preset Label="Small Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Unlockable_Llama)" Value="262685" />
+  <Preset Label="Small Hoop Llamacorn (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Unlockable_Llamacorn)" Value="262686" />
+  <Preset Label="Small Hoop Rabbit (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Animals_Unlockable_Rabbit)" Value="262687" />
+  <Preset Label="Small Hoop Cheese  (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Foods_Cheese)" Value="262689" />
+  <Preset Label="Small Hoop Eggs and Milk (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Foods_EggsMilk)" Value="262690" />
+  <Preset Label="Small Hoop Beef Wellington (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Foods_Unlockable_BeefWellington)" Value="262691" />
+  <Preset Label="Small Hoop Chocolate Pie (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Foods_Unlockable_ChocolatePie)" Value="262692" />
+  <Preset Label="Small Hoop Crumpets (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Foods_Unlockable_Crumpets)" Value="262693" />
+  <Preset Label="Small Hoop Pumpkin Pie (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Foods_Unlockable_PumpkinPie)" Value="262694" />
+  <Preset Label="Small Hoop Yorkshire Pudding (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Foods_Unlockable_YorkshirePudding)" Value="262695" />
+  <Preset Label="Small Hoop Blueberries and Raspberries (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Nature_Berries)" Value="262699" />
+  <Preset Label="Small Hoop Mushrooms (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Nature_Mushrooms)" Value="262700" />
+  <Preset Label="Small Hoop Pumpkin (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Nature_Pumpkin)" Value="262701" />
+  <Preset Label="Small Hoop Cowplant (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Nature_Unlockable_Cowplant)" Value="262702" />
+  <Preset Label="Small Hoop Aubergine (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Nature_Unlockable_Eggplant)" Value="262703" />
+  <Preset Label="Small Hoop Lettuce (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Nature_Unlockable_Lettuce)" Value="262704" />
+  <Preset Label="Small Hoop Watermelon (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Nature_Unlockable_Watermelon)" Value="262705" />
+  <Preset Label="Small Hoop Rainbow (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Simple_Rainbow)" Value="262706" />
+  <Preset Label="Small Hoop Shapes (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Simple_Shapes)" Value="262707" />
+  <Preset Label="Small Hoop Stick Figures (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Simple_StickFigure)" Value="262708" />
+  <Preset Label="Small Hoop Dogs Welcome, Sims Tolerated (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_DogsWelcome)" Value="262709" />
+  <Preset Label="Small Hoop Into Fitness.... (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_IntoFitness)" Value="262710" />
+  <Preset Label="Small Hoop Keep Calm, Keep Simming (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_KeepCalm)" Value="262711" />
+  <Preset Label="Small Hoop Larry the Lobster (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_Larry)" Value="262712" />
+  <Preset Label="Small Hoop Laugh, Love, Get To Know (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_LaughLove)" Value="262713" />
+  <Preset Label="Small Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_Llama)" Value="262714" />
+  <Preset Label="Small Hoop You Are More Than Who You Were (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_MoreThan)" Value="262715" />
+  <Preset Label="Small Hoop When Opportunity Knocks Open the Door (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_OpportunityKnocks)" Value="262716" />
+  <Preset Label="Small Hoop Live Everyday Like Its Taco Tuesday (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_TacoTuesday)" Value="262717" />
+  <Preset Label="Small Hoop This Took Forever (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_TookForever)" Value="262718" />
+  <Preset Label="Small Hoop Yamachan (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_Yamachan)" Value="262719" />
+  <Preset Label="Large Hoop Chicken (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Chicken)" Value="262721" />
+  <Preset Label="Large Hoop Fox (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Fox)" Value="262722" />
+  <Preset Label="Large Hoop Gnome (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Gnome)" Value="262723" />
+  <Preset Label="Large Hoop Agnes Crumplebottom (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Unlockable_Agnes)" Value="262724" />
+  <Preset Label="Large Hoop Bird (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Unlockable_Bird)" Value="262725" />
+  <Preset Label="Large Hoop Cat (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Unlockable_Cat)" Value="262726" />
+  <Preset Label="Large Hoop Cow (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Unlockable_Cow)" Value="262727" />
+  <Preset Label="Large Hoop Dog (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Unlockable_Dog)" Value="262728" />
+  <Preset Label="Large Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Unlockable_Llama)" Value="262729" />
+  <Preset Label="Large Hoop Llamacorn (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Unlockable_Llamacorn)" Value="262730" />
+  <Preset Label="Large Hoop Rabbit (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Animals_Unlockable_Rabbit)" Value="262731" />
+  <Preset Label="Large Hoop Cheese (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Foods_Cheese)" Value="262733" />
+  <Preset Label="Large Hoop Eggs and Milk (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Foods_EggsMilk)" Value="262734" />
+  <Preset Label="Large Hoop Beef Wellington (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Foods_Unlockable_BeefWellington)" Value="262735" />
+  <Preset Label="Large Hoop Chocolate Pie (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Foods_Unlockable_ChocolatePie)" Value="262736" />
+  <Preset Label="Large Hoop Crumpets (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Foods_Unlockable_Crumpets)" Value="262737" />
+  <Preset Label="Large Hoop Pumpkin Pie (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Foods_Unlockable_PumpkinPie)" Value="262738" />
+  <Preset Label="Large Hoop Yorkshire Pudding (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Foods_Unlockable_YorkshirePudding)" Value="262739" />
+  <Preset Label="Large Hoop Blueberries and Raspberries (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Nature_Berries)" Value="262741" />
+  <Preset Label="Large Hoop Mushrooms (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Nature_Mushrooms)" Value="262742" />
+  <Preset Label="Large Hoop Pumpkin (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Nature_Pumpkin)" Value="262743" />
+  <Preset Label="Large Hoop Cowplant (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Nature_Unlockable_Cowplant)" Value="262745" />
+  <Preset Label="Large Hoop Aubergine (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Nature_Unlockable_Eggplant)" Value="262746" />
+  <Preset Label="Large Hoop Lettuce (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Nature_Unlockable_Lettuce)" Value="262747" />
+  <Preset Label="Large Hoop Watermelon (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Nature_Unlockable_Watermelon)" Value="262748" />
+  <Preset Label="Large Hoop Rainbow (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Simple_Rainbow)" Value="262749" />
+  <Preset Label="Large Hoop Shapes (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Simple_Shapes)" Value="262750" />
+  <Preset Label="Large Hoop Stick Figures (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Simple_StickFigure)" Value="262751" />
+  <Preset Label="Large Hoop Dogs Welcome, Sims Tolerated (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_DogsWelcome)" Value="262752" />
+  <Preset Label="Large Hoop Into Fitness... (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_IntoFitness)" Value="262753" />
+  <Preset Label="Large Hoop Keep Calm, Keep Simming (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_KeepCalm)" Value="262754" />
+  <Preset Label="Large Hoop Larry the Lobster (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_Larry)" Value="262755" />
+  <Preset Label="Large Hoop Laugh, Love, Get To Know (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_LaughLove)" Value="262756" />
+  <Preset Label="Large Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_Llama)" Value="262757" />
+  <Preset Label="Large Hoop You are More than Who You Were (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_MoreThan)" Value="262758" />
+  <Preset Label="Large Hoop When Opportunity Knocks, Open the Door (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_OpportunityKnocks)" Value="262759" />
+  <Preset Label="Large Hoop Live Everyday Like it's Taco Tuesday (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_TacoTuesday)" Value="262760" />
+  <Preset Label="Large Hoop This Took Forever (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_TookForever)" Value="262761" />
+  <Preset Label="Large Hoop Yamachan (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_Yamachan)" Value="262762" />
+  <Preset Label="Medium Hoop Chicken (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Chicken)" Value="262780" />
+  <Preset Label="Medium Hoop Fox (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Fox)" Value="262781" />
+  <Preset Label="Medium Hoop Gnome (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Gnome)" Value="262782" />
+  <Preset Label="Medium Hoop Agnes Crumplebottom (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Unlockable_Agnes)" Value="262783" />
+  <Preset Label="Medium Hoop Bird (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Unlockable_Bird)" Value="262785" />
+  <Preset Label="Medium Hoop Cat (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Unlockable_Cat)" Value="262786" />
+  <Preset Label="Medium Hoop Cow (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Unlockable_Cow)" Value="262787" />
+  <Preset Label="Medium Hoop Dog (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Unlockable_Dog)" Value="262788" />
+  <Preset Label="Medium Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Unlockable_Llama)" Value="262789" />
+  <Preset Label="Medium Hoop Llamacorn (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Unlockable_Llamacorn)" Value="262790" />
+  <Preset Label="Medium Hoop Rabbit (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Animals_Unlockable_Rabbit)" Value="262791" />
+  <Preset Label="Small Hoop Chicken (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Chicken)" Value="262792" />
+  <Preset Label="Small Hoop Fox (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Fox)" Value="262793" />
+  <Preset Label="Small Hoop Gnome (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Gnome)" Value="262794" />
+  <Preset Label="Small Hoop Agnes Crumplebottom (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Unlockable_Agnes)" Value="262795" />
+  <Preset Label="Small Hoop Bird (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Unlockable_Bird)" Value="262796" />
+  <Preset Label="Small Hoop Cat (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Unlockable_Cat)" Value="262797" />
+  <Preset Label="Small Hoop Cow (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Unlockable_Cow)" Value="262798" />
+  <Preset Label="Small Hoop Dog (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Unlockable_Dog)" Value="262799" />
+  <Preset Label="Small Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Unlockable_Llama)" Value="262800" />
+  <Preset Label="Small Hoop Llamacorn (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Unlockable_Llamacorn)" Value="262801" />
+  <Preset Label="Small Hoop Rabbit (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Animals_Unlockable_Rabbit)" Value="262802" />
+  <Preset Label="Medium Hoop Cheese (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Foods_Cheese)" Value="262803" />
+  <Preset Label="Medium Hoop Eggs and Milk (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Foods_EggsMilk)" Value="262804" />
+  <Preset Label="Medium Hoop Beef Wellington (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Foods_Unlockable_BeefWellington)" Value="262806" />
+  <Preset Label="Medium Hoop Chocolate Pie (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Foods_Unlockable_ChocolatePie)" Value="262807" />
+  <Preset Label="Medium Hoop Crumpets (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Foods_Unlockable_Crumpets)" Value="262808" />
+  <Preset Label="Medium Hoop Pumpkin Pie (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Foods_Unlockable_PumpkinPie)" Value="262809" />
+  <Preset Label="Medium Hoop Yorkshire Pudding (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Foods_Unlockable_YorkshirePudding)" Value="262810" />
+  <Preset Label="Small Hoop Cheese  (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Foods_Cheese)" Value="262812" />
+  <Preset Label="Small Hoop Eggs and Milk (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Foods_EggsMilk)" Value="262813" />
+  <Preset Label="Small Hoop Beef Wellington (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Foods_Unlockable_BeefWellington)" Value="262814" />
+  <Preset Label="Small Hoop Chocolate Pie (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Foods_Unlockable_ChocolatePie)" Value="262816" />
+  <Preset Label="Small Hoop Crumpets (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Foods_Unlockable_Crumpets)" Value="262817" />
+  <Preset Label="Small Hoop Pumpkin Pie (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Foods_Unlockable_PumpkinPie)" Value="262819" />
+  <Preset Label="Small Hoop Yorkshire Pudding (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Foods_Unlockable_YorkshirePudding)" Value="262820" />
+  <Preset Label="Medium Hoop Blueberries and Raspberries (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Nature_Berries)" Value="262823" />
+  <Preset Label="Medium Hoop Mushrooms (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Nature_Mushrooms)" Value="262824" />
+  <Preset Label="Medium Hoop Pumpkin (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Nature_Pumpkin)" Value="262825" />
+  <Preset Label="Medium Hoop Cowplant (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Nature_Unlockable_Cowplant)" Value="262826" />
+  <Preset Label="Medium Hoop Aubergine  (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Nature_Unlockable_Eggplant)" Value="262827" />
+  <Preset Label="Medium Hoop Lettuce (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Nature_Unlockable_Lettuce)" Value="262828" />
+  <Preset Label="Medium Hoop Watermelon (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Nature_Unlockable_Watermelon)" Value="262829" />
+  <Preset Label="Small Hoop Blueberries and Raspberries (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Nature_Berries)" Value="262831" />
+  <Preset Label="Small Hoop Mushrooms (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Nature_Mushrooms)" Value="262832" />
+  <Preset Label="Small Hoop Pumpkin (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Nature_Pumpkin)" Value="262833" />
+  <Preset Label="Small Hoop Cowplant (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Nature_Unlockable_Cowplant)" Value="262834" />
+  <Preset Label="Small Hoop Aubergine (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Nature_Unlockable_Eggplant)" Value="262835" />
+  <Preset Label="Small Hoop Lettuce (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Nature_Unlockable_Lettuce)" Value="262836" />
+  <Preset Label="Small Hoop Watermelon (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Nature_Unlockable_Watermelon)" Value="262837" />
+  <Preset Label="Medium Hoop Rainbow (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Simple_Rainbow)" Value="262838" />
+  <Preset Label="Medium Hoop Shapes (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Simple_Shapes)" Value="262839" />
+  <Preset Label="Medium Hoop Stick Figures (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Simple_StickFigure)" Value="262840" />
+  <Preset Label="Small Hoop Rainbow (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Simple_Rainbow)" Value="262841" />
+  <Preset Label="Small Hoop Stick Figures (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Simple_StickFigure)" Value="262842" />
+  <Preset Label="Medium Hoop Dogs Welcome, Sims Tolerated (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_DogsWelcome)" Value="262843" />
+  <Preset Label="Medium Hoop Into Fitness.... (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_IntoFitness)" Value="262844" />
+  <Preset Label="Medium Hoop Keep Calm, Keep Simming (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_KeepCalm)" Value="262845" />
+  <Preset Label="Medium Hoop Larry the Lobster (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_Larry)" Value="262846" />
+  <Preset Label="Medium Hoop Laugh, Love, Get to Know (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_LaughLove)" Value="262847" />
+  <Preset Label="Medium Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_Llama)" Value="262848" />
+  <Preset Label="Medium Hoop You Are More Than Who You Were (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_MoreThan)" Value="262849" />
+  <Preset Label="Medium Hoop When Opportunity Knocks, Open the Door (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_OpportunityKnocks)" Value="262850" />
+  <Preset Label="Medium Hoop Live Everyday Like Its Taco Tuesday (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_TacoTuesday)" Value="262851" />
+  <Preset Label="Medium Hoop This Took Forever (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_TookForever)" Value="262852" />
+  <Preset Label="Medium Hoop Yamachan (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_Yamachan)" Value="262853" />
+  <Preset Label="Small Hoop Dogs Welcome, Sims Tolerated (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_DogsWelcome)" Value="262854" />
+  <Preset Label="Small Hoop Into Fitness.... (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_IntoFitness)" Value="262855" />
+  <Preset Label="Small Hoop Keep Calm, Keep Simming (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_KeepCalm)" Value="262857" />
+  <Preset Label="Small Hoop Larry the Lobster (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_Larry)" Value="262859" />
+  <Preset Label="Small Hoop Laugh, Love, Get To Know (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_LaughLove)" Value="262860" />
+  <Preset Label="Small Hoop Llama (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_Llama)" Value="262861" />
+  <Preset Label="Small Hoop You Are More Than Who You Were (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_MoreThan)" Value="262862" />
+  <Preset Label="Small Hoop When Opportunity Knocks Open the Door (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_OpportunityKnocks)" Value="262863" />
+  <Preset Label="Small Hoop Live Everyday Like Its Taco Tuesday (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_TacoTuesday)" Value="262864" />
+  <Preset Label="Small Hoop This Took Forever (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_TookForever)" Value="262865" />
+  <Preset Label="Small Hoop Yamachan (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_Yamachan)" Value="262866" />
+  <Preset Label="Large Hoop Darby (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Words_Darby)" Value="263032" />
+  <Preset Label="Medium Hoop Darby (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Words_Darby)" Value="263036" />
+  <Preset Label="Small Hoop Darby (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Words_Darby)" Value="263037" />
+  <Preset Label="Large Hoop Darby (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Words_Darby)" Value="263038" />
+  <Preset Label="Medium Hoop Darby (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Words_Darby)" Value="263039" />
+  <Preset Label="Small Hoop Darby (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Words_Darby)" Value="263040" />
+  <Preset Label="Large Hoop Advanced Pumpkin (recipe_CrossStitch_StitchFromPatterns_Hoop_Large_Nature_Unlockable_AdvancedPumpkin)" Value="263056" />
+  <Preset Label="Medium Hoop Advanced Pumpkin (recipe_CrossStitch_StitchFromPatterns_Hoop_Medium_Nature_Unlockable_AdvancedPumpkin)" Value="263057" />
+  <Preset Label="Small Hoop Advanced Pumpkin (recipe_CrossStitch_StitchFromPatterns_Hoop_Small_Nature_Unlockable_AdvancedPumpkin)" Value="263058" />
+  <Preset Label="Large Hoop Advanced Pumpkin (recipe_CrossStitch_StitchFromPatterns_Kit_LargeHoop_Nature_Unlockable_AdvancedPumpkin)" Value="263059" />
+  <Preset Label="Medium Hoop Advanced Pumpkin (recipe_CrossStitch_StitchFromPatterns_Kit_MediumHoop_Nature_Unlockable_AdvancedPumpkin)" Value="263060" />
+  <Preset Label="Small Hoop Advanced Pumpkin (recipe_CrossStitch_StitchFromPatterns_Kit_SmallHoop_Nature_Unlockable_AdvancedPumpkin)" Value="263061" />
+  <Preset Label="Stitch from Reference (recipe_CrossStitch_StitchFromReference_Hoop_Large)" Value="263224" />
+  <Preset Label="Stitch from Reference (recipe_CrossStitch_StitchFromReference_Hoop_Medium)" Value="263225" />
+  <Preset Label="Stitch from Reference (recipe_CrossStitch_StitchFromReference_Hoop_Small)" Value="263226" />
+  <Preset Label="Stitch from Reference (recipe_CrossStitch_StitchFromReference_Kit_LargeHoop)" Value="263227" />
+  <Preset Label="Stitch from Reference (recipe_CrossStitch_StitchFromReference_Kit_MediumHoop)" Value="263228" />
+  <Preset Label="Stitch from Reference (recipe_CrossStitch_StitchFromReference_Kit_SmallHoop)" Value="263229" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Agnes" Value="263271" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Bird" Value="263272" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Cat" Value="263273" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Cow" Value="263274" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Dog" Value="263275" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Llama" Value="263276" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Llamacorn" Value="263277" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Rabbit" Value="263278" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Chicken" Value="263279" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Fox" Value="263280" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Animals_Gnome" Value="263281" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Foods_BeefWellington" Value="263282" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Foods_ChocolatePie" Value="263283" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Foods_Crumpets" Value="263284" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Foods_PumpkinPie" Value="263285" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Foods_YorkshirePudding" Value="263286" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Foods_Cheese" Value="263287" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Foods_EggsMilk" Value="263288" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Nature_AdvancedPumpkin" Value="263289" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Nature_Cowplant" Value="263290" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Nature_Eggplant" Value="263292" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Nature_Lettuce" Value="263293" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Nature_Watermelon" Value="263294" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Nature_Berries" Value="263295" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Nature_Mushrooms" Value="263296" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Nature_Pumpkin" Value="263297" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Simple_Rainbow" Value="263298" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Simple_Shapes" Value="263299" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Simple_StickFigure" Value="263300" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_Darby" Value="263302" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_DogsWelcome" Value="263304" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_IntoFitness" Value="263305" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_Larry" Value="263307" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_LaughLove" Value="263308" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_Llama" Value="263309" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_MoreThan" Value="263310" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_OpportunityKnocks" Value="263312" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_TacoTuesday" Value="263318" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_TookForever" Value="263319" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_Yamachan" Value="263320" />
+  <Preset Label="paintingStyle_CrossStitch_LargeHoop_Words_KeepCalm" Value="263321" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Agnes" Value="263332" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Bird" Value="263333" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Cat" Value="263334" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Chicken" Value="263335" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Cow" Value="263336" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Dog" Value="263337" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Fox" Value="263338" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Gnome" Value="263339" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Llama" Value="263340" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Llamacorn" Value="263341" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Animals_Rabbit" Value="263342" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Agnes" Value="263343" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Bird" Value="263344" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Cat" Value="263345" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Chicken" Value="263346" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Cow" Value="263347" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Dog" Value="263348" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Fox" Value="263349" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Gnome" Value="263351" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Llama" Value="263353" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Llamacorn" Value="263354" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Animals_Rabbit" Value="263355" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Foods_BeefWellington" Value="263356" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Foods_Cheese" Value="263357" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Foods_ChocolatePie" Value="263358" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Foods_Crumpets" Value="263359" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Foods_EggsMilk" Value="263360" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Foods_PumpkinPie" Value="263361" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Foods_YorkshirePudding" Value="263362" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Foods_BeefWellington" Value="263363" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Foods_Cheese" Value="263364" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Foods_ChocolatePie" Value="263365" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Foods_Crumpets" Value="263366" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Foods_EggsMilk" Value="263367" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Foods_PumpkinPie" Value="263368" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Foods_YorkshirePudding" Value="263369" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Nature_AdvancedPumpkin" Value="263370" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Nature_Berries" Value="263371" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Nature_Cowplant" Value="263372" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Nature_Eggplant" Value="263373" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Nature_Lettuce" Value="263374" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Nature_Mushrooms" Value="263375" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Nature_Pumpkin" Value="263376" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Nature_Watermelon" Value="263377" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Nature_AdvancedPumpkin" Value="263378" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Nature_Berries" Value="263379" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Nature_Cowplant" Value="263380" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Nature_Eggplant" Value="263381" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Nature_Lettuce" Value="263382" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Nature_Mushrooms" Value="263383" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Nature_Pumpkin" Value="263384" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Nature_Watermelon" Value="263385" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Simple_Rainbow" Value="263386" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Simple_Shapes" Value="263388" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Simple_StickFigure" Value="263389" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Simple_Rainbow" Value="263390" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Simple_Shapes" Value="263391" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Simple_StickFigure" Value="263392" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_Darby" Value="263393" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_DogsWelcome" Value="263394" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_IntoFitness" Value="263395" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_KeepCalm" Value="263396" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_Larry" Value="263397" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_LaughLove" Value="263398" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_Llama" Value="263399" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_MoreThan" Value="263400" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_OpportunityKnocks" Value="263401" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_TacoTuesday" Value="263402" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_TookForever" Value="263403" />
+  <Preset Label="paintingStyle_CrossStitch_MediumHoop_Words_Yamachan" Value="263404" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_Darby" Value="263405" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_DogsWelcome" Value="263406" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_IntoFitness" Value="263407" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_KeepCalm" Value="263408" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_Larry" Value="263409" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_LaughLove" Value="263410" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_Llama" Value="263411" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_MoreThan" Value="263412" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_OpportunityKnocks" Value="263413" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_TacoTuesday" Value="263414" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_TookForever" Value="263415" />
+  <Preset Label="paintingStyle_CrossStitch_SmallHoop_Words_Yamachan" Value="263416" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Agnes" Value="263418" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Bird" Value="263419" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Cat" Value="263420" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Chicken" Value="263421" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Cow" Value="263422" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Dog" Value="263423" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Fox" Value="263424" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Gnome" Value="263425" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Llama" Value="263426" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Llamacorn" Value="263427" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Animals_Rabbit" Value="263428" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Foods_BeefWellington" Value="263429" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Foods_Cheese" Value="263430" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Foods_ChocolatePie" Value="263431" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Foods_Crumpets" Value="263432" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Foods_EggsMilk" Value="263433" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Foods_PumpkinPie" Value="263434" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Foods_YorkshirePudding" Value="263435" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Nature_AdvancedPumpkin" Value="263436" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Nature_Berries" Value="263437" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Nature_Cowplant" Value="263438" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Nature_Eggplant" Value="263439" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Nature_Lettuce" Value="263440" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Nature_Mushrooms" Value="263441" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Nature_Pumpkin" Value="263442" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Nature_Watermelon" Value="263443" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Simple_Rainbow" Value="263444" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Simple_Shapes" Value="263445" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Simple_StickFigure" Value="263446" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_Darby" Value="263447" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_DogsWelcome" Value="263448" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_IntoFitness" Value="263449" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_KeepCalm" Value="263450" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_Larry" Value="263451" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_LaughLove" Value="263452" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_Llama" Value="263453" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_MoreThan" Value="263454" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_OpportunityKnocks" Value="263455" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_TacoTuesday" Value="263456" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_TookForever" Value="263457" />
+  <Preset Label="paintingTexture_CrossStitch_LargeHoop_Words_Yamachan" Value="263458" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Agnes" Value="263459" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Bird" Value="263460" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Cat" Value="263461" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Chicken" Value="263462" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Cow" Value="263463" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Dog" Value="263464" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Fox" Value="263465" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Gnome" Value="263466" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Llama" Value="263467" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Llamacorn" Value="263468" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Animals_Rabbit" Value="263469" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Foods_BeefWellington" Value="263470" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Foods_Cheese" Value="263471" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Foods_ChocolatePie" Value="263472" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Foods_Crumpets" Value="263473" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Foods_EggsMilk" Value="263474" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Foods_PumpkinPie" Value="263475" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Foods_YorkshirePudding" Value="263476" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Nature_AdvancedPumpkin" Value="263477" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Nature_Berries" Value="263478" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Nature_Cowplant" Value="263479" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Nature_Eggplant" Value="263480" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Nature_Lettuce" Value="263481" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Nature_Mushrooms" Value="263482" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Nature_Pumpkin" Value="263483" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Nature_Watermelon" Value="263484" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Simple_Rainbow" Value="263485" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Simple_Shapes" Value="263486" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Simple_StickFigure" Value="263487" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_Darby" Value="263488" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_DogsWelcome" Value="263489" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_IntoFitness" Value="263491" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_KeepCalm" Value="263492" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_Larry" Value="263493" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_LaughLove" Value="263494" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_Llama" Value="263495" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_MoreThan" Value="263496" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_OpportunityKnocks" Value="263497" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_TacoTuesday" Value="263498" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_TookForever" Value="263499" />
+  <Preset Label="paintingTexture_CrossStitch_MediumHoop_Words_Yamachan" Value="263500" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Agnes" Value="263501" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Bird" Value="263502" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Cat" Value="263503" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Chicken" Value="263504" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Cow" Value="263505" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Dog" Value="263506" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Fox" Value="263507" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Gnome" Value="263508" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Llama" Value="263509" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Llamacorn" Value="263510" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Animals_Rabbit" Value="263511" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Foods_BeefWellington" Value="263512" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Foods_Cheese" Value="263513" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Foods_ChocolatePie" Value="263514" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Foods_Crumpets" Value="263515" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Foods_EggsMilk" Value="263516" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Foods_PumpkinPie" Value="263517" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Foods_YorkshirePudding" Value="263519" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Nature_Berries" Value="263520" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Nature_Cowplant" Value="263521" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Nature_Eggplant" Value="263522" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Nature_Lettuce" Value="263523" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Nature_Mushrooms" Value="263524" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Nature_Pumpkin" Value="263525" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Nature_Watermelon" Value="263526" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Simple_Rainbow" Value="263527" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Simple_Shapes" Value="263529" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Simple_StickFigure" Value="263530" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_Darby" Value="263532" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_DogsWelcome" Value="263533" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_IntoFitness" Value="263534" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_KeepCalm" Value="263535" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_Larry" Value="263536" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_LaughLove" Value="263537" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_Llama" Value="263538" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_MoreThan" Value="263540" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_OpportunityKnocks" Value="263541" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_TacoTuesday" Value="263542" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_TookForever" Value="263543" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Words_Yamachan" Value="263544" />
+  <Preset Label="paintingTexture_CrossStitch_SmallHoop_Nature_AdvancedPumpkin" Value="263549" />
+  <Preset Label="paintingStyle_CrossStitch_FromReference" Value="263552" />
+  <Preset Label="spawner_public_Bush_blueberry_wild" Value="263844" />
+  <Preset Label="spawner_public_Bush_raspberry_wild" Value="263906" />
+  <Preset Label="spawner_public_Bush_chocoberry_wild" Value="264075" />
+  <Preset Label="spawner_public_Tuber_mushroomWildNightly_wild" Value="264476" />
+  <Preset Label="spawner_public_Tuber_mushroomWildVerdant_wild" Value="264477" />
+  <Preset Label="spawner_public_Tuber_mushroomWildCharming_wild" Value="264478" />
+  <Preset Label="spawner_public_Tuber_mushroomWildSpicy_wild" Value="264479" />
+  <Preset Label="spawner_public_Tuber_mushroomWildLovely_wild" Value="264480" />
+  <Preset Label="Beige Llama Wool (recipe_Wool_AnimalObjectIngredients_Yellow)" Value="264518" />
+  <Preset Label="Mysterious Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Mysterious_Single)" Value="264559" />
+  <Preset Label="Watermelon Salad (recipe_Food_Homestyle_WatermelonSalad_Large)" Value="265122" />
+  <Preset Label="Watermelon Salad (recipe_Food_Homestyle_WatermelonSalad_Medium)" Value="265123" />
+  <Preset Label="Watermelon Salad (recipe_Food_Homestyle_WatermelonSalad_Single)" Value="265124" />
+  <Preset Label="Colonel’s Red Hot Top (recipe_AnimalObjects_AnimalClothing_Chickens_CountryTop1)" Value="265347" />
+  <Preset Label="Colonel’s Gold Top (recipe_AnimalObjects_AnimalClothing_Chickens_CountryTop2)" Value="265567" />
+  <Preset Label="Checkered Sweater Vest (recipe_AnimalObjects_AnimalClothing_Rabbit_SweaterVest2)" Value="265568" />
+  <Preset Label="Purple Bunny Bowtie (recipe_AnimalObjects_AnimalClothing_Rabbit_Bow1)" Value="265569" />
+  <Preset Label="Formal Black Top Hat (recipe_AnimalObjects_AnimalClothing_Chickens_TopHat3)" Value="265570" />
+  <Preset Label="Blue Polka Dot Blouse (recipe_AnimalObjects_AnimalClothing_Chickens_PolkaDot2)" Value="265571" />
+  <Preset Label="Red Polka Dot Blouse (recipe_AnimalObjects_AnimalClothing_Chickens_PolkaDot1)" Value="265572" />
+  <Preset Label="Cap &amp; Scarf in Warm Tones (recipe_AnimalObjects_AnimalClothing_Chickens_HatScarf3)" Value="265573" />
+  <Preset Label="Cap &amp; Scarf in Cool Blues (recipe_AnimalObjects_AnimalClothing_Chickens_HatScarf2)" Value="265574" />
+  <Preset Label="Cap &amp; Scarf in Earthy Tones (recipe_AnimalObjects_AnimalClothing_Chickens_HatScarf1)" Value="265575" />
+  <Preset Label="English Gentlechicken (recipe_AnimalObjects_AnimalClothing_Chickens_EnglishGent)" Value="265576" />
+  <Preset Label="Zigzag Sweater Vest (recipe_AnimalObjects_AnimalClothing_Rabbit_SweaterVest1)" Value="265577" />
+  <Preset Label="Purple Sweater with Pink Pants (recipe_AnimalObjects_AnimalClothing_Rabbit_SweaterPants3)" Value="265578" />
+  <Preset Label="Blue Sweater with Purple Pants (recipe_AnimalObjects_AnimalClothing_Rabbit_SweaterPants2)" Value="265579" />
+  <Preset Label="Orange Sweater with Green Pants	 (recipe_AnimalObjects_AnimalClothing_Rabbit_SweaterPants1)" Value="265580" />
+  <Preset Label="Red &amp; Black Sun Dress (recipe_AnimalObjects_AnimalClothing_Rabbit_Dress3)" Value="265581" />
+  <Preset Label="Yellow Sun Dress (recipe_AnimalObjects_AnimalClothing_Rabbit_Dress2)" Value="265582" />
+  <Preset Label="Pink Sun Dress (recipe_AnimalObjects_AnimalClothing_Rabbit_Dress1)" Value="265583" />
+  <Preset Label="Red &amp; Blue Bunny Bowtie (recipe_AnimalObjects_AnimalClothing_Rabbit_Bow4)" Value="265584" />
+  <Preset Label="Yellow Bunny Bowtie (recipe_AnimalObjects_AnimalClothing_Rabbit_Bow3)" Value="265585" />
+  <Preset Label="Dotted Blue Bunny Bowtie (recipe_AnimalObjects_AnimalClothing_Rabbit_Bow2)" Value="265586" />
+  <Preset Label="Woven Blanket (recipe_AnimalObjects_AnimalClothing_LLama_Tarp)" Value="265587" />
+  <Preset Label="The Amazing Technicolor Neckwarmer (recipe_AnimalObjects_AnimalClothing_Llama_Neckwarmer)" Value="265588" />
+  <Preset Label="Llamacorn (recipe_AnimalObjects_AnimalClothing_Llama_Llamacorn)" Value="265589" />
+  <Preset Label="Cottagecore for Llamas (recipe_AnimalObjects_AnimalClothing_Llama_Cottagecore)" Value="265590" />
+  <Preset Label="The Aviator for Llamas (recipe_AnimalObjects_AnimalClothing_Llama_Aviator)" Value="265591" />
+  <Preset Label="Nifty Sweater (recipe_AnimalObjects_AnimalClothing_Cow_Sweater)" Value="265592" />
+  <Preset Label="Professor Moos'alot (recipe_AnimalObjects_AnimalClothing_Cow_ProfessorMoosalot)" Value="265593" />
+  <Preset Label="Cowbell (recipe_AnimalObjects_AnimalClothing_Cow_Cowbell)" Value="265594" />
+  <Preset Label="Cottagecore for Cows (recipe_AnimalObjects_AnimalClothing_Cow_Cottagecore)" Value="265595" />
+  <Preset Label="Cap &amp; Top (recipe_AnimalObjects_AnimalClothing_Cow_CapTop)" Value="265596" />
+  <Preset Label="Harry's Orange Top Hat (recipe_AnimalObjects_AnimalClothing_Chickens_TopHat2)" Value="265597" />
+  <Preset Label="Lloyd's Baby Blue Top Hat (recipe_AnimalObjects_AnimalClothing_Chickens_TopHat1)" Value="265598" />
+  <Preset Label="Sweater with Hearts (recipe_AnimalObjects_AnimalClothing_Chickens_Sweater3)" Value="265599" />
+  <Preset Label="Sweater in Stripes (recipe_AnimalObjects_AnimalClothing_Chickens_Sweater2)" Value="265600" />
+  <Preset Label="Sweater in Argyle (recipe_AnimalObjects_AnimalClothing_Chickens_Sweater1)" Value="265601" />
+  <Preset Label="Lactose Free Cereal (recipe_Food_Snack_Cereal_LactoseFree)" Value="266541" />
+  <Preset Label="Cap &amp; Scarf in Earthy Tones (recipe_Knitting_AnimalObjects_AnimalClothing_Chickens_HatScarf1)" Value="266577" />
+  <Preset Label="Cap &amp; Scarf in Warm Tones (recipe_Knitting_AnimalObjects_AnimalClothing_Chickens_HatScarf2)" Value="266578" />
+  <Preset Label="Cap &amp; Scarf in Cool Blues (recipe_Knitting_AnimalObjects_AnimalClothing_Chickens_HatScarf3)" Value="266579" />
+  <Preset Label="Sweater in Argyle (recipe_Knitting_AnimalObjects_AnimalClothing_Chickens_Sweater1)" Value="266582" />
+  <Preset Label="Sweater in Stripes (recipe_Knitting_AnimalObjects_AnimalClothing_Chickens_Sweater2)" Value="266583" />
+  <Preset Label="Sweater with Hearts (recipe_Knitting_AnimalObjects_AnimalClothing_Chickens_Sweater3)" Value="266584" />
+  <Preset Label="Nifty Sweater (recipe_Knitting_AnimalObjects_AnimalClothing_Cow_Sweater)" Value="266592" />
+  <Preset Label="Cottagecore for Llamas (recipe_Knitting_AnimalObjects_AnimalClothing_Llama_Cottagecore)" Value="266594" />
+  <Preset Label="The Amazing Technicolor Neckwarmer (recipe_Knitting_AnimalObjects_AnimalClothing_Llama_Neckwarmer)" Value="266596" />
+  <Preset Label="Woven Blanket (recipe_Knitting_AnimalObjects_AnimalClothing_LLama_Tarp)" Value="266597" />
+  <Preset Label="Orange Sweater with Green Pants	 (recipe_Knitting_AnimalObjects_AnimalClothing_Rabbit_SweaterPants1)" Value="266605" />
+  <Preset Label="Blue Sweater with Purple Pants (recipe_Knitting_AnimalObjects_AnimalClothing_Rabbit_SweaterPants2)" Value="266606" />
+  <Preset Label="Purple Sweater with Pink Pants (recipe_Knitting_AnimalObjects_AnimalClothing_Rabbit_SweaterPants3)" Value="266607" />
+  <Preset Label="Zigzag Sweater Vest (recipe_Knitting_AnimalObjects_AnimalClothing_Rabbit_SweaterVest1)" Value="266608" />
+  <Preset Label="Checkered Sweater Vest (recipe_Knitting_AnimalObjects_AnimalClothing_Rabbit_SweaterVest2)" Value="266609" />
+  <Preset Label="Lactose Free Yogurt (recipe_Food_Snack_Yogurt_LactoseFree)" Value="266665" />
+  <Preset Label="Lactose Free Yorkshire Pudding (recipe_Food_Homestyle_YorkshirePudding_LactoseFree_Single)" Value="266667" />
+  <Preset Label="Lactose Free Yorkshire Pudding (recipe_Food_Homestyle_YorkshirePudding_LactoseFree_Medium)" Value="266668" />
+  <Preset Label="Lactose Free Yorkshire Pudding (recipe_Food_Homestyle_YorkshirePudding_LactoseFree_Large)" Value="266669" />
+  <Preset Label="Lactose Free Milk Bread (recipe_Food_Homestyle_MilkBread_LactoseFree_Multi)" Value="266673" />
+  <Preset Label="Lactose Free Milk Bread (recipe_Food_Homestyle_MilkBread_LactoseFree_Single)" Value="266674" />
+  <Preset Label="Lactose Free SimCity Cheesecake (recipe_Food_Gourmet_NYCheesecake_LactoseFree_Large)" Value="266680" />
+  <Preset Label="Lactose Free SimCity Cheesecake (recipe_Food_Gourmet_NYCheesecake_LactoseFree_Single)" Value="266681" />
+  <Preset Label="Lactose Free Fruit &amp; Yogurt Parfait (recipe_Food_Gourmet_Parfait_LactoseFree_Large)" Value="266684" />
+  <Preset Label="Lactose Free Fruit &amp; Yogurt Parfait (recipe_Food_Gourmet_Parfait_LactoseFree_Medium)" Value="266685" />
+  <Preset Label="Lactose Free Fruit &amp; Yogurt Parfait (recipe_Food_Gourmet_Parfait_LactoseFree_Single)" Value="266686" />
   <Preset Label="Hamburger (recipe_Food_Bar_Hamburger)" Value="267085" />
   <Preset Label="Veggie Burger (recipe_Food_Bar_VeggieBurger)" Value="267086" />
   <Preset Label="Eggs and Toast (recipe_Food_Bar_EggsAndToast)" Value="267087" />
+  <Preset Label="Yorkshire Pudding (recipe_Food_Bar_CottageWorld_YorkshirePudding)" Value="267088" />
+  <Preset Label="Beef Wellington (recipe_Food_Bar_CottageWorld_BeefWellington)" Value="267089" />
+  <Preset Label="Mushroom Soup (recipe_Food_Bar_CottageWorld_MushroomSoup)" Value="267090" />
+  <Preset Label="Pumpkin Stew (recipe_Food_Bar_CottageWorld_PumpkinStew)" Value="267091" />
+  <Preset Label="Cottage Pie (recipe_Food_Bar_CottageWorld_CottagePie)" Value="267092" />
+  <Preset Label="Aubergine Parmesan (recipe_Food_Bar_CottageWorld_AubergineParmesan)" Value="267093" />
+  <Preset Label="Watermelon Salad (recipe_Food_Bar_CottageWorld_WatermelonSalad)" Value="267094" />
+  <Preset Label="Meat Pie (recipe_Food_Bar_CottageWorld_MeatPie)" Value="267095" />
+  <Preset Label="Buttered Crumpets (recipe_Food_Bar_CottageWorld_ButteredCrumpet)" Value="267096" />
+  <Preset Label="Pumpkin Scones (recipe_Food_Bar_CottageWorld_PumpkinScone)" Value="267097" />
+  <Preset Label="Bangers and Mash (recipe_Food_Bar_CottageWorld_BangersAndMash)" Value="267098" />
+  <Preset Label="Cheese (recipe_Food_Bar_CottageWorld_Cheese)" Value="267099" />
+  <Preset Label="phaseSimple_Food_CanningJar_AppleJam" Value="267267" />
+  <Preset Label="phaseSimple_Food_CanningJar_BlackberryJam" Value="267268" />
+  <Preset Label="phaseSimple_Food_CanningJar_BlueberryJam" Value="267269" />
+  <Preset Label="phaseSimple_Food_CanningJar_CowberryJam" Value="267270" />
+  <Preset Label="phaseSimple_Food_CanningJar_Custard" Value="267271" />
+  <Preset Label="phaseSimple_Food_CanningJar_RaspberryJam" Value="267273" />
+  <Preset Label="phaseSimple_Food_CanningJar_Mayonnaise" Value="267274" />
+  <Preset Label="phaseSimple_Food_CanningJar_EggplantConserve" Value="267275" />
+  <Preset Label="phaseSimple_Food_CanningJar_LettuceConserve" Value="267276" />
+  <Preset Label="phaseSimple_Food_CanningJar_MushroomConserve" Value="267277" />
+  <Preset Label="phaseSimple_Food_CanningJar_PumpkinConserve" Value="267279" />
+  <Preset Label="phaseSimple_Food_CanningJar_WatermelonConserve" Value="267281" />
+  <Preset Label="phaseSimple_Food_CanningJar_TomatoSauce" Value="267282" />
+  <Preset Label="phaseSimple_Food_CanningJar_ChocolateSyrup" Value="267283" />
+  <Preset Label="Obsidian Scrambled Eggs and Bacon (recipe_Food_Homestyle_ScrambledEggs-Large_Evil)" Value="267330" />
+  <Preset Label="Golden Scrambled Eggs with Bacon (recipe_Food_Homestyle_ScrambledEggs-Large_Golden)" Value="267331" />
+  <Preset Label="Obsidian Scrambled Eggs and Bacon (recipe_Food_Homestyle_ScrambledEggs-Medium_Evil)" Value="267332" />
+  <Preset Label="Golden Scrambled Eggs with Bacon (recipe_Food_Homestyle_ScrambledEggs-Medium_Golden)" Value="267333" />
+  <Preset Label="Obsidian Scrambled Eggs and Bacon (recipe_Food_Homestyle_ScrambledEggs-Single_Evil)" Value="267334" />
+  <Preset Label="Golden Scrambled Eggs with Bacon (recipe_Food_Homestyle_ScrambledEggs-Single_Golden)" Value="267335" />
+  <Preset Label="Obsidian Eggs and Toast (recipe_Food_Homestyle_EggsToast-Large_Evil)" Value="267336" />
+  <Preset Label="Golden Eggs and Toast (recipe_Food_Homestyle_EggsToast-Large_Golden)" Value="267337" />
+  <Preset Label="Obsidian Eggs and Toast (recipe_Food_Homestyle_EggsToast-Medium_Evil)" Value="267338" />
+  <Preset Label="Golden Eggs and Toast (recipe_Food_Homestyle_EggsToast-Medium_Golden)" Value="267339" />
+  <Preset Label="Obsidian Eggs and Toast (recipe_Food_Homestyle_EggsToast-Single_Evil)" Value="267340" />
+  <Preset Label="Golden Eggs and Toast (recipe_Food_Homestyle_EggsToast-Single_Golden)" Value="267341" />
+  <Preset Label="Obsidian Omelet (recipe_Food_Homestyle_Omelet-Large_Evil)" Value="267342" />
+  <Preset Label="Golden Omelet (recipe_Food_Homestyle_Omelet-Large_Golden)" Value="267343" />
+  <Preset Label="Obsidian Omelet (recipe_Food_Homestyle_Omelet-Medium_Evil)" Value="267344" />
+  <Preset Label="Golden Omelet (recipe_Food_Homestyle_Omelet-Medium_Golden)" Value="267345" />
+  <Preset Label="Obsidian Omelet (recipe_Food_Homestyle_Omelet-Single_Evil)" Value="267346" />
+  <Preset Label="Golden Omelet (recipe_Food_Homestyle_Omelet-Single_Golden)" Value="267347" />
+  <Preset Label="spawner_animalObjects_birdHome_terrainBirds_2" Value="267421" />
+  <Preset Label="spawner_animalObjects_birdHome_terrainBirds_3" Value="267422" />
+  <Preset Label="spawner_animalObjects_birdHome_terrainBirds_4" Value="267424" />
+  <Preset Label="spawner_animalObjects_birdHome_terrainBirds_5" Value="267425" />
+  <Preset Label="spawner_animalObjects_birdHome_terrainBirds_6" Value="267426" />
+  <Preset Label="spawner_animalObjects_birdHome_slottedBirds_5" Value="267428" />
+  <Preset Label="spawner_animalObjects_birdHome_slottedBirds_6" Value="267429" />
+  <Preset Label="spawner_animalObjects_birdHome_slottedBirds_2" Value="267430" />
+  <Preset Label="spawner_animalObjects_birdHome_slottedBirds_3" Value="267431" />
+  <Preset Label="spawner_animalObjects_birdHome_slottedBirds_4" Value="267432" />
+  <Preset Label="Bagley Berry Fizz (recipe_Drink_Bar_VillagerHelp_BagleyBerryFizz)" Value="267480" />
+  <Preset Label="Verdant and Funk (recipe_Drink_Bar_VillagerHelp_VerdantAndFunk)" Value="267481" />
+  <Preset Label="Bagley Berry Fizz Sampler (recipe_Drink_Bar_VillagerHelp_Sampler_BagleyBerryFizz)" Value="267482" />
+  <Preset Label="Verdant and Funk Sampler (recipe_Drink_Bar_VillagerHelp_Sampler_VerdantAndFunk)" Value="267483" />
+  <Preset Label="Apple Jam (recipe_Food_Canning_AppleJam_OffTheGrid)" Value="267713" />
+  <Preset Label="Blackberry Jam (recipe_Food_Canning_BlackberryJam_OffTheGrid)" Value="267714" />
+  <Preset Label="Blueberry Jam (recipe_Food_Canning_BlueberryJam_OffTheGrid)" Value="267715" />
+  <Preset Label="Chocolate Syrup (recipe_Food_Canning_ChocolateSyrup_OffTheGrid)" Value="267716" />
+  <Preset Label="Cowberry Jam (recipe_Food_Canning_CowberryJam_OffTheGrid)" Value="267717" />
+  <Preset Label="Custard (recipe_Food_Canning_Custard_OffTheGrid)" Value="267718" />
+  <Preset Label="Aubergine Conserve (recipe_Food_Canning_EggplantConserve_Giant_OffTheGrid)" Value="267719" />
+  <Preset Label="Aubergine Conserve (recipe_Food_Canning_EggplantConserve_Medium_OffTheGrid)" Value="267720" />
+  <Preset Label="Aubergine Conserve (recipe_Food_Canning_EggplantConserve_Small_OffTheGrid)" Value="267721" />
+  <Preset Label="Lettuce Conserve (recipe_Food_Canning_LettuceConserve_Giant_OffTheGrid)" Value="267722" />
+  <Preset Label="Lettuce Conserve (recipe_Food_Canning_LettuceConserve_Medium_OffTheGrid)" Value="267723" />
+  <Preset Label="Lettuce Conserve (recipe_Food_Canning_LettuceConserve_Small_OffTheGrid)" Value="267724" />
+  <Preset Label="Mayonnaise (recipe_Food_Canning_Mayonnaise_OffTheGrid)" Value="267725" />
+  <Preset Label="Charming Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Charming_OffTheGrid)" Value="267726" />
+  <Preset Label="Lovely Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Lovely_OffTheGrid)" Value="267727" />
+  <Preset Label="Nightly Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Nightly_OffTheGrid)" Value="267728" />
+  <Preset Label="Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Normal_OffTheGrid)" Value="267729" />
+  <Preset Label="Spicy Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Spicy_OffTheGrid)" Value="267730" />
+  <Preset Label="Verdant Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Verdant_OffTheGrid)" Value="267731" />
+  <Preset Label="Pumpkin Conserve (recipe_Food_Canning_PumpkinConserve_Giant_OffTheGrid)" Value="267732" />
+  <Preset Label="Pumpkin Conserve (recipe_Food_Canning_PumpkinConserve_Medium_OffTheGrid)" Value="267733" />
+  <Preset Label="Pumpkin Conserve (recipe_Food_Canning_PumpkinConserve_Small_OffTheGrid)" Value="267734" />
+  <Preset Label="Raspberry Jam (recipe_Food_Canning_RaspberryJam_OffTheGrid)" Value="267735" />
+  <Preset Label="Strawberry Jam (recipe_Food_Canning_StrawberryJam_OffTheGrid)" Value="267736" />
+  <Preset Label="Tomato Sauce (recipe_Food_Canning_TomatoSauce_OffTheGrid)" Value="267737" />
+  <Preset Label="Watermelon Conserve (recipe_Food_Canning_WatermelonConserve_Giant_OffTheGrid)" Value="267738" />
+  <Preset Label="Watermelon Conserve (recipe_Food_Canning_WatermelonConserve_Medium_OffTheGrid)" Value="267739" />
+  <Preset Label="Watermelon Conserve (recipe_Food_Canning_WatermelonConserve_Small_OffTheGrid)" Value="267740" />
+  <Preset Label="spawner_MushroomHunt_MushroomWildBasic" Value="268143" />
+  <Preset Label="Simple Living Cookbook (recipe_Book_SimpleLiving)" Value="268258" />
+  <Preset Label="spawner_MushroomHunt_MushroomWildBasic_Rare" Value="268368" />
+  <Preset Label="Faux Meat and Mash (recipe_Food_Homestyle_BangersAndMash_Large_Vegetarian)" Value="268406" />
+  <Preset Label="Faux Meat and Mash (recipe_Food_Homestyle_BangersAndMash_Medium_Vegetarian)" Value="268407" />
+  <Preset Label="Faux Meat and Mash (recipe_Food_Homestyle_BangersAndMash_Single_Vegetarian)" Value="268408" />
+  <Preset Label="Faux Meat Wellington (recipe_Food_Homestyle_BeefWellington_Large_Vegetarian)" Value="268436" />
+  <Preset Label="Faux Meat Wellington (recipe_Food_Homestyle_BeefWellington_Medium_Vegetarian)" Value="268437" />
+  <Preset Label="Faux Meat Wellington (recipe_Food_Homestyle_BeefWellington_Single_Vegetarian)" Value="268438" />
+  <Preset Label="Faux Meat Pie (recipe_Food_Homestyle_Pies_Meat_Large_Vegetarian)" Value="268447" />
+  <Preset Label="Faux Meat Pie (recipe_Food_Homestyle_Pies_Meat_Single_Vegetarian)" Value="268448" />
+  <Preset Label="Faux Meat Cottage Pie (recipe_Food_Homestyle_CottagePie_Multi_Vegetarian)" Value="268450" />
+  <Preset Label="Faux Meat Cottage Pie (recipe_Food_Homestyle_CottagePie_Single_Vegetarian)" Value="268451" />
+  <Preset Label="Faux Meat Butter Chicken (recipe_Food_Homestyle_ButterChicken-Large_Vegetarian)" Value="268453" />
+  <Preset Label="Faux Meat Butter Chicken (recipe_Food_Homestyle_ButterChicken-Medium_Vegetarian)" Value="268454" />
+  <Preset Label="Faux Meat Butter Chicken (recipe_Food_Homestyle_ButterChicken-Single_Vegetarian)" Value="268455" />
+  <Preset Label="Faux Meat and Chips (recipe_Food_Homestyle_Fish&amp;Chips_Large_Vegetarian)" Value="268460" />
+  <Preset Label="Faux Meat and Chips (recipe_Food_Homestyle_Fish&amp;Chips_Medium_Vegetarian)" Value="268461" />
+  <Preset Label="Faux Meat and Chips (recipe_Food_Homestyle_Fish&amp;Chips_Single_Vegetarian)" Value="268462" />
+  <Preset Label="Faux Meat Bowl (recipe_Food_Homestyle_PokeBowl_Large_Vegetarian)" Value="268467" />
+  <Preset Label="Faux Meat Bowl (recipe_Food_Homestyle_PokeBowl_Medium_Vegetarian)" Value="268468" />
+  <Preset Label="Faux Meat Bowl (recipe_Food_Homestyle_PokeBowl_Single_Vegetarian)" Value="268469" />
+  <Preset Label="Faux Meat Protein Plate (recipe_Food_Homestyle_ProteinPlate_Large_Vegetarian)" Value="268473" />
+  <Preset Label="Faux Meat Protein Plate (recipe_Food_Homestyle_ProteinPlate_Medium_Vegetarian)" Value="268474" />
+  <Preset Label="Faux Meat Protein Plate (recipe_Food_Homestyle_ProteinPlate_Single_Vegetarian)" Value="268475" />
+  <Preset Label="Faux Meat Casserole (recipe_Food_Homestyle_CasseroleTaco_Large_Vegetarian)" Value="268498" />
+  <Preset Label="Faux Meat Casserole (recipe_Food_Homestyle_CasseroleTaco_Medium_Vegetarian)" Value="268499" />
+  <Preset Label="Faux Meat Casserole (recipe_Food_Homestyle_CasseroleTaco_Single_Vegetarian)" Value="268500" />
+  <Preset Label="The Dr.'s Fez (recipe_AnimalObjects_AnimalClothing_Chickens_FezHat)" Value="268584" />
+  <Preset Label="Robber's Gear in Black (recipe_AnimalObjects_AnimalClothing_Fox_Robber_1)" Value="268683" />
+  <Preset Label="Grandma's Lavender Bonnet &amp; Scarf (recipe_AnimalObjects_AnimalClothing_Fox_Grandma_1)" Value="268686" />
+  <Preset Label="Sherwood Forest Set in Khaki (recipe_AnimalObjects_AnimalClothing_Fox_Robinhood_1)" Value="268687" />
+  <Preset Label="Meat Substitute (recipe_Food_Canning_MeatSubstitute)" Value="268699" />
+  <Preset Label="Meat Substitute (recipe_Food_Canning_MeatSubstitute_OffTheGrid)" Value="268700" />
+  <Preset Label="Cheese (recipe_Food_Homestyle_Cheese_Multi_OTG)" Value="268709" />
+  <Preset Label="Cheese (recipe_Food_Homestyle_Cheese_Single_OTG)" Value="268710" />
+  <Preset Label="Robber's Gear in Black (recipe_Knitting_AnimalObjects_AnimalClothing_Fox_Robber_1)" Value="268713" />
   <Preset Label="phaseSimple_Food_Pot_CheeseSauce_OTG" Value="268720" />
+  <Preset Label="Pumpkin Stew (recipe_Food_Homestyle_PumpkinStew_Large_OTG)" Value="268724" />
+  <Preset Label="Pumpkin Stew (recipe_Food_Homestyle_PumpkinStew_Medium_OTG)" Value="268725" />
+  <Preset Label="Pumpkin Stew (recipe_Food_Homestyle_PumpkinStew_Single_OTG)" Value="268726" />
   <Preset Label="phaseSimple_Food_Pot_Red_OTG" Value="268730" />
+  <Preset Label="Bangers and Mash (recipe_Food_Homestyle_BangersAndMash_Large_OTG)" Value="268732" />
+  <Preset Label="Bangers and Mash (recipe_Food_Homestyle_BangersAndMash_Medium_OTG)" Value="268733" />
+  <Preset Label="Bangers and Mash (recipe_Food_Homestyle_BangersAndMash_Single_OTG)" Value="268734" />
+  <Preset Label="Faux Meat and Mash (recipe_Food_Homestyle_BangersAndMash_Large_Vegetarian_OTG)" Value="268736" />
+  <Preset Label="Faux Meat and Mash (recipe_Food_Homestyle_BangersAndMash_Medium_Vegetarian_OTG)" Value="268737" />
+  <Preset Label="Faux Meat and Mash (recipe_Food_Homestyle_BangersAndMash_Single_Vegetarian_OTG)" Value="268738" />
+  <Preset Label="Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Normal_Large_OTG)" Value="268743" />
+  <Preset Label="Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Normal_Medium_OTG)" Value="268744" />
+  <Preset Label="Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Normal_Single_OTG)" Value="268745" />
+  <Preset Label="Charming Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Charming_Large_OTG)" Value="268747" />
+  <Preset Label="Charming Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Charming_Medium_OTG)" Value="268748" />
+  <Preset Label="Charming Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Charming_Single_OTG)" Value="268749" />
+  <Preset Label="Lovely Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Lovely_Large_OTG)" Value="268751" />
+  <Preset Label="Lovely Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Lovely_Medium_OTG)" Value="268752" />
+  <Preset Label="Lovely Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Lovely_Single_OTG)" Value="268753" />
+  <Preset Label="Mysterious Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Mysterious_Single_OTG)" Value="268755" />
+  <Preset Label="Nightly Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Nightly_Large_OTG)" Value="268757" />
+  <Preset Label="Nightly Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Nightly_Medium_OTG)" Value="268758" />
+  <Preset Label="Nightly Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Nightly_Single_OTG)" Value="268759" />
+  <Preset Label="Spicy Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Spicy_Large_OTG)" Value="268761" />
+  <Preset Label="Spicy Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Spicy_Medium_OTG)" Value="268762" />
+  <Preset Label="Spicy Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Spicy_Single_OTG)" Value="268763" />
+  <Preset Label="Verdant Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Verdant_Large_OTG)" Value="268765" />
+  <Preset Label="Verdant Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Verdant_Medium_OTG)" Value="268766" />
+  <Preset Label="Verdant Mushroom Soup (recipe_Food_Homestyle_MushroomSoup_Verdant_Single_OTG)" Value="268767" />
+  <Preset Label="Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Giant)" Value="268804" />
+  <Preset Label="Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Medium)" Value="268805" />
+  <Preset Label="Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Small)" Value="268806" />
+  <Preset Label="Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Giant_OffTheGrid)" Value="268807" />
+  <Preset Label="Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Medium_OffTheGrid)" Value="268808" />
+  <Preset Label="Mushroom Conserve (recipe_Food_Canning_MushroomConserve_Small_OffTheGrid)" Value="268809" />
+  <Preset Label="phaseSimple_Food_Pot_CanningHotWaterBath_OTG" Value="268823" />
+  <Preset Label="spawner_Public_Bush_blueberry_Blooming_wild" Value="269118" />
+  <Preset Label="spawner_Public_Bush_raspberry_Blooming_wild" Value="269119" />
+  <Preset Label="musicStyle_SingingSkill_AnimalObjects_BirdHome" Value="269160" />
+  <Preset Label="musicTrack_AnimalObjects_BirdHome_SingTo" Value="269165" />
+  <Preset Label="vocalTrack_AnimalObjects_BirdHome_SingTo_highSkill" Value="269167" />
+  <Preset Label="vocalTrack_AnimalObjects_BirdHome_SingTo_lowSkill" Value="269168" />
+  <Preset Label="spawner_public_Bush_chocoberry_blooming_wild" Value="269171" />
+  <Preset Label="vocalTrack_AnimalObjects_BirdHome_SingTo_highSkill_Success" Value="269199" />
+  <Preset Label="vocalTrack_AnimalObjects_BirdHome_SingTo_lowSkill_Success" Value="269200" />
+  <Preset Label="musicTrack_AnimalObjects_BirdHome_SingTo_Success" Value="269202" />
+  <Preset Label="musicStyle_SingingSkill_AnimalObjects_BirdHome_Success" Value="269204" />
+  <Preset Label="Lactose Free Milk Bread (recipe_Food_Homestyle_MilkBread_LactoseFree_Multi_OffTheGrid)" Value="269804" />
+  <Preset Label="Lactose Free Milk Bread (recipe_Food_Homestyle_MilkBread_LactoseFree_Single_OffTheGrid)" Value="269805" />
+  <Preset Label="Milk Bread (recipe_Food_Homestyle_MilkBread_Multi_OffTheGrid)" Value="269806" />
+  <Preset Label="Milk Bread (recipe_Food_Homestyle_MilkBread_Single_OffTheGrid)" Value="269807" />
+  <Preset Label="Grandma's Bright Pink Bonnet &amp; Scarf (recipe_AnimalObjects_AnimalClothing_Fox_Grandma_5)" Value="270078" />
+  <Preset Label="Grandma's Blue Bonnet &amp; Scarf (recipe_AnimalObjects_AnimalClothing_Fox_Grandma_6)" Value="270079" />
+  <Preset Label="Grandma's Yellow Bonnet &amp; Scarf (recipe_AnimalObjects_AnimalClothing_Fox_Grandma_2)" Value="270080" />
+  <Preset Label="Grandma's Red Bonnet &amp; Scarf (recipe_AnimalObjects_AnimalClothing_Fox_Grandma_3)" Value="270081" />
+  <Preset Label="Grandma's Bright Green Bonnet &amp; Scarf (recipe_AnimalObjects_AnimalClothing_Fox_Grandma_4)" Value="270082" />
+  <Preset Label="Robber's Gear in Shades of Grey (recipe_AnimalObjects_AnimalClothing_Fox_Robber_6)" Value="270083" />
+  <Preset Label="Robber's Gear in Olive Green (recipe_AnimalObjects_AnimalClothing_Fox_Robber_7)" Value="270084" />
+  <Preset Label="Robber's Gear in Brown (recipe_AnimalObjects_AnimalClothing_Fox_Robber_2)" Value="270085" />
+  <Preset Label="Robber's Gear in Maroon (recipe_AnimalObjects_AnimalClothing_Fox_Robber_3)" Value="270086" />
+  <Preset Label="Robber's Gear in Dark Blue (recipe_AnimalObjects_AnimalClothing_Fox_Robber_4)" Value="270087" />
+  <Preset Label="Robber's Gear in Grey (recipe_AnimalObjects_AnimalClothing_Fox_Robber_5)" Value="270088" />
+  <Preset Label="Sherwood Forest Set in Blue (recipe_AnimalObjects_AnimalClothing_Fox_Robinhood_5)" Value="270089" />
+  <Preset Label="Sherwood Forest Set in Black (recipe_AnimalObjects_AnimalClothing_Fox_Robinhood_6)" Value="270090" />
+  <Preset Label="Sherwood Forest Set in Red (recipe_AnimalObjects_AnimalClothing_Fox_Robinhood_2)" Value="270091" />
+  <Preset Label="Sherwood Forest Set in Brown (recipe_AnimalObjects_AnimalClothing_Fox_Robinhood_3)" Value="270092" />
+  <Preset Label="Sherwood Forest Set in Green (recipe_AnimalObjects_AnimalClothing_Fox_Robinhood_4)" Value="270093" />
+  <Preset Label="Fruity Treat (recipe_Food_AnimalObject_LivestockFeed_Blueberry_4_Servings)" Value="270226" />
+  <Preset Label="Fruity Treat (recipe_Food_AnimalObject_LivestockFeed_Blueberry_8_Servings)" Value="270227" />
+  <Preset Label="Chocolatey Treat (recipe_Food_AnimalObject_LivestockFeed_Chocolatey_4_Servings)" Value="270229" />
+  <Preset Label="Chocolatey Treat (recipe_Food_AnimalObject_LivestockFeed_Chocolatey_8_Servings)" Value="270230" />
+  <Preset Label="Fishy Protein Treat (recipe_Food_AnimalObject_LivestockFeed_Fishy_4_Servings)" Value="270232" />
+  <Preset Label="Fishy Protein Treat (recipe_Food_AnimalObject_LivestockFeed_Fishy_8_Servings)" Value="270233" />
+  <Preset Label="Flirty Treat (recipe_Food_AnimalObject_LivestockFeed_Flirty_4_Servings)" Value="270235" />
+  <Preset Label="Flirty Treat (recipe_Food_AnimalObject_LivestockFeed_Flirty_8_Servings)" Value="270236" />
+  <Preset Label="Golden Treat (recipe_Food_AnimalObject_LivestockFeed_Golden_4_Servings)" Value="270238" />
+  <Preset Label="Golden Treat (recipe_Food_AnimalObject_LivestockFeed_Golden_8_Servings)" Value="270239" />
+  <Preset Label="Healthy Treat (recipe_Food_AnimalObject_LivestockFeed_Healthy_4_Servings)" Value="270241" />
+  <Preset Label="Healthy Treat (recipe_Food_AnimalObject_LivestockFeed_Healthy_8_Servings)" Value="270242" />
+  <Preset Label="Friendly Treat (recipe_Food_AnimalObject_LivestockFeed_Normal_4_Servings)" Value="270244" />
+  <Preset Label="Friendly Treat (recipe_Food_AnimalObject_LivestockFeed_Normal_8_Servings)" Value="270245" />
+  <Preset Label="Midnight Treat (recipe_Food_AnimalObject_LivestockFeed_Obsidian_4_Servings)" Value="270247" />
+  <Preset Label="Midnight Treat (recipe_Food_AnimalObject_LivestockFeed_Obsidian_8_Servings)" Value="270248" />
+  <Preset Label="Pumpkin Treat (recipe_Food_AnimalObject_LivestockFeed_Pumpkin_4_Servings)" Value="270250" />
+  <Preset Label="Pumpkin Treat (recipe_Food_AnimalObject_LivestockFeed_Pumpkin_8_Servings)" Value="270251" />
+  <Preset Label="Rainbow Treat (recipe_Food_AnimalObject_LivestockFeed_Rainbow_4_Servings)" Value="270253" />
+  <Preset Label="Rainbow Treat (recipe_Food_AnimalObject_LivestockFeed_Rainbow_8_Servings)" Value="270254" />
+  <Preset Label="Animal Party Treat (recipe_Food_AnimalObject_LivestockFeed_Social_4_Servings)" Value="270257" />
+  <Preset Label="Animal Party Treat (recipe_Food_AnimalObject_LivestockFeed_Social_8_Servings)" Value="270258" />
+  <Preset Label="Spicy Treat (recipe_Food_AnimalObject_LivestockFeed_SpicyBeef_4_Servings)" Value="270260" />
+  <Preset Label="Spicy Treat (recipe_Food_AnimalObject_LivestockFeed_SpicyBeef_8_Servings)" Value="270261" />
+  <Preset Label="Veggie Treat (recipe_Food_AnimalObject_LivestockFeed_Veggie_4_Servings)" Value="270263" />
+  <Preset Label="Veggie Treat (recipe_Food_AnimalObject_LivestockFeed_Veggie_8_Servings)" Value="270264" />
+  <Preset Label="Robber's Gear in Shades of Grey (recipe_Knitting_AnimalObjects_AnimalClothing_Fox_Robber_6)" Value="270486" />
+  <Preset Label="Robber's Gear in Olive Green (recipe_Knitting_AnimalObjects_AnimalClothing_Fox_Robber_7)" Value="270487" />
+  <Preset Label="Robber's Gear in Brown (recipe_Knitting_AnimalObjects_AnimalClothing_Fox_Robber_2)" Value="270488" />
+  <Preset Label="Robber's Gear in Maroon (recipe_Knitting_AnimalObjects_AnimalClothing_Fox_Robber_3)" Value="270489" />
+  <Preset Label="Robber's Gear in Dark Blue (recipe_Knitting_AnimalObjects_AnimalClothing_Fox_Robber_4)" Value="270490" />
+  <Preset Label="Robber's Gear in Grey (recipe_Knitting_AnimalObjects_AnimalClothing_Fox_Robber_5)" Value="270491" />
+  <Preset Label="phaseSimple_Food_BakingPan_Cake_OTG" Value="270720" />
   <Preset Label="phaseMulti_Food-OvenBasic_OffTheGrid" Value="270727" />
+  <Preset Label="Oaty O's (recipe_Food_ToddlerInfant_HighChair_OatyOs)" Value="274782" />
+  <Preset Label="Banana Slices (recipe_Food_ToddlerInfant_HighChair_BananaSlices)" Value="274783" />
+  <Preset Label="Peanut Butter Puffs (recipe_Food_ToddlerInfant_HighChair_PeanutButterPuffs)" Value="274784" />
+  <Preset Label="Yogurt Melts (recipe_Food_ToddlerInfant_HighChair_YogurtMelts)" Value="274785" />
+  <Preset Label="Black Dragon (recipe_Drink_Brewed_Tea_BlackDragon)" Value="275558" />
+  <Preset Label="Orange Blossom (recipe_Drink_Brewed_Tea_OrangeBlossom)" Value="275559" />
+  <Preset Label="Dal Makhani (recipe_Food_MarketStalls_DalMakhani)" Value="276500" />
+  <Preset Label="Mutton Biryani (recipe_Food_MarketStalls_MuttonBiryani)" Value="276501" />
+  <Preset Label="Gulab Jamun (recipe_Food_MarketStalls_GulabJamun)" Value="276502" />
+  <Preset Label="Sweet Buns (recipe_Food_MarketStalls_SweetBuns)" Value="276503" />
+  <Preset Label="Roast Duck (recipe_Food_MarketStalls_RoastDuck)" Value="276504" />
   <Preset Label="Palak Paneer (recipe_Food_MarketStalls_PalakPaneer)" Value="276512" />
   <Preset Label="Butter Chicken (recipe_Food_MarketStalls_ButterChicken)" Value="276513" />
   <Preset Label="Mud Carp (recipe_Food_MarketStalls_MudCarp)" Value="276514" />
@@ -2043,16 +2996,214 @@
   <Preset Label="Hallacas (recipe_Food_Homestyle_Hallacas-Large)" Value="277602" />
   <Preset Label="Hallacas (recipe_Food_Homestyle_Hallacas-Medium)" Value="277603" />
   <Preset Label="Coquito (recipe_Drink_Bar_Coquito)" Value="277641" />
+  <Preset Label="Daisies Wedding Bouquet (recipe_FlowerArrangement_WeddingBouquet_Daisy)" Value="277778" />
+  <Preset Label="Crocus Wedding Bouquet (recipe_FlowerArrangement_WeddingBouquet_Crocus)" Value="277779" />
+  <Preset Label="Dahlia and Begonia Wedding Bouquet (recipe_FlowerArrangement_WeddingBouquet_DahliaBegonia)" Value="277780" />
+  <Preset Label="Lilies and Begonia Wedding Bouquet (recipe_FlowerArrangement_WeddingBouquet_LilyBegonia)" Value="277781" />
+  <Preset Label="Birds of Paradise Wedding Bouquet (recipe_FlowerArrangement_WeddingBouquet_BirdOfParadise)" Value="277782" />
   <Preset Label="spawners_SandPlay_Bottle" Value="277989" />
+  <Preset Label="White with Pink Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Floral_set1)" Value="278186" />
+  <Preset Label="White with Blue Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Floral_set2)" Value="278189" />
+  <Preset Label="White with Pink Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Floral_set1)" Value="278190" />
+  <Preset Label="White with Blue Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Floral_set2)" Value="278193" />
+  <Preset Label="White with Green Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Floral_set3)" Value="278256" />
+  <Preset Label="Red with Yellow Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Floral_set4)" Value="278257" />
+  <Preset Label="Rainbow Ombre with White Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Floral_set5)" Value="278258" />
+  <Preset Label="White Naked Cake with Brown Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Floral_set6)" Value="278259" />
+  <Preset Label="White with Golden Roses Naked Two-Tiered Round Fruitcake (recipe_Food_Gourmet_WeddingCake_Multi_Floral_set7)" Value="278260" />
+  <Preset Label="Off-White with Golden Roses Naked Two-Tiered Round Fruitcake (recipe_Food_Gourmet_WeddingCake_Multi_Floral_set8)" Value="278261" />
+  <Preset Label="White with Green Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Floral_set3)" Value="278263" />
+  <Preset Label="Red with Yellow Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Floral_set4)" Value="278264" />
+  <Preset Label="Rainbow Ombre with White Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Floral_set5)" Value="278265" />
+  <Preset Label="White Naked Cake with Brown Roses Two-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Floral_set6)" Value="278266" />
+  <Preset Label="White with Golden Roses Naked Two-Tiered Round Fruitcake (recipe_Food_Gourmet_WeddingCake_Single_Floral_set7)" Value="278267" />
+  <Preset Label="Off-White with Golden Roses Naked Two-Tiered Round Fruitcake (recipe_Food_Gourmet_WeddingCake_Single_Floral_set8)" Value="278268" />
+  <Preset Label="Rosy Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Multi_Heart_set1)" Value="278360" />
+  <Preset Label="Red and White Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Multi_Heart_set2)" Value="278361" />
+  <Preset Label="White Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Multi_Heart_set3)" Value="278362" />
+  <Preset Label="White and Grey Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Multi_Heart_set6)" Value="278363" />
+  <Preset Label="Rosy and White Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Multi_Heart_set4)" Value="278364" />
+  <Preset Label="Blue Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Multi_Heart_set5)" Value="278365" />
+  <Preset Label="Rosy Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Single_Heart_set1)" Value="278366" />
+  <Preset Label="Red and White Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Single_Heart_set2)" Value="278367" />
+  <Preset Label="White Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Single_Heart_set3)" Value="278368" />
+  <Preset Label="Rosy and White Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Single_Heart_set4)" Value="278369" />
+  <Preset Label="Blue Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Single_Heart_set5)" Value="278370" />
+  <Preset Label="White and Grey Two-Tiered Heart Cake (recipe_Food_Gourmet_WeddingCake_Single_Heart_set6)" Value="278371" />
+  <Preset Label="White with Gold Piping Two-Tiered Pillow Cake (recipe_Food_Gourmet_WeddingCake_Multi_Pillow_set1)" Value="278372" />
+  <Preset Label="Red with Gold Filigree Two-Tiered Pillow Cake (recipe_Food_Gourmet_WeddingCake_Multi_Pillow_set2)" Value="278373" />
+  <Preset Label="Pink with White Hearts Two-Tiered Pillow Cake (recipe_Food_Gourmet_WeddingCake_Multi_Pillow_set3)" Value="278374" />
+  <Preset Label="Brown with Gold Floral Patterning Two-Tiered Pillow Cake (recipe_Food_Gourmet_WeddingCake_Multi_Pillow_set4)" Value="278375" />
+  <Preset Label="Blue with Gold Leaf Pattern Two-Tiered Pillow Cake (recipe_Food_Gourmet_WeddingCake_Multi_Pillow_set5)" Value="278376" />
+  <Preset Label="White with Gold Piping Two-Tiered Pillow Cake (recipe_Food_Gourmet_WeddingCake_Single_Pillow_set1)" Value="278377" />
+  <Preset Label="Red with Gold Filigree Two-Tiered Pillow Cake (recipe_Food_Gourmet_WeddingCake_Single_Pillow_set2)" Value="278378" />
+  <Preset Label="Pink with White Hearts Two-Tiered Pillow Cake (recipe_Food_Gourmet_WeddingCake_Single_Pillow_set3)" Value="278379" />
+  <Preset Label="Brown with Gold Floral Patterning Two-Tiered Pillow Cake (recipe_Food_Gourmet_WeddingCake_Single_Pillow_set4)" Value="278380" />
+  <Preset Label="Blue with Gold Leaf Pattern Two-Tiered Pillow Cake (recipe_Food_Gourmet_WeddingCake_Single_Pillow_set5)" Value="278381" />
+  <Preset Label="Black with Gold Crisscross Pattern Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Multi_Hexagon_set1)" Value="278409" />
+  <Preset Label="Black with Gold Tree Pattern Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Multi_Hexagon_set2)" Value="278410" />
+  <Preset Label="Black with Silver Floral Pattern Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Multi_Hexagon_set3)" Value="278411" />
+  <Preset Label="White with Gold Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Multi_Hexagon_set4)" Value="278412" />
+  <Preset Label="Pink Ombre Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Multi_Hexagon_set5)" Value="278413" />
+  <Preset Label="Red with Gold Filigree Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Multi_Hexagon_set6)" Value="278414" />
+  <Preset Label="Black with Gold Crisscross Pattern Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Single_Hexagon_set1)" Value="278415" />
+  <Preset Label="Black with Gold Tree Pattern Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Single_Hexagon_set2)" Value="278416" />
+  <Preset Label="Black with Silver Floral Pattern Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Single_Hexagon_set3)" Value="278417" />
+  <Preset Label="White with Gold Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Single_Hexagon_set4)" Value="278418" />
+  <Preset Label="Pink Ombre Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Single_Hexagon_set5)" Value="278419" />
+  <Preset Label="Red with Gold Filigree Three-Tiered Hexagonal Cake (recipe_Food_Gourmet_WeddingCake_Single_Hexagon_set6)" Value="278420" />
+  <Preset Label="Off-White with Golden Roses Naked Two-Tiered Round Fruitcake (recipe_Food_MarketStalls_WeddingCake_Floral)" Value="278900" />
+  <Preset Label="Rosy Two-Tiered Heart Cake (recipe_Food_MarketStalls_WeddingCake_Heart)" Value="278901" />
+  <Preset Label="Brown with Gold Floral Patterning Two-Tiered Pillow Cake (recipe_Food_MarketStalls_WeddingCake_Pillow)" Value="278902" />
+  <Preset Label="Pink Ombre Three-Tiered Hexagonal Cake (recipe_Food_MarketStalls_WeddingCake_Hexagon)" Value="278903" />
+  <Preset Label="White with Colored Spots Three-Tiered Square Cake (recipe_Food_MarketStalls_WeddingCake_Square)" Value="278904" />
+  <Preset Label="Yellow Ombre Four-Tiered Round Cake (recipe_Food_MarketStalls_WeddingCake_Cylinder)" Value="278905" />
+  <Preset Label="White with Green Square Design Four-Tiered Round Cake (recipe_Food_MarketStalls_WeddingCake_Design)" Value="278906" />
+  <Preset Label="Sand and Blue Ombre Beachy Four-Tiered Round Cake (recipe_Food_MarketStalls_WeddingCake_Beachy)" Value="278907" />
+  <Preset Label="White and Rainbow Cupcake Cake (recipe_Food_MarketStalls_WeddingCake_Tower)" Value="278908" />
+  <Preset Label="World-Famous Tartosian Fruit Tart (recipe_Food_MarketStalls_FruitTart)" Value="278915" />
+  <Preset Label="World-Famous Tartosian Fruit Tart (recipe_Food_MarketStalls_FruitTart-Large)" Value="279227" />
+  <Preset Label="Gulab Jamun (recipe_Food_MarketStalls_GulabJamun-Large)" Value="279233" />
+  <Preset Label="Mutton Biryani (recipe_Food_MarketStalls_MuttonBiryani-Large)" Value="279234" />
+  <Preset Label="Roast Duck (recipe_Food_MarketStalls_RoastDuck-Large)" Value="279235" />
+  <Preset Label="Sweet Buns (recipe_Food_MarketStalls_SweetBuns-Large)" Value="279236" />
+  <Preset Label="Dal Makhani (recipe_Food_MarketStalls_DalMakhani-Large)" Value="279237" />
+  <Preset Label="Strawberry Matcha Latte Bubble Tea (recipe_Drink_BubbleTea_StrawberryMatchaLatte)" Value="279632" />
+  <Preset Label="White with White Roses Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Multi_Square_set1)" Value="280224" />
+  <Preset Label="White with Red Roses Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Multi_Square_set2)" Value="280225" />
+  <Preset Label="White with Black Trim Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Multi_Square_set3)" Value="280226" />
+  <Preset Label="White with Blue Trim Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Multi_Square_set4)" Value="280227" />
+  <Preset Label="White with Colored Spots Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Multi_Square_set5)" Value="280228" />
+  <Preset Label="White and Black with Gold Designs Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Multi_Square_set6)" Value="280229" />
+  <Preset Label="Red with Gold Trim Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Multi_Square_set7)" Value="280230" />
+  <Preset Label="Cozy Apple Juice Tea (recipe_Drink_Brewed_Tea_Teaset_AppleCider)" Value="280340" />
+  <Preset Label="Pitch Black (recipe_Drink_Brewed_Tea_Teaset_Black)" Value="280341" />
+  <Preset Label="Calming Chamomile (recipe_Drink_Brewed_Tea_Teaset_Chamomile)" Value="280342" />
+  <Preset Label="Earl Grey, Hot (recipe_Drink_Brewed_Tea_Teaset_EarlGrey)" Value="280343" />
+  <Preset Label="Healthy Green (recipe_Drink_Brewed_Tea_Teaset_Green)" Value="280344" />
+  <Preset Label="Run Oolong (recipe_Drink_Brewed_Tea_Teaset_Oolong)" Value="280345" />
+  <Preset Label="White with White Roses Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Single_Square_set1)" Value="280406" />
+  <Preset Label="White with Red Roses Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Single_Square_set2)" Value="280407" />
+  <Preset Label="White with Black Trim Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Single_Square_set3)" Value="280408" />
+  <Preset Label="White with Blue Trim Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Single_Square_set4)" Value="280409" />
+  <Preset Label="White with Colored Spots Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Single_Square_set5)" Value="280410" />
+  <Preset Label="White and Black with Gold Designs Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Single_Square_set6)" Value="280411" />
+  <Preset Label="Red with Gold Trim Three-Tiered Square Cake (recipe_Food_Gourmet_WeddingCake_Single_Square_set7)" Value="280412" />
   <Preset Label="spawner_Public_Wild_Mature_BG_Grape" Value="280562" />
+  <Preset Label="Chocolate Milk Bubble Tea with Cheese Foam (recipe_Drink_BubbleTea_ChocolateMilkCheeseFoam)" Value="281126" />
+  <Preset Label="Lychee Milk Bubble Tea (recipe_Drink_BubbleTea_LycheeMilk)" Value="281127" />
+  <Preset Label="Mango Milk Bubble Tea (recipe_Drink_BubbleTea_MangoMilk)" Value="281128" />
+  <Preset Label="Taro Milk Bubble Tea (recipe_Drink_BubbleTea_TaroMilk)" Value="281129" />
+  <Preset Label="Cozy Apple Juice Tea (recipe_Drink_Brewed_Tea_Teaset_AppleCider_DoubleHappiness2)" Value="281146" />
+  <Preset Label="Cozy Apple Juice Tea (recipe_Drink_Brewed_Tea_Teaset_AppleCider_DoubleHappiness3)" Value="281147" />
+  <Preset Label="Cozy Apple Juice Tea (recipe_Drink_Brewed_Tea_Teaset_AppleCider_English1)" Value="281148" />
+  <Preset Label="Cozy Apple Juice Tea (recipe_Drink_Brewed_Tea_Teaset_AppleCider_English2)" Value="281149" />
+  <Preset Label="Cozy Apple Juice Tea (recipe_Drink_Brewed_Tea_Teaset_AppleCider_English3)" Value="281150" />
+  <Preset Label="Pitch Black (recipe_Drink_Brewed_Tea_Teaset_Black_DoubleHappiness2)" Value="281163" />
+  <Preset Label="Pitch Black (recipe_Drink_Brewed_Tea_Teaset_Black_DoubleHappiness3)" Value="281164" />
+  <Preset Label="Pitch Black (recipe_Drink_Brewed_Tea_Teaset_Black_English1)" Value="281165" />
+  <Preset Label="Pitch Black (recipe_Drink_Brewed_Tea_Teaset_Black_English2)" Value="281166" />
+  <Preset Label="Pitch Black (recipe_Drink_Brewed_Tea_Teaset_Black_English3)" Value="281167" />
+  <Preset Label="Calming Chamomile (recipe_Drink_Brewed_Tea_Teaset_Chamomile_DoubleHappiness2)" Value="281170" />
+  <Preset Label="Calming Chamomile (recipe_Drink_Brewed_Tea_Teaset_Chamomile_DoubleHappiness3)" Value="281171" />
+  <Preset Label="Calming Chamomile (recipe_Drink_Brewed_Tea_Teaset_Chamomile_English1)" Value="281172" />
+  <Preset Label="Calming Chamomile (recipe_Drink_Brewed_Tea_Teaset_Chamomile_English2)" Value="281173" />
+  <Preset Label="Calming Chamomile (recipe_Drink_Brewed_Tea_Teaset_Chamomile_English3)" Value="281174" />
+  <Preset Label="Earl Grey, Hot (recipe_Drink_Brewed_Tea_Teaset_EarlGrey_DoubleHappiness2)" Value="281176" />
+  <Preset Label="Earl Grey, Hot (recipe_Drink_Brewed_Tea_Teaset_EarlGrey_DoubleHappiness3)" Value="281177" />
+  <Preset Label="Earl Grey, Hot (recipe_Drink_Brewed_Tea_Teaset_EarlGrey_English1)" Value="281178" />
+  <Preset Label="Earl Grey, Hot (recipe_Drink_Brewed_Tea_Teaset_EarlGrey_English2)" Value="281179" />
+  <Preset Label="Earl Grey, Hot (recipe_Drink_Brewed_Tea_Teaset_EarlGrey_English3)" Value="281180" />
+  <Preset Label="Healthy Green (recipe_Drink_Brewed_Tea_Teaset_Green_DoubleHappiness2)" Value="281182" />
+  <Preset Label="Healthy Green (recipe_Drink_Brewed_Tea_Teaset_Green_DoubleHappiness3)" Value="281183" />
+  <Preset Label="Healthy Green (recipe_Drink_Brewed_Tea_Teaset_Green_English1)" Value="281184" />
+  <Preset Label="Healthy Green (recipe_Drink_Brewed_Tea_Teaset_Green_English2)" Value="281185" />
+  <Preset Label="Healthy Green (recipe_Drink_Brewed_Tea_Teaset_Green_English3)" Value="281186" />
+  <Preset Label="Run Oolong (recipe_Drink_Brewed_Tea_Teaset_Oolong_DoubleHappiness2)" Value="281188" />
+  <Preset Label="Run Oolong (recipe_Drink_Brewed_Tea_Teaset_Oolong_DoubleHappiness3)" Value="281189" />
+  <Preset Label="Run Oolong (recipe_Drink_Brewed_Tea_Teaset_Oolong_English1)" Value="281190" />
+  <Preset Label="Run Oolong (recipe_Drink_Brewed_Tea_Teaset_Oolong_English2)" Value="281191" />
+  <Preset Label="Run Oolong (recipe_Drink_Brewed_Tea_Teaset_Oolong_English3)" Value="281192" />
+  <Preset Label="Black Dragon (recipe_Drink_Brewed_Tea_Teaset_BlackDragon_DoubleHappiness2)" Value="281194" />
+  <Preset Label="Black Dragon (recipe_Drink_Brewed_Tea_Teaset_BlackDragon_DoubleHappiness3)" Value="281195" />
+  <Preset Label="Black Dragon (recipe_Drink_Brewed_Tea_Teaset_BlackDragon_English1)" Value="281196" />
+  <Preset Label="Black Dragon (recipe_Drink_Brewed_Tea_Teaset_BlackDragon_English2)" Value="281197" />
+  <Preset Label="Black Dragon (recipe_Drink_Brewed_Tea_Teaset_BlackDragon_English3)" Value="281198" />
+  <Preset Label="Orange Blossom (recipe_Drink_Brewed_Tea_OrangeBlossom_DoubleHappiness2)" Value="281200" />
+  <Preset Label="Orange Blossom (recipe_Drink_Brewed_Tea_OrangeBlossom_DoubleHappiness3)" Value="281201" />
+  <Preset Label="Orange Blossom (recipe_Drink_Brewed_Tea_OrangeBlossom_English1)" Value="281202" />
+  <Preset Label="Orange Blossom (recipe_Drink_Brewed_Tea_OrangeBlossom_English2)" Value="281203" />
+  <Preset Label="Orange Blossom (recipe_Drink_Brewed_Tea_OrangeBlossom_English3)" Value="281204" />
+  <Preset Label="Pink and Teal with Gold Patterning Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set1)" Value="281616" />
+  <Preset Label="Orange and Purple with Gold Patterning Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set2)" Value="281617" />
+  <Preset Label="White and Gold with Black Floral Designs Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set3)" Value="281618" />
+  <Preset Label="White with White Floral Designs Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set4)" Value="281619" />
+  <Preset Label="Yellow Ombre Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set5)" Value="281620" />
+  <Preset Label="White with Pastel Pink and Purple Drip Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set6)" Value="281621" />
+  <Preset Label="White with Purple Plasma Drip Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set7)" Value="281622" />
+  <Preset Label="Galaxy Mirror Glaze Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set8)" Value="281623" />
+  <Preset Label="Pastel Sixam-inspired Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set9)" Value="281624" />
+  <Preset Label="Pink and Teal with Gold Patterning Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set1)" Value="281625" />
+  <Preset Label="Orange and Purple with Gold Patterning Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set2)" Value="281626" />
+  <Preset Label="White and Gold with Black Floral Designs Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set3)" Value="281627" />
+  <Preset Label="White with White Floral Designs Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set4)" Value="281628" />
+  <Preset Label="Yellow Ombre Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set5)" Value="281629" />
+  <Preset Label="White with Pastel Pink and Purple Drip Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set6)" Value="281630" />
+  <Preset Label="White with Purple Plasma Drip Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set7)" Value="281631" />
+  <Preset Label="Galaxy Mirror Glaze Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set8)" Value="281632" />
+  <Preset Label="Pastel Sixam-inspired Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set9)" Value="281633" />
+  <Preset Label="White with Pink Bunting Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set10)" Value="281634" />
+  <Preset Label="Off-White with Grey Bunting Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_4tierCyl_set11)" Value="281635" />
+  <Preset Label="White with Pink Bunting Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set10)" Value="281636" />
+  <Preset Label="Off-White with Grey Bunting Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_4tierCyl_set11)" Value="281637" />
+  <Preset Label="White with Green Square Design Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_3dDesign_set1)" Value="281639" />
+  <Preset Label="White with Purple Square Design Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_3dDesign_set2)" Value="281640" />
+  <Preset Label="White with Rainbow Square Design Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_3dDesign_set3)" Value="281641" />
+  <Preset Label="Black with White Square Design Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_3dDesign_set4)" Value="281642" />
+  <Preset Label="Gold with Black Square Design Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_3dDesign_set5)" Value="281643" />
+  <Preset Label="White with Green Square Design Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_3dDesign_set1)" Value="281644" />
+  <Preset Label="White with Purple Square Design Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_3dDesign_set2)" Value="281645" />
+  <Preset Label="White with Rainbow Square Design Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_3dDesign_set3)" Value="281646" />
+  <Preset Label="Black with White Square Design Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_3dDesign_set4)" Value="281647" />
+  <Preset Label="Gold with Black Square Design Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_3dDesign_set5)" Value="281648" />
+  <Preset Label="Red Ombre Beachy Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Beachy_set1)" Value="281650" />
+  <Preset Label="Green Ombre Beachy Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Beachy_set2)" Value="281651" />
+  <Preset Label="Purple Ombre Beachy Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Beachy_set3)" Value="281652" />
+  <Preset Label="Sand and Blue Ombre Beachy Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Beachy_set4)" Value="281653" />
+  <Preset Label="Silver and Gold Beachy Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Multi_Beachy_set5)" Value="281654" />
+  <Preset Label="Red Ombre Beachy Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Beachy_set1)" Value="281655" />
+  <Preset Label="Green Ombre Beachy Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Beachy_set2)" Value="281656" />
+  <Preset Label="Purple Ombre Beachy Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Beachy_set3)" Value="281657" />
+  <Preset Label="Sand and Blue Ombre Beachy Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Beachy_set4)" Value="281658" />
+  <Preset Label="Silver and Gold Beachy Four-Tiered Round Cake (recipe_Food_Gourmet_WeddingCake_Single_Beachy_set5)" Value="281659" />
+  <Preset Label="White and Rainbow Cupcake Display (recipe_Food_Gourmet_WeddingCake_Multi_Cupcake_set1)" Value="281662" />
+  <Preset Label="Blue Ombre Cupcake Display (recipe_Food_Gourmet_WeddingCake_Multi_Cupcake_set2)" Value="281663" />
+  <Preset Label="White and Brown Cupcake Display (recipe_Food_Gourmet_WeddingCake_Multi_Cupcake_set3)" Value="281664" />
+  <Preset Label="White and Rainbow Cupcake Display (recipe_Food_Gourmet_WeddingCake_Single_Cupcake_set1)" Value="281665" />
+  <Preset Label="Blue Ombre Cupcake Display (recipe_Food_Gourmet_WeddingCake_Single_Cupcake_set2)" Value="281666" />
+  <Preset Label="White and Brown Cupcake Display (recipe_Food_Gourmet_WeddingCake_Single_Cupcake_set3)" Value="281667" />
   <Preset Label="Acarajé (recipe_Food_Homestyle_Acaraje-Single)" Value="282855" />
   <Preset Label="Acarajé (recipe_Food_Homestyle_Acaraje-Large)" Value="282856" />
   <Preset Label="Acarajé (recipe_Food_Homestyle_Acaraje-Medium)" Value="282857" />
   <Preset Label="Pão de Queijo (recipe_Food_Homestyle_PaodeQueijo-Single)" Value="282879" />
   <Preset Label="Pão de Queijo (recipe_Food_Homestyle_PaodeQueijo-Large)" Value="282880" />
   <Preset Label="Pão de Queijo (recipe_Food_Homestyle_PaodeQueijo-Medium)" Value="282881" />
+  <Preset Label="Veggie Pizza Rollup (recipe_Snack_Teen_VegRollup)" Value="284484" />
+  <Preset Label="Pepperoni Pizza Rollup (recipe_Snack_Teen_PepRollup)" Value="284541" />
+  <Preset Label="Tortilla Wrapped Hotdog (Recipe_Food_Gourmet_TortHotdog)" Value="284550" />
+  <Preset Label="Tortilla Wrapped Veggie Dog (recipe_Food_Homestyle_TortVegdog_single)" Value="284708" />
+  <Preset Label="Fried Chicken Slider (recipe_Food_Homestyle_ChickenSlider_single)" Value="284828" />
+  <Preset Label="Fried Chicken Slider (recipe_Food_Homestyle_ChickenSlider_medium)" Value="284846" />
+  <Preset Label="Fried Chicken Slider (recipe_Food_Homestyle_ChickenSlider_large)" Value="284848" />
+  <Preset Label="Hamburger Slider (recipe_Food_Homestyle_HamburgSlider_Single)" Value="284871" />
+  <Preset Label="Hamburger Slider (recipe_Food_Homestyle_HamburgSlider_Medium)" Value="284872" />
+  <Preset Label="Hamburger Slider (recipe_Food_Homestyle_HamburgSlider_Large)" Value="284873" />
   <Preset Label="Rice Cake (recipe_Food_Homestyle_RiceCake_Large)" Value="284885" />
   <Preset Label="Rice Cake (recipe_Food_Homestyle_RiceCake_Single)" Value="284886" />
+  <Preset Label="Veggie Slider (recipe_Food_Homestyle_VeggieSlider_Single)" Value="284924" />
+  <Preset Label="Veggie Slider (recipe_Food_Homestyle_VeggieSlider_Medium)" Value="284925" />
+  <Preset Label="Veggie Slider (recipe_Food_Homestyle_VeggieSlider_Large)" Value="284926" />
+  <Preset Label="Cup Noodle (recipe_Snack_Teen_CupNoodle)" Value="284974" />
   <Preset Label="Japchae (recipe_Food_Gourmet_NoodlesJapchae_Large)" Value="285033" />
   <Preset Label="Japchae (recipe_Food_Gourmet_NoodlesJapchae_Medium)" Value="285034" />
   <Preset Label="Japchae (recipe_Food_Gourmet_NoodlesJapchae_Single)" Value="285035" />
@@ -2067,14 +3218,97 @@
   <Preset Label="Galbi-jjim (recipe_Food_Homestyle_Galbijim_Small)" Value="285063" />
   <Preset Label="Galbi-jjim (recipe_Food_Homestyle_Galbijim_Single)" Value="285064" />
   <Preset Label="phaseSimple_Food_FryingPan_BeanCakes" Value="285077" />
+  <Preset Label="Corndog (recipe_Food_Homestyle_Corndog_single)" Value="285079" />
   <Preset Label="phaseSimple_Food_BakingPan_PaoDeQueijo" Value="285094" />
+  <Preset Label="Churros (recipe_Food_Homestyle_Churros_Single)" Value="285111" />
+  <Preset Label="Churros (recipe_Food_Homestyle_Churros_Medium)" Value="285112" />
+  <Preset Label="Churros (recipe_Food_Homestyle_Churros_Large)" Value="285113" />
   <Preset Label="Churrasco (recipe_Food_Homestyle_Churrasco_Large)" Value="285242" />
   <Preset Label="Churrasco (recipe_Food_Homestyle_Churrasco_Single)" Value="285243" />
   <Preset Label="Brigadeiro (recipe_Food_Homestyle_Brigadeiro_Large)" Value="285354" />
   <Preset Label="Brigadeiro (recipe_Food_Homestyle_Brigadeiro_Medium)" Value="285355" />
   <Preset Label="Brigadeiro (recipe_Food_Homestyle_Brigadeiro_Single)" Value="285356" />
+  <Preset Label="Acai Bowl (recipe_Snack_Teen_Acai)" Value="285360" />
   <Preset Label="Virgin Caipirinha (recipe_Drink_Bar_Caipirinha)" Value="285488" />
+  <Preset Label="Rainbow Brownies (recipe_Food_Homestyle_RainbowBrownie_Single)" Value="285526" />
+  <Preset Label="Rainbow Brownies (recipe_Food_Homestyle_RainbowBrownie_Medium)" Value="285527" />
+  <Preset Label="Rainbow Brownies (recipe_Food_Homestyle_RainbowBrownie_Large)" Value="285528" />
+  <Preset Label="phaseSimple_Food_BakingPan_RainbowBrownies" Value="285529" />
+  <Preset Label="Meatball Tamale Bites (recipe_Food_Homestyle_TamaleBite_Single)" Value="285551" />
+  <Preset Label="Meatball Tamale Bites (recipe_Food_Homestyle_TamaleBite_Medium)" Value="285552" />
+  <Preset Label="Meatball Tamale Bites (recipe_Food_Homestyle_TamaleBite_Large)" Value="285553" />
+  <Preset Label="Tortilla Wrapped Veggie Dog (recipe_Food_MarketStalls_Teen_TortVegDog)" Value="285621" />
+  <Preset Label="Fried Chicken Slider (recipe_Food_MarketStalls_Teen_ChickenSlider)" Value="285628" />
+  <Preset Label="Hamburger Slider (recipe_Food_MarketStalls_Teen_HamburgSlider)" Value="285629" />
+  <Preset Label="Veggie Slider (recipe_Food_MarketStalls_Teen_VeggieSlider)" Value="285630" />
+  <Preset Label="Corndog (recipe_Food_MarketStalls_Teen_Corndog)" Value="285632" />
+  <Preset Label="Churros (recipe_Food_MarketStalls_Teen_Churros)" Value="285635" />
+  <Preset Label="Salmon and Scrambled Egg Bowl (recipe_Food_MarketStalls_Teen_SalmonEggBowl)" Value="285640" />
+  <Preset Label="Spice Encrusted Burrito (recipe_Food_MarketStalls_Teen_SpiceBurrito)" Value="285677" />
   <Preset Label="Rice Cake (recipe_Food_Homestyle_RiceCake_Medium)" Value="285681" />
+  <Preset Label="Cream Snack Cake (recipe_Food_MarketStalls_Teen_CreamCake)" Value="285793" />
+  <Preset Label="Tortilla Wrapped Hotdog (recipe_Food_Cafeteria_Teen_TortHotdog)" Value="285888" />
+  <Preset Label="Tortilla Wrapped Veggie Dog (recipe_Food_Cafeteria_Teen_TortVegdog)" Value="285889" />
+  <Preset Label="Fried Chicken Slider (recipe_Food_Cafeteria_Teen_ChickenSlider)" Value="285890" />
+  <Preset Label="Hamburger Slider (recipe_Food_Cafeteria_Teen_HamburgSlider)" Value="285891" />
+  <Preset Label="Veggie Slider (recipe_Food_Cafeteria_Teen_VeggieSlider)" Value="285892" />
+  <Preset Label="Rainbow Brownies (recipe_Food_Cafeteria_Teen_RainbowBrownies)" Value="285894" />
+  <Preset Label="Meatball Tamale Bites (recipe_Food_Cafeteria_Teen_TamaleBites)" Value="285895" />
+  <Preset Label="Cream Snack Cake (recipe_Food_Cafeteria_Teen_CreamCake)" Value="285896" />
+  <Preset Label="Junior Lunch (recipe_Food_Cafeteria_Teen_Lunchset_small)" Value="285897" />
+  <Preset Label="Senior Lunch (recipe_Food_Cafeteria_Teen_Lunchset_large)" Value="285898" />
+  <Preset Label="Power-Sip MIDNIGHT (recipe_Drink_Snack_Midnight_Powersip)" Value="285952" />
+  <Preset Label="Cold Cuts (recipe_Food_Snack_ColdCuts)" Value="285953" />
+  <Preset Label="Raw Meat (recipe_Food_Snack_RawSteak)" Value="285954" />
+  <Preset Label="Wolf-B-Gone (recipe_Drink_Bar_WerewolfCure)" Value="285955" />
+  <Preset Label="Moonpetal Punch (recipe_Drink_Bar_MoonpetalPunch)" Value="285956" />
+  <Preset Label="Steak Tartare (recipe_Food_Homestyle_SteakTartare-Single)" Value="285960" />
+  <Preset Label="Steak Tartare (recipe_Food_Homestyle_SteakTartare-Large)" Value="285961" />
+  <Preset Label="Steak Tartare (recipe_Food_Homestyle_SteakTartare-Medium)" Value="285962" />
+  <Preset Label="Blue Steak (recipe_Food_Homestyle_Grill_BlueSteak-Single)" Value="285964" />
+  <Preset Label="Blue Steak (recipe_Food_Homestyle_Grill_BlueSteak-Large)" Value="285965" />
+  <Preset Label="Mushroom Steak (recipe_Food_Homestyle_Grill_MushroomSteak-Large)" Value="285966" />
+  <Preset Label="Mushroom Steak (recipe_Food_Homestyle_Grill_MushroomSteak-Single)" Value="285967" />
+  <Preset Label="Grilled Luna Fish (recipe_Food_Homestyle_Grill_LunaFish-Large)" Value="285969" />
+  <Preset Label="Grilled Luna Fish (recipe_Food_Homestyle_Grill_LunaFish-Single)" Value="285970" />
+  <Preset Label="Simple Style (recipe_FashionMarketplace_Basics_1)" Value="286665" />
+  <Preset Label="Y2K Basic Wear (recipe_FashionMarketplace_Basics_2)" Value="286666" />
+  <Preset Label="Made To Last (recipe_FashionMarketplace_Basics_3)" Value="286667" />
+  <Preset Label="Planet Tone (recipe_FashionMarketplace_Boho_1)" Value="286673" />
+  <Preset Label="Boho Comfort (recipe_FashionMarketplace_Boho_2)" Value="286674" />
+  <Preset Label="Sweet Ensemble (recipe_FashionMarketplace_Boho_3)" Value="286675" />
+  <Preset Label="Llamacore Farmhand (recipe_FashionMarketplace_Country_1)" Value="286677" />
+  <Preset Label="Crooner (recipe_FashionMarketplace_Country_2)" Value="286678" />
+  <Preset Label="Urban Country (recipe_FashionMarketplace_Country_3)" Value="286679" />
+  <Preset Label="Coffee Shop (recipe_FashionMarketplace_Hipster_1)" Value="286681" />
+  <Preset Label="Fuzz Taste (recipe_FashionMarketplace_Hipster_2)" Value="286682" />
+  <Preset Label="Artisanal Effect (recipe_FashionMarketplace_Hipster_3)" Value="286683" />
+  <Preset Label="Nocore Possibility Space (recipe_FashionMarketplace_NoTrend_1)" Value="286685" />
+  <Preset Label="Lo-Fi (recipe_FashionMarketplace_NoTrend_2)" Value="286686" />
+  <Preset Label="Untrendi (recipe_FashionMarketplace_NoTrend_3)" Value="286687" />
+  <Preset Label="Mountain Peak (recipe_FashionMarketplace_Outdoorsy_1)" Value="286689" />
+  <Preset Label="Great Outside (recipe_FashionMarketplace_Outdoorsy_2)" Value="286690" />
+  <Preset Label="Campfire Chic (recipe_FashionMarketplace_Outdoorsy_3)" Value="286691" />
+  <Preset Label="Vine League (recipe_FashionMarketplace_Preppy_1)" Value="286693" />
+  <Preset Label="Dark Academia Prep Modern (recipe_FashionMarketplace_Preppy_2)" Value="286694" />
+  <Preset Label="Smart Selection (recipe_FashionMarketplace_Preppy_3)" Value="286695" />
+  <Preset Label="Rocksteady (recipe_FashionMarketplace_Rocker_1)" Value="286697" />
+  <Preset Label="Rough Diamond (recipe_FashionMarketplace_Rocker_2)" Value="286698" />
+  <Preset Label="Thrasher (recipe_FashionMarketplace_Rocker_3)" Value="286699" />
+  <Preset Label="Smarts (recipe_FashionMarketplace_Streetwear_1)" Value="286701" />
+  <Preset Label="Worn Threads (recipe_FashionMarketplace_Streetwear_2)" Value="286702" />
+  <Preset Label="Urban Oasis (recipe_FashionMarketplace_Streetwear_3)" Value="286703" />
+  <Preset Label="Shaken, Not Stirred (recipe_FashionMarketplace_Polished_1)" Value="286708" />
+  <Preset Label="Dressed For Success (recipe_FashionMarketplace_Polished_2)" Value="286709" />
+  <Preset Label="Perfect Poise (recipe_FashionMarketplace_Polished_3)" Value="286710" />
+  <Preset Label="Superfood Smoothie (recipe_Drink_MarketStalls_Teen_SuperfoodSmoothie)" Value="288058" />
+  <Preset Label="Protein Shake (recipe_Drink_MarketStalls_Teen_ProteinShake)" Value="288071" />
+  <Preset Label="Cold Cuts (recipe_Food_Bar_WolfTown_ColdCuts)" Value="292035" />
+  <Preset Label="Chocolate Cone (recipe_Food_MarketStalls_IceCream_Chocolate)" Value="292353" />
+  <Preset Label="Cookie Dough Cone (recipe_Food_MarketStalls_IceCream_CookieDough)" Value="292354" />
+  <Preset Label="Mint Chocolate Chip Cone (recipe_Food_MarketStalls_IceCream_MintChocolate)" Value="292355" />
+  <Preset Label="Vanilla Cone (recipe_Food_MarketStalls_IceCream_Vanilla)" Value="292356" />
+  <Preset Label="Strawberry Cone (recipe_Food_MarketStalls_IceCream_Strawberry)" Value="292357" />
   <Preset Label="Knafeh (recipe_Food_Homestyle_Knafeh_Large)" Value="294258" />
   <Preset Label="Knafeh (recipe_Food_Homestyle_Knafeh_Single)" Value="294259" />
   <Preset Label="Zaatar Manakeesh (recipe_Food_Homestyle_ZaatarManaeesh-Large)" Value="294287" />
@@ -2083,6 +3317,11 @@
   <Preset Label="Boiling Frog Hot Pot (recipe_Food_Homestyle_FrogHotPot_OnTheGrid_Large)" Value="294715" />
   <Preset Label="Boiling Frog Hot Pot (recipe_Food_Homestyle_FrogHotPot_OnTheGrid_Single)" Value="294716" />
   <Preset Label="Boiling Frog Hot Pot (recipe_Food_Homestyle_FrogHotPot_OnTheGrid_Medium)" Value="294717" />
+  <Preset Label="Blue Steak (recipe_Food_Bar_WolfTown_BlueSteak)" Value="295109" />
+  <Preset Label="Steak Tartare (recipe_Food_Bar_WolfTown_SteakTartare)" Value="295110" />
+  <Preset Label="phaseSimple_Food_FryingPan_BeefPatty" Value="298638" />
+  <Preset Label="phaseSimple_Food_FryingPan_Corndog" Value="298639" />
+  <Preset Label="phaseSimple_Food_FryingPan_Churros" Value="298640" />
   <Preset Label="Fried Fish Plate (recipe_Food_Homestyle_FishFryPlate_Large)" Value="302283" />
   <Preset Label="Fried Fish Plate (recipe_Food_Homestyle_FishFryPlate_Single)" Value="302285" />
   <Preset Label="Fried Fish Plate (recipe_Food_Homestyle_FishFryPlate_Medium)" Value="302287" />
@@ -2090,4 +3329,6 @@
   <Preset Label="BBQ Ribs Plate (recipe_Food_Homestyle_Grill_Ribs-Single)" Value="302327" />
   <Preset Label="phaseSimple_Food_Grill_Ribs" Value="302328" />
   <Preset Label="phaseSimple_Food_Pot_FryFish" Value="302331" />
+  <Preset Label="Coffee (recipe_Drink_Bar_Coffee)" Value="309992" />
+  <Preset Label="Hot Tea (recipe_Drink_Bar_Tea)" Value="309993" />
 </PresetGroup>

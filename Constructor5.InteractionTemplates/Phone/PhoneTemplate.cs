@@ -3,6 +3,7 @@ using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.Elements.Interactions.Shared;
+using Constructor5.Elements.Interactions.Social;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,11 +22,15 @@ namespace Constructor5.InteractionTemplates.Phone
         public Reference Animation { get; set; } = new Reference() { GameReference = 11702, GameReferenceLabel = "Chat" };
 
         [AutoTuneBasic("category")]
-        public Reference PieMenuCategory { get; set; } = new Reference() { GameReference = 105922, GameReferenceLabel = "Home" };
+        public override Reference PieMenuCategory { get; set; } = new Reference() { GameReference = 105922, GameReferenceLabel = "Home" };
 
         public bool UsesInternet { get; set; }
 
         public string TuningActionsFile { get; set; } = "PhoneInteraction";
+
+        public override ulong GetCustomScoreTypeKey(InteractionExportContext context) => 0;
+
+        public override ulong GetFallbackScoreType(SocialInteractionExportContext socialContext) => 0;
 
         protected override void OnExport(InteractionExportContext context)
         {

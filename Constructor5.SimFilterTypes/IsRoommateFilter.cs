@@ -3,7 +3,7 @@ using Constructor5.Core;
 
 namespace Constructor5.SimFilterTypes
 {
-    [SelectableObjectType("SimFilterTypes", "Is Roommate Filter")]
+    [SelectableObjectType("SimFilterTypes", "IsRoommateFilter")]
     [XmlSerializerExtraType]
     public class IsRoommateFilter : InvertOnlyFilter
     {

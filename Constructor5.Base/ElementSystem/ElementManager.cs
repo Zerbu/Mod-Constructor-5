@@ -17,10 +17,10 @@ namespace Constructor5.Base.ElementSystem
 
         public static Element FocusedElement { get; set; }
 
-        public static Element Create(Type type, string label, bool isContextSpecific = false)
+        public static Element Create(Type type, string label, bool isContextSpecific = false, string guidOverride = null)
         {
             var result = (Element)Reflection.CreateObject(type);
-            result.Guid = GenerateGuid();
+            result.Guid = guidOverride != null ? guidOverride : GenerateGuid();
             result.UserFacingId = !isContextSpecific ? GenerateID(label) : GenerateID(result.Guid);
             result.IsContextSpecific = isContextSpecific;
             if (isContextSpecific)
@@ -38,9 +38,9 @@ namespace Constructor5.Base.ElementSystem
             return result;
         }
 
-        public static T CreateTemporary<T>() where T : Element
+        public static T CreateTemporary<T>(string guidOverride = null) where T : Element
         {
-            var result = (T)Create(typeof(T), null, true);
+            var result = (T)Create(typeof(T), null, true, guidOverride);
             result.IsTemporary = true;
             return result;
         }

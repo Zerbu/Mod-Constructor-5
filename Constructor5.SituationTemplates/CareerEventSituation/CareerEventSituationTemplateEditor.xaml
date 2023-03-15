@@ -15,6 +15,8 @@
                 CreateElementFunction="ReferenceControl_CreateElementFunction"
                 ElementTypeName="SituationJob"
                 Reference="{Binding SituationJob}"
+                ResetTo="99709"
+                ResetToLabel="Generic"
                 ShowBrowseButton="True"
                 ShowCreateButton="True" />
         </c:Field>
@@ -22,6 +24,8 @@
             <c:ReferenceControl
                 ElementTypeName="RoleState"
                 Reference="{Binding RoleState}"
+                ResetTo="99710"
+                ResetToLabel="Generic"
                 ShowBrowseButton="True"
                 ShowCreateButton="True" />
         </c:Field>

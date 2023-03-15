@@ -9,14 +9,15 @@ using System;
 namespace Constructor5.Elements.SituationJobs.Components
 {
     [XmlSerializerExtraType]
-    [HasAutoEditor("SimFilterNotice")]
     public class SituationJobSimFilterComponent : SituationJobComponent
     {
         public override string ComponentLabel => "Filter";
 
         [AutoTuneBasic("filter")]
-        [AutoEditorReferenceWithEditorUnderneath("SimFilter", ResetTo = 30732, ResetToLabel = "Child to Elder")]
         public Reference Filter { get; set; } = new Reference() { GameReference = 30732, GameReferenceLabel = "Child to Elder" };
+
+        [AutoTuneBasic("additional_filter_for_user_selection")]
+        public Reference UserSelectionFilter { get; set; } = new Reference();
 
         protected internal override void OnExport(SituationJobExportContext context) => AutoTunerInvoker.Invoke(this, context.Tuning);
     }

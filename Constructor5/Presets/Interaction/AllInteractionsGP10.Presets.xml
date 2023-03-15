@@ -115,21 +115,21 @@
   <Preset Label="Wait for Pet (si_InteriorDecorator_GoNearObject_Reveal_Client)" Value="263192" />
   <Preset Label="idle_Buff_SimPreference_DecorReaction_Basics" Value="263730" />
   <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Basics" Tags="TestUnsafe" Value="263731" />
-  <Preset Label="simPreference_DecorReaction_Basics" Value="263734" />
-  <Preset Label="simPreference_DecorReaction_Boho" Value="263768" />
-  <Preset Label="simPreference_DecorReaction_Contemporary" Value="263769" />
-  <Preset Label="simPreference_DecorReaction_Cosmolux" Value="263770" />
-  <Preset Label="simPreference_DecorReaction_FrenchCountry" Value="263772" />
-  <Preset Label="simPreference_DecorReaction_Garden" Value="263773" />
-  <Preset Label="simPreference_DecorReaction_GothicFarmhouse" Value="263774" />
-  <Preset Label="simPreference_DecorReaction_Island" Value="263775" />
-  <Preset Label="simPreference_DecorReaction_Mission" Value="263776" />
-  <Preset Label="simPreference_DecorReaction_Modern" Value="263777" />
-  <Preset Label="simPreference_DecorReaction_Patio" Value="263778" />
-  <Preset Label="simPreference_DecorReaction_QueenAnne" Value="263779" />
-  <Preset Label="simPreference_DecorReaction_ScandinavianContemporary" Value="263780" />
-  <Preset Label="simPreference_DecorReaction_Tudor" Value="263782" />
-  <Preset Label="simPreference_DecorReaction_SuburbanContempo" Value="263783" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Basics)" Value="263734" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Boho)" Value="263768" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Contemporary)" Value="263769" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Cosmolux)" Value="263770" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_FrenchCountry)" Value="263772" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Garden)" Value="263773" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_GothicFarmhouse)" Value="263774" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Island)" Value="263775" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Mission)" Value="263776" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Modern)" Value="263777" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Patio)" Value="263778" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_QueenAnne)" Value="263779" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_ScandinavianContemporary)" Value="263780" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Tudor)" Value="263782" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_SuburbanContempo)" Value="263783" />
   <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_InitialReaction_Delay)" Value="263817" />
   <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Contemporary" Tags="TestUnsafe" Value="263925" />
   <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Cosmolux" Tags="TestUnsafe" Value="263926" />
@@ -215,4 +215,43 @@
   <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_CheckItOut_Commercial)" Value="269401" />
   <Preset Label="Careers (career_InteriorDecorator_Reveal_Client_DoSocial)" Value="269426" />
   <Preset Label="Send Client Away (career_InteriorDecorator_Interview_SendClientAway_FromSelf)" Value="269830" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_ArtDeco)" Value="325855" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Cute)" Value="325856" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Industrial)" Value="325857" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Luxe)" Value="325858" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Vintage)" Value="325859" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_ArtDeco" Tags="TestUnsafe" Value="325881" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Cute" Tags="TestUnsafe" Value="325882" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Industrial" Tags="TestUnsafe" Value="325883" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Luxe" Tags="TestUnsafe" Value="325884" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Vintage" Tags="TestUnsafe" Value="325885" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_ArtDeco" Value="325886" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Cute" Value="325887" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Industrial" Value="325888" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Luxe" Value="325889" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Vintage" Value="325890" />
+  <Preset Label="Gush about Art Deco Décor (Socials_Targeted_Friendly_SimPreference_Recent_Decor_ArtDeco)" Tags="TestUnsafe" Value="325896" />
+  <Preset Label="Gush about Basics Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Basics)" Tags="TestUnsafe" Value="325898" />
+  <Preset Label="Gush about Boho Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Boho)" Tags="TestUnsafe" Value="325899" />
+  <Preset Label="Gush about Contemporary Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Contemporary)" Tags="TestUnsafe" Value="325910" />
+  <Preset Label="Gush about Cosmolux Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Cosmolux)" Tags="TestUnsafe" Value="325911" />
+  <Preset Label="Gush about Cute Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Cute)" Tags="TestUnsafe" Value="325912" />
+  <Preset Label="Gush about French Country Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_FrenchCountry)" Tags="TestUnsafe" Value="325913" />
+  <Preset Label="Gush about Garden Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Garden)" Tags="TestUnsafe" Value="325914" />
+  <Preset Label="Gush about Farmhouse Décor  (socials_Targeted_Friendly_SimPreference_Recent_Decor_GothicFarmhouse)" Tags="TestUnsafe" Value="325915" />
+  <Preset Label="Gush about Industrial Décor  (socials_Targeted_Friendly_SimPreference_Recent_Decor_Industrial)" Tags="TestUnsafe" Value="325916" />
+  <Preset Label="Gush about Island Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Island)" Tags="TestUnsafe" Value="325917" />
+  <Preset Label="Gush about Luxe Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Luxe)" Tags="TestUnsafe" Value="325918" />
+  <Preset Label="Gush about Mission Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Mission)" Tags="TestUnsafe" Value="325919" />
+  <Preset Label="Gush about Modern Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Modern)" Tags="TestUnsafe" Value="325920" />
+  <Preset Label="Gush about Patio Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Patio)" Tags="TestUnsafe" Value="325921" />
+  <Preset Label="Gush about Queen Anne Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_QueenAnne)" Tags="TestUnsafe" Value="325922" />
+  <Preset Label="Gush about Mid Century Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_ScandinavianContemporary)" Tags="TestUnsafe" Value="325923" />
+  <Preset Label="Gush about Suburban Contemporary Décor  (socials_Targeted_Friendly_SimPreference_Recent_Decor_SuburbanContemporary)" Tags="TestUnsafe" Value="325924" />
+  <Preset Label="Gush about Storybook Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Tutor)" Tags="TestUnsafe" Value="325925" />
+  <Preset Label="Gush about Vintage Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Vintage)" Tags="TestUnsafe" Value="325926" />
+  <Preset Label="Judge Décor (simPreference_DecorReaction_Shabby)" Value="326012" />
+  <Preset Label="autonomous_ObjectPicker_SimPreference_Decor_Shabby" Tags="TestUnsafe" Value="326013" />
+  <Preset Label="idle_Buff_SimPreference_DecorReaction_Shabby" Value="326021" />
+  <Preset Label="Gush about Shabby Décor (socials_Targeted_Friendly_SimPreference_Recent_Decor_Shabby)" Tags="TestUnsafe" Value="326022" />
 </PresetGroup>

@@ -9,7 +9,7 @@ using Constructor5.Core;
 
 namespace Constructor5.TestConditionTypes.Locations
 {
-    [SelectableObjectType("TestConditionTypes", "LocationCondition")]
+    [SelectableObjectType("TestConditionTypes", "LocationCondition", Description = "LocationConditionDescription")]
     //[SelectableObjectType("SituationGoalConditionTypes", "LocationCondition")]
     [XmlSerializerExtraType]
     public class LocationCondition : TestCondition

@@ -108,13 +108,16 @@
                     <c:Field Label="ScoreForHorribleFailure" LabelWidth="200">
                         <xctk:IntegerUpDown Text="{Binding ScoreForHorribleFailure}" />
                     </c:Field>
-                    <c:Field Label="ScoreType" LabelWidth="200">
-                        <c:ReferenceControl
-                            ElementTypeName="TestBasedScore"
-                            Reference="{Binding ScoreType}"
-                            ResetTo="249138"
-                            ResetToLabel="Friendly" />
-                    </c:Field>
+                    <c:CheckBox Content="UseCustomScoreType" IsChecked="{Binding UseCustomScoreType}" />
+                    <StackPanel Visibility="{Binding UseCustomScoreType, Converter={StaticResource BoolToVis}}">
+                        <c:Field Label="ScoreType" LabelWidth="200">
+                            <c:ReferenceControl
+                                ElementTypeName="TestBasedScore"
+                                Reference="{Binding ScoreType}"
+                                ResetTo="249138"
+                                ResetToLabel="Friendly" />
+                        </c:Field>
+                    </StackPanel>
                     <c:Field Label="ScoreTypeAvailability" LabelWidth="200">
                         <c:ReferenceControl
                             ElementTypeName="TestBasedScore"

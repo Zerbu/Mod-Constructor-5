@@ -77,6 +77,11 @@ namespace Constructor5.DebugTools.PresetExtractor
 
         public static PresetInstruction[] PieMenuCategories { get; } = PresetInstruction.CreateBatch("Pie_Menu_Category", "PieMenuCategory", "All Pie Menu Categories", "_display_name", new Dictionary<string, string>
         {
+            { "Conversation Topics - Friendly", "SubCat_Friendly" },
+            { "Conversation Topics - Funny", "SubCat_Funny" },
+            { "Conversation Topics - Mean", "SubCat_Mean" },
+            { "Conversation Topics - Mischief", "SubCat_Mischief" },
+            { "Conversation Topics - Romantic", "SubCat_Romantic" },
         });
 
         public static PresetInstruction[] Recipes { get; } = PresetInstruction.CreateBatch("Recipe", "Recipe", "All Recipes", "name", new Dictionary<string, string>
@@ -121,7 +126,6 @@ namespace Constructor5.DebugTools.PresetExtractor
 
         public static PresetInstruction[] SocialInteractions { get; } = PresetInstruction.CreateBatch("Interaction", "SocialInteraction", "All Social Interactions", "display_name", new Dictionary<string, string>
         {
-            
         }, "SocialMixerInteraction");
 
         public static PresetInstruction[] Traits { get; } = PresetInstruction.CreateBatch("Trait", "Trait", "All Traits", "display_name", new Dictionary<string, string>
@@ -164,6 +168,18 @@ namespace Constructor5.DebugTools.PresetExtractor
         });
 
         public static PresetInstruction[] TemplateChoosers { get; } = PresetInstruction.CreateBatch("Template_Chooser", "TemplateChooser", "All Template Choosers", "reason", new Dictionary<string, string>
+        {
+        });
+
+        public static PresetInstruction[] Regions { get; } = PresetInstruction.CreateBatch("Region", "Region", "All Worlds", "reason", new Dictionary<string, string>
+        {
+        });
+
+        public static PresetInstruction[] ZoneModifiers { get; } = PresetInstruction.CreateBatch("Zone_Modifier", "ZoneModifier", "All Lot Traits", "reason", new Dictionary<string, string>
+        {
+        });
+
+        public static PresetInstruction[] ZoneDirectors { get; } = PresetInstruction.CreateBatch("Zone_Director", "ZoneDirector", "All Zone Directors", "reason", new Dictionary<string, string>
         {
         });
     }

@@ -11,10 +11,7 @@
     mc:Ignorable="d">
     <Grid>
         <c:TabControl Background="Transparent" BorderThickness="0">
-            <c:TabItem
-                Background="Transparent"
-                FontSize="{StaticResource Constructor.BigFontSize}"
-                Header="Settings">
+            <c:TabItem Background="Transparent" Header="Settings">
                 <StackPanel>
                     <c:Field Label="PieMenuCategory" LabelWidth="150">
                         <c:ReferenceControl
@@ -29,16 +26,10 @@
                         IsChecked="{Binding IsGlobalInteraction}" />
                 </StackPanel>
             </c:TabItem>
-            <c:TabItem
-                Background="Transparent"
-                FontSize="{StaticResource Constructor.BigFontSize}"
-                Header="Balloons">
+            <c:TabItem Background="Transparent" Header="Balloons">
                 <c:ReferenceControlWithEditorUnderneath ElementTypeName="BalloonSet" Reference="{Binding BalloonSet}" />
             </c:TabItem>
-            <c:TabItem
-                Background="Transparent"
-                FontSize="{StaticResource Constructor.BigFontSize}"
-                Header="Animations">
+            <c:TabItem Background="Transparent" Header="Animations">
                 <StackPanel>
                     <c:Field Label="Success" LabelWidth="150">
                         <c:ReferenceControl
@@ -56,10 +47,7 @@
                     </c:Field>
                 </StackPanel>
             </c:TabItem>
-            <c:TabItem
-                Background="Transparent"
-                FontSize="{StaticResource Constructor.BigFontSize}"
-                Header="Actions">
+            <c:TabItem Background="Transparent" Header="Actions">
                 <StackPanel>
                     <c:ReferenceListControl
                         x:Name="LootListControl"
@@ -67,6 +55,27 @@
                         ElementTypeName="LootActionSet"
                         ItemTypeName="MischiefSocialLootItem"
                         ShowCreateButton="True" />
+                </StackPanel>
+            </c:TabItem>
+            <c:TabItem Background="Transparent" Header="Advanced">
+                <StackPanel>
+                    <c:CheckBox Content="UseCustomScoreType" IsChecked="{Binding UseCustomScoreType}" />
+                    <StackPanel Visibility="{Binding UseCustomScoreType, Converter={StaticResource BoolToVis}}">
+                        <c:Field Label="ScoreType" LabelWidth="200">
+                            <c:ReferenceControl
+                                ElementTypeName="TestBasedScore"
+                                Reference="{Binding ScoreType}"
+                                ResetTo="24572"
+                                ResetToLabel="Mean" />
+                        </c:Field>
+                    </StackPanel>
+                    <c:Field Label="ScoreTypeAvailability" LabelWidth="200">
+                        <c:ReferenceControl
+                            ElementTypeName="TestBasedScore"
+                            Reference="{Binding ScoreTypeAvailability}"
+                            ResetTo="24573"
+                            ResetToLabel="Mean" />
+                    </c:Field>
                 </StackPanel>
             </c:TabItem>
         </c:TabControl>
