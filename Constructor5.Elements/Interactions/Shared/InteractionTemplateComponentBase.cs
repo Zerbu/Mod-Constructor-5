@@ -18,6 +18,10 @@ namespace Constructor5.Elements.Interactions.Shared
         protected internal override void OnExport(InteractionExportContext context)
         {
             var socialContext = context as SocialInteractionExportContext;
+            if (socialContext == null)
+            {
+                return;
+            }
 
             var traitContextModifier = Element.GetContextModifier<SIAssociatedTrait>();
             if (traitContextModifier != null)
