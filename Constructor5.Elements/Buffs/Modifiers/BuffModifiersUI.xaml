@@ -53,7 +53,7 @@
                             <c:DoubleSlider Increment="{Binding Increment, ElementName=uc}"
                                             SliderMaximum="{Binding SliderMaximum, ElementName=uc}"
                                             SliderMinimum="{Binding SliderMinimum, ElementName=uc}"
-                                            Visibility="{Binding IsInt, ElementName=uc, Converter={StaticResource BoolToVisInverted}}"
+                                            Visibility="{Binding IsDouble, ElementName=uc, Converter={StaticResource BoolToVisInverted}}"
                                             Value="{Binding Value}" />
                             <c:IntSlider Increment="{Binding Increment, ElementName=uc}"
                                          SliderMaximum="{Binding SliderMaximum, ElementName=uc}"
