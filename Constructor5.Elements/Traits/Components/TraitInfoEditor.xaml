@@ -28,7 +28,8 @@
 
                 <!--  Ages  -->
                 <StackPanel>
-                    <c:CheckBox Content="AllowBaby" IsChecked="{Binding AllowBaby}" />
+                    <c:CheckBox Content="AllowNewborn" IsChecked="{Binding AllowBaby}" />
+                    <c:CheckBox Content="AllowInfant" IsChecked="{Binding AllowInfant}" />
                     <c:CheckBox Content="AllowToddler" IsChecked="{Binding AllowToddler}" />
                     <c:CheckBox Content="AllowChild" IsChecked="{Binding AllowChild}" />
                     <c:CheckBox Content="AllowTeen" IsChecked="{Binding AllowTeen}" />

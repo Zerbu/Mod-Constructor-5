@@ -1,6 +1,7 @@
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ExportSystem.AutoTuners;
 using Constructor5.Base.ExportSystem.Tuning;
+using Constructor5.Base.ExportSystem.Tuning.Utilities;
 using Constructor5.Base.SelectableObjects;
 using Constructor5.Core;
 using Constructor5.Elements.SimFilters;
@@ -23,9 +24,16 @@ namespace Constructor5.SimFilterTypes
             var careerVariant = filterTermsTunable.Set<TunableVariant>(null, "career");
             var careerTuple = careerVariant.Get<TunableTuple>("career");
 
-            var tunableVariant1 = careerTuple.Set<TunableVariant>("career", "from_explicit_type");
-            var tunableTuple1 = tunableVariant1.Get<TunableTuple>("from_explicit_type");
-            tunableTuple1.Set<TunableBasic>("career_type", Career);
+            if (ElementTuning.GetSingleInstanceKey(Career) != null)
+            {
+                var tunableVariant1 = careerTuple.Set<TunableVariant>("career", "from_explicit_type");
+                var tunableTuple1 = tunableVariant1.Get<TunableTuple>("from_explicit_type");
+                tunableTuple1.Set<TunableBasic>("career_type", Career);
+            }
+            else
+            {
+                var tunableVariant1 = careerTuple.Set<TunableVariant>("career", "from_category");
+            }
 
             if (RestrictCareerLevel)
             {

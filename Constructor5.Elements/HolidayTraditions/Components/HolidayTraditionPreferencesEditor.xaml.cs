@@ -26,5 +26,11 @@ namespace Constructor5.Elements.HolidayTraditions.Components
             preference.Conditions.Clear();
             AddChildPreference.Invoke(preference);
         }
+
+        private void PresetInfantButton_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            var component = (HolidayTraditionPreferencesComponent)DataContext;
+            component.SetInfantPreferencePreset((HolidayTraditionPreference)ListView.SelectedItem);
+        }
     }
 }

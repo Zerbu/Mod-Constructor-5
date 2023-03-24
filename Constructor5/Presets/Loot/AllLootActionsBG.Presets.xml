@@ -6208,8 +6208,15 @@
   <Preset Label="loot_Sentiment_AddSentiment_Close_ST_ThrowFootballBondingMoment" Value="286036" />
   <Preset Label="loot_PubertyChanges_Reset_Face" Value="286084" />
   <Preset Label="loot_HighSchoolFestival_CASUnlock_Football" Value="286105" />
+  <Preset Label="loot_Infants_AddElements" Value="286110" />
   <Preset Label="loot_Fear_Homework_DaysMissed_Increment" Value="286113" />
+  <Preset Label="loot_Infants_Element_Hiccup_CheckIdle" Value="286115" />
+  <Preset Label="loot_Infants_Element_Gassy_GasTrouble" Value="286127" />
+  <Preset Label="loot_Infants_Element_SelfSoothing" Value="286128" />
+  <Preset Label="loot_Infants_HighChair_MessyEater_Dirtyness_Gain" Value="286136" />
   <Preset Label="loot_OwnershipTransfer_FlowerBouquet" Value="286146" />
+  <Preset Label="loot_Infant_WorryAboutDevelopment_Actor" Value="286213" />
+  <Preset Label="RandomWeightedLoot_WorryAboutDevelopment" Value="286215" />
   <Preset Label="loot_PubertyChanges_Reset_Arms" Value="286223" />
   <Preset Label="loot_PubertyChanges_Reset_Legs" Value="286224" />
   <Preset Label="loot_PubertyChanges_Reset_Torso" Value="286225" />
@@ -6230,10 +6237,44 @@
   <Preset Label="loot_Infant_BragAbout_Jealous" Value="286347" />
   <Preset Label="loot_PubertyChanges_Growth_Acne" Value="286366" />
   <Preset Label="loot_PubertyChanges_Reset_Chance_Hair" Value="286382" />
+  <Preset Label="loot_Infant_TalkAboutSibling" Value="286412" />
   <Preset Label="loot_PubertyChanges_GrowthBuffs_FirstTime" Value="286433" />
   <Preset Label="loot_PubertyChanges_GrowthBuffs_Acne" Value="286450" />
   <Preset Label="loot_PubertyChanges_GrowthBuffs_AcneCleared" Value="286456" />
   <Preset Label="randomWeightedLoot_PubertyChanges_HairGrowthBuffs" Value="286494" />
+  <Preset Label="loot_InfantMilestones_FineMotor_Clapping" Value="286505" />
+  <Preset Label="loot_InfantMilestones_FineMotor_Grabbing" Value="286506" />
+  <Preset Label="loot_InfantMilestones_FineMotor_PincerGrasp" Value="286507" />
+  <Preset Label="loot_InfantMilestones_FineMotor_Reaching" Value="286508" />
+  <Preset Label="loot_InfantMilestones_FineMotor_ToeInMouth" Value="286509" />
+  <Preset Label="loot_InfantMilestones_FineMotor_Waving" Value="286510" />
+  <Preset Label="loot_InfantMilestones_FirstBath" Value="286514" />
+  <Preset Label="loot_InfantMilestones_FirstBlowout" Value="286515" />
+  <Preset Label="loot_InfantMilestones_FirstBubbleBath" Value="286516" />
+  <Preset Label="loot_InfantMilestones_FirstFingerFood" Value="286517" />
+  <Preset Label="loot_InfantMilestones_FirstFoodAny" Value="286518" />
+  <Preset Label="loot_InfantMilestones_FirstTripToPark" Value="286519" />
+  <Preset Label="loot_InfantMilestones_FirstVacation" Value="286520" />
+  <Preset Label="loot_InfantMilestones_FirstVisitors" Value="286521" />
+  <Preset Label="loot_InfantMilestones_FirstVisitToFamilyMember" Value="286522" />
+  <Preset Label="loot_InfantMilestones_PeesOnParent" Value="286523" />
+  <Preset Label="loot_InfantMilestones_SleptThroughNight" Value="286524" />
+  <Preset Label="loot_InfantMilestones_Smile_AgeUpToInfant" Value="286525" />
+  <Preset Label="loot_InfantMilestones_GrossMotor_Crawl" Value="286526" />
+  <Preset Label="loot_InfantMilestones_GrossMotor_Creep" Value="286527" />
+  <Preset Label="loot_InfantMilestones_GrossMotor_Dance" Value="286528" />
+  <Preset Label="loot_InfantMilestones_GrossMotor_LiftHead" Value="286529" />
+  <Preset Label="loot_InfantMilestones_GrossMotor_PullToStand" Value="286530" />
+  <Preset Label="loot_InfantMilestones_GrossMotor_RollOverToBack" Value="286531" />
+  <Preset Label="loot_InfantMilestones_GrossMotor_RollOverToTummy" Value="286532" />
+  <Preset Label="loot_InfantMilestones_GrossMotor_SitUp" Value="286533" />
+  <Preset Label="loot_InfantMilestones_Socials_Babble" Value="286534" />
+  <Preset Label="loot_InfantMilestones_Socials_BlowKiss" Value="286535" />
+  <Preset Label="loot_InfantMilestones_Socials_BlowRaspberry" Value="286536" />
+  <Preset Label="loot_InfantMilestones_Socials_Coo" Value="286537" />
+  <Preset Label="loot_InfantMilestones_Socials_FirstWord" Value="286538" />
+  <Preset Label="loot_InfantMilestones_Socials_Laugh" Value="286539" />
+  <Preset Label="loot_InfantMilestones_Socials_PeekABoo" Value="286540" />
   <Preset Label="loot_Sentiment_AddSentiment_Hurt_ST_HSProm_brokenDitchPromise" Value="286647" />
   <Preset Label="loot_Sentiment_AddSentiment_Close_ST_HSProm_skippingPromTogether" Value="286649" />
   <Preset Label="loot_WerewolfPack_Discipline_ProbationAddCheck" Value="286777" />
@@ -6315,6 +6356,7 @@
   <Preset Label="loot_Want_CommodityTracker_StayOnLot_Reset" Value="287485" />
   <Preset Label="loot_Want_CommodityTracker_StayOutside_Reset" Value="287486" />
   <Preset Label="loot_Career_MissWork" Value="287561" />
+  <Preset Label="loot_InfantMilestones_SocializationBoost" Value="287591" />
   <Preset Label="loot_WerewolfProgression_initial_power_points" Value="287692" />
   <Preset Label="loot_Infant_PreSleep_Reset" Value="287705" />
   <Preset Label="loot_HighSchool_Active_SkippedClass" Value="287714" />
@@ -6387,6 +6429,7 @@
   <Preset Label="loot_WolfTown_Adventure_SetNext_SplitA" Value="288647" />
   <Preset Label="loot_WolfTown_Adventure_SetNext_SplitB" Value="288648" />
   <Preset Label="loot_WolfTown_Adventure_SetNext_SplitC" Value="288649" />
+  <Preset Label="loot_InfantMilestone_Tracking_PullToStand_Target" Value="288659" />
   <Preset Label="randomWeightedLoot_Social_Media_NPCPost" Value="288703" />
   <Preset Label="lootActions_Social_Media_NPCPosting_DM" Value="288705" />
   <Preset Label="lootActions_Social_Media_NPCPosting_Post" Value="288706" />
@@ -6433,6 +6476,8 @@
   <Preset Label="loot_Werewolf_ScaredSims_Actor" Value="288872" />
   <Preset Label="loot_Werewolf_Abilities_HasHadFirstTransformation" Value="288878" />
   <Preset Label="loot_HSGraduation_ValedictorianSpeech_MaxQuality" Value="288879" />
+  <Preset Label="loot_Infant_Trait_Gassy_HasGas_Remove" Value="288894" />
+  <Preset Label="loot_Infant_Trait_Gassy_Release" Value="288899" />
   <Preset Label="goalLoot_Fear_Fire_ConfrontationGoal" Value="288911" />
   <Preset Label="loot_Buff_Lunarcycle_Moonbathe" Value="289088" />
   <Preset Label="loot_HighSchool_Active_AskCareerDetails_GiveBit" Value="289095" />
@@ -6538,6 +6583,7 @@
   <Preset Label="randomWeightedLoot_Infants_HighChair_SetInfantFoodPreference_papayaPaste" Value="289359" />
   <Preset Label="loot_WerewolfPackValue_Loss_Small_SelfSufficiency_Target" Value="289367" />
   <Preset Label="loot_WerewolfPackValue_MinAll" Value="289373" />
+  <Preset Label="loot_InfantMilestone_Infant_SetImmobile_Autonomy" Value="289380" />
   <Preset Label="loot_WerewolfPack_Discipline_TNS_Warning_Diplomacy" Value="289409" />
   <Preset Label="loot_WerewolfPack_Discipline_TNS_Warning_ExpandExplore" Value="289412" />
   <Preset Label="loot_WerewolfPack_Discipline_TNS_Warning_SelfImprovement" Value="289413" />
@@ -6580,6 +6626,7 @@
   <Preset Label="loot_WerewolfCreation_Reactions_PackANeg" Value="289690" />
   <Preset Label="loot_WerewolfCreation_Reactions_PackB" Value="289692" />
   <Preset Label="loot_WerewolfCreation_Reactions_PackAPos" Value="289703" />
+  <Preset Label="loot_Infant_Sleep_SoothedToSleep_Actor" Value="289712" />
   <Preset Label="loot_WerewolfPack_AllianceFeud_TraitAlliance" Value="289722" />
   <Preset Label="loot_WerewolfPack_AllianceFeud_TraitFeud" Value="289724" />
   <Preset Label="loot_WerewolfPack_AllianceFeud_TraitNeutral" Value="289725" />
@@ -7481,6 +7528,8 @@
   <Preset Label="loot_Scenario_RivalSituation_Setup_Lewis" Value="301249" />
   <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_DramaNode_Phase1_Intro" Value="301255" />
   <Preset Label="loot_HSProm_Uninvite" Value="301276" />
+  <Preset Label="loot_InfantMilestones_BornAtHome" Value="301336" />
+  <Preset Label="loot_InfantMilestones_BornAtHospital" Value="301337" />
   <Preset Label="randomLoot_Fear_Failure_PerformanceReview" Value="301396" />
   <Preset Label="loot_Scenario_Buff_StuckInTheirShadow_AstronautYes" Value="301598" />
   <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Phase3a_SetNewAcquaintanceCaller_FriendGym" Value="301641" />
@@ -7551,6 +7600,18 @@
   <Preset Label="loot_Scenario_Outcomes_SITS_B_IndieYes_Quit_enemies" Value="302771" />
   <Preset Label="loot_Scenario_Outcomes_SITS_B_IndieYes_Quit_friends" Value="302772" />
   <Preset Label="loot_Career_Quit_HSExit_RemoveFromAfterschoolActivities" Value="302792" />
+  <Preset Label="loot_BayArea_BayGossipTNS_Any" Value="302936" />
+  <Preset Label="loot_BayArea_BayGossipTNS_IgnacioRobles" Value="302937" />
+  <Preset Label="loot_BayArea_BayGossipTNS_BerniceRobles" Value="302938" />
+  <Preset Label="loot_BayArea_BayGossipTNS_IanRobles" Value="302939" />
+  <Preset Label="loot_BayArea_BayGossipTNS_AurelioRobles" Value="302940" />
+  <Preset Label="loot_BayArea_BayGossipTNS_AdharaMichaelson" Value="302941" />
+  <Preset Label="loot_BayArea_BayGossipTNS_ChristopherMichaelson" Value="302942" />
+  <Preset Label="loot_BayArea_BayGossipTNS_JayRobles" Value="302943" />
+  <Preset Label="loot_BayArea_BayGossipTNS_DoliRuano" Value="302944" />
+  <Preset Label="loot_BayArea_BayGossipTNS_XochitilLuna" Value="302946" />
+  <Preset Label="loot_BayArea_BayGossipTNS_EleanorSullivan" Value="302948" />
+  <Preset Label="loot_BayArea_BayGossipTNS_KyleKyleson" Value="302949" />
   <Preset Label="loot_HSGraduation_StopMusic" Value="303185" />
   <Preset Label="loot_Scenario_Trait_StuckInTheirShadow_FinalPromotion" Value="303246" />
   <Preset Label="randomLoot_HighSchool_Active_SetRandomWhiteboardState" Value="303355" />
@@ -7560,6 +7621,9 @@
   <Preset Label="loot_HighSchool_Active_ClassBell_FireDrill" Value="303409" />
   <Preset Label="loot_HighSchool_Active_SchoolStart" Value="303541" />
   <Preset Label="loot_HighSchoolFestival_DestroyFootball" Value="303601" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Virtues_Min" Value="303798" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Virtues_Max" Value="303800" />
+  <Preset Label="loot_SelfDiscovery_Reward_Virtues_Good" Value="303899" />
   <Preset Label="lootActions_Social_Media_AddPanelOpen" Value="303906" />
   <Preset Label="loot_FashionMarketplace_HypeGainTNS" Value="304042" />
   <Preset Label="loot_FashionMarketplace_HypeLossTNS" Value="304043" />
@@ -7572,10 +7636,18 @@
   <Preset Label="loot_Fear_DisappointingParents_ParentDeceased" Value="304223" />
   <Preset Label="loot_Fear_DisappointingParents_ParentDeceased_Witnessed" Value="304225" />
   <Preset Label="goalLoot_Fear_DisappointingParents_ConfrontationGoal_DeceasedParent" Value="304226" />
+  <Preset Label="loot_Splashpad_Shenanigans" Value="304330" />
+  <Preset Label="loot_Splashpad_WaterWet" Value="304331" />
+  <Preset Label="loot_Splashpad_Stomped" Value="304332" />
+  <Preset Label="loot_Splashpad_AngryStomp" Value="304333" />
+  <Preset Label="loot_Splashpad_Rainy" Value="304334" />
+  <Preset Label="loot_Splashpad_ColdWeather" Value="304335" />
   <Preset Label="loot_Scenario_Goals_Onboarding_NewInTown_Buffs_DrankMoodletSolver" Value="304381" />
   <Preset Label="loot_Want_Refresh_Potion" Value="304511" />
   <Preset Label="loot_HSGraduation_RemoveGradCap" Value="304584" />
   <Preset Label="loot_HighSchool_Active_AttendClass_LoseClass1Trait" Value="304593" />
+  <Preset Label="loot_SplashPad_StateChange_Off" Value="304674" />
+  <Preset Label="loot_SplashPad_StateChange_On" Value="304675" />
   <Preset Label="loot_WeatherTemperature_BabyDistress" Value="304763" />
   <Preset Label="loot_WeatherTemperature_BabyFine" Value="304764" />
   <Preset Label="loot_Scenario_Outcomes_Generic_Ending_Tns" Value="304788" />
@@ -7597,15 +7669,110 @@
   <Preset Label="loot_HSGraduation_ChangeOutfit_Black_LateArrival" Value="305319" />
   <Preset Label="loot_Infant_BabyFeed_NewFlavor" Value="305358" />
   <Preset Label="loot_Scenario_Setup_AlienAbduction_GiveSimoleons" Value="305448" />
+  <Preset Label="loot_JobLoss_LayoffPeriod_EndOfDay" Value="305641" />
   <Preset Label="loot_KidsBike_CantRideAdd" Value="305660" />
   <Preset Label="loot_KidsBike_DebugLearnToRide" Value="305663" />
+  <Preset Label="loot_MovieTheater_AskedAndAnswered_Choice1_Outcome2" Value="305815" />
+  <Preset Label="loot_MovieTheater_IsThatTheMovie_Choice1_Outcome1" Value="305817" />
+  <Preset Label="loot_MovieTheater_IsThatTheMovie_Choice2_Outcome1" Value="305819" />
+  <Preset Label="loot_MovieTheater_LetsGoOutToTheLobby_Choice1_Outcome1" Value="305820" />
+  <Preset Label="loot_MovieTheater_LetsGoOutToTheLobby_Choice2_Outcome1" Value="305821" />
+  <Preset Label="loot_MovieTheater_TallTastrophe_Choice1_Outcome1" Value="305822" />
+  <Preset Label="loot_MovieTheater_TallTastrophe_Choice1_Outcome2" Value="305823" />
+  <Preset Label="loot_MovieTheater_TallTastrophe_Choice2_Outcome1" Value="305824" />
+  <Preset Label="loot_MovieTheater_ShushShamer_Choice1_Outcome1" Value="305825" />
+  <Preset Label="loot_MovieTheater_ShushShamer_Choice1_Outcome2" Value="305826" />
+  <Preset Label="loot_MovieTheater_ShushShamer_Choice2_Outcome1" Value="305827" />
+  <Preset Label="loot_LifeMilestone_RelBit_CaughtCheating" Value="305894" />
+  <Preset Label="loot_LifeMilestone_RelBit_SavedFromDeath" Value="305896" />
+  <Preset Label="loot_LifeMilestone_RelBit_Resurrected_BookOfLife" Value="305897" />
+  <Preset Label="loot_LifeMilestone_RelBit_Resurrected" Value="305983" />
+  <Preset Label="loot_JobLoss_LayoffPeriod_Active" Value="306069" />
+  <Preset Label="loot_JobLoss_LayOffPeriod_StartChance" Value="306070" />
+  <Preset Label="loot_LifeMilestone_Memorabilia_GiveChildDrawings" Value="306181" />
+  <Preset Label="loot_LifeMilestone_Memorabilia_GiveBabyKeepsake" Value="306182" />
+  <Preset Label="randomWeightedLoot_LifeMilestone_Memorabilia_GiveMarriageCertificate" Value="306189" />
+  <Preset Label="loot_LifeMilestone_Memorabilia_GiveBabyKeepsake_Adoption" Value="306191" />
   <Preset Label="loot_Scenario_Goals_ParentingPredicaments_GradeTrait_Leonardo" Value="306251" />
   <Preset Label="loot_Scenario_Goals_ParentingPredicaments_GradeTrait_Sofia" Value="306252" />
+  <Preset Label="loot_FamilyTrope_jokesters" Value="306281" />
+  <Preset Label="loot_FamilyTrope_distant" Value="306283" />
+  <Preset Label="loot_JobLoss_LaidOff" Value="306502" />
+  <Preset Label="loot_JobLoss_Cleanup" Value="306503" />
   <Preset Label="loot_Infant_ChangeDiaper_tableChangeDiaper" Value="306616" />
+  <Preset Label="loot_Burnout_TrackerMaxed_Creative" Value="306677" />
+  <Preset Label="loot_Burnout_FogCreativeTimer_OnRemoval" Value="306679" />
+  <Preset Label="loot_Burnout_FogCreative_OnRemoval" Value="306681" />
+  <Preset Label="loot_Burnout_TrackerMaxed_Mental" Value="306751" />
+  <Preset Label="loot_Burnout_FogMentalTimer_OnRemoval" Value="306773" />
+  <Preset Label="loot_Burnout_FogMental_OnRemoval" Value="306774" />
+  <Preset Label="loot_Child_Confidence_Hidden_Buff_High" Value="306798" />
+  <Preset Label="loot_Child_Confidence_Gain_Medium" Value="306801" />
+  <Preset Label="loot_Burnout_BurnedOutTimer_OnRemoval" Value="306804" />
+  <Preset Label="loot_Burnout_BurnedOut_OnRemoval" Value="306860" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Active_Max" Value="306987" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Active_Min" Value="306988" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Ambition_Max" Value="306991" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Animal_Max" Value="306993" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Creative_Max" Value="306995" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Critic_Max" Value="306997" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Economy_Max" Value="306999" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Economy_Min" Value="307000" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Family_Max" Value="307001" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Family_Min" Value="307002" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Fragile_Max" Value="307003" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Green_Max" Value="307005" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Hygiene_Max" Value="307007" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Hygiene_Min" Value="307008" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Jealous_Max" Value="307009" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Metabolism_Max" Value="307011" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Metabolism_Min" Value="307012" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Mood_Max" Value="307013" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Mood_Min" Value="307014" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Outdoorsy_Max" Value="307015" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Party_Max" Value="307017" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Relationship_Max" Value="307019" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Romance_Max" Value="307021" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Romance_Min" Value="307022" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Scared_Max" Value="307023" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Silly_Max" Value="307025" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Skill_Max" Value="307031" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Skill_Min" Value="307032" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Smart_Max" Value="307033" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Snob_Max" Value="307035" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Social_Max" Value="307037" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Social_Min" Value="307038" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Tech_Max" Value="307039" />
+  <Preset Label="loot_Fear_DeadEndJob_Trigger_InLayoffPeriod" Value="307072" />
   <Preset Label="loot_Fear_DeadEndJob_Trigger_Teen" Value="307074" />
+  <Preset Label="loot_Burnout_CleanupAndReset" Value="307075" />
+  <Preset Label="loot_Child_Confidence_Gain_Small" Value="307087" />
+  <Preset Label="loot_Child_Confidence_Gain_Medium_Target" Value="307088" />
+  <Preset Label="loot_Child_Confidence_Gain_Small_Target" Value="307089" />
+  <Preset Label="loot_Child_Confidence_Loss_Small" Value="307090" />
+  <Preset Label="loot_Child_Confidence_Loss_Medium" Value="307091" />
+  <Preset Label="loot_Child_Confidence_Loss_Medium_Target" Value="307092" />
+  <Preset Label="loot_Child_Confidence_Loss_Small_Target" Value="307093" />
+  <Preset Label="loot_Child_Confidence_Loss_PoorQuality" Value="307094" />
+  <Preset Label="loot_Child_Confidence_Loss_BadConversation" Value="307095" />
+  <Preset Label="loot_Child_Confidence_Loss_SchoolProjectBox" Value="307096" />
+  <Preset Label="loot_Child_Confidence_Gain_SchoolProjectBox" Value="307107" />
+  <Preset Label="loot_Burnout_DecreaseAll_FromCrafting" Value="307148" />
+  <Preset Label="loot_Burnout_DecreaseAll_FromQuittingJob" Value="307150" />
   <Preset Label="loot_Toddler_ChangeDiaper" Value="307155" />
   <Preset Label="loot_Toddler_ChangeDiaper_ToddlerBath" Value="307157" />
+  <Preset Label="loot_FamilyTrope_notJokesters" Value="307255" />
   <Preset Label="loot_Baby_ChangeDiaper" Value="307335" />
+  <Preset Label="loot_Sentiment_AddSentiment_Motivating_encouraged_TargetToActor" Value="307501" />
+  <Preset Label="loot_Sentiment_AddSentiment_Hurt_Admonished_TargetToActor" Value="307503" />
+  <Preset Label="loot_Sentiment_Buffs_Motivating_Encouraged" Value="307504" />
+  <Preset Label="loot_Sentiment_Buffs_Hurt_Admonished" Value="307505" />
+  <Preset Label="random_Sentiment_Buffs_Hurt_Admonished" Value="307506" />
+  <Preset Label="random_Sentiment_Buffs_Motivating_Encouraged" Value="307507" />
+  <Preset Label="loot_Child_Confidence_BuffRemoval_High" Value="307509" />
+  <Preset Label="loot_Child_Confidence_BuffRemoval_Low" Value="307538" />
+  <Preset Label="loot_Child_Confidence_BuffRemoval_Neutral" Value="307539" />
+  <Preset Label="loot_Child_Confidence_AgeUpTraits" Value="307543" />
   <Preset Label="loot_Infant_FoodBoredom" Value="307609" />
   <Preset Label="loot_Infant_RecordLastFoodEaten_Applesauce" Value="307649" />
   <Preset Label="loot_Infant_RecordLastFoodEaten_Yogurt" Value="307651" />
@@ -7629,14 +7796,136 @@
   <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_1RivalCallText" Value="307711" />
   <Preset Label="loot_Toddler_ChangeDiaper_tableChangeDiaper" Value="307733" />
   <Preset Label="loot_JobLoss_AddPreviousCareerCooldown" Value="307765" />
+  <Preset Label="loot_Burnout_BurnedOut_OnAdd" Value="307821" />
+  <Preset Label="loot_Burnout_Debug_GetFogCreative" Value="307825" />
+  <Preset Label="loot_Burnout_Debug_GetFogMental" Value="307827" />
+  <Preset Label="loot_Burnout_Debug_GetBurnedOut" Value="307828" />
+  <Preset Label="loot_Burnout_Debug_GetMentalBlock" Value="307829" />
+  <Preset Label="loot_Sentiment_AddSentiment_Close_BabyShower_LT_AboutTarget" Value="307851" />
+  <Preset Label="loot_FamilyTrope_close" Value="307881" />
+  <Preset Label="loot_FamilyTrope_notClose" Value="307882" />
+  <Preset Label="loot_Fear_Inferior_Trigger" Value="307958" />
+  <Preset Label="loot_Fear_Inferior_Trigger_Notification" Value="307959" />
+  <Preset Label="goalLoot_Fear_Inferior_ConfrontationGoal" Value="307960" />
+  <Preset Label="loot_recreationTable_puzzles_craftingProgress_success" Value="308004" />
+  <Preset Label="loot_recreationTable_puzzles_craftingProgress_fail" Value="308063" />
+  <Preset Label="loot_recreationTable_puzzles_craftingProgress_criticalFail" Value="308064" />
+  <Preset Label="loot_TemporaryStay_GuestHelp" Value="308112" />
+  <Preset Label="loot_TemporaryStay_HugGoodbye" Value="308116" />
+  <Preset Label="loot_TemporaryStay_GuestHelp_Target" Value="308117" />
+  <Preset Label="loot_TemporaryStay_StopHelping" Value="308118" />
+  <Preset Label="scheduledDeliveryLoot_JobLoss_Layoff_DeliverGift" Value="308152" />
+  <Preset Label="loot_JobLoss_Layoff_ScheduleGift" Value="308153" />
+  <Preset Label="loot_JobLoss_Layoff_OpenGiftPackage" Value="308158" />
+  <Preset Label="loot_FamilyTrope_loving" Value="308170" />
+  <Preset Label="loot_Burnout_CraftingQuality" Value="308180" />
   <Preset Label="loot_ObjectReward_ParentingPredicaments_ChildHomework" Value="308191" />
   <Preset Label="loot_Scenario_Goals_Onboarding_ParentingPredicaments_SetUp_Adult" Value="308192" />
+  <Preset Label="loot_FamilyTrope_notLoving" Value="308334" />
+  <Preset Label="randomWeightedLoot_JobLoss_Layoff_Gift" Value="308353" />
+  <Preset Label="loot_JobLoss_Layoff_AcceptFreePizza" Value="308359" />
+  <Preset Label="loot_Burnout_DecreaseAll_FromComplain" Value="308426" />
+  <Preset Label="loot_recreationTable_puzzles_finalProduct" Value="308435" />
+  <Preset Label="loot_Burnout_DecreaseAll_FromVacation" Value="308563" />
+  <Preset Label="loot_Burnout_RemoveModBuffs" Value="308565" />
+  <Preset Label="loot_WorkRival_BitAdd" Value="308616" />
+  <Preset Label="loot_WorkRival_BitRemove" Value="308617" />
+  <Preset Label="loot_WorkRival_CareerTone_Sabotage_BuffChance" Value="308618" />
+  <Preset Label="loot_WorkRival_CareerTone_Befriend" Value="308622" />
+  <Preset Label="loot_BayArea_BayGossipTNS_KarmineLuna" Value="308623" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_BerniceRobles_XochitilLuna" Value="308624" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_BerniceRobles_JayRobles" Value="308625" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_DoliRuano_ChristopherMichaelson" Value="308627" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_IgnacioRobles_EleanorSullivan" Value="308629" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_AdharaMichaelson_IanRobles" Value="308630" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_IanRobles_XochitilLuna" Value="308631" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_XochitilLuna_ChristopherMichaelson" Value="308632" />
+  <Preset Label="randomWeightedLoot_JobLoss_Layoff_PizzaBuff" Value="308654" />
   <Preset Label="loot_JobLoss_Layoff_PizzaConsume" Value="308655" />
+  <Preset Label="loot_WorkRival_CareerTone_Sabotage" Value="308705" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_JayRobles_IgnacioRobles" Value="308806" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_JayRobles_AurelioRobles" Value="308807" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_IgnacioRobles_TalaRuano" Value="308809" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_AurelioRobles_TalaRuano" Value="308810" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_BerniceRobles_TalaRuano" Value="308811" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_IanRobles_JayRobles" Value="308812" />
+  <Preset Label="loot_ChildSkill_IdeaPerson_CraftingProgressGain" Value="308830" />
+  <Preset Label="loot_JobLoss_ConsoleBuffReduction" Value="308843" />
+  <Preset Label="loot_WorkRival_BitOnRemove" Value="308860" />
+  <Preset Label="randomWeightedLoot_WorkRival_Chance" Value="308861" />
+  <Preset Label="loot_WorkRival_EndOfWorkday" Value="308862" />
+  <Preset Label="randomWeightedLoot_WorkRival_Sabotage" Value="308863" />
+  <Preset Label="loot_WorkRival_CareerTone_Sabotage_EndRivalry" Value="308864" />
+  <Preset Label="loot_SimPreference_CharacteristicCompatibility_Neutral" Value="308871" />
+  <Preset Label="loot_SimPreference_CharacteristicCompatibility_Awful" Value="308872" />
+  <Preset Label="loot_SimPreference_CharacteristicCompatibility_Bad" Value="308873" />
+  <Preset Label="loot_SimPreference_CharacteristicCompatibility_Good" Value="308874" />
+  <Preset Label="loot_SimPreference_CharacteristicCompatibility_Amazing" Value="308875" />
+  <Preset Label="randomWeightedLoot_JobLoss_LookingForWorkPost_SuggestedCareerTNS" Value="308912" />
+  <Preset Label="randomWeightedLoot_JobLoss_LookingForWorkPost_ScheduleJobOffer" Value="308913" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_Astronaut" Value="308914" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_Athletic" Value="308916" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_Business" Value="308917" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_Culinary" Value="308918" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_Entertainer" Value="308919" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_Criminal" Value="308922" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_Painter" Value="308924" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_SecretAgent" Value="308925" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_StyleInfluencer" Value="308927" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_TechGuru" Value="308928" />
+  <Preset Label="randomWeightedLoot_JobLoss_AcceptJobOffer_Writer" Value="308929" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_Astronaut" Value="308934" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_Athletic" Value="308935" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_Business" Value="308936" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_Culinary" Value="308938" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_Painter" Value="308941" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_SecretAgent" Value="308942" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_StyleInfluencer" Value="308944" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_TechGuru" Value="308945" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_Writer" Value="308946" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_Entertainer" Value="308948" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_Criminal" Value="308949" />
   <Preset Label="loot_Infant_AttentionGain_TargetSim_Small" Value="308972" />
   <Preset Label="loot_Statistic_Infant_ChangeDiaper_Hygiene" Value="308975" />
+  <Preset Label="randomWeightedLoot_JobLoss_LookingForWorkPost_ScheduleRandomJobOffer" Value="308991" />
   <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_ImproveWorsen_Active" Value="309101" />
+  <Preset Label="loot_JobLoss_SuggestedCareerTNS_Generic" Value="309111" />
+  <Preset Label="loot_WorkRival_RemoveBcFriends" Value="309131" />
+  <Preset Label="randomWeightedLoot_WorkRival_SabotageTNS" Value="309133" />
+  <Preset Label="loot_FamilyTrope_notDistant" Value="309176" />
+  <Preset Label="loot_recreationTable_simblesDominoes_setup" Value="309208" />
+  <Preset Label="loot_TemporaryStay_StayOverSchedule_CloneSituation" Value="309245" />
+  <Preset Label="loot_TemporaryStay_StayOverSchedule_HouseholdLoss" Value="309247" />
+  <Preset Label="loot_TemporaryStay_StayOverSchedule_ParentalHelp" Value="309248" />
+  <Preset Label="loot_RecreationTable_simblesDominoes_takeTurn_standard" Value="309251" />
+  <Preset Label="loot_Fear_Inferior_Confrontation_BePraised" Value="309267" />
+  <Preset Label="loot_RecreationTable_simblesDominoes_takeTurn_great" Value="309270" />
+  <Preset Label="loot_LifeMilestone_DramaNode_FellInLove" Value="309401" />
+  <Preset Label="loot_LifeMilestone_DramaNode_CaughtSimCheating" Value="309402" />
+  <Preset Label="loot_LifeMilestone_DramaNode_CaughtCheatingBySim" Value="309408" />
+  <Preset Label="loot_recreationTable_simblesDominoes_reset" Value="309424" />
+  <Preset Label="loot_recreationTable_simblesDominoes_clearTable" Value="309426" />
   <Preset Label="loot_Infant_Crawling" Value="309451" />
+  <Preset Label="loot_Sentiment_Buffs_Motivating_EpicallyInspired" Value="309470" />
+  <Preset Label="random_Sentiment_Buffs_Motivating_EpicallyInspired" Value="309471" />
+  <Preset Label="loot_Sentiment_AddSentiment_Motivating_EpicallyInspired_TargetToActor" Value="309472" />
   <Preset Label="loot_ExploreWithSituation_Empty" Value="309482" />
+  <Preset Label="loot_Child_Confidence_EncouragementWindow_Motor" Value="309675" />
+  <Preset Label="loot_Child_Confidence_EncouragementWindow_Creativity" Value="309676" />
+  <Preset Label="loot_Child_Confidence_EncouragementWindow_School" Value="309677" />
+  <Preset Label="loot_Child_Confidence_EncouragementWindow_Homework" Value="309678" />
+  <Preset Label="loot_Child_Confidence_EncouragementWindow_Mental" Value="309679" />
+  <Preset Label="loot_Child_Confidence_EncouragementWindow_Social" Value="309680" />
+  <Preset Label="loot_Child_Confidence_BuffRemoval_HiddenEncouragement" Value="309681" />
+  <Preset Label="loot_Burnout_DecreaseAll_FromCareerTone" Value="309776" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Family_FamilyOriented" Value="309798" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Family_HatesChildren" Value="309799" />
+  <Preset Label="loot_FamilyTrope_compliant" Value="309923" />
+  <Preset Label="loot_FamilyTrope_notCompliant" Value="309924" />
+  <Preset Label="loot_WorkRival_BitOnAdd" Value="309953" />
+  <Preset Label="loot_TemporaryStay_WelcomeGuest" Value="310002" />
+  <Preset Label="loot_TemporaryStay_WelcomedGuestRelbit" Value="310006" />
+  <Preset Label="loot_Treehouse_SetSleep" Value="310107" />
   <Preset Label="loot_Crafting_Recipe_QualityModifiers" Value="310113" />
   <Preset Label="loot_Buff_Phone_AddIdleCooldown" Value="310165" />
   <Preset Label="lootActions_NPCRelationshipAutonomy_FlagTarget_BestFriend" Value="310196" />
@@ -7651,28 +7940,208 @@
   <Preset Label="lootActions_NPCRelationshipAutonomy_RemoveFlag_Prom" Value="310215" />
   <Preset Label="lootActions_NPCRelationshipAutonomy_RemoveFlag_Breakup" Value="310216" />
   <Preset Label="lootActions_NPCRelationshipAutonomy_RemoveFlag_Propose" Value="310217" />
+  <Preset Label="loot_Burnout_DecreaseAll_FromMood" Value="310233" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Silly_Goofball" Value="310279" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Silly_Childish" Value="310280" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Smart_Genius" Value="310297" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Smart_Bookworm" Value="310298" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Tech_Geek" Value="310305" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Jealous_Jealous" Value="310307" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Critic_Foodie" Value="310308" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Relationship_Noncommittal" Value="310310" />
+  <Preset Label="loot_MoveIn_ScheduleSocialPrompt" Value="310405" />
+  <Preset Label="loot_MoveIn_SocialDialog" Value="310407" />
+  <Preset Label="loot_TemporaryStay_GrandparentHelp" Value="310410" />
+  <Preset Label="loot_FamilyTrope_difficult" Value="310419" />
+  <Preset Label="loot_FamilyTrope_notDifficult" Value="310420" />
+  <Preset Label="loot_MoveIn_RejectionReaction" Value="310478" />
+  <Preset Label="loot_MoveIn_RemoveSocialPrompt" Value="310479" />
+  <Preset Label="loot_Burnout_MentalBlock_OnAdd" Value="310488" />
   <Preset Label="loot_Infant_AgeUpTraits_TargetSim" Value="310509" />
+  <Preset Label="loot_SelfDiscovery_Reward_Metabolism_Glutton" Value="310538" />
+  <Preset Label="loot_SelfDiscovery_Reward_Metabolism_Vegetarian" Value="310539" />
+  <Preset Label="loot_SelfDiscovery_Reward_Economy_Materialistic" Value="310542" />
+  <Preset Label="loot_SelfDiscovery_Reward_Economy_Kleptomaniac" Value="310543" />
+  <Preset Label="loot_SelfDiscovery_Reward_Mood_Cheerful" Value="310544" />
+  <Preset Label="loot_SelfDiscovery_Reward_Mood_Gloomy" Value="310545" />
+  <Preset Label="loot_SelfDiscovery_Reward_Mood_HotHeaded" Value="310546" />
+  <Preset Label="loot_SelfDiscovery_Reward_Social_Loner" Value="310547" />
+  <Preset Label="loot_SelfDiscovery_Reward_Social_Bro" Value="310549" />
+  <Preset Label="loot_SelfDiscovery_Reward_Social_Outgoing" Value="310551" />
+  <Preset Label="loot_SelfDiscovery_Reward_Virtues_Evil" Value="310553" />
+  <Preset Label="loot_SelfDiscovery_Reward_Virtues_Mean" Value="310554" />
+  <Preset Label="loot_SelfDiscovery_Reward_Skill_Perfectionist" Value="310555" />
+  <Preset Label="loot_SelfDiscovery_Reward_Skill_Clumsy" Value="310556" />
+  <Preset Label="loot_SelfDiscovery_Reward_Romance_Romantic" Value="310557" />
+  <Preset Label="loot_SelfDiscovery_Reward_Hygiene_Neat" Value="310559" />
+  <Preset Label="loot_SelfDiscovery_Reward_Hygiene_Slob" Value="310560" />
+  <Preset Label="loot_SelfDiscovery_Reward_Active_Lazy" Value="310561" />
+  <Preset Label="loot_SelfDiscovery_Reward_Active_Active" Value="310562" />
+  <Preset Label="loot_SelfDiscovery_Reward_Family_FamilyOriented" Value="310563" />
+  <Preset Label="loot_SelfDiscovery_Reward_Family_HatesChildren" Value="310564" />
+  <Preset Label="loot_SelfDiscovery_Reward_Silly_Goofball" Value="310565" />
+  <Preset Label="loot_SelfDiscovery_Reward_Silly_Childish" Value="310566" />
+  <Preset Label="loot_SelfDiscovery_Reward_Ambition_Ambitious" Value="310572" />
+  <Preset Label="loot_SelfDiscovery_Reward_Ambition_SelfAssured" Value="310573" />
+  <Preset Label="loot_SelfDiscovery_Reward_Snob_Snob" Value="310575" />
+  <Preset Label="loot_SelfDiscovery_Reward_Outdoorsy_OutdoorLover" Value="310579" />
+  <Preset Label="loot_SelfDiscovery_Reward_Scared_Erratic" Value="310582" />
+  <Preset Label="loot_SelfDiscovery_Reward_Smart_Genius" Value="310583" />
+  <Preset Label="loot_SelfDiscovery_Reward_Smart_Bookworm" Value="310584" />
+  <Preset Label="loot_SelfDiscovery_Reward_Creative_Creative" Value="310585" />
+  <Preset Label="loot_SelfDiscovery_Reward_Creative_ArtLover" Value="310586" />
+  <Preset Label="loot_SelfDiscovery_Reward_Creative_MusicLover" Value="310587" />
+  <Preset Label="loot_SelfDiscovery_Reward_Tech_Geek" Value="310591" />
+  <Preset Label="loot_SelfDiscovery_Reward_Jealous_Jealous" Value="310593" />
+  <Preset Label="loot_SelfDiscovery_Reward_Critic_Foodie" Value="310594" />
+  <Preset Label="loot_SelfDiscovery_Reward_Relationship_Noncommittal" Value="310596" />
+  <Preset Label="loot_recreationTable_simblesDominoes_lossReaction" Value="310612" />
+  <Preset Label="loot_Splashpad_IncrementStatistic" Value="310710" />
   <Preset Label="loot_Sunrise_Live_BasicControls" Value="310798" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Active_Active" Value="310841" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Active_Lazy" Value="310842" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Ambition_Ambitious" Value="310844" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Ambition_SelfAssured" Value="310845" />
   <Preset Label="RandomWeightedLoot_SelfDiscovery_DiscoveryMoment_Ambition_Overachiever" Value="310846" />
   <Preset Label="RandomWeightedLoot_SelfDiscovery_DiscoveryMoment_Animal_AnimalEnthusiast" Value="310847" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Creative_Creative" Value="310850" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Creative_ArtLover" Value="310851" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Creative_MusicLover" Value="310852" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Economy_Kleptomaniac" Value="310855" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Economy_Materialistic" Value="310856" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Hygiene_Neat" Value="310860" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Hygiene_Slob" Value="310861" />
   <Preset Label="RandomWeightedLoot_SelfDiscovery_DiscoveryMoment_Metabolism_LactoseIntolerant" Value="310862" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Metabolism_Glutton" Value="310863" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Metabolism_Vegetarian" Value="310864" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Mood_Cheerful" Value="310865" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Mood_Gloomy" Value="310866" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Mood_HotHeaded" Value="310867" />
+  <Preset Label="loot_FamilyTrope_permissive" Value="310885" />
+  <Preset Label="loot_FamilyTrope_notPermissive" Value="310887" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Outdoorsy_OutdoorsLover" Value="310979" />
   <Preset Label="RandomWeightedLoot_SelfDiscovery_DiscoveryMoment_Party_PartyAnimal" Value="310981" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Romance_Romantic" Value="310983" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Scared_Erratic" Value="310985" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Skill_Clumsy" Value="310986" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Skill_Perfectionist" Value="310987" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Snob_Snob" Value="310991" />
   <Preset Label="RandomWeightedLoot_SelfDiscovery_DiscoveryMoment_Social_SociallyAwkward" Value="310993" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Social_Bro" Value="310994" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Social_Outgoing" Value="310995" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Social_Loner" Value="310996" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Virtues_Evil" Value="310998" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Virtues_Mean" Value="310999" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Virtues_Good" Value="311000" />
+  <Preset Label="loot_LifeMilestone_RelBit_HadSim" Value="311066" />
   <Preset Label="loot_KidsBike_PracticeRideFinish" Value="311084" />
   <Preset Label="loot_KidsBike_BikingIsHard" Value="311086" />
   <Preset Label="loot_KidsBike_CantConcentrate" Value="311087" />
+  <Preset Label="loot_Splashpad_RemoveStatistic" Value="311090" />
+  <Preset Label="loot_MoveIn_WelcomeTNS" Value="311099" />
   <Preset Label="loot_LifeMilestone_RelBit_Adopted" Value="311147" />
+  <Preset Label="loot_SelfDiscovery_Progress_Active_Max_Large" Value="311301" />
+  <Preset Label="loot_SelfDiscovery_Progress_Active_Max_Small" Value="311302" />
+  <Preset Label="loot_SelfDiscovery_Progress_Active_Min_Large" Value="311303" />
+  <Preset Label="loot_SelfDiscovery_Progress_Active_Min_Small" Value="311304" />
+  <Preset Label="loot_SelfDiscovery_Progress_Ambition_Max_Large" Value="311305" />
+  <Preset Label="loot_SelfDiscovery_Progress_Ambition_Max_Small" Value="311306" />
+  <Preset Label="loot_SelfDiscovery_Progress_Animal_Max_Large" Value="311307" />
+  <Preset Label="loot_SelfDiscovery_Progress_Animal_Max_Small" Value="311308" />
+  <Preset Label="loot_SelfDiscovery_Progress_Creative_Max_Large" Value="311309" />
+  <Preset Label="loot_SelfDiscovery_Progress_Creative_Max_Small" Value="311310" />
+  <Preset Label="loot_SelfDiscovery_Progress_Critic_Max_Large" Value="311311" />
+  <Preset Label="loot_SelfDiscovery_Progress_Critic_Max_Small" Value="311312" />
+  <Preset Label="loot_SelfDiscovery_Progress_Economy_Max_Large" Value="311313" />
+  <Preset Label="loot_SelfDiscovery_Progress_Economy_Max_Small" Value="311314" />
+  <Preset Label="loot_SelfDiscovery_Progress_Economy_Min_Large" Value="311315" />
+  <Preset Label="loot_SelfDiscovery_Progress_Economy_Min_Small" Value="311316" />
+  <Preset Label="loot_SelfDiscovery_Progress_Family_Max_Large" Value="311317" />
+  <Preset Label="loot_SelfDiscovery_Progress_Family_Max_Small" Value="311318" />
+  <Preset Label="loot_SelfDiscovery_Progress_Family_Min_Large" Value="311319" />
+  <Preset Label="loot_SelfDiscovery_Progress_Family_Min_Small" Value="311320" />
+  <Preset Label="loot_SelfDiscovery_Progress_Fragile_Max_Large" Value="311321" />
+  <Preset Label="loot_SelfDiscovery_Progress_Fragile_Max_Small" Value="311322" />
+  <Preset Label="loot_SelfDiscovery_Progress_Green_Max_Large" Value="311323" />
+  <Preset Label="loot_SelfDiscovery_Progress_Green_Max_Small" Value="311324" />
+  <Preset Label="loot_SelfDiscovery_Progress_Hygiene_Max_Large" Value="311325" />
+  <Preset Label="loot_SelfDiscovery_Progress_Hygiene_Max_Small" Value="311326" />
+  <Preset Label="loot_SelfDiscovery_Progress_Hygiene_Min_Large" Value="311327" />
+  <Preset Label="loot_SelfDiscovery_Progress_Hygiene_Min_Small" Value="311328" />
+  <Preset Label="loot_SelfDiscovery_Progress_Jealous_Max_Large" Value="311329" />
+  <Preset Label="loot_SelfDiscovery_Progress_Jealous_Max_Small" Value="311330" />
+  <Preset Label="loot_SelfDiscovery_Progress_Metabolism_Max_Small" Value="311331" />
+  <Preset Label="loot_SelfDiscovery_Progress_Metabolism_Max_Large" Value="311332" />
+  <Preset Label="loot_SelfDiscovery_Progress_Metabolism_Min_Small" Value="311333" />
+  <Preset Label="loot_SelfDiscovery_Progress_Metabolism_Min_Large" Value="311334" />
+  <Preset Label="loot_SelfDiscovery_Progress_Mood_Max_Small" Value="311335" />
+  <Preset Label="loot_SelfDiscovery_Progress_Mood_Max_Large" Value="311336" />
+  <Preset Label="loot_SelfDiscovery_Progress_Mood_Min_Small" Value="311337" />
+  <Preset Label="loot_SelfDiscovery_Progress_Mood_Min_Large" Value="311338" />
+  <Preset Label="loot_SelfDiscovery_Progress_Outdoorsy_Max_Large" Value="311339" />
+  <Preset Label="loot_SelfDiscovery_Progress_Outdoorsy_Max_Small" Value="311340" />
+  <Preset Label="loot_SelfDiscovery_Progress_Party_Max_Large" Value="311341" />
+  <Preset Label="loot_SelfDiscovery_Progress_Party_Max_Small" Value="311342" />
+  <Preset Label="loot_SelfDiscovery_Progress_Relationship_Max_Small" Value="311343" />
+  <Preset Label="loot_SelfDiscovery_Progress_Relationship_Max_Large" Value="311344" />
+  <Preset Label="loot_SelfDiscovery_Progress_Romance_Max_Large" Value="311345" />
+  <Preset Label="loot_SelfDiscovery_Progress_Romance_Max_Small" Value="311346" />
+  <Preset Label="loot_SelfDiscovery_Progress_Romance_Min_Large" Value="311347" />
+  <Preset Label="loot_SelfDiscovery_Progress_Romance_Min_Small" Value="311348" />
+  <Preset Label="loot_SelfDiscovery_Progress_Scared_Max_Large" Value="311349" />
+  <Preset Label="loot_SelfDiscovery_Progress_Scared_Max_Small" Value="311350" />
+  <Preset Label="loot_SelfDiscovery_Progress_Silly_Max_Small" Value="311351" />
+  <Preset Label="loot_SelfDiscovery_Progress_Silly_Max_Large" Value="311352" />
+  <Preset Label="loot_SelfDiscovery_Progress_Skill_Max_Large" Value="311353" />
+  <Preset Label="loot_SelfDiscovery_Progress_Skill_Max_Small" Value="311354" />
+  <Preset Label="loot_SelfDiscovery_Progress_Skill_Min_Large" Value="311355" />
+  <Preset Label="loot_SelfDiscovery_Progress_Skill_Min_Small" Value="311356" />
+  <Preset Label="loot_SelfDiscovery_Progress_Smart_Max_Large" Value="311357" />
+  <Preset Label="loot_SelfDiscovery_Progress_Smart_Max_Small" Value="311358" />
+  <Preset Label="loot_SelfDiscovery_Progress_Snob_Max_Large" Value="311359" />
+  <Preset Label="loot_SelfDiscovery_Progress_Snob_Max_Small" Value="311360" />
+  <Preset Label="loot_SelfDiscovery_Progress_Social_Max_Large" Value="311361" />
+  <Preset Label="loot_SelfDiscovery_Progress_Social_Max_Small" Value="311362" />
+  <Preset Label="loot_SelfDiscovery_Progress_Social_Min_Large" Value="311363" />
+  <Preset Label="loot_SelfDiscovery_Progress_Social_Min_Small" Value="311364" />
+  <Preset Label="loot_SelfDiscovery_Progress_Tech_Max_Large" Value="311365" />
+  <Preset Label="loot_SelfDiscovery_Progress_Tech_Max_Small" Value="311366" />
+  <Preset Label="loot_SelfDiscovery_Progress_Virtues_Max_Large" Value="311367" />
+  <Preset Label="loot_SelfDiscovery_Progress_Virtues_Max_Small" Value="311368" />
+  <Preset Label="loot_SelfDiscovery_Progress_Virtues_Min_Large" Value="311369" />
+  <Preset Label="loot_SelfDiscovery_Progress_Virtues_Min_Small" Value="311370" />
+  <Preset Label="loot_TemporaryStay_GuestHelpMax" Value="311394" />
+  <Preset Label="loot_groupWalkingTrail_preventImmediateScoring" Value="311549" />
+  <Preset Label="loot_groupWalkingTrail_remove_preventImmediateScoring" Value="311550" />
+  <Preset Label="loot_Treehouse_SetAdmission_Only_C" Value="311643" />
+  <Preset Label="loot_Treehouse_SetAdmission_Only_T" Value="311644" />
+  <Preset Label="loot_Treehouse_SetAdmission_Only_CT" Value="311645" />
   <Preset Label="loot_Relbit_Loyal_TrashTalked" Value="311743" />
   <Preset Label="loot_Relbit_Loyal_Cheated" Value="311744" />
   <Preset Label="loot_Reaction_Trait_Loyal_Cheating" Value="311749" />
   <Preset Label="Loot_Trait_Loyal_ConfessCheating" Value="311760" />
+  <Preset Label="loot_groupWalkingTrail_relGain_medium" Value="311845" />
+  <Preset Label="loot_groupWalkingTrail_relGain_small" Value="311846" />
+  <Preset Label="loot_Treehouse_SetAdmission_Unlock" Value="311878" />
+  <Preset Label="randomWeightedLoot_LifeMilestone_Reflect" Value="311887" />
+  <Preset Label="randomWeightedLoot_LifeMilestone_Reflect_ManyEnemies" Value="311917" />
+  <Preset Label="loot_groupWalkingTrail_relLoss_small" Value="311930" />
   <Preset Label="loot_Sentiment_AddSentiment_Adoring_newborn_SignificantOtherPicker" Value="312012" />
   <Preset Label="loot_Reaction_Trait_Loyal_Cheating_Target" Value="312033" />
   <Preset Label="loot_Reaction_Trait_Loyal_Mean_Confront" Value="312054" />
+  <Preset Label="randomWeightedLoot_LifeMilestone_Reflect_ManyFriends" Value="312095" />
+  <Preset Label="loot_LifeMilestone_Reflect" Value="312096" />
+  <Preset Label="loot_LifeMilestone_Reflect_ManyEnemies" Value="312097" />
+  <Preset Label="loot_LifeMilestone_Reflect_ManyFriends" Value="312098" />
+  <Preset Label="loot_LifeMilestone_RetroactiveUnlock" Value="312174" />
+  <Preset Label="loot_LifeMilestone_Memorabilia_GiveToothCertificate" Value="312182" />
   <Preset Label="loot_Infant_ChangeDiaper_Trash" Value="312187" />
   <Preset Label="loot_Infant_ChangeDiaper_CreateTrash" Value="312188" />
   <Preset Label="loot_SimPreference_Headline_Music_Oldies" Value="312260" />
   <Preset Label="loot_Trait_Loyal_CheatingGuiltReminder" Value="312300" />
+  <Preset Label="loot_SimPreference_Gain_Music_Oldies_Dislike" Value="312573" />
+  <Preset Label="loot_SimPreference_Gain_Music_Oldies_Like" Value="312574" />
+  <Preset Label="loot_CrossAge_Interactions_AddLackOfChildDiscipline" Value="312597" />
   <Preset Label="loot_Sentiment_AddSentiment_Adoring_newborn_PregnancyPartner" Value="312607" />
   <Preset Label="loot_Sentiment_AddSentiment_Enamored_Loyal_SecondChance" Value="312650" />
   <Preset Label="random_Sentiment_Buffs_Enamored_Loyal_SecondChance" Value="312652" />
@@ -7682,22 +8151,143 @@
   <Preset Label="loot_Sentiment_Buffs_Close_Loyal_RegainedTrust" Value="312700" />
   <Preset Label="random_Sentiment_Buffs_Close_Loyal_RegainedTrust" Value="312701" />
   <Preset Label="loot_Sentiment_AddSentiment_Close_Loyal_RegainedTrust" Value="312710" />
+  <Preset Label="loot_CalmingDown" Value="312730" />
+  <Preset Label="loot_TemporaryStay_Goodbye" Value="312767" />
+  <Preset Label="loot_AddSentiment_Bitter_CrossAge_Interactions_QuestionedParentingSkills_ActorAboutTarget" Value="312790" />
+  <Preset Label="loot_AddSentiment_Bitter_CrossAge_Interactions_QuestionedParentingSkills_TargetAboutActor" Value="312791" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Affection_Dislike" Value="312841" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Affection_Like" Value="312842" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Flirtation_Dislike" Value="312843" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Malicious_Like" Value="312844" />
+  <Preset Label="loot_SimPreference_Gain_Communication_SillyBehavior_Dislike" Value="312845" />
+  <Preset Label="loot_SimPreference_Gain_Communication_SillyBehavior_Like" Value="312846" />
+  <Preset Label="loot_SimPreference_Gain_Communication_SmallTalk_Dislike" Value="312847" />
+  <Preset Label="loot_SimPreference_Gain_Communication_SmallTalk_Like" Value="312848" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Stories_Dislike" Value="312849" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Stories_Like" Value="312850" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Arguments_Dislike" Value="312851" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Arguments_Like" Value="312852" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Complaints_Dislike" Value="312853" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Complaints_Like" Value="312854" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Compliments_Dislike" Value="312855" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Compliments_Like" Value="312856" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Deception_Dislike" Value="312857" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Deception_Like" Value="312858" />
+  <Preset Label="loot_SimPreference_Gain_Communication_DeepThoughts_Dislike" Value="312859" />
+  <Preset Label="loot_SimPreference_Gain_Communication_DeepThoughts_Like" Value="312860" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Flirtation_Like" Value="312861" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Gossip_Dislike" Value="312862" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Gossip_Like" Value="312863" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Hobbies_Dislike" Value="312864" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Hobbies_Like" Value="312865" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Interests_Dislike" Value="312866" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Interests_Like" Value="312867" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Jokes_Dislike" Value="312868" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Jokes_Like" Value="312869" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Malicious_Dislike" Value="312870" />
+  <Preset Label="loot_SimPreference_Gain_Communication_PhysicalIntimacy_Dislike" Value="312871" />
+  <Preset Label="loot_SimPreference_Gain_Communication_PhysicalIntimacy_Like" Value="312872" />
+  <Preset Label="loot_SimPreference_Gain_Communication_PottyHumor_Dislike" Value="312873" />
+  <Preset Label="loot_SimPreference_Gain_Communication_PottyHumor_Like" Value="312874" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Pranks_Dislike" Value="312875" />
+  <Preset Label="loot_SimPreference_Gain_Communication_Pranks_Like" Value="312876" />
+  <Preset Label="loot_CrossAge_Interactions_FindParentBroadcaster" Value="312924" />
+  <Preset Label="loot_CrossAge_Interactions_AddSweetTreat" Value="313055" />
+  <Preset Label="loot_CrossAge_Interactions_AddStrangerDanger" Value="313056" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Affection" Value="313102" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Arguments" Value="313103" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Jokes" Value="313104" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Malicious" Value="313105" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_PhysicalIntimacy" Value="313106" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_PottyHumor" Value="313107" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Pranks" Value="313108" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_SillyBehavior" Value="313109" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_SmallTalk" Value="313110" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Stories" Value="313111" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Complaints" Value="313112" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Compliments" Value="313113" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Deception" Value="313114" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_DeepThoughts" Value="313115" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Flirtation" Value="313116" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Gossip" Value="313117" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Hobbies" Value="313118" />
+  <Preset Label="loot_SimPreference_NoOpinion_Communication_Interests" Value="313119" />
+  <Preset Label="randomWeightedLoot_ToddlerPersonalityUpdate_WanderRunOff" Value="313238" />
+  <Preset Label="randomWeightedLoot_ToddlerPersonalityUpdate_BeingHeld" Value="313243" />
+  <Preset Label="randomWeightedLoot_ToddlerPersonalityUpdate_Wakingup" Value="313259" />
+  <Preset Label="randomWeightedLoot_MidlifeCrisis_CrisisStart" Value="313264" />
+  <Preset Label="loot_MidlifeCrisis_LeadupStart" Value="313266" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_BeingHeld" Value="313267" />
+  <Preset Label="loot_InfantVOX_Level2" Value="313348" />
+  <Preset Label="loot_InfantVOX_Level3" Value="313349" />
+  <Preset Label="loot_recreationTable_simblesDominoes_practiceReset" Value="313412" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_LightSleeper_RollWakeUp" Value="313465" />
   <Preset Label="loot_Infant_HighChair_Dirtiness_Gain" Value="313540" />
   <Preset Label="loot_Infant_HighChair_Dirtiness_Gain_Actor" Value="313542" />
+  <Preset Label="loot_Infants_HighChair_MessyEater_Dirtyness_Gain_Actor" Value="313544" />
+  <Preset Label="loot_InfantVOX_Level4" Value="313550" />
   <Preset Label="loot_InfantVOX_BG" Value="313551" />
+  <Preset Label="loot_MidlifeCrisis_LeadupDuring" Value="313570" />
+  <Preset Label="randomWeightedLoot_MidlifeCrisis_ActiveStart" Value="313571" />
+  <Preset Label="loot_MidlifeCrisis_Active_Start_Adventure" Value="313573" />
+  <Preset Label="loot_MidlifeCrisis_Active_Start_Create" Value="313574" />
+  <Preset Label="loot_MidlifeCrisis_Active_Start_Relationship" Value="313575" />
+  <Preset Label="loot_MidlifeCrisis_Active_Start_Success" Value="313576" />
   <Preset Label="loot_Buff_Trait_Loyal_Confront" Value="313586" />
   <Preset Label="loot_KidsBike_Cooldown_PracticeCooldown" Value="313629" />
   <Preset Label="loot_KidsBike_Cooldown_TrickCooldown" Value="313630" />
+  <Preset Label="loot_KidsBike_Cooldown_HornCooldown" Value="313631" />
+  <Preset Label="loot_LifeMilestone_CelebrateToddler" Value="313673" />
+  <Preset Label="loot_Aspiration_MindAndBody_NoBadMood_Refresh" Value="313714" />
+  <Preset Label="loot_Aspiration_MindAndBody_NoBadMood_Complete" Value="313717" />
+  <Preset Label="loot_Aspiration_MindAndBody_NoBadMood_Start" Value="313718" />
   <Preset Label="loot_Buff_Trait_Loyal_PromiseHelp" Value="313882" />
   <Preset Label="loot_Buff_Trait_Loyal_Grieving" Value="313884" />
   <Preset Label="loot_Buff_Trait_Loyal_DogOwnerBond" Value="313885" />
+  <Preset Label="loot_KidsBike_PracticeSituationEnd" Value="313912" />
+  <Preset Label="loot_MidlifeCrisis__Active_End_Adventure" Value="313978" />
+  <Preset Label="loot_MidlifeCrisis__Active_End_Success" Value="313979" />
+  <Preset Label="loot_MidlifeCrisis__Active_End_Relationship" Value="313980" />
+  <Preset Label="loot_MidlifeCrisis__Active_End_Create" Value="313981" />
+  <Preset Label="loot_CrossAge_Interactions_AddNotTheFavorite" Value="314028" />
+  <Preset Label="loot_CrossAge_Interactions_AddTheFavorite" Value="314031" />
+  <Preset Label="loot_Child_Confidence_TraitUpdate_General" Value="314057" />
+  <Preset Label="loot_Child_Confidence_TraitUpdate_Low" Value="314059" />
+  <Preset Label="loot_Child_Confidence_TraitUpdate_Neutral" Value="314060" />
+  <Preset Label="loot_Child_Confidence_TraitUpdate_High" Value="314061" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_RemoveElements" Value="314163" />
+  <Preset Label="loot_MidlifeCrisis_Cleanup" Value="314165" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_HatesBedtime_RollWakeUp" Value="314213" />
+  <Preset Label="loot_MidlifeCrisis_ObjectiveComplete" Value="314282" />
+  <Preset Label="loot_recreationTable_puzzles_puzzlePile_stateChange" Value="314300" />
+  <Preset Label="loot_recreationTable_puzzles_pileBroadcasterCreate" Value="314301" />
+  <Preset Label="loot_recreationTable_puzzles_puzzlePile_create" Value="314302" />
   <Preset Label="loot_KidsBike_DebugForgetToRide" Value="314313" />
+  <Preset Label="loot_Lose_Teeth_RemoveBuff" Value="314320" />
+  <Preset Label="loot_Lose_Teeth_ReduceTimer" Value="314321" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Aggressive" Value="314338" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Destructive" Value="314340" />
+  <Preset Label="loot_CrossAge_Interactions_WorseThingsReduceSadBuffs" Value="314359" />
   <Preset Label="loot_Reaction_Trait_Loyal_FriendIsTarget_Mean" Value="314550" />
+  <Preset Label="loot_Lose_Teeth_Fix_Tooth" Value="314776" />
+  <Preset Label="loot_Lose_Teeth_IncrementCount" Value="314780" />
   <Preset Label="rel_Bit_HasMet_Add_Both_Infant" Value="314993" />
+  <Preset Label="loot_Lose_Teeth_ToothFairy" Value="315027" />
+  <Preset Label="loot_Lose_Teeth_AddMisadventureDelay" Value="315028" />
+  <Preset Label="loot_Lose_Teeth_ApplyMisadventure" Value="315030" />
+  <Preset Label="loot_LifeMilestone_LotBasedBuff" Value="315077" />
+  <Preset Label="randomWeightedLoot_LifeMilestone_AbductedByAliensHere" Value="315078" />
+  <Preset Label="randomWeightedLoot_LifeMilestone_CaughtCheaterHere" Value="315079" />
+  <Preset Label="loot_LifeMilestone_LotBasedBuff_ResetTimer" Value="315080" />
+  <Preset Label="randomWeightedLoot_LifeMilestone_LotBasedBuff" Value="315081" />
+  <Preset Label="loot_LifeMilestone_LotBasedBuff_AddTimer" Value="315082" />
+  <Preset Label="loot_LifeMilestone_Unlocked_FirstFire" Value="315114" />
+  <Preset Label="loot_LifeMilestone_Unlocked_StruckByLightning" Value="315115" />
   <Preset Label="loot_Baby_Attachment_Gain_Medium" Value="315171" />
   <Preset Label="loot_Baby_Attachment_Lose_Medium" Value="315172" />
   <Preset Label="loot_Sentiment_AddSentiment_Adoring_infantPreferredSim_TargetAboutActor" Value="315200" />
   <Preset Label="loot_Sentiment_Buffs_Hurt_attentionJealousy" Value="315289" />
+  <Preset Label="loot_Lose_Teeth_ApplyMisadventureNoReaction" Value="315366" />
   <Preset Label="Loot_KnowTrait_Loyal_Romance" Value="315414" />
   <Preset Label="Loot_KnowTrait_Loyal_Actor" Value="315415" />
   <Preset Label="loot_KnowTrait_Loyal" Value="315417" />
@@ -7708,80 +8298,574 @@
   <Preset Label="Loot_SelfDiscovery_Reward_Party_PartyAnimal" Value="315604" />
   <Preset Label="Loot_SelfDiscovery_Reward_Social_SociallyAwkward" Value="315611" />
   <Preset Label="loot_Infant_Play_Toys" Value="315952" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Virtues" Value="315979" />
   <Preset Label="loot_Infant_CryingBaby" Value="315999" />
   <Preset Label="randomWeightedLoot_SleepingBag_Sleep" Value="316044" />
   <Preset Label="loot_Buff_trait_loyal_OccultBond" Value="316055" />
   <Preset Label="loot_Commodity_Loyal_ResetMoralTimer" Value="316201" />
   <Preset Label="loot_Buff_Trait_Loyal_Principles" Value="316204" />
   <Preset Label="loot_Commodity_Loyal_ResetMoralTimer_FriendIsTarget" Value="316205" />
+  <Preset Label="loot_TemporaryStay_EatCandy" Value="316261" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Active" Value="316270" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Ambition" Value="316271" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Mood" Value="316272" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Scared" Value="316273" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Silly" Value="316274" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Snob" Value="316275" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Skill" Value="316276" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Social" Value="316277" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Tech" Value="316278" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Smart" Value="316279" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Animal" Value="316280" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Creative" Value="316281" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Critic" Value="316282" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Economy" Value="316283" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Family" Value="316284" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Fragile" Value="316285" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Green" Value="316286" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Hygiene" Value="316287" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Jealous" Value="316288" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Metabolism" Value="316289" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Outdoorsy" Value="316290" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Party" Value="316291" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Relationship" Value="316292" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Romance" Value="316293" />
+  <Preset Label="randomWeightedLoot_SimPreference_Characteristic_NPC" Value="316304" />
+  <Preset Label="randomWeightedLoot_SimPreference_Characteristic_Trigger_Like" Value="316307" />
+  <Preset Label="randomWeightedLoot_SimPreference_Characteristic_Trigger_Dislike" Value="316308" />
+  <Preset Label="loot_recreationTable_puzzles_setFramedPieceSize" Value="316346" />
+  <Preset Label="loot_ToddlerPersonalityUPdate_HatesBedtime_RemoveForcedToWakeUp" Value="316349" />
   <Preset Label="loot_AngrySocialCommodity_ForSI" Value="316440" />
+  <Preset Label="loot_SelfDiscovery_Active_DayNap" Value="316458" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Ambitionless" Value="316527" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Argumentative" Value="316528" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_KidEnthusiast" Value="316529" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Mischievous" Value="316530" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_NatureEnthusiast" Value="316531" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Optimist" Value="316532" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Pessimist" Value="316533" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_PetEnthusiast" Value="316534" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_RomanceEnthusiast" Value="316535" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Spirited" Value="316536" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Cerebral" Value="316537" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Egotistical" Value="316538" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_EmotionalDecisionMaker" Value="316539" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Funny" Value="316540" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_HardWorker" Value="316541" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_HighEnergy" Value="316542" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Homebody" Value="316543" />
+  <Preset Label="loot_SimPreference_NoOpinion_Characteristic_Idealist" Value="316544" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Ambitionless_Like" Value="316545" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Argumentative_Like" Value="316546" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_KidEnthusiast_Like" Value="316547" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Mischievous_Like" Value="316548" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_NatureEnthusiast_Like" Value="316549" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Optimist_Like" Value="316550" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Pessimist_Like" Value="316551" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_PetEnthusiast_Like" Value="316552" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_RomanceEnthusiast_Like" Value="316553" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Spirited_Like" Value="316554" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Cerebral_Like" Value="316555" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Egotistical_Like" Value="316556" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_EmotionalDecisionMaker_Like" Value="316557" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Funny_Like" Value="316558" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_HardWorker_Like" Value="316559" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_HighEnergy_Like" Value="316560" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Homebody_Like" Value="316561" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Idealist_Like" Value="316562" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Ambitionless_Dislike" Value="316563" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Argumentative_Dislike" Value="316564" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_KidEnthusiast_Dislike" Value="316565" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Mischievous_Dislike" Value="316566" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_NatureEnthusiast_Dislike" Value="316567" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Optimist_Dislike" Value="316568" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Pessimist_Dislike" Value="316589" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_PetEnthusiast_Dislike" Value="316590" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_RomanceEnthusiast_Dislike" Value="316591" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Spirited_Dislike" Value="316592" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Cerebral_Dislike" Value="316593" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Egotistical_Dislike" Value="316594" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_EmotionalDecisionMaker_Dislike" Value="316595" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Funny_Dislike" Value="316596" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_HardWorker_Dislike" Value="316597" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_HighEnergy_Dislike" Value="316598" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Homebody_Dislike" Value="316599" />
+  <Preset Label="loot_SimPreference_Gain_Characteristic_Idealist_Dislike" Value="316600" />
+  <Preset Label="loot_SelfDiscovery_Animal_NonHouseholdPet" Value="316684" />
   <Preset Label="loot_SelfDiscovery_Critic_ReadCookBooks" Value="316686" />
+  <Preset Label="loot_SimPreference_Characteristic_PushAdventure_Dislike" Value="316866" />
+  <Preset Label="loot_SimPreference_Characteristic_PushAdventure_Like" Value="316867" />
+  <Preset Label="loot_CrossAge_Interactions_SingSongsSkillGain" Value="316870" />
   <Preset Label="loot_Sentiment_AddSentiment_Bitter_SiblingJealousy" Value="316975" />
+  <Preset Label="loot_SelfDiscovery_Family_IsFamily" Value="316994" />
+  <Preset Label="loot_SelfDiscovery_Family_IsFamilyLarge" Value="316995" />
+  <Preset Label="loot_SelfDiscovery_Family_HatesChildren" Value="316996" />
+  <Preset Label="loot_SelfDiscovery_Glutton_UnbalancedMeal" Value="317000" />
+  <Preset Label="loot_SelfDiscovery_Metabolism_NotHungry" Value="317002" />
+  <Preset Label="loot_SelfDiscovery_Silly_BefriendChild" Value="317137" />
+  <Preset Label="loot_SelfDiscovery_Skill_HighQuality" Value="317138" />
+  <Preset Label="loot_SelfDiscovery_Creative_HighQuality" Value="317147" />
+  <Preset Label="loot_SelfDiscovery_Critic_QualityFood" Value="317148" />
+  <Preset Label="loot_Adoption" Value="317159" />
+  <Preset Label="loot_recreationTable_puzzles_stealPiece_take" Value="317388" />
   <Preset Label="loot_Buff_Trait_Loyal_SafeSecret" Value="317407" />
   <Preset Label="loot_Buff_Trait_Loyal_CalledOut" Value="317409" />
+  <Preset Label="loot_MidlifeCrisis_ObjRefresh" Value="317421" />
+  <Preset Label="loot_Adoption_Reaction" Value="317582" />
+  <Preset Label="loot_Infant_WiggleToMusic_Trigger" Value="317596" />
+  <Preset Label="loot_Burnout_IncreaseAllMental_FromBook" Value="317600" />
+  <Preset Label="loot_Burnout_IncreaseAllCreative_FromBook" Value="317602" />
+  <Preset Label="loot_recreationTable_puzzles_returnPiece" Value="317700" />
+  <Preset Label="loot_LifeMilestone_SFX_Life" Value="317831" />
+  <Preset Label="loot_LifeMilestone_SFX_Social" Value="317832" />
+  <Preset Label="loot_LifeMilestone_SFX_Firsts" Value="317833" />
+  <Preset Label="loot_LifeMilestone_SFX_MidlifeCrisis" Value="317834" />
+  <Preset Label="loot_LifeMilestone_SFX_Toddler_MaxImagination" Value="317835" />
+  <Preset Label="loot_LifeMilestone_SFX_Toddler_MaxThinking" Value="317836" />
+  <Preset Label="loot_LifeMilestone_SFX_Toddler_LearnedToWalk" Value="317837" />
+  <Preset Label="loot_LifeMilestone_SFX_Toddler_LearnedToTalk" Value="317838" />
+  <Preset Label="loot_LifeMilestone_SFX_Toddler_MaxCommunication" Value="317839" />
+  <Preset Label="loot_LifeMilestone_SFX_Toddler_MaxMovement" Value="317840" />
+  <Preset Label="loot_LifeMilestone_SFX_Toddler_MaxPotty" Value="317841" />
+  <Preset Label="loot_recreationTable_puzzles_smashPuzzle_state" Value="317848" />
+  <Preset Label="loot_MidlifeCrisis_Active_CreativeBonus" Value="317907" />
+  <Preset Label="randomWeightedLoot_MidlifeCrisis_Creative_ModifyQualityChance" Value="317908" />
   <Preset Label="loot_Wakeup_GiveBeWokenUp_Actor" Value="317917" />
   <Preset Label="randomWeightedLoot_MidlifeCrisis_LikeDislikeShift_BG" Value="317998" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Fishing" Value="318007" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Fitness" Value="318008" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Gardening" Value="318014" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Guitar" Value="318015" />
   <Preset Label="LootActions_MidlifeCrisis_LikeDislikeShift_CrossStitch" Value="318016" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Painting" Value="318028" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Piano" Value="318029" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Violin" Value="318031" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Writing" Value="318032" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Comedy" Value="318036" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Programming" Value="318042" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_Mixology" Value="318044" />
+  <Preset Label="lootActions_MidlifeCrisis_LikeDislikeShift_RocketScience" Value="318048" />
+  <Preset Label="loot_recreationTable_puzzles_smashPuzzle_buff" Value="318118" />
   <Preset Label="loot_KidsBike_ParentingSkill" Value="318123" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_BookLover" Value="318142" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_AudioLover" Value="318143" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Singer" Value="318146" />
+  <Preset Label="loot_Lose_Teeth_StartTNS" Value="318152" />
+  <Preset Label="loot_Lose_Teeth_EndTNS" Value="318153" />
+  <Preset Label="loot_recreationTable_puzzles_clearPiles" Value="318183" />
+  <Preset Label="loot_LifeMilestone_RetroactiveUnlock_Relationship" Value="318222" />
+  <Preset Label="loot_BayArea_BayGossipTNS_AtlasMichaelson" Value="318242" />
+  <Preset Label="loot_Buff_TV_ChildLearning" Value="318274" />
+  <Preset Label="loot_Buff_TV_Scary" Value="318277" />
+  <Preset Label="loot_Buff_TV_Scary_ToddlerNightmare" Value="318362" />
+  <Preset Label="loot_Buff_Remove_TV_Scary_ToddlerNightmare" Value="318364" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Active_Max" Value="318430" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Active_Min" Value="318431" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Hygiene_Max" Value="318432" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Romance_Min" Value="318433" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Smart_Max" Value="318434" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Social_Max" Value="318435" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Social_Min" Value="318436" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Tech_Max" Value="318437" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Virtues_Max" Value="318438" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Virtues_Min" Value="318439" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Ambition_Max" Value="318440" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Animal_Max" Value="318441" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Creative_Max" Value="318442" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Economy_Max" Value="318443" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Critic_Max" Value="318444" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Family_Max" Value="318445" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Family_Min" Value="318446" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Economy_Min" Value="318447" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Fragile_Max" Value="318448" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Green_Max" Value="318449" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Hygiene_Min" Value="318450" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Jealous_Max" Value="318451" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Metabolism_Max" Value="318452" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Metabolism_Min" Value="318453" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Mood_Max" Value="318454" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Mood_Min" Value="318455" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Outdoorsy_Max" Value="318456" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Party_Max" Value="318457" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Relationship_Max" Value="318458" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Romance_Max" Value="318459" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Scared_Max" Value="318460" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Silly_Max" Value="318461" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Skill_Max" Value="318462" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Skill_Min" Value="318463" />
+  <Preset Label="loot_SelfDiscovery_Debug_FullProgression_Snob_Max" Value="318464" />
+  <Preset Label="loot_Sleepover_CreateSnack_PizzaSetup" Value="318517" />
   <Preset Label="loot_Phone_Color_Reaction" Value="318597" />
+  <Preset Label="loot_MidlifeCrisis_ObjectivePicker_Initial_Adventure" Value="318609" />
+  <Preset Label="loot_MidlifeCrisis_ObjectivePicker_Initial_Create" Value="318610" />
+  <Preset Label="loot_MidlifeCrisis_ObjectivePicker_Initial_Relationship" Value="318611" />
+  <Preset Label="loot_MidlifeCrisis_ObjectivePicker_Initial_Success" Value="318612" />
+  <Preset Label="loot_FamilyTrope_TropeRemoverPotion" Value="318622" />
+  <Preset Label="loot_Treehouse_Enclosure_SocialBehavior" Value="318675" />
   <Preset Label="loot_Dust_ReactionCooldown" Value="318705" />
+  <Preset Label="randomLoot_Treehouse_WooHoo_BuffOutcomes" Value="318780" />
+  <Preset Label="loot_LifeMilestone_Unlocked_FirstPromotion" Value="318789" />
+  <Preset Label="loot_Fear_Failure_Trigger_InLayoffPeriod" Value="318819" />
+  <Preset Label="loot_SelfDiscovery_Progress_Animal_Max_Small_Owner" Value="318909" />
+  <Preset Label="loot_SelfDiscovery_Animal_PetOwner" Value="318910" />
+  <Preset Label="loot_LifeMilestone_Unlocked_LearnedToRideBike" Value="318949" />
+  <Preset Label="randomWeightedLoot_LifeMilestone_Reflect_FromGroupWalkingTrail" Value="319078" />
+  <Preset Label="loot_InfantMilestones_UnlockOnTarget_Creep" Value="319099" />
+  <Preset Label="loot_InfantMilestones_UnlockOnTarget_Coo" Value="319103" />
   <Preset Label="loot_SelfDiscovery_Economy_ExpensiveArt" Value="319137" />
   <Preset Label="loot_Infant_Attachment_PositiveCare_CarriedSim" Value="319149" />
   <Preset Label="loot_Infant_Attachment_Gain_Small_CarriedSim" Value="319150" />
   <Preset Label="loot_Infant_Attachment_Gain_Medium_CarriedSim" Value="319152" />
   <Preset Label="loot_Infant_Attachment_Gain_Medium_Actor" Value="319153" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_Jealous_LoyalCommitmentIssues" Value="319210" />
+  <Preset Label="loot_SelfDiscovery_Jealous_CheatedOn" Value="319211" />
+  <Preset Label="loot_infantMilestones_Anticipation_EndWatch" Value="319226" />
+  <Preset Label="loot_SelfDiscovery_Metabolism_MeatSubst" Value="319229" />
+  <Preset Label="loot_InfantMilestones_UnlockOnTarget_LiftHead" Value="319280" />
+  <Preset Label="loot_WiggleToMusic_GiveBuffs" Value="319288" />
+  <Preset Label="loot_SelfDiscovery_Mood_DeathFamily" Value="319289" />
+  <Preset Label="loot_SelfDiscovery_Party_NotHomeDance" Value="319300" />
   <Preset Label="loot_Statistic_Postcard_Fallback" Value="319319" />
   <Preset Label="loot_Statistic_Postcard_ResetWaiting" Value="319320" />
   <Preset Label="loot_Infant_Attachment_Lose_Small_Actor" Value="319341" />
   <Preset Label="loot_Infant_Attachment_Buffs_CryingFussing_Removal_CarriedSim" Value="319343" />
   <Preset Label="loot_Infant_Attachment_Buffs_CryingFussing_Removal_TargetSim" Value="319344" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_EarlyRiser_CD" Value="319501" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_LightSleeper_Wokeup" Value="319503" />
+  <Preset Label="loot_ChattyCall" Value="319535" />
+  <Preset Label="loot_FriendshipBracelet_RelbitRemoved" Value="319553" />
   <Preset Label="loot_RelMultiplierTester_Gain" Value="319615" />
   <Preset Label="loot_RelMultiplierTester_Loss" Value="319617" />
+  <Preset Label="loot_TemporaryStay_CloneRelGain" Value="319741" />
+  <Preset Label="loot_Buff_WokenUpFromSleepingBagPrank" Value="319825" />
+  <Preset Label="loot_TemporaryStay_GetThemOut" Value="319894" />
+  <Preset Label="loot_FriendshipBracelet_RelbitAdded" Value="319941" />
+  <Preset Label="loot_FriendshipBracelet_AddRelbit" Value="319948" />
+  <Preset Label="loot_Infants_RemoveElements" Value="319990" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_Aggressive" Value="319992" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_AudioLover" Value="319993" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_LightSleeper" Value="319994" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_LovesCarry" Value="319995" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_LovesWakeup" Value="319996" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_MessyEater" Value="319997" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_PickyEater" Value="319998" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_Singer" Value="319999" />
+  <Preset Label="loot_FriendshipBracelet_NPCCreate" Value="320011" />
+  <Preset Label="loot_FriendshipBracelet_MakePickedObject" Value="320059" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_Runsaway" Value="320086" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_WaterLover" Value="320087" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_BookLover" Value="320088" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_Destructive" Value="320089" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_EarlyRiser" Value="320090" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_GoodAppetite" Value="320091" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_HatesBedtime" Value="320092" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_HatesCarry" Value="320093" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_HatesWakeup" Value="320094" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_HeavySleeper" Value="320095" />
+  <Preset Label="loot_InfantElement_Reveal_FrequentlyHiccups" Value="320115" />
+  <Preset Label="loot_InfantElement_Reveal_FrequentlySneezes" Value="320116" />
+  <Preset Label="loot_InfantElement_Reveal_ObsessedwithSound" Value="320117" />
+  <Preset Label="loot_InfantElement_Reveal_OnlySleepsWhenHeld" Value="320118" />
+  <Preset Label="loot_InfantElement_Reveal_PeesDuringChanges_TargetSim" Value="320119" />
+  <Preset Label="loot_InfantElement_Reveal_PeesDuringFeeding_TargetSim" Value="320120" />
+  <Preset Label="loot_InfantElement_Reveal_PickyEater_TargetSim" Value="320121" />
+  <Preset Label="loot_InfantElement_Reveal_Talker" Value="320122" />
+  <Preset Label="loot_InfantElement_Reveal_RisesWithTheSun" Value="320123" />
+  <Preset Label="loot_InfantElement_Reveal_SelfSoother" Value="320124" />
+  <Preset Label="loot_InfantElement_Reveal_Gassy" Value="320125" />
+  <Preset Label="loot_InfantElement_Reveal_GoodAppetite_TargetSim" Value="320126" />
+  <Preset Label="loot_InfantElement_Reveal_HappySpitter_TargetSim" Value="320127" />
+  <Preset Label="loot_InfantElement_Reveal_HatesBeingHeld" Value="320128" />
+  <Preset Label="loot_InfantElement_Reveal_HatesWakingUp" Value="320129" />
+  <Preset Label="loot_InfantElement_Reveal_LovesBeingHeld" Value="320130" />
+  <Preset Label="loot_InfantElement_Reveal_LovesWakingUp" Value="320131" />
+  <Preset Label="loot_InfantElement_Reveal_MessyEater" Value="320132" />
+  <Preset Label="loot_InfantElement_Reveal_MessyEater_TargetSim" Value="320135" />
+  <Preset Label="loot_FriendshipBracelet_RemoveRelbit" Value="320172" />
+  <Preset Label="loot_MidlifeCrisis_AddObjective_Adventure" Value="320211" />
+  <Preset Label="loot_MidlifeCrisis_AddObjective_Create" Value="320212" />
+  <Preset Label="loot_MidlifeCrisis_AddObjective_Relationship" Value="320213" />
+  <Preset Label="loot_MidlifeCrisis_AddObjective_Sucess" Value="320214" />
+  <Preset Label="loot_Splashpad_SimTemp" Value="320240" />
   <Preset Label="loot_Infant_Invited_Over" Value="320280" />
   <Preset Label="loot_Infant_Invited_Over_Remove_Buff" Value="320283" />
   <Preset Label="loot_Infant_Blowout_Broadcaster" Value="320294" />
+  <Preset Label="loot_FamilyTrope_Social_CompliantBuff" Value="320336" />
+  <Preset Label="loot_FamilyTrope_Social_JokesterBuff" Value="320338" />
+  <Preset Label="loot_FamilyTrope_Social_CloseBuff" Value="320339" />
   <Preset Label="loot_Infant_Blowout_Broadcaster_Carrying" Value="320371" />
+  <Preset Label="loot_LifeMilestone_DramaNode_CancelIntro" Value="320402" />
+  <Preset Label="loot_FamilyTrope_Social_DifficultBuff" Value="320430" />
+  <Preset Label="loot_FamilyTrope_Social_DistantBuff" Value="320431" />
+  <Preset Label="loot_EP13World_AcrossTheBay_FishermanStatue" Value="320474" />
+  <Preset Label="loot_EP13World_AcrossTheBay_TreeStump" Value="320476" />
+  <Preset Label="loot_EP13World_Park_Crocodile" Value="320477" />
+  <Preset Label="loot_EP13World_Park_Topiary" Value="320478" />
+  <Preset Label="loot_EP13World_Waterfront_Piano" Value="320479" />
+  <Preset Label="loot_EP13World_Waterfront_Anchor" Value="320480" />
+  <Preset Label="loot_CrossAge_MaxAutonomyCommodities" Value="320542" />
+  <Preset Label="loot_KeepsakeBox_PonderMeaning_BeingTogether" Value="320567" />
+  <Preset Label="loot_KeepsakeBox_PonderMeaning_IsntEverything" Value="320569" />
+  <Preset Label="loot_KeepsakeBox_PonderMeaning_NobodyKnows" Value="320570" />
+  <Preset Label="loot_KeepsakeBox_PonderMeaning_Patience" Value="320571" />
+  <Preset Label="loot_KeepsakeBox_PonderMeaning_Tolerance" Value="320572" />
+  <Preset Label="loot_KeepsakeBox_PonderMeaning_Unconditional" Value="320573" />
+  <Preset Label="loot_KeepsakeBox_PonderMeaning_Weird" Value="320574" />
+  <Preset Label="loot_FamilyTrope_Social_LovingBuff" Value="320624" />
+  <Preset Label="loot_FamilyTrope_Social_PermissiveBuff" Value="320626" />
+  <Preset Label="loot_FriendshipBracelet_MakePickedObject_Failure" Value="320682" />
+  <Preset Label="loot_OwnershipTransfer_KeepsakeBox" Value="320758" />
+  <Preset Label="loot_KeepsakeBox_EntrustBox" Value="320760" />
+  <Preset Label="loot_PraiseMess" Value="320813" />
+  <Preset Label="loot_CulturalFood_AroundTheWorld_RecipeUnlocks_Taquitos" Value="320962" />
+  <Preset Label="loot_CulturalFood_AroundTheWorld_RecipeUnlocks_EggRolls" Value="320975" />
+  <Preset Label="loot_CulturalFood_AroundTheWorld_RecipeUnlocks_BanhMi" Value="320976" />
+  <Preset Label="loot_CulturalFood_AroundTheWorld_RecipeUnlocks_Empanada" Value="320977" />
+  <Preset Label="loot_CulturalFood_AroundTheWorld_RecipeUnlocks_Lumpia" Value="320978" />
+  <Preset Label="loot_CulturalFood_AroundTheWorld_RecipeUnlocks_Samosa" Value="320979" />
+  <Preset Label="loot_CulturalFood_AroundTheWorld_RecipeUnlocks_Ramen" Value="321024" />
+  <Preset Label="loot_Seafood_AroundTheWorld_RecipeUnlocks_SeafoodChowder" Value="321025" />
   <Preset Label="loot_Infant_AddRouteFail_Stuck" Value="321039" />
   <Preset Label="loot_Commodity_Motive_Fun_Gain_Small_Target" Value="321045" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_Aggressive_TargetSim" Value="321133" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_LovesCarry_AskforPickup" Value="321134" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_WaterLover_TargetSim" Value="321135" />
   <Preset Label="loot_Infant_RemoveStuck" Value="321155" />
   <Preset Label="loot_Infant_AddRouteFail_CantReach" Value="321157" />
+  <Preset Label="loot_Infants_Element_ObsessedwithSound" Value="321185" />
+  <Preset Label="randomWeightedLoot_MidlifeCrisis_Active_MoodPicker" Value="321213" />
+  <Preset Label="loot_CelebrationCannon_StartFire" Value="321243" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Islander_Max" Value="321370" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCancel_Islander" Value="321373" />
+  <Preset Label="loot_SelfDiscovery_Progress_Islander_Max_Large" Value="321377" />
+  <Preset Label="loot_SelfDiscovery_Progress_Islander_Max_Small" Value="321378" />
+  <Preset Label="loot_FamilyTrope_Cheat_close" Value="321471" />
+  <Preset Label="loot_FamilyTrope_Cheat_compliant" Value="321472" />
+  <Preset Label="loot_FamilyTrope_Cheat_difficult" Value="321473" />
+  <Preset Label="loot_FamilyTrope_Cheat_distant" Value="321474" />
+  <Preset Label="loot_FamilyTrope_Cheat_jokesters" Value="321475" />
+  <Preset Label="loot_FamilyTrope_Cheat_loving" Value="321476" />
+  <Preset Label="loot_FamilyTrope_Cheat_permissive" Value="321477" />
+  <Preset Label="loot_FamilyTrope_Cheat_removeAllTropes" Value="321479" />
   <Preset Label="Loot_Infant_LoudNoise_StartOneshotBroadcaster" Value="321492" />
   <Preset Label="loot_Infant_LoudNoise_React" Value="321497" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_NewTraitPicker_Relationship_Min" Value="321636" />
+  <Preset Label="randomWeightedLoot_SelfDiscovery_DiscoveryMoment_Relationship_Loyal" Value="321637" />
+  <Preset Label="loot_SelfDiscovery_Reward_Relationship_Loyal" Value="321638" />
+  <Preset Label="loot_SelfDiscovery_Progress_Relationship_Min_Large" Value="321640" />
+  <Preset Label="loot_SelfDiscovery_Progress_Relationship_Min_Small" Value="321641" />
   <Preset Label="loot_Infant_RudeAwakening" Value="321656" />
+  <Preset Label="loot_TemporaryStay_WhoseKidIsThis" Value="321657" />
   <Preset Label="rel_Bit_HasMet_Add_Both_Infant_Fail" Value="321658" />
   <Preset Label="loot_Infant_AttentionGain_CarriedSim" Value="321659" />
+  <Preset Label="loot_KeepsakeBox_CoolBox" Value="321729" />
   <Preset Label="randomWeightedLoot_Buff_InfantBath_Buffs" Value="321839" />
+  <Preset Label="loot_Buff_TV_Sitcom" Value="321873" />
+  <Preset Label="loot_InfantMilestones_UnlockOnTarget_PincerGrasp" Value="321883" />
+  <Preset Label="loot_InfantMilestones_Anticipation_Big_Gather_Actor" Value="321997" />
+  <Preset Label="loot_InfantMilestones_UnlockOnTarget_RolLOver_TummyToBack" Value="322002" />
+  <Preset Label="scheduledDeliveryLoot_FamilyTrope_FamilyBirthdayGift" Value="322363" />
+  <Preset Label="loot_FamilyTrope_FamilyBirthdayGift_Schedule" Value="322364" />
+  <Preset Label="loot_FamilyTrope_FamilyBirthdayGift_OnAgeUp" Value="322366" />
+  <Preset Label="randomWeightedLoot_MoveIn_AddRejectionSentiment_ActorToTarget" Value="322398" />
+  <Preset Label="lootActions_CelebrationCannon_Success" Value="322454" />
+  <Preset Label="lootActions_CelebrationCannon_Fail" Value="322455" />
+  <Preset Label="loot_Sentiment_AddSentiment_Hurt_MoveIn_NotCloseEnough" Value="322472" />
+  <Preset Label="loot_Sentiment_AddSentiment_Hurt_MoveIn_SomeFamilyWeAre" Value="322473" />
+  <Preset Label="loot_Sentiment_AddSentiment_Guilty_TargetToActor_MoveIn_ResidencyRejection" Value="322474" />
+  <Preset Label="loot_Sentiment_AddSentiment_Hurt_TargetToActor_MoveIn_NotCloseEnough" Value="322476" />
+  <Preset Label="loot_Sentiment_AddSentiment_Hurt_TargetToActor_MoveIn_SomeFamilyWeAre" Value="322477" />
+  <Preset Label="loot_Sentiment_AddSentiment_Guilty_MoveIn_ResidencyRejection" Value="322479" />
+  <Preset Label="loot_CrossAge_Interactions_MaxDisapproveDiscipline" Value="322482" />
   <Preset Label="loot_MoveIn_RejectionTNS_RejectedByNPCTarget" Value="322501" />
+  <Preset Label="loot_MoveIn_TriggerMoveIn_PlayerIsTarget" Value="322503" />
+  <Preset Label="randomWeightedLoot_MoveIn_AddRejectionSentiment_TargetToActor" Value="322504" />
   <Preset Label="loot_MoveIn_RejectionTNS_RejectedByPlayerTarget" Value="322512" />
+  <Preset Label="loot_MoveIn_AddHiddenRelbit" Value="322513" />
+  <Preset Label="loot_Sentiment_AddSentiment_Close_MoveIn" Value="322514" />
+  <Preset Label="loot_KeepsakeBox_Designate" Value="322585" />
+  <Preset Label="loot_SelfDiscovery_Family_Birthdays" Value="322627" />
   <Preset Label="loot_ObjectCreate_InfantPlayInMess" Value="322637" />
+  <Preset Label="loot_TemporaryStay_SuitcaseOwnership" Value="322648" />
+  <Preset Label="loot_KeepsakeBox_PonderMeaning_Obedience" Value="322838" />
+  <Preset Label="loot_TemporaryStay_RecentlyArrived" Value="323021" />
+  <Preset Label="loot_TemporaryStay_RemoveRecentlyArrived" Value="323022" />
   <Preset Label="loot_Infants_GiveRelbit_AdultHasInfant" Value="323103" />
+  <Preset Label="loot_TemporaryStay_ParentalHelpCooldown" Value="323303" />
+  <Preset Label="loot_InfantMilestone_Gain_BlowRaspberry_Target" Value="323312" />
+  <Preset Label="loot_TemporaryStay_ParentalHelpIntroduction" Value="323352" />
+  <Preset Label="loot_LifeMilestone_RelBit_JustAdoptedPet" Value="323372" />
+  <Preset Label="loot_JobLoss_Layoff_PizzaTag" Value="323442" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_IgnacioRobles_BerniceRobles" Value="323592" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_IgnacioRobles_AurelioRobles" Value="323593" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_BerniceRobles_AurelioRobles" Value="323594" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_IanRobles_AurelioRobles" Value="323595" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_CelesteMichaelson_AtlasMichaelson" Value="323596" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_ChristopherMichaelson_AtlasMichaelson" Value="323597" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_JayRobles_TalaRuano" Value="323598" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_DoliRuano_TalaRuano" Value="323599" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_XochitlLuna_KarmineLuna" Value="323600" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_EleanorSullivan_KarmineLuna" Value="323601" />
+  <Preset Label="loot_MidlifeCrisis_Relationship_Objective_GoldenDate" Value="323623" />
+  <Preset Label="loot_MidlifeCrisis_Relationship_SmartHub" Value="323723" />
   <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_1RemovePhoneBuff" Value="323790" />
   <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3RemoveRivalFiredBuff" Value="323841" />
+  <Preset Label="loot_TemporaryStay_SuitcaseRemove" Value="323974" />
   <Preset Label="loot_Sentiment_AddSentiment_Enamored_generic_LT_lowChance_Target" Value="324129" />
   <Preset Label="randomWeightedLoot_AddSentiment_Enamored_LT_genericOrAlternatives_lowChance_Target" Value="324131" />
+  <Preset Label="loot_TemporaryStay_AwkwardTension" Value="324272" />
+  <Preset Label="loot_TemporaryStay_StayOverSchedule_InfantIntro" Value="324273" />
+  <Preset Label="loot_InfantMilestone_PushBragAboutBaby" Value="324373" />
   <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_1AddPhoneBuff" Value="324392" />
   <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3AddRivalFiredBuff" Value="324393" />
+  <Preset Label="loot_TemporaryStay_StayOverSchedule_InfantIntroStart" Value="324423" />
   <Preset Label="loot_StuffedAnimal_Toddler_Relationship" Value="324520" />
   <Preset Label="loot_Fear_DeadEndJob_ReturnFromActiveCareer" Value="324610" />
+  <Preset Label="loot_Infant_Carry_Default_Back_Carrier" Value="324650" />
+  <Preset Label="loot_JobLoss_LayoffPeriod_DebugStart" Value="324895" />
   <Preset Label="loot_Buff_InfantBath_Buffs_Bubbles" Value="326411" />
+  <Preset Label="loot_Child_Confidence_TraitUpdate_General_Target" Value="327085" />
+  <Preset Label="loot_Child_Confidence_TraitUpdate_High_Target" Value="327086" />
+  <Preset Label="loot_Child_Confidence_TraitUpdate_Low_Target" Value="327087" />
+  <Preset Label="loot_Child_Confidence_TraitUpdate_Neutral_Target" Value="327088" />
+  <Preset Label="loot_LifeMilestone_RelBit_FellInLove" Value="327212" />
+  <Preset Label="loot_PremadesSetup_EP13_BayArea_IanRobles_TalaRuano" Value="327575" />
+  <Preset Label="loot_CrossAge_Interactions_Favorite_Child" Value="327908" />
+  <Preset Label="loot_CrossAge_Interactions_Favorite_Grandchild" Value="327909" />
+  <Preset Label="loot_CrossAge_Interactions_Favorite_Friend" Value="327910" />
+  <Preset Label="loot_Lose_Teeth_Missing_Tooth" Value="328503" />
+  <Preset Label="loot_InfantMilestone_Gain_BlowKiss_Target" Value="328568" />
   <Preset Label="loot_Read_To_Children_IncrementActiveTime" Value="328769" />
+  <Preset Label="loot_Child_Confidence_Gain_VerySmall" Value="328846" />
+  <Preset Label="loot_Buff_Remove_TV_Scary_Scared" Value="329016" />
+  <Preset Label="loot_FriendshipBracelet_PushCleanup" Value="329150" />
   <Preset Label="loot_Infant_Sleep_Buff_AwakeBuffsAllowed" Value="329252" />
   <Preset Label="loot_Infant_Sleep_BuffRemoval_AwakeBuffsAllowed" Value="329253" />
   <Preset Label="loot_Infant_Sleep_Buff_AwakeBuffsAllowed_CarriedSim" Value="329255" />
   <Preset Label="loot_Infant_Sleep_BuffRemoval_AwakeBuffsAllowed_CarriedSim" Value="329256" />
+  <Preset Label="loot_InfantMilestones_Smile_AgeUpToInfant_CreatedObject" Value="329290" />
+  <Preset Label="loot_FriendshipBracelet_Cleanup" Value="329348" />
   <Preset Label="loot_Ghost_Resurrect_NoMilestoneUnlock" Value="329414" />
+  <Preset Label="loot_SelfDiscovery_Progress_Active_Max_ExtraSmall" Value="329854" />
   <Preset Label="loot_Buff_Trait_Childish_AutonomyReset" Value="330317" />
+  <Preset Label="loot_RecreationTable_SimblesDominoes_remove_practice_buff" Value="330698" />
+  <Preset Label="loot_TemporaryStay_MeetKyle" Value="330797" />
+  <Preset Label="loot_InfantMilestones_GrossMotor_SitUp_Traits" Value="330847" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_Aggressive" Value="331077" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_Destructive" Value="331078" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_MessyEater" Value="331079" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_LightSleeper" Value="331080" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_HeavySleeper" Value="331081" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_LovesWakeUp" Value="331082" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_HatesWakeUp" Value="331083" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_LovesCarry" Value="331084" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_HatesCarry" Value="331085" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_GoodAppetite" Value="331086" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_Singer" Value="331087" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_RunsAway" Value="331088" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_EarlyRiser" Value="331089" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_HatesBedtime" Value="331090" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_PickyEater" Value="331091" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_WaterLover" Value="331092" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_AudioLover" Value="331093" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_AddQuirk_BookLover" Value="331094" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_Aggressive" Value="331115" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_Destructive" Value="331116" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_EarlyRiser" Value="331117" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_HatesBedtime" Value="331118" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_PickyEater" Value="331119" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_WaterLover" Value="331120" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_AudioLover" Value="331121" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_BookLover" Value="331122" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_MessyEater" Value="331123" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_LightSleeper" Value="331124" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_GoodAppetite" Value="331125" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_HatesCarry" Value="331126" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_LovesCarry" Value="331127" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_HatesWakeUp" Value="331128" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_LovesWakeUp" Value="331129" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_HeavySleeper" Value="331130" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_Singer" Value="331131" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Cheats_RemoveQuirk_RunsAway" Value="331132" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_FrequentlyHiccups" Value="331259" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_FrequentlySneezes" Value="331260" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_PeesDuringChanges" Value="331261" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_ObsessedWithSound" Value="331262" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_MessyEater" Value="331263" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_LovesWakingUp" Value="331264" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_LovesBeingHeld" Value="331265" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_HatesWakingUp" Value="331266" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_HatesBeingHeld" Value="331267" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_HappySpitter" Value="331268" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_Gassy" Value="331269" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_GoodAppetite" Value="331270" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_OnlySleepsWhenHeld" Value="331271" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_PickyEater" Value="331272" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_SelfSoother" Value="331273" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_Talker" Value="331274" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_RisesWithTheSun" Value="331275" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Add_PeesDuringFeeding" Value="331276" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_FrequentlyHiccups" Value="331287" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_FrequentlySneezes" Value="331288" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_ObsessedWithSound" Value="331289" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_OnlySleepsWhenHeld" Value="331290" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_PeesDuringChanges" Value="331291" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_PeesDuringFeeding" Value="331292" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_PickyEater" Value="331293" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_RisesWithTheSun" Value="331294" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_SelfSoother" Value="331295" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_Talker" Value="331296" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_Gassy" Value="331297" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_GoodAppetite" Value="331298" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_HappySpitter" Value="331299" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_HatesBeingHeld" Value="331300" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_LovesBeingHeld" Value="331301" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_HatesWakingUp" Value="331302" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_LovesWakingUp" Value="331303" />
+  <Preset Label="loot_Infants_Element_CheatQuirks_Remove_MessyEater" Value="331304" />
+  <Preset Label="loot_Lose_Teeth_LostToothTrait_AppearanceModifier" Value="331532" />
+  <Preset Label="loot_FriendshipBracelet_DemandBack" Value="331561" />
+  <Preset Label="loot_MidlifeCrisis_SimDeath" Value="331893" />
+  <Preset Label="loot_Infant_Carry_Back_RemoveOtherTraits_BlackYellow" Value="331904" />
+  <Preset Label="loot_Infant_Carry_Back_RemoveOtherTraits_Grey" Value="331905" />
+  <Preset Label="loot_Infant_Carry_Back_RemoveOtherTraits_Pink" Value="331906" />
+  <Preset Label="loot_Infant_Carry_Back_RemoveOtherTraits_White" Value="331907" />
+  <Preset Label="loot_Infant_Carry_Back_RemoveOtherTraits_Sturdy_Orange" Value="331908" />
+  <Preset Label="loot_Infant_Carry_Back_RemoveOtherTraits_Sturdy_Blue" Value="331909" />
+  <Preset Label="loot_Infant_Carry_Back_RemoveOtherTraits_Sturdy_Gray" Value="331910" />
+  <Preset Label="loot_Infant_Carry_Back_RemoveOtherTraits_Sturdy_Green" Value="331911" />
+  <Preset Label="loot_Infant_Carry_Back_RemoveOtherTraits_Sturdy_Red" Value="331912" />
+  <Preset Label="loot_InfantMilestone_Gain_PeekABoo_Target" Value="332207" />
+  <Preset Label="loot_InfantMilestones_SocializationBoost_Target" Value="332209" />
+  <Preset Label="loot_MidlifeCrisis_BefriendAStray" Value="332555" />
+  <Preset Label="loot_Lose_Teeth_Tooth_PlaceToothUnderPillow_TNS" Value="332585" />
   <Preset Label="loot_Infant_RemoveAwakeTime" Value="332755" />
   <Preset Label="loot_Infant_RemoveCommodities" Value="332968" />
+  <Preset Label="loot_MovieTheater_ExitTheater" Value="333128" />
   <Preset Label="loot_Infant_Sleep_BuffAdd_AwakeTime" Value="333436" />
   <Preset Label="loot_Infant_Sleep_BuffRemove_AwakeTime" Value="333437" />
   <Preset Label="loot_Infant_SetInfantConcern_InfantActor" Value="333577" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_Reveal_Delay" Value="333671" />
   <Preset Label="loot_Infant_BadWeather_Outside" Value="333706" />
   <Preset Label="loot_Infant_Reaction_Angry" Value="333727" />
   <Preset Label="loot_Infant_Reaction_Happy" Value="333728" />
   <Preset Label="loot_Infant_Reaction_Sad" Value="333729" />
+  <Preset Label="loot_Sleepover_WakeUp" Value="333933" />
+  <Preset Label="loot_Sleepover_SleepingBagSetup" Value="333934" />
+  <Preset Label="loot_Infants_Element_GoodAppetite_Full" Value="334031" />
+  <Preset Label="loot_InfantElement_Reveal_PickyEater" Value="334040" />
   <Preset Label="loot_Read_To_Children_RemoveCounters" Value="334088" />
   <Preset Label="loot_Child_AgeUp_Fitness" Value="334128" />
+  <Preset Label="loot_InfantMilestones_Anticipation_WatcherBuffs" Value="334168" />
+  <Preset Label="loot_MidlifeCrisis_MaxASkill" Value="334198" />
+  <Preset Label="loot_SelfDiscovery_Economy_MoneyTree" Value="334490" />
+  <Preset Label="loot_SelfDiscovery_Active_NotAMermaid" Value="334501" />
+  <Preset Label="loot_SelfDiscovery_Active_NotAMermaid_ExtraSmall" Value="334502" />
+  <Preset Label="loot_SelfDiscovery_Mood_CurrentSituation_Sad" Value="334506" />
+  <Preset Label="loot_SelfDiscovery_Mood_CurrentSituation_Angry_SmallProg" Value="334509" />
+  <Preset Label="loot_SelfDiscovery_Mood_CurrentSituation_Sad_SmallProg" Value="334510" />
+  <Preset Label="loot_SelfDiscovery_Progress_Outdoorsy_Max_Medium" Value="334511" />
+  <Preset Label="loot_SelfDiscovery_Progress_Outdoorsy_Max_Full" Value="334512" />
   <Preset Label="loot_Infant_HighChair_Remove_AlreadyFedFirstBite" Value="334561" />
   <Preset Label="loot_Infant_PreSleep_Fill" Value="334580" />
   <Preset Label="loot_Infant_Trait_Cautious_AddCaregiverProximityCheck" Value="334603" />
@@ -7789,6 +8873,20 @@
   <Preset Label="loot_Infant_Trait_Cautious_AddProximityBroadcaster" Value="334609" />
   <Preset Label="loot_Infant_CryingReaction" Value="334621" />
   <Preset Label="loot_Infant_Trait_Calm_BoredomExit" Value="334662" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentCD_Reset" Value="334665" />
+  <Preset Label="loot_InfantMilestone_FirstFamilyVisit" Value="334934" />
+  <Preset Label="loot_Sleepover_TimeforSleep_NPC" Value="334945" />
+  <Preset Label="loot_SelfDiscovery_DiscoveryMomentBuff" Value="334974" />
+  <Preset Label="loot_SelfDiscovery_Virtues_ActProper_Large" Value="335004" />
+  <Preset Label="loot_SelfDiscovery_Virtues_ActProper_Small" Value="335007" />
+  <Preset Label="loot_SelfDiscovery_Scared_Erratic" Value="335009" />
+  <Preset Label="loot_Burnout_IncreaseCreative_FromPhoto_Normal" Value="335184" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_HeavySleeper_NoisyNeighbors" Value="335204" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_LightSleeper_NoisyNeighbors" Value="335205" />
   <Preset Label="loot_Infant_Carry_Comfort_Shoosh_Effects" Value="335326" />
+  <Preset Label="loot_LifeMilestone_LotBasedBuff_RemoveCheck" Value="335357" />
+  <Preset Label="loot_Burnout_IncreaseCreative_FromPhoto_Dislike" Value="335404" />
+  <Preset Label="loot_Burnout_IncreaseCreative_FromPhoto_Like" Value="335405" />
   <Preset Label="loot_Infant_LoudNoise_React_BabyCrying" Value="335869" />
+  <Preset Label="loot_ToddlerPersonalityUpdate_AddQuirks" Value="336059" />
 </PresetGroup>

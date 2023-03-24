@@ -8,6 +8,7 @@ using Constructor5.Elements.TestConditions;
 namespace Constructor5.TestConditionTypes.Buffs
 {
     [SelectableObjectType("ObjectiveConditionTypes", "BuffAddedCondition")]
+    [SelectableObjectType("SituationGoalConditionTypes", "BuffAddedCondition")]
     [XmlSerializerExtraType]
     public class BuffAddedCondition : TestCondition
     {

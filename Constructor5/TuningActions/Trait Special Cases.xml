@@ -7,6 +7,9 @@
             <IfBool p="BlockAgingFromBaby" Inverted="True">
               <E>BABY</E>
             </IfBool>
+            <IfBool p="BlockAgingFromInfant" Inverted="True">
+              <E>INFANT</E>
+            </IfBool>
             <IfBool p="BlockAgingFromToddler" Inverted="True">
               <E>TODDLER</E>
             </IfBool>

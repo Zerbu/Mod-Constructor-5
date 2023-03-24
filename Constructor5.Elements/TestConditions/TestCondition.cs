@@ -17,6 +17,9 @@ namespace Constructor5.Elements.TestConditions
         [XmlAttribute]
         public string GeneratedLabel { get; set; }
 
+        [XmlAttribute]
+        public int SaveVersion { get; set; } = 1;
+
         [XmlIgnore]
         public string Label => CustomLabel ?? GeneratedLabel;
 

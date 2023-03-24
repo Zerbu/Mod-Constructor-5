@@ -1,0 +1,37 @@
+﻿<UserControl
+    x:Class="Constructor5.Elements.Milestones.MilestoneInfoEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.Milestones"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <c:LeftRightMargin>
+        <c:SpacedStack>
+            <c:CheckBox Content="AllowInfant" IsChecked="{Binding AllowInfant}" />
+            <c:CheckBox Content="AllowToddler" IsChecked="{Binding AllowToddler}" />
+            <c:CheckBox Content="AllowChild" IsChecked="{Binding AllowChild}" />
+            <c:CheckBox Content="AllowTeen" IsChecked="{Binding AllowTeen}" />
+            <c:CheckBox Content="AllowYoungAdult" IsChecked="{Binding AllowYoungAdult}" />
+            <c:CheckBox Content="AllowAdult" IsChecked="{Binding AllowAdult}" />
+            <c:CheckBox Content="AllowElder" IsChecked="{Binding AllowElder}" />
+
+            <c:Field Label="Category" LabelWidth="100">
+                <StackPanel>
+                    <c:EnumSelectorControl SelectedItem="{Binding Category}" TypeName="MilestoneCategories">
+                        <c:EnumSelectorControl.Replacements>
+                            <c:EnumSelectorReplaceDictionary />
+                        </c:EnumSelectorControl.Replacements>
+                    </c:EnumSelectorControl>
+                </StackPanel>
+            </c:Field>
+
+            <c:CheckBox Content="IsRepeatable" IsChecked="{Binding IsRepeatable}" />
+
+            <c:CheckBox Content="ShowTargetSim" IsChecked="{Binding ShowTargetSim}" />
+        </c:SpacedStack>
+    </c:LeftRightMargin>
+</UserControl>

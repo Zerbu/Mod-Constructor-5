@@ -3,6 +3,7 @@
     <V t="specified" n="ages">
       <L n="specified">
         <IfBool p="AllowBaby"><E>BABY</E></IfBool>
+        <IfBool p="AllowInfant"><E>INFANT</E></IfBool>
         <IfBool p="AllowToddler"><E>TODDLER</E></IfBool>
         <IfBool p="AllowChild"><E>CHILD</E></IfBool>
         <IfBool p="AllowTeen"><E>TEEN</E></IfBool>

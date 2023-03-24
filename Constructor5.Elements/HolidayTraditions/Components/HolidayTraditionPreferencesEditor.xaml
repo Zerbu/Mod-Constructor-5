@@ -76,6 +76,10 @@
 
                     <StackPanel Visibility="{Binding SelectedItem, ElementName=ListView, Converter={StaticResource NotNullToVis}}">
                         <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}" Orientation="Horizontal">
+                            <c:Button x:Name="PresetInfantButton"
+                                      Margin="2"
+                                      Click="PresetInfantButton_Click"
+                                      Content="PresetInfant" />
                             <c:Button x:Name="PresetToddlerButton"
                                       Margin="2"
                                       Click="PresetToddlerButton_Click"

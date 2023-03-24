@@ -1,5 +1,6 @@
 using Constructor5.Base.ElementSystem;
 using Constructor5.Base.ProjectSystem;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -36,7 +37,16 @@ namespace Constructor5.Base.ExportSystem.Tuning.Utilities
             return result;
         }
 
-        public static ulong GetInstanceKeyFromName(Element element, string suffix) => FNVHasher.FNV32(GetFullName(element, suffix), true);
+        public static ulong GetInstanceKeyFromName(Element element, string suffix)
+        {
+            var result = FNVHasher.FNV32(GetFullName(element, suffix), true);
+            if (element.Force31BitKey)
+            {
+                var intResult = (int)result;
+                result = (uint)Math.Abs(intResult);
+            }
+            return (ulong)result;
+        }
 
         public static ulong[] GetInstanceKeys(Reference reference)
         {

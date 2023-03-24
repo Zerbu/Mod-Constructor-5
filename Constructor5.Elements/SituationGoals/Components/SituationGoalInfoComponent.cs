@@ -16,6 +16,7 @@ namespace Constructor5.Elements.SituationGoals.Components
 
         public int Cooldown { get; set; }
         public STBLString Description { get; set; } = new STBLString();
+        public STBLString ContextlessDescription { get; set; } = new STBLString();
         public ElementIcon Icon { get; set; } = new ElementIcon();
         public bool IsHidden { get; set; }
         public int Iterations { get; set; } = 1;
@@ -26,6 +27,7 @@ namespace Constructor5.Elements.SituationGoals.Components
         public bool SetCooldown { get; set; }
         public bool SetIterations { get; set; }
         public bool SetScore { get; set; }
+        public bool ShowLocation { get; set; }
 
         protected internal override void OnExport(SituationGoalExportContext context)
         {
@@ -82,6 +84,11 @@ namespace Constructor5.Elements.SituationGoals.Components
             if (IsHidden)
             {
                 context.Tuning.Set<TunableBasic>("is_visible", "False");
+            }
+
+            if (ShowLocation)
+            {
+                context.Tuning.Set<TunableBasic>("_persist_zone", "True");
             }
         }
 

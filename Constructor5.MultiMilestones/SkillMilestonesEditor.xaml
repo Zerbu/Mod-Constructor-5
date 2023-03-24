@@ -1,0 +1,51 @@
+﻿<UserControl
+    x:Class="Constructor5.MultiMilestones.SkillMilestonesEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.MultiMilestones"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <c:LeftRightMargin>
+        <StackPanel>
+            <c:Field Label="{}{nl}Skill" LabelWidth="100">
+                <c:ReferenceControl ElementTypeName="Skill" Reference="{Binding Skill}" />
+            </c:Field>
+            <c:Field Label="{}{nl}Icon" LabelWidth="100">
+                <c:IconControl Icon="{Binding Icon}" />
+            </c:Field>
+            <c:Field Label="{}{nl}Skill Name" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding SkillName}" />
+            </c:Field>
+            <c:Button
+                x:Name="QuickSetButton"
+                Click="QuickSetButton_Click"
+                Content="{}{nl}Quick Set" />
+            <c:Field Label="{}{nl}Max Level" LabelWidth="100">
+                <xctk:IntegerUpDown Text="{Binding LevelMax}" />
+            </c:Field>
+            <c:Field Label="{}{nl}Name on learn" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding NameMin}" />
+            </c:Field>
+            <c:Field Label="{}{nl}Name on level up" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding Name}" />
+            </c:Field>
+            <c:Field Label="{}{nl}Name on max" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding NameMax}" />
+            </c:Field>
+            <c:Field Label="{}{nl}Description on learn" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding DescriptionMin}" />
+            </c:Field>
+            <c:Field Label="{}{nl}Description on level up" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding Description}" />
+            </c:Field>
+            <c:Field Label="{}{nl}Description on max" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding DescriptionMax}" />
+            </c:Field>
+        </StackPanel>
+    </c:LeftRightMargin>
+</UserControl>

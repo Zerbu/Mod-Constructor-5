@@ -4627,6 +4627,12 @@
   <Preset Label="buff_ThrowFootball_HiddenBall_Reward" Value="285959" />
   <Preset Label="buff_WerewolfPack_Discipline_Warning_Diplomacy" Value="286087" />
   <Preset Label="Pack Probation! (buff_WerewolfPack_Discipline_Probation)" Value="286088" />
+  <Preset Label="buff_Infants_Elements_Hiccups_Idle" Value="286117" />
+  <Preset Label="Gas Trouble (buff_Infants_Elements_Gassy_GasTrouble)" Value="286118" />
+  <Preset Label="buff_Infants_Elements_Sneeze_Trait" Value="286119" />
+  <Preset Label="buff_Infants_Elements_SelfSoother" Value="286120" />
+  <Preset Label="buff_Infants_Elements_Talker_Trait" Value="286121" />
+  <Preset Label="buff_Infants_Elements_ObsessedWithSound" Value="286125" />
   <Preset Label="Report to Pack Leader (buff_WerewolfPack_Discipline_ReportToLeader)" Value="286152" />
   <Preset Label="buff_WerewolfPack_Discipline_StrongWarning_Diplomacy" Value="286153" />
   <Preset Label="buff_WerewolfPack_Discipline_Warning_ExpandExplore" Value="286195" />
@@ -4637,12 +4643,16 @@
   <Preset Label="buff_WerewolfPack_Discipline_StrongWarning_PackParticipation" Value="286203" />
   <Preset Label="buff_WerewolfPack_Discipline_StrongWarning_SelfImprovement" Value="286204" />
   <Preset Label="buff_WerewolfPack_Discipline_StrongWarning_SelfSufficiency" Value="286205" />
+  <Preset Label="Parental Pressure (buff_Infant_SimSocials_BabyWorry)" Value="286216" />
+  <Preset Label="Babyless Bliss (buff_Infant_SimSocial_BabylessBiss)" Value="286217" />
+  <Preset Label="Parental Pressure (buff_Infant_SimSocial_ParentalPressure)" Value="286218" />
   <Preset Label="Botched Concealment (buff_PubertyChanges_Concealer_Fail)" Value="286275" />
   <Preset Label="buff_PubertyChanges_Concealer_Success_Hidden" Value="286276" />
   <Preset Label="buff_FashionMarketplace_WearingOutfit" Value="286292" />
   <Preset Label="buff_Fear_Homework_ConfrontationProgress" Value="286298" />
   <Preset Label="Proud Parent (buff_Infant_SimSocial_Proud)" Value="286343" />
   <Preset Label="Baby Envy (buff_Infant_SimSocial_Jealous)" Value="286345" />
+  <Preset Label="Sweet Siblings (buff_Infant_SimSocials_SweetSiblings)" Value="286414" />
   <Preset Label="Puberty! (buff_PubertyChanges_Growth_FirstTime)" Value="286424" />
   <Preset Label="Growing Out of Control (buff_PubertyChanges_Growth_Acne)" Value="286425" />
   <Preset Label="Won't Bring Me Down (buff_PubertyChanges_Support)" Value="286426" />
@@ -4678,6 +4688,8 @@
   <Preset Label="buff_WerewolfPack_JoinTrial_GaveCollectable_PackA" Value="287566" />
   <Preset Label="buff_WerewolfPack_JoinTrial_GaveFood_PackB" Value="287567" />
   <Preset Label="buff_WerewolfPack_JoinTrial_GaveCollectable_PackB" Value="287568" />
+  <Preset Label="buff_InfantMilestone_Main" Value="287573" />
+  <Preset Label="buff_InfantMilestone_SitUp" Value="287574" />
   <Preset Label="Didn't Read The Room (buff_FashionMarketplace_DidntReadTheRoom)" Value="287585" />
   <Preset Label="Fashion Empire Growing (buff_FashionMarketplace_FashionEmpireGrowing)" Value="287589" />
   <Preset Label="Style Rejection (buff_FashionMarketplace_StyleRejection)" Value="287593" />
@@ -4739,6 +4751,7 @@
   <Preset Label="buff_Role_HSGraduation_Pleasantries" Value="288491" />
   <Preset Label="buff_Role_HSGraduation_ThrowCap" Value="288503" />
   <Preset Label="Big Sad Wolf (buff_Sentiment_Guilty_BigSadWolf)" Value="288506" />
+  <Preset Label="buff_InfantMilestone_NotSitingUp" Value="288538" />
   <Preset Label="buff_Werewolf_RabbitholeCooldown" Value="288570" />
   <Preset Label="buff_WolfTown_Adventure_ExitMine" Value="288575" />
   <Preset Label="buff_WolfTown_Adventure_ExitPorta" Value="288580" />
@@ -4780,6 +4793,7 @@
   <Preset Label="buff_WolfTown_Adventure_HasExploredForAWhile" Value="288839" />
   <Preset Label="Beastly Presence (buff_Werewolf_NearTransformedWerewolf)" Value="288846" />
   <Preset Label="buff_Role_Highschool_Active_Player_AfterSchool" Value="288882" />
+  <Preset Label="buff_Infant_Trait_Gassy_Released" Value="288901" />
   <Preset Label="buff_Werewolf_Role_ShowWereForm" Value="288997" />
   <Preset Label="moodBuffs_Lunarcycle_Moonbathe_RecentMoonbathe" Value="289022" />
   <Preset Label="Wolfshine (moodBuffs_Lunarcycle_Moonbathe_Wolfshine)" Value="289023" />
@@ -5354,6 +5368,7 @@
   <Preset Label="buff_WolfTown_Portal_AllowanceFlag_Temp_SewerMine" Value="301020" />
   <Preset Label="buff_Scenario__ProudParent_TeenTNSGiven" Value="301064" />
   <Preset Label="buff_HSProm_WatchAwards" Value="301076" />
+  <Preset Label="buff_Role_BabyShower_Guest" Value="301105" />
   <Preset Label="buff_WantFear_LikedMusic_ListenTo_Alternative" Value="301398" />
   <Preset Label="buff_WantFear_LikedMusic_ListenTo_Blues" Value="301402" />
   <Preset Label="buff_WantFear_LikedMusic_ListenTo_Classical" Value="301403" />
@@ -5392,10 +5407,12 @@
   <Preset Label="buff_Role_HighSchool_Active_Base_Faculty" Value="302783" />
   <Preset Label="buff_BedUpdates_StayInSitOnGround" Value="302784" />
   <Preset Label="buff_HSGraduation_WaitingForGiveDiploma" Value="302812" />
+  <Preset Label="buff_Region_Generic_BayArea" Value="302933" />
   <Preset Label="buff_Social_Media_Application_Disable" Value="303000" />
   <Preset Label="buff_AutonomyMod_PairedDancing_Stereo" Value="303076" />
   <Preset Label="buff_PubertyChanges_HasAcne" Value="303135" />
   <Preset Label="buff_HSProm_Crown_Autonomy" Value="303165" />
+  <Preset Label="buff_TemporaryStay_Hidden_Guest" Value="303300" />
   <Preset Label="buff_HSProm_GotPromTNS" Value="303561" />
   <Preset Label="buff_HighSchool_Active_Patrol_Cooldown_Bathroom" Value="303587" />
   <Preset Label="buff_HighSchool_Active_Patrol_Cooldown_Cafeteria" Value="303588" />
@@ -5410,6 +5427,14 @@
   <Preset Label="buff_Role_HighSchool_Active_NPC_AttendExamPrep" Value="304066" />
   <Preset Label="buff_Role_HighSchool_Active_NPC_TeachExamPrep" Value="304082" />
   <Preset Label="buff_AutonomyMod_NoCleaningDesks" Value="304086" />
+  <Preset Label="buff_Burnout_Hidden_CreativeTracker_IncreaseLarge" Value="304276" />
+  <Preset Label="Creative Fog (buff_Burnout_FogCreative)" Value="304277" />
+  <Preset Label="Splash Pad Shenanigans (buff_Splashpad_Shenanigans)" Value="304323" />
+  <Preset Label="Water is Wet! (buff_Splashpad_WaterWet)" Value="304324" />
+  <Preset Label="Splashy, Splash, Splash (buff_Splashpad_Stomped)" Value="304325" />
+  <Preset Label="Rage against the Water (buff_Splashpad_AngryStomp)" Value="304326" />
+  <Preset Label="Deluge (buff_Splashpad_Rainy)" Value="304327" />
+  <Preset Label="Cold on Cold (buff_Splashpad_ColdWeather)" Value="304328" />
   <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_CareerDay2" Value="304416" />
   <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_CareerDay3" Value="304417" />
   <Preset Label="buff_Role_HighSchool_Active_NPC_CareerDay_DisallowPrerollWatch" Value="304431" />
@@ -5434,13 +5459,132 @@
   <Preset Label="buff_PubertyChanges_CurrentlyShaving_BG" Value="305278" />
   <Preset Label="buff_Role_HSGraduation_CleanUpOutfits" Value="305318" />
   <Preset Label="Craving New Flavors (buff_Infant_BabyFeed_CravingNewFlavor)" Value="305360" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_WaterLover" Value="305555" />
+  <Preset Label="Action-Fueled Jitters (buff_MovieTheater_WatchedAction_Liked)" Value="305572" />
   <Preset Label="Stinky Diaper (buff_Infant_StinkyDiaper_Target)" Value="305678" />
+  <Preset Label="Epic Baby Name (buff_BabyShower_GoodBabyName)" Value="305695" />
+  <Preset Label="Terrible Baby Name (buff_BabyShower_BadBabyName)" Value="305696" />
+  <Preset Label="Where's the Action?  (buff_MovieTheater_WatchedAction_Disliked)" Value="305729" />
+  <Preset Label="Swoons Galore! (buff_MovieTheater_WatchedRomance_Liked)" Value="305730" />
+  <Preset Label="All the LOLs (buff_MovieTheater_WatchedComedy_Liked)" Value="305731" />
+  <Preset Label="Baby Shower Bliss (buff_BabyShower_AttendShower)" Value="305762" />
+  <Preset Label="Everything's Babies! (buff_BabyShower_TooMuchBaby)" Value="305763" />
+  <Preset Label="Unwanted Advice (buff_BabyShower_UnwantedAdvice)" Value="305764" />
+  <Preset Label="Boooo! Bored. (buff_MovieTheater_WatchedComedy_Disliked)" Value="305772" />
+  <Preset Label="Lights! Camera! Drama!  (buff_MovieTheater_WatchedDrama_Liked)" Value="305773" />
+  <Preset Label="Drama Drivel  (buff_MovieTheater_WatchedDrama_Disliked)" Value="305774" />
+  <Preset Label="Fun Flick (buff_MovieTheater_WatchedKids_Liked)" Value="305775" />
+  <Preset Label="Unfun Flick (buff_MovieTheater_WatchedKids_Disliked)" Value="305776" />
+  <Preset Label="Thrilling Theater (buff_MovieTheater_WatchedHorror_Liked)" Value="305777" />
+  <Preset Label="Unfazed by Movie  (buff_MovieTheater_WatchedHorror_Disliked)" Value="305778" />
+  <Preset Label="Rigid Romance (buff_MovieTheater_WatchedRomance_Disliked)" Value="305779" />
+  <Preset Label="Lovey-Dovey Movie (buff_MovieTheater_WatchedRomance_Liked_Child)" Value="305828" />
+  <Preset Label="Shhhh-uccess! (buff_MovieTheater_ShushShamer_Confident)" Value="305929" />
   <Preset Label="My Kid Can Ride a Bike! (buff_Vehicle_Bike_Riding_KidsBike_TaughtToRide)" Value="305931" />
   <Preset Label="I Can Ride a Bike! (buff_Vehicle_Bike_Riding_KidsBike_ChildCanNowRide)" Value="305932" />
   <Preset Label="I'll Never Get Better at This! (buff_Vehicle_Bike_Riding_KidsBike_NeverGetBetter)" Value="305933" />
   <Preset Label="Biking is &lt;i&gt;Hard&lt;/i&gt;! (buff_Vehicle_Bike_Riding_KidsBike_BikingIsHard)" Value="305934" />
+  <Preset Label="Shhhh-ame... (buff_MovieTheater_ShushShamer_Embarrassed)" Value="305950" />
+  <Preset Label="buff_MovieTheater_Banned" Value="305952" />
+  <Preset Label="No Snacks, No Fun (buff_MovieTheater_LetsGoOutToTheLobby_Sad)" Value="305953" />
+  <Preset Label="Clear Viewing (buff_MovieTheater_Talltastrophe_Happy)" Value="305954" />
+  <Preset Label="Tall-Tastrophe (buff_MovieTheater_Talltastrophe_Uncomfortable)" Value="305955" />
+  <Preset Label="buff_MovieTheater_ChanceCard_EnjoymentUp" Value="305956" />
+  <Preset Label="buff_MovieTheater_ChanceCard_EnjoymentDown" Value="305957" />
+  <Preset Label="buff_JobLoss_Layoff_Cooldown" Value="306066" />
+  <Preset Label="buff_JobLoss_Layoff_Chance" Value="306067" />
+  <Preset Label="Sting of Rejection (buff_LifeMilestone_EngagmentRejectedHere)" Value="306138" />
+  <Preset Label="Bitter Memory (buff_LifeMilestone_CaughtCheaterHere_Sad)" Value="306139" />
+  <Preset Label="Bitter Memory (buff_LifeMilestone_CaughtCheaterHere_Angry)" Value="306140" />
+  <Preset Label="Astraphobic (buff_LifeMilestone_StruckByLightningHere)" Value="306141" />
+  <Preset Label="Close Encounters (buff_LifeMilestone_AbductedByAliensHere_Energized)" Value="306142" />
+  <Preset Label="Close Encounters (buff_LifeMilestone_AbductedByAliensHere_Scared)" Value="306143" />
+  <Preset Label="Bladder Blunder (buff_LifeMilestone_FirstBladderFailHere)" Value="306144" />
+  <Preset Label="Pyro No (buff_LifeMilestone_FirstFireHere)" Value="306145" />
+  <Preset Label="Marital Bliss (buff_LifeMilestone_GotMarriedHere_Positive)" Value="306146" />
+  <Preset Label="Climbing the Ladder (buff_LifeMilestone_FirstPromotion)" Value="306147" />
+  <Preset Label="Ok, I Guess? (buff_LifeMilestone_ChildDrawings_OkIGuess)" Value="306149" />
+  <Preset Label="Cringe Keepsake (buff_LifeMilestone_ChildDrawings_CringeKeepsake)" Value="306150" />
+  <Preset Label="A Terrible Reminder (buff_LifeMilestone_ChildDrawings_TerribleReminder)" Value="306151" />
+  <Preset Label="What Imagination! (buff_LifeMilestone_ChildDrawings_WhatImagination_Parent)" Value="306152" />
+  <Preset Label="What Imagination! (buff_LifeMilestone_ChildDrawings_WhatImagination_Inspired)" Value="306153" />
+  <Preset Label="What Imagination! (buff_LifeMilestone_ChildDrawings_WhatImagination_Playful)" Value="306154" />
+  <Preset Label="Big Kid (buff_LifeMilestone_BabyKeepsake_BigKid)" Value="306156" />
+  <Preset Label="My Baby (buff_LifeMilestone_BabyKeepsake_MyBaby)" Value="306157" />
+  <Preset Label="Why Did I Keep This? (buff_LifeMilestone_BabyKeepsake_WhyDidIKeepThis)" Value="306158" />
+  <Preset Label="Happy Marriage (buff_LifeMilestone_MarriageCertificate_Happy)" Value="306160" />
+  <Preset Label="Tense Marriage (buff_LifeMilestone_MarriageCertificate_Tense)" Value="306161" />
+  <Preset Label="Not Meant for Marriage (buff_LifeMilestone_MarriageCertificate_NotMeantForMarriage)" Value="306162" />
+  <Preset Label="Marriage of Mistakes (buff_LifeMilestone_MarriageCertificate_MarriageOfMistakes)" Value="306163" />
+  <Preset Label="Looming Layoff (buff_JobLoss_Layoff_Looming)" Value="306346" />
+  <Preset Label="Work on Display (buff_LifeMilestone_ChildDrawings_WorkOnDisplay)" Value="306378" />
+  <Preset Label="buff_JobLoss_Layoff_SlackOffBoost" Value="306500" />
+  <Preset Label="buff_JobLoss_Layoff_WorkHarderBoost" Value="306501" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_Aggressive" Value="306540" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_AudioLover" Value="306541" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_LovesCarry" Value="306544" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_Singer" Value="306549" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_BookLover" Value="306550" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_Destructive" Value="306551" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_GoodAppetite" Value="306553" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_HatesBedtime" Value="306554" />
+  <Preset Label="buff_FamilyDynamics_FamilyTropeAdventureCooldown" Value="306626" />
   <Preset Label="&lt;b&gt;Sick Tricks&lt;/b&gt; (buff_Vehicle_Bike_Riding_KidsBike_SickTricks)" Value="306664" />
+  <Preset Label="buff_Burnout_Hidden_CreativeTracker" Value="306676" />
+  <Preset Label="Player Feats (buff_Burnout_Hidden_TimerFogCreative)" Value="306678" />
+  <Preset Label="Burned Out (buff_Burnout_BurnedOut)" Value="306680" />
+  <Preset Label="buff_Burnout_Hidden_CreativeTracker_IncreaseSmall" Value="306713" />
+  <Preset Label="buff_Burnout_Hidden_CreativeTracker_DecreaseLarge" Value="306714" />
+  <Preset Label="buff_Burnout_Hidden_CreativeTracker_DecreaseSmall" Value="306715" />
   <Preset Label="I Can't Concentrate on Riding! (buff_Vehicle_Bike_Riding_KidsBike_CantConcentrate)" Value="306734" />
+  <Preset Label="Mental Fog (buff_Burnout_FogMental)" Value="306746" />
+  <Preset Label="A Clear Mind (buff_Burnout_ClearMind_Happy)" Value="306747" />
+  <Preset Label="buff_Burnout_Hidden_MentalTracker" Value="306750" />
+  <Preset Label="Player Feats (buff_Burnout_Hidden_TimerFogMental)" Value="306753" />
+  <Preset Label="Brain Block (buff_Burnout_MentalBlock)" Value="306776" />
+  <Preset Label="buff_Burnout_Hidden_MentalTracker_DecreaseLarge" Value="306779" />
+  <Preset Label="buff_Burnout_Hidden_MentalTracker_DecreaseSmall" Value="306780" />
+  <Preset Label="buff_Burnout_Hidden_MentalTracker_IncreaseLarge" Value="306781" />
+  <Preset Label="I've Got This (buff_Confidence_High_IveGotThis)" Value="306784" />
+  <Preset Label="I Believe in Me (buff_Confidence_High_IBelieveInMe)" Value="306785" />
+  <Preset Label="Learning from Mistakes (buff_Confidence_High_LearningFromMistakes)" Value="306786" />
+  <Preset Label="Confidence Boost (buff_Confidence_High_ConfidenceBoost)" Value="306787" />
+  <Preset Label="I Can't (buff_Confidence_Neutral_ICannot)" Value="306790" />
+  <Preset Label="I Can (buff_Confidence_Neutral_ICan)" Value="306791" />
+  <Preset Label="I'll Never (buff_Confidence_Low_IllNever)" Value="306792" />
+  <Preset Label="Crushed (buff_Confidence_Low_Crushed)" Value="306793" />
+  <Preset Label="buff_Hidden_Confidence_Child_High" Value="306794" />
+  <Preset Label="buff_Burnout_Hidden_MentalTracker_IncreaseSmall" Value="306802" />
+  <Preset Label="Player Feats (buff_Burnout_Hidden_TimerBurnedOut)" Value="306803" />
+  <Preset Label="A Clear Mind (buff_Burnout_ClearMind_Fine)" Value="306861" />
+  <Preset Label="buff_TemporaryStay_Hidden_HelpBoost" Value="307215" />
+  <Preset Label="buff_TemporaryStay_Hidden_StopHelping" Value="307216" />
+  <Preset Label="Family Bonds (buff_TemporaryStay_FamilyBonds)" Value="307217" />
+  <Preset Label="Cool Lineage! (buff_TemporaryStay_CoolLineage)" Value="307218" />
+  <Preset Label="Family Forever! (buff_TemporaryStay_FamilyForever)" Value="307219" />
+  <Preset Label="The Meaning of Family (buff_TemporaryStay_MeaningOfFamily)" Value="307220" />
+  <Preset Label="The Meaning of Family (buff_TemporaryStay_MeaningOfFamily_Toddler)" Value="307222" />
+  <Preset Label="Grandparental Love (buff_TemporaryStay_GrandparentLove)" Value="307224" />
+  <Preset Label="Devastating Layoff (buff_JobLoss_Layoff_Devastating)" Value="307295" />
+  <Preset Label="I Never Needed This Job (buff_JobLoss_Layoff_NeverNeededThisJob)" Value="307296" />
+  <Preset Label="Between Jobs (buff_JobLoss_Layoff_BetweenJobs)" Value="307297" />
+  <Preset Label="buff_Child_Confidence_Hidden_Affordance_School" Value="307430" />
+  <Preset Label="buff_Child_Confidence_Hidden_Affordance_Homework" Value="307431" />
+  <Preset Label="buff_Child_Confidence_Hidden_Affordance_Creativity" Value="307432" />
+  <Preset Label="buff_Child_Confidence_Hidden_Affordance_Mental" Value="307433" />
+  <Preset Label="buff_Child_Confidence_Hidden_Affordance_Motor" Value="307434" />
+  <Preset Label="buff_Child_Confidence_Hidden_Affordance_Social" Value="307435" />
+  <Preset Label="Feeling Discouraged (buff_Confidence_FeelingDiscouraged)" Value="307441" />
+  <Preset Label="Unfair Criticism (buff_Confidence_UnfairCriticism)" Value="307442" />
+  <Preset Label="Feeling Encouraged (buff_Confidence_FeelingEncouraged)" Value="307443" />
+  <Preset Label="Belief Breeds Confidence (buff_Confidence_BeliefBreedsConfidence)" Value="307444" />
+  <Preset Label="Supported Drive (buff_Confidence_SupportedDrive)" Value="307445" />
+  <Preset Label="In Good Company (buff_TemporaryStay_GoodCompany)" Value="307448" />
+  <Preset Label="Awkward Tension (buff_TemporaryStay_AwkwardTension)" Value="307449" />
+  <Preset Label="It's Nice Seeing Parents (buff_TemporaryStay_NiceSeeingParents)" Value="307450" />
+  <Preset Label="It's Nice Seeing Grandparents (buff_TemporaryStay_NiceSeeingGrandparents)" Value="307451" />
+  <Preset Label="It's Nice Seeing Friends (buff_TemporaryStay_NiceSeeingFriends)" Value="307452" />
+  <Preset Label="It's Nice Seeing Family (buff_TemporaryStay_NiceSeeingFamily)" Value="307453" />
   <Preset Label="buff_Infant_HighChair_LastFoodEaten_Yogurt" Value="307630" />
   <Preset Label="buff_Infant_HighChair_LastFoodEaten_Applesauce" Value="307631" />
   <Preset Label="buff_Infant_HighChair_LastFoodEaten_CrushedCarrots" Value="307632" />
@@ -5459,15 +5603,52 @@
   <Preset Label="buff_Infant_HighChair_LastFoodEaten_SmashedAvocado" Value="307645" />
   <Preset Label="buff_Infant_HighChair_LastFoodEaten_PapayaPaste" Value="307646" />
   <Preset Label="buff_Infant_HighChair_LastFoodEaten_MashedPeas" Value="307647" />
+  <Preset Label="buff_TemporaryStay_Hidden_FamilyReunion" Value="307725" />
   <Preset Label="buff_JobLoss_RecentlyLostJob" Value="307761" />
   <Preset Label="buff_Scenario_ParentingPredicaments_AgedUp" Value="307947" />
+  <Preset Label="They are So Brilliant (buff_Fear_Inferior_Effects_BrillianceProximity)" Value="307978" />
+  <Preset Label="How Will I Measure Up?  (buff_Fear_Inferior_Effects_SadWakeUp)" Value="307979" />
+  <Preset Label="buff_TemporaryStay_Hidden_GuestHelp" Value="308110" />
+  <Preset Label="buff_Fear_ConfrontFearSuccess_ConfidenceGain" Value="308140" />
+  <Preset Label="buff_Role_BabyShower_Host" Value="308220" />
+  <Preset Label="Get Them Out of Here! (buff_TemporaryStay_GetThemOut)" Value="308306" />
   <Preset Label="buff_Scenario_ParentingPredicaments_AgeUp_InQueue" Value="308323" />
+  <Preset Label="The Assembler (buff_recreationTable_puzzles_finishedPuzzle)" Value="308437" />
+  <Preset Label="Snoozefest (buff_recreationTable_puzzles_bored)" Value="308438" />
+  <Preset Label="Piece Out (buff_recreationTable_puzzles_pieceOut)" Value="308439" />
+  <Preset Label="Stole the Finish (buff_recreationTable_puzzles_replaceFinalPiece)" Value="308440" />
+  <Preset Label="buff_Burnout_Hidden_OnVacation" Value="308561" />
   <Preset Label="buff_Trait_ProfessionalSlacker" Value="308566" />
   <Preset Label="buff_Trait_Carefree" Value="308568" />
+  <Preset Label="Shattered Piece (buff_recreationTable_puzzles_otherSmashed)" Value="308571" />
+  <Preset Label="Disassembled Emotions (buff_recreationTable_puzzles_smashed)" Value="308572" />
+  <Preset Label="Pity Pizza (buff_JobLoss_Layoff_PityPizza)" Value="308584" />
+  <Preset Label="Promising Pizza (buff_JobLoss_Layoff_PromisingPizza)" Value="308585" />
+  <Preset Label="Treehouse Adventures (buff_Treehouse_TreehouseAdventures)" Value="308591" />
+  <Preset Label="buff_WorkRival_Cooldown" Value="308711" />
+  <Preset Label="buff_Hidden_ChildSkill_IdeaPerson" Value="308738" />
+  <Preset Label="buff_Proximity_Trait_ChildSkill_PackAnimal" Value="308831" />
+  <Preset Label="buff_Trait_ChildSkill_Headstrong" Value="308832" />
+  <Preset Label="buff_Trait_ChildSkill_PackAnimal_Mentor" Value="308833" />
+  <Preset Label="buff_JobLoss_ConsoleCooldown" Value="308844" />
+  <Preset Label="buff_JobLoss_LookingForWorkPostCooldown" Value="308845" />
+  <Preset Label="buff_Role_BabyShower_Guest_NPC" Value="308982" />
+  <Preset Label="Guilty Saboteur (buff_WorkRival_GuiltySaboteur)" Value="309021" />
+  <Preset Label="Satisfied Saboteur (buff_WorkRival_SatisfiedSaboteur)" Value="309022" />
   <Preset Label="buff_Hidden_Scenario_StuckInTheirShadow_3_ImproveWorsen_Active" Value="309102" />
+  <Preset Label="buff_WantFear_ConfrontationSuccess_Inferior_BePraised" Value="309265" />
+  <Preset Label="buff_WantFear_ConfrontationoSuccess_Inferior_BePraised_Partial" Value="309266" />
+  <Preset Label="Simble-ism (buff_recreationTable_simblesDominoes_win)" Value="309427" />
+  <Preset Label="Mismatched Expectations (buff_recreationTable_simblesDominoes_lose)" Value="309428" />
   <Preset Label="buff_Infant_Crawling_LevelTwo" Value="309449" />
   <Preset Label="buff_Infant_Crawling_LevelOne" Value="309450" />
+  <Preset Label="Epically Empowered (buff_Sentiment_Motivating_Confident_EpicallyInspired)" Value="309532" />
+  <Preset Label="Epically Energized (buff_Sentiment_Motivating_Energized_Primary_EpicallyInspired)" Value="309533" />
+  <Preset Label="Epically Motivated (buff_Sentiment_Motivating_Focused_EpicallyInspired)" Value="309534" />
+  <Preset Label="buff_AutonomyMod_BabyShower_Bartender" Value="309657" />
   <Preset Label="buff_Infant_Hidden_StinkyDiaper_Actor" Value="309713" />
+  <Preset Label="buff_TemporaryStay_Hidden_WelcomeMe" Value="310003" />
+  <Preset Label="buff_TemporaryStay_Hidden_Goodbye" Value="310008" />
   <Preset Label="buff_MoveIn_AskCooldown" Value="310049" />
   <Preset Label="buff_PhoneIdleCooldown" Value="310164" />
   <Preset Label="buff_NPCRelationshipAutonomy_Hidden_Target_BestFriend" Value="310218" />
@@ -5476,24 +5657,70 @@
   <Preset Label="buff_NPCRelationshipAutonomy_Hidden_Target_Breakup" Value="310221" />
   <Preset Label="buff_NPCRelationshipAutonomy_Hidden_Target_Propose" Value="310222" />
   <Preset Label="buff_NPCRelationshipAutonomy_Hidden_Target_BoyfriendGirlfriend" Value="310223" />
+  <Preset Label="buff_MoveIn_Recent" Value="310401" />
+  <Preset Label="buff_AutonomyMod_MoveIn" Value="310404" />
+  <Preset Label="LLAMA! BERRY! BLAST! (buff_TemporaryStay_PowerSipLlamaBerry)" Value="310415" />
+  <Preset Label="buff_BabyShower_Gift_Cooldown" Value="310458" />
   <Preset Label="buff_Infant_Crawling_RouteEvent_ReactShocked" Value="310631" />
+  <Preset Label="Gloom and Doom (buff_TemporaryStay_Gloomy)" Value="310694" />
+  <Preset Label="Gloomy Presence (buff_TemporaryStay_GloomyPresence)" Value="310696" />
+  <Preset Label="Whose Kid is This?? (buff_TemporaryStay_WhoseKidIsThis)" Value="310698" />
+  <Preset Label="buff_TemporaryStay_Hidden_SummonSnacksCooldown" Value="311088" />
+  <Preset Label="Careers (buff_Splashpad_Statistic)" Value="311089" />
+  <Preset Label="Assured of New Job (buff_JobLoss_Layoff_AssuredOfNewJob)" Value="311100" />
   <Preset Label="buff_Trait_Loyal" Value="311268" />
+  <Preset Label="Grown Up Problems (buff_LifeMilestone_BabyKeepsake_Sad)" Value="311461" />
+  <Preset Label="Better With Age (buff_LifeMilestone_BabyKeepsake_Happy)" Value="311463" />
+  <Preset Label="buff_TemporaryStay_Hidden_SpecialBehaviorCooldown" Value="311524" />
+  <Preset Label="buff_groupWalkingTrail_routeEvent_walk" Value="311536" />
+  <Preset Label="buff_groupWalkingTrail_routeEvent_powerWalk" Value="311537" />
+  <Preset Label="buff_groupWalkingTrail_preventImmediateScoring" Value="311561" />
   <Preset Label="Careers (buff_LifeMilestone_Hidden_CareerMaxLevel)" Value="311611" />
   <Preset Label="Careers (buff_LifeMilestone_Hidden_CareerMaxLevel_AfterSchoolActivity)" Value="311612" />
+  <Preset Label="Fresh Tush! (buff_Infant_FreshlyDiapered)" Value="311691" />
+  <Preset Label="Diaper Change Disaster (buff_Sim_ChangeDiaper_DiaperDisaster)" Value="311692" />
   <Preset Label="What Have I Done (buff_Trait_Loyal_CheatingSecretGuilt)" Value="311761" />
   <Preset Label="Broken Trust (buff_Trait_Loyal_CheatingConfessed)" Value="311762" />
   <Preset Label="Trust Rebuilt (buff_Trait_Loyal_TrustRebuilt)" Value="311763" />
   <Preset Label="I Must Confess! (buff_Trait_Loyal_CheatingGuiltReminder)" Value="311764" />
+  <Preset Label="Ups and Downs (buff_LifeMilestone_UpsAndDowns)" Value="311889" />
+  <Preset Label="Smooth Sailing (buff_LifeMilestone_SmoothSailing)" Value="311891" />
+  <Preset Label="Hated and Proud of It (buff_LifeMilestone_ManyEnemiesPositive)" Value="311892" />
+  <Preset Label="Hated and Sad About It (buff_LifeMilestone_ManyEnemiesNegative)" Value="311893" />
+  <Preset Label="Real Treasure (buff_LifeMilestone_ManyFriends)" Value="311894" />
+  <Preset Label="Revived! (buff_LifeMilestone_Revived)" Value="311895" />
+  <Preset Label="Next Adventure (buff_LifeMilestone_NextAdventure)" Value="311896" />
+  <Preset Label="Pro-Professional (buff_LifeMilestone_ProProfessional)" Value="311910" />
+  <Preset Label="Resilient (buff_LifeMilestone_Resilient)" Value="311911" />
+  <Preset Label="Underachieving? (buff_LifeMilestone_Underachieving)" Value="311912" />
+  <Preset Label="Let Me Forget (buff_LifeMilestone_LetMeForget)" Value="311913" />
+  <Preset Label="Careers (buff_LifeMilestone_Hidden_ReflectionCooldown)" Value="311914" />
+  <Preset Label="Cumbersome Crawl (buff_groupWalkingTrail_walkAroundWith_member_rewards_tin)" Value="311959" />
+  <Preset Label="Passable Promenade (buff_groupWalkingTrail_walkAroundWith_member_rewards_bronze)" Value="311960" />
+  <Preset Label="Joyous Jaunt (buff_groupWalkingTrail_walkAroundWith_member_rewards_silverGold)" Value="311961" />
+  <Preset Label="Tanked Trek (buff_groupWalkingTrail_walkAroundWith_leader_rewards_tin)" Value="311962" />
+  <Preset Label="At Least it was Scenic?  (buff_groupWalkingTrail_walkAroundWith_leader_rewards_bronze)" Value="311963" />
+  <Preset Label="Talked the Talk (buff_groupWalkingTrail_walkAroundWith_leader_rewards_silverGold)" Value="311964" />
+  <Preset Label="What a Slog! (buff_groupWalkingTrail_soloWalk_rewards_tin)" Value="311965" />
+  <Preset Label="Scenic Walk (buff_groupWalkingTrail_soloWalk_rewards_bronze)" Value="311966" />
+  <Preset Label="Enjoying the Park (buff_groupWalkingTrail_soloWalk_rewards_silverGold)" Value="311967" />
   <Preset Label="Coming Clean (buff_Trait_Loyal_TrashTalkingConfessed)" Value="312042" />
   <Preset Label="Stabbed in the Back (buff_Trait_Loyal_TrashTalkingGuilt)" Value="312043" />
   <Preset Label="Not on My Watch! (buff_Trait_Loyal_WitnessedMeanBully)" Value="312055" />
   <Preset Label="Can't We All Get Along? (buff_Trait_Loyal_WitnessedMeanFriend)" Value="312056" />
   <Preset Label="Heartbreaking Revelation (buff_Trait_Loyal_CheatingConfessed_Target)" Value="312085" />
+  <Preset Label="Loose Tooth (buff_Lose_Teeth_Timer)" Value="312133" />
+  <Preset Label="buff_Lose_Teeth_Missing_Tooth_AppearanceModifier" Value="312134" />
+  <Preset Label="TEEF (buff_LifeMilestone_ToothCertificate_Playful)" Value="312177" />
+  <Preset Label="Where's My Tooth?! (buff_LifeMilestone_ToothCertificate_Angry)" Value="312234" />
   <Preset Label="Not My Tempo (buff_SimPreference_Dislikes_Music_Oldies)" Value="312261" />
   <Preset Label="That's My Jam! (buff_SimPreference_Likes_Music_Oldies)" Value="312262" />
   <Preset Label="buff_SimPreference_Recent_Music_Oldies" Value="312263" />
   <Preset Label="Painful Reminder (buff_Trait_Loyal_CheatingKnownReminder)" Value="312301" />
   <Preset Label="buff_Trait_Loyal_RomancedTakenLoyalSim" Value="312302" />
+  <Preset Label="buff_TemporaryStay_Hidden_GuestSpecial_Mopey" Value="312430" />
+  <Preset Label="buff_CrossAge_Interactions_DisapproveOfChildDisciplining" Value="312464" />
+  <Preset Label="buff_CrossAge_Interactions_DisapproveLackOfChildDiscipline" Value="312466" />
   <Preset Label="buff_WantFear_LikedMusic_ListenTo_Oldies" Value="312572" />
   <Preset Label="Not Having It (buff_Trait_Loyal_TrustRebuilt_Fail)" Value="312660" />
   <Preset Label="buff_Trait_Loyal_TrustRebuit_TargetCooldown" Value="312661" />
@@ -5503,88 +5730,356 @@
   <Preset Label="Regained Trust (buff_Sentiment_Close_Happy_Primary_Loyal_RegainedTrust)" Value="312702" />
   <Preset Label="New Beginnings (buff_Sentiment_Close_Confident_Loyal_RegainedTrust)" Value="312706" />
   <Preset Label="Once a Cheater... (buff_Sentiment_Close_Tense_Loyal_RegainedTrust)" Value="312707" />
+  <Preset Label="Contagious Anger! (buff_FamilyDynamics_ContagiousAnger)" Value="312728" />
+  <Preset Label="Deep Breath  (buff_FamilyDynamics_CalmingDown)" Value="312729" />
+  <Preset Label="Contagious Fear! (buff_FamilyDynamics_ContagiousFear)" Value="312731" />
+  <Preset Label="Contagious Stress! (buff_FamilyDynamics_ContagiousStress)" Value="312732" />
+  <Preset Label="Contagious Embarrassment! (buff_FamilyDynamics_ContagiousEmbarrassment)" Value="312733" />
+  <Preset Label="Contagious Sadness! (buff_FamilyDynamics_ContagiousSadness)" Value="312734" />
+  <Preset Label="buff_TemporaryStay_Hidden_GuestSpecial_Disaster" Value="312747" />
+  <Preset Label="buff_TemporaryStay_Hidden_GuestSpecial_CouchSurfer" Value="312750" />
+  <Preset Label="buff_TemporaryStay_Hidden_GuestSpecial_Clone" Value="312751" />
+  <Preset Label="buff_TemporaryStay_Hidden_GuestSpecial_Friend" Value="312752" />
+  <Preset Label="buff_TemporaryStay_Hidden_GuestSpecial_HouseholdLoss" Value="312753" />
+  <Preset Label="Doppelganger?! (buff_TemporaryStay_Doppelganger)" Value="312758" />
+  <Preset Label="Good Friends, Good Times! (buff_TemporaryStay_GoodFriends)" Value="312759" />
+  <Preset Label="Grieving, but Not Alone (buff_TemporaryStay_Grieving)" Value="312760" />
+  <Preset Label="buff_TemporaryStay_Hidden_WelcomeMeCooldown" Value="312770" />
+  <Preset Label="buff_CrossAge_Interactions_FoundParent" Value="312923" />
   <Preset Label="Ew, &lt;b&gt;Bugs&lt;/b&gt;! (buff_SleepingBag_ewBugs)" Value="312945" />
   <Preset Label="Snug as a Bug (buff_SleepingBag_snugAsABug)" Value="312946" />
   <Preset Label="Ohhh, My &lt;i&gt;Back&lt;/i&gt;! (buff_SleepingBag_myBack)" Value="312947" />
   <Preset Label="Campin' Out (buff_SleepingBag_campinOut)" Value="312948" />
+  <Preset Label="Story Weaver (buff_SleepingBag_storyWeaver)" Value="312949" />
+  <Preset Label="Spellbound Spectator (buff_SleepingBag_spellboundSpectator)" Value="312950" />
+  <Preset Label="Host of Horror (buff_SleepingBag_hostOfHorror)" Value="312951" />
+  <Preset Label="Pummeled by Pillows (buff_SleepingBag_pummeledByPillows)" Value="312953" />
+  <Preset Label="Pillow Conqueror (buff_SleepingBag_pillowConquer)" Value="312954" />
+  <Preset Label="It's Just a Story! (buff_SleepingBag_justAStory)" Value="312955" />
+  <Preset Label="Careers (buff_LifeMilestone_Hidden_JustHadSelfDiscovery)" Value="313002" />
+  <Preset Label="Sweet Treat (buff_CrossAge_Interactions_SweetTreat)" Value="313052" />
+  <Preset Label="Stranger Danger! (buff_CrossAge_Interactions_StrangerDanger)" Value="313057" />
   <Preset Label="buff_AutonomyMod_Posture_LayOnBack" Value="313135" />
   <Preset Label="buff_AutonomyMod_Posture_BeCarried" Value="313136" />
   <Preset Label="buff_AutonomyMod_Posture_BeCarried_Back" Value="313137" />
+  <Preset Label="buff_Role_Sleepover_Sleep" Value="313208" />
+  <Preset Label="buff_Role_Sleepover_Host" Value="313209" />
+  <Preset Label="buff_Role_Sleepover_Guest" Value="313210" />
+  <Preset Label="Snuggle Hold (buff_ToddlerPersonalityUpdate_BeingCarried_Happy)" Value="313245" />
+  <Preset Label="Sage Advice on Love! (buff_CrossAge_Interactions_SageAdviceLove)" Value="313247" />
+  <Preset Label="Sage Advice on Friendship! (buff_CrossAge_Interactions_SageAdviceFriendship)" Value="313248" />
+  <Preset Label="Sage Advice on Family! (buff_CrossAge_Interactions_SageAdviceFamily)" Value="313249" />
+  <Preset Label="Sage Advice on Money! (buff_CrossAge_Interactions_SageAdviceMoney)" Value="313250" />
+  <Preset Label="Sage Advice on Responsibility! (buff_CrossAge_Interactions_SageAdviceResponsibility)" Value="313251" />
+  <Preset Label="Sage Advice on Hard Work! (buff_CrossAge_Interactions_SageAdviceHardWork)" Value="313252" />
+  <Preset Label="Feeling Constricted (buff_ToddlerPersonalityUpdate_BeingCarried_Sad)" Value="313256" />
+  <Preset Label="Don't Hold Me! (buff_ToddlerPersonalityUpdate_BeingCarried_Angry)" Value="313257" />
+  <Preset Label="Rise 'n Shine (buff_ToddlerPersonalityUpdate_Wakingup_Happy)" Value="313260" />
+  <Preset Label="Why am I Awake? (buff_ToddlerPersonalityUpdate_Wakingup_Sad)" Value="313261" />
+  <Preset Label="Groggy Monster (buff_ToddlerPersonalityUpdate_Wakingup_Angry)" Value="313262" />
+  <Preset Label="buff_Vehicle_Bike_Riding_KidsBike_Mentor" Value="313336" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_HeavySleeper_SafeSleep" Value="313461" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_HeavySleeper" Value="313462" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_LightSleeper" Value="313463" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_LightSleeper_RollWakeUp" Value="313464" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_ForcedToWakeUp" Value="313466" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_PickyEater" Value="313467" />
+  <Preset Label="Eww, Yucky! (buff_ToddlerPersonalityUpdate_PickyEater_EwwYuck)" Value="313468" />
+  <Preset Label="Careers (buff_LifeMilestone_Hidden_JustSurvivedHauntedHouse)" Value="313485" />
+  <Preset Label="Careers (buff_LifeMilestone_Hidden_JustWonVillageFair)" Value="313486" />
+  <Preset Label="Desire for Excitement (buff_MidlifeCrisis_DesireforExcitement)" Value="313567" />
+  <Preset Label="The March of Time (buff_MidlifeCrisis_MarchofTime)" Value="313568" />
   <Preset Label="Surrounded by Friends (buff_Trait_Loyal_Surrounded)" Value="313587" />
   <Preset Label="buff_Vehicle_Bike_Riding_KidsBike_Hidden_Practice" Value="313614" />
+  <Preset Label="buff_Vehicle_Bike_Riding_KidsBike_Hidden_HonkHorn" Value="313615" />
   <Preset Label="buff_Vehicle_Bike_Riding_KidsBike_Hidden_Trick" Value="313626" />
+  <Preset Label="buff_Vehicle_Bike_Riding_KidsBike_Hidden_HornCooldown" Value="313632" />
   <Preset Label="buff_Vehicle_Bike_Riding_KidsBike_Hidden_TrickCooldown" Value="313633" />
   <Preset Label="buff_Vehicle_Bike_Riding_KidsBike_Hidden_PracticeCooldown" Value="313634" />
+  <Preset Label="Stale Advice (buff_CrossAge_Interactions_SageAdviceBored)" Value="313657" />
+  <Preset Label="Eww, Yucky! (buff_ToddlerPersonalityUpdate_PickyEater_EwwYuck_Mixed)" Value="313687" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_HatesBedtime_EnergyYellow_Override" Value="313690" />
+  <Preset Label="buff_aspiration_MindAndBody_NoBadMood" Value="313715" />
+  <Preset Label="buff_aspiration_MindAndBody_NoBadMood_Complete" Value="313716" />
+  <Preset Label="buff_Sleepover_SleepoverSnacks_Cooldown" Value="313777" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_PickyEater_HungerYellow_Override" Value="313786" />
   <Preset Label="I've Got Your Back (buff_Trait_Loyal_PromisedHelp)" Value="313883" />
+  <Preset Label="Missing Out On The World (buff_MidlifeCrisis_Type_Adventure)" Value="313922" />
+  <Preset Label="Lacking Magnus Opus (buff_MidlifeCrisis_Type_Create)" Value="313923" />
+  <Preset Label="Lost Connections (buff_MidlifeCrisis_Type_Relationship)" Value="313924" />
+  <Preset Label="The Rat Race (buff_MidlifeCrisis_Type_Success)" Value="313925" />
   <Preset Label="Freezing! (buff_Temperature_Infant_Cold)" Value="314015" />
+  <Preset Label="Not the Favorite? (buff_CrossAge_Interactions_NotTheFavorite)" Value="314029" />
+  <Preset Label="Forever the Favorite! (buff_CrossAge_Interactions_TheFavorite)" Value="314030" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_Hidden_BehingHeld" Value="314040" />
+  <Preset Label="It's Not So Bad (buff_MidlifeCrisis_Resolution_Adventure)" Value="314166" />
+  <Preset Label="It's Not So Bad (buff_MidlifeCrisis_Resolution_Create)" Value="314167" />
+  <Preset Label="It's Not So Bad (buff_MidlifeCrisis_Resolution_Success)" Value="314168" />
+  <Preset Label="It's Not So Bad (buff_MidlifeCrisis_Resolution_Relationship)" Value="314169" />
+  <Preset Label="The Good Ol' Days (buff_CrossAge_Interactions_GoodTimes)" Value="314197" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_HatesBedtime_RollWakeUp" Value="314212" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_ForcedToWakeUpCooldown" Value="314214" />
   <Preset Label="Not ready yet… (buff_Trait_Loyal_Grieving)" Value="314271" />
   <Preset Label="Ultimate Loyalty Bond (buff_Trait_Loyal_DogOwnerBond)" Value="314272" />
+  <Preset Label="buff_Trait_ToddlerPersonalityUpdate_HatesCarry" Value="314339" />
   <Preset Label="buff_Trait_Loyal_FriendIsTarget_MeanInteraction" Value="314551" />
   <Preset Label="buff_Trait_Loyal_Confront_ActorCooldown" Value="314552" />
+  <Preset Label="buff_Lose_Teeth_Fix_Tooth" Value="314774" />
+  <Preset Label="Tooth Fairy Time (buff_Lose_Teeth_ToothFairy)" Value="314778" />
+  <Preset Label="Toothtastrophe (buff_Lose_Teeth_Toothtastrophe)" Value="314781" />
+  <Preset Label="Tooth Yoinked (buff_Lose_Teeth_ToothYoinked)" Value="314782" />
+  <Preset Label="Wiggle Tooth (buff_Lose_Teeth_WiggleTooth)" Value="314783" />
+  <Preset Label="buff_groupWalkingTrail_routeEvent_reflectiveWalk" Value="314802" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_ForcedToWakeUp_HatesBedtime" Value="314832" />
+  <Preset Label="buff_Lose_Teeth_ToothFairyCooldown" Value="314866" />
   <Preset Label="Flurry of Giggles (buff_Sentiment_Adoring_Playful_Contagion_InfectiousJoy)" Value="314926" />
+  <Preset Label="buff_Lose_Teeth_MisadventureDelay" Value="315029" />
+  <Preset Label="Careers (buff_LifeMilestone_Hidden_CanGetLotBasedBuff)" Value="315076" />
+  <Preset Label="Careers (buff_LifeMilestone_Hidden_RecentFirstFire)" Value="315083" />
+  <Preset Label="Careers (buff_LifeMilestone_Hidden_RecentStruckyByLightning)" Value="315084" />
+  <Preset Label="buff_Sim_ChangeDiaper_DisasterCooldown" Value="315094" />
   <Preset Label="Pyro No (buff_LifeMilestone_FirstFireHere_FireObject)" Value="315259" />
   <Preset Label="buff_Trait_Loyal_MeanActor" Value="315356" />
   <Preset Label="buff_Trait_Loyal_InRelationship" Value="315357" />
+  <Preset Label="buff_JobLoss_Layoff_Expired" Value="315653" />
+  <Preset Label="buff_Treehouse_PlayOn_Duration" Value="315735" />
+  <Preset Label="buff_SelfDiscovery_CanMakeProgress" Value="315849" />
   <Preset Label="Crying Baby (buff_Infant_CryingBaby)" Value="316000" />
   <Preset Label="Crying Baby (buff_Infant_CryingBaby_HatesChildren)" Value="316002" />
   <Preset Label="A Bond Forged by Night (buff_Trait_Loyal_OccultBond)" Value="316056" />
+  <Preset Label="I'm Not Just Some Plant!! (buff_CrossAge_Interactions_ClaimArePlantSim)" Value="316174" />
+  <Preset Label="But I'm &lt;i&gt;not&lt;/i&gt; an Alien?!? (buff_CrossAge_Interactions_ClaimAreAlien)" Value="316175" />
+  <Preset Label="I'm Obviously an Alien?! (buff_CrossAge_Interactions_ClaimAreHuman)" Value="316176" />
+  <Preset Label="Claiming to be... a Flop (buff_CrossAge_Interactions_ClaimFailed)" Value="316177" />
   <Preset Label="Following the Code (buff_Trait_Loyal_Principles)" Value="316202" />
+  <Preset Label="I'm a... What?! (buff_CrossAge_Interactions_CallThemSomethingMean)" Value="316220" />
+  <Preset Label="NOPE! (buff_CrossAge_Interactions_MakeScaryFace)" Value="316221" />
+  <Preset Label="Grandparent Candy! (buff_TemporaryStay_EatCandy)" Value="316262" />
+  <Preset Label="What About Me? (buff_CrossAge_Interactions_MoanAboutNewSibling)" Value="316441" />
+  <Preset Label="Yay! New Sibling! (buff_CrossAge_Interactions_EnthuseAboutNewSibling)" Value="316442" />
+  <Preset Label="The Best View in Town (buff_CrossAge_Interactions_PickedUp)" Value="316713" />
+  <Preset Label="UP?! PLEASE?! (buff_CrossAge_Interactions_NotPickedUp)" Value="316714" />
   <Preset Label="Loyal Employee (buff_Trait_Loyal_LoyalEmployee)" Value="317128" />
   <Preset Label="Careers (buff_LifeMilestone_Hidden_JustLearnedNumbers)" Value="317239" />
   <Preset Label="buff_Motives_InvisDecayMods_Toddler_AttentionYellow" Value="317356" />
   <Preset Label="Your Secret's Safe with Me (buff_Trait_Loyal_SafeSecret)" Value="317406" />
   <Preset Label="Called Out... (buff_Trait_Loyal_CalledOut)" Value="317408" />
+  <Preset Label="buff_AutonomyMod_RecreationTable_PlaySimbles" Value="317528" />
+  <Preset Label="buff_AutonomyMod_RecreationTable_CleanUp" Value="317529" />
+  <Preset Label="buff_FamilyDynamics_Adoption" Value="317586" />
+  <Preset Label="Tiny Dancer (buff_Infant_TinyDancer)" Value="317597" />
+  <Preset Label="Baby Bop (buff_Infant_BabyBop)" Value="317598" />
   <Preset Label="Icky Grungy! (buff_Infant_MotiveOverride_Hygiene_Angry)" Value="317664" />
   <Preset Label="Filthy Freak Out! (buff_Infant_MotiveOverride_Hygiene_VeryAngry)" Value="317665" />
   <Preset Label="Where is Everyone? (buff_Motives_Infant_Attention_Angry)" Value="317667" />
   <Preset Label="Where is Everyone?! (buff_Motives_Infant_Attention_Angry_Very)" Value="317668" />
+  <Preset Label="The Void (buff_recreationTable_finishedPuzzle_missingPiece)" Value="317698" />
+  <Preset Label="buff_FamilyDynamics_Hidden_Close" Value="317770" />
+  <Preset Label="buff_MidlifeCrisis_Hidden_Creative_QualityIncrease" Value="317909" />
+  <Preset Label="buff_MidlifeCrisis_Hidden_StressAboutLostTime_CD" Value="318050" />
+  <Preset Label="Discovered Thy Self (buff_SelfDiscovery_DiscoveryMoment)" Value="318056" />
+  <Preset Label="Closely Connected (buff_FamilyDynamics_Social_Close)" Value="318077" />
+  <Preset Label="buff_FamilyDynamics_Hidden_Distant" Value="318078" />
+  <Preset Label="Oh...Awkward... (buff_FamilyDynamics_Social_Distant)" Value="318079" />
+  <Preset Label="buff_FamilyDynamics_Hidden_Compliant" Value="318080" />
+  <Preset Label="The Stressies! (buff_FamilyDynamics_Social_Compliant_Subordinate)" Value="318082" />
+  <Preset Label="buff_FamilyDynamics_Hidden_Difficult" Value="318083" />
+  <Preset Label="How Are We Even Family? (buff_FamilyDynamics_Social_Difficult)" Value="318084" />
+  <Preset Label="buff_FamilyDynamics_Hidden_Jokesters" Value="318085" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_Hidden_ReadtoMe" Value="318173" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_AsktoCarry" Value="318175" />
   <Preset Label="This Kid Can Ride a Bike! (buff_Vehicle_Bike_Riding_KidsBike_TaughtToRide_NotParent)" Value="318213" />
+  <Preset Label="Teaching to the Choir (buff_Object_TV_ChildLearning_Adults)" Value="318272" />
+  <Preset Label="Yikes! (buff_Object_TV_Scary_Scared)" Value="318278" />
+  <Preset Label="NOPE nope nope nope (buff_Object_TV_Scary_ExtraScared)" Value="318279" />
+  <Preset Label="No Sweat (buff_Object_TV_Scary_Brave)" Value="318280" />
+  <Preset Label="I Own the Night (buff_Object_TV_Scary_ExtraBrave)" Value="318281" />
+  <Preset Label="buff_Object_TV_Scary_RunAway" Value="318282" />
+  <Preset Label="buff_Object_TV_Scary_ToddlerNightmare" Value="318283" />
+  <Preset Label="buff_SelfDiscovery_DiscoveryMoment_CD" Value="318344" />
+  <Preset Label="Yikes! (buff_Object_TV_Scary_Toddler_Sad)" Value="318365" />
+  <Preset Label="buff_groupWalkingTrail_routeEvent_jog" Value="318569" />
+  <Preset Label="Splinters! (buff_Treehouse_WooHoo_Splinters)" Value="318686" />
+  <Preset Label="Fresh Air Love Affair (buff_Treehouse_WooHoo_GotSomeFreshAir)" Value="318687" />
   <Preset Label="buff_Dust_ReactionCooldown" Value="318706" />
+  <Preset Label="Careers (buff_LifeMilestone_Hidden_RecentFirstPromotion)" Value="318750" />
+  <Preset Label="buff_recreationTable_puzzles_pileBackup" Value="318759" />
+  <Preset Label="buff_recreationTable_simblesDominoes_trayBackup" Value="318760" />
+  <Preset Label="Piecemonger (buff_recreationTable_puzzles_stealPiece)" Value="318799" />
+  <Preset Label="buff_WantFear_ConfrontationSuccess_Inferior_Cooldown" Value="319043" />
   <Preset Label="Needs Met (buff_Infant_Attachment_NeedsMet_Neglected)" Value="319190" />
   <Preset Label="Well Cared For (buff_Infant_Attachment_CaredFor_Great)" Value="319192" />
   <Preset Label="Love Shown (buff_Infant_Attachment_LoveShown_Neglected)" Value="319194" />
   <Preset Label="Loved (buff_Infant_Attachment_Loved_Great)" Value="319196" />
   <Preset Label="Needs Help (buff_Infant_Attachment_NeedsHelp_Neglected)" Value="319200" />
+  <Preset Label="buff_SelfDiscovery_Metabolism_DrankSpoiledMilk" Value="319212" />
+  <Preset Label="buff_Infant_AnticipationMoments_WatchEnd" Value="319240" />
+  <Preset Label="My Pride and Joy (buff_InfantMilestones_Celebrate_MyPrideAndJoy)" Value="319246" />
+  <Preset Label="Outshined (buff_InfantMilestones_Celebrate_Outshined)" Value="319247" />
   <Preset Label="Is Anyone There? (buff_Infant_Attachment_IsAnyoneThere_Neglected)" Value="319339" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_Hidden_EarlyRiser_CD" Value="319502" />
+  <Preset Label="Bonding via Phone (buff_FamilyDynamics_ChattyCallHappy)" Value="319531" />
+  <Preset Label="Reassured by Family Call (buff_FamilyDynamics_ChattyCallConfident)" Value="319532" />
+  <Preset Label="Goofballs Making Goofcalls (buff_FamilyDynamics_ChattyCallPlayful)" Value="319534" />
+  <Preset Label="buff_Infant_TummyTime_SomeoneJoined" Value="319754" />
+  <Preset Label="What a Disaster! (buff_TemporaryStay_Disaster)" Value="319896" />
+  <Preset Label="buff_FriendshipBracelet_Applied_5" Value="319947" />
+  <Preset Label="buff_FriendshipBracelet_Applied_4" Value="320047" />
+  <Preset Label="buff_FriendshipBracelet_Applied_1" Value="320048" />
+  <Preset Label="buff_FriendshipBracelet_Applied_2" Value="320049" />
+  <Preset Label="buff_FriendshipBracelet_Applied_3" Value="320050" />
   <Preset Label="buff_Infant_RewardTrait_TopNotch" Value="320150" />
   <Preset Label="buff_Infant_RewardTrait_Happy" Value="320153" />
   <Preset Label="buff_Infant_RewardTrait_Unhappy" Value="320154" />
+  <Preset Label="Awwwkward (buff_FriendshipBracelet_Awkward)" Value="320181" />
+  <Preset Label="Buddy Bracelet-less (buff_FriendshipBracelet_Braceletless)" Value="320182" />
   <Preset Label="buff_Infant_Invited_Over" Value="320281" />
+  <Preset Label="buff_FamilyDynamics_Hidden_Loving" Value="320330" />
+  <Preset Label="buff_FamilyDynamics_Hidden_Permissive" Value="320331" />
+  <Preset Label="Goofbumps! (buff_FamilyDynamics_Social_Jokesters)" Value="320332" />
+  <Preset Label="Warmed Heart (buff_FamilyDynamics_Social_Loving)" Value="320333" />
+  <Preset Label="Always Saying &quot;Yes&quot; (buff_FamilyDynamics_Social_Permissive_Authority)" Value="320334" />
+  <Preset Label="Should I Be More Lenient? (buff_FamilyDynamics_Social_Compliant_Authority)" Value="320335" />
+  <Preset Label="Passing of the Torch (buff_KeepsakeBox_PassingTorch)" Value="320391" />
+  <Preset Label="Entrusted Family! (buff_KeepsakeBox_FamilyEntrusted)" Value="320392" />
+  <Preset Label="I Want a Cool Box! (buff_KeepsakeBox_WantCoolBox)" Value="320393" />
+  <Preset Label="buff_InfantMilestones_UnlockTrigger" Value="320410" />
+  <Preset Label="Fisherman's Luck (buff_EP13World_FishermansLuck)" Value="320491" />
+  <Preset Label="Street Piano Tunes (buff_EP13World_StreetPianoTunes)" Value="320493" />
+  <Preset Label="Feeling Anchored (buff_EP13World_FeelingAnchored)" Value="320494" />
+  <Preset Label="Forest for the Trees (buff_EP13World_ForestForTheTrees)" Value="320495" />
+  <Preset Label="Topiary-Tastic (buff_EP13World_TopiaryTastic)" Value="320516" />
+  <Preset Label="Watch Out for Whiteclaw (buff_EP13World_WatchOutForWhiteclaw)" Value="320517" />
+  <Preset Label="Whaley Happy (buff_EP13World_WhaleyHappy)" Value="320518" />
+  <Preset Label="buff_KeepsakeBox_PonderMeaning_Cooldown" Value="320564" />
+  <Preset Label="I'll Cry If I Want To! (buff_FamilyDynamics_Social_Permissive_Subordinate)" Value="320625" />
+  <Preset Label="Sudden Hijinks!  (buff_SleepingBag_Prank_Viewer)" Value="320649" />
+  <Preset Label="Furor of the Pranked (buff_SleepingBag_Prank_NotFeelingIt)" Value="320650" />
+  <Preset Label="A Proper Pranking (buff_SleepingBag_Prank_FeelingIt)" Value="320651" />
+  <Preset Label="buff_SleepingBag_PrankBroadcaster" Value="320652" />
+  <Preset Label="buff_KeepsakeBox_PonderMeaning_BeingTogether" Value="320700" />
+  <Preset Label="buff_KeepsakeBox_PonderMeaning_IsntEverything" Value="320704" />
+  <Preset Label="buff_KeepsakeBox_PonderMeaning_NobodyKnows" Value="320705" />
+  <Preset Label="buff_KeepsakeBox_PonderMeaning_Patience" Value="320706" />
+  <Preset Label="buff_KeepsakeBox_PonderMeaning_Tolerance" Value="320707" />
+  <Preset Label="buff_KeepsakeBox_PonderMeaning_Unconditional" Value="320708" />
+  <Preset Label="buff_KeepsakeBox_PonderMeaning_Weird" Value="320709" />
+  <Preset Label="buff_FamilyDynamics_PraiseMessHidden" Value="320808" />
+  <Preset Label="Prodigy in Our Midst! (buff_FamilyDynamics_PraiseMessActor)" Value="320811" />
+  <Preset Label="Masterpiece Disasterpiece! (buff_FamilyDynamics_PraiseMessTarget)" Value="320812" />
   <Preset Label="LET! ME! OUT! (buff_Infant_Stuck_Angry)" Value="321036" />
   <Preset Label="Can't Reach! (buff_Infant_CantReach_Angry)" Value="321037" />
   <Preset Label="LET! ME! OUT! (buff_Infant_Stuck_Sad)" Value="321041" />
   <Preset Label="Can't Reach! (buff_Infant_CantReach_Sad)" Value="321043" />
+  <Preset Label="This Takes Me Back! (buff_Vehicle_Bike_Riding_KidsBike_TakesMeBack)" Value="321064" />
+  <Preset Label="Taught By The Best (buff_Vehicle_Bike_Riding_KidsBike_TaughtByTheBest)" Value="321065" />
+  <Preset Label="buff_CelebrationCannon_Cooldown" Value="321084" />
+  <Preset Label="Why Me? (buff_MidlifeCrisis_RandomMood_Angry)" Value="321214" />
+  <Preset Label="Let's Do This! (buff_MidlifeCrisis_RandomMood_Confident)" Value="321215" />
+  <Preset Label="What’s Going On? (buff_MidlifeCrisis_RandomMood_Dazed)" Value="321216" />
+  <Preset Label="Feelin’ Young Again (buff_MidlifeCrisis_RandomMood_Energized)" Value="321217" />
+  <Preset Label="Still Got it! (buff_MidlifeCrisis_RandomMood_Flirty)" Value="321218" />
+  <Preset Label="Not Too Late... (buff_MidlifeCrisis_RandomMood_Focused)" Value="321219" />
+  <Preset Label="Personal Muse (buff_MidlifeCrisis_RandomMood_Inspired)" Value="321220" />
+  <Preset Label="Running Out of Time (buff_MidlifeCrisis_RandomMood_Sad)" Value="321221" />
+  <Preset Label="What Happens Now? (buff_MidlifeCrisis_RandomMood_Scared)" Value="321222" />
+  <Preset Label="It's A Sim! (buff_CelebrationCannon_ItsASim)" Value="321238" />
+  <Preset Label="Baby Bust (buff_CelebrationCannon_BabyBust)" Value="321239" />
+  <Preset Label="Laughing Along (buff_Object_TV_Sitcom_Playful)" Value="321869" />
+  <Preset Label="Laughing Along Together (buff_Object_TV_Sitcom_PlayfulTogether)" Value="321870" />
+  <Preset Label="Squishy and Cold! (buff_Infant_Play_SquishyAndCold)" Value="322089" />
+  <Preset Label="buff_TemporaryStay_Hidden_GuestSpecial_ParentalHelp" Value="322376" />
+  <Preset Label="buff_TemporaryStay_Hidden_ParentalBoost" Value="322377" />
+  <Preset Label="Small Infant in a Big Pond (buff_Infant_Play_WaterBaby)" Value="322399" />
+  <Preset Label="Celebration Catastrophe (buff_CelebrationCannon_CelebrationCatastrophe)" Value="322451" />
+  <Preset Label="Confetti Time! (buff_CelebrationCannon_ConfettiTime)" Value="322452" />
+  <Preset Label="buff_Infant_Milestone_CanCrawl" Value="322738" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_Hidden_BeingHeldByCareGiver" Value="322777" />
   <Preset Label="buff_Infant_autoAgeUp_test" Value="322790" />
+  <Preset Label="Special Birthday Call! (buff_FamilyDynamics_BirthdayGiftCall)" Value="322807" />
+  <Preset Label="buff_KeepsakeBox_PonderMeaning_Obedience" Value="322837" />
+  <Preset Label="buff_TemporaryStay_Hidden_Summon" Value="323020" />
+  <Preset Label="buff_TemporaryStay_Hidden_ParentalBoostCooldown" Value="323302" />
+  <Preset Label="buff_Infant_Crawling_RouteEvent_Timer" Value="323346" />
+  <Preset Label="Fresh Air Love Affair (buff_Treehouse_MessAround_GotSomeFreshAir)" Value="323565" />
+  <Preset Label="Splinters! (buff_Treehouse_MessAround_Splinters)" Value="323603" />
+  <Preset Label="buff_MidlifeCrisis_Hidden_GoldenDate" Value="323622" />
+  <Preset Label="buff_MidlifeCrisis_Hidden_SmartHub" Value="323724" />
   <Preset Label="buff_Hidden_Scenario_StuckInTheirShadow_Phase1AnswerPhoneGoalActive" Value="323788" />
   <Preset Label="buff_Hidden_Scenario_StuckInTheirShadow_Phase3AnswerPhoneGoalActive" Value="323840" />
+  <Preset Label="buff_TemporaryStay_Hidden_SuitcaseRemove" Value="323973" />
+  <Preset Label="buff_KeepsakeBox_AdultVFX" Value="324062" />
   <Preset Label="Nearby Crying! (buff_Infant_CryReaction)" Value="324066" />
   <Preset Label="buff_Infant_CryReactionCooldown" Value="324067" />
   <Preset Label="buff_Region_Venue_AtPark" Value="324092" />
+  <Preset Label="buff_TemporaryStay_Hidden_GuestSpecial_InfantIntro" Value="324276" />
+  <Preset Label="buff_InfantMilestones_Celebrate_PushBragCooldown" Value="324374" />
+  <Preset Label="buff_TemporaryStay_Hidden_InfantIntroStart" Value="324422" />
+  <Preset Label="buff_Burnout_Hidden_IncreaseLarge_Fog_BurnedOut" Value="324906" />
+  <Preset Label="buff_Burnout_Hidden_IncreaseSmall_Fog_BurnedOut" Value="324907" />
+  <Preset Label="buff_Burnout_Hidden_DecreaseSmall_Fog_BurnedOut_MentalBlock" Value="324908" />
+  <Preset Label="buff_Burnout_Hidden_DecreaseLarge_Fog_BurnedOut_MentalBlock" Value="324909" />
   <Preset Label="buff_AspirationComplete_Invisible" Value="325690" />
   <Preset Label="Water Baby (buff_Object_Bathtub_InfantBath_BubbleWaterBaby)" Value="326409" />
   <Preset Label="buff_Infant_BeingLetOut" Value="326995" />
+  <Preset Label="buff_InfantMilestones_AnticipationMoment_JustGrabbed" Value="327168" />
+  <Preset Label="buff_InfantMilestones_AnticipationMoment_JustReached" Value="327169" />
+  <Preset Label="buff_TemporaryStay_Hidden_ParentalHelpSchedule" Value="327281" />
   <Preset Label="Rest Time (buff_Infant_AwakeTime)" Value="327515" />
+  <Preset Label="buff_InfantMilestones_AnticipationMoment_Small" Value="327858" />
+  <Preset Label="buff_InfantMilestones_AnticipationMoment_Big" Value="327859" />
+  <Preset Label="buff_Lose_Teeth_Missing_Tooth_BedSwipe" Value="327987" />
+  <Preset Label="buff_KeepsakeBox_ChildVFX" Value="328017" />
+  <Preset Label="buff_TemporaryStay_Hidden_SpecialBehaviorCooldown_Kyle" Value="328182" />
   <Preset Label="buff_StuffedAnimal_ToddlerTalk_Babble_Cooldown" Value="328272" />
   <Preset Label="buff_Read_To_Children_Hidden" Value="328766" />
+  <Preset Label="buff_InfantMilestones_RecentUnlock" Value="328806" />
+  <Preset Label="buff_FriendshipBracelet_NeedsCleanup" Value="329149" />
   <Preset Label="buff_Infant_Hidden_Diaper_PartialFull" Value="329248" />
   <Preset Label="buff_Infant_Hidden_Diaper_Overfull" Value="329250" />
   <Preset Label="buff_Infant_Sleep_Hidden_AwakeBuffsAllowed" Value="329251" />
   <Preset Label="buff_Sim_MultiToCarry_Infant_PreventIdle" Value="329298" />
+  <Preset Label="Careers (buff_LifeMilestone_Hidden_JustResurrected_NoBit)" Value="329409" />
+  <Preset Label="buff_CrossAge_Interactions_familyKiss_lockOut" Value="329904" />
+  <Preset Label="buff_recreationTable_simblesDominoes_practiceText_test" Value="330697" />
+  <Preset Label="buff_TemporaryStay_Hidden_GuestSpecial_CouchSurfer_Kyle" Value="330800" />
+  <Preset Label="buff_TemporaryStay_Hidden_SpecialBehaviorCooldown_Candy" Value="330801" />
   <Preset Label="buff_Infant_NannyCheckOnCooldown" Value="330803" />
   <Preset Label="buff_WakeUp_ToSleep" Value="331067" />
   <Preset Label="buff_Infant_Sleep_Hidden_MotiveAdjust" Value="331278" />
+  <Preset Label="buff_InfantMilestone_SleptThroughNight" Value="331333" />
+  <Preset Label="buff_recreationTable_puzzles_smashed_timeout_hidden" Value="332100" />
   <Preset Label="buff_Infant_StopCry" Value="332110" />
+  <Preset Label="Best Hug Ever! (buff_BestHugEver)" Value="332288" />
   <Preset Label="buff_Infant_Playmat_JustStoppedInteraction" Value="332297" />
+  <Preset Label="buff_Lose_Teeth_Fix_Tooth_Cooldown" Value="332335" />
+  <Preset Label="buff_InfantMilestones_AnticipationMoment_AllowSit" Value="332429" />
+  <Preset Label="buff_MidlifeCrisis_Hidden_BefriendAStray" Value="332556" />
+  <Preset Label="buff_Vehicle_Bike_Riding_KidsBike_Hidden_DiscourageRoute" Value="332945" />
+  <Preset Label="buff_Vehicle_Bike_Riding_KidsBike_Hidden_IsMentored" Value="332946" />
   <Preset Label="Careers (buff_LifeMilestone_Hidden_JustHadBirthday)" Value="332971" />
   <Preset Label="buff_Relationship_Toddler_Caregiver_Autonomy" Value="333126" />
+  <Preset Label="buff_MovieTheater_InTheater" Value="333127" />
   <Preset Label="buff_Infant_Carry_ProtectCarry" Value="333166" />
   <Preset Label="buff_Infant_ReactionCooldown" Value="333196" />
   <Preset Label="Careers (buff_LifeMilestone_Hidden_JustBecameNonOccult)" Value="333236" />
+  <Preset Label="buff_WorkRival_Debug_IncreaseChance" Value="333237" />
   <Preset Label="buff_Infant_PeekABoo_AutonomousCooldown" Value="333241" />
   <Preset Label="Buff_Trait_HatesInfants" Value="333376" />
   <Preset Label="Ugh, &lt;i&gt;Infants!&lt;/i&gt; (buff_Infant_UghInfants)" Value="333378" />
   <Preset Label="Home Wrecker (buff_Object_Dollhouse_DestructiveToddler_Happy)" Value="333447" />
+  <Preset Label="Destructo-toddler (buff_ToddlerPersonalityUpdate_DestructiveToddler)" Value="333448" />
+  <Preset Label="buff_Sleepover_SleepingBagSetup" Value="333456" />
+  <Preset Label="buff_Sleepover_TimeForBed" Value="333627" />
+  <Preset Label="buff_Infants_Elements_RevealDelay" Value="333666" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_Reveal_Delay" Value="333670" />
+  <Preset Label="buff_Infants_Elements_OnlySleepsWhenHeld" Value="333686" />
   <Preset Label="buff_Infant_BeingBreastfed" Value="333766" />
+  <Preset Label="buff_Infants_Elements_GoodAppetite_Full" Value="334030" />
+  <Preset Label="buff_Infants_Elements_SelfSoothed" Value="334066" />
+  <Preset Label="buff_MidlifeCrisis_Hidden_MaxASkill" Value="334199" />
+  <Preset Label="buff_Lose_Teeth_ToothFairyLockout" Value="334268" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_Hidden_SingASongTime" Value="334319" />
   <Preset Label="buff_Suppress_Trait_Idle" Value="334350" />
   <Preset Label="buff_Infant_Sleep_Soothed" Value="334368" />
   <Preset Label="buff_Infant_Reaction_Angry" Value="334370" />
@@ -5592,6 +6087,8 @@
   <Preset Label="buff_Infant_Reaction_Sad" Value="334372" />
   <Preset Label="buff_Temperature_VFX_ColdBreath_I" Value="334461" />
   <Preset Label="buff_Infant_Playmat_hidden_playWith_tracker" Value="334481" />
+  <Preset Label="buff_SelfDiscovery_Mood_CurrentSituation_Angry" Value="334507" />
+  <Preset Label="buff_SelfDiscovery_Mood_CurrentSituation_Sad" Value="334508" />
   <Preset Label="buff_Infant_HighChair_AlreadyFedFirstBite" Value="334560" />
   <Preset Label="buff_Infant_Trait_Cautious_CaregiverProximity" Value="334601" />
   <Preset Label="buff_BabyFeed_Preference_Bottle" Value="334604" />
@@ -5599,9 +6096,20 @@
   <Preset Label="buff_Infant_Trait_Cautious_StrangePlace_Hidden" Value="334606" />
   <Preset Label="buff_Infant_Trait_Cautious_ProximityBroadcaster" Value="334608" />
   <Preset Label="buff_Infant_Trait_Calm_BoredomExit" Value="334661" />
+  <Preset Label="buff_SelfDiscovery_Hygiene_Pause" Value="334984" />
+  <Preset Label="buff_SelfDiscovery_Virtues_ActProper" Value="335005" />
+  <Preset Label="buff_SelfDiscovery_Scared_Erratic" Value="335008" />
+  <Preset Label="buff_InfantMilestones_BlockAnticipationPusher" Value="335142" />
   <Preset Label="buff_Infant_Trait_Calm_MoveCD" Value="335335" />
+  <Preset Label="buff_Infant_WiggleToMudic_CD" Value="335336" />
   <Preset Label="buff_Infant_CheckOn_ClashPrevention" Value="335346" />
+  <Preset Label="Cherished Memories (buff_LifeMilestone_MemorabiliaOfDeadSim)" Value="335427" />
+  <Preset Label="buff_SelfDiscovery_Animal_Dog" Value="335500" />
+  <Preset Label="buff_SelfDiscovery_Animal_Cat" Value="335501" />
   <Preset Label="buff_Infant_Carry_GiveCarriedSim_Hidden_Target" Value="335678" />
+  <Preset Label="buff_WorkRival_AddBitDelayed" Value="335741" />
   <Preset Label="buff_Infant_IsBeingCaredFor" Value="335779" />
   <Preset Label="buff_Infant_InSpecialMultiSim" Value="335989" />
+  <Preset Label="buff_Infants_Elements_GiveQuirks" Value="336049" />
+  <Preset Label="buff_ToddlerPersonalityUpdate_GiveQuirks" Value="336060" />
 </PresetGroup>

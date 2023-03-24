@@ -1298,5 +1298,47 @@ It is recommended you include your creator name in custom tags, to prevent confl
   <String Key="UseCustomScoreType">Use Custom Score Type</String>
   <String Key="InteractionAutoScoreTypeError">Mod Constructor does not have score data for the selected pie menu category, so the interaction will not be effected by Conversation Topic preferences from Growing Together. You can specify the score type manually in the "Advanced" tab.</String>
 
+  <String Key="AllowNewborn">Allow Newborn</String>
+	<String Key="AllowInfant">Allow Infant</String>
+
+  <String Key="BanBusySims">BanBusySims</String>
+	<String Key="Newborn">Newborn</String>
+	<String Key="Infant">Infant</String>
+
+	<String Key="PresetInfant">Preset: Infant</String>
   
+  <String Key="Milestone">Milestone</String>
+	<String Key="MilestoneInfo">Milestone Info</String>
+	<String Key="MilestoneGoalNotice">The Sim will receive the milestone after completing this goal. You can use the following text tokens in the description to display information:
+{1.SimName} - target Sim name
+{2.ObjectName} - target object name
+{3.String} - lot name
+{4.String} - world name
+{5.String} - career name
+{6.String} - career level
+{7.String} - death type
+{8.String} - trait name</String>
+	<String Key="Infant_FineMotor">Infant_FineMotor</String>
+	<String Key="Infant_GrossMotor">Infant_GrossMotor</String>
+	<String Key="Infant_Social">Infant_Social</String>
+	<String Key="Infant_Firsts">Infant_Firsts</String>
+	<String Key="Firsts">Firsts</String>
+	<String Key="Life">Life</String>
+	<String Key="Toddler_Cognitive">Toddler_Cognitive</String>
+	<String Key="Toddler_Motor">Toddler_Motor</String>
+	<String Key="IsRepeatable">Is Repeatable</String>
+  
+  <String Key="ShowLocation">Show Location</String>
+  
+  <String Key="ContextlessDescription">Contextless Description</String>
+	<String Key="ContextlessDescriptionHelp">If not empty, this will be displayed instead of the main description when context information is misssing (for example, if the target Sim has been deleted).</String>
+	<String Key="ShowTargetSim">Show Target Sim</String>
+  
+	<String Key="DisplayWhenNotUnlocked">Display When Not Unlocked</String>
+	<String Key="NameWhenNotUnlocked">Name When Not Unlocked</String>
+	<String Key="DescriptionsWhenNotUnlocked">Descriptions When Not Unlocked</String>
+  
+  <String Key="DisplayWhenNotUnlockedDescription">If this is enabled, the milestone has a chance to appear in the milestones panel before it has been unlocked.</String>
+
+
 </LocalizableTextStrings>

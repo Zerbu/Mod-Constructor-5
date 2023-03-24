@@ -825,6 +825,10 @@
   <Preset Label="idle_Buff_SimPreference_Likes_Activities_Knitting" Value="274567" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_CottageCore" Value="274588" />
   <Preset Label="idle_Buff_SimPreference_Likes_Music_CottageCore" Value="274589" />
+  <Preset Label="Feed a Bite (Food_Eat_Infant_HighChair_Eat)" Value="274641" />
+  <Preset Label="Feed a Bite (Food_Eat_Infant_HighChair_Idle)" Value="274645" />
+  <Preset Label="Feed a Bite (Food_Eat_Infant_HighChair_MakeAMess)" Value="274649" />
+  <Preset Label="Feed a Bite (Food_Eat_Infant_HighChair_StopDislike)" Value="274650" />
   <Preset Label="baby_Mixer_Passive" Value="275190" />
   <Preset Label="Hiccup (infant_BehaviorIdles_Hiccup)" Value="275228" />
   <Preset Label="Sneezing (infant_BehaviorIdles_Sneezing)" Value="275229" />
@@ -845,6 +849,7 @@
   <Preset Label="infantActions_Sleep_Idle" Value="275408" />
   <Preset Label="infantActions_Sleep_Idle_Crib" Value="275409" />
   <Preset Label="infantActions_Sleep_Stomach" Value="275411" />
+  <Preset Label="infantActions_Sleep_Stomach_Crib" Value="275420" />
   <Preset Label="Fuss (infant_BehaviorIdles_Fuss)" Value="275600" />
   <Preset Label="PCTYAE_Watch_Infant_View" Value="276988" />
   <Preset Label="PC_Watch_Infant_ThinkAbout" Value="276989" />
@@ -946,6 +951,8 @@
   <Preset Label="Shave Facial Hair (mixer_Shower_Shave_Face_Passive)" Value="286238" />
   <Preset Label="Shave Leg Hair (mixer_Shower_Shave_Legs_Passive)" Value="286239" />
   <Preset Label="Shave Chest Hair (mixer_Shower_Shave_Torso_Passive)" Value="286240" />
+  <Preset Label="Babble To Self (infant_BehaviorIdles_Babble)" Value="286334" />
+  <Preset Label="Blow Raspberries (infant_BehaviorIdles_BlowRaspberry)" Value="286337" />
   <Preset Label="schoolLocker_PassiveRead" Value="286420" />
   <Preset Label="schoolLocker_ActiveRead" Value="286423" />
   <Preset Label="mixer_HighSchool_Active_WatchTPose_Passive" Value="286778" />
@@ -958,11 +965,31 @@
   <Preset Label="Shave Facial Hair to Preferred Length (mixer_Shower_Shave_Face_Preferred_Passive)" Value="286804" />
   <Preset Label="Shave Arm Hair to Preferred Length (mixer_Shower_Shave_Arms_Preferred)" Value="286805" />
   <Preset Label="Shave Arm Hair to Preferred Length (mixer_Shower_Shave_Arms_Preferred_Passive)" Value="286806" />
+  <Preset Label="Place Toes In Mouth (infant_BehaviorIdles_PlaceToesInMouth)" Value="286976" />
   <Preset Label="infantActions_Calm_Cry" Value="287347" />
   <Preset Label="infantActions_Calm_Fuss" Value="287348" />
   <Preset Label="Werewolf_Idles" Value="287349" />
+  <Preset Label="tummyTime_Mixers_Babble" Value="288025" />
+  <Preset Label="tummyTime_Mixers_Coo" Value="288026" />
+  <Preset Label="tummyTime_Mixers_Cry" Value="288027" />
+  <Preset Label="tummyTime_Mixers_GetUpOnKnees" Value="288028" />
+  <Preset Label="tummyTime_Mixers_Idles" Value="288029" />
+  <Preset Label="tummyTime_Mixers_LiftHeadtoChest" Value="288030" />
+  <Preset Label="tummyTime_Mixers_LiftLimbs" Value="288031" />
+  <Preset Label="tummyTime_Mixers_LookAround" Value="288032" />
+  <Preset Label="tummyTime_Mixers_Rotate" Value="288033" />
+  <Preset Label="tummyTime_Mixers_TurnHead" Value="288034" />
+  <Preset Label="pullToStand_Mixers_Babble" Value="288134" />
+  <Preset Label="pullToStand_Mixers_Bounce" Value="288135" />
+  <Preset Label="pullToStand_Mixers_Cry" Value="288136" />
+  <Preset Label="pullToStand_Mixers_Coo" Value="288137" />
+  <Preset Label="pullToStand_Mixers_Idle" Value="288138" />
+  <Preset Label="pullToStand_Mixers_LookAround" Value="288139" />
+  <Preset Label="pullToStand_Mixers_Smile" Value="288140" />
   <Preset Label="Call Out Diploma Recipient (mixerInteraction_HSGraduation_CallOutDiploma)" Value="288282" />
   <Preset Label="mixerInteraction_HSGraduation_TendPodium" Value="288285" />
+  <Preset Label="Kiss {1.SimFirstName}'s Forehead (baby_Mixer_FamilyKiss)" Value="288867" />
+  <Preset Label="infant_BehaviorIdles_Gassy" Value="288889" />
   <Preset Label="mixer_Lunarcycle_Moonbathe" Value="288900" />
   <Preset Label="werewolf_Mixers_TeachToHowl_Active" Value="289401" />
   <Preset Label="mixer_HighSchool_Active_AdvertiseHSTeam_CallOver" Value="289571" />
@@ -970,7 +997,9 @@
   <Preset Label="mixer_HighSchool_Active_AdvertiseHSTeam_Computer" Value="289574" />
   <Preset Label="mixer_HighSchool_Active_AdvertiseHSTeam_Football" Value="289575" />
   <Preset Label="mixer_HighSchool_Active_AdvertiseHSTeam_Chess" Value="289576" />
+  <Preset Label="infantActions_PreSleep_SuckFingers" Value="289714" />
   <Preset Label="mixerInteraction_TeenRelationshipDrama_Journal_Passive" Value="289728" />
+  <Preset Label="infantActions_PreSleep_Cry_SleepWhenHeld" Value="289729" />
   <Preset Label="werewolf_Mixers_TeachToHowl_PassiveChild" Value="289755" />
   <Preset Label="werewolf_Mixers_TeachToHowl_PassiveToddler" Value="289756" />
   <Preset Label="infantActions_PreSleep_Idle" Value="289876" />
@@ -1032,11 +1061,36 @@
   <Preset Label="mixer_hsGraduation_GiveValedictorianSpeech" Value="302693" />
   <Preset Label="mixer_HighSchool_Active_UsePhone_ExamPrep" Value="304064" />
   <Preset Label="mixer_HighSchool_Active_Listen_Generic_ExamPrep" Value="304067" />
+  <Preset Label="buffIdle_Child_Confidence_High" Value="307109" />
   <Preset Label="Cuddle (socials_Infant_Carry_CradleHold_Cuddle)" Value="308120" />
   <Preset Label="Bounce (socials_Infant_Carry_CradleHold_Bounce)" Value="308121" />
   <Preset Label="Comfort (socials_Infant_Carry_CradleHold_Comfort)" Value="308122" />
+  <Preset Label="idle_Buff_Burnout_Angry" Value="308274" />
+  <Preset Label="idle_Buff_Burnout_Sad" Value="308343" />
+  <Preset Label="idle_Buff_Burnout_Bored" Value="308344" />
+  <Preset Label="Place Puzzle Piece (recreationTable_puzzles_craftingProgress_join_placePiece)" Value="308763" />
+  <Preset Label="Locate Piece (recreationTable_puzzles_craftingProgress_join_idle)" Value="308764" />
+  <Preset Label="mixerInteraction_1" Value="309062" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Active_House" Value="309157" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Active_Space" Value="309158" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Active_Castaway" Value="309159" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Active_FairyTale" Value="309160" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Active_Pirates" Value="309161" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Passive_Castaway" Value="309162" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Passive_Pirates" Value="309163" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Passive_FairyTale" Value="309164" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Passive_House" Value="309165" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Passive_Space" Value="309166" />
+  <Preset Label="mixer_Treehouse_Enclosure_TellSpookyStory_Active" Value="310111" />
+  <Preset Label="mixer_Treehouse_Enclosure_Relax" Value="310387" />
+  <Preset Label="mixer_Treehouse_Enclosure_Chat" Value="310438" />
+  <Preset Label="reaction_mixer_recreationTable_simblesDominoes_lossUpset" Value="310614" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Oldies" Value="312281" />
   <Preset Label="idle_Buff_SimPreference_Likes_Music_Oldies" Value="312282" />
+  <Preset Label="mixer_MidlifeCrisis_ContemplateLife_Frantic_TalktoSelf" Value="313582" />
+  <Preset Label="mixer_MidlifeCrisis_ContemplateLife_Frantic_Tense" Value="313584" />
+  <Preset Label="mixer_MidlifeCrisis_ContemplateLife_Resolution_TalktoSelf" Value="313894" />
+  <Preset Label="mixer_MidlifeCrisis_ContemplateLife_Resolution_Pensive" Value="313895" />
   <Preset Label="infant_BGO_PlayIn_GenericObject" Value="314415" />
   <Preset Label="infant_BGO_ChewOn_GenericObject" Value="314437" />
   <Preset Label="sleep_SleepingBag_Passive" Value="314939" />
@@ -1050,6 +1104,11 @@
   <Preset Label="nestingblocks_Play_Infant_ShakeToy" Value="315896" />
   <Preset Label="nestingblocks_Play_Infant_SqueezeToy" Value="315897" />
   <Preset Label="Idle_Trait_Loyal" Value="317376" />
+  <Preset Label="mixer_infant_WiggleToMusic_Clap" Value="317591" />
+  <Preset Label="mixer_infant_WiggleToMusic_Dance" Value="317592" />
+  <Preset Label="mixer_infant_WiggleToMusic_Laugh" Value="317593" />
+  <Preset Label="mixer_infant_WiggleToMusic_Wiggle" Value="317635" />
+  <Preset Label="mixer_TV_WatchScary" Value="318275" />
   <Preset Label="infant_BehaviorIdles_Playmat" Value="319011" />
   <Preset Label="idle_Bladder_CarrySim" Value="320441" />
   <Preset Label="idle_Energy_CarrySim" Value="320442" />
@@ -1057,13 +1116,39 @@
   <Preset Label="idle_Hunger_CarrySim" Value="320444" />
   <Preset Label="idle_Hygiene_CarrySim" Value="320445" />
   <Preset Label="idle_Social_CarrySim" Value="320447" />
+  <Preset Label="food_Eat_Active_Chopsticks_AroundTheWorld_Ramen" Value="321026" />
+  <Preset Label="mixer_Treehouse_Build_T_Active" Value="321945" />
+  <Preset Label="mixer_Treehouse_Build_T_Passive" Value="321946" />
+  <Preset Label="mixer_Treehouse_Build_NT_Active" Value="321947" />
+  <Preset Label="mixer_Treehouse_Build_NT_Passive" Value="321948" />
+  <Preset Label="Reaching a Milestone (toy_Play_Infant_Anticipation_Small)" Value="321985" />
+  <Preset Label="Reaching a Milestone (tummyTime_Mixers_Anticipation_Creep)" Value="322078" />
   <Preset Label="infantActions_Cry" Value="322442" />
   <Preset Label="infantActions_Fuss" Value="322443" />
   <Preset Label="mixer_Playmat_PlayWithInfant" Value="322851" />
+  <Preset Label="Reaching a Milestone (mixer_infant_WiggleToMusic_Anticipation_Big)" Value="323249" />
+  <Preset Label="Reaching a Milestone (playmat_Mixers_Anticipation_Small)" Value="323263" />
   <Preset Label="mixer_Infants_Watch" Value="323334" />
   <Preset Label="mixer_Infants_Cheer" Value="323335" />
+  <Preset Label="Feed a Bite (food_Eat_Infant_HighChair_Anticipation_FirstFingerFood)" Value="324072" />
+  <Preset Label="infantMilestone_Mixers_AnticipationMoment_TakePicture" Value="324222" />
+  <Preset Label="infantMilestone_Mixers_AnticipationMoment_Big" Value="324223" />
+  <Preset Label="infantMilestone_Mixers_AnticipationMoment_Watch" Value="324226" />
+  <Preset Label="infantMilestone_Mixers_AnticipationMoment_WatchToddler" Value="326639" />
+  <Preset Label="Reaching a Milestone (playmat_Mixers_Anticipation_Big)" Value="327488" />
   <Preset Label="KidsBike_PracticeBalancing" Value="327870" />
+  <Preset Label="Reaching a Milestone (mixer_infant_WiggleToMusic_Anticipation_Small)" Value="328057" />
+  <Preset Label="Reaching a Milestone (toy_Play_Infant_Anticipation_Big)" Value="328058" />
+  <Preset Label="idle_InfantMilestones_PushAnticipation" Value="328796" />
+  <Preset Label="kidsBike_Mixers_Instruct" Value="329069" />
+  <Preset Label="kidsBike_Mixers_Idle" Value="329070" />
+  <Preset Label="Reaching a Milestone (nestingBlocks_Play_Infant_Anticipation_Big)" Value="332010" />
+  <Preset Label="Reaching a Milestone (nestingBlocks_Play_Infant_Anticipation_Small)" Value="332011" />
+  <Preset Label="Reaching a Milestone (toy_Dollhouse_Infant_Anticipation_Big)" Value="332012" />
+  <Preset Label="Reaching a Milestone (toy_Dollhouse_Infant_Anticipation_Small)" Value="332013" />
   <Preset Label="mixer_SleepingBag_Crosslegged" Value="332395" />
+  <Preset Label="mixer_ChattyCall_Reactions" Value="332665" />
+  <Preset Label="mixer_ChattyCall_Talk" Value="333106" />
   <Preset Label="playmat_Mixers_Balloon" Value="333466" />
   <Preset Label="infantActions_Reaction_Angry" Value="333730" />
   <Preset Label="infantActions_Reaction_Happy" Value="333732" />

@@ -10,7 +10,7 @@ using System.Collections.Generic;
 
 namespace Constructor5.Elements.CareerEvents
 {
-    //[ElementTypeData("CareerEvent", true, ElementTypes = new[] { typeof(CareerEvent) }, PresetFolders = new[] { "CareerEvent" })]
+    [ElementTypeData("CareerEvent", false, ElementTypes = new[] { typeof(CareerEvent) }, PresetFolders = new[] { "CareerEvent" })]
     public class CareerEvent : Element, IExportableElement, ISupportsCustomTuning
     {
         public Reference AdditionalRequiredVenue { get; set; } = new Reference();

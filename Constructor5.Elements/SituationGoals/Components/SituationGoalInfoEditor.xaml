@@ -18,6 +18,16 @@
         <c:Field Label="Description" LabelWidth="100">
             <c:STBLStringControl IsMultiLine="True" Text="{Binding Description}" />
         </c:Field>
+        <c:Field
+            x:Name="ContextlessDescriptionTextBox"
+            Label="ContextlessDescription"
+            LabelWidth="100"
+            Visibility="Collapsed">
+            <StackPanel>
+                <c:TextBlock Text="ContextlessDescriptionHelp" />
+                <c:STBLStringControl IsMultiLine="True" Text="{Binding ContextlessDescription}" />
+            </StackPanel>
+        </c:Field>
         <c:Field Label="Icon" LabelWidth="100">
             <c:IconControl Icon="{Binding Icon}" />
         </c:Field>
@@ -73,6 +83,14 @@
                 <c:StringListControl PresetsFolder="RoleTag" StringList="{Binding RoleTags}" />
             </StackPanel>
         </c:Expander>
-        <c:CheckBox Content="IsHidden" IsChecked="{Binding IsHidden}" />
+        <c:CheckBox
+            x:Name="IsHiddenCheckBox"
+            Content="IsHidden"
+            IsChecked="{Binding IsHidden}" />
+        <c:CheckBox
+            x:Name="ShowLocationCheckBox"
+            Content="ShowLocation"
+            IsChecked="{Binding ShowLocation}"
+            Visibility="Collapsed" />
     </StackPanel>
 </UserControl>

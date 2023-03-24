@@ -1,4 +1,3 @@
-using Constructor5.Core;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -17,7 +16,8 @@ namespace Constructor5.Core
 
             using (var stream = File.OpenRead(fileName))
             {
-                return LoadStream(type, stream);
+                var result = LoadStream(type, stream);
+                return result;
             }
         }
 

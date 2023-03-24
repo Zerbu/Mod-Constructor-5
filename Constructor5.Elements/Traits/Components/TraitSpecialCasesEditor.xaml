@@ -25,6 +25,7 @@
 
                 <StackPanel>
                     <c:CheckBox Content="BlockAgingFromBaby" IsChecked="{Binding BlockAgingFromBaby}" />
+                    <c:CheckBox Content="BlockAgingFromInfant" IsChecked="{Binding BlockAgingFromInfant}" />
                     <c:CheckBox Content="BlockAgingFromToddler" IsChecked="{Binding BlockAgingFromToddler}" />
                     <c:CheckBox Content="BlockAgingFromChild" IsChecked="{Binding BlockAgingFromChild}" />
                     <c:CheckBox Content="BlockAgingFromTeen" IsChecked="{Binding BlockAgingFromTeen}" />

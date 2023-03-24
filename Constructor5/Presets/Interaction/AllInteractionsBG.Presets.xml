@@ -7065,9 +7065,11 @@
   <Preset Label="Take Photo (photography_TakePhoto_CellPhone_MusicFestival)" Value="271013" />
   <Preset Label="Pick Up (socialSuperInteraction_CarryPickUp_Infant)" Value="271032" />
   <Preset Label="Gather around Stage (musicFestival_WaitNear_Stage_Toddler)" Value="271057" />
+  <Preset Label="Put {1.SimFirstName} in Back Carrier (transferCarryInteraction_RightToBack_Infant)" Value="271074" />
   <Preset Label="Take Clothes from {1.ObjectName} (sI_AnimalObjects_AnimalClothing_Take_Large)" Value="271080" />
   <Preset Label="Take Clothes from {1.ObjectName} (sI_AnimalObjects_AnimalClothing_Take_Small)" Value="271083" />
   <Preset Label="Take Clothes from {1.ObjectName} (sI_AnimalObjects_AnimalClothing_Take_MediumLarge)" Value="271084" />
+  <Preset Label="Put {1.SimFirstName} in Back Carrier (socialSuperInteraction_CarryPickUp_Infant_Back)" Value="271090" />
   <Preset Label="Discuss Preening Methods (sI_AnimalObjects_Socials_Friendly_Chicken_DiscussPreening)" Value="271112" />
   <Preset Label="Cook Together With (startGroupCrafting_GroupCooking_Stove_OffTheGrid)" Value="271131" />
   <Preset Label="Cook Together With (startGroupCrafting_GroupCooking_Stove_OffTheGrid_RequiredIngredients)" Value="271132" />
@@ -7135,14 +7137,18 @@
   <Preset Label="Talk with {1.SimFirstName} (sim_Infant_Chat)" Value="274023" />
   <Preset Label="Get Carried Here (simPickerInteraction_PutDown_HighChair_Infant)" Tags="TestUnsafe" Value="274094" />
   <Preset Label="Explore Food with (simPicker_HighChair_Infant_GetFood)" Tags="TestUnsafe" Value="274099" />
+  <Preset Label="Get Finger Food (simPicker_HighChair_Infant_GetFingerFood)" Tags="TestUnsafe" Value="274100" />
   <Preset Label="Help Explore Food (simPicker_HighChair_Adult_FeedInfant)" Tags="TestUnsafe" Value="274101" />
   <Preset Label="Discuss Expanding the Family (mixer_social_DiscussExpandingTheFamily_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="274109" />
   <Preset Label="Help {1.SimFirstName} Explore Food (objectDefinitionPicker_HighChair_FeedInfant)" Tags="TestUnsafe" Value="274155" />
+  <Preset Label="Give Food (createObjectDefinitionPicker_HighChair_FeedInfant_FingerFood)" Tags="TestUnsafe" Value="274156" />
   <Preset Label="Kick Out of Wedding Event (ask_toLeaveLot_WeddingParties)" Value="274250" />
   <Preset Label="Steep Tea (teaSet_SteepTea)" Value="274288" />
   <Preset Label="Clean Tea Set (teaSet_CleanTeaSet)" Value="274291" />
+  <Preset Label="Put {2.SimFirstName} Down Here (putDown_CarriedSim_HighChair_Infant_GiveFood)" Value="274388" />
   <Preset Label="Put {2.SimFirstName} Down Here (putDown_CarriedSim_HighChair_Infant_FeedInfant)" Value="274389" />
   <Preset Label="Put {2.SimFirstName} Down Here (putDown_CarriedSim_HighChair_Infant)" Value="274391" />
+  <Preset Label="Give Finger Foods to {1.SimFirstName} (HighChair_Infants_GiveFood)" Value="274393" />
   <Preset Label="Help {1.SimFirstName} Explore Food (HighChair_Infants_FeedInfant)" Value="274394" />
   <Preset Label="Age Up (ageUp_Infant_Paired)" Value="274408" />
   <Preset Label="Sleep (infant_Sleep)" Value="274411" />
@@ -7163,14 +7169,22 @@
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_CottageCore" Value="274588" />
   <Preset Label="idle_Buff_SimPreference_Likes_Music_CottageCore" Value="274589" />
   <Preset Label="simPreference_Immediate_CottageCore" Value="274590" />
+  <Preset Label="Feed a Bite (highChair_GiveFood_Feed)" Tags="TestUnsafe" Value="274631" />
   <Preset Label="Feed a Bite (highChair_FeedInfant_Feed)" Tags="TestUnsafe" Value="274633" />
   <Preset Label="Feed a Bite (highChair_FeedInfant_Feed_FirstBite)" Tags="TestUnsafe" Value="274634" />
   <Preset Label="Feed a Bite (highChair_FeedInfant_MakeAMess)" Tags="TestUnsafe" Value="274636" />
   <Preset Label="Feed a Bite (highChair_FeedInfant_StopDislike)" Tags="TestUnsafe" Value="274637" />
+  <Preset Label="Feed a Bite (Food_Eat_Infant_HighChair_Eat)" Value="274641" />
+  <Preset Label="Feed a Bite (Food_Eat_Infant_HighChair_Idle)" Value="274645" />
   <Preset Label="generic_Infant_LayOnBack" Value="274647" />
   <Preset Label="generic_Infant_LayOnTummy" Value="274648" />
+  <Preset Label="Feed a Bite (Food_Eat_Infant_HighChair_MakeAMess)" Value="274649" />
+  <Preset Label="Feed a Bite (Food_Eat_Infant_HighChair_StopDislike)" Value="274650" />
+  <Preset Label="Eat (consumable_Eat_Infant_HighChair)" Value="274656" />
   <Preset Label="Help {1.SimFirstName} Explore Food (objectDefinitionPicker_HighChair_FeedInfant_InChair)" Tags="TestUnsafe" Value="274756" />
+  <Preset Label="Give Finger Foods to {2.SimFirstName} (createObjectDefinitionPicker_HighChair_FeedInfant_FingerFood_InChair)" Tags="TestUnsafe" Value="274758" />
   <Preset Label="Explore Food with (simPicker_HighChair_Infant_GetFood_InChair)" Tags="TestUnsafe" Value="274760" />
+  <Preset Label="Get Finger Food (simPicker_HighChair_Infant_GetFingerFood_InChair)" Tags="TestUnsafe" Value="274762" />
   <Preset Label="Take Photo (wedding_Venue_Take_Picture)" Value="274770" />
   <Preset Label="Peruse Venue (waypoint_NonStitched_Wedding_Venue_Walk_Wander)" Value="274774" />
   <Preset Label="Ask {1.SimFirstName} to Pursue their Dream Job (mixer_social_AskSimToPursueDreamJob_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="274794" />
@@ -7197,6 +7211,8 @@
   <Preset Label="Continue to Add Baby Mobile (crib_Upgrade_AddMobile_Resume)" Value="275000" />
   <Preset Label="Ask to be Sim of Honor at Wedding (mixer_social_AskToBeHonorAttendant)" Tags="TestUnsafe" Value="275018" />
   <Preset Label="Ask for Blessing to Marry (mixer_social_AskForBlessingToMarry)" Tags="TestUnsafe" Value="275019" />
+  <Preset Label="Put {1.SimFirstName} in Back Carrier (socialSuperInteraction_CarryPickUp_Infant_Back_UserDirected)" Value="275055" />
+  <Preset Label="Take {1.SimFirstName} out of Back Carrier (transferCarryInteraction_BackToRight_Infant_UserDirected)" Value="275056" />
   <Preset Label="Convert to Crib (crib_Upgrade_ConvertToCrib)" Value="275066" />
   <Preset Label="Continue to Convert to Crib (crib_Upgrade_ConvertToCrib_Resume)" Value="275067" />
   <Preset Label="Dance Together (social_PairedDancing_Listen)" Value="275105" />
@@ -7233,6 +7249,7 @@
   <Preset Label="infantActions_Sleep_Idle" Value="275408" />
   <Preset Label="infantActions_Sleep_Idle_Crib" Value="275409" />
   <Preset Label="infantActions_Sleep_Stomach" Value="275411" />
+  <Preset Label="infantActions_Sleep_Stomach_Crib" Value="275420" />
   <Preset Label="Let's Have Fun (socials_Targeted_Friendly_AlwaysOn_STC_PrePostWeddingParties_BachParty_Barfly)" Tags="TestUnsafe" Value="275435" />
   <Preset Label="Let's Eat Desserts (socials_Targeted_Friendly_AlwaysOn_STC_PrePostWeddingParties_BachParty_Desserts)" Tags="TestUnsafe" Value="275436" />
   <Preset Label="Let's Eat Food (socials_Targeted_Friendly_AlwaysOn_STC_PrePostWeddingParties_BachParty_Dinner)" Tags="TestUnsafe" Value="275437" />
@@ -7823,6 +7840,8 @@
   <Preset Label="autonomous_ObjectPicker_Infant_PutDown_Crib_ToSleep" Tags="TestUnsafe" Value="282345" />
   <Preset Label="autonomous_ObjectPicker_Infant_PutDown_HighChair" Tags="TestUnsafe" Value="282351" />
   <Preset Label="autonomous_ObjectPicker_Infant_PutDown_HighChair_FeedInfant" Tags="TestUnsafe" Value="282352" />
+  <Preset Label="autonomous_ObjectPicker_Infant_PutDown_HighChair_GiveFood" Tags="TestUnsafe" Value="282353" />
+  <Preset Label="Give Finger Food in High Chair (socialSuperInteraction_CarryPickUp_Infant_ToHighChair_GiveFood)" Value="282427" />
   <Preset Label="si_HighSchoolFestival_Podium_EnterFestival" Value="282495" />
   <Preset Label="Taunt Rival (si_HighSchoolFestival_TauntRival)" Value="282555" />
   <Preset Label="Taunt Rival (mixer_Social_HighSchoolFestival_TauntRival)" Tags="TestUnsafe" Value="282556" />
@@ -8214,6 +8233,7 @@
   <Preset Label="Wear Quarterback Shirt (marketStalls_JustWearCAS_HighSchoolFestival_SportsDay_Football)" Value="286095" />
   <Preset Label="Buy and Wear Quarterback Shirt (marketStalls_BuyAndWearCAS_HighSchoolFestival_SportsDay_Football)" Value="286098" />
   <Preset Label="Check Out Mirror (super_EP12Death_UrbanMyth_CheckOutMirror)" Value="286139" />
+  <Preset Label="Blow a Kiss (socials_InfantToSim_BlowKiss_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="286150" />
   <Preset Label="Shave Arm Hair (shower_PubertyChanges_Shave_Arms)" Value="286160" />
   <Preset Label="Shave Facial Hair (shower_PubertyChanges_Shave_Face)" Value="286161" />
   <Preset Label="Shave Leg Hair (shower_PubertyChanges_Shave_Legs)" Value="286162" />
@@ -8222,9 +8242,15 @@
   <Preset Label="Shave Facial Hair (mixer_Shower_Shave_Face)" Value="286166" />
   <Preset Label="Shave Leg Hair (mixer_Shower_Shave_Legs)" Value="286167" />
   <Preset Label="Shave Chest Hair (mixer_Shower_Shave_Torso)" Value="286168" />
+  <Preset Label="Give Finger Foods to (simPicker_HighChair_Adult_FeedInfant_FingerFood)" Tags="TestUnsafe" Value="286173" />
   <Preset Label="mixers_Custom_State_Wedding_VowCeremony_ExchangeRings_Confident_Reversed" Tags="TestUnsafe" Value="286174" />
   <Preset Label="mixers_Custom_State_Wedding_VowCeremony_ExchangeRings_Dreamy_Reversed" Tags="TestUnsafe" Value="286175" />
   <Preset Label="mixers_Custom_State_Wedding_VowCeremony_ExchangeRings_Shy_Reversed" Tags="TestUnsafe" Value="286176" />
+  <Preset Label="Kiss (sim_Carry_Social_Infant_Kiss)" Value="286179" />
+  <Preset Label="Boo! (socials_InfantToSim_Peek_A_Boo_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="286181" />
+  <Preset Label="Swap Baby Milestone Stories (mixer_socials_SwapBabyMilestoneStories_Targeted_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="286184" />
+  <Preset Label="Wave at {1.SimFirstName} (socials_InfantToSim_WaveAt_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="286192" />
+  <Preset Label="Worry About Baby Development (socials_WorryAboutBabyDevelopment_Targeted_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="286208" />
   <Preset Label="Shave Arm Hair (mixer_Shower_Shave_Arms_Passive)" Value="286237" />
   <Preset Label="Shave Facial Hair (mixer_Shower_Shave_Face_Passive)" Value="286238" />
   <Preset Label="Shave Leg Hair (mixer_Shower_Shave_Legs_Passive)" Value="286239" />
@@ -8251,6 +8277,8 @@
   <Preset Label="Congratulate (mixer_HSGraduation_Congratulate)" Tags="TestUnsafe" Value="286325" />
   <Preset Label="Fake Congratulate (mixer_HSGraduation_FakeCongratulate)" Tags="TestUnsafe" Value="286326" />
   <Preset Label="Thank for School Year (mixer_HSGraduation_ThankForSchoolYear)" Tags="TestUnsafe" Value="286327" />
+  <Preset Label="Babble To Self (infant_BehaviorIdles_Babble)" Value="286334" />
+  <Preset Label="Blow Raspberries (infant_BehaviorIdles_BlowRaspberry)" Value="286337" />
   <Preset Label="socialMedia_ContextualBuff_Picker" Tags="TestUnsafe" Value="286376" />
   <Preset Label="socialMedia_ContextualNarrative_Picker" Tags="TestUnsafe" Value="286377" />
   <Preset Label="Watch Valedictorian Speech (hSGraduation_WatchValedictorianSpeech)" Value="286388" />
@@ -8258,6 +8286,7 @@
   <Preset Label="Give Valedictorian Speech (hSGraduation_GiveValedictorianSpeech)" Value="286391" />
   <Preset Label="Tend Podium (hSGraduation_TendPodium)" Value="286392" />
   <Preset Label="Call Out Diploma Recipient (hSGraduation_CallOutDiploma)" Value="286393" />
+  <Preset Label="Talk About Sibling (mixer_socials_TalkAboutSibling_Targeted_Friendly_AlwaysOn_STC_Child)" Tags="TestUnsafe" Value="286400" />
   <Preset Label="Attempt Simlish Communication (social_Werewolf_AttemptHumanCommunication)" Value="286410" />
   <Preset Label="Please Take your Seats (objectPicker_Custom_State_Wedding_TakeSeats_Arch)" Tags="TestUnsafe" Value="286413" />
   <Preset Label="schoolLocker_PassiveRead" Value="286420" />
@@ -8316,6 +8345,7 @@
   <Preset Label="socialMedia_NewPublicPost_MultiPicker" Tags="TestUnsafe" Value="286945" />
   <Preset Label="sI_SchoolLocker_ExamCram_NPC" Value="286946" />
   <Preset Label="Sell Outfit on Trendi (fashionMarketplace_SellWorn_Start)" Value="286964" />
+  <Preset Label="Place Toes In Mouth (infant_BehaviorIdles_PlaceToesInMouth)" Value="286976" />
   <Preset Label="Kiss (wedding_BrideGroom_AfterKiss_Delay_Townhall)" Tags="TestUnsafe" Value="286990" />
   <Preset Label="wedding_EndSuccess_TownHall" Tags="TestUnsafe" Value="286998" />
   <Preset Label="Sell Outfit on Trendi (fashionMarketplace_SellNotWorn_Start)" Value="287010" />
@@ -8389,6 +8419,13 @@
   <Preset Label="Cursed Bite (werewolfCreation_Actor_TurnIntoWerewolf_Cont)" Value="287452" />
   <Preset Label="Give an Uncommon or Rare Collectable (objectInInventoryPicker_WerewolfPack_JoinTrial_Collectable)" Tags="TestUnsafe" Value="287514" />
   <Preset Label="Give Excellent Quality Food (objectInInventoryPicker_WerewolfPack_JoinTrial_Food)" Tags="TestUnsafe" Value="287515" />
+  <Preset Label="Practice Crawling (practiceCrawling_Mixer_Picker)" Tags="TestUnsafe" Value="287544" />
+  <Preset Label="Tummy Time Together (social_InfantMilestones_TummyTime_Listen)" Value="287554" />
+  <Preset Label="Practice Crawling (social_InfantMilestones_PracticeCrawling)" Value="287555" />
+  <Preset Label="Practice Sitting (social_InfantMilestones_PracticeSitting)" Value="287556" />
+  <Preset Label="Practice Standing (social_InfantMilestones_PracticeStanding)" Value="287557" />
+  <Preset Label="Tummy Time Together (social_InfantMilestones_TummyTimeTogether)" Value="287559" />
+  <Preset Label="Tummy Time Together (social_InfantMilestones_TummyTimeTogether_Playmat)" Value="287560" />
   <Preset Label="Give {1.SimFirstName} a Packmate Gift (social_WerewolfPack_GiveItem_JoinTrial)" Value="287577" />
   <Preset Label="Take Photo (photobooth_TakePhoto)" Value="287603" />
   <Preset Label="Take Happy Photo (photobooth_TakePhoto_Happy)" Value="287604" />
@@ -8469,7 +8506,19 @@
   <Preset Label="generic_Photobooth" Value="287920" />
   <Preset Label="generic_Photobooth_WooHoo" Value="287925" />
   <Preset Label="si_SchoolLocker_FreshenUp_NPC" Value="287949" />
+  <Preset Label="Pull to Stand (infantMilestone_PullToStand)" Value="287980" />
+  <Preset Label="Tummy Time (infantMilestone_TummyTime_Solo)" Value="287983" />
   <Preset Label="Run Away! (werewolf_Reactions_RunAway)" Value="288009" />
+  <Preset Label="tummyTime_Mixers_Babble" Value="288025" />
+  <Preset Label="tummyTime_Mixers_Coo" Value="288026" />
+  <Preset Label="tummyTime_Mixers_Cry" Value="288027" />
+  <Preset Label="tummyTime_Mixers_GetUpOnKnees" Value="288028" />
+  <Preset Label="tummyTime_Mixers_Idles" Value="288029" />
+  <Preset Label="tummyTime_Mixers_LiftHeadtoChest" Value="288030" />
+  <Preset Label="tummyTime_Mixers_LiftLimbs" Value="288031" />
+  <Preset Label="tummyTime_Mixers_LookAround" Value="288032" />
+  <Preset Label="tummyTime_Mixers_Rotate" Value="288033" />
+  <Preset Label="tummyTime_Mixers_TurnHead" Value="288034" />
   <Preset Label="Practice Howling (social_Werewolf_TeachToHowl)" Value="288047" />
   <Preset Label="Ask for Werewolf Sympathy (social_Werewolf_Confess)" Value="288049" />
   <Preset Label="Discuss being a Werewolf (socials_Targeted_Friendly_AlwaysOn_STC_DiscussWerewolf)" Tags="TestUnsafe" Value="288050" />
@@ -8479,9 +8528,21 @@
   <Preset Label="Ask for Extra Credit (mixer_Social_Fear_Failing_Class_AskForExtraCredit)" Tags="TestUnsafe" Value="288095" />
   <Preset Label="Run Away! (werewolf_Reactions_RunAway_Autonomous)" Value="288111" />
   <Preset Label="Feed a Bite (highChair_FeedInfant_Stop_Intense)" Tags="TestUnsafe" Value="288113" />
+  <Preset Label="pullToStand_Mixers_Babble" Value="288134" />
+  <Preset Label="pullToStand_Mixers_Bounce" Value="288135" />
+  <Preset Label="pullToStand_Mixers_Cry" Value="288136" />
+  <Preset Label="pullToStand_Mixers_Coo" Value="288137" />
+  <Preset Label="pullToStand_Mixers_Idle" Value="288138" />
+  <Preset Label="pullToStand_Mixers_LookAround" Value="288139" />
+  <Preset Label="pullToStand_Mixers_Smile" Value="288140" />
+  <Preset Label="Pull to Stand (infantMilestone_PullToStand_Crib)" Value="288146" />
   <Preset Label="Try to Cleanse Self of Werebies  (shower_TakeShower_Werebies)" Value="288201" />
   <Preset Label="Try to Force Werebies Out (publicBathroom_Puke_Werebies)" Value="288202" />
   <Preset Label="Try to Force Werebies Out (toilet_Puke_Werebies)" Value="288203" />
+  <Preset Label="tummyTimeTogether_SocialMixers_Cry" Tags="TestUnsafe" Value="288214" />
+  <Preset Label="tummyTimeTogether_SocialMixers_Picker" Tags="TestUnsafe" Value="288215" />
+  <Preset Label="tummyTimeTogether_SocialMixers_Picker_Playmat" Tags="TestUnsafe" Value="288216" />
+  <Preset Label="tummyTimeTogether_SocialMixers_Cry_Playmat" Tags="TestUnsafe" Value="288222" />
   <Preset Label="Gather for Cake (sI_Custom_State_Wedding_StateChange_CakeGather)" Value="288262" />
   <Preset Label="Gather for the Bouquet Toss (sI_Custom_State_Wedding_StateChange_BouquetGather)" Value="288263" />
   <Preset Label="Have Guests Dance (sI_Custom_State_Wedding_StateChange_Dance)" Value="288264" />
@@ -8543,8 +8604,10 @@
   <Preset Label="Moonbathe (lunarCycle_Moonbathe)" Value="288838" />
   <Preset Label="Snarl At (social_Werewolf_RampageScare)" Value="288853" />
   <Preset Label="Practice Valedictorian Speech (mirror_PracticeSpeech_HSGraduation_ValedictorianSpeech)" Value="288858" />
+  <Preset Label="Kiss {1.SimFirstName}'s Forehead (baby_Mixer_FamilyKiss)" Value="288867" />
   <Preset Label="Serve Detention (immediate_HighSchool_Active_ServeDetention_FromTeacher)" Value="288883" />
   <Preset Label="Serve Detention (autoObjectPicker_HighSchool_Active_FindWhiteboard)" Tags="TestUnsafe" Value="288884" />
+  <Preset Label="infant_BehaviorIdles_Gassy" Value="288889" />
   <Preset Label="mixer_Lunarcycle_Moonbathe" Value="288900" />
   <Preset Label="Moonbathe (lunarCycle_Moonbathe_Join)" Value="288958" />
   <Preset Label="Sleep (generic_CribSleep)" Value="289025" />
@@ -8594,7 +8657,9 @@
   <Preset Label="Witness Turning (reactions_WerewolfCreation_PackANeg)" Value="289704" />
   <Preset Label="Witness Turning (reactions_WerewolfCreation_PackAPos)" Value="289705" />
   <Preset Label="Witness Turning (reactions_WerewolfCreation_PackB)" Value="289706" />
+  <Preset Label="infantActions_PreSleep_SuckFingers" Value="289714" />
   <Preset Label="mixerInteraction_TeenRelationshipDrama_Journal_Passive" Value="289728" />
+  <Preset Label="infantActions_PreSleep_Cry_SleepWhenHeld" Value="289729" />
   <Preset Label="Confess Daydream About Crush (socials_Targeted_Friendly_WhisperAboutCrush)" Tags="TestUnsafe" Value="289752" />
   <Preset Label="werewolf_Mixers_TeachToHowl_PassiveChild" Value="289755" />
   <Preset Label="werewolf_Mixers_TeachToHowl_PassiveToddler" Value="289756" />
@@ -9059,6 +9124,7 @@
   <Preset Label="Perform Solo Routine (si_CheerMat_Solo_CheerOutfit)" Value="300371" />
   <Preset Label="Present Promposal Sign (objectPicker_FindPromposalSign)" Tags="TestUnsafe" Value="300441" />
   <Preset Label="Place in World (si_SwipeAddToWorld_ThrowFootball)" Value="300509" />
+  <Preset Label="Practice Sitting (social_InfantMilestones_TummyTime_PracticeSitting)" Value="300602" />
   <Preset Label="Take Bath (bathtub_ToddlerInfantBath_Take_Bubbles)" Value="300723" />
   <Preset Label="Study for Exam (super_HighSchool_Active_CreateBook_Bookshelf)" Value="300751" />
   <Preset Label="autonomousSimPicker_Scenario_ProudParent_TeenParentRel" Tags="TestUnsafe" Value="300941" />
@@ -9074,6 +9140,9 @@
   <Preset Label="wolfTown_Portal_AdventureExit_OnLotSewer" Value="301030" />
   <Preset Label="wolfTown_Portal_AdventureExit_OnLotMine" Value="301031" />
   <Preset Label="Watch Award Ceremony (hSPromInteraction_WatchAwards)" Value="301075" />
+  <Preset Label="Ask if Excited to be a Big Sibling (mixer_Social_BabyShower_AskIfExcitedToBeSibling)" Tags="TestUnsafe" Value="301103" />
+  <Preset Label="Give a Baby Shower Gift (objectInInventoryPicker_BabyShower_GiveGift)" Tags="TestUnsafe" Value="301106" />
+  <Preset Label="Give Gift (si_Touching_GiveGift_BabyShower)" Value="301107" />
   <Preset Label="objectPicker_SimsfluencerSideHustle_Review_Lifestyle" Tags="TestUnsafe" Value="301136" />
   <Preset Label="objectPicker_SimsfluencerSideHustle_Review_Tech" Tags="TestUnsafe" Value="301137" />
   <Preset Label="objectPicker_SimsfluencerSideHustle_Review_Rare" Tags="TestUnsafe" Value="301138" />
@@ -9083,6 +9152,10 @@
   <Preset Label="Upload Lifestyle Review (computer_Career_SimsfluencerSideHustle_Upload_Lifestyle)" Value="301145" />
   <Preset Label="Upload Rare Item Review (computer_Career_SimsfluencerSideHustle_Upload_Rare)" Value="301147" />
   <Preset Label="Upload Technology Review (computer_Career_SimsfluencerSideHustle_Upload_Tech)" Value="301148" />
+  <Preset Label="Tell Adventure Story (social_SleepingBag_TellStory_Adventure)" Value="301168" />
+  <Preset Label="Listen to Story (social_SleepingBag_ListenToStory)" Value="301169" />
+  <Preset Label="Waiting for Listeners (socialMixer_SleepingBag_TellStory_Waiting)" Tags="TestUnsafe" Value="301171" />
+  <Preset Label="Tell Fairy Tale (socialMixer_SleepingBag_TellStory_FairyTale)" Tags="TestUnsafe" Value="301172" />
   <Preset Label="Scenarios_RivalVisit_CreatePizzaOnTable" Value="301245" />
   <Preset Label="Uninvite to Prom (socials_Targeted_Mean_AlwaysOn_STC_HSProm_Uninvite)" Tags="TestUnsafe" Value="301277" />
   <Preset Label="Perform Solo Routine (si_CheerMat_Solo_Start)" Value="301285" />
@@ -9090,6 +9163,11 @@
   <Preset Label="Tend Stall (marketStalls_Open_NoDoors)" Value="301607" />
   <Preset Label="scenario_NewInTown_Phase3a_SetNewAcquaintanceCaller_FriendGym" Value="301636" />
   <Preset Label="autonomousSimPicker_Scenario_NewInTown_Phase3a_NewAcquaintanceCaller_FriendGym" Tags="TestUnsafe" Value="301642" />
+  <Preset Label="Tell Adventure Story (simPicker_SleepingBag_TellStory_Adventure)" Tags="TestUnsafe" Value="301703" />
+  <Preset Label="Tell Scary Story (social_SleepingBag_TellStory_Scary)" Value="301705" />
+  <Preset Label="Tell Fairy Tale (social_SleepingBag_TellStory_Fairytale)" Value="301706" />
+  <Preset Label="Tell Scary Story (simPicker_SleepingBag_TellStory_Scary)" Tags="TestUnsafe" Value="301707" />
+  <Preset Label="Tell Fairy Tale (simPicker_SleepingBag_TellStory_Fairytale)" Tags="TestUnsafe" Value="301708" />
   <Preset Label="Review Class Schedule (super_HighSchool_Active_Computer_ReviewClassSchedule)" Value="301722" />
   <Preset Label="autonomousSimPicker_Scenario_NewInTown_Phase3b_NewAcquaintanceCaller_FriendBar" Tags="TestUnsafe" Value="301788" />
   <Preset Label="autonomousSimPicker_Scenario_NewInTown_Phase3b_NewAcquaintanceCaller_RomanceBar" Tags="TestUnsafe" Value="301789" />
@@ -9106,6 +9184,7 @@
   <Preset Label="hSPromInteraction_Preroll_Vote" Value="302819" />
   <Preset Label="si_CheerMat_Group_ClothingChange" Value="302832" />
   <Preset Label="hSPromInteraction_Preroll_Dance" Value="302922" />
+  <Preset Label="Share San Sequoia Secrets (mixer_social_BayArea_NPC_baygossip_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="302932" />
   <Preset Label="Perform Group Cheerleading Routine (si_CheerMat_Group_StartSequence_01_Display)" Value="302999" />
   <Preset Label="hSPromInteraction_Preroll_Stand" Value="303019" />
   <Preset Label="socialSuper_NPCRelationshipAutonomy_Reaction_Sad" Value="303056" />
@@ -9116,6 +9195,7 @@
   <Preset Label="Order Drink (bubbleTeaCounter_PushOrderDrink_NonVenue)" Value="303226" />
   <Preset Label="Order Food (bubbleTeaCounter_PushOrderFood_NonVenue)" Value="303228" />
   <Preset Label="Listen to {1.SimFirstName}'s Question (social_TeenPranks_PushAffordance_Dare)" Value="303346" />
+  <Preset Label="Blow Raspberry (sim_Carry_Social_Infant_BlowRaspberry_AtInfant)" Value="303415" />
   <Preset Label="Careers (super_HighSchool_Active_Patrol_Bathroom)" Value="303583" />
   <Preset Label="Careers (super_HighSchool_Active_Patrol_Cafeteria)" Value="303584" />
   <Preset Label="Careers (super_HighSchool_Active_Patrol_Hallway)" Value="303585" />
@@ -9130,10 +9210,19 @@
   <Preset Label="super_HighSchool_Active_Whiteboard_TeachExamPrep" Value="304083" />
   <Preset Label="Absolve Fears (urnstone_Fear_DisappointingParents_Confrontation)" Value="304163" />
   <Preset Label="Attend Exam (super_HighSchool_Active_AttendExam_NPC)" Value="304182" />
+  <Preset Label="Turn Off (splashpad_Immediate_TurnOff)" Value="304337" />
+  <Preset Label="Turn On (splashpad_Immediate_TurnOn)" Value="304338" />
+  <Preset Label="Weather (weatherEventPickerSuperInteraction_WeatherCheat_Picker)" Tags="TestUnsafe" Value="304401" />
   <Preset Label="Watch Career Presentation (super_HighSchool_Active_CareerDay_WatchSpeech_Preroll1)" Value="304418" />
   <Preset Label="Watch Career Presentation (super_HighSchool_Active_CareerDay_WatchSpeech_Preroll2)" Value="304419" />
   <Preset Label="Watch Career Presentation (super_HighSchool_Active_CareerDay_WatchSpeech_Preroll3)" Value="304420" />
   <Preset Label="Regular Football Practice with {1.SimFirstName} (touching_ThrowFootball_Play_NPC_HighSchool_Active)" Value="304437" />
+  <Preset Label="autonomous_ObjectPicker_Splashpad_Play" Tags="TestUnsafe" Value="304524" />
+  <Preset Label="Play in Water (splashpad_Play_PadOn)" Value="304528" />
+  <Preset Label="Stomp Angrily (splashpad_Stomp_Angrily)" Value="304668" />
+  <Preset Label="Stomp Playfully (splashpad_Stomp_Playfully)" Value="304669" />
+  <Preset Label="Watch Water (splashpad_Watch)" Value="304670" />
+  <Preset Label="splashpad_Infant_PadReact" Value="304684" />
   <Preset Label="Hush Little Baby (crib_PlayLullaby_Song2)" Value="304947" />
   <Preset Label="Rock-A-Bye Baby (crib_PlayLullaby_Song3)" Value="304988" />
   <Preset Label="Sleep Baby Sleep (crib_PlayLullaby_Song4)" Value="304989" />
@@ -9143,32 +9232,240 @@
   <Preset Label="Prefers Bottle Feeding (babyFeed_Preference_Bottle)" Value="305160" />
   <Preset Label="Clear Feeding Preference (babyFeed_Preference_None)" Value="305161" />
   <Preset Label="immediate_Infant_NewFlavors_Commodity_Failure" Value="305361" />
+  <Preset Label="Work on Puzzle (recreationTable_puzzles_craftingProgress_joinNoCraft)" Value="305428" />
+  <Preset Label="Watch The Sheriff from Alpha Centauri with (picker_MovieTheater_WatchWith_Action)" Tags="TestUnsafe" Value="305479" />
+  <Preset Label="Watch Princess Cordelia's Pirates with (picker_MovieTheater_WatchWith_Romance)" Tags="TestUnsafe" Value="305480" />
+  <Preset Label="Watch Of Tea &amp; Treachery with (picker_MovieTheater_WatchWith_Drama)" Tags="TestUnsafe" Value="305481" />
+  <Preset Label="Watch Yibs. Yibs! with (picker_MovieTheater_WatchWith_Comedy)" Tags="TestUnsafe" Value="305482" />
+  <Preset Label="Watch Moonlight Massacre IV: Cursed Bite with (picker_MovieTheater_WatchWith_Horror)" Tags="TestUnsafe" Value="305483" />
+  <Preset Label="Watch VoidBop: The Movie with (picker_MovieTheater_WatchWith_Kids)" Tags="TestUnsafe" Value="305484" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Action)" Value="305487" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Romance)" Value="305488" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Kids)" Value="305489" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Horror)" Value="305490" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Drama)" Value="305491" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Comedy)" Value="305492" />
   <Preset Label="Bottle Feed (sim_Feed_Infant_All_Chooser)" Value="305500" />
   <Preset Label="Learn to Ride (Debug) (debugImmediate_KidsBike_LearnToRide)" Value="305661" />
+  <Preset Label="Congratulate! (mixer_Social_BabyShower_CongratulateHost)" Tags="TestUnsafe" Value="305687" />
+  <Preset Label="Suggest a Baby Name (mixer_Social_BabyShower_SuggestBabyName)" Tags="TestUnsafe" Value="305688" />
+  <Preset Label="Gush About New Baby (mixer_Social_BabyShower_Gush)" Tags="TestUnsafe" Value="305689" />
+  <Preset Label="Guess New Baby's Future Career (mixer_Social_BabyShower_GuessBabyFuture)" Tags="TestUnsafe" Value="305690" />
+  <Preset Label="Offer New Parenting Advice (mixer_Social_BabyShower_OfferParentAdvice)" Tags="TestUnsafe" Value="305691" />
   <Preset Label="Help {1.SimFirstName} Explore Food (objectDefinitionPicker_HighChair_FeedInfant_Carried)" Tags="TestUnsafe" Value="306054" />
+  <Preset Label="Build Treehouse (super_Treehouse_Build)" Value="306095" />
+  <Preset Label="Request Marriage Certificate (phone_LifeMilestone_RequestMarriageCertificate)" Value="306316" />
+  <Preset Label="Request Marriage Certificate (computer_LifeMilestone_RequestMarriageCertificate)" Value="306317" />
+  <Preset Label="Reminisce (lifeMilestone_View_BabyKeepsake_Positive)" Value="306322" />
+  <Preset Label="Reminisce (lifeMilestone_View_BabyKeepsake_Child)" Value="306376" />
+  <Preset Label="Reminisce (lifeMilestone_View_ChildDrawings_Positive)" Value="306377" />
+  <Preset Label="Reminisce (lifeMilestone_View_ChildDrawings_Child)" Value="306379" />
+  <Preset Label="Reminisce (lifeMilestone_View_MarriageCertificate_Positive)" Value="306380" />
+  <Preset Label="Reminisce (lifeMilestone_View_BabyKeepsake_Negative)" Value="306447" />
+  <Preset Label="Reminisce (aggregateSI_LifeMilestone_View_BabyKeepsake)" Value="306448" />
+  <Preset Label="Reminisce (aggregateSI_LifeMilestone_View_ChildDrawings)" Value="306449" />
+  <Preset Label="Reminisce (lifeMilestone_View_ChildDrawings_Negative)" Value="306450" />
+  <Preset Label="Reminisce (aggregateSI_LifeMilestone_View_MarriageCertificate)" Value="306451" />
+  <Preset Label="Reminisce (lifeMilestone_View_MarriageCertificate_Negative)" Value="306452" />
+  <Preset Label="Milestones: Get School Drawings (immediate_LifeMilestone_Debug_GetChildDrawings)" Value="306453" />
+  <Preset Label="Milestones: Get Baby Keepsake (immediate_LifeMilestone_Debug_GetBabyKeepsake)" Value="306454" />
+  <Preset Label="Milestones: Get Marriage Certificate (immediate_LifeMilestone_Debug_GetMarriageCertificate)" Value="306455" />
+  <Preset Label="Creative Activity - Large (Debug) (burnout_Debug_CreativeLarge)" Value="306683" />
+  <Preset Label="Creative Activity - Small (Debug) (burnout_Debug_CreativeSmall)" Value="306684" />
+  <Preset Label="Play in Water (splashpad_Pet_Play)" Value="306701" />
+  <Preset Label="Mental Activity - Small (Debug) (burnout_Debug_MentalSmall)" Value="306711" />
+  <Preset Label="Mental Activity - Large (Debug) (burnout_Debug_MentalLarge)" Value="306712" />
+  <Preset Label="Slide (super_Treehouse_Upgrade_Slide)" Value="306718" />
+  <Preset Label="Sliding Pole (super_Treehouse_Upgrade_Pole)" Value="306723" />
+  <Preset Label="Lights (super_Treehouse_Upgrade_Lights)" Value="306724" />
+  <Preset Label="Bell (super_Treehouse_Upgrade_Bell)" Value="306725" />
+  <Preset Label="Resume Bell Upgrade (super_Treehouse_Upgrade_Bell_Resume)" Value="306727" />
+  <Preset Label="Resume Lights Upgrade (super_Treehouse_Upgrade_Lights_Resume)" Value="306729" />
+  <Preset Label="Resume Sliding Pole Upgrade (super_Treehouse_Upgrade_Pole_Resume)" Value="306731" />
+  <Preset Label="Resume Slide Upgrade (super_Treehouse_Upgrade_Slide_Resume)" Value="306733" />
   <Preset Label="Share Photos (mixer_social_SharePhoto)" Tags="TestUnsafe" Value="306735" />
+  <Preset Label="Ask {1.SimFirstName} to Help Out (social_TemporaryStay_AskToHelp)" Value="306737" />
+  <Preset Label="Ask {1.SimFirstName} to Relax (social_TemporaryStay_AskToRelax)" Value="306738" />
+  <Preset Label="Hug {1.SimFirstName} Goodbye (social_TemporaryStay_Hug)" Value="306739" />
+  <Preset Label="Welcome {1.SimFirstName} (social_TemporaryStay_Welcome)" Value="306740" />
+  <Preset Label="buffIdle_Child_Confidence_High" Value="307109" />
+  <Preset Label="Buy a Baby Shower Gift (purchasePickerWithContinuationInteraction_BabyShower_GiveGift)" Tags="TestUnsafe" Value="307205" />
+  <Preset Label="Plan Outfits (planOutfit_Infant_Immobile)" Value="307339" />
+  <Preset Label="Plan Outfit (planOutfit_Mirror_Infant_Immobile)" Value="307340" />
+  <Preset Label="Watch Nature (super_Treehouse_WatchNature)" Value="307413" />
+  <Preset Label="Climb Down Treehouse Ladder (super_Treehouse_Ladder_ClimbDown_End)" Value="307415" />
+  <Preset Label="Climb Down Treehouse Ladder (super_Treehouse_Ladder_ClimbDown_Start)" Value="307416" />
+  <Preset Label="recreationTable_puzzles_start_size01_animal" Value="307421" />
+  <Preset Label="Praise Effort (socialSuperInteraction_Child_Confidence_PraiseEffort)" Value="307437" />
+  <Preset Label="Praise Effort (socialSuperInteraction_Child_Confidence_Admonish)" Value="307438" />
+  <Preset Label="Ask if Excited to be a Big Sibling (mixer_Social_BabyShower_AskIfExcitedToBeSibling_Toddler)" Tags="TestUnsafe" Value="307475" />
+  <Preset Label="Give Gift (si_Touching_GiveGift_BabyShower_NPC)" Value="307476" />
+  <Preset Label="Give Finger Foods to {2.SimFirstName} (createObjectDefinitionPicker_HighChair_FeedInfant_FingerFood_Carried)" Tags="TestUnsafe" Value="307488" />
   <Preset Label="Give Food to {2.SimFirstName} (putDown_CarriedSim_ToddlerInfantHighChair_GiveFood_Carried)" Value="307491" />
   <Preset Label="Give Drink to {2.SimFirstName} (putDown_CarriedSim_ToddlerInfantHighChair_GiveDrink_Carried)" Value="307492" />
   <Preset Label="Give Food to {2.SimFirstName} (toddlerHighChair_GiveFood_Carried)" Value="307493" />
   <Preset Label="Give Drink to {2.SimFirstName} (toddlerHighChair_GiveDrink_Carried)" Value="307494" />
+  <Preset Label="Climb Up Treehouse Ladder (super_Treehouse_Ladder_ClimbUp_End)" Value="307499" />
+  <Preset Label="Climb Up Treehouse Ladder (super_Treehouse_Ladder_ClimbUp_Start)" Value="307510" />
+  <Preset Label="Slide Down Treehouse Slide (super_Treehouse_Slide_SlideDown_End)" Value="307512" />
+  <Preset Label="Slide Down Treehouse Slide (super_Treehouse_Slide_SlideDown_Start)" Value="307513" />
+  <Preset Label="Climb Up Treehouse Slide (super_Treehouse_Slide_ClimbUp_End)" Value="307525" />
+  <Preset Label="Climb Up Treehouse Slide (super_Treehouse_Slide_ClimbUp_Start)" Value="307526" />
+  <Preset Label="Slide Down Treehouse Pole (super_Treehouse_Pole_SlideDown_End)" Value="307528" />
+  <Preset Label="Slide Down Treehouse Pole (super_Treehouse_Pole_SlideDown_Start)" Value="307529" />
+  <Preset Label="Ring Treehouse Bell (super_Treehouse_RingBell)" Value="307531" />
+  <Preset Label="recreationTable_puzzles_start_size02_scifi" Value="307594" />
+  <Preset Label="recreationTable_puzzles_start_size04_puzzleByReference" Value="307606" />
   <Preset Label="Try Go Night Night (infant_PreSleep)" Value="307677" />
+  <Preset Label="Discuss Family Lineage (social_TemporaryStay_FamilyReunion_FamilyLineage)" Value="307730" />
+  <Preset Label="Puzzles (gameTable_changeGame_recreationTable_puzzles)" Value="307771" />
+  <Preset Label="recreationTable_puzzles_craftingPhase_start_size01" Value="307774" />
+  <Preset Label="Creative Fog (debugImmediate_Burnout_GetFogCreative)" Value="307830" />
+  <Preset Label="Mental Fog (debugImmediate_Burnout_GetFogMental)" Value="307831" />
+  <Preset Label="Burned Out (debugImmediate_Burnout_GetBurnedOut)" Value="307832" />
+  <Preset Label="Brain Block (debugImmediate_Burnout_GetMentalBlock)" Value="307833" />
+  <Preset Label="Resolve Burnout (Debug) (debugImmediate_Burnout_Reset)" Value="307834" />
   <Preset Label="picker_CarryableInfant_SetPreferredCarrier" Tags="TestUnsafe" Value="307871" />
   <Preset Label="Set Preferred Back Carrier... (carryableInfant_SetPreferredCarrier)" Value="307872" />
   <Preset Label="Go Here (si_GoHere_Together_CarryingSim_Waiting)" Value="307905" />
+  <Preset Label="Discuss Future Family Plans (social_TemporaryStay_FamilyReunion_FuturePlans)" Value="307937" />
+  <Preset Label="Discuss Importance of Family (social_TemporaryStay_FamilyReunion_ImportanceOfFamily)" Value="307938" />
+  <Preset Label="Discuss Meaning of Family (social_TemporaryStay_FamilyReunion_MeaningOfFamily)" Value="307939" />
+  <Preset Label="recreationTable_puzzles_craftingPhase_progress" Value="307999" />
+  <Preset Label="Place Puzzle Piece (recreationTable_puzzles_craftingProgress_placePiece)" Value="308002" />
+  <Preset Label="Locate Piece (recreationTable_puzzles_craftingProgress_idle)" Value="308003" />
   <Preset Label="Cuddle (socials_Infant_Carry_CradleHold_Cuddle)" Value="308120" />
   <Preset Label="Bounce (socials_Infant_Carry_CradleHold_Bounce)" Value="308121" />
   <Preset Label="Comfort (socials_Infant_Carry_CradleHold_Comfort)" Value="308122" />
+  <Preset Label="Open Gift Package (immediate_JobLoss_Layoff_OpenGiftPackage)" Value="308157" />
+  <Preset Label="Clean Up Puzzle (gameTable_changeGame_recreationTable_puzzles_reset_onTable)" Value="308230" />
+  <Preset Label="Complain about Burnout (mixer_social_ComplainAboutBurnout)" Tags="TestUnsafe" Value="308270" />
+  <Preset Label="idle_Buff_Burnout_Angry" Value="308274" />
+  <Preset Label="idle_Buff_Burnout_Sad" Value="308343" />
+  <Preset Label="idle_Buff_Burnout_Bored" Value="308344" />
+  <Preset Label="social_ComplainAboutBurnout_Comfort" Value="308423" />
+  <Preset Label="Complain about Burnout (mixer_social_ComplainAboutBurnout_Fog)" Tags="TestUnsafe" Value="308425" />
+  <Preset Label="Resume {0.String} (craftingResume_recreationTable_puzzles)" Value="308432" />
+  <Preset Label="Fairy Tale Castle Decorations (immediate_Treehouse_SetDeco_FairyTaleCastle)" Value="308441" />
+  <Preset Label="Space Explorer Decorations (immediate_Treehouse_SetDeco_SpaceRocket)" Value="308444" />
+  <Preset Label="Island Castaway Decorations (immediate_Treehouse_SetDeco_NatureEscape)" Value="308445" />
+  <Preset Label="Pirate Hideout Decorations (immediate_Treehouse_SetDeco_PirateHideout)" Value="308446" />
+  <Preset Label="Undecorated (immediate_Treehouse_SetDeco_Default)" Value="308453" />
   <Preset Label="Try Go Night Night (infant_PreSleep_Playmat)" Value="308458" />
   <Preset Label="Sleep (infant_SleepNormal_Playmat)" Value="308459" />
+  <Preset Label="Debug: Build Treehouse (debug_Treehouse_SetBuilt)" Value="308464" />
+  <Preset Label="Debug: Give Upgrade Object - Slide (debug_Treehouse_GiveUpgrade_Slide)" Value="308466" />
   <Preset Label="Clean Up (sink_cleanUp_CarryInfant)" Value="308490" />
   <Preset Label="Clean Up (cleanUp_CarryInfant)" Value="308491" />
+  <Preset Label="Debug: Give Upgrade Object - Sliding Pole (debug_Treehouse_GiveUpgrade_Pole)" Value="308498" />
+  <Preset Label="Debug: Give Upgrade Object - Lights (debug_Treehouse_GiveUpgrade_Lights)" Value="308499" />
+  <Preset Label="Debug: Give Upgrade Object - Bell (debug_Treehouse_GiveUpgrade_Bell)" Value="308500" />
+  <Preset Label="si_jobLoss_Layoff_AcceptPizza" Value="308583" />
+  <Preset Label="Play Pretend: Island Castaway (super_Treehouse_PlayPretend_Castaway)" Value="308587" />
+  <Preset Label="Play Pretend: Fairy Tale Castle (super_Treehouse_PlayPretend_FairyTale)" Value="308588" />
+  <Preset Label="Play Pretend: Pirate Hideout (super_Treehouse_PlayPretend_Pirates)" Value="308589" />
+  <Preset Label="Play Pretend: Space Explorer (super_Treehouse_PlayPretend_Space)" Value="308590" />
+  <Preset Label="Play Island Castaway With (picker_Treehouse_PlayPretendWith_Castaway)" Tags="TestUnsafe" Value="308593" />
+  <Preset Label="Play Fairy Tale Castle With (picker_Treehouse_PlayPretendWith_FairyTale)" Tags="TestUnsafe" Value="308595" />
+  <Preset Label="Play Space Explorers With (picker_Treehouse_PlayPretendWith_Space)" Tags="TestUnsafe" Value="308596" />
+  <Preset Label="Play Pirates With (picker_Treehouse_PlayPretendWith_Pirates)" Tags="TestUnsafe" Value="308597" />
+  <Preset Label="Ask about Job Loss (mixer_Social_JobLoss_AskAboutJobLoss)" Tags="TestUnsafe" Value="308754" />
+  <Preset Label="Console About Job Loss (mixer_Social_JobLoss_ConsoleAboutJobLoss)" Tags="TestUnsafe" Value="308755" />
+  <Preset Label="Congratulate on New Job (mixer_Social_JobLoss_CongratulateOnNewJob)" Tags="TestUnsafe" Value="308756" />
+  <Preset Label="Place Puzzle Piece (recreationTable_puzzles_craftingProgress_join_placePiece)" Value="308763" />
+  <Preset Label="Locate Piece (recreationTable_puzzles_craftingProgress_join_idle)" Value="308764" />
+  <Preset Label="Clean Up Puzzle (gameTable_changeGame_recreationTable_puzzles_reset_onPuzzle)" Value="308765" />
+  <Preset Label="Make Looking For Work Post (phone_JobLoss_MakeLookingForWorkPost)" Value="308846" />
+  <Preset Label="Play Island Castaway With (super_Social_Treehouse_PlayPretendWith_Castaway)" Value="309012" />
+  <Preset Label="Play Fairy Tale Castle With (super_Social_Treehouse_PlayPretendWith_FairyTale)" Value="309013" />
+  <Preset Label="Play House With (super_Social_Treehouse_PlayPretendWith_House)" Value="309014" />
+  <Preset Label="Play Space Explorers With (super_Social_Treehouse_PlayPretendWith_Space)" Value="309015" />
+  <Preset Label="Play Pirates With (super_Social_Treehouse_PlayPretendWith_Pirates)" Value="309016" />
+  <Preset Label="Play House With (picker_Treehouse_PlayPretendWith_House)" Tags="TestUnsafe" Value="309039" />
+  <Preset Label="Play Pretend: House (super_Treehouse_PlayPretend_House)" Value="309061" />
+  <Preset Label="mixerInteraction_1" Value="309062" />
+  <Preset Label="Frame Puzzle (recreationTable_puzzles_framePuzzle)" Value="309069" />
+  <Preset Label="Make Looking For Work Post (computer_JobLoss_MakeLookingForWorkPost)" Value="309112" />
+  <Preset Label="Get Work Rival (Debug) (debugImmediate_WorkRival_Add)" Value="309134" />
+  <Preset Label="Remove Work Rival (Debug) (debugImmediate_WorkRival_Remove)" Value="309135" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Active_House" Value="309157" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Active_Space" Value="309158" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Active_Castaway" Value="309159" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Active_FairyTale" Value="309160" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Active_Pirates" Value="309161" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Passive_Castaway" Value="309162" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Passive_Pirates" Value="309163" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Passive_FairyTale" Value="309164" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Passive_House" Value="309165" />
+  <Preset Label="mixer_Treehouse_PlayPretend_Passive_Space" Value="309166" />
+  <Preset Label="Simbles (gameTable_changeGame_recreationTable_simblesDominoes)" Value="309196" />
+  <Preset Label="Playing Simbles (recreationTable_simblesDominoes_playing)" Value="309209" />
+  <Preset Label="Research Genealogy (computer_ResearchGenealogy)" Value="309244" />
+  <Preset Label="recreationTable_simblesDominoes_takeTurn" Tags="TestUnsafe" Value="309250" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Action_Group)" Value="309371" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Comedy_Group)" Value="309373" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Drama_Group)" Value="309375" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Horror_Group)" Value="309377" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Kids_Group)" Value="309379" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_Romance_Group)" Value="309391" />
   <Preset Label="Go Here &lt;i&gt;Ferociously&lt;/i&gt; (terrain-gohere_Werewolf_WolfRunHere)" Value="309412" />
+  <Preset Label="Play Simbles With (simPickerInteraction_recreationTable_simblesDominoes_playWith)" Tags="TestUnsafe" Value="309422" />
+  <Preset Label="recreationTable_simblesDominoes_win" Tags="TestUnsafe" Value="309423" />
+  <Preset Label="recreationTable_simblesDominoes_waitForWinner" Tags="TestUnsafe" Value="309425" />
+  <Preset Label="Tell Epic Tales (mixer_social_LifeMilestone_TellEpicTales)" Tags="TestUnsafe" Value="309462" />
   <Preset Label="Change Diaper (sim_Carry_Social_Infant_ChangeDiaper)" Value="309492" />
+  <Preset Label="si_nonTouching_Greeting_Compatibility_Amazing" Value="309587" />
+  <Preset Label="si_nonTouching_Greeting_Compatibility_Awful" Value="309588" />
+  <Preset Label="StayoverDurationPickerSuperInteraction" Tags="TestUnsafe" Value="309599" />
+  <Preset Label="StayoverStartTimePickerSuperInteraction" Tags="TestUnsafe" Value="309600" />
+  <Preset Label="stayoverSimPickerInteraction" Tags="TestUnsafe" Value="309601" />
+  <Preset Label="Plan Stay Over (stayoverMultiPickerInteraction)" Tags="TestUnsafe" Value="309609" />
+  <Preset Label="Give Gift (si_Touching_GivePurchase_BabyShower)" Value="309654" />
+  <Preset Label="Make Drink (bar_StartCrafting_BabyShowerDrinks_Autonomously)" Value="309659" />
+  <Preset Label="social_BabyShower_NPCSocials" Value="309660" />
+  <Preset Label="Playing Simbles (recreationTable_simblesDominoes_tileSetup)" Value="309663" />
+  <Preset Label="generic_Treehouse" Value="309770" />
+  <Preset Label="generic_Treehouse_WooHoo" Value="309773" />
+  <Preset Label="Play in Enclosure (super_Treehouse_Enclosure_Play)" Value="309818" />
+  <Preset Label="social_TemporaryStay_Empty" Value="309942" />
+  <Preset Label="social_TemporaryStay_EmptyTouching" Value="310009" />
+  <Preset Label="Nap in Enclosure (super_Treehouse_Enclosure_Nap)" Value="310023" />
+  <Preset Label="Cry in Enclosure (super_Treehouse_Enclosure_Cry)" Value="310025" />
+  <Preset Label="Defuse Temper in Enclosure (super_Treehouse_Enclosure_Defuse)" Value="310026" />
+  <Preset Label="Hide in Enclosure (super_Treehouse_Enclosure_Hide)" Value="310029" />
+  <Preset Label="Wake Up (picker_Treehouse_WakeUp)" Tags="TestUnsafe" Value="310031" />
+  <Preset Label="Playing Simbles (recreationTable_simblesDominoes_traySetup)" Value="310038" />
+  <Preset Label="Sleep in Enclosure (super_Treehouse_Enclosure_Sleep)" Value="310103" />
+  <Preset Label="Tell Spooky Story in Enclosure (super_Treehouse_Enclosure_TellSpookyStory_Leader)" Value="310108" />
+  <Preset Label="Listen to Spooky Story in Enclosure (super_Treehouse_Enclosure_TellSpookyStory_Listen)" Value="310110" />
+  <Preset Label="mixer_Treehouse_Enclosure_TellSpookyStory_Active" Value="310111" />
+  <Preset Label="Practice Simbles (recreationTable_simblesDominoes_practice)" Value="310374" />
+  <Preset Label="Relax in Enclosure (super_Treehouse_Enclosure_Relax)" Value="310384" />
+  <Preset Label="mixer_Treehouse_Enclosure_Relax" Value="310387" />
   <Preset Label="Sit Up (infant_PostureChange_SitUp)" Value="310389" />
   <Preset Label="Lie Down (infant_PostureChange_LieDown)" Value="310390" />
   <Preset Label="Lie Down (infant_PostureChange_InObject_LieDown)" Value="310391" />
   <Preset Label="Sit Up (infant_PostureChange_InObject_SitUp)" Value="310392" />
+  <Preset Label="Welcome {1.SimFirstName} to Household (mixer_social_WelcomeToHousehold_Friendly)" Tags="TestUnsafe" Value="310402" />
+  <Preset Label="Ask To Move In (social_AskToMoveIn_NPC)" Value="310403" />
+  <Preset Label="social_TemporaryStay_HugAutonomous" Value="310408" />
+  <Preset Label="solo_TemporaryStay_SummonSnacks" Value="310411" />
+  <Preset Label="mixer_Treehouse_Enclosure_Chat" Value="310438" />
   <Preset Label="Purchase Upgrade Parts (purchase_Upgrade_Parts_OnSim_Debug)" Tags="TestUnsafe" Value="310448" />
+  <Preset Label="reaction_mixer_recreationTable_simblesDominoes_lossUpset" Value="310614" />
+  <Preset Label="Reject Move In Request (reaction_RejectAskToMoveIn)" Value="310640" />
+  <Preset Label="Mess Around With (treehouse_MessAround_Picker)" Tags="TestUnsafe" Value="310660" />
+  <Preset Label="Try for Baby With (treehouse_TryForBaby_Female_Picker)" Tags="TestUnsafe" Value="310661" />
+  <Preset Label="Try for Baby With (treehouse_TryForBaby_Male_Picker)" Tags="TestUnsafe" Value="310662" />
+  <Preset Label="WooHoo With (treehouse_WooHoo_Picker)" Tags="TestUnsafe" Value="310663" />
+  <Preset Label="Try for Baby in Treehouse (mixer_Social_TryForBabyAsk_Treehouse)" Tags="TestUnsafe" Value="310664" />
+  <Preset Label="WooHoo in Treehouse (mixer_Social_WooHooAsk_Treehouse)" Tags="TestUnsafe" Value="310665" />
+  <Preset Label="WooHoo (treehouse_WooHoo)" Value="310666" />
+  <Preset Label="Try for Baby (treehouse_TryForBaby)" Value="310667" />
+  <Preset Label="social_TemporaryStay_Argue" Value="310690" />
+  <Preset Label="recreationTable_simblesDominoes_idle" Tags="TestUnsafe" Value="310768" />
+  <Preset Label="Playing Simbles (recreationTable_simblesDominoes_clearTable)" Value="311009" />
+  <Preset Label="Playing Simbles (recreationTable_simblesDominoes_trayWait)" Value="311010" />
   <Preset Label="Practice Riding Bike (waypoint_Vehicle_Bike_RideAround_KidsBikePractice)" Value="311049" />
   <Preset Label="Practice Riding Bike (swipeAddToWorld_Bike_KidsBikePractice)" Value="311050" />
   <Preset Label="Ride Bike Around (bike_Picker_RideAround_Self_KidsBikePractice)" Tags="TestUnsafe" Value="311052" />
@@ -9176,50 +9473,228 @@
   <Preset Label="Ride Bike Around (bike_Picker_RideAround_Self_KidsBikePractice_Favorite)" Tags="TestUnsafe" Value="311054" />
   <Preset Label="Clean (ChangeTable_Clean)" Value="311158" />
   <Preset Label="Confess Trash Talk (mixer_Social_Targeted_Friendly_Loyal_ConfessTrashTalk)" Tags="TestUnsafe" Value="311379" />
+  <Preset Label="social_TemporaryStay_SneakTreat" Value="311393" />
+  <Preset Label="Walk Around Arboretum With (groupWalkingTrail_walkWith_picker_arboretum_start_walk)" Tags="TestUnsafe" Value="311398" />
+  <Preset Label="Walk Around the Lake With (groupWalkingTrail_walkWith_picker_recreationCenter_start_walk)" Tags="TestUnsafe" Value="311399" />
+  <Preset Label="Walk Around the Pond With (groupWalkingTrail_walkWith_picker_boatHouse_start)" Tags="TestUnsafe" Value="311400" />
+  <Preset Label="Go Walking (groupWalkingTrail_headToSign_leader_recreationCenter_walk)" Value="311429" />
+  <Preset Label="Go Walking (groupWalkingTrail_headToSign_leader_arboretum_walk)" Value="311430" />
+  <Preset Label="Go Walking (groupWalkingTrail_headToSign_leader_boatHouse_walk)" Value="311431" />
+  <Preset Label="Go Walking (groupWalkingTrail_headToSign_member)" Value="311432" />
+  <Preset Label="Walk Around the Arboretum (groupWalkingTrail_headToSign_solo_walk_arboretum)" Value="311433" />
+  <Preset Label="Walk Around the Pond  (groupWalkingTrail_headToSign_solo_walk_boatHouse)" Value="311434" />
+  <Preset Label="Walk Around the Lake (groupWalkingTrail_headToSign_solo_walk_recreationCenter)" Value="311435" />
+  <Preset Label="Walk Around the Arboretum (groupWalkingTrail_walkSolo_walk_arboretum)" Value="311436" />
+  <Preset Label="Walk Around the Pond (groupWalkingTrail_walkSolo_walk_boatHouse)" Value="311447" />
+  <Preset Label="Walk Around the Lake (groupWalkingTrail_walkSolo_walk_recreationCenter)" Value="311448" />
+  <Preset Label="Go Walking (groupWalkingTrail_SI_walkSolo_situation)" Value="311449" />
+  <Preset Label="Go Walking (groupWalkingTrail_walkAroundWith_leader_arboretum_walk)" Value="311488" />
+  <Preset Label="Go Walking (groupWalkingTrail_walkAroundWith_leader_recreationCenter_walk)" Value="311489" />
+  <Preset Label="Go Walking (groupWalkingTrail_walkAroundWith_leader_boatHouse_walk)" Value="311500" />
+  <Preset Label="Go Walking (groupWalkingTrail_walkAroundWith_member_dog)" Value="311501" />
+  <Preset Label="Go Walking (groupWalkingTrail_walkAroundWith_member)" Value="311502" />
+  <Preset Label="solo_TemporaryStay_SummonSip" Value="311527" />
+  <Preset Label="Set Admission: Kids Only (immediate_Treehouse_SetAdmission_Only_C)" Value="311638" />
+  <Preset Label="Set Admission: Teens Only (immediate_Treehouse_SetAdmission_Only_T)" Value="311640" />
+  <Preset Label="Set Admission: No Adults Allowed (immediate_Treehouse_SetAdmission_Only_CT)" Value="311641" />
   <Preset Label="autonomousSimPicker_Trait_Loyal_Cheating" Tags="TestUnsafe" Value="311746" />
   <Preset Label="Trait_Loyal_CheatedOn_Continuation" Value="311747" />
   <Preset Label="Confess Cheating (mixer_Social_Targeted_Romance_Loyal_ConfessCheating)" Tags="TestUnsafe" Value="311759" />
+  <Preset Label="Set Admission: Unlock For All (immediate_Treehouse_SetAdmission_Unlock)" Value="311879" />
   <Preset Label="Go Home (sim-gohome-Infant)" Value="311920" />
+  <Preset Label="Go Walking (waypoint_groupWalkingTrail_solo)" Value="311970" />
   <Preset Label="aggregate_ChangeTable_DiaperTrash" Value="312022" />
   <Preset Label="Confront About Bullying (mixer_Social_Targeted_Mean_Loyal_ConfrontAboutBullying)" Tags="TestUnsafe" Value="312052" />
+  <Preset Label="groupWalkingTrail_stopPoint_chooser_groupWait" Value="312068" />
+  <Preset Label="groupWalkingTrail_stopPoint_chooser_powerWalk" Value="312069" />
+  <Preset Label="groupWalkingTrail_stopPoint_chooser_reflective" Value="312071" />
+  <Preset Label="Stretch (groupWalkingTrail_stopPoint_stretch)" Value="312072" />
+  <Preset Label="Breathe Deeply (groupWalkingTrail_stopPoint_deepBreath)" Value="312073" />
+  <Preset Label="Eat a Snack (groupWalkingTrail_stopPoint_eatSnack)" Value="312074" />
+  <Preset Label="Inspect Animal Prints (groupWalkingTrail_stopPoint_inspectPrints)" Value="312105" />
+  <Preset Label="Tell a Joke (groupWalkingTrail_stopPoint_leader_tellJoke)" Value="312106" />
+  <Preset Label="Take Selfie (groupWalkingTrail_stopPoint_takeSelfie)" Value="312108" />
+  <Preset Label="Point Excitedly (groupWalkingTrail_stopPoint_pointExcitedly)" Value="312109" />
+  <Preset Label="Yawn (groupWalkingTrail_stopPoint_yawn)" Value="312111" />
+  <Preset Label="Drink From Water Bottle (groupWalkingTrail_stopPoint_drinkWaterBottle)" Value="312112" />
+  <Preset Label="Use Binoculars (groupWalkingTrail_stopPoint_useBinoculars)" Value="312113" />
+  <Preset Label="Stomp Around Angrily (groupWalkingTrail_stopPoint_angryStomp)" Value="312114" />
+  <Preset Label="Relax and Reflect (groupWalkingTrail_stopPoint_reflect)" Value="312115" />
+  <Preset Label="Tell a Story (groupWalkingTrail_stopPoint_leader_tellStory)" Value="312116" />
+  <Preset Label="Listen to Group Leader (groupWalkingTrail_stopPoint_groupListen)" Value="312120" />
+  <Preset Label="Reminisce (lifeMilestone_View_ToothCertificate_Positive)" Value="312181" />
   <Preset Label="Careers (objectInSlotPicker_ChangingTable_DiaperTrash)" Tags="TestUnsafe" Value="312184" />
   <Preset Label="immediate_ThrowAway_DiaperTrash" Value="312186" />
   <Preset Label="immediate_Create_DiaperTrash" Value="312189" />
+  <Preset Label="solo_TemporaryStay_Mopey" Value="312205" />
+  <Preset Label="Plan Stay Over (stayoverMultiPickerInteraction_Phone)" Tags="TestUnsafe" Value="312209" />
+  <Preset Label="Plan Stay Over (stayoverMultiPickerInteraction_FromRelPanel)" Tags="TestUnsafe" Value="312210" />
+  <Preset Label="Reminisce (lifeMilestone_View_ToothCertificate_Negative)" Value="312235" />
+  <Preset Label="Milestones: Get Tooth Fairy Certificate (immediate_LifeMilestone_Debug_GetToothCertificate)" Value="312236" />
+  <Preset Label="Reminisce (lifeMilestone_View_ToothCertificate_Child)" Value="312237" />
+  <Preset Label="Reminisce (aggregateSI_LifeMilestone_View_ToothCertificate)" Value="312238" />
   <Preset Label="idle_Buff_SimPreference_Dislikes_Music_Oldies" Value="312281" />
   <Preset Label="idle_Buff_SimPreference_Likes_Music_Oldies" Value="312282" />
   <Preset Label="simPreference_Immediate_Oldies" Value="312285" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_Oldies)" Value="312286" />
+  <Preset Label="Listen to Soul (stereo_listen_Oldies_HotTub)" Value="312288" />
+  <Preset Label="Listen to Soul (stereo_listen_Oldies_HotTub_NotInHotTub)" Value="312289" />
+  <Preset Label="Listen to Soul (stereo_listen_Oldies_EarBuds)" Value="312291" />
+  <Preset Label="Listen to Soul (stereo_listen_Oldies)" Value="312292" />
+  <Preset Label="Listen to Soul (stereo_listen_Oldies_Smart_Hub)" Value="312293" />
   <Preset Label="Confront About Bullying (reactions_Social_ConfrontAbout)" Value="312320" />
+  <Preset Label="Power Walk Around the Arboretum  (groupWalkingTrail_walkSolo_powerWalk_arboretum)" Value="312341" />
+  <Preset Label="Power Walk Around the Pond  (groupWalkingTrail_walkSolo_powerWalk_boatHouse)" Value="312342" />
+  <Preset Label="Power Walk Around the Lake  (groupWalkingTrail_walkSolo_powerwalk_recreationCenter)" Value="312343" />
+  <Preset Label="Power Walk Around the Arboretum  (groupWalkingTrail_headToSign_solo_powerwalk_arboretum)" Value="312344" />
+  <Preset Label="Power Walk Around the Pond  (groupWalkingTrail_headToSign_solo_powerwalk_boathouse)" Value="312345" />
+  <Preset Label="Power Walk Around the Lake  (groupWalkingTrail_headToSign_solo_powerwalk_recreationCenter)" Value="312346" />
+  <Preset Label="Power Walk (groupWalkingTrail_SI_walkSolo_situation_powerWalk)" Value="312456" />
+  <Preset Label="Power Walk (waypoint_GroupWalkingTrail_solo_powerWalk)" Value="312457" />
+  <Preset Label="Disapprove of Child Discipline (socials_Mean_CrossAge_Interactions_DisapproveOfChildDisciplining)" Tags="TestUnsafe" Value="312459" />
+  <Preset Label="Disapprove Lack of Child Discipline (socials_Mean_CrossAge_Interactions_DisapproveLackOfChildDiscipline)" Tags="TestUnsafe" Value="312460" />
   <Preset Label="Put {2.SimFirstName} Down Here (aggregateSuperInteraction_Infant_PutDownInCrib)" Value="312537" />
   <Preset Label="Put {2.SimFirstName} Down Here (putDown_CarriedSim_Crib_Infant_LayOnBack)" Value="312538" />
   <Preset Label="Enthuse about Soul Music (socials_Targeted_Friendly_SimPreference_Recent_Music_Oldies)" Tags="TestUnsafe" Value="312576" />
+  <Preset Label="Listen to Soul (stereo_listen_Oldies_Bot)" Value="312637" />
+  <Preset Label="Listen to Soul (stereo_listen_Oldies_SkatingRink)" Value="312639" />
+  <Preset Label="Listen to Soul (stereo_listen_Oldies_WaterScooter)" Value="312640" />
   <Preset Label="Attempt to Rebuild Trust (mixer_Social_Targeted_Romance_Loyal_RebuildTrust)" Tags="TestUnsafe" Value="312657" />
   <Preset Label="Put {2.SimFirstName} Down Here (aggregateSuperInteraction_Infant_PutDownOnPlaymat)" Value="312717" />
   <Preset Label="Put {2.SimFirstName} Down Here (putDown_CarriedSim_Playmat_Infant_LayOnBack)" Value="312718" />
+  <Preset Label="Try to Cheer Up Family Member (mixer_social_familytrope_CheerUp_targeted_friendly_emotionSpecific)" Tags="TestUnsafe" Value="312727" />
+  <Preset Label="Power Walk Around the Arboretum  (groupWalkingTrail_walkAroundWith_leader_arboretum_powerwalk)" Value="312821" />
+  <Preset Label="Power Walk Around the Pond  (groupWalkingTrail_walkAroundWith_leader_boathouse_powerwalk)" Value="312822" />
+  <Preset Label="Power Walk Around the Lake  (groupWalkingTrail_walkAroundWith_leader_recreationCenter_powerwalk)" Value="312823" />
+  <Preset Label="Power Walk Around the Arboretum With (groupWalkingTrail_walkWith_picker_arboretum_start_powerwalk)" Tags="TestUnsafe" Value="312824" />
+  <Preset Label="Go Walking (groupWalkingTrail_headToSign_leader_arboretum_powerwalk)" Value="312825" />
+  <Preset Label="Go Walking (groupWalkingTrail_headToSign_leader_boatHouse_powerwalk)" Value="312826" />
+  <Preset Label="Go Walking (groupWalkingTrail_headToSign_leader_recreationCenter_powerwalk)" Value="312827" />
+  <Preset Label="Power Walk Around the Pond With (groupWalkingTrail_walkWith_picker_boathouse_start_powerwalk)" Tags="TestUnsafe" Value="312828" />
+  <Preset Label="Sneak a Treat (socials_Friendly_CrossAge_Interactions_SneakATreat)" Tags="TestUnsafe" Value="312926" />
   <Preset Label="generic_SleepingBag_Sleep" Value="312957" />
+  <Preset Label="Power Walk Around the Lake With (groupWalkingTrail_walkWith_picker_recreationCenter_start_powerwalk)" Tags="TestUnsafe" Value="312982" />
+  <Preset Label="Power Walk (groupWalkingTrail_walkAroundWith_member_powerwalk)" Value="312983" />
+  <Preset Label="Go Walking (groupWalkingTrail_headToSign_member_powerwalk)" Value="312984" />
+  <Preset Label="Power Walk (groupWalkingTrail_walkAroundWith_member_powerwalk_dog)" Value="312985" />
+  <Preset Label="Pull Out Loose Tooth (superInteraction_Lose_Teeth_Pull_Out)" Value="313023" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_Sleepover_SleepingBag)" Value="313033" />
   <Preset Label="Loud Noises (reaction_LoudNoises_ToddlersAndInfants)" Value="313131" />
   <Preset Label="aggregate_reaction_LoudNoises" Value="313132" />
+  <Preset Label="Time for Bed! (social_Sleepover_TimeforBed)" Value="313186" />
+  <Preset Label="Give Life Lesson on Love (socials_Friendly_CrossAge_Interactions_LoveLifeLesson)" Tags="TestUnsafe" Value="313227" />
+  <Preset Label="Give Life Lesson on Friendship (socials_Friendly_CrossAge_Interactions_FriendshipLifeLesson)" Tags="TestUnsafe" Value="313228" />
+  <Preset Label="Give Life Lesson on Family (socials_Friendly_CrossAge_Interactions_LifeLessonFamily)" Tags="TestUnsafe" Value="313229" />
+  <Preset Label="Give Life Lesson on Money (socials_Friendly_CrossAge_Interactions_MoneyLifeLesson)" Tags="TestUnsafe" Value="313230" />
+  <Preset Label="Give Life Lesson on Hard Work (socials_Friendly_CrossAge_Interactions_HardWorkLifeLesson)" Tags="TestUnsafe" Value="313231" />
+  <Preset Label="Give Life Lesson on Responsibility (socials_Friendly_CrossAge_Interactions_ResponsibilityLifeLesson)" Tags="TestUnsafe" Value="313232" />
+  <Preset Label="Ask for Help With Bike Riding (social_KidsBike_AskForHelp)" Value="313280" />
+  <Preset Label="Teach {1.SimFirstName} to Ride a Bike (social_KidsBike_Teach)" Value="313281" />
+  <Preset Label="autonomousObjectInInventory_KidsBike" Tags="TestUnsafe" Value="313331" />
+  <Preset Label="Teach to Ride a Bike (KidsBike_Mentor)" Value="313332" />
+  <Preset Label="Clean Up  (recreationTable_simblesDominoes_cleanUp)" Value="313410" />
+  <Preset Label="Contemplate Life (MidlifeCrisis_ContemplateLife)" Value="313560" />
+  <Preset Label="mixer_MidlifeCrisis_ContemplateLife_Frantic_TalktoSelf" Value="313582" />
+  <Preset Label="mixer_MidlifeCrisis_ContemplateLife_Frantic_Tense" Value="313584" />
+  <Preset Label="You Are My Favorite (socials_Friendly_CrossAge_Interactions_YouAreMyFavorite_EToPCTYA)" Tags="TestUnsafe" Value="313755" />
+  <Preset Label="You Are My Favorite (socials_Friendly_CrossAge_Interactions_YouAreMyFavorite_CTToPCTYAE)" Tags="TestUnsafe" Value="313757" />
+  <Preset Label="You Are My Favorite (sim_Carry_Social_Infant_CrossAge_Interactions_YouAreMyFavorite)" Value="313761" />
   <Preset Label="Sit on Sleeping Bag (generic_SleepingBag_CrossLegged)" Value="313768" />
+  <Preset Label="Self Discovery (selfDiscovery_DiscoverTrait)" Value="313892" />
+  <Preset Label="mixer_MidlifeCrisis_ContemplateLife_Resolution_TalktoSelf" Value="313894" />
+  <Preset Label="mixer_MidlifeCrisis_ContemplateLife_Resolution_Pensive" Value="313895" />
+  <Preset Label="Contemplate Life (MidlifeCrisis_ContemplateLife_Resolution)" Value="313896" />
   <Preset Label="generic_SleepingBag_Nap" Value="313997" />
+  <Preset Label="generic_SleepingBag_PillowFight" Value="314000" />
   <Preset Label="generic_SleepingBag_ToddlerSit" Value="314004" />
+  <Preset Label="Change Outfit (interactionPicker_Baby_ChangeOutfit)" Tags="TestUnsafe" Value="314092" />
+  <Preset Label="Green Bean (baby_ChangeOutfit_01)" Value="314094" />
+  <Preset Label="Blue Raspberry (baby_ChangeOutfit_02)" Value="314095" />
+  <Preset Label="Pale Pink (baby_ChangeOutfit_03)" Value="314096" />
+  <Preset Label="Clear Skies (baby_ChangeOutfit_04)" Value="314097" />
+  <Preset Label="Panda-monium (baby_ChangeOutfit_05)" Value="314098" />
+  <Preset Label="Frozen Bunny (baby_ChangeOutfit_06)" Value="314099" />
+  <Preset Label="Little Seedling (baby_ChangeOutfit_07)" Value="314100" />
+  <Preset Label="Dark Energy (baby_ChangeOutfit_08)" Value="314101" />
+  <Preset Label="Nebula  (baby_ChangeOutfit_09)" Value="314172" />
+  <Preset Label="Bubblegum Bunny (baby_ChangeOutfit_10)" Value="314173" />
+  <Preset Label="Hip Hip Hooray! (baby_ChangeOutfit_11)" Value="314174" />
+  <Preset Label="Feeling Hoppy (baby_ChangeOutfit_12)" Value="314175" />
+  <Preset Label="Stegosaurus Stomp (baby_ChangeOutfit_13)" Value="314176" />
+  <Preset Label="Release the Quackin! (baby_ChangeOutfit_14)" Value="314177" />
+  <Preset Label="So-fish-ticated (baby_ChangeOutfit_15)" Value="314178" />
+  <Preset Label="Cosmic Ray-bbits (baby_ChangeOutfit_16)" Value="314179" />
+  <Preset Label="SpaceBuns (baby_ChangeOutfit_17)" Value="314180" />
+  <Preset Label="Berry Cute (baby_ChangeOutfit_18)" Value="314181" />
+  <Preset Label="Kaleidoscope Kiddo (baby_ChangeOutfit_19)" Value="314182" />
+  <Preset Label="Pink Whirlies (baby_ChangeOutfit_20)" Value="314183" />
+  <Preset Label="Squeeze the Day (baby_ChangeOutfit_21)" Value="314184" />
+  <Preset Label="Quack Me Up (baby_ChangeOutfit_22)" Value="314185" />
+  <Preset Label="Sky Daisies (baby_ChangeOutfit_23)" Value="314186" />
+  <Preset Label="Daisies for Days (baby_ChangeOutfit_24)" Value="314187" />
+  <Preset Label="Starshine (baby_ChangeOutfit_25)" Value="314188" />
+  <Preset Label="Reminisce on Good Times (socials_Friendly_CrossAge_Interactions_ReminisceOnGoodTimes)" Tags="TestUnsafe" Value="314192" />
+  <Preset Label="Talk about Worse Things That Have Happened (socials_Friendly_CrossAge_Interactions_TalkAboutWorseThings)" Tags="TestUnsafe" Value="314198" />
+  <Preset Label="Get Slumber Party Snacks (createObjectDefinitionPickerInteraction_Sleepover_Snacks)" Tags="TestUnsafe" Value="314225" />
+  <Preset Label="Adopt {1.SimFirstName} (adoption)" Value="314289" />
+  <Preset Label="Ride Around on {1.ObjectName} (waypoint_Vehicle_Bike_RideAround_KidsBikePractice_Victory)" Value="314309" />
+  <Preset Label="social_KidsBike_VictoryHug" Value="314310" />
+  <Preset Label="autonomousObjectInInventory_KidsBike_VictoryLap" Tags="TestUnsafe" Value="314311" />
+  <Preset Label="Wiggle Loose Tooth (superInteraction_Lose_Teeth_Wiggle_Tooth)" Value="314318" />
+  <Preset Label="Babies Basics (baby_ChangeOutfit_Default)" Value="314348" />
   <Preset Label="infant_BGO_PlayIn_GenericObject" Value="314415" />
   <Preset Label="infant_BGO_ChewOn_GenericObject" Value="314437" />
+  <Preset Label="Grumble About Costs These Days (socials_Friendly_CrossAge_Interactions_GrumbleAboutCosts)" Tags="TestUnsafe" Value="314508" />
+  <Preset Label="Ask Question about Technology (socials_Friendly_CrossAge_Interactions_AskQuestionAboutTechnology)" Tags="TestUnsafe" Value="314510" />
+  <Preset Label="Aren't You the Sweetest Little Thing! (socials_Friendly_CrossAge_Interactions_SweetestLittleThing_C)" Tags="TestUnsafe" Value="314528" />
+  <Preset Label="Aren't You the Sweetest Little Thing! (socials_Friendly_CrossAge_Interactions_SweetestLittleThing_P)" Tags="TestUnsafe" Value="314531" />
+  <Preset Label="Aren't You the Sweetest Little Thing! (socials_Friendly_CrossAge_Interactions_SweetestLittleThing_I)" Tags="TestUnsafe" Value="314532" />
   <Preset Label="Sit (seating_Sit_Bed_SleepingBag_YAE)" Value="314757" />
   <Preset Label="Sit (seating_Sit_Bed_SleepingBag_CT)" Value="314758" />
   <Preset Label="Sleep (bed_Sleep_SleepingBag)" Value="314759" />
+  <Preset Label="Fix Missing Tooth (superInteraction_Lose_Teeth_Fix_Tooth)" Value="314775" />
+  <Preset Label="Reflective Walk (groupWalkingTrail_headToSign_solo_reflective_arboretum)" Value="314794" />
+  <Preset Label="Walk and Reflect (groupWalkingTrail_walkSolo_reflective_arboretum)" Value="314795" />
+  <Preset Label="Walk and Reflect (groupWalkingTrail_walkSolo_reflective_boatHouse)" Value="314796" />
+  <Preset Label="Walk and Reflect (groupWalkingTrail_walkSolo_reflective_recreationCenter)" Value="314797" />
+  <Preset Label="Reflective Walk (groupWalkingTrail_headToSign_solo_reflective_boatHouse)" Value="314803" />
+  <Preset Label="Reflective Walk (groupWalkingTrail_headToSign_solo_reflective_recreationCenter)" Value="314824" />
+  <Preset Label="Walk and Reflect (groupWalkingTrail_SI_walkSolo_situation_reflective)" Value="314825" />
+  <Preset Label="Avoid Bedtime and Ask for Something (super_ToddlerPersonalityUpdate_HatesBedtime_AskParent)" Value="314830" />
+  <Preset Label="Place Tooth Under Pillow and Sleep (bed_Lose_Teeth_PlaceToothUnderPillow)" Value="314868" />
   <Preset Label="sleep_SleepingBag_Passive" Value="314939" />
+  <Preset Label="Wiggle Loose Tooth (mirror_Lose_Teeth_Wiggle_Tooth)" Value="314946" />
+  <Preset Label="Ask for Help With Bike Riding (simPicker_KidsBike_Practice)" Tags="TestUnsafe" Value="314960" />
+  <Preset Label="Check Toddler (sim_Toddler_CheckToddler_HatesBedtime)" Value="314976" />
   <Preset Label="Ask to be Introduced By (infant_Picker_Greetings_AskToBeIntroducedTo_InfantTarget)" Tags="TestUnsafe" Value="314986" />
   <Preset Label="Introduce To (infant_Picker_Greetings_IntroduceTo_TYAETarget)" Tags="TestUnsafe" Value="314987" />
   <Preset Label="Ask to Be Introduced to {1.SimFirstName} (social_Infant_AskToBeIntroduced_StartingInteraction_InfantTarget)" Value="314991" />
+  <Preset Label="Annoyed By Tooth Loss (superInteraction_Lose_Teeth_MisadventureReaction)" Value="315031" />
+  <Preset Label="stayoverExistingSimPickerInteraction" Tags="TestUnsafe" Value="315037" />
+  <Preset Label="Wait To Play Pretend (super_Treehouse_PlayPretendWith_Start_Castaway)" Value="315106" />
+  <Preset Label="Wait To Play Pretend (super_Treehouse_PlayPretendWith_Start_FairyTale)" Value="315107" />
+  <Preset Label="Wait To Play Pretend (super_Treehouse_PlayPretendWith_Start_House)" Value="315108" />
+  <Preset Label="Wait To Play Pretend (super_Treehouse_PlayPretendWith_Start_Pirates)" Value="315109" />
+  <Preset Label="Wait To Play Pretend (super_Treehouse_PlayPretendWith_Start_Space)" Value="315110" />
+  <Preset Label="Wait To Play Pretend (super_Treehouse_Wait_Follower)" Value="315111" />
   <Preset Label="Meet {1.SimFirstName} (sim_Carry_Social_Infant_Greeting_Child)" Value="315150" />
   <Preset Label="Hand {2.SimFirstName} to {1.SimFirstName} (social_Infant_CarriedSim_HandTo)" Value="315151" />
   <Preset Label="Nap (bed_Nap_SleepingBag)" Value="315189" />
+  <Preset Label="Ask for Help With Bike Riding (social_KidsBike_AskForHelp_FromSimPicker)" Value="315210" />
+  <Preset Label="Chatty Family Call (phone_ChattyCall)" Value="315219" />
   <Preset Label="Sleep (bed_Sleep_SleepingBag_Toddler)" Value="315229" />
   <Preset Label="toddler_sleep_SleepingBag_Passive" Value="315230" />
+  <Preset Label="Play Pretend With (super_Social_Treehouse_PlayPretendWith_Target)" Value="315239" />
   <Preset Label="Use Diaper (infant_Diaper_Use_Standing)" Value="315322" />
   <Preset Label="Use Diaper (infant_Diaper_Use_Continuation)" Value="315323" />
   <Preset Label="Express Devotion (mixer_social_Romance_HighScore_Loyal_ExpressDevotion)" Tags="TestUnsafe" Value="315358" />
   <Preset Label="FIRE! (fire_Infant_Panic)" Value="315376" />
   <Preset Label="Play Peek-a-Boo (socials_Infant_PeekaBoo_Friendly_AlwaysOn_STC_Succeed)" Tags="TestUnsafe" Value="315424" />
+  <Preset Label="Change Temperament (debug_StatePicker_Newborn_Temperaments)" Tags="TestUnsafe" Value="315474" />
+  <Preset Label="Wave at {1.ObjectName} (stuffedAnimal_Infant_WaveAt)" Value="315575" />
+  <Preset Label="recreationTable_puzzles_craftingPhase_start_puzzleByReference" Value="315584" />
+  <Preset Label="Play On Treehouse (super_Treehouse_PlayOn)" Value="315732" />
+  <Preset Label="Play On Treehouse (super_Treehouse_PlayOn_FindNext)" Value="315734" />
   <Preset Label="nestingblocks_Play_Infant_Babble" Value="315890" />
   <Preset Label="nestingblocks_Play_Infant_Biting" Value="315891" />
   <Preset Label="nestingblocks_Play_Infant_Contemplate" Value="315892" />
@@ -9234,24 +9709,204 @@
   <Preset Label="Bike Here (terrain_Vehicle_Bike-Deploy_KidsBike)" Value="316063" />
   <Preset Label="swipeAddToWorld_Bike_KidsBike" Value="316064" />
   <Preset Label="Bike Here (terrain_Vehicle_Bike-GoHere_KidsBike)" Value="316067" />
+  <Preset Label="recreationTable_puzzles_craftingPhase_start_size02" Value="316073" />
   <Preset Label="Nap (bed_Nap_SleepingBag_Toddler)" Value="316096" />
+  <Preset Label="Claim {1.SimFirstName} is a PlantSim (socials_Mean_CrossAge_Interactions_ChildTease_ClaimArePlantSim)" Tags="TestUnsafe" Value="316117" />
+  <Preset Label="Claim {1.SimFirstName} is an Alien (socials_Mean_CrossAge_Interactions_ChildTease_ClaimAreAlienOrHuman)" Tags="TestUnsafe" Value="316118" />
+  <Preset Label="Make Scary Face (socials_Mean_CrossAge_Interactions_ChildTease_MakeScaryFace)" Tags="TestUnsafe" Value="316119" />
+  <Preset Label="Call {1.SimFirstName} a Booger Eater (socials_Mean_CrossAge_Interactions_ChildTease_CallThemSomethingMean)" Tags="TestUnsafe" Value="316120" />
+  <Preset Label="autonomousSimPicker_CrossAge_Interactions_CryToParent" Tags="TestUnsafe" Value="316122" />
+  <Preset Label="Chatty Family Call (phone_NPC_ChattyCall_PC)" Value="316137" />
   <Preset Label="Hug (mixer_social_Hug_Friendly_Middlescore_NoMoodTest)" Tags="TestUnsafe" Value="316225" />
+  <Preset Label="Eat Delicious Grandparent Candy (solo_TemporaryStay_EatCandy)" Value="316260" />
+  <Preset Label="That's Mine! (crossAge_Interaction_ThatsMine)" Value="316358" />
+  <Preset Label="Tell Adventure Story (socialMixer_SleepingBag_TellStory_Adventure)" Tags="TestUnsafe" Value="316409" />
+  <Preset Label="Tell Scary Story (socialMixer_SleepingBag_TellStory_Scary)" Tags="TestUnsafe" Value="316410" />
+  <Preset Label="Listen to Story (social_SleepingBag_ListenToStory_Scary)" Value="316412" />
+  <Preset Label="Moan About New Sibling (socials_Mean_CrossAge_Interactions_MoanAboutNewSibling)" Tags="TestUnsafe" Value="316438" />
+  <Preset Label="Enthuse About New Sibling (socials_Friendly_CrossAge_Interactions_EnthuseAboutNewSibling)" Tags="TestUnsafe" Value="316439" />
+  <Preset Label="Pillow Fight With (simPicker_SleepingBag_PillowFight)" Tags="TestUnsafe" Value="316478" />
+  <Preset Label="Challenge To Pillow Fight (mixer_Social_SleepingBag_AskToPillowFight)" Tags="TestUnsafe" Value="316479" />
+  <Preset Label="Pillow Fight (super_SleepingBag_PillowFight)" Value="316481" />
+  <Preset Label="Pillow Fight (super_SleepingBag_PillowFight_Target)" Value="316482" />
+  <Preset Label="Practice Crawling (social_InfantMilestones_PracticeCrawling_Listen)" Value="316499" />
+  <Preset Label="Up! Up! (socials_Toddler_CrossAge_Interactions_UpUp)" Tags="TestUnsafe" Value="316676" />
+  <Preset Label="Kick (mixer_social_Toddler_Mean_CrossAge_Interactions_Kick)" Tags="TestUnsafe" Value="316716" />
+  <Preset Label="Talk about Favorite Show (mixer_socials_Toddler_TalkAbouts_CrossAge_Interactions_FavoriteShow)" Tags="TestUnsafe" Value="316717" />
+  <Preset Label="Talk About Favorite Game (mixer_socials_Toddler_TalkAbouts_CrossAge_Interactions_FavoriteGame)" Tags="TestUnsafe" Value="316719" />
+  <Preset Label="Talk About Favorite Food (mixer_socials_Toddler_TalkAbouts_CrossAge_Interactions_FavoriteFood)" Tags="TestUnsafe" Value="316720" />
+  <Preset Label="Sing a Song (mixer_socials_Toddler_Friendly_CrossAge_Interactions_SingSong)" Tags="TestUnsafe" Value="316868" />
+  <Preset Label="Reassure (mixer_socials_Toddler_Friendly_CrossAge_Interactions_Reassure)" Tags="TestUnsafe" Value="316871" />
+  <Preset Label="simPreference_Characteristic_Discovery_Ambitionless_Like" Value="316890" />
+  <Preset Label="simPreference_Characteristic_Discovery_Argumentative_Like" Value="316891" />
+  <Preset Label="simPreference_Characteristic_Discovery_KidEnthusiast_Like" Value="316892" />
+  <Preset Label="simPreference_Characteristic_Discovery_Mischievous_Like" Value="316893" />
+  <Preset Label="simPreference_Characteristic_Discovery_NatureEnthusiast_Like" Value="316894" />
+  <Preset Label="simPreference_Characteristic_Discovery_Optimist_Like" Value="316895" />
+  <Preset Label="simPreference_Characteristic_Discovery_Pessimist_Like" Value="316896" />
+  <Preset Label="simPreference_Characteristic_Discovery_PetEnthusiast_Like" Value="316897" />
+  <Preset Label="simPreference_Characteristic_Discovery_RomanceEnthusiast_Like" Value="316928" />
+  <Preset Label="simPreference_Characteristic_Discovery_Spirited_Like" Value="316929" />
+  <Preset Label="simPreference_Characteristic_Discovery_Cerebral_Like" Value="316930" />
+  <Preset Label="simPreference_Characteristic_Discovery_Egotistical_Like" Value="316931" />
+  <Preset Label="simPreference_Characteristic_Discovery_EmotionalDecisionMaker_Like" Value="316932" />
+  <Preset Label="simPreference_Characteristic_Discovery_Funny_Like" Value="316933" />
+  <Preset Label="simPreference_Characteristic_Discovery_HardWorker_Like" Value="316934" />
+  <Preset Label="simPreference_Characteristic_Discovery_HighEnergy_Like" Value="316935" />
+  <Preset Label="simPreference_Characteristic_Discovery_Homebody_Like" Value="316936" />
+  <Preset Label="simPreference_Characteristic_Discovery_Idealist_Like" Value="316937" />
+  <Preset Label="simPreference_Characteristic_Discovery_Ambitionless_Dislike" Value="316938" />
+  <Preset Label="simPreference_Characteristic_Discovery_Argumentative_Dislike" Value="316939" />
+  <Preset Label="simPreference_Characteristic_Discovery_KidEnthusiast_Dislike" Value="316940" />
+  <Preset Label="simPreference_Characteristic_Discovery_Mischievous_Dislike" Value="316941" />
+  <Preset Label="simPreference_Characteristic_Discovery_NatureEnthusiast_Dislike" Value="316942" />
+  <Preset Label="simPreference_Characteristic_Discovery_Optimist_Dislike" Value="316943" />
+  <Preset Label="simPreference_Characteristic_Discovery_Pessimist_Dislike" Value="316944" />
+  <Preset Label="simPreference_Characteristic_Discovery_PetEnthusiast_Dislike" Value="316945" />
+  <Preset Label="simPreference_Characteristic_Discovery_RomanceEnthusiast_Dislike" Value="316946" />
+  <Preset Label="simPreference_Characteristic_Discovery_Spirited_Dislike" Value="316947" />
+  <Preset Label="simPreference_Characteristic_Discovery_Cerebral_Dislike" Value="316948" />
+  <Preset Label="simPreference_Characteristic_Discovery_Egotistical_Dislike" Value="316949" />
+  <Preset Label="simPreference_Characteristic_Discovery_EmotionalDecisionMaker_Dislike" Value="316950" />
+  <Preset Label="simPreference_Characteristic_Discovery_Funny_Dislike" Value="316951" />
+  <Preset Label="simPreference_Characteristic_Discovery_HardWorker_Dislike" Value="316952" />
+  <Preset Label="simPreference_Characteristic_Discovery_HighEnergy_Dislike" Value="316953" />
+  <Preset Label="simPreference_Characteristic_Discovery_Homebody_Dislike" Value="316954" />
+  <Preset Label="simPreference_Characteristic_Discovery_Idealist_Dislike" Value="316955" />
   <Preset Label="solo_Sentiment_SiblingJealousy" Value="316974" />
   <Preset Label="solo_Sentiment_AttentionJealousy" Value="316976" />
+  <Preset Label="Up! Up! (crossAge_Interactions_Toddler_UpUp_Infant)" Value="317024" />
+  <Preset Label="Ask for Help With Bike Riding (simPicker_KidsBike_PracticeFromWorld)" Tags="TestUnsafe" Value="317059" />
+  <Preset Label="Ask for Help With Bike Riding (social_KidsBike_AskForHelp_FromSimPickerFromWorld)" Value="317060" />
+  <Preset Label="autonomous_ObjectPicker_KidsBikePractice" Tags="TestUnsafe" Value="317061" />
+  <Preset Label="recreationTable_puzzles_start_size01_landsc" Value="317098" />
+  <Preset Label="recreationTable_puzzles_start_size01_scifi" Value="317099" />
+  <Preset Label="recreationTable_puzzles_start_size01_fntsy" Value="317100" />
+  <Preset Label="recreationTable_puzzles_reset_boxCreate" Value="317115" />
+  <Preset Label="recreationTable_puzzles_start_size02_fntsy" Value="317260" />
+  <Preset Label="recreationTable_puzzles_start_size02_landsc" Value="317261" />
+  <Preset Label="recreationTable_puzzles_start_size02_animal" Value="317262" />
+  <Preset Label="recreationTable_puzzles_start_size03_animal" Value="317264" />
+  <Preset Label="recreationTable_puzzles_start_size03_fntsy" Value="317265" />
+  <Preset Label="recreationTable_puzzles_start_size03_landsc" Value="317266" />
+  <Preset Label="recreationTable_puzzles_start_size03_scifi" Value="317267" />
+  <Preset Label="recreationTable_puzzles_craftingPhase_start_size03" Value="317300" />
+  <Preset Label="recreationTable_puzzles_craftingPhase_start_size04" Value="317301" />
+  <Preset Label="recreationTable_puzzles_start_size04_animal" Value="317342" />
+  <Preset Label="recreationTable_puzzles_start_size04_fntsy" Value="317343" />
+  <Preset Label="recreationTable_puzzles_start_size04_landsc" Value="317344" />
+  <Preset Label="recreationTable_puzzles_start_size04_scifi" Value="317345" />
+  <Preset Label="View (recreationTable_puzzles_view)" Value="317367" />
   <Preset Label="Idle_Trait_Loyal" Value="317376" />
+  <Preset Label="Steal a Piece (recreationTable_puzzles_steal_piece)" Value="317386" />
   <Preset Label="Bring Inside (socialSuperInteraction_CarryPickUp_Infant_BringInside)" Value="317396" />
+  <Preset Label="Teach to Ride a Bike (simPicker_KidsBike_Teach)" Tags="TestUnsafe" Value="317432" />
+  <Preset Label="Teach {1.SimFirstName} to Ride a Bike (social_KidsBike_AskForHelp_TeachFromSimPicker)" Value="317434" />
+  <Preset Label="immediate_LifeMilestone_GetMarriageCertificate" Value="317474" />
+  <Preset Label="Be Adopted (adoption_Target)" Value="317484" />
+  <Preset Label="mixer_infant_WiggleToMusic_Clap" Value="317591" />
+  <Preset Label="mixer_infant_WiggleToMusic_Dance" Value="317592" />
+  <Preset Label="mixer_infant_WiggleToMusic_Laugh" Value="317593" />
+  <Preset Label="Wiggle to Music (infant_WiggleToMusic)" Value="317594" />
   <Preset Label="Age Up (ageUp_Infant_Paired_BirthdayCake)" Value="317622" />
+  <Preset Label="mixer_infant_WiggleToMusic_Wiggle" Value="317635" />
+  <Preset Label="Return Stolen Piece (recreationTable_puzzles_replacePiece)" Value="317699" />
+  <Preset Label="Watch Sitcom Central (tv_WatchSitcom)" Value="317721" />
+  <Preset Label="Watch Brainchild Learning (tv_WatchChildLearning)" Value="317722" />
+  <Preset Label="Watch ScareMax (tv_WatchScary)" Value="317723" />
+  <Preset Label="Smash Puzzle (recreationTable_puzzles_smashPuzzle)" Value="317847" />
   <Preset Label="Wake Up (sim_WakeUp_Self)" Value="317918" />
   <Preset Label="Help {1.SimFirstName} Explore Food (objectDefinitionPicker_HighChair_FeedInfant_InChair_Auto)" Tags="TestUnsafe" Value="317938" />
   <Preset Label="autonomous_ObjectPicker_Infant_PutDown_Inside" Tags="TestUnsafe" Value="317948" />
   <Preset Label="Put {2.SimFirstName} Down Here (putDownHere_CarriedSim_ToObject_Infant)" Value="317949" />
+  <Preset Label="Stress About Lost Time (socialSI_MidlifeCrisis_StressAboutLostTime_Actor)" Value="318051" />
+  <Preset Label="Listen to Issues (socialSI_MidlifeCrisis_StressAboutLostTime_TargetSim)" Value="318052" />
+  <Preset Label="Stress About Lost Time (mixer_Social_MidlifeCrisis_StressAboutLostTime_SadTalk)" Tags="TestUnsafe" Value="318053" />
+  <Preset Label="Stress About Lost Time (mixer_Social_MidlifeCrisis_StressAboutLostTime_SadReact)" Tags="TestUnsafe" Value="318055" />
   <Preset Label="Check Infant (aggregateSuperInteraction_CheckOn_Infant)" Value="318067" />
   <Preset Label="Pick Up (socialSuperInteraction_CarryPickUp_Infant_Autonomous)" Value="318163" />
+  <Preset Label="Give Finger Foods to {2.SimFirstName} (createObjectDefinitionPicker_HighChair_FeedInfant_FingerFood_InChair_Auto)" Tags="TestUnsafe" Value="318193" />
+  <Preset Label="super_Sleepover_PushSleep" Value="318194" />
+  <Preset Label="mixer_TV_WatchScary" Value="318275" />
   <Preset Label="Move Away (generic_RunAway_Scared)" Value="318284" />
+  <Preset Label="Share to Simstagram (recreationTable_puzzles_shareToSimstagram)" Value="318298" />
+  <Preset Label="Active Max - Full Progression (debugImmediate_SelfDiscovery_Active_Max)" Value="318394" />
+  <Preset Label="Active Min - Full Progression (debugImmediate_SelfDiscovery_Active_Min)" Value="318395" />
+  <Preset Label="Hygiene Max - Full Progression (debugImmediate_SelfDiscovery_Hygiene_Max)" Value="318396" />
+  <Preset Label="Romance Min - Full Progression (debugImmediate_SelfDiscovery_Romance_Min)" Value="318397" />
+  <Preset Label="Scared Max - Full Progression (debugImmediate_SelfDiscovery_Scared_Max)" Value="318398" />
+  <Preset Label="Silly Max - Full Progression (debugImmediate_SelfDiscovery_Silly_Max)" Value="318399" />
+  <Preset Label="Skill Min - Full Progression (debugImmediate_SelfDiscovery_Skill_Min)" Value="318400" />
+  <Preset Label="Skill Max - Full Progression (debugImmediate_SelfDiscovery_Skill_Max)" Value="318401" />
+  <Preset Label="Snob Max - Full Progression (debugImmediate_SelfDiscovery_Snob_Max)" Value="318402" />
+  <Preset Label="Smart Max - Full Progression (debugImmediate_SelfDiscovery_Smart_Max)" Value="318403" />
+  <Preset Label="Ambition Max - Full Progression (debugImmediate_SelfDiscovery_Ambitious_Max)" Value="318404" />
+  <Preset Label="Animal Max - Full Progression (debugImmediate_SelfDiscovery_Animal_Max)" Value="318405" />
+  <Preset Label="Creative Max - Full Progression (debugImmediate_SelfDiscovery_Creative_Max)" Value="318406" />
+  <Preset Label="Critic Max - Full Progression (debugImmediate_SelfDiscovery_Critic_Max)" Value="318407" />
+  <Preset Label="Economy Max - Full Progression (debugImmediate_SelfDiscovery_Economy_Max)" Value="318408" />
+  <Preset Label="Economy Min - Full Progression (debugImmediate_SelfDiscovery_Economy_Min)" Value="318409" />
+  <Preset Label="Family Max - Full Progression (debugImmediate_SelfDiscovery_Family_Max)" Value="318410" />
+  <Preset Label="Family Min - Full Progression (debugImmediate_SelfDiscovery_Family_Min)" Value="318411" />
+  <Preset Label="Fragile Max - Full Progression (debugImmediate_SelfDiscovery_Fragile_Max)" Value="318412" />
+  <Preset Label="Green Max - Full Progression (debugImmediate_SelfDiscovery_Green_Max)" Value="318413" />
+  <Preset Label="Hygiene Min - Full Progression  (debugImmediate_SelfDiscovery_Hygiene_Min)" Value="318414" />
+  <Preset Label="Jealous Max - Full Progression (debugImmediate_SelfDiscovery_Jealous_Max)" Value="318415" />
+  <Preset Label="Metabolism Max - Full Progression (debugImmediate_SelfDiscovery_Metabolism_Max)" Value="318416" />
+  <Preset Label="Mood Max - Full Progression  (debugImmediate_SelfDiscovery_Mood_Max)" Value="318417" />
+  <Preset Label="Outdoorsy Max - Full Progression (debugImmediate_SelfDiscovery_Outdoorsy_Max)" Value="318418" />
+  <Preset Label="Mood Min - Full Progression (debugImmediate_SelfDiscovery_Mood_Min)" Value="318419" />
+  <Preset Label="Metabolism Min - Full Progression (debugImmediate_SelfDiscovery_Metabolism_Min)" Value="318420" />
+  <Preset Label="Party Max - Full Progression (debugImmediate_SelfDiscovery_Party_Max)" Value="318421" />
+  <Preset Label="Relationship Max - Full Progression (debugImmediate_SelfDiscovery_Relationship_Max)" Value="318422" />
+  <Preset Label="Romance Max - Full Progression (debugImmediate_SelfDiscovery_Romance_Max)" Value="318423" />
+  <Preset Label="Social Max - Full Progression (debugImmediate_SelfDiscovery_Social_Max)" Value="318424" />
+  <Preset Label="Social Min - Full Progression (debugImmediate_SelfDiscovery_Social_Min)" Value="318425" />
+  <Preset Label="Tech Max - Full Progression (debugImmediate_SelfDiscovery_Tech_Max)" Value="318426" />
+  <Preset Label="Virtues Min - Full Progression (debugImmediate_SelfDiscovery_Virtues_Min)" Value="318427" />
+  <Preset Label="Virtues Max - Full Progression (debugImmediate_SelfDiscovery_Virtues_Max)" Value="318428" />
+  <Preset Label="Steal a Piece (recreationTable_puzzles_steal_piece_standing)" Value="318467" />
+  <Preset Label="Return Stolen Piece (recreationTable_puzzles_replacePiece_standing)" Value="318468" />
+  <Preset Label="Join Tummy Time (infantMilestone_JoinTummyTime_Kneel)" Value="318497" />
+  <Preset Label="Join Tummy Time (infantMilestone_JoinTummyTime_Stand)" Value="318499" />
+  <Preset Label="groupWalkingTrail_stopPoint_chooser_jog" Value="318570" />
+  <Preset Label="Go Jogging (groupWalkingTrail_SI_walkSolo_situation_jog)" Value="318571" />
+  <Preset Label="Go Jogging (groupWalkingTrail_headToSign_leader_arboretum_jog)" Value="318572" />
+  <Preset Label="Go Jogging (groupWalkingTrail_headToSign_leader_boathouse_jog)" Value="318573" />
+  <Preset Label="Go Jogging (groupWalkingTrail_headToSign_leader_recreationCenter_jog)" Value="318574" />
+  <Preset Label="Go Jogging (groupWalkingTrail_headToSign_member_jog)" Value="318575" />
+  <Preset Label="Jog Around the Arboretum (groupWalkingTrail_headToSign_solo_jog_arboretum)" Value="318576" />
+  <Preset Label="Jog Around the Pond (groupWalkingTrail_headToSign_solo_jog_boathouse)" Value="318577" />
+  <Preset Label="Jog Around the Lake  (groupWalkingTrail_headToSign_solo_jog_recreationCenter)" Value="318578" />
+  <Preset Label="Go Jogging (groupWalkingTrail_walkAroundWith_member_jog)" Value="318579" />
+  <Preset Label="Go Jogging (groupWalkingTrail_walkAroundWith_leader_arboretum_jog)" Value="318581" />
+  <Preset Label="Go Jogging (groupWalkingTrail_walkAroundWith_leader_boathouse_jog)" Value="318582" />
+  <Preset Label="Go Jogging (groupWalkingTrail_walkAroundWith_leader_recreationCenter_jog)" Value="318583" />
+  <Preset Label="Jog Around the Arboretum With (groupWalkingTrail_walkWith_picker_arboretum_start_jog)" Tags="TestUnsafe" Value="318584" />
+  <Preset Label="Jog Around the Pond With (groupWalkingTrail_walkWith_picker_boatHosue_start_jog)" Tags="TestUnsafe" Value="318585" />
+  <Preset Label="Jog Around the Lake With (groupWalkingTrail_walkWith_picker_recreationCenter_start_jog)" Tags="TestUnsafe" Value="318586" />
+  <Preset Label="Go Jogging (waypoint_groupWalkingTrail_solo_jog)" Value="318587" />
+  <Preset Label="Jog Around the Arboretum (groupWalkingTrail_walkSolo_jog_arboretum)" Value="318588" />
+  <Preset Label="Jog Around the Lake  (groupWalkingTrail_walkSolo_jog_recreationCenter)" Value="318589" />
+  <Preset Label="Jog Around the Pond (groupWalkingTrail_walkSolo_jog_boathouse)" Value="318590" />
+  <Preset Label="Drink Potion While Thinking Of (simPickerInteraction_TropeRemoverPotion)" Tags="TestUnsafe" Value="318621" />
+  <Preset Label="Drink (generic_consume_drink_nonbar_potion_TropeRemover)" Value="318626" />
+  <Preset Label="Start Leadup Phase (debugImmediate_MidlifeCrisis_StartCrisis)" Value="318633" />
+  <Preset Label="Start Desire for Adventure Crisis (debugImmediate_MidlifeCrisis_StartAdventure)" Value="318635" />
+  <Preset Label="Start Desire for Relationships Crisis (debugImmediate_MidlifeCrisis_StartRelationship)" Value="318636" />
+  <Preset Label="Start Desire to Create Crisis (debugImmediate_MidlifeCrisis_StartCreate)" Value="318637" />
+  <Preset Label="Start Desire for Success Crisis (debugImmediate_MidlifeCrisis_StartSuccess)" Value="318638" />
+  <Preset Label="Disapprove Lack of Child Discipline (socials_Mean_CrossAge_Interactions_DisapproveLackOfChildDiscipline_Toddler)" Tags="TestUnsafe" Value="318655" />
   <Preset Label="Get Outfit Changed by (tableChangeDiaper_ChangeToddlerOutfit_AdultPicker)" Tags="TestUnsafe" Value="318770" />
   <Preset Label="Change Outfit for {1.SimFirstName} (changeOutfitPicker_TableChangeDiaper_ToddlerInfant)" Tags="TestUnsafe" Value="318772" />
+  <Preset Label="aggregateSI_AdultToInfant_PracticeSomething" Value="318812" />
+  <Preset Label="Time for Bed! (pushInteraction_Sleepover_TimeforBed)" Value="318859" />
   <Preset Label="infant_BehaviorIdles_Playmat" Value="319011" />
+  <Preset Label="Slide Down Treehouse Pole (super_Treehouse_Pole_SlideDown_End_PlayOn)" Value="319439" />
+  <Preset Label="Slide Down Treehouse Slide (super_Treehouse_Slide_SlideDown_End_PlayOn)" Value="319441" />
+  <Preset Label="Climb Up Treehouse Ladder (super_Treehouse_Ladder_ClimbUp_End_PlayOn)" Value="319442" />
   <Preset Label="Pick Up (socialSuperInteraction_CarryPickUp_Infant_ToBirthdayCake_AgeUp)" Value="319512" />
+  <Preset Label="Chatty Family Call With (phone_Picker_ChattyCall)" Tags="TestUnsafe" Value="319521" />
   <Preset Label="Rel Gain Multiplier Test (cheat_RelMultiplierTester_Gain)" Value="319612" />
   <Preset Label="Rel Loss Multiplier Test (cheat_RelMultiplierTester_Loss)" Value="319616" />
   <Preset Label="Try Go Night Night (infant_PreSleep_Crib_NoIdentityTest)" Value="319632" />
@@ -9259,50 +9914,138 @@
   <Preset Label="Change Outfit for {1.SimFirstName} (changeOutfitPicker_TargetSim_Dresser)" Tags="TestUnsafe" Value="319642" />
   <Preset Label="Get Outfit Changed by (changeInfantOutfit_Self_AdultPicker)" Tags="TestUnsafe" Value="319645" />
   <Preset Label="Change Outfit for {1.SimFirstName} (changeOutfitPicker_Sim_Infant)" Tags="TestUnsafe" Value="319650" />
+  <Preset Label="Give Food (createObjectDefinitionPicker_HighChair_FeedInfant_FingerFood_Auto)" Tags="TestUnsafe" Value="319651" />
   <Preset Label="Change Outfit (changeOutfitPicker_PickedSim_TableChangeDiaper_Held)" Tags="TestUnsafe" Value="319662" />
   <Preset Label="Change Outfit for {1.SimFirstName} (socialSuperInteraction_CarryPickUp_Infant_ChangeOutfitCold)" Value="319677" />
   <Preset Label="Change Outfit for {1.SimFirstName} (socialSuperInteraction_CarryPickUp_Infant_ChangeOutfitHot)" Value="319678" />
   <Preset Label="Use (babyBassinet_Infant_FakeUse)" Value="319751" />
+  <Preset Label="Bracelet Buddy Fist Bump (mixer_Social_FriendshipBracelet_FistBump)" Tags="TestUnsafe" Value="319801" />
+  <Preset Label="Prank {1.SimFirstName} with Water (sleepingBag_Water)" Value="319824" />
   <Preset Label="Have Science Baby With (phone_Picker_HaveScienceBabyWith)" Tags="TestUnsafe" Value="319826" />
   <Preset Label="Give Toy to (objectpicker_CTYAEtoInfant_FindToy)" Tags="TestUnsafe" Value="319885" />
+  <Preset Label="Fight! (mixer_social_Fight_targeted_TemporaryStay)" Tags="TestUnsafe" Value="319892" />
+  <Preset Label="Make Friendship Bracelet (friendshipBracelet_Make)" Value="319946" />
+  <Preset Label="Exchange Friendship Bracelets (simPicker_FriendshipBracelet_AskToExchange)" Tags="TestUnsafe" Value="319949" />
+  <Preset Label="Build Treehouse (super_Treehouse_Build_NonTouching)" Value="319950" />
+  <Preset Label="Build Treehouse (super_Treehouse_Build_Chooser)" Value="319952" />
+  <Preset Label="objectInInventoryPicker_FriendshipBracelet_Exchange" Tags="TestUnsafe" Value="319971" />
+  <Preset Label="Ask to Exchange Friendship Bracelets (social_FriendshipBracelet_AskToExchange)" Value="319972" />
+  <Preset Label="Listen to {1.SimFirstName} (social_FriendshipBracelet_Listen)" Value="319977" />
   <Preset Label="Put Down (putDown_CarriedSim_Emergency)" Value="319980" />
   <Preset Label="Put Down (putDown_CarriedSim_Emergency_Immobile)" Value="319982" />
+  <Preset Label="Destroy (immediate_FriendshipBracelet_Destroy)" Value="320000" />
+  <Preset Label="immediate_FriendshipBracelet_Exchange" Value="320013" />
+  <Preset Label="Exchange Friendship Bracelets (social_FriendshipBracelet_Exchange)" Value="320056" />
+  <Preset Label="Make Friendship Bracelet (objectDefinitionPicker_FriendshipBracelet_Make_InventoryStart)" Tags="TestUnsafe" Value="320058" />
+  <Preset Label="immediate_FriendshipBracelet_SetTangled" Value="320062" />
+  <Preset Label="objectInInventoryPicker_FriendshipBracelet_SetTangled" Tags="TestUnsafe" Value="320063" />
   <Preset Label="Help {1.SimFirstName} Try First Baby Food (objectDefinitionPicker_HighChair_FeedInfant_InChair_FirstFood)" Tags="TestUnsafe" Value="320140" />
   <Preset Label="Try First Baby Food With (simPicker_HighChair_Infant_GetFood_FirstFood)" Tags="TestUnsafe" Value="320141" />
   <Preset Label="Try First Baby Food With (simPicker_HighChair_Infant_GetFood_FirstFood_InChair)" Tags="TestUnsafe" Value="320142" />
   <Preset Label="Help Try First Baby Food (simPicker_HighChair_Adult_FeedInfant_FirstFood)" Tags="TestUnsafe" Value="320143" />
+  <Preset Label="Family Kiss (socials_Friendly_CrossAge_Interactions_familyKiss_targeted_alwaysOn_CTYAE_to_CTYAE)" Tags="TestUnsafe" Value="320160" />
+  <Preset Label="Family Kiss (socials_Friendly_CrossAge_Interactions_familyKiss_targeted_alwaysOn_PCTYAE_to_P)" Tags="TestUnsafe" Value="320161" />
+  <Preset Label="Blow a Kiss (baby_CrossAge_Interactions_FamilyKiss_C_to_B)" Value="320162" />
+  <Preset Label="Demand Friendship Bracelet Back (mixer_Social_FriendshipBracelet_DemandBack)" Tags="TestUnsafe" Value="320171" />
+  <Preset Label="Make Friendship Bracelet (friendshipBracelet_Make_GrabThread)" Value="320189" />
+  <Preset Label="Babble about Sibling (socials_Toddler_Babble_BabbleAboutSibling)" Tags="TestUnsafe" Value="320201" />
+  <Preset Label="Make Friendship Bracelet (objectDefinitionPicker_FriendshipBracelet_Make_WorldStart)" Tags="TestUnsafe" Value="320261" />
+  <Preset Label="objectInInventoryPicker_FriendshipBracelet_DemandBack_DestroyExchanged" Tags="TestUnsafe" Value="320262" />
+  <Preset Label="immediate_FriendshipBracelet_DemandBack_Destroy" Value="320263" />
   <Preset Label="Complain about Bladder (sim_BladderDistress_CarrySim)" Value="320271" />
   <Preset Label="Change Outfit for {1.SimFirstName} (changeOutfitPicker_TargetSim_Infant)" Tags="TestUnsafe" Value="320291" />
   <Preset Label="Change Outfit for {1.SimFirstName} (socialSuperInteraction_CarryPickUp_Infant_ChangeOutfitPicker)" Value="320292" />
+  <Preset Label="solo_TemporaryStay_DropSuitcase" Value="320324" />
   <Preset Label="Complain about Hunger (sim_HungerDistress_CarrySim)" Value="320360" />
   <Preset Label="Complain about Tiredness (sim_EnergyDistress_CarrySim)" Value="320361" />
   <Preset Label="Complain about Lack of Fun (sim_FunDistress_CarrySim)" Value="320362" />
   <Preset Label="Complain about Loneliness (sim_SocialDistress_CarrySim)" Value="320363" />
   <Preset Label="Complain about Being Dirty (sim_HygieneDistress_CarrySim)" Value="320364" />
   <Preset Label="Complain about Being Thirsty (sim_PlantSim_WaterDistress_CarrySim)" Value="320365" />
+  <Preset Label="temporaryStay_GrabSuitcase" Value="320381" />
   <Preset Label="idle_Bladder_CarrySim" Value="320441" />
   <Preset Label="idle_Energy_CarrySim" Value="320442" />
   <Preset Label="idle_Fun_CarrySim" Value="320443" />
   <Preset Label="idle_Hunger_CarrySim" Value="320444" />
   <Preset Label="idle_Hygiene_CarrySim" Value="320445" />
   <Preset Label="idle_Social_CarrySim" Value="320447" />
+  <Preset Label="Prank {1.SimFirstName} with a Balloon (sleepingBag_Balloon)" Value="320450" />
+  <Preset Label="Prank {1.SimFirstName} with Baby Powder (sleepingBag_BabyPowder)" Value="320451" />
+  <Preset Label="Prank {1.SimFirstName} with Water (sleepingBag_PrankReaction)" Value="320458" />
   <Preset Label="Ask to Have Science Baby (sim_AskToHaveScienceBaby)" Value="320481" />
   <Preset Label="Listen to {1.SimFirstName}'s Question (sim_AskToHaveScienceBaby_Target)" Value="320482" />
   <Preset Label="Have Science Baby With (computer_Picker_HaveScienceBabyWith)" Tags="TestUnsafe" Value="320484" />
+  <Preset Label="Family Means Being Together (keepsakeBox_PonderMeaning_BeingTogether)" Value="320498" />
+  <Preset Label="Family Isn't Everything (keepsakeBox_PonderMeaning_IsntEverything)" Value="320499" />
+  <Preset Label="Family Means Unconditional Support (keepsakeBox_PonderMeaning_Unconditional)" Value="320500" />
+  <Preset Label="Family Means Doting &amp; Adoration (keepsakeBox_PonderMeaning_Tolerance)" Value="320501" />
+  <Preset Label="Family Means High Expectations (keepsakeBox_PonderMeaning_Patience)" Value="320502" />
+  <Preset Label="Family Means Having Fun Together (keepsakeBox_PonderMeaning_Weird)" Value="320504" />
+  <Preset Label="Nobody Knows What Family Means (keepsakeBox_PonderMeaning_NobodyKnows)" Value="320505" />
+  <Preset Label="Prank {1.SimFirstName} with Water (sleepingBag_PrankReaction_Pranked)" Value="320506" />
   <Preset Label="Bath (autonomousSimPicker_Infant_Hygiene)" Tags="TestUnsafe" Value="320552" />
   <Preset Label="Bath (infant_AskForHygiene)" Value="320555" />
+  <Preset Label="Entrust Keepsake Box to (simPickerInteraction_KeepsakeBox_EntrustKeepsakeBox)" Tags="TestUnsafe" Value="320562" />
+  <Preset Label="Designate Keepsake Box (immediate_KeepsakeBox_DesignateKeepsake)" Value="320563" />
+  <Preset Label="Entrust Keepsake Box to (si_Touching_KeepsakeBox_EntrustKeepsake)" Value="320565" />
+  <Preset Label="immediate_InfantMilestones_FirstFood_ForGoalTest" Value="320683" />
+  <Preset Label="Tend Stall (marketStalls_Tend_Food_AroundTheWorld)" Value="320691" />
+  <Preset Label="Order Food (marketStalls_pushOrderFood_AroundTheWorld)" Value="320692" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_AroundTheWorld)" Value="320711" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_Vegetarian_AroundTheWorld)" Value="320712" />
+  <Preset Label="Review Food (marketStalls_pushOrderFood_review_CriticCareer_AroundTheWorld)" Value="320713" />
+  <Preset Label="Supports Large and X-Large Curved Walls (waypoint)" Value="320719" />
   <Preset Label="Get Toy from (simPickerInteraction_ToddlerToCTYAE_GetToyFrom)" Tags="TestUnsafe" Value="320730" />
+  <Preset Label="Praise Mess (socials_Targeted_Friendly_AlwaysOn_STC_Toddler_Compliment_PraiseMess)" Tags="TestUnsafe" Value="320810" />
+  <Preset Label="Prank {1.SimFirstName} with Water (sleepingBag_PrankReaction_BabyPowder)" Value="320819" />
+  <Preset Label="Prank {1.SimFirstName} with Water (sleepingBag_PrankReaction_Werewolf)" Value="320821" />
+  <Preset Label="Rename Keepsake Box (rename_KeepsakeBox)" Value="320858" />
+  <Preset Label="reaction_Lose_Teeth_Celebration" Value="320864" />
+  <Preset Label="Start Celebration Sequence (super_CelebrationCannon_Activate)" Value="320998" />
+  <Preset Label="food_Eat_Active_Chopsticks_AroundTheWorld_Ramen" Value="321026" />
   <Preset Label="Stuck! (infant_StuckInHighChairCrib)" Value="321035" />
+  <Preset Label="objectInInventoryPicker_FriendshipBracelet_DemandBack_DestroyExchanged_Target" Tags="TestUnsafe" Value="321044" />
   <Preset Label="nonTouching_Unpaired_Greetings_Infant" Value="321159" />
+  <Preset Label="React to Cannon (super_CelebrationCannon_React)" Value="321242" />
+  <Preset Label="Dip {1.SimFirstName}'s Toes in Water (socialSuperInteraction_CarryPickUp_Infant_DipToes_Ponds)" Value="321280" />
+  <Preset Label="Put in Inventory (si_Swipe_KeepsakeBox)" Value="321299" />
+  <Preset Label="Close (familyTrope_Cheat_close)" Value="321463" />
+  <Preset Label="Distant (familyTrope_Cheat_distant)" Value="321464" />
+  <Preset Label="Supportive (familyTrope_Cheat_loving)" Value="321465" />
+  <Preset Label="Difficult (familyTrope_Cheat_difficult)" Value="321466" />
+  <Preset Label="Permissive (familyTrope_Cheat_permissive)" Value="321467" />
+  <Preset Label="Strict (familyTrope_Cheat_compliant)" Value="321468" />
+  <Preset Label="Jokesters (familyTrope_Cheat_jokesters)" Value="321469" />
+  <Preset Label="No Dynamic (familyTrope_Cheat_removeAllTropes)" Value="321480" />
   <Preset Label="Loud Noises (super_Infant_LoudNoise_React)" Value="321496" />
+  <Preset Label="immediate_InfantMilestone_TrackPeeOnParent" Value="321749" />
+  <Preset Label="Wave at {1.ObjectName} (social_Infant_WaveAt_Pet)" Value="321851" />
+  <Preset Label="Help Try First Baby Food (immediate_Infant_HighChair_Dummy)" Value="321893" />
+  <Preset Label="mixer_Treehouse_Build_T_Active" Value="321945" />
+  <Preset Label="mixer_Treehouse_Build_T_Passive" Value="321946" />
+  <Preset Label="mixer_Treehouse_Build_NT_Active" Value="321947" />
+  <Preset Label="mixer_Treehouse_Build_NT_Passive" Value="321948" />
+  <Preset Label="Reaching a Milestone (tummyTimeTogether_SocialMixers_Anticipation_Small)" Tags="TestUnsafe" Value="321984" />
+  <Preset Label="Reaching a Milestone (toy_Play_Infant_Anticipation_Small)" Value="321985" />
+  <Preset Label="Tummy Time Together (social_InfantMilestones_TummyTime_Listen_Playmat)" Value="322006" />
   <Preset Label="Search for {1.SimFirstName} (waypoint_infant_crawlaround_MissingSim)" Value="322034" />
+  <Preset Label="Reaching a Milestone (tummyTime_Mixers_Anticipation_Creep)" Value="322078" />
+  <Preset Label="autonomousSimPicker_InfantMilestones_Anticipation_BlowKiss" Tags="TestUnsafe" Value="322081" />
+  <Preset Label="autonomousSimPicker_InfantMilestones_Anticipation_PeekABoo" Tags="TestUnsafe" Value="322082" />
+  <Preset Label="Babble (infantMilestones_AnticipationMoment_Babble)" Value="322085" />
+  <Preset Label="Dip {1.SimFirstName}'s Toes in Water (social_InfantMilestones_PracticeStanding_DipToes)" Value="322088" />
+  <Preset Label="Dip Toes in Water With {1.SimFirstName} (infant_DipToes_PondsOnly_Start)" Value="322093" />
+  <Preset Label="Said First Word (infantMilestones_AnticipationMoment_FirstWord)" Value="322108" />
+  <Preset Label="solo_TemporaryStay_Arrival" Value="322380" />
   <Preset Label="infantActions_Cry" Value="322442" />
   <Preset Label="infantActions_Fuss" Value="322443" />
   <Preset Label="Bottle Feed (social_Infant_Interim_Bottle_Feed)" Value="322464" />
+  <Preset Label="Disapprove of Child Discipline (social_CrossAge_Interactions_DisapproveOfChildDisciplining)" Value="322481" />
   <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_Infant)" Value="322491" />
   <Preset Label="Place in World (si_SwipeAddToWorld_Infant)" Value="322492" />
   <Preset Label="Breastfeed (social_Infant_Interim_Body_Feed)" Value="322576" />
   <Preset Label="Change Diaper (social_Infant_Interim_ChangeDiaper)" Value="322578" />
+  <Preset Label="Family Kiss (social_Infant_KissKneel_FromChild)" Value="322689" />
   <Preset Label="Give {1.SimFirstName} a Nap (social_Infant_Interim_GiveNap)" Value="322698" />
   <Preset Label="Clean Up (social_Infant_Interim_CleanUp)" Value="322699" />
   <Preset Label="Clean Up (social_Infant_Interim_CleanUp_Sink)" Value="322717" />
@@ -9313,13 +10056,31 @@
   <Preset Label="Put {2.SimFirstName} Down Here (social_Infant_Interim_Putdown_Crib_Adult)" Value="322728" />
   <Preset Label="Put {2.SimFirstName} to Sleep Here (social_Infant_Interim_Putdown_Crib_Adult_ToSleep)" Value="322729" />
   <Preset Label="Put {2.SimFirstName} Down Here (social_Infant_Interim_Putdown_Playmat_Adult)" Value="322730" />
+  <Preset Label="Give Finger Foods to {1.SimFirstName} (social_Infant_Interim_GiveFood_HighChair)" Value="322767" />
   <Preset Label="ageUp_AutoAge_checkForInfant" Value="322788" />
+  <Preset Label="Family Isn't Always About Getting Along (keepsakeBox_PonderMeaning_Obedience)" Value="322839" />
   <Preset Label="Be Read to By (picker_PictureBook_AskToRead_Infant)" Tags="TestUnsafe" Value="322847" />
   <Preset Label="mixer_Playmat_PlayWithInfant" Value="322851" />
+  <Preset Label="NPCLeaveLot_TemporaryStays_SuitcaseLeave" Value="322867" />
+  <Preset Label="Blow Raspberry (social_Infant_BlowRaspberry_FromChild)" Value="322898" />
+  <Preset Label="Talk with {1.SimFirstName} (sim_Infant_Chat_NoCarry)" Value="322997" />
+  <Preset Label="solo_TemporaryStay_SuitcaseLeave" Value="323023" />
   <Preset Label="Age Up! (ageUp_IPCTYAE_preCheck_Debug)" Value="323038" />
   <Preset Label="Cheer (super_React_Celebrate_IP)" Value="323099" />
+  <Preset Label="Family Kiss (social_Infant_KissStand_FromChild)" Value="323109" />
+  <Preset Label="Blow Raspberry (social_Infant_BlowRaspberry_FromToddler)" Value="323115" />
+  <Preset Label="Boo! (socials_InfantToSim_PeekABoo_Friendly_AlwaysOn_STC_NoCarry)" Tags="TestUnsafe" Value="323207" />
+  <Preset Label="Blow a Kiss (socials_InfantToSim_BlowKiss_Friendly_AlwaysOn_STC_NoCarry)" Tags="TestUnsafe" Value="323213" />
+  <Preset Label="Reaching a Milestone (mixer_infant_WiggleToMusic_Anticipation_Big)" Value="323249" />
+  <Preset Label="Reaching a Milestone (playmat_Mixers_Anticipation_Small)" Value="323263" />
+  <Preset Label="Crawl Around (waypoint_infant_anticipationmoment_crawlaround)" Value="323292" />
   <Preset Label="mixer_Infants_Watch" Value="323334" />
   <Preset Label="mixer_Infants_Cheer" Value="323335" />
+  <Preset Label="autonomous_ObjectPicker_Infant_Anticipation_PullToStand" Tags="TestUnsafe" Value="323343" />
+  <Preset Label="Dip Toes in Water With {1.SimFirstName} (terrain-gohere_Infant_DipToes_IsCarried_Start)" Value="323492" />
+  <Preset Label="Dip {1.SimFirstName}'s Toes in Water (socialSuperInteraction_CarryPickUp_Infant_DipToes)" Value="323532" />
+  <Preset Label="Go Here (terrain-gohere_Infant_DipToes_Continuation)" Value="323542" />
+  <Preset Label="autonomousSimPicker_InfantMilestones_Anticipation_Wave" Tags="TestUnsafe" Value="323694" />
   <Preset Label="React to Gift (super_Infant_React_Excited)" Value="323898" />
   <Preset Label="Get Carried Here (simPicker_ToddlersAndInfants_GetCarriedHere_Start)" Tags="TestUnsafe" Value="323966" />
   <Preset Label="Pick Up (socialSuperInteraction_ToddlersAndInfants_GetCarriedHere_Cont)" Value="323967" />
@@ -9329,14 +10090,47 @@
   <Preset Label="Have Science Baby as Single Parent (scienceBaby_LeaveLotConfirmation_Solo_Phone)" Value="324055" />
   <Preset Label="Have Science Baby as Single Parent (scienceBaby_LeaveLotConfirmation_Solo_Computer)" Value="324056" />
   <Preset Label="Cry (infant_CryReaction)" Value="324064" />
+  <Preset Label="Feed a Bite (food_Eat_Infant_HighChair_Anticipation_FirstFingerFood)" Value="324072" />
+  <Preset Label="Pickup {2.SimFirstName} from {1.SimFirstName} (social_Infant_CarriedSim_Pickup_Back)" Value="324145" />
+  <Preset Label="infantMilestone_Mixers_AnticipationMoment_TakePicture" Value="324222" />
+  <Preset Label="infantMilestone_Mixers_AnticipationMoment_Big" Value="324223" />
+  <Preset Label="infantMilestone_Mixers_AnticipationMoment_Watch" Value="324226" />
   <Preset Label="immediate_SavePickedObjectAsSavedActor2" Value="324282" />
   <Preset Label="Watch {1.SimFirstName} (infant_Watch_Carried)" Value="324302" />
   <Preset Label="Coo At {1.ObjectName} (social_Infant_CooAt_Pet)" Value="324322" />
+  <Preset Label="Feed a Bite (highChair_FeedInfant_Feed_FirstBite_MilestoneUnlock)" Tags="TestUnsafe" Value="324353" />
+  <Preset Label="Dip Toes in Water With (simPicker_DipToes_Infant_NotCarried_Start)" Tags="TestUnsafe" Value="324376" />
+  <Preset Label="Dip Toes in Water With (simPicker_DipToes_TYAE_HasCarriedInfant_Start)" Tags="TestUnsafe" Value="324378" />
+  <Preset Label="Dip Toes in Water With (simPicker_DipToes_TYAE_GetCarriedInfant)" Tags="TestUnsafe" Value="324379" />
+  <Preset Label="Dip Toes in Water With (simPicker_DipToes_TYAE_NoCarriedInfant_Start)" Tags="TestUnsafe" Value="324380" />
   <Preset Label="Get Toy from Box for Infant (picker_GetToyFromToyBox_AdultToInfant_PickInfant)" Tags="TestUnsafe" Value="324460" />
   <Preset Label="Ask for Toy from Toybox (picker_GetToyFromToyBox_InfantToAdult_PickAdult)" Tags="TestUnsafe" Value="324461" />
   <Preset Label="Get Toy from Box for Infant (picker_GetToyFromBox_AdultActor_PickToyForInfant)" Tags="TestUnsafe" Value="324462" />
   <Preset Label="Ask for Toy from Toybox (picker_GetToyFromBox_InfantActor_PickToyForInfant)" Tags="TestUnsafe" Value="324463" />
   <Preset Label="Go Here (terrain-gohere_ToddlersAndInfants_GetSetDownHere_Route)" Value="324490" />
+  <Preset Label="Open Suitcase (temporaryStay_OpenSuitcase)" Value="324576" />
+  <Preset Label="temporaryStay_CreateSuitcase_1" Value="324825" />
+  <Preset Label="temporaryStay_CreateSuitcase_2" Value="324826" />
+  <Preset Label="temporaryStay_CreateSuitcase_3" Value="324827" />
+  <Preset Label="temporaryStay_CreateSuitcase_4" Value="324828" />
+  <Preset Label="temporaryStay_CreateSuitcase_5" Value="324829" />
+  <Preset Label="temporaryStay_CreateSuitcase_6" Value="324830" />
+  <Preset Label="temporaryStay_CreateSuitcase_7" Value="324831" />
+  <Preset Label="temporaryStay_CreateSuitcase_8" Value="324832" />
+  <Preset Label="temporaryStay_CreateSuitcase_9" Value="324833" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_12" Value="324837" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_1" Value="324838" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_2" Value="324839" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_3" Value="324840" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_4" Value="324841" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_5" Value="324842" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_6" Value="324843" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_7" Value="324844" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_8" Value="324845" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_9" Value="324846" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_10" Value="324847" />
+  <Preset Label="temporaryStay_CreateSuitcase_Child_11" Value="324848" />
+  <Preset Label="Start Layoff Period (DEBUG) (debugImmediate_JobLoss_StartLayoffPeriod)" Value="324896" />
   <Preset Label="Go Here (terrain-gohere_Infant_PutDownHere_BackCarriedSim)" Value="325478" />
   <Preset Label="Put Down Here (simPicker_Infant_PutDownHere_BackCarriedSim)" Tags="TestUnsafe" Value="325479" />
   <Preset Label="Put {2.SimFirstName} Down Here (putDownHere_CarriedSim_BackCarriedAllowed)" Value="325508" />
@@ -9346,48 +10140,190 @@
   <Preset Label="autonomous_ObjectPicker_Infant_PutDown_IfClose_Crib" Tags="TestUnsafe" Value="325614" />
   <Preset Label="autonomous_ObjectPicker_Infant_PutDown_IfClose_Playmat" Tags="TestUnsafe" Value="325616" />
   <Preset Label="Smile at {1.ObjectName} (super_AnimalObjects_Socials_Infant_SmileAt)" Value="326380" />
+  <Preset Label="Listen to {1.SimFirstName} (social_FriendshipBracelet_AskToExchange_Listen)" Value="326599" />
+  <Preset Label="infantMilestone_Mixers_AnticipationMoment_WatchToddler" Value="326639" />
   <Preset Label="Clean Up (cleanUp_CarryInfant_BackToSavedCrib)" Value="326710" />
   <Preset Label="Clean Up (immediate_Infant_PickUp_FromCribToCleanUp)" Value="326712" />
   <Preset Label="Watch {1.SimFirstName} (infant_Watch_Immobile_InObject)" Value="326839" />
   <Preset Label="Watch (infant_WatchObject_Immobile_InObject)" Value="326869" />
   <Preset Label="Watch (infant_WatchObject_isOn_Immobile_InObject)" Value="326870" />
   <Preset Label="Watch (infant_WatchObject_BeingUsed_Immobile_InObject)" Value="326871" />
+  <Preset Label="Toddler Objects (EP13) (setupLot_ToddlerObjects_EP13)" Value="327132" />
   <Preset Label="Put Down (putDown_CarriedSim_Immobile_LargeJig)" Value="327151" />
+  <Preset Label="This Light (super_Treehouse_Lights_TurnOn)" Value="327460" />
+  <Preset Label="All Lights (super_Treehouse_Lights_TurnOnAll)" Value="327461" />
+  <Preset Label="This Room (super_Treehouse_Lights_TurnOnRoom)" Value="327462" />
+  <Preset Label="This Room (super_Treehouse_Lights_TurnOffRoom)" Value="327463" />
+  <Preset Label="All Lights (super_Treehouse_Lights_TurnOffAll)" Value="327464" />
+  <Preset Label="Reaching a Milestone (playmat_Mixers_Anticipation_Big)" Value="327488" />
+  <Preset Label="immediate_Infant_Anticipation_Playmat" Value="327489" />
+  <Preset Label="Reaching a Milestone (highChair_Infant_Anticipation_Big)" Value="327492" />
+  <Preset Label="This Light (super_Treehouse_Lights_TurnOff)" Value="327505" />
+  <Preset Label="All Lights (super_Treehouse_Lights_ChangeColorIntensity_All)" Value="327506" />
+  <Preset Label="This Room (super_Treehouse_Lights_ChangeColorIntensity_Room)" Value="327507" />
+  <Preset Label="This Light (super_Treehouse_Lights_ChangeColorIntensity)" Value="327508" />
+  <Preset Label="This Light (super_Treehouse_Lights_Automate)" Value="327509" />
+  <Preset Label="This Room (super_Treehouse_Lights_AutomateRoom)" Value="327510" />
+  <Preset Label="All Lights (super_Treehouse_Lights_AutomateAll)" Value="327511" />
+  <Preset Label="Reaching a Milestone (highChair_Infant_Anticipation_Small)" Value="327658" />
+  <Preset Label="immediate_Infant_Anticipation_HighChair" Value="327659" />
+  <Preset Label="playmat_Anticipation_GoToTummyTime" Value="327662" />
+  <Preset Label="Reaching a Milestone (tummyTimeTogether_SocialMixers_Anticipation_Small_Playmat)" Tags="TestUnsafe" Value="327664" />
+  <Preset Label="Cooing (infantMilestones_AnticipationMoment_Coo)" Value="327737" />
+  <Preset Label="Reaching a Milestone (infantMilestones_Anticipation_Start_Small)" Value="327738" />
+  <Preset Label="Reaching a Milestone (infantMilestones_Anticipation_Start_Big)" Value="327739" />
+  <Preset Label="aggregateSI_Infant_Anticipation_Basic" Value="327742" />
+  <Preset Label="Sit Up (infantMilestones_AnticipationMoment_SitUp)" Value="327743" />
+  <Preset Label="Reaching a Milestone (social_InfantMilestones_Anticipation_Wave)" Value="327744" />
+  <Preset Label="aggregateSI_Infant_Anticipation" Value="327746" />
+  <Preset Label="Reaching a Milestone (social_InfantMilestones_Anticipation_BlowKiss)" Value="327808" />
+  <Preset Label="Reaching a Milestone (social_InfantMilestones_Anticipation_PeekABoo)" Value="327809" />
+  <Preset Label="Watch Milestone (social_InfantMilestones_Anticipation_Listener)" Value="327810" />
   <Preset Label="Check Infant (TYAE_CheckOn_Infant_RoleStateActivate)" Value="327828" />
+  <Preset Label="Reaching a Milestone (infantMilestone_PullToStand_Anticipation)" Value="327857" />
   <Preset Label="KidsBike_PracticeBalancing" Value="327870" />
   <Preset Label="Pick Up Suitcase (putInInventoryInteraction_Suitcase)" Value="327872" />
   <Preset Label="Place in World (add_To_World_Suitcase)" Value="327873" />
+  <Preset Label="Reaching a Milestone (mixer_infant_WiggleToMusic_Anticipation_Small)" Value="328057" />
+  <Preset Label="Reaching a Milestone (toy_Play_Infant_Anticipation_Big)" Value="328058" />
   <Preset Label="What's That? (infant_WhatsThat_Immobile_InObject)" Value="328068" />
   <Preset Label="What's That? (infant_WhatsThat_Circle)" Value="328069" />
+  <Preset Label="idle_InfantMilestones_PushAnticipation" Value="328796" />
   <Preset Label="Kiss Goodnight (immediate_Infant_Crib_KissGoodnight)" Value="328897" />
   <Preset Label="Soothe to Sleep (immediate_Infant_Crib_SootheToSleep)" Value="328927" />
+  <Preset Label="kidsBike_Mixers_Instruct" Value="329069" />
+  <Preset Label="kidsBike_Mixers_Idle" Value="329070" />
+  <Preset Label="Watch Movie (super_MovieTheater_Watch_NPC)" Value="329098" />
   <Preset Label="Serve Assortment (BanquetTable_FillTable_Random_HSProm)" Value="329100" />
   <Preset Label="Put in Crib (super_Infant_WakeUp_TakeToCrib)" Value="330078" />
   <Preset Label="Call Adoption Agency (phone_PickServices_Start_Adoption)" Value="330127" />
   <Preset Label="Call Adoption Agency (phone_pickServiceToHire_Adoption)" Value="330128" />
   <Preset Label="Adopt (adoption_Picker_Phone)" Tags="TestUnsafe" Value="330129" />
+  <Preset Label="Blow a Kiss (socials_Toddler_BlowKiss_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="330547" />
   <Preset Label="Check Infant (TYAE_CheckOn_Infant_Nanny)" Value="330802" />
+  <Preset Label="immediate_Preroll_CarryBackInfant" Value="330897" />
+  <Preset Label="React to Cannon (super_CelebrationCannon_React_Fail)" Value="330920" />
+  <Preset Label="Reaching a Milestone (toy_Play_Infant_Anticipation_Grab)" Value="331058" />
   <Preset Label="Give {1.SimFirstName} a Nap (super_Infant_WakeUp_GiveNap)" Value="331069" />
+  <Preset Label="Aggressive (cheats_ToddlerPersonalityUpdate_Quirks_Add_Aggressive)" Value="331153" />
+  <Preset Label="Destructive (cheats_ToddlerPersonalityUpdate_Quirks_Add_Destructive)" Value="331154" />
+  <Preset Label="Loves Books (cheats_ToddlerPersonalityUpdate_Quirks_Add_BookLover)" Value="331155" />
+  <Preset Label="Loves Sounds (cheats_ToddlerPersonalityUpdate_Quirks_Add_AudioLover)" Value="331156" />
+  <Preset Label="Loves Water (cheats_ToddlerPersonalityUpdate_Quirks_Add_WaterLover)" Value="331157" />
+  <Preset Label="Hates Bedtime (cheats_ToddlerPersonalityUpdate_Quirks_Add_HatesBedtime)" Value="331158" />
+  <Preset Label="Wanderer (cheats_ToddlerPersonalityUpdate_Quirks_Add_RunsAway)" Value="331159" />
+  <Preset Label="Early Riser (cheats_ToddlerPersonalityUpdate_Quirks_Add_EarlyRiser)" Value="331160" />
+  <Preset Label="Little Singer (cheats_ToddlerPersonalityUpdate_Quirks_Add_Singer)" Value="331161" />
+  <Preset Label="Picky Eater (cheats_ToddlerPersonalityUpdate_Quirks_Add_PickyEater)" Value="331162" />
+  <Preset Label="Good Appetite (cheats_ToddlerPersonalityUpdate_Quirks_Add_GoodAppetite)" Value="331163" />
+  <Preset Label="Hates Being Carried (cheats_ToddlerPersonalityUpdate_Quirks_Add_HatesCarry)" Value="331164" />
+  <Preset Label="Loves Being Carried (cheats_ToddlerPersonalityUpdate_Quirks_Add_LovesCarry)" Value="331165" />
+  <Preset Label="Hates Wakeup Time (cheats_ToddlerPersonalityUpdate_Quirks_Add_HatesWakeup)" Value="331166" />
+  <Preset Label="Loves Wakeup Time (cheats_ToddlerPersonalityUpdate_Quirks_Add_LovesWakeup)" Value="331167" />
+  <Preset Label="Heavy Sleeper (cheats_ToddlerPersonalityUpdate_Quirks_Add_HeavySleeper)" Value="331168" />
+  <Preset Label="Light Sleeper (cheats_ToddlerPersonalityUpdate_Quirks_Add_LightSleeper)" Value="331169" />
+  <Preset Label="Messy Eater (cheats_ToddlerPersonalityUpdate_Quirks_Add_MessyEater)" Value="331170" />
+  <Preset Label="Aggressive (cheats_ToddlerPersonalityUpdate_Quirks_Remove_Aggressive)" Value="331201" />
+  <Preset Label="Destructive (cheats_ToddlerPersonalityUpdate_Quirks_Remove_Destructive)" Value="331202" />
+  <Preset Label="Picky Eater (cheats_ToddlerPersonalityUpdate_Quirks_Remove_PickyEater)" Value="331203" />
+  <Preset Label="Loves Books (cheats_ToddlerPersonalityUpdate_Quirks_Remove_BookLover)" Value="331204" />
+  <Preset Label="Early Riser (cheats_ToddlerPersonalityUpdate_Quirks_Remove_EarlyRiser)" Value="331205" />
+  <Preset Label="Loves Sounds (cheats_ToddlerPersonalityUpdate_Quirks_Remove_AudioLover)" Value="331206" />
+  <Preset Label="Loves Water (cheats_ToddlerPersonalityUpdate_Quirks_Remove_WaterLover)" Value="331207" />
+  <Preset Label="Hates Bedtime (cheats_ToddlerPersonalityUpdate_Quirks_Remove_HatesBedtime)" Value="331208" />
+  <Preset Label="Wanderer (cheats_ToddlerPersonalityUpdate_Quirks_Remove_RunsAway)" Value="331209" />
+  <Preset Label="Little Singer (cheats_ToddlerPersonalityUpdate_Quirks_Remove_Singer)" Value="331210" />
+  <Preset Label="Good Appetite (cheats_ToddlerPersonalityUpdate_Quirks_Remove_GoodAppetite)" Value="331211" />
+  <Preset Label="Hates Being Carried (cheats_ToddlerPersonalityUpdate_Quirks_Remove_HatesCarry)" Value="331212" />
+  <Preset Label="Loves Being Carried (cheats_ToddlerPersonalityUpdate_Quirks_Remove_LovesCarry)" Value="331213" />
+  <Preset Label="Hates Wakeup Time (cheats_ToddlerPersonalityUpdate_Quirks_Remove_HatesWakeup)" Value="331214" />
+  <Preset Label="Loves Wakeup Time (cheats_ToddlerPersonalityUpdate_Quirks_Remove_LovesWakeup)" Value="331215" />
+  <Preset Label="Heavy Sleeper (cheats_ToddlerPersonalityUpdate_Quirks_Remove_HeavySleeper)" Value="331216" />
+  <Preset Label="Light Sleeper (cheats_ToddlerPersonalityUpdate_Quirks_Remove_LightSleeper)" Value="331217" />
+  <Preset Label="Messy Eater (cheats_ToddlerPersonalityUpdate_Quirks_Remove_MessyEater)" Value="331218" />
+  <Preset Label="All Quirks (cheats_ToddlerPersonalityUpdate_Quirks_Remove_All)" Value="331219" />
+  <Preset Label="Frequently Hiccups  (cheats_InfantElement_Quirks_Add_FrequentlyHiccups)" Value="331305" />
+  <Preset Label="Frequently Sneezes (cheats_InfantElement_Quirks_Add_FrequentlySneezes)" Value="331306" />
+  <Preset Label="Messy Eater (cheats_InfantElement_Quirks_Add_MessyEater)" Value="331307" />
+  <Preset Label="Loves Wakeup Time (cheats_InfantElement_Quirks_Add_LovesWakingUp)" Value="331308" />
+  <Preset Label="Hates Wakeup Time (cheats_InfantElement_Quirks_Add_HatesWakingUp)" Value="331309" />
+  <Preset Label="Loves Being Held (cheats_InfantElement_Quirks_Add_LovesBeingHeld)" Value="331310" />
+  <Preset Label="Hates Being Held (cheats_InfantElement_Quirks_Add_HatesBeingHeld)" Value="331311" />
+  <Preset Label="Happy Spitter (cheats_InfantElement_Quirks_Add_HappySpitter)" Value="331312" />
+  <Preset Label="Good Appetite (cheats_InfantElement_Quirks_Add_GoodAppetite)" Value="331313" />
+  <Preset Label="Gassy (cheats_InfantElement_Quirks_Add_Gassy)" Value="331314" />
+  <Preset Label="Loves Sounds (cheats_InfantElement_Quirks_Add_ObsessedWithSound)" Value="331315" />
+  <Preset Label="Snuggly Sleeper (cheats_InfantElement_Quirks_Add_OnlySleepsWhenHeld)" Value="331316" />
+  <Preset Label="Free-Air Tinkler (cheats_InfantElement_Quirks_Add_PeesDuringChanges)" Value="331317" />
+  <Preset Label="Feeding Tinkler (cheats_InfantElement_Quirks_Add_PeesDuringFeeding)" Value="331318" />
+  <Preset Label="Picky Eater (cheats_InfantElement_Quirks_Add_PickyEater)" Value="331319" />
+  <Preset Label="Early Riser (cheats_InfantElement_Quirks_Add_RisesWithTheSun)" Value="331320" />
+  <Preset Label="Self-Soother (cheats_InfantElement_Quirks_Add_SelfSoother)" Value="331321" />
+  <Preset Label="Little Babbler (cheats_InfantElement_Quirks_Add_Talker)" Value="331322" />
+  <Preset Label="Frequently Hiccups  (cheats_InfantElement_Quirks_Remove_FrequentlyHiccups)" Value="331343" />
+  <Preset Label="Frequently Sneezes (cheats_InfantElement_Quirks_Remove_FrequentlySneezes)" Value="331344" />
+  <Preset Label="Loves Sounds (cheats_InfantElement_Quirks_Remove_ObsessedWithSound)" Value="331345" />
+  <Preset Label="Snuggly Sleeper (cheats_InfantElement_Quirks_Remove_OnlySleepsWhenHeld)" Value="331346" />
+  <Preset Label="Free-Air Tinkler (cheats_InfantElement_Quirks_Remove_PeesDuringChanges)" Value="331347" />
+  <Preset Label="Feeding Tinkler (cheats_InfantElement_Quirks_Remove_PeesDuringFeeding)" Value="331348" />
+  <Preset Label="Picky Eater (cheats_InfantElement_Quirks_Remove_PickyEater)" Value="331349" />
+  <Preset Label="Early Riser (cheats_InfantElement_Quirks_Remove_RisesWithTheSun)" Value="331350" />
+  <Preset Label="Self-Soother (cheats_InfantElement_Quirks_Remove_SelfSoother)" Value="331351" />
+  <Preset Label="Little Babbler (cheats_InfantElement_Quirks_Remove_Talker)" Value="331352" />
+  <Preset Label="Gassy (cheats_InfantElement_Quirks_Remove_Gassy)" Value="331353" />
+  <Preset Label="Good Appetite (cheats_InfantElement_Quirks_Remove_GoodAppetite)" Value="331354" />
+  <Preset Label="Happy Spitter (cheats_InfantElement_Quirks_Remove_HappySpitter)" Value="331355" />
+  <Preset Label="Hates Being Held (cheats_InfantElement_Quirks_Remove_HatesBeingHeld)" Value="331356" />
+  <Preset Label="Loves Being Held (cheats_InfantElement_Quirks_Remove_LovesBeingHeld)" Value="331357" />
+  <Preset Label="Loves Wakeup Time (cheats_InfantElement_Quirks_Remove_LovesWakingUp)" Value="331358" />
+  <Preset Label="Hates Wakeup Time (cheats_InfantElement_Quirks_Remove_HatesWakingUp)" Value="331359" />
+  <Preset Label="Messy Eater (cheats_InfantElement_Quirks_Remove_MessyEater)" Value="331360" />
+  <Preset Label="All Quirks (cheats_InfantElement_Quirks_Remove_All)" Value="331371" />
+  <Preset Label="Ask Guests to Set Up Sleeping Bags (si_Sleepover_AsktoSetUpSleepingBag)" Value="331391" />
   <Preset Label="Loud Noises (super_Infant_LoudNoise_React_Self)" Value="331402" />
+  <Preset Label="Play (toy_Play_Infant_PickUp_Immobile)" Value="331562" />
   <Preset Label="Security Straps (tableChangeDiaper_Upgrade_AddStraps_CompletedDisplay)" Value="331581" />
+  <Preset Label="Prank {1.SimFirstName} with Water (sleepingBag_PrePrank)" Value="331661" />
+  <Preset Label="Reaching a Milestone (nestingBlocks_Play_Infant_Anticipation_Big)" Value="332010" />
+  <Preset Label="Reaching a Milestone (nestingBlocks_Play_Infant_Anticipation_Small)" Value="332011" />
+  <Preset Label="Reaching a Milestone (toy_Dollhouse_Infant_Anticipation_Big)" Value="332012" />
+  <Preset Label="Reaching a Milestone (toy_Dollhouse_Infant_Anticipation_Small)" Value="332013" />
+  <Preset Label="infantMilestones_Anticipation_ToeInMouth" Value="332016" />
+  <Preset Label="immediate_Infant_Anticipation_Crib_PullToStand" Value="332017" />
   <Preset Label="Give {1.SimFirstName} a Nap (social_Infant_Touching_Carry_GiveNap)" Value="332061" />
   <Preset Label="Sleep (social_Infant_Touching_Carry_TakeNap)" Value="332062" />
   <Preset Label="infant_GiveNap_SocialActions_Hold" Tags="TestUnsafe" Value="332224" />
   <Preset Label="infant_GiveNap_SocialActions_UsePhone" Tags="TestUnsafe" Value="332225" />
+  <Preset Label="Best Hug Ever (mixer_social_Hug_Friendly_Middlescore_BestHugEver)" Tags="TestUnsafe" Value="332287" />
   <Preset Label="mixer_SleepingBag_Crosslegged" Value="332395" />
   <Preset Label="Help! (infant_HelpMe)" Value="332432" />
+  <Preset Label="mixer_ChattyCall_Reactions" Value="332665" />
   <Preset Label="immediate_Preroll_LayOnBackOnObject_Playmat" Value="332716" />
   <Preset Label="Coo At {1.ObjectName} (super_Infant_CooAt_Animal)" Value="332776" />
+  <Preset Label="Kick (si_touching_AggressiveToddler_Kick)" Value="332796" />
+  <Preset Label="Roughhouse Play (si_AggressiveToddler_AskFor_Roughhouse)" Value="332798" />
   <Preset Label="Play with {1.SimFirstName} (playmat_Socials_PlayWithInfant_PostureProvided)" Value="332825" />
   <Preset Label="immediate_Preroll_CribSleep" Value="333086" />
+  <Preset Label="mixer_ChattyCall_Talk" Value="333106" />
+  <Preset Label="Sing a Song (si_Toddler_NonTouching_Singer_SingSong)" Value="333116" />
+  <Preset Label="socials_InfantToSim_GoToAnticipation" Tags="TestUnsafe" Value="333136" />
   <Preset Label="Get Fed By (simPicker_Infant_GetFedBy)" Tags="TestUnsafe" Value="333142" />
   <Preset Label="Get Fed by {1.SimFirstName} (immediate_Infant_GetFedBy)" Value="333176" />
+  <Preset Label="Practice Crawling (practiceCrawling_Mixer_Picker_Cry)" Tags="TestUnsafe" Value="333199" />
+  <Preset Label="Practice Standing (social_Infant_Interim_PracticeStanding)" Value="333206" />
+  <Preset Label="Increase Work Rival Chance (Debug) (debugImmediate_WorkRival_IncreaseChance)" Value="333238" />
   <Preset Label="Play Peek-a-Boo (social_Infant_PeekABoo_Success)" Value="333239" />
   <Preset Label="Watch Peek-a-Boo (social_Infant_PeekABoo_Success_Target)" Value="333240" />
+  <Preset Label="super_Treehouse_Enclosure_StandNear" Value="333336" />
   <Preset Label="playmat_Mixers_Balloon" Value="333466" />
+  <Preset Label="Reaching a Milestone (highChair_FeedInfant_Anticipation_Pincer)" Tags="TestUnsafe" Value="333467" />
+  <Preset Label="Feed a Bite (highChair_FeedInfant_GuideSpoon)" Tags="TestUnsafe" Value="333596" />
   <Preset Label="aggregateSI_Infant_Feed_Chooser" Value="333597" />
+  <Preset Label="Wake Up Guests (immediate_Sleepover_WakeUp)" Value="333606" />
   <Preset Label="Have Science Baby as Single Parent (computer_ScienceBaby_SoloStart)" Value="333616" />
   <Preset Label="objectPicker_HighChair_FeedInfant_NotHungry_Auto" Tags="TestUnsafe" Value="333636" />
+  <Preset Label="objectPicker_HighChair_FeedInfant_FingerFood_NotHungry_Auto" Tags="TestUnsafe" Value="333637" />
+  <Preset Label="Watch (TV_Toddler_Watch_AudioLover)" Value="333657" />
   <Preset Label="super_Infant_TeleportNear_PreRoll_LowDesire" Value="333708" />
   <Preset Label="infantActions_Reaction_Angry" Value="333730" />
   <Preset Label="infantActions_Reaction_Happy" Value="333732" />
@@ -9402,8 +10338,11 @@
   <Preset Label="Change {1.SimFirstName}'s Diaper (social_Infant_Interim_ChangeDiaper_Table_Carried)" Value="334188" />
   <Preset Label="Prepare Reading (super_ReadToInfant_GrabBook_FromFloor)" Value="334219" />
   <Preset Label="Age Up (si_AgeUpBaby)" Value="334301" />
+  <Preset Label="Cut loose! Wooo! (solo_TemporaryStay_Dance)" Value="334362" />
   <Preset Label="mixer_Bonfire_Dance_Active_Actor" Value="334363" />
   <Preset Label="mixer_Bonfire_Dance_Passive_Actor" Value="334364" />
+  <Preset Label="Hug (mixer_social_Hug_Friendly_Middlescore_AdoptionContinuation_CT)" Tags="TestUnsafe" Value="334448" />
+  <Preset Label="Hug (si_touching_Toddler_Hug_AdoptionContinuation)" Value="334449" />
   <Preset Label="Put Down (putdownchooser_InfantPairedAgeUp)" Value="334470" />
   <Preset Label="Feed a Bite (highChair_FeedInfant_Feed_FirstBite_HavePreference)" Tags="TestUnsafe" Value="334562" />
   <Preset Label="Hand {2.SimFirstName} to {1.SimFirstName} (social_GiveCarriedObject_GiveCarriedSim_Failure)" Value="334620" />
@@ -9412,10 +10351,18 @@
   <Preset Label="reaction_Mixers_AgeUpBaby_View" Value="334671" />
   <Preset Label="reaction_Mixers_AgeUpBaby_TakePhoto" Value="334672" />
   <Preset Label="Complain about Being Dirty (sim_HygieneFailure_CarrySim)" Value="334751" />
+  <Preset Label="infantMilestone_PracticeStandingToPullToStand" Value="334800" />
   <Preset Label="carry_holdobject_standing" Value="334924" />
   <Preset Label="reaction_Mixers_AgeUpBaby_Excited" Value="335070" />
   <Preset Label="Age Up (socialSuperInteraction_CarryPickUp_Infant_To_Paired_AgeUp)" Value="335080" />
   <Preset Label="social_Infant_CarriedSim_Listen" Value="335195" />
+  <Preset Label="Play in Water (splashpad_Play_PadOn_OpenStreet)" Value="335276" />
+  <Preset Label="Play in Water (splashpad_Play_PadOn_UserDirectedOnly)" Value="335277" />
+  <Preset Label="autonomous_ObjectPicker_Splashpad_Play_OpenStreet" Tags="TestUnsafe" Value="335278" />
+  <Preset Label="Reminisce (lifeMilestone_View_BabyKeepsake_Death)" Value="335428" />
+  <Preset Label="Reminisce (lifeMilestone_View_ChildDrawings_Death)" Value="335547" />
+  <Preset Label="Reminisce (lifeMilestone_View_ToothCertificate_Death)" Value="335548" />
+  <Preset Label="Watch Milestone (infantMilestones_Anticipation_WatchBig)" Value="335617" />
   <Preset Label="Wake Up (sim_WakeUp_Infant)" Value="335637" />
   <Preset Label="Prepare Reading (super_ReadToInfant_GrabBook_FromInventory)" Value="335720" />
   <Preset Label="Play with {1.SimFirstName} (playmat_Socials_PlayWithInfant_Toddler)" Value="335759" />

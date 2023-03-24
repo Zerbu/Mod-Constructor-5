@@ -12,6 +12,26 @@ namespace Constructor5.TestConditionTypes
     {
         public override void Invoke(Type type)
         {
+            HolidayTraditionPreferencesComponent.AddInfantPreference += (preference) =>
+            {
+                preference.Conditions.Add(new TestConditionListItem
+                {
+                    Condition = new TraitCondition
+                    {
+                        Whitelist = new ReferenceList()
+                        {
+                            Items =
+                            {
+                                new ReferenceListItem
+                                {
+                                    Reference = new Reference(266297, "trait_infant")
+                                }
+                            }
+                        }
+                    }
+                });
+            };
+
             HolidayTraditionPreferencesComponent.AddToddlerPreference += (preference) =>
             {
                 preference.Conditions.Add(new TestConditionListItem

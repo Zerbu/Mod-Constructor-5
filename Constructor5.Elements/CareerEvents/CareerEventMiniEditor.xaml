@@ -77,7 +77,7 @@
                 <c:Field Label="GoldText" LabelWidth="100">
                     <c:STBLStringControl Text="{Binding GoldText}" />
                 </c:Field>
-                <!--<CheckBox Content="ShowEndOfDayReport" IsChecked="{Binding ShowEndOfDayReport}" />
+                <CheckBox Content="ShowEndOfDayReport" IsChecked="{Binding ShowEndOfDayReport}" />
                 <c:Field
                     Label="EndOfDayReportTitle"
                     LabelWidth="100"
@@ -89,7 +89,7 @@
                     LabelWidth="100"
                     Visibility="{Binding ShowEndOfDayReport, Converter={StaticResource BoolToVis}}">
                     <c:STBLStringControl Text="{Binding EndOfDayReportText}" />
-                </c:Field>-->
+                </c:Field>
             </StackPanel>
         </c:TabItem>
         <c:TabItem Header="Conditions">

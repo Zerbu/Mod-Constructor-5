@@ -34,6 +34,8 @@ namespace Constructor5.Base.ElementSystem
             set => _customLabel = !string.IsNullOrEmpty(value) ? value : null;
         }
 
+        public virtual bool Force31BitKey => false;
+
         public string GeneratedLabel
         {
             get

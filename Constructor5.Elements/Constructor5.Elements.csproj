@@ -75,18 +75,23 @@
     <Reference Include="WindowsBase" />
     <Reference Include="Xceed.Wpf.AvalonDock, Version=4.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
       <HintPath>..\packages\Extended.Wpf.Toolkit.4.2.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=4.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
       <HintPath>..\packages\Extended.Wpf.Toolkit.4.2.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=4.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
       <HintPath>..\packages\Extended.Wpf.Toolkit.4.2.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=4.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
       <HintPath>..\packages\Extended.Wpf.Toolkit.4.2.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Xceed.Wpf.Toolkit, Version=4.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
       <HintPath>..\packages\Extended.Wpf.Toolkit.4.2.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -498,6 +503,30 @@
     <Compile Include="LotTraits\LotTraitInfoEditor.xaml.cs">
       <DependentUpon>LotTraitInfoEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Milestones\Milestone.cs" />
+    <Compile Include="Milestones\MilestoneActionsOnComplete.cs" />
+    <Compile Include="Milestones\MilestoneActionsOnCompleteEditor.xaml.cs">
+      <DependentUpon>MilestoneActionsOnCompleteEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Milestones\MilestoneCategories.cs" />
+    <Compile Include="Milestones\MilestoneComponent.cs" />
+    <Compile Include="Milestones\MilestoneContextModifier.cs" />
+    <Compile Include="Milestones\MilestoneDisplayWhenNotUnlockedEditor.xaml.cs">
+      <DependentUpon>MilestoneDisplayWhenNotUnlockedEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Milestones\MilestoneEditor.xaml.cs">
+      <DependentUpon>MilestoneEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Milestones\MilestoneExportContext.cs" />
+    <Compile Include="Milestones\MilestoneGoal.cs" />
+    <Compile Include="Milestones\MilestoneGoalEditor.xaml.cs">
+      <DependentUpon>MilestoneGoalEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Milestones\MilestoneInfo.cs" />
+    <Compile Include="Milestones\MilestoneInfoEditor.xaml.cs">
+      <DependentUpon>MilestoneInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Milestones\MilestoneDisplayWhenNotUnlocked.cs" />
     <Compile Include="Need\Need.cs" />
     <Compile Include="ObjectiveSets\AssignedAspirationTrackContextModifier.cs" />
     <Compile Include="ObjectiveSets\CareerAssignmentGigContextModifier.cs" />
@@ -1213,6 +1242,26 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="LotTraits\LotTraitInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Milestones\MilestoneActionsOnCompleteEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Milestones\MilestoneDisplayWhenNotUnlockedEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Milestones\MilestoneEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Milestones\MilestoneGoalEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Milestones\MilestoneInfoEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

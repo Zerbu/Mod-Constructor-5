@@ -20,6 +20,8 @@ namespace Constructor5.Elements.Traits.Components
 
         [AddEnumToListIfTrue("ages", "BABY")]
         public bool AllowBaby { get; set; } = true;
+        [AddEnumToListIfTrue("ages", "INFANT")]
+        public bool AllowInfant { get; set; } = true;
 
         [AddEnumToListIfTrue("ages", "CHILD")]
         public bool AllowChild { get; set; } = true;
@@ -190,7 +192,12 @@ namespace Constructor5.Elements.Traits.Components
                 simDataList.Add(64);
             }
 
-            context.Tuning.SimDataHandler.WriteList(256, simDataList, 7, true);
+            if (AllowInfant)
+            {
+                simDataList.Add(128);
+            }
+
+            context.Tuning.SimDataHandler.WriteList(256, simDataList, 8, true);
         }
 
         private void SimDataTuneType(TraitExportContext context, TunableEnum typeTunable)

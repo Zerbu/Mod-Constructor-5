@@ -18,6 +18,8 @@ namespace Constructor5.Elements
     [ElementTypeData("Trait", true, ElementTypes = new[] { typeof(Trait) }, PresetFolders = new[] { "Trait" }, IsRootType = true)]
     public class Trait : Element, IHasComponents, IExportableElement, IIsFNV32Element, ISupportsCustomTuning
     {
+        public Trait() => SaveVersion = 2;
+
         // components list must be public for saving and loading
         // list must use ElementComponent instead of ITraitComponent to prevent save errors
         public List<BuffComponent> BuffComponents { get; } = new List<BuffComponent>();
@@ -47,10 +49,17 @@ namespace Constructor5.Elements
             var infoComponent = GetTraitComponent<TraitInfoComponent>();
 
             var contextModifier = GetContextModifier<CASPreferenceContextModifier>();
-            tuning.SimDataHandler = infoComponent.TraitType == TraitTypes.Personality
-                && contextModifier == null
-                ? new SimDataHandler("SimData/Trait.data")
-                : new SimDataHandler("SimData/TraitGameplay.data");
+
+            var handlerFile = "SimData/TraitGameplay.data";
+            if (infoComponent.TraitType == TraitTypes.Personality)
+            {
+                handlerFile = "SimData/Trait.data";
+            }
+            if (contextModifier != null)
+            {
+                handlerFile = "SimData/TraitPreference.data";
+            }
+            tuning.SimDataHandler = new SimDataHandler(handlerFile);
 
             var context = new TraitExportContext()
             {
@@ -112,7 +121,6 @@ namespace Constructor5.Elements
         protected override void OnElementCreatedOrLoaded()
         {
             base.OnElementCreatedOrLoaded();
-
             foreach (var type in Reflection.GetSubtypes(typeof(TraitComponent)))
             {
                 AddTraitComponent(type);
@@ -122,6 +130,13 @@ namespace Constructor5.Elements
             {
                 AddBuffComponent(type);
             }
+
+            if (SaveVersion == 1)
+            {
+                var info = GetTraitComponent<TraitInfoComponent>();
+                info.AllowInfant = info.AllowBaby;
+                SaveVersion = 2;
+            }
         }
 
         protected override void OnUserCreated(string label)
@@ -130,6 +145,7 @@ namespace Constructor5.Elements
             var info = GetTraitComponent<TraitInfoComponent>();
             info.Name = new Base.PropertyTypes.STBLString() { CustomText = label };
             info.AllowBaby = false;
+            info.AllowInfant = false;
             info.AllowToddler = false;
             info.TraitType = TraitTypes.Personality;
         }

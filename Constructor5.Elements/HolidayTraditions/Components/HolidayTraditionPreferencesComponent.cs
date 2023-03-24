@@ -10,11 +10,19 @@ namespace Constructor5.Elements.HolidayTraditions.Components
     [XmlSerializerExtraType]
     public class HolidayTraditionPreferencesComponent : HolidayTraditionComponent
     {
+        public static Action<HolidayTraditionPreference> AddInfantPreference { get; set; }
         public static Action<HolidayTraditionPreference> AddToddlerPreference { get; set; }
         public override int ComponentDisplayOrder => 2;
         public override string ComponentLabel => "Preferences";
 
         public ObservableCollection<HolidayTraditionPreference> Preferences { get; } = new ObservableCollection<HolidayTraditionPreference>();
+
+        public void SetInfantPreferencePreset(HolidayTraditionPreference preference)
+        {
+            preference.Reason.CustomText = "0x4CC304D3 <<< (From Being an Infant)";
+            preference.Conditions.Clear();
+            AddInfantPreference.Invoke(preference);
+        }
 
         public void SetToddlerPreferencePreset(HolidayTraditionPreference preference)
         {

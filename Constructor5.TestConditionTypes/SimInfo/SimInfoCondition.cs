@@ -12,9 +12,14 @@ namespace Constructor5.TestConditionTypes.SimInfo
     [XmlSerializerExtraType]
     public class SimInfoCondition : TestCondition
     {
-        public SimInfoCondition() => GeneratedLabel = "Sim Info Condition";
+        public SimInfoCondition()
+        {
+            GeneratedLabel = "Sim Info Condition";
+            SaveVersion = 2;
+        }
 
         public bool AllowBaby { get; set; } = true;
+        public bool AllowInfant { get; set; } = true;
         public bool AllowToddler { get; set; } = true;
         public bool AllowChild { get; set; } = true;
         public bool AllowTeen { get; set; } = true;
@@ -30,12 +35,18 @@ namespace Constructor5.TestConditionTypes.SimInfo
         [AutoTuneEnum("who")]
         public string Participant { get; set; }
 
-        public bool RestrictAge => !AllowBaby || !AllowToddler || !AllowChild || !AllowTeen || !AllowYoungAdult || !AllowAdult || !AllowElder;
+        public bool RestrictAge => !AllowBaby || !AllowInfant || !AllowToddler || !AllowChild || !AllowTeen || !AllowYoungAdult || !AllowAdult || !AllowElder;
 
         protected override string GetVariantTunableName(string contextTag = null) => "sim_info";
 
         protected override void OnExportVariant(TunableBase variantTunable, string contextTag)
         {
+            if (SaveVersion == 1)
+            {
+                AllowInfant = AllowBaby;
+                SaveVersion = 2;
+            }
+
             var tupleTunable = variantTunable.Get<TunableTuple>("sim_info");
             AutoTunerInvoker.Invoke(this, tupleTunable);
             TuningActionInvoker.InvokeFromFile("Sim Info Condition",

@@ -15,7 +15,8 @@ namespace Constructor5.Elements.Traits.Components
     public class TraitSpecialCasesComponent : TraitComponent
     {
         public bool BlockAging => BlockAgingFromBaby
-                    || BlockAgingFromToddler
+            || BlockAgingFromInfant
+            || BlockAgingFromToddler
             || BlockAgingFromChild
             || BlockAgingFromTeen
             || BlockAgingFromYoungAdult
@@ -26,11 +27,13 @@ namespace Constructor5.Elements.Traits.Components
         public bool BlockAgingFromBaby { get; set; }
         public bool BlockAgingFromChild { get; set; }
         public bool BlockAgingFromElder { get; set; }
+        public bool BlockAgingFromInfant { get; set; }
         public bool BlockAgingFromTeen { get; set; }
         public bool BlockAgingFromToddler { get; set; }
         public bool BlockAgingFromYoungAdult { get; set; }
 
         public bool BlockAllAging => BlockAgingFromBaby
+            && BlockAgingFromInfant
             && BlockAgingFromToddler
             && BlockAgingFromChild
             && BlockAgingFromTeen

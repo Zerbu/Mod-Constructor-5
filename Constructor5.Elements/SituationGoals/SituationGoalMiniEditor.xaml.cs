@@ -1,3 +1,4 @@
+using Constructor5.Elements.Milestones;
 using Constructor5.Elements.SituationGoals.Components;
 using Constructor5.UI.Shared;
 using System.Windows;
@@ -62,6 +63,18 @@ namespace Constructor5.Elements.SituationGoals
                 SituationGoalInfoEditor.RoleTagsExpander.Visibility = Visibility.Collapsed;
                 SituationGoalInfoEditor.SetScoreCheckBox.Visibility = Visibility.Collapsed;
             }
+
+            var milestoneContext = ((SituationGoal)obj).GetContextModifier<MilestoneContextModifier>();
+            if (milestoneContext != null)
+            {
+                SituationGoalInfoEditor.RoleTagsExpander.Visibility = Visibility.Collapsed;
+                SituationGoalInfoEditor.SetScoreCheckBox.Visibility = Visibility.Collapsed;
+                SituationGoalInfoEditor.SetCooldownCheckBox.Visibility = Visibility.Collapsed;
+                SituationGoalInfoEditor.IsHiddenCheckBox.Visibility = Visibility.Collapsed;
+                SituationGoalInfoEditor.ShowLocationCheckBox.Visibility = Visibility.Visible;
+                SituationGoalInfoEditor.ContextlessDescriptionTextBox.Visibility = Visibility.Visible;
+            }
+
             SituationGoalPreConditionsComponent = ((SituationGoal)obj).GetComponent<SituationGoalPreConditionsComponent>();
         }
     }

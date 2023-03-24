@@ -1137,6 +1137,23 @@
   <Preset Label="Complete Homework while Focused (Whim_FearConfrontation_Homework)" Value="286000" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_MissingRoles_PrimarySim_1)" Value="286006" />
   <Preset Label="Clean the Whiteboard (want_CleanWhiteboard)" Value="286226" />
+  <Preset Label="infantMilestonesGoal_Target_FineMotor_Waving" Value="286588" />
+  <Preset Label="infantMilestonesGoal_Target_PeedOnParent" Value="286589" />
+  <Preset Label="infantMilestonesGoal_Target_Social_BlowKiss" Value="286591" />
+  <Preset Label="infantMilestonesGoal_Target_Social_PeekABoo" Value="286596" />
+  <Preset Label="infantMilestonesGoal_Interaction_FineMotor_Grabbing" Value="286602" />
+  <Preset Label="infantMilestonesGoal_Interaction_FineMotor_Reaching" Value="286604" />
+  <Preset Label="infantMilestonesGoal_Interaction_Generic_FirstBlowout" Value="286607" />
+  <Preset Label="infantMilestonesGoal_Interaction_Generic_FirstFingerFood" Value="286609" />
+  <Preset Label="infantMilestonesGoal_Interaction_Generic_FirstFood" Value="286610" />
+  <Preset Label="infantMilestonesGoal_Interaction_GrossMotor_PullToStand" Value="286615" />
+  <Preset Label="infantMilestonesGoal_Actor_BirthGeneric" Value="286620" />
+  <Preset Label="infantMilestonesGoal_Actor_SleptThroughTheNight" Value="286623" />
+  <Preset Label="infantMilestonesGoal_Actor_Smile" Value="286624" />
+  <Preset Label="infantMilestones_ZoneGoal_BirthAtHome" Value="286626" />
+  <Preset Label="infantMilestones_ZoneGoal_BirthAtHospital" Value="286627" />
+  <Preset Label="infantMilestones_ZoneGoal_FirstVacation" Value="286628" />
+  <Preset Label="infantMilestones_ZoneGoal_TravelToPark" Value="286629" />
   <Preset Label="Exchange Vows (eventGoal_Custom_State_Wedding_ExchangeVows)" Value="287175" />
   <Preset Label="Plant a Stink Capsule in a Locker (whim_PrankLocker)" Value="287220" />
   <Preset Label="Gain Friendly Relationship with a Family Member (whim_GainRel_Family)" Value="287235" />
@@ -1574,6 +1591,7 @@
   <Preset Label="Wait for Lewis to Arrive (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_4LewisArrived)" Value="303445" />
   <Preset Label="Get to Know Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_5_GetToKnow)" Value="303511" />
   <Preset Label="Unwind\nwith your Hobby (situationGoal_ObjectCount_StuckintheirShadow_Phase1_Telescope)" Value="303521" />
+  <Preset Label="lifeMilestoneGoal_Rel_Toddler_FirstFriend" Value="303946" />
   <Preset Label="Let Go of Resentment (whim_FearConfrontation_DisappointingParents_DeceasedParent)" Value="304165" />
   <Preset Label="Lock your Laptop (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_LockPC)" Value="304798" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_5OwnsPet" Value="304805" />
@@ -1600,13 +1618,66 @@
   <Preset Label="Raise Teen’s grade to an A (scenarioGoal_Actor_AlienAbduction_AStudentTeen)" Value="305228" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_TeenSim_0)" Value="305234" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_ChildSim_AlienAbduction)" Value="305270" />
+  <Preset Label="Hug Sims (goal_FamilyReunion_HugSims)" Value="305393" />
+  <Preset Label="Talk about Family (goal_FamilyReunion_FamilySocials)" Value="305394" />
+  <Preset Label="Call to Meal (goal_FamilyReunion_CalltoMeal)" Value="305395" />
+  <Preset Label="Share Photos (goal_FamilyReunion_SharePhoto)" Value="305396" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_MaxImagination" Value="305575" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_MaxThinking" Value="305576" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_FirstTimeDaycare" Value="305577" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_LearnedToWalk" Value="305585" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_LearnedtoClimbStairs" Value="305586" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_LearnedToDance" Value="305587" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_LearnedToRun" Value="305588" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_MaxMovement" Value="305589" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_LearnedToTalk" Value="305590" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_MaxCommunication" Value="305593" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_MaxPotty" Value="305594" />
+  <Preset Label="lifeMilestoneGoal_Actor_Toddler_FirstNightmare" Value="305595" />
+  <Preset Label="lifeMilestoneGoal_IntObject_Toddler_ReadFirstBook" Value="305649" />
+  <Preset Label="lifeMilestoneGoal_IntObject_Toddler_ThrewTantrum" Value="305650" />
+  <Preset Label="lifeMilestoneGoal_IntObject_Toddler_ArtAppreciation" Value="305651" />
+  <Preset Label="lifeMilestoneGoal_IntObject_Toddler_StudiedShapes" Value="305652" />
+  <Preset Label="lifeMilestoneGoal_IntObject_Toddler_StudiedNumbers" Value="305653" />
+  <Preset Label="lifeMilestoneGoal_IntObject_Toddler_StudiedLetters" Value="305654" />
+  <Preset Label="lifeMilestoneGoal_IntObject_Toddler_AskedWhy" Value="305655" />
+  <Preset Label="lifeMilestoneGoal_IntObject_Toddler_PlayedWithOthers" Value="305656" />
+  <Preset Label="lifeMilestoneGoal_Rel_Adopted" Value="305713" />
+  <Preset Label="lifeMilestoneGoal_Rel_AdoptedSim" Value="305714" />
+  <Preset Label="lifeMilestoneGoal_Rel_HadSim" Value="305715" />
+  <Preset Label="lifeMilestoneGoal_Rel_BestFriend" Value="305716" />
+  <Preset Label="lifeMilestoneGoal_Rel_Enemy" Value="305717" />
+  <Preset Label="lifeMilestoneGoal_Rel_SignificantOther" Value="305718" />
+  <Preset Label="lifeMilestoneGoal_Rel_EndedRomanticRel" Value="305719" />
+  <Preset Label="lifeMilestoneGoal_Rel_FellInLove" Value="305720" />
+  <Preset Label="lifeMilestoneGoal_Rel_Engaged" Value="305721" />
+  <Preset Label="lifeMilestoneGoal_IntSocial_EngagementRejected" Value="305722" />
+  <Preset Label="lifeMilestoneGoal_Rel_Married" Value="305723" />
+  <Preset Label="lifeMilestoneGoal_Rel_HadAffair" Value="305724" />
+  <Preset Label="lifeMilestoneGoal_Rel_CaughtCheatingBySim" Value="305725" />
+  <Preset Label="lifeMilestoneGoal_Rel_CaughtSimCheating" Value="305726" />
+  <Preset Label="lifeMilestoneGoal_Rel_ResurrectedBySim" Value="305727" />
+  <Preset Label="lifeMilestoneGoal_Rel_ResurrectedSim" Value="305732" />
+  <Preset Label="lifeMilestoneGoal_Rel_SavedFromDeath" Value="305733" />
+  <Preset Label="lifeMilestoneGoal_IntObject_FirstDayOfGradeSchool" Value="305735" />
+  <Preset Label="lifeMilestoneGoal_Actor_FirstTimeBurningOut" Value="305738" />
+  <Preset Label="lifeMilestoneGoal_Actor_StruckByLightning" Value="305740" />
+  <Preset Label="lifeMilestoneGoal_Rel_FirstWoohoo" Value="305742" />
+  <Preset Label="lifeMilestoneGoal_IntSocial_FirstFight" Value="305743" />
+  <Preset Label="lifeMilestoneGoal_IntObject_FirstBladderFail" Value="305744" />
+  <Preset Label="lifeMilestoneGoal_IntObject_FirstEnergyFail" Value="305745" />
+  <Preset Label="lifeMilestoneGoal_IntObject_FirstFire" Value="305752" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_RivalSituation_NoRivalSituationRunning" Value="306510" />
+  <Preset Label="Work Hard at Work (whim_WorkTone_WorkHard_InLayoffPeriod)" Value="307066" />
+  <Preset Label="Quit Career (want_QuitCareer_InLayoffPeriod)" Value="307071" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_AgedUp_Hidden" Value="307948" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_AgedUp_Hidden_2" Value="307949" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_Child_MissedAgeUp" Value="308190" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_Adult_MissedAgeUp_Pablo" Value="308194" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_Child_MissedAgeUp_Sofia" Value="308195" />
   <Preset Label="scenarioGoal_Onboarding_ParentingPredicament_Phase4_Adult_MissedAgeUp_Jennifer" Value="308196" />
+  <Preset Label="Main Goal: Talk About the Baby (Goal_Main_BabyShower_Socials)" Value="308221" />
+  <Preset Label="Share Baby Gifts (Goal_BabyShower_GiveGifts)" Value="308469" />
   <Preset Label="Make Sure Kids Get a Good Night's Sleep (scenarioGoal_Compound_Onboarding_ParentingPredicaments_ChildSleep)" Value="308511" />
   <Preset Label="Make Sure Kids Get a Good Night's Sleep (scenarioGoal_InteractionTime_Onboarding_ParentingPredicaments_1_SleepNight_Sofia)" Value="308513" />
   <Preset Label="Have Leonardo and Sofia Play with Toys (scenarioGoal_ObjectInteraction_ParentingPredicaments_1_PlayWithToys_Optional_Sofia)" Value="308515" />
@@ -1621,19 +1692,79 @@
   <Preset Label="Send Leonardo and Sofia to School while in a Focused Mood (scenarioGoal_Compound_Onboarding_ParentingPredicaments_SchoolFocused)" Value="308538" />
   <Preset Label="Have Sofia and Leonardo Read at the Library (scenarioGoal_ObjectInteraction_ParentingPredicaments_3_ReadBook_Sofia)" Value="308540" />
   <Preset Label="Have Sofia and Leonardo Read at the Library (scenarioGoal_Compound_Onboarding_ParentingPredicaments_ReadBooks)" Value="308541" />
+  <Preset Label="Congratulate the Expecting Parent (Goal_BabyShower_CongratulateHost)" Value="309213" />
+  <Preset Label="Confront Fear of inferiority (whimGoal_FearConfrontation_Inferior)" Value="309261" />
+  <Preset Label="Be Above-Average at a Skill (FearConfrontation_Inferior_LevelAnySkill)" Value="309262" />
+  <Preset Label="Improve Grades to B or Better (FearConfrontation_Inferior_Grades)" Value="309263" />
+  <Preset Label="Have Effort Praised Over Time (whim_FearConfrontation_Inferior_BePraised)" Value="309264" />
+  <Preset Label="Tell Funny Stories (Goal_BabyShower_Socialize)" Value="309542" />
+  <Preset Label="lifeMilestoneGoal_Career_FirstPromotion" Value="310759" />
+  <Preset Label="lifeMilestoneGoal_Career_GotJob" Value="310760" />
+  <Preset Label="lifeMilestoneGoal_Career_ReachedTop" Value="310761" />
+  <Preset Label="lifeMilestoneGoal_IntObject_BecameNonOccult" Value="311062" />
+  <Preset Label="lifeMilestoneGoal_Died" Value="311063" />
+  <Preset Label="goal_groupWalkingTrail" Value="311517" />
+  <Preset Label="lifeMilestoneGoal_Career_ReachedTopAfterSchoolActivity" Value="311613" />
   <Preset Label="Have Sims Watch TV at the Same Time (goal_HaveTwoSimsWatchTV)" Value="311732" />
+  <Preset Label="lifeMilestoneGoal_Actor_LostFirstTooth" Value="312180" />
   <Preset Label="lifeMilestoneGoal_Trait_BecameWerewolf" Value="312388" />
   <Preset Label="lifeMilestoneGoal_Trait_HighSchoolDroppedOut" Value="312392" />
   <Preset Label="lifeMilestoneGoal_Trait_HighSchoolExpelled" Value="312393" />
   <Preset Label="lifeMilestoneGoal_Trait_HighSchoolGraduated" Value="312394" />
+  <Preset Label="lifeMilestoneGoal_Trait_BecamePlantSim" Value="312395" />
+  <Preset Label="lifeMilestoneGoal_Trait_LearnedToRideBike" Value="312396" />
   <Preset Label="lifeMilestoneGoal_Trait_BeganPuberty" Value="312397" />
+  <Preset Label="Listen to Soul Music (whim_LikedMusic_ListenTo_Oldies)" Value="312571" />
+  <Preset Label="Gush About New Baby (Goal_BabyShower_Gush)" Value="312778" />
+  <Preset Label="lifeMilestoneGoal_Trait_SelfDiscovery" Value="313003" />
+  <Preset Label="Get Some Sleep (goal_Sleepover_GetSleep)" Value="313350" />
   <Preset Label="lifeMilestoneGoal_Actor_PromRoyalty" Value="313432" />
   <Preset Label="lifeMilestoneGoal_Actor_WonVillageFair" Value="313472" />
   <Preset Label="lifeMilestoneGoal_Actor_BeatGreg" Value="313476" />
   <Preset Label="lifeMilestoneGoal_Actor_SmackedByAgnes" Value="313477" />
+  <Preset Label="lifeMilestoneGoal_ZoneLoaded_ForgottenGrotto" Value="313479" />
+  <Preset Label="lifeMilestoneGoal_ZoneLoaded_SylvanGlade" Value="313480" />
   <Preset Label="lifeMilestoneGoal_Trait_WerewolfPackLeaderA" Value="313483" />
   <Preset Label="lifeMilestoneGoal_Trait_WerewolfPackLeaderB" Value="313484" />
+  <Preset Label="infantMilestonesGoal_Target_Generic_FirstBubbleBath" Value="314042" />
+  <Preset Label="infantMilestonesGoal_Target_Generic_FirstBath" Value="314043" />
   <Preset Label="Confess to Cheating (romanticWhims_Targeted_Loyal_Confess)" Value="315805" />
   <Preset Label="Breakup with Unfaithful Partner (romanticWhims_Targeted_Loyal_Breakup)" Value="315806" />
   <Preset Label="Express Devotion to a Beloved Sim (romanticWhims_Targeted_Loyal_ExpressDevotion)" Value="315807" />
+  <Preset Label="lifeMilestoneGoal_Actor_MidLifeCrisis_Adventure" Value="316146" />
+  <Preset Label="lifeMilestoneGoal_Actor_MidLifeCrisis_Create" Value="316147" />
+  <Preset Label="lifeMilestoneGoal_Actor_MidLifeCrisis_Relationship" Value="316148" />
+  <Preset Label="lifeMilestoneGoal_Actor_MidLifeCrisis_Success" Value="316149" />
+  <Preset Label="infantMilestonesGoal_Event_Social_Coo" Value="318480" />
+  <Preset Label="infantMilestones_Rel_FirstVisitors" Value="318810" />
+  <Preset Label="infantMilestonesGoal_Event_Laugh" Value="318936" />
+  <Preset Label="infantMilestonesGoal_Event_Babble" Value="319097" />
+  <Preset Label="infantMilestonesGoal_Event_Creep" Value="319098" />
+  <Preset Label="infantMilestonesGoal_Event_FirstWord" Value="319259" />
+  <Preset Label="infantMilestonesGoal_Event_LiftHead" Value="319279" />
+  <Preset Label="Tell Stories on a Sleeping Bag (goal_Sleepover_SleepingBagStories)" Value="319583" />
+  <Preset Label="Dance to Music (goal_Sleepover_Dance)" Value="319584" />
+  <Preset Label="Carry Out a Sleeping Bag Prank (goal_Sleepover_Prank)" Value="320823" />
+  <Preset Label="infantMilestonesGoal_Event_PincerGrasp" Value="321882" />
+  <Preset Label="infantMilestonesGoal_Event_T2B" Value="322001" />
+  <Preset Label="infantMilestonesGoal_Event_B2T" Value="322077" />
+  <Preset Label="infantMilestonesGoal_Event_Clapping" Value="322110" />
+  <Preset Label="infantMilestonesGoal_Event_ToeInMouth" Value="322143" />
+  <Preset Label="infantMilestonesGoal_Event_SitUp" Value="323242" />
+  <Preset Label="infantMilestonesGoal_Event_Crawling" Value="323248" />
+  <Preset Label="infantMilestonesGoal_Event_Dance" Value="323251" />
+  <Preset Label="Use Celebration Cannon (goal_BabyShower_CelebrationCannon)" Value="324342" />
+  <Preset Label="lifeMilestoneGoal_Rel_RetroactiveOnly_HadSim" Value="325451" />
+  <Preset Label="infantMilestonesGoal_Event_BlowRaspberry" Value="327163" />
+  <Preset Label="Take Photos (goal_FamilyReunion_TakePhotos)" Value="328686" />
+  <Preset Label="lifeMilestoneGoal_IntObject_Cowplant" Value="329360" />
+  <Preset Label="lifeMilestoneGoal_Actor_Resurrected" Value="329410" />
+  <Preset Label="Take Photos (Goal_BabyShower_TakingPictures)" Value="331863" />
+  <Preset Label="lifeMilestoneGoal_Actor_Birthday" Value="332972" />
+  <Preset Label="lifeMilestoneGoal_Career_Fired" Value="333498" />
+  <Preset Label="lifeMilestoneGoal_Career_Quit" Value="333499" />
+  <Preset Label="lifeMilestoneGoal_Career_LaidOff" Value="333516" />
+  <Preset Label="lifeMilestoneGoal_Career_Retired" Value="333517" />
+  <Preset Label="infantMilestonesGoal_Event_FirstVisitToFamilyMember" Value="334935" />
+  <Preset Label="lifeMilestoneGoal_Rel_Widowed" Value="335739" />
 </PresetGroup>
