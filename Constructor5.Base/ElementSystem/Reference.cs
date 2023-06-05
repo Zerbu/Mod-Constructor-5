@@ -65,7 +65,6 @@ namespace Constructor5.Base.ElementSystem
 
         public string GameReferenceLabel { get; set; }
 
-        [Obsolete("For tooltip only")]
         public string Label
         {
             get
@@ -82,6 +81,21 @@ namespace Constructor5.Base.ElementSystem
 
                 return "Nothing Selected";
             }
+        }
+
+        public string GetSimpleLabel()
+        {
+            if (Element != null && !Element.IsDeleted)
+            {
+                return Element.Label;
+            }
+
+            if (GameReference != 0)
+            {
+                return GameReferenceLabel;
+            }
+
+            return "Nothing Selected";
         }
 
         XmlSchema IXmlSerializable.GetSchema() => null;

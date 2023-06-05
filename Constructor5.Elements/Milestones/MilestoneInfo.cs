@@ -38,6 +38,8 @@ namespace Constructor5.Elements.Milestones
         [AutoTuneBasic("repeatable")]
         public bool IsRepeatable { get; set; }
 
+        public bool PlaySoundEffect { get; set; } = true;
+
         public bool ShowTargetSim { get; set; }
 
         public override string ComponentLabel => "MilestoneInfo";
@@ -91,14 +93,20 @@ namespace Constructor5.Elements.Milestones
                 header.SimDataHandler.WriteList(context.SimDataAgesPosition, simDataList, 8, true);
             }
 
-            switch (Category)
+            if (PlaySoundEffect)
             {
-                case MilestoneCategories.Life:
-                    context.Tuning.Get<TunableList>("loot").Set<TunableBasic>(null, "317831");
-                    break;
-                case MilestoneCategories.Social:
-                    context.Tuning.Get<TunableList>("loot").Set<TunableBasic>(null, "317832");
-                    break;
+                switch (Category)
+                {
+                    case MilestoneCategories.Firsts:
+                        context.Tuning.Get<TunableList>("loot").Set<TunableBasic>(null, "317833");
+                        break;
+                    case MilestoneCategories.Life:
+                        context.Tuning.Get<TunableList>("loot").Set<TunableBasic>(null, "317831");
+                        break;
+                    case MilestoneCategories.Social:
+                        context.Tuning.Get<TunableList>("loot").Set<TunableBasic>(null, "317832");
+                        break;
+                }
             }
 
             if (ShowTargetSim)

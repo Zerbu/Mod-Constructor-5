@@ -107,19 +107,19 @@ namespace Constructor5.Core
                 Assembly.Load("Constructor5.SimFilterTypes"),
                 Assembly.Load("Constructor5.SituationGoalTemplates"),
                 Assembly.Load("Constructor5.BasicExtraTypes"),
-                 Assembly.Load("Constructor5.ZoneDirectorTemplates"),
+                Assembly.Load("Constructor5.ZoneDirectorTemplates"),
             };
+
+            if (System.ComponentModel.LicenseManager.UsageMode == System.ComponentModel.LicenseUsageMode.Designtime)
+            {
+                return result;
+            }
 
             var pluginsDir = DirectoryUtility.GetUserDirectory("Plugins");
             if (Directory.Exists(pluginsDir))
             {
                 result.AddRange(Directory.GetFiles(pluginsDir, "*.dll").Select(file => Assembly.LoadFrom(Path.GetFullPath(file))));
             }
-            /*else
-            {
-                var mainAssemblyDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location.Replace("Constructor5.DebugTools.FormGenerator", "Constructor5"));
-                result.AddRange(Directory.GetFiles($"{mainAssemblyDirectory}/Plugins", "*.dll").Select(file => Assembly.LoadFrom(Path.GetFullPath(file))));
-            }*/
 
             return result;
         }

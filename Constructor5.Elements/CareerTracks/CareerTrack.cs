@@ -246,7 +246,7 @@ namespace Constructor5.Elements.CareerTracks
                                 var careerTestTuple = tunableVariant1.Get<TunableTuple>("career_test");
                                 var tunableVariant2 = careerTestTuple.Set<TunableVariant>("test_type", "career_track");
                                 var tunableTuple2 = tunableVariant2.Get<TunableTuple>("career_track");
-                                tunableTuple2.Set<TunableBasic>("career_track", instanceKey);
+                                tunableTuple2.Set<TunableBasic>("career_track", ElementTuning.GetSingleInstanceKey(this));
 
                                 var tunableVariant3 = tunableTuple2.Set<TunableVariant>("user_level", "enabled");
                                 var tunableTuple3 = tunableVariant3.Get<TunableTuple>("enabled");

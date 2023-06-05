@@ -103,6 +103,10 @@
       <DependentUpon>SituationGoalActorEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Single\SituationGoalActorTemplate.cs" />
+    <Compile Include="Single\SituationGoalActorTraitTemplate.cs" />
+    <Compile Include="Single\SituationGoalActorTraitTemplateEditor.xaml.cs">
+      <DependentUpon>SituationGoalActorTraitTemplateEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Single\SituationGoalInteractionEditor.xaml.cs">
       <DependentUpon>SituationGoalInteractionEditor.xaml</DependentUpon>
     </Compile>
@@ -143,6 +147,10 @@
     <Page Include="Single\SituationGoalActorEditor.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Single\SituationGoalActorTraitTemplateEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Single\SituationGoalInteractionEditor.xaml">
       <Generator>MSBuild:Compile</Generator>

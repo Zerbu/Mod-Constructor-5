@@ -3352,7 +3352,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Version.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>

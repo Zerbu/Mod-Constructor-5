@@ -28,6 +28,18 @@
                     IsLocalizable="False"
                     Text="{Binding Element.Label, ElementName=uc}" />
                 <StackPanel Grid.Column="1" Orientation="Horizontal">
+                    <!--<c:PlainButton
+                        x:Name="MacrosButton"
+                        HorizontalAlignment="Left"
+                        Click="MacrosButton_Click"
+                        ToolTip="Macros">
+                        <c:Button.Content>
+                            <Image
+                                Width="25"
+                                Height="25"
+                                Source="pack://siteoforigin:,,,/Images/MacroIcon.png" />
+                        </c:Button.Content>
+                    </c:PlainButton>-->
                     <c:Button
                         x:Name="CustomTuningButton"
                         HorizontalAlignment="Left"

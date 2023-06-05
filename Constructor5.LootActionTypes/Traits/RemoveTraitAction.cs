@@ -29,6 +29,7 @@ namespace Constructor5.LootActionTypes.Traits
             var tunableTuple1 = tunableVariant1.Get<TunableTuple>("specific_trait");
             tunableTuple1.Set<TunableBasic>("specific_trait", Trait);
 
+            AutoTunerInvoker.Invoke(this, mainTuple);
             TestConditionTuning.TuneTestList(mainTuple, originalContext.TestConditions, "tests");
         }
     }

@@ -1,5 +1,8 @@
 using Constructor5.Base.LocalizationSystem;
+using Constructor5.Base.MacroSystem;
+using Constructor5.Base.ProjectSystem;
 using Constructor5.Core;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
@@ -93,6 +96,8 @@ namespace Constructor5.Base.ElementSystem
             set => CustomLabel = value;
         }
 
+        public ObservableCollection<string> MacroFiles { get; } = new ObservableCollection<string>();
+
         [XmlAttribute]
         public int SaveVersion { get; set; } = 1;
 
@@ -135,5 +140,14 @@ namespace Constructor5.Base.ElementSystem
         { }
 
         protected internal virtual void OnUserCreated(string label) => CustomLabel = label;
+
+        public void RunMacroFiles()
+        {
+            foreach (var str in MacroFiles)
+            {
+                var file = DirectoryUtility.GetUserOrProgramFile($"Macros/{GetType().Name}", $"{str}.xml");
+                Macro.RunMacroFromFile(file, this);
+            }
+        }
     }
 }

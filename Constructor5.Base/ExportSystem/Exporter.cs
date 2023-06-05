@@ -127,6 +127,7 @@ namespace Constructor5.Base.ExportSystem
             {
                 foreach (var element in elements.ToArray())
                 {
+                    element.RunMacroFiles();
                     if (element is IExportableElement exportableElement)
                     {
                         exportableElement.OnExport();

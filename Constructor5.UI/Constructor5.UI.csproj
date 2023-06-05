@@ -160,6 +160,9 @@
       <DependentUpon>IconSelectorWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Dialogs\IconSelector\ImageSelectorItem.cs" />
+    <Compile Include="Dialogs\MacroSelector\MacroSelectorWindow.xaml.cs">
+      <DependentUpon>MacroSelectorWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Dialogs\ObjectTypeSelector\IObjectTypeSelectorExtraTab.cs" />
     <Compile Include="Dialogs\ObjectTypeSelector\ObjectTypeExtraTabAttribute.cs" />
     <Compile Include="Dialogs\ObjectTypeSelector\ObjectTypeExtraTabManager.cs" />
@@ -379,6 +382,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Dialogs\IconSelector\IconSelectorWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\MacroSelector\MacroSelectorWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

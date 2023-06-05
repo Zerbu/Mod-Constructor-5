@@ -29,6 +29,8 @@
                 </StackPanel>
             </c:Field>
 
+            <c:CheckBox Content="PlaySoundEffect" IsChecked="{Binding PlaySoundEffect}" />
+
             <c:CheckBox Content="IsRepeatable" IsChecked="{Binding IsRepeatable}" />
 
             <c:CheckBox Content="ShowTargetSim" IsChecked="{Binding ShowTargetSim}" />

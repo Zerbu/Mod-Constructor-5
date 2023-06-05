@@ -3,6 +3,7 @@ using Constructor5.Base.ElementSystem;
 using Constructor5.UI.Dialogs;
 using Constructor5.UI.Dialogs.CustomTuningDialog;
 using Constructor5.UI.Dialogs.ElementSettings;
+using Constructor5.UI.Dialogs.MacroSelector;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -33,5 +34,8 @@ namespace Constructor5.UI.Main
 
         private void ElementSettingsButton_Click(object sender, RoutedEventArgs e)
             => new ElementSettingsWindow(Element) { Owner = Window.GetWindow(this) }.ShowDialog();
+
+        private void MacrosButton_Click(object sender, RoutedEventArgs e)
+            => new MacroSelectorWindow(Element) { Owner = Window.GetWindow(this) }.ShowDialog();
     }
 }

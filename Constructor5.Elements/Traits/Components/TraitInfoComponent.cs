@@ -75,6 +75,8 @@ namespace Constructor5.Elements.Traits.Components
 
         protected internal override void OnExport(TraitExportContext context)
         {
+            var updateMove = 144;
+
             var nameToUse = Name;
             var descriptionToUse = Description;
             var iconToUse = Icon;
@@ -133,9 +135,11 @@ namespace Constructor5.Elements.Traits.Components
 
             var header = context.Tuning;
             var nameKey = Exporter.Current.STBLBuilder.GetKey(nameToUse);
-            header.SimDataHandler.WriteText(188, nameKey ?? 0);
-            header.SimDataHandler.WriteText(232, Exporter.Current.STBLBuilder.GetKey(descriptionToUse) ?? 0);
-            header.SimDataHandler.WriteTGI(200, iconToUse.GetUncommentedText(), Element);
+            header.SimDataHandler.WriteText(188 + updateMove, nameKey ?? 0);
+            header.SimDataHandler.WriteText(232 + updateMove, Exporter.Current.STBLBuilder.GetKey(descriptionToUse) ?? 0);
+            header.SimDataHandler.WriteTGI(200 + updateMove, iconToUse.GetUncommentedText(), Element);
+
+            // Add 144
 
             SimDataTuneAges(context);
             SimDataTuneType(context, (TunableEnum)typeTunable);
@@ -155,6 +159,8 @@ namespace Constructor5.Elements.Traits.Components
 
         private void SimDataTuneAges(TraitExportContext context)
         {
+            var updateMove = 144;
+
             var simDataList = new List<ulong>();
 
             if (AllowBaby)
@@ -197,22 +203,24 @@ namespace Constructor5.Elements.Traits.Components
                 simDataList.Add(128);
             }
 
-            context.Tuning.SimDataHandler.WriteList(256, simDataList, 8, true);
+            context.Tuning.SimDataHandler.WriteList(256 + updateMove, simDataList, 8, true);
         }
 
         private void SimDataTuneType(TraitExportContext context, TunableEnum typeTunable)
         {
+            var updateMove = 144;
+
             var preferenceModifier = Element.GetContextModifier<CASPreferenceContextModifier>();
             if (preferenceModifier != null)
             {
                 if (!preferenceModifier.IsDislike)
                 {
-                    context.Tuning.SimDataHandler.Write(240, 22);
+                    context.Tuning.SimDataHandler.Write(240 + updateMove, 22);
                     context.Tuning.Set<TunableEnum>("trait_type", "LIKE");
                 }
                 else
                 {
-                    context.Tuning.SimDataHandler.Write(240, 23);
+                    context.Tuning.SimDataHandler.Write(240 + updateMove, 23);
                     context.Tuning.Set<TunableEnum>("trait_type", "DISLIKE");
                 }
                 return;
@@ -222,22 +230,22 @@ namespace Constructor5.Elements.Traits.Components
             {
                 case TraitTypes.Personality:
                     var simDataTagList = new List<ulong> { 234, GetCategorySimDataTag() };
-                    context.Tuning.SimDataHandler.WriteList(352, simDataTagList, 2, false);
+                    context.Tuning.SimDataHandler.WriteList(352 + updateMove, simDataTagList, 2, false);
                     break;
                 case TraitTypes.Gameplay:
-                    context.Tuning.SimDataHandler.Write(240, 1);
+                    context.Tuning.SimDataHandler.Write(240 + updateMove, 1);
                     context.Tuning.Set<TunableEnum>("trait_type", "GAMEPLAY");
                     break;
                 case TraitTypes.Hidden:
-                    context.Tuning.SimDataHandler.Write(240, 4);
+                    context.Tuning.SimDataHandler.Write(240 + updateMove, 4);
                     context.Tuning.Set<TunableEnum>("trait_type", "HIDDEN");
                     break;
                 case TraitTypes.Aspiration:
-                    context.Tuning.SimDataHandler.Write(240, 6);
+                    context.Tuning.SimDataHandler.Write(240 + updateMove, 6);
                     context.Tuning.Set<TunableEnum>("trait_type", "ASPIRATION");
                     break;
                 case TraitTypes.Phase:
-                    context.Tuning.SimDataHandler.Write(240, 10);
+                    context.Tuning.SimDataHandler.Write(240 + updateMove, 10);
                     context.Tuning.Set<TunableEnum>("trait_type", "PHASE");
                     break;
                 /*

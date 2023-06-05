@@ -18,24 +18,22 @@ namespace Constructor5.Elements.Interactions.Shared
         protected internal override void OnExport(InteractionExportContext context)
         {
             var socialContext = context as SocialInteractionExportContext;
-            if (socialContext == null)
+            if (socialContext != null)
             {
-                return;
-            }
-
-            var traitContextModifier = Element.GetContextModifier<SIAssociatedTrait>();
-            if (traitContextModifier != null)
-            {
-                socialContext.TraitKey = (ulong)ElementTuning.GetSingleInstanceKey(traitContextModifier.Trait);
-
-                var component = ((Trait)traitContextModifier.Trait.Element).GetTraitComponent<TraitInfoComponent>();
-                if (component.TraitType == TraitTypes.Personality)
+                var traitContextModifier = Element.GetContextModifier<SIAssociatedTrait>();
+                if (traitContextModifier != null)
                 {
-                    socialContext.LearnTraitLootKey = CreateLearnTraitLoot(socialContext);
-                }
-            }
+                    socialContext.TraitKey = (ulong)ElementTuning.GetSingleInstanceKey(traitContextModifier.Trait);
 
-            socialContext.ScoreTypeKey = GetScoreTypeKey(socialContext);
+                    var component = ((Trait)traitContextModifier.Trait.Element).GetTraitComponent<TraitInfoComponent>();
+                    if (component.TraitType == TraitTypes.Personality)
+                    {
+                        socialContext.LearnTraitLootKey = CreateLearnTraitLoot(socialContext);
+                    }
+                }
+
+                socialContext.ScoreTypeKey = GetScoreTypeKey(socialContext);
+            }
 
             Template.OnExport(context);
         }

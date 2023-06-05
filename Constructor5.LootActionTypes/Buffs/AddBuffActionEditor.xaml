@@ -9,7 +9,7 @@
     xmlns:references="clr-namespace:Constructor5.Elements.Buffs.References;assembly=Constructor5.Elements"
     d:DesignHeight="450"
     d:DesignWidth="800"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Loaded="UserControl_Loaded" Unloaded="UserControl_Unloaded">
     <StackPanel>
         <references:BuffWithReasonControl BuffWithReason="{Binding Buff}" />
         <c:CheckBox Content="IgnoreIfAlreadyHasBiff" IsChecked="{Binding IgnoreIfAlreadyHasBuff}" />

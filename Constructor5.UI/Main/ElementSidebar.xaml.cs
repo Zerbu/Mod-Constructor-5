@@ -1,5 +1,7 @@
-﻿using Constructor5.Base.ElementSystem;
+﻿using Constructor5.Base.DebugCommandSystem;
+using Constructor5.Base.ElementSystem;
 using Constructor5.Base.LocalizationSystem;
+using Constructor5.Base.MacroSystem;
 using Constructor5.Core;
 using Constructor5.UI.Dialogs;
 using Constructor5.UI.Dialogs.ElementFilter;
@@ -133,6 +135,36 @@ namespace Constructor5.UI.Main
             }
             ElementsSource.SortDescriptions.Add(new SortDescription("Label", ListSortDirection.Ascending));
             ElementsSource.Refresh();
+        }
+
+        private void MacroTestButton_Click(object sender, RoutedEventArgs e)
+        {
+            var result = (Macro)XmlLoader.LoadFile(typeof(Macro), "MacroTest.xml");
+
+            /*var createElement = new CreateElementMacroCommand()
+            {
+                TypeName = "Trait",
+                ElementName = "Test Trait"
+            };
+            result.Commands.Add(createElement);
+
+            var getComponent = new GetComponentMacroCommand()
+            {
+                ListVariable = "TraitComponents",
+                TypeName = "TraitInfoComponent"
+            };
+            createElement.ChildCommands.Add(getComponent);
+
+            getComponent.ChildCommands.Add(new SetTextMacroCommand()
+            {
+                On = "_Component",
+                Property = "Name",
+                Value = "My Test Trait"
+            });*/
+
+            result.Run();
+
+            //XmlSaver.SaveFile(result, "MacroTest.xml");
         }
     }
 }

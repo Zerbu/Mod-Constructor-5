@@ -1,0 +1,81 @@
+﻿<Window
+    x:Class="Constructor5.UI.Dialogs.MacroSelector.MacroSelectorWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.UI.Dialogs.MacroSelector"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="w"
+    Title="Macros - The Sims 4 Mod Constructor (V5)"
+    Width="800"
+    Height="600"
+    FontSize="{StaticResource Constructor.BigFontSize}"
+    Style="{StaticResource Constructor.WindowStyle}"
+    WindowStartupLocation="CenterOwner"
+    WindowStyle="ToolWindow"
+    mc:Ignorable="d">
+    <!--<Window.Resources>
+        <local:ElementAddCommand x:Key="ElementAddCommand" />
+    </Window.Resources>-->
+    <Border Style="{StaticResource Constructor.OverlayStyle}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <ListView x:Name="SelectableMacrosControl" Padding="{StaticResource Constructor.BigPadding}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <c:TextBlock IsLocalizable="False" Text="{Binding}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <StackPanel Grid.Row="1">
+                    <StackPanel Orientation="Horizontal">
+                        <c:Button
+                            x:Name="AddMacroButton"
+                            Margin="{StaticResource Constructor.BigPadding}"
+                            Click="AddMacroButton_Click"
+                            Content="AddMacro" />
+                        <c:Button
+                            x:Name="RunNowButton"
+                            Margin="{StaticResource Constructor.BigPadding}"
+                            Click="RunNowButton_Click"
+                            Content="RunNow" />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <ListView
+                    x:Name="CurrentMacrosControl"
+                    Padding="{StaticResource Constructor.BigPadding}"
+                    ItemsSource="{Binding Element.MacroFiles, ElementName=w}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <c:TextBlock IsLocalizable="False" Text="{Binding}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <StackPanel Grid.Row="1" Orientation="Horizontal">
+                    <c:Button
+                        x:Name="RemoveMacroButton"
+                        Margin="{StaticResource Constructor.BigPadding}"
+                        Click="RemoveMacroButton_Click"
+                        Content="RemoveMacro" />
+                </StackPanel>
+            </Grid>
+
+        </Grid>
+    </Border>
+</Window>

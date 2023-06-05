@@ -47,5 +47,15 @@ namespace Constructor5.Base.ProjectSystem
 
             return result.ToArray();
         }
+
+        public static string GetUserOrProgramFile(string dir, string file)
+        {
+            if (File.Exists($"{GetUserDirectory(dir)}/{file}"))
+            {
+                return $"{GetUserDirectory(dir)}/{file}";
+            }
+
+            return $"{GetProgramDirectory(dir)}/{file}";
+        }
     }
 }
