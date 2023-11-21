@@ -42,9 +42,9 @@ namespace Constructor5.LootActionTypes.Situations
             createSituationTuple.Set<TunableBasic>("invite_target_sim", "False");
             createSituationTuple.Set<TunableBasic>("invite_picked_sims", "False");
 
-            if (IsUserFacing)
+            if (!IsUserFacing)
             {
-                createSituationTuple.Set<TunableBasic>("is_user_facing", IsUserFacing);
+                createSituationTuple.Set<TunableBasic>("user_facing", "False");
             }
 
             createSituationTuple.Set<TunableBasic>("situation", Situation);

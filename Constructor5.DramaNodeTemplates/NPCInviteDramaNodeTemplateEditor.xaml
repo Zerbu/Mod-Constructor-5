@@ -1,0 +1,38 @@
+﻿<UserControl
+    x:Class="Constructor5.DramaNodeTemplates.NPCInviteDramaNodeTemplateEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.DramaNodeTemplates"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <StackPanel>
+        <c:Field Label="InviterSimFilter" LabelWidth="150">
+            <c:ReferenceControl ElementTypeName="SimFilter" Reference="{Binding InviterSimFilter}" />
+        </c:Field>
+        <c:Field Label="SituationToRun" LabelWidth="150">
+            <c:ReferenceControl ElementTypeName="Situation" Reference="{Binding SituationToRun}" />
+        </c:Field>
+        <c:Field Label="PlayerJob" LabelWidth="150">
+            <c:ReferenceControl ElementTypeName="SituationJob" Reference="{Binding PlayerJob}" />
+        </c:Field>
+        <c:Field Label="InviterJob" LabelWidth="150">
+            <c:ReferenceControl ElementTypeName="SituationJob" Reference="{Binding InviterJob}" />
+        </c:Field>
+        <c:Field Label="OtherSimsJob" LabelWidth="150">
+            <c:ReferenceControl ElementTypeName="SituationJob" Reference="{Binding OtherSimsJob}" />
+        </c:Field>
+        <c:Field Label="OtherSimsFilter" LabelWidth="150">
+            <c:ReferenceControl ElementTypeName="SimFilter" Reference="{Binding OtherSimsFilter}" />
+        </c:Field>
+        <c:Field Label="MessageText" LabelWidth="150">
+            <c:STBLStringControl Text="{Binding MessageText}" />
+        </c:Field>
+        <c:CheckBox Content="AllowDuringWorkHours" IsChecked="{Binding AllowDuringWorkHours}" />
+        <c:CheckBox Content="UninstancedSimsOnly" IsChecked="{Binding UninstancedSimsOnly}" />
+        <c:CheckBox Content="IsGoaled" IsChecked="{Binding IsGoaled}" />
+    </StackPanel>
+</UserControl>

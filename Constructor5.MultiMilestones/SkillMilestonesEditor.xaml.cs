@@ -23,6 +23,10 @@ namespace Constructor5.MultiMilestones
             element.DescriptionMin.CustomText = $"{{0.SimFirstName}} increased {{M0.his}}{{F0.her}} {element.SkillName.CustomText} skill at {{3.String}}.";
             element.Description.CustomText = $"{{0.SimFirstName}} increased {{M0.his}}{{F0.her}} {element.SkillName.CustomText} skill at {{3.String}}.";
             element.DescriptionMax.CustomText = $"{{0.SimFirstName}} increased {{M0.his}}{{F0.her}} {element.SkillName.CustomText} skill at {{3.String}}.";
+
+            element.NameLockedMin.CustomText = $"Learn the {element.SkillName.CustomText} Skill";
+            element.NameLocked.CustomText = $"Level Up the {element.SkillName.CustomText} Skill";
+            element.NameLockedMax.CustomText = $"Master the {element.SkillName.CustomText} Skill";
         }
     }
 }

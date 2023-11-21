@@ -46,6 +46,22 @@
             <c:Field Label="{}{nl}Description on max" LabelWidth="100">
                 <c:STBLStringControl Text="{Binding DescriptionMax}" />
             </c:Field>
+
+            <c:Field Label="{}{nl}NameLocked" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding NameLocked}" />
+            </c:Field>
+            <c:Field Label="{}{nl}NameLockedMin" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding NameLockedMin}" />
+            </c:Field>
+            <c:Field Label="{}{nl}NameLockedMax" LabelWidth="100">
+                <c:STBLStringControl Text="{Binding NameLockedMax}" />
+            </c:Field>
+            <c:Field Label="{}{nl}PreferredTraits" LabelWidth="100">
+                <c:ReferenceListControl ElementReferenceList="{Binding PreferredTraits}" ElementTypeName="Trait" />
+            </c:Field>
+            <c:Field Label="{}{nl}BlacklistedTraits" LabelWidth="100">
+                <c:ReferenceListControl ElementReferenceList="{Binding BlacklistedTraits}" ElementTypeName="Trait" />
+            </c:Field>
         </StackPanel>
     </c:LeftRightMargin>
 </UserControl>

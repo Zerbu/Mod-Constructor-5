@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Buffs EP13">
+  <Preset Label="buff_Role_RanchHand_States_Repair" Value="304725" />
+  <Preset Label="buff_Role_RanchHand_States_DontRepair" Value="304727" />
+  <Preset Label="buff_Role_RanchHand_States_CareForAnimals" Value="304754" />
+  <Preset Label="buff_Role_RanchHand_States_DontCareForAnimals" Value="304755" />
+  <Preset Label="buff_Role_RanchHand_States_Garden" Value="304756" />
+  <Preset Label="buff_Role_RanchHand_States_DontGarden" Value="304757" />
+  <Preset Label="buff_Role_RanchHand_NPC" Value="305070" />
+  <Preset Label="buff_Role_RanchHand_NPC_GardenerRole" Value="305071" />
+  <Preset Label="buff_Role_RanchHand_NPC_RepairmanRole" Value="305072" />
+  <Preset Label="buff_Role_RanchHand_NPC_AnimalCareRole" Value="305073" />
+  <Preset Label="Pleasant Nectar Feeling (buff_Object_RanchNectar_MoodEffects_Confident_1)" Value="315780" />
+  <Preset Label="Extra Nectar Feeling! (buff_Object_RanchNectar_MoodEffects_Confident_3)" Value="315781" />
+  <Preset Label="Really. Confident. Nectar. Feeling.  (buff_Object_RanchNectar_MoodEffects_Confident_6)" Value="315782" />
+  <Preset Label="Pleasant Nectar Feeling (buff_Object_RanchNectar_MoodEffects_Energized_1)" Value="315784" />
+  <Preset Label="Extra Nectar Feeling! (buff_Object_RanchNectar_MoodEffects_Energized_3)" Value="315785" />
+  <Preset Label="Really. Energized. Nectar. Feeling. (buff_Object_RanchNectar_MoodEffects_Energized_6)" Value="315786" />
+  <Preset Label="Pleasant Nectar Feeling (buff_Object_RanchNectar_MoodEffects_Flirty_1)" Value="315788" />
+  <Preset Label="Extra Nectar Feeling! (buff_Object_RanchNectar_MoodEffects_Flirty_3)" Value="315789" />
+  <Preset Label="Really. Flirty. Nectar. Feeling.  (buff_Object_RanchNectar_MoodEffects_Flirty_6)" Value="315790" />
+  <Preset Label="Pleasant Nectar Feeling (buff_Object_RanchNectar_MoodEffects_Happy_1)" Value="315792" />
+  <Preset Label="Extra Nectar Feeling! (buff_Object_RanchNectar_MoodEffects_Happy_3)" Value="315793" />
+  <Preset Label="Really. Happy. Nectar. Feeling. (buff_Object_RanchNectar_MoodEffects_Happy_6)" Value="315794" />
+  <Preset Label="Pleasant Nectar Feeling (buff_Object_RanchNectar_MoodEffects_Inspired_1)" Value="315796" />
+  <Preset Label="Extra Nectar Feeling! (buff_Object_RanchNectar_MoodEffects_Inspired_3)" Value="315797" />
+  <Preset Label="Really. Inspired. Nectar. Feeling.  (buff_Object_RanchNectar_MoodEffects_Inspired_6)" Value="315798" />
+  <Preset Label="buff_HorseRiding_SimMounted" Value="317537" />
+  <Preset Label="buff_HorseRiding_HorseMounted" Value="317538" />
+  <Preset Label="High On the Saddle  (buff_Skill_EquestrianSkill_HighOnTheSaddle)" Value="317971" />
+  <Preset Label="A Terrific Trot  (buff_Skill_EquestrianSkill_ATerrificTrot)" Value="317973" />
+  <Preset Label="A View from Horseback  (buff_Skill_EquestrianSkill_AViewFromHorseback)" Value="317974" />
+  <Preset Label="Bonding with Steed  (buff_Skill_EquestrianSkill_BondingWithSteed)" Value="317975" />
+  <Preset Label="Giddy Up!  (buff_Skill_EquestrianSkill_GiddyUp)" Value="317976" />
+  <Preset Label="Horsing Around  (buff_Skill_EquestrianSkill_HorsingAround)" Value="317977" />
+  <Preset Label="Riding Rhythm  (buff_Skill_EquestrianSkill_RidingRhythm)" Value="317978" />
+  <Preset Label="buff_Trait_EP14World_NPC_MysteriousRancher" Value="319493" />
+  <Preset Label="moodBuffs_Horses_Hidden_Angry" Value="319703" />
+  <Preset Label="moodBuffs_Horses_Hidden_Confident" Value="319704" />
+  <Preset Label="moodBuffs_Horses_Hidden_Happy" Value="319705" />
+  <Preset Label="moodBuffs_Horses_Hidden_Uncomfortable" Value="319706" />
+  <Preset Label="moodBuffs_Horses_Hidden_Tense" Value="319707" />
+  <Preset Label="moodBuffs_Horses_Hidden_Fine" Value="319708" />
+  <Preset Label="moodBuffs_Horses_Hidden_Scared" Value="319710" />
+  <Preset Label="moodBuffs_Horses_Hidden_Dazed" Value="319711" />
+  <Preset Label="moodBuffs_Horses_Hidden_Sad" Value="319712" />
+  <Preset Label="buff_Trait_HorseLover" Value="320899" />
+  <Preset Label="Enraged on Horse's Behalf (buff_Trait_HorseLover_HorseEmpathy_Angry)" Value="320902" />
+  <Preset Label="Sympathy for Steed  (buff_Trait_HorseLover_HorseEmpathy_Sad)" Value="320963" />
+  <Preset Label="Happy as a Horse!  (buff_Trait_HorseLover_HorseEmpathy_Happy)" Value="320964" />
+  <Preset Label="Missing Horses (buff_Trait_HorseLover_NeedHorseInteractionTimer)" Value="320967" />
+  <Preset Label="buff_Trait_Rancher" Value="320972" />
+  <Preset Label="The Ranch Needs Me (buff_Trait_Rancher_NeedRanchInteractionTimer)" Value="320973" />
+  <Preset Label="Burden of Love (buff_Trait_Rancher_RanchChores_Happy)" Value="320989" />
+  <Preset Label="Bad Ranch Product (buff_Trait_Rancher_RanchChores_Embarassed)" Value="320990" />
+  <Preset Label="buff_Trait_Horses_Age_Child" Value="321105" />
+  <Preset Label="buff_Trait_Horses_Age_Adult" Value="321106" />
+  <Preset Label="buff_Trait_Horses_Age_Elder" Value="321107" />
+  <Preset Label="moodBuffs_Horses_Hidden_Asleep" Value="321110" />
+  <Preset Label="moodBuffs_Horses_Hidden_VeryAngry" Value="321118" />
+  <Preset Label="moodBuffs_Horses_Hidden_VeryConfident" Value="321119" />
+  <Preset Label="moodBuffs_Horses_Hidden_VeryDazed" Value="321120" />
+  <Preset Label="moodBuffs_Horses_Hidden_VeryHappy" Value="321121" />
+  <Preset Label="moodBuffs_Horses_Hidden_VerySad" Value="321122" />
+  <Preset Label="moodBuffs_Horses_Hidden_VeryScared" Value="321123" />
+  <Preset Label="moodBuffs_Horses_Hidden_VeryTense" Value="321124" />
+  <Preset Label="moodBuffs_Horses_Hidden_VeryUncomfortable" Value="321125" />
+  <Preset Label="Buff_Trait_MasterTrainer" Value="321398" />
+  <Preset Label="Championship Rider Tips (buff_MasterTrainer_TopRiderTips)" Value="321406" />
+  <Preset Label="Takin' Care of Business (buff_Skill_EquestrianSkill_TakinCareOfBusiness)" Value="321626" />
+  <Preset Label="buff_Trait_EP14World_NPC_HorseTrainer" Value="321629" />
+  <Preset Label="Happy (CheatingIntensityBuff_Pets_Horse_Happy)" Value="322154" />
+  <Preset Label="Confident (CheatingIntensityBuff_Pets_Horse_Confident)" Value="322155" />
+  <Preset Label="Angry (CheatingIntensityBuff_Pets_Horse_Angry)" Value="322156" />
+  <Preset Label="Uncomfortable (CheatingIntensityBuff_Pets_Horse_Uncomfortable)" Value="322157" />
+  <Preset Label="Tense (CheatingIntensityBuff_Pets_Horse_Tense)" Value="322158" />
+  <Preset Label="Dazed (CheatingIntensityBuff_Pets_Horse_Dazed)" Value="322159" />
+  <Preset Label="Sad (CheatingIntensityBuff_Pets_Horse_Sad)" Value="322160" />
+  <Preset Label="Scared (CheatingIntensityBuff_Pets_Horse_Scared)" Value="322161" />
+  <Preset Label="Very Angry (CheatingIntensityBuff_Pets_Horse_VeryAngry)" Value="322163" />
+  <Preset Label="Very Confident (CheatingIntensityBuff_Pets_Horse_VeryConfident)" Value="322164" />
+  <Preset Label="Very Dazed (CheatingIntensityBuff_Pets_Horse_VeryDazed)" Value="322165" />
+  <Preset Label="Very Happy (CheatingIntensityBuff_Pets_Horse_VeryHappy)" Value="322166" />
+  <Preset Label="Very Sad (CheatingIntensityBuff_Pets_Horse_VerySad)" Value="322167" />
+  <Preset Label="Very Scared (CheatingIntensityBuff_Pets_Horse_VeryScared)" Value="322168" />
+  <Preset Label="Very Tense (CheatingIntensityBuff_Pets_Horse_VeryTense)" Value="322169" />
+  <Preset Label="Very Uncomfortable (CheatingIntensityBuff_Pets_Horse_VeryUncomfortable)" Value="322170" />
+  <Preset Label="buff_Horse_Moodlets_Uncomfortable_Hungry" Value="322217" />
+  <Preset Label="buff_Horse_Moodlets_Uncomfortable_Famished" Value="322218" />
+  <Preset Label="buff_Horse_Moodlets_Uncomfortable_Tired" Value="322219" />
+  <Preset Label="buff_Horse_Moodlets_Uncomfortable_Exhausted" Value="322220" />
+  <Preset Label="buff_Horse_Moodlets_Uncomfortable_NeedsAmusment" Value="322221" />
+  <Preset Label="buff_Horse_Moodlets_Uncomfortable_DesperateForFun" Value="322222" />
+  <Preset Label="buff_Horse_Moodlets_Uncomfortable_Lonely" Value="322223" />
+  <Preset Label="buff_Horse_Moodlets_Uncomfortable_Desolate" Value="322224" />
+  <Preset Label="buff_Horse_Moodlets_Uncomfortable_Dirty" Value="322225" />
+  <Preset Label="Bonding Time (buff_EP14World_NPC_BondingTime)" Value="322243" />
+  <Preset Label="Ready to Ranch (buff_EP14World_NPC_ReadyToRanch)" Value="322244" />
+  <Preset Label="Nectar Knowledge (buff_EP14World_NPC_NectarKnowledge)" Value="322245" />
+  <Preset Label="Ready to Ride (buff_EP14World_NPC_ReadyToRide)" Value="322246" />
+  <Preset Label="buff_EP14World_NPC_AskForLifeNectarIngredients_MysteriousRancher_Cooldown" Value="322426" />
+  <Preset Label="buff_Trait_Horse_Personality_Brave" Value="322833" />
+  <Preset Label="buff_Trait_Horse_Personality_Fearful" Value="322835" />
+  <Preset Label="buff_Trait_Horse_Personality_Friendly" Value="322877" />
+  <Preset Label="buff_Trait_Horse_Personality_Energetic" Value="322879" />
+  <Preset Label="buff_Trait_Horse_Personality_Mellow" Value="322881" />
+  <Preset Label="buff_Trait_Horse_Personality_Intelligent" Value="322883" />
+  <Preset Label="buff_Trait_Horse_Gameplay_Playful" Value="322885" />
+  <Preset Label="buff_Trait_Horse_Playful_WantsToys" Value="322888" />
+  <Preset Label="buff_Pregnancy_HorseBreeding_NotShowing" Value="323051" />
+  <Preset Label="Eating for Two! (buff_Pregnancy_HorseBreeding_Trimester1)" Value="323052" />
+  <Preset Label="Pregnant: 2nd Trimester (buff_Pregnancy_HorseBreeding_Trimester2)" Value="323053" />
+  <Preset Label="Pregnant: 3rd Trimester (buff_Pregnancy_HorseBreeding_Trimester3)" Value="323054" />
+  <Preset Label="Pregnant: In Labor (buff_Pregnancy_HorseBreeding_InLabor)" Value="323055" />
+  <Preset Label="horseBreeding_Buffs_Woohoo_Cooldown" Value="323056" />
+  <Preset Label="Saddle Sore  (buff_Skill_EquestrianSkill_SaddleSore)" Value="323078" />
+  <Preset Label="buff_Trait_Horse_Gameplay_HorseBreeding_ChampionGenes" Value="323126" />
+  <Preset Label="Over-Nectared (buff_Object_RanchNectar_PassedOut)" Value="323417" />
+  <Preset Label="Mysterious Rancher (buff_Trait_EP14World_NPC_Headline_MysteriousRancher)" Value="323473" />
+  <Preset Label="Horse Trainer (buff_Trait_EP14World_NPC_Headline_HorseTrainer)" Value="323474" />
+  <Preset Label="Pleasant Nectar Feeling (buff_Object_RanchNectar_MoodEffects_Happy_2)" Value="323632" />
+  <Preset Label="Extra Nectar Feeling! (buff_Object_RanchNectar_MoodEffects_Happy_4)" Value="323633" />
+  <Preset Label="buff_Object_RanchNectar_MoodEffects_Hidden_Potato" Value="323635" />
+  <Preset Label="buff_Object_RanchNectar_MoodEffects_Hidden_Aged" Value="323636" />
+  <Preset Label="Uncorked Confidence (buff_Object_RanchNectar_Afterglow_Confident)" Value="323637" />
+  <Preset Label="Syrupy Stamina (buff_Object_RanchNectar_Afterglow_Energized)" Value="323638" />
+  <Preset Label="Rosé Afterglow (buff_Object_RanchNectar_Afterglow_Flirty)" Value="323639" />
+  <Preset Label="Post-Nectar Clarity (buff_Object_RanchNectar_Afterglow_Inspired)" Value="323640" />
+  <Preset Label="Gentle Nectar Buzz (buff_Object_RanchNectar_Afterglow_Happy)" Value="323662" />
+  <Preset Label="Potato's Revenge (buff_Object_RanchNectar_Afterglow_Uncomfortable)" Value="323663" />
+  <Preset Label="Prairie Grass Nectar Cleanse (buff_Object_RanchNectar_WildGrass)" Value="323665" />
+  <Preset Label="Aged Prairie Grass Nectar Cleanse (buff_Object_RanchNectar_WildGrass_Aged)" Value="323666" />
+  <Preset Label="buff_Fear_Horses_Trait_Effects" Value="323759" />
+  <Preset Label="Gentle Giants (buff_Fear_Horses_GetAdvice_Sucess)" Value="323772" />
+  <Preset Label="buff_Trait_Horse_Personality_Aggressive" Value="323825" />
+  <Preset Label="buff_Trait_Horse_Personality_FreeSpirit" Value="323827" />
+  <Preset Label="buff_Trait_Horse_Personality_Independent" Value="323828" />
+  <Preset Label="buff_Trait_Horse_Personality_Defiant" Value="323829" />
+  <Preset Label="buff_Trait_Horse_Gameplay_Curious" Value="323853" />
+  <Preset Label="Trash Nectar Funk (buff_Object_RanchNectar_Trash)" Value="323866" />
+  <Preset Label="Heart Foal of Love (horseBreeding_Buffs_Sim_HeartFoalofLove)" Value="324087" />
+  <Preset Label="Horse Whisperer (horseBreeding_Buffs_Sim_FoalDelivery)" Value="324233" />
+  <Preset Label="buff_Horse_Moodlets_Happy_EatingFood_QualityNice" Value="324245" />
+  <Preset Label="buff_Horse_Moodlets_Happy_EatingFood_QualityExcellent" Value="324246" />
+  <Preset Label="buff_Horse_Moodlets_Happy_EatingFood_QualityMagnificent" Value="324247" />
+  <Preset Label="buff_Horse_Moodlets_Happy_EatingFood_QualityPerfect" Value="324248" />
+  <Preset Label="buff_Horse_Moodlets_Confident_EquestrianSkill" Value="324382" />
+  <Preset Label="buff_Horse_Moodlets_Tense_EquestrianSkill_RidingIrritation" Value="324384" />
+  <Preset Label="buff_Horse_Moodlets_Tense_EquestrianSkil_FeelingRiderStress" Value="324385" />
+  <Preset Label="buff_Horse_Moodlets_Scared_Spooked" Value="324470" />
+  <Preset Label="buff_Horse_Moodlets_Sad_LostCompetition" Value="324471" />
+  <Preset Label="A Neigh from the Beyond! (buff_Horse_Ghost_Scared_NeighFromBeyond)" Value="324642" />
+  <Preset Label="buff_BeGhost_OldAge_Horse" Value="324643" />
+  <Preset Label="In the Presence of Death (buff_DeathOfSim_Horse_Neutral)" Value="324696" />
+  <Preset Label="Mourning Horse (buff_DeathOfSim_Horse_Friend)" Value="324697" />
+  <Preset Label="Buff_EP14World_Cave_FailureExit" Value="325025" />
+  <Preset Label="Yelling Goat (buff_AnimalObjects_Moodlets_Socials_Uncomfortable_Goat_Yelling)" Value="325100" />
+  <Preset Label="Sheep Trick (buff_AnimalObjects_Moodlets_Socials_Playful_Sheep_Trick)" Value="325223" />
+  <Preset Label="Count Mini Sheep (buff_AnimalObjects_Moodlets_Socials_Energized_Sheep_Count)" Value="325648" />
+  <Preset Label="The Heart of Dreadhorse Caverns (buff_EP14World_Cave_SelfAware)" Value="325664" />
+  <Preset Label="Survived Dreadhorse Caverns (buff_EP14World_Cave_SurvivedTheCave)" Value="325665" />
+  <Preset Label="The Great Dreadhorse Escape (buff_EP14World_Cave_SurvivedTheCave_Dazed)" Value="325666" />
+  <Preset Label="buff_Horse_IsSleeping" Value="325741" />
+  <Preset Label="buff_EP14World_Cave_Exit" Value="325772" />
+  <Preset Label="You Have Goat to Be Kidding Me (buff_AnimalObjects_Moodlets_Socials_Embarrassed_Goat_Joke)" Value="326070" />
+  <Preset Label="Baa-d Joke (buff_AnimalObjects_Moodlets_Socials_Embarrassed_Sheep_Joke)" Value="326071" />
+  <Preset Label="You Goat It! (buff_AnimalObjects_Moodlets_Socials_Happy_Goat_Talk)" Value="326072" />
+  <Preset Label="Baa Baa Mini Sheep (buff_AnimalObjects_Moodlets_Socials_Happy_Sheep_Talk)" Value="326073" />
+  <Preset Label="Like Touching a Cloud (buff_AnimalObjects_Moodlets_Socials_Happy_Sheep_Hug)" Value="326074" />
+  <Preset Label="Goat it Together (buff_AnimalObjects_Moodlets_Socials_Happy_Goat_Hug)" Value="326075" />
+  <Preset Label="Friendly Fluff (buff_AnimalObjects_Moodlets_Socials_Happy_Sheep_Pet)" Value="326076" />
+  <Preset Label="The Real G.O.A.T. (buff_AnimalObjects_Moodlets_Socials_Happy_Goat_Pet)" Value="326077" />
+  <Preset Label="Got Your Goat (buff_AnimalObjects_Moodlets_Socials_Playful_Goat_BeMean)" Value="326078" />
+  <Preset Label="A Wolf Among the Mini Sheep (buff_AnimalObjects_Moodlets_Socials_Playful_Sheep_BeMean)" Value="326079" />
+  <Preset Label="Scared Sheepless (buff_AnimalObjects_Moodlets_Socials_Playful_Sheep_Scare)" Value="326090" />
+  <Preset Label="Glaring Goat (buff_AnimalObjects_Moodlets_Socials_Playful_Goat_Scare)" Value="326091" />
+  <Preset Label="Butt of the Joke (buff_AnimalObjects_Moodlets_Socials_Playful_Goat_Joke)" Value="326092" />
+  <Preset Label="Ewe Silly Goose! (buff_AnimalObjects_Moodlets_Socials_Playful_Sheep_Joke)" Value="326093" />
+  <Preset Label="I Can't Goat Enough (buff_AnimalObjects_Moodlets_Socials_Playful_Goat_PlayWith)" Value="326094" />
+  <Preset Label="Fluffy Friendship (buff_AnimalObjects_Moodlets_Socials_Playful_Sheep_PlayWith)" Value="326095" />
+  <Preset Label="Mini Goat Gruff (buff_AnimalObjects_Moodlets_Socials_Sad_Goat_Talk)" Value="326096" />
+  <Preset Label="Feeling Sheepish (buff_AnimalObjects_Moodlets_Socials_Sad_Sheep_Talk)" Value="326097" />
+  <Preset Label="Let Me Love You! (buff_AnimalObjects_Moodlets_Socials_Sad_Sheep_Hug)" Value="326098" />
+  <Preset Label="Failed to Pet (buff_AnimalObjects_Moodlets_Socials_Sad_Sheep_Pet)" Value="326099" />
+  <Preset Label="Too Cool for Wool (buff_AnimalObjects_Moodlets_Socials_Sad_Sheep_PlayWith)" Value="326100" />
+  <Preset Label="Head on Collision (buff_AnimalObjects_Moodlets_Socials_Uncomfortable_Goat_Headbutt)" Value="326101" />
+  <Preset Label="buff_Horse_Moodlets_Sad_StuckInside" Value="326341" />
+  <Preset Label="Gather 'Round and Cowpoke (buff_Dancing_CountryDancing)" Value="326349" />
+  <Preset Label="buff_Dancing_CountryDancing_IsDancing_Group" Value="326432" />
+  <Preset Label="buff_Dancing_CountryDancing_Watcher" Value="326433" />
+  <Preset Label="This Seems Irresponsible... (buff_Object_WildGrass_Harvest_Bad)" Value="326661" />
+  <Preset Label="Harvesting Prairie Grass is Great! (buff_Object_WildGrass_Harvest_Good)" Value="326662" />
+  <Preset Label="Grass Cuts (buff_Object_WildGrass_Cuts)" Value="326663" />
+  <Preset Label="Rein in the Scenery (buff_HorseRiding_Happy_ReinInTheScenery)" Value="326887" />
+  <Preset Label="buff_Horse_Moodlets_Happy_EquestrianSkill" Value="326892" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Canter" Value="326965" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Walk" Value="326966" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Trot" Value="326967" />
+  <Preset Label="Saddle Sore  (buff_Skill_EquestrianSkill_SaddleSore_PostRide)" Value="327015" />
+  <Preset Label="Star Student  (buff_Skill_EquestrianSkill_StarStudent)" Value="327171" />
+  <Preset Label="Practice Makes Perfect (buff_MasterTrainer_PracticeMakesPerfect)" Value="327405" />
+  <Preset Label="buff_Trait_Horse_Personality_Resilient" Value="327596" />
+  <Preset Label="buff_AnimalObjects_Moodlets_GoatSheep_ImproveMood_Cooldown" Value="327758" />
+  <Preset Label="buff_Trait_Horse_Personality_Needy" Value="327818" />
+  <Preset Label="buff_AutonomyMod_EP14World_NPC_MysteriousRancher_SellNectar_Situation" Value="327886" />
+  <Preset Label="buff_HorseTraining_Fatigue" Value="327961" />
+  <Preset Label="buff_Horse_IsEating" Value="328032" />
+  <Preset Label="buff_Horse_IsSocializing" Value="328033" />
+  <Preset Label="buff_Horse_IsSleepingSS3" Value="328034" />
+  <Preset Label="Horse Whisked Away (buff_WitnessedRescuedNeglectedHorse)" Value="328099" />
+  <Preset Label="buff_Horse_Hidden_BeWokenUp" Value="328400" />
+  <Preset Label="buff_AutonomyMod_RanchWorld_HorseAndRider_Sim" Value="328755" />
+  <Preset Label="buff_AutonomyMod_RanchWorld_HorseAndRider_Horse" Value="328816" />
+  <Preset Label="buff_PreventDismounting" Value="328887" />
+  <Preset Label="Horse Toy Joy (buff_HorseCareObjects_HorseToy_Playful)" Value="328979" />
+  <Preset Label="Horse Toy Snub (buff_HorseCareObjects_HorseToy_Sad)" Value="328980" />
+  <Preset Label="buff_Horse_Moodlets_Confident_MasterTrainer_DuringTraining" Value="328997" />
+  <Preset Label="buff_Horse_Moodlets_Confident_MasterTrainer_PostRide" Value="328998" />
+  <Preset Label="Sleep Tight, Horse Friends! (buff_Object_HorseBed_Happy)" Value="329134" />
+  <Preset Label="Scratchy &lt;i&gt;and&lt;/i&gt; Stinky (buff_Object_HorseBed_Uncomfortable)" Value="329135" />
+  <Preset Label="Top-Tier Training!  (buffs_Mentoree_EquestrianSkill)" Value="329328" />
+  <Preset Label="buff_EP14World_NPC_Hidden_ReadyToRide_Cooldown" Value="329418" />
+  <Preset Label="buff_Horse_FoalMentoree_ByMentorPro_TemperamentSkill" Value="329482" />
+  <Preset Label="buff_Horse_Moodlets_Confident_EP14World_NPC_HorseTrainer" Value="329635" />
+  <Preset Label="buff_AutonomyMod_EP14World_NPC_HorseTrainer_AdvertiseEquestrianCenter_Situation" Value="329804" />
+  <Preset Label="buff_Horse_Moodlets_Happy_WeanToHay" Value="330047" />
+  <Preset Label="buff_Horse_Moodlets_Sad_WeanToHay" Value="330048" />
+  <Preset Label="buff_Horse_Moodlets_Happy_GentlyTouched" Value="330139" />
+  <Preset Label="buff_Horse_Moodlets_Scared_RoughlyTouched" Value="330140" />
+  <Preset Label="buff_Horse_Moodlets_Happy_CradledWell" Value="330141" />
+  <Preset Label="buff_Horse_Moodlets_Uncomfortable_RoughlyCradled" Value="330142" />
+  <Preset Label="buff_PreventBuckOffOrPutDownSim" Value="330347" />
+  <Preset Label="Horse Power (buff_HorseTraining_Socials_Fitness)" Value="330478" />
+  <Preset Label="Giddy Up, Level Up (buff_HorseTraining_Socials_GameJumping)" Value="330479" />
+  <Preset Label="Horse-Sized Confidence (buff_HorseTraining_Socials_Charisma)" Value="330480" />
+  <Preset Label="Prancing Lessons (buff_HorseTraining_Socials_Dance)" Value="330481" />
+  <Preset Label="buff_Motives_Horse_SuppressAll" Value="330660" />
+  <Preset Label="buff_Horse_Hidden_TeachToCanter_Cooldown" Value="330837" />
+  <Preset Label="buff_Trait_Horse_Gameplay_TopNotchFoal" Value="330838" />
+  <Preset Label="buff_Horse_Moodlets_Dazed_NewFoal" Value="330839" />
+  <Preset Label="Mini Goat Mourn (buff_AnimalObjects_Moodlets_Socials_Sad_Goat_Death)" Value="330927" />
+  <Preset Label="Mini Sheep Sorrow (buff_AnimalObjects_Moodlets_Socials_Sad_Sheep_Death)" Value="330928" />
+  <Preset Label="buff_Horse_Moodlets_Happy_TalkTo_Goat" Value="331361" />
+  <Preset Label="buff_Horse_Moodlets_Sad_TalkTo_Goat" Value="331362" />
+  <Preset Label="buff_Horse_Moodlets_Sad_TalkTo_Sheep" Value="331363" />
+  <Preset Label="buff_Horse_Moodlets_Happy_TalkTo_Sheep" Value="331364" />
+  <Preset Label="buff_CommunalEvents_Guests_HaveMetHost" Value="331489" />
+  <Preset Label="buff_CommunalEvents_AnimalDay_Role_Host" Value="331503" />
+  <Preset Label="buff_CommunalEvents_AnimalDay_Role_Guests" Value="331504" />
+  <Preset Label="buff_CommunalEvents_AnimalDay_Role_RanchHelper" Value="331505" />
+  <Preset Label="buff_Trait_Horse_Gameplay_EquestrianCenter_ChampionHorse" Value="331652" />
+  <Preset Label="buff_Horse_Moodlets_Scared_Fire" Value="331744" />
+  <Preset Label="buff_Horse_Moodlets_Happy_WhatsThat" Value="331853" />
+  <Preset Label="buff_Horse_Moodlets_Scared_WhatsThat" Value="331854" />
+  <Preset Label="buff_AnimalObjects_GoatSheep_SawTrick_Hidden" Value="331883" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Canter_LowSkill" Value="331991" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Trot_LowSkill" Value="331993" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Walk_LowSkill" Value="331995" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Canter_LowSkill_BuckWild" Value="331996" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Trot_LowSkill_BuckWild" Value="331997" />
+  <Preset Label="Top-Tier Training!  (Buff_Mentoree_ByMentorPro_Equestrian)" Value="332040" />
+  <Preset Label="buff_Horse_Moodlets_Confident_HorseObstacles_Success" Value="332050" />
+  <Preset Label="buff_Horse_Moodlets_Confident_HorseTraining_Encouragement" Value="332051" />
+  <Preset Label="buff_Horse_Moodlets_Sad_HorseObstacles_Failure" Value="332052" />
+  <Preset Label="Equine Aficionado (buff_HorseObstacles_Sim_Success)" Value="332054" />
+  <Preset Label="Horse Training Blues (buff_HorseObstacles_Sim_Failure)" Value="332055" />
+  <Preset Label="buff_Object_HorseObstacles_Cheats_Success" Value="332058" />
+  <Preset Label="buff_Object_HorseObstacles_Cheats_Failure" Value="332059" />
+  <Preset Label="buff_HorseRiding_ThrowRider" Value="332086" />
+  <Preset Label="buff_HorseRiding_NeverThrowRider" Value="332089" />
+  <Preset Label="buff_HorseRiding_AlwaysThrowRider" Value="332120" />
+  <Preset Label="buff_HorseRiding_AppearanceModifier_Saddle" Value="332141" />
+  <Preset Label="buff_HorseRiding_AppearanceModifier_Reins" Value="332274" />
+  <Preset Label="buff_HorseTransaction_AskAboutHorses_Hidden" Value="332748" />
+  <Preset Label="buff_HorseTransaction_RecentlyInteracted_Hidden" Value="332749" />
+  <Preset Label="buff_ClubPerks_SkillBoost_AdultMajor_EquestrianSkill" Value="332925" />
+  <Preset Label="buff_Object_HorseObstacles_SkillGain_Horse_Small" Value="333387" />
+  <Preset Label="Eventing Enthusiast (buff_EquestrianCenter_WatchedCompetitions)" Value="333397" />
+  <Preset Label="buff_Horse_HorseCompetition_ChampionshipHorse" Value="333538" />
+  <Preset Label="It's... &lt;i&gt;So&lt;/i&gt; Squishy (buff_Object_RanchNectarMaker_Uncomfortable)" Value="333566" />
+  <Preset Label="It's So Squishy! (buff_Object_RanchNectarMaker_Playful)" Value="333567" />
+  <Preset Label="Neato Nectar! (buff_Object_RanchNectarMaker_Energized)" Value="333569" />
+  <Preset Label="buff_AutonomyMod_UnicornHorn" Value="333940" />
+  <Preset Label="buff_Object_HorseObstacles_SkillGain_Horse_Standard" Value="333980" />
+  <Preset Label="buff_Object_HorseObstacles_SkillGain_Horse_Large" Value="333981" />
+  <Preset Label="buff_Object_HorseObstacles_SkillGain_Sim_Small" Value="333982" />
+  <Preset Label="buff_Object_HorseObstacles_SkillGain_Sim_Standard" Value="333984" />
+  <Preset Label="buff_Object_HorseObstacles_SkillGain_Sim_Large" Value="333985" />
+  <Preset Label="buff_Object_HorseTraining_SkillGain_Temperament_Small" Value="334179" />
+  <Preset Label="buff_Object_HorseTraining_SkillGain_Temperament_Standard" Value="334180" />
+  <Preset Label="buff_AutonomyMod_UnicornHorn_C" Value="334258" />
+  <Preset Label="buff_WantFear_LikedMusic_ListenTo_Ranch" Value="334865" />
+  <Preset Label="buff_Horse_Moodlets_Scared_Lightning_Nearby" Value="335304" />
+  <Preset Label="buff_Horse_HorseCompetition_EnteredACompetition" Value="335314" />
+  <Preset Label="Hooves in the Distance? (buff_EP14World_HorseGrave)" Value="335440" />
+  <Preset Label="buff_Role_OpenStreet_EP14World_EquestrianCenterVisitor" Value="335563" />
+  <Preset Label="buff_Hidden_HorseCompetition_EnterMasterCompetition" Value="335588" />
+  <Preset Label="buff_Hidden_HorseCompetition_WinCompetition" Value="335589" />
+  <Preset Label="buff_Horse_Moodlets_Happy_AllMotivesHigh" Value="335959" />
+  <Preset Label="buff_Situation_MultiServeSituation_RanchNectar_AutonomousCooldown" Value="336474" />
+  <Preset Label="Where’s My Mini Goat?! (buff_AnimalObjects_Moodlets_Socials_Sad_Goat_Missing)" Value="336493" />
+  <Preset Label="Where’s My Mini Sheep?! (buff_AnimalObjects_Moodlets_Socials_Sad_Sheep_Missing)" Value="336494" />
+  <Preset Label="buff_Trait_Horse_Personality_FreeSpirit_Inside" Value="336664" />
+  <Preset Label="buff_HorseTraining_Endurance_Fatigue_Decay" Value="337154" />
+  <Preset Label="Rock My World (buff_EP14World_ProximityHorseRock)" Value="337346" />
+  <Preset Label="Horse Rescue (buff_ChildrenStories_Neighbor_AdoptedAHorse)" Value="337813" />
+  <Preset Label="Delectable Nectar (buff_Object_RanchNectar_Trait_Good)" Value="338172" />
+  <Preset Label="Disappointing Vintage (buff_Object_RanchNectar_Trait_Bad)" Value="338174" />
+  <Preset Label="buff_CommunalEvents_RanchGathering_Role_Guests" Value="338331" />
+  <Preset Label="buff_CommunalEvents_RanchGathering_Role_Host" Value="338332" />
+  <Preset Label="buff_CommunalEvents_RanchGathering_Role_GrillMaster" Value="338333" />
+  <Preset Label="So Cute! (buff_Sentiment_Adoring_Happy_Primary_WitnessFoalBirth)" Value="338408" />
+  <Preset Label="Play With Me! (buff_Sentiment_Adoring_Playful_WitnessFoalBirth)" Value="338411" />
+  <Preset Label="Spurred by Drama (buff_Object_TV_TeenEquestrians_Kids)" Value="338473" />
+  <Preset Label="Can't Rein It In (buff_Object_TV_TeenEquestrians_HorseLover)" Value="338474" />
+  <Preset Label="Ready to Ride Tall (buff_Object_TV_SilentWestern_HorseLover)" Value="338475" />
+  <Preset Label="buff_Horse_addSentiment_WitnessFoalBirth" Value="338491" />
+  <Preset Label="buff_Object_HorseObstacles_StopTraining" Value="338877" />
+  <Preset Label="Friendship's Magic (buff_Sentiment_Motivating_Inspired_ChampionPartner)" Value="338937" />
+  <Preset Label="Wonderful Wonder (buff_Sentiment_Motivating_Energized_championPartner)" Value="338939" />
+  <Preset Label="Missing My Friend (buff_Sentiment_Hurt_Sad_Primary_SoldMyFriend)" Value="339248" />
+  <Preset Label="Gone But Not Forgotten (buff_Sentiment_Hurt_Angry_SoldMyFriend)" Value="339249" />
+  <Preset Label="buff_AnimalObjects_soldMyfriend_Tracker" Value="339253" />
+  <Preset Label="buff_HorseRiding_Horse_CarryingSim" Value="339267" />
+  <Preset Label="buff_Role_RanchHand_NPC_Arrive" Value="339306" />
+  <Preset Label="buff_Role_RanchHand_NPC_End" Value="339312" />
+  <Preset Label="buff_Role_OpenStreet_EP14World_CommunityBoardViewer" Value="339332" />
+  <Preset Label="Bucked Off Horse (buff_HorseRiding_SimBucked_Uncomfortable)" Value="339400" />
+  <Preset Label="Bucked Off Horse (buff_HorseRiding_SimBucked_Embarrassed)" Value="339401" />
+  <Preset Label="buff_Fear_Horses_Trait_FearReactToHorses" Value="339408" />
+  <Preset Label="Kid the Kid (buff_AnimalObjects_Moodlets_Socials_Sad_Pet_Toddler)" Value="339929" />
+  <Preset Label="Un-Buckable (buff_HorseRiding_RearUp_Unbuckable)" Value="340123" />
+  <Preset Label="Unexpected Rearing (buff_HorseRiding_RearUp_UnexpectedRearing)" Value="340124" />
+  <Preset Label="buff_Hidden_HorseCompetition_WinMasterorUltimateCompetition" Value="340311" />
+  <Preset Label="That's Close Enough (buff_Sentiment_Bitter_Tense_Primary_BitAtByHorse)" Value="340339" />
+  <Preset Label="Not. Another. Step. (buff_Sentiment_Bitter_Angry_BitAtByHorse)" Value="340340" />
+  <Preset Label="Horse Ally! (buff_Sim_HorseAlly)" Value="340722" />
+  <Preset Label="buff_Sim_ShareDesireForIndependence_Cooldown" Value="340723" />
+  <Preset Label="buff_Horse_Moodlets_Sad_Needy_NeedsHandFeed" Value="340725" />
+  <Preset Label="Needy Steed (buff_Sim_NeedySteed)" Value="340728" />
+  <Preset Label="Helped a Horse in Need (buff_Sim_HelpingAHorseInNeed)" Value="340729" />
+  <Preset Label="Equine Energy (buff_Sim_EquineEnergy)" Value="340731" />
+  <Preset Label="buff_Horse_Moodlets_Happy_Energetic_GotExercise" Value="340772" />
+  <Preset Label="Stable Gossip (buff_Sim_StableGossip)" Value="340805" />
+  <Preset Label="buff_Trait_NectarKnowItAll" Value="340827" />
+  <Preset Label="buff_Horse_Moodlets_Tense_Defiant_StressedFromMounting" Value="340906" />
+  <Preset Label="buff_Horse_Moodlets_Angry_Defiant_FailedAskForCooperation" Value="340907" />
+  <Preset Label="buff_Horse_Moodlets_Dazed_Mellow_TrainingDaze" Value="340908" />
+  <Preset Label="Vibed with a Chill Horse (buff_Sim_VibedWithAChillHorse)" Value="340910" />
+  <Preset Label="buff_Horse_Hidden_WillNotBuck" Value="340914" />
+  <Preset Label="Basking in Bravery (buff_Sim_BaskedInBravery)" Value="340980" />
+  <Preset Label="buff_Horse_Hidden_BaskInHorseBravery_Cooldown" Value="340981" />
+  <Preset Label="Nectar Sooth-Sayer (buff_Trait_NectarKnowItAll_DrunkNectar_Sooth)" Value="340986" />
+  <Preset Label="buff_HorseRiding_ReinsDown" Value="342330" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Ghost_Walk" Value="345113" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Ghost_Walk_LowSkill" Value="345114" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Ghost_Trot" Value="345115" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Ghost_Trot_LowSkill" Value="345116" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Ghost_Canter" Value="345117" />
+  <Preset Label="buff_HorseRiding_Walkstyle_Ghost_Canter_LowSkill" Value="345118" />
+  <Preset Label="buff_Horse_Hidden_Mean_ActorCooldown_Horse" Value="346921" />
+  <Preset Label="buff_Horse_Hidden_Mean_ActorCooldown_Sim" Value="346922" />
+  <Preset Label="buff_Horse_Moodlets_Sad_WitnessedDeath" Value="347528" />
+  <Preset Label="buff_HorseRiding_AutonomousSocial_WithRiddenHorse" Value="347618" />
+  <Preset Label="buff_Horse_DrinkWater_Cooldown_Autonomous" Value="348067" />
+  <Preset Label="buff_Horse_RunAround_Cooldown" Value="348068" />
+  <Preset Label="Buff_CommunityBoard_Horse_RemoveRiderBeforeRabbitHole" Value="348308" />
+  <Preset Label="buff_Hidden_HorseCompetition_Winner_Horse_Reaction" Value="348347" />
+  <Preset Label="buff_Horse_IntellectualChat_PickerCooldown" Value="348388" />
+  <Preset Label="buff_Horse_Motive_Hygiene_AllowCare" Value="348616" />
+  <Preset Label="buff_Object_HorseObstacles_IsTraining" Value="348970" />
+  <Preset Label="buff_Event_NPC_HorseTrainer_Advertise_Cooldown" Value="349073" />
+  <Preset Label="buff_Hidden_HorseTraining_Cancel" Value="349192" />
+  <Preset Label="buff_Hidden_MoveAwayFromEquestrianCenter" Value="349402" />
+  <Preset Label="buff_Hidden_MoveAwayFromEquestrianCenter_FromSpectate" Value="349403" />
+  <Preset Label="buff_HorseRiding_HorseLover" Value="349411" />
+  <Preset Label="buff_Horse_FatigueReaction_Cooldown" Value="349441" />
+</PresetGroup>

@@ -44,7 +44,7 @@ namespace Constructor5.Elements.Traits.Components
         [AutoTuneBasic("trait_description")]
         public STBLString Description { get; set; } = new STBLString();
 
-        [AutoTuneBasic("trait_icon")]
+        [AutoTuneBasic("icon")]
         public ElementIcon Icon { get; set; } = new ElementIcon();
 
         [AutoTuneBasic("display_name")]
@@ -75,6 +75,8 @@ namespace Constructor5.Elements.Traits.Components
 
         protected internal override void OnExport(TraitExportContext context)
         {
+            context.Tuning.Set<TunableBasic>("display_name_gender_neutral", Name);
+
             var updateMove = 144;
 
             var nameToUse = Name;

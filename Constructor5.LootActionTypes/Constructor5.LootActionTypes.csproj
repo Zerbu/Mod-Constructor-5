@@ -105,6 +105,10 @@
     <Compile Include="Careers\AddCareerGigActionEditor.xaml.cs">
       <DependentUpon>AddCareerGigActionEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DramaNodes\ScheduleDramaNode.cs" />
+    <Compile Include="DramaNodes\ScheduleDramaNodeEditor.xaml.cs">
+      <DependentUpon>ScheduleDramaNodeEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ExtendedSupport\ExtendedSupportLootAction.cs" />
     <Compile Include="ExtendedSupport\RunOtherActionSets.cs" />
     <Compile Include="ExtendedSupport\RunOtherActionSetsEditor.xaml.cs">
@@ -235,6 +239,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Careers\AddCareerGigActionEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DramaNodes\ScheduleDramaNodeEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

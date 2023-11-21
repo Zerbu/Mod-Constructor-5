@@ -2,13 +2,13 @@
 <TuningActions>
   <V n="basic_content" t="one_shot">
     <U n="one_shot">
-	  <IfBool p="HasAnimation">
-		<V n="animation_ref" t="enabled">
+	    <IfBool p="HasAnimation">
+		    <V n="animation_ref" t="enabled">
           <U n="enabled">
-			<T n="factory">$Animation</T>
-		  </U>
-		</V>
-	  </IfBool>
+			      <T n="factory">$Animation</T>
+		      </U>
+		    </V>
+	    </IfBool>
     </U>
   </V>
   <V n="outcome" t="single">

@@ -1,0 +1,943 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP13">
+  <Preset Label="horse_stand" Value="120430" />
+  <Preset Label="stand_Horse_Passive" Value="120431" />
+  <Preset Label="Adult (terrain-createhorse_female_adult)" Value="120962" />
+  <Preset Label="Adult (terrain-createhorse_male-adult)" Value="120967" />
+  <Preset Label="Child (terrain-createhorse_female_child)" Value="124611" />
+  <Preset Label="Child (terrain-createhorse_male-child)" Value="124614" />
+  <Preset Label="Name {1.ObjectName} (rename_AnimalObjects_Animal_Goat)" Value="300214" />
+  <Preset Label="Name {1.ObjectName} (rename_AnimalObjects_Animal_Sheep)" Value="300215" />
+  <Preset Label="Name {1.ObjectName} (rename_FromRelPanel_AnimalObjects_Animal_Goat)" Value="300276" />
+  <Preset Label="Name {1.ObjectName} (rename_FromRelPanel_AnimalObjects_Animal_Sheep)" Value="300277" />
+  <Preset Label="(Debug) Create Mini Sheep (debug_CreateAnimalObjects_Sheep)" Value="300278" />
+  <Preset Label="(Debug) Create Mini Goat (debug_CreateAnimalObjects_Goat)" Value="300279" />
+  <Preset Label="Call Over {1.ObjectName} (sI_AnimalObjects_CallOver_Goat)" Value="300307" />
+  <Preset Label="Call Over {1.ObjectName} (sI_AnimalObjects_CallOver_Sheep)" Value="300308" />
+  <Preset Label="Bottle Feed {1.ObjectName} (sI_AnimalObjects_FeedBasic_Goat)" Value="300309" />
+  <Preset Label="Bottle Feed {1.ObjectName} (sI_AnimalObjects_FeedBasic_Sheep)" Value="300310" />
+  <Preset Label="Ask for Gardening Help (sI_AnimalObjects_GardeningHelp_Ask_Goat)" Value="300311" />
+  <Preset Label="Ask for Gardening Help (sI_AnimalObjects_GardeningHelp_Ask_Sheep)" Value="300312" />
+  <Preset Label="Ask to Stop Helping with Gardening (sI_AnimalObjects_GardeningHelp_AskToStop_Goat)" Value="300313" />
+  <Preset Label="Ask to Stop Helping with Gardening (sI_AnimalObjects_GardeningHelp_AskToStop_Sheep)" Value="300314" />
+  <Preset Label="Clean {1.ObjectName} (sI_AnimalObjects_Clean_Sheep)" Value="300317" />
+  <Preset Label="Clean {1.ObjectName} (sI_AnimalObjects_Clean_Goat)" Value="300318" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Sheep)" Value="300325" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Goat)" Value="300326" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Goat)" Value="300336" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Sheep)" Value="300337" />
+  <Preset Label="Tell Jokes (sI_AnimalObjects_Socials_Funny_Goat_TellJoke)" Value="300338" />
+  <Preset Label="Tell Jokes (sI_AnimalObjects_Socials_Funny_Sheep_TellJoke)" Value="300339" />
+  <Preset Label="Cowpoke Group Dance (danceFloor_CountryDancing_GroupDancing_StartSituation_01)" Value="303275" />
+  <Preset Label="Cowpoke Group Dance (danceFloor_CountryDancing_Rally_RouteTo)" Value="303276" />
+  <Preset Label="synchInSituation_CountryDancing_Move_1" Value="303305" />
+  <Preset Label="synchInSituation_CountryDancing_Move_2" Value="303306" />
+  <Preset Label="Cowpoke Group Dance (countryDancing_Sequence_1)" Value="303308" />
+  <Preset Label="Cowpoke Group Dance (CountryDancing_JigPartConstraintInteraction)" Value="303309" />
+  <Preset Label="Ranch Hand  (door_Padlock_ImmediateInteractions_Unlocks_RanchHand)" Value="303786" />
+  <Preset Label="Everyone But Ranch Hand  (door_Padlock_ImmediateInteraction_Locks_Everyone_Allow_RanchHand)" Value="303787" />
+  <Preset Label="Fire (sim_FireServiceNPC_RanchHand)" Value="303789" />
+  <Preset Label="Hire Ranch Hand (phone_RanchHand_Hire)" Value="303791" />
+  <Preset Label="Dismiss Ranch Hand (phone_RanchHand_Cancel)" Value="303792" />
+  <Preset Label="Buy Mini Goats &amp; Mini Sheep (purchasePickerInteraction_AnimalObjects_GoatSheep)" Tags="TestUnsafe" Value="303830" />
+  <Preset Label="Shear for Simoleons (sI_AnimalObjects_HarvestFrom_Sheep)" Value="303831" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Goat_Outcome_Failure_Child)" Value="303951" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Goat_Outcome_Failure_Toddler)" Value="303952" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Goat_Outcome_Failure_TYAE)" Value="303953" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Goat_Outcome_Success_Child)" Value="303954" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Goat_Outcome_Success_Toddler)" Value="303955" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Goat_Outcome_Success_TYAE)" Value="303956" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Sheep_Outcome_Failure_Child)" Value="303957" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Sheep_Outcome_Failure_Toddler)" Value="303958" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Sheep_Outcome_Failure_TYAE)" Value="303959" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Sheep_Outcome_Success_Child)" Value="303960" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Sheep_Outcome_Success_Toddler)" Value="303961" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Sheep_Outcome_Success_TYAE)" Value="303962" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Goat_Outcome_Failure_Child)" Value="303963" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Goat_Outcome_Failure_Toddler)" Value="303964" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Goat_Outcome_Failure_TYAE)" Value="303965" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Goat_Outcome_Success_Child)" Value="303966" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Goat_Outcome_Success_Toddler)" Value="303967" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Goat_Outcome_Success_TYAE)" Value="303968" />
+  <Preset Label="countryDancing_Mixers_Move1" Value="303970" />
+  <Preset Label="countryDancing_Mixers_Move2" Value="303991" />
+  <Preset Label="Cowpoke Dance (stereo_CountryDancing)" Value="303992" />
+  <Preset Label="Livestock and Horse Care (ranchHand_Immediate_Tasks_AllowAnimalCare)" Value="304748" />
+  <Preset Label="Repairs (ranchHand_Immediate_Tasks_AllowRepairingObjects)" Value="304749" />
+  <Preset Label="Gardening  (ranchHand_Immediate_Tasks_AllowGardening)" Value="304750" />
+  <Preset Label="Livestock and Horse Care (ranchHand_Immediate_Tasks_DisallowAnimalCare)" Value="304751" />
+  <Preset Label="Gardening  (ranchHand_Immediate_Tasks_DisallowGardening)" Value="304752" />
+  <Preset Label="Repairs (ranchHand_Immediate_Tasks_DisallowRepairingObjects)" Value="304753" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Goat_Ask)" Value="304881" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Sheep_Ask)" Value="304882" />
+  <Preset Label="Play with {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Goat_Play)" Value="304883" />
+  <Preset Label="Play with {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Sheep_Play)" Value="304884" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Goat_TalkTo_Child)" Value="304887" />
+  <Preset Label="Babble to {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Goat_TalkTo_Toddler)" Value="304888" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Goat_TalkTo)" Value="304978" />
+  <Preset Label="Enable All (ranchHand_Immediate_Tasks_Reset)" Value="305077" />
+  <Preset Label="Make a Repair (situation_RanchHand_Order_Repair)" Value="305108" />
+  <Preset Label="Lock the Camera (immediate_RelPanel_AnimalObjects_LockCamera_GoatSheep)" Value="305173" />
+  <Preset Label="Lock the Camera (immediate_AnimalObjects_LockCamera_GoatSheep)" Value="305174" />
+  <Preset Label="Be Mean to {1.ObjectName} (sI_AnimalObjects_Socials_Mean_Goat)" Value="305175" />
+  <Preset Label="Be Mean to {1.ObjectName} (sI_AnimalObjects_Socials_Mean_Sheep)" Value="305176" />
+  <Preset Label="Scare {1.ObjectName} (sI_AnimalObjects_Socials_Mean_Goat_Scare)" Value="305177" />
+  <Preset Label="Scare {1.ObjectName} (sI_AnimalObjects_Socials_Mean_Sheep_Scare)" Value="305178" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Goat)" Value="305179" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Sheep)" Value="305180" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Goat_Toddler)" Value="305181" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Sheep_Toddler)" Value="305182" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Sheep_Outcome_Failure_TYAE)" Value="305238" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Sheep_Outcome_Failure_Child)" Value="305239" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Sheep_Outcome_Failure_Toddler)" Value="305240" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Sheep_Outcome_Success_TYAE)" Value="305241" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Sheep_Outcome_Success_Child)" Value="305242" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Sheep_Outcome_Success_Toddler)" Value="305243" />
+  <Preset Label="Simoleons (sI_AnimalObjects_Generic_SellSimoleons_GoatSheep)" Value="305244" />
+  <Preset Label="Cowpoke Dance (danceFloor_CountryDancing)" Value="305312" />
+  <Preset Label="Quit (Debug) (sim_RanchHand_Quit)" Value="306328" />
+  <Preset Label="Call Goats and Sheep to Eat (sI_AnimalObject_AnimalFeederInteractions_GoatSheep_CallToEat)" Value="310061" />
+  <Preset Label="Ask Horse to Eat (horsePickerInteraction_AnimalFeeder_CallToEat)" Tags="TestUnsafe" Value="310428" />
+  <Preset Label="Ask Horse to Eat (sI_AnimalFeederInteractions_Sim_To_Horse_CallToEat)" Value="310431" />
+  <Preset Label="{0.SimFirstName} eats at Feeder (sI_AnimalFeederInteractions_Horse_Eat)" Value="310433" />
+  <Preset Label="Buy Mini Goats &amp; Mini Sheep (purchasePickerInteraction_AnimalObjects_GoatSheep_FromPhone)" Tags="TestUnsafe" Value="311069" />
+  <Preset Label="Ride Here (socialSuperInteraction_CarryPickUp_HorseRiding)" Value="312885" />
+  <Preset Label="Mount (SI_HorseRiding_MountHorse_Begin)" Value="312888" />
+  <Preset Label="Grab a Serving (grabFood_MultiserveConsumable_Nectar)" Value="313141" />
+  <Preset Label="Water Plants (situation_RanchHand_Order_WaterPlants)" Value="315066" />
+  <Preset Label="Put Down (putDown_CarriedSim_HorseRiding)" Value="315311" />
+  <Preset Label="Resume {0.String} (craftingResume_RanchNectarMaker)" Value="315773" />
+  <Preset Label="Craft Nectar (ranchNectarMaker_StartCrafting)" Value="315774" />
+  <Preset Label="Mount (SI_HorseRiding_MountHorse)" Value="316806" />
+  <Preset Label="Walk Here (terrain-HorseRiding_RideHere_Horse)" Value="318879" />
+  <Preset Label="Ask About Longevity (social_EP14World_NPC_AskAboutLongevity)" Tags="TestUnsafe" Value="319496" />
+  <Preset Label="Ask for Life Nectar Ingredients (social_EP14World_NPC_MysteriousRancher_AskForLifeNectarIngredients)" Tags="TestUnsafe" Value="319694" />
+  <Preset Label="Talk To (HorseSocialMixers_SimToHorse_Friendly_TalkTo)" Tags="TestUnsafe" Value="319837" />
+  <Preset Label="What's Wrong? (HorseSocialMixers_SimToHorse_Friendly_WhatsWrong)" Tags="TestUnsafe" Value="319839" />
+  <Preset Label="Chat (HorseSocials_SimToHorse_NonTouching)" Value="319842" />
+  <Preset Label="(Debug) Nuzzle (HorseSocials_HorseToSim_Touching_Friendly_Nuzzle)" Value="319844" />
+  <Preset Label="Scratch Neck (HorseSocials_SimToHorse_Touching_Friendly_ScratchNeck)" Value="319845" />
+  <Preset Label="Ask for Ranching Tips (social_EP14World_NPC_AskForRanchingTips)" Tags="TestUnsafe" Value="319966" />
+  <Preset Label="Mount (SI_HorseRiding_MountHorse_Prepare)" Value="320656" />
+  <Preset Label="Sell Mini Goats &amp; Mini Sheep (filteredObjectPicker_AnimalObject_SellGoatSheep)" Tags="TestUnsafe" Value="320945" />
+  <Preset Label="Old Age (death_OldAge_Horse)" Value="321074" />
+  <Preset Label="Age Up! (ageUp_Horse)" Value="321075" />
+  <Preset Label="Chat (HorseSocials_HorseToSim_NonTouching)" Value="321329" />
+  <Preset Label="Run Around (waypoint_Horses_RunAround)" Value="321337" />
+  <Preset Label="Give Competition Advice (social_MasterTrainer_GiveCompetitionAdvice)" Tags="TestUnsafe" Value="321453" />
+  <Preset Label="Harvest Plants (situation_RanchHand_Order_HarvestPlants)" Value="321517" />
+  <Preset Label="Collect Manure  (situation_RanchHand_Order_CollectManure)" Value="321518" />
+  <Preset Label="countryDancing_Mixers_Move3" Value="321765" />
+  <Preset Label="countryDancing_Mixers_Move4" Value="321766" />
+  <Preset Label="countryDancing_Mixers_Move5" Value="321767" />
+  <Preset Label="synchInSituation_CountryDancing_Move_3" Value="321768" />
+  <Preset Label="synchInSituation_CountryDancing_Move_4" Value="321779" />
+  <Preset Label="synchInSituation_CountryDancing_Move_5" Value="321780" />
+  <Preset Label="ranchNectarMaker_StartCraftingProgress" Value="322055" />
+  <Preset Label="mixer_RanchNectar_Stomp" Value="322056" />
+  <Preset Label="mixer_RanchNectar_Idle" Value="322057" />
+  <Preset Label="mixer_RanchNectar_Fall" Value="322058" />
+  <Preset Label="ranchNectarMaker_StompNectar" Value="322059" />
+  <Preset Label="ranchNectarMaker_BottleNectar" Value="322060" />
+  <Preset Label="Clean Up Manure (collect_Trash_HorseManure_OnLot_Aggregate)" Value="322067" />
+  <Preset Label="Clean Up Manure (collect_Trash_HorseManure)" Value="322069" />
+  <Preset Label="Clean Up Manure (collect_Trash_HorseManure_Continuation)" Value="322070" />
+  <Preset Label="Angry (debugEmotionIntensity_Horses_Angry)" Value="322180" />
+  <Preset Label="Very Angry (debugEmotionIntensity_Horses_VeryAngry)" Value="322181" />
+  <Preset Label="Confident (debugEmotionIntensity_Horses_Confident)" Value="322183" />
+  <Preset Label="Very Confident (debugEmotionIntensity_Horses_VeryConfident)" Value="322184" />
+  <Preset Label="Uncomfortable (debugEmotionIntensity_Horses_Uncomfortable)" Value="322186" />
+  <Preset Label="Very Uncomfortable (debugEmotionIntensity_Horses_VeryUncomfortable)" Value="322187" />
+  <Preset Label="Tense (debugEmotionIntensity_Horses_Tense)" Value="322189" />
+  <Preset Label="Very Tense (debugEmotionIntensity_Horses_VeryTense)" Value="322190" />
+  <Preset Label="Dazed (debugEmotionIntensity_Horses_Dazed)" Value="322192" />
+  <Preset Label="Very Dazed (debugEmotionIntensity_Horses_VeryDazed)" Value="322193" />
+  <Preset Label="Sad (debugEmotionIntensity_Horses_Sad)" Value="322195" />
+  <Preset Label="Very Sad (debugEmotionIntensity_Horses_VerySad)" Value="322196" />
+  <Preset Label="Scared (debugEmotionIntensity_Horses_Scared)" Value="322198" />
+  <Preset Label="Very Scared (debugEmotionIntensity_Horses_VeryScared)" Value="322199" />
+  <Preset Label="Happy (debugEmotionIntensity_Horses_Happy)" Value="322201" />
+  <Preset Label="Very Happy (debugEmotionIntensity_Horses_VeryHappy)" Value="322202" />
+  <Preset Label="Hug (horseSocials_SimToHorse_Touching_Friendly_Hug)" Value="322226" />
+  <Preset Label="(Debug) Groom (horseSocials_HorseToHorse_Touching_Friendly_Groom)" Value="322227" />
+  <Preset Label="(Debug) Bite At (horseSocials_HorseToSim_Touching_Mean_BiteAt)" Value="322230" />
+  <Preset Label="(Debug) Yell At (horseSocials_HorseToHorse_Touching_Mean_YellAt)" Value="322231" />
+  <Preset Label="Shoo {1.SimFirstName} Away (socials_Targeted_SimToHorse_Mean_Shoo)" Tags="TestUnsafe" Value="322232" />
+  <Preset Label="(Debug) Bite At (horseSocials_HorseToHorse_Touching_Mean_BiteAt)" Value="322264" />
+  <Preset Label="Chat (HorseSocials_HorseToHorse_NonTouching)" Value="322267" />
+  <Preset Label="(Debug) Sniff (horseSocials_HorseToHorse_Touching_Friendly_Sniff)" Value="322268" />
+  <Preset Label="Friendly Introduction (horseSocials_HorseToHorse_Introduction)" Value="322270" />
+  <Preset Label="Friendly Introduction (HorseSocials_HorseToSim_Introduction)" Value="322271" />
+  <Preset Label="Friendly Introduction (HorseSocials_SimToHorse_Introduction)" Value="322272" />
+  <Preset Label="Chat With (horseSocialMixers_HorseToSim_Neigh)" Tags="TestUnsafe" Value="322280" />
+  <Preset Label="Chat With (horseSocialMixers_HorseToHorse_Neigh)" Tags="TestUnsafe" Value="322281" />
+  <Preset Label="Friendly Introduction (horseSocials_HorseToHorse_Greeting)" Value="322432" />
+  <Preset Label="Friendly Introduction (horseSocials_HorseToSim_Greeting)" Value="322434" />
+  <Preset Label="Friendly Introduction (horseSocials_SimToHorse_Greeting)" Value="322436" />
+  <Preset Label="Cheer (reaction_Horse_Happy)" Value="322541" />
+  <Preset Label="generic_RanchNectarMaker" Value="322558" />
+  <Preset Label="Discard Nectar Batch (ranchNectarMaker_DiscardBatch)" Value="322559" />
+  <Preset Label="Clean Nectar Maker (ranchNectarMaker_Clean)" Value="322560" />
+  <Preset Label="Sell Nectar  (social_EP14World_NPC_MysteriousRancher_SellNectar)" Tags="TestUnsafe" Value="322617" />
+  <Preset Label="(Debug) Give Nectar Ingredients (debug_RanchNectar_GiveItems)" Value="322668" />
+  <Preset Label="Explore Dreadhorse Caverns (EP14World_Rabbithole_Cave)" Value="322975" />
+  <Preset Label="Shop for Groceries and Goods (EP14World_Rabbithole_GroceryStore_GoShopping)" Value="322976" />
+  <Preset Label="Change Outfit (EP14World_Rabbithole_ClothingStore_ChangeOutfit)" Value="322977" />
+  <Preset Label="Cheer (reaction_Horse_Positive)" Value="322995" />
+  <Preset Label="Cheer (reaction_Horse_Angry)" Value="322996" />
+  <Preset Label="Discuss Horse Riding (Social_EquestrianSkill_DiscussHorsebackRiding)" Tags="TestUnsafe" Value="323027" />
+  <Preset Label="Encourage to Breed with (simPicker_HorseBreeding_Encourage_MaleHorse_To_Breed_With)" Tags="TestUnsafe" Value="323048" />
+  <Preset Label="Encourage to Breed with (simPicker_HorseBreeding_Encourage_FemaleHorse_To_Breed_With)" Tags="TestUnsafe" Value="323049" />
+  <Preset Label="Share Horse Riding Tips (Social_EquestrianSkill_ShareHorseRidingTips)" Tags="TestUnsafe" Value="323077" />
+  <Preset Label="Cheer (reaction_Horse_Neutral)" Value="323217" />
+  <Preset Label="Cheer (reaction_Horse_Laugh)" Value="323218" />
+  <Preset Label="Cheer (reaction_Horse_Drowsy)" Value="323219" />
+  <Preset Label="Cheer (reaction_Horse_Curious)" Value="323220" />
+  <Preset Label="Cheer (reaction_Horse_Confident)" Value="323221" />
+  <Preset Label="Cheer (reaction_Horse_Ashamed)" Value="323222" />
+  <Preset Label="Cheer (reaction_Horse_Anxious)" Value="323223" />
+  <Preset Label="Cheer (reaction_Horse_Negative)" Value="323225" />
+  <Preset Label="Cheer (reaction_Horse_Scared)" Value="323226" />
+  <Preset Label="Cheer (reaction_Horse_Scared_RearUp)" Value="323227" />
+  <Preset Label="Cheer (reaction_Horse_Sad)" Value="323228" />
+  <Preset Label="Cheer (reaction_Horse_Playful)" Value="323229" />
+  <Preset Label="Yell at {1.SimFirstName} (horseSocials_SimToHorse_Touching_Mean_YellAt)" Value="323240" />
+  <Preset Label="Cheer (reaction_Horse_Excited)" Value="323252" />
+  <Preset Label="horseBreeding_Pregnancy_StartShowing" Value="323322" />
+  <Preset Label="Share Detailed Horse Facts (mixer_social_trait_HorseLover_ShareDetailedHorseFacts_targeted_Friendly_alwaysOn_child)" Tags="TestUnsafe" Value="323472" />
+  <Preset Label="Have Intellectual Chat (autonomousSimPicker_Trait_Horse_SeekingSim_IntellectualChat)" Tags="TestUnsafe" Value="323553" />
+  <Preset Label="Intellectual Chat (HorseSocialMixers_SimToHorse_Friendly_Trait_Horse_IntellectualChat)" Tags="TestUnsafe" Value="323557" />
+  <Preset Label="Encourage {1.SimFirstName} to Breed with {2.SimFirstName} (socials_Targeted_SimToHorse_Friendly_HorseBreeding_EncourageBreeding_MaleTarget)" Tags="TestUnsafe" Value="323588" />
+  <Preset Label="Encourage {1.SimFirstName} to Breed with {2.SimFirstName} (socials_Targeted_SimToHorse_Friendly_HorseBreeding_EncourageBreeding_FemaleTarget)" Tags="TestUnsafe" Value="323589" />
+  <Preset Label="socialMixerInteraction_Carry_HorseRiding_Idle" Value="323653" />
+  <Preset Label="What's Wrong? (horseSocialCarryMixers_SimToRiddenHorse_Friendly_WhatsWrong)" Value="323877" />
+  <Preset Label="Scratch Neck (horseSocialCarryMixers_SimToRiddenHorse_Friendly_Scratch)" Value="323928" />
+  <Preset Label="Talk To (horseSocialCarryMixers_SimToRiddenHorse_Friendly_TalkTo)" Value="323929" />
+  <Preset Label="Tell Joke (horseSocialCarryMixers_SimToRiddenHorse_Friendly_TellJoke)" Value="323930" />
+  <Preset Label="Calm Down (horseSocialCarryMixers_SimToRiddenHorse_Friendly_CheerUp)" Value="323931" />
+  <Preset Label="Hug (horseSocialCarryMixers_SimToRiddenHorse_Friendly_Hug)" Value="323932" />
+  <Preset Label="Dismount {1.SimFirstName} (horseSocialCarryMixers_SimToRiddenHorse_HorseRiding_Dismount)" Value="323934" />
+  <Preset Label="Get Off My Lawn! (horseSocialCarryMixers_RiddenHorseToSim_HorseRiding_RearUp)" Value="323937" />
+  <Preset Label="Get Off My Lawn! (horseSocialCarryMixers_RiddenHorseToSim_HorseRiding_BuckOff)" Value="323938" />
+  <Preset Label="Tell Joke (HorseSocialMixers_SimToHorse_Friendly_TellJoke)" Tags="TestUnsafe" Value="323943" />
+  <Preset Label="Rescue Horse (computer_HorseTransaction_AdoptHorse)" Value="324023" />
+  <Preset Label="WooHoo (horseSocials_HorseToHorse_Touching_Friendly_HorseBreeding_Woohoo)" Value="324032" />
+  <Preset Label="Deliver Foal (deliverBabyFoal_HorseBreeding)" Value="324084" />
+  <Preset Label="Purchase Horse (computer_HorseTransaction_BuyHorse)" Value="324112" />
+  <Preset Label="Rescue Horse (phone_HorseTransaction_AdoptHorse)" Value="324114" />
+  <Preset Label="Purchase Horse (phone_HorseTransaction_BuyHorse)" Value="324115" />
+  <Preset Label="Hand Feed (horseSocials_SimToHorse_Touching_PetCare_HandFeed)" Value="324132" />
+  <Preset Label="Brush Coat (horseSocials_SimToHorse_Touching_PetCare_BrushCoat)" Value="324133" />
+  <Preset Label="Clean Hooves (horseSocials_SimToHorse_Touching_PetCare_CleanHooves)" Value="324134" />
+  <Preset Label="Hand Feed (objectInInventoryPickerInteraction_HorseCare_HandFeed)" Tags="TestUnsafe" Value="324136" />
+  <Preset Label="Soothe Horse in Labor (horseBreeding_SimtoHorse_HelpBirthFoal)" Value="324232" />
+  <Preset Label="Refill Feeder (sI_AnimalFeederInteractions_RefillFeed)" Value="324408" />
+  <Preset Label="Pour 4 Servings (multiServeConsumable_Drink_RanchNectar_4)" Value="324439" />
+  <Preset Label="Pour a Serving (multiServeConsumable_Drink_RanchNectar_1)" Value="324440" />
+  <Preset Label="Pour 2 Servings (multiServeConsumable_Drink_RanchNectar_2)" Value="324441" />
+  <Preset Label="Pour 3 Servings (multiServeConsumable_Drink_RanchNectar_3)" Value="324442" />
+  <Preset Label="Ghostly Neighing (Idle_Ghost_Horse_NeighFromBeyond)" Value="324649" />
+  <Preset Label="Call Forth Ghost (run_ghost_horse_situation)" Value="324677" />
+  <Preset Label="Call Forth Ghost (urnstone_Horse_CallForth_Debug)" Value="324678" />
+  <Preset Label="NPCLeaveLot_Ghost_EnterUrnstone_Horse" Value="324679" />
+  <Preset Label="Return to Netherworld (death_Netherworld_Horse)" Value="324690" />
+  <Preset Label="(Debug) Ghost Neigh (horseSocials_HorseToHorse_NonTouching_NeighFromTheBeyond)" Value="324691" />
+  <Preset Label="urnstonePicker_JumpOut_Horse" Tags="TestUnsafe" Value="324692" />
+  <Preset Label="Ghost_LeaveUrnstone_Horse_SI" Value="324693" />
+  <Preset Label="Summon {2.SimFirstName} (book_Of_Life_Summons_Ghost_Horse)" Value="324694" />
+  <Preset Label="Rescue Horse (adopt_Horse_Computer)" Tags="TestUnsafe" Value="324814" />
+  <Preset Label="Purchase Horse (buy_Horse_Computer)" Tags="TestUnsafe" Value="324815" />
+  <Preset Label="Rescue Horse (adopt_Horse_Phone)" Tags="TestUnsafe" Value="324817" />
+  <Preset Label="Purchase Horse (buy_Horse_Phone)" Tags="TestUnsafe" Value="324818" />
+  <Preset Label="Rescue Horse (adopt_Horse_Shell)" Tags="TestUnsafe" Value="324820" />
+  <Preset Label="Purchase Horse (buy_Horse_Shell)" Tags="TestUnsafe" Value="324821" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Death_GoatSheep)" Value="324938" />
+  <Preset Label="Pet {1.ObjectName} (sI_AnimalObjects_Pet_Death_NoConstraints_GoatSheep)" Value="324939" />
+  <Preset Label="Possess (Ghost_Horse_Possess)" Value="324988" />
+  <Preset Label="Resurrect (Ghost_Resurrect_Horse_SI)" Value="324989" />
+  <Preset Label="Be Asked To Move In (Ghost_Horse_BeAddedToHousehold)" Value="324990" />
+  <Preset Label="Invite to Household (HorseSocialMixers_SimToHorse_Friendly_InviteToHousehold_Ghost)" Tags="TestUnsafe" Value="325034" />
+  <Preset Label="Ask to Play Dead (sI_AnimalObjects_Socials_Friendly_Goat_Trick_PlayDead)" Value="325077" />
+  <Preset Label="Ask to Yell (sI_AnimalObjects_Socials_Friendly_Goat_Trick_Yell)" Value="325078" />
+  <Preset Label="Ask to Roll Over (sI_AnimalObjects_Socials_Friendly_Sheep_Trick_RollOver)" Value="325221" />
+  <Preset Label="Ask to Shake (sI_AnimalObjects_Socials_Friendly_Sheep_Trick_Shake)" Value="325222" />
+  <Preset Label="All Mini Goats (door_Padlock_ImmediateInteraction_Locks_Goats)" Value="325262" />
+  <Preset Label="All Mini Sheep (door_Padlock_ImmediateInteraction_Locks_Sheep)" Value="325263" />
+  <Preset Label="All Mini Goats (door_Padlock_ImmediateInteractions_Unlocks_Goats)" Value="325288" />
+  <Preset Label="All Mini Sheep (door_Padlock_ImmediateInteractions_Unlocks_Sheep)" Value="325289" />
+  <Preset Label="Assign Bed (simPicker_HorseBed_AssignHorseSim)" Tags="TestUnsafe" Value="325304" />
+  <Preset Label="Claim (horseBed_ClaimOwnership)" Value="325307" />
+  <Preset Label="Horses (simPicker_HorseSocials_SocializeWithHorses)" Tags="TestUnsafe" Value="325462" />
+  <Preset Label="Mini Goats (filteredObjectPicker_AnimalObject_Goats_SocializeWith)" Tags="TestUnsafe" Value="325466" />
+  <Preset Label="Mini Sheep (filteredObjectPicker_AnimalObject_Sheep_SocializeWith)" Tags="TestUnsafe" Value="325467" />
+  <Preset Label="Rub Neck (horseSocials_SimToHorse_Touching_Friendly_RubNeck)" Value="325499" />
+  <Preset Label="Whisper To (horseSocials_SimToHorse_Touching_Friendly_WhisperTo)" Value="325500" />
+  <Preset Label="Go Here (terrain_MoveAway_Horse)" Value="325502" />
+  <Preset Label="Play with {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Goat_Play_Success)" Value="325631" />
+  <Preset Label="Play with {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Goat_Play_Failure)" Value="325632" />
+  <Preset Label="Play with {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Sheep_Play_Success)" Value="325633" />
+  <Preset Label="Play with {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Sheep_Play_Failure)" Value="325634" />
+  <Preset Label="Milk for Simoleons (sI_AnimalObjects_HarvestFrom_Goat)" Value="325641" />
+  <Preset Label="Count Mini Sheep (sI_AnimalObjects_Socials_Friendly_Sheep_CountSheep)" Value="325647" />
+  <Preset Label="Go Here (HorseInteractions_HorseToObject_HorseBedIdle)" Value="325672" />
+  <Preset Label="Horses (horseSocials_SimToHorse_SuggestToSocializeWith_Horse)" Value="325726" />
+  <Preset Label="Mini Sheep (horseSocials_SimToHorse_SuggestToSocializeWith_Sheep)" Value="325727" />
+  <Preset Label="Mini Goats (horseSocials_SimToHorse_SuggestToSocializeWith_Goat)" Value="325728" />
+  <Preset Label="Sims (horseSocials_SimToHorse_SuggestToSocializeWith_Sim)" Value="325729" />
+  <Preset Label="Sims (simPicker_HorseSocials_SocializeWithSims)" Tags="TestUnsafe" Value="325730" />
+  <Preset Label="Sleep (horseInteractions_Sleep_Sleep_CurrentPosition)" Value="325742" />
+  <Preset Label="Nap (horseInteractions_Sleep_Nap)" Value="325743" />
+  <Preset Label="Sleep (horseInteractions_Sleep_HorseBed_Sleep)" Value="325744" />
+  <Preset Label="Nap (horseInteractions_Sleep_HorseBed_Nap)" Value="325745" />
+  <Preset Label="Sleep (aggregate_Horses_Sleep)" Value="325747" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Sleep" Tags="TestUnsafe" Value="325749" />
+  <Preset Label="(Debug) Give All Cave Items (EP14World_Rabbitholes_Cave_Debug_GiveAllItems)" Value="325750" />
+  <Preset Label="Generic_RabbitHole_Cave_EP14World" Value="325755" />
+  <Preset Label="Explore Dreadhorse Caverns (EP14World_Rabbithole_Cave_FailureExit)" Value="325771" />
+  <Preset Label="Bits &amp; Bales Mercantile (purchase_EP14World_Shell_GroceryStore)" Tags="TestUnsafe" Value="325821" />
+  <Preset Label="Explore (EP14World_Rabbithole_HideSim)" Value="325824" />
+  <Preset Label="Change Outfit (changeOutfitPicker_Actor_EP14World_ClothingStoreShell)" Tags="TestUnsafe" Value="325825" />
+  <Preset Label="Plan Outfits (EP14World_Rabbithole_ClothingStore_PlanOutfit)" Value="325827" />
+  <Preset Label="Plan Outfits (planOutfit_EP14World_ClothingStore)" Value="325828" />
+  <Preset Label="Sell Items (EP14World_Rabbithole_GroceryStore_SellItems)" Value="325829" />
+  <Preset Label="Sell Items (sellPickerInteraction_EP14World_GroceryStore_SellItems)" Tags="TestUnsafe" Value="325830" />
+  <Preset Label="Bottle Feed {1.ObjectName} with Milk (sI_AnimalObjects_FeedBasic_Goat_Milk)" Value="325932" />
+  <Preset Label="Bottle Feed {1.ObjectName} with Milk (sI_AnimalObjects_FeedBasic_Sheep_Milk)" Value="325933" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Sheep_TalkTo)" Value="325934" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Sheep_TalkTo_Child)" Value="325935" />
+  <Preset Label="Babble to {1.ObjectName} (sI_AnimalObjects_Socials_Friendly_Sheep_TalkTo_Toddler)" Value="325936" />
+  <Preset Label="autonomous_ObjectPicker_Horse_Curious_AboutObjects" Tags="TestUnsafe" Value="325962" />
+  <Preset Label="sI_Horse_Trait_Curious_AboutObjects" Value="325966" />
+  <Preset Label="sI_Horse_Trait_Curious_AboutTrashCans" Value="325967" />
+  <Preset Label="Idle_Trait_Horse_Curious" Value="326131" />
+  <Preset Label="Idle_Trait_Horse_Playful" Value="326135" />
+  <Preset Label="Idle_Trait_Horse_Aggressive" Value="326136" />
+  <Preset Label="Idle_Trait_Horse_Brave" Value="326137" />
+  <Preset Label="Idle_Trait_Horse_Defiant" Value="326138" />
+  <Preset Label="Idle_Trait_Horse_Energetic" Value="326139" />
+  <Preset Label="Idle_Trait_Horse_Fearful" Value="326170" />
+  <Preset Label="Idle_Trait_Horse_FreeSpirit" Value="326171" />
+  <Preset Label="Idle_Trait_Horse_Independent" Value="326172" />
+  <Preset Label="Idle_Trait_Horse_Intelligent" Value="326173" />
+  <Preset Label="Idle_Trait_Horse_Mellow" Value="326174" />
+  <Preset Label="Idle_Trait_Horse_ChampionGenes" Value="326175" />
+  <Preset Label="Idle_Trait_Horse_Friendly" Value="326176" />
+  <Preset Label="Fix Horse Jumps (horseObstacles_Reassemble_Jumping)" Value="326204" />
+  <Preset Label="Remove Advanced Jumping Rails (horseObstacles_ChangeDifficulty_ToLow)" Value="326206" />
+  <Preset Label="Add Advanced Jumping Rails (horseObstacles_ChangeDifficulty_ToHigh)" Value="326207" />
+  <Preset Label="Harvest All Prairie Grass (Harvest_All_WildGrass)" Value="326373" />
+  <Preset Label="Tell Joke about Horse, of Course  (mixer_socials_TellJoke_group_Funny_alwaysOn_TellJokeAboutHorseOfCourse_trait_HorseLover)" Tags="TestUnsafe" Value="326419" />
+  <Preset Label="Watch Dancin' (danceFloor_CountryDancing_Watch)" Value="326429" />
+  <Preset Label="Practice Basic Jumps (horseObstacles_Jumping_Basic)" Value="326438" />
+  <Preset Label="Practice Advanced Jumps (horseObstacles_Jumping_Advanced)" Value="326439" />
+  <Preset Label="Intensely Train (horseObstacles_Jumping_Focus)" Value="326440" />
+  <Preset Label="Practice Advanced Jumps (horseObstacles_Jumping_Start_Advanced)" Value="326441" />
+  <Preset Label="Practice Basic Jumps (horseObstacles_Jumping_Start_Basic)" Value="326442" />
+  <Preset Label="Intensely Train (horseObstacles_Jumping_Start_Focus)" Value="326443" />
+  <Preset Label="Race Barrels (horseObstacles_Barrels_Start_Advanced)" Value="326446" />
+  <Preset Label="Practice Barrels (horseObstacles_Barrels_Start_Basic)" Value="326447" />
+  <Preset Label="Intensely Train (horseObstacles_Barrels_Start_Focus)" Value="326448" />
+  <Preset Label="Race Barrels (horseObstacles_Barrels_Advanced)" Value="326449" />
+  <Preset Label="Practice Barrels (horseObstacles_Barrels_Basic)" Value="326450" />
+  <Preset Label="Intensely Train (horseObstacles_Barrels_Focus)" Value="326451" />
+  <Preset Label="Practice Barrels (horsePickerInteraction_HorseObstacles_Barrels_Basic)" Tags="TestUnsafe" Value="326455" />
+  <Preset Label="Race Barrels (horsePickerInteraction_HorseObstacles_Barrels_Advanced)" Tags="TestUnsafe" Value="326456" />
+  <Preset Label="Practice Advanced Jumps (horsePickerInteraction_HorseObstacles_Jumping_Advanced)" Tags="TestUnsafe" Value="326457" />
+  <Preset Label="Practice Basic Jumps (horsePickerInteraction_HorseObstacles_Jumping_Basic)" Tags="TestUnsafe" Value="326458" />
+  <Preset Label="horseObstacles_Barrels_CallTo_Basic" Value="326460" />
+  <Preset Label="horseObstacles_Barrels_CallTo_Advanced" Value="326462" />
+  <Preset Label="horseObstacles_Jumping_CallTo_Advanced" Value="326463" />
+  <Preset Label="horseObstacles_Jumping_CallTo_Basic" Value="326464" />
+  <Preset Label="Practice Barrels (horseObstacles_Barrels_NoRider_Basic)" Value="326467" />
+  <Preset Label="Race Barrels (horseObstacles_Barrels_NoRider_Advanced)" Value="326469" />
+  <Preset Label="horseObstacles_Jumping_NoRider_Basic" Value="326471" />
+  <Preset Label="horseObstacles_Jumping_NoRider_Advanced" Value="326472" />
+  <Preset Label="Tell Joke about Horse Butts (Mixer_social_TellJoke_group_Funny_alwaysOn_child_HorseLover_TellJokeAboutHorseButts)" Tags="TestUnsafe" Value="326500" />
+  <Preset Label="Fix Horse Barrels (horseObstacles_Reassemble_Barrels)" Value="326515" />
+  <Preset Label="All Horses (door_Padlock_ImmediateInteraction_Locks_Horse)" Value="326539" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Goat_Horse)" Value="326559" />
+  <Preset Label="Watch {1.ObjectName} (sI_AnimalObjects_Watch_Sheep_Horse)" Value="326560" />
+  <Preset Label="Hug the Anger Away (sI_AnimalObjects_Pet_Goat_Free_Start_MoodImprovement_Angry)" Value="326620" />
+  <Preset Label="Hug the Tension Away (sI_AnimalObjects_Pet_Goat_Free_Start_MoodImprovement_Tense)" Value="326621" />
+  <Preset Label="Hug the Sadness Away (sI_AnimalObjects_Pet_Sheep_Free_Start_MoodImprovement_Sad)" Value="326622" />
+  <Preset Label="Hug the Fear Away (sI_AnimalObjects_Pet_Sheep_Free_Start_MoodImprovement_Scared)" Value="326623" />
+  <Preset Label="Harvest Prairie Grass (Harvest_WildGrass)" Value="326664" />
+  <Preset Label="Sell Nectar  (sellPickerInteraction_EP14World_NPC_MysteriousRancher_SellNectar)" Tags="TestUnsafe" Value="326690" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Nap" Tags="TestUnsafe" Value="326795" />
+  <Preset Label="Go for Relaxed Ride (waypoint_HorseRiding_RideAround_LeisureRide)" Value="326810" />
+  <Preset Label="Go for Energetic Ride (waypoint_HorseRiding_RideAround_EnergeticRide)" Value="326811" />
+  <Preset Label="Go for Intense Ride (waypoint_HorseRiding_RideAround_EnduranceRide)" Value="326812" />
+  <Preset Label="Trot Here (terrain-HorseRiding_TrotHere_Horse)" Value="326813" />
+  <Preset Label="Canter Here (terrain-HorseRiding_CanterHere_Horse)" Value="326814" />
+  <Preset Label="Go for Intense Ride (horseRiding_RideAround_EnduranceRide)" Value="326882" />
+  <Preset Label="Go for Energetic Ride (horseRiding_RideAround_EnergeticRide)" Value="326883" />
+  <Preset Label="Go for Relaxed Ride (horseRiding_RideAround_LeisureRide)" Value="326884" />
+  <Preset Label="Mount Horse (SI_HorseRiding_MountHorse_Prepare_Target)" Value="326885" />
+  <Preset Label="(Debug) Always Fail Obstacle Interactions (horseObstacles_Cheats_Failure)" Value="326913" />
+  <Preset Label="(Debug) Always Succeed Obstacle Interactions (horseObstacles_Cheats_Success)" Value="326914" />
+  <Preset Label="Cowpoke Group Dance (danceFloor_CountryDancing_GroupDancing_Dummy)" Value="326919" />
+  <Preset Label="Sleep (aggregate_Horses_Sleep_FreeSpirit)" Value="327076" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Sleep_Outdoors" Tags="TestUnsafe" Value="327077" />
+  <Preset Label="Sleep (horseInteractions_Sleep_HorseBed_Sleep_Outdoors)" Value="327078" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Sleep_Indoors" Tags="TestUnsafe" Value="327079" />
+  <Preset Label="Sleep (horseInteractions_Sleep_HorseBed_Sleep_Indoors)" Value="327080" />
+  <Preset Label="Sleep (horseInteractions_Sleep_HorseBed_Sleep_AnyAvailable)" Value="327081" />
+  <Preset Label="Sleep (horseInteractions_Sleep_Sleep_Outdoors)" Value="327082" />
+  <Preset Label="Generic_Horse_layDown" Value="327126" />
+  <Preset Label="layDown_Passive_Horse" Value="327127" />
+  <Preset Label="Cheer (reaction_HorseBreeding_Negative_Woohoo_Relationship)" Value="327201" />
+  <Preset Label="Cheer (reaction_HorseBreeding_Angry_Woohoo_Mood)" Value="327202" />
+  <Preset Label="(Debug) Special Moment Groom (horseSocials_HorseToHorse_Touching_Friendly_HorseBreeding_SpecialMoment_Groom)" Value="327207" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Sleep_AnyAvailable" Tags="TestUnsafe" Value="327291" />
+  <Preset Label="(Debug) Nuzzle (horseSocials_HorseToHorse_Touching_Friendly_Nuzzle)" Value="327298" />
+  <Preset Label="idle_Buff_EP14World_NPC_MysteriousRancher_DrinkNectar" Value="327379" />
+  <Preset Label="Ask About The Community (socialMixerInteraction_CommunityBoard_AskAboutCommunity)" Tags="TestUnsafe" Value="327467" />
+  <Preset Label="Ask About The Community (immediateSuperInteraction_CommunityBoard_TNS_ViewBoard)" Value="327469" />
+  <Preset Label="Spectate Competitions (EP14World_Rabbithole_EquestrianCenter_Spectate)" Value="327476" />
+  <Preset Label="Open/Close [DEBUG] (statePickerSuperInteraction_EquestrianCenter)" Tags="TestUnsafe" Value="327484" />
+  <Preset Label="Idle_Trait_Horse_Resilient" Value="327595" />
+  <Preset Label="Pee Self! (horseInteractions_HorseToSelf_UseBladder)" Value="327768" />
+  <Preset Label="(Debug) Go Poop (horseInteractions_HorseToSelf_UseBladder_Manure)" Value="327769" />
+  <Preset Label="solo_EP14World_NPC_MysteriousRancher_AdvertiseNectarSales" Value="327919" />
+  <Preset Label="Calm Down (horseSocials_SimToHorse_Touching_Friendly_CheerUp)" Value="328007" />
+  <Preset Label="Complain about Hunger (Sim_Horse_HungerDistress)" Value="328029" />
+  <Preset Label="Complain about Loneliness (Sim_Horse_SocialDistress)" Value="328030" />
+  <Preset Label="Complain about Lack of Fun (Sim_Horse_FunDistress)" Value="328031" />
+  <Preset Label="Complain about Being Dirty (Sim_Horse_HygieneDistress)" Value="328035" />
+  <Preset Label="Complain about Tiredness (Sim_Horse_EnergyDistress)" Value="328036" />
+  <Preset Label="Be Rescued (death_Pet_Horse_Neglected)" Value="328100" />
+  <Preset Label="Complain about Hunger (sI_AnimalFeederInteractions_Horse_HungerDistress)" Value="328101" />
+  <Preset Label="Sleep (horseInteractions_Sleep_Sleep_CurrentPosition_EnergyFailure)" Value="328103" />
+  <Preset Label="Cheer (reaction_Horse_Outcome_Success)" Value="328109" />
+  <Preset Label="Cheer (reaction_Horse_Outcome_Failure)" Value="328110" />
+  <Preset Label="Change Outfit (changeOutfitPicker_TargetSim_Horse)" Tags="TestUnsafe" Value="328124" />
+  <Preset Label="Change Outfit (changeOutfit_FromPicker_Horse)" Value="328125" />
+  <Preset Label="Frolic (horseInteractions_RunAround_Frolic)" Value="328129" />
+  <Preset Label="Agility (horseTraining_LearnAbout_Agility)" Value="328262" />
+  <Preset Label="Temperament (horseTraining_LearnAbout_Temperament)" Value="328263" />
+  <Preset Label="Endurance  (horseTraining_LearnAbout_Endurance)" Value="328264" />
+  <Preset Label="Jumping (horseTraining_LearnAbout_Jumping)" Value="328265" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Sheep_TalkTo_Horse)" Value="328267" />
+  <Preset Label="Chat With (sI_AnimalObjects_Socials_Friendly_Goat_TalkTo_Horse)" Value="328268" />
+  <Preset Label="aggregate_Horses_SS3_Selection" Value="328363" />
+  <Preset Label="Wake Up {1.SimFirstName} (horseInteractions_SimToHorse_WakeUp)" Value="328395" />
+  <Preset Label="Call Over (horseInteractions_SimToHorse_CallOver)" Value="328397" />
+  <Preset Label="Send Home (horseInteractions_SimToHorse_GoHome)" Value="328399" />
+  <Preset Label="(Debug) Play With (horseInteractions_HorseToObject_HorseToy_PlayWithBall)" Value="328440" />
+  <Preset Label="Plan Outfits (planOutfit_Horses)" Value="328606" />
+  <Preset Label="Ask Horse to Play (horsePickerInteraction_HorseToy_AskHorseToPlay)" Tags="TestUnsafe" Value="328716" />
+  <Preset Label="horseIdles_Active" Value="328727" />
+  <Preset Label="horseIdles_LegUp_Left" Value="328729" />
+  <Preset Label="horseIdles_LegUp_Right" Value="328730" />
+  <Preset Label="(Debug) Sniff (horseSocials_HorseToSim_Touching_Friendly_Sniff)" Value="328827" />
+  <Preset Label="Cradle (horseSocials_SimToFoal_Touching_Cradle)" Value="328878" />
+  <Preset Label="Learn about Residents (si_CommunityBoard_TownInfo)" Value="328910" />
+  <Preset Label="Equestrian Center (si_CommunityBoard_Info_EquestrianCenter_SameZone)" Value="328912" />
+  <Preset Label="Equestrian Center (si_CommunityBoard_Info_EquestrianCenter_DifferentZone)" Value="328913" />
+  <Preset Label="Horse Care (si_CommunityBoard_Info_HorseCare)" Value="328914" />
+  <Preset Label="Mini Animal Care (si_CommunityBoard_Info_AnimalCare)" Value="328915" />
+  <Preset Label="Plan a Ranch Event (si_CommunityBoard_Info_SocialEvent)" Value="328916" />
+  <Preset Label="Hire Ranch Hand (si_CommunityBoard_Info_RanchHands)" Value="328917" />
+  <Preset Label="goToSpecificLotTravelInteraction_CommunityBoard_EQCenter" Value="328938" />
+  <Preset Label="autonomous_ObjectPicker_CommunityBoard_FromBoard" Tags="TestUnsafe" Value="328939" />
+  <Preset Label="immediateSuperInteraction_CommunityBoard_ViewBoard" Value="328941" />
+  <Preset Label="Purchase Horse (buyPickedHorse_PhoneComputer)" Value="328966" />
+  <Preset Label="Rescue Horse (adoptPickedHorse_PhoneComputer)" Value="328967" />
+  <Preset Label="Ask Horse to Play (HorseToy_SimCallHorseFromBall)" Value="328981" />
+  <Preset Label="Focus on Assigned Horse (immediate_HorseBed_FocusAssignedHorse)" Value="329128" />
+  <Preset Label="Ask Horse to Come Here (horsePickerInteraction_HorseBed_CallToBed)" Tags="TestUnsafe" Value="329129" />
+  <Preset Label="Ask Horse to Come Here (horseBed_CallHorseToBed)" Value="329130" />
+  <Preset Label="Clean Bed (horseBed_Clean)" Value="329131" />
+  <Preset Label="Horse Training (interactionPickerSI_CommunityBoard_HorseTraining)" Tags="TestUnsafe" Value="329138" />
+  <Preset Label="Horse Training (simPicker_CommunityBoard_HorseTraining)" Tags="TestUnsafe" Value="329139" />
+  <Preset Label="Temperament Level 2 (si_CommunityBoard_HorseTraining_Temperament_Lvl_02)" Value="329142" />
+  <Preset Label="Temperament Level 3 (si_CommunityBoard_HorseTraining_Temperament_Lvl_03)" Value="329143" />
+  <Preset Label="Temperament Level 4 (si_CommunityBoard_HorseTraining_Temperament_Lvl_04)" Value="329144" />
+  <Preset Label="See Schedule (situation_RanchHand_Schedule)" Value="329178" />
+  <Preset Label="Mentor (mentor_EquestrianSkill)" Value="329209" />
+  <Preset Label="Train to Eat Hay (horseSocials_SimToFoal_Touching_WeanToHay)" Value="329218" />
+  <Preset Label="Gentle Touch (horseSocials_SimToFoal_Touching_GentleTouch)" Value="329220" />
+  <Preset Label="Harvest {S2.{S3.ObjectName}}{P2.{P3.ObjectName}} (gardening_Harvest_RanchHand)" Value="329270" />
+  <Preset Label="Train to Eat Hay (objectInInventoryPickerInteraction_HorseCare_WeanToHay)" Tags="TestUnsafe" Value="329278" />
+  <Preset Label="Refill Feeder (sI_AnimalFeederInteractions_RefillFeed_RanchHand)" Value="329309" />
+  <Preset Label="Name Ranch (rename_Object_ranchEntranceSign)" Value="329339" />
+  <Preset Label="npc_leave_lot_now_horse" Value="329378" />
+  <Preset Label="Go for Intense Ride (sI_HorseRiding_MountHorse_Begin_EnduranceRide)" Value="329389" />
+  <Preset Label="Go for Energetic Ride (sI_HorseRiding_MountHorse_Begin_EnergeticRide)" Value="329390" />
+  <Preset Label="Go for Relaxed Ride (sI_HorseRiding_MountHorse_Begin_LeisureRide)" Value="329396" />
+  <Preset Label="Bottle Feed (horseSocials_SimToFoal_Touching_BottleFeed)" Value="329401" />
+  <Preset Label="Graze (autonomous_ObjectPicker_WildGrassHay_HorseEat)" Tags="TestUnsafe" Value="329429" />
+  <Preset Label="Train to Eat Hay (horsePickerInteraction_AnimalFeeder_SimToFoal_WeanToHay)" Tags="TestUnsafe" Value="329458" />
+  <Preset Label="Try hay (sI_AnimalFeederInteractions_Foal_TryHay)" Value="329488" />
+  <Preset Label="Harvest Prairie Grass (harvest_WildGrass_RanchHand)" Value="329520" />
+  <Preset Label="aggregate_Horses_RideAround" Value="329528" />
+  <Preset Label="Cheer (reaction_Horse_Riding_RearUp)" Value="329583" />
+  <Preset Label="Cheer (reaction_Horse_Tense)" Value="329584" />
+  <Preset Label="Cheer (reaction_Horse_Uncomfortable)" Value="329585" />
+  <Preset Label="Compliment Speed (horseSocialMixers_SimToHorse_HorseTraining_Agility_Compliment)" Tags="TestUnsafe" Value="329658" />
+  <Preset Label="Compliment Physique (horseSocialMixers_SimToHorse_HorseTraining_Endurance_Compliment)" Tags="TestUnsafe" Value="329659" />
+  <Preset Label="Compliment Jumps (horseSocialMixers_SimToHorse_HorseTraining_Jumping_Compliment)" Tags="TestUnsafe" Value="329660" />
+  <Preset Label="Compliment Temperament (horseSocialMixers_SimToHorse_HorseTraining_Temperament_Compliment)" Tags="TestUnsafe" Value="329661" />
+  <Preset Label="Compliment Speed (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_Compliment)" Value="329662" />
+  <Preset Label="Compliment Physique (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_Compliment)" Value="329663" />
+  <Preset Label="Compliment Jumps (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_Compliment)" Value="329664" />
+  <Preset Label="Compliment Temperament (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_Compliment)" Value="329665" />
+  <Preset Label="Ask about Agility Training (horseSocialMixers_SimToHorse_HorseTraining_Agility_AskAboutTraining)" Tags="TestUnsafe" Value="329666" />
+  <Preset Label="Ask about Endurance Training (horseSocialMixers_SimToHorse_HorseTraining_Endurance_AskAboutTraining)" Tags="TestUnsafe" Value="329667" />
+  <Preset Label="Ask about Jumping Training (horseSocialMixers_SimToHorse_HorseTraining_Jumping_AskAboutTraining)" Tags="TestUnsafe" Value="329668" />
+  <Preset Label="Ask about Agility Training (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_AskAboutTraining)" Value="329669" />
+  <Preset Label="Ask about Endurance Training (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_AskAboutTraining)" Value="329670" />
+  <Preset Label="Ask about Jumping Training (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_AskAboutTraining)" Value="329671" />
+  <Preset Label="Ask about Favorite Barrel Runs (horseSocialMixers_SimToHorse_HorseTraining_Agility_AskAboutFavorite)" Tags="TestUnsafe" Value="329672" />
+  <Preset Label="Ask about Favorite Type of Ride (horseSocialMixers_SimToHorse_HorseTraining_Endurance_AskAboutFavorite)" Tags="TestUnsafe" Value="329673" />
+  <Preset Label="Ask about Favorite Jumps (horseSocialMixers_SimToHorse_HorseTraining_Jumping_AskAboutFavorite)" Tags="TestUnsafe" Value="329674" />
+  <Preset Label="Ask about Favorite Barrel Runs (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_AskAboutFavorite)" Value="329675" />
+  <Preset Label="Ask about Favorite Type of Ride (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_AskAboutFavorite)" Value="329676" />
+  <Preset Label="Ask about Favorite Jumps (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_AskAboutFavorite)" Value="329677" />
+  <Preset Label="Talk about Going Fast (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_TalkAbout)" Value="329678" />
+  <Preset Label="Talk about Riding (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_TalkAbout)" Value="329679" />
+  <Preset Label="Talk about Jumping (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_TalkAbout)" Value="329680" />
+  <Preset Label="Talk about Going Fast (horseSocialMixers_SimToHorse_HorseTraining_Agility_TalkAbout)" Tags="TestUnsafe" Value="329681" />
+  <Preset Label="Talk about Riding (horseSocialMixers_SimToHorse_HorseTraining_Endurance_TalkAbout)" Tags="TestUnsafe" Value="329682" />
+  <Preset Label="Talk about Jumping (horseSocialMixers_SimToHorse_HorseTraining_Jumping_TalkAbout)" Tags="TestUnsafe" Value="329683" />
+  <Preset Label="Ask about Being Quick on Feet (horseSocialMixers_SimToHorse_HorseTraining_Agility_AskAdvice)" Tags="TestUnsafe" Value="329684" />
+  <Preset Label="Ask for Fitness Advice (horseSocialMixers_SimToHorse_HorseTraining_Endurance_AskAdvice)" Tags="TestUnsafe" Value="329685" />
+  <Preset Label="Ask about Jumping Mechanics (horseSocialMixers_SimToHorse_HorseTraining_Jumping_AskAdvice)" Tags="TestUnsafe" Value="329686" />
+  <Preset Label="Ask about Being Quick on Feet (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_AskAdvice)" Value="329687" />
+  <Preset Label="Ask for Fitness Advice (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_AskAdvice)" Value="329688" />
+  <Preset Label="Ask about Jumping Mechanics (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_AskAdvice)" Value="329689" />
+  <Preset Label="Seek Emotional Support (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_Comfort)" Value="329690" />
+  <Preset Label="Seek Emotional Support (horseSocialMixers_SimToHorse_HorseTraining_Temperament_Comfort)" Tags="TestUnsafe" Value="329691" />
+  <Preset Label="Talk about Social Life (horseSocialMixers_SimToHorse_HorseTraining_Temperament_Gossip)" Tags="TestUnsafe" Value="329692" />
+  <Preset Label="Talk about Social Life (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_Gossip)" Value="329693" />
+  <Preset Label="Ask about Dealing with Sims (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_AskAdvice)" Value="329694" />
+  <Preset Label="Ask about Dealing with Sims (horseSocialMixers_SimToHorse_HorseTraining_Temperament_AskAdvice)" Tags="TestUnsafe" Value="329695" />
+  <Preset Label="Ask about Controlling Temper (horseSocialMixers_SimToHorse_HorseTraining_Temperament_ControlTemper)" Tags="TestUnsafe" Value="329696" />
+  <Preset Label="Ask about Controlling Temper (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_ControlTemper)" Value="329697" />
+  <Preset Label="Discuss Secret Lives of Animals (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_AskAbout)" Value="329698" />
+  <Preset Label="Discuss Secret Lives of Animals (horseSocialMixers_SimToHorse_HorseTraining_Temperament_AskAbout)" Tags="TestUnsafe" Value="329699" />
+  <Preset Label="Encourage Training (horseSocialMixers_SimToHorse_HorseTraining_Equestrian_Encourage)" Tags="TestUnsafe" Value="329700" />
+  <Preset Label="Encourage Training (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Equestrian_Encourage)" Value="329701" />
+  <Preset Label="Ask for Horse Training Feedback (horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Equestrian_AskFeedback)" Value="329702" />
+  <Preset Label="Ask for Horse Training Feedback (horseSocialMixers_SimToHorse_HorseTraining_Equestrian_AskFeedback)" Tags="TestUnsafe" Value="329703" />
+  <Preset Label="Train to Eat Hay (sI_AnimalFeederInteractions_SimToFoal_WeanToHay_CallOver)" Value="329706" />
+  <Preset Label="(Debug) Angry Reaction (horseInteractions_SimToHorse_DebugReaction_Angry)" Value="329725" />
+  <Preset Label="(Debug) Anxious Reaction (horseInteractions_SimToHorse_DebugReaction_Anxious)" Value="329726" />
+  <Preset Label="(Debug) Playful Reaction (horseInteractions_SimToHorse_DebugReaction_Playful)" Value="329727" />
+  <Preset Label="(Debug) Positive Reaction (horseInteractions_SimToHorse_DebugReaction_Positive)" Value="329728" />
+  <Preset Label="(Debug) Riding Rear Up Reaction (horseInteractions_SimToHorse_DebugReaction_Riding_RearUp)" Value="329729" />
+  <Preset Label="(Debug) Sad Reaction (horseInteractions_SimToHorse_DebugReaction_Sad)" Value="329730" />
+  <Preset Label="(Debug) Scared Reaction (horseInteractions_SimToHorse_DebugReaction_Scared)" Value="329731" />
+  <Preset Label="(Debug) Scared Rear Up (horseInteractions_SimToHorse_DebugReaction_Scared_RearUp)" Value="329732" />
+  <Preset Label="(Debug) Tense Reaction (horseInteractions_SimToHorse_DebugReaction_Tense)" Value="329733" />
+  <Preset Label="(Debug) Uncomfortable Reaction (horseInteractions_SimToHorse_DebugReaction_Uncomfortable)" Value="329734" />
+  <Preset Label="(Debug) Ashamed Reaction (horseInteractions_SimToHorse_DebugReaction_Ashamed)" Value="329735" />
+  <Preset Label="(Debug) Confident Reaction (horseInteractions_SimToHorse_DebugReaction_Confident)" Value="329736" />
+  <Preset Label="(Debug) Curious Reaction (horseInteractions_SimToHorse_DebugReaction_Curious)" Value="329737" />
+  <Preset Label="(Debug) Drowsy Reaction (horseInteractions_SimToHorse_DebugReaction_Drowsy)" Value="329738" />
+  <Preset Label="(Debug) Excited Reaction (horseInteractions_SimToHorse_DebugReaction_Excited)" Value="329739" />
+  <Preset Label="(Debug) Happy Reaction (horseInteractions_SimToHorse_DebugReaction_Happy)" Value="329740" />
+  <Preset Label="(Debug) Laugh Reaction (horseInteractions_SimToHorse_DebugReaction_Laugh)" Value="329741" />
+  <Preset Label="(Debug) Negative Reaction (horseInteractions_SimToHorse_DebugReaction_Negative)" Value="329742" />
+  <Preset Label="(Debug) Neutral Reaction (horseInteractions_SimToHorse_DebugReaction_Neutral)" Value="329743" />
+  <Preset Label="Death by {0.String} (debugDeathInteraction_Horse)" Value="329755" />
+  <Preset Label="Elder (terrain-createhorse_female_elder)" Value="329759" />
+  <Preset Label="Create Female Horse (terrain-createhorse_female_adult_toppiemenu)" Value="329760" />
+  <Preset Label="Elder (terrain-createhorse_male-elder)" Value="329761" />
+  <Preset Label="picker_CreateBreed_Horse" Tags="TestUnsafe" Value="329762" />
+  <Preset Label="Ride Home (horseSocialCarryMixers_RiddenHorseToSim_HorseRiding_RideHome)" Value="329766" />
+  <Preset Label="solo_EP14World_NPC_HorseTrainer_AdvertiseEquestrianCenter" Value="329806" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_02)" Value="329829" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_03)" Value="329916" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_04)" Value="329917" />
+  <Preset Label="Temperament Level 5 (si_CommunityBoard_HorseTraining_Temperament_Lvl_05)" Value="329919" />
+  <Preset Label="Temperament Level 6 (si_CommunityBoard_HorseTraining_Temperament_Lvl_06)" Value="329920" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_05)" Value="329921" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_06)" Value="329922" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_07)" Value="329923" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_08)" Value="329924" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_09)" Value="329925" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_10)" Value="329926" />
+  <Preset Label="Temperament Level 7 (si_CommunityBoard_HorseTraining_Temperament_Lvl_07)" Value="329927" />
+  <Preset Label="Temperament Level 8 (si_CommunityBoard_HorseTraining_Temperament_Lvl_08)" Value="329928" />
+  <Preset Label="Temperament Level 9 (si_CommunityBoard_HorseTraining_Temperament_Lvl_09)" Value="329929" />
+  <Preset Label="Temperament Level 10 (si_CommunityBoard_HorseTraining_Temperament_Lvl_10)" Value="329930" />
+  <Preset Label="si_CommunityBoard_HorseTraining_SimWave" Value="329945" />
+  <Preset Label="Direct Horse to Eat at Feeder (sI_AnimalFeederInteractions_SimOnHorseback_Horse_Eat)" Value="329954" />
+  <Preset Label="(Debug) Friendly Social Thought Balloon (Trait_Horse_Friendly_AutonomousSocial_ThoughtBalloon)" Value="329956" />
+  <Preset Label="Nap (horseInteractions_Sleep_HorseBed_Nap_AnyAvailable)" Value="329978" />
+  <Preset Label="Nap (horseInteractions_Sleep_HorseBed_Nap_Indoors)" Value="329979" />
+  <Preset Label="Nap (horseInteractions_Sleep_HorseBed_Nap_Outdoors)" Value="329980" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Nap_AnyAvailable" Tags="TestUnsafe" Value="329981" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Nap_Indoors" Tags="TestUnsafe" Value="329982" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Nap_Outdoors" Tags="TestUnsafe" Value="329983" />
+  <Preset Label="Nap (aggregate_Horses_Nap)" Value="329985" />
+  <Preset Label="Nap (aggregate_Horses_Nap_FreeSpirit)" Value="329986" />
+  <Preset Label="Nap (horseInteractions_Sleep_Nap_Outdoors)" Value="329997" />
+  <Preset Label="Train to Eat Prairie Grass (horsePickerInteraction_WildGrass_SimToFoal_WeanToHay)" Tags="TestUnsafe" Value="330049" />
+  <Preset Label="Train to Eat Prairie Grass (sI_WildGrass_SimToFoal_WeanToHay_CallOver)" Value="330050" />
+  <Preset Label="Try grass (sI_WildGrass_Foal_TryHay)" Value="330051" />
+  <Preset Label="Sell Horse (sI_HorseTransaction_SellHorse_FromHorse)" Value="330088" />
+  <Preset Label="Sell Horse (computer_HorseTransaction_SellHorse)" Value="330089" />
+  <Preset Label="Sell Horse (phone_HorseTransaction_SellHorse)" Value="330090" />
+  <Preset Label="Sell Horse (horsePickerInteraction_HorseTransaction_FromPhoneComputer)" Tags="TestUnsafe" Value="330092" />
+  <Preset Label="Sell Horse (horsePickerInteraction_HorseTransaction_FromShell)" Tags="TestUnsafe" Value="330093" />
+  <Preset Label="Sell Horse (sI_HorseTransaction_SellHorse_FromPhoneComputer)" Value="330094" />
+  <Preset Label="Sell Horse (sI_HorseTransaction_SellHorse_FromShell)" Value="330095" />
+  <Preset Label="mixerInteraction_Horse_Sleep_SleepIdle" Value="330158" />
+  <Preset Label="mixerInteraction_Horse_Sleep_Dream" Value="330159" />
+  <Preset Label="mixerInteraction_Horse_Sleep_NapIdle" Value="330160" />
+  <Preset Label="mixerInteraction_Horse_Sleep_NapIdle_Object" Value="330161" />
+  <Preset Label="mixerInteraction_Horse_Sleep_SleepIdle_Object" Value="330162" />
+  <Preset Label="mixerInteraction_Horse_Sleep_Dream_Object" Value="330163" />
+  <Preset Label="Agility Level 2 (si_CommunityBoard_HorseTraining_Agility_Lvl_02)" Value="330181" />
+  <Preset Label="Agility Level 3 (si_CommunityBoard_HorseTraining_Agility_Lvl_03)" Value="330182" />
+  <Preset Label="Agility Level 4 (si_CommunityBoard_HorseTraining_Agility_Lvl_04)" Value="330183" />
+  <Preset Label="Agility Level 5 (si_CommunityBoard_HorseTraining_Agility_Lvl_05)" Value="330184" />
+  <Preset Label="Agility Level 6 (si_CommunityBoard_HorseTraining_Agility_Lvl_06)" Value="330185" />
+  <Preset Label="Agility Level 7 (si_CommunityBoard_HorseTraining_Agility_Lvl_07)" Value="330186" />
+  <Preset Label="Agility Level 8 (si_CommunityBoard_HorseTraining_Agility_Lvl_08)" Value="330187" />
+  <Preset Label="Agility Level 9 (si_CommunityBoard_HorseTraining_Agility_Lvl_09)" Value="330188" />
+  <Preset Label="Agility Level 10 (si_CommunityBoard_HorseTraining_Agility_Lvl_10)" Value="330189" />
+  <Preset Label="Endurance Level 2 (si_CommunityBoard_HorseTraining_Endurance_Lvl_02)" Value="330190" />
+  <Preset Label="Endurance Level 3 (si_CommunityBoard_HorseTraining_Endurance_Lvl_03)" Value="330191" />
+  <Preset Label="Endurance Level 4 (si_CommunityBoard_HorseTraining_Endurance_Lvl_04)" Value="330192" />
+  <Preset Label="Endurance Level 5 (si_CommunityBoard_HorseTraining_Endurance_Lvl_05)" Value="330193" />
+  <Preset Label="Endurance Level 6 (si_CommunityBoard_HorseTraining_Endurance_Lvl_06)" Value="330194" />
+  <Preset Label="Endurance Level 7 (si_CommunityBoard_HorseTraining_Endurance_Lvl_07)" Value="330195" />
+  <Preset Label="Endurance Level 8 (si_CommunityBoard_HorseTraining_Endurance_Lvl_08)" Value="330196" />
+  <Preset Label="Endurance Level 9 (si_CommunityBoard_HorseTraining_Endurance_Lvl_09)" Value="330197" />
+  <Preset Label="Endurance Level 10 (si_CommunityBoard_HorseTraining_Endurance_Lvl_10)" Value="330198" />
+  <Preset Label="Jumping Level 2 (si_CommunityBoard_HorseTraining_Jumping_Lvl_02)" Value="330199" />
+  <Preset Label="Jumping Level 3 (si_CommunityBoard_HorseTraining_Jumping_Lvl_03)" Value="330200" />
+  <Preset Label="Jumping Level 4 (si_CommunityBoard_HorseTraining_Jumping_Lvl_04)" Value="330201" />
+  <Preset Label="Jumping Level 5 (si_CommunityBoard_HorseTraining_Jumping_Lvl_05)" Value="330202" />
+  <Preset Label="Jumping Level 6 (si_CommunityBoard_HorseTraining_Jumping_Lvl_06)" Value="330203" />
+  <Preset Label="Jumping Level 7 (si_CommunityBoard_HorseTraining_Jumping_Lvl_07)" Value="330204" />
+  <Preset Label="Jumping Level 8 (si_CommunityBoard_HorseTraining_Jumping_Lvl_08)" Value="330205" />
+  <Preset Label="Jumping Level 9 (si_CommunityBoard_HorseTraining_Jumping_Lvl_09)" Value="330206" />
+  <Preset Label="Jumping Level 10 (si_CommunityBoard_HorseTraining_Jumping_Lvl_10)" Value="330207" />
+  <Preset Label="Be Sold (death_Horse_SellPicked_FromComputerPhone)" Value="330277" />
+  <Preset Label="Be Sold (death_Horse_SellPicked_FromHorse)" Value="330367" />
+  <Preset Label="Be Sold (death_Horse_SellPicked_FromShell)" Value="330368" />
+  <Preset Label="Sleep (aggregate_Horses_Sleep_SS3)" Value="330448" />
+  <Preset Label="Sleep (aggregate_Horses_Sleep_SS3_FreeSpirit)" Value="330449" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Sleep_Outdoors_SS3" Tags="TestUnsafe" Value="330451" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Sleep_Indoors_SS3" Tags="TestUnsafe" Value="330453" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Sleep_SS3" Tags="TestUnsafe" Value="330455" />
+  <Preset Label="autonomous_ObjectPicker_Horses_HorseBed_Sleep_AnyAvailable_SS3" Tags="TestUnsafe" Value="330457" />
+  <Preset Label="Sleep (horseInteractions_Sleep_Sleep_Outdoors_SS3)" Value="330459" />
+  <Preset Label="Sleep (horseInteractions_Sleep_Sleep_CurrentPosition_SS3)" Value="330461" />
+  <Preset Label="Sleep (horseInteractions_Sleep_HorseBed_Sleep_SS3)" Value="330466" />
+  <Preset Label="Sleep (horseInteractions_Sleep_HorseBed_Sleep_AnyAvailable_SS3)" Value="330467" />
+  <Preset Label="Sleep (horseInteractions_Sleep_HorseBed_Sleep_Indoors_SS3)" Value="330468" />
+  <Preset Label="Sleep (horseInteractions_Sleep_HorseBed_Sleep_Outdoors_SS3)" Value="330469" />
+  <Preset Label="Rescue Horse (adoptPickedHorse_Shell)" Value="330567" />
+  <Preset Label="Purchase Horse (buyPickedHorse_Shell)" Value="330568" />
+  <Preset Label="Enter Competition (si_EquestrianCenter_ViewCompetitions)" Value="330598" />
+  <Preset Label="Go to Rabbithole (Debug) (superInteraction_GoToRabbithole_Debug_Horse)" Value="330659" />
+  <Preset Label="Throw Tantrum (horseInteractions_Angry_Tantrum)" Value="330728" />
+  <Preset Label="Got Spooked (horseInteractions_Scared_Spooked)" Value="330735" />
+  <Preset Label="reaction_Mixers_Horse_Spooked_Scared" Value="330739" />
+  <Preset Label="reaction_Mixers_Horse_Spooked_Scared_RearUp" Value="330740" />
+  <Preset Label="reaction_Mixers_Horse_Tantrum_Uncomfortable_RearUp" Value="330745" />
+  <Preset Label="reaction_Mixers_Horse_Tantrum_Uncomfortable_Anxious" Value="330746" />
+  <Preset Label="Throw Tantrum (horseInteractions_Uncomfortable_Tantrum)" Value="330757" />
+  <Preset Label="Graze (sI_AnimalFeederInteractions_Horse_Graze)" Value="330777" />
+  <Preset Label="Guided Trail Ride (simPicker_CommunityBoard_TrailRide)" Tags="TestUnsafe" Value="330909" />
+  <Preset Label="Give Riding Lesson (simPicker_CommunityBoard_RidingLesson)" Tags="TestUnsafe" Value="330912" />
+  <Preset Label="Haul Neighbor's Cargo (simPicker_CommunityBoard_HaulCargo)" Tags="TestUnsafe" Value="330913" />
+  <Preset Label="Teach Barrel Racing (simPicker_CommunityBoard_TeachBarrelRacing)" Tags="TestUnsafe" Value="330914" />
+  <Preset Label="Teach Show Jumping (simPicker_CommunityBoard_TeachShowJumping)" Tags="TestUnsafe" Value="330915" />
+  <Preset Label="Teach Western Pleasure (simPicker_CommunityBoard_TeachWesternPleasure)" Tags="TestUnsafe" Value="330916" />
+  <Preset Label="Teach Endurance Racing (simPicker_CommunityBoard_TeachEnduranceRacing)" Tags="TestUnsafe" Value="330947" />
+  <Preset Label="Train Neighbor's Horse (si_CommunityBoard_RabbitHole_TrainNeighborsHorse)" Value="330950" />
+  <Preset Label="Purchase Horse (buy_Horse_Phone_HorseBed)" Tags="TestUnsafe" Value="331039" />
+  <Preset Label="Purchase Horse (buyPickedHorse_PhoneComputer_HorseBed)" Value="331040" />
+  <Preset Label="Rescue Horse (adopt_Horse_Phone_HorseBed)" Tags="TestUnsafe" Value="331042" />
+  <Preset Label="Rescue Horse (adoptPickedHorse_PhoneComputer_HorseBed)" Value="331043" />
+  <Preset Label="FIRE! (fire_Panic_Horse)" Value="331103" />
+  <Preset Label="Route to Safety (sim_Fire_RouteToSafety_Horse)" Value="331104" />
+  <Preset Label="Idle_Trait_Horse_Needy" Value="331187" />
+  <Preset Label="Teach to Canter (horseSocials_HorseToFoal_NonTouching_TeachToCanter)" Value="331381" />
+  <Preset Label="Canter Away (foalInteractions_HorseToFoal_CanterAway)" Value="331412" />
+  <Preset Label="Canter Towards (foalInteractions_FoalToHorse_CanterTowards)" Value="331413" />
+  <Preset Label="Nurse (horseSocials_FoalToHorse_Touching_Nurse)" Value="331461" />
+  <Preset Label="Community Jobs (interactionPickerSI_CommunityBoard_Jobs)" Tags="TestUnsafe" Value="331478" />
+  <Preset Label="Haul Neighbor's Cargo (si_CommunityBoard_RabbitHole_HaulCargo)" Value="331480" />
+  <Preset Label="(Debug) Be Friendly (sI_AnimalObjects_HorseToObject_HorseToGoatSheep_Friendly)" Value="331518" />
+  <Preset Label="(Debug) Be Mean (sI_AnimalObjects_HorseToObject_HorseToGoatSheep_Mean)" Value="331519" />
+  <Preset Label="(Debug) Be Curious (sI_AnimalObjects_HorseToObject_HorseToGoatSheep_Curious)" Value="331520" />
+  <Preset Label="Give Riding Lesson (si_CommunityBoard_RabbitHole_RidingLesson)" Value="331551" />
+  <Preset Label="Teach Barrel Racing (si_CommunityBoard_RabbitHole_TeachBarrelRacing)" Value="331552" />
+  <Preset Label="Teach Endurance Racing (si_CommunityBoard_RabbitHole_TeachEnduranceRacing)" Value="331553" />
+  <Preset Label="Teach Show Jumping (si_CommunityBoard_RabbitHole_TeachShowJumping)" Value="331554" />
+  <Preset Label="Teach Western Pleasure (si_CommunityBoard_RabbitHole_TeachWesternPleasure)" Value="331555" />
+  <Preset Label="Guided Trail Ride (si_CommunityBoard_RabbitHole_TrailRide)" Value="331556" />
+  <Preset Label="Practice Barrels (horseObstacles_Barrels_NoRider_Basic_Autonomous)" Value="331612" />
+  <Preset Label="Race Barrels (horseObstacles_Barrels_NoRider_Advanced_Autonomous)" Value="331613" />
+  <Preset Label="Intensely Train (horseObstacles_Barrels_Focus_Basic)" Value="331622" />
+  <Preset Label="Idle_Trait_Horse_ChampionHorse" Value="331654" />
+  <Preset Label="Stumble Around (waypoint_Horses_FoalInteractions_StumbleAround)" Value="331712" />
+  <Preset Label="Scamper Around (waypoint_Horses_FoalInteractions_ScamperAround)" Value="331713" />
+  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_HotTub)" Value="331825" />
+  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_HotTub_NotInHotTub)" Value="331826" />
+  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch)" Value="331827" />
+  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_Smart_Hub)" Value="331828" />
+  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_WaterScooter)" Value="331829" />
+  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_Bot)" Value="331830" />
+  <Preset Label="Listen to Ranch Music (stereo_earbuds_listen_Ranch)" Value="331831" />
+  <Preset Label="foalMixers_WhatsThat_Sniff" Value="331834" />
+  <Preset Label="foalMixers_WhatsThat_Dig" Value="331835" />
+  <Preset Label="foalMixers_WhatsThat_LookAt" Value="331836" />
+  <Preset Label="What's That? (foalInteractions_WhatsThat)" Value="331837" />
+  <Preset Label="Listen to Ranch Music (stereowall_listen_Ranch)" Value="331843" />
+  <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_Ranch)" Value="331846" />
+  <Preset Label="Put Down (putDown_CarriedSim_HorseRiding_BuckOff)" Value="332085" />
+  <Preset Label="(Debug) Always Buck Off (horses_DebugCheats_HorseRiding_BuckOff_Always)" Value="332125" />
+  <Preset Label="(Debug) Never Buck Off (horses_DebugCheats_HorseRiding_BuckOff_Never)" Value="332126" />
+  <Preset Label="(Debug) Clear Buck Off Settings (horses_DebugCheats_HorseRiding_BuckOff_Clear)" Value="332127" />
+  <Preset Label="Shear for Simoleons (sI_AnimalObjects_HarvestFrom_Sheep_Black)" Value="332217" />
+  <Preset Label="Shear for Simoleons (sI_AnimalObjects_HarvestFrom_Sheep_Colors)" Value="332218" />
+  <Preset Label="(Debug) Choose Curious/Friendly/Mean (horseInteractions_HorseToObject_HorseToGoatSheep_Chooser)" Value="332365" />
+  <Preset Label="Pour 2 Servings (multiServeConsumable_Drink_RanchNectar_2_Proxy)" Value="332595" />
+  <Preset Label="Ask about Getting a Horse (socialMixer_HorseTransaction_AskAboutHorses)" Tags="TestUnsafe" Value="332746" />
+  <Preset Label="goToSpecificLot_HorseTransaction_EquestrianCenter" Value="332754" />
+  <Preset Label="Ask about Equestrian Center (socialMixer_HorseTransaction_AskAboutEquestrianCenter)" Tags="TestUnsafe" Value="332786" />
+  <Preset Label="(Debug) Aggressive Thought Balloon (trait_Horse_Aggressive_AutonomousSocial_ThoughtBalloon)" Value="332816" />
+  <Preset Label="(Debug) Make Horse Fatigued (horseObstacles_Cheats_Fatigue)" Value="332835" />
+  <Preset Label="Practice Basic Jumps (horseObstacles_Jumping_WithRider_Transition_Basic)" Value="332855" />
+  <Preset Label="Brag about the Ranch (mixer_social_BragAboutRanching_Targeted_Friendly_AlwaysOn_STC)" Tags="TestUnsafe" Value="332895" />
+  <Preset Label="Pour a Serving (multiServeConsumable_Drink_RanchNectar_1_Proxy)" Value="332905" />
+  <Preset Label="Pour 3 Servings (multiServeConsumable_Drink_RanchNectar_3_Proxy)" Value="332907" />
+  <Preset Label="Pour 4 Servings (multiServeConsumable_Drink_RanchNectar_4_Proxy)" Value="332908" />
+  <Preset Label="Practice Advanced Jumps (horseObstacles_Jumping_WithRider_Transition_Advanced)" Value="333187" />
+  <Preset Label="Intensely Train (horseObstacles_Jumping_WithRider_Transition_Focus)" Value="333188" />
+  <Preset Label="Appreciate Trash Nectar Odor (mixer_social_HeartfeltCompliment_targeted_friendly_RanchNectar_werewolfTrash)" Tags="TestUnsafe" Value="333226" />
+  <Preset Label="Talk About Champion Horse (socialMixerInteraction_EquestrianCenter_TalkAboutChampionHorse)" Tags="TestUnsafe" Value="333400" />
+  <Preset Label="(Debug) Give Nectar Bottles (debug_RanchNectar_GiveBottles)" Value="333425" />
+  <Preset Label="socialSI_HorseCompetition_CheerAt_ChampionHorse" Value="333539" />
+  <Preset Label="horseObstacles_Jumping_NoRider_Transition_Advanced" Value="333547" />
+  <Preset Label="horseObstacles_Jumping_NoRider_Transition_Basic" Value="333548" />
+  <Preset Label="Intensely Train (horseObstacles_Jumping_Focus_Advanced)" Value="333647" />
+  <Preset Label="Intensely Train (horseObstacles_Jumping_WithRider_Transition_Focus_Advanced)" Value="333648" />
+  <Preset Label="Call Over (immediate_RelPanel_CallOver_AnimalObjects_GoatSheep)" Value="333736" />
+  <Preset Label="Horse Competition (VirtualRabbitHole_GoToRabbithole_EquestrianCenter_Human)" Value="333861" />
+  <Preset Label="Hand Feed (horseSocials_SimToHorse_Touching_PetCare_HandFeed_RanchHand)" Value="334208" />
+  <Preset Label="situation_RanchHand_Horse_HandFeed_Start" Value="334229" />
+  <Preset Label="horseObstacles_Jumping_NoRider_Basic_Autonomous" Value="334231" />
+  <Preset Label="horseObstacles_Jumping_NoRider_Advanced_Autonomous" Value="334234" />
+  <Preset Label="Horse Competition (VirtualRabbitHole_GoToRabbithole_EquestrianCenter_Horse)" Value="334279" />
+  <Preset Label="Go Here (si_moveAwayCircle_EquestrianCenter_Exit)" Value="334280" />
+  <Preset Label="Give Riding Lesson (simPickerInteraction_CommunityBoard_RidingLesson)" Tags="TestUnsafe" Value="334612" />
+  <Preset Label="Community Job (rabbitHole_CommunityBoard_Job_Horse)" Value="334613" />
+  <Preset Label="Route to Safety (sim_Fire_RouteToSafety_Trait_Horse_Brave)" Value="334711" />
+  <Preset Label="Community Job (rabbitHole_CommunityBoard_Job_Human)" Value="334790" />
+  <Preset Label="emotion_Idle_Horse" Value="334811" />
+  <Preset Label="emotion_Idle_HorseRiding" Value="334812" />
+  <Preset Label="Feed Age-Up Treat (horseSocials_SimToHorse_Touching_PetCare_HandFeed_AgeUp)" Value="334872" />
+  <Preset Label="Feed Horsebrosia Treat (horseSocials_SimToHorse_Touching_PetCare_HandFeed_Resurrect)" Value="334876" />
+  <Preset Label="(Debug) Give Horse Items (horses_DebugCheats_GiveItems)" Value="334890" />
+  <Preset Label="Feed Age-Up Treat (objectInInventory_HorseTreat_AgeUp)" Tags="TestUnsafe" Value="334904" />
+  <Preset Label="Feed Horsebrosia Treat (objectInInventory_HorseTreat_Resurrect)" Tags="TestUnsafe" Value="334905" />
+  <Preset Label="Sell Horse (superInteraction_HorseTransaction_SellHorse_Wave)" Value="335294" />
+  <Preset Label="Explore (EP14World_Rabbitholes_EquestrianCenterWalkby)" Value="335559" />
+  <Preset Label="Horse Competition (virtualRabbitHoleInteractions_EquestrianCenter_Human_BarrelRacing)" Value="335580" />
+  <Preset Label="Horse Competition (virtualRabbitHoleInteractions_EquestrianCenter_Human_EnduranceRacing)" Value="335668" />
+  <Preset Label="Horse Competition (virtualRabbitHoleInteractions_EquestrianCenter_Human_ShowJumping)" Value="335669" />
+  <Preset Label="Horse Competition (virtualRabbitHoleInteractions_EquestrianCenter_Human_WesternPleasure)" Value="335670" />
+  <Preset Label="Horse Competition (virtualRabbitHoleInteractions_EquestrianCenter_Human_UltimateCompetition)" Value="335671" />
+  <Preset Label="Place in World (si_SwipeAddToWorld_AnimalObjects_GoatSheep)" Value="335890" />
+  <Preset Label="Make into Horsebrosia Treat (si_SwipeToSimInventory_Ambrosia_toHorseTreat_Resurrect)" Value="335963" />
+  <Preset Label="Buy Mini Goats &amp; Mini Sheep (EP14World_Rabbithole_GroceryStore_Purchase_GoatSheep)" Value="336293" />
+  <Preset Label="Clean {1.ObjectName} (sI_AnimalObjects_Clean_Sheep_All)" Value="336604" />
+  <Preset Label="Idle_FreeSprit_Horse_LockInsideSad" Value="336624" />
+  <Preset Label="Call Over Goats &amp; Sheep (filteredObjectPicker_AnimalObject_GoatSheep_CallOver_All)" Tags="TestUnsafe" Value="336753" />
+  <Preset Label="Call Over Goats &amp; Sheep (sI_AnimalObject_Interactions_GoatSheep_CallOver_All)" Value="336755" />
+  <Preset Label="Buy Mini Goats &amp; Mini Sheep (computer_AnimalObject_GoatSheep_Purchase)" Value="336763" />
+  <Preset Label="Collect Goats &amp; Sheep (filteredObjectPicker_AnimalObject_GoatSheep_Collect)" Tags="TestUnsafe" Value="336877" />
+  <Preset Label="Collect Goats &amp; Sheep (sI_AnimalObject_Interactions_GoatSheep_Collect)" Value="336878" />
+  <Preset Label="Refill Feeder with Prairie Grass (sI_AnimalFeederInteractions_RefillFeed_WildGrass)" Value="337283" />
+  <Preset Label="Store All Nectar Bottles (ranchNectarRack_Storage_Init_StoreAll)" Value="337550" />
+  <Preset Label="Clean {1.ObjectName} (sI_AnimalObjects_Clean_Goat_All)" Value="337565" />
+  <Preset Label="Clean All Dirty Mini Sheep (sI_AnimalObjects_Clean_Sheep_All_Start)" Value="337566" />
+  <Preset Label="Clean All Dirty Mini Goats (sI_AnimalObjects_Clean_Goat_All_Start)" Value="337567" />
+  <Preset Label="Listen To (horseInteractions_HorseToObject_Stereo_ListenToMusic)" Value="337573" />
+  <Preset Label="Store All Non-Finely Aged Nectar Bottles (ranchNectarRack_Storage_Init_StoreAllNotAged)" Value="337584" />
+  <Preset Label="Collect All Nectar Bottles (ranchNectarRack_Storage_Init_GrabAll)" Value="337585" />
+  <Preset Label="Grab a Nectar Bottle (picker_RanchNectarRack_Bottle_Grab)" Tags="TestUnsafe" Value="337594" />
+  <Preset Label="Grab a Nectar Bottle (ranchNectarRack_Storage_Cont_Grab)" Value="337595" />
+  <Preset Label="Collect All Finely Aged Nectar Bottles (ranchNectarRack_Storage_Init_GrabAllAged)" Value="337597" />
+  <Preset Label="Grab a Nectar Bottle (ranchNectarRack_Storage_Init_Grab)" Value="337601" />
+  <Preset Label="Put Away in Fridge (Put_Away_RanchNectarBottle)" Value="337626" />
+  <Preset Label="Call Over {1.ObjectName} (sI_AnimalObjects_CallOver_Goat_Autonomous)" Value="337826" />
+  <Preset Label="Purchase Horse and Assign to Bed... (immediate_HorseTransaction_Phone_BuyHorse_HorseBed)" Value="337879" />
+  <Preset Label="(Debug) Sniff (sI_AnimalObjects_SimAnimals_Horse_Investigate)" Value="337999" />
+  <Preset Label="Talk To (sI_AnimalObjects_SimAnimals_Horse_NeighAt)" Value="338001" />
+  <Preset Label="Explore (EP14World_Rabbitholes_EquestrianCenterWalkby_Horse)" Value="338004" />
+  <Preset Label="Rescue Horse and Assign to Bed... (immediate_HorseTransaction_Phone_AdoptHorse_HorseBed)" Value="338019" />
+  <Preset Label="Ask to Cowpoke Dance (mixer_Social_CountryDancing_AskToDance)" Tags="TestUnsafe" Value="338069" />
+  <Preset Label="Cowpoke Dance (CountryDancing_NoConstraints)" Value="338070" />
+  <Preset Label="Call Ranch Animal Exchange (phone_PickServices_Start_Adopt_Horse_GoatSheep)" Value="338355" />
+  <Preset Label="Getting Out of Freezing Water (super_Ponds_ExitPond_FrozenWater_Horse)" Value="338388" />
+  <Preset Label="Energy Failure (super_Ponds_ExitPond_Energy_Horse)" Value="338390" />
+  <Preset Label="Simoleons (sI_AnimalObjects_Generic_SellSimoleons_GoatSheep_FromPicker)" Value="338396" />
+  <Preset Label="Watch Wild West Channel (tv_WatchSilentWestern)" Value="338469" />
+  <Preset Label="Watch Pony Up Kids Channel (tv_WatchTeenEquestrians)" Value="338470" />
+  <Preset Label="autonomousSimPickerSuperInteraction_AddSentiment_WitnessFoalBirth" Tags="TestUnsafe" Value="338492" />
+  <Preset Label="immediate_horseBreeding_sentimentTrigger_to_SpecialMoment_Groom" Value="338635" />
+  <Preset Label="immediate_AddSentiment_WitnessFoalBirth" Value="338636" />
+  <Preset Label="Ask to Stop Training (horseObstacles_AskToStop)" Value="338878" />
+  <Preset Label="Guide Horse to Graze (sI_AnimalFeederInteractions_SimOnHorseback_Horse_Graze)" Value="338887" />
+  <Preset Label="(Debug) Set Aged State (statePickerSuperInteraction_RanchNectar_SetAged)" Tags="TestUnsafe" Value="339085" />
+  <Preset Label="Guide Horse to Search Prairie Grass (sI_WildGrass_SimOnHorseback_Horse_Search)" Value="339112" />
+  <Preset Label="Go for a Ride (horseRiding_GoForRide_Chooser)" Value="339266" />
+  <Preset Label="Fear of Horses (reactions_Generic_Fear_FromHorses)" Value="339282" />
+  <Preset Label="art_View_EP14World_CommunityBoard" Value="339334" />
+  <Preset Label="(Debug) Be Friendly (horseSocials_HorseToPet_Friendly)" Value="339458" />
+  <Preset Label="(Debug) Be Mean (horseSocials_HorseToPet_Mean)" Value="339459" />
+  <Preset Label="(Debug) Be Curious (horseSocials_HorseToPet_Curious)" Value="339460" />
+  <Preset Label="(Debug) Friendly Social Thought Balloon (trait_Horse_Curious_AutonomousSocial_ThoughtBalloon)" Value="339483" />
+  <Preset Label="Mini Goat-for-Hire Job (si_CommunityBoard_RabbitHole_GoatJob)" Value="339669" />
+  <Preset Label="Mini Sheep-for-Hire Job (si_CommunityBoard_RabbitHole_SheepJob)" Value="339670" />
+  <Preset Label="autonomousPicker_SimToFoal_Touching_WeanToHay" Tags="TestUnsafe" Value="339949" />
+  <Preset Label="Search Prairie Grass (sI_WildGrass_Horse_Search)" Value="339989" />
+  <Preset Label="nonTouching_Unpaired_Greetings_Howdy" Value="340010" />
+  <Preset Label="Howdy Introduction (mixer_social_HowdyIntroduction_greetings)" Tags="TestUnsafe" Value="340012" />
+  <Preset Label="socialMixer_Greetings_Howdy" Tags="TestUnsafe" Value="340013" />
+  <Preset Label="Grab a Finely Aged Nectar Bottle (picker_RanchNectarRack_Bottle_GrabAged)" Tags="TestUnsafe" Value="340211" />
+  <Preset Label="Grab a Finely Aged Nectar Bottle (ranchNectarRack_Storage_Cont_GrabAged)" Value="340212" />
+  <Preset Label="Grab a Finely Aged Nectar Bottle (ranchNectarRack_Storage_Init_GrabAged)" Value="340213" />
+  <Preset Label="super_HorseToObject_FoalToGoatSheep_Chooser" Value="340293" />
+  <Preset Label="immediate_simPreference_equestrianSkill_trigger_onSim" Value="340333" />
+  <Preset Label="Purchase Basic Ingredients (purchase_RanchNectarMaker_Ingredients)" Tags="TestUnsafe" Value="340351" />
+  <Preset Label="superInteraction_HorseTransaction_NewHorse" Value="340605" />
+  <Preset Label="Ride Here (si_SatisfyConstraint_Horse)" Value="340614" />
+  <Preset Label="immediate_sentiment_Bitter_addBit_BitAtByHorse" Value="340752" />
+  <Preset Label="Share Stable Gossip (mixer_social_ShareStableGossip)" Tags="TestUnsafe" Value="340807" />
+  <Preset Label="Mellow Out (horseSocials_SimToHorse_Touching_Friendly_MellowOut)" Value="340911" />
+  <Preset Label="Ask for Cooperation during Mounting (HorseSocialMixers_SimToHorse_Friendly_AskForCooperation)" Tags="TestUnsafe" Value="340913" />
+  <Preset Label="reactions_sentiment_flirty_spouseCollectedManure" Value="340934" />
+  <Preset Label="Call Horse to Drink (horsePickerInteraction_WaterTrough_CallToDrink)" Tags="TestUnsafe" Value="340958" />
+  <Preset Label="Call Horse to Drink (sI_WaterTrough_Sim_To_Horse_AskToDrink)" Value="340960" />
+  <Preset Label="{0.SimFirstName} Drinks Water (sI_WaterTrough_Horse_Drink)" Value="340961" />
+  <Preset Label="Direct Horse to Drink (sI_WaterTrough_Horse_Drink_SimOnHorseback)" Value="340966" />
+  <Preset Label="Chat With (horseSocialMixers_HorseToHorse_Brave_ComfortSpookedHorse)" Tags="TestUnsafe" Value="340982" />
+  <Preset Label="autonomousSimPickerSuperInteraction_Brave_ComfortSpookedHorse" Tags="TestUnsafe" Value="340983" />
+  <Preset Label="Get Stable Gossip (horseSocials_SimToHorse_Touching_Friendly_GetStableGossip_Horse)" Value="340997" />
+  <Preset Label="Bask in Horse Bravery (horseSocials_SimToHorse_Touching_Friendly_BaskInHorseBravery)" Value="341053" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_02_Endurance)" Value="341298" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_03_Endurance)" Value="341309" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_04_Endurance)" Value="341310" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_05_Endurance)" Value="341311" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_06_Endurance)" Value="341312" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_07_Endurance)" Value="341313" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_08_Endurance)" Value="341314" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_09_Endurance)" Value="341315" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_10_Endurance)" Value="341316" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_02_Jumping)" Value="341317" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_03_Jumping)" Value="341318" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_04_Jumping)" Value="341319" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_05_Jumping)" Value="341320" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_06_Jumping)" Value="341321" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_07_Jumping)" Value="341322" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_08_Jumping)" Value="341323" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_09_Jumping)" Value="341324" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_10_Jumping)" Value="341325" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_02_Temperament)" Value="341326" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_03_Temperament)" Value="341327" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_04_Temperament)" Value="341328" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_05_Temperament)" Value="341329" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_06_Temperament)" Value="341330" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_07_Temperament)" Value="341331" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_08_Temperament)" Value="341332" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_09_Temperament)" Value="341333" />
+  <Preset Label="Horse Training (rabbitHole_CommunityBoard_HorseTraining_Lvl_10_Temperament)" Value="341334" />
+  <Preset Label="Sell Horse (superInteraction_HorseTransaction_SellHorse_Ponder)" Value="341546" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_HorseToSim_Target_Listen)" Value="341849" />
+  <Preset Label="Call Horse to Drink (sI_WaterTrough_Sim_To_Horse_AskToDrink_TargetSim)" Value="341922" />
+  <Preset Label="autonomous_ObjectPicker_Horses_WaterTrough" Tags="TestUnsafe" Value="341923" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_SimToHorse_Target_Listen)" Value="342017" />
+  <Preset Label="socialMixerInteraction_Carry_HorseRiding_Idle_Reins_Down" Value="342309" />
+  <Preset Label="Harvest Prairie Grass (harvest_WildGrass_Autonomous)" Value="342898" />
+  <Preset Label="Purchase Horse (buyPickedHorse_PhoneComputer_Apartment)" Value="343183" />
+  <Preset Label="Have Intellectual Chat (horseSocialMixers_HorseToSim_Friendly_IntellectualChat)" Tags="TestUnsafe" Value="343286" />
+  <Preset Label="Route to Safety (fire_Panic_Horse_Brave)" Value="343502" />
+  <Preset Label="Rescue Horse (adoptPickedHorse_PhoneComputer_Apartment)" Value="343669" />
+  <Preset Label="Rescue Horse (adoptPickedHorse_PhoneComputer_HorseBed_Apartment)" Value="343671" />
+  <Preset Label="Purchase Horse (buyPickedHorse_PhoneComputer_HorseBed_Apartment)" Value="343673" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_HorseToSim_Target_Listen_StandOnly)" Value="344280" />
+  <Preset Label="sI_Horse_Trait_Curious_AboutTrashCans_Foal" Value="344567" />
+  <Preset Label="Babble (mixer_Social_Toddler_BabbleToHorse)" Tags="TestUnsafe" Value="345035" />
+  <Preset Label="Go Here (si_moveAwayCircle_EquestrianCenter_Exit_NewHorse)" Value="345233" />
+  <Preset Label="Rub Neck (horseSocialCarryMixers_SimToRiddenHorse_Friendly_RubNeck)" Value="345427" />
+  <Preset Label="Mellow Out (horseSocialCarryMixers_SimToRiddenHorse_Friendly_MellowOut)" Value="345636" />
+  <Preset Label="autonomous_ObjectPicker_Horses_Foal_WhatsThat" Tags="TestUnsafe" Value="346047" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_HorseToHorse_Touching_Listen_Groom)" Value="346140" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_HorseToHorse_Touching_Listen_Nuzzle)" Value="346141" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_HorseToHorse_Touching_Listen_Sniff)" Value="346142" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_HorseToHorse_Touching_Listen_NonTouching)" Value="346143" />
+  <Preset Label="Canter Here (immediateSuperInteraction-HorseRiding_CanterHere_Sim)" Value="346153" />
+  <Preset Label="Trot Here (immediateSuperInteraction-HorseRiding_TrotHere_Sim)" Value="346154" />
+  <Preset Label="Walk Here (immediateSuperInteraction-HorseRiding_RideHere_Sim)" Value="346155" />
+  <Preset Label="Cheer (reaction_Horse_Sad_Shooed_Away)" Value="346189" />
+  <Preset Label="Name (rename_Object_RanchNectarBottle)" Value="346296" />
+  <Preset Label="Call Over {1.ObjectName} (sI_AnimalObjects_CallOver_Goat_Sleep)" Value="346487" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_SimToHorse_Touching_Listen_Hug)" Value="346713" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_SimToHorse_Touching_Listen_RubNeck)" Value="346714" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_SimToHorse_Touching_Listen_WhisperTo)" Value="346715" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_SimToHorse_Touching_Listen_CheerUp)" Value="346716" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_SimToHorse_Touching_Listen_HandFeed)" Value="346717" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_SimToHorse_Touching_Listen_ScratchNeck)" Value="346718" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_SimToHorse_Touching_Listen_BrushCoat)" Value="346719" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_SimToHorse_Touching_Listen_CleanHooves)" Value="346720" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_SimToHorse_Touching_Listen_BottleFeed)" Value="346721" />
+  <Preset Label="Mount (sI_HorseRiding_MountHorse_Prepare_Child)" Value="346755" />
+  <Preset Label="ranchNectarMaker_BottleNectarVisual" Value="346871" />
+  <Preset Label="Drink (generic_consume_drink_bar_RanchNectar)" Value="347128" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Sheep_Outcome_Success_TYAE_MoodImprovement_Sad)" Value="347233" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Sheep_Outcome_Success_TYAE_MoodImprovement_Scared)" Value="347234" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Goat_Outcome_Success_TYAE_MoodImprovement_Angry)" Value="347235" />
+  <Preset Label="Hug {1.ObjectName} (sI_AnimalObjects_Hug_Goat_Outcome_Success_TYAE_MoodImprovement_Tense)" Value="347236" />
+  <Preset Label="Watch Nectar Crafting (ranchNectarMaker_Watch)" Value="347398" />
+  <Preset Label="reaction_Horse_DeathAggregate" Value="347408" />
+  <Preset Label="Witness Death (super_Horse_DeathReact_HasMountedSim)" Value="347409" />
+  <Preset Label="Witness Death (reactions_Death_Horse)" Value="347410" />
+  <Preset Label="immediate_Horse_DeathReact_AcquireRider" Value="347411" />
+  <Preset Label="horseRiding_SI_AutonomousChat_WithRiddenHorse" Value="347558" />
+  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_SkatingRink)" Value="347974" />
+  <Preset Label="autonomous_ObjectPicker_Horses_PlayWithBall" Tags="TestUnsafe" Value="348117" />
+  <Preset Label="Sim_Horse_FatigueDistress" Value="348527" />
+  <Preset Label="Ask About Family Nectar Recipe (social_MysteriousRancher_AskAboutFamilyNectarRecipe)" Value="348547" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_HorseToHorse_Touching_Listen_Nurse)" Value="348676" />
+  <Preset Label="{0.SimFirstName} eats at Feeder (autonomous_ObjectPicker_AnimalFeeder_HorseEat)" Tags="TestUnsafe" Value="348696" />
+  <Preset Label="Go Here (si_moveAwayCircle_EquestrianCenter_Exit_FromSpectate)" Value="348890" />
+  <Preset Label="Dismount (horseRiding_Rider_AutoSolveMotives_Start_Bladder)" Value="349009" />
+  <Preset Label="Dismount (horseRiding_Rider_AutoSolveMotives_Dismount_and_PushInteraction_Bladder)" Value="349010" />
+  <Preset Label="Dismount (horseRiding_Rider_AutoSolveMotives_Start_Hunger)" Value="349021" />
+  <Preset Label="Dismount (horseRiding_Rider_AutoSolveMotives_Start_Hygiene)" Value="349022" />
+  <Preset Label="Dismount (horseRiding_Rider_AutoSolveMotives_Start_Energy)" Value="349023" />
+  <Preset Label="Dismount (horseRiding_Rider_AutoSolveMotives_Dismount_and_PushInteraction_Energy)" Value="349024" />
+  <Preset Label="Dismount (horseRiding_Rider_AutoSolveMotives_Dismount_and_PushInteraction_Hunger)" Value="349025" />
+  <Preset Label="Dismount (horseRiding_Rider_AutoSolveMotives_Dismount_and_PushInteraction_Hygiene)" Value="349026" />
+  <Preset Label="Dismount (horseRiding_Rider_AutoSolveMotives_Start_Water_PlantSim)" Value="349027" />
+  <Preset Label="Dismount (horseRiding_Rider_AutoSolveMotives_Dismount_and_PushInteraction_Water_PlantSim)" Value="349028" />
+  <Preset Label="(Debug) Groom (mixer_Push_HorseToHorse_Touching_Groom)" Value="349114" />
+  <Preset Label="(Debug) Sniff (mixer_Push_HorseToHorse_Touching_Sniff)" Value="349115" />
+  <Preset Label="(Debug) Nuzzle (mixer_Push_HorseToHorse_Touching_Nuzzle)" Value="349116" />
+  <Preset Label="Chat (Super_Push_HorseToHorse_Touching)" Value="349117" />
+  <Preset Label="Share Desire for Independence (horseSocials_SimToHorse_Touching_Friendly_ShareDesireForIndependence)" Value="349169" />
+  <Preset Label="Put Down (put_down_anywhere_while_standing_RanchNectar)" Value="349210" />
+  <Preset Label="immediate_Horse_ThoughtBalloon_RidingIrritation" Value="349341" />
+  <Preset Label="immediate_Horse_ThoughtBalloon_FeelingRiderStress" Value="349342" />
+  <Preset Label="(Debug) Prance (horseSocialMixers_HorseToHorse_Prance)" Tags="TestUnsafe" Value="349392" />
+  <Preset Label="Chat With (horseSocialMixers_HorseToSim_Neigh_Needy)" Tags="TestUnsafe" Value="349628" />
+  <Preset Label="autonomousSimPicker_Trait_Horse_SeekingSim_NeedyNeighAtSim" Tags="TestUnsafe" Value="349637" />
+  <Preset Label="Graze (sI_WildGrass_Foal_Graze)" Value="349718" />
+  <Preset Label="Got Spooked (horseInteractions_Scared_Spooked_RearUp)" Value="349994" />
+  <Preset Label="superInteraction_Horse_Brave_SearchSpookedHorse" Value="350164" />
+  <Preset Label="reaction_Mixers_Horse_Spooked_RearUp_OneShot" Value="350437" />
+  <Preset Label="reaction_Mixers_Horse_Spooked_Scared_Looping" Value="350547" />
+  <Preset Label="horseInteractions_HorseToSelf_MoveAround" Value="351371" />
+  <Preset Label="si_moveaway_straightline_horse" Value="351410" />
+</PresetGroup>

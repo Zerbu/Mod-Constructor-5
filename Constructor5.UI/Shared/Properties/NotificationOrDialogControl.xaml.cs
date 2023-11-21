@@ -28,5 +28,38 @@ namespace Constructor5.UI.Shared
             get => (NotificationOrDialog)GetValue(NotificationOrDialogProperty);
             set => SetValue(NotificationOrDialogProperty, value);
         }
+
+        private void PresetDiscoverTraitButton_Click(object sender, RoutedEventArgs e)
+        {
+            NotificationOrDialog.Title.CustomText = "0x205AAE38 <<< New Personality Trait";
+            NotificationOrDialog.HasLeftIcon = true;
+            NotificationOrDialog.YesNoLeftIconText.CustomText = "NAME OF TRAIT BEING DISCOVERED";
+            NotificationOrDialog.HasMiddleIcon = false;
+            NotificationOrDialog.HasRightIcon = false;
+            NotificationOrDialog.RequireSelfDiscovery = true;
+
+            HasLeftIconCheckBox.IsChecked = true;
+            HasMiddleIconCheckBox.IsChecked = true;
+            HasRightIconCheckBox.IsChecked = true;
+            RequireSelfDiscoveryCheckBox.IsChecked = true;
+        }
+
+        private void PresetDiscoverTraitSwapButton_Click(object sender, RoutedEventArgs e)
+        {
+            NotificationOrDialog.Title.CustomText = "0x205AAE38 <<< New Personality Trait";
+            NotificationOrDialog.HasLeftIcon = true;
+            NotificationOrDialog.YesNoLeftIconText.CustomText = "NAME OF TRAIT BEING DISCOVERED";
+            NotificationOrDialog.HasMiddleIcon = true;
+            NotificationOrDialog.YesNoMiddleIcon.Text = "2f7d0004:00000000:944aa44ac60e672c <<< Swap Icon";
+            NotificationOrDialog.YesNoMiddleIconText.CustomText = "";
+            NotificationOrDialog.HasRightIcon = true;
+            NotificationOrDialog.YesNoRightIconText.CustomText = "NAME OF TRAIT BEING REPLACED";
+            NotificationOrDialog.RequireSelfDiscovery = true;
+
+            HasLeftIconCheckBox.IsChecked = true;
+            HasMiddleIconCheckBox.IsChecked = true;
+            HasRightIconCheckBox.IsChecked = true;
+            RequireSelfDiscoveryCheckBox.IsChecked = true;
+        }
     }
 }

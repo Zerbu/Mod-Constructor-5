@@ -7,7 +7,10 @@ using Constructor5.Elements.Milestones;
 using Constructor5.Elements.SituationGoals;
 using Constructor5.Elements.SituationGoals.Components;
 using Constructor5.Elements.SituationGoals.Templates;
+using Constructor5.Elements.TestConditions;
+using Constructor5.TestConditionTypes;
 using Constructor5.TestConditionTypes.Statistics;
+using System;
 
 namespace Constructor5.MultiMilestones
 {
@@ -24,6 +27,12 @@ namespace Constructor5.MultiMilestones
         public int LevelMax { get; set; } = 10;
         public Reference Skill { get; set; } = new Reference();
         public STBLString SkillName { get; set; } = new STBLString();
+
+        public STBLString NameLocked { get; set; } = new STBLString();
+        public STBLString NameLockedMin { get; set; } = new STBLString();
+        public STBLString NameLockedMax { get; set; } = new STBLString();
+        public ReferenceList PreferredTraits { get; set; } = new ReferenceList();
+        public ReferenceList BlacklistedTraits { get; set; } = new ReferenceList();
 
         void IExportableElement.OnExport()
         {
@@ -66,8 +75,54 @@ namespace Constructor5.MultiMilestones
                 statCondition.Statistic = Skill;
                 statCondition.Threshold = new Threshold(i, ThresholdComparison.GREATER_OR_EQUAL);
 
+                var milestoneInfo = milestone.GetComponent<MilestoneInfo>();
+                milestoneInfo.AllowInfant = false;
+                milestoneInfo.IsRepeatable = false;
+                milestoneInfo.AllowToddler = false;
+                milestoneInfo.PlaySoundEffect = false;
+
+                TuneDisplayWhenNotUnlocked(milestone, i);
+
                 Exporter.Current.AddContextSpecificElement(milestone);
             }
+        }
+
+        private void TuneDisplayWhenNotUnlocked(Milestone milestone, int level)
+        {
+            var component = milestone.GetComponent<MilestoneDisplayWhenNotUnlocked>();
+            component.DisplayWhenNotUnlocked = true;
+            component.NameWhenNotUnlocked = NameLocked;
+            component.DescriptionsWhenNotUnlocked = new STBLString() { CustomText = "{0.SimFirstName} is ready to work on a skill." };
+
+            var traitItem = new TestConditionListItem();
+
+            var traitCondition = new TraitCondition();
+            traitItem.Condition = traitCondition;
+
+            foreach(var whitelist in PreferredTraits.Items)
+            {
+                traitCondition.Whitelist.Items.Add(whitelist);
+            }
+            foreach (var blacklist in BlacklistedTraits.Items)
+            {
+                traitCondition.Blacklist.Items.Add(blacklist);
+            }
+
+            component.Conditions.Add(traitItem);
+
+            var statItem = new TestConditionListItem();
+
+            var statCondition = new StatisticCondition
+            {
+                Statistic = Skill,
+                Threshold = new Threshold(level-1, level == 2 ? ThresholdComparison.LESS_OR_EQUAL : ThresholdComparison.EQUAL)
+            };
+            statItem.Condition = statCondition;
+
+            component.Conditions.Add(statItem);
+
+            // preferred traits
+            // blacklisted traits
         }
     }
 }

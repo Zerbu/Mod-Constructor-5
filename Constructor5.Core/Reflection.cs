@@ -108,6 +108,7 @@ namespace Constructor5.Core
                 Assembly.Load("Constructor5.SituationGoalTemplates"),
                 Assembly.Load("Constructor5.BasicExtraTypes"),
                 Assembly.Load("Constructor5.ZoneDirectorTemplates"),
+                Assembly.Load("Constructor5.DramaNodeTemplates"),
             };
 
             if (System.ComponentModel.LicenseManager.UsageMode == System.ComponentModel.LicenseUsageMode.Designtime)

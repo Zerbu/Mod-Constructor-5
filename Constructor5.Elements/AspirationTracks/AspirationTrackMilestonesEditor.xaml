@@ -1,23 +1,25 @@
-<UserControl x:Class="Constructor5.Elements.AspirationTracks.AspirationTrackMilestonesEditor"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Constructor5.Elements.AspirationTracks"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
-             d:DesignHeight="450"
-             d:DesignWidth="800"
-             mc:Ignorable="d">
+<UserControl
+    x:Class="Constructor5.Elements.AspirationTracks.AspirationTrackMilestonesEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.AspirationTracks"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
     <ScrollViewer>
         <StackPanel Margin="{StaticResource Constructor.BigPaddingMinusTop}">
             <c:TextBlock Margin="{StaticResource Constructor.BigPaddingBottomOnly}" Text="AspirationMilestonesNotice" />
-            <c:ReferenceListControl CreateElementFunction="ReferenceListControl_CreateElementFunction"
-                                         EditorCategory="Default"
-                                         ElementReferenceList="{Binding Milestones}"
-                                         ElementTypeName="Milestones"
-                                         Limit="4"
-                                         ShowBrowseButton="False"
-                                         ShowCreateButton="True" />
+            <c:ReferenceListControl
+                CreateElementFunction="ReferenceListControl_CreateElementFunction"
+                EditorCategory="Default"
+                ElementReferenceList="{Binding Milestones}"
+                ElementTypeName="Milestones"
+                Limit="4"
+                ShowBrowseButton="False"
+                ShowCreateButton="True" />
         </StackPanel>
     </ScrollViewer>
 </UserControl>

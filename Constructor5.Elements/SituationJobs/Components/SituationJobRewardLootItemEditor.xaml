@@ -14,8 +14,9 @@
         <c:CheckBox Content="RunWhenSituationEndsAtSilver" IsChecked="{Binding RunOnSilver}" />
         <c:CheckBox Content="RunWhenSituationEndsAtBronze" IsChecked="{Binding RunOnBronze}" />
         <c:CheckBox Content="RunWhenSituationEndsWithNoMedal" IsChecked="{Binding RunOnNoMedal}" />
-        <!--<c:Field Label="SituationJob" LabelWidth="100">
+        <c:Field Label="TargetSimJob" LabelWidth="150">
             <c:ReferenceControl ElementTypeName="SituationJob" Reference="{Binding TargetSimJob}" />
-        </c:Field> not currently implemented-->
+        </c:Field>
+        <c:CheckBox Content="SituationJobLootTargetRandom" IsChecked="{Binding TargetRandom}" />
     </StackPanel>
 </UserControl>

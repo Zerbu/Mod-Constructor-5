@@ -34,6 +34,7 @@
                         EditorCategory="Default"
                         ElementReferenceList="{Binding Objectives}"
                         ElementTypeName="Objective"
+                        Limit="4"
                         ShowCreateButton="True" />
                 </c:SpacedStack>
             </c:TabItem>

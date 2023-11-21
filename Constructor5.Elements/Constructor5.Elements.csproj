@@ -315,6 +315,25 @@
     <Compile Include="CASPreferenceCategories\CASPreferenceCategoryEditor.xaml.cs">
       <DependentUpon>CASPreferenceCategoryEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CivicPolicies\CivicPolicy.cs" />
+    <Compile Include="CivicPolicies\CivicPolicyAutoReplacements.cs" />
+    <Compile Include="CivicPolicies\CivicPolicyComponent.cs" />
+    <Compile Include="CivicPolicies\CivicPolicyEditor.xaml.cs">
+      <DependentUpon>CivicPolicyEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CivicPolicies\CivicPolicyExportContext.cs" />
+    <Compile Include="CivicPolicies\CivicPolicyInfo.cs" />
+    <Compile Include="CivicPolicies\CivicPolicyInfoEditor.xaml.cs">
+      <DependentUpon>CivicPolicyInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CivicPolicies\CivicPolicyInstancedEffect.cs" />
+    <Compile Include="CivicPolicies\CivicPolicyInstancedEffectEditor.xaml.cs">
+      <DependentUpon>CivicPolicyInstancedEffectEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CivicPolicies\CivicPolicyResidentEffect.cs" />
+    <Compile Include="CivicPolicies\CivicPolicyResidentEffectEditor.xaml.cs">
+      <DependentUpon>CivicPolicyResidentEffectEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Commodities\Commodity.cs" />
     <Compile Include="Commodities\CommodityComponent.cs" />
     <Compile Include="Commodities\CommodityEditor.xaml.cs">
@@ -345,6 +364,19 @@
       <DependentUpon>CompoundConditionElementEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="CompoundConditionElements\CompoundConditionOrGroup.cs" />
+    <Compile Include="DramaNodes\Components\DramaNodeInfoEditor.xaml.cs">
+      <DependentUpon>DramaNodeInfoEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DramaNodes\DefaultDramaNodeTemplate.cs" />
+    <Compile Include="DramaNodes\DramaNodeEditor.xaml.cs">
+      <DependentUpon>DramaNodeEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DramaNodes\DramaNodeExportContext.cs" />
+    <Compile Include="DramaNodes\DramaNode.cs" />
+    <Compile Include="DramaNodes\DramaNodeComponent.cs" />
+    <Compile Include="DramaNodes\Components\DramaNodeInfo.cs" />
+    <Compile Include="DramaNodes\Components\DramaNodeTemplateComponent.cs" />
+    <Compile Include="DramaNodes\DramaNodeTemplate.cs" />
     <Compile Include="Emotions\Emotion.cs" />
     <Compile Include="EnumExtensions\EnumExtension.cs" />
     <Compile Include="EnumExtensions\EnumExtensionComponent.cs" />
@@ -1113,6 +1145,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="CivicPolicies\CivicPolicyEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CivicPolicies\CivicPolicyInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CivicPolicies\CivicPolicyInstancedEffectEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CivicPolicies\CivicPolicyResidentEffectEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Commodities\CommodityEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -1134,6 +1182,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CompoundConditionElements\CompoundConditionElementEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DramaNodes\Components\DramaNodeInfoEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DramaNodes\DramaNodeEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

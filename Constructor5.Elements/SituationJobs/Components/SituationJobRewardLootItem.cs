@@ -10,6 +10,8 @@ namespace Constructor5.Elements.SituationJobs.Components
         public bool RunOnGold { get; set; }
         public bool RunOnNoMedal { get; set; }
         public bool RunOnSilver { get; set; }
-        // public Reference TargetSimJob { get; set; } = new Reference(); not currently implemented
+
+        public Reference TargetSimJob { get; set; } = new Reference();
+        public bool TargetRandom { get; set; }
     }
 }

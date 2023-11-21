@@ -12,11 +12,13 @@ namespace Constructor5.Base.MacroSystem
         public string TypeName { get; set; }
         [XmlAttribute]
         public string ElementName { get; set; }
+        [XmlAttribute]
+        public string GuidOverride { get; set; }
 
         protected internal override void Run(MacroContext context)
         {
             var newContext = new MacroContext(context);
-            var element = ElementManager.Create(Reflection.GetTypeByName(TypeName), ElementName, false);
+            var element = ElementManager.Create(Reflection.GetTypeByName(TypeName), ElementName, false, GuidOverride);
             newContext.SetVariable("_DataContext", element);
             newContext.SetVariable("_Element", element);
             RunChildCommands(newContext);

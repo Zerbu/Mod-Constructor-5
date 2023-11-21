@@ -57,7 +57,8 @@ namespace Constructor5.Elements
             }
             if (contextModifier != null)
             {
-                handlerFile = "SimData/TraitPreference.data";
+                tuning.Class = "Preference";
+                //handlerFile = "SimData/TraitPreference.data";
             }
             tuning.SimDataHandler = new SimDataHandler(handlerFile);
 

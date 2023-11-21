@@ -38,11 +38,21 @@ namespace Constructor5.Elements.SituationJobs.Components
 
                 foreach(var item in referenceList.GetOfType<SituationJobRewardLootItem>())
                 {
-                    foreach (var loot in ElementTuning.GetInstanceKeys(item.Reference))
+                    if (func.Invoke(item))
                     {
-                        if (func.Invoke(item))
+                        foreach (var loot in ElementTuning.GetInstanceKeys(item.Reference))
                         {
                             tunableList2.Set<TunableBasic>(null, loot);
+                        }
+                        var targetKey = ElementTuning.GetSingleInstanceKey(item.TargetSimJob);
+                        if (targetKey != 0 && targetKey != null)
+                        {
+                            var tunableVariant1 = tunableTuple2.Set<TunableVariant>("loot_target", "enabled");
+                            tunableVariant1.Set<TunableBasic>("enabled", targetKey);
+                            if (!item.TargetRandom)
+                            {
+                                tunableTuple2.Set<TunableEnum>("loot_target_choice", "ALL_SIMS_IN_JOB");
+                            }
                         }
                     }
                 }

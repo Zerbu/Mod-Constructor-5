@@ -1,0 +1,40 @@
+﻿<UserControl
+    x:Class="Constructor5.Elements.CivicPolicies.CivicPolicyInstancedEffectEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:Constructor5.UI.Shared;assembly=Constructor5.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Constructor5.Elements.CivicPolicies"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <StackPanel>
+        <c:TabControl>
+            <c:TabItem Header="AutoBuff">
+                <StackPanel>
+                    <c:ReferenceControl
+                        CreateElementFunction="ReferenceControl_CreateElementFunction"
+                        ElementTypeName="AutoBuff"
+                        Reference="{Binding AutoBuff}"
+                        ShowCreateButton="True" />
+                    <c:Field Label="BuffReason" LabelWidth="100">
+                        <c:STBLStringControl Text="{Binding BuffReason}" />
+                    </c:Field>
+                </StackPanel>
+            </c:TabItem>
+            <c:TabItem Header="OnEnact">
+                <c:ReferenceListControl
+                    ElementReferenceList="{Binding InstancedLootEnact}"
+                    ElementTypeName="LootActionSet"
+                    ShowCreateButton="True" />
+            </c:TabItem>
+            <c:TabItem Header="OnRepeal">
+                <c:ReferenceListControl
+                    ElementReferenceList="{Binding InstancedLootRepeal}"
+                    ElementTypeName="LootActionSet"
+                    ShowCreateButton="True" />
+            </c:TabItem>
+        </c:TabControl>
+    </StackPanel>
+</UserControl>

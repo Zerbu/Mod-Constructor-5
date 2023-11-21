@@ -21,7 +21,7 @@ namespace Constructor5.UI.Shared
                             DependencyProperty.Register("ElementType", typeof(Type), typeof(ReferenceControlWithEditorUnderneath), new PropertyMetadata(null));
 
         public static readonly DependencyProperty ReferenceProperty =
-            DependencyProperty.Register("Reference", typeof(Reference), typeof(ReferenceControlWithEditorUnderneath), new FrameworkPropertyMetadata(null, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+                    DependencyProperty.Register("Reference", typeof(Reference), typeof(ReferenceControlWithEditorUnderneath), new FrameworkPropertyMetadata(null, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
 
         public static readonly DependencyProperty ShowBrowseButtonProperty =
             DependencyProperty.Register("ShowBrowseButton", typeof(bool), typeof(ReferenceControlWithEditorUnderneath), new PropertyMetadata(true));

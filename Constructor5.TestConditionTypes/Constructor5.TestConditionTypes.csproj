@@ -312,6 +312,7 @@
       <DependentUpon>DayAndTimeConditionEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Time\DayNightRestriction.cs" />
+    <Compile Include="Traits\SelfDiscoveryEnabledCondition.cs" />
     <Compile Include="Traits\TraitCondition.cs" />
     <Compile Include="Traits\TraitConditionEditor.xaml.cs">
       <DependentUpon>TraitConditionEditor.xaml</DependentUpon>
