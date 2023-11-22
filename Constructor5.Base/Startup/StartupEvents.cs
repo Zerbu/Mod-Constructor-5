@@ -14,7 +14,14 @@ namespace Constructor5.Base.Startup
             {
                 foreach (var attribute in type.GetCustomAttributes<StartupTypeAttribute>())
                 {
-                    attribute.Invoke(type);
+                    try
+                    {
+                        attribute.Invoke(type);
+                    }
+                    catch(System.Exception ee)
+                    {
+                        Console.WriteLine(ee.Message);
+                    }
                 }
             }
         }
