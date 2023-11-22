@@ -5,6 +5,7 @@ using Constructor5.UI.Dialogs.ExceptionDialog;
 using Constructor5.UI.Dialogs.UnlocalizableStringFinder;
 using Constructor5.UI.Launcher;
 using Constructor5.UI.Main;
+using System.Globalization;
 using System.Windows;
 using System.Windows.Threading;
 
@@ -24,6 +25,10 @@ namespace Constructor5
 
         private void Application_Startup(object sender, StartupEventArgs e)
         {
+            CultureInfo culture = (CultureInfo)CultureInfo.CurrentCulture.Clone();
+            culture.NumberFormat.NumberDecimalSeparator = ".";
+            System.Threading.Thread.CurrentThread.CurrentCulture = culture;
+
             StartupEvents.OnStartup();
 
 #if DEBUG
