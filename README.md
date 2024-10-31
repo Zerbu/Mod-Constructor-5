@@ -27,4 +27,16 @@ The Sims 4 Mod Constructor is a downloadable program that allows users to create
 **Download the latest version from Releases: https://github.com/Zerbu/Mod-Constructor-5/releases**
 
 ### Source Code
-You can download the source code from this page. Mod Constructor V5 was last updated and compiled using Visual Studio 2022, so it's recommended you use that. If you decide to use an older version, or another program, you do so at your own risk. **If you have trouble getting it to compile, try changing the platform from "Any CPU" to "x64".**
+You can download the source code from this page.
+
+#### IDE
+Mod Constructor V5 was last updated and compiled using Visual Studio 2022, so it's recommended you use that. If you decide to use an older version, or another program, you do so at your own risk.
+
+#### Building
+Code is written in c# and uses .NET v4.8 with WPF
+
+* Build .sln then compile Constructor5.csproj
+* \bin will be created but **must** be manually populated with asset folders Images and Icons (found in \Constructor5)
+
+#### Build Configurations
+Should work with any configuration. But if you are having problems compiling, try changing the platform from "Any CPU" to "x64"
