@@ -219,7 +219,7 @@
   <Preset Label="Kiss Hands (celebrity_Socials_Acquaintance_High_KissHand)" Value="192520" />
   <Preset Label="Tender Kiss (celebrity_Socials_Acquaintance_SuperHigh_TenderKiss)" Value="192521" />
   <Preset Label="Showbiz Kiss (celebrity_Socials_Acquaintance_SuperHigh_MakeOut)" Value="192523" />
-  <Preset Label="Ask to Be Girlfriend (celebrity_Socials_Acquaintance_Relationship_Ask)" Value="192525" />
+  <Preset Label="Ask to Be Romantic Partner (celebrity_Socials_Acquaintance_Relationship_Ask)" Value="192525" />
   <Preset Label="WooHoo (celebrity_Socials_Acquaintance_Relationship_Woohoo)" Value="192526" />
   <Preset Label="Continue Upgrading Auto Updater (videoStation_Upgrade_Unbreakable_Resume)" Value="192527" />
   <Preset Label="Yell At (celebrity_Socials_Acquaintance_Mean_YellAt)" Value="192530" />
@@ -441,7 +441,6 @@
   <Preset Label="Auto Updater (Complete) (videoStation_Debug_Upgrade_Unbreakable)" Value="194613" />
   <Preset Label="New Tastemakers (musicProductionStation_CD_SendToLabel_NewTastemakers)" Value="194615" />
   <Preset Label="Maxis Music Machine (musicProductionStation_CD_SendToLabel_MaxisMusicMachine)" Value="194616" />
-  <Preset Label="Purchase Crystals (purchase_Crystals_All)" Tags="TestUnsafe" Value="194620" />
   <Preset Label="denizenPond_Play_Mixers_Play" Value="194648" />
   <Preset Label="What the What? (autoPicker_MusicProductionStation_PlayTrack)" Tags="TestUnsafe" Value="194659" />
   <Preset Label="Begin Recording (si_swipeAddToWorld_StreamingDrone_RecordSelf)" Value="194745" />
@@ -944,8 +943,8 @@
   <Preset Label="Create Autographed Card (Debug) (debug_GiveAutograph_Card)" Value="200871" />
   <Preset Label="NPCLeaveLotNow_VIPRope_Denied" Value="200918" />
   <Preset Label="Adopt (adoptPickedChild_StarTreatment_Free)" Value="200924" />
-  <Preset Label="Adopt (adoption_Picker_StarTreatment_Free)" Tags="TestUnsafe" Value="200927" />
-  <Preset Label="Adopt (adoption_Picker_Phone_StarTreatment_Free)" Tags="TestUnsafe" Value="200936" />
+  <Preset Label="Adopt Sim (adoption_Picker_StarTreatment_Free)" Tags="TestUnsafe" Value="200927" />
+  <Preset Label="Adopt Sim (adoption_Picker_Phone_StarTreatment_Free)" Tags="TestUnsafe" Value="200936" />
   <Preset Label="Appraise (autographedObjects_Appraise_InInventory)" Value="200956" />
   <Preset Label="Sell to Collector (autographedObjects_SellToCollector_InInventory)" Value="200958" />
   <Preset Label="Money Phone (Vault_MoneyPhone)" Value="200959" />
@@ -1094,4 +1093,23 @@
   <Preset Label="Record Video (videoStation_RecordVideo_CivicPolicy_Autonomous)" Value="234686" />
   <Preset Label="celebrity_CheckNearbySimFame" Value="261750" />
   <Preset Label="Practice Acting (mirror_ActingSkill_Practice_Start)" Value="285524" />
+  <Preset Label="Victorian (costumeBox_WearCostume_Flirty_Victorian)" Value="364628" />
+  <Preset Label="Victorian (costumeBox_WearCostume_Playful_Victorian)" Value="364630" />
+  <Preset Label="Victorian (costumeBox_WearCostume_Confident_Victorian)" Value="364632" />
+  <Preset Label="Gom Gabrow  (musicProductionStation_ProduceNewTrack_NPCNoProduct)" Value="379079" />
+  <Preset Label="Dispel Paparazzi (celebrity_Socials_GhostUpdates_DispelPaparazzi)" Value="390843" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Acting)" Tags="TestUnsafe" Value="396390" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_MediaProduction)" Tags="TestUnsafe" Value="396401" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Acting)" Value="396402" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_MediaProduction)" Value="396403" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Acting)" Value="396404" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_MediaProduction)" Value="396405" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Acting)" Value="396406" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_MediaProduction)" Value="396407" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Acting" Tags="TestUnsafe" Value="398507" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_MediaProduction" Tags="TestUnsafe" Value="398537" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Acting)" Value="399526" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_MediaProduction)" Value="399527" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Acting_1)" Value="414407" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_MediaProduction_1)" Value="414413" />
 </PresetGroup>

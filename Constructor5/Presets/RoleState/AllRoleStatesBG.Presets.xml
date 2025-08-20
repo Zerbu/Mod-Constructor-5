@@ -90,7 +90,7 @@
   <Preset Label="role_BlackAndWhiteParty_BartenderServe" Value="37437" />
   <Preset Label="role_open_streets_playground" Value="38310" />
   <Preset Label="role_open_streets_chess" Value="38488" />
-  <Preset Label="role_open_streets_bbq" Value="38901" />
+  <Preset Label="role_open_streets_socialize" Value="38901" />
   <Preset Label="role_open_streets_garden" Value="38935" />
   <Preset Label="role_Librarian" Value="40089" />
   <Preset Label="role_teen_park" Value="40114" />
@@ -244,68 +244,22 @@
   <Preset Label="role_Repo_RepoPerson_NothingToTake_Bills" Value="239161" />
   <Preset Label="role_Repo_RepoPerson_TakeObject_Bills" Value="239191" />
   <Preset Label="role_Repo_Debtor_ObjectTaken_Bills" Value="241173" />
+  <Preset Label="roleState_shoeRemovalSign_shoesOff" Value="246483" />
+  <Preset Label="roleState_shoeRemovalSign_slippersOn" Value="246484" />
   <Preset Label="role_WaitInLineTogether_WaitingInLine" Value="247142" />
   <Preset Label="role_WaitInLineTogether_WaitingNearLine" Value="247143" />
   <Preset Label="role_WaitInLineTogether_LeftLine" Value="247202" />
   <Preset Label="roleState_leave_now_Bookworm_EnterWithBook" Value="258026" />
   <Preset Label="roleState_leave_now_Bookworm_ExitWithBook" Value="258028" />
-  <Preset Label="festivals_Roles_VillageFair_Player_Garden" Value="259206" />
-  <Preset Label="festivals_Roles_VillageFair_Player_Animal" Value="259208" />
-  <Preset Label="festivals_Roles_VillageFair_Player_Animal_Chicken" Value="259210" />
-  <Preset Label="role_CottageWorld_NPC_AgnesCrumplebottom" Value="259360" />
-  <Preset Label="festivals_Roles_VillageFair_Animal_General" Value="259441" />
-  <Preset Label="festivals_Roles_VillageFair_Garden_General" Value="259445" />
-  <Preset Label="festivals_Roles_VillageFair_Competitor_Chicken" Value="259446" />
-  <Preset Label="festivals_Roles_VillageFair_Competitor_CowLlama" Value="259447" />
-  <Preset Label="festivals_Roles_VillageFair_Competitor_MilkWool" Value="259448" />
-  <Preset Label="festivals_Roles_VillageFair_Competitor_Pie" Value="259449" />
-  <Preset Label="festivals_Roles_VillageFair_Competitor_Crop" Value="259450" />
-  <Preset Label="festivals_Roles_VillageFair_Animal_Judge" Value="259461" />
-  <Preset Label="festivals_Roles_VillageFair_Garden_Judge" Value="259462" />
-  <Preset Label="festivals_Roles_VillageFair_Competitor_Egg" Value="259500" />
-  <Preset Label="role_CottageWorld_NPC_AgathaCrumplebottom" Value="260259" />
-  <Preset Label="role_CottageWorld_NPC_CritterTender" Value="260322" />
-  <Preset Label="role_CottageWorld_NPC_Mayor" Value="260323" />
-  <Preset Label="role_CottageWorld_NPC_GroceryOwner" Value="260337" />
-  <Preset Label="role_CottageWorld_NPC_GroceryDelivery" Value="260338" />
-  <Preset Label="role_CottageWorld_NPC_PubOwner" Value="260339" />
-  <Preset Label="Role_Fox_Daytime" Value="261401" />
-  <Preset Label="role_Fox_Nighttime_Steal" Value="261403" />
   <Preset Label="role_Deliveries_RingDoorbell" Value="262174" />
   <Preset Label="role_Deliveries_DropBag" Value="262206" />
   <Preset Label="role_Deliveries_WaitForCustomer" Value="262211" />
   <Preset Label="role_Deliveries_WaitForTip" Value="262296" />
-  <Preset Label="role_Fox_LeaveLot" Value="262444" />
-  <Preset Label="roleState_BasicTrait_CottageWorld_NPC_AgnesCrumplebottom" Value="262887" />
-  <Preset Label="roleState_BasicTrait_CottageWorld_NPC_AgathaCrumplebottom" Value="262888" />
-  <Preset Label="roleState_BasicTrait_CottageWorld_NPC_CritterTender" Value="262889" />
-  <Preset Label="roleState_BasicTrait_CottageWorld_NPC_Mayor" Value="262890" />
-  <Preset Label="roleState_BasicTrait_CottageWorld_NPC_GroceryOwner" Value="262891" />
-  <Preset Label="roleState_BasicTrait_CottageWorld_NPC_GroceryDelivery" Value="262892" />
-  <Preset Label="roleState_BasicTrait_CottageWorld_NPC_PubOwner" Value="262893" />
-  <Preset Label="role_OpenStreet_CottageWorld_Wanderer" Value="263246" />
-  <Preset Label="role_LeaveNow_EnterWithBag" Value="263577" />
-  <Preset Label="role_OpenStreet_CottageWorld_Picnickers" Value="263829" />
   <Preset Label="roleState_GroupCooking_HeadCook" Value="263882" />
   <Preset Label="roleState_GroupCooking_JoinedCooks" Value="263883" />
   <Preset Label="roleState_GroupCooking_HeadCook_Gather" Value="263889" />
   <Preset Label="roleState_GroupCooking_JoinedCooks_Gather" Value="263891" />
-  <Preset Label="roleState_VillagerHelp_Gossipers" Value="263979" />
-  <Preset Label="role_OpenStreet_CottageWorld_Gossiper" Value="264553" />
-  <Preset Label="role_OpenStreet_CottageWorld_Forager" Value="264731" />
-  <Preset Label="role_CottageWorld_NPC_CritterTender_Garden" Value="264760" />
-  <Preset Label="role_CottageWorld_NPC_CritterTender_Cook" Value="264761" />
-  <Preset Label="role_CottageWorld_NPC_CritterTender_Forage" Value="264762" />
-  <Preset Label="role_OpenStreet_CottageWorld_Wanderer_Fish" Value="265711" />
-  <Preset Label="role_OpenStreet_CottageWorld_Wanderer_Garden" Value="265712" />
-  <Preset Label="role_OpenStreet_CottageWorld_Wanderer_Tourist" Value="265713" />
-  <Preset Label="role_OpenStreet_CottageWorld_Wanderer_Swim" Value="265714" />
-  <Preset Label="role_Fox_Daytime_OpenStreet" Value="267238" />
-  <Preset Label="festivals_Roles_VillageFair_Garden_General_Child" Value="269158" />
-  <Preset Label="festivals_Roles_VillageFair_Animal_General_Child" Value="269159" />
   <Preset Label="roleState_GroupCooking_JoinedCooks_StopCooking" Value="269312" />
-  <Preset Label="role_CottageWorld_NPC_CritterTender_Sit" Value="269642" />
-  <Preset Label="role_CottageWorld_NPC_CritterTender_GoHome" Value="269653" />
   <Preset Label="musicFestival_Roles_Artist_Opener1" Value="269730" />
   <Preset Label="musicFestival_Roles_Artist_Opener2" Value="269731" />
   <Preset Label="musicFestival_Roles_Artist_MainArtist" Value="269732" />
@@ -323,13 +277,6 @@
   <Preset Label="role_NPCInvite_DiscussExpandingTheFamily_PregnancyInvite_Actor" Value="274749" />
   <Preset Label="wedding_Ceremony_Roles_Guest" Value="274938" />
   <Preset Label="wedding_Ceremony_Roles_Host_Couple" Value="274939" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Arrival_BachParty" Value="275383" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Desserts_BachParty" Value="275391" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Barfly_BachParty" Value="275392" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Dancing_BachParty" Value="275393" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Dinner_BachParty" Value="275394" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Drinking_BachParty" Value="275395" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Toast_BachParty" Value="275403" />
   <Preset Label="roleState_Caregiver_Toddler_Active" Value="275504" />
   <Preset Label="roleState_Caregiver_Toddler_Passive" Value="275505" />
   <Preset Label="role_Custom_State_Wedding_Couple_Arrival" Value="275736" />
@@ -412,7 +359,6 @@
   <Preset Label="role_Custom_State_Wedding_Officiant_Vows" Value="275820" />
   <Preset Label="role_Custom_State_Wedding_Officiant_VowsSpeech" Value="275821" />
   <Preset Label="role_Custom_State_Wedding_Officiant_VowsWithOfficiant" Value="275822" />
-  <Preset Label="role_HighSchool_Active_NPC_DoStuff_StudyBuddies" Value="275863" />
   <Preset Label="role_Custom_State_Wedding_Couple_Mingle" Value="275881" />
   <Preset Label="role_Custom_State_Wedding_FlowerSpreader_Mingle" Value="275882" />
   <Preset Label="role_Custom_State_Wedding_Guest_Mingle" Value="275883" />
@@ -442,196 +388,17 @@
   <Preset Label="role_Custom_State_Wedding_HonorAttendant_VowsWithOfficiant" Value="275982" />
   <Preset Label="roleState_Caregiver_Baby_Active" Value="276002" />
   <Preset Label="roleState_Caregiver_Baby_Passive" Value="276003" />
-  <Preset Label="role_Wedding_Shell_TownHall_GetMarried" Value="276339" />
-  <Preset Label="role_Wedding_Shell_TownHall_Start" Value="276340" />
-  <Preset Label="role_HighSchool_Active_NPC_AttendClass_Student" Value="276361" />
-  <Preset Label="role_HighSchool_Active_NPC_TeachClass" Value="276362" />
-  <Preset Label="role_HighSchool_Active_NPC_DoStuff_Bullies" Value="276441" />
-  <Preset Label="role_HighSchool_Active_NPC_DoStuff_SocialMediaEnthusiasts" Value="276535" />
-  <Preset Label="role_HighSchool_Active_NPC_DoStuff_HSTeamRecruiter" Value="276554" />
-  <Preset Label="role_HighSchool_Active_Player_Main" Value="276688" />
-  <Preset Label="role_HighSchool_Active_NPC_Base" Value="277896" />
-  <Preset Label="role_HighSchool_Active_NPC_PrepareForClass" Value="277969" />
-  <Preset Label="marketStalls_Roles_Vendor_CafeteriaStation_HighSchool" Value="278009" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Tea_Generic" Value="278441" />
-  <Preset Label="role_HighSchool_Active_Player_Phases_FreeTime" Value="278447" />
-  <Preset Label="roleState_GroupDancing_situation_Follower" Value="278587" />
-  <Preset Label="roleState_GroupDancing_situation_Leader" Value="278588" />
-  <Preset Label="role_HighSchool_Active_Player_Phases_AttendClass" Value="278610" />
-  <Preset Label="role_HighSchool_Active_NPC_GetFood" Value="278856" />
-  <Preset Label="roleState_NPCRelationshipAutonomy_Propose" Value="278865" />
-  <Preset Label="roleState_NPCRelationshipAutonomy_AskToBe_BoyfriendGirlfriend" Value="278866" />
-  <Preset Label="roleState_NPCRelationshipAutonomy_AskToBe_BestFriend" Value="278867" />
-  <Preset Label="roleState_NPCRelationshipAutonomy_BreakUpWith" Value="278868" />
-  <Preset Label="roleState_NPCRelationshipAutonomy_AskToProm" Value="278869" />
-  <Preset Label="roleState_NPCRelationshipAutonomy_AskToProm_AsFriends" Value="278870" />
-  <Preset Label="role_HighSchool_Active_NPC_GoTo_WhiteBoard" Value="280119" />
-  <Preset Label="marketStalls_Roles_Vendor_BubbleTeaCounter_HiredNPC" Value="280316" />
-  <Preset Label="marketStalls_Roles_Vendor_BubbleTeaCounter" Value="280414" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Arrival_EngagementParties" Value="280479" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Barfly_EngagementParties" Value="280480" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Dancing_EngagementParties" Value="280481" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Desserts_EngagementParties" Value="280482" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Dinner_EngagementParties" Value="280483" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Drinking_EngagementParties" Value="280484" />
-  <Preset Label="prePostWeddingParties_Roles_Guest_Toast_EngagementParties" Value="280485" />
-  <Preset Label="thriftStoreVenue_Roles_Owner" Value="280498" />
-  <Preset Label="thriftStoreVenue_Roles_AdultBrowser" Value="280520" />
-  <Preset Label="thriftStoreVenue_Roles_TeenBrowser" Value="280522" />
-  <Preset Label="thriftStoreVenue_Roles_TeenTrendBrowser" Value="280523" />
-  <Preset Label="thriftStoreVenue_Roles_TeenAestheticBrowser" Value="280524" />
-  <Preset Label="thriftStoreVenue_Roles_AdultBubbleTea" Value="280679" />
-  <Preset Label="thriftStoreVenue_Roles_TeenBubbleTea" Value="280680" />
-  <Preset Label="roleState_HSProm_Chaperone" Value="280747" />
-  <Preset Label="roleState_HSProm_Announcer" Value="280748" />
-  <Preset Label="role_HighSchool_Active_NPC_DoStuff_TPose_Leader" Value="280782" />
-  <Preset Label="thriftStoreVenue_Roles_Player" Value="280785" />
-  <Preset Label="roleState_HSProm_PreProm" Value="280884" />
-  <Preset Label="thriftStoreVenue_Roles_Comedy_TakeTurn_NPC" Value="280890" />
-  <Preset Label="thriftStoreVenue_Roles_Comedy_WaitForTurn_NPC" Value="280891" />
-  <Preset Label="thriftStoreVenue_Roles_Comedy_PlayerController" Value="280892" />
-  <Preset Label="thriftStoreVenue_Roles_Poetry_PlayerController" Value="280893" />
-  <Preset Label="thriftStoreVenue_Roles_Poetry_TakeTurn_NPC" Value="280894" />
-  <Preset Label="thriftStoreVenue_Roles_Poetry_WaitForTurn_NPC" Value="280895" />
-  <Preset Label="thriftStoreVenue_Roles_Event_Fashion_Contestant" Value="280896" />
-  <Preset Label="role_HighSchool_Active_Player_Phases_FireDrill" Value="280935" />
-  <Preset Label="role_HighSchool_Active_NPC_DoStuff_FireDrill" Value="280961" />
-  <Preset Label="highSchoolFestival_Roles_All_Teacher" Value="281925" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_FootballClub" Value="281927" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_FootballCompetition_Compete" Value="281928" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_FootballCompetition_WatchResult" Value="281929" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_FootballStudent" Value="281931" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_CheerClub" Value="281934" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_CheerCompetition_Compete" Value="281935" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_CheerCompetition_WatchResult" Value="281936" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_CheerStudent" Value="281937" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ChessClub" Value="281939" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ChessCompetition_Compete" Value="281941" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ChessCompetition_WatchResult" Value="281943" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ChessStudent" Value="281944" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ComputerClub" Value="281946" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ComputerCompetition_Compete" Value="281947" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ComputerCompetition_WatchResult" Value="281948" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ComputerStudent" Value="281949" />
-  <Preset Label="role_HighSchool_Active_Player_Phases_CareerDay_NoDialog" Value="281952" />
-  <Preset Label="role_HighSchool_Active_Player_Phases_CareerDay" Value="281953" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ChessJudge_WatchCompetition" Value="281983" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ChessJudge_JudgeCompetition" Value="281984" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ComputerJudge_WatchCompetition" Value="281985" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ComputerJudge_JudgeCompetition" Value="281986" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_CheerJudge_WatchCompetition" Value="281987" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_CheerJudge_JudgeCompetition" Value="281988" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_FootballJudge_WatchCompetition" Value="281989" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_FootballJudge_JudgeCompetition" Value="281990" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ChessPlayer" Value="281995" />
-  <Preset Label="highSchoolFestival_Roles_ScienceFair_ComputerPlayer" Value="282002" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_CheerPlayer" Value="282003" />
-  <Preset Label="highSchoolFestival_Roles_SportsDay_FootballPlayer" Value="282004" />
-  <Preset Label="roleState_HSProm_Prom" Value="282083" />
-  <Preset Label="role_PrePostWeddingParties_Entertainer" Value="282118" />
-  <Preset Label="role_PrePostWeddingParties_Bartender" Value="282119" />
-  <Preset Label="role_HighSchool_Active_Player_CareerDay_AtAuditorium" Value="282139" />
-  <Preset Label="role_HighSchool_Active_NPC_CareerDay_Watcher" Value="282140" />
-  <Preset Label="highSchoolFestival_Roles_All_RivalClub" Value="282261" />
   <Preset Label="role_OpenStreets_Swimmer" Value="282842" />
-  <Preset Label="role_HighSchool_Active_NPC_SchoolFight_StartFight" Value="282861" />
   <Preset Label="roleState_LeaveNow_Route_UsePhone" Value="282921" />
-  <Preset Label="roleState_HSProm_Teen_Audience" Value="282930" />
-  <Preset Label="roleState_HSProm_Royalty_Winner" Value="282931" />
-  <Preset Label="roleState_HSProm_Jester_Winner" Value="282932" />
-  <Preset Label="roleState_HSProm_Presenter_Route_To_Podium" Value="282936" />
-  <Preset Label="roleState_HSProm_Teen_Route_To_Podium" Value="283462" />
-  <Preset Label="roleState_HSProm_Teen_PreProm_Host" Value="283486" />
-  <Preset Label="role_OpenStreet_WeddingWorld_Village_Shop" Value="283950" />
-  <Preset Label="role_OpenStreet_WeddingWorld_Village_Hangout" Value="283951" />
-  <Preset Label="role_OpenStreet_WeddingWorld_Village_Paint" Value="283952" />
-  <Preset Label="role_HighSchool_Active_NPC_DoStuff_ThrowFootball_Leader" Value="284014" />
-  <Preset Label="roleState_HSProm_Teen_Prom_PostVote" Value="284081" />
-  <Preset Label="roleState_HSProm_Adult_Announcer_AnnounceAwards" Value="284213" />
-  <Preset Label="roleState_HSProm_Teen_PostProm" Value="284545" />
-  <Preset Label="roleState_HSProm_Teen_PostProm_Host" Value="284546" />
-  <Preset Label="roleState_CheerMat_Group_Follower_PreDance" Value="284738" />
-  <Preset Label="roleState_CheerMat_Group_Leader_PreDance" Value="284740" />
-  <Preset Label="role_Custom_State_Wedding_Couple_Desserts" Value="285083" />
-  <Preset Label="role_Custom_State_Wedding_Guest_Desserts" Value="285084" />
-  <Preset Label="marketStalls_Roles_Vendor_HighSchoolFestival" Value="285376" />
-  <Preset Label="role_HighSchool_Active_Player_Truant" Value="285598" />
-  <Preset Label="role_HighSchool_Active_Player_GetReadyForClass" Value="285938" />
-  <Preset Label="roleState_HSGraduation_GetDiploma" Value="286009" />
-  <Preset Label="roleState_HSGraduation_GiveSpeech" Value="286010" />
-  <Preset Label="role_HighSchool_Active_NPC_DoStuff_Roam" Value="286396" />
-  <Preset Label="roleState_HSGraduation_WatchSpeech" Value="286436" />
-  <Preset Label="roleState_HSGraduation_Generic" Value="286724" />
-  <Preset Label="roleState_HSGraduation_GiveDiplomas" Value="286983" />
-  <Preset Label="role_HighSchool_Active_NPC_DoStuff_DoMischief" Value="287885" />
-  <Preset Label="roleState_HSGraduation_PostCeremony_Graduate" Value="287890" />
-  <Preset Label="roleState_HSGraduation_Player_General" Value="287916" />
-  <Preset Label="roleState_HSGraduation_WatchSpeech_Back" Value="288690" />
-  <Preset Label="role_HighSchool_Active_NPC_Teacher_AfterSchool" Value="288865" />
-  <Preset Label="role_HighSchool_Active_Player_AftersSchool" Value="288881" />
-  <Preset Label="roleState_LeaveNow_Werewolf_InWereForm" Value="288996" />
-  <Preset Label="role_WolfTown_Hangout_WerewolfPackA_Chill" Value="289018" />
-  <Preset Label="role_WolfTown_Hangout_WerewolfPackB_Chill" Value="289019" />
-  <Preset Label="role_WolfTown_Hangout_WerewolfPackA_Active" Value="289027" />
-  <Preset Label="role_WolfTown_Hangout_WerewolfPackA_Food" Value="289028" />
-  <Preset Label="role_WolfTown_Hangout_WerewolfPackB_Food" Value="289029" />
-  <Preset Label="role_WolfTown_Hangout_WerewolfPackB_Active" Value="289030" />
-  <Preset Label="role_WolfTown_Greg_Default" Value="289084" />
-  <Preset Label="role_HighSchool_Active_NPC_CareerDay_Professional" Value="289104" />
-  <Preset Label="role_HighSchool_Active_NPC_HangOut_Principal" Value="289469" />
-  <Preset Label="role_HighSchool_Active_NPC_Student_Base" Value="289897" />
-  <Preset Label="role_WolfTown_Greg_Start" Value="290189" />
-  <Preset Label="role_HighSchool_Active_NPC_Clean_Janitor" Value="290229" />
-  <Preset Label="role_WolfTown_Hangout_WerewolfPackA_Start" Value="290564" />
-  <Preset Label="role_WolfTown_Hangout_WerewolfPackB_Start" Value="290565" />
-  <Preset Label="roleState_HSGraduation_Principal_Generic" Value="290886" />
-  <Preset Label="roleState_HSProm_Royalty_Winner_No_Route" Value="291000" />
-  <Preset Label="roleState_HSProm_Jester_Winner_No_Route" Value="291001" />
-  <Preset Label="role_WolfTown_Spar_SparInvitedSim" Value="291182" />
-  <Preset Label="role_WolfTown_Spar_GoToArea" Value="291184" />
-  <Preset Label="role_WolfTown_Spar_Wait" Value="291225" />
-  <Preset Label="roleState_HSProm_Presenter_Wait_For_Gather" Value="291271" />
-  <Preset Label="role_WolfTown_Wander" Value="292047" />
-  <Preset Label="role_HighSchool_Active_NPC_GoToClass1" Value="293775" />
-  <Preset Label="role_HighSchool_Active_NPC_GoToClass2" Value="293818" />
-  <Preset Label="role_WolfTown_FriendSpar" Value="295026" />
-  <Preset Label="role_HighSchool_Active_NPC_AttendClass_Principal" Value="295880" />
-  <Preset Label="role_HighSchool_Active_NPC_AttendClass_Teacher" Value="295881" />
-  <Preset Label="role_HighSchool_Active_NPC_MonitorDetention" Value="297584" />
-  <Preset Label="role_HighSchool_Active_NPC_GoToClass_Teacher" Value="297776" />
-  <Preset Label="role_WolfTown_WerewolfRepairMan_BeHandy" Value="298798" />
-  <Preset Label="role_WolfTown_WerewolfRepairMan_Hangout" Value="298799" />
-  <Preset Label="role_WolfTown_WerewolfRepairMan_Default" Value="298802" />
-  <Preset Label="role_WolfTown_WerewolfRepairMan_KnockOnDoor" Value="298803" />
-  <Preset Label="role_WolfTown_WerewolfRepairMan_WaitAtMailBox" Value="298804" />
-  <Preset Label="role_WolfTown_WerewolfRepairMan_WaitForInvite" Value="298805" />
-  <Preset Label="role_HighSchool_Active_NPC_GetFood_Create" Value="298824" />
-  <Preset Label="role_HighSchool_Active_NPC_PostLunch_Student" Value="298825" />
-  <Preset Label="role_Bartender_Venue_WolfTown" Value="299734" />
-  <Preset Label="role_Librarian_WolfTown" Value="299737" />
-  <Preset Label="role_barfly_WolfTown" Value="299739" />
   <Preset Label="visitor_role_start_RivalVisit" Value="299788" />
-  <Preset Label="roleState_HSProm_Teen_Audience_AcceptAwards" Value="301077" />
   <Preset Label="role_Host_BabyShower" Value="301098" />
   <Preset Label="role_Guest_BabyShower" Value="301099" />
   <Preset Label="visitor_role_start_StuckInTheirShadow_Rival_LastInvite" Value="301813" />
   <Preset Label="role_OpenStreet_BayArea_Waterfront_Hangout" Value="302911" />
   <Preset Label="role_OpenStreet_BayArea_Waterfront_MovieTheater" Value="302912" />
   <Preset Label="role_OpenStreet_BayArea_SplashPad" Value="302981" />
-  <Preset Label="role_HighSchool_Active_NPC_Base_Janitor" Value="303205" />
   <Preset Label="role_host_FamilyReunion" Value="303317" />
-  <Preset Label="role_OpenStreet_HighSchoolWorld_PierVisitor" Value="303638" />
   <Preset Label="role_OpenStreet_BayArea_Pianist" Value="303753" />
-  <Preset Label="role_HighSchool_Active_NPC_GoToExamPrep" Value="304062" />
-  <Preset Label="role_HighSchool_Active_NPC_AttendExamPrep" Value="304065" />
-  <Preset Label="role_HighSchool_Active_NPC_TeachExamPrep" Value="304081" />
-  <Preset Label="role_HighSchool_Active_NPC_CareerDay_Watcher2" Value="304413" />
-  <Preset Label="role_HighSchool_Active_NPC_CareerDay_Watcher3" Value="304414" />
-  <Preset Label="role_HighSchool_Active_NPC_Studdent_AttendClass2" Value="304569" />
-  <Preset Label="thriftStoreVenue_Roles_Comedy_WaitForTurn_Player" Value="304709" />
-  <Preset Label="thriftStoreVenue_Roles_Comedy_TakeTurn_Player" Value="304710" />
-  <Preset Label="thriftStoreVenue_Roles_Poetry_TakeTurn_Player" Value="304778" />
-  <Preset Label="thriftStoreVenue_Roles_Poetry_WaitForTurn_Player" Value="304779" />
   <Preset Label="Role_FamilyReunion_Guest" Value="307726" />
   <Preset Label="role_Stayover_Guest" Value="307818" />
   <Preset Label="role_Stayover_Host" Value="307819" />
@@ -667,7 +434,44 @@
   <Preset Label="role_Stayover_Summon" Value="323017" />
   <Preset Label="role_Stayover_HostGoodbye" Value="323972" />
   <Preset Label="role_Stayover_Guest_InfantIntro" Value="324275" />
+  <Preset Label="role_Empty" Value="324590" />
   <Preset Label="role_Stayover_Guest_CouchSurfer_Kyle" Value="330798" />
   <Preset Label="roleState_Sleepover_Guest_PostSleep" Value="333931" />
   <Preset Label="roleState_Sleepover_Host_PostSleep" Value="333932" />
+  <Preset Label="role_PivotalMoment" Value="338215" />
+  <Preset Label="role_NPCVisit_WaitAtMailbox" Value="345139" />
+  <Preset Label="role_NPCVisit_KnockOnDoor_APM" Value="345141" />
+  <Preset Label="role_NPCVisit_WaitForInvite" Value="345142" />
+  <Preset Label="role_NPCVisit_Hangout_APM" Value="345203" />
+  <Preset Label="marketStalls_Vendor_HiredNPC_OpenStall_NoDoor" Value="358656" />
+  <Preset Label="role_Empty_SharedSpace" Value="359336" />
+  <Preset Label="role_Empty_SharedSpace_CanAskToLeave" Value="359354" />
+  <Preset Label="role_NPCVisit_KnockOnDoor" Value="360464" />
+  <Preset Label="role_R3Event" Value="380876" />
+  <Preset Label="role_Venue_Jogger" Value="388745" />
+  <Preset Label="roleState_LeaveNow_Route_UsePhone_Ghost" Value="390344" />
+  <Preset Label="role_Bartender_Venue_Ghost" Value="391343" />
+  <Preset Label="role_HobbyClass_ClassMember_PreClass" Value="396981" />
+  <Preset Label="role_HobbyClass_Instructor_InClass" Value="397236" />
+  <Preset Label="role_HobbyClass_Instructor_PreClass" Value="397237" />
+  <Preset Label="role_TheCollector" Value="400417" />
+  <Preset Label="hobbyMeetup_Role_Cooldown" Value="401561" />
+  <Preset Label="hobbyMeetup_Role_Logic" Value="402022" />
+  <Preset Label="role_R4Event" Value="410921" />
+  <Preset Label="role_open_streets_masterfisherman_Ghost" Value="416438" />
+  <Preset Label="role_open_streets_playground_ghost" Value="419385" />
+  <Preset Label="role_open_streets_lounger_ghost" Value="420473" />
+  <Preset Label="role_BurglarPolice_Start" Value="421828" />
+  <Preset Label="role_BurglarPolice_LostFight" Value="421849" />
+  <Preset Label="role_Burglar_ArrestedLeave" Value="422009" />
+  <Preset Label="role_Burglar_Leave" Value="422010" />
+  <Preset Label="role_BurglarPolice_Arrest" Value="422012" />
+  <Preset Label="role_Burglar_Idle" Value="422072" />
+  <Preset Label="role_Burglar_Steal" Value="422123" />
+  <Preset Label="role_Burglar_Holding" Value="424928" />
+  <Preset Label="role_DecemberEvent" Value="425604" />
+  <Preset Label="role_BurglarPolice_Waiting" Value="426298" />
+  <Preset Label="role_Burglar_FindObject" Value="426974" />
+  <Preset Label="role_Burglar_WaitForSpawn" Value="430033" />
+  <Preset Label="role_R5Event" Value="437674" />
 </PresetGroup>

@@ -640,7 +640,7 @@
   <Preset Label="generic_Bathtub_PetBath" Value="165601" />
   <Preset Label="Vocal Greet (debug_PetToPet_Greetings_Vocal_SI_Cat)" Value="165605" />
   <Preset Label="Vocal Greet (debug_PetToPet_Greetings_Vocal_SI_Dog)" Value="165606" />
-  <Preset Label="Convert to Pet Treat (si_SwipeToSimInventory_Ambrosia_toPetTreat)" Value="165622" />
+  <Preset Label="Make into Pet Treat (si_SwipeToSimInventory_Ambrosia_toPetTreat)" Value="165622" />
   <Preset Label="Shake (mixer_Dog_Training_Human_Shake_Command)" Tags="TestUnsafe" Value="165633" />
   <Preset Label="Laze (pet_Laze)" Value="165641" />
   <Preset Label="mixerInteraction_Pets_Laze" Value="165645" />
@@ -1513,7 +1513,7 @@
   <Preset Label="Command Pet to Use (petPickerInteraction_PetObstacleCourse_Practice)" Tags="TestUnsafe" Value="172512" />
   <Preset Label="Adopt Cat (adopt_Picker_Cat_Phone)" Tags="TestUnsafe" Value="172588" />
   <Preset Label="Adopt Dog (adopt_Picker_Dog_Phone)" Tags="TestUnsafe" Value="172590" />
-  <Preset Label="Adopt (adoption_Picker_Phone)" Tags="TestUnsafe" Value="172592" />
+  <Preset Label="Adopt Sim (adoption_Picker_Phone)" Tags="TestUnsafe" Value="172592" />
   <Preset Label="Throw Away (collect_Trash_Featherpiles)" Value="172613" />
   <Preset Label="Give Treat (petSocials_SimToPet_GiveTreat_PetObstacleCourse)" Value="172623" />
   <Preset Label="Chase (si_Birdflock_Dog_Chase)" Value="172628" />
@@ -1763,8 +1763,6 @@
   <Preset Label="Give Special Smooches (petSocials_SimToPet_PetIntimate_Kiss_Companion)" Value="175758" />
   <Preset Label="Give Special Smooches (petSocial_SimToPet_Kiss_LargePet_Companion)" Value="175764" />
   <Preset Label="Give Special Smooches (petSocial_SimToPet_Kiss_SmallPet_Companion)" Value="175766" />
-  <Preset Label="petRecipe_MakeRecipe_Whim_Homestyle" Value="175779" />
-  <Preset Label="petRecipe_MakeRecipe_Whim_Gourmet" Value="175780" />
   <Preset Label="Scratch Favorite Spot (petSocials_SimToPet_PetIntimate_PetPet_Companions)" Value="175814" />
   <Preset Label="Scratch Favorite Spot (petSocial_SimToPet_PetPet_Companions)" Value="175828" />
   <Preset Label="Jump On Counters (dog_Misbehavior_JumpOnCoffeeTables)" Value="176018" />
@@ -1838,15 +1836,11 @@
   <Preset Label="Jumpy Play Idle (socials_Dogs_ActiveIdle_PlayGroup)" Tags="TestUnsafe" Value="176871" />
   <Preset Label="Eat (pet_Poop_Eat_SmallDog)" Value="176894" />
   <Preset Label="Stand and Watch (autonomous_Surface_Cat_StandWatch_CraneOnly)" Tags="TestUnsafe" Value="176897" />
-  <Preset Label="Listen to Singer-Songwriter (stereo_wall_listen_SingerSongWriter)" Value="176924" />
   <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_SingerSongWriter)" Value="176925" />
   <Preset Label="Lie In (pet_LayDown_PetBed_Aggregate_Lay)" Value="176928" />
-  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter)" Value="176941" />
-  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter_HotTub)" Value="176942" />
   <Preset Label="Get Comfortable (si_GetComfortable_DogSitDown)" Value="176989" />
   <Preset Label="autonomous_ObjectPicker_PetOwner_Sleep_LeftAtHome_OnObject" Tags="TestUnsafe" Value="176993" />
   <Preset Label="Sleep (pet_Sleep_Aggregate_LeftAtHome_Independent)" Value="176994" />
-  <Preset Label="Listen to Singer-Songwriter (stereo_earbuds_listen_SingerSongWriter)" Value="177005" />
   <Preset Label="Begin Exam (vet_ExamObjects_StartExam_SmallPets)" Value="177018" />
   <Preset Label="Begin Exam (vet_ExamObjects_StartExam_Autonomous_SmallPets)" Value="177020" />
   <Preset Label="Idle Pass Turn (socials_Dogs_Idle_PassTurn)" Tags="TestUnsafe" Value="177031" />
@@ -2066,7 +2060,6 @@
   <Preset Label="mixerInteraction_Pets_LazeNear_Groom_Cat" Value="178987" />
   <Preset Label="mixerInteraction_Pets_LazeNear_Groom_Dog" Value="178988" />
   <Preset Label="mixerInteraction_Pets_LazeNear_Watch" Value="178991" />
-  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter_HotTub_NotInHotTub)" Value="179366" />
   <Preset Label="si_GoNearObject_Cat_Tombstone" Value="179557" />
   <Preset Label="Sit (seating_Sit_Cat_NoKitten)" Value="179943" />
   <Preset Label="Lay On (generic_Cat_layDownOnObject_NoKitten)" Value="180333" />
@@ -2087,8 +2080,6 @@
   <Preset Label="Adopt (petSocials_SimToPet_Hug_Adopt_SmallPet_Service_Free)" Value="200941" />
   <Preset Label="Adopt (petSocial_SimToPet_Hug_Adopt_LargePet_Service_Free)" Value="200943" />
   <Preset Label="Investigate (pet_Investigate_Hunter_DenzienPond_Cat)" Value="201519" />
-  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter_Smart_Hub)" Value="203849" />
-  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter_WaterScooter)" Value="205206" />
   <Preset Label="Investigate (pet_Investigate_Mermaid)" Value="212925" />
   <Preset Label="Energy Failure (sim_Dog_EnergyFailure_Wading)" Value="214240" />
   <Preset Label="rabbitHole_Pet_Familiar" Value="215521" />
@@ -2101,7 +2092,6 @@
   <Preset Label="Travel to the Coast With (rabbitHole_harberBoat_Picker_TravelWith_Beach)" Tags="TestUnsafe" Value="216962" />
   <Preset Label="Simstagram Pet (simPicker_Photography_SimstagramPet_Pro)" Tags="TestUnsafe" Value="217157" />
   <Preset Label="Simstagram Pet (sI_Photography_SimstagramPet_Pro)" Value="217158" />
-  <Preset Label="Listen to Singer-Songwriter (stereo_listen_SingerSongWriter_Bot)" Value="223582" />
   <Preset Label="Drink (dog_Misbehaviors_ToiletDrink_Stall)" Value="229259" />
   <Preset Label="React To Ghost (reactions_Pet_Ghost_HauntedHouse)" Value="255174" />
   <Preset Label="Pet (petSocial_SimToPet_PetPet_Bonehilda)" Value="256927" />
@@ -2117,7 +2107,6 @@
   <Preset Label="Investigate (pet_Investigate_WatchThrowFootball_Dog)" Value="282982" />
   <Preset Label="Pet (petSocial_InfantToPet_PetPet)" Value="284217" />
   <Preset Label="Pet (petSocial_InfantToPet_PetPet_PreCrawl)" Value="284488" />
-  <Preset Label="Smile At {1.SimFirstName} (social_Infant_SmileAt_Pet)" Value="287041" />
   <Preset Label="Bark at the Moon (dog_Command_BarkAtTheMoon)" Value="295000" />
   <Preset Label="reaction_WerewolfDogHowl" Value="295521" />
   <Preset Label="Sleep (pet_Sleep_LeftAtHome_Near_Infant)" Value="312617" />
@@ -2131,4 +2120,46 @@
   <Preset Label="Pet (petSocial_InfantToPet_PetPet_PreCrawl_Dog_Child)" Value="326141" />
   <Preset Label="Pet (petSocial_InfantToPet_PetPet_PreCrawl_Cat_Child)" Value="326142" />
   <Preset Label="Pet (petSocial_InfantToPet_PetPet_Dog_Child)" Value="326143" />
+  <Preset Label="Death by {0.String} (DebugDeathInteraction_Cat)" Value="329756" />
+  <Preset Label="Death by {0.String} (DebugDeathInteraction_Dog)" Value="329757" />
+  <Preset Label="food_Eat_Active_Pets_Container" Value="337727" />
+  <Preset Label="Scared (superInteraction_DogSolo_Scared)" Value="389334" />
+  <Preset Label="Scared (superInteraction_CatSolo_Scared)" Value="389335" />
+  <Preset Label="petSocials_GhostUpdates_DogReactToGhostOwner" Value="389894" />
+  <Preset Label="petSocials_GhostUpdates_CatReactToGhostOwner" Value="390077" />
+  <Preset Label="Ask to Fetch Gift from the Netherworld (socials_SimToPet_GhostUpdates_AskToFetchGiftFromNetherworld)" Tags="TestUnsafe" Value="390078" />
+  <Preset Label="Go Here (terrain-MoveAway_Pet_GhostUpdates)" Value="390079" />
+  <Preset Label="si_GhostUpdates_FetchGiftFromNetherworld" Value="390080" />
+  <Preset Label="Carry (pile_CreateAndCarry_GhostUpdates)" Value="390142" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Veterinarian)" Tags="TestUnsafe" Value="396354" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Veterinarian)" Value="396355" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Veterinarian)" Value="396356" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Veterinarian)" Value="396357" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_DogTraining)" Tags="TestUnsafe" Value="396645" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_DogTraining)" Value="396647" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_DogTraining)" Value="396648" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_DogTraining)" Value="396649" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Veterinarian" Tags="TestUnsafe" Value="398505" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_DogTraining" Tags="TestUnsafe" Value="398536" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_DogTraining)" Value="399524" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Veterinarian)" Value="399525" />
+  <Preset Label="Ask about Rainbow Bridge (grimReaper_Social_GrimDrama_AskAboutRainbowBridge)" Value="400370" />
+  <Preset Label="Go Here (terrain-MoveAway_Pet_GhostUpdates_Return)" Value="414239" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Veterinarian_1)" Value="414359" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_DogTraining_1)" Value="414362" />
+  <Preset Label="SmallBusiness_DependentCustomer_WaveGoodbye_CatDog" Value="420850" />
+  <Preset Label="Route to Safety (burglar_RouteToSafety_Pets)" Value="422769" />
+  <Preset Label="Burglar!!! (burglar_Reaction_Dog)" Value="422770" />
+  <Preset Label="Bark At (dog_Bark_Targeted_Burglar)" Value="422772" />
+  <Preset Label="Burglar!!! (burglar_Reaction_Cat)" Value="422773" />
+  <Preset Label="Yowl (cat_Yowl_Targeted_Burglar)" Value="422774" />
+  <Preset Label="Attack {1.SimFirstName} (petSocials_PetToSim_Attack_Burglar)" Value="422775" />
+  <Preset Label="smallBusinessPerks_UltrasonicWhistle_Dog" Value="432103" />
+  <Preset Label="smallBusinessPerks_UltrasonicWhistle_Cat" Value="432104" />
+  <Preset Label="Investigate (pet_Investigate_SmallBusinessCustomer_ConsiderVisit)" Value="438703" />
+  <Preset Label="Scolding {1.SimFirstName} (discipline_SSI_Pets_BreakPottery_BegToStop)" Value="446279" />
+  <Preset Label="Scolding {1.SimFirstName} (discipline_SSI_Pets_BreakPottery_Lecture)" Value="446280" />
+  <Preset Label="Scolding {1.SimFirstName} (discipline_SSI_Pets_BreakPottery_Scold)" Value="446281" />
+  <Preset Label="Being Disciplined (social_Pet_DisciplinedTarget_BreakPottery)" Value="446283" />
+  <Preset Label="Annoyed (reactions_Awareness_Pet_Misbehavior_BreakPottery)" Value="446291" />
 </PresetGroup>

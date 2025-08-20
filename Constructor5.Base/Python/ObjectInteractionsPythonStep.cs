@@ -77,9 +77,9 @@ namespace Constructor5.Base.Python
                     result.AppendLine($"{Project.Id}_InteractionIds_{index} = ({interactionString})");
 
                     result.AppendLine("@inject_to(InstanceManager, 'load_data_into_class_instances')");
-                    result.AppendLine($"def {Project.Id}_AddSuperAffordances_{index}(original, self):");
+                    result.AppendLine($"def {Project.Id}_AddSuperAffordances_{index}(original, self, packs_to_load=None):");
 
-                    result.AppendLine($"    original(self)");
+                    result.AppendLine($"    original(self, packs_to_load)");
                     result.AppendLine($"    if self.TYPE == Types.OBJECT:");
                     result.AppendLine($"        affordance_manager = services.affordance_manager()");
                     result.AppendLine($"        sa_list = []");
@@ -114,9 +114,9 @@ namespace Constructor5.Base.Python
                     result.AppendLine($"{Project.Id}_TargetInteractionIds_{index} = ({interactionString})");
 
                     result.AppendLine("@inject_to(InstanceManager, 'load_data_into_class_instances')");
-                    result.AppendLine($"def {Project.Id}_AddSuperAffordances_BasedOnInteraction_{index}(original, self):");
+                    result.AppendLine($"def {Project.Id}_AddSuperAffordances_BasedOnInteraction_{index}(original, self, packs_to_load=None):");
 
-                    result.AppendLine($"    original(self)");
+                    result.AppendLine($"    original(self, packs_to_load)");
                     result.AppendLine($"    if self.TYPE == Types.OBJECT:");
                     result.AppendLine($"        affordance_manager = services.affordance_manager()");
                     result.AppendLine($"        sa_list = []");
@@ -153,9 +153,9 @@ namespace Constructor5.Base.Python
                     result.AppendLine($"{Project.Id}_InteractionIds_Phone = ({interactionString})");
 
                     result.AppendLine("@inject_to(InstanceManager, 'load_data_into_class_instances')");
-                    result.AppendLine($"def {Project.Id}_AddSuperAffordances_Phone(original, self):");
+                    result.AppendLine($"def {Project.Id}_AddSuperAffordances_Phone(original, self, packs_to_load=None):");
 
-                    result.AppendLine($"    original(self)");
+                    result.AppendLine($"    original(self, packs_to_load)");
                     result.AppendLine($"    if self.TYPE == Types.OBJECT:");
                     result.AppendLine($"        affordance_manager = services.affordance_manager()");
                     result.AppendLine($"        sa_list = []");

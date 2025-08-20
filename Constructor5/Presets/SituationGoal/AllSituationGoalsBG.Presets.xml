@@ -48,7 +48,7 @@
   <Preset Label="Goal_Kiss" Value="16035" />
   <Preset Label="Kiss {2.SimFirstName} (Goal_KissTarget)" Value="16036" />
   <Preset Label="Goal_MakeOut" Value="16037" />
-  <Preset Label="Goal_MeetSomeoneNew" Value="16038" />
+  <Preset Label="Meet Someone New (Goal_MeetSomeoneNew)" Value="16038" />
   <Preset Label="Become Playful (Whim_GetPlayful)" Value="16045" />
   <Preset Label="Have the Betrothed Kiss (Goal_Sim_KissBride)" Value="16051" />
   <Preset Label="Have Guests Watch the Ceremony (Goal_Sim_WatchCeremony)" Value="16054" />
@@ -802,6 +802,9 @@
   <Preset Label="Change a Bonfire Color (whim_ChangeColor)" Value="125682" />
   <Preset Label="Complain about Love Life (Whim_ComplainAbout_lackOf_LoveLife_Jealous)" Value="127093" />
   <Preset Label="Share Insecurities (Whim_ShareInsecurities_Jealous)" Value="127096" />
+  <Preset Label="Practice Darts (whim_Dartboard_Practice)" Value="129766" />
+  <Preset Label="Play Darts (whim_Dartboard_PlayDarts)" Value="129767" />
+  <Preset Label="Win a Game of Darts (whim_Dartboard_WinGame)" Value="129768" />
   <Preset Label="Upgrade a Warming Lamp to be Fire Safe (Whim_HeatLamp_UpgradeFireSafe)" Value="131802" />
   <Preset Label="Enthuse about Thrill of the Steal (Whim_EnthuseAboutStealing_Kleptomaniac)" Value="131921" />
   <Preset Label="Swipe an Item (Whim_SwipeAnItem_Kleptomaniac)" Value="131922" />
@@ -817,6 +820,13 @@
   <Preset Label="Order Food for Yourself and Your Date (goal_Restaurant_OrderFood)" Value="137178" />
   <Preset Label="Socialize about Meal (goal_Sim_Restaurant_SocializeAboutMeal)" Value="137179" />
   <Preset Label="Listen to World Radio Station (Whim_stereo_ListenToRadioStationChannel_CulturalWorld)" Value="142259" />
+  <Preset Label="Enter a Game Tournament on the Video Game Console (Whim_VideoGameConsole_EnterGameTournament)" Value="145479" />
+  <Preset Label="Play Video Games on a Gaming Console (Whim_videoGameConsole_PlayConsoleVideoGames)" Value="145480" />
+  <Preset Label="Play Density Effect (Whim_videoGameConsole_PlayRPG)" Value="145481" />
+  <Preset Label="Play Video Games on a Gaming Console (Whim_videoGameConsole_PlayPlatformer)" Value="145482" />
+  <Preset Label="Play MySims Racing Game (Whim_videoGameConsole_PlayRacing)" Value="145483" />
+  <Preset Label="Play Party Frenzy (Whim_videoGameConsole_PlayParty)" Value="145484" />
+  <Preset Label="Play With Makeup (Whim_PlayWithMakeUp)" Value="145497" />
   <Preset Label="Complain About Flavorless Meat Substitutes with another Sim (whim_RanInteractionTargeted_Vegetarian_FlavorlessMeatSubstitutes)" Value="146216" />
   <Preset Label="Enthuse About Vegetarianism with another Sim (whim_RanInteractionTargeted_Vegetarian_EnthuseAboutVegetarianism)" Value="146217" />
   <Preset Label="Evangelize Vegetarian Benefits with another Sim (whim_RanInteractionTargeted_Vegetarian_EvangelizeVegetarianBenefits)" Value="146218" />
@@ -897,6 +907,7 @@
   <Preset Label="Tell a Goofy Story to {2.SimFirstName} (Whim_Toddlers_TellGoofyStory)" Value="155392" />
   <Preset Label="Tell Joke About Chicken Butt to {2.SimFirstName} (Whim_Toddlers_JokeAboutChickenButt)" Value="155393" />
   <Preset Label="Sit on a Chair (Whim_Toddlers_SitOnChair)" Value="155394" />
+  <Preset Label="Win a Multiplayer Game on the Video Game Console (Whim_videoGameConsole_WinMultiplayerGameBuff)" Value="155874" />
   <Preset Label="Talk to {2.SimFirstName} (whim_Toddlers_TalkToSim)" Value="156333" />
   <Preset Label="Ask {2.SimFirstName} to Play (whim_Toddlers_AskParentForRoughhousing)" Value="156335" />
   <Preset Label="Babble to {2.SimFirstName} (whim_Toddlers_BabbleToParent)" Value="156339" />
@@ -941,7 +952,6 @@
   <Preset Label="Shop at a Cart (foodStall_IntObject_ShopAtStall)" Value="175053" />
   <Preset Label="Chase a Bird Flock (Whim_ChaseBirdFlock)" Value="177812" />
   <Preset Label="Scare a Bird Flock (whim_AttackBirdFlock)" Value="178451" />
-  <Preset Label="Buy an Activity Table (whim_BuyActivityTable)" Value="184757" />
   <Preset Label="Add Impression (Whim_StyleInfluencer_Styleboard_AddImpression)" Value="198565" />
   <Preset Label="Complete a Style Board with Impressions (whim_StyleInfluencer_Styleboard_CompleteImpression)" Value="198567" />
   <Preset Label="Take a Vacation Day (whim_Careers_TakePTO_StyleInfluencer)" Value="199110" />
@@ -992,11 +1002,6 @@
   <Preset Label="Alone at Last (scenarioGoal_Actor_Hidden_1Sim)" Value="275069" />
   <Preset Label="Have {0.Money} (scenarioGoal_Actor_HouseholdFunds_1mil)" Value="275107" />
   <Preset Label="scenarioGoal_Actor_Career_Hidden_Business_CEO_PrimarySim" Value="275688" />
-  <Preset Label="Exchange Vows (eventActivity_Actor_Custom_State_Wedding_Vows)" Value="275990" />
-  <Preset Label="Walk Down the Aisle (eventActivity_IntObject_Wedding_Custom_State_WalkAisle)" Value="275997" />
-  <Preset Label="Cut the Cake (eventActivity_IntObject_Wedding_Custom_State_CutCake)" Value="275998" />
-  <Preset Label="First Dance (eventActivity_IntObject_Wedding_Custom_State_FirstDance)" Value="275999" />
-  <Preset Label="goal_HighSchool_Active_GetDetention_Hidden" Value="276712" />
   <Preset Label="Milk a Cowplant (whim_FearConfrontation_Cowplant)" Value="277246" />
   <Preset Label="Extinguish Fire (whim_FearConfrontation_Fire)" Value="277503" />
   <Preset Label="Fight a Ghost (whim_FearConfrontation_Ghost)" Value="277563" />
@@ -1013,28 +1018,16 @@
   <Preset Label="One from the couple becomes a CEO, the other becomes an Angel Investor (Investor Track of Business Career) (scenarioGoal_CompoundAll_Career_Business_CEO_and_AngelInvestor)" Value="278998" />
   <Preset Label="scenarioGoal_Actor_Career_Hidden_Business_AngelInvestor_PrimarySim" Value="279013" />
   <Preset Label="Couple gets divorced (scenarioGoal_MultipleSimsInRelationship_Divorced_PrimarySim)" Value="279024" />
-  <Preset Label="Blow Bubbles (eventActivity_IntObject_Wedding_Custom_State_BlowBubbles)" Value="280122" />
-  <Preset Label="Dancing (eventActivity_IntObject_Wedding_Custom_State_Dancing)" Value="280123" />
-  <Preset Label="Drinks (eventActivity_IntObject_Wedding_Custom_State_HaveDrinks)" Value="280124" />
-  <Preset Label="Celebration Feast (eventActivity_IntObject_Wedding_Custom_State_Meal)" Value="280125" />
-  <Preset Label="Have Speeches (eventActivity_IntObject_Wedding_Custom_State_Speeches)" Value="280126" />
-  <Preset Label="Spousal Kiss (eventActivity_IntObject_Wedding_Custom_State_SpousalKiss)" Value="280127" />
-  <Preset Label="Throw Rice (eventActivity_IntObject_Wedding_Custom_State_ThrowRice)" Value="280128" />
-  <Preset Label="Have Toasts (eventActivity_IntObject_Wedding_Custom_State_HaveToasts)" Value="280129" />
   <Preset Label="Sims get married and have no negative Sentiments between them, and their relationship is super solid as Soulmates! (scenarioGoal_MultipleSimsInRelationship_GotMarriedANDNoNegativeSentimentsANDSoulmates_Hidden_PrimarySim)" Value="280215" />
   <Preset Label="Sims get married and have no negative Sentiments between them (scenarioGoal_MultipleSimsInRelationship_GotMarriedANDNoNegativeSentimentsNOTSoulmates_PrimarySim)" Value="280217" />
   <Preset Label="Sims get married but have unresolved negative Sentiments between them (scenarioGoal_MultipleSimsInRelationship_GotMarriedANDNegativeSentiments_PrimarySim)" Value="280219" />
   <Preset Label="Sims break up before the wedding (scenarioGoal_MultipleSimsInRelationship_BrokeOffEngagement_PrimarySim)" Value="280237" />
   <Preset Label="Sims break up during the wedding (scenarioGoal_MultipleSimsInRelationship_LeftAtAltar_PrimarySim)" Value="280238" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_Honeymooners)" Value="280569" />
-  <Preset Label="Morning Class Ends In... (goal_Event_HighSchool_Active_Timer_Class1)" Value="280609" />
-  <Preset Label="Afternoon Class Ends In... (goal_Event_HighSchool_Active_Timer_Class2)" Value="280610" />
-  <Preset Label="Morning Free Time Ends In... (goal_Event_HighSchool_Active_Timer_EarlyMorning)" Value="280612" />
-  <Preset Label="Have a Drink (whim_HaveDrink)" Value="280649" />
+  <Preset Label="Have a Drink (Whim_HaveDrink)" Value="280649" />
   <Preset Label="Married Sims Woohoo while on vacation (scenarioGoal_Actor_Buff_Honeymooners_MarriedWoohooVacation)" Value="280798" />
   <Preset Label="scenarioGoal_MultipleSimsInRelationship_Hidden_Honeymooners_Brokenup-Engaged" Value="280804" />
   <Preset Label="Be Friendly with a Non-Household Sim (whim_BeFriendly_NonHousehold)" Value="280980" />
-  <Preset Label="Attend Class (whim_AttendClass)" Value="280995" />
   <Preset Label="Cook Acarajé, Pão de Queijo, or Brigadeiro together with at least one other Sim (scenarioGoal_CraftObject_CarnavalFood)" Value="281035" />
   <Preset Label="Be Mean to a Friend (whim_MeanSim_ToFriend)" Value="281048" />
   <Preset Label="Be Mean to a Good Sim (whim_MeanSim_toGoodSim)" Value="281049" />
@@ -1043,7 +1036,6 @@
   <Preset Label="Buy a Rocket Ship (whim_BuyRocketShip)" Value="281081" />
   <Preset Label="Buy THE Expensive Violin (whim_BuyViolin_Expensive)" Value="281082" />
   <Preset Label="Chat with a Child (whim_ChatChildSim)" Value="281092" />
-  <Preset Label="Chat with other Students (want_ChatTeenStudent)" Value="281094" />
   <Preset Label="Make Something Greater Than Poor Quality (whim_Craft_NonPoorObject)" Value="281096" />
   <Preset Label="Hold Hands With {2.SimFirstName} (whim_HoldHand)" Value="281108" />
   <Preset Label="Go to Work\nFeeling Confident (whim_GoToWork_Generic_Confident)" Value="281756" />
@@ -1092,51 +1084,24 @@
   <Preset Label="Initial Sims are broken up (scenarioGoal_Actor_Relationship_RomCom_Brokenup)" Value="282316" />
   <Preset Label="Initial Sims are Soulmates (scenarioGoal_Actor_Relationship_RomCom_Soulmates)" Value="282327" />
   <Preset Label="Win a Competitive Game (whim_WinGame)" Value="282338" />
-  <Preset Label="Ask For Details About Careers from Visiting Professionals (goal_HighSchool_Active_AskCareerDetails)" Value="282390" />
-  <Preset Label="Discuss Future with your Teacher (goal_HighSchool_Active_DiscussFuture)" Value="282391" />
-  <Preset Label="goal_Event_HighSchool_Active_Main_Wait" Value="282479" />
-  <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_PrimarySim_1)" Value="282480" />
-  <Preset Label="Learn About New School From Principal (goal_Event_HighSchool_Active_GetClassList)" Value="282610" />
-  <Preset Label="Talk To Teacher About Curriculum (goal_Event_HighSchool_Active_TalkToTeacher)" Value="282612" />
   <Preset Label="Get into a Relationship (whim_GetIntoRelationship)" Value="282620" />
   <Preset Label="Listen to Music (whim_ListentoMusic)" Value="282671" />
-  <Preset Label="Serve Tea (Goal_PrePostWeddingParty_Tea)" Value="282715" />
   <Preset Label="Sim becomes a Celebrity Chef, despite the danger (scenarioGoal_Actor_Career_CelebrityChef)" Value="282938" />
   <Preset Label="Sim becomes a Celebrity Mixologist, a safer choice (scenarioGoal_Actor_Career_CelebrityMixologist)" Value="282940" />
   <Preset Label="Have {0.Money} (scenarioGoal_Actor_HouseholdFunds_400k)" Value="282987" />
-  <Preset Label="Use Photo Booth (situation_goal_HSProm_UsePhotobooth)" Value="283055" />
-  <Preset Label="Show Off Outfit (goal_HSProm_ShowOffOutfit)" Value="283354" />
-  <Preset Label="Lunch Ends In... (goal_Event_HighSchool_Active_Lunch)" Value="283617" />
   <Preset Label="Discuss Fears after Fulfilling Wants (whim_FearConfrontation_Unfulfilled)" Value="283627" />
   <Preset Label="Discuss Fears of Death (whim_FearConfrontation_Death_DiscussFears)" Value="283668" />
   <Preset Label="Give a Death Flower to the Grim Reaper (whim_FearConfrontation_Death_GiveFlower)" Value="283681" />
-  <Preset Label="Set Expectations with Parents (whim_FearConfrontation_DisappointingParents)" Value="283683" />
   <Preset Label="Become Recognized for Work (whim_FearConfrontation_Failure)" Value="283684" />
-  <Preset Label="Lunch Ends In... (goal_Event_HighSchool_Active_Lunch_CareerDay)" Value="283827" />
-  <Preset Label="Career Day Ends In... (goal_Event_HighSchool_Active_Timer_CareerDay)" Value="283828" />
-  <Preset Label="Gossip With Other Sims (want_GossipSim)" Value="283839" />
   <Preset Label="Sim gets to level 3 of any Career, has 3 Friends, and completes 2 Milestones of any Aspiration (scenarioGoal_CompoundAll_CareerFriendshipAspiration)" Value="283911" />
   <Preset Label="Sim completes an Aspiration (scenarioGoal_Actor_Aspiration_Hidden_Any_2Levels_PrimarySim)" Value="283914" />
   <Preset Label="Sim has {0.Number} friends (scenarioGoal_Actor_Relationship_Hidden_Friends_3_PrimarySim)" Value="283917" />
-  <Preset Label="Meet Fellow Classmates (want_MeetClassmates)" Value="283920" />
-  <Preset Label="Make a New Teen Friend (want_newfriend_teen)" Value="283931" />
-  <Preset Label="Sneak Out (want_window_SneakOut)" Value="283932" />
-  <Preset Label="Cheer Someone Up (want_CheerUp)" Value="283933" />
-  <Preset Label="List an outfit on Trendi (want_phone_ListOutfit)" Value="283934" />
-  <Preset Label="Reach 100 Followers (want_SocialMediaFollowers_10)" Value="284086" />
-  <Preset Label="Enjoy the Pier Rides (want_TeenFun)" Value="284087" />
   <Preset Label="Attend a Party (whim_AttendParty)" Value="284164" />
   <Preset Label="Host a Party (whim_HostParty)" Value="284165" />
-  <Preset Label="Fire Drill Ends In... (goal_Event_HighSchool_Active_Timer_FireDrill)" Value="285114" />
-  <Preset Label="Grab a Plate of Dessert (Goal_PrePostWeddingParty_Dessert)" Value="285620" />
   <Preset Label="Host a Party! Plan a Social Event through your Phone. (scenarioGoal_Actor_Situation_CarnavalParty)" Value="285792" />
   <Preset Label="Have a Sim Dance to Carnaval Beats (scenarioGoal_Actor_Buff_CarnavalDance)" Value="285797" />
   <Preset Label="Successfully Socialize with a new Sim (whim_SuccessfulSocialWithAcquaintance)" Value="285932" />
-  <Preset Label="Work on Awkwardness (whim_Mirror_WorkOnAwkwardness)" Value="285934" />
-  <Preset Label="Confess to Being Socially Awkward (whim_ConfessAwkwardness)" Value="285937" />
-  <Preset Label="Complete Homework while Focused (Whim_FearConfrontation_Homework)" Value="286000" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_MissingRoles_PrimarySim_1)" Value="286006" />
-  <Preset Label="Clean the Whiteboard (want_CleanWhiteboard)" Value="286226" />
   <Preset Label="infantMilestonesGoal_Target_FineMotor_Waving" Value="286588" />
   <Preset Label="infantMilestonesGoal_Target_PeedOnParent" Value="286589" />
   <Preset Label="infantMilestonesGoal_Target_Social_BlowKiss" Value="286591" />
@@ -1154,8 +1119,6 @@
   <Preset Label="infantMilestones_ZoneGoal_BirthAtHospital" Value="286627" />
   <Preset Label="infantMilestones_ZoneGoal_FirstVacation" Value="286628" />
   <Preset Label="infantMilestones_ZoneGoal_TravelToPark" Value="286629" />
-  <Preset Label="Exchange Vows (eventGoal_Custom_State_Wedding_ExchangeVows)" Value="287175" />
-  <Preset Label="Plant a Stink Capsule in a Locker (whim_PrankLocker)" Value="287220" />
   <Preset Label="Gain Friendly Relationship with a Family Member (whim_GainRel_Family)" Value="287235" />
   <Preset Label="The couple are Soulmates and one Sim is CEO (scenarioGoal_Actor_Career_Business_CEO_Soulmates_PrimarySim)" Value="287311" />
   <Preset Label="The couple is divorced and one Sim becomes CEO (scenarioGoal_Actor_Career_Business_CEO_NotMarried_PrimarySim)" Value="287312" />
@@ -1175,16 +1138,11 @@
   <Preset Label="Miss Work (whim_MissWork)" Value="287491" />
   <Preset Label="Make a New Friend (Whim_Make_A_New_Friend)" Value="287583" />
   <Preset Label="Have a Baby (Whim_Have_A_Child)" Value="287584" />
-  <Preset Label="Skip Class (Want_Teen_SkipClass)" Value="287746" />
   <Preset Label="A Sim makes it to the Comedian branch but their initial partner moved out or is deceased (scenarioGoal_CompoundAll_RomCom_SoloComedian)" Value="287982" />
   <Preset Label="A Sim makes it to the Comedian branch and is Soulmates with their initial partner Sim (scenarioGoal_CompoundAll_RomCom_SoulMatesComedian)" Value="287992" />
   <Preset Label="A Sim becomes a Comedian and gets their initial romantic relationship to Lovers or better (scenarioGoal_CompoundAll_RomCom_LoversComedian)" Value="287993" />
   <Preset Label="A Sim becomes a Comedian and broke up with their initial romantic partner (scenarioGoal_CompoundAll_RomCom_BrokenupComedian)" Value="287994" />
-  <Preset Label="Complete After School Task While Happy (whim_FearConfrontation_Failing_AfterSchool)" Value="288086" />
-  <Preset Label="Complete Extra Credit (whim_FearConfrontation_Failing_Class)" Value="288090" />
-  <Preset Label="Claim a Locker (goal_Event_HighSchool_Active_ClaimLocker)" Value="288104" />
   <Preset Label="Figure Out Differences with Other Sims (whim_FearConfrontation_BeingJudged)" Value="288463" />
-  <Preset Label="Prepare for Test (whim_FearConfrontation_FailingTests)" Value="288486" />
   <Preset Label="Game Over for this household (scenarioGoal_Actor_Hidden_UnviableHousehold_NoTeenager)" Value="289032" />
   <Preset Label="Sims break up before the wedding (scenarioGoal_MultipleSimsInRelationship_NoRomance)" Value="289034" />
   <Preset Label="scenarioGoal_Actor_Skills_Hidden_Level10_1_FemaleYAE" Value="289420" />
@@ -1193,20 +1151,11 @@
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_Teenager)" Value="289586" />
   <Preset Label="A Sim Writes a Skill Book (scenarioGoal_CraftObject_SkillBook)" Value="289666" />
   <Preset Label="Sims break up before the wedding (scenarioGoal_Actor_Relationship_EngagedConflict_BreakUpNegative)" Value="289713" />
-  <Preset Label="Serve Detention After School (goal_Event_HighSchool_Active_ServeDetention)" Value="289730" />
   <Preset Label="A Sim Mentors a Teenager in skill 5 times (scenarioGoal_Actor_Statistic_Mentor_Count)" Value="289960" />
   <Preset Label="Missing a Sim who is needed for this Scenario (scenarioGoal_Actor_Hidden_MissingRoles_Female_YAE)" Value="289974" />
   <Preset Label="scenarioGoal_Actor_Hidden_MissingRoles_Female_Teen" Value="289975" />
-  <Preset Label="Chat With a Crush (Whim_Crush_TalkTo)" Value="290015" />
-  <Preset Label="Ask a Crush Out (Whim_Crush_AskOut)" Value="290016" />
   <Preset Label="Game Over for this household (scenarioGoal_Actor_Career_Hidden_Musician)" Value="290385" />
   <Preset Label="A Sim is level 10 in a Mentorable Skill (scenarioGoal_Actor_Skills_Hidden_Level10_Mentor_FemaleYAEonly)" Value="290534" />
-  <Preset Label="Gossip with Someone (goal_HSProm_Social_Gossip)" Value="291247" />
-  <Preset Label="Talk to Someone (goal_HSProm_Social_Chat)" Value="291248" />
-  <Preset Label="Dance with someone (goal_HSProm_Social_DanceWith)" Value="291249" />
-  <Preset Label="Dance (goal_IntObject_HSProm_Dance)" Value="291252" />
-  <Preset Label="Eat Something (goal_IntObject_HSProm_EatSomething)" Value="291253" />
-  <Preset Label="Grab a Drink (goal_IntObject_HSProm_DrinkSomething)" Value="291254" />
   <Preset Label="Eat the &quot;Forbidden Fruit of the PlantSim&quot; from your inventory (scenarioGoal_Actor_PlantSimScenario_EatForbiddenFruit)" Value="292102" />
   <Preset Label="Live the PlantSim Life (scenarioGoal_CompoundAll_PlantSim_Main)" Value="292371" />
   <Preset Label="Harvest from a Perfect Quality plant (scenarioGoal_Actor_PlantSimScenario_ExcellentHarvest)" Value="292376" />
@@ -1215,18 +1164,11 @@
   <Preset Label="Satisfy Water Needs (situationGoalObjectInteraction_PlantSimScenario_DrinkWater)" Value="292437" />
   <Preset Label="Absorb solar energy from plants (situationGoalObjectInteraction_PlantSimScenario_AbsorbPlants)" Value="292438" />
   <Preset Label="Care for Plants as a PlantSim (situationGoalObjectInteraction_PlantSimScenario_PlantCare)" Value="292890" />
-  <Preset Label="Take a Picture in the Photo Booth (whimGoal_IntObject_HSProm_UsePhotobooth)" Value="292982" />
-  <Preset Label="Dance at Prom (whimGoal_IntObject_HSProm_Dance)" Value="292983" />
-  <Preset Label="Have a Drink at Prom (whimGoal_IntObject_HSProm_DrinkSomething)" Value="292984" />
   <Preset Label="scenarioGoal_Actor_PlantSimScenario_NoBuffNoFruit" Value="293425" />
-  <Preset Label="Attend Math Class (goal_Event_HighSchool_Active_AttendClass_Morning)" Value="293974" />
-  <Preset Label="Attend Science Class (goal_Event_HighSchool_Active_AttendClass_Afternoon)" Value="293976" />
   <Preset Label="Set Up a Child-Friendly House (scenarioGoal_Onboarding_ParentingPredicament_Phase1)" Value="294402" />
   <Preset Label="Get Leonardo and Sofia into a Focused Mood (scenarioGoal_Onboarding_ParentingPredicament_2_FocusedMood)" Value="294403" />
   <Preset Label="Pick a New Aspiration Track for Sofia and Leonardo and Complete the First Level (scenarioGoal_Onboarding_ParentingPredicament_Phase3_NewChildAspiration_Sofia)" Value="294404" />
   <Preset Label="Throw a Birthday Party for Leonardo and Sofia (scenarioGoal_Onboarding_ParentingPredicament_Phase4_ThrowBirthdayParty)" Value="294405" />
-  <Preset Label="Vote For Prom Jester (goal_Event_HSProm_VoteJester)" Value="294462" />
-  <Preset Label="Vote For Prom Royalty (goal_Event_HSProm_VoteRoyalty)" Value="294463" />
   <Preset Label="Join the Tech Guru Career (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_1JoinCareer)" Value="294616" />
   <Preset Label="Control your Anger (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_3ManageMoodlets)" Value="294619" />
   <Preset Label="Achieve level 4 Programming Skill (scenarioGoal_Onboarding_StuckInTheirShadow_Phase1_4Programming)" Value="294620" />
@@ -1266,9 +1208,6 @@
   <Preset Label="Freshen Up (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase5_5_option1_MirrorFreshenUp)" Value="295264" />
   <Preset Label="Psych Self Up (scenarioGoal_ObjectInteraction_Onboarding_NewInTown_Phase5_5_option2_MirrorPsychUp)" Value="295265" />
   <Preset Label="Complete the Party (scenarioGoal_Compound_Onboarding_NewInTown_Phase6_1_FinishParty)" Value="295266" />
-  <Preset Label="Post On Social Bunny (Want_Teen_SocialPost)" Value="295418" />
-  <Preset Label="Attend Exam (goal_Event_HighSchool_Active_TakeExam_Morning)" Value="295489" />
-  <Preset Label="Attend Exam (goal_Event_HighSchool_Active_TakeExam_Afternoon)" Value="295490" />
   <Preset Label="Start a House Party (scenarioGoal_Onboarding_NewInTown_Phase5_6_option1_StartHouseParty)" Value="295589" />
   <Preset Label="Start a Dinner Party (scenarioGoal_Onboarding_NewInTown_Phase5_6_option2_StartDinnerParty)" Value="295590" />
   <Preset Label="Finish Party with Silver Score (scenarioGoal_Onboarding_NewInTown_Phase6_1_option2_EndPartySilver)" Value="295593" />
@@ -1447,12 +1386,6 @@
   <Preset Label="Reach Level 2 Comedy Skill (scenarioGoal_Onboarding_NewInTown_Phase4_8_ComedySkill2)" Value="299964" />
   <Preset Label="Reach Level 2 Mischief Skill (scenarioGoal_Onboarding_NewInTown_Phase4_9_MischiefSkill2)" Value="299965" />
   <Preset Label="Complete Daily Task (scenarioGoal_Onboarding_StuckInTheirShadow_Phase2_1WorkTask)" Value="299980" />
-  <Preset Label="Attend Social Studies Class (goal_Event_HighSchool_Active_AttendClass_SocialStudies)" Value="300031" />
-  <Preset Label="Learn in Art Class (goal_Event_HighSchool_Active_AttendClass_Art)" Value="300032" />
-  <Preset Label="Attend Business Class (goal_Event_HighSchool_Active_AttendClass_Business)" Value="300033" />
-  <Preset Label="Attend Language Arts Class (goal_Event_HighSchool_Active_AttendClass_LanguageArts)" Value="300035" />
-  <Preset Label="Attend Computer Science Class (goal_Event_HighSchool_Active_AttendClass_ComSci)" Value="300036" />
-  <Preset Label="Attend Foreign Language Class (goal_Event_HighSchool_Active_AttendClass_ForeignLanguage)" Value="300037" />
   <Preset Label="Imaginary Play, Tell Secret or Threaten to Throw Away your Stuffed Animal (situationGoalObjectInteraction_ChildhoodFriendsScenario_4)" Value="300046" />
   <Preset Label="Do Homework (situationGoalObjectInteraction_ChildhoodFriendsScenario_6)" Value="300048" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase3_ImproveWorsenComplete1" Value="300061" />
@@ -1476,14 +1409,6 @@
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_7CanQuit" Value="300349" />
   <Preset Label="Reach Level 7\nProgramming Skill (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_5Program7)" Value="300350" />
   <Preset Label="Reach Level 9\nProgramming Skill (scenarioGoal_Onboarding_StuckInTheirShadow_Phase4b_5Program9)" Value="300351" />
-  <Preset Label="Study for Exams (goal_Event_HighSchool_Active_StudyForExam_Morning)" Value="300499" />
-  <Preset Label="Be Friendly with a Student (goal_Event_HighSchool_Active_BeFriendly_Student)" Value="300500" />
-  <Preset Label="Be Friendly with a Faculty Member (goal_Event_HighSchool_Active_BeFriendly_Teacher)" Value="300501" />
-  <Preset Label="Perform the T-Pose Challenge (goal_Event_HighSchool_Active_TPose_Morning)" Value="300502" />
-  <Preset Label="Work out on Treadmill (goal_Event_HighSchool_Active_WorkOut_Treadmill)" Value="300503" />
-  <Preset Label="Work Out on Exercise Machine (goal_Event_HighSchool_Active_WorkOut_Machine)" Value="300529" />
-  <Preset Label="Study for Exams (goal_Event_HighSchool_Active_StudyForExam_Afternoon)" Value="300546" />
-  <Preset Label="Perform the T-Pose Challenge (goal_Event_HighSchool_Active_TPose_Afternoon)" Value="300548" />
   <Preset Label="Proud Parent (scenarioGoal_CompoundAll_ProudParent)" Value="300582" />
   <Preset Label="Have or adopt a baby! (scenarioGoal_ObjectInteraction_ProudParent_HaveBaby)" Value="300584" />
   <Preset Label="Take care of your baby (scenarioGoal_ObjectInteraction_ProudParent_BabyCare)" Value="300585" />
@@ -1512,7 +1437,7 @@
   <Preset Label="Ask Someone on a Date (scenarioGoal_Onboarding_NewInTown_Phase5b_1b_StartDate)" Value="300801" />
   <Preset Label="Finish Date (scenarioGoal_Onboarding_NewInTown_Phase5b_1c_FinishDate)" Value="300802" />
   <Preset Label="Main Goal: \nCall Guests to Meal prepared on the Grill (situation_goal_CookOut_Main_CallToMeal)" Value="300826" />
-  <Preset Label="Have a Girlfriend or Boyfriend (scenarioGoal_Onboarding_NewInTown_Phase6_3b_HavePartner)" Value="300918" />
+  <Preset Label="Have a Romantic Partner (scenarioGoal_Onboarding_NewInTown_Phase6_3b_HavePartner)" Value="300918" />
   <Preset Label="Woohoo with Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase6_4_Woohoo)" Value="300920" />
   <Preset Label="Buy Microphone or Instrument (scenarioGoal_PurchasedObject_Onboarding_NewInTown_Phase1_3_BuyMicrophoneOrInstrument)" Value="300929" />
   <Preset Label="Buy Some Decor (scenarioGoal_PurchasedObject_Onboarding_NewInTown_Phase1_4_BuyDecor)" Value="300930" />
@@ -1551,7 +1476,6 @@
   <Preset Label="Listen to SPop Music (whim_LikedMusic_ListenTo_SPop)" Value="301466" />
   <Preset Label="Listen to Winter Holiday Music (whim_LikedMusic_ListenTo_WinterMusic)" Value="301467" />
   <Preset Label="Listen to World Music (whim_LikedMusic_ListenTo_World)" Value="301468" />
-  <Preset Label="Listen to Cottagecore Music (Whim_LikedMusic_ListenTo_CottageCore)" Value="301488" />
   <Preset Label="Invite Lewis Over (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_InviteLewis)" Value="301555" />
   <Preset Label="Ask about Career (scenarioGoalRanInteractionOnTargetedSim_OBS_StuckInTheirShadow_AskAboutCareer)" Value="301595" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_6AstronautCheck" Value="301597" />
@@ -1592,11 +1516,9 @@
   <Preset Label="Get to Know Someone (scenarioGoal_RanInteractionOnTargetedSim_Onboarding_NewInTown_Phase1_5_GetToKnow)" Value="303511" />
   <Preset Label="Unwind\nwith your Hobby (situationGoal_ObjectCount_StuckintheirShadow_Phase1_Telescope)" Value="303521" />
   <Preset Label="lifeMilestoneGoal_Rel_Toddler_FirstFriend" Value="303946" />
-  <Preset Label="Let Go of Resentment (whim_FearConfrontation_DisappointingParents_DeceasedParent)" Value="304165" />
   <Preset Label="Lock your Laptop (scenarioGoal_ObjectInteraction_Onboarding_StuckInTheirShadow_LockPC)" Value="304798" />
   <Preset Label="scenarioGoal_Onboarding_StuckInTheirShadow_Phase4a_5OwnsPet" Value="304805" />
   <Preset Label="Place Space Slug (situationGoal_ObjectCount_StuckintheirShadow_Phase4a_SpaceSlug)" Value="304809" />
-  <Preset Label="Travel to Auditorium (goal_Event_HighSchool_Active_TravelToAuditorium)" Value="304830" />
   <Preset Label="Buy Microphone or Instrument (scenarioGoal_ObjectCount_NewInTown_Phase1_3_BuyInstrumentMicrophone)" Value="304868" />
   <Preset Label="Buy Some Decor (scenarioGoal_ObjectCount_NewInTown_Phase1_4_BuyDecor)" Value="304869" />
   <Preset Label="Buy At Least One Kid's Toy (scenarioGoal_ObjectCount_ParentingPredicaments_2_BuyChildToys)" Value="304870" />
@@ -1707,25 +1629,14 @@
   <Preset Label="lifeMilestoneGoal_Career_ReachedTopAfterSchoolActivity" Value="311613" />
   <Preset Label="Have Sims Watch TV at the Same Time (goal_HaveTwoSimsWatchTV)" Value="311732" />
   <Preset Label="lifeMilestoneGoal_Actor_LostFirstTooth" Value="312180" />
-  <Preset Label="lifeMilestoneGoal_Trait_BecameWerewolf" Value="312388" />
-  <Preset Label="lifeMilestoneGoal_Trait_HighSchoolDroppedOut" Value="312392" />
-  <Preset Label="lifeMilestoneGoal_Trait_HighSchoolExpelled" Value="312393" />
-  <Preset Label="lifeMilestoneGoal_Trait_HighSchoolGraduated" Value="312394" />
   <Preset Label="lifeMilestoneGoal_Trait_BecamePlantSim" Value="312395" />
   <Preset Label="lifeMilestoneGoal_Trait_LearnedToRideBike" Value="312396" />
-  <Preset Label="lifeMilestoneGoal_Trait_BeganPuberty" Value="312397" />
   <Preset Label="Listen to Soul Music (whim_LikedMusic_ListenTo_Oldies)" Value="312571" />
   <Preset Label="Gush About New Baby (Goal_BabyShower_Gush)" Value="312778" />
   <Preset Label="lifeMilestoneGoal_Trait_SelfDiscovery" Value="313003" />
   <Preset Label="Get Some Sleep (goal_Sleepover_GetSleep)" Value="313350" />
-  <Preset Label="lifeMilestoneGoal_Actor_PromRoyalty" Value="313432" />
-  <Preset Label="lifeMilestoneGoal_Actor_WonVillageFair" Value="313472" />
-  <Preset Label="lifeMilestoneGoal_Actor_BeatGreg" Value="313476" />
-  <Preset Label="lifeMilestoneGoal_Actor_SmackedByAgnes" Value="313477" />
   <Preset Label="lifeMilestoneGoal_ZoneLoaded_ForgottenGrotto" Value="313479" />
   <Preset Label="lifeMilestoneGoal_ZoneLoaded_SylvanGlade" Value="313480" />
-  <Preset Label="lifeMilestoneGoal_Trait_WerewolfPackLeaderA" Value="313483" />
-  <Preset Label="lifeMilestoneGoal_Trait_WerewolfPackLeaderB" Value="313484" />
   <Preset Label="infantMilestonesGoal_Target_Generic_FirstBubbleBath" Value="314042" />
   <Preset Label="infantMilestonesGoal_Target_Generic_FirstBath" Value="314043" />
   <Preset Label="Confess to Cheating (romanticWhims_Targeted_Loyal_Confess)" Value="315805" />
@@ -1755,8 +1666,10 @@
   <Preset Label="infantMilestonesGoal_Event_Dance" Value="323251" />
   <Preset Label="Use Celebration Cannon (goal_BabyShower_CelebrationCannon)" Value="324342" />
   <Preset Label="lifeMilestoneGoal_Rel_RetroactiveOnly_HadSim" Value="325451" />
+  <Preset Label="Get a career (PivotalMomentGoal_Actor_Money_HaveCareer)" Value="326766" />
+  <Preset Label="Earn {0.Money} (PivotalMomentGoal_SimoleonsEarned_Money_Simoleons)" Value="326823" />
   <Preset Label="infantMilestonesGoal_Event_BlowRaspberry" Value="327163" />
-  <Preset Label="Take Photos (goal_FamilyReunion_TakePhotos)" Value="328686" />
+  <Preset Label="Take Photos (Goal_FamilyReunion_TakePhotos)" Value="328686" />
   <Preset Label="lifeMilestoneGoal_IntObject_Cowplant" Value="329360" />
   <Preset Label="lifeMilestoneGoal_Actor_Resurrected" Value="329410" />
   <Preset Label="Take Photos (Goal_BabyShower_TakingPictures)" Value="331863" />
@@ -1767,4 +1680,344 @@
   <Preset Label="lifeMilestoneGoal_Career_Retired" Value="333517" />
   <Preset Label="infantMilestonesGoal_Event_FirstVisitToFamilyMember" Value="334935" />
   <Preset Label="lifeMilestoneGoal_Rel_Widowed" Value="335739" />
+  <Preset Label="Learn or Level up a Life Skill (pivotalMomentsGoal_Actor_SkillGain_LearnOrLevelUpLife)" Value="336785" />
+  <Preset Label="Learn or Level up a Social Skill (pivotalMomentsGoal_Actor_SkillGain_LearnOrLevelUpSocial)" Value="336786" />
+  <Preset Label="Learn or Level up a Creative Skill (pivotalMomentsGoal_Actor_SkillGain_LearnOrLevelUpCreative)" Value="336787" />
+  <Preset Label="Use a Toilet (pivotalMomentGoal_ObjectInteraction_Needs_Toilet)" Value="336801" />
+  <Preset Label="Read a book or watch TV (pivotalMomentGoal_ObjectInteraction_Needs_BookTv)" Value="336803" />
+  <Preset Label="Take a Shower or Bath (pivotalMomentGoal_ObjectInteraction_Needs_Shower)" Value="336804" />
+  <Preset Label="Take a Nap (pivotalMomentGoal_ObjectInteraction_Needs_Nap)" Value="336805" />
+  <Preset Label="Order a Pizza (pivotalMomentGoal_ObjectInteraction_Phone_Pizza)" Value="337300" />
+  <Preset Label="Invite a Sim to Hangout (pivotalMomentGoal_ObjectInteraction_Phone_Invite)" Value="337303" />
+  <Preset Label="Chat with a Sim or Play a Game (pivotalMomentGoal_ObjectInteraction_Phone_ChatOrGame)" Value="337304" />
+  <Preset Label="Complete a Task in Any Aspiration (pivotalMomentsGoal_Actor_Aspiration_CompleteAspirationLevel)" Value="337328" />
+  <Preset Label="Complete a Want (pivotalMomentsGoal_Actor_Aspiration_CompleteWhim)" Value="337650" />
+  <Preset Label="Spend Satisfaction Points (pivotalMomentsGoal_Actor_Aspiration_SpendPoints)" Value="337661" />
+  <Preset Label="Travel to a Public Venue (situationGoalZoneLoaded_PivotalMoments_TravelPublicVenue)" Value="337664" />
+  <Preset Label="Craft an Object (pivotalMomentsGoal_CraftObject_Money_CraftItem)" Value="337846" />
+  <Preset Label="Sell an Item (pivotalMomentGoal_SimoleonsEarned_Money_SellCraftedItem)" Value="337847" />
+  <Preset Label="Cook a Meal or Have a Quick Meal (pivotalMomentsGoal_CraftObject_Needs_Cook)" Value="338499" />
+  <Preset Label="Improve Grandmother's Mood (scenarioGoal_Actor_Inheritance_Phase1_TalkToGrandmother)" Value="338709" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase1_DinnerParty" Value="338711" />
+  <Preset Label="Heal Negative Sentiments (scenarioGoal_MultipleSimsInRelationship_Inheritance_Phase1_NoNegativeSentiments)" Value="338714" />
+  <Preset Label="Have Siblings Befriend Each Other (scenarioGoal_MultipleSimsInRelationship_Inheritance_Phase1_SiblingsFriends_Optional)" Value="338715" />
+  <Preset Label="Trash Talk Your Siblings to Grandmother (scenarioGoal_RanInteractionOnTargetedSim_Inheritance_TrashTalk)" Value="338717" />
+  <Preset Label="Have Siblings Apologize to Grandmother  (scenarioGoal_RanInteractionOnTargetedSim_Inheritance_Apologize)" Value="338718" />
+  <Preset Label="Get Through a Dinner Party without Fighting (scenarioGoal_Actor_Inheritance_Phase1_DinnerParty_NoMeanSocial_Optional)" Value="338719" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase2_HasCareer_Sibling1" Value="338720" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase2_HasCareer_Sibling2" Value="338721" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase2_HasCareer_Sibling3" Value="338722" />
+  <Preset Label="Get a Job for All Siblings (scenarioGoal_Compound_Inheritance_Phase2_HasCareer)" Value="338725" />
+  <Preset Label="Find a Romantic Partner for Each Sibling (scenarioGoal_Compound_Inheritance_Phase2_HasRomanticPartner)" Value="338730" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase2_HasRomanticPartner_Sibling1" Value="338731" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase2_HasRomanticPartner_Sibling2" Value="338732" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase2_HasRomanticPartner_Sibling3" Value="338733" />
+  <Preset Label="Get Promoted (scenarioGoal_Actor_Inheritance_Phase2_GotPromoted_Optional)" Value="338734" />
+  <Preset Label="Heal Grandmother's Negative Sentiments (scenarioGoal_MultipleSimsInRelationship_Inheritance_Phase2_NoNegativeSentiment_Grandmother_Optional)" Value="338737" />
+  <Preset Label="Donate 10,000 Simoleons of Inheritance to Charity (scenarioGoal_Actor_Inheritance_Phase1_DonateMoney_Grandmother)" Value="338738" />
+  <Preset Label="Burn 50,000 Simoleons of Inheritance  (scenarioGoal_Actor_Inheritance_Phase2_BurnMoney_Grandmother)" Value="338739" />
+  <Preset Label="Read Inheritance Letter (scenarioGoal_ObjectInteraction_Inheritance_ReadLetter)" Value="338742" />
+  <Preset Label="Engrave Grandmother's Urn (End Scenario) (scenarioGoal_ObjectInteraction_Inheritance_EngraveEpitaph)" Value="338745" />
+  <Preset Label="Read Grandmother's Epitaph (scenarioGoal_ObjectInteraction_Inheritance_ReadEpitaph_End)" Value="338746" />
+  <Preset Label="Strengthen Grandmother's Connection to the Physical World (scenarioGoal_ObjectInteraction_Inheritance_StrengthenConnection)" Value="338747" />
+  <Preset Label="Release Grandmother's Spirit (scenarioGoal_ObjectInteraction_Inheritance_ReleaseSpirit)" Value="338748" />
+  <Preset Label="Donate Inheritance to Charity (scenarioGoal_Actor_Inheritance_Phase3a_DonateInheritance)" Value="338749" />
+  <Preset Label="Have Siblings Become Best Friends (scenarioGoal_MultipleSimsInRelationship_Inheritance_Phase3a_BestFriends_Siblings)" Value="338752" />
+  <Preset Label="Mourn Grandmother (scenarioGoal_ObjectInteraction_Inheritance_Mourn)" Value="338984" />
+  <Preset Label="Earn 10,000 Simoleons (scenarioGoal_SimoleonsEarned_Inheritance_Phase2_SimoleonsEarned)" Value="338985" />
+  <Preset Label="Add Grandmother's Ghost to Household (scenarioGoal_ObjectInteraction_Inheritance_AddGhost)" Value="338986" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase1_Hidden_Grandmother_FirstDramaNode" Value="339516" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase1_Hidden_Grandmother_FirstDramaNode_2" Value="339517" />
+  <Preset Label="Listen to R&amp;B (whim_LikedMusic_ListenTo_RnB)" Value="343180" />
+  <Preset Label="Have Siblings Fight (scenarioGoal_RanInteractionOnTargetedSim_Inheritance_FightItOut)" Value="345457" />
+  <Preset Label="Strengthen Grandmother's Connection to the Physical World (scenarioGoal_ObjectInteraction_Inheritance_Debug)" Value="345477" />
+  <Preset Label="Throw a Dinner Party (scenarioGoal_Compound_Inheritance_Phase1_DinnerParty)" Value="346087" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase1_DinnerParty_Sibling1" Value="346089" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase1_DinnerParty_Sibling2" Value="346090" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase1_DinnerParty_Sibling3" Value="346091" />
+  <Preset Label="Listen to Carnival Beats Music (whim_LikedMusic_ListenTo_Brazilian)" Value="346288" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase3_BringGrandma" Value="347321" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase3_BringSibling1" Value="347323" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase3_BringSibling2" Value="347324" />
+  <Preset Label="scenarioGoal_Actor_Inheritance_Phase3_BringSibling3" Value="347325" />
+  <Preset Label="Bring the Family Home (scenarioGoal_Compound_Inheritance_Phase3_BringEveryoneHome)" Value="347326" />
+  <Preset Label="Open the Career Panel (pivotalMomentsGoal_UIInteraction_OpenCareerPanel)" Value="353471" />
+  <Preset Label="Open the Aspiration Panel (pivotalMomentsGoal_UIInteraction_OpenAspirationPanel)" Value="353472" />
+  <Preset Label="Open the Needs Panel (pivotalMomentsGoal_UIInteraction_OpenNeedsPanel)" Value="353473" />
+  <Preset Label="Open the Skills Panel (pivotalMomentsGoal_UIInteraction_OpenSkillPanel)" Value="353474" />
+  <Preset Label="Open the Phone (pivotalMomentsGoal_UIInteraction_OpenPhone)" Value="353475" />
+  <Preset Label="Socialize with Another Sim (pivotalMomentGoal_ObjectInteraction_Needs_Socialize)" Value="354853" />
+  <Preset Label="Socialize with Sims (pivotalMomentGoal_ObjectInteraction_SocialAndTravel_Socialize)" Value="354854" />
+  <Preset Label="Meet {0.Number} Sim (pivotalMomentGoal_ObjectInteraction_SocialAndTravel_MeetSims)" Value="355985" />
+  <Preset Label="Take a Photo with your Phone (pivotalMomentsGoal_Actor_Phone_TakePhoto)" Value="356337" />
+  <Preset Label="situationGoal_ObjectCount_StuckintheirShadow_Phase4a_ReceivedMail_Wall" Value="356546" />
+  <Preset Label="scenarioGoal_Compound_StuckintheirShadow_Phase4a_ReceivedMail" Value="356547" />
+  <Preset Label="Go Home (situationGoalZoneLoaded_PivotalMoments_GoHome)" Value="357642" />
+  <Preset Label="Gain Momentum (whim_GainOnARoll)" Value="371658" />
+  <Preset Label="Practice a Skill (whim_PracticeASkill)" Value="371672" />
+  <Preset Label="Practice Until Perfect (whim_PracticeUntilPerfect)" Value="371673" />
+  <Preset Label="Level up a Skill (whim_LevelASkill)" Value="371674" />
+  <Preset Label="Go for a Mindful Walk (whimGoal_IntObject_PracticeMakesPerfect_GoForWalk)" Value="372602" />
+  <Preset Label="Refocus on Skills (whimGoal_IntObject_PracticeMakesPerfect_Refocus)" Value="372603" />
+  <Preset Label="Ask {0.Number} Sims about Ambrosia (r3Event_ObjectInteraction_AskAboutAmbrosia)" Value="377952" />
+  <Preset Label="Research Ambrosia on your Phone, a Tablet, or a Computer (r3Event_ObjectInteraction_ResearchAmbrosia)" Value="377953" />
+  <Preset Label="Plant a Snapdragon (r3Event_ObjectInteraction_Plant_SnapDragon)" Value="377954" />
+  <Preset Label="Read the Ambrosia Society's Newsletter (r3Event_ObjectInteraction_ReadMail)" Value="377955" />
+  <Preset Label="Buy The Grimophone (goalObjectCount_R3Event_PlaceGrammaphone)" Value="378834" />
+  <Preset Label="Summon the Grim Reaper (r3Event_ObjectInteraction_CallGrim)" Value="378835" />
+  <Preset Label="Plant an Apple (r3Event_ObjectInteraction_Plant_Apple)" Value="378895" />
+  <Preset Label="Plant a Cherry (r3Event_ObjectInteraction_Plant_Cherry)" Value="378896" />
+  <Preset Label="Catch {0.Number} Fish (r3Event_Actor_CatchFish)" Value="378897" />
+  <Preset Label="Fertilize 2 Plants (r3Event_ObjectInteraction_Fertilize)" Value="378898" />
+  <Preset Label="Fulfill an Aspiration Goal (r3Event_Actor_CompleteAspirationTask)" Value="379135" />
+  <Preset Label="Apply the Scare Seeker Lot Challenge to your Lot (r3Event_Actor_LotChallenge)" Value="379139" />
+  <Preset Label="Read the Intro in The Green Lady's Tome (r3Event_ObjectInteraction_ReadBook)" Value="379219" />
+  <Preset Label="Talk to {0.Number} Plants (r3Event_ObjectInteraction_TalkToPlant)" Value="379276" />
+  <Preset Label="Complete a Want (r3Event_Actor_HaveSatisfactionPoints)" Value="379288" />
+  <Preset Label="Cook Ambrosia (r3EventGoal_CraftObject_Ambrosia)" Value="380023" />
+  <Preset Label="Host a Social Event (r3Event_Actor_HostParty)" Value="380030" />
+  <Preset Label="Get a Silver or Better Result From the Party (r3Event_Actor_SilverParty)" Value="380031" />
+  <Preset Label="Wait for the Ambrosia Society Newsletter (goalObjectCount_R3Event_ReceivedMail)" Value="388640" />
+  <Preset Label="Order a Starter Flower Seed Packet (situationGoalPurchasedObject_R3Event_FlowerPacket)" Value="388644" />
+  <Preset Label="Order a Starter Fruit Seed Packet (situationGoalPurchasedObject_R3Event_FruitPacket)" Value="388646" />
+  <Preset Label="lifeMilestoneGoal_Rel_FirstMessAround" Value="388903" />
+  <Preset Label="Graft a Shoot to a Plant or Research Grafting (r3Event_ObjectInteraction_Graft_Orchid)" Value="389061" />
+  <Preset Label="Express Admiration (want_ExpressAdmiration)" Value="392231" />
+  <Preset Label="Have Deep Conversation (want_DeepConversation)" Value="392232" />
+  <Preset Label="Cook a recipe while level 3 or higher (r3EventGoal_CraftObject_Cooking_Quest2)" Value="394685" />
+  <Preset Label="Cook a recipe while level 4 or higher (r3EventGoal_CraftObject_Cooking_Quest4)" Value="394686" />
+  <Preset Label="Cook a recipe while level 5 or higher (r3EventGoal_CraftObject_Cooking_Quest6)" Value="394687" />
+  <Preset Label="Cook a recipe while level 7 or higher (r3EventGoal_CraftObject_Cooking_Quest8)" Value="394688" />
+  <Preset Label="Cook a recipe while level 10 (r3EventGoal_CraftObject_Cooking_Quest10)" Value="394689" />
+  <Preset Label="Cook a Gourmet Cooking recipe (r3EventGoal_CraftObject_GourmetCooking_Quest6)" Value="394690" />
+  <Preset Label="Cook a Gourmet Cooking recipe while level 4 or higher (r3EventGoal_CraftObject_GourmetCooking_Quest8)" Value="394691" />
+  <Preset Label="Cook a Gourmet Cooking recipe while level 7 (r3EventGoal_CraftObject_GourmetCooking_Quest10)" Value="394692" />
+  <Preset Label="Research a plant (r3Event_ObjectInteraction_ResearchPlant)" Value="394693" />
+  <Preset Label="Fish with Bait (r3Event_Actor_FishWithBait)" Value="395521" />
+  <Preset Label="Plant a Lily (r3Event_ObjectInteraction_Plant_Lily)" Value="395523" />
+  <Preset Label="Read the Ambrosia Society's Newsletter (r3Event_ObjectInteraction_ReadMail_Hidden)" Value="395753" />
+  <Preset Label="Order a Starter Fruit Seed Packet (situationGoalPurchasedObject_R3Event_FruitPacket_Hidden)" Value="395755" />
+  <Preset Label="Order a Starter Flower Seed Packet (situationGoalPurchasedObject_R3Event_FlowerPacket_Hidden)" Value="395845" />
+  <Preset Label="Become Inspired (situationGoalActor_HobbyClass_Mood_Inspired)" Value="396723" />
+  <Preset Label="Become Energized (situationGoalActor_HobbyClass_Mood_Energized)" Value="396724" />
+  <Preset Label="Become Confident (situationGoalActor_HobbyClass_Mood_Confident)" Value="396725" />
+  <Preset Label="Become Playful (situationGoalActor_HobbyClass_Mood_Playful)" Value="396726" />
+  <Preset Label="Become Focused (situationGoalActor_HobbyClass_Mood_Focused)" Value="396727" />
+  <Preset Label="Become Flirty (situationGoalActor_HobbyClass_Mood_Flirty)" Value="396728" />
+  <Preset Label="Ask about Hobbies and Skills (situationGoalSim_HobbyClass_AskAboutHobbiesSkills)" Value="396738" />
+  <Preset Label="Be Friendly with Sims (situationGoalSim_HobbyClass_BeFriendly)" Value="396739" />
+  <Preset Label="Have Attendees be Confident at the Same Time (situationGoalMultipleSimsInMood_HobbyClass_Confident)" Value="396934" />
+  <Preset Label="Have Attendees be Energized at the Same Time (situationGoalMultipleSimsInMood_HobbyClass_Energized)" Value="396935" />
+  <Preset Label="Have Attendees be Flirty at the Same Time (situationGoalMultipleSimsInMood_HobbyClass_Flirty)" Value="396936" />
+  <Preset Label="Have Attendees be Focused at the Same Time (situationGoalMultipleSimsInMood_HobbyClass_Focused)" Value="396937" />
+  <Preset Label="Have Attendees be Inspired at the Same Time (situationGoalMultipleSimsInMood_HobbyClass_Inspired)" Value="396938" />
+  <Preset Label="Have Attendees be Playful at the Same Time (situationGoalMultipleSimsInMood_HobbyClass_Playful)" Value="396939" />
+  <Preset Label="Take a Cutting of a Plant (r3Event_ObjectInteraction_Plant_TakeCutting)" Value="397164" />
+  <Preset Label="Catch an Angelfish (r3Event_Actor_Angelfish)" Value="397684" />
+  <Preset Label="Obtain a Death Flower (r3Event_Actor_DeathFlower)" Value="397685" />
+  <Preset Label="Purchase a Potion of Youth (r3Event_Actor_YouthPotion)" Value="397686" />
+  <Preset Label="Meet or Socialize with the Grim Reaper (goalRanInteractionOnTargetedSim_R3Event_Meet)" Value="405152" />
+  <Preset Label="Become Friends and Socialize with the Grim Reaper (goalRanInteractionOnTargetedSim_R3Event_FriendlyInteraction)" Value="405153" />
+  <Preset Label="Flirt or Socialize with the Grim Reaper (goalRanInteractionOnTargetedSim_R3Event_SocialOrFlirt)" Value="405154" />
+  <Preset Label="Ask other Sims about Emit (r4Event_ObjectInteraction_AskAboutEmit)" Value="406948" />
+  <Preset Label="Ask Other Sims about Missing Items (r4Event_ObjectInteraction_AskAboutMissingItem)" Value="414469" />
+  <Preset Label="Accuse 3 Sims of Being a Time Traveler (r4Event_ObjectInteraction_AccuseSims)" Value="414560" />
+  <Preset Label="Listen to lecture for 30 Minutes (situationGoalActor_HobbyClass_ListenToLectureShort)" Value="415564" />
+  <Preset Label="Listen to Lecture for 45 Minutes (situationGoalActor_HobbyClass_ListenToLectureLong)" Value="415565" />
+  <Preset Label="Lecture for 45 Minutes (situationGoalActor_HobbyClass_HoldLectureShort)" Value="415566" />
+  <Preset Label="Lecture for 60 Minutes (situationGoalActor_HobbyClass_HoldLectureLong)" Value="415567" />
+  <Preset Label="Buy a Kids Object Worth {0.Money} (whim_BuyKidsThing100)" Value="421017" />
+  <Preset Label="Ponder Time Travel (r4Event_ObjectInteraction_PonderTimerTravel)" Value="421414" />
+  <Preset Label="Read Any Skill Book (whim_readSkillBook)" Value="421903" />
+  <Preset Label="Do an Athletic Activity (whim_doAthleticActivity)" Value="421905" />
+  <Preset Label="Research Shards of Time (r4Event_ObjectInteraction_ResearchTimeTravel)" Value="422093" />
+  <Preset Label="Give Yourself a Pep Talk (r4Event_ObjectInteraction_HavePepTalk)" Value="422220" />
+  <Preset Label="Repair Something while Handiness Level 2 or Higher (r4Event_ObjectInteraction_HandinessSkill)" Value="422363" />
+  <Preset Label="Exercise Your Mind while Level 2 or Higher in Logic (r4Event_ObjectInteraction_LogicSkill)" Value="422566" />
+  <Preset Label="Burn Off Steam by Exercising for an Hour (r4Event_ObjectInteraction_BurnOffSteam)" Value="422747" />
+  <Preset Label="Introduce Yourself to Emit Relevart (goalRanInteractionOnTargetedSim_R4Event_meetEmit)" Value="422787" />
+  <Preset Label="Ask Emit Relevart about the Missing Items (goalRanInteractionOnTargetedSim_R4Event_missingItems)" Value="422788" />
+  <Preset Label="Show Emit the Shards of Time (goalRanInteractionOnTargetedSim_R4Event_showShards)" Value="422790" />
+  <Preset Label="Report Back to Emit (goalRanInteractionOnTargetedSim_R4Event_giveEmiInfo)" Value="422791" />
+  <Preset Label="Ask Emit about the Malfunction (goalRanInteractionOnTargetedSim_R4Event_missingPiece)" Value="422792" />
+  <Preset Label="Overclock a Computer (r4Event_ObjectInteraction_OverloadTimeMachine)" Value="423167" />
+  <Preset Label="Refresh Your memory in The Sims Archives (r4Event_ObjectInteraction_PlayTheSims1)" Value="423169" />
+  <Preset Label="Experience the Past by Playing The Sims Archives vol. 2 (r4Event_ObjectInteraction_PlayTheSims2)" Value="423171" />
+  <Preset Label="Tune In to the News for 15 Minutes (r4Event_ObjectInteraction_WatchNews)" Value="424148" />
+  <Preset Label="Check Emit's Social Media Profile (r4Event_ObjectInteraction_EmitLooksLike)" Value="424149" />
+  <Preset Label="Look for the Thief by Playing in the Archives (r4Event_ObjectInteraction_PlayTheSims4)" Value="424728" />
+  <Preset Label="Report to Emit on the Experiment (goalRanInteractionOnTargetedSim_R4Event_ConsultEmit)" Value="424734" />
+  <Preset Label="Tell Emit about the Thief's True Intentions (goalRanInteractionOnTargetedSim_R4Event_GiveEmitReport)" Value="424966" />
+  <Preset Label="Say Goodbye to Emit (goalRanInteractionOnTargetedSim_R4Event_GoodbyeEmit)" Value="424968" />
+  <Preset Label="Send a Time Traveling Email to the Thief (r4Event_ObjectInteraction_WriteThiefEmail)" Value="424970" />
+  <Preset Label="Retrieve the Thief's Letter from the Mailbox (r4Event_ObjectInteraction_GetThiefLetter)" Value="425837" />
+  <Preset Label="Cook Japchae (decemberEvent_CraftObject_Cooking_Quest01)" Value="425879" />
+  <Preset Label="Ask other Sims about their Holiday Traditions (decemberEvent_ObjectInteraction_AskAboutHolidays)" Value="425880" />
+  <Preset Label="Cook Brigadeiro (decemberEvent_CraftObject_Cooking_Quest02)" Value="426191" />
+  <Preset Label="Cook some Chocolate Chip Cookies (decemberEvent_CraftObject_Cooking_Quest03)" Value="426192" />
+  <Preset Label="Prepare a traditional Coquito (decemberEvent_CraftObject_Mixing_Quest03)" Value="426243" />
+  <Preset Label="Cook Hallaca (decemberEvent_CraftObject_Cooking_Quest05)" Value="426244" />
+  <Preset Label="Restock the Cozy Hot Cocoa Tray (decemberEvent_CraftObject_Cooking_Quest06)" Value="426245" />
+  <Preset Label="Document the Research (decemberEvent_ObjectInteraction_DocumentResearch)" Value="426247" />
+  <Preset Label="Watch Channels on the Festive Frame TV (decemberEvent_ObjectInteraction_WatchTV)" Value="426249" />
+  <Preset Label="Research about Holiday Traditions on the Web (decemberEvent_ObjectInteraction_ResearchHolidayTraditions)" Value="426251" />
+  <Preset Label="Have Sims watch TV together (decemberEvent_WatchRomanceTogether)" Value="426430" />
+  <Preset Label="Sing Songs with an Instrument (decemberEvent_ObjectInteraction_PlaySong)" Value="426650" />
+  <Preset Label="Cloudgaze or Stargaze (decemberEvent_ObjectInteraction_Stargaze)" Value="426653" />
+  <Preset Label="Have a Nice Chat about Holiday Traditions (decemberEvent_ObjectInteraction_HaveNiceChatHolidays)" Value="426654" />
+  <Preset Label="Read the Thief's Letter (r4Event_ObjectInteraction_ReadLetter)" Value="426696" />
+  <Preset Label="Have Sims Play Multiplayer Game Together (decemberEvent_PlayGameTogether)" Value="426773" />
+  <Preset Label="lifeMilestoneGoal_Actor_FirstBurglarVisit" Value="426807" />
+  <Preset Label="Build the Time Travel Component (r4Event_ObjectInteraction_TimeTravelComponent)" Value="426982" />
+  <Preset Label="Search Objects for Shards of Time (r4Event_ObjectInteraction_SearchForShards)" Value="426986" />
+  <Preset Label="Share the Discoveries with Jasmine Holiday (decemberEvent_ObjectInteraction_ShareDiscoveries)" Value="426991" />
+  <Preset Label="Talk about Holiday Songs (decemberEvent_ObjectInteraction_TalkAboutHolidaySongs)" Value="426992" />
+  <Preset Label="Buy a Burglar Alarm (Whim_BuyBurglarAlarm)" Value="427172" />
+  <Preset Label="Activate the Time Travel Component (r4Event_ObjectInteraction_ActivateTimeMachine)" Value="427320" />
+  <Preset Label="Discuss Fear of Being Burgled (whim_FearConfrontation_BeingBurgled_DiscussFears)" Value="427608" />
+  <Preset Label="Buy a Burglar Alarm (whim_FearConfrontation_BeingBurgled_BuyAlarm)" Value="427614" />
+  <Preset Label="Level up in Fitness Skill (whim_FearConfrontation_BeingBurgled_SkillUpFitness)" Value="427617" />
+  <Preset Label="When Can I Have Fun Again? (whim_BeMeanInEvent)" Value="427640" />
+  <Preset Label="When Can I Have Fun Again? (whim_WantHaveFun)" Value="427641" />
+  <Preset Label="I Need More Ideas! (whim_ResearchPranks)" Value="427725" />
+  <Preset Label="Travel to Magnolia Blossom Park in Willow Creek (scenarioGoal_ZoneLoaded_R4Event_MagnoliaBlossom)" Value="428853" />
+  <Preset Label="Find the Special Time Capsule (r4Event_ObjectInteraction_TimeCapsuleDig)" Value="428856" />
+  <Preset Label="Read the IOU (r4Event_ObjectInteraction_ReadIOU)" Value="428857" />
+  <Preset Label="Open the Special Time Capsule (r4Event_ObjectInteraction_TimeCapsuleOpen)" Value="428886" />
+  <Preset Label="Prepare a Hot Cocoa (decemberEvent_ObjectInteraction_HotTrayMarshmallow)" Value="430180" />
+  <Preset Label="Read the History of Time Travel at a Library (r4Event_ObjectInteraction_ReadHistoryTimeTravel)" Value="430201" />
+  <Preset Label="Study a Historical Display at a Museum (r4Event_ObjectInteraction_ViewHistoryMuseum)" Value="430360" />
+  <Preset Label="Ask an Elder about the Shard (r4Event_ObjectInteraction_AskElderSim)" Value="430381" />
+  <Preset Label="Read Theoretical Electronics at a Library (r4Event_ObjectInteraction_ReadTheoreticalElectronics)" Value="430527" />
+  <Preset Label="Collect Ironyum (r4Event_Actor_Collect_Ironyum)" Value="430532" />
+  <Preset Label="Collect Plathinum (r4Event_Actor_Collect_Plathinum)" Value="430533" />
+  <Preset Label="Obtain an Electronic Upgrade Part (r4Event_Actor_Collect_ElectronicComponent)" Value="430534" />
+  <Preset Label="A Little Peace and Quiet Would be Nice (whim_GrouchStayAlone)" Value="431234" />
+  <Preset Label="Open the Rewards Store (pivotalMomentsGoal_UIInteraction_OpenRewardsPanel_N3)" Value="431336" />
+  <Preset Label="Take a Nap or Sleep in a Bed (pivotalMomentGoal_ObjectInteraction_Needs_NapSleep_N3)" Value="431352" />
+  <Preset Label="Repair or Replace the Computer (r4Event_ObjectInteraction_RepairComputer)" Value="431636" />
+  <Preset Label="r4Event_ObjectInteraction_ActivateTimeMachine_Hidden" Value="431638" />
+  <Preset Label="Get Something to Eat (r4Event_ObjectInteraction_EatSomething)" Value="431639" />
+  <Preset Label="r4Event_ObjectInteraction_ActivateTimeMachine_Hidden_b" Value="431641" />
+  <Preset Label="Have Sims Dance at the Same Time (decemberEvent_HaveSimsDancing)" Value="431727" />
+  <Preset Label="Listen to Winter Holiday Station (pivotalMomentsGoal_Actor_December_ListenHolidayChannel)" Value="431731" />
+  <Preset Label="Invite Sims over to Current Lot (DecemberEvent_SituationGoal_InviteSimsOver)" Value="432768" />
+  <Preset Label="Discuss Interests (situationGoalSim_HobbyClass_DiscussInterests)" Value="437026" />
+  <Preset Label="Visit Any Park (R5Event_ZoneLoaded_VisitAnyPark)" Value="438774" />
+  <Preset Label="Cloudgaze or Stargaze (R5Event_ObjectInteraction_CloudGaze)" Value="439051" />
+  <Preset Label="Go Fishing in a Pond (r5Event_ObjectInteraction_FishInPond)" Value="439459" />
+  <Preset Label="Go for a Jog (r5Event_ObjectInteraction_GoJog)" Value="439468" />
+  <Preset Label="Visit Desert Bloom Park (scenarioGoal_ZoneLoaded_R5Event_DesertBloomPark)" Value="439470" />
+  <Preset Label="Start a Nature Aspiration (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_nature_start)" Value="440102" />
+  <Preset Label="Complete Any Nature Aspiration Task (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_nature_finishTask)" Value="440107" />
+  <Preset Label="Level Up in a Nature Aspiration (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_nature_level2)" Value="440110" />
+  <Preset Label="Level Up in a Nature Aspiration (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_nature_level3)" Value="440111" />
+  <Preset Label="Complete a Nature Aspiration (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_nature_complete)" Value="440112" />
+  <Preset Label="Start Another Aspiration (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_any_start)" Value="440113" />
+  <Preset Label="Join Any Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_join)" Value="440415" />
+  <Preset Label="Get Promoted in a Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_promotion)" Value="440416" />
+  <Preset Label="Reach Level 4 of a Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_level4)" Value="440417" />
+  <Preset Label="Reach Level 6 of a Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_level6)" Value="440418" />
+  <Preset Label="Reach Level 8 of a Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_level8)" Value="440419" />
+  <Preset Label="Reach the Top of a Full-Time Career Path (pivotalMomentsGoal_actor_dreamsV0_N5_career_complete)" Value="440420" />
+  <Preset Label="Buy the Reclaimed Woodworking Table on a Home Lot (goalObjectCount_R5Event_BuyWoodworkingTable)" Value="440673" />
+  <Preset Label="Buy a Telescope on a Home Lot (goalObjectCount_R5Event_BuyTelescope)" Value="440674" />
+  <Preset Label="Buy a Hot Tub on a Home Lot (goalObjectCount_R5Event_BuyHotTub)" Value="440675" />
+  <Preset Label="Buy a Grill (goalObjectCount_R5Event_BuyGrill)" Value="440676" />
+  <Preset Label="Level Up in Gardening Skill (pivotalMomentsGoal_actor_dreamsV0_N5_skill_gardening_level3)" Value="440977" />
+  <Preset Label="Expand the Household and Have at Least 2 Household Members (pivotalMomentsGoal_actor_dreamsV0_N5_household_atLeast2)" Value="440978" />
+  <Preset Label="Add a Child to the Household (pivotalMomentsGoal_actor_dreamsV0_N5_household_atLeastChild)" Value="440979" />
+  <Preset Label="Have a Household Member Reach Elder Age (pivotalMomentsGoal_actor_dreamsV0_N5_household_reachElder)" Value="440980" />
+  <Preset Label="Have an Elder Retire from a Career (pivotalMomentsGoal_actor_dreamsV0_N5_elderRetire)" Value="440981" />
+  <Preset Label="Spend an Hour Gardening (situationGoalInteractionTime_dreamsV0_N5_skill_gardening_hour)" Value="440982" />
+  <Preset Label="Have a Sim Spend Time Outdoors (liveEvent_Actor_R5Event_SpendTimeOutdoors)" Value="441262" />
+  <Preset Label="View the Mysterious Tree (r5Event_ObjectInteraction_ViewMysteriousTree)" Value="441925" />
+  <Preset Label="Dig Up Some Rocks (r5Event_ObjectInteraction_DigRocks)" Value="441926" />
+  <Preset Label="Travel to Foundry Cove (scenarioGoal_ZoneLoaded_R5Event_TravelToFoundryCove)" Value="441927" />
+  <Preset Label="Complete One Level of any Nature Aspiration (liveEvent_Actor_R5Event_CompleteNatureAspiration)" Value="441928" />
+  <Preset Label="Catch {0.Number} Frogs (r5Event_ObjectInteraction_CatchFrogs)" Value="441929" />
+  <Preset Label="Draw in the Sand (r5Event_ObjectInteraction_DrawInSand)" Value="441932" />
+  <Preset Label="Craft Two Woodworking Sculptures (r5EventGoal_CraftObject_WoodworkingObjects)" Value="442047" />
+  <Preset Label="Craft Two Reclaimed Wood Dining Chairs (r5EventGoal_CraftObject_CraftChair)" Value="442048" />
+  <Preset Label="Purchase a Magic PlantSim Stump on a Home Lot (goalObjectCount_R5Event_BuyMagicalStump)" Value="442049" />
+  <Preset Label="Cook on the Grill (r5EventGoal_CraftObject_CookOnGrill)" Value="442133" />
+  <Preset Label="Ask One Sim If They Hear the Whispers Too (r5Event_ObjectInteraction_AskAboutWhispers)" Value="442740" />
+  <Preset Label="Listen to the Wind on a Park Bench (r5Event_ObjectInteraction_ListenTheWind)" Value="442743" />
+  <Preset Label="Host Events (pivotalMomentsGoal_actor_dreamsV0_N5_hostEvents)" Value="442754" />
+  <Preset Label="Have a Home Worth at least §50,000 (pivotalMomentsGoal_actor_dreamsV0_N5_haveHomeWorthMoney)" Value="442755" />
+  <Preset Label="Host Gold Level Events (pivotalMomentsGoal_actor_dreamsV0_N5_hostGoldEvents)" Value="442757" />
+  <Preset Label="Socialize with Neighbors (pivotalMomentsGoal_DreamsV0_N5_learnAboutNeighbors)" Value="442758" />
+  <Preset Label="Visit Venues (pivotalMomentsGoal_DreamsV0_N5_visitVenues)" Value="442759" />
+  <Preset Label="Have a Sim Interact with Others around Town (pivotalMomentsGoal_DreamsV0_N5_doInteractionsAroundTown)" Value="442760" />
+  <Preset Label="Expand the Household and Have at Least 3 Household Members (pivotalMomentsGoal_actor_dreamsV0_N5_haveHouseholdMembers3)" Value="442763" />
+  <Preset Label="Have a Child Reach Teen Age (pivotalMomentsGoal_actor_dreamsV0_N5_ageUpChildToTeen)" Value="442764" />
+  <Preset Label="Have a Teen Reach Young Adult Age (pivotalMomentsGoal_actor_dreamsV0_N5_ageUpTeenToYA)" Value="442765" />
+  <Preset Label="Have an Adult Reach Elder Age (pivotalMomentsGoal_actor_dreamsV0_N5_ageUpAdultToElder)" Value="442766" />
+  <Preset Label="Have an Elder Retire from a Career (pivotalMomentsGoal_actor_DreamsV0_N5_elderRetire_narrative2)" Value="442895" />
+  <Preset Label="Build the Reclaimed Wood Dining Table (r5EventGoal_CraftObject_CraftNewDiningTable)" Value="443029" />
+  <Preset Label="Use The Wooden Throne (r5Event_ObjectInteraction_UseOuthouse)" Value="443030" />
+  <Preset Label="Soak in a Hot Tub Using the Flowing Fronds Swimwear (r5Event_ObjectInteraction_SwimmingWithNewOutfit)" Value="443089" />
+  <Preset Label="Investigate the Cave (r5Event_ObjectInteraction_InvestigateTheCave)" Value="443091" />
+  <Preset Label="Use the Telescope to Look for Signs (r5Event_ObjectInteraction_TelescopeLookForSigns)" Value="443093" />
+  <Preset Label="Ask Two Sims about PlantSims (r5Event_ObjectInteraction_AskAboutSimsPlants)" Value="443166" />
+  <Preset Label="Share Findings about Forgotten Grotto (r5Event_ObjectInteraction_ShareFindings)" Value="443167" />
+  <Preset Label="Introduce Yourself to Other Sims (pivotalMomentsGoal_DreamsV0_N5_greetNeighbors)" Value="443810" />
+  <Preset Label="Have a Sim Make 10 Friends (situationGoalRelationshipChangeTargetedSim_addFriends)" Value="443816" />
+  <Preset Label="Listen to Nature Soundscapes (whim_LikedMusic_ListenTo_NatureSounds)" Value="443882" />
+  <Preset Label="Place a Magic Bean in the Stump (r5Event_ObjectInteraction_PlaceSeed)" Value="444868" />
+  <Preset Label="Sleep with the Nature Soundscapes Radio Station in the Same Room (eventGoal_R5Event_SleepWithNatureSounds)" Value="445326" />
+  <Preset Label="Take Photos in the Cave (liveEvent_Actor_R5Event_TakePhotoInCave)" Value="445328" />
+  <Preset Label="Complete a Task in any Aspiration (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_any_finishTask)" Value="445443" />
+  <Preset Label="Complete Another Aspiration Task (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_any_finishTask2)" Value="445444" />
+  <Preset Label="Level Up in any Aspiration (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_any_level2)" Value="445445" />
+  <Preset Label="Level Up in any Aspiration (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_any_level3)" Value="445446" />
+  <Preset Label="Complete any Aspiration (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_any_complete)" Value="445447" />
+  <Preset Label="Select another Aspiration (pivotalMomentsGoal_actor_dreamsV0_N5_aspiration_any_select)" Value="445448" />
+  <Preset Label="Expand the Household and Have at Least 2 Household Members (pivotalMomentsGoal_actor_dreamsV0_N5_household_atLeast2_general1)" Value="445455" />
+  <Preset Label="Earn Promotions (pivotalMomentsGoal_dreamsV0_N5_household_jobs_atLeast2)" Value="445456" />
+  <Preset Label="Earn §10,000 (pivotalMomentsGoal_dreamsV0_N5_income_earned)" Value="445457" />
+  <Preset Label="Add a Child or Younger to the Household (pivotalMomentsGoal_actor_dreamsV0_N5_household_expand_child)" Value="445458" />
+  <Preset Label="Buy a Household Object Worth at Least §1000 (pivotalMomentsGoal_dreamsV0_N5_buy_household_items)" Value="446039" />
+  <Preset Label="Have a Home Worth at least §30,000 (pivotalMomentsGoal_actor_dreamsV0_N5_haveHomeWorthMoney_general2a)" Value="446040" />
+  <Preset Label="Have a Home Worth at least §50,000 (pivotalMomentsGoal_actor_dreamsV0_N5_haveHomeWorthMoney_general2b)" Value="446043" />
+  <Preset Label="Add a Child or Younger to the Household (pivotalMomentsGoal_actor_dreamsV0_N5_household_expand_anyKid_C1)" Value="446050" />
+  <Preset Label="Have an Infant, Toddler, or Child Reach the Next Life Stage (pivotalMomentsGoal_actor_dreamsV0_N5_ageUpKidToAnything)" Value="446051" />
+  <Preset Label="Expand the Household and Have at Least 5 Household Members (pivotalMomentsGoal_actor_dreamsV0_N5_household_atleast5)" Value="446052" />
+  <Preset Label="Have a Household Member Reach Elder Age (pivotalMomentsGoal_actor_dreamsV0_N5_household_reachElder_general2)" Value="446053" />
+  <Preset Label="Have a Household Member Reach Young Adult Age (pivotalMomentsGoal_actor_dreamsV0_N5_household_reachYA)" Value="446054" />
+  <Preset Label="Add a Child or Younger to the Household (pivotalMomentsGoal_actor_dreamsV0_N5_household_expand_anyKid_C6)" Value="446055" />
+  <Preset Label="Ask a Sim to Become BFF (pivotalMomentsGoal_actor_dreamsV0_N5_haveBFF)" Value="446086" />
+  <Preset Label="Have an Adult in a Committed Relationship (pivotalMomentsGoal_dreamsV0_N5_household_committedRelationships)" Value="446452" />
+  <Preset Label="Have a Sim be Good Friends with 3 Household Members (pivotalMomentsGoal_dreamsV0_N5_household_goodFriends)" Value="446453" />
+  <Preset Label="Have a Sim Become Good Friends With 3 Other Sims (pivotalMomentsGoal_dreamsV0_N5_goodFriends)" Value="446454" />
+  <Preset Label="Raise a Pet to Adult Age (pivotalMomentsGoal_actor_dreamsV0_N5_DLCQuest_raisePetToAdult)" Value="446607" />
+  <Preset Label="Interact with a Pet (pivotalMomentsGoal_dreamsV0_N5_DLCQuest_interactWithPet)" Value="446608" />
+  <Preset Label="Become Good Friends with a Pet (pivotalMomentsGoal_actor_dreamsV0_N5_DLCQuest_reachGoodFriendsWithPet)" Value="446609" />
+  <Preset Label="Visit Locations in Brindleton Bay with a Pet (pivotalMomentsGoal_dreamsV0_N5_DLCQuest_visitPetWorld)" Value="446610" />
+  <Preset Label="Get a Cat or Dog (pivotalMomentsGoal_actor_dreamsV0_N5_DLCQuest_getDogorCat)" Value="446707" />
+  <Preset Label="Reach the Top of a Full-Time Career Path (pivotalMomentsGoal_actor_dreamsV0_N5_career_complete_general)" Value="446959" />
+  <Preset Label="Join Any Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_join_general)" Value="446960" />
+  <Preset Label="Reach Level 4 of a Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_level4_general)" Value="446961" />
+  <Preset Label="Reach Level 6 of a Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_level6_general)" Value="446962" />
+  <Preset Label="Reach Level 8 of a Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_level8_general)" Value="446963" />
+  <Preset Label="Get Promoted in a Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_promotion_general)" Value="446964" />
+  <Preset Label="Have an Elder Retire from a Career (pivotalMomentsGoal_actor_dreamsV0_N5_elderRetire_general)" Value="446966" />
+  <Preset Label="Have a Household Member Reach Elder Age (pivotalMomentsGoal_actor_dreamsV0_N5_household_reachElder_general1)" Value="447087" />
+  <Preset Label="Complete Event Goal (whim_LiveEvent_R5Event_CompleteGoal)" Value="447708" />
+  <Preset Label="Complete Event Quest (whim_LiveEvent_R5EventCompleteQuest)" Value="447713" />
+  <Preset Label="Take Dog for a Walk or Ask Them to Go Potty (r5Event_ObjectInteraction_WalkDog)" Value="448095" />
+  <Preset Label="Sleep in a Tent (r5Event_ObjectInteraction_SleepInTent)" Value="448176" />
+  <Preset Label="Buy a Tent (goalObjectCount_R5Event_BuyTent)" Value="448898" />
+  <Preset Label="Adopt a Dog (liveEvent_Actor_R5Event_AdoptDog)" Value="449469" />
+  <Preset Label="Purchase a Romantic Blanket on a Home Lot (goalObjectCount_R5Event_BuyRomanticBlanket)" Value="450245" />
+  <Preset Label="Travel to Duke's Hall (scenarioGoal_ZoneLoaded_R5Event_EquestrianCenter)" Value="450251" />
+  <Preset Label="Spectate Competitions at the Equestrian Center (r5Event_ObjectInteraction_SpecatateCompetitions)" Value="450252" />
+  <Preset Label="Setup a Picnic on a Romantic Blanket (liveEvent_Actor_R5Event_SetupPicnic)" Value="450266" />
+  <Preset Label="Craft The Wooden Throne (r5EventGoal_CraftObject_CraftOuthouse)" Value="451290" />
+  <Preset Label="Break the Cave Open and Explore Their Secrets (scenarioGoal_ZoneLoaded_R5Event_ExploreCave)" Value="455391" />
+  <Preset Label="Have a Sim Become Good Friends With 3 Other Sims (pivotalMomentsGoal_Actor_DreamsV0_N5_goodFriends)" Value="455919" />
+  <Preset Label="Have a Sim Become Good Friends With 3 Other Sims (pivotalMomentsGoal_Actor_DreamsV0_N5_goodFriends_general2)" Value="455921" />
+  <Preset Label="Have an Adult in a Committed Relationship (pivotalMomentsGoal_actor_dreamsV0_N5_adultCommittedRelationship)" Value="456546" />
+  <Preset Label="Get Promoted in a Career (pivotalMomentsGoal_actor_dreamsV0_N5_career_multiple_promotions)" Value="456547" />
+  <Preset Label="Return to Desert Bloom Park (scenarioGoal_ZoneLoaded_R5Event_DesertBloomPark_Return)" Value="456760" />
 </PresetGroup>

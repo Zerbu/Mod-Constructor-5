@@ -36,8 +36,8 @@ namespace Constructor5.Base.Python
                     result.AppendLine($"{Project.Id}_{snippet.Key}_MixerId = ({mixerString})");
 
                     result.AppendLine("@inject_to(InstanceManager, 'load_data_into_class_instances')");
-                    result.AppendLine($"def {Project.Id}_AddMixer_{snippet.Key}(original, self):");
-                    result.AppendLine($"    original(self)");
+                    result.AppendLine($"def {Project.Id}_AddMixer_{snippet.Key}(original, self, packs_to_load=None):");
+                    result.AppendLine($"    original(self, packs_to_load)");
                     result.AppendLine($"    if self.TYPE == Types.SNIPPET:");
                     result.AppendLine($"        key = sims4.resources.get_resource_key({Project.Id}_{snippet.Key}_SnippetId, Types.SNIPPET)");
                     result.AppendLine($"        snippet_tuning = self._tuned_classes.get(key)");

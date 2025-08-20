@@ -6,20 +6,6 @@
   <Preset Label="object_BarGlobe_Phases_CreateDrink" Value="144964" />
   <Preset Label="object_BarGlobe_Phases_CreatePlatter" Value="144965" />
   <Preset Label="View (object_BarGlobe_View)" Value="145038" />
-  <Preset Label="Play With Makeup (object_VanityTable_PlayWithMakeUp)" Value="145149" />
-  <Preset Label="Change Appearance (vanityTable_planOutfit)" Value="145152" />
-  <Preset Label="vanityTable_Actions_ApplyBlush" Value="145168" />
-  <Preset Label="vanityTable_Actions_ApplyChapstick" Value="145169" />
-  <Preset Label="vanityTable_Actions_ApplyEyeliner" Value="145170" />
-  <Preset Label="vanityTable_Actions_FileNails" Value="145174" />
-  <Preset Label="Try to Calm Down (mirror_CalmSelfDown_Vanity)" Value="145203" />
-  <Preset Label="Make Silly Face (mirror_MakeSillyFace_Vanity)" Value="145205" />
-  <Preset Label="Practice Speech (mirror_PracticeSpeech_vanity)" Value="145208" />
-  <Preset Label="Admire Self (mirror_AdmireSelf_Vanity)" Value="145209" />
-  <Preset Label="Give Yourself a Pep Talk (mirror_SelfPepTalk_vanity)" Value="145211" />
-  <Preset Label="Practice Pick-up Lines (mirror_PracticeRomance_vanity)" Value="145213" />
-  <Preset Label="Psych Self Up (mirror_PsychSelfUp_Vanity)" Value="145215" />
-  <Preset Label="Freshen Up (mirror_GussyUp_Vanity)" Value="145216" />
   <Preset Label="Blicblock (motionBasedGaming_play_family_butler)" Value="145407" />
   <Preset Label="Take Bubble Bath (bathtub_TakeBubbleBath_Butler)" Value="145422" />
   <Preset Label="Start Cleaning (butler_Immediate_Chores_StartCleaning)" Value="145821" />
@@ -33,14 +19,14 @@
   <Preset Label="Fire (sim_FireButlerNPC)" Value="145841" />
   <Preset Label="Reprimand (sim_Butler_Reprimand)" Value="145843" />
   <Preset Label="Praise (sim_Butler_Praise)" Value="145844" />
-  <Preset Label="Have a Quick Meal (fridge_Butler_MakeSnack)" Value="145851" />
+  <Preset Label="Have a Quick Meal or Drink (fridge_Butler_MakeSnack)" Value="145851" />
   <Preset Label="Research Butler Techniques on Ask Alfred (computer_Browse_Butler)" Value="145859" />
   <Preset Label="Cook Meal (situation_Butler_Order_CookMeal)" Value="145861" />
   <Preset Label="Cook Family Meal (situation_Butler_Order_CookFamilyMeal)" Value="145862" />
   <Preset Label="Cook Party Meal (situation_Butler_Order_CookPartyMeal)" Value="145863" />
-  <Preset Label="Have a Quick Meal (fridge_Butler_CookGourmetFamilyMeal)" Value="145871" />
-  <Preset Label="Have a Quick Meal (fridge_Butler_CookPartyMeal)" Value="145872" />
-  <Preset Label="Have a Quick Meal (fridge_Butler_CookGourmetPartyMeal)" Value="145873" />
+  <Preset Label="Have a Quick Meal or Drink (fridge_Butler_CookGourmetFamilyMeal)" Value="145871" />
+  <Preset Label="Have a Quick Meal or Drink (fridge_Butler_CookPartyMeal)" Value="145872" />
+  <Preset Label="Have a Quick Meal or Drink (fridge_Butler_CookGourmetPartyMeal)" Value="145873" />
   <Preset Label="Hire Butler (phone_HireMaleButler)" Value="146001" />
   <Preset Label="Prepare Bar Drink (situation_Butler_Order_PrepareDrink)" Value="146011" />
   <Preset Label="Play Piano (situation_Butler_Order_Skill_PlayPiano)" Value="146018" />
@@ -53,7 +39,7 @@
   <Preset Label="Water Plants (situation_Butler_Order_WaterPlants)" Value="146108" />
   <Preset Label="Attend to a Minor (situation_Butler_Order_CheckOnChildren)" Value="146109" />
   <Preset Label="Butler (door_Padlock_ImmediateInteractions_Unlock_Butler)" Value="146179" />
-  <Preset Label="Everyone But Butler (door_Padlock_ImmediateInteraction_Locks_Everyone_Allow_Butler)" Value="146183" />
+  <Preset Label="Everyone but Butler (door_Padlock_ImmediateInteraction_Locks_Everyone_Allow_Butler)" Value="146183" />
   <Preset Label="Check Cleanliness (situation_Butler_Autonomous_CheckCleanliness)" Value="146333" />
   <Preset Label="Sabotage Object (situation_Butler_Autonomous_Sabotage_StereoTV)" Value="146361" />
   <Preset Label="Sabotage Object (situation_Butler_Autonomous_Sabotage_Bathtub)" Value="146362" />
@@ -116,64 +102,11 @@
   <Preset Label="Pose (situation_Butler_Autonomous_Idle)" Value="151410" />
   <Preset Label="Check Cleanliness (situation_Butler_Autonomous_CheckCleanliness_High)" Value="151500" />
   <Preset Label="Pour Drink (globeBar_MakeDrink_Autonomous_Butler)" Value="151857" />
-  <Preset Label="Beige Eyes / Dark Red Lips (object_VanityTable_ApplyMakeUp_BeigeEyesDarkRedLips)" Value="152107" />
-  <Preset Label="Beige Eyes / Red Lips (object_VanityTable_ApplyMakeUp_BeigeEyesRedLips)" Value="152108" />
-  <Preset Label="Blue Eyes / Glossy Pink Lips (object_VanityTable_ApplyMakeUp_BlueEyesGlossyVioletLips)" Value="152109" />
-  <Preset Label="Gold Eyes / Glossy Pink Lips (object_VanityTable_ApplyMakeUp_GoldEyesGlossyRedLips)" Value="152110" />
-  <Preset Label="Gray Eyes / Glossy Pink Lips (object_VanityTable_ApplyMakeUp_GreyEyesGlossyRedLips)" Value="152111" />
-  <Preset Label="Silver &amp; Brown / Satin Beige Lips (object_VanityTable_ApplyMakeUp_SilverBrownSatinBeigeLips)" Value="152112" />
-  <Preset Label="Turquoise Eyes / Coral Lips (object_VanityTable_ApplyMakeUp_TurquoiseEyesCoralLips)" Value="152113" />
-  <Preset Label="Turquoise Eyes / Rose Lips (object_VanityTable_ApplyMakeUp_TurquoiseEyesRoseLips)" Value="152114" />
-  <Preset Label="Turquoise Eyes / Satin Red Lips (object_VanityTable_ApplyMakeUp_TurquoiseEyesSatinRedLips)" Value="152115" />
-  <Preset Label="Violet Eyes / Red Lips (object_VanityTable_ApplyMakeUp_VioletEyesRedLips)" Value="152116" />
-  <Preset Label="Black Cat Eyes (object_VanityTable_ApplyMakeUp_BlackCatEyes)" Value="152117" />
-  <Preset Label="Black Eyeliner / Coral Lips (object_VanityTable_ApplyMakeUp_BlackEyelinerCoralLips)" Value="152118" />
-  <Preset Label="Black Eyeliner / Satin Pink Lips (object_VanityTable_ApplyMakeUp_BlackEyelinerSatinPinkLips)" Value="152119" />
-  <Preset Label="Black Eyes (object_VanityTable_ApplyMakeUp_BlackEyes)" Value="152120" />
-  <Preset Label="Black Eyes / Glossy Orange Lips (object_VanityTable_ApplyMakeUp_BlackEyesGlossyOrangeLips)" Value="152121" />
-  <Preset Label="Black Eyes / Pink Lips (object_VanityTable_ApplyMakeUp_BlackEyesPinkLips)" Value="152122" />
-  <Preset Label="Black Eyes / Satin Black Lips (object_VanityTable_ApplyMakeUp_BlackEyesSatinBlackLips)" Value="152123" />
-  <Preset Label="Light Blue Eyes / Pink Lips (object_VanityTable_ApplyMakeUp_BlueBlueEyesPinkLips)" Value="152124" />
-  <Preset Label="Blue Eyes / Glossy Blue Lips (object_VanityTable_ApplyMakeUp_BlueEyesGlossyBlueLips)" Value="152125" />
-  <Preset Label="Blue Eyes / Satin Bronze Lips (object_VanityTable_ApplyMakeUp_BlueEyesGlossyPinkLips)" Value="152126" />
-  <Preset Label="Blue Eyes / Pink Lips (object_VanityTable_ApplyMakeUp_BlueEyesPinkLips)" Value="152127" />
-  <Preset Label="Blue Eyes / Red Lips (object_VanityTable_ApplyMakeUp_BlueEyesRedLips)" Value="152128" />
-  <Preset Label="Blue Eyes / Rose Lips (object_VanityTable_ApplyMakeUp_BlueEyesRoseLips)" Value="152129" />
-  <Preset Label="Blue Eyes / Satin Pink Lips (object_VanityTable_ApplyMakeUp_BlueEyesSatinBronzeLips)" Value="152130" />
-  <Preset Label="Bronze Eyes / Glossy Pink Lips (object_VanityTable_ApplyMakeUp_BronzeEyesGlossyRedLips)" Value="152131" />
-  <Preset Label="Brown Eyes (object_VanityTable_ApplyMakeUp_BrownEyes)" Value="152132" />
-  <Preset Label="Brown Eyes / Coral Lips (object_VanityTable_ApplyMakeUp_BrownEyesCoralLips)" Value="152133" />
-  <Preset Label="Brown Eyes / Pink Lips (object_VanityTable_ApplyMakeUp_BrownEyesPinkLips)" Value="152134" />
-  <Preset Label="Brown Eyes / Rose Lips (object_VanityTable_ApplyMakeUp_BrownEyesRoseLips)" Value="152135" />
-  <Preset Label="Brown Eyes / Satin Red Lips (object_VanityTable_ApplyMakeUp_BrownEyesSatinRedLips)" Value="152136" />
-  <Preset Label="Black Eyes / Satin Black Lips (object_VanityTable_ApplyMakeUp_GothBlackEyesSatinBlackLips)" Value="152137" />
-  <Preset Label="Black Eyes / Satin Red Lips (object_VanityTable_ApplyMakeUp_BlackEyesSatinRedLips)" Value="152138" />
-  <Preset Label="Brown &amp; Gray / Coral Lips (object_VanityTable_ApplyMakeUp_GreyBrownEyesCoralLips)" Value="152139" />
-  <Preset Label="Gray Eyes / Coral Lips (object_VanityTable_ApplyMakeUp_GrayEyesCoralLips)" Value="152140" />
-  <Preset Label="Gray Eyes / Red Lips (object_VanityTable_ApplyMakeUp_GrayEyesRedLips)" Value="152141" />
-  <Preset Label="Green Eyes / Bronze Lips (object_VanityTable_ApplyMakeUp_GreenEyesBronzeLips)" Value="152142" />
-  <Preset Label="Green Eyes / Glossy Pink Lips (object_VanityTable_ApplyMakeUp_GreenEyesGlossyRedLips)" Value="152143" />
-  <Preset Label="Green Eyes / Red Lips (object_VanityTable_ApplyMakeUp_GreenEyesRedLips)" Value="152144" />
-  <Preset Label="Green Eyes / Satin Coral Lips (object_VanityTable_ApplyMakeUp_GreenEyesSatinCoralLips)" Value="152145" />
-  <Preset Label="Green Eyes / Satin Pink Lips (object_VanityTable_ApplyMakeUp_GreenEyesSatinPinkLips)" Value="152146" />
-  <Preset Label="Magenta Eyes / Red Lips (object_VanityTable_ApplyMakeUp_MagentaEyesRedLips)" Value="152147" />
-  <Preset Label="Mauve Eyes / Coral Lips (object_VanityTable_ApplyMakeUp_MauveEyesCoralLips)" Value="152148" />
-  <Preset Label="Mauve Eyes / Glossy Coral Lips (object_VanityTable_ApplyMakeUp_MauveEyesGlossyCoralLips)" Value="152149" />
-  <Preset Label="Pink Eyes / Glossy Coral Lips (object_VanityTable_ApplyMakeUp_PinkEyesGlossyCoralLips)" Value="152150" />
-  <Preset Label="Plum Eyes / Satin Red Lips (object_VanityTable_ApplyMakeUp_PlumEyesSatinRedLips)" Value="152151" />
-  <Preset Label="Purple Eyes / Satin Violet Lips (object_VanityTable_ApplyMakeUp_PurpleEyessatinVioletLips)" Value="152152" />
-  <Preset Label="Red Eyes (object_VanityTable_ApplyMakeUp_RedEyes)" Value="152153" />
-  <Preset Label="Silver &amp; Blue / Rose Lips (object_VanityTable_ApplyMakeUp_SilverBlueRoseLips)" Value="152154" />
-  <Preset Label="Silver &amp; Blue / Satin Blue Lips (object_VanityTable_ApplyMakeUp_SilverBlueSatinBlueLips)" Value="152155" />
-  <Preset Label="Silver &amp; Blue / Satin Red Lips (object_VanityTable_ApplyMakeUp_SilverBlueSatinRedLips)" Value="152156" />
-  <Preset Label="Silver &amp; Brown / Satin Red Lips (object_VanityTable_ApplyMakeUp_SilverBrownSatinRedLips)" Value="152157" />
-  <Preset Label="Silver &amp; Green / Satin Coral Lips (object_VanityTable_ApplyMakeUp_SilverGreenSatinCoralLips)" Value="152158" />
-  <Preset Label="Silver &amp; Pink / Pink Lips (object_VanityTable_ApplyMakeUp_SilverPinkPinkLips)" Value="152159" />
-  <Preset Label="Silver &amp; Black / Satin Bronze Lips (object_VanityTable_ApplyMakeUp_SilverSatinBronzeLips)" Value="152160" />
-  <Preset Label="Black Eyeliner (object_VanityTable_ApplyMakeUp_ThickBlackEyeliner)" Value="152161" />
   <Preset Label="situation_Butler_Order_GoToSleep" Value="188062" />
   <Preset Label="Go to Sleep (butler_Immediate_Force_Sleep)" Value="188192" />
-  <Preset Label="Remove Makeup (object_VanityTable_Remove_MakeUp)" Value="188805" />
   <Preset Label="Everyone but the Butler (Computer_Locking_LockForEveryone_ButButler)" Value="225186" />
   <Preset Label="Butler (Computer_Unlocking_UnlockFor_Butler)" Value="225188" />
+  <Preset Label="Butler (costumeBox_WearCostume_Confident_Butler)" Value="365483" />
+  <Preset Label="Butler (costumeBox_WearCostume_Flirty_Butler)" Value="365484" />
+  <Preset Label="Butler (costumeBox_WearCostume_Playful_Butler)" Value="365485" />
 </PresetGroup>

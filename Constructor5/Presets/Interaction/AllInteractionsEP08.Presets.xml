@@ -45,7 +45,7 @@
   <Preset Label="Visit Office Hours (si_University_VisitOfficeHours_A)" Value="211403" />
   <Preset Label="roommateNPC_SS3_Offlot" Value="211606" />
   <Preset Label="Upgrade (roommateNPC_RandomUpgrade)" Value="211861" />
-  <Preset Label="Invite to Hangout at Current Lot (roommateNPC_StartParty)" Value="211868" />
+  <Preset Label="Invite Over to Current Lot (roommateNPC_StartParty)" Value="211868" />
   <Preset Label="roommateNPC_ChangeOutfit" Value="211875" />
   <Preset Label="Go to Rabbithole (Debug) (roommateNPC_Rabbithole_Absent)" Value="211911" />
   <Preset Label="Release Notes (roommateNPC_LeaveNote)" Value="211916" />
@@ -201,7 +201,6 @@
   <Preset Label="Order Food (cafeteriaStation_PushOrder_Autonomous_Fri)" Value="219875" />
   <Preset Label="Order Food (cafeteriaStation_PushOrder_Autonomous_Sat)" Value="219876" />
   <Preset Label="Order Food (cafeteriaStation_PushOrder_Autonomous_Sun)" Value="219877" />
-  <Preset Label="Listen to Alternative (stereo_listen_alt_HumanoidRobot)" Value="219886" />
   <Preset Label="Create Lesson Plan (computer_Career_Education_CreateLesson)" Value="219891" />
   <Preset Label="Write Letter of Recommendation (computer_Career_Education_WriteLetter)" Value="219892" />
   <Preset Label="Write Scholarly Paper (computer_Career_Education_WritePaper)" Value="219893" />
@@ -233,16 +232,6 @@
   <Preset Label="Tutor Student Online about Communication (computer_Career_Education_Tutor_Communications)" Value="219971" />
   <Preset Label="Tutor Student Online about Entertainment (computer_Career_Education_Tutor_Entertainment)" Value="219972" />
   <Preset Label="food_Eat_Active_Spicy_Prank" Value="220044" />
-  <Preset Label="Listen to Blues (stereo_listen_blues_HumanoidRobot)" Value="220096" />
-  <Preset Label="Listen to Classical (stereo_listen_classical_HumanoidRobot)" Value="220097" />
-  <Preset Label="Listen to Electronica (stereo_listen_electro_HumanoidRobot)" Value="220151" />
-  <Preset Label="Listen to Kids Radio (stereo_listen_kidsRadio_HumanoidRobot)" Value="220152" />
-  <Preset Label="Listen to Lullabies (stereo_listen_Lullabies_HumanoidRobot)" Value="220153" />
-  <Preset Label="Listen to Pop (stereo_listen_pop_HumanoidRobot)" Value="220154" />
-  <Preset Label="Listen to Retro (stereo_listen_retro_HumanoidRobot)" Value="220155" />
-  <Preset Label="Listen to Romantic Music (stereo_listen_romance_HumanoidRobot)" Value="220156" />
-  <Preset Label="Listen to Spooky (stereo_listen_spooky_HumanoidRobot)" Value="220157" />
-  <Preset Label="Listen to Winter Holiday (stereo_listen_WinterHoliday_HumanoidRobot)" Value="220158" />
   <Preset Label="Change Station (stereo_PickChannel_HumanoidRobot)" Value="220191" />
   <Preset Label="Listen To (stereo_TurnOnAndListen_HumanoidRobot)" Value="220193" />
   <Preset Label="Scholarships (universityKiosk_GetUniversityInfo_Scholarships)" Value="220320" />
@@ -530,8 +519,8 @@
   <Preset Label="Critique Painting (art_ViewTested_PaintinInThePark_Critique)" Value="223437" />
   <Preset Label="Discuss Painting Style (mixer_social_DiscussPaintingStyle_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="223452" />
   <Preset Label="Craft Robo-Arm (roboticsTable_CraftingPicker_RoboticArm)" Value="223462" />
-  <Preset Label="Ask to Be Boyfriend (mixer_social_AskToBeBoyfriend_targeted_romance_relationship_RoommateNPC)" Tags="TestUnsafe" Value="223464" />
-  <Preset Label="Ask to Be Girlfriend (mixer_social_AskToBeGirlfriend_targeted_romance_relationship_RoommateNPC)" Tags="TestUnsafe" Value="223467" />
+  <Preset Label="Ask to be Romantic Partner (mixer_social_AskToBeBoyfriend_targeted_romance_relationship_RoommateNPC)" Tags="TestUnsafe" Value="223464" />
+  <Preset Label="Ask to Be Romantic Partner (mixer_social_AskToBeGirlfriend_targeted_romance_relationship_RoommateNPC)" Tags="TestUnsafe" Value="223467" />
   <Preset Label="University of Britechester Hat (universityKiosk_BuyAndWearCAS_Hat_AH)" Value="223468" />
   <Preset Label="Foxbury Institute Hat (universityKiosk_BuyAndWearCAS_Hat_ST)" Value="223470" />
   <Preset Label="University of Britechester Sweatpants (universityKiosk_BuyCAS_Bottom_AH)" Value="223481" />
@@ -551,18 +540,7 @@
   <Preset Label="Craft Materials (roboticsTable_CraftingPicker_Materials)" Value="223573" />
   <Preset Label="Craft ExoMech Suit (roboticsTable_CraftingPicker_MechanicalSuit)" Value="223584" />
   <Preset Label="Craft Computer Glasses (roboticsTable_CraftingPicker_ComputerGlasses)" Value="223586" />
-  <Preset Label="Listen to Winter Holiday (stereo_listen_WinterHoliday_Bot)" Value="223598" />
   <Preset Label="Craft ExoMech Helmet (roboticsTable_CraftingPicker_MechanicalHelmet)" Value="223599" />
-  <Preset Label="Listen to Spooky (stereo_listen_spooky_Bot)" Value="223600" />
-  <Preset Label="Listen to Romantic Music (stereo_listen_romance_Bot)" Value="223601" />
-  <Preset Label="Listen to Retro (stereo_listen_retro_Bot)" Value="223602" />
-  <Preset Label="Listen to Pop (stereo_listen_pop_Bot)" Value="223603" />
-  <Preset Label="Listen to Lullabies (stereo_listen_Lullabies_Bot)" Value="223604" />
-  <Preset Label="Listen to Kids Radio (stereo_listen_kidsRadio_Bot)" Value="223605" />
-  <Preset Label="Listen to Electronica (stereo_listen_electro_Bot)" Value="223606" />
-  <Preset Label="Listen to Classical (stereo_listen_classical_Bot)" Value="223607" />
-  <Preset Label="Listen to Blues (stereo_listen_blues_Bot)" Value="223608" />
-  <Preset Label="Listen to Alternative (stereo_listen_alt_Bot)" Value="223609" />
   <Preset Label="Study for {2.String} (book_Read_University_Text_CourseC)" Value="223667" />
   <Preset Label="Study for {2.String} (book_Read_University_Text_CourseD)" Value="223668" />
   <Preset Label="Turn Off (stereo_turnoff_Bot)" Value="223674" />
@@ -589,7 +567,6 @@
   <Preset Label="Research Current Case (researchMachine_Career_Law_ResearchCase)" Value="223923" />
   <Preset Label="Research Legal Issues (researchMachine_Career_Law_ResearchLegalIssues)" Value="223924" />
   <Preset Label="Research Case Law (researchMachine_Career_Law_ResearchCaseLaw)" Value="223925" />
-  <Preset Label="Visit University Law Class (university_ClassroomShell_Career_Law_ClassVisit_LawLecture)" Value="223928" />
   <Preset Label="Attend Deposition (si_RabbitHole_Career_Law_AttendDeposition)" Value="223931" />
   <Preset Label="Do My Homework for {2.String} (researchDebate_Convince_DoHomework_ClassB)" Value="223932" />
   <Preset Label="Do My Homework for {2.String} (researchDebate_Convince_DoHomework_ClassC)" Value="223933" />
@@ -1076,7 +1053,7 @@
   <Preset Label="Tap Juice Keg (debug_JuiceKeg_Tap)" Value="227868" />
   <Preset Label="Watch Debate (podiumPair_Watch_Object)" Value="227877" />
   <Preset Label="Discuss Important Robot Things (humanoid_Robots_TalkToObjects_Socials_MiniBot_STOP)" Value="227884" />
-  <Preset Label="Mentor (mentor_Robotics)" Value="227891" />
+  <Preset Label="Mentor {2.String} (mentor_Robotics)" Value="227891" />
   <Preset Label="Scholarships_Apply_Computer_PickerResultCheck" Value="227903" />
   <Preset Label="Scholarships_Apply_Mailbox_PickerResultCheck" Value="227904" />
   <Preset Label="Dance (stereo_Dance_Bot)" Value="227905" />
@@ -1115,9 +1092,6 @@
   <Preset Label="Say Uplifting Things (Gardening_Talk_Org_SecretSociety_SpriteGarden)" Value="228294" />
   <Preset Label="Make Loan Payment (phone_MakeLoanPayment)" Value="228342" />
   <Preset Label="Make Loan Payment (mailbox_PayLoans)" Value="228343" />
-  <Preset Label="Guest Speak at University about Law (university_ClassroomShell_Career_Law_ClassVisit_GuestSpeak)" Value="228344" />
-  <Preset Label="Visit University Law Class (university_ClassroomShell_Career_Law_ClassVisit_LawLecture_Phone)" Value="228350" />
-  <Preset Label="Guest Speak at University about Law (university_ClassroomShell_Career_Law_ClassVisit_GuestSpeak_Phone)" Value="228351" />
   <Preset Label="Sell (generic_SellObject_Bot)" Value="228352" />
   <Preset Label="Express Disappointment (social_University_Cheating_ExpressDisappointment)" Value="228387" />
   <Preset Label="Fill Cups with Juice (sI_JuiceKeg_FillCups_SlotsEmpty_BlueRaspberry)" Value="228391" />
@@ -1365,4 +1339,62 @@
   <Preset Label="Do Extra Credit for {2.String} (book_Homework_University_ExtraCredit_Overachiever_ClassC)" Value="296812" />
   <Preset Label="toilet_PrankMaybe_GoofballAutonomy" Value="309868" />
   <Preset Label="Take The Lawyer's Exam (si_Career_Law_TakeLawyerExam_RabbitHole)" Value="325991" />
+  <Preset Label="Dismount (HorseRiding_Rider_AutoSolveMotives_Start_Durability_Servo)" Value="349029" />
+  <Preset Label="Dismount (HorseRiding_Rider_AutoSolveMotives_Dismount_and_PushInteraction_Durability_Servo)" Value="349030" />
+  <Preset Label="Dismount (HorseRiding_Rider_AutoSolveMotives_Start_Charge_Servo)" Value="349041" />
+  <Preset Label="Dismount (HorseRiding_Rider_AutoSolveMotives_Dismount_and_PushInteraction_Charge_Servo)" Value="349042" />
+  <Preset Label="Mascot (costumeBox_WearCostume_Confident_Mascot)" Value="365434" />
+  <Preset Label="Mascot (costumeBox_WearCostume_Flirty_Mascot)" Value="365435" />
+  <Preset Label="Mascot (costumeBox_WearCostume_Playful_Mascot)" Value="365481" />
+  <Preset Label="Recharge (humanoid_Robots_Motive_Recharge_WutantBoost)" Value="373498" />
+  <Preset Label="Mentor {2.String} (mentor_Skill_ResearchDebate)" Value="375002" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_ResearchDebate_Mirror)" Tags="TestUnsafe" Value="379413" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_ResearchDebate_Podium)" Tags="TestUnsafe" Value="379414" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_ResearchDebate_Mirror)" Tags="TestUnsafe" Value="379416" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_ResearchDebate_Podium)" Tags="TestUnsafe" Value="379417" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_ResearchDebate_Mirror)" Tags="TestUnsafe" Value="379419" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_ResearchDebate_Podium)" Tags="TestUnsafe" Value="379420" />
+  <Preset Label="simPicker_Mentoring_AskFor_ResearchDebate_Mirror" Tags="TestUnsafe" Value="379422" />
+  <Preset Label="simPicker_Mentoring_AskFor_ResearchDebate_Podium" Tags="TestUnsafe" Value="379423" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_ResearchDebate_Mirror" Tags="TestUnsafe" Value="379426" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_ResearchDebate_Podium" Tags="TestUnsafe" Value="379427" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_ResearchDebate_Mirror" Tags="TestUnsafe" Value="379430" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_ResearchDebate_Podium" Tags="TestUnsafe" Value="379431" />
+  <Preset Label="Kick Soccer Ball with {1.SimFirstName} (touching_SoccerBall_Play_NPC_ClubRule)" Value="380201" />
+  <Preset Label="simPicker_Mentoring_AskFor_Robotics" Tags="TestUnsafe" Value="384462" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Robotics)" Tags="TestUnsafe" Value="384463" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Robotics)" Tags="TestUnsafe" Value="384464" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Robotics)" Tags="TestUnsafe" Value="384465" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_Robotics" Tags="TestUnsafe" Value="384466" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_Robotics" Tags="TestUnsafe" Value="384467" />
+  <Preset Label="autonomous_ObjectPicker_GrimChallenge_JuicePong" Tags="TestUnsafe" Value="391631" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Robotics)" Tags="TestUnsafe" Value="396372" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_ResearchDebate)" Tags="TestUnsafe" Value="396373" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Robotics)" Value="396374" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_ResearchDebate)" Value="396375" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Robotics)" Value="396376" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_ResearchDebate)" Value="396377" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Robotics)" Value="396378" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_ResearchDebate)" Value="396379" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Robotics)" Value="397516" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_ResearchDebate)" Value="397517" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_ResearchDebate" Tags="TestUnsafe" Value="398508" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Robotics" Tags="TestUnsafe" Value="398538" />
+  <Preset Label="Research Thanatology (computer_ResearchMachine_Research_Thanatology)" Value="399211" />
+  <Preset Label="&quot;Afterlife or After Living&quot; with (simPicker_PodiumPair_Debate_Skill_Thanatology)" Tags="TestUnsafe" Value="399284" />
+  <Preset Label="Thanatology (computer_ResearchMachine_ContributeKnowledge_Thanatology)" Value="399290" />
+  <Preset Label="Practice Juggling (hobbyMeetup_NPC_SoccerBall_Juggle)" Value="401570" />
+  <Preset Label="Guest Speak at University about Law (si_University_ClassroomShell_CareerLaw_GuestSpeak)" Value="402864" />
+  <Preset Label="Guest Speak at University about Law (university_ClassroomShell_VisitOfficeHours_CareerLaw_GuestSpeak)" Value="402866" />
+  <Preset Label="Guest Speak at University about Law (university_ClassroomShell_VisitOfficeHours_CareerLaw_GuestSpeak_Phone)" Value="402867" />
+  <Preset Label="Visit University Law Class (si_University_ClassroomShell_CareerLaw_LawLecture)" Value="402870" />
+  <Preset Label="Visit University Law Class (university_ClassroomShell_VisitOfficeHours_CareerLaw_LawLecture)" Value="402873" />
+  <Preset Label="Visit University Law Class (university_ClassroomShell_VisitOfficeHours_CareerLaw_LawLecture_Phone)" Value="402874" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Robotics_1)" Value="414381" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_ResearchDebate_1)" Value="414390" />
+  <Preset Label="Practice Juggling (sI_SoccerBall_Juggle_Solo_NPC_ClubOrCustomer)" Value="420298" />
+  <Preset Label="autonomous_ObjectPicker_GrimChallenge_PingPong" Tags="TestUnsafe" Value="421563" />
+  <Preset Label="Historical Apothecaries (computer_ResearchMachine_Research_Apothecary)" Value="447761" />
+  <Preset Label="Apothecary (computer_ResearchMachine_ContributeKnowledge_Apothecary)" Value="447762" />
+  <Preset Label="on Apothecary (computer_ResearchPaper_Apothecary)" Value="466469" />
 </PresetGroup>

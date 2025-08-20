@@ -48,7 +48,7 @@
   <Preset Label="buff_Role_ServiceNPC_Gardener_Service" Value="130531" />
   <Preset Label="buff_Role_Appropriateness_NoTouching" Value="132840" />
   <Preset Label="buff_Role_Appropriateness_NoWorkout_BG" Value="133051" />
-  <Preset Label="buff_Role_Appropriateness_NoBartending" Value="134456" />
+  <Preset Label="Buff_Role_Appropriateness_NoBartending" Value="134456" />
   <Preset Label="buff_Role_Appropriateness_NoComputer" Value="134457" />
   <Preset Label="buff_Role_Appropriateness_NoGrabSnack" Value="134458" />
   <Preset Label="buff_Role_Event_NPC" Value="136555" />
@@ -80,7 +80,6 @@
   <Preset Label="buff_Role_Appropriateness_NoTV" Value="155063" />
   <Preset Label="buff_Fall_Challenge_DoTD_Celebrant_Role_Always" Value="155504" />
   <Preset Label="buff_Fall_Challenge_DoTD_Celebrant_Role" Value="155506" />
-  <Preset Label="buff_Role_Appropriateness_NoSocialPicker" Value="170180" />
   <Preset Label="buff_Role_Employee" Value="179092" />
   <Preset Label="buff_Role_TakePhoto" Value="180548" />
   <Preset Label="buff_AutonomyMod_MarketStalls_Customer" Value="181131" />
@@ -105,39 +104,13 @@
   <Preset Label="buff_Role_Deliveries_WaitForCustomer" Value="262216" />
   <Preset Label="buff_Role_Deliveries_Generic" Value="262223" />
   <Preset Label="buff_Role_Deliveries_WaitForTip" Value="262303" />
-  <Preset Label="buff_Trait_CottageWorld_NPC_Headline_AgathaCrumplebottom" Value="262913" />
-  <Preset Label="buff_Role_OpenStreet_CottageWorld_Picnicker" Value="263839" />
   <Preset Label="buff_Role_GroupCooking_Gather_JoinedCooks" Value="263896" />
   <Preset Label="buff_Role_GroupCooking_Cook_JoinedCooks" Value="263898" />
   <Preset Label="buff_Role_GroupCooking_Gather_HeadCook" Value="263915" />
-  <Preset Label="I'm Always Angry (buff_Trait_CottageWorld_NPC_AgnesCrumplebottom_Angry)" Value="264153" />
   <Preset Label="buff_Role_GroupCooking_Cook_HeadCook" Value="264474" />
-  <Preset Label="buff_Role_OpenStreet_CottageWorld_Gossiper" Value="264549" />
-  <Preset Label="buff_Role_OpenStreet_CottageWorld_Forager" Value="264734" />
-  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_Garden" Value="264766" />
-  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_Forage" Value="264767" />
-  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_Cook" Value="264768" />
-  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_InteractWithCritters" Value="264769" />
   <Preset Label="buff_Role_GroupCooking_Mentoree" Value="267639" />
   <Preset Label="buff_Role_GroupCooking_Cook_StopCooking" Value="269313" />
-  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_Sit" Value="269643" />
-  <Preset Label="buff_Role_CottageWorld_NPC_CritterTender_GoHome" Value="269654" />
-  <Preset Label="buff_Role_CottageWorld_NPC_GroceryDelivery" Value="269815" />
-  <Preset Label="buff_HighSchoolDay_Role_DuringClass" Value="272760" />
   <Preset Label="buff_Role_Wedding_Venue_Visitor" Value="274767" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_StudyBuddies" Value="275831" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_PrepareForClass" Value="276282" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_AttendClass_Student" Value="276312" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_AttendClass_Teacher" Value="276313" />
-  <Preset Label="buff_Wedding_Shell_TownHall_GetMarried_Role_Start" Value="276382" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_Bullies" Value="276442" />
-  <Preset Label="buff_Wedding_Shell_TownHall_GetMarried_Role_GettingMarried" Value="276445" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_SocialMediaEnthusiasts" Value="276536" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_HSTeamRecruiter" Value="276556" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_StopInteraction" Value="276642" />
-  <Preset Label="buff_Role_Highschool_Active_Player_Orientation" Value="276707" />
-  <Preset Label="buff_Role_Highschool_Active_Player_AttendClass" Value="276710" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_AttendClass_Principal" Value="277031" />
   <Preset Label="buff_Role_Custom_State_Wedding_Couple_Mingle" Value="277813" />
   <Preset Label="buff_Role_Custom_State_Wedding_FlowerSpreader_MIngle" Value="277814" />
   <Preset Label="buff_Role_Custom_State_Wedding_Guest_Mingle" Value="277815" />
@@ -243,79 +216,28 @@
   <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Meal" Value="278107" />
   <Preset Label="buff_Role_Custom_State_Wedding_Officiant_PostCeremony" Value="278108" />
   <Preset Label="buff_Role_Custom_State_Wedding_Officiant_Processional" Value="278109" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_GetLunch" Value="278839" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_GoTo_WhiteBoard" Value="280121" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_TPose_Leader" Value="280764" />
-  <Preset Label="buff_AutonomyMod_ThriftStore_BubbleTeaDrinking" Value="280819" />
-  <Preset Label="buff_Role_Highschool_Active_Player_FireDrill" Value="280937" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_FireDrill" Value="280938" />
-  <Preset Label="buff_Role_Highschool_Active_Player_CareerDay" Value="282052" />
-  <Preset Label="buff_Role_Highschool_Active_Player_CareerDay_AtAuditorium" Value="282138" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_CareerDay" Value="282142" />
-  <Preset Label="buff_Role_Highschool_Active_Player_IsCareerDay_True" Value="282476" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_SchoolFight_StartFight" Value="282863" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_ThrowFootball_Leader" Value="284015" />
-  <Preset Label="buff_HSProm_Role_Teen_PreVote" Value="284077" />
-  <Preset Label="buff_Role_Custom_State_Wedding_Couple_Desserts" Value="285085" />
-  <Preset Label="buff_Role_Custom_State_Wedding_Guest_Desserts" Value="285086" />
-  <Preset Label="buff_Role_Highschool_Active_Player_IsFireDrill_True" Value="285120" />
-  <Preset Label="buff_Role_Highschool_Active_Player_Truant" Value="285599" />
-  <Preset Label="buff_Role_Highschool_Active_Player_GetReadyForClass" Value="285939" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_UseLocker" Value="286443" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_DoMischief" Value="287886" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_LockerFreshenUp" Value="287952" />
-  <Preset Label="buff_Role_HSGraduation_CallOutDiplomas" Value="288271" />
-  <Preset Label="buff_Role_HSGraduation_WatchSpeech" Value="288441" />
-  <Preset Label="buff_Role_HSGraduation_Affordances" Value="288487" />
-  <Preset Label="buff_Role_HSGraduation_GetDiploma" Value="288488" />
-  <Preset Label="buff_Role_HSGraduation_GiveSpeech" Value="288489" />
-  <Preset Label="buff_Role_HSGraduation_Pleasantries" Value="288491" />
-  <Preset Label="buff_Role_HSGraduation_ThrowCap" Value="288503" />
-  <Preset Label="buff_Role_HSGraduation_WatchSpeech_Back" Value="288688" />
-  <Preset Label="buff_Role_Highschool_Active_Player_AfterSchool" Value="288882" />
-  <Preset Label="buff_Werewolf_Role_ShowWereForm" Value="288997" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_CareerDay_Professional" Value="289106" />
-  <Preset Label="buff_HSProm_Role_Teen_Generic" Value="289410" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_HangOut_Principal" Value="289475" />
-  <Preset Label="buff_WolfTown_Role_Greg_InTown" Value="290139" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_Clean_Janitor" Value="290222" />
-  <Preset Label="buff_WolfTown_Role_WerewolfPack_Hangout_ShellA" Value="290562" />
-  <Preset Label="buff_WolfTown_Role_WerewolfPack_Hangout_ShellB" Value="290563" />
-  <Preset Label="buff_WolfTown_Role_WerewolfPack_Hangout_Chill" Value="290569" />
-  <Preset Label="buff_WolfTown_Role_WerewolfPack_Hangout_Food" Value="290576" />
-  <Preset Label="buff_WolfTown_Role_WerewolfPack_Hangout_Active" Value="290581" />
-  <Preset Label="buff_WolfTown_Role_Wander" Value="292072" />
-  <Preset Label="buff_Role_Highschool_Active_Player_IsExamPrep_True" Value="292250" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_GoToClass1" Value="293776" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_GoToClass2" Value="293817" />
-  <Preset Label="buff_Role_HighSchool_Active_Player_Base" Value="294894" />
-  <Preset Label="buff_WolfTown_Role_FriendSpar" Value="295337" />
-  <Preset Label="buff_Role_Highschool_Active_Player_IsExamDay_True" Value="295491" />
-  <Preset Label="buff_Role_HighSchool_Active_UseVendingMachine" Value="297488" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_GoToClass_Teacher" Value="297777" />
-  <Preset Label="buff_Role_WerewolfRepairMan_BeHandy" Value="298463" />
-  <Preset Label="buff_Role_WerewolfRepairMan_Hangout" Value="298800" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_GetLunch_Create" Value="298820" />
-  <Preset Label="buff_WolfTown_Role_WerewolfPack_Hangout_Garden" Value="299591" />
-  <Preset Label="buff_WolfTown_Role_Bar_WerewolfOnly" Value="299741" />
   <Preset Label="buff_Scenario_ProudParent_AdoptedBaby" Value="300937" />
   <Preset Label="buff_Role_BabyShower_Guest" Value="301105" />
   <Preset Label="buff_Role_WantFear_PartyHost" Value="302072" />
   <Preset Label="buff_Hidden_Scenario_StuckInTheirShadow_HighMotives" Value="302534" />
-  <Preset Label="buff_Role_HighSchool_Active_Base_Faculty" Value="302783" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_GoToExamPrep" Value="304063" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_AttendExamPrep" Value="304066" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_TeachExamPrep" Value="304082" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_CareerDay2" Value="304416" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_CareerDay3" Value="304417" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_CareerDay_DisallowPrerollWatch" Value="304431" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_Student_AttendClass2" Value="304592" />
-  <Preset Label="buff_Role_HSGraduation_CleanUpOutfits" Value="305318" />
   <Preset Label="buff_Role_BabyShower_Host" Value="308220" />
   <Preset Label="buff_Role_BabyShower_Guest_NPC" Value="308982" />
   <Preset Label="buff_Role_Sleepover_Sleep" Value="313208" />
   <Preset Label="buff_Role_Sleepover_Host" Value="313209" />
   <Preset Label="buff_Role_Sleepover_Guest" Value="313210" />
+  <Preset Label="buff_Role_MultiUnitCommunity_UseObjects" Value="343454" />
+  <Preset Label="buff_Role_WaitForInvitation_InteractionsOnly_Angry" Value="358726" />
+  <Preset Label="buff_Role_HobbyMeetup_Generic" Value="398740" />
+  <Preset Label="buff_Role_HobbyMeetup_PlayerInArea" Value="401421" />
+  <Preset Label="buff_BurglarPolice_Role_PreFight" Value="421848" />
+  <Preset Label="buff_BurglarPolice_Role_PostFight" Value="422063" />
+  <Preset Label="buff_Burglar_Role_Active" Value="422124" />
+  <Preset Label="buff_Burglar_Role_Arrested" Value="422125" />
+  <Preset Label="buff_Burglar_Role_Leave" Value="422126" />
+  <Preset Label="buff_Burglar_Hidden_SpottedBurglar" Value="422832" />
+  <Preset Label="buff_BurglarPolice_Role_PostArrest" Value="426716" />
+  <Preset Label="buff_Burglar_Role_Holding" Value="427070" />
+  <Preset Label="buff_Proximity_KindOfPartyLike_Trigger" Value="432707" />
   <Preset Label="In Holding Cell (buff_Object_HoldingCell_InCell)" Value="104873" />
   <Preset Label="buff_Role_Coworker" Value="108695" />
   <Preset Label="buff_Role_Appropriateness_NoTv" Value="108749" />
@@ -439,6 +361,7 @@
   <Preset Label="buff_Role_Vet_petOwner_DuringService" Value="178604" />
   <Preset Label="buff_Role_Vet_Employee_SuppressInteractions" Value="178611" />
   <Preset Label="buff_Role_Vet_BillOwner_Pet" Value="178622" />
+  <Preset Label="Buff_Role_muEvent_PetDay" Value="344803" />
   <Preset Label="buff_Role_HolidayTradition_FatherWinter_Arrival" Value="181509" />
   <Preset Label="buff_Role_HolidayTradition_FatherWinter_HangOut" Value="181512" />
   <Preset Label="buff_Role_HolidayTradition_FatherWinter_AddPresent" Value="181568" />
@@ -539,6 +462,14 @@
   <Preset Label="buff_Role_Community_Garden" Value="223963" />
   <Preset Label="buff_Role_TrashDiver" Value="224214" />
   <Preset Label="buff_Role_Community_BoardDebater" Value="224292" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_CreativeArts" Value="232215" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_FunCommunity" Value="232216" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_HomeCooking" Value="232217" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_JuicedCommunity" Value="232218" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_MusicArts" Value="232219" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_SelfCare" Value="232220" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_SelfSufficient" Value="232221" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_TechnologicalProgress" Value="232222" />
   <Preset Label="buff_Role_MakerSpaceMentor" Value="232823" />
   <Preset Label="buff_Role_RecyclingGuru" Value="232824" />
   <Preset Label="buff_Role_FabricatorRecycler" Value="232825" />
@@ -551,7 +482,12 @@
   <Preset Label="buff_Role_CommunityCloseness_SpareRecyclings_Recycle" Value="233785" />
   <Preset Label="buff_Role_CommunityCloseness_Hangout" Value="234294" />
   <Preset Label="buff_Role_Scrounger" Value="234690" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_Aggression" Value="237929" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_FreeLove" Value="237930" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_OldDays" Value="237931" />
+  <Preset Label="buff_CivicPolicy_NPCAutonomy_CommunalOwnership" Value="237951" />
   <Preset Label="buff_Role_CandleCrafter_CraftingTimeout" Value="237996" />
+  <Preset Label="Juiced Up (buff_CivicPolicy_NPCAutonomy_JuicedCommunity_Dazed)" Value="238039" />
   <Preset Label="buff_Role_CommunityCloseness_IntroToCivicPolicies" Value="238072" />
   <Preset Label="The Shunning (buff_CommunityCloseness_Complain_Shunned)" Value="238147" />
   <Preset Label="buff_Role_CommunityCloseness_Knock_TNSShown" Value="239097" />
@@ -614,7 +550,6 @@
   <Preset Label="buff_Role_Highschool_Active_Player_GetReadyForClass" Value="285939" />
   <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_UseLocker" Value="286443" />
   <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_DoMischief" Value="287886" />
-  <Preset Label="buff_Role_HighSchool_Active_NPC_DoStuff_LockerFreshenUp" Value="287952" />
   <Preset Label="buff_Role_HSGraduation_CallOutDiplomas" Value="288271" />
   <Preset Label="buff_Role_HSGraduation_WatchSpeech" Value="288441" />
   <Preset Label="buff_Role_HSGraduation_Affordances" Value="288487" />
@@ -645,6 +580,158 @@
   <Preset Label="buff_Role_HighSchool_Active_NPC_CareerDay_DisallowPrerollWatch" Value="304431" />
   <Preset Label="buff_Role_HighSchool_Active_NPC_Student_AttendClass2" Value="304592" />
   <Preset Label="buff_Role_HSGraduation_CleanUpOutfits" Value="305318" />
+  <Preset Label="buff_Role_RanchHand_States_Repair" Value="304725" />
+  <Preset Label="buff_Role_RanchHand_States_DontRepair" Value="304727" />
+  <Preset Label="buff_Role_RanchHand_States_CareForAnimals" Value="304754" />
+  <Preset Label="buff_Role_RanchHand_States_DontCareForAnimals" Value="304755" />
+  <Preset Label="buff_Role_RanchHand_States_Garden" Value="304756" />
+  <Preset Label="buff_Role_RanchHand_States_DontGarden" Value="304757" />
+  <Preset Label="buff_Role_RanchHand_NPC" Value="305070" />
+  <Preset Label="buff_Role_RanchHand_NPC_GardenerRole" Value="305071" />
+  <Preset Label="buff_Role_RanchHand_NPC_RepairmanRole" Value="305072" />
+  <Preset Label="buff_Role_RanchHand_NPC_AnimalCareRole" Value="305073" />
+  <Preset Label="buff_CommunalEvents_AnimalDay_Role_Host" Value="331503" />
+  <Preset Label="buff_CommunalEvents_AnimalDay_Role_Guests" Value="331504" />
+  <Preset Label="buff_CommunalEvents_AnimalDay_Role_RanchHelper" Value="331505" />
+  <Preset Label="buff_Role_OpenStreet_EP14World_EquestrianCenterVisitor" Value="335563" />
+  <Preset Label="buff_CommunalEvents_RanchGathering_Role_Guests" Value="338331" />
+  <Preset Label="buff_CommunalEvents_RanchGathering_Role_Host" Value="338332" />
+  <Preset Label="buff_CommunalEvents_RanchGathering_Role_GrillMaster" Value="338333" />
+  <Preset Label="buff_Role_RanchHand_NPC_Arrive" Value="339306" />
+  <Preset Label="buff_Role_RanchHand_NPC_End" Value="339312" />
+  <Preset Label="buff_Role_OpenStreet_EP14World_CommunityBoardViewer" Value="339332" />
+  <Preset Label="buff_Role_MultiUnitCommunity_Garden_TendGarden" Value="343298" />
+  <Preset Label="buff_Role_MultiUnitCommunity_Mailbox_GetMail" Value="343426" />
+  <Preset Label="buff_Role_MultiUnitCommunity_UseToilet" Value="343458" />
+  <Preset Label="buff_Role_muEvent_TrashOverload" Value="344181" />
+  <Preset Label="buff_Role_muEvent_TrashOverload_TrashDrive" Value="344182" />
+  <Preset Label="buff_Role_MultiUnitCommunity_Cook" Value="344208" />
+  <Preset Label="buff_Role_muEvent_SewageLeak" Value="344640" />
+  <Preset Label="buff_Role_muEvent_Haunting_Ghost" Value="344694" />
+  <Preset Label="buff_muEvent_Hidden_Haunting_Confront_Cooldown" Value="344716" />
+  <Preset Label="buff_Role_muEvent_Haunting_Tenant" Value="344757" />
+  <Preset Label="buff_Role_muEvent_Cursed" Value="345176" />
+  <Preset Label="buff_Role_muEvent_CharityDrive_Player" Value="345508" />
+  <Preset Label="buff_Role_muEvent_CharityDrive_NPC" Value="345529" />
+  <Preset Label="buff_Role_muEvent_Nuisance_Player" Value="349596" />
+  <Preset Label="buff_Role_APM_MailboxVisit" Value="350976" />
+  <Preset Label="buff_Role_muEvent_Nuisance_PO_Knock" Value="351870" />
+  <Preset Label="buff_Role_MultiUnitCommunity_NeighborChat" Value="354022" />
+  <Preset Label="buff_Role_Picnic_RomanticBlanket_Eat" Value="364383" />
+  <Preset Label="buff_Role_EP16SpecialNPC_TheRingBear_Hangout" Value="369737" />
+  <Preset Label="buff_AutonomyMod_EP16World_ShellVisitors_Motel" Value="376279" />
+  <Preset Label="buff_AutonomyMod_EP16World_ShellVisitors_FlowerShop" Value="376280" />
+  <Preset Label="buff_Role_Appropriateness_PlayingTriviaBox" Value="386635" />
+  <Preset Label="buff_Role_Appropriateness_Reaper_Player" Value="381791" />
+  <Preset Label="buff_Role_ReaperCareer_CoWorker" Value="383229" />
+  <Preset Label="buff_Role_ReaperCareer_Grim" Value="383237" />
+  <Preset Label="buff_Role_ReaperCareer_DeadSim" Value="383320" />
+  <Preset Label="buff_EP17World_Walkbys_Role_WaylonWarez" Value="387081" />
+  <Preset Label="buff_EP17World_Walkbys_Role_EdithBasu" Value="387946" />
+  <Preset Label="buff_EP17World_Walkbys_Role_Alice" Value="390182" />
+  <Preset Label="buff_Role_ReaperCareer_DeadSim_Premade" Value="392172" />
+  <Preset Label="buff_EP17World_Walkbys_Role_EdithMocker" Value="392720" />
+  <Preset Label="Shrieking Terror (buff_EP17World_Walkbys_Role_EdithMocker_Horrified)" Value="392722" />
+  <Preset Label="buff_EP17World_Walkbys_Role_CryptAdventurer" Value="393179" />
+  <Preset Label="buff_Role_ReaperCareer_Plea" Value="393403" />
+  <Preset Label="buff_Role_ReaperCareer_Soothe" Value="393404" />
+  <Preset Label="buff_Role_ReaperCareer_Ghost" Value="393405" />
+  <Preset Label="buff_EP17World_Walkbys_Role_ViolinPlayer_Route" Value="393680" />
+  <Preset Label="buff_Role_Edith_HeadTilt_StaticTvChannel" Value="393738" />
+  <Preset Label="buff_EP17World_Walkbys_Role_MacabreTourists" Value="397982" />
+  <Preset Label="buff_Role_ReaperCareer_MischieviousGhost" Value="401368" />
+  <Preset Label="buff_Role_ReaperCareer_DeadSim_Cowplant" Value="403266" />
+  <Preset Label="buff_EP17World_Walkbys_Role_EdithMocker_Route" Value="412509" />
+  <Preset Label="buff_EP17World_Walkbys_Role_EdithMocker_Mock" Value="412511" />
+  <Preset Label="buff_EP17World_Walkbys_Role_ViolinPlayer_Cleanup" Value="414865" />
+  <Preset Label="Careers (buff_EP17World_Walkbys_Role_SadAlice)" Value="417344" />
+  <Preset Label="buff_EP17World_Walkbys_Role_Alice_Start" Value="417715" />
+  <Preset Label="buff_EP17World_Walkbys_Role_AliceTree_AliceOnly_Rabbithole_Cooldown" Value="417716" />
+  <Preset Label="buff_EP17World_Walkbys_Role_OnAlice_QuestComplete" Value="419391" />
+  <Preset Label="buff_EP17World_Walkbys_Role_CommuneCooldown_AliceOnly" Value="419393" />
+  <Preset Label="buff_EP17World_Walkbys_Role_MacabreTourists_Route" Value="421365" />
+  <Preset Label="buff_EP17World_Walkbys_Role_MAcabreTourists_Cleanup" Value="421366" />
+  <Preset Label="buff_Role_ReaperCareer_Player" Value="422882" />
+  <Preset Label="buff_EP17World_Walkbys_Role_WaylonWarez_default" Value="424377" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Charisma" Value="397006" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Gardening" Value="397007" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Handiness" Value="397008" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Bartending" Value="397009" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_VideoGaming" Value="397010" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Comedy" Value="397011" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Painting" Value="397012" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Writing" Value="397013" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Fishing" Value="397014" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_GourmetCooking" Value="397015" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_HomestyleCooking" Value="397016" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Logic" Value="397017" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Programming" Value="397018" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_RocketScience" Value="397019" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Mischief" Value="397020" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Guitar" Value="397021" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Piano" Value="397022" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Violin" Value="397023" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Fitness" Value="397024" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Photography" Value="397025" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Tattooing" Value="397026" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Pottery" Value="397027" />
+  <Preset Label="buff_ShadyNPC_Role_Hangout" Value="397093" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Baking" Value="397384" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Singing" Value="397385" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_FlowerArranging" Value="397386" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_ResearchDebate" Value="397387" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Robotics" Value="397388" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Fabrication" Value="397389" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_PipeOrgan" Value="397390" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Knitting" Value="397391" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Dancing" Value="397392" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Equestrian" Value="397393" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Wellness" Value="397394" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_VampireLore" Value="397395" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Gemology" Value="397861" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_DJMixing" Value="398241" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Skiing" Value="399115" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Snowboarding" Value="399116" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Bowling" Value="399117" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_RockClimbing" Value="399118" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_CrossStitch" Value="399119" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_RanchNectar" Value="399120" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_JuiceFizzing" Value="399121" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Archaeology" Value="399122" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Herbalism" Value="399123" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Medium" Value="399124" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Thanatology" Value="399125" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Veterinarian" Value="399126" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Entrepreneur" Value="399127" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Acting" Value="399128" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_LocalCulture" Value="399129" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Romance" Value="399130" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Parenting" Value="399131" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_MediaProduction" Value="399132" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_DogTraining" Value="399133" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_PreClass" Value="399543" />
+  <Preset Label="buff_Role_HobbyMeetup_Creative" Value="401393" />
+  <Preset Label="buff_Role_HobbyMeetup_Books" Value="401552" />
+  <Preset Label="buff_Role_HobbyMeetup_Fitness" Value="401554" />
+  <Preset Label="buff_Role_HobbyMeetup_FoodDrink" Value="401820" />
+  <Preset Label="buff_Role_HobbyMeetup_Performer" Value="401890" />
+  <Preset Label="buff_Role_HobbyMeetup_Pottery" Value="401896" />
+  <Preset Label="buff_Role_HobbyMeetup_Logic" Value="401901" />
+  <Preset Label="buff_ShadyNPC_Role_FindWaylonWarez" Value="402961" />
+  <Preset Label="buff_Role_ServiceNPC_TattooArtist" Value="403113" />
+  <Preset Label="buff_Role_EP18World_Zain" Value="419408" />
+  <Preset Label="buff_Role_EP18World_Freya" Value="419409" />
+  <Preset Label="buff_Role_EP18World_Canal" Value="420133" />
+  <Preset Label="buff_ShadyNPC_Role_TutorialIntro" Value="422207" />
+  <Preset Label="buff_Role_SmallBusinessEmployee_BusinessWork_Owner" Value="424957" />
+  <Preset Label="buff_Role_SmallBusinessEmployee_BusinessWork" Value="431686" />
+  <Preset Label="buff_Trait_Shady_Heist_Role_Wait" Value="441871" />
+  <Preset Label="buff_Trait_Shady_Heist_Role_OnHeist" Value="442180" />
+  <Preset Label="buff_HobbyClass_Role_Instructor_InClass_NPC" Value="442674" />
+  <Preset Label="buff_HobbyClass_Role_Instructor_InClass" Value="442675" />
+  <Preset Label="buff_HobbyClass_Role_Instructor_PreClass" Value="442676" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_Apothecary" Value="444959" />
+  <Preset Label="buff_HobbyClass_Role_ClassMember_NLS" Value="454750" />
   <Preset Label="buff_Role_Restaurant_Player_EatFood" Value="134540" />
   <Preset Label="buff_Role_Restaurant_Player_WaitForFood" Value="134550" />
   <Preset Label="buff_Role_Restaurant_Staff_SuppressSocializeAutonomously" Value="138206" />

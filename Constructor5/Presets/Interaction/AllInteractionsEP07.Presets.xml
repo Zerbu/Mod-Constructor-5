@@ -28,23 +28,12 @@
   <Preset Label="Cook Feast (pitBBQ_StartCrafting)" Value="204971" />
   <Preset Label="pitBBQ_StartCooking" Value="204977" />
   <Preset Label="pitBBQ_CreateFood" Value="204978" />
-  <Preset Label="Grab Meal (pitBBQ_GrabFood)" Value="204980" />
+  <Preset Label="Serve Meal (pitBBQ_GrabFood)" Value="204980" />
   <Preset Label="Ride Around on {1.ObjectName} (waypoint_WaterScooter_RideAroundFromObject)" Value="205038" />
   <Preset Label="Change Station (stereo_PickChannel_WaterScooter)" Value="205058" />
   <Preset Label="Turn Off (stereo_turnoff_WaterScooter)" Value="205111" />
-  <Preset Label="Listen to Alternative (stereo_listen_alt_WaterScooter)" Value="205121" />
   <Preset Label="Spread Conservation Awareness (socials_Targeted_Friendly_Conservationist_SpreadConservationAwareness)" Tags="TestUnsafe" Value="205138" />
   <Preset Label="Research Conservation (computer_Career_Conservationist_ResearchConservation)" Value="205170" />
-  <Preset Label="Listen to Blues (stereo_listen_blues_WaterScooter)" Value="205184" />
-  <Preset Label="Listen to Classical (stereo_listen_classical_WaterScooter)" Value="205185" />
-  <Preset Label="Listen to Electronica (stereo_listen_electro_WaterScooter)" Value="205186" />
-  <Preset Label="Listen to Kids Radio (stereo_listen_kidsRadio_WaterScooter)" Value="205187" />
-  <Preset Label="Listen to Lullabies (stereo_listen_Lullabies_WaterScooter)" Value="205188" />
-  <Preset Label="Listen to Pop (stereo_listen_pop_WaterScooter)" Value="205189" />
-  <Preset Label="Listen to Retro (stereo_listen_retro_WaterScooter)" Value="205190" />
-  <Preset Label="Listen to Romantic Music (stereo_listen_romanc_WaterScooter)" Value="205191" />
-  <Preset Label="Listen to Spooky (stereo_listen_spooky_WaterScooter)" Value="205192" />
-  <Preset Label="Listen to Winter Holiday (stereo_listen_WinterHoliday_WaterScooter)" Value="205193" />
   <Preset Label="Take Sample (si_Career_Conservationist_TakeSample_FromObject)" Value="205255" />
   <Preset Label="Take Sample from Ocean (terrain-gohere_TakeSample)" Value="205262" />
   <Preset Label="Take Sample (si_Career_Conservationist_TakeSample_FromTerrain)" Value="205267" />
@@ -232,7 +221,6 @@
   <Preset Label="idle_buff_IslandConservation_NPC_EvilLaugh" Value="209202" />
   <Preset Label="idle_buff_IslandConservation_NPC_Thoughtbubbles" Value="209207" />
   <Preset Label="Select Fish to Submit (islandEvents_FishingCompetition_ChooseFish)" Tags="TestUnsafe" Value="209209" />
-  <Preset Label="Listen to Island Radio (stereowall_listen_Island)" Value="209216" />
   <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_IslandRadio)" Value="209217" />
   <Preset Label="Argue With Someone (social_IslandConservation_Argue_LowCharisma)" Tags="TestUnsafe" Value="209278" />
   <Preset Label="Argue With Someone (social_IslandConservation_YellAt_LowCharisma)" Tags="TestUnsafe" Value="209279" />
@@ -240,11 +228,6 @@
   <Preset Label="Confront About Wrongdoing (social_IslandConservation_Confront_DiscussTopic_HighCharisma)" Tags="TestUnsafe" Value="209281" />
   <Preset Label="Confront About Wrongdoing (socialSuper_IslandConservation_Confront)" Value="209293" />
   <Preset Label="Argue With Someone (social_IslandConservation_NPCSpecific_RantAboutConservation)" Tags="TestUnsafe" Value="209317" />
-  <Preset Label="Listen to Island Radio (stereo_Listen_Island_HotTub)" Value="209329" />
-  <Preset Label="Listen to Island Radio (stereo_Listen_Island_HotTub_NotInHotTub)" Value="209330" />
-  <Preset Label="Listen to Island Radio (stereo_earbuds_Listen_Island)" Value="209331" />
-  <Preset Label="Listen to Island Radio (stereo_Listen_Island)" Value="209332" />
-  <Preset Label="Listen to Island Radio (stereo_Listen_Island_Smart_Hub)" Value="209334" />
   <Preset Label="Argue With Someone (socialSuper_IslandConservation_NPC_RantAboutConservation)" Value="209406" />
   <Preset Label="Ask Nicely to Leave (socialSuper_IslandConservation_AskNicelyToLeave)" Value="209407" />
   <Preset Label="Ask Nicely to Leave (social_IslandConservation_AskToLeave_Story_MidRel)" Tags="TestUnsafe" Value="209413" />
@@ -612,7 +595,6 @@
   <Preset Label="Place in World (swipeAddToWorld_Waterscooter)" Value="216303" />
   <Preset Label="Sleep (mermaid_EnergyFailure_SleepAuto)" Value="216543" />
   <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_FishTrap)" Value="216552" />
-  <Preset Label="Listen to Island Radio (stereo_Listen_Island_Bot)" Value="223579" />
   <Preset Label="Ride Here (AggregateSI_Vehicle_WaterScooter_RideHere)" Value="229820" />
   <Preset Label="Sail Here (AggregateSI_Vehicle_IslandCanoe_RideHere)" Value="229821" />
   <Preset Label="Ride Here (waterScooter_Picker_RideHere_Terrain_Favorite)" Tags="TestUnsafe" Value="229864" />
@@ -626,4 +608,9 @@
   <Preset Label="Complain about Being Dirty (sim_HygieneDistress_Mermaid_CarrySim)" Value="320366" />
   <Preset Label="idle_Hygiene_Mermaid_CarrySim" Value="320446" />
   <Preset Label="Complain about Being Dirty (Sim_HygieneFailure_Mermaid_CarrySim)" Value="334752" />
+  <Preset Label="Pick Up All Servings (kavaBowl_GrabKava_AllServings)" Value="340050" />
+  <Preset Label="oceanSwimming_Reactions_Drown_WaterVehicleExit_Mermaid" Value="344338" />
+  <Preset Label="si_Skeptical_DemandProofOfPowersResponse_Mermaid" Value="384207" />
+  <Preset Label="FishingLocation_AngleForBigCatch_Idle_IslandLiving" Value="393337" />
+  <Preset Label="FishingLocation_Catch_IslandLiving" Value="393338" />
 </PresetGroup>

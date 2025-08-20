@@ -743,7 +743,6 @@
   <Preset Label="mixer_AlienAbduction_TrackerIdle_Low" Value="115184" />
   <Preset Label="mixer_AlienAbduction_TrackerIdle_Medium" Value="115185" />
   <Preset Label="mixer_AlienAbduction_TrackerIdle_VeryHigh" Value="115186" />
-  <Preset Label="Listen to Easy Listening (stereo_wall_listen_HospitalMusic)" Value="115197" />
   <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_hospitalmusic)" Value="115199" />
   <Preset Label="mi_InventionConstructor_Invent_Concept_MomentumConserver" Value="115237" />
   <Preset Label="mi_InventionConstructor_Invent_Concept_SimRay" Value="115238" />
@@ -785,7 +784,6 @@
   <Preset Label="Mannequin_TryOnOutfit_02" Value="115442" />
   <Preset Label="Mannequin_TryOnOutfit_03" Value="115443" />
   <Preset Label="immediate_BabyBirth_Partner" Value="115461" />
-  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic)" Value="115529" />
   <Preset Label="Ask about Party (mixer_social_Targeted_AskAboutParty_Friendly_AlwaysOn_Alien)" Tags="TestUnsafe" Value="115530" />
   <Preset Label="Grim Hug (si_Touching_Reaper_BroHug)" Value="115575" />
   <Preset Label="Return to Hospital (doctor_ReturntoHospital_Street)" Value="115584" />
@@ -880,7 +878,6 @@
   <Preset Label="Return to Police Station (detective_ReturnToPoliceStationStreet)" Value="117033" />
   <Preset Label="retail_FinalizeBuy" Value="117034" />
   <Preset Label="si_Register_StandNearRegister" Value="118357" />
-  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic_HotTub)" Value="122070" />
   <Preset Label="si_touching_Greeting_Alien_SecretHandshake" Value="123350" />
   <Preset Label="retail_Immediate_BuyFromUI" Value="143392" />
   <Preset Label="Add Safety Protocols (chemistryLab_Upgrade_NeverBreaks_CompletedDisplay)" Value="156557" />
@@ -916,8 +913,6 @@
   <Preset Label="Upgrade Mind Control: Sleep (simRay_Sleep_Upgrade_CompletedDisplay)" Value="168669" />
   <Preset Label="Upgrade: Transform Object (simRay_TransformObject_Upgrade_CompletedDisplay)" Value="168670" />
   <Preset Label="Upgrade: Transform Sim (simRay_TransformSim_Upgrade_CompletedDisplay)" Value="168671" />
-  <Preset Label="Listen to Easy Listening (stereo_earbuds_listen_HospitalMusic)" Value="177383" />
-  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic_HotTub_NotInHotTub)" Value="179356" />
   <Preset Label="Diagnose (hospitalExamBed_Doctor_DiagnosePatient_Pushed)" Value="179422" />
   <Preset Label="Transfer Patient Case (mixer_hospitalExamBed_Doctor_TransferPatientCase)" Value="179432" />
   <Preset Label="HospitalExamBed_TransferPatientCase_SimPicker" Tags="TestUnsafe" Value="179433" />
@@ -927,12 +922,9 @@
   <Preset Label="Hot Weather (mannequin_OutfitChange_Generate_HotWeather)" Value="192552" />
   <Preset Label="Event_NPC_Idles_MBB_Positivity_Challenge_Think_Hard" Value="199082" />
   <Preset Label="Set For Sale (retail_SetWalkInSafeForSale)" Value="200872" />
-  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic_Smart_Hub)" Value="203837" />
-  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic_WaterScooter)" Value="205194" />
   <Preset Label="Scientist Career (phone_Notebook_View_ScientistCareer)" Value="205517" />
   <Preset Label="Detective Career (phone_Notebook_View_DetectiveCareer)" Value="205519" />
   <Preset Label="sI_Object_AlienPortal_GoHome_ClothingOptional" Value="210513" />
-  <Preset Label="Listen to Easy Listening (stereo_listen_HospitalMusic_Bot)" Value="223597" />
   <Preset Label="Refer for Surgical Treatment (doctor_Refer_SI_SurgeryTable_DebugPush)" Value="229695" />
   <Preset Label="Transform (simRay_Transform_Object_ScientistVenueGrassOnly)" Value="260638" />
   <Preset Label="Bake (stove_Bake_StartCrafting_RequiredIngredients)" Value="261956" />
@@ -942,4 +934,42 @@
   <Preset Label="Change Outfit (changeOutfit_Occult_Alien_Disguise_Dresser_CarryInfant)" Value="321309" />
   <Preset Label="Remove Disguise (si_Occult_Alien_Disguise_Remove_Infant)" Value="321312" />
   <Preset Label="Disguise Self (si_Occult_Alien_Disguise_Self_Infant)" Value="321313" />
+  <Preset Label="Alien (costumeBox_WearCostume_Confident_Alien)" Value="364651" />
+  <Preset Label="Doctor (costumeBox_WearCostume_Confident_Doctor)" Value="364652" />
+  <Preset Label="Police (costumeBox_WearCostume_Confident_Police)" Value="364653" />
+  <Preset Label="Alien (costumeBox_WearCostume_Flirty_Alien)" Value="364654" />
+  <Preset Label="Doctor (costumeBox_WearCostume_Flirty_Doctor)" Value="364655" />
+  <Preset Label="Police (costumeBox_WearCostume_Flirty_Police)" Value="364656" />
+  <Preset Label="Alien (costumeBox_WearCostume_Playful_Alien)" Value="364657" />
+  <Preset Label="Doctor (costumeBox_WearCostume_Playful_Doctor)" Value="364658" />
+  <Preset Label="Police (costumeBox_WearCostume_Playful_Police)" Value="364659" />
+  <Preset Label="Mentor {2.String} (mentor_Skill_Baking)" Value="376106" />
+  <Preset Label="si_Skeptical_DemandProofOfPowersResponse_Alien" Value="383747" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Baking)" Tags="TestUnsafe" Value="385844" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Baking)" Tags="TestUnsafe" Value="385845" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Baking)" Tags="TestUnsafe" Value="385846" />
+  <Preset Label="simPicker_Mentoring_AskFor_Baking" Tags="TestUnsafe" Value="385916" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_Baking" Tags="TestUnsafe" Value="385917" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_Baking" Tags="TestUnsafe" Value="385918" />
+  <Preset Label="Practice Baking (cookingPractice_Mentoring_Start_Baking)" Value="386343" />
+  <Preset Label="Practice Baking (cookingPractice_Mentoring_Cont_Baking)" Value="386344" />
+  <Preset Label="Cook (objectPicker_CookingPractice_Mentoring_FindCounter_Baking)" Tags="TestUnsafe" Value="386349" />
+  <Preset Label="Mentor {2.String} (mentor_Baking_NoRecipe)" Value="386352" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Baking)" Tags="TestUnsafe" Value="396263" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Baking)" Value="396264" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Baking)" Value="396265" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Food_Baking)" Value="396266" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Baking)" Value="397512" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Baking" Tags="TestUnsafe" Value="398498" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Baking_1)" Value="414373" />
+  <Preset Label="Memory Erase (mixer_social_MemoryErase_Targeted_Mischief_AlwaysOn_Alien_Burglar)" Tags="TestUnsafe" Value="423354" />
+  <Preset Label="Ask for {2.String} Mentoring (immediate_Mentor_Baking_MenteeInitiated)" Value="425527" />
+  <Preset Label="Teleport to Sixam (Super_TeleportStone_TeleportTo_Sixam)" Value="428662" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Baking_CupcakeMachine)" Tags="TestUnsafe" Value="443510" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Baking_CupcakeMachine)" Tags="TestUnsafe" Value="443511" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Baking_CupcakeMachine)" Tags="TestUnsafe" Value="443512" />
+  <Preset Label="simPicker_Mentoring_AskFor_Baking_CupcakeMachine" Tags="TestUnsafe" Value="443513" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_Baking_CupcakeMachine" Tags="TestUnsafe" Value="443514" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_Baking_CupcakeMachine" Tags="TestUnsafe" Value="443515" />
+  <Preset Label="Teleport to Sixam (super_TeleportStone_TravelWith_Start_Sixam)" Value="444405" />
 </PresetGroup>

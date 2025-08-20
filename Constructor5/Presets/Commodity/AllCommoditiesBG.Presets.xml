@@ -379,6 +379,7 @@
   <Preset Label="commodity_Object_DontWakeLlama_BotSection" Value="127158" />
   <Preset Label="commodity_Object_DontWakeLlama_TopSection" Value="127160" />
   <Preset Label="commodity_TV_ChannelSurf_Cooldown" Value="130211" />
+  <Preset Label="commodity_Object_Dartboard_GameInProgress" Value="130238" />
   <Preset Label="commodity_Object_DontWakeLlama_GameCount" Value="130258" />
   <Preset Label="commodity_Trait_Autonomy_Kleptomaniac" Value="131787" />
   <Preset Label="commodity_Trait_Kleptomaniac_NeedToSwipe" Value="132222" />
@@ -418,6 +419,10 @@
   <Preset Label="commodity_Toddlers_Watch" Value="144294" />
   <Preset Label="commodity_Object_PottyChair_Confidence" Value="144921" />
   <Preset Label="commodity_Object_CraftSalesTable_Autonomy_BrowseTable" Value="145285" />
+  <Preset Label="commodity_Skill_VideoGaming_Platformer" Value="145447" />
+  <Preset Label="commodity_Skill_VideoGaming_Party" Value="145448" />
+  <Preset Label="commodity_Skill_VideoGaming_RPG" Value="145449" />
+  <Preset Label="commodity_Skill_VideoGaming_Racing" Value="145450" />
   <Preset Label="commodity_Buff_Object_Stereo_MusicToddler" Value="147770" />
   <Preset Label="commodity_Toddlers_Caregiver_Watch_Toddler" Value="151787" />
   <Preset Label="commodity_Buff_ToddlerAwake" Value="154194" />
@@ -486,36 +491,17 @@
   <Preset Label="commodity_Dust_ObjectSpawner" Value="258476" />
   <Preset Label="commodity_Trait_Autonomy_Gloomy" Value="258844" />
   <Preset Label="commodity_Trait_Gloomy_NearGhost" Value="258932" />
-  <Preset Label="commodity_GiantCrops_Plant_Yield" Value="259226" />
   <Preset Label="commodity_AnimalObjects_LivestockFeed_Healthy" Value="259591" />
   <Preset Label="commodity_Dust_ObjectSpawner_NoDustPiles_Debug" Value="259898" />
-  <Preset Label="commodity_GiantCrops_Plant_PruneCooldown" Value="259977" />
   <Preset Label="commodity_SimPreference_BadTime" Value="259983" />
   <Preset Label="commodity_AnimalObjects_VeryHappyTimer" Value="260086" />
   <Preset Label="commodity_AnimalObjects_EggHatchTimer" Value="260128" />
   <Preset Label="commodity_AnimalObjects_ReturnHomeTimer" Value="261359" />
   <Preset Label="commodity_AnimalObjects_MissingTimer" Value="261598" />
-  <Preset Label="commodity_Object_CritterGifting_TakeGift_Cooldown" Value="262281" />
   <Preset Label="commodity_AnimalObjects_LayEggTimer" Value="263550" />
-  <Preset Label="commodity_Trait_LactoseIntolerant_NoDairyTimer" Value="264109" />
-  <Preset Label="commodity_Trait_AnimalEnthusiast_NoAnimalInteractionTimer" Value="264110" />
-  <Preset Label="commodity_Role_OpenStreet_CottageWorld_Gossiper" Value="264575" />
-  <Preset Label="commodity_Object_CritterGifting_DiscoverGift_Cooldown" Value="264685" />
-  <Preset Label="commodity_AnimalObjects_CountryCaretaker_LifeExtension" Value="265341" />
-  <Preset Label="commodity_Trait_Autonomy_AnimalEnthusiast" Value="265709" />
   <Preset Label="commodity_CommunityLot_NPC_IdleAtPlant" Value="265716" />
-  <Preset Label="commodity_OpenStreet_CottageWorld_Forager_ForageCooldown" Value="265730" />
-  <Preset Label="commodity_NPCVillagers_AgathaCrumplebottom" Value="266372" />
-  <Preset Label="commodity_CottageWorld_MusicInTheWoods_SpawnBird" Value="267050" />
-  <Preset Label="commodity_VillagerHelp_DrinkPlayful_RandomFish" Value="267510" />
-  <Preset Label="commodity_Object_GroceryDeliveryCoupon_Expire" Value="267623" />
   <Preset Label="commodity_AnimalObjects_LivestockPen_GoMissing" Value="267882" />
-  <Preset Label="commodity_Fox_GoToDen" Value="267983" />
   <Preset Label="commodity_AnimalObjects_Relationship" Value="268596" />
-  <Preset Label="commodity_Role_CottageWorld_NPC_GroceryDelivery" Value="269816" />
-  <Preset Label="commodity_Lot_NightTime_Cooldown" Value="269930" />
-  <Preset Label="Bladder (commodity_Motive_Fox_Bladder)" Value="270467" />
-  <Preset Label="Hygiene (motive_Hygiene_Fox)" Value="270701" />
   <Preset Label="commodity_Sim_Fulfillment" Value="272961" />
   <Preset Label="commodity_Infant_Attachment" Value="273816" />
   <Preset Label="commodity_Infant_Diaper" Value="274093" />
@@ -524,33 +510,16 @@
   <Preset Label="commodity_Infant_TopNotch" Value="275657" />
   <Preset Label="commodity_Infant_Wiggly" Value="275842" />
   <Preset Label="commodity_BabyCare_LastSeen" Value="275951" />
-  <Preset Label="Fury (commodity_Motive_Werewolf_Fury)" Value="276223" />
   <Preset Label="commodity_Social_Media_PostFeed" Value="277010" />
   <Preset Label="commodity_Object_SandPlay" Value="277229" />
-  <Preset Label="commodity_CareerBenefit_HSTeam_CheerTeam" Value="277493" />
-  <Preset Label="commodity_CareerBenefit_HSTeam_ChessTeam" Value="277494" />
-  <Preset Label="commodity_CareerBenefit_HSTeam_ComputerTeam" Value="277495" />
-  <Preset Label="commodity_CareerBenefit_HSTeam_FootballTeam" Value="277496" />
   <Preset Label="commodity_Fear_Ghosts_Scared" Value="277513" />
   <Preset Label="commodity_Fear_Ghosts_NearGhostTracker" Value="277560" />
-  <Preset Label="commodity_CareerBenefit_StreamerSideHustle" Value="277635" />
-  <Preset Label="commodity_CareerBenefit_SimsfluencerSideHustle" Value="277637" />
   <Preset Label="commodity_Fear_Dark_NightTracker" Value="278006" />
-  <Preset Label="commodity_SimsfluencerSideHustle_GiftDelivery" Value="278992" />
   <Preset Label="commodity_Infant_TimeAlone" Value="282865" />
   <Preset Label="commodity_Social_Media_FollowerCount" Value="283641" />
-  <Preset Label="commodity_Trait_Overachiever_SkillTracker" Value="284499" />
-  <Preset Label="commodity_Trait_Autonomy_EP12Death_DefusePrank" Value="284510" />
-  <Preset Label="commodity_Trait_PartyAnimal_PartyWithdrawal" Value="284838" />
   <Preset Label="commodity_Infant_Cautious_InteractionFailure" Value="284866" />
   <Preset Label="commodity_Infants_Hiccups" Value="286112" />
   <Preset Label="commodity_Infants_Gassy" Value="286126" />
-  <Preset Label="commodity_EP12Death_UrbanMyth_CheckOutMirror" Value="286143" />
-  <Preset Label="commodity_WerewolfPackValue_Diplomacy" Value="286186" />
-  <Preset Label="commodity_WerewolfPackValue_ExpandExplore" Value="286187" />
-  <Preset Label="commodity_WerewolfPackValue_PackParticipation" Value="286188" />
-  <Preset Label="commodity_WerewolfPackValue_SelfImprovement" Value="286189" />
-  <Preset Label="commodity_WerewolfPackValue_SelfSufficiency" Value="286190" />
   <Preset Label="commodity_InfantMilestones_Babble" Value="286560" />
   <Preset Label="commodity_InfantMilestones_Coo" Value="286561" />
   <Preset Label="commodity_InfantMilestones_Creep" Value="286562" />
@@ -573,9 +542,6 @@
   <Preset Label="commodity_InfantMilestones_PullToStand" Value="286580" />
   <Preset Label="commodity_InfantMilestones_SleptThroughNight" Value="286581" />
   <Preset Label="commodity_InfantMilestones_Waving" Value="286582" />
-  <Preset Label="commodity_FashionMarketplace_OutfitHype" Value="286850" />
-  <Preset Label="commodity_WerewolfPack_TrustLost_FriendA" Value="287016" />
-  <Preset Label="commodity_WerewolfPack_TrustLost_FriendB" Value="287017" />
   <Preset Label="commodity_Want_StayOutside_Tracker" Value="287430" />
   <Preset Label="commodity_Want_StayOnLot_Tracker" Value="287431" />
   <Preset Label="commodity_Want_BeHappy_Tracker" Value="287432" />
@@ -586,28 +552,9 @@
   <Preset Label="commodity_Want_NoStumbling_Tracker" Value="287437" />
   <Preset Label="commodity_Want_NoMissSO_Tracker" Value="287461" />
   <Preset Label="commodity_Fear_CrowdedPlaces_CrowdedTracker" Value="287749" />
-  <Preset Label="commodity_Career_Homework_Prepare_For_Test" Value="287950" />
-  <Preset Label="commodity_Trait_Autonomy_PartyAnimal" Value="288728" />
-  <Preset Label="commodity_WerewolfCreation_Werebies" Value="288816" />
-  <Preset Label="commodity_WerewolfCreation_InsatiableHunger" Value="288817" />
-  <Preset Label="commodity_HighSchool_Active_ServeDetention_Progress" Value="289679" />
-  <Preset Label="commodity_Werewolf_WolfTown_Greg_Communication" Value="290128" />
-  <Preset Label="commodity_OpenableWindow_SneakingBackIn_Tracker" Value="290387" />
   <Preset Label="commodity_SimScratched" Value="291601" />
-  <Preset Label="commodity_Werewolf_GrowingPains" Value="292938" />
   <Preset Label="commodity_Death_Meteorite" Value="294214" />
   <Preset Label="commodity_Object_Meteorite" Value="295241" />
-  <Preset Label="commodity_HighSchool_Active_Background_Generic" Value="297202" />
-  <Preset Label="commodity_HighSchool_Active_Background_DoMischief" Value="297485" />
-  <Preset Label="commodity_HighSchool_Active_Background_UseVendingMachine" Value="297489" />
-  <Preset Label="commodity_HighSchool_Active_Background_UseLocker" Value="297490" />
-  <Preset Label="commodity_Werewolf_HowlFatigue" Value="298272" />
-  <Preset Label="commodity_Motive_Role_WolfTown_Bar" Value="299740" />
-  <Preset Label="commodity_Object_PromposalProgress_Sign1" Value="300457" />
-  <Preset Label="commodity_Object_PromposalProgress_Sign2" Value="301937" />
-  <Preset Label="commodity_Object_PromposalProgress_Sign3" Value="301938" />
-  <Preset Label="commodity_Object_PromposalProgress_Sign4" Value="301939" />
-  <Preset Label="commodity_Object_PromposalProgress_Sign5" Value="301940" />
   <Preset Label="commodity_Situation_PairedDanceTogether" Value="303078" />
   <Preset Label="commodity_Trait_Autonomy_TemporaryStay_GuestHelp" Value="303302" />
   <Preset Label="commodity_SelfDiscovery_Tracker_Virtues" Value="303796" />
@@ -615,8 +562,6 @@
   <Preset Label="commodity_Burnout_CreativeTracker" Value="304271" />
   <Preset Label="commodity_Burnout_BurnedOut" Value="304313" />
   <Preset Label="commodity_Burnout_FogCreative" Value="304314" />
-  <Preset Label="commodity_HighSchool_Active_Background_TPose" Value="304361" />
-  <Preset Label="commodity_HighSchool_Active_Background_ThrowFootball" Value="304362" />
   <Preset Label="commodity_Trait_Toddler_Autonomy_ToddlerPersonalityUpdate_WaterLover" Value="305299" />
   <Preset Label="commodity_Infant_BabyFeed_NewFlavor" Value="305359" />
   <Preset Label="commodity_KidsBike_Progress" Value="305621" />
@@ -676,8 +621,30 @@
   <Preset Label="commodity_SelfDiscovery_Tracker_Islander" Value="321368" />
   <Preset Label="commodity_MidlifeCrisis_Autonomy_StressAboutLostTime" Value="322628" />
   <Preset Label="commodity_Infant_AwakeTime" Value="325710" />
+  <Preset Label="commodity_AnimalObjects_SleepTimer" Value="327066" />
   <Preset Label="commodity_Read_To_Children_WaitTime" Value="328767" />
   <Preset Label="commodity_Read_To_Children_ActiveTime" Value="328768" />
   <Preset Label="commodity_Treehouse_CheckFootprint" Value="329894" />
   <Preset Label="commodity_Trait_HatesChildren_NearInfants" Value="333377" />
+  <Preset Label="commodity_Object_PressureCooker_Timer" Value="350557" />
+  <Preset Label="commodity_MentoreeTracker_MultiSI" Value="375245" />
+  <Preset Label="commodity_R3Event_ThrillSeeker" Value="376230" />
+  <Preset Label="commodity_Trait_Autonomy_Ghost_OldAge" Value="382544" />
+  <Preset Label="commodity_Trait_Autonomy_Ghost_Fire" Value="382545" />
+  <Preset Label="commodity_Trait_Autonomy_Ghost_Hunger" Value="382546" />
+  <Preset Label="commodity_NewGhost_React" Value="404206" />
+  <Preset Label="commodity_FamilyRecipes_DreamChaser" Value="405604" />
+  <Preset Label="commodity_Generic_DestroyObject_Timer" Value="410993" />
+  <Preset Label="commodity_Trait_Autonomy_GhostWarnOfDanger" Value="420065" />
+  <Preset Label="commodity_SelfDiscovery_Tracker_Lawfulness" Value="424115" />
+  <Preset Label="commodity_Fear_BeingBurgled_Scared" Value="427618" />
+  <Preset Label="Commodity_Trait_Grouch_Alone" Value="428652" />
+  <Preset Label="commodity_trait_Grouch_NearSims" Value="428654" />
+  <Preset Label="commodity_Trait_Grouch_BeGrouchy" Value="428656" />
+  <Preset Label="commodity_Burglar_FailCounter" Value="431739" />
+  <Preset Label="commodity_SelfDiscovery_Tracker_Fantasy" Value="433756" />
+  <Preset Label="commodity_PottedPlants_Relaxation" Value="438449" />
+  <Preset Label="commodity_LiveEvent_R5Event_OutdoorCheck" Value="439643" />
+  <Preset Label="commodity_HousePlants_Health" Value="444784" />
+  <Preset Label="commodity_Burglar_RouteFailCounter" Value="445609" />
 </PresetGroup>

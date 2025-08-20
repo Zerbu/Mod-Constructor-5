@@ -110,13 +110,13 @@
   <Preset Label="Make Unbreakable (atmosphericCondenser_Upgrades_Unbreakable_Start)" Value="232636" />
   <Preset Label="Ask to Pollute (ecoInspector_Social_AsktoPollute)" Value="232638" />
   <Preset Label="Repair (object_Repair_AtmosphericCondenser)" Value="232671" />
-  <Preset Label="Give Crafted Gift (Fabrication_GiveGift_SimInventory)" Tags="TestUnsafe" Value="232694" />
+  <Preset Label="Fabricated Gift (Fabrication_GiveGift_SimInventory)" Tags="TestUnsafe" Value="232694" />
   <Preset Label="Bask in the Light Rays (autonomous_ObjectPicker_EcoFootprint_SunRay)" Tags="TestUnsafe" Value="232717" />
   <Preset Label="Rummage For Assemblage (recycleDisciple_RummageForAssemblage_Indoors)" Value="232718" />
   <Preset Label="Bask in the Light Rays (ecoFootprint_BaskInTheLight_Continue)" Value="232723" />
   <Preset Label="autonomous_ObjectPicker_RecycleDisciple_Swipe" Tags="TestUnsafe" Value="232726" />
   <Preset Label="Go to Work (si_Career_CivicDesigner)" Value="232772" />
-  <Preset Label="Attempt to Swipe (swipe_RecycleDisciple_BitsAndPieces)" Value="232774" />
+  <Preset Label="Swipe to Recycle (swipe_RecycleDisciple_BitsAndPieces)" Value="232774" />
   <Preset Label="candleMakingStation_DipCandle" Value="232777" />
   <Preset Label="candleMakingStation_CreateMold_MoldCandle" Value="232778" />
   <Preset Label="candleMakingStation_CreateMold_ForCarving" Value="232780" />
@@ -283,9 +283,7 @@
   <Preset Label="Wind Turbines (mixer_Social_CivicPolicy_ConvinceToInstall_UtilityProduction_WindTurbine)" Tags="TestUnsafe" Value="234843" />
   <Preset Label="autonomous_CraftSalesTable_PurchaseObject_Dyes_Picker_NPC" Tags="TestUnsafe" Value="234911" />
   <Preset Label="autonomous_CraftSalesTable_PurchaseObject_Wax_Picker_NPC" Tags="TestUnsafe" Value="234912" />
-  <Preset Label="Fertilize (Gardening_Fertilize_VerticalGarden)" Value="234916" />
   <Preset Label="Fertilizing Plant (Gardening_Fertilize_VerticalGarden_continuation)" Value="234917" />
-  <Preset Label="Fertilize (Gardening_Fertilize_VerticalGarden_Toxic)" Value="234918" />
   <Preset Label="Browse Table (craftSalesTable_BrowseTable_CommunityLot)" Value="234919" />
   <Preset Label="Spray for Bugs (gardening_VerticalGarden_Spray_All)" Value="234954" />
   <Preset Label="Spray Area for Bugs (gardening_VerticalGarden_Spray_All_Area)" Value="234956" />
@@ -530,7 +528,7 @@
   <Preset Label="Recycle Bits (giveBucks_Cheats_RecycleBits)" Value="237411" />
   <Preset Label="Recycle Pieces (giveBucks_Cheats_RecyclePieces)" Value="237412" />
   <Preset Label="Idle_Buff_GrossedOutByDumpster_Vomit" Value="237512" />
-  <Preset Label="Mentor (mentor_FabricatorOrCandleMakingStation)" Value="237520" />
+  <Preset Label="Mentor {2.String} (mentor_FabricatorOrCandleMakingStation)" Value="237520" />
   <Preset Label="Improve Infuser (Completed) (juiceFizzing_Upgrade_Completed_ImproveInfuser)" Value="237570" />
   <Preset Label="Make Unbreakable (Completed) (juiceFizzing_Upgrade_Completed_MakeUnbreakable)" Value="237571" />
   <Preset Label="Add Self Cleaning (Completed) (juiceFizzing_Upgrade_Completed_SelfCleaning)" Value="237572" />
@@ -559,13 +557,7 @@
   <Preset Label="Talk about Neighborhood Action Plans (SI_Social_CommunityCloseness_IntroToCivicPolicies)" Value="238073" />
   <Preset Label="SHUN {1.SimFirstName}! (sI_Social_CommunityCloseness_Shun)" Value="238146" />
   <Preset Label="Submit Concept to Innovative Solutions Corp. (career_CivilDesigner_Concept_Submit_DestroyConcept)" Value="238251" />
-  <Preset Label="Listen to Americana (stereoWall_listen_Americana)" Value="238279" />
   <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_Americana)" Value="238280" />
-  <Preset Label="Listen to Americana (stereo_listen_Americana_HotTub)" Value="238283" />
-  <Preset Label="Listen to Americana (stereo_listen_Americana_HotTub_NotInHotTub)" Value="238284" />
-  <Preset Label="Listen to Americana (stereo_listen_Americana)" Value="238285" />
-  <Preset Label="Listen to Americana (stereo_listen_Americana_Smart_Hub)" Value="238286" />
-  <Preset Label="Listen to Americana (stereo_earbuds_listen_Americana)" Value="238291" />
   <Preset Label="civilDesigner_DraftingTablet_StartCrafting_Municipal" Value="238358" />
   <Preset Label="civilDesigner_DraftingTablet_Staging_DraftConcept_Municipal" Value="238374" />
   <Preset Label="civilDesigner_DraftingTablet_CraftingStep_Municipal" Value="238376" />
@@ -652,9 +644,6 @@
   <Preset Label="Collect Bio-Fuel (insectFarm_Collect_BioFuel)" Value="239816" />
   <Preset Label="Beetle Burns (si_InsectFarm_Combust)" Value="239818" />
   <Preset Label="Rummage for Bits and Pieces (RummageForBitsAndPieces_Indoor)" Value="239840" />
-  <Preset Label="Open Seed Packet (gardening_OpenSeedPacket_VerticalGarden_Fruit)" Value="239846" />
-  <Preset Label="Open Seed Packet (gardening_OpenSeedPacket_VerticalGarden_Herbs)" Value="239847" />
-  <Preset Label="Open Seed Packet (gardening_OpenSeedPacket_VerticalGarden_Flowers)" Value="239848" />
   <Preset Label="Purchase Seeds (purchase_Seeds_VerticalGarden)" Tags="TestUnsafe" Value="239864" />
   <Preset Label="Start Fizzing (juiceFizzer_StartFizzing_Dummy)" Value="239869" />
   <Preset Label="Scrap Fabrication (si_Fabricator_Scrap_silent)" Value="239888" />
@@ -751,7 +740,6 @@
   <Preset Label="verticalGarden_MeatWall_Spray_Sprout" Value="241340" />
   <Preset Label="verticalGarden_MeatWall_Water_Mature" Value="241341" />
   <Preset Label="verticalGarden_MeatWall_Water_Sprout" Value="241342" />
-  <Preset Label="Evolve (verticalGarden_Evolve)" Value="241387" />
   <Preset Label="Throw Away (dumpster_Throw_Away_Pots_DumpInto)" Value="241607" />
   <Preset Label="Throw Away (dumpster_Throw_Away_Pans_DumpInto)" Value="241622" />
   <Preset Label="mixer_Toddler_InsectFarm_Nurture_Chat" Value="241643" />
@@ -780,4 +768,39 @@
   <Preset Label="Give Farmed Insects (critterGifting_GiveGift_ToBird_Picker_InsectFarm)" Tags="TestUnsafe" Value="267158" />
   <Preset Label="Give Farmed Insects (critterGifting_GiveGift_ToFox_Picker_InsectFarm)" Tags="TestUnsafe" Value="267159" />
   <Preset Label="Give Farmed Insects (critterGifting_GiveGift_ToRabbit_Picker_InsectFarm)" Tags="TestUnsafe" Value="267160" />
+  <Preset Label="Harvest {S2.{S3.ObjectName}}{P2.{P3.ObjectName}} (gardening_VerticalGarden_Harvest_RanchHand)" Value="349052" />
+  <Preset Label="Add H20 Siphoner using Eco Parts (ecoUpgrades_EcoParts_Siphoner_SquatToilet)" Value="353272" />
+  <Preset Label="Water Recycler using Eco Parts (ecoUpgrades_EcoParts_WaterRecycler_SquatToilet)" Value="353644" />
+  <Preset Label="Water Recycler (ecoUpgrades_Handiness_WaterRecycler_SquatToilet)" Value="353645" />
+  <Preset Label="Composting Container (ecoUpgrades_Handiness_CompostingContainer_SquatToilet)" Value="353646" />
+  <Preset Label="Composting Container using Eco Parts (ecoUpgrades_EcoParts_CompostingContainer_SquatToilet)" Value="353647" />
+  <Preset Label="Practice Fabrication (si_Fabricator_Practice_Mentoring)" Value="384731" />
+  <Preset Label="mixer_Fabricator_Practice_Idle" Value="384803" />
+  <Preset Label="mixer_Fabricator_Practice_Carve" Value="385026" />
+  <Preset Label="mixer_Fabricator_Practice_LaserScan" Value="385027" />
+  <Preset Label="mixer_Fabricator_Practice_Spray" Value="385028" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Fabrication)" Tags="TestUnsafe" Value="385069" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Fabrication)" Tags="TestUnsafe" Value="385070" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Fabrication)" Tags="TestUnsafe" Value="385071" />
+  <Preset Label="simPicker_Mentoring_AskFor_Fabrication" Tags="TestUnsafe" Value="385072" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_Fabrication" Tags="TestUnsafe" Value="385073" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_Fabrication" Tags="TestUnsafe" Value="385074" />
+  <Preset Label="Declare Life's Finest Fabrication (UnfinishedBusiness_Declare_Fabrication)" Value="385155" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Fabrication)" Tags="TestUnsafe" Value="396380" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_JuiceFizzing)" Tags="TestUnsafe" Value="396381" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Fabrication)" Value="396382" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_JuiceFizzing)" Value="396383" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Fabrication)" Value="396384" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_JuiceFizzing)" Value="396385" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Fabrication)" Value="396386" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_JuiceFizzing)" Value="396387" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Fabrication)" Value="397518" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Fabrication" Tags="TestUnsafe" Value="398509" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_JuiceFizzing" Tags="TestUnsafe" Value="398510" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_JuiceFizzing)" Value="399528" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_JuiceFizzing_1)" Value="414378" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Fabrication_1)" Value="414382" />
+  <Preset Label="Fertilize (gardening_Fertilize_VerticalGarden_Picker)" Tags="TestUnsafe" Value="452496" />
+  <Preset Label="Fertilize All (gardening_Fertilize_VerticalGarden_Picker_All)" Tags="TestUnsafe" Value="452497" />
+  <Preset Label="Fertilizing Plant (gardening_Fertilize_VerticalGarden_continuation_All)" Value="452653" />
 </PresetGroup>

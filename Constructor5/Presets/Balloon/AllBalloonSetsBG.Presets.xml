@@ -290,6 +290,9 @@
   <Preset Label="BalloonCategory_SetReadToChildren_Speech" Value="100975" />
   <Preset Label="BalloonCategory_SetListenToStory_Thought" Value="100979" />
   <Preset Label="BalloonCategory_SetNausea_Thought" Value="102701" />
+  <Preset Label="BalloonCategory_SetStargazing_Thought" Value="104186" />
+  <Preset Label="BalloonCategory_SetStars_Thought" Value="104194" />
+  <Preset Label="BalloonCategory_SetClouds_Thought" Value="104201" />
   <Preset Label="balloonCategory_SetCorporateStuff_Speech" Value="107226" />
   <Preset Label="balloonCategory_CareerAthlete_Speech" Value="107233" />
   <Preset Label="balloonCategory_CareerAthlete_Thought" Value="107234" />
@@ -308,6 +311,7 @@
   <Preset Label="balloonCategory_Toddler_AskWhy_Responds" Value="147111" />
   <Preset Label="balloonCategory_Toddler_Imagination_Music" Value="147777" />
   <Preset Label="Hunger_Distress_Vegetarian" Value="148647" />
+  <Preset Label="balloonCategory_VanityTable_MakeUp" Value="152644" />
   <Preset Label="balloonCategory_SetFood_Speech_VegetarianTrait" Value="154215" />
   <Preset Label="Toddler_Fun_Distress" Value="155595" />
   <Preset Label="balloonCategory_Toddler_TeachToTalk" Value="155773" />
@@ -358,52 +362,14 @@
   <Preset Label="balloonCategory_Toddler_Thought_Play_Ocean" Value="212958" />
   <Preset Label="balloonCategory_SetSocialSTC_Casual_Speech_phone" Value="214408" />
   <Preset Label="BalloonCategory_SkillHandiness_Thought" Value="217684" />
-  <Preset Label="balloonCategory_AnimalObjects_Outdoors_Llama" Value="264279" />
-  <Preset Label="balloonCategory_AnimalObjects_Outdoors_Cow" Value="264280" />
-  <Preset Label="balloonCategory_AnimalObjects_LivestockPen_LlamaShear" Value="264304" />
-  <Preset Label="balloonCategory_AnimalObjects_LivestockPen_CowMilk" Value="264305" />
-  <Preset Label="balloonCategory_AnimalObjects_LivestockPen_CowMilkFail" Value="264308" />
-  <Preset Label="balloonCategory_AnimalObjects_LivestockPen_LlamaShearFail" Value="264309" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponsePositive" Value="264360" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponseNegative" Value="264361" />
   <Preset Label="balloonCategory_SimPreference_ActivityAsk" Value="267660" />
   <Preset Label="balloonCategory_SimPreference_ColorAsk" Value="267662" />
   <Preset Label="balloonCategory_SimPreference_MusicAsk" Value="267663" />
-  <Preset Label="balloonCategory_AnimalObjects_Rabbits_ResponseEnvironment" Value="269612" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponseNegative_Rabbits" Value="269614" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponseNegative_Rabbits_Aggressive" Value="269616" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponsePositive_Rabbits" Value="269618" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponsePositive_BirdHome" Value="270267" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponseNegative_BirdHome" Value="270270" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponseNegative_BirdHome_Music" Value="270271" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponsePositive_Chickens" Value="271016" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponseNegative_ChickenFight" Value="271017" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponsePositive_Cows" Value="271019" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponsePositive_Llamas" Value="271020" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponseNegative_Llamas" Value="271021" />
-  <Preset Label="balloonCategory_AnimalObjects_ResponseNegative_Chickens" Value="271065" />
-  <Preset Label="balloonCategory_AnimalObjects_LivestockPen_SurfaceNeeds" Value="271066" />
   <Preset Label="balloonCategory_GenericCareer_AskSimToPursueDreamJob_Positive" Value="274804" />
   <Preset Label="balloonCategory_GenericCareer_AskSimToPursueDreamJob_Negative" Value="274805" />
   <Preset Label="balloonCategory_Infant_Watch_PCThinkAbout" Value="277000" />
   <Preset Label="Attention_Distress" Value="280590" />
-  <Preset Label="balloonCategory_WeddingBalloons_Speech" Value="284097" />
-  <Preset Label="balloonCategory_HighSchool_Active_CareerDay_CareerDetails" Value="289556" />
-  <Preset Label="balloonCategory_HighSchool_Active_TeachClass" Value="289958" />
-  <Preset Label="balloonCategory_HighSchool_Active_TakeNotes" Value="289993" />
-  <Preset Label="balloonCategory_Werewolf_PackMentor" Value="292824" />
   <Preset Label="balloonCategory_LunarCycle_Tested" Value="297050" />
-  <Preset Label="balloonCategory_WerewolfSocial" Value="297982" />
-  <Preset Label="balloonCategory_RandomFashionTrend" Value="298994" />
-  <Preset Label="balloonCategory_ActorFashionTrend" Value="298997" />
-  <Preset Label="balloonCategory_FashionMarketplace_Question" Value="298998" />
-  <Preset Label="balloonCategory_FashionMarketplace_Simoleons" Value="298999" />
-  <Preset Label="balloonCategory_FashionMarketplace_BestFashion" Value="299000" />
-  <Preset Label="balloonCategory_Werewolf_Idle" Value="299121" />
-  <Preset Label="balloonCategory_ThriftStore_Comedy" Value="300011" />
-  <Preset Label="balloonCategory_ThriftStore_Fashion" Value="300012" />
-  <Preset Label="balloonCategory_ThriftStore_Poetry" Value="300013" />
-  <Preset Label="balloonCategories_HSProm_AudienceReaction" Value="303098" />
   <Preset Label="balloonCategory_BabyShower_BabyName" Value="305693" />
   <Preset Label="balloonCategory_BabyShower_BabyCareer" Value="306396" />
   <Preset Label="balloonCategory_Burnout_Speech" Value="308272" />
@@ -416,4 +382,63 @@
   <Preset Label="balloonCategory_SetSleepingBagStory_Adventure" Value="316242" />
   <Preset Label="balloonCategory_SetSleepingBagStory_Scary" Value="316243" />
   <Preset Label="balloonCategory_SetComplimentOutfit_PraiseMess" Value="321014" />
+  <Preset Label="balloonCategory_SetPositiveYes" Value="326952" />
+  <Preset Label="balloonCategory_SetNegativeNo" Value="326953" />
+  <Preset Label="balloonCategory_Stereo_MusicStyle" Value="337652" />
+  <Preset Label="BalloonCategory_TVKids" Value="339064" />
+  <Preset Label="balloonCategory_RouteFail_Basic" Value="345790" />
+  <Preset Label="balloonCategory_RouteFail_Slope" Value="345791" />
+  <Preset Label="balloonCategory_RouteFail_NoConnect" Value="345792" />
+  <Preset Label="balloonCategory_RouteFail_NoDest" Value="345793" />
+  <Preset Label="balloonCategory_RouteFail_NoGoals" Value="345794" />
+  <Preset Label="balloonCategory_RouteFail_NoPath" Value="345795" />
+  <Preset Label="balloonCategory_RouteFail_NoIntersect" Value="345796" />
+  <Preset Label="balloonCategory_RouteFail_Object" Value="345797" />
+  <Preset Label="balloonCategory_RouteFail_PathPlanFail" Value="345798" />
+  <Preset Label="balloonCategory_RouteFail_Reservation" Value="345799" />
+  <Preset Label="balloonCategory_RouteFail_HeadClearance" Value="345800" />
+  <Preset Label="BalloonCategory_SkillPainting_Speech" Value="376484" />
+  <Preset Label="balloonCategory_Skill_VideoGaming_Speech" Value="376650" />
+  <Preset Label="BalloonCategory_SkillCharisma_Speech" Value="377748" />
+  <Preset Label="BalloonCategory_SkillComedy_Speech" Value="377750" />
+  <Preset Label="balloonCategory_SkillFishing_Speech" Value="377752" />
+  <Preset Label="BalloonCategory_SkillFitness_Speech" Value="377754" />
+  <Preset Label="BalloonCategory_SkillGuitar_Speech" Value="377756" />
+  <Preset Label="BalloonCategory_SkillLogic_Speech" Value="377768" />
+  <Preset Label="BalloonCategory_SkillPiano_Speech" Value="377770" />
+  <Preset Label="balloonCategory_SkillProgramming_Speech" Value="378055" />
+  <Preset Label="balloonCategory_SkillCooking_Speech" Value="378087" />
+  <Preset Label="balloonCategory_SkillGardening_Speech" Value="378088" />
+  <Preset Label="BalloonCategory_SkillGourmetCooking_Speech" Value="378089" />
+  <Preset Label="BalloonCategory_SkillMischief_Speech" Value="378090" />
+  <Preset Label="balloonCategory_SkillMixology_Speech" Value="378091" />
+  <Preset Label="BalloonCategory_SkillRocketScience_Speech" Value="378092" />
+  <Preset Label="BalloonCategory_SkillViolin_Speech" Value="378093" />
+  <Preset Label="BalloonCategory_SkillWriting_Speech" Value="378094" />
+  <Preset Label="balloonCategory_SkillFitness_PunchingBag_Speech" Value="380764" />
+  <Preset Label="balloonCategory_SkillFitness_Treadmill_Speech" Value="380765" />
+  <Preset Label="balloonCategory_SkillFitness_Basketball_Speech" Value="382133" />
+  <Preset Label="balloonCategory_SkillFitness_WorkoutMachine_Speech" Value="382169" />
+  <Preset Label="BalloonCategory_SkillGourmetCooking_Thought" Value="400168" />
+  <Preset Label="BalloonCategory_SkillLogic_Thought" Value="400169" />
+  <Preset Label="BalloonCategory_SkillPainting_Thought" Value="400170" />
+  <Preset Label="balloonCategory_SkillMixology_Thought" Value="400171" />
+  <Preset Label="balloonCategory_SkillCooking_Thought" Value="400172" />
+  <Preset Label="balloonCategory_TheCollector" Value="406979" />
+  <Preset Label="balloonCategory_SkillFishing_Thought" Value="410778" />
+  <Preset Label="balloonCategory_SkillPhotography_Speech" Value="410865" />
+  <Preset Label="balloonCategory_SkillPhotography_Thought" Value="410866" />
+  <Preset Label="BalloonCategory_SkillFitness_Thought" Value="412414" />
+  <Preset Label="BalloonCategory_SkillComedy_Thought" Value="412415" />
+  <Preset Label="balloonCategory_SkillGardening_Thought" Value="412416" />
+  <Preset Label="BalloonCategory_SkillGuitar_Thought" Value="412417" />
+  <Preset Label="BalloonCategory_SkillMischief_Thought" Value="412418" />
+  <Preset Label="BalloonCategory_SkillPiano_Thought" Value="412419" />
+  <Preset Label="balloonCategory_SkillProgramming_Thought" Value="412420" />
+  <Preset Label="BalloonCategory_SkillRocketScience_Thought" Value="412421" />
+  <Preset Label="balloonCategory_SkillViolin_Thought" Value="412422" />
+  <Preset Label="BalloonCategory_SkillWriting_Thought" Value="412423" />
+  <Preset Label="balloonCategory_Skill_VideoGaming_Thought" Value="412424" />
+  <Preset Label="balloonCategory_Set_R4Event_AccuseSims" Value="432841" />
+  <Preset Label="balloonCategory_Set_R4Event_SearchForShards" Value="433960" />
 </PresetGroup>

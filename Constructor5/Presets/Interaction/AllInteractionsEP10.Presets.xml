@@ -143,10 +143,8 @@
   <Preset Label="Share Travel Stories (super_Lifestyles_FrequentTraveler_ShareTravelStories_Listen)" Value="246580" />
   <Preset Label="Equip Climbing Gear (skill_RockClimbing_Gear_Equip_Start)" Value="246590" />
   <Preset Label="Providing Ski Expertise (mixer_Social_Skiing_OfferSkiExpertise_Continued_Friendly_NT)" Tags="TestUnsafe" Value="246596" />
-  <Preset Label="Listen to Japanese Folk (stereoWall_Listen_JFolk)" Value="246600" />
   <Preset Label="Ask about Home Region (mixer_Lifestyles_FrequentTraveler_AskAboutHomeRegion)" Tags="TestUnsafe" Value="246601" />
   <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_JFolk)" Value="246605" />
-  <Preset Label="Listen to Music (stereo_listen_JFolk)" Value="246616" />
   <Preset Label="Repair Climbing Gear (skill_RockClimbing_Gear_Repair)" Value="246649" />
   <Preset Label="Throw Away Climbing Gear (skill_RockClimbing_Gear_ThrowAway)" Value="246650" />
   <Preset Label="autonomousPicker_RockClimbingGear_Find_StandardSuccess" Tags="TestUnsafe" Value="246658" />
@@ -171,13 +169,6 @@
   <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World3Return_FromShrine)" Value="246700" />
   <Preset Label="Go Hiking (hikingTrail_HikeAroundWith_Leader_World3CenterStart_ShrineEnd)" Value="246701" />
   <Preset Label="Discuss Past Ski Experiences (mixer_Social_Skiing_DiscussPastSkiExperiences_Friendly_NT)" Tags="TestUnsafe" Value="246736" />
-  <Preset Label="Listen to Music (stereo_listen_JFolk_Bot)" Value="246742" />
-  <Preset Label="Listen to Music (stereo_listen_JFolk_SkatingRink)" Value="246743" />
-  <Preset Label="Listen to Music (stereo_listen_JFolk_Smart_Hub)" Value="246744" />
-  <Preset Label="Listen to Music (stereo_listen_JFolk_WaterScooter)" Value="246745" />
-  <Preset Label="Listen to Music (stereo_earbuds_Listen_JFolk)" Value="246746" />
-  <Preset Label="Listen to Music (stereo_Listen_JFolk_HotTub)" Value="246748" />
-  <Preset Label="Listen to Music (stereo_Listen_JFolk_HotTub_NotInHotTub)" Value="246749" />
   <Preset Label="Prepare For The Moment (prepareForTheMoment_Skiing_Self)" Value="246750" />
   <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_BambooStart_CaveEnd)" Value="246752" />
   <Preset Label="Go Hiking (hikingTrail_HeadToSign_Leader_BambooStart_TempleEnd)" Value="246753" />
@@ -354,9 +345,6 @@
   <Preset Label="snowPal_MountainSnow_CreateObject_FromCont" Value="248115" />
   <Preset Label="Build Snowpal (snowpal_MountainSnow_StartBuild)" Value="248118" />
   <Preset Label="snowPal_MountainSnow_CreateObject_FromCont_Group" Value="248121" />
-  <Preset Label="Allow Shoes Indoors (shoeRemovalSign_NoRules)" Value="248257" />
-  <Preset Label="Remove Shoes Indoors (shoeRemovalSign_NoShoes)" Value="248262" />
-  <Preset Label="Wear Slippers Indoors (shoeRemovalSign_RequireSlippers)" Value="248263" />
   <Preset Label="Go to Work (si_Career_CorporateWorker)" Value="248316" />
   <Preset Label="Make Unbreakable (kotatsu_Upgrades_Complete_Unbreakable)" Value="248359" />
   <Preset Label="Add Improved Insulation (kotatsu_Upgrades_Complete_ImprovedInsulation)" Value="248360" />
@@ -667,7 +655,6 @@
   <Preset Label="wildlifeEncounter_EncounterOutcome_MountainTownHikingTrail" Value="251855" />
   <Preset Label="wildlifeEncounter_EncounterOutcome_SnowyMountainHikingTrail" Value="251856" />
   <Preset Label="wildlifeEncounter_EncounterOutcome_Watcher" Value="251857" />
-  <Preset Label="Follow Household Shoe Rules (si_shoeRemovalSign_ConformToRules)" Value="251883" />
   <Preset Label="si_CorporateWorker_PreGiveApologyGift" Value="251936" />
   <Preset Label="Share body heat with... (wooHoo_Picker_InteractableCave)" Tags="TestUnsafe" Value="251983" />
   <Preset Label="Play In Tent (tent_Playing_Summit)" Value="251984" />
@@ -813,4 +800,28 @@
   <Preset Label="Cook Healthy Meal (fridge_Cook_LifeStyles_HealthyFood_RequiredIngredients)" Value="261844" />
   <Preset Label="Cook (fridge_CookAutonomously_JunkFood_RequiredIngredients)" Value="269881" />
   <Preset Label="Cook (fridge_CookAutonomously_HealthNut_RequiredIngredients)" Value="269882" />
+  <Preset Label="Take Off Snow Boots (si_SnowSportsSlope_WearBootsBuff_TakeOff)" Value="346212" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Snowboarding)" Tags="TestUnsafe" Value="396445" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Skiing)" Tags="TestUnsafe" Value="396446" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_RockClimbing)" Tags="TestUnsafe" Value="396447" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Snowboarding)" Value="396448" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Skiing)" Value="396449" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_RockClimbing)" Value="396450" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_RockClimbing)" Value="396451" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Snowboarding)" Value="396452" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Skiing)" Value="396453" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_RockClimbing)" Value="396454" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Snowboarding)" Value="396594" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Skiing)" Value="396597" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_RockClimbing" Tags="TestUnsafe" Value="398511" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Skiing" Tags="TestUnsafe" Value="398539" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Snowboarding" Tags="TestUnsafe" Value="398540" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_RockClimbing)" Value="399529" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Skiing)" Value="399530" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Snowboarding)" Value="399531" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_RockClimbing_1)" Value="414352" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Skiing_1)" Value="414353" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Snowboarding_1)" Value="414354" />
+  <Preset Label="Teleport to Mt. Komorebi Peak (Super_TeleportStone_TeleportTo_MountainPeak)" Value="428665" />
+  <Preset Label="Teleport to Mt. Komorebi Peak (super_TeleportStone_TravelWith_Start_MountainPeak)" Value="444407" />
 </PresetGroup>

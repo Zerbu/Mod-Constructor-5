@@ -40,7 +40,6 @@
   <Preset Label="loot_Reaction_FoosballTable_Cheer" Value="123291" />
   <Preset Label="loot_Reaction_Greeting_ScreamAndWave" Value="123481" />
   <Preset Label="loot_Buff_DJBooth_ShowQuality" Value="123544" />
-  <Preset Label="loot_Reaction_Giggle" Value="123812" />
   <Preset Label="loot_Buff_Clubs_BadClubMember" Value="123816" />
   <Preset Label="loot_Buff_Clubs_FailedGambit" Value="123951" />
   <Preset Label="loot_Buff_Clubs_InsecureThrone" Value="123952" />
@@ -149,10 +148,6 @@
   <Preset Label="loot_Reaction_ArcadeMachine_Heckle_Low" Value="127621" />
   <Preset Label="loot_Commodity_DJBooth_GiveTip" Value="127883" />
   <Preset Label="loot_ArcadeGame_StartGame" Value="127943" />
-  <Preset Label="loot_Statistic_Dartboard_ResetRoundScore" Value="127954" />
-  <Preset Label="loot_Statistic_Dartboard_RoundScore_Add1" Value="127955" />
-  <Preset Label="loot_Statistic_Dartboard_RoundScore_Add2" Value="127956" />
-  <Preset Label="loot_Statistic_Dartboard_RoundScore_Add3" Value="127957" />
   <Preset Label="loot_Commodity_DJBooth_TipPayout" Value="127980" />
   <Preset Label="loot_ArcadeMachine_LoseLife" Value="128019" />
   <Preset Label="loot_Commodity_DJBooth_AudienceParticipation_set_Anti" Value="128024" />
@@ -170,11 +165,6 @@
   <Preset Label="loot_Buff_DJBooth_hidden_Audience_positiveBuff" Value="128384" />
   <Preset Label="loot_Buff_DJBooth_Audience_BumpingBeats" Value="128390" />
   <Preset Label="loot_Commodity_DJBooth_Audience_positiveBuff_Remove" Value="128391" />
-  <Preset Label="loot_Buff_Dartboard_Bullseye" Value="128401" />
-  <Preset Label="loot_Buff_Dartboard_OffTarget" Value="128402" />
-  <Preset Label="loot_Statistic_Dartboard_AddThrowingSkill" Value="128425" />
-  <Preset Label="loot_Buff_Dartboard_DartVictory" Value="128482" />
-  <Preset Label="loot_Buff_Dartboard_SoreLoser" Value="128483" />
   <Preset Label="loot_Club_Relationship_TargetToLeader_Gain_Insider" Value="128606" />
   <Preset Label="loot_Club_Relationship_TargetToLeader_Loss_Insider" Value="128607" />
   <Preset Label="loot_Reaction_JumpStand_Splashed" Value="128650" />
@@ -224,13 +214,9 @@
   <Preset Label="loot_ClubPerks_SetVibe_AmongComrades_AppliedByStartingAGathering" Value="130056" />
   <Preset Label="loot_Buff_Closet_ConsoleCooldown_ADD" Value="130146" />
   <Preset Label="loot_Statistic_skill_Dancing_fromWatch" Value="130195" />
-  <Preset Label="loot_Commodity_Motive_Fun_Darts_ThrownDartHitBoard" Value="130341" />
   <Preset Label="Rel_Gain_Small_SocialGroup_HasNotMet" Value="130345" />
   <Preset Label="loot_LiveDrag_Inventory_PortableBar" Value="130363" />
-  <Preset Label="loot_Reaction_Dartboard_Miss" Value="130388" />
-  <Preset Label="loot_Reaction_Dartboard_Bullseye" Value="130389" />
   <Preset Label="loot_Buff_Clubs_BrokeARule_AppliedAfterInteractionCompletes" Value="130471" />
-  <Preset Label="loot_Reaction_Dartboard_General" Value="130512" />
   <Preset Label="loot_Relationship_Bit_Clubs_NewMember_Greeted" Value="130612" />
   <Preset Label="loot_Buff_DJBooth_hidden_TipCollected" Value="130614" />
   <Preset Label="loot_Reaction_JumpStand_Cheer" Value="130620" />
@@ -256,4 +242,13 @@
   <Preset Label="loot_SelfDiscovery_Reward_Social_Insider" Value="315612" />
   <Preset Label="LootActions_MidlifeCrisis_LikeDislikeShift_Dancing" Value="318038" />
   <Preset Label="LootActions_MidlifeCrisis_LikeDislikeShift_DJMixing" Value="318040" />
+  <Preset Label="Loot_LearnSkill_LearnAboutTarget_Dancing" Value="368549" />
+  <Preset Label="Loot_LearnSkill_LearnAboutTarget_DJMixing" Value="368550" />
+  <Preset Label="Loot_LearnSkill_LearnAboutActor_Dancing" Value="368561" />
+  <Preset Label="Loot_LearnSkill_LearnAboutActor_DJMixing" Value="368562" />
+  <Preset Label="Loot_CostumeBox_Couple_Knight" Value="373860" />
+  <Preset Label="loot_Grief_PersonalityChange_PackDialog_DanceMachinetoLazy" Value="386722" />
+  <Preset Label="loot_Grief_PersonalityChange_PackDialog_DanceMachinetoGloomy" Value="386756" />
+  <Preset Label="loot_Grief_PersonalityChange_Swap_DanceMachinetoLazy" Value="386968" />
+  <Preset Label="loot_Grief_PersonalityChange_Swap_DanceMachinetoGloomy" Value="386969" />
 </PresetGroup>

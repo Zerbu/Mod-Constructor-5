@@ -16,12 +16,7 @@
   <Preset Label="Snow (mixer_Social_Friendly_DeclareWeatherLove_Snow)" Tags="TestUnsafe" Value="179203" />
   <Preset Label="Sun (mixer_Social_Friendly_DeclareWeatherLove_Sun)" Tags="TestUnsafe" Value="179204" />
   <Preset Label="Wind (mixer_Social_Friendly_DeclareWeatherLove_Wind)" Tags="TestUnsafe" Value="179205" />
-  <Preset Label="Listen to Summer Strut (stereo_listen_SummerStrut_HotTub)" Value="179791" />
-  <Preset Label="Listen to Summer Strut (stereo_listen_SummerStrut_HotTub_NotInHotTub)" Value="179792" />
-  <Preset Label="Listen to Summer Strut (stereo_listen_SummerStrut)" Value="179794" />
   <Preset Label="Turn On (stereo_CommunityWallSpeaker_TurnOn_SummerStrut)" Value="179795" />
-  <Preset Label="Listen to Summer Strut (stereoWall_listen_SummerStrut)" Value="179796" />
-  <Preset Label="Listen to Summer Strut (stereo_listen_SummerStrut_DJBooth)" Value="179805" />
   <Preset Label="Watch Weather Forecast (tv_Watch_Weather)" Value="179829" />
   <Preset Label="Talk about Climate Change (mixer_social_Targeted_Friendly_TalkAboutClimateChange)" Tags="TestUnsafe" Value="179840" />
   <Preset Label="Turn On (sprinkler_Immediate_TurnOn)" Value="179858" />
@@ -39,8 +34,6 @@
   <Preset Label="Change Station (stereo_PickChannel_SkatingRink)" Value="179953" />
   <Preset Label="Next Song (stereo_skipToNextSong_SkatingRink)" Value="179954" />
   <Preset Label="Turn Off (stereo_turnoff_SkatingRink)" Value="179955" />
-  <Preset Label="Listen to Spooky (stereo_listen_spooky_SkatingRink)" Value="180036" />
-  <Preset Label="Listen to Pop (stereo_listen_pop_SkatingRink)" Value="180039" />
   <Preset Label="Build Snowpal (snowpal_StartBuild)" Value="180050" />
   <Preset Label="Shovel Snow (snowDrift_Shovel)" Value="180061" />
   <Preset Label="Off (skatingRink_Effects_Off)" Value="180084" />
@@ -55,7 +48,7 @@
   <Preset Label="Music Auto-Play Off (skatingRink_MusicAutoPlay_Off)" Value="180116" />
   <Preset Label="Watch (skatingRink_WatchSkaters)" Value="180121" />
   <Preset Label="Appease the Gnome (harvestFest_Gnome_GiveGift_React)" Value="180276" />
-  <Preset Label="Set Color And Intensity (skatingRink_Lighting_ChangeLightColorIntensity)" Value="180350" />
+  <Preset Label="Set Color and Intensity (skatingRink_Lighting_ChangeLightColorIntensity)" Value="180350" />
   <Preset Label="Tell Story to {1.ObjectName} (snowPal_TellStory)" Value="180402" />
   <Preset Label="Red and Gold (holidayTree_DecorateOrnaments_Type1)" Value="180410" />
   <Preset Label="Red and Gold Ribbon (holidayTree_DecorateGarland_Type3)" Value="180411" />
@@ -160,7 +153,7 @@
   <Preset Label="Travel (si_HolidayTradition_FatherWinter_Exit)" Value="181522" />
   <Preset Label="Purchase Lottery Ticket (computer_SurpriseHoliday_PurchaseLotteryTicket)" Value="181576" />
   <Preset Label="Purchase Lottery Ticket (phone_SurpriseHoliday_PurchaseLotteryTicket)" Value="181581" />
-  <Preset Label="Have a Quick Meal (fridge_GrabCookiesAutonomously)" Value="181585" />
+  <Preset Label="Have a Quick Meal or Drink (fridge_GrabCookiesAutonomously)" Value="181585" />
   <Preset Label="Reset Customized Decorations (holidayDecorations_BoxOfDecorations_ResetToDefault)" Value="181607" />
   <Preset Label="Put Up Decorations (holidayDecorations_BoxOfDecorations_Toggle)" Value="181608" />
   <Preset Label="Rummage for Seasonal Decorations (holidayDecorations_BoxOfDecorations_RandomFind)" Value="181609" />
@@ -176,7 +169,7 @@
   <Preset Label="White and Gold Snowflake (holidayTree_SimPicker_DecorateWith_Skirt_Type3)" Tags="TestUnsafe" Value="181668" />
   <Preset Label="Blue and Green Plaid (holidayTree_SimPicker_DecorateWith_Skirt_Type2)" Tags="TestUnsafe" Value="181669" />
   <Preset Label="Reset Tree Skirt (holidayTree_Reset_Skirt)" Value="181670" />
-  <Preset Label="Have a Mud Fight With (seasonal_SimPicker_Throwing_Mud)" Tags="TestUnsafe" Value="181842" />
+  <Preset Label="Have a Mud Fight with (seasonal_SimPicker_Throwing_Mud)" Tags="TestUnsafe" Value="181842" />
   <Preset Label="Have a Snowball Fight with (seasonal_SimPicker_Throwing_Snowball)" Tags="TestUnsafe" Value="181843" />
   <Preset Label="Have a Water Balloon Fight With (seasonal_SimPicker_Throwing_WaterBalloon)" Tags="TestUnsafe" Value="181844" />
   <Preset Label="Sabotage Tree (holidayTree_Sabotage)" Value="181887" />
@@ -269,7 +262,7 @@
   <Preset Label="Burn Out! (reactions_Pet_Weather_Burning_Cat)" Value="183348" />
   <Preset Label="Have a Mud Fight (autonomous_ObjectPicker_Throwing_Mud)" Tags="TestUnsafe" Value="183358" />
   <Preset Label="Have a Water Balloon Fight (autonomous_ObjectPicker_Throwing_WaterBalloon)" Tags="TestUnsafe" Value="183360" />
-  <Preset Label="Have a Mud Fight With (autonomousSimPicker_Throwing_Mud)" Tags="TestUnsafe" Value="183364" />
+  <Preset Label="Have a Mud Fight with (autonomousSimPicker_Throwing_Mud)" Tags="TestUnsafe" Value="183364" />
   <Preset Label="Have a Water Balloon Fight With (autonomousSimPicker_Throwing_WaterBalloon)" Tags="TestUnsafe" Value="183365" />
   <Preset Label="Watch Season Premiere (tv_Watch_Holiday_TVPremiere)" Value="183398" />
   <Preset Label="Discuss Details of Season Premiere (mixer_social_DiscussTVPremiere_Targeted_Friendly)" Tags="TestUnsafe" Value="183435" />
@@ -681,14 +674,12 @@
   <Preset Label="kiddiePool_Lounge_Actions_BreatheIdle" Value="188627" />
   <Preset Label="kiddiePool_Lounge_Actions_CoolOff" Value="188628" />
   <Preset Label="kiddiePool_Lounge_Actions_PlayWithToy" Value="188629" />
-  <Preset Label="Decorate (holidayDecorations_BoxOfDecorations_DecorateColumns_Everday)" Value="188679" />
   <Preset Label="Decorate (holidayDecorations_BoxOfDecorations_DecorateFences_Everday)" Value="188680" />
   <Preset Label="Decorate (holidayDecorations_BoxOfDecorations_DecorateSpandrels_Everday)" Value="188681" />
   <Preset Label="Decorate (holidayDecorations_BoxOfDecorations_DecorateFriezes_Everday)" Value="188682" />
   <Preset Label="Decorate (holidayDecorations_BoxOfDecorations_DecorateFences_Holiday)" Value="188684" />
   <Preset Label="Decorate (holidayDecorations_BoxOfDecorations_DecorateSpandrels_Holiday)" Value="188685" />
   <Preset Label="Decorate (holidayDecorations_BoxOfDecorations_DecorateFriezes_Holiday)" Value="188686" />
-  <Preset Label="Decorate (holidayDecorations_BoxOfDecorations_DecorateColumns_Holiday)" Value="188687" />
   <Preset Label="Everyday Fence Decorations (holidayDecorations_Picker_Fences_Everyday)" Tags="TestUnsafe" Value="188689" />
   <Preset Label="Everyday Friezes Decorations (holidayDecorations_Picker_Friezes_Everyday)" Tags="TestUnsafe" Value="188690" />
   <Preset Label="Everyday Spandrel Decorations (holidayDecorations_Picker_Spandrels_Everyday)" Tags="TestUnsafe" Value="188691" />
@@ -794,7 +785,6 @@
   <Preset Label="autonomousSimPicker_KiddiePool_Toddler" Tags="TestUnsafe" Value="190808" />
   <Preset Label="autonomous_ObjectPicker_LeafPile" Tags="TestUnsafe" Value="190811" />
   <Preset Label="Ask For (Toddler_AskForKiddiePool)" Value="190822" />
-  <Preset Label="Listen to Winter Holiday (stereo_listen_WinterHoliday_DJBooth)" Value="190829" />
   <Preset Label="Watch (holidayCandles_Light_Watch_toddler)" Value="190838" />
   <Preset Label="Add Ruby Vase (flowerArrangements_AddVase_ruby)" Value="190916" />
   <Preset Label="Add Green Vase (flowerArrangements_AddVase_green)" Value="190917" />
@@ -834,22 +824,55 @@
   <Preset Label="scarecrow_PushLeaveCantReachObject" Value="191317" />
   <Preset Label="scarecrow_LeaveCantReachObject" Value="191319" />
   <Preset Label="Revive Plant (gardening_Revive_MoneyTree)" Value="191390" />
-  <Preset Label="Listen to Summer Strut (stereo_listen_SummerStrut_Smart_Hub)" Value="203850" />
-  <Preset Label="Listen to Summer Strut (stereo_listen_SummerStrut_WaterScooter)" Value="205207" />
   <Preset Label="Grand Pit BBQ Feast (pitBBQ_StartCrafting_Grand)" Value="210815" />
   <Preset Label="Skate Here (skatingRink_AutonomousChooser_Skate)" Value="210949" />
   <Preset Label="Skate Here (skatingRink_AutonomousChooser_Routine)" Value="210973" />
-  <Preset Label="Listen to Summer Strut (stereo_listen_SummerStrut_Bot)" Value="223581" />
   <Preset Label="Open Umbrella (sim_Carry_OpenUmbrella_HumanoidBotNPC)" Value="230583" />
   <Preset Label="Have a Mud Fight (Seasonal_Throwing_AcidMud)" Value="235250" />
   <Preset Label="Take Vacation Day (Gardener) (phone_TakePTO_Gardener)" Value="256630" />
   <Preset Label="Cook a Grand Meal (fridge_Cook_GrandMeal_startCrafting_RequiredIngredients)" Value="261839" />
   <Preset Label="Cook a Grand Meal (stove_Cook_GrandMeal_startCrafting_RequiredIngredients)" Value="261870" />
   <Preset Label="Grand Pit BBQ Feast (pitBBQ_StartCrafting_Grand_RequiredIngredients)" Value="261968" />
-  <Preset Label="Friendly Gift (si_Infant_GiveGift_Friendly)" Value="273616" />
   <Preset Label="Wedding Bouquets (flowerArrangement_StartCrafting_WeddingBouquets)" Value="278540" />
   <Preset Label="Receive Gift (Sim_To_Infant_GiftReceive)" Value="284594" />
   <Preset Label="Give Gift (sim_To_Infant_GiftGive)" Value="284596" />
   <Preset Label="Give Infant Gift (sim_GiveGift_Infant_Picker)" Tags="TestUnsafe" Value="322799" />
   <Preset Label="Give Gift (sim_To_Infant_GiveGift_PushGive)" Value="327898" />
+  <Preset Label="Harvest (Out of Season) (GardeningCare_OutOfSeason_Dummy)" Value="356890" />
+  <Preset Label="Sync with Thermostat (immediate_Thermostat_ConnectObject)" Value="357697" />
+  <Preset Label="Desync with Thermostat (immediate_Thermostat_DisconnectObject)" Value="357698" />
+  <Preset Label="Weather (weatherEventPickerSuperInteraction_WeatherCheat_Picker)" Tags="TestUnsafe" Value="359901" />
+  <Preset Label="Father Winter (costumeBox_WearCostume_Flirty_FatherWinter)" Value="365082" />
+  <Preset Label="Flower Bunny (costumeBox_WearCostume_Flirty_Bunny)" Value="365083" />
+  <Preset Label="Gnome (costumeBox_WearCostume_Flirty_Gnome)" Value="365084" />
+  <Preset Label="Father Winter (costumeBox_WearCostume_Confident_FatherWinter)" Value="365085" />
+  <Preset Label="Flower Bunny (costumeBox_WearCostume_Confident_Bunny)" Value="365086" />
+  <Preset Label="Gnome (costumeBox_WearCostume_Confident_Gnome)" Value="365087" />
+  <Preset Label="Father Winter (costumeBox_WearCostume_Playful_FatherWinter)" Value="365088" />
+  <Preset Label="Flower Bunny (costumeBox_WearCostume_Playful_Bunny)" Value="365089" />
+  <Preset Label="Gnome (costumeBox_WearCostume_Playful_Gnome)" Value="365090" />
+  <Preset Label="Mentor {2.String} (mentor_Skill_FlowerArranging)" Value="375359" />
+  <Preset Label="flowerArrangement_StartCraftingAutonomously_NPC" Value="378874" />
+  <Preset Label="si_Skeptical_DemandProofOfPowersResponse_FatherWinter" Value="384206" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_FlowerArranging)" Tags="TestUnsafe" Value="384723" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_FlowerArranging)" Tags="TestUnsafe" Value="384724" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_FlowerArranging)" Tags="TestUnsafe" Value="384725" />
+  <Preset Label="simPicker_Mentoring_AskFor_FlowerArranging" Tags="TestUnsafe" Value="384726" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_FlowerArranging" Tags="TestUnsafe" Value="384727" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_FlowerArranging" Tags="TestUnsafe" Value="384728" />
+  <Preset Label="Practice Flower Arrangement (flowerArrangement_Practice_Mentoring)" Value="384729" />
+  <Preset Label="mixer_FlowerArranging_Practice" Value="384730" />
+  <Preset Label="Summon Scarecrow (Debug) (debug_SummonScarecrow)" Value="395270" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_FlowerArranging)" Tags="TestUnsafe" Value="396414" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_FlowerArranging)" Value="396415" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_FlowerArranging)" Value="396416" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_FlowerArranging)" Value="396417" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_FlowerArranging)" Value="397515" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_FlowerArranging" Tags="TestUnsafe" Value="398506" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_FlowerArranging_1)" Value="414400" />
+  <Preset Label="Frozen (immediate_EP17World_RiverStyx_TemporaryGhost_Debug_Frozen)" Value="414638" />
+  <Preset Label="Death Flower (immediate_EP17World_RiverStyx_TemporaryGhost_Debug_DeathFlower)" Value="414639" />
+  <Preset Label="Overheat (immediate_EP17World_RiverStyx_TemporaryGhost_Debug_Overheat)" Value="414640" />
+  <Preset Label="Clean Up (si_FlowerArrangement_NPC_SmallBusinessCustomer_ScrapFinishedFlowers)" Value="435683" />
+  <Preset Label="flowerArrangement_StartCraftingAutonomously" Value="446899" />
 </PresetGroup>

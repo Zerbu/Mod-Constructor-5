@@ -4,25 +4,19 @@
   <Preset Label="filter_IsNotBusy_NoGhosts" Value="8462" />
   <Preset Label="filter_IsNotResident" Value="8463" />
   <Preset Label="filter_chef_notBusy" Value="9224" />
-  <Preset Label="filter_Walker_DesertOasis" Value="9487" />
-  <Preset Label="filter_Walker_Windenbourg" Value="9488" />
   <Preset Label="filter_Walker_GardenDistrict" Value="9489" />
   <Preset Label="filter_pizzaDelivery1" Value="10580" />
-  <Preset Label="filter_caterer_notBusy" Value="15926" />
   <Preset Label="filter_debug_adult" Value="15927" />
   <Preset Label="filter_debug_adult_in_family" Value="15928" />
   <Preset Label="filter_debug_bartender" Value="15929" />
   <Preset Label="filter_debug_caterer" Value="15930" />
   <Preset Label="filter_GrimReaper" Value="15931" />
-  <Preset Label="filter_IsPregnant" Value="15934" />
   <Preset Label="filter_maid1" Value="15935" />
   <Preset Label="filter_mailman1" Value="15936" />
   <Preset Label="filter_standard_walker" Value="15937" />
   <Preset Label="filter_ages_tyae_InCompatibleRegion" Value="15938" />
   <Preset Label="filter_ages_adult" Value="15939" />
   <Preset Label="sim_filter_blank_do_not_touch" Value="15940" />
-  <Preset Label="test_adult_female" Value="15941" />
-  <Preset Label="test_is_busy" Value="15945" />
   <Preset Label="filter_IsNotMarried" Value="25353" />
   <Preset Label="filter_ages_tyae_notBusy" Value="26570" />
   <Preset Label="filter_AdultIsNotBusy" Value="27405" />
@@ -31,19 +25,17 @@
   <Preset Label="filter_ages_children_teens_YA" Value="27677" />
   <Preset Label="filter_yae_engaged" Value="29337" />
   <Preset Label="filter_ages_children_friends" Value="29339" />
-  <Preset Label="filter_HasMet" Value="29505" />
   <Preset Label="filter_ages_tyae_paintingSkill" Value="29790" />
   <Preset Label="test_any" Value="30630" />
   <Preset Label="filter_ages_ctyae" Value="30732" />
-  <Preset Label="filter_WooHoo" Value="30791" />
+  <Preset Label="filter_WooHoo_Generic" Value="30791" />
   <Preset Label="filter_TryForBaby_Female" Value="30795" />
   <Preset Label="filter_TryForBaby_Male" Value="30796" />
   <Preset Label="filter_IsEngaged" Value="30919" />
   <Preset Label="filter_Entertainer_notBusy" Value="32410" />
   <Preset Label="test_age_up_in_family_ctyae" Value="34211" />
-  <Preset Label="filter_HasMet_ctyae" Value="34213" />
   <Preset Label="filter_IsMarried" Value="35925" />
-  <Preset Label="filter_IsMarriedToActor" Value="35926" />
+  <Preset Label="filter_SimPicker_HasMarriedBit_WithRequestor" Value="35926" />
   <Preset Label="filter_Walker_GardenDistrict_WorkCommuter" Value="36735" />
   <Preset Label="filter_Walker_GardenDistrict_SchoolCommuter" Value="36745" />
   <Preset Label="filter_Walker_GardenDistrict_OnTheTown" Value="36746" />
@@ -56,10 +48,8 @@
   <Preset Label="filter_phoneChat" Value="37062" />
   <Preset Label="filter_ages_YoungAdult_Elder_NotInFamily" Value="38723" />
   <Preset Label="filter_MessAround" Value="38857" />
-  <Preset Label="filter_RenewVow" Value="39167" />
   <Preset Label="filter_ages_tyae_InsaneTrait" Value="39175" />
   <Preset Label="filter_ages_ctyae_notBusy" Value="39472" />
-  <Preset Label="test_age_up_in_family_ctyae_notBusy" Value="39474" />
   <Preset Label="filter_ages_YoungAdult_Elder_NotBusy" Value="39486" />
   <Preset Label="filter_Librarian" Value="40083" />
   <Preset Label="filter_GymGoer" Value="40126" />
@@ -82,9 +72,8 @@
   <Preset Label="fliter_phoneChat_PlayerPicked" Value="77193" />
   <Preset Label="filter_BetrothedJob" Value="77312" />
   <Preset Label="filter_ages_yae_NotInFamily_HasMet" Value="77417" />
-  <Preset Label="filter_BBQ" Value="77421" />
+  <Preset Label="filter_OpenStreet_Socialize" Value="77421" />
   <Preset Label="filter_chess_player" Value="77527" />
-  <Preset Label="filter_HasMet_NotBaby" Value="77875" />
   <Preset Label="test_age_up_NPC" Value="97005" />
   <Preset Label="filter_Walker_Criminal" Value="97225" />
   <Preset Label="filter_Walker_Clown" Value="97229" />
@@ -100,27 +89,24 @@
   <Preset Label="filter_phoneChat_Autonomous_Child" Value="99550" />
   <Preset Label="filter_phoneChat_Autonomous" Value="99551" />
   <Preset Label="filter_phone_AskToComeOver" Value="100304" />
-  <Preset Label="filter_InHousehold" Value="100343" />
+  <Preset Label="filter_SimPicker_Basic_InHousehold" Value="100343" />
   <Preset Label="filter_IsBusy" Value="100958" />
-  <Preset Label="filter_HasBeenRomantic" Value="101039" />
+  <Preset Label="filter_SimPicker_HasMet_NotBusy_TYAE_HasBeenRomantic" Value="101039" />
   <Preset Label="filter_debug_handyman" Value="101388" />
   <Preset Label="filter_IsGhost" Value="103430" />
-  <Preset Label="filter_IsNotGhost" Value="103443" />
   <Preset Label="filter_NPC_IsNotGhost" Value="103670" />
   <Preset Label="filter_IsNotGHost_IsInHousehold" Value="103672" />
   <Preset Label="filter_HasMet_CTYAE_NotGhost" Value="103740" />
-  <Preset Label="filter_HasMet_CTAYE_AllowGhosts" Value="104072" />
-  <Preset Label="filter_HasMet_TAYE_AllowGhosts" Value="104094" />
-  <Preset Label="filter_HasRomanticRel_AllowGhosts" Value="104095" />
-  <Preset Label="filter_HasMet_C_AllowGhosts" Value="104097" />
+  <Preset Label="filter_SimPicker_HasMet_NotBusy_CTYAE" Value="104072" />
+  <Preset Label="filter_SimPicker_HasMet_HasRomanticCombo_WithRequestor" Value="104095" />
   <Preset Label="filter_in_travel_group" Value="104195" />
   <Preset Label="filter_compatible_region" Value="104203" />
-  <Preset Label="filter_ages_teen_allow_ghosts" Value="104861" />
+  <Preset Label="filter_ages_teen_AllowOccults" Value="104861" />
   <Preset Label="filter_ages_YoungAdult_Elder_Allow_Ghosts" Value="104863" />
   <Preset Label="filter_ages_ctyae_compatible_region" Value="104947" />
   <Preset Label="filter_LivesTogether" Value="105347" />
   <Preset Label="filter_ages_ctyae_GhostsOK" Value="107590" />
-  <Preset Label="filter_HasMet_ctyae_NotBusy" Value="109049" />
+  <Preset Label="filter_SimPicker_HasMet_CompRegion_NotBusy_CTYAE_NoGhostNPCs" Value="109049" />
   <Preset Label="filter_Bartender_Bar" Value="109543" />
   <Preset Label="Filter_Coworker_Met" Value="110011" />
   <Preset Label="Filter_Coworker_Unmet" Value="110012" />
@@ -130,10 +116,9 @@
   <Preset Label="filter_OpenStreets_Fisher" Value="110422" />
   <Preset Label="filter_Unimportant" Value="110518" />
   <Preset Label="filter_GrimReaper_Repurpose" Value="110581" />
-  <Preset Label="filter_HasMet_CTAYE_AllowGhosts_CompatibleRegion" Value="110620" />
-  <Preset Label="filter_HasMet_CTAYE_AllowGhosts_NotCompatibleRegion" Value="110652" />
+  <Preset Label="filter_SimPicker_HasMet_CompRegion_NotBusy_CTYAE" Value="110620" />
+  <Preset Label="filter_SimPicker_HasMet_NotBusy_CTYAE_NotInRegion" Value="110652" />
   <Preset Label="filter_TakePhotoWith" Value="111233" />
-  <Preset Label="filter_VacationPicker" Value="111267" />
   <Preset Label="filter_Unimportant_NoCareer" Value="113938" />
   <Preset Label="filter_pregnancy_partner" Value="114122" />
   <Preset Label="filter_ages_Children_NotInFamily_HasMet" Value="114770" />
@@ -141,13 +126,12 @@
   <Preset Label="filter_ctyae_withTemplateChooser" Value="115436" />
   <Preset Label="filter_Children_SchoolMates_NotMet" Value="116711" />
   <Preset Label="filter_HasRomanticRel_NPC_Invite_Date" Value="117139" />
-  <Preset Label="filter_IsFriend_NPC_Invite_PlayDate" Value="117265" />
-  <Preset Label="filter_InHousehold_NotBusy_Adult" Value="118330" />
+  <Preset Label="filter_DramaNode_AllowOccults_NPCInvite_PlayDate" Value="117265" />
+  <Preset Label="filter_SimPicker_NotBusy_YAE_InHousehold" Value="118330" />
   <Preset Label="filter_ages_tyae_hasRelationship" Value="118912" />
   <Preset Label="filter_WelcomeWagon_WelcomingNeighbor" Value="119901" />
   <Preset Label="filter_WelcomeWagon_Fruitcake_Bearer" Value="119926" />
   <Preset Label="filter_Walker_Neighbor" Value="120059" />
-  <Preset Label="filter_ages_teen_NeverPlayed" Value="120587" />
   <Preset Label="filter_ages_ya_NeverPlayed" Value="120589" />
   <Preset Label="filter_ages_tyae_hasRelationship_withSim" Value="122371" />
   <Preset Label="filter_ages_tyae_Basic" Value="122520" />
@@ -157,8 +141,6 @@
   <Preset Label="filter_Entertainer_MicComedy_PlayerFacing" Value="123689" />
   <Preset Label="filter_Entertainer_Dancer" Value="123749" />
   <Preset Label="filter_goingOutSocialsPicker_Matchmake" Value="125243" />
-  <Preset Label="filter_goingOutSocialsPicker_TalkUpSim" Value="125503" />
-  <Preset Label="filter_goingOutSocialsPicker_TrashAnotherSim" Value="125582" />
   <Preset Label="filter_IsFriend_NotEngagedToActor" Value="125690" />
   <Preset Label="filter_IsFriend_NotMarriedToActor" Value="125692" />
   <Preset Label="filter_Coworker_All" Value="125911" />
@@ -184,7 +166,6 @@
   <Preset Label="filter_HasMet_CTAYE_AllowGhosts_NotInHousehold_PreferFriends" Value="126934" />
   <Preset Label="filter_goingOutSocialsPicker_T_Matchmake" Value="127041" />
   <Preset Label="filter_OpenStreets_Fisher_Neighbor" Value="127056" />
-  <Preset Label="filter_NPC_Neighbor_IsNotGhost" Value="127060" />
   <Preset Label="filter_Coworker_Met_NotInHousehold" Value="127095" />
   <Preset Label="filter_IsNotBusy_GhostsOK" Value="127286" />
   <Preset Label="filter_HasMet_TYAE_AllowGhosts_NotInHousehold_PreferFriends" Value="127381" />
@@ -192,7 +173,6 @@
   <Preset Label="filter_HasMet_TYAE_FemaleOnly_AllowGhosts_NotInHousehold_PreferFriends" Value="127472" />
   <Preset Label="filter_IsFriend_NPC_Invite_Birthday_Party" Value="127815" />
   <Preset Label="fliter_phoneChat_PlayerPicked_IsNotIncestuous" Value="128070" />
-  <Preset Label="filter_ages_teen_YoungAdult_LivesOnStreet" Value="128186" />
   <Preset Label="filter_HasMet_CTAYE_AllowGhosts_NoReaperOrChaletGhosts_BusyOK" Value="128531" />
   <Preset Label="filter_NPC_HasHomeZone" Value="129114" />
   <Preset Label="filter_IsNotBusy_HouseholdGhostOK" Value="129237" />
@@ -200,7 +180,7 @@
   <Preset Label="filter_ages_tyae_Basic+Ghost" Value="129996" />
   <Preset Label="filter_ages_tyae_InCompatibleRegion_NoFallback" Value="130185" />
   <Preset Label="filter_IsGhost_HasBeenPlayed" Value="130208" />
-  <Preset Label="filter_Ages_CTYAE_AllowGhosts_NotBusy_OverrideBusyNPCs" Value="130289" />
+  <Preset Label="filter_Job_ClubGathering" Value="130289" />
   <Preset Label="Filter_NPCInvite_PlayDate_NPCParent" Value="130311" />
   <Preset Label="filter_gardener_service" Value="130545" />
   <Preset Label="filter_ages_ctyae_NPCGhostsOK" Value="130756" />
@@ -208,34 +188,27 @@
   <Preset Label="filter_HasMet_TYAE_NoGhosts_NotInHousehold_PreferFriends" Value="131105" />
   <Preset Label="filter_OpenStreets_Event_NPC_Challenge" Value="133762" />
   <Preset Label="filter_HasMet_TAYE_AllowGhosts_NotInHousehold_LowRel" Value="134419" />
-  <Preset Label="filter_HasMet_CTAYE_AllowGhosts_NotInHousehold_RomanticRel" Value="134440" />
   <Preset Label="filter_HasMet_TYAE_AllowGhosts_NotInHousehold_PreferFriends_NoEvilMean" Value="139201" />
   <Preset Label="filter_tragicClown" Value="139610" />
   <Preset Label="filter_nanny" Value="141853" />
-  <Preset Label="filter_Toddler_Household" Value="141986" />
   <Preset Label="filter_StallVendor" Value="143340" />
-  <Preset Label="filter_HasMet_CTAYE_AllowGhosts_AllowToddlers" Value="145692" />
+  <Preset Label="filter_SimPicker_HasMet_NotBusy_CTYAE_AllowServiceSkeleton" Value="145547" />
+  <Preset Label="filter_SimPicker_HasMet_NotBusy_PCTYAE" Value="145692" />
   <Preset Label="filter_tragicClown_Walkby" Value="147072" />
   <Preset Label="filter_HasMet_TYAE_AllowGhosts_NotInHousehold_PreferFriends_NoFamily" Value="152390" />
-  <Preset Label="filter_HasMet_tyae_AllowedInDay" Value="153203" />
-  <Preset Label="filter_ages_ctyae_AllowedInDay" Value="153205" />
   <Preset Label="filter_ages_yae_NotInFamily_HasMet_AllowedInDay" Value="153207" />
-  <Preset Label="filter_ages_tyae_Basic_AllowedInDay" Value="153234" />
-  <Preset Label="filter_ages_adult_AllowedInDay" Value="153236" />
   <Preset Label="filter_ages_ctyae_notBusy_AllowedInDay" Value="153239" />
   <Preset Label="filter_ages_tyae_NPCGhostOK" Value="154871" />
   <Preset Label="filter_ages_teen_InCompatibleRegion" Value="155486" />
-  <Preset Label="filter_HasMet_pctyae_CompatibleRegion" Value="155960" />
-  <Preset Label="filter_ToddlerInfantCare_TYAE_HasMet_NotBusy" Value="155983" />
-  <Preset Label="filter_ToddlerInfantCare_CTYAE_HasMet" Value="155993" />
-  <Preset Label="filter_Toddler_HasMet_NotBusy" Value="156163" />
+  <Preset Label="filter_SimPicker_HasMet_CompRegion_PCTYAE" Value="155960" />
+  <Preset Label="filter_SimPicker_HasMet_CompRegion_TYAE_NotPossessed" Value="155983" />
+  <Preset Label="filter_SimPicker_HasMet_CompRegion_CTYAE_NotPossessed" Value="155993" />
+  <Preset Label="filter_SimPicker_HasMet_CompRegion_NotBusy_P" Value="156163" />
   <Preset Label="filter_Toddler_Household_NotBusy" Value="156164" />
   <Preset Label="filter_Teen_SchoolMates_NotMet" Value="156431" />
-  <Preset Label="filter_HasMet_ctyaed" Value="156895" />
-  <Preset Label="filter_HasMet_ctyaed_NotBusy_AllowedInDay" Value="156971" />
+  <Preset Label="filter_SimPicker_HasMet_PCTYAE" Value="156895" />
   <Preset Label="filter_NPC_PCTAYE_NotBusy" Value="157563" />
-  <Preset Label="filter_ToddlerInfantCare_TYAE_Caregiver" Value="157648" />
-  <Preset Label="filter_ages_pctyae_compatible_region" Value="157920" />
+  <Preset Label="filter_SimPicker_HasMet_CompRegion_CareGiver" Value="157648" />
   <Preset Label="filter_ages_pctyae" Value="157962" />
   <Preset Label="filter_Aggregate_CTYAE_Friends_FourSims" Value="160178" />
   <Preset Label="filter_Aggregate_T_Friends_FourSims" Value="160229" />
@@ -243,36 +216,26 @@
   <Preset Label="filter_standard_walker_Teen" Value="160245" />
   <Preset Label="filter_HasMet_CTYAE_NotGhosts_AllowPets" Value="163618" />
   <Preset Label="filter_standard_walker_Adult_Only" Value="164101" />
-  <Preset Label="filter_ages_tyae_HasRomanticRelationship_withSim_RelOnly" Value="167342" />
   <Preset Label="filter_WritingJournalism_Article" Value="167549" />
-  <Preset Label="filter_InHousehold_CTYAE" Value="168303" />
+  <Preset Label="filter_SimPicker_Basic_CTYAE_InHousehold" Value="168303" />
   <Preset Label="filter_OpenStreets_Painter_Vendor" Value="168365" />
-  <Preset Label="filter_ages_children_notBusy_hasMet" Value="168693" />
+  <Preset Label="filter_SimPicker_HasMet_NotBusy_C" Value="168693" />
   <Preset Label="filter_NotGrimReaper_anySpecies" Value="168874" />
   <Preset Label="filter_Entertainer_Guitar_Busker" Value="170059" />
   <Preset Label="filter_Entertainer_Violin_Busker" Value="170061" />
   <Preset Label="filter_Toddler_HasMet_NotBusy_NotInHousehold" Value="170273" />
   <Preset Label="filter_human" Value="176150" />
-  <Preset Label="filter_ages_ctyae_AllowedInDay_NoServiceSkeleton" Value="177948" />
+  <Preset Label="filter_SimPicker_Basic_CTYAE" Value="177948" />
   <Preset Label="filter_WelcomeWagon_Actor_isHuman" Value="178544" />
-  <Preset Label="filter_HasMet_pctyae_NotBusy_AllowedInDay" Value="179928" />
+  <Preset Label="filter_SimPicker_HasMet_CompRegion_NotBusy_PCTYAE" Value="179928" />
   <Preset Label="filter_Dog_AE_InHousehold" Value="180049" />
-  <Preset Label="filter_ages_tyae_Basic_AllowedInDay_NoSkeletons" Value="180351" />
   <Preset Label="filter_HasMet_YAE_AllowGhosts_NotInHousehold_PreferFriends_NoFamily" Value="180378" />
   <Preset Label="filter_HasMet_T_AllowGhosts_NotInHousehold_PreferFriends_NoFamily" Value="180379" />
-  <Preset Label="filter_in_travel_group_with_ghosts" Value="180637" />
-  <Preset Label="filter_ages_tyae_HasRomanticRelationship" Value="189275" />
-  <Preset Label="filter_ages_ctyae_allowVampires" Value="189558" />
-  <Preset Label="filter_ages_tyae_HasMet_AllowOccults" Value="189739" />
+  <Preset Label="filter_SimPicker_TYAE_HasRomanticBit_WithSomeone" Value="189275" />
+  <Preset Label="filter_SimPicker_HasMet_TYAE" Value="189739" />
   <Preset Label="filter_Snowpal" Value="189916" />
   <Preset Label="filter_Ages_YAE" Value="190251" />
-  <Preset Label="filter_ages_ctyae_npc" Value="191165" />
-  <Preset Label="filter_ages_YoungAdult_Elder_NPC" Value="191289" />
-  <Preset Label="filter_ages_ctyae_compatible_region_npc" Value="191292" />
-  <Preset Label="filter_ages_ctyae_notBusy_npc" Value="191293" />
   <Preset Label="filter_ages_elder_npc" Value="191294" />
-  <Preset Label="filter_ages_tyae_InCompatibleRegion_npc" Value="191297" />
-  <Preset Label="filter_AdultIsNotBusy_NPC" Value="191526" />
   <Preset Label="filter_RetailCustomers_NotToldToLeave" Value="195644" />
   <Preset Label="filter_HasNotMet_TYAE_NoGhosts_NotInHousehold" Value="195749" />
   <Preset Label="filter_Walker_Gardener" Value="196903" />
@@ -282,165 +245,68 @@
   <Preset Label="filter_PartyGuest_HasNotMet" Value="200966" />
   <Preset Label="filter_tutorialFTUE_NPCs_notRoommate" Value="201680" />
   <Preset Label="filter_Entertainer_MicComedy_FromMicrophone" Value="202673" />
-  <Preset Label="filter_ages_YoungAdult_Elder_HasMet" Value="202820" />
   <Preset Label="filter_Unimportant_NoCareer_GymTrainer" Value="203223" />
   <Preset Label="filter_RequestingSim" Value="204376" />
   <Preset Label="filter_ages_ctyae_notBusy_notMerfolk" Value="210136" />
-  <Preset Label="filter_Ages_YAE_LivesInRegion" Value="212487" />
   <Preset Label="filter_Ages_YAE_LivesInLocalIsland" Value="213922" />
-  <Preset Label="filter_Ages_YAE_LivesInResortIsland" Value="213942" />
   <Preset Label="filter_ages_ctyae_compatible_region_LivesOnStreet" Value="224384" />
   <Preset Label="filter_RepoPerson" Value="226299" />
-  <Preset Label="filter_HasMet_YAE_AllowGhosts" Value="226441" />
   <Preset Label="filter_Unimportant_NoVolunteerCareer_CT" Value="227747" />
-  <Preset Label="filter_Unimportant_NoVolunteerCareer" Value="227751" />
   <Preset Label="filter_Ages_YAE_NeverPlayed" Value="230616" />
-  <Preset Label="filter_ages_ya_NeverPlayed_University_NotEnrolled" Value="230699" />
-  <Preset Label="filter_ages_elder_NeverPlayed_University_NotEnrolled" Value="230701" />
-  <Preset Label="filter_ages_ya_University_NotEnrolled" Value="230702" />
-  <Preset Label="filter_ages_elder_University_NotEnrolled" Value="230703" />
   <Preset Label="filter_StallVendor_NoRepurpose" Value="231010" />
-  <Preset Label="filter_ages_ctyae_notBusy_AllowProfessor" Value="231066" />
   <Preset Label="filter_ages_YoungAdult_Elder_AllowProfessor" Value="231069" />
   <Preset Label="filter_ages_tyae_InCompatibleRegion_HandinessSkill" Value="232629" />
-  <Preset Label="DramaNodeFilters_Friend_HasSpouse_YAE" Value="233404" />
-  <Preset Label="DramaNodeFilters_Friend_HasSignificantOther_YAE" Value="233405" />
-  <Preset Label="DramaNodeFilters_Friend_Base_CTYAE" Value="233452" />
-  <Preset Label="DramaNodeFilters_Friend_LivesOnStreet_CTYAE" Value="233453" />
-  <Preset Label="DramaNodeFilters_HasNotMet_Base_CTYAE" Value="233455" />
-  <Preset Label="DramaNodeFilters_HasNotMet_LivesOnStreet_TYAE" Value="233458" />
   <Preset Label="dramaNodeFilters_Friend_Base_TYAE" Value="233460" />
-  <Preset Label="dramaNodeFilters_Friend_Base_Elder" Value="233461" />
-  <Preset Label="dramaNodeFilters_Friend_Base_Child" Value="233462" />
-  <Preset Label="dramaNodeFilters_Friend_LivesOnStreet_TYAE" Value="233466" />
-  <Preset Label="dramaNodeFilters_Friend_LivesOnStreet_Elder" Value="233467" />
-  <Preset Label="dramaNodeFilters_Friend_LivesOnStreet_Child" Value="233469" />
   <Preset Label="dramaNodeFilters_HasNotMet_Base_TYAE" Value="233471" />
-  <Preset Label="dramaNodeFilters_HasNotMet_LivesOnStreet_CTYAE" Value="233474" />
-  <Preset Label="dramaNodeFilters_All_LivesOnStreet_TYAE" Value="233476" />
-  <Preset Label="dramaNodeFilters_All_Base_TYAE" Value="233477" />
-  <Preset Label="dramaNodeFilters_All_Base_CTYAE" Value="233479" />
-  <Preset Label="dramaNodeFilters_All_LivesOnStreet_CTYAE" Value="233481" />
-  <Preset Label="dramaNodeFilters_HasNotMet_Base_Elder" Value="233483" />
-  <Preset Label="SituationFilters_Friend_LivesOnStreet_CTYAE" Value="233556" />
-  <Preset Label="situationFilters_Friend_LivesOnStreet_TYAE" Value="233558" />
-  <Preset Label="dramaNodeFilters_CommunityCloseness_FamilyMatters" Value="234672" />
-  <Preset Label="dramaNodeFilters_CommunityCloseness_CommitmentIssues" Value="234673" />
+  <Preset Label="Filter_DramaNode_CommunityCloseness_FamilyMatters" Value="234672" />
+  <Preset Label="Filter_DramaNode_CommunityCloseness_CommitmentIssues" Value="234673" />
   <Preset Label="filter_Ages_YAE_LivesInRegion_FireBrigade" Value="234747" />
   <Preset Label="filter_Ages_YA_Firefighter" Value="237683" />
   <Preset Label="filter_ages_tyae_LivesOnStreet" Value="240242" />
-  <Preset Label="filter_ages_ctyae_LivesTogetherOrVacationTogether" Value="247847" />
-  <Preset Label="filter_IsNotPregnant" Value="254108" />
+  <Preset Label="filter_SimPicker_Basic_CTYAE_LivesWithOrVacationWith" Value="247847" />
   <Preset Label="filter_walkby_WorkCommuter_Bookworm" Value="258046" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_AgnesCrumplebottom" Value="259320" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_AgathaCrumplebottom" Value="260236" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_Mayor" Value="260237" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_GroceryOwner" Value="260238" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_GroceryDelivery" Value="260239" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_CritterTender" Value="260240" />
-  <Preset Label="_SituationFilters_CottageWorld_NPC_PubOwner" Value="260241" />
-  <Preset Label="_SituationFilters_CottageWorld_VillageShops_GardenCrumplebottom" Value="261223" />
   <Preset Label="filter_Fox_AE" Value="261413" />
   <Preset Label="filter_Deliveries_FoodDelivery" Value="262356" />
-  <Preset Label="filter_Deliveries_GroceryDelivery" Value="262357" />
-  <Preset Label="filter_Aggregate_VillagerHelp_Gossipers" Value="264711" />
   <Preset Label="filter_ages_ctyae_notBusy_AgeVariant" Value="269295" />
   <Preset Label="musicFestival_Filter_ArtistNPC_BebeRexha" Value="269679" />
   <Preset Label="musicFestival_Filter_ArtistNPC_JoyOladokun" Value="269680" />
   <Preset Label="musicFestival_Filter_ArtistNPC_DaveBayley" Value="269681" />
   <Preset Label="musicFestival_Filter_FestivalGoer" Value="270407" />
-  <Preset Label="filter_Deliveries_GroceryDelivery_Walkby" Value="270777" />
-  <Preset Label="filter_ages_ctyae_compatible_region_player" Value="270991" />
-  <Preset Label="filter_ages_pctyae_vampiresAllowed" Value="271109" />
-  <Preset Label="filter_sentiment_crush" Value="273526" />
-  <Preset Label="SimPickerFilters_HasMet" Value="273642" />
-  <Preset Label="dramaNodeFilter_NeighborRelPhoneCall_Friendly_TargetSim" Value="273986" />
-  <Preset Label="dramaNodeFilter_NeighborRelPhoneCall_Friendly_PickedSim" Value="273993" />
-  <Preset Label="simPickerFilters_Toddlers_HasMet" Value="274106" />
-  <Preset Label="simPickerFilters_Infants_HasMet" Value="274108" />
+  <Preset Label="filter_SimPicker_HasMet" Value="273642" />
+  <Preset Label="Filter_DramaNode_NeighborRelPhoneCall_Friendly_TargetSim" Value="273986" />
+  <Preset Label="Filter_DramaNode_NeighborRelPhoneCall_Friendly_PickedSim" Value="273993" />
+  <Preset Label="filter_SimPicker_HasMet_P" Value="274106" />
+  <Preset Label="filter_SimPicker_HasMet_I" Value="274108" />
   <Preset Label="dramaNodeFilters_Friend_Base_CanBePromoted" Value="274151" />
   <Preset Label="dramaNodeFilters_Friend_Base_YAE" Value="274152" />
   <Preset Label="filter_Wedding_Custom_State_Officiant" Value="275953" />
   <Preset Label="filter_Wedding_Custom_State_HonorAttendant" Value="275954" />
   <Preset Label="filter_Wedding_Custom_State_FlowerSpreader" Value="275955" />
-  <Preset Label="filter_HSStudent_CheerTeam" Value="276592" />
-  <Preset Label="filter_HSStudent_FootballTeam" Value="276594" />
-  <Preset Label="filter_HSStudent_ComputerTeam" Value="276595" />
-  <Preset Label="filter_HSStudent_ChessTeam" Value="276596" />
-  <Preset Label="filter_StallVendor_Wedding_Flower" Value="276664" />
-  <Preset Label="simPickerFilters_Infants_FamilyMember" Value="277731" />
-  <Preset Label="filter_PartyGuest_YAE" Value="278299" />
-  <Preset Label="filter_GroupDancing_Follower" Value="278796" />
-  <Preset Label="filter_Infant_HasMet_NotBusy" Value="279044" />
-  <Preset Label="dramaNodeFilter_NeighborRelPhoneCall_Romantic_PickedSim" Value="279082" />
-  <Preset Label="dramaNodeFilter_NeighborRelPhoneCall_Romantic_TargetSim" Value="279083" />
+  <Preset Label="Filter_DramaNode_NeighborRelPhoneCall_Romantic_PickedSim" Value="279082" />
+  <Preset Label="Filter_DramaNode_NeighborRelPhoneCall_Romantic_TargetSim" Value="279083" />
   <Preset Label="filter_Story_Progression_ChildrenStories_HumanAdoption" Value="279726" />
   <Preset Label="filter_Story_Progression_ChildrenStories_Pregnancy" Value="279728" />
   <Preset Label="filter_Story_Progression_ChildrenStories_PregnancyPartner" Value="279759" />
-  <Preset Label="filter_IsNeighbor" Value="280283" />
-  <Preset Label="filter_IsNeighbor_YAE" Value="280315" />
+  <Preset Label="filter_DramaNode_AllowOccults_IsNeighbor" Value="280283" />
+  <Preset Label="filter_DramaNode_AllowOccults_IsNeighbor_YAE" Value="280315" />
   <Preset Label="filter_Story_Progression_AccidentalDeath" Value="280428" />
-  <Preset Label="filter_HighSchool_Active_Faculty" Value="280457" />
-  <Preset Label="filter_HSStudent_TeamRival" Value="280466" />
-  <Preset Label="filter_HighSchool_Active_Student" Value="280516" />
-  <Preset Label="filter_HSProm_Presenter" Value="280752" />
-  <Preset Label="filter_HSProm_Chaperone" Value="280754" />
-  <Preset Label="filter_HSProm_Teen" Value="280756" />
-  <Preset Label="filter_HSProm_Travel" Value="280760" />
-  <Preset Label="filter_HSProm_Teen_PreProm" Value="280801" />
-  <Preset Label="filter_HSProm_Teen_PostProm" Value="280802" />
-  <Preset Label="filter_HSStudent_GraduatingNPC" Value="281144" />
   <Preset Label="filter_Wedding_Custom_State_RingBearer" Value="282005" />
-  <Preset Label="filter_HighSchool_Active_CareerDay_Professional" Value="282166" />
   <Preset Label="filter_Aggregate_RomanticCouple_Engaged" Value="283505" />
   <Preset Label="filter_ages_tyae_HasRomanticRelationship_NotBusy_Engaged" Value="283506" />
   <Preset Label="dramaNodeFilters_Friend_Base_NewJob" Value="283829" />
-  <Preset Label="situationFilters_WeddingWorld_NPC_DominiqueSoto" Value="283947" />
-  <Preset Label="situationFilters_WeddingWorld_NPC_CamilleSoto" Value="283948" />
   <Preset Label="filter_Walker_LivesInRegion" Value="283957" />
-  <Preset Label="filter_CheerMat_Group_Follower" Value="284638" />
-  <Preset Label="simPickerFilters_Infants_HasNotMet" Value="285496" />
-  <Preset Label="filter_HSGraduation_Valedictorian" Value="285989" />
-  <Preset Label="filter_HSGraduation_Guest" Value="285990" />
   <Preset Label="filter_ActorIsMarried" Value="286651" />
   <Preset Label="filter_ActorIsEngagedOrMarried" Value="286652" />
-  <Preset Label="filter_HighSchool_Active_CareerDay_Professional2" Value="287985" />
-  <Preset Label="filter_HighSchool_Active_CareerDay_Professional3" Value="287986" />
-  <Preset Label="filter_HasMet_PCTYAE" Value="288089" />
-  <Preset Label="filter_HasMet_PCTYAE_AllowedInDay" Value="288281" />
-  <Preset Label="filter_HSGraduation_NPC_Graduate_Job" Value="288880" />
-  <Preset Label="filter_Walker_Werewolf" Value="288950" />
-  <Preset Label="filter_WolfTown_WerewolfPackA" Value="288980" />
-  <Preset Label="filter_WolfTown_WerewolfPackA_Leader_ForServiceOnly" Value="288982" />
-  <Preset Label="filter_WolfTown_WerewolfPackB" Value="288991" />
-  <Preset Label="filter_WolfTown_WerewolfPackB_Leader_ForServiceOnly" Value="288992" />
-  <Preset Label="filter_WolfTown_Greg" Value="289069" />
   <Preset Label="filter_HasMet_PCTYAE_AllowedInDay_HasMetHousehold" Value="289984" />
   <Preset Label="filter_PartyGuest_HasMetHousehold" Value="289990" />
   <Preset Label="filter_PartyGuest_YAE_HasMetHousehold" Value="289991" />
-  <Preset Label="filter_WolfTown_WerewolfPackA_Leader" Value="290467" />
-  <Preset Label="filter_WolfTown_WerewolfPackB_Leader" Value="290468" />
-  <Preset Label="filter_ages_ipctyae" Value="291466" />
-  <Preset Label="filter_Bartender_WolfTown" Value="292026" />
-  <Preset Label="filter_Librarian_WolfTown" Value="292030" />
-  <Preset Label="filter_Coworker_HSTeam_Met" Value="294064" />
-  <Preset Label="situationFilters_WolfTown_WerewolfPackA" Value="294301" />
-  <Preset Label="situationFilters_WolfTown_WerewolfPackB" Value="294302" />
   <Preset Label="dramaNodeFilters_Scenario_ParentingPredicament_Principal" Value="294376" />
-  <Preset Label="filter_Walker_Werewolf_TransformationMastery" Value="294924" />
-  <Preset Label="filter_Walker_Werewolf_NotInBeastForm" Value="294928" />
-  <Preset Label="filter_Aggregate_Werewolf_TransformationMastery_Friends" Value="294936" />
-  <Preset Label="filter_Walker_Werewolf_TransformationMastery_Friend" Value="294937" />
   <Preset Label="dramaNodeFilters_Scenario_StuckInTheirShadow_Rival" Value="295008" />
-  <Preset Label="barfly_Filters_WolfTown_PreferOccult" Value="295106" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase4_AquaintedVisitor_1" Value="296151" />
-  <Preset Label="filter_HighSchool_Active_Faculty_Teacher" Value="296396" />
-  <Preset Label="filter_HSProm_Teen_HH_Sim" Value="296441" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Met_InRegionYAE" Value="296919" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase3a_Trainer" Value="297046" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase3b_Bartender" Value="297049" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase4_AquaintedVisitor_2" Value="297388" />
-  <Preset Label="filter_ages_teen_BestiePhoneCall" Value="297480" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase5_FriendNoRomancePrefered" Value="298603" />
   <Preset Label="filter_ages_children_household" Value="298755" />
   <Preset Label="dramaNodeFilters_Scenario_ParentingPredicament_CallToAction_JenniferMartinez" Value="299351" />
@@ -451,12 +317,8 @@
   <Preset Label="dramaNodeFilters_Scenario_ParentingPredicament_CallToAction_JenniferORPablo" Value="299356" />
   <Preset Label="filter_ages_children_notInHousehold" Value="299359" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_CallToAction_ScenarioRoleSim" Value="299379" />
-  <Preset Label="filter_isBFF" Value="300128" />
-  <Preset Label="filter_HighSchool_Active_Faculty_Teacher2" Value="300741" />
-  <Preset Label="filter_HighSchool_Active_Faculty_Principal" Value="300742" />
-  <Preset Label="filter_HighSchool_Active_Faculty_CafeteriaWorker" Value="300743" />
-  <Preset Label="filter_HighSchool_Active_Faculty_Janitor" Value="300744" />
-  <Preset Label="filter_InHousehold_Parent" Value="300942" />
+  <Preset Label="filter_DramaNode_AllowOccults_BFF" Value="300128" />
+  <Preset Label="filter_SimPicker_Basic_YAE_InHousehold_IsParent_ofRequestor" Value="300942" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase1_NeighborTYAE" Value="301257" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase3x_Friend" Value="301646" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase3b_Romance" Value="301647" />
@@ -466,45 +328,137 @@
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase4_NewAcquaintanceCaller_FriendGym" Value="301765" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phase4_NewAcquaintanceCaller_FriendBar" Value="301792" />
   <Preset Label="dramaNodeFilters_Scenario_NewInTown_Phsae4_NewAcquaintanceCaller_FriendRomance" Value="301793" />
-  <Preset Label="filter_ages_adult_ThriftStoreOwner" Value="302305" />
-  <Preset Label="filter_PierAttractions_TunnelLove_RideWith" Value="303145" />
-  <Preset Label="filter_ages_tyae_PierVisitor" Value="303637" />
   <Preset Label="filter_splashpad" Value="303711" />
-  <Preset Label="filter_HighSchool_Active_MeanSim" Value="303766" />
   <Preset Label="filter_ToddlerInfantCare_YAE_Parent_CanLactate" Value="305258" />
-  <Preset Label="filter_MovieTheater_WatchWith" Value="305485" />
   <Preset Label="filter_ToddlerInfantCare_YAE_BirthParent" Value="305624" />
   <Preset Label="filter_PartyGuest_FamilyReunion" Value="307455" />
   <Preset Label="filter_Coworker_WorkRival" Value="308704" />
   <Preset Label="filter_BabyShower_Host" Value="308783" />
-  <Preset Label="filter_IsExSO_NegativeRel" Value="309389" />
+  <Preset Label="filter_DramaNode_AllowOccults_IsEx_HasNegativeRel" Value="309389" />
   <Preset Label="filter_IsFriend_TYAE_NotSONotRelated" Value="309406" />
   <Preset Label="filter_IsFriend_TYAE_IsRelated" Value="309407" />
   <Preset Label="filter_TemporaryStays_ParentalHelp" Value="309512" />
   <Preset Label="filter_TemporaryStays_Kyle" Value="309693" />
   <Preset Label="filter_Coworker_ValidWorkRival" Value="309746" />
   <Preset Label="filter_TemporaryStays_Normal" Value="310905" />
-  <Preset Label="filter_groupWalkingTrail_ages_ctyae_allowDogs" Value="311401" />
   <Preset Label="filter_TemporaryStays_CouchSurf" Value="311528" />
   <Preset Label="filter_Sleepover_Host" Value="311723" />
-  <Preset Label="filter_groupWalkingTrail_ages_ctyae_leader" Value="312163" />
-  <Preset Label="filter_relationships_hasRomanticRel_Cheated_Loyal" Value="312687" />
-  <Preset Label="simPickerFilters_Infants" Value="313545" />
+  <Preset Label="filter_SimPicker_Basic_I" Value="313545" />
   <Preset Label="filter_phoneChattyCall" Value="316138" />
   <Preset Label="filter_TemporaryStays_Disaster" Value="316263" />
   <Preset Label="filter_FamilyTrope_SundayVisit" Value="317781" />
   <Preset Label="situationFilters_BayArea_Pianist" Value="318872" />
+  <Preset Label="filter_InHousehold_Pets" Value="318883" />
   <Preset Label="situationFilters_BayArea_Traveler" Value="319001" />
   <Preset Label="filter_TemporaryStays_HouseholdLoss" Value="319127" />
-  <Preset Label="filter_HasMet_CTAYE_AllowGhosts_AllowInfants" Value="319882" />
+  <Preset Label="filter_SimPicker_HasMet_NotBusy_IPCTYAE" Value="319882" />
   <Preset Label="SimPickerFilter_ScienceBabyTarget" Value="320483" />
   <Preset Label="filter_TemporaryStays_InfantIntro" Value="321831" />
   <Preset Label="filter_ages_tyae_InCompatibleRegion_FamilyTrope" Value="322367" />
   <Preset Label="filter_TemporaryStays_Friend" Value="323025" />
+  <Preset Label="simPickerFilter_Horses_AE_CompatibleRegion" Value="323068" />
   <Preset Label="filter_HelpBlowOutCandles" Value="324012" />
   <Preset Label="test_age_up_in_family_ictyae_notBusy" Value="327997" />
-  <Preset Label="filter_ReadToChildren_CanReadTo_AnyToddler" Value="335040" />
+  <Preset Label="simPickerFilter_Horses_FoalsCompatibleRegion" Value="329705" />
   <Preset Label="filter_ReadToChildren_CanReadTo_CrawlingInfant" Value="335041" />
   <Preset Label="filter_ReadToChildren_CanReadTo_CoreUnlockInfant" Value="335042" />
   <Preset Label="filter_HasMet_IPCTYAE_AllowedInDay_HasMetHousehold" Value="335527" />
+  <Preset Label="filter_DoorLocking" Value="335969" />
+  <Preset Label="simPickerFilter_Horses_AE_CompatibleRegion_InFamily" Value="336168" />
+  <Preset Label="simPickerFilter_Horses_AllAges_CompatibleRegion_InFamily" Value="337461" />
+  <Preset Label="filter_ages_ctyae_prefer_local_region" Value="339035" />
+  <Preset Label="dramaNodeFilters_Scenario_Inheritance_Grandmother" Value="339196" />
+  <Preset Label="simPickerFilters_Horses_AE_CompatibleRegion_IncludeGhost" Value="347182" />
+  <Preset Label="filter_muEvent_ActiveSim" Value="348952" />
+  <Preset Label="SimPickerFilter_CanProposeTo" Value="356913" />
+  <Preset Label="filter_SimPicker_HasMet_CTYAE" Value="363642" />
+  <Preset Label="filter_walker_R3Event_ThrillSeeker" Value="376512" />
+  <Preset Label="fliter_phoneChat_PlayerPicked_RomanticPhoneSocial" Value="380119" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_BecomingFriends_secondsim" Value="380551" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_FriendshipChange" Value="380552" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_FriendshipChange_secondsim" Value="380553" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_RomanceRelationshipEnd" Value="380554" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_RomanceRelationshipEnd_secondsim" Value="380565" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_RomanceRelationshipReStart" Value="380566" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_RomanceRelationshipReStart_secondsim" Value="380567" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_RomanceRelationshipStart" Value="380568" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_RomanceRelationshipStart_secondsim" Value="380569" />
+  <Preset Label="filter_Aggregate_NeighbothoodStories_RelationshipUpdates_BecomingFriends" Value="380570" />
+  <Preset Label="filter_Aggregate_NeighbothoodStories_RelationshipUpdates_FrriendshipGain" Value="380571" />
+  <Preset Label="filter_Aggregate_NeighbothoodStories_RelationshipUpdates_FrriendshipLoss" Value="380572" />
+  <Preset Label="filter_Aggregate_NeighbothoodStories_RelationshipUpdates_RomanceRelationshipEnd" Value="380573" />
+  <Preset Label="filter_Aggregate_NeighbothoodStories_RelationshipUpdates_RomanceRelationshipReStart" Value="380574" />
+  <Preset Label="filter_Aggregate_NeighbothoodStories_RelationshipUpdates_RomanceRelationshipStart" Value="380575" />
+  <Preset Label="filter_Aggregate_NeighbothoodStories_RelationshipUpdates_BecomingDespised" Value="380645" />
+  <Preset Label="filter_Aggregate_NeighbothoodStories_RelationshipUpdates_BecomingBestFriends" Value="380646" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_BecomingBestFriends_secondsim" Value="380648" />
+  <Preset Label="filter_AggregateSupport_NeighborhoodStories_RelationshipUpdates_BecomingDespised_secondsim" Value="380649" />
+  <Preset Label="filter_IsFriend_TYAE" Value="388329" />
+  <Preset Label="filter_HasMet_TYAE_OnlyGhosts_NotInHousehold_PreferFriends" Value="389877" />
+  <Preset Label="filter_standard_walker_CTYAE_ghost" Value="390554" />
+  <Preset Label="filter_standard_walker_TYAE_ghost" Value="390561" />
+  <Preset Label="filter_ages_children_ghost" Value="390616" />
+  <Preset Label="filter_OpenStreets_Ghost_Fisher" Value="390998" />
+  <Preset Label="filter_Bartender_Bar_Ghost" Value="391344" />
+  <Preset Label="filter_Entertainer_Dancer_Ghost" Value="391368" />
+  <Preset Label="filter_ages_tyae_HasRomanticRelationship_withSim_Ghost" Value="391371" />
+  <Preset Label="filter_Aggregate_RomanticCouple_Ghost" Value="391372" />
+  <Preset Label="filter_ages_tyae_HasRomanticRelationship_NotBusy_Ghost" Value="391373" />
+  <Preset Label="filter_ages_tyae_notBusy_Ghost" Value="391431" />
+  <Preset Label="filter_ages_YoungAdult_Elder_NPC_Ghost" Value="391434" />
+  <Preset Label="filter_Entertainer_Violin_PlayerFacing_Ghost" Value="393258" />
+  <Preset Label="tunableSimFilter_HasNotMet_ctyae_NotBusy_HouseHoldGhost_and_GRIM_okay" Value="394157" />
+  <Preset Label="filter_SimPicker_Basic_TYAE_HasRomanticBit_WithRequestor" Value="400441" />
+  <Preset Label="filter_Ages_YAE_Spellcaster_Only" Value="403231" />
+  <Preset Label="filter_ages_children_TheCollector" Value="406981" />
+  <Preset Label="filter_SimPicker_Species_AllSims_InHousehold" Value="414019" />
+  <Preset Label="filter_walker_GardenDistrict_Park_RelaxerLounger_Ghost" Value="420470" />
+  <Preset Label="situationFilter_Burglar" Value="421746" />
+  <Preset Label="situationFilter_Police" Value="421751" />
+  <Preset Label="filter_Unimportant_NoCareer_RepurposeForPolice" Value="421821" />
+  <Preset Label="filter_Unimportant_RepurposeForBurglar" Value="421822" />
+  <Preset Label="filter_SimPicker_HasMet_C" Value="421883" />
+  <Preset Label="filter_SimPicker_HasMet_CTYAE_AllowDogs" Value="422053" />
+  <Preset Label="filter_SimPicker_Basic_CTYAE_CompatRegion_PositiveLTR" Value="422057" />
+  <Preset Label="filter_SimPicker_NotBusy_CTYAE" Value="422058" />
+  <Preset Label="filter_SimPicker_NotBusy_T_PositiveLTR" Value="422059" />
+  <Preset Label="filter_SimPicker_Basic_T" Value="422060" />
+  <Preset Label="filter_SimPicker_Basic_PCTYAE" Value="422167" />
+  <Preset Label="filter_ages_tyae_notBusy_AllowGhost_AllowVampire" Value="422177" />
+  <Preset Label="filter_SimPicker_Basic_TYAE" Value="422353" />
+  <Preset Label="filter_SimPicker_NotBusy_TYAE" Value="422487" />
+  <Preset Label="filter_Situation_Background_Basic_A" Value="422796" />
+  <Preset Label="filter_Situation_Background_Player_PCTYAE" Value="422800" />
+  <Preset Label="filter_Situation_Background_Basic_CTYAE" Value="422801" />
+  <Preset Label="filter_Situation_Background_Player_CTYAE" Value="422802" />
+  <Preset Label="filter_Situation_Player_Hidden_CTYAE" Value="422804" />
+  <Preset Label="filter_Situation_Background_CompatibleRegion_CTYAE" Value="422892" />
+  <Preset Label="filter_EmitRelevart" Value="423105" />
+  <Preset Label="filter_IsGhost_BackgroundLOD" Value="423605" />
+  <Preset Label="filter_Situation_Player_Hidden_AllSpecies" Value="423647" />
+  <Preset Label="filter_DramaNode_Romantic_CompatibleRegion_NotBusy_T" Value="423828" />
+  <Preset Label="filter_DramaNode_CompatibleRegion_NotBusy_T" Value="423829" />
+  <Preset Label="filter_Situation_Background_CompatibleRegion_T_PreferNotBusy" Value="423832" />
+  <Preset Label="filter_DramaNode_CompatibleRegion_TYAE_HasRelationship_WithRequestor" Value="423981" />
+  <Preset Label="filter_DramaNode_Romantic_Basic_YAE" Value="424480" />
+  <Preset Label="filter_DramaNode_Basic_YAE" Value="424482" />
+  <Preset Label="filter_SimPicker_Basic_YAE" Value="424484" />
+  <Preset Label="filter_SimPicker_Romantic_HasMet_TYAE_NoGhost" Value="425142" />
+  <Preset Label="filter_Special_PivotalMoment_Job" Value="425260" />
+  <Preset Label="filter_DramaNode_CompatibleRegion_NotBusy_YAE" Value="425261" />
+  <Preset Label="filter_SimPicker_HasMet_CTYAE_NoGhostNPCs" Value="425566" />
+  <Preset Label="filter_SimPicker_HasMet_PCTYAE_NoGhostNPCs" Value="425706" />
+  <Preset Label="filter_DramaNode_HasMet_TYAE" Value="425713" />
+  <Preset Label="filter_Situation_Background_HasMet_TYAE_NoGhostNPCs" Value="425736" />
+  <Preset Label="filter_SimPicker_HasMet_TYAE_NoGhostNPCs" Value="425738" />
+  <Preset Label="filter_ages_tyae_Basic_AllowInDayAndGhost" Value="430349" />
+  <Preset Label="filter_HasMet_tyae_AllowVampireAndGhost" Value="430350" />
+  <Preset Label="filter_Situation_Background_NotBusy_CTYAE" Value="440765" />
+  <Preset Label="filter_Mentoring_CTYAE" Value="441091" />
+  <Preset Label="filter_Mentoring_TYAE" Value="441092" />
+  <Preset Label="filter_SimPicker_HasMet_CompRegion_NotBusy_YAE" Value="441897" />
+  <Preset Label="filter_HasMetONLY" Value="443134" />
+  <Preset Label="dramaNodeFilters_PivotalMoment_NotinFamily" Value="448211" />
+  <Preset Label="filter_ages_tyae_InHousehold" Value="448461" />
+  <Preset Label="filter_Situation_Player_Hidden_PCTYAE" Value="467666" />
 </PresetGroup>

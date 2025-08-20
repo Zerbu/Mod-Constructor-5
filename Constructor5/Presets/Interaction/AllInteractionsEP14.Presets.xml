@@ -1,0 +1,578 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP14">
+  <Preset Label="Wait for Turn (hopscotch_WaitForTurn)" Value="336585" />
+  <Preset Label="mixer_Hopscotch_CheckForTurn" Value="336592" />
+  <Preset Label="mixer_Hopscotch_Watch" Value="336593" />
+  <Preset Label="Play Hopscotch (hopscotch_StartPlaying)" Value="336594" />
+  <Preset Label="immediate_Hopscotch_WaitOrThrow" Value="336596" />
+  <Preset Label="Careers (hopscotch_TurnEnd)" Value="336597" />
+  <Preset Label="mixer_Hopscotch_GameOver" Value="336598" />
+  <Preset Label="Tend Stall (marketStalls_Tend_EP15World_Vegetarian)" Value="337029" />
+  <Preset Label="Tend Stall (marketStalls_Tend_EP15World_Store)" Value="337030" />
+  <Preset Label="Tend Stall (marketStalls_Tend_EP15World_Food)" Value="337031" />
+  <Preset Label="Tend Stall (marketStalls_Tend_EP15World_Desserts)" Value="337032" />
+  <Preset Label="Purchase Goods (marketStalls_ShopFor_EP15World_Store)" Value="337033" />
+  <Preset Label="Purchase Tomarani Items (purchase_MarketStalls_EP15World_Store)" Tags="TestUnsafe" Value="337034" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_EP15World_Food)" Value="337035" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_EP15World_Vegetarian)" Value="337036" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_EP15World_Desserts)" Value="337037" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_EP15World_Vegetarian_review_CriticCareer)" Value="337043" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_EP15World_Desserts_review_CriticCareer)" Value="337044" />
+  <Preset Label="Review Food (marketStalls_PushOrderFood_EP15World_Food_review_CriticCareer)" Value="337045" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_EP15World_Desserts)" Value="337049" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_EP15World_Food)" Value="337050" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Autonomous_EP15World_Vegetarian)" Value="337051" />
+  <Preset Label="Order Drink (marketStalls_PushOrderDrink_EP15World_Desserts)" Value="337052" />
+  <Preset Label="Review Drink (marketStalls_PushOrderDrink_EP15World_Desserts_review_CriticCareer)" Value="337053" />
+  <Preset Label="Order Drink (marketStalls_PushOrderDrink_Autonomous_EP15World_Desserts)" Value="337054" />
+  <Preset Label="mixer_Hopscotch_Hop_Turn" Value="337145" />
+  <Preset Label="Buy Striped Shirt (marketStalls_Social_BuyCASAsset_EP15World_Outfit)" Value="337164" />
+  <Preset Label="Buy and Wear Striped Shirt (marketStalls_Social_BuyCASAssetAndWear_EP15World_Outfit)" Value="337165" />
+  <Preset Label="Wear Striped Shirt (marketStalls_Social_JustWearCASAsset_EP15World_Outfit)" Value="337166" />
+  <Preset Label="Buy Striped Shirt (marketStalls_BuyCASasset_EP15World_Outfit)" Value="337167" />
+  <Preset Label="Buy and Wear Striped Shirt (marketStalls_BuyCASassetAndWear_EP15World_Outfit)" Value="337168" />
+  <Preset Label="Wear Striped Shirt (marketStalls_JustWearCASAsset_EP15World_Outfit)" Value="337169" />
+  <Preset Label="Play Hopscotch with (simPicker_Hopscotch_PlayWith)" Tags="TestUnsafe" Value="337483" />
+  <Preset Label="Cook (pressureCooker_StartRecipes)" Value="338059" />
+  <Preset Label="Start a Break-In (immediate_Snooping_B&amp;E_Start)" Value="338220" />
+  <Preset Label="Break In (door_Snooping_B&amp;E_BreakIn_cont)" Value="338268" />
+  <Preset Label="Tomarani Introduction (mixer_social_RegionalIntroduction_greetings)" Tags="TestUnsafe" Value="339030" />
+  <Preset Label="Grab a Serving (pressureCooker_GrabServing)" Value="339045" />
+  <Preset Label="Deploy Blight Spray (muEvent_Blight_Spray)" Value="339736" />
+  <Preset Label="Buy a Residential Rental (computer_BuyMultiUnitLot)" Value="340164" />
+  <Preset Label="Clean (ElectricKettle_Clean)" Value="340305" />
+  <Preset Label="Watch Hopscotch (hopscotch_Watch_Sim)" Value="340634" />
+  <Preset Label="Toss Stone (hopscotch_ThrowStone_A)" Value="340636" />
+  <Preset Label="Supports Large and X-Large Curved Walls (simPicker_Hopscotch_Watch)" Tags="TestUnsafe" Value="340642" />
+  <Preset Label="Watch Hopscotch (hopscotch_Watch_Start)" Value="340654" />
+  <Preset Label="Watch Hopscotch (hopscotch_Watch_Object)" Value="340655" />
+  <Preset Label="Move Away (hopscotch_MoveAway)" Value="340799" />
+  <Preset Label="Practice Hopscotch (hopscotch_StartPractice)" Value="340940" />
+  <Preset Label="mailbox_FakeGetMail_NPC" Value="340946" />
+  <Preset Label="mailbox_BrowseMail_NPC" Value="340947" />
+  <Preset Label="mailboxWall_FakeGetMail_NPC" Value="340948" />
+  <Preset Label="Give Unwarranted Advice (social_NeighborTraits_GiveUnwarrantedAdvice)" Value="341208" />
+  <Preset Label="Pry for Secrets (social_NeighborTraits_Pry)" Value="341209" />
+  <Preset Label="Write Gossip Blog Post (computer_NeighborTraits_WriteGossipBlogPost)" Value="341220" />
+  <Preset Label="Offer Wisdom (social_NeighborTraits_OfferWisdom)" Value="341221" />
+  <Preset Label="Share Life Experiences (social_NeighborTraits_ShareLifeExperiences)" Value="341222" />
+  <Preset Label="Teach Important Lesson (social_NeighborTraits_TeachImportantLesson)" Value="341223" />
+  <Preset Label="Reflect On Life (neighborTraits_ReflectOnLife)" Value="341224" />
+  <Preset Label="Contribute Funds (social_NeighborTraits_ContributeFunds)" Value="341225" />
+  <Preset Label="Offer Listening Ear (social_NeighborTraits_OfferListeningEar)" Value="341226" />
+  <Preset Label="Bestow Empathy (social_NeighborTraits_BestowEmpathy)" Value="341227" />
+  <Preset Label="Share Kind Words (social_NeighborTraits_ShareKindWords)" Value="341228" />
+  <Preset Label="Spout Memes (social_NeighborTraits_SpoutMemes)" Value="341229" />
+  <Preset Label="BlicBlock Dance (neighborTraits_BlicBlocDance)" Value="341230" />
+  <Preset Label="Embrace the Cringe (neighborTraits_EmbraceTheCringe)" Value="341231" />
+  <Preset Label="Ask About Missing Rent (social_LandlordTenant_AskAboutMissingRent)" Value="341567" />
+  <Preset Label="Sort Junk Mail (Mailbox_landlordTenant_SortJunkMail)" Value="341599" />
+  <Preset Label="Discuss Rent Forgiveness (social_LandlordTenant_NegotiateRentForgiveness)" Value="341600" />
+  <Preset Label="Pay Rent (social_LandlordTenant_PayRent)" Value="341602" />
+  <Preset Label="Give Notice In Writing (landlordTenant_GiveNoticeInWriting)" Value="341603" />
+  <Preset Label="Give Notice (social_LandlordTenant_GiveNotice)" Value="341604" />
+  <Preset Label="Call Property Owner to Visit (phone_LandlordTenant_AskPropertyOwnerToVisit)" Value="341607" />
+  <Preset Label="Call Property Owner to Visit and Switch (phone_LandlordTenant_AskPropertyOwnerToVisit_AndSwitch)" Value="341610" />
+  <Preset Label="aggregate_Hopscotch_ThrowStone" Value="341820" />
+  <Preset Label="Hop! (hopscotch_Hop_A1)" Value="342026" />
+  <Preset Label="Hop! (hopscotch_Hop_A2)" Value="342028" />
+  <Preset Label="Hop! (hopscotch_Hop_A3)" Value="342029" />
+  <Preset Label="Hop! (hopscotch_Hop_A4)" Value="342030" />
+  <Preset Label="Release Sky Lantern (childoftheSEA_SkyLantern)" Value="342042" />
+  <Preset Label="Cook (fridge_CookAutonomously_ChildoftheSEA)" Value="342044" />
+  <Preset Label="Cook (fridge_CookAutonomously_ChildoftheSEA_RequiredIngredients)" Value="342045" />
+  <Preset Label="Seek Advice from Elder (mixer_Social_ChildoftheSEA_SeekAdvicefromElder)" Tags="TestUnsafe" Value="342047" />
+  <Preset Label="Repair (object_Repair_Kitchen_ElectricKettle)" Value="342170" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_ElectricKettle)" Value="342221" />
+  <Preset Label="Toss Stone (hopscotch_ThrowStone_B)" Value="342360" />
+  <Preset Label="Hop! (hopscotch_Hop_B1)" Value="342361" />
+  <Preset Label="Hop! (hopscotch_Hop_B2)" Value="342362" />
+  <Preset Label="Hop! (hopscotch_Hop_B3)" Value="342363" />
+  <Preset Label="Hop! (hopscotch_Hop_B4)" Value="342364" />
+  <Preset Label="Toss Stone (hopscotch_ThrowStone_C)" Value="342403" />
+  <Preset Label="Hop! (hopscotch_Hop_C1)" Value="342405" />
+  <Preset Label="Hop! (hopscotch_Hop_C2)" Value="342406" />
+  <Preset Label="Hop! (hopscotch_Hop_C3)" Value="342407" />
+  <Preset Label="Hop! (hopscotch_Hop_C4)" Value="342408" />
+  <Preset Label="Repair (object_Repair_PressureCooker)" Value="342463" />
+  <Preset Label="Release Steam Vent (pressureCooker_Vent)" Value="342464" />
+  <Preset Label="Clean (PressureCooker_Clean)" Value="342467" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_PressureCooker)" Value="342468" />
+  <Preset Label="Hop! (hopscotch_Hop_A5)" Value="342523" />
+  <Preset Label="Hop! (hopscotch_Hop_B5)" Value="342524" />
+  <Preset Label="Hop! (hopscotch_Hop_C5)" Value="342525" />
+  <Preset Label="Hop! (hopscotch_Hop_D1)" Value="342527" />
+  <Preset Label="Hop! (hopscotch_Hop_D2)" Value="342528" />
+  <Preset Label="Hop! (hopscotch_Hop_D3)" Value="342529" />
+  <Preset Label="Hop! (hopscotch_Hop_D4)" Value="342530" />
+  <Preset Label="Hop! (hopscotch_Hop_D5)" Value="342531" />
+  <Preset Label="Toss Stone (hopscotch_ThrowStone_D)" Value="342532" />
+  <Preset Label="mixer_Hopscotch_Hop_Pickup" Value="342533" />
+  <Preset Label="mixer_Hopscotch_Hop_Single2Single" Value="342534" />
+  <Preset Label="mixer_Hopscotch_Hop_Single2Single-2Tile" Value="342535" />
+  <Preset Label="mixer_Hopscotch_Hop_Single2Diagonal" Value="342536" />
+  <Preset Label="mixer_Hopscotch_Hop_Diagonal2Single" Value="342537" />
+  <Preset Label="mixer_Hopscotch_Hop_Single2Double" Value="342558" />
+  <Preset Label="mixer_Hopscotch_Hop_Single2Double-2Tile" Value="342559" />
+  <Preset Label="mixer_Hopscotch_Hop_Double2Single" Value="342560" />
+  <Preset Label="mixer_Hopscotch_Hop_Double2Single-2Tile" Value="342561" />
+  <Preset Label="mixer_Hopscotch_Hop_Double2Double-2Tile" Value="342562" />
+  <Preset Label="Hop! (hopscotch_Hop_E1)" Value="342588" />
+  <Preset Label="Hop! (hopscotch_Hop_E2)" Value="342589" />
+  <Preset Label="Hop! (hopscotch_Hop_E3)" Value="342590" />
+  <Preset Label="Hop! (hopscotch_Hop_E4)" Value="342591" />
+  <Preset Label="Hop! (hopscotch_Hop_E5)" Value="342592" />
+  <Preset Label="Toss Stone (hopscotch_ThrowStone_E)" Value="342593" />
+  <Preset Label="Hop! (hopscotch_Hop_F1)" Value="342632" />
+  <Preset Label="Hop! (hopscotch_Hop_F2)" Value="342633" />
+  <Preset Label="Hop! (hopscotch_Hop_F3)" Value="342634" />
+  <Preset Label="Hop! (hopscotch_Hop_F4)" Value="342635" />
+  <Preset Label="Hop! (hopscotch_Hop_F5)" Value="342636" />
+  <Preset Label="Hop! (hopscotch_Hop_G1)" Value="342637" />
+  <Preset Label="Hop! (hopscotch_Hop_G2)" Value="342638" />
+  <Preset Label="Hop! (hopscotch_Hop_G3)" Value="342639" />
+  <Preset Label="Hop! (hopscotch_Hop_G4)" Value="342640" />
+  <Preset Label="Hop! (hopscotch_Hop_G5)" Value="342641" />
+  <Preset Label="Hop! (hopscotch_Hop_H1)" Value="342642" />
+  <Preset Label="Hop! (hopscotch_Hop_H2)" Value="342643" />
+  <Preset Label="Hop! (hopscotch_Hop_H3)" Value="342644" />
+  <Preset Label="Hop! (hopscotch_Hop_H4)" Value="342645" />
+  <Preset Label="Hop! (hopscotch_Hop_H5)" Value="342646" />
+  <Preset Label="Toss Stone (hopscotch_ThrowStone_F)" Value="342647" />
+  <Preset Label="Toss Stone (hopscotch_ThrowStone_G)" Value="342648" />
+  <Preset Label="Toss Stone (hopscotch_ThrowStone_H)" Value="342649" />
+  <Preset Label="Play Hopscotch (hopscotch_StartPlaying_Rally)" Value="342748" />
+  <Preset Label="idle_FearOfEviction_PhonePanic" Value="342779" />
+  <Preset Label="AAAAAAAAAAAAAAAAAAAAH! (muEvent_Explosion_Reaction)" Value="342830" />
+  <Preset Label="Create Allergenic Mold Pile (setupLot_MoldSystem_Allergenic)" Value="343125" />
+  <Preset Label="Create Toxic Mold Pile (setupLot_MoldSystem_Toxic)" Value="343126" />
+  <Preset Label="mixer_Hopscotch_Spectator_Watch" Value="343164" />
+  <Preset Label="Careers (hopscotch_Winner)" Value="343165" />
+  <Preset Label="Careers (hopscotch_Reaction_Success)" Value="343166" />
+  <Preset Label="Careers (hopscotch_Reaction_Failure)" Value="343167" />
+  <Preset Label="Appreciate Strong Bond with {1.SimFirstName} (mixer_Social_ChildoftheSEA_AppreciateStrongBond)" Tags="TestUnsafe" Value="343204" />
+  <Preset Label="Pay Rent (phone_PayBillsUnit_Rent)" Value="343348" />
+  <Preset Label="Pay Rent (computer_PayBillsUnit_Rent)" Value="343349" />
+  <Preset Label="Pay Rent (tablet_PayBillsUnit_Rent)" Value="343351" />
+  <Preset Label="Pay Rent (mailbox_PayBillsUnit_Rent)" Value="343352" />
+  <Preset Label="Pay Rent (mailboxWall_PayBillsUnit_Rent)" Value="343353" />
+  <Preset Label="Attempt to Take Shower (shower_TakeShower_muEvent_WaterLeak)" Value="343362" />
+  <Preset Label="Tomarang Truth (mixer_social_EP15_PremadeSecrets_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="343658" />
+  <Preset Label="Careers (socialMixerInteraction_ChildoftheSEA_Dance_Idle)" Value="343695" />
+  <Preset Label="Careers (socialMixerInteraction_ChildoftheSEA_Dance_1)" Value="343696" />
+  <Preset Label="Careers (socialMixerInteraction_ChildoftheSEA_Dance_2)" Value="343697" />
+  <Preset Label="Careers (socialMixerInteraction_ChildoftheSEA_Dance_3)" Value="343698" />
+  <Preset Label="Careers (socialMixerInteraction_ChildoftheSEA_Dance_4)" Value="343699" />
+  <Preset Label="Careers (socialMixerInteraction_ChildoftheSEA_Dance_5)" Value="343700" />
+  <Preset Label="Tomarani Twist (stereo_ChildoftheSEA_Dance)" Value="343712" />
+  <Preset Label="Scrub the Spores Off! (shower_TakeShower_MoldSystem)" Value="343775" />
+  <Preset Label="Scrub the Spores Off! (bathtub_TakeBath_MoldSystem)" Value="343777" />
+  <Preset Label="Death by Mold (death_MoldSystem)" Value="343783" />
+  <Preset Label="snooping_CatchSim_DetermineCatch" Value="343927" />
+  <Preset Label="Catch Snooping (social_Snooping_Catch)" Value="343930" />
+  <Preset Label="Be Chewed out by {1.SimFirstName} (social_Snooping_PushAffordance)" Value="343931" />
+  <Preset Label="Snoop (snooping_Object_Generic_Tall)" Value="343933" />
+  <Preset Label="Snoop (snooping_Object_Generic_Short)" Value="343934" />
+  <Preset Label="mixer_Snooping_Active_High" Value="343936" />
+  <Preset Label="mixer_Snooping_Passive_High" Value="343937" />
+  <Preset Label="Eavesdrop (snooping_Eavesdrop_Door)" Value="343943" />
+  <Preset Label="Eavesdrop (snooping_Eavesdrop_Sim)" Value="343944" />
+  <Preset Label="ownableMultiUnit_Immediate_SetLotOwner" Value="343956" />
+  <Preset Label="map_Picker_BuyOwnableMultiUnitLot" Tags="TestUnsafe" Value="343957" />
+  <Preset Label="Buy a Residential Rental (phone_BuyOwnableMuliUnit)" Value="343958" />
+  <Preset Label="ownableMultiUnit_Immediate_BuyFromUI" Value="343959" />
+  <Preset Label="Snoop (rummage_Outdoor_Snooping_Secrets)" Value="343965" />
+  <Preset Label="Snoop (rummage_Indoor_Snooping_Secrets)" Value="343966" />
+  <Preset Label="Spread Mold (terrain-gohere_MoldSystem_SpreadSpores)" Value="344016" />
+  <Preset Label="Spread Mold (moldSystem_SpreadSpores)" Value="344018" />
+  <Preset Label="mailboxWall_BrowseMail_NPC" Value="344078" />
+  <Preset Label="Spoil {1.ObjectName} (moldSystem_SpoilFood)" Value="344095" />
+  <Preset Label="Snoop (snooping_Object_Mailbox)" Value="344120" />
+  <Preset Label="Snoop (snooping_Object_MailboxWall)" Value="344122" />
+  <Preset Label="mixer_Snooping_Active_Low" Value="344150" />
+  <Preset Label="mixer_Snooping_Passive_Low" Value="344151" />
+  <Preset Label="Snoop (computer_Snooping_Secrets)" Value="344152" />
+  <Preset Label="Call Trash Removal (muEvent_TrashOverload_StartTrashDrive)" Value="344169" />
+  <Preset Label="Blow Fertilizing Spores (moldSystem_BlowSpores)" Value="344218" />
+  <Preset Label="Pour in Chemical Algae Destroyer (muEvent_Algae_PourChemical)" Value="344289" />
+  <Preset Label="Confront about Secret (mixer_socials_Friendly_Gossip_ConfrontSecret)" Tags="TestUnsafe" Value="344317" />
+  <Preset Label="Blackmail (mixer_social_Mean_Malicious_Blackmail)" Tags="TestUnsafe" Value="344318" />
+  <Preset Label="Keep Secret (mixer_socials_Friendly_Gossip_KeepSecret)" Tags="TestUnsafe" Value="344324" />
+  <Preset Label="Create Fungal Overgrowth (terrain-gohere_MoldSystem_FungalOvergrowth)" Value="344365" />
+  <Preset Label="Create Fungal Overgrowth (moldSystem_FungalOvergrowth)" Value="344366" />
+  <Preset Label="solo_NeighborhoodPotluck_CreateFood" Value="344375" />
+  <Preset Label="Hold (NeighborhoodPotluck_FoodCarry)" Value="344380" />
+  <Preset Label="createCarry_muEvent_CreateProtestSign" Value="344419" />
+  <Preset Label="Protest About Conditions (muEvent_TenantRevolt_ProtestAboutConditions)" Value="344421" />
+  <Preset Label="Use (squatToilet_Use)" Value="344445" />
+  <Preset Label="Swim to Clean Algae (pool-swim_muEvent_Algae_Clean)" Value="344456" />
+  <Preset Label="Deploy Blight Spray (muEvent_Blight_Spray_Cont)" Value="344597" />
+  <Preset Label="Flush (toilet-flush_muEvent_SewageLeak)" Value="344643" />
+  <Preset Label="mixer_Hopscotch_Hop_PickupDouble" Value="344669" />
+  <Preset Label="What is that smell? (muEvent_SewageLeak_AngryAtToilet)" Value="344689" />
+  <Preset Label="Attempt to Watch TV (muEvent_Electrical_FakeUseTV)" Value="344700" />
+  <Preset Label="Exorcize (muEvent_Haunting_Exorcize)" Value="344710" />
+  <Preset Label="Be Chewed out by {1.SimFirstName} (social_muEvent_Haunting_Confront_PushAffordance)" Value="344713" />
+  <Preset Label="Confront Ghost (social_muEvent_Haunting_Confront)" Value="344714" />
+  <Preset Label="Clean {1.ObjectName} (moldSystem_CleanMold)" Value="344744" />
+  <Preset Label="Clean {1.ObjectName} (moldSystem_CleanMold_Starter)" Value="344745" />
+  <Preset Label="Promise Better Conditions (social_muEvent_TenantRevolt_PromiseBetterConditions)" Value="344843" />
+  <Preset Label="muEvent_TenantRevolt_PromisedBetterConditions" Value="344852" />
+  <Preset Label="idle_Buff_MoldSystem_Toxic" Value="344880" />
+  <Preset Label="Mild (Tier 1) (debug_MoldSystem_Toxic_SetState_T1_Mild)" Value="344882" />
+  <Preset Label="Severe (Tier 2) (debug_MoldSystem_Toxic_SetState_T2_Severe)" Value="344913" />
+  <Preset Label="Deadly (Tier 3) (debug_MoldSystem_Toxic_SetState_T3_Deadly)" Value="344914" />
+  <Preset Label="Pay Bills (computer_PayBillsUnit_Other)" Value="344953" />
+  <Preset Label="Pay Bills (mailbox_PayBillsUnit_Other)" Value="344954" />
+  <Preset Label="Pay Bills (mailboxWall_PayBillsUnit_Other)" Value="344955" />
+  <Preset Label="Pay Bills (phone_PayBillsUnit_Other)" Value="344956" />
+  <Preset Label="Pay Bills (tablet_PayBillsUnit_Other)" Value="344957" />
+  <Preset Label="Pay Rent (bills_PayBillsUnit_Rent)" Value="344959" />
+  <Preset Label="Pay Bills (bills_PayBillsUnit_Other)" Value="344960" />
+  <Preset Label="Stomp Bugs (muEvent_Infestation_Stomp)" Value="344993" />
+  <Preset Label="Deploy Fumigation Device (muEvent_Infestation_Fumigate)" Value="344994" />
+  <Preset Label="React to Grilled Mushrooms (reactions_MoldSystem_GhostAngryReaction)" Value="345079" />
+  <Preset Label="Destroy Cursed Book (muEvent_Cursed_DestroyCurse)" Value="345146" />
+  <Preset Label="Mail Away Cursed Book (muEvent_Cursed_MailCurse)" Value="345147" />
+  <Preset Label="Confide in {1.ObjectName} (gardening_Talk_To_Plants_MoldSystem_Ghost)" Value="345163" />
+  <Preset Label="Mail Away Cursed Book (muEvent_Cursed_PickUpToMail)" Value="345197" />
+  <Preset Label="Mail Away Cursed Book (muEvent_Cursed_MailCurse_Wall)" Value="345200" />
+  <Preset Label="Deploy Mold-B-Gone Bomb (moldSystem_DeployMoldBomb)" Value="345327" />
+  <Preset Label="Do Inspection and Maintenance  (landlordTenant_DoInspectionMaintenance)" Value="345362" />
+  <Preset Label="APM_AngryWaitAtDoor" Value="345377" />
+  <Preset Label="Leave Incense (spiritHouse_LeaveIncense_Interaction)" Value="345386" />
+  <Preset Label="Leave Fruit (spiritHouse_LeaveFruit_Interaction)" Value="345387" />
+  <Preset Label="Mail Item for Charity (muEvent_CharityDrive_MailObject_PickedObject)" Value="345497" />
+  <Preset Label="Mail Item for Charity (muEvent_CharityDrive_MailObject_NPC)" Value="345499" />
+  <Preset Label="Mail Item for Charity (muEvent_CharityDrive_MailObject_Wall_PickedObject)" Value="345502" />
+  <Preset Label="Mail Item for Charity (muEvent_CharityDrive_MailObject_NPC_Wall)" Value="345504" />
+  <Preset Label="Mail Item for Charity (objectPicker_muEvent_CharityDrive_MailObject)" Tags="TestUnsafe" Value="345505" />
+  <Preset Label="Mail Item for Charity (objectPicker_muEvent_CharityDrive_MailObject_Wall)" Tags="TestUnsafe" Value="345506" />
+  <Preset Label="Mail Item for Charity (muEvent_CharityDrive_MailObject_FromInventory)" Value="345545" />
+  <Preset Label="Mail Item for Charity (muEvent_CharityDrive_MailObject_Wall_FromInventory)" Value="345546" />
+  <Preset Label="Mail Item for Charity (muEvent_CharityDrive_MailObject_ChooseObject)" Value="345548" />
+  <Preset Label="autonomousObjectPicker_muEvent_CharityDrive_FindMailbox" Tags="TestUnsafe" Value="345550" />
+  <Preset Label="Explore (world_Cave_Explore)" Value="345598" />
+  <Preset Label="Visit Sulea Tiger Sanctuary (world_Sanctuary_Visit)" Value="345599" />
+  <Preset Label="world_Sanctuary_NPC" Value="345602" />
+  <Preset Label="Sneak Into Sanctuary (world_Sanctuary_Heist)" Value="345645" />
+  <Preset Label="Negotiate Rules (businessRule_LandlordTenant_NegotiatePicker)" Tags="TestUnsafe" Value="345738" />
+  <Preset Label="Sort Junk Mail (Mailbox_landlordTenant_SortJunkMail_Wall)" Value="345779" />
+  <Preset Label="Add Junk Mail (Mailbox_AddJunkMail_Debug)" Value="345785" />
+  <Preset Label="Activate Coupon (immediate_landlordTenant_ConsumeCoupon)" Value="345787" />
+  <Preset Label="Post Donation for Charity (mailboxWall_APM_PostDonation_Charity)" Value="345840" />
+  <Preset Label="Post Donation for Charity (mailbox_APM_PostDonation_Charity)" Value="345842" />
+  <Preset Label="Unjustly Evict (social_LandlordTenant_Evict)" Value="346038" />
+  <Preset Label="Get Out (muEvent_Algae_ExitPool)" Value="346120" />
+  <Preset Label="Bait &amp; Switch Fish Market (purchase_EP15World_Shell_BoatHouse)" Tags="TestUnsafe" Value="346135" />
+  <Preset Label="Browse Fish Market (World_BoatHouse_Shop)" Value="346137" />
+  <Preset Label="Repossess Object (repo_RepoPerson_TakeObject_LandlordTenant)" Value="346163" />
+  <Preset Label="Listen to {1.SimFirstName} (social_LandlordTenant_PushAffordance)" Value="346173" />
+  <Preset Label="Break In (snooping_B&amp;E_BreakIn_Start)" Value="346268" />
+  <Preset Label="Fight! (mixer_social_Fight_targeted_mean_Snooping_BreakInReturn)" Tags="TestUnsafe" Value="346270" />
+  <Preset Label="Plead to Stay (mixer_social_Friendly_Eviction_PleadToStay)" Tags="TestUnsafe" Value="346413" />
+  <Preset Label="Intimidate to Stay (mixer_Social_Mean_Eviction_IntimidateToStay)" Tags="TestUnsafe" Value="346414" />
+  <Preset Label="toilet_SquatToilet_Use_Action" Value="346592" />
+  <Preset Label="Bribe (social_Snooping_Bribe)" Value="346663" />
+  <Preset Label="Listen to {1.SimFirstName}'s Demands (social_Snooping_PushAffordance_Bribe)" Value="346665" />
+  <Preset Label="social_Snooping_B&amp;E_PushFight" Value="346666" />
+  <Preset Label="Boil Kettle (electricKettle_TurnOn)" Value="346764" />
+  <Preset Label="Coffee (electricKettle_StartCrafting_Coffee)" Value="346765" />
+  <Preset Label="Hot Cocoa (electricKettle_StartCrafting_Cocoa)" Value="346766" />
+  <Preset Label="Tea &amp; Hot Water (electricKettle_StartCrafting_Tea)" Value="346767" />
+  <Preset Label="Brag about Being a Tiger Inspector (social_Snooping_SeekerOfSecrets_TigerInspector)" Value="346814" />
+  <Preset Label="Rummage for Marbles (marbles_Toybox_RummageForMarbles)" Value="346968" />
+  <Preset Label="Purchase Marbles (purchase_Marbles_Computer)" Tags="TestUnsafe" Value="346978" />
+  <Preset Label="Watch Marbles Game (marblesGame_Spectator)" Value="346980" />
+  <Preset Label="neighborTraits_Mixers_BlicBlockDance" Value="347007" />
+  <Preset Label="neighborTraits_Reaction_Cringe_BlicBlockDance" Value="347012" />
+  <Preset Label="Prank Toilet (squatToilet_Prank)" Value="347048" />
+  <Preset Label="squatToilet_Prank_Reaction" Value="347049" />
+  <Preset Label="Combine Tassels (Collectible_Tassel_Combine)" Value="347059" />
+  <Preset Label="Post Conciliatory Letter (mailbox_APM_PostConciliatoryLetter)" Value="347109" />
+  <Preset Label="Post Conciliatory Letter (mailboxWall_APM_PostConciliatoryLetter)" Value="347110" />
+  <Preset Label="neighborTraits_Reaction_Cringe_WorstPuns" Value="347150" />
+  <Preset Label="neighborTraits_Reaction_Cringe_SpoutMemes" Value="347151" />
+  <Preset Label="neighborTraits_Reaction_Cringe_Embrace" Value="347152" />
+  <Preset Label="Tell Worst Puns Imaginable (mixer_socials_TellJoke_group_Funny_alwaysOn_NeighborTraits_TellWorstPunsImaginable)" Tags="TestUnsafe" Value="347154" />
+  <Preset Label="Play for Keeps with (simPicker_Marbles_ForKeeps)" Tags="TestUnsafe" Value="347798" />
+  <Preset Label="Play Marbles with (simPicker_Marbles_PlayAgainst)" Tags="TestUnsafe" Value="347799" />
+  <Preset Label="Play Marbles (socialSI_MarblesGame_Normal)" Value="347801" />
+  <Preset Label="Play for Keeps (socialSI_MarblesGame_ForKeeps)" Value="347802" />
+  <Preset Label="mixerSI_MarblesGameInteractions_Setup" Tags="TestUnsafe" Value="347808" />
+  <Preset Label="mixerSI_MarblesGame_Actions_WaitTurn" Tags="TestUnsafe" Value="347829" />
+  <Preset Label="mixerSI_MarblesGame_Actions_PlayTurn" Tags="TestUnsafe" Value="347830" />
+  <Preset Label="mixerSI_MarblesGame_PlayerReaction_Happy" Tags="TestUnsafe" Value="347838" />
+  <Preset Label="mixerSI_MarblesGame_PlayerReaction_Cheer" Tags="TestUnsafe" Value="347839" />
+  <Preset Label="mixerSI_MarblesGame_PlayerReaction_Sad" Tags="TestUnsafe" Value="347840" />
+  <Preset Label="mixerSI_MarblesGame_PlayerReaction_Heckle" Tags="TestUnsafe" Value="347841" />
+  <Preset Label="mixerSI_MarblesGame_Actions_WinnerReact" Tags="TestUnsafe" Value="347850" />
+  <Preset Label="mixerSI_MarblesGame_Actions_LoserReact" Tags="TestUnsafe" Value="347851" />
+  <Preset Label="mixers_Marbles_Happy" Value="347858" />
+  <Preset Label="mixers_Marbles_Cheer" Value="347859" />
+  <Preset Label="mixers_Marbles_Sad" Value="347860" />
+  <Preset Label="mixers_Marbles_Heckle" Value="347861" />
+  <Preset Label="mixers_Marbles_Watch" Value="347862" />
+  <Preset Label="Brag about Being a Tiger Inspector (social_Snooping_SeekerOfSecrets_TigerInspector_Caught)" Value="347865" />
+  <Preset Label="neighborTraits_Reaction_Cringe_SpoutMemes_Social" Value="347875" />
+  <Preset Label="Dig in Sand Pile (World_CollectTassel)" Value="347965" />
+  <Preset Label="Discuss Rule Change (social_LandlordTenant_NegotiateRule)" Value="348130" />
+  <Preset Label="Unbreakable (pressureCooker_Upgrades_Unbreakable)" Value="348225" />
+  <Preset Label="Self-Cleaning (pressureCooker_Upgrades_SelfCleaning)" Value="348226" />
+  <Preset Label="Prosecute Fine (businessRule_LandlordTenant_ProsecutePicker)" Tags="TestUnsafe" Value="348257" />
+  <Preset Label="Pay Fine (businessRule_LandlordTenant_PayFinePicker)" Tags="TestUnsafe" Value="348258" />
+  <Preset Label="Prosecute Fine (social_LandlordTenant_Prosecute)" Value="348260" />
+  <Preset Label="Pay Fine (social_LandlordTenant_PayFine)" Value="348261" />
+  <Preset Label="Continue Upgrading Self-Cleaning (pressureCooker_Upgrades_SelfCleaning_Resume)" Value="348672" />
+  <Preset Label="Continue Making Unbreakable (pressureCooker_Upgrades_Unbreakable_Resume)" Value="348673" />
+  <Preset Label="Play for Keeps with (objectPicker_Marbles)" Tags="TestUnsafe" Value="348854" />
+  <Preset Label="mixerSI_MarblesGame_Actions_LoserReact_ForKeeps" Tags="TestUnsafe" Value="348856" />
+  <Preset Label="mixerSI_MarblesGame_Actions_WinnerReact_ForKeeps" Tags="TestUnsafe" Value="348858" />
+  <Preset Label="immediate_MarbleGame_ForKeeps_AnteMarble" Value="348863" />
+  <Preset Label="Spy on {1.SimFirstName} (neighborTraits_Spy)" Value="348921" />
+  <Preset Label="Reflect On Life (neighborTraits_ReflectOnLife_Cont_Positive)" Value="348924" />
+  <Preset Label="Reflect On Life (neighborTraits_ReflectOnLife_Cont_Negative)" Value="348926" />
+  <Preset Label="Deliver Fine (door_APM_DeliverFine)" Value="348940" />
+  <Preset Label="Deliver Fine (businessRule_APM_DeliverFinePicker)" Tags="TestUnsafe" Value="348945" />
+  <Preset Label="APM_DeliverFineOutcome" Value="349061" />
+  <Preset Label="Deliver Rent Demand (door_APM_DeliverRentDemand)" Value="349083" />
+  <Preset Label="Post Fine (businessRule_APM_PostFinePicker)" Tags="TestUnsafe" Value="349094" />
+  <Preset Label="Post Fine (mailboxWall_APM_PostFine)" Value="349097" />
+  <Preset Label="Post Fine (mailbox_APM_PostFine)" Value="349098" />
+  <Preset Label="Post Rent Demand (mailbox_APM_PostRentDemand)" Value="349099" />
+  <Preset Label="Post Rent Demand (mailboxWall_APM_PostRentDemand)" Value="349100" />
+  <Preset Label="APM_DeliverRentDemandOutcome" Value="349250" />
+  <Preset Label="Eat Marble (pet_Eat_Marble)" Value="349482" />
+  <Preset Label="Eat Marble (pet_Eat_Marble_SmallDog)" Value="349483" />
+  <Preset Label="Call Property Owner to Sort Out Neighbors (phone_LandlordTenant_muEvent_Nuisance_AskToSolveIssue)" Value="349602" />
+  <Preset Label="Leave Passive Aggressive Note (door_muEvent_Nuisance_LeaveNote)" Value="349603" />
+  <Preset Label="Restock Tray (SEA_Food_SugarcaneJuice_Tray_Interaction_Restock)" Value="349698" />
+  <Preset Label="Grab Drink (SEA_Food_SugarcaneJuice_Tray_Interaction_Take_Drink)" Value="349699" />
+  <Preset Label="Wear Layered Halter (marketStalls_Social_JustWearCASAsset_EP15World_Outfit_Halter)" Value="349747" />
+  <Preset Label="Wear Layered Halter (marketStalls_JustWearCASAsset_EP15World_Outfit_Halter)" Value="349748" />
+  <Preset Label="Buy and Wear Layered Halter (marketStalls_BuyCASassetAndWear_EP15World_Outfit_Halter)" Value="349749" />
+  <Preset Label="Buy Layered Halter (marketStalls_BuyCASasset_EP15World_Outfit_Halter)" Value="349750" />
+  <Preset Label="Buy and Wear Layered Halter (marketStalls_Social_BuyCASAssetAndWear_EP15World_Outfit_Halter)" Value="349751" />
+  <Preset Label="Buy Layered Halter (marketStalls_Social_BuyCASAsset_EP15World_Outfit_Halter)" Value="349752" />
+  <Preset Label="Listen to {1.SimFirstName} (social_NeighborTraits_Empty)" Value="349851" />
+  <Preset Label="Break In (Snooping_B&amp;E_TravelStart)" Tags="TestUnsafe" Value="350051" />
+  <Preset Label="Break In (Snooping_B&amp;E_createSituation)" Value="350052" />
+  <Preset Label="immediate_APM_SetPORemedyType" Value="350123" />
+  <Preset Label="Travel... (travel_DummyInteractions_Terrain_BreakIn)" Value="350359" />
+  <Preset Label="pressureCooker_Finish_Rice" Value="350520" />
+  <Preset Label="Break In (snooping_Travel_BreakIn_Start)" Value="350537" />
+  <Preset Label="Clean (squatToilet_Clean)" Value="350629" />
+  <Preset Label="Flush (squatToilet_Flush)" Value="350630" />
+  <Preset Label="Flush (toilet_preFlushsquatToilet_PreFlush)" Value="350631" />
+  <Preset Label="Flush (squatToilet_FlushBroken)" Value="350632" />
+  <Preset Label="Flush (squatToilet_Flush_Prank)" Value="350634" />
+  <Preset Label="Show Tenant Agreement (Phone_TenantAgreement)" Value="350838" />
+  <Preset Label="Clean {1.ObjectName} (moldSystem_CleanMold_Ender)" Value="350868" />
+  <Preset Label="Throw Up (squatToilet_Puke)" Value="351053" />
+  <Preset Label="Deploy Mold-B-Gone Bomb (moldSystem_DeployMoldBomb_Starter)" Value="351116" />
+  <Preset Label="electricKettle_CreateInSlot_Start" Value="351188" />
+  <Preset Label="Repair (object_Repair_SquatToilet)" Value="351210" />
+  <Preset Label="Splash In (squatToilet_Toddler_PlayIn)" Value="351219" />
+  <Preset Label="Drink (pet_Misbehavior_SquatToiletDrink)" Value="351270" />
+  <Preset Label="Visit (RabbitHole_Shell_Visit)" Value="351279" />
+  <Preset Label="Donate §10 (RabbitHole_Shell_Donate10)" Value="351283" />
+  <Preset Label="Donate §100 (rabbitHole_Shell_Donate100)" Value="351284" />
+  <Preset Label="Donate §50 (rabbitHole_Shell_Donate50)" Value="351285" />
+  <Preset Label="Post Rent Demand (rentArrears_APM_PostRentDemandPicker)" Tags="TestUnsafe" Value="351309" />
+  <Preset Label="Deliver Rent Demand (rentArrears_APM_DeliverRentDemandPicker)" Tags="TestUnsafe" Value="351312" />
+  <Preset Label="electricKettle_CraftingMixer_HotChocolate" Value="351362" />
+  <Preset Label="electricKettle_CraftingMixer_HotWater" Value="351365" />
+  <Preset Label="electricKettle_Staging" Value="351367" />
+  <Preset Label="electricKettle_CraftingMixer_Pour" Value="351368" />
+  <Preset Label="electricKettle_Finish" Value="351381" />
+  <Preset Label="Do Inspection and Maintenance  (landlordTenant_DoInspectionMaintenance_Cont)" Value="351649" />
+  <Preset Label="Visitor-Induced Door Panic  (fearOfEviction_DoorPanic_Interaction)" Value="351669" />
+  <Preset Label="Play Hopscotch (hopscotch_StartPlaying_NoGameTest)" Value="351729" />
+  <Preset Label="mixer_muEvent_TenantRevolt_Protest" Value="351760" />
+  <Preset Label="mixer_muEvent_TenantRevolt_Megaphone" Value="351761" />
+  <Preset Label="Ask For Better Conditions (social_muEvent_TenantRevolt_RequestBetterConditions)" Value="351763" />
+  <Preset Label="muEvent_TenantRevolt_RequestedBetterConditions" Value="351764" />
+  <Preset Label="Protest About Conditions (createCarry_muEvent_CreateProtestSign_Player)" Value="351766" />
+  <Preset Label="Knock (muEvent_Nuisance_PO_Knock)" Value="351868" />
+  <Preset Label="moldSystem_DeployMoldBomb_Ender" Value="351871" />
+  <Preset Label="Unbreakable (electricKettle_Upgrade_Unbreakable)" Value="351923" />
+  <Preset Label="Automatic Descaler (electricKettle_Upgrade_SelfCleaning)" Value="351924" />
+  <Preset Label="Continue Installing Automatic Descaler (electricKettle_Upgrade_SelfCleaning_Resume)" Value="351925" />
+  <Preset Label="Continue Making Unbreakable (electricKettle_Upgrade_Unbreakable_Resume)" Value="351926" />
+  <Preset Label="Small Gain (debugImmediate_UnitRating_Small_Gain)" Value="351967" />
+  <Preset Label="Small Loss (debugImmediate_UnitRating_Small_Loss)" Value="351968" />
+  <Preset Label="Large Loss (debugImmediate_UnitRating_Large_Loss)" Value="351969" />
+  <Preset Label="Large Gain (debugImmediate_UnitRating_Large_Gain)" Value="351970" />
+  <Preset Label="Large Loss (debugImmediate_UnitRating_AllUnits_Large_Loss)" Value="351971" />
+  <Preset Label="Large Gain (debugImmediate_UnitRating_AllUnits_Large_Gain)" Value="351972" />
+  <Preset Label="Small Gain (debugImmediate_UnitRating_AllUnits_Small_Gain)" Value="351973" />
+  <Preset Label="Small Loss (debugImmediate_UnitRating_AllUnits_Small_Loss)" Value="351974" />
+  <Preset Label="Complain About Weather (mixer_social_PoolParty_ComplainAboutWeather)" Tags="TestUnsafe" Value="352330" />
+  <Preset Label="Compliment Potluck Item (mixer_social_NeighborhoodPotluck_Compliment)" Tags="TestUnsafe" Value="352331" />
+  <Preset Label="Negotiate Rule Change (businessRule_LandlordTenant_ClinchPicker)" Tags="TestUnsafe" Value="352593" />
+  <Preset Label="Hours of Operation (marketStalls_HoursofOperation_EP15World_NightMarket)" Value="352826" />
+  <Preset Label="Visit Unit (si_SimPicker_TravelWith_VisitMultiUnit)" Tags="TestUnsafe" Value="353030" />
+  <Preset Label="Visit Unit (gtslti_InactiveMultiUnitDoor)" Value="353031" />
+  <Preset Label="Add Superior Flush (squatToilet_Upgrade_SuperiorFlush)" Value="353242" />
+  <Preset Label="Add Self-Cleaning (squatToilet_Upgrade_SelfCleaning)" Value="353243" />
+  <Preset Label="Destroy {1.ObjectName} with Fire (moldSystem_BurnMoldPile)" Value="353282" />
+  <Preset Label="Go to Work (si_Career_Handyperson)" Value="353355" />
+  <Preset Label="Neighborly Chat (social_LandlordTenant_NeighborHallwayChat)" Value="353514" />
+  <Preset Label="Complain About Rental Conditions (social_LandlordTenant_ComplainAboutRentalConditions)" Value="353515" />
+  <Preset Label="Compliment Rental Conditions (social_LandlordTenant_ComplimentRentalConditions)" Value="353516" />
+  <Preset Label="Ask About Rental Conditions (social_LandlordTenant_AskAboutRentalConditions)" Value="353517" />
+  <Preset Label="Incite Tenant Revolt (social_LandlordTenant_Events_InciteTenantRevolt)" Value="353519" />
+  <Preset Label="Suggest Hosting Charity Gift Drive (social_LandlordTenant_Events_SuggestHostingCharityEvent)" Value="353520" />
+  <Preset Label="Criticize Neighbors (social_LandlordTenant_Events_CriticizeNeighbors)" Value="353521" />
+  <Preset Label="Suggest Hosting Maintenance Day Event (social_LandlordTenant_Events_PraiseHavingGreatNeighbors)" Value="353522" />
+  <Preset Label="Blame Tenants (social_LandlordTenant_Events_BlameTenants)" Value="353523" />
+  <Preset Label="Commend Tenants (social_LandlordTenant_Events_CommendTenants)" Value="353524" />
+  <Preset Label="Move Household (immediate_ForRentSign_MoveHousehold)" Value="353527" />
+  <Preset Label="Purchase a Residential Rental (immediate_ForRentSign_PurchaseRentalHome)" Value="353528" />
+  <Preset Label="Change Vacancy Visual (immediate_ForRentSign_ChangeVisual)" Value="353529" />
+  <Preset Label="Ruminate on Renting (landlordTenant_ForRentSign_RuminateOnRenting)" Value="353530" />
+  <Preset Label="Cook (pressurecooker_Craft_Autonomously)" Value="353634" />
+  <Preset Label="Think About Adopted Tiger (adoptTiger_ThinkofTiger)" Value="353665" />
+  <Preset Label="Pat {1.ObjectName} (adoptTiger_PatHead)" Value="353666" />
+  <Preset Label="Pat {1.ObjectName} (adoptTiger_PatHead_Child)" Value="353667" />
+  <Preset Label="Think About Adopted Tiger (adoptTiger_ThinkofTiger_Cont_Pos)" Value="353669" />
+  <Preset Label="Think About Adopted Tiger (adoptTiger_ThinkofTiger_Cont_Neg)" Value="353670" />
+  <Preset Label="Take Vacation Day (Handyperson) (phone_TakePTO_PartTime_Handyperson)" Value="353714" />
+  <Preset Label="Research Repair Techniques (computer_Career_Handyperson_ResearchRepair)" Value="353749" />
+  <Preset Label="Invite Over to Current Lot (multiUnit_Door_Invite_Over)" Value="353785" />
+  <Preset Label="Invite to Hangout (door_MultiUnit_InviteToHangout_SimPicker)" Tags="TestUnsafe" Value="353786" />
+  <Preset Label="Unbreakable (pressureCooker_Upgrades_CompletedDisplay_Unbreakable)" Value="353899" />
+  <Preset Label="Self-Cleaning (pressureCooker_Upgrades_CompletedDisplay_SelfCleaning)" Value="353900" />
+  <Preset Label="Unbreakable (electricKettle_Upgrades_CompletedDisplay_Unbreakable)" Value="353901" />
+  <Preset Label="Self-Cleaning (electricKettle_Upgrades_CompletedDisplay_SelfCleaning)" Value="353902" />
+  <Preset Label="Rename {1.ObjectName} (rename_Object_Tiger)" Value="353947" />
+  <Preset Label="Complain About Rental Conditions (social_LandlordTenant_ComplainAboutRentalConditions_ToLandlord)" Value="354019" />
+  <Preset Label="Compliment Rental Conditions (social_LandlordTenant_ComplimentRentalConditions_ToLandlord)" Value="354021" />
+  <Preset Label="Order Food (bar_PushOrderFood_SEA_Food)" Value="354041" />
+  <Preset Label="Grab All Servings (pressureCooker_GrabMultiServing_SteamedRice)" Value="354081" />
+  <Preset Label="Grab All Servings (pressureCooker_GrabMultiServing_CoconutRice)" Value="354082" />
+  <Preset Label="Grab All Servings (pressureCooker_GrabMultiServing_MangoRice)" Value="354083" />
+  <Preset Label="Grab All Servings (pressureCooker_GrabMultiServing_BurmeseSamosaSoup)" Value="354084" />
+  <Preset Label="Grab All Servings (pressureCooker_GrabMultiServing_Chili)" Value="354085" />
+  <Preset Label="Call to Meal (pressureCooker_GrabMultiServing_CallToMeal_SteamedRice)" Value="354105" />
+  <Preset Label="Call to Meal (pressureCooker_GrabMultiServing_CallToMeal_BurmeseSamosaSoup)" Value="354106" />
+  <Preset Label="Call to Meal (pressureCooker_GrabMultiServing_CallToMeal_Chili)" Value="354107" />
+  <Preset Label="Call to Meal (pressureCooker_GrabMultiServing_CallToMeal_CoconutRice)" Value="354108" />
+  <Preset Label="Call to Meal (pressureCooker_GrabMultiServing_CallToMeal_MangoRice)" Value="354109" />
+  <Preset Label="Call to Meal (pressureCooker_GrabMultiServing_CallToMeal_ButterChicken)" Value="354114" />
+  <Preset Label="Grab All Servings (pressureCooker_GrabMultiServing_ButterChicken)" Value="354115" />
+  <Preset Label="Empty (collect_Trash_PressureCooker)" Value="354226" />
+  <Preset Label="Release Steam Vent (pressureCooker_Vent_Auto)" Value="354228" />
+  <Preset Label="contractorPicker_APM_HireCheapContractor" Tags="TestUnsafe" Value="354242" />
+  <Preset Label="contractorPicker_APM_HireExpensiveContractor" Tags="TestUnsafe" Value="354244" />
+  <Preset Label="Call Cheap Contractor (phone_APM_HireCheapContractor)" Value="354246" />
+  <Preset Label="Call Expensive Contractor (phone_APM_HireExpensiveContractor)" Value="354247" />
+  <Preset Label="immediate_APM_HireCheapContractor" Value="354248" />
+  <Preset Label="Complain About Condition (si_Career_Handyperson_ComplainAboutCondition)" Value="354253" />
+  <Preset Label="Complain About Condition (si_Career_Handyperson_ComplainAboutCondition_Wait)" Value="354254" />
+  <Preset Label="Listen to Condition Complaint (si_Career_Handyperson_ComplainAboutCondition_Push)" Value="354255" />
+  <Preset Label="Listen to Condition Complaint (si_Career_Handyperson_ComplainAboutCondition_Listen)" Value="354256" />
+  <Preset Label="Complain About Condition To (simPicker_Career_Handyperson_ComplainAboutCondition)" Tags="TestUnsafe" Value="354259" />
+  <Preset Label="immediate_APM_HireExpensiveContractor" Value="354339" />
+  <Preset Label="landlordTenant_RepoReaction" Value="354534" />
+  <Preset Label="Play (pet_Misbehavior_SquatToilet_PlayIn)" Value="354611" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_CoffeeMaker)" Value="354653" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Dishwasher)" Value="354654" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Fridge)" Value="354655" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Microwave)" Value="354656" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Stove)" Value="354657" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Bathtub)" Value="354658" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Shower)" Value="354659" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Sink)" Value="354660" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Toilet)" Value="354661" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Electronics_Observatory)" Value="354662" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Electronics_HotTub)" Value="354663" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Electronics_MotionGame)" Value="354664" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Electronics_SolarPanel)" Value="354665" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Electronics_StereoTV)" Value="354666" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Electronics_WindTurbine)" Value="354667" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Electronics_Computer)" Value="354669" />
+  <Preset Label="Restore Newness (career_Handyperson_RestoreNewness_Electronics_Computer_LowTable)" Value="354670" />
+  <Preset Label="Attend Neighbor Issues (si_Career_Handyperson_AttendLocalNeighbor_UnitDoor_Start)" Value="354677" />
+  <Preset Label="Attend Neighbor Issues (si_Rabbithole_Handyperson_AttendLocalNeighborComplaint_Lot)" Value="354714" />
+  <Preset Label="Attend Neighbor Issues (si_Rabbithole_Handyperson_AttendLocalNeighborComplaint_UnitDoor)" Value="354715" />
+  <Preset Label="Practice Marbles (marblesGame_Practice)" Value="354790" />
+  <Preset Label="mixers_MarblesGame_Practice_Setup" Value="354793" />
+  <Preset Label="mixers_MarblesGame_Practice_EndGameReact" Value="354794" />
+  <Preset Label="mixers_MarblesGame_Practice_PlayTurn" Value="354795" />
+  <Preset Label="Post Donation for Pet Adoption Drive (mailbox_APM_PostDonation_PetDay)" Value="355010" />
+  <Preset Label="Post Donation for Pet Adoption Drive (mailboxWall_APM_PostDonation_PetDay)" Value="355011" />
+  <Preset Label="Continue Installing Auto-Vent (pressureCooker_Upgrades_Autovent_Resume)" Value="355217" />
+  <Preset Label="Auto-Vent (pressureCooker_Upgrades_Autovent)" Value="355219" />
+  <Preset Label="Auto-Vent (pressureCooker_Upgrades_CompletedDisplay_Autovent)" Value="355220" />
+  <Preset Label="Call Property Owner to Visit (simPicker_APM_PickPlayedPO)" Tags="TestUnsafe" Value="355637" />
+  <Preset Label="APM_AskPlayedPOToVisitOutcome" Value="355638" />
+  <Preset Label="Turn Off (electricKettle_TurnOff)" Value="355815" />
+  <Preset Label="autonomous_ObjectPicker_MoldSystem_SpreadSpores" Tags="TestUnsafe" Value="356114" />
+  <Preset Label="autonomous_ObjectPicker_MoldSystem_FungalOvergrowth" Tags="TestUnsafe" Value="356538" />
+  <Preset Label="muEvent_TrashOverload_DestroyTrash" Value="356650" />
+  <Preset Label="nonTouching_Unpaired_Greetings_RegionalIntroduction" Value="356726" />
+  <Preset Label="autonomous_ObjectPicker_NeighborhoodPotluck" Tags="TestUnsafe" Value="356735" />
+  <Preset Label="landlordTenant_NeighborhoodPotluck_NPCSpawn" Value="356736" />
+  <Preset Label="Give Gift (social_muEvent_Charity_GiveGift_NPC)" Value="356777" />
+  <Preset Label="Receive Gift (social_muEvent_Charity_GiveGift_PushAffordance)" Value="356778" />
+  <Preset Label="muEvent_TrashOverload_NoTrash" Value="356813" />
+  <Preset Label="Neighborly Chat (social_LandlordTenant_NeighborHallwayChat_Player)" Value="356828" />
+  <Preset Label="idle_Buff_MoldSystem_Scratch" Value="356983" />
+  <Preset Label="Give to Family (social_NeighborTraits_ContributeFunds_Family)" Value="357003" />
+  <Preset Label="electricKettle_CreateInSlot_Start_Unicorn" Value="357143" />
+  <Preset Label="Purchase Marbles (purchase_Marbles_Computer_TYAE)" Tags="TestUnsafe" Value="357345" />
+  <Preset Label="Repossess Object (repo_RepoPerson_TakeObject_Rent)" Value="357520" />
+  <Preset Label="repoPerson_NothingToTake_Rent" Value="357521" />
+  <Preset Label="Show Tenant Agreement (Computer_TenantAgreement)" Value="357566" />
+  <Preset Label="immediate_APM_SwitchToPO" Value="357655" />
+  <Preset Label="APM_AskPlayedPOToVisitAndSwitchOutcome" Value="357657" />
+  <Preset Label="Call Property Owner to Visit (simPicker_APM_PickPlayedPOAndSwitch)" Tags="TestUnsafe" Value="357659" />
+  <Preset Label="Mail Away Cursed Book (autonomousObjectPicker_muEvent_Cursed_FindMailbox)" Tags="TestUnsafe" Value="357682" />
+  <Preset Label="Eat Marble (pet_Eat_Marble_Cat)" Value="357963" />
+  <Preset Label="Call Property Owner to Visit (phone_LandlordTenant_AskPropertyOwnerToVisit_BrokenObject)" Value="358024" />
+  <Preset Label="Ask to Inspect (social_LandlordTenant_AskToInspect_Cont)" Value="358086" />
+  <Preset Label="Unit Object (objectPicker_LandlordTenant_AskToInspect)" Tags="TestUnsafe" Value="358176" />
+  <Preset Label="Break In (snooping_Travel_BreakIn_Start_RR)" Value="358207" />
+  <Preset Label="Trade Marbles (objectPicker_TradeMarble)" Tags="TestUnsafe" Value="358346" />
+  <Preset Label="Unjustly Evict (social_LandlordTenant_Evict_UI)" Value="358504" />
+  <Preset Label="Break In (snooping_B&amp;E_BreakIn_Start_Arch)" Value="358566" />
+  <Preset Label="Break In (door_Snooping_B&amp;E_BreakIn_Arch_cont)" Value="358568" />
+  <Preset Label="Attach Mold-Buster Dehumidifier (robotVacuum_Upgrade_MoldSystem)" Value="358581" />
+  <Preset Label="Resume Attaching Mold-Buster Dehumidifier (robotVacuum_Upgrade_MoldSystem_resume)" Value="358582" />
+  <Preset Label="Mold-Buster Dehumidifier (robotVacuum_Upgrade_MoldSystem_display)" Value="358606" />
+  <Preset Label="Shared Space Object (objectPicker_LandlordTenant_AskToInspect_CommonArea)" Tags="TestUnsafe" Value="358636" />
+  <Preset Label="Deliver Fine (door_APM_DeliverFine_Autonomous)" Value="358860" />
+  <Preset Label="Snoop (snooping_Object_Generic_Short_Dresser)" Value="358958" />
+  <Preset Label="Sabotage! (object_Bane_Sabotage_SquatToilet)" Value="359124" />
+  <Preset Label="mixer_Snooping_ReadNote_High" Value="359144" />
+  <Preset Label="mixer_Snooping_ReadNote_Low" Value="359145" />
+  <Preset Label="Visit Unit (terrain-travel_here_with_Picker_RR_SameLot)" Tags="TestUnsafe" Value="359226" />
+  <Preset Label="Visit Unit (immediate_dummy_terrain-Travel_here_with_picker_RR_SameLot)" Value="359374" />
+  <Preset Label="muEvent_Blight_Spray_Backup" Value="359559" />
+  <Preset Label="Trade Marbles (socialSI_TradeMarbles_Start)" Value="359578" />
+  <Preset Label="Trade Marbles (socialSI_TradeMarbles_Continuation)" Value="359580" />
+  <Preset Label="Swim to Clean Algae (pool-swim_muEvent_Algae_Clean_Autonomous)" Value="359600" />
+  <Preset Label="muEvent_Infestation_Fumigate_Ender" Value="359630" />
+  <Preset Label="Deploy Fumigation Device (muEvent_Infestation_Fumigate_Starter)" Value="359631" />
+  <Preset Label="Break In (gtslti_Snooping_B&amp;E_BreakIn_Start_Unit)" Value="359660" />
+  <Preset Label="Break In (si_SimPicker_Snooping_B&amp;E_BreakIn_RR)" Tags="TestUnsafe" Value="359661" />
+  <Preset Label="Knock On Door (door_PlayerRingDoorbell_muEvent_PropertyOwner)" Value="359796" />
+  <Preset Label="Knock On Door (door_PlayerRingDoorbell_Sliding_muEvent_PropertyOwner)" Value="359797" />
+  <Preset Label="Attend Neighbor Issues (immediate_Career_Handyperson_AttendLocalNeighbor_Lot)" Value="359855" />
+  <Preset Label="Give Notice In Writing (landlordTenant_GiveNoticeInWriting_Wall)" Value="359941" />
+  <Preset Label="mixers_MarblesGame_EndGame_Fallback" Value="360020" />
+  <Preset Label="marblesGame_Start_Normal" Value="360022" />
+  <Preset Label="marblesGame_Start_ForKeeps" Value="360023" />
+  <Preset Label="Eat Marble (pet_Eat_Marble_Kitten)" Value="360031" />
+  <Preset Label="Eat Marble (pet_Eat_Marble_Puppy)" Value="360032" />
+  <Preset Label="Ask to Sort Out Neighbors (social_LandlordTenant_muEvent_Nuisance_AsktoSolveIssue)" Value="360150" />
+  <Preset Label="immediate_Eviction_EvictOnRouteFail" Value="360583" />
+  <Preset Label="Listen to {1.SimFirstName} (social_LandlordTenant_PushAffordance_Evict)" Value="360766" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_SpiritHouse)" Value="361626" />
+  <Preset Label="Call to Meal (pressureCooker_GrabMultiServing_CallToMeal_NasiLemak)" Value="365279" />
+  <Preset Label="Grab All Servings (pressureCooker_GrabMultiServing_NasiLemak)" Value="365280" />
+  <Preset Label="autonomous_ObjectPicker_GrimChallenge_Hopscotch" Tags="TestUnsafe" Value="391629" />
+  <Preset Label="Mold (immediate_EP17World_RiverStyx_TemporaryGhost_Debug_MoldSystem)" Value="414645" />
+  <Preset Label="Play Marbles with (autonomousSimPicker_Marbles_PlayAgainst)" Tags="TestUnsafe" Value="442589" />
+</PresetGroup>

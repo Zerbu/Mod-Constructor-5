@@ -12,8 +12,8 @@
   <Preset Label="broadcaster_Reaction_Fire" Value="75066" />
   <Preset Label="Broadcaster_Fireplace_CozyFire" Value="75072" />
   <Preset Label="Broadcaster_Fireplace_CauseFire" Value="75173" />
-  <Preset Label="broadcaster_Jealousy" Value="76132" />
-  <Preset Label="broadcaster_Jealousy_WooHoo" Value="76434" />
+  <Preset Label="broadcaster_JealousyUpdates_EmotionalExclusivity" Value="76132" />
+  <Preset Label="broadcaster_JealousyUpdates_WooHoo_WoohooExclusivity" Value="76434" />
   <Preset Label="broadcaster_EnvironmentScore" Value="77266" />
   <Preset Label="broadcaster_Reaction_LoudNoises_PlayedInstruments" Value="77543" />
   <Preset Label="broadcaster_MusicLover_MusicPlaying" Value="97152" />
@@ -58,7 +58,7 @@
   <Preset Label="broadcaster_Bonfire_FeelingConfident" Value="124706" />
   <Preset Label="broadcaster_Bonfire_Homework" Value="124738" />
   <Preset Label="broadcaster_Generic_Reactions_Shocked" Value="125125" />
-  <Preset Label="broadcaster_Jealousy_Kiss" Value="125246" />
+  <Preset Label="broadcaster_JealousyUpdates_Kiss_PhysicalExclusivity" Value="125246" />
   <Preset Label="broadcaster_Generic_Reactions_Sad" Value="125322" />
   <Preset Label="broadcaster_Reaction_Jealousy_Trait" Value="125441" />
   <Preset Label="broadcaster_Generic_Reactions_Funny" Value="125523" />
@@ -68,6 +68,7 @@
   <Preset Label="broadcaster_Reaction_Kids_AdultKiss" Value="127017" />
   <Preset Label="broadcaster_DontWakeLlama_Cheer" Value="127862" />
   <Preset Label="broadcaster_Reaction_Fire_Walkby_Shock" Value="128239" />
+  <Preset Label="broadcaster_Reaction_FacingLOS_Dartboard_Cheer" Value="128600" />
   <Preset Label="broadcaster_Outfit_Nude" Value="128809" />
   <Preset Label="broadcaster_Jealousy_WitnessedCheating_RelLoss" Value="129282" />
   <Preset Label="broadcaster_ReactionLOS_Generic_GoingOutSocials_TalkUpSim" Value="129372" />
@@ -84,6 +85,7 @@
   <Preset Label="broadcaster_GainRelWithOthersUsingObject_SimTube" Value="130035" />
   <Preset Label="broadcaster_GainRelWithOthersUsingObject_Instruments" Value="130052" />
   <Preset Label="broadcaster_GainRelWithOthersUsingObject_Chess" Value="130053" />
+  <Preset Label="broadcaster_GainRelWithOthersUsingObject_Dartboard" Value="130237" />
   <Preset Label="broadcaster_DontWakeLlama_Explosion" Value="130243" />
   <Preset Label="broadcaster_GainRelWithOthersUsingObject_DontWakeLlama" Value="130314" />
   <Preset Label="broadcaster_InappropriateBehavior_SendHouseHoldSims_Home" Value="130402" />
@@ -104,6 +106,10 @@
   <Preset Label="broadcaster_ApartmentProblem_Mice_Failure" Value="144378" />
   <Preset Label="broadcaster_ToddlerRoughhousing" Value="151145" />
   <Preset Label="broadcaster_CTYAE_Toddler_ThrowTantrum_Reactions" Value="151189" />
+  <Preset Label="broadcaster_VideoGameConsole_Telesplosion_Party" Value="151480" />
+  <Preset Label="broadcaster_VideoGameConsole_Telesplosion_RPG" Value="151536" />
+  <Preset Label="broadcaster_VideoGameConsole_Telesplosion_Platformer" Value="151537" />
+  <Preset Label="broadcaster_VideoGameConsole_Telesplosion_Racing" Value="151538" />
   <Preset Label="broadcaster_CTYAE_Toddler_BadBehavior_Reactions" Value="155822" />
   <Preset Label="broadcaster_Outfit_Nude_Toddler" Value="157431" />
   <Preset Label="broadcaster_CTYAE_Toddler_Reactions_BirthdayBuffs" Value="157690" />
@@ -124,6 +130,7 @@
   <Preset Label="broadcaster_shower_wall_embarrassed" Value="229696" />
   <Preset Label="broadcaster_Reaction_Broken_InventoryableObject" Value="230209" />
   <Preset Label="broadcaster_Generic_Reactions_Shocked_DeathInspect" Value="246437" />
+  <Preset Label="broadcaster_ShoeRemovalSign" Value="247445" />
   <Preset Label="broadcaster_VacuumCleaner_OneShot_DestroyNearby" Value="256890" />
   <Preset Label="broadcaster_NPC_Dust_Embarassed" Value="257299" />
   <Preset Label="broadcaster_VacuumCleaner_OneShot_DestroyNearby_Larger" Value="257386" />
@@ -134,7 +141,6 @@
   <Preset Label="broadcaster_Reaction_Trait_GloomyInteractions" Value="258199" />
   <Preset Label="broadcaster_Reaction_Trait_MeanInteractions" Value="258200" />
   <Preset Label="broadcaster_Reaction_Clumsy_SurprisedAtSlip" Value="258206" />
-  <Preset Label="broadcaster_PicnicBasket" Value="258335" />
   <Preset Label="broadcaster_Stereo_Metal" Value="258519" />
   <Preset Label="broadcaster_Stereo_Alt" Value="258523" />
   <Preset Label="broadcaster_Stereo_Blues" Value="258524" />
@@ -171,34 +177,13 @@
   <Preset Label="broadcaster_AnimalObject_SimReactions_Sold_Chicken" Value="261288" />
   <Preset Label="broadcaster_AnimalObject_SimReactions_Death_Chicken" Value="261291" />
   <Preset Label="broadcaster_AnimalObjects_FeedingChickens" Value="262007" />
-  <Preset Label="broadcaster_PicnicBondingSentiment" Value="262308" />
-  <Preset Label="broadcaster_Reaction_AgnesCrumplebottom" Value="264157" />
   <Preset Label="broadcaster_AnimalObjects_FoxAlarm" Value="264967" />
   <Preset Label="broadcaster_AnimalObjects_RoosterCrow" Value="264969" />
-  <Preset Label="broadcaster_AnimalObject_SimReactions_Sold_Cow" Value="265725" />
-  <Preset Label="broadcaster_AnimalObject_SimReactions_Sold_Llama" Value="265751" />
-  <Preset Label="broadcaster_NPCVillagers_ConspireWithGnomes_BreakObjects" Value="266156" />
-  <Preset Label="broadcaster_NPCVillagers_ConspireWithGnomes_StartFire" Value="266192" />
-  <Preset Label="broadcaster_NPCVillagers_ConspireWithGnomes_DirtyObjects" Value="266209" />
   <Preset Label="broadcaster_AnimalObject_SimReactions_Sold_AddSentiment" Value="266308" />
-  <Preset Label="broadcaster_NPCVillagers_ConspireWithGnomes_WhimsicalBuffs" Value="266408" />
-  <Preset Label="broadcaster_NPCVillagers_ConspireWithGnomes_CleanObjects" Value="266490" />
-  <Preset Label="broadcaster_NPCVillagers_ConspireWithGnomes_RepairObjects" Value="266491" />
   <Preset Label="broadcaster_Reaction_Fire_AnimalObjects" Value="266543" />
-  <Preset Label="broadcaster_Fox_Pounce" Value="266826" />
-  <Preset Label="broadcaster_AnimalObject_SimReactions_Death_Cow" Value="267214" />
-  <Preset Label="broadcaster_AnimalObject_SimReactions_Death_Llama" Value="267215" />
-  <Preset Label="broadcaster_Fox_Nearby" Value="267363" />
   <Preset Label="broadcaster_SimPreference_Guitar" Value="268105" />
   <Preset Label="broadcaster_SimPreference_Piano" Value="268106" />
   <Preset Label="broadcaster_SimPreference_Violin" Value="268107" />
-  <Preset Label="broadcaster_CottageWorld_ProximityRuins" Value="268109" />
-  <Preset Label="broadcaster_CottageWorld_ProximityWaterfall" Value="268110" />
-  <Preset Label="broadcaster_Fox_Pounce_Success" Value="268622" />
-  <Preset Label="broadcaster_Fox_RelWithTarget" Value="268935" />
-  <Preset Label="broadcaster_Fox_StealEgg" Value="269484" />
-  <Preset Label="broadcaster_Fox_StealHarvestable" Value="269516" />
-  <Preset Label="broadcaster_Reaction_Trait_MeanToAnimal_AnimalEnthusiast" Value="269527" />
   <Preset Label="broadcaster_AnimalObjects_Socializing" Value="269552" />
   <Preset Label="broadcaster_MusicFestival_Artist_Start_MainArtist" Value="270161" />
   <Preset Label="broadcaster_MusicFestival_Artist_Start_Opener1" Value="270162" />
@@ -207,103 +192,17 @@
   <Preset Label="broadcaster_MusicFestival_Reactions_React" Value="270347" />
   <Preset Label="broadcaster_MusicFestival_Reactions_End" Value="270348" />
   <Preset Label="broadcaster_MusicFestival_BowWave_Clap_End" Value="270405" />
-  <Preset Label="broadcaster_flowerbouquet_join_group" Value="272770" />
   <Preset Label="broadcaster_TeaMaker" Value="272790" />
-  <Preset Label="broadcaster_SimPreference_Fashion_Dislikes" Value="272835" />
   <Preset Label="broadcaster_Stereo_CottageCore" Value="274596" />
   <Preset Label="broadcaster_Infant_BlowOut_OtherSims" Value="275301" />
   <Preset Label="broadcaster_Infant_LoudNoise" Value="275442" />
   <Preset Label="broadcaster_Infant_SeeCaregiver" Value="275444" />
   <Preset Label="broadcaster_Infant_Crying" Value="275457" />
-  <Preset Label="broadcaster_HighSchool_Active_NPC_Bullies_BeMean" Value="276444" />
-  <Preset Label="broadcaster_HighSchool_Active_NPC_Principal_PatrolSchool" Value="277036" />
   <Preset Label="broadcaster_ReactionDeath_Fire" Value="277312" />
-  <Preset Label="broadcaster_Wedding_GroupDancing_Reactions" Value="278218" />
-  <Preset Label="broadcaster_Flowerbouquet_TryToCatch" Value="278793" />
-  <Preset Label="broadcaster_HSTeam_VictoryDance" Value="279217" />
-  <Preset Label="broadcaster_WeddingWorld_Object_Algae" Value="279932" />
-  <Preset Label="broadcaster_WeddingWorld_Object_Fountain" Value="279933" />
-  <Preset Label="broadcaster_Reaction_TownHall_GetMarried" Value="280449" />
-  <Preset Label="broadcaster_Custom_State_Wedding_CrowdReactions" Value="280730" />
-  <Preset Label="broadcaster_Wedding_WeddingTradition_RomanticallyUpstaged" Value="280776" />
-  <Preset Label="broadcaster_Wedding_WeddingTradition_AteCakeEarly" Value="280810" />
-  <Preset Label="broadcaster_ThriftStore_Event_React" Value="280924" />
-  <Preset Label="broadcaster_WeddingCake_SneakTaste_Scold" Value="281033" />
-  <Preset Label="broadcaster_PhotoOpStand_ReactToPose" Value="281810" />
-  <Preset Label="broadcaster_PhotoOpStand_ReactToDefaceTeacher" Value="281811" />
-  <Preset Label="broadcaster_PhotoOpStand_ReactToDefaceStudent" Value="281814" />
-  <Preset Label="broadcaster_Custom_State_Wedding_ListenSpeech" Value="282131" />
   <Preset Label="broadcaster_Stereo_MixedMusic" Value="282783" />
   <Preset Label="broadcaster_Stereo_Brazilian" Value="282784" />
-  <Preset Label="broadcaster_ThrowFootball_DogWatch" Value="282984" />
-  <Preset Label="broadcaster_OpenableWindow_NotSneaking" Value="283021" />
-  <Preset Label="broadcaster_OpenableWindow_Sneaking" Value="283022" />
-  <Preset Label="broadcaster_Custom_State_Wedding_CakeFeedWatch" Value="284020" />
-  <Preset Label="broadcaster_HSProm_Podium_React" Value="284207" />
-  <Preset Label="broadcaster_SimPreference_Fashion_Likes" Value="284544" />
-  <Preset Label="broadcaster_PartyAnimal_Reaction_Woooo" Value="284801" />
-  <Preset Label="broadcaster_PartyAnimal_Reaction_PartyTrick" Value="284802" />
-  <Preset Label="broadcaster_Reaction_Catch_Pranking" Value="284908" />
-  <Preset Label="broadcaster_HighSchoolFestival_WatchAnnounce" Value="285484" />
-  <Preset Label="broadcaster_TeenPranks_Reaction_Whiteboard" Value="285517" />
-  <Preset Label="broadcaster_TeenPranks_Reaction_StinkCapsule" Value="285519" />
-  <Preset Label="broadcaster_HighSchool_Active_HookyAtSchool" Value="285624" />
-  <Preset Label="broadcaster_HighSchool_Active_PerformTPose" Value="286448" />
-  <Preset Label="broadcaster_FashionMarketplace_OutfitHype" Value="286865" />
-  <Preset Label="broadcaster_Reaction_Mocked_Acne" Value="287053" />
-  <Preset Label="broadcaster_Reaction_Mocked_Hair" Value="287055" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_Mild" Value="288083" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_Disgust" Value="288084" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_Fear" Value="288085" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_Fear_Rampage" Value="288117" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_Fear_Transform" Value="288429" />
-  <Preset Label="broadcaster_WerewolfPackValue_SelfSufficency_Check" Value="289368" />
-  <Preset Label="broadcaster_TeenRelationshipDrama_Crush_InRoom" Value="289542" />
-  <Preset Label="broadcaster_Werewolf_WerewolfCreation_ForcedTurn" Value="289672" />
-  <Preset Label="broadcaster_Werewolf_WerewolfCreation_WantsToTurn" Value="289674" />
-  <Preset Label="broadcaster_Werewolf_Smell" Value="290184" />
-  <Preset Label="broadcaster_Werewolf_Aroma" Value="290208" />
-  <Preset Label="broadcaster_WolfTown_CryGreg_HumanRange" Value="290268" />
-  <Preset Label="broadcaster_WolfTown_CryGreg_WerewolfRange" Value="290270" />
-  <Preset Label="broadcaster_WolfTown_Greg_GiveBuff" Value="290271" />
-  <Preset Label="broadcaster_WeddingToast_Listen_Success" Value="291145" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_HowlBack" Value="291146" />
-  <Preset Label="broadcaster_Custom_State_Wedding_ListenSpeech_Officiant" Value="291158" />
-  <Preset Label="broadcaster_WeddingToast_Listen_Failure" Value="291207" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_Fear_ViciousHowl" Value="291856" />
-  <Preset Label="broadcaster_Werewolf_Puddle" Value="292058" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_Disgust_Mark" Value="292061" />
-  <Preset Label="broadcaster_Reaction_HSProm_RewardMusic" Value="292103" />
-  <Preset Label="broadcaster_Werewolf_Dig" Value="292377" />
-  <Preset Label="broadcaster_Werewolf_DigDelete" Value="292379" />
-  <Preset Label="broadcaster_WerewolfPack_ChallengeLeader" Value="292450" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_Disgust_Wet" Value="292759" />
-  <Preset Label="broadcaster_CheerMat_HighSchoolFestivalHype" Value="293060" />
-  <Preset Label="broadcaster_WerewolfPack_ShockedPack" Value="293157" />
-  <Preset Label="broadcaster_WerewolfPack_Positive_OnlyASims" Value="293340" />
-  <Preset Label="broadcaster_WerewolfPack_Positive_OnlyBSims" Value="293387" />
-  <Preset Label="broadcaster_WerewolfPack_LeaveRudeA" Value="293393" />
-  <Preset Label="broadcaster_WerewolfPack_LeaveRudeB" Value="293428" />
-  <Preset Label="broadcaster_ThriftStore_FashionEvent_React" Value="293530" />
-  <Preset Label="broadcaster_WolfTown_Greg_GiveBuff_InArea" Value="293613" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_Fear_GregHowl" Value="294445" />
-  <Preset Label="broadcaster_WolfTown_Greg_CheckNumWolf" Value="294747" />
-  <Preset Label="broadcaster_Werewolf_Aroma_Vampire" Value="295319" />
-  <Preset Label="broadcaster_HSGraduation_WatchSpeech_ResponseBuff_Good" Value="295368" />
-  <Preset Label="broadcaster_HSGraduation_WatchSpeech_ResponseBuff_Bad" Value="295558" />
-  <Preset Label="broadcaster_Werewolf_MarkDelete" Value="295921" />
-  <Preset Label="broadcaster_Werewolf_WerewolfReactions_HowlBack_PackHowl" Value="295923" />
-  <Preset Label="broadcaster_Werewolf_Spar" Value="296459" />
-  <Preset Label="broadcaster_Werewolf_Spar_ReactionChance" Value="296934" />
-  <Preset Label="broadcaster_Werewolf_Aroma_Flirty" Value="297753" />
-  <Preset Label="broadcaster_Werewolf_Aroma_Playful" Value="297754" />
-  <Preset Label="broadcaster_Werewolf_Aroma_Werewolf" Value="297759" />
-  <Preset Label="broadcaster_Werewolf_Aroma_Occult" Value="297803" />
-  <Preset Label="broadcaster_WolfTown_HowlSpotNight" Value="297834" />
-  <Preset Label="broadcaster_HSProm_Crowned_React" Value="303081" />
-  <Preset Label="broadcaster_HSProm_Promposal_React" Value="303082" />
-  <Preset Label="broadcaster_HighSchool_Active_SchoolFight" Value="303086" />
   <Preset Label="broadcaster_Infant_StinkyDiaper" Value="309714" />
+  <Preset Label="broadcaster_AnimalObjects_AnimalFeeder_GoatSheep" Value="310062" />
   <Preset Label="broadcaster_TemporaryStay_Argue" Value="310692" />
   <Preset Label="broadcaster_TemporaryStay_GloomyPresence" Value="310695" />
   <Preset Label="broadcaster_TemporaryStay_WhoseKidIsThis" Value="310697" />
@@ -347,5 +246,41 @@
   <Preset Label="broadcaster_Reaction_InfantMilestone_Anticipation_Small" Value="328739" />
   <Preset Label="broadcaster_Infant_Fuss" Value="329784" />
   <Preset Label="broadcaster_CelebrationCannon_React_Fail" Value="330919" />
+  <Preset Label="broadcaster_Stereo_Ranch" Value="331802" />
   <Preset Label="broadcaster_Infant_Trait_Cautious_CaregiverProximityCheck" Value="334602" />
+  <Preset Label="broadcaster_SmallAppliance_FireRisk_Low" Value="341018" />
+  <Preset Label="broadcaster_SmallAppliance_FireRisk_Medium" Value="341020" />
+  <Preset Label="broadcaster_SmallAppliance_FireRisk_High" Value="341021" />
+  <Preset Label="broadcaster_Stereo_RnB" Value="343311" />
+  <Preset Label="broadcaster_Stereo_Batuu" Value="346386" />
+  <Preset Label="broadcaster_HeatLamp_Radiator_On" Value="353699" />
+  <Preset Label="broadcaster_SmallAppliance_FireRisk_FuseBox" Value="354744" />
+  <Preset Label="broadcaster_DanceFloor_Danceable" Value="356063" />
+  <Preset Label="broadcaster_AirCon_On" Value="357733" />
+  <Preset Label="broadcaster_JealousyUpdates_PhysicalExclusivity" Value="362563" />
+  <Preset Label="broadcaster_ReactionToRomanticInteractions_SpecialNPC" Value="370444" />
+  <Preset Label="broadcaster_JealousyUpdates_WoohooExclusivity" Value="375432" />
+  <Preset Label="broadcaster_NoClustering_closet_reaction_giggle" Value="377401" />
+  <Preset Label="broadcaster_ReactionDeath_DrawNearby" Value="393933" />
+  <Preset Label="broadcaster_Reaction_KleptoTrait_StealingObject_Enhanced" Value="397872" />
+  <Preset Label="broadcaster_ReactionDeath_NewGhost" Value="400262" />
+  <Preset Label="broadcaster_AlarmClock" Value="400737" />
+  <Preset Label="broadcaster_AlarmClock_large" Value="402892" />
+  <Preset Label="broadcaster_ReactionDeath_TriggerReactionBuffs" Value="411796" />
+  <Preset Label="broadcaster_Burglar_Reaction" Value="422347" />
+  <Preset Label="broadcaster_Burglar_ComePickUpKid" Value="423346" />
+  <Preset Label="broadcaster_Burglar_Reaction_Objects" Value="424340" />
+  <Preset Label="broadcaster_Burglar_Reaction_NoThreat" Value="426977" />
+  <Preset Label="broadcaster_surpriseCake_nowBranch" Value="427542" />
+  <Preset Label="broadcaster_Statistic_GrouchTrait_Sabotage" Value="428631" />
+  <Preset Label="broadcaster_Reaction_Grouch_SabotageObject" Value="429002" />
+  <Preset Label="broadcaster_Reaction_GrouchTrait_WitnessSabotage" Value="429004" />
+  <Preset Label="broadcaster_Grouch_EmitAura" Value="429008" />
+  <Preset Label="broadcaster_BurglarAlarm_Trigger" Value="429872" />
+  <Preset Label="broadcaster_Grouch_EmitElderAura" Value="429883" />
+  <Preset Label="broadcaster_Reaction_Grouch_SabotageFood" Value="432281" />
+  <Preset Label="broadcaster_Burglar" Value="435037" />
+  <Preset Label="broadcaster_Stereo_NatureSounds" Value="443863" />
+  <Preset Label="broadcaster_HousePlants_DeadPlant" Value="445412" />
+  <Preset Label="broadcaster_BathroomOuthouse_Inside" Value="447636" />
 </PresetGroup>

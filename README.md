@@ -1,3 +1,5 @@
+This program has been retired except for emergency patch updates. See the following announcement for more information: https://zerbu.tumblr.com/post/763454354359533568/the-future-of-mod-constructor-semi-retired
+
 Download the latest version from Releases: https://github.com/Zerbu/Mod-Constructor-5/releases
 
 If you discover any bugs, please report them here: https://github.com/Zerbu/Mod-Constructor-5/issues

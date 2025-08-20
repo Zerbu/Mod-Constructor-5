@@ -1,0 +1,1120 @@
+<?xml version="1.0"?>
+<PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Interactions EP17">
+  <Preset Label="Select a Secret Ingredient (familyCreationItemPickerInteraction_Ingredient)" Tags="TestUnsafe" Value="370804" />
+  <Preset Label="Add a Special Touch (familyCreationItemPickerInteraction_Buff)" Tags="TestUnsafe" Value="370805" />
+  <Preset Label="Create a Family Recipe (famillyRecipe_Creation)" Value="370809" />
+  <Preset Label="Discuss Pottery Techniques (mixer_Social_DiscussPotteryTechniques_Targeted_Friendly_alwaysOn_PotterySkill)" Tags="TestUnsafe" Value="371130" />
+  <Preset Label="Activate Creative Aura (masteryPerk_Activate_AuraCreative)" Value="371215" />
+  <Preset Label="Craft New Ceramic (potteryWheel_StartCrafting)" Value="371785" />
+  <Preset Label="Select a Base Recipe (familyRecipePickerSuperInteraction)" Value="371804" />
+  <Preset Label="Activate Active Aura (masteryPerk_Activate_AuraActive)" Value="371971" />
+  <Preset Label="Activate Mental Aura (masteryPerk_Activate_AuraMental)" Value="371972" />
+  <Preset Label="Spacebend Here (teleportStyleSuperInteraction_MasteryPerk_Spacebender)" Value="371985" />
+  <Preset Label="Turn Off Aura Glow (immediate_MasteryPerk_ToggleAura)" Value="371988" />
+  <Preset Label="Add Mastery Perk (Debug) (traitPicker_MasteryPerk_Add_Debug)" Tags="TestUnsafe" Value="372000" />
+  <Preset Label="Drink (traitPicker_MasteryPerkRemover_Potion)" Tags="TestUnsafe" Value="372002" />
+  <Preset Label="Turn Off Powerful Performer Effects (immediate_MasteryPerk_TogglePowerfulPerformer)" Value="372014" />
+  <Preset Label="smallBusiness_Entry_Deliberate_Autonomous" Value="372056" />
+  <Preset Label="Buy Entry into {2.String} (ticketMachine_CheckIn_Autonomous)" Value="372066" />
+  <Preset Label="autonomous_ObjectPicker_TicketMachine" Tags="TestUnsafe" Value="372068" />
+  <Preset Label="Remove Mastery Perk (Debug) (traitPicker_MasteryPerk_Remove_Debug)" Tags="TestUnsafe" Value="372096" />
+  <Preset Label="Recurring Hourly Fee (ticketMachine_SetHourlyFee_Immediate)" Value="372385" />
+  <Preset Label="potteryWheel_Crafting_CreateObjectInSlot" Value="372467" />
+  <Preset Label="Resume {0.String} (craftingResume_PotteryWheel)" Value="372469" />
+  <Preset Label="Add Secret Spice (masteryPerk_AddSecretSpice)" Value="372759" />
+  <Preset Label="Deactivate Aura (masteryPerk_Disable_Aura)" Value="372897" />
+  <Preset Label="Chug the WUTANT! (si_SmallBusinessPerks_Dreamer_WutantBoost)" Value="373141" />
+  <Preset Label="Add Final Touch (masteryPerk_AddFinalTouch)" Value="373182" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_AspirationalCreator)" Value="373207" />
+  <Preset Label="Fake Bill Payment (bills_PayBills_FakeBillPayment)" Value="373376" />
+  <Preset Label="Fake Bill Payment (computer_PayBills_FakeBillPayment)" Value="373377" />
+  <Preset Label="Fake Bill Payment (mailboxWall_PayBills_FakeBillPayment)" Value="373378" />
+  <Preset Label="Fake Bill Payment (mailbox_PayBills_FakeBillPayment)" Value="373379" />
+  <Preset Label="ownableSmallBusiness_immediate_BuyFromUI" Value="373397" />
+  <Preset Label="Energy Failure (sim_EnergyFailure_WutantBoost)" Value="373496" />
+  <Preset Label="Fake Bill Payment (phone_PayBills_FakeBillPayment)" Value="373710" />
+  <Preset Label="Fake Bill Payment (tablet_PayBills_FakeBillPayment)" Value="373711" />
+  <Preset Label="Open {2.String} (si_SmallBusinessSystem_OpenCloseSign_Open)" Value="373882" />
+  <Preset Label="Close {2.String} (si_SmallBusinessSystem_OpenCloseSign_Close)" Value="373883" />
+  <Preset Label="Ask to be Bestowed Aspirational Creator (mixer_social_MasteryPerk_AskBestow_AspirationalCreator)" Tags="TestUnsafe" Value="373947" />
+  <Preset Label="Offer to Bestow Aspirational Creator (mixer_social_MasteryPerk_OfferBestow_AspirationalCreator)" Tags="TestUnsafe" Value="373951" />
+  <Preset Label="Ask to be Bestowed Aspirational Thinker (mixer_social_MasteryPerk_AskBestow_AspirationalThinker)" Tags="TestUnsafe" Value="373952" />
+  <Preset Label="Ask to be Bestowed Active Aura (mixer_social_MasteryPerk_AskBestow_AuraActive)" Tags="TestUnsafe" Value="373953" />
+  <Preset Label="Ask to be Bestowed Creative Aura (mixer_social_MasteryPerk_AskBestow_AuraCreative)" Tags="TestUnsafe" Value="373954" />
+  <Preset Label="Ask to be Bestowed Mental Aura (mixer_social_MasteryPerk_AskBestow_AuraMental)" Tags="TestUnsafe" Value="373955" />
+  <Preset Label="Ask to be Bestowed Final Touch (mixer_social_MasteryPerk_AskBestow_FinalTouch)" Tags="TestUnsafe" Value="373956" />
+  <Preset Label="Ask to be Bestowed In the Zone (mixer_social_MasteryPerk_AskBestow_InTheZone)" Tags="TestUnsafe" Value="373957" />
+  <Preset Label="Ask to be Bestowed Mental Muscles (mixer_social_MasteryPerk_AskBestow_MentalExercise)" Tags="TestUnsafe" Value="373958" />
+  <Preset Label="Ask to be Bestowed Pigeonholed (Active Skills) (mixer_social_MasteryPerk_AskBestow_PigeonholedActive)" Tags="TestUnsafe" Value="373959" />
+  <Preset Label="Ask to be Bestowed Pigeonholed (Creative Skills) (mixer_social_MasteryPerk_AskBestow_PigeonholedCreative)" Tags="TestUnsafe" Value="373960" />
+  <Preset Label="Ask to be Bestowed Pigeonholed (Mental Skills) (mixer_social_MasteryPerk_AskBestow_PigeonholedMental)" Tags="TestUnsafe" Value="373961" />
+  <Preset Label="Ask to be Bestowed Pigeonholed (Social Skills) (mixer_social_MasteryPerk_AskBestow_PigeonholedSocial)" Tags="TestUnsafe" Value="373962" />
+  <Preset Label="Ask to be Bestowed Powerful Performer (mixer_social_MasteryPerk_AskBestow_PowerfulPerformer)" Tags="TestUnsafe" Value="373963" />
+  <Preset Label="Ask to be Bestowed Second Wind (mixer_social_MasteryPerk_AskBestow_SecondWind)" Tags="TestUnsafe" Value="373964" />
+  <Preset Label="Ask to be Bestowed Secret Spice (mixer_social_MasteryPerk_AskBestow_SecretSpice)" Tags="TestUnsafe" Value="373965" />
+  <Preset Label="Ask to be Bestowed Skillful Sleep (mixer_social_MasteryPerk_AskBestow_SkillfulSleep)" Tags="TestUnsafe" Value="373966" />
+  <Preset Label="Ask to be Bestowed Spacebender (mixer_social_MasteryPerk_AskBestow_Spacebender)" Tags="TestUnsafe" Value="373967" />
+  <Preset Label="Ask to be Bestowed Stellar Stamina (mixer_social_MasteryPerk_AskBestow_StrongerWithAge)" Tags="TestUnsafe" Value="373968" />
+  <Preset Label="Offer to Bestow Aspirational Thinker (mixer_social_MasteryPerk_OfferBestow_AspirationalThinker)" Tags="TestUnsafe" Value="373969" />
+  <Preset Label="Offer to Bestow Active Aura (mixer_social_MasteryPerk_OfferBestow_AuraActive)" Tags="TestUnsafe" Value="373970" />
+  <Preset Label="Offer to Bestow Creative Aura (mixer_social_MasteryPerk_OfferBestow_AuraCreative)" Tags="TestUnsafe" Value="373971" />
+  <Preset Label="Offer to Bestow Mental Aura (mixer_social_MasteryPerk_OfferBestow_AuraMental)" Tags="TestUnsafe" Value="373972" />
+  <Preset Label="Offer to Bestow Final Touch (mixer_social_MasteryPerk_OfferBestow_FinalTouch)" Tags="TestUnsafe" Value="373973" />
+  <Preset Label="Offer to Bestow In the Zone (mixer_social_MasteryPerk_OfferBestow_InTheZone)" Tags="TestUnsafe" Value="373974" />
+  <Preset Label="Offer to Bestow Mental Muscles (mixer_social_MasteryPerk_OfferBestow_MentalExercise)" Tags="TestUnsafe" Value="373975" />
+  <Preset Label="Offer to Bestow Pigeonholed (mixer_social_MasteryPerk_OfferBestow_PigeonholedActive)" Tags="TestUnsafe" Value="373976" />
+  <Preset Label="Offer to Bestow Pigeonholed (mixer_social_MasteryPerk_OfferBestow_PigeonholedCreative)" Tags="TestUnsafe" Value="373977" />
+  <Preset Label="Offer to Bestow Pigeonholed (mixer_social_MasteryPerk_OfferBestow_PigeonholedMental)" Tags="TestUnsafe" Value="373978" />
+  <Preset Label="Offer to Bestow Pigeonholed (mixer_social_MasteryPerk_OfferBestow_PigeonholedSocial)" Tags="TestUnsafe" Value="373979" />
+  <Preset Label="Offer to Bestow Powerful Performer (mixer_social_MasteryPerk_OfferBestow_PowerfulPerformer)" Tags="TestUnsafe" Value="373980" />
+  <Preset Label="Offer to Bestow Second Wind (mixer_social_MasteryPerk_OfferBestow_SecondWind)" Tags="TestUnsafe" Value="373981" />
+  <Preset Label="Offer to Bestow Secret Spice (mixer_social_MasteryPerk_OfferBestow_SecretSpice)" Tags="TestUnsafe" Value="373982" />
+  <Preset Label="Offer to Bestow Skillful Sleep (mixer_social_MasteryPerk_OfferBestow_SkillfulSleep)" Tags="TestUnsafe" Value="373983" />
+  <Preset Label="Offer to Bestow Spacebender (mixer_social_MasteryPerk_OfferBestow_Spacebender)" Tags="TestUnsafe" Value="373984" />
+  <Preset Label="Offer to Bestow Stellar Stamina (mixer_social_MasteryPerk_OfferBestow_StrongerWithAge)" Tags="TestUnsafe" Value="373985" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_AspirationalThinker)" Value="373986" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_AuraActive)" Value="373987" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_AuraCreative)" Value="373988" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_AuraMental)" Value="373989" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_FinalTouch)" Value="373990" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_InTheZone)" Value="373991" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_MentalExercise)" Value="373992" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_PigeonholedActive)" Value="373993" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_PigeonholedCreative)" Value="373994" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_PigeonholedMental)" Value="373995" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_PigeonholedSocial)" Value="373996" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_PowerfulPerformer)" Value="373997" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_SecondWind)" Value="373998" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_SecretSpice)" Value="373999" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_SkillfulSleep)" Value="374000" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_Spacebender)" Value="374001" />
+  <Preset Label="Bestow Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_StrongerWithAge)" Value="374002" />
+  <Preset Label="Check Out of {2.String} (ticketMachine_CheckOut)" Value="374284" />
+  <Preset Label="One-Time Entrance Fee (ticketMachine_SetEntryFee_Immediate)" Value="374285" />
+  <Preset Label="Disable Ticket Sales (ticketMachine_DisableAttendanceFee_Immediate)" Value="374286" />
+  <Preset Label="Guarantee Valid Adventure Moments (Debug) (immediate_MasteryPerk_GuaranteeAdventure_Debug)" Value="374709" />
+  <Preset Label="Inspire with Business Story (social_SmallBusinessPerks_InspireWithBusinessStory)" Value="374969" />
+  <Preset Label="Increase Small Business Renown (smallBusiness_Cheat_Rank_Up)" Value="374991" />
+  <Preset Label="Decrease Small Business Renown (smallBusiness_Cheat_Rank_Down)" Value="374992" />
+  <Preset Label="Prepare a Family Recipe (startCraftingFamilyRecipeSuperInteraction)" Value="376055" />
+  <Preset Label="Remove Cooldowns (Debug) (immediate_MasteryPerk_RemoveCooldowns_Debug)" Value="376440" />
+  <Preset Label="Get Mail (immediate_MasteryPerk_Adventure_Debug)" Value="376531" />
+  <Preset Label="Register Small Business (computer_SmallBusinessSystem_Register)" Value="376935" />
+  <Preset Label="Sell {2.String} (computer_SmallBusinessSystem_Sell)" Value="376936" />
+  <Preset Label="Transfer {2.String} to (computer_SmallBusinessSystem_Transfer_Continuation)" Value="376937" />
+  <Preset Label="Groan about Tattooing (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Tattooing)" Tags="TestUnsafe" Value="376980" />
+  <Preset Label="Enthuse about Tattooing (socials_Targeted_Friendly_SimPreference_Recent_Likes_Tattooing)" Tags="TestUnsafe" Value="376981" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Activities_Tattooing" Value="376984" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Activities_Tattooing" Value="376985" />
+  <Preset Label="7.) Set Alignment to Virtuous (smallBusiness_Reputation_Cheat_7)" Value="377004" />
+  <Preset Label="1.) Set Alignment to Nefarious (smallBusiness_Reputation_Cheat_1)" Value="377005" />
+  <Preset Label="2.) Set Alignment to Underground (smallBusiness_Reputation_Cheat_2)" Value="377006" />
+  <Preset Label="3.) Set Alignment to Illicit (smallBusiness_Reputation_Cheat_3)" Value="377007" />
+  <Preset Label="4.) Set Alignment to Neutral (smallBusiness_Reputation_Cheat_4)" Value="377008" />
+  <Preset Label="5.) Set Alignment to Lawful (smallBusiness_Reputation_Cheat_5)" Value="377009" />
+  <Preset Label="6.) Set Alignment to Scrupulous (smallBusiness_Reputation_Cheat_6)" Value="377010" />
+  <Preset Label="Register Small Business (phone_SmallBusinessSystem_Register)" Value="377241" />
+  <Preset Label="Transfer {2.String} to (computer_Picker_SmallBusinessSystem_Transfer)" Tags="TestUnsafe" Value="377242" />
+  <Preset Label="Receive Mastery Perk (si_Touching_Social_MasteryPerk_Bestow_Target)" Value="377249" />
+  <Preset Label="Skillful Sleep (bed_Sleep_MasteryPerk_SkillfulSleep)" Value="377250" />
+  <Preset Label="sketchpad_Staging_Paint_TattooingDesign" Value="377730" />
+  <Preset Label="Craft Candy (candyMaker_StartCrafting)" Value="377735" />
+  <Preset Label="Craft Shocked Candy (candyMaker_StartCrafting_Shocked)" Value="377736" />
+  <Preset Label="Craft Candy (candyMaker_StartCrafting_RequiredIngredients)" Value="377737" />
+  <Preset Label="Craft Shocked Candy (candyMaker_StartCrafting_ShockedRequiredIngredients)" Value="377738" />
+  <Preset Label="Offer Tattoo to (simPickerInteraction_TattooingTable_Offer_Tattoo_Regular)" Tags="TestUnsafe" Value="378133" />
+  <Preset Label="generic_TattooingTable_RecipientBack" Value="378568" />
+  <Preset Label="generic_TattooingTable_Artist" Value="378569" />
+  <Preset Label="generic_TattooingTable_RecipientFront" Value="378578" />
+  <Preset Label="mixer_TattooingTable_Fart" Tags="TestUnsafe" Value="378592" />
+  <Preset Label="mixer_TattooingTable_Tattoo_Basic" Tags="TestUnsafe" Value="378593" />
+  <Preset Label="mixer_TattooingTable_PainBreak" Tags="TestUnsafe" Value="378594" />
+  <Preset Label="mixer_TattooingTable_Tattoo_SkillVariant" Tags="TestUnsafe" Value="378595" />
+  <Preset Label="candyMaker_StartCooking_JellyBean" Value="378618" />
+  <Preset Label="candyMaker_StartCooking_SwirlLolly" Value="378619" />
+  <Preset Label="candyMaker_StartCooking_CottonCandy" Value="378620" />
+  <Preset Label="Brilliant Birchwood (pottery_CeramicBurner_Light_Birchwood)" Value="378634" />
+  <Preset Label="Provoking Pinetree (pottery_CeramicBurner_Light_Pinetree)" Value="378635" />
+  <Preset Label="Lustful Lilac (pottery_CeramicBurner_Light_Lilac)" Value="378636" />
+  <Preset Label="Cozy Campfire (pottery_CeramicBurner_Light_Campfire)" Value="378640" />
+  <Preset Label="Energetic Elderflower (pottery_CeramicBurner_Light_Elderflower)" Value="378641" />
+  <Preset Label="Put out (pottery_CeramicBurner_Extinguish)" Value="378642" />
+  <Preset Label="candyMaker_CraftingSteps_ExtractBottle" Value="378933" />
+  <Preset Label="candyMaker_CraftingSteps_Idle_CottonCandy" Value="378934" />
+  <Preset Label="candyMaker_CraftingSteps_React" Value="378935" />
+  <Preset Label="candyMaker_CraftingSteps_Colorant" Value="378936" />
+  <Preset Label="candyMaker_StartCooking_CottonCandy_Child" Value="378937" />
+  <Preset Label="candyMaker_StartCooking_JellyBean_Child" Value="378938" />
+  <Preset Label="candyMaker_StartCooking_SwirlLolly_Child" Value="378939" />
+  <Preset Label="Offer Tattoo (tattooingDesignPicker_Offer_Regular)" Tags="TestUnsafe" Value="378963" />
+  <Preset Label="Give Tattoo (social_TattooingTable_Services_Tattooing_Regular_Front)" Value="378964" />
+  <Preset Label="Buy Entry into {2.String} (ticketMachine_CheckIn_Hourly)" Value="378972" />
+  <Preset Label="Listen to {1.SimFirstName} (social_TattooingTable_Reaction_Tattoo)" Value="378994" />
+  <Preset Label="Rebrand Small Business (computer_SmallBusiness_Rebranding)" Value="379351" />
+  <Preset Label="candyMaker_CraftingSteps_Colorant_Child" Value="379362" />
+  <Preset Label="candyMaker_CraftingSteps_ExtractBottle_Child" Value="379363" />
+  <Preset Label="candyMaker_CraftingSteps_Idle_CottonCandy_Child" Value="379364" />
+  <Preset Label="candyMaker_CraftingSteps_React_Child" Value="379365" />
+  <Preset Label="candyMaker_Staging_Jellybeans" Value="379381" />
+  <Preset Label="candyMaker_Staging_CottonCandy" Value="379382" />
+  <Preset Label="candyMaker_Staging_SwirlLolly" Value="379383" />
+  <Preset Label="Give Tattoo (social_TattooingTable_Services_Tattooing_Regular_Back)" Value="379387" />
+  <Preset Label="Give Tattoo (social_TattooingTable_Services_Tattooing_Regular_LeftLeg)" Value="379388" />
+  <Preset Label="Offer Tattoo (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Regular)" Tags="TestUnsafe" Value="379392" />
+  <Preset Label="Give Tattoo (social_TattooingTable_Services_Tattooing_Regular_RightLeg)" Value="379477" />
+  <Preset Label="Give Tattoo (social_TattooingTable_Services_Tattooing_Regular_LeftArm)" Value="379478" />
+  <Preset Label="Give Tattoo (social_TattooingTable_Services_Tattooing_Regular_RightArm)" Value="379479" />
+  <Preset Label="Get Tattoo (social_TattooingTable_Recipient_Back)" Value="379523" />
+  <Preset Label="Get Tattoo (social_TattooingTable_Recipient_Front)" Value="379524" />
+  <Preset Label="Sway Sim to Buy (social_c2a_SmallBusinessPerks_SwayToBuy_Ticket)" Value="379871" />
+  <Preset Label="Sway Sim to Buy (c2a_simPickerInteraction_SmallBusinessPerks_SwayToBuy_Ticket)" Tags="TestUnsafe" Value="379873" />
+  <Preset Label="Sway Sim to Buy (a2a_simPickerInteraction_SmallBusinessPerks_SwayToBuy_Ticket)" Tags="TestUnsafe" Value="379879" />
+  <Preset Label="Buy Entry into {2.String} (ticketMachine_CheckIn_Entry)" Value="380253" />
+  <Preset Label="Sway Sim to Buy (social_a2a_SmallBusinessPerks_SwayToBuy_Ticket)" Value="380263" />
+  <Preset Label="potteryWheel_Staging_InProgress" Value="380275" />
+  <Preset Label="Check Out Tattoos (mirror_Tattooing_CheckOut)" Value="380354" />
+  <Preset Label="Show Off Tattoos (mixer_Social_Tattooing_ShowOff_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="380365" />
+  <Preset Label="Ask to Show Off Tattoos (mixer_Social_Tattooing_AskToShowOff_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="380366" />
+  <Preset Label="Talk about Tattooing (mixer_Social_Tattooing_TalkAbout_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="380367" />
+  <Preset Label="potteryWheel_Mixer_Crafting" Value="380396" />
+  <Preset Label="potteryWheel_Mixer_SkillExpression" Value="380398" />
+  <Preset Label="Get Normal Tattoo (tattooingDesignPicker_Regular_Debug)" Tags="TestUnsafe" Value="380515" />
+  <Preset Label="debugImmediate_Tattooing_Apply" Value="380516" />
+  <Preset Label="Register Small Business (si_smallBusinessSystem_OpenCloseSign_Register)" Value="380685" />
+  <Preset Label="autonomous_ObjectPicker_TicketMachine_Checkout" Tags="TestUnsafe" Value="380719" />
+  <Preset Label="mixer_TattooingTable_PainBreak_Rare" Tags="TestUnsafe" Value="380777" />
+  <Preset Label="mixer_TattooingTable_PainBreak_Common" Tags="TestUnsafe" Value="380778" />
+  <Preset Label="Practice Tattooing with (simPickerInteraction_Tattooing_Practice)" Tags="TestUnsafe" Value="380946" />
+  <Preset Label="Practice Tattooing (social_TattooingTable_Practice_Front)" Value="380947" />
+  <Preset Label="potteryWheel_Crafting_CreateICOInSlot" Value="382101" />
+  <Preset Label="Scrap Ceramic (pottery_ScrapInProgress)" Value="382104" />
+  <Preset Label="Request Tattoo (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Regular)" Tags="TestUnsafe" Value="382139" />
+  <Preset Label="Request Tattoo from (simPickerInteraction_TattooingTable_Request_Tattoo_Regular)" Tags="TestUnsafe" Value="382159" />
+  <Preset Label="Request Tattoo (tattooingDesignPicker_Request_Regular)" Tags="TestUnsafe" Value="382160" />
+  <Preset Label="Ask to Practice Tattooing (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Practice)" Tags="TestUnsafe" Value="382335" />
+  <Preset Label="mixer_TattooingTable_Practice_Apply" Tags="TestUnsafe" Value="382721" />
+  <Preset Label="mixer_TattooingTable_Practice_Tattoo" Tags="TestUnsafe" Value="382723" />
+  <Preset Label="Offer Tattoo Removal (interactionPickerSuperInteraction_TattooingRemoval_Offer)" Tags="TestUnsafe" Value="382979" />
+  <Preset Label="Request Tattoo Removal (interactionPickerSuperInteraction_TattooingRemoval_Request)" Tags="TestUnsafe" Value="382980" />
+  <Preset Label="Offer Tattoo Removal to (simPickerInteraction_TattooingTable_Offer_Removal)" Tags="TestUnsafe" Value="382981" />
+  <Preset Label="Request Tattoo Removal from (simPickerInteraction_TattooingTable_Request_Removal)" Tags="TestUnsafe" Value="382982" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_Head)" Value="382984" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_ArmLowerLeft)" Value="382985" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_ArmLowerRight)" Value="382986" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_ArmUpperLeft)" Value="382987" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_ArmUpperRight)" Value="382988" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_LegLeft)" Value="382989" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_LegRight)" Value="383000" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_Chest)" Value="383001" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_Stomach)" Value="383002" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_BackLower)" Value="383003" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_BackUpper)" Value="383004" />
+  <Preset Label="Remove Tattoo (social_TattooingTable_Services_Removal_All)" Value="383005" />
+  <Preset Label="mixer_TattooingTable_Removal_PainBreak_Normal" Tags="TestUnsafe" Value="383065" />
+  <Preset Label="mixer_TattooingTable_Removal_PainBreak_Common" Tags="TestUnsafe" Value="383066" />
+  <Preset Label="mixer_TattooingTable_Removal_PainBreak_Rare" Tags="TestUnsafe" Value="383067" />
+  <Preset Label="mixer_TattooingTable_Removal_Fart" Tags="TestUnsafe" Value="383068" />
+  <Preset Label="mixer_TattooingTable_Removal_Erase" Tags="TestUnsafe" Value="383069" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_Head)" Tags="TestUnsafe" Value="383072" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_ArmLowerLeft)" Tags="TestUnsafe" Value="383073" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_ArmLowerRight)" Tags="TestUnsafe" Value="383074" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_ArmUpperLeft)" Tags="TestUnsafe" Value="383075" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_ArmUpperRight)" Tags="TestUnsafe" Value="383076" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_LegLeft)" Tags="TestUnsafe" Value="383077" />
+  <Preset Label="candyMaker_CraftingSteps_Child_PourBoth" Value="383080" />
+  <Preset Label="candyMaker_CraftingSteps_PourBoth" Value="383081" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_LegRight)" Tags="TestUnsafe" Value="383108" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_Chest)" Tags="TestUnsafe" Value="383109" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_Stomach)" Tags="TestUnsafe" Value="383110" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_BackLower)" Tags="TestUnsafe" Value="383111" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_BackUpper)" Tags="TestUnsafe" Value="383112" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_Head)" Tags="TestUnsafe" Value="383113" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_ArmLowerLeft)" Tags="TestUnsafe" Value="383114" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_ArmLowerRight)" Tags="TestUnsafe" Value="383115" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_ArmUpperLeft)" Tags="TestUnsafe" Value="383116" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_ArmUpperRight)" Tags="TestUnsafe" Value="383117" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_LegLeft)" Tags="TestUnsafe" Value="383118" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_LegRight)" Tags="TestUnsafe" Value="383119" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_Chest)" Tags="TestUnsafe" Value="383120" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_Stomach)" Tags="TestUnsafe" Value="383121" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_BackLower)" Tags="TestUnsafe" Value="383122" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_BackUpper)" Tags="TestUnsafe" Value="383123" />
+  <Preset Label="Offer Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Removal_All)" Tags="TestUnsafe" Value="383124" />
+  <Preset Label="Request Tattoo Removal (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Removal_All)" Tags="TestUnsafe" Value="383125" />
+  <Preset Label="Listen to {1.SimFirstName} (social_TattooingTable_Reaction_Removal)" Value="383471" />
+  <Preset Label="idle_Buff_CandyMaker_Giggles" Value="383480" />
+  <Preset Label="candyMaker_CreateFinal_CottonCandy" Value="383483" />
+  <Preset Label="candyMaker_CreateFinal_SwirlLolly" Value="383484" />
+  <Preset Label="candyMaker_CreateFinal_Jellybeans" Value="383485" />
+  <Preset Label="candyMaker_CreateFinal_Child_CottonCandy" Value="383486" />
+  <Preset Label="candyMaker_CreateFinal_Child_SwirlLolly" Value="383487" />
+  <Preset Label="candyMaker_CreateFinal_Child_Jellybeans" Value="383488" />
+  <Preset Label="candyMaker_StartCraftingAutonomously_RequiredIngredients" Value="383490" />
+  <Preset Label="candyMaker_StartCraftingAutonomously" Value="383491" />
+  <Preset Label="masteryPerk_RunCloneSituation" Value="383547" />
+  <Preset Label="Open {2.String} (ticketMachine_SmallBusiness_Open)" Value="383669" />
+  <Preset Label="Close {2.String} (ticketMachine_SmallBusiness_Close)" Value="383670" />
+  <Preset Label="Tend Tattoo Table (si_TattooingTable_Tend_UserDirected)" Value="383848" />
+  <Preset Label="Wait for Pet (si_GoNearObject_TattooingTableTend)" Value="383850" />
+  <Preset Label="buffIdles_TattooingTableTend_Phone" Value="383863" />
+  <Preset Label="buffIdles_TattooingTableTend_Read" Value="383867" />
+  <Preset Label="Tend Tattoo Table (si_TattooingTable_Tend_Autonomous)" Value="383880" />
+  <Preset Label="Practice Tattooing (social_TattooingTable_Practice_Back)" Value="383920" />
+  <Preset Label="Practice Tattooing (social_TattooingTable_Practice_LeftLeg)" Value="383921" />
+  <Preset Label="Practice Tattooing (social_TattooingTable_Practice_RightLeg)" Value="383925" />
+  <Preset Label="Ask to Be {1.SimFirstName}'s Mentee (mixer_Social_Targeted_Friendly_Mentorship_AskFor)" Tags="TestUnsafe" Value="384034" />
+  <Preset Label="Ask to Be {1.SimFirstName}'s Mentee (mixer_Social_Targeted_Friendly_Mentorship_AskFor_NPC)" Tags="TestUnsafe" Value="384035" />
+  <Preset Label="Offer to Be {1.SimFirstName}'s Mentor (mixer_Social_Targeted_Friendly_Mentorship_Offer)" Tags="TestUnsafe" Value="384036" />
+  <Preset Label="Offer to Be {1.SimFirstName}'s Mentor (mixer_Social_Targeted_Friendly_Mentorship_Offer_NPC)" Tags="TestUnsafe" Value="384037" />
+  <Preset Label="End Mentorship (mixer_Social_Targeted_Friendly_Mentorship_End)" Tags="TestUnsafe" Value="384038" />
+  <Preset Label="End Mentorship (mixer_Social_Targeted_Friendly_Mentorship_End_NPC)" Tags="TestUnsafe" Value="384040" />
+  <Preset Label="immediate_TattooingTable_NPCRequestTattoo" Value="384321" />
+  <Preset Label="immediateSI_TattooingTable_Practice_Randomizer" Value="384340" />
+  <Preset Label="Request Tattoo (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Regular_NPCtoActiveSim)" Tags="TestUnsafe" Value="384588" />
+  <Preset Label="Tattoo Request (tattooingDesignPicker_Request_RegularNPCtoActiveSim)" Tags="TestUnsafe" Value="384589" />
+  <Preset Label="idle_Buff_CeramicBurner_SmellAroma" Value="384592" />
+  <Preset Label="Smell the Aroma (pottery_CeramicBurner_Smell)" Value="384594" />
+  <Preset Label="mixer_TattooingTable_Practice_Remove" Tags="TestUnsafe" Value="384904" />
+  <Preset Label="Place Flower in Vase (objectInInventoryPicker_Pottery_SelectFlowerForVase)" Tags="TestUnsafe" Value="384968" />
+  <Preset Label="Place Flower in Vase (pottery_CeramicVases_PlaceFlower)" Value="385008" />
+  <Preset Label="Offer Custom Tattoo to (simPickerInteraction_TattooingTable_Offer_Tattoo_Custom)" Tags="TestUnsafe" Value="385366" />
+  <Preset Label="Request Custom Tattoo from (simPickerInteraction_TattooingTable_Request_Tattoo_Custom)" Tags="TestUnsafe" Value="385367" />
+  <Preset Label="Request Custom Tattoo (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Custom)" Tags="TestUnsafe" Value="385376" />
+  <Preset Label="Offer Custom Tattoo (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_Custom)" Tags="TestUnsafe" Value="385377" />
+  <Preset Label="Give Tattoo (social_TattooingTable_Services_Tattooing_Custom_Start)" Value="385384" />
+  <Preset Label="Give Tattoo (social_TattooingTable_Services_Tattooing_Custom_End)" Value="385385" />
+  <Preset Label="Remove Flower from Vase (pottery_CeramicVases_RemoveFlower)" Value="387012" />
+  <Preset Label="Tattoo Design (sketchpad_craft_userdirected_TattooingDesign)" Value="387025" />
+  <Preset Label="Tattoo Design (sketchpad_craft_autonomously_TattooingDesign)" Value="387026" />
+  <Preset Label="Tattoo Design (§50) (sketchpad_CraftTattooingDesign)" Value="387028" />
+  <Preset Label="sketchpad_CraftingStep_TattooingDesign" Value="387045" />
+  <Preset Label="Offer Dedication Tattoo (tattooingMultiPickerInteraction_RegularSentimental_Offer)" Tags="TestUnsafe" Value="387222" />
+  <Preset Label="Request Dedication Tattoo (tattooingMultiPickerInteraction_RegularSentimental_Request)" Tags="TestUnsafe" Value="387223" />
+  <Preset Label="Offer Dedication Tattoo to (simPickerInteraction_TattooingTable_Offer_Tattoo_RegularSentimental)" Tags="TestUnsafe" Value="387224" />
+  <Preset Label="Request Dedication Tattoo from (simPickerInteraction_TattooingTable_Request_Tattoo_RegularSentimental)" Tags="TestUnsafe" Value="387225" />
+  <Preset Label="Select Tattoo Design (tattooingDesignPicker_Request_RegularSentimental)" Tags="TestUnsafe" Value="387235" />
+  <Preset Label="Select Tattoo Design (tattooingDesignPicker_Offer_RegularSentimental)" Tags="TestUnsafe" Value="387236" />
+  <Preset Label="Dedicate Tattoo to (simPickerInteraction_Tattooing_SentimentalTarget_Request_RegularSentimental)" Tags="TestUnsafe" Value="387240" />
+  <Preset Label="Dedicate Tattoo to (simPickerInteraction_Tattooing_SentimentalTarget_Offer_RegularSentimental)" Tags="TestUnsafe" Value="387241" />
+  <Preset Label="Offer Custom Dedication Tattoo (simPickerInteraction_Tattooing_SentimentalTarget_Offer_CustomSentimental)" Tags="TestUnsafe" Value="387242" />
+  <Preset Label="Request Custom Dedication Tattoo (simPickerInteraction_Tattooing_SentimentalTarget_Request_CustomSentimental)" Tags="TestUnsafe" Value="387243" />
+  <Preset Label="Offer Tattoo (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_RegularSentimental)" Tags="TestUnsafe" Value="387244" />
+  <Preset Label="Share Nordhaven Noise (socials_Targeted_Friendly_AlwaysOn_STC_EP18World_Secret)" Tags="TestUnsafe" Value="387246" />
+  <Preset Label="Offer Tattoo (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_CustomSentimental)" Tags="TestUnsafe" Value="387255" />
+  <Preset Label="Request Tattoo (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_RegularSentimental)" Tags="TestUnsafe" Value="387256" />
+  <Preset Label="Request Tattoo (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_CustomSentimental)" Tags="TestUnsafe" Value="387257" />
+  <Preset Label="Offer Custom Dedication Tattoo to (simPickerInteraction_TattooingTable_Offer_Tattoo_CustomSentimental)" Tags="TestUnsafe" Value="387258" />
+  <Preset Label="Request Custom Dedication Tattoo from (simPickerInteraction_TattooingTable_Request_Tattoo_CustomSentimental)" Tags="TestUnsafe" Value="387259" />
+  <Preset Label="Give Tattoo (social_TattooingTable_Services_Tattooing_Custom_Middle)" Value="387611" />
+  <Preset Label="Glaze Ceramic from Inventory (objectInInventoryPicker_Pottery_Glazing_ChooseObject_KilnStart)" Tags="TestUnsafe" Value="387623" />
+  <Preset Label="Glaze (pottery_Glaze_PrepKiln)" Value="387681" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_RoundVase)" Tags="TestUnsafe" Value="387684" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_CandleLantern)" Tags="TestUnsafe" Value="387685" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_PlanterPot)" Tags="TestUnsafe" Value="387686" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_CakeStand)" Tags="TestUnsafe" Value="387687" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_WallCandleHolder)" Tags="TestUnsafe" Value="387688" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_OilBurner)" Tags="TestUnsafe" Value="387689" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_GnomeSculpture)" Tags="TestUnsafe" Value="387722" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_IncenseBurner)" Tags="TestUnsafe" Value="387723" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_RaccoonVase)" Tags="TestUnsafe" Value="387724" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_IntricateVase)" Tags="TestUnsafe" Value="387725" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_AbstractSculpture)" Tags="TestUnsafe" Value="387726" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_RomanticSculpture)" Tags="TestUnsafe" Value="387727" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_AbstractWallSculpture)" Tags="TestUnsafe" Value="387728" />
+  <Preset Label="Ask about Feud with the Lodens (socials_Targeted_Friendly_AlwaysOn_STC_EP18World_Ask_About_Lodens)" Tags="TestUnsafe" Value="388149" />
+  <Preset Label="Ask about Feud with the Hoffmans (socials_Targeted_Friendly_AlwaysOn_STC_EP18World_Ask_About_Hoffmans)" Tags="TestUnsafe" Value="388150" />
+  <Preset Label="Ask about Ollie's Parents (socials_Targeted_Friendly_AlwaysOn_STC_EP18World_Ask_About_Ollies_Parent)" Tags="TestUnsafe" Value="388151" />
+  <Preset Label="Check {0.SimFirstName}'s Tattoos (immediate_Tattooing_ShowTattooData)" Value="388539" />
+  <Preset Label="Sell {2.String} (phone_SmallBusinessSystem_Sell)" Value="388753" />
+  <Preset Label="Sell {2.String} (si_smallBusinessSystem_OpenCloseSign_Sell)" Value="388754" />
+  <Preset Label="masteryPerk_SkillfulSleep_GoToLeave" Value="388934" />
+  <Preset Label="Open Package (immediateSI_Mentorship_OpenGift)" Value="388937" />
+  <Preset Label="candyMaker_CraftingSteps_Idle_Jellybeans_Child" Value="389151" />
+  <Preset Label="candyMaker_CraftingSteps_Idle_SwirlLolly_Child" Value="389152" />
+  <Preset Label="candyMaker_CraftingSteps_Idle_Jellybeans" Value="389153" />
+  <Preset Label="candyMaker_CraftingSteps_Idle_SwirlLolly" Value="389154" />
+  <Preset Label="immediate_MasteryPerk_SkillfulSleep_FindCounterCont" Value="389318" />
+  <Preset Label="autonomous_ObjectPicker_MasteryPerk_SkillfulSleep_FindCounter" Tags="TestUnsafe" Value="389320" />
+  <Preset Label="candyMaker_CraftingSteps_Idle_CottonCandy_Shocked" Value="389537" />
+  <Preset Label="candyMaker_CraftingSteps_Idle_Jellybeans_Shocked" Value="389538" />
+  <Preset Label="candyMaker_CraftingSteps_Idle_SwirlLolly_Shocked" Value="389539" />
+  <Preset Label="pottery_Glazing_PreChooseGlaze_KilnStart" Value="389917" />
+  <Preset Label="Transfer {2.String} to {1.SimName} (mixer_Social_TransferSmallBusinessTo_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="390218" />
+  <Preset Label="Transfer {2.String} to {1.SimName} (mixer_Social_TransferSmallBusinessTo_Targeted_Friendly_Continuation)" Tags="TestUnsafe" Value="390219" />
+  <Preset Label="Break Ceramic (pottery_BreakObject_OnSurface)" Value="390440" />
+  <Preset Label="Open Package (mentorship_OpenGift)" Value="390605" />
+  <Preset Label="Mentor {2.String} (mentor_Skill_Tattooing)" Value="390785" />
+  <Preset Label="mentorMixers_Tattooing" Value="390787" />
+  <Preset Label="Repair Ceramic (pottery_Repair_StartObject)" Value="390804" />
+  <Preset Label="masteryPerk_SkillfulSleep_NoWork" Value="390873" />
+  <Preset Label="masteryPerk_SkillfulSleep_AutonomyPing" Value="390874" />
+  <Preset Label="Stop Skillful Sleep Projection (immediate_MasteryPerk_SkillfulSleep_MakeCloneLeave)" Value="390943" />
+  <Preset Label="autonomous_ObjectPicker_MasteryPerk_SkillfulSleep_FindStoveOrGrill" Tags="TestUnsafe" Value="390947" />
+  <Preset Label="Get Poor Tattoo (debugImmediate_Tattooing_Apply_Poor)" Value="391280" />
+  <Preset Label="Get Excellent Tattoo (debugImmediate_Tattooing_Apply_Excellent)" Value="391281" />
+  <Preset Label="Get Normal Dedication Tattoo (tattooingMultiPickerInteraction_RegularSentimental_Debug_Normal)" Tags="TestUnsafe" Value="391282" />
+  <Preset Label="Get Poor Dedication Tattoo (tattooingMultiPickerInteraction_RegularSentimental_Debug_Poor)" Tags="TestUnsafe" Value="391283" />
+  <Preset Label="Get Excellent Dedication Tattoo (tattooingMultiPickerInteraction_RegularSentimental_Debug_Excellent)" Tags="TestUnsafe" Value="391284" />
+  <Preset Label="Get Poor Tattoo (tattooingDesignPicker_Regular_Debug_Poor)" Tags="TestUnsafe" Value="391286" />
+  <Preset Label="Get Excellent Tattoo (tattooingDesignPicker_Regular_Debug_Excellent)" Tags="TestUnsafe" Value="391289" />
+  <Preset Label="Paint (sketchpad_NPCPractice_Tattoo)" Value="391387" />
+  <Preset Label="Craft Ceramic (pottery_NPCPractice_Start)" Value="391389" />
+  <Preset Label="Craft Ceramic (pottery_NPCPractice_Cont)" Value="391456" />
+  <Preset Label="View Family Recipes (notebook_View_FamilyRecipes)" Value="392611" />
+  <Preset Label="Teach Family Recipe (familyRecipesMultiPickerInteraction_TeachFamilyRecipes)" Tags="TestUnsafe" Value="392612" />
+  <Preset Label="reactions_SmallBusinessSystem_Register_Excited" Value="393074" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Tattooing_Sketchpad)" Tags="TestUnsafe" Value="393127" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Tattooing_Table)" Tags="TestUnsafe" Value="393128" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Tattooing_Sketchpad)" Tags="TestUnsafe" Value="393129" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Tattooing_Table)" Tags="TestUnsafe" Value="393130" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Tattooing_Sketchpad)" Tags="TestUnsafe" Value="393131" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Tattooing_Table)" Tags="TestUnsafe" Value="393132" />
+  <Preset Label="simPicker_Mentoring_AskFor_Tattooing_Sketchpad" Tags="TestUnsafe" Value="393136" />
+  <Preset Label="simPicker_Mentoring_AskFor_Tattooing_Table" Tags="TestUnsafe" Value="393137" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_Tattooing_Sketchpad" Tags="TestUnsafe" Value="393140" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_Tattooing_Table" Tags="TestUnsafe" Value="393141" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_Tattooing_Sketchpad" Tags="TestUnsafe" Value="393142" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_Tattooing_Table" Tags="TestUnsafe" Value="393143" />
+  <Preset Label="Select Sim to Practice on (simPickerInteraction_Tattooing_Practice_Mentoring)" Tags="TestUnsafe" Value="393145" />
+  <Preset Label="autonomousSimPicker_Mentorship_NPCAskOfferEnd" Tags="TestUnsafe" Value="393220" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_ListenToLecture" Value="394107" />
+  <Preset Label="Spray Ceramic (pottery_Glaze_Spray)" Value="394315" />
+  <Preset Label="Place Ceramic in Kiln (pottery_Glaze_BenchToKiln)" Value="394316" />
+  <Preset Label="Wait for Ceramic to Finish Firing (pottery_Glaze_Wait)" Value="394317" />
+  <Preset Label="Remove Ceramic from Kiln (pottery_Glaze_KilnToBench)" Value="394318" />
+  <Preset Label="Glaze (pottery_Glaze_GlazeObject)" Value="394587" />
+  <Preset Label="pottery_Glazing_PreChooseGlaze_ObjectStart" Value="394589" />
+  <Preset Label="Glaze (pottery_Glaze_InventoryToKiln)" Value="394751" />
+  <Preset Label="Glaze (autonomous_ObjectPicker_PotteryKiln)" Tags="TestUnsafe" Value="394753" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_CollectCeramicForGlazing)" Value="394754" />
+  <Preset Label="Remove Ceramic from Kiln (pottery_Glaze_RemoveObjectFromKiln)" Value="394755" />
+  <Preset Label="Resume Glazing (pottery_Glaze_Resume)" Value="394901" />
+  <Preset Label="Buy a Small Business Venue Lot (phone_BuyOwnableSmallBusinessVenue)" Value="394961" />
+  <Preset Label="map_Picker_BuyOwnableSmallBusinessVenue" Tags="TestUnsafe" Value="394962" />
+  <Preset Label="ownableSmallBusinessVenue_Immediate_SetLotOwner" Value="394963" />
+  <Preset Label="Practice Tattooing with (autonomousSimPicker_TattooingTable_Practice)" Tags="TestUnsafe" Value="395245" />
+  <Preset Label="pottery_Repair_Save_FromObject" Value="395553" />
+  <Preset Label="pottery_Repair_Save_FromWheel" Value="395554" />
+  <Preset Label="Repair Ceramic (pottery_Repair_PrepWheel)" Value="395555" />
+  <Preset Label="Repair (objectInInventoryPicker_Pottery_Repair_ChooseObject)" Tags="TestUnsafe" Value="395556" />
+  <Preset Label="Put in Inventory (si_SwipeIntoSimInventory_CollectCeramicForRepair)" Value="395557" />
+  <Preset Label="Repair Ceramic (pottery_Repair_MainStaging)" Value="395558" />
+  <Preset Label="Repair Ceramic (pottery_Repair_InventoryToWheel)" Value="395559" />
+  <Preset Label="Check Current Meetup (immediate_HobbyMeetup_CheckCurrent)" Value="395619" />
+  <Preset Label="Munch &amp; Mingle (immediate_HobbyMeetup_Info_FoodDrink)" Value="395712" />
+  <Preset Label="Creative Cowork (immediate_HobbyMeetup_Info_Creative)" Value="395713" />
+  <Preset Label="Writers &amp; Readers (immediate_HobbyMeetup_Info_Books)" Value="395714" />
+  <Preset Label="Pottery &amp; Pals (immediate_HobbyMeetup_Info_Pottery)" Value="395715" />
+  <Preset Label="Sweat &amp; Socialize (immediate_HobbyMeetup_Info_Fitness)" Value="395716" />
+  <Preset Label="Spotlight Stars (immediate_HobbyMeetup_Info_Peformer)" Value="395718" />
+  <Preset Label="Galactic Gambits (immediate_HobbyMeetup_Info_Logic)" Value="395719" />
+  <Preset Label="Check Next Meetup (immediate_HobbyMeetup_CheckNext)" Value="395720" />
+  <Preset Label="Good Company Store (purchasePicker_ShadyNPC)" Tags="TestUnsafe" Value="395834" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Charisma)" Value="395951" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Gardening)" Value="395952" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Handiness)" Value="395953" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Bartending)" Value="395964" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_VideoGaming)" Value="395965" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Comedy)" Value="395966" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Painting)" Value="395967" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Writing)" Value="395968" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Fishing)" Value="395969" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_GourmetCooking)" Value="395980" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_HomestyleCooking)" Value="395981" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Logic)" Value="395982" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Programming)" Value="395983" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_RocketScience)" Value="395984" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Mischief)" Value="395985" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Guitar)" Value="395986" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Piano)" Value="395987" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Violin)" Value="395988" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Fitness)" Value="395989" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Photography)" Value="395990" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Tattooing)" Value="395991" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Pottery)" Value="395992" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Charisma)" Tags="TestUnsafe" Value="395999" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Gardening)" Tags="TestUnsafe" Value="396000" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Handiness)" Tags="TestUnsafe" Value="396001" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Bartending)" Tags="TestUnsafe" Value="396012" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_VideoGaming)" Tags="TestUnsafe" Value="396013" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Comedy)" Tags="TestUnsafe" Value="396014" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Painting)" Tags="TestUnsafe" Value="396015" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Writing)" Tags="TestUnsafe" Value="396016" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Fishing)" Tags="TestUnsafe" Value="396017" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_GourmetCooking)" Tags="TestUnsafe" Value="396018" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_HomestyleCooking)" Tags="TestUnsafe" Value="396019" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Logic)" Tags="TestUnsafe" Value="396020" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Programming)" Tags="TestUnsafe" Value="396021" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_RocketScience)" Tags="TestUnsafe" Value="396022" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Mischief)" Tags="TestUnsafe" Value="396023" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Guitar)" Tags="TestUnsafe" Value="396024" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Piano)" Tags="TestUnsafe" Value="396025" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Violin)" Tags="TestUnsafe" Value="396026" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Fitness)" Tags="TestUnsafe" Value="396027" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Photography)" Tags="TestUnsafe" Value="396028" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Tattooing)" Tags="TestUnsafe" Value="396029" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Pottery)" Tags="TestUnsafe" Value="396030" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Charisma)" Value="396033" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Gardening)" Value="396034" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Handiness)" Value="396035" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Bartending)" Value="396036" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_VideoGaming)" Value="396037" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Comedy)" Value="396038" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Painting)" Value="396039" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Writing)" Value="396040" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Fishing)" Value="396041" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_GourmetCooking)" Value="396042" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_HomestyleCooking)" Value="396043" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Logic)" Value="396044" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Programming)" Value="396045" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_RocketScience)" Value="396046" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Mischief)" Value="396047" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Guitar)" Value="396048" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Piano)" Value="396049" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Violin)" Value="396050" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Fitness)" Value="396051" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Photography)" Value="396052" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Tattooing)" Value="396053" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Pottery)" Value="396054" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Charisma)" Value="396101" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Gardening)" Value="396102" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Handiness)" Value="396103" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Bartending)" Value="396104" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_VideoGaming)" Value="396105" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Comedy)" Value="396106" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Painting)" Value="396118" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Writing)" Value="396119" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Fishing)" Value="396120" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_GourmetCooking)" Value="396121" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_HomestyleCooking)" Value="396122" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Logic)" Value="396123" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Programming)" Value="396124" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_RocketScience)" Value="396125" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Mischief)" Value="396126" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Guitar)" Value="396127" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Piano)" Value="396128" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Violin)" Value="396129" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Fitness)" Value="396130" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Photography)" Value="396131" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Tattooing)" Value="396132" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Pottery)" Value="396133" />
+  <Preset Label="Ask to Embrace the Shade (mixer_social_Shady_ConvertToShady_Targeted_Mischief_alwaysOn)" Tags="TestUnsafe" Value="396702" />
+  <Preset Label="Throw Shade (mixer_social_Shady_ThrowShade_Targeted_Mischief_alwaysOn)" Tags="TestUnsafe" Value="396704" />
+  <Preset Label="Boast about Exploits (mixer_social_Shady_FlexAboutShadySuccess_Targeted_Mischief_alwaysOn)" Tags="TestUnsafe" Value="396706" />
+  <Preset Label="idle_Buff_SimPreference_Dislikes_Activities_Pottery" Value="396967" />
+  <Preset Label="idle_Buff_SimPreference_Likes_Activities_Pottery" Value="396968" />
+  <Preset Label="Groan about Pottery (socials_Targeted_Friendly_SimPreference_Recent_Dislikes_Pottery)" Tags="TestUnsafe" Value="397042" />
+  <Preset Label="Enthuse about Pottery (socials_Targeted_Friendly_SimPreference_Recent_Likes_Pottery)" Tags="TestUnsafe" Value="397043" />
+  <Preset Label="Ask to See Wares (mixer_social_ShadyNPC_AskToSeeWares)" Tags="TestUnsafe" Value="397087" />
+  <Preset Label="shadyNPC_CreateCandyToEat" Value="397105" />
+  <Preset Label="shadyNPC_CreateTrash" Value="397107" />
+  <Preset Label="Play In (play_In_Trash_Pile_ShadyNPC)" Value="397108" />
+  <Preset Label="Scavenge for Parts (trash_scavenge_ShadyNPC)" Value="397109" />
+  <Preset Label="idle_Buff_ShadyNPC" Value="397110" />
+  <Preset Label="Supports Large and X-Large Curved Walls (mixer_social_ShadyNPC_TargetPlayer_Steal)" Tags="TestUnsafe" Value="397111" />
+  <Preset Label="Supports Large and X-Large Curved Walls (mixer_social_ShadyNPC_TargetPlayer_Gift)" Tags="TestUnsafe" Value="397112" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Charisma)" Value="397199" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Gardening)" Value="397200" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Handiness)" Value="397201" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Bartending)" Value="397202" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_VideoGaming)" Value="397203" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Comedy)" Value="397204" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Painting)" Value="397205" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Writing)" Value="397206" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Fishing)" Value="397217" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_GourmetCooking)" Value="397218" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_HomestyleCooking)" Value="397219" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Logic)" Value="397220" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Programming)" Value="397221" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_RocketScience)" Value="397222" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Mischief)" Value="397223" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Guitar)" Value="397224" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Piano)" Value="397225" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Violin)" Value="397226" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Fitness)" Value="397227" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Photography)" Value="397228" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Tattooing)" Value="397229" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Pottery)" Value="397230" />
+  <Preset Label="immediateSuperInteraction_BusinessEvents_ChanceCards" Value="397581" />
+  <Preset Label="Unlock All Family Recipes (Debug) (Cheat_FamilyRecipes_UnlockAllBuffs)" Value="397773" />
+  <Preset Label="Travel to Meetup (goToSpecificLot_HobbyMeetup_OldTown)" Value="398161" />
+  <Preset Label="Travel to Meetup (goToSpecificLot_HobbyMeetup_NewTown)" Value="398162" />
+  <Preset Label="Ask about Missing Simoleons (mixer_social_ShadyNPC_AskAboutSimoleons)" Tags="TestUnsafe" Value="398362" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Bartending" Tags="TestUnsafe" Value="398516" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Comedy" Tags="TestUnsafe" Value="398517" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Fitness" Tags="TestUnsafe" Value="398518" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Gardening" Tags="TestUnsafe" Value="398519" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_GourmetCooking" Tags="TestUnsafe" Value="398520" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Guitar" Tags="TestUnsafe" Value="398521" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Handiness" Tags="TestUnsafe" Value="398522" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_HomestyleCooking" Tags="TestUnsafe" Value="398523" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Painting" Tags="TestUnsafe" Value="398524" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Programming" Tags="TestUnsafe" Value="398525" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_RocketScience" Tags="TestUnsafe" Value="398526" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Tattooing" Tags="TestUnsafe" Value="398527" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Writing" Tags="TestUnsafe" Value="398528" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Charisma" Tags="TestUnsafe" Value="398545" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Fishing" Tags="TestUnsafe" Value="398546" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Logic" Tags="TestUnsafe" Value="398547" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Mischief" Tags="TestUnsafe" Value="398548" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Photography" Tags="TestUnsafe" Value="398549" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Piano" Tags="TestUnsafe" Value="398550" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Pottery" Tags="TestUnsafe" Value="398551" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_VideoGaming" Tags="TestUnsafe" Value="398552" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Violin" Tags="TestUnsafe" Value="398553" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Charisma)" Value="398559" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Gardening)" Value="398560" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Handiness)" Value="398561" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Bartending)" Value="398562" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_VideoGaming)" Value="398563" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Comedy)" Value="398564" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Painting)" Value="398565" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Writing)" Value="398566" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Fishing)" Value="398567" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_GourmetCooking)" Value="398568" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_HomestyleCooking)" Value="398569" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Logic)" Value="398570" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Programming)" Value="398571" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_RocketScience)" Value="398572" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Mischief)" Value="398573" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Guitar)" Value="398574" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Piano)" Value="398575" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Violin)" Value="398576" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Fitness)" Value="398577" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Photography)" Value="398578" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Tattooing)" Value="398579" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Pottery)" Value="398580" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Baking)" Value="398581" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Singing)" Value="398582" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_FlowerArranging)" Value="398583" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_ResearchDebate)" Value="398584" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Robotics)" Value="398585" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Fabrication)" Value="398586" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_PipeOrgan)" Value="398587" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Knitting)" Value="398588" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Dancing)" Value="398589" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Equestrian)" Value="398590" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Wellness)" Value="398591" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_VampireLore)" Value="398592" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Gemology)" Value="398593" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Skiing)" Value="398594" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Snowboarding)" Value="398595" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Bowling)" Value="398596" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_RockClimbing)" Value="398597" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_CrossStitch)" Value="398598" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_RanchNectar)" Value="398599" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_JuiceFizzing)" Value="398600" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Archaeology)" Value="398601" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Herbalism)" Value="398602" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Medium)" Value="398603" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Thanatology)" Value="398604" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Veterinarian)" Value="398605" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Entrepreneur)" Value="398606" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_DJMixing)" Value="398607" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Acting)" Value="398608" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_LocalCulture)" Value="398609" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Romance)" Value="398610" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Parenting)" Value="398611" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_MediaProduction)" Value="398612" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_DogTraining)" Value="398613" />
+  <Preset Label="Hours of Operation (marketStalls_HoursofOperation_PotteryStall_NewTown)" Value="398666" />
+  <Preset Label="Hours of Operation (marketStalls_HoursofOperation_SweetStall_NewTown)" Value="398668" />
+  <Preset Label="Hours of Operation (marketStalls_HoursofOperation_BakeryStall_NewTown)" Value="398669" />
+  <Preset Label="ownableBusiness_Immediate_HireEmployee_SmallBusiness" Value="399029" />
+  <Preset Label="Ask about Meetup (mixer_social_HobbyMeetup_AskAbout)" Tags="TestUnsafe" Value="399179" />
+  <Preset Label="Supports Large and X-Large Curved Walls (mixer_Social_ShadyNPC_TargetPlayer_TattooRecognition)" Tags="TestUnsafe" Value="399180" />
+  <Preset Label="Clearance: -50% (smallBusiness_SetMarkUp_VLow)" Value="399557" />
+  <Preset Label="Sale: -25% (smallBusiness_SetMarkUp_Low)" Value="399558" />
+  <Preset Label="Base: +0% (smallBusiness_SetMarkUp_Base)" Value="399559" />
+  <Preset Label="Pricey: +50% (smallBusiness_SetMarkUp_High)" Value="399560" />
+  <Preset Label="Expensive: +100% (smallBusiness_SetMarkUp_VHigh)" Value="399561" />
+  <Preset Label="Open (shadyNPC_OpenBox_World)" Value="399664" />
+  <Preset Label="Open (immediate_ShadyNPC_OpenBox)" Value="399665" />
+  <Preset Label="Enable All Employee Led Classes&#xD;&#xA; (sI_HobbyClass_EmployeeAllowed_AllowAll)" Value="399760" />
+  <Preset Label="Disable All Employee Led Classes (sI_HobbyClass_EmployeeAllowed_DisallowAll)" Value="399761" />
+  <Preset Label="Register Small Business (ticketMachine_SmallBusinessSystem_Register)" Value="399776" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Pottery)" Value="399817" />
+  <Preset Label="mixer_HobbyClass_WatchDemonstration_Appreciate" Value="399818" />
+  <Preset Label="mixer_HobbyClass_WatchDemonstration_BasicLoop" Value="399831" />
+  <Preset Label="mixer_HobbyClass_WatchDemonstration_Critique" Value="399832" />
+  <Preset Label="&quot;Accidentally&quot; Light on Fire (smallBusinessPerks_Arsonist_AccidentalFire)" Value="400069" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_ListenToLecture_Distracted_AlwaysOn" Value="400099" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_ListenToLecture_Distracted_ExtraChance" Value="400101" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_Lecture_Intellect" Value="400103" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_Lecture_Music" Value="400104" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_Lecture_Art" Value="400105" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_Lecture_Sport" Value="400106" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_Lecture_Food" Value="400107" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_Lecture_Fishing" Value="400108" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_Lecture_Mischief" Value="400109" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_Lecture_Tattoo" Value="400110" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_Lecture_Pottery" Value="400111" />
+  <Preset Label="mixer_HobbyClass_Whiteboard_Lecture_GenericLecture" Value="400112" />
+  <Preset Label="Buy Item (smallBusinessSystem_LightRetail_Purchase)" Value="400141" />
+  <Preset Label="smallBusinessSystem_LightRetail_Deliberate" Value="400142" />
+  <Preset Label="mixer_HobbyClass_WatchDemonstration_TakeNotes" Value="400155" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Bartending)" Value="400162" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Handiness)" Value="400164" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Cooking)" Value="400165" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Painting)" Value="400166" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Tattooing)" Value="400167" />
+  <Preset Label="Clean the Canal (fishingLocation_Catch_CleanTheCanal)" Value="400557" />
+  <Preset Label="Clean the Canal (fishingLocation_GoFishing_Spot_CleanCanal)" Value="400558" />
+  <Preset Label="Give to (simPicker_ShadyNPC_ReimbursementForm_GiveTo)" Tags="TestUnsafe" Value="400952" />
+  <Preset Label="Hire for {2.String} (mixer_Social_Targeted_SmallBusiness_Employee_Hire)" Tags="TestUnsafe" Value="401379" />
+  <Preset Label="hobbyMeetup_NPC_CreateBook" Value="401390" />
+  <Preset Label="hobbyMeetup_NPC_TakePhoto" Value="401391" />
+  <Preset Label="hobbyMeetup_NPC_DoStuff_Creative" Value="401394" />
+  <Preset Label="hobbyMeetup_NPC_DoStuff_Fallback" Value="401395" />
+  <Preset Label="hobbyMeetup_NPC_DoStuff_Fitness" Value="401418" />
+  <Preset Label="Hire Vendor (si_marketStalls_HireNPC_CoffeeCounter_HireNPC)" Value="401542" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Writing_HobbyMeetup)" Value="401564" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Writing_HobbyMeetup)" Value="401565" />
+  <Preset Label="Fire from {2.String} (smallBusiness_Socials_Employee_Fire)" Value="401576" />
+  <Preset Label="Make Hot Drinks (coffeeCounter_StartCrafting)" Value="401778" />
+  <Preset Label="hobbyMeetup_NPC_DoStuff_FoodDrink" Value="401819" />
+  <Preset Label="hobbyMeetup_NPC_DestroyFood" Value="401889" />
+  <Preset Label="hobbyMeetup_NPC_DoStuff_Performer" Value="401892" />
+  <Preset Label="hobbyMeetup_NPC_CreateGuitar" Value="401894" />
+  <Preset Label="hobbyMeetup_NPC_CreateViolin" Value="401895" />
+  <Preset Label="hobbyMeetup_NPC_CreateClayBlob" Value="401898" />
+  <Preset Label="ownableBusiness_Immediate_SmallBusiness_Promote" Value="401952" />
+  <Preset Label="ownableBusiness_Immediate_SmallBusiness_Demote" Value="401953" />
+  <Preset Label="ownableBusiness_Immediate_SmallBusiness_Fire" Value="401954" />
+  <Preset Label="Promote Employee (ownableBusiness_Employee_Career_Promote_UI_SmallBusiness)" Value="401965" />
+  <Preset Label="Select a Sim (simPicker_FamilyRecipes_TeachFamilyRecipes)" Tags="TestUnsafe" Value="402024" />
+  <Preset Label="Select a Family Recipe to Teach (familyCreationItemPickerInteraction_TeachFamilyRecipes)" Tags="TestUnsafe" Value="402300" />
+  <Preset Label="Teach Family Recipe (socials_Targeted_Friendly_AlwaysOn_TeachFamilyRecipe)" Tags="TestUnsafe" Value="402301" />
+  <Preset Label="Buy a Small Business Venue Lot (phone_BuySmallBusinessVenue)" Value="402311" />
+  <Preset Label="Buy a Small Business Venue Lot (computer_SmallBusinessSystem_BuySmallBusinessVenue)" Value="402312" />
+  <Preset Label="CoffeeCounter_ChooseDelivery" Value="402320" />
+  <Preset Label="CoffeeCounter_ServeDrink" Value="402325" />
+  <Preset Label="Tend Specialty Coffee Bar (marketStalls_Tend_CoffeeCounter)" Value="402526" />
+  <Preset Label="Order Drink (coffeeCounter_PushOrderDrink_Autonomous)" Value="402528" />
+  <Preset Label="Order Food or Drink (coffeeCounter_PushOrderFood_Autonomous)" Value="402529" />
+  <Preset Label="Order Drink (coffeeCounter_PushOrderDrinks)" Value="402530" />
+  <Preset Label="Order Food (coffeeCounter_PushOrderFood)" Value="402532" />
+  <Preset Label="Buy Item (smallBusinessSystem_LightRetail_Purchase_Autonomous)" Value="402596" />
+  <Preset Label="autonomousSimPicker_ShadyNPC_FindWaylonWarez" Tags="TestUnsafe" Value="402936" />
+  <Preset Label="Tend Stall (marketStalls_Open_EP18Market_PotteryStall)" Value="402952" />
+  <Preset Label="Tend Stall (marketStalls_Open_EP18Market_BakeryStall)" Value="402953" />
+  <Preset Label="Tend Stall (marketStalls_Open_EP18Market_SweetStall)" Value="402954" />
+  <Preset Label="social_ShadyNPC_TalkWithWaylonWarez" Value="402963" />
+  <Preset Label="Hire Tattoo Artist (object_HireNPC_TattooArtist)" Value="403073" />
+  <Preset Label="Hire Vendor (marketStalls_HireNPC_EP18_BakeryStall)" Value="403213" />
+  <Preset Label="Hire Vendor (marketStalls_HireNPC_EP18_SweetStall)" Value="403234" />
+  <Preset Label="Hire Vendor (marketStalls_HireNPC_EP18_PotteryStall)" Value="403235" />
+  <Preset Label="Buy Ceramics (purchase_MarketStalls_PotteryStall)" Tags="TestUnsafe" Value="403679" />
+  <Preset Label="Request Tattoo (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_Regular_NPCtoNPC)" Tags="TestUnsafe" Value="403687" />
+  <Preset Label="Enable Specific Employee Led Classes (hobbyClassWhiteboard_SkillsPickerSuperInteraction)" Tags="TestUnsafe" Value="403843" />
+  <Preset Label="Tend Stall (marketStalls_Tend_BakeryStall)" Value="403906" />
+  <Preset Label="Buy Ceramics (marketStalls_ShopFor_PotteryStall)" Value="403907" />
+  <Preset Label="Bakery Goods (marketStalls_PushOrder_Autonomous_Bakery)" Value="403915" />
+  <Preset Label="Order Food (marketStalls_PushOrder_Autonomous_Sweet)" Value="403928" />
+  <Preset Label="immediate_TattooingTable_NPCRequestTattoo_Randomizer" Value="403941" />
+  <Preset Label="Allow to Leave Work Early (smallBusiness_Socials_Employee_SendHomeEarly)" Value="403961" />
+  <Preset Label="Design Uniform for {1.SimFirstName} in Create a Sim (si_SmallBusiness_Employee_UniformModify)" Value="403962" />
+  <Preset Label="Stock Surface (lightRetailSurface_ObjectInInventoryPicker_SlotObjectFromInventory)" Tags="TestUnsafe" Value="404147" />
+  <Preset Label="Take Items from Surface (lightRetailSurface_objectInSlotPicker_CollectPickedItems)" Tags="TestUnsafe" Value="404148" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Bakery)" Value="404195" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_Sweets)" Value="404196" />
+  <Preset Label="Tend Stall (marketStalls_Tend_SweetStall)" Value="404197" />
+  <Preset Label="Quit Job (smallBusiness_Socials_Employee_Quit)" Value="404236" />
+  <Preset Label="si_SmallBusiness_Employee_CheckForQuitting" Value="404237" />
+  <Preset Label="Tend Stall (marketStalls_Tend_PotteryStall)" Value="404333" />
+  <Preset Label="Stock Surface (lightRetailSurface_si_SlotObjectFromInventory)" Value="404363" />
+  <Preset Label="Take Items from Surface (lightRetailSurface_si_CollectPickedItems)" Value="404364" />
+  <Preset Label="On a Schemer Mission (smallBusiness_Consequences_SchemerMission)" Value="404518" />
+  <Preset Label="idle_Trait_Shady" Value="404521" />
+  <Preset Label="At a Dreamer Seminar (smallBusiness_Consequences_DreamerMission)" Value="404534" />
+  <Preset Label="Praise Work (smallBusiness_Socials_Employee_Praise)" Value="404710" />
+  <Preset Label="Criticize Work (smallBusiness_Socials_Employee_Criticize)" Value="404711" />
+  <Preset Label="Listen to {1.SimFirstName} (smallBusiness_Socials_Employee_Listen_Basic)" Value="404712" />
+  <Preset Label="Listen to {1.SimFirstName} (smallBusiness_Socials_Employee_Listen_Platonic)" Value="404714" />
+  <Preset Label="Disable Sales (lightRetailSurface_ToggleSalesMode_Immediate)" Value="404769" />
+  <Preset Label="Low Pay (smallBusiness_Immediate_Employee_SetPay_Low)" Value="404878" />
+  <Preset Label="Medium Pay (smallBusiness_Immediate_Employee_SetPay_Med)" Value="404879" />
+  <Preset Label="High Pay (smallBusiness_Immediate_Employee_SetPay_High)" Value="404880" />
+  <Preset Label="Stock Surface (lightRetailSurface_PaintingRack_ObjectInInventoryPicker_SlotObjectFromInventory)" Tags="TestUnsafe" Value="404933" />
+  <Preset Label="CoffeeCounter_CraftingPhase_Make" Value="405040" />
+  <Preset Label="pottery_NPCPractice_Glaze_Start" Value="405100" />
+  <Preset Label="Complain about Job (smallBusiness_Socials_Employee_ComplainAboutJob_PreQuit)" Value="405112" />
+  <Preset Label="Sway Sim to Buy (a2a_simPickerInteraction_SmallBusinessPerks_SwayToBuy_LightRetail)" Tags="TestUnsafe" Value="405203" />
+  <Preset Label="Sway Sim to Buy (social_a2a_SmallBusinessPerks_SwayToBuy_LightRetail)" Value="405204" />
+  <Preset Label="Sway Sim to Buy (c2a_simPickerInteraction_SmallBusinessPerks_SwayToBuy_LightRetail)" Tags="TestUnsafe" Value="405205" />
+  <Preset Label="Sway Sim to Buy (social_c2a_SmallBusinessPerks_SwayToBuy_LightRetail)" Value="405206" />
+  <Preset Label="Scrap Ceramic (pottery_Scrap_NPC)" Value="405435" />
+  <Preset Label="Check Out of {2.String} (smallBusinessSystem_self_CheckOut)" Value="405622" />
+  <Preset Label="Leaving (smallBusinessPerks_UltrasonicWhistle_ForceSimCheckOutState)" Value="405632" />
+  <Preset Label="hobbyMeetup_NPC_CreateSketchpadTattoo" Value="405671" />
+  <Preset Label="Supports Large and X-Large Curved Walls (immediate_HobbyMeetup_FocusCamera)" Value="405673" />
+  <Preset Label="Focus Camera on Meetup (objectPicker_HobbyMeetup_FocusCamera)" Tags="TestUnsafe" Value="405676" />
+  <Preset Label="Design Feminine Uniform in Create a Sim (smallBusiness_Immediate_Employee_UniformCreate_Female)" Value="406832" />
+  <Preset Label="Design Masculine Uniform in Create a Sim (smallBusiness_Immediate_Employee_UniformCreate_Male)" Value="406833" />
+  <Preset Label="Assign Feminine Uniform (smallBusiness_Employee_UniformAssign_Female)" Tags="TestUnsafe" Value="406835" />
+  <Preset Label="Assign Masculine Uniform (smallBusiness_Employee_UniformAssign_Male)" Tags="TestUnsafe" Value="406836" />
+  <Preset Label="Rummage in Shady Trash Can (rummage_Outdoor_Shady_TrashCan)" Value="406877" />
+  <Preset Label="Look in the Shady Trash Can (trashcan_Outdoor_Look_Inside_ShadyTrashCan)" Value="406878" />
+  <Preset Label="Fight (social_SmallBusinessPerks_Arsonist_LOS_Fight)" Value="406888" />
+  <Preset Label="Fight (social_SmallBusinessPerks_Arsonist_BeFought)" Value="406890" />
+  <Preset Label="simPicker_Mentoring_AskFor_Pottery" Tags="TestUnsafe" Value="406937" />
+  <Preset Label="Mentor {2.String} (mentor_Pottery)" Value="406938" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Pottery)" Tags="TestUnsafe" Value="406939" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Pottery)" Tags="TestUnsafe" Value="406940" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Pottery)" Tags="TestUnsafe" Value="406941" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_Pottery" Tags="TestUnsafe" Value="406942" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_Pottery" Tags="TestUnsafe" Value="406943" />
+  <Preset Label="Craft New Ceramic (potteryWheel_StartCraftingAutonomously)" Value="406944" />
+  <Preset Label="Attempt to Swipe (swipe_SmallBusinessPerk_WhiteCollar)" Value="408854" />
+  <Preset Label="Attempt to Swipe (swipe_Household_Inventory_SmallBusinessPerk_WhiteCollar)" Value="408857" />
+  <Preset Label="Fake Apology (mixer_social_Shady_Fake_Apology_targeted_lowScore)" Tags="TestUnsafe" Value="408861" />
+  <Preset Label="Pickpocket (mixer_social_Pickpocket_targeted_mischief_career_household_Shady)" Tags="TestUnsafe" Value="408864" />
+  <Preset Label="Pickpocket (mixer_social_Pickpocket_targeted_mischief_career_Shady)" Tags="TestUnsafe" Value="408865" />
+  <Preset Label="Sell Handmade Ceramic (generic_SellObject_Pottery)" Value="410753" />
+  <Preset Label="Check Toddler (sim_Toddler_CheckToddler_SmallBusinessEmployee)" Value="411283" />
+  <Preset Label="Check Infant (TYAE_CheckOn_Infant_SmallBusinessEmployee)" Value="411284" />
+  <Preset Label="Clean (si_HobbyClass_CleanWhiteboard)" Value="411613" />
+  <Preset Label="Join Class (sI_HobbyClass_Join_Self)" Value="411618" />
+  <Preset Label="Invite to Join Class (sI_HobbyClass_Join_InviteOther)" Value="411619" />
+  <Preset Label="Invite to Join Class (sI_HobbyClass_Join_InviteOther_Minor)" Value="411622" />
+  <Preset Label="Join Class (sI_HobbyClass_Join_Self_Minor)" Value="411633" />
+  <Preset Label="smallBusinessPerks_StorePheromone_CustomerReaction" Value="411698" />
+  <Preset Label="shadyNPC_Trashcan_Rummage" Value="411774" />
+  <Preset Label="social_ShadyNPC_TargetPlayer_Steal" Value="411776" />
+  <Preset Label="social_ShadyNPC_TargetPlayer_Gift" Value="411777" />
+  <Preset Label="Read Mysterious Note (shadyNPC_Trashcan_Note)" Value="411779" />
+  <Preset Label="Give (social_SmallBusinessPerks_EmployeeTip_Small)" Value="412475" />
+  <Preset Label="Give (social_SmallBusinessPerks_EmployeeTip_Medium)" Value="412477" />
+  <Preset Label="Give (social_SmallBusinessPerks_EmployeeTip_Large)" Value="412478" />
+  <Preset Label="Give (social_SmallBusinessPerks_EmployeeTip_VeryLarge)" Value="412479" />
+  <Preset Label="Hours of Operation (marketStalls_HoursofOperation_BakeryStall_OldTown)" Value="413258" />
+  <Preset Label="Hours of Operation (marketStalls_HoursofOperation_PotteryStall_OldTown)" Value="413259" />
+  <Preset Label="Hours of Operation (marketStalls_HoursofOperation_SweetStall_OldTown)" Value="413260" />
+  <Preset Label="autonomousSimPicker_StayNearHouseholdSims_FindSim" Tags="TestUnsafe" Value="414020" />
+  <Preset Label="Tend Stall (marketStalls_Tend_FoodStall)" Value="414120" />
+  <Preset Label="Order Hot-To-Go... (marketStalls_PushOrder_Autonomous_FoodStallEP18)" Value="414121" />
+  <Preset Label="Customer Appreciation Day (si_smallBusinessPerks_CustomerAppreciationDay_Start)" Value="414149" />
+  <Preset Label="Order Food (marketStalls_PushOrderFood_FoodStall)" Value="414159" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Fitness_1)" Value="414355" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Painting_1)" Value="414365" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Pottery_1)" Value="414366" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Tattooing_1)" Value="414367" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Photography_1)" Value="414371" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Bartending_1)" Value="414374" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_GourmetCooking_1)" Value="414375" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_HomestyleCooking_1)" Value="414376" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Handiness_1)" Value="414383" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Programming_1)" Value="414384" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_RocketScience_1)" Value="414385" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_VideoGaming_1)" Value="414386" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Logic_1)" Value="414391" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Writing_1)" Value="414392" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Writing_HobbyMeetup_1)" Value="414393" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Fishing_1)" Value="414401" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Gardening_1)" Value="414402" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Guitar_1)" Value="414408" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Piano_1)" Value="414409" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Violin_1)" Value="414410" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Charisma_1)" Value="414417" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Comedy_1)" Value="414418" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Mischief_1)" Value="414419" />
+  <Preset Label="mixer_TattooingTable_Tattoo_Basic_Leg" Tags="TestUnsafe" Value="414427" />
+  <Preset Label="Take a Historic Tour (EP18World_HistoricBuilding_rabbitHole)" Value="414450" />
+  <Preset Label="Listen to Motivational Speaker (motivatingSpeaker_ListenToMotivatingSpeech)" Value="414462" />
+  <Preset Label="mixer_TattooingTable_PainBreak_Leg" Tags="TestUnsafe" Value="414700" />
+  <Preset Label="mixer_TattooingTable_Tattoo_PainBreak_Common_Leg" Tags="TestUnsafe" Value="414701" />
+  <Preset Label="mixer_TattooingTable_Tattoo_PainBreak_Rare_Leg" Tags="TestUnsafe" Value="414702" />
+  <Preset Label="mixer_TattooingTable_Tattoo_SkillVariant_Leg" Tags="TestUnsafe" Value="414706" />
+  <Preset Label="mixer_TattooingTable_Practice_Apply_Leg" Tags="TestUnsafe" Value="414711" />
+  <Preset Label="mixer_TattooingTable_Practice_Remove_Leg" Tags="TestUnsafe" Value="414712" />
+  <Preset Label="mixer_TattooingTable_Practice_Tattoo_Leg" Tags="TestUnsafe" Value="414713" />
+  <Preset Label="mixer_TattooingTable_Removal_Erase_Leg" Tags="TestUnsafe" Value="414715" />
+  <Preset Label="mixer_TattooingTable_Removal_PainBreak_Common_Leg" Tags="TestUnsafe" Value="414719" />
+  <Preset Label="mixer_TattooingTable_Removal_PainBreak_Normal_Leg" Tags="TestUnsafe" Value="414720" />
+  <Preset Label="mixer_TattooingTable_Removal_PainBreak_Rare_Leg" Tags="TestUnsafe" Value="414721" />
+  <Preset Label="Go Train Watching (EP18World_TrainStation_ShellInteraction)" Value="414727" />
+  <Preset Label="Terra-Potta Stall Opening Times (immediate_EP18World_Pottery)" Value="414729" />
+  <Preset Label="Hoffman's Candy Opening Times (immediate_EP18World_Sweet)" Value="414730" />
+  <Preset Label="Gramma Hattie's Bakery Opening Times (immediate_EP18World_Bakery)" Value="414731" />
+  <Preset Label="Give Motivating Speech (motivatingSpeaker_GiveMotivatingSpeech)" Value="414749" />
+  <Preset Label="Customer Appreciation Day (computer_SmallBusinessPerks_CustomerAppreciationDay_Start)" Value="414759" />
+  <Preset Label="Customer Appreciation Day (phone_SmallBusinessPerks_CustomerAppreciationDay_Start)" Value="414760" />
+  <Preset Label="Customer Appreciation Day (ticketMachine_SmallBusinessPerks_CustomerAppreciationDay_Start)" Value="414761" />
+  <Preset Label="End Customer Appreciation Day (si_SmallBusinessSystem_OpenCloseSign_CloseCustomerAppreciationDay)" Value="414766" />
+  <Preset Label="Pour Tea (teaSet_PourTea_Pottery)" Value="414791" />
+  <Preset Label="Glaze (objectDefinitionPicker_Pottery_Glazing_TeaSet)" Tags="TestUnsafe" Value="414849" />
+  <Preset Label="End Customer Appreciation Day (phone_SmallBusinessPerks_CustomerAppreciationDay_End)" Value="415580" />
+  <Preset Label="End Customer Appreciation Day (computer_SmallBusinessPerks_CustomerAppreciationDay_End)" Value="415581" />
+  <Preset Label="End Customer Appreciation Day (ticketMachine_SmallBusinessPerks_CustomerAppreciationDay_End)" Value="415582" />
+  <Preset Label="Disable Ultrasonic Whistle (smallBusiness_Immediate_TogglePerk_UltrasonicWhistle)" Value="415619" />
+  <Preset Label="Disable Irresistible Scent (smallBusiness_Immediate_TogglePerk_StorePheromone)" Value="415621" />
+  <Preset Label="Fake Salary Payment (smallBusiness_Immediate_Employee_Perks_FakePay_Fake)" Value="417234" />
+  <Preset Label="Restore Normal Salary Payment (smallBusiness_Immediate_Employee_Perks_FakePay_Real)" Value="417235" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_VideoGaming)" Value="419231" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Charisma)" Value="419232" />
+  <Preset Label="attractorPoint_ObessionWorld_Canal" Value="419292" />
+  <Preset Label="attractorPoint_ObessionWorld_Busking_Freya" Value="419293" />
+  <Preset Label="attractorPoint_ObessionWorld_Busking_Zain" Value="419294" />
+  <Preset Label="AttractedInteraction_ZainGuitar_EP18" Value="419342" />
+  <Preset Label="AttractedInteraction_FreyaDance_EP18" Value="419343" />
+  <Preset Label="Guitar (Guitar_Zain_CreateAndPlayGuitar)" Value="419344" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Logic)" Value="420114" />
+  <Preset Label="Ask for Second Chance (social_SmallBusinessOwner_AskForSecondChance)" Value="420122" />
+  <Preset Label="AttractedInteraction_Canal_EP18" Value="420134" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Guitar)" Value="420143" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Programming)" Value="420144" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Piano)" Value="420145" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Violin)" Value="420146" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Gemology)" Value="420622" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_FlowerArranging)" Value="420623" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Knitting)" Value="420624" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Baking)" Value="420625" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Gardening)" Value="420662" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Singing)" Value="420682" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Medium)" Value="420714" />
+  <Preset Label="Start Mining SimoCoin (computer_SmallBusinessPerks_SimoCoin_Start)" Value="420793" />
+  <Preset Label="Cancel Mining SimoCoin (computer_SmallBusinessPerks_SimoCoin_Cancel)" Value="420794" />
+  <Preset Label="aggregate_SmallBusiness_DependentCustomer_WaveGoodbye" Value="420847" />
+  <Preset Label="smallBusiness_DependentCustomer_WaveGoodbye_Human" Value="420849" />
+  <Preset Label="immediateSuperInteraction_SmallBusiness_Consequences_BreakUp" Value="420915" />
+  <Preset Label="Resume Glazing (pottery_Glaze_ResumeFromKiln)" Value="420945" />
+  <Preset Label="Manage Employee Tasks... (si_SmallBusiness_Employee_SetRules)" Value="420975" />
+  <Preset Label="Hire Tattoo Artist (phone_HireTattooArtist)" Value="421045" />
+  <Preset Label="Listen to {1.SimFirstName} (social_Mentorship_NPC_AskFor_Yes)" Value="421264" />
+  <Preset Label="Listen to {1.SimFirstName} (social_Mentorship_NPC_AskFor_No)" Value="421265" />
+  <Preset Label="Listen to {1.SimFirstName} (social_Mentorship_NPC_End_Positive)" Value="421266" />
+  <Preset Label="Listen to {1.SimFirstName} (social_Mentorship_NPC_End_Negative)" Value="421267" />
+  <Preset Label="Listen to {1.SimFirstName} (social_Mentorship_NPC_Offer_Yes)" Value="421268" />
+  <Preset Label="Listen to {1.SimFirstName} (social_Mentorship_NPC_Offer_No)" Value="421269" />
+  <Preset Label="Listen to {1.SimFirstName} (social_Mentorship_NPC_Listen)" Value="421310" />
+  <Preset Label="smallBusiness_LightRetail_PurchaseOrBarter_Immediate" Value="421611" />
+  <Preset Label="Barter with (social_SmallBusinessPerks_NPC_Barter)" Value="421612" />
+  <Preset Label="createBarterPicker_SmallBusinessPerk_Collectible_High" Tags="TestUnsafe" Value="421614" />
+  <Preset Label="createBarterPicker_SmallBusinessPerk_Collectible_Medium" Tags="TestUnsafe" Value="421615" />
+  <Preset Label="createBarterPicker_SmallBusinessPerk_Collectible_Low" Tags="TestUnsafe" Value="421616" />
+  <Preset Label="createBarterPicker_SmallBusinessPerk_Collectible_VeryHigh" Tags="TestUnsafe" Value="421617" />
+  <Preset Label="Accept Barter (social_SmallBusinessPerks_Barter_Listen)" Value="421618" />
+  <Preset Label="Disable Bartering (smallBusiness_Immediate_TogglePerk_Bartering)" Value="421619" />
+  <Preset Label="Disable Bartering (smallBusiness_Immediate_TogglePerk_Bartering_Computer)" Value="421632" />
+  <Preset Label="smallBusiness_BusinessVenueLot_OnSellPhoneCallTNS" Value="421663" />
+  <Preset Label="Buy Entry into {2.String} (smallBusinessSystem_self_CheckIn)" Value="421665" />
+  <Preset Label="Order Drink (coffeeCounter_PushOrderDrinks_Child)" Value="421693" />
+  <Preset Label="Order Drink (coffeeCounter_PushOrderDrink_Child_Autonomous)" Value="421694" />
+  <Preset Label="Disable Irresistible Scent (smallBusiness_Immediate_TogglePerk_StorePheromone_Computer)" Value="421984" />
+  <Preset Label="Disable Ultrasonic Whistle (smallBusiness_Immediate_TogglePerk_UltrasonicWhistle_Computer)" Value="421986" />
+  <Preset Label="social_Onboarding_ShadyNPC_TutorialIntro" Value="422191" />
+  <Preset Label="autonomousSimPicker_ShadyNPC_TutorialIntro" Tags="TestUnsafe" Value="422194" />
+  <Preset Label="Clear Surface (lightRetailSurface_si_ClearShelves)" Value="422197" />
+  <Preset Label="smallBusinessSystem_self_ForceLeaveDueToError" Value="422676" />
+  <Preset Label="smallBusiness_Entry_Object_Hmmm" Value="423002" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_LegLeft)" Value="423012" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_LegRight)" Value="423013" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_ArmLowerLeft)" Value="423014" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_ArmLowerRight)" Value="423015" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_ArmUpperLeft)" Value="423016" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_ArmUpperRight)" Value="423017" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_BackLower)" Value="423018" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_BackUpper)" Value="423019" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_Chest)" Value="423020" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_Head)" Value="423021" />
+  <Preset Label="Touch Up Tattoo (social_TattooingTable_Services_Tattooing_TouchUp_Stomach)" Value="423022" />
+  <Preset Label="Listen to {1.SimFirstName} (social_TattooingTable_Reaction_TouchUp)" Value="423024" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_ArmLowerLeft)" Tags="TestUnsafe" Value="423060" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_ArmUpperLeft)" Tags="TestUnsafe" Value="423061" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_ArmLowerRight)" Tags="TestUnsafe" Value="423062" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_ArmUpperRight)" Tags="TestUnsafe" Value="423073" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_BackLower)" Tags="TestUnsafe" Value="423074" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_BackUpper)" Tags="TestUnsafe" Value="423075" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_Chest)" Tags="TestUnsafe" Value="423076" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_Head)" Tags="TestUnsafe" Value="423077" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_LegLeft)" Tags="TestUnsafe" Value="423078" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_LegRight)" Tags="TestUnsafe" Value="423079" />
+  <Preset Label="Offer Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Offer_TouchUp_Stomach)" Tags="TestUnsafe" Value="423080" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_ArmLowerLeft)" Tags="TestUnsafe" Value="423081" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_ArmUpperLeft)" Tags="TestUnsafe" Value="423082" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_ArmLowerRight)" Tags="TestUnsafe" Value="423083" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_ArmUpperRight)" Tags="TestUnsafe" Value="423084" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_BackLower)" Tags="TestUnsafe" Value="423085" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_BackUpper)" Tags="TestUnsafe" Value="423086" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_Chest)" Tags="TestUnsafe" Value="423087" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_Head)" Tags="TestUnsafe" Value="423088" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_LegLeft)" Tags="TestUnsafe" Value="423089" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_LegRight)" Tags="TestUnsafe" Value="423090" />
+  <Preset Label="Request Tattoo Touch-up (socials_Targeted_Friendly_AlwaysOn_STC_Tattooing_Request_TouchUp_Stomach)" Tags="TestUnsafe" Value="423091" />
+  <Preset Label="Burglar!!! (burglar_Reaction_ShadyNPC)" Value="423146" />
+  <Preset Label="Offer Tattoo Touch-up (interactionPickerSuperInteraction_TattooingTable_TouchUp_Offer)" Tags="TestUnsafe" Value="423263" />
+  <Preset Label="Request Tattoo Touch-up (interactionPickerSuperInteraction_TattooingTable_TouchUp_Request)" Tags="TestUnsafe" Value="423264" />
+  <Preset Label="Offer Tattoo Touch-up to (simPickerInteraction_TattooingTable_Offer_TouchUp)" Tags="TestUnsafe" Value="423265" />
+  <Preset Label="Request Tattoo Touch-up from (simPickerInteraction_TattooingTable_Request_TouchUp)" Tags="TestUnsafe" Value="423266" />
+  <Preset Label="si_Tattooing_AskToShowOffNewTattoo" Value="423285" />
+  <Preset Label="smallBusiness_Entry_Self_Hmmm" Value="423312" />
+  <Preset Label="smallBusiness_Entry_CalculateEntry_Self" Value="423773" />
+  <Preset Label="Ask about Tattoo Care (mixer_Social_Tattooing_AskAboutCare_Targeted_Friendly_AlwaysOn)" Tags="TestUnsafe" Value="424061" />
+  <Preset Label="Make Free Drink (bar_StartCrafting_FreeDrink_for_picked_sim)" Value="424102" />
+  <Preset Label="Make Free Drink for (bar_Social_MakeFreeDrinkFor)" Value="424103" />
+  <Preset Label="Make Free Drink for (bar_SimPicker_MakeFreeDrinkFor)" Tags="TestUnsafe" Value="424104" />
+  <Preset Label="Invite Customer to Hang Out (smallBusiness_Socials_Customer_InviteOver)" Value="424567" />
+  <Preset Label="Welcome to Business (mixer_Social_Targeted_Friendly_SmallBusiness_WelcomeToBusiness)" Tags="TestUnsafe" Value="424956" />
+  <Preset Label="Daydream about Future (Solo_Idealist_DayDreamAboutTheFuture)" Value="425188" />
+  <Preset Label="Ask to Invest in Dreams (mixer_social_Idealist_InvestInMyDreams_targeted_friendly_alwaysOn)" Tags="TestUnsafe" Value="426115" />
+  <Preset Label="autonomous_ObjectPicker_SmallBusiness_Deliberate_hmmm" Tags="TestUnsafe" Value="426137" />
+  <Preset Label="Enthuse over Repeat Business (socials_Targeted_Friendly_SmallBusiness_ConnectOverPastBusiness)" Tags="TestUnsafe" Value="426470" />
+  <Preset Label="Talk Up {2.String} (smallBusinessSystem_TalkUpBusiness)" Value="426472" />
+  <Preset Label="mixer_SmallBusinessSystem_TalkUpBusiness_Talk" Value="426474" />
+  <Preset Label="mixer_SmallBusinessSystem_TalkUpBusiness_Idle" Value="426475" />
+  <Preset Label="Share Small Business Tips (social_SmallBusiness_Reputation_ShareTips)" Value="426599" />
+  <Preset Label="Spread Small Business Rumor (social_SmallBusiness_Reputation_SpreadRumor)" Value="426600" />
+  <Preset Label="Go Here and Talk Up {2.String} (terrain-gohere_SmallBusiness_TalkUpBusiness)" Value="426740" />
+  <Preset Label="Reply to Customer Feedback (computer_SmallBusiness_Reputation_CustomerFeedback)" Value="426901" />
+  <Preset Label="Post Fake Endorsements (computer_SmallBusiness_Reputation_FakeReviews)" Value="426902" />
+  <Preset Label="Steal Ideas from Another Business (computer_SmallBusiness_Reputation_HackBusiness)" Value="426903" />
+  <Preset Label="Tattle On Another Business (computer_SmallBusiness_Reputation_TattleOnBusiness)" Value="426904" />
+  <Preset Label="Lead by Example (mixer_social_Idealist_LeadByExample_targeted_friendly_AlwaysOn)" Tags="TestUnsafe" Value="427576" />
+  <Preset Label="Critique {1.SimFirstName}'s Outfit (mixer_social_Critique_CrispinBlack)" Tags="TestUnsafe" Value="427581" />
+  <Preset Label="Inspire a Young Sim (mixer_socials_InspireYoungSim_Friendly_alwaysOn_Crispin)" Tags="TestUnsafe" Value="427652" />
+  <Preset Label="Yell At (social_SmallBusiness_Customer_SpecialBehavior_BeRudeTo)" Value="428051" />
+  <Preset Label="Play Prank (social_SmallBusiness_Customer_SpecialBehavior_Prank)" Value="428562" />
+  <Preset Label="solo_SmallBusiness_Customer_SpecialBehavior_PranksterIdle" Value="428565" />
+  <Preset Label="solo_SmallBusiness_Customer_SpecialBehavior_LittererIdle" Value="428566" />
+  <Preset Label="Express Strong Opinions (mixer_social_Idealist_ExpressStrongOpinions_Targeted_Mean_AlwaysOn)" Tags="TestUnsafe" Value="428567" />
+  <Preset Label="solo_SmallBusiness_Customer_SpecialBehavior_LittererSpawnCup" Value="428751" />
+  <Preset Label="Glaze with Unbreakable Coating (pottery_Glaze_UnbreakableGlazeObject)" Value="428762" />
+  <Preset Label="Glaze Ceramic with Unbreakable Coating from Inventory (objectInInventoryPicker_Pottery_UnbreakableGlaze_ChooseObject_KilnStart)" Tags="TestUnsafe" Value="428792" />
+  <Preset Label="immediate_Pottery_UnbreakableGlaze_SetPreSpray" Value="428796" />
+  <Preset Label="solo_SmallBusiness_Customer_SpecialBehavior_LittererSpawnPlate" Value="428872" />
+  <Preset Label="Ask to Stop Disruptive Behavior (social_SmallBusiness_Customer_SpecialBehavior_AskToStop)" Value="428873" />
+  <Preset Label="Send Disruptive Customer Away (social_SmallBusiness_Customer_SpecialBehavior_SendAway)" Value="428874" />
+  <Preset Label="Teach Family Recipe (familyCreationItemPickerInteraction_TeachFamilyRecipes_Targeted)" Tags="TestUnsafe" Value="429825" />
+  <Preset Label="Ask for Free Drink (bar_PushOrderDrink_AskFreeDrink)" Value="429840" />
+  <Preset Label="social_Onboarding_ShadyNPC_TutorialSmallBusinessVenue" Value="429990" />
+  <Preset Label="Order Drink (bar_OrderDrinkbar_FreeDrink_EP18)" Value="430057" />
+  <Preset Label="Wait For Drink (bar_WaitForDrink_FreeDrink_EP18)" Value="430058" />
+  <Preset Label="Ask for Turn (hobbyMeetup_AskForTurn)" Value="430075" />
+  <Preset Label="Read (si_SwipeIntoSimInventory_Note_EyesOnYou_StealingIdeas)" Value="430147" />
+  <Preset Label="Read (si_SwipeIntoSimInventory_Note_EyesOnYou_Tattling)" Value="430148" />
+  <Preset Label="Argue about Values (social_SmallBusiness_Reputation_Consequences_ArgueAboutValues)" Value="430315" />
+  <Preset Label="Praise for Having Influence (social_SmallBusiness_Reputation_Consequences_PraiseForInfluence)" Value="430316" />
+  <Preset Label="Repay Investment (mixer_social_RepayInvestment_targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="430487" />
+  <Preset Label="Drink (traitPicker_MasteryPerkGiver_Potion)" Tags="TestUnsafe" Value="430597" />
+  <Preset Label="mentorMixers_Pottery" Value="431142" />
+  <Preset Label="Argue about Family Feud (mixer_social_HoffmanAndLodenArguements)" Tags="TestUnsafe" Value="431222" />
+  <Preset Label="candyMaker_CraftingSteps_FinalStep_CottonCandy" Value="431274" />
+  <Preset Label="candyMaker_CraftingSteps_FinalStep_JellyBeans" Value="431275" />
+  <Preset Label="candyMaker_CraftingSteps_FinalStep_SwirlLolly" Value="431276" />
+  <Preset Label="candyMaker_CraftingSteps_FinalStep_Child_CottonCandy" Value="431277" />
+  <Preset Label="candyMaker_CraftingSteps_FinalStep_Child_JellyBeans" Value="431278" />
+  <Preset Label="candyMaker_CraftingSteps_FinalStep_Child_SwirlLolly" Value="431279" />
+  <Preset Label="candyMaker_CraftingSteps_FinalStepCarried" Value="431280" />
+  <Preset Label="Bike to (si_SimPicker_BikeRack_Travel)" Tags="TestUnsafe" Value="431446" />
+  <Preset Label="Ride Bike (travel_DummyInteractions_BikeRack)" Value="431447" />
+  <Preset Label="Take Train to (si_SimPicker_TrainStation_Travel)" Tags="TestUnsafe" Value="431448" />
+  <Preset Label="Go Train Watching (attractorPoint_ObessionWorld_TrainSpotting_ViewingPlatform)" Value="431626" />
+  <Preset Label="Teach Family Recipe (socials_Targeted_Friendly_AlwaysOn_TeachFamilyRecipe_Targeted)" Tags="TestUnsafe" Value="431838" />
+  <Preset Label="Repair Ceramic (immediate_Pottery_RepairDebug)" Value="431900" />
+  <Preset Label="Ride Train (travel_DummyInteractions_TrainStation)" Value="432230" />
+  <Preset Label="autonomousSimPicker_MakeFreeDrinkFor" Tags="TestUnsafe" Value="432378" />
+  <Preset Label="candyMaker_ShockedCandy_Giggles" Value="432910" />
+  <Preset Label="mixer_Tattooing_TendBroadcaster" Value="433197" />
+  <Preset Label="candyMaker_CraftingSteps_PourBoth_SwirlLolly" Value="434014" />
+  <Preset Label="candyMaker_CraftingSteps_PourBoth_CottonCandy" Value="434015" />
+  <Preset Label="candyMaker_CraftingSteps_Child_PourBoth_CottonCandy" Value="434017" />
+  <Preset Label="candyMaker_CraftingSteps_Child_PourBoth_SwirlLolly" Value="434018" />
+  <Preset Label="shadyNPC_Trashcan_Rummage_Indoor" Value="434097" />
+  <Preset Label="Break Ceramic (pottery_BreakObject_PetSmall)" Value="434211" />
+  <Preset Label="idle_Trait_Idealist" Value="435185" />
+  <Preset Label="Guaranteed Entry (socials_Targeted_VIPRopeBouncer_ConvinceToLetIn_Shady)" Tags="TestUnsafe" Value="435187" />
+  <Preset Label="Rebuild (rocketShip_Build_FreeStart_SmallBusinessCustomer)" Value="436467" />
+  <Preset Label="Meet {1.SimFirstName} (sim_Greet_Infant_SmallBusinessOwner)" Value="436619" />
+  <Preset Label="mixer_TattooingTable_Practice_Basic" Tags="TestUnsafe" Value="436835" />
+  <Preset Label="mixer_TattooingTable_Practice_Basic_Leg" Tags="TestUnsafe" Value="436836" />
+  <Preset Label="Sell {2.String} (ticketMachine_SmallBusinessSystem_Sell)" Value="436987" />
+  <Preset Label="Check Out of {2.String} (ticketMachine_CheckOut_Autonomous)" Value="437006" />
+  <Preset Label="Ask to See Wares (immediate_ShadyNPC_AskToSeeWares)" Value="437371" />
+  <Preset Label="switch_outfit_SmallBusiness" Value="437481" />
+  <Preset Label="Bring the Lightning (terrain-gonear_BringTheLightning_Giggles)" Value="437497" />
+  <Preset Label="Skillful Sleep (bed_Sleep_MasteryPerk_SkillfulSleep_FromLoad)" Value="437873" />
+  <Preset Label="Hours of Operation (marketStalls_HoursofOperation_EP18World_HotToGo)" Value="437966" />
+  <Preset Label="Supports Large and X-Large Curved Walls (mixer_Social_ShadyNPC_RaccoonSuitRecognition)" Tags="TestUnsafe" Value="438552" />
+  <Preset Label="Writers &amp; Readers (immediate_HobbyMeetup_ToggleTNS_Books)" Value="439160" />
+  <Preset Label="Creative Cowork (immediate_HobbyMeetup_ToggleTNS_Creative)" Value="439161" />
+  <Preset Label="Sweat &amp; Socialize (immediate_HobbyMeetup_ToggleTNS_Fitness)" Value="439162" />
+  <Preset Label="Munch &amp; Mingle (immediate_HobbyMeetup_ToggleTNS_FoodDrink)" Value="439163" />
+  <Preset Label="Galactic Gambits (immediate_HobbyMeetup_ToggleTNS_Logic)" Value="439164" />
+  <Preset Label="Spotlight Stars (immediate_HobbyMeetup_ToggleTNS_Performer)" Value="439165" />
+  <Preset Label="Pottery &amp; Pals (immediate_HobbyMeetup_ToggleTNS_Pottery)" Value="439166" />
+  <Preset Label="Select Sim to Practice on (simPickerInteraction_Tattooing_Practice_Mentoring_AskFor)" Tags="TestUnsafe" Value="439420" />
+  <Preset Label="Select Sim to Practice on (simPickerInteraction_Tattooing_Practice_Mentoring_Offer_Paid)" Tags="TestUnsafe" Value="439422" />
+  <Preset Label="Enable All (immediate_HobbyMeetup_ToggleTNS_EnableAll)" Value="439499" />
+  <Preset Label="Disable All (immediate_HobbyMeetup_ToggleTNS_DisableAll)" Value="439604" />
+  <Preset Label="Break Ceramic (pottery_BreakObject_OnGround)" Value="439623" />
+  <Preset Label="Break Ceramic (pottery_BreakObject_PetLarge)" Value="439624" />
+  <Preset Label="Break Ceramic (pottery_BreakObject_OnWall)" Value="439880" />
+  <Preset Label="Invite Over to Current Lot (relationshipPanel_Invite_Over_ShadyNPC)" Value="439881" />
+  <Preset Label="solo_EP18World_Freya_CreateStereo" Value="440422" />
+  <Preset Label="Kick Customer Out (smallBusiness_Socials_Customer_SendAway)" Value="440451" />
+  <Preset Label="Executing Heist (si_Rabbithole_Trait_Shady_Heist_Solo)" Value="440607" />
+  <Preset Label="Solo Heist (immediate_Trait_Shady_Heist_Solo)" Value="440610" />
+  <Preset Label="Careers (waypoint_EP18_OldTown_ParkWalk_ToGazebo)" Value="440907" />
+  <Preset Label="Buy Entry into {2.String} (ticketMachine_CheckIn_Immediate_Entry)" Value="440913" />
+  <Preset Label="Buy Entry into {2.String} (ticketMachine_CheckIn_Immediate_Hourly)" Value="440914" />
+  <Preset Label="autonomousSimPicker_MasteryPerks_SkillfulSleep_CheckSleep" Tags="TestUnsafe" Value="440988" />
+  <Preset Label="immediate_MasteryPerk_SkillfulSleep_CheckSleep" Value="440989" />
+  <Preset Label="mixer_Pottery_Glazing_Spray" Value="441100" />
+  <Preset Label="Supports Large and X-Large Curved Walls (waypoint_EP18World_BikePath)" Value="441198" />
+  <Preset Label="Redeem for Bicycle (immediate_BikePartCollection_Voucher_Redeem)" Value="441299" />
+  <Preset Label="Manage Owner Tasks... (si_SmallBusiness_Owner_SetRules)" Value="441559" />
+  <Preset Label="smallBusiness_Entry_TalkUpBusiness_Hmmm" Value="441560" />
+  <Preset Label="Careers (waypoint_EP18_OldTown_ParkWalk_FromGazebo)" Value="441579" />
+  <Preset Label="ep18World_ParkWalk_SitNearGazebo" Value="441580" />
+  <Preset Label="Waiting to Start Heist (trait_Shady_Heist_StartSituation)" Value="441865" />
+  <Preset Label="Waiting to Start Heist (trait_Shady_Heist_Wait)" Value="441866" />
+  <Preset Label="Helping Group Heist (trait_Shady_Heist_OnHeist_Crew)" Value="441867" />
+  <Preset Label="Executing Group Heist (trait_Shady_Heist_OnHeist_Lead)" Value="441868" />
+  <Preset Label="Executing Heist (trait_Shady_Heist_Start)" Value="441869" />
+  <Preset Label="Group Heist (simPicker_Trait_Shady_Heist_Group)" Tags="TestUnsafe" Value="441872" />
+  <Preset Label="autonomous_ObjectPicker_Trait_Shady_Heist_FindMailbox" Tags="TestUnsafe" Value="441873" />
+  <Preset Label="immediate_EP18World_StartBikePath" Value="441936" />
+  <Preset Label="immediate_Tattooing_SummonNPCTarget" Value="441945" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Cooking_CandyMaker)" Tags="TestUnsafe" Value="442124" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Cooking_CandyMaker)" Tags="TestUnsafe" Value="442126" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Cooking_CandyMaker)" Tags="TestUnsafe" Value="442144" />
+  <Preset Label="simPicker_Mentoring_AskFor_Cooking_CandyMaker" Tags="TestUnsafe" Value="442149" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_Cooking_CandyMaker" Tags="TestUnsafe" Value="442153" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_Cooking_CandyMaker" Tags="TestUnsafe" Value="442154" />
+  <Preset Label="Invite Over to Current Lot (relationshipPanel_Invite_Over_CustomerInvitingFriend)" Value="442686" />
+  <Preset Label="immediate_Onboarding_TutorialIntro" Value="442707" />
+  <Preset Label="Yell At (social_SmallBusiness_Reputation_Consequences_YellAtPartner)" Value="443015" />
+  <Preset Label="Cry (si_smallBusiness_Consequences_Ultimatum_UpsetPartner)" Value="443016" />
+  <Preset Label="mixer_Ultimatum_Partner_Cry" Value="443018" />
+  <Preset Label="mixer_Ultimatum_Partner_Sniffling" Value="443019" />
+  <Preset Label="immediate_Onboarding_BusinessVenue" Value="443145" />
+  <Preset Label="hobbyMeetup_NPC_SitOnBenchThenKnit" Value="443174" />
+  <Preset Label="Clean Up (pottery_CleanUp)" Value="443853" />
+  <Preset Label="Stock Surface (lightRetailSurface_si_SlotObjectFromInventory_PaintingRack)" Value="443983" />
+  <Preset Label="toddler_NPCLeaveLot_FadeOut" Value="444479" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_WatchDemonstration_Apothecary)" Value="445005" />
+  <Preset Label="Get Tattoo (social_TattooingTable_Recipient_Front_LegLeft)" Value="445521" />
+  <Preset Label="Get Tattoo (social_TattooingTable_Recipient_Front_LegRight)" Value="445522" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_Apothecary)" Value="445821" />
+  <Preset Label="Clean Up (pottery_CleanFromKiln)" Value="445884" />
+  <Preset Label="Check Out of {2.String} (smallBusinessSystem_self_Rally_CheckOut)" Value="446305" />
+  <Preset Label="Buy Entry into {2.String} (immediate_SmallBusinessSystem_CheckIn_PushAffordanceManager)" Value="446627" />
+  <Preset Label="Buy Entry into {2.String} (immediate_SmallBusinessSystem_ActivePlayer_hidden_self_CheckIn)" Value="446628" />
+  <Preset Label="Buy Entry into {2.String} (immediate_SmallBusinessSystem_Dependents_hidden_self_CheckIn)" Value="446629" />
+  <Preset Label="immediate_TattooingTable_NPCRequestTattoo_OutfitBuffAndServiceContinuation" Value="446919" />
+  <Preset Label="Check Out of {2.String} (immediate_SmallBusinessSystem_Dependents_hidden_self_CheckOut)" Value="447483" />
+  <Preset Label="Call Over (sim_CallOver_SmallBusiness_Employee)" Value="447503" />
+  <Preset Label="Repair Ceramic (objectPicker_Pottery_Repair_ObjectInWorld)" Tags="TestUnsafe" Value="447880" />
+  <Preset Label="Repair Ceramic (objectPicker_Pottery_Repair_ObjectInInventory)" Tags="TestUnsafe" Value="447882" />
+  <Preset Label="Glaze (objectPicker_Pottery_Glaze_FromInventory)" Tags="TestUnsafe" Value="448311" />
+  <Preset Label="Glaze with Unbreakable Coating (objectPicker_Pottery_UnbreakableGlaze_FromInventory)" Tags="TestUnsafe" Value="448312" />
+  <Preset Label="Glaze (objectPicker_Pottery_Glaze_FromWorld)" Tags="TestUnsafe" Value="448313" />
+  <Preset Label="Glaze with Unbreakable Coating (objectPicker_Pottery_UnbreakableGlaze_FromWorld)" Tags="TestUnsafe" Value="448314" />
+  <Preset Label="Glaze (pottery_Glaze_GlazeObjectOnKiln)" Value="448380" />
+  <Preset Label="Glaze with Unbreakable Coating (pottery_Glaze_UnbreakableGlazeObjectOnKiln)" Value="448382" />
+  <Preset Label="smallBusinessSystem_LightRetail_Purchase_EatIfEncouraged" Value="449344" />
+  <Preset Label="Create a Family Recipe (famillyRecipe_Creation_RequiredIngredients)" Value="452212" />
+  <Preset Label="Prepare a Family Recipe (startCraftingFamilyRecipeSuperInteraction_RequiredIngredients)" Value="452214" />
+  <Preset Label="Select a Base Recipe (familyRecipePickerSuperInteraction_RequiredIngredients)" Value="452216" />
+  <Preset Label="**DEBUG** (social_HobbyClass_RequestClass_NLS)" Value="454763" />
+</PresetGroup>

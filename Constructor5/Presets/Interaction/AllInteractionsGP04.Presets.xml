@@ -34,16 +34,10 @@
   <Preset Label="idle_Vampire_Thirst_Distress" Value="149683" />
   <Preset Label="computerUse_React_VampireInfo" Value="149830" />
   <Preset Label="Practice (PipeOrgan_Practice)" Value="149929" />
-  <Preset Label="Sleep (coffin_Sleep)" Value="149935" />
   <Preset Label="Practice (PipeOrgan_Practice_Chooser)" Value="149937" />
-  <Preset Label="sleep_Passive_Coffin" Value="149943" />
-  <Preset Label="Sleep (coffin_Autonomous_Sleep)" Value="149945" />
   <Preset Label="Practice (pipeOrgan_Practice_Scales)" Value="149946" />
   <Preset Label="Practice (pipeOrgan_Practice_Child)" Value="149947" />
   <Preset Label="Practice (pipeOrgan_Practice_Child_Scales)" Value="149948" />
-  <Preset Label="Nap (coffin_Nap)" Value="149949" />
-  <Preset Label="Nap (coffin_Autonomous_Nap)" Value="149952" />
-  <Preset Label="Cry It Out (Coffin_Undercovers_Cry)" Value="149954" />
   <Preset Label="Hibernate (coffin_Hibernate)" Value="149963" />
   <Preset Label="Practice (PipeOrgan_Practice_Chooser_Child)" Value="149999" />
   <Preset Label="Idle_Vampire" Value="150020" />
@@ -85,7 +79,6 @@
   <Preset Label="Irresistible Slumber (vampires_MindPowers_IrresistibleSlumber)" Value="150521" />
   <Preset Label="Overpowering Sleep (vampires_MindPowers_IrresistibleSlumber_PassOut)" Value="150522" />
   <Preset Label="Dispel Irresistible Slumber (vampires_MindPowers_Dispel_IrresistibleSlumber)" Value="150532" />
-  <Preset Label="generic_CoffinSleep" Value="150543" />
   <Preset Label="Mesmerize (vampires_MindPowers_Mesmerize)" Value="150549" />
   <Preset Label="Mesmerized (vampires_MindPowers_Mesmerize_Target)" Value="150550" />
   <Preset Label="Burst of Happiness (vampires_MindPowers_EmotionalBurst_Happy)" Value="150567" />
@@ -129,7 +122,7 @@
   <Preset Label="Receive Cure (si_vampireCure_HandOverCure_Target)" Value="151258" />
   <Preset Label="Tip (PipeOrgan_Tip)" Value="151299" />
   <Preset Label="Play (pipeOrgan_Play_Song)" Value="151301" />
-  <Preset Label="Mentor (mentor_PipeOrgan)" Value="151302" />
+  <Preset Label="Mentor {2.String} (mentor_PipeOrgan)" Value="151302" />
   <Preset Label="Write Song (PipeOrgan_StartWriting)" Value="151306" />
   <Preset Label="PipeOrgan_CreateSheetMusic" Value="151308" />
   <Preset Label="PipeOrgan_WriteSong_Staging" Value="151309" />
@@ -213,7 +206,6 @@
   <Preset Label="vampires_MindPowers_Command_Clean_Target" Value="152856" />
   <Preset Label="Vampiric Entrance (vampire_SpiritPowers_AlwaysWelcome)" Value="152867" />
   <Preset Label="Play Haunting Music (pipeOrgan_PlayHauntingMusic_Vampire)" Value="152882" />
-  <Preset Label="Claim (coffin_ClaimOwnership)" Value="152884" />
   <Preset Label="Everyone But {0.SimFirstName} (vampire_SpiritPowers_AlwaysWelcome_DoorLock_Actor)" Value="152935" />
   <Preset Label="Everyone (vampire_SpiritPowers_AlwaysWelcome_DoorLock_All)" Value="152936" />
   <Preset Label="{0.SimFirstName} (vampire_SpiritPowers_AlwaysWelcome_DoorUnlock_Actor)" Value="152939" />
@@ -255,7 +247,6 @@
   <Preset Label="PipeOrgan_Write_Song" Value="153894" />
   <Preset Label="Open Seed Packet (gardening_OpenSeedPacket_StarterPacket_Garlic)" Value="153946" />
   <Preset Label="Purchase Garlic Seeds (purchase_Seeds_Vampire_Garlic)" Tags="TestUnsafe" Value="153962" />
-  <Preset Label="Purchase Garlic Seeds (purchase_Seeds_Vampire_Garlic_computer)" Tags="TestUnsafe" Value="153963" />
   <Preset Label="Energy Failure (sim_EnergyFailure_FromPlasmaLoss)" Value="154218" />
   <Preset Label="Vampiric Spar (vampire_Fighting_VampiricSpar)" Value="154294" />
   <Preset Label="Vampiric Spar (mixer_Social_VampiricSpar_Targeted_Friendly)" Tags="TestUnsafe" Value="154300" />
@@ -276,17 +267,7 @@
   <Preset Label="Make Vampire Pun (mixer_social_Vampire_MakeVampirePun_Targeted_Funny_AlwaysOn)" Tags="TestUnsafe" Value="154552" />
   <Preset Label="Pretend to Bite (mixer_social_Vampire_PretendToBite_Targeted_Mischief_AlwaysOn)" Tags="TestUnsafe" Value="154642" />
   <Preset Label="sleep_Coffin_GoodDream" Value="154754" />
-  <Preset Label="sleep_Coffin_HumanNightmare" Value="154756" />
   <Preset Label="sleep_Coffin_VampireDaymare" Value="154771" />
-  <Preset Label="Try For Baby in Coffin (mixer_social_TryForBabyInCoffin_targeted_romance_transition)" Tags="TestUnsafe" Value="154850" />
-  <Preset Label="WooHoo in Coffin (mixer_social_WooHooInCoffin_targeted_romance_transition)" Tags="TestUnsafe" Value="154852" />
-  <Preset Label="Mess Around With (coffin_messAround_Picker)" Tags="TestUnsafe" Value="154853" />
-  <Preset Label="WooHoo With (coffin_wooHoo_Picker)" Tags="TestUnsafe" Value="154854" />
-  <Preset Label="Try for Baby With (coffin_tryForBaby_Female_Picker)" Tags="TestUnsafe" Value="154855" />
-  <Preset Label="Try for Baby With (coffin_tryForBaby_Male_Picker)" Tags="TestUnsafe" Value="154856" />
-  <Preset Label="WooHoo (coffin_WooHoo)" Value="154858" />
-  <Preset Label="Try for Baby (coffin_TryForBaby)" Value="154859" />
-  <Preset Label="generic_Coffin_WooHoo" Value="154861" />
   <Preset Label="Crush Into Elements (collection_MetalCrystal_VampiricStrength_CrushIntoElements)" Value="154867" />
   <Preset Label="Make Garlic Wreath (garlicBraid_MakeWreath)" Value="155026" />
   <Preset Label="Make Garlic Garland (garlicBraid_MakeGarland)" Value="155027" />
@@ -295,16 +276,12 @@
   <Preset Label="vampire_NPC_EnableVampireRouting_Mist" Value="155243" />
   <Preset Label="vampire_NPC_EnableVampireRouting_VampireRun" Value="155244" />
   <Preset Label="vampire_NPC_EnableVampireRouting_RemoveAll" Value="155314" />
-  <Preset Label="Read Epitaph (coffin_ReadEpitaph_HasEpitaph)" Value="155484" />
-  <Preset Label="Read Epitaph (coffin_ReadEpitaph_NoEpitaph)" Value="155485" />
   <Preset Label="idle_Vampire_Power" Value="155513" />
   <Preset Label="Mind Controlled to Insult (social_Vampires_MindPowers_BeMean)" Value="155608" />
   <Preset Label="Order Drink (bar_PushOrderDrink_Autonomous_Vampire)" Value="155718" />
-  <Preset Label="sleep_Coffin_Nightmare_Outcome" Value="155751" />
   <Preset Label="sleep_Coffin_Daymare_Outcome" Value="155752" />
   <Preset Label="sleep_Coffin_GoodDream_Outcome" Value="155753" />
   <Preset Label="idle_Vampire_Sunlight_Intense" Value="155777" />
-  <Preset Label="Engrave Epitaph (rename_EngraveEpitaph_Coffin)" Value="155875" />
   <Preset Label="Request Specific Entertainer (organ_HireSpecificNPC_Picker)" Tags="TestUnsafe" Value="155962" />
   <Preset Label="Hire Entertainer (object_HireSpecificNPC_Entertainer_Organ)" Value="155979" />
   <Preset Label="Hire Organist (object_HireNPCEntertainer_Organ)" Value="155980" />
@@ -338,4 +315,34 @@
   <Preset Label="Play Pipe Organ (AnimalEnthusiast_PlayTo_PipeOrgan)" Value="265316" />
   <Preset Label="Play Pipe Organ (AnimalEnthusiast_PlayTo_PipeOrgan_Child)" Value="265699" />
   <Preset Label="goToSpecificLot_FromWolfTownPortalToVampire" Value="288787" />
+  <Preset Label="Dismount (HorseRiding_Rider_AutoSolveMotives_Start_Thirst_Vampire)" Value="349043" />
+  <Preset Label="Dismount (HorseRiding_Rider_AutoSolveMotives_Dismount_and_PushInteraction_Thirst_Vampire)" Value="349044" />
+  <Preset Label="Dismount (HorseRiding_Rider_AutoSolveMotives_Start_Power_Vampire)" Value="349045" />
+  <Preset Label="Dismount (HorseRiding_Rider_AutoSolveMotives_Dismount_and_PushInteraction_Power_Vampire)" Value="349046" />
+  <Preset Label="Skillful Sleep (coffin_Sleep_MasteryPerk_SkillfulSleep)" Value="377251" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_PipeOrgan)" Tags="TestUnsafe" Value="378607" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_PipeOrgan)" Tags="TestUnsafe" Value="378608" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_PipeOrgan)" Tags="TestUnsafe" Value="378609" />
+  <Preset Label="simPicker_Mentoring_AskFor_PipeOrgan" Tags="TestUnsafe" Value="378610" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_PipeOrgan" Tags="TestUnsafe" Value="378611" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_PipeOrgan" Tags="TestUnsafe" Value="378612" />
+  <Preset Label="si_Skeptical_DemandProofOfPowersResponse_Vampire" Value="383992" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_PipeOrgan)" Tags="TestUnsafe" Value="396423" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_VampireLore)" Tags="TestUnsafe" Value="396424" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_PipeOrgan)" Value="396425" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_VampireLore)" Value="396426" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_PipeOrgan)" Value="396427" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_PipeOrgan)" Value="396428" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_VampireLore)" Value="396429" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_VampireLore)" Value="396430" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_PipeOrgan)" Value="397522" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_VampireLore)" Value="397523" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_PipeOrgan" Tags="TestUnsafe" Value="398533" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_VampireLore" Tags="TestUnsafe" Value="398534" />
+  <Preset Label="immediate_MasteryPerk_SkillfulSleep_GoToRunCloneSituation" Value="413645" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_VampireLore_1)" Value="414388" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_PipeOrgan_1)" Value="414405" />
+  <Preset Label="Vampire Sun (immediate_EP17World_RiverStyx_TemporaryGhost_Debug_VampireSun)" Value="414642" />
+  <Preset Label="Skillful Sleep (coffin_Sleep_MasteryPerk_SkillfulSleep_FromLoad)" Value="437875" />
+  <Preset Label="Curing Vampirism (vampireCure_Transform_Unwilling_Occult_Crosspack)" Value="466155" />
 </PresetGroup>

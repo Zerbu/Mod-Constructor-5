@@ -115,7 +115,7 @@
   <Preset Label="Have Dinner (mealtime_Dinner_1Serving)" Value="74268" />
   <Preset Label="Make Family-Sized Dinner (mealtime_Dinner_4Servings)" Value="74269" />
   <Preset Label="Serve Dinner (mealtime_Dinner_8Servings)" Value="74270" />
-  <Preset Label="Have a Quick Meal (fridge_GrabSnack)" Value="74277" />
+  <Preset Label="Have a Quick Meal or Drink (fridge_GrabSnack)" Value="74277" />
   <Preset Label="Make Special Drink (bar_AngryCraftable)" Value="74973" />
   <Preset Label="Make Special Recipe (fridge_EmotionCrafting)" Value="75765" />
   <Preset Label="Build Skill (category_AwayAction_BuildSkill)" Value="76144" />
@@ -124,7 +124,7 @@
   <Preset Label="Cook Brunch with Ingredients (mealtime_Brunch_Ingredients)" Value="76655" />
   <Preset Label="Cook Dinner with Ingredients (mealtime_Dinner_Ingredients)" Value="76656" />
   <Preset Label="Cook Lunch with Ingredients (mealtime_Lunch_Ingredients)" Value="76657" />
-  <Preset Label="Set Color And Intensity (SetColorIntensity)" Value="76678" />
+  <Preset Label="Set Color and Intensity (SetColorIntensity)" Value="76678" />
   <Preset Label="Draw (pieMenuCategory_activityTable_startCrafting)" Value="77450" />
   <Preset Label="Brew Pot of (pieMenuCategory_BrewPot)" Value="77663" />
   <Preset Label="Brew Cup of (pieMenuCategory_BrewCup)" Value="77664" />
@@ -144,8 +144,8 @@
   <Preset Label="Paint from Reference (paintingCategories_Reference)" Value="115937" />
   <Preset Label="Fill Fountain With (fruitPunchFountain_FillWith)" Value="116871" />
   <Preset Label="Serve Food (banquetTable_Serve)" Value="116941" />
-  <Preset Label="Lock For (pieMenuCategory_DoorLocks)" Value="117859" />
-  <Preset Label="Allow Access To (pieMenuCategory_Door_AllowAccess)" Value="117860" />
+  <Preset Label="Lock for (pieMenuCategory_DoorLocks)" Value="117859" />
+  <Preset Label="Allow Access to (pieMenuCategory_Door_AllowAccess)" Value="117860" />
   <Preset Label="Change Color (pieMenuCategory_ChangeColor)" Value="118028" />
   <Preset Label="Purchase Fish (aquarium_purchase)" Value="118726" />
   <Preset Label="Aromatherapy (pieMenuCategory_HotTub_Aromatherapy)" Value="118896" />
@@ -156,8 +156,7 @@
   <Preset Label="Hire Staff (pieMenuCategory_HireNPC)" Value="126523" />
   <Preset Label="Order Food (pieMenuCategory_Bar_OrderFoodandSnacks)" Value="126560" />
   <Preset Label="Change Game (pieMenuCategory_gameTableGames)" Value="127229" />
-  <Preset Label="Other Sims (sim_Friendly_OtherSims)" Value="128062" />
-  <Preset Label="Other Sims (sim_Mean_OtherSims)" Value="128086" />
+  <Preset Label="Other Sims (pieMenuCategory_SocialMenu_SubCat_Relationship_OtherSims)" Value="128062" />
   <Preset Label="Order Drink (bar_OrderDrink)" Value="128254" />
   <Preset Label="Make Drink (bar_MakeDrink)" Value="128255" />
   <Preset Label="Actions (pieMenuCategory_Actions)" Value="129388" />
@@ -191,9 +190,32 @@
   <Preset Label="Outfits (pieMenuCategory_Outfits)" Value="142150" />
   <Preset Label="Management (pieMenuCategorty_OwnableBusiness_CustomerSocials)" Value="142909" />
   <Preset Label="Mark Up Prices (pieMenuCategory_CraftSalesTable_MarkUp)" Value="145231" />
+  <Preset Label="Play Game (videoGameConsole_PlayGame)" Value="145318" />
+  <Preset Label="Play Online Game (videoGameConsole_PlayGame_Online)" Value="145445" />
+  <Preset Label="Play Multiplayer Game (videoGameConsole_PlayGame_Multiplayer)" Value="145446" />
+  <Preset Label="Enter Novice Tournament (videoGameConsole_EnterGameTournament_Novice)" Value="145486" />
+  <Preset Label="Enter Professional Tournament (videoGameConsole_EnterGameTournament_Pro)" Value="145488" />
+  <Preset Label="Force Self to Play Game (videoGameConsole_GamedOut)" Value="145490" />
+  <Preset Label="Enter Game Tournament (videoGameConsole_EnterGameTournament)" Value="145491" />
+  <Preset Label="Play Game Together (videoGameConsole_PlayGame_Together)" Value="145970" />
   <Preset Label="Setup Lot (pieMenuCategory_SetupLot)" Value="146389" />
+  <Preset Label="Apply Makeup (object_Vanity_ApplyMakeUp)" Value="146706" />
+  <Preset Label="Enter Game Tournament (videoGameConsole_EnterGameTournament_TV)" Value="147866" />
+  <Preset Label="Enter Novice Tournament (videoGameConsole_EnterGameTournament_Novice_TV)" Value="147867" />
+  <Preset Label="Enter Professional Tournament (videoGameConsole_EnterGameTournament_Pro_TV)" Value="147868" />
+  <Preset Label="Force Self to Play Game (videoGameConsole_GamedOut_TV)" Value="147869" />
+  <Preset Label="Play Game (videoGameConsole_PlayGame_TV)" Value="147872" />
+  <Preset Label="Play Multiplayer Game (videoGameConsole_PlayGame_Multiplayer_TV)" Value="147873" />
+  <Preset Label="Play Online Game (videoGameConsole_PlayGame_Online_TV)" Value="147875" />
   <Preset Label="Marriage (ForceMarriage)" Value="148031" />
   <Preset Label="Request Boost (pieMenuCategory_EventNPC_XPBoost)" Value="149804" />
+  <Preset Label="Blues (object_Vanity_MakeUpCategories_Blue)" Value="152163" />
+  <Preset Label="Browns (object_Vanity_MakeUpCategories_Brown)" Value="152164" />
+  <Preset Label="Silvers (object_Vanity_MakeUpCategories_Silver)" Value="152165" />
+  <Preset Label="Goth (object_Vanity_MakeUpCategories_Goth)" Value="152166" />
+  <Preset Label="Pinks / Purples / Golds (object_Vanity_MakeUpCategories_PinkPurpleGold)" Value="152167" />
+  <Preset Label="Blacks / Grays (object_Vanity_MakeUpCategories_BlackGray)" Value="152168" />
+  <Preset Label="Greens / Turquoises (object_Vanity_MakeUpCategories_Green)" Value="152169" />
   <Preset Label="Vampire Secrets (computer_VampireSecrets)" Value="152948" />
   <Preset Label="Flash Cards (pieMenuCategory_AskForFlashCards_Com1)" Value="154222" />
   <Preset Label="Flash Cards (pieMenuCategory_ShowFlashCards)" Value="154426" />
@@ -217,7 +239,7 @@
   <Preset Label="Sell (pieMenuCategory_GardeningSell)" Value="188363" />
   <Preset Label="Light Controls (LightsParentCategory)" Value="190301" />
   <Preset Label="Auto-Lights (Automation_WithParentCategory)" Value="190307" />
-  <Preset Label="Set Color And Intensity (SetColorIntensity_WithParentCategory)" Value="190311" />
+  <Preset Label="Set Color and Intensity (SetColorIntensity_WithParentCategory)" Value="190311" />
   <Preset Label="Turn Off (TurnOff_WithParentCategory)" Value="190312" />
   <Preset Label="Turn On (TurnOn_WithParentCategory)" Value="190313" />
   <Preset Label="Business (phoneCategories_Work)" Value="193209" />
@@ -243,7 +265,7 @@
   <Preset Label="Freelancer (paintingCategory_Freelancer)" Value="206528" />
   <Preset Label="Freelancer (pieMenuCategory_Freelancer_Career)" Value="208499" />
   <Preset Label="Add Frame (pieMenuCategory_Photography_Frames_BG)" Value="215823" />
-  <Preset Label="Have a Microwaved Quick Meal (fridge_GrabSnack_Microwave)" Value="217060" />
+  <Preset Label="Have a Microwaved Quick Meal or Drink (fridge_GrabSnack_Microwave)" Value="217060" />
   <Preset Label="Rotate Photo (pieMenuCategory_Photography_Orientation_BG)" Value="217436" />
   <Preset Label="Update Frame (pieMenuCategory_Photography_Frames_Update_BG)" Value="220992" />
   <Preset Label="Order Drink (pieMenuCategories_MarketStalls_OrderDrink)" Value="224335" />
@@ -266,88 +288,37 @@
   <Preset Label="Scared (pieMenuCategory_CheatEmotion_Scared)" Value="251743" />
   <Preset Label="Create Animal (pieMenuCategory_AnimalObjects_Cheats_Create)" Value="257056" />
   <Preset Label="Cheat Relationship (pieMenuCategory_AnimalObjects_Cheats_Relationship)" Value="257057" />
-  <Preset Label="Female (CreateFemaleFox)" Value="257169" />
-  <Preset Label="Male (CreateMaleFox)" Value="257171" />
-  <Preset Label="Fox (pieMenuCategory_CreateSim_Fox)" Value="257172" />
   <Preset Label="Cheat Outcomes (pieMenuCategory_AnimalObjects_Cheats_forceOutcome)" Value="257691" />
   <Preset Label="Set Routing State (pieMenuCategory_AnimalObjects_Cheats_SetRoutingState)" Value="257930" />
   <Preset Label="Set Animation State (pieMenuCategory_AnimalObjects_Cheats_SetAnimationState)" Value="257931" />
-  <Preset Label="Debug: Add Oversized Crop (pieMenuCategory_GiantCrops_AddPlant)" Value="259347" />
   <Preset Label="Animal Treat Cheats (pieMenuCategory_LivestockFeed_FridgeCheats)" Value="259353" />
-  <Preset Label="Stitch from Patterns (pieMenuCategory_CrossStitch_StitchFromPatterns)" Value="259831" />
-  <Preset Label="Sims &amp; Animals (pieMenuCategory_CrossStitch_StitchFromPatterns_SubMenu_Animals)" Value="259832" />
-  <Preset Label="Food (pieMenuCategory_CrossStitch_StitchFromPatterns_SubMenu_Foods)" Value="259870" />
-  <Preset Label="Nature (pieMenuCategory_CrossStitch_StitchFromPatterns_SubMenu_Nature)" Value="259871" />
-  <Preset Label="Phrases &amp; Mascots (pieMenuCategory_CrossStitch_StitchFromPatterns_SubMenu_Words)" Value="259873" />
-  <Preset Label="Simple (pieMenuCategory_CrossStitch_StitchFromPatterns_SubMenu_Simple)" Value="259874" />
   <Preset Label="Create Egg (Debug) (pieMenuCategory_AnimalObjects_CreateEggs)" Value="260371" />
   <Preset Label="Create Hatchable Eggs (Debug) (pieMenuCategory_AnimalObjects_CreateFertilizedEggs)" Value="260372" />
-  <Preset Label="Give Gift (pieMenuCategory_CritterGifting)" Value="260537" />
   <Preset Label="Give Treat (pieMenuCategory_AnimalObjects_Feed)" Value="260967" />
   <Preset Label="Socialize (pieMenuCategory_AnimalObjects_Socialize)" Value="260969" />
   <Preset Label="Set Color (From Feed) (pieMenuCategory_AnimalObjects_Cheats_LivestockFeed_SetColor)" Value="261415" />
   <Preset Label="Set Harvest Bonus (From Feed) (pieMenuCategory_AnimalObjects_Cheats_LivestockFeed_SetHarvestBonus)" Value="261937" />
   <Preset Label="Set Harvest Ready State (pieMenuCategory_AnimalObjects_Cheats_SetHarvestReadyState)" Value="262988" />
-  <Preset Label="Stitch from Reference (pieMenuCategory_CrossStitch_StitchFromReference)" Value="263065" />
-  <Preset Label="Gifting (pieMenuCategory_CritterGifting_Gifting)" Value="264684" />
-  <Preset Label="Animal Clothing (pieMenuCategory_AnimalObjects_AnimalClothing)" Value="265623" />
   <Preset Label="Controller State (pieMenuCategory_AnimalObjects_Cheats_BirdHome_SetControllerState)" Value="265828" />
-  <Preset Label="Trade For (pieMenuCategory_AnimalObjects_Trade)" Value="266848" />
-  <Preset Label="Cross-stitch Cheats (pieMenuCategory_CrossStitch_Cheats)" Value="267046" />
+  <Preset Label="Trade for (pieMenuCategory_AnimalObjects_Trade)" Value="266848" />
   <Preset Label="Actions (pieMenuCategory_AnimalObjects_Actions)" Value="268648" />
-  <Preset Label="Debug: Start Conspire With Gnome Situation (pieMenuCategory_ConspireWithGnomes_Debug)" Value="268818" />
-  <Preset Label="Trade for Blueberry (pieMenuCategory_TradeBerries_ForBlueberry)" Value="269013" />
-  <Preset Label="Trade Berries (pieMenuCategory_TradeBerries_Parent)" Value="269015" />
-  <Preset Label="Trade for Raspberry (pieMenuCategory_TradeBerries_ForRaspberry)" Value="269016" />
-  <Preset Label="Trade for a Chocoberry (pieMenuCategory_TradeBerries_ForChocolateBerry)" Value="269017" />
   <Preset Label="Upgrade (pieMenuCategory_AnimalObjects_Upgrade)" Value="269570" />
   <Preset Label="Camera (pieMenuCategory_RelPanel_Camera)" Value="269571" />
   <Preset Label="Music Performance (pieMenuCategory_Debug_MusicFestival)" Value="269646" />
-  <Preset Label="Ask to Craft Clothing (pieMenuCategory_AnimalObjects_AnimalClothing_Craft)" Value="269826" />
   <Preset Label="Buy Festival T-Shirts (pieMenuCategory_MusicFestival_Buy_Shirt)" Value="270587" />
   <Preset Label="Buy and Change Into Festival T-Shirts (pieMenuCategory_MusicFestival_BuyWear_Shirt)" Value="270591" />
   <Preset Label="Pack Cheats (pieMenuCategory_Cheats_Main)" Value="274721" />
   <Preset Label="Expansion Packs (pieMenuCategory_Cheats_PackType_EPs)" Value="274723" />
   <Preset Label="Stuff Packs (pieMenuCategory_Cheats_PackType_SPs)" Value="274724" />
   <Preset Label="Game Packs (pieMenuCategory_Cheats_PackType_GPs)" Value="274725" />
-  <Preset Label="EP11 - Cottage Living (PieMenuCategory_Cheats_EP11)" Value="274730" />
   <Preset Label="Steep Tea (Teaset_Steep)" Value="275560" />
   <Preset Label="Baby Care (sim_Infant_Care)" Value="275893" />
   <Preset Label="Ceremony Activities (pieMenuCategory_Weddings)" Value="275931" />
-  <Preset Label="Send Down (pieMenuCategory_Wedding_Aisle_SendDown)" Value="276934" />
-  <Preset Label="Send Up (pieMenuCategory_Wedding_Aisle_SendUp)" Value="276935" />
-  <Preset Label="Draw (pieMenuCategory_SandPlay)" Value="277230" />
-  <Preset Label="Decorate Locker (pieMenuCategory_SchoolLocker_Decorations)" Value="277599" />
-  <Preset Label="Call Attendees to Activity (pieMenuCategory_PrePostWeddingParties_Activities)" Value="278514" />
-  <Preset Label="Exchange Vows (pieMenuCategory_Custom_State_Wedding_ExchangeVows)" Value="280405" />
   <Preset Label="Add Baby Mobile (pieMenuCategory_Infant_Crib_Mobile)" Value="280815" />
   <Preset Label="Feed (sim_Infant_Care_Feed)" Value="282446" />
-  <Preset Label="Prom (pieMenuCategory_HSProm)" Value="282741" />
   <Preset Label="Camera (phoneCategories_Camera)" Value="283062" />
   <Preset Label="Shopping (phoneCategories_Shopping)" Value="283064" />
-  <Preset Label="Social Bunny (phoneCategories_Social_Media)" Value="283066" />
-  <Preset Label="Trendi (phoneCategories_Trendi)" Value="283067" />
-  <Preset Label="EP12 (pieMenuCategory_Cheats_EP12)" Value="283669" />
-  <Preset Label="High School (pieMenuCategory_HSExit_HighSchool)" Value="283705" />
-  <Preset Label="Dare to Prank (pieMenuCategory_TeenPranks_Dare)" Value="285672" />
-  <Preset Label="Werewolf Cheats (pieMenuCategory_Werewolf_Debug)" Value="285828" />
-  <Preset Label="Exchange Vows (pieMenuCategory_Custom_State_Wedding_ExchangeVows_Arch)" Value="285830" />
-  <Preset Label="Purchase Unique High School Festival Clothing (pieMenuCategories_MarketStalls_HighSchoolFestivals)" Value="286142" />
-  <Preset Label="Shave (pieMenuCategory_Shower_Shave)" Value="286255" />
-  <Preset Label="Werewolf Pack (pieMenuCategory_WerewolfPack)" Value="287125" />
-  <Preset Label="Use Facilities (pieMenuCategory_WerewolfPack_ShellMotive)" Value="287278" />
-  <Preset Label="Join Pack (pieMenuCategory_WerewolfPack_Join)" Value="287423" />
-  <Preset Label="Werewolf (pieMenuCategory_Werewolf)" Value="287918" />
-  <Preset Label="High School Graduation (sim_Graduation)" Value="288439" />
-  <Preset Label="Werewolf Pack (pieMenuCategory_WerewolfPack_Debug)" Value="289375" />
-  <Preset Label="Take Photo With (pieMenuCategory_Photobooth_TakePhoto)" Value="290154" />
-  <Preset Label="Decorate (pieMenuCategory_WerewolfPack_Decorate)" Value="290552" />
   <Preset Label="Debug Buffs (pieMenuCategory_DebugBuffs)" Value="290869" />
-  <Preset Label="Challenge Leader for Alpha Rank (pieMenuCategory_WerewolfPack_ChallengeLeader)" Value="290932" />
-  <Preset Label="Command To (pieMenuCategory_WerewolfPack_Commands)" Value="293945" />
-  <Preset Label="Pack Hierarchy (pieMenuCategory_WerewolfPack_Hierarchy)" Value="293946" />
-  <Preset Label="Change Graduation Outfit (HSGraduation_ChangeOutfit)" Value="296485" />
-  <Preset Label="Werewolf (pieMenuCategory_Werewolf_Child)" Value="300156" />
   <Preset Label="Likes and Dislikes (pieMenuCategory_Preferences)" Value="303615" />
   <Preset Label="Play Lullaby (pieMenuCategory_Infant_Crib_Lullaby)" Value="304991" />
   <Preset Label="Choose Feeding Preference (sim_BabyFeed_Preference)" Value="305162" />
@@ -409,10 +380,50 @@
   <Preset Label="Activities (sim_SubCat_Friendly_Activities)" Value="318696" />
   <Preset Label="Ponder the Meaning of Family (pieMenuCategory_KeepsakeBox_PonderFamily)" Value="320394" />
   <Preset Label="Set Family Dynamic To (pieMenuCategory_Tropes_Cheats)" Value="321478" />
+  <Preset Label="Encourage to Socialize with (sim_SubCat_Friendly_SuggestToSocializeWith)" Value="325458" />
   <Preset Label="Toddler Quirks (pieMenuCategory_Cheats_ToddlerPersonalityUpdate_Quirks)" Value="331031" />
   <Preset Label="Add Discoverable Quirk (pieMenuCategory_Cheats_ToddlerPersonalityUpdate_Add)" Value="331032" />
   <Preset Label="Remove Quirk (pieMenuCategory_Cheats_ToddlerPersonalityUpdate_Remove)" Value="331033" />
   <Preset Label="Infant Quirks (pieMenuCategory_Cheats_InfantElement_Quirks)" Value="331223" />
   <Preset Label="Add Discoverable Quirk (pieMenuCategory_Cheats_InfantElement_Add)" Value="331224" />
   <Preset Label="Remove Quirk  (pieMenuCategory_Cheats_InfantElement_Remove)" Value="331225" />
+  <Preset Label="Care (pieMenuCategory_AnimalObjects_Care)" Value="337336" />
+  <Preset Label="Chores (pieMenuCategory_AnimalObjects_Help)" Value="337339" />
+  <Preset Label="Support (PieMenuCategory_Shell_Donations)" Value="346544" />
+  <Preset Label="Encourage to (pieMenuCategory_HorseEncourageSocials)" Value="346892" />
+  <Preset Label="Grab a Drink (lunchbox_GrabDrink)" Value="350064" />
+  <Preset Label="Have a Quick Meal (lunchbox_GrabQuickMeal)" Value="350065" />
+  <Preset Label="Draw (pieMenuCategory_SandPlay)" Value="351832" />
+  <Preset Label="Set Sink Type (pieMenuCategory_SetSinkType)" Value="355094" />
+  <Preset Label="Ask On (pieMenuCategory_RelPanel_AskOn)" Value="357524" />
+  <Preset Label="Wear Flirty Costume (pieMenuCategory_CostumeBox_Wear_Flirty)" Value="361514" />
+  <Preset Label="Wear Confident Costume (pieMenuCategory_CostumeBox_Wear_Confident)" Value="361516" />
+  <Preset Label="Wear Playful Costume (pieMenuCategory_CostumeBox_Wear_Playful)" Value="361517" />
+  <Preset Label="Call to Wear (pieMenuCategory_CostumeBox_CallToWear)" Value="361524" />
+  <Preset Label="Relationship (sim_Relationship)" Value="362662" />
+  <Preset Label="Whimsy (pieMenuCategory_CostumeBox_Wear_Confident_Whimsy)" Value="365753" />
+  <Preset Label="Jobs (pieMenuCategory_CostumeBox_Wear_Confident_Job)" Value="365754" />
+  <Preset Label="Fantasy (pieMenuCategory_CostumeBox_Wear_Confident_Fantasy)" Value="365755" />
+  <Preset Label="Whimsy (pieMenuCategory_CostumeBox_Wear_Flirty_Whimsy)" Value="365756" />
+  <Preset Label="Jobs (pieMenuCategory_CostumeBox_Wear_Flirty_Job)" Value="365757" />
+  <Preset Label="Fantasy (pieMenuCategory_CostumeBox_Wear_Flirty_Fantasy)" Value="365758" />
+  <Preset Label="Whimsy (pieMenuCategory_CostumeBox_Wear_Playful_Whimsy)" Value="365759" />
+  <Preset Label="Jobs (pieMenuCategory_CostumeBox_Wear_Playful_Job)" Value="365760" />
+  <Preset Label="Fantasy (pieMenuCategory_CostumeBox_Wear_Playful_Fantasy)" Value="365761" />
+  <Preset Label="Ask To Reconsider Romantic Boundaries (pieMenuCategory_RelExpectations_AskToChangeOutlook)" Value="368798" />
+  <Preset Label="Outfits (pieMenuCategory_CostumeBox_DresserInteractions)" Value="369743" />
+  <Preset Label="Learn More (pieMenuCategory_SocialMenu_SubCat_Relationship_Info)" Value="372509" />
+  <Preset Label="Change Relationship (pieMenuCategory_SocialMenu_SubCat_Relationship_Modify)" Value="372510" />
+  <Preset Label="Mentoring (pieMenuCategory_Mentor)" Value="376065" />
+  <Preset Label="Social (pieMenuCategory_RelPanel_Social)" Value="377575" />
+  <Preset Label="Bills Due (pieMenuCategory_Bills)" Value="379469" />
+  <Preset Label="Display as (pieMenuCategory_Gravesite_Urnstone)" Value="386121" />
+  <Preset Label="Set Alarm for Room (alarmClock_SetAlarmFor)" Value="399449" />
+  <Preset Label="Morning (alarmClock_Morning)" Value="399450" />
+  <Preset Label="Evening (alarmClock_Evening)" Value="399461" />
+  <Preset Label="Night (alarmClock_Night)" Value="399462" />
+  <Preset Label="Daytime (alarmClock_Daytime)" Value="401607" />
+  <Preset Label="Mysterious Merchandise (pieMenuCategory_WaylonWarez)" Value="414520" />
+  <Preset Label="Test Based Score Outputs (cheat_TestBasedScore)" Value="433620" />
+  <Preset Label="Give Gift (pieMenuCategory_GiveGift_BG)" Value="442798" />
 </PresetGroup>

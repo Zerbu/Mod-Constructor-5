@@ -1,23 +1,15 @@
 <?xml version="1.0"?>
 <PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="All Loot Actions GP11">
-  <Preset Label="loot_Buff_Drink_Tea_TeaSet_BlackDragon" Value="274310" />
   <Preset Label="loot_Married_Newlywed" Value="274901" />
   <Preset Label="loot_Buff_Add_Married_Newlywed" Value="275286" />
   <Preset Label="loot_Buff_Remove_Married_Newlywed" Value="275287" />
-  <Preset Label="loot_Commodity_TeaSet_ReduceServings" Value="275635" />
   <Preset Label="loot_Wedding_WeddingTraditionAskToComeToWedding" Value="277017" />
-  <Preset Label="loot_Wedding_WeddingTraditionAskToBeInWeddingParty" Value="277018" />
-  <Preset Label="loot_SandPlay_Restore" Value="277262" />
   <Preset Label="randomWeightedLoot_Wedding_Aisle_GiveBuff_Actor" Value="277835" />
   <Preset Label="randomWeightedLoot_Wedding_Aisle_GiveBuff_Target" Value="277840" />
   <Preset Label="loot_Wedding_Aisle_GainRelWithCouple" Value="277851" />
   <Preset Label="loot_Sentiment_Buffs_Adoring_BestMan" Value="277953" />
   <Preset Label="loot_Sentiment_Buffs_Adoring_MaidOfHonor" Value="277954" />
   <Preset Label="loot_Custom_State_Wedding_PhaseStat_Vows" Value="278958" />
-  <Preset Label="randomWeightedLoot_SandPlay_Bottle_Friendly" Value="279321" />
-  <Preset Label="randomWeightedLoot_SandPlay_Bottle_Love" Value="279323" />
-  <Preset Label="randomWeightedLoot_SandPlay_Bottle_Secret" Value="279324" />
-  <Preset Label="randomWeightedLoot_SandPlay_Bottle_Wish" Value="279325" />
   <Preset Label="loot_SandPlay_BottleNotification" Value="279687" />
   <Preset Label="loot_Custom_State_Wedding_MakeRingBearer" Value="279778" />
   <Preset Label="loot_Buff_WeddingWorld_WaterfallWistfulness" Value="279908" />
@@ -80,7 +72,6 @@
   <Preset Label="random_Sentiment_Buffs_Furious_WeddingParties_EjectedGuest" Value="280834" />
   <Preset Label="loot_Sentiment_Buffs_Furious_WeddingParties_EjectedGuest" Value="280836" />
   <Preset Label="loot_Sentiment_AddSentiment_Furious_WeddingParties_EjectedGuest" Value="280837" />
-  <Preset Label="random_Sentiment_Buffs_Close_Teaset_TeaParty" Value="280851" />
   <Preset Label="random_Sentiment_Buffs_Enamored_PairedDancing_FirstDance" Value="280852" />
   <Preset Label="loot_Sentiment_Buffs_Close_Teaset_TeaParty" Value="280858" />
   <Preset Label="loot_Sentiment_Buffs_Enamored_PairedDancing_FirstDance" Value="280859" />
@@ -149,7 +140,6 @@
   <Preset Label="loot_Relationship_Bit_Custom_State_Wedding_FlowerSpreader" Value="281960" />
   <Preset Label="loot_Relationship_Bit_Custom_State_Wedding_RingBearer" Value="281961" />
   <Preset Label="loot_Wedding_WeddingTradition_Divorce" Value="282013" />
-  <Preset Label="randomWeightedLoot_SandPlay_Bottle_Threat" Value="282110" />
   <Preset Label="loot_Custom_State_Wedding_SpeechComplete" Value="282134" />
   <Preset Label="loot_Sentiment_AddSentiment_Adoring_WeddingTradition_SelectedBestMan_Target" Value="282356" />
   <Preset Label="loot_Sentiment_AddSentiment_Adoring_WeddingTradition_SelectedMaidOfHonor_Target" Value="282357" />
@@ -174,4 +164,8 @@
   <Preset Label="loot_Relationship_Bit_Custom_State_Wedding_VowRenewal_HonorAttendant_Actor" Value="289937" />
   <Preset Label="loot_Custom_State_Wedding_SpeechComplete_Officiant" Value="291244" />
   <Preset Label="loot_Custom_State_Wedding_VowsOver" Value="291245" />
+  <Preset Label="loot_Wedding_WeddingTradition_Divorce_ActorToPickedSim" Value="394010" />
+  <Preset Label="loot_Wedding_WeddingTradition_Divorce_TargetSimToPickedSim" Value="394011" />
+  <Preset Label="loot_Custom_State_Wedding_CeremonyActivity_LockAutonomy" Value="398834" />
+  <Preset Label="randomWeightedLoot_SandPlay_Bottle" Value="472755" />
 </PresetGroup>

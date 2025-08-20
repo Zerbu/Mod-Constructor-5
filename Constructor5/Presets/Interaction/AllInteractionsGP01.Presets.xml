@@ -45,9 +45,6 @@
   <Preset Label="Take Turn (horseshoes_taketurn)" Value="104024" />
   <Preset Label="Watch Game (horseshoes_listen)" Tags="TestUnsafe" Value="104027" />
   <Preset Label="Sabotage with Fireleaf Extract (Tent_Sabotage)" Value="104169" />
-  <Preset Label="generic_Stargaze" Value="104177" />
-  <Preset Label="Ask to Stargaze (mixer_social_AskToStargaze_targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="104180" />
-  <Preset Label="Stargaze (Solo_Stargazing)" Value="104215" />
   <Preset Label="Spray (herbalism_Potion_Spray)" Value="104364" />
   <Preset Label="Drink_ChugPotion" Value="104521" />
   <Preset Label="Drink {1.ObjectName} (generic_consume_drink_nonbar_HerbalismPotion)" Value="104522" />
@@ -85,8 +82,6 @@
   <Preset Label="Sing Songs (guitar_SingSongs_Indirect)" Value="106032" />
   <Preset Label="Play Violin (violin_Concerto_Indirect)" Value="106042" />
   <Preset Label="Discuss Game (mixer_horseShoes_Discuss_Game)" Tags="TestUnsafe" Value="106150" />
-  <Preset Label="Stargaze Together (si_Social_Stargaze)" Value="106456" />
-  <Preset Label="mixer_socials_Idles_Stargaze" Tags="TestUnsafe" Value="106895" />
   <Preset Label="Pour (herbalism_Potion_Pour_Dummy)" Value="107052" />
   <Preset Label="Spray (herbalism_Potion_Spray_Dummy)" Value="107054" />
   <Preset Label="Share Astronomy Knowledge (mixer_social_ShareAstronomyKnowledge_targeted_Friendly_alwaysOn)" Tags="TestUnsafe" Value="107372" />
@@ -124,8 +119,6 @@
   <Preset Label="Explore Woods (campgroundHelpers_MapView_RangerStation)" Value="110170" />
   <Preset Label="Explore (RabbitHole_Bramble_Explore_FailureExit)" Value="110196" />
   <Preset Label="Apply {1.ObjectName} (herbalism_Potion_Apply_NotConsume)" Value="110300" />
-  <Preset Label="Stargaze (Solo_Stargazing_Join)" Value="110303" />
-  <Preset Label="mixer_solo_stargaze" Value="110354" />
   <Preset Label="grill_Ico_Transition" Value="110419" />
   <Preset Label="Give Herbalism Tips (mixer_social_GiveHerbalismAdvice_Targeted_Friendly_AlwaysOn_skills)" Tags="TestUnsafe" Value="110463" />
   <Preset Label="cooking_Shared_AddHerb_Elderberry_Toxic" Value="110495" />
@@ -170,9 +163,23 @@
   <Preset Label="A Ghost Story (tellGroupStory_Picker_Ghost_HolidayCampfire)" Tags="TestUnsafe" Value="190901" />
   <Preset Label="Brew Herbal Remedy (herbalism_BrewPotion_Autonomous_CivicPolicy)" Value="234367" />
   <Preset Label="Brew Herbal Remedy (herbalism_BrewPotion_Stove_Offthegrid)" Value="241823" />
-  <Preset Label="Roast (campfire_startCrafting_RequiredIngredients)" Value="262116" />
   <Preset Label="Give Wild Insects (critterGifting_GiveGift_ToBird_Picker_InsectWild)" Tags="TestUnsafe" Value="267168" />
   <Preset Label="Give Wild Insects (critterGifting_GiveGift_ToFox_Picker_InsectWild)" Tags="TestUnsafe" Value="267169" />
   <Preset Label="Give Wild Insects (critterGifting_GiveGift_ToRabbit_Picker_InsectWild)" Tags="TestUnsafe" Value="267170" />
-  <Preset Label="Stargaze (solo_Stargazing_Autonomous)" Value="327752" />
+  <Preset Label="Grab All Servings (pressureCooker_GrabMultiServing_Gumbo)" Value="354098" />
+  <Preset Label="Call to Meal (pressureCooker_GrabMultiServing_CallToMeal_Gumbo)" Value="354111" />
+  <Preset Label="Bear (costumeBox_WearCostume_Confident_Bear)" Value="365430" />
+  <Preset Label="Bear (costumeBox_WearCostume_Flirty_Bear)" Value="365431" />
+  <Preset Label="Bear (costumeBox_WearCostume_Playful_Bear)" Value="365432" />
+  <Preset Label="Supports Large and X-Large Curved Walls (cookingPractice_Mentoring_Start_Herbalism)" Value="390944" />
+  <Preset Label="Supports Large and X-Large Curved Walls (cookingPractice_Mentoring_Cont_Herbalism)" Value="390945" />
+  <Preset Label="mixer_CookingPractice_Herbalism" Value="390946" />
+  <Preset Label="autonomous_ObjectPicker_GrimChallenge_Horseshoes" Tags="TestUnsafe" Value="391632" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Herbalism)" Value="396468" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Herbalism)" Value="396469" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Herbalism)" Value="396470" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Herbalism)" Tags="TestUnsafe" Value="396471" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Herbalism" Tags="TestUnsafe" Value="398497" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Herbalism)" Value="399519" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Herbalism_1)" Value="414399" />
 </PresetGroup>

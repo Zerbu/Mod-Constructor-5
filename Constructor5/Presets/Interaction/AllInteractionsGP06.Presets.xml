@@ -109,9 +109,6 @@
   <Preset Label="Dance the Rumbasim (stereo_Dance_LocalCultureSkill)" Value="175415" />
   <Preset Label="Refine Crystal (archaeologyTable_GoToTable_RefineCrystal)" Value="175418" />
   <Preset Label="archaeologyTable_FindTable_RefineCrystal" Tags="TestUnsafe" Value="175419" />
-  <Preset Label="Listen to Latin Music (stereo_Listen_Latin)" Value="175457" />
-  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_HotTub)" Value="175458" />
-  <Preset Label="Listen to Latin Music (stereo_earbuds_Listen_Latin)" Value="175459" />
   <Preset Label="Refine Crystal (archaeologyTable_FromTable_RefineCrystal)" Tags="TestUnsafe" Value="175464" />
   <Preset Label="Refine Crystal (archaeologyTable_RefineCrystal)" Value="175475" />
   <Preset Label="Extract Element (archaeologyTable_ExtractElement)" Value="175638" />
@@ -127,9 +124,6 @@
   <Preset Label="Practice Archaeological Analysis (archaeologyTable_AnalyzeCollectible)" Value="175702" />
   <Preset Label="Practice Archaeological Analysis (archaeologyTable_GoToTable_AnalyzeCollectible)" Value="175703" />
   <Preset Label="archaeologyTable_FindTable_AnalyzeCollectible" Tags="TestUnsafe" Value="175704" />
-  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop)" Value="175718" />
-  <Preset Label="Listen to Latin Pop (stereo_earbuds_Listen_LatinPop)" Value="175730" />
-  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop_HotTub)" Value="175731" />
   <Preset Label="archaeologyTable_AnalyzeCollectible_Sketch" Value="175733" />
   <Preset Label="archaeologyTable_AnalyzeCollectible_Contemplate" Value="175734" />
   <Preset Label="archaeologyTable_AnalyzeCollectible_TakeNotes" Value="175735" />
@@ -138,8 +132,6 @@
   <Preset Label="Dig (collection_DigSite_Dig_GP06_Rare)" Value="175745" />
   <Preset Label="Travel Through (superInteraction_TravelThrough_JungleAdventure)" Value="175755" />
   <Preset Label="archaeologyTable_ReceiveReward_ExtractElement" Value="175782" />
-  <Preset Label="Listen to Latin Music (stereoWall_listen_Latin)" Value="175850" />
-  <Preset Label="Listen to Latin Pop (stereoWall_listen_LatinPop)" Value="175851" />
   <Preset Label="Extract Fossil (collection_Fossils_Rock_Excavate_GP06)" Value="175861" />
   <Preset Label="Extract Fossil (collection_Fossils_Rock_Excavate_Inventory_GP06)" Value="175862" />
   <Preset Label="Uncover Artifact (archaeologyTable_UncoverArtifact)" Value="175887" />
@@ -305,8 +297,6 @@
   <Preset Label="temple_Trap_Punishment_NothingBad_BoneDust_RotatingSculpture" Value="179650" />
   <Preset Label="temple_Trap_Punishment_NothingBad_BoneDust_Skeletons" Value="179651" />
   <Preset Label="Travel To Temple (go_To_Specific_Lot_Jungle_Temple_DEBUG)" Value="180012" />
-  <Preset Label="Listen to Latin Pop (stereo_Listen_Reggaeton_SkatingRink)" Value="180024" />
-  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_SkatingRink)" Value="180025" />
   <Preset Label="mixer_NaturalDangers_PainIdle" Value="180046" />
   <Preset Label="Travel To Lodging (go_To_Specific_Lot_Jungle_Lodging_DEBUG)" Value="180119" />
   <Preset Label="Open Treasure Chest (treasureChest_Open_Rare)" Value="180178" />
@@ -346,8 +336,6 @@
   <Preset Label="View (temple_Trap_View)" Value="183150" />
   <Preset Label="Eat {1.ObjectName} (generic_consume_AdventureGear_FoodPacket)" Value="183217" />
   <Preset Label="Give Antidote to Cure Poison (socials_Targeted_Friendly_AlwaysOn_STC_GiveAntidote)" Tags="TestUnsafe" Value="183792" />
-  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop_HotTub_NotInHotTub)" Value="183906" />
-  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_HotTub_NotInHotTub)" Value="183910" />
   <Preset Label="Step onto Plate with Confidence (temple_Trap_Activate_DEBUG_EmotionalPlate_Confident)" Value="184049" />
   <Preset Label="Step onto Plate with Energy (temple_Trap_Activate_DEBUG_EmotionalPlate_Energized)" Value="184050" />
   <Preset Label="Step onto Plate with Flirtiness (temple_Trap_Activate_DEBUG_EmotionalPlate_Flirty)" Value="184051" />
@@ -371,10 +359,22 @@
   <Preset Label="Pull Left Warrior's Weapon (temple_Trap_Activate_DEBUG_Skeletons_Left)" Value="184074" />
   <Preset Label="Pull Middle Warrior's Weapon (temple_Trap_Activate_DEBUG_Skeletons_Middle)" Value="184075" />
   <Preset Label="Pull Right Warrior's Weapon (temple_Trap_Activate_DEBUG_Skeletons_Right)" Value="184076" />
-  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_Smart_Hub)" Value="203844" />
-  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop_Smart_Hub)" Value="203845" />
-  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_WaterScooter)" Value="205201" />
-  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop_WaterScooter)" Value="205202" />
-  <Preset Label="Listen to Latin Pop (stereo_Listen_LatinPop_Bot)" Value="223589" />
-  <Preset Label="Listen to Latin Music (stereo_Listen_Latin_Bot)" Value="223590" />
+  <Preset Label="Skeleton (costumeBox_WearCostume_Confident_Skeleton)" Value="365160" />
+  <Preset Label="Skeleton (costumeBox_WearCostume_Flirty_Skeleton)" Value="365486" />
+  <Preset Label="Skeleton (costumeBox_WearCostume_Playful_Skeleton)" Value="365487" />
+  <Preset Label="Practice Archaeological Analysis (archaeologyTable_NPCPractice)" Value="378873" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_LocalCulture)" Value="396490" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Archaeology)" Value="396491" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Archaeology)" Value="396492" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_LocalCulture)" Value="396493" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Archaeology)" Value="396494" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_LocalCulture)" Tags="TestUnsafe" Value="396495" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Archaeology)" Tags="TestUnsafe" Value="396496" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_LocalCulture)" Value="396599" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Archaeology" Tags="TestUnsafe" Value="398503" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_LocalCulture" Tags="TestUnsafe" Value="398504" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Archaeology)" Value="399522" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_LocalCulture)" Value="399523" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Archaeology_1)" Value="414389" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_LocalCulture_1)" Value="414421" />
 </PresetGroup>

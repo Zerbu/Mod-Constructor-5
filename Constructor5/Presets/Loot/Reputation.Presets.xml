@@ -1,16 +1,24 @@
 <?xml version="1.0"?>
 <PresetGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Label="Reputation">
+  <Preset Label="Loot_BrokenUp" Value="10796" />
+  <Preset Label="Loot_Divorced" Value="10847" />
   <Preset Label="loot_Buff_Trait_Klepto_CaughtStealing" Value="132378" />
   <Preset Label="loot_Reputation_Volunteer_Success" Value="194491" />
   <Preset Label="loot_Reputation_Volunteer_Failure" Value="194492" />
-  <Preset Label="loot_HSExit_ReportCard_Graduate_Honors" Value="277827" />
-  <Preset Label="loot_HSExit_ReportCard_Graduate_Valedictorian" Value="277828" />
-  <Preset Label="loot_HSExit_ReportCard_Graduate" Value="277829" />
-  <Preset Label="loot_HSExit_ReportCard_Dropout" Value="277830" />
-  <Preset Label="loot_HSExit_Interactions_Dropout" Value="278126" />
-  <Preset Label="loot_HSExit_Interactions_GraduateEarly" Value="278128" />
-  <Preset Label="loot_HSExit_Interactions_EarnGED" Value="278225" />
+  <Preset Label="loot_BrokenUp_ActorToTargetSim" Value="273691" />
   <Preset Label="loot_LifeMilestone_RetroactiveUnlock" Value="312174" />
+  <Preset Label="loot_Divorced_ActorToTargetSim" Value="363154" />
+  <Preset Label="loot_BasicSocialOutcome_Romance_Failure_Basic" Value="366776" />
+  <Preset Label="loot_BasicSocialOutcome_Friendly_Failure_Basic" Value="369795" />
+  <Preset Label="loot_BasicSocialOutcome_Friendly_Failure_Bored" Value="369796" />
+  <Preset Label="loot_BasicSocialOutcome_Funny_Failure_Basic" Value="369799" />
+  <Preset Label="loot_BasicSocialOutcome_Funny_Failure_Bored" Value="369800" />
+  <Preset Label="loot_BasicSocialOutcome_Mischief_Failure_Basic" Value="369813" />
+  <Preset Label="loot_BasicSocialOutcome_Mischief_Failure_Bored" Value="369814" />
+  <Preset Label="Loot_Divorced_PhoneBreakup_ActorToPickedSim" Value="375982" />
+  <Preset Label="loot_Buff_Trait_Grouch_CaughtSabotage" Value="429005" />
+  <Preset Label="loot_SendForgedBreakupLetter_Brokenup" Value="187417" />
+  <Preset Label="loot_SendForgedBreakupLetter_Divorced" Value="187432" />
   <Preset Label="loot_FameOpportunity_Activist_Base" Value="191529" />
   <Preset Label="loot_FameOpportunity_Activist_Charity" Value="191530" />
   <Preset Label="loot_FameOpportunity_Astronaut_Smuggler" Value="191533" />
@@ -188,6 +196,138 @@
   <Preset Label="loot_HSExit_Interactions_Dropout" Value="278126" />
   <Preset Label="loot_HSExit_Interactions_GraduateEarly" Value="278128" />
   <Preset Label="loot_HSExit_Interactions_EarnGED" Value="278225" />
+  <Preset Label="loot_Snooping_Bribe" Value="346667" />
+  <Preset Label="loot_BrokenUp_PhoneBreakup_ActorToPickedSim" Value="375892" />
+  <Preset Label="loot_Divorced_AutoInitRomance" Value="387558" />
+  <Preset Label="loot_BrokenUp_AutoInitRomance" Value="387559" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelUp_7_Dreamer" Value="376323" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelUp_2_Schemer" Value="376324" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelUp_3_Schemer" Value="376325" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelUp_4_Neutral" Value="376326" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelUp_5_Dreamer" Value="376327" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelUp_6_Dreamer" Value="376328" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelDown_6_Dreamer" Value="376330" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelDown_1_Schemer" Value="376331" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelDown_2_Schemer" Value="376332" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelDown_3_Schemer" Value="376333" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelDown_4_Neutral" Value="376334" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelDown_5_Dreamer" Value="376335" />
+  <Preset Label="loot_SmallBusiness_Reputation_Gain_Small" Value="376345" />
+  <Preset Label="loot_SmallBusiness_Reputation_Gain_Medium" Value="376346" />
+  <Preset Label="loot_SmallBusiness_Reputation_Gain_Large" Value="376347" />
+  <Preset Label="loot_SmallBusiness_Reputation_Loss_Small" Value="376349" />
+  <Preset Label="loot_SmallBusiness_Reputation_Loss_Medium" Value="376350" />
+  <Preset Label="loot_SmallBusiness_Reputation_Loss_Large" Value="376351" />
+  <Preset Label="loot_SmallBusiness_Reputation_Broadcaster_Honest" Value="376361" />
+  <Preset Label="loot_SmallBusiness_Reputation_Broadcaster_Shady" Value="376362" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Buff_0" Value="376414" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Buff_1" Value="376415" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Buff_2" Value="376416" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Buff_3" Value="376417" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Buff_4" Value="376418" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Buff_5" Value="376419" />
+  <Preset Label="loot_SmallBusiness_Reputation_LevelDown_7_Dreamer" Value="376421" />
+  <Preset Label="loot_SmallBusiness_Reputation_Cheat_7" Value="376996" />
+  <Preset Label="loot_SmallBusiness_Reputation_Cheat_1" Value="376997" />
+  <Preset Label="loot_SmallBusiness_Reputation_Cheat_2" Value="376998" />
+  <Preset Label="loot_SmallBusiness_Reputation_Cheat_3" Value="376999" />
+  <Preset Label="loot_SmallBusiness_Reputation_Cheat_4" Value="377000" />
+  <Preset Label="loot_SmallBusiness_Reputation_Cheat_5" Value="377001" />
+  <Preset Label="loot_SmallBusiness_Reputation_Cheat_6" Value="377002" />
+  <Preset Label="loot_SmallBusiness_Reputation_Broadcaster_Off" Value="377023" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Loot_0" Value="377025" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Loot_1" Value="377026" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Loot_2" Value="377027" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Loot_3" Value="377028" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Loot_4" Value="377066" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Loot_5" Value="377067" />
+  <Preset Label="loot_SmallBusiness_Reputation_Rebranding_Outcome" Value="379352" />
+  <Preset Label="Loot_Buff_Remove_SmallBusiness_Reputation_InitTraits" Value="394941" />
+  <Preset Label="loot_BusinessEvents_Reputation_Gain_Large" Value="398680" />
+  <Preset Label="loot_BusinessEvents_Reputation_Gain_Medium" Value="398682" />
+  <Preset Label="loot_BusinessEvents_Reputation_Loss_Medium" Value="398710" />
+  <Preset Label="loot_ShadyNPC_ReimbursementForm_Success" Value="398742" />
+  <Preset Label="loot_ShadyNPC_ReimbursementForm_Failure" Value="398745" />
+  <Preset Label="loot_BusinessEvents_ReputationAlignment_DreamerAligned" Value="399043" />
+  <Preset Label="loot_BusinessEvents_ReputationAlignment_DreamerMisaligned" Value="399044" />
+  <Preset Label="loot_BusinessEvents_ReputationAlignment_SchemerAligned" Value="399045" />
+  <Preset Label="loot_BusinessEvents_ReputationAlignment_SchemerMisaligned" Value="399046" />
+  <Preset Label="rel_Gain_Small_SmallBusiness_Reputation_Friendship" Value="403917" />
+  <Preset Label="rel_Gain_Small_SmallBusiness_Reputation_Romance" Value="403918" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_UltimateTrait_AddTimer" Value="404326" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_UltimateTrait_AddBuffs" Value="404327" />
+  <Preset Label="loot_DramaNode_SmallBusiness_Reputation_Hacked" Value="404508" />
+  <Preset Label="loot_DramaNode_SmallBusiness_Reputation_Reported" Value="404509" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Hacked" Value="404513" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Reported" Value="404514" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_DreamerMission" Value="404515" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_SchemerMission" Value="404516" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_DreamerMission_SkillGain" Value="404535" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_SchemerMission_SkillGain" Value="404536" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_DreamerMission_ReputationGain" Value="404739" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_DreamerMission_SimoleonGain" Value="404740" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_SchemerMission_SimoleonGain" Value="404741" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_SchemerMission_ReputationGain" Value="404742" />
+  <Preset Label="randomWeightedLoot_SmallBusiness_Reputation_SchemerMission" Value="404744" />
+  <Preset Label="randomWeightedLoot_SmallBusiness_Reputation_DreamerMission" Value="404745" />
+  <Preset Label="loot_Sentiment_Buffs_Adoring_HappyCustomer_Neutral_SmallBusiness" Value="404922" />
+  <Preset Label="loot_Sentiment_AddSentiment_Adoring_HappyCustomer" Value="404923" />
+  <Preset Label="goalLoot_Fear_BeingCanceled_ConfrontationGoal" Value="405290" />
+  <Preset Label="loot_Fear_BeingCanceled_Trigger" Value="405293" />
+  <Preset Label="loot_Fear_BeingJudged_SmallBusiness_Trigger" Value="405586" />
+  <Preset Label="lootActions_SmallBusinessPerks_UltrasonicWhistle" Value="405612" />
+  <Preset Label="loot_Fear_BeingCanceled_FeelingProblematic" Value="406867" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_BeingJudged" Value="406871" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_BeingCanceled" Value="406873" />
+  <Preset Label="loot_Sentiment_Buffs_Adoring_HappyCustomer_Honest_SmallBusiness" Value="408830" />
+  <Preset Label="loot_Sentiment_Buffs_Adoring_HappyCustomer_Shady_SmallBusiness" Value="408831" />
+  <Preset Label="lootActions_SmallBusinessPerks_EmployeeTip_Success_Small" Value="411659" />
+  <Preset Label="lootActions_SmallBusinessPerks_EmployeeTip_Success_Medium" Value="411661" />
+  <Preset Label="lootActions_SmallBusinessPerks_EmployeeTip_Success_Large" Value="411662" />
+  <Preset Label="lootActions_SmallBusinessPerks_EmployeeTip_Success_VeryLarge" Value="411663" />
+  <Preset Label="lootActions_SmallBusinessPerks_EmployeeTip_Failure_VeryLarge" Value="413227" />
+  <Preset Label="lootActions_SmallBusinessPerks_EmployeeTip_Failure_Medium" Value="413229" />
+  <Preset Label="lootActions_SmallBusinessPerks_EmployeeTip_Failure_Large" Value="413230" />
+  <Preset Label="lootActions_SmallBusinessPerks_EmployeeTip_Failure_Small" Value="414109" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Broadcaster_On" Value="414741" />
+  <Preset Label="lootActions_SmallBusinessPerks_CustomerAppreciationDay_StartEvent" Value="414762" />
+  <Preset Label="loot_SmallBusiness_Satisfaction_CustomerLeaving_CleanUp" Value="415592" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Ultimatum" Value="417264" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Ultimatum_BreakupOrDivorce" Value="419253" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_BreakUpSim_NotMarried" Value="419255" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_BreakUpSim_Married" Value="419257" />
+  <Preset Label="loot_DramaNode_SmallBusiness_Reputation_Ultimatum" Value="419333" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Ultimatum_Resolved" Value="419334" />
+  <Preset Label="lootActions_SmallBusinessPerks_FakeBillPay_CheckEmployeesOnClose" Value="420106" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Ultimatum_BreakUp" Value="420916" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_UltimateTraits" Value="421654" />
+  <Preset Label="situationGoalLootActions_Fear_BeingCanceled_Progress" Value="421976" />
+  <Preset Label="loot_DramaNode_SmallBusiness_Reputation_Ultimatum_End" Value="422668" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Hacking" Value="426908" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Tattling" Value="426909" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_OntoYou_StealingIdeas" Value="428639" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_OntoYou_Tattling" Value="428640" />
+  <Preset Label="loot_SmallBusiness_UnregisterBusiness" Value="428803" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_HappyCustomer_AddBuff" Value="428960" />
+  <Preset Label="loot_Idealist_DreamerRep_Medium" Value="429820" />
+  <Preset Label="loot_Shady_SchemerRep_Small" Value="429821" />
+  <Preset Label="loot_Idealist_DreamerRep_Small" Value="429822" />
+  <Preset Label="loot_Shady_SchemerRep_Medium" Value="429823" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_UltimateDreamer_ProudOrAshamed" Value="430312" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_UltimateSchemer_ProudOrAshamed" Value="430313" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_UltimateDreamer_PraiseOrArgue" Value="430317" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_UltimateSchemer_PraiseOrArgue" Value="430318" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_FearOfBeingCanceled_Embarassed" Value="430474" />
+  <Preset Label="loot_Onboarding_SmallBusinessReputation_Dreamer" Value="431137" />
+  <Preset Label="loot_Onboarding_SmallBusinessReputation_Schemer" Value="431139" />
+  <Preset Label="loot_SmallBusiness_Reputation_Gain_Tiny" Value="434310" />
+  <Preset Label="loot_SmallBusiness_Reputation_Loss_Tiny" Value="434311" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Ultimatum_Start" Value="436527" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Buff_6" Value="437138" />
+  <Preset Label="loot_Buff_Add_SmallBusiness_Reputation_HasBeenRank_Loot_6" Value="437140" />
+  <Preset Label="loot_DramaNode_SmallBusiness_Reputation_Ultimatum_Cancel" Value="439840" />
+  <Preset Label="loot_DramaNode_SmallBusiness_Reputation_Ultimatum_Cancel_NoTargetSim" Value="440612" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Ultimatum_YellAtPartner" Value="441332" />
   <Preset Label="loot_Restaurant_FameTNS" Value="214890" />
   <Preset Label="loot_Spells_Steal_CaughtStealing" Value="218607" />
   <Preset Label="loot_ControlPanel_Scan_Remove_R" Value="231242" />
@@ -324,7 +464,6 @@
   <Preset Label="loot_Career_InteriorDecorator_Rep_Loss_Range_Large" Value="255137" />
   <Preset Label="loot_Career_InteriorDecorator_Rep_Loss_Range_Small" Value="255138" />
   <Preset Label="loot_Career_InteriorDecorator_Rep_Gain_Range_Medium" Value="257921" />
-  <Preset Label="loot_Career_InteriorDecorator_Rep_Loss_Range_Medium" Value="257922" />
   <Preset Label="loot_Career_InteriorDecorator_Followup_TV_Preshow_Positive" Value="258073" />
   <Preset Label="loot_Career_InteriorDecorator_Followup_TV_Preshow_Negative" Value="258344" />
   <Preset Label="randomWeightedLoot_Career_InteriorDecorator_Followup_Sponsorship_Rewards_Low" Value="260304" />

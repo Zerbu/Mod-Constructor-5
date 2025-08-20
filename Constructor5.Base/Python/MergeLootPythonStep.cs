@@ -28,9 +28,9 @@ namespace Constructor5.Base.Python
             if (LootsToMerge.Count > 0)
             {
                 result.AppendLine("@inject_to(InstanceManager, 'load_data_into_class_instances')");
-                result.AppendLine($"def {Project.Id}_AddLoot(original, self):");
+                result.AppendLine($"def {Project.Id}_AddLoot(original, self, packs_to_load=None):");
 
-                result.AppendLine($"    original(self)");
+                result.AppendLine($"    original(self, packs_to_load)");
                 result.AppendLine($"    if self.TYPE == Types.ACTION:");
 
                 foreach (var merger in LootsToMerge)

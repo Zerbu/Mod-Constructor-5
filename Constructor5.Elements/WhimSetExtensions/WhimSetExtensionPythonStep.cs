@@ -32,9 +32,9 @@ namespace Constructor5.Elements.WhimSetExtensions
             if (SetsToMerge.Count > 0)
             {
                 result.AppendLine("@inject_to(InstanceManager, 'load_data_into_class_instances')");
-                result.AppendLine($"def {Project.Id}_AddWhimSet(original, self):");
+                result.AppendLine($"def {Project.Id}_AddWhimSet(original, self, packs_to_load=None):");
 
-                result.AppendLine($"    original(self)");
+                result.AppendLine($"    original(self, packs_to_load)");
                 result.AppendLine($"    if self.TYPE == Types.ASPIRATION:");
 
                 foreach (var merger in SetsToMerge)

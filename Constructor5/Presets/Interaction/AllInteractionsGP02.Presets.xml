@@ -60,14 +60,12 @@
   <Preset Label="Rainbow (si_waterfallWall_ChangeColor_Rainbow)" Value="118032" />
   <Preset Label="View (si_waterfallWall_View)" Value="118033" />
   <Preset Label="waterfallWall_View" Value="118035" />
-  <Preset Label="Listen to New Age (stereo_listen_NewAge)" Value="118062" />
   <Preset Label="Give Swedish Massage (mixer_social_GiveMassage_Swedish_Friendly_alwaysOn)" Tags="TestUnsafe" Value="118065" />
   <Preset Label="Give Deep Tissue Massage (mixer_social_GiveMassage_DeepTissue_Friendly_alwaysOn)" Tags="TestUnsafe" Value="118066" />
   <Preset Label="Give Stone Massage (mixer_social_GiveMassage_StoneMassage_Friendly_alwaysOn)" Tags="TestUnsafe" Value="118067" />
   <Preset Label="Give Sports Massage (mixer_social_GiveMassage_SportsMassage_Friendly_alwaysOn)" Tags="TestUnsafe" Value="118068" />
   <Preset Label="Give Fertility Massage (mixer_social_GiveMassage_Fertility_Friendly_alwaysOn)" Tags="TestUnsafe" Value="118069" />
   <Preset Label="Give Ylang Ylang Aromatherapy Massage (mixer_social_GiveMassage_Aromatherapy_YlangYlang_Friendly_alwaysOn)" Tags="TestUnsafe" Value="118070" />
-  <Preset Label="Listen to New Age (stereoWall_listen_newAge)" Value="118073" />
   <Preset Label="Turn On (Stereo_communityWallSpeaker_turnOn_newAge)" Value="118074" />
   <Preset Label="Give Mint and Rosemary Aromatherapy Massage (mixer_social_GiveMassage_Aromatherapy_Mint_Friendly_alwaysOn)" Tags="TestUnsafe" Value="118106" />
   <Preset Label="Give Lotus Blossom Aromatherapy Massage (mixer_social_GiveMassage_Aromatherapy_LotusBlossom_Friendly_alwaysOn)" Tags="TestUnsafe" Value="118107" />
@@ -355,7 +353,6 @@
   <Preset Label="bathtub_relaxingBath_fallAsleep_mud" Value="121802" />
   <Preset Label="bathtub_relaxingBath_play_mud" Value="121804" />
   <Preset Label="Participate in Yoga Class (si_yogaClassMember_FindMat_NoCreate)" Value="121821" />
-  <Preset Label="Listen to New Age (stereo_listen_NewAge_HotTub)" Value="121834" />
   <Preset Label="steamRoom_Mixer_FanSelf_OverExposed" Value="121996" />
   <Preset Label="steamRoom_Mixer_WipeSweat_OverExposed" Value="121997" />
   <Preset Label="Levitate (meditationStool_TeleportLevitate_AtLot)" Value="122545" />
@@ -370,12 +367,6 @@
   <Preset Label="Precision Temperature Probe (steamRoom_Upgrade_PrecisionTemperature_CompletedDisplay)" Value="156572" />
   <Preset Label="Self-Cleaning (steamRoom_Upgrade_SelfCleaning_CompletedDisplay)" Value="156573" />
   <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_SteamRoom)" Value="156586" />
-  <Preset Label="Listen to New Age (stereo_earbuds_listen_NewAge)" Value="167571" />
-  <Preset Label="Listen to New Age (stereo_listen_NewAge_HotTub_NotInHotTub)" Value="179358" />
-  <Preset Label="Listen to New Age (stereo_listen_NewAge_SkatingRink)" Value="180030" />
-  <Preset Label="Listen to New Age (stereo_listen_NewAge_Smart_Hub)" Value="203839" />
-  <Preset Label="Listen to New Age (stereo_listen_NewAge_WaterScooter)" Value="205196" />
-  <Preset Label="Listen to New Age (stereo_listen_NewAge_Bot)" Value="223595" />
   <Preset Label="Hire Yoga Instructor (object_HireNPC_YogaInstructor)" Value="270303" />
   <Preset Label="Invite to Join Yoga Class (inviteToJoin_YogaClass_PlayerLed_Public_Free_BrainBoosting)" Value="270307" />
   <Preset Label="Join Brain Boosting Class (join_YogaClass_PlayerLed_Public_Free_BrainBoosting)" Value="270309" />
@@ -439,8 +430,6 @@
   <Preset Label="Purchase and Apply Facial Mask (purchasePicker_FacialMask_Fridge_PurchaseToApply)" Tags="TestUnsafe" Value="271594" />
   <Preset Label="autonomous_ObjectPicker_FacialMask_PurchaseToApply" Tags="TestUnsafe" Value="271597" />
   <Preset Label="Pedicure Style (buffPicker_ManiPedi_Pedicure_LeftTarget)" Tags="TestUnsafe" Value="271631" />
-  <Preset Label="Pedicure Style (buffPicker_ManiPedi_Pedicure_Right)" Tags="TestUnsafe" Value="271632" />
-  <Preset Label="Pedicure Style (buffPicker_ManiPedi_Pedicure_RightTarget)" Tags="TestUnsafe" Value="271633" />
   <Preset Label="Put Away (Put_Away_FacialMask_RelaxationCenter)" Value="271637" />
   <Preset Label="Apply Facial Mask  (autonomous_Fridge_FacialMask_Picker)" Tags="TestUnsafe" Value="271638" />
   <Preset Label="Brag about Nails (mixer_social_BragAboutNails)" Tags="TestUnsafe" Value="271645" />
@@ -607,4 +596,13 @@
   <Preset Label="Wait for Work (massageTable_WaitForWork_PlayerIsTending)" Value="273439" />
   <Preset Label="Play (si_Yoga_Toddler_Dance)" Value="273488" />
   <Preset Label="mixer_YogaMat_Toddler_Balloon" Value="273492" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Wellness)" Value="396472" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Wellness)" Value="396473" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Wellness)" Value="396474" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Wellness)" Tags="TestUnsafe" Value="396475" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Wellness)" Value="397521" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Wellness" Tags="TestUnsafe" Value="398499" />
+  <Preset Label="hobbyMeetup_NPC_CreateYogaMat" Value="401566" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Wellness_1)" Value="414351" />
+  <Preset Label="Steam (immediate_EP17World_RiverStyx_TemporaryGhost_Debug_Steam)" Value="414637" />
 </PresetGroup>

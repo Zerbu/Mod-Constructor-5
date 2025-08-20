@@ -24,8 +24,6 @@
   <Preset Label="Read Sign (dynamicSign_Read)" Value="133323" />
   <Preset Label="View Sign (si_DynamicSign_View)" Value="133335" />
   <Preset Label="Reset Flavor Cartridge (BubbleBlower_ChangeCartridge_1_Default)" Value="133544" />
-  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio)" Value="133549" />
-  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio_HotTub)" Value="133556" />
   <Preset Label="Watch World Culture Network (tv_watch_CulturalWorld)" Value="133557" />
   <Preset Label="Watch Civic Public Access (tv_watch_PublicAccess)" Value="133558" />
   <Preset Label="Fairy Fizz (BubbleBlower_ChangeCartridge_2)" Value="133561" />
@@ -640,7 +638,6 @@
   <Preset Label="DEBUG - Start Problem (debug_ApartmentProblems_SetToActive)" Value="143326" />
   <Preset Label="DEBUG - Set To Maximum Severity (debug_ApartmentProblems_SetToFailure)" Value="143327" />
   <Preset Label="Set Upgrade: Self-Cleaning (TalkingToilet_setUpgrade_SelfCleaning_debug)" Value="143339" />
-  <Preset Label="Listen to Talk Radio (stereoWall_listen_TalkRadio)" Value="143367" />
   <Preset Label="death_Initiator_Pufferfish" Value="143418" />
   <Preset Label="Place in World and Light (si_SwipeAddToWorld_AndLightFireworks)" Value="143434" />
   <Preset Label="Fairy Fizz (BubbleBlower_ChangeCartridge_2_venue)" Value="143465" />
@@ -725,27 +722,11 @@
   <Preset Label="Read About Festival (ApartmentBulletinBoard_ReadAboutFestival)" Value="145224" />
   <Preset Label="Knock Politely (door_Apartment_PoliteKnock)" Value="145249" />
   <Preset Label="Browse Table (si_CraftSalesTable_BrowseTable)" Value="145250" />
-  <Preset Label="Play Density Effect (videoGameConsole_PlayGame_RPG)" Value="145260" />
-  <Preset Label="Play Party Frenzy (videoGameConsole_PlayGame_Party)" Value="145303" />
-  <Preset Label="Play MySims Racing (videoGameConsole_PlayGame_Racing)" Value="145304" />
-  <Preset Label="Play Genie's Curse (videoGameConsole_PlayGame_Platformer)" Value="145305" />
-  <Preset Label="videoGameConsole_Mixer_Play_Idle" Value="145353" />
-  <Preset Label="Turn Off {1.ObjectName} (videoGameConsole_TurnOff_Immediate)" Value="145398" />
   <Preset Label="Read about Romance Festival (apartmentBulletinBoard_Festival_Blossom)" Value="145413" />
   <Preset Label="Read about Flea Market (apartmentBulletinBoard_Festival_FleaMarket)" Value="145416" />
   <Preset Label="Read about Spice Festival (apartmentBulletinBoard_Festival_Food)" Value="145417" />
   <Preset Label="Read about Humor and Hijinks Festival (apartmentBulletinBoard_Festival_Lamp)" Value="145418" />
   <Preset Label="Read about GeekCon (apartmentBulletinBoard_Festival_Logic)" Value="145419" />
-  <Preset Label="Watch Game (videoGameConsole_WatchGame)" Value="145423" />
-  <Preset Label="Join Game (videoGameConsole_JoinGame_Waiting)" Value="145429" />
-  <Preset Label="Force Self to Play Genie's Curse (videoGameConsole_PlayGame_GamedOut_Platformer)" Value="145431" />
-  <Preset Label="Force Self to Play Party Frenzy (videoGameConsole_PlayGame_GamedOut_Party)" Value="145432" />
-  <Preset Label="Force Self to Play Density Effect (videoGameConsole_PlayGame_GamedOut_RPG)" Value="145433" />
-  <Preset Label="Force Self to Play MySims Racing (videoGameConsole_PlayGame_GamedOut_Racing)" Value="145434" />
-  <Preset Label="Play MySims Racing With (videoGameConsole_PlayWith_Multiplayer_Racing)" Tags="TestUnsafe" Value="145439" />
-  <Preset Label="Play Party Frenzy With (videoGameConsole_PlayWith_Multiplayer_Party)" Tags="TestUnsafe" Value="145441" />
-  <Preset Label="Play MySims Racing Online With (videoGameConsole_PlayWith_Online_Racing)" Tags="TestUnsafe" Value="145442" />
-  <Preset Label="Play Party Frenzy Online With (videoGameConsole_PlayWith_Online_Party)" Tags="TestUnsafe" Value="145444" />
   <Preset Label="Livestream Density Effect (videoGameConsole_Livestream_RPG)" Value="145461" />
   <Preset Label="Livestream MySims Racing (videoGameConsole_Livestream_Racing)" Value="145462" />
   <Preset Label="Livestream Genie's Curse (videoGameConsole_Livestream_Platformer)" Value="145463" />
@@ -754,45 +735,15 @@
   <Preset Label="Stream Let's Play MySims Racing (videoGameConsole_StreamLetsPlay_Racing)" Value="145466" />
   <Preset Label="Stream Let's Play Genie's Curse (videoGameConsole_StreamLetsPlay_Platformer)" Value="145467" />
   <Preset Label="Stream Let's Play Party Frenzy (videoGameConsole_StreamLetsPlay_Party)" Value="145468" />
-  <Preset Label="Novice MySims Racing Tournament (videoGameConsole_PlayGameTournament_Racing)" Value="145469" />
-  <Preset Label="Novice Density Effect Tournament (videoGameConsole_PlayGameTournament_RPG)" Value="145470" />
-  <Preset Label="Novice Genie's Curse Tournament (videoGameConsole_PlayGameTournament_Platformer)" Value="145471" />
-  <Preset Label="Novice Party Frenzy Tournament (videoGameConsole_PlayGameTournament_Party)" Value="145472" />
-  <Preset Label="Pro MySims Racing Tournament (videoGameConsole_PlayGameTournament_Pro_Racing)" Value="145473" />
-  <Preset Label="Pro Density Effect Tournament (videoGameConsole_PlayGameTournament_Pro_RPG)" Value="145474" />
-  <Preset Label="Pro Genie's Curse Tournament (videoGameConsole_PlayGameTournament_Pro_Platformer)" Value="145475" />
-  <Preset Label="Pro Party Frenzy Tournament (videoGameConsole_PlayGameTournament_Pro_Party)" Value="145476" />
   <Preset Label="Read Note (apartmentBulletinBoard_ReadNote)" Value="145559" />
-  <Preset Label="Tighten Up Graphics (videoGameConsole_Upgrade_TightenUpGraphics_Start)" Value="145561" />
-  <Preset Label="Unbreakable Upgrade (videoGameConsole_Upgrade_Unbreakable_Start)" Value="145562" />
-  <Preset Label="Install Wireless Display Override (videoGameConsole_Upgrade_Telesplosion_Start)" Value="145563" />
-  <Preset Label="Resume Tightening Up Graphics (videoGameConsole_Upgrade_TightenUpGraphics_Resume)" Value="145564" />
-  <Preset Label="Resume Unbreakable Upgrade (videoGameConsole_Upgrade_Unbreakable_Resume)" Value="145565" />
-  <Preset Label="Resume Installing Wireless Display Override (videoGameConsole_Upgrade_Telesplosion_Resume)" Value="145566" />
-  <Preset Label="Wireless Display Override (Completed) (videoGameConsole_Upgrade_Telesplosion_CompletedDisplay)" Value="145567" />
-  <Preset Label="Unbreakable (Completed) (videoGameConsole_Upgrade_Unbreakable_CompletedDisplay)" Value="145568" />
-  <Preset Label="Tighten Up Graphics (Completed) (videoGameConsole_Upgrade_TightenUpGraphics_CompletedDisplay)" Value="145569" />
   <Preset Label="Stomp On (object_Repair_ApartmentProblem_RoachHole_Stomp)" Value="145570" />
-  <Preset Label="Instant Upgrade (object_Knack_MakeAwesome_VideoGameConsole)" Value="145576" />
-  <Preset Label="Enthuse About Winning Game (mixer_Social_Friendly_VideoGameConsole_Win2Win)" Tags="TestUnsafe" Value="145602" />
-  <Preset Label="Brag About Winning Game (mixer_Social_Friendly_VideoGameConsole_Win2Lose)" Tags="TestUnsafe" Value="145603" />
-  <Preset Label="Commiserate About Losing (mixer_Social_Friendly_VideoGameConsole_Lose2Lose)" Tags="TestUnsafe" Value="145604" />
-  <Preset Label="Congratulate on Winning Game (mixer_Social_Friendly_VideoGameConsole_Lose2Win)" Tags="TestUnsafe" Value="145605" />
   <Preset Label="Leave Passive-Aggressive Note (apartmentBulletinBoard_LeavePassiveAggressiveNote)" Value="145606" />
   <Preset Label="Leave Affirming Note (apartmentBulletinBoard_LeaveAffirmingNote)" Value="145607" />
   <Preset Label="Heat of the Moment Proposal (mixer_social_Propose_targeted_romance_relationship_BlossomFestival)" Tags="TestUnsafe" Value="145628" />
-  <Preset Label="Play Genie's Curse (videoGameConsole_PlayGame_Platformer_Start)" Value="145673" />
-  <Preset Label="Play Party Frenzy (videoGameConsole_PlayGame_Party_Start)" Value="145681" />
-  <Preset Label="Play Density Effect (videoGameConsole_PlayGame_RPG_Start)" Value="145682" />
-  <Preset Label="Play MySims Racing (videoGameConsole_PlayGame_Racing_Start)" Value="145683" />
   <Preset Label="What's That? (reaction_Generic_Scared_FromObject_Mixer)" Value="145705" />
   <Preset Label="reaction_Generic_Scared_FromObject_Mixer_Aggregate" Value="145707" />
   <Preset Label="reaction_Generic_Scared_FromObject_Aggregate" Value="145715" />
   <Preset Label="What's That? (reactions_Generic_Scared_FromObject_Strong)" Value="145722" />
-  <Preset Label="Force Self to Play Genie's Curse (videoGameConsole_GamedOut_Platformer_Start)" Value="145725" />
-  <Preset Label="Force Self to Play MySims Racing (videoGameConsole_GamedOut_Racing_Start)" Value="145726" />
-  <Preset Label="Force Self to Play Density Effect (videoGameConsole_GamedOut_RPG_Start)" Value="145727" />
-  <Preset Label="Force Self to Play Party Frenzy (videoGameConsole_GamedOut_Party_Start)" Value="145728" />
   <Preset Label="Trade Snow Globes (social_Festival_FleaMarket_TradeCollectible_Start_Snowglobe)" Value="145734" />
   <Preset Label="Trade Fossil (social_Festival_FleaMarket_TradeCollectible_Start_Fossil)" Value="145735" />
   <Preset Label="Trade My Sim Trophies (social_Festival_FleaMarket_TradeCollectible_Start_MySim)" Value="145736" />
@@ -807,14 +758,6 @@
   <Preset Label="Stream Let's Play Party Frenzy (videoGameConsole_StreamLetsPlay_Party_Start)" Value="145745" />
   <Preset Label="Stream Let's Play MySims Racing (videoGameConsole_StreamLetsPlay_Racing_Start)" Value="145746" />
   <Preset Label="Stream Let's Play Density Effect (videoGameConsole_StreamLetsPlay_RPG_Start)" Value="145747" />
-  <Preset Label="Novice Genie's Curse Tournament (videoGameConsole_PlayGameTournament_Platformer_Start)" Value="145748" />
-  <Preset Label="Novice Party Frenzy Tournament (videoGameConsole_PlayGameTournament_Party_Start)" Value="145749" />
-  <Preset Label="Novice MySims Racing Tournament (videoGameConsole_PlayGameTournament_Racing_Start)" Value="145750" />
-  <Preset Label="Novice Density Effect Tournament (videoGameConsole_PlayGameTournament_RPG_Start)" Value="145751" />
-  <Preset Label="Pro Genie's Curse Tournament (videoGameConsole_PlayGameTournamentPro_Platformer_Start)" Value="145752" />
-  <Preset Label="Pro MySims Racing Tournament (videoGameConsole_PlayGameTournamentPro_Racing_Start)" Value="145753" />
-  <Preset Label="Pro Party Frenzy Tournament (videoGameConsole_PlayGameTournamentPro_Party_Start)" Value="145754" />
-  <Preset Label="Pro Density Effect Tournament (videoGameConsole_PlayGameTournamentPro_RPG_Start)" Value="145755" />
   <Preset Label="Trade Crystal (social_Festivals_FleaMarket_TradeCollectible_End_Crystal)" Value="145756" />
   <Preset Label="Trade Fossil (social_Festivals_FleaMarket_TradeCollectible_End_Fossil)" Value="145757" />
   <Preset Label="Trade Snow Globes (social_Festivals_FleaMarket_TradeCollectible_End_SnowGlobe)" Value="145758" />
@@ -831,10 +774,6 @@
   <Preset Label="&quot;Joke&quot; about Getting Together (mixer_social_JokeGettingTogether_Festival_Blossom_targeted_romance)" Tags="TestUnsafe" Value="145777" />
   <Preset Label="Describe Flirty Dream about {1.SimFirstName} (mixer_social_FlirtyDream_Festival_Blossom_targeted_romance)" Tags="TestUnsafe" Value="145779" />
   <Preset Label="Declare Heat of the Moment Passion (mixer_social_HeatofMomentPassion_Festival_Blossom_targeted_romance)" Tags="TestUnsafe" Value="145780" />
-  <Preset Label="Play Density Effect Together (rallyables_GoToVideoGameConsole_RPG)" Value="145853" />
-  <Preset Label="Play Party Frenzy Together (rallyables_GoToVideoGameConsole_Party)" Value="145854" />
-  <Preset Label="Play MySims Racing Together (rallyables_GoToVideoGameConsole_Racing)" Value="145855" />
-  <Preset Label="Watch Game Together (rallyables_GoToVideoGameConsole_Watch)" Value="145857" />
   <Preset Label="Cancel Current Representation (computer_SocialMediaCareer_PublicRelations_RepresentCancel)" Value="145870" />
   <Preset Label="Leave Neutral Note (apartmentBulletinBoard_LeaveNeutralNote_Autonomous)" Value="145913" />
   <Preset Label="Pour Sakura Tea (festivalTeaFountain_GrabServing_Fumble_Sakura_Centerpiece)" Value="145972" />
@@ -893,7 +832,6 @@
   <Preset Label="Dunk (si_Basketball_Challenge_DunkCompetition)" Value="147075" />
   <Preset Label="Challenge To Dunk Competition (simPicker_Basketball_Competition_DunkCompetition)" Tags="TestUnsafe" Value="147077" />
   <Preset Label="Challenge To Hoops Competition (simPicker_Basketball_Competition_HoopsCompetition)" Tags="TestUnsafe" Value="147078" />
-  <Preset Label="{1.ObjectName} is Disconnected! (videoGameConsole_Discconnted_ToolTip)" Value="147110" />
   <Preset Label="Busk for Tips (portableKeyboard_PlayBuskForTips)" Value="147193" />
   <Preset Label="OBLITERATE! (object_Repair_ApartmentProblem_Landlord_Mice)" Value="147229" />
   <Preset Label="OBLITERATE! (object_Repair_ApartmentProblem_Mice)" Value="147230" />
@@ -930,29 +868,11 @@
   <Preset Label="Make a Joke About Pi (mixer_Socials_JokeAboutPi_Targeted_Funny_AlwaysOn_STC_LogicFestival)" Tags="TestUnsafe" Value="147465" />
   <Preset Label="Joke About Rocket Ship Woohoo (mixer_Socials_JokeAboutRocketWoohoo_Targeted_Funny_AlwaysOn_STC_LogicFestival)" Tags="TestUnsafe" Value="147466" />
   <Preset Label="Kick Off Mural (si_mural_KickOff)" Value="147472" />
-  <Preset Label="Join Game (videoGameConsole_JoinGame_TV)" Value="147546" />
-  <Preset Label="Watch Game (videoGameConsole_WatchGame_TV)" Value="147547" />
   <Preset Label="Paint Mural (mural_RollUp_Paint_Staging)" Value="147629" />
   <Preset Label="Livestream Party Frenzy (videoGameConsole_Livestream_Start_Party_TV)" Value="147637" />
   <Preset Label="Livestream Genie's Curse (videoGameConsole_Livestream_Start_Platformer_TV)" Value="147638" />
   <Preset Label="Livestream MySims Racing (videoGameConsole_Livestream_Start_Racing_TV)" Value="147639" />
   <Preset Label="Livestream Density Effect (videoGameConsole_Livestream_Start_RPG_TV)" Value="147640" />
-  <Preset Label="Novice Party Frenzy Tournament (videoGameConsole_PlayGameTournament_Start_Party_TV)" Value="147641" />
-  <Preset Label="Novice Genie's Curse Tournament (videoGameConsole_PlayGameTournament_Start_Platformer_TV)" Value="147642" />
-  <Preset Label="Novice MySims Racing Tournament (videoGameConsole_PlayGameTournament_Start_Racing_TV)" Value="147643" />
-  <Preset Label="Novice Density Effect Tournament (videoGameConsole_PlayGameTournament_Start_RPG_TV)" Value="147644" />
-  <Preset Label="Play Party Frenzy (videoGameConsole_PlayGame_Start_Party_TV)" Value="147645" />
-  <Preset Label="Play Genie's Curse (videoGameConsole_PlayGame_Start_Platformer_TV)" Value="147646" />
-  <Preset Label="Play MySims Racing (videoGameConsole_PlayGame_Start_Racing_TV)" Value="147647" />
-  <Preset Label="Play Density Effect (videoGameConsole_PlayGame_Start_RPG_TV)" Value="147648" />
-  <Preset Label="Force Self to Play Party Frenzy (videoGameConsole_GamedOut_Start_Party_TV)" Value="147654" />
-  <Preset Label="Force Self to Play Genie's Curse (videoGameConsole_GamedOut_Start_Platformer_TV)" Value="147655" />
-  <Preset Label="Force Self to Play MySims Racing (videoGameConsole_GamedOut_Start_Racing_TV)" Value="147656" />
-  <Preset Label="Force Self to Play Density Effect (videoGameConsole_GamedOut_Start_RPG_TV)" Value="147657" />
-  <Preset Label="Pro Party Frenzy Tournament (videoGameConsole_PlayGameTournamentPro_Start_Party_TV)" Value="147658" />
-  <Preset Label="Pro Genie's Curse Tournament (videoGameConsole_PlayGameTournamentPro_Start_Platformer_TV)" Value="147659" />
-  <Preset Label="Pro MySims Racing Tournament (videoGameConsole_PlayGameTournamentPro_Start_Racing_TV)" Value="147660" />
-  <Preset Label="Pro Density Effect Tournament (videoGameConsole_PlayGameTournamentPro_Start_RPG_TV)" Value="147661" />
   <Preset Label="Stream Let's Play Party Frenzy (videoGameConsole_StreamLetsPlay_Start_Party_TV)" Value="147662" />
   <Preset Label="Stream Let's Play Genie's Curse (videoGameConsole_StreamLetsPlay_Start_Platformer_TV)" Value="147663" />
   <Preset Label="Stream Let's Play MySims Racing (videoGameConsole_StreamLetsPlay_Start_Racing_TV)" Value="147664" />
@@ -960,10 +880,6 @@
   <Preset Label="Debug - Shot (Swish) (basketball_TakeShots_Debug_Shot_Swish)" Value="147722" />
   <Preset Label="Debug - Shot (Bank) (basketball_TakeShots_Debug_Shot_Bank)" Value="147723" />
   <Preset Label="Debug - Shot (Miss) (basketball_TakeShots_Debug_Shot_Miss)" Value="147724" />
-  <Preset Label="Play Party Frenzy Online With (videoGameConsole_PlayWith_Online_Party_TV)" Tags="TestUnsafe" Value="147738" />
-  <Preset Label="Play MySims Racing Online With (videoGameConsole_PlayWith_Online_Racing_TV)" Tags="TestUnsafe" Value="147740" />
-  <Preset Label="Play Party Frenzy With (videoGameConsole_PlayWith_Multiplayer_Party_TV)" Tags="TestUnsafe" Value="147741" />
-  <Preset Label="Play MySims Racing With (videoGameConsole_PlayWith_Multiplayer_Racing_TV)" Tags="TestUnsafe" Value="147742" />
   <Preset Label="Protest for Cause Here (terrain-gohere_ProtestForCause)" Value="147774" />
   <Preset Label="Go To Apartment Door (door_Apartment_RouteTo_insideActiveLot_invitedNPC)" Value="147862" />
   <Preset Label="Coach (mentor_Basketball)" Value="147877" />
@@ -1043,15 +959,8 @@
   <Preset Label="Graffiti (rallyables_GoStartMurals_Graffiti)" Value="150474" />
   <Preset Label="Hire Vegetarian Caterer (object_hireNPC_Caterer_Vegetarian)" Value="150479" />
   <Preset Label="Serenade (self_Social_SingingSerenade_Microphone)" Value="150509" />
-  <Preset Label="{1.ObjectName} is Broken! (videoGameConsole_Broken_ToolTip_TV)" Value="150513" />
   <Preset Label="Watch Fireworks (festivalFireworks_WatchFireworks_Bystander)" Value="150533" />
-  <Preset Label="Turn Off {1.ObjectName} (videoGameConsole_TurnOff_Immediate_TV)" Value="150661" />
-  <Preset Label="Playing Online MySims Racing (videoGameConsole_PlayGame_Online_Racing)" Value="150739" />
-  <Preset Label="Playing Online Party Frenzy (videoGameConsole_PlayGame_Online_Party)" Value="150740" />
-  <Preset Label="Playing Multiplayer MySims Racing (videoGameConsole_PlayGame_Multiplayer_Racing)" Value="150742" />
-  <Preset Label="Playing Multiplayer Party Frenzy (videoGameConsole_PlayGame_Multiplayer_Party)" Value="150743" />
   <Preset Label="Make Empty Promises (mixer_social_Career_Activist_MakeEmptyPromises_alwaysOn)" Tags="TestUnsafe" Value="150760" />
-  <Preset Label="{1.ObjectName} is Burnt! (videoGameConsole_Burnt_ToolTip_TV)" Value="150763" />
   <Preset Label="attractorPoints_Festivals_Blossom_Guru" Value="150890" />
   <Preset Label="si_WaitAround_Guru_Blossom" Value="150892" />
   <Preset Label="Wear Raccoon Outfit (socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToRaccoon)" Tags="TestUnsafe" Value="150988" />
@@ -1060,7 +969,6 @@
   <Preset Label="Shout Out from {2.String} (phone_SocialMedia_CheckInAtVenue_ShoutOut_IP)" Value="151184" />
   <Preset Label="Announce Appearance at {2.String} (phone_SocialMedia_CheckInAtVenue_AnnounceAppearance)" Value="151185" />
   <Preset Label="Shout Out from {2.String} (phone_SocialMedia_CheckInAtVenue_ShoutOut_PR)" Value="151186" />
-  <Preset Label="Watch Game Together (rallyables_GoToVideoGameConsole_Watch_TV)" Value="151214" />
   <Preset Label="Charity Stream (computer_SocialNetwork_SocialMediaCareer_InternetPersonality_CharityStream)" Value="151260" />
   <Preset Label="Shoot Around (basketball_TakeShots_Rallyables_Any)" Value="151279" />
   <Preset Label="Paint Cultural Mural (mural_Floor_StartCultural)" Value="151319" />
@@ -1076,13 +984,6 @@
   <Preset Label="This is IT! (reaction_lotTrait_quakeZone_Panic_si)" Value="151401" />
   <Preset Label="reaction_generic_Scared_quakeEvent_mixer" Value="151404" />
   <Preset Label="Take Selfie with Cosplayer (mixer_Social_SelfieWithCosplayer_Targeted_Friendly_AlwaysOn_STC_LogicFestival)" Tags="TestUnsafe" Value="151426" />
-  <Preset Label="Play MySims Racing (videoGameConsole_JoinGame_Playing_Racing)" Value="151453" />
-  <Preset Label="Disable Wireless Display Override (videoGameConsole_Telesplosion_Off)" Value="151475" />
-  <Preset Label="Enable Wireless Display Override (videoGameConsole_Telesplosion_On)" Value="151476" />
-  <Preset Label="videoGameConsole_Mixer_Watch_Idle" Value="151507" />
-  <Preset Label="videoGameConsole_Mixer_Watch_Cheer" Value="151508" />
-  <Preset Label="videoGameConsole_Mixer_Watch_Heckle" Value="151509" />
-  <Preset Label="Play Party Frenzy (videoGameConsole_JoinGame_Playing_Party)" Value="151556" />
   <Preset Label="cityLifeBusker_Mixer_WatchTip" Value="151718" />
   <Preset Label="2 Pointers (si_Basketball_Shots_2Point_NoBank)" Value="151811" />
   <Preset Label="2 Pointers (si_Basketball_Shots_2Point_Sides)" Value="151812" />
@@ -1105,8 +1006,6 @@
   <Preset Label="Study Art (art_View_CriticCareer_StudyArt_NoReserve)" Value="151951" />
   <Preset Label="Browse Table (si_CraftSalesTable_BrowseTable_Paintings)" Value="152183" />
   <Preset Label="Use Megaphone (mixerInteraction_Career_Activist_useMegaphone)" Value="152193" />
-  <Preset Label="videoGameConsole_Mixer_React_Negative" Value="152209" />
-  <Preset Label="videoGameConsole_Mixer_React_Positive" Value="152210" />
   <Preset Label="Get Sprayed (Toilet_Talking_soc_mixers_Mean_spray)" Value="152359" />
   <Preset Label="Fail (si_Basketball_Dunks_Fail)" Value="152363" />
   <Preset Label="Fail (si_Basketball_Dunks_Fail_Competition)" Value="152364" />
@@ -1126,7 +1025,7 @@
   <Preset Label="Spray Graffiti (mural_Floor_Scoot_C_graf)" Value="152426" />
   <Preset Label="Spray Graffiti (mural_Floor_Scoot_L_graf)" Value="152427" />
   <Preset Label="Spray Graffiti (mural_Floor_Scoot_R_graf)" Value="152428" />
-  <Preset Label="Mentor (mentor_Mural)" Value="152532" />
+  <Preset Label="Mentor {2.String} (mentor_Mural)" Value="152532" />
   <Preset Label="Watch Living Statue (livingStatueBusker_SuperInteraction_ViewWatch_Autonomous)" Value="152570" />
   <Preset Label="cityLifeBusker_CityLife_Mixer_WatchCrazyEyes" Value="152572" />
   <Preset Label="cityLifeBusker_CityLife_Mixer_WatchWave" Value="152573" />
@@ -1141,13 +1040,11 @@
   <Preset Label="Nature (rallyables_GoStartMurals_Nature_Floor)" Value="152592" />
   <Preset Label="Optical Illusion (rallyables_GoStartMurals_OpticalIllusion_Floor)" Value="152593" />
   <Preset Label="Drink (drink_Tea_Festival_Consume)" Value="152595" />
-  <Preset Label="Play Genie's Curse Together (rallyables_GoToVideoGameConsole_Platformer)" Value="152646" />
   <Preset Label="Mood Lighting: Off (TalkingToilet_ControlPanel_setLighting_0_Off)" Value="152702" />
   <Preset Label="Lights: Aqua (TalkingToilet_setState_Lighting_Aqua_debug)" Value="152703" />
   <Preset Label="Lights: Navy (TalkingToilet_setState_Lighting_Navy_debug)" Value="152704" />
   <Preset Label="Lights: Green (TalkingToilet_setState_Lighting_Green_debug)" Value="152705" />
   <Preset Label="Lights: Red (TalkingToilet_setState_Lighting_Red_debug)" Value="152706" />
-  <Preset Label="Join Game (videoGameConsole_JoinGame_Picked)" Value="152709" />
   <Preset Label="Mood Lighting: On (TalkingToilet_ControlPanel_setLighting_1_On)" Value="152717" />
   <Preset Label="Give Eulogy (urnstone_Eulogize)" Value="152727" />
   <Preset Label="Give Eulogy (podium_GiveSpeech_Eulogy)" Value="152728" />
@@ -1171,15 +1068,12 @@
   <Preset Label="counter_CuttingBoard_Chop_Potato" Value="152925" />
   <Preset Label="Indignant (CreateLyrics_Aggregate)" Value="152995" />
   <Preset Label="Flush (toilet_TalkingToilet_santizeFlush)" Value="153037" />
-  <Preset Label="{1.ObjectName} is Burnt! (videoGameConsole_TVBurnt_ToolTip)" Value="153102" />
-  <Preset Label="{1.ObjectName} is Broken! (videoGameConsole_TVBroken_ToolTip)" Value="153104" />
   <Preset Label="mural_Wall_SprayFail" Value="153106" />
   <Preset Label="mural_FloorSpray_Fail" Value="153107" />
   <Preset Label="Sample Food (generic_food_GrabSample_Vegetarian)" Value="153148" />
   <Preset Label="mural_FloorSpray_PaintActive_Primer" Value="153175" />
   <Preset Label="mural_Wall_SprayActive_Primer" Value="153179" />
   <Preset Label="mixer_Basketball_Competition_WaitForTurn_Watch" Value="153244" />
-  <Preset Label="Already Playing {1.ObjectName} (videoGameConsole_InUse_ToolTip)" Value="153352" />
   <Preset Label="Dream Big (si_Basketball_DreamBig_3Pointer)" Value="153378" />
   <Preset Label="Dream Big (si_Basketball_DreamBig_DunkDoubleClutch)" Value="153379" />
   <Preset Label="Dream Big (si_Basketball_DreamBig_DunkFlying)" Value="153380" />
@@ -1209,8 +1103,6 @@
   <Preset Label="Sing in Karaoke Contest (si_KaraokeMachine_TieredMenu_Contest_Jazz)" Value="153638" />
   <Preset Label="Sing in Karaoke Contest (si_KaraokeMachine_TieredMenu_Contest_Pop)" Value="153639" />
   <Preset Label="Sing in Karaoke Contest (si_KaraokeMachine_TieredMenu_Contest_Rock)" Value="153640" />
-  <Preset Label="Playing Multiplayer Party Frenzy (videoGameConsole_StartGames_Multiplayer_Party)" Value="153683" />
-  <Preset Label="Playing Multiplayer MySims Racing (videoGameConsole_StartGames_Multiplayer_Racing)" Value="153684" />
   <Preset Label="Order Happy Hour Drink (bar_PushOrderDrink_HappyHour_KaraokeBar)" Value="153688" />
   <Preset Label="Sabotage! (object_Bane_Sabotage_talkingToilet)" Value="153712" />
   <Preset Label="Join the Jokesters (festival_StartCrafting_Tea_Light)" Value="153734" />
@@ -1367,20 +1259,61 @@
   <Preset Label="Go To Apartment Door (door_Apartment_endSituationNeighborReactsToYou_LoudNoises)" Value="155836" />
   <Preset Label="karaoke_Mixers_Duet_Low_Idle_2sec" Tags="TestUnsafe" Value="155930" />
   <Preset Label="Knock On Door (door_Apartment_NPC_angryKnock_childComplaint)" Value="156619" />
-  <Preset Label="Listen to Talk Radio (stereo_earbuds_listen_TalkRadio)" Value="167587" />
   <Preset Label="Quick Snack (si_VenueFridge_BuySnackAutonomously_Vegetarian)" Value="168526" />
-  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio_HotTub_NotInHotTub)" Value="179365" />
   <Preset Label="Tip (singing_Tip)" Value="191198" />
   <Preset Label="Attending The Circus (rabbitHoleStartInteraction_CityInvites_GoToACircus)" Value="197838" />
   <Preset Label="Attending A Concert (rabbitHoleStartInteraction_CityInvites_GoToAConcert)" Value="197839" />
   <Preset Label="Attending The Opera (rabbitHoleStartInteraction_CityInvites_GoToTheOpera)" Value="197841" />
   <Preset Label="Attending A Musical (rabbitHoleStartInteraction_CityInvites_GoToTheTheater)" Value="197842" />
-  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio_Smart_Hub)" Value="203848" />
-  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio_WaterScooter)" Value="205205" />
   <Preset Label="Practice Singing (singingSkill_TieredMenu_Self_Practice_Autonomous)" Value="215971" />
-  <Preset Label="Listen to Talk Radio (stereo_listen_TalkRadio_Bot)" Value="223583" />
   <Preset Label="Spray Graffiti (mural_Floor_StartGraffiti)" Value="231046" />
   <Preset Label="Play Song (AnimalEnthusiast_PlayTo_PortableKeyboard)" Value="261889" />
   <Preset Label="GroupCooking_Counter_CuttingBoard_Chop_Potato" Value="264022" />
   <Preset Label="Play Song (AnimalEnthusiast_PlayTo_PortableKeyboard_Child)" Value="265701" />
+  <Preset Label="Attempt To Repair (object_Repair_ApartmentProblem_Landlord_BG_MiscUtilities)" Value="353345" />
+  <Preset Label="Grab All Servings (pressureCooker_GrabMultiServing_ChiliVegetable)" Value="354097" />
+  <Preset Label="Call to Meal (pressureCooker_GrabMultiServing_CallToMeal_ChiliVegetable)" Value="354110" />
+  <Preset Label="Panda (costumeBox_WearCostume_Confident_Panda)" Value="364491" />
+  <Preset Label="Racoon (costumeBox_WearCostume_Confident_Racoon)" Value="364492" />
+  <Preset Label="Panda (costumeBox_WearCostume_Flirty_Panda)" Value="364494" />
+  <Preset Label="Racoon (costumeBox_WearCostume_Flirty_Racoon)" Value="364495" />
+  <Preset Label="Panda (costumeBox_WearCostume_Playful_Panda)" Value="364497" />
+  <Preset Label="Racoon (costumeBox_WearCostume_Playful_Racoon)" Value="364498" />
+  <Preset Label="Mentor {2.String} (mentor_Skill_Singing)" Value="375361" />
+  <Preset Label="simPicker_Mentoring_Offer_UnPaid_VideoGaming_VideoGameConsole" Tags="TestUnsafe" Value="376072" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_VideoGaming_VideoGameConsole" Tags="TestUnsafe" Value="376073" />
+  <Preset Label="simPicker_Mentoring_AskFor_VideoGaming_VideoGameConsole" Tags="TestUnsafe" Value="376074" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_VideoGaming_VideoGameConsole)" Tags="TestUnsafe" Value="376085" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_VideoGaming_VideoGameConsole)" Tags="TestUnsafe" Value="376086" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_VideoGaming_VideoGameConsole)" Tags="TestUnsafe" Value="376087" />
+  <Preset Label="Trade Axolotl (social_Festival_FleaMarket_TradeCollectible_Start_Axolotl)" Value="377646" />
+  <Preset Label="Trade Axolotl (social_Festivals_FleaMarket_TradeCollectible_End_Axolotl)" Value="377647" />
+  <Preset Label="Trade Axolotl (festival_FleaMarket_CollectibleTrading_Axolotl)" Tags="TestUnsafe" Value="377648" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Charisma_Podium)" Tags="TestUnsafe" Value="379009" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Charisma_Podium)" Tags="TestUnsafe" Value="379013" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Charisma_Podium)" Tags="TestUnsafe" Value="379015" />
+  <Preset Label="simPicker_Mentoring_AskFor_Charisma_Podium" Tags="TestUnsafe" Value="379020" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_Charisma_Podium" Tags="TestUnsafe" Value="379022" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_Charisma_Podium" Tags="TestUnsafe" Value="379024" />
+  <Preset Label="Ask for Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Singing_Microphone)" Tags="TestUnsafe" Value="379433" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Singing_Microphone)" Tags="TestUnsafe" Value="379438" />
+  <Preset Label="Offer Mentoring (socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Singing_Microphone)" Tags="TestUnsafe" Value="379440" />
+  <Preset Label="simPicker_Mentoring_AskFor_Singing_Microphone" Tags="TestUnsafe" Value="379443" />
+  <Preset Label="simPicker_Mentoring_Offer_Paid_Singing_Microphone" Tags="TestUnsafe" Value="379447" />
+  <Preset Label="simPicker_Mentoring_Offer_Unpaid_Singing_Microphone" Tags="TestUnsafe" Value="379449" />
+  <Preset Label="Ask for Mentoring (Socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_AskFor_Fitness_Basketball)" Tags="TestUnsafe" Value="382130" />
+  <Preset Label="Offer Mentoring (Socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Paid_Fitness_Basketball)" Tags="TestUnsafe" Value="382131" />
+  <Preset Label="Offer Mentoring (Socials_Targeted_Friendly_AlwaysOn_STC_Mentoring_Offer_Unpaid_Fitness_Basketball)" Tags="TestUnsafe" Value="382132" />
+  <Preset Label="SimPicker_Mentoring_AskFor_Fitness_Basketball" Tags="TestUnsafe" Value="382134" />
+  <Preset Label="SimPicker_Mentoring_Offer_Paid_Fitness_Basketball" Tags="TestUnsafe" Value="382135" />
+  <Preset Label="SimPicker_Mentoring_Offer_Unpaid_Fitness_Basketball" Tags="TestUnsafe" Value="382136" />
+  <Preset Label="autonomous_ObjectPicker_GrimChallenge_Basketball" Tags="TestUnsafe" Value="391561" />
+  <Preset Label="**DEBUG** (Social_HobbyClass_Whiteboard_Lecture_Singing)" Value="394091" />
+  <Preset Label="**DEBUG** (si_HobbyClass_ListenToLecture_Singing)" Value="394106" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (SimPicker_HobbyClass_Whiteboard_LectureFor_Singing)" Tags="TestUnsafe" Value="394125" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Singing)" Value="394299" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartLecture_Singing)" Value="396057" />
+  <Preset Label="SimPicker_HobbyClass_RequestClass_Singing" Tags="TestUnsafe" Value="398535" />
+  <Preset Label="**DEBUG** (si_HobbyClass_PrepareLecture_Singing_1)" Value="414406" />
+  <Preset Label="autonomous_ObjectPicker_GrimChallenge_Basketball_Shoot" Tags="TestUnsafe" Value="421562" />
 </PresetGroup>

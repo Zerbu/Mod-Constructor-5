@@ -409,13 +409,8 @@
   <Preset Label="loot_Festival_FleaMarket_TradeCDBuff" Value="144402" />
   <Preset Label="loot_Situation_buff_NoisyNeighbors_tense" Value="145009" />
   <Preset Label="loot_JobPerformance_Gain_Small_Critic" Value="145153" />
-  <Preset Label="loot_Buff_VideoGameConsole_Racing_Loser" Value="145520" />
   <Preset Label="loot_Buff_zoneMod_Grody" Value="145527" />
-  <Preset Label="loot_Buff_VideoGameConsole_Racing_Winner_MP" Value="145538" />
-  <Preset Label="loot_Buff_VideoGameConsole_Party_Winner_MP" Value="145540" />
-  <Preset Label="loot_Buff_VideoGameConsole_Party_Loser" Value="145542" />
   <Preset Label="loot_Buff_zoneMod_SunnyAspect" Value="145552" />
-  <Preset Label="loot_Statistic_Upgrade_VideoGameConsole" Value="145575" />
   <Preset Label="randomWeightedLoot_Festival_FleaMarket_Trade_Frog" Value="145600" />
   <Preset Label="loot_ApartmentBulletinBoard_ReceivedPassiveAggressiveNote" Value="145615" />
   <Preset Label="loot_ApartmentBulletinBoard_ReceivedAffirmingNote" Value="145616" />
@@ -566,8 +561,6 @@
   <Preset Label="loot_Buff_zoneMod_QuakeZone_minor" Value="151777" />
   <Preset Label="loot_Buff_zoneMods_EP03_HomeStudio_visible" Value="151880" />
   <Preset Label="loot_Buff_zoneMods_RemoveAll_VFX_hidden" Value="151964" />
-  <Preset Label="loot_Buff_VideoGameConsole_Platformer_Winner_SP" Value="152185" />
-  <Preset Label="loot_Buff_VideoGameConsole_RPG_Winner_SP" Value="152186" />
   <Preset Label="loot_Buff_zoneMods_EP03_HomeStudio_Handiness_visible" Value="152192" />
   <Preset Label="loot_Festival_Food_CurryContest_RewardShirt" Value="152355" />
   <Preset Label="loot_Buff_zoneMods_ProCon_Pricey_visible" Value="152358" />
@@ -582,12 +575,9 @@
   <Preset Label="loot_KaraokeMachine_Score_Song_Low_Duet" Value="152475" />
   <Preset Label="loot_KaraokeMachine_Score_Song_Med_Duet" Value="152477" />
   <Preset Label="loot_Commodity_ApartmentProblem_LandlordElectrocutionChance" Value="152478" />
-  <Preset Label="loot_VideoGameConsole_AddPlayer" Value="152675" />
-  <Preset Label="loot_VideoGameConsole_ClearPlayers" Value="152689" />
   <Preset Label="loot_Buff_Podium_GiveEulogy" Value="152741" />
   <Preset Label="loot_Festival_FleaMarket_TradeFailCDBuff" Value="152785" />
   <Preset Label="loot_Festival_Lamp_CreateFireworks_CD" Value="152793" />
-  <Preset Label="loot_Buff_VideoGameConsole_RageQuit_Loser" Value="152807" />
   <Preset Label="loot_Buff_Karaoke_WonKaraokeContest" Value="152873" />
   <Preset Label="loot_Festival_Blossom_5StagesofPetals" Value="153023" />
   <Preset Label="loot_Buff_CriticCareer_ReviewedGoodDrink" Value="153060" />
@@ -599,8 +589,6 @@
   <Preset Label="loot_Festival_Lamp_Voodoo_CD" Value="153428" />
   <Preset Label="loot_Career_SocialMedia_Buff_DevelopOnlineNetwork_Fail" Value="153484" />
   <Preset Label="loot_Career_SocialMedia_Buff_DevelopOnlineNetwork_Success" Value="153485" />
-  <Preset Label="loot_Buff_VideoGameConsole_Party_Winner_SP" Value="153529" />
-  <Preset Label="loot_Buff_VideoGameConsole_Racing_Winner_SP" Value="153530" />
   <Preset Label="loot_CulturalFood_RecipeUnlocks_Ensaymada" Value="153553" />
   <Preset Label="loot_Buff_CityLife_Busker_StatStart" Value="153584" />
   <Preset Label="loot_Buff_LoveGuru_RomanticAsk_hidden" Value="153592" />
@@ -697,4 +685,13 @@
   <Preset Label="Loot_SelfDiscovery_Reward_Romance_Unflirty" Value="315605" />
   <Preset Label="LootActions_MidlifeCrisis_LikeDislikeShift_Singing" Value="318034" />
   <Preset Label="Loot_Infant_LoudNoise_React_NoisyNeighbor" Value="321501" />
+  <Preset Label="Loot_LearnSkill_LearnAboutTarget_Singing" Value="368551" />
+  <Preset Label="Loot_LearnSkill_LearnAboutActor_Singing" Value="368563" />
+  <Preset Label="randomWeightedLoot_Festival_FleaMarket_Trade_Axolotl" Value="377650" />
+  <Preset Label="loot_Grief_PersonalityChange_Swap_UnflirtytoRomantic" Value="386680" />
+  <Preset Label="loot_Grief_PersonalityChange_Swap_RomantictoUnflirty" Value="386690" />
+  <Preset Label="loot_Grief_PersonalityChange_PackDialog_RomantictoUnflirty" Value="386727" />
+  <Preset Label="loot_Grief_PersonalityChange_PackDialog_UnflirtytoRomantic" Value="386732" />
+  <Preset Label="loot_Basketball_Buff_Removal_CompetitionStart" Value="424241" />
+  <Preset Label="Loot_Burglar_TalkingToiletReaction" Value="424341" />
 </PresetGroup>

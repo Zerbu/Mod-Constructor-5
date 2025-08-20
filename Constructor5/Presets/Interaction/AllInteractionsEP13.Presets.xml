@@ -35,7 +35,7 @@
   <Preset Label="Cowpoke Group Dance (countryDancing_Sequence_1)" Value="303308" />
   <Preset Label="Cowpoke Group Dance (CountryDancing_JigPartConstraintInteraction)" Value="303309" />
   <Preset Label="Ranch Hand  (door_Padlock_ImmediateInteractions_Unlocks_RanchHand)" Value="303786" />
-  <Preset Label="Everyone But Ranch Hand  (door_Padlock_ImmediateInteraction_Locks_Everyone_Allow_RanchHand)" Value="303787" />
+  <Preset Label="Everyone but Ranch Hand  (door_Padlock_ImmediateInteraction_Locks_Everyone_Allow_RanchHand)" Value="303787" />
   <Preset Label="Fire (sim_FireServiceNPC_RanchHand)" Value="303789" />
   <Preset Label="Hire Ranch Hand (phone_RanchHand_Hire)" Value="303791" />
   <Preset Label="Dismiss Ranch Hand (phone_RanchHand_Cancel)" Value="303792" />
@@ -454,7 +454,7 @@
   <Preset Label="Temperament Level 3 (si_CommunityBoard_HorseTraining_Temperament_Lvl_03)" Value="329143" />
   <Preset Label="Temperament Level 4 (si_CommunityBoard_HorseTraining_Temperament_Lvl_04)" Value="329144" />
   <Preset Label="See Schedule (situation_RanchHand_Schedule)" Value="329178" />
-  <Preset Label="Mentor (mentor_EquestrianSkill)" Value="329209" />
+  <Preset Label="Mentor {2.String} (mentor_EquestrianSkill)" Value="329209" />
   <Preset Label="Train to Eat Hay (horseSocials_SimToFoal_Touching_WeanToHay)" Value="329218" />
   <Preset Label="Gentle Touch (horseSocials_SimToFoal_Touching_GentleTouch)" Value="329220" />
   <Preset Label="Harvest {S2.{S3.ObjectName}}{P2.{P3.ObjectName}} (gardening_Harvest_RanchHand)" Value="329270" />
@@ -680,18 +680,10 @@
   <Preset Label="Idle_Trait_Horse_ChampionHorse" Value="331654" />
   <Preset Label="Stumble Around (waypoint_Horses_FoalInteractions_StumbleAround)" Value="331712" />
   <Preset Label="Scamper Around (waypoint_Horses_FoalInteractions_ScamperAround)" Value="331713" />
-  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_HotTub)" Value="331825" />
-  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_HotTub_NotInHotTub)" Value="331826" />
-  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch)" Value="331827" />
-  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_Smart_Hub)" Value="331828" />
-  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_WaterScooter)" Value="331829" />
-  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_Bot)" Value="331830" />
-  <Preset Label="Listen to Ranch Music (stereo_earbuds_listen_Ranch)" Value="331831" />
   <Preset Label="foalMixers_WhatsThat_Sniff" Value="331834" />
   <Preset Label="foalMixers_WhatsThat_Dig" Value="331835" />
   <Preset Label="foalMixers_WhatsThat_LookAt" Value="331836" />
   <Preset Label="What's That? (foalInteractions_WhatsThat)" Value="331837" />
-  <Preset Label="Listen to Ranch Music (stereowall_listen_Ranch)" Value="331843" />
   <Preset Label="Turn On (stereo_communityWallSpeaker_turnOn_Ranch)" Value="331846" />
   <Preset Label="Put Down (putDown_CarriedSim_HorseRiding_BuckOff)" Value="332085" />
   <Preset Label="(Debug) Always Buck Off (horses_DebugCheats_HorseRiding_BuckOff_Always)" Value="332125" />
@@ -905,7 +897,6 @@
   <Preset Label="Witness Death (reactions_Death_Horse)" Value="347410" />
   <Preset Label="immediate_Horse_DeathReact_AcquireRider" Value="347411" />
   <Preset Label="horseRiding_SI_AutonomousChat_WithRiddenHorse" Value="347558" />
-  <Preset Label="Listen to Ranch Music (stereo_listen_Ranch_SkatingRink)" Value="347974" />
   <Preset Label="autonomous_ObjectPicker_Horses_PlayWithBall" Tags="TestUnsafe" Value="348117" />
   <Preset Label="Sim_Horse_FatigueDistress" Value="348527" />
   <Preset Label="Ask About Family Nectar Recipe (social_MysteriousRancher_AskAboutFamilyNectarRecipe)" Value="348547" />
@@ -940,4 +931,44 @@
   <Preset Label="reaction_Mixers_Horse_Spooked_Scared_Looping" Value="350547" />
   <Preset Label="horseInteractions_HorseToSelf_MoveAround" Value="351371" />
   <Preset Label="si_moveaway_straightline_horse" Value="351410" />
+  <Preset Label="Clean Up (autonomous_ObjectPicker_CollectManure)" Tags="TestUnsafe" Value="352728" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_HorseToSim_Target_Listen_Nuzzle)" Value="352738" />
+  <Preset Label="Listen to {1.SimFirstName} (horseSocials_HorseToSim_Target_Listen_Sniff)" Value="352739" />
+  <Preset Label="Horse Competition (virtualRabbitHoleInteractions_EquestrianCenter_Human_BarrelRacing_CommunityBoard)" Value="352774" />
+  <Preset Label="Horse Competition (virtualRabbitHoleInteractions_EquestrianCenter_Human_EnduranceRacing_CommunityBoard)" Value="352775" />
+  <Preset Label="Horse Competition (virtualRabbitHoleInteractions_EquestrianCenter_Human_ShowJumping_CommunityBoard)" Value="352776" />
+  <Preset Label="Horse Competition (virtualRabbitHoleInteractions_EquestrianCenter_Human_UltimateCompetition_CommunityBoard)" Value="352777" />
+  <Preset Label="Horse Competition (virtualRabbitHoleInteractions_EquestrianCenter_Human_WesternPleasure_CommunityBoard)" Value="352778" />
+  <Preset Label="horseInteractions_HorseToSelf_MoveAround_Autonomy" Value="354895" />
+  <Preset Label="Ranch Hand (costumeBox_WearCostume_Confident_RanchHand)" Value="365426" />
+  <Preset Label="Ranch Hand (costumeBox_WearCostume_Flirty_RanchHand)" Value="365427" />
+  <Preset Label="Ranch Hand (costumeBox_WearCostume_Playful_RanchHand)" Value="365428" />
+  <Preset Label="Craft Nectar (ranchNectarMaker_MasteryPerk_SkillfulSleep_Stomp)" Value="379683" />
+  <Preset Label="mixer_RanchNectar_MasteryPerk_SkillfulSleep_Stomp" Value="379684" />
+  <Preset Label="Fear of Horses (reactions_Generic_Fear_FromHorses_Ghost)" Value="381904" />
+  <Preset Label="ranchNectarMaker_BottleNectarVisual_ResetMaker_NPCOnly" Value="384576" />
+  <Preset Label="Craft Nectar (ranchNectarMaker_StartCrafting_Autonomously)" Value="384579" />
+  <Preset Label="si_Gravesite_Horse_Mourn" Value="387129" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_Equestrian)" Tags="TestUnsafe" Value="396600" />
+  <Preset Label="&lt;font color='#FF0000'&gt;Only up to {0.Number} listeners can be selected.&lt;/font&gt; (simPicker_HobbyClass_Whiteboard_LectureFor_RanchNectar)" Tags="TestUnsafe" Value="396601" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_Equestrian)" Value="396602" />
+  <Preset Label="**DEBUG** (social_HobbyClass_Whiteboard_Lecture_RanchNectar)" Value="396603" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_Equestrian)" Value="396604" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_ListenToLecture_RanchNectar)" Value="396635" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_Equestrian)" Value="396636" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_StartLecture_RanchNectar)" Value="396637" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_Equestrian)" Value="397519" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_RanchNectar" Tags="TestUnsafe" Value="398513" />
+  <Preset Label="simPicker_HobbyClass_RequestClass_Equestrian" Tags="TestUnsafe" Value="398544" />
+  <Preset Label="Explore Dreadhorse Caverns (autonomous_ObjectPicker_EP14World_Cave)" Tags="TestUnsafe" Value="398823" />
+  <Preset Label="Explore Dreadhorse Caverns (immediateSuperInteraction_EP14World_Cave)" Value="398824" />
+  <Preset Label="**DEBUG** (si_HobbyClass_StartClass_RanchNectar)" Value="399535" />
+  <Preset Label="Hand Feed (horseSocials_SimToHorse_Touching_PetCare_HandFeed_NPC_ClubRulesOnly)" Value="410739" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_Equestrian_1)" Value="414360" />
+  <Preset Label="**DEBUG** (sI_HobbyClass_PrepareLecture_RanchNectar_1)" Value="414379" />
+  <Preset Label="SmallBusiness_DependentCustomer_WaveGoodbye_Horse" Value="420851" />
+  <Preset Label="Burglar!!! (burglar_Reaction_Horse)" Value="422826" />
+  <Preset Label="smallBusinessPerks_UltrasonicWhistle_Horse" Value="432105" />
+  <Preset Label="horseInteractions_HorseToSelf_MoveAround_SmallBusiness_ConsiderVisit" Value="438704" />
+  <Preset Label="Pour a Serving (multiServeConsumable_Drink_RanchNectar_Open_ClubOrCustomer)" Value="441589" />
 </PresetGroup>

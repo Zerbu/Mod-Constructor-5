@@ -4,6 +4,8 @@
   <Preset Label="loot_JungleGymRocketShip" Value="8614" />
   <Preset Label="loot_JungleGym_Adult" Value="8644" />
   <Preset Label="Loot_LTR_Romance_Medium_Picked_Object" Value="9782" />
+  <Preset Label="Loot_BrokenUp" Value="10796" />
+  <Preset Label="Loot_Divorced" Value="10847" />
   <Preset Label="Loot_LTR_Romance_Large" Value="10895" />
   <Preset Label="Loot_LTR_Romance_Large_Loss" Value="10896" />
   <Preset Label="Loot_LTR_Romance_Medium" Value="10898" />
@@ -122,7 +124,7 @@
   <Preset Label="rel_Loss_Massive_Target" Value="156222" />
   <Preset Label="Rel_Loss_VeryLarge_Target" Value="156234" />
   <Preset Label="loot_Rel_FriendshipOrRomance_Gain_Target" Value="166393" />
-  <Preset Label="rel_Loss_VeryLarge" Value="167599" />
+  <Preset Label="Rel_Loss_VeryLarge" Value="167599" />
   <Preset Label="loot_Mischief_Rel_Gain_ThrowingThings" Value="183175" />
   <Preset Label="loot_Friendly_Rel_Gain_ThrowingThings" Value="183176" />
   <Preset Label="Rel_Gain_Medium_SavedActor" Value="188846" />
@@ -196,20 +198,8 @@
   <Preset Label="loot_Reaction_Jealous_RelLoss_OtherSim_NoRomance" Value="254521" />
   <Preset Label="rel_Gain_Small_LowStrength_toTargetSim" Value="254569" />
   <Preset Label="rel_Gain_Small_LowStrength_toCarriedObject" Value="254570" />
-  <Preset Label="loot_Relationship_Fox_Gain_Small" Value="262459" />
-  <Preset Label="loot_Relationship_Fox_Gain_Medium" Value="262460" />
-  <Preset Label="loot_Relationship_Fox_Gain_Large" Value="262461" />
-  <Preset Label="loot_Relationship_Fox_Lose_Small" Value="262464" />
-  <Preset Label="loot_Relationship_Fox_Lose_Medium" Value="262465" />
-  <Preset Label="loot_Relationship_Fox_Lose_Large" Value="262466" />
-  <Preset Label="rel_Gain_Large_VillagerHelp_Reward" Value="263553" />
-  <Preset Label="loot_Relationship_Fox_CritterGifting_Like" Value="265321" />
-  <Preset Label="loot_Relationship_Fox_CritterGifting_Dislike" Value="265322" />
-  <Preset Label="loot_Relationship_Fox_CritterGifting_Favorite" Value="265323" />
-  <Preset Label="loot_VillagerHelp_Agatha2_EncourageToFlirtSetup" Value="268969" />
-  <Preset Label="loot_Relationship_Fox_Gain_Watch" Value="269427" />
   <Preset Label="Rel_Loss_Medium_NoSentiments" Value="271478" />
-  <Preset Label="loot_Sentiment_Modifiy_Increase_Positive_medium_LT_Picker" Value="273449" />
+  <Preset Label="loot_BrokenUp_ActorToTargetSim" Value="273691" />
   <Preset Label="loot_DramaNode_AskIfNewJob_Negative" Value="273886" />
   <Preset Label="rel_Gain_Small_ToddlerInfantBath" Value="273909" />
   <Preset Label="rel_Gain_Medium_ToddlerInfantBath_Mermaid" Value="273910" />
@@ -224,20 +214,7 @@
   <Preset Label="loot_GoingOutSocials_Rel_TrashAnotherSim_OffLot" Value="275636" />
   <Preset Label="loot_Fear_BeingCheatedOn_CatchCheating" Value="278339" />
   <Preset Label="loot_LTR_Romance_Large_PickedSim_TargetSim" Value="279691" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_AskToProm_Yes" Value="280028" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_AskToProm_AsFriends_Yes" Value="280031" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_AskToBe_BestFriend_No" Value="280092" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_AskToBe_BoyfriendGirlfriend_No" Value="280093" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_AskToProm_No" Value="280094" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_AskToProm_AsFriends_No" Value="280095" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_Propose_No" Value="280096" />
-  <Preset Label="loot_Sentiment_AddSentiment_Bitter_WeddingTradition_NotSelectedBestMan" Value="280494" />
-  <Preset Label="loot_Sentiment_AddSentiment_Bitter_WeddingTradition_NotSelectedMaidOfHonor" Value="280495" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_MovingTooFast" Value="280584" />
   <Preset Label="rel_Loss_Romantic_Medium_TargetSim_PickedSim" Value="280595" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_AdmireCourage" Value="280821" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_TalkAboutMarriage_Fail" Value="280823" />
-  <Preset Label="lootActions_NPCRelationshipAutonomy_TalkAboutMarriage_Success" Value="280918" />
   <Preset Label="lootActions_Social_Media_Reactions_Positive_Friendly" Value="283456" />
   <Preset Label="lootActions_Social_Media_Reactions_Positive_Mean" Value="283457" />
   <Preset Label="lootActions_Social_Media_Reactions_Positive_Flirty" Value="283458" />
@@ -250,19 +227,7 @@
   <Preset Label="lootActions_Social_Media_OtherSim_Flirty" Value="283547" />
   <Preset Label="lootActions_Social_Media_OtherSim_Mean" Value="283548" />
   <Preset Label="loot_Sentiment_Modify_Increase_Positive_small_forGhostsOnly_TargetSim_PickedSim" Value="283781" />
-  <Preset Label="loot_HighSchool_Active_RelGain_Classmates" Value="284858" />
-  <Preset Label="loot_HighSchool_Active_RelLoss_Classmates" Value="284859" />
-  <Preset Label="loot_HighSchool_Active_RelGain_Teacher1" Value="284860" />
-  <Preset Label="loot_HighSchool_Active_RelLoss_Teacher1" Value="284888" />
-  <Preset Label="loot_HighSchool_Active_RelGain_BullyTarget" Value="284927" />
-  <Preset Label="loot_HighSchool_Active_RelLoss_BullySim" Value="284928" />
-  <Preset Label="loot_Werewolf_Aspiration_BonusTrait_Pos" Value="290984" />
-  <Preset Label="loot_Werewolf_Aspiration_BonusTrait_Neg" Value="290987" />
-  <Preset Label="loot_PierAttractions_RelGain_Friendly" Value="291053" />
-  <Preset Label="loot_PierAttractions_RelGain_Romantic" Value="291055" />
-  <Preset Label="loot_PierAttractions_RelLoss_Romantic" Value="291062" />
-  <Preset Label="rel_Gain_Small_PickedSim" Value="291276" />
-  <Preset Label="loot_PierAttractions_RelLoss_Friendly" Value="291522" />
+  <Preset Label="Rel_Gain_Small_PickedSim" Value="291276" />
   <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3InviteRivalOK" Value="295442" />
   <Preset Label="loot_Scenario_Goals_StuckInTheirShadow_3InviteRivalCancel" Value="295444" />
   <Preset Label="loot_LTR_Romance_Small_TargetSim_NoListeners" Value="296449" />
@@ -274,9 +239,37 @@
   <Preset Label="loot_RelMultiplierTester_Gain" Value="319615" />
   <Preset Label="loot_RelMultiplierTester_Loss" Value="319617" />
   <Preset Label="rel_Bit_HasMet_Add_Both_Infant_Fail" Value="321658" />
+  <Preset Label="loot_Relationship_SimToPet_Loss_Small" Value="322253" />
+  <Preset Label="loot_Relationship_SimToPet_Loss_Med" Value="322254" />
+  <Preset Label="loot_Relationship_SimToPet_Loss_Large" Value="322255" />
+  <Preset Label="loot_Relationship_SimToPet_Gain_Small" Value="322256" />
+  <Preset Label="loot_Relationship_SimToPet_Gain_Med" Value="322257" />
+  <Preset Label="loot_Relationship_SimToPet_Gain_Large" Value="322258" />
+  <Preset Label="loot_Relationship_PetToPet_Gain_Large" Value="323232" />
+  <Preset Label="loot_Relationship_PetToPet_Gain_Med" Value="323233" />
+  <Preset Label="loot_Relationship_PetToPet_Gain_Small" Value="323234" />
+  <Preset Label="loot_Relationship_PetToPet_Loss_Large" Value="323236" />
+  <Preset Label="loot_Relationship_PetToPet_Loss_Med" Value="323237" />
+  <Preset Label="loot_Relationship_PetToPet_Loss_Small" Value="323238" />
   <Preset Label="loot_TemporaryStay_ParentalHelpIntroduction" Value="323352" />
+  <Preset Label="loot_Relationship_SimToPet_Gain_Small_PickedSim" Value="324515" />
+  <Preset Label="loot_Relationship_SimToPet_Loss_Small_PickedSim" Value="324516" />
   <Preset Label="loot_TemporaryStay_MeetKyle" Value="330797" />
   <Preset Label="loot_Infant_SetInfantConcern_InfantActor" Value="333577" />
+  <Preset Label="loot_Divorced_ActorToTargetSim" Value="363154" />
+  <Preset Label="Loot_LTR_Romance_Small_Loss_TargetSim" Value="371441" />
+  <Preset Label="Loot_LTR_Romance_Medium_Loss_TargetSim" Value="371442" />
+  <Preset Label="Loot_Divorced_PhoneBreakup_ActorToPickedSim" Value="375982" />
+  <Preset Label="lootActions_RelSocials_HideRelationship" Value="378504" />
+  <Preset Label="loot_FriendshipGain" Value="379325" />
+  <Preset Label="loot_FriendshipLoss" Value="379326" />
+  <Preset Label="loot_RomanceRelationshipStart" Value="379331" />
+  <Preset Label="loot_RomanceRelationshipEnd" Value="379332" />
+  <Preset Label="loot_RomanceRelationshipReStart" Value="379333" />
+  <Preset Label="loot_BecomingFriends" Value="379597" />
+  <Preset Label="loot_BecomingDespised" Value="380651" />
+  <Preset Label="loot_BecomingBestFriends" Value="380652" />
+  <Preset Label="rel_Loss_Large_PickedSim" Value="394005" />
   <Preset Label="loot_SocialContext_InterrogationTable_Change_Defensive_SmallGain" Value="104001" />
   <Preset Label="loot_SocialContext_InterrogationTable_Change_Friendly_SmallGain" Value="104002" />
   <Preset Label="loot_SocialContext_InterrogationTable_Change_Furious_SmallGain" Value="104003" />
@@ -347,6 +340,8 @@
   <Preset Label="loot_WeatherTemperatureSocials_WarmedByKiss" Value="183667" />
   <Preset Label="loot_Holidays_Mailbox_ThankYouCard" Value="184973" />
   <Preset Label="loot_LTR_Romance_Small_BeeSwarm_SavedActor" Value="186588" />
+  <Preset Label="loot_SendForgedBreakupLetter_Brokenup" Value="187417" />
+  <Preset Label="loot_SendForgedBreakupLetter_Divorced" Value="187432" />
   <Preset Label="loot_Relationship_SendForgedBreakupLetter_HadFight" Value="187760" />
   <Preset Label="loot_Relationship_SendForgedBreakupLetter_FoundOut" Value="187761" />
   <Preset Label="rel_Gain_Large_FamePerk_InstantBesties" Value="193597" />
@@ -472,6 +467,110 @@
   <Preset Label="loot_PierAttractions_RelGain_Romantic" Value="291055" />
   <Preset Label="loot_PierAttractions_RelLoss_Romantic" Value="291062" />
   <Preset Label="loot_PierAttractions_RelLoss_Friendly" Value="291522" />
+  <Preset Label="lootActions_TeenRelationshipDrama_DecayCrushInRelationship" Value="347734" />
+  <Preset Label="loot_RanchHandSituation_Start" Value="305068" />
+  <Preset Label="loot_Relationship_SimToPet_Gain_HorseRiding" Value="326889" />
+  <Preset Label="loot_PremadesSetup_EP14_NectarFriendCreative_NectarFriendMaterialistic" Value="336414" />
+  <Preset Label="loot_Relationship_Bit_HorseAdopt_ChildrenStories_Story_Progression" Value="337812" />
+  <Preset Label="rel_Bit_HasMet_Add_Horse" Value="341686" />
+  <Preset Label="loot_Relationship_SimToPet_Gain_HorseRiding_Small" Value="344395" />
+  <Preset Label="loot_Relationship_SimToPet_Gain_HorseRiding_Large" Value="344397" />
+  <Preset Label="loot_RegionalGreeting_RegionalTrait" Value="339029" />
+  <Preset Label="loot_MultiUnitAspirations_FountainOfLocalKnowledge_ExtraRel" Value="348278" />
+  <Preset Label="loot_Trait_ChildoftheSEA_RelMultiplier" Value="351749" />
+  <Preset Label="loot_Sentiment_AddSentiment_Furious_TerribleDate" Value="358587" />
+  <Preset Label="loot_RelSat_RelGain_Small" Value="363549" />
+  <Preset Label="loot_RelSat_RelGain_Medium" Value="363550" />
+  <Preset Label="loot_RelSat_RelLoss_Medium" Value="363554" />
+  <Preset Label="loot_RelSat_RelLoss_Small" Value="363555" />
+  <Preset Label="loot_RelSat_RelGain_Medium_TOTO_LikeDislike_Affection" Value="364727" />
+  <Preset Label="loot_RelSat_RelGain_Small_TOTO_LikeDislike_Affection" Value="364728" />
+  <Preset Label="loot_RelSat_RelLoss_Medium_TOTO_LikeDislike_Affection" Value="364730" />
+  <Preset Label="loot_RelSat_RelLoss_Small_TOTO_LikeDislike_Affection" Value="364731" />
+  <Preset Label="loot_RelSat_RelGain_Medium_TOTO_LikeDislike_Flirt" Value="365212" />
+  <Preset Label="loot_RelSat_RelGain_Small_TOTO_LikeDislike_Flirt" Value="365213" />
+  <Preset Label="loot_RelSat_RelLoss_Medium_TOTO_LikeDislike_Flirt" Value="365215" />
+  <Preset Label="loot_RelSat_RelLoss_Small_TOTO_LikeDislike_Flirt" Value="365216" />
+  <Preset Label="loot_RelSat_RelGain_Medium_TOTO_LikeDislike_PhysicalIntimacy" Value="365218" />
+  <Preset Label="loot_RelSat_RelGain_Small_TOTO_LikeDislike_PhysicalIntimacy" Value="365219" />
+  <Preset Label="loot_RelSat_RelLoss_Medium_TOTO_LikeDislike_PhysicalIntimacy" Value="365221" />
+  <Preset Label="loot_RelSat_RelLoss_Small_TOTO_LikeDislike_PhysicalIntimacy" Value="365222" />
+  <Preset Label="loot_RelSat_RelGain_Medium_TOTO_LikeDislike_Woohoo" Value="365228" />
+  <Preset Label="loot_RelSat_RelGain_Small_TOTO_LikeDislike_Woohoo" Value="365229" />
+  <Preset Label="loot_RelSat_RelLoss_Medium_TOTO_LikeDislike_Woohoo" Value="365267" />
+  <Preset Label="loot_RelSat_RelLoss_Small_TOTO_LikeDislike_Woohoo" Value="365268" />
+  <Preset Label="loot_RelSat_RelGain_Medium_TOTO_GiftGiving" Value="365270" />
+  <Preset Label="loot_RelSat_RelGain_Small_TOTO_GiftGiving" Value="365271" />
+  <Preset Label="loot_RelSat_RelLoss_Medium_TOTO_GiftGiving" Value="365273" />
+  <Preset Label="loot_RelSat_RelLoss_Large_Jealousy_ActorOnly" Value="365376" />
+  <Preset Label="lootActions_CAD_DateComplete_Bronze" Value="365537" />
+  <Preset Label="lootActions_CAD_DateComplete_Silver" Value="365538" />
+  <Preset Label="lootActions_CAD_DateComplete_Gold" Value="365539" />
+  <Preset Label="lootActions_CAD_HangoutComplete_Bronze" Value="365846" />
+  <Preset Label="lootActions_CAD_HangoutComplete_Silver" Value="365847" />
+  <Preset Label="lootActions_CAD_HangoutComplete_Gold" Value="365848" />
+  <Preset Label="loot_triviaBox_thumbsUp_wooWho_relGain" Value="365985" />
+  <Preset Label="lootActions_CAD_PhoneDateRequest_Rejected" Value="369493" />
+  <Preset Label="lootActions_CAD_PhoneHangoutRequest_Rejected" Value="369525" />
+  <Preset Label="lootActions_CDG_NPC_AskTo_Accept" Value="370792" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_TheWealthyWeirdo_Accept" Value="372650" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_SecretAdmirer_Accept" Value="372652" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_WantYouBack_Accept" Value="372653" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_7Dates_Decline" Value="372662" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_BabeComeOver_Decline" Value="372664" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_LoveYou_BackToWork" Value="372669" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_SecretAdmirer_Decline" Value="372670" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_WantYouBack_NewPhoneWhoDis" Value="372672" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_WantYouBack_Decline" Value="372673" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_LoveYou_BringTacos_CreateFood" Value="373890" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_LoveYou_BringPizza_CreateFood" Value="373891" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_BabeComeOver_Outcome" Value="373896" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_WeNeedToTalk_Yes_Outcome" Value="373898" />
+  <Preset Label="loot_DramaNode_RomanticPhoneCalls_WeNeedToTalk_YesWithChocolate_Outcome" Value="373900" />
+  <Preset Label="loot_RelationshipCounseling_ChanceCards_SelectedAttraction_VentFailure" Value="374631" />
+  <Preset Label="loot_RelationshipCounseling_ChanceCards_SelectedRelSatisfaction_VentFailure" Value="374633" />
+  <Preset Label="loot_RelationshipCounseling_ChanceCards_SelectedRelSatisfaction_VentSuccess" Value="374635" />
+  <Preset Label="loot_RelationshipCounseling_ChanceCards_SelectedRomanceDynamics_VentFailure" Value="374638" />
+  <Preset Label="loot_RelationshipCounseling_ChanceCards_SelectedRomanticRel_VentSuccess" Value="374639" />
+  <Preset Label="loot_RelationshipCounseling_ChanceCards_SelectedRomanticRel_VentFailure" Value="374640" />
+  <Preset Label="loot_BrokenUp_PhoneBreakup_ActorToPickedSim" Value="375892" />
+  <Preset Label="lootActions_CAD_CancelDate" Value="376048" />
+  <Preset Label="randomWeightedLoot_Relationships_RomanticPhoneCalls_Random" Value="377457" />
+  <Preset Label="lootActions_CAD_CancelHangout" Value="378760" />
+  <Preset Label="loot_triviaBox_thumbsUp_wooWho_relGain_romance" Value="386989" />
+  <Preset Label="loot_RelSat_RelLoss_Medium_Mean_Socials_Only" Value="387408" />
+  <Preset Label="loot_Divorced_AutoInitRomance" Value="387558" />
+  <Preset Label="loot_BrokenUp_AutoInitRomance" Value="387559" />
+  <Preset Label="loot_Trait_Macabre_RelMultiplier" Value="382037" />
+  <Preset Label="loot_Heirlooms_Pawn_Success" Value="382277" />
+  <Preset Label="loot_EP17World_WellOfSouls_Courage_Failure" Value="385545" />
+  <Preset Label="loot_Relationship_TalktoMemorialAltar" Value="387316" />
+  <Preset Label="loot_MovingOn_RelBit_Success" Value="388200" />
+  <Preset Label="loot_MovingOn_RelBit_Failure" Value="388202" />
+  <Preset Label="loot_MovingOn_RelBit_Soulmate" Value="388203" />
+  <Preset Label="loot_EP17World_EdithBasu_Relationship_Gain_Med" Value="389206" />
+  <Preset Label="loot_EP17World_EdithBasu_Relationship_Gain_Massive" Value="389207" />
+  <Preset Label="loot_EP17World_EdithBasu_Relationship_Loss_Med" Value="389238" />
+  <Preset Label="loot_EP17World_EdithBasu_Relationship_Loss_Massive" Value="389239" />
+  <Preset Label="loot_EP17World_EdithBasu_Relationship_Gain_Small" Value="389240" />
+  <Preset Label="loot_Relationship_TalktoMemorialAltar_Family" Value="389683" />
+  <Preset Label="loot_Career_Mortician_SocialGhost" Value="391617" />
+  <Preset Label="loot_Career_Mortician_SocialParanorm" Value="391618" />
+  <Preset Label="loot_Career_Mortician_GrimRel" Value="391619" />
+  <Preset Label="loot_Career_Mortician_GrimRel_neg" Value="391621" />
+  <Preset Label="rel_Gain_Medium_Funeral" Value="393531" />
+  <Preset Label="loot_Buff_CareerTone_ReaperCareer_Social" Value="394611" />
+  <Preset Label="loot_ChasedByDeath_HandshakeWithMacabre_Gains" Value="398132" />
+  <Preset Label="lootActions_Dejavu_relBehavior" Value="401438" />
+  <Preset Label="loot_Career_Reaper_GrimLevelRel" Value="402082" />
+  <Preset Label="loot_HobbyClass_EndOfClassRelGain" Value="398070" />
+  <Preset Label="rel_Gain_Small_SmallBusiness_Reputation_Friendship" Value="403917" />
+  <Preset Label="rel_Gain_Small_SmallBusiness_Reputation_Romance" Value="403918" />
+  <Preset Label="loot_Career_SmallBusiness_Employee_EndOfShift_1_LowPay" Value="404467" />
+  <Preset Label="loot_Career_SmallBusiness_Employee_EndOfShift_3_HighPay" Value="404470" />
+  <Preset Label="loot_SmallBusiness_Reputation_Consequences_Ultimatum_Resolved" Value="419334" />
+  <Preset Label="loot_SmallBusiness_BelovedBrand_SatisfiedRelGain" Value="420703" />
+  <Preset Label="loot_Shady_Heist_Crew_Success" Value="441965" />
   <Preset Label="Loot_Statistic_Trait_IncrediblyFriendly_Greeting" Value="102790" />
   <Preset Label="loot_Aspiration_Wellness_RepeatCustomer" Value="272552" />
   <Preset Label="loot_Aspiration_Wellness_RepeatCustomer_SavedActor1" Value="276015" />
